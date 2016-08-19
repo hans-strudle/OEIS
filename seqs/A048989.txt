@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048989
+Showing 1-1 of 1
+
+%I A048989
+%S A048989 3,4,5,6,11,12,17,18,31,32,33,34,35,36,41,42,59,60,67,68,69,70,83,84,
+%T A048989 85,86,87,88,109,110,111,112,127,128,129,130,157,158,159,160,161,162,
+%U A048989 179,180,191,192,211,212,213,214,215,216,217,218,219
+%N A048989 Numbers n such that pi(n) is prime.
+%C A048989 A000720(a(n)) is prime. [From _Omar E. Pol_, Dec 19 2008]
+%H A048989 T. D. Noe, <a href="/A048989/b048989.txt">Table of n, a(n) for n=1..10000</a>
+%t A048989 Select[Range[250],PrimeQ[PrimePi[#]]&]  (* _Harvey P. Dale_, Mar 23 2011 *)
+%Y A048989 Cf. A000720.
+%K A048989 nonn,easy,nice
+%O A048989 1,1
+%A A048989 _G. L. Honaker, Jr._
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

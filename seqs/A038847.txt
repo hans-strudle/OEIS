@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038847
+Showing 1-1 of 1
+
+%I A038847
+%S A038847 7,19,37,61,63,91,117,127,169,189,215,217,271,279,331,335,387,397,469,
+%T A038847 485,511,513,547,631,657,665,721,817,819,875,919,973,999,1027,1115,
+%U A038847 1141,1197,1261,1267,1323,1385,1387,1413,1519,1603,1647,1657,1685,1701
+%N A038847 Odd numbers that are differences between two cubes in at least one way.
+%t A038847 With[{nn=50},Take[Select[Union[Abs[#[[2]]-#[[1]]]&/@Subsets[Range[nn]^3,{2}]],OddQ],nn]] (* _Harvey P. Dale_, Jan 18 2013 *)
+%K A038847 nonn
+%O A038847 1,1
+%A A038847 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032779
+Showing 1-1 of 1
+
+%I A032779
+%S A032779 0,1120,110880,1441440,5189184,58605120,349949600,639381600,
+%T A032779 3765731200,12841684128,136367431200,1442885004000,4895245266912,
+%U A032779 28461435424476,51671930508000,300266024938880,3166522452945280,10732052830603104
+%N A032779 Integer quotients of n(n+1)(n+2)...(n+7) / n+(n+1)+(n+2)+...+(n+7).
+%Y A032779 Cf. A032777, A032778.
+%K A032779 nonn
+%O A032779 0,2
+%A A032779 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

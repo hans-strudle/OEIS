@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032278
+Showing 1-1 of 1
+
+%I A032278
+%S A032278 0,1,1,2,2,4,4,7,8,13,15,25,30,48,63,98,132,208,290,454,656,1021,1509,
+%T A032278 2358,3544,5535,8441,13200,20318,31835,49352,77435,120710,189673,
+%U A032278 296853,467159,733362,1155646,1818593,2869377,4524080
+%N A032278 Number of ways to partition n elements into pie slices each with at least 2 elements allowing the pie to be turned over.
+%C A032278 A134681(n) = A055642(a(n)). - _Reinhard Zumkeller_, Nov 06 2007
+%H A032278 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032278 "DIK" (bracelet, indistinct, unlabeled) transform of 0, 1, 1, 1...
+%Y A032278 Cf. A000005, A027750.
+%K A032278 nonn
+%O A032278 1,4
+%A A032278 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

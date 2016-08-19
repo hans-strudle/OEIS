@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015538
+Showing 1-1 of 1
+
+%I A015538
+%S A015538 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015538 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015538 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015538 Inverse of 1529th cyclotomic polynomial.
+%p A015538 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015538 sign
+%O A015538 0,1
+%A A015538 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

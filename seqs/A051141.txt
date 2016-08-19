@@ -1,0 +1,60 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051141
+Showing 1-1 of 1
+
+%I A051141
+%S A051141 1,3,1,18,9,1,162,99,18,1,1944,1350,315,30,1,29160,22194,6075,
+%T A051141 765,45,1,524880,428652,131544,19845,1575,63,1,11022480,9526572,
+%U A051141 3191076,548289,52920,2898,84,1,264539520,239660208
+%V A051141 1,-3,1,18,-9,1,-162,99,-18,1,1944,-1350,315,-30,1,-29160,22194,-6075,
+%W A051141 765,-45,1,524880,-428652,131544,-19845,1575,-63,1,-11022480,9526572,
+%X A051141 -3191076,548289,-52920,2898,-84,1,264539520,-239660208
+%N A051141 Triangle read by rows: a(n, m) = S1(n, m)*3^(n-m) where S1 are the signed Stirling numbers of first kind A008275.
+%C A051141 Previous name was: Generalized Stirling number triangle of first kind.
+%C A051141 a(n,m) = R_n^m(a=0,b=3) in the notation of the given reference.
+%C A051141 a(n,m) is a Jabotinsky matrix, i.e., the monic row polynomials E(n,x) := sum(a(n,m)*x^m,m=1..n) = product(x-3*j,j=0..n-1), n >= 1, E(0,x) := 1, are exponential convolution polynomials (see A039692 for the definition and a Knuth reference).
+%C A051141 This is the signed Stirling1 triangle with diagonals d>=0 (main diagonal d=0) scaled with 3^d.
+%C A051141 Exponential Riordan array [1/(1+3x),log(1+3x)/3]. The unsigned triangle is [1/(1-3x),log(1/(1-3x)^(1/3))]. - _Paul Barry_, Apr 29 2009
+%C A051141 Also the Bell transform of the triple factorial numbers A032031 which adds a first column (1,0,0 ...) on the left side of the triangle and computes the unsigned values. For the definition of the Bell transform see A264428. See A004747 for the triple factorial numbers A008544 and A203412 for the triple factorial numbers A007559 as well as A039683 and A132062 for the case of double factorial numbers. - _Peter Luschny_, Dec 21 2015
+%H A051141 W. Lang, <a href="http://www.itp.kit.edu/~wl/EISpub/A051141.text">First 10 rows</a>.
+%H A051141 D. S. Mitrinovic, M. S. Mitrinovic, <a href="http://pefmath2.etf.rs/files/47/77.pdf">Tableaux d'une classe de nombres relies aux nombres de Stirling</a> Univ. Beograd. Pubi. Elektrotehn. Fak. Ser. Mat. Fiz. 77 (1962).
+%F A051141 a(n, m) = a(n-1, m-1) - 3*(n-1)*a(n-1, m), n >= m >= 1;
+%F A051141 a(n, m) = 0, n<m; a(n, 0) = 0, a(1, 1) = 1.
+%F A051141 E.g.f. for m-th column of signed triangle: (((log(1+3*x))/3)^m)/m!.
+%F A051141 a(n,1) = A032031(n-1). - _Peter Luschny_, Dec 23 2015
+%e A051141 Triangle starts:
+%e A051141      1;
+%e A051141     -3,       1;
+%e A051141     18,      -9,      1;
+%e A051141   -162,      99,    -18,      1;
+%e A051141   1944,   -1350,    315,    -30,    1;
+%e A051141 -29160,   22194,  -6075,    765,  -45,   1;
+%e A051141 524880, -428652, 131544, -19845, 1575, -63, 1;
+%e A051141 ---
+%e A051141 Row polynomial E(3,x) = 18*x-9*x^2+x^3.
+%e A051141 From _Paul Barry_, Apr 29 2009: (Start)
+%e A051141 The unsigned array [1/(1-3x),log(1/(1-3x)^(1/3))] has production matrix
+%e A051141 3, 1,
+%e A051141 9, 6, 1,
+%e A051141 27, 27, 9, 1,
+%e A051141 81, 108, 54, 12, 1,
+%e A051141 243, 405, 270, 90, 15, 1,
+%e A051141 729, 1458, 1215, 540, 135, 18, 1
+%e A051141 which is A007318^{3} beheaded. (End)
+%t A051141 a[n_, m_] /; n >= m >= 1 := a[n, m] = a[n-1, m-1] - 3(n-1)*a[n-1, m]; a[n_, m_] /; n < m = 0; a[_, 0] = 0; a[1, 1] = 1; Flatten[Table[a[n, m], {n, 1, 9}, {m, 1, n}]][[1 ;; 38]] (* _Jean-François Alcover_, Jun 01 2011, after formula *)
+%o A051141 (Sage)
+%o A051141 # The function bell_transform is defined in A264428.
+%o A051141 triplefactorial = lambda n: 3^n*factorial(n)
+%o A051141 def A051141_row(n):
+%o A051141     trifact = [triplefactorial(k) for k in (0..n)]
+%o A051141     return bell_transform(n, trifact)
+%o A051141 [A051141_row(n) for n in (0..8)] # _Peter Luschny_, Dec 21 2015
+%Y A051141 First (m=1) column sequence is: A032031(n-1). Row sums (signed triangle): A008544(n-1)*(-1)^(n-1). Row sums (unsigned triangle): A007559(n). Cf. A008275 (Stirling1 triangle), for b=1, A039683 for b=2. Cf. A051142.
+%Y A051141 Cf. A039683, A132062, A264428.
+%K A051141 sign,easy,tabl
+%O A051141 1,2
+%A A051141 _Wolfdieter Lang_
+%E A051141 Name clarified using a formula of the author by _Peter Luschny_, Dec 23 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

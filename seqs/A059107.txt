@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059107
+Showing 1-1 of 1
+
+%I A059107
+%S A059107 0,0,0,0,0,0,0,0,3,5,0,0,0,0,0,0,13440,54947,249280,0
+%N A059107 Number of solutions to triples version of Langford (or Langford-Skolem) problem.
+%C A059107 How many ways are of arranging the numbers 1,1,1,2,2,2,3,3,3,...,n,n,n so that there is one number between the first and second 1's and one number between the second and third 1's; two numbers between the first and second 2's and two numbers between the second and third 2's; ... n numbers between the first and second n's and n numbers between the second and third n's?
+%H A059107 F. S. Gillespie and W. R. Utz, <a href="http://www.fq.math.ca/Scanned/4-2/gillespie.pdf">A generalized Langford Problem</a>, Fibonacci Quart., 1966, v4, 184-186.
+%H A059107 J. E. Miller, <a href="http://dialectrix.com/langford.html">Langford's Problem</a>
+%e A059107 For n=9 a solution is 3 4 7 9 3 6 4 8 3 5 7 4 6 9 2 5 8 2 7 6 2 5 1 9 1 8 1.
+%Y A059107 Cf. A014552, A050998, A059106, A059108.
+%K A059107 nonn,nice,hard,more
+%O A059107 1,9
+%A A059107 _N. J. A. Sloane_, Feb 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

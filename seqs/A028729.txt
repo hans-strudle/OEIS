@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028729
+Showing 1-1 of 1
+
+%I A028729
+%S A028729 2,3,5,6,7,8,10,11,12,13,14,15
+%N A028729 Nonsquares mod 16.
+%C A028729 The elements of A028809 smaller than 16, because 96 is a multiple of 16. [From _R. J. Mathar_, Oct 23 2008]
+%t A028729 Complement[Range[15],Union[PowerMod[Range[15],2,16]]]  (* _Harvey P. Dale_, Apr 30 2011 *)
+%K A028729 nonn,fini,full
+%O A028729 0,1
+%A A028729 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

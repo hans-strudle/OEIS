@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007812
+Showing 1-1 of 1
+
+%I A007812
+%S A007812 0,1,3,2,6,17,33,56,72,88,114,140,160,190,211,250,290,322,356,404,438,
+%T A007812 474
+%N A007812 Number of n-node Steinhaus graphs whose complements have at least one cut-vertex.
+%D A007812 Cf. W. Dymacek, T. Whaley, Generating strings for bipartite Steinhaus graphs, Discrete Math. 141 (1995), pages 97-107.
+%D A007812 Cf. W.M. Dymacek, M. Koerlin, T. Whaley, A survey of Steinhaus graphs, Proc. 8th Quadrennial International Conf. on Graph Theory, Combinatorics, Algorithms and Application, Kalamazoo, Mich. 1996, pages 313-323, Vol. I.
+%K A007812 nonn
+%O A007812 1,3
+%A A007812 Wayne M. Dymacek [ DYMACEK(AT)fs.sciences.WLU.EDU ]
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

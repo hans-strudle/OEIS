@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040468
+Showing 1-1 of 1
+
+%I A040468
+%S A040468 22,6,3,4,8,1,1,1,2,1,1,21,1,1,2,1,1,1,8,4,3,6,44,6,3,4,8,1,1,1,2,1,1,
+%T A040468 21,1,1,2,1,1,1,8,4,3,6,44,6,3,4,8,1,1,1,2,1,1,21,1,1,2,1,1,1,8,4,3,6,
+%U A040468 44,6,3,4,8,1,1,1,2,1,1,21,1,1,2,1,1,1,8,4,3,6,44,6
+%N A040468 Continued fraction for sqrt(491).
+%H A040468 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040468 with(numtheory): Digits := 300: convert(evalf(sqrt(491)),confrac);
+%K A040468 nonn,cofr,easy,less
+%O A040468 0,1
+%A A040468 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

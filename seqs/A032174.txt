@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032174
+Showing 1-1 of 1
+
+%I A032174
+%S A032174 2,1,4,15,66,291,1368,6555,32262,161505,821280,4227710,21996052,
+%T A032174 115469442,610894004,3253836785,17434360442,93907348819,508194420136,
+%U A032174 2761768079091,15065823780102,82469439357341
+%N A032174 Number of series-reduced planted compound windmills with n leaves of 2 colors with no symmetries.
+%H A032174 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A032174 Doubles (index 2+) under "CHK" (necklace, identity, unlabeled) transform.
+%K A032174 nonn
+%O A032174 1,1
+%A A032174 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

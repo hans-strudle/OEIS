@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015475
+Showing 1-1 of 1
+
+%I A015475
+%S A015475 0,1,4,65,4164,1066049,1091638340,4471351706689,73258627454030916,
+%T A015475 4801077413298721817665,1258573637505038759624004676,
+%U A015475 1319710110525284599824799048959041,5535265395417901871821058989004725507140
+%N A015475 q-Fibonacci numbers for q=4.
+%H A015475 Vincenzo Librandi, <a href="/A015475/b015475.txt">Table of n, a(n) for n = 0..50</a>
+%F A015475 a(n) = 4^(n-1) a(n-1) + a(n-2).
+%t A015475 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*4^(n-1)+a[n-2]},  a, {n, 20}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%K A015475 nonn,easy
+%O A015475 0,3
+%A A015475 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

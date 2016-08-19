@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025472
+Showing 1-1 of 1
+
+%I A025472
+%S A025472 1,6,24,87,393,2002,11212,65907,398221,2454882,15355483
+%N A025472 a(n) = position of 7^n among the powers of primes (A000961).
+%F A025472 a(n) = A065515(7^n). - _Michel Marcus_, Mar 24 2013
+%o A025472 (PARI) a(n)= n=7^n+.5; 1+sum(k=1, log(n)\log(2), primepi(n^(1/k))) \\ _Michel Marcus_, Mar 25 2013
+%K A025472 nonn,more
+%O A025472 0,2
+%A A025472 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

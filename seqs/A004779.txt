@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004779
+Showing 1-1 of 1
+
+%I A004779
+%S A004779 8,16,17,24,32,33,34,35,40,48,49,56,64,65,66,67,68,69,70,71,72,80,81,
+%T A004779 88,96,97,98,99,104,112,113,120,128,129,130,131,132,133,134,135,136,
+%U A004779 137,138,139,140,141,142,143,144,145,152,160,161,162,163,168
+%N A004779 Binary expansion contains 3 adjacent 0's.
+%F A004779 a(n) ~ n. - _Charles R Greathouse IV_, Oct 23 2015
+%Y A004779 Complement of A003796. Cf. A004753.
+%Y A004779 Cf. A004781, A136037.
+%K A004779 nonn,easy
+%O A004779 0,1
+%A A004779 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

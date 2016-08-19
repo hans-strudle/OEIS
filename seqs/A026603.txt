@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026603
+Showing 1-1 of 1
+
+%I A026603
+%S A026603 3,5,7,11,13,18,19,24,26,29,31,36,37,42,44,48,50,52,55,60,62,66,68,70,
+%T A026603 74,76,81,83,85,90,91,96,98,102,104,106,109,114,116,120,122,124,128,
+%U A026603 130,135,138,140,142,146,148,153,154,159,161
+%N A026603 Numbers n such that s(n) = 3, where s = A026600.
+%C A026603 It appears that a(n) gives the position of its own n-th 1 modulo 3 term, the n-th 2 modulo 3 term in A026601, and the n-th multiple of 3 in A026602. A026601 and A026602 appear to have the same sort of indexical properties. [From _Matthew Vandermast_, Oct 06 2010]
+%K A026603 nonn
+%O A026603 1,1
+%A A026603 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

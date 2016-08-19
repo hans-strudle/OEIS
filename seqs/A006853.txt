@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006853
+Showing 1-1 of 1
+
+%I A006853 M1299
+%S A006853 2,2,4,18,648,3140062,503483766022188
+%N A006853 Balanced colorings of n-cube.
+%C A006853 Number of ways to have center of gravity of an n-dimensional hypercube at center by weighting each vertex with 0 or 1.
+%D A006853 E. M. Palmer, R. C. Read and R. W. Robinson, Balancing the n-cube: a census of colorings, J. Algebraic Combin., 1 (1992), 257-273.
+%D A006853 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%e A006853 For a square (2 dimensions) there are 4 ways to weight each vertex with 0 or 1 while retaining center of gravity at center of the square, so a(2)=4.
+%K A006853 nonn,nice
+%O A006853 0,1
+%A A006853 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

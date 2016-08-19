@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013328
+Showing 1-1 of 1
+
+%I A013328
+%S A013328 1,0,0,4,8,0,56,1136,4976,47040,541728,2460416,51170624,
+%T A013328 202185984,5359238912,20705351936,673408564736,2215089472512,
+%U A013328 100278515381760,202372883465216,17008883052323840
+%V A013328 1,0,0,-4,-8,0,-56,1136,-4976,47040,-541728,2460416,-51170624,
+%W A013328 202185984,-5359238912,20705351936,-673408564736,2215089472512,
+%X A013328 -100278515381760,202372883465216,-17008883052323840
+%N A013328 E.g.f.: sin(exp(x)-sec(x))=x-4/4!*x^4-8/5!*x^5-56/7!*x^7+1136/8!*x^8...
+%t A013328 With[{nn=30},CoefficientList[Series[Sin[Exp[x]-Sec[x]],{x,0,nn}],x]Range[0,nn]!] (* _Harvey P. Dale_, Jan 22 2013 *)
+%K A013328 sign
+%O A013328 0,4
+%A A013328 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013328 Definition clarified by _Harvey P. Dale_, Jan 22 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

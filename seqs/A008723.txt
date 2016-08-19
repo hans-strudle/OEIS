@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008723
+Showing 1-1 of 1
+
+%I A008723
+%S A008723 1,0,2,0,3,0,4,0,5,0,6,1,7,2,8,3,9,4,10,5,11,6,13,7,15,8,17,9,19,10,
+%T A008723 21,11,23,13,25,15,27,17,29,19,31,21,33,23,36,25,39,27,42,29,45,31,48,
+%U A008723 33,51,36,54,39,57,42,60
+%N A008723 Molien series for 3-dimensional group [2,11] = *2 2 11.
+%H A008723 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=226">Encyclopedia of Combinatorial Structures 226</a>
+%H A008723 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%F A008723 a(n) ~ 1/88*n^2. - _Ralf Stephan_, Apr 29 2014
+%p A008723 1/(1-x^2)^2/(1-x^11)
+%K A008723 nonn
+%O A008723 0,3
+%A A008723 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

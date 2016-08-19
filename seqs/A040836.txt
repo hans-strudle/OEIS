@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040836
+Showing 1-1 of 1
+
+%I A040836
+%S A040836 29,2,2,1,28,1,2,2,58,2,2,1,28,1,2,2,58,2,2,1,28,1,2,2,58,2,2,1,28,1,
+%T A040836 2,2,58,2,2,1,28,1,2,2,58,2,2,1,28,1,2,2,58,2,2,1,28,1,2,2,58,2,2,1,
+%U A040836 28,1,2,2,58,2,2,1,28,1,2,2,58,2,2,1,28,1,2,2,58,2,2,1
+%N A040836 Continued fraction for sqrt(866).
+%H A040836 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040836 a(n)=(1/56)*{-368*(n mod 8)+24*[(n+1) mod 8]+17*[(n+2) mod 8]+213*[(n+3) mod 8]-165*[(n+4) mod 8]+31*[(n+5) mod 8]+24*[(n+6) mod 8]+416*[(n+7) mod 8]}-29*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 29 2009]
+%p A040836 with(numtheory): Digits := 300: convert(evalf(sqrt(866)),confrac);
+%K A040836 nonn,cofr,easy
+%O A040836 0,1
+%A A040836 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

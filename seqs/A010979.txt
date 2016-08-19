@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010979
+Showing 1-1 of 1
+
+%I A010979
+%S A010979 1,27,378,3654,27405,169911,906192,4272048,18156204,70607460,
+%T A010979 254186856,854992152,2707475148,8122425444,23206929840,63432274896,
+%U A010979 166509721602,421171648758,1029530696964,2438362177020,5608233007146,12551759587422,27385657281648
+%N A010979 Binomial coefficient C(n,26).
+%H A010979 T. D. Noe, <a href="/A010979/b010979.txt">Table of n, a(n) for n = 26..1000</a>
+%F A010979 a(n) = C(n,26), n>=26. G.f.: 1/(1-x)^27. [_Zerinvary Lajos_, Aug 18 2008]
+%p A010979 seq(binomial(n,26),n=26..41); # _Zerinvary Lajos_, Aug 18 2008
+%t A010979 Table[Binomial[n,26],{n,26,60}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 26 2011 *)
+%o A010979 (MAGMA) [Binomial(n, 26): n in [26..60]]; // _Vincenzo Librandi_, Jun 12 2013
+%Y A010979 Cf. A010970, A010971, A010972.
+%K A010979 nonn,easy
+%O A010979 26,2
+%A A010979 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

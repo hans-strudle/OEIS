@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008395
+Showing 1-1 of 1
+
+%I A008395
+%S A008395 1,110,3080,40370,322190,1815506,7925720,28512110,88206140,241925530,
+%T A008395 601585512,1379301990,2953859370,5968878630,11472968760,21114177018,
+%U A008395 37403270520,64062783510,106481351240,172295622730,272125000774,420487598410
+%N A008395 Coordination sequence for A_10 lattice.
+%D A008395 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A008395 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A008395 T. D. Noe, <a href="/A008395/b008395.txt">Table of n, a(n) for n=0..1000</a>
+%H A008395 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A008395 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (10, -45, 120, -210, 252, -210, 120, -45, 10, -1).
+%F A008395 a(n) = 46189/90720*n^9+26741/3024*n^7+171457/4320*n^5+111683/2268*n^3+7381/630*n.
+%F A008395 Sum_{d=1}^10 C(11, d) C(m/2-1, d-1) C(10-d+m/2, m/2), where norm m is always even. (Serra-Sagrista)
+%F A008395 G.f.: (x^10 +100*x^9 +2025*x^8 +14400*x^7 +44100*x^6 +63504*x^5 +44100*x^4 +14400*x^3 +2025*x^2 +100*x +1)/(x -1)^10. [_Colin Barker_, Sep 26 2012]
+%p A008395 46189/90720*n^9+26741/3024*n^7+171457/4320*n^5+111683/2268*n^3+7381/630*n;
+%K A008395 nonn,easy
+%O A008395 0,2
+%A A008395 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

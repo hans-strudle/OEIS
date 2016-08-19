@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059091
+Showing 1-1 of 1
+
+%I A059091
+%S A059091 1,11,168,185,467,767,1400,1428,1736,2516,3275,3540
+%N A059091 Numbers n such that 3*7^n - 2 is prime.
+%t A059091 Do[ If[ PrimeQ[ 3*7^n - 2 ], Print[n] ], {n, 1, 5000} ]
+%K A059091 nonn
+%O A059091 1,2
+%A A059091 _Robert G. Wilson v_, Feb 12 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

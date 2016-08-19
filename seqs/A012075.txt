@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012075
+Showing 1-1 of 1
+
+%I A012075
+%S A012075 1,1,1,4,13,76,421,3424,26713,285136,2871241,38302144,473357413,
+%T A012075 7603381696,111506036461,2097552753664,35624155784113,768471264000256,
+%U A012075 14838126699784081,361133162545705984
+%N A012075 exp(arcsin(tan(x)))=1+x+1/2!*x^2+4/3!*x^3+13/4!*x^4+76/5!*x^5...
+%K A012075 nonn
+%O A012075 0,4
+%A A012075 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

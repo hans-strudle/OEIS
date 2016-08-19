@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008918
+Showing 1-1 of 1
+
+%I A008918
+%S A008918 2178,21978,219978,2199978,21782178,21999978,217802178,219999978,
+%T A008918 2178002178,2197821978,2199999978,21780002178,21978021978,21999999978,
+%U A008918 217800002178,217821782178,219780021978,219978219978,219999999978,2178000002178,2178219782178
+%N A008918 Numbers n such that 4*n = (n written backwards), n > 0.
+%D A008918 D. Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986.
+%H A008918 Vincenzo Librandi, <a href="/A008918/b008918.txt">Table of n, a(n) for n = 1..200</a>
+%H A008918 N. J. A. Sloane, <a href="http://arxiv.org/abs/1307.0453">2178 And All That</a>, Fib. Quart., 52 (2014), 99-120.
+%F A008918 Theorem (David W. Wilson): A008918(n) = 2*A001232(n).
+%t A008918 Rest@Select[FromDigits /@ Tuples[{0, 198}, 11], IntegerDigits[4*#] == Reverse@IntegerDigits[#] &] (* _Arkadiusz Wesolowski_, Aug 14 2012 *)
+%t A008918 okQ[t_]:=t==Reverse[t]&&First[t]!=0&&Min[Length/@Split[t]]>1; 198#&/@ Flatten[ Table[FromDigits/@Select[Tuples[{0,1},n],okQ],{n,20}]] (* _Harvey P. Dale_, Jul 03 2013 *)
+%o A008918 (PARI) rev(n) = (eval(concat(Vecrev(Str(n)))));
+%o A008918 isok(n) = rev(n) == 4*n; \\ _Michel Marcus_, Sep 13 2015
+%Y A008918 Cf. A001232, A193434, A008918, A008919, A222814, A222815, A031877.
+%K A008918 nonn,base
+%O A008918 1,1
+%A A008918 _N. J. A. Sloane_.
+%E A008918 Corrected and extended by _David W. Wilson_ Aug 15 1996, Dec 15 1997
+%E A008918 a(20)-a(21) from _Arkadiusz Wesolowski_, Aug 14 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

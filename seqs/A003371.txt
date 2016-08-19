@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003371
+Showing 1-1 of 1
+
+%I A003371
+%S A003371 4,131,258,385,512,2190,2317,2444,2571,4376,4503,4630,6562,6689,8748,
+%T A003371 16387,16514,16641,16768,18573,18700,18827,20759,20886,22945,32770,
+%U A003371 32897,33024,34956,35083,37142,49153,49280,51339,65536,78128,78255,78382,78509
+%N A003371 Numbers that are the sum of 4 positive 7th powers.
+%H A003371 Vincenzo Librandi, <a href="/A003371/b003371.txt">Table of n, a(n) for n = 1..1000</a>
+%t A003371 Union[Total/@Tuples[Range[5]^7,{4}]] (* _Harvey P. Dale_, May 15 2011 *)
+%K A003371 nonn
+%O A003371 1,1
+%A A003371 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

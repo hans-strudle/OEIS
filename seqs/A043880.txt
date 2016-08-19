@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043880
+Showing 1-1 of 1
+
+%I A043880
+%S A043880 4,20,33,36,49,52,84,97,100,113,116,129,135,148,161,164,177,180,193,
+%T A043880 199,212,225,228,241,244,340,353,356,369,372,385,391,404,417,420,433,
+%U A043880 436,449,455,468,481,484,497,500,513,519,543,545
+%N A043880 Numbers n such that 0 and 1 occur juxtaposed in the base 4 representation of n but not of n+1.
+%K A043880 nonn,base
+%O A043880 1,1
+%A A043880 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

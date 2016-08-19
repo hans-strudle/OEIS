@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011927
+Showing 1-1 of 1
+
+%I A011927
+%S A011927 0,0,0,0,1,7,21,49,98,177,296,465,698,1009,1413,1927,2569,3360,4320,
+%T A011927 5472,6840,8449,10327,12501,15001,17858,21105,24776,28905,33530,38689,
+%U A011927 44421,50767,57769,65472,73920
+%N A011927 [ n(n-1)(n-2)(n-3)/17 ].
+%K A011927 nonn
+%O A011927 0,6
+%A A011927 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

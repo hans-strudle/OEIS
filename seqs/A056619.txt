@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056619
+Showing 1-1 of 1
+
+%I A056619
+%S A056619 2,3,2,0,2,11,2,3,0,7,2,5,2,3,2,0,2,5,2,3,2,5,2,7,0,3,2,5,2,11,2,3,2,
+%T A056619 19,2,0,2,3,2,7,2,5,2,3,2,11,2,5,0,3,2,5,2,7,2,3,2,5,2,19,2,3,2,0,2,7,
+%U A056619 2,3,2,19,2,5,2,3,2,13,2,5,2,3,0,5,2,11,2,3,2,5,2,11,2,3,2,7,2,7,2,3,2
+%N A056619 Smallest prime with primitive root of n or 0 if no such prime exists.
+%C A056619 a(n) = 0 only for perfect squares, A000290.
+%Y A056619 Here the primitive root may be larger than the prime, whereas in A023049 in may not be.
+%Y A056619 Cf. A001122, A001913, A019334-A019421.
+%K A056619 nonn
+%O A056619 1,1
+%A A056619 _Robert G. Wilson v_, Aug 07 2000
+%E A056619 Corrected and extended by _Jud McCranie_, Mar 21, 2002.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

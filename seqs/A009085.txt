@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009085
+Showing 1-1 of 1
+
+%I A009085
+%S A009085 1,1,13,373,19097,1522409,174263717,27072485469,5477315064625,
+%T A009085 1398343023229393,439386703590146365,166541598232670049093,
+%U A009085 74891796652158938855881,39404384075265527597485241
+%V A009085 1,-1,13,-373,19097,-1522409,174263717,-27072485469,5477315064625,
+%W A009085 -1398343023229393,439386703590146365,-166541598232670049093,
+%X A009085 74891796652158938855881,-39404384075265527597485241
+%N A009085 Expansion of cos(tanh(sin(x))).
+%t A009085 With[{nn=30},Take[CoefficientList[Series[Cos[Tanh[Sin[x]]],{x,0,nn}],x] Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Nov 20 2015 *)
+%K A009085 sign
+%O A009085 0,3
+%A A009085 _R. H. Hardin_
+%E A009085 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+%E A009085 Prior Mathematica program replaced by _Harvey P. Dale_, Nov 20 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

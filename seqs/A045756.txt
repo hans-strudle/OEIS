@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045756
+Showing 1-1 of 1
+
+%I A045756
+%S A045756 1,10,190,5320,196840,9054640,498005200,31872332800,2326680294400,
+%T A045756 190787784140800,17361688356812800,1736168835681280000,
+%U A045756 189242403089259520000,22330603564532623360000
+%N A045756 E.g.f. -1+(1-9*x)^(-1/9), 9-factorial numbers.
+%H A045756 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A045756 a(n+1)= (9*n+1)(!^9) := product(9*k+1, k=0..n), n >= 0; E.g.f. -1+(1-9*x)^(-1/9).
+%p A045756 G(x):=-1+(1-9*x)^(-1/9): f[0]:=G(x): for n from 1 to 29 do f[n]:=diff(f[n-1],x) od: x:=0: seq(f[n],n=1..14);# _Zerinvary Lajos_, Apr 03 2009
+%t A045756 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 9, 2*5!, 9}];lst [_Vladimir Joseph Stephan Orlovsky_, Nov 08 2008]
+%Y A045756 Cf. A008542.
+%K A045756 easy,nonn
+%O A045756 1,2
+%A A045756 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043529
+Showing 1-1 of 1
+
+%I A043529
+%S A043529 1,1,2,1,2,2,2,1,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,
+%T A043529 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,
+%U A043529 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+%N A043529 Number of distinct base 2 digits of n.
+%F A043529 This is 2 unless n = 2^k - 1 for some k in which case it is 1.
+%p A043529 A043529 := proc(n): if type(ln(n+1)/ln(2), integer) then 1 else 2 fi: end proc: seq(A043529(n), n=0..90); # Johannes W. Meijer, Sep 14 2012
+%Y A043529 Contribution from _Johannes W. Meijer_, May 24 2009: (Start)
+%Y A043529 Factor of A160466.
+%Y A043529 Cf. A007456 and A081729.
+%Y A043529 (End)
+%K A043529 nonn,base,easy
+%O A043529 0,3
+%A A043529 _Clark Kimberling_
+%E A043529 First term added and offset changed by _Johannes W. Meijer_, May 15 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

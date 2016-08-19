@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059858
+Showing 1-1 of 1
+
+%I A059858
+%S A059858 151,241,251,431,571,641,911,971,1181,1811,2011,2351,2381,2411,2731,
+%T A059858 3061,3121,3221,3251,3301,3331,3361,3391,3541,3761,3821,3881,4211,
+%U A059858 4751,4861,4871,4931,5021,5381,5441,5471,5581,5641,5711,5821,5861
+%N A059858 Primes p such that x^5 mod p = 2 has five solutions.
+%C A059858 For any prime modulus, there must be exactly 0, 1 or 5 solutions to the equation with x between 0 and p-1.
+%K A059858 nonn
+%O A059858 1,1
+%A A059858 Don Reble (djr(AT)nk.ca), Sep 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016961
+Showing 1-1 of 1
+
+%I A016961
+%S A016961 1024,100000,1048576,5153632,17210368,45435424,102400000,205962976,
+%T A016961 380204032,656356768,1073741824,1680700000,2535525376,3707398432,
+%U A016961 5277319168,7339040224,10000000000,13382255776
+%N A016961 (6n+4)^5.
+%H A016961 Vincenzo Librandi, <a href="/A016961/b016961.txt">Table of n, a(n) for n = 0..3000</a>
+%o A016961 (MAGMA) [(6*n+4)^5: n in [0..30]]; // Vincenzo Librandi, May 06 2011
+%K A016961 nonn,easy
+%O A016961 0,1
+%A A016961 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

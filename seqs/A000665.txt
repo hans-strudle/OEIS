@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000665
+Showing 1-1 of 1
+
+%I A000665 M1550 N0606
+%S A000665 1,1,2,5,34,2136,7013320,1788782616656,53304527811667897248,
+%T A000665 366299663432194332594005123072,
+%U A000665 1171638318502989084030402509596875836036608
+%N A000665 Number of 3-uniform hypergraphs on n unlabeled nodes, or equivalently number of relations with 3 arguments on n nodes.
+%D A000665 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 231.
+%D A000665 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000665 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000665 P. J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seqs. Vol. 3 (2000), #00.1.5.
+%H A000665 Victor Falgas-Ravry and Emil R. Vaughan, <a href="http://arxiv.org/abs/1110.1623">On applications of Razborov's flag algebra calculus to extremal 3-graph theory</a>, arXiv preprint arXiv:1110.1623 [math.CO], 2011.
+%H A000665 W. Oberschelp, <a href="http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002298732">Kombinatorische Anzahlbestimmungen in Relationen</a>, Math. Ann., 174 (1967), 53-78.
+%H A000665 E. M. Palmer, <a href="http://dx.doi.org/10.1016/0012-365X(73)90069-1">On the number of n-plexes</a>, Discrete Math., 6 (1973), 377-390.
+%t A000665 (* about 85 seconds on a laptop computer *)
+%t A000665 Needs["Combinatorica`"];Table[A = Subsets[Range[n],{3}];CycleIndex[Replace[Map[Sort,System`PermutationReplace[A, SymmetricGroup[n]], {2}],Table[A[[i]] -> i, {i, 1, Length[A]}], 2], s] /. Table[s[i] -> 2, {i, 1, Binomial[n, 3]}], {n, 1, 8}] (* _Geoffrey Critzer_, Oct 28 2015 *)
+%Y A000665 Row sums of A092337.
+%K A000665 nonn,nice,more
+%O A000665 1,3
+%A A000665 _N. J. A. Sloane_
+%E A000665 Corrected and extended by _Vladeta Jovovic_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

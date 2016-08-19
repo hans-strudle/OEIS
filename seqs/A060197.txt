@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060197
+Showing 1-1 of 1
+
+%I A060197
+%S A060197 2,3,4,4,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,
+%T A060197 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,
+%U A060197 7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+%N A060197 Start at n, repeatedly apply pi(x) until reach 0; a(n) = number of steps to reach 0.
+%F A060197 Table[Length[FixedPointList[PrimePi, w]]-1, {w, 1, 1000}]
+%e A060197 n=1000, the corresponding sequence of PrimePi-iteration is {1000,168,39,12,5,3,2,1,0}, whose the length is a(1000)=9. The numbers at which this sequence jumps from n to n+1 are A007097(n), terms of the primeth recurrence:1,2,3,5,11,31,127,709,5381,...
+%Y A060197 A007097, A000720.
+%K A060197 nonn
+%O A060197 0,1
+%A A060197 _Labos Elemer_, Mar 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

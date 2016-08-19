@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037287
+Showing 1-1 of 1
+
+%I A037287
+%S A037287 0,3,5,7,39,11,13,3515,17,19,3721,23,525,3927,29,31,31133,5735,37,
+%T A037287 31339,41,43,3591545,47,749,31751,53,51155,31957,59,61,3792163,51365,
+%U A037287 67,32369,71,73,35152575,71177,79,392781,83,51785,32987,89,71391,33193
+%N A037287 Replace 2n+1 by concatenation of its divisors >1.
+%e A037287 Divisors of 15 are 1,3,5,15, so a(7)=3515
+%K A037287 nonn,base,easy
+%O A037287 0,2
+%A A037287 _N. J. A. Sloane_.
+%E A037287 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

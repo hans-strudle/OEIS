@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046952
+Showing 1-1 of 1
+
+%I A046952
+%S A046952 1,4,16,36,144,576,1296,2304,3600,14400,32400,57600,129600,518400,
+%T A046952 705600,1587600,2822400,6350400,25401600,57153600,101606400,228614400,
+%U A046952 406425600,635040000,768398400,2057529600,2540160000,3073593600
+%N A046952 Sets record for f(n) = |{(a,b):a*b=n and a|b}|. Also squares of highly composite numbers A002182.
+%C A046952 Invented by the HR automatic theory formation program.
+%H A046952 S. Colton, <a href="http://www.cs.uwaterloo.ca/journals/JIS/colton/joisol.html">Refactorable Numbers - A Machine Invention</a>, J. Integer Sequences, Vol. 2, 1999, #2.
+%H A046952 S. Colton, <a href="http://web.archive.org/web/20070831060523/http://www.dai.ed.ac.uk/homes/simonco/research/hr/">HR - Automatic Theory Formation in Pure Mathematics</a>
+%e A046952 f(1)=1, (first with 1), f(4)=2 (first with 2), f(16)=3 (first with 3),
+%Y A046952 Cf. A002182, A046951.
+%K A046952 nice,nonn
+%O A046952 1,2
+%A A046952 Simon Colton (simonco(AT)cs.york.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

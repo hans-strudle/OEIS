@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053802
+Showing 1-1 of 1
+
+%I A053802
+%S A053802 1,2,4,8,14,24,40,64,98,148,218,314,446,622,854,1158,1550,2050,2684,
+%T A053802 3478,4464,5682,7172,8982,11170,13796,16928,20648,25040,30198,36234,
+%U A053802 43262,51410,60824,71656,84074,98266,114430,132780,153556,177008
+%N A053802 Number of basis partitions of n+49 with Durfee square size 7.
+%D A053802 Hirschhorn, M. D., Basis partitions and Rogers-Ramanujan partitions, Discrete Math. 205 (1999), 241-243.
+%F A053802 G.f.: (1+q)(1+q^2)(1+q^3)(1+q^4)(1+q^5)(1+q^6)(1+q^7)/((1-q)(1-q^2)(1-q^3)(1-q^4)(1-q^5)(1-q^6)(1-q^7)).
+%K A053802 easy,nonn
+%O A053802 0,2
+%A A053802 _James A. Sellers_, Mar 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

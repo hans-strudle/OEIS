@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032419
+Showing 1-1 of 1
+
+%I A032419
+%S A032419 2,14,914,12614,335522
+%N A032419 Numbers n such that 139*2^n + 1 is prime.
+%H A032419 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032419 Ray Ballinger & Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>.
+%H A032419 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032419 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032419 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%Y A032419 Cf. A032418.
+%Y A032419 Cf. A032373, A032420, A032460, A032497.
+%K A032419 nonn,hard
+%O A032419 1,1
+%A A032419 _James R. Buddenhagen_
+%E A032419 One more term (from the Ballinger-Keller web page) from _M. F. Hasler_, Apr 18 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

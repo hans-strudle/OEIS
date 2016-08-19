@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032206
+Showing 1-1 of 1
+
+%I A032206
+%S A032206 1,1,7,34,158,655,2578,9619,34659,120966,412214,1375861,4516058,
+%T A032206 14611989,46712942,147798787,463512254,1442513910,4459548539,
+%U A032206 13706894100,41915906463,127607366453,386953440455,1169295277193
+%N A032206 Number of connected functions on n points with a loop of length 10.
+%H A032206 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032206 "CIK[ 10 ]" (necklace, indistinct, unlabeled, 10 parts) transform of A000081.
+%K A032206 nonn
+%O A032206 10,3
+%A A032206 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

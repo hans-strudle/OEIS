@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006221
+Showing 1-1 of 1
+
+%I A006221 M4026
+%S A006221 5,117,535,1463,3105,5665,9347,14355,20893,29165,39375,51727,66425,
+%T A006221 83673,103675,126635,152757,182245,215303,252135,292945,337937,387315,
+%U A006221 441283,500045,563805,632767,707135,787113,872905,964715,1062747
+%N A006221 From Apery continued fraction for zeta(3): zeta(3)=6/(5-1^6/(117-2^6/(535-3^6/(1463...))).
+%D A006221 G. V. Chudnovsky, Transcendental numbers, pp. 45-69 of Number Theory Carbondale 1979, Lect. Notes Math. 751 (1982).
+%D A006221 S. R. Finch, Mathematical Constants, Cambridge, 2003, p. 46.
+%D A006221 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006221 Reinhard Zumkeller, <a href="/A006221/b006221.txt">Table of n, a(n) for n = 0..10000</a>
+%H A006221 P. Flajolet, B. Vallee and I. Vardi, <a href="http://www.lix.polytechnique.fr/~ilan/continued_fractions.ps">Continued fractions from Euclid to the present day</a>.
+%H A006221 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A006221 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A006221 <a href="/index/Tu#2wis">Index entries for two-way infinite sequences</a>
+%H A006221 <a href="/index/Z#zeta_function">Index entries for zeta function</a>.
+%F A006221 G.f.: (5+97*x+97*x^2+5*x^3)/(1-x)^4; a(n)=34*n^3+51*n^2+27*n+5=(2*n+1)*(17*n^2+17*n+5)=-a(-1-n).
+%e A006221 Zeta(3) = 1.20205690315959428539973816151...,
+%e A006221 while eight terms of the sequence gives 6/(5-1^6/(117-2^6/(535-3^6/(1463-4^6/(3105-5^6/(9347-6^6/(14355)))))))) = 1.20205690315959366144848279245...
+%p A006221 A006221:=z*(z+1)*(5*z**2+92*z+5)/(z-1)**4; [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%o A006221 (PARI) a(n)=34*n^3+51*n^2+27*n+5
+%o A006221 (Haskell)
+%o A006221 a006221 n = (17 * n * (n + 1) + 5) * (2 * n + 1)
+%o A006221 -- _Reinhard Zumkeller_, Mar 13 2014
+%Y A006221 Cf. A005259.
+%K A006221 nonn
+%O A006221 0,1
+%A A006221 _N. J. A. Sloane_.
+%E A006221 Typo in description corrected Apr 09 2006 (1436 should have been 1463). Thanks to Simon Plouffe for this correction.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

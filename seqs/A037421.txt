@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037421
+Showing 1-1 of 1
+
+%I A037421
+%S A037421 1,2,9,18,81,82,83,90,99,162,163,164,171,180,729,730,731,738,739,740,
+%T A037421 747,748,749,810,811,812,819,828,891,892,893,900,909,1458,1459,1460,
+%U A037421 1467,1468,1469,1476,1477,1478,1539,1540,1541,1548,1557,1620,1621
+%N A037421 Numbers n such that the set of base 3 digits of n equals the set of base 9 digits of n.
+%K A037421 nonn,base
+%O A037421 1,2
+%A A037421 _Clark Kimberling_
+%E A037421 Corrected by Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

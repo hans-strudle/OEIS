@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052672
+Showing 1-1 of 1
+
+%I A052672
+%S A052672 1,0,4,6,120,600,10080,95760,1693440,23950080,475372800,8821612800,
+%T A052672 199743667200,4533271142400,116906088499200,3112264995840000,
+%U A052672 90679371374592000,2757644630028288000,89895729202126848000
+%N A052672 E.g.f. (1-x)/(1-x-2x^2+x^3).
+%H A052672 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=620">Encyclopedia of Combinatorial Structures 620</a>
+%F A052672 E.g.f.: -(-1+x)/(x^3-2*x^2-x+1)
+%F A052672 Recurrence: {a(1)=0, a(0)=1, a(2)=4, (n^3+6*n^2+11*n+6)*a(n)+(-2*n^2-10*n-12)*a(n+1)+(-n-3)*a(n+2)+a(n+3)=0}
+%F A052672 Sum(-1/7*_alpha*(-3+_alpha)*_alpha^(-1-n), _alpha=RootOf(_Z^3-2*_Z^2-_Z+1))*n!.
+%F A052672 a(n) = n!*A052547(n). - R. J. Mathar, Nov 27 2011
+%p A052672 spec := [S,{S=Sequence(Prod(Z,Union(Z,Prod(Z,Sequence(Z)))))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052672 easy,nonn
+%O A052672 0,3
+%A A052672 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

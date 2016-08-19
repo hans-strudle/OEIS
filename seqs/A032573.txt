@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032573
+Showing 1-1 of 1
+
+%I A032573
+%S A032573 1,2,3,4,5,6,7,8,9,11,22,33,44,55,66,77,88,99,121,242,363,484,1331,
+%T A032573 1837,2662,3146,3993,14641,16940,93753,139838,144096,154396,177870,
+%U A032573 196383,268950,292298,363484,1148136,1630222,1963830,3615999
+%N A032573 Base 21 value of decimal denominator divided by this decimal value (n) is an integer.
+%Y A032573 Cf. A032574. See also A032563 for explanation.
+%K A032573 nonn,base
+%O A032573 0,2
+%A A032573 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

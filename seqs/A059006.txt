@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059006
+Showing 1-1 of 1
+
+%I A059006
+%S A059006 3,6,9,18,65,66,287,354
+%N A059006 Numbers n such that x^n + x^2 + 1 is irreducible over GF(7).
+%t A059006 Do[ If[ ToString[ Factor[ x^n + x^2 + 1, Modulus -> 7 ] ] == ToString[ x^n + x^2 + 1 ], Print[ n ] ], {n, 1, 1016} ]
+%K A059006 nonn
+%O A059006 1,1
+%A A059006 _Robert G. Wilson v_, Jan 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

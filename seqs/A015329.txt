@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015329
+Showing 1-1 of 1
+
+%I A015329
+%S A015329 1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,
+%T A015329 0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,
+%U A015329 0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+%V A015329 1,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,
+%W A015329 0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,
+%X A015329 0,0,0,0,0,0,-1,0,0,0,-1,0,0,0,0
+%N A015329 Inverse of 1320th cyclotomic polynomial.
+%p A015329 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A015329 CoefficientList[Series[1/Cyclotomic[1320,x],{x,0,90}],x] (* _Harvey P. Dale_, Jul 31 2012 *)
+%K A015329 sign
+%O A015329 0,1
+%A A015329 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

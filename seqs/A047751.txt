@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047751
+Showing 1-1 of 1
+
+%I A047751
+%S A047751 1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+%T A047751 0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,
+%U A047751 0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,30,0,0
+%N A047751 Number of dissectable polyhedra with symmetry of type K.
+%D A047751 L. W. Beineke and R. E. Pippert, Enumerating dissectable polyhedra by their automorphism groups, Canad. J. Math., 26 (1974), 50-67.
+%F A047751 a(1)=1, a(n)=0 unless n==5 (mod 12); a(12m+5)=A047749(m).
+%Y A047751 Cf. A027610.
+%K A047751 nonn
+%O A047751 1,41
+%A A047751 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

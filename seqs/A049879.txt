@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049879
+Showing 1-1 of 1
+
+%I A049879
+%S A049879 1,2,3,2,2,3,4,6,4,7,9,7,10,12,12,14,12,15,17,17,19,17,20,22,5,26,25,
+%T A049879 19,27,16,29,13,31,33,33,31,8,6,37,3,39,19,40,42,42,44,4,46,6,48,48,8,
+%U A049879 50,11,53,53,55,53
+%N A049879 a(n)=|j-k|, where u(n)=u(j)+u(k) is the unique sum of Ulam numbers described in A002859.
+%K A049879 nonn
+%O A049879 3,2
+%A A049879 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

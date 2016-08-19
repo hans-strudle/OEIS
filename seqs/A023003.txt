@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023003
+Showing 1-1 of 1
+
+%I A023003
+%S A023003 1,4,14,40,105,252,574,1240,2580,5180,10108,19208,35693,64960,116090,
+%T A023003 203984,353017,602348,1014580,1688400,2778517,4524760,7296752,
+%U A023003 11658920,18468245,29015700,45235414,70005376,107585845,164245380,249162620,375704920,563251038
+%N A023003 Number of partitions of n into parts of 4 kinds.
+%C A023003 a(n) is Euler transform of A010709. - _Alois P. Heinz_, Oct 17 2008
+%H A023003 T. D. Noe, <a href="/A023003/b023003.txt">Table of n, a(n) for n=0..500</a>
+%H A023003 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%H A023003 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015, p. 8.
+%H A023003 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023003 G.f.: Product_{m>=1} 1/(1-x^m)^4.
+%F A023003 a(0)=1, a(n)=1/n*sum(k=0,n-1, 4*a(k)*sigma_1(n-k)). - _Joerg Arndt_, Feb 05 2011
+%F A023003 a(n) ~ exp(2 * Pi * sqrt(2*n/3)) / (2^(7/4) * 3^(5/4) * n^(7/4)). - _Vaclav Kotesovec_, Feb 28 2015
+%p A023003 with(numtheory): a:= proc(n) option remember; `if`(n=0, 1, add(add(d*4, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq(a(n), n=0..40); # _Alois P. Heinz_, Oct 17 2008
+%t A023003 nmax=50; CoefficientList[Series[Product[1/(1-x^k)^4,{k,1,nmax}],{x,0,nmax}],x] (* _Vaclav Kotesovec_, Feb 28 2015 *)
+%t A023003 CoefficientList[1/QPochhammer[x]^4 + O[x]^40, x] (* _Jean-François Alcover_, Jan 31 2016 *)
+%o A023003 (PARI) \ps100 for(n=0,100,print1((polcoeff(1/eta(x)^4,n,x)),","))
+%Y A023003 Cf. 4th column of A144064.
+%K A023003 nonn
+%O A023003 0,2
+%A A023003 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

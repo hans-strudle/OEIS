@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036690
+Showing 1-1 of 1
+
+%I A036690
+%S A036690 6,12,30,56,132,182,306,380,552,870,992,1406,1722,1892,2256,2862,3540,
+%T A036690 3782,4556,5112,5402,6320,6972,8010,9506,10302,10712,11556,11990,
+%U A036690 12882,16256,17292,18906,19460,22350,22952,24806,26732,28056,30102
+%N A036690 Product of a prime and the following number.
+%H A036690 Vincenzo Librandi, <a href="/A036690/b036690.txt">Table of n, a(n) for n = 1..1000</a>
+%F A036690 a(n) = prime(n)*(prime(n)+1).
+%F A036690 a(n) = A060800(n) - 1.
+%F A036690 a(n) = 2*A034953(n). - _Artur Jasinski_, Feb 06 2007
+%e A036690 a(3)=30 because prime(3)=5 and prime(3)+1=6, hence 5*6 = 30.
+%t A036690 Table[(Prime[n] + 1) Prime[n], {n, 1, 100}] (* _Artur Jasinski_, Feb 06 2007 *)
+%o A036690 (MAGMA)[p^2+p: p in PrimesUpTo(250)]; // _Vincenzo Librandi_, Dec 19 2010
+%Y A036690 Cf. A036689, A034953.
+%K A036690 nonn,easy
+%O A036690 1,1
+%A A036690 _Felice Russo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

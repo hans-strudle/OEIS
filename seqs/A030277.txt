@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030277
+Showing 1-1 of 1
+
+%I A030277
+%S A030277 1,1,1,2,4,10,28,86,286,1019,3857,15418,64782,285041,1309355,6263085,
+%T A030277 31127475,160432093,856039863,4721638083,26883787141,157812750656,
+%U A030277 953995201996,5932516347277,37913110456751
+%N A030277 Shifts left 2 places under COMPOSE transform.
+%H A030277 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%K A030277 nonn,eigen
+%O A030277 1,4
+%A A030277 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

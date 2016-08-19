@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005088
+Showing 1-1 of 1
+
+%I A005088
+%S A005088 0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,1,0,0,0,
+%T A005088 1,0,1,1,1,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,1,1,0,0,0,1,1,1,0,1,0,1,0,
+%U A005088 0,1,0,0,1,1,0,1,1,1,1,0,0,0,0,1,0,1,0
+%N A005088 Number of primes = 1 mod 3 dividing n.
+%C A005088 The first instance of a(n)=2 is for n=91; the first instance of a(n)=3 is for n=1729.  1729 is famously Ramanujan's taxi cab number -- see A001235. - _Harvey P. Dale_, Jun 25 2013
+%H A005088 S. R. Finch and Pascal Sebah, <a href="http://arXiv.org/abs/math.NT/0604465">Squares and Cubes Modulo n</a> (arXiv:math.NT/0604465).
+%F A005088 Additive with a(p^e) = 1 if p = 1 (mod 3), 0 otherwise.
+%t A005088 Join[{0},Table[Count[Transpose[FactorInteger[n]][[1]],_?(Mod[#,3]==1&)],{n,2,90}]] (* _Harvey P. Dale_, Jun 25 2013 *)
+%Y A005088 Cf. A121940 (first number having n such factors).
+%K A005088 nonn
+%O A005088 1,1
+%A A005088 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

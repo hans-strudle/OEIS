@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016828
+Showing 1-1 of 1
+
+%I A016828
+%S A016828 16,1296,10000,38416,104976,234256,456976,810000,1336336,2085136,
+%T A016828 3111696,4477456,6250000,8503056,11316496,14776336,18974736,24010000,
+%U A016828 29986576,37015056,45212176,54700816,65610000,78074896,92236816
+%N A016828 (4*n+2)^4.
+%H A016828 Vincenzo Librandi, <a href="/A016828/b016828.txt">Table of n, a(n) for n = 0..10000</a>
+%F A016828 a(n) = 16*A016756(n). O.g.f.: -16*(1+76*x+230*x^2+76*x^3+x^4)/(-1+x)^5. - R. J. Mathar, Mar 31 2008
+%o A016828 (MAGMA) [(4*n+2)^4: n in [0..40]]; // Vincenzo Librandi, Sep 07 2011
+%K A016828 nonn,easy
+%O A016828 0,1
+%A A016828 _N. J. A. Sloane_.
+%E A016828 More terms from R. J. Mathar, Mar 31 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

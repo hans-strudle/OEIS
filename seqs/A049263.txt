@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049263
+Showing 1-1 of 1
+
+%I A049263
+%S A049263 0,2,3,0,1,2,3,4,0,4,7,8,1,10,11,0,1,2,3,4,5,2,7,8,0,4,8,12,1,14,3,16,
+%T A049263 17,18,19,0,1,2,3,4,1,6,3,8,5,10,11,12,0,4,8,4,1,2,11,20,12,4,8,24,1,
+%U A049263 26,27,0,1,2,3,4,5,6,7,8,1,4,11,8,13,14,15,16,0,4,8,12,1,2,23,8,1,26,3
+%N A049263 Smallest nonnegative value taken on by nx^2 - 4y^2 for an infinite number of integer pairs (x, y).
+%K A049263 nonn
+%O A049263 1,2
+%A A049263 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

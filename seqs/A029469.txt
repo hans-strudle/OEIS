@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029469
+Showing 1-1 of 1
+
+%I A029469
+%S A029469 1,2,3,4,6,8,10,12,20,23,24,32,36,46,48,62,64,69,72,86,92,96,107,138,
+%T A029469 144,174,184,192,207,246,276,288,304,368,414,529,552,576,621,736,739,
+%U A029469 759,768,828,864,947,1044,1058,1104,1136,1152,1224,1242,1472,1536
+%N A029469 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 24 (most significant digit on left).
+%Y A029469 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029469 nonn,base
+%O A029469 1,2
+%A A029469 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025996
+Showing 1-1 of 1
+
+%I A025996
+%S A025996 1,26,449,6550,87765,1122522,13981657,171489758,2084497085,
+%T A025996 25203559810,303786156609,3654919330374,43925837020261,
+%U A025996 527579714133290,6334254431345705,76034189070980398,912572474428695693
+%N A025996 Expansion of 1/((1-2x)(1-5x)(1-7x)(1-12x)).
+%F A025996 a(n) = -4*2^n/75 +125*5^n/42 -343*7^n/50 +864*12^n/175. _R. J. Mathar_, Jun 20 2013
+%K A025996 nonn
+%O A025996 0,2
+%A A025996 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

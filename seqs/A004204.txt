@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004204
+Showing 1-1 of 1
+
+%I A004204 M3569
+%S A004204 1,1,0,4,20,144,630,5696,39366,366400,3634950,39066624,479163828,
+%T A004204 6226534272,87238701000,1315130458112,20922813624336,355586138666496,
+%U A004204 6402373841107998,121479626301440000
+%N A004204 Number of permutations of length n with spread 0.
+%D A004204 Graham, R. L.; Lehmer, D. H. On the permanent of Schur's matrix. J. Austral. Math. Soc. Ser. A 21 (1976), no. 4, 487-497.
+%D A004204 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A004204 Graham, R. L.; Lehmer, D. H., <a href="http://www.math.ucsd.edu/~sbutler/ron/76_07_schurs_matrix.pdf">On the Permanent of Schur's Matrix</a>, Jour. Australian Math. Soc. 21 (series A) (1976), 487-497.
+%K A004204 nonn
+%O A004204 1,4
+%A A004204 _N. J. A. Sloane_.
+%E A004204 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), May 17 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

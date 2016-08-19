@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017308
+Showing 1-1 of 1
+
+%I A017308
+%S A017308 81,28561,279841,1185921,3418801,7890481,15752961,28398241,47458321,
+%T A017308 74805201,112550881,163047361,228886641,312900721,418161601,547981281,
+%U A017308 705911761,895745041,1121513121,1387488001
+%N A017308 (10*n+3)^4.
+%H A017308 Vincenzo Librandi, <a href="/A017308/b017308.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017308 (MAGMA) [(10*n+3)^4: n in [0..30]]; // Vincenzo Librandi, Jul 31 2011
+%K A017308 nonn,easy
+%O A017308 0,1
+%A A017308 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

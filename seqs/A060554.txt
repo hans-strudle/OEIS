@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060554
+Showing 1-1 of 1
+
+%I A060554
+%S A060554 1,21,321,4321,54321,654321,7654321,87654321,987654321,98765432110,
+%T A060554 9876543211110,987654321211110,98765432131211110,9876543214131211110,
+%U A060554 987654321514131211110,98765432161514131211110
+%N A060554 String together the first n numbers in an order which maximizes the result.
+%C A060554 If n is a power of 10 then put it at the end, if it is a repdigit then put it before floor[n/10], otherwise put it before (n-1).
+%Y A060554 Cf. A000422, A060555.
+%K A060554 base,easy,nonn
+%O A060554 1,2
+%A A060554 _Henry Bottomley_, Apr 02 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

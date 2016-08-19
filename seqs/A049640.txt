@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049640
+Showing 1-1 of 1
+
+%I A049640
+%S A049640 0,0,2,4,7,10,15,20,27,34,45,56,69,82,101,120,143,166,195,224,257,290,
+%T A049640 333,376,423,470,529,588,653,718,791,864,945,1026,1123,1220,1323,1426,
+%U A049640 1547,1668,1797
+%N A049640 a(n)=Sum{T(i,n-i): i=0,1,...,n), array T as in A049639.
+%K A049640 nonn
+%O A049640 0,3
+%A A049640 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

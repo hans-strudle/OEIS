@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015781
+Showing 1-1 of 1
+
+%I A015781
+%S A015781 1,4,8,12,22,26,32,42,54,118,145,230,340,342,363,512,528,3840,4678,
+%T A015781 4930,14526,15906,18768,23274,25134,26206,26588,36663,45368,53328,
+%U A015781 2115600,5531768
+%N A015781 Phi(n) + 2 | sigma(n + 2).
+%o A015781 (PARI) is(n)=!(sigma(n+2)%(eulerphi(n)+2)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%K A015781 nonn
+%O A015781 1,2
+%A A015781 _Robert G. Wilson v_
+%E A015781 Corrected by _Charles R Greathouse IV_, Sep 25 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

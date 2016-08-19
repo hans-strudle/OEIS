@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060282
+Showing 1-1 of 1
+
+%I A060282
+%S A060282 0,3,0,142857,9,76923,588235294117647,52631578947368421,
+%T A060282 434782608695652173913,344827586206896551724137931,32258064516129,27,
+%U A060282 2439,23255813953488372093,212765957446808510638297872340425531914893617
+%N A060282 Periodic part of decimal expansion of reciprocal of n-th prime (leading 0's omitted).
+%H A060282 T. D. Noe, <a href="/A060282/b060282.txt">Table of n, a(n) for n=1..100</a>
+%e A060282 1/11 = .09090909..., so a(5) = 9.
+%o A060282 (PARI) ? a(n)=if(n<4,n==2,znorder(Mod(10, prime(n)))) ? for(n=1,100,print1(floor(10^a(n)/prime(n)),","))
+%Y A060282 Cf. A036275, A060283, A060251, A036275.
+%Y A060282 Cf. A002371.
+%K A060282 nonn,easy,base
+%O A060282 1,2
+%A A060282 _N. J. A. Sloane_, Mar 30 2001
+%E A060282 More terms from _Klaus Brockhaus_, Mar 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

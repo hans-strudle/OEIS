@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020961
+Showing 1-1 of 1
+
+%I A020961
+%S A020961 4,11,16,23,31,36,44,49,57,64,69,77,85,91,98,103,111,119,124,131,137,
+%T A020961 145,153,158,165,173,178,186,191,200
+%N A020961 Sum of [ n times tau^(3-k) ] for k from 1 to infinity.
+%D A020961 C. Kimberling, Problem 10520 in Amer. Math. Mon. 103 (1996) p. 347.
+%K A020961 nonn
+%O A020961 1,1
+%A A020961 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

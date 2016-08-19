@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035715
+Showing 1-1 of 1
+
+%I A035715
+%S A035715 1,40,800,10680,107200,864008,5831520,33940120,174074240,800061160,
+%T A035715 3339504032,12798246520,45443741760,150656183240,469398016480,
+%U A035715 1382296736088,3866465104640,10317238542760,26364054632480,64734486343480
+%N A035715 Coordination sequence for 20-dimensional cubic lattice.
+%D A035715 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035715 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035715 <a href="/index/Rec#order_20">Index entries for linear recurrences with constant coefficients</a>, signature (20, -190, 1140, -4845, 15504, -38760, 77520, -125970, 167960, -184756, 167960, -125970, 77520, -38760, 15504, -4845, 1140, -190, 20, -1).
+%F A035715 G.f.: ((1+x)/(1-x))^20.
+%t A035715 CoefficientList[Series[((1+x)/(1-x))^20,{x,0,30}],x] (* _Harvey P. Dale_, Mar 26 2016 *)
+%K A035715 nonn,easy
+%O A035715 0,2
+%A A035715 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035715 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

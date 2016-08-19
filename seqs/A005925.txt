@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005925
+Showing 1-1 of 1
+
+%I A005925 M3184
+%S A005925 1,0,0,4,0,0,0,0,12,0,0,12,0,0,0,0,6,0,0,12,0,0,0,0,24,0,0,16,0,0,0,0,
+%T A005925 12,0,0,24,0,0,0,0,24,0,0,12,0,0,0,0,8,0,0,24,0,0,0,0,48,0,0,36,0,0,0,
+%U A005925 0,6,0,0,12
+%N A005925 Theta series of diamond.
+%D A005925 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 120.
+%D A005925 G. L. Hall, Comment on the paper "Theta series and magic numbers for diamond and certain ionic crystal structures" [J. Math. Phys. 28, 1653 (1987)]. Journal of Mathematical Physics; Sep. 1988, Vol. 29 Issue 9, pp. 2090-2092. - From _N. J. A. Sloane_, Dec 18 2012
+%D A005925 N. J. A. Sloane, Theta series and magic numbers for diamond and certain ionic crystal structures, J. Math. Phys. 28 (1987), 1653-1657.
+%D A005925 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A005925 (theta_2^3 + theta_3^3 + theta_4^3) / 2.
+%Y A005925 Cf. A005926, A005927, A217512, A217513, A217514.
+%K A005925 nonn,nice
+%O A005925 0,4
+%A A005925 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040131
+Showing 1-1 of 1
+
+%I A040131
+%S A040131 11,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,
+%T A040131 1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,22,1,
+%U A040131 22,1,22,1,22,1,22,1,22,1,22,1
+%N A040131 Continued fraction for sqrt(143).
+%H A040131 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040131 a(n)=(1/2)[23+21*(-1)^n]-11*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 10 2009]
+%p A040131 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040131 ContinuedFraction[Sqrt[143],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 13 2011*)
+%K A040131 nonn,cofr,easy
+%O A040131 0,1
+%A A040131 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

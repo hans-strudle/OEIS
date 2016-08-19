@@ -1,0 +1,89 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023361
+Showing 1-1 of 1
+
+%I A023361
+%S A023361 1,1,1,2,3,4,7,11,16,25,40,61,94,147,227,351,546,846,1309,2030,3147,
+%T A023361 4876,7558,11715,18154,28136,43609,67586,104748,162346,251610,389958,
+%U A023361 604381,936699,1451743,2249991,3487153,5404570,8376292,12982016,20120202
+%N A023361 Number of compositions into positive triangular numbers.
+%C A023361 Number of compositions [c(1), c(2), c(3), ...] of n such that either c(k) = c(k-1) + 1 or c(k) = 1; see example. Same as fountains of coins (A005169) where each valley is at the lowest level. [_Joerg Arndt_, Mar 25 2014]
+%H A023361 T. D. Noe, <a href="/A023361/b023361.txt">Table of n, a(n) for n=0..500</a>
+%F A023361 G.f. : 1 / (1 - sum(k>=1, x^(k*(k+1)/2) ) ).
+%F A023361 a(n) ~ c * d^n, where d=1.549852469518888430419216077646316355533275221991850251758949950458..., c=0.492059962414480455851222791075288170662444559041717451009563731799... - _Vaclav Kotesovec_, May 01 2014
+%e A023361 From _Joerg Arndt_, Mar 25 2014: (Start)
+%e A023361 There are a(9) = 25 compositions of 9 such that either c(k) = c(k-1) + 1 or c(k) = 1:
+%e A023361 01:  [ 1 1 1 1 1 1 1 1 1 ]
+%e A023361 02:  [ 1 1 1 1 1 1 1 2 ]
+%e A023361 03:  [ 1 1 1 1 1 1 2 1 ]
+%e A023361 04:  [ 1 1 1 1 1 2 1 1 ]
+%e A023361 05:  [ 1 1 1 1 2 1 1 1 ]
+%e A023361 06:  [ 1 1 1 1 2 1 2 ]
+%e A023361 07:  [ 1 1 1 1 2 3 ]
+%e A023361 08:  [ 1 1 1 2 1 1 1 1 ]
+%e A023361 09:  [ 1 1 1 2 1 1 2 ]
+%e A023361 10:  [ 1 1 1 2 1 2 1 ]
+%e A023361 11:  [ 1 1 1 2 3 1 ]
+%e A023361 12:  [ 1 1 2 1 1 1 1 1 ]
+%e A023361 13:  [ 1 1 2 1 1 1 2 ]
+%e A023361 14:  [ 1 1 2 1 1 2 1 ]
+%e A023361 15:  [ 1 1 2 1 2 1 1 ]
+%e A023361 16:  [ 1 1 2 3 1 1 ]
+%e A023361 17:  [ 1 2 1 1 1 1 1 1 ]
+%e A023361 18:  [ 1 2 1 1 1 1 2 ]
+%e A023361 19:  [ 1 2 1 1 1 2 1 ]
+%e A023361 20:  [ 1 2 1 1 2 1 1 ]
+%e A023361 21:  [ 1 2 1 2 1 1 1 ]
+%e A023361 22:  [ 1 2 1 2 1 2 ]
+%e A023361 23:  [ 1 2 1 2 3 ]
+%e A023361 24:  [ 1 2 3 1 1 1 ]
+%e A023361 25:  [ 1 2 3 1 2 ]
+%e A023361 The last few, together with the corresponding fountains of coins are:
+%e A023361 .  20:  [ 1 2 1 1 2 1 1 ]
+%e A023361 .
+%e A023361 .     O     O
+%e A023361 .    O O O O O O O
+%e A023361 .
+%e A023361 .
+%e A023361 .  21:  [ 1 2 1 2 1 1 1 ]
+%e A023361 .
+%e A023361 .     O   O
+%e A023361 .    O O O O O O O
+%e A023361 .
+%e A023361 .
+%e A023361 .  22:  [ 1 2 1 2 1 2 ]
+%e A023361 .
+%e A023361 .     O   O   O
+%e A023361 .    O O O O O O
+%e A023361 .
+%e A023361 .
+%e A023361 .  23:  [ 1 2 1 2 3 ]
+%e A023361 .
+%e A023361 .           O
+%e A023361 .      O   O O
+%e A023361 .     O O O O O
+%e A023361 .
+%e A023361 .
+%e A023361 .  24:  [ 1 2 3 1 1 1 ]
+%e A023361 .
+%e A023361 .       O
+%e A023361 .      O O
+%e A023361 .     O O O O O O
+%e A023361 .
+%e A023361 .
+%e A023361 .  25:  [ 1 2 3 1 2 ]
+%e A023361 .
+%e A023361 .       O
+%e A023361 .      O O   O
+%e A023361 .     O O O O O
+%e A023361 (End)
+%o A023361 (PARI)
+%o A023361 N=66;  x='x+O('x^N);
+%o A023361 Vec( 1/( 1 - sum(k=1,1+sqrtint(2*N), x^binomial(k+1,2) ) ) )
+%o A023361 /* _Joerg Arndt_, Sep 30 2012 */
+%K A023361 nonn
+%O A023361 0,4
+%A A023361 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

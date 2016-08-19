@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022173
+Showing 1-1 of 1
+
+%I A022173
+%S A022173 1,1,1,1,10,1,1,91,91,1,1,820,7462,820,1,1,7381,605242,605242,7381,1,
+%T A022173 1,66430,49031983,441826660,49031983,66430,1,1,597871,3971657053,
+%U A022173 322140667123,322140667123,3971657053
+%N A022173 Triangle of Gaussian binomial coefficients [ n,k ] for q = 9.
+%D A022173 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%D A022173 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%H A022173 R. Mestrovic, <a href="http://arxiv.org/abs/1409.3820">Lucas' theorem: its generalizations, extensions and applications (1878--2014)</a>, arXiv preprint arXiv:1409.3820, 2014
+%K A022173 nonn,tabl
+%O A022173 0,5
+%A A022173 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

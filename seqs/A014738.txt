@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014738
+Showing 1-1 of 1
+
+%I A014738
+%S A014738 36,100,784,1296,4356,6084,14400,18496,36100,44100,76176,90000,142884,
+%T A014738 164836,246016,278784,396900,443556,608400,672400,894916,980100,
+%U A014738 1272384,1382976,1758276,1898884,2371600,2547216,3132900,3348900
+%N A014738 Squares of even triangular numbers.
+%H A014738 Harvey P. Dale, <a href="/A014738/b014738.txt">Table of n, a(n) for n = 0..1000</a>
+%t A014738 Select[Accumulate[Range[300]],EvenQ]^2 (* _Harvey P. Dale_, Oct 09 2012 *)
+%Y A014738 Cf. A014736.
+%K A014738 nonn,easy
+%O A014738 0,1
+%A A014738 _Mohammad K. Azarian_
+%E A014738 More terms from _James A. Sellers_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

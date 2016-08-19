@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005510
+Showing 1-1 of 1
+
+%I A005510 M2842
+%S A005510 3,10,31,101,311,962,3132,10202,31412,96722,299183,925445,3012985,
+%T A005510 9809425,31952665,104080805,320465225,986713745,3038231465,9355145285,
+%U A005510 28937578127
+%N A005510 a(n)=1+a([ n/2 ])*a( ceiling ( n/2 ) ).
+%C A005510 All terms are congruent to 3 mod 7.
+%D A005510 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A005510 nonn,easy
+%O A005510 1,1
+%A A005510 _Colin Mallows_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

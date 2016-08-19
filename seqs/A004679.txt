@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004679
+Showing 1-1 of 1
+
+%I A004679
+%S A004679 2,3,10,12,21,23,32,34,43,104,111,122,131,133,142,203,214,221,232,241,
+%T A004679 243,304,313,324,342,401,403,412,414,423,1002,1011,1022,1024,1044,
+%U A004679 1101,1112,1123,1132,1143,1204,1211
+%N A004679 Primes written in base 5.
+%t A004679 FromDigits/@IntegerDigits[Prime[Range[50]],5] (* _Harvey P. Dale_, Dec 09 2010 *)
+%o A004679 (PARI) a(n)=subst(Pol(digits(prime(n),5)),'x,10) \\ _Charles R Greathouse IV_, Nov 06 2013
+%K A004679 nonn,easy,base
+%O A004679 1,1
+%A A004679 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

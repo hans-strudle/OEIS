@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010021
+Showing 1-1 of 1
+
+%I A010021
+%S A010021 1,34,130,290,514,802,1154,1570,2050,2594,3202,3874,4610,5410,6274,
+%T A010021 7202,8194,9250,10370,11554,12802,14114,15490,16930,18434,20002,21634,
+%U A010021 23330,25090,26914,28802,30754,32770,34850,36994,39202,41474,43810,46210,48674,51202
+%N A010021 a(0) = 1, a(n) = 32*n^2 + 2 for n>0.
+%H A010021 Bruno Berselli, <a href="/A010021/b010021.txt">Table of n, a(n) for n = 0..1000</a>
+%H A010021 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A010021 G.f.: (1+x)*(1+30*x+x^2)/(1-x)^3. [_Bruno Berselli_, Feb 07 2012]
+%F A010021 a(n) = A005893(4n) = A008527(2n); a(n+1) = A108100(2n+2). [_Bruno Berselli_, Feb 07 2012]
+%F A010021 E.g.f.: (x*(x+1)*32+2)*e^x-1. - _Gopinath A. R._, Feb 14 2012
+%F A010021 a(n) = (4n+1)^2+(4n-1)^2 for n>0. [_Bruno Berselli_, Jun 24 2014]
+%t A010021 Join[{1}, 32 Range[40]^2 + 2] (* _Bruno Berselli_, Feb 07 2012 *)
+%t A010021 CoefficientList[Series[(1 + x) (1 + 30 x + x^2)/(1 - x)^3, {x, 0, 40}], x] (* _Vincenzo Librandi_, Jun 25 2014 *)
+%Y A010021 Cf. A206399.
+%K A010021 nonn,easy
+%O A010021 0,2
+%A A010021 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

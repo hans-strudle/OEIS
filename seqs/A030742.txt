@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030742
+Showing 1-1 of 1
+
+%I A030742
+%S A030742 1,5,6,8,11,16,23,32,43,56,71,89,109,131,154,178,208,240,275,313,355,
+%T A030742 401,450,503,558,615,675,739,809
+%N A030742 Numbers n such that s(n)>s(j) for j=1,2,...,n-1, where s=A030737 (with s(0)=0).
+%K A030742 nonn
+%O A030742 1,2
+%A A030742 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059524
+Showing 1-1 of 1
+
+%I A059524
+%S A059524 0,10,108,1126,11506,116166,1168586,11749134,118127408,1187692422,
+%T A059524 11941503498,120064335342,1207171430452,12137349489598,
+%U A059524 122033415224922,1226969238084836,2336404001299200,124034783402890620
+%N A059524 Number of nonzero 4 X n binary arrays with all 1's connected.
+%C A059524 Old name was "Number of 4 X n checkerboards in which the set of red squares is edge connected".
+%Y A059524 Cf. A059020, A059021.
+%K A059524 nonn,changed
+%O A059524 0,2
+%A A059524 _David Radcliffe_, Jan 21 2001
+%E A059524 Clearer name from _R. H. Hardin_, Jul 06 2009.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

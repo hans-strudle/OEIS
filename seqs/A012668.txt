@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012668
+Showing 1-1 of 1
+
+%I A012668
+%S A012668 2,232,647072,11510902912,730537735434752,121024350517590894592,
+%T A012668 43334092203148352120594432,29569225337018517420748948406272
+%N A012668 arcsin(tanh(x)*tan(x))=2/2!*x^2+232/6!*x^6+647072/10!*x^10...
+%K A012668 nonn
+%O A012668 0,1
+%A A012668 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

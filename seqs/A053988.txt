@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053988
+Showing 1-1 of 1
+
+%I A053988
+%S A053988 2,11,108,1501,26910,590519,15326584,459207001,15597711450,
+%T A053988 592253828099,24859063068708,1142924647332469,57121373303554742,
+%U A053988 3083411233744623599,178780730183884614000
+%N A053988 Denominators of successive convergents to tan(1/2) using continued fraction 1/(2-1/(6-1/(10-1/(14-1/(18-1/(22-1/(26-1/30-...))))))).
+%F A053988 a(n)=sum(k=0, floor(n/2), (-1)^k*(2*n-2*k)!/(n-2*k)!/(2*k)!) - _Benoit Cloitre_, Jan 03 2006
+%o A053988 (PARI) a(n)=sum(k=0,floor(n/2),(-1)^k*(2*n-2*k)!/(n-2*k)!/(2*k)!) (Cloitre)
+%Y A053988 Cf. A053987.
+%K A053988 easy,frac,nonn
+%O A053988 1,1
+%A A053988 _Vladeta Jovovic_, Apr 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

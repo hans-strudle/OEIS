@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057221
+Showing 1-1 of 1
+
+%I A057221
+%S A057221 2,6,30,162,654,714,1370,1662,1722,2810,77142,156254,432974
+%N A057221 Numbers n such that 2^n + 19 is prime.
+%C A057221 a(14) > 5*10^5. - _Robert Price_, Aug 27 2015
+%C A057221 All terms are even. - _Robert Israel_, Aug 28 2015
+%F A057221 a(n) = 2 * A253774(n). - _Joerg Arndt_, Aug 28 2015
+%p A057221 select(n -> isprime(2^n+19), [seq(2*i,i=1..10000)]); # _Robert Israel_, Aug 28 2015
+%t A057221 Do[ If[ PrimeQ[ 2^n + 19 ], Print[ n ] ], {n, 1, 15000} ]
+%t A057221 Select[Range[10000], PrimeQ[2^# + 19] &] (* _Vincenzo Librandi_, Aug 28 2015 *)
+%o A057221 (MAGMA) [n: n in [0..1000] | IsPrime(2^n+19)]; // _Vincenzo Librandi_, Aug 28 2015
+%K A057221 nonn,more
+%O A057221 1,1
+%A A057221 _Robert G. Wilson v_, Sep 17 2000
+%E A057221 a(11)-a(13) from _Robert Price_, Aug 27 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

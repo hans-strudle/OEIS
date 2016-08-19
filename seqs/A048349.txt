@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048349
+Showing 1-1 of 1
+
+%I A048349
+%S A048349 2,12,38,212,2538,6888,66592,210771,2059962,6696592,21081538,
+%T A048349 209868112,664488107,3800598038,18613286762,209820981888
+%N A048349 a(n)^2 is the smallest square containing exactly n 4's.
+%H A048349 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Square Number</a>
+%Y A048349 Cf. A036511, A034984.
+%K A048349 nonn,base,more
+%O A048349 1,1
+%A A048349 _Patrick De Geest_, Mar 15 1999.
+%E A048349 More terms from _Jon E. Schoenfield_, Jan 14 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

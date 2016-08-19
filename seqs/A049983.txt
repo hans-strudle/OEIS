@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049983
+Showing 1-1 of 1
+
+%I A049983
+%S A049983 0,0,1,2,4,7,10,13,19,24,29,37,43,50,62,70,78,92,101,112,129,141,152,
+%T A049983 171,185,199,221,237,251,278,293,310,337,356,377,409,427,448,480,505,
+%U A049983 525,563,584,609,651,677,700,742,768,800,843
+%N A049983 a(n)=number of arithmetic progressions of 2 or more positive integers, strictly increasing with sum <= n.
+%K A049983 nonn
+%O A049983 1,4
+%A A049983 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

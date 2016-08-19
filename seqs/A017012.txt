@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017012
+Showing 1-1 of 1
+
+%I A017012
+%S A017012 256,43046721,4294967296,78310985281,656100000000,3512479453921,
+%T A017012 14048223625216,45767944570401,128063081718016,318644812890625,
+%U A017012 722204136308736,1517108809906561,2992179271065856,5595818096650401
+%N A017012 (7*n+2)^8.
+%H A017012 Vincenzo Librandi, <a href="/A017012/b017012.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017012 (MAGMA) [(7*n+2)^8: n in [0..25]]; // Vincenzo Librandi, Jul 13 2011
+%K A017012 nonn,easy
+%O A017012 0,1
+%A A017012 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

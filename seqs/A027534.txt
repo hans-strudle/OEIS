@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027534
+Showing 1-1 of 1
+
+%I A027534
+%S A027534 1,15,575,28759,26454859,35854425017,141598322427,202722577403,
+%T A027534 268886532360,368281696992,30673807196825,41421738942001,
+%U A027534 27387367221555400009,52463436368091151621247
+%N A027534 First column of A027518.
+%F A027534 Numerators of sequence a[ 1, n ] in (a[ i, j ])^4 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i
+%K A027534 nonn
+%O A027534 1,2
+%A A027534 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

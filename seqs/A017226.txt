@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017226
+Showing 1-1 of 1
+
+%I A017226
+%S A017226 15625,7529536,148035889,1073741824,4750104241,15625000000,
+%T A017226 42180533641,98867482624,208422380089,404567235136,735091890625,
+%U A017226 1265319018496,2081951752609,3297303959104,5053913144281
+%N A017226 (9*n+5)^6.
+%H A017226 Vincenzo Librandi, <a href="/A017226/b017226.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017226 (MAGMA) [(9*n+5)^6: n in [0..25]]; // Vincenzo Librandi, Jul 24 2011
+%K A017226 nonn,easy
+%O A017226 0,1
+%A A017226 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

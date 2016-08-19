@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056137
+Showing 1-1 of 1
+
+%I A056137
+%S A056137 0,0,0,1,0,0,0,1,0,0,0,2,0,0,1,1,0,0,0,1,1,0,0,3,0,0,0,1,0,1,0,1,0,0,
+%T A056137 1,2,0,0,0,2,0,1,0,1,2,0,0,3,0,0,0,1,0,0,1,2,0,0,0,4,0,0,2,1,0,0,0,1,
+%U A056137 0,1,0
+%N A056137 Number of ways in which n can be the longer leg (middle side) of an integer sided right angled triangle.
+%F A056137 a(n) = A046079(n)-A056138(n) = A046081(n)-A046080(n)-A056138(n)
+%Y A056137 Cf. A009023, A055523.
+%K A056137 nonn
+%O A056137 1,12
+%A A056137 _Henry Bottomley_, Jun 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

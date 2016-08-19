@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038460
+Showing 1-1 of 1
+
+%I A038460
+%S A038460 2,8,20,36,72,114,154,220,282,354,464,540,674,804,906,1132,1220,1442
+%N A038460 Maximal value of difference between successive primes among numbers < 10^n.
+%C A038460 All terms are even, and the sequence is strictly increasing, and therefore also yields the maximal gap between n-digit primes (unless a gap containing 10^k would be larger than all gaps up to 10^(k+1), which does not happen). Therefore also a subsequence of A005250, which is a subsequence of A001223. - _M. F. Hasler_, Dec 29 2014
+%D A038460 Enoch Haga, Exploring Prime Numbers on Your PC, 2nd edition, 1998, ISBN 1-885794-16-9, Table 3.
+%H A038460 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/notes/gaps.html">Prime gaps</a>
+%e A038460 Of the 25 primes less than 100, the maximum difference between two consecutive primes is 8 (at 97-89), so a(2)=8.
+%o A038460 (PARI) a(n) = {dmax = 0; minp = 2; forprime(p=3, 10^n, if ((d = (p - minp)) > dmax, dmax = d); minp = p;); dmax;} \\ _Michel Marcus_, May 25 2014
+%o A038460 (PARI) m=0;L=1;o=2;forprime(p=3,10^9,m+o>=(o=p)&&next;#Str(p)>L&&!print1(m" /*"L"*/, ")&&L=#Str(p);m=p-precprime(p-1)) \\ Too slow for n>9. _M. F. Hasler_, Dec 29 2014
+%Y A038460 Cf. A038343. See A053303 for another version.
+%K A038460 nonn,more,nice
+%O A038460 1,1
+%A A038460 _Enoch Haga_, Dec 11 1999
+%E A038460 Two more terms (282, 354) from _Jud McCranie_
+%E A038460 Terms 464 through 1442 from Manfred W.K. Huppertz (huppi-manni(AT)hesit.de), Aug 18 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

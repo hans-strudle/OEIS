@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059391
+Showing 1-1 of 1
+
+%I A059391
+%S A059391 4,27,208,18630
+%N A059391 a(1)=4; a(n) is a k(n)-almost prime; m is an A-almost prime (for 1<=A); a(n) = smallest number m>a(n-1) such that a(i)+m is a (A-k(i))-almost prime for i = 1,2,3,..,n-1.
+%C A059391 Conjecture: k(n)= n-th prime (conjectured by Naohiro Nomoto). The next new term is bigger than 5*10^7.
+%Y A059391 Cf. A059333. A059363.
+%K A059391 hard,more,nonn
+%O A059391 1,1
+%A A059391 _Naohiro Nomoto_, Jan 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

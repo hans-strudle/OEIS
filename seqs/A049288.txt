@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049288
+Showing 1-1 of 1
+
+%I A049288
+%S A049288 1,1,1,2,3,4,6,16,16,30,88,94,205
+%N A049288 Number of nonisomorphic circulant tournaments, i.e. Cayley tournaments for cyclic group of order 2n-1.
+%D A049288 B. Alspach, On point-symmetric tournaments, Canad. Math. Bull., 13 (1970), 317-323. See t(n).
+%H A049288 V. A. Liskovets, <a href="http://front.math.ucdavis.edu/math.CO/0104131">Some identities for enumerators of circulant graphs</a>.
+%H A049288 V. A. Liskovets and R. Poeschel, <a href="ftp://ftp.math.tu-dresden.de/pub/reports/alg/poeschel/lispoepp.ps">On the enumeration of circulant graphs of prime-power and squarefree orders</a>
+%H A049288 R. Poeschel, <a href="http://www.math.tu-dresden.de/~poeschel/Publikationen.html">Publications</a>
+%F A049288 There is an easy formula for prime orders. Formulae are also known for squarefree and prime-squared orders. The subsequent values for orders 29, 31 are 586, 1096.
+%Y A049288 Cf. A049297, A049287, A049289, A002086, A002087.
+%K A049288 nonn,nice,more
+%O A049288 1,4
+%A A049288 _Valery A. Liskovets_
+%E A049288 Further values for (twice) squarefree and (twice) prime-squared orders can be found in the Liskovets reference.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

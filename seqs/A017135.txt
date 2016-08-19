@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017135
+Showing 1-1 of 1
+
+%I A017135
+%S A017135 48828125,1792160394037,350277500542221,12200509765705829,
+%T A017135 177917621779460413,1532278301220703125,9269035929372191597,
+%U A017135 43513917611435838661,168787390185178426269,564154396389137449973
+%N A017135 (8*n+5)^11.
+%H A017135 Vincenzo Librandi, <a href="/A017135/b017135.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017135 (MAGMA) [(8*n+5)^11: n in [0..15] ]; // Vincenzo Librandi, Jul 21 2011
+%K A017135 nonn,easy
+%O A017135 0,1
+%A A017135 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

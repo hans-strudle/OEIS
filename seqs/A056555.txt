@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056555
+Showing 1-1 of 1
+
+%I A056555
+%S A056555 1,8,27,4,125,216,343,2,9,1000,1331,108,2197,2744,3375,1,4913,72,6859,
+%T A056555 500,9261,10648,12167,54,25,17576,3,1372,24389,27000,29791,8,35937,
+%U A056555 39304,42875,36,50653,54872,59319,250,68921,74088,79507,5324,1125
+%N A056555 Smallest number k (k>0) such that nk is a perfect 4th power.
+%H A056555 H. Bottomley, <a href="http://fs.gallup.unm.edu/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative sequences</a>
+%F A056555 a(n) = A053167(n)/n = n^3/A000190(n)^4 = A056553(n)/A053165(n).
+%e A056555 a(64)=4 because smallest 4th power divisible by 64 is 256 and 64*4=256.
+%Y A056555 Cf. A000190, A008835, A048798, A053164, A053165, A053166, A053167, A056554, A056555.
+%K A056555 nonn,mult
+%O A056555 1,2
+%A A056555 _Henry Bottomley_, Jun 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

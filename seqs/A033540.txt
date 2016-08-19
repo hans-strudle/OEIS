@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033540
+Showing 1-1 of 1
+
+%I A033540
+%S A033540 1,2,6,21,88,445,2676,18739,149920,1349289,13492900,148421911,
+%T A033540 1781062944,23153818285,324153456004,4862301840075,77796829441216,
+%U A033540 1322546100500689,23805829809012420,452310766371235999
+%N A033540 a(n+1) = n*(a(n)+1) for n >= 1, a(1) = 1.
+%H A033540 Vincenzo Librandi, <a href="/A033540/b033540.txt">Table of n, a(n) for n = 1..200</a>
+%F A033540 a(n) = n!*(1+1/0!+1/1!+...+1/(n-1)!). - Jon Bentley, jlb(AT)research.bell-labs.com
+%F A033540 For n>=1, a(n+1) = floor((1+e)*n!)-1. - _Benoit Cloitre_, Sep 07 2002
+%F A033540 a(n) = n! + A007526(n). E.g.f.: (1+x*exp(x))/(1-x). - _Vladeta Jovovic_, Feb 02 2003
+%F A033540 a(n) = (n+1)*a(n-1)-(2*n-3)*a(n-2)+(n-3)*a(n-3) for n>=4. - _Jaume Oliver Lafont_, Sep 11 2009
+%F A033540 a(n) = n! + floor(e*n!)-1, n>0. - _Gary Detlefs_, Jun 06 2010
+%t A033540 a=1;lst={a};Do[a=a*n+n;AppendTo[lst,a],{n,1,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Dec 25 2008 *)
+%t A033540 FoldList[#1*#2 + #2 &, 1, Range[19]] (* _Robert G. Wilson v_, Jul 07 2012 *)
+%t A033540 nxt[{a_,n_}]:={n(a+1),n+1}; Transpose[NestList[nxt,{1,1},20]][[1]] (* _Harvey P. Dale_, Jun 20 2014 *)
+%o A033540 (MAGMA) I:=[1,2,6]; [n le 3 select I[n] else (n+1)*Self(n-1)-(2*n-3)*Self(n-2)+(n-3)*Self(n-3): n in [1..30]]; // _Vincenzo Librandi_, Jun 21 2014
+%K A033540 nonn,easy
+%O A033540 1,2
+%A A033540 Antti Karttunen
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

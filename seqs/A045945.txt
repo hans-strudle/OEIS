@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045945
+Showing 1-1 of 1
+
+%I A045945
+%S A045945 0,12,42,90,156,240,342,462,600,756,930,1122,1332,1560,1806,2070,2352,
+%T A045945 2652,2970,3306,3660,4032,4422,4830,5256,5700,6162,6642,7140,7656,
+%U A045945 8190,8742,9312,9900,10506,11130,11772,12432,13110,13806,14520,15252,16002
+%N A045945 Hexagonal matchstick numbers: 3n(3n+1).
+%H A045945 Ivan Panchenko, <a href="/A045945/b045945.txt">Table of n, a(n) for n = 0..1000</a>
+%H A045945 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A045945 a(n) = a(n-1) + 6*(3*n-1) (with a(0)=0). [_Vincenzo Librandi_, Nov 18 2010]
+%F A045945 G.f.: 6*x*(2+x)/(1-x)^3. [Colin Barker, Feb 12 2012]
+%F A045945 a(n) = 6*A005449(n). - _R. J. Mathar_, Feb 13 2016
+%p A045945 a:=n->sum(n+1, j=1..n): seq(a(n*3), n=0..42); - _Zerinvary Lajos_, May 03 2007
+%t A045945 f[n_]:=3*n*(3*n+1);f[Range[0,60]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 05 2011 *)
+%Y A045945 Cf. A033580, A045946.
+%K A045945 nonn,easy
+%O A045945 0,2
+%A A045945 _R. K. Guy_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

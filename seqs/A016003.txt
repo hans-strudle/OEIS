@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016003
+Showing 1-1 of 1
+
+%I A016003
+%S A016003 1,2,2,3,2,11,2,4,3,11,2,20,2,11,11,5,2,20,2,20,11,11,2,29,3,11,4,20,
+%T A016003 2,92,2,6,11,11,11,37,2,11,11,29,2,92,2,20,20,11,2,38,3,20,11,20,2,29,
+%U A016003 11,29,11,11,2,173,2,11,20,7,11,92,2,20,11,92,2,54,2,11,20,20
+%N A016003 a(n) = (tau(n^8)+7)/8.
+%K A016003 nonn
+%O A016003 1,2
+%A A016003 _Robert G. Wilson v_
+%E A016003 Definition corrected by Vladeta Jovovic, Sep 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

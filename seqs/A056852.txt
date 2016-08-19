@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056852
+Showing 1-1 of 1
+
+%I A056852
+%S A056852 7,521,102943,23775972551,21633936185161,45957792327018709121,
+%T A056852 98920982783015679456199,870019499993663001431459704607,
+%U A056852 85589538438707037818727607157700537549449
+%N A056852 (p^p + 1)/(p + 1) where p is prime.
+%H A056852 T. D. Noe, <a href="/A056852/b056852.txt">Table of n, a(n) for n=2..26</a>
+%t A056852 Table[ (Prime[ n ]^Prime[ n ] + 1)/(Prime[ n ] + 1), {n, 2, 11} ]
+%t A056852 (#^#+1)/(#+1)&/@Prime[Range[2,20]] (* _Harvey P. Dale_, Apr 23 2015 *)
+%Y A056852 Cf. A001039.
+%K A056852 nonn
+%O A056852 2,1
+%A A056852 _Robert G. Wilson v_, Aug 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

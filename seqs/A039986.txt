@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039986
+Showing 1-1 of 1
+
+%I A039986
+%S A039986 2,3,5,7,11,19,23,29,41,43,47,53,59,61,67,83,89,151,211,223,227,229,
+%T A039986 233,257,263,269,353,383,409,431,433,443,449,487,499,523,541,557,599,
+%U A039986 661,677,773,827,829,853,859,881,883,887,929,997,1447,1451,1481,2111
+%N A039986 Primes such that every distinct permutation of digits is composite.
+%H A039986 T. D. Noe, <a href="/A039986/b039986.txt">Table of n, a(n) for n = 1..278</a> (terms < 10^7)
+%t A039986 t = {}; Do[p=Prime[n]; If[Length[Select[Table[FromDigits[k], {k,Permutations[IntegerDigits[p]]}], PrimeQ]] == 1, AppendTo[t,p]], {n,330}]; t (* _Jayanta Basu_, May 07 2013 *)
+%t A039986 Select[Prime[Range[400]],AllTrue[FromDigits/@Rest[ Permutations[ IntegerDigits[#]]], CompositeQ]&] (* The program uses the AllTrue function from Mathematica version 10 *) (* _Harvey P. Dale_, Nov 22 2015 *)
+%Y A039986 Cf. A225421 (only odd digits).
+%K A039986 base,nonn
+%O A039986 1,1
+%A A039986 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

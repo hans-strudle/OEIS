@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014555
+Showing 1-1 of 1
+
+%I A014555
+%S A014555 1,1,0,1,1,0,1,0,1,1,0,1,1,1,1,0,1,1,0,1,0,1,1,0,1,1,1,1,0,
+%T A014555 1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014555 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014555 1,1,0,-1,-1,0,1,0,-1,-1,0,1,1,-1,-1,0,1,1,0,-1,0,1,1,0,-1,-1,1,1,0,
+%W A014555 -1,-1,0,1,0,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014555 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014555 Inverse of 546th cyclotomic polynomial.
+%p A014555 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014555 sign
+%O A014555 0,1
+%A A014555 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

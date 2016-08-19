@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014587
+Showing 1-1 of 1
+
+%I A014587
+%S A014587 0,1,2,0,1,2,3,0,1,2,0,1,2,3,0,1,2,0,1,2,3,0,1,2,3,0,1,2,0,1,2,3,0,1,
+%T A014587 2,0,1,2,3,0,1,2,0,1,2,3,0,1,2,3,0,1,2,0,1,2,3,0,1,2,0,1,2,3,0,1,2,0,
+%U A014587 1,2,3,0,1,2,3,0,1,2,0,1,2,3,0,1,2,0,1,2,3,0,1,2,0,1,2,3,0,1,2
+%N A014587 Nim function for Take-a-Factorial-Game.
+%D A014587 R. K. Guy, Unsolved Problems in Number Theory, E26.
+%H A014587 Eric M. Schmidt, <a href="/A014587/b014587.txt">Table of n, a(n) for n = 0..10000</a>
+%H A014587 Achim Flammenkamp, <a href="http://www.uni-bielefeld.de/~achim/diss.ps.gz">Lange Perioden in Subtraktions-Spielen</a>, Dissertation, Dept. Math., University of Bielefeld, Germany.
+%o A014587 (Sage)
+%o A014587 def A014587(max) :
+%o A014587 ....res = []
+%o A014587 ....fact = [1]
+%o A014587 ....while fact[-1] <= max : fact.append(factorial(len(fact)))
+%o A014587 ....for i in xrange(max+1) :
+%o A014587 ........moves = list({res[i-f] for f in fact if f <= i})
+%o A014587 ........k = len(moves)
+%o A014587 ........mex = next((j for j in xrange(k) if moves[j] != j), k)
+%o A014587 ........res.append(mex)
+%o A014587 ....return res
+%o A014587 end # _Eric M. Schmidt_, Jul 20 2013
+%K A014587 nonn
+%O A014587 0,3
+%A A014587 Achim Flammenkamp (achim(AT)HRZ.Uni-Bielefeld.DE)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

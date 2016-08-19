@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018981
+Showing 1-1 of 1
+
+%I A018981
+%S A018981 0,6,24,192,924,6432,39096,251712,1601904
+%N A018981 Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AST = AlPO4-16 [ Al20P20O80 ] .4 R . 16 H2O.
+%D A018981 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A018981 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A018981 nonn
+%O A018981 2,2
+%A A018981 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

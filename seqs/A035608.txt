@@ -1,0 +1,41 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035608
+Showing 1-1 of 1
+
+%I A035608
+%S A035608 0,1,5,10,18,27,39,52,68,85,105,126,150,175,203,232,264,297,333,370,
+%T A035608 410,451,495,540,588,637,689,742,798,855,915,976,1040,1105,1173,1242,
+%U A035608 1314,1387,1463,1540,1620,1701,1785,1870,1958,2047,2139,2232,2328,2425
+%N A035608 Expansion of x(1+3x)/((1+x)(1-x)^3).
+%C A035608 Maximum value of Voronoi's principal quadratic form of the first type when variables restricted to {-1,0,1}. - _Michael Somos_, Mar 10 2004
+%C A035608 This is the main row of a version of the "Ulam spiral" when read alternatively from left to right (see link). See also A001107, A007742, A033954, A033991. It is easy to see that the only prime in the sequence is 5. - Emilio Apricena (emilioapricena(AT)yahoo.it), Feb 08 2009
+%C A035608 From Mitch Phillipson, _Manda Riehl_, Tristan Williams, Mar 06 2009: (Start)
+%C A035608 a(n) gives the number of elements of S_2 \wr C_k that avoid the pattern 12, using the following ordering:
+%C A035608 In S_j, a permutation p avoids a pattern q if it has no subsequence that is order-isomorphic to q. For example, p avoids the pattern 132 if it has no subsequence abc with a<c<b. We extend this notion to S_j \wr C_n as follows. Element \psi =[ \alpha_1^\beta_1, \dots , \alpha_j^\beta_j ] avoids \tau = [ a_1 , \dots , a_m ] (\tau \in S_m) if \psi' = [ \alpha_1*\beta_1, \dots , \alpha_j*\beta_j ] avoids \tau in the usual sense. For n=2, there are 5 elements of S_2 \wr C_2 that avoid the pattern 12. They are: [ 2^1,1^1 ], [ 2^2,1^1 ], [ 2^2,1^2 ], [ 2^1,1^2 ], [ 1^2,2^1 ].
+%C A035608 For example, if \psi = [2^1,1^2], then \psi'=[2,2] which avoids tau=[1,2] because no subsequence ab of \psi' has a<b. (End)
+%D A035608 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 115.
+%H A035608 William A. Tedeschi, <a href="/A035608/b035608.txt">Table of n, a(n) for n = 0..10000</a>
+%H A035608 Emilio Apricena, <a href="/A035608/a035608.png">A version of the Ulam spiral</a>
+%H A035608 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-2,1).
+%F A035608 G.f.: x(1+3x)/((1+x)(1-x)^3). a(n) = n^2+n-1-[(n-1)/2].
+%F A035608 a(n) = A002378(n) - A004526(n+1). - _Reinhard Zumkeller_, Jan 27 2010
+%F A035608 a(n) = 2*A006578(n) - A002378(n)/2 = A139592(n)/2. - _Reinhard Zumkeller_, Feb 07 2010
+%F A035608 a(n) = A002265(n+2) + A173562(n). - _Reinhard Zumkeller_, Feb 21 2010
+%F A035608 Row sums of triangle A133983. - _Gary W. Adamson_, Sep 30 2007
+%F A035608 a(n) = floor((n + 1/4)^2). - _Reinhard Zumkeller_, Jan 27 2010
+%F A035608 a(n) = (-1)^n * sum(i=0..n, (-1)^i * (2i^2 + 3i + 1)) for n >= 0. Omits the leading 0. - _William A. Tedeschi_, Aug 25 2010
+%F A035608 a(0)=0, a(1)=1, a(2)=5, a(3)=10, a(n)=2*a(n-1)-2*a(n-3)+a(n-4). - _Harvey P. Dale_, Feb 21 2013
+%F A035608 For n > 1: a(n) = a(n-2) + 4*n - 3; see also row sums of triangle A253146. - _Reinhard Zumkeller_, Dec 27 2014
+%F A035608 a(n) = 3*A002620(n)+A002620(n+1). - _R. J. Mathar_, Jul 18 2015
+%t A035608 Table[n^2+Floor[n/2],{n,0,100}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 12 2011 *)
+%t A035608 CoefficientList[Series[x (1+3x)/((1+x)(1-x)^3),{x,0,60}],x] (* or *) LinearRecurrence[{2,0,-2,1},{0,1,5,10},60] (* _Harvey P. Dale_, Feb 21 2013 *)
+%o A035608 (PARI) a(n)=n^2+n-1-(n-1)\2
+%Y A035608 Partial sums of A042948. A011848(2n+1)=a(n).
+%Y A035608 Cf. A133983.
+%Y A035608 Cf. A253146.
+%K A035608 nonn,easy
+%O A035608 0,3
+%A A035608 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

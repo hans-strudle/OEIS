@@ -1,0 +1,73 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001542
+Showing 1-1 of 1
+
+%I A001542 M2030 N0802
+%S A001542 0,2,12,70,408,2378,13860,80782,470832,2744210,15994428,93222358,
+%T A001542 543339720,3166815962,18457556052,107578520350,627013566048,
+%U A001542 3654502875938,21300003689580,124145519261542,723573111879672
+%N A001542 a(n) = 6a(n-1) - a(n-2), with a(0) = 0 and a(1) = 2.
+%C A001542 Consider the equation core(x)=core(2x+1) where core(x) is the smallest number such that x*core(x) is a square: solutions are given by a(n)^2, n>0. - _Benoit Cloitre_, Apr 06 2002
+%C A001542 Terms >0 give numbers k which are solutions to the inequality |round(sqrt(2)*k)/k-sqrt(2)|<1/2/sqrt(2)/k^2. - _Benoit Cloitre_, Feb 06 2006
+%C A001542 Also numbers n such that A125650[ 6*n^2 ] is an even perfect square, where A124650(n) is a numerator of n(n+3)/(4(n+1)(n+2)) = Sum[ 1/(k(k+1)(k+2)), {k,1,n} ]. Sequence of numbers 6*n^2 is a bisection of A125651(n). - _Alexander Adamchuk_, Nov 30 2006
+%C A001542 The upper principal convergents to 2^(1/2), beginning with 3/2, 17/12, 99/70, 577/408, comprise a strictly decreasing sequence; essentially, numerators=A001541 and denominators=A001542. - _Clark Kimberling_, Aug 26 2008
+%C A001542 Even Pell numbers. - _Omar E. Pol_, Dec 10 2008
+%C A001542 Numbers n such that 2*n^2+1 is a square. - _Vladimir Joseph Stephan Orlovsky_, Feb 19 2010
+%C A001542 These are the integer square roots of the Half-Squares, A007590(n), which occur at values of n given by A001541. Also the numbers produced by adding m + sqrt(floor(m^2/2) + 1) when m = A002315. See array in A227972. - _Richard R. Forberg_, Aug 31 2013
+%D A001542 H. Brocard, Notes élémentaires sur le problème de Peel, Nouvelle Correspondance Mathématique, 4 (1878), 161-169.
+%D A001542 Jay Kappraff, Beyond Measure, A Guided Tour Through Nature, Myth and Number, World Scientific, 2002; p. 480-481.
+%D A001542 Thomas Koshy, Fibonacci and Lucas Numbers with Applications, 2001, Wiley, p. 77-79.
+%D A001542 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001542 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001542 T. D. Noe, <a href="/A001542/b001542.txt">Table of n, a(n) for n=0..100</a>
+%H A001542 I. Adler, <a href="http://www.fq.math.ca/Scanned/7-2/adler.pdf">Three Diophantine equations - Part II</a>, Fib. Quart., 7 (1969), 181-193.
+%H A001542 S. Falcon, <a href="http://dx.doi.org/10.4236/am.2014.515216">Relationships between Some k-Fibonacci Sequences, Applied Mathematics</a>, 2014, 5, 2226-2234.
+%H A001542 R. J. Hetherington, <a href="/A000129/a000129.pdf">Letter to N. J. A. Sloane, Oct 26 1974</a>
+%H A001542 J. M. Katri and D. R. Byrkit, <a href="http://www.jstor.org/stable/2313820">Problem E1976</a>, Amer. Math. Monthly, 75 (1968), 683-684.
+%H A001542 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A001542 D. H. Lehmer, <a href="http://www.jstor.org/stable/1968268">On the multiple solutions of the Pell equation</a>, Annals Math., 30 (1928), 66-72.
+%H A001542 D. H. Lehmer, <a href="/A001542/a001542.pdf">On the multiple solutions of the Pell equation</a> (annotated scanned copy)
+%H A001542 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001542 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A001542 B. Polster, M. Ross, <a href="http://arxiv.org/abs/1503.04658">Marching in squares</a>, arXiv preprint arXiv:1503.04658, 2015
+%H A001542 Mark A. Shattuck, <a href="http://www.emis.de/journals/INTEGERS/papers/j5/j5.pdf">Tiling proofs of some formulas for the Pell numbers of odd index</a>, Integers, 9 (2009), 53-64.
+%H A001542 R. A. Sulanke, <a href="http://math.boisestate.edu/~sulanke/recentpapindex.html">Moments, Narayana numbers and the cut and paste for lattice paths</a>
+%H A001542 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (6,-1).
+%F A001542 a(n) = 2*A001109(n).
+%F A001542 a(n) = ((3+2*sqrt(2))^n - (3-2*sqrt(2))^n) / (2*sqrt(2)).
+%F A001542 G.f.: 2*x/(1-6*x+x^2).
+%F A001542 a(n) = sqrt{2*(A001541(n))^2-2}/2. - _Barry E. Williams_, May 07 2000
+%F A001542 a(n) = (C^(2n) - C^(-2n))/sqrt(8) where C = sqrt(2) + 1. - _Gary W. Adamson_, May 11 2003
+%F A001542 For all terms x of the sequence, 2*x^2 + 1 is a square. Lim. as n -> Inf. a(n)/a(n-1) = 3 + 2*Sqrt(2). - _Gregory V. Richardson_, Oct 10 2002
+%F A001542 For n > 0: a(n) = A001652(n) + A046090(n) - A001653(n); e.g. 70 = 119 + 120 - 169. Also a(n) = A001652(n - 1) + A046090(n - 1) + A001653(n - 1); e.g. 70 = 20 + 21 + 29. Also a(n)^2 + 1 = A001653(n - 1)*A001653(n); e.g. 12^2 + 1 = 145 = 5*29. Also a(n + 1)^2 = A084703(n + 1) = A001652(n)*A001652(n + 1) + A046090(n)*A046090(n + 1). - _Charlie Marion_, Jul 01 2003
+%F A001542 a(n) = ((1+sqrt(2))^(2*n)-(1-sqrt(2))^(2*n))/(2*sqrt(2)). - _Antonio Alberto Olivares_, Dec 24 2003
+%F A001542 n such that Mod(sigma(2*n^2+1), 2 ) = 1. - Mohammed Bouayoun (bouyao(AT)wanadoo.fr), Mar 26 2004
+%F A001542 2*A001541(k)*A001653(n)*A001653(n+k) = A001653(n)^2 + A0001653(n+k)^2 + a2(k)^2; e.g., 2*3*5*29 = 5^2+29^2+2^2; 2*99*29*5741 = 2*99*29*5741 = 29^2+5741^2+70^2. - _Charlie Marion_, Oct 12 2007
+%F A001542 a(n) = sinh(2*n*arcsinh(1))/sqrt(2). - _Herbert Kociemba_, Apr 24 2008
+%F A001542 For n > 0, a(n) = A001653(n) + A002315(n-1). - _Richard R. Forberg_, Aug 31 2013
+%F A001542 a(n) = 3*a(n-1) + 2*A001541(n-1); e.g., a(4) = 70 = 3*12+2*17. - _Zak Seidov_, Dec 19 2013
+%F A001542 a(n)^2 + 1^2 = A115598(n)^2 + (A115598(n)+1)^2. - _Hermann Stamm-Wilbrandt_, Jul 27 2014
+%F A001542 Sum _{n >= 1} 1/( a(n) + 1/a(n) ) = 1/2. - _Peter Bala_, Mar 25 2015
+%p A001542 A001542:=2*z/(1-6*z+z**2); [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%t A001542 f[n_]:=IntegerQ[Sqrt[2*n^2+1]]; Select[Range[0,2*9! ],f[ # ]&] (* _Vladimir Joseph Stephan Orlovsky_, Feb 19 2010 *)
+%t A001542 LinearRecurrence[{6,-1},{0,2},30] (* _Harvey P. Dale_, Jun 11 2011 *)
+%o A001542 (PARI) for (i=0,10000,if(Mod(sigma(2*i^2+1),2)==1,print1(i,",")))
+%o A001542 (Haskell)
+%o A001542 a001542 n = a001542_list !! n
+%o A001542 a001542_list =
+%o A001542    0 : 2 : zipWith (-) (map (6 *) $ tail a001542_list) a001542_list
+%o A001542 -- _Reinhard Zumkeller_, Aug 14 2011
+%o A001542 (Maxima)
+%o A001542 a[0]:0$
+%o A001542 a[1]:2$
+%o A001542 a[n]:=6*a[n-1]-a[n-2]$
+%o A001542 A001542(n):=a[n]$
+%o A001542 makelist(A001542(x),x,0,30); /* _Martin Ettl_, Nov 03 2012 */
+%Y A001542 Bisection of A000129.
+%Y A001542 Cf. A001541, A007913, A003499, A125650, A125651, A125652, A001653, A007805, A001353, A001835, A115598, A001108.
+%K A001542 nonn,easy,nice
+%O A001542 0,2
+%A A001542 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

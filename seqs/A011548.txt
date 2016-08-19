@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011548
+Showing 1-1 of 1
+
+%I A011548
+%S A011548 1,14,141,1414,14142,141421,1414214,14142136,141421356,1414213562,
+%T A011548 14142135624,141421356237,1414213562373,14142135623731,
+%U A011548 141421356237310,1414213562373095,14142135623730950
+%N A011548 Decimal expansion of sqrt(2) rounded to n places.
+%D A011548 W. Rudin, Principles of Mathematical Analysis, 3rd ed., McGraw-Hill, 1976.
+%H A011548 Vincenzo Librandi, <a href="/A011548/b011548.txt">Table of n, a(n) for n = 0..200</a>
+%t A011548 Round[Table[N[Sqrt[2], k] 10^(k - 1), {k, 20}]] (* _Vincenzo Librandi_, Aug 17 2013 *)
+%Y A011548 Cf. A011547.
+%K A011548 nonn,base,easy
+%O A011548 0,2
+%A A011548 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043041
+Showing 1-1 of 1
+
+%I A043041
+%S A043041 6,66,606,616,626,636,646,656,666,676,686,696,6006,6116,6226,6336,
+%T A043041 6446,6556,6666,6776,6886,6996,60006,60106,60206,60306,60406,60506,
+%U A043041 60606,60706,60806,60906,61016,61116,61216,61316,61416,61516,61616,61716,61816,61916
+%N A043041 n-th base 10 palindrome that starts with 6.
+%H A043041 Jaroslav Krizek, <a href="/A043041/b043041.txt">Table of n, a(n) for n = 1..2222</a>
+%t A043041 palQ[n_Integer, base_Integer] := Module[{idn = IntegerDigits[n, base]}, idn == Reverse[idn]]; Select[Range[0, 100000], IntegerDigits[#][[1]] == 6 && palQ[#, 10] &] (* _T. D. Noe_, Mar 12 2013 *)
+%K A043041 nonn,base
+%O A043041 1,1
+%A A043041 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

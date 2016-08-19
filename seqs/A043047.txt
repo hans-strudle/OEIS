@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043047
+Showing 1-1 of 1
+
+%I A043047
+%S A043047 1,2,5,6,7,8,17,22,27,32,65,69,73,77,82,86,90,94,99,103,107,111,116,
+%T A043047 120,124,128,257,277,297,317,322,342,362,382,387,407,427,447,452,472,
+%U A043047 492,512,1025,1041,1057,1073,1093,1109,1125,1141
+%N A043047 a(n)=(s(n)+3)/4, where s(n)=n-th base 4 palindrome that starts with 1.
+%K A043047 nonn,base
+%O A043047 1,2
+%A A043047 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

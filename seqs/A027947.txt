@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027947
+Showing 1-1 of 1
+
+%I A027947
+%S A027947 1,1,2,3,4,7,9,15,21,32,48,70,107,156,236,349,521,778,1155,1728,2567,
+%T A027947 3833,5707,8505,12680,18884,28158,41943,62520,93160,138825,206897,
+%U A027947 308290,459459,684652,1020311,1520473,2265815,3376605
+%N A027947 a(n) = Sum{T(k,n-k)}, k = m,m+1,...,n, where m=[ (n+1)/2 ]; a(n) is the n-th diagonal-sum of left justified array T given by A027935.
+%F A027947 G.f.: (x+1)/(x^4-x^3-2x^2+1).
+%K A027947 nonn
+%O A027947 0,3
+%A A027947 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

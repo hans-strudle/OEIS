@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027931
+Showing 1-1 of 1
+
+%I A027931
+%S A027931 1,2,5,13,34,88,221,530,1204,2587,5270,10220,18955,33775,58060,96647,
+%T A027931 156299,246280,379051,571103,843944,1225258,1750255,2463232,3419366,
+%U A027931 4686761,6348772,8506630,11282393,14822249,19300198,24922141
+%N A027931 T(n,2n-8), T given by A027926.
+%H A027931 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9,-36,84,-126,126,-84,36,-9,1).
+%F A027931 a(n)=sum(binomial(n-k, 8-2k), k=0..4). - _Len Smiley_, Oct 20 2001
+%F A027931 G.f.: -x^4*(1-7*x+23*x^2-44*x^3+55*x^4-44*x^5+23*x^6-7*x^7+x^8) / (x-1)^9 . - _R. J. Mathar_, Oct 31 2015
+%p A027931 A027931 := proc(n)
+%p A027931     add(binomial(n-k,8-2*k),k=0..4) ;
+%p A027931 end proc: # _R. J. Mathar_, Oct 31 2015
+%Y A027931 Cf. A228074.
+%K A027931 nonn,easy
+%O A027931 4,2
+%A A027931 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

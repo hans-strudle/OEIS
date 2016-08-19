@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053771
+Showing 1-1 of 1
+
+%I A053771
+%S A053771 1,6,78,6588,1332288,1335398688,2230748717184,13819713971871744,
+%T A053771 219439188546028498944,16360198814356838801178624,
+%U A053771 3333281205541847127897252298752,2704161270841324410691567986117967872
+%N A053771 Number of n X n binary matrices of order dividing 6 (i.e. number of solutions of X^6=I in GL(n,2)).
+%D A053771 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053771 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053771 Cf. A053722, A053725, A053718.
+%K A053771 nonn
+%O A053771 1,2
+%A A053771 _Vladeta Jovovic_, Mar 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

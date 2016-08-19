@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015968
+Showing 1-1 of 1
+
+%I A015968
+%S A015968 1,2,226,25538,2885794,326094722,36848703586,4163903505218,
+%T A015968 470521096089634
+%N A015968 Positive integers n such that n | (15^n + 1).
+%C A015968 No other terms below 10^15.
+%C A015968 Some larger terms: 53168883858128642, 6008083875968536546, 6789793858544278594, 15878365178317113816706, (15^226+1)/238519527370488646998297200411598927857 (228 digits) [From Max Alekseyev]
+%K A015968 nonn,more
+%O A015968 1,2
+%A A015968 _Robert G. Wilson v_
+%E A015968 Three more terms added by _Max Alekseyev_, Oct 02 2010
+%E A015968 a(9) from _Max Alekseyev_, Aug 03 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

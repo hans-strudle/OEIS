@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062150
+Showing 1-1 of 1
+
+%I A062150
+%S A062150 1,36,900,19800,415800,8648640,181621440,3891888000,85621536000,
+%T A062150 1940754816000,45413662694400,1098184934246400,27454623356160000,
+%U A062150 709596419051520000,18956361480376320000,523195576858386432000
+%N A062150 Fourth (unsigned) column sequence of triangle A062138 (generalized a=5 Laguerre).
+%H A062150 <a href="/index/La#Laguerre">Index entries for sequences related to Laguerre polynomials</a>
+%F A062150 E.g.f.: (1+24*x+84*x^2+56*x^3)/(1-x)^12.
+%F A062150 a(n)=A062138(n+3, 3) = (n+3)!*binomial(n+8, 8)/3!.
+%F A062150 If we define f(n,i,x)= sum(sum(binomial(k,j)*stirling1(n,k)*stirling2(j,i)*x^(k-j),j=i..k),k=i..n) then a(n-3)=(-1)^(n-1)*f(n,3,-9), (n>=3). [From _Milan Janjic_, Mar 01 2009]
+%Y A062150 A062149.
+%K A062150 nonn,easy
+%O A062150 0,2
+%A A062150 _Wolfdieter Lang_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

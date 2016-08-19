@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014342
+Showing 1-1 of 1
+
+%I A014342
+%S A014342 4,12,29,58,111,188,305,462,679,968,1337,1806,2391,3104,3953,4978,
+%T A014342 6175,7568,9185,11030,13143,15516,18177,21150,24471,28152,32197,36678,
+%U A014342 41543,46828,52621,58874,65659,73000,80949,89462,98631,108396,118869,130102
+%N A014342 Convolution of primes with themselves.
+%H A014342 Reinhard Zumkeller, <a href="/A014342/b014342.txt">Table of n, a(n) for n = 1..10000</a>
+%F A014342 a(n) = Sum (p(i)*p(n+1-i)) i=1, ..., n where p(i) is the i-th prime.
+%e A014342 a(2)=12 because a(2)=p(1)*p(2)+p(2)*p(1)=2*3+3*2=12
+%o A014342 (PARI) {m=40;u=vector(m,x,prime(x));for(n=1,m,v=vecextract(u,concat("1..",n)); w=vector(n,x,u[n+1-x]);print1(v*w~,","))} - _Klaus Brockhaus_, Apr 28 2004
+%o A014342 (Haskell)
+%o A014342 a014342 n = a014342_list !! (n-1)
+%o A014342 a014342_list= f (tail a000040_list) [head a000040_list] 1 where
+%o A014342    f (p:ps) qs k = sum (zipWith (*) qs $ reverse qs) :
+%o A014342                    f ps (p : qs) (k + 1)
+%o A014342 -- _Reinhard Zumkeller_, Apr 07 2014, Mar 08 2012
+%o A014342 (MAGMA) [&+[NthPrime(n-i+1)*NthPrime(i): i in [1..n]]: n in [1..40]]; // _Bruno Berselli_, Apr 12 2016
+%Y A014342 Cf. A000040.
+%Y A014342 Cf. A209403.
+%Y A014342 Cf. A024697, A025129.
+%Y A014342 Cf. A023626.
+%K A014342 nonn
+%O A014342 1,1
+%A A014342 _N. J. A. Sloane_.
+%E A014342 More terms from Felix Goldberg (felixg(AT)tx.technion.ac.il), Feb 01 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

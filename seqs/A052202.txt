@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052202
+Showing 1-1 of 1
+
+%I A052202
+%S A052202 77,85,91,95,115,119,121,133,143,145,155,161,169,185,187,203,205,209,
+%T A052202 215,217,221,235,245,247,253,259,265,275,287,289,295,299,301,305,319,
+%U A052202 323,325,329,335,341,343,355,357,361,363,365,371,377,385,391,395,399
+%N A052202 If p^a(p,n) is highest power of p that divides n, then product(p=primes)[log(p)^a(p,n) ] > log(n).
+%C A052202 First even term is 1334.
+%e A052202 245 is included because 245 = 5*7^2 and log(5)*log(7)^2 > log(245).
+%K A052202 nonn
+%O A052202 0,1
+%A A052202 _Leroy Quet_, Jan 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

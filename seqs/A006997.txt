@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006997
+Showing 1-1 of 1
+
+%I A006997 M0185
+%S A006997 0,0,1,0,0,1,1,2,2,0,0,1,0,0,1,1,2,2,1,2,2,3,3,4,3,3,4,0,0,1,0,0,1,1,
+%T A006997 2,2,0,0,1,0,0,1,1,2,2,1,2,2,3,3,4,3,3,4,1,2,2,3,3,4,3,3,4,4,5,5,4,5,
+%U A006997 5,6,6,7
+%N A006997 Partitioning integers to avoid arithmetic progressions of length 3.
+%C A006997 a(n) = 0 iff n in A005836.
+%D A006997 Gerver, Joseph; Propp, James; Simpson, Jamie; Greedily partitioning the natural numbers into sets free of arithmetic progressions. Proc. Amer. Math. Soc. 102 (1988), no. 3, 765-772.
+%D A006997 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006997 A. M. Odlyzko and R. P. Stanley, <a href="http://www-math.mit.edu/~rstan/papers/od.ps">Some curious sequences constructed with the greedy algorithm</a>, 1978
+%H A006997 J. Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Talks/kreg7.ps">k-regular Sequences</a>
+%H A006997 J. Shallit, <a href="http://www.math.uwaterloo.ca/~shallit/Papers/ntfl.ps">Number theory and formal languages</a>, in D. A. Hejhal, J. Friedman, M. C. Gutzwiller and A. M. Odlyzko, eds., Emerging Applications of Number Theory, IMA Volumes in Mathematics and Its Applications, V. 109, Springer-Verlag, 1999, pp. 547-570.
+%F A006997 a(3n+k) = [ (3a(n)+k)/2 ], 0 <= k <=2.
+%K A006997 nonn,easy
+%O A006997 0,8
+%A A006997 _N. J. A. Sloane_, _James Propp_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

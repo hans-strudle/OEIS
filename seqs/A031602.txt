@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031602
+Showing 1-1 of 1
+
+%I A031602
+%S A031602 50,1321,2549,2753,4177,4570,6521,6845,12106,15173,15418,19961,23545,
+%T A031602 26773,27754,28418,28753,29429,31601,31954,32309,32666,33386,33749,
+%U A031602 34114,34481,35221,36829,40729,41645,42457,45785,46637,47497,48485,51137,53402
+%N A031602 Numbers n such that continued fraction for sqrt(n) has odd period and central term 14.
+%t A031602 cfo14Q[n_]:=Module[{s=Sqrt[n],cf,len},cf=If[IntegerQ[s],{}, ContinuedFraction[ s][[2]]];len=Length[cf];OddQ[len] && cf[[(len+1)/2]] == 14]; Select[Range[54000],cfo14Q] (* _Harvey P. Dale_, Dec 10 2013 *)
+%K A031602 nonn
+%O A031602 1,1
+%A A031602 _David W. Wilson_
+%E A031602 Corrected and definition clarified by _Harvey P. Dale_, Dec 10 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

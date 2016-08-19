@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004409
+Showing 1-1 of 1
+
+%I A004409
+%S A004409 1,16,144,960,5264,25056,106944,418176,1520784,5201232,16871648,
+%T A004409 52252992,155341248,445226848,1234726272,3323392128,8704504976,
+%U A004409 22234655520,55498917840,135595345600,324759439584
+%V A004409 1,-16,144,-960,5264,-25056,106944,-418176,1520784,-5201232,16871648,
+%W A004409 -52252992,155341248,-445226848,1234726272,-3323392128,8704504976,
+%X A004409 -22234655520,55498917840,-135595345600,324759439584
+%N A004409 Expansion of (Sum x^(n^2), n = -inf .. inf )^(-8).
+%F A004409 a(n) ~ (-1)^n * exp(2*Pi*sqrt(2*n)) / (64*2^(3/4)*n^(11/4)). - _Vaclav Kotesovec_, Aug 18 2015
+%t A004409 nmax = 30; CoefficientList[Series[Product[((1 + (-x)^k)/(1 - (-x)^k))^8, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 18 2015 *)
+%K A004409 sign
+%O A004409 0,2
+%A A004409 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

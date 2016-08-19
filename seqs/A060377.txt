@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060377
+Showing 1-1 of 1
+
+%I A060377
+%S A060377 3,9,6561,
+%T A060377 11790184577738583171520872861412518665678211592275841109096961
+%N A060377 Pepin's test numbers.
+%D A060377 See web page for references.
+%H A060377 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=PepinsTest">Pepin's Test</a>
+%F A060377 3^((Fn-1)/2) where Fn is a Fermat number (A000215).
+%e A060377 a(1) = 3^((F1-1)/2) = 3^((5-1)/2) = 3^2 = 9.
+%K A060377 nonn
+%O A060377 0,1
+%A A060377 Jason Earls (zevi_35711(AT)yahoo.com), Apr 02 2001
+%E A060377 Next two numbers have 15634 and 1024610092 digits respectively.
+%E A060377 Corrected offset, formula and example _Harry J. Smith_, Jul 04 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

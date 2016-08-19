@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037442
+Showing 1-1 of 1
+
+%I A037442
+%S A037442 1,2,3,4,5,6,7,614,1124,1233,1273,1653,2154,2466,3160,3161,3162,3163,
+%T A037442 3164,3165,3166,3167,3226,4100,4711,5117,5213,5421,6414,6541,7105,
+%U A037442 7125,7135,7151,7671,10241,11257,11625,11662,11726,13000,13271,13320
+%N A037442 Numbers n such that the set of base 8 digits of n equals the set of base 10 digits of n.
+%K A037442 nonn,base
+%O A037442 1,2
+%A A037442 _Clark Kimberling_
+%E A037442 More terms from Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

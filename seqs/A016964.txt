@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016964
+Showing 1-1 of 1
+
+%I A016964
+%S A016964 65536,100000000,4294967296,54875873536,377801998336,1785793904896,
+%T A016964 6553600000000,20047612231936,53459728531456,128063081718016,
+%U A016964 281474976710656,576480100000000,1113034787454976,2044140858654976
+%N A016964 (6n+4)^8.
+%H A016964 Vincenzo Librandi, <a href="/A016964/b016964.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016964 (MAGMA) [(6*n+4)^8: n in [0..20]]; // Vincenzo Librandi, May 07 2011
+%K A016964 nonn,easy
+%O A016964 0,1
+%A A016964 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

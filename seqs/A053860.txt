@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053860
+Showing 1-1 of 1
+
+%I A053860
+%S A053860 1,25,8065,15450625,1157871796225,87966277381914625,
+%T A053860 163854915382616600346625
+%N A053860 Number of n X n matrices over GF(4) of order dividing 5 (i.e. number of solutions of X^5=I in GL(n,4)).
+%D A053860 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053860 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053860 Cf. A053770.
+%K A053860 more,nonn
+%O A053860 1,2
+%A A053860 _Vladeta Jovovic_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

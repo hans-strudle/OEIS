@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016195
+Showing 1-1 of 1
+
+%I A016195
+%S A016195 0,1,21,331,4641,61051,771561,9487171,114358881,1357947691,
+%T A016195 15937424601,185311670611,2138428376721,24522712143931,
+%U A016195 279749833583241,3177248169415651,35949729863572161,405447028499293771
+%N A016195 11^n - 10^n.
+%F A016195 G.f.: x/((1-10x)(1-11x)).
+%F A016195 E.g.f.: e^(11*x)-e^(10*x). [From _Mohammad K. Azarian_, Jan 14 2009]
+%F A016195 a(0)=0, a(n)=11*a(n-1)+10^(n-1). [From Vincenzo Librandi, Feb 09 2011]
+%F A016195 a(0)=0, a(1)=1, a(n)=21*a(n-1)-110*a(n-2). [From Vincenzo Librandi, Feb 09 2011]
+%t A016195 f[n_]:=11^n-10^n;f[Range[0,40]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 14 2011*)
+%K A016195 nonn
+%O A016195 0,3
+%A A016195 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

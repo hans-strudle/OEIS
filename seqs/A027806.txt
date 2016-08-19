@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027806
+Showing 1-1 of 1
+
+%I A027806
+%S A027806 210,2640,17820,85800,330330,1081080,3123120,8168160,19691100,
+%T A027806 44341440,94225560,190466640,368588220,686439600,1235591280,
+%U A027806 2157381600,3665097150,6074125200,9842332500,15623407800,24336462150,37255818600,56125648800,83304936000,121949170200
+%N A027806 30*(n+1)*C(n+4,10).
+%H A027806 T. D. Noe, <a href="/A027806/b027806.txt">Table of n, a(n) for n = 6..1000</a>
+%F A027806 Number of 15-subsequences of [ 1, n ] with just 4 contiguous pairs; g.f. 30*(7+4x)*x^6/(1-x)^12
+%F A027806 a(n) = C(n+1, 7)*C(n+4, 4) - _Zerinvary Lajos_, May 26 2005, corrected by _R. J. Mathar_, Feb 13 2016
+%K A027806 nonn
+%O A027806 6,1
+%A A027806 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

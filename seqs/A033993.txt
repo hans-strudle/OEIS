@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033993
+Showing 1-1 of 1
+
+%I A033993
+%S A033993 210,330,390,420,462,510,546,570,630,660,690,714,770,780,798,840,858,
+%T A033993 870,910,924,930,966,990,1020,1050,1092,1110,1122,1140,1155,1170,1190,
+%U A033993 1218,1230,1254,1260,1290,1302,1320,1326,1330,1365,1380,1386,1410,1428
+%N A033993 Numbers that are divisible by exactly four different primes.
+%C A033993 For a(n) < 30030 = 2 * 3 * 5 * 7 * 11 * 13 this is identical to "numbers with a semiprime number of distinct prime factors." - _Jonathan Vos Post_, Sep 21 2005
+%H A033993 T. D. Noe, <a href="/A033993/b033993.txt">Table of n, a(n) for n = 1..1000</a>
+%F A033993 a(n) has exactly 4 distinct prime factors. omega(a(n)) = A001221(a(n)) = 4. - _Jonathan Vos Post_, Sep 21 2005
+%e A033993 The 4th primorial is the first term of this sequence: A002110(4) = 210.
+%t A033993 Select[Range[1500], Length[FactorInteger[#]] == 4 &] (* _Vladimir Joseph Stephan Orlovsky_, Apr 22 2010 *)
+%o A033993 (PARI) is(n)=omega(n)==4 \\ _Charles R Greathouse IV_, Sep 17 2015
+%Y A033993 Cf. A000977, A007774, A000961, A002110, A033992, A051270, A001221.
+%K A033993 nonn,easy
+%O A033993 1,1
+%A A033993 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

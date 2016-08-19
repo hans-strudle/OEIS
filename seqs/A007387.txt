@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007387
+Showing 1-1 of 1
+
+%I A007387 M0426
+%S A007387 0,2,3,2,5,2,7,2,9,7,11,14,13,23,20,34,34,47,57,67,91,101,138,158,205,
+%T A007387 249,306,387,464,592,713,898,1100,1362,1692,2075,2590,3175,3952,4867,
+%U A007387 6027,7457,9202,11409,14069,17436,21526,26638,32935,40707,50371,62233
+%N A007387 Number of 3rd order maximal independent sets in cycle graph.
+%D A007387 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007387 R. Yanco and A. Bagchi, ``K-th order maximal independent sets in path and cycle graphs,'' J. Graph Theory, submitted, 1994.
+%H A007387 Harvey P. Dale, <a href="/A007387/b007387.txt">Table of n, a(n) for n = 1..1000</a>
+%F A007387 For n>=9: a(n)=a(n-2) + a(n-5) per A133394. - G. Reed Jameson (Reedjameson(AT)yahoo.com), Dec 13 2007, Dec 16 2007
+%F A007387 G.f.: x^2*(-2*x^3-2-3*x+3*x^6)/(-1+x^2+x^5). [From _R. J. Mathar_, Oct 30 2009]
+%t A007387 Rest[CoefficientList[Series[x^2(-2x^3-2-3x+3x^6)/(-1+x^2+x^5),{x,0,50}], x]] (* _Harvey P. Dale_, Oct 23 2011 *)
+%K A007387 nonn
+%O A007387 1,2
+%A A007387 _N. J. A. Sloane_, _Mira Bernstein_
+%E A007387 More terms from Harvey P. Dale, Oct 23 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

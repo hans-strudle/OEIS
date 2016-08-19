@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053343
+Showing 1-1 of 1
+
+%I A053343
+%S A053343 15,33,35,51,65,77,87,91,95,119,123,143,161,177,185,209,213,215,217,
+%T A053343 221,247,259,287,303,321,329,335,341,371,377,395,403,407,411,427,437,
+%U A053343 447,469,473,485,511,515,527,533,537,545,551,573,581,591,611,629,635
+%N A053343 Squarefree terms of A050530 with 2 prime divisors.
+%F A053343 n=pq such that n-phi(n)=pq-(p-1)(q-1)=p+q-1=r is a prime
+%K A053343 nonn
+%O A053343 1,1
+%A A053343 _Labos Elemer_, Jan 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

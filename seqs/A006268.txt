@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006268
+Showing 1-1 of 1
+
+%I A006268 M3141
+%S A006268 3,36,46764,102266868132036,
+%T A006268 1069559300034650646049671039050649693658764,
+%U A006268 1223529951178258250171873770392800315927007484424019792314038900599526596342245441950466608853108106356422588162773879214824036
+%N A006268 A continued cotangent.
+%C A006268 a(6)=1223529951178258250171873770392800315927007484424019792314038900\
+%C A006268 599526596342245441950466608853108106356422588162773879214824036 _Artur Jasinski_, Oct 03 2008
+%D A006268 Shallit, Jeffrey; Predictable regular continued cotangent expansions. J. Res. Nat. Bur. Standards Sect. B 80B (1976), no. 2, 285-290.
+%D A006268 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A006268 Recurrence: a(n+1)=a(n)^3+3a(n) and a(0)=3 a(n)=Round[(3/2 + Sqrt[13]/2)^(3^(n - 1))] [From _Artur Jasinski_, Oct 03 2008]
+%t A006268 Contribution from _Artur Jasinski_, Oct 03 2008: (Start)
+%t A006268 a = {}; k = 3; Do[AppendTo[a, k]; k = k^3 + 3 k, {n, 1, 6}]; a
+%t A006268 or
+%t A006268 Table[Round[N[(3/2 + Sqrt[13]/2)^(3^(n - 1)), 1000]], {n, 1, 8}] (*Artur Jasinski*) (End)
+%K A006268 nonn
+%O A006268 0,1
+%A A006268 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

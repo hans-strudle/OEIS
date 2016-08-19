@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031509
+Showing 1-1 of 1
+
+%I A031509
+%S A031509 123,127,131,139,151,163,167,488,512,520,544,608,640,672,1095,1167,
+%T A031509 1383,1455,1515,1944,2008,2136,2264,2456,2648,2696,3035,3115,3215,
+%U A031509 3235,3415,3515,3635,3715,3735,3835,3935,4115,4135,4215,4368,4944,5496,5943,5971
+%N A031509 Numbers n such that continued fraction for sqrt(n) has even period and central term 11.
+%K A031509 nonn
+%O A031509 1,1
+%A A031509 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

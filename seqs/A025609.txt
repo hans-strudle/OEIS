@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025609
+Showing 1-1 of 1
+
+%I A025609
+%S A025609 0,1,6,64,720,9136,122016,1673344,23216640,323773696,4525272576,
+%T A025609 63308468224,886046453760,12403017773056,173632453287936,
+%U A025609 2430795572936704,34030785382318080
+%N A025609 Number of n-move rook paths on 8 X 8 board from given corner to adjacent corner.
+%F A025609 G.f.: [x-12x^2]/[(1+2x)(1-6x)(1-14x)].
+%t A025609  CoefficientList[ Series[(x - 12 x^2)/((1 + 2 x) (1 - 6 x) (1 - 14 x)), {x, 0, 16}], x]
+%K A025609 nonn,walk
+%O A025609 0,3
+%A A025609 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

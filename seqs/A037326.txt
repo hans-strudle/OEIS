@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037326
+Showing 1-1 of 1
+
+%I A037326
+%S A037326 1,2,3,4,40,41,42,43,44,115,116,117,118,119,330,331,332,333,334,370,
+%T A037326 371,372,373,374,400,401,402,403,404,440,441,442,443,444,510,511,512,
+%U A037326 513,514,1015,1016,1017,1018,1019,1050,1051,1052
+%N A037326 (sum of base 5 digits of n)=(sum of base 10 digits of n).
+%K A037326 nonn,base
+%O A037326 1,2
+%A A037326 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

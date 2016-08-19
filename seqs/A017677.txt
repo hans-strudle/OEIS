@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017677
+Showing 1-1 of 1
+
+%I A017677
+%S A017677 1,129,2188,16513,78126,23521,823544,2113665,4785157,5039127,19487172,
+%T A017677 9032611,62748518,13279647,56979896,270549121,410338674,205761751,
+%U A017677 893871740,645047319,1801914272,628461297
+%N A017677 Numerator of sum of -7th powers of divisors of n.
+%C A017677 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%t A017677 Table[Numerator[Total[Divisors[n]^-7]],{n,30}] (* _Harvey P. Dale_, Nov 29 2014 *)
+%Y A017677 Cf. A017678.
+%K A017677 nonn,frac
+%O A017677 1,2
+%A A017677 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

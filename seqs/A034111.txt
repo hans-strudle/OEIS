@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034111
+Showing 1-1 of 1
+
+%I A034111
+%S A034111 21,31,43,57,73,91,111,133,157,183,211,241,273,307,343,381,421,463,
+%T A034111 507,553,601,651,703,757,813,871,931,993,1057,1123,1191,1261,1333,
+%U A034111 1407,1483,1561,1641,1723,1807,1893,1981,2071,2163,2257,2353,2451,2551,2653
+%N A034111 Decimal part of square root of a(n) starts with 5: first term of runs.
+%C A034111 Agrees with sequence A002061 (n^2-n+1 = central polygonal numbers) starting with sixth term.
+%F A034111 a(n) = n^2 + 9*n + 21
+%Y A034111 Cf. A034101.
+%K A034111 nonn,base,easy
+%O A034111 0,1
+%A A034111 _Patrick De Geest_, Sep 15 1998.
+%E A034111 Formula from _Charles R Greathouse IV_, Aug 10 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

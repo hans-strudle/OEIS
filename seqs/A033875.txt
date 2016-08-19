@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033875
+Showing 1-1 of 1
+
+%I A033875
+%S A033875 2,3,5,7,11,13,17,19,23,31,47,79,83,211,227,229,233,241,257,769,773
+%N A033875 Skipping from prime to prime by least powers of 2.
+%H A033875 Lei Zhou, <a href="http://www.bme.emory.edu/~lzhou/prime/p773n955.zip">Certificate for next term</a>
+%F A033875 a(1) = 2, a(n+1) = a(n) + 2^k; a(n+1) prime, k minimal.
+%e A033875 2+2^0=3
+%e A033875 3+2^1=5
+%K A033875 nonn
+%O A033875 1,1
+%A A033875 _David W. Wilson_
+%E A033875 The next term is 773+2^955 which is too large to include.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

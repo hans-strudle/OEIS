@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058673
+Showing 1-1 of 1
+
+%I A058673
+%S A058673 1,2,5,16,68,406,3807,75164,10607540
+%N A058673 Number of matroids on n labeled points.
+%H A058673 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/matroid.html">Tables of matroids</a>
+%H A058673 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/phd.html">Counting and Probability in Matroid Theory</a>, Ph.D. Thesis, Trinity College, Dublin, 2000.
+%H A058673 <a href="/index/Mat#matroid">Index entries for sequences related to matroids</a>
+%Y A058673 Row sums of A058669. Closely related to A114491.
+%Y A058673 Cf. A055545
+%K A058673 nonn,nice,more
+%O A058673 0,2
+%A A058673 _N. J. A. Sloane_, Dec 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

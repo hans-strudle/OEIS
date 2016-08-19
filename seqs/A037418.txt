@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037418
+Showing 1-1 of 1
+
+%I A037418
+%S A037418 1,2,36,37,38,44,48,49,50,72,73,74,79,228,252,253,254,264,288,289,290,
+%T A037418 294,300,433,438,439,440,468,469,470,474,475,476,480,481,482,504,505,
+%U A037418 506,1298,1304,1308,1309,1310,1334,1344,1368,1369,1370,1374,1380,1381
+%N A037418 Numbers n such that the set of base 3 digits of n equals the set of base 6 digits of n.
+%t A037418 Select[Range[1500],Union[IntegerDigits[#,3]]==Union[IntegerDigits[#,6]]&] (* _Harvey P. Dale_, Nov 06 2012 *)
+%K A037418 nonn,base
+%O A037418 1,2
+%A A037418 _Clark Kimberling_
+%E A037418 Corrected by Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

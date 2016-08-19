@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010241
+Showing 1-1 of 1
+
+%I A010241
+%S A010241 2,4,2,6,1,1,2,1,2,9,88,2,1,2,1,8,1,1,3,4,1,7,1,40,1,1,36,2,3,1,29,6,
+%T A010241 3,1,2,2,5,1,4,1,10,5,1,2,1,1,1,88,4,4,3,5,3,7,1,1,17,5,4,3,4,3,5,1,5,
+%U A010241 103,1,1,1,12,4,1,1,4,1,1
+%N A010241 Continued fraction for cube root of 11.
+%H A010241 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%t A010241 ContinuedFraction[11^(1/3),80] (* _Harvey P. Dale_, Mar 25 2012 *)
+%K A010241 nonn,cofr
+%O A010241 0,1
+%A A010241 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

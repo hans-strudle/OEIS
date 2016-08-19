@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016114
+Showing 1-1 of 1
+
+%I A016114
+%S A016114 2,3,5,7,11,13,17,37,79,113,197,199,337,1193,3779,11939,19937,193939,
+%T A016114 199933,1111111111111111111,11111111111111111111111
+%N A016114 Circular primes (numbers that remain prime under cyclic shifts of digits).
+%C A016114 The next repunit that is prime has 317 digits, all ones.  See A004023. - _Harvey P. Dale_, Mar 22 2012
+%C A016114 Only the smallest member of the cyclic shift is listed. See A068652 for all members. - _Chai Wah Wu_, Nov 09 2015
+%H A016114 K. S. Brown, <a href="http://www.mathpages.com/home/kmath359.htm">On General Palindromic Numbers</a>
+%H A016114 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=CircularPrime">Circular Primes</a>
+%H A016114 P. De Geest, <a href="http://www.worldofnumbers.com/circular.htm">Circular Primes</a>
+%H A016114 H. Heinz, <a href="http://www.magic-squares.net/primes.htm#Circular Primes">Prime Patterns (Illustration using 19937)</a>
+%t A016114 fQ[p_] := Module[{b = IntegerDigits[p], ps}, ps = Table[FromDigits[b = RotateLeft[b]], {Length[b]}]; If[p > Min[ps], False, And @@ PrimeQ[ps]]]; Select[Prime[Range[100000]], fQ] (* _T. D. Noe_, Mar 22 2012 *)
+%Y A016114 Sequence includes all prime repunits (A004023). Cf. A003459.
+%Y A016114 For a sequence listing all the prime-yielding cyclic permutations see A068652.
+%K A016114 nonn,nice,base,more
+%O A016114 1,1
+%A A016114 _Robert G. Wilson v_
+%E A016114 One more term from _Lekraj Beedassy_, Nov 07 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

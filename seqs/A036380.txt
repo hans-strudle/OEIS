@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036380
+Showing 1-1 of 1
+
+%I A036380
+%S A036380 0,1,1,2,3,2,4,3,4,6,5,9,10,11,17,15,26,31,39,53,68,90,125,159,216,
+%T A036380 290,391,536,719,971,1329,1812,2477,3386,4626,6351,8729,11995,16459,
+%U A036380 22669,31259,43049
+%N A036380 Number of true prime powers whose binary order, ceiling[ Log[ 2,p^x ] ], is n.
+%e A036380 The 5 prime-powers between 1025 and 2048 are 1331=11^3, 1369=37^2, 1681=41^2, 1849=43^2 and 2048.
+%t A036380 t=Table[Length[Union[Flatten[Table[Table[Prime[w]^s, {w, 1, PrimePi[2^(n/s)]}], {s, 2, g+1}]]] ], {n, 1, 42}] Delete[t-RotateRight[t], 1]
+%Y A036380 Cf. A029837, A036378-A036390.
+%K A036380 nonn
+%O A036380 1,4
+%A A036380 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

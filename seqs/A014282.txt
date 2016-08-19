@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014282
+Showing 1-1 of 1
+
+%I A014282
+%S A014282 1,1,0,1,1,0,1,0,1,1,0,1,1,1,1,0,1,1,0,1,0,1,1,0,1,1,1,1,0,1,
+%T A014282 1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014282 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014282 1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,1,-1,0,1,
+%W A014282 -1,0,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014282 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014282 Inverse of 273rd cyclotomic polynomial.
+%H A014282 Vincenzo Librandi, <a href="/A014282/b014282.txt">Table of n, a(n) for n = 0..1000</a>
+%p A014282 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014282 CoefficientList[Series[1/Cyclotomic[273, x], {x, 0, 200}], x] (* _Vincenzo Librandi_, Apr 08 2014 *)
+%o A014282 (MAGMA) t:=273; u:=1; m:=u*t+2; R<x>:=PowerSeriesRing(Integers(), m); Coefficients(R!(1/CyclotomicPolynomial(t))); // _Vincenzo Librandi_, Apr 08 2014
+%K A014282 sign,easy
+%O A014282 0,1
+%A A014282 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

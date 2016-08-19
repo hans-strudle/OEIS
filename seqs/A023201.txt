@@ -1,0 +1,40 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023201
+Showing 1-1 of 1
+
+%I A023201
+%S A023201 5,7,11,13,17,23,31,37,41,47,53,61,67,73,83,97,101,103,107,131,151,
+%T A023201 157,167,173,191,193,223,227,233,251,257,263,271,277,307,311,331,347,
+%U A023201 353,367,373,383,433,443,457,461,503,541,557,563,571,587,593,601,607,613,641,647
+%N A023201 Numbers n such that n and n + 6 are both prime.
+%C A023201 Also known as sexy primes. - _John W. Nicholson_, Mar 23 2015
+%H A023201 T. D. Noe, <a href="/A023201/b023201.txt">Table of n, a(n) for n = 1..10000</a>
+%H A023201 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SexyPrimes.html">Sexy Primes</a>.
+%H A023201 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TwinPrimes.html">Twin Primes</a>
+%p A023201 A023201 := proc(n)
+%p A023201     option remember;
+%p A023201     if n = 1 then
+%p A023201         5;
+%p A023201     else
+%p A023201         for a from procname(n-1)+2 by 2 do
+%p A023201             if isprime(a) and isprime(a+6) then
+%p A023201                 return a;
+%p A023201             end if;
+%p A023201         end do:
+%p A023201     end if;
+%p A023201 end proc: # _R. J. Mathar_, May 28 2013
+%t A023201 Select[Range[10^2], PrimeQ[ # ]&&PrimeQ[ #+6] &] (* _Vladimir Joseph Stephan Orlovsky_, Apr 29 2008 *)
+%o A023201 (MAGMA) [n: n in [0..40000] | IsPrime(n) and IsPrime(n+6)] // _Vincenzo Librandi_, Aug 04 2010
+%o A023201 (Haskell)
+%o A023201 a023201 n = a023201_list !! (n-1)
+%o A023201 a023201_list = filter ((== 1) . a010051 . (+ 6)) a000040_list
+%o A023201 -- _Reinhard Zumkeller_, Feb 25 2013
+%o A023201 (PARI) is(n)=isprime(n+6)&&isprime(n) \\ _Charles R Greathouse IV_, Mar 20 2013
+%Y A023201 A031924 and A007529 together give A023201.
+%Y A023201 Cf. A046117, A098428, A000040, A010051, A006489 (subsequence).
+%K A023201 nonn,easy
+%O A023201 1,1
+%A A023201 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

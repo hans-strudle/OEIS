@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031195
+Showing 1-1 of 1
+
+%I A031195
+%S A031195 1,10,30,30,30,10,10,10,3,1,10,10,3,10,10,30,10,30,10,10,10,30,10,10,
+%T A031195 10,10,10,10,30,30,3,10,30,30,10,10,3,30,3,30,10,10,30,30,10,10,10,30,
+%U A031195 3,30,10,10,10,10,10,10,3,30,30,10,30,10,10,10,10,10,10,10,30
+%N A031195 Periods of sum of 6th powers of digits iterated until the sequence becomes periodic.
+%H A031195 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Digitaddition.html">Digitaddition</a>
+%K A031195 nonn,base
+%O A031195 0,2
+%A A031195 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

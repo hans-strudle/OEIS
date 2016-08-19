@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038102
+Showing 1-1 of 1
+
+%I A038102
+%S A038102 0,1,10,11,100,101,110,111,1000,1001,1100,1101,10000,10001,10011,
+%T A038102 10100,10101,10111,11000,11001,11100,11101,100000,100001,101000,
+%U A038102 101010,101100,101101,101111,110000,110001,110101,111100,111101,1000000
+%N A038102 Numbers n such that n is a substring of its base 2 representation.
+%C A038102 The number of terms < 10^k: 1, 2, 4, 8, 12, 22, 34, 48, 61, 78, 90, 114, 140, 191, 233, 283, 337, 383, 429, 486, 542, 636, 718, 789, 852, 925, 1003, 1082, 1167, . - _Robert G. Wilson v_, Jun 30 2014
+%H A038102 Giovanni Resta and Robert G. Wilson v, <a href="/A038102/b038102.txt">Table of n, a(n) for n = 1..1167</a> (first 1000 terms from Giovanni Resta).
+%H A038102 Robert G. Wilson v, <a href="/A038102/a038102.txt">Interpret a(n) as a base 2 number and convert it to a decimal number, n, a(n) for n = 1..1167</a>
+%e A038102 101000 (in base 10) = 1100010{101000}1000 (in base 2).
+%t A038102 Select[FromDigits /@ IntegerDigits[Range[2^15]-1, 2], StringPosition[StringJoin @@ (ToString /@ IntegerDigits[#, 2]), ToString@#] != {} &] (* terms < 10^15, _Giovanni Resta_, Apr 30 2013 *)
+%t A038102 f[n_] := Block[{a = FromDigits@ IntegerDigits[n, 2]}, If[ StringPosition[ ToString@ FromDigits@ IntegerDigits[ a, 2], ToString@ a] != {}, a, 0]]; k = 0; lst = {}; While[k < 65, AppendTo[lst, f@k]; lst = Union@ lst; k++]; lst (* _Robert G. Wilson v_, Jun 29 2014 *)
+%o A038102 (PARI) {for(vv=0, 200, bvv=binary(vv);
+%o A038102 mm=length(bvv); texp=0; btod=0;
+%o A038102 forstep(i=mm, 1, -1, btod=btod+bvv[i]*10^texp; texp++);
+%o A038102 bigb=binary(btod); lbb=length(bigb); swsq=1;
+%o A038102 for(k=0, lbb - mm , for(j=1, mm, if(bvv[j]!=bigb[j+k], swsq=0));
+%o A038102 if(swsq==1, print1(btod, ", "); break, swsq=1)))}
+%o A038102 \\\ _Douglas Latimer_, Apr 29 2013
+%Y A038102 Cf. A038103-A038106, A228050-A228052, A227549.
+%K A038102 nonn,base,easy
+%O A038102 1,3
+%A A038102 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

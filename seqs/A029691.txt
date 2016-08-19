@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029691
+Showing 1-1 of 1
+
+%I A029691
+%S A029691 0,1,1,0,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,0,1,1,0,1,0,1,0,1,1,1,1,1,1,1,
+%T A029691 1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,1,1,1,1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,
+%U A029691 1,1,1,1,0,1,0,1,0,1,0,0,0,0,1,1,0,0,0,1,0,0,1,1,0,0,1,0,0,1,1,0,0,1
+%N A029691 n-th binary digit in fractional part of square root of n.
+%t A029691 Array[ Function[ n, RealDigits[ N[ Sqrt[ n ], n+6 ], 2 ]// (#[ [ 1, #[ [ 2 ] ]+n ] ])& ], 110 ]
+%K A029691 nonn,base
+%O A029691 1,1
+%A A029691 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

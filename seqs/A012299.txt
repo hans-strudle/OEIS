@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012299
+Showing 1-1 of 1
+
+%I A012299
+%S A012299 0,2,8,88,6592,9568,49063808,4426189952,1122968737792,
+%T A012299 441081682390528,23926396899780608,74405808039377364992,
+%U A012299 16597462789247237931008,19016633437725878038847488
+%V A012299 0,2,-8,-88,6592,-9568,-49063808,4426189952,1122968737792,
+%W A012299 -441081682390528,-23926396899780608,74405808039377364992,
+%X A012299 -16597462789247237931008,-19016633437725878038847488
+%N A012299 arcsinh(sin(x)*sin(x))=2/2!*x^2-8/4!*x^4-88/6!*x^6+6592/8!*x^8...
+%H A012299 Vaclav Kotesovec, <a href="/A012299/b012299.txt">Table of n, a(n) for n = 0..220</a>
+%H A012299 Vaclav Kotesovec, <a href="/A012299/a012299.jpg">graph a(n) / asymptotic</a>
+%F A012299 Lim sup n->infinity (|a(n)|*n^(3/2)/(2*n)!)^(1/(2*n)) = 1.04762030856875... = 1/sqrt(arcsin(sqrt(1-1/sqrt(2)))^2 + (log(1+sqrt(2)-sqrt(2*(1+sqrt(2))))/2)^2). - _Vaclav Kotesovec_, Nov 02 2013
+%t A012299 Table[n!*SeriesCoefficient[ArcSinh[Sin[x]*Sin[x]],{x,0,n}],{n,0,40,2}] (* _Vaclav Kotesovec_, Nov 02 2013 *)
+%K A012299 sign
+%O A012299 0,2
+%A A012299 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A012299 Prepended missing a(0)=0 from _Vaclav Kotesovec_, Nov 02 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

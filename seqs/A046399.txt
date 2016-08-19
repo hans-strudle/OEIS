@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046399
+Showing 1-1 of 1
+
+%I A046399
+%S A046399 1,2,6,66,858,6006,222222,22444422,244868442,6434774346,438024420834,
+%T A046399 50146955964105,2415957997595142,495677121121776594
+%N A046399 Smallest squarefree palindrome with exactly n distinct prime factors.
+%C A046399 Initial terms of sequences A046392-A046398.
+%D A046399 J.-P. Delahaye, Merveilleux nombres premiers ("Amazing primes"), p. 315, Pour la Science, Paris 2000.
+%e A046399 a(4) = 858 = 2*3*11*13.
+%t A046399 r[n_] := FromDigits[Reverse[IntegerDigits[n]]]; Do[k = 1; While[r[k] != k || !SquareFreeQ[k] || Length[Select[Divisors[k], PrimeQ]] != n, k++ ]; Print[k], {n, 0, 30}] - _Ryan Propper_, Sep 16 2005
+%Y A046399 Cf. A046385.
+%K A046399 nonn,hard,base
+%O A046399 0,2
+%A A046399 _Patrick De Geest_, Jun 15 1998.
+%E A046399 Edited by _N. J. A. Sloane_, Dec 06 2008 at the suggestion of R. J. Mathar
+%E A046399 a(10)-a(13) from _Donovan Johnson_, Oct 03 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

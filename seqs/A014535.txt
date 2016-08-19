@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014535
+Showing 1-1 of 1
+
+%I A014535
+%S A014535 0,1,1,1,1,2,2,3,4,5,8,14,23,32,43,63,97,149,224,332,489,727,1116,
+%T A014535 1776,2897,4782,7895,12909,20752,32670,50426,76767,116206,176289,
+%U A014535 269615,416774,650647,1023035,1614864,2551783,4028217,6344749,9966479,15614300,24407844
+%N A014535 B-trees of order 3 with n leaves.
+%C A014535 A B-tree of order m is an ordered tree such that every node has at most m children, the root has at least 2 children, every node except for the root has 0 or at least m/2 children, all end-nodes are at the same level.
+%C A014535 Limit n->infinity a(n)^(1/n) = (1+sqrt(5))/2, for more detailed asymptotics see Odlyzko 1982 reference. - _Vaclav Kotesovec_, Jul 29 2014
+%D A014535 Steven R. Finch, Mathematical Constants, Cambridge University Press, 2003, Section 5.6 Otter's tree enumeration constants, p. 311.
+%H A014535 Alois P. Heinz, <a href="/A014535/b014535.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014535 Ph. Flajolet and A. Odlyzko, <a href="http://algo.inria.fr/flajolet/Publications/publist.html">Singularity analysis of generating functions</a>, p. 20.
+%H A014535 P. Flajolet and R. Sedgewick, <a href="http://algo.inria.fr/flajolet/Publications/books.html">Analytic Combinatorics</a>, 2009; see page 91
+%H A014535 A. M. Odlyzko, <a href="http://www.sciencedirect.com/science/article/pii/0001870882900056">Periodic oscillations of coefficients of power series that satisfy functional equations</a>, Advances in Mathematics, Volume 44, Issue 2, May 1982, pp. 180-205.
+%H A014535 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/tree/BTrees.html">Information on B-Trees</a>
+%H A014535 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/B-Tree.html">B-Tree.</a>
+%H A014535 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A014535 G.f. satisfies A(x) = x + A(x^2+x^3).
+%F A014535 a(0) = 0, a(1) = 1, a(n) = sum_{k=ceiling(n/3)..floor(n/2)} binomial(k, 3*k - n)*a(k) - _Jean-François Alcover_, Jul 29 2014, after Steven Finch.
+%p A014535 spec := [ B, {B=Union(Z, Subst(M, B)), M=Union(Prod(Z,Z),Prod(Z,Z,Z))} ]: seq(combstruct[count](spec, size=n), n=0..36); # _Paul Zimmermann_
+%t A014535 max = 42; f[x_] := Sum[a[n]*x^n, {n, 0, max}]; sol = SolveAlways[ 0 == Series[f[x] - x - f[x^2 + x^3], {x, 0, max}] // Normal, x] // First; a[0] = 0; Table[a[n], {n, 0, 42}] /. sol (* _Jean-François Alcover_, Oct 23 2012, from g.f. *)
+%t A014535 a[0] = 0; a[1] = 1; a[n_] := a[n] = Sum[Binomial[k, 3*k - n]*a[k], {k, Ceiling[n/3], Floor[n/2]}]; Table[a[n], {n, 0, 100}] (* _Jean-François Alcover_, Jul 29 2014 *)
+%K A014535 nonn
+%O A014535 0,6
+%A A014535 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

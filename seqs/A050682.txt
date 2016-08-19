@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050682
+Showing 1-1 of 1
+
+%I A050682
+%S A050682 9,20,22,24,28,33,40,46,56,61
+%N A050682 Positions of 5's in A050677.
+%H A050682 P. De Geest, <a href="http://www.worldofnumbers.com/revfact.htm">Reversed Smarandache Concatenated Numbers, Prime factors from n down to 1</a>
+%H A050682 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A050682 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/michafleuren.htm">Factors and primes of Smarandache sequences</a>.
+%H A050682 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%Y A050682 Cf. A000422, A050677, A046464.
+%K A050682 nonn,base,hard,less
+%O A050682 0,1
+%A A050682 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

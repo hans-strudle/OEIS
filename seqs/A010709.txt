@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010709
+Showing 1-1 of 1
+
+%I A010709
+%S A010709 4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+%T A010709 4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+%U A010709 4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+%N A010709 Constant sequence: the all 4's sequence.
+%C A010709 Consider from A061037, Balmer, A145980 (29,139,323,581,) mod 9 = period9:repeat 2,4,8,5,4,5,8,4,2 (palindrom) = A146079. a(n)=A146079(1),A146079(4),A146079(7),A146079(10), .. generally A146079(3n+1 or A016777). - _Paul Curtz_, Nov 01 2008
+%C A010709 From _Klaus Brockhaus_, May 25 2010: (Start)
+%C A010709 Continued fraction expansion of 2+sqrt(5).
+%C A010709 Decimal expansion of 4/9.
+%C A010709 Inverse binomial transform of A020707. (End)
+%H A010709 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A010709 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=1012">Encyclopedia of Combinatorial Structures 1012</a>
+%H A010709 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A010709 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1).
+%F A010709 From _Klaus Brockhaus_, May 25 2010: (Start)
+%F A010709 a(n) = 4.
+%F A010709 G.f.: 4/(1-x). (End)
+%F A010709 E.g.f.: 4*e^x. - _Vincenzo Librandi_, Jan 29 2012
+%o A010709 (PARI) 4 \\ _Charles R Greathouse IV_, Apr 07 2012
+%o A010709 (Maxima) makelist(4, n, 0, 30); /* _Martin Ettl_, Nov 09 2012 */
+%Y A010709 From _Klaus Brockhaus_, May 25 2010: (Start)
+%Y A010709 Equals 4*A000012, 2*A007395, A010731/2, A010855/4, A010871/8.
+%Y A010709 Cf. A098317 (decimal expansion of 2+sqrt(5)), A020707 (2^(n+2)). (End)
+%K A010709 nonn,easy
+%O A010709 0,1
+%A A010709 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

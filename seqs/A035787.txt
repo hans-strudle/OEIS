@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035787
+Showing 1-1 of 1
+
+%I A035787
+%S A035787 1,5000,4170000,1394447000,250799764000,28222682700200,
+%T A035787 2180706863326000,123252789641763000,5335428332027176000,
+%U A035787 183203070393610797000,5129723834328569406800,119780004243882975543000
+%N A035787 Coordination sequence for C_50 lattice.
+%D A035787 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A035787 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035787 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A035787 ((1+x)/(1-x))^50 if norm is even; otherwise 0.
+%K A035787 nonn,easy
+%O A035787 0,2
+%A A035787 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035787 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

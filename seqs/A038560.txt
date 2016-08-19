@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038560
+Showing 1-1 of 1
+
+%I A038560
+%S A038560 2,3,5,13,39,135,527,2277,10749,54905,301111,1761803
+%N A038560 Binomial recurrence coefficients.
+%C A038560 Apparently defined by a(n) = A032347(n)+A038559(n). - _R. J. Mathar_, Nov 24 2013
+%D A038560 H. W .Gould, A linear binomial recurrence and the Bell numbers and polynomials, preprint, 1998
+%H A038560 H. W. Gould & J. Quaintance, <a href="http://www.doiserbia.nb.rs/img/doi/1452-8630/2007/1452-86300702371G.pdf">A linear binomial recurrence and the Bell numbers and polynomials</a>
+%Y A038560 Related to A000110, A040027 and A038559.
+%K A038560 easy,nonn,more
+%O A038560 0,1
+%A A038560 _Henry Gould_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

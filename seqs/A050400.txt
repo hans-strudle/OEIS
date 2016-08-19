@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050400
+Showing 1-1 of 1
+
+%I A050400
+%S A050400 5,1,17,43,181,621,2309,8303,30277,109753,398857,1447931,5258725,
+%T A050400 19095285,69344061,251811903,914429445,3320635025,12058502657,
+%U A050400 43789003563,159014593621,577442573597
+%N A050400 Number of independent sets of vertices in P_3 X C_n (n > 2).
+%F A050400 a(n) = a(n-1) + 8*a(n-2) + 6*a(n-3) - a(n-4) - a(n-5)
+%F A050400 G.f.:(5+x^4-12*x^3-24*x^2-4*x)/((1+x)*(x^4-6*x^2-2*x+1)) [From Maksym Voznyy (voznyy(AT)mail.ru), Aug 12 2009]
+%K A050400 easy,nonn
+%O A050400 0,1
+%A A050400 Stephen G. Penrice (spenrice(AT)ets.org), Dec 21 1999
+%E A050400 More terms from Michael Lugo (mlugo(AT)thelabelguy.com), Dec 22 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

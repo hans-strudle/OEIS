@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056506
+Showing 1-1 of 1
+
+%I A056506
+%S A056506 1,2,2,5,5,13,15,41,52,143,202,564,855,2433,3845,11101
+%N A056506 Number of periodic palindromic structures using a maximum of five different symbols.
+%C A056506 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome. Permuting the symbols will not change the structure.
+%D A056506 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056506 No formula known - terms found by computer search.
+%Y A056506 Cf. A056470.
+%K A056506 nonn
+%O A056506 1,2
+%A A056506 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+%E A056506 Corrected by _T. D. Noe_, Oct 25 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

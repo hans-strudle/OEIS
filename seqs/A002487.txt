@@ -1,0 +1,195 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002487
+Showing 1-1 of 1
+
+%I A002487 M0141 N0056
+%S A002487 0,1,1,2,1,3,2,3,1,4,3,5,2,5,3,4,1,5,4,7,3,8,5,7,2,7,5,8,3,7,4,5,1,6,
+%T A002487 5,9,4,11,7,10,3,11,8,13,5,12,7,9,2,9,7,12,5,13,8,11,3,10,7,11,4,9,5,
+%U A002487 6,1,7,6,11,5,14,9,13,4,15,11,18,7,17,10,13,3,14,11,19,8,21,13,18,5,17,12,19
+%N A002487 Stern's diatomic series (or Stern-Brocot sequence): a(0) = 0, a(1) = 1; for n > 0: a(2*n) = a(n), a(2*n+1) = a(n) + a(n+1).
+%C A002487 Also called fusc(n) [Dijkstra].
+%C A002487 a(n)/a(n+1) runs through all the reduced nonnegative rationals exactly once [Stern; Calkin and Wilf].
+%C A002487 If the terms are written as an array:
+%C A002487 1
+%C A002487 1,2
+%C A002487 1,3,2,3
+%C A002487 1,4,3,5,2,5,3,4
+%C A002487 1,5,4,7,3,8,5,7,2,7,5,8,3,7,4,5
+%C A002487 1,6,5,9,4,11,7,10,3,11,8,13,5,12,7,9,2,9,7,12,5,13,8,11,3,10,7,11,4,9,5,6
+%C A002487 then the sum of the k-th row is 3^(k-1), each columns is an arithmetic progression and the steps are nothing but the original sequence. - Takashi Tokita (butaneko(AT)fa2.so-net.ne.jp), Mar 08 2003
+%C A002487 Number of odd Stirling numbers S_2(n+1, 2r+1) [Carlitz].
+%C A002487 Moshe Newman proved that the fraction a(n+1)/a(n+2) can be generated from the previous fraction a(n)/a(n+1) = x by 1/(2*floor(x) + 1 - x). The successor function f(x) = 1/(floor(x) + 1 - frac(x)) can also be used.
+%C A002487 a(n+1) = number of alternating bit sets in n (see Finch).
+%C A002487 If f(x) = 1/(1+floor(x)-frac(x)) then f(a(n-1)/a(n))=a(n)/a(n+1) for n >= 1. If T(x) = -1/x and f(x) = y, then f(T(y)) = T(x) for x > 0. - _Michael Somos_, Sep 03 2006
+%C A002487 a(n+1) = number of ways of writing n as a sum of powers of 2, each power being used at most twice (the number of hyperbinary representations of n) [Carlitz; Lind].
+%C A002487 a(n+1) = partitions of the n-th integer expressible as the sum of distinct even-subscripted Fibonacci numbers (= A054204(n)), into sums of distinct Fibonacci numbers numbers [Bicknell-Johnson].
+%C A002487 a(n+1) = number of odd binomial(n-k, k), 0 <= 2*k <= n. [Carlitz], corrected by _Alessandro De Luca_, Jun 11 2014
+%C A002487 a(2^k) = 1. a(3*2^k) = a(2^(k+1) + 2^k) = 2. Sequences of terms between a(2^k) = 1 and a(2^(k+1)) = 1 are palindromes of length 2^k-1 with a(2^k + 2^(k-1)) = 2 in the middle. a(2^(k-1) + 1) = a(2^k - 1) = k+1 for k > 1. - _Alexander Adamchuk_, Oct 10 2006
+%C A002487 The coefficients of the inverse of the GF of this sequence form A073469 and are related to binary partitions A000123. - _Philippe Flajolet_, Sep 06 2008
+%C A002487 It appears that the terms of this sequence are the number of odd entries in the diagonals of Pascal's triangle at 45 degrees slope. - Javier Torres (adaycalledzero(AT)hotmail.com), Aug 06 2009
+%C A002487 From _Gary W. Adamson_, Dec 11 2009: (Start)
+%C A002487 Let M = an infinite lower triangular matrix with (1, 1, 1, 0, 0, 0,..) in
+%C A002487 every column shifted down twice:
+%C A002487 1;
+%C A002487 1, 0;
+%C A002487 1, 1, 0;
+%C A002487 0, 1, 0, 0;
+%C A002487 0, 1, 1, 0, 0;
+%C A002487 0, 0, 1, 0, 0, 0;
+%C A002487 0, 0, 1, 1, 0, 0, 0;
+%C A002487 ...
+%C A002487 A002487 = Lim_{n->inf.} M^n, a left-shifted vector considered as a sequence. (Cf. A026741) (End)
+%C A002487 Member of the infinite family of sequences of the form a(n) = a(2*n); a(2*n+1) = r*a(n) + a(n+1), r = 1 for A002487 = row 1 in the array of A178239. - _Gary W. Adamson_, May 23 2010
+%C A002487 Equals row 1 in an infinite array shown in A178568, sequences of the form
+%C A002487 a(2*n) = r*a(n), a(2*n+1) = a(n) + a(n+1); r = 1. - _Gary W. Adamson_, May 29 2010
+%C A002487 Row sums of A125184, the Stern polynomials. Equivalently, B(n,1), the n-th Stern polynomial evaluated at x = 1. - _T. D. Noe_, Feb 28 2011
+%C A002487 The Kn1y and Kn2y triangle sums, see A180662 for their definitions, of A047999 lead to the sequence given above, e.g. Kn11(n) = A002487(n+1) - A000004(n), Kn12(n) = A002487(n+3) - A000012(n), Kn13(n) = A002487(n+5) - A000034(n+1) and Kn14(n) = A002487(n+7) - A157810(n+1). For the general case of the knight triangle sums see the Stern-Sierpiński triangle A191372. This triangle not only leads to Stern’s diatomic series but also to snippets of this sequence and, quite surprisingly, their reverse. - _Johannes W. Meijer_, Jun 05 2011
+%C A002487 Maximum of terms between a(2^k) = 1 and a(2^(k+1)) = 1 is the Fibonacci number F(k+2). - _Leonid Bedratyuk_, Jul 04 2012
+%C A002487 Probably the number of different entries per antidiagonal of A223541. That would mean, there are exactly a(n+1) numbers that can be expressed as a nim-product 2^x*2^y with x+y=n. - _Tilman Piesk_, Mar 27 2013
+%C A002487 Let f(m,n) be the frequency of the integer n in the block [a(2^(m-1)), a(2^m-1)]. Let phi(n) be the Euler's totient function (A000010). Conjecture: for all integers m,n n<=m f(m,n) = phi(n). - _Yosu Yurramendi_, Sep 08 2014
+%D A002487 M. Aigner and G. M. Ziegler, Proofs from THE BOOK, 3rd ed., Berlin, Heidelberg, New York: Springer-Verlag, 2004, p. 97.
+%D A002487 E. R. Berlekamp, J. H. Conway and R. K. Guy, Winning Ways, Academic Press, NY, 2 vols., 1982, see p. 114.
+%D A002487 L. Carlitz, A problem in partitions related to the Stirling numbers, Riv. Mat. Univ. Parma, (2) 5 (1964), 61-75.
+%D A002487 Krishna Dasaratha, Laure Flapan, Chansoo Lee, Cornelia Mihaila, Nicholas Neumann-Chun, Sarah Peluse, Matthew Stroegeny, A family of multi-dimensional continued fraction Stern sequences, Abtracts Amer. Math. Soc., 33 (#1, 2012), #1077-05-2543.
+%D A002487 E. Dijkstra, Selected Writings on Computing, Springer, 1982, p. 232 (sequence is called fusc).
+%D A002487 F. G. M. Eisenstein, Eine neue Gattung zahlentheoretischer Funktionen, welche von zwei Elementen abhaengen und durch gewisse lineare Funktional-Gleichungen definirt werden, Verhandlungen der Koenigl. Preuss. Akademie der Wiss. Berlin (1850) 36-42, Feb 18, 1850. Werke, II, pp. 705-711.
+%D A002487 G. Everest, A. van der Poorten, I. Shparlinski and T. Ward, Recurrence Sequences, Amer. Math. Soc., 2003; see esp. p. 255.
+%D A002487 S. R. Finch, Mathematical Constants, Cambridge, 2003, Section 2.16.3; pp. 148-149.
+%D A002487 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 117.
+%D A002487 T. Koshy, Fibonacci and Lucas numbers with applications, Wiley, 2001, p. 98.
+%D A002487 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002487 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002487 T. D. Noe, <a href="/A002487/b002487.txt">Table of n, a(n) for n = 0..10000</a>
+%H A002487 J.-P. Allouche and M. Mendes France, <a href="http://arxiv.org/abs/1202.0211">Lacunary formal power series and the Stern-Brocot sequence</a>, arXiv preprint arXiv:1202.0211 [math.NT], 2012-2013. - _N. J. A. Sloane_, May 10 2012
+%H A002487 Jean-Paul Allouche, <a href="http://arxiv.org/abs/1202.4171">On the Stern sequence and its twisted version</a>, arXiv preprint arXiv:1202.4171 [math.NT], 2012.
+%H A002487 J.-P. Allouche, M. Mendes France, A. Lubiw, A.J. van der Poorten and J. Shallit, <a href="http://www.math.jussieu.fr/~allouche/bibliorecente.html">Convergents of folded continued fractions</a>
+%H A002487 J.-P. Allouche and J. Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Papers/as0.ps">The ring of k-regular sequences</a>, Theoretical Computer Sci., 98 (1992), 163-197.
+%H A002487 J.-P. Allouche and J. Shallit, <a href="http://dx.doi.org/10.1016/0304-3975(92)90001-V">The ring of k-regular sequences</a>, Theoretical Computer Sci., 98 (1992), 163-197.
+%H A002487 J.-P. Allouche and J. Shallit, <a href="http://www.math.jussieu.fr/~allouche/kreg2.ps">The Ring of k-regular Sequences, II</a>
+%H A002487 J.-P. Allouche and J. Shallit, <a href="http://dx.doi.org/10.1016/S0304-3975(03)00090-2">The ring of k-regular sequences, II</a>, Theoret. Computer Sci., 307 (2003), 3-29.
+%H A002487 Roland Bacher, <a href="http://arxiv.org/abs/1005.5627">Twisting the Stern sequence</a>, arXiv:1005.5627 [math.CO], 2010.
+%H A002487 B. Bates and T. Mansour, <a href="http://dx.doi.org/10.1016/j.jcta.2010.09.002">The q-Calkin-Wilf tree</a>, Journal of Combinatorial Theory Series A, Volume 118 Issue 3, 2011.
+%H A002487 M. Bicknell-Johnson, <a href="http://www.fq.math.ca/Scanned/41-2/bicknell.pdf">Stern's Diatomic Array Applied to Fibonacci Representations</a>, Fibonacci Quarterly 41 (2003), pp. 169-180.
+%H A002487 R. P. Brent, M. Coons, W. Zudilin, <a href="http://maths-people.anu.edu.au/~brent/pd/Brent_AustMS14.pdf">Asymptotics of a Mahler Function</a>, Slides of talk presented at AustMS/NZMS 2014, Melbourne, 8 December 2014.
+%H A002487 N. Calkin and H. S. Wilf, <a href="http://www.math.upenn.edu/~wilf/website/recounting.pdf">Recounting the rationals</a>, Amer. Math. Monthly, 107 (No. 4, 2000), pp. 360-363.
+%H A002487 L. Carlitz, <a href="/A002487/a002487abs1.html">A problem in partitions related to the Stirling numbers (abstract)</a>
+%H A002487 L. Carlitz, <a href="http://projecteuclid.org/euclid.bams/1183525946">A problem in partitions related to the Stirling numbers</a>, Bull. Amer. Math. Soc., 70(2) (1964), pp. 275-278.
+%H A002487 M. Coons and J. Shallit, <a href="http://dx.doi.org/10.1016/j.disc.2011.07.029">A pattern sequence approach to Stern's sequence</a>, Discrete Math., 311 (2011), 2630-2633.
+%H A002487 K. M. Courtright, and J. A. Sellers, <a href="http://www.emis.de/journals/INTEGERS/papers/e6/e6.Abstract.html">Arithmetic Properties for Hyper m-ary Partitions</a>, INTEGERS 4 (2004), Article A6
+%H A002487 G. De Rham, <a href="http://dx.doi.org/10.5169/seals-12823">Un peu de mathématiques à propos d'une courbe plane</a>, Elemente der Math. 2 (1947), pp. 73-76 and 89-97.
+%H A002487 Marc Deleglise, Paul Erdős, Jean-Louis Nicolas, <a href="http://dx.doi.org/10.1016/S0012-365X(98)00330-6">Sur les ensembles representes par les partitions d'un entier n</a> [Sets represented by partitions of an integer n] Paul Erdős memorial collection. Discrete Math. 200 (1999), no. 1-3, 27--48. MR1692277 (2000e:05012). See Table 1. _N. J. A. Sloane_, Mar 18 2012
+%H A002487 E. W. Dijkstra, <a href="http://www.cs.utexas.edu/users/EWD/ewd05xx/EWD570.PDF">An exercise for Dr. R. M. Burstall</a>
+%H A002487 E. W. Dijkstra, <a href="http://www.cs.utexas.edu/users/EWD/ewd05xx/EWD578.PDF">More about the function ``fusc''</a>
+%H A002487 K. Dilcher and L. Ericksen, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v22i2p24">Hyperbinary expansions and Stern polynomials</a>, Elec. J. Combin, 22, 2015, #P2.24.
+%H A002487 D.-J. Feng, P. Liardet and A. Thomas, <a href="http://www.math.cuhk.edu.hk/~djfeng/fengpapers/Feng-Liardet-Thomsa/FengLiardetThomasPartition3R.pdf">Partition functions in numeration systems with bounded multiplicity, Uniform Distribution Theory</a>, submitted 2013.
+%H A002487 S. R. Finch, P. Sebah and Z.-Q. Bai, <a href="http://arXiv.org/abs/0802.2654">Odd Entries in Pascal's Trinomial Triangle</a>, arXiv:0802.2654 [math.NT], 2008.
+%H A002487 A. S. Fraenkel, <a href="http://www.wisdom.weizmann.ac.il/~fraenkel/Papers/RationalGames3.pdf">Ratwyt</a>, Dec 28 2011.
+%H A002487 Thomas Garrity, <a href="http://arxiv.org/abs/1206.6685">A multi-dimensional continued fraction generalization of Stern's diatomic sequence</a>, arXiv:1206.6685 [math.CO], 2012-2013.
+%H A002487 Thomas Garrity, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Garrity/garrity4.html">A multi-dimensional continued fraction generalization of Stern's diatomic sequence</a>, Journal of Integer Sequences, Vol. 16 (2013), #13.7.7.
+%H A002487 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>
+%H A002487 B. Hayes, <a href="http://www.americanscientist.org/content/AMSCI/AMSCI/ArticleAltFormat/200353145619_146.ps">On the Teeth of Wheels</a>
+%H A002487 A. M. Hinz, S. Klavžar, U. Milutinović, C. Petr, <a href="http://dx.doi.org/10.1007/978-3-0348-0237-6">The Tower of Hanoi - Myths and Maths</a>, Birkhäuser 2013. See page 115. <a href="http://tohbook.info">Book's website</a>
+%H A002487 A. M. Hinz, S. Klavzar, U. Milutinovic, D. Parisse, and C. Petr, <a href="http://dx.doi.org/10.1016/j.ejc.2004.04.009">Metric properties of the Tower of Hanoi graphs and Stern's diatomic sequence</a> European J. Combin. 26 (2005), no. 5, 693-708.
+%H A002487 Donald E. Knuth, C. P. Rupert, Alex Smith and Richard Stong, <a href="http://www.jstor.org/stable/3647762">Recounting the Rationals, Continued: 10906</a>, solution by Moshe Newman, American Mathematical Monthly, 110 (No. 7, 2003), 642-643.
+%H A002487 Jennifer Lansing, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Lansing/lansing3.html">Distribution of Values of the Binomial Coefficients and the Stern Sequence</a>, Journal of Integer Sequences,  16 (2013), #13.3.7.
+%H A002487 Jennifer Lansing, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Lansing/lansing2.html">Largest Values for the Stern Sequence</a>, J. Integer Seqs., 17 (2014), #14.7.5.
+%H A002487 D. H. Lehmer, <a href="http://www.jstor.org/stable/2299356">On Stern's Diatomic Series</a>, Amer. Math. Monthly 36(1) 1929, pp. 59-67.
+%H A002487 Peter Luschny, <a href="http://www.oeis.org/wiki/User:Peter_Luschny/SternsDiatomic"> Rational Trees and Binary Partitions.</a>
+%H A002487 Mathematical Problems, <a href="http://projecteuler.net/index.php?section=problems&amp;id=169">Problem number 169</a> - Knut Angstrom (angstrom.knut(AT)telia.com), May 05 2009
+%H A002487 S. Northshield, <a href="http://dx.doi.org/10.4169/000298910X496714">Stern's diatomic sequence 0, 1, 1, 2, 1, 3, 2, 3, 1, 4, ...</a>, Amer. Math. Monthly, 117 (2010), 581-598.
+%H A002487 B. Reznick, <a href="http://dx.doi.org/10.1007/978-1-4612-3464-7_29">Some binary partition functions</a>, in "Analytic number theory" (Conf. in honor P. T. Bateman, Allerton Park, IL, 1989), 451-477, Progr. Math., 85, Birkhaeuser Boston, Boston, MA, 1990.
+%H A002487 B. Reznick, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL11/Reznick/reznick4.html">Regularity properties of the Stern enumeration of the Rationals</a>, JIS 11 (2008) 08.4.1
+%H A002487 N. J. A. Sloane, <a href="/stern_brocot.html">Stern-Brocot or Farey Tree</a>
+%H A002487 R. P. Stanley and H. S. Wilf, <a href="http://www-math.mit.edu/~rstan/papers/stern.pdf">Refining the Stern Diatomic Sequence</a>
+%H A002487 R. Stephan, <a href="http://arXiv.org/abs/math.CO/0307027">Divide-and-conquer generating functions. I. Elementary sequences</a>, arXiv:math/0307027 [math.CO], 2003.
+%H A002487 M. A. Stern, <a href="http://dx.doi.org/10.1515/crll.1858.55.193">Über eine zahlentheoretische Funktion</a>, J. Reine Angew. Math., 55 (1858), 193-220.
+%H A002487 Maciej Ulas, <a href="http://arxiv.org/abs/1102.5111">Arithmetic properties of the sequence of degrees of Stern polynomials and related results</a>, arXiv:1102.5111 [math.CO], 2011.
+%H A002487 Maciej Ulas and Oliwia Ulas, <a href="http://arxiv.org/abs/1102.5109">On certain arithmetic properties of Stern polynomials</a>, arXiv:1102.5109 [math.CO], 2011.
+%H A002487 Igor Urbiha, <a href="http://hrcak.srce.hr/file/1591">Some properties of a function studied by De Rham, Carlitz and Dijkstra and its relation to the (Eisenstein -) Stern’s diatomic sequence</a>, Math. Commun. 6, pp. 181-198, 2002.
+%H A002487 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SternsDiatomicSeries.html">Stern's Diatomic Series</a>
+%H A002487 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Calkin-WilfTree.html">Calkin-Wilf Tree</a>
+%H A002487 <a href="/index/St#Stern">Index entries for sequences related to Stern's sequences</a>
+%H A002487 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%H A002487 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A002487 a(0) = 0; a(1) = 1; a(2*k) = a(k); a(2*k+1) = a(k) + a(k+1) generates the same sequence with an initial 0. - _David W. Wilson_
+%F A002487 a(n+1) = (2*k+1)*a(n) - a(n-1) where k = [a(n-1)/a(n)] is the largest integer less than or equal to a(n-1)/a(n). - _David S. Newman_, Mar 04 2001
+%F A002487 Let e(n) = A007814(n) = exponent of highest power of 2 dividing n. Then a(n+1) = (2k+1)*a(n)-a(n-1), n > 0, where k = e(n). Moreover, floor(a(n-1)/a(n)) = e(n), in agreement with D. Newman's formula. - Dragutin Svrtan (dsvrtan(AT)math.hr) and Igor Urbiha (urbiha(AT)math.hr), Jan 10 2002
+%F A002487 Calkin and Wilf showed 0.9588 < limsup a(n)/n^(log(phi)/log(2)) < 1.1709 where phi is the golden mean. Does this supremum limit = 1? - _Benoit Cloitre_, Jan 18 2004
+%F A002487 a(n) = sum{k=0..floor((n-1)/2), mod(binomial(n-k-1, k), 2)}. - _Paul Barry_, Sep 13 2004
+%F A002487 a(n) = sum{k=0..n-1, binomial(k, n-k-1) mod 2}. - _Paul Barry_, Mar 26 2005
+%F A002487 G.f. A(x) satisfies 0 = f(A(x), A(x^2), A(x^4)) where f(u, v, w) = v^3 + 2*u*v*w - u^2*w. - _Michael Somos_, May 02 2005
+%F A002487 G.f. A(x) satisfies 0 = f(A(x), A(x^2), A(x^3), A(x^6)) where f(u1, u2, u3, u6) = u1^3*u6 - 3*u1^2*u2*u6 + 3*u2^3*u6 - u2^3*u3. - _Michael Somos_, May 02 2005
+%F A002487 G.f.: x * prod( k>=0, 1+x^(2^k)+x^(2^(k+1)) ) [Carlitz].
+%F A002487 a(n) = a(n-2)+a(n-1)-2*(a(n-2) mod a(n-1)) where x mod y gives the remainder after dividing x by y. - _Mike Stay_, Nov 06 2006
+%F A002487 A079978(n) = (1+e^(i*Pi*A002487(n)))/2, i=sqrt(-1). - _Paul Barry_, Jan 14 2005
+%F A002487 a(n) = sum(k=1..n, K(k, n-k)*a(n - k) ), where K(n,k) = 1 if 0 <= k AND k <= n AND n-k <= 2 and K(n,k) = 0 else. (When using such a K-coefficient several different arguments to K or several different definitions of K may lead to the same integer sequence. For example, if we drop the condition k <= n in the above definition, then we arrive at A002083 = Narayana-Zidek-Capell numbers.) - _Thomas Wieder_, Jan 13 2008
+%F A002487 a(k+1)*a(2^n - k) - a(k)*a(2^n - (k+1)) = 1; a(2^n - k) + a(k) = a(2^(n+1) + k). Both formulas hold for 0 <= k <= 2^n - 1. G.f.: G(z) = a(1) + a(2)*z + a(3)*z^2 + ... + a(k+1)*z^k + ... Define f(z) = (1 + z + z^2), then G(z) = lim f(z)*f(z^2)*f(z^4)* ... *f(z^(2^n))*... =(1 + z + z^2)*G(z^2). - Arie Werksma (werksma(AT)tiscali.nl), Apr 11 2008
+%F A002487 a(k+1)*a(2^n - k) - a(k)*a(2^n - (k+1)) = 1 (0 <= k <= 2^n - 1). - Arie Werksma (werksma(AT)tiscali.nl), Apr 18 2008
+%F A002487 a(2^n + k) = a(2^n - k) + a(k) (0 <= k <= 2^n). - Arie Werksma (werksma(AT)tiscali.nl), Apr 18 2008
+%F A002487 Let g(z) = a(1) + a(2)*z + a(3)*z^2 + ... + a(k+1)*z^k + ..., f(z) = 1 + z + z^2. Then g(z) = lim(n->00) f(z)*f(z^2)*f(z^4)*...*f(z^(2^n)), g(z) = f(z)*g(z^2). - Arie Werksma (werksma(AT)tiscali.nl), Apr 18 2008
+%F A002487 For 0 <= k <= 2^n - 1, write k = b(0) + 2*b(1) + 4*b(2) + ... + 2^(n-1)*b(n-1) where b(0), b(1), etc. are 0 or 1. Define a 2 X 2 matrix X(m) with entries x(1,1) = x(2,2) = 1, x(1,2) = 1 - b(m), x(2,1) = b(m). Let P(n)= X(0)*X(1)* ... *X(n-1). The entries of the matrix P are members of the sequence: p(1,1) = a(k+1), p(1,2) = a(2^n - (k+1)), p(2,1) = a(k), p(2,2) = a(2^n - k). - Arie Werksma (werksma(AT)tiscali.nl), Apr 20 2008
+%F A002487 Let f(x) = A030101(x); if 2^n + 1 <= x <= 2^(n + 1) and y = 2^(n + 1) - f(x - 1) then a(x) = a(y). - Arie Werksma (Werksma(AT)Tiscali.nl), Jul 11 2008
+%F A002487 a(n) = A126606(n + 1) / 2. - _Reikku Kulon_, Oct 05 2008
+%F A002487 Equals infinite convolution product of [1,1,1,0,0,0,0,0,0] aerated A000079 - 1 times, i.e., [1,1,1,0,0,0,0,0,0] * [1,0,1,0,1,0,0,0,0] * [1,0,0,0,1,0,0,0,1]. - _Mats Granvik_ and _Gary W. Adamson_, Oct 02 2009
+%F A002487 a(2^(p+2)*n+2^(p+1)-1) - a(2^(p+1)*n+2^p-1) = A007306(n+1), p >= 0 and n >= 0. - _Johannes W. Meijer_, Feb 07 2013
+%F A002487 a(2*n-1) = A007306(n), n>0. - _Yosu Yurramendi_, Jun 23 2014
+%F A002487 a(n*2^m) = a(n), m>0, n>0. - _Yosu Yurramendi_, Jul 03 2014
+%F A002487 a(k+1)*a(2^m+k) - a(k)*a(2^m+(k+1)) = 1 for m>=0, 0<=k<2^m. - _Yosu Yurramendi_, Nov 07 2014
+%F A002487 a(2^(m+1)+(k+1))*a(2^m+k) - a(2^(m+1)+k)*a(2^m+(k+1)) = 1 for m>=0, 0<=k<2^m. - _Yosu Yurramendi_, Nov 07 2014
+%F A002487 a(5*2^k) = 3. a(7*2^k) = 3. a(9*2^k) = 4. a(11*2^k) = 5. a(13*2^k) = 5. a(15*2^k) = 4. In general: a((2j-1)*2^k) = A007306(j), j > 0, k >= 0 (see Adamchuk's comment). - _Yosu Yurramendi_, Mar 05 2016
+%e A002487 Stern's diatomic array begins:
+%e A002487 1,1,
+%e A002487 1,2,1,
+%e A002487 1,3,2,3,1,
+%e A002487 1,4,3,5,2,5,3,4,1,
+%e A002487 1,5,4,7,3,8,5,7,2,7,5,8,3,7,4,5,1,
+%e A002487 1,6,5,9,4,11,7,10,3,11,8,13,5,12,7,9,2,9,7,12,5,13,8,11,3,10,7,11,4,9,5,6,1,
+%e A002487 ...
+%p A002487 A002487 := proc(n) option remember; if n <= 1 then n elif n mod 2 = 0 then procname(n/2); else procname((n-1)/2)+procname((n+1)/2); fi; end: seq(A002487(n),n=0..91);
+%p A002487 A002487 := proc(m) local a,b,n; a := 1; b := 0; n := m; while n>0 do if type(n,odd) then b := a+b else a := a+b end if; n := floor(n/2); end do; b; end proc: seq(A002487(n),n=0..91); # Program adapted from E. Dijkstra, Selected Writings on Computing, Springer, 1982, p. 232. - Igor Urbiha (urbiha(AT)math.hr), Oct 28 2002. Since A007306(n) = a(2*n+1), this program can be adapted for A007306 by replacing b := 0 by b := 1.
+%p A002487 A002487 := proc(n::integer) local k; option remember; if n = 0 then 0 elif n=1 then 1 else add(K(k,n-1-k)*procname(n - k), k = 1 .. n) end if end proc:
+%p A002487 K := proc(n::integer, k::integer) local KC; if 0 <= k and k <= n and n-k <= 2 then KC:=1; else KC:= 0; end if; end proc: seq(A002487(n),n=0..91); # _Thomas Wieder_, Jan 13 2008
+%t A002487 a[0] = 0; a[1] = 1; a[n_] := If[ EvenQ[n], a[n/2], a[(n-1)/2] + a[(n+1)/2]]; Table[ a[n], {n, 0, 100}] (* end of program *)
+%t A002487 Onemore[l_] := Transpose[{l, l + RotateLeft[l]}] // Flatten;
+%t A002487 NestList[Onemore, {1}, 5] // Flatten  (*gives [a(1), ...]*) (* Takashi Tokita, Mar 09 2003 *)
+%t A002487 ToBi[l_] := Table[2^(n - 1), {n, Length[l]}].Reverse[l]; Map[Length,
+%t A002487 Split[Sort[Map[ToBi, Table[IntegerDigits[n - 1, 3], {n, 500}]]]]]  (*give [a(1), ...]*) (* Takashi Tokita, Mar 10 2003 *)
+%t A002487 A002487[m_] := Module[{a = 1, b = 0, n = m}, While[n > 0, If[OddQ[n], b = a+b, a = a+b]; n = Floor[n/2]]; b]; Table[A002487[n], {n, 0, 100}] (* _Jean-François Alcover_, Sep 06 2013, translated from 2nd Maple program *)
+%o A002487 (PARI) {a(n) = if( n<2, n>0, a(n\2) + if( n%2, a(n\2 + 1)))};
+%o A002487 (PARI) fusc(n)=local(a=1,b=0);while(n>0,if(bitand(n,1),b+=a,a+=b);n>>=1);b \\ _Charles R Greathouse IV_, Oct 05 2008
+%o A002487 (Haskell)
+%o A002487 a002487 n = a002487_list !! n
+%o A002487 a002487_list = 0 : 1 : stern [1] where
+%o A002487    stern fuscs = fuscs' ++ stern fuscs' where
+%o A002487      fuscs' = interleave fuscs $ zipWith (+) fuscs $ (tail fuscs) ++ [1]
+%o A002487    interleave []     ys = ys
+%o A002487    interleave (x:xs) ys = x : interleave ys xs
+%o A002487 -- _Reinhard Zumkeller_, Aug 23 2011
+%o A002487 (R)
+%o A002487 N <- 50 # arbitrary
+%o A002487 a <- 1
+%o A002487 for (n in 1:N)
+%o A002487 {
+%o A002487   a[2*n    ] = a[n]
+%o A002487   a[2*n + 1] = a[n] + a[n+1]
+%o A002487   a
+%o A002487 }
+%o A002487 a
+%o A002487 # _Yosu Yurramendi_, Oct 04 2014
+%Y A002487 Cf. A084091, A020950, A046815, A070871, A070872, A071883, A001045, A002083, A073459, A000123, A126606, A049455, A011655, A026741, A178239, A178568, A174980, A174981, A213369, A212288.
+%Y A002487 Record values are in A212289.
+%Y A002487 If the 1's are replaced by pairs of 1's we obtain A049456.
+%Y A002487 Inverse: A020946.
+%Y A002487 Cf. a(A001045(n)) = A000045(n). a(A062092(n)) = A000032(n+1).
+%Y A002487 Cf. A064881-A064886 (Stern-Brocot subtrees). A column of A072170.
+%Y A002487 See A049455 for the 0,1 version of Stern's diatomic array.
+%K A002487 nonn,easy,nice,core,look
+%O A002487 0,4
+%A A002487 _N. J. A. Sloane_, Apr 30 1991
+%E A002487 Additional references and comments from _Len Smiley_, _Joshua Zucker_, _Rick L. Shepherd_ and Herb Wilf (wilf(AT)math.upenn.edu).
+%E A002487 Formula corrected by _Mats Granvik_, Oct 10 2009
+%E A002487 Typo in definition fixed by _Reinhard Zumkeller_, Aug 23 2011
+%E A002487 Incorrect formula deleted and text edited by _Johannes W. Meijer_, Feb 07 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

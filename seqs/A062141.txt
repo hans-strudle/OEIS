@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062141
+Showing 1-1 of 1
+
+%I A062141
+%S A062141 1,18,252,3360,45360,635040,9313920,143700480,2335132800,39956716800,
+%T A062141 719220902400,13599813427200,269729632972800,5602076992512000,
+%U A062141 121645100408832000,2757288942600192000
+%N A062141 Third column sequence of coefficient triangle A062137 of generalized Laguerre polynomials n!*L(n,3,x).
+%H A062141 <a href="/index/La#Laguerre">Index entries for sequences related to Laguerre polynomials</a>
+%F A062141 a(n)= (n+2)!*binomial(n+5, 5)/2!; e.g.f.: (1+10*x+10*x^2)/(1-x)^8.
+%F A062141 If we define f(n,i,x)= sum(sum(binomial(k,j)*stirling1(n,k)*stirling2(j,i)*x^(k-j),j=i..k),k=i..n) then a(n-5)=(-1)^(n-1)*f(n,5,-3), (n>=5). [From _Milan Janjic_, Mar 01 2009]
+%p A062141 a:=n->sum((n-j)*n!/5!, j=4..n): seq(a(n), n=5..20); - _Zerinvary Lajos_, Apr 29 2007
+%o A062141 (Sage) [binomial(n,5)*factorial (n-3)/2 for n in xrange(5, 21)] # [From _Zerinvary Lajos_, Jul 07 2009]
+%Y A062141 A061206.
+%K A062141 nonn,easy
+%O A062141 0,2
+%A A062141 _Wolfdieter Lang_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

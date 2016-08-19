@@ -1,0 +1,59 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008299
+Showing 1-1 of 1
+
+%I A008299
+%S A008299 1,1,1,3,1,10,1,25,15,1,56,105,1,119,490,105,1,246,1918,1260,1,501,
+%T A008299 6825,9450,945,1,1012,22935,56980,17325,1,2035,74316,302995,190575,
+%U A008299 10395,1,4082,235092,1487200,1636635,270270,1,8177,731731,6914908,12122110
+%N A008299 Triangle of associated Stirling numbers of second kind.
+%C A008299 T(n,k) is the number of set partitions of [n] into k blocks of size at least 2. Compare with A008277 (blocks of size at least 1) and A059022 (blocks of size at least 3). See also A200091. Reading the table by diagonals gives A134991. The row generating polynomials are the Mahler polynomials s_n(-x). See [Roman, 4.9]. Rows are of lengths 1,1,2,2,3,3,....
+%C A008299 For a relation to decomposition of spin correlators see Table 2 of the Delfino and Vito paper. - _Tom Copeland_, Nov 11 2012
+%D A008299 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 222.
+%D A008299 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 76.
+%D A008299 S. Roman, The Umbral Calculus, Dover Publications, New York (2005), pp. 129-130.
+%H A008299 Vincenzo Librandi and Alois P. Heinz, <a href="/A008299/b008299.txt">Rows n = 2..200, flattened</a> (rows n = 2..104 from Vincenzo Librandi)
+%H A008299 P. Bala, <a href="/A112007/a112007.txt">Diagonals of triangles with generating function exp(t*F(x)).</a>
+%H A008299 J. Fernando Barbero G., Jesús Salas, Eduardo J. S. Villaseñor, <a href="http://arxiv.org/abs/1307.2010">Bivariate Generating Functions for a Class of Linear Recurrences. I. General Structure</a>, arXiv:1307.2010, 2013
+%H A008299 J. Fernando Barbero G., Jesús Salas, Eduardo J. S. Villaseñor, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v22i3p37">Generalized Stirling permutations and forests: Higher-order Eulerian and Ward numbers</a>, Electronic Journal of Combinatorics 22(3) (2015), #P3.37.
+%H A008299 T. Copeland, <a href="http://tcjpn.wordpress.com/2015/12/21/generators-inversion-and-matrix-binomial-and-integral-transforms/">Generators, Inversion, and Matrix, Binomial, and Integral Transforms</a>
+%H A008299 T. Copeland, <a href="http://tcjpn.wordpress.com/2008/09/13/short-note-on-lagrange-inversion/">Short note on Lagrange inversion</a>
+%H A008299 Gesualdo Delfino and Jacopo Viti, <a href="http://arxiv.org/abs/1104.4323">Potts q-color field theory and scaling random cluster model</a>, arXiv:1104.4323 [hep-th], 2011.
+%H A008299 A. E. Fekete, <a href="http://www.jstor.org/stable/2974533">Apropos two notes on notation</a>, Amer. Math. Monthly, 101 (1994), 771-778.
+%H A008299 R. Paris, <a href="http://dx.doi.org/10.1016/S0377-0427(02)00553-8">A uniform asymptotic expansion for the incomplete gamma function</a>, Journal of Computational and Applied Mathematics, 148 (2002), p. 223-239 (See 332. From Tom Copeland, Jan 03 2016).
+%H A008299 L. M. Smiley, <a href="http://arXiv.org/abs/math.CO/0006106">Completion of a Rational Function Sequence of Carlitz</a>, arXiv:math/0006106 [math.CO], 2000.
+%H A008299 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MahlerPolynomial.html">Mahler polynomial</a>
+%H A008299 Wikipedia, <a href="https://en.wikipedia.org/wiki/Mahler_polynomials">Mahler polynomials</a>
+%F A008299 E.g.f. with additional constant 1: exp(t*(exp(x)-1-x)) = 1+t*x^2/2!+t*x^3/3!+(t+3*t^2)*x^4/4!+....
+%F A008299 Recurrence relation: T(n+1,k) = k*T(n,k) + n*T(n-1,k-1).
+%F A008299 T(n,k) = A134991(n-k,k); A134991(n,k) = T(n+k,k).
+%F A008299 More generally, if S_r(n,k) counts the number of set partitions of [n] into k blocks of size at least r then we have the recurrence S_r(n+1,k)=k*S_r(n,k)+binomial(n,r-1)*S_r(n-r+1,k-1) (for this sequence, r=2), with associated e.g.f.: sum(S_r(n,k)*u^k*(t^n/n!), n>=0, k>=0)=exp(u*(e^t-sum(t^i/i!, i=0..r-1))).
+%F A008299 T(n,k) = Sum_{i=0..k} (-1)^i*binomial(n, i)*[sum_{j=0..k-i} (-1)^j*(k -i -j)^(n-i)/(j!*(k-i-j)!)] - _David Wasserman_, Jun 13 2007
+%F A008299 G.f.: (R(0)-1)/(x^2*y), where R(k) = 1 - (k+1)*y*x^2/( (k+1)*y*x^2 -(1- k*x)*(1-x - k*x)/R(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Nov 09 2013
+%e A008299 There are 3 ways of partitioning a set N of cardinality 4 into 2 blocks each of cardinality at least 2, so S_2(4,2)=3. Table begins
+%e A008299 .n\k.|..1....2.....3.....4
+%e A008299 = = = = = = = = = = = = = =
+%e A008299 ..2..|..1
+%e A008299 ..3..|..1
+%e A008299 ..4..|..1....3
+%e A008299 ..5..|..1...10
+%e A008299 ..6..|..1...25....15
+%e A008299 ..7..|..1...56...105
+%e A008299 ..8..|..1..119...490...105
+%e A008299 ..9..|..1..246..1918..1260
+%e A008299 ...
+%e A008299 Reading the table by diagonals produces the triangle A134991.
+%t A008299 t[n_, k_] := Sum[ (-1)^i*Binomial[n, i]*Sum[ (-1)^j*(k - i - j)^(n - i)/(j!*(k - i - j)!), {j, 0, k - i}], {i, 0, k}]; Flatten[ Table[ t[n, k], {n, 2, 14}, {k, 1, Floor[n/2]}]] (* _Jean-François Alcover_, Oct 13 2011, after David Wasserman *)
+%o A008299 (PARI) {T(n, k) = if( n < 1 || 2*k > n, n==0 && k==0, sum(i=0, k, (-1)^i * binomial( n, i) * sum(j=0, k-i, (-1)^j * (k-i-j)^(n-i) / (j! * (k-i-j)!))))}; /* _Michael Somos_, Oct 19 2014 */
+%Y A008299 Rows give A000247, A000478, A058844.
+%Y A008299 Cf. A059022, A059023, A059024, A059025.
+%Y A008299 Row sums: A000296. A134991. A200091.
+%K A008299 nonn,tabf,nice
+%O A008299 2,4
+%A A008299 _N. J. A. Sloane_
+%E A008299 Formula and cross-references from Barbara Haas Margolius (margolius(AT)math.csuohio.edu), Dec 14 2000
+%E A008299 More terms from _David Wasserman_, Jun 13 2007
+%E A008299 Edited by _Peter Bala_, Dec 04 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

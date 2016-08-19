@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000569
+Showing 1-1 of 1
+
+%I A000569
+%S A000569 1,2,5,9,17,31,54,90,151,244,387,607,933,1420,2136,3173,4657,6799,
+%T A000569 9803,14048,19956,28179,39467,54996,76104,104802,143481,195485,264941,
+%U A000569 357635,480408,642723,856398,1136715,1503172,1980785
+%N A000569 Number of graphical partitions of 2n.
+%C A000569 A partition of n is a sequence p_1, ..., p_k for some k with p_1 >= p_2 >= ... >= p_k and p_1+...+p_k=n. A partition is graphical if it is the degree sequence of a simple graph (this requires that n be even). Some authors set a(0)=1 by convention.
+%D A000569 Barnes, Tiffany M. and Savage, Carla D., Efficient generation of graphical partitions. Discrete Appl. Math. 78 (1997), no. 1-3, 17-26.
+%D A000569 P. Erdős and T. Gallai, Graphs with a given degree of vertices, Mat. Lapok, 11 (1960), 264-274.
+%D A000569 Erdős, P. and Richmond, L. B., On graphical partitions. Combinatorica 13 (1993), no. 1, 57-63.
+%D A000569 Sierksma, Gerard  and Hoogeveen, Han, Seven criteria for integer sequences being graphic.  J. Graph Theory 15 (1991), no. 2, 223-231.
+%H A000569 T. D. Noe, <a href="/A000569/b000569.txt">Table of n, a(n) for n = 1..585</a>
+%H A000569 T. M. Barnes and C. D. Savage, A recurrence for counting graphical partitions, <a href="http://www.combinatorics.org/">Electronic J. Combinatorics</a>, 2 (1995)
+%H A000569 Axel Kohnert, Dominance Order and Graphical Partitions, <a href="http://www.combinatorics.org/">Electronic J. Combinatorics</a>, 11 (2004)
+%H A000569 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/GraphicalPartition.html">Graphical partition.</a>
+%H A000569 <a href="/index/Gra#graph_part">Index entries for sequences related to graphical partitions</a>
+%e A000569 a(2)=2: the graphical partitions of 4 are 2+1+1 and 1+1+1+1, corresponding to the degree sequences of the graphs V and ||.
+%t A000569 << MathWorld`Graphs`
+%t A000569 Table[Count[RealizeDegreeSequence /@ Partitions[n], _Graph], {n, 2, 20, 2}]
+%Y A000569 Cf. A004250, A004251, A029889.
+%K A000569 nonn,nice
+%O A000569 1,2
+%A A000569 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

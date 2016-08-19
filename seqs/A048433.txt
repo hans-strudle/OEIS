@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048433
+Showing 1-1 of 1
+
+%I A048433
+%S A048433 8,212,212,555,78287,936639,4347434,261565162,557191755,22113131122,
+%T A048433 35779797753,2583864683852,5269108019625
+%N A048433 Smallest numerator of fraction using palindromes that approximates 'phi' with at least n decimals.
+%e A048433 E.g. n=4 -> 555/343 = 1.618... correct to four decimals.
+%Y A048433 Denominators in A048434.
+%K A048433 nonn,frac,base
+%O A048433 1,1
+%A A048433 _Patrick De Geest_, Apr 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

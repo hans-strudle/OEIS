@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046360
+Showing 1-1 of 1
+
+%I A046360
+%S A046360 4,5445,234432,585585,888888,951159,999999,1345431,2554552,4620264,
+%T A046360 5842485,6151516,9704079,12333321,40199104,42266224,42666624,44088044,
+%U A046360 46355364,63599536,63633636,420838024,424848424,631949136,649363946
+%N A046360 Palindromes divisible by the palindromic sum of their prime factors (counted with multiplicity).
+%e A046360 649363946 = 2 * 7 * 11 * 83 * 101 * 503 -> Sum of factors is palindrome 707 -> 649363946 / 707 = 918478 exactly.
+%t A046360 palQ[n_]:= Reverse[x=IntegerDigits[n]] == x; t={}; Do[If[!PrimeQ[n] && And@@palQ/@{n,y=Total[Times@@@FactorInteger[n]]} && IntegerQ[n/y], AppendTo[t,n]],{n, 4, 6*10^6}]; t (* _Jayanta Basu_, Jun 05 2013 *)
+%Y A046360 Cf. A046358, A046359.
+%K A046360 nonn,base
+%O A046360 1,1
+%A A046360 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

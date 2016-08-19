@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029986
+Showing 1-1 of 1
+
+%I A029986
+%S A029986 0,1,5,17,21,65,71,83,257,273,281,317,1025,1055,4097,4161,4193,4401,
+%T A029986 5157,5179,5221,16385,16511,16865,17239,65537,65793,65921,66753,68695,
+%U A029986 69521,69777,80739,82053,82171,82309,82885,83301,262145
+%N A029986 Numbers n such that n^2 is palindromic in base 4.
+%H A029986 P. De Geest, <a href="http://www.worldofnumbers.com/square.htm">Palindromic Squares</a>
+%t A029986 Select[Range[0,300000],IntegerDigits[#^2,4]==Reverse[ IntegerDigits[ #^2,4]]&] (* _Harvey P. Dale_, Dec 01 2015 *)
+%K A029986 nonn,base
+%O A029986 1,3
+%A A029986 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

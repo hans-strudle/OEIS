@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028248
+Showing 1-1 of 1
+
+%I A028248
+%S A028248 1,0,1,1,7,21,126,638,4264,28983,226018,1872300,16940661,163461455,
+%T A028248 1688378030,18501971647,214749109038,2628228896227,33832314246857,
+%U A028248 456730760934125,6451399211318995,95135434800384144
+%N A028248 Expansion of exp(exp(exp(x) - 1 - x) - 1).
+%K A028248 nonn
+%O A028248 0,5
+%A A028248 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017467
+Showing 1-1 of 1
+
+%I A017467
+%S A017467 279936,410338673,13492928512,137231006679,781250000000,3142742836021,
+%T A017467 10030613004288,27136050989627,64847759419264,140710042265625,
+%U A017467 282621973446656,532875860165503,953133216331392
+%N A017467 (11*n+6)^7.
+%H A017467 Vincenzo Librandi, <a href="/A017467/b017467.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017467 (MAGMA) [(11*n+6)^7: n in [0..20]]; // Vincenzo Librandi, Sep 04 2011
+%K A017467 nonn,easy
+%O A017467 0,1
+%A A017467 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020575
+Showing 1-1 of 1
+
+%I A020575
+%S A020575 3,5,7,11,13,19,23,47
+%N A020575 Smallest nonempty set S containing prime divisors of 2k+1 for each k in S.
+%t A020575 f[s_List] := FactorInteger[2*#+1][[All, 1]]& /@ s // Flatten // Union; FixedPoint[Union[#, f[#]]&, f[{1}]] (* _Jean-François Alcover_, Apr 30 2014 *)
+%K A020575 nonn,fini,full
+%O A020575 1,1
+%A A020575 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005362
+Showing 1-1 of 1
+
+%I A005362 M1789
+%S A005362 1,2,7,32,177,1122,7898,60398,494078,4274228,38763298,366039104,
+%T A005362 3579512809,36091415154,373853631974,3966563630394,42997859838010,
+%U A005362 475191259977060
+%N A005362 Hoggatt sequence.
+%D A005362 D. C. Fielder and C. O. Alford, On a conjecture by Hoggatt with extensions to Hoggatt sums and Hoggatt triangles, Fib. Quart., 27 (1989), 160-168.
+%D A005362 D. C. Fielder and C. O. Alford, ``An investigation of sequences derived from Hoggatt sums and Hoggatt triangles,'' in G. E. Bergum et al., editors, Applications of Fibonacci Numbers: Proc. Third Internat. Conf. on Fibonacci Numbers and Their Applications, Pisa, Jul 25-29, 1988. Kluwer, Dordrecht, Vol. 3, 1990, pp. 77-88.
+%D A005362 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005362 Nick Hobson, <a href="/A005362/a005362.py.txt">Python program for this sequence</a>
+%F A005362 (n+3)(n+4)(n+5)(n+6)a(n) = 6(n+1)(n+3)(n+4)(2n+5)a(n-1) + 4(n-1)n(4n+7)(4n+9)a(n-2); a(0)=1, a(1)=2 - Richard L. Ollerton (r.ollerton(AT)uws.edu.au), Sep 12 2006
+%t A005362 A005362[n_]:=HypergeometricPFQ[{-3-n,-2-n,-1-n,-n},{2,3,4},1] - Richard L. Ollerton (r.ollerton(AT)uws.edu.au), Sep 12 2006
+%K A005362 nonn
+%O A005362 0,2
+%A A005362 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

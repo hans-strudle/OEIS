@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035277
+Showing 1-1 of 1
+
+%I A035277
+%S A035277 1,18,504,19152,919296,53319168,3625703424,282804867072,
+%T A035277 24886828302336,2438909173628928,263402190751924224,
+%U A035277 31081458508727058432,3978426689117063479296,549022883098154760142848
+%N A035277 One eighth of deca-factorial numbers.
+%C A035277 a(n)= (Pochhammer(8/10,n)*10^n)/8.
+%H A035277 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035277 8*a(n) = (10*n-2)(!^10) := product(10*j-2, j=1..n)= 2^(n+2)*A034301(n), 4*A034301(n)=(5*n-1)(!^5); E.g.f. (-1+(1-10*x)^(-4/5))/8.
+%Y A035277 Cf. A034301, A045757, A035265, A035272-A035279.
+%K A035277 easy,nonn
+%O A035277 1,2
+%A A035277 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

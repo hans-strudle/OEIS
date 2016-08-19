@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049102
+Showing 1-1 of 1
+
+%I A049102
+%S A049102 1,12,111,112,135,144,216,432,2112,11112,11115,11232,12312,13824,
+%T A049102 14112,21112,23112,27216,31212,41112,81216,93312,111132,122112,124416,
+%U A049102 131112,132192,186624,212112,221112,221184,222912,239112,248832,311472,316224
+%N A049102 Numbers n such that n is a multiple of (product of digits of n) * (sum of digits of n).
+%C A049102 Empirically, it looks as if every number of the form (10^3^n-1)/9 has this property. - _David W. Wilson_, Dec 12 2001
+%H A049102 Vincenzo Librandi, <a href="/A049102/b049102.txt">Table of n, a(n) for n = 1..100</a>
+%t A049102 Select[ Range[10^6], IntegerQ[ # /(Apply[ Times, IntegerDigits[ # ]] * Apply[ Plus, IntegerDigits[ # ]] ) ] & ]
+%Y A049102 Cf. A038369, A049101, A049105, A049106.
+%K A049102 nonn,base
+%O A049102 1,2
+%A A049102 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

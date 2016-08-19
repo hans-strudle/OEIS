@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054807
+Showing 1-1 of 1
+
+%I A054807
+%S A054807 43,73,103,229,283,313,463,491,619,643,733,761,859,883,941,1093,1303,
+%T A054807 1429,1453,1483,1553,1667,1669,1699,1747,1787,1789,1867,1871,1873,
+%U A054807 1997,1999,2069,2143,2341,2381,2383,2473,2477,2531,2539,2543,2593,2621,2659
+%N A054807 Fourth term of strong prime quartets: p(m-2)-p(m-3) > p(m-1)-p(m-2) > p(m)-p(m-1).
+%Y A054807 Cf. A051634, A054800-A054840.
+%K A054807 nonn
+%O A054807 0,1
+%A A054807 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

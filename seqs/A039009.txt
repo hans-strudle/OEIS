@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039009
+Showing 1-1 of 1
+
+%I A039009
+%S A039009 1,2,4,6,7,9,11,12,14,15,21,22,24,28,31,32,34,36,37,39,40,46,47,49,53,
+%T A039009 56,57,59,61,62,64,65,71,72,74,76,77,79,80,85,95,103,106,107,109,111,
+%U A039009 112,114,115,121,122,124,133,138,141,142,144,148,153,156,157,159,161
+%N A039009 Numbers n such that representation in base 5 has same number of 0's and 3's.
+%t A039009 Select[Range[200],DigitCount[#,5,0]==DigitCount[#,5,3]&] (* _Harvey P. Dale_, Dec 10 2015 *)
+%K A039009 nonn,base,easy
+%O A039009 1,2
+%A A039009 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

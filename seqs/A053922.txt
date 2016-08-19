@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053922
+Showing 1-1 of 1
+
+%I A053922
+%S A053922 2,8,68,162,668,5162,6668,25738,66668,79162,163238,666668,6666668,
+%T A053922 8041408,24993332,66666668,666666668,6666666668,8016649092,
+%U A053922 66666666668,666666666668,6666666666668,66666666666668
+%N A053922 Numbers n such that n^2 contains only digits {2,4,6}.
+%H A053922 Author?, <a href="http://blue.kakiko.com/mmrmmr/htm/eqtn06.html">Source</a>(<a href="http://blue.kakiko.com/mmrmmr/txt/eqtn06.txt">txt</a>)
+%Y A053922 Cf. A053923.
+%K A053922 nonn,base,more
+%O A053922 1,1
+%A A053922 _Patrick De Geest_, Mar 15 2000.
+%E A053922 More terms from C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 04 2005
+%E A053922 Two more terms from _Jon E. Schoenfield_, Sep 04 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

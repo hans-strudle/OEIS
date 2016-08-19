@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057706
+Showing 1-1 of 1
+
+%I A057706
+%S A057706 5,29,2309
+%N A057706 Smaller of twin primes whose average is a primorial number.
+%C A057706 According to Caldwell, the next term, if it exists, has more than a 100000 digits. - _T. D. Noe_, May 08 2012
+%H A057706 Chris K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=PrimorialPrime">Primorial prime</a>
+%e A057706 (5+7)/2 = 6 = 2*3, (29+31)/2 = 30 = 2*3*5, (2309+2311)/2 = 2310 = 2*3*5*7*11.
+%Y A057706 Cf. A014545, A005234, A057704, A006794, A002110.
+%K A057706 nonn,bref
+%O A057706 1,1
+%A A057706 _Labos Elemer_, Oct 24 2000
+%E A057706 Offset corrected by Arkadiusz Wesolowski, May 08 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

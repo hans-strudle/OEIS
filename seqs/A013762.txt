@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013762
+Showing 1-1 of 1
+
+%I A013762
+%S A013762 18,104976,612220032,3570467226624,20822964865671168,
+%T A013762 121439531096594251776,708235345355337676357632,
+%U A013762 4130428534112329328517709824,24088659210943104643915283693568
+%N A013762 18^(3n+1).
+%H A013762 Vincenzo Librandi, <a href="/A013762/b013762.txt">Table of n, a(n) for n = 0..100</a>
+%H A013762 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013762 a(n)=5832*a(n-1), n>0 ; a(0)=18. G.f.: 18/(1-5832*x). a(n)=A013763(n)/18. [From _Philippe Deléham_, Dec 07 2008]
+%o A013762 (MAGMA) [18^(3*n+1): n in [0..15]]; // Vincenzo Librandi, May 24 2011
+%K A013762 nonn
+%O A013762 0,1
+%A A013762 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

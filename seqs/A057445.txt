@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057445
+Showing 1-1 of 1
+
+%I A057445
+%S A057445 262144,373248,531441,884736,1000000,1259712,2097152,2744000,1953125,
+%T A057445 3581577,5832000,10077696,4251528,14706125,10077696,27000000,11390625,
+%U A057445 10077696,25412184,34012224,23887872
+%N A057445 Numbers n such that n=(a+b)=(x*y) with a*b=(x+y)^3 (a>0,b>0,x>0,y>0): sequence gives values of (a*b).
+%K A057445 nonn
+%O A057445 1,1
+%A A057445 _Naohiro Nomoto_, Sep 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

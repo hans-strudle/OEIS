@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030291
+Showing 1-1 of 1
+
+%I A030291
+%S A030291 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,
+%T A030291 97,101,113,131,151,181,191,199,211,223,227,229,233,277,311,313,331,
+%U A030291 337,353,373,383,433,443,449,499,557,577,599,661,677,727,733
+%N A030291 Primes with at most two different digits.
+%H A030291 T. D. Noe, <a href="/A030291/b030291.txt">Table of n, a(n) for n = 1..1000</a>
+%t A030291 Select[Range[1000], PrimeQ[#] && Length[Union[RealDigits[#][[1]]]] <= 2 &]
+%Y A030291 Cf. A032758.
+%K A030291 nonn,base,easy
+%O A030291 1,1
+%A A030291 _Patrick De Geest_
+%E A030291 Offset corrected by Arkadiusz Wesolowski, Sep 13 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

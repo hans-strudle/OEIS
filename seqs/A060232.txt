@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060232
+Showing 1-1 of 1
+
+%I A060232
+%S A060232 180179,270269,300299,330329,390389,420419,540539,660659,840839,
+%T A060232 1231229,1261259,1501499,1621619,1861859,1921919,1951949,2012009,
+%U A060232 2372369,2762759,2972969,3663659,3693689,3723719,3903899,4084079
+%N A060232 Smaller of twin primes whose middle term is a multiple of A002110(6)=30030.
+%e A060232 For the pair {5735729,5735731} (5735729+5735731)/2 = 191*30030.
+%Y A060232 A001359, A002110, A060229, A060230, A060231.
+%K A060232 nonn
+%O A060232 1,1
+%A A060232 _Labos Elemer_, Mar 21 2001
+%E A060232 Minor edits by _Ray Chandler_, Apr 04 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

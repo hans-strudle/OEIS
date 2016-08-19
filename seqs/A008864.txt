@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008864
+Showing 1-1 of 1
+
+%I A008864
+%S A008864 3,4,6,8,12,14,18,20,24,30,32,38,42,44,48,54,60,62,68,72,74,80,84,90,
+%T A008864 98,102,104,108,110,114,128,132,138,140,150,152,158,164,168,174,180,
+%U A008864 182,192,194,198,200,212,224,228,230,234,240,242,252,258,264,270,272,278,282,284
+%N A008864 Prime(n) + 1.
+%C A008864 Number of divisors of 2^p = p+1 = A000005(A034785(n)) = A000203(A000040(n)) = Sum of divisors of primes. - _Labos Elemer_, May 24 2001
+%C A008864 Or, three together with nonprime numbers k such that k-1 is prime. - _Juri-Stepan Gerasimov_, Sep 08 2009
+%C A008864 a(n) = prime(n)+1, a(n)-prime(n-1) is very often prime, example:
+%C A008864 18=prime(7)+1, 18-prime(6)=5 prime, prime(6)=13 & prime(7)=17, so even numbers a(n) = prime(n)+1 are very often the sum of two different primes for n>3. - _Pierre CAMI_, Nov 27 2013
+%C A008864 For n > 1, there are a(n) more nonnegative Hurwitz quaternions than nonnegative Lipschitz quaternions, which are counted in A239396 and A239394, respectively. - _T. D. Noe_, Mar 31 2014
+%C A008864 From _Hieronymus Fischer_, Apr 10 2014 (Start):
+%C A008864   These are the numbers which are in A239708 or in A187813, but excluding the first 3 terms of A187813, i.e., a number m is a term if and only if m is a term > 2 of A187813, or m is the sum of two distinct powers of 2 such that m - 1 is prime. This means that a number m is a term if and only if m is a term > 2 such that there is no base b with a base-b digital sum of b, or b = 2 is the only base for which the base-b digital sum of m is b. a(6) is the only term such that a(n) = A187813(n); for n < 6, we have a(n) > A187813(n), and for n > 6, we have a(n) < A187813(n). (End)
+%D A008864 C. W. Trigg, Problem #1210, Series Formation, J. Rec. Math., 15 (1982), 221-222.
+%H A008864 Reinhard Zumkeller, <a href="/A008864/b008864.txt">Table of n, a(n) for n = 1..10000</a>
+%F A008864 a(n) = A084920(n) / A006093(n). - _Reinhard Zumkeller_, Aug 06 2007
+%F A008864 a(n) = A000040(n) + 1 = A052147(n) - 1 = A113395(n) - 2 = A175221(n) - 3 = A175222(n) - 4 = A139049(n) - 5 = A175223(n) - 6 = A175224(n) - 7 = A140353(n) - 8 = A175225(n) - 9. - _Jaroslav Krizek_, Mar 06 2010
+%F A008864 A239703(a(n)) <= 1. - _Hieronymus Fischer_, Apr 10 2014
+%p A008864 A008864:=n->ithprime(n)+1; seq(A008864(n), n=1..50); # _Wesley Ivan Hurt_, Apr 11 2014
+%t A008864 Table[Prime[n]+1, {n, 30}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 27 2008 *)
+%o A008864 (PARI) forprime(p=2,1e3,print1(p+1", ")) \\ _Charles R Greathouse IV_, Jun 16 2011
+%o A008864 (Haskell)
+%o A008864 a008864 = (+ 1) . a000040
+%o A008864 -- _Reinhard Zumkeller_, Sep 04 2012, Oct 08 2012
+%Y A008864 a(n) = prime(n)+1 = A000040(n) + 1 = A000040(n) + A000012(n).
+%Y A008864 Cf. A000040, A060800, A131991, A131992, A131993, A141468.
+%Y A008864 Cf. A007953, A079696, A187813, A239703, A239708.
+%K A008864 nonn,easy
+%O A008864 1,1
+%A A008864 _N. J. A. Sloane_, _R. K. Guy_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

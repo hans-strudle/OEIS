@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020529
+Showing 1-1 of 1
+
+%I A020529
+%S A020529 1,119,4319,94079,1727999,29521919,487710719,7927726079,127844351999,
+%T A020529 2053539102719,32920955781119,527250311086079,8440126636031999,
+%U A020529 135075005485547519,2161463946400235519
+%V A020529 -1,119,4319,94079,1727999,29521919,487710719,7927726079,127844351999,
+%W A020529 2053539102719,32920955781119,527250311086079,8440126636031999,
+%X A020529 135075005485547519,2161463946400235519
+%N A020529 4th Bernoulli polynomial evaluated at powers of 2 (multiplied by 30).
+%H A020529 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%F A020529 30*16^n - 60*8^n + 30*4^n - 1.
+%p A020529 seq(bernoulli(4,2^i),i=0..24);
+%K A020529 sign
+%O A020529 0,2
+%A A020529 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

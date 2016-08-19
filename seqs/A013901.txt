@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013901
+Showing 1-1 of 1
+
+%I A013901
+%S A013901 194481,794280046581,3243919932521508681,13248496640331026125580781,
+%T A013901 54108198377272584130510593262881,
+%U A013901 220983347100817338120002444455525554981,902518308877795191433240103403256374623457081,3685975927806112219127687339549342762856035687969181
+%N A013901 21^(5n+4).
+%H A013901 Vincenzo Librandi, <a href="/A013901/b013901.txt">Table of n, a(n) for n = 0..50</a>
+%H A013901 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013901 a(n) = 4084101*a(n-1), a(0)=194481. [Vincenzo Librandi, May 27 2011]
+%t A013901 NestList[4084101#&,194481,10] (* _Harvey P. Dale_, Dec 03 2014 *)
+%o A013901 (MAGMA) [21^(5*n+4): n in [0..10]]; // Vincenzo Librandi, May 27 2011
+%K A013901 nonn
+%O A013901 0,1
+%A A013901 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

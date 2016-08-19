@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040267
+Showing 1-1 of 1
+
+%I A040267
+%S A040267 16,1,5,1,3,2,1,4,8,4,1,2,3,1,5,1,32,1,5,1,3,2,1,4,8,4,1,2,3,1,5,1,32,
+%T A040267 1,5,1,3,2,1,4,8,4,1,2,3,1,5,1,32,1,5,1,3,2,1,4,8,4,1,2,3,1,5,1,32,1,
+%U A040267 5,1,3,2,1,4,8,4,1,2,3,1,5,1,32,1,5,1,3,2,1,4,8,4
+%N A040267 Continued fraction for sqrt(284).
+%H A040267 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040267 with(numtheory): Digits := 300: convert(evalf(sqrt(284)),confrac);
+%t A040267 ContinuedFraction[Sqrt[284],100] (* _Harvey P. Dale_, Sep 21 2013 *)
+%K A040267 nonn,cofr,easy
+%O A040267 0,1
+%A A040267 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

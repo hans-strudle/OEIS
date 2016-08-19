@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014626
+Showing 1-1 of 1
+
+%I A014626
+%S A014626 0,1,2,3,5,10,21,42,78,135,220,341,507,728,1015,1380,1836,2397,3078,
+%T A014626 3895,4865,6006,7337,8878,10650,12675,14976,17577,20503,23780,27435,
+%U A014626 31496,35992,40953,46410,52395,58941,66082,73853,82290,91430,101311
+%N A014626 Number of intersection points of diagonals of n-gon, plus number of vertices.
+%C A014626 If Y is a 3-subset of an n-set X then, for n>=4, a(n-3) is the number of 4-subsets of X which have neither one element nor two elements in common with Y. Y is a 3-subset of an n-set X then, for n>=4, a(n-3) is the number of (n-4)-subsets of X which have neither one element nor two elements in common with Y.lso, if - _Milan Janjic_, Dec 28 2007
+%H A014626 Vincenzo Librandi, <a href="/A014626/b014626.txt">Table of n, a(n) for n = 0..10000</a>
+%F A014626 (n^4-6*n^3+11*n^2-6*n)/24 +n.
+%F A014626 Binomial transform of (0, 1, 0, 0, 1, 0, 0, 0...), or g.f. x+x^4. G.f. : x(1-3x+3x^2)/(1-x)^5; a(n)=C(n, 1)+C(n, 4). - _Paul Barry_, Sep 23 2004
+%o A014626 (MAGMA) [(n^4-6*n^3+11*n^2-6*n)/24 +n: n in [0..50]]; // Vincenzo Librandi, Aug 21 2011
+%K A014626 nonn,easy
+%O A014626 0,3
+%A A014626 _Mohammad K. Azarian_
+%E A014626 Corrected and extended by _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

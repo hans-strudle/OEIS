@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006202
+Showing 1-1 of 1
+
+%I A006202 M5356
+%S A006202 0,0,0,1,80,7040,878080,169967616,53247344640,27580935700480,
+%T A006202 23884321532149760,34771166607668412416,85316631064301031915520,
+%U A006202 353171748158258855521812480,2467057266045387831319241687040,29078599995993904385498084987109376
+%N A006202 Number of colorings of labeled graphs on n nodes using exactly 4 colors, divided by 4!*2^6.
+%C A006202 Equals 1/1536*A224068. - _Peter Bala_, Apr 12 2013
+%D A006202 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 18, col. 4 of Table 1.5.1 (divided by 64).
+%D A006202 R. C. Read, personal communication.
+%D A006202 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006202 R. C. Read, <a href="http://cms.math.ca/10.4153/CJM-1960-035-0">The number of k-colored graphs on labelled nodes</a>, Canad. J. Math., 12 (1960), 410—414.
+%Y A006202 Cf. A000683. A diagonal of A058843. A224068.
+%K A006202 nonn,easy
+%O A006202 1,5
+%A A006202 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

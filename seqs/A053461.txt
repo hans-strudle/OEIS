@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053461
+Showing 1-1 of 1
+
+%I A053461
+%S A053461 0,1,5,14,30,55,19,68,4,85,185,64,208,39,235,10,266,555,231,592,192,
+%T A053461 633,149,678,102,727,51,780,1564,723,1623,662,1686,597,1753,528,1824,
+%U A053461 455,1899,378,1978,297,2061,212,2148,123,2239,4448,2144,4545
+%N A053461 a(0) = 0; a(n) = a(n-1)-n^2 if positive and new, otherwise a(n) = a(n-1)+n^2.
+%C A053461 'Recamán transform' (see A005132) of the squares.
+%H A053461 Nick Hobson, <a href="/A053461/a053461.py.txt">Python program for this sequence</a>
+%H A053461 <a href="/index/Rea#Recaman">Index entries for sequences related to Recamán's sequence</a>
+%K A053461 nonn
+%O A053461 0,3
+%A A053461 _N. J. A. Sloane_, Feb 09 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

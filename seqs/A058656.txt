@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058656
+Showing 1-1 of 1
+
+%I A058656
+%S A058656 1,1,2,1,2,1,2,1,2,1,2,1,2,3,8,1,2,1,2,1,2,1,2,1,2,3,2,1,2,1,2,1,2,1,
+%T A058656 12,1,2,3,8,1,2,1,2,5,2,1,2,1,2,1,4,1,2,1,8,3,2,1,2,1,2,3,4,1,6,1,2,1,
+%U A058656 2,1,2,1,2,3,4,1,6,1,2,1,2,1,2,1,2,3,8,1,2,1,4,1,2,1,24,1,2,3,20,1,2,1
+%N A058656 a(n)=GCD[n+1,Phi(n)].
+%C A058656 Compare sequences: GCD[x,Phi(n)], where x=n-1,n or n+1.
+%e A058656 For n=12,13,14,15, n+1=13,14,15,16, Phi(n)=4,12,12,8 and a(n)=GCD[13,4],GCD[14,12],GCD[15,12],GCD[16,8]=1,2,3,8 resp.
+%t A058656 Table[GCD[n+1,EulerPhi[n]],{n,110}] (* _Harvey P. Dale_, Nov 17 2011 *)
+%Y A058656 A000010, A009195, A058515.
+%K A058656 nonn
+%O A058656 0,3
+%A A058656 _Labos Elemer_, Dec 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

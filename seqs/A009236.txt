@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009236
+Showing 1-1 of 1
+
+%I A009236
+%S A009236 1,2,20,392,12560,579872,36034880,2874676352,284538241280,
+%T A009236 34058188677632,4831480473359360,799233222752602112,
+%U A009236 152126941229960990720,32947584100184816033792
+%N A009236 E.g.f. exp(sinh(x)^2) (even powers only).
+%F A009236 a(n)=sum(k=1..n, sum(i=0..2*k, (-1)^i*(k-i)^(2*n)*binomial(2*k,i))*(2^(2*(n-k))/k!)), n>0, a(0)=1. [Vladimir Kruchinin, Jun 06 2011]
+%t A009236 Exp[ Sinh[ x ]^2 ] (* Even Part *)
+%o A009236 (Maxima)
+%o A009236 a(n):=sum(sum((-1)^i*(k-i)^(2*n)*binomial(2*k,i),i,0,2*k)*(2^(2*(n-k))/k!),k,1,n); [Vladimir Kruchinin, Jun 06 2011]
+%K A009236 nonn
+%O A009236 0,2
+%A A009236 _R. H. Hardin_
+%E A009236 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

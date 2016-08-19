@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050900
+Showing 1-1 of 1
+
+%I A050900
+%S A050900 11,55,91,99,235,319,1835,16731,25471,31199,123975,149351
+%N A050900 Numbers n such that 283*2^n-1 is prime.
+%H A050900 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A050900 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A050900 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%H A050900 Kosmaj, <a href="http://www.15k.org/riesellist.htm">Riesel list k<300</a>.
+%K A050900 hard,nonn
+%O A050900 1,1
+%A A050900 _N. J. A. Sloane_, Dec 29 1999
+%E A050900 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

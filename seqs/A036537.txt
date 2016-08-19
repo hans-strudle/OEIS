@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036537
+Showing 1-1 of 1
+
+%I A036537
+%S A036537 1,2,3,5,6,7,8,10,11,13,14,15,17,19,21,22,23,24,26,27,29,30,31,33,34,
+%T A036537 35,37,38,39,40,41,42,43,46,47,51,53,54,55,56,57,58,59,61,62,65,66,67,
+%U A036537 69,70,71,73,74,77,78,79,82,83,85,86,87,88,89,91,93,94,95,97,101,102
+%N A036537 Numbers n such that number of divisors of n is a power of 2.
+%C A036537 Primes and A030513(d[ x ]=4) are subsets; d[ 16k+4 ] and d[ 16k+12 ] have form of 3Q, so x=16k+4 or 16k-4 numbers are missing
+%C A036537 Complement of A162643; subsequence of A002035. [From _Reinhard Zumkeller_, Jul 08 2009]
+%H A036537 Reinhard Zumkeller, <a href="/A036537/b036537.txt">Table of n, a(n) for n = 1..10000</a>
+%F A036537 A209229(A000005(a(n))) = 1. - _Reinhard Zumkeller_, Nov 15 2012
+%F A036537 a(n) << n log n/(log log n)^k for any fixed k. Can this be improved? - _Charles R Greathouse IV_, Mar 27 2013
+%e A036537 383,384,385,386 have 1,16,8,4 divisors so are successive integers and consecutive terms of this sequence.
+%t A036537 bi[ x_ ] := 1-Sign[ N[ Log[ 2, x ], 5 ]-Floor[ N[ Log[ 2, x ], 5 ] ] ]; ld[ x_ ] := Length[ Divisors[ x ] ]; Flatten[ Position[ Table[ bi[ ld[ x ] ], {x, 1, m} ], 1 ] ]
+%o A036537 (Haskell)
+%o A036537 a036537 n = a036537_list !! (n-1)
+%o A036537 a036537_list = filter ((== 1) . a209229 . a000005) [1..]
+%o A036537 -- _Reinhard Zumkeller_, Nov 15 2012
+%o A036537 (PARI) is(n)=n=numdiv(n);n>>valuation(n,2)==1 \\ _Charles R Greathouse IV_, Mar 27 2013
+%Y A036537 Cf. A000005, A030513, A036537, A162644.
+%K A036537 nonn
+%O A036537 1,2
+%A A036537 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

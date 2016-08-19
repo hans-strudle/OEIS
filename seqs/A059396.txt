@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059396
+Showing 1-1 of 1
+
+%I A059396
+%S A059396 0,0,1,1,2,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,
+%T A059396 5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,
+%U A059396 7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9
+%N A059396 Number of primes less than square root of n-th prime; i.e. number of trial divisions by smaller primes to show that n-th prime is indeed prime.
+%C A059396 Perhaps close to 2*(n/log(n))^(1/2).
+%H A059396 Alois P. Heinz, <a href="/A059396/b059396.txt">Table of n, a(n) for n = 1..10000</a>
+%F A059396 a(n) = A000720(A000196(A000040(n))).
+%e A059396 a(32) = 5 since the 32nd prime is 131 which is not divisible by 2, 3, 5, 7 or 11 (and does not need to be tested against 13, 17, 19 etc. since 13^2 = 169>131).
+%p A059396 a:= proc(n) option remember;
+%p A059396       numtheory[pi] (floor (sqrt (ithprime(n))))
+%p A059396     end:
+%p A059396 seq (a(n), n=1..100);  # _Alois P. Heinz_, Sep 05 2011
+%t A059396 Table[PrimePi[Sqrt[Prime[n]]],{n,110}] (* _Harvey P. Dale_, Sep 06 2015 *)
+%K A059396 nonn,easy
+%O A059396 1,5
+%A A059396 _Henry Bottomley_, Jan 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

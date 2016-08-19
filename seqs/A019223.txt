@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019223
+Showing 1-1 of 1
+
+%I A019223
+%S A019223 0,1,2,2,9,19,42,114,200,541,1245,3156,7749,19302,50037,126450,328007
+%N A019223 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RTE = RUB-3 [ Si24O48 ] . 2 R.
+%D A019223 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019223 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019223 nonn
+%O A019223 3,3
+%A A019223 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

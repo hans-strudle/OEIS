@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002023
+Showing 1-1 of 1
+
+%I A002023
+%S A002023 6,24,96,384,1536,6144,24576,98304,393216,1572864,6291456,25165824,
+%T A002023 100663296,402653184,1610612736,6442450944,25769803776,103079215104,
+%U A002023 412316860416,1649267441664,6597069766656,26388279066624,105553116266496,422212465065984
+%N A002023 6*4^n.
+%H A002023 Vincenzo Librandi, <a href="/A002023/b002023.txt">Table of n, a(n) for n = 0..200</a>
+%H A002023 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A002023 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4).
+%F A002023 a(n)=4*a(n-1), n>0; a(0)=6. G.f.: 6/(1-4*x). - _Philippe Deléham_, Nov 23 2008
+%F A002023 a(n) = 3 *A004171(n).
+%t A002023 6*4^Range[0, 100] (* _Vladimir Joseph Stephan Orlovsky_, Jun 09 2011 *)
+%o A002023 (MAGMA) [6*4^n: n in [0..30]]; // Vincenzo Librandi, May 16 2011
+%o A002023 (PARI) a(n)=6<<(2*n) \\ _Charles R Greathouse IV_, Apr 17 2012
+%K A002023 nonn,easy
+%O A002023 0,1
+%A A002023 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

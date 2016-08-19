@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007753
+Showing 1-1 of 1
+
+%I A007753
+%S A007753 1,1,2,8,41672,378916495683075745757412513402693048
+%N A007753 a(n+1) = Sum C( a(k)^2,k), k=0..n.
+%K A007753 easy,nonn
+%O A007753 0,3
+%A A007753 bbrunson(AT)wku.edu (Barry Brunson)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

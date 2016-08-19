@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014197
+Showing 1-1 of 1
+
+%I A014197
+%S A014197 2,3,0,4,0,4,0,5,0,2,0,6,0,0,0,6,0,4,0,5,0,2,0,10,0,0,0,2,0,2,0,7,0,0,
+%T A014197 0,8,0,0,0,9,0,4,0,3,0,2,0,11,0,0,0,2,0,2,0,3,0,2,0,9,0,0,0,8,0,2,0,0,
+%U A014197 0,2,0,17,0,0,0,0,0,2,0,10,0,2,0,6,0,0,0,6,0,0,0,3
+%N A014197 Number of numbers m with Euler phi(m) = n.
+%C A014197 Carmichael conjectured that there are no 1's in this sequence. - _Jud McCranie_, Oct 10 2000
+%C A014197 Number of cyclotomic polynomials of degree n. - _T. D. Noe_, Aug 15 2003
+%D A014197 R. K. Guy, Unsolved Problems in Number Theory, section B39.
+%D A014197 J. Roberts, Lure of The Integers, entry 32, page 182.
+%H A014197 T. D. Noe, <a href="/A014197/b014197.txt">Table of n, a(n) for n = 1..10000</a>
+%H A014197 K. Ford, <a href="http://arxiv.org/abs/math/9907204">The number of solutions of phi(x)=m</a>, arXiv:math/9907204 [math.NT], 1999.
+%H A014197 S. Sivasankaranarayana Pillai, <a href="http://dx.doi.org/10.1090/S0002-9904-1929-04799-2">On some functions connected with phi(n)</a>, Bull. Amer. Math. Soc. 35 (1929), 832-836.
+%H A014197 Primefan, <a href="http://primefan.tripod.com/TotientAnswers1000.html">Totient Answers For The First 1000 Integers</a>
+%H A014197 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TotientFunction.html">Totient Function</a>
+%H A014197 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TotientValenceFunction.html">Totient Valence Function</a>
+%F A014197 Dirichlet g.f.: Sum_{n>=1} a(n)*n^-s = zeta(s)*Product_(1+1/(p-1)^s-1/p^s). - _Benoit Cloitre_, Apr 12 2003
+%F A014197 lim_{n->infinity} (1/n) * Sum_{k=1..n} a(k) = zeta(2)*zeta(3)/zeta(6) = 1.94359643682075920505707036... (see A082695). - _Benoit Cloitre_, Apr 12 2003
+%p A014197 with(numtheory): A014197:=n-> nops(invphi(n)): seq(A014197(n), n=1..200);
+%t A014197 a[1] = 2; a[m_?OddQ] = 0; a[m_] := Module[{p, nmax, n, k}, p = Select[ Divisors[m]+1, PrimeQ]; nmax = m*Times @@ (p/(p - 1)); n = m; k = 0; While[n <= nmax, If[EulerPhi[n] == m, k++]; n++]; k]; Array[a, 92] (* _Jean-François Alcover_, Dec 09 2011, updated Apr 25 2016 *)
+%o A014197 (PARI) A014197(n,m=1) = { n==1 && return(1+(m<2)); my(p,q); sumdiv(n, d, if( d>=m && isprime(d+1), sum( i=0,valuation(q=n\d,p=d+1), A014197(q\p^i,p))))} \\ _M. F. Hasler_, Oct 05 2009
+%Y A014197 Cf. A002202, A032446, A058277, A070243 (partial sums), A082695, A097942.
+%Y A014197 For records see A131934.
+%K A014197 nonn,nice,easy
+%O A014197 1,1
+%A A014197 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

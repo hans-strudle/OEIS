@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003345
+Showing 1-1 of 1
+
+%I A003345
+%S A003345 11,26,41,56,71,86,91,101,106,116,121,131,136,146,151,161,166,171,176,
+%T A003345 181,186,196,201,211,216,226,231,241,246,251,261,266,276,281,291,296,
+%U A003345 306,311,326,331,341,346,356,361
+%N A003345 Sum of 11 nonzero 4th powers.
+%H A003345 T. D. Noe, <a href="/A003345/b003345.txt">Table of n, a(n) for n = 1..1000</a>
+%H A003345 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number.</a>
+%t A003345 Take[Union[Total/@(Tuples[Range[4],11]^4)],50] (* _Harvey P. Dale_, Oct 23 2011 *)
+%K A003345 nonn
+%O A003345 1,1
+%A A003345 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

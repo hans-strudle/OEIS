@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017213
+Showing 1-1 of 1
+
+%I A017213
+%S A017213 1024,371293,5153632,28629151,102400000,282475249,656356768,
+%T A017213 1350125107,2535525376,4437053125,7339040224,11592740743,17623416832,
+%U A017213 25937424601,37129300000,51888844699,71008211968
+%N A017213 (9*n+4)^5.
+%H A017213 Vincenzo Librandi, <a href="/A017213/b017213.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017213 (MAGMA) [(9*n+4)^5: n in [0..25]]; // Vincenzo Librandi, Jul 24 2011
+%K A017213 nonn,easy
+%O A017213 0,1
+%A A017213 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

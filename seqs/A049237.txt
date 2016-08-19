@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049237
+Showing 1-1 of 1
+
+%I A049237
+%S A049237 1,2,2,3,2,3,2,3,3,2,3,3,3,2,3,3,3,2,3,3,3,3,2,3,3,3,3,3,2,3,3,3,3,3,
+%T A049237 2,3,3,3,3,3,3,2,3,3,3,3,3,3,2,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,2,3,3,
+%U A049237 3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,2,3,3,3,3,3,3,3,3,3,3,2
+%N A049237 n/EulerPhi(n) for n in A007694.
+%D A049237 Sárközy A. and Suranyi J., Number Theory Problem Book (in Hungarian), Tankonyvkiado, Budapest, 1972.
+%F A049237 n/EulerPhi(n) is integer iff n=1 or n=2^w*3^u for w=1, 2, ... and u=0, 1, 2, ...
+%e A049237 For powers of 2 the quotient is 2. a(95) = 124416/phi( 124416) = 124416/41472 = 3.
+%Y A049237 Cf. A007694.
+%K A049237 nonn
+%O A049237 1,2
+%A A049237 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

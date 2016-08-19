@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040949
+Showing 1-1 of 1
+
+%I A040949
+%S A040949 31,3,8,1,1,1,1,1,1,2,1,1,15,12,2,6,2,12,15,1,1,2,1,1,1,1,1,1,8,3,62,
+%T A040949 3,8,1,1,1,1,1,1,2,1,1,15,12,2,6,2,12,15,1,1,2,1,1,1,1,1,1,8,3,62,3,8,
+%U A040949 1,1,1,1,1,1,2,1,1,15,12,2,6,2,12,15,1,1,2,1,1,1,1,1
+%N A040949 Continued fraction for sqrt(981).
+%H A040949 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040949 with(numtheory): Digits := 300: convert(evalf(sqrt(981)),confrac);
+%K A040949 nonn,cofr,easy
+%O A040949 0,1
+%A A040949 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

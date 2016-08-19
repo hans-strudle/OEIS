@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025471
+Showing 1-1 of 1
+
+%I A025471
+%S A025471 1,5,15,43,137,483,1881,7772,33292,146014,650688,2935909
+%N A025471 Position of 5^n among the powers of primes (A000961).
+%F A025471 a(n) = A065515(5^n). - _Michel Marcus_, Mar 24 2013
+%o A025471 (PARI) lista(n) = {p5max = 5^n; pos = 1; print1(pos, ", "); for (i=2, p5max, if (omega(i) == 1, pos++; if (factor(i)[1,1] == 5, print1(pos, ", "););););} \\ _Michel Marcus_, Mar 24 2013
+%K A025471 nonn
+%O A025471 0,2
+%A A025471 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

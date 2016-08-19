@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045849
+Showing 1-1 of 1
+
+%I A045849
+%S A045849 1,7,21,35,42,63,112,141,126,154,259,315,280,308,462,567,497,462,693,
+%T A045849 910,798,749,1078,1281,1092,1043,1407,1715,1576,1449,1946,2422,2016,
+%U A045849 1687,2429,3045,2604,2345,3066
+%N A045849 Number of nonnegative solutions of x1^2 + x2^2 +...+ x7^2 = n.
+%D A045849 Coefficient of q^n in (1+q+q^4+q^9+q^16+q^25+q^36+q^49+q^64+...)^7.
+%H A045849 T. D. Noe, <a href="/A045849/b045849.txt">Table of n, a(n) for n=0..2000</a>
+%K A045849 nonn
+%O A045849 0,2
+%A A045849 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

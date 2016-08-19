@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054317
+Showing 1-1 of 1
+
+%I A054317
+%S A054317 1,1,2,3,5,10,19,42,92,225,564,1501,4127,11809,34713,104904,323778,
+%T A054317 1019538,3265502,10624881,35065697,117289911,397290416,1362060455,
+%U A054317 4724272231,16572501190,58782486855,210782826628,763991002957
+%N A054317 Number of unlabeled 2-connected minimally 2-edge-connected graphs with n nodes.
+%C A054317 Reference also contains the edge breakups for each term.
+%D A054317 Sridar K. Pootheri, Characterizing and counting classes of unlabeled 2-connected graphs, Ph.D. Dissertation, University of Georgia. (Under the direction of Robert W. Robinson, rwr(AT)cs.uga.edu)
+%Y A054317 Cf. A054316, A003317, A001072.
+%K A054317 hard,nice,nonn
+%O A054317 3,3
+%A A054317 Sridar K. Pootheri (sridar(AT)math.uga.edu), Feb 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

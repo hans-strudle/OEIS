@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043605
+Showing 1-1 of 1
+
+%I A043605
+%S A043605 651,652,653,654,660,661,663,664,665,666,667,669,670,671,672,673,676,
+%T A043605 677,678,679,680,682,683,684,690,691,692,694,695,696,697,698,701,702,
+%U A043605 703,704,705,707,708,709,710,711,713,714,720
+%N A043605 Numbers n such that base 5 representation has exactly 5 runs.
+%t A043605 Select[Range[1000],Length[Split[IntegerDigits[#,5]]]==5&] (* _Harvey P. Dale_, Jan 02 2014 *)
+%K A043605 nonn,base
+%O A043605 1,1
+%A A043605 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

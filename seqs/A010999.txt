@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010999
+Showing 1-1 of 1
+
+%I A010999
+%S A010999 1,47,1128,18424,230300,2349060,20358520,154143080,1040465790,
+%T A010999 6358402050,35607051480,184509266760,891794789340,4047376351620,
+%U A010999 17345898649800,70539987842520,273342452889765,1012974972473835,3601688791018080,12321566916640800,40661170824914640
+%N A010999 Binomial coefficient C(n,46).
+%H A010999 T. D. Noe, <a href="/A010999/b010999.txt">Table of n, a(n) for n = 46..1000</a>
+%F A010999 G.f.:x^46/(1-x)^47. [From _Zerinvary Lajos_, Dec 20 2008]
+%p A010999 seq(binomial(n,46),n=46..67);# [From _Zerinvary Lajos_, Dec 20 2008]
+%t A010999 Table[Binomial[n,46],{n,46,77}] (* _Vladimir Joseph Stephan Orlovsky_, May 16 2011 *)
+%o A010999 (MAGMA) [Binomial(n, 46): n in [46..70]]; // _Vincenzo Librandi_, Jun 12 2013
+%Y A010999 Cf. A010997, A010998.
+%K A010999 nonn
+%O A010999 46,2
+%A A010999 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

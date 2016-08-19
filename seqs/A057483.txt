@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057483
+Showing 1-1 of 1
+
+%I A057483
+%S A057483 28,31,33,84,87,103,174,414,574,687
+%N A057483 Numbers n such that x^n + x^13 + 1 is irreducible over GF(2).
+%t A057483 Do[ If[ ToString[ Factor[ x^n + x^13 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^13 + 1 ], Print[ n ] ], {n, 0, 750} ]
+%Y A057483 Cf. A002475.
+%K A057483 nonn
+%O A057483 1,1
+%A A057483 _Robert G. Wilson v_, Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

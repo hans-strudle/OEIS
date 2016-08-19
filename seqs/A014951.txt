@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014951
+Showing 1-1 of 1
+
+%I A014951
+%S A014951 1,11,121,253,1331,2783,5819,11891,14641,30613,64009,130801,133837,
+%T A014951 161051,273493,336743,558877,704099,768361,849299,1438811,1472207,
+%U A014951 1771561,3008423,3078251,3544453,3704173,6147647,6290339,7745089
+%N A014951 Positive integers n such that n divides 12^n - 1.
+%C A014951 Also, the integers n such that n divide s(n), where s(1)=1 and s(k)=s(k-1)+k*12^(k-1).
+%C A014951 Contribution from _Alexander Adamchuk_, May 16 2010: (Start)
+%C A014951 11 divides a(n) for n>1.
+%C A014951 All powers of 11 are the terms.
+%C A014951 Prime divisors of a (n) in the order of their appearance {11, 23, 47, 3037, 7019, 2663, 5171, 47917, 12973, ...}. (End)
+%K A014951 nonn
+%O A014951 1,2
+%A A014951 _Olivier Gérard_
+%E A014951 a(11)-a(65) from _Alexander Adamchuk_, May 16 2010
+%E A014951 Edited by _Max Alekseyev_, May 20 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026856
+Showing 1-1 of 1
+
+%I A026856
+%S A026856 1,7,36,166,729,3125,13229,55637,233227,976271,4085016,17096524,
+%T A026856 71590557,299993227,1258076725,5280194087,22178492943,93226087229,
+%U A026856 392144055809,1650570659359,6951524807631,29292822272697,123496979334851
+%N A026856 T(2n+1,n+3), T given by A026736.
+%F A026856 G.f.: (x^2 C(x)^6)/(1 - x/sqrt(1 - 4 x)) where C(x) = g.f. for Catalan numbers A000108. - _David Callan_, Jan 16 2016
+%t A026856 CoefficientList[Series[(1 - Sqrt[1 - 4 x])^6/(64 x^6 (1 - x/Sqrt[1 - 4 x])), {x, 0, 15}], x] (* _David Callan_, Jan 16 2016 *)
+%K A026856 nonn
+%O A026856 2,2
+%A A026856 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

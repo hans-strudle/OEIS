@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061131
+Showing 1-1 of 1
+
+%I A061131
+%S A061131 1,1,1,1,4,16,136,736,4096,20224,326656,2970496,33826816,291237376,
+%T A061131 2129910784,13607197696,324498374656,4599593353216,52741679343616,
+%U A061131 495632154179584,7127212838772736,94268828128854016
+%N A061131 Number of degree-n even permutations of order dividing 8.
+%F A061131 E.g.f.: 1/2*exp(x + 1/2*x^2 + 1/4*x^4 + 1/8*x^8) + 1/2*exp(x - 1/2*x^2 - 1/4*x^4 - 1/8*x^8).
+%Y A061131 Cf. A000085, A001470, A001472, A052501, A053496 - A053505, A001189, A001471, A001473, A061121 - A061128, A000704, A061129 - A061132, A048099, A051695, A061133 - A061135.
+%K A061131 easy,nonn
+%O A061131 0,5
+%A A061131 _Vladeta Jovovic_, Apr 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

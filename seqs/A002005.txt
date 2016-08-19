@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002005
+Showing 1-1 of 1
+
+%I A002005 M3646 N1483
+%S A002005 1,4,32,336,4096,54912,786432,11824384,184549376,2966845440,
+%T A002005 48855252992,820675092480,14018773254144,242919827374080,
+%U A002005 4261707069259776,75576645116559360,1353050213048123392,24428493151359467520,444370175232646840320,8138178004138611179520
+%N A002005 Number of rooted planar cubic maps with 2n vertices.
+%C A002005 Equivalently, number of rooted planar triangulations with 2n faces.
+%D A002005 R. C. Mullin, E. Nemeth and P. J. Schellenberg, The enumeration of almost cubic maps, pp. 281-295 in Proceedings of the Louisiana Conference on Combinatorics, Graph Theory and Computer Science. Vol. 1, edited R. C. Mullin et al., 1970.
+%D A002005 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002005 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002005 Gheorghe Coserea, <a href="/A002005/b002005.txt">Table of n, a(n) for n = 0..1000</a>
+%H A002005 Mireille Bousquet-Mélou, <a href="https://hal.archives-ouvertes.fr/hal-00653963/">Counting planar maps, coloured or uncoloured</a>, 23rd British Combinatorial Conference, Jul 2011, Exeter, United Kingdom. 392, pp.1-50, 2011, London Math. Soc. Lecture Note Ser., hal-00653963. See p.13.
+%H A002005 Maxim Krikun, <a href="http://arxiv.org/abs/0706.0681">Explicit enumeration of triangulations with multiple boundaries</a>,arXiv:0706.0681 [math.CO], 2007. [Comment from _Gheorghe Coserea_, Dec 26 2015: the formula in the paper for almost trivalent maps is 2 * 4^(k-1) * (3k)!!/ ((k+1)!*(k+2)!!); however, the exponent of 4 should be k not (k-1) i.e. 2 * 4^k * (3k)!! / ((k+1)!*(k+2)!!)]
+%F A002005 a(n) = 2^(2*n+1)*(3*n)!!/((n+2)!*n!!). - _Sean A. Irvine_, May 19 2013
+%F A002005 a(n) ~ sqrt(6/Pi) * n^(-5/2) * (12*sqrt(3))^n. - _Gheorghe Coserea_, Feb 25 2016
+%t A002005 Table[2^(2 n + 1) (3 n)!!/((n + 2)! n!!), {n, 0, 20}] (* _Vincenzo Librandi_, Dec 28 2015 *)
+%o A002005 (PARI) factorial2(n) = my(x = (2^(n\2)*(n\2)!)); if (n%2, n!/x, x);
+%o A002005 a(n) = 2^(2*n+1)*factorial2(3*n)/((n+2)!*factorial2(n));
+%o A002005 vector(20, i, a(i-1))  \\ _Gheorghe Coserea_, Dec 26 2015
+%Y A002005 Column k=0 of A266240.
+%K A002005 nonn
+%O A002005 0,2
+%A A002005 _N. J. A. Sloane_
+%E A002005 More terms from _Sean A. Irvine_, May 19 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

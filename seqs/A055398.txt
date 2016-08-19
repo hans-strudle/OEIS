@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055398
+Showing 1-1 of 1
+
+%I A055398
+%S A055398 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,
+%T A055398 97,101,103,107,109,113,121,127,131,137,139,143,149,151,157,163,167,
+%U A055398 169,173,179,181,187,191,193,197,199,209,211,221,223,227,229,233,239
+%N A055398 Result of fourth stage of sieve of Eratosthenes (after eliminating multiples of 2, 3, 5, 7).
+%C A055398 Essentially the same as A052424. [From _R. J. Mathar_, Oct 13 2008]
+%H A055398 H. B. Meyer, <a href="http://www.faust.fr.bw.schule.de/mhb/eratosiv.htm">Eratosthenes' sieve</a>
+%t A055398 Join[{2,3,5,7},Select[Table[n,{n,2,500}],Mod[#,2]!=0&&Mod[#,3]!=0&&Mod[#,5]!=0&&Mod[#,7]!=0&]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 18 2011*)
+%Y A055398 Cf. A000040, A004280, A038179, A055396-A055399.
+%K A055398 nonn
+%O A055398 1,1
+%A A055398 _Henry Bottomley_, May 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

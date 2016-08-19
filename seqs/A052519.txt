@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052519
+Showing 1-1 of 1
+
+%I A052519
+%S A052519 0,0,0,0,0,0,80,840,7896,76608,793152,8838720,106096320,1368956160,
+%T A052519 18928615680,279530334720,4394135692800,73295141068800,
+%U A052519 1293442388582400,24082259707699200,471874122729676800
+%N A052519 Number of pairs of cycles of cardinality at least 3.
+%H A052519 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=85">Encyclopedia of Combinatorial Structures 85</a>
+%F A052519 E.g.f.: log(-1/(-1+x))^2 - 2*log(-1/(-1+x))*x - log(-1/(-1+x))*x^2 + x^2 + x^3 + 1/4*x^4.
+%F A052519 Recurrence: {a(1)=0, a(2)=0, a(4)=0, a(3)=0, a(6)=80, a(5)=0, (-n^2+n^3-2*n)*a(n) + (-2*n^2+n+3)*a(n+1) + (n-1)*a(n+2)}.
+%p A052519 Pairs spec := [S,{B=Cycle(Z,3 <= card),S=Prod(B,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052519 easy,nonn
+%O A052519 0,7
+%A A052519 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

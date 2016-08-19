@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028945
+Showing 1-1 of 1
+
+%I A028945
+%S A028945 1,1,1,1,4,9,49,529,3481,98596,2337841,67387681,6941055969,
+%T A028945 384768368209,61935294530404,16063784753682169,2846153597907293521,
+%U A028945 2237394491744632911601,1262082793174195430038441,1063198259901027900600665796
+%N A028945 A006720(n)^2 (squared terms of Somos-4 sequence).
+%C A028945 If first two 1's are omitted, denominator of x coordinate of (2n+1)*P where P is generator for rational points on curve y^2 + y = x^3 - x.
+%D A028945 B. Mazur, Arithmetic on curves, Bull. Amer Math. Soc. 14 (1986), 207-259; see p 225.
+%F A028945 P=(0, 0), 2P=(1, 0), if kP=(a, b) then (k+1)P=(a'=(b^2-a^3)/a^2, b'=1-b*a'/a).
+%F A028945 a(n) = (- 4 a(n - 6) a(n - 1) + 29 a(n - 5) a(n - 2) + 116 a(n - 4) a(n - 3))/a(n-7). - _Bill Gosper_, May 14 2009
+%F A028945 5P = (1/4, -5/8).
+%Y A028945 Cf. A006720, A028935.
+%K A028945 nonn,frac
+%O A028945 0,5
+%A A028945 _N. J. A. Sloane_
+%E A028945 Edited by _N. J. A. Sloane_, May 14 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

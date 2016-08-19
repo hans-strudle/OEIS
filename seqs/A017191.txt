@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017191
+Showing 1-1 of 1
+
+%I A017191
+%S A017191 128,19487171,1280000000,17249876309,114415582592,506623120463,
+%T A017191 1727094849536,4902227890625,12151280273024,27136050989627,
+%U A017191 55784660123648,107213535210701,194871710000000,337931541778439
+%N A017191 (9*n+2)^7.
+%H A017191 Vincenzo Librandi, <a href="/A017191/b017191.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017191 (MAGMA) [(9*n+2)^7: n in [0..20]]; // Vincenzo Librandi, Jul 23 2011
+%K A017191 nonn,easy
+%O A017191 0,1
+%A A017191 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

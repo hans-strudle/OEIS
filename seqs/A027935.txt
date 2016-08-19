@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027935
+Showing 1-1 of 1
+
+%I A027935
+%S A027935 1,1,1,1,2,1,1,2,4,1,1,2,5,7,1,1,2,5,12,11,1,1,2,5,13,26,16,1,1,2,5,
+%T A027935 13,33,51,22,1,1,2,5,13,34,79,92,29,1,1,2,5,13,34,88,176,155,37,1,1,2,
+%U A027935 5,13,34,89,221,365,247,46,1,1,2,5,13,34,89,232
+%N A027935 Triangular array T read by rows: T(n,k)=t(n,2k), t given by A027926; 0<=k<=n, n >= 0.
+%Y A027935 The row sums of this bisection of the "Fibonacci array" A027926 are powers of 2, see A027948 for the other bisection.
+%K A027935 nonn,tabl
+%O A027935 1,5
+%A A027935 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

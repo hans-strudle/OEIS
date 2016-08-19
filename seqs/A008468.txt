@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008468
+Showing 1-1 of 1
+
+%I A008468
+%S A008468 1,10,27,68,125,222,343,520,729,1002,1339,1740,2205,2750,3375,4112,
+%T A008468 4913,5850,6875,8020,9277,10654,12183,13848,15641,17594,19707,21980,
+%U A008468 24413,27006,29791,32800,35937,39338,42875,46692,50685,54910,59319,64040
+%N A008468 n OR n^3 (applied to binary expansions).
+%H A008468 Vincenzo Librandi, <a href="/A008468/b008468.txt">Table of n, a(n) for n = 1..1000</a>
+%t A008468 d=16; Mb=Array[ 2^(d-#)&, d ]; Map[ Plus@@(Mb*#)&, Array[ IntegerDigits[ #, 2, d ]+IntegerDigits[ #^3, 2, d ]&, 40 ]/. (2->1) ]
+%Y A008468 Cf. A007745, A008467, A008469.
+%K A008468 base,nonn,easy
+%O A008468 1,2
+%A A008468 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040388
+Showing 1-1 of 1
+
+%I A040388
+%S A040388 20,4,2,7,1,1,1,4,2,2,13,13,2,2,4,1,1,1,7,2,4,40,4,2,7,1,1,1,4,2,2,13,
+%T A040388 13,2,2,4,1,1,1,7,2,4,40,4,2,7,1,1,1,4,2,2,13,13,2,2,4,1,1,1,7,2,4,40,
+%U A040388 4,2,7,1,1,1,4,2,2,13,13,2,2,4,1,1,1,7,2,4,40,4,2
+%N A040388 Continued fraction for sqrt(409).
+%H A040388 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040388 with(numtheory): Digits := 300: convert(evalf(sqrt(409)),confrac);
+%K A040388 nonn,cofr,easy
+%O A040388 0,1
+%A A040388 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025944
+Showing 1-1 of 1
+
+%I A025944
+%S A025944 1,21,292,3414,36439,368607,3604114,34449888,324158197,3016246233,
+%T A025944 27838148416,255387389322,2332396465075,21228942680499,
+%U A025944 192722119904398,1746130572580116,15796595736313873,142739306095633005
+%N A025944 Expansion of 1/((1-2x)(1-3x)(1-7x)(1-9x)).
+%H A025944 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (21,-149,411,-378)
+%F A025944 a(n) = 3^(n+2)/8 -2^(n+3)/35 -7^(n+3)/40 +3^(2*n+5)/28 . - _R. J. Mathar_, Jun 04 2013
+%K A025944 nonn
+%O A025944 0,2
+%A A025944 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

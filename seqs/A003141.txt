@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003141
+Showing 1-1 of 1
+
+%I A003141 M2334
+%S A003141 0,0,0,1,1,3,4,7,8,12,15,20
+%N A003141 Minimal number of arcs whose reversal yields a transitive tournament.
+%C A003141 This is the "minimum feedback arc set" problem.
+%C A003141 The minimal number of arcs you need to delete to make a directed graph acyclic (maxed over all n-vertex directed graphs) is the same as the minimal number of arcs you need to reverse to make a tournament acyclic (maxed over all n-player tournaments).
+%D A003141 J.-C. Bermond, Ordres a` distance minimum d'un tournoi et graphs partiels sans circuits maximaux, Math. Sci. Hum., No. 37 (1972), 5-25.
+%D A003141 Bermond, J.-C. The circuit-hypergraph of a tournament. Infinite and finite sets (Colloq., Keszthely, 1973; dedicated to P. Erdős on his 60th birthday), Vol. I, pp. 165--180. Colloq. Math. Soc. Janos Bolyai, Vol. 10, North-Holland, Amsterdam, 1975. MR0396319 (53 #187)
+%D A003141 Don Coppersmith, Lisa Fleischer and Atri Rudra: Ordering by weighted number of wins gives a good ranking for weighted tournaments. SODA 2006: 776-782.
+%D A003141 K. B. Reid, On sets of arcs containing no cycles in tournaments, Canad. Math. Bull., 12 (1969), 261-264.
+%D A003141 Sanchez-Flores, Neumann-Lara and Bermond, Graphs & Combin 10 (1994) 363-366 and 367-376.
+%D A003141 Sanchez-Flores, Neumann-Lara and Bermond, Math. Sci. Humaines 37 (1972) 5-25.
+%D A003141 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003141 W. D. Smith, <a href="http://rangevoting.org/PuzzDG.html">Partial Answer to Puzzle #21: Getting rid of cycles in directed graphs</a> [Has much more information]
+%H A003141 Yahoo Groups, <a href="http://groups.yahoo.com/group/RangeVoting/">Range Voting</a>
+%H A003141 <a href="/index/To#tournament">Index entries for sequences related to tournaments</a>
+%F A003141 The asymptotics for large n are (n+1)n/4-Cn^{3/2} <= F(n) <= (n+1)n/4-Kn^{3/2} for all sufficiently large n and certain constants C,K>0. - Warren Smith, Sep 14 2006
+%Y A003141 Equals C(n, 2) - A001225.
+%Y A003141 a(n) = A182079(n) iff n <= 9, thereafter a(n) > A182079(n). [Bermond]
+%K A003141 hard,more,nonn,nice
+%O A003141 0,6
+%A A003141 _N. J. A. Sloane_.
+%E A003141 Additional comments from Warren D. Smith, Sep 14 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

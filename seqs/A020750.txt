@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020750
+Showing 1-1 of 1
+
+%I A020750
+%S A020750 5,9,16,28,49,85,147,254,438,755,1301,2241,3860,6648,11449,19717,
+%T A020750 33955,58474,100698,173411,298629,514265,885608,1525092,2626337,
+%U A020750 4522773,7788595,13412614,23097646,39776083,68497749,117958865,203135052,349815584,602411753
+%N A020750 Pisot sequence T(5,9).
+%F A020750 a(n) = 2*a(n-1) - 2*a(n-4) + a(n-5) (holds at least up to n = 40000 but is not known to hold in general).
+%t A020750 RecurrenceTable[{a[0] == 5, a[1] == 9, a[n] == Floor[a[n - 1]^2/a[n - 2]]}, a, {n, 0, 40}] (* _Bruno Berselli_, Feb 04 2016 *)
+%o A020750 (MAGMA) Iv:=[5, 9]; [n le 2 select Iv[n] else Floor(Self(n-1)^2/Self(n-2)): n in [1..40]]; // _Bruno Berselli_, Feb 04 2016
+%Y A020750 See A008776 for definitions of Pisot sequences.
+%K A020750 nonn
+%O A020750 0,1
+%A A020750 _David W. Wilson_
+%E A020750 Deleted unproved recurrence and program based on it. - _N. J. A. Sloane_, Feb 04 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

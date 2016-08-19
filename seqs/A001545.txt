@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001545
+Showing 1-1 of 1
+
+%I A001545
+%S A001545 4,54,154,304,504,754,1054,1404,1804,2254,2754,3304,3904,4554,5254,
+%T A001545 6004,6804,7654,8554,9504,10504,11554,12654,13804,15004,16254,17554,
+%U A001545 18904,20304,21754,23254,24804,26404,28054,29754,31504,33304,35154,37054,39004,41004
+%N A001545 (5n+1)(5n+4).
+%H A001545 T. D. Noe, <a href="/A001545/b001545.txt">Table of n, a(n) for n = 0..1000</a>
+%H A001545 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A001545 a(n) = 50*n + a(n-1) with a(0)=4. [_Vincenzo Librandi_, Jan 20 2011]
+%Y A001545 Equals 50 * A000217(n) + 4.
+%K A001545 nonn,easy
+%O A001545 0,1
+%A A001545 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

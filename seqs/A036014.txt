@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036014
+Showing 1-1 of 1
+
+%I A036014
+%S A036014 2,2,3,5,3,9,6,43,18,41,82,63,47,64,108,41,192,150,91,15,5,20,214,218,
+%T A036014 46,180,121,31,80,115
+%N A036014 a(n) = smallest number such that a(1)a(2)...a(n) falls between a prime pair.
+%e A036014 4 between 3,5; 12 between 11,13; 60 between 59,61; etc.
+%t A036014 d[ 1 ]=2; d[ n_ ] := d[ n ]=Module[ {}, b=Product[ d[ i ], {i, 1, n-1} ]; i=2; While[ Not[ PrimeQ[ i b-1 ]&&PrimeQ[ i b+1 ] ], i++ ]; i ]; Table[ d[ i ], {i, 1, 30} ]
+%K A036014 nonn,nice,easy
+%O A036014 1,1
+%A A036014 _Russell Easterly_
+%E A036014 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012729
+Showing 1-1 of 1
+
+%I A012729
+%S A012729 2,328,1402272,34476662400,2862572968849920,606547177566513039360,
+%T A012729 275433333396552433711226880,237761902453820639998996848476160
+%N A012729 arcsin(arctanh(x)*atan(x))=2/2!*x^2+328/6!*x^6+1402272/10!*x^10...
+%K A012729 nonn
+%O A012729 0,1
+%A A012729 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

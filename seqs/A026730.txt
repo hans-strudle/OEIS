@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026730
+Showing 1-1 of 1
+
+%I A026730
+%S A026730 0,1,1,2,1,3,2,3,1,5,4,7,3,8,5,7,2,9,7,12,5,13,8,11,3,13,10,17,7,18,
+%T A026730 11,15,4,17,13,22,9,23,14,19,5,21,16,27,11,28,17,23,6,25,19,32,13,33,
+%U A026730 20,27,7,29,22,37,15,38,23,31,8,33,25,42,17,43,26,35,9,37,28,47,19,48,29,39,10
+%N A026730 a(8n)=n, a(8n+4)=a(8n)+a(8n+8), a(4n+2)=a(4n)+a(4n+4), a(2n+1)=a(2n)+a(2n+2).
+%H A026730 <a href="/index/Rec#order_16">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, -1).
+%F A026730 a(n)=2a(n-8)-a(n-16).
+%t A026730 LinearRecurrence[{0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,-1},{0,1,1,2,1,3,2,3,1,5,4,7,3,8,5,7},90] (* _Harvey P. Dale_, May 10 2012 *)
+%K A026730 nonn,easy
+%O A026730 0,4
+%A A026730 J. Carl Bellinger (carlb(AT)ctron.com)
+%E A026730 Shorter description and more terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

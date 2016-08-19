@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026735
+Showing 1-1 of 1
+
+%I A026735
+%S A026735 1,1,2,3,6,9,15,28,43,71,130,201,331,597,928,1525,2720,4245,6965,
+%T A026735 12315,19280,31595,55472,87067,142539,248802,391341,640143,1111864,
+%U A026735 1752007,2863871,4953162,7817033,12770195,22004810,34775005,56779815
+%N A026735 Sum{T(n-k,k)}, 0<=k<=[ n/2 ], T given by A026725.
+%F A026735 Conjecture: G.f.:-1/2*(2*x^6-5*x^4+8*x^3+x-2+x*(x-1)*(x^2+x+1)*(1-4*x^3)^(1/2))/(x^6+4*x^3-1)/(x^2+x-1) [From Maksym Voznyy (voznyy(AT)mail.ru), Aug 11 2009]
+%K A026735 nonn
+%O A026735 0,3
+%A A026735 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

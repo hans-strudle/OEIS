@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053369
+Showing 1-1 of 1
+
+%I A053369
+%S A053369 2,9,32,115,420,1554,5808,21879,82940,316030,1209312,4644094,17889032,
+%T A053369 69089700,267444000,1037348415,4030774380,15687019590,61137753600,
+%U A053369 238580530650,932105099640
+%N A053369 Linear recursion with Catalan numbers.
+%D A053369 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%F A053369 a(n) = (7n+2)*C(n) where C(n)=Catalan numbers (A000108).
+%Y A053369 Cf. A050960.
+%K A053369 easy,nonn
+%O A053369 0,1
+%A A053369 _Barry E. Williams_, Jan 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

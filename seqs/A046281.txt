@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046281
+Showing 1-1 of 1
+
+%I A046281
+%S A046281 11,401,1259,2039,3041,7349,7949,19249,22397,26981,51487,70177,91757,
+%T A046281 98909,103801,153529,289559,307067,316031,434113,439441,518159,529987,
+%U A046281 535937,547957,560113,578603,591067,597353,655601,745141,795937,886819
+%N A046281 a(n) is prime and is sum of first k lucky numbers for some k.
+%C A046281 See A046280 for the values of k.
+%Y A046281 Cf. A013918, A000959.
+%K A046281 nonn
+%O A046281 0,1
+%A A046281 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

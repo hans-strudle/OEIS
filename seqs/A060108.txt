@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060108
+Showing 1-1 of 1
+
+%I A060108
+%S A060108 2,22,40,92,210,260,442,672,950,1162,1520,1650,2072,2380,2882,3060,
+%T A060108 4030,5370,5612,6112,7740,8030,8932,9560,9882,10542,14950,15352,16590,
+%U A060108 17442,21540,22022,23002,23500,28222,29330,31032,32782,34580,35190
+%N A060108 Sequence of sums based on primes = 7 mod 8.
+%D A060108 C. Popescu, Problem 10852, American Mathematical Monthly, Vol. 108 (2001), p. 171.
+%F A060108 a(n)=sum(floor(k^2/p+1/2), k, 1, (p-1)/2) where p is n-th prime congruent to 7 mod 8 (i.e. A007522(n))
+%e A060108 For n=2, p=A007522(2)=23, so a(2)=0+0+0+1+1+2+2+3+4+4+5=22.
+%Y A060108 A007522.
+%K A060108 easy,nonn
+%O A060108 1,1
+%A A060108 _Marc LeBrun_, Feb 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

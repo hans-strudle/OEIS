@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017240
+Showing 1-1 of 1
+
+%I A017240
+%S A017240 1679616,2562890625,110075314176,1406408618241,9682651996416,
+%T A017240 45767944570401,167961600000000,513798374428641,1370114370683136,
+%U A017240 3282116715437121,7213895789838336,14774554437890625,28525864220672256
+%N A017240 (9*n+6)^8.
+%H A017240 Vincenzo Librandi, <a href="/A017240/b017240.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017240 (MAGMA) [(9*n+6)^8: n in [0..25]]; // Vincenzo Librandi, Jul 25 2011
+%K A017240 nonn,easy
+%O A017240 0,1
+%A A017240 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026745
+Showing 1-1 of 1
+
+%I A026745
+%S A026745 1,3,7,15,32,66,139,285,599,1227,2577,5277,11075,22671,47543,97287,
+%T A026745 203860,417006,873175,1785513,3736210,7637604,15972143,32641221,
+%U A026745 68224004,139389570,291199307,594818781,1242097912,2536656174
+%N A026745 Sum{T(i,j)}, 0<=i<=n, 0<=j<=n, T given by A026736.
+%K A026745 nonn
+%O A026745 0,2
+%A A026745 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

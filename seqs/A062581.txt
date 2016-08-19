@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062581
+Showing 1-1 of 1
+
+%I A062581
+%S A062581 2,3,43,173,193,7559,165559
+%N A062581 Numbers n such that 15^n - 14^n is prime.
+%C A062581 Terms greater than 1000 may correspond to (unproven) strong pseudoprimes 15^n - 14^n. [Clarified by _M. F. Hasler_, Sep 16 2013]
+%H A062581 <a href="http://www.primenumbers.net/prptop/searchform.php?form=15%5Ep-14%5Ep&amp;action=Search">Top probable primes of the form 15^p-14^p</a>
+%Y A062581 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062581 nonn,hard
+%O A062581 1,1
+%A A062581 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062581 New term 165559 found by Jean-Louis Charton in March 2011 corresponding to a probable prime with 194713 digits.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

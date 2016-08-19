@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058874
+Showing 1-1 of 1
+
+%I A058874
+%S A058874 0,0,0,64,5120,450560,56197120,10877927424,3407830056960,
+%T A058874 1765179884830720,1528596578057584640,2225354662890778394624,
+%U A058874 5460264388115266042593280,22602991882128566753395998720,157891665026904821204431467970560
+%N A058874 Number of 4-colored labeled graphs with n nodes.
+%D A058874 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 18, Table 1.5.1.
+%Y A058874 A diagonal of A058843.
+%Y A058874 Equals 64 * A006202.
+%K A058874 nonn
+%O A058874 1,4
+%A A058874 _N. J. A. Sloane_, Jan 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

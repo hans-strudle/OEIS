@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061724
+Showing 1-1 of 1
+
+%I A061724
+%S A061724 109,1920,26730,4385270,13486709,13652048,134267085,285963417,
+%T A061724 341872690,1032479568,1026349857,1027563984,1029637584,1239574806,
+%U A061724 2059716348,1654923078
+%N A061724 Smallest number which has more different digits than its n-th power, or -1 if no such number exists.
+%e A061724 1920 is the smallest number which has more different digits than its cube (4 digits vs. 3 digits in 7077888000 = 1920^3), hence a(3) = 1920
+%Y A061724 Cf. A061277, A061374.
+%K A061724 nonn,base,hard,more
+%O A061724 2,1
+%A A061724 Ulrich Schimke (ulrschimke(AT)aol.com)
+%E A061724 a(6) and a(7) from _Stefan Steinerberger_, Sep 07 2007
+%E A061724 a(8)-a(17) from _Sean A. Irvine_, Dec 02 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

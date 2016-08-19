@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059890
+Showing 1-1 of 1
+
+%I A059890
+%S A059890 2,4,2,18,6,24,10,72,4,84,14,462,14,128,54,672,30,124,14,4494,82,364,
+%T A059890 14,7608,120,172,56,9054,62,3920,6,5376,238,1500,1518,9600,62,364,494,
+%U A059890 69048,30,5892,30,24174,956,364,62,253280,52,12072,222,147246,254,12072
+%N A059890 a(n) = |{m : multiplicative order of 8 mod m=n}|.
+%C A059890 The multiplicative order of a mod m, gcd(a,m)=1, is the smallest natural number d for which a^d = 1 (mod m). a(n) = number of orders of degree-n monic irreducible polynomials over GF(8).
+%F A059890 a(n) = Sum_{ d divides n } mu(n/d)*tau(8^d-1), (mu(n) = Moebius function A008683, tau(n) = number of divisors of n A000005).
+%p A059890 with(numtheory):
+%p A059890 a:= n-> add(mobius(n/d)*tau(8^d-1), d=divisors(n)):
+%p A059890 seq(a(n), n=1..40);  # _Alois P. Heinz_, Oct 12 2012
+%Y A059890 Cf. A000005, A008683, A027380, A053451, A058946, A059499, A059885-A059889, A059891-A059892.
+%Y A059890 Column k=8 of A212957. - _Alois P. Heinz_, Oct 12 2012
+%K A059890 easy,nonn
+%O A059890 1,1
+%A A059890 _Vladeta Jovovic_, Feb 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047599
+Showing 1-1 of 1
+
+%I A047599
+%S A047599 0,3,4,5,8,11,12,13,16,19,20,21,24,27,28,29,32,35,36,37,40,43,44,45,
+%T A047599 48,51,52,53,56,59,60,61,64,67,68,69,72,75,76,77,80,83,84,85,88,91,92,
+%U A047599 93,96,99,100,101,104,107,108
+%N A047599 Numbers that are congruent to {0, 3, 4, 5} mod 8.
+%H A047599 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,-2,2,-1)
+%F A047599 a(n)=2*n-2-cos(n*Pi/2). G.f. ( x^2*(3-2*x+3*x^2) ) / ( (x^2+1)*(x-1)^2 ). - R. J. Mathar, Oct 08 2011
+%o A047599 (Sage) [lucas_number1(n, 0, 1)+2*n for n in xrange(0, 55)] [From _Zerinvary Lajos_, Mar 09 2009]
+%K A047599 nonn
+%O A047599 1,2
+%A A047599 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

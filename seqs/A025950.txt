@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025950
+Showing 1-1 of 1
+
+%I A025950
+%S A025950 1,24,387,5306,66969,806148,9425599,108151662,1225448037,13766224472,
+%T A025950 153719012811,1709234017218,18948174785905,209602732183596,
+%U A025950 2315012544644823,25540197959076374,281542657422715773
+%N A025950 Expansion of 1/((1-2x)(1-3x)(1-8x)(1-11x)).
+%F A025950 a(n) = -4*2^n/27 +27*3^n/40 -256*8^n/45 +1331*11^n/216. - _R. J. Mathar_, Jun 20 2013
+%K A025950 nonn,easy
+%O A025950 0,2
+%A A025950 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

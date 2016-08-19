@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045798
+Showing 1-1 of 1
+
+%I A045798
+%S A045798 11,13,17,19,31,33,37,39,51,53,57,59,71,73,77,79,91,93,97,99,111,113,
+%T A045798 117,119,131,133,137,139,151,153,157,159,171,173,177,179,191,193,197,
+%U A045798 199,211,213,217,219,231,233,237,239,251,253,257,259
+%N A045798 Oddish numbers (prime to 10 and 10's digit is odd).
+%H A045798 Reinhard Zumkeller, <a href="/A045798/b045798.txt">Table of n, a(n) for n = 1..10000</a>
+%F A045798 Conjecture a(n) = a(n-1)+a(n-4)-a(n-5). G.f.: x*(11+2*x+4*x^2+2*x^3+x^4)/((1-x)^2*(1+x)*(1+x^2)). [Colin Barker, Apr 14 2012]
+%o A045798 (Haskell)
+%o A045798 a045798 n = a045798_list !! (n-1)
+%o A045798 a045798_list = filter (odd . (`mod` 10) . (`div` 10)) a045572_list
+%o A045798 -- _Reinhard Zumkeller_, Dec 10 2011
+%Y A045798 Cf. A045572, A045797.
+%Y A045798 Complement of A045797 with respect to A045572.
+%K A045798 nonn,base,easy,nice
+%O A045798 1,1
+%A A045798 _J. H. Conway_.
+%E A045798 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

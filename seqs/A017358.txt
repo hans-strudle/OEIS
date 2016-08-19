@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017358
+Showing 1-1 of 1
+
+%I A017358
+%S A017358 117649,24137569,387420489,2565726409,10779215329,34296447249,
+%T A017358 90458382169,208422380089,433626201009,832972004929,1500730351849,
+%U A017358 2565164201769,4195872914689,6611856250609,10090298369529
+%N A017358 (10*n+7)^6.
+%H A017358 Vincenzo Librandi, <a href="/A017358/b017358.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017358 (MAGMA) [(10*n+7)^6: n in [0..30]]; // Vincenzo Librandi, Aug 30 2011
+%K A017358 nonn,easy
+%O A017358 0,1
+%A A017358 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

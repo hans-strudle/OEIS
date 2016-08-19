@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022390
+Showing 1-1 of 1
+
+%I A022390
+%S A022390 8,17,25,42,67,109,176,285,461,746,1207,1953,3160,5113,8273,13386,
+%T A022390 21659,35045,56704,91749,148453,240202,388655,628857,1017512,1646369,
+%U A022390 2663881,4310250,6974131,11284381,18258512,29542893,47801405,77344298,125145703,202490001
+%N A022390 Fibonacci sequence beginning 8, 17.
+%H A022390 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022390 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022390 G.f.: (8+9*x)/(1-x-x^2). - _Philippe Deléham_, Nov 20 2008
+%t A022390 a={};b=8;c=17;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%Y A022390 Cf. A000032.
+%K A022390 nonn,easy
+%O A022390 0,1
+%A A022390 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050255
+Showing 1-1 of 1
+
+%I A050255
+%S A050255 1,23,88,187,313,459,622,797,983,1179,1382,1592,1809,2031,2257,2489,
+%T A050255 2724,2963,3205,3450,3698,3949,4203,4459,4717,4977,5239,5503,5768,
+%U A050255 6036,6305,6575,6847,7121,7395,7671,7948,8227,8506,8787,9068,9351
+%N A050255 Diaconis-Mosteller approximation to the Birthday problem function.
+%H A050255 P. Diaconis and F. Mosteller, <a href="http://www.math.northwestern.edu/~fcale/CCC/DC.pdf">Methods of studying coincidences</a>, J. Amer. Statist. Assoc. 84 (1989), pp. 853-861.
+%H A050255 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BirthdayProblem.html">Birthday Problem</a>
+%Y A050255 Cf. A014088, A050256.
+%K A050255 nonn
+%O A050255 1,2
+%A A050255 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

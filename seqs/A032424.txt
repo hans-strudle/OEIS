@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032424
+Showing 1-1 of 1
+
+%I A032424
+%S A032424 3,7,9,15,17,27,33,35,57,125,127,137,191,513,819,827,921,931,1047,
+%T A032424 1147,1599,1815,2499,2995,8151,11403,22783,29841,30201,85935,142281,
+%U A032424 149831
+%N A032424 Numbers n such that 149*2^n+1 is prime.
+%H A032424 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032424 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032424 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032424 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032424 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032424 nonn
+%O A032424 1,1
+%A A032424 _James R. Buddenhagen_
+%E A032424 Extended by _Hugo Pfoertner_, Jul 02 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

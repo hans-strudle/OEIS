@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025610
+Showing 1-1 of 1
+
+%I A025610
+%S A025610 1,2,4,6,8,12,16,24,32,36,48,64,72,96,128,144,192,216,256,288,384,432,
+%T A025610 512,576,768,864,1024,1152,1296,1536,1728,2048,2304,2592,3072,3456,
+%U A025610 4096,4608,5184,6144,6912,7776,8192,9216,10368,12288,13824,15552,16384,18432
+%N A025610 Numbers of form 2^i*6^j, with i, j >= 0.
+%K A025610 easy,nonn
+%O A025610 1,2
+%A A025610 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

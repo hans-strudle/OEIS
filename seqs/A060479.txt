@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060479
+Showing 1-1 of 1
+
+%I A060479
+%S A060479 6,12,12,0,12,444,0,60,84,24,12,0,0,60,948,0,0,106428,0,660,84,24,12,
+%T A060479 1800,0,60,0,0,12,1892316,0,0,1956,0,132,3838380
+%N A060479 Number of orbits of length n in map whose periodic points come from A006954.
+%H A060479 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%F A060479 If b(n) is the (n+2)nd term of A006954, then a(n)=(1/n)* Sum_{d|n}\mu(d)a(n/d)
+%Y A060479 A006954.
+%K A060479 easy,nonn
+%O A060479 1,1
+%A A060479 Thomas Ward (t.ward(AT)uea.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

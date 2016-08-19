@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017258
+Showing 1-1 of 1
+
+%I A017258
+%S A017258 64,289,676,1225,1936,2809,3844,5041,6400,7921,9604,11449,13456,15625,
+%T A017258 17956,20449,23104,25921,28900,32041,35344,38809,42436,46225,50176,
+%U A017258 54289,58564,63001,67600,72361
+%N A017258 (9*n+8)^2.
+%H A017258 Vincenzo Librandi, <a href="/A017258/b017258.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017258 (MAGMA) [(9*n+8)^2: n in [0..35]]; // Vincenzo Librandi, Jul 28 2011
+%K A017258 nonn,easy
+%O A017258 0,1
+%A A017258 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

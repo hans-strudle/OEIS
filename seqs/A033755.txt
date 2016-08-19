@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033755
+Showing 1-1 of 1
+
+%I A033755
+%S A033755 1,2,0,0,2,0,0,0,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
+%T A033755 0,0,2,0,0,0,0,0,0,2,4,0,0,4,0,2,0,0,4,0,0,0,0,0,0,4,0,0,0,0,2,0,0,0,
+%U A033755 4,0,0,0,0,0,0,0,0,0,0,4,0
+%N A033755 Product theta3(q^d); d | 43.
+%D A033755 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p 102 eq 9.
+%K A033755 nonn
+%O A033755 0,2
+%A A033755 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

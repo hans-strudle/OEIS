@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037757
+Showing 1-1 of 1
+
+%I A037757
+%S A037757 2,23,231,2310,23102,231023,2310231,23102310,231023102,2310231023,
+%T A037757 23102310231,231023102310,2310231023102,23102310231023,
+%U A037757 231023102310231,2310231023102310
+%N A037757 Decimal expansion of a(n) is given by the first n terms of the periodic sequence with initial period 2,3,1,0.
+%H A037757 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (11,-11,11,-10)
+%F A037757 a(n)=10*a(n-1)+(1/4)*{2*(n mod 4)+3*[(n+1) mod 4]-[(n+3) mod 4]}, with a(0)=0 [From _Paolo P. Lava_, Jul 30 2009]
+%F A037757 G.f. (2+x)*x / ((x-1)*(10*x-1)*(x^2+1)). - R. J. Mathar, Nov 21 201
+%K A037757 nonn,base
+%O A037757 1,1
+%A A037757 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

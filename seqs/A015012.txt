@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015012
+Showing 1-1 of 1
+
+%I A015012
+%S A015012 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015012 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
+%U A015012 1,1,1,1,1,1,1,1,1,1,1,0,0,0
+%V A015012 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015012 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,
+%X A015012 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0
+%N A015012 Inverse of 1003rd cyclotomic polynomial.
+%p A015012 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015012 sign
+%O A015012 0,1
+%A A015012 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

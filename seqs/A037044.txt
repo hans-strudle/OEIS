@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037044
+Showing 1-1 of 1
+
+%I A037044
+%S A037044 0,1,4950,5050,11110,14443,15049,16060,17776,18382,19393,19998,19999,
+%T A037044 21109,22726,25048,28381,35047
+%N A037044 4-white numbers: partition digits of n^4 into blocks of 4 starting at right; sum of these 4-digit numbers equals n.
+%C A037044 No additional terms < 1000000. [From Harvey P. Dale, Jan 08 2011]
+%e A037044 11110 is a 4-white number since 11110^4 = 15235483310410000 and 1 + 5235 + 4833 + 1041 + 0000 = 11110.
+%t A037044 okQ[n_] := Module[{idn=IntegerDigits[n^4], lidn, d4s, bidn, fidn, sbidn}, lidn=Length[idn]; d4s=4Quotient[lidn,4]; bidn=Take[idn,-d4s]; fidn=Take[idn,Mod[lidn,4]]; sbidn=Total[FromDigits/@Partition[bidn,4]]; sbidn+FromDigits[fidn] == n]; Select[Range[0,1000000], okQ] (* _Harvey P. Dale_, Jan 08 2011 *)
+%t A037044 fQ[n_] := Plus @@ FromDigits /@ Partition[ IntegerDigits[n^4, 10, 4 (Quotient[ Floor[4 Log10@ n + 1], 4] + 1)], 4] == n; Select[ Range[0, 36000], fQ]
+%Y A037044 Cf. A037043, A037045.
+%K A037044 full,nonn,fini,easy,base,nice
+%O A037044 0,3
+%A A037044 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

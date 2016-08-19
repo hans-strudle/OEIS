@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027520
+Showing 1-1 of 1
+
+%I A027520
+%S A027520 3,5,8,36,180,364,259,182,132,385,285,10680,145376,219877
+%N A027520 Second diagonal of A027516.
+%F A027520 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^2 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i
+%K A027520 nonn
+%O A027520 2,1
+%A A027520 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

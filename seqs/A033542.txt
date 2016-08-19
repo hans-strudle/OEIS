@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033542
+Showing 1-1 of 1
+
+%I A033542
+%S A033542 0,2,8,504,1153152,168275764800,2407165968578342400,
+%T A033542 4788742737385049982623884800,1780642079411485280163076498360356864000
+%N A033542 a(n) = 2*(n^2)!* Product_{k = 1 .. n-1 } k!/(n+k)!.
+%K A033542 nonn
+%O A033542 0,2
+%A A033542 _Robert G. Wilson v_, Feb 13 2002
+%E A033542 Definition corrected by Neven Juric, Nov 08 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

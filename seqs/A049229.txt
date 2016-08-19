@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049229
+Showing 1-1 of 1
+
+%I A049229
+%S A049229 11,29,47,83,101,127,137,149,173,191,227,263,277,281,317,353,389,443,
+%T A049229 461,479,509,541,569,577,587,607,641,659,677,727,821,827,839,857,877,
+%U A049229 911,929,947,977,983,1019,1031,1091,1109,1129,1163,1181,1217,1277,1289
+%N A049229 p_k-2 is not squarefree; p_k is the k-th prime.
+%H A049229 Harvey P. Dale, <a href="/A049229/b049229.txt">Table of n, a(n) for n = 1..1000</a>
+%F A049229 Abs[ mu[ Prime[ k ]-2 ]=0
+%t A049229 Select[Prime[Range[2,300]],!SquareFreeQ[#-2]&] (* _Harvey P. Dale_, Nov 14 2012 *)
+%K A049229 nonn
+%O A049229 1,1
+%A A049229 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

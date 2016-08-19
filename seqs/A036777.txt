@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036777
+Showing 1-1 of 1
+
+%I A036777
+%S A036777 1,2,9,64,625,7776,117642,2096752,43030008,999357660,25912953990,
+%T A036777 742054808880,23259517076796,792084372215136,29120668067951460,
+%U A036777 1149560690861943360,48497162427675081120,2177517061087611122880
+%N A036777 Number of labeled rooted trees with a degree constraint.
+%D A036777 L. Takacs, Enumeration of rooted trees and forests, Math. Scientist 18 (1993), 1-10, esp. Eq. (14) with r = 5.
+%H A036777 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%K A036777 nonn
+%O A036777 0,2
+%A A036777 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

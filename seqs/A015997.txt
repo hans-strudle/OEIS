@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015997
+Showing 1-1 of 1
+
+%I A015997
+%S A015997 1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015997 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015997 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015997 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015997 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015997 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015997 Inverse of 1988th cyclotomic polynomial.
+%p A015997 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015997 sign
+%O A015997 0,1
+%A A015997 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

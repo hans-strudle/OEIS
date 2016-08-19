@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022281
+Showing 1-1 of 1
+
+%I A022281
+%S A022281 0,12,47,105,186,290,417,567,740,936,1155,1397,1662,1950,2261,2595,
+%T A022281 2952,3332,3735,4161,4610,5082,5577,6095,6636,7200,7787,8397,9030,
+%U A022281 9686,10365,11067,11792,12540,13311
+%N A022281 a(n) = n*(23*n+1)/2.
+%F A022281 a(n) = 23*n + a(n-1) - 11 for n>0, a(0)=0. [_Vincenzo Librandi_, Aug 04 2010]
+%K A022281 nonn,easy
+%O A022281 0,2
+%A A022281 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

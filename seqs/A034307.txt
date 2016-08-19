@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034307
+Showing 1-1 of 1
+
+%I A034307
+%S A034307 2,5,9,12,18,20,30,34
+%N A034307 Numbers n such that there are no promic palindromes of length n.
+%H A034307 P. De Geest, <a href="http://www.worldofnumbers.com/consec.htm">Palindromic pronic numbers of the form n(n+1)</a>
+%Y A034307 Cf. A002378, A028336, A028337.
+%K A034307 nonn,base,hard
+%O A034307 1,1
+%A A034307 _Patrick De Geest_, Oct 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

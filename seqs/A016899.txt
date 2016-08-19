@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016899
+Showing 1-1 of 1
+
+%I A016899
+%S A016899 64,729,2744,6859,13824,24389,39304,59319,85184,117649,157464,205379,
+%T A016899 262144,328509,405224,493039,592704,704969,830584,970299,1124864,
+%U A016899 1295029,1481544,1685159,1906624
+%N A016899 (5n+4)^3.
+%H A016899 Vincenzo Librandi, <a href="/A016899/b016899.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016899 (MAGMA) [(5*n+4)^3: n in [0..50]]; // Vincenzo Librandi, May 02 2011
+%K A016899 nonn,easy
+%O A016899 0,1
+%A A016899 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

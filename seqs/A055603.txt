@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055603
+Showing 1-1 of 1
+
+%I A055603
+%S A055603 0,1,90,2248,43000,755100,13003620,226262400,4037765760,74481120000
+%N A055603 Number of n X n binary matrices with no zero rows or columns and with n+2 ones.
+%F A055603 Number of m X n binary matrices with no zero rows or columns and with k=0..m*n ones is Sum_{i=0..n} (-1)^i*C(n, i)*a(m, n-i, k) where a(m, n, k)=Sum_{i=0..m} (-1)^i*C(m, i)*C((m-i)*n, k).
+%F A055603 a(n) = n*(n-1)*(9*n^4+42*n^3+7*n^2-122*n-120)*n!/576. - _Vladeta Jovovic_, Mar 25 2006
+%Y A055603 A diagonal of triangle A104601.
+%Y A055603 Cf. A055602.
+%K A055603 nonn
+%O A055603 1,3
+%A A055603 _Vladeta Jovovic_, Jun 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

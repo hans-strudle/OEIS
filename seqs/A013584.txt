@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013584
+Showing 1-1 of 1
+
+%I A013584
+%S A013584 1,2,0,3,4,0,6,0,0,4,6,0,0,6,0,0,5,0,7,0,0,6,7,0,0,0,0,0,0,0,12,0,0,5,
+%T A013584 0,0,22,7,0,0,16,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55,12,0,0,0,0,
+%U A013584 0,0,0,0,54,0,42,22,0,0,6,0,0,0,0,16,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A013584 Smallest m such that 0!+1!+...+(m-1)! is divisible by n, or 0 if no such m exists.
+%C A013584 Also called Smarandache-Kurepa numbers.
+%D A013584 M. R. Mudge, Smarandache Notions Journal, University of Craiova, Vol. VII, No. 1, 1996.
+%Y A013584 Cf. A013585.
+%K A013584 nonn
+%O A013584 1,2
+%A A013584 Michael R. Mudge (Amsorg(AT)aol.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

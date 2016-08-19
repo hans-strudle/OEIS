@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009410
+Showing 1-1 of 1
+
+%I A009410
+%S A009410 0,1,1,1,0,9,45,279,2072,17265,160065,1638031,18353544,
+%T A009410 223578809,2943054205,41639195623,630238419600,10162622387809,
+%U A009410 173942578536993,3149754003442847,60163773962649200,1208991988527548137
+%V A009410 0,1,-1,-1,0,9,-45,279,-2072,17265,-160065,1638031,-18353544,
+%W A009410 223578809,-2943054205,41639195623,-630238419600,10162622387809,
+%X A009410 -173942578536993,3149754003442847,-60163773962649200,1208991988527548137
+%N A009410 Expansion of log(1+x)*cos(x).
+%F A009410 a(n) ~ (n-1)! * (-1)^(n+1) * cos(1). - _Vaclav Kotesovec_, Jan 23 2015
+%t A009410 Log[ 1+x ]*Cos[ x ]
+%t A009410 CoefficientList[Series[Cos[x]*Log[1 + x], {x, 0, 20}], x] * Range[0, 20]! (* _Vaclav Kotesovec_, Jan 23 2015 *)
+%K A009410 sign,easy
+%O A009410 0,6
+%A A009410 _R. H. Hardin_
+%E A009410 Extended with signs by _Olivier Gérard_, Mar 15 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

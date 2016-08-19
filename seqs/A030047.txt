@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030047
+Showing 1-1 of 1
+
+%I A030047
+%S A030047 1,0,0,0,0,1,0,0,0,5,5,45,95,50,10,485,1640,1790,325,5425,27510,
+%T A030047 47160,27775,66567
+%V A030047 1,0,0,0,0,1,0,0,0,5,-5,45,-95,50,10,485,-1640,1790,-325,5425,-27510,
+%W A030047 47160,-27775,66567
+%N A030047 Low temperature series for spin-1/2 Ising free energy on 5D simple cubic lattice.
+%D A030047 G. Bhanot, M. Creutz, I. Horvath, J. Lacki and J. Weckel, Series expansions without diagrams, Phys. Rev. E 49 (1994) 2445.
+%D A030047 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 391-406.
+%H A030047 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/ising/ising.html">Lenz-Ising Constants</a>
+%K A030047 sign
+%O A030047 0,10
+%A A030047 _Steven Finch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

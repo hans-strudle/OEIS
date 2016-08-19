@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027544
+Showing 1-1 of 1
+
+%I A027544
+%S A027544 15,160,935,4056,14763,48000,144495,411640,1125443,2980704,7696455,
+%T A027544 19463640,48370395,118431232
+%N A027544 Second diagonal of A027539.
+%F A027544 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^4 where a[ i, j ] = A(i, j)/i! if j<=i, 0 if j>i
+%K A027544 nonn
+%O A027544 2,1
+%A A027544 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

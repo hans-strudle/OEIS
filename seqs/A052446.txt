@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052446
+Showing 1-1 of 1
+
+%I A052446
+%S A052446 0,1,1,3,10,52,351,3714,63638,1912203,103882478,10338614868,
+%T A052446 1892863194064,639799762452639,400857034314325045,
+%U A052446 467526363203064793081,1019286659457016864347582
+%N A052446 Number of simple connected bridged graphs on n nodes.
+%H A052446 Travis Hoppe and Anna Petrone, <a href="https://github.com/thoppe/Encyclopedia-of-Finite-Graphs">Encyclopedia of Finite Graphs</a>
+%H A052446 T. Hoppe and A. Petrone, <a href="http://arxiv.org/abs/1408.3644">Integer sequence discovery from small graphs</a>, arXiv preprint arXiv:1408.3644, 2014
+%H A052446 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/k-Edge-ConnectedGraph.html">k-Edge-Connected Graph</a>
+%H A052446 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BridgedGraph.html">Bridged Graph</a>
+%H A052446 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ConnectedGraph.html">Connected Graph</a>
+%F A052446 a(n) = A001349(n) - A007146(n).
+%Y A052446 Cf. other k-edge-connected unlabeled graph sequences A052446, A052447, A052448, A241703, A241704, A241705.
+%Y A052446 Cf. A001349 (number of simple connected graphs).
+%Y A052446 Cf. A007146 (number of simple connected bridgeless graphs).
+%Y A052446 Cf. A263914 (number of simple bridgeless graph).
+%Y A052446 Cf. A263915 (number of simple bridgeled graph).
+%K A052446 nonn,hard,more
+%O A052446 1,4
+%A A052446 _Eric W. Weisstein_, May 08 2000
+%E A052446 a(8) and a(9) and better description by _Eric W. Weisstein_, Nov 07 2010
+%E A052446 a(10) from the Encyclopedia of Finite Graphs by _Travis Hoppe_ and _Anna Petrone_, Apr 22 2014
+%E A052446 Additional terms from A001349-A007146 by _Eric W. Weisstein_, Oct 29 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

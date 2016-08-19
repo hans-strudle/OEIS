@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017463
+Showing 1-1 of 1
+
+%I A017463
+%S A017463 216,4913,21952,59319,125000,226981,373248,571787,830584,1157625,
+%T A017463 1560896,2048383,2628072,3307949,4096000,5000211,6028568,7189057,
+%U A017463 8489664,9938375,11543176,13312053,15252992
+%N A017463 (11*n+6)^3.
+%H A017463 Vincenzo Librandi, <a href="/A017463/b017463.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017463 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4, -6, 4, -1).
+%F A017463 a(0)=216, a(1)=4913, a(2)=21952, a(3)=59319, a(n)=4*a(n-1)-6*a(n-2)+ 4*a(n-3)- a(n-4) -- From _Harvey P. Dale_, May 16 2012
+%t A017463 (11Range[0,30]+6)^3 (* or *) LinearRecurrence[{4,-6,4,-1},{216,4913,21952,59319},30] _Harvey P. Dale_, May 16 2012
+%o A017463 (MAGMA) [(11*n+6)^3: n in [0..40]]; // Vincenzo Librandi, Sep 03 2011
+%K A017463 nonn,easy
+%O A017463 0,1
+%A A017463 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

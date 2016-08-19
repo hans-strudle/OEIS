@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008511
+Showing 1-1 of 1
+
+%I A008511
+%S A008511 0,16,80,240,544,1040,1776,2800,4160,5904,8080,10736,13920,17680,
+%T A008511 22064,27120,32896,39440,46800,55024,64160,74256,85360,97520,110784,
+%U A008511 125200,140816,157680,175840
+%N A008511 Number of points on surface of 4-dimensional cube.
+%C A008511 a(n) = 16 * A006003(16). - _J. M. Bergot_, Jul 22 2013
+%H A008511 Vincenzo Librandi, <a href="/A008511/b008511.txt">Table of n, a(n) for n = 0..10000</a>
+%H A008511 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A008511 a(n) = (n+1)^4-(n-1)^4.
+%F A008511 G.f.: 16*x*(1+x+x^2)/(1-4*x+6*x^2-4*x^3+x^4). - _Colin Barker_, Jan 02 2012
+%F A008511 a(0)=0, a(1)=16, a(2)=80, a(3)=240, a(n)=4*a(n-1)-6*a(n-2)+ 4*a(n-3)- a(n-4). - _Harvey P. Dale_, Oct 15 2012
+%p A008511 (n+1)^4-(n-1)^4;
+%t A008511 Last[#]-First[#]&/@Partition[Range[-1,30]^4,3,1] (* or *) LinearRecurrence[ {4,-6,4,-1},{0,16,80,240},30] (* _Harvey P. Dale_, Oct 15 2012 *)
+%o A008511 (MAGMA) [(n+1)^4-(n-1)^4: n in [0..30]]; // _Vincenzo Librandi_, Aug 27 2011
+%K A008511 nonn,easy
+%O A008511 0,2
+%A A008511 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

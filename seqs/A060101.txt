@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060101
+Showing 1-1 of 1
+
+%I A060101
+%S A060101 1,6,26,86,246,622,1442,3102,6292,12122,22374,39754,68354,114114,
+%T A060101 185614,294866,458601,699556,1048476,1546116,2246244,3218644,4553484,
+%U A060101 6365684,8801104,12042732,16319252,21913612
+%N A060101 Sixth column (m=5) of triangle A060098.
+%C A060101 Partial sums of A038165.
+%H A060101 <a href="/index/Rec#order_16">Index entries for linear recurrences with constant coefficients</a>, signature (6, -10, -10, 50, -34, -66, 110, 0, -110, 66, 34, -50, 10, 10, -6, 1).
+%F A060101 a(n)= sum(A060098(n+5, 5)); G.f.: 1/((1-x^2)^5*(1-x)^6)= 1/((1-x)^11*(1+x)^5).
+%t A060101 Accumulate[CoefficientList[Series[1/((1-x)(1-x^2))^5,{x,0,35}],x]] (* or *) LinearRecurrence[ {6,-10,-10,50,-34,-66,110,0,-110,66,34,-50,10,10,-6,1},{1,6,26,86,246,622,1442,3102,6292,12122,22374,39754,68354,114114,185614,294866},30] (* _Harvey P. Dale_, Mar 06 2016 *)
+%K A060101 nonn
+%O A060101 0,2
+%A A060101 _Wolfdieter Lang_, Apr 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

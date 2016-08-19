@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003328
+Showing 1-1 of 1
+
+%I A003328
+%S A003328 5,12,19,26,31,33,38,40,45,52,57,59,64,68,71,75,78,82,83,89,90,94,96,
+%T A003328 97,101,108,109,115,116,120,127,129,131,134,135,136,138,143,145,146,
+%U A003328 150,152,153,155,157,162,164,169,171,172,176,181,183,188,190,192,194
+%N A003328 Numbers that are the sum of 5 positive cubes.
+%H A003328 T. D. Noe, <a href="/A003328/b003328.txt">Table of n, a(n) for n=1..1000</a>
+%H A003328 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html">Cubic Number.</a>
+%Y A003328 Cf. A003328, A048926, A048297.
+%Y A003328 Cf. A057906 (Complement)
+%K A003328 nonn
+%O A003328 1,1
+%A A003328 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

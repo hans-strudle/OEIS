@@ -1,0 +1,42 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007602
+Showing 1-1 of 1
+
+%I A007602 M0482
+%S A007602 1,2,3,4,5,6,7,8,9,11,12,15,24,36,111,112,115,128,132,135,144,175,212,
+%T A007602 216,224,312,315,384,432,612,624,672,735,816,1111,1112,1113,1115,1116,
+%U A007602 1131,1176,1184,1197,1212,1296,1311,1332,1344,1416,1575,1715,2112,2144
+%N A007602 Numbers that are divisible by the product of their digits.
+%C A007602 These are called Zuckerman numbers to base 10. [Howard Berman (howard_berman(AT)hotmail.com), Nov 09 2008]
+%C A007602 This sequence is a subsequence of A180484; the first member of A180484 that is not a member of A007602 is 1114. [_D. S. McNeil_, Sep 09 2010]
+%C A007602 Complement of A188643; A188642(a(n)) = 1; A038186 is a subsequence; A168046(a(n)) = 1: subsequence of A052382. [_Reinhard Zumkeller_, Apr 07 2011]
+%D A007602 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007602 Reinhard Zumkeller and Zak Seidov, <a href="/A007602/b007602.txt">Table of n, a(n) for n = 1..10000</a>
+%H A007602 <a href="/index/Coi#Colombian">Index entries for Colombian or self numbers and related sequences</a>
+%p A007602 filter:= proc(n)
+%p A007602 local p;
+%p A007602 p:= convert(convert(n,base,10),`*`);
+%p A007602 p <> 0 and n mod p = 0
+%p A007602 end proc;
+%p A007602 select(filter, [$1..10000]); # _Robert Israel_, Aug 24 2014
+%t A007602 zuckerQ[n_] := Module[{d = IntegerDigits[n], prod}, prod = Times @@ d; prod > 0 && Mod[n, prod] == 0]; Select[Range[5000], zuckerQ] (* _Alonso del Arte_, Aug 04 2004 *)
+%o A007602 (Haskell)
+%o A007602 import Data.List (elemIndices)
+%o A007602 a007602 n = a007602_list !! (n-1)
+%o A007602 a007602_list = map succ $ elemIndices 1 $ map a188642 [1..]
+%o A007602 -- _Reinhard Zumkeller_, Apr 07 2011
+%o A007602 (MAGMA) [ n: n in [1..2144] | not IsZero(&*Intseq(n)) and IsZero(n mod &*Intseq(n)) ];  // _Bruno Berselli_, May 28 2011
+%o A007602 (Python)
+%o A007602 from operator import mul
+%o A007602 from functools import reduce
+%o A007602 A007602 = [n for n in range(1,10**5) if not (str(n).count('0') or n % reduce(mul, (int(d) for d in str(n))))] # _Chai Wah Wu_, Aug 25 2014
+%o A007602 (PARI)
+%o A007602 for(n=1,10^5,d=digits(n);p=prod(i=1,#d,d[i]);if(p&&n%p==0,print1(n,", "))) \\ _Derek Orr_, Aug 25 2014
+%Y A007602 Cf. A002796, A034709, A034838.
+%Y A007602 Cf. A001103.
+%K A007602 nonn,base,easy
+%O A007602 1,2
+%A A007602 _N. J. A. Sloane_, _Mira Bernstein_, _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

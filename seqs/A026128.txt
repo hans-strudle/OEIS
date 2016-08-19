@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026128
+Showing 1-1 of 1
+
+%I A026128
+%S A026128 1,1,7,35,188,1029,5730,32292,183660,1052062,6061247,35085362,
+%T A026128 203888951,1188784325,6951007260,40743883935,239338600713,
+%U A026128 1408601096922,8304165939530,49029683529190,289875333579403
+%N A026128 a(n) = T(2n,n), where T is the array in A026120.
+%Y A026128 Bisection of A026133.
+%K A026128 nonn
+%O A026128 0,3
+%A A026128 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

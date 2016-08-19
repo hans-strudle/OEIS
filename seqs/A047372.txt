@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047372
+Showing 1-1 of 1
+
+%I A047372
+%S A047372 1,2,3,5,8,9,10,12,15,16,17,19,22,23,24,26,29,30,31,33,36,37,38,40,43,
+%T A047372 44,45,47,50,51,52,54,57,58,59,61,64,65,66,68,71,72,73,75,78,79,80,82,
+%U A047372 85,86,87,89,92,93,94,96
+%N A047372 Numbers that are congruent to {1, 2, 3, 5} mod 7.
+%H A047372 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,1,-1).
+%F A047372 Contribution from Bruno Berselli, Dec 01 2010: (Start)
+%F A047372 G.f.: x*(1+x+x^2+2*x^3+2*x^4) / ((1-x)^2*(1+x+x^2+x^3)).
+%F A047372 a(n) = (14*n+(3*I-1)*(-I)^n-(3*I+1)*I^n-(-1)^n-13)/8 where I is the imaginary unit. (End)
+%t A047372 Flatten[7Range[0,12]+n/.n->{1,2,3,5}] [from Harvey P. Dale, Dec. 13, 2010]
+%K A047372 nonn
+%O A047372 1,2
+%A A047372 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

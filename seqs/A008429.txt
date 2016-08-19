@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008429
+Showing 1-1 of 1
+
+%I A008429
+%S A008429 1,84,574,1288,3444,4424,9240,11088,18494,19740,34440,31304,52808,
+%T A008429 52248,74048,71120,110964,94864,145222,132888,181384,163856,249480,
+%U A008429 201040,295960,264684,346696,314272,454608,352520,518336,452256,591934,517216
+%N A008429 Theta series of D_7 lattice.
+%D A008429 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 118.
+%F A008429 G.f.: (theta_3(q^(1/2))^7 + theta_4(q^(1/2))^7)/2.
+%e A008429 1 + 84*q^2 + 574*q^4 + 1288*q^6 + 3444*q^8 + ...
+%o A008429 (PARI) {a(n)=if(n<0, 0, n*=2; polcoeff( sum(k=1, sqrtint(n), 2*x^k^2, 1+x*O(x^n))^7, n))} /* _Michael Somos_, Nov 03 2006 */
+%Y A008429 A008451(2n) = a(n).
+%K A008429 nonn,easy
+%O A008429 0,2
+%A A008429 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

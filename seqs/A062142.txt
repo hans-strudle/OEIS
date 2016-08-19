@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062142
+Showing 1-1 of 1
+
+%I A062142
+%S A062142 1,28,560,10080,176400,3104640,55883520,1037836800,19978358400,
+%T A062142 399567168000,8310997094400,179819755315200,4045944494592000,
+%U A062142 94612855873536000,2297740785500160000,57903067794604032000
+%N A062142 Fourth (unsigned) column sequence of coefficient triangle A062137 of generalized Laguerre polynomials n!*L(n,3,x).
+%H A062142 <a href="/index/La#Laguerre">Index entries for sequences related to Laguerre polynomials</a>
+%F A062142 a(n)= (n+3)!*binomial(n+6, 6)/3!; e.g.f.:(1+18*x+45*x^2+20*x^3)/(1-x)^10.
+%F A062142 If we define f(n,i,x)= sum(sum(binomial(k,j)*stirling1(n,k)*stirling2(j,i)*x^(k-j),j=i..k),k=i..n) then a(n-3)=(-1)^(n-1)*f(n,3,-7), (n>=3). [From _Milan Janjic_, Mar 01 2009]
+%o A062142 (Sage) [binomial(n,6)*factorial (n-3)/factorial (3) for n in xrange(6, 22)] # [From _Zerinvary Lajos_, Jul 07 2009]
+%Y A062142 A062141.
+%K A062142 nonn,easy
+%O A062142 0,2
+%A A062142 _Wolfdieter Lang_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

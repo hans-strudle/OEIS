@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031701
+Showing 1-1 of 1
+
+%I A031701
+%S A031701 531,2120,4767,8472,13235,19056,25935,33872,42867,52920,64031,76200,
+%T A031701 89427,103712,119055,135456,152915,171432,191007,211640,233331,256080,
+%U A031701 279887,292728,304752,319272,330675,357656,385695,414792,444947,476160
+%N A031701 Numbers n such that the least term in the period of the continued fraction for sqrt(n) is 23.
+%H A031701 Vincenzo Librandi, <a href="/A031701/b031701.txt">Table of n, a(n) for n = 1..60</a>
+%t A031701 Select[Range[500000],!IntegerQ[Sqrt[#]] && Min[ContinuedFraction[Sqrt[#]][[2]]] == 23&] (* _Vincenzo Librandi_, Feb 10 2012 *)
+%K A031701 nonn
+%O A031701 1,1
+%A A031701 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

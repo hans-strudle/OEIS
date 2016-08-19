@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008898
+Showing 1-1 of 1
+
+%I A008898
+%S A008898 84,42,21,62,31,92,46,23,68,34,17,50,25,74,37,110,55,164,82,41,122,61,
+%T A008898 182,91,272,136,68,34,17,50,25,74,37,110,55,164,82,41,122,61,182,91,
+%U A008898 272,136,68,34,17,50,25,74,37,110
+%N A008898 x->x/2 if x even, x->3x-1 if x odd.
+%D A008898 R. K. Guy, Unsolved Problems in Number Theory, E16.
+%K A008898 nonn
+%O A008898 0,1
+%A A008898 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

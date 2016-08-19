@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059140
+Showing 1-1 of 1
+
+%I A059140
+%S A059140 4,15,40,93,202,423,868,1761,3550,7131,14296,28629,57298,114639,229324
+%N A059140 A hierarchical sequence (S(W2{2}*c) - see A059126).
+%H A059140 J. Wallgren, <a href="/A059126/a059126.txt">Hierarchical sequences</a>
+%F A059140 Conjectures from _Colin Barker_, Oct 07 2015: (Start)
+%F A059140 a(n) = 2*(-5+7*2^n)-3*n.
+%F A059140 a(n) = 4*a(n-1)-5*a(n-2)+2*a(n-3) for n>2.
+%F A059140 G.f.: (x-4) / ((x-1)^2*(2*x-1)).
+%F A059140 (End)
+%K A059140 easy,nonn,more
+%O A059140 0,1
+%A A059140 _Jonas Wallgren_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

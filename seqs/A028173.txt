@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028173
+Showing 1-1 of 1
+
+%I A028173
+%S A028173 1,31,615,9995,145511,1981731,25867375,328390315,4092662871,
+%T A028173 50378487731,614988087935,7465359578235,90280175113831,
+%U A028173 1089001243414531,13113567724769295,157729903649607755
+%N A028173 Expansion of 1/((1-5x)(1-6x)(1-8x)(1-12x)).
+%F A028173 a(n)=(12^(n+3)-7*8^(n+3)+14*6^(n+3)-8*5^(n+3))/168. [_Yahia Kahloune_, Jun 03 2013]
+%K A028173 nonn
+%O A028173 0,2
+%A A028173 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

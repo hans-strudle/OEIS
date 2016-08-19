@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025490
+Showing 1-1 of 1
+
+%I A025490
+%S A025490 0,1,5,13,41,53,55,60,61,90,97,169,185,193,215,265,269,353,355,385,
+%T A025490 397,437,481,493,617,629,630,653,713,750,769,780,889,905,960,1013,
+%U A025490 1025,1045,1205,1320,1405,1435,1501,1620,1650,1657,1705,1735,1769,1793,1913,1981
+%N A025490 In base 11, a(n) = sum of digits of Fib(a(n)).
+%C A025490 In his article, Terr estimated the count to be 684 +/- 26, which agrees with the found count of 710. Especially when compared with the count of 284 for the same sequence with Lucas numbers (A025491), having numbers up to the same size in the sequence. - _Sven Simon_, Aug 06 2006
+%H A025490 Sven Simon, <a href="/A025490/b025490.txt">Table of n, a(n) for n = 0..710</a> [May be complete]
+%H A025490 David Terr, <a href="http://www.fq.math.ca/Scanned/34-4/terr.pdf">On the Sums of Digits of Fibonacci Numbers,</a> Fibonacci Quarterly 34, Aug. 1996, pp. 349-355.
+%K A025490 base,nonn
+%O A025490 0,3
+%A A025490 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

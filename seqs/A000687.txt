@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000687
+Showing 1-1 of 1
+
+%I A000687
+%S A000687 1,1,2,6,17,59,229,1029,5242,30040,191201,1338897,10228097,84647981,
+%T A000687 754437958,7204350870,73382899597,794189092567,9100736472725,
+%U A000687 110080467183393,1401588037032782,18737851806495008,262435512896178877
+%N A000687 Boustrophedon transform (first version) of Fibonacci numbers 0,1,1,2,3,5,...
+%H A000687 J. Millar, N. J. A. Sloane and N. E. Young, A new operation on sequences: the Boustrophedon on transform, J. Combin. Theory, 17A 44-54 1996 (<a href="http://neilsloane.com/doc/bous.txt">Abstract</a>, <a href="http://neilsloane.com/doc/bous.pdf">pdf</a>, <a href="http://neilsloane.com/doc/bous.ps">ps</a>).
+%H A000687 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A000687 <a href="/index/Bo#boustrophedon">Index entries for sequences related to boustrophedon transform</a>
+%p A000687 read(transforms);
+%p A000687 with(combinat):
+%p A000687 F:=fibonacci;
+%p A000687 [seq(F(n),n=0..50)];
+%p A000687 BOUS(%);
+%Y A000687 Cf. A000045, A000738, A092073, A000744.
+%K A000687 nonn
+%O A000687 0,3
+%A A000687 _N. J. A. Sloane_, _Simon Plouffe_
+%E A000687 Entry revised by _N. J. A. Sloane_, Mar 15 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

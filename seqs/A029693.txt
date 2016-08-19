@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029693
+Showing 1-1 of 1
+
+%I A029693
+%S A029693 0,1,1,1,0,0,0,0,1,0,0,1,0,1,0,0,1,1,0,1,1,0,1,1,0,1,0,1,0,0,1,1,0,0,
+%T A029693 0,0,0,0,0,0,0,1,0,0,1,0,1,1,0,1,0,0,0,0,0,1,1,0,0,1,0,1,1,0,1,1,0,1,
+%U A029693 1,0,1,0,0,0,1,1,0,0,0,1,0,1,1,1,1,1,0,0,1,0,1,0,0,1,1,0,1,1,0,1,0,1
+%N A029693 n-th binary digit in fractional part of cube root of n.
+%t A029693 Array[ Function[ n, RealDigits[ N[ Power[ n, 1/3 ], n+6 ], 2 ]// (#[ [ 1, #[ [ 2 ] ]+n ] ])& ], 110 ]
+%K A029693 nonn,base
+%O A029693 1,1
+%A A029693 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

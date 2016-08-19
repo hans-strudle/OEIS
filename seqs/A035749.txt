@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035749
+Showing 1-1 of 1
+
+%I A035749
+%S A035749 1,288,14016,284000,3281280,25534368,148321344,688686048,2681291520,
+%T A035749 9060853280,27266245056,74501171808,187641279616,440840828064,
+%U A035749 975339085632,2047881308384,4106643801600
+%N A035749 Coordination sequence for C_12 lattice.
+%D A035749 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A035749 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035749 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A035749 ((1+x)/(1-x))^12 if norm is even; otherwise 0.
+%K A035749 nonn,easy
+%O A035749 0,2
+%A A035749 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035749 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

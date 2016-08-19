@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009721
+Showing 1-1 of 1
+
+%I A009721
+%S A009721 0,1,2,3,20,157,902,6895,77352,837145,9239882,124480059,1864519868,
+%T A009721 28461793141,470175087566,8596601614567,165789417707088,
+%U A009721 3347308657310641,72262366126097810,1655981959056540147
+%N A009721 Expansion of tan(tanh(x).exp(x)).
+%t A009721 Tan[ Tanh[ x ]*Exp[ x ] ]
+%K A009721 nonn,easy
+%O A009721 0,3
+%A A009721 _R. H. Hardin_
+%E A009721 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

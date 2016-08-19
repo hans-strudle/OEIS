@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033616
+Showing 1-1 of 1
+
+%I A033616
+%S A033616 1,4,9,16,25,37,53,74,99,125,151,177,205,238,279,328,381,434,483,528,
+%T A033616 574,627,690,762,840,919,995,1068,1140,1214,1294,1382,1477,1577,1681,
+%U A033616 1787,1892,1995,2096,2197,2303,2419,2546,2681,2819,2954,3082,3205,3329
+%N A033616 Coordination sequence T1 for Zeolite Code TSC.
+%H A033616 R. W. Grosse-Kunstleve, <a href="/A005897/a005897.html">Coordination Sequences and Encyclopedia of Integer Sequences</a>
+%H A033616 International Zeolite Association, <a href="http://www.iza-structure.org/databases/">Database of Zeolite Structures</a>
+%F A033616 Empirical g.f.: (1 +x)^3*(1 +x^2)*(1 -x +2*x^2 -x^3 +3*x^4 -x^5 +4*x^6 -x^7 +4*x^8 -x^9 +4*x^10 -x^11 +4*x^12 -x^13 +3*x^14 -x^15 +2*x^16 -x^17 +x^18) / ((1 -x)^3*(1 -x +x^2 -x^3 +x^4)*(1 +x +x^2 +x^3 +x^4)*(1 +x^3 +x^6)*(1 +x +x^2 +x^3 +x^4 +x^5 +x^6)). - _Colin Barker_, Dec 19 2015
+%K A033616 nonn
+%O A033616 0,2
+%A A033616 R. W. Grosse-Kunstleve (rwgk(AT)cci.lbl.gov)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008374
+Showing 1-1 of 1
+
+%I A008374
+%S A008374 1,1,4,8,18,33,62,104,175,277,433,651,969
+%N A008374 Number of orbits on points that are at n steps from 0 in D_9 lattice.
+%H A008374 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%K A008374 nonn
+%O A008374 0,3
+%A A008374 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

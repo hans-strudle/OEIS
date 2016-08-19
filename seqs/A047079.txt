@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047079
+Showing 1-1 of 1
+
+%I A047079
+%S A047079 1,1,2,3,3,4,7,9,14,23,33,52,85,127,202,329,503,804,1307,2027,3250,
+%T A047079 5277,8263,13276,21539,33957,54638,88595,140373,226108,366481,582865,
+%U A047079 939622,1522487,2428517,3917412,6345929,10145769,16374126
+%N A047079 T(i,n-2i) for n=0,1,2,...,[ n/2 ], array T as in A047072.
+%K A047079 nonn
+%O A047079 0,3
+%A A047079 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

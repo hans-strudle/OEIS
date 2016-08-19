@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045511
+Showing 1-1 of 1
+
+%I A045511
+%S A045511 362880,3628800,39916800,355687428096000,
+%T A045511 304888344611713860501504000000,
+%U A045511 371993326789901217467999448150835200000000
+%N A045511 Factorials having initial digit '3'.
+%C A045511 Benford's law suggests that this sequence will contain about (log 4 - log 3)/log 10 =~ 12% of factorials. [From _Charles R Greathouse IV_, Nov 13 2010]
+%K A045511 nonn,base
+%O A045511 1,1
+%A A045511 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028802
+Showing 1-1 of 1
+
+%I A028802
+%S A028802 3,6,7,12,13,14,15,19,23,24,26,27,28,29,30,31,33,35,37,38,41,43,46,48,
+%T A028802 51,52,54,56,58,59,60,61,62,63,65,66,70,74,75,76,77,82,83,86,92,95,96,
+%U A028802 101,102,103,104,108,112,113,115,116,117,118,119,120,122,124
+%N A028802 Nonsquares mod 89.
+%t A028802 Select[Range[200],JacobiSymbol[#,89]==-1&] (* _Harvey P. Dale_, Mar 01 2015 *)
+%K A028802 nonn,fini,full
+%O A028802 0,1
+%A A028802 _N. J. A. Sloane_.
+%E A028802 More terms from _Harvey P. Dale_, Mar 01 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

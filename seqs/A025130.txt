@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025130
+Showing 1-1 of 1
+
+%I A025130
+%S A025130 1,33,718,12978,211099,3208611,46530856,652053876,8903593717,
+%T A025130 119147391909,1569038275714,20395728301494,262306431768655,
+%U A025130 3343671393938727,42305729458640092,531898781072416632
+%N A025130 Expansion of 1/((1-x)(1-9x)(1-11x)(1-12x)).
+%F A025130 a(n)=(80*12^(n+3)-132*11^(n+3)+55*9^(n+3)-3)/2640. [_Yahia Kahloune_, May 29 2013].
+%K A025130 nonn
+%O A025130 0,2
+%A A025130 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

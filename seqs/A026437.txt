@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026437
+Showing 1-1 of 1
+
+%I A026437
+%S A026437 1,2,3,4,6,9,10,12,13,14,16,18,20,21,22,24,28,30,32,33,34,36,37,40,42,
+%T A026437 44,45,46,48,49,50,52,54,56,57,58,60,61,64,66,68,69,70,72,74,75,76,78,
+%U A026437 81,82,84,85,86,88,90,92,93,94,96,100
+%N A026437 a(n) = least positive integer > a(n-1) and not a(i)+a(j)-1 for 1<=i<=j<=n.
+%K A026437 nonn
+%O A026437 1,2
+%A A026437 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

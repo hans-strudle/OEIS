@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036958
+Showing 1-1 of 1
+
+%I A036958
+%S A036958 2,3,5,11,13,23,31,41,43,53,101,103,113,131,151,211,223,233,241,251,
+%T A036958 311,313,331,353,401,421,431,433,443,503,521,523,541,1013,1021,1031,
+%U A036958 1033,1051,1103,1123,1151,1153,1201,1213,1223,1231,1301,1303,1321
+%N A036958 Primes containing digits from set (0,1,2,3,4,5).
+%H A036958 Harvey P. Dale, <a href="/A036958/b036958.txt">Table of n, a(n) for n = 0..999</a>
+%t A036958 Select[Prime[Range[220]],Max[IntegerDigits[#]]<6&] (* _Harvey P. Dale_, Sep 23 2011 *)
+%Y A036958 Cf. A036952-A036964.
+%K A036958 nonn,base
+%O A036958 0,1
+%A A036958 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

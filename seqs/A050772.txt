@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050772
+Showing 1-1 of 1
+
+%I A050772
+%S A050772 18,24,25,46,57,161,203,209,288,319,323,391,736,798,837,858,928,930,
+%T A050772 1035,1088,1089,1218,1300,1376,1690,2254,2418,2478,2673,2842,2871,
+%U A050772 3045,3220,3325,3458,3510,3588,4186,4508,4617,4824,5054,5180,5248,5472,6069
+%N A050772 Iterated procedure 'composite k added to sum of its prime factors reaches a prime' yields 5 skipped primes.
+%e A050772 a(1)=18 + (2+3+3) = 26 + (2+13) = ending prime 41. Between 18 and 41 one finds 5 primes 19, 23, 29, 31 and 37.
+%Y A050772 Cf. A050703, A050710.
+%K A050772 nonn
+%O A050772 0,1
+%A A050772 _Patrick De Geest_, Sep 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046432
+Showing 1-1 of 1
+
+%I A046432
+%S A046432 3,69,96,123,132,203,213,222,230,231,302,312,320,321,334,343,433,447,
+%T A046432 456,465,469,474,477,496,546,564,566,577,645,649,654,656,665,689,694,
+%U A046432 698,744,747,757,774,775,777,869,896,946,964,968,986,1022,1038,1048
+%N A046432 2 steps needed to reach a prime under 'Sum of digits raised to its digits powers' procedure.
+%H A046432 Harvey P. Dale, <a href="/A046432/b046432.txt">Table of n, a(n) for n = 0..1000</a>
+%e A046432 a(n)=69 -> 6^6+9^9 = 387467145 is composite but 3^3+8^8+7^7+4^4+6^6+7^7+1^1+4^4+5^5 = 18474623 is prime.
+%t A046432 sdp[n_]:=Module[{idn=IntegerDigits[n]/.{0->1}},Total[#^#&/@idn]]; Select[ Range[ 1100],Rest[PrimeQ[NestList[sdp,#,2]]]=={False,True}&] (* _Harvey P. Dale_, Nov 10 2011 *)
+%Y A046432 Cf. A046431.
+%K A046432 nonn,base
+%O A046432 0,1
+%A A046432 _Patrick De Geest_, Jul 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

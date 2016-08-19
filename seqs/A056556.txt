@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056556
+Showing 1-1 of 1
+
+%I A056556
+%S A056556 0,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+%T A056556 4,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,6,
+%U A056556 6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7
+%N A056556 First tetrahedral co-ordinate; repeat m (m+1)*(m+2)/2 times.
+%C A056556 If {(X,Y,Z)} are triples of nonnegative integers with X>=Y>=Z ordered by X, Y and Z, then X=A056556(n), Y=A056557(n) and Z=A056558(n)
+%F A056556 a(n)=floor[x] where x is the (largest real) solution to x^3+3x^2+2x-6n=0; a(A000292(n))=n+1
+%F A056556 a(n+1) = a(n)==A056558(n) ? a(n)+1 : a(n) - _Graeme McRae_, Jan 09 2007
+%Y A056556 Cf. A000292, A003056, A056557, A056558, A056559, A056560.
+%Y A056556 See also A194847.
+%K A056556 nonn
+%O A056556 0,5
+%A A056556 _Henry Bottomley_, Jun 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

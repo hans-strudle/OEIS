@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047661
+Showing 1-1 of 1
+
+%I A047661
+%S A047661 5,30,115,340,841,1826,3591,6536,11181,18182,28347,42652,62257,88522,
+%T A047661 123023,167568,224213,295278,383363,491364,622489,780274,968599,
+%U A047661 1191704,1454205,1761110,2117835,2530220,3004545,3547546
+%N A047661 Row 5 of square array defined in A047662.
+%F A047661 n/15 * (2n^4 + 5n^3 + 20n^2 + 25 + 23).
+%K A047661 nonn
+%O A047661 1,1
+%A A047661 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

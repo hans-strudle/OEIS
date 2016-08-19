@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046789
+Showing 1-1 of 1
+
+%I A046789
+%S A046789 5,13,31,359,181,211,293,1933,1069,1637,1951,2179,3137,3271,4831,
+%T A046789 10799,8467,12853,38393,20809,34981,36389,91033,73189,45893,25471,
+%U A046789 40289,153191,58831,102701,190409,107377,221327,290249,175141,360091
+%N A046789 Lower prime of the second gap of 2n between primes.
+%D A046789 Enoch Haga, Exploring Prime Numbers on Your PC, 2nd edition, 1998, ISBN 1-885794-16-9, Table 4, pages 38-39.
+%t A046789 Flatten[Table[First /@ Take[Select[Partition[Prime[Range[32000]], 2, 1], Differences[#] == {2 n} &], {2}], {n, 36}]] (* _Jayanta Basu_, Jun 28 2013 *)
+%Y A046789 Cf. A000230, A046728.
+%K A046789 nonn
+%O A046789 1,1
+%A A046789 _Jud McCranie_
+%E A046789 The second prime gap of 4 is at 13 to 17, so A(2)=13.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

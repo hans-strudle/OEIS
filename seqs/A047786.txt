@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047786
+Showing 1-1 of 1
+
+%I A047786
+%S A047786 0,6,87,417,1278,3060,6261,11487,19452,30978,46995,68541,96762,132912,
+%T A047786 178353,234555,303096,385662,484047,600153,735990,893676,1075437,
+%U A047786 1283607,1520628,1789050,2091531,2430837,2809842,3231528
+%N A047786 (9*n^4+4*n^3-n)/2.
+%D A047786 B. T. Bennett and R. B. Potts, Arrays and brooks, J. Austral. Math. Soc., 7 (1967), 23-31 (see p. 30).
+%H A047786 B. T. Bennett and R. B. Potts, <a href="/A002047/a002047_1.pdf">Arrays and brooks</a>, J. Austral. Math. Soc., 7 (1967), 23-31. [Annotated scanned copy]
+%F A047786 O.g.f.: -3*x*(2+19*x+14*x^2+x^3)/(-1+x)^5 . - _R. J. Mathar_, Feb 26 2008
+%K A047786 nonn
+%O A047786 0,2
+%A A047786 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

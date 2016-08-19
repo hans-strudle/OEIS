@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046420
+Showing 1-1 of 1
+
+%I A046420
+%S A046420 1,2,3,4,5,7,11,14,17,19,23,31,34,37,38,41,43,47,49,51,53,57,59,62,67,
+%T A046420 69,71,73,74,79,83,85,86,89,93,94,97
+%N A046420 Prime factors of repunit of length a(n) are all of different lengths.
+%H A046420 P. De Geest, <a href="http://www.worldofnumbers.com/repunits.htm">Repunits prime factors</a>
+%H A046420 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repunit.html">Repunit</a>
+%e A046420 a(n)=14 -> 11*239*4649*909091 -> (2)(3)(4)(6) all of different lengths.
+%Y A046420 Cf. A000042, A004022, A046053.
+%K A046420 nonn,more,base
+%O A046420 0,2
+%A A046420 _Patrick De Geest_, Jul 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

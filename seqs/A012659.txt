@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012659
+Showing 1-1 of 1
+
+%I A012659
+%S A012659 1,2,2,8,80,512,3992,47168,588800,7903232,124255232,2161507328,
+%T A012659 40505429120,829919658752,18433385276672,438231826239488,
+%U A012659 11136829247959040,301669044409475072,8662857659856269312
+%N A012659 arcsin(tanh(x)*exp(x))=x+2/2!*x^2+2/3!*x^3+8/4!*x^4+80/5!*x^5...
+%K A012659 nonn
+%O A012659 0,2
+%A A012659 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

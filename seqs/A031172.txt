@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031172
+Showing 1-1 of 1
+
+%I A031172
+%S A031172 29,34,36,36,36,40,42,42,44,42,42,42,42,46,50,48,44,46,42,42,54,52,54,
+%T A031172 50,52,50,54,56,58,60,52,50,54,54,48,48,54,60,60,56,54,58,50,58,60,64,
+%U A031172 58,48,50,52,50,54,66,60,56,54,62,66,70,68,70,66,60,62,66,66,58
+%N A031172 Prime(n+10) - prime(n).
+%C A031172 In principle moderate values should appear infinitely many times (by analogy with twin primes hypothesis?).
+%C A031172 E.g., prime(n+10) - prime(n) = 44 for n: 9, 17, 206, 1604467, 12905293, 18008874, 26545460, 32655424, 57848470, 58313630, 59022635, 66275281, 81581956, 123780499, 160884754, 167797255, 179786560, 181569324, 239542290, ... - _Zak Seidov_, Sep 14 2014
+%H A031172 Zak Seidov, <a href="/A031172/b031172.txt">Table of n, a(n) for n = 1..10000</a>
+%F A031172 a(n) = A000040(n+10) - A000040(n). - _Wesley Ivan Hurt_, Sep 14 2014
+%p A031172 A031172:=n->ithprime(n+10)-ithprime(n): seq(A031172(n), n=1..50);
+%t A031172 Table[Prime[n + 10] - Prime[n], {n, 50}] (* _Wesley Ivan Hurt_, Sep 14 2014 *)
+%o A031172 (MAGMA) [NthPrime(n+10)-NthPrime(n): n in [1..100] ]; // _Vincenzo Librandi_, Apr 23 2011
+%o A031172 (Haskell)
+%o A031172 a031172 n = a031172_list !! (n-1)
+%o A031172 a031172_list = zipWith (-) (drop 10 a000040_list) a000040_list
+%o A031172 -- _Reinhard Zumkeller_, Aug 23 2015
+%Y A031172 Cf. A000040.
+%Y A031172 Cf. A001223, A031131, A031165, A031166, A031167, A031168, A031169, A031170, A031171.
+%K A031172 nonn
+%O A031172 1,1
+%A A031172 _Jeff Burch_
+%E A031172 Offset changed from 2 to 1; added a(1)=29 by _Vincenzo Librandi_, Apr 23 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

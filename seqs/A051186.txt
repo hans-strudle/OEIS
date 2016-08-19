@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051186
+Showing 1-1 of 1
+
+%I A051186
+%S A051186 1,7,1,98,21,1,2058,539,42,1,57624,17150,1715,70,1,2016840,
+%T A051186 657874,77175,4165,105,1,84707280,29647548,3899224,252105,8575,
+%U A051186 147,1,4150656720,1537437132,220709524,16252369
+%V A051186 1,-7,1,98,-21,1,-2058,539,-42,1,57624,-17150,1715,-70,1,-2016840,
+%W A051186 657874,-77175,4165,-105,1,84707280,-29647548,3899224,-252105,8575,
+%X A051186 -147,1,-4150656720,1537437132,-220709524,16252369
+%N A051186 Generalized Stirling number triangle of first kind.
+%C A051186 a(n,m)= R_n^m(a=0,b=7) in the notation of the given reference.
+%C A051186 a(n,m) is a Jabotinsky matrix, i.e. the monic row polynomials E(n,x) := sum(a(n,m)*x^m,m=1..n) = product(x-7*j,j=0..n-1), n >= 1, E(0,x) := 1, are exponential convolution polynomials (see A039692 for the definition and a Knuth reference).
+%D A051186 Mitrinovic, D. S.; Mitrinovic, R. S.; Tableaux d'une classe de nombres relies aux nombres de Stirling. Univ. Beograd. Pubi. Elektrotehn. Fak. Ser. Mat. Fiz. No. 77 1962, 77 pp.
+%H A051186 W. Lang, <a href="http://www.itp.kit.edu/~wl/EISpub/A051186.text">First ten rows. </a>
+%F A051186 a(n, m) = a(n-1, m-1) - 7*(n-1)*a(n-1, m), n >= m >= 1; a(n, m) := 0, n<m; a(n, 0) := 0, a(1, 1)=1. E.g.f. for m-th column of signed triangle: (((log(1+7*x))/7)^m)/m!.
+%F A051186 a(n,m)=((7^(n-m))*S1(n,m) with the (signed) Stirling1 triangle S1(n,m)=A008275(n,m).
+%e A051186 {1}; {-7,1}; {98,-21,1}; {-2058,539,-42,1}; ... E(3,x) = 98*x-21*x^2+x^3.
+%Y A051186 First (m=1) column sequence is: A051188(n-1). Row sums (signed triangle): A049209(n-1)*(-1)^(n-1). Row sums (unsigned triangle): A045754(n). The b=1..6 triangles are: A008275 (Stirling1 triangle), A039683, A051141, A051142, A051150, A051151.
+%K A051186 sign,easy,tabl
+%O A051186 1,2
+%A A051186 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

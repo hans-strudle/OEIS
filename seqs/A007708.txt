@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007708
+Showing 1-1 of 1
+
+%I A007708
+%S A007708 5,13,31,73,149,233,367,521,733,991,1249,1579,1949,2341,2791,3343,
+%T A007708 3881,4481,5147,5849,6619,7499,8387,9341,10321,11411,12517,13709,
+%U A007708 15013,16363,17881,19381,20873,22369,24007,25763,27611,29399,31357
+%N A007708 Prime(n)*...*a(n) is the least product of consecutive primes which is abundant.
+%C A007708 Differs from A007686 only for n=1. - _Michel Marcus_, Mar 10 2013
+%o A007708 (PARI) a(n) = {p = prime(n); sig = p+1; prd = p; while (sig <= 2*prd, p = nextprime(p+1); sig *= p+1; prd *= p;); return (p);} \\ _Michel Marcus_, Mar 10 2013
+%Y A007708 Cf. A005101, A007686, A007707, A007741.
+%K A007708 nonn
+%O A007708 1,1
+%A A007708 _Walter Nissen_
+%E A007708 More terms from Don Reble (djr(AT)nk.ca), Nov 10 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

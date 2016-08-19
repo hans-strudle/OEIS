@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023223
+Showing 1-1 of 1
+
+%I A023223
+%S A023223 3,5,11,23,47,53,71,101,107,131,167,173,197,251,257,293,311,317,353,
+%T A023223 383,431,461,467,563,587,593,683,701,773,797,821,827,863,887,911,953,
+%U A023223 977,983,1031,1091,1097,1103,1151,1181,1187,1193,1217,1223,1277,1301,1307,1373
+%N A023223 Numbers n such that n and 7n + 2 both prime.
+%e A023223 3 is in the sequence because 7 * 3 + 2 = 23, which is prime.
+%e A023223 5 is in the sequence because 7 * 5 + 2 = 37, which is prime.
+%e A023223 7 is not in the sequence because 7 * 7 + 2 = 51 = 3 * 17.
+%t A023223 Select[Prime[Range[250]], PrimeQ[7# + 2] &] (* _Alonso del Arte_, Apr 08 2015 *)
+%o A023223 (MAGMA) [n: n in [0..100000] | IsPrime(n) and IsPrime(7*n+2)] // _Vincenzo Librandi_, Nov 19 2010]
+%Y A023223 Cf. A045392.
+%K A023223 nonn
+%O A023223 1,1
+%A A023223 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

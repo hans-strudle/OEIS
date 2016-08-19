@@ -1,0 +1,63 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010052
+Showing 1-1 of 1
+
+%I A010052
+%S A010052 1,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
+%T A010052 0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+%U A010052 0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+%N A010052 Characteristic function of squares: 1 if n is a square else 0.
+%C A010052 Also parity of the divisor function A000005 if n >= 1. - _Omar E. Pol_, Jan 14 2012
+%C A010052 This sequence can be considered as k=1 analog of A025426 (k=2), A025427 (k=3), A025428 (k=4); see also A000161. - _M. F. Hasler_, Jan 25 2013
+%C A010052 Also, the decimal expansion of sum(n >= 0) 1/(10^n)^n. -  _Eric Desbiaux_, Mar 15 2009, rephrased and simplified by _M. F. Hasler_, Jan 26 2013
+%D A010052 J.-P. Allouche and J. Shallit, Automatic Sequences, Cambridge Univ. Press, 2003, pp. 3-4, also p. 166, Ex. 5.5.1.
+%D A010052 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 48, Problem 20.
+%D A010052 Michel Rigo, Formal Languages, Automata and Numeration Systems, 2 vols., Wiley, 2014. Mentions this sequence - see "List of Sequences" in Vol. 2.
+%D A010052 S. Wolfram, A New Kind of Science, Wolfram Media, 2002; p. 55.
+%H A010052 Charles R Greathouse IV, <a href="/A010052/b010052.txt">Table of n, a(n) for n = 0..10000</a>
+%H A010052 Robert Price, <a href="/A010052/a010052.txt">Comments on A010052 concerning Elementary Cellular Automata</a>, Jan 29 2016
+%H A010052 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%H A010052 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/JacobiThetaFunctions.html">Jacobi Theta Functions</a>
+%H A010052 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ElementaryCellularAutomaton.html">Elementary Cellular Automaton</a>
+%H A010052 S. Wolfram, <a href="http://wolframscience.com/">A New Kind of Science</a>
+%H A010052 <a href="/index/Ce#cell">Index entries for sequences related to cellular automata</a>
+%H A010052 <a href="/index/Ch#char_fns">Index entries for characteristic functions</a>
+%H A010052 <a href="https://oeis.org/wiki/Index_to_Elementary_Cellular_Automata">Index to Elementary Cellular Automata</a>
+%F A010052 a(n) = floor(sqrt(n)) - floor(sqrt(n-1)), for n > 0.
+%F A010052 a(n) = A000005(n) mod 2, n>0. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 19 2001
+%F A010052 G.f. A(x) satisfies 0 = f(A(x), A(x^2), A(x^4)) where f(u, v, w) = (u-w)^2 - (v-w)*(v+w-1) - _Michael Somos_, Jul 19 2004
+%F A010052 Dirichlet g.f.: zeta(2s). - _Franklin T. Adams-Watters_, Sep 11 2005
+%F A010052 G.f. (theta_3(0,x) + 1)/2, where theta_3 is a Jacobi theta function. - _Franklin T. Adams-Watters_, Jun 19 2006. See A000122 for theta_3.
+%F A010052 a(n) = f(n,0) with f(x,y) = if x>0 then f(x-2*y-1,y+1) else 0^(-x). - _Reinhard Zumkeller_, Sep 26 2008
+%F A010052 a(n) = sumdiv(n,d,(-1)^bigomega(d)), for n >= 1. - _Benoit Cloitre_, Oct 25 2009
+%F A010052 a(n) <= A093709(n). - _Reinhard Zumkeller_, Nov 14 2009
+%F A010052 a(A000290(n)) = 1; a(A000037(n)) = 0. - _Reinhard Zumkeller_, Jun 20 2011
+%F A010052 a(n) = 0 ^ A053186(n). - _Reinhard Zumkeller_, Feb 12 2012
+%F A010052 a(n) = A063524(A007913(n)), for n > 0. - _Reinhard Zumkeller_, Jul 09 2014
+%F A010052 a(n) = -(-1)^n * A258998(n) unless n = 0. 2 * a(n) = A000122(n) unless n = 0. - _Michael Somos_, Jun 16 2015
+%e A010052 G.f. = 1 + x + x^4 + x^9 + x^16 + x^25 + x^36 + x^49 + x^64 + x^81 + ...
+%p A010052 readlib(issqr): f := i->if issqr(i) then 1 else 0; fi; [ seq(f(i),i=0..100) ];
+%t A010052 lst = {}; Do[AppendTo[lst, 2*Sum[Floor[n/k] - Floor[(n - 1)/k], {k, Floor[Sqrt[n]]}] - DivisorSigma[0, n]], {n, 93}]; Prepend[lst, 1] (* _Eric Desbiaux_, Jan 29 2012 *)
+%t A010052 Table[If[IntegerQ[Sqrt[n]],1,0],{n,0,100}] (* _Harvey P. Dale_, Jul 19 2014 *)
+%t A010052 a[n_] := SeriesCoefficient[1/(1 - q)* QHypergeometricPFQ[{-q, -q}, {-(q^2)}, -q, -q], {q, 0, Abs@n}] (* _Mats Granvik_, Jan 01 2016 *)
+%t A010052 Range[0, 120] /. {n_ /; IntegerQ@ Sqrt@ n -> 1, n_ /; n != 1 -> 0} (* _Michael De Vlieger_, Jan 02 2016 *)
+%o A010052 (PARI) {a(n) = issquare(n)};
+%o A010052 (PARI) a(n)=if(n<1,1,sumdiv(n,d,(-1)^bigomega(d))) \\ _Benoit Cloitre_, Oct 25 2009
+%o A010052 (PARI) a(n) = if (n<1, 1, direuler( p=2, n, 1/ (1 - X^2 ))[n]); \\ _Michel Marcus_, Mar 08 2015
+%o A010052 (Haskell)
+%o A010052 a010052 n = fromEnum $ a000196 n ^ 2 == n
+%o A010052 -- _Reinhard Zumkeller_, Jan 26 2012, Feb 20 2011
+%o A010052 a010052_list = concat (iterate (\xs -> xs ++ [0,0]) [1])
+%o A010052 -- _Reinhard Zumkeller_, Apr 27 2012
+%Y A010052 Cf. A008836.
+%Y A010052 Column k=1 of A243148.
+%Y A010052 Cf. A005369.
+%Y A010052 Cf. A063524, A007913.
+%Y A010052 Cf. A000122, A258998.
+%K A010052 nonn,nice,easy,mult
+%O A010052 0,1
+%A A010052 _N. J. A. Sloane_
+%E A010052 More terms from _Franklin T. Adams-Watters_, Jun 19 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

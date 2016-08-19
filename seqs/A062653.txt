@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062653
+Showing 1-1 of 1
+
+%I A062653
+%S A062653 2,23,29,127,211,223,227,229,233,239,241,251,254,257,263,269,271,277,
+%T A062653 281,283,293,421,422,482,502,521,523,526,529,542,562,727,821,823,827,
+%U A062653 829,842,929,1021,1042,1123,1129,1201,1213,1217,1223,1229,1231,1237
+%N A062653 Every divisor (except 1) contains the digit 2.
+%e A062653 254 has divisors 1, 2, 127 and 254, all of which contain the digit 2
+%t A062653 fQ[n_, dgt_] := Union[ MemberQ[#, dgt] & /@ IntegerDigits@ Rest@ Divisors@ n][[1]]; Select[ Range[2, 1300], fQ[#, 2] &]  (* _Robert G. Wilson v_, Jun 11 2014 *)
+%K A062653 base,easy,nonn
+%O A062653 0,1
+%A A062653 _Erich Friedman_, Jul 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

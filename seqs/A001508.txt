@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001508
+Showing 1-1 of 1
+
+%I A001508 M4918 N2111
+%S A001508 0,0,0,0,13,252,3740,51300,685419,9095856,120872850,1614234960,
+%T A001508 21697730835,293695935764,4003423965684,54944523689692,
+%U A001508 758990230992175,10548884795729280,147458773053913268,2072369440050644208,29271357456284966994
+%N A001508 Number of simple quadrangulations.
+%D A001508 R. C. Mullin and P. J. Schellenberg, The enumeration of c-nets via triangulations, J. Combin. Theory, 4 (1968), 259-276.
+%D A001508 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001508 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A001508 A diagonal of A210252.
+%K A001508 nonn
+%O A001508 1,5
+%A A001508 _N. J. A. Sloane_.
+%E A001508 Corrected and extended by _Sean A. Irvine_, Sep 29 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055946
+Showing 1-1 of 1
+
+%I A055946
+%S A055946 0,2,4,4,8,12,8,12,16,10,20,30,16,26,36,22,32,42,20,30,40,26,36,46,32,
+%T A055946 42,52,28,56,84,40,68,96,52,80,108,40,68,96,52,80,108,64,92,120,52,80,
+%U A055946 108,64,92,120,76,104,132,56,84,112,68,96,124,80,108,136,68,96,124,80
+%N A055946 n + reversal of base 3 digits of n (written in base 10).
+%C A055946 If n has an even number of digits in base 3 then a(n) is a multiple of 4
+%F A055946 a(n) =n+A030102(n)
+%Y A055946 Cf. A056964.
+%K A055946 base,nonn
+%O A055946 0,2
+%A A055946 _Henry Bottomley_, Jul 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

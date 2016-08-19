@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005227
+Showing 1-1 of 1
+
+%I A005227 M1029
+%S A005227 0,1,1,2,4,6,19,20,111,116,567,641,4718
+%N A005227 Number of atomic species of degree n which are not nontrivial substitutions.
+%D A005227 Labelle, Jacques. "Quelques especes sur les ensembles de petite cardinalité."Ann. Sc. Math. Québec 9.1 (1985): 31-58.
+%D A005227 J. Labelle and Y. N. Yeh, The relation between Burnside rings and combinatorial species, J. Combin. Theory, A 50 (1989), 269-284.
+%D A005227 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A005227 Define b(n), c(n), d(n): b(1)=d(1)=0. b(k)=a(k), k>1. c(k)=A000638(k), k>0, d(k)=A005226(k), k>1. d is Dirichlet convolution of b and c. - _Christian G. Bower_, Feb 23 2006
+%Y A005227 Cf. A005226.
+%K A005227 nonn,hard,more
+%O A005227 0,4
+%A A005227 _N. J. A. Sloane_.
+%E A005227 a(8), a(11) corrected and a(12) added by _Christian G. Bower_, Feb 23 2006 based on Goetz Pfeiffer's edit to A000638.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

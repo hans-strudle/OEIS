@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009008
+Showing 1-1 of 1
+
+%I A009008
+%S A009008 1,1,1,23,415,849,421089,16027897,602344127,137830187103,
+%T A009008 6375572516543,1282077224074761,294398207479497377,
+%U A009008 6767832711454751473,10535904130516747834591,2468712006908963695579879,172926818125145929773139073
+%V A009008 1,1,1,-23,-415,849,421089,16027897,-602344127,-137830187103,
+%W A009008 -6375572516543,1282077224074761,294398207479497377,
+%X A009008 6767832711454751473,-10535904130516747834591,-2468712006908963695579879,172926818125145929773139073
+%N A009008 Expansion of 1/cos(sin(x)).
+%H A009008 Vincenzo Librandi and Alois P. Heinz, <a href="/A009008/b009008.txt">Table of n, a(n) for n = 0..100</a> (first 51 terms from Vincenzo Librandi)
+%t A009008 1/Cos[ Sin[ x ] ] (* Even Part *)
+%t A009008 f[x_] := Sec@Sin[x]; Table[Derivative[2*n][f][0], {n, 0, 16}] (* _Arkadiusz Wesolowski_, Aug 18 2012 *)
+%K A009008 sign
+%O A009008 0,4
+%A A009008 _R. H. Hardin_, _Simon Plouffe_
+%E A009008 a(16) from _Arkadiusz Wesolowski_, Aug 18 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

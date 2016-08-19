@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020963
+Showing 1-1 of 1
+
+%I A020963
+%S A020963 2,6,17,45,112,276,671,1627,3934,9506,22957,55433,133836,323120,
+%T A020963 780091,1883319,4546746,10976830,26500425,63977701,154455848,
+%U A020963 372889420,900234711,2173358867,5246952470,12667263834
+%N A020963 Sum of Floor[ 2*(1+sqrt(2))^(n-k) ] for k from 1 to infinity.
+%D A020963 C. Kimberling, Problem 10520 in Amer. Math. Mon. 103 (1996) p. 347.
+%t A020963 Table[t=0; k=0; While[k++; s=Floor[2*(1+Sqrt[2])^(n-k)]; s>0, t=t+s]; t, {n, 26}]
+%K A020963 nonn
+%O A020963 1,1
+%A A020963 _Clark Kimberling_
+%E A020963 Revised Feb 03 1999.  Revised Nov 30 2010.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

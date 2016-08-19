@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049621
+Showing 1-1 of 1
+
+%I A049621
+%S A049621 0,1,4,8,12,18,24,30,38,48,56,66,76,86,102,118,128,142,156,170,192,
+%T A049621 214,228,246,268,288,312,338,356,380,404,422,452,484,514,550,576
+%N A049621 a(n)=T(n,n+1), array T as in A049615.
+%K A049621 nonn
+%O A049621 0,3
+%A A049621 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

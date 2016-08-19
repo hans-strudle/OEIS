@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062481
+Showing 1-1 of 1
+
+%I A062481
+%S A062481 1,8,243,16384,48828125,13060694016,232630513987207,
+%T A062481 144115188075855872,8862938119652501095929,
+%U A062481 100000000000000000000000000000,191943424957750480504146841291811,8505622499821102144576131684114829934592,4695452425098908797088971409337422035076128813
+%N A062481 n^prime(n).
+%H A062481 Harry J. Smith, <a href="/A062481/b062481.txt">Table of n, a(n) for n=1..50</a>
+%t A062481 Table[n^Prime[n],{n,20}] (* _Harvey P. Dale_, Jun 12 2014 *)
+%o A062481 (PARI) { for (n=1, 50, write("b062481.txt", n, " ", n^prime(n)) ) } [From _Harry J. Smith_, Aug 08 2009]
+%Y A062481 Cf. A000040, A000312, A051674.
+%K A062481 easy,nonn
+%O A062481 1,2
+%A A062481 _Labos Elemer_, Jul 09 2001
+%E A062481 More terms from _Harvey P. Dale_, Jun 12 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040472
+Showing 1-1 of 1
+
+%I A040472
+%S A040472 22,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,
+%T A040472 4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,
+%U A040472 44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44,4,44
+%N A040472 Continued fraction for sqrt(495).
+%H A040472 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040472 a(n)=24+20*(-1)^n-22*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 13 2009]
+%p A040472 with(numtheory): Digits := 300: convert(evalf(sqrt(495)),confrac);
+%K A040472 nonn,cofr,easy,less
+%O A040472 0,1
+%A A040472 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

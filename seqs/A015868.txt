@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015868
+Showing 1-1 of 1
+
+%I A015868
+%S A015868 1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
+%T A015868 0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+%U A015868 0,0,0,0,0,0,0,0,0,0,1,0,0
+%N A015868 Inverse of 1859th cyclotomic polynomial.
+%F A015868 a(n)=-1*((n^12 mod 13)-1) - _Paolo P. Lava_, Oct 02 2006
+%p A015868 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n, x), x,80); c(1859);
+%K A015868 sign
+%O A015868 0,1
+%A A015868 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

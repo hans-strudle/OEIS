@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014297
+Showing 1-1 of 1
+
+%I A014297
+%S A014297 2,12,96,960,11520,161280,2580480,46448640,928972800,20437401600,
+%T A014297 490497638400,12752938598400,357082280755200,10712468422656000,
+%U A014297 342798989524992000,11655165643849728000,419585963178590208000
+%N A014297 n! * C(n+2, 2) * 2^(n+1).
+%C A014297 Partition the set {1,2,...,n+2} into an even number of subsets. Arrange (linearly order) the elements within each subset and then arrange the subsets. [_Geoffrey Critzer_, Mar 03 2010]
+%H A014297 Vincenzo Librandi, <a href="/A014297/b014297.txt">Table of n, a(n) for n = 0..200</a>
+%H A014297 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=506">Encyclopedia of Combinatorial Structures 506</a>
+%H A014297 Alexsandar Petojevic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.1.7
+%F A014297 Sum((n+2)!*C(n,k), k=0..n).
+%F A014297 Prepend the sequence with 1,0, then e.g.f. is (1-x)^2/(1-2x). [_Geoffrey Critzer_, Mar 03 2010]
+%F A014297 E.g.f. 2/(1-2x)^3. - R. J. Mathar, Nov 27 2011
+%p A014297 seq(count(Permutation(n+1))*count(Composition(n)),n=1..17); - _Zerinvary Lajos_, Oct 16 2006
+%t A014297 CoefficientList[Series[(1 - x)^2/(1 - 2 x), {x, 0, 20}], x]* Table[n!, {n, 0, 20}] (* _Geoffrey Critzer_, Mar 03 2010 *)
+%t A014297 Part[#, Range[1, Length[#], 1]]&@(Array[#!&, Length[#], 0]*#)&@CoefficientList[Series[2/(1 - 2*x)^3, {x, 0, 20}], x]// ExpandAll (* _Vincenzo Librandi_, Jan 04 2013 - after _Olivier Gérard_ in A213068 *)
+%Y A014297 Essentially the same as A052564.
+%Y A014297 Cf. A088312.
+%K A014297 nonn
+%O A014297 0,1
+%A A014297 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

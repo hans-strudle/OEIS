@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042048
+Showing 1-1 of 1
+
+%I A042048
+%S A042048 23,47,117,398,515,2973,3488,37853,41341,244558,285899,1102255,
+%T A042048 2490409,6083073,282311767,570706607,1423724981,4841881550,6265606531,
+%U A042048 36169914205,42435520736,460525121565
+%N A042048 Numerators of continued fraction convergents to sqrt(548).
+%H A042048 Vincenzo Librandi, <a href="/A042048/b042048.txt">Table of n, a(n) for n = 0..200</a>
+%t A042048 Numerator[Convergents[Sqrt[548], 30]] (* _Vincenzo Librandi_, Nov 14 2013 *)
+%Y A042048 Cf. A042049.
+%K A042048 nonn,cofr,frac,easy,less
+%O A042048 0,1
+%A A042048 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

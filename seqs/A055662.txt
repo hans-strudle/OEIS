@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055662
+Showing 1-1 of 1
+
+%I A055662
+%S A055662 0,1,21,22,122,120,110,111,2111,2112,2102,2100,2200,2201,2221,2222,
+%T A055662 12222,12220,12210,12211,12011,12012,12002,12000,11000,11001,11021,
+%U A055662 11022,11122,11120,11110,11111,211111,211112,211102,211100,211200
+%N A055662 Successive positions in Tower of Hanoi (with three pegs {0,1,2}) where xyz means smallest disk is on peg z, second smallest is on peg y, third smallest on peg x, etc. and leading zeros indicate largest disks are all on peg 0.
+%C A055662 Optimal for moving an even number of disks from peg 0 to peg 2 or an odd number from peg 0 to peg 1
+%F A055662 a(n) =sum( 10^j * ((floor[(n/2^j+1)/2]*(-1)^j mod 3) ) with j=0 to floor[log2(n)]
+%Y A055662 Cf. A001511, A055661.
+%K A055662 nonn
+%O A055662 0,3
+%A A055662 _Henry Bottomley_, Jun 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

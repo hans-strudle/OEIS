@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061406
+Showing 1-1 of 1
+
+%I A061406
+%S A061406 645120,20643840,1486356480,178362777600,31391848857600,
+%T A061406 7534043725824000,2350621642457088000,921443683843178496000,
+%U A061406 442292968244725678080000,254760749708961990574080000
+%N A061406 Denominators in the series for Bessel function J7(x).
+%H A061406 T. D. Noe, <a href="/A061406/b061406.txt">Table of n, a(n) for n=0..50</a>
+%H A061406 <a href="/index/Be#Bessel">Index entries for sequences related to Bessel functions or polynomials</a>
+%Y A061406 J1: A002474, J2: A002506, J3: A014401 for formula etc.
+%K A061406 nonn,easy
+%O A061406 0,1
+%A A061406 _Frank Ellermann_, Jun 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

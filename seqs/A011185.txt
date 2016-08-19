@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011185
+Showing 1-1 of 1
+
+%I A011185
+%S A011185 1,2,3,5,8,13,21,30,39,53,74,95,128,152,182,212,258,316,374,413,476,
+%T A011185 531,546,608,717,798,862,965,1060,1161,1307,1386,1435,1556,1722,1834,
+%U A011185 1934,2058,2261,2497,2699,2874,3061,3197,3332,3629,3712,3868,4140,4447,4640
+%N A011185 A B_2 sequence: a(n) = least value such that sequence increases and pairwise sums of distinct elements are all distinct.
+%C A011185 a(n) = least positive integer > a(n-1) and not a(i)+a(j)-a(k) for distinct i,j,k < n.
+%H A011185 Klaus Brockhaus and Dan Hoey, <a href="/A011185/b011185.txt">Table of n, a(n) for n = 1..2839</a>
+%H A011185 <a href="/index/Br#B_2">Index entries for B_2 sequences.</a>
+%Y A011185 a(n) = A010672(n-1)+1.
+%Y A011185 Cf. A033627, A003278, A026471, A075122, A075123, A133097.
+%K A011185 nonn
+%O A011185 1,2
+%A A011185 _Dan Hoey_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027075
+Showing 1-1 of 1
+
+%I A027075
+%S A027075 1,4,17,58,199,682,2301,7654,25145,81740,263407,842720,2679935,
+%T A027075 8479378,26713555,83847748,262335577,818473148,2547289679,7910433568,
+%U A027075 24517303535,75854736178,234317624167,722776320072,2226565995913
+%N A027075 Sum{(k+1)*T(n,k)}, 0<=k<=2n, T given by A027052.
+%K A027075 nonn
+%O A027075 0,2
+%A A027075 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

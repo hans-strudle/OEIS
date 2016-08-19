@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028643
+Showing 1-1 of 1
+
+%I A028643
+%S A028643 1,6,12,8,6,36,72,60,60,126,168,180,248,312,240,352,438,540,372,606,
+%T A028643 396,760,600,900,504,1146,792,1160,1140,1560,1152,1680,1548,1840,1680,
+%U A028643 2160,1710,2448,1668,2232,2280
+%N A028643 Expansion of (theta_3(z)*theta_3(19z)+theta_2(z)*theta_2(19z))^3.
+%K A028643 nonn
+%O A028643 0,2
+%A A028643 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

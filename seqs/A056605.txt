@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056605
+Showing 1-1 of 1
+
+%I A056605
+%S A056605 0,0,0,2,1,5,4,9,10,25,46,121,240,619,1353,3286,7773,19046,45766
+%N A056605 Number of stable n-celled patterns ("still lifes") in Conway's game of Life (another version).
+%H A056605 Mark D. Niemiec, <a href="http://home.interserv.com/~mniemiec/objcount.htm">Life Object Counts</a>
+%H A056605 H. Koenig, <a href="http://www.pentadecathlon.com/LifeInfo/Objects/Class1/Stable.html">Stable Objects</a>
+%e A056605 a(4)=2 because the block and the tub are the only 4-cell still lifes.
+%Y A056605 See A019473 for the official version of this sequence.
+%K A056605 nonn
+%O A056605 1,4
+%A A056605 _N. J. A. Sloane_, Aug 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

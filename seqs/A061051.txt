@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061051
+Showing 1-1 of 1
+
+%I A061051
+%S A061051 0,225,40401,2042041,317231721,16198161984,3921203921209
+%N A061051 Smallest square of the form [n digits][same n digits][further digits].
+%e A061051 40401 is the first square to have the first two digits the same as the next two digits
+%K A061051 base,nonn
+%O A061051 0,2
+%A A061051 _Erich Friedman_, May 26 2001
+%E A061051 One more term from _Vladeta Jovovic_, Jun 02 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

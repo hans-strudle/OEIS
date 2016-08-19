@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046424
+Showing 1-1 of 1
+
+%I A046424
+%S A046424 10,15,16,26,27,95,118,119,121,132,145,202,204,217,286,295,302,308,
+%T A046424 354,361,370,377,400,437,451,453,455,471,474,483,506,518,526,528,530,
+%U A046424 545,567,600,610,616,635,649,650,654,655,672,699,700,718,720,722,735,745
+%N A046424 4 steps needed to reach a prime under prime factor concatenation procedure.
+%H A046424 P. De Geest, <a href="http://www.worldofnumbers.com/topic1.htm">Home Primes</a>
+%e A046424 95 = 5*19 -> 519 = 3*173 -> 3173 = 19*167 -> 19167 = 3*6389 and 36389 is prime.
+%Y A046424 Cf. A037271, A046411.
+%K A046424 nonn,base
+%O A046424 1,1
+%A A046424 _Patrick De Geest_, Jun 15 1998.
+%E A046424 Edited by _Charles R Greathouse IV_, Apr 28 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

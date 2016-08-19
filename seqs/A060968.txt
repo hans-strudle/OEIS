@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060968
+Showing 1-1 of 1
+
+%I A060968
+%S A060968 1,2,4,8,4,8,8,16,12,8,12,32,12,16,16,32,16,24,20,32,32,24,24,64,20,
+%T A060968 24,36,64,28,32,32,64,48,32,32,96,36,40,48,64,40,64,44,96,48,48,48,
+%U A060968 128,56,40,64,96,52,72,48,128,80,56,60,128,60,64,96,128,48,96,68,128,96,64,72
+%N A060968 Number of solutions to x^2 + y^2 == 1 mod n.
+%H A060968 Charles R Greathouse IV, <a href="/A060968/b060968.txt">Table of n, a(n) for n = 1..10000</a>
+%H A060968 L. Tóth, <a href="http://arxiv.org/abs/1404.4214">Counting solutions of quadratic congruences in several variables revisited</a>, arXiv preprint arXiv:1404.4214, 2014
+%F A060968 Multiplicative, with a(2^e) = 2 if e = 1 or 2^(e+1) if e > 1, a(p^e) = (p-1)p^(e-1) if p == 1 (mod 4), a(p^e) = (p+1)p^(e-1) if p == 3 (mod 4). - _David W. Wilson_, Jun 19 2001
+%F A060968 a(n) = n * product{ 1 - 1/p, p is prime, p | n and p = 1 mod 4 } * product{ 1 + 1/p, p is prime, p | n and p = 3 mod 4 } * {2, if 4 | n } - Ola Veshta (olaveshta(AT)my-deja.com), May 18 2001
+%e A060968 a(3) = 4 because the 4 solutions are: (0,1),(0,2),(1,0),(2,0)
+%t A060968 fa=FactorInteger; phi[p_,s_] := Which[Mod[p,4] == 1, p^(s-1)*(p-1), Mod[p,4]==3, p^(s-1)*(p+1), s==1, 2, True, 2^(s+1)]; phi[1]=1; phi[n_] := Product[phi[fa[n][[i,1]], fa[n][[i,2]]], {i, Length[fa[n]]}]; Table[phi[n], {n,1,100}]
+%o A060968 (PARI) a(n)=my(f=factor(n)[,1]);n*prod(i=if(n%2,1,2),#f,if(f[i]%4==1, 1-1/f[i], 1+1/f[i]))*if(n%4,1,2) \\ _Charles R Greathouse IV_, Apr 16 2012
+%o A060968 (Haskell)
+%o A060968 a060968 1 = 1
+%o A060968 a060968 n = (if p == 2 then (if e == 1 then 2 else 2^(e+1)) else 1) *
+%o A060968    (product $ zipWith (*) (map (\q -> q - 2 + mod q 4) ps'')
+%o A060968                           (zipWith (^) ps'' (map (subtract 1) es'')))
+%o A060968    where (ps'', es'') = if p == 2 then (ps, es) else (ps', es')
+%o A060968          ps'@(p:ps) = a027748_row n; es'@(e:es) = a124010_row n
+%o A060968 -- _Reinhard Zumkeller_, Aug 05 2014
+%Y A060968 Cf. A060594, A087784.
+%Y A060968  Cf. A027748, A124010.
+%K A060968 nonn,easy,mult
+%O A060968 1,2
+%A A060968 Ahmed Fares (ahmedfares(AT)my-deja.com), May 09 2001
+%E A060968 More terms from _David W. Wilson_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

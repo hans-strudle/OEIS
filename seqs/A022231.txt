@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022231
+Showing 1-1 of 1
+
+%I A022231
+%S A022231 1,57,2850,140050,6865251,336416907,16484565700,807744680100,
+%T A022231 39579496050501,1939395353553757,95030372653688550,
+%U A022231 4656488262337620150,228167924870691555751,11180228318776923410607,547831187620860507371400
+%N A022231 Gaussian binomial coefficients [ n,2 ] for q = 7.
+%H A022231 Todd Silvestri, <a href="/A022231/b022231.txt">Table of n, a(n) for n = 0..591</a>
+%F A022231 G.f.: 1/[(1-x)(1-7x)(1-49x)].
+%F A022231 a(n) = (7^(n+1)-1)*(7^(n+2)-1)/288. - _Todd Silvestri_, Dec 16 2014
+%F A022231 E.g.f.: (343*e^(49*x)-56*e^(7*x)+e^x)/288. a(n+3) = 57*a(n+2)-399*a(n+1)+343*a(n). - _Robert Israel_, Dec 16 2014
+%p A022231 seq((7^(n+1)-1)*(7^(n+2)-1)/288, n=0..30); # _Robert Israel_, Dec 16 2014
+%t A022231 a[n_Integer/;n>=0]:=(7^(n+1)-1)*(7^(n+2)-1)/288 (* _Todd Silvestri_, Dec 16 2014 *)
+%o A022231 (Sage) [gaussian_binomial(n,2,7) for n in xrange(2,17)] # _Zerinvary Lajos_, May 28 2009
+%o A022231 (PARI) Vec(1/((1-x)*(1-7*x)*(1-49*x)) + O(x^30)) \\ _Michel Marcus_, Dec 16 2014
+%K A022231 nonn
+%O A022231 0,2
+%A A022231 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035230
+Showing 1-1 of 1
+
+%I A035230
+%S A035230 1,0,196884,42987520,2592899910,80983425024,1666013203000,
+%T A035230 25512139800576,312598958503545,3211927093248000,
+%U A035230 28587962068059780,225673933095936000,1608331026494712234,10491764636229304320,63336131453375852760,356969583451747352576
+%V A035230 1,0,-196884,-42987520,-2592899910,-80983425024,-1666013203000,
+%W A035230 -25512139800576,-312598958503545,-3211927093248000,
+%X A035230 -28587962068059780,-225673933095936000,-1608331026494712234,-10491764636229304320,-63336131453375852760,-356969583451747352576
+%N A035230 Fourier coefficients of T_0.
+%C A035230 In Siegel's notation, Delta has been normalized already.
+%C A035230 T_0 is unique weight-2 normalized meromorphic modular form for SL(2,Z) with all poles at infinity.
+%D A035230 C. L. Siegel, Advanced Analytic Number Theory, Tata Institute of Fundamental Research, Bombay, 1980, pp. 249-268.
+%F A035230 G.f.: G_14/Delta. (in Siegel's notation)
+%F A035230 Expansion of (j(q)^4 (j(q) - 1728)^3 Delta(q))^(1/6) in powers of q = exp(2 Pi I t). - _Michael Somos_, Jul 29 2014
+%e A035230 T_0 = 1/q - 196884*q - 42987520*q^2 - 2592899910*q^3 - 80983425024*q^4 + ...
+%o A035230 (PARI) {a(n) = local(A); if( n<-1, 0, A = x^3 * O(x^n); polcoeff( (x * eta(x + A)^24 * ellj(x + A)^4 * (ellj(x + A) - 1728)^3)^(1/6), n))}; /* _Michael Somos_, Jul 29 2014 */
+%K A035230 sign,easy
+%O A035230 -1,3
+%A A035230 Barry Brent (barryb(AT)primenet.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

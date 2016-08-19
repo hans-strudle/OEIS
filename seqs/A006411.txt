@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006411
+Showing 1-1 of 1
+
+%I A006411 M3073
+%S A006411 3,20,75,210,490,1008,1890,3300,5445,8580,13013,19110,27300,38080,
+%T A006411 52020,69768,92055,119700,153615,194810,244398,303600,373750,456300,
+%U A006411 552825,665028,794745,943950,1114760,1309440
+%N A006411 Nonseparable planar tree-rooted maps.
+%D A006411 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006411 Vincenzo Librandi, <a href="/A006411/b006411.txt">Table of n, a(n) for n = 1..1000</a>
+%H A006411 T. R. S. Walsh, A. B. Lehman, <a href="http://dx.doi.org/10.1016/0095-8956(75)90050-7">Counting rooted maps by genus. III: Nonseparable maps</a>, J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%H A006411 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A006411 G.f.: x*(3+2*x)/(1-x)^6.
+%F A006411 a(n) = n*(n+1)*(n+2)^2*(n+3)/24. - _Bruno Berselli_, May 17 2011]
+%F A006411 a(n) = A027777(n)/2. - _Zerinvary Lajos_, Mar 23 2007
+%F A006411 a(n) = C(n+2,n)*C(n+2,n-1) - C(n+2,n+1)*C(n+2,n-2). - _J. M. Bergot_, Apr 07 2013
+%F A006411 a(0)=0, a(1)=3, a(2)=20, a(3)=75, a(4)=210, a(5)=490, a(n)=6*a(n-1)- 15*a(n-2)+ 20*a(n-3)-15*a(n-4)+6*a(n-5)-a(n-6). - _Harvey P. Dale_, Dec 24 2013
+%t A006411 CoefficientList[Series[x (3+2x)/(1-x)^6,{x,0,40}],x] (* or *) LinearRecurrence[ {6,-15,20,-15,6,-1},{0,3,20,75,210,490},40] (* _Harvey P. Dale_, Dec 24 2013 *)
+%o A006411 (MAGMA) [n*(n+1)*(n+2)^2*(n+3)/24: n in [1..50]]; // _Vincenzo Librandi_, May 19 2011
+%Y A006411 Cf. A027777.
+%K A006411 nonn,easy,nice
+%O A006411 1,1
+%A A006411 _N. J. A. Sloane_
+%E A006411 G.f. adapted to the offset by _Bruno Berselli_, May 17 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

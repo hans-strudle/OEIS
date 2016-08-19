@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017211
+Showing 1-1 of 1
+
+%I A017211
+%S A017211 64,2197,10648,29791,64000,117649,195112,300763,438976,614125,830584,
+%T A017211 1092727,1404928,1771561,2197000,2685619,3241792,3869893,4574296,
+%U A017211 5359375,6229504,7189057,8242408
+%N A017211 (9*n+4)^3.
+%H A017211 Vincenzo Librandi, <a href="/A017211/b017211.txt">Table of n, a(n) for n = 0..10000</a>
+%F A017211 a(n) = A017209(n)^3 = A000578(A017209(n)). - _Wesley Ivan Hurt_, Jan 22 2014
+%p A017211 A017211:=n->(9*n+4)^3; seq(A017211(n), n=0..35); # _Wesley Ivan Hurt_, Jan 22 2014
+%t A017211 Table[(9n+4)^3, {n, 0, 35}] (* _Wesley Ivan Hurt_, Jan 22 2014 *)
+%o A017211 (MAGMA) [(9*n+4)^3: n in [0..35]]; // Vincenzo Librandi, Jul 25 2011
+%Y A017211 Cf. A000578, A017209.
+%K A017211 nonn,easy
+%O A017211 0,1
+%A A017211 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047084
+Showing 1-1 of 1
+
+%I A047084
+%S A047084 1,1,2,2,4,6,9,14,20,31,44,67,96,144,208,309,449,663,967,1423,2080,
+%T A047084 3055,4471,6560,9607,14088,20639,30257,44335,64986,95232,139580,
+%U A047084 204554,299800,439367,643936,943722,1383105,2027026,2970765,4353854
+%N A047084 Sum{T(i,n-i): i=0,1,...,n}, array T as in A047080.
+%H A047084 Vincenzo Librandi, <a href="/A047084/b047084.txt">Table of n, a(n) for n = 0..1000</a>
+%F A047084 G.f.: (x^7+x^6+x^5-x^4-x^3+x+1)/((1-x)*(1+x)^2*(1-x-x^3)).
+%t A047084 CoefficientList[Series[(x^7 + x^6 + x^5 - x^4 - x^3 + x + 1)/((1 - x) (1 + x)^2 (1 - x - x^3)), {x, 0, 50}], x] (* _Vincenzo Librandi_, May 27 2014 *)
+%K A047084 nonn,easy
+%O A047084 0,3
+%A A047084 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

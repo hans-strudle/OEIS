@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000819
+Showing 1-1 of 1
+
+%I A000819
+%S A000819 1,2,40,1952,177280,25866752,5535262720,1633165156352,635421069967360,
+%T A000819 315212388819402752,194181169538675507200,145435130631317935357952,
+%U A000819 130145345400688287667978240,137139396592145493713802493952
+%N A000819 Expansion of cos^2 x /cos 2x.
+%H A000819 R. J. Mathar, <a href="/A000819/b000819.txt">Table of n, a(n) for n = 1..200</a>
+%F A000819 E.g.f.: cos(x)^2/cos(2x)=1/Q(0)+1/2;   Q(k)=1+1/(1-2*(x^2)/(2*(x^2)-(k+1)*(2k+1)/Q(k+1)));  (continued fraction). - _Sergei N. Gladkovskii_, Nov 18 2011
+%t A000819 With[{nn=30},Take[CoefficientList[Series[Cos[x]^2/Cos[2x],{x,0,nn}],x] Range[ 0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Jul 06 2014 *)
+%Y A000819 Essentially the same as A000816.
+%Y A000819 Second column of array A103905.
+%K A000819 nonn
+%O A000819 0,2
+%A A000819 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

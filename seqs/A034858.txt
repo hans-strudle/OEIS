@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034858
+Showing 1-1 of 1
+
+%I A034858
+%S A034858 7,38,93,180,308,487,728,1043,1445,1948,2567,3318,4218,5285,6538,7997,
+%T A034858 9683,11618,13825,16328,19152,22323,25868,29815,34193,39032,44363,
+%U A034858 50218,56630,63633,71262,79553
+%N A034858 C(n+3,4)+3*C(n+1,3)+5*C(n-1,2)+7*n-15.
+%D A034858 J. Riordan, Enumeration of trees by height and diameter, IBM J. Res. Dev. 4 (1960), 473-478.
+%H A034858 Harvey P. Dale, <a href="/A034858/b034858.txt">Table of n, a(n) for n = 2..1000</a>
+%t A034858 Table[Binomial[n+3,4]+3Binomial[n+1,3]+5Binomial[n-1,2]+7n-15,{n,2,40}] (* _Harvey P. Dale_, Feb 04 2016 *)
+%K A034858 nonn
+%O A034858 2,1
+%A A034858 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

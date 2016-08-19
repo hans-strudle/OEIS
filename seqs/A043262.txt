@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043262
+Showing 1-1 of 1
+
+%I A043262
+%S A043262 0,1,2,2,4,2,3,4,4,5,6,2,4,6,4,6,8,2,3,4,4,5,6,6,7,8,4,5,6,6,7,8,8,9,
+%T A043262 10,2,4,6,4,6,8,6,8,10,4,6,8,6,8,10,8,10,12,2,3,4,4,5,6,6,7,8,4,5,6,6,
+%U A043262 7,8,8,9,10,6,7,8,8,9,10,10,11,12,4,5,6,6,7,8
+%N A043262 Sum of digits of n-th base 3 palindrome.
+%Y A043262 Cf. A014190 (base 3 palindromes)
+%K A043262 nonn,base
+%O A043262 1,3
+%A A043262 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

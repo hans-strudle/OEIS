@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031129
+Showing 1-1 of 1
+
+%I A031129
+%S A031129 1042,1751,2875,4570,7127,10859,16305,24050,35039,50354,71608,100696,
+%T A031129 140348,193783,265504,360888
+%N A031129 Number of proper factorizations of p1^n*p2^6, where p1 and p2 are distinct primes.
+%Y A031129 Cf. A028422.
+%K A031129 nonn
+%O A031129 6,1
+%A A031129 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

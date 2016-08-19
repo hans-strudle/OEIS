@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000293
+Showing 1-1 of 1
+
+%I A000293 M3392 N1371
+%S A000293 1,1,4,10,26,59,140,307,684,1464,3122,6500,13426,27248,54804,108802,
+%T A000293 214071,416849,805124,1541637,2930329,5528733,10362312,19295226,
+%U A000293 35713454,65715094,120256653,218893580,396418699,714399381,1281403841,2287986987,4067428375,7200210523,12693890803,22290727268,38993410516,67959010130,118016656268,204233654229,352245710866,605538866862,1037668522922,1772700955975,3019333854177,5127694484375,8683676638832,14665233966068,24700752691832,41495176877972,69531305679518
+%N A000293 a(n) = number of solid (i.e., three-dimensional) partitions of n.
+%C A000293 An ordinary partition is a row of numbers in nondecreasing order whose sum is n. Here the numbers are in a three-dimensional pile, nondecreasing in the x-, y- and z-directions.
+%C A000293 Finding a g.f. for this sequence is an unsolved problem. At first it was thought that it was given by A000294.
+%C A000293 Equals A000041 convolved with A002836: [1, 0, 2, 5, 12, 24, 56, 113, ...] and row sums of the convolution triangle A161564. - _Gary W. Adamson_, Jun 13 2009
+%D A000293 A. O. L. Atkin, P. Bratley, I. G. McDonald and J. K. S. McKay, Some computations for m-dimensional partitions, Proc. Camb. Phil. Soc., 63 (1967), 1097-1100.
+%D A000293 P. Bratley and J. K. S. McKay, Algorithm 313: Multi-dimensional partition generator, Comm. ACM, 10 (Issue 10, 1967), p. 666.
+%D A000293 D. E. Knuth, A note on solid partitions, Math. Comp., 24 (1970), 955-961.
+%D A000293 P. A. MacMahon, Memoir on the theory of partitions of numbers - Part VI, Phil. Trans. Roal Soc., 211 (1912), 345-373.
+%D A000293 P. A. MacMahon, Combinatory Analysis. Cambridge Univ. Press, London and New York, Vol. 1, 1915 and Vol. 2, 1916; see vol. 2, p 332.
+%D A000293 S. P. Naveen, On The Asymptotics of Some Counting Problems in Physics, Thesis, Bachelor of Technology, DEPARTMENT OF PHYSICS, INDIAN INSTITUTE OF TECHNOLOGY, MADRAS, May 2011; http://www.physics.iitm.ac.in/~suresh/theses/NaveenThesis.pdf
+%D A000293 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000293 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000293 Suresh Govindarajan, <a href="/A000293/b000293.txt">Table of n, a(n) for n = 0..72</a>
+%H A000293 A. O. L. Atkin, P. Bratley, I. G. McDonald and J. K. S. McKay, <a href="/A000219/a000219.pdf">Some computations for m-dimensional partitions</a>, Proc. Camb. Phil. Soc., 63 (1967), 1097-1100. [Annotated scanned copy]
+%H A000293 Srivatsan Balakrishnan, Suresh Govindarajan and Naveen S. Prabhakar, <a href="http://arxiv.org/abs/1105.6231">On the asymptotics of higher-dimensional partitions</a>, arXiv:1105.6231.
+%H A000293 Nicolas Destainville and Suresh Govindarajan, <a href="http://arxiv.org/abs/1406.5605">Estimating the asymptotics of solid partitions</a>, J. Stat. Phys. 158 (2015) 950-967; arXiv:1406.5605.
+%H A000293 Suresh Govindarajan, <a href="http://boltzmann.wikidot.com/solid-partitions">Solid Partitions Project </a> Dec 14, 2010
+%H A000293 P. A. MacMahon, <a href="http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABU9009">Combinatory analysis</a>.
+%H A000293 Ville Mustonen and R. Rajesh, <a href="http://arXiv.org/abs/cond-mat/0303607">Numerical Estimation of the Asymptotic Behaviour of Solid Partitions of an Integer</a>, J. Phys. A 36 (2003), no. 24, 6651-6659.
+%H A000293 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SolidPartition.html">Solid Partition</a>
+%e A000293 Examples for n=2 and n=3.
+%e A000293 a(2) = 4: 2; 11 where the first 1 is at the origin and the second 1 is in the x, y or z direction.
+%e A000293 a(3) = 10: 3; 21 where the 2 is at the origin and the 1 is on the x, y or z axis; 111 (a row of 3 ones on the x, y or z axes); and three 1's with one 1 at the origin and the other two 1's on two of the three axes.
+%Y A000293 Cf. A000041, A000219, A000294, A000334, A000390, A002835, A002836, A005980, A037452, A080207, A082535.
+%Y A000293 Cf. A002836, A000041, A161564. - _Gary W. Adamson_, Jun 13 2009
+%K A000293 nonn,nice
+%O A000293 0,3
+%A A000293 _N. J. A. Sloane_
+%E A000293 More terms from the Mustonen and Rajesh article, May 02 2003
+%E A000293 a(51)-a(62) found by _Suresh Govindarajan_ and students, Dec 14 2010
+%E A000293 a(63)-a(68) found by _Suresh Govindarajan_ and students, Jun 01 2011
+%E A000293 a(69)-a(72) found by _Suresh Govindarajan_ and Srivatsan Balakrishnan, Jan 03 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

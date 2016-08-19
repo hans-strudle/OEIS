@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028815
+Showing 1-1 of 1
+
+%I A028815
+%S A028815 2,3,4,6,8,12,14,18,20,24,30,32,38,42,44,48,54,60,62,68,72,74,80,84,
+%T A028815 90,98,102,104,108,110,114,128,132,138,140,150,152,158,164,168,174,
+%U A028815 180,182,192,194,198,200,212,224
+%N A028815 n-th prime + 1 (starting with 1).
+%C A028815 n-th noncomposite (unit or prime) positive integer + 1.
+%C A028815 The "0th prime" is defined as 1 (a unit, formerly considered as prime).
+%F A028815 a(0) = 2; a(n) = prime(n) + 1 = A000040(n) + 1 = A008864(n) for n >= 1.
+%F A028815 a(n) = A008578(n+1) + 1, n >= 0.
+%Y A028815 Cf. A008864, A006093, A008578.
+%K A028815 nonn
+%O A028815 0,1
+%A A028815 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

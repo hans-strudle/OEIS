@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045752
+Showing 1-1 of 1
+
+%I A045752
+%S A045752 4,7,9,10,13,14,16,19,22,23,24,25,28,29,30,31,34,36,37,39,40,43,44,46,
+%T A045752 47,49,51,52,54,55,58,59,61,62,64,65,67,69,70,72,73,74,75,76,79,80,81,
+%U A045752 82,84,85,86,88,89,91,93,94,97,98,99,100
+%N A045752 4n-1 is composite.
+%e A045752 7 belong to the sequence because 7*4-1=27 is not a prime.
+%o A045752 (PARI) isok(n) = ! isprime(4*n-1); \\ _Michel Marcus_, Sep 28 2013
+%K A045752 nonn,easy
+%O A045752 1,1
+%A A045752 _Felice Russo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

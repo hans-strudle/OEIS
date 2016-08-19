@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015470
+Showing 1-1 of 1
+
+%I A015470
+%S A015470 0,1,1,13,157,22621,3278173,5632106845,9794204234077,
+%T A015470 201818365309759837,4211530365904119214429,
+%U A015470 1041342647528423104910537053,260767900948768868884822059725149,773726564635922870118341112574642827613
+%N A015470 q-Fibonacci numbers for q=12.
+%H A015470 Vincenzo Librandi, <a href="/A015470/b015470.txt">Table of n, a(n) for n = 0..60</a>
+%F A015470 a(n) = a(n-1) + 12^(n-2) a(n-2).
+%t A015470 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]+a[n-2]*12^(n-2)},  a, {n, 60}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%o A015470 (MAGMA) [0] cat[n le 2 select 1 else Self(n-1) + Self(n-2)*(12^(n-2)): n in [1..15]]; // _Vincenzo Librandi_, Nov 09 2012
+%K A015470 nonn,easy
+%O A015470 0,4
+%A A015470 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020490
+Showing 1-1 of 1
+
+%I A020490
+%S A020490 1,2,3,4,6,8,10,12,18,24,30
+%N A020490 phi(n) <= sigma_0(n).
+%t A020490 Select[Range@ 1000000, EulerPhi@ # <= DivisorSigma[0, #] &] (* _Michael De Vlieger_, Oct 13 2015 *)
+%o A020490 (PARI) isok(n) = eulerphi(n) <= numdiv(n); \\ _Michel Marcus_, Oct 13 2015
+%K A020490 nonn,fini,full
+%O A020490 1,2
+%A A020490 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

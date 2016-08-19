@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027783
+Showing 1-1 of 1
+
+%I A027783
+%S A027783 45,550,3630,17160,65065,210210,600600,1555840,3719430,8314020,
+%T A027783 17551820,35271600,67897830,125847260,225544440,392251200,663966875,
+%U A027783 1096717050,1771619850,2804201400,4356527175,6652824750,9999397200,14809766400,21636143100,31208497320
+%N A027783 a(n) = 5*(n+1)*binomial(n+2,10).
+%H A027783 T. D. Noe, <a href="/A027783/b027783.txt">Table of n, a(n) for n = 8..1000</a>
+%F A027783 Number of 13-subsequences of [ 1, n ] with just 2 contiguous pairs; g.f. 5*(9+2x)*x^8/(1-x)^12.
+%F A027783 a(n) = C(n+1, 9)*C(n+2, 2). - _Zerinvary Lajos_, May 13 2005, corrected _R. J. Mathar_, Mar 15 2016
+%t A027783 Table[5(n+1)Binomial[n+2,10],{n,8,30}] (* _Harvey P. Dale_, Jan 21 2012 *)
+%K A027783 nonn,easy
+%O A027783 8,1
+%A A027783 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

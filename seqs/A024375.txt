@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024375
+Showing 1-1 of 1
+
+%I A024375
+%S A024375 1,0,0,1,0,1,1,0,0,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,1,1,0,1,
+%T A024375 2,1,2,2,0,1,1,1,0,1,1,1,1,0,1,1,1,1,1,0,1,2,1,2,2,1,1,2,2,1,2,2,2,2,
+%U A024375 0,1,1,1,1,1,0,1,1,1,1,1,1,0,1,2,1,2,2,1,2,1
+%N A024375 a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = A023532, t = A023533.
+%K A024375 nonn
+%O A024375 1,35
+%A A024375 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

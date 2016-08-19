@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038080
+Showing 1-1 of 1
+
+%I A038080
+%S A038080 1,3,3,9,39,189,981,5490,31674,189954,1170126,7382745,47494197,
+%T A038080 310712808,2061987642,13855192866,94113385437,645424668666,
+%U A038080 4464027720900,31110200069511,218292811705458,1541172223659249
+%N A038080 Number of identity trees with 3-colored nodes.
+%H A038080 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A038080 G.f.: B(x) - B^2(x)/2 - B(x^2)/2, where B(x) is g.f. for A038079.
+%Y A038080 Cf. A000220. A038077-A038079.
+%K A038080 nonn
+%O A038080 0,2
+%A A038080 _Christian G. Bower_, Jan 04 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

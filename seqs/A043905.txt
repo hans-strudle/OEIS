@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043905
+Showing 1-1 of 1
+
+%I A043905
+%S A043905 15,20,51,56,87,95,125,128,159,164,195,200,231,236,267,272,303,311,
+%T A043905 341,344,375,380,411,416,447,452,483,488,519,527,575,591,596,627,632,
+%U A043905 663,668,699,704,755,773,776,807,812,843,848,879
+%N A043905 Numbers n such that 2 and 3 occur juxtaposed in the base 6 representation of n but not of n+1.
+%K A043905 nonn,base
+%O A043905 1,1
+%A A043905 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

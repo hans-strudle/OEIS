@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024522
+Showing 1-1 of 1
+
+%I A024522
+%S A024522 2,11,41,118,316,693,1407,2528,4322,7251,11281,17238,25356,35633,
+%T A024522 48887,66324,88862,115763,149397,189796,236516,292843,358579,436454,
+%U A024522 529962,637123,756809,892164,1041712,1209065,1411503,1636954,1890678,2167149,2484221
+%N A024522 a(n) = 2nd elementary symmetric function of {1, p(1), p(2), ..., p(n-1)}, where p(0) = 1.
+%K A024522 nonn
+%O A024522 2,1
+%A A024522 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060952
+Showing 1-1 of 1
+
+%I A060952
+%S A060952 0,1,0,0,1,1,1,0,0,1,0,1,0,1,1,0,2,0,0,1,1,1,1,0,1,1,0,0,0,1,1,1,0,1,
+%T A060952 0,1,1,1,1,0,1,1,0,0,1,1,1,0,1,1,0,1,1,1,1,2,1,1,0,1,0,1,0,0,2,1,0,0,
+%U A060952 1,1,1,1,1,1,0,1,2,1,1,1,0,3,0,1,1,1,1,0,1,2,0,0
+%N A060952 Rank of elliptic curve y^2 = x^3 - n*x.
+%H A060952 H. Mishima, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/ec/eca1/ec02rm.txt">Tables of Elliptic Curves</a>
+%Y A060952 Cf. A060748, A060838, A060950-A060953.
+%K A060952 nonn,nice
+%O A060952 1,17
+%A A060952 _N. J. A. Sloane_, May 10 2001
+%E A060952 Corrected Apr 08 2005 at the suggestion of _James R. Buddenhagen_. There were errors caused by the fact that Mishima lists each curve of rank two twice, once for each generator and each curve of rank three thrice.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

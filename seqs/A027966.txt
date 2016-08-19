@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027966
+Showing 1-1 of 1
+
+%I A027966
+%S A027966 1,4,11,26,54,101,174,281,431,634,901,1244,1676,2211,2864,3651,4589,
+%T A027966 5696,6991,8494,10226,12209,14466,17021,19899,23126,26729,30736,35176,
+%U A027966 40079
+%N A027966 T(n,2n-4), T given by A027960.
+%F A027966 G.f.: x^2*(1-x+x^2+x^3-x^4)/(1-x)^5. Differences of A027967. - _Ralf Stephan_, Feb 07 2004
+%Y A027966 A column of triangle A026998.
+%K A027966 nonn
+%O A027966 2,2
+%A A027966 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

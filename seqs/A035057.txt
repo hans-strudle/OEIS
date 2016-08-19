@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035057
+Showing 1-1 of 1
+
+%I A035057
+%S A035057 1,2,3,5,6,8,11,12,15,16,19,23,25,28,32,33,35,38,43,52,56,59,63,66,73,
+%T A035057 91
+%N A035057 Numbers n such that 2^n does not contain the digit 1 (probably finite).
+%t A035057 Select[Range[100],DigitCount[2^#,10,1]==0&] (* _Harvey P. Dale_, Jun 06 2013 *)
+%o A035057 (MAGMA) [n: n in [0..1000] | not 1 in Intseq(2^n) ]; // _Vincenzo Librandi_, May 06 2015
+%Y A035057 Cf. similar sequences listed in A035064.
+%K A035057 nonn,base
+%O A035057 1,2
+%A A035057 _Patrick De Geest_, Nov 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

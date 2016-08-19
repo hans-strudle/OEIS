@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052957
+Showing 1-1 of 1
+
+%I A052957
+%S A052957 2,2,6,8,20,32,72,128,272,512,1056,2048,4160,8192,16512,32768,65792,
+%T A052957 131072,262656,524288,1049600,2097152,4196352,8388608,16781312,
+%U A052957 33554432,67117056,134217728,268451840,536870912,1073774592,2147483648
+%N A052957 Expansion of 2*(1-x-x^2)/((1-2x)(1-2x^2)).
+%H A052957 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=1028">Encyclopedia of Combinatorial Structures 1028</a>
+%H A052957 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,2,-4).
+%F A052957 G.f.: -2*(-1+x+x^2)/(-1+2*x^2)/(-1+2*x)
+%F A052957 Recurrence: {a(1)=2, a(2)=6, a(0)=2, 4*a(n)-2*a(n+1)-2*a(n+2)+a(n+3)=0}
+%F A052957 2^n+Sum(1/2*_alpha^(-n), _alpha=RootOf(-1+2*_Z^2))
+%F A052957 a(n) = 2*A051437(n+1). - R. J. Mathar, Nov 27 2011
+%p A052957 spec := [S,{S=Union(Sequence(Prod(Union(Z,Z),Z)),Sequence(Union(Z,Z)))},unlabeled ]: seq(combstruct[count ](spec,size=n), n=0..20);
+%K A052957 easy,nonn
+%O A052957 0,1
+%A A052957 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+%E A052957 More terms from _James A. Sellers_, Jun 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

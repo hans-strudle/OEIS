@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045505
+Showing 1-1 of 1
+
+%I A045505
+%S A045505 1,21,262,2525,20754,152946,1040556,6659037,40599130,237978598,
+%T A045505 1350216660,7453221490,40188242420,212349718980,1102352779992,
+%U A045505 5634083759325,28400234400810,141402315307550,696257439473860
+%N A045505 Convolution of A000108 (Catalan numbers) with A040075.
+%C A045505 Also convolution of A045492 with A000984 (central binomial coefficients); also convolution of A042985 with A000302 (powers of 4).
+%F A045505 a(n) = binomial(n+5, 4)*(4^(n+1) - A000984(n+5)/A000984(4))/2, A000984(n)=binomial(2*n, n); G.f. c(x)/(1-4*x)^5, where c(x) = g.f. for Catalan numbers.
+%K A045505 easy,nonn
+%O A045505 0,2
+%A A045505 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

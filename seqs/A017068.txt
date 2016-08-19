@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017068
+Showing 1-1 of 1
+
+%I A017068
+%S A017068 0,4096,65536,331776,1048576,2560000,5308416,9834496,16777216,
+%T A017068 26873856,40960000,59969536,84934656,116985856,157351936,207360000,
+%U A017068 268435456,342102016,429981696,533794816,655360000
+%N A017068 (8*n)^4.
+%H A017068 Vincenzo Librandi, <a href="/A017068/b017068.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017068 (MAGMA) [(8*n)^4: n in [0..35]]; // Vincenzo Librandi, Jul 11 2011
+%K A017068 nonn,easy
+%O A017068 0,2
+%A A017068 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

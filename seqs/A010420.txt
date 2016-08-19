@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010420
+Showing 1-1 of 1
+
+%I A010420
+%S A010420 0,1,3,4,5,7,9,12,15,16,17,19,20,21,22,25,26,27,28,29,35,36,41,45,46,
+%T A010420 48,49,51,53,57
+%N A010420 Squares mod 59.
+%o A010420 (Sage) [quadratic_residues(59)]# [From _Zerinvary Lajos_, May 24 2009]
+%K A010420 nonn,fini,full
+%O A010420 1,3
+%A A010420 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

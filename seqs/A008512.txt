@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008512
+Showing 1-1 of 1
+
+%I A008512
+%S A008512 2,32,242,992,2882,6752,13682,24992,42242,67232,102002,148832,210242,
+%T A008512 288992,388082,510752,660482,840992,1056242,1310432,1608002,1953632,
+%U A008512 2352242,2808992,3329282,3918752
+%N A008512 Number of points on surface of 5-dimensional cube.
+%H A008512 Vincenzo Librandi, <a href="/A008512/b008512.txt">Table of n, a(n) for n = 0..10000</a>
+%H A008512 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%F A008512 a(n) = (n+1)^5-(n-1)^5.
+%F A008512 G.f.: (2+22*x+102*x^2+82*x^3+32*x^4)/(1-5*x+10*x^2-10*x^3+5*x^4-x^5). Colin Barker, Jan 02 2012
+%p A008512 (n+1)^5-(n-1)^5;
+%t A008512 Table[10n^2*(n^2+2)+2,{n,0,30}] (* or *) LinearRecurrence[{5,-10,10,-5,1},{2,32,242,992,2882},30] (* _Harvey P. Dale_, Jul 17 2014 *)
+%o A008512 (MAGMA) [(n+1)^5-(n-1)^5: n in [0..30]]; // Vincenzo Librandi, Aug 27 2011
+%K A008512 nonn,easy
+%O A008512 0,1
+%A A008512 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

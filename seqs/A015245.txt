@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015245
+Showing 1-1 of 1
+
+%I A015245
+%S A015245 0,9,28,45,48,25,36,147,320,567,900,1331,1872,2535,3332,4275,
+%T A015245 5376,6647,8100,9747,11600,13671,15972,18515,21312,24375,27716,31347,
+%U A015245 35280,39527,44100,49011,54272,59895
+%V A015245 0,-9,-28,-45,-48,-25,36,147,320,567,900,1331,1872,2535,3332,4275,
+%W A015245 5376,6647,8100,9747,11600,13671,15972,18515,21312,24375,27716,31347,
+%X A015245 35280,39527,44100,49011,54272,59895
+%N A015245 (2n-11)n^2.
+%H A015245 Ivan Panchenko, <a href="/A015245/b015245.txt">Table of n, a(n) for n = 0..1000</a>
+%F A015245 G.f.: x*(-9+8*x+13*x^2)/(1-x)^4. - _Ivan Panchenko_, Nov 09 2013
+%K A015245 sign
+%O A015245 0,2
+%A A015245 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053853
+Showing 1-1 of 1
+
+%I A053853
+%S A053853 2,32,4448,3816128,26288771456,1354765603506176,413011432853757876224,
+%T A053853 1232292753203369699693195264,12961108500525078696110888464867328
+%N A053853 Number of n X n matrices over GF(3) of order dividing 8 (i.e. number of solutions of X^8=I in GL(n,3)).
+%D A053853 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053853 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053853 Cf. A053773.
+%K A053853 more,nonn
+%O A053853 1,1
+%A A053853 _Vladeta Jovovic_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

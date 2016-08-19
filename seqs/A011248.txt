@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011248
+Showing 1-1 of 1
+
+%I A011248
+%S A011248 2,2,10,122,2770,101042,5405530,398721962,38783024290,4809759350882,
+%T A011248 740742376475050,138697748786275802,31029068327114173810,
+%U A011248 8174145018586247784722
+%N A011248 Twice A000364.
+%D A011248 G. Almkvist, Many correct digits of Pi, revisited, Amer. Math. Monthly, 104 (1997), 351-353.
+%F A011248 E.g.f.: 2 - 2/Q(0), where Q(k)= 1 - (2*k+1)*(2*k+2)/x + 1/x*(2*k+1)*(2*k+2)/Q(k+1); (continued fraction). - _Sergei N. Gladkovskii_, May 01 2013
+%K A011248 nonn
+%O A011248 0,1
+%A A011248 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002897
+Showing 1-1 of 1
+
+%I A002897 M4580 N1952
+%S A002897 1,8,216,8000,343000,16003008,788889024,40424237568,2131746903000,
+%T A002897 114933031928000,6306605327953216,351047164190381568,
+%U A002897 19774031697705428416,1125058699232216000000,64561313052442296000000
+%N A002897 C(2n,n)^3.
+%D A002897 C. Domb, On the theory of cooperative phenomena in crystals, Advances in Phys., 9 (1960), 149-361.
+%D A002897 S. Ramanujan, Modular Equations and Approximations to pi, pp. 23-39 of Collected Papers of Srinivasa Ramanujan, Ed. G. H. Hardy et al., AMS Chelsea 2000. See page 36, equation (25).
+%D A002897 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002897 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002897 Vincenzo Librandi, <a href="/A002897/b002897.txt">Table of n, a(n) for n = 0..100</a>
+%H A002897 David H. Bailey, Jonathan M. Borwein, David Broadhurst and M. L. Glasser, <a href="http://arxiv.org/abs/0801.0891">Elliptic integral evaluations of Bessel moments</a>, arXiv:0801.0891.
+%F A002897 Expansion of (K(k)/(Pi/2))^2 in powers of (kk'/4)^2, where K(k) is complete elliptic integral of first kind evaluated at modulus k. - _Michael Somos_, Jan 31 2007
+%F A002897 G.f.: F(1/2, 1/2, 1/2; 1, 1; 64x) where F() is a hypergeometric function. - _Michael Somos_, Jan 31 2007
+%F A002897 G.f.: hypergeom([1/4,1/4],[1],64*x)^2. - _Mark van Hoeij_, Nov 17 2011
+%F A002897 n^3*a(n) -8*(2*n-1)^3*a(n-1)=0. - _R. J. Mathar_, Mar 08 2013
+%t A002897 a[n_]:= Coefficient[ Series[ HypergeometricPFQ[ {1/2, 1/2, 1/2}, {1, 1}, 64x], {x, 0, n}], x, n]
+%o A002897 (PARI) {a(n)= binomial(2*n, n)^3} /* _Michael Somos_, Jan 31 2007 */
+%o A002897 (Sage) [binomial(2*n,n)**3 for n in xrange(0, 17)] # _Zerinvary Lajos_, Apr 21 2009
+%o A002897 (MAGMA) [Binomial(2*n, n)^3: n in [0..20]]; // _Vincenzo Librandi_, Nov 18 2011
+%K A002897 nonn,easy
+%O A002897 0,2
+%A A002897 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

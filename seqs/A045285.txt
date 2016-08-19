@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045285
+Showing 1-1 of 1
+
+%I A045285
+%S A045285 12,37,52,57,60,61,63,67,87,137,162,177,182,185,186,188,192,212,252,
+%T A045285 257,260,261,263,267,277,282,285,286,288,292,300,301,303,305,306,308,
+%U A045285 315,316,318,327,332,335,336,338,342,387,412,427
+%N A045285 Numbers n with property that in base 5 representation the numbers of 2's and 4's are 2 and 0, respectively.
+%t A045285 Select[Range[500],DigitCount[#,5,2]==2&&DigitCount[#,5,4]==0&]  (* _Harvey P. Dale_, Apr 21 2011 *)
+%K A045285 nonn,base
+%O A045285 1,1
+%A A045285 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

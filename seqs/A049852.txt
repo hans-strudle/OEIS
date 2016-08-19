@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049852
+Showing 1-1 of 1
+
+%I A049852
+%S A049852 12,23,35,45,57,67,711,811,911,1011,1113,1213,1317,1417,1517,1617,
+%T A049852 1719,1819,1923,2023,2123,2223,2329,2429,2529,2629,2729,2829,2931,
+%U A049852 3031,3137,3237,3337,3437,3537,3637,3741,3841,3941,4041,4143,4243
+%N A049852 Concatenate "n" and "nextprime(n)".
+%p A049852 P:=proc(i) local a,n; for n from 1 by 1 to i do a:=n*10^floor(evalf(log10(nextprime(n))+1,100))+nextprime(n); print(a); od; end: P(100); [From _Paolo P. Lava_, Jan 21 2009]
+%K A049852 nonn,base
+%O A049852 1,1
+%A A049852 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006777
+Showing 1-1 of 1
+
+%I A006777 M1098
+%S A006777 1,2,4,8,14,26,43,74,120,197,311,495,768,1189,1811,2748,4116,6136,
+%T A006777 9058,13299,19370,28069,40399,57856,82374,116736,164574,231007,322749,
+%U A006777 449089
+%N A006777 Number of n-step spirals on hexagonal lattice.
+%C A006777 The hexagonal lattice is the familiar 2-dimensional lattice in which each point has 6 neighbors. This is sometimes called the triangular lattice.
+%D A006777 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006777 G. Szekeres and A. J. Guttmann, Spiral self-avoiding walks on the triangular lattice, J. Phys. A 20 (1987), 481-493.
+%H A006777 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>
+%K A006777 nonn
+%O A006777 1,2
+%A A006777 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

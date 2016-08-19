@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021053
+Showing 1-1 of 1
+
+%I A021053
+%S A021053 0,2,0,4,0,8,1,6,3,2,6,5,3,0,6,1,2,2,4,4,8,9,7,9,5,9,1,8,3,6,7,3,4,6,
+%T A021053 9,3,8,7,7,5,5,1,0,2,0,4,0,8,1,6,3,2,6,5,3,0,6,1,2,2,4,4,8,9,7,9,5,9,
+%U A021053 1,8,3,6,7,3,4,6,9,3,8,7,7,5,5,1,0,2,0,4,0,8,1,6,3,2,6,5,3,0,6
+%N A021053 Decimal expansion of 1/49.
+%C A021053 The 42-digit cycle 1,0,2,0,4,0,8,1,6,3,2,6,5,3,0,6,1,2,2,4,4,8,9,7,9,5,9,1,8,3,6,7,3,4,6,9,3,8,7,7,5,5 in this sequence and the others based on forty-ninths, gives the successive digits of the smallest integer which is multiplied by 5 when the final digit is moved from the right hand end to the left hand end. - _Ian Duff_, Jan 09 2009
+%K A021053 nonn,cons
+%O A021053 0,2
+%A A021053 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

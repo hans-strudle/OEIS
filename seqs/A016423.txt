@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016423
+Showing 1-1 of 1
+
+%I A016423
+%S A016423 1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,
+%T A016423 1,1,0,0,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,
+%U A016423 1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,1,0
+%V A016423 1,1,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,-1,-1,0,0,0,0,0,1,1,0,0,0,0,
+%W A016423 1,1,0,0,0,0,1,0,-1,0,0,0,0,-1,-1,0,0,0,0,-1,0,1,0,0,0,-1,0,1,0,0,0,0,
+%X A016423 1,0,-1,0,0,0,1,0,-1,0,0,0,1,0,0,1,0
+%N A016423 494th cyclotomic polynomial.
+%K A016423 sign,fini
+%O A016423 0,1
+%A A016423 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

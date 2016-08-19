@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005236
+Showing 1-1 of 1
+
+%I A005236 M0501
+%S A005236 2,3,4,5,6,8,9,10,12,14,17,18,20,24,26,28,30,33,38,42,48,50,54,60,65,
+%T A005236 74,82,84,90,98,102,108,110,114,126,129,138,150,164,168,174,180,194,
+%U A005236 198,228,234,244,252,258,264,270,290,294,318,348,354,360,384,390,402
+%N A005236 Barriers for omega(n): numbers n such that, for all m < n, m + omega(m) <= n.
+%D A005236 R. K. Guy, Unsolved Problems in Number Theory, B8.
+%D A005236 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005236 Charles R Greathouse IV, <a href="/A005236/b005236.txt">Table of n, a(n) for n = 1..10000</a>
+%t A005236 okQ[n_] := (For[m=1, m<n, m++, If[m + PrimeNu[m] > n, Return[False]]]; True); Select[Range[2, 500], okQ] (* _Jean-François Alcover_, Feb 03 2015 *)
+%o A005236 (PARI) is(n)=for(k=1,log(n)\log(5),if(omega(n-k)>k,return(0)));n>1 \\ _Charles R Greathouse IV_, Sep 19 2012
+%o A005236 (Haskell)
+%o A005236 a005236 n = a005236_list !! (n-1)
+%o A005236 a005236_list = filter (\x -> all (<= x) $ map a229109 [1..x-1]) [2..]
+%o A005236 -- _Reinhard Zumkeller_, Sep 13 2013
+%Y A005236 Cf. A001221.
+%Y A005236 Cf. A229109.
+%K A005236 nonn,nice
+%O A005236 1,1
+%A A005236 _N. J. A. Sloane_.
+%E A005236 More terms from _John W. Layman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

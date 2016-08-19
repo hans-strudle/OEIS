@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052523
+Showing 1-1 of 1
+
+%I A052523
+%S A052523 0,1,0,1,1,2,3,6,12,25,53,114,257,567,1294,2944,6790,15693,36598,
+%T A052523 85578,201299
+%N A052523 Number of unlabeled mobiles with cycles of length at least 3.
+%H A052523 Robert Israel, <a href="/A052523/b052523.txt">Table of n, a(n) for n = 0..2234</a>
+%H A052523 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=91">Encyclopedia of Combinatorial Structures 91</a>
+%p A052523 spec := [S,{S=Union(B,Z),B=Cycle(S,3 <= card)},unlabeled]: seq(combstruct[count](spec, size=n), n=0..20);
+%K A052523 easy,nonn
+%O A052523 0,6
+%A A052523 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

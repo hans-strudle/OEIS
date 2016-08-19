@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033682
+Showing 1-1 of 1
+
+%I A033682
+%S A033682 25,65,125,169,205,305,325,425,533,565,625,725,793,905,1025,1105,1325,
+%T A033682 1469,1525,1565,1681,1825,1885,2105,2125,2353,2405,2501,2725,2825,
+%U A033682 2873,3065,3425,3445,3485,3625
+%N A033682 Numbers of the form (q^2+(q+1)^2)*(r^2+(r+1)^2), q,r >= 1.
+%D A033682 G. Tenenbaum, pp. 268ff of R. L. Graham et al., eds., Mathematics of Paul Erdős I.
+%K A033682 nonn
+%O A033682 1,1
+%A A033682 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

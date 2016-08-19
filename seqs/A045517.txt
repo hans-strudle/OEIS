@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045517
+Showing 1-1 of 1
+
+%I A045517
+%S A045517 5040,51090942171709440000,
+%T A045517 523022617466601111760007224100074291200000000,
+%U A045517 5502622159812088949850305428800254892961651752960000000000
+%N A045517 Factorials with initial digit '5'.
+%C A045517 Benford's law suggests that this sequence will contain about (log 6 - log 5)/log 10 =~ 8% of factorials. [From _Charles R Greathouse IV_, Nov 13 2010]
+%K A045517 nonn,base
+%O A045517 1,1
+%A A045517 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

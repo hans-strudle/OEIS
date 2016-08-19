@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060224
+Showing 1-1 of 1
+
+%I A060224
+%S A060224 2,2,8,39,288,3046,47232,1061100,34385064,1601137110,106806380544,
+%T A060224 10186152828755,1386394018652160,268976332493883474,
+%U A060224 74301040560350828856,29201332000320392849280
+%N A060224 Number of orbits of length n under the map whose periodic points are counted by A047863.
+%D A060224 Yash Puri and Thomas Ward, A dynamical property unique to the Lucas sequence, Fibonacci Quarterly, Volume 39, Number 5 (November 2001), pp. 398-402.
+%H A060224 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%H A060224 T. Ward, <a href="http://www.mth.uea.ac.uk/~h720/research/files/integersequences.html">Exactly realizable sequences</a>
+%F A060224 If b(n) is the (n+1)-th term of A047863, then the n-th term is a(n) = (1/n)* Sum_{ d divides n }\mu(d)b(n/d)
+%e A060224 a(5)=288 since the 6th term of A047863 is 1442 and the 2nd term is 2, so there must be (1442-2)/5 = 288 orbits of length 5.
+%Y A060224 Cf. A047863.
+%K A060224 nonn
+%O A060224 1,1
+%A A060224 Thomas Ward (t.ward(AT)uea.ac.uk), Mar 21 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

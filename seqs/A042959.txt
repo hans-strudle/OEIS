@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042959
+Showing 1-1 of 1
+
+%I A042959
+%S A042959 1,1,1,1,1,2,3,3,3,3,5,7,9,9,9,11,15,19,21,21,25,31,39,45,49,53,63,75,
+%T A042959 87,97,107,121,143,165,187,207,233,265,303,341,381,425,479,541,611,
+%U A042959 681,761,849,951,1063,1185,1315
+%N A042959 The sequence e when b=[ 1,1,1,1,0,1,1,1,.. ].
+%C A042959 Map a binary sequence b=[ b_1,... ] to a binary sequence c=[ c_1,... ] so that C=1/Product((1-x^i)^c_i == 1+Sum b_i*x^i mod 2.
+%C A042959 This produces 2 new sequences: d={i:c_i=1} and e=[ 1,e_1,... ] where C=1+Sum e_i*x^i.
+%K A042959 nonn
+%O A042959 0,6
+%A A042959 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

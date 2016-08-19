@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051337
+Showing 1-1 of 1
+
+%I A051337
+%S A051337 1,0,1,1,6,35,353,6008,178133,9355949,884464590,152310149735,
+%T A051337 48234782263293,28304491788158056,30964247546702883729,
+%U A051337 63468402142317299907481,244785748571033855024746438
+%N A051337 Number of strongly connected tournaments on n nodes.
+%C A051337 A tournament is strongly connected (or strong) if there is a directed path between any pair of points.
+%D A051337 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 127, Eq. (5.2.4);
+%D A051337 J. W. Moon, Topics on Tournaments, Holt, NY, 1968.
+%D A051337 J. L. Gross and J. Yellen, eds., Handbook of Graph Theory, CRC Press, 2004; p. 523.
+%F A051337 G.f.: = B(x)/(1+B(x)) where B(x) = g.f. for A000568.
+%Y A051337 Cf. A000568, A054946.
+%K A051337 nonn,nice,easy
+%O A051337 1,5
+%A A051337 _Vladeta Jovovic_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

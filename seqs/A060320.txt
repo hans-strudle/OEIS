@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060320
+Showing 1-1 of 1
+
+%I A060320
+%S A060320 1,3,8,15,20,30,40,70,60,80,90,140,176,120,168,180,324,252,240,378,
+%T A060320 450,432,552,360,420,690,504,880,630,600,756,720,900,792,840
+%N A060320 Index of smallest Fibonacci number with exactly n distinct prime factors.
+%H A060320 R. Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fib.html">Fibonacci numbers with tables of F(0)-F(500)</a>
+%H A060320 Hisanori Mishima, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/matha1/matha108.htm">Fibonacci numbers (n = 1 to 100</a>, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/matha1/matha109.htm">n = 101 to 200</a>, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/matha1/matha110.htm">n = 201 to 300</a>, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/matha1/matha111.htm">n = 301 to 400</a>, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/matha1/matha112.htm">n = 401 to 480)</a>.
+%F A060320 a(n) = min (k : A022307(k) = n )
+%e A060320 n=9: F(80)=23416728348467685=3 * 5 * 7 * 11 * 41 * 47 * 1601 * 3041 * 2161
+%e A060320 n=25: F(690)=2^3 * 5 * 11 * 31 * 61 * 137 * 139 * 461 * 691 * 829 * 1151 * 1381 * 4831 * 5981 * 18077 * 28657 * 186301 * 324301 * 686551 * 1485571 * 4641631 * 117169733521 * 2441738887963981 * 3490125311294161 * 25013864044961447973152814604981 is the smallest Fibonacci number with 25 prime factors.
+%o A060320 (PARI) my(o=[],s); print1(1); for(n=1,20, s=0; until( o[s]==n, #o<s++ && o=concat(o,omega(fibonacci(s))) ); print1(","s))
+%Y A060320 Cf. A022307, A001605, A005478, A060319, A051694.
+%K A060320 nonn,more
+%O A060320 0,2
+%A A060320 _Labos Elemer_, Mar 28 2001
+%E A060320 Corrected by _Shyam Sunder Gupta_, Jul 20 2002
+%E A060320 Edited by _M. F. Hasler_, Nov 01 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

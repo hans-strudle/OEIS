@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018094
+Showing 1-1 of 1
+
+%I A018094
+%S A018094 1,2,4,8,17,35,70,142,289,587,1192,2420,4913,9976,20257,41132,83521,
+%T A018094 169593,344366,699250,1419857,2883081,5854220,11887247,24137569,
+%U A018094 49012376,99521747,202083204,410338673
+%N A018094 Powers of fourth root of 17 rounded to nearest integer.
+%t A018094 Round[Surd[17,4]^Range[0,30]] (* _Harvey P. Dale_, Aug 18 2014 *)
+%K A018094 nonn
+%O A018094 0,2
+%A A018094 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

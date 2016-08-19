@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028307
+Showing 1-1 of 1
+
+%I A028307
+%S A028307 1,3,8,20,43,98,212,465,1000,2144,4497,9504,19872,41455,85356,178630,
+%T A028307 363467,757085,1541998,3183600,6515066,13357593,27432649,55914902,
+%U A028307 114683858,233517515,478061719,972479046,1986013932
+%N A028307 Form a triangle with n numbers in top row; all other numbers are the sum of their parents. E.g.: 4 1 2 7; 5 3 9; 8 12; 20. The numbers must be positive and distinct and the final number is to be minimized. Sequence gives final number.
+%C A028307 Suggested by Problem 401 of the All-Soviet-Union Mathematical Competitions 1961-1986. Two different links are available for this collection.
+%H A028307 Mauro Fiorentini, <a href="/A028307/a028307.txt">Further comments</a>
+%H A028307 Vladimir A. Pertsel (voldemar(AT)wiscon.weizmann.ac.il), <a href="http://members.tripod.com/~PertselV/RusMath.html">Problems of the All-Soviet-Union Mathematical Competitions 1961-1986</a>
+%e A028307 Solutions for n=1,2,... are 1; 1 2; 2 1 4; 4 1 2 7; 7 2 1 4 6; 8 6 1 3 2 10...
+%K A028307 nonn,nice
+%O A028307 1,2
+%A A028307 _Mauro Fiorentini_
+%E A028307 More terms from the author, Jul 03, 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

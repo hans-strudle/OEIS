@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051231
+Showing 1-1 of 1
+
+%I A051231
+%S A051231 1,9,1,162,27,1,4374,891,54,1,157464,36450,2835,90,1,7085880,
+%T A051231 1797714,164025,6885,135,1,382637520,104162436,10655064,535815,
+%U A051231 14175,189,1,24106163760,6944870988,775431468,44411409,1428840,26082,252,1
+%V A051231 1,-9,1,162,-27,1,-4374,891,-54,1,157464,-36450,2835,-90,1,-7085880,
+%W A051231 1797714,-164025,6885,-135,1,382637520,-104162436,10655064,-535815,
+%X A051231 14175,-189,1,-24106163760,6944870988,-775431468,44411409,-1428840,26082,-252,1
+%N A051231 Generalized Stirling number triangle of first kind.
+%C A051231 a(n,m)= R_n^m(a=0,b=9) in the notation of the given reference.
+%C A051231 a(n,m) is a Jabotinsky matrix, i.e., the monic row polynomials E(n,x) := sum(a(n,m)*x^m,m=1..n) = product(x-9*j,j=0..n-1), n >= 1, E(0,x) := 1, are exponential convolution polynomials (see A039692 for the definition and a Knuth reference).
+%D A051231 Mitrinovic, D. S.; Mitrinovic, R. S.; Tableaux d'une classe de nombres relies aux nombres de Stirling. Univ. Beograd. Pubi. Elektrotehn. Fak. Ser. Mat. Fiz. No. 77 1962, 77 pp.
+%F A051231 a(n, m) = a(n-1, m-1) - 9*(n-1)*a(n-1, m), n >= m >= 1; a(n, m) := 0, n<m; a(n, 0) := 0, a(1, 1)=1. E.g.f. for m-th column of signed triangle: (((log(1+9*x))/9)^m)/m!.
+%e A051231 {1}; {-9,1}; {162,-27,1}; {-4374,891,-54,1}; ... E(3,x) = 162*x-27*x^2+x^3.
+%Y A051231 First (m=1) column sequence is A051232(n-1). Row sums (signed triangle): A049211(n-1)*(-1)^(n-1). Row sums (unsigned triangle): A045756(n). Cf. A051187 (b=8 triangle).
+%K A051231 sign,easy,tabl
+%O A051231 1,2
+%A A051231 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

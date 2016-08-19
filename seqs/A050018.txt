@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050018
+Showing 1-1 of 1
+
+%I A050018
+%S A050018 1,4,5,11,14,20,22,27,30,35,37,38,44,50,54,56,63,67,71,75,77,82,87,89,
+%T A050018 91,92,101,105,110,114,118,122,125,129,134,138,142,146,151,152,161,
+%U A050018 165,170,174,175,181,184,188,192,197,204,205,210
+%N A050018 a(n) = n-th number k such that b(k)<b(k+1), where b=A050016.
+%K A050018 nonn,easy
+%O A050018 1,2
+%A A050018 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

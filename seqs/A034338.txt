@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034338
+Showing 1-1 of 1
+
+%I A034338
+%S A034338 1,2,4,8,15,30,56,107,200,372,680,1241,2221,3938,6880,11860,20148,
+%T A034338 33778,55814,91007,146392,232458,364462,564560,864230
+%N A034338 Number of binary [ n,4 ] codes of dimension <= 4 without zero columns.
+%D A034338 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034338 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034338 Cf. A034337-. A diagonal of A076832.
+%K A034338 nonn
+%O A034338 1,2
+%A A034338 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

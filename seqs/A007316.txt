@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007316
+Showing 1-1 of 1
+
+%I A007316 M0895
+%S A007316 1,1,1,2,3,9,9,71,96,1325,6843,54922,417975,3586117,32531983,
+%T A007316 316599861,3274076017,35914014266,416386323306,5088908019824,
+%U A007316 65392831090975,881473287321301,12437647407521020,183345613125389344
+%V A007316 -1,1,-1,2,-3,9,-9,71,96,1325,6843,54922,417975,3586117,32531983,
+%W A007316 316599861,3274076017,35914014266,416386323306,5088908019824,
+%X A007316 65392831090975,881473287321301,12437647407521020,183345613125389344
+%N A007316 Reversion of g.f. for Euler numbers A000111(n-1).
+%D A007316 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007316 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%Y A007316 Cf. A000111.
+%K A007316 sign
+%O A007316 1,4
+%A A007316 _N. J. A. Sloane_, _Mira Bernstein_
+%E A007316 Extended with signs by _Christian G. Bower_, Feb 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

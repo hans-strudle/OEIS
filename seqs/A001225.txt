@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001225
+Showing 1-1 of 1
+
+%I A001225 M1333 N0510
+%S A001225 1,2,5,7,11,14,20,24,30,35
+%N A001225 Consistent arcs in a tournament (equals C(n,2) - A003141).
+%D A001225 J.-C. Bermond, Ordres a` distance minimum d'un tournoi et graphs partiels sans circuits maximaux, Math. Sci. Hum., No. 37 (1972), 5-25.
+%D A001225 K. B. Reid, On sets of arcs containing no cycles in tournaments, Canad. Math. Bull., 12 (1969), 261-264.
+%D A001225 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001225 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001225 N. J. A. Sloane and K. B. Reid, <a href="/A001225/a001225.pdf">Correspondence concerning this sequence</a>
+%H A001225 <a href="/index/To#tournament">Index entries for sequences related to tournaments</a>
+%Y A001225 Cf. A003141.
+%K A001225 nonn,nice,hard,more
+%O A001225 2,2
+%A A001225 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

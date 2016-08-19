@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007776
+Showing 1-1 of 1
+
+%I A007776
+%S A007776 1,2,4,10,27,88,328,1460,7799,51196,422521,4483460,62330116,
+%T A007776 1150504224,28434624153,945480850638,42417674401330,2572198227615998,
+%U A007776 211135833162079184,23487811567341121158,3545543330739039981738,727053904070651775719646
+%N A007776 Number of connected posets with n elements of height 1.
+%C A007776 EULERi transform of A048194 and A049312. - Detlef Pauly (dettodet(AT)yahoo.de) and _Vladeta Jovovic_, Jul 25 2003
+%D A007776 J. Textor, A. Idelberger, M. Liskiewicz, Learning from Pairwise Marginal Independencies, Preprint 2015, http://tbb.bio.uu.nl/textor/papers/2015-uai.pdf.
+%H A007776 Alois P. Heinz, <a href="/A007776/b007776.txt">Table of n, a(n) for n = 1..39</a>
+%H A007776 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A007776 <a href="/index/Pos#posets">Index entries for sequences related to posets</a>
+%Y A007776 Cf. A005142, A002031 (labeled case).
+%K A007776 nonn
+%O A007776 1,2
+%A A007776 gw(AT)informatik.Uni-Koeln.DE (Georg Wambach)
+%E A007776 More terms from _Vladeta Jovovic_, Jul 25 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030450
+Showing 1-1 of 1
+
+%I A030450
+%S A030450 1,1,4,144,331776,2751882854400,272622932796264897576960000,
+%T A030450 3641839910835401567626683591527643364677019238400000000
+%N A030450 Related to number of elements in the free band (idempotent semigroup) on n generators.
+%D A030450 J. Howie, Fundamentals of Semigroup Theory, Oxford University Press 1995, p. 123.
+%H A030450 <a href="/index/Se#semigroups">Index entries for sequences related to semigroups</a>
+%F A030450 Binomial transform is A005345. - _Michael Somos_, Oct 22 2006
+%F A030450 a(n) = (n*a(n-1))^2 if n>0. a(0)=1. - _Michael Somos_, Oct 22 2006
+%F A030450 a(n) = Product_{i=1..n} (n-i+1)^(2^i).
+%t A030450 s=1;lst={};Do[AppendTo[lst,s*=s*=n],{n,9}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 20 2009 *)
+%o A030450 (PARI) {a(n)=if(n<0, 0, prod(i=1, n, (n-i+1)^2^i))} /* _Michael Somos_, Oct 22 2006 */
+%o A030450 (Sage)
+%o A030450 def A030450(n) :
+%o A030450    return prod((n-i+1)^(2^i) for i in (1..n))
+%o A030450 [A030450(n) for n in (0..9)] # _Jani Melik_, Jun 06 2015
+%Y A030450 Cf. A030449.
+%Y A030450 A052129(n)=n*a(n-1) if n>0.
+%K A030450 nonn
+%O A030450 0,3
+%A A030450 Marcel Jackson (marcel_j(AT)hilbert.maths.utas.edu.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

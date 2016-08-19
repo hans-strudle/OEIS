@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059843
+Showing 1-1 of 1
+
+%I A059843
+%S A059843 2,3,7,5,41,7,11,17,13,11,47,13,17,23,19,17,53,19,23,29,37,23,59,73,
+%T A059843 29,107,31,29,173,31,47,41,37,43,71,37,41,47,43,41,617,43,47,53,61,47,
+%U A059843 83,73,53,59,67,53,89,79,59,137,61,59,383,61,97,71,67,73,101,67,71,149,73
+%N A059843 a(n) is the smallest prime p such that p-n is a square.
+%H A059843 Moshe Levin, <a href="/A059843/b059843.txt">Table of n, a(n) for n = 1..10000</a>
+%F A059843 Min{p| p-n=x^2 for some x; x>0, p is prime}.
+%e A059843 n=17: {2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53}-17= {-15,...,-4,0,2,6,12,14,20,24,26,30,36}. The first square difference is obtained with 53, the smallest such prime. The square arising here is usually 1.
+%p A059843 for n from 1 to 200 do k := 0: c := true: while(c) do k := k+1: if(isprime(k^2+n)) then c := false: end if: end do: a[n] := k^2+n: end do: seq(a[j],j=1..200);
+%Y A059843 These terms arise in A002496, A056899, A049423, A005473, A056905, A056909 as first or 2nd entries depending on offset.
+%Y A059843 A002496, A056899, A049423, A005473, A056905, A056909.
+%K A059843 nonn
+%O A059843 1,1
+%A A059843 _Labos Elemer_, Feb 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

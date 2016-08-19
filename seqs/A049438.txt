@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049438
+Showing 1-1 of 1
+
+%I A049438
+%S A049438 23,53,131,173,233,263,563,593,653,1013,1223,1283,1601,1613,2333,2543,
+%T A049438 2963,3323,3533,3761,3911,3923,4013,4211,4253,4643,4793,5003,5273,
+%U A049438 5471,5843,5861,6263,6353,6563,6653,6863,7121,7451,7481,7541,7583
+%N A049438 p, p+6 and p+8 are all primes (A046138) but p+2 is not.
+%C A049438 Subsequence of A031924. - _R. J. Mathar_, Jun 15 2013
+%H A049438 R. J. Mathar, <a href="/A049438/b049438.txt">Table of n, a(n) for n = 1..1000</a>
+%o A049438 (PARI) isok(p) = isprime(p) && !isprime(p+2) && isprime(p+6) && isprime(p+8); \\ _Michel Marcus_, Dec 13 2013
+%Y A049438 Cf. A007530, A023202, A031926, A046134, A046138, A049436, A049437.
+%K A049438 nonn
+%O A049438 1,1
+%A A049438 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

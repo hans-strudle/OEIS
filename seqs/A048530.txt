@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048530
+Showing 1-1 of 1
+
+%I A048530
+%S A048530 0,600,10100,390000,1001000,100030002,100010000,10000300002,
+%T A048530 10000100000,1000003000002,1000001000000,100000030000002,
+%U A048530 100000010000000,10000000300000002,10000000100000000
+%N A048530 Smallest pronic number containing exactly n 0's.
+%H A048530 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PronicNumber.html">Pronic Number</a>
+%Y A048530 Cf. A048529, A002378.
+%K A048530 nonn,base
+%O A048530 1,2
+%A A048530 _Patrick De Geest_, May 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025053
+Showing 1-1 of 1
+
+%I A025053
+%S A025053 1,2,3,6,8,12,13,16,22,23,29,33,34,38,44,49,51,57,60,62,67,71,77,85,
+%T A025053 89,90,94,96,100,114,117,123,125,134,136,142,148,152,158,164,166,175,
+%U A025053 177,181,183
+%N A025053 Positions of primes in sequence A025051 (numbers of form j*k + k*i + i*j, without repetitions, where 1 <=i <= j <= k).
+%K A025053 nonn
+%O A025053 1,2
+%A A025053 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

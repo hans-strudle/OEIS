@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024638
+Showing 1-1 of 1
+
+%I A024638
+%S A024638 0,1,2,3,4,5,50,51,52,53,54,55,540,541,542,543,544,545,5430,5431,5432,
+%T A024638 5433,5434,5435,54320,54321,54322,54323,54324,54325,543210,543211,
+%U A024638 543212,543213,543214,543215,5432100,5432101,5432102,5432103,5432104,5432105
+%N A024638 n written in fractional base 6/5.
+%F A024638 To represent a number in base b, if a digit exceeds b, subtract b and carry 1. In fractional base a/b, subtract a and carry b.
+%o A024638 (Sage)
+%o A024638 def basepqExpansion(p,q,n):
+%o A024638 ....L=[n]
+%o A024638 ....i=1
+%o A024638 ....while L[i-1]>=p:
+%o A024638 ........x=L[i-1]
+%o A024638 ........L[i-1]=x.mod(p)
+%o A024638 ........L.append(q*floor(x/p))
+%o A024638 ........i+=1
+%o A024638 ....L.reverse()
+%o A024638 ....T=Integer(join([str(x) for x in L],''))
+%o A024638 ....return T
+%o A024638 [basepqExpansion(6,5,i) for i in [0..100]] # - _Tom Edgar_, _Hailey R. Olafson_, and _James Van Alstine_, Jul 18 2014
+%K A024638 nonn,base
+%O A024638 0,3
+%A A024638 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009209
+Showing 1-1 of 1
+
+%I A009209
+%S A009209 1,0,0,1,0,1,10,1,56,279,246,4619,14388,53195,556478,864865,
+%T A009209 13276912,90192753,72903378,3987888493,16957067028,101506932205,
+%U A009209 1411655530330,2206092853799,70455418153496,549095655588183,1428569363164230
+%V A009209 1,0,0,-1,0,1,10,-1,-56,-279,246,4619,14388,-53195,-556478,-864865,
+%W A009209 13276912,90192753,-72903378,-3987888493,-16957067028,101506932205,
+%X A009209 1411655530330,2206092853799,-70455418153496,-549095655588183,1428569363164230
+%N A009209 Expansion of e.g.f: exp(sin(x))/exp(x).
+%t A009209 With[{nn=30},CoefficientList[Series[Exp[Sin[x]]/Exp[x],{x,0,nn}], x]Range[0,nn]!] (* _Harvey P. Dale_, Jun 27 2012 *)
+%K A009209 sign,easy
+%O A009209 0,7
+%A A009209 _R. H. Hardin_
+%E A009209 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+%E A009209 Definition clarified by _Harvey P. Dale_, Jun 27 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

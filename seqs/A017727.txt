@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017727
+Showing 1-1 of 1
+
+%I A017727
+%S A017727 1,64,2080,45760,766480,10424128,119877472,1198774720,10639125640,
+%T A017727 85113005120,621324937376,4179822305984,26123889412400,
+%U A017727 152724276564800,839983521106400,4367914309753280,21566576904406820
+%N A017727 Binomial coefficients C(n,63).
+%o A017727 (Sage) [binomial(n, 63) for n in xrange(63,80)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017727 nonn
+%O A017727 63,2
+%A A017727 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

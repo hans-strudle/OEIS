@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026522
+Showing 1-1 of 1
+
+%I A026522
+%S A026522 1,2,5,13,27,76,150,434,845,2470,4797,14085,27377,80584,156900,462620,
+%T A026522 902394,2664276,5205950,15387670,30114073,89097932,174609162,
+%U A026522 517058502,1014555607,3006637946,5906040623,17514547015,34438443075
+%N A026522 T(n,n-2), T given by A026519. Also number of integer strings s(0),...,s(n), counted by T, such that s(n)=2.
+%K A026522 nonn
+%O A026522 2,2
+%A A026522 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

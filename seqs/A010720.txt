@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010720
+Showing 1-1 of 1
+
+%I A010720
+%S A010720 5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,
+%T A010720 5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,5,9,
+%U A010720 5,9,5,9,5,9,5,9,5,9,5,9,5
+%N A010720 Period 2: repeat (5,9).
+%C A010720 Continued fraction expansion of A176324. - R. J. Mathar, Mar 08 2012
+%H A010720 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010720 a(n)=-2*(-1)^n+7 a(n)=9*(n mod 2)+5*[(n+1) mod 2] - _Paolo P. Lava_, Oct 20 2006
+%F A010720 a(n) = a(n-2) for n > 1; a(0) = 5, a(1) = 9. G.f.: (5+9*x)/((1-x)*(1+x)). [From _Vincenzo Librandi_, Aug 01 2010]
+%K A010720 nonn
+%O A010720 0,1
+%A A010720 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

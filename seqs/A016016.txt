@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016016
+Showing 1-1 of 1
+
+%I A016016
+%S A016016 1,1,1,1,2,2,2,2,2,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,
+%T A016016 1,1,2,1,2,1,1,1,1,1,1,2,1,2,2,1,1,1,1,1,2,1,2,2,3,1,1,1,1,2,1,2,2,3,
+%U A016016 4,1,1,1,2,1,2,2,3,4,6,1,1,2,1,2,2,3,4,6,24,1,2,1,2,2,3,4,6,24
+%N A016016 Number of iterations of Reverse and Add which lead to a palindrome, or -1 if no palindrome is ever reached.
+%C A016016 Palindromes themselves are also 'Reverse and Add!'ed !
+%C A016016 It is conjectured that a(196) = -1 - see A006860, A023108.
+%H A016016 T. D. Noe, <a href="/A016016/b016016.txt">Table of n, a(n) for n=1..195</a>
+%H A016016 <a href="/index/Res#RAA">Index entries for sequences related to Reverse and Add!</a>
+%H A016016 J. Walker, <a href="http://www.fourmilab.ch/documents/threeyears/threeyears.html">Three Years Of Computing: Final Report On The Palindrome Quest</a>
+%e A016016 6 -> 6 + 6 = 12 -> 12 + 21 = 33 is palindromic, took 2 steps so a(6)=2.
+%t A016016 tol = 1000; r[n_] := FromDigits[Reverse[IntegerDigits[n]]]; palQ[n_] := n == r[n]; ar[n_] := n + r[n]; Table[k = 0; If[palQ[n], n = ar[n]; k = 1]; While[! palQ[n] && k < tol, n = ar[n]; k++]; If[k == tol, k = -1]; k, {n, 98}] (* _Jayanta Basu_, Jul 11 2013 *)
+%Y A016016 Cf. A033665, A023109, A006960.
+%K A016016 nonn,base,nice
+%O A016016 1,5
+%A A016016 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028004
+Showing 1-1 of 1
+
+%I A028004
+%S A028004 1,31,633,10787,166481,2416827,33681481,456072739,6046236801,
+%T A028004 78876961163,1016157547769,12960408919731,163959874019761,
+%U A028004 2060322716086939,25744836645629097,320169349603453763
+%N A028004 Expansion of 1/((1-2x)(1-6x)(1-11x)(1-12x)).
+%F A028004 a(n)=(6*12^(n+3)-8*11^(n+3)+3*6^(n+3)-2^(n+3))/360. [_Yahia Kahloune_, Jun 05 2013]
+%K A028004 nonn
+%O A028004 0,2
+%A A028004 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

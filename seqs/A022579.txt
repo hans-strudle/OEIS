@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022579
+Showing 1-1 of 1
+
+%I A022579
+%S A022579 1,14,105,574,2576,10052,35273,113794,342699,974176,2635955,6833540,
+%T A022579 17061345,41197422,96544003,220212384,490104727,1066552228,2273590095,
+%U A022579 4755188704,9771319068,19751596934
+%N A022579 Expansion of Product (1+q^m)^14; m=1..inf.
+%F A022579 a(n) ~ (7/6)^(1/4) * exp(Pi * sqrt(14*n/3)) / (256 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022579 nmax=50; CoefficientList[Series[Product[(1+q^m)^14,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022579 nonn
+%O A022579 0,2
+%A A022579 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

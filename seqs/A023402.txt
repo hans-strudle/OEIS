@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023402
+Showing 1-1 of 1
+
+%I A023402
+%S A023402 4,4,3,3,3,4,3,3,3,3,4,3,3,3,4,3,4,4,3,4,4,4,4,3,4,4,3,3,4,3,3,3,4,3,
+%T A023402 3,3,3,3,3,4,3,3,4,3,4,3,3,4,4,4,3,4,3,4,3,3,4,4,3,4,3,4,3,3,3,4,3,3,
+%U A023402 3,4,3,3,4,4,4,3,4,4,4,4,4,3,3,3,3,4,3,4,3,4,4,3,3,4,4,3,3,4,3,3,4,3,4,3,3,3,4,4
+%N A023402 If any power of 2 ends with k 3's and 4's, they must be the first k elements of this sequence in reverse order.
+%C A023402 Conjecture: a(n) = 3rd divisor of smallest number having exactly n+2 divisors, a(n)=T(n+2,3), T as defined in A081532. - _Reinhard Zumkeller_, Jul 18 2003
+%Y A023402 Cf. A035014.
+%K A023402 nonn
+%O A023402 0,1
+%A A023402 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

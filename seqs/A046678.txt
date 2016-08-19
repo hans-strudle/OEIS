@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046678
+Showing 1-1 of 1
+
+%I A046678
+%S A046678 1,2,4,8,9,16,25,36,64,81,100,121,128,144,162,225,256,289,324,400,484,
+%T A046678 512,529,576,625,729,841,900,1024,1089,1156,1250,1296,1458,1600,1681,
+%U A046678 1936,2025,2116,2209,2304,2401,2500,2601,2809,3025,3364,3481
+%N A046678 Number of divisors of n and sum of divisors of n are relatively prime.
+%C A046678 It can be shown that this is a subset of A028982.
+%t A046678 Select[Range[3490], CoprimeQ[DivisorSigma[1, #], DivisorSigma[0, #]] &] (* _Jayanta Basu_, Jun 27 2013 *)
+%Y A046678 Cf. A028982, A046678 - A046981, A046983, A046985.
+%K A046678 nonn
+%O A046678 1,2
+%A A046678 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

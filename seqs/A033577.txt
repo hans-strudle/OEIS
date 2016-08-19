@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033577
+Showing 1-1 of 1
+
+%I A033577
+%S A033577 1,20,63,130,221,336,475,638,825,1036,1271,1530,1813,2120,2451,2806,
+%T A033577 3185,3588,4015,4466,4941,5440,5963,6510,7081,7676,8295,8938,9605,
+%U A033577 10296,11011,11750,12513,13300,14111,14946,15805,16688,17595,18526,19481,20460,21463
+%N A033577 (3n+1)(4n+1).
+%C A033577 Also the 120º spoke (or ray) of a hexagonal spiral of Ulam. - _Robert G. Wilson v_, Jul 06 2014
+%e A033577 see A056105 example section for hexagonal spiral of Ulam diagram. - _Robert G. Wilson v_, Jul 06 2014
+%p A033577 A033577:=n->(3*n+1)*(4*n+1): seq(A033577(n), n=0..50); # _Wesley Ivan Hurt_, Jul 06 2014
+%t A033577 f[n_] := (3n + 1)(4n + 1); Array[f, 50, 0] (* _Robert G. Wilson v_, Jul 06 2014 *)
+%o A033577 (PARI) vector(50, m, 12*m^2 - 17*m + 6) \\ _Michel Marcus_, Jul 06 2014
+%o A033577 (MAGMA) [(3*n+1)*(4*n+1) : n in [0..50]]; // _Wesley Ivan Hurt_, Jul 06 2014
+%Y A033577 Cf. A056105, A244802, A056106, A244803, A056107, A244804, A056108, A244805, A056109, A244806, A003215.
+%K A033577 nonn,easy
+%O A033577 0,2
+%A A033577 _N. J. A. Sloane_.
+%E A033577 More terms from _Wesley Ivan Hurt_, Jul 06 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

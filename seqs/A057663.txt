@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057663
+Showing 1-1 of 1
+
+%I A057663
+%S A057663 3,5,89,317,701
+%N A057663 Primes p such that p + 2^p is also a prime.
+%C A057663 Different from A056206, where, e.g., at n=89, 89 is not minimal, A056206(89)=29 and not 89.
+%C A057663 a(6) > 27479. - _Ralf Stephan_, Oct 23 2002
+%e A057663 q=3, 2^3 + 3 = 11 a prime.
+%t A057663 f[p_]:=2^p+p;lst={};Do[p=Prime[n];If[PrimeQ[f[p]],Print[p];AppendTo[lst,p]],{n,2*6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Sep 22 2009 *)
+%o A057663 (PARI) \ p^q + q is prime q is prime ptoqpq2(p,n)= { local(x,y,q); for(x=1,n, q=prime(x); y=p^q+q; if(ispseudoprime(y),print1(q",")) ) } \\ _Cino Hilliard_
+%o A057663 (MAGMA) [p: p in PrimesUpTo(1000) | IsPrime(2^p+p) ] // _Vincenzo Librandi_, Aug 07 2010
+%Y A057663 Cf. A056206, A056208, A057664, A057665.
+%K A057663 nonn
+%O A057663 1,1
+%A A057663 _Labos Elemer_, Oct 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045502
+Showing 1-1 of 1
+
+%I A045502
+%S A045502 0,40,3960,388080,38027920,3726348120,365144087880,35780394264160,
+%T A045502 3506113493799840,343563341998120200,33665701402321979800,
+%U A045502 3298895174085555900240,323258061358982156243760
+%N A045502 2n+1 and 3n+1 are squares.
+%D A045502 R. S. Luthar, Problem E2606, Amer. Math. Monthly, 84 (1977), 823-824.
+%t A045502 f[ 0 ]=0; f[ 1 ]=2; f[ n_ ] := f[ n ]=10f[ n-1 ]-f[ n-2 ]; a[ n_ ] := f[ n ]f[ n+1 ]
+%Y A045502 Cf. A001078, A245031.
+%K A045502 nonn,easy
+%O A045502 0,2
+%A A045502 Fred Schwab (fschwab(AT)nrao.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029453
+Showing 1-1 of 1
+
+%I A029453
+%S A029453 1,2,4,6,7,8,12,13,14,15,16,21,24,28,32,35,39,42,48,49,56,64,70,98,
+%T A029453 106,112,128,147,164,196,224,231,256,289,392,448,490,512,545,560,608,
+%U A029453 640,665,688,784,872,889,896,980,1024,1064,1120,1280,1520,1526,1568
+%N A029453 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 8 (most significant digit on left).
+%Y A029453 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029453 nonn,base
+%O A029453 1,2
+%A A029453 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

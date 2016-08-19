@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014446
+Showing 1-1 of 1
+
+%I A014446
+%S A014446 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,
+%T A014446 1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014446 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014446 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,
+%W A014446 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014446 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014446 Inverse of 437th cyclotomic polynomial.
+%p A014446 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014446 sign
+%O A014446 0,1
+%A A014446 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

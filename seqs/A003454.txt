@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003454
+Showing 1-1 of 1
+
+%I A003454 M1676
+%S A003454 1,2,6,25,107,509,2468,12258,61797,315830,1630770,8498303,44629855,
+%T A003454 235974495,1255105304,6710883952,36050676617,194478962422,
+%U A003454 1053120661726,5722375202661,31191334491891,170504130213135,934495666529380,5134182220623958,28270742653671621
+%N A003454 Number of dissections of a polygon.
+%C A003454 Total number of disections of a n-gon into polygons without reflection and rooted at a cell. - _Sean A. Irvine_, May 14 2015
+%D A003454 P. Lisonek, Closed forms for the number of polygon dissections. Journal of Symbolic Computation 20 (1995), 595-601.
+%D A003454 R. C. Read, On general dissections of a polygon, Aequat. Math. 18 (1978), 370-388.
+%D A003454 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A003454 nonn
+%O A003454 3,2
+%A A003454 _N. J. A. Sloane_.
+%E A003454 More terms from _Sean A. Irvine_, May 14 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

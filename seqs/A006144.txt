@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006144
+Showing 1-1 of 1
+
+%I A006144 M3242
+%S A006144 0,1,0,0,0,4,5,6,11,31,72,157,312,700,1472,3446,7855
+%N A006144 Number of self-avoiding walks on square lattice.
+%D A006144 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006144 W. A. Beyer and M. B. Wells, <a href="http://dx.doi.org/10.1016/0097-3165(72)90024-6">Lower bound for the connective constant of a self-avoiding walk on a square lattice</a>, J. Combin. Theory, A 13 (1972), 176-182, Table I.
+%K A006144 walk,nonn,more
+%O A006144 4,6
+%A A006144 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

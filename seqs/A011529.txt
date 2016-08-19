@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011529
+Showing 1-1 of 1
+
+%I A011529
+%S A011529 6402373705728000,22376988058521600,34012249593822720,
+%T A011529 30321254007719424,17950712280921504,7551527592063024,
+%U A011529 2353125040549984,557921681547048,102417740732658
+%V A011529 6402373705728000,-22376988058521600,34012249593822720,
+%W A011529 -30321254007719424,17950712280921504,-7551527592063024,
+%X A011529 2353125040549984,-557921681547048,102417740732658
+%N A011529 Stirling numbers of first kind S1(19,n).
+%D A011529 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 833.
+%D A011529 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 226.
+%H A011529 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%K A011529 sign,fini
+%O A011529 1,1
+%A A011529 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

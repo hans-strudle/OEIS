@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053468
+Showing 1-1 of 1
+
+%I A053468
+%S A053468 1,10,720,703760,9168331776,1601371799340544,3837878966366932639744,
+%T A053468 128777257564337108286016980992,
+%U A053468 61454877497308462618188532330410573824,422314689395950135433730499958070655419345928192
+%N A053468 Number of directed 3-multigraphs on n nodes.
+%t A053468 Table[CoefficientList[PairGroupIndex[SymmetricGroup[n],s,Ordered]/.Table[s[i]->4,{i,1,2 Binomial[n,2]}],x],{n,1,8}] (* _Geoffrey Critzer_, Oct 20 2012 *)
+%Y A053468 Cf. A000273,A053467.
+%K A053468 easy,nonn
+%O A053468 1,2
+%A A053468 _Vladeta Jovovic_, Jan 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

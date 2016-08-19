@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046466
+Showing 1-1 of 1
+
+%I A046466
+%S A046466 28,30,42,44,46
+%N A046466 Concatenation of numbers from 1 to a(n) has exactly 7 prime factors, with multiplicity.
+%H A046466 P. De Geest, <a href="http://www.worldofnumbers.com/factorlist.htm">Normal Smarandache Concatenated Numbers, Prime factors from 1 up to n</a>
+%H A046466 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A046466 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%Y A046466 Cf. A046460.
+%K A046466 nonn,hard,base
+%O A046466 0,1
+%A A046466 _Patrick De Geest_, Aug 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014407
+Showing 1-1 of 1
+
+%I A014407
+%S A014407 1,6,9,12,15,18,21,24,27,30,36,42,45,54,60,72,75,84,90
+%N A014407 a(n) = n-th number k such that s(j) < s(k) for all j < k, where s = A014405.
+%K A014407 nonn
+%O A014407 1,2
+%A A014407 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

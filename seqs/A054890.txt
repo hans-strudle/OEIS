@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054890
+Showing 1-1 of 1
+
+%I A054890
+%S A054890 1,7,42,245,1428,8323,48510,282737,1647912,9604735,55980498,326278253,
+%T A054890 1901689020,11083855867,64601446182,376524821225,2194547481168,
+%U A054890 12790760065783,74550012913530,434509317415397
+%N A054890 Layer counting sequence for hyperbolic tessellation by regular heptagons of angle Pi/3.
+%C A054890 The layer sequence is the sequence of the cardinalities of the layers accumulating around a (finite-sided) polygon of the tessellation under successive side-reflections; see the illustration accompanying A054888.
+%F A054890 G.f.: (x^2+x+1)/(x^2-6*x+1)
+%F A054890 a(n) = A001109(n) + A001109(n-1) + A001109(n-2), n>1. - _Ralf Stephan_, Apr 26 2003
+%Y A054890 {a(n)/7} for n>1 is A001109.
+%K A054890 nonn
+%O A054890 1,2
+%A A054890 Paolo Dominici (pl.dm(AT)libero.it), May 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016932
+Showing 1-1 of 1
+
+%I A016932
+%S A016932 1,13841287201,23298085122481,2213314919066161,59604644775390625,
+%T A016932 787662783788549761,6582952005840035281,39959630797262576401,
+%U A016932 191581231380566414401,766217865410400390625,2654348974297586158321
+%N A016932 (6n+1)^12.
+%H A016932 Vincenzo Librandi, <a href="/A016932/b016932.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016932 (MAGMA) [(6*n+1)^12: n in [0..20]]; // Vincenzo Librandi, May 04 2011
+%K A016932 nonn,easy
+%O A016932 0,2
+%A A016932 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

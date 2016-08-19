@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032739
+Showing 1-1 of 1
+
+%I A032739
+%S A032739 1,1,1,1,2,2,2,3,3,4,4,5,6,7,8,10,11,13,15,18,20,24,27,32,37,43,49,57,
+%T A032739 66,76,88,102,118,137,158,183,211,244,282,326,377,436,504,582,673,778,
+%U A032739 899,1040,1202,1389,1605,1855,2144,2478,2864,3310,3826,4421,5110,5906
+%N A032739 [ (pi/e)^n ].
+%t A032739 Floor[(Pi/E)^Range[60]] (* _Harvey P. Dale_, Sep 30 2011 *)
+%K A032739 nonn,easy
+%O A032739 0,5
+%A A032739 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

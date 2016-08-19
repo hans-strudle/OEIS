@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025621
+Showing 1-1 of 1
+
+%I A025621
+%S A025621 1,4,10,16,40,64,100,160,256,400,640,1000,1024,1600,2560,4000,4096,
+%T A025621 6400,10000,10240,16000,16384,25600,40000,40960,64000,65536,100000,
+%U A025621 102400,160000,163840,256000,262144,400000,409600,640000,655360,1000000,1024000
+%N A025621 Numbers of form 4^i*10^j, with i, j >= 0.
+%K A025621 easy,nonn
+%O A025621 1,2
+%A A025621 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

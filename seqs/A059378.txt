@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059378
+Showing 1-1 of 1
+
+%I A059378
+%S A059378 1,31,242,992,3124,7502,16806,31744,58806,96844,161050,240064,371292,
+%T A059378 520986,756008,1015808,1419856,1822986,2476098,3099008,4067052,
+%U A059378 4992550,6436342,7682048,9762500,11510052,14289858,16671552,20511148
+%N A059378 Jordan function J_5(n).
+%D A059378 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 199, #3.
+%D A059378 R. Sivaramakrishnan, "The many facets of Euler's totient. II. Generalizations and analogues", Nieuw Arch. Wisk. (4) 8 (1990), no. 2, 169-187.
+%H A059378 T. D. Noe, <a href="/A059378/b059378.txt">Table of n, a(n) for n=1..1000</a>
+%F A059378 a(n) = sum(d|n, d^5*mu(n/d)). - _Benoit Cloitre_, Apr 05 2002
+%F A059378 Multiplicative with a(p^e) = p^(5e)-p^(5(e-1)).
+%F A059378 Dirichlet generating function: zeta(s-5)/zeta(s). - _Franklin T. Adams-Watters_, Sep 11 2005.
+%F A059378 a(n) = n^5*Product_{distinct primes p dividing n} (1-1/p^5). - _Tom Edgar_, Jan 09 2015
+%p A059378 J := proc(n,k) local i,p,t1,t2; t1 := n^k; for p from 1 to n do if isprime(p) and n mod p = 0 then t1 := t1*(1-p^(-k)); fi; od; t1; end; # (with k = 5)
+%t A059378 JordanJ[n_, k_] := DivisorSum[n, #^k*MoebiusMu[n/#] &]; f[n_] := JordanJ[n, 5]; Array[f, 30]
+%o A059378 (PARI) for(n=1,100,print1(sumdiv(n,d,d^5*moebius(n/d)),","))
+%o A059378 (PARI) { for (n = 1, 1000, write("b059378.txt", n, " ", sumdiv(n, d, d^5*moebius(n/d))); ) } \\ _Harry J. Smith_, Jun 26 2009
+%Y A059378 See A059379 and A059380 (triangle of values of J_k(n)), A000010 (J_1), A059376 (J_3), A059377 (J_4), A059378 (J_5).
+%K A059378 nonn,mult
+%O A059378 1,2
+%A A059378 _N. J. A. Sloane_, Jan 28 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

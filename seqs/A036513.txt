@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036513
+Showing 1-1 of 1
+
+%I A036513
+%S A036513 16,676,46656,1666681,26666896,4666665969,26661664656,616686666436,
+%T A036513 12666666068676,696626660666596,16666569616666761,64666665664666569,
+%U A036513 666566667666656964,16656666666663616576,6466267667066666666596
+%N A036513 Smallest square containing exactly n 6's.
+%Y A036513 Cf. A048351. [From _Jon E. Schoenfield_, Jan 24 2009]
+%K A036513 nonn,base
+%O A036513 1,1
+%A A036513 _David W. Wilson_
+%E A036513 a(13)-a(15) from _Jon E. Schoenfield_, Jan 14 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

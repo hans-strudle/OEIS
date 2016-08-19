@@ -1,0 +1,1 @@
+{"formerly":"","seq":"12,16,40,44,64,92,112,208,400,476,568","description":"Numbers n such that x^n + x^10 + 2 is irreducible over GF(3).","mathematica":"Do[ If[ ToString[ Factor[ x^n + x^10 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^10 + 2 ], Print[ n ] ], {n, 0, 1250} ]","crossrefs":["Cf. A057480."],"keyword":"nonn","offset":"1,1","author":"_Robert G. Wilson v_, Nov 29 2000"}

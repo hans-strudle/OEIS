@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040755
+Showing 1-1 of 1
+
+%I A040755
+%S A040755 27,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,
+%T A040755 1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,
+%U A040755 54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54,1,54
+%N A040755 Continued fraction for sqrt(783).
+%H A040755 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040755 a(n)=(1/2)*[55+53*(-1)^n]-27*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 20 2009]
+%p A040755 with(numtheory): Digits := 300: convert(evalf(sqrt(783)),confrac);
+%K A040755 nonn,cofr,easy
+%O A040755 0,1
+%A A040755 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

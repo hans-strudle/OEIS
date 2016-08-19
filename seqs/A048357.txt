@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048357
+Showing 1-1 of 1
+
+%I A048357
+%S A048357 6,49,215,651,6651,66367,206020,635959,6651759,21411348,66651759,
+%T A048357 666816649,666651759,6666651759,64687340681
+%N A048357 a(n) is base of smallest triangle containing exactly n 2's.
+%H A048357 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TriangularNumber.html">Triangular Number</a>
+%Y A048357 Cf. A036519.
+%K A048357 nonn,base,more
+%O A048357 1,1
+%A A048357 _Patrick De Geest_, Mar 15 1999.
+%E A048357 a(14)-a(15) from _Lars Blomberg_, May 13 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032891
+Showing 1-1 of 1
+
+%I A032891
+%S A032891 1,2,4,5,8,9,10,11,13,14,18,19,20,22,23,26,36,37,38,40,41,45,46,47,49,
+%T A032891 50,53,72,73,74,76,77,80,81,82,83,90,91,92,94,95,99,100,101,103,104,
+%U A032891 107,117,118,119,121,122,126,127,128,130,131
+%N A032891 Numbers n such that base 3 representation Sum{d(i)*3^i: i=0,1,...,m has d(0)>=d(1)<=d(2)>=...
+%K A032891 nonn,base
+%O A032891 1,2
+%A A032891 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

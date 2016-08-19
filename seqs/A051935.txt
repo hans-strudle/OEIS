@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051935
+Showing 1-1 of 1
+
+%I A051935
+%S A051935 2,3,6,8,10,12,18,20,22,26,30,34,36,42,44,46,50,52,60,66,72,74,76,78,
+%T A051935 80,82,102,108,114,116,118,126,128,132,136,138,144,146,150,154,158,
+%U A051935 162,166,170,174,186,196,198,210,222,228,236,240,244,246,254,270,280,282
+%N A051935 a(n) = smallest number > a(n-1) such that a(1) + a(2) + ... + a(n) is a prime.
+%H A051935 T. D. Noe, <a href="/A051935/b051935.txt">Table of n, a(n) for n=1..2000</a>
+%e A051935 The third term is 6 because 2 + 3 + 6 = 11 is a prime.
+%t A051935 p=2;lst={p};Do[If[PrimeQ[p+n], AppendTo[lst, n];p=p+n], {n, 3, 10^3}];lst (* _Vladimir Joseph Stephan Orlovsky_, Aug 14 2008 *)
+%t A051935 nxt[{t_,a_}]:=Module[{k=a+1},While[!PrimeQ[t+k],k++];{t+k,k}]; Transpose[ NestList[ nxt,{2,2},60]][[2]] (* _Harvey P. Dale_, Apr 10 2016 *)
+%Y A051935 Cf. A051934.
+%K A051935 easy,nice,nonn
+%O A051935 1,1
+%A A051935 _Felice Russo_, Dec 21 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

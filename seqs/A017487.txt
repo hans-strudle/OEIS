@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017487
+Showing 1-1 of 1
+
+%I A017487
+%S A017487 512,6859,27000,68921,140608,250047,405224,614125,884736,1225043,
+%T A017487 1643032,2146689,2744000,3442951,4251528,5177717,6229504,7414875,
+%U A017487 8741816,10218313,11852352,13651919,15625000
+%N A017487 (11*n+8)^3.
+%H A017487 Vincenzo Librandi, <a href="/A017487/b017487.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017487 (MAGMA) [(11*n+8)^3: n in [0..40]]; // Vincenzo Librandi, Sep 04 2011
+%o A017487 (Maxima) makelist( (11*n+8)^3, n, 0, 30); [_Martin Ettl_, Oct 21 2012]
+%K A017487 nonn,easy
+%O A017487 0,1
+%A A017487 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

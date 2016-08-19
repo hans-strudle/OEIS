@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052806
+Showing 1-1 of 1
+
+%I A052806
+%S A052806 1,1,2,4,9,20,46,107,252,597,1425,3418,8235,19910,48287,117412,286150,
+%T A052806 698771,1709403,4188258,10276221
+%N A052806 A simple grammar.
+%H A052806 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=767">Encyclopedia of Combinatorial Structures 767</a>
+%p A052806 spec := [S,{C=Prod(B,Z),B=PowerSet(C),S=Sequence(C)},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052806 easy,nonn
+%O A052806 0,3
+%A A052806 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

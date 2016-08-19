@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040626
+Showing 1-1 of 1
+
+%I A040626
+%S A040626 25,1,1,6,1,3,1,3,2,5,1,16,5,1,1,1,1,2,12,2,1,1,1,1,5,16,1,5,2,3,1,3,
+%T A040626 1,6,1,1,50,1,1,6,1,3,1,3,2,5,1,16,5,1,1,1,1,2,12,2,1,1,1,1,5,16,1,5,
+%U A040626 2,3,1,3,1,6,1,1,50,1,1,6,1,3,1,3,2,5,1,16,5,1,1,1,1
+%N A040626 Continued fraction for sqrt(652).
+%H A040626 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040626 with(numtheory): Digits := 300: convert(evalf(sqrt(652)),confrac);
+%K A040626 nonn,cofr,easy,less
+%O A040626 0,1
+%A A040626 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

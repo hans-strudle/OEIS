@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060604
+Showing 1-1 of 1
+
+%I A060604
+%S A060604 2,3,10,35,462,1716,19448,75582,817190,20030010,84672315,1852482996,
+%T A060604 17620076360,78378960360,751616304549,14844575908435,277508869722315,
+%U A060604 1312251244423350,24151581961607100,225368761961739396
+%N A060604 a(n) = binomial(p(n), n) where p(n) = n-th prime.
+%H A060604 Harry J. Smith, <a href="/A060604/b060604.txt">Table of n, a(n) for n=1..100</a>
+%o A060604 (PARI) { n=0; forprime (p=1, 542, write("b060604.txt", n++, " ", binomial(p, n)); ) } \\ _Harry J. Smith_, Jul 07 2009
+%Y A060604 A058077, A060497.
+%K A060604 nonn
+%O A060604 1,1
+%A A060604 _Labos Elemer_, Apr 13 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

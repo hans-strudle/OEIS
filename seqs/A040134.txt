@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040134
+Showing 1-1 of 1
+
+%I A040134
+%S A040134 12,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,
+%T A040134 8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,24,8,
+%U A040134 24,8,24,8,24,8,24,8,24,8,24,8
+%N A040134 Continued fraction for sqrt(147).
+%H A040134 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040134 a(n)=16+8*(-1)^n-12*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 10 2009]
+%p A040134 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040134 ContinuedFraction[Sqrt[147],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 13 2011*)
+%K A040134 nonn,cofr,easy
+%O A040134 0,1
+%A A040134 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

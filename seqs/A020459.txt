@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020459
+Showing 1-1 of 1
+
+%I A020459
+%S A020459 2,7,227,277,727,2777,7727,22277,22727,22777,27277,72227,72277,72727,
+%T A020459 272227,272777,727777,777277,2227727,2227777,2272727,2277727,2727727,
+%U A020459 2772227,7272227,7722277,7727777,7772777,7777727,22227277,22272277
+%N A020459 Primes that contain digits 2 and 7 only.
+%H A020459 Vincenzo Librandi, <a href="/A020459/b020459.txt">Table of n, a(n) for n = 1..1000</a>
+%t A020459 Flatten[Table[Select[FromDigits/@Tuples[{2,7},n],PrimeQ],{n,8}]] (* _Vincenzo Librandi_, Jul 27 2012 *)
+%o A020459 (MAGMA) [p: p in PrimesUpTo(22272277) | Set(Intseq(p)) subset [2, 7]]; // Vincenzo Librandi, Jul 27 2012
+%K A020459 nonn,base
+%O A020459 1,1
+%A A020459 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

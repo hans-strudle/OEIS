@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027042
+Showing 1-1 of 1
+
+%I A027042
+%S A027042 1,4,11,52,225,920,3695,14464,55593,210776,789995,2933380,10807625,
+%T A027042 39556316,143958335,521340016,1879901265,6753038624,24176722555,
+%U A027042 86294777316,307179518193,1090771084252,3864614381391,13664531314176
+%N A027042 a(n) = Sum{T(n,k)*T(n,2n-k)}, 0<=k<=n-1, T given by A027023.
+%K A027042 nonn
+%O A027042 1,2
+%A A027042 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

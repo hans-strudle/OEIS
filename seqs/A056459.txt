@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056459
+Showing 1-1 of 1
+
+%I A056459
+%S A056459 3,0,6,6,24,18,78,72,234,216,726,696,2184,2106,6528,6480,19680,19422,
+%T A056459 59046,58800,177060,176418,531438,530640,1594296,1592136,4782726,
+%U A056459 4780776,14348904,14342112,43046718
+%N A056459 Primitive (aperiodic) palindromes using a maximum of three different symbols.
+%D A056459 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056459 Sum mu(d)*A056449(n/d) where d|n.
+%K A056459 nonn
+%O A056459 1,1
+%A A056459 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

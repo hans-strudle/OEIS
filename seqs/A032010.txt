@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032010
+Showing 1-1 of 1
+
+%I A032010
+%S A032010 1,1,1,2,4,9,23,62,164,449,1263,3636,10500,30859,90895,271178,810918,
+%T A032010 2447715,7406439,22589066,68974940,211989119,652180385,2016872920,
+%U A032010 6242930834,19412141273,60390977831,188627507266
+%N A032010 Number of rooted planar trees where any 2 subtrees extending from same node have a different number of nodes.
+%H A032010 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032010 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032010 "CFK" (Necklace, size, unlabeled) transform of A032009 (shifted right one place)
+%K A032010 nonn
+%O A032010 1,4
+%A A032010 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

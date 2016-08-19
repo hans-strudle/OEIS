@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056478
+Showing 1-1 of 1
+
+%I A056478
+%S A056478 1,0,1,1,4,3,14,13,49,46,186,181,714,700,2789,2780,11050,10997,43946,
+%T A056478 43895,175259,175088,700074,699875,2798246,2797536,11188856,11188191,
+%U A056478 44747434,44744591,178973354
+%N A056478 Number of primitive (aperiodic) palindromic structures using a maximum of four different symbols.
+%C A056478 Permuting the symbols will not change the structure.
+%D A056478 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056478 Sum mu(d)*b(n/d) where d|n and b() = 1, 1, 2, 2, 5, 5, 15, 15, 51, 51, 187, 187, 715, 715, ... is A007581 doubled up.
+%Y A056478 Cf. A056460.
+%K A056478 nonn
+%O A056478 1,5
+%A A056478 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

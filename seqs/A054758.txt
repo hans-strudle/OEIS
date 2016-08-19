@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054758
+Showing 1-1 of 1
+
+%I A054758
+%S A054758 1,1,1,1,2,1,2,3,2,8,5,4,1,6,3,13,7,2,1,6,2,3,5,7,7,8,31,1,22,6,60,20,
+%T A054758 12,5,2,12,5,16,7,20,1,2,14,42,23,16,13,30,53,5,7,36,10,10,67,6,2,40,
+%U A054758 24,3,28,59,6,4,76,1,74,5,30,16,2,39,6,56,138,3,22,37,11,8,35,102,156
+%N A054758 a(n) is the smallest multiplier so that A002110(n)*w+Prime(n+1)^2 is prime.
+%C A054758 For n=1,2,3,4,6,13,19,28,41,66,85,... A002110[n]+Prime[n+1]^2 is a prime, that is the multiplier: w=1.
+%e A054758 2310+169=2479=37*67=2.3.5.7.11+13^2 is not prime but 2*2310+169=4789 is a prime.
+%Y A054758 Cf. A002110.
+%K A054758 nonn
+%O A054758 1,5
+%A A054758 _Labos Elemer_, Apr 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

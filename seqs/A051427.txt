@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051427
+Showing 1-1 of 1
+
+%I A051427
+%S A051427 0,0,0,0,0,0,0,3,2,1,0,6,1
+%N A051427 Number of strictly Deza graphs with n nodes.
+%C A051427 From the Erikson et al. paper: We consider the following generalization of strongly regular graphs. A graph G is a Deza graph if it is regular and the number of common neighbors of two distinct vertices takes on one of two values (not necessarily depending on the adjacency of the two vertices). We introduce several ways to construct Deza graphs and develop some basic theory. We also list all diameter two Deza graphs which are not strongly regular and have at most 13 vertices. - _Jonathan Vos Post_, Jul 06 2008
+%D A051427 M. Erickson et al., Deza graphs: a generalization of strongly regular graphs, J. Comb. Des., 7 (1999), 395-405.
+%H A051427 M. Erickson, S. Fernando, W. H. Haemers, D. Hardy and J. Hemmeter, <a href="http://www3.interscience.wiley.com/journal/66003804/abstract?CRETRY=1&amp;SRETRY=0">Deza graphs: A generalization of strongly regular graph</a>, J. Combinatorial Designs, Vol 7, Issue 6, 395-405, Oct 21, 1999.
+%Y A051427 Cf. A000517, A076434, A076435, A088741.
+%K A051427 nonn,nice
+%O A051427 1,8
+%A A051427 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

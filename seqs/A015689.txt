@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015689
+Showing 1-1 of 1
+
+%I A015689
+%S A015689 1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,
+%T A015689 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015689 0,0,0,0,0,0,0,0,0,0,0,0,0,1
+%V A015689 1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,-1,
+%W A015689 0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015689 0,0,0,0,0,0,0,0,0,0,0,0,0,1
+%N A015689 Inverse of 1680th cyclotomic polynomial.
+%p A015689 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n, x), x,80);
+%K A015689 sign
+%O A015689 0,1
+%A A015689 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040434
+Showing 1-1 of 1
+
+%I A040434
+%S A040434 21,2,1,4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,
+%T A040434 2,1,4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,2,1,
+%U A040434 4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,2,1,4,1,2,42,2,1
+%N A040434 Continued fraction for sqrt(456).
+%H A040434 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040434 a(n)=(1/90)*{-548*(n mod 6)+37*[(n+1) mod 6]+97*[(n+2) mod 6]+7*[(n+3) mod 6]+67*[(n+4) mod 6]+652*[(n+5) mod 6]}-21*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 30 2009]
+%p A040434 with(numtheory): Digits := 300: convert(evalf(sqrt(456)),confrac);
+%K A040434 nonn,cofr,easy,less
+%O A040434 0,1
+%A A040434 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

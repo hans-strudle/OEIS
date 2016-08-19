@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009120
+Showing 1-1 of 1
+
+%I A009120
+%S A009120 1,12,1680,665280,518918400,670442572800,1295295050649600,
+%T A009120 3497296636753920000,12576278705767096320000,
+%U A009120 58102407620643984998400000,335367096786357081410764800000
+%N A009120 (4n)!/(2n)!.
+%C A009120 Expansion of cos(x^2).
+%C A009120 Bisection of sequence A001813 - Gary W. Adamson, Jul 19 2011
+%H A009120 Vincenzo Librandi, <a href="/A009120/b009120.txt">Table of n, a(n) for n = 0..100</a>
+%F A009120 Integral representation as n-th moment of a positive function on a positive half-axis, in Maple notation: a(n)=int((1/4)*exp(-1/4*sqrt(x))/(sqrt(Pi)*x^(3/4)), x=0..infinity), n=0, 1... - _Karol A. Penson_, Sep 19 2001
+%F A009120 Contribution from Gary W. Adamson, Jul 19 2011: (Start)
+%F A009120 a(n) = upper left term of M^(2n), where M = an infinite square production matrix as follows:
+%F A009120   2, 2, 0, 0, 0, 0,...
+%F A009120   4, 4, 4, 0, 0, 0,...
+%F A009120   6, 6, 6, 6, 0, 0,...
+%F A009120   8, 8, 8, 8, 8, 0,...
+%F A009120   ... (end)
+%t A009120 Table[(4n)!/(2n)!,{n,0,10}] (* or *) With[{nn=60},Abs[Take[ CoefficientList[ Series[ Cos[x^2],{x,0,nn}],x] Range[0,nn]!,{1,-1,4}]]] (* _Harvey P. Dale_, Mar 27 2012 *)
+%o A009120 (MAGMA) [Factorial(4*n)/Factorial(2*n): n in [0..15]]; // Vincenzo Librandi, Jul 20 2011
+%Y A009120 Equals 4^n * A1002992(n).
+%K A009120 nonn,easy
+%O A009120 0,2
+%A A009120 _R. H. Hardin_
+%E A009120 Extended by _Olivier Gérard_, Mar 01, 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

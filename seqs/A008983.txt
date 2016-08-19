@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008983
+Showing 1-1 of 1
+
+%I A008983
+%S A008983 1,2,5,20,82,435,2645,18489,141326,1153052,9819315
+%N A008983 Number of immersions of the unoriented circle into the unoriented plane with n double points.
+%D A008983 V. I. Arnold, Topological Invariants of Plane Curves..., American Math. Soc., 1994, p. 16.
+%H A008983 S. M. Gusein-Zade and F. S. Duzhin, <a href="http://www.botik.ru/~duzhin/as/dataprog/">On the number of topological types of plane curves</a>; (Russian) Uspekhi Mat. Nauk 53 (1998), no. 3(321), 197-198. English translation: Russian Mathematical Surveys 53 (1998) 626-627.
+%H A008983 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Knots, links and tangles</a>
+%Y A008983 Cf. A008980, A008981, A008982, A008984, A008985, A054993.
+%K A008983 nonn,nice
+%O A008983 0,2
+%A A008983 _N. J. A. Sloane_
+%E A008983 Additional comments from _Sergei Duzhin_, Nov 11 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

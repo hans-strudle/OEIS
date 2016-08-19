@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061141
+Showing 1-1 of 1
+
+%I A061141
+%S A061141 7,12,18,28,31,39,42,60,72,91,90,96,84,124,120,168,144,144,195,168,
+%T A061141 186,224,252,217,216,210,280,248,360,255,336,288,403,372,392,378,294,
+%U A061141 480,372,546,384,508,399,468,576,600,504,560,450,546,744,504,728,588,720
+%N A061141 Compute sum of divisors of the p(n+1)-p(n)-1 composite numbers between two consecutive primes; choose the largest.
+%H A061141 Harry J. Smith, <a href="/A061141/b061141.txt">Table of n, a(n) for n=0,...,1000</a>
+%F A061141 a(n)=Max{sigma(c); p(n+1)>c>p(n)}, c is composite, p(n) is the n-th prime and sigma=A000203()
+%o A061141 (PARI) { n=-1; q=3; forprime (p=5, prime(1003), a=0; for (i=q + 1, p - 1, a=max(sigma(i), a)); q=p; write("b061141.txt", n++, " ", a) ) } [From _Harry J. Smith_, Jul 18 2009]
+%Y A061141 A000203, A061120.
+%K A061141 nonn
+%O A061141 0,1
+%A A061141 _Labos Elemer_, May 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

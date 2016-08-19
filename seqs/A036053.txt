@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036053
+Showing 1-1 of 1
+
+%I A036053
+%S A036053 1,1,1,2,4,6,10,60,288,1044,8526,8930,322560,210540,7296,7001280,
+%T A036053 6650138880,353760000,44528400,6398154000,74839427712000,
+%U A036053 11993857920000,52321920,3728928000,81060800163840,1338148188
+%N A036053 Product of order of cycles of the permutation created by length sorting on the partitions of n.
+%Y A036053 Cf. A036045-A036056.
+%K A036053 nonn
+%O A036053 1,4
+%A A036053 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

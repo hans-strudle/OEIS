@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017480
+Showing 1-1 of 1
+
+%I A017480
+%S A017480 5764801,11019960576,500246412961,6553600000000,45767944570401,
+%T A017480 218340105584896,806460091894081,2478758911082496,6634204312890625,
+%U A017480 15938480745308416,35114532758015841,72057594037927936
+%N A017480 (11*n+7)^8.
+%H A017480 Vincenzo Librandi, <a href="/A017480/b017480.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017480 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9, -36, 84, -126, 126, -84, 36, -9, 1).
+%t A017480 (11*Range[0,20]+7)^8 (* or *) LinearRecurrence[{9,-36,84,-126,126,-84,36,-9,1},{5764801,11019960576,500246412961,6553600000000,45767944570401,218340105584896,806460091894081,2478758911082496,6634204312890625},20] (* _Harvey P. Dale_, Mar 30 2016 *)
+%o A017480 (MAGMA) [(11*n+7)^8: n in [0..20]]; // Vincenzo Librandi, Sep 04 2011
+%K A017480 nonn,easy
+%O A017480 0,1
+%A A017480 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

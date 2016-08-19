@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046313
+Showing 1-1 of 1
+
+%I A046313
+%S A046313 1024,1536,2048,2304,2560,3072,3456,3584,3840,4096,4608,5120,5184,
+%T A046313 5376,5632,5760,6144,6400,6656,6912,7168,7680,7776,8064,8192,8448,
+%U A046313 8640,8704,8960,9216,9600,9728,9984,10240,10368,10752,11264,11520,11664,11776
+%N A046313 Numbers that are divisible by at least 10 primes (counted with multiplicity).
+%F A046313 Product p_i^e_i with Sum e_i >= 10.
+%o A046313 (PARI) is(n)=bigomega(n)>9 \\ _Charles R Greathouse IV_, Sep 17 2015
+%Y A046313 Cf. A046314.
+%K A046313 nonn
+%O A046313 1,1
+%A A046313 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

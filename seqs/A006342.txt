@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006342
+Showing 1-1 of 1
+
+%I A006342 M3398
+%S A006342 1,1,4,10,31,91,274,820,2461,7381,22144,66430,199291,597871,1793614,
+%T A006342 5380840,16142521,48427561,145282684,435848050,1307544151,3922632451,
+%U A006342 11767897354,35303692060,105911076181,317733228541
+%N A006342 Coloring a circuit with 4 colors.
+%D A006342 F. R. Bernhart, Topics in Graph Theory Related to the Five Color Conjecture. Ph.D. Dissertation, Kansas State Univ., 1974.
+%D A006342 G. D. Birkhoff, D. C. Lewis, Chromatic polynomials. Trans. Amer. Math. Soc. 60, (1946). 355-451.
+%D A006342 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006342 Vincenzo Librandi, <a href="/A006342/b006342.txt">Table of n, a(n) for n = 0..1000</a>
+%H A006342 Gesualdo Delfino and Jacopo Viti, <a href="http://arxiv.org/abs/1104.4323">Potts q-color field theory and scaling random cluster model</a>, arXiv preprint arXiv:1104.4323, 2011.
+%H A006342 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A006342 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%F A006342 G.f.: (1 - 2 x ) / ( 1 - x^2 ) ( 1 - 3 x ).
+%F A006342 Binomial transform of A002001 (with interpolated zeros). Partial sums of A054878. E.g.f.: exp(x)(3cosh(2x)+1)/4; a(n)=3*3^n/8+1/4+3(-1)^n/8=sum{k=0..n, (3^k+3(-1)^k)/4 }. - _Paul Barry_, Sep 03 2003
+%F A006342 a(n) = 2*a(n-1) + 3*a(n-2) - 1, n>1 [From _Gary Detlefs_, Jun 21 2010]
+%p A006342 A006342:=-(-1+2*z)/(z-1)/(3*z-1)/(z+1); [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%p A006342 a[0]:=0:a[1]:=1:for n from 2 to 50 do a[n]:=2*a[n-1]+3*a[n-2]-1 od: seq(a[n], n=1..26); - _Zerinvary Lajos_, Apr 28 2008
+%o A006342 (MAGMA) [3*3^n/8+1/4+3*(-1)^n/8: n in [0..30]]; // Vincenzo Librandi, Aug 20 2011
+%K A006342 nonn
+%O A006342 0,3
+%A A006342 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

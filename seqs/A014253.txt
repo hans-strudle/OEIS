@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014253
+Showing 1-1 of 1
+
+%I A014253
+%S A014253 0,1,1,4,25,841,749956,563696135209,317754178344723197077225,
+%T A014253 100967717855888389973004528722798800700252204356
+%N A014253 a(n) = b(n)^2, where b(n) = b(n-1)^2 + b(n-2)^2 (A000283).
+%H A014253 <a href="/index/Aa#AHSL">Index entries for sequences of form a(n+1)=a(n)^2 + ...</a>
+%F A014253 a(n+2) = (a(n+1)+a(n))^2. - _Benoit Cloitre_, Dec 29 2001
+%o A014253 (MAGMA) [0] cat [n le 2 select 1 else (Self(n-1)+Self(n-2))^2: n in [1..10]]; // _Vincenzo Librandi_, Apr 02 2015
+%K A014253 nonn
+%O A014253 0,4
+%A A014253 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

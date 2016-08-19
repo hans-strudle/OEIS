@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032168
+Showing 1-1 of 1
+
+%I A032168
+%S A032168 1,5,22,70,200,497,1144,2424,4862,9225,16796,29372,49742,81686,130750,
+%T A032168 204248,312455,468611,690690,1001400,1430715,2015871,2804880,3856528,
+%U A032168 5245125,7060508,9414328,12440056,16301164
+%N A032168 Number of aperiodic necklaces of n beads of 2 colors, 10 of them black.
+%H A032168 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032168 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A032168 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
+%F A032168 "CHK[ 10 ]" (necklace, identity, unlabeled, 10 parts) transform of 1, 1, 1, 1...
+%K A032168 nonn
+%O A032168 11,2
+%A A032168 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

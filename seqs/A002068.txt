@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002068
+Showing 1-1 of 1
+
+%I A002068 M3728 N1524
+%S A002068 1,1,0,5,1,0,5,2,8,18,19,7,16,13,6,34,27,56,12,69,11,73,20,70,70,72,
+%T A002068 57,1,30,95,71,119,56,67,94,86,151,108,21,106,48,72,159,35,147,118,
+%U A002068 173,180,113,131,169,107,196,214,177,73,121,170,25,277,164,231,271,259,288,110
+%N A002068 Wilson remainders: a(n) = ((p-1)!+1)/p mod p, where p = prime(n).
+%C A002068 If this is zero, p is a Wilson prime (see A007540).
+%C A002068 Costa, Gerbicz, & Harvey give an efficient algorithm for computing terms of this sequence. - _Charles R Greathouse IV_, Nov 09 2012
+%D A002068 R. Crandall and C. Pomerance, Prime Numbers: A Computational Perspective, Springer, NY, 2001; see p. 29.
+%D A002068 C.-E. Froberg, Investigation of the Wilson remainders in the interval 3<=p<=50,000, Arkiv f. Matematik, 4 (1961), 479-481.
+%D A002068 K. Goldberg, A table of Wilson quotients and the third Wilson prime, J. London Math. Soc., 28 (1953), 252-256.
+%D A002068 J. Roberts, Lure of the Integers, Math. Assoc. America, 1992, p. 244.
+%D A002068 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002068 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002068 T. D. Noe, <a href="/A002068/b002068.txt">Table of n, a(n) for n = 1..2000</a>
+%H A002068 Edgar Costa, Robert Gerbicz, and David Harvey, <a href="http://arxiv.org/abs/1209.3436">A search for Wilson primes</a>, 2012
+%H A002068 J. Sondow, <a href="http://arxiv.org/abs/1110.3113"> Lerch Quotients, Lerch Primes, Fermat-Wilson Quotients, and the Wieferich-non-Wilson Primes 2, 3, 14771</a>, in Proceedings of CANT 2011, arXiv:1110.3113
+%H A002068 J. Sondow, <a href="http://link.springer.com/chapter/10.1007%2F978-1-4939-1601-6_17">Lerch Quotients, Lerch Primes, Fermat-Wilson Quotients, and the Wieferich-non-Wilson Primes 2, 3, 14771</a>, Combinatorial and Additive Number Theory, CANT 2011 and 2012, Springer Proc. in Math. & Stat., vol. 101 (2014), pp. 243-255.
+%F A002068 a(n) = A007619(n) mod A000040(n).
+%p A002068 f:= p -> ((p-1)!+1 mod p^2)/p;
+%p A002068 seq(f(ithprime(i)),i=1..1000); # _Robert Israel_, Jun 15 2014
+%t A002068 Table[p=Prime[n]; Mod[((p-1)!+1)/p, p], {n,100}] (* _T. D. Noe_, Mar 21 2006 *)
+%o A002068 (PARI) forprime(n=2, 10^2, m=(((n-1)!+1)/n)%n; print1(m, ", ")) \\ _Felix Fröhlich_, Jun 14 2014
+%Y A002068 Cf. A007540, A007619.
+%K A002068 nonn,nice,easy
+%O A002068 1,4
+%A A002068 _N. J. A. Sloane_, Apr 30 1991
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

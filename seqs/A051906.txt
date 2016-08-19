@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051906
+Showing 1-1 of 1
+
+%I A051906
+%S A051906 1,0,0,0,10,0,28,0,0,0,88,0,4524,0,0,0,140692,0,820496,0,0,0,
+%T A051906 128850048,0,1957725000,0,0,0,605917055356,0,13404947681712,0,0,0
+%N A051906 Number of ways of placing n nonattacking toroidal queens on an n X n chessboard.
+%C A051906 The sequence is given to n=23 in the reference. Further terms were calculated by the submitter, Dec 17 1999 and Jan 11 2001.
+%C A051906 a(n) is divisible by n.
+%D A051906 M. R. Engelhardt, A group-based search for solutions of the n-queens problem, Discr. Math., 307 (2007), 2535-2551.
+%D A051906 I. Rivin, I. Vardi and P. Zimmermann, The n-queens problem, Amer. Math. Monthly, 101 (1994), 629-639
+%H A051906 V. Kotesovec, <a href="https://oeis.org/wiki/User:Vaclav_Kotesovec">Non-attacking chess pieces</a>, 6ed, 2013
+%Y A051906 See A007705, which is the main entry for this sequence.
+%K A051906 nonn,nice,hard,more
+%O A051906 1,5
+%A A051906 _Matthias Engelhardt_, Dec 17 1999
+%E A051906 Term a(31) added from A007705 by _Vaclav Kotesovec_, Aug 25 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

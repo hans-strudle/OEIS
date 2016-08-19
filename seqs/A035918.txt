@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035918
+Showing 1-1 of 1
+
+%I A035918
+%S A035918 1,14112,33200832,31270754144,15800653486464,4977542380850592,
+%T A035918 1071822174138228800,167907946699820252640,20019527493762044941056,
+%U A035918 1879888501280846931938336,142817619730269235112367552
+%N A035918 Coordination sequence for diamond structure D^+_84. (Edges defined by l_1 norm = 1.)
+%D A035918 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035918 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%p A035918 f := proc(m) local k,t1; t1 := 2^(n-1)*binomial((n+2*m)/2-1,n-1); if m mod 2 = 0 then t1 := t1+add(2^k*binomial(n,k)*binomial(m-1,k-1),k=0..n); fi; t1; end; where n=84.
+%K A035918 nonn
+%O A035918 0,2
+%A A035918 J. Serra-Sagrista (jserra(AT)ccd.uab.es) Recomputed by _N. J. A. Sloane_ Nov 27 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

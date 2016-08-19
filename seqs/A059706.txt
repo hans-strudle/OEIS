@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059706
+Showing 1-1 of 1
+
+%I A059706
+%S A059706 2,19,5,2,2,107,2,23,131,2,17,7,71,41,47,53,2,157,79,641,47,743,109,2,
+%T A059706 19,5,1201,193,541,47,643,1231,3023,173,113,5,2,101,67,71,349,353,5,
+%U A059706 53,2,709,163,677,4337,1327,919,769,317,23,2,503,1009,197,167,1663,23,37
+%N A059706 Smallest prime p such that p^n reversed is a prime.
+%t A059706 Do[ k = 2; While[ ! PrimeQ[ k ] || ! PrimeQ[ ToExpression[ StringReverse[ ToString[ k^n ] ] ] ], k++ ]; Print[ k ], {n, 1, 100} ]
+%Y A059706 Cf. A059215.
+%K A059706 base,nonn
+%O A059706 1,1
+%A A059706 _Robert G. Wilson v_, Feb 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

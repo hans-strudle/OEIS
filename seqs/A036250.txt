@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036250
+Showing 1-1 of 1
+
+%I A036250
+%S A036250 1,1,2,3,7,14,35,85,231,633,1845,5461,16707,51945,164695,529077,
+%T A036250 1722279,5664794,18813369,62996850,212533226,721792761,2466135375,
+%U A036250 8471967938,29249059293,101440962296,353289339927,1235154230060
+%N A036250 Number of trees of nonempty sets with n points. (Each node is a set of 1 or more points.)
+%H A036250 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A036250 G.f.: B(x) - B^2(x)/2 + B(x^2)/2, where B(x) is g.f. for A036249.
+%Y A036250 Essentially the same as A036251. Cf. A000055, A038052.
+%K A036250 nonn
+%O A036250 0,3
+%A A036250 _Christian G. Bower_, Nov 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

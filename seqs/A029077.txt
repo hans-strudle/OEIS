@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029077
+Showing 1-1 of 1
+
+%I A029077
+%S A029077 1,1,1,1,2,2,2,3,4,4,4,5,7,7,8,9,11,11,12,14,16,17,18,20,23,24,26,28,
+%T A029077 32,33,35,38,42,44,46,50,55,57,60,64,70,72,76,81,87,90,94,100,107,111,
+%U A029077 116,122,130,134,140,147,156
+%N A029077 Expansion of 1/((1-x)(1-x^4)(1-x^7)(1-x^12)).
+%K A029077 nonn
+%O A029077 0,5
+%A A029077 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

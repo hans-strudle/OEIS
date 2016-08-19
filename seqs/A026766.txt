@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026766
+Showing 1-1 of 1
+
+%I A026766
+%S A026766 1,1,3,5,13,24,59,115,273,552,1278,2655,6031,12795,28632,61775,136572,
+%T A026766 298764,653948,1447225,3141427,7020833,15132512,34106865,73069892,
+%U A026766 165903082,353576829,807957495,1714132308,3939206346
+%N A026766 a(n) = T(n,0) + T(n,1) + ... + T(n,[ n/2 ]), T given by A026758.
+%K A026766 nonn
+%O A026766 0,3
+%A A026766 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

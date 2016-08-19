@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060129
+Showing 1-1 of 1
+
+%I A060129
+%S A060129 0,2,2,3,2,3,2,4,3,4,3,4,2,3,3,4,4,4,2,3,4,4,3,4,2,4,4,5,4,5,3,5,4,5,
+%T A060129 4,5,3,4,4,5,5,5,3,4,5,5,4,5,2,4,3,4,3,4,3,5,4,5,4,5,4,5,4,5,5,5,4,5,
+%U A060129 5,5,4,5,2,3,3,4,4,4,4,5,4,5,5,5,3,4,4,5,5,5,4,4,5,5,5,5,2,3,4,4,3,4,4,5,5
+%N A060129 Number of moved (non-fixed) elements in each permutation of the sequences A060117/A060118, i.e. the sum of the cycle lengths (excluding the 1-cycles, i.e. the fixed elements).
+%F A060129 a(n) = count_nonfixed(convert(PermUnrank3L(n), 'disjcyc'))
+%Y A060129 a[n] = A060128[n] + A060130[n]. Cf. A055093.
+%K A060129 nonn
+%O A060129 0,2
+%A A060129 _Antti Karttunen_, Mar 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

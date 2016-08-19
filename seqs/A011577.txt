@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011577
+Showing 1-1 of 1
+
+%I A011577
+%S A011577 1,134217727,3812664524766,2998587019946701,307440364830580800,
+%T A011577 8220146115188676396,82892803728383735268,392678226281361931131,
+%U A011577 1006698291338432496375,1538533978374777852325,1501910658871554621690
+%N A011577 Stirling numbers of second kind S2(28,n).
+%D A011577 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 835.
+%D A011577 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 223.
+%H A011577 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%o A011577 (Maxima) A011577(n):=stirling2(28,n)$
+%o A011577 makelist(A011577(n),n,1,30); /* _Martin Ettl_, Nov 05 2012 */
+%K A011577 nonn,fini
+%O A011577 1,2
+%A A011577 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010977
+Showing 1-1 of 1
+
+%I A010977
+%S A010977 1,25,325,2925,20475,118755,593775,2629575,10518300,38567100,
+%T A010977 131128140,417225900,1251677700,3562467300,9669554100,25140840660,
+%U A010977 62852101650,151584480450,353697121050,800472431850,1761039350070,3773655750150,7890371113950,16123801841550
+%N A010977 Binomial coefficient C(n,24).
+%H A010977 T. D. Noe, <a href="/A010977/b010977.txt">Table of n, a(n) for n = 24..1000</a>
+%F A010977 Gf.: 1/(1-x)^25. [From _Zerinvary Lajos_, Aug 04 2008]
+%F A010977 a(n) = n/(n-24) * a(n-1), n>24. - Vincenzo Librandi, Mar 26 2011
+%p A010977 seq(binomial(n,24),n=24..41); [From _Zerinvary Lajos_, Aug 04 2008]
+%t A010977 Table[Binomial[n,24],{n,24,50}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 26 2011 *)
+%o A010977 (MAGMA) [ Binomial(n,24): n in [24..90]]; - Vincenzo Librandi, Mar 26 2011
+%Y A010977 Pascal's triangle A007318 diagonal [From _Zerinvary Lajos_, Aug 04 2008]
+%Y A010977 Cf. A010970, A010971, A010972.
+%K A010977 nonn
+%O A010977 24,2
+%A A010977 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

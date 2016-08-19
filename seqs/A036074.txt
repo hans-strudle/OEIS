@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036074
+Showing 1-1 of 1
+
+%I A036074
+%S A036074 1,2,9,55,412,3619,36333,408888,5080907,68914023,1011165446,
+%T A036074 15935379409,268125052373,4792458452162,90605469012877,
+%U A036074 1805135197261131,37775862401203916,827992670793489263
+%N A036074 E.g.f.: exp((exp(p*x)-p-1)/p+exp(x)) for p=4.
+%D A036074 T. S. Motzkin, Sorting numbers for cylinders and other classification numbers, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176.
+%D A036074 T. S. Motzkin, Sorting numbers ...: for a link to an annotated scanned version of this paper see A000262.
+%H A036074 <a href="/index/So#sorting">Index entries for sequences related to sorting</a>
+%H A036074 Kruchinin Vladimir Victorovich, <a href="http://arxiv.org/abs/1009.2565">Composition of ordinary generating functions</a>, arXiv:1009.2565
+%F A036074 a(n)=sum(sum(binomial(m,i)*sum(binomial(i,j)*(1/4)^j*(3*j+i)^n,j,0,i)*(-5/4)^(m-i),i,0,m)/m!,m,1,n), n>0. [From _Vladimir Kruchinin_, Sep 14 2010]
+%t A036074 mx = 16; p = 4; Range[0, mx]! CoefficientList[ Series[ Exp[ (Exp[p*x] - p - 1)/p + Exp[x]], {x, 0, mx}], x] (* _Robert G. Wilson v_, Dec 12 2012 *)
+%o A036074 (Other) a(n):=sum(sum(binomial(m,i)*sum(binomial(i,j)*(1/4)^j*(3*j+i)^n,j,0,i)*(-5/4)^(m-i),i,0,m)/m!,m,1,n); (for Maxima) [From _Vladimir Kruchinin_, Sep 14 2010]
+%Y A036074 Cf. A001861, A002872, A002873, A002874, A002875, A036076, ...
+%K A036074 nonn
+%O A036074 0,2
+%A A036074 _N. J. A. Sloane_.
+%E A036074 Edited by _N. J. A. Sloane_, Jul 11 2008 at the suggestion of Franklin T. Adams-Watters.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

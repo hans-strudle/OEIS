@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059322
+Showing 1-1 of 1
+
+%I A059322
+%S A059322 2,4,12,24,12,24,24,60,12,48,36,84,12,24,84,12,24,60,24,132,120,24,24,
+%T A059322 96,36,168,96,24,12,48,72,48,36,96,204,84,120,12,24,36,108,240,12,120,
+%U A059322 240,60,24,60,36,24,96,48,36,264,156,156,24,60,84,60,72,48,12,120,24
+%N A059322 First differences of sequence of consecutive safe primes.
+%F A059322 a(n)=A005385(n+1)-A05385(n)
+%e A059322 Except for (5,7) and (7,11), all terms are divisible by 12, since safe primes are congruent to 5 modulo 6 except 7 and safe_prime+6 is not a safe prime. Closest safe primes differ by 12 like (11,23) or (83207,83219).
+%t A059322 Differences[Select[Prime[Range[500]],PrimeQ[(#-1)/2]&]]  [From Harvey P. Dale, Jan. 12, 2011]
+%Y A059322 Cf. A005385, A033299.
+%K A059322 nonn
+%O A059322 0,1
+%A A059322 _Labos Elemer_, Jan 26 2001
+%E A059322 Fixed cross reference in formula [Harvey P. Dale, Jan. 12, 2011]
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

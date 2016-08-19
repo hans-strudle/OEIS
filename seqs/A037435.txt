@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037435
+Showing 1-1 of 1
+
+%I A037435
+%S A037435 1,2,3,4,5,708,717,859,1093,1128,1129,1130,1131,1132,1133,1157,1165,
+%T A037435 1602,1627,1643,1676,2209,2305,2561,2897,4107,4123,4131,4139,4179,
+%U A037435 4834,4907,4963,5408,5892,5901,5914,5987,6217,6237,6253,6277,6312
+%N A037435 Numbers n such that the set of base 6 digits of n equals the set of base 8 digits of n.
+%K A037435 nonn,base
+%O A037435 1,2
+%A A037435 _Clark Kimberling_
+%E A037435 More terms from Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

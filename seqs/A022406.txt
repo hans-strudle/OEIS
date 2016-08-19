@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022406
+Showing 1-1 of 1
+
+%I A022406
+%S A022406 3,7,11,19,31,51,83,135,219,355,575,931,1507,2439,3947,6387,10335,
+%T A022406 16723,27059,43783,70843,114627,185471,300099,485571,785671,1271243,
+%U A022406 2056915,3328159,5385075,8713235,14098311,22811547,36909859,59721407,96631267,156352675
+%N A022406 a(0)=3, a(1)=7; thereafter a(n)=a(n-1)+a(n-2)+1.
+%H A022406 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-1).
+%F A022406 a(n) = 4*A000045(n+2)-1. - _Ron Knott_, Aug 25 2006
+%F A022406 a(n)=A022403(n+1). O.g.f.: (3+x-3*x^2)/((1-x)*(1-x-x^2)). a(n+1)-a(n)=A022087(n+1). - _R. J. Mathar_, May 28 2008
+%t A022406 Table[4*Fibonacci[n + 2] - 1, {n, 0, 100}] (* _Vladimir Joseph Stephan Orlovsky_, Jun 28 2011 *)
+%Y A022406 Cf. A122195. See A022403 for a very similar sequence.
+%K A022406 nonn
+%O A022406 0,1
+%A A022406 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

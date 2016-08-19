@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036314
+Showing 1-1 of 1
+
+%I A036314
+%S A036314 9,27,81,129,243,387,729,1161,1299,1329,1849,2187,3483,3897,3987,5547,
+%T A036314 6561,10029,10299,10449,11691,11961,16641,18619,19049,19683,30087,
+%U A036314 30897,31347,35073,35883,49923,55857,57147,59049,79507,90261,92691
+%N A036314 Composite numbers n such that digits of prime factors of n are either 3 or 4.
+%Y A036314 Cf. A036302-A036325.
+%K A036314 nonn,base
+%O A036314 1,1
+%A A036314 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

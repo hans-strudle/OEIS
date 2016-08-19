@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016011
+Showing 1-1 of 1
+
+%I A016011
+%S A016011 1,1,0,0,0,0,0,1,1,0,0,1,1,1,0,1,0,0,1,1,1,0,0,1,1,0,0,0,0,0,1,
+%T A016011 1,0,1,1,1,1,0,0,1,0,1,1,1,1,1,2,1,0,0,0,0,0,1,1,1,1,1,1,
+%U A016011 1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1
+%V A016011 1,1,0,0,0,0,0,-1,-1,0,0,-1,-1,-1,0,1,0,0,1,1,1,0,0,1,1,0,0,0,0,0,-1,
+%W A016011 -1,0,-1,-1,-1,-1,0,0,-1,0,1,1,1,1,1,2,1,0,0,0,0,0,-1,-1,-1,-1,-1,-1,
+%X A016011 -1,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,-1,-1
+%N A016011 Inverse of 2002nd cyclotomic polynomial.
+%p A016011 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016011 sign
+%O A016011 0,47
+%A A016011 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019310
+Showing 1-1 of 1
+
+%I A019310
+%S A019310 0,2,2,6,10,22,38,82,154,318,614,1250,2462,4962,9842,19766,39378,
+%T A019310 78910,157502,315322,630030,1260674,2520098,5041446,10080430,20163322,
+%U A019310 40321682,80648326,161286810,322583462,645147158,1290314082,2580588786,5161216950
+%N A019310 Number of words of length n (n >= 1) over a two-letter alphabet having a minimal period of size n-1.
+%D A019310 H. Harborth, Endliche 0-1-Folgen mit gleichen Teilblöcken, J. für Reine Angewandte Math. 271 (1974), 139-154.
+%F A019310 a(n) = 2a(n-1) + (-1)^n a(ceiling(n/2)) for n >= 2.
+%F A019310 a(n) = a(n-1) + 2*a(n-2) if n >=4 even. a(n) = a(n-1) + 2*a(n-2) + 2*a((n-1)/2) if n>=7 == 3 (mod 4). _Michael Somos_, Jan 23 2014
+%e A019310 G.f. = 2*x^2 + 2*x^3 + 6*x^4 + 10*x^5 + 22*x^6 + 38*x^7 + 82*x^8 + ...
+%o A019310 (PARI) a(n) = if (n==1, 0, if (n==2, 2, 2*a(n-1) + (-1)^n*a(ceil(n/2)))) \\ _Michel Marcus_, May 25 2013
+%K A019310 nonn
+%O A019310 1,2
+%A A019310 _Jeffrey Shallit_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

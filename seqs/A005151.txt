@@ -1,0 +1,40 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005151
+Showing 1-1 of 1
+
+%I A005151 M4779
+%S A005151 1,11,21,1112,3112,211213,312213,212223,114213,31121314,41122314,
+%T A005151 31221324,21322314,21322314,21322314,21322314,21322314,21322314,
+%U A005151 21322314,21322314,21322314,21322314,21322314,21322314,21322314,21322314
+%N A005151 Summarize the previous term! (in increasing order).
+%C A005151 a(n) = 21322314 for n > 12. - _Reinhard Zumkeller_, Jan 25 2014
+%C A005151 The digits of each term a(n) are a permutation of those of the corresponding term A063850(n). - _Chayim Lowen_, Jul 16 2015
+%D A005151 C. Fleenor, "A litteral sequence", Solution to Problem 2562, Journal of Recreational Mathematics, vol. 31 No. 4 pp. 307 2002-3 Baywood NY.
+%D A005151 Problem in J. Recreational Math., 30 (4) (1999-2000), p. 309.
+%D A005151 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005151 V. Bronstein and A. S. Fraenkel, <a href="http://www.jstor.org/stable/2975323">On a curious property of counting sequences</a>, Amer. Math. Monthly, 101 (1994), 560-563.
+%H A005151 James Henle, <a href="http://scholarship.claremont.edu/jhm/vol1/iss1/7">Is (some) mathematics poetry?</a>, Journal of Humanistic Mathematics 1:1 (2011), pp. 94-100.
+%H A005151 Madras Math's Amazing Number Facts, <a href="http://www.users.zetnet.co.uk/madras/maths/amazingnofacts/fact013.html">Fact No. 13</a>
+%H A005151 Madras Math, <a href="http://www.users.zetnet.co.uk/madras/maths/descriptive6.html">Descriptive Number</a>
+%H A005151 Trevor Scheopner, <a href="http://pumj.org/docs/Issue1/Article_4.pdf">The Cyclic Nature (and Other Intriguing Properties) of Descriptive Numbers</a>, Princeton Undergraduate Mathematics Journal, Issue 1, Article 4.
+%e A005151 The term after 312213 is obtained by saying "Two 1's, two 2's, two 3's", which gives 21-22-23, i.e., 212223.
+%t A005151 RunLengthEncode[x_List] := (Through[{Length, First}[ #1]] &) /@ Split[ Sort[x]]; LookAndSay[n_, d_:1] := NestList[ Flatten[ RunLengthEncode[ # ]] &, {d}, n - 1]; F[n_] := LookAndSay[n, 1][[n]]; Table[ FromDigits[ F[n]], {n, 25}] (* _Robert G. Wilson v_, Jan 22 2004 *)
+%t A005151 a[1] = 1; a[n_] := a[n] = FromDigits[Reverse /@ Sort[Tally[a[n-1] // IntegerDigits], #1[[1]] < #2[[1]]&] // Flatten]; Array[a, 26] (* _Jean-François Alcover_, Jan 25 2016 *)
+%o A005151 (Haskell)
+%o A005151 import Data.List (group, sort, transpose)
+%o A005151 a005151 n = a005151_list !! (n-1)
+%o A005151 a005151_list = 1 : f [1] :: [Integer] where
+%o A005151    f xs = (read $ concatMap show ys) : f ys where
+%o A005151           ys = concat $ transpose [map length zss, map head zss]
+%o A005151           zss = group $ sort xs
+%o A005151 -- _Reinhard Zumkeller_, Jan 25 2014
+%o A005151 (PARI) say(n) = {digs = digits(n); d = vecsort(digs,,8); s = ""; for (k=1, #d, nbk = #select(x->x==d[k], digs); s = concat(s, Str(nbk)); s = concat(s, d[k]);); eval(s);}
+%o A005151 lista(nn) = {print1(n = 1, ", "); for (k=1, nn, m = say(n); print1(m, ", "); n = m;);} \\ _Michel Marcus_, Feb 12 2016
+%Y A005151 Cf. A005150, A047842. See A083671 for another version.
+%Y A005151 Cf. A023989, A118628, A060857.
+%K A005151 nonn,base,easy
+%O A005151 1,2
+%A A005151 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

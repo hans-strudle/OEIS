@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032037
+Showing 1-1 of 1
+
+%I A032037
+%S A032037 1,2,18,264,5400,141840,4551120,172529280,7545363840,373944211200,
+%T A032037 20711190931200,1267784551756800,84991791159475200,
+%U A032037 6193091146059417600,487361761916020992000,41192820513212239872000
+%N A032037 Doubles (index 2+) under "AIJ" (ordered, indistinct, labeled) transform.
+%H A032037 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=92">Encyclopedia of Combinatorial Structures 92</a>
+%F A032037 a(n) = n!*A001003(n-1). - _Vladeta Jovovic_, Dec 06 2002
+%t A032037 a[1]=1; a[2]=2; a[n_] := a[n]=3(2n-3)a[n-1]-(n-1)(n-3)a[n-2]
+%K A032037 nonn
+%O A032037 1,2
+%A A032037 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012410
+Showing 1-1 of 1
+
+%I A012410
+%S A012410 1,2,2,8,88,560,3880,48064,645376,8447488,129332480,2305269760,
+%T A012410 43823270528,893173681920,19883237893376,476731844235264,
+%U A012410 12171513901662208,330755844515020800,9543303550734733312
+%N A012410 arcsin(arctan(x)*exp(x))=x+2/2!*x^2+2/3!*x^3+8/4!*x^4+88/5!*x^5...
+%K A012410 nonn
+%O A012410 0,2
+%A A012410 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

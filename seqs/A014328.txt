@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014328
+Showing 1-1 of 1
+
+%I A014328
+%S A014328 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,
+%T A014328 1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014328 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014328 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,
+%W A014328 -1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014328 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014328 Inverse of 319th cyclotomic polynomial.
+%p A014328 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014328 sign
+%O A014328 0,1
+%A A014328 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

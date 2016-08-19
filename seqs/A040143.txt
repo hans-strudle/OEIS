@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040143
+Showing 1-1 of 1
+
+%I A040143
+%S A040143 12,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,
+%T A040143 2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,24,2,
+%U A040143 24,2,24,2,24,2,24,2,24,2,24,2
+%N A040143 Continued fraction for sqrt(156).
+%H A040143 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040143 a(n)=13+11*(-1)^n-12*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 10 2009]
+%p A040143 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040143 ContinuedFraction[Sqrt[156],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 23 2011*)
+%t A040143 PadRight[{12},120,{24,2}] (* _Harvey P. Dale_, Aug 26 2014 *)
+%K A040143 nonn,cofr,easy
+%O A040143 0,1
+%A A040143 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

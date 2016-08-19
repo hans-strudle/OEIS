@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027043
+Showing 1-1 of 1
+
+%I A027043
+%S A027043 1,6,23,80,285,990,3367,11256,37097,120862,390123,1249728,3978365,
+%T A027043 12598350,39718403,124743104,390491505,1218875302,3794984883,
+%U A027043 11789335464,36551285573,113120066678,349523991123,1078402178776
+%N A027043 a(n) = Sum{(k+1)*T(n,k)}, 0<=k<=2n, T given by A027023.
+%K A027043 nonn
+%O A027043 0,2
+%A A027043 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

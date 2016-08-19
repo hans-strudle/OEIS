@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059795
+Showing 1-1 of 1
+
+%I A059795
+%S A059795 1,27,5723,6524,409761,2733747,38794051,80524846,2797727287,
+%T A059795 2926594658,4168247371,8563062337,610679929273
+%N A059795 Numbers n such that n^2 starts with the reverse of n.
+%C A059795 a(14) > 10^12. - _Donovan Johnson_, Mar 11 2011
+%e A059795 6524^2=42562576
+%K A059795 base,nonn
+%O A059795 1,2
+%A A059795 _Erich Friedman_, Feb 22 2001
+%E A059795 a(6)-a(8) from _Donovan Johnson_, Mar 26 2010
+%E A059795 a(9)-a(13) from _Donovan Johnson_, Mar 11 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

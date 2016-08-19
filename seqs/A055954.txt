@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055954
+Showing 1-1 of 1
+
+%I A055954
+%S A055954 0,2,4,6,8,10,12,8,16,24,32,40,48,56,16,24,32,40,48,56,64,24,32,40,48,
+%T A055954 56,64,72,32,40,48,56,64,72,80,40,48,56,64,72,80,88,48,56,64,72,80,88,
+%U A055954 96,50,100,150,200,250,300,350,64,114,164,214,264,314,364,78,128,178
+%N A055954 n + reversal of base 7 digits of n (written in base 10).
+%C A055954 If n has an even number of digits in base 7 then a(n) is a multiple of 8
+%F A055954 a(n) =n+A030106(n)
+%Y A055954 Cf. A056964.
+%K A055954 base,nonn
+%O A055954 0,2
+%A A055954 _Henry Bottomley_, Jul 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057283
+Showing 1-1 of 1
+
+%I A057283
+%S A057283 1,2,4,10,13,38,50,169,250,1250,2197,2390,3887,5050,6250,18950,25250,
+%T A057283 25316,28561,31250,49250,88751,126250,129826,156250,217550,371293,
+%U A057283 377750,510050,584233,593750,631250,651157,781250
+%N A057283 Numbers n such that n | 10^n + 9^n + 8^n + 7^n + 6^n + 5^n + 4^n + 3^n.
+%t A057283 Select[ Range[ 10^6 ], Mod[ PowerMod[ 10, #, # ] + PowerMod[ 9, #, # ] + PowerMod[ 8, #, # ] + PowerMod[ 7, #, # ] + PowerMod[ 6, #, # ] + PowerMod[ 5, #, # ] + PowerMod[ 4, #, # ] + PowerMod[ 3, #, # ], # ] == 0 & ]
+%K A057283 nonn
+%O A057283 1,2
+%A A057283 _Robert G. Wilson v_, Sep 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

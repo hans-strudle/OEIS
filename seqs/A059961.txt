@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059961
+Showing 1-1 of 1
+
+%I A059961
+%S A059961 6,12,18,72,108,192,432,1152,2592,139968,472392,786432,995328,
+%T A059961 57395628,63700992,169869312,4076863488,10871635968,2348273369088,
+%U A059961 56358560858112,79164837199872,84537841287168,150289495621632
+%N A059961 Numbers of form n=(2^a)*(3^b) (A033845) such that both n-1 and n+1 are primes. Special twin prime averages (A001454).
+%C A059961 Subset of A027856. [From _R. J. Mathar_, Oct 05 2008]
+%e A059961 a(13)=243*4096=995328 and {995327,995329} are twin primes of special form. The next term > p(1000000).
+%Y A059961 Cf. A001454, A002822, A033845, A058383.
+%K A059961 nonn
+%O A059961 0,1
+%A A059961 _Labos Elemer_, Mar 02 2001
+%E A059961 More terms from _William Rex Marshall_, Mar 18 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

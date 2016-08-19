@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013813
+Showing 1-1 of 1
+
+%I A013813
+%S A013813 8000,1280000000,204800000000000,32768000000000000000,
+%T A013813 5242880000000000000000000,838860800000000000000000000000,
+%U A013813 134217728000000000000000000000000000,21474836480000000000000000000000000000000,3435973836800000000000000000000000000000000000
+%N A013813 20^(4*n+3).
+%H A013813 Vincenzo Librandi, <a href="/A013813/b013813.txt">Table of n, a(n) for n = 0..100</a>
+%H A013813 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013813 (MAGMA) [20^(4*n+3): n in [0..15]]; // Vincenzo Librandi, Jul 06 2011
+%K A013813 nonn,easy
+%O A013813 0,1
+%A A013813 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035279
+Showing 1-1 of 1
+
+%I A035279
+%S A035279 1,20,600,24000,1200000,72000000,5040000000,403200000000,
+%T A035279 36288000000000,3628800000000000,399168000000000000,
+%U A035279 47900160000000000000,6227020800000000000000,871782912000000000000000
+%N A035279 One tenth of deca-factorial numbers.
+%C A035279 E.g.f. is G.f. for A011557(n-1) (powers of ten).
+%H A035279 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035279 10*a(n) = (10*n)(!^10) := product(10*j, j=1..n)= 10^n*n!; E.g.f. (-1+(1-10*x)^(-1))/10.
+%p A035279 with(combstruct):A:=[N, {N=Cycle(Union(Z$10))},labeled]: seq(count(A, size=n)/100, n=2..15); - _Zerinvary Lajos_, Mar 26 2008
+%Y A035279 Cf. A011557, A045757.
+%K A035279 easy,nonn
+%O A035279 1,2
+%A A035279 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

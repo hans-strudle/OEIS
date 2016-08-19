@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033186
+Showing 1-1 of 1
+
+%I A033186
+%S A033186 1,4,6,9,8,4,6,6,4,0,8,8,6,0,8,1,6,4,0,6,8,6,8,0,4,8,4,8,0,8,8,0,6,6,
+%T A033186 0,8,4,0,8,4,0,8,0,0,6,4,4,6,9,0,8,6,4,4,8,4,4,8,4,6,4,8,4,6,4,4,6,0,
+%U A033186 4,8,0,4,4,6,6,4,8,6,0,6
+%N A033186 Remove all 2's from decimal expansion of Pi, then all 3's, ..., then all 11's, ... (running through primes in order).
+%K A033186 nonn,base
+%O A033186 1,2
+%A A033186 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

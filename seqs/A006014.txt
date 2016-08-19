@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006014
+Showing 1-1 of 1
+
+%I A006014 M1790
+%S A006014 1,2,7,32,178,1160,8653,72704,679798,7005632,78939430,965988224,
+%T A006014 12762344596,181108102016,2748049240573,44405958742016,
+%U A006014 761423731533286,13809530704348160
+%N A006014 a(n+1) = (n+1)*a(n)+ Sum a(k)*a(n-k).
+%D A006014 D. E. Knuth, personal communication.
+%D A006014 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A006014 G.f. A(x) satisfies  A(x) = x * (1 + A(x) + A(x)^2 + x * A'(x)). - _Michael Somos_, Jul 24 2011
+%e A006014 x + 2*x^2 + 7*x^3 + 32*x^4 + 178*x^5 + 1160*x^6 + 8653*x^7 + 72704*x^8 + ...
+%o A006014 (PARI) {a(n) = local(A); if( n<1, 0, A = vector(n); A[1] = 1; for( k=2, n, A[k] = k * A[k-1] + sum( j=1, k-2, A[j] * A[k-1-j])); A[n])} /* _Michael Somos_, Jul 24 2011 */
+%K A006014 nonn,easy
+%O A006014 1,2
+%A A006014 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

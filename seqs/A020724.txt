@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020724
+Showing 1-1 of 1
+
+%I A020724
+%S A020724 1,27,495,7695,109431,1474767,19198215,244167615,3055792311,
+%T A020724 37811613807,464078786535,5662363023135,68791291322391,
+%U A020724 833094971965647,10065613312624455,121404092777808255,1462402531680439671
+%N A020724 G.f.: 1/((1-6x)(1-9x)(1-12x)).
+%F A020724 a(n) = (12^(n+2) - 2*9^(n+2) + 6^(n+2))/18. [_Yahia Kahloune_, Jun 30 2013]
+%K A020724 nonn
+%O A020724 0,2
+%A A020724 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

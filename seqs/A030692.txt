@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030692
+Showing 1-1 of 1
+
+%I A030692
+%S A030692 11,83,271,641,1259,2161,3433,51217,7297,10007,13313,172829,21977,
+%T A030692 27449,33751,40961,49139,58321,68597,800011,926111,106487,1216711,
+%U A030692 138241,156253,1757617,196831,219523,2438911,270001,297911,327689
+%N A030692 Smallest nontrivial extension of n-th cube which is a prime.
+%H A030692 Harvey P. Dale, <a href="/A030692/b030692.txt">Table of n, a(n) for n = 1..1000</a>
+%t A030692 necp[n_]:=Module[{idn=IntegerDigits[n],k=1},While[!PrimeQ[ FromDigits[ Join[ idn, IntegerDigits[k]]]],k=k+2];FromDigits[Join[idn, IntegerDigits[ k]]]]; necp/@(Range[40]^3) (* _Harvey P. Dale_, Dec 11 2013 *)
+%Y A030692 Different from A029949.
+%K A030692 nonn,base
+%O A030692 1,1
+%A A030692 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

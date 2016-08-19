@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009607
+Showing 1-1 of 1
+
+%I A009607
+%S A009607 1,6,92,2688,127312,8850336,845380928,105911556096,16814357324032,
+%T A009607 3294279618252288,779927283014454272,219346023009485242368,
+%U A009607 72245888404549697916928,27535159087648660044718080
+%N A009607 Expansion of sinh(tan(x))/cos(x).
+%t A009607 Sinh[ Tan[ x ]]/Cos[ x ] (* Odd Part *)
+%K A009607 nonn
+%O A009607 0,2
+%A A009607 _R. H. Hardin_
+%E A009607 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

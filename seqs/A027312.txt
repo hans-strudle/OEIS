@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027312
+Showing 1-1 of 1
+
+%I A027312
+%S A027312 1,6,27,101,357,1215,4043,13239,42849,137446,437775,1386369,4369661,
+%T A027312 13717842,42918903,133887207,416601657,1293386940,4007492727,
+%U A027312 12395015289,38276340453,118029405441,363483388935
+%N A027312 a(n) = Sum{(k+1)*T(n,k)}, 0<=k<=2n, T given by A026323.
+%K A027312 nonn
+%O A027312 0,2
+%A A027312 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

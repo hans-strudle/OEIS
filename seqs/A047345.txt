@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047345
+Showing 1-1 of 1
+
+%I A047345
+%S A047345 0,4,7,11,14,18,21,25,28,32,35,39,42,46,49,53,56,60,63,67,70,74,77,81,
+%T A047345 84,88,91,95,98,102,105,109,112,116,119,123,126,130,133,137,140,144,
+%U A047345 147,151,154,158,161,165,168,172,175,179,182,186,189,193
+%N A047345 Numbers that are congruent to {0, 4} mod 7.
+%H A047345 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,-1).
+%F A047345 a(n) = ceiling(7(n-1)/2).
+%F A047345 a(n) = 7n - a(n-1) - 10, (a(1) = 0). - _Vincenzo Librandi_, Aug 05 2010
+%F A047345 a(n) = 7n/2 - 13/4 + (-1)^n/4; G.f.: x^2*(4+3*x) / ( (1+x)*(x-1)^2 ). - _R. J. Mathar_, Oct 08 2011
+%F A047345 a(n+1) = Sum_{k>=0} A030308(n,k) * b(k), with b(0) = 4, b(k) = A005009(k-1) = 7*2^(k-1), and k > 0. - _Philippe Deléham_, Oct 17 2011.
+%F A047345 a(n) = 4(n-1) - floor((n-1)/2). - _Wesley Ivan Hurt_, Jun 14 2013
+%F A047345 a(n) = 2(n-1) + floor( (3n - 2 - (n mod 2))/2 ). - _Wesley Ivan Hurt_, Mar 31 2014
+%p A047345 A047345:=n->ceil(7*(n-1)/2); seq(A047345(n), n=1..100); # _Wesley Ivan Hurt_, Mar 31 2014
+%t A047345 Table[Ceiling[7(n - 1)/2], {n, 100}] (* _Wesley Ivan Hurt_, Mar 31 2014 *)
+%o A047345 (PARI) forstep(n=0,200,[4,3],print1(n", ")) \\ _Charles R Greathouse IV_, Oct 17 2011
+%Y A047345 Cf. A030123.
+%K A047345 nonn,easy
+%O A047345 1,2
+%A A047345 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

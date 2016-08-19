@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058941
+Showing 1-1 of 1
+
+%I A058941
+%S A058941 0,2,7,35,59,84,451
+%N A058941 Numbers n such that 3 + (integer formed from first n digits after decimal point in pi) is prime.
+%H A058941 G. L. Honaker, Jr. and C. K. Caldwell, <a href="http://primes.utm.edu/curios/page.php?short=1415929">Prime Curios! 1415929</a>
+%e A058941 a(3) = 7 because 3 + 1415926 is prime.
+%Y A058941 Cf. A000796.
+%K A058941 base,nonn,hard
+%O A058941 1,2
+%A A058941 _G. L. Honaker, Jr._, Jan 12 2001
+%E A058941 Term a(7) = 451 added by _Patrick De Geest_, Nov 25 2001. No more terms below 10^3.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

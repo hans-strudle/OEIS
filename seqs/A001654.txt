@@ -1,0 +1,82 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001654
+Showing 1-1 of 1
+
+%I A001654 M1606 N0628
+%S A001654 0,1,2,6,15,40,104,273,714,1870,4895,12816,33552,87841,229970,602070,
+%T A001654 1576239,4126648,10803704,28284465,74049690,193864606,507544127,
+%U A001654 1328767776,3478759200,9107509825,23843770274,62423800998,163427632719
+%N A001654 Golden rectangle numbers: F(n)*F(n+1), where F(n) = A000045(n) (Fibonacci numbers).
+%C A001654 a(n)/A007598(n) ~= golden ratio, especially for larger n. - Robert Happelberg (roberthappelberg(AT)yahoo.com), Jul 25 2005
+%C A001654 Let phi be the golden ratio (cf. A001622). Then 1/phi=phi-1=Sum_{n=1..inf} (-1)^(n-1)/a(n), an alternating infinite series consisting solely of unit fractions. - _Franz Vrabec_, Sep 14 2005
+%C A001654 a(n+2) is the Hankel transform of A005807 aerated. - _Paul Barry_, Nov 04 2008
+%C A001654 A more exact name would be: Golden convergents to rectangle numbers. These rectangles are not actually Golden (ratio of sides is not phi) but are Golden convergents (sides are numerator and denominator of convergents in the continued fraction expansion of phi, whence ratio of sides converges to phi). - _Daniel Forgues_, Nov 29 2009
+%C A001654 The Kn4 sums (see A180662 for definition) of the "Races with Ties" triangle A035317 lead to this sequence. - _Johannes W. Meijer_, Jul 20 2011
+%C A001654 Numbers m such that m(5m+2)+1 or m(5m-2)+1 is a square. - _Bruno Berselli_, Oct 22 2012
+%C A001654 In pairs, these numbers are important in finding binomial coefficients that appear in at least six places in Pascal's triangle. For instance, the pair (m,n) = (40, 104) finds the numbers binomial(n-1,m) = binomial(n,m-1). Two additional numbers are found on the other side of the triangle. The final two numbers appear in row binomial(n-1,m). See A003015. - _T. D. Noe_, Mar 13 2013
+%C A001654 For n>1, a(n) is one-half the area of the trapezoid created by the four points (F(n),L(n)), (L(n),F(n)), (F(n+1), L(n+1), (L(n+1), F(n+1)) where F(n) = A000045(n) and L(n) = A000032(n). - _J. M. Bergot_, May 14 2014
+%C A001654 [Note on how to calculate: take the two points (a,b) and (c,d) with a<b, c<d and a<d then subtract a from each: a-a=0, b-a=B, c-a=C, and d-a=D. The area is (D-(C-B)^2)/2.]
+%C A001654 a(n) = A067962(n-1) / A067962(n-2), n > 1. - _Reinhard Zumkeller_, Sep 24 2015
+%D A001654 A. T. Benjamin and J. J. Quinn, Proofs that really count: the art of combinatorial proof, M.A.A. 2003, id. 9.
+%D A001654 A. Brousseau, Fibonacci and Related Number Theoretic Tables. Fibonacci Association, San Jose, CA, 1972, p. 17.
+%D A001654 S. Falcon, On the Sequences of Products of Two k-Fibonacci Numbers, American Review of Mathematics and Statistics, March 2014, Vol. 2, No. 1, pp. 111-120.
+%D A001654 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001654 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001654 T. D. Noe, <a href="/A001654/b001654.txt">Table of n, a(n) for n=0..200</a>
+%H A001654 A. Brousseau, <a href="http://www.fq.math.ca/Scanned/6-1/brousseau3.pdf">A sequence of power formulas</a>, Fib. Quart., 6 (1968), 81-83.
+%H A001654 Shalosh B. Ekhad and Doron Zeilberger, <a href="http://arxiv.org/abs/1206.4864">Automatic Counting of Tilings of Skinny Plane Regions</a>, arXiv preprint arXiv:1206.4864, 2012.
+%H A001654 Dale Gerdemann, <a href="https://www.youtube.com/watch?v=1LtjGV-nLG0">Golden Ratio Base Digit Patterns for Columns of the Fibonomial Triangle</a>, "Another interesting pattern is for Golden Rectangle Numbers A001654. I made a short video illustrating this pattern, along with other columns of the Fibonomial Triangle A010048".
+%H A001654 Jonny Griffiths and Martin Griffiths, <a href="http://www.fq.math.ca/Abstracts/51-3/griffiths.pdf">Fibonacci-related sequences via iterated QRT maps</a>, Fib. Q., 51 (2013), 218-227.
+%H A001654 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001654 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A001654 M. Renault, <a href="http://www.math.temple.edu/~renault/fibonacci/thesis.html">Dissertation</a>
+%H A001654 Wikipedia, <a href="http://en.wikipedia.org/wiki/Image:FibonacciBlocks.png">Illustration of 273 as a golden rectangle number</a>.
+%H A001654 R. G. Wilson v, <a href="/A001654/a001654.pdf">Letter to N. J. A. Sloane, circa 1993</a>
+%H A001654 <a href="/index/Tu#2wis">Index entries for two-way infinite sequences</a>
+%H A001654 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,2,-1).
+%F A001654 a(n) = A010048(n+1, 2) = fibonomial(n+1, 2).
+%F A001654 a(n) = a(n - 1) + A007598(n) = a(n - 1) + A000045(n)^2 = sum_j[Fib(j)^2] over j <= n. - _Henry Bottomley_, Feb 09 2001
+%F A001654 For n>0, 1-1/a(n+1) = sum(k=1, n, 1/F(k)/F(k+2)) where F(k) is the k-th Fibonacci number. - _Benoit Cloitre_, Aug 31 2002.
+%F A001654 G.f.: x/(1-2x-2x^2+x^3) = x/((1+x)(1-3x+x^2)) (see Comments to A055870), a(n) = 3a(n-1)-a(n-2)-(-1)^n = -a(-1-n).
+%F A001654 Let M = the 3 X 3 matrix [1 2 1 / 1 1 0 / 1 0 0]; then a(n) = the center term in M^n *[1 0 0]. E.g., a(5) = 40 since M^5 * [1 0 0] = [64 40 25]. - _Gary W. Adamson_, Oct 10 2004
+%F A001654 Equals the partial sums of squares of Fibonacci numbers. The proof is easy. Start from a square (1*1). On the right side, draw another square (1*1). On the above side draw a square ((1+1)*(1+1)). On the left side, draw a square ((1+2)*(1+2)) and so on. You get a rectangle (F(n)*F(1+n)) which contains all the squares of side F(1), F(2), ..., F(n). - Philippe LALLOUET (philip.lallouet(AT)wanadoo.fr), Jun 19 2007
+%F A001654 With phi = (1+sqrt(5))/2 as the Golden ratio, the following formula gives EXACT values (not just approximations!) of a(n) for n >= 0: a(n) = round((phi^(2n+1))/5) = floor((1/2) + (phi^(2n+1))/5), n >= 0. - _Daniel Forgues_, Nov 29 2009
+%F A001654 a(n) = 2*a(n-1) + 2*a(n-2) - a(n-3) a(1)=1 a(2)=2 a(3)=6. - _Sture Sjöstedt_, Feb 06 2010
+%F A001654 a(n) = (A002878(n)-(-1)^n)/5. - _R. J. Mathar_, Jul 22 2010
+%F A001654 a(n) = 1/|F(n+1)/F(n)-F(n)/F(n-1)| where F(n) = Fibonacci numbers A000045. b(n) = F(n+1)/F(n)-F(n)/F(n-1): 1/1,-1/2,1/6,-1/15,1/40,-1/104,.. c(n) = 1/b(n) = a(n)*(-1)^(n+1): 1,-2,6,-15,40,-104,..(n=1,2,..). - _Thomas Ordowski_, Nov 04 2010
+%F A001654 a(n) = (fibonacci(n+2)^2-fibonacci(n-1)^2)/4. - _Gary Detlefs_, Dec 03 2010
+%F A001654 Let d(n) = Mod(n,2), a(0)=0 and a(1)=1. For n>1, a(n) = d(n)+2*a(n-1)+Sum_(k=0..n-2) a(k). - _L. Edson Jeffery_, Mar 20 2011
+%F A001654 Closed-form without leading zero: ((2+sqrt(5))*((3+sqrt(5))/2)^n+(2-sqrt(5))*((3-sqrt(5))/2)^n+(-1)^n)/5. Closed-form with leading zero: ((1+sqrt(5))*((3+sqrt(5))/2)^n+(1-sqrt(5))*((3-sqrt(5))/2)^n+2*(-1)^n)/10. - _Tim Monahan_, Jul 11 2011
+%F A001654 From _Wolfdieter Lang_, Jul 21 2012: (Start)
+%F A001654 a(n) = sum(F(k)^2, k=0..n), n>=0. See the above statement and proof given by Philippe LALLOUET.
+%F A001654 a(n) = (2*A059840(n+2) - A027941(n))/3, n>=0, with A059840(n+2) = sum(F(k)*F(k+2), k=0..n) and A027941(n) = A001519(n+1) - 1, n>=0, where A001519(n+1) = F(2*n+1). (End)
+%F A001654 a(n)*(-1)^n = sum((-1)^k*F(2*k),k=0..n), n >= 0. -_Wolfdieter Lang_, Aug 11 2012
+%F A001654 a(-1-n) = -a(n) for all n in Z. - _Michael Somos_, Sep 19 2014
+%F A001654 0 = a(n)*(+a(n+1) - a(n+2)) + a(n+1)*(-2*a(n+1) + a(n+2)) for all n in Z. - _Michael Somos_, Sep 19 2014
+%F A001654 a(n) = (L(2*n+1)-(-1)^n)/5 with L(k)=A000032(k). - _J. M. Bergot_, Apr 15 2016
+%F A001654 E.g.f.: ((3 + sqrt(5))*exp((5+sqrt(5))*x/2) - 2*exp((2*x)/(3+sqrt(5))+x) - 1 - sqrt(5))*exp(-x)/(5*(1 + sqrt(5))). - _Ilya Gutkovskiy_, Apr 15 2016
+%e A001654 G.f. = x + 2*x^2 + 6*x^3 + 15*x^4 + 40*x^5 + 104*x^6 + 273*x^7 + 714*x^8 + ...
+%p A001654 with (combinat):a:=n->fibonacci(n)*fibonacci(n+1): seq(a(n), n=0..28); # _Zerinvary Lajos_, Oct 07 2007
+%p A001654 A001654:=1/(z+1)/(z**2-3*z+1); # _Simon Plouffe_ in his 1992 dissertation, omitting a(0)
+%p A001654 with(combinat): seq(1/4*(fibonacci(n+2)^2-fibonacci(n-1)^2), n=0..27) # _Gary Detlefs_, Dec 03 2010
+%t A001654 LinearRecurrence[{2, 2, -1}, {0, 1, 2}, 100] (* _Vladimir Joseph Stephan Orlovsky_, Jul 03 2011 *)
+%t A001654 Times@@@Partition[Fibonacci[Range[0,30]],2,1] (* _Harvey P. Dale_, Aug 18 2011 *)
+%o A001654 (PARI) A001654(n)=fibonacci(n)*fibonacci(n+1);
+%o A001654 (PARI) b(n, k)=prod(j=1, k, fibonacci(n+j)/fibonacci(j));
+%o A001654 vector(30, n, b(n-1, 2))  \\ _Joerg Arndt_, May 08 2016
+%o A001654 (Haskell)
+%o A001654 a001654 n = a001654_list !! n
+%o A001654 a001654_list = zipWith (*) (tail a000045_list) a000045_list
+%o A001654 -- _Reinhard Zumkeller_, Jun 08 2013
+%Y A001654 Cf. A010048, A001655-A001658. A006498(2n-1)=a(n).
+%Y A001654 Bisection of A006498, A070550, A080239. Cf. A079472, A080145.
+%Y A001654 First differences of A064831. Partial sums of A007598.
+%Y A001654 Cf. A119283, A000071, A005968, A005969, A098531, A098532, A098533, A128697.
+%Y A001654 Cf. A067962.
+%K A001654 nonn,easy,changed
+%O A001654 0,3
+%A A001654 _N. J. A. Sloane_, Apr 30 1991
+%E A001654 Extended by _Wolfdieter Lang_, Jun 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

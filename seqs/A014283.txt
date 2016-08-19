@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014283
+Showing 1-1 of 1
+
+%I A014283
+%S A014283 0,0,3,7,13,20,28,36,43,47,45,32,0,64,181,385,731,1308,2260,
+%T A014283 3820,6365,10505,17227,28128,45792,74400,120717,195689,317027,513388,
+%U A014283 831140,1345308,2177285,3523489,5701731,9226240
+%V A014283 0,0,-3,-7,-13,-20,-28,-36,-43,-47,-45,-32,0,64,181,385,731,1308,2260,
+%W A014283 3820,6365,10505,17227,28128,45792,74400,120717,195689,317027,513388,
+%X A014283 831140,1345308,2177285,3523489,5701731,9226240
+%N A014283 Fibonacci(n) - n^2.
+%H A014283 Vincenzo Librandi, <a href="/A014283/b014283.txt">Table of n, a(n) for n = 0..280</a>
+%F A014283 a(n)=((1+sqrt(5))^n-(1-sqrt(5))^n)/(2^n*sqrt(5))-n^2. a(n)=4*a(n-1)-5*a(n-2)+a(n-3)+2*a(n-4)-a(n-5). G.f.: (-3*x^2+5*x^3)/(1-4*x+5*x^2-x^3-2*x^4+x^5). - _Vladeta Jovovic_, Jan 08 2002
+%p A014283 with (combinat):seq((fibonacci(n)-n^2), n=0..35);# [From _Zerinvary Lajos_, Mar 21 2009]
+%t A014283 Table[Fibonacci[n]-n^2,{n,0,100}] (* _Vladimir Joseph Stephan Orlovsky_, May 02 2011 *)
+%o A014283 (MAGMA) [Fibonacci(n) - n^2: n in [0..50]]; // Vincenzo Librandi, May 03 2011
+%Y A014283 Cf. A000045.
+%K A014283 sign
+%O A014283 0,3
+%A A014283 fink(AT)cadvision.com (A. R. Fink)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

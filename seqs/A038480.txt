@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038480
+Showing 1-1 of 1
+
+%I A038480
+%S A038480 259,1339,1519,1549,1554,7819,7999,8029,8034,9079,9109,9114,9289,9294,
+%T A038480 9324,46699,46879,46909,46914,47959,47989,47994,48169,48174,48204,
+%U A038480 54439,54469,54474,54649,54654,54684,55729,55734,55764,55944,279979
+%N A038480 Sums of 4 distinct powers of 6.
+%t A038480 Union[Total/@Subsets[6^Range[0,10],{4}]] (* _Harvey P. Dale_, Nov 05 2011 *)
+%Y A038480 Base 6 interpretation of A038446.
+%K A038480 nonn,easy
+%O A038480 0,1
+%A A038480 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

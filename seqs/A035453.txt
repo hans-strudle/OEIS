@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035453
+Showing 1-1 of 1
+
+%I A035453
+%S A035453 1,1,1,1,1,1,2,2,3,3,3,3,3,4,5,6,7,8,8,8,9,10,12,14,16,17,18,19,20,23,
+%T A035453 26,30,33,36,38,40,43,47,53,59,65,70,74,78,84,92,101,112,122,131,139,
+%U A035453 147,157,170,186,203,220,235,249,264,281,303,329,357,384,410,434,459
+%N A035453 Number of partitions of n into parts 8k+1 or 8k+7.
+%F A035453 a(n) ~ (3+2*sqrt(2))^(1/4) * exp(Pi*sqrt(n/6)) / (4 * 3^(1/4) * n^(3/4)). - _Vaclav Kotesovec_, Aug 26 2015
+%t A035453 nmax = 100; Rest[CoefficientList[Series[Product[1/((1 - x^(8k+1))*(1 - x^(8k+7))), {k, 0, nmax}], {x, 0, nmax}], x]] (* _Vaclav Kotesovec_, Aug 26 2015 *)
+%K A035453 nonn
+%O A035453 1,7
+%A A035453 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

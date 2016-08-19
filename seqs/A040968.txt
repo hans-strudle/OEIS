@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040968
+Showing 1-1 of 1
+
+%I A040968
+%S A040968 31,1,1,1,1,1,6,2,2,15,2,2,6,1,1,1,1,1,62,1,1,1,1,1,6,2,2,15,2,2,6,1,
+%T A040968 1,1,1,1,62,1,1,1,1,1,6,2,2,15,2,2,6,1,1,1,1,1,62,1,1,1,1,1,6,2,2,15,
+%U A040968 2,2,6,1,1,1,1,1,62,1,1,1,1,1,6,2,2,15,2,2,6,1,1,1,1
+%N A040968 Continued fraction for sqrt(1000).
+%H A040968 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040968 with(numtheory): Digits := 300: convert(evalf(sqrt(1000)),confrac);
+%K A040968 nonn,cofr,easy
+%O A040968 0,1
+%A A040968 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

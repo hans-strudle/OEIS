@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061513
+Showing 1-1 of 1
+
+%I A061513
+%S A061513 0,2,4,6,8,10,32,54,76,98,1110,3332,5554,7776,9998,11111110,33333332,
+%T A061513 55555554,77777776,99999998,1111111111111110,3333333333333332,
+%U A061513 5555555555555554,7777777777777776,9999999999999998
+%N A061513 a(0) = 0; a(n) is obtained by incrementing each digit of a(n-1) by 2.
+%C A061513 In A061511-A061522, A061746-A061750 when the incremented digit exceeds 9 it is written as a 2-digit string. So 9+1 becomes the 2-digit string 10, etc.
+%C A061513 Every term > 10 is made up of only two different consecutive digits, the smaller of which occurs only as the least significant digit.
+%e A061513 Following 32; 3+2 = 5 and 2+2 = 4, hence the next term is 54.
+%t A061513 NestList[FromDigits[Flatten[IntegerDigits/@(IntegerDigits[#]+2)]]&,0,30] (* _Harvey P. Dale_, Jul 07 2012 *)
+%K A061513 base,nonn
+%O A061513 0,2
+%A A061513 _Amarnath Murthy_, May 08 2001
+%E A061513 More terms from Larry Reeves (larryr(AT)acm.org), May 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

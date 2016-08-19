@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004978
+Showing 1-1 of 1
+
+%I A004978 N0416
+%S A004978 1,2,4,8,13,21,31,45,60,76,97,119,144,170,198,231,265,300,336,374,414,
+%T A004978 456,502,550,599,649,702,759,819,881,945,1010,1080,1157,1237,1318,
+%U A004978 1401,1486,1572,1662,1753,1845,1945,2049,2156,2264
+%N A004978 a(n)=least number m such that m-a(n-1) != a(j)-a(k) for all j,k less than n; a(1)=1, a(2)=2.
+%D A004978 G. E. Andrews, MacMahon's prime numbers of measurement, Amer. Math. Monthly, 82 (1975), 922-923.
+%D A004978 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%H A004978 Nathaniel Johnston, <a href="/A004978/b004978.txt">Table of n, a(n) for n = 1..2000</a>
+%o A004978 (MATLAB) s=1:2000^2;d(1)=1;A004978(1)=1;A004978(2)=2;
+%o A004978 for n=3:2000
+%o A004978   A004978(n)=A004978(n-1)+find([d,0]~=s(1:max(size(d))+1),1);
+%o A004978   d(end+1:end+n-1)=A004978(n)-A004978(1:n-1);
+%o A004978   d=sort(unique(d));
+%o A004978 end - _Nathaniel Johnston_, Feb 09 2011
+%Y A004978 Differences give A002048, see also A048201.
+%Y A004978 See also A001856.
+%Y A004978 For n>2, a(n) equals A002049(n-1)+1 and A048204(n-2)+2.
+%K A004978 nonn
+%O A004978 1,2
+%A A004978 _N. J. A. Sloane_. This was in the 1973 "Handbook", but was then dropped from the database. Resubmitted by _Clark Kimberling_. Entry revised by _N. J. A. Sloane_, Jun 10 2012
+%E A004978 Definition corrected by Bryan S. Robinson, Mar 16 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

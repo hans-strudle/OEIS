@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049850
+Showing 1-1 of 1
+
+%I A049850
+%S A049850 0,0,0,0,0,0,0,1,0,2,2,0,2,1,1,4,3,3,3,1,5,3,3,4,4,5,10,8,5,6,6,8,5,
+%T A049850 12,7,11,9,7,9,14,8,13,7,11,14,11,5,16,14,9,14,12,8,14
+%N A049850 a(n)=number of primes q less than n-th prime p for which the Euclidean algorithm for p,q has exactly 4 nonzero remainders.
+%e A049850 Example: for p(10)=29, the primes counted are 11 and 17.
+%K A049850 nonn
+%O A049850 1,10
+%A A049850 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

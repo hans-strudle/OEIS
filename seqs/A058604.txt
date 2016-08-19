@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058604
+Showing 1-1 of 1
+
+%I A058604
+%S A058604 1,2,1,0,3,2,3,4,0
+%V A058604 1,2,-1,0,3,-2,3,4,0
+%N A058604 McKay-Thompson series of class 27d for Monster.
+%D A058604 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058604 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058604 T27d = 1/q + 2*q^2 - q^5 + 3*q^11 - 2*q^14 + 3*q^17 + 4*q^20 + 4*q^26 + ...
+%Y A058604 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058604 sign
+%O A058604 -1,2
+%A A058604 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020893
+Showing 1-1 of 1
+
+%I A020893
+%S A020893 1,2,5,10,13,17,26,29,34,37,41,53,58,61,65,73,74,82,85,89,97,101,106,
+%T A020893 109,113,122,130,137,145,146,149,157,170,173,178,181,185,193,194,197,
+%U A020893 202,205,218,221,226,229,233,241,257,265,269,274,277,281
+%N A020893 Squarefree sums of two squares.
+%C A020893 Primitively but not imprimitively represented by x^2+y^2.
+%C A020893 The disjoint union of {1}, A003654, and A031398. - _Max Alekseyev_, Mar 09 2010
+%C A020893 It appears that a(n) is the n-th index, k, such that f(k) = 2, where f(k) = 3*(Sum_{i=1..k} floor(i^2/k)) - k^2 (see A175908). - _John W. Layman_,  May 16 2011
+%C A020893 Squarefree numbers with no prime factors of the form 4k+3. - _Franklin T. Adams-Watters_, May 17 2011
+%C A020893 Squarefree members of A202057. - _Artur Jasinski_, Dec 10 2011
+%H A020893 Charles R Greathouse IV, <a href="/A020893/b020893.txt">Table of n, a(n) for n = 1..10000</a>
+%H A020893 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/fermat.pdf">On a Generalized Fermat-Wiles Equation</a>
+%H A020893 <a href="/index/Su#ssq">Index entries for sequences related to sums of squares</a>
+%F A020893 a(n) ~ k*n*sqrt(log n), where k = 2.1524249... = A013661/A064533. - _Charles R Greathouse IV_, Apr 20 2015
+%t A020893 lim = 17; t = Join[{1}, Select[Union[Flatten[Table[x^2 + y^2, {x, lim}, {y, x}]]], # < lim^2 && SquareFreeQ[#] &]]
+%o A020893 (PARI) is(n)=my(f=factor(n)); for(i=1,#f~,if(f[i,2]>1 || f[i,1]%4==3, return(0))); 1 \\ _Charles R Greathouse IV_, Apr 20 2015
+%o A020893 (Haskell)
+%o A020893 a020893 n = a020893_list !! (n-1)
+%o A020893 a020893_list = filter (\x -> any (== 1) $ map (a010052 . (x -)) $
+%o A020893                              takeWhile (<= x) a000290_list) a005117_list
+%o A020893 -- _Reinhard Zumkeller_, May 28 2015
+%Y A020893 Cf. A001481, A008784, A022544, A034023, A175908.
+%Y A020893 Cf. A000290, A010052, A005117, A084349.
+%K A020893 nonn
+%O A020893 1,2
+%A A020893 _Steven Finch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

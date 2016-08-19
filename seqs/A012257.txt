@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012257
+Showing 1-1 of 1
+
+%I A012257
+%S A012257 1,1,1,2,1,1,2,1,1,2,3,1,1,1,2,2,3,4,1,1,1,1,2,2,2,3,3,4,4,5,6,7,1,1,
+%T A012257 1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,4,4,4,4,5,5,5,5,6,6,6,7,7,7,8,8,9,9,
+%U A012257 10,10,11,12,13,14
+%N A012257 Table: row 1 is {1,1}; if row n is {r_1, ..., r_k} then row n+1 is {r_k 1's, r_{k-1} 2's, r_{k-2} 3's, etc.}.
+%C A012257 The shape of each row tends to a limit curve when scaled to a fixed size. It is the same limit curve as this continuous version: start with f_0=x over [0,1]; then repeatedly reverse (1-x), integrate from zero (x-x^2/2), scale to 1 (2x-x^2) and invert (1-sqrt(1-x)). For the limit curve we have f'(0) = F(1) = lim A011784(n+2)/(A011784(n+1)*A011784(n)) ~ 0.27887706 (obtained numerically). - _Martin Fuller_, Aug 07 2006
+%H A012257 Reinhard Zumkeller, <a href="/A012257/b012257.txt">Rows n = 1..9 of triangle, flattened</a>
+%F A012257 n-th row sum = A011784(n+2); e.g., 5th row is {1, 1, 1, 2, 2, 3, 4} and the sum of elements is 1+1+1+2+2+3+4=14=A011784(7). - _Benoit Cloitre_, Aug 06 2003
+%F A012257 T(n,A011784(n+1)) = A011784(n). - _Reinhard Zumkeller_, Aug 11 2014
+%e A012257 First rows are:
+%e A012257 {1,1},
+%e A012257 {1,2},
+%e A012257 {1,1,2},
+%e A012257 {1,1,2,3},
+%e A012257 {1,1,1,2,2,3,4},
+%e A012257 {1,1,1,1,2,2,2,3,3,4,4,5,6,7},
+%e A012257 ...
+%t A012257 row[1] = {1, 1}; row[n_] := row[n] = MapIndexed[ Function[ Table[#2 // First, {#1}]], row[n-1] // Reverse] // Flatten; Array[row, 7] // Flatten (* _Jean-François Alcover_, Feb 10 2015 *)
+%o A012257 (Haskell)
+%o A012257 a012257 n k = a012257_tabf !! (n-1) !! (k-1)
+%o A012257 a012257_row n = a012257_tabf !! (n-1)
+%o A012257 a012257_tabf = iterate (\row -> concat $
+%o A012257                         zipWith replicate (reverse row) [1..]) [1, 1]
+%o A012257 -- _Reinhard Zumkeller_, Aug 11 2014, May 30 2012
+%Y A012257 Cf. A011784.
+%K A012257 nonn,tabf,nice,look
+%O A012257 1,4
+%A A012257 Lionel Levine (levine(AT)ultranet.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

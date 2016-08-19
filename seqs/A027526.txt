@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027526
+Showing 1-1 of 1
+
+%I A027526
+%S A027526 15,65,544,95904,27540000,24685024,8997919,3085628,1181928,29115625,
+%T A027526 11863125,2480664960000,1568086049632256,5407450595090173
+%N A027526 Second diagonal of A027518.
+%F A027526 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^4 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i
+%K A027526 nonn
+%O A027526 2,1
+%A A027526 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

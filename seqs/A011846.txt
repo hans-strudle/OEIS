@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011846
+Showing 1-1 of 1
+
+%I A011846
+%S A011846 0,0,0,0,0,0,0,0,0,0,1,5,22,71,200,500,1144,2431,4862,9237,16796,
+%T A011846 29393,49742,81719,130750,204297,312455,468682,690690,1001500,1430715,
+%U A011846 2016007,2804880,3856710,5245125,7060746
+%N A011846 [ binomial(n,9)/10 ].
+%F A011846 a(n) = floor( binomial(n+1,10)/(n+1)). [From Gary Detlefs, Nov 23 2011]
+%Y A011846 A column of triangle A011847.
+%K A011846 nonn
+%O A011846 0,12
+%A A011846 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

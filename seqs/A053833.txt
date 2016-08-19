@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053833
+Showing 1-1 of 1
+
+%I A053833
+%S A053833 0,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11,12,13,2,3,4,5,6,
+%T A053833 7,8,9,10,11,12,13,14,3,4,5,6,7,8,9,10,11,12,13,14,15,4,5,6,7,8,9,10,
+%U A053833 11,12,13,14,15,16,5,6,7,8,9,10,11,12,13,14,15,16,17,6,7,8,9,10,11,12
+%N A053833 Sum of digits of n written in base 13.
+%C A053833 a(n) = A138530(n,13) for n > 12. - _Reinhard Zumkeller_, Mar 26 2008
+%H A053833 Robert Walker, <a href="http://robertinventor.com/ftswiki/Self_Similar_Sloth_Canon_Number_Sequences">Self Similar Sloth Canon Number Sequences</a>
+%H A053833 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DigitSum.html">Digit Sum</a>
+%H A053833 <a href="/index/Rec#order_14">Index entries for linear recurrences with constant coefficients</a>, signature (1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, -1).
+%F A053833 a(0)=0, a(13n+i)=a(n)+i 0<=i<=12; a(n)=n-12*(sum(k>0, floor(n/13^k)). - _Benoit Cloitre_, Dec 19 2002
+%F A053833 a(0)=0, a(1)=1, a(2)=2, a(3)=3, a(4)=4, a(5)=5, a(6)=6, a(7)=7, a(8)=8, a(9)=9, a(10)=10, a(11)=11, a(12)=12, a(13)=1, a(n) = a(n-1) + a(n-13) - a(n-14). - _Harvey P. Dale_, Jul 17 2012
+%e A053833 a(20) = 1 + 7 = 8 because 20 is written as "17" in base 13.
+%t A053833 Total[IntegerDigits[#,13]]&/@Range[0,90] (* or *) LinearRecurrence[ {1,0,0,0,0,0,0,0,0,0,0,0,1,-1},{0,1,2,3,4,5,6,7,8,9,10,11,12,1},90] (* _Harvey P. Dale_, Jul 17 2012 *)
+%o A053833 (PARI) a(n)=if(n<1,0,if(n%13,a(n-1)+1,a(n/13)))
+%Y A053833 Cf. A000120, A007953.
+%K A053833 base,nonn
+%O A053833 0,3
+%A A053833 _Henry Bottomley_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

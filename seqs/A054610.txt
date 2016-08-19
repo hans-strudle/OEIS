@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054610
+Showing 1-1 of 1
+
+%I A054610
+%S A054610 0,3,12,33,96,255,780,2205,6672,19755,59340,177177,532416,1594359,
+%T A054610 4785228,14349525,43053504,129140211,387441756,1162261521,3486844320,
+%U A054610 10460357775,31381236876,94143178893,282430082832,847288610475
+%N A054610 Sum_{d|n} phi(d)*3^(n/d).
+%F A054610 a(n) = n * A001867(n).
+%F A054610 a(n) = 3*A034754(n). - _R. J. Mathar_, May 18 2014
+%Y A054610 Column k=3 of A185651.
+%K A054610 nonn
+%O A054610 0,2
+%A A054610 _N. J. A. Sloane_, Apr 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

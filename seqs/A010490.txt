@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010490
+Showing 1-1 of 1
+
+%I A010490
+%S A010490 5,9,1,6,0,7,9,7,8,3,0,9,9,6,1,6,0,4,2,5,6,7,3,2,8,2,9,1,5,6,1,6,1,7,
+%T A010490 0,4,8,4,1,5,5,0,1,2,3,0,7,9,4,3,4,0,3,2,2,8,7,9,7,1,9,6,6,9,1,4,2,8,
+%U A010490 2,2,4,5,9,1,0,5,6,5,3,0,3,6,7,6,5,7,5,2,5,2,7,1,8,3,1,0,9,1,7
+%N A010490 Decimal expansion of square root of 35.
+%C A010490 Continued fraction expansion is 5 followed by {1, 10} repeated. - _Harry J. Smith_, Jun 04 2009
+%C A010490 A010490^2 = 35 is the only integer > 0 of form n(n+2), one less than a square, that is also of form n(n+1)(n+2)/6, a tetrahedral number (true for n = 5). Consequence of this, sqrt (35) is the only n in R > 0 such that the following equivalency holds (for n = 5): Where Spin(n/2) = h/(4*Pi)sqrt(n(n+2)) and h = Planck's Constant (A003676), then I. 4*Pi/h*Spin(n/2) = II. The square root of the sum of the relative intensities of the transition states of a Spin(n/2) particle (relative to spin 1/2). Regarding II., for clarification see comments dated May 26 2012 by _Stanislav Sykora_ in A003991. - _Raphie Frank_, Dec 19 2012
+%C A010490 This sequence is associated with Sophie Germain triangular numbers of the first and second kinds, as defined in A217278, by the formula sqrt 35 = sqrt ((A217278(n) - A217278(n-12))/(A217278(n-4) - A217278(n-8))). - _Raphie Frank_, Dec 22 2012
+%H A010490 Harry J. Smith, <a href="/A010490/b010490.txt">Table of n, a(n) for n = 1..20000</a>
+%H A010490 Wikipedia, <a href="http://en.wikipedia.org/wiki/Spin_(physics)">Spin (Physics)</a>
+%e A010490 5.916079783099616042567328291561617048415501230794340322879719669142822...
+%t A010490 RealDigits[N[Sqrt[35],105]][[1]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 20 2011 *)
+%o A010490 (PARI) { default(realprecision, 20080); x=sqrt(35); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b010490.txt", n, " ", d)); } \\ _Harry J. Smith_, Jun 04 2009
+%Y A010490 Cf. A040029 (continued fraction).
+%K A010490 nonn,cons
+%O A010490 1,1
+%A A010490 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045742
+Showing 1-1 of 1
+
+%I A045742
+%S A045742 0,1,13,141,1456,14778,149031,1499773,15089932,151927854,1531242362,
+%T A045742 15451614738,156114597744,1579223536788,15993825704427,
+%U A045742 162159485143581,1645827425223220,16720488433727910,170023231905932790
+%N A045742 Number of interior faces in all noncrossing connected graphs on n nodes on a circle.
+%F A045742 sum(k*binomial(n+k-2, k)*binomial(3*n-3, n-2-k), k=1..n-2)/(n-1)
+%p A045742 A045742 := proc(n)
+%p A045742         binomial(3*n-3,n-3)*hypergeom([n, 3 - n], [2*n + 1], -1) ;
+%p A045742         simplify(%) ;
+%p A045742 end proc: # _R. J. Mathar_, Mar 27 2012
+%t A045742 Rest[Table[Sum[(k Binomial[n+k-2,k]Binomial[3n-3,n-2-k])/(n-1),{k,n-2}], {n,20}]] (* _Harvey P. Dale_, Nov 29 2011 *)
+%K A045742 nonn
+%O A045742 2,3
+%A A045742 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036245
+Showing 1-1 of 1
+
+%I A036245
+%S A036245 1,4,37,596,14937,538328,26393009,1689690904,136891356233,
+%T A036245 13690825314204,1656726754374917,238582343455302252,
+%U A036245 40322072770700455505
+%N A036245 Numerator of fraction equal to the continued fraction [ 0, 1, 4, ...n^2 ].
+%Y A036245 Cf. A036246.
+%K A036245 frac,nonn
+%O A036245 1,2
+%A A036245 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

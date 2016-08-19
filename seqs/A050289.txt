@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050289
+Showing 1-1 of 1
+
+%I A050289
+%S A050289 123456789,123456798,123456879,123456897,123456978,123456987,
+%T A050289 123457689,123457698,123457869,123457896,123457968,123457986,
+%U A050289 123458679,123458697,123458769,123458796,123458967,123458976
+%N A050289 Zeroless pandigital numbers: numbers containing the digits 1-9 and no 0's.
+%C A050289 The first 9!=362,880 terms of this sequence are permutations of the digits 1-9 with a(9!)=987654321. [From _Jeremy Gardiner_, May 28 2010]
+%C A050289 First differences are given in A209280 (for the first 9! terms) or in A219664 (for at least as much initial terms). [_M. F. Hasler_, Mar 03 2013]
+%C A050289 A230959(a(n)) = 0. - _Reinhard Zumkeller_, Nov 02 2013
+%H A050289 James Grime and Brady Haran, <a href="http://www.youtube.com/watch?v=gaVMrqzb91w">Why 381,654,729 is awesome</a> (2013)
+%H A050289 H. Fripertinger, <a href="http://www-ang.kfunigraz.ac.at/~fripert/fga/k1elsn.html">Operate on "9" to display zeroless pandigitals</a>
+%H A050289 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PandigitalNumber.html">Pandigital Number</a>
+%Y A050289 Cf. A050290.
+%K A050289 nonn,base
+%O A050289 1,1
+%A A050289 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

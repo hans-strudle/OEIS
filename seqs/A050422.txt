@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050422
+Showing 1-1 of 1
+
+%I A050422
+%S A050422 52,56,88,104,112,114,116,120,142,143,150,151,168,176,184,196,200,208,
+%T A050422 212,216,220,224,226,228,233,234,236,241,242,244,248,268,270,271,278,
+%U A050422 279,282,283,286,287,302,303,304,332,334,335,336,344,352
+%N A050422 Numbers for which in base 2 the least number of digits that can be removed to leave a palindrome (possibly beginning with 0) is 3.
+%e A050422 (88 base 2) = 1011000 -> 0000.
+%K A050422 nonn,base
+%O A050422 1,1
+%A A050422 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

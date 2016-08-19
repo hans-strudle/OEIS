@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032205
+Showing 1-1 of 1
+
+%I A032205
+%S A032205 1,1,6,30,127,506,1902,6823,23673,79936,264036,856772,2739525,8652707,
+%T A032205 27049259,83824636,257847515,788121922,2395786374,7248517868,
+%U A032205 21840785100,65574504200,196266067194,585822825763
+%N A032205 Number of connected functions on n points with a loop of length 9.
+%H A032205 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032205 "CIK[ 9 ]" (necklace, indistinct, unlabeled, 9 parts) transform of A000081.
+%K A032205 nonn
+%O A032205 9,3
+%A A032205 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

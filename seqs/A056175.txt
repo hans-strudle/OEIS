@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056175
+Showing 1-1 of 1
+
+%I A056175
+%S A056175 0,0,0,0,0,1,0,0,1,2,0,1,1,1,1,1,0,1,0,1,1,1,0,1,2,2,3,3,2,2,1,1,1,2,
+%T A056175 1,2,2,2,1,2,1,1,1,1,3,3,2,3,3,3,3,3,2,2,1,1,1,1,1,1,1,1,2,2,1,2,1,2,
+%U A056175 2,2,0,1,1,1,2,2,3,3,1,2,3,3,2,2,3,3,3,3,2,2,3,3,3,3,3,4,3,3,2,2,2,2,2,2,2
+%N A056175 Number of non-unitary prime divisors of the central binomial coefficient C(n, floor(n/2)) (A001405).
+%C A056175 Nonunitary prime divisors are the prime divisors of largest square dividing the number: a(n)=A001221[A000188[A001405[n]]]=A001221[A056057[n]]
+%F A056175 A prime divisor is not unitary iff its exponent exceeds 1.
+%e A056175 n=10, binomial[10, 5]=252=2.2.3.3.7 has 3 prime divisors of which only 1, p=7 is unitary, while 2, 3 are not. So a(10)=2. n=256, binomial[256, 128] also has only 2 prime divisors, 3 and 13, whose exponents are >1, 4 or 2 resp., thus a(256)=2.
+%Y A056175 Cf. A001405, A001221, A034444, A034973, A039593, A056057, A056173.
+%K A056175 nonn
+%O A056175 1,10
+%A A056175 _Labos Elemer_, Jul 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

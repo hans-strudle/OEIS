@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050680
+Showing 1-1 of 1
+
+%I A050680
+%S A050680 5,10,12,13,31,38,43,49,51,55,59,60
+%N A050680 Positions of 3's in A050677.
+%H A050680 P. De Geest, <a href="http://www.worldofnumbers.com/revfact.htm">Reversed Smarandache Concatenated Numbers, Prime factors from n down to 1</a>
+%H A050680 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A050680 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/michafleuren.htm">Factors and primes of Smarandache sequences</a>.
+%H A050680 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%Y A050680 Cf. A000422, A050677, A046462.
+%K A050680 nonn,base,hard,less
+%O A050680 0,1
+%A A050680 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

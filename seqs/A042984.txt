@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042984
+Showing 1-1 of 1
+
+%I A042984
+%S A042984 1,11,48,140,326,657,1197,2024,3231,4927,7238,10308,14300,19397,25803,
+%T A042984 33744,43469,55251,69388,86204,106050,129305,156377,187704,223755,
+%U A042984 265031,312066,365428,425720,493581,569687,654752,749529,854811,971432
+%N A042984 Number of n-dimensional partitions of 6.
+%D A042984 G. E. Andrews, The Theory of Partitions, Addison-Wesley, 1976, p. 190.
+%H A042984 Vincenzo Librandi, <a href="/A042984/b042984.txt">Table of n, a(n) for n = 0..1000</a>
+%H A042984 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A042984 a(n) = A008780(n) - C(n, 4) - C(n, 3).
+%F A042984 G.f.: (x^4-3*x^3-3*x^2+5*x+1)/(x-1)^6. [_Colin Barker_, Jul 22 2012]
+%p A042984 1+10*n+27*binomial(n,2)+28*binomial(n,3)+11*binomial(n,4)+binomial(n,5);
+%t A042984 LinearRecurrence[{6,-15,20,-15,6,-1},{1,11,48,140,326,657},40] (* _Harvey P. Dale_, Jan 27 2013 *)
+%t A042984 CoefficientList[Series[(x^4 - 3 x^3 - 3 x^2 + 5 x + 1)/(x - 1)^6, {x, 0, 40}], x] (* _Vincenzo Librandi_, Oct 27 2013 *)
+%o A042984 (MAGMA) [1+10*n+27*Binomial(n,2)+28*Binomial(n,3)+11*Binomial(n,4)+Binomial(n,5): n in [0..40]]; // _Vincenzo Librandi_, Oct 27 2013
+%Y A042984 Cf. A007326, A007327, A008780.
+%K A042984 nonn,easy,nice
+%O A042984 0,2
+%A A042984 _Alford Arnold_, Aug 15 1998
+%E A042984 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

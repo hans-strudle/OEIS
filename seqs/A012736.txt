@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012736
+Showing 1-1 of 1
+
+%I A012736
+%S A012736 1,12,20048,255870912,12348478073088,1607757077354376192,
+%T A012736 462465118290965584465920,257450488580368515571587072000,
+%U A012736 252414780430562625969597955397713920
+%N A012736 sec(arctanh(x)*atan(x)) = 1+12/4!*x^4+20048/8!*x^8+255870912/12!*x^12...
+%K A012736 nonn
+%O A012736 0,2
+%A A012736 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022254
+Showing 1-1 of 1
+
+%I A022254
+%S A022254 1,820,605242,441826660,322140667123,234844517989720,
+%T A022254 171201975319325044,124806266065883690200,90983770072735012966405,
+%U A022254 66327168553990994916016300,48352505889707776105242586606,35248976794718684386485952344220
+%N A022254 Gaussian binomial coefficients [ n,3 ] for q = 9.
+%o A022254 (Sage) [gaussian_binomial(n,3,9) for n in xrange(3,15)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A022254 nonn
+%O A022254 0,2
+%A A022254 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

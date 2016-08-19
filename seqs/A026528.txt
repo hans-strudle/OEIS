@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026528
+Showing 1-1 of 1
+
+%I A026528
+%S A026528 1,2,8,28,111,436,1763,7176,29521,122182,508595,2126312,8923136,
+%T A026528 37563930,158563368,670893296,2844444761,12081753410,51400091942
+%N A026528 a(n) = T(2n-1,n-1), T given by A026519.
+%Y A026528 Also a(n) = T(2n-1, n-1), T given by A026552.
+%K A026528 nonn
+%O A026528 1,2
+%A A026528 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

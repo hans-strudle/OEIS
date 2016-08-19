@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047663
+Showing 1-1 of 1
+
+%I A047663
+%S A047663 6,42,188,644,1826,4494,9912,20040,37758,67122,113652,184652,289562,
+%T A047663 440342,651888,942480,1334262,1853754,2532396,3407124,4520978,5923742,
+%U A047663 7672616,9832920,12478830,15694146,19573092,24221148,29755914,36308006
+%N A047663 Row 6 of square array defined in A047662.
+%F A047663 n/45 * (2n^5 + 6n^4 + 35n^3 + 60n^2 + 98 + 69).
+%K A047663 nonn
+%O A047663 1,1
+%A A047663 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005460
+Showing 1-1 of 1
+
+%I A005460 M4433
+%S A005460 1,7,50,390,3360,31920,332640,3780000,46569600,618710400,8821612800,
+%T A005460 134399865600,2179457280000,37486665216000,681734237184000,
+%U A005460 13071512982528000
+%N A005460 (3*n+4)*(n+3)!/24.
+%D A005460 R. Austin, R. K. Guy, and R. Nowakowski, unpublished notes, circa 1987.
+%D A005460 R. K. Guy, personal communication.
+%D A005460 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005460 Vincenzo Librandi, <a href="/A005460/b005460.txt">Table of n, a(n) for n = 0..300</a>
+%H A005460 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+%F A005460 Expansion of (1+2x) / (1-x)^5.
+%F A005460 Essentially Stirling numbers of second kind - see A028246.
+%o A005460 (MAGMA) [(3*n+4)*Factorial(n+3)/24: n in [0..20]]; // Vincenzo Librandi, Oct 08 2011
+%K A005460 nonn,easy
+%O A005460 0,2
+%A A005460 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

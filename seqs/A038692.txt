@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038692
+Showing 1-1 of 1
+
+%I A038692
+%S A038692 25,225,289,361,529,729,2401,2601,2809,4761,5329,5929,7225,7569,11449,
+%T A038692 11881,13225,15129,19881,21609,22801,23409,24649,25281,26569,27225,
+%U A038692 29241,29929,31329,32761,34969,36481,39601,47961,52441,53361,54289,55225,57121,58081
+%N A038692 Square numbers that are concatenations of two or more prime numbers.
+%F A038692 A038692(n)=A166503(n)^2. As a set, A038692 = A000290 intersection A152242 = A016754 intersection A152242.  - M. F. Hasler, Mar 19 2012
+%o A038692 (PARI) forstep(n=1,300,2, is_A152242(n^2) & print1(n^2","))  \\ - M. F. Hasler, Mar 19 2012
+%Y A038692 Cf. A166503 (the square roots).
+%K A038692 nonn,base
+%O A038692 1,1
+%A A038692 _Jeff Burch_
+%E A038692 Edited by _N. J. A. Sloane_, Oct 18 2009, incorporating corrections from _M. F. Hasler_ and Zak Seidov.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

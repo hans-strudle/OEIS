@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012153
+Showing 1-1 of 1
+
+%I A012153
+%S A012153 1,1,21,1053,96905,14216409,3045819741,897606889013,348348521840273,
+%T A012153 172224469448231985,105685328498514238501,78822199814116989651661,
+%U A012153 70223663543654715642543129,73659278933239564262294052361
+%N A012153 sec(tan(tan(x)))=1+1/2!*x^2+21/4!*x^4+1053/6!*x^6+96905/8!*x^8...
+%K A012153 nonn
+%O A012153 0,3
+%A A012153 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

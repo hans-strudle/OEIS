@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028295
+Showing 1-1 of 1
+
+%I A028295
+%S A028295 133,1903,10561,38015,106461,252737,533397,1030505,1858149,3169675,
+%T A028295 5165641
+%N A028295 n^6-(883/60)*n^5+(157/3)*n^4+(2155/12)*n^3-(4570/3)*n^2+(42767/15)*n-967.
+%C A028295 Old name was: "Number of stacks of n pikelets, distance 6 flips from a well-ordered stack".
+%H A028295 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A028295 G.f. x^6*(-133-972*x-33*x^2+604*x^3-187*x^4-2*x^5+3*x^6) / (x-1)^7 . - _R. J. Mathar_, Jun 21 2011
+%K A028295 nonn,easy
+%O A028295 6,1
+%A A028295 _R. K. Guy_
+%E A028295 Entry revised by _N. J. A. Sloane_, Jun 15 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

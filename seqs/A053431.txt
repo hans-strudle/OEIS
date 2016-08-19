@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053431
+Showing 1-1 of 1
+
+%I A053431
+%S A053431 78256779,340262731,1963319607,13402974518,26805949036,40208923554
+%N A053431 Numbers n such that (Pi/2)*n^2*sin(1/n) < floor(Pi*n/2).
+%C A053431 The solution uses sequence A001203, the continued fraction expansion of Pi. - _T. D. Noe_, Mar 13 2014
+%D A053431 Allen Stenger, Problem 10640, Amer. Math. Monthly, 107 (2000), 177-178.
+%Y A053431 Cf. A001203.
+%K A053431 nonn
+%O A053431 1,1
+%A A053431 _N. J. A. Sloane_, Mar 21 2000
+%E A053431 More terms from Antreas P. Hatzipolakis (xpolakis(AT)otenet.gr), May 25 2000
+%E A053431 Better name from _T. D. Noe_, Mar 13 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054214
+Showing 1-1 of 1
+
+%I A054214
+%S A054214 82,8242,9802,538277,998002,77837026,99980002,7922547265,8643251345,
+%T A054214 9223797610,9999800002,106710893290,453378226757,491023832065,
+%U A054214 945958034530,999998000002,11916002265170,15790977390245,24917378001937
+%N A054214 Numbers n such that n concatenated with n-1 is a square.
+%C A054214 Every term contains even number of digits. - Max Alekseyev, May 14 2007
+%C A054214 If n=(10^m-1)^2+1 where m is a positive integer then n is in the sequence. Because n has 2m digits and n concatenated with n-1 is n*10^(2m)+(n-1)=(10^(2m)-10^m+1)^2. Take m=1 we get 82 the first such term. - _Farideh Firoozbakht_, Aug 22 2013
+%e A054214 E.g. '8242' + '8242-1' gives 82428241 which is 9079^2.
+%Y A054214 Cf. A054215, A054216, A030465, A030466, A030467, A020339, A020340.
+%K A054214 nonn,base
+%O A054214 1,1
+%A A054214 _Patrick De Geest_, Feb 15 2000.
+%E A054214 More terms from Max Alekseyev, May 14 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

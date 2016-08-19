@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016387
+Showing 1-1 of 1
+
+%I A016387
+%S A016387 1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,1,
+%T A016387 1,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,1,
+%U A016387 1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,0,0
+%V A016387 1,-1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,1,
+%W A016387 -1,1,-1,0,0,0,0,0,0,0,1,-1,1,-1,0,0,0,0,0,0,0,1,-1,1,-1,0,0,0,0,0,1,
+%X A016387 -1,1,-1,1,-1,0,0,0,0,0,1,-1,1,-1,1,-1,0,0
+%N A016387 341st cyclotomic polynomial.
+%K A016387 sign,fini
+%O A016387 0,1
+%A A016387 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

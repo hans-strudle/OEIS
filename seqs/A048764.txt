@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048764
+Showing 1-1 of 1
+
+%I A048764
+%S A048764 1,2,2,2,2,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,24,24,24,24,24,24,24,
+%T A048764 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
+%U A048764 24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
+%N A048764 Largest factorial <= n.
+%D A048764 K. Atanassov, On the 43rd and 44th Smarandache Problems, Notes on Number Theory and Discrete Mathematics, Sophia, Bulgaria, Vol. 5 (1999), No. 2, 86-88.
+%D A048764 J. Castillo, Other Smarandache Type Functions: Inferior/Superior Smarandache f-part of x, Smarandache Notions Journal, Vol. 10, No. 1-2-3, 1999, 202-204.
+%H A048764 Charles R Greathouse IV, <a href="/A048764/b048764.txt">Table of n, a(n) for n = 1..10000</a>
+%H A048764 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/OPNS.pdf">Only Problems, Not Solutions!</a>.
+%H A048764 K. Atanassov, <a href="http://www.gallup.unm.edu/~smarandache/Atanassov-SomeProblems.pdf">On Some of Smarandache's Problems</a>
+%F A048764 a(n) >> n log log n / log n. - _Charles R Greathouse IV_, Sep 19 2012
+%o A048764 (PARI) a(n)=my(t=1,k=1);while(t<=n,t*=k++);t/k \\ _Charles R Greathouse IV_, Sep 19 2012
+%Y A048764 Cf. A000142.
+%K A048764 nonn,easy
+%O A048764 1,2
+%A A048764 Charles T. Le (charlestle(AT)yahoo.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

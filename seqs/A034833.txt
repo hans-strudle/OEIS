@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034833
+Showing 1-1 of 1
+
+%I A034833
+%S A034833 1,13,260,7020,238680,9785880,469722240,25834723200,1601752838400,
+%T A034833 110520945849600,8399591884569600,697166126419276800,
+%U A034833 62744951377734912000,6086260283640286464000,632971069498589792256000
+%N A034833 a(n) = n-th sept-factorial number divided by 6.
+%H A034833 Harvey P. Dale, <a href="/A034833/b034833.txt">Table of n, a(n) for n = 1..339</a>
+%H A034833 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A034833 6*a(n) = (7*n-1)(!^7) = product_{j=1..n} (7*j-1) = (7*n)! / (7^n * n! * A045754(n) * 2*A034829(n) * 3*A034830(n) * 4*A034831(n) * 5*A034832(n)).
+%F A034833 E.g.f.: (-1 + (1-7*x)^(-6/7))/6.
+%t A034833 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 12, 5!, 7}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%t A034833 FoldList[Times,1,Rest[7*Range[20]-1]] (* _Harvey P. Dale_, Dec 15 2014 *)
+%Y A034833 Cf. A045754, A034829-A034834.
+%K A034833 easy,nonn
+%O A034833 1,2
+%A A034833 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020667
+Showing 1-1 of 1
+
+%I A020667
+%S A020667 1023456789,1026753849,12584301976,338920744561,2817036000549,
+%T A020667 16157819263041,1727094849536,13685690504052736,1628413597910449,
+%U A020667 3656158440062976,2384185791015625,129746337890625,1490116119384765625
+%N A020667 Least n-th power containing every digit.
+%C A020667 It is extremely probable that a(n) = 2^n for all n >= 169.
+%Y A020667 Cf. A020666.
+%K A020667 nonn,base
+%O A020667 1,1
+%A A020667 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

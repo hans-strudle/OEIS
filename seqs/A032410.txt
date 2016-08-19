@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032410
+Showing 1-1 of 1
+
+%I A032410
+%S A032410 8,12,44,84,96,228,264,320,732,788,1808,7928,12264,37784,59196,91112,
+%T A032410 112208,168716,251184
+%N A032410 Numbers n such that 121*2^n+1 is prime.
+%H A032410 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032410 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032410 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032410 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032410 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032410 nonn
+%O A032410 1,1
+%A A032410 _James R. Buddenhagen_
+%E A032410 Extended by _Hugo Pfoertner_, Jul 02 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

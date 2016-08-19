@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019126
+Showing 1-1 of 1
+
+%I A019126
+%S A019126 0,0,6,6,4,29,62,96,260,727,1433,3356,9050,21140,49236,128957,326370,
+%T A019126 811629
+%N A019126 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite EUO = EU-1 Nan [ AlnSi112-n O224 ].
+%D A019126 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019126 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019126 nonn
+%O A019126 3,3
+%A A019126 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

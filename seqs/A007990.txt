@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007990
+Showing 1-1 of 1
+
+%I A007990
+%S A007990 3,6,18,42,94,180,348,602,1047,1692,2737,4194,6426,9450,13863,19716,
+%T A007990 27933,38616,53160,71748,96396,127440,167704,217740,281439,359654,
+%U A007990 457617,576630,723592,900396,1116033,1373166,1683327,2050212,2488416
+%N A007990 Poincaré series of Lie algebra associated with a certain braid group.
+%D A007990 S. P. Humphries, Braid groups, infinite Lie algebras of Cartan type and rings of invariants, Topology and its Applications, 95 (3) (1999) pp. 173-205.
+%H A007990 S. P. Humphries, <a href="http://www.math.byu.edu/~steve/">Home page</a>
+%F A007990 The Humphries paper gives a g.f. with denominator (1-x^4)*(1-x^3)^2*(1-x^2)^4*(1-x)^2. - _Ralf Stephan_, Jun 11 2005
+%K A007990 nonn
+%O A007990 2,1
+%A A007990 _Stephen P. Humphries_
+%E A007990 More terms from _Ralf Stephan_, Jun 11 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

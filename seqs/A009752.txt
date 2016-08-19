@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009752
+Showing 1-1 of 1
+
+%I A009752
+%S A009752 0,2,8,96,2176,79360,4245504,313155584,30460116992,3777576173568,
+%T A009752 581777702256640,108932957168730112,24370173276164456448,
+%U A009752 6419958484945407574016,1967044844910430876860416
+%N A009752 E.g.f. tan(x)*x (even powers only).
+%C A009752 2x/(1+e^(2x)) = 0 + x - 2/2!*x^2 + 8/4!*x^4 - 96/6!*x^6 + 2176/8!*x^8 ...
+%F A009752 a(n) = n 4^n |E_{2n-1}(1/2)+E_{2n-1}(1)| for n > 0; E_{n}(x) Euler polynomials. - _Peter Luschny_, Nov 25 2010
+%F A009752 a(n) = (2*n)! * [x^(2*n)] tan(x)*x.
+%F A009752 a(n) = 2*(2*n)!*Pi^(-2*n)*(4^n-1)*Li{2*n}(1) for n > 0. - _Peter Luschny_, Jun 29 2012
+%F A009752 E.g.f.: sqrt(x)*tan(sqrt(x))= sum(n>=0,  a(n)*x^n/(2*n)! ) = x/T(0) where T(k)= 1 - 4*k^2 + x*(1 - 4*k^2)/T(k+1) ; (continued fraction, 1-step). - _Sergei N. Gladkovskii_, Sep 19 2012
+%F A009752 E.g.f.: -1 - x^(1/2)- Q(0),where Q(k) = 4*k -1 - x/( 1 - x/ (4*k+1 + x/( 1 + x/Q(k+1) ))); (continued fraction). - _Sergei N. Gladkovskii_, Nov 24 2013
+%p A009752 A009752  := n -> `if`(n=0,0,4^n*n*abs(euler(2*n-1,1/2)+euler(2*n-1,1))): [_Peter Luschny_, Nov 25 2010]
+%t A009752 nn = 30; t = Range[0, nn]! CoefficientList[Series[x*Tan[x], {x, 0, nn}], x]; Take[t, {1, nn + 1, 2}] (* _T. D. Noe_, Sep 20 2012 *)
+%Y A009752 Cf. A009725, A065619.
+%Y A009752 Cf. A099028.
+%Y A009752 A diagonal of A232933.
+%K A009752 nonn
+%O A009752 0,2
+%A A009752 _R. H. Hardin_
+%E A009752 Extended and signs tested by _Olivier Gérard_, Mar 15 1997.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

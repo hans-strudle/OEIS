@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023004
+Showing 1-1 of 1
+
+%I A023004
+%S A023004 1,5,20,65,190,506,1265,2990,6765,14725,31027,63505,126730,247170,
+%T A023004 472295,885723,1633000,2963840,5302075,9358470,16313440,28107365,
+%U A023004 47902010,80803485,134992865,223474667,366772720,597049255,964375855,1546208695,2461649861,3892774130
+%N A023004 Number of partitions of n into parts of 5 kinds.
+%C A023004 a(n) is Euler transform of A010716. - _Alois P. Heinz_, Oct 17 2008
+%H A023004 Alois P. Heinz, <a href="/A023004/b023004.txt">Table of n, a(n) for n = 0..1000</a>
+%H A023004 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%H A023004 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023004 G.f.: Product_{m>=1} 1/(1-x^m)^5.
+%F A023004 a(n) ~ 5^(3/2) * exp(Pi * sqrt(10*n/3)) / (32 * 3^(3/2) * n^2). - _Vaclav Kotesovec_, Feb 28 2015
+%p A023004 with(numtheory): a:=proc(n) option remember; `if`(n=0, 1, add(add(d*5, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq(a(n), n=0..40); # _Alois P. Heinz_, Oct 17 2008
+%t A023004 nmax=50; CoefficientList[Series[Product[1/(1-x^k)^5,{k,1,nmax}],{x,0,nmax}],x] (* _Vaclav Kotesovec_, Feb 28 2015 *)
+%o A023004 (PARI) \ps100 for(n=0,100,print1((polcoeff(1/eta(x)^5,n,x)),","))
+%Y A023004 Cf. 5th column of A144064. - _Alois P. Heinz_, Oct 17 2008
+%K A023004 nonn
+%O A023004 0,2
+%A A023004 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

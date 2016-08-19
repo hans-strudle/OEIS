@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024407
+Showing 1-1 of 1
+
+%I A024407
+%S A024407 210,2730,7980,71610,85470,106260,114114,234780,341880,420420,499590,
+%T A024407 1563660,1647030,1857240,2042040,3423420,3666390,6587490,7393470,
+%U A024407 8514660,9279270,12766110,13123110,17957940,18820830,23393370,23573550,29099070,29274630,29609580
+%N A024407 Areas of more than one primitive Pythagorean triangle.
+%C A024407 Among a(1) to a(30), only a(23) = 13123110 has multiplicity 3, the others have multiplicity 2. The three primitive Pythagorean triangles corresponding to a(23) are [4485, 5852, 7373], [3059, 8580, 9109] and [19019, 1380, 19069]. Leg exchange is not taken into account. - _Wolfdieter Lang_, Jun 15 2015
+%H A024407 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Pythag/pythag.html">Pythagorean Triples and Online Calculators</a>
+%Y A024407 Cf. A024365, A024406.
+%K A024407 nonn
+%O A024407 1,1
+%A A024407 _David W. Wilson_
+%E A024407 a(29) and a(30) added by _Wolfdieter Lang_, Jun 14 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

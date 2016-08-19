@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051548
+Showing 1-1 of 1
+
+%I A051548
+%S A051548 1,2,2,6,6,12,12,12,12,12,12,12,12,12,12,60,60,60,60,60,60,60,60,120,
+%T A051548 120,120,120,120,120,120,120,120,120,120,120,360,360,360,360,360,360,
+%U A051548 360,360,360,360,360,360,360,360,360,360,360,360,360,360
+%N A051548 a(n) = LCM { tau(1), ..., tau(n) }.
+%Y A051548 Cf. A000005.
+%K A051548 nonn
+%O A051548 0,2
+%A A051548 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

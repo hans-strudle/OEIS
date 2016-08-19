@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031178
+Showing 1-1 of 1
+
+%I A031178
+%S A031178 1,1,1,3,1,1,1,1,1,1,1,1,3,1,1,3,1,1,1,1,1,3,1,1,3,1,1,3,1,1,3,1,1,1,
+%T A031178 1,1,1,1,1,3,1,1,1,1,1,3,1,1,2,1,1,3,1,1,3,1,1,1,1,1,3,1,1,3,1,1,1,1,
+%U A031178 1,1,1,1,1,1,1,1,1,1,3,1,1,3,1,1,1,1,1,1,1,1,1,1,1,2,1,1,3,1,1
+%N A031178 Periods of sum of cubes of digits iterated until the sequence becomes periodic.
+%H A031178 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Digitaddition.html">Digit addition</a>
+%K A031178 nonn,base
+%O A031178 0,4
+%A A031178 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007899
+Showing 1-1 of 1
+
+%I A007899
+%S A007899 1,12,44,96,170,264,380,516,674,852,1052,1272,1514,1776,2060,2364,
+%T A007899 2690,3036,3404,3792,4202,4632,5084,5556,6050,6564,7100,7656,8234,
+%U A007899 8832,9452,10092,10754,11436,12140,12864,13610
+%N A007899 Coordination sequence for hexagonal close-packing.
+%H A007899 Vincenzo Librandi, <a href="/A007899/b007899.txt">Table of n, a(n) for n = 0..1000</a>
+%H A007899 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A007899 M. O'Keeffe, <a href="http://dx.doi.org/10.1524/zkri.1995.210.12.905">Coordination sequences for lattices</a>, Zeit. f. Krist., 210 (1995), 905-908.
+%H A007899 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (2, 0, -2, 1).
+%F A007899 a(0)=1, a(1)=12, a(2)=44, a(3)=96, a(4)=170, a(n)=2*a(n-1)-2*a(n-3)+ a(n-4). - _Harvey P. Dale_, Feb 15 2014
+%p A007899 a(n) = floor( 21*n^2 / 2 ) + 2.
+%p A007899 G.f.: (x^4+10*x^3+20*x^2+10*x+1)/(1-x)^3/(x+1).
+%t A007899 Join[{1},Floor[(21Range[40]^2)/2]+2] (* or *) Join[{1},LinearRecurrence[ {2,0,-2,1},{12,44,96,170},40]] (* _Harvey P. Dale_, Feb 15 2014 *)
+%t A007899 CoefficientList[Series[(x^4 + 10 x^3 + 20 x^2 + 10 x + 1)/(1 - x)^3/(x + 1), {x, 0, 50}], x] (* _Vincenzo Librandi_, Feb 16 2014 *)
+%o A007899 (MAGMA) I:=[1,12,44,96,170]; [n le 5 select I[n] else 2*Self(n-1)-2*Self(n-3)+Self(n-4): n in [1..50]]; // _Vincenzo Librandi_, Feb 16 2014
+%K A007899 nonn
+%O A007899 0,2
+%A A007899 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

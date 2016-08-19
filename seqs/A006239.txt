@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006239
+Showing 1-1 of 1
+
+%I A006239 M4909
+%S A006239 1,13,108,793,5611,39312,274933,1923025,13455396,94169413,659134543,
+%T A006239 4613813568,32296413241,226074381637,1582520088348,11077641280225,
+%U A006239 77543496352291,542804506787088,3799631657379853,26597421924762793
+%N A006239 Row 3 of array in A212801.
+%D A006239 G. Kreweras, Complexite et circuits Euleriens dans les sommes tensorielles de graphes, J. Combin. Theory, B 24 (1978), 202-212.
+%D A006239 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006239 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Checkers.html">Checkers</a>.
+%F A006239 Empirical g.f.: x*(1-7*x^2)/((1-x)*(1-7*x)*(1-5*x+7*x^2)). [_Bruno Berselli_, May 31 2012]
+%F A006239 Empirical closed form: a(n) = (2^n*(1+7^n) -(5-i*sqrt(3))^n -(5+i*sqrt(3))^n) / (3*2^n), where i=sqrt(-1). [_Bruno Berselli_, May 31 2012]
+%Y A006239 Cf. A212801.
+%K A006239 nonn
+%O A006239 1,2
+%A A006239 _N. J. A. Sloane_. Entry revised May 27 2012.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

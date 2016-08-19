@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001445
+Showing 1-1 of 1
+
+%I A001445
+%S A001445 3,5,10,18,36,68,136,264,528,1040,2080,4128,8256,16448,32896,65664,
+%T A001445 131328,262400,524800,1049088,2098176,4195328,8390656,16779264,
+%U A001445 33558528,67112960,134225920,268443648
+%N A001445 (2^n + 2^[ n/2 ] )/2.
+%C A001445 a(n) is union of A007582(n-1) and A164051(n). [_Jaroslav Krizek_, Aug 14 2009]
+%H A001445 James Spahlinger, <a href="/A001445/b001445.txt">Table of n, a(n) for n = 2..1001</a>
+%F A001445 a(n) = (1/2)*A005418(n+2).
+%F A001445 G.f.: x^2*(3-x-6*x^2)/((1-2*x)*(1-2*x^2)).
+%F A001445 G.f.: 3*G(0) where G(k) = 1 + x*(4*2^k + 1)*(1 + 2*x*G(k+1))/(1 + 2*2^k). - Sergei N. Gladkovskii, Dec 12 2011 [Edited by _Michael Somos_, Sep 09 2013]
+%e A001445 G.f. = 3*x^2 + 5*x^3 + 10*x^4 + 18*x^5 + 36*x^6 + 68*x^7 + 136*x^8 + ...
+%p A001445 f := n->(2^n+2^floor(n/2))/2;
+%Y A001445 Cf. A056309, A052957.
+%K A001445 nonn
+%O A001445 2,1
+%A A001445 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

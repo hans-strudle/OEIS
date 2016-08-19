@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056046
+Showing 1-1 of 1
+
+%I A056046
+%S A056046 0,0,0,2,56,790,8380,76482,638736,5043950,38390660,285007162,
+%T A056046 2079779416,14995363110,107204473740,761823557042,5390550296096,
+%U A056046 38026057186270,267656481977620,1881017836414122,13204444871932776
+%N A056046 Number of 3-antichain covers of a labeled n-set.
+%D A056046 V. Jovovic and G. Kilibarda, On the number of Boolean functions in the Post classes F^{mu}_8, Diskretnaya Matematika, 11 (1999), no. 4, 127-138 (translated in Discrete Mathematics and Applications, 9, (1999), no. 6)
+%D A056046 V. Jovovic, G. Kilibarda, On enumeration of the class of all monotone Boolean functions, in preparation.
+%H A056046 K. S. Brown, <a href="http://www.mathpages.com/home/kmath515.htm">Dedekind's problem</a>
+%H A056046 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Cover.html">Antichain covers</a>
+%H A056046 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (22,-190,820,-1849,2038,-840).
+%F A056046 a(n)=(1/6)*(7^n-6*5^n+6*4^n+3*3^n-6*2^n+2).
+%F A056046 G.f.: -2*x^3*(31*x^2-6*x-1) / ((x-1)*(2*x-1)*(3*x-1)*(4*x-1)*(5*x-1)*(7*x-1)). [_Colin Barker_, Nov 27 2012]
+%e A056046 There are 2 3-antichain covers of a labeled 3-set: {{1},{2},{3}}, {{1,2},{1,3},{2,3}}.
+%Y A056046 Cf. A047707.
+%K A056046 easy,nonn
+%O A056046 0,4
+%A A056046 _Vladeta Jovovic_, Goran Kilibarda, Jul 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

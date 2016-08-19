@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044265
+Showing 1-1 of 1
+
+%I A044265
+%S A044265 14,95,126,176,257,338,419,500,581,662,743,824,855,905,986,1067,1134,
+%T A044265 1229,1310,1391,1472,1553,1584,1634,1715,1796,1877,1958,2039,2120,
+%U A044265 2201,2282,2313,2363,2444,2525,2606,2687,2768,2849
+%N A044265 Numbers n such that string 1,5 occurs in the base 9 representation of n but not of n-1.
+%K A044265 nonn,base
+%O A044265 1,1
+%A A044265 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

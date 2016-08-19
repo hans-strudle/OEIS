@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060477
+Showing 1-1 of 1
+
+%I A060477
+%S A060477 3,1,2,3,6,9,18,30,56,99,186,335,630,1161,2182,4080,7710,14532,27594,
+%T A060477 52377,99858,190557,364722,698870,1342176,2580795,4971008,9586395,
+%U A060477 18512790,35790267,69273666,134215680,260300986
+%N A060477 Number of orbits of length n in map whose periodic points are A048578.
+%D A060477 Yash Puri and Thomas Ward, A dynamical property unique to the Lucas sequence, Fibonacci Quarterly, Volume 39, Number 5 (November 2001), pp. 398-402.
+%H A060477 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%F A060477 If b(n) is the n-th term of A048578, then a(n)=(1/n)* Sum_{d|n}\mu(d)a(n/d)
+%e A060477 a(3)=2 since the 3rd term of A048578 is 9 and the first term is 3.
+%Y A060477 A048578.
+%Y A060477 Cf. A001037, A059966 (both nearly identical to this sequence).
+%Y A060477 Cf. A093210.
+%K A060477 easy,nonn
+%O A060477 1,1
+%A A060477 Thomas Ward (t.ward(AT)uea.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

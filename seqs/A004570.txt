@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004570
+Showing 1-1 of 1
+
+%I A004570
+%S A004570 2,1,2,2,1,0,2,2,0,2,0,2,2,2,0,1,1,1,1,2,0,1,0,0,0,2,2,2,0,1,2,1,0,1,
+%T A004570 2,0,1,2,1,2,2,0,0,0,0,0,0,2,0,1,1,1,2,1,1,0,1,0,1,2,0,2,2,1,2,2,0,2,
+%U A004570 0,0,0,2,0,1,1,1,0,0,2,1,2,1,1,1,1,1,1,2,1,0,1,2,2,2,2,1,2,2,1
+%N A004570 Expansion of sqrt(7) in base 3.
+%H A004570 Jason Kimberley, <a href="/wiki/User:Jason_Kimberley/sqrt_base">Index of expansions of sqrt(d) in base b</a>
+%t A004570 RealDigits[Sqrt[7],3,120][[1]] (* _Harvey P. Dale_, May 02 2012 *)
+%K A004570 nonn,base,cons
+%O A004570 1,1
+%A A004570 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

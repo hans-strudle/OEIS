@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053533
+Showing 1-1 of 1
+
+%I A053533
+%S A053533 1,0,0,0,0,12,60,360,2520,20160,199584,2147040,25043040,315485280,
+%T A053533 4274281440,62237343168,968728662720,16046598597120,281802435747840,
+%U A053533 5229395457937920,102253297006250496,2101387824575550720,45281611027331723520
+%N A053533 E.g.f.: 1/(1-x)^(1/2)*exp(-1/2*x-1/4*x^2-1/6*x^3-1/8*x^4).
+%D A053533 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2, 1999; see Problem 5.15(a), k=5.
+%F A053533 a(n) ~ sqrt(2) * n^n / exp(n+25/24). - _Vaclav Kotesovec_, Aug 04 2014
+%Y A053533 Cf. A001205, A053532.
+%K A053533 nonn
+%O A053533 0,6
+%A A053533 _N. J. A. Sloane_, Jan 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

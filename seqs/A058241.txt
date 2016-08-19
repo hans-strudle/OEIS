@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058241
+Showing 1-1 of 1
+
+%I A058241
+%S A058241 1,1,1,2,1,5,0,6,4,6,0,18,0,20,0,0,6,51,0,42
+%N A058241 For i=1 to n, c(i) is a positive integer such that c(x) != c(y) if x != y; place each c(i) on the circumference of a circle at regular intervals. The arrangement must be such that any sum of adjacent c(i)'s is unique (these sums range from 1 to n(n-1)+1); a(n) = number of ways to choose the c(i).
+%C A058241 a(1)=1, a(2)=1; conjecture: for n>2, p prime, e>0, if n-1 is of the form p^e then a(n)>0 else a(n)=0.
+%H A058241 Math. Archives, <a href="http://archives.math.utk.edu/software/msdos/number.theory/ubasic/.html">UBASIC</a>
+%H A058241 N. Nomoto, <a href="http://www.geocities.co.jp/Technopolis/1793/maen.zip">UBASIC program -> maen.zip (Maen.ub) (for n=12 it takes 30 minutes)</a>
+%H A058241 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PerfectDifferenceSet.html">Perfect Difference Set</a>
+%e A058241 For n=3: we can choose 1 for c(1), 4 for c(2), 2 for c(3). We place the three numbers on the circumference: any sum of adjacent c(i) along the circumference is unique. We can see the numbers from 1 to 3*(3-1)+1. { 1=1, 2= 2, 3=1+2, 4=4, 5=1+4, 6=2+4, 7=1+2+4=3*(3-1)+1 .; The set of c(i) which agrees with the arrangement condition is unique so a(3) = 1.
+%K A058241 nonn
+%O A058241 1,4
+%A A058241 _Naohiro Nomoto_, Jan 16 2001
+%E A058241 More terms from Rustem Aidagulov (rustem53(AT)mail.ru), Sep 06 2005 and Jan 01 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

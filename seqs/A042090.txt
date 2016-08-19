@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042090
+Showing 1-1 of 1
+
+%I A042090
+%S A042090 23,24,143,167,978,8969,18916,27885,74686,251943,830515,1912973,
+%T A042090 2743488,7399949,69343029,354115094,423458123,2471405709,2894863832,
+%U A042090 135635141981,138530005813,828285171046,966815176859
+%N A042090 Numerators of continued fraction convergents to sqrt(569).
+%H A042090 Vincenzo Librandi, <a href="/A042090/b042090.txt">Table of n, a(n) for n = 0..200</a>
+%t A042090 Numerator[Convergents[Sqrt[569], 30]] (* _Vincenzo Librandi_, Nov 16 2013 *)
+%Y A042090 Cf. A042091.
+%K A042090 nonn,cofr,frac,easy,less
+%O A042090 0,1
+%A A042090 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

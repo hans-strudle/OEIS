@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020329
+Showing 1-1 of 1
+
+%I A020329
+%S A020329 8,200
+%N A020329 Consider integers z such C(z,4) = C(x,4) + C(y,4), x >= y >= 4, is solvable. Sequence gives values of z.
+%D A020329 H. Finner and K. Strassburger, Increasing sample sizes do not necessarily increase the power of UMPU-tests for 2 X 2-tables. Metrika, 54, 77-91, (2001).
+%D A020329 A. S. Fraenkel, Diophantine equations involving generalized triangular and tetrahedral numbers, pp. 99-114 of A. O. L. Atkin and B. J. Birch, editors, Computers in Number Theory. Academic Press, NY, 1971.
+%D A020329 H. Harborth, Fermat-like binomial equations, Applications of Fibonacci numbers, Proc. 2nd Int. Conf., San Jose/Ca., August 1986, 1-5 (1988).
+%D A020329 J. Leech, Some solutions of Diophantine equations, Proc. Camb. Phil. Soc., 53 (1957), 778-780.
+%D A020329 M. Wunderlich, Certain properties of pyramidal and figurate numbers, Math. Comp., 16 (1962), 482-486.
+%t A020329 nn = 1000; t = Binomial[Range[nn], 4]; d = Intersection[t, Union[Flatten[Table[t[[i]] + t[[j]], {i, 4, nn}, {j, i, nn}]]]]; Flatten[Table[Position[t, i], {i, d}]] (* _T. D. Noe_, Apr 02 2014 *)
+%Y A020329 Cf. A010332.
+%K A020329 nonn,bref
+%O A020329 1,1
+%A A020329 _David W. Wilson_
+%E A020329 a(3)>126900 - Klaus Strassburger (strass(AT)ddfi.uni-duesseldorf.de), May 02 2000
+%E A020329 Additional references from Klaus Strassburger (strass(AT)ddfi.uni-duesseldorf.de), Feb 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

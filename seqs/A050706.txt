@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050706
+Showing 1-1 of 1
+
+%I A050706
+%S A050706 8,9,18,22,24,25,36,39,40,54,78,80,81,91,94,99,104,106,115,119,121,
+%T A050706 122,126,134,138,142,144,146,152,159,164,170,174,187,189,214,218,219,
+%U A050706 226,228,231,232,237,250,258,262,264,265,266,272,274,276,280,282,288,289
+%N A050706 Prime reached after 2 iterations of composite added to sum of prime factors.
+%e A050706 Iteration 1 -> 226 = 2.113 so 226 + (2+113) = 226 + 115 = 341 and composite.
+%e A050706 Iteration 2 -> 341 = 11.31 so 341 + (11+31) = 341 + 42 = 383 and prime.
+%t A050706 aQ[n_]:=PrimeQ[Nest[#+Total[Times@@@FactorInteger[#]]&,n,2]]; Select[Range[289],!PrimeQ[#]&&aQ[#]&] (* _Jayanta Basu_, May 31 2013 *)
+%Y A050706 Cf. A050703-A050710.
+%K A050706 nonn
+%O A050706 0,1
+%A A050706 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

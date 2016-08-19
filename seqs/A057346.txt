@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057346
+Showing 1-1 of 1
+
+%I A057346
+%S A057346 1,4,12,48,120,360,360,480,864
+%N A057346 Smallest of the most frequently occurring numbers in 1-to-n 5-dimensional multiplication table.
+%e A057346 M(n) is the array in which m(x,y,z,t,u)=x*y*z*t*u for x = 1 to n, y = 1 to n, z = 1 to n, t = 1 to n and u = 1 to n. In M(7), the most frequently occurring numbers are 360, 420, 504 and 840, each occurring 300 times. The smallest of these numbers is 360, so a(7) = 360.
+%Y A057346 Cf. A057144, A057340, A057343, A057344.
+%K A057346 nonn
+%O A057346 1,2
+%A A057346 _Neil Fernandez_, Aug 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

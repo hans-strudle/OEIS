@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052146
+Showing 1-1 of 1
+
+%I A052146
+%S A052146 0,0,1,1,1,2,2,2,2,3,3,3,3,3,4,4,4,4,4,4,5,5,5,5,5,5,5,6,6,6,6,6,6,6,
+%T A052146 6,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,10,10,
+%U A052146 10,10,10,10,10,10,10,10,10,10,11,11,11,11,11,11,11
+%N A052146 floor((sqrt(1+8*n)-3)/2).
+%D A052146 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2, 1999; see Problem 7.2(d).
+%K A052146 nonn
+%O A052146 1,6
+%A A052146 _N. J. A. Sloane_, Jan 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

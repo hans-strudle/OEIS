@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013287
+Showing 1-1 of 1
+
+%I A013287
+%S A013287 1,4,6,8,135,1412,10780,83568,778365,9007172,116179074,
+%T A013287 1502030840,20018889891,298432864004,4913874359160,84111227898208,
+%U A013287 1492133395973049,28208790397251716,568110070842919230
+%V A013287 -1,4,-6,8,-135,1412,-10780,83568,-778365,9007172,-116179074,
+%W A013287 1502030840,-20018889891,298432864004,-4913874359160,84111227898208,
+%X A013287 -1492133395973049,28208790397251716,-568110070842919230
+%N A013287 sinh(log(x+1)-tanh(x))=-1/2!*x^2+4/3!*x^3-6/4!*x^4+8/5!*x^5...
+%t A013287 With[{nn=30},Drop[CoefficientList[Series[Sinh[Log[x+1]-Tanh[x]],{x,0,nn}],x] Range[0,nn]!,2]] (* _Harvey P. Dale_, Mar 26 2013 *)
+%K A013287 sign
+%O A013287 0,2
+%A A013287 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

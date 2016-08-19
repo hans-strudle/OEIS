@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061002
+Showing 1-1 of 1
+
+%I A061002
+%S A061002 1,1,61,509,8431,39541,36093,375035183,9682292227,40030624861,
+%T A061002 1236275063173,6657281227331,2690511212793403,5006621632408586951,
+%U A061002 73077117446662772669,4062642402613316532391,46571842059597941563297,8437878094593961096374353
+%N A061002 As p runs through the primes >= 5, sequence gives { numerator of Sum_{k=1..p-1} 1/k } / p^2.
+%C A061002 This is an integer by a theorem of Waring and Wolstenholme.
+%C A061002 Conjecture: If p is the n-th prime and H(n) is the n-th harmonic number, then denominator(H(p)/H(p-1))/numerator(H(p-1)/p^2) = p^3. A193758(p)/a(n) = p^3, p > 3. - _Gary Detlefs_, Feb 20 2013
+%D A061002 Z. I. Borevich and I. R. Shafarevich, Number Theory. Academic Press, NY, 1966, p. 388 Problem 5.
+%D A061002 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers, 5th ed., Oxford Univ. Press, 1979, th. 115.
+%H A061002 R. Mestrovic, <a href="http://arxiv.org/abs/1111.3057">Wolstenholme's theorem: Its Generalizations and Extensions in the last hundred and fifty years (1862-2011)</a>, arXiv:1111.3057, 2011
+%p A061002 f1:=proc(n) local p;
+%p A061002 p:=ithprime(n);
+%p A061002 (1/p^2)*numer(add(1/i,i=1..p-1));
+%p A061002 end proc;
+%p A061002 [seq(f1(n),n=3..20)];
+%Y A061002 Cf. A185399, A001008, A120285.
+%K A061002 nonn,easy
+%O A061002 3,3
+%A A061002 _N. J. A. Sloane_, May 15 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

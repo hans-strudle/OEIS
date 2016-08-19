@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014399
+Showing 1-1 of 1
+
+%I A014399
+%S A014399 1,1,0,1,1,1,0,1,1,0,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,0,1,1,0,1,
+%T A014399 1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014399 0,0,1,1,0,1,1,1,0,1,1,0,0,0,0,1,1,0
+%V A014399 1,1,0,-1,-1,-1,0,1,1,0,0,0,0,-1,-1,0,1,1,1,0,-1,-1,0,0,0,0,1,1,0,-1,
+%W A014399 -1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014399 0,0,1,1,0,-1,-1,-1,0,1,1,0,0,0,0,-1,-1,0
+%N A014399 Inverse of 390th cyclotomic polynomial.
+%p A014399 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014399 sign
+%O A014399 0,1
+%A A014399 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

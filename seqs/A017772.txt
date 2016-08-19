@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017772
+Showing 1-1 of 1
+
+%I A017772
+%S A017772 1,56,1540,27720,367290,3819816,32468436,231917400,1420494075,
+%T A017772 7575968400,35607051480,148902215280,558383307300,1889912732400,
+%U A017772 5804731963800,16253249498640,41648951840265,97997533741800,212327989773900,424655979547800,785613562163430
+%N A017772 Binomial coefficients C(56,n).
+%C A017772 Row 56 of A007318.
+%H A017772 Nathaniel Johnston, <a href="/A017772/b017772.txt">Table of n, a(n) for n = 0..56</a> (full sequence)
+%p A017772 seq(binomial(56,n), n=0..56); # Nathaniel Johnston, Jun 24 2011
+%t A017772 Binomial[56,Range[0,20]] (* _Harvey P. Dale_, Sep 05 2013 *)
+%o A017772 (Sage) [binomial(56, n) for n in range(57)] # [From _Zerinvary Lajos_, May 28 2009]
+%Y A017772 Cf. A010926-A011001, A017765-A017771, A017773-A017816.
+%K A017772 nonn,fini,full,easy
+%O A017772 0,2
+%A A017772 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

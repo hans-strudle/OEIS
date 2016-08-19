@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012212
+Showing 1-1 of 1
+
+%I A012212
+%S A012212 3,6,6,12,12,12,12,18,18,24,36,48,60,84,102,138,186,246,306,378,486,
+%T A012212 630,816,1050,1350,1782,2328,2988,3870,5076,6624
+%N A012212 Number of squarefree palindromes over {0, 1, 2} of length 2n+1.
+%K A012212 nonn,base
+%O A012212 0,1
+%A A012212 _Jeffrey Shallit_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

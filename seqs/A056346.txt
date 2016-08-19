@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056346
+Showing 1-1 of 1
+
+%I A056346
+%S A056346 0,0,0,0,0,60,1080,11970,105840,821952,5874480,39713550,258136200,
+%T A056346 1631273220,10096734312,61536377700,370710950400,2213749658880,
+%U A056346 13132080672480,77509456944318,455754569692680
+%N A056346 Number of bracelets using exactly six different colored beads.
+%C A056346 Turning over will not create a new bracelet.
+%D A056346 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056346 A056341(n)-6*A032276(n)+15*A032275(n)-20*A027671(n)+15*A000029(n)-6.
+%Y A056346 Cf. A056286.
+%K A056346 nonn
+%O A056346 1,6
+%A A056346 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

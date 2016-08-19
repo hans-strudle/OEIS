@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050681
+Showing 1-1 of 1
+
+%I A050681
+%S A050681 8,14,16,19,21,23,37,57
+%N A050681 Positions of 4's in A050677.
+%H A050681 P. De Geest, <a href="http://www.worldofnumbers.com/revfact.htm">Reversed Smarandache Concatenated Numbers, Prime factors from n down to 1</a>
+%H A050681 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A050681 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/michafleuren.htm">Factors and primes of Smarandache sequences</a>.
+%H A050681 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%Y A050681 Cf. A000422, A050677, A046463.
+%K A050681 nonn,base,hard,less
+%O A050681 0,1
+%A A050681 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

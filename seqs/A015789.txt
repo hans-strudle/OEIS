@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015789
+Showing 1-1 of 1
+
+%I A015789
+%S A015789 4,10,20,24,30,44,68,92,120,136,164,184,212,236,350,356,374,376,428,
+%T A015789 472,524,596,664,668,808,856,904,932,1028,1076,1150,1172,1192,1336,
+%U A015789 1388,1410,1436,1528,1532,1604,1676,1864,1868,2008,2012,2056,2084
+%N A015789 Numbers n such that phi(n) + 12 | sigma(n + 12).
+%K A015789 nonn
+%O A015789 1,1
+%A A015789 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

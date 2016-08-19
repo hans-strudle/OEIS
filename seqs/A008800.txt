@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008800
+Showing 1-1 of 1
+
+%I A008800
+%S A008800 1,0,2,0,3,0,4,1,6,2,8,3,10,4,13,6,16,8,19,10,22,13,26,16,30,19,34,22,
+%T A008800 39,26,44,30,49,34,54,39,60,44,66,49,72,54,79,60,86,66,93,72,100,79,
+%U A008800 108,86,116,93,124,100,133
+%N A008800 Molien series for 3-dimensional group [2,n ]+ = 22n.
+%H A008800 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A008800 <a href="/index/Rec#order_11">Index entries for linear recurrences with constant coefficients</a>, signature (0,2,0,-1,0,0,1,0,-2,0,1).
+%p A008800 (1+x^8)/(1-x^2)^2/(1-x^7)
+%K A008800 nonn
+%O A008800 0,3
+%A A008800 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040219
+Showing 1-1 of 1
+
+%I A040219
+%S A040219 15,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,
+%T A040219 3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,
+%U A040219 30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30,3,30
+%N A040219 Continued fraction for sqrt(235).
+%H A040219 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040219 a(n)=(1/2)*[33+27*(-1)^n]-15*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 23 2009]
+%p A040219 with(numtheory): Digits := 300: convert(evalf(sqrt(235)),confrac);
+%K A040219 nonn,cofr,easy
+%O A040219 0,1
+%A A040219 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032446
+Showing 1-1 of 1
+
+%I A032446
+%S A032446 3,4,4,5,2,6,0,6,4,5,2,10,0,2,2,7,0,8,0,9,4,3,2,11,0,2,2,3,2,9,0,8,2,
+%T A032446 0,2,17,0,0,2,10,2,6,0,6,0,3,0,17,0,4,2,3,2,9,2,6,0,3,0,17,0,0,2,9,2,
+%U A032446 7,0,2,2,3,0,21,0,2,2,0,0,7,0,12,4,3,2,12,0,2,0,8,2,10
+%N A032446 Number of solutions to phi(k) = 2n.
+%C A032446 a(n) = Number of Galois Fields GF(k) with 2n elements. - _Artur Jasinski_, Oct 13 2011
+%D A032446 Albert H. Beiler, "Recreations in the Theory of Numbers, The Queen of Mathematics Entertains," Second Edition, Dover Publications, Inc., NY, 1966, page 90.
+%H A032446 T. D. Noe, <a href="/A032446/b032446.txt">Table of n, a(n) for n=1..5000</a>
+%H A032446 Carl Pomerance, <a href="https://math.dartmouth.edu/~carlp/popular.pdf">Popular values of Euler's function</a>, Mathematica 27 (1980), 84-89.
+%e A032446 If n=8 then phi(x)=2*8=16 is satisfied for only a(8)=6 values of x, viz. 17, 32, 34, 40, 48, 60.
+%e A032446 For 2n=16 we have 6 different of Galois Fields GF(k) with 16 elements : GF(17), GF(32), GF(34), GF(40), GF(48), GF(60). - _Artur Jasinski_, Oct 13 2011
+%p A032446 with(numtheory); [ seq(nops(invphi(2*n)), n=1..90) ];
+%t A032446 t = Table[0, {100} ]; Do[a = EulerPhi[n]; If[a < 202, t[[a/2]]++ ], {n, 3, 10^5} ]; t
+%Y A032446 Bisection of A014197.
+%Y A032446 Cf. A000010 and A005277.
+%Y A032446 Cf. A085758.
+%K A032446 nonn,easy,nice
+%O A032446 1,1
+%A A032446 Ursula Gagelmann (gagelmann(AT)altavista.net)
+%E A032446 Extended by Robin Trew (trew(AT)hcs.harvard.edu).
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

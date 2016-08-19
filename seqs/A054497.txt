@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054497
+Showing 1-1 of 1
+
+%I A054497
+%S A054497 1,7,31,105,300,756,1732,3676,7330,13870,25102,43714,73612,120340,
+%T A054497 191620,298012,453739,677677,994565,1436435,2044328,2870296,3979768,
+%U A054497 5454280,7394660,9924668,13195196,17389028,22726280,29470520,37935704
+%N A054497 Number of symmetric nonnegative integer 7x7 matrices with sum of elements equal to 4*n, under action of dihedral group D_4.
+%F A054497 G.f.: 1/((1-x)^7*(1-x^2)^3).
+%F A054497 a(0)=1, a(1)=7, a(2)=31, a(3)=105, a(4)=300, a(5)=756, a(6)=1732, a(7)=3676, a(8)=7330, a(9)=13870, a(10)=25102, a(11)=43714, a(12)=73612, a(n)= 7*a(n-1)-18*a(n-2)+14*a(n-3)+25*a(n-4)-63*a(n-5)+ 36*a(n-6)+ 36*a(n-7)- 63*a(n-8)+25*a(n-9)+14*a(n-10)-18*a(n-11)+ 7*a(n-12)- a(n-13) [From Harvey P. Dale, Feb 03 2012]
+%t A054497 CoefficientList[Series[1/((1-x)^7(1-x^2)^3),{x,0,30}],x] (* _Harvey P. Dale_, Feb 03 2012 *)
+%Y A054497 Cf. A001753, A038163.
+%K A054497 nonn
+%O A054497 0,2
+%A A054497 _Vladeta Jovovic_, May 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

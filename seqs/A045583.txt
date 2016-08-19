@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045583
+Showing 1-1 of 1
+
+%I A045583
+%S A045583 1,2,3,4,8,9,16,21,26,27,32,63,64,81,128,136,147,189,243,256,338,441,
+%T A045583 512,567,609,729,903,1024,1029,1252,1323,1378,1701,1827,2048,2187,
+%U A045583 2312,2667,2709,3087,3969,4096,4263,4394,4401,5103,5481,6321,6561,7203,8001
+%N A045583 Numbers n such that n | 10^n + 2^n.
+%t A045583 Select[Range[8100],Divisible[10^#+2^#,#]&]  (* _Harvey P. Dale_, Apr 02 2011 *)
+%K A045583 nonn
+%O A045583 1,2
+%A A045583 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

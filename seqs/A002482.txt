@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002482
+Showing 1-1 of 1
+
+%I A002482
+%S A002482 1,0,0,2664,101142,1645056,16045056,110146176,584713404,2549741568,
+%T A002482 9515943936,31314087864,92917622376,252775586304,638328674304,
+%U A002482 1511740886400,3387163161366,7228598851584
+%N A002482 Theta series of Borcherds' 27-dimensional unimodular lattice U_27.
+%D A002482 R. Bacher and B. B. Venkov, Reseaux entiers unimodulaires sans racine en dimension 27 et 28, in Reseaux euclidiens, designs spheriques et formes modulaires, pp. 212-267, Enseignement Math., Geneva, 2001.
+%D A002482 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, preface to 3rd edition.
+%H A002482 R. Bacher and B. B. Venkov, Reseaux entiers unimodulaires sans racine en dimension 27 et 28 (<a href="http://www-fourier.ujf-grenoble.fr/PREP/html/a332/a332.html">html</a>, <a href="http://www-fourier.ujf-grenoble.fr/cgi-bin/envoips.pl?PS=PREP/ps/t332">ps</a>).
+%H A002482 N. Heninger, E. M. Rains and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.NT/0509316">On the Integrality of n-th Roots of Generating Functions</a>, J. Combinatorial Theory, Series A, 113 (2006), 1732-1745.
+%p A002482 th3^27-54*th3^19*delta8+216*th3^11*delta8^2 (th3 = A000122, delta8 = A002408).
+%K A002482 nonn
+%O A002482 0,4
+%A A002482 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

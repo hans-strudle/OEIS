@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032167
+Showing 1-1 of 1
+
+%I A032167
+%S A032167 12,66,572,5148,49764,497354,5118828,53745120,573308736,6191711526,
+%T A032167 67546215516,743008120140,8230246567620,91708459194066,
+%U A032167 1027134771622388,11555266154065920,130506535690613940
+%N A032167 Number of aperiodic necklaces of n beads of 12 colors.
+%H A032167 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032167 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%H A032167 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A032167 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
+%F A032167 "CHK" (necklace, identity, unlabeled) transform of 12, 0, 0, 0...
+%F A032167 Sum mu(d)*12^(n/d)/n; d|n.
+%K A032167 nonn
+%O A032167 1,1
+%A A032167 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

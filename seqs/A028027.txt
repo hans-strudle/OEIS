@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028027
+Showing 1-1 of 1
+
+%I A028027
+%S A028027 1,20,257,2716,25809,230244,1975009,16524332,136058417,1108775668,
+%T A028027 8975764161,72350153148,581586939025,4666887733892,37407122372513,
+%U A028027 299621333407564,2398809490126833,19199738367402516
+%N A028027 Expansion of 1/((1-3x)(1-4x)(1-5x)(1-8x)).
+%F A028027 a(n) = (8^(n+3)-10*5^(n+3)+15*4^(n+3)-6*3^(n+3))/60. [_Yahia Kahloune_, May 25 2013]
+%K A028027 nonn,easy
+%O A028027 0,2
+%A A028027 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

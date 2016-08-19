@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052089
+Showing 1-1 of 1
+
+%I A052089
+%S A052089 43,109,2221,2423,3433,4241,5857,7069,7877,8887,10099,102101,108107,
+%T A052089 112111,114113,124123,148147,154153,160159,172171,180179,192191,
+%U A052089 198197,202201,208207,210209,214213,238237,244243,262261,264263,268267,270269
+%N A052089 Primes formed by concatenating n with n-1.
+%H A052089 Paul Tek, <a href="/A052089/b052089.txt">Table of n, a(n) for n = 1..10000</a>
+%e A052089 2423 is a prime and a concatenation of 24 and 23.
+%t A052089 Sort[Select[FromDigits[Flatten[IntegerDigits/@#]]&/@Partition[ Range[ 300,1,-1],2,1],PrimeQ]] (* _Harvey P. Dale_, May 09 2012 *)
+%o A052089 (PARI) for(n=4,1e4,if(isprime(t=eval(Str(n,n-1))),print1(t", "))) \\ _Charles R Greathouse IV_, May 07 2013
+%Y A052089 Cf. A030458, A052087, A052088.
+%K A052089 nonn,base
+%O A052089 1,1
+%A A052089 _Patrick De Geest_, Jan 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

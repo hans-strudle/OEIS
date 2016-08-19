@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062082
+Showing 1-1 of 1
+
+%I A062082
+%S A062082 2,72,30375,39337984,7863818359375,63041475422674944,
+%T A062082 95457296408818459356311,2447589381851869692142026752,
+%U A062082 15963504582593979093637042624484127
+%N A062082 Prime(n)^n * n^prime(n).
+%H A062082 Harry J. Smith, <a href="/A062082/b062082.txt">Table of n, a(n) for n=1,...,80</a>
+%o A062082 (PARI) for(n=1,12,print(prime(n)^n * n^prime(n)))
+%o A062082 (PARI) { for (n=1, 80, b=prime(n); write("b062082.txt", n, " ", b^n * n^b) ) } [From _Harry J. Smith_, Aug 01 2009]
+%K A062082 nonn
+%O A062082 1,1
+%A A062082 Jason Earls (zevi_35711(AT)yahoo.com), Jun 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016938
+Showing 1-1 of 1
+
+%I A016938
+%S A016938 64,262144,7529536,64000000,308915776,1073741824,3010936384,
+%T A016938 7256313856,15625000000,30840979456,56800235584,98867482624,
+%U A016938 164206490176,262144000000,404567235136,606355001344,885842380864
+%N A016938 (6n+2)^6.
+%H A016938 Vincenzo Librandi, <a href="/A016938/b016938.txt">Table of n, a(n) for n = 0..2000</a>
+%t A016938 (6Range[0,20]+2)^6  (* _Harvey P. Dale_, Apr 01 2011 *)
+%o A016938 (MAGMA) [(6*n+2)^6: n in [0..30]]; // Vincenzo Librandi, May 04 2011
+%K A016938 nonn,easy
+%O A016938 0,1
+%A A016938 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

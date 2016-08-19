@@ -1,0 +1,89 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007310
+Showing 1-1 of 1
+
+%I A007310
+%S A007310 1,5,7,11,13,17,19,23,25,29,31,35,37,41,43,47,49,53,55,59,61,65,67,71,
+%T A007310 73,77,79,83,85,89,91,95,97,101,103,107,109,113,115,119,121,125,127,
+%U A007310 131,133,137,139,143,145,149
+%N A007310 Numbers congruent to 1 or 5 mod 6.
+%C A007310 Numbers n such that phi(4n) = phi(3n). - _Benoit Cloitre_, Aug 06 2003
+%C A007310 Or, numbers relatively prime to 2 and 3, or coprime to 6, or having only prime factors >= 5; also known as 5-rough numbers. (Edited by _M. F. Hasler_, Nov 01 2014: merged with comments from _Zak Seidov_, Apr 26 2007 and _Michael B. Porter_, Oct 09 2009)
+%C A007310 Apart from initial term(s), dimension of the space of weight 2n cuspidal newforms for Gamma_0( 38 ).
+%C A007310 Numbers k such that k mod 2 = 1 and (k+1) mod 3 <> 1. - _Klaus Brockhaus_, Jun 15 2004
+%C A007310 Also numbers n such that the sum of the squares of the first n integers is divisible by n, or A000330(n) = n(n+1)(2n+1)/6 is divisible by n. - _Alexander Adamchuk_, Jan 04 2007
+%C A007310 A126759(a(n)) = n + 1. - _Reinhard Zumkeller_, Jun 16 2008
+%C A007310 Terms of this sequence (starting from the second term) are equal to the result of the expression sqrt(4!*(k+1) + 1) - but only when this expression yields integral values (that is when the parameter k takes values, which are terms of A144065). - _Alexander R. Povolotsky_, Sep 09 2008
+%C A007310 For n > 1: a(n) is prime if and only if A075743(n-2) = 1; a(2*n-1) = A016969(n-1), a(2*n) = A016921(n-1). - _Reinhard Zumkeller_, Oct 02 2008
+%C A007310 A156543 is a subsequence. - _Reinhard Zumkeller_, Feb 10 2009
+%C A007310 Numbers n such that ChebyshevT(x, x/2) is not an integer (is integer/2). - _Artur Jasinski_, Feb 13 2010
+%C A007310 If 12k + 1 is a perfect square (k = 0, 2, 4, 10, 14, 24, 30, 44, ... = A152749) then the square root of 12k + 1 = a(n). - _Gary Detlefs_, Feb 22 2010
+%C A007310 A089128(a(n)) = 1. Complement of A047229(n+1) for n >= 1. See A164576 for corresponding values A175485(a(n)). - _Jaroslav Krizek_, May 28 2010
+%C A007310 Cf. property described by _Gary Detlefs_ in A113801 and in Comment: more generally, these numbers are of the form (2*h*n+(h-4)*(-1)^n-h)/4 (h, n natural numbers), therefore ((2*h*n+(h-4)*(-1)^n-h)/4)^2-1 == 0 (mod h); in this case, a(n)^2-1 == 0 (mod 6). Also a(n)^2 - 1 == 0 (mod 12). - _Bruno Berselli_, Nov 05 2010 - Nov 17 2010
+%C A007310 Numbers n such that sum(k^14, k = 1..n) mod n = 0. (Conjectured) - _Gary Detlefs_, Dec 27 2011
+%C A007310 A126759(a(n)) = n and A126759(m) < n for m < a(n). - _Reinhard Zumkeller_, May 23 2013
+%C A007310 (a(n)^2 - 1)/24 = A001318(n), the generalized pentagonal numbers. - _Richard R. Forberg_, May 30 2013
+%C A007310 Numbers n for which A001580(n) is divisible by 3. - _Bruno Berselli_, Jun 18 2014
+%C A007310 Numbers n such that sigma(n) + sigma(2n) = sigma(3n). - _Jahangeer Kholdi_ and _Farideh Firoozbakht_, Aug 15 2014
+%C A007310 a(n) are values of k such that sum_{m = 1..k-1} m(k-m)/k is an integer. Sums for those k are given by A062717. Also see Detlefs formula below based on A062717. - _Richard R. Forberg_, Feb 16 2015
+%C A007310 a(n) are exactly those positive integers m such that the sequence b(n) = n*(n + m)*(n + 2*m)/6 is integral, and also such that the sequence c(n) = n*(n + m)*(n + 2*m)*(n + 3*m)/24 is integral. Cf. A007775. - _Peter Bala_, Nov 13 2015
+%D A007310 L. B. W. Jolley, "Summation of Series", Dover Publications, 1961.
+%H A007310 Reinhard Zumkeller, <a href="/A007310/b007310.txt">Table of n, a(n) for n = 1..10000</a>
+%H A007310 R. J. Cano, <a href="/A007310/a007310_1.c.txt">b-file generator written in C.</a>
+%H A007310 William A. Stein's The Modular Forms Database, <a href="http://wstein.org/Tables/dimensions.html">PARI-readable dimension tables for Gamma_0(N)</a>
+%H A007310 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RoughNumber.html">Rough Number</a>
+%H A007310 Eric Weisstein, <a href="http://mathworld.wolfram.com/PiFormulas.html">Pi Formulas</a> [From _Jaume Oliver Lafont_, Oct 23 2009]
+%H A007310 <a href="/index/Sk#smooth">Index entries for sequences related to smooth numbers</a> [From _Michael B. Porter_, Oct 09 2009]
+%H A007310 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,-1).
+%F A007310 a(n) = (6*n + (-1)^n - 3)/2. - Antonio Esposito (antonio.b.esposito(AT)italtel.it), Jan 18 2002
+%F A007310 a(n) = a(n-1) + a(n-2) - a(n-3), n >= 4. - _Roger L. Bagula_
+%F A007310 a(n) = 3*n - 1 - (n mod 2), n = 1, 2, ... - _Zak Seidov_, Jan 18 2006
+%F A007310 a(1) = 1 then alternatively add 4 and 2. a(1) = 1, a(n) = a(n-1) + 3 + (-1)^n. - _Zak Seidov_, Mar 25 2006
+%F A007310 1 + 1/5^2 + 1/7^2 + 1/11^2 + ... = Pi^2/9 [Jolley]. - _Gary W. Adamson_, Dec 20 2006
+%F A007310 For n >= 3 a(n) = a(n-2) + 6. - _Zak Seidov_, Apr 18 2007
+%F A007310 Expand (x+x^5)/(1-x^6) = x + x^5 + x^7 + x^11 + x^13 + ... O.g.f.: x(1+4x+x^2)/((1+x)(1-x)^2). - _R. J. Mathar_, May 23 2008
+%F A007310 a(n) = 6*floor(n/2) - 1 + 2*(n mod 2). - _Reinhard Zumkeller_, Oct 02 2008
+%F A007310 1 + 1/5 - 1/7 - 1/11 + + - - ... = Pi/3 = A019670 [Jolley eq (315)]. - _Jaume Oliver Lafont_, Oct 23 2009
+%F A007310 A169611(a(n)) = 0. - _Juri-Stepan Gerasimov_, Dec 03 2009
+%F A007310 a(n) = ( 6*A062717(n)+1 )^(1/2). - _Gary Detlefs_, Feb 22 2010
+%F A007310 a(n) = 6*A000217(n-1)+1 - 2*sum(a(i), i=1..n-1) (n > 1). - _Bruno Berselli_, Nov 05 2010
+%F A007310 a(n) = 6*n - a(n-1) - 6 (with a(1) = 1). - _Vincenzo Librandi_, Nov 18 2010
+%F A007310 Sum_{n >= 1} (-1)^(n+1)/a(n) = A093766 [Jolley eq (84)]. - _R. J. Mathar_, Mar 24 2011
+%F A007310 a(n) = 6*floor(n/2) + (-1)^(n+1). - _Gary Detlefs_, Dec 29 2011
+%F A007310 a(n) = 3*n + ((n+1) mod 2) - 2. - _Gary Detlefs_, Jan 08 2012
+%F A007310 a(n) = 2*n + 1 + 2*floor((n-2)/2) = 2*n - 1 + 2*floor(n/2), leading to the o.g.f. given by R. J. Mathar above. - _Wolfdieter Lang_, Jan 20 2012
+%F A007310 1 - 1/5 + 1/7 - 1/11 + - ... = Pi*sqrt(3)/6 (L. Euler). - _Philippe Deléham_, Mar 09 2013
+%F A007310 1 - 1/5^3 + 1/7^3 - 1/11^3 + - ... = Pi^3*sqrt(3)/54 (L. Euler). - _Philippe Deléham_, Mar 09 2013
+%F A007310 GCD(a(n), 6) = 1. - _Reinhard Zumkeller_, Nov 14 2013
+%F A007310 a(n) = sqrt(6*n*(3*n + (-1)^n - 3)-3*(-1)^n + 5)/sqrt(2). - _Alexander R. Povolotsky_, May 16 2014
+%F A007310 a(n) = 3*n + 6/(9*n mod 6 - 6). - _Mikk Heidemaa_, Feb 05 2016
+%F A007310 From _Mikk Heidemaa_, Feb 11 2016: (Start)
+%F A007310 a(n) = 2*floor(3*n/2) - 1.
+%F A007310 a(n) = A047238(n) - 1. (Suggested by _Michel Marcus_)
+%F A007310 (End)
+%p A007310 P:=(j,n)-> sum(k^j,k=1..n): for n from 1 to 149 do if (P(14,n) mod n = 0) then print(n) fi od; # _Gary Detlefs_, Dec 27 2011
+%p A007310 # Alternative:
+%p A007310 seq(seq(6*i+j,j=[1,5]),i=0..100); # _Robert Israel_, Sep 08 2014
+%t A007310 Select[Range[200], MemberQ[{1, 5}, Mod[#, 6]] &] (* or *) LinearRecurrence[{1, 1, -1}, {1, 5, 7}, 50] (* _Harvey P. Dale_, Aug 27 2013 *)
+%t A007310 rem156[n_] := (6 n + (-1)^n - 3)/2; Array[rem156, 60] (* _Robert G. Wilson v_, May 26 2014 from a suggestion by _N. J. A. Sloane_ *)
+%t A007310 Flatten[Table[6n + {1, 5}, {n, 0, 24}]] (* _Alonso del Arte_, Feb 06 2016 *)
+%t A007310 Table[2*Floor[3*n/2] - 1, {n, 1000}] (* _Mikk Heidemaa_, Feb 11 2016 *)
+%o A007310 (PARI) j=[1]; for(n=0, 1000,if(sqrtint(4!*(n+1) + 1) == ceil(sqrt(4!*(n+1) + 1)), j=concat(j,sqrtint(4!*(n+1) + 1)))); j \\ _Alexander R. Povolotsky_, Sep 09 2008
+%o A007310 (PARI) isA007310(n) = gcd(n,6)==1 \\ _Michael B. Porter_, Oct 09 2009
+%o A007310 (PARI) A007310(n)=n\2*6-(-1)^n \\ _M. F. Hasler_, Oct 31 2014
+%o A007310 (Sage) [i for i in range(150) if gcd(6,i) == 1] # _Zerinvary Lajos_, Apr 21 2009
+%o A007310 (Haskell)
+%o A007310 a007310 n = a007310_list !! (n-1)
+%o A007310 a007310_list = 1 : 5 : map (+ 6) a007310_list
+%o A007310 -- _Reinhard Zumkeller_, Jan 07 2012
+%o A007310 (C) See Cano Link.
+%o A007310 (MAGMA) [n: n in [1..250] | n mod 6 in [1, 5]]; // _Vincenzo Librandi_, Feb 12 2016
+%Y A007310 A005408 \ A016945. Union of A016921 and A016969; union of A038509 and A140475. Essentially the same as A038179. Complement of A047229. Subsequence of A186422.
+%Y A007310 Cf. A000330, A001580, A032528 (partial sums), A038509 (subsequence of composites), A047209, A047336, A047522, A056020, A090771, A091998, A144065, A175885-A175887.
+%Y A007310 For k-rough numbers with other values of k, see A000027, A005408, A007310, A007775, A008364-A008366, A166061, A166063.
+%K A007310 nonn,easy
+%O A007310 1,2
+%A A007310 C. Christofferson (Magpie56(AT)aol.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

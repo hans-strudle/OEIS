@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053173
+Showing 1-1 of 1
+
+%I A053173
+%S A053173 174,2694,8814,23310,64782,105678,171006,259446,368334,599022
+%N A053173 Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which represent a four-fold rotation. Also the sequence for the corresponding four-fold rotoinversions.
+%Y A053173 A053170 = 2 * (1 + A053171 + A053172 + this sequence + A053174).
+%K A053173 nonn
+%O A053173 1,1
+%A A053173 Ralf W. Grosse-Kunstleve (rwgk(AT)cci.lbl.gov), Mar 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

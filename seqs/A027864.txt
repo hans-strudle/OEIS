@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027864
+Showing 1-1 of 1
+
+%I A027864
+%S A027864 5,29,149,509,677,1877,3677,8429,9749,11909,13469,17789,22709,27077,
+%T A027864 28229,45389,46877,53069,70229,72077,81677,100469,102677,114077,
+%U A027864 128549,141269,154589,180077,192029,195077,207509,223589,230189,261077,312989,340709
+%N A027864 Primes of form n^2 + (n+1)^2 + (n+2)^2.
+%C A027864 Same as A257163 without its first term. - _Jonathan Sondow_, Oct 24 2015
+%C A027864 The domain of n is not explicit. If the domain is all integers then the sequence A257163 is produced. In this sequence domain is all nonnegative integers. - _Michael Somos_, Oct 24 2015
+%H A027864 P. De Geest, <a href="http://www.worldofnumbers.com/index.html">World!Of Numbers</a>
+%t A027864 lst={};Do[a=n^2+(n+1)^2+(n+2)^2;If[PrimeQ[a],AppendTo[lst,a]],{n,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jun 02 2009 *)
+%o A027864 (PARI) select(isprime, vector(100,n,3*n^2+2)) \\ _Charles R Greathouse IV_, Apr 17 2015
+%Y A027864 Cf. A257163.
+%K A027864 nonn,easy
+%O A027864 1,1
+%A A027864 _Patrick De Geest_
+%E A027864 More terms from _Claudio Meller_, Jun 25 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

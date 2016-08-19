@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006763
+Showing 1-1 of 1
+
+%I A006763 M5232
+%S A006763 0,0,0,32,348,2836,21225,154741,1123143,8185403,60088748,444688325
+%N A006763 Number of fixed properly-3-dimensional polyominoes with n cells.
+%D A006763 W. F. Lunnon, Counting multidimensional polyominoes. Computer Journal 18 (1975), no. 4, pp. 366-367.
+%D A006763 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A006763 A column of A195739.
+%K A006763 nonn
+%O A006763 1,4
+%A A006763 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

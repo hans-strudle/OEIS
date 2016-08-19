@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037240
+Showing 1-1 of 1
+
+%I A037240
+%S A037240 1,1,5,10,24,42,83,132,222,335,511,728,1047,1428,1956,2586,3414,4389,
+%T A037240 5638,7084,8888,10966,13494,16380,19841,23751,28371,33566,39616,46376,
+%U A037240 54177,62832,72726,83661,96045
+%N A037240 Molien series for 3-D group X1.
+%C A037240 Also multidigraphs with 3 nodes and n arcs - _Vladeta Jovovic_, Dec 27 1999
+%D A037240 Jaric and Birman, J. Math. Phys. 18 (1977), 1459-1465; 2085.
+%H A037240 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%F A037240 (1+x^2+3*x^3+5*x^4+x^5+x^6)/(1-x)/(1-x^2)^3/(1-x^3)^2
+%K A037240 nonn
+%O A037240 0,3
+%A A037240 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

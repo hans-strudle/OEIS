@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013941
+Showing 1-1 of 1
+
+%I A013941
+%S A013941 0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,4,4,4,4,4,5,5,5,
+%T A013941 5,5,5,5,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,8,8,9,9,9,9,9,9,9,9,10,10,10,
+%U A013941 10,10,10,10,10,11,11,11,11
+%N A013941 a(n) = Sum_{k=1..n} floor(n/ithprime(k)^3).
+%o A013941 (PARI) a(n) = sum(k = 1, n, n\prime(k)^3); \\ _Michel Marcus_, Aug 24 2013
+%Y A013941 Cf. A013940.
+%K A013941 nonn
+%O A013941 1,16
+%A A013941 _N. J. A. Sloane_, _Henri Lifchitz_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

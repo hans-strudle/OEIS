@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031922
+Showing 1-1 of 1
+
+%I A031922
+%S A031922 7919,17389,27449,37813,48611,59359,70657,81799,93179,104729,116447,
+%T A031922 128189,139901,151703,163841,176081,187963,200183,212369,224737,
+%U A031922 237203,249439,262139,274529,287117,300023,312583,324949,337541
+%N A031922 Primes p(1000n).
+%H A031922 Moshe Levin, <a href="/A031922/b031922.txt">Table of n, a(n) for n = 1..10000</a>
+%F A031922 a(n)=A000040(1000n).
+%o A031922 (PARI) a(n)=prime(1000*n) \\ _Charles R Greathouse IV_, Nov 22 2011
+%Y A031922 Cf. A000040.
+%K A031922 nonn
+%O A031922 1,1
+%A A031922 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

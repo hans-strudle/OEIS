@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051692
+Showing 1-1 of 1
+
+%I A051692
+%S A051692 2,4,38,16,170,72,446,58,512,282,178,148,758,856,836,1592,1712,388,
+%T A051692 1906,2606,2034,1918,656,5924,1648,13082,652,1514,2758,10922,5758,
+%U A051692 18986,6764,10570,20918,4936,8188,5842,4094,30710,15212,11482,57932
+%N A051692 Twice the smallest subscript in A051686 such that A051686(n)=p[k], the k-th prime number.
+%C A051692 The sequence is based on the first 50000 terms of A051686, in which the first 54 consecutive primes (2,3,..,251) appeared with further 19 ones, largest was 823 at position 37976.
+%e A051692 The 25th term in this sequence is 1648. This means that p(25)=97 arises in A051686 at the position of 1648/2=824. This means that 1648 is the first in the sequence {..,2k,..}={1648,1798,4108, ..} with the property that 2k*97+1= 194k+1 is also a prime, moreover the smallest one:159857.
+%Y A051692 Cf. A005384, A051644-A051654, A051860, A051861.
+%K A051692 nonn
+%O A051692 1,1
+%A A051692 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

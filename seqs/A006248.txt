@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006248
+Showing 1-1 of 1
+
+%I A006248 M3428
+%S A006248 1,1,1,1,1,4,11,135,4382,312356,41848591
+%N A006248 Number of primitive sorting networks on n elements. Number of projective pseudo order types: simple arrangements of pseudo-lines.
+%D A006248 J. Bokowski, personal communication.
+%D A006248 J. Ferte, V. Pilaud and M. Pocchiola, On the number of simple arrangements of five double pseudolines. Discrete Comput. Geom. 45 (2011), 279-302.
+%D A006248 Lukas Finschi, A Graph Theoretical Approach for Reconstruction and Generation of Oriented Matroids, A dissertation submitted to the Swiss Federal Institute of Technology, Zurich for the degree of Doctor of Mathematics, 2001.
+%D A006248 Fukuda, Komei; Miyata, Hiroyuki; Moriyama, Sonoko. Complete Enumeration of Small Realizable Oriented Matroids. Discrete Comput. Geom. 49 (2013), no. 2, 359--381. MR3017917. - From _N. J. A. Sloane_, Feb 16 2013
+%D A006248 J. E. Goodman and J. O'Rourke, editors, Handbook of Discrete and Computational Geometry, CRC Press, 1997, p. 102.
+%D A006248 D. E. Knuth, Axioms and Hulls, Lect. Notes Comp. Sci., Vol. 606.
+%D A006248 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006248 L. Finschi, <a href="http://www.om.math.ethz.ch">Homepage of Oriented Matroids</a>
+%H A006248 L. Finschi and K. Fukuda, <a href="http://www.ifor.math.ethz.ch/staff/finschi/ccgospcaha/ccgospcaha.pdf">Complete combinatorial generation of small point set configurations and hyperplane arrangements</a>, pp. 97-100 in Abstracts 13th Canadian Conference on Computational Geometry (CCCG '01), Waterloo, Aug. 13-15, 2001.
+%H A006248 <a href="/index/So#sorting">Index entries for sequences related to sorting</a>
+%Y A006248 Cf. A006245, A006246, A018242, A063666. A diagonal of A063851.
+%K A006248 nonn,nice,hard
+%O A006248 1,6
+%A A006248 _N. J. A. Sloane_
+%E A006248 a(11) from Franz Aurenhammer (auren(AT)igi.tu-graz.ac.at), Feb 05 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

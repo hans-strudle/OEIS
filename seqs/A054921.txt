@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054921
+Showing 1-1 of 1
+
+%I A054921
+%S A054921 2,3,10,50,354,3883,67994,2038236,109141344,10693855251,1934271527050,
+%T A054921 648399961915988,404093642681273382,469756524755173254759,
+%U A054921 1022121472711196824292810,4176802133456105622904206409
+%N A054921 Number of connected unlabeled symmetric relations (graphs with loops) having n nodes.
+%H A054921 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054921 EULERi transform of A000666.
+%K A054921 nonn,easy
+%O A054921 1,1
+%A A054921 _N. J. A. Sloane_, May 24 2000
+%E A054921 More terms from _Vladeta Jovovic_, Jul 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

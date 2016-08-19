@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033050
+Showing 1-1 of 1
+
+%I A033050
+%S A033050 0,1,14,15,196,197,210,211,2744,2745,2758,2759,2940,2941,2954,2955,
+%T A033050 38416,38417,38430,38431,38612,38613,38626,38627,41160,41161,41174,
+%U A033050 41175,41356,41357,41370,41371,537824,537825,537838,537839,538020
+%N A033050 Numbers whose set of base 14 digits is {0,1}.
+%C A033050 Sums of distinct powers of 14.
+%C A033050 The base 14 digits may comprise zero, one, or both. - _Harvey P. Dale_, May 12 2014
+%H A033050 T. D. Noe, <a href="/A033050/b033050.txt">Table of n, a(n) for n=0..1023</a>
+%F A033050 a(n)=Sum{d(i)*14^i: i=0, 1, ..., m}, where Sum{d(i)*2^i: i=0, 1, ..., m} is the base 2 representation of n.
+%F A033050 a(n) = A097260(n)/13.
+%F A033050 a(2n) = 14*a(n), a(2n+1) = a(2n)+1.
+%F A033050 a(n)=Sum_k>=0 {A030308(n,k)*14^k}. - _Philippe Deléham_, Oct 20 2011
+%t A033050 Select[Range[0,540000],Max[IntegerDigits[#,14]]<2&] (* _Harvey P. Dale_, May 12 2014 *)
+%o A033050 (PARI) A033050(n,b=14)=subst(Pol(binary(n)),'x,b) \\ _M. F. Hasler_, Feb 01 2016
+%Y A033050 Cf. A000695, A005836, A033042-A033052.
+%Y A033050 Row 13 of array A104257.
+%K A033050 nonn,base
+%O A033050 0,3
+%A A033050 _Clark Kimberling_
+%E A033050 Extended by _Ray Chandler_, Aug 03 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,48 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004198
+Showing 1-1 of 1
+
+%I A004198
+%S A004198 0,0,0,0,1,0,0,0,0,0,0,1,2,1,0,0,0,2,2,0,0,0,1,0,3,0,1,0,0,0,0,0,0,0,
+%T A004198 0,0,0,1,2,1,4,1,2,1,0,0,0,2,2,4,4,2,2,0,0,0,1,0,3,4,5,4,3,0,1,0,0,0,
+%U A004198 0,0,4,4,4,4,0,0,0,0,0,1,2,1,0,5,6,5,0,1,2,1,0,0,0,2,2,0,0,6,6,0,0,2,2,0,0,0,1,0
+%N A004198 Table of x AND y, where (x,y) = (0,0),(0,1),(1,0),(0,2),(1,1),(2,0),...
+%C A004198 Or, table of AND(i,j), i >= 0, j >= 0, read by antidiagonals. - _N. J. A. Sloane_, Feb 08 2016
+%H A004198 T. D. Noe, <a href="/A004198/b004198.txt">Rows n=0..100 of triangle, flattened</a>
+%e A004198 The AND(i,j) table (shown without commas or spaces) begins:
+%e A004198 0000000000000000000000000...
+%e A004198 0101010101010101010101010...
+%e A004198 0022002200220022002200220...
+%e A004198 0123012301230123012301230...
+%e A004198 0000444400004444000044440...
+%e A004198 0101454501014545010145450...
+%e A004198 0022446600224466002244660...
+%e A004198 0123456701234567012345670...
+%e A004198 0000000088888888000000008...
+%e A004198 0101010189898989010101018...
+%e A004198 …
+%e A004198 The first few antidiagonals are:
+%e A004198 0,
+%e A004198 0, 0,
+%e A004198 0, 1, 0,
+%e A004198 0, 0, 0, 0,
+%e A004198 0, 1, 2, 1, 0,
+%e A004198 0, 0, 2, 2, 0, 0,
+%e A004198 0, 1, 0, 3, 0, 1, 0,
+%e A004198 0, 0, 0, 0, 0, 0, 0, 0,
+%e A004198 0, 1, 2, 1, 4, 1, 2, 1, 0,
+%e A004198 0, 0, 2, 2, 4, 4, 2, 2, 0, 0,
+%e A004198 0, 1, 0, 3, 4, 5, 4, 3, 0, 1, 0,
+%e A004198 ...
+%e A004198 - _N. J. A. Sloane_, Feb 08 2016
+%p A004198 # Maple code for first M rows and columns of AND(i,j) table, from _N. J. A. Sloane_, Feb 08 2016
+%p A004198 M:=24;
+%p A004198 f1:=n->[seq(ANDnos(i,n),i=0..M-1)];
+%p A004198 for n from 0 to M-1 do lprint(f1(n)); od:
+%Y A004198 Cf. A003986 (OR) and A003987 (XOR). Cf. also A075173, A075175, A221146.
+%K A004198 tabl,nonn,look
+%O A004198 0,13
+%A A004198 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

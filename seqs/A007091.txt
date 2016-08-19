@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007091
+Showing 1-1 of 1
+
+%I A007091 M0595
+%S A007091 0,1,2,3,4,10,11,12,13,14,20,21,22,23,24,30,31,32,33,34,40,41,42,43,
+%T A007091 44,100,101,102,103,104,110,111,112,113,114,120,121,122,123,124,130,
+%U A007091 131,132,133,134,140,141,142,143,144,200,201,202,203,204,210,211,212,213
+%N A007091 Numbers in base 5.
+%C A007091 Contribution from _Rick L. Shepherd_, Jun 25 2009: (Start)
+%C A007091 Nonnegative integers with no decimal digit > 4.
+%C A007091 Thus nonnegative integers in base 10 whose doubling by normal addition or multiplication requires no carry operation. (End)
+%C A007091 It appears that this sequence corresponds to the numbers n for which twice the sum of digits of n is the sum of digits of 2*n. [From Remy Sigrist (remysigrist(AT)free.fr), Nov 22 2009]
+%D A007091 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007091 Nathaniel Johnston, <a href="/A007091/b007091.txt">Table of n, a(n) for n = 0..10000</a>
+%F A007091 a(0)=0 a(n)=10*a(n/5) if n==0 (mod 5) a(n)=a(n-1)+1 otherwise. - _Benoit Cloitre_, Dec 22 2002
+%p A007091 A007091 := proc(n) local l: if(n=0)then return 0: fi: l:=convert(n,base,5): return op(convert(l,base,10,10^nops(l))): end: seq(A007091(n),n=0..58); # _Nathaniel Johnston_, May 06 2011
+%t A007091 Table[ FromDigits[ IntegerDigits[n, 5]], {n, 0, 60}]
+%o A007091 (PARI) a(n)=if(n<1,0,if(n%5,a(n-1)+1,10*a(n/5)))
+%Y A007091 Cf. A000042, A007088, A007089, A007090, A007092, A007093, A007094, A007095.
+%K A007091 nonn,easy,base
+%O A007091 0,3
+%A A007091 _N. J. A. Sloane_, _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

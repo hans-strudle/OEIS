@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006414
+Showing 1-1 of 1
+
+%I A006414 M4621
+%S A006414 1,9,40,125,315,686,1344,2430,4125,6655,10296,15379,22295,31500,43520,
+%T A006414 58956,78489,102885,133000,169785,214291,267674,331200,406250,494325,
+%U A006414 597051,716184,853615,1011375,1191640,1396736,1629144,1891505,2186625,2517480,2887221
+%N A006414 Number of nonseparable toroidal tree-rooted maps on n nodes.
+%C A006414 a(n) = K(Oa(2,3,n)), Kekulé numbers of certain benzenoid structures (see the Cyvin - Gutman reference).
+%C A006414 Sequence of partial sums of A006322. - _L. Edson Jeffery_, Dec 13 2011
+%D A006414 S. J. Cyvin and I. Gutman, Kekulé structures in benzenoid hydrocarbons, Lecture Notes in Chemistry, No. 46, Springer, New York, 1988, p. 105, eq. (ii). 187).
+%D A006414 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006414 Vincenzo Librandi, <a href="/A006414/b006414.txt">Table of n, a(n) for n = 0..10000</a>
+%H A006414 T. R. S. Walsh, A. B. Lehman, <a href="http://dx.doi.org/10.1016/0095-8956(75)90050-7">Counting rooted maps by genus. III: Nonseparable maps</a>, J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%F A006414 a(n) = (n+1)*(n+2)^3*(n+3)/24. - _N. J. A. Sloane_, Apr 02 2004
+%F A006414 a(n) = (n+2)^3((n+2)^2-1)/24. - _Paul Richards_, Mar 04 2007
+%F A006414 G.f.: (1+3*x+x^2)/(1-x)^6. - _Colin Barker_, Feb 21 2012
+%F A006414 a(n) = for n>0 sum[k*(n+1)*((n+1)^2 - k^2)){0<k<n+1}]/6, which is the sum of all areas of Pythagorean triangles with arms 2*k*(n+1) and (n+1)^2 - k^2 with hypotenuse k^2 +(n+1)^2. - _J. M. Bergot_, May 12 2014
+%F A006414 a(n) = A143945(n+2)/8. - _J. M. Bergot_, Jun 14 2014
+%p A006414 a:=n->sum(sum(sum((n-k)*k/4, j=1..n),k=1..n),m=1..n): seq(a(n), n=2..37); # _Zerinvary Lajos_, May 13 2007
+%p A006414 with(combinat):a:=n->sum(sum(sum(binomial(n+2,2)/12, j=1..n), k=0..n),m=0..n): seq(a(n), n=1..36); # _Zerinvary Lajos_, May 30 2007
+%p A006414 a:=n->sum(n^4-n^3, j=0..n): seq(a(n)/24, n=2..37); # _Zerinvary Lajos_, May 08 2008
+%t A006414 Table[(n + 1)*(n + 2)^3*(n + 3)/24, {n, 0, 80}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 18 2011 *)
+%o A006414 (MAGMA) [(n+1)*(n+2)^3*(n+3)/24: n in [0..30]]; // _Wesley Ivan Hurt_, May 10 2014
+%Y A006414 Differences of A006542 (C(n, 3)*C(n-1, 3)/4).
+%Y A006414 Cf. A005891, A006322, A004068, A143945, A133754.
+%K A006414 nonn,easy
+%O A006414 0,2
+%A A006414 _N. J. A. Sloane_, Jul 11 1991
+%E A006414 More terms from Robert Newstedt (Patternfinder(AT)webtv.net)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,116 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001586
+Showing 1-1 of 1
+
+%I A001586 M2908 N1169
+%S A001586 1,1,3,11,57,361,2763,24611,250737,2873041,36581523,512343611,
+%T A001586 7828053417,129570724921,2309644635483,44110959165011,898621108880097,
+%U A001586 19450718635716001,445777636063460643,10784052561125704811,274613643571568682777,7342627959965776406281
+%N A001586 Generalized Euler numbers, or Springer numbers.
+%C A001586 From _Peter Bala_, Feb 02 2011: (Start)
+%C A001586 The Springer numbers were originally considered by Glaisher (see references). They are a type B analog of the zigzag numbers A000111 for the group of signed permutations.
+%C A001586 COMBINATORIAL INTERPRETATIONS
+%C A001586 Several combinatorial interpretations of the Springer numbers are known:
+%C A001586 1) a(n) counts the number of Weyl chambers in the principal Springer cone of the Coxeter group B_n of symmetries of an n dimensional cube. An example can be found in [Arnold - The Calculus of snakes...].
+%C A001586 2) Arnold found an alternative combinatorial interpretation of the Springer numbers in terms of snakes. Snakes are a generalization of alternating permutations to the group of signed permutations. A signed permutation is a sequence (x_1,x_2,...,x_n) of integers such that {|x_1|,|x_2|,...,|x_n|} = {1,2,...,n}. They form a group, the hyperoctahedral group of order 2^n*n! = A000165(n), isomorphic to the group of symmetries of the n dimensional cube. A snake of type B_n is a signed permutation (x_1,x_2,...,x_n) such that 0 < x_1  > x_2 < ... x_n. For example, (3,-4,-2,-5,1,-6) is a snake of type B_6. a(n) counts the number of snakes of type B_n [Arnold]. The cases n=2 and n=3 are given in the Example section below.
+%C A001586 3) The Springer numbers also arise in the study of the critical points of functions; they count the topological types of odd functions with 2*n critical values [Arnold, Theorem 35].
+%C A001586 4) Let F_n be the set of plane rooted forests satisfying the following conditions:
+%C A001586 ... each root has exactly one child, and each of the other internal nodes has exactly two (ordered) children,
+%C A001586 ... there are n nodes labeled by integers from 1 to n, but some leaves can be non-labeled (these are called empty leaves), and labels are increasing from each root down to the leaves. Then a(n) equals the cardinality of F_n. An example and proof are given in [Verges, Theorem 4.5].
+%C A001586 OTHER APPEARANCES OF THE SPRINGER NUMBERS
+%C A001586 1) Hoffman has given a connection between Springer numbers, snakes and the successive derivatives of the secant and tangent functions.
+%C A001586 2) For integer N the quarter Gauss sums Q(N) are defined by ... Q(N) := Sum_{r = 0..floor(N/4)} exp(2*Pi*I*r^2/N). In the cases N = 1 (mod 4) and N = 3 (mod 4) an asymptotic series for Q(N) as N -> inf that involves the Springer numbers has been given by Evans et al., see 1.32 and 1.33.
+%C A001586 For a sequence of polynomials related to the Springer numbers see A185417. For a table to recursively compute the Springer numbers see A185418.
+%C A001586 (End)
+%C A001586 Similar to the way in which the signed Euler numbers A122045 are 2^n times the value of the Euler polynomials at 1/2, the generalized signed Euler numbers A188458 can be seen as 2^n times the value of generalized Euler polynomials at 1/2. These are the Swiss-Knife polynomials A153641. A recursive definition of these polynomials is given in A081658. - _Peter Luschny_, Jul 19 2012
+%C A001586 a(n) is the number of reverse-complementary updown permutations of [2n]. For example, the updown permutation 241635 is reverse-complementary because its complement is 536142, which is the same as its reverse, and a(2)=3 counts 1324, 2413, 3412. - _David Callan_, Nov 29 2012
+%C A001586 a(n) = |2^n G(n,1/2;-1)|, a specialization of the Appell sequence of polynomials umbrally formed by G(n,x;t) = (G(.,0;t) + x)^n from the Grassmann polynomials G(n,0;t) of A046802 enumerating the cells of the positive Grassmannians. - _Tom Copeland_, Oct 14 2015
+%D A001586 V. I. Arnold, Springer numbers and Morsification spaces. J. Algebraic Geom. 1 (1992), no. 2, 197-214.
+%D A001586 V. I. Arnold, The calculus of snakes and the combinatorics of Bernoulli, Euler and Springer numbers of Coxeter groups, Uspekhi Mat. nauk., 47 (#1, 1992), 3-45 = Russian Math. Surveys, Vol. 47 (1992), 1-51.
+%D A001586 P. Barry, A Note on Three Families of Orthogonal Polynomials defined by Circular Functions, and Their Moment Sequences, Journal of Integer Sequences, Vol. 15 (2012), #12.7.2.
+%D A001586 C.-O. Chow and S.-M. Ma, Counting signed permutations by their alternating runs, Discrete Mathematics, Volume 323, 28 May 2014, Pages 49-57
+%D A001586 D. Dumont, Further triangles of Seidel-Arnold type and continued fractions related to Euler and Springer numbers, Adv. Appl. Math., 16 (1995), 275-296.
+%D A001586 Dominique Foata and Guo-Niu Han, Multivariable Tangent and Secant q-derivative Polynomials, http://www-irma.u-strasbg.fr/~foata/paper/pub119derivative.pdf. -
+%D A001586 J. W. L. Glaisher, "On the coefficients in the expansions of cos x/cos 2x and sin x/cos 2x", Quart. J. Pure and Applied Math., 45 (1914), 187-222.
+%D A001586 J. W. L. Glaisher, On the Bernoullian function, Q. J. Pure Appl. Math., 29 (1898), 1-168.
+%D A001586 J. W. L. Glaisher, On a set of coefficients analogous to the Eulerian numbers, Proc. London Math. Soc., 31 (1899), 216-235.
+%D A001586 Ulrike Sattler, Decidable classes of formal power series with nice closure properties, Diplomarbeit im Fach Informatik, Univ. Erlangen - Nuernberg, Jul 27 1994
+%D A001586 D. Shanks, Generalized Euler and class numbers, Math. Comp. 21 (1967), 689-694; 22 (1968), 699.
+%D A001586 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001586 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001586 T.A. Springer, Remarks on a combinatorial problem, Nieuw Arch. Wisk. 19(3) (1971), 30-36.
+%D A001586 Zhi-Hong Sun, Congruences involving Bernoulli polynomials, Discr. Math.,
+%D A001586   308 (2007), 71-112.
+%D A001586 Z.-W. Sun, Conjectures involving arithmetical sequences, Number Theory: Arithmetic in Shangri-La (eds., S. Kanemitsu, H.-Z. Li and J.-Y. Liu), Proc. the 6th China-Japan Sem. Number Theory (Shanghai, August 15-17, 2011), World Sci., Singapore, 2013, pp. 244-258; http://math.nju.edu.cn/~zwsun/142p.pdf.
+%H A001586 T. D. Noe, <a href="/A001586/b001586.txt">Table of n, a(n) for n=0..100</a>
+%H A001586 W. Y. C. Chen, N. J. Y. Fan and J. Y. T. Jia, <a href="http://arxiv.org/abs/1009.2233">Labeled Ballot Paths and the Springer Numbers</a>, arXiv:1009.2233 [math.CO], Sep 12 2010. [From _Jonathan Vos Post_, Sep 13 2010]
+%H A001586 R. Evans, M. Minei and B. Yee, <a href="http://cseweb.ucsd.edu/~bsy/pub/Yee-IncGaussSum.pdf">Incomplete higher order Gauss sums</a> (see 1.32 and 1.33)
+%H A001586 M. E. Hoffman, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v6i1r21">Derivative Polynomials, Euler Polynomials, and Associated Integer Sequences</a>, The Electronic Journal of Combinatorics 6 (1999), #R21 (see Th. 3.1).
+%H A001586 M. Josuat-Verges, <a href="http://arxiv.org/abs/1011.0929">Enumeration of snakes and cycle-alternating permutations</a>, arXiv:1011.0929 [math.CO], 2010.
+%H A001586 M. Josuat-Verges, J.-C. Novelli and J.-Y. Thibon, <a href="http://arxiv.org/abs/1110.5272">The algebraic combinatorics of snakes</a>, arXiv preprint arXiv:1110.5272 [math.CO], 2011
+%H A001586 I. Pak, A. Soffer, <a href="http://arxiv.org/abs/1507.00411">On Higman's k(U_n(F_q)) conjecture</a>, arXiv preprint arXiv:1507.00411, 2015
+%H A001586 D. Shanks, <a href="/A000003/a000003.pdf">Generalized Euler and class numbers</a>, Math. Comp. 21 (1967), 689-694; 22 (1968), 699. [Annotated scanned copy]
+%H A001586 Zhi-Wei Sun, <a href="http://arxiv.org/abs/1208.2683">Conjectures involving combinatorial sequences</a>, arXiv preprint arXiv:1208.2683 [math.CO], 2012. - From N. J. A. Sloane, Dec 25 2012
+%H A001586 A. Vieru, <a href="http://arxiv.org/abs/1107.2938">Agoh's conjecture: its proof, its generalizations, its analogues</a>, arXiv preprint arXiv:1107.2938 [math.NT], 2011.
+%F A001586 E.g.f.: 1/(cos(x) - sin(x)).
+%F A001586 Values at 1 of polynomials Q_n() defined in A104035. - _N. J. A. Sloane_, Nov 06 2009
+%F A001586 a(n) = numerator of abs(Euler(n,1/4)). - _N. J. A. Sloane_, Nov 07 2009
+%F A001586 Let B_n(x) = Sum_{k=0.. n*(n-1)/2} b(n,k)*x^k, where b(n,k) is number of n-node acyclic digraphs with k arcs, cf. A081064; then a(n) = |B_n(-2)|. - _Vladeta Jovovic_, Jan 25 2005
+%F A001586 G.f. A(x)=y satisfies y'^2=2y^4-y^2, y''y=y^2+2y'^2. - _Michael Somos_, Feb 03 2004
+%F A001586 a(n) = (-1)^floor(n/2) Sum_{k=0..n} 2^k C(n,k) Euler(k). - _Peter Luschny_, Jul 08 2009
+%F A001586 From _Peter Bala_: (Start)
+%F A001586 (1)... a(n) = ((1+i)/2)^n*B(n,(1-i)/(1+i)), where i = sqrt(-1) and
+%F A001586 {B(n,x)}n>=0 = [1,1+x,1+6*x+x^2,1+23*x+23*x^2+x^3,...] is the sequence of
+%F A001586 type B Eulerian polynomials - see A060187.
+%F A001586 This yields the explicit formula
+%F A001586 (2)... a(n) = ((1+i)/2)^n*Sum_{k = 0..n} ((1-i)/(1+i))^k *
+%F A001586 Sum_{j = 0..k} (-1)^(k-j)*binomial(n+1,k-j)*(2j+1)^n.
+%F A001586 The result (2) can be used to find congruences satisfied by the Springer numbers. For example, for odd prime p
+%F A001586 (3)
+%F A001586 ... a(p) = 1 (mod p) when p = 4*n+1
+%F A001586 ... a(p) = -1 (mod p) when p = 4*n+3.
+%F A001586 (End)
+%F A001586 E.g.f.: 1/Q(0) where Q(k)=1-x/((2k+1)-x*(2k+1)/(x+(2k+2)/Q(k+1))); (continued fraction). - _Sergei N. Gladkovskii_, Nov 19 2011
+%F A001586 E.g.f.: 2/U(0)  where U(k)=  1 + 1/(1 + x/(2*k + 1 -x - (2*k+1)/(2 - x/(x+ (2*k+2)/U(k+1))))) ; (continued fraction, 5-step). - _Sergei N. Gladkovskii_, Sep 24 2012
+%F A001586 E.g.f.: 1/G(0)  where G(k) = 1 - x/(4*k+1 - x*(4*k+1)/(4*k+2 + x + x*(4*k+2)/(4*k+3 - x - x*(4*k+3)/(x + (4*k+4)/G(k+1) )))); (continued fraction, 3rd kind, 5-step). - _Sergei N. Gladkovskii_, Oct 02 2012
+%F A001586 G.f.: 1/G(0) where G(k) = 1 - x*(2*k+1) - 2*x^2*(k+1)*(k+1)/G(k+1); (continued fraction). - _Sergei N. Gladkovskii_, Jan 11 2013
+%F A001586 a(n) = | 2*4^n*lerchphi(-1, -n, 1/4) |. - _Peter Luschny_, Apr 27 2013
+%F A001586 a(n) ~ 4 * n^(n+1/2) * (4/Pi)^n / (sqrt(Pi)*exp(n)). - _Vaclav Kotesovec_, Oct 07 2013
+%F A001586 G.f.: T(0)/(1-x), where T(k) = 1 - 2*x^2*(k+1)^2/( 2*x^2*(k+1)^2 - (1-x-2*x*k)*(1-3*x-2*x*k)/T(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Oct 15 2013
+%F A001586 a(n) = (-1)^C(n+1,2)*2^(3*n+1)*(Zeta(-n,1/8)-Zeta(-n,5/8)), where Zeta(a,z) is the generalized Riemann zeta function. - _Peter Luschny_, Mar 11 2015
+%e A001586 Example
+%e A001586 a(2)=3: The three snakes of type B_2 are
+%e A001586 (1,-2), (2,1), (2,-1).
+%e A001586 a(3)=11: The 11 snakes of type B_3 are
+%e A001586 (1,-2,3), (1,-3,2), (1,-3,-2),
+%e A001586 (2,1,3), (2,-1,3), (2,-3,1), (2,-3,-1),
+%e A001586 (3,1,2), (3,-1,2), (3,-2,1), (3,-2,-1).
+%p A001586 a := proc(n) local k; (-1)^iquo(n,2)*add(2^k*binomial(n,k)*euler(k),k=0..n) end; # _Peter Luschny_, Jul 08 2009
+%p A001586 a := n -> (-1)^(n+iquo(n,2))*2^(3*n+1)*(Zeta(0,-n,1/8) - Zeta(0,-n,5/8)):
+%p A001586 seq(a(n),n=0..21); # _Peter Luschny_, Mar 11 2015
+%t A001586 n=21; CoefficientList[Series[1/(Cos[x]-Sin[x]), {x, 0, n}], x] * Table[k!, {k, 0, n}] (* _Jean-François Alcover_, May 18 2011, after M. Somos *)
+%t A001586 Table[Abs[Numerator[EulerE[n,1/4]]],{n,0,35}] (* _Harvey P. Dale_, May 18 2011 *)
+%o A001586 (PARI) a(n)=if(n<0,0,n!*polcoeff(1/(cos(x+x*O(x^n))-sin(x+x*O(x^n))),n)) /* _Michael Somos_ */
+%o A001586 (PARI) {a(n)=local(an); if(n<2, n>=0, an=vector(n+1,m,1); for(m=2,n, an[m+1]=2*an[m]+an[m-1]+sum(k=0,m-3, binomial(m-2,k)*( an[k+1]*an[m-1-k]+2*an[k+2]*an[m-k]-an[k+3]*an[m-1-k] )));an[n+1])} /* _Michael Somos_ */
+%o A001586 (PARI) /* Explicit formula by _Peter Bala_: */
+%o A001586 {a(n)=((1+I)/2)^n*sum(k=0,n,((1-I)/(1+I))^k*sum(j=0,k,(-1)^(k-j)*binomial(n+1,k-j)*(2*j+1)^n))}
+%o A001586 (Sage)
+%o A001586 @CachedFunction
+%o A001586 def p(n,x) :
+%o A001586     if n == 0 : return 1
+%o A001586     w = -1 if n%2 == 0 else 0
+%o A001586     v =  1 if n%2 == 0 else -1
+%o A001586     return v*add(p(k,0)*binomial(n,k)*(x^(n-k)+w) for k in range(n)[::2])
+%o A001586 def A001586(n) : return abs(2^n*p(n, 1/2))
+%o A001586 [A001586(n) for n in (0..21)] # _Peter Luschny_, Jul 19 2012
+%Y A001586 Cf. A007836, A079858, A185417, A185418, A212435.
+%Y A001586 Bisections are A000281 and A000464.
+%Y A001586 Related polynomials are given in A098432, A081658 and A153641.
+%Y A001586 Cf. A046802.
+%K A001586 nonn,easy,nice,changed
+%O A001586 0,3
+%A A001586 _N. J. A. Sloane_
+%E A001586 More terms from _Vladeta Jovovic_, Jan 25 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027482
+Showing 1-1 of 1
+
+%I A027482
+%S A027482 7,39,126,310,645,1197,2044,3276,4995,7315,10362,14274,19201,25305,
+%T A027482 32760,41752,52479,65151,79990,97230,117117,139909,165876,195300,
+%U A027482 228475,265707,307314,353626,404985,461745,524272,592944,668151
+%N A027482 n(n^3-1)/2.
+%C A027482 Row sums in an n X n X n pandiagonal magic cube with entries (0..n^3-1).
+%C A027482 Equals A058895/2. - _Zerinvary Lajos_, Jan 28 2008
+%H A027482 Vincenzo Librandi, <a href="/A027482/b027482.txt">Table of n, a(n) for n = 2..1000</a>
+%H A027482 S. Gartenhaus, <a href="http://arXiv.org/abs/math.CO/0210275">Odd order pandiagonal latin and magic cubes...</a>.
+%F A027482 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^3 where a[ i, j ] = s(i, j)/i! if j<=i, 0 if j>i
+%F A027482 a(n)=A000217(n^2)-A000217(n) - _Jon Perry_, Jul 21 2003
+%F A027482 G.f.: x^2*(7 + 4*x + x^2)/(1 - x)^5. - _Vincenzo Librandi_, Dec 29 2012
+%p A027482 seq(sum(n^3-1, k=1..n)/2, n=2..33); - _Zerinvary Lajos_, Jan 28 2008
+%t A027482 Table[(m^4 - m)/2, {m, 44}] - _Zerinvary Lajos_, Mar 21 2007
+%t A027482 CoefficientList[Series[(7 + 4*x + x^2)/(1 - x)^5, {x, 0, 40}], x] (* _Vincenzo Librandi_, Dec 29 2012 *)
+%o A027482 (PARI) t(n)=n*(n+1)/2; for(n=0,50,print1(t(n^2)-t(n)","))
+%o A027482 (MAGMA) [n * (n^3 - 1)/2: n in [2..50]]; // _Vincenzo Librandi_, Dec 29 2012
+%Y A027482 Second diagonal of A027478.
+%K A027482 nonn
+%O A027482 2,1
+%A A027482 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

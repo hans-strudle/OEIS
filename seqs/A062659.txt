@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062659
+Showing 1-1 of 1
+
+%I A062659
+%S A062659 17,5501
+%N A062659 Numbers n such that 93^n - 92^n is prime.
+%C A062659 Terms greater than 1000 are often only strong pseudoprimes.
+%C A062659 a(3) > 20000. - _Derek Orr_, Sep 10 2014
+%C A062659 a(3) > 10^5. - _Robert Price_, Aug 24 2015
+%o A062659 (PARI) forprime(p=1,20000,if(ispseudoprime(93^p-92^p),print1(p,", "))) \\ _Derek Orr_, Sep 10 2014
+%Y A062659 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062659 nonn,hard,more,bref
+%O A062659 1,1
+%A A062659 _Mike Oakes_, May 18 2001, May 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

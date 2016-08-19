@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016426
+Showing 1-1 of 1
+
+%I A016426
+%S A016426 1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,
+%T A016426 1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,
+%U A016426 1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+%V A016426 1,1,0,0,0,0,0,0,0,0,0,-1,-1,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,
+%W A016426 -1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,0,0,
+%X A016426 1,0,0,0,-1,0,0,0,0,0,0,-1,0,0,0
+%N A016426 506th cyclotomic polynomial.
+%K A016426 sign,fini
+%O A016426 0,1
+%A A016426 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

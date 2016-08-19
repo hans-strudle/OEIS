@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013605
+Showing 1-1 of 1
+
+%I A013605
+%S A013605 2,2,12,6,4,6,4,44,16,6,12,12,52,2,4,62,16,102,16,26,54,54,36,38,64,2,
+%T A013605 12,42,16,102,18,72,42,68,256,18,52,84,234,54,34,72,274,266,36,14,4,
+%U A013605 56,162,2,24,122,6,14,94,446,72,56,298,384,28,26
+%N A013605 5^n-prevprime(5^n).
+%p A013605 seq(5^i-prevprime(5^i),i=1..100);
+%t A013605 #-NextPrime[#,-1]&/@(5^Range[70])  (* _Harvey P. Dale_, Mar 12 2011 *)
+%K A013605 nonn
+%O A013605 1,1
+%A A013605 James Kilfiger (mapdn(AT)csv.warwick.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

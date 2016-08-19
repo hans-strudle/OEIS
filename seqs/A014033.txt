@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014033
+Showing 1-1 of 1
+
+%I A014033
+%S A014033 1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,
+%T A014033 0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,
+%U A014033 0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+%V A014033 1,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,
+%W A014033 0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,-1,
+%X A014033 0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+%N A014033 Inverse of 24th cyclotomic polynomial.
+%H A014033 Vincenzo Librandi, <a href="/A014033/b014033.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014033 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 1, 0, 0, 0, -1).
+%p A014033 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014033 CoefficientList[Series[1/Cyclotomic[24, x], {x, 0, 100}], x] (* _Vincenzo Librandi_, Apr 03 2014 *)
+%t A014033 LinearRecurrence[{0, 0, 0, 1, 0, 0, 0, -1},{1, 0, 0, 0, 1, 0, 0, 0},81] (* _Ray Chandler_, Sep 15 2015 *)
+%o A014033 (PARI) Vec(1/polcyclo(24)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%o A014033 (MAGMA) &cat[[1,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0,0,0, 0,0,0,0]: n in [0..5]]; // _Vincenzo Librandi_, Apr 03 2014
+%K A014033 sign,easy
+%O A014033 0,1
+%A A014033 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

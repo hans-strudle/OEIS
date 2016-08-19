@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008327
+Showing 1-1 of 1
+
+%I A008327
+%S A008327 1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,2,1,1,1,1,4,6,4,1,1,1,1,4,14,14,
+%T A008327 4,1,1,1,1,7,41,130,41,7,1,1,1,1,8,157,1981,1981,157,8,1,1,1,1,12,725,
+%U A008327 62616,304496,62616,725,12,1,1,1,1,14,4196,2806508,78322916
+%N A008327 Triangle of simple regular bipartite graphs by number of nodes and degree.
+%H A008327 B. D. McKay and E. Rogoyski, <a href="http://www.combinatorics.org/Volume_2/volume2.html#N3">Latin squares of order ten</a>, Electron. J. Combinatorics, 2 (1995) #N3.
+%Y A008327 Cf. A008326.
+%K A008327 nonn,tabl,nice
+%O A008327 0,13
+%A A008327 _Brendan McKay_
+%E A008327 More terms from Eric Rogoyski May 15 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

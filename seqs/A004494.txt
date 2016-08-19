@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004494
+Showing 1-1 of 1
+
+%I A004494
+%S A004494 5,3,4,8,6,7,2,0,1,14,12,13,17,15,16,11,9,10,23,21,22,26,24,25,20,18,
+%T A004494 19,32,30,31,35,33,34,29,27,28,41,39,40,44,42,43,38,36,37,50,48,49,53,
+%U A004494 51,52,47,45,46,59,57,58,62
+%N A004494 Tersum n + 5.
+%F A004494 Tersum m + n : write m and n in base 3 and add mod 3 with no carries, e.g. 5 + 8 = "21" + "22" = "10" = 1.
+%F A004494 a(n)= -8 + Sum_{k=0..n}{(1/36)*(-47*(k mod 9)-11*((k+1) mod 9)-11*((k+2) mod 9)+25*((k+3) mod 9)-11*((k+4) mod 9)+25*((k+5) mod 9)-11*((k+6) mod 9)-11*((k+7) mod 9)+61*((k+8) mod 9)},with n>=0 - _Paolo P. Lava_, Dec 03 2007
+%K A004494 nonn
+%O A004494 0,1
+%A A004494 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

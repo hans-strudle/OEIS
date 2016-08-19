@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059968
+Showing 1-1 of 1
+
+%I A059968
+%S A059968 1,10,145,2470,46060,910252,18730855,397089550,8612835715,
+%T A059968 190223180840,4263421511271,96723482198980,2216905597676000,
+%U A059968 51256802757808320,1194060413809070710,27999654303202465310,660370070571422998410
+%N A059968 10-ary trees.
+%D A059968 S. Heubach, N. Y. Li and T. Mansour, Staircase tilings and k-Catalan structures, Discrete Math., 308 (2008), 5954-5964.
+%F A059968 G.f. A(x) satisfies A = x + A^10.
+%F A059968 a(n) = (C(k*n, n)/((k-1)*n+1), k=10).
+%p A059968 with(combinat): for n from 1 to 40 do printf(`%d,`,binomial(10*n,n)/((10-1)*n+1)) od:
+%Y A059968 Related algebraic sequences concerning trees: strictly k-ary trees (A000108: s=x+s^2, A001263: s=(x, y)+(x, s)+(s, y)+(s, s))), (A001764: s=x+s^3), (A002293: s=x+s^4), (A002294: s=x+s^5), (A002295: s=x+s^6), (A002296: s=x+s^7), (A007556: s=x+s^8), at most k-ary trees (A001006: s=x+xs+xs^2), (A036765-A036769, s=x+xs^2....+xs^k, k=3, 4, 5, 6, 7).
+%K A059968 nonn
+%O A059968 0,2
+%A A059968 Claude Lenormand (claude.lenormand(AT)free.fr), Mar 05 2001
+%E A059968 More terms from _James A. Sellers_, Mar 15 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

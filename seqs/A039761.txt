@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039761
+Showing 1-1 of 1
+
+%I A039761
+%S A039761 1,1,0,1,2,1,1,6,7,1,1,12,34,24,1,1,20,110,190,81,1,1,30,275,920,1051,
+%T A039761 268,1,1,42,581,3255,7371,5747,869,1,1,56,1092,9296,35686,57568,31060,
+%U A039761 2768,1,1,72,1884,22764,134022,373926,441652,166068,8689,1,1,90,3045
+%N A039761 Triangle of D-analogs of Stirling numbers of 2nd kind.
+%H A039761 R. Suter, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/SUTER/sut1.html">Two analogues of a classical sequence</a>, J. Integer Sequences, Vol. 3 (2000), #P00.1.8.
+%F A039761 E.g.f./G.f.: (exp(x) - x)*exp(y/2*(exp(2*x) - 1)).
+%e A039761 {1};
+%e A039761 {1,0};
+%e A039761 {1,2,1};
+%e A039761 {1,6,7,1};
+%e A039761 {1,12,34,24,1};
+%e A039761 ...
+%Y A039761 Cf. A039760 (transposed triangle).
+%K A039761 nonn,tabl
+%O A039761 0,5
+%A A039761 Ruedi Suter (suter(AT)math.ethz.ch)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

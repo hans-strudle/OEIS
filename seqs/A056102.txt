@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056102
+Showing 1-1 of 1
+
+%I A056102
+%S A056102 1,1068,2057,3124,3126,4193,5182,6249,6251,7318,8307,9374,9376,10443,
+%T A056102 11432,12499,12501,13568,14557,15624,15626,16693,17682,18749,18751,
+%U A056102 19818,20807,21874,21876,22943,23932,24999,25001,26068,27057,28124
+%N A056102 Numbers n such that n^4 = 1 (mod 5^5).
+%t A056102 x=5; Select[ Range[ 50000 ], PowerMod[ #, x-1, x^5 ]==1& ]
+%K A056102 nonn
+%O A056102 1,2
+%A A056102 _Robert G. Wilson v_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

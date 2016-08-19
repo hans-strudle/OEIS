@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051235
+Showing 1-1 of 1
+
+%I A051235
+%S A051235 1,48,368640,22295347200,932242784256000,144982397807493120000,
+%T A051235 221340898613898982195200000,21421302878528360015430942720000,
+%U A051235 59225618198555209770663470432256000000
+%N A051235 Number of essentially different most-perfect pandiagonal magic squares of order 4n.
+%D A051235 K. Ollerenshaw and D. S. Bree, Most-perfect Pan-diagonal Magic Squares: Their Construction and Enumeration, Inst. Math. Applic., Southend-on-Sea, England, 1998.
+%D A051235 I. Stewart, Most-perfect magic squares, Sci. Amer., Nov. 1999, pp. 122-123.
+%H A051235 <a href="/index/Mag#magic">Index entries for sequences related to magic squares</a>
+%F A051235 Let N = 4n = Product{g}[(p_g)^(s_g)] (p_g prime) and let W_v(n) = Sum{0 <= i <= v-1}[(-1)^{v+i}BINOM(v+1, i+1)*Product{g}BINOM(s_g+i, i)] then a(n) = 2^(N-2)*(2n)!^2*Sum{0 <= v < Sum{g}s_g}[W_v(N)(W_v(N)+W_{v+1}(N))].
+%K A051235 nonn,easy
+%O A051235 0,2
+%A A051235 _N. J. A. Sloane_.
+%E A051235 Formula and more terms from _Floor van Lamoen_, Aug 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

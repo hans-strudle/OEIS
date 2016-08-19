@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034944
+Showing 1-1 of 1
+
+%I A034944
+%S A034944 0,5,70,239,143044,1999509,6826318,822557039,85658552023,
+%T A034944 1188526486815,11941488851037,291518510320809,2108769149874327,
+%U A034944 13920898306972194,2675587335039691558,63228498770709057089
+%N A034944 Successive approximations to 13-adic integer sqrt(-1).
+%D A034944 K. Mahler, Introduction to p-Adic Numbers and Their Functions, Cambridge, 1973, p. 35.
+%F A034944 Binomial transform of A081341, inverse binomial transform of = A081342.
+%o A034944 (PARI) sqrt(-1+O(13^40))
+%Y A034944 Cf. A034939.
+%K A034944 nonn,easy
+%O A034944 0,2
+%A A034944 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

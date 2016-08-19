@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050620
+Showing 1-1 of 1
+
+%I A050620
+%S A050620 2,11,43,209,1042,6771,26823,130599,651237,3255306,21158903,83821639,
+%T A050620 408121757,2035115566,13224589033,52388661704,331370112102,
+%U A050620 1691563962301,6567827879588,41430886596044,211450306579272
+%N A050620 Quotients arising from sequence A035014.
+%F A050620 a(n) = a(n-1)/2 + 5^(n-1)*(4-[a(n-1) mod 2])/2.
+%Y A050620 Cf. A035014.
+%K A050620 nonn,base
+%O A050620 1,1
+%A A050620 _Patrick De Geest_, Jun 15 1999.
+%E A050620 Formula and more terms from Antonio G. Astudillo (afg_astudillo(AT)hotmail.com), Jun 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

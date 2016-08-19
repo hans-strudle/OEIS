@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061469
+Showing 1-1 of 1
+
+%I A061469
+%S A061469 4,2,4,4,8,8,105,16,92,16,135,819,10,45,585,16,8,10,16,16,8,44,4,4,14,
+%T A061469 8,16,98,16,585,8,8,8,8,8,4,8,105,16,8,135,8,10,50,10,5733,8,585,10,
+%U A061469 855,16,10,4,10,10,585,32,10,8,16,14,8,16,4,8,310,8,16,8,10,50,855,14,8,10
+%N A061469 GCD of the amicable pairs: a(n) = GCD(A002025(n), A002046(n)).
+%C A061469 The pairs are ordered by the smaller number. - _David Wasserman_, Jun 18 2002
+%H A061469 T. D. Noe, <a href="/A061469/b061469.txt">Table of n, a(n) for n=1..1000</a>
+%e A061469 a(1)=GCD(220,284)=4; a(2)=GCD(1184,1210)=2.
+%Y A061469 Cf. A002025, A002046.
+%K A061469 nonn
+%O A061469 1,1
+%A A061469 Jason Earls (zevi_35711(AT)yahoo.com), Jun 11 2001
+%E A061469 More terms from _David Wasserman_, Jun 18 2002
+%E A061469 a(22) corrected by _T. D. Noe_, Aug 15 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

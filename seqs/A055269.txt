@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055269
+Showing 1-1 of 1
+
+%I A055269
+%S A055269 1,7,30,116,437,1635,6106,22792,85065,317471,1184822,4421820,16502461,
+%T A055269 61588027,229849650,857810576,3201392657,11947760055,44589647566,
+%U A055269 166410830212,621053673285,2317803862931,8650161778442,32282843250840,120481211224921,449642001648847
+%N A055269 a(n) = 4a(n-1) - a(n-2) + 3; a(0)=1, a(1)=7.
+%D A055269 I. Adler, Three Diophantine equations - Part II, Fib. Quart., 7 (1969), pp. 181-193.
+%D A055269 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 122-125, 194-196.
+%D A055269 E. I. Emerson, Recurrent Sequences in the Equation DQ^2=R^2+N, Fib. Quart.,7 (1969), pp. 231-242.
+%H A055269 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (5,-5,1).
+%F A055269 G.f.: (1+2x)/((1-x)(1-4x+x^2))
+%F A055269 a(n) = (((17-5*(2-sqrt(3)))(2+sqrt(3))^n+(5*(2+sqrt(3))-17)(2-sqrt(3))^n)/(4*sqrt(3))) - 3/2.
+%e A055269 Also the first partial sum of A054491.
+%t A055269 LinearRecurrence[{5,-5,1},{1,7,30},40] (* or *) CoefficientList[ Series[ (-1-2*x)/(-1+5*x-5*x^2+x^3),{x,0,40}],x] (* _Harvey P. Dale_, Dec 01 2013 *)
+%Y A055269 Cf. A001834, A054491.
+%K A055269 easy,nonn
+%O A055269 0,2
+%A A055269 _Barry E. Williams_, May 10 2000
+%E A055269 Corrected by _T. D. Noe_, Nov 07 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

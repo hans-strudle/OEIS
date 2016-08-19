@@ -1,0 +1,225 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008292
+Showing 1-1 of 1
+
+%I A008292
+%S A008292 1,1,1,1,4,1,1,11,11,1,1,26,66,26,1,1,57,302,302,57,1,1,120,1191,2416,
+%T A008292 1191,120,1,1,247,4293,15619,15619,4293,247,1,1,502,14608,88234,
+%U A008292 156190,88234,14608,502,1,1,1013,47840,455192,1310354,1310354,455192,47840,1013
+%N A008292 Triangle of Eulerian numbers T(n,k) (n>=1, 1 <= k <= n) read by rows.
+%C A008292 The indexing used here follows that given in the classic books by Riordan and Comtet. For two other versions see A173018 and A123125. - _N. J. A. Sloane_, Nov 21 2010
+%C A008292 Coefficients of Eulerian polynomials. Number of permutations of n objects with k-1 rises. Number of increasing rooted trees with n+1 nodes and k leaves.
+%C A008292 T(n,k)=number of permutations of [n] with k runs. T(n,k)=number of permutations of [n] requiring k readings (see the Knuth reference). T(n,k)=number of permutations of [n] having k distinct entries in its inversion table. - _Emeric Deutsch_, Jun 09 2004
+%C A008292 T(n,k) = number of ways to write the Coxeter element s_{e1}s_{e1-e2}s_{e2-e3}s_{e3-e4}...s_{e_{n-1}-e_n} of the reflection group of type B_n, using s_{e_k} and as few reflections of the form s_{e_i+e_j}, where i = 1, 2, ..., n and j is not equal to i, as possible. - Pramook Khungurn (pramook(AT)mit.edu), Jul 07 2004
+%C A008292 Subtriangle for k>=1 and n>=1 of triangle A123125. - _Philippe Deléham_, Oct 22 2006
+%C A008292 T(n,k)/n! also represents the n-dimensional volume of the portion of the n-dimensional hypercube cut by the (n-1)-dimensional hyperplanes x_1 + x_2 + ... x_n = k, x_1 + x_2 + ... x_n = k-1; or, equivalently, it represents the probability that the sum of n independent random variables with uniform distribution between 0 and 1 is between k-1 and k. - Stefano Zunino, Oct 25 2006
+%C A008292 [E(.,t)/(1-t)]^n = n!*Lag[n,-P(.,t)/(1-t)] and [-P(.,t)/(1-t)]^n = n!*Lag[n, E(.,t)/(1-t)] umbrally comprise a combinatorial Laguerre transform pair, where E(n,t) are the Eulerian polynomials and P(n,t) are the polynomials in A131758. - _Tom Copeland_, Sep 30 2007
+%C A008292 From _Tom Copeland_, Oct 07 2008: (Start)
+%C A008292 G(x,t) = 1/(1 + (1-exp(x*t))/t) = 1 + 1*x + (2+t)*x^2/2! + (6+6*t+t^2)*x^3/3! + ...
+%C A008292 gives row polynomials for A090582, the reverse f-polynomials for the permutohedra (see A019538).
+%C A008292 G(x,t-1) = 1 + 1*x + (1+t)*x^2/2! + (1+4*t+t^2)*x^3/3! + ...
+%C A008292 gives row polynomials for A008292, the h-polynomials for permutohedra.
+%C A008292 G((t+1)*x,-1/(t+1)) = 1 + (1+t)*x + (1+3*t+2*t^2)*x^2/2! + ...
+%C A008292 gives row polynomials for A028246.
+%C A008292 (End)
+%C A008292 A subexceedant function f on [n] is a map f:[n] -> [n] such that 1 <= f(i) <= i for all i, 1 <= i <= n. T(n,k) equals the number of subexceedant functions f of [n] such that the image of f has cardinality k [Mantaci & Rakotondrajao]. Example T(3,2) = 4: if we identify a subexceedant function f with the word f(1)f(2)...f(n) then the subexceedant functions on [3] are 111, 112, 113, 121, 122 and 123 and four of these functions have an image set of cardinality 2. - _Peter Bala_, Oct 21 2008
+%C A008292 Further to the comments of _Tom Copeland_ above, the n-th row of this triangle is the h-vector of the simplicial complex dual to a permutohedron of type A_(n-1). The corresponding f-vectors are the rows of A019538. For example, 1 + 4*x + x^2 = y^2 + 6*y + 6 and 1 + 11*x + 11*x^2 + x^3 = y^3 + 14*y^2 + 36*y + 24, where x = y + 1, give [1,6,6] and [1,14,36,24] as the third and fourth rows of A019538. The Hilbert transform of this triangle (see A145905 for the definition) is A047969. See A060187 for the triangle of Eulerian numbers of type B (the h-vectors of the simplicial complexes dual to permutohedra of type B). See A066094 for the array of h-vectors of type D. For tables of restricted Eulerian numbers see A144696 - A144699. - _Peter Bala_, Oct 26 2008
+%C A008292 For a natural refinement of A008292 with connections to compositional inversion and iterated derivatives, see A145271. - _Tom Copeland_, Nov 06 2008
+%C A008292 The polynomials E(z,n) = numerator(Sum_{k>=1} (-1)^(n+1)*k^n*z^(k-1)) for n >=1 lead directly to the triangle of Eulerian numbers. - _Johannes W. Meijer_, May 24 2009
+%C A008292 From Walther Janous (walther.janous(AT)tirol.com), Nov 01 2009: (Start)
+%C A008292 The (Eulerian) polynomials e(n,x) = Sum_{k=0..n-1} T(n,k+1)*x^k turn out to be also the numerators of the closed-form expressions of the infinite sums:
+%C A008292 S(p,x):= Sum_{j>=0}(j+1)^p*x^j, that is
+%C A008292 S(p,x) = e(p,x)/(1-x)^(p+1), whenever |x| < 1 and p is a positive integer.
+%C A008292 (Note the inconsistent use of T(n,k) in the section listing the formula section. I adhere tacitly to the first one.) (End)
+%C A008292 If n is an odd prime, then all numbers of the (n-2)-th and (n-1)-th rows are in the progression k*n+1. - _Vladimir Shevelev_, Jul 01 2011
+%C A008292 The Eulerian triangle is an element of the formula for the r-th successive summation of Sum_{k=1..n} k^j which appears to be Sum_{k=1..n} T(j,k-1) * binomial(j-k+n+r, j+r). - _Gary Detlefs_, Nov 11 2011
+%C A008292 Li and Wong show that T(n,k) counts the combinatorially inequivalent star polygons with n+1 vertices and sum of angles (2*k-n-1)*Pi. An equivalent formulation is: define the total sign change S(p) of a permutation p in the symmetric group S_n to be equal to Sum_{i=1..n} sign(p(i)-p(i+1)), where we take p(n+1) = p(1). T(n,k) gives the number of permutations q in S_(n+1) with q(1) = 1 and S(q) = 2*k-n-1. For example, T(3,2) = 4 since in S_4 the permutations (1243), (1324), (1342) and (1423) have total sign change 0. - _Peter Bala_, Dec 27 2011
+%C A008292 Xiong, Hall and Tsao refer to Riordan and mention that a traditional Eulerian number A(n,k) is the number of permutations of (1,2...n) with k weak exceedances. - _Susanne Wienand_, Aug 25 2014
+%C A008292 Connections to algebraic geometry/topology and characteristic classes are discussed in the Buchstaber and Bunkova, the Copeland, the Hirzebruch, the Lenart and Zainoulline, the Losev and Manin, and the Sheppeard links; to the Grassmannian, in the Copeland, the Farber and Postnikov, the Sheppeard, and the Williams links; and to compositional inversion and differential operators, in the Copeland and the Parker links. - _Tom Copeland_, Oct 20 2015
+%D A008292 Mohammad K. Azarian, Geometric Series, Problem 329, Mathematics and Computer Education, Vol. 30, No. 1, Winter 1996, p. 101.  Solution published in Vol. 31, No. 2, Spring 1997, pp. 196-197.
+%D A008292 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 243.
+%D A008292 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 260.
+%D A008292 D. Foata, Distributions eulériennes et mahoniennes sur le groupe des permutations, pp. 27-49 of M. Aigner, editor, Higher Combinatorics, Reidel, Dordrecht, Holland, 1977.
+%D A008292 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 254; 2nd. ed., p. 268.
+%D A008292 D. E. Knuth, The Art of Computer Programming. Addison-Wesley, Reading, MA, 1998, Vol. 3, p. 47 (exercise 5.1.4 Nr. 20) and p. 605 (solution).
+%D A008292 Anthony Mendes and Jeffrey Remmel, Generating functions from symmetric functions, Preliminary version of book, available from Jeffrey Remmel's home page http://math.ucsd.edu/~remmel/
+%D A008292 O. J. Munch, Om potensproduktsummer [ Norwegian, English summary ], Nordisk Matematisk Tidskrift, 7 (1959), 5-19.
+%D A008292 T. K. Petersen, Eulerian Numbers, Birkhauser, 2015.
+%D A008292 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 215.
+%D A008292 R. Sedgewick and P. Flajolet, An Introduction to the Analysis of Algorithms, Addison-Wesley, Reading, MA, 1996.
+%D A008292 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Figure M3416, Academic Press, 1995.
+%D A008292 H. S. Wall, Analytic Theory of Continued Fractions, Chelsea, 1973, see p. 208.
+%H A008292 T. D. Noe, <a href="/A008292/b008292.txt">Rows 1 to 100 of triangle, flattened.</a>
+%H A008292 V. E. Adler, <a href="http://arxiv.org/abs/1510.02900">Set partitions and integrable hierarchies</a>, arXiv:1510.02900 [nlin.SI], 2015.
+%H A008292 E. Banaian, S. Butler, C. Cox, J. Davis, J. Landgraf and S. Ponce <a href="http://arxiv.org/abs/1508.03673">A generalization of Eulerian numbers via rook placements</a>, arXiv:1508.03673 [math.CO], 2015.
+%H A008292 J. Fernando Barbero G., Jesús Salas, Eduardo J. S. Villaseñor, <a href="http://arxiv.org/abs/1307.2010">Bivariate Generating Functions for a Class of Linear Recurrences. I. General Structure</a>, arXiv:1307.2010 [math.CO], 2013.
+%H A008292 J. F. Barbero G., J. Salas and E. J. S. Villaseñor, <a href="http://arxiv.org/abs/1307.5624">Bivariate Generating Functions for a Class of Linear Recurrences. II. Applications</a>, arXiv preprint arXiv:1307.5624 [math.CO], 2013.
+%H A008292 Paul Barry, <a href="http://arxiv.org/abs/1105.3043">Eulerian polynomials as moments, via exponential Riordan arrays</a>, arXiv preprint arXiv:1105.3043 [math.CO], 2011.
+%H A008292 Paul Barry, <a href="http://arxiv.org/abs/1105.3044">Combinatorial polynomials as moments, Hankel transforms and exponential Riordan arrays</a>, arXiv preprint arXiv:1105.3044 [math.CO], 2011.
+%H A008292 D. Barsky, <a href="http://www.mat.univie.ac.at/~slc/opapers/s05barsky.html">Analyse p-adique et suites classiques de nombres</a>, Sem. Loth. Comb. B05b (1981) 1-21.
+%H A008292 Hacene Belbachir, Mourad Rahmani and B. Sury, <a href="http://www.emis.de/journals/JIS/VOL15/Sury/sury42.html">Alternating Sums of the Reciprocals of Binomial Coefficients</a>, Journal of Integer Sequences, Vol. 15 (2012), #12.2.8.
+%H A008292 F. Bergeron, Ph. Flajolet and B. Salvy, <a href="http://algo.inria.fr/flajolet/Publications/BeFlSa92.pdf">Varieties of Increasing Trees</a>, Lecture Notes in Computer Science vol. 581, ed. J.-C. Raoult, Springer 1992, pp. 24-48.
+%H A008292 V. Buchstaber and E. Bunkova, <a href="http://arxiv.org/abs/1010.0944">Elliptic formal group laws, integral Hirzebruch genera and Krichever genera</a>, arXiv preprint arXiv:1010.0944 [math-ph], 2010, p. 35.
+%H A008292 F. Cachazo, S. He, E. Y. Yuan, <a href="http://arxiv.org/abs/1306.2962">Scattering in Three Dimensions from Rational Maps</a>, arXiv preprint arXiv:1306.2962 [hep-th], 2013.
+%H A008292 David Callan, Shi-Mei Ma, Toufik Mansour, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v22i2p22/">Some Combinatorial Arrays Related to the Lotka-Volterra System</a>, Electronic Journal of Combinatorics, Volume 22, Issue 2 (2015), Paper #P2.22.
+%H A008292 L. Carlitz et al., <a href="http://dx.doi.org/10.1016/S0021-9800(66)80057-1">Permutations and sequences with repetitions by number of increases</a>, J. Combin. Theory, 1 (1966), 350-374, p. 351.
+%H A008292 L. Carlitz, <a href="http://www.collectanea.ub.edu/index.php/Collectanea/article/view/3409/4089">Eulerian numbers and operators</a>, Collectanea Mathematica 24:2 (1973), pp. 175-200.
+%H A008292 Mircea I. Cirnu, <a href="http://www.emis.de/journals/BAMV/conten/vol18/BAMV_XVIII-1_p015-028.pdf">Determinantal formulas for sum of generalized arithmetic-geometric series</a>, Boletin de la Asociacion Matematica Venezolana, Vol. XVIII, No. 1 (2011), p. 13.
+%H A008292 Tom Copeland, <a href="https://tcjpn.wordpress.com/2015/10/12/the-elliptic-lie-triad-kdv-and-ricattt-equations-infinigens-and-elliptic-genera/">The Elliptic Lie Triad: Riccati and KdV Equations, Infinigens, and Elliptic Genera</a>
+%H A008292 J. Desarmenien and D. Foata, <a href="http://www-irma.u-strasbg.fr/~foata/paper/pub62.html">The signed Eulerian Numbers</a>
+%H A008292 J. Desarmenien and D. Foata, <a href="http://dx.doi.org/10.1016/0012-365X(92)90364-L">The signed Eulerian numbers</a>, Discrete Math. 99 (1992), no. 1-3, 49-58.
+%H A008292 E. Deutsch and B. E. Sagan, <a href="http://arxiv.org/abs/math.CO/0407326">Congruences for Catalan and Motzkin numbers and related sequences</a>, J. Num. Theory 117 (2006), 191-215.
+%H A008292 D. Dominici, <a href="http://arxiv.org/abs/math/0501052">Nested derivatives: A simple method for computing series expansions of inverse functions.</a> arXiv:math/0501052v2 [math.CA]
+%H A008292 B. Drake, <a href="http://people.brandeis.edu/~gessel/homepage/students/drakethesis.pdf">An inversion theorem for labeled trees and some limits of areas under lattice paths</a> Thesis, Brandeis Univ., Aug. 2008
+%H A008292 A. Dzhumadil'daev, D. Yeliussizov, <a href="http://cs.uwaterloo.ca/journals/JIS/VOL16/Yeliussizov/dzhuma6.html">Power sums of binomial coefficients</a>, Journal of Integer Sequences, 16 (2013), Article 13.1.6
+%H A008292 R. Ehrenborg, M. Readdy, E. Steingrímsson, <a href="http://dx.doi.org/10.1006/jcta.1997.2832">Mixed Volumes and Slices of the Cube</a>, J Comb. Theory, Series A 81, Issue 1, Jan. 1998, 121-126.
+%H A008292 M. Farber and A. Postnikov, <a href="http://arxiv.org/abs/1502.01434">Arrangements of equal minors in the positive Grassmannian</a>, arXiv preprint arXiv:1502.01434 [math.CO], 2015.
+%H A008292 FindStat - Combinatorial Statistic Finder, <a href="http://www.findstat.org/StatisticsDatabase/St000021/">The number of descents of a permutation</a>, <a href="http://www.findstat.org/StatisticsDatabase/St000155/">The number of exceedances (also excedences) of a permutation</a>, and <a href="http://www.findstat.org/StatisticsDatabase/St000213/">The number of weak exceedances (also weak excedences) of a permutation</a>
+%H A008292 D. Foata, M. Schutzenberger. <a href="http://www.arXiv.org/abs/math.CO/0508232">- Theorie Geometrique des Polynomes Euleriens</a>, Lecture Notes in Math., no.138, Springer Verlag 1970.
+%H A008292 Dominique Foata and Guo-Niu Han, <a href="http://dx.doi.org/10.1093/qmath/hap043">Doubloons and new q-tangent numbers</a>, Quart. J. Math. 62 (2) (2011) 417-432
+%H A008292 E. T. Frankel, <a href="/A000217/a000217_1.pdf"> A calculus of figurate numbers and finite differences</a>, American Mathematical Monthly, 57 (1950), 14-25. [Annotated scanned copy]
+%H A008292 Ghislain R. Franssens, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Franssens/franssens13.html">On a Number Pyramid Related to the Binomial, Deleham, Eulerian, MacMahon and Stirling number triangles</a>, Journal of Integer Sequences, Vol. 9 (2006), Article 06.4.1.
+%H A008292 S. Garoufalidis and R. Kashaev, <a href="http://arxiv.org/abs/1304.2705">From state integrals to q-series</a>, arXiv preprint arXiv:1304.2705 [math.GT], 2013.
+%H A008292 Ira Gessel, <a href="http://www.cs.brandeis.edu/~ira/">The Smith College diploma problem</a>.
+%H A008292 Alexander Gnedin, Grigori Olshanski, <a href="http://arxiv.org/abs/math/0602610">The boundary of the Eulerian number triangle</a>, arXiv:math/0602610 [math.PR], 2006.
+%H A008292 Mats Granvik, <a href="http://math.stackexchange.com/questions/1085837/do-these-ratios-of-the-eulerian-number-triangle-converge-to-the-logarithm-of-x">Do these ratios of the Eulerian numbers converge to the logarithm of x?</a>, Math Stack Exchange, Dec 30 2014.
+%H A008292 Jim Haglund and Mirko Visontai, <a href="http://hans.math.upenn.edu/~jhaglund/preprints/es-final.pdf">Stable multivariate Eulerian polynomials and generalized Stirling permutations</a>.
+%H A008292 Herwig Hauser, Christoph Koutschan, <a href="http://dx.doi.org/10.1016/j.disc.2012.08.009">Multivariate linear recurrences and power series division</a>, Discrete Math. 312 (2012), no. 24, 3553--3560. MR2979485.
+%H A008292 F. Hirzebruch, <a href="http://wwwmath.uni-muenster.de/42/fileadmin/Einrichtungen/mjm/vol_1/mjm_vol_1_02.pdf">Eulerian polynomials</a>, Munster J. of Math. 1 (2008), pp. 9-12.
+%H A008292 P. Hitczenko and S. Janson, <a href="http://arxiv.org/abs/1212.5498">Weighted random staircase tableaux</a>, arXiv preprint arXiv:1212.5498 [math.CO], 2012.
+%H A008292 Matthew Hubbard and Tom Roby, <a href="http://binomial.csuhayward.edu/Euler.html">Pascal's Triangle From Top to Bottom</a>
+%H A008292 Svante Janson, <a href="http://arxiv.org/abs/1305.3512">Euler-Frobenius numbers and rounding</a>, arXiv preprint arXiv:1305.3512 [math.PR], 2013.
+%H A008292 Lucas Kang, <a href="http://arxiv.org/abs/1310.3311">Investigation of Rule 73 as Case Study of Class 4 Long-Distance Cellular Automata</a>, arXiv preprint arXiv:1310.3311 [nlin.CG], 2013.
+%H A008292 A. Kerber and K.-J. Thuerlings, <a href="http://www.emis.de/journals/SLC/opapers/s08kerthur.html">Eulerian numbers, Foulkes characters and Lefschetz characters of S_n</a>, Séminaire Lotharingien, Vol. 8 (1984), 31-36.
+%H A008292 A. R. Kräuter, <a href="http://www.mat.univie.ac.at/~slc/opapers/s11kraeu.html">Über die Permanente gewisser zirkulärer Matrizen...</a>, Séminaire Lotharingien de Combinatoire, B11b (1984), 11 pp.
+%H A008292 D. H. Lehmer, <a href="http://dx.doi.org/10.1016/0097-3165(82)90020-6">Generalized Eulerian numbers</a>, J. Combin. Theory Ser.A 32 (1982), no. 2, 195--215. MR0654621 (83k:10026).
+%H A008292 C. Lenart and K. Zainoulline, <a href="http://arxiv.org/abs/1408.5952">Towards generalized cohomology Schubert calculus via formal root polynomials</a>, arXiv preprint arXiv:1408.5952 [math.AG], 2014.
+%H A008292 M-H. Li and N-C. Wong, <a href="http://www.math.nsysu.edu.tw/~wong/papers/soa-SEAM-formatted.pdf">Sums of angles of star polygons and the Eulerian Numbers</a>, Southeast Asian Bulletin of Mathematics 2004.
+%H A008292 A. Losev and Y. Manin, <a href="http://arxiv.org/abs/math/0001003">New moduli spaces of pointed curves and pencils of flat connections</a>, arXiv preprint arXiv:0001003, 2000 (p. 8)
+%H A008292 Shi-Mei Ma, <a href="http://arxiv.org/abs/1208.3104">Some combinatorial sequences associated with context-free grammars</a>, arXiv:1208.3104v2 [math.CO], 2012.
+%H A008292 Shi-Mei Ma, <a href="http://arxiv.org/abs/1304.6654">On gamma-vectors and the derivatives of the tangent and secant functions</a>, arXiv:1304.6654 [math.CO], 2013.
+%H A008292 Shi-Mei Ma, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v20i1p11">A family of two-variable derivative polynomials for tangent and secant</a>, El J. Combinat. 20 (1) (2013) P11
+%H A008292 S.-M. Ma, T. Mansour, M. Schork.  <a href="http://arxiv.org/abs/1308.0169">Normal ordering problem and the extensions of the Stirling grammar</a>, arXiv preprint arXiv:1308.0169 [math.CO], 2013.
+%H A008292 Shi-Mei Ma, T. Mansour, D. Callan, <a href="http://arxiv.org/abs/1404.0731">Some combinatorial arrays related to the Lotka-Volterra system</a>, arXiv preprint arXiv:1404.0731 [math.CO], 2014.
+%H A008292 Shi-Mei Ma, Hai-Na Wang, <a href="http://arxiv.org/abs/1506.08716">Enumeration of a dual set of Stirling permutations by their alternating runs</a>, arXiv:1506.08716 [math.CO], 2015.
+%H A008292 P. A. MacMahon, <a href="http://plms.oxfordjournals.org/content/s2-19/1/305.extract">The divisors of numbers</a>, Proc. London Math. Soc., (2) 19 (1920), 305-340; Coll. Papers II, pp. 267-302.
+%H A008292 R. Mantaci and F. Rakotondrajao, <a href="http://www.dmtcs.org/volumes/abstracts/dm040203.abs.html">A permutation representation that knows what "Eulerian" means</a>, Discrete Mathematics and Theoretical Computer Science, 4 101-108, (2001)
+%H A008292 O. J. Munch, <a href="/A000460/a000460.pdf">Om potensproduktsummer</a> [Norwegian, English summary], Nordisk Matematisk Tidskrift, 7 (1959), 5-19. [Annotated scanned copy]
+%H A008292 Nagatomo Nakamura, <a href="http://libir.josai.ac.jp/il/user_contents/02/G0000284repository/pdf/JOS-13447777-0808.pdf">Pseudo-Normal Random Number Generation via the Eulerian Numbers</a>, Josai Mathematical Monographs, vol 8, p 85-95, 2015.
+%H A008292 S. Parker, <a href="http://people.brandeis.edu/~gessel/homepage/students/parkerthesis.pdf">The Combinatorics of Functional Composition and Inversion</a>, Dissertation, Brandeis Univ. (1993)
+%H A008292 P. A. Piza, <a href="http://www.jstor.org/stable/3029339">Kummer numbers</a>, Mathematics Magazine, 21 (1947/1948), 257-260.
+%H A008292 P. A. Piza, <a href="/A001117/a001117.pdf">Kummer numbers</a>, Mathematics Magazine, 21 (1947/1948), 257-260. [Annotated scanned copy]
+%H A008292 A. Randrianarivony and J. Zeng, <a href="http://dx.doi.org/10.1006/aama.1996.0001">Une famille de polynomes qui interpole plusieurs suites...</a>, Adv. Appl. Math. 17 (1996), 1-26.
+%H A008292 J. Riordan, <a href="/A000217/a000217_2.pdf">Review of Frankel (1950)</a> [Annotated scanned copy]
+%H A008292 J. Riordan, <a href="http://dx.doi.org/10.1090/S0002-9939-1951-0041090-7">Triangular permutation numbers</a>, Proc. Amer. Math. Soc. 2 (1951) 429-432, r(x,t).
+%H A008292 D. P. Roselle, <a href="/A046739/a046739.pdf"> Permutations by number of rises and successions</a>, Proc. Amer. Math. Soc., 19 (1968), 8-16. [Annotated scanned copy]
+%H A008292 J. Sack and H. Ulfarsson, <a href="http://arxiv.org/abs/1106.1995">Refined inversion statistics on permutations</a>, arXiv preprint arXiv:1106.1995 [math.CO], 2011.
+%H A008292 M. Sheppeard, <a href="http://vixra.org/pdf/1208.0242v6.pdf">Constructive motives and scattering</a> 2013 (p. 41).
+%H A008292 D. Singh, <a href="/A002627/a002627.pdf">The numbers L(m,n) and their relations with prepared Bernoulli and Eulerian numbers</a>, Math. Student, 20 (1952), 66-70. [Annotated scanned copy]
+%H A008292 R. Sprugnoli, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL15/Sprugnoli/sprugnoli6.html">Alternating Weighted Sums of Inverses of Binomial Coefficients</a>, J. Integer Sequences, 15 (2012), #12.6.3.
+%H A008292 S. Tanimoto, <a href="http://dx.doi.org/10.1016/S0195-6698(02)00137-3">A study of Eulerian numbers by means of an operator on permutations</a>, Europ. J. Combin., 24 (2003), 33-43.
+%H A008292 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/EulerianNumber.html">Eulerian Number</a> and <a href="http://mathworld.wolfram.com/EulersNumberTriangle.html">Euler's Number Triangle</a>
+%H A008292 Susanne Wienand, <a href="https://oeis.org/wiki/File:Exceedances_4.png">plots of exceedances for permutations of [4]</a>
+%H A008292 L. K. Williams, <a href="http://arXiv.org/abs/math.CO/0307271">Enumeration of totally positive Grassmann cells</a>, arXiv:math/0307271 [math.CO], 2003-2004.
+%H A008292 Tingyao Xiong, Jonathan I. Hall, and Hung-Ping Tsao, <a href="http://dx.doi.org/10.1155/2014/870596">Combinatorial Interpretation of General Eulerian Numbers</a>, Journal of Discrete Mathematics, (2014), Article ID 870596, 6 pages.
+%H A008292 D. Yeliussizov, <a href="http://www.kazntu.kz/sites/default/files/20121221ND_Eleusizov.pdf">Permutation Statistics on Multisets</a>, Ph.D. Dissertation, Computer Science, Kazakh-British Technical University, 2012
+%H A008292 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A008292 T(n, k) = k * T(n-1, k) + (n-k+1) * T(n-1, k-1), T(1, 1) = 1.
+%F A008292 T(n, k) = Sum_{j=0..k} (-1)^j * (k-j)^n * binomial(n+1, j).
+%F A008292 Row sums = n! = A000142(n) unless n=0. - _Michael Somos_, Mar 17 2011
+%F A008292 E.g.f. A(x, q) = Sum_{n>0} (Sum_{k=1..n} T(n, k) * q^k) * x^n / n! =  q * ( e^(q*x) - e^x ) / ( q*e^x - e^(q*x) ) satisfies dA / dx = (A + 1) * (A + q). - _Michael Somos_, Mar 17 2011
+%F A008292 For a column listing, n-th term: T(c, n) = c^(n+c-1) + Sum_{i=1..c-1} (-1)^i/i!*(c-i)^(n+c-1)*Product_{j=1..i} (n+c+1-j). - Randall L. Rathbun (randallr(AT)abac.com), Jan 23 2002
+%F A008292 From John Robertson (jpr2718(AT)aol.com), Sep 02 2002: (Start)
+%F A008292 Four characterizations of Eulerian numbers T(i, n):
+%F A008292 1. T(0, n)=1 for n>=1, T(i, 1)=0 for i>=1, T(i, n) = (n-i)T(i-1, n-1) + (i+1)T(i, n-1).
+%F A008292 2. T(i, n) = Sum_{j=0..i} (-1)^j*binomial(n+1,j)*(i-j+1)^n for n>=1, i>=0.
+%F A008292 3. Let C_n be the unit cube in R^n with vertices (e_1, e_2, ..., e_n) where each e_i is 0 or 1 and all 2^n combinations are used. Then T(i, n)/n! is the volume of C_n between the hyperplanes x_1 + x_2 + ... + x_n = i and x_1 + x_2 + ... + x_n = i+1. Hence T(i, n)/n! is the probability that i <= X_1 + X_2 + ... + X_n < i+1 where the X_j are independent uniform [0, 1] distributions. - See Ehrenborg & Readdy reference.
+%F A008292 4. Let f(i, n) = T(i, n)/n!. The f(i, n) are the unique coefficients so that (1/(r-1)^(n+1)) Sum_{i=0..n-1} f(i, n) r^{i+1} = Sum_{j>=0} (j^n)/(r^j) whenever n>=1 and abs(r)>1.  (End)
+%F A008292 O.g.f. for n-th row: (1-x)^(n+1)*polylog(-n, x)/x. - _Vladeta Jovovic_, Sep 02 2002
+%F A008292 Triangle T(n, k), n>0 and k>0, read by rows; given by [0, 1, 0, 2, 0, 3, 0, 4, 0, 5, 0, 6, ...] DELTA [1, 0, 2, 0, 3, 0, 4, 0, 5, 0, 6, ...] (positive integers interspersed with 0's) where DELTA is Deléham's operator defined in A084938.
+%F A008292 Sum_{k=1..n} T(n, k)*2^k = A000629(n). - _Philippe Deléham_, Jun 05 2004
+%F A008292 From _Tom Copeland_, Oct 10 2007: (Start)
+%F A008292 Bell(n,x) = Sum_{j=0..n) S2(n,j) * x^j = Sum_{j=0..n} E(n,j) * Lag(n,-x, j-n) = Sum_{j=0..n} (E(n,j)/n!) * (n!*Lag(n,-x, j-n)) = Sum_{j=0..n} E(n,j) * binomial(Bell(.,x)+j, n) umbrally where Bell(n,x) are the Bell / Touchard / exponential polynomials; S2(n,j), the Stirling numbers of the second kind; E(n,j), the Eulerian numbers; and Lag(n,x,m), the associated Laguerre polynomials of order m.
+%F A008292 For x = 0, the equation gives Sum_{j=0..n} E(n,j) * binomial(j,n) = 1 for n=0 and 0 for all other n. By substituting the umbral compositional inverse of the Bell polynomials, the lower factorial n!*binomial(y,n), for x in the equation, the Worpitzky identity is obtained; y^n = Sum_{j=0..n} E(n,j) * binomial(y+j,n).
+%F A008292 Note that E(n,j)/n! = E(n,j)/(Sum_{k=0..n}E(n,k)). Also (n!*Lag(n, -1, j-n)) is A086885 with a simple combinatorial interpretation in terms of seating arrangements, giving a combinatorial interpretation to the equation for x=1; n!*Bell(n,1) = n!*Sum_{j=0..n} S2(n,j) = Sum_{j=0..n} E(n,j) * (n!*Lag(n, -1, j-n)).
+%F A008292 Clarification (Apr 19 2014): Here E(0,0) = S2(0,0) = 1, and for k>0, E(0,k) = E(k,0) = S2(0,k) = S2(k,0) = 0. (End)
+%F A008292 From the relations between the h- and f-polynomials of permutohedra and reciprocals of e.g.f.s described in A049019: (t-1)((t-1)d/dx)^n 1/(t-exp(x)) evaluated at x=0 gives the n-th Eulerian row polynomial in t and the n-th row polynomial in (t-1) of A019538 and A090582. From the Comtet and Copeland references in A139605: ((t+exp(x)-1)d/dx)^(n+1) x gives pairs of the Eulerian polynomials in t as the coefficients of x^0 and x^1 in its Taylor series expansion in x. - _Tom Copeland_, Oct 05 2008
+%F A008292 G.f: 1/(1-x/(1-x*y/1-2x/(1-2x*y/(1-3x/(1-3x*y/(1-... (continued fraction). - _Paul Barry_, Mar 24 2010
+%F A008292 If n is odd prime, then the following consecutive 2*n+1 terms are 1 modulo n: a((n-1)*(n-2)/2+i), i=0,...,2*n. This chain of terms is maximal in the sense that neither the previous term nor the following one are 1 modulo n. - _Vladimir Shevelev, Jul 01 2011
+%F A008292 From _Peter Bala_, Sep 29 2011: (Start)
+%F A008292 For k = 0,1,2,... put G(k,x,t) := x -(1+2^k*t)*x^2/2 +(1+2^k*t+3^k*t^2)*x^3/3-(1+2^k*t+3^k*t^2+4^k*t^3)*x^4/4+.... Then the series reversion of G(k,x,t) with respect to x gives an e.g.f. for the present table when k = 0 and for A008517 when k = 1.
+%F A008292 The e.g.f. B(x,t) := compositional inverse with respect to x of G(0,x,t) = (exp(x)-exp(x*t))/(exp(x*t)-t*exp(x)) = x + (1+t)*x^2/2! + (1+4*t+t^2)*x^3/3! + ... satisfies the autonomous differential equation dB/dx = (1+B)*(1+t*B) = 1 + (1+t)*B + t*B^2.
+%F A008292 Applying [Bergeron et al., Theorem 1] gives a combinatorial interpretation for the Eulerian polynomials: A(n,t) counts plane increasing trees on n vertices where each vertex has outdegree <= 2, the vertices of outdegree 1 come in 1+t colors and the vertices of outdegree 2 come in t colors. An example is given below. Cf. A008517. Applying [Dominici, Theorem 4.1] gives the following method for calculating the Eulerian polynomials: Let f(x,t) = (1+x)*(1+t*x) and let D be the operator f(x,t)*d/dx. Then A(n+1,t) = D^n(f(x,t)) evaluated at x = 0.
+%F A008292 (End)
+%F A008292 With e.g.f. A(x,t)= G[x,(t-1)]-1 in Copeland's 2008 comment, the compositional inverse is Ainv(x,t)= log(t-(t-1)/(1+x))/(t-1). - _Tom Copeland_, Oct 11 2011
+%F A008292 T(2*n+1,n+1) = (2*n+2)*T(2*n,n). (E.g., 66 = 6*11, 2416 = 8*302, ...) - _Gary Detlefs_, Nov 11 2011
+%F A008292 E.g.f.: (y -1)/(y - exp( (y-1)*x )). - _Geoffrey Critzer_, Nov 10 2012
+%F A008292 From _Peter Bala_, Mar 12 2013: (Start)
+%F A008292 Let {A(n,x)}n>=1 denote the sequence of Eulerian polynomials beginning [1, 1 + x, 1 + 4*x + x^2, ...]. Given two complex numbers a and b, the polynomial sequence defined by R(n,x) := (x+b)^n*A(n+1,(x+a)/(x+b)), n >= 0, satisfies the recurrence equation R(n+1,x) = d/dx((x+a)*(x+b)*R(n,x)). These polynomials give the row generating polynomials for several triangles in the database including A019538 (a = 0, b = 1), A156992 (a = 1, b = 1), A185421 (a = (1+i)/2, b = (1-i)/2), A185423 (a = exp(i*Pi/3), b = exp(-i*Pi/3)) and A185896 (a = i, b = -i).
+%F A008292 (End)
+%F A008292 E.g.f.: 1 + x/(T(0) - x*y), where T(k) = 1 + x*(y-1)/(1 + (k+1)/T(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Nov 07 2013
+%F A008292 From _Tom Copeland_, Sep 18 2014: (Start)
+%F A008292 A) Bivariate e.g.f. A(x,a,b)= (e^(ax)-e^(bx))/(a*e^(bx)-b*e^(ax)) = x + (a+b)*x^2/2! + (a^2+4ab+b^2)*x^3/3! + (a^3+11a^2b+11ab^2+b^3)x^4/4! + ...
+%F A008292 B) B(x,a,b)= log((1+ax)/(1+bx))/(a-b) =  x - (a+b)x^2/2 + (a^2+ab+b^2)x^3/3 - (a^3+a^2b+ab^2+a^3)x^4/4 + ... = log(1+u.*x), with (u.)^n = u_n = h_(n-1)(a,b) a complete homogeneous polynomial, is the compositional inverse of A(x,a,b) in x (see Drake, p. 56).
+%F A008292 C) A(x) satisfies dA/dx = (1+a*A)(1+b*A) and can be written in terms of a Weierstrass elliptic function (see Buchstaber & Bunkova).
+%F A008292 D) The bivariate Eulerian row polynomials are generated by the iterated derivative ((1+ax)(1+bx)d/dx)^n x evaluated at x=0 (see A145271).
+%F A008292 E) A(x,a,b)= -(e^(-ax)-e^(-bx))/(a*e^(-ax)-b*e^(-bx)), A(x,-1,-1) = x/(1+x), and B(x,-1,-1) = x/(1-x).
+%F A008292 F) FGL(x,y) = A(B(x,a,b) + B(y,a,b),a,b) = (x+y+(a+b)xy)/(1-ab*xy) is called the hyperbolic formal group law and related to a generalized cohomology theory by Lenart and Zainoulline. (End)
+%F A008292 For x > 1, the n-th Eulerian polynomial A(n,x) = (x - 1)^n * log(x) * Integral_{u>=0} (ceiling(u))^n * x^(-u) du. - _Peter Bala_, Feb 06 2015
+%F A008292 Sum_{j>=0} j^n/e^j, for n>=0, equals Sum_{k=1..n} T(n,k)e^k/(e-1)^(n+1), a rational function in the variable "e" which evaluates, approximately, to n! when e = A001113 = 2.71828... - _Richard R. Forberg_, Feb 15 2015
+%F A008292 For a fixed k, T(n,k) ~ k^n, proved by induction. - _Ran Pan_, Oct 12 2015
+%e A008292 The triangle T(n, k) begins:
+%e A008292 n\k 1    2     3      4       5       6      7     8    9 10 ...
+%e A008292 1:  1
+%e A008292 2:  1    1
+%e A008292 3:  1    4     1
+%e A008292 4:  1   11    11      1
+%e A008292 5:  1   26    66     26       1
+%e A008292 6:  1   57   302    302      57       1
+%e A008292 7:  1  120  1191   2416    1191     120      1
+%e A008292 8:  1  247  4293  15619   15619    4293    247     1
+%e A008292 9:  1  502 14608  88234  156190   88234  14608   502    1
+%e A008292 10: 1 1013 47840 455192 1310354 1310354 455192 47840 1013  1
+%e A008292 ... Reformatted. - _Wolfdieter Lang_, Feb 14 2015
+%e A008292 -----------------------------------------------------------------
+%e A008292 E.g.f. = (q) * x^1 / 1! + (q + q^2) * x^2 / 2! + (q + 4*q^2 + q^3) * x^3 / 3! + ... - _Michael Somos_, Mar 17 2011
+%e A008292 Let n=7. Then the following 2*7+1=15 consecutive terms are 1(mod 7): a(15+i), i=0..14. - _Vladimir Shevelev_, Jul 01 2011
+%e A008292 Row 3: The plane increasing 0-1-2 trees on 3 vertices (with the number of colored vertices shown to the right of a vertex) are
+%e A008292 .
+%e A008292 .   1o (1+t)         1o t         1o t
+%e A008292 .   |                / \          / \
+%e A008292 .   |               /   \        /   \
+%e A008292 .   2o (1+t)      2o     3o    3o    2o
+%e A008292 .   |
+%e A008292 .   |
+%e A008292 .   3o
+%e A008292 .
+%e A008292 The total number of trees is (1+t)^2 + t + t = 1 + 4*t + t^2.
+%p A008292 A008292 := proc(n,k) option remember; if k < 1 or k > n then 0; elif k = 1 or k = n then 1; else k*procname(n-1,k)+(n-k+1)*procname(n-1,k-1) ; end if; end proc:
+%t A008292 len = 54; m = Ceiling[2 Sqrt[len]]; t[n_, k_] = Sum[(-1)^j*(k - j)^n*Binomial[n + 1, j], {j, 0, k}]; Flatten[Table[t[n, k], {n, 1, m}, {k, 1, n}]][[1 ;; len]] (* _Jean-François Alcover_, May 31 2011, after _Michael Somos_ *)
+%t A008292 Flatten[Table[CoefficientList[(1-x)^(k+1)*PolyLog[-k, x]/x, x], {k, 1, 10}]] (* _Vaclav Kotesovec_, Aug 27 2015 *)
+%o A008292 (PARI) {T(n, k) = if( k<1 || k>n, 0, if( n==1, 1, k * T(n-1, k) + (n-k+1) * T(n-1, k-1)))}; /* _Michael Somos_, Jul 19 1999 */
+%o A008292 (PARI) {T(n, k) = sum( j=0, k, (-1)^j * (k-j)^n * binomial( n+1, j))}; /* _Michael Somos_, Jul 19 1999 */
+%o A008292 {A008292(c,n)=c^(n+c-1)+sum(i=1,c-1,(-1)^i/i!*(c-i)^(n+c-1)*prod(j=1,i,n+c+1-j))}
+%o A008292 (Haskell)
+%o A008292 import Data.List (genericLength)
+%o A008292 a008292 n k = a008292_tabl !! (n-1) !! (k-1)
+%o A008292 a008292_row n = a008292_tabl !! (n-1)
+%o A008292 a008292_tabl = iterate f [1] where
+%o A008292    f xs = zipWith (+)
+%o A008292      (zipWith (*) ([0] ++ xs) (reverse ks)) (zipWith (*) (xs ++ [0]) ks)
+%o A008292      where ks = [1 .. 1 + genericLength xs]
+%o A008292 -- _Reinhard Zumkeller_, May 07 2013
+%Y A008292 See A173018 and A123125 for other ways to index the entries of this triangle.
+%Y A008292 Cf. A000142, A006551, A008275, A008277, A014630, A025585, A027656, A030196, A049061, A055325, A084938, A087127, A169972, A180056, A180057, A242783, A242784.
+%Y A008292 Columns 2 through 8: A000295, A000460, A000498, A000505, A000514, A001243, A001244.
+%Y A008292 Cf. A062253, noting that A008292 gives the (unsigned) polynomial coefficients of (kn). Also note that taking alternating differences of rows with an odd number of terms (e.g., 1=1, -1+4-1=2, 1-26+66-26+1=16, -1+120-1191+2416-1191+120-1=272, etc.) gives A000182. - _Henry Bottomley_, Jun 15 2001
+%Y A008292 Cf. A019538 (f-vectors type A permutohedra), A047969 (Hilbert transform), A060187 (h-vectors type B permutohedra), A066094. - _Peter Bala_, Oct 26 2008
+%K A008292 nonn,tabl,nice,eigen,core
+%O A008292 1,5
+%A A008292 _N. J. A. Sloane_, Mar 15 1996
+%E A008292 Thanks to _Michael Somos_ for additional comments.
+%E A008292 Further comments from _Christian G. Bower_, May 12 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054618
+Showing 1-1 of 1
+
+%I A054618
+%S A054618 1,2,6,3,12,33,4,24,96,280,5,40,255,1040,3145,6,84,780,4200,15810,
+%T A054618 46956,7,140,2205,16408,78155,279972,823585,8,288,6672,65840,391320,
+%U A054618 1681008,5767328,16781472,9,540,19755,262296,1953405,10078164,40354335,134218800,387422001
+%N A054618 Triangle T(n,k) = sum_{d|n} phi(d)*k^(n/d).
+%H A054618 Alois P. Heinz, <a href="/A054618/b054618.txt">Rows n = 1..141, flattened</a>
+%e A054618 1;
+%e A054618 2, 6;
+%e A054618 3, 12, 33;
+%e A054618 4, 24, 96,  280;
+%e A054618 5, 40, 255, 1040, 3145;
+%e A054618 6, 84, 780, 4200, 15810, 46956;
+%e A054618 ...
+%p A054618 with(numtheory):
+%p A054618 T:= (n, k)-> add(phi(d)*k^(n/d), d=divisors(n)):
+%p A054618 seq(seq(T(n, k), k=1..n), n=1..10); # _Alois P. Heinz_, Aug 28 2013
+%t A054618 T[n_, k_] := Sum[EulerPhi[d]*k^(n/d), {d, Divisors[n]}]; Table[T[n, k], {n, 1, 10}, {k, 1, n}] // Flatten (* _Jean-François Alcover_, Feb 25 2015 *)
+%o A054618 (PARI) T(n, k) = sumdiv(n, d, eulerphi(d)*k^(n/d)); \\ _Michel Marcus_, Feb 25 2015
+%Y A054618 Cf. A054619, A054630, A054631.
+%Y A054618 Main diagonal gives: A228640.
+%K A054618 nonn,tabl
+%O A054618 1,2
+%A A054618 _N. J. A. Sloane_, Apr 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

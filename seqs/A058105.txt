@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058105
+Showing 1-1 of 1
+
+%I A058105
+%S A058105 1,1,3,9,39,201,1258,10013
+%N A058105 Number of commutative asymmetric semigroups of order n.
+%H A058105 <a href="/index/Se#semigroups">Index entries for sequences related to semigroups</a>
+%Y A058105 Cf. A001426. a(n) = A079201(n, A027423(n)).
+%K A058105 nonn,hard
+%O A058105 0,3
+%A A058105 _Christian G. Bower_, Nov 09 2000
+%E A058105 Updated Feb 19 2001. a(8) corrected Dec 26 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

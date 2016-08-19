@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034835
+Showing 1-1 of 1
+
+%I A034835
+%S A034835 1,7,196,6860,264110,10722866,450360372,19365495996,847240449825,
+%T A034835 37560993275575,1682732498745760,76028913806967520,
+%U A034835 3459315578217022160,158330213003009860400,7283189798138453578400,336483368673996555322080
+%N A034835 Expansion of 1/(1-49*x)^(1/7); related to sept-factorial numbers A045754.
+%H A034835 A. Straub, V. H. Moll, T. Amdeberhan, <a href="http://dx.doi.org/10.4064/aa140-1-2">The p-adic valuation of k-central binomial coefficients</a>, Acta Arith. 140 (1) (2009) 31-41, eq (1.10)
+%F A034835 a(n) = 7^n*A045754(n)/n!, n >= 1, A045754(n) = (7*n-6)(!^7) := product(7*j-6, j=1..n); G.f.: (1-49*x)^(-1/7).
+%Y A034835 Cf. A045754, A004993, A034829-A034834.
+%K A034835 easy,nonn
+%O A034835 0,2
+%A A034835 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

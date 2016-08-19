@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054729
+Showing 1-1 of 1
+
+%I A054729
+%S A054729 150,180,210,286,304,312,336,338,348,350,480,536,570,598,606,620,666,
+%T A054729 678,706,730,756,780,798,850,876,896,906,916,970,1014,1026,1046,1106,
+%U A054729 1144,1170,1176,1186,1188,1224,1244,1260,1320,1350,1356,1366
+%N A054729 Numbers n such that genus of modular curve X_0(N) is never equal to n.
+%H A054729 J. A. Csirik, M. Zieve, and J. Wetherell, <a href="http://arXiv.org/abs/math/0006096">On the genera of X0(N)</a>, arXiv.org:0006096.
+%Y A054729 Cf. A054726, A054728.
+%K A054729 nonn
+%O A054729 1,1
+%A A054729 Janos A. Csirik, Apr 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

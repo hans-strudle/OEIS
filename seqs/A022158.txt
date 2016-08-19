@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022158
+Showing 1-1 of 1
+
+%I A022158
+%S A022158 1,5,8,10,13,17,20,22,25,29,32,34,38,41,43,46,50,53,55,58,62,65,67,71,
+%T A022158 74,77,79,83,86,88,91,95,98,100,103,107,110,112,116,119,122,124,128,
+%U A022158 131,133,136,140,143,145,148,152,155,157,161,164,166,169,173,176
+%N A022158 First column of spectral array W(sqrt(3)).
+%H A022158 A. Fraenkel and C. Kimberling, <a href="http://dx.doi.org/10.1016/0012-365X(94)90259-3">Generalized Wythoff arrays, shuffles and interspersions</a>, Discrete Mathematics 126 (1994) 137-149.
+%o A022158 (PARI) a(n) = floor(sqrt(3)*floor(sqrt(3)*n)); \\ _Michel Marcus_, Mar 05 2014
+%Y A022158 Cf. A022159.
+%K A022158 nonn
+%O A022158 1,2
+%A A022158 _Clark Kimberling_
+%E A022158 More terms from _Michel Marcus_, Mar 05 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

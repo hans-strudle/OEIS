@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060237
+Showing 1-1 of 1
+
+%I A060237
+%S A060237 1,7,85,1660,48076,1942416,104587344,7245893376,628308907776,
+%T A060237 66687811660800,8506654697548800,1284292319599411200,
+%U A060237 226530955276874956800,46165213716463676620800
+%N A060237 n!^2 *(sum{m=1 to n} sum{k=1 to m}[1/(k m)]).
+%F A060237 a[n] = a[n-1] *n^2 + (n-1)! *n! *(sum{k=1 to n}[1/k])
+%F A060237 Sum_{n>=0} a(n)*x^n/n!^2 = -dilog(1/(1-x))/(1-x). a(n) = n!^2*Sum_{k=1..n} (-1)^(k+1)*binomial(n, k)/k^2. - _Vladeta Jovovic_, Jan 29 2005
+%e A060237 a(2) = 2!^2 *(1/(1*1) + 1/(1*2) + 1/(2*2)) = 7.
+%Y A060237 Essentially the same as A000424.
+%K A060237 easy,nonn
+%O A060237 1,2
+%A A060237 _Leroy Quet_, Mar 21 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

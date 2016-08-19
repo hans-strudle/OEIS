@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014845
+Showing 1-1 of 1
+
+%I A014845
+%S A014845 1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,
+%T A014845 0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,
+%U A014845 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014845 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,
+%W A014845 0,0,0,0,0,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,
+%X A014845 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014845 Inverse of 836th cyclotomic polynomial.
+%p A014845 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014845 sign
+%O A014845 0,1
+%A A014845 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002806
+Showing 1-1 of 1
+
+%I A002806
+%S A002806 1302540,1098240,123552,54912,10200,5108,3744,624,36,4
+%N A002806 Number of ways of getting nothing, a pair, 2 pair, 3 of a kind, other straight, other flush, full house, 4 of a kind, other straight flush, or a royal flush in 5-card poker.
+%D A002806 J. Scarne, Scarne's Complete Guide to Gambling, Simon and Schuster, 1961, p. 582.
+%H A002806 <a href="/index/Poi#poker">Index entries for sequences related to poker</a>
+%Y A002806 Cf. A002761.
+%K A002806 fini,full,nonn
+%O A002806 1,1
+%A A002806 _N. J. A. Sloane_, Koreen M Mielke (mielkk72(AT)VAXA.CIS.UWOSH.EDU)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

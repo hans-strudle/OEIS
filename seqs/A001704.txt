@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001704
+Showing 1-1 of 1
+
+%I A001704
+%S A001704 12,23,34,45,56,67,78,89,910,1011,1112,1213,1314,1415,1516,1617,1718,
+%T A001704 1819,1920,2021,2122,2223,2324,2425,2526,2627,2728,2829,2930,3031,
+%U A001704 3132,3233,3334,3435,3536,3637,3738,3839,3940,4041,4142,4243,4344,4445,4546
+%N A001704 a(n) = concatenation {n,n+1}.
+%C A001704 A010051(a(A030457(n))) = 1. - _Reinhard Zumkeller_, Jun 27 2015
+%H A001704 T. D. Noe, <a href="/A001704/b001704.txt">Table of n, a(n) for n = 1..1000</a>
+%F A001704 a(n) = n*10^{1+floor[log(n+1)]} + n + 1, with n>=1 - _Paolo P. Lava_, May 09 2008
+%p A001704 P:=proc(n) local a,i; for i from 1 by 1 to n do a:=i*10^(1+floor(evalf(log10(i+1),10)))+i+1; print(a); od; end: P(100); - _Paolo P. Lava_, May 09 2008
+%p A001704 f:=proc(i) i*10^(1+floor(evalf(log10(i+1), 10)))+i+1; end: # gives a(n) - _N. J. A. Sloane_, Aug 04 2012
+%t A001704 f[n_] := FromDigits@Flatten@IntegerDigits[{n, n+1}]; Table[f[n], {n, 100}] (* _T. D. Noe_, Aug 09 2012 *)
+%o A001704 (Haskell)
+%o A001704 a001704 n = a001704_list !! (n-1)
+%o A001704 a001704_list = map read (zipWith (++) iss $ tail iss) :: [Integer]
+%o A001704                where iss = map show [1..]
+%o A001704 -- _Reinhard Zumkeller_, Oct 07 2014
+%Y A001704 See A127421 for another version.
+%Y A001704 Cf. A215027.
+%Y A001704 Cf. A248378.
+%Y A001704 Cf. A030457, A010051.
+%K A001704 nonn,base,easy
+%O A001704 1,1
+%A A001704 _N. J. A. Sloane_.
+%E A001704 More terms from _Joshua Zucker_ and _Jon E. Schoenfield_, May 15 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

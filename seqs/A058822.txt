@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058822
+Showing 1-1 of 1
+
+%I A058822
+%S A058822 1,7,28,231,1813,13447,98105,705895,5044501,35869911,254229409,
+%T A058822 1797569767,12687856601
+%N A058822 a(0) = 1, a(1) = 7; for n>=2 a(n) is the number of degree-n monic reducible polynomials over GF(7), i.e. a(n) = 7^n - A001693(n).
+%C A058822 Dimensions of homogeneous subspaces of shuffle algebra over 7-letter alphabet (see A058766 for 2-letter case).
+%D A058822 M. Lothaire, Combinatorics on words, Cambridge mathematical library, 1983, p. 126 (definition of shuffle algebra).
+%Y A058822 Cf. A058766.
+%Y A058822 Cf. A001693.
+%K A058822 nonn
+%O A058822 0,2
+%A A058822 Claude Lenormand (claude.lenormand(AT)free.fr), Jan 04 2001
+%E A058822 Better description from Sharon Sela (sharonsela(AT)hotmail.com), Feb 19 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

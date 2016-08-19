@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061832
+Showing 1-1 of 1
+
+%I A061832
+%S A061832 0,22,44,66,88,220,242,264,286,440,462,484,660,682,880,2002,2024,2046,
+%T A061832 2068,2200,2222,2244,2266,2288,2420,2442,2464,2486,2640,2662,2684,
+%U A061832 2860,2882,4004,4026,4048,4202,4224,4246,4268,4400,4422,4444,4466,4488,4620
+%N A061832 Multiples of 11 having only even digits.
+%e A061832 264 = 11*24 is a term having all even digits.
+%Y A061832 Cf. A061829, A061830, A061831.
+%K A061832 nonn,base,easy
+%O A061832 0,2
+%A A061832 _Amarnath Murthy_, May 29 2001
+%E A061832 More terms from Larry Reeves (larryr(AT)acm.org), May 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036650
+Showing 1-1 of 1
+
+%I A036650
+%S A036650 0,1,1,1,2,3,6,10,21,42,94,204,473,1098,2633,6353,15641,38789,97416,
+%T A036650 246410,628726,1614292,4171955,10839366,28308678,74266477,195667533,
+%U A036650 517504253,1373640355,3658205088,9772510063,26181295237,70330621171
+%N A036650 Number of 5-valent trees with n nodes.
+%H A036650 E. M. Rains and N. J. A. Sloane, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On Cayley's Enumeration of Alkanes (or 4-Valent Trees).</a>, J. Integer Sequences, Vol. 2 (1999), Article 99.1.1.
+%H A036650 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%K A036650 nonn
+%O A036650 0,5
+%A A036650 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

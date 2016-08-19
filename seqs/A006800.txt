@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006800
+Showing 1-1 of 1
+
+%I A006800 M0345
+%S A006800 1,1,1,2,2,5,3,10,7,18,7,64,13,51,44,272,35,365,59,1190,235,807,187,
+%T A006800 15422,461,4221,1425,25792,1181,46236,2191
+%N A006800 Number of connected vertex-transitive graphs with n nodes.
+%D A006800 B. D. McKay, personal communication.
+%D A006800 McKay, Brendan D.; Royle, Gordon F.; The transitive graphs with at most 26 vertices. Ars Combin. 30 (1990), 161-176.
+%D A006800 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006800 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Vertex-TransitiveGraph.html">Vertex-Transitive Graph</a>
+%H A006800 Steven Skiena, <a href="http://www.cs.sunysb.edu/~skiena/combinatorica/graphs/">A Database of Graphs in Combinatorica Format</a>.
+%K A006800 nonn,nice
+%O A006800 1,4
+%A A006800 _N. J. A. Sloane_.
+%E A006800 More terms from _Vladeta Jovovic_, Jun 30 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

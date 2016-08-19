@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054628
+Showing 1-1 of 1
+
+%I A054628
+%S A054628 0,9,45,249,1665,11817,88725,683289,5381685,43046889,348684381,
+%T A054628 2852823609,23535840225,195528140649,1634056945605,13726075481049,
+%U A054628 115813764494505,981010688215689,8338590871415805,71097458824894329,607883273127192897
+%N A054628 Number of n-bead necklaces with 9 colors.
+%H A054628 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%H A054628 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Necklace.html">Necklace.</a>
+%F A054628 (1/n)*Sum_{d|n} phi(d)*9^(n/d), n>0.
+%p A054628 with(combstruct):A:=[N,{N=Cycle(Union(Z$9))},unlabeled]: seq(count(A,size=n),n=0..20); - _Zerinvary Lajos_, Dec 05 2007
+%Y A054628 Column 9 of A075195.
+%K A054628 nonn
+%O A054628 0,2
+%A A054628 _N. J. A. Sloane_, Apr 16 2000
+%E A054628 Edited by _Christian G. Bower_, Sep 07 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053294
+Showing 1-1 of 1
+
+%I A053294
+%S A053294 1,1,2,9,170,57978,6722955416,90396259057770600841
+%N A053294 a(0)=1, a(m+1)= sum{k=0 to m}[a(k)^2 a(m-k)^2].
+%e A053294 a(4)= a(0)^2 a(3)^2 +a(1)^2 a(2)^2 +a(2)^2 a(1)^2 +a(3)^2 a(0)^2= 1^2 *9^2 +1^2 *2^2 +2^2 *1^2 +9^2 *1^2= 170
+%K A053294 nonn
+%O A053294 0,3
+%A A053294 _Leroy Quet_, Mar 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

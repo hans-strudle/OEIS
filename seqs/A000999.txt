@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000999
+Showing 1-1 of 1
+
+%I A000999
+%S A000999 0,0,0,1,1,0,0,0,1,1,0,0,0,2,2,1,1,1,2,2,1,1,1,2,2,0,0,0,1,1,0,0,0,1,
+%T A000999 1,0,0,0,2,2,1,1,1,2,2,1,1,1,2,2,0,0,0,1,1,0,0,0,1,1,0,0,0,3,3,2,2,2,
+%U A000999 3,3,2,2,2,3,3,1,1,1,2,2,1,1,1,2,2,1,1
+%N A000999 5^a(n) divides C(2n,n).
+%H A000999 T. D. Noe, <a href="/A000999/b000999.txt">Table of n, a(n) for n = 0..1000</a>
+%t A000999 Table[IntegerExponent[Binomial[2*n, n], 5], {n, 0, 100}] (* _T. D. Noe_, Jun 21 2012 *)
+%o A000999 (PARI) a(n)=if(n<0,0,valuation(binomial(2*n,n),5))
+%Y A000999 Cf. A000984.
+%K A000999 nonn,easy
+%O A000999 0,14
+%A A000999 _N. J. A. Sloane_, _R. K. Guy_
+%E A000999 More terms from _Michael Somos_, Jun 27, 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

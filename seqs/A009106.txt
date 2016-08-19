@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009106
+Showing 1-1 of 1
+
+%I A009106
+%S A009106 1,0,8,216,12032,1075328,140944000,25464568832,6065774456832,
+%T A009106 1842040163078144,694620312112857088,318448731218429771776,
+%U A009106 174429761567957718302720,112504917152076237383401472
+%N A009106 Expansion of cos(x)/cos(tan(x)).
+%F A009106 a(n) ~ (2*n)! * 16 / ((4+Pi^2)^(3/2) * arctan(Pi/2)^(2*n+1)). - _Vaclav Kotesovec_, Jan 22 2015
+%t A009106 Cos[ x ]/Cos[ Tan[ x ] ] (* Even Part *)
+%t A009106 nn = 20; Table[(CoefficientList[Series[Cos[x]*Sec[Tan[x]], {x, 0, 2*nn}], x] * Range[0, 2*nn]!)[[n]], {n, 1, 2*nn+1, 2}] (* _Vaclav Kotesovec_, Jan 22 2015 *)
+%K A009106 nonn
+%O A009106 0,3
+%A A009106 _R. H. Hardin_
+%E A009106 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

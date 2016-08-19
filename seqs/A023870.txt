@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023870
+Showing 1-1 of 1
+
+%I A023870
+%S A023870 2,3,11,17,40,56,104,136,219,265,397,475,672,776,1046,1198,1561,1755,
+%T A023870 2223,2443,3026,3316,4030,4352,5215,5605,6631,7119,8318,8878,10270,
+%U A023870 10892,12499,13183,15019,15847,17930,18836,21182,22210,24837,26039,28965,30267,33504
+%N A023870 a(n) = s(1)t(n)+s(2)t(n-1)+...+s(k)t(n+1-k), where k=[ (n+1)/2 ], s = (natural numbers), t = (primes).
+%C A023870 Also, a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (natural numbers), t = (1, p(1), p(2), ... ).
+%K A023870 nonn
+%O A023870 1,1
+%A A023870 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

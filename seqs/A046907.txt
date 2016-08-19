@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046907
+Showing 1-1 of 1
+
+%I A046907
+%S A046907 1,1,1,2,7,31,184,1351,12524,146468,2177570,41374407,1008220289,
+%T A046907 31559446774,1269310589336,65562045668340,4345161435996517
+%N A046907 Number of isomorphism classes of irreducible posets with n labeled points.
+%D A046907 J. A. Wright, There are 718 6-point topologies, quasi-orderings and transgraphs, Notices Amer. Math. Soc., 17 (1970), p. 646, Abstract #70T-A106.
+%H A046907 G. Brinkmann,  B. D. McKay, <a href="http://dx.doi.org/10.1023/A:1016543307592">Posets on up to 16 Points</a>, Order 19 (2) (2002) 147-179 (Table 1)
+%H A046907 J. A. Wright, <a href="/A000798/a000798_4.pdf">Letter to N. J. A. Sloane, Apr 06 1972, listing 18 sequences</a>
+%H A046907 <a href="/index/Pos#posets">Index entries for sequences related to posets</a>
+%F A046907 G.f.: A(x) = 2-1/B(x), where B(x) is g.f. of A000112. - _Vladeta Jovovic_, Jan 15 2006
+%Y A046907 Cf. A046908.
+%K A046907 nonn
+%O A046907 0,4
+%A A046907 John A. Wright.
+%E A046907 More terms from _Vladeta Jovovic_, Jan 15 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

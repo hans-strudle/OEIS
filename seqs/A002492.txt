@@ -1,0 +1,53 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002492
+Showing 1-1 of 1
+
+%I A002492 M3562 N1444
+%S A002492 0,4,20,56,120,220,364,560,816,1140,1540,2024,2600,3276,4060,4960,
+%T A002492 5984,7140,8436,9880,11480,13244,15180,17296,19600,22100,24804,27720,
+%U A002492 30856,34220,37820,41664,45760,50116,54740,59640,64824,70300,76076,82160
+%N A002492 Sum of the first n even squares: 2*n*(n+1)*(2*n+1)/3.
+%C A002492 Total number of possible bishop moves on an n+1 X n+1 chessboard, if the bishop is placed anywhere. E.g., on a 3 X 3-Board: bishop has 8 X 2 moves and 1 X 4 moves, so a(2)=20. - Ulrich Schimke (ulrschimke(AT)aol.com)
+%C A002492 Obviously A035005(n+1) = A002492(n) + A035006(n+1) since Queen = Bishop + Rook. - _Johannes W. Meijer_, Feb 04 2010.
+%C A002492 Let M_n denote the n X n matrix M_n(i,j)=(i+j)^2; then the characteristic polynomial of M_n is x^n - a(n)x^(n-1) - .... - _Michael Somos_, Nov 14 2002
+%C A002492 0,4,20,56,120 gives the number of electrons in closed shells in the double shell periodic system of elements. This is a new interpretation of the periodic system of the elements. The factor 4 in the formula 4*n(n+1)(2n+1)/6 plays a significant role, since it designates the degeneracy of electronic states in this system. Closed shells with more than 120 electrons are not expected to exist. - Karl-Dietrich Neubert (kdn(AT)neubert.net)
+%C A002492 Inverse binomial transform of A240434. - _Wesley Ivan Hurt_, Apr 13 2014
+%C A002492 For n>2 a(n)=sum[C(n-2+k,n-2)*C(n+3-k,n) {0<=k<=3}]. - _J. M. Bergot_, Jun 14 2014
+%D A002492 A. O. Barut, Group Structure of the Periodic System, in Wybourne, Ed., The Structure of Matter, University of Canterbury Press, Christchurch, 1972, p. 126.
+%D A002492 Edward G. Mazur, Graphic Representation of the Periodic System during One Hundred Years, University of Alabama Press, Alabama, 1974
+%D A002492 D. Neubert, Double Shell Structure of the Periodic System of the Elements, Z. Naturforschung, 25A (1970) p. 210.
+%D A002492 W. Permans and J. Kemperman, "Nummeringspribleem van S. Dockx, Mathematisch Centrum. Amsterdam," Rapport ZW; 1949-005, 4 leaves, 19.8 X 34 cm.
+%D A002492 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002492 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002492 D. Suprijanto and Rusliansyah, Observation on Sums of Powers of Integers Divisible by Four, Applied Mathematical Sciences, Vol. 8, 2014, no. 45, 2219 - 2226; http://dx.doi.org/10.12988/ams.2014.4140.
+%H A002492 Vincenzo Librandi, <a href="/A002492/b002492.txt">Table of n, a(n) for n = 0..1000</a>
+%H A002492 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A002492 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550, 2013. - From N. J. A. Sloane, Feb 13 2013
+%H A002492 D. Neubert, <a href="http://www.neubert.net/PseNaturforsch/page110.pdf">Double Shell Structure of the Periodic System of the Elements</a>, Z. Naturforschung, 25A (1970) p. 210.
+%H A002492 Karl-Dietrich Neubert, <a href="http://www.neubert.net/PSEMetal.html">Double-Shell PSE: Metals - Nonmetals</a>
+%H A002492 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A002492 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A002492 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%H A002492 <a href="/index/Tu#2wis">Index entries for two-way infinite sequences</a>
+%H A002492 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A002492 G.f.: 4*x*(1+x)/(1-x)^4. a(-1-n) = -a(n).
+%F A002492 Partial sums of A016742. a(n) = binomial(2n+2, 3). - _Lekraj Beedassy_, Jun 19 2004
+%F A002492 a(n) - a(n-1) = 4*n^2. - _Joerg Arndt_, Jun 16 2011
+%F A002492 a(n)=4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4), n>3. - _Harvey P. Dale_, Aug 15 2012
+%p A002492 A002492:=4*z*(1+z)/(z-1)**4; # conjectured by _Simon Plouffe_ in his 1992 dissertation
+%p A002492 A002492:=n->2*n*(n+1)*(2*n+1)/3; seq(A002492(n), n=0..50); # _Wesley Ivan Hurt_, Apr 04 2014
+%t A002492 s = 0; lst = {s}; Do[s += n^2; AppendTo[lst, s], {n, 2, 80, 2}]; lst (* _Zerinvary Lajos_, Jul 12 2009 *)
+%t A002492 Table[2n(n+1)(2n+1)/3, {n,0,40}] (* or *) Binomial[2*Range[0,40]+2,3] (* or *) LinearRecurrence[{4,-6,4,-1}, {0,4,20,56},40] (* _Harvey P. Dale_, Aug 15 2012 *)
+%o A002492 (PARI) a(n)=2*n*(n+1)*(2*n+1)/3
+%o A002492 (MAGMA) [2*n*(n+1)*(2*n+1)/3: n in [0..40]]; // _Vincenzo Librandi_, Jun 16 2011
+%Y A002492 a(n)= (-1)^(n+1)*A053120(2*n+1, 3) (fourth unsigned column of Chebyshev T-triangle, zeros omitted).
+%Y A002492 a(n) = 4*A000330(n) = A000292(2n+1). Cf. A006331.
+%Y A002492 Cf. A033586 (King), A035005 (Queen), A035006 (Rook), A035008 (Knight) and A049450 (Pawn).
+%K A002492 nonn,easy,nice
+%O A002492 0,2
+%A A002492 _N. J. A. Sloane_
+%E A002492 Comment added, minor errors corrected and edited by _Johannes W. Meijer_, Feb 04 2010
+%E A002492 Title modified by _Charles R Greathouse IV_ on the suggestion of _J. M. Bergot_, Apr 05 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

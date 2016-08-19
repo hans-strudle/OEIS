@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010714
+Showing 1-1 of 1
+
+%I A010714
+%S A010714 4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,
+%T A010714 4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,4,9,
+%U A010714 4,9,4,9,4,9,4,9,4,9,4,9,4
+%N A010714 Period 2: repeat (4,9).
+%H A010714 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010714 a(n)=-5/2*(-1)^n+13/2 =9*(n mod 2)+4*[(n+1) mod 2] - _Paolo P. Lava_, Oct 20 2006
+%F A010714 G.f. (4+9x)/((1-x)(1+x)). - R. J. Mathar, Nov 21 2011
+%o A010714 (PARI) a(n)=4+n%2*5 \\ _Charles R Greathouse IV_, Dec 21 2011
+%Y A010714 Cf. A176219.
+%K A010714 nonn,easy
+%O A010714 0,1
+%A A010714 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

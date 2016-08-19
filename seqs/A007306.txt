@@ -1,0 +1,81 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007306
+Showing 1-1 of 1
+
+%I A007306 M0437
+%S A007306 1,1,2,3,3,4,5,5,4,5,7,8,7,7,8,7,5,6,9,11,10,11,13,12,9,9,12,13,11,10,
+%T A007306 11,9,6,7,11,14,13,15,18,17,13,14,19,21,18,17,19,16,11,11,16,19,17,18,
+%U A007306 21,19,14,13,17,18,15,13,14,11,7,8,13,17,16,19,23,22,17,19,26,29,25,24
+%N A007306 Denominators of Farey tree fractions (i.e., the Stern-Brocot subtree in the range [0,1]).
+%C A007306 Also number of odd entries in n-th row of triangle of Stirling numbers of the second kind (A008277). - _Benoit Cloitre_, Feb 28 2004
+%C A007306 Apparently (except for the first term) the number of odd entries in the alternated diagonals of Pascal's triangle at 45 degrees slope. - Javier Torres (adaycalledzero(AT)hotmail.com), Jul 26 2009
+%C A007306 The Kn3 and Kn4 triangle sums, see A180662 for their definitions, of Sierpiński's triangle A047999 equal A007306(n+1). - _Johannes W. Meijer_, Jun 05 2011
+%C A007306 From _Yosu Yurramendi_, Jun 23 2014: (Start)
+%C A007306 If the terms (n>0) are written as an array:
+%C A007306 1,
+%C A007306 2,
+%C A007306 3,  3,
+%C A007306 4,  5,  5,  4,
+%C A007306 5,  7,  8,  7,  7,  8,  7,  5,
+%C A007306 6,  9, 11, 10, 11, 13, 12,  9,  9, 12, 13, 11, 10, 11,  9,  6,
+%C A007306 7, 11, 14, 13, 15, 18, 17, 13, 14, 19, 21, 18, 17, 19, 16, 11, 11, 16, 19, 17, 18,
+%C A007306 then the sum of the k-th row is 2*3^(k-2), each column is an arithmetic progression. The differences of the arithmetic sequences give the sequence A007306 itself ( a(2^(p+1)+1+k) - a(2^p+1+k) = a(k+1), p=0,1,2,... , k=0,1,2,..., 2^p-1 ), because a(n) = A002487(2*n-1) and A002487 has these properties. A071585 also has these properties. Each row is a palindrome: a(2^(p+1)-1-k) = a(2^p+k), p=0,1,2,... , k=0,1,2,..., 2^p-1.
+%C A007306 If the terms (n>0) are written in this way:
+%C A007306 1,
+%C A007306 2, 3,
+%C A007306 3, 4,  5,  5,
+%C A007306 4, 5,  7,  8,  7,  7,  8,  7,
+%C A007306 5, 6,  9, 11, 10, 11, 13, 12,  9,  9, 12, 13, 11, 10, 11,  9,
+%C A007306 6, 7, 11, 14, 13, 15, 18, 17, 13, 14, 19, 21, 18, 17, 19, 16, 11, 11, 16, 19,
+%C A007306 each column is an arithmetic progression and the steps also are A007306 itself ( a(2^(p+1)+k) - a(2^p+k) = a(k), p=0,1,2,... , k=0,1,2,..., 2^p-1 ). Morever, by removing the first term of each column:
+%C A007306 a(2^(p+1)+k) = A049448(2^p+k+1), k=0,1,2,..., 2^p-1 , p=0,1,2,... .
+%C A007306 (End)
+%C A007306 k>1 occurs in this sequence phi(k) = A000010(k) times. - _Franklin T. Adams-Watters_, May 25 2015
+%C A007306 Except for the initial one, this is the odd bisection of A002487. The even bisection of A002487 is A002487 itself. - _Franklin T. Adams-Watters_, May 25 2015
+%D A007306 P. Bachmann, Niedere Zahlentheorie (1902, 1910), reprinted Chelsea, NY, 1968, vol. 2, p. 61.
+%D A007306 L. E. Dickson, History of the Theory of Numbers. Carnegie Institute Public. 256, Washington, DC, Vol. 1, 1919; Vol. 2, 1920; Vol. 3, 1923, see vol. 1, p. 158.
+%D A007306 J. C. Lagarias, Number Theory and Dynamical Systems, pp. 35-72 of S. A. Burr, ed., The Unreasonable Effectiveness of Number Theory, Proc. Sympos. Appl. Math., 46 (1992). Amer. Math. Soc.
+%D A007306 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007306 Alois P. Heinz, <a href="/A007306/b007306.txt">Table of n, a(n) for n = 0..10000</a>
+%H A007306 Alexander Bogomolny, <a href="http://www.cut-the-knot.org/blue/Stern.shtml">Stern-Brocot tree</a>
+%H A007306 G. Melancon, <a href="http://dx.doi.org/10.1016/S0012-365X(99)00123-5">Lyndon factorization of sturmian words</a>, Discr. Math., 210 (2000), 137-149.
+%H A007306 N. J. A. Sloane, <a href="/stern_brocot.html">Stern-Brocot or Farey Tree</a>
+%H A007306 Javier Torres Suarez, <a href="http://www.youtube.com/watch?v=__Re3zKM9n8&amp;feature=related">Number theory - geometric connection (part 2)</a> (YouTube video that mentions this sequence - link sent by Pacha Nambi, Aug 26 2009)
+%H A007306 <a href="/index/St#Stern">Index entries for sequences related to Stern's sequences</a>
+%F A007306 For n > 0, a(n) = A002487(n-1) + A002487(n) = A002487(2*n-1).
+%F A007306 a(0) = 1; a(n) = sum_{k=0..n-1} C(n-1+k, n-1-k) mod 2, n > 0. - _Benoit Cloitre_, Jun 20 2003
+%F A007306 a(n+1) = sum_{k=0..n} binomial(2*n-k, k) mod 2; a(n) = 0^n + sum(k = 0..n-1, binomial(2(n-1)-k, k) mod 2 ). - _Paul Barry_, Dec 11 2004
+%F A007306 a(n) = sum_{k=0..n} C(n+k,2*k) mod 2. - _Paul Barry_, Jun 12 2006
+%F A007306 a(0) = a(1) = 1; a(n) = a(A003602(n-1)) + a(A003602(n)), n > 1. - _Alessandro De Luca_, May 08 2014
+%F A007306 a(n) = A007305(n+(2^m-1)), m=A029837(n), n=1,2,3,... . - _Yosu Yurramendi_, Jul 04 2014
+%F A007306 a(n) = A007305(2^(m+1)-n) - A007305(2^m-n), m>=(A029837(n)+1), n=1,2,3,... - _Yosu Yurramendi_, Jul 05 2014
+%F A007306 a(2^m) = m+1, a(2^m+1) = m+2 for m>=0. - _Yosu Yurramendi_, Jan 01 2015
+%F A007306 a(n+2) = A007305(n+2) + A047679(n) n >= 0. - _Yosu Yurramendi_, Mar 30 2016
+%e A007306 [ 0/1; 1/1; ] 1/2; 1/3, 2/3; 1/4, 2/5, 3/5, 3/4; 1/5, 2/7, 3/8, 3/7, 4/7, 5/8, 5/7, 4/5; ...
+%p A007306 A007306 := proc(n): if n=0 then 1 else A002487(2*n-1) fi: end: A002487 := proc(m) option remember: local a, b, n; a := 1; b := 0; n := m; while n>0 do if type(n, odd) then b := a + b else a := a + b end if; n := floor(n/2); end do; b; end proc: seq(A007306(n),n=0..77); # _Johannes W. Meijer_, Jun 05 2011
+%t A007306 a[0] = 1; a[n_] := Sum[ Mod[ Binomial[n+k-1, 2k] , 2], {k, 0, n}]; Table[a[n], {n, 0, 77}] (* _Jean-François Alcover_, Dec 16 2011, after _Paul Barry_ *)
+%o A007306 (PARI) {a(n) = if( n<1, n==0, n--; sum( k=0, n, binomial( n+k, n-k)%2))}
+%o A007306 (PARI) {a(n) = local(m); if( n<2, n>=0, m=2^length( binary( n-1)); a(n -m/2) + a(m-n+1))} /* _Michael Somos_, May 30 2005 */
+%o A007306 (Sage)
+%o A007306 @CachedFunction
+%o A007306 def a(n):
+%o A007306     return a((odd_part(n-1)+1)/2)+a((odd_part(n)+1)/2) if n>1 else 1
+%o A007306 [a(n) for n in (0..77)] # after _Alessandro De Luca_, _Peter Luschny_, May 20 2014
+%o A007306 (R)
+%o A007306 maxrow <- 6 # by choice
+%o A007306 a <- c(1,2)
+%o A007306 for(m in 0:maxrow) for(k in 1:2^m){
+%o A007306   a[2^(m+1)+k  ] <- a[2^m+k] + a[k]
+%o A007306   a[2^(m+1)-k+1] <- a[2^m+k]
+%o A007306 }
+%o A007306 a
+%o A007306 # _Yosu Yurramendi_, Jan 05 2015
+%Y A007306 Cf. A007305, A002487, A006842, A006843, A047679, A054424, A065674-A065675, A065810.
+%K A007306 nonn,frac,tabf,nice
+%O A007306 0,3
+%A A007306 _N. J. A. Sloane_
+%E A007306 Formula fixed and extended by _Franklin T. Adams-Watters_, Jul 07 2009
+%E A007306 Incorrect Maple program removed by _Johannes W. Meijer_, Jun 05 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

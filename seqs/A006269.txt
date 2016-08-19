@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006269
+Showing 1-1 of 1
+
+%I A006269 M4028
+%S A006269 5,140,2744420,20670535451567121260,
+%T A006269 8831921094058107711185956797335984862612406515067837739780
+%N A006269 A continued cotangent.
+%D A006269 Shallit, Jeffrey; Predictable regular continued cotangent expansions. J. Res. Nat. Bur. Standards Sect. B 80B (1976), no. 2, 285-290.
+%D A006269 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A006269 Contribution from _Artur Jasinski_, Oct 03 2008: (Start)
+%F A006269 Recurrence: a(n+1)=a(n)^3+3*a(n) and a(0)=5
+%F A006269 or
+%F A006269 a(n)=Table[Round[(5/2 + Sqrt[29]/2)^(3^(n - 1))], {n, 1, 8}] (*Artur Jasinski*) (End)
+%t A006269 Contribution from _Artur Jasinski_, Oct 03 2008: (Start)
+%t A006269 a = {}; k = 5; Do[AppendTo[a, k]; k = k^3 + 3 k, {n, 1, 8}]; a
+%t A006269 or
+%t A006269 Table[Round[(5/2 + Sqrt[29]/2)^(3^(n - 1))], {n, 1, 8}] (*Artur Jasinski*) (End)
+%t A006269 NestList[#^3+3#&,5,5] (* _Harvey P. Dale_, Feb 14 2013 *)
+%K A006269 nonn
+%O A006269 0,1
+%A A006269 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

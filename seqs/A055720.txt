@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055720
+Showing 1-1 of 1
+
+%I A055720
+%S A055720 3,4,10,15,28,35,54,55,63,64,65,85,95,98,100,115,125,135,144,145,147,
+%T A055720 155,156,175,176,185,189,205,215,234,235,245,260,265,295,297,305,335,
+%U A055720 336,351,355,364,365,395,400,408,415,416,445,459,485
+%N A055720 Numbers n such that d(n)+1 | n.
+%C A055720 Integers divisible by 1 more than the number of their divisors. The only prime is 3.
+%C A055720 These numbers cannot be very orderly numbers (A167409). - _T. D. Noe_, Nov 13 2009
+%t A055720 Select[Range[1000], Mod[ #, 1 + DivisorSigma[0, # ]] == 0 &]
+%K A055720 nonn
+%O A055720 1,1
+%A A055720 _Robert G. Wilson v_, Jun 09 2000
+%E A055720 Edited by _T. D. Noe_, Nov 13 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

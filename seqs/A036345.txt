@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036345
+Showing 1-1 of 1
+
+%I A036345
+%S A036345 4,16,30,60,70,72,84,220,240,256,286,288,308,378,440,450,476,528,540,
+%T A036345 560,576,594,624,646,648,728,800,884,900,960,1040,1056,1080,1160,1170,
+%U A036345 1248,1276,1404,1456,1496,1530,1748,1776,1798,1824,1976,2322,2408,2464
+%N A036345 Divisible by its 'even' sum of prime factors (counted with multiplicity).
+%H A036345 Harvey P. Dale, <a href="/A036345/b036345.txt">Table of n, a(n) for n = 0..1000</a>
+%e A036345 646 = 2*17*19 -> sum = 2+17+19 = 38 (=even) so 38 divides 646 exactly.
+%t A036345 dspfQ[n_]:=Module[{spf=Total[Times@@@FactorInteger[n]]},EvenQ[spf] && Divisible[n,spf]]; Select[Range[4,2500,2],dspfQ] (* _Harvey P. Dale_, Oct 06 2011 *)
+%Y A036345 Cf. A046346, A036346.
+%K A036345 nonn,base
+%O A036345 0,1
+%A A036345 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

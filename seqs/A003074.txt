@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003074
+Showing 1-1 of 1
+
+%I A003074
+%S A003074 0,0,1,1,1,1,1,1,1,2,2,2,2,2,2,2,3,3,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5,5,
+%T A003074 5,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,9,9,9,9,10,10,
+%U A003074 10,10,10,10,10,11,11,11,11,11,11,11,12,13,13,13,13,13,13,13,13,13,13,13,14,14
+%N A003074 Number of different numbers <= n that are sums of 3 positive cubes.
+%D A003074 H. Davenport, Sums of three positive cubes, J. London Math. Soc., 25 (1950), 339-343. Coll. Works III p. 999.
+%Y A003074 Cf. A003072.
+%K A003074 nonn
+%O A003074 1,10
+%A A003074 _N. J. A. Sloane_, _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039763
+Showing 1-1 of 1
+
+%I A039763
+%S A039763 1,1,0,1,2,1,1,6,11,6,1,12,50,84,45,1,20,150,520,809,420,1,
+%T A039763 30,355,2100,6439,9390,4725,1,42,721,6510,33019,92358,127539,
+%U A039763 62370,1,56,1316,16856,127694,578984,1505524,1984584,945945,1,72,2220,38304,405174
+%V A039763 1,1,0,1,-2,1,1,-6,11,-6,1,-12,50,-84,45,1,-20,150,-520,809,-420,1,
+%W A039763 -30,355,-2100,6439,-9390,4725,1,-42,721,-6510,33019,-92358,127539,
+%X A039763 -62370,1,-56,1316,-16856,127694,-578984,1505524,-1984584,945945,1,-72,2220,-38304,405174
+%N A039763 Triangle of D-analogs of Stirling numbers of first kind.
+%H A039763 R. Suter, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/SUTER/sut1.html">Two analogues of a classical sequence</a>, J. Integer Sequences, Vol. 3 (2000), #P00.1.8.
+%e A039763 {1};
+%e A039763 {1,0};
+%e A039763 {1,-2,1};
+%e A039763 {1,-6,11,-6};
+%e A039763 {1,-12,50,-84,45};
+%e A039763 ...
+%Y A039763 Cf. A039762 (transposed triangle).
+%K A039763 tabl,sign
+%O A039763 0,5
+%A A039763 Ruedi Suter (suter(AT)math.ethz.ch)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

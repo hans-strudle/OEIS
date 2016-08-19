@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038257
+Showing 1-1 of 1
+
+%I A038257
+%S A038257 1,6,3,36,36,9,216,324,162,27,1296,2592,1944,648,81,7776,19440,19440,
+%T A038257 9720,2430,243,46656,139968,174960,116640,43740,8748,729,279936,
+%U A038257 979776,1469664,1224720,612360,183708,30618,2187,1679616
+%N A038257 Triangle whose (i,j)-th entry is binomial(i,j)*6^(i-j)*3^j.
+%D A038257 B. N. Cyvin et al., Isomer enumeration of unbranched catacondensed polygonal systems with pentagons and heptagons, Match, No. 34 (Oct 1996), pp. 109-121.
+%K A038257 nonn,tabl,easy
+%O A038257 0,2
+%A A038257 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

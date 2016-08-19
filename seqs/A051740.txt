@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051740
+Showing 1-1 of 1
+
+%I A051740
+%S A051740 1,11,45,125,280,546,966,1590,2475,3685,5291,7371,10010,13300,17340,
+%T A051740 22236,28101,35055,43225,52745,63756,76406,90850,107250,125775,146601,
+%U A051740 169911,195895,224750,256680,291896,330616,373065,419475,470085,525141
+%N A051740 Partial sums of A007584.
+%C A051740 Convolution of A000027 with A001106 (excluding 0). - _Bruno Berselli_, Dec 07 2012
+%D A051740 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%D A051740 Murray R.Spiegel, Calculus of Finite Differences and Difference Equations, "Schaum's Outline Series", McGraw-Hill, 1971, pps. 10-20, 79-94.
+%H A051740 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%F A051740 a(n) = C(n+3, 3)*(7n+4)/4.
+%F A051740 a(n) = (7*n+4)*binomial(n+3, 3)/4.
+%F A051740 G.f.: (1+6*x)/(1-x)^5.
+%t A051740 f[n_]:=7*n+1; s1=s2=s3=0;lst={};Do[a=f[n];s1+=a;s2+=s1;s3+=s2;AppendTo[lst,s3],{n,0,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jun 25 2009 *)
+%o A051740 (MAGMA) /* A000027 convolved with A001106 (excluding 0): */ A001106:=func<n | n*(7*n-5)/2>; [&+[(n-i+1)*A001106(i): i in [1..n]]: n in [1..36]]; // _Bruno Berselli_, Dec 07 2012
+%Y A051740 Cf. A001106, A007584.
+%Y A051740 Cf. A093564 ((7, 1) Pascal, column m=4).
+%Y A051740 Cf. A220212 for a list of sequences produced by the convolution of the natural numbers with the k-gonal numbers.
+%K A051740 nonn,easy
+%O A051740 0,2
+%A A051740 _Barry E. Williams_, Dec 07 1999
+%E A051740 More terms from _James A. Sellers_, Dec 08 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

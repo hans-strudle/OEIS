@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003969
+Showing 1-1 of 1
+
+%I A003969
+%S A003969 1,4,5,13,7,20,9,40,21,28,13,65,15,36,35,121,19,84,21,91,45,52,25,200,
+%T A003969 43,60,85,117,31,140,33,364,65,76,63,273,39,84,75,280,43,180,45,169,
+%U A003969 147,100,49,605,73,172,95,195,55,340,91,360,105,124,61,455,63,132,189
+%N A003969 Inverse Möbius transform of A003959.
+%F A003969 Multiplicative with a(p^e) = ((p+1)^(e+1)-1)/p. - _David W. Wilson_, Sep 01 2001
+%K A003969 nonn,mult
+%O A003969 1,2
+%A A003969 _Marc LeBrun_
+%E A003969 More terms from _David W. Wilson_, Aug 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

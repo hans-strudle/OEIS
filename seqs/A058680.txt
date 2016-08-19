@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058680
+Showing 1-1 of 1
+
+%I A058680
+%S A058680 1,3,2,3,3,5,5,9,8,14,14,23,22
+%V A058680 1,-3,-2,-3,-3,-5,-5,-9,-8,-14,-14,-23,-22
+%N A058680 McKay-Thompson series of class 44a for Monster.
+%D A058680 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058680 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058680 T44a = 1/q - 3*q - 2*q^3 - 3*q^5 - 3*q^7 - 5*q^9 - 5*q^11 - 9*q^13 - 8*q^15 - ...
+%Y A058680 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058680 sign
+%O A058680 -1,2
+%A A058680 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

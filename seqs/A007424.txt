@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007424
+Showing 1-1 of 1
+
+%I A007424 M0060
+%S A007424 1,1,1,2,1,1,1,2,2,1,1,2,1,1,1,2,1,2,1,2,1,1,1,2,2,1,2,2,1,1,1,2,1,1,
+%T A007424 1,2,1,1,1,2,1,1,1,2,2,1,1,2,2,2,1,2,1,2,1,2,1,1,1,2,1,1,2,2,1,1,1,2,
+%U A007424 1,1,1,2,1,1,2,2,1,1,1,2,2,1,1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,2,2,2
+%N A007424 a(n) = 1 if n is squarefree, otherwise 2.
+%D A007424 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%t A007424 f[n_]:=Union[Last/@FactorInteger[n]][[ -1]];lst={1};Do[If[f[n]==1,AppendTo[lst,1],AppendTo[lst,2]],{n,2,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Mar 07 2010 *)
+%t A007424 Table[If[SquareFreeQ[n],1,2],{n,100}] (* _Harvey P. Dale_, Jul 09 2014 *)
+%o A007424 (MuPAD) func(2-abs(numlib::moebius(n)), n):
+%K A007424 easy,nonn
+%O A007424 1,4
+%A A007424 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

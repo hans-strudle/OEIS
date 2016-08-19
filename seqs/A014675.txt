@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014675
+Showing 1-1 of 1
+
+%I A014675
+%S A014675 2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,2,1,
+%T A014675 2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,2,1,
+%U A014675 2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2
+%N A014675 The infinite Fibonacci word (start with 1, apply 1->2, 2->21, take limit).
+%C A014675 The limiting mean and variance of the first n terms are both equal to the golden ratio (A001622). - _Clark Kimberling_, Mar 12 2014
+%C A014675 Let F = A000045 (Fibonacci numbers).  For n >= 3, the first F(n)-2 terms of A014675 form a palindrome; see A001911.  If k is not one of the numbers F(n)-2, then the first k terms of A014675 do not form a palindrome. - _Clark Kimberling_, Jul 14 2014
+%C A014675 First differences of A000201. - _Tom Edgar_, Apr 23 2015
+%D A014675 D. Gault and M. Clint, "Curiouser and curiouser" said Alice. Further reflections on an interesting recursive function, Internat. J. Computer Math., 26 (1988), 35-43. See Table 2.
+%D A014675 D. E. Knuth, The Art of Computer Programming, Vol. 4A, Section 7, p. 36.
+%D A014675 G. Melancon, Factorizing infinite words using Maple, MapleTech journal, vol. 4, no. 1, 1997, pp. 34-42, esp. p. 36.
+%H A014675 T. D. Noe, <a href="/A014675/b014675.txt">Table of n, a(n) for n=0..10945</a> (20 iterations)
+%H A014675 M. Bunder and K. Tognetti, <a href="http://dx.doi.org/10.1016/S0012-365X(01)00147-9">On the self matching properties of [j tau]</a>, Discrete Math., 241 (2001), 139-151.
+%H A014675 J. Grytczuk, <a href="http://dx.doi.org/10.1016/0012-365X(95)00297-A">Infinite semi-similar words</a>, Discrete Math. 161 (1996), 133-141.
+%H A014675 G. Melancon, <a href="http://dx.doi.org/10.1016/S0012-365X(99)00123-5">Lyndon factorization of sturmian words</a>, Discr. Math., 210 (2000), 137-149.
+%F A014675 Define strings S(0)=1, S(1)=2, S(n)=S(n-1).S(n-2) for n>=2. Sequence is S(infinity).
+%F A014675 a(n) = floor((n+2)*phi) - floor((n+1)*phi) = A000201(n+2) - A000201(n+1), phi = (1 + sqrt(5))/2.
+%p A014675 Digits := 50: t := evalf( (1+sqrt(5))/2); A014675 := n->floor((n+2)*t)-floor((n+1)*t);
+%t A014675 Nest[ Flatten[ # /. {1 -> 2, 2 -> {2, 1}}] &, {1}, 11] (* _Robert G. Wilson v_ *)
+%Y A014675 This is the 1, 2 version. The standard form is A003849. See also A005614.
+%Y A014675 Cf. A082389, A008351, A000045, A001622, A001911, A000201..
+%Y A014675 Differs from A025143 in many entries starting at entry 8. Same as A001468 if an initial 1 is added.
+%K A014675 nonn,easy,nice
+%O A014675 0,1
+%A A014675 _N. J. A. Sloane_.
+%E A014675 Corrected by _N. J. A. Sloane_, Nov 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

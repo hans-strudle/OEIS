@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054051
+Showing 1-1 of 1
+
+%I A054051
+%S A054051 1,9,119,2662,79154,2962062,132536919,6904606698,410379198542,
+%T A054051 27406396140548,2031843175944876,165592123280454675,
+%U A054051 14715292998356150461,1416127682894394114138,146723247630856311651736
+%N A054051 Number of nonisomorphic connected binary n-state automata.
+%C A054051 Inverse Euler transform of A054050.
+%D A054051 F. Harary and E. Palmer, Graphical Enumeration, 1973.
+%D A054051 M. A. Harrison, A census of finite automata, Canad. J. Math., 17, No. 1, 1965, p. 110.
+%H A054051 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%Y A054051 Cf. A054745, A054746.
+%K A054051 nonn
+%O A054051 1,2
+%A A054051 _Vladeta Jovovic_, Apr 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

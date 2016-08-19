@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044480
+Showing 1-1 of 1
+
+%I A044480
+%S A044480 22,47,72,97,114,122,147,172,197,222,239,247,272,297,322,347,364,372,
+%T A044480 397,422,447,472,489,497,522,547,574,597,614,622,647,672,697,722,739,
+%U A044480 747,772,797,822,847,864,872,897,922,947,972
+%N A044480 Numbers n such that string 4,2 occurs in the base 5 representation of n but not of n+1.
+%t A044480 Select[Range[1000],MemberQ[Partition[IntegerDigits[#,5],2,1], {4,2}]&&!MemberQ[Partition[IntegerDigits[#+1,5],2,1], {4,2}]&]  (* _Harvey P. Dale_, Mar 13 2011 *)
+%K A044480 nonn,base
+%O A044480 1,1
+%A A044480 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022222
+Showing 1-1 of 1
+
+%I A022222
+%S A022222 1,1555,2072815,2698853335,3500412775495,4537117983992551,
+%T A022222 5880230843762528935,7620806375898728694055,9876570938882852540717095,
+%U A022222 12800037205947411879866507815,16588848493045381066264096333351
+%N A022222 Gaussian binomial coefficients [ n,4 ] for q = 6.
+%o A022222 (Sage) [gaussian_binomial(n,4,6) for n in xrange(4,15)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A022222 nonn
+%O A022222 0,2
+%A A022222 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

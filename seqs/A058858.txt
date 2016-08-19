@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058858
+Showing 1-1 of 1
+
+%I A058858
+%S A058858 1,2,8,18,42,66,69,84,1138,1935,3828,9464
+%N A058858 Numbers n such that n divides the sum of the first n unique partition numbers (A000009).
+%t A058858 s = 0; Do[ s = s + PartitionsQ[ n ]; If[ Mod[ s, n ] == 0, Print[ n ] ], { n, 1, 8000} ]
+%K A058858 nonn
+%O A058858 1,2
+%A A058858 _Robert G. Wilson v_, Jan 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

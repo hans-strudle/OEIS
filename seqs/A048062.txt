@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048062
+Showing 1-1 of 1
+
+%I A048062
+%S A048062 0,0,0,0,0,0,0,6,7,21,24,76,90,270,325,945,1155,3311,4102,11611,14547,
+%T A048062 40755,51555,143227,182703,503943,647548,1775092,2295646,6259162,
+%U A048062 8141055,22092135,28881463
+%N A048062 Number of nonempty subsets of {1,2,...,n} in which exactly 2/3 of the elements are <= (n-4)/2.
+%K A048062 nonn
+%O A048062 1,8
+%A A048062 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

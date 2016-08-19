@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060819
+Showing 1-1 of 1
+
+%I A060819
+%S A060819 1,1,3,1,5,3,7,2,9,5,11,3,13,7,15,4,17,9,19,5,21,11,23,6,25,13,27,7,
+%T A060819 29,15,31,8,33,17,35,9,37,19,39,10,41,21,43,11,45,23,47,12,49,25,51,
+%U A060819 13,53,27,55,14,57,29,59,15,61,31,63,16,65,33,67,17,69,35,71,18,73,37,75,19
+%N A060819 a(n) = n / gcd(n,4).
+%C A060819 a(n) = A167192(n+4,4). - _Reinhard Zumkeller_, Oct 30 2009
+%C A060819 a(n) = Numerator(sum(1/((k+1)*(k+2)),k=1..n)). This summation has a closed form of 1/2-1/(n+2) and denominator of A145979(n). - _Gary Detlefs_, Sep 16 2011
+%C A060819 a(n) = n / A109008(n). - _Reinhard Zumkeller_, Nov 25 2013
+%H A060819 Harry J. Smith, <a href="/A060819/b060819.txt">Table of n, a(n) for n=1,...,1000</a>
+%H A060819 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,2,0,0,0,-1).
+%F A060819 G.f.: (x^7+x^6+3*x^5+x^4+3*x^3+x^2+x)/(1-x^4)^2.
+%F A060819 a(n) = 2*a(n-4) - a(n-8).
+%F A060819 a(n) = n/16*(11-5*(-1)^n-i^n-(-i)^n). - _Ralf Stephan_, Mar 15 2003
+%F A060819 a(2*n+1) = a(4*n+2) = 2*n+1, a(4*n+4) = n+1. - _Ralf Stephan_, Jun 10 2005
+%F A060819 Multiplicative with a(2^e) = 2^max(0, e-2), a(p^e) = p^e, p >= 3 - _Mitch Harris_, Jun 29 2005
+%F A060819 a(n) = A109045(n)/4. Dirichlet g.f. zeta(s-1)*(1-1/2^s-1/2^(2s)). - _R. J. Mathar_, Apr 18 2011
+%F A060819 a(n+4) - a(n) = A176895(n).  - _Paul Curtz_, Apr 05 2011
+%F A060819 a((2*n-1)*2^p) = ceil(2^(p-2))*(2*n-1), p >= 0 and n >= 1. - _Johannes W. Meijer_, Feb 06 2013
+%p A060819 A060819 := n -> numer(1/2-1/(n+2)): seq(A060819(n),n=1..75); # [_Gary Detlefs_, Sep 16 2011]
+%t A060819 f[n_] := n/GCD[n, 4]; Array[f, 76]
+%o A060819 (Sage) [lcm(n,4)/4for n in xrange(1, 77)] # [From _Zerinvary Lajos_, Jun 07 2009]
+%o A060819 (PARI) { for (n=1, 1000, write("b060819.txt", n, " ", n / gcd(n, 4)); ) } [_Harry J. Smith_, Jul 12 2009]
+%o A060819 (Haskell)
+%o A060819 a060819 n = n `div` a109008 n  -- _Reinhard Zumkeller_, Nov 25 2013
+%Y A060819 Cf. A026741, A051176, A060791, A060789.  A061037, A061038, A220466.
+%K A060819 nonn,easy,mult
+%O A060819 1,3
+%A A060819 _Len Smiley_, Apr 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

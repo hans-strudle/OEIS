@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019563
+Showing 1-1 of 1
+
+%I A019563
+%S A019563 1,98,1666,12642,59906,209762,596610,1459810,3188738,6376034,11879042,
+%T A019563 20889442,35011074,56345954,87588482,132127842,194158594,278799458,
+%U A019563 392220290,541777250,736156162,985524066
+%N A019563 Coordination sequence for C_7 lattice.
+%D A019563 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%F A019563 G.f.: (1+91*x+1001*x^2+3003*x^3+3003*x^4+1001*x^5+91*x^6+x^7)/(1-x)^7.
+%K A019563 nonn
+%O A019563 0,2
+%A A019563 mbaake(AT)sunelc3.tphys.physik.uni-tuebingen.de (Michael Baake)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

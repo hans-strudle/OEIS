@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007145
+Showing 1-1 of 1
+
+%I A007145 M3605
+%S A007145 1,0,1,4,24,193,2420,47912,1600524,93253226,9694177479,1822463625183,
+%T A007145 625829508087155,395785845695978077,464137111800208818956,
+%U A007145 1015091598240432264958267,4160447480034069826186309689
+%N A007145 Number of rooted bridgeless graphs with n nodes.
+%D A007145 P. Hanlon and R. W. Robinson, Counting bridgeless graphs, J. Combin. Theory, B 33 (1982), 276-305.
+%D A007145 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007145 R. J. Mathar, <a href="/A007145/b007145.txt">Table of n, a(n) for n = 1..23</a>
+%Y A007145 Cf. A007146.
+%K A007145 nonn,easy,nice
+%O A007145 1,4
+%A A007145 _N. J. A. Sloane_.
+%E A007145 Reference gives first 22 terms.
+%E A007145 More terms from _R. J. Mathar_, Jun 06 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

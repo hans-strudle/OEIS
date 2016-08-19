@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032566
+Showing 1-1 of 1
+
+%I A032566
+%S A032566 1,1,1,1,1,1,1,1,1,4,8,8,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,13,13,24,22,
+%T A032566 24,24,24,24,24,36,36,33,38,36,39,57,66,65,106,104,113,116,190,169,
+%U A032566 162,199,192,199,198,196,323,316
+%N A032566 Quotient of 'base 17' division described in A032565.
+%Y A032566 Cf. A032565. See also A032563 for explanation.
+%K A032566 nonn,hard,base
+%O A032566 0,10
+%A A032566 _Patrick De Geest_, april 1998.
+%E A032566 More terms from Larry Reeves (larryr(AT)acm.org), Oct 02 2000
+%E A032566 The next term has an A032565 value > 2.4*10^11
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

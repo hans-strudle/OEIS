@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044739
+Showing 1-1 of 1
+
+%I A044739
+%S A044739 26,126,226,269,326,426,526,626,726,826,926,1026,1126,1226,1269,1326,
+%T A044739 1426,1526,1626,1726,1826,1926,2026,2126,2226,2269,2326,2426,2526,
+%U A044739 2699,2726,2826,2926,3026,3126,3226,3269,3326,3426
+%N A044739 Numbers n such that string 2,6 occurs in the base 10 representation of n but not of n+1.
+%K A044739 nonn,base
+%O A044739 1,1
+%A A044739 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

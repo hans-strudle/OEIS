@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015228
+Showing 1-1 of 1
+
+%I A015228
+%S A015228 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,
+%T A015228 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,
+%U A015228 1,1,1,1,1,1,1,1,1,1,1,1,1,0
+%V A015228 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,
+%W A015228 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+%X A015228 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0
+%N A015228 Inverse of 1219th cyclotomic polynomial.
+%p A015228 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015228 sign
+%O A015228 0,1
+%A A015228 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

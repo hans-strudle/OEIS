@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007354
+Showing 1-1 of 1
+
+%I A007354 M2101
+%S A007354 2,17,131,227,733,829,929,997,1097,1123,1237,1277,1447,1487,1531,1627,
+%T A007354 1811,1907,1993,2141,2203,2267,2441,2677,2707,3209,3299,3433,3547,3853
+%N A007354 Where prime race among 7n+1, ..., 7n+6 changes leader.
+%D A007354 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007354 T. D. Noe, <a href="/A007354/b007354.txt">Table of n, a(n) for n=1..1000</a>
+%K A007354 nonn
+%O A007354 1,1
+%A A007354 _N. J. A. Sloane_, _Mira Bernstein_, _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056200
+Showing 1-1 of 1
+
+%I A056200
+%S A056200 1,1,4,5,26,22,120,149,418,716,2036,2378,8178,12846,29294,50709,
+%T A056200 131054,193972,524268,843260,1979520,3488618,8388584,13190042,
+%U A056200 33501276,56707912,129527950,227113934,536870882,887838482,2147483616
+%N A056200 2^n-A056045(n)
+%e A056200 If n is a prime p then a(n)=2^n-p-1. If p=7,a(7)=120.
+%K A056200 nonn
+%O A056200 1,3
+%A A056200 _Labos Elemer_, Aug 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

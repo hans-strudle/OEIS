@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055050
+Showing 1-1 of 1
+
+%I A055050
+%S A055050 3,7,11,12,15,19,23,27,28,31,35,39,43,44,47,48,51,55,59,60,63,67,71,
+%T A055050 75,76,79,83,87,91,92,95,99,103,107,108,111,112,115,119,123,124,127,
+%U A055050 131,135,139,140,143,147,151,155,156,159,163,167,171,172
+%N A055050 Numbers of the form 4^i*(8*j+3) or 4^i*(8*j+7).
+%C A055050 The numbers not of the form x^2+y^2+4z^2.
+%D A055050 M. A. Bennett and B. Reznick, Positive rational solutions to x^y = y^{mx} ..., Amer. Math. Monthly, 111 (No. 1, 2004), 13-21.
+%D A055050 L. J. Mordell, A new Waring's problem with squares of linear forms, Quart. J. Math., 1 (1930), 276-288 (see p. 283).
+%K A055050 nonn
+%O A055050 1,1
+%A A055050 _N. J. A. Sloane_, Jun 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

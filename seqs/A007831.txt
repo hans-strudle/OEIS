@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007831
+Showing 1-1 of 1
+
+%I A007831
+%S A007831 1,0,1,1,16,61,806,6329,89272,1082281,17596162,284074165,5407229972,
+%T A007831 107539072733,2380274168806,55833426732529,1418006883852784,
+%U A007831 38195636967960913,1097755724834189834,33345176998235584301
+%N A007831 Number of edge-labeled series-reduced trees with n nodes.
+%H A007831 P. J. Cameron, <a href="http://www.combinatorics.org/Volume_2/volume2.html#R4">Counting two-graphs related to trees</a>, Elec. J. Combin., Vol. 2, #R4.
+%H A007831 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%K A007831 nonn
+%O A007831 1,5
+%A A007831 _Peter J. Cameron_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

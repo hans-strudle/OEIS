@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016759
+Showing 1-1 of 1
+
+%I A016759
+%S A016759 1,2187,78125,823543,4782969,19487171,62748517,170859375,410338673,
+%T A016759 893871739,1801088541,3404825447,6103515625,10460353203,17249876309,
+%U A016759 27512614111,42618442977,64339296875,94931877133
+%N A016759 a(n) = (2*n+1)^7.
+%H A016759 Vincenzo Librandi, <a href="/A016759/b016759.txt">Table of n, a(n) for n = 0..10000</a>
+%H A016759 Philippe A. J. G. Chevalier, <a href="https://www.researchgate.net/publication/236594822_On_the_discrete_geometry_of_physical_quantities">On the discrete geometry of physical quantities</a>, Preprint, 2012.
+%H A016759 Philippe A. J. G. Chevalier, <a href="https://www.researchgate.net/profile/Philippe_Chevalier2/publication/262067273">A "table of Mendeleev" for physical quantities?</a>, Slides from a talk, May 14 2014, Leuven, Belgium.
+%F A016759 a(n) = A001015(A005408(n)). - _Michel Marcus_, Mar 07 2016
+%o A016759 (MAGMA) [(2*n+1)^7: n in [0..30]]; // _Vincenzo Librandi_, Sep 07 2011
+%o A016759 (PARI) a(n) = (2*n+1)^7; \\ _Michel Marcus_, Mar 07 2016
+%Y A016759 Cf. A001015, A005408, A215960.
+%K A016759 nonn,easy
+%O A016759 0,2
+%A A016759 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

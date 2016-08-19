@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024397
+Showing 1-1 of 1
+
+%I A024397
+%S A024397 2,6,146,1164,32108,432720,14141360,271332960,10373558240,259311694080
+%N A024397 s(1)*s(2)*...*s(n+1)*(1/s(2) - 1/s(3) + ... + c/s(n+1)), where c = (-1)^(n+1) and s(k) = 3k-1 for k = 1,2,3,...
+%K A024397 nonn
+%O A024397 1,1
+%A A024397 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

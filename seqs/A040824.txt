@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040824
+Showing 1-1 of 1
+
+%I A040824
+%S A040824 29,4,2,11,4,11,2,4,58,4,2,11,4,11,2,4,58,4,2,11,4,11,2,4,58,4,2,11,4,
+%T A040824 11,2,4,58,4,2,11,4,11,2,4,58,4,2,11,4,11,2,4,58,4,2,11,4,11,2,4,58,4,
+%U A040824 2,11,4,11,2,4,58,4,2,11,4,11,2,4,58,4,2,11,4,11
+%N A040824 Continued fraction for sqrt(854).
+%H A040824 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040824 a(n)=(1/56)*{-354*(n mod 8)+10*[(n+1) mod 8]+87*[(n+2) mod 8]-25*[(n+3) mod 8]+73*[(n+4) mod 8]-39*[(n+5) mod 8]+38*[(n+6) mod 8]+402*[(n+7) mod 8]}-29*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 29 2009]
+%p A040824 with(numtheory): Digits := 300: convert(evalf(sqrt(854)),confrac);
+%K A040824 nonn,cofr,easy
+%O A040824 0,1
+%A A040824 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

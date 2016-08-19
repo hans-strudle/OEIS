@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017091
+Showing 1-1 of 1
+
+%I A017091
+%S A017091 8,1000,5832,17576,39304,74088,125000,195112,287496,405224,551368,
+%T A017091 729000,941192,1191016,1481544,1815848,2197000,2628072,3112136,
+%U A017091 3652264,4251528,4913000,5639752,6434856,7301384
+%N A017091 (8*n+2)^3.
+%H A017091 Vincenzo Librandi, <a href="/A017091/b017091.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017091 (MAGMA) [(8*n+2)^3: n in [0..35]]; // Vincenzo Librandi, Jul 12 2011
+%K A017091 nonn,easy
+%O A017091 0,1
+%A A017091 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

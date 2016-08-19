@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017096
+Showing 1-1 of 1
+
+%I A017096
+%S A017096 256,100000000,11019960576,208827064576,1785793904896,9682651996416,
+%T A017096 39062500000000,128063081718016,360040606269696,899194740203776,
+%U A017096 2044140858654976,4304672100000000,8507630225817856,15938480745308416
+%N A017096 (8*n+2)^8.
+%H A017096 Vincenzo Librandi, <a href="/A017096/b017096.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017096 (MAGMA) [(8*n+2)^8: n in [0..20]]; // Vincenzo Librandi, Jul 12 2011
+%K A017096 nonn,easy
+%O A017096 0,1
+%A A017096 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

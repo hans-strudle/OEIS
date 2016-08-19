@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053807
+Showing 1-1 of 1
+
+%I A053807
+%S A053807 0,0,4,9,20,25,49,49,84,90,129,121,209,169,249,259,340,289,454,361,
+%T A053807 545,499,609,529,849,650,849,819,1049,841,1299,961,1364,1219,1449,
+%U A053807 1299,1910,1369,1809,1699,2209,1681,2499,1849,2561,2365,2649
+%N A053807 Sum_{k=1..n, n mod k = 1} k^2.
+%F A053807 a(n) = sigma_2(n-1) - 1.
+%Y A053807 Cf. A001157.
+%K A053807 nonn
+%O A053807 1,3
+%A A053807 _N. J. A. Sloane_, Apr 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053586
+Showing 1-1 of 1
+
+%I A053586
+%S A053586 89888786858483,211210209208207206205204203202201200199,
+%T A053586 593592591590589588587,1327132613251324132313221321,
+%U A053586 2377237623752374237323722371,2963296229612960295929582957
+%N A053586 Primes formed by concatenating n consecutive decreasing numbers starting with a prime p(n) and ending with the previous prime p(n-1).
+%e A053586 89888786858483 belongs to the sequence because it is a prime number obtained by concatenating all the consecutive decreasing numbers from 89 to 83 with the primes 89 and 83.
+%Y A053586 Cf. A053558.
+%K A053586 base,nonn
+%O A053586 1,1
+%A A053586 _Felice Russo_, Jan 19 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

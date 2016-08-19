@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008832
+Showing 1-1 of 1
+
+%I A008832
+%S A008832 0,1,13,2,16,14,6,3,8,17,12,15,5,7,11,4,10,9
+%N A008832 Log base 2 (n) mod 19.
+%D A008832 Carl Friedrich Gauss, "Disquitiones Arithmeticae", Yale University Press, 1965; see p. 37.
+%D A008832 I. M. Vinogradov, Elements of Number Theory, p. 221.
+%p A008832 [ seq(mlog(n,2,19), n=1..18) ];
+%K A008832 nonn,base,fini,full
+%O A008832 0,3
+%A A008832 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

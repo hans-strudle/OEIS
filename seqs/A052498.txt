@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052498
+Showing 1-1 of 1
+
+%I A052498
+%S A052498 1,10,13200,2124276000,41393302251840000,97602635428252959312000000,
+%T A052498 27847155251069188894843979022720000000,
+%U A052498 961359275427083998992553051820498439890246400000000
+%N A052498 Nonsingular n X n matrices over GF(11).
+%H A052498 Vincenzo Librandi, <a href="/A052498/b052498.txt">Table of n, a(n) for n = 0..30</a>
+%F A052498 a(n) = (11^n - 1)*(11^n - 11)*...*(11^n - 11^(n-1)).
+%F A052498 a(n) = A110195(n)*A027879(n). [_Bruno Berselli_, Jan 30 2013]
+%t A052498 Table[Product[11^n - 11^k, {k, 0, n-1}], {n, 0, 10}] (* _Vincenzo Librandi_, Jan 28 2013 *)
+%o A052498 (MAGMA) [1] cat [&*[(11^n - 11^k): k in [0..n-1]]: n in [1..7]]; // _Bruno Berselli_, Jan 28 2013
+%Y A052498 Cf. A002884, A027879, A053290-A053293, A052496, A052497, A110195.
+%K A052498 nonn,easy
+%O A052498 0,2
+%A A052498 _Vladeta Jovovic_, Mar 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

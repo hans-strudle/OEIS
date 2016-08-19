@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038035
+Showing 1-1 of 1
+
+%I A038035
+%S A038035 1,2,9,72,840,12780,238770,5281920,134946000,3909578400,126638542800,
+%T A038035 4535037460800,177904622095200,7586967310322400,349479111223242000
+%N A038035 Number of labeled dyslexic planted planar trees with n+1 nodes.
+%H A038035 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A038035 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A038035 Divides by n and shifts left under "BIJ" (reversible, indistinct, labeled) transform.
+%Y A038035 Cf. A005470, A032128.
+%K A038035 nonn,eigen
+%O A038035 1,2
+%A A038035 _Christian G. Bower_, Sep 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

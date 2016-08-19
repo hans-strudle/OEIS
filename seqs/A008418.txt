@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008418
+Showing 1-1 of 1
+
+%I A008418
+%S A008418 1,18,162,978,4482,16722,53154,148626,374274,864146,1854882,3742290,
+%T A008418 7159170,13079250,22952610,38878482,63821826,101880594,158611106,
+%U A008418 241419474,360027522,527022162,758497698,1074801042,1501390338
+%N A008418 Coordination sequence for 9-dimensional cubic lattice.
+%H A008418 T. D. Noe, <a href="/A008418/b008418.txt">Table of n, a(n) for n=0..1000</a>
+%H A008418 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A008418 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9, -36, 84, -126, 126, -84, 36, -9, 1).
+%F A008418 G.f.: ((1+x)/(1-x))^9.
+%K A008418 nonn,easy
+%O A008418 0,2
+%A A008418 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

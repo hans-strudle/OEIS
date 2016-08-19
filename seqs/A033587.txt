@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033587
+Showing 1-1 of 1
+
+%I A033587
+%S A033587 0,14,44,90,152,230,324,434,560,702,860,1034,1224,1430,1652,1890,2144,
+%T A033587 2414,2700,3002,3320,3654,4004,4370,4752,5150,5564,5994,6440,6902,
+%U A033587 7380,7874,8384,8910,9452,10010,10584,11174,11780,12402,13040,13694,14364,15050
+%N A033587 2*n*(4*n+3).
+%C A033587 The inverse binomial transform is 0,14,16 followed by all-0 (followed by A000004). - _R. J. Mathar_, May 06 2008
+%C A033587 Sequence found by reading the line from 0, in the direction 0, 14,..., in the square spiral whose vertices are the triangular numbers A000217. Opposite numbers to the even hexagonal numbers A014635 in the same spiral. - Omar E. Pol, Sep 03 2011
+%F A033587 O.g.f.: 2x(7+x)/(1-x)^3. - _R. J. Mathar_, May 06 2008
+%F A033587 a(n)=16*n+a(n-1)-2 (with a(0)=0) [From _Vincenzo Librandi_, Aug 05 2010]
+%e A033587 a(1)=16*1+0-2=14; a(2)=16*2+14-2=44; a(3)=16*3+44-2=90 [From _Vincenzo Librandi_, Aug 05 2010]
+%t A033587 Table[2*n(4*n + 3), {n, 0, 100}] (* _Vladimir Joseph Stephan Orlovsky_, Jun 26 2011 *)
+%K A033587 nonn
+%O A033587 0,2
+%A A033587 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

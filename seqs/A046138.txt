@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046138
+Showing 1-1 of 1
+
+%I A046138
+%S A046138 5,11,23,53,101,131,173,191,233,263,563,593,653,821,1013,1223,1283,
+%T A046138 1481,1601,1613,1871,2081,2333,2543,2963,3251,3323,3461,3533,3761,
+%U A046138 3911,3923,4013,4211,4253,4643,4793,5003,5273,5471,5651,5843,5861,6263,6353,6563
+%N A046138 p, p+6 and p+8 are primes.
+%H A046138 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PrimeTriplet.html">Prime Triplet.</a>
+%F A046138 A023201 INTERSECT A023202. - _R. J. Mathar_, Jan 23 2009
+%p A046138 for a from 3 by 2 to 10000 do
+%p A046138 if `and`(isprime(a), isprime(a+6), isprime(a+8)) then print(a); end if;
+%p A046138 end do; # _Matt C. Anderson_, Jul 24 2015
+%t A046138 Select[Range@ 6000, AllTrue[{#, # + 6, # + 8}, PrimeQ] &] (* _Michael De Vlieger_, Jul 24 2015, Version 10 *)
+%o A046138 (MAGMA) [p: p in PrimesUpTo(10^4)| IsPrime(p+6) and IsPrime(p+8)]; // _Vincenzo Librandi_, Jul 26 2015
+%K A046138 nonn
+%O A046138 1,1
+%A A046138 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059327
+Showing 1-1 of 1
+
+%I A059327
+%S A059327 11,23,227,179,107,1367,263,887,2099,719,587,8819,3467,1019,10163,
+%T A059327 27827,1619,7823,27299,2207,44267,3203,7247,5099,11807,45887,18119,
+%U A059327 15803,79559,13163,40127,42839,20663,79979,17483,53267,47963,33863
+%N A059327 a(n) is smallest safe prime (A005385) such that a(n)+12n is the next safe prime, i.e. x=(a(n)-1)/2) and x+6n are closest Sophie Germain primes.
+%e A059327 {11,23,227,179,107,...} smallest safe primes generates {11+12,23+24,227+36,179+48,107+60,..}= {23,47,263,227,167,..} safe primes to which the corresponding Sophi-Germain primes are {11,23,131,113,83,..} respectively.
+%Y A059327 A005384, A005385, A033299.
+%K A059327 nonn
+%O A059327 0,1
+%A A059327 _Labos Elemer_, Jan 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

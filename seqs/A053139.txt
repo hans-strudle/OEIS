@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053139
+Showing 1-1 of 1
+
+%I A053139
+%S A053139 0,2,3,2,5,1,7,4,6,3,11,4,13,5,7,8,17,6,19,8,11,9,23,8,20,11,18,12,29,
+%T A053139 9,31,16,19,15,23,12,37,17,23,16,41,13,43,20,24,21,47,16,42,20,31,24,
+%U A053139 53,18,39,24,35,27,59,16,61,29,36,32,47,21,67,32
+%N A053139 phi(n) - mu(n).
+%F A053139 a(n) = n if and only if n is a prime.
+%t A053139 a[ n_] := EulerPhi @ n - MoebiusMu @ n; Table[a[n], {n, 70}] (* _Michael Somos_, Jul 19 2011 *)
+%o A053139 (PARI) {a(n) = if( n==0, 0, eulerphi( n) - moebius( n))} /* _Michael Somos_, Jul 19 2011 */
+%Y A053139 Cf. A000010, A008683.
+%K A053139 nonn
+%O A053139 1,2
+%A A053139 _N. J. A. Sloane_, Mar 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

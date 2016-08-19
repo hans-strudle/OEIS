@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046945
+Showing 1-1 of 1
+
+%I A046945
+%S A046945 1,6,30,144,696,330,15774,74484,351192,1651806,7753182,36342882,
+%T A046945 170163366,795893904,3719252820
+%N A046945 Number of self-avoiding walks of length n on hypertriangular lattice.
+%D A046945 Mohammad K. Azarian, On the Hyperfactorial Function, Hypertriangular Function, and the Discriminants of Certain Polynomials, International Journal of Pure and Applied Mathematics, Vol. 36, No. 2, 2007, pp. 251-257.  Mathematical Reviews, MR2312537.  Zentralblatt MATH, Zbl 1133.11012.
+%D A046945 J. A. Leu, Self-avoiding walks on a pair of three dimensional lattices, Phys. Lett., 29A (1969), 641-642.
+%K A046945 nonn,walk
+%O A046945 0,2
+%A A046945 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

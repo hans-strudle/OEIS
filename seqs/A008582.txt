@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008582
+Showing 1-1 of 1
+
+%I A008582
+%S A008582 1,1,1,1,2,2,3,4,5,6,8,9,12,14,17,20,25,28,34,40,47,54,64,72,85,97,
+%T A008582 111,126,146,163,187,211,238,266,302,335,378,421,469,520,582,640,712,
+%U A008582 786,868,954,1055,1153,1270,1391,1523,1662,1822,1979,2162,2352,2558,2774,3018,3262
+%N A008582 Molien series for Weyl group E_8.
+%D A008582 Coxeter and Moser, Gens. and Relations for Discrete Grps, Table 10.
+%D A008582 L. Smith, Polynomial Invariants of Finite Groups, Peters, 1995, p. 199 (No. 37).
+%H A008582 T. D. Noe, <a href="/A008582/b008582.txt">Table of n, a(n) for n=0..1000</a>
+%H A008582 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=252">Encyclopedia of Combinatorial Structures 252</a>
+%H A008582 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%F A008582 a(n) ~ 1/13716864000*n^7 (for the sequence without interleaved zeros). - _Ralf Stephan_, Apr 29 2014
+%p A008582 1/((1-x^2)*(1-x^8)*(1-x^12)*(1-x^14)*(1-x^18)*(1-x^20)*(1-x^24)*(1-x^30));
+%t A008582 Select[CoefficientList[Series[1/((1-x^2)(1-x^8)(1-x^12)(1-x^14)(1-x^18) (1-x^20)(1-x^24)(1-x^30)),{x,0,180}],x],#!=0&] (* _Harvey P. Dale_, Jun 09 2011 *)
+%o A008582 (MAGMA) MolienSeries(CoxeterGroup("E8")); // Sergei Haller (sergei(AT)sergei-haller.de), Dec 21 2006
+%K A008582 nonn,easy,nice
+%O A008582 0,5
+%A A008582 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

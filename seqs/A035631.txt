@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035631
+Showing 1-1 of 1
+
+%I A035631
+%S A035631 0,0,1,1,2,2,3,5,6,8,9,11,15,18,23,26,31,38,45,55,62,73,85,100,118,
+%T A035631 135,155,178,205,238,269,308,347,397,452,512,578,650,733,829,929,1045,
+%U A035631 1164,1307,1461,1635,1822,2026,2254,2511,2787,3098,3422,3796,4196
+%N A035631 Number of partitions of n into parts 5k+1 and 5k+2 with at least one part of each type.
+%K A035631 nonn
+%O A035631 1,5
+%A A035631 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

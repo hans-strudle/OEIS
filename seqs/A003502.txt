@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003502
+Showing 1-1 of 1
+
+%I A003502
+%S A003502 48,140,1050,1575,2024,5775,8892,9504,62744,186615,196664,199760,
+%T A003502 266000,312620,526575,573560,587460,1000824,1081184,1139144,1140020,
+%U A003502 1173704,1208504,1233056,1236536,1279950,1921185,2036420,2102750,2140215,2171240,2198504,2312024
+%N A003502 The smaller of a betrothed pair.
+%D A003502 R. K. Guy, Unsolved Problems in Number Theory, B5.
+%D A003502 P. Hagis and G. Lord, Quasi-amicable numbers, Math. Comp. 31 (1977), 608-611.
+%D A003502 Computed by fredh(AT)ix.netcom.com (Fred W. Helenius ).
+%H A003502 Donovan Johnson, <a href="/A003502/b003502.txt">Table of n, a(n) for n = 1..1000</a>
+%Y A003502 Cf. A003503, A005276.
+%K A003502 nonn,nice
+%O A003502 1,1
+%A A003502 _Robert G. Wilson v_
+%E A003502 Extended by T. D. Noe, Dec 29 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

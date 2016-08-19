@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016901
+Showing 1-1 of 1
+
+%I A016901
+%S A016901 1024,59049,537824,2476099,7962624,20511149,45435424,90224199,
+%T A016901 164916224,282475249,459165024,714924299,1073741824,1564031349,
+%U A016901 2219006624,3077056399,4182119424,5584059449,7339040224
+%N A016901 (5n+4)^5.
+%H A016901 Vincenzo Librandi, <a href="/A016901/b016901.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016901 (MAGMA)[(5*n+4)^5: n in [0..50]]; // Vincenzo Librandi, May 02 2011
+%K A016901 nonn,easy
+%O A016901 0,1
+%A A016901 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

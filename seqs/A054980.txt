@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054980
+Showing 1-1 of 1
+
+%I A054980
+%S A054980 36,1800,2700,17424,1306800,4769856,238492800,357739200,54531590400
+%N A054980 Primitive e-perfect numbers: sum of the e-divisors (exponential divisors) of n equals 2n.
+%C A054980 The e-divisors (or exponential divisors) of x=Product p(i)^r(i) are all numbers of the form Product p(i)^s(i) where s(i) divides r(i) for all i.
+%C A054980 The nonprimitive e-perfect numbers are obtained from the primitive ones by multiplying by m, if m is squarefree and relatively prime to the primitive e-perfect number.
+%C A054980 a(10) > 10^15. - _Donovan Johnson_, Nov 22 2011
+%C A054980 The following numbers also belong to this sequence; however, their actual positions are unknown: 168136940595306022660197936246988800, 11712310558743727210993873194516480000, 1307484087615221689700651798824550400000. - _Andrew Lelechenko_, Apr 01 2014
+%D A054980 R. K. Guy, Unsolved Problems In Number Theory, B17.
+%H A054980 Jan Munch Pedersen, <a href="http://amicable.adsl.dk/aliquot/e1/e1.txt">Exponential Perfect Numbers</a>
+%H A054980 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/e-PerfectNumber.html">e-Perfect Number</a>
+%e A054980 Since 36=2^2*3^2 and divisors(2)={1,2}, all e-divisors are 2^1*3^1, 2^2*3^1, 2^1*3^2 and 2^2*3^2 or 6, 12, 18, 36 and these sum to 2*36, so 36 is e-perfect.
+%o A054980 (PARI) eperfect(n)=my(f=factor(n));prod(i=1,#f[,1],sumdiv(f[i,2],d, f[i,1]^d))==2*n
+%o A054980 is(n)=if(!eperfect(n),0,my(f=factor(n));for(i=1,#f[,1],if(f[i,2]==1&&eperfect(n/f[i,1]),return(0)));1) \\ _Charles R Greathouse IV_, Nov 22 2011
+%Y A054980 Cf. A051377, A054979.
+%K A054980 more,nonn
+%O A054980 1,1
+%A A054980 _Jud McCranie_, May 29 2000
+%E A054980 a(9) from _Donovan Johnson_, Nov 22 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

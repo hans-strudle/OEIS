@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010710
+Showing 1-1 of 1
+
+%I A010710
+%S A010710 4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,
+%T A010710 4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,4,5,
+%U A010710 4,5,4,5,4,5,4,5,4,5,4,5,4
+%N A010710 Period 2: repeat (4,5).
+%C A010710 Continued fraction of 2+2*sqrt(30)/5. - R. J. Mathar, Nov 21 2011
+%H A010710 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010710 a(n) = -1/2*(-1)^n+9/2 =5*(n mod 2)+4*[(n+1) mod 2]. - _Paolo P. Lava_, Oct 20 2006
+%F A010710 G.f.: (4+5*x)/(1-x^2). - _Jaume Oliver Lafont_, Mar 20 2009
+%F A010710 a(n) = floor(9*(n+1)/2) - floor(9*n/2). - _Hailey R. Olafson_, Jul 17 2014
+%o A010710 (PARI) a(n)=4+n%2 [From _Jaume Oliver Lafont_, Mar 20 2009]
+%K A010710 nonn,easy
+%O A010710 0,1
+%A A010710 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

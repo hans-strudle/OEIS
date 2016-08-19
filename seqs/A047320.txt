@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047320
+Showing 1-1 of 1
+
+%I A047320
+%S A047320 0,5,6,7,12,13,14,19,20,21,26,27,28,33,34,35,40,41,42,47,48,49,54,55,
+%T A047320 56,61,62,63,68,69,70,75,76,77,82,83,84,89,90,91,96,97,98,103,104,105,
+%U A047320 110,111,112,117,118,119,124
+%N A047320 Numbers that are congruent to {0, 5, 6} mod 7.
+%H A047320 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047320 G.f. x^2*(5+x+x^2)/ ( (1+x+x^2)*(x-1)^2 ). - R. J. Mathar, Dec 03 2011
+%t A047320 Select[Range[0,200],MemberQ[{0,5,6},Mod[#,7]]&] (* _Harvey P. Dale_, May 25 2012 *)
+%K A047320 nonn
+%O A047320 1,2
+%A A047320 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

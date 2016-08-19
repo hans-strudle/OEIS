@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011687
+Showing 1-1 of 1
+
+%I A011687
+%S A011687 0,0,0,0,0,0,1,0,0,0,1,1,1,1,1,0,1,0,0,1,1,0,1,0,0,0,1,0,1,1,1,1,0,1,
+%T A011687 1,0,1,1,1,0,1,1,1,1,1,1,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0,0,1,1,1,1,0,
+%U A011687 0,1,0,1,0,0,1,0,0,1,0,1,1
+%N A011687 A binary m-sequence: expansion of reciprocal of x^7+x^6+x^5+x^4+1.
+%D A011687 S. W. Golomb, Shift-Register Sequences, Holden-Day, San Francisco, 1967.
+%D A011687 H. D. Lueke, Korrelationssignale, Springer 1992, pp. 43-48.
+%D A011687 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier/North Holland, 1978, p. 408.
+%K A011687 nonn
+%O A011687 0,1
+%A A011687 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

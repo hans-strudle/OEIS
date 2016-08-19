@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040247
+Showing 1-1 of 1
+
+%I A040247
+%S A040247 16,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,
+%T A040247 4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,
+%U A040247 32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32,4,32
+%N A040247 Continued fraction for sqrt(264).
+%H A040247 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040247 a(n)=18+14*(-1)^n-16*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 21 2009]
+%p A040247 with(numtheory): Digits := 300: convert(evalf(sqrt(264)),confrac);
+%K A040247 nonn,cofr,easy
+%O A040247 0,1
+%A A040247 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

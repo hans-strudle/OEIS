@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033179
+Showing 1-1 of 1
+
+%I A033179
+%S A033179 2,3,4,6,24,114,174,444
+%N A033179 Numbers n such that exactly one multiset of n positive integers has equal sum and product.
+%C A033179 No other elements below 10^10 (Ecker, 2002). Probably finite and complete.
+%C A033179 For any n, there is the multiset {n, 2, 1^(n-2)} with sum and product 2n.
+%C A033179 (A) If n-1 is composite (n-1=ab), then {a+1, b+1, 1^(n-2)} is another multiset with sum = product. (_Hugo van der Sanden_)
+%C A033179 (B) If 2n-1 is composite (2n-1=ab), then {2, (a+1)/2, (b+1)/2, 1^(n-3)} is another such multiset. (Don Reble)
+%C A033179 (C) If n = 30k+12, then {2, 2, 2, 2, 2k+1, 1^(30k+7)} is another such multiset. (Don Reble)
+%C A033179 Conditions (A), (B), (C) eliminate all n's except for 2, 3, 4, 6, 30k+0, and 30k+24.
+%D A033179 J.-M. De Koninck, Ces nombres qui nous fascinent, Entry 174, p. 54, Ellipses, Paris 2008.
+%D A033179 R. K. Guy, 'Unsolved Problems in Number Theory' (Section D24).
+%H A033179 Michael W. Ecker, <a href="http://www.jstor.org/stable/3219187">When Does a Sum of Positive Integers Equal Their Product?</a> Mathematics Magazine 75(1), 2002, pp. 41-47.
+%Y A033179 Cf. A033178.
+%K A033179 nonn
+%O A033179 1,1
+%A A033179 _David W. Wilson_
+%E A033179 Revised by Don Reble, Jun 11 2005
+%E A033179 Edited by _Max Alekseyev_, Nov 13 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

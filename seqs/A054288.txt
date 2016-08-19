@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054288
+Showing 1-1 of 1
+
+%I A054288
+%S A054288 20,39,52,55,63,64,68,73,79,86,89,121,123,130,131,132,153,175,183,184,
+%T A054288 192,194,197,206,214,224,229,230,231,236,239,246,248,269,270,290,308,
+%U A054288 315,349,350,352,382,389,407,410
+%N A054288 Positions of 2's in the decimal expansion of 1/2*(sqrt(5)+1)).
+%t A054288 Flatten[Position[RealDigits[(Sqrt[5]+1)/2,10,1000][[1]],2]] (* _Harvey P. Dale_, Oct 30 2014 *)
+%K A054288 nonn,base
+%O A054288 1,1
+%A A054288 _Simon Plouffe_, Feb 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

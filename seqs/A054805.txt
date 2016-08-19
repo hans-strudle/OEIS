@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054805
+Showing 1-1 of 1
+
+%I A054805
+%S A054805 37,67,97,223,277,307,457,479,613,631,719,751,853,877,929,1087,1297,
+%T A054805 1423,1447,1471,1543,1657,1663,1693,1733,1777,1783,1847,1861,1867,
+%U A054805 1987,1993,2053,2137,2333,2371,2377,2459,2467,2503,2521,2531,2579,2609,2647
+%N A054805 Second term of strong prime quartets: p(m)-p(m-1) > p(m+1)-p(m) > p(m+2)-p(m+1).
+%Y A054805 Cf. A051634, A054800-A054840.
+%K A054805 nonn
+%O A054805 0,1
+%A A054805 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

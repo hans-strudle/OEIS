@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024647
+Showing 1-1 of 1
+
+%I A024647
+%S A024647 0,1,2,3,4,5,6,7,50,51,52,53,54,55,56,57,520,521,522,523,524,525,526,
+%T A024647 527,570,571,572,573,574,575,576,577,5240,5241,5242,5243,5244,5245,
+%U A024647 5246,5247,5710,5711,5712,5713,5714,5715,5716,5717,5760,5761,5762,5763,5764,5765
+%N A024647 n written in fractional base 8/5.
+%F A024647 To represent a number in base b, if a digit exceeds b, subtract b and carry 1. In fractional base a/b, subtract a and carry b.
+%K A024647 nonn,base
+%O A024647 0,3
+%A A024647 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

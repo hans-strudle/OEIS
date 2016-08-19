@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055485
+Showing 1-1 of 1
+
+%I A055485
+%S A055485 4,19,61,157,353,717,1355,2412,4094,6676,10524,16108,24036,35063,
+%T A055485 50135,70409,97295,132485,178011,236268,310086,402768,518158,660692,
+%U A055485 835486,1048379,1306039,1616025,1986887,2428245,2950913,3566968,4289896
+%N A055485 Number of unlabeled 3-element intersecting families (with distinct sets) of an n-element set.
+%D A055485 V. Jovovic, G. Kilibarda, On the number of Boolean functions in the Post classes F^{mu}_8, Diskretnaya Matematika, 11 (1999), no. 4, 127-138 (translated in Discrete Mathematics and Applications, 9, (1999), no. 6).
+%F A055485 G.f. : -x^3*(x^8+x^7-3*x^6-x^5+x^4+3*x^3-x^2-3*x-4)/((x^3-1)^2*(x^2-1)^2*(x-1)^4).
+%Y A055485 Cf. A051180 (labeled case), A005783.
+%K A055485 nonn
+%O A055485 3,1
+%A A055485 _Vladeta Jovovic_, Goran Kilibarda, Jul 03 2000
+%E A055485 More terms from _James A. Sellers_, Jul 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

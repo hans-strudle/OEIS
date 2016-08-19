@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017384
+Showing 1-1 of 1
+
+%I A017384
+%S A017384 43046721,16983563041,500246412961,5352009260481,33232930569601,
+%T A017384 146830437604321,513798374428641,1517108809906561,3936588805702081,
+%U A017384 9227446944279201,19925626416901921,40213853471634241,76686282021340161
+%N A017384 (10*n+9)^8.
+%H A017384 Vincenzo Librandi, <a href="/A017384/b017384.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017384 (MAGMA) [(10*n+9)^8: n in [0..20]]; // Vincenzo Librandi, Sep 01 2011
+%K A017384 nonn,easy
+%O A017384 0,1
+%A A017384 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

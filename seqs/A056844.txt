@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056844
+Showing 1-1 of 1
+
+%I A056844
+%S A056844 1,2,9,40,238,1517
+%N A056844 Number of polydiamonds: polyominoes made from n diamonds.
+%C A056844 Comment from Larry_Reeves(AT)intranetsolutions.com, Jun 22 2001: If you look at Vicher's picture of the 40 4-celled polydiamonds (link in A056844), near the middle of the picture is a polydiamond that looks like the traditional 2-D representation of a cube with an extra diamond stuck to the edge. Depending on how you orient the cube, there are actually 2 different ways to form this polydiamond, although there is no change in the perimeter shape. I haven't confirmed that this explains the difference in values for sizes 5 and above for A056844 and A056845, but it looks like a possible explanation.
+%H A056844 M. Vicher, <a href="http://www.vicher.cz/puzzle/polyforms.htm">Polyforms</a>
+%H A056844 M. Vicher, <a href="http://www.vicher.cz/puzzle/polyform/comp/images/diam2.gif">The 40 4-celled polydiamonds</a>
+%H A056844 M. Vicher, <a href="/A056844/a056844.gif">The 40 4-celled polydiamonds</a>
+%Y A056844 Cf. A056845.
+%K A056844 nice,nonn,more
+%O A056844 1,2
+%A A056844 _James A. Sellers_, Aug 28 2000
+%E A056844 Edited by _N. J. A. Sloane_, Jun 21, 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

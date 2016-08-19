@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050025
+Showing 1-1 of 1
+
+%I A050025
+%S A050025 1,1,1,2,3,5,6,7,8,15,21,26,29,31,32,33,34,67,99,130,159,185,206,221,
+%T A050025 229,236,242,247,250,252,253,254,255,509,762,1014,1264,1511,1753,1989,
+%U A050025 2218,2439,2645,2830,2989,3119,3218,3285,3319
+%N A050025 a(n) = a(n-1)+a(m), where m=2^(p+1)+2-n and 2^p<n-1<=2^(p+1), for n >= 4.
+%H A050025 Ivan Neretin, <a href="/A050025/b050025.txt">Table of n, a(n) for n = 1..8193</a>
+%t A050025 Fold[Append[#1, #1[[-1]] + #1[[#2]]] &, {1, 1, 1}, Flatten@Table[k, {n, 5}, {k, 2^n, 1, -1}]] (* _Ivan Neretin_, Sep 06 2015 *)
+%K A050025 nonn
+%O A050025 1,4
+%A A050025 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

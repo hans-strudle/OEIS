@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038498
+Showing 1-1 of 1
+
+%I A038498
+%S A038498 1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,0,1,0,1,1,1,1,1,1,0,1,1,1,
+%T A038498 1,0,2,0,0,1,1,1,0,1,0,2,0,0,1,1,1,0,2,1,1,1,0,0,1,1,1,1,2,
+%U A038498 1,1,1,1,0,0,1,1,1,1,1,2,0,2,0,1,0,0,1,1,1
+%V A038498 1,-1,1,0,-1,1,1,-1,-1,1,0,1,-1,-1,1,0,1,0,-1,-1,1,-1,1,1,0,-1,-1,1,
+%W A038498 -1,0,2,0,0,-1,-1,1,0,-1,0,2,0,0,-1,-1,1,0,-2,1,1,1,0,0,-1,-1,1,1,-2,
+%X A038498 -1,1,1,1,0,0,-1,-1,1,1,-1,-2,0,2,0,1,0,0,-1,-1,1
+%N A038498 Matrix inverse of partition triangle A008284.
+%e A038498 1; -1,1; 0,-1,1; 1,-1,-1,1; ...
+%o A038498 (PARI) tp(n, k) = if (n<1, 0, if (k<1, 0, if (k == n, 1, if (k > n, 0, tp(n-1, k-1) + tp(n-k, k)))));
+%o A038498 tabl(nn) = {mtp = matrix(nn, nn, n, k, tp(n, k)); mtpi = mtp^(-1); for (n = 1, nn, for (k = 1, n, print1(mtpi[n, k], ", ");); print(););} \\ _Michel Marcus_, Mar 04 2014
+%Y A038498 Cf. A038497, A039800-A039810.
+%K A038498 sign,tabl
+%O A038498 1,31
+%A A038498 _Christian G. Bower_, Feb 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

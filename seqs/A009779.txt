@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009779
+Showing 1-1 of 1
+
+%I A009779
+%S A009779 0,0,2,6,14,20,36,336,720,38016,524160,5448960,50388480,
+%T A009779 465903360,5010888960,69353625600,1155961497600,20593469030400,
+%U A009779 370356373094400,6695551947571200,124010190839808000,2408196729028608000
+%V A009779 0,0,2,-6,14,-20,-36,336,720,-38016,524160,-5448960,50388480,
+%W A009779 -465903360,5010888960,-69353625600,1155961497600,-20593469030400,
+%X A009779 370356373094400,-6695551947571200,124010190839808000,-2408196729028608000
+%N A009779 Expansion of tanh(log(1+x))*log(1+x).
+%F A009779 a(n) ~ (n-1)! * (-1)^n. - _Vaclav Kotesovec_, Jan 24 2015
+%t A009779 Tanh[ Log[ 1+x ] ]*Log[ 1+x ]
+%t A009779 CoefficientList[Series[(x*(2 + x)*Log[1 + x])/(2 + x*(2 + x)), {x, 0, 20}], x] * Range[0, 20]! (* _Vaclav Kotesovec_, Jan 24 2015 *)
+%K A009779 sign,easy
+%O A009779 0,3
+%A A009779 _R. H. Hardin_
+%E A009779 Extended with signs by _Olivier Gérard_, Mar 15 1997.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

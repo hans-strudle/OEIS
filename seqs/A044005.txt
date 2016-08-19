@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044005
+Showing 1-1 of 1
+
+%I A044005
+%S A044005 12,21,112,129,219,221,312,321,412,421,512,521,612,621,712,721,812,
+%T A044005 821,912,921,1012,1021,1112,1129,1299,1312,1321,1412,1421,1512,1521,
+%U A044005 1612,1621,1712,1721,1812,1821,1912,1921,2012,2021
+%N A044005 Numbers n such that 1 and 2 occur juxtaposed in the base 10 representation of n but not of n+1.
+%K A044005 nonn,base
+%O A044005 1,1
+%A A044005 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

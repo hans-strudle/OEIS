@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053856
+Showing 1-1 of 1
+
+%I A053856
+%S A053856 1,16,316,69616,21999616,74351051776,374910580965376
+%N A053856 Number of n X n matrices over GF(4) of order dividing 2 (i.e. number of solutions of X^2=I in GL(n,4)).
+%D A053856 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053856 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053856 Cf. A053722.
+%K A053856 more,nonn
+%O A053856 1,2
+%A A053856 _Vladeta Jovovic_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058683
+Showing 1-1 of 1
+
+%I A058683
+%S A058683 1,1,2,1,5,3,7,7,12,10,18,17,30
+%N A058683 McKay-Thompson series of class 44c for Monster.
+%D A058683 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058683 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058683 T44c = 1/q + q + 2*q^3 + q^5 + 5*q^7 + 3*q^9 + 7*q^11 + 7*q^13 + 12*q^15 + ...
+%Y A058683 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058683 nonn
+%O A058683 -1,3
+%A A058683 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

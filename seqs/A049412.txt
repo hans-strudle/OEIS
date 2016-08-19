@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049412
+Showing 1-1 of 1
+
+%I A049412
+%S A049412 1,7,85,1465,32677,894103,28977817,1085272945,46112305897,
+%T A049412 2191384887175,115164935076445,6631403822046697,415179375712149517,
+%U A049412 28079663069162365207,2040146099677929685345,158473205735310372796897
+%N A049412 Row sums of triangle A049385.
+%C A049412 Generalized Bell numbers B(6,1;n).
+%D A049412 P. Blasiak, K. A. Penson and A. I. Solomon, The general boson normal ordering problem, Phys. Lett. A 309 (2003) 198-205.
+%H A049412 W. Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), #00.2.4.
+%H A049412 P. Blasiak, K. A. Penson and A. I. Solomon, <a href="http://www.arXiv.org/abs/quant-ph/0402027">The general boson normal ordering problem.</a>
+%F A049412 E.g.f. exp(-1+1/(1-5*x)^(1/5))-1.
+%Y A049412 Cf. A049120, generalized Bell numbers B(5, 1, n).
+%K A049412 nonn
+%O A049412 1,2
+%A A049412 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

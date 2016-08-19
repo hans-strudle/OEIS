@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019564
+Showing 1-1 of 1
+
+%I A019564
+%S A019564 1,128,2816,27008,157184,658048,2187520,6140800,15158272,33830016,
+%T A019564 69629696,134110592,244396544,425000576,710003968,1145628544,
+%U A019564 1793234944,2732779648,4066763520,5924704640
+%N A019564 Coordination sequence for C_8 lattice.
+%D A019564 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%F A019564 G.f.: (1+120*x+1820*x^2+8008*x^3+12870*x^4+8008*x^5+1820*x^6+120*x^7+x^8)/(1-x)^8.
+%K A019564 nonn
+%O A019564 0,2
+%A A019564 mbaake(AT)sunelc3.tphys.physik.uni-tuebingen.de (Michael Baake)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

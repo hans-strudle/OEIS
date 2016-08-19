@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014077
+Showing 1-1 of 1
+
+%I A014077
+%S A014077 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A014077 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A014077 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%V A014077 -1,-1,1,-1,-1,1,1,1,-1,1,-1,-1,-1,1,-1,1,1,1,-1,-1,1,-1,1,1,-1,1,-1,
+%W A014077 1,1,-1,-1,-1,1,-1,-1,1,1,1,1,1,-1,1,1,-1,-1,1,1,-1,1,1,1,1,-1,1,-1,1,
+%X A014077 -1,1,-1,-1,1,1,1,1,1,1,1,1,-1,-1,-1,1,1,-1,1,1,1,-1,1,-1,1,-1
+%N A014077 Norm of fundamental unit of real quadratic field.
+%C A014077 See A014000 for details about the indexing.
+%D A014077 H. Cohen, Course in Computational Alg. No. Theory, Springer, 1993, pp. 515-519.
+%Y A014077 Cf. A003658, A003652, A014000, A014046.
+%K A014077 sign
+%O A014077 1,1
+%A A014077 Eric Rains (rains(AT)caltech.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

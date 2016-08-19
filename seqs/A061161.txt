@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061161
+Showing 1-1 of 1
+
+%I A061161
+%S A061161 1,1,13,55,1235,4615,55801,200343,8977475,36804235,367235363,
+%T A061161 1444888289,32062742231,120729974115,1205864254225,5201022002071,
+%U A061161 395884671433315,1603069490974835,15989295873680415,64312573140322525
+%N A061161 Numerators in expansion of Euler transform of b(n)=1/4.
+%C A061161 Denominators of c(n) are 2^A004134(n).
+%H A061161 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A061161 Numerators of c(n), where c(n)=1/(4*n)*Sum_{k=1..n} c(n-k)*sigma(k), n>0, c(0)=1.
+%Y A061161 Cf. A000712, A061159, A061160.
+%K A061161 easy,nonn,frac
+%O A061161 0,3
+%A A061161 _Vladeta Jovovic_, Apr 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

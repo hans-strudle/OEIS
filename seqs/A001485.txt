@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001485
+Showing 1-1 of 1
+
+%I A001485 M4371 N1835
+%S A001485 1,7,21,35,28,21,105,181,189,77,140,385,546,511,252,203,693,
+%T A001485 1029,1092,798,203,581,1281,1708,1687,1232,413,602,1485,2233,
+%U A001485 2366,2009,1099,14,1099,2072,2667,2807,2254,1477,0,1057,2346,2744,3017,2457
+%V A001485 1,-7,21,-35,28,21,-105,181,-189,77,140,-385,546,-511,252,203,-693,
+%W A001485 1029,-1092,798,-203,-581,1281,-1708,1687,-1232,413,602,-1485,2233,
+%X A001485 -2366,2009,-1099,14,1099,-2072,2667,-2807,2254,-1477,0,1057,-2346,2744,-3017,2457
+%N A001485 Expand {Product_{j=1..inf} (1-x^j) - 1 }^7 in powers of x.
+%D A001485 H. Gupta, On the coefficients of the powers of Dedekind's modular form, J. London Math. Soc., 39 (1964), 433-440.
+%D A001485 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001485 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A001485 sign
+%O A001485 1,2
+%A A001485 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

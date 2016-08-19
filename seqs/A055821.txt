@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055821
+Showing 1-1 of 1
+
+%I A055821
+%S A055821 1,23,60,122,217,354,543,795,1122,1537,2054,2688,3455,4372,5457,6729,
+%T A055821 8208,9915,11872,14102,16629,19478,22675,26247,30222,34629,39498,
+%U A055821 44860,50747,57192,64229,71893,80220,89247
+%N A055821 T(n,n-4), array T as in A055818.
+%K A055821 nonn
+%O A055821 4,2
+%A A055821 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

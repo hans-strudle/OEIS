@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012278
+Showing 1-1 of 1
+
+%I A012278
+%S A012278 0,1,1,4,12,103,595,6508,58800,786973,9744373,155024956,2434745852,
+%T A012278 45189575715,856361535783,18256766891140,403804360914560,
+%U A012278 9755015402674937,246067759361332137,6656604425348335060,188304809071878207052,5645851709034522319007
+%N A012278 E.g.f. arctanh(exp(x)*log(x+1)).
+%H A012278 Alois P. Heinz, <a href="/A012278/b012278.txt">Table of n, a(n) for n = 0..200</a>
+%F A012278 a(n) ~ (n-1)! / (2*(exp(r)-1)^n), where r = 0.5122224330332299... is the root of the equation r*exp(exp(r)-1)=1. - _Vaclav Kotesovec_, Oct 24 2013
+%e A012278 arctanh(exp(x)*log(x+1)) = x+1/2!*x^2+4/3!*x^3+12/4!*x^4+103/5!*x^5...
+%t A012278 CoefficientList[Series[ArcTanh[Exp[x]*Log[x + 1]], {x, 0, 20}], x]*
+%t A012278 Range[0, 20]! (* _Bruno Berselli_, Feb 17 2013 *)
+%K A012278 nonn
+%O A012278 0,4
+%A A012278 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A012278 Prepended a(0)=0 by Bruno Berselli_, Feb 17 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

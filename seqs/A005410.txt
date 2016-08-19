@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005410
+Showing 1-1 of 1
+
+%I A005410 M0435
+%S A005410 1,2,3,3,4,4,5,5,6,6,7,7,8,8,9,9,9,10
+%N A005410 a(n) = largest integer m such that every n-point interval order contains an m-point semiorder.
+%C A005410 Equivalently, a(n) is the largest integer m such that every n-point interval graph contains an m-point unit interval graph.
+%D A005410 Fishburn, Peter C.; Maximum semiorders in interval orders. SIAM J. Algebraic Discrete Methods 2 (1981), no. 2, 127-135.
+%D A005410 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A005410 nonn,more
+%O A005410 1,2
+%A A005410 _N. J. A. Sloane_.
+%E A005410 Better definition from _N. J. A. Sloane_, Mar 25 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

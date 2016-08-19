@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029776
+Showing 1-1 of 1
+
+%I A029776
+%S A029776 0,1,4,5,6,9,10,11,12,21,24,25,29,32,33,34,39,40,44,49,50,51,54,55,56,
+%T A029776 59,60,61,64,65,66,67,71,72,73,75,76,88,90,97,99,100,101,102,106,109,
+%U A029776 110,111,112,114,115,116,119,120,124,125,129,137,151,153,176
+%N A029776 Digits of n appear in n^3.
+%e A029776 66 is in the list because 66^3 = 287496 and 6 appears in 287496.
+%e A029776 153 is in the list because 153^3 = 3581577 and 1, 5, 3 appear in 3581577.
+%o A029776 (MAGMA) [n: n in [0..200] | Intseq(n) subset Intseq(n^3)]; // _Bruno Berselli_, Aug 01 2013
+%K A029776 nonn,base
+%O A029776 0,3
+%A A029776 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

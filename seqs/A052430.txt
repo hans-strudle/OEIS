@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052430
+Showing 1-1 of 1
+
+%I A052430
+%S A052430 2,3,5,7,12,21,113,115,131,151,311,511,1112,1121,1211,2111,11113,
+%T A052430 11117,11131,11171,11311,11711,13111,17111,31111,71111,111112,111121,
+%U A052430 111211,112111,121111,211111,1111115,1111117,1111151,1111171,1111511,1111711
+%N A052430 Numbers n such that sum of digits and product of digits are both prime.
+%e A052430 a(7)=115 because 1+1+5=7 which is prime and 1*1*5=5 which is prime
+%t A052430 okQ[n_]:=Module[{idn=IntegerDigits[n]},PrimeQ[Total[idn]]&&PrimeQ[Times@@idn]]
+%t A052430 Select[Range[1500000],okQ] [from Harvey P. Dale, Dec. 15, 2010]
+%Y A052430 Cf. A000040, A028834, A028842.
+%K A052430 base,nonn
+%O A052430 1,1
+%A A052430 _Henry Bottomley_, Mar 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

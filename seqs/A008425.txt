@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008425
+Showing 1-1 of 1
+
+%I A008425
+%S A008425 1,0,12,64,60,0,160,384,252,0,312,960,544,0,960,1664,1020,0,876,2880,
+%T A008425 1560,0,2400,4224,2080,0,2040,5248,3264,0,4160,7680,4092,0,3480,9984,
+%U A008425 4380,0,7200,10880,6552
+%N A008425 Theta series of {D_6}* lattice.
+%D A008425 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 120.
+%H A008425 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth- aachen.de/~Gabriele.Nebe/LATTICES/Ds6.html">Home page for this lattice</a>
+%F A008425 Apparently, a(n) = sum(d|n, d^2*(4*(kronecker(-4,n/d)-kronecker(-4,d)))), n>0. - _Ralf Stephan_, Dec 31 2014
+%K A008425 nonn,easy
+%O A008425 0,3
+%A A008425 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

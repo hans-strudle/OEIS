@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040597
+Showing 1-1 of 1
+
+%I A040597
+%S A040597 24,1,15,1,1,1,4,1,7,2,24,2,7,1,4,1,1,1,15,1,48,1,15,1,1,1,4,1,7,2,24,
+%T A040597 2,7,1,4,1,1,1,15,1,48,1,15,1,1,1,4,1,7,2,24,2,7,1,4,1,1,1,15,1,48,1,
+%U A040597 15,1,1,1,4,1,7,2,24,2,7,1,4,1,1,1,15,1,48,1,15,1,1
+%N A040597 Continued fraction for sqrt(622).
+%H A040597 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040597 with(numtheory): Digits := 300: convert(evalf(sqrt(622)),confrac);
+%K A040597 nonn,cofr,easy,less
+%O A040597 0,1
+%A A040597 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008518
+Showing 1-1 of 1
+
+%I A008518
+%S A008518 1,1,1,1,2,1,1,5,5,1,1,12,22,12,1,1,27,92,92,27,1,1,58,359,604,359,58,
+%T A008518 1,1,121,1311,3607,3607,1311,121,1,1,248,4540,19912,31238,19912,4540,
+%U A008518 248,1,1,503,15110,102842,244424,244424,102842,15110,503,1,1,1014
+%N A008518 Triangle of Eulerian numbers with rows multiplied by 1+x.
+%D A008518 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 243.
+%D A008518 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 254.
+%D A008518 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 215.
+%F A008518 E.g.f.: (exp(x)-y*exp(y*x))/(exp(y*x)-y*exp(x)).
+%Y A008518 Cf. A008292.
+%Y A008518 Columns include A000325. Row sums are in A098558.
+%K A008518 nonn,tabl
+%O A008518 0,5
+%A A008518 _N. J. A. Sloane_.
+%E A008518 G.f. and more terms from _Vladeta Jovovic_, Apr 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

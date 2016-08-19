@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005084
+Showing 1-1 of 1
+
+%I A005084
+%S A005084 0,0,27,0,0,27,343,0,27,0,1331,27,0,343,27,0,0,27,6859,0,370,1331,
+%T A005084 12167,27,0,0,27,343,0,27,29791,0,1358,0,343,27,0,6859,27,0,0,370,
+%U A005084 79507,1331,27,12167,103823,27,343
+%N A005084 Sum of cubes of primes = 3 mod 4 dividing n.
+%F A005084 Additive with a(p^e) = p^3 if p = 3 (mod 4), 0 otherwise.
+%K A005084 nonn
+%O A005084 1,3
+%A A005084 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

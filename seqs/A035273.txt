@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035273
+Showing 1-1 of 1
+
+%I A035273
+%S A035273 1,14,336,11424,502656,27143424,1737179136,128551256064,
+%T A035273 10798305509376,1015040717881344,105564234659659776,
+%U A035273 12034322751201214464,1492256021148950593536,199962306833959379533824
+%N A035273 One quarter of deca-factorial numbers.
+%C A035273 a(n)= (Pochhammer(4/10,n)*10^n)/4.
+%H A035273 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035273 4*a(n) = (10*n-6)(!^10) := product(10*j-6, j=1..n)= 2^(n+1)*A034323(n), 2*A034323(n)= (5*n-3)(!^5) := product(5*j-3, j=1..n); E.g.f. (-1+(1-10*x)^(-2/5))/4.
+%Y A035273 Cf. A034323, A045757.
+%K A035273 easy,nonn
+%O A035273 1,2
+%A A035273 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034345
+Showing 1-1 of 1
+
+%I A034345
+%S A034345 0,0,0,1,4,11,27,63,134,276,544,1048,1956,3577,6395,11217,19307,32685,
+%T A034345 54413,89225,144144,229647,360975,560259,858967
+%N A034345 Number of binary [ n,4 ] codes without 0 columns.
+%D A034345 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034345 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034345 Cf. A034253, A034344-.
+%K A034345 nonn
+%O A034345 1,5
+%A A034345 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

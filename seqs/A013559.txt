@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013559
+Showing 1-1 of 1
+
+%I A013559
+%S A013559 1,1,1,1,7,1,97,55,2063,143,17803,968167,250781,7000033,
+%T A013559 166831871,571772647,43685848289,843598411471,447550424579
+%V A013559 1,-1,1,1,-7,1,97,-55,-2063,143,17803,-968167,-250781,7000033,
+%W A013559 -166831871,-571772647,43685848289,843598411471,-447550424579
+%N A013559 Numerator of [x^n] in the Taylor expansion of exp(cosech(x)-coth(x))= 1-x/2 +x^2/8 +x^3/48 -7*x^4/384 +x^5/1280 +97*x^6/46080 -...
+%C A013559 The inner function is cosech(x)-coth(x) = -x/2 +x^3/24 -x^5/240 +17*x^7/40320 -31*x^9/725760 +691*x^11/159667200 -... with e.g.f numerators cosech(x)-coth(x) = sum b(n)x^n/(n+1)! apparently in A001469.
+%Y A013559 Cf. A013521, A096664 (bisections?)
+%K A013559 sign
+%O A013559 0,5
+%A A013559 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013559 Values replaced by numerators. - R. J. Mathar, Dec 22 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

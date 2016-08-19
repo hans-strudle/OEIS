@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045855
+Showing 1-1 of 1
+
+%I A045855
+%S A045855 1,4,10,11,12,13,14,32,33,34,35,36,37,38,39,40,41,42,43,44,100,101,
+%T A045855 102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,
+%U A045855 119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136
+%N A045855 Numbers n such that n^2 has initial digit '1'.
+%t A045855 Select[Range[150],First[IntegerDigits[#^2]]==1&] (* _Harvey P. Dale_, Aug 28 2012 *)
+%K A045855 nonn,base
+%O A045855 1,2
+%A A045855 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

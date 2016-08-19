@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053981
+Showing 1-1 of 1
+
+%I A053981
+%S A053981 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,
+%T A053981 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,
+%U A053981 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%V A053981 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,
+%W A053981 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,
+%X A053981 1,1,1,1,1,1,1,1,1,1,1,1,-1,1,1,1,1,1,1,1,1,1,1,1,1
+%N A053981 A fourth order generalization of the Mobius function of n.
+%D A053981 Compares the exponents of the factors of the canonical prime factorization of n with 4 as detailed in A053864.
+%Y A053981 Cf. A008683, A053864, A053865.
+%K A053981 sign
+%O A053981 1,1
+%A A053981 _N. J. A. Sloane_, Apr 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

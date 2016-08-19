@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057822
+Showing 1-1 of 1
+
+%I A057822
+%S A057822 5,11,59,419,232792559,442720643463713815199
+%N A057822 Smaller of pair of twin primes whose average is LCM[1,...,m] for some m.
+%F A057822 If z=A051451(n), then {z-1, z+1} are twin primes.
+%e A057822 (419+421)/2=420=LCM[1,2,3,4,5,6,7] No more such primes occurs below m<2000. Known values of m such that LCM[1,..,m] is a twin prime mean value are as follows: {3,4,5,6,7,19,20,21,22,47,48}.
+%Y A057822 Cf. A003418, A051451, A049536, A057706.
+%K A057822 nonn
+%O A057822 0,1
+%A A057822 _Labos Elemer_, Nov 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

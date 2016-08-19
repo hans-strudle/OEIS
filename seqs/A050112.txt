@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050112
+Showing 1-1 of 1
+
+%I A050112
+%S A050112 1,6,36,9,2,12,3,18,4,24,144,864,216,54,13,78,19,114,28,7,42,10,60,15,
+%T A050112 90,22,5,30,180,45,11,66,16,96,576,3456,20736,5184,1296,324,81,20,120,
+%U A050112 720,4320,1080,270,67,402,100,25,150,37,222,55
+%N A050112 a(n)=[ a(n-1)/4 ] if this is not among 0,a(1),...,a(n-2), else a(n)=6*a(n-1).
+%K A050112 nonn
+%O A050112 1,2
+%A A050112 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

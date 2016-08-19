@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028312
+Showing 1-1 of 1
+
+%I A028312
+%S A028312 3,9,11,15,19,21,27,33,39
+%N A028312 Odd numbers n such that {1..n-1} cannot be partitioned into disjoint sets I, J such that 2I = -J (mod n) and I, J are unions of cyclotomic cosets mod n.
+%D A028312 F. J. MacWilliams, A. M. Odlyzko, N. J. A. Sloane and H. N. Ward, Self-Dual Codes over GF(4), J. Combin. Theory, A 25 288-318 1978.
+%Y A028312 Cf. A028311.
+%K A028312 nonn,more
+%O A028312 1,1
+%A A028312 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

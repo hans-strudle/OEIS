@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038522
+Showing 1-1 of 1
+
+%I A038522
+%S A038522 1,1,8,20,32,52,68,76,96,96,120,120,148,144,176,168,204,188
+%N A038522 On (2n+1)X(2n+1) board, let m(i)=number of squares i knight's moves from center; sequence gives max m(i), i=0,...
+%D A038522 Problem E2605*, Labels on a Chessboard, proposed by Andreas P. Hadjipolakis, Anopolis Sfakion, Crete, Greece, Am. Math. Monthly Vol. 83 (1976), no. 7 (Aug-Sept.), p. 566. Solution: Vol. 84 (1977), p. 822 by Roger Weitzenkamp.
+%e A038522 On 5 X 5 board, [ m(0),...,m(4) ]=[ 1,8,8,4,4 ], max=8, so a(2)=8.
+%Y A038522 Cf. A018842.
+%K A038522 nonn,walk,nice
+%O A038522 1,3
+%A A038522 Antreas P. Hatzipolakis (xpolakis(AT)hol.gr)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

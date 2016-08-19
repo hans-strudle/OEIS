@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024743
+Showing 1-1 of 1
+
+%I A024743
+%S A024743 3,1,2,6,18,54,174,558,1782,5694,19170,64206,214050,712566,2465694,
+%T A024743 8480310,29012526,99157446,348577698,1219546278,4248000882,
+%U A024743 14773851366,52521676254,185880813822,655167175446,2306629089486,8261570136834,29484704469390
+%N A024743 a(n) = Sum (a(2i-1)*a(n-2i+1), i = 1,2,...,k), where k = [ (n+1)/4 ].
+%K A024743 nonn
+%O A024743 1,1
+%A A024743 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

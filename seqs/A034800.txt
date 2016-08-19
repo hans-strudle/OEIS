@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034800
+Showing 1-1 of 1
+
+%I A034800
+%S A034800 1,1,1,1,2,3,2,4,9,16,3,9,26,67,125,6,20,75,251,680,1296,11,48,214,
+%T A034800 888,3135,8716,16807
+%N A034800 Triangle of number of node labeled trees by number of nodes and number of labels.
+%D A034800 J. Riordan, An Introduction to Combinatorial Analysis, p. 138.
+%H A034800 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A034800 Reference gives generating function.
+%Y A034800 Cf. A034799.
+%K A034800 nonn,tabl,more
+%O A034800 0,5
+%A A034800 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

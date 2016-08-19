@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037958
+Showing 1-1 of 1
+
+%I A037958
+%S A037958 0,0,0,0,0,0,0,0,1,1,10,11,66,78,364,455,1820,2380,8568,11628,38760,
+%T A037958 54264,170544,245157,735471,1081575,3124550,4686825,13123110,20030010,
+%U A037958 54627300,84672315,225792840
+%N A037958 C(n,[ (n-8)/2 ]).
+%F A037958 Conjecture: -(n+9)*(n-8)*a(n) +2*(n)*a(n-1) +4*n*(n-1)*a(n-2)=0. - _R. J. Mathar_, Jul 26 2015
+%t A037958 Table[Binomial[n,Floor[(n-8)/2]],{n,0,40}] (* _Harvey P. Dale_, Jun 11 2013 *)
+%K A037958 nonn
+%O A037958 0,11
+%A A037958 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

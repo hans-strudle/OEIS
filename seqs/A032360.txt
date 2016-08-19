@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032360
+Showing 1-1 of 1
+
+%I A032360
+%S A032360 1,4,5,7,9,12,16,17,41,124,128,129,187,209,276,313,397,899,1532,1613,
+%T A032360 1969,2245,2733,4585,4644,6712,6981,13344,17524,27124,29769,47337,
+%U A032360 55828,91008,94801,164901,179457,191337,200568,220992,686632,856865,1022168,1240067,1421741,1830919
+%N A032360 Numbers n such that 21*2^n+1 is prime.
+%H A032360 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032360 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032360 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032360 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032360 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032360 nonn,hard
+%O A032360 1,2
+%A A032360 _James R. Buddenhagen_
+%E A032360 More terms from _Hugo Pfoertner_, Jun 20 2003
+%E A032360 Added more terms (from http://www.prothsearch.net/riesel.html), _Joerg Arndt_, Apr 07 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

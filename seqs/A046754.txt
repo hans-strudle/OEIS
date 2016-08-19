@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046754
+Showing 1-1 of 1
+
+%I A046754
+%S A046754 1,9,128,625,972,1152,2000,2025,5625,6561,7776,8100,10000,10800,18000,
+%T A046754 21952,26244,30000,32768,35721,50625,55296,56700,64000,64800,65856,
+%U A046754 70000,80000,84672,89100,90000,97200,98304,99225,105300,109760,110000
+%N A046754 Square of d(n) (number of divisors) divides n.
+%C A046754 Subset of A033950.
+%H A046754 Donovan Johnson, <a href="/A046754/b046754.txt">Table of n, a(n) for n = 1..1000</a>
+%e A046754 If n=972, d(n)=Sigma[ 0,n ]=18. Its square is 324 which divides 972.
+%t A046754 Select[Range[110000], IntegerQ[#/DivisorSigma[0, #]^2] &] (* _Jayanta Basu_, Jun 28 2013 *)
+%Y A046754 Cf. A033950, A046755, A046756.
+%K A046754 nonn
+%O A046754 1,2
+%A A046754 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

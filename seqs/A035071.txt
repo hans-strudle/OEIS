@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035071
+Showing 1-1 of 1
+
+%I A035071
+%S A035071 2,7,20,64,200,633,2000,6325,20000,63246,200000,632456,2000000,
+%T A035071 6324556,20000000,63245554,200000000,632455533,2000000000,6324555321,
+%U A035071 20000000000,63245553204,200000000000,632455532034,2000000000000
+%N A035071 a(n) is root of square starting with digit 4: first term of runs.
+%F A035071 ceiling(sqrt((4*10^n))
+%Y A035071 Cf. A067474 (squares), A035076 (2..9).
+%K A035071 nonn,base
+%O A035071 0,1
+%A A035071 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

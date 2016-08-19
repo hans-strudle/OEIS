@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016347
+Showing 1-1 of 1
+
+%I A016347
+%S A016347 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,
+%T A016347 0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+%V A016347 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,-1,0,0,0,0,0,-1,0,0,
+%W A016347 0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+%N A016347 180th cyclotomic polynomial.
+%K A016347 sign,fini
+%O A016347 0,1
+%A A016347 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

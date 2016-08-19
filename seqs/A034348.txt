@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034348
+Showing 1-1 of 1
+
+%I A034348
+%S A034348 0,0,0,0,0,0,1,7,35,170,847,4408,24297,143270,901491,5985278,41175203,
+%T A034348 287813284,2009864185,13848061942,93369988436,613030637339,
+%U A034348 3908996099141,24179747870890,145056691643428
+%N A034348 Number of binary [ n,7 ] codes without 0 columns.
+%D A034348 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034348 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034348 Cf. A034253, A034344-.
+%K A034348 nonn
+%O A034348 1,8
+%A A034348 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

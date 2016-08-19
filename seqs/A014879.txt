@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014879
+Showing 1-1 of 1
+
+%I A014879
+%S A014879 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,
+%T A014879 1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,
+%U A014879 0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014879 1,1,0,-1,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,0,
+%W A014879 1,1,1,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,-1,-1,-1,
+%X A014879 0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014879 Inverse of 870th cyclotomic polynomial.
+%p A014879 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014879 sign
+%O A014879 0,1
+%A A014879 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

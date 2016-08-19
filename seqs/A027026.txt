@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027026
+Showing 1-1 of 1
+
+%I A027026
+%S A027026 1,25,85,215,477,985,1949,3755,7113,13329,24805,45959,84917,156625,
+%T A027026 288573,531323,977873,1799273,3310133,6089111,11200525,20601961,
+%U A027026 37893981,69699051,128197785,235793825,433693893,797688967,1467180389
+%N A027026 T(n,n+4), T given by A027023.
+%F A027026 G.f.: [x^4(5x^5-7x^4-2x^3-10x^2+21x+1)]/[(1-x)^3(1-x-x^2-x^3)]. - _Ralf Stephan_, Feb 11 2004
+%K A027026 nonn
+%O A027026 4,2
+%A A027026 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

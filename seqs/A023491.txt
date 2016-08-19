@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023491
+Showing 1-1 of 1
+
+%I A023491
+%S A023491 4,8,11,16,22,31,46,68,103,159,249,394,629,1007,1618,2606,4204,6789,
+%T A023491 10971,17737,28684,46396,75054,121423,196449,317843,514262,832074,
+%U A023491 1346304,2178345,3524615,5702925,9227504,14930392,24157858,39088211
+%N A023491 a(n) = b(n) + d(n), where b(n) = (n-th Fibonacci number > 1) and d(n) = (n-th nonLucas number).
+%K A023491 nonn
+%O A023491 0,1
+%A A023491 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

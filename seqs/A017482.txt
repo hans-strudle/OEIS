@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017482
+Showing 1-1 of 1
+
+%I A017482
+%S A017482 282475249,3570467226624,420707233300201,10485760000000000,
+%T A017482 119042423827613001,839299365868340224,4297625829703557649,
+%U A017482 17490122876598091776,59873693923837890625,179084769654285362176
+%N A017482 (11*n+7)^10.
+%H A017482 Vincenzo Librandi, <a href="/A017482/b017482.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017482 (MAGMA) [(11*n+7)^10: n in [0..10]]; // Vincenzo Librandi, Sep 04 2011
+%K A017482 nonn,easy
+%O A017482 0,1
+%A A017482 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

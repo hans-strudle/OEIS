@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057814
+Showing 1-1 of 1
+
+%I A057814
+%S A057814 1,0,0,0,0,1,1,1,1,1,127,463,1255,3004,6722,140570,1039260,5371627,
+%T A057814 23202077,90048525,814737785,7967774337,62895570839,417560407223,
+%U A057814 2455461090505,18440499041402,179627278800426,1770970802250146
+%N A057814 Number of partitions of an n-set into blocks of size >4.
+%D A057814 E. A. Enneking and J. C. Ahuja, Generalized Bell numbers, Fib. Quart., 14 (1976), 67-73.
+%H A057814 Alois P. Heinz, <a href="/A057814/b057814.txt">Table of n, a(n) for n = 0..300</a>
+%F A057814 E.g.f.: exp(exp(x)-1-x-x^2/2-x^3/6-x^4/24).
+%p A057814 G:={P=Set(Set(Atom,card>=5))}:combstruct[gfsolve](G,labeled,x):seq(combstruct[count]([P,G,labeled],size=i),i=0..27); # _Zerinvary Lajos_, Dec 16 2007
+%t A057814 max = 27; CoefficientList[ Series[ Exp[ Exp[x] - Normal[ Series[ Exp[x], {x, 0, 4}]]], {x, 0, max}], x]*Range[0, max]!(* _Jean-François Alcover_, Apr 25 2012, from e.g.f. *)
+%Y A057814 Cf. A000110, A000296, A006505, A057837.
+%K A057814 easy,nice,nonn
+%O A057814 0,11
+%A A057814 Steven C. Fairgrieve (fsteven(AT)math.wvu.edu), Nov 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004075
+Showing 1-1 of 1
+
+%I A004075
+%S A004075 1,0,0,6,10,0,0,504,2656,0,0,455936,3040560,0,0,1400156768,
+%T A004075 12248982496,0,0,11435578798976,123564928167168,0,0,
+%U A004075 204776117691241344,2634563519776965376,0,0
+%N A004075 Number of Skolem sequences of order n.
+%C A004075 For n>1, a(n)=A059106(n)*2 because A059106 ignores reflected solutions. - _Martin Fuller_, Mar 08 2007
+%D A004075 CRC Handbook of Combinatorial Designs, 1996, p. 460.
+%H A004075 Ali Assarpour, Amotz Bar-Noy, Ou Liuo, <a href="http://arxiv.org/abs/1507.00315">Counting the Number of Langford Skolem Pairings</a>, arXiv:1507.00315 [cs.DM], 2015.
+%H A004075 S. Burrill and L. Yen, <a href="http://arxiv.org/abs/1301.6424">Constructing Skolem sequences via generating trees</a>, arXiv preprint arXiv:1301.6424 [math.CO], 2013.
+%H A004075 J. E. Miller, <a href="http://dialectrix.com/langford.html">Langford's Problem</a>
+%H A004075 G. Nordh, <a href="http://arxiv.org/abs/math/0506155">Perfect Skolem sequences</a>, arXiv:math/0506155 [math.CO], 2005.
+%Y A004075 Cf. A014552, A059106, A176127, A268537.
+%K A004075 nonn,more
+%O A004075 1,4
+%A A004075 _N. J. A. Sloane_.
+%E A004075 More terms (via A059106) from _Martin Fuller_, Mar 08 2007
+%E A004075 Extended using results from the Assarpour et al. (2015) paper by _N. J. A. Sloane_, Feb 22 2016 at the suggestion of _William Rex Marshall_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

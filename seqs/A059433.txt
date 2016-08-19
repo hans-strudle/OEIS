@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059433
+Showing 1-1 of 1
+
+%I A059433
+%S A059433 1,1,2,6,3,1,1,7,16,26,168,118,69,27,1,1,169,455,810,1192,1575,20355,
+%T A059433 16153,11952,7920,4343,1576,1,1,20356,56864,105324,161704,222427,
+%U A059433 284726,347026,7544974,6346546,5148119,3970048,2848841,1832958,978779
+%N A059433 Triangle formed when cumulative boustrophedon transform is applied to 1, 1, 1, 1, ..., read by rows from left to right.
+%e A059433 1; 1,2; 6,3,1; 1,7,16,26; 168,118,69,27,1; ...
+%Y A059433 Cf. A059430, A059434.
+%K A059433 nonn,tabl,easy
+%O A059433 0,3
+%A A059433 _N. J. A. Sloane_, Jan 31 2001
+%E A059433 More terms from _Floor van Lamoen_, Oct 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

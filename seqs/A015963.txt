@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015963
+Showing 1-1 of 1
+
+%I A015963
+%S A015963 1,2,7,10,34,49,50,170,203,250,343,578,850,1250,1421,2401,2890,4210,
+%T A015963 4250,5887,6010,6250,6410,9826,9947,11977,14450,16807,21050,21250,
+%U A015963 30050,31250,32050,34714,41209,49130,69629,71570,72250,83839,102170
+%N A015963 Numbers n such that n | 13^n + 1.
+%K A015963 nonn
+%O A015963 1,2
+%A A015963 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

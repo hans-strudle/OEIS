@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058615
+Showing 1-1 of 1
+
+%I A058615
+%S A058615 1,0,3,4,5,10,15,22,29,36,53,72,99,128,160,212,272,354,448,556,703,
+%T A058615 874,1096,1356,1662,2050,2501,3060,3716,4492,5444,6550,7882,9436,
+%U A058615 11262,13460,16013,19034,22536,26616,31450,37048,43602,51164,59905
+%N A058615 McKay-Thompson series of class 30D for Monster.
+%H A058615 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058615 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058615 T30D = 1/q + 3*q + 4*q^2 + 5*q^3 + 10*q^4 + 15*q^5 + 22*q^6 + 29*q^7 + ...
+%Y A058615 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%Y A058615 Cf. A205962 (same sequence except for n=0).
+%K A058615 nonn
+%O A058615 -1,3
+%A A058615 _N. J. A. Sloane_, Nov 27 2000
+%E A058615 More terms from _Michel Marcus_, Feb 18 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

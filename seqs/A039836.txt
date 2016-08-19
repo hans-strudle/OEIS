@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039836
+Showing 1-1 of 1
+
+%I A039836
+%S A039836 1,2,3,3,4,4,4,5,5,5,5,5,6,6,6,6,6,6,7,7,7,7,7,7,8,8
+%N A039836 Maximal number m of integers s(i), with 1<=s(1)<s(2)<...<s(m)<=n, such that all sums s(i)+s(j), i<>j, are distinct.
+%D A039836 R. K. Guy, Unsolved Problems in Number Theory, Section C9.
+%K A039836 nonn
+%O A039836 1,2
+%A A039836 _John W. Layman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

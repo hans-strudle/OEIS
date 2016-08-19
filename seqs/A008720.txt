@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008720
+Showing 1-1 of 1
+
+%I A008720
+%S A008720 1,0,2,0,3,1,4,2,5,3,7,4,9,5,11,7,13,9,15,11,18,13,21,15,24,18,27,21,
+%T A008720 30,24,34,27,38,30,42,34,46,38,50,42,55,46,60,50,65,55,70,60,75,65,81,
+%U A008720 70,87,75,93,81,99,87,105
+%N A008720 Molien series for 3-dimensional group [2,5] = *225.
+%H A008720 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=223">Encyclopedia of Combinatorial Structures 223</a>
+%H A008720 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A008720 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (0, 2, 0, -1, 1, 0, -2, 0, 1).
+%p A008720 1/(1-x^2)^2/(1-x^5)
+%t A008720 LinearRecurrence[{0,2,0,-1,1,0,-2,0,1},{1,0,2,0,3,1,4,2,5},60] (* _Harvey P. Dale_, Dec 10 2015 *)
+%K A008720 nonn
+%O A008720 0,3
+%A A008720 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

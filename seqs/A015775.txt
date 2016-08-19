@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015775
+Showing 1-1 of 1
+
+%I A015775
+%S A015775 1,2,4,16,25,170,256,264,1920,9384,26664,65536
+%N A015775 phi(n) + 1 | sigma(n + 1).
+%o A015775 (PARI) is(n)=!(sigma(n+1)%(eulerphi(n)+1)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%K A015775 nonn
+%O A015775 1,2
+%A A015775 _Robert G. Wilson v_
+%E A015775 Corrected by _Charles R Greathouse IV_, Sep 25 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

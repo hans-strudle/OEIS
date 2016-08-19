@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057188
+Showing 1-1 of 1
+
+%I A057188
+%S A057188 3,5,13,43,79,101,107,227,353,7393,50287
+%N A057188 Numbers n such that (22^n+1)/23 is a prime.
+%C A057188 Some of the larger terms may only correspond to probable primes.
+%C A057188 a(12) > 10^5 - _Robert Price_, Jun 02 2013
+%H A057188 H. Dubner and T. Granlund, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Primes of the Form (b^n+1)/(b+1)</a>, J. Integer Sequences, 3 (2000), #P00.2.7.
+%K A057188 nonn
+%O A057188 1,1
+%A A057188 _N. J. A. Sloane_, Sep 15 2000
+%E A057188 a(11) from _Robert Price_, Jun 02 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

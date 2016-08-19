@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023999
+Showing 1-1 of 1
+
+%I A023999
+%S A023999 1,5,48,660,11760,257040,6652800,198918720,6745939200,255826771200,
+%T A023999 10727081164800,492775291008000,24610605962342400,1327677426915840000,
+%U A023999 76940526008586240000,4766815315895592960000,314406967644177408000000,21995911456386651463680000
+%N A023999 Absolute value of determinant of n X n matrix whose entries are the integers from 1 to n^2 spiraling inward, starting in a corner.
+%C A023999 Starting in the NW or SE corner, the signs are cyclic (+,-,-,+), starting in the NE or SW corner, the signs are always positive.
+%D A023999 Problem 1517 in the Feb. 1997 issue of Mathematics Magazine.
+%H A023999 Alois P. Heinz, <a href="/A023999/b023999.txt">Table of n, a(n) for n = 1..200</a>
+%F A023999 a(n) = (-1)^((n+4)(n-1))/2 *(3n-1) * (2n-3)!/(n-2)!.
+%e A023999 n=4: det of
+%e A023999 .1..2..3.4
+%e A023999 12.13.14.5
+%e A023999 11.16.15.6
+%e A023999 10..9..8.7
+%p A023999 a:= proc(n) option remember; `if`(n<2, (3*n+1)/4,
+%p A023999       4*(3*n-1)*(2*n-5)*(2*n-3) *a(n-2) /(3*n-7))
+%p A023999     end:
+%p A023999 seq(a(n), n=1..20);  # _Alois P. Heinz_, Jan 21 2014
+%o A023999 (Maxima) A023999(n):=if n=1 then 1 else 2*((-1)^((n+4)*(n-1))/2 *(3*n-1) * (2*n-3)!/(n-2)!)$
+%o A023999 makelist(A023999(n),n,1,30); /* _Martin Ettl_, Nov 05 2012 */
+%Y A023999 Cf. A079340, A078475, A067276, A052182.
+%Y A023999 Main diagonal of A226167, A126224 (signed version) - _Alois P. Heinz_, Jan 21 2014
+%K A023999 nonn
+%O A023999 1,2
+%A A023999 Charles Diminnie (charles.diminnie(AT)rampo.angelo.edu)
+%E A023999 Edited and extended by _Robert G. Wilson v_, May 07 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

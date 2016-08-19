@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007043
+Showing 1-1 of 1
+
+%I A007043 M3870
+%S A007043 1,0,1,1,5,16,65,260,1085,4600,19845,86725,383251,1709566,7687615,
+%T A007043 34812519,158614405,726612216,3344696501,15462729645,71763732545
+%N A007043 Number of noncommutative SL(2,C)-invariants of degree n in 5 variables.
+%D A007043 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007043 Gert Almkvist, Warren Dicks, Edward Formanek, <a href="http://dx.doi.org/10.1016/0021-8693(85)90183-8">Hilbert series of fixed free algebras and noncommutative classical invariant theory</a>, J. Algebra 93 (1985), no. 1, 189-214.
+%H A007043 Eliahu Cohen, Tobias Hansen, Nissan Itzhaki, <a href="http://arxiv.org/abs/1511.06623">From Entanglement Witness to Generalized Catalan Numbers</a>, arXiv:1511.06623 [quant-ph], 2015.
+%F A007043 a(n) = sum{k=0..n, sum{j=0..k, C(n,k)C(k,j)(-3)^(k-j)A000108(j)}}; a(n)=(1/(2*Pi))*int((1-3x+x^2)^n*sqrt(x(4-x))/x,x,0,4); - _Paul Barry_, Oct 18 2007.
+%F A007043 G.f.:  F(G^(-1)(x))  where F(t) := (t^2+3*t+1)/((t+1)*(4*t+1)^(1/2)) and G(t) := t/(t^2+3*t+1). - _Mark van Hoeij_, Oct 30 2011
+%p A007043 F := (t^2+3*t+1)/((t+1)*(4*t+1)^(1/2)); G := t/(t^2+3*t+1); Ginv := RootOf(numer(G-x),t);  ogf := series(eval(F,t=Ginv),x=0,20); # _Mark van Hoeij_, Oct 30 2011
+%K A007043 nonn
+%O A007043 0,5
+%A A007043 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

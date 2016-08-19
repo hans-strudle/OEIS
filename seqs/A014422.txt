@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014422
+Showing 1-1 of 1
+
+%I A014422
+%S A014422 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014422 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
+%U A014422 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014422 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014422 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,
+%X A014422 -1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014422 Inverse of 413th cyclotomic polynomial.
+%p A014422 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%o A014422 (PARI) Vec(1/polcyclo(413)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%K A014422 sign
+%O A014422 0,1
+%A A014422 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

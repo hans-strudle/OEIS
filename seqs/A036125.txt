@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036125
+Showing 1-1 of 1
+
+%I A036125
+%S A036125 1,6,36,11,25,27,39,29,10,19,32,28,4,24,21,3,18,26,33,34,40,35,5,30,
+%T A036125 16,14,2,12,31,22,9,13,37,17,20,38,23,15,8,7,1,6,36,11,25,27,39,29,10,
+%U A036125 19,32,28,4,24,21,3,18,26,33,34
+%N A036125 6^n mod 41.
+%D A036125 I. M. Vinogradov, Elements of Number Theory, pp. 220 ff.
+%p A036125 [ seq(primroot(ithprime(i))^j mod ithprime(i),j=0..100) ];
+%o A036125 (PARI) a(n)=lift(Mod(6,41)^n) \\ _Charles R Greathouse IV_, Mar 22 2016
+%K A036125 nonn,easy
+%O A036125 0,2
+%A A036125 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

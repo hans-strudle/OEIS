@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001536
+Showing 1-1 of 1
+
+%I A001536
+%S A001536 10,252,736,1462,2430,3640,5092,6786,8722,10900,13320,15982,18886,
+%T A001536 22032,25420,29050,32922,37036,41392,45990,50830,55912,61236,66802,
+%U A001536 72610,78660,84952,91486,98262,105280,112540,120042,127786,135772,144000,152470,161182
+%N A001536 (11n+1)(11n+10).
+%H A001536 T. D. Noe, <a href="/A001536/b001536.txt">Table of n, a(n) for n = 0..1000</a>
+%F A001536 a(n) = 242*n + a(n-1) with a(0)=10. [_Vincenzo Librandi_, Nov 12 2010]
+%K A001536 nonn
+%O A001536 0,1
+%A A001536 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

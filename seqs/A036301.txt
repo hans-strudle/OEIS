@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036301
+Showing 1-1 of 1
+
+%I A036301
+%S A036301 0,112,121,134,143,156,165,178,187,211,314,336,341,358,363,385,413,
+%T A036301 431,516,538,561,583,615,633,651,718,781,817,835,853,871,1012,1021,
+%U A036301 1034,1043,1056,1065,1078,1087,1102,1120,1201,1210,1223,1232,1245,1254,1267,1276,1289,1298
+%N A036301 Numbers n such that sum of even digits of n equals sum of odd digits of n.
+%t A036301 Select[Range[0,10000], Plus @@Select[IntegerDigits[ # ], OddQ]\[Equal]Plus @@Select[IntegerDigits[ # ], EvenQ]&] (_Zak Seidov_, Feb 17 2005)
+%o A036301 (MAGMA) [ n: n in [0..1300] | (#A eq 0 select 0 else &+A) eq (#B eq 0 select 0 else &+B) where A is [ d: d in D | IsOdd(d) ] where B is [ d: d in D | IsEven(d) ] where D is Intseq(n) ];
+%K A036301 nonn,base
+%O A036301 1,2
+%A A036301 _Patrick De Geest_, Dec 15 1998.
+%E A036301 Zero added by _Zak Seidov_, Nov 22 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

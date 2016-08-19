@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050091
+Showing 1-1 of 1
+
+%I A050091
+%S A050091 2,4,6,8,9,11,12,15,17,19,21,22,23,25,26,27,29,31,32,36,38,40,42,43,
+%T A050091 44,46,47,48,50,51,53,54,56,57,59,61,62,64,66,67,69,70,72,74,75,76,78,
+%U A050091 80,81,83,85,86,87,89,91,93,94,96,98,100,101
+%N A050091 a(n) = n-th number k such that b(k)>b(k+1), where b=A050088.
+%K A050091 nonn
+%O A050091 1,1
+%A A050091 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

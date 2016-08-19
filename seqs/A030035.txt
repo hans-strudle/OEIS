@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030035
+Showing 1-1 of 1
+
+%I A030035
+%S A030035 1,1,1,2,4,9,17,38,89,213,480,1151,2810,6978,16497,40731,101680,
+%T A030035 256491,623916,1568966,3972773,10130647,25044032,63573638,162478685,
+%U A030035 417322917,1049096179,2687278965,6917001254
+%N A030035 a(n+1)= Sum a(k)a(n-k), k = 0 ... [ 3n/4.
+%Y A030035 Cf. A000992.
+%K A030035 nonn
+%O A030035 0,4
+%A A030035 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

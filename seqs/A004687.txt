@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004687
+Showing 1-1 of 1
+
+%I A004687
+%S A004687 0,1,1,2,3,11,20,31,111,202,313,1121,2100,3221,11321,21202,33123,
+%T A004687 120331,220120,1001111,1221231,2223002,10110233,12333301,23110200,
+%U A004687 102110101,131220301,233331002,1031211303,1331202311
+%N A004687 Fibonacci numbers written in base 4.
+%H A004687 Vincenzo Librandi, <a href="/A004687/b004687.txt">Table of n, a(n) for n = 0..1000</a>
+%t A004687 bf[n_,k_]:=Module[{s=ToString[BaseForm[n,k]]},ToExpression[StringDrop[s,{Part[StringPosition[s,"\n"],1,1],-1}]]] lst={};Do[f=bf[Fibonacci[n],4];AppendTo[lst,f],{n,0,4*4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jun 17 2009 *)
+%t A004687 FromDigits[IntegerDigits[#,4]]&/@Fibonacci[Range[0,30]] (* _Harvey P. Dale_, Jun 24 2011 *)
+%K A004687 nonn,base,easy
+%O A004687 0,4
+%A A004687 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014266
+Showing 1-1 of 1
+
+%I A014266
+%S A014266 0,1,1,1,2,2,4,7,16,30,68
+%N A014266 Number of trees on n nodes with forbidden limbs.
+%C A014266 Differs from A014265 only at a(8). - _R. J. Mathar_, Feb 27 2016
+%H A014266 T. Lu, <a href="http://dx.doi.org/10.1016/0012-365X(95)00041-T">The enumeration of trees with and without given limbs</a>, Discr. Math., 154 (1996), 153-165.
+%H A014266 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%K A014266 nonn,more
+%O A014266 0,5
+%A A014266 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

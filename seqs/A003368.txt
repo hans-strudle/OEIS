@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003368
+Showing 1-1 of 1
+
+%I A003368
+%S A003368 12,75,138,201,264,327,390,453,516,579,642,705,740,768,803,866,929,
+%T A003368 992,1055,1118,1181,1244,1307,1370,1433,1468,1531,1594,1657,1720,1783,
+%U A003368 1846,1909,1972,2035,2098,2196
+%N A003368 Sum of 12 nonzero 6th powers.
+%H A003368 T. D. Noe, <a href="/A003368/b003368.txt">Table of n, a(n) for n = 1..1000</a>
+%t A003368 Module[{upto=2200,r},r=Ceiling[Surd[upto,6]];Select[Union[Total/@ Tuples[ Range[r]^6,12]],#<=upto&]] (* _Harvey P. Dale_, Aug 25 2015 *)
+%K A003368 nonn
+%O A003368 1,1
+%A A003368 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

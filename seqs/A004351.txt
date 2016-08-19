@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004351
+Showing 1-1 of 1
+
+%I A004351
+%S A004351 1,50,1485,34220,677040,12103014,201359550,3176716400,48124511370,
+%T A004351 706252528630,10104934117421,141629804643600,1951641934005400,
+%U A004351 26515202245096950,355964264416391940,4730523156632595024
+%N A004351 Binomial coefficient C(5n,n-9).
+%D A004351 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004351 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%t A004351 Table[Binomial[5n,n-9],{n,8,30}] (* _Harvey P. Dale_, Feb 09 2015 *)
+%K A004351 nonn,easy
+%O A004351 8,2
+%A A004351 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

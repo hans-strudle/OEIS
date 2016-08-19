@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016244
+Showing 1-1 of 1
+
+%I A016244
+%S A016244 1,16,187,1942,19033,180628,1681639,15470674,141251605,1283357680,
+%T A016244 11622778531,105040363246,947975408017,8547451504972,77021100541663,
+%U A016244 693754126856458,6247172473597069,56244864253707304
+%N A016244 Expansion of 1/((1-x)(1-6x)(1-9x)).
+%F A016244 a(n) = 1/40 - (12/5)*6^n + (27/8)*9^n. - Neven Juric, Oct 22 2009
+%F A016244 a(0)=1, a(1)=16, a(n)=15*a(n-1)-54*a(n-2)+1. - Vincenzo Librandi, Feb 10 2011
+%p A016244 a:=n->sum((9^(n-j)-6^(n-j))/3,j=0..n): seq(a(n), n=1..18); - _Zerinvary Lajos_, Jan 15 2007
+%K A016244 nonn
+%O A016244 0,2
+%A A016244 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020060
+Showing 1-1 of 1
+
+%I A020060
+%S A020060 1,0,1,4,19,94,559,3857,30477,271252,2685395,29270806,348322596,
+%T A020060 4493361500,62457724853,930620100318,14796859595058,250066927156481,
+%U A020060 4476197996101023,84600142126309335,1683542828313555774
+%N A020060 Integer part of GAMMA(n+9/10)/GAMMA(9/10).
+%p A020060 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020060 nonn
+%O A020060 0,4
+%A A020060 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

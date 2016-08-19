@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051687
+Showing 1-1 of 1
+
+%I A051687
+%S A051687 1,11,176,3696,96096,2978976,107243136,4396968576,202260554496,
+%T A051687 10315288279296,577656143640576,35237024762075136,2325643634296958976,
+%U A051687 165120698035084087296,12549173050666390634496
+%N A051687 (5*n+6)(!^5)/6, related to A008548 ((5*n+1)(!^5) quintic, or 5-factorials).
+%C A051687 Row m=6 of the array A(6; m,n) := ((5*n+m)(!^5))/m(!^5), m >= 0, n >= 0.
+%F A051687 a(n) = ((5*n+6)(!^5))/6(!^5).
+%F A051687 E.g.f.: 1/(1-5*x)^(11/5).
+%t A051687 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 10, 5!, 5}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A051687 Cf. A052562, A008548(n+1), A034323(n+1), A034300(n+1), A034301(n+1), A034325(n+1), A051687-A051691 (rows m=0..10).
+%K A051687 easy,nonn
+%O A051687 0,2
+%A A051687 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

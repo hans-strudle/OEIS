@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004268
+Showing 1-1 of 1
+
+%I A004268
+%S A004268 0,10000,15849,20000,23219,25849,28073,30000,31699,33219,34594,35849,
+%T A004268 37004,38073,39068,40000,40874,41699,42479,43219,43923,44594,45235,
+%U A004268 45849,46438,47004,47548,48073
+%N A004268 10000*log_2 (n) rounded down.
+%t A004268 Floor[10000*Log[2,Range[50]]] (* _Harvey P. Dale_, May 07 2013 *)
+%K A004268 nonn
+%O A004268 1,2
+%A A004268 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

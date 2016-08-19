@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028131
+Showing 1-1 of 1
+
+%I A028131
+%S A028131 1,26,429,5746,68285,751842,7859293,79189682,776807229,7469674498,
+%T A028131 70755237917,662574315858,6150105857533,56698559685794,
+%U A028131 519954841569501,4748676612377074,43230125518942397,392566127341918530
+%N A028131 Expansion of 1/((1-4x)(1-6x)(1-7x)(1-9x)).
+%F A028131 a(n)=(9^(n+3)-5*7^(n+3)+5*6^(n+3)-4^(n+3))/30. [_Yahia Kahloune_, Jun 02 2013]
+%K A028131 nonn
+%O A028131 0,2
+%A A028131 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

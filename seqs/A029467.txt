@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029467
+Showing 1-1 of 1
+
+%I A029467
+%S A029467 1,2,3,6,7,9,11,14,18,21,22,28,30,33,42,44,49,60,66,70,77,84,98,110,
+%T A029467 119,121,132,140,147,154,196,201,210,220,222,231,242,294,308,330,356,
+%U A029467 363,386,420,462,484,504,511,522,539,561,588,605,616,627,693,726,792
+%N A029467 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 22 (most significant digit on left).
+%Y A029467 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029467 nonn,base
+%O A029467 1,2
+%A A029467 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

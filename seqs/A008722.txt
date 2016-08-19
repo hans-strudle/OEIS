@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008722
+Showing 1-1 of 1
+
+%I A008722
+%S A008722 1,0,2,0,3,0,4,0,5,1,6,2,7,3,8,4,9,5,11,6,13,7,15,8,17,9,19,11,21,13,
+%T A008722 23,15,25,17,27,19,30,21,33,23,36,25,39,27,42,30,45,33,48,36,51,39,54,
+%U A008722 42,58,45,62,48,66,51,70,54,74,58,78,62,82,66,86,70,90,74,95,78,100,82
+%N A008722 Molien series for 3-dimensional group [2,9] = *229.
+%C A008722 It appears that a(n) is the number of (n+11)-digit fixed points under the base-7 Kaprekar map A165071 (see A165075 for the list of fixed points). [From _Joseph Myers_, Sep 04 2009]
+%H A008722 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A008722 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=225">Encyclopedia of Combinatorial Structures 225</a>
+%H A008722 <a href="/index/Rec#order_13">Index entries for linear recurrences with constant coefficients</a>, signature (0,2,0,-1,0,0,0,0,1,0,-2,0,1).
+%F A008722 a(n)= +2*a(n-2) -a(n-4) +a(n-9) -2*a(n-11) +a(n-13). - _R. J. Mathar_, Dec 18 2014
+%p A008722 1/(1-x^2)^2/(1-x^9)
+%t A008722 LinearRecurrence[{0,2,0,-1,0,0,0,0,1,0,-2,0,1},{1,0,2,0,3,0,4,0,5,1,6,2,7},76]
+%t A008722 (* _Ray Chandler_, Jul 15 2015 *)
+%K A008722 nonn
+%O A008722 0,3
+%A A008722 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

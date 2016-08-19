@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032006
+Showing 1-1 of 1
+
+%I A032006
+%S A032006 1,2,1,5,5,7,19,21,33,41,101,109,175,231,321,623,761,1087,1495,2109,
+%T A032006 2661,4985,5849,8557,11251,15831,20373,27743,44357,55135,76123,101373,
+%U A032006 136689,178673,240125,303997,475183,578271,793809,1024991,1387985,1763719,2363671
+%N A032006 "AFK" (ordered, size, unlabeled) transform of 2,1,1,1,...
+%C A032006 Number of compositions of n into distinct parts if there are 2 kinds of part 1. a(3) = 5: 3, 21, 21', 12, 1'2.
+%H A032006 Alois P. Heinz, <a href="/A032006/b032006.txt">Table of n, a(n) for n = 0..1000</a>
+%H A032006 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%Y A032006 b:= proc(n, i, p) option remember;
+%Y A032006       `if`(n=0, p!, `if`(i<1, 0, b(n, i-1, p)+
+%Y A032006       `if`(i>n, 0, `if`(n=1, 2, 1)*b(n-i, i-1, p+1))))
+%Y A032006     end:
+%Y A032006 a:= n-> b(n$2, 0):
+%Y A032006 seq(a(n), n=0..45);  # _Alois P. Heinz_, Sep 05 2015
+%K A032006 nonn
+%O A032006 0,2
+%A A032006 _Christian G. Bower_
+%E A032006 a(0)=1 prepended by _Alois P. Heinz_, Sep 05 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

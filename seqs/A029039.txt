@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029039
+Showing 1-1 of 1
+
+%I A029039
+%S A029039 1,1,1,2,2,3,5,5,6,8,9,11,14,15,17,21,23,26,31,33,37,43,46,51,58,62,
+%T A029039 68,76,81,88,98,104,112,123,130,140,153,161,172,186,196,209,225,236,
+%U A029039 250,268,281,297,317,331,349,371,387,407,431,449,471,497,517,541
+%N A029039 Expansion of 1/((1-x)(1-x^3)(1-x^5)(1-x^6)).
+%C A029039 Poincaré series: 1/((1-x^2)(1-x^6)(1-x^10)(1-x^12)).
+%D A029039 G. van der Geer, Hilbert Modular Surfaces, Springer-Verlag, 1988; p. 192, Note 4.
+%D A029039 S. Nagaoka, On the ring of Hilbert modular forms over Z, J. Math. Soc. Japan, 35 (1983) 589-608 + errata.
+%H A029039 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%t A029039 CoefficientList[Series[1/((1 - x) (1 - x^3) (1 - x^5) (1 - x^6)), {x, 0, 100}], x] (* _Vladimir Joseph Stephan Orlovsky_, Jun 28 2011 *)
+%K A029039 nonn
+%O A029039 0,4
+%A A029039 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

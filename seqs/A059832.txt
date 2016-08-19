@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059832
+Showing 1-1 of 1
+
+%I A059832
+%S A059832 1,2,3,1,2,3,2,3,1,2,3,3,1,2,3,2,3,1,2,3,1,2,3,2,3,1,2,3,3,1,2,3,2,3,
+%T A059832 1,2,3,2,3,1,2,3,3,1,2,3,2,3,1,2,3,1,2,3,2,3,1,2,3,3,1,2,3,2,3,1,2,3,
+%U A059832 3,1,2,3,2,3,1,2,3,1,2,3,2,3,1,2,3,3,1,2,3,2,3,1,2,3,2,3,1,2,3,3,1,2,3,2,3
+%N A059832 Form triangle as follows: start with 3 single values: 1, 2, 3. Each succeeding row is a concatenation of the previous 3 rows.
+%D A059832 C. Pickover, Wonders of Numbers, Oxford University Press, NY, 2001, p. 273.
+%H A059832 C. A. Pickover, "Wonders of Numbers, Adventures in Mathematics, Mind and Meaning," <a href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0983.00008&amp;format=complete">Zentralblatt review</a>
+%e A059832 Triangle begins
+%e A059832 1
+%e A059832 2
+%e A059832 3
+%e A059832 1 2 3
+%e A059832 2 3 1 2 3
+%e A059832 3 1 2 3 2 3 1 2 3
+%Y A059832 Cf. A059835. Row sums A001590, row lengths A000213.
+%K A059832 easy,nonn,tabf
+%O A059832 1,2
+%A A059832 Jason Earls (zevi_35711(AT)yahoo.com), Feb 25 2001
+%E A059832 More terms from Larry Reeves (larryr(AT)acm.org), Feb 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

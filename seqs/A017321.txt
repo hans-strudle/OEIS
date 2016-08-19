@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017321
+Showing 1-1 of 1
+
+%I A017321
+%S A017321 1024,537824,7962624,45435424,164916224,459165024,1073741824,
+%T A017321 2219006624,4182119424,7339040224,12166529024,19254145824,29316250624,
+%U A017321 43204003424,61917364224,86617093024,118636749824
+%N A017321 (10*n+4)^5.
+%H A017321 Vincenzo Librandi, <a href="/A017321/b017321.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017321 (MAGMA) [(10*n+4)^5: n in [0..30] ]; // Vincenzo Librandi, Aug 01 2011
+%K A017321 nonn,easy
+%O A017321 0,1
+%A A017321 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049636
+Showing 1-1 of 1
+
+%I A049636
+%S A049636 2,5,6,8,9,11,12,14,15,17,18,20,21,23,24,26,27,29,30,32,33,35,36,38,
+%T A049636 39,41,42,44,45,47,48,50,51,53,54,56,57,59
+%N A049636 Congruent to 0 or 2 mod 3, but not equal to 0 or 3.
+%F A049636 O.g.f.: -(x+2)(x^2-x-1)/((1-x)^2*(1+x)). [From _R. J. Mathar_, Aug 13 2008]
+%t A049636 Join[{2},Select[Range[4,100],MemberQ[{0,2},Mod[#,3]]&]] (* or *) With[{nn=100},Join[{2},Riffle[Range[5,nn,3],Range[6,nn,3]]]] (* _Harvey P. Dale_, Jul 14 2012 *)
+%Y A049636 a(n)=T(n, 2), array T as in A049627.
+%K A049636 nonn
+%O A049636 0,1
+%A A049636 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

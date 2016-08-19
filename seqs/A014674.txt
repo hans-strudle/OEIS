@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014674
+Showing 1-1 of 1
+
+%I A014674
+%S A014674 1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,2,1,0,0,1,2,1,1,1,0,
+%T A014674 1,1,1,1,1,0,1,1,1,2,1,0,0,1,2,1,1,1,0,1,1,1,1,1,0,1,1,1,
+%U A014674 2,1,0,0,1,2,1,1,1,0,1,1,1,1,1,0,1,1,1,2,1,0,0,1
+%V A014674 1,-1,0,0,0,1,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,2,-1,0,0,-1,2,-1,1,-1,0,
+%W A014674 1,-1,1,-1,1,0,-1,1,-1,2,-1,0,0,-1,2,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,
+%X A014674 2,-1,0,0,-1,2,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,2,-1,0,0,-1
+%N A014674 Inverse of 665th cyclotomic polynomial.
+%p A014674 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014674 CoefficientList[Series[1/Cyclotomic[665,x],{x,0,80}],x] (* _Harvey P. Dale_, Jan 29 2016 *)
+%K A014674 sign
+%O A014674 0,20
+%A A014674 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

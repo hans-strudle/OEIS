@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033023
+Showing 1-1 of 1
+
+%I A033023
+%S A033023 11,22,33,44,55,66,77,88,99,111,222,333,444,555,666,777,888,999,1100,
+%T A033023 1111,1122,1133,1144,1155,1166,1177,1188,1199,2200,2211,2222,2233,
+%U A033023 2244,2255,2266,2277,2288,2299,3300,3311,3322,3333
+%N A033023 n-th number k such that every run of digits of k in base 10 has length >=2.
+%H A033023 Vincenzo Librandi, <a href="/A033023/b033023.txt">Table of n, a(n) for n = 1..1100</a>
+%t A033023 Select[Range[10000], Min[Length/@Split[IntegerDigits[#, 10]]]>1&] (* _Vincenzo Librandi_, Feb 05 2014 *)
+%K A033023 nonn,base
+%O A033023 1,1
+%A A033023 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

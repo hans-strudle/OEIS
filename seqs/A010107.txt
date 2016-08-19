@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010107
+Showing 1-1 of 1
+
+%I A010107
+%S A010107 1,0,0,0,1,0,0,2,1,0,10,14,13,30,85,124,50,476,1047,642,1949,
+%T A010107 7220,9547,2690,42625,90224,62414,190074,683506,952260,290296,
+%U A010107 4276192,9356547,6406858,20006212,73731040,103077077
+%V A010107 1,0,0,0,1,0,0,2,-1,0,10,-14,13,30,-85,124,50,-476,1047,-642,-1949,
+%W A010107 7220,-9547,-2690,42625,-90224,62414,190074,-683506,952260,290296,
+%X A010107 -4276192,9356547,-6406858,-20006212,73731040,-103077077
+%N A010107 Free energy coefficients for square lattice spin 1 Ising model.
+%D A010107 Jensen, Iwan; Guttmann, Anthony J.; Series expansions of the percolation probability for directed square and honeycomb lattices. J. Phys. A 28 (1995), no. 17, 4813-4833.
+%H A010107 I. Jensen, <a href="/A010107/b010107.txt">Table of n, a(n) for n = 0..113</a> (from link below)
+%H A010107 I. G. Enting, A, J. Guttmann and I. Jensen, <a href="http://arXiv.org/abs/hep-lat/?9410005">Low-Temperature Series Expansions for the Spin-1 Ising Model</a>, J. Phys. A. 27 (1994) 6987-7006.
+%H A010107 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/ising/series/pf1.ser">More terms</a>
+%Y A010107 Cf. A010102, A010115, A010111.
+%K A010107 sign
+%O A010107 0,8
+%A A010107 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008812
+Showing 1-1 of 1
+
+%I A008812
+%S A008812 1,2,3,4,5,8,11,14,17,20,25,30,35,40,45,52,59,66,73,80,89,98,107,116,
+%T A008812 125,136,147,158,169,180,193,206,219,232,245,260,275,290,305,320,337,
+%U A008812 354,371,388,405,424,443,462
+%N A008812 Expansion of (1+x^5)/(1-x)^2/(1-x^5).
+%C A008812 Number of 0..n arrays of six elements with zero second differences. [From R. H. Hardin, Nov 16 2011]
+%C A008812 Also number of ordered triples (w,x,y) with all terms in {1,...,n+1} and w+5y=4x. Also the number of 3-tuples (w,x,y) with all terms in {0,...,n+1} and 5w=2x+3y. - _Clark Kimberling_, Apr 15 2012
+%C A008812 a(n) is also the number of 5 boxes polyomino (zig-zag patterns) packing into (n+3) X (n+3) square. See illustration in links. - _Kival Ngaokrajang_, Nov 10 2013
+%H A008812 Kival Ngaokrajang, <a href="/A008812/a008812.pdf">Illustration of initial terms</a>
+%H A008812 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1,0,0,1,-2,1).
+%F A008812 a(n) = 2*a(n-1) -a(n-2) +a(n-5) -2*a(n-6) +a(n-7). [From R. H. Hardin, Nov 16 2011]
+%e A008812 For n = 5 there are 8 0..5 arrays of six elements with zero second differences: [0,0,0,0,0,0], [0,1,2,3,4,5], [1,1,1,1,1,1], [2,2,2,2,2,2], [3,3,3,3,3,3], [4,4,4,4,4,4], [5,4,3,2,1,0], [5,5,5,5,5,5].
+%t A008812 CoefficientList[Series[(1+x^5)/(1-x)^2/(1-x^5),{x,0,80}],x] (* or *) LinearRecurrence[{2,-1,0,0,1,-2,1},{1,2,3,4,5,8,11},80] (* _Harvey P. Dale_, Apr 17 2015 *)
+%o A008812 (PARI) Vec((1+x^5)/(1-x)^2/(1-x^5)+O(x^99)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%Y A008812 Cf. A130497 (first differences).
+%K A008812 nonn,easy
+%O A008812 0,2
+%A A008812 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

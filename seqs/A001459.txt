@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001459
+Showing 1-1 of 1
+
+%I A001459
+%S A001459 1,30,3150,420420,62355150,9816086280,1605660228900,269764879032000,
+%T A001459 46225898052627150,8042050347997165500,1415997888807961859400,
+%U A001459 251762943910387780962000,45125969443194371927422500
+%N A001459 (5*n)!/((2*n)!*(2*n)!*n!).
+%H A001459 James Spahlinger, <a href="/A001459/b001459.txt">Table of n, a(n) for n = 0..400</a>
+%p A001459 f := n->(5*n)!/((2*n)!*(2*n)!*n!);
+%K A001459 nonn
+%O A001459 0,2
+%A A001459 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

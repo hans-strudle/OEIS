@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046644
+Showing 1-1 of 1
+
+%I A046644
+%S A046644 1,2,2,8,2,4,2,16,8,4,2,16,2,4,4,128,2,16,2,16,4,4,2,32,8,4,16,16,2,8,
+%T A046644 2,256,4,4,4,64,2,4,4,32,2,8,2,16,16,4,2,256,8,16,4,16,2,32,4,32,4,4,
+%U A046644 2,32,2,4,16,1024,4,8,2,16,4,8,2,128,2,4,16,16,4,8
+%N A046644 From square root of Riemann zeta function: form Dirichlet series Sum b_n/n^s whose square is zeta function; sequence gives denominator of b_n.
+%t A046644 b[1] = 1; b[n_] := b[n] = (dn = Divisors[n]; c = 1;
+%t A046644 Do[c = c - b[dn[[i]]]*b[n/dn[[i]]], {i, 2, Length[dn] - 1}]; c/2); a[n_] := Denominator[b[n]]; a /@ Range[78] (* _Jean-François Alcover_, Apr 04 2011, after Maple version *)
+%Y A046644 See A046643 for more details. See also A046645.
+%K A046644 nonn,easy,frac,nice,mult
+%O A046644 1,2
+%A A046644 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

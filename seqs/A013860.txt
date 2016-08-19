@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013860
+Showing 1-1 of 1
+
+%I A013860
+%S A013860 1331,214358881,34522712143931,5559917313492231481,
+%T A013860 895430243255237372246531,144209936106499234037676064081,
+%U A013860 23225154419887808141001767796309131,3740434344477351388916475705363381856681,602400691612421918536387328824478011400331731
+%N A013860 11^(5*n+3).
+%H A013860 Vincenzo Librandi, <a href="/A013860/b013860.txt">Table of n, a(n) for n = 0..100</a>
+%H A013860 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013860 (MAGMA) [11^(5*n+3): n in [0..10]]; // Vincenzo Librandi, Jul 08 2011
+%K A013860 nonn,easy
+%O A013860 0,1
+%A A013860 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

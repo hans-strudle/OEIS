@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030000
+Showing 1-1 of 1
+
+%I A030000
+%S A030000 10,0,1,5,2,8,4,15,3,12,10,40,7,17,18,21,4,27,30,13,11,18,43,41,10,8,
+%T A030000 18,15,7,32,22,17,5,25,27,25,16,30,14,42,12,22,19,22,18,28,42,31,11,
+%U A030000 32,52,9,19,16,25,16,8,20,33,33,23,58,18,14,6,16,46,24,15,34,29,21,17,30
+%N A030000 Susanna's sequence: smallest nonnegative number k such that 2^k contains n.
+%H A030000 T. D. Noe, <a href="/A030000/b030000.txt">Table of n, a(n) for n=0..1000</a>
+%e A030000 2^12 = 4096 is first power of 2 containing a 9, so a(9) = 12.
+%t A030000 Table[ i=0; While[ StringPosition[ ToString[ 2^i ], ToString[ n ] ]=={}, i++ ]; i, {n, 0, 80} ]
+%o A030000 (Haskell)
+%o A030000 import Data.List (isInfixOf, findIndex)
+%o A030000 import Data.Maybe (fromJust)
+%o A030000 a030000 n =
+%o A030000    fromJust $ findIndex (show n `isInfixOf`) $ map show a000079_list
+%o A030000 -- _Reinhard Zumkeller_, Aug 04 2011
+%Y A030000 Cf. A030001, A063565, A018856, A000079.
+%K A030000 nonn,base,nice
+%O A030000 0,1
+%A A030000 _N. J. A. Sloane_.
+%E A030000 More terms from _Hans Havermann_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

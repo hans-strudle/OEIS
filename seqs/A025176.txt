@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025176
+Showing 1-1 of 1
+
+%I A025176
+%S A025176 1,2,9,22,114,308,1717,4902,28526,84284,504410,1525500,9311140,
+%T A025176 28638504,177367949,552532742,3460680278,10888711788,68810154286,
+%U A025176 218247846932,1389230689596,4435391806552,28403131135554
+%N A025176 a(n) = Jacobi P-Polynomial P_n(alpha=1, beta=1, x=sqrt(2)) multiplied by 2^(n/2+floor(n/2)) and divided by n+1.
+%H A025176 Wikipedia, <a href="http://en.wikipedia.org/wiki/Jacobi_polynomials">Jacobi polynomials</a>
+%p A025176 A025176 := proc(n)
+%p A025176     JacobiP(n,1,1,sqrt(2)) ;
+%p A025176     %*2^(n/2+floor(n/2))/(n+1) ;
+%p A025176     simplify(%) ;
+%p A025176 end proc: # _R. J. Mathar_, Feb 05 2013
+%t A025176 Table[ 2^(n/2+Floor[ n/2 ])/(n+1)JacobiP[ n, 1, 1, Sqrt[ 2 ] ], {n, 0, 24} ]
+%K A025176 nonn
+%O A025176 0,2
+%A A025176 _Wouter Meeussen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

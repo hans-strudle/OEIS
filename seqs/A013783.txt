@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013783
+Showing 1-1 of 1
+
+%I A013783
+%S A013783 125,78125,48828125,30517578125,19073486328125,11920928955078125,
+%T A013783 7450580596923828125,4656612873077392578125,2910383045673370361328125,
+%U A013783 1818989403545856475830078125,1136868377216160297393798828125
+%N A013783 5^(4n+3).
+%H A013783 Vincenzo Librandi, <a href="/A013783/b013783.txt">Table of n, a(n) for n = 0..200</a>
+%H A013783 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013783 a(n)=625*a(n-1), n>0 ; a(0)=125 . G.f.: 125/(1-625*x). a(n)=25*A013782(n). [From _Philippe Deléham_, Nov 30 2008]
+%o A013783 (MAGMA) [5^(4*n+3): n in [0..15]]; // Vincenzo Librandi, Jun 28 2011
+%K A013783 nonn,easy
+%O A013783 0,1
+%A A013783 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014579
+Showing 1-1 of 1
+
+%I A014579
+%S A014579 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,
+%T A014579 0,0,0,0,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014579 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014579 1,1,0,-1,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,-1,-1,0,1,1,1,0,-1,-1,0,0,0,
+%W A014579 0,0,0,0,0,0,0,1,1,0,-1,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014579 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014579 Inverse of 570th cyclotomic polynomial.
+%p A014579 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014579 sign
+%O A014579 0,1
+%A A014579 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

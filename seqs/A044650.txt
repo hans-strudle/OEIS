@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044650
+Showing 1-1 of 1
+
+%I A044650
+%S A044650 18,99,170,180,261,342,423,504,585,666,747,828,899,909,990,1071,1152,
+%T A044650 1233,1314,1395,1538,1557,1628,1638,1719,1800,1881,1962,2043,2124,
+%U A044650 2205,2286,2357,2367,2448,2529,2610,2691,2772,2853
+%N A044650 Numbers n such that string 2,0 occurs in the base 9 representation of n but not of n+1.
+%K A044650 nonn,base
+%O A044650 1,1
+%A A044650 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

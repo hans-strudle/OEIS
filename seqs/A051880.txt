@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051880
+Showing 1-1 of 1
+
+%I A051880
+%S A051880 1,15,75,245,630,1386,2730,4950,8415,13585,21021,31395,45500,64260,
+%T A051880 88740,120156,159885,209475,270655,345345,435666,543950,672750,824850,
+%U A051880 1003275,1211301,1452465,1730575
+%N A051880 Partial sums of A051799.
+%D A051880 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%D A051880 Herbert John Ryser, Combinatorial Mathematics, "The Carus Mathematical Monographs", No. 14, John Wiley and Sons, 1963, pp. 1-16.
+%H A051880 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A051880 a(n) = C(n+4, 4)*(2n+1).
+%F A051880 G.f.: (1+9*x)/(1-x)^6.
+%t A051880 Nest[Accumulate[#]&,Table[n(n+1)(10n-7)/6,{n,0,50}],2] (* _Harvey P. Dale_, Nov 13 2013 *)
+%Y A051880 Cf. A051799.
+%Y A051880 Cf. A093645 ((10, 1) Pascal, column m=5).
+%K A051880 easy,nonn
+%O A051880 0,2
+%A A051880 _Barry E. Williams_, Dec 14 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056031
+Showing 1-1 of 1
+
+%I A056031
+%S A056031 1,28,42,63,118,130,170,177,195,255,263,266,274,334,352,359,399,411,
+%T A056031 466,487,501,528,530,557,571,592,647,659,699,706,724,784,792,795,803,
+%U A056031 863,881,888,928,940,995,1016,1030,1057,1059,1086,1100,1121,1176,1188
+%N A056031 n^22 = 1 (mod 23^2).
+%t A056031 x=23; Select[ Range[ 2000 ], PowerMod[ #, x-1, x^2 ]==1& ]
+%K A056031 nonn
+%O A056031 1,2
+%A A056031 _Robert G. Wilson v_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027548
+Showing 1-1 of 1
+
+%I A027548
+%S A027548 1,55,2816,158774,10137723,738815949,61433591950,5804697721600,
+%T A027548 619859028202877,74374520599510883,9969735382939505772,
+%U A027548 1484899710575496381066,244477746374995741646479
+%N A027548 Third column of A027537.
+%F A027548 Numerators of sequence a[ 3, n ] in (a[ i, j ])^2 where a[ i, j ] = A(i, j)/i! if j<=i, 0 if j>i
+%K A027548 nonn
+%O A027548 3,2
+%A A027548 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050068
+Showing 1-1 of 1
+
+%I A050068
+%S A050068 1,3,4,5,9,10,14,23,37,38,42,51,65,102,144,209,353,354,358,367,381,
+%T A050068 418,460,525,669,1022,1380,1761,2221,2890,4270,6491,10761,10762,10766,
+%U A050068 10775,10789,10826,10868,10933,11077,11430,11788
+%N A050068 a(n) = a(n-1)+a(m), where m=2n-3-2^(p+1) and 2^p<n-1<=2^(p+1), for n >= 4.
+%H A050068 Ivan Neretin, <a href="/A050068/b050068.txt">Table of n, a(n) for n = 1..8193</a>
+%t A050068 Fold[Append[#1, #1[[-1]] + #1[[#2]]] &, {1, 3, 4}, Flatten@Table[2 k - 1, {n, 5}, {k, 2^n}]] (* _Ivan Neretin_, Sep 07 2015 *)
+%Y A050068 Same as A050036 and A050052 except for second term.
+%Y A050068 Cf. similar sequences with different initial conditions: A050024 (1,1,1), A050028 (1,1,2), A050032 (1,1,3), A050036 (1,1,4), A050040 (1,2,1), A050044 (1,2,2), A050048 (1,2,3), A050052 (1,2,4), A050056 (1,3,1), A050060 (1,3,2), A050064 (1,3,3).
+%K A050068 nonn
+%O A050068 1,2
+%A A050068 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

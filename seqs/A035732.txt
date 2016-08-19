@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035732
+Showing 1-1 of 1
+
+%I A035732
+%S A035732 1,74,2738,67562,1251266,18559274,229731890,2441850890,22759419650,
+%T A035732 189032223370,1417045988658,9687517561002,60920563283394,
+%U A035732 354975721241706,1928517866520498,9821667099910602,47112663470291970
+%N A035732 Coordination sequence for 37-dimensional cubic lattice.
+%D A035732 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035732 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035732 <a href="/index/Rec#order_37">Index entries for linear recurrences with constant coefficients</a>, signature (37, -666, 7770, -66045, 435897, -2324784, 10295472, -38608020, 124403620, -348330136, 854992152, -1852482996, 3562467300, -6107086800, 9364199760, -12875774670, 15905368710, -17672631900, 17672631900, -15905368710, 12875774670, -9364199760, 6107086800, -3562467300, 1852482996, -854992152, 348330136, -124403620, 38608020, -10295472, 2324784, -435897, 66045, -7770, 666, -37, 1).
+%F A035732 G.f.: ((1+x)/(1-x))^37.
+%K A035732 nonn,easy
+%O A035732 0,2
+%A A035732 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035732 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

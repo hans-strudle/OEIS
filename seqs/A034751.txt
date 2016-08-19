@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034751
+Showing 1-1 of 1
+
+%I A034751
+%S A034751 1,6,18,63,162,540,1458,4536,13203,39852,118098,356238,1062882,
+%T A034751 3193020,9567396,28711665,86093442,258324066,774840978,2324645406,
+%U A034751 6973581924,20921060700,62762119218,188287473024,564859079523,1694580407532
+%N A034751 Dirichlet convolution of 3^(n-1) with itself.
+%Y A034751 Cf. A034719.
+%K A034751 nonn
+%O A034751 1,2
+%A A034751 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

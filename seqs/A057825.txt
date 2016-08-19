@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057825
+Showing 1-1 of 1
+
+%I A057825
+%S A057825 3,4,5,6,7,8,19,20,21,22,23,24,29,30,32,33,34,35,36,47,48,61,62,63,97,
+%T A057825 98,99,100,181,182,183,184,185,186,187,188,189,190,233,234,235,236,
+%U A057825 237,238,307,308,309,310,401,402,403,404,405,406,407,408,887,888,889,890
+%N A057825 Values of n for which A003418(n)-1 is prime.
+%e A057825 Less number of distinct primes than distinct values of a(n) are generated. So e.g. n=97,98,99,100 all correspond to LCM[1,...,97]= 69720375229712477164533808935312303556799, a prime.
+%Y A057825 Cf. A003418, A049536, A049537, A051451.
+%K A057825 nonn
+%O A057825 1,1
+%A A057825 _Labos Elemer_, Nov 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

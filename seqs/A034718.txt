@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034718
+Showing 1-1 of 1
+
+%I A034718
+%S A034718 1,6,9,24,15,54,21,80,54,90,33,216,39,126,135,240,51,324,57,360,189,
+%T A034718 198,69,720,150,234,270,504,87,810,93,672,297,306,315,1296,111,342,
+%U A034718 351,1200,123,1134,129,792,810,414,141,2160,294,900,459,936,159,1620,495
+%N A034718 Dirichlet convolution of b_n=n with b_n with b_n.
+%F A034718 a(n) = Sum{k*l*m = n} k*l*m, for positive integer k, l, m. This equals one sixth of the same sum over all integers. - _Ralf Stephan_, May 06 2005
+%F A034718 Dirichlet g.f.: zeta^3(x-1)
+%F A034718 Multiplicative with a(p^e) = p^e * (e+2 choose 2) . _Mitch Harris_ Jun 27, 2005.
+%F A034718 a(n) = n*A007425(n). Dirichlet convolution of A000027 by A038040. - R. J. Mathar, Mar 30 2011
+%K A034718 nonn,mult
+%O A034718 1,2
+%A A034718 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

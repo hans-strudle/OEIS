@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015951
+Showing 1-1 of 1
+
+%I A015951
+%S A015951 1,2,3,9,21,26,27,63,81,147,189,243,338,441,567,609,729,903,1029,1323,
+%T A015951 1378,1701,1827,2187,2667,2709,3087,3969,4263,4394,4401,5103,5481,
+%U A015951 6321,6561,7203,8001,8127,9261,9429,11907,12789,13149,13203
+%N A015951 Numbers n such that n | 5^n + 1.
+%K A015951 nonn
+%O A015951 1,2
+%A A015951 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

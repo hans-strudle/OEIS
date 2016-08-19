@@ -1,0 +1,85 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005940
+Showing 1-1 of 1
+
+%I A005940 M0509
+%S A005940 1,2,3,4,5,6,9,8,7,10,15,12,25,18,27,16,11,14,21,20,35,30,45,24,49,50,
+%T A005940 75,36,125,54,81,32,13,22,33,28,55,42,63,40,77,70,105,60,175,90,135,
+%U A005940 48,121,98,147,100,245,150,225,72,343,250,375,108,625,162,243,64,17,26,39
+%N A005940 The Doudna sequence: write n-1 in binary; power of p_k in a(n) is # of 1's that are followed by k-1 0's.
+%C A005940 A permutation of the natural numbers. - _Robert G. Wilson v_, Feb 22 2005
+%C A005940 Fixed points: A029747. - _Reinhard Zumkeller_, Aug 23 2006
+%C A005940 The even bisection, when halved, gives the sequence back. - _Antti Karttunen_, Jun 28 2014
+%C A005940 From _Antti Karttunen_, Dec 21 2014: (Start)
+%C A005940 This irregular table can be represented as a binary tree. Each child to the left is obtained by applying A003961 to the parent, and each child to the right is obtained by doubling the parent:
+%C A005940                                       1
+%C A005940                                       |
+%C A005940                    ...................2...................
+%C A005940                   3                                       4
+%C A005940         5......../ \........6                   9......../ \........8
+%C A005940        / \                 / \                 / \                 / \
+%C A005940       /   \               /   \               /   \               /   \
+%C A005940      /     \             /     \             /     \             /     \
+%C A005940     7       10         15       12         25       18         27       16
+%C A005940   11 14   21  20     35  30   45  24     49  50   75  36    125  54   81  32
+%C A005940 etc.
+%C A005940 Sequence A163511 is obtained by scanning the same tree level by level, from right to left. Also in binary trees A253563 and A253565 the terms on level of the tree are some permutation of the terms present on the level n of this tree. A252464(n) gives the distance of n from 1 in all these trees.
+%C A005940 A252737(n) gives the sum and A252738(n) the product of terms on row n (where 1 is on the row 0, 1 on row 1, 3 and 4 on row 2, etc.). A252745(n) gives the number of nodes on level n whose left child is larger than the right child, A252750 the difference between left and right child for each node from node 2 onward.
+%C A005940 (End)
+%D A005940 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005940 A. Karttunen & R. Zumkeller (first 1024 terms), <a href="/A005940/b005940.txt">Table of n, a(n) for n = 1..8192</a>
+%H A005940 R. E. Kutz, <a href="http://www.jstor.org/stable/3027304">Two unusual sequences</a>, Two-Year College Mathematics Journal, 12 (1981), 316-319.
+%H A005940 <a href="/index/Per#IntegerPermutation">Index entries for sequences that are permutations of the natural numbers</a>
+%F A005940 a(n) = f(n-1, 1, 1) with f(n, i, x) = if n=0 then x = else (if n mod 2 = 0 then f(n/2, i+1, x) else f((n-1)/2, i, x*prime(i))). - _Reinhard Zumkeller_, Aug 23 2006, _R. J. Mathar_, Mar 06 2010
+%F A005940 From _Antti Karttunen_, Jun 26 2014: (Start)
+%F A005940 Define a starting-offset 0 version of this sequence as:
+%F A005940 b(0)=1, b(1)=2, [base cases]
+%F A005940 and then compute the rest either with recurrence:
+%F A005940 b(n) = A000040(1+(A070939(n)-A000120(n))) * b(A053645(n)).
+%F A005940 or
+%F A005940 b(2n) = A003961(b(n)), b(2n+1) = 2 * b(n). [Compare this to the similar recurrence given for A163511].
+%F A005940 Then define a(n) = b(n-1), where a(n) gives this sequence A005940 with the starting offset 1.
+%F A005940 Can be also defined as a composition of related permutations:
+%F A005940 a(n+1) = A243353(A006068(n)).
+%F A005940 a(n+1) = A163511(A054429(n)). [Compare the scatter plots of this sequence and A163511 to each other].
+%F A005940 This permutation also maps between the partitions as enumerated in the lists A125106 and A112798, providing identities between:
+%F A005940 A161511(n) = A056239(a(n+1)). [The corresponding sums]
+%F A005940 A243499(n) = A003963(a(n+1)). [... and the products of parts of those partitions].
+%F A005940 (End)
+%F A005940 From _Antti Karttunen_, Dec 21 2014  - Jan 04 2015: (Start)
+%F A005940 A002110(n) =  a(1+A002450(n)). [Primorials occur at (4^n - 1)/3 in the offset-0 version of the sequence.]
+%F A005940 a(n) = A250246(A252753(n-1)).
+%F A005940 a(n) = A122111(A253563(n-1)).
+%F A005940 For n >= 1, A055396(a(n+1)) = A001511(n).
+%F A005940 For n >= 2, a(n) = A246278(1+A253552(n)).
+%F A005940 (End)
+%p A005940 f := proc(n,i,x) option remember ; if n = 0 then x; elif type(n,'even') then procname(n/2,i+1,x) ; else procname((n-1)/2,i,x*ithprime(i)) ; end if; end proc:
+%p A005940 A005940 := proc(n) f(n-1,1,1) ; end proc: # _R. J. Mathar_, Mar 06 2010
+%t A005940 f[n_] := Block[{p = Partition[ Split[ Join[ IntegerDigits[n - 1, 2], {2}]], 2]}, Times @@ Flatten[ Table[q = Take[p, -i]; Prime[ Count[ Flatten[q], 0] + 1]^q[[1, 1]], {i, Length[p]}] ]]; Table[ f[n], {n, 67}] (* _Robert G. Wilson v_, Feb 22 2005 *)
+%o A005940 (PARI) A005940(n) = { my(p=2, t=1); n--; until(!n\=2, n%2 && (t*=p) || p=nextprime(p+1)); t } \\ _M. F. Hasler_, Mar 07 2010; update Aug 29 2014
+%o A005940 (Haskell)
+%o A005940 a005940 n = f (n - 1) 1 1 where
+%o A005940    f 0 y _          = y
+%o A005940    f x y i | m == 0 = f x' y (i + 1)
+%o A005940            | m == 1 = f x' (y * a000040 i) i
+%o A005940            where (x',m) = divMod x 2
+%o A005940 -- _Reinhard Zumkeller_, Oct 03 2012
+%o A005940 (Scheme, with memoization-macro definec from Antti Karttunen's IntSeq-library)
+%o A005940 (define (A005940 n) (A005940off0 (- n 1))) ;; The off=1 version, utilizing any one of three different offset-0 implementations:
+%o A005940 (definec (A005940off0 n) (cond ((< n 2) (+ 1 n)) (else (* (A000040 (- (A070939 n) (- (A000120 n) 1))) (A005940off0 (A053645 n))))))
+%o A005940 (definec (A005940off0 n) (cond ((<= n 2) (+ 1 n)) ((even? n) (A003961 (A005940off0 (/ n 2)))) (else (* 2 (A005940off0 (/ (- n 1) 2))))))
+%o A005940 (define (A005940off0 n) (let loop ((n n) (i 1) (x 1)) (cond ((zero? n) x) ((even? n) (loop (/ n 2) (+ i 1) x)) (else (loop (/ (- n 1) 2) i (* x (A000040 i)))))))
+%o A005940 ;; _Antti Karttunen_, Jun 26 2014
+%Y A005940 Cf. A103969. Inverse is A005941 (A156552).
+%Y A005940 Cf. A125106. [From _Franklin T. Adams-Watters_, Mar 06 2010]
+%Y A005940 Cf. A252737 (gives row sums), A252738 (row products).
+%Y A005940 Cf. also A000040, A000120, A000142, A001511, A002110, A002450, A003961, A053645, A055396, A070939, A112798, A163511, A243353, A006068, A054429, A244154, A252463, A252464, A252745, A252750, A250246, A252753, A253552, A253563, A253565.
+%K A005940 nonn,easy,nice,tabf,look
+%O A005940 1,2
+%A A005940 _N. J. A. Sloane_ and _J. H. Conway_
+%E A005940 More terms from _Robert G. Wilson v_, Feb 22 2005
+%E A005940 Sign in a formula switched and Maple program added - _R. J. Mathar_, Mar 06 2010
+%E A005940 Binary tree illustration and tabf-keyword added by _Antti Karttunen_, Dec 21 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

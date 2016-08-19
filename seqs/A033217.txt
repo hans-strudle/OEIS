@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033217
+Showing 1-1 of 1
+
+%I A033217
+%S A033217 23,59,101,167,173,211,223,271,307,317,347,449,463,593,599,607,691,
+%T A033217 719,809,821,829,853,877,883,991,997,1097,1117,1151,1163,1181,1231,
+%U A033217 1319,1451,1453,1481,1553,1613,1669,1697,1787,1789,1867,1871,1879,1889,1913,2027,2053,2143,2309,2339,2347,2381,2393,2423,2539,2647,2677,2693,2707,2741,2819
+%N A033217 Primes of form x^2+23*y^2.
+%C A033217 Discriminant -23.
+%C A033217 Also primes of the form x^2+xy+6y^2. - _N. J. A. Sloane_, Jun 02 2014
+%C A033217 Also primes of the form x^2-xy+6y^2 with x and y nonnegative. - _T. D. Noe_, May 07 2005
+%C A033217 Primes p such that X^3-X+1 is split modulo p. E.g. X^3-X+1=(X-33)(X-40)(X-94) modulo 167. - Julien Freslon (julien.freslon(AT)wanadoo.fr), Feb 24 2007
+%C A033217 If x>0, then tau(p) = 2 mod 23 - comment from _Jud McCranie_.
+%D A033217 Lure of the Integers, Joe Roberts, "Integer 23 - the Tau function".
+%D A033217 David A. Cox, "Primes of the Form x^2 + n y^2", Wiley, 1989.
+%H A033217 T. D. Noe and Ray Chandler, <a href="/A033217/b033217.txt">Table of n, a(n) for n = 1..10000</a> [First 1000 terms from T. D. Noe]
+%H A033217 N. J. A. Sloane et al., <a href="https://oeis.org/wiki/Binary_Quadratic_Forms_and_OEIS">Binary Quadratic Forms and OEIS</a> (Index to related sequences, programs, references)
+%t A033217 QuadPrimes2[1, 0, 23, 10000] (* see A106856 *)
+%Y A033217 Cf. A000594. Primes in A028958.
+%K A033217 nonn,nice
+%O A033217 1,1
+%A A033217 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

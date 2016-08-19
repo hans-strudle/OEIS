@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052243
+Showing 1-1 of 1
+
+%I A052243
+%S A052243 642427,1058861,3431903,4176587,4560121,4721047,5072269,5145403,
+%T A052243 5669099,5893141,6248969,6285047,6503179,6682969,8545357,8776121,
+%U A052243 8778739,9490571,9836227,9843019,9843049,10023787,11697979,12057919,12340313,12687119,12794641,12845849
+%N A052243 Initial prime in set of 4 consecutive primes in arithmetic progression with difference 30.
+%C A052243 Primes p such that p, p+30, p+60, p+90 are consecutive primes.
+%H A052243 M. F. Hasler, <a href="/A052243/b052243.txt">Table of n, a(n) for n=1,...,200</a>.
+%H A052243 <a href="/index/Pri#primes_AP">Index entries for sequences related to primes in arithmetic progressions</a>
+%e A052243 642427, 642457, 642487, 642517 are consecutive primes.
+%p A052243 p := 2 : q := 3 : r := 5 : s := 7 : for i from 1 do if q-p = 30 and r-q=30 and s-r=30 then printf("%d,\n",p) ; fi ; p := q ; q := r ; r := s ; s := nextprime(r) ; od: # _R. J. Mathar_, Apr 12 2008
+%t A052243 p=2; q=3; r=5; s=7; A052243 = Reap[For[i=1, i<1000000, i++, If[ q-p == 30 && r-q == 30 && s-r == 30 , Print[p]; Sow[p]]; p=q; q=r; r=s; s=NextPrime[r]]][[2, 1]] (* _Jean-François Alcover_, Jun 28 2012, after _R. J. Mathar_ *)
+%t A052243 Transpose[Select[Partition[Prime[Range[1100000]],4,1],Union[ Differences[#]] =={30}&]][[1]] (* _Harvey P. Dale_, Jun 17 2014 *)
+%o A052243 (PARI code from _M. F. Hasler_, Apr 12 2008) nextA089220(p,d=[30,30,30])={p=[p,0,0];while(p+d!=p=[nextprime(p[1]+1),p[1],p[2]],);p[3]-d[3]}
+%o A052243 p=0; A052243=vector(30,i,p=nextA052243(p+1))
+%Y A052243 Analogous sequences [with common difference in square brackets]: A033451 [6], A033447 [12], A033448 [18], A052242 [24], A052243 [30].
+%Y A052243 Subsequence of A052195.
+%K A052243 nonn
+%O A052243 1,1
+%A A052243 _Labos Elemer_, Jan 31 2000
+%E A052243 More terms from _Harvey P. Dale_, Nov 19 2000
+%E A052243 Edited by _N. J. A. Sloane_, Apr 28 2008, at the suggestion of _R. J. Mathar_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

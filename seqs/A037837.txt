@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037837
+Showing 1-1 of 1
+
+%I A037837
+%S A037837 0,0,0,0,1,0,1,2,3,2,1,0,1,2,3,2,1,0,1,4,3,2,1,0,1,2,3,4,5,1,0,1,2,3,
+%T A037837 3,2,1,2,3,5,4,3,2,3,7,6,5,4,3,2,3,4,5,6,2,1,2,3,4,2,1,0,1,2,4,3,2,1,
+%U A037837 2,6,5,4,3,2,3,4,5,6,7,3,2,3,4,5,3,2,1,2,3,3
+%N A037837 a(n)=Sum{|d(i)-d(i-1)|: i=1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
+%p A037837 A037837 := proc(n)
+%p A037837     local dgs ;
+%p A037837     dgs := convert(n,base,5);
+%p A037837     add( abs(op(i,dgs)-op(i-1,dgs)),i=2..nops(dgs)) ;
+%p A037837 end proc: # _R. J. Mathar_, Oct 16 2015
+%K A037837 nonn,base
+%O A037837 1,8
+%A A037837 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

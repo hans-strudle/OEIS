@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040654
+Showing 1-1 of 1
+
+%I A040654
+%S A040654 26,10,2,2,1,1,2,6,7,3,2,1,16,1,2,3,7,6,2,1,1,2,2,10,52,10,2,2,1,1,2,
+%T A040654 6,7,3,2,1,16,1,2,3,7,6,2,1,1,2,2,10,52,10,2,2,1,1,2,6,7,3,2,1,16,1,2,
+%U A040654 3,7,6,2,1,1,2,2,10,52,10,2,2,1,1,2,6,7,3,2,1,16,1
+%N A040654 Continued fraction for sqrt(681).
+%H A040654 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040654 with(numtheory): Digits := 300: convert(evalf(sqrt(681)),confrac);
+%K A040654 nonn,cofr,easy
+%O A040654 0,1
+%A A040654 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012884
+Showing 1-1 of 1
+
+%I A012884
+%S A012884 1,2,3,5,7,11,13,17,23,31,37,53,71,73,113,131,137,173,197,311,313,317,
+%T A012884 373,797,1373,1997,3137,3797,7331,73331,739397
+%N A012884 Numbers such that every prefix and suffix is 1 or a prime.
+%C A012884 Intersection of A012883 and A143390. [From _Reinhard Zumkeller_, Aug 13 2008]
+%Y A012884 Cf. A068669.
+%K A012884 nonn,fini,full,nice,base
+%O A012884 1,2
+%A A012884 Larry Calmer (larry(AT)wri.com), _Simon Plouffe_
+%E A012884 Last term is 739397 (confirmed by _David W. Wilson_).
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061235
+Showing 1-1 of 1
+
+%I A061235
+%S A061235 6,16,32,60,96,147,207,283,382,486,619,773,945,1139,1351,1610,1870,
+%T A061235 2165,2496,2848,3237,3653,4125,4572,5118,5698,6269,6894,7586,8309,
+%U A061235 9033,9907,10656,11616,12522,13509,14552,15639,16708,18009,19140,20527
+%N A061235 Number of primes between consecutive fourth powers.
+%e A061235 a(3) = 32, as the number of primes between 3^4 = 81 and 4^4 = 256 is 32.
+%t A061235 Table[PrimePi[(w+1)^4]-PrimePi[w^4], {w, 1, 100}]
+%Y A061235 Cf. A014085, A060199.
+%K A061235 nonn
+%O A061235 0,1
+%A A061235 _Amarnath Murthy_, Apr 23 2001
+%E A061235 More terms from _Labos Elemer_, Jul 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

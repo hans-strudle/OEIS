@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016357
+Showing 1-1 of 1
+
+%I A016357
+%S A016357 1,1,1,0,0,1,1,2,1,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,1,0,1,0,1,
+%T A016357 0,0,1,1,1,1,1,1,0,0,1,1,2,1,1,0,0,1,1,1
+%V A016357 1,-1,1,0,0,1,-1,2,-1,1,0,0,1,-1,1,-1,1,-1,0,0,-1,0,-1,0,-1,0,-1,0,-1,
+%W A016357 0,0,-1,1,-1,1,-1,1,0,0,1,-1,2,-1,1,0,0,1,-1,1
+%N A016357 210th cyclotomic polynomial.
+%K A016357 sign,fini
+%O A016357 0,8
+%A A016357 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

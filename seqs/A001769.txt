@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001769
+Showing 1-1 of 1
+
+%I A001769
+%S A001769 1,6,22,62,148,314,610,1106,1897,3108,4900,7476,11088,16044,22716,
+%T A001769 31548,43065,57882,76714,100386,129844,166166,210574,264446,329329,
+%U A001769 406952,499240,608328,736576,886584,1061208
+%N A001769 Expansion of 1/((1+x)*(1-x)^7).
+%H A001769 Vincenzo Librandi, <a href="/A001769/b001769.txt">Table of n, a(n) for n = 0..10000</a>
+%H A001769 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-14,14,0,-14,14,-6,1).
+%F A001769 a(n) = sum{k=0..n, (-1)^(n-k)*C(k+6, 6) }; a(n) = (4*n^6 +96*n^5 +910*n^4 +4320*n^3 +10696*n^2 +12864*n+5715)/5760+(-1)^n/128. - Paul Barry, Jul 01 2003
+%t A001769 CoefficientList[Series[1/((1+x)(1-x)^7),{x,0,30}],x] (* or *) LinearRecurrence[ {6,-14,14,0,-14,14,-6,1},{1,6,22,62,148,314,610,1106},40] (* _Harvey P. Dale_, May 24 2015 *)
+%o A001769 (MAGMA) [(4*n^6+96*n^5+910*n^4+4320*n^3+10696*n^2+12864*n+5715)/5760+(-1)^n/128: n in [0..40]]; // Vincenzo Librandi, Aug 15 2011
+%o A001769 (PARI) a(n)=(4*n^6+96*n^5+910*n^4+4320*n^3+10696*n^2+12864*n)\/5760+1 \\ _Charles R Greathouse IV_, Apr 17 2012
+%Y A001769 Cf. A002620, A002623, A001752, A001753.
+%K A001769 nonn,easy
+%O A001769 0,2
+%A A001769 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017774
+Showing 1-1 of 1
+
+%I A017774
+%S A017774 1,58,1653,30856,424270,4582116,40475358,300674088,1916797311,
+%T A017774 10648873950,52179482355,227692286640,891794789340,3155581562280,
+%U A017774 10142940735900,29752626158640,79960182801345,197548686920970,449972009097765,947309492837400
+%N A017774 Binomial coefficients C(58,n).
+%C A017774 Row 58 of A007318.
+%H A017774 Nathaniel Johnston, <a href="/A017774/b017774.txt">Table of n, a(n) for n = 0..58</a> (full sequence)
+%p A017774 seq(binomial(58,n), n=0..58); # Nathaniel Johnston, Jun 24 2011
+%o A017774 (Sage) [binomial(58, n) for n in range(18)] # [From _Zerinvary Lajos_, May 28 2009]
+%Y A017774 Cf. A010926-A011001, A017765-A017773, A017775-A017816.
+%K A017774 nonn,fini,full,easy
+%O A017774 0,2
+%A A017774 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

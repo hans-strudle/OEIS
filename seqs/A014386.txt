@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014386
+Showing 1-1 of 1
+
+%I A014386
+%S A014386 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,
+%T A014386 1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014386 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014386 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,
+%W A014386 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014386 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014386 Inverse of 377th cyclotomic polynomial.
+%p A014386 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014386 sign
+%O A014386 0,1
+%A A014386 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

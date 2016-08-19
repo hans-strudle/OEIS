@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017095
+Showing 1-1 of 1
+
+%I A017095
+%S A017095 128,10000000,612220032,8031810176,52523350144,230539333248,
+%T A017095 781250000000,2207984167552,5455160701056,12151280273024,
+%U A017095 24928547056768,47829690000000,86812553324672,150363025899136
+%N A017095 (8*n+2)^7.
+%H A017095 Vincenzo Librandi, <a href="/A017095/b017095.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017095 (MAGMA) [(8*n+2)^7: n in [0..30]]; // Vincenzo Librandi, Jul 12 2011
+%K A017095 nonn,easy
+%O A017095 0,1
+%A A017095 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

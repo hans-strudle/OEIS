@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022385
+Showing 1-1 of 1
+
+%I A022385
+%S A022385 4,22,26,48,74,122,196,318,514,832,1346,2178,3524,5702,9226,14928,
+%T A022385 24154,39082,63236,102318,165554,267872,433426,701298,1134724,1836022,
+%U A022385 2970746,4806768,7777514,12584282
+%N A022385 Fibonacci sequence beginning 4, 22.
+%H A022385 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022385 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022385 G.f.: (4+18x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%t A022385 a={};b=4;c=22;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022385 nonn
+%O A022385 0,1
+%A A022385 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

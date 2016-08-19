@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002405
+Showing 1-1 of 1
+
+%I A002405 M3145 N1274
+%S A002405 1,1,1,3,38,135,4315,48125,950684,7217406,682590930,6554931075,
+%T A002405 903921420138,10496162430897,132415122967127,3606726811032345,
+%U A002405 896549281211592008,14008671728814262500,4425739007479443851340
+%N A002405 Coefficients for step-by-step integration.
+%C A002405 All the terms except the first term are actually negative. - _Sean A. Irvine_, Nov 10 2013
+%D A002405 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002405 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002405 W. F. Pickard, <a href="http://dx.doi.org/10.1145/321217.321226">Tables for the step-by-step integration of ordinary differential equations of the first order</a>, J. ACM 11 (1964), 229-233.
+%H A002405 W. F. Pickard, <a href="/A002397/a002397.pdf">Tables for the step-by-step integration of ordinary differential equations of the first order</a>, J. ACM 11 (1964), 229-233. [Annotated scanned copy]
+%F A002405 a(n) = abs(lcm{1,2,...,n+1} * sum_{k=0..n}((-1)^(n-k)/n+1-k)*s(-(n-1),k,n)) where s(l,m,n) are the generalized Stirling numbers of the first kind. - _Sean A. Irvine_, Nov 10 2013
+%Y A002405 A diagonal of A260781.
+%K A002405 nonn
+%O A002405 0,4
+%A A002405 _N. J. A. Sloane_.
+%E A002405 More terms from _Sean A. Irvine_, Nov 10 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052039
+Showing 1-1 of 1
+
+%I A052039
+%S A052039 1,4,3,21,2,15,13,12,11,91,9,8,72,7,63,6,56,53,51,48,46,44,42,41,4,38,
+%T A052039 36,35,34,33,32,31,3,29,28,271,27,26,251,244,24,233,23,223,22,213,21,
+%U A052039 205,201,197,193,19,186,182,18,176,173,17,167,164,162,16,157,154,152
+%N A052039 n equals the first significant digits of 1/a(n).
+%e A052039 E.g. n=36 -> 1/a(36) = 1/271 = 0.00{36}9003690036900...
+%Y A052039 Cf. A052038.
+%K A052039 nonn,base
+%O A052039 1,2
+%A A052039 _Patrick De Geest_, Dec 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

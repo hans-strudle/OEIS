@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034343
+Showing 1-1 of 1
+
+%I A034343
+%S A034343 1,2,4,8,16,36,80,194,506,1449,4631,17106,74820,404283,2815595,
+%T A034343 26390082,344330452,6365590987,167062019455,6182453531508,
+%U A034343 319847262335488,22968149462624180,2277881694784784852
+%N A034343 Number of inequivalent binary linear codes of length n and any dimension k <= n containing no column of zeros.
+%C A034343 Also the number of loopless binary matroids on n points.
+%D A034343 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%D A034343 M. Wild, Enumeration of binary and ternary matroids and other applications of the Brylawski-Lucas Theorem, Preprint Nr. 1693, Tech. Hochschule Darmstadt, 1994
+%H A034343 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%H A034343 <a href="/index/Coa#codes_binary_linear">Index entries for sequences related to binary linear codes</a>
+%Y A034343 Row sums of A076832. Cf. A034337-. A diagonal of A076832.
+%K A034343 nonn
+%O A034343 1,2
+%A A034343 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

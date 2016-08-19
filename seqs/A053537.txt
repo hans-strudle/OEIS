@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053537
+Showing 1-1 of 1
+
+%I A053537
+%S A053537 1,10,175,2500,38125,568750,8546875,128125000,1922265625,28832031250,
+%T A053537 432490234375
+%N A053537 Expansion of 1/((1+5*x)*(1-15*x)).
+%D A053537 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A053537 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (10,75).
+%F A053537 a(n) = (5^n/4)*((3^(n+1))+(-1)^n).
+%F A053537 a(n) = 10a(n-1) + 75a(n-2); a(0)=1.
+%o A053537 (PARI) Vec(1/((1+5*x)*(1-15*x)) + O(x^30)) \\ _Michel Marcus_, Dec 03 2014
+%Y A053537 Cf. A015518.
+%K A053537 easy,nonn
+%O A053537 0,2
+%A A053537 _Barry E. Williams_, Jan 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

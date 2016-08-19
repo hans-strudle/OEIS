@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022833
+Showing 1-1 of 1
+
+%I A022833
+%S A022833 3,8,1,12,25,8,27,4,33,2,39,80,37,84,31,90,29,96,25,98,19,102,13,110,
+%T A022833 9,112,5,114,1,128,259,122,261,112,263,106,269,102,275,96,277,86,279,
+%U A022833 82,281,70,293,66,295,62,301,60,311,54,317,48,319,42,323,40
+%N A022833 a(n) = c(1)p(2)+...+c(n)p(n+1), where c(i) = 1 if a(i-1) >= p(i+1) and c(i) = -1 if a(i-1) < p(i+1) (p(i) = primes).
+%K A022833 nonn
+%O A022833 0,1
+%A A022833 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027551
+Showing 1-1 of 1
+
+%I A027551
+%S A027551 1,231,64966,25235006,13560308427,9882496297869,9541326767381740,
+%T A027551 11933700898404327000,18952788279289054277077,
+%U A027551 37557776433732863957493587,91459873226296727634445511250
+%N A027551 Third column of A027538.
+%F A027551 Numerators of sequence a[ 3, n ] in (a[ i, j ])^3 where a[ i, j ] = A(i, j)/i! if j<=i, 0 if j>i
+%K A027551 nonn
+%O A027551 3,2
+%A A027551 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

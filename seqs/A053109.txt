@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053109
+Showing 1-1 of 1
+
+%I A053109
+%S A053109 1,100,5500,220000,7150000,200200000,5005000000,114400000000,
+%T A053109 2431000000000,48620000000000,923780000000000,16796000000000000,
+%U A053109 293930000000000000,4974200000000000000,81719000000000000000
+%N A053109 Expansion of 1/(1-10*x)^10.
+%C A053109 This is the tenth member of the k-family of sequences a(k,n) := k^n*binomial(n+k-1,k-1) starting with A000012 (powers of 1), A001787(n+1), A027472(n+3), A038846, A036071, A036084, A036226, A053107-9 for k=1..10.
+%F A053109 a(n) = 10^n*binomial(n+9, 9); G.f. 1/(1-10*x)^10.
+%t A053109 CoefficientList[Series[1/(1-10x)^10,{x,0,20}],x] (* or *) Table[10^n Binomial[n+9,9],{n,0,20}] (* _Harvey P. Dale_, May 19 2011 *)
+%o A053109 (Sage)[lucas_number2(n, 10, 0)*binomial(n,9)/10 ^9 for n in xrange(9, 24)] # [From _Zerinvary Lajos_, Mar 13 2009]
+%K A053109 easy,nonn
+%O A053109 0,2
+%A A053109 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

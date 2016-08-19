@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059516
+Showing 1-1 of 1
+
+%I A059516
+%S A059516 1,2,26,818,47834,4488722,617364026,117029670578,29247820616474,
+%T A059516 9318336983422802,3686400233750527226,1772940711343815069938,
+%U A059516 1018732890334074636017114,689260602916515788253448082
+%N A059516 Number of different relations between n intervals (possibly of zero length) on a line.
+%H A059516 IBM Ponder This, <a href="http://domino.watson.ibm.com/Comm/wwwr_ponder.nsf/challenges/January2001.html">Jan 01 2001</a>
+%F A059516 a(n) =2*A055203(n)-0^n =sum_k[A059515(k, n)]
+%F A059516 a(n) = Sum_{m>=0} binomial(m+1,2)^n/2^(m+1). a(n) = (1/2^n)*Sum_{k=0..n) binomial(n,k)*A000670(n+k). - _Vladeta Jovovic_, Aug 17 2006
+%e A059516 a(1)=2 since if a is starting point of interval and A is end point then possibilities are aA (zero length) or a-A (positive length). a(2)=26 since possibilities are: aAbB, aAb-B, b-aAB, abB-A, a-AbB, ab-AB, aA-bB, bB-aA, aA-b-B, b-aA-B, b-B-aA, bB-a-A, a-bB-A, a-A-bB, ab-A-B, ab-B-A, a-b-AB, b-a-AB, a-bA-B, b-a-AB, a-A-b-B, a-b-A-B, a-b-B-A, b-B-a-A, b-a-B-A, b-a-A-B.
+%K A059516 nonn
+%O A059516 0,2
+%A A059516 _Henry Bottomley_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

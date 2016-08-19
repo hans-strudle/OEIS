@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051268
+Showing 1-1 of 1
+
+%I A051268
+%S A051268 211,221,223,227,229,233,239,241,247,251,253,257,263,269,271,277,281,
+%T A051268 283,289,293,299,307,311,313,317,319,323,331,337,341,343,347,349,353,
+%U A051268 359,361,367,371,373,377,379,383
+%N A051268 Numbers n such that maximal value of prime divisors of reduced residue system for n is 4.
+%Y A051268 A002110, A006862, A048597, A051250, A051265-A051267.
+%Y A051268 A008364(n) + 210.
+%K A051268 nonn
+%O A051268 1,1
+%A A051268 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

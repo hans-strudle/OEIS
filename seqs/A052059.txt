@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052059
+Showing 1-1 of 1
+
+%I A052059
+%S A052059 0,16,17,47,49,41,146,274,76,468,1445
+%N A052059 First palindromic substring of length n occurring in 2^n.
+%e A052059 For length 3 see a(3) which gives 2^17 = {131}072.
+%Y A052059 Cf. A052058, A052057.
+%K A052059 nonn,base,hard
+%O A052059 1,2
+%A A052059 _Patrick De Geest_, Jan 15 2000.
+%E A052059 1445 from _Erich Friedman_, Feb 19 2000, who reports next term >3000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

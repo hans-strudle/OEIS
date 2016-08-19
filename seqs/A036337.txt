@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036337
+Showing 1-1 of 1
+
+%I A036337
+%S A036337 7,95,994,9999,99996,999992,9999968,99999840,999999968,9999999900,
+%T A036337 99999999840,999999999744,9999999998720,99999999998400,
+%U A036337 999999999999000,9999999999999744,99999999999995904,999999999999967232
+%N A036337 Largest integer with n digits and exactly n prime factors (counted with multiplicity).
+%H A036337 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_025.htm">Related puzzle</a>
+%e A036337 95 = 5 * 19, while 96, 97, 98, 99 and 100 have, respectively, 6,1,3,3 and 4 prime factors; thus 95 is the largest two digit number with exactly two prime factors.
+%Y A036337 Cf. A036335-A036338.
+%K A036337 nonn,base
+%O A036337 1,1
+%A A036337 _Patrick De Geest_, Dec 15 1998.
+%E A036337 More terms and better description from _Matthew Conroy_, May 25 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

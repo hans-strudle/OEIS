@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014434
+Showing 1-1 of 1
+
+%I A014434
+%S A014434 1,5,5,30,80,405,1505,7255,31155,149455,688655,3334880,15965130,
+%T A014434 78294155,383599455,1903940030,9474093880,47514889255,239112929655,
+%U A014434 1209724381330,6140755848280,31294613247255,159963286607755
+%N A014434 Sum[ a[ i ]a[ n-i ],{i,0,n-1} ], a[ 0 ] == 1, a[ 1 ]==5.
+%F A014434 G.f.: (1+x-sqrt(1-2*x-19*x^2))/(2*x) - C. Ronaldo (aga_new_ac(AT)hotmail.com), Dec 19 2004
+%K A014434 nonn
+%O A014434 0,2
+%A A014434 _Wouter Meeussen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023626
+Showing 1-1 of 1
+
+%I A023626
+%S A023626 1,4,10,22,43,80,137,222,343,508,737,1030,1411,1888,2477,3198,4059,
+%T A023626 5096,6297,7702,9327,11176,13301,15682,18355,21344,24673,28358,32411,
+%U A023626 36896,41769,47082,52883,59148,65937,73298,81251,89776,98957
+%N A023626 Self-convolution of (1, p(1), p(2), ...).
+%C A023626 p(1),p(2),p(3)... are the prime numbers (A000040). The analogous sequence for the partition numbers is A048574.
+%H A023626 Reinhard Zumkeller, <a href="/A023626/b023626.txt">Table of n, a(n) for n = 1..10000</a>
+%o A023626 (Haskell)
+%o A023626 a023626 n = a023626_list !! (n-2)
+%o A023626 a023626_list = f a000040_list [1] where
+%o A023626    f (p:ps) rs = (sum $ zipWith (*) rs a008578_list) : f ps (p : rs)
+%o A023626 -- _Reinhard Zumkeller_, Nov 09 2015
+%Y A023626 Cf. A000040, A008578, A014342, A048574.
+%K A023626 nonn
+%O A023626 1,2
+%A A023626 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

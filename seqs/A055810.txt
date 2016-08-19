@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055810
+Showing 1-1 of 1
+
+%I A055810
+%S A055810 1,31,80,160,280,450,681,985,1375,1865,2470,3206,4090,5140,6375,7815,
+%T A055810 9481,11395,13580,16060,18860,22006,25525,29445,33795,38605,43906,
+%U A055810 49730,56110,63080,70675,78931,87885,97575
+%N A055810 T(n,n-5), array T as in A055807.
+%F A055810 Empirical G.f.: x^5*(1+26*x-65*x^2+60*x^3-25*x^4+4*x^5)/(1-x)^5. [Colin Barker, Feb 22 2012]
+%Y A055810 Cf. A055809.
+%K A055810 nonn
+%O A055810 5,2
+%A A055810 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

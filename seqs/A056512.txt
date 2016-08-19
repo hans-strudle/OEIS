@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056512
+Showing 1-1 of 1
+
+%I A056512
+%S A056512 0,0,0,0,0,0,0,0,0,1,1,13,21,154,266
+%N A056512 Periodic palindromic structures using exactly six different symbols.
+%D A056512 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056512 A056507(n)-A056506(n).
+%e A056512 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome. Permuting the symbols will not change the structure.
+%Y A056512 Cf. A056475.
+%K A056512 nonn
+%O A056512 1,12
+%A A056512 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

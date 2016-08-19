@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043067
+Showing 1-1 of 1
+
+%I A043067
+%S A043067 1,4,25,26,27,28,29,30,31,32,193,202,211,220,229,238,247,256,1537,
+%T A043067 1545,1553,1561,1569,1577,1585,1593,1602,1610,1618,1626,1634,1642,
+%U A043067 1650,1658,1667,1675,1683,1691,1699,1707,1715,1723
+%N A043067 a(n)=(s(n)+5)/8, where s(n)=n-th base 8 palindrome that starts with 3.
+%K A043067 nonn,base
+%O A043067 1,2
+%A A043067 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016343
+Showing 1-1 of 1
+
+%I A016343
+%S A016343 1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,
+%T A016343 0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,1
+%V A016343 1,0,0,0,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,-1,
+%W A016343 0,0,0,-1,0,0,0,0,0,0,0,1,0,0,0,1
+%N A016343 168th cyclotomic polynomial.
+%K A016343 sign,fini
+%O A016343 0,1
+%A A016343 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

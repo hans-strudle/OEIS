@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005278
+Showing 1-1 of 1
+
+%I A005278 M4688
+%S A005278 10,26,34,50,52,58,86,100,116,122,130,134,146,154,170,172,186,202,206,
+%T A005278 218,222,232,244,260,266,268,274,290,292,298,310,326,340,344,346,362,
+%U A005278 366,372,386,394,404,412,436,466,470,474,482,490,518,520
+%N A005278 Noncototients: n such that x - phi(x) = n has no solution.
+%C A005278 Browkin & Schinzel show that this sequence is infinite. - _Labos Elemer_, Dec 21 1999
+%C A005278 If the strong Goldbach conjecture (every even number>6 is the sum of at least 2 distinct primes p and q) is true, sequence contains only even values. Since p*q-phi(p*q)=p+q-1 and then every odd number can be expressed as x-phi(x). - _Benoit Cloitre_, Mar 03 2002
+%C A005278 Hee-sung Yang (Myerson link, problem 012.17d) asks if this sequence has a positive lower density. - _Charles R Greathouse IV_, Nov 04 2013
+%D A005278 J. Browkin and A. Schinzel, On integers not of the form n-phi(n), Colloq. Math., 68 (1995), 55-58.
+%D A005278 R. K. Guy, Unsolved Problems in Number Theory, B36.
+%D A005278 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005278 T. D. Noe and Donovan Johnson, <a href="/A005278/b005278.txt">Table of n, a(n) for n = 1..10000</a> (first 963 terms from T. D. Noe)
+%H A005278 Gerry Myerson, <a href="http://wcnt.files.wordpress.com/2013/09/wcnt-problems-2012.pdf">Western Number Theory Problems</a>, 17 & 19 Dec 2012
+%H A005278 C. Pomerance and H.-S. Yang, <a href="http://www.math.dartmouth.edu/~carlp/uupaper3.pdf">On untouchable numbers and related problems</a>, 2012
+%H A005278 C. Pomerance and H.-S. Yang, <a href="http://www.math.dartmouth.edu/~carlp/uupaper6.pdf">Variant of a theorem of Erdos on the sum-of-proper-divisors function</a>, 2012
+%H A005278 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Noncototient.html">Noncototient</a>
+%t A005278 nmax = 520; cototientQ[n_?EvenQ] := (x = n; While[test = x - EulerPhi[x] == n ; Not[test || x > 2*nmax], x++]; test); cototientQ[n_?OddQ] = True; Select[Range[nmax], !cototientQ[#]&] (* _Jean-François Alcover_, Jul 20 2011 *)
+%Y A005278 Cf. A006093, A126887. Complement of A051953.
+%K A005278 nonn,nice
+%O A005278 1,1
+%A A005278 _N. J. A. Sloane_.
+%E A005278 More terms from _Jud McCranie_ 1/97.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

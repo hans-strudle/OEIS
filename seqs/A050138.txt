@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050138
+Showing 1-1 of 1
+
+%I A050138
+%S A050138 2,6,3,1,15,7,21,10,5,30,33,16,8,4,45,22,11,54,27,13,63,31,69,34,17,
+%T A050138 78,39,19,9,90,93,46,23,102,51,25,12,114,57,28,14,126,129,64,32,138,
+%U A050138 141,70,35,150,75,37,18,162,81,40,20,174,87,43
+%N A050138 a(n)=[ a(n-1)/2 ] if this is not among 0,a(1),...,a(n-1), else a(n)=3*n.
+%C A050138 Does this sequence contain every positive integer exactly once?
+%K A050138 nonn
+%O A050138 1,1
+%A A050138 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

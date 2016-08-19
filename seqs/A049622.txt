@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049622
+Showing 1-1 of 1
+
+%I A049622
+%S A049622 1,2,6,9,16,19,28,33,44,49,64,67,84,93,110,119,140,143,168,179,204,
+%T A049622 215,244,251,282,297,328,339,378,381,420,435,470,495,538,551,596
+%N A049622 a(n)=T(n,n+2), array T as in A049615.
+%K A049622 nonn
+%O A049622 0,2
+%A A049622 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

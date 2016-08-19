@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012966
+Showing 1-1 of 1
+
+%I A012966
+%S A012966 2,1,8,18,306,1905,26532,353388,4334778,110509245,1021609008,
+%T A012966 50779213254,272982059658,32111535861405,11592260316252,
+%U A012966 26485822571365080,161024492765786958,27356021208171990873
+%V A012966 2,-1,-8,18,306,-1905,-26532,353388,4334778,-110509245,-1021609008,
+%W A012966 50779213254,272982059658,-32111535861405,-11592260316252,
+%X A012966 26485822571365080,-161024492765786958,-27356021208171990873
+%N A012966 arcsinh(arctan(x)+log(x+1))=2*x-1/2!*x^2-8/3!*x^3+18/4!*x^4+306/5!*x^5...
+%t A012966 With[{nn=20},Rest[CoefficientList[Series[ArcSinh[ArcTan[x]+Log[x+1]], {x,0,nn}], x]Range[0,nn]!]] (* _Harvey P. Dale_, Jan 13 2012 *)
+%K A012966 sign
+%O A012966 0,1
+%A A012966 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

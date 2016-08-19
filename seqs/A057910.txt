@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057910
+Showing 1-1 of 1
+
+%I A057910
+%S A057910 2,4,6,10,12,13,19,43,48,64,72,97,187,190,336,348,676,2484,2719,3298,
+%T A057910 4726,9901
+%N A057910 Numbers n such that 2*3^n - 5 is prime.
+%t A057910 Do[ If[ PrimeQ[ 2*3^n - 5 ], Print[ n ] ], {n, 1, 2500} ]
+%K A057910 nonn
+%O A057910 1,1
+%A A057910 _Robert G. Wilson v_, Nov 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054815
+Showing 1-1 of 1
+
+%I A054815
+%S A054815 1861,2521,3449,9601,21481,23003,25229,26099,32173,33391,33923,39089,
+%T A054815 40801,41221,44257,47279,48809,55889,57781,67021,70111,74279,74699,
+%U A054815 74707,75133,75149,82963,84307,87853,88397,88651,103787,103889
+%N A054815 Third term of strong prime sextets: p(m-1)-p(m-2) > p(m)-p(m-1) > p(m+1)-p(m) > p(m+2)-p(m+1) > p(m+3)-p(m+2).
+%Y A054815 Cf. A051634, A054800-A054840.
+%K A054815 nonn
+%O A054815 0,1
+%A A054815 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

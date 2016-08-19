@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008300
+Showing 1-1 of 1
+
+%I A008300
+%S A008300 1,1,1,1,2,1,1,6,6,1,1,24,90,24,1,1,120,2040,2040,120,1,1,720,67950,
+%T A008300 297200,67950,720,1,1,5040,3110940,68938800,68938800,3110940,5040,1,1,
+%U A008300 40320,187530840,24046189440,116963796250,24046189440,187530840,40320,1,1,362880,14398171200,12025780892160,315031400802720,315031400802720,12025780892160,14398171200,362880,1
+%N A008300 Triangle read by rows: T(n,k) (n >= 0, 0<=k<=n) gives number of {0,1} n X n matrices with all row and column sums equal to k.
+%C A008300 Or, triangle of multipermutation numbers T(n,k), n >= 0, 0<=k<=n: number of relations on an n-set such that all vertical sections and all horizontal sections have k elements.
+%D A008300 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 236, P(n,k).
+%H A008300 Brendan D. McKay, <a href="/A008300/b008300.txt">Rows n = 0..30, flattened</a>
+%H A008300 C. J. Everett and P. R. Stein, <a href="http://dx.doi.org/10.1016/0012-365X(71)90007-0">The asymptotic number of integer stochastic matrices</a>, Disc. Math. 1 (1971), 55-72.
+%H A008300 Brendan D. McKay, <a href="http://cs.anu.edu.au/~bdm/data/Bvals.txt">first 30 rows : entries named Bv[n,k,n,k]</a> (link added by _Wouter Meeussen_, Jan 18 2014)
+%H A008300 Wouter Meeussen, <a href="/A008300/a008300.txt">relevant entries from B. D. McKay reference</a>
+%F A008300 Comtet quotes Everett and Stein as showing that T(n,k) ~ (kn)!(k!)^(-2n) exp( -(k-1)^2/2 ) for fixed k as n -> oo.
+%e A008300 Triangle begins:
+%e A008300 1;
+%e A008300 1,    1;
+%e A008300 1,    2,       1;
+%e A008300 1,    6,       6,        1;
+%e A008300 1,   24,      90,       24,        1;
+%e A008300 1,  120,    2040,     2040,      120,       1;
+%e A008300 1,  720,   67950,   297200,    67950,     720,    1;
+%e A008300 1, 5040, 3110940, 68938800, 68938800, 3110940, 5040, 1;
+%Y A008300 Diagonals give A000142, A001499, A001501, A058527.
+%K A008300 tabl,nonn,nice
+%O A008300 0,5
+%A A008300 _N. J. A. Sloane_
+%E A008300 More terms from _Greg Kuperberg_, Feb 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

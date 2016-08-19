@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015582
+Showing 1-1 of 1
+
+%I A015582
+%S A015582 1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
+%T A015582 0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,
+%U A015582 0,0,0,0,0,0,0,0,0,1,0,0,0
+%N A015582 Inverse of 1573rd cyclotomic polynomial.
+%F A015582 Maple says that cyclotomic(1573,x) is a polynomial of 120th order in the variable x^11, so it is c = 1 - x^11 - x^132 + x^264 + ... + x^1320, or with y = x^11 we can write c = 1 - y + y^11 - y^12 + y^13 - y^14 ... + y^120. - _R. J. Mathar_, Oct 20 2008
+%p A015582 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n, x), x,80); c(1573);
+%t A015582 CoefficientList[Series[1/Cyclotomic[1573, x], {x, 0, 100}], x][[;; 81]] (* _Jean-François Alcover_, Jul 05 2011 *)
+%Y A015582 Different from A049941.
+%K A015582 sign
+%O A015582 0,1
+%A A015582 _Simon Plouffe_
+%E A015582 Incorrect formula deleted by _N. J. A. Sloane_, Oct 20 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

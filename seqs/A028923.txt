@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028923
+Showing 1-1 of 1
+
+%I A028923
+%S A028923 0,2,6,12,24,40,72,92,132,180,276,432,756,918,1232,1746,3290,4266
+%N A028923 Kissing number of n-dimensional lattice Kappa_n.
+%D A028923 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 161.
+%H A028923 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/kiss.html">Table of highest kissing numbers known</a>
+%Y A028923 Cf. A001116, A002336, A257479.
+%K A028923 nonn,nice
+%O A028923 0,2
+%A A028923 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

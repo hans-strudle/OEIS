@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038577
+Showing 1-1 of 1
+
+%I A038577
+%S A038577 1,3,6,12,20,36,58,100,160,268,430,708,1140,1860,3002,4876,7880,12772,
+%T A038577 20654,33444,54100,87564,141666,229252,370920,600196,971118,1571340,
+%U A038577 2542460,4113828,6656290,10770148
+%N A038577 Number of self-avoiding walks of length n from origin in strip Z X {0,1}.
+%C A038577 For n>=2, a(n) coincides with A110935. [From _Eric Rowland_, Mar 09 2009]
+%D A038577 J. Labelle, Self-avoiding walks and polyominoes in strips, Bull. ICA, 23 (1998), 88-98.
+%H A038577 D. Zeilberger, <a href="http://arXiv.org/abs/math.CO/9506214">[math/9506214] Self avoiding walks, the language of science and Fibonacci numbers</a>
+%F A038577 G.f.: (1+2*t-t^3-t^4+t^7)/(1-t)^2/(1+t)^2/(1-t-t^2).
+%p A038577 f := n->if n mod 2 = 0 then 8*fibonacci(n)-n else 8*fibonacci(n)-4; fi;
+%K A038577 nonn,walk,easy
+%O A038577 0,2
+%A A038577 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

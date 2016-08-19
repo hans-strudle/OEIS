@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055410
+Showing 1-1 of 1
+
+%I A055410
+%S A055410 1,9,89,425,1281,3121,6577,11833,20185,32633,49689,72465,102353,
+%T A055410 140945,190121,250553,323721,411913,519025,643441,789905,961721,
+%U A055410 1156217,1380729,1638241,1927297,2257281,2624417,3035033,3490601,4000425
+%N A055410 Number of points in Z^4 of norm <= n.
+%F A055410 a(n) = A046895(n^2). [_Joerg Arndt_, Apr 08 2013]
+%o A055410 (C)
+%o A055410 int A055410(int i)
+%o A055410 {
+%o A055410     const int ring = i*i;
+%o A055410     int result = 0;
+%o A055410     for(int a = -i; a <= i; a++)
+%o A055410         for(int b = -i; b <= i; b++)
+%o A055410             for(int c = -i; c <= i; c++)
+%o A055410                 for(int d = -i; d <= i; d++)
+%o A055410                     if ( ring >= a*a + b*b + c*c + d*d ) result++;
+%o A055410     return result;
+%o A055410 } /* _Oskar Wieland_, Apr 08 2013 */
+%o A055410 (PARI)
+%o A055410 N=66;  q='q+O('q^(N^2));
+%o A055410 t=Vec((eta(q^2)^5/(eta(q)^2*eta(q^4)^2))^4/(1-q)); /* A046895 */
+%o A055410 vector(sqrtint(#t),n,t[(n-1)^2+1])
+%o A055410 /* _Joerg Arndt_, Apr 08 2013 */
+%Y A055410 Cf. A046895 (sizes of successive clusters in Z^4 lattice).
+%K A055410 nonn
+%O A055410 0,2
+%A A055410 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

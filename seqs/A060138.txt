@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060138
+Showing 1-1 of 1
+
+%I A060138
+%S A060138 0,2,3,5,8,9,12,15,17,20,23,29,32,33,36,39,45,48,57,60,63,65,68,71,77,
+%T A060138 80,89,92,95,113,116,119,125,128,129,132,135,141,144,153,156,159,177,
+%U A060138 180,183,189,192,225,228,231,237,240,249,252,255,260,263,269,272,281
+%N A060138 Ordered set S defined by these rules: 0 and 2 are in S and if x is a nonzero number in S, then 2x-1 and 4x are in S.
+%C A060138 The numbers 2 and 4x occupy the same positions in S that 1 occupies in the infinite Fibonacci word (A003849).
+%D A060138 C. Kimberling and P. Moses, Fusion, fission, and factors, The Fibonacci Quarterly 52 (2014), 136-149.
+%H A060138 C. Kimberling, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/goldentext.html">A Self-Generating Set and the Golden Mean</a>, J. Integer Sequences, 3 (2000), #00.2.8.
+%Y A060138 Cf. A060142.
+%K A060138 nonn
+%O A060138 0,2
+%A A060138 _Clark Kimberling_, Mar 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054450
+Showing 1-1 of 1
+
+%I A054450
+%S A054450 1,1,1,2,1,1,3,3,1,1,5,4,4,1,1,8,8,5,5,1,1,13,12,12,6,6,1,1,21,21,17,
+%T A054450 17,7,7,1,1,34,33,33,23,23,8,8,1,1,55,55,50,50,30,30,9,9,1,1,89,88,88,
+%U A054450 73,73,38,38,10,10,1,1
+%N A054450 Triangle of partial row sums of unsigned triangle A049310(n,m), n >= m >= 0 (Chebyshev S-polynomials).
+%C A054450 In the language of the Shapiro et al. reference (given in A053121) such a lower triangular (ordinary) convolution array, considered as a matrix, belongs to the Riordan-group. The G.f. for the row polynomials p(n,x) (increasing powers of x) is Fib(z)/(1-x*z/(1-z^2)) Fib(x)=1/(1-x-x^2) = g.f. for A000045(n+1) (Fibonacci numbers without 0).
+%C A054450 This is the first member of the family of Riordan-type matrices obtained from the unsigned convolution matrix A049310 by repeated application of the partial row sums procedure.
+%C A054450 The column sequences are A000045(n+1) (Fibonacci), A052952, A054451 for m=0..2.
+%H A054450 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%F A054450 a(n, m)=sum(|A049310(n, k)|, k=m..n), (sequence of partial row sums in column m).
+%F A054450 Column m recursion: a(n, m)= sum(a(j-1, m)*|A049310(n-j, 0)|, j=m..n) + |A049310(n, m)|, n >= m >= 0, a(n, m) := 0 if n<m.
+%F A054450 G.f. for column m: Fib(x)*(x/(1-x^2))^m, m >= 0, with Fib(x) = g.f. A000045(n+1).
+%F A054450 The corresponding square array has T(n, k)=sum{j=0..floor(k/2), binomial(n+k-j, j)}. - _Paul Barry_, Oct 23 2004
+%e A054450 {1}; {1,1}; {2,1,1}; {3,3,1,1};...
+%e A054450 Fourth row polynomial (n=3): p(3,x)= 3+3*x+x^2+x^3
+%Y A054450 Cf. A049310, A000045. Row sums: A029907(n)= A054453(n, 0)
+%K A054450 easy,nonn,tabl
+%O A054450 0,4
+%A A054450 _Wolfdieter Lang_, Apr 27 2000 and May 08 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014658
+Showing 1-1 of 1
+
+%I A014658
+%S A014658 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014658 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,
+%U A014658 1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+%V A014658 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014658 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,
+%X A014658 -1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0
+%N A014658 Inverse of 649th cyclotomic polynomial.
+%p A014658 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014658 sign
+%O A014658 0,1
+%A A014658 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

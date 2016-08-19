@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010104
+Showing 1-1 of 1
+
+%I A010104
+%S A010104 3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,4,3,0,0,0,0,0,0,0,0,
+%T A010104 0,30,48,19,0,0,0,0,0,0,0,36,136,468,408,111,0,0,0,0,0,150,180,
+%U A010104 135,3240,5340,3260,696,0,0,132,414,612,696,1932,16158
+%V A010104 3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,-4,3,0,0,0,0,0,0,0,0,
+%W A010104 0,-30,48,-19,0,0,0,0,0,0,0,-36,-136,468,-408,111,0,0,0,0,0,-150,-180,
+%X A010104 -135,3240,-5340,3260,-696,0,0,-132,-414,-612,696,1932,16158
+%N A010104 Spontaneous magnetization coefficients for square lattice spin 3 Ising model.
+%D A010104 Jensen, Iwan; Guttmann, Anthony J.; Series expansions of the percolation probability for directed square and honeycomb lattices. J. Phys. A 28 (1995), no. 17, 4813-4833.
+%H A010104 I. Jensen, <a href="/A010104/b010104.txt">Table of n, a(n) for n = 0..154</a> (from link below)
+%H A010104 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/ising/series/mag3.ser.ser">More terms</a>
+%H A010104 I. G. Enting, A, J. Guttmann and I. Jensen, <a href="http://arXiv.org/abs/hep-lat/?9410005">Low-Temperature Series Expansions for the Spin-1 Ising Model</a>, J. Phys. A. 27 (1994) 6987-7006.
+%K A010104 sign
+%O A010104 0,1
+%A A010104 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

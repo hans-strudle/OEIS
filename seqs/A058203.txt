@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058203
+Showing 1-1 of 1
+
+%I A058203
+%S A058203 12,16,40,44,64,92,112,208,400,476,568
+%N A058203 Numbers n such that x^n + x^10 + 2 is irreducible over GF(3).
+%t A058203 Do[ If[ ToString[ Factor[ x^n + x^10 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^10 + 2 ], Print[ n ] ], {n, 0, 1250} ]
+%Y A058203 Cf. A057480.
+%K A058203 nonn
+%O A058203 1,1
+%A A058203 _Robert G. Wilson v_, Nov 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

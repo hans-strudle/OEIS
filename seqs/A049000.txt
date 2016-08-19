@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049000
+Showing 1-1 of 1
+
+%I A049000
+%S A049000 0,69,8082,820741,82231803,8224494757,822465638000,82246686892516,
+%T A049000 8224670172682646,822467031614802290,82246703327412473943
+%N A049000 Sum of sigma(j) for 1<=j<10^n, where sigma(j) is the sum of divisors of j.
+%C A049000 The ratio of successive terms approaches 100.
+%e A049000 For n=1, the sum of sigma(j) for j<10 is 1+3+4+7+6+12+8+15+13=69, so a(1)=69.
+%Y A049000 Cf. A000203.
+%Y A049000 Cf. A072692 (sum for 1<=j<=10^n and other links).
+%K A049000 nonn
+%O A049000 0,2
+%A A049000 _Enoch Haga_ and _Jud McCranie_
+%E A049000 One more term from _Rick L. Shepherd_, Jul 03 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

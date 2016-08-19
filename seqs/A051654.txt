@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051654
+Showing 1-1 of 1
+
+%I A051654
+%S A051654 5,11,13,29,31,41,47,61,67,79,89,127,139,149,179,181,191,197,269,307,
+%T A051654 337,347,367,383,421,467,487,541,547,569,613,641,727,809,811,821,823,
+%U A051654 883,887,941,1031,1033,1087,1093,1103,1117,1193,1201,1237,1259,1279,1283
+%N A051654 p and 30030p+1 are both primes.
+%e A051654 p=5 and 30030p+1=150151 are both primes.
+%o A051654 (PARI) isok(p) = isprime(p) && isprime(30030*p+1); \\ _Michel Marcus_, Dec 19 2013
+%Y A051654 Cf. A005384, A002110, A005385.
+%K A051654 nonn
+%O A051654 1,1
+%A A051654 _Labos Elemer_
+%E A051654 More terms from _Michel Marcus_, Dec 19 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

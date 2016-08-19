@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011891
+Showing 1-1 of 1
+
+%I A011891
+%S A011891 0,0,0,0,2,6,13,23,37,56,80,110,146,190,242,303,373,453,544,646,760,
+%T A011891 886,1026,1180,1349,1533,1733,1950,2184,2436,2706,2996,3306,3637,3989,
+%U A011891 4363,4760,5180,5624,6092,6586
+%N A011891 [ n(n-1)(n-2)/9 ].
+%F A011891 G.f.:(x^4*(x^5-x^4+x^3+x^2-2*x+2))/((x^6+x^3+1)*(x-1)^4) [From Maksym Voznyy (voznyy(AT)mail.ru), Jul 27 2009]
+%F A011891 Third differences are [-2, 4] repeated. - M. F. Hasler, Sep 15 2009
+%K A011891 nonn
+%O A011891 0,5
+%A A011891 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

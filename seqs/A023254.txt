@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023254
+Showing 1-1 of 1
+
+%I A023254
+%S A023254 7,11,29,41,53,79,83,107,113,137,139,149,163,181,193,233,239,359,379,
+%T A023254 401,449,487,503,547,601,643,653,809,839,877,883,911,1009,1087,1093,
+%U A023254 1103,1117,1171,1259,1289,1303,1367,1373,1481,1511,1579,1637,1747,1787,1801
+%N A023254 Numbers n such that n remains prime through 2 iterations of function f(x) = 5x + 6.
+%C A023254 n, 5*n+6, 25*n+36 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023254 (MAGMA) [n: n in [0..100000] | IsPrime(n) and IsPrime(5*n+6) and IsPrime(25*n+36)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023254 nonn
+%O A023254 1,1
+%A A023254 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

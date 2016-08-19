@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036042
+Showing 1-1 of 1
+
+%I A036042
+%S A036042 0,1,2,2,3,3,3,4,4,4,4,4,5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,6,6,7,7,7,7,
+%T A036042 7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,9,
+%U A036042 9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10
+%N A036042 n appears partition(n) times.
+%D A036042 Abramowitz and Stegun, Handbook, p. 831, column labeled "n".
+%H A036042 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%Y A036042 Cf. A000041.
+%K A036042 nonn
+%O A036042 0,3
+%A A036042 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013787
+Showing 1-1 of 1
+
+%I A013787
+%S A013787 343,823543,1977326743,4747561509943,11398895185373143,
+%T A013787 27368747340080916343,65712362363534280139543,
+%U A013787 157775382034845806615042743,378818692265664781682717625943,909543680129861140820205019889143,2183814375991796599109312252753832343
+%N A013787 7^(4n+3).
+%H A013787 Vincenzo Librandi, <a href="/A013787/b013787.txt">Table of n, a(n) for n = 0..200</a>
+%H A013787 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013787 a(n)=2401*a(n-1), n>0 ; a(0)=343 . G.f.: 343/(1-2401*x). a(n)=49*A013786(n). [From _Philippe Deléham_, Dec 02 2008]
+%o A013787 (MAGMA) [7^(4*n+3): n in [0..15]]; // Vincenzo Librandi, Jun 28 2011
+%o A013787 (Maxima) makelist(7^(4*n+3),n,0,20); [_Martin Ettl_, Oct 21 2012]
+%K A013787 nonn,easy
+%O A013787 0,1
+%A A013787 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

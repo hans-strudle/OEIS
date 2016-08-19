@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037605
+Showing 1-1 of 1
+
+%I A037605
+%S A037605 1,7,38,191,957,4788,23941,119707,598538,2992691,14963457,74817288,
+%T A037605 374086441,1870432207,9352161038,46760805191,233804025957,
+%U A037605 1169020129788,5845100648941,29225503244707,146127516223538,730637581117691
+%N A037605 Base 5 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,3.
+%H A037605 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (5,0,1,-5).
+%F A037605 G.f.: x*(1+2*x+3*x^2) / ( (x-1)*(5*x-1)*(1+x+x^2) ). - _R. J. Mathar_, Apr 27 2015
+%F A037605 A007091(a(n)) = A037610(n). - _R. J. Mathar_, Apr 27 2015
+%K A037605 nonn,base,easy
+%O A037605 1,2
+%A A037605 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

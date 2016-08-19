@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027437
+Showing 1-1 of 1
+
+%I A027437
+%S A027437 2,5,10,21,43,86,173,347,695,1391,2783,5567,11134,22268,44536,89072,
+%T A027437 178145,356290,712581,1425162,2850325,5700650,11401300,22802600,
+%U A027437 45605201,91210402,182420805,364841611
+%N A027437 [ e*2^n ].
+%o A027437 (PARI) a(n) = floor(exp(1)*2^n) \\ _Michel Marcus_, Jul 12 2013
+%K A027437 nonn
+%O A027437 0,1
+%A A027437 _N. J. A. Sloane_, _Allan C. Wechsler_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

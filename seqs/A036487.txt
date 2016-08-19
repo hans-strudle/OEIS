@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036487
+Showing 1-1 of 1
+
+%I A036487
+%S A036487 0,0,4,13,32,62,108,171,256,364,500,665,864,1098,1372,1687,2048,2456,
+%T A036487 2916,3429,4000,4630,5324,6083,6912,7812,8788,9841,10976,12194,13500,
+%U A036487 14895,16384,17968,19652,21437,23328,25326,27436,29659,32000
+%N A036487 Floor((n^3)/2).
+%H A036487 Enrique Pérez Herrero, <a href="/A036487/b036487.txt">Table of n, a(n) for n = 0..10000</a>
+%H A036487 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-2,-2,3,-1).
+%F A036487 G.f. x^2*(4+x+x^2) / ( (1+x)*(x-1)^4 ). - _R. J. Mathar_, Jan 29 2011
+%p A036487 [ seq(floor((n^3)/2), n=0..100) ];
+%t A036487 A036487[n_]:=Floor[n^3/2]
+%o A036487 (Sage) [floor(n^3/2) for n in xrange(0,41)]# [From _Zerinvary Lajos_, Dec 02 2009]
+%o A036487 (PARI) a(n)=n^3\2 \\ _Charles R Greathouse IV_, Jul 18 2014
+%K A036487 nonn,easy
+%O A036487 0,3
+%A A036487 _N. J. A. Sloane_.
+%E A036487 Corrupted b-file corrected by _Michael De Vlieger_, Jul 18 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

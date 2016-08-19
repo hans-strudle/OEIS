@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042918
+Showing 1-1 of 1
+
+%I A042918
+%S A042918 31,63,787,7933,16653,41239,99131,140370,239501,619372,3955733,
+%T A042918 4575105,8530838,13105943,21636781,78016286,99653067,875240822,
+%U A042918 3600616355,4475857177,12552330709,17028187886
+%N A042918 Numerators of continued fraction convergents to sqrt(991).
+%H A042918 Vincenzo Librandi, <a href="/A042918/b042918.txt">Table of n, a(n) for n = 0..200</a>
+%t A042918 Numerator[Convergents[Sqrt[991], 30]]  (* _Vincenzo Librandi_, Dec 09 2013 *)
+%Y A042918 Cf. A042919.
+%K A042918 nonn,frac,easy
+%O A042918 0,1
+%A A042918 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

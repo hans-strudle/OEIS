@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057480
+Showing 1-1 of 1
+
+%I A057480
+%S A057480 3,7,33,111,279,511
+%N A057480 Numbers n such that x^n + x^10 + 1 is irreducible over GF(2).
+%t A057480 Do[ If[ ToString[ Factor[ x^n + x^10 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^10 + 1 ], Print[ n ] ], {n, 0, 750} ]
+%Y A057480 Cf. A002475.
+%K A057480 nonn
+%O A057480 1,1
+%A A057480 _Robert G. Wilson v_, Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

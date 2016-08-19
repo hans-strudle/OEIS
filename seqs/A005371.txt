@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005371
+Showing 1-1 of 1
+
+%I A005371 M3315
+%S A005371 3,1,4,7,29,199,5778,1149851,6643838879,7639424778862807,
+%T A005371 50755107359004694554823204,
+%U A005371 387739824812222466915538827541705412334749,19679776435706023589554719270187913247121278789615838446937339578603
+%N A005371 L(L(n)), where L(n) are Lucas numbers A000032.
+%D A005371 T. Koshy (2001), Fibonacci and Lucas Numbers with Applications, John Wiley & Sons, New York, 511-516
+%D A005371 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005371 T. D. Noe, <a href="/A005371/b005371.txt">Table of n, a(n) for n=0..15</a>
+%t A005371 l[n_] := l[n] = l[n - 1] + l[n - 2]; l[0] = 2; l[1] = 1; Table[l[l[n]], {n, 0, 12}]
+%o A005371 (MAGMA) [ Lucas(Lucas(n)): n in [0..20]]; // Vincenzo Librandi Apr 16 2011
+%Y A005371 Cf. A007570, A068096, A068098.
+%K A005371 easy,nonn
+%O A005371 0,1
+%A A005371 _N. J. A. Sloane_.
+%E A005371 More terms from Mario Catalani (mario.catalani(AT)unito.it), Mar 14 2003
+%E A005371 Offset changed Feb 28 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

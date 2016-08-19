@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054753
+Showing 1-1 of 1
+
+%I A054753
+%S A054753 12,18,20,28,44,45,50,52,63,68,75,76,92,98,99,116,117,124,147,148,153,
+%T A054753 164,171,172,175,188,207,212,236,242,244,245,261,268,275,279,284,292,
+%U A054753 316,325,332,333,338,356,363,369,387,388,404,412,423,425,428,436,452
+%N A054753 Numbers which are the product of a prime and the square of a different prime.
+%C A054753 A178254(a(n)) = 4; union of A095990 and A096156. [_Reinhard Zumkeller_, May 24 2010]
+%C A054753 Numbers with prime signature (2,1) = union of numbers with ordered prime signature (1,2) and numbers with ordered prime signature (2,1) (restating second part of above comment). - _Daniel Forgues_, Feb 05 2011
+%C A054753 A056595(a(n)) = 4. [_Reinhard Zumkeller_, Aug 15 2011]
+%C A054753 Sum(n>=1, 1/a(n)^k) = P(k) * P(2*k) - P(3*k), where P is Prime Zeta function. - _Enrique Pérez Herrero_, Jun 27 2012
+%C A054753 Also numbers n with A001222(n)=3 and A001221(n)=2. - _Enrique Pérez Herrero_, Jun 27 2012
+%C A054753 A089233(a(n)) = 2. - _Reinhard Zumkeller_, Sep 04 2013
+%C A054753 Numbers of the form p^2*q, with p,q distinct primes.  Subsequence of the triprimes (A014612).  If a(n) is even, then a(n)/2 is semiprime (A001358). - _Wesley Ivan Hurt_, Sep 08 2013
+%H A054753 Reinhard Zumkeller, <a href="/A054753/b054753.txt">Table of n, a(n) for n = 1..1000</a>
+%H A054753 Guilhem Castagnos, Antoine Joux, Fabien Laguillaumie, and Phong Q. Nguyen, <a href="http://www.iacr.org/archive/asiacrypt2009/59120468/59120468.pdf">Factoring pq^2 with quadratic forms: nice cryptanalyses</a>, Advances in Cryptology - ASIACRYPT 2009. Lecture Notes in Computer Science Volume 5912 (2009), pp. 469-486.
+%H A054753 René Peralta and Eiji Okamoto, <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.33.2625">Faster factoring of integers of a special form</a> (1996)
+%H A054753 StackExchange, <a href="http://math.stackexchange.com/questions/64892/sequence-of-numbers-with-prime-factorization-pq2">Sequence of numbers with prime factorization pq^2</a>
+%F A054753 Solutions of the equation tau(n^5)=11*tau(n). - _Paolo P. Lava_, Mar 15 2013
+%e A054753 a(1)=12 because 12=3*2*2.
+%p A054753 with(numtheory);
+%p A054753 A054753:=proc(q) local n;
+%p A054753 for n from 1 to q do if tau(n^5)=11*tau(n) then print(n); fi; od; end:
+%p A054753 A054753(10^10);  # _Paolo P. Lava_, Mar 15 2013
+%t A054753 Select[Range[12,452], {1,2}==Sort[Last/@FactorInteger[ # ]]&] (* Zak Seidov, Jul 19 2009 *)
+%t A054753 With[{nn=60},Take[Union[Flatten[{#[[1]]#[[2]]^2,#[[1]]^2 #[[2]]}&/@ Subsets[ Prime[Range[nn]],{2}]]],nn]] (* _Harvey P. Dale_, Dec 15 2014 *)
+%o A054753 (PARI) is(n)=vecsort(factor(n)[,2])==[1,2]~ \\ _Charles R Greathouse IV_, Dec 30 2014
+%o A054753 (PARI) for(n=1, 1e3, if(numdiv(n) - bigomega(n) == 3, print1(n, ", "))) \\ _Altug Alkan_, Nov 24 2015
+%Y A054753 Numbers with 6 divisors (A030515) which are not 5th powers of primes (A050997).
+%K A054753 nonn
+%O A054753 1,1
+%A A054753 _Henry Bottomley_, Apr 25 2000
+%E A054753 Link added and incorrect Mathematica code removed by _David Bevan_, Sep 17 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

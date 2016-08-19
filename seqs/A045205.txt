@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045205
+Showing 1-1 of 1
+
+%I A045205
+%S A045205 124,249,374,499,549,574,599,609,614,619,621,622,623,874,999,1124,
+%T A045205 1174,1199,1224,1234,1239,1244,1246,1247,1248,1499,1624,1749,1799,
+%U A045205 1824,1849,1859,1864,1869,1871,1872,1873,2124,2249
+%N A045205 Numbers n with property that in base 5 representation the numbers of 0's and 4's are 0 and 3, respectively.
+%C A045205 Subset of A031476. [From _R. J. Mathar_, Oct 20 2008]
+%K A045205 nonn,base
+%O A045205 1,1
+%A A045205 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

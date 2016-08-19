@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057489
+Showing 1-1 of 1
+
+%I A057489
+%S A057489 15,21,25,42,43,48,60,97,106,133,147,148,178,201,252,253,327,513,570,
+%T A057489 732,763
+%N A057489 Numbers n such that x^n + x^13 + x^12 + x^11 + x^10 + x^9 + x^8 + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1 is irreducible over GF(2).
+%t A057489 Do[ If[ ToString[ Factor[ x^n + Sum[ x^m, {m, 0, 13} ], Modulus -> 2 ] ] == ToString[ x^n + Sum[ x^m, {m, 0, 13} ] ], Print[ n ] ], {n, 0, 1000} ]
+%K A057489 nonn
+%O A057489 1,1
+%A A057489 _Robert G. Wilson v_, Sep 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014359
+Showing 1-1 of 1
+
+%I A014359
+%S A014359 1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014359 0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
+%U A014359 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014359 1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014359 0,0,1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,
+%X A014359 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014359 Inverse of 350th cyclotomic polynomial.
+%p A014359 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014359 sign
+%O A014359 0,1
+%A A014359 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

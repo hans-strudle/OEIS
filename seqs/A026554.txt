@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026554
+Showing 1-1 of 1
+
+%I A026554
+%S A026554 1,2,4,10,19,52,98,278,526,1516,2887,8389,16073,46936,90386,264842,
+%T A026554 512128,1504432,2918954,8592094,16716998,49288856,96119927,283795571,
+%U A026554 554524660,1639174304,3208254571,9493241125,18607536319,55108565584
+%N A026554 a(n)=T(n,n-1), T given by A026552. Also a(n) = number of integer strings s(0),...,s(n) counted by T, such that s(n)=1.
+%Y A026554 Equals A026520(n+1)/2.
+%K A026554 nonn
+%O A026554 1,2
+%A A026554 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

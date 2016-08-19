@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040268
+Showing 1-1 of 1
+
+%I A040268
+%S A040268 16,1,7,2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,
+%T A040268 1,7,2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,1,7,
+%U A040268 2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,1,7,2,7,1,32,1,7
+%N A040268 Continued fraction for sqrt(285).
+%H A040268 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040268 a(n)=(1/18)*{-83*(n mod 6)+28*[(n+1) mod 6]-5*[(n+2) mod 6]+25*[(n+3) mod 6]-8*[(n+4) mod 6]+103*[(n+5) mod 6]}-16*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 24 2009]
+%p A040268 with(numtheory): Digits := 300: convert(evalf(sqrt(285)),confrac);
+%K A040268 nonn,cofr,easy
+%O A040268 0,1
+%A A040268 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

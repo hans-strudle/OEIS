@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046937
+Showing 1-1 of 1
+
+%I A046937
+%S A046937 1,2,3,3,5,8,8,11,16,24,24,32,43,59,83,83,107,139,182,241,324,324,407,
+%T A046937 514,653,835,1076,1400,1400,1724,2131,2645,3298,4133,5209,6609,6609,
+%U A046937 8009,9733,11864,14509,17807,21940,27149,33758,33758,40367
+%N A046937 Same rule as Aitken triangle (A011971) except a(0,0)=1, a(1,0)=2.
+%H A046937 Reinhard Zumkeller, <a href="/A046937/b046937.txt">Rows n = 0..120 of triangle, flattened</a>
+%e A046937 1; 2,3; 3,5,8; 8,11,16,24;...
+%t A046937 a[0, 0] = 1; a[1, 0] = 2; a[n_, 0] := a[n-1, n-1]; a[n_, k_] := a[n, k] = a[n, k-1] + a[n-1, k-1]; Table[a[n, k], {n, 0, 9}, {k, 0, n}] // Flatten (* _Jean-François Alcover_, Jun 06 2013 *)
+%o A046937 (Haskell)
+%o A046937 a046937 n k = a046937_tabl !! n !! k
+%o A046937 a046937_row n = a046937_tabl !! n
+%o A046937 a046937_tabl = [1] : iterate (\row -> scanl (+) (last row) row) [2,3]
+%o A046937 -- _Reinhard Zumkeller_, Jan 13 2013
+%Y A046937 Borders give A038561.
+%K A046937 tabl,easy,nice,nonn
+%O A046937 0,2
+%A A046937 _N. J. A. Sloane_, _R. K. Guy_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

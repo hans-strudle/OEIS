@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036413
+Showing 1-1 of 1
+
+%I A036413
+%S A036413 1,2,3,4,6,7,32,35,39,71,465,536,1001,8544,9545,18089
+%N A036413 Values of n for which there are no empty intervals when fractional_part(i E) for i = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions.
+%C A036413 No others with n<=57590. Finite sequence?
+%H A036413 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/EquidistributedSequence.html">Equidistributed Sequence.</a>
+%H A036413 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/GoldenRatio.html">Golden Ratio</a>
+%Y A036413 Cf. A036412.
+%K A036413 nonn,more
+%O A036413 1,2
+%A A036413 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

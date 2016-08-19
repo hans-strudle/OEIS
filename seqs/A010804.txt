@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010804
+Showing 1-1 of 1
+
+%I A010804
+%S A010804 0,1,65536,43046721,4294967296,152587890625,2821109907456,
+%T A010804 33232930569601,281474976710656,1853020188851841,10000000000000000,
+%U A010804 45949729863572161,184884258895036416,665416609183179841
+%N A010804 16th powers: a(n) = n^16.
+%C A010804 Completely multiplicative sequence with a(p) = p^16 for prime p. Multiplicative sequence with a(p^e) = p^(16e). - _Jaroslav Krizek_, Nov 01 2009
+%H A010804 Vincenzo Librandi, <a href="/A010804/b010804.txt">Table of n, a(n) for n = 0..1000</a>
+%H A010804 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%F A010804 a(n) = n^16.
+%t A010804 Range[0, 15]^16 (* _Alonso del Arte_, Feb 16 2015 *)
+%o A010804 (MAGMA) [n^16: n in [0..15]]; // _Vincenzo Librandi_, Jun 19 2011
+%o A010804 (Maxima) A010804(n):=n^16$
+%o A010804 makelist(A010804(n),n,0,10); /* _Martin Ettl_, Nov 12 2012 */
+%o A010804 (PARI) a(n)=n^16 \\ _Charles R Greathouse IV_, Jun 28 2015
+%K A010804 nonn,mult,easy
+%O A010804 0,3
+%A A010804 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

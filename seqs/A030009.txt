@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030009
+Showing 1-1 of 1
+
+%I A030009
+%S A030009 1,2,6,15,37,85,192,414,879,1816,3694,7362,14480,28037,53644,101379,
+%T A030009 189587,350874,643431,1169388,2108045,3770430,6694894,11804968,
+%U A030009 20679720,35999794,62298755,107198541,183462856,312357002,529173060,892216829,1497454396,2502190992
+%N A030009 Euler transform of primes.
+%H A030009 Alois P. Heinz, <a href="/A030009/b030009.txt">Table of n, a(n) for n = 0..1000</a>
+%H A030009 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A030009 G.f.: Product_{n=1..inf} (1-x^n)^-ithprime(n).
+%p A030009 with (numtheory):
+%p A030009 a:= proc(n) option remember;
+%p A030009      `if` (n=0, 1, add (add (d*ithprime(d), d=divisors(j)) *a(n-j), j=1..n)/n)
+%p A030009     end:
+%p A030009 seq (a(n), n=0..40);  #  _Alois P. Heinz_, Sep 06 2008
+%t A030009 a[n_] := a[n] = If[n == 0, 1, Sum[Sum[d*Prime[d], {d, Divisors[j]}]*a[n-j], {j, 1, n}]/n]; Table[a[n], {n, 0, 40}] (* _Jean-François Alcover_, Apr 16 2014, after _Alois P. Heinz_ *)
+%o A030009 (PARI) a(n)=if(n<0,0,polcoeff(prod(i=1,n,(1-x^i)^-prime(i),1+x*O(x^n)),n))
+%Y A030009 Cf. A007441.
+%K A030009 nonn
+%O A030009 0,2
+%A A030009 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

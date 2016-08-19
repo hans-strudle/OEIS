@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016767
+Showing 1-1 of 1
+
+%I A016767
+%S A016767 0,27,216,729,1728,3375,5832,9261,13824,19683,27000,35937,46656,59319,
+%T A016767 74088,91125,110592,132651,157464,185193,216000,250047,287496,328509,
+%U A016767 373248,421875,474552,531441,592704
+%N A016767 (3*n)^3.
+%C A016767 a(n) = 27*A000578(n); for n>0: A020639(a(n))=A010693(n). [From _Reinhard Zumkeller_, Jan 29 2009]
+%C A016767 a(n) = A155955(n,3) for n>2. [From _Reinhard Zumkeller_, Jan 31 2009]
+%H A016767 Vincenzo Librandi, <a href="/A016767/b016767.txt">Table of n, a(n) for n = 0..250</a>
+%H A016767 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%o A016767 (MAGMA) [(3*n)^3: n in [0..40]]; // Vincenzo Librandi, Jul 29 2011
+%o A016767 (PARI) a(n)=27*n^3 \\ _Charles R Greathouse IV_, Jul 29 2011
+%K A016767 nonn,easy
+%O A016767 0,2
+%A A016767 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

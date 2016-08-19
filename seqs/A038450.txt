@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038450
+Showing 1-1 of 1
+
+%I A038450
+%S A038450 11111111,101111111,110111111,111011111,111101111,111110111,111111011,
+%T A038450 111111101,111111110,1001111111,1010111111,1011011111,1011101111,
+%U A038450 1011110111,1011111011,1011111101,1011111110,1100111111,1101011111
+%N A038450 Sums of 8 distinct powers of 10.
+%t A038450 Sort[FromDigits/@Permutations[{1,1,1,1,1,1,1,1,0,0}]] (* _Harvey P. Dale_, Apr 29 2013 *)
+%K A038450 nonn,easy
+%O A038450 0,1
+%A A038450 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

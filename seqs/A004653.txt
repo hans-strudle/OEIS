@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004653
+Showing 1-1 of 1
+
+%I A004653
+%S A004653 1,2,4,8,12,24,48,92,144,288,532
+%N A004653 Powers of 2 written in base 14. (Next term contains a non-decimal character).
+%t A004653 BaseForm[Table[2^n, {n, 0, 10}], 14] (* _Alonso del Arte_, Mar 18 2005 *)
+%K A004653 nonn,base
+%O A004653 0,2
+%A A004653 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023398
+Showing 1-1 of 1
+
+%I A023398
+%S A023398 2,5,5,5,5,2,5,5,2,2,2,2,5,5,2,2,2,2,2,5,5,5,5,2,5,5,5,2,2,5,5,5,5,5,
+%T A023398 5,5,5,5,5,2,5,5,2,5,2,5,2,2,5,2,2,2,2,5,5,5,5,5,2,2,5,5,2,5,2,5,5,5,
+%U A023398 2,5,2,2,2,5,2,2,2,5,5,2,2,2,5,2,5,2,5,5,2,2,5,5,2,5,2,2,5,2,2,2,2,5,2,5,5,2,5,2
+%N A023398 If any power of 2 ends with k 2's and 5's, they must be the first k elements of this sequence in reverse order.
+%K A023398 nonn
+%O A023398 0,1
+%A A023398 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

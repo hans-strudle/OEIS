@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048552
+Showing 1-1 of 1
+
+%I A048552
+%S A048552 7,71,719,7193,71933,719333,71933317,719333177,71933317711,
+%T A048552 7193331771103,71933317711039,7193331771103939,719333177110393913,
+%U A048552 7193331771103939133,719333177110393913323,71933317711039391332309
+%N A048552 p(n+1) is next smallest prime beginning with p(n), initial prime is 7.
+%Y A048552 Cf. A048549-A048556.
+%K A048552 nonn,base
+%O A048552 0,1
+%A A048552 _Patrick De Geest_, May 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

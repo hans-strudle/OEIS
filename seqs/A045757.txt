@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045757
+Showing 1-1 of 1
+
+%I A045757
+%S A045757 1,11,231,7161,293601,14973651,913392711,64850882481,5252921480961,
+%T A045757 478015854767451,48279601331512551,5359035747797893161,
+%U A045757 648443325483545072481,84946075638344404495011
+%N A045757 10-factorial numbers.
+%C A045757 a(n)= Pochhammer(1/10,n)*10^n.
+%H A045757 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A045757 a(n+1)= (10*n+1)(!^10) := product(10*k+1, k=0..n), n >= 0; E.g.f. -1+(1-10*x)^(-1/10).
+%p A045757 restart: G(x):=-1+(1-10*x)^(-1/10): f[0]:=G(x): for n from 1 to 29 do f[n]:=diff(f[n-1],x) od: x:=0: seq(f[n],n=1..14);# [From _Zerinvary Lajos_, Apr 03 2009]
+%Y A045757 Cf. A035265, A035272-A035279, A008542, A048176.
+%K A045757 easy,nonn
+%O A045757 1,2
+%A A045757 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

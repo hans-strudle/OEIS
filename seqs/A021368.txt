@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021368
+Showing 1-1 of 1
+
+%I A021368
+%S A021368 0,0,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,
+%T A021368 4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,
+%U A021368 2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2,7,4,7,2,5,2
+%N A021368 Decimal expansion of 1/364.
+%F A021368 a(n)=(1/15)*{17*(n mod 6)-3*[(n+1) mod 6]+12*[(n+2) mod 6]-8*[(n+3) mod 6]+12*[(n+4) mod 6]-3*[(n+5) mod 6]}-2*[C(2*n,n) mod 2]-5*{C[(n+1)^2,n+3] mod 2}, with n>=0 [From _Paolo P. Lava_, Nov 10 2009]
+%K A021368 nonn,cons
+%O A021368 0,3
+%A A021368 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

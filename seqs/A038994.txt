@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038994
+Showing 1-1 of 1
+
+%I A038994
+%S A038994 1,127,1093,10795,19531,138811,137257,788035,896260,2480437,1948717,
+%T A038994 11798935,5229043,17431639,21347383,53743987,25646167,113825020,
+%U A038994 49659541,210837145,150021901,247487059,154764793
+%N A038994 Sublattices of index n in generic 7-dimensional lattice.
+%D A038994 M. Baake, "Solution of coincidence problem...", in R. V. Moody, ed., Math. of Long-Range Aperiodic Order, Kluwer 1997, pp. 9-44.
+%H A038994 <a href="/index/Su#sublatts">Index entries for sequences related to sublattices</a>
+%F A038994 f(Q, n)=Sum d*f(Q-1, d), d|n; here Q=7.
+%F A038994 Multiplicative with a(p^e) = product (p^(e+k)-1)/(p^k-1), k=1..6
+%Y A038994 Cf. A001001.
+%K A038994 nonn,mult
+%O A038994 1,2
+%A A038994 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

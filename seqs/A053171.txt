@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053171
+Showing 1-1 of 1
+
+%I A053171
+%S A053171 81,321,825,1689,2601,4185,5529,8145,10401,13137
+%N A053171 Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which represent a rotation of order 2.
+%Y A053171 A053170(n) = 2 * (1 + a(n) + A053172(n) + A053173(n) + A053174(n)).
+%K A053171 nonn
+%O A053171 1,1
+%A A053171 Ralf W. Grosse-Kunstleve (rwgk(AT)cci.lbl.gov), Mar 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

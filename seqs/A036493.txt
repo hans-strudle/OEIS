@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036493
+Showing 1-1 of 1
+
+%I A036493
+%S A036493 1,2,4,8,12,30,60,120,240,504,840,1680,3960,7560,15120,32760,65520,
+%T A036493 131040,262080,498960,997920,1965600
+%N A036493 Largest number having binary order n (A029837) and of which the number of divisors is maximal in that range of g[ x ]=n.
+%C A036493 For those n's if more than one x exists with g[ x ]=n and which has the maximal possible value of d[ x ] than A036471 and A036493 deviate from each other(n=3,5,9,12,15) otherwise these sequence are identical.
+%e A036493 At n=9, x is in [ 257,512 ],max[ d[ x ] ]=24 (see A036451); this holds for four different numbers (360,420,480 and 504); a(9)=504 since it is the largest.
+%t A036493 ld[ x_ ] := Length[ Divisors[ x ] ]; a=1+2^(n-1), b=2^n; List=Flatten[ Position[ Table[ ld[ x ], {x, a, b} ], max{ld[ x ]} ]+a-1 ]; Max{List}=A036493
+%Y A036493 Cf. A000005, A029837, A005179, A007416, A036451, A036470, A036484.
+%K A036493 nonn
+%O A036493 0,2
+%A A036493 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

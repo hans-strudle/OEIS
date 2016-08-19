@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008795
+Showing 1-1 of 1
+
+%I A008795
+%S A008795 1,0,3,1,6,3,10,6,15,10,21,15,28,21,36,28,45,36,55,45,66,55,78,66,91,
+%T A008795 78,105,91,120,105,136,120,153,136,171,153,190,171,210,190,231,210,
+%U A008795 253,231,276,253,300,276,325,300
+%N A008795 Molien series for 3-dimensional group [2,n]+ = 22n.
+%C A008795 a(n-3) = number of ordered triples of positive integers which are the side lengths of a nondegenerate triangle of perimeter n. - _Rob Pratt_, Jul 12 2004
+%C A008795 a(n) is the number of ways to distribute n identical objects into 3 distinguishable bins so that no bin contains an absolute majority of objects. - _Geoffrey Critzer_, Mar 17 2010
+%C A008795 Contribution from Omar E. Pol, Feb 05 2012 (Start:)
+%C A008795 Also positive terms of A000217 and A000217 interleaved.
+%C A008795 Also 0 together with this sequence give the first row of the square array A194801. (End)
+%C A008795 a(n) is the number of coins left after packing 3-curves coins patterns into fountain of coins base n. Refer to A005169: "A fountain is formed by starting with a row of coins, then stacking additional coins on top so that each new coin touches two in the previous row". See illustration in links. - _Kival Ngaokrajang_, Oct 12 2013
+%D A008795 Ira Rosenholtz, Problem 1584, Mathematics Magazine, Vol. 72 (1999), p. 408.
+%H A008795 Vincenzo Librandi, <a href="/A008795/b008795.txt">Table of n, a(n) for n = 0..10000</a>
+%H A008795 Kival Ngaokrajang, <a href="/A008795/a008795.pdf">Illustration of initial terms</a>
+%H A008795 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%H A008795 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A008795 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (1,2,-2,-1,1).
+%F A008795 The signed version with g.f. (1-x^3)/(1-x^2)^3 is the inverse binomial transform of A084861. - _Paul Barry_, Jun 12 2003
+%F A008795 a(n) = binom(n/2+2, 2) for n even, binom((n+1)/2, 2) for n odd - _Rob Pratt_, Jul 12 2004
+%F A008795 a(n-2) interleaves n(n+1)/2 and n(n-1)/2. G.f.: (1-x+x^2)/((1+x)^2(1-x)^3)); a(n)=(2n^2+6n+7)/16+3(2n+3)(-1)^n/16. - _Paul Barry_, Jul 29 2004
+%F A008795 a(n) = n*(n+1)/2, n = +- 1, +- 2... - Omar E. Pol, Feb 05 2012
+%t A008795 Table[If[EvenQ[n], Binomial[n/2+2, 2], Binomial[(n+1)/2, 2]], {n, 0, 49}]
+%t A008795 CoefficientList[ Series[(1 + x^3)/(1 - x^2)^3, {x, 0, 50}], x] (* _Robert G. Wilson v_, Feb 05 2012 *)
+%o A008795 (MAGMA) [(2*n^2+6*n+7)/16+3*(2*n+3)*(-1)^n/16: n in [0..60] ]; // Vincenzo Librandi, Aug 21 2011
+%o A008795 (PARI) a(n)=(2*n^2+6*n+7)/16+3*(2*n+3)*(-1)^n/16 \\ _Charles R Greathouse IV_, Oct 22 2015
+%Y A008795 Cf. A005044.
+%Y A008795 First differences of A053307.
+%K A008795 nonn,easy
+%O A008795 0,3
+%A A008795 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

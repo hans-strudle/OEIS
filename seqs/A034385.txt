@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034385
+Showing 1-1 of 1
+
+%I A034385
+%S A034385 1,4,40,480,6240,84864,1188096,16972800,246105600,3609548800,
+%T A034385 53421322240,796463349760,11946950246400,180123249868800,
+%U A034385 2727580640870400,41459225741230080,632253192553758720
+%N A034385 Expansion of (1-16*x)^(-1/4), related to quartic factorial numbers.
+%H A034385 A. Straub, V. H. Moll, T. Amdeberhan, <a href="http://dx.doi.org/10.4064/aa140-1-2">The p-adic valuation of k-central binomial coefficients</a>, Acta Arith. 140 (1) (2009) 31-41, eq (1.10)
+%F A034385 a(n) = (4^n/n!)*A007696(n), n >= 1, a(0) := 1, A007696(n)=(4*n-3)(!^4) := product(4*j-3, j=1..n); G.f.: (1-16*x)^(-1/4).
+%Y A034385 Cf. A004987, A007696.
+%K A034385 easy,nonn
+%O A034385 0,2
+%A A034385 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

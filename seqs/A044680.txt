@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044680
+Showing 1-1 of 1
+
+%I A044680
+%S A044680 48,129,210,291,372,440,453,534,615,696,777,858,939,1020,1101,1169,
+%T A044680 1182,1263,1344,1425,1506,1587,1668,1749,1830,1898,1911,1992,2073,
+%U A044680 2154,2235,2316,2397,2478,2559,2627,2640,2721,2802
+%N A044680 Numbers n such that string 5,3 occurs in the base 9 representation of n but not of n+1.
+%K A044680 nonn,base
+%O A044680 1,1
+%A A044680 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037195
+Showing 1-1 of 1
+
+%I A037195
+%S A037195 2,1,2,3,2,2,2,3,3,2,2,3,4,5,4,4,4,5,4,4,4,5,6,7,6,6,6,7,7,6,4,5,6,7,
+%T A037195 6,6,6,7,7,6,3,4,5,6,5,5,5,6,6,5,3,4,5,6,5,5,5,6,6,5,3,4,5,6,5,5,5,6,
+%U A037195 6,5,4,5,6,7,6,6,6,7,7,6,3,4,5,6,5,5,5,6,6,5,3,4,5,6,5,5,5,6,6,5,6,9,10,11
+%N A037195 Number of consonants in n.
+%C A037195 The letter "y" is being considered a consonant regardless of its usage in the word(s).
+%K A037195 nonn,word,easy
+%O A037195 0,1
+%A A037195 _N. J. A. Sloane_.
+%E A037195 More terms from _David W. Wilson_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

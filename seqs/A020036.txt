@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020036
+Showing 1-1 of 1
+
+%I A020036
+%S A020036 1,0,0,0,1,6,29,177,1269,10366,95020,966032,10787363,131246245,
+%T A020036 1728075563,24481070470,371296235455,6002622473192,103045019123133,
+%U A020036 1871984514070245,35879703186346359,723574014257984910
+%N A020036 Nearest integer to GAMMA(n+1/6)/GAMMA(1/6).
+%p A020036 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%K A020036 nonn
+%O A020036 0,6
+%A A020036 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

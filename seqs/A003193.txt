@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003193
+Showing 1-1 of 1
+
+%I A003193 M0015
+%S A003193 1,0,0,0,2,0,0,16,18,0,168,384,314,1632,6264,9744,10014,86976,
+%T A003193 205344,80176,1009338,3579568,4575296,8301024,54012882,112640896,
+%U A003193 5164464
+%V A003193 1,0,0,0,-2,0,0,-16,18,0,-168,384,-314,-1632,6264,-9744,-10014,86976,
+%W A003193 -205344,80176,1009338,-3579568,4575296,8301024,-54012882,112640896,
+%X A003193 -5164464
+%N A003193 Magnetization for body-centered cubic lattice.
+%D A003193 C. Domb, Ising model, in Phase Transitions and Critical Phenomena, vol. 3, ed. C. Domb and M. S. Green, Academic Press, 1974; p. 421.
+%D A003193 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003193 M. F. Sykes, J. W. Essam and D. S. Gaunt, Derivation of low-temperature expansions for the Ising model of a ferromagnet and an antiferromagnet, J. Math. Phys. 6 (1965), 283-298.
+%D A003193 M. F. Sykes et al., Derivation of low-temperature expansions for Ising model VI. Three-dimensional lattices - temperature grouping, J. Phys. A 6 (1973), 1507-1516.
+%K A003193 sign,nice
+%O A003193 0,5
+%A A003193 _N. J. A. Sloane_.
+%E A003193 Sykes et al. give 2 more terms.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

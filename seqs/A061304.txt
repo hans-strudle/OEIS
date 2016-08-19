@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061304
+Showing 1-1 of 1
+
+%I A061304
+%S A061304 1,3,6,10,15,21,55,66,78,91,105,190,210,231,253,406,435,465,561,595,
+%T A061304 703,741,861,903,946,1081,1326,1378,1653,1711,1770,1830,1891,2145,
+%U A061304 2211,2278,2346,2415,2485,2701,2926,3003,3081,3403,3486,3570,3655,3741,4186,4278
+%N A061304 Squarefree triangular numbers.
+%C A061304 Indices of these triangular numbers in A215726. - _Zak Seidov_, Aug 22 2012
+%H A061304 Zak Seidov, <a href="/A061304/b061304.txt">Table of n, a(n) for n = 1..1000</a>
+%F A061304 A010054(a(n))*A008966(a(n)) = 1. [_Reinhard Zumkeller_, Nov 01 2009]
+%e A061304 105 = 3 * 5 * 7 is a squarefree triangular number.
+%Y A061304 Cf. A000217, A215726.
+%K A061304 nonn,easy
+%O A061304 1,2
+%A A061304 _Amarnath Murthy_, Apr 26 2001
+%E A061304 More terms from Asher Natan Auel (auela(AT)reed.edu), May 14, 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

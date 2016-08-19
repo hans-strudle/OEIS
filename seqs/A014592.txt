@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014592
+Showing 1-1 of 1
+
+%I A014592
+%S A014592 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014592 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,
+%U A014592 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014592 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014592 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+%X A014592 -1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014592 Inverse of 583rd cyclotomic polynomial.
+%p A014592 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014592 sign
+%O A014592 0,1
+%A A014592 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004778
+Showing 1-1 of 1
+
+%I A004778
+%S A004778 1,4,12,24,36,60,120,180,240,360,720,840,1260,1680,2520,5040,7560,
+%T A004778 10080,15120,20160,25200,27720,45360,50400,55440,83160,110880,166320,
+%U A004778 221760,277200,332640,498960,554400,665280,720720,1081080,1441440,2162160
+%N A004778 Where records occur in A038548.
+%C A004778 Records are 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 16, 18, 20, 24, 30, ...
+%C A004778 This sequence coincides with the highly composite numbers (A002182) excluding 2, 6, and 48. These excluded numbers occur directly after the only squares of A002182, namely 1, 4, and 36. - _Jaycob Coleman_, Mar 08 2015
+%o A004778 (PARI) lista(nn) = {rec = 0; for (n=1, nn, nb = ceil(numdiv(n)/2); if (nb > rec, print1(n, ", "); rec = nb;););} \\ _Michel Marcus_, Sep 01 2013
+%Y A004778 Cf. A038548, A038549, A086921, A086921.
+%K A004778 easy,nonn
+%O A004778 1,2
+%A A004778 _Chittaranjan Pardeshi_, Sep 19 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

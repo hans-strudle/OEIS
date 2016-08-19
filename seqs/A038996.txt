@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038996
+Showing 1-1 of 1
+
+%I A038996
+%S A038996 1,511,9841,174251,488281,5028751,6725601,50955971,72636421,249511591,
+%T A038996 235794769,1714804091,883708281,3436782111,4805173321,13910980083,
+%U A038996 7411742281,37117211131,17927094321,85083452531
+%N A038996 Sublattices of index n in generic 9-dimensional lattice.
+%D A038996 M. Baake, "Solution of coincidence problem...", in R. V. Moody, ed., Math. of Long-Range Aperiodic Order, Kluwer 1997, pp. 9-44.
+%H A038996 <a href="/index/Su#sublatts">Index entries for sequences related to sublattices</a>
+%F A038996 f(Q, n)=Sum d*f(Q-1, d), d|n; here Q=9.
+%F A038996 Multiplicative with a(p^e) = product (p^(e+k)-1)/(p^k-1), k=1..8.
+%F A038996 Dirichlet g.f. product_{k=0..Q-1} zeta(s-k). - R. J. Mathar, Apr 01 2011
+%Y A038996 Cf. A001001.
+%K A038996 nonn,mult
+%O A038996 1,2
+%A A038996 _N. J. A. Sloane_.
+%E A038996 Offset changed to 1. - R. J. Mathar, Apr 01 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

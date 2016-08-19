@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026547
+Showing 1-1 of 1
+
+%I A026547
+%S A026547 1,1,1,1,5,6,16,19,65,79,251,306,1016,1247,4117,5069,16913,20889,
+%T A026547 69865,86479,290455,360205,1212905,1506462,5085224,6324176,21389824,
+%U A026547 26630423,90226449,112439094,381519416,475838291,1616684241,2017827545
+%N A026547 a(n) = T(n,[ n/2 ]), T given by A026536.
+%K A026547 nonn
+%O A026547 0,5
+%A A026547 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

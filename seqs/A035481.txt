@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035481
+Showing 1-1 of 1
+
+%I A035481
+%S A035481 1,1,1,1,4,6,456,6240,10936320,1225566720
+%N A035481 Number of n X n symmetric matrices whose first row is 1..n and whose rows and columns are all permutations of 1..n.
+%C A035481 The odd subsequence is presumably A000438, which gives more terms. The even subsequence is A035483.
+%e A035481 a(3) = 1 because after 123 in the first row and column, 213 is not allowed for the second row, so it must be 231 and thus the third row is 312.
+%t A035481 (* This script is not suitable for n > 6 *) matrices[n_ /; n > 1] := Module[{a, t, vars}, t = Table[Which[i==1, j, j==1, i, j>i, a[i, j], True, a[j, i]], {i, n}, {j, n}]; vars = Select[Flatten[t], !IntegerQ[#]& ] // Union; t /. {Reduce[And @@ (1 <= # <= n & /@ vars) && And @@ Unequal @@@ t, vars, Integers] // ToRules}]; a[0] = a[1] = 1; a[n_] := Length[ matrices[n]]; Table[an = a[n]; Print["a(", n, ") = ", an]; an, {n, 0, 6}] (* _Jean-François Alcover_, Jan 04 2016 *)
+%Y A035481 Cf. A000438, A035482, A000315, A002860, A003090, A040082.
+%K A035481 more,nonn,nice
+%O A035481 0,5
+%A A035481 _Joshua Zucker_ and Joe Keane
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

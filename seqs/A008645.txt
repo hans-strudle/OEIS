@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008645
+Showing 1-1 of 1
+
+%I A008645
+%S A008645 1,1,2,2,4,4,6,6,10,10,14,14,20,20,26,26,36,36,46,46,60,60,74,74,94,
+%T A008645 94,114,114,140,140,166,166,202,202,238,238,284,284,330,330,390,390,
+%U A008645 450,450,524,524,598,598
+%N A008645 Molien series of 6 X 6 upper triangular matrices over GF( 2 ).
+%C A008645 Different from A018819 (see g.f.). - _Joerg Arndt_, Apr 22 2016
+%D A008645 D. J. Benson, Polynomial Invariants of Finite Groups, Cambridge, 1993, p. 105.
+%H A008645 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=245">Encyclopedia of Combinatorial Structures 245</a> [broken link]
+%H A008645 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%F A008645 G.f.: 1/(1-x)/(1-x^2)/(1-x^4)/(1-x^8)/(1-x^16)/(1-x^32).
+%t A008645 CoefficientList[Series[1/(1-x)/(1-x^2)/(1-x^4)/(1-x^8)/(1-x^16)/(1-x^32), {x, 0, 100}], x] (* _Vaclav Kotesovec_, Apr 22 2016 *)
+%K A008645 nonn,easy
+%O A008645 0,3
+%A A008645 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

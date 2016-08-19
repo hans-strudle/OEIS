@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052501
+Showing 1-1 of 1
+
+%I A052501
+%S A052501 1,1,1,1,1,25,145,505,1345,3025,78625,809425,4809025,20787625,
+%T A052501 72696625,1961583625,28478346625,238536558625,1425925698625,
+%U A052501 6764765838625,189239120970625,3500701266525625,37764092547420625,288099608198025625
+%N A052501 Number of permutations sigma such that sigma^5=Id; degree-n permutations of order dividing 5.
+%D A052501 Doslic, Tomislav and Veljan, Darko. Logarithmic behavior of some combinatorial sequences. Discrete Math. 308 (2008), no. 11, 2182--2212. MR2404544 (2009j:05019) - From _N. J. A. Sloane_, May 01 2012
+%D A052501 L. Moser and M. Wyman, On solutions of x^d = 1 in symmetric groups, Canad. J. Math., 7 (1955), 159-168.
+%D A052501 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2, 1999; see Example 5.2.10.
+%H A052501 Alois P. Heinz, <a href="/A052501/b052501.txt">Table of n, a(n) for n = 0..300</a>
+%H A052501 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=26">Encyclopedia of Combinatorial Structures 26</a>
+%F A052501 The number of degree-n permutations of order exactly p (where p is prime) satisfies a(n) = a(n-1)+(1+a(n-p))*(n-1)!/(n-p)! with a(n)=0 if p>n. Also a(n)=Sum_{j=1 to floor[n/p]}[n!/(j!*(n-p*j)!*(p^j))].
+%F A052501 E.g.f.: exp(x+1/5*x^5).
+%F A052501 Recurrence: {a(1)=1, a(0)=1, a(2)=1, a(4)=1, a(3)=1, (-n^4-35*n^2-50*n-24-10*n^3)*a(n)+a(n+5)-a(n+4)}.
+%F A052501 a(n) = a(n-1)+a(n-5)*(n-1)!/(n-5)! = Sum_{j = 0 to floor[n/5]}[n!/(j!*(n-5j)!*(5^j))] = A059593(n)+1.
+%p A052501 spec := [S,{S=Set(Union(Cycle(Z,card=1),Cycle(Z,card=5)))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052501 max = 23; CoefficientList[ Series[ Exp[x + x^5/5], {x, 0, max}], x]*Range[0, max]! (* _Jean-François Alcover_, Feb 15 2012, after e.g.f. *)
+%Y A052501 Cf. A000085, A001470, A001472, A053495-A053505, A005388.
+%Y A052501 Column k=5 of A008307.
+%K A052501 nonn,nice,easy
+%O A052501 0,6
+%A A052501 _N. J. A. Sloane_, Jan 15 2000; encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

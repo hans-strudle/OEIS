@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027109
+Showing 1-1 of 1
+
+%I A027109
+%S A027109 1,2,6,29,131,619,3013,14854,73996,372023,1883369,9591012,49091034,
+%T A027109 252371780,1302419484,6744389329,35031370911,182457629783,
+%U A027109 952674694705,4985494458892,26143834054498,137358293523986,722938114992478
+%N A027109 Sum{T(n,k)*T(n,n+k)}, 0<=k<=n, T given by A027082.
+%K A027109 nonn
+%O A027109 0,2
+%A A027109 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

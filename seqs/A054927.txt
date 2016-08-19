@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054927
+Showing 1-1 of 1
+
+%I A054927
+%S A054927 1,0,0,1,4,17,122,1512,32692,1332942,105327842,15931236010,
+%T A054927 4514847754466,2400986640234092,2424697785383015323
+%N A054927 Number of connected unlabeled "median" graphs having n nodes such that complement is also connected.
+%H A054927 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054927 A001437(n)+A054926(n)-A000717(n).
+%K A054927 nonn,easy,more
+%O A054927 1,5
+%A A054927 _N. J. A. Sloane_, May 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

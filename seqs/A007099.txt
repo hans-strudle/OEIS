@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007099
+Showing 1-1 of 1
+
+%I A007099 M5344
+%S A007099 0,1,70,19320,11052720,11408720400,19285018552800,49792044478176000,
+%T A007099 186348919238786304000,970566620767088881536000,
+%U A007099 6808941648018137282054400000,62642603299257346706851910400000
+%N A007099 Number of labeled trivalent (or cubic) 2-connected graphs with 2n nodes.
+%D A007099 R. C. Read, Some Enumeration Problems in Graph Theory. Ph.D. Dissertation, Department of Mathematics, Univ. London, 1958.
+%D A007099 R. W. Robinson, personal communication.
+%D A007099 R. W. Robinson, Numerical implementation of graph counting algorithms, AGRC Grant, Math. Dept., Univ. Newcastle, Australia, 1976.
+%D A007099  R. W. Robinson, Computer print-out, no date. Gives first 29 terms.
+%D A007099 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007099 R. W. Robinson, <a href="/A007099/b007099.txt">Table of n, a(n) for n = 2..29</a>
+%Y A007099 Cf. A002829, A004109.
+%K A007099 nonn
+%O A007099 1,3
+%A A007099 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

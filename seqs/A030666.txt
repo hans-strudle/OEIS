@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030666
+Showing 1-1 of 1
+
+%I A030666
+%S A030666 16,25,36,49,529,64,729,81,900,100,1156,121,1369,144,1521,169,1764,
+%T A030666 1849,196,2025,2116,225,2304,2401,256,2601,2704,289,2916,3025,3136,
+%U A030666 324,3364,3481,35344,361,3721,3844,3969,400,41209,4225,4356,441
+%N A030666 Smallest nontrivial extension of n which is a square.
+%H A030666 N. J. A. Sloane, <a href="/A030666/b030666.txt">Table of n, a(n) for n = 1..20000</a>
+%p A030666 # Program which computes 20000 terms, from _N. J. A. Sloane_, Nov 24 2015
+%p A030666 for b from 1 to 20000 do
+%p A030666 sw1:=-1:
+%p A030666 for p from 1 to 6 do
+%p A030666 bp:=b*10^p;
+%p A030666 for i from 0 to 10^p-1 do
+%p A030666 if issqr(bp+i) then lprint(b,bp+i); sw1:=1; break; fi;
+%p A030666                        od:
+%p A030666 if sw1 > 0 then break; fi;
+%p A030666                  od:
+%p A030666 if sw1 < 0 then lprint("failed at b = ",b); fi;
+%p A030666                       od:
+%Y A030666 Cf. A030667.
+%Y A030666 See A264604 for another version.
+%K A030666 nonn,base
+%O A030666 1,1
+%A A030666 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036255
+Showing 1-1 of 1
+
+%I A036255
+%S A036255 9,945,98475,9961125,999024375,99975590625,9999389671875,
+%T A036255 999984741328125,99999618530859375,9999990463259765625,
+%U A036255 999999761581435546875,99999994039535595703125,9999999850988388427734375,999999996274709703369140625,99999999906867742547607421875
+%N A036255 Number of inequivalent strings of 2n+1 digits, when 2 strings are equivalent if turning 1 upside down gives the other.
+%D A036255 De Bruijn, Polya's theory of counting, in Beckenbach, ed., Applied Combinatorial Math., Wiley, 1964 (p. 182).
+%F A036255 10^(2*n+1)-5^(2*n+1)/2+3*5^n/2.
+%Y A036255 Cf. A036257, A036258.
+%K A036255 nonn,easy,base
+%O A036255 0,1
+%A A036255 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

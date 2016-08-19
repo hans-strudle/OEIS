@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023377
+Showing 1-1 of 1
+
+%I A023377
+%S A023377 4,9,19,84,819,19929,4968964,32299934229,22650860119442104,
+%T A023377 64622859204336398690105709,37417737354038427535937949715303251763909,
+%U A023377 10839565003114573305286763426362520300989660289144540301999534964
+%N A023377 a(n+1) = a(n) converted to base 9 from base 4 (written in base 10).
+%t A023377 NestList[FromDigits[IntegerDigits[#,4],9]&,4,15] (* _Harvey P. Dale_, May 21 2012 *)
+%K A023377 nonn
+%O A023377 1,1
+%A A023377 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

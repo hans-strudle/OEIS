@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058682
+Showing 1-1 of 1
+
+%I A058682
+%S A058682 0,0,1,3,7,13,23,37,58,87,128,183,259,359,493,668,898,1194,1578,2067,
+%T A058682 2693,3484,4485,5739,7313,9270,11705,14714,18431,22995,28598,35439,
+%U A058682 43787,53929,66238,81120,99096,120732,146746,177930,215267
+%N A058682 p(0)+p(1)+...+p(n-1)-n, where p = partition numbers, A000041.
+%C A058682 Number of non-isomorphic rank-2 matroids over S_n.
+%C A058682 Starting (1, 3, 7, 13,...) = row sums of triangle A171239. [From _Gary W. Adamson_, Dec 05 2009]
+%H A058682 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/matroid.html">Tables of matroids</a>
+%H A058682 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/phd.html">Counting and Probability in Matroid Theory</a>, Ph.D. Thesis, Trinity College, Dublin, 2000.
+%H A058682 <a href="/index/Mat#matroid">Index entries for sequences related to matroids</a>
+%H A058682 W. M. B. Dukes, <a href="http://arXiv.org/abs/math.CO/0411557">On the number of matroids on a finite set</a>
+%p A058682 a:=n->add(numbpart(k)-1, k=1..n-1): seq(a(n), n=1..41); - _Zerinvary Lajos_, Jun 01 2008
+%Y A058682 Cf. A000041, A000070. A diagonal of A053534.
+%Y A058682 Cf. A171239 [From _Gary W. Adamson_, Dec 05 2009]
+%K A058682 nonn
+%O A058682 0,4
+%A A058682 _N. J. A. Sloane_, Dec 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016143
+Showing 1-1 of 1
+
+%I A016143
+%S A016143 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A016143 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A016143 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A016143 1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A016143 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A016143 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A016143 Inverse of 2134th cyclotomic polynomial.
+%p A016143 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016143 sign
+%O A016143 0,1
+%A A016143 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024274
+Showing 1-1 of 1
+
+%I A024274
+%S A024274 0,1,6,111,4060,239405,20758914,2482982971,391694904056,
+%T A024274 78786450217881,19679892395058750,5976596329212898631,
+%U A024274 2168616275876397830484,926586406796043293175109
+%N A024274 Expansion of tan(sinh(x)).x/2.
+%t A024274 Tan[ Sinh[ x ]]*x/2 (* Even Part *)
+%Y A024274 A009683.
+%K A024274 nonn
+%O A024274 0,3
+%A A024274 _R. H. Hardin_
+%E A024274 Extended and signs tested 03/97.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

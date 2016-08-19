@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023400
+Showing 1-1 of 1
+
+%I A023400
+%S A023400 2,9,9,2,9,2,2,2,2,2,2,9,9,2,9,9,9,9,2,2,9,2,9,2,9,2,2,9,2,2,9,2,2,9,
+%T A023400 9,9,9,9,2,2,2,2,2,2,9,2,2,9,9,2,9,9,9,9,9,2,9,2,9,2,2,9,9,9,2,2,9,9,
+%U A023400 9,2,9,2,2,2,2,9,9,9,9,9,9,9,9,2,9,2,9,2,2,2,9,9,2,2,2,9,9,2,9,9,2,9,9,9,2,2,9,9
+%N A023400 If any power of 2 ends with k 2's and 9's, they must be the first k elements of this sequence in reverse order.
+%K A023400 nonn
+%O A023400 0,1
+%A A023400 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

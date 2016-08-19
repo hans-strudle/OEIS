@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003143
+Showing 1-1 of 1
+
+%I A003143 M0570
+%S A003143 1,1,2,3,4,6,9,13,19,27,38,54,77,109,155,219,310,438,621,877,1243,
+%T A003143 1755,2486,3510,4973,7021,9947,14043,19894,28086,39789,56173,79579,
+%U A003143 112347,159158,224694,318317,449389,636635,898779,1273270,1797558
+%N A003143 a(2n) = [ 17*2^n /14 ], a(2n+1) = [ 12*2^n /7 ].
+%D A003143 D. E. Knuth, The Art of Computer Programming. Addison-Wesley, Reading, MA, Vol. 3, p. 207.
+%D A003143 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003143 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A003143 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%p A003143 A003143:=(1+z**3-z**4+z**5-z**6+z**7)/((z-1)*(z**2-z+1)*(z**2+z+1)*(2*z**2-1)); [Conjectured (correctly) by _Simon Plouffe_ in his 1992 dissertation.]
+%o A003143 (PARI) a(n)=(17+7*(n%2))*2^(n\2)\14
+%K A003143 nonn
+%O A003143 0,3
+%A A003143 _N. J. A. Sloane_.
+%E A003143 More terms from _Michael Somos_, May 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

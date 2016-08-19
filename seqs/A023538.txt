@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023538
+Showing 1-1 of 1
+
+%I A023538
+%S A023538 1,4,10,21,39,68,110,169,247,348,478,639,837,1076,1358,1687,2069,2510,
+%T A023538 3012,3581,4221,4934,5726,6601,7565,8626,9788,11053,12425,13906,15500,
+%U A023538 17221,19073,21062,23190,25467,27895,30480,33228,36143,39231,42498,45946,49585
+%N A023538 Convolution of natural numbers with (1, p(1), p(2), ... ), where p(k) is the k-th prime.
+%F A023538 a(n) = Sum_{k<=n} [(A158611(k+1)) * (A000027(n-k+1))] = Sum_{k<=n} [(A008578(k)) * (A000027(n-k+1))]. [From _Jaroslav Krizek_, Aug 05 2009]
+%t A023538 Nest[Accumulate,Join[{1},Select[Range@200,PrimeQ]],2] (* _Vladimir Joseph Stephan Orlovsky_, Jan 25 2012 *)
+%Y A023538 Cf. A007504, A014148, A014150, A014284, A023538, A178138
+%K A023538 nonn
+%O A023538 1,2
+%A A023538 _Clark Kimberling_
+%E A023538 Correction for change of offset in A158611 and A008578 in Aug 2009 _Jaroslav Krizek_, Jan 27 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022626
+Showing 1-1 of 1
+
+%I A022626
+%S A022626 1,31,465,4526,32426,184357,877052,3633851,13513458,46099108,
+%T A022626 146495398,438514468,1246964119,3391183930,8867709030,22393552057,
+%U A022626 54808232438,130404256148,302394884204,684929956630,1518203338688
+%V A022626 1,-31,465,-4526,32426,-184357,877052,-3633851,13513458,-46099108,
+%W A022626 146495398,-438514468,1246964119,-3391183930,8867709030,-22393552057,
+%X A022626 54808232438,-130404256148,302394884204,-684929956630,1518203338688
+%N A022626 Expansion of Product (1+q^m)^-31; m=1..inf.
+%F A022626 a(n) ~ (-1)^n * 31^(1/4) * exp(Pi*sqrt(31*n/6)) / (2^(7/4) * 3^(1/4) * n^(3/4)). - _Vaclav Kotesovec_, Aug 27 2015
+%t A022626 nmax = 50; CoefficientList[Series[Product[1/(1 + x^k)^31, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 27 2015 *)
+%K A022626 sign
+%O A022626 0,2
+%A A022626 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

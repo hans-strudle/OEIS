@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055837
+Showing 1-1 of 1
+
+%I A055837
+%S A055837 3,15,73,361,1806,9122,46425,237721,1223365,6321965,32784830,
+%T A055837 170528190,889291352,4648068192,24342384337,127707864849,671047979300,
+%U A055837 3531026714720,18603737992455,98129545962855,518149580437560
+%N A055837 T(2n+3,n), where T is the array in A055830.
+%F A055837 Conjecture: 5*n*(n+2)*(11*n-4)*a(n) +(-242*n^3-330*n^2+29*n+42)*a(n-1) -3*(3*n-1)*(11*n+7)*(3*n-2)*a(n-2)=0. - _R. J. Mathar_, Mar 13 2016
+%K A055837 nonn
+%O A055837 0,1
+%A A055837 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

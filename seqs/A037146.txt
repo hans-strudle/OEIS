@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037146
+Showing 1-1 of 1
+
+%I A037146
+%S A037146 1,0,792,227244864,9944907192,919209728448,34981193422296
+%V A037146 1,0,-792,227244864,-9944907192,919209728448,34981193422296
+%N A037146 Numerators of Fourier coefficients of Eisenstein series of degree 2 and weight 10 when evaluated at Gram(A_2)*z.
+%D A037146 Klingen, Intro. Lectures on Siegel Modular Forms, p. 123.
+%H A037146 <a href="/index/Ed#Eisen">Index entries for sequences related to Eisenstein series</a>
+%F A037146 x^20-120*x^14*y+1728*x^8*y^2+1330587648/43867*x^2*y^3, x = phi_0(z), y = Delta_12(z);
+%Y A037146 Cf. A037147.
+%K A037146 sign,easy,more,frac
+%O A037146 0,3
+%A A037146 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

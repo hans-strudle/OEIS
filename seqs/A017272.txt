@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017272
+Showing 1-1 of 1
+
+%I A017272
+%S A017272 0,10000,160000,810000,2560000,6250000,12960000,24010000,40960000,
+%T A017272 65610000,100000000,146410000,207360000,285610000,384160000,506250000,
+%U A017272 655360000,835210000,1049760000,1303210000
+%N A017272 (10*n)^4.
+%H A017272 Vincenzo Librandi, <a href="/A017272/b017272.txt">Table of n, a(n) for n = 0..250</a>
+%H A017272 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%o A017272 (MAGMA) [(10*n)^4: n in [0..30]]; // Vincenzo Librandi, Jul 29 2011
+%o A017272 (PARI) a(n)=(10*n)^4 \\ _Charles R Greathouse IV_, Jul 29 2011
+%K A017272 nonn,easy
+%O A017272 0,2
+%A A017272 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

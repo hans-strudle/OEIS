@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049228
+Showing 1-1 of 1
+
+%I A049228
+%S A049228 25,49,1156,2809,1369,169,225,3025,4489,5929,441,5329,25281,10609,
+%T A049228 37249,10609,27889,24649,1225,22801,80089,37249,85849,34225,187489,
+%U A049228 1849,208849,157609,76729,2401,82369,267289,64009
+%N A049228 sigma(n)-n is a perfect square associated with A049226.
+%e A049228 a(27)=208849. Sum of 16 divisors, sigma(n)=1166400. 1166400/16=72900. 1166400-957551=208849. 72900 and 208849 are perfect squares
+%Y A049228 Cf. A049227.
+%K A049228 easy,nonn
+%O A049228 2,1
+%A A049228 _Enoch Haga_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

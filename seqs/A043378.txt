@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043378
+Showing 1-1 of 1
+
+%I A043378
+%S A043378 14,50,74,80,84,85,87,88,89,92,98,104,122,158,194,230,266,290,296,300,
+%T A043378 301,303,304,305,308,314,320,338,374,410,434,440,444,445,447,448,449,
+%U A043378 452,458,464,470,476,480,481,483,484,485,488
+%N A043378 Numbers n such that number of 2's in base 6 is 2.
+%t A043378 Select[Range[500],DigitCount[#,6,2]==2&] (* _Harvey P. Dale_, Sep 04 2011 *)
+%K A043378 nonn,base
+%O A043378 1,1
+%A A043378 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

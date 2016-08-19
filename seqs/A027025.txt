@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027025
+Showing 1-1 of 1
+
+%I A027025
+%S A027025 1,11,33,77,161,319,613,1157,2161,4011,7417,13685,25217,46431,85453,
+%T A027025 157229,289249,532075,978705,1800189,3311137,6090207,11201717,
+%U A027025 20603253,37895377,69700555,128199401,235795557,433695745,797690943
+%N A027025 T(n,n+3), T given by A027023.
+%F A027025 G.f.: [x^3(1+8x+2x^2-3x^4)]/[(1-x)^2(1-x-x^2-x^3)].
+%K A027025 nonn
+%O A027025 3,2
+%A A027025 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

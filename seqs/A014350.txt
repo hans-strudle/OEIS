@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014350
+Showing 1-1 of 1
+
+%I A014350
+%S A014350 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+%T A014350 1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014350 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014350 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,
+%W A014350 -1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014350 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014350 Inverse of 341st cyclotomic polynomial.
+%p A014350 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014350 sign
+%O A014350 0,1
+%A A014350 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

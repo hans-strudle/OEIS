@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014887
+Showing 1-1 of 1
+
+%I A014887
+%S A014887 1,3930,6044,61879,137256
+%N A014887 n is equal to the number of 1's in all numbers <= n written in base 7.
+%Y A014887 Cf. A014778, A014886.
+%K A014887 nonn,base,fini,full
+%O A014887 1,2
+%A A014887 _Olivier Gérard_
+%E A014887 List proved complete by _Hugo van der Sanden_ (cf. A014886).
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

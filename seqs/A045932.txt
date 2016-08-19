@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045932
+Showing 1-1 of 1
+
+%I A045932
+%S A045932 2,33,54,55,74,85,91,92,93,115,116,133,141,142,143,144,145,158,159,
+%T A045932 175,200,205,206,212,213,214,215,216,247,295,296,301,302,323,324,325,
+%U A045932 326,332,391,392,422,445,451,535,536,542,565,632,685,686,721,722,799,800
+%N A045932 n through n+3 divisible by same number of distinct primes.
+%t A045932 Transpose[Select[Partition[Range[900],4,1],Length[Union[PrimeNu[#]]] == 1&]][[1]] (* _Harvey P. Dale_, Apr 12 2013 *)
+%Y A045932 Cf. A006073, A045933.
+%K A045932 nonn
+%O A045932 1,1
+%A A045932 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

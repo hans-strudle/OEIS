@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054050
+Showing 1-1 of 1
+
+%I A054050
+%S A054050 1,10,129,2836,83061,3076386,136647824,7081061404,419223006090,
+%T A054050 27914819962058,2064872379041701,167986348586006675,
+%U A054050 14906892578198245332,1432903480780688968334,148318150277923875087238
+%N A054050 Number of nonisomorphic binary n-state automata.
+%C A054050 Also isomorphism classes of ordered pairs of endofunctions i.e. an order pair (f,g) of functions from {1,...,n} to itself. - _Christian G. Bower_, Dec 18 2003
+%D A054050 M. A. Harrison, A census of finite automata, Canad. J. Math., 17, No. 1, 1965, p. 110.
+%D A054050 F. Harary and E. Palmer, Graphical Enumeration, 1973.
+%F A054050 a(n) = sum {1*s_1+2*s_2+...=n} (fix A[s_1, s_2, ...]/(1^s_1*s_1!*2^s_2*s_2!*...)) where fix A[s_1, s_2, ...] = prod {i>=1} ( (sum {d|i} (d*s_d))^(2*i*s_i)) - _Christian G. Bower_, Dec 18 2003
+%Y A054050 Cf. A001372, A054745, A054051.
+%K A054050 nonn
+%O A054050 1,2
+%A A054050 _Vladeta Jovovic_, Apr 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

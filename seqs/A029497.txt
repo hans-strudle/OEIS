@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029497
+Showing 1-1 of 1
+
+%I A029497
+%S A029497 1,2,3,11,207,1239,7947,9233,49883,118669,315629,2640670
+%N A029497 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 4 (most significant digit on right).
+%C A029497 This sequence differs from A061933 in that all least significant zeros are kept during concatenation.
+%H A029497 <a href="/index/N#concat">Index entries for related sequences</a>
+%e A029497 See A029495 for example.
+%Y A029497 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029497 nonn,base,more
+%O A029497 1,2
+%A A029497 _Olivier Gérard_
+%E A029497 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A029497 Additional comments and more terms from Larry Reeves (larryr(AT)acm.org), May 25 2001
+%E A029497 One more term, next term exceeds 10000000. _Sean A. Irvine_, Sep 01 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

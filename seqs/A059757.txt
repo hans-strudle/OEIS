@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059757
+Showing 1-1 of 1
+
+%I A059757
+%S A059757 2184,3521210,47563752566,12913165320,3180417880379694,
+%T A059757 2212091405535117414,3843095117044776029646,3615758618744894508744,
+%U A059757 13151117479433859435440
+%N A059757 Initial terms of smallest Erdős-Woods intervals corresponding to the terms of A059756.
+%C A059757 The term a(1)=2184 is the start of the lowest interval with an Erdős-Wood interval length of 16 = A059756(1), and the list of others of that length 16 appear to be the same as A194585. - _R. J. Mathar_, Jul 02 2014
+%Y A059757 Cf. A059756, A194585, A244620.
+%K A059757 nonn
+%O A059757 1,1
+%A A059757 Nik Lygeros (webmaster(AT)lygeros.org), Feb 12 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

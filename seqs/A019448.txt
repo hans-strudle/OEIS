@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019448
+Showing 1-1 of 1
+
+%I A019448
+%S A019448 1,2,5,16,58,231,1016,4782,23653,121727,648611,3541871
+%N A019448 Number of monomials in expansion of determinant of an n X n Hankel matrix [ t(i+j) ] in terms of its entries.
+%p A019448 with(linalg): A019448 := proc(n) local i, j, m; m := array(1..n, 1..n); for i from 1 to n do for j from 1 to n do m[i, j] := a[i+j] od od; nops([coeffs(det(m))]); end; # _Jeffrey Shallit_, Jun 08 2000
+%t A019448 f[n_] := Length@ Expand@ Det@ Table[t[i + j], {i, n}, {j, n}]; Do[ Print@ f@n, {n, 11}] (* _Robert G. Wilson v_, Sep 17 2006 *)
+%K A019448 nonn,hard,more
+%O A019448 1,2
+%A A019448 Herbert Wilf (wilf(AT)central.cis.upenn.edu)
+%E A019448 Two more terms from _Jeffrey Shallit_, Jun 08 2000
+%E A019448 a(10) and a(11) from _Robert G. Wilson v_, Sep 17 2006
+%E A019448 a(12) from _Roman Pearce_, Aug 30 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019425
+Showing 1-1 of 1
+
+%I A019425
+%S A019425 0,1,1,4,1,8,1,12,1,16,1,20,1,24,1,28,1,32,1,36,1,40,1,44,1,48,1,52,1,
+%T A019425 56,1,60,1,64,1,68,1,72,1,76,1,80,1,84,1,88,1,92,1,96,1,100,1,104,1,
+%U A019425 108,1,112,1,116,1,120,1,124,1,128,1,132,1,136,1,140,1,144,1,148,1,152,1,156,1
+%N A019425 Continued fraction for tan(1/2).
+%H A019425 Harry J. Smith, <a href="/A019425/b019425.txt">Table of n, a(n) for n = 0..20000</a>
+%H A019425 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%H A019425 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A019425 a(n) = n - 1/2 - (n-3/2)*(-1)^n + binomial(1,n) - 2*binomial(0,n). - _Paul Barry_, Oct 25 2007
+%F A019425 From _Philippe Deléham_, Feb 10 2009: (Start)
+%F A019425 a(n) = 2*a(n-2) - a(n-4), n>=6.
+%F A019425 G.f.: (x + x^2 + 2*x^3 - x^4 + x^5)/(1-x^2)^2. (End)
+%e A019425 0.546302489843790513255179465... = 0 + 1/(1 + 1/(1 + 1/(4 + 1/(1 + ...)))). - _Harry J. Smith_, Jun 13 2009
+%t A019425  Join[{0, 1}, LinearRecurrence[{0, 2, 0, -1}, {1, 4, 1, 8}, 100]] (* _Vincenzo Librandi_, Jan 03 2016 *)
+%o A019425 (PARI) { allocatemem(932245000); default(realprecision, 85000); x=contfrac(tan(1/2)); for (n=0, 20000, write("b019425.txt", n, " ", x[n+1])); } \\ _Harry J. Smith_, Jun 13 2009
+%o A019425 (MAGMA) [0,1] cat [n-1/2-(n-3/2)*(-1)^n+Binomial(1,n)- 2*Binomial(0,n): n in [2..80]]; // _Vincenzo Librandi_, Jan 03 2016
+%Y A019425 Cf. A161011 (decimal expansion).
+%K A019425 nonn,cofr
+%O A019425 0,4
+%A A019425 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

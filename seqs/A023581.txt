@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023581
+Showing 1-1 of 1
+
+%I A023581
+%S A023581 1,2,3,2,2,4,3,2,2,5,2,4,3,2,3,4,2,6,3,2,3,2,2,3,4,4,2,3,5,3,3,2,4,2,
+%T A023581 4,3,6,2,3,5,3,4,2,4,5,2,2,2,3,4,3,3,3,2,4,3,5,2,5,3,3,4,3,2,3,7,2,4,
+%U A023581 4,6,3,2,3,4,2,2,5,6,3,3,2,4,3,3,3,2,3,4,5,2,3,2,4,3,2,3,9,3,2
+%N A023581 Sum of exponents in prime-power factorization of p(n)+3.
+%F A023581 a(n) = A001222(A113935(n)). - _Michel Marcus_, Sep 30 2013
+%o A023581 (PARI) a(n) = bigomega(prime(n) + 3); \\ _Michel Marcus_, Sep 30 2013
+%K A023581 nonn
+%O A023581 1,2
+%A A023581 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

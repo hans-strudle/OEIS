@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056794
+Showing 1-1 of 1
+
+%I A056794
+%S A056794 1,2,3,17,78,539,1622,2458,5292,5314,52009,142402,143499,1610152,
+%T A056794 1713544,4670029,5218984,15137567,15282412,15814149,47370059,50702752
+%N A056794 n*(n-1) is a pronic (A002378) palindrome.
+%t A056794 Do[c=RealDigits[n*(n-1)][[1]]; If[c=Reverse[c], Print[n]], {n, 1, 10^8}]
+%Y A056794 Cf. A002378.
+%K A056794 nonn,base
+%O A056794 1,2
+%A A056794 _Robert G. Wilson v_, Aug 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

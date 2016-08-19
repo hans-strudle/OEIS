@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004984
+Showing 1-1 of 1
+
+%I A004984
+%S A004984 1,2,6,28,154,924,5852,38456,259578,1788204,12517428,
+%T A004984 88759944,636112932,4599585816,33511268088,245749299312,
+%U A004984 1812401082426,13433090375628,100001895018564,747382583822952,5605369378672140,42173731515723720
+%V A004984 1,-2,-6,-28,-154,-924,-5852,-38456,-259578,-1788204,-12517428,
+%W A004984 -88759944,-636112932,-4599585816,-33511268088,-245749299312,
+%X A004984 -1812401082426,-13433090375628,-100001895018564,-747382583822952,-5605369378672140,-42173731515723720
+%N A004984 (2^n/n!)*product[ k=0..n-1 ](4*k - 1).
+%F A004984 G.f.: (1 - 8*x)^(1/4).
+%F A004984 a(n) ~ -1/4*Gamma(3/4)^-1*n^(-5/4)*2^(3*n)*{1 + 5/32*n^-1 + ...}
+%F A004984 a(n) = -1/n*(if n=1 then (2)^n else sum(sum(binomial(k,j)*binomial(j,n-1-3*k+2*j)*(3/2)^(3*k-n+1-j)*(-1)^(n-1-3*k)*(1/4)^(k-j),j,0,k)*binomial(k+n-1,n-1)*(2)^n,k,1,n-1)), n>0. [_Vladimir Kruchinin_, Sep 14 2010]
+%F A004984 a(n) = 8^n*pochhammer(-1/4, n)/n! = -(1/4)*8^n*GAMMA(n-1/4)/(GAMMA(3/4)*n!);. - _Robert Israel_, Sep 29 2014
+%p A004984 seq(-(1/4)*8^n*GAMMA(n-1/4)/(GAMMA(3/4)*n!), n=0..100); # _Robert Israel_, Sep 29 2014
+%o A004984 (PARI): for(n=0,28,print1(2^n/n!*prod(k=0,n-1,(4*k-1)),","))
+%o A004984 (Maxima) a(n):=-1/n*(if n=1 then (2)^n else sum(sum(binomial(k,j)*binomial(j,n-1-3*k+2*j)*(3/2)^(3*k-n+1-j)*(-1)^(n-1-3*k)*(1/4)^(k-j),j,0,k)*binomial(k+n-1,n-1)*(2)^n,k,1,n-1)); (for ) /* _Vladimir Kruchinin_, Sep 14 2010 */
+%o A004984 (Maxima) a(n):=binomial(1/4,n)*(-8)^n; /* _Tani Akinari_, Sep 28 2014 */
+%Y A004984 Cf. A048779, A025749, A034256.
+%K A004984 sign,easy
+%O A004984 0,2
+%A A004984 Joe Keane (jgk(AT)jgk.org)
+%E A004984 More terms from Jason Earls (zevi_35711(AT)yahoo.com), Dec 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

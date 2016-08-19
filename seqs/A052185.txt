@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052185
+Showing 1-1 of 1
+
+%I A052185
+%S A052185 1,2,4,6,10,16,28
+%N A052185 Length of shortest dominating path in binary hypercube of dimension n.
+%H A052185 U. Blass, I. Honkala, M. Karpovsky and S. Litsyn, <a href="http://www.eng.tau.ac.il/~litsyn/papers/worm.ps">Short dominating paths and cycles in the binary hypercube</a>, Ann. Comb. 5 (2001), no. 1, 51-59.
+%Y A052185 Cf. A052184.
+%K A052185 nonn,nice,more
+%O A052185 1,2
+%A A052185 Simon Litsyn (litsyn(AT)eng.tau.ac.il), Jan 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027341
+Showing 1-1 of 1
+
+%I A027341
+%S A027341 1,1,2,3,5,7,11,14,21,28,39,51,70,90,120,154,201,255,329,413,526,657,
+%T A027341 826,1024,1278,1573,1946,2383,2926,3563,4349,5267,6391,7707,9300,
+%U A027341 11165,13412,16033,19173,22836,27195,32273,38291,45284,53538,63119,74373
+%N A027341 Number of partitions of n that do not contain 7 as a part.
+%F A027341 G.f.: (1-x^7) Product_{m>0} 1/(1-x^m).
+%o A027341 (PARI) a(n)=if(n<0,0,polcoeff((1-x^7)/eta(x+x*O(x^n)),n))
+%Y A027341 a(n)=A000041(n)-A000041(n-7).
+%K A027341 nonn
+%O A027341 0,3
+%A A027341 _Clark Kimberling_
+%E A027341 More terms from _Benoit Cloitre_, Dec 10 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

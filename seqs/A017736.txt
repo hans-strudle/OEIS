@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017736
+Showing 1-1 of 1
+
+%I A017736
+%S A017736 1,73,2701,67525,1282975,19757815,256851595,2898753715,28987537150,
+%T A017736 260887834350,2139280241670,16141841823510,112992892764570,
+%U A017736 738799683460650,4538340912686850,26322377293583730
+%N A017736 Binomial coefficients C(n,72).
+%t A017736 Binomial[Range[72,90],72] (* _Harvey P. Dale_, May 24 2015 *)
+%o A017736 (Sage) [binomial(n, 72) for n in xrange(72,88)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017736 nonn
+%O A017736 72,2
+%A A017736 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

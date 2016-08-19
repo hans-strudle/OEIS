@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046268
+Showing 1-1 of 1
+
+%I A046268
+%S A046268 0,2,0,0,0,3,0,2,5,5,2,2,409,19,163,7,6553,131,2621,5,857,971,419,83,
+%T A046268 1677721,5443,71,1342177,43,709,107,83,4294967,89,171798691,3597383,
+%U A046268 6871947673,3743895347,779069,54975581,511627,99023,4398046511,79609
+%N A046268 Largest prime substring in 2^n (0 if none).
+%e A046268 2^37 = 1{3743895347}2.
+%Y A046268 Cf. A046260.
+%K A046268 nonn
+%O A046268 0,2
+%A A046268 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

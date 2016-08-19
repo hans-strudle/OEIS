@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046693
+Showing 1-1 of 1
+
+%I A046693
+%S A046693 1,2,3,3,4,4,4,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,8,8,9,9,9,9,9,9,10,10,10,
+%T A046693 10,10,10
+%N A046693 Size of smallest subset S of N={0,1,2,...,n} such that S-S=N, where S-S={abs(i-j) | i,j in S}.
+%C A046693 It is easy to show that a(n+1) must be no larger than a(n)+1. Problem: Can a(n+1) ever be smaller than a(n)?
+%D A046693 Related to 'The set of differences of a given set', by Andrew Granville and Friedrich Roesler, Amer. Math. Monthly, 106 (1999), 338-344.
+%D A046693 J. Leech, On the representation of 1,2,...,n by differences, J. London Math. Soc. 31 (1956) 160-169.
+%H A046693 A. Granville and F. Roesler, <a href="http://www.dms.umontreal.ca/~andrew/Postscript/Roesler.ps">The set of differences of a given set</a>
+%e A046693 a(10)=6 since all integers in {0,1,2...10} are differences of elements of {0,1,2,3,6,10}, but not of any 5-element set.
+%e A046693 a(17)=7 since all integers in {0,1,2...17} are differences of elements of {0,1,8,11,13,15,17}, but not of any 6-element set.
+%e A046693 In other words, {0,1,8,11,13,15,17} is a restricted difference basis w.r.t. A004137(7)=17.
+%Y A046693 A004137
+%K A046693 nonn
+%O A046693 0,2
+%A A046693 _John W. Layman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

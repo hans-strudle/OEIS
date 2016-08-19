@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045898
+Showing 1-1 of 1
+
+%I A045898
+%S A045898 1,2,1,3,1,2,4,5,1,2,1,3,1,5,4,3,1,2,1,3,1,2,4,5
+%N A045898 a(n) = one of five triples of directions in n-th triple of moves in the optimal solution of the Tower of Hanoi; it is a squarefree sequence over a five-letter alphabet.
+%D A045898 A. M. Hinz, Squarefree Tower of Hanoi sequences, Enseign. Math. (2) 42(1996), 257-264.
+%D A045898 A. M. Hinz, The Tower of Hanoi, in Algebras and combinatorics (Hong Kong, 1997), 277-289, Springer, Singapore, 1999.
+%K A045898 nonn,more
+%O A045898 1,2
+%A A045898 Andreas M. Hinz (hinz(AT)appl-math.tu-muenchen.de)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

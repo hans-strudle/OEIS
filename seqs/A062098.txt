@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062098
+Showing 1-1 of 1
+
+%I A062098
+%S A062098 7,14,42,168,840,5040,35280,282240,2540160,25401600,279417600,
+%T A062098 3353011200,43589145600,610248038400,9153720576000,146459529216000,
+%U A062098 2489811996672000,44816615940096000,851515702861824000
+%N A062098 7 * n!.
+%H A062098 Harry J. Smith, <a href="/A062098/b062098.txt">Table of n, a(n) for n = 1..100</a>
+%H A062098 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081, 2014
+%F A062098 a(n) = n*a(n-1), a(1) = 7.
+%F A062098 a(n) = 7 * A000142(n) for n>0. - _Michel Marcus_, Aug 31 2013
+%p A062098 restart: G(x):=(x-8)/(1-x): f[0]:=G(x): for n from 1 to 19 do f[n]:=diff(f[n-1],x) od: x:=0: seq(-f[n],n=1..19);# [From _Zerinvary Lajos_, Apr 03 2009]
+%o A062098 (PARI) { a=7; for (n=1, 100, write("b062098.txt", n, " ", a*=n) ) } [From _Harry J. Smith_, Aug 01 2009]
+%K A062098 nonn,easy
+%O A062098 1,1
+%A A062098 Dan Henry (daniel.henry(AT)umit.maine.com), Jun 28 2001
+%E A062098 More terms from Larry Reeves (larryr(AT)acm.org), Jul 05 2001
+%E A062098 OFFSET changed from 7,1 to 1,1 by _Harry J. Smith_, Aug 01 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054806
+Showing 1-1 of 1
+
+%I A054806
+%S A054806 41,71,101,227,281,311,461,487,617,641,727,757,857,881,937,1091,1301,
+%T A054806 1427,1451,1481,1549,1663,1667,1697,1741,1783,1787,1861,1867,1871,
+%U A054806 1993,1997,2063,2141,2339,2377,2381,2467,2473,2521,2531,2539,2591,2617,2657
+%N A054806 Third term of strong prime quartets: p(m-2)-p(m-1) > p(m-1)-p(m-2) > p(m+1)-p(m).
+%Y A054806 Cf. A051634, A054800-A054840.
+%K A054806 nonn
+%O A054806 0,1
+%A A054806 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

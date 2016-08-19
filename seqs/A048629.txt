@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048629
+Showing 1-1 of 1
+
+%I A048629
+%S A048629 35,143,323,713,1073,1763,2867,3551,4307,5609,8051,9167,11009,13589,
+%T A048629 15707,19781,21509,24287,30227,33389,35621,40301,43931,51983,56153,
+%U A048629 64769,69527,72731,80741,84197,93011,98741,108539
+%N A048629 n-th 6k+1 prime times n-th 6k-1 prime.
+%Y A048629 Cf. A002476 A007528 A022759.
+%K A048629 nonn
+%O A048629 1,1
+%A A048629 Den Roussel (DenRousselwebtv.net)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

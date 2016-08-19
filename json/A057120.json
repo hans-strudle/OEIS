@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,2,12,970,21801077,33006325301864331,216010416087275256441802643730702446","description":"Global ranks of terms of A057119.","comments":"CatalanRankGlobal given in A057117.","formula":"map(CatalanRankGlobal, A057119) or a(n) = A057121(n) + Sum_{j=0..((2^n)-1)} A000108[j]","keyword":"nonn","offset":"0,2","author":"_Antti Karttunen_, Aug 11 2000"}

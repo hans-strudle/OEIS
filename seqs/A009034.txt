@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009034
+Showing 1-1 of 1
+
+%I A009034
+%S A009034 1,0,1,9,58,330,1690,6580,5924,626856,11483620,169739812,
+%T A009034 2336104168,31232156280,411116838184,5322020904720,66716820030608,
+%U A009034 776290733888320,7344102656963504,19147581666874928
+%V A009034 1,0,-1,9,-58,330,-1690,6580,5924,-626856,11483620,-169739812,
+%W A009034 2336104168,-31232156280,411116838184,-5322020904720,66716820030608,
+%X A009034 -776290733888320,7344102656963504,-19147581666874928
+%N A009034 E.g.f. cos(log(1+x)/exp(x)).
+%F A009034 a(n)=(sum(k=1..n/2, (-1)^(k)*sum(i=2*k..n, binomial(n,i)*(stirling1(i,2*k)*(2*k)^(n-i)*(-1)^(n-i))))), n>0, a(0)=1. [From Vladimir Kruchinin, Jun 29 2011]
+%t A009034 With[{nn=20},CoefficientList[Series[Cos[Log[1+x]/Exp[x]],{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Sep 14 2014 *)
+%o A009034 (Maxima)
+%o A009034 a(n):=if n=0 then 1 else (sum((-1)^(k)*sum(binomial(n,i)*(stirling1(i,2*k)*(2*k)^(n-i)*(-1)^(n-i)),i,2*k,n),k,1,n/2)); [From Vladimir Kruchinin, Jun 29 2011]
+%K A009034 sign,easy
+%O A009034 0,4
+%A A009034 _R. H. Hardin_
+%E A009034 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

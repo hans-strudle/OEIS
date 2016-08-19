@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015539
+Showing 1-1 of 1
+
+%I A015539
+%S A015539 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,
+%T A015539 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,
+%U A015539 1,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+%V A015539 1,0,0,1,0,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,
+%W A015539 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,1,0,0,1,0,0,
+%X A015539 1,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0
+%N A015539 Inverse of 1530th cyclotomic polynomial.
+%p A015539 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015539 sign
+%O A015539 0,1
+%A A015539 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

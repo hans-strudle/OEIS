@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036538
+Showing 1-1 of 1
+
+%I A036538
+%S A036538 2,3,7,12,23,45,89,178,356,707,1409,2822,5639,11273,22546,45088,90165,
+%T A036538 180315,360637
+%N A036538 Number of integers m below 2^n such that d(m) = 2^k for some k=0,1,2,3..
+%C A036538 a[ n+1 ]/a[ n ] is very close to 2; a[ n ]/2^n is near to 0.7
+%F A036538 bi[ x_ ] := 1-Sign[ N[ Log[ 2, x ], 5 ]-Floor[ N[ Log[ 2, x ], 5 ] ] ], ld[ x_ ] := Length[ Divisors[ x ] ], Table[ Length[ Flatten[ Position[ Table[ bi[ ld[ x ] ], {x, 1, 2^m} ], 1 ] ] ], {m, 1, 19} ]
+%e A036538 From numbers not exceeding 16=2^4, only 4,9,12 and 16 are not in the sequence, so a[ 4 ]=16-4=12
+%Y A036538 Cf. A000005, A036537, A036539, A037992.
+%K A036538 nonn
+%O A036538 1,1
+%A A036538 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

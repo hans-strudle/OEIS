@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055956
+Showing 1-1 of 1
+
+%I A055956
+%S A055956 0,2,4,6,8,10,12,14,9,18,27,36,45,54,63,72,18,27,36,45,54,63,72,81,27,
+%T A055956 36,45,54,63,72,81,90,36,45,54,63,72,81,90,99,45,54,63,72,81,90,99,
+%U A055956 108,54,63,72,81,90,99,108,117,63,72,81,90,99,108,117,126,65,130,195,260
+%N A055956 n + reversal of base 8 digits of n (written in base 10).
+%C A055956 If n has an even number of digits in base 8 then a(n) is a multiple of 9
+%F A055956 a(n) =n+A030107(n)
+%Y A055956 Cf. A056964.
+%K A055956 base,nonn
+%O A055956 0,2
+%A A055956 _Henry Bottomley_, Jul 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061750
+Showing 1-1 of 1
+
+%I A061750
+%S A061750 0,9,18,1017,1091016,109181091015,109181017109181091014,
+%T A061750 1091810171091016109181017109181091013,
+%U A061750 10918101710910161091810910151091810171091016109181017109181091012
+%N A061750 a(0) = 0; a(n) is obtained by incrementing each digit of a(n-1) by 9.
+%C A061750 In A061511-A061522, A061746-A061750 when the incremented digit exceeds 9 it is written as a 2-digit string. So 9+1 becomes the 2-digit string 10, etc.
+%K A061750 base,nonn
+%O A061750 0,2
+%A A061750 _Amarnath Murthy_, May 08 2001
+%E A061750 More terms from Larry Reeves (larryr(AT)acm.org), May 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

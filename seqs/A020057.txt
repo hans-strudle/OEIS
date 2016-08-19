@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020057
+Showing 1-1 of 1
+
+%I A020057
+%S A020057 1,0,0,0,2,11,58,364,2653,21951,203550,2091015,23571444,289285911,
+%T A020057 3839613003,54801749236,836972170164,13619819859947,235251433944553,
+%U A020057 4298685292986837,82847389283019056,1679542528192113596
+%N A020057 Integer part of GAMMA(n+3/11)/GAMMA(3/11).
+%p A020057 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020057 nonn
+%O A020057 0,5
+%A A020057 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

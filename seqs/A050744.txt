@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050744
+Showing 1-1 of 1
+
+%I A050744
+%S A050744 0,1,2,3,4,5,7,8,9,11,13,14,15,16,17,21,22,23,24,25,27,28,31,33,34,35,
+%T A050744 37,38,42,45,46,48,49,51,52,53,54,55,57,58,62,64,67,69,72,73,75,77,82,
+%U A050744 83,86,87,91,92,96,97,98,105,108,109,112,113,114,121,122,123,124,125
+%N A050744 Decimal expansion of n^5 contains no pair of consecutive equal digits.
+%Y A050744 Cf. A050752.
+%K A050744 nonn,base
+%O A050744 0,3
+%A A050744 _Patrick De Geest_, Sep 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

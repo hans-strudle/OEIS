@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024189
+Showing 1-1 of 1
+
+%I A024189
+%S A024189 3,3,78,186,4008,15912,340560,1931760,43139520,321312960,7611891840,
+%T A024189 70589232000,1783264896000
+%N A024189 ((n+3)!/2)(1/4 - 1/5 + ... + c/(n+3)), where c = (-1)^(n+1).
+%o A024189 (PARI) a(n) = (n+3)!/2*sum(x=1, n, (-1)^(x+1)/(x+3)) \\ _Michel Marcus_, Mar 21 2013
+%K A024189 nonn
+%O A024189 1,1
+%A A024189 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060211
+Showing 1-1 of 1
+
+%I A060211
+%S A060211 7,13,19,73,109,193,433,1153,2593,139969,472393,786433,995329,
+%T A060211 57395629,63700993,169869313,4076863489,10871635969,2348273369089,
+%U A060211 56358560858113,79164837199873,84537841287169,150289495621633
+%N A060211 Larger term of a pair of twin primes such that prime factors of their average are only 2 and 3. Proper subset of A053383.
+%F A060211 Primes such that p+p-2=2p-2=(2^u)*(3^w)
+%e A060211 a(4)=73, {71,73} are twin primes and (71+73)/2=72=2.2.2.3.3.
+%Y A060211 A001454, A002822, A033845, A058383, A059960, A059961.
+%K A060211 nonn
+%O A060211 1,1
+%A A060211 _Labos Elemer_, Mar 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

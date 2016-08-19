@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032087
+Showing 1-1 of 1
+
+%I A032087
+%S A032087 4,6,24,120,480,2016,8064,32640,130560,523776,2095104,8386560,
+%T A032087 33546240,134209536,536838144,2147450880,8589803520,34359607296,
+%U A032087 137438429184,549755289600,2199021158400,8796090925056
+%N A032087 Number of reversible strings with n beads of 4 colors. If more than 1 bead, not palindromic.
+%H A032087 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032087 Elizabeth Wilmer, <a href="http://www.oberlin.edu/math/faculty/wilmer/OEISconj727374.pdf">Notes on Stephan's conjectures 72, 73 and 74</a>
+%F A032087 "BHK" (reversible, identity, unlabeled) transform of 4, 0, 0, 0...
+%F A032087 a(2n+1) = 2^(4n+1) - 2^(2n+1), a(2n) = 2^(4n-1) - 2^(2n) + 2^(2n-1), a(1)=4.
+%F A032087 a(n)=4*a(n-1)+4*a(n-2)-16*a(n-3), n>4. G.f.: 2*x*(-5*x+2-8*x^2+32*x^3)/((2*x+1)*(2*x-1)*(4*x-1)). [From _R. J. Mathar_, Mar 20 2009]
+%Y A032087 Cf. A088037.
+%Y A032087 Cf.: A026337 (bisection). [From _R. J. Mathar_, Mar 20 2009]
+%K A032087 nonn
+%O A032087 1,1
+%A A032087 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

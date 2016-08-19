@@ -1,0 +1,53 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002324
+Showing 1-1 of 1
+
+%I A002324 M0016 N0002
+%S A002324 1,0,1,1,0,0,2,0,1,0,0,1,2,0,0,1,0,0,2,0,2,0,0,0,1,0,1,2,0,0,2,0,0,0,
+%T A002324 0,1,2,0,2,0,0,0,2,0,0,0,0,1,3,0,0,2,0,0,0,0,2,0,0,0,2,0,2,1,0,0,2,0,
+%U A002324 0,0,0,0,2,0,1,2,0,0,2,0,1,0,0,2,0,0,0,0,0,0,4,0,2,0,0,0,2,0,0,1,0,0,2,0,0,0,0,1,2,0,2,2,0,0
+%N A002324 Number of divisors of n == 1 (mod 3) minus number of divisors of n == 2 (mod 3).
+%C A002324 Coefficients in expansion of Dirichlet series Product_p (1 - (Kronecker(m,p) + 1)*p^(-s) + Kronecker(m,p) * p^(-2s))^(-1) for m = -3.
+%C A002324 (Number of points of norm n in hexagonal lattice) / 6, n>0.
+%C A002324 The hexagonal lattice is the familiar 2-dimensional lattice in which each point has 6 neighbors. This is sometimes called the triangular lattice.
+%D A002324 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 112, first display.
+%D A002324 J. W. L. Glaisher, Table of the excess of the number of (3k+1)-divisors of a number over the number of (3k+2)-divisors, Messenger Math., 31 (1901), 64-72.
+%D A002324 D. H. Lehmer, Guide to Tables in the Theory of Numbers. Bulletin No. 105, National Research Council, Washington, DC, 1941, pp. 7-10.
+%D A002324 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002324 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002324 T. D. Noe, <a href="/A002324/b002324.txt">Table of n, a(n) for n=1..10000</a>
+%H A002324 G. E. Andrews, <a href="http://www.mat.univie.ac.at/~slc/opapers/s25andrews.html">Three aspects of partitions</a>
+%H A002324 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>
+%H A002324 J. S. Rutherford, <a href="http://dx.doi.org/10.1007/BF01164477">Generating functions for the cage isomers of the C_{20n} icosahedral fullerenes, J. Mathematical Chem.</a>, 14 (1993), 385-390. [From _N. J. A. Sloane_, Mar 12 2009]
+%H A002324 John S. Rutherford, <a href="http://dx.doi.org/10.1107/S010876730804333X">Sublattice enumeration. IV. Equivalence classes of plane sublattices by parent Patterson symmetry and colour lattice group type</a>, Acta Cryst. (2009). A65, 156-163. [See Table 1]. - From _N. J. A. Sloane_, Feb 23 2009
+%F A002324 G.f. A(x) satisfies 0 = f(A(x), A(x^2), A(x^4)) where f(u, v, w) = u^2 - 3*v^2 + 4*w^2 - 2*u*w + w - v. - _Michael Somos_, Jul 20 2004
+%F A002324 Has a nice Dirichlet series expansion, see PARI line.
+%F A002324 G.f.: Sum_{k>0} x^k/(1+x^k+x^(2*k)). - _Vladeta Jovovic_, Dec 16 2002
+%F A002324 a(3*n + 2)=0, a(3*n) = a(n), a(3*n + 1) = A033687(n). - _Michael Somos_, Apr 04 2003
+%F A002324 G.f. A(x) satisfies 0 = f(A(x), A(x^2), A(x^3), A(x^6)) where f(u1, u2, u3, u6) = (u1 - u3)*(u3 - u6) - (u2 - u6)^2. - _Michael Somos_, May 20 2005
+%F A002324 Multiplicative with a(3^e) = 1, a(p^e) = e+1 if p == 1 (mod 3), a(p^e) = (1+(-1)^e)/2 if p == 2 (mod 3). - _Michael Somos_, May 20 2005
+%F A002324 G.f.: Sum_{k>0} x^(3*k - 2) / (1 - x^(3*k - 2)) - x^(3*k - 1)  / (1 - x^(3*k - 1)). - _Michael Somos_, Nov 02 2005
+%F A002324 G.f.: Sum_{n >= 1} q^(n^2)(1-q)(1-q^2)...(1-q^(n-1))/(((1-q^(n+1))(1-q^(n+2))...(1-q^(2n))). - _Jeremy Lovejoy_, Jun 12 2009
+%F A002324 a(n) = A001817(n) - A001822(n). - _R. J. Mathar_, Mar 31 2011
+%F A002324 A004016(n) = 6*a(n) unless n=0.
+%F A002324 Dirichlet g.f.: zeta(s)*L(chi_2(3),s), with chi_2(3) the nontrivial Dirichlet character modulo 3. - _Ralf Stephan_, Mar 27 2015
+%e A002324 G.f. = x + x^3 + x^4 + 2*x^7 + x^9 + x^12 + 2*x^13 + x^16 + 2*x^19 + 2*x^21 + ...
+%t A002324 dn12[n_]:=Module[{dn=Divisors[n]},Count[dn,_?(Mod[#,3]==1&)]-Count[ dn,_?(Mod[#,3]==2&)]]; dn12/@Range[120]  (* _Harvey P. Dale_, Apr 26 2011 *)
+%t A002324 a[ n_] := If[ n < 1, 0, DivisorSum[ n, KroneckerSymbol[ -3, #] &]]; (* _Michael Somos_, Aug 24 2014 *)
+%o A002324 (PARI) {a(n) = if( n<0, 0, polcoeff( sum(k=1, n, x^k / (1 + x^k + x^(2*k)), x * O(x^n)), n))}; /* _Michael Somos_ */
+%o A002324 (PARI) {a(n) = if( n<1, 0, sumdiv(n, d, (d%3==1) - (d%3==2)))};
+%o A002324 (PARI) {a(n) = local(A, p, e); if( n<1, 0, A = factor(n); prod(k=1, matsize(A)[1], if( p=A[k,1], e=A[k,2]; if( p==3, 1, if( p%3==1, e+1, !(e%2))))))}; /* _Michael Somos_, May 20 2005 */
+%o A002324 (PARI) {a(n) = if( n<1, 0, qfrep([2,1; 1,2], n, 1)[n] / 3)}; /* _Michael Somos_, Jun 05 2005 */
+%o A002324 (PARI) {a(n) = if( n<1, 0, direuler(p=2, n, 1 / (1 - X) / (1 - kronecker(-3, p)*X))[n])}; /* _Michael Somos_, Jun 05 2005 */
+%o A002324 (Haskell)
+%o A002324 a002324 n = a001817 n - a001822 n  -- _Reinhard Zumkeller_, Nov 26 2011
+%Y A002324 Cf. A004016, A035019.
+%Y A002324 Cf. A145377.
+%K A002324 easy,nonn,nice,mult
+%O A002324 1,7
+%A A002324 _N. J. A. Sloane_
+%E A002324 More terms from _David Radcliffe_
+%E A002324 Replaced Somos D.g.f. with correct version. - _Ralf Stephan_, Mar 27 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

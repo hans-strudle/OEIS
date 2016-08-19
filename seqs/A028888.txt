@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028888
+Showing 1-1 of 1
+
+%I A028888
+%S A028888 2,7,17,191,1051,1934063
+%N A028888 Smaller of two successive primes with a palindromic product.
+%C A028888 No further terms < 4.5*10^8.
+%H A028888 P. De Geest, <a href="http://www.worldofnumbers.com/sequenc.htm">More palindromic products of integer sequences</a>
+%e A028888 17 is a member as 17*19 = 323.
+%t A028888 p=2; t={}; Do[q=NextPrime[p]; If[Reverse[x=IntegerDigits[p*q]]==x,AppendTo[t,p]]; p=q,{n,150000}]; t (* _Jayanta Basu_, Jun 05 2013 *)
+%Y A028888 Cf. A028978, A028979.
+%K A028888 nonn,base
+%O A028888 1,1
+%A A028888 _Patrick De Geest_
+%E A028888 Edited by _N. J. A. Sloane_, May 04 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062144
+Showing 1-1 of 1
+
+%I A062144
+%S A062144 1,54,1890,55440,1496880,38918880,998917920,25686460800,667847980800,
+%T A062144 17660868825600,476843458291200,13178219210956800,373382877643776000,
+%U A062144 10856825211488256000,324153781314435072000
+%N A062144 Sixth (unsigned) column sequence of coefficient triangle A062137 of generalized Laguerre polynomials n!*L(n,3,x).
+%H A062144 <a href="/index/La#Laguerre">Index entries for sequences related to Laguerre polynomials</a>
+%F A062144 a(n)= (n+5)!*binomial(n+8, 8)/5!; e.g.f.: N(3;5, x)/(1-x)^14 with N(3;5, x) := sum(A062145(5, k)*x^k, k=0..5)= 1+40*x+280*x^2+560*x^3+350*x^4+56*x^5.
+%F A062144 If we define f(n,i,x)= sum(sum(binomial(k,j)*stirling1(n,k)*stirling2(j,i)*x^(k-j),j=i..k),k=i..n) then a(n-5)=(-1)^(n-1)*f(n,5,-9), (n>=5). [From _Milan Janjic_, Mar 01 2009]
+%Y A062144 A062143.
+%K A062144 nonn,easy
+%O A062144 0,2
+%A A062144 _Wolfdieter Lang_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015267
+Showing 1-1 of 1
+
+%I A015267
+%S A015267 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015267 0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,
+%U A015267 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015267 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015267 0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,
+%X A015267 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015267 Inverse of 1258th cyclotomic polynomial.
+%p A015267 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015267 sign
+%O A015267 0,1
+%A A015267 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

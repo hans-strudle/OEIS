@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013985
+Showing 1-1 of 1
+
+%I A013985
+%S A013985 1,0,1,1,2,3,5,8,13,20,33,52,84,134,215,344,551,882,1413,2262,3623,
+%T A013985 5801,9290,14876,23822,38147,61087,97821,156646,250844,401689,643243,
+%U A013985 1030056,1649477,2641386,4229776,6773341
+%N A013985 Expansion of 1/(1-x^2-x^3-x^4-x^5-x^6-x^7-x^8).
+%H A013985 Vincenzo Librandi, <a href="/A013985/b013985.txt">Table of n, a(n) for n = 0..1000</a>
+%t A013985 CoefficientList[Series[1 / (1 - x^2 - x^3 - x^4 - x^5 - x^6 - x^7 - x^8), {x, 0, 40}], x] (* _Vincenzo Librandi_, Jun 23 2013 *)
+%Y A013985 See A000045 for the Fibonacci numbers.
+%K A013985 nonn,easy
+%O A013985 0,5
+%A A013985 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

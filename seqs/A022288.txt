@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022288
+Showing 1-1 of 1
+
+%I A022288
+%S A022288 0,15,61,138,246,385,555,756,988,1251,1545,1870,2226,2613,3031,3480,
+%T A022288 3960,4471,5013,5586,6190,6825,7491,8188,8916,9675,10465,11286,12138,
+%U A022288 13021,13935,14880,15856,16863,17901
+%N A022288 a(n) = n*(31n-1)/2.
+%H A022288 Harvey P. Dale, <a href="/A022288/b022288.txt">Table of n, a(n) for n = 0..1000</a>
+%H A022288 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3, -3, 1).
+%F A022288 a(n) = 31*n+a(n-1)-16 (with a(0)=0). [_Vincenzo Librandi_, Aug 04 2010]
+%F A022288 a(0)=0, a(1)=15, a(2)=61; for n>2, a(n) = 3*a(n-1)-3*a(n-2)+a(n-3). - _Harvey P. Dale_, Mar 31 2014
+%t A022288 Table[n (31n-1)/2,{n,0,40}] (* or *) LinearRecurrence[{3,-3,1},{0,15,61},40] (* _Harvey P. Dale_, Mar 31 2014 *)
+%K A022288 nonn,easy
+%O A022288 0,2
+%A A022288 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

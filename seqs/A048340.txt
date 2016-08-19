@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048340
+Showing 1-1 of 1
+
+%I A048340
+%S A048340 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,34,51,68,85,102,119,136,153,
+%T A048340 170,187,204,221,238,255,273,546,819,1092,1365,1638,1911,2184,2457,
+%U A048340 2730,3003,3276,3549,3822,4095,4369,8738,13107,17476,21845,26214,30583
+%N A048340 a(n) in base 16 is a repdigit.
+%H A048340 Vincenzo Librandi, <a href="/A048340/b048340.txt">Table of n, a(n) for n = 0..1500</a>
+%H A048340 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repdigit.html">Repdigit</a>
+%t A048340 Union[Flatten[Table[FromDigits[PadRight[{}, n, d], 16], {n, 0, 50}, {d, 15}]]] (* _Vincenzo Librandi_, Feb 06 2014 *)
+%Y A048340 Cf. A010785, A033029, A028987, A028988.
+%K A048340 nonn,base
+%O A048340 0,3
+%A A048340 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

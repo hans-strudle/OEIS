@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012609
+Showing 1-1 of 1
+
+%I A012609
+%S A012609 1,12,3472,20044992,47937777408,20305698249280512,
+%T A012609 2854719816291959009280,1250271985277826533770444800
+%V A012609 1,-12,3472,-20044992,-47937777408,-20305698249280512,
+%W A012609 -2854719816291959009280,-1250271985277826533770444800
+%N A012609 sech(arcsinh(x)*arcsin(x))=1-12/4!*x^4+3472/8!*x^8-20044992/12!*x^12...
+%K A012609 sign
+%O A012609 0,2
+%A A012609 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

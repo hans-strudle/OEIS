@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000554
+Showing 1-1 of 1
+
+%I A000554 M4843 N2070
+%S A000554 12,60,210,630,1736,4536,11430,28050,67452,159588,372554,859950,
+%T A000554 1965840,4456176,10026702,22412970,49806980,110100060,242220594,
+%U A000554 530578950,1157627352,2516581800,5452594550,11777604930,25367149836,54492396756
+%N A000554 Number of labeled trees of diameter 3 with n nodes.
+%D A000554 J. Riordan, Enumeration of trees by height and diameter, IBM J. Res. Dev. 4 (1960), 473-478.
+%D A000554 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000554 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000554 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A000554 a(n) = n(n-1)*S2(n-2, 2) where S2(n, k) denotes the Stirling numbers of 2nd kind. - Victor Adamchik (adamchik(AT)cs.cmu.edu), Jul 19 2001
+%F A000554 a(n) = n(n-1) * 2^(n-3) = 2*A000217(n-1)*A000225(n-3) - _Robert G. Wilson v_, Jul 01 2007
+%t A000554 f[n_] := n (n - 1)*StirlingS2[n - 2, 2]; Table[ f@n, {n, 4, 29}] (* _Robert G. Wilson v_, Jul 01 2007 *)
+%K A000554 nonn
+%O A000554 4,1
+%A A000554 _N. J. A. Sloane_
+%E A000554 More terms from _Robert G. Wilson v_, Jul 01 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

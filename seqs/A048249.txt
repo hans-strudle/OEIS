@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048249
+Showing 1-1 of 1
+
+%I A048249
+%S A048249 1,2,3,4,6,9,11,17,23,30,44,60,80,114,156,212,296,404,556,770,1065,
+%T A048249 1463,2032,2795,3889,5364,7422,10300,14229,19722,27391,37892,52599,
+%U A048249 73075,101301,140588,195405,271024,376608,523518,726812,1010576
+%N A048249 Number of distinct values produced from sums and products of n unity arguments.
+%C A048249 Values listed calculated by exhaustive search algorithm.
+%C A048249 For n+1 operands (n operations) there are (2n)!/((n!)((n+1)!)) possible postfix forms over a single operator. For each such form, there are 2^n ways to assign 2 operators (here, sum and product). Calculate results and eliminate duplicates.
+%H A048249 <a href="/index/Com#complexity">Index to sequences related to the complexity of n</a>
+%H A048249 <a href="/index/Fo#4x4">Index entries for similar sequences</a>
+%F A048249 Equals partial sum of "number of numbers of complexity n" (A005421). - _Jonathan Vos Post_, Apr 07 2006
+%e A048249 a(3)=3 since (in postfix): 111** = 11*1* = 1, 111*+ = 11*1+ = 111+* = 11+1* = 2 and 111++ = 11+1+ = 3. Note that at n=7, the 11 possible values produced are the set {1,2,3,4,5,6,7,8,9,10,12}. This is the first n for which there are "skipped" values in the set.
+%K A048249 nonn,nice
+%O A048249 1,2
+%A A048249 _Tony Bartoletti_
+%E A048249 More terms from _David W. Wilson_, Oct 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

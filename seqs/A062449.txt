@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062449
+Showing 1-1 of 1
+
+%I A062449
+%S A062449 0,0,1,7,24,59,123,228,393,634,976,1444,2066,2877,3912,5212,6820,8786,
+%T A062449 11161,14002,17370,21331,25953,31312,37486,44560,52623,61767,72093,
+%U A062449 83705,96711,111226,127371,145270,165056,186864,210838,237125,265881
+%N A062449 Integer part of log(n^n)^(1 + log(1 + log(n))).
+%t A062449 Floor[Log[n^n]^(1 + Log[1 + Log[n]])]
+%Y A062449 Cf. A062450.
+%K A062449 nonn,easy
+%O A062449 0,4
+%A A062449 _Olivier Gérard_, Jun 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

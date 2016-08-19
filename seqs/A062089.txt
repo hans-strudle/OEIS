@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062089
+Showing 1-1 of 1
+
+%I A062089
+%S A062089 2,5,8,4,9,8,1,7,5,9,5,7,9,2,5,3,2,1,7,0,6,5,8,9,3,5,8,7,3,8,3,1,7,1,
+%T A062089 1,6,0,0,8,8,0,5,1,6,5,1,8,5,2,6,3,0,9,1,7,3,2,1,5,4,4,9,8,7,9,7,1,9,
+%U A062089 3,2,0,4,4,0,0,1,1,5,7,1,2,0,2,1,1,1,1,7,7,2,4,5,2,7,0,6,4,2,8,3,0,3,1,3,4
+%N A062089 Decimal expansion of Sierpiński's constant.
+%D A062089 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 122-126.
+%H A062089 Harry J. Smith, <a href="/A062089/b062089.txt">Table of n, a(n) for n = 1..5000</a>
+%H A062089 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/srp/srp.html">Sierpinski's Constant.</a>
+%H A062089 Simon Plouffe, <a href="http://www.plouffe.fr/simon/constants/sierpinski.txt">Sierpinski Constant to 2000 digits</a>
+%H A062089 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SierpinskiConstant.html">Sierpiński Constant</a>
+%F A062089 -Pi*log(Pi)+2*Pi*gamma+4*Pi*log(GAMMA(3/4)).
+%F A062089 Equals Pi*A241017. - _Eric W. Weisstein_, Dec 10 2014
+%F A062089 Equals Pi*(A086058-1). - _Eric W. Weisstein_, Dec 10 2014
+%e A062089 2.5849817595792532170658935873831711600880516518526309173215...
+%t A062089 K=-Pi Log[Pi]+2 Pi EulerGamma+4 Pi Log[Gamma[3/4]];First@RealDigits[N[K,105]](* _Ant King_, Mar 02 2013 *)
+%o A062089 (PARI) -Pi*log(Pi)+2*Pi*Euler+4*Pi*log(gamma(3/4))
+%o A062089 (PARI) { default(realprecision, 5080); x=-Pi*log(Pi)+2*Pi*Euler+4*Pi*log(gamma(3/4)); for (n=1, 5000, d=floor(x); x=(x-d)*10; write("b062089.txt", n, " ", d)) } \\ _Harry J. Smith_, Aug 01 2009
+%Y A062089 Cf. A062083. A222882, A222883.
+%K A062089 cons,easy,nonn
+%O A062089 1,1
+%A A062089 Jason Earls (zevi_35711(AT)yahoo.com), Jun 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

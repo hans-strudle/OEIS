@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007229
+Showing 1-1 of 1
+
+%I A007229 M5267
+%S A007229 38,264,2016,15504,122661,986700,8064576,66756144,558689224,
+%T A007229 4719593312,40193414112,344721646640,2974925353455,25814778578820,
+%U A007229 225105551191680,1971557711151600,17336058626562984,152984380665537760
+%N A007229 Number of distinct perforation patterns for deriving (v,b)=(n+2,n) punctured convolutional codes from (4,1).
+%D A007229 G. Begin, On the enumeration of perforation patterns for punctured convolutional codes, Séries Formelles et Combinatoire Algébrique, 4th colloquium, 15-19 Juin 1992, Montréal, Université du Québec à Montréal, pp. 1-10.
+%D A007229 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%p A007229 with(numtheory):P:=proc(b,v0) local k: RETURN(add(phi(k)*(1+z^k)^(v0*(b/k)),k=divisors(b))/b): end; seq(coeff(P(b,4),z,b+2),b=2..40); (Pab Ter)
+%K A007229 nonn
+%O A007229 2,1
+%A A007229 _Simon Plouffe_
+%E A007229 More terms from Pab Ter (pabrlos2(AT)yahoo.com), Nov 13 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

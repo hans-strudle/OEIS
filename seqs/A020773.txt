@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020773
+Showing 1-1 of 1
+
+%I A020773
+%S A020773 2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A020773 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A020773 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A020773 Decimal expansion of 1/4.
+%C A020773 Also, decimal expansion of  1/2 * integral_0^infinity 1/cosh(Pi*x) dx. - _Bruno Berselli_, Mar 20 2013
+%o A020773 (PARI) .25 \\ _Charles R Greathouse IV_, Apr 15 2015
+%K A020773 nonn,cons,easy
+%O A020773 0,1
+%A A020773 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

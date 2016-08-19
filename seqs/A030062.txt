@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030062
+Showing 1-1 of 1
+
+%I A030062
+%S A030062 1,0,0,248,9672,3219288,369688144,18640824768,422091297303,
+%T A030062 4552776690944,24292916390448,65726628219120,91448124030784,
+%U A030062 65726628219120,24292916390448,4552776690944,422091297303
+%N A030062 Weight distribution of [ 96,48,12 ] doubly-even self-dual "octern" code.
+%D A030062 Chapman, Higher power residue codes, Finite Flds Applic. 3 (1997), 353-369.
+%p A030062 f := x^8+14*x^4*y^4+y^8; g := x^4*y^4*(x^4-y^4)^4; f^12-168*f^9*g+7548*f^6*g^2-75672*f^3*g^3+30318*g^4;
+%K A030062 nonn
+%O A030062 0,4
+%A A030062 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

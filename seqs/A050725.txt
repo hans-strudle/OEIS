@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050725
+Showing 1-1 of 1
+
+%I A050725
+%S A050725 0,1,2,3,4,5,6,7,10,11,14,15,16,17,18,24,27,28,33,34,40,52,63
+%N A050725 Decimal expansion of 4^n contains no pair of consecutive equal digits (probably finite).
+%C A050725 No additional terms up to 1200 -- From Harvey P. Dale, Mar 30 2011.
+%e A050725 4^63 = 85070591730234615865843651857942052864.
+%t A050725 Select[Range[0,70],FreeQ[Differences[IntegerDigits[4^#]],0]&] (* _Harvey P. Dale_, Jul 25 2013 *)
+%Y A050725 Cf. A030701, A046262, A046270.
+%K A050725 nonn,base
+%O A050725 0,3
+%A A050725 _Patrick De Geest_, Sep 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

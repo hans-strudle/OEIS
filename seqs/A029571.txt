@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029571
+Showing 1-1 of 1
+
+%I A029571
+%S A029571 0,0,0,0,6,30,180,1260,8820,79380,793800,8731800,106029000,1378377000,
+%T A029571 19297278000,289459170000,4627941318000,78675002406000,
+%U A029571 1416150043308000,26906850822852000,538156815464268000
+%N A029571 Number of permutations of an n-set containing a 4-cycle.
+%F A029571 a(n) = n! * (1 - sum(k=0..floor(n/4), (-1)^k/(k!*4^k) ) ).
+%F A029571 a(n)/n! is asymptotic to 1-e^(-1/4) = 1 - A092616.
+%o A029571 (PARI) a(n)=n! * (1 - sum(k=0,floor(n/4), (-1)^k/(k!*4^k) ) ); \\ _Joerg Arndt_, Aug 08 2013
+%K A029571 nonn
+%O A029571 0,5
+%A A029571 _Rob Pratt_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

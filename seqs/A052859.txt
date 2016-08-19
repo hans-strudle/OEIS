@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052859
+Showing 1-1 of 1
+
+%I A052859
+%S A052859 1,0,2,6,26,150,962,6846,54266,471750,4439762,44911086,485570186,
+%T A052859 5581383990,67890295202,870493380126,11726471352986,165475293394470,
+%U A052859 2439632685738482,37491028556508366,599285435979866666
+%N A052859 A simple grammar.
+%C A052859 a(n) is the number of ways to select a nonempty proper subset from each block of the set partitions of {1,2,...,n}. - Geoffrey Critzer, Jan 20 2012
+%H A052859 Vincenzo Librandi, <a href="/A052859/b052859.txt">Table of n, a(n) for n = 0..200</a>
+%H A052859 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=827">Encyclopedia of Combinatorial Structures 827</a>
+%F A052859 E.g.f.: exp(exp(x)^2-2*exp(x)+1).
+%F A052859 Stirling transform of unsigned Hermite numbers: Sum_{k=0..n} Stirling2(n, k)*|HermiteH(k, 0)|. - _Vladeta Jovovic_, Sep 12 2003
+%p A052859 spec := [S,{B=Prod(C,C),C=Set(Z,1 <= card),S=Set(B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052859 nn=20; a=Exp[x]-1; Range[0,nn]! CoefficientList[Series[Exp[a^2], {x,0,nn}], x]  (* _Geoffrey Critzer_, Jan 20 2012 *)
+%Y A052859 Cf. A067994.
+%K A052859 easy,nonn
+%O A052859 0,3
+%A A052859 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

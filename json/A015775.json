@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,2,4,16,25,170,256,264,1920,9384,26664,65536","description":"phi(n) + 1 | sigma(n + 1).","prog":"(PARI) is(n)=!(sigma(n+1)%(eulerphi(n)+1)) \\\\ _Charles R Greathouse IV_, Sep 25 2012","keyword":"nonn","offset":"1,2","author":"_Robert G. Wilson v_","extensions":["Corrected by _Charles R Greathouse IV_, Sep 25 2012"]}

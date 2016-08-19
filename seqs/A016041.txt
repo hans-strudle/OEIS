@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016041
+Showing 1-1 of 1
+
+%I A016041
+%S A016041 3,5,7,17,31,73,107,127,257,313,443,1193,1453,1571,1619,1787,1831,
+%T A016041 1879,4889,5113,5189,5557,5869,5981,6211,6827,7607,7759,7919,8191,
+%U A016041 17377,18097,18289,19433,19609,19801,21157,22541,22669,22861,23581,24029
+%N A016041 Primes that are palindromic in base 2 (but written here in base 10).
+%C A016041 See A002385 for palindromic primes in base 10, and A256081 for primes whose binary expansion is "balanced" (see there) but not palindromic. - _M. F. Hasler_, Mar 14 2015
+%H A016041 Zak Seidov and Michael De Vlieger, <a href="/A016041/b016041.txt">Table of n, a(n) for n = 1..3000</a> (first 1000 terms by Zak Seidov)
+%H A016041 K. S. Brown, <a href="http://www.mathpages.com/home/kmath359.htm">On General Palindromic Numbers</a>
+%H A016041 P. De Geest, <a href="http://www.worldofnumbers.com/palpri.htm">World!Of Palindromic Primes</a>
+%t A016041 lst = {}; Do[ If[ PrimeQ@n, t = IntegerDigits[n, 2]; If[ FromDigits@t == FromDigits@ Reverse@ t, AppendTo[lst, n]]], {n, 3, 50000, 2}]; lst
+%t A016041 pal2Q[n_] := Reverse[x = IntegerDigits[n, 2]] == x; Select[Prime[Range[2800]], pal2Q[#] &] (* _Jayanta Basu_, Jun 23 2013 *)
+%Y A016041 Intersection of A000040 & A006995. First row of A095749. A095741 gives the number of terms in range [2^(2n), 2^(2n+1)]. Cf. A095730 for primes whose Zeckendorf-expansion is palindromic and A029971 for those whose ternary (base-3) expansion is.
+%Y A016041 Cf. A117697 (written in base 2), A002385, A256081.
+%K A016041 nonn,easy,base
+%O A016041 1,1
+%A A016041 _Robert G. Wilson v_
+%E A016041 More terms from _Patrick De Geest_.
+%E A016041 Syntax of the Mathematica coding corrected by _Robert G. Wilson v_, Aug 10 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

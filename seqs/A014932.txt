@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014932
+Showing 1-1 of 1
+
+%I A014932
+%S A014932 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014932 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014932 0,0,0,1,1,1,1,1,1,1,1,1,1
+%V A014932 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014932 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014932 0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+%N A014932 Inverse of 923rd cyclotomic polynomial.
+%p A014932 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014932 sign
+%O A014932 0,1
+%A A014932 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

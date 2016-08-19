@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033742
+Showing 1-1 of 1
+
+%I A033742
+%S A033742 1,2,2,6,6,6,18,12,18,38,22,48,62,36,80,82,78,132,122,136,178,196,208,
+%T A033742 212,298,290,340,474,312,428,582,424,642,688,572,868,934,772,872,1068,
+%U A033742 1078,1292,1568,1124,1344,1906
+%N A033742 Product theta3(q^d); d | 30.
+%D A033742 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p 102 eq 9.
+%D A033742 R. W. Whitty, Rook polynomials on two-dimensional surfaces..., Discrete Math., 308 (2008), 674-683.
+%K A033742 nonn
+%O A033742 0,2
+%A A033742 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

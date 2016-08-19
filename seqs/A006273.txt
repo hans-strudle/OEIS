@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006273
+Showing 1-1 of 1
+
+%I A006273 M2879
+%S A006273 3,10,1297,2186871697,10458512317535240383929505297
+%N A006273 Numerators of a continued fraction for (3+sqrt(13))/2.
+%D A006273 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006273 Jeffrey Shallit, <a href="http://archive.org/details/jresv80Bn2p285">Predictable regular continued cotangent expansions</a>, J. Res. Nat. Bur. Standards Sect. B 80B (1976), no. 2, 285-290.
+%Y A006273 For denominators see A006274.
+%Y A006273 Cf. A098316.
+%K A006273 nonn,frac
+%O A006273 0,1
+%A A006273 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

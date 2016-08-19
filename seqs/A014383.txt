@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014383
+Showing 1-1 of 1
+
+%I A014383
+%S A014383 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,
+%T A014383 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014383 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014383 1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,
+%W A014383 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014383 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014383 Inverse of 374th cyclotomic polynomial.
+%p A014383 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014383 With[{nn=90},PadRight[CoefficientList[Series[1/Cyclotomic[374,x],{x,0,nn}],x],nn,0]] (* _Harvey P. Dale_, May 31 2015 *)
+%K A014383 sign
+%O A014383 0,1
+%A A014383 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

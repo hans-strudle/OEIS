@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045799
+Showing 1-1 of 1
+
+%I A045799
+%S A045799 100,10001,10100,11000,100100,1000011,1001001,1001010,1001100,1010010,
+%T A045799 1011000,1100001,1100100,1101000,1110000,10101010,11001100,11011000,
+%U A045799 11110000,100000111,100001101,100010101,100010110,100011001,100011100
+%N A045799 In the list of divisors of n (in binary), each digit 0-1 appears equally often.
+%C A045799 E.g. divisors of 10100 are (1, 10, 100, 101, 1010, 10100); the numbers of digits (0-1) are [ 0(9),1(9) ]
+%H A045799 N. Nomoto, <a href="http://www.geocities.co.jp/Technopolis/1793/09digit.htm">In the list of divisors of n,... </a>
+%Y A045799 Cf. A038564, A038565, A045810.
+%K A045799 easy,nonn,base
+%O A045799 1,1
+%A A045799 _Naohiro Nomoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

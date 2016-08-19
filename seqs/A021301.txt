@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021301
+Showing 1-1 of 1
+
+%I A021301
+%S A021301 0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,
+%T A021301 6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,
+%U A021301 3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3,3,6,7,0,0,3
+%N A021301 Decimal expansion of 1/297.
+%F A021301 a(n)=(1/90)*{124*(n mod 6)+4*[(n+1) mod 6]-26*[(n+2) mod 6]+19*[(n+3) mod 6]-26*[(n+4) mod 6]+19*[(n+5) mod 6]}, with n>=0 [From _Paolo P. Lava_, Nov 05 2009]
+%K A021301 nonn,cons
+%O A021301 0,3
+%A A021301 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

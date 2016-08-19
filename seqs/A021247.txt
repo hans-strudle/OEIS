@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021247
+Showing 1-1 of 1
+
+%I A021247
+%S A021247 0,0,4,1,1,5,2,2,6,3,3,7,4,4,8,5,5,9,6,7,0,7,8,1,8,9,3,0,0,4,1,1,5,2,
+%T A021247 2,6,3,3,7,4,4,8,5,5,9,6,7,0,7,8,1,8,9,3,0,0,4,1,1,5,2,2,6,3,3,7,4,4,
+%U A021247 8,5,5,9,6,7,0,7,8,1,8,9,3,0,0,4,1,1,5,2,2,6,3,3,7,4,4,8,5,5,9
+%N A021247 Decimal expansion of 1/243.
+%C A021247 Period 27 Repeat: [0, 0, 4, 1, 1, 5, 2, 2, 6, 3, 3, 7, 4, 4, 8, 5, 5, 9, 6, 7, 0, 7, 8, 1, 8, 9, 3]. - _Wesley Ivan Hurt_, May 25 2014
+%p A021247 Digits:=100; evalf(1/243); # _Wesley Ivan Hurt_, May 25 2014
+%t A021247 RealDigits[1/243, 10, 100, -1] (* _Wesley Ivan Hurt_, May 25 2014 *)
+%K A021247 nonn,cons
+%O A021247 0,3
+%A A021247 _N. J. A. Sloane_, Dec 11 1996
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

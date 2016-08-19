@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058554
+Showing 1-1 of 1
+
+%I A058554
+%S A058554 1,3,6,13,24,39,64,102,153,230,342,492,704
+%N A058554 McKay-Thompson series of class 20E for Monster.
+%D A058554 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058554 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058554 T20E = 1/q + 3*q + 6*q^3 + 13*q^5 + 24*q^7 + 39*q^9 + 64*q^11 + 102*q^13 + ...
+%Y A058554 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058554 nonn
+%O A058554 -1,2
+%A A058554 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

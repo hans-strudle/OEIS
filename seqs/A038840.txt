@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038840
+Showing 1-1 of 1
+
+%I A038840
+%S A038840 27,343,729,1331,2197,3375,4913,19683,24389,29791,35937,59319,91125,
+%T A038840 103823,117649,148877,166375,205379,226981,250047,357911,389017,
+%U A038840 421875,571787
+%N A038840 Cubes that are concatenations of primes.
+%o A038840 (PARI) forstep(n=3,1e2,2,if(is_A152242(n^3),print1(n^3", "))) \\ _Charles R Greathouse IV_, Jun 10 2013
+%K A038840 nonn,base
+%O A038840 1,1
+%A A038840 _Jeff Burch_
+%E A038840 Missing a(6), a(7), a(9), a(13), a(16)-a(18), a(21), a(23) from _Charles R Greathouse IV_, Jun 10 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

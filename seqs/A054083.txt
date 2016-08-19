@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054083
+Showing 1-1 of 1
+
+%I A054083
+%S A054083 2,2,2,2,7,7,7,7,7,7,9,7,9,9,9,9,9,9,19,9,19,9,19,19,19,19,16,19,16,
+%T A054083 19,16,19,19,16,16,16,16,16,19,19,16,16,19,16,19,16,19,19,16,19,19,16,
+%U A054083 19,16,19,19,19,19,19,19,19,19,19,19,19,19,19
+%N A054083 Order of n in the permutation A054082 of the natural numbers.
+%e A054083 5 -> 7 -> 9 -> 12 -> 10 -> 8-> 6-> 5, so that 5 has order 7.
+%K A054083 nonn
+%O A054083 1,1
+%A A054083 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

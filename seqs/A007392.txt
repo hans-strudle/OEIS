@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007392
+Showing 1-1 of 1
+
+%I A007392 M3727
+%S A007392 0,0,0,0,0,0,0,0,0,5,0,12,0,21,5,32,17,45,38,65,70,99,115,156,180,247,
+%T A007392 279,385,435,590,682,896,1067,1360,1657,2073,2553,3173,3913,4865,5986,
+%U A007392 7455
+%N A007392 Number of strict 3rd-order maximal independent sets in cycle graph.
+%D A007392 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007392 R. Yanco and A. Bagchi, ``K-th order maximal independent sets in path and cycle graphs,'' J. Graph Theory, submitted, 1994, apparently unpublished.
+%F A007392 Conjecture: a(n)= 3*a(n-2) -3*a(n-4) +a(n-5) +a(n-6) -2*a(n-7) +a(n-9) with g.f. x^10*(-5+3*x^2)/((x^5+x^2-1)*(x-1)^2*(1+x)^2). [From _R. J. Mathar_, Oct 30 2009]
+%K A007392 nonn
+%O A007392 1,10
+%A A007392 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

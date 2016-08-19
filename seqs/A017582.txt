@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017582
+Showing 1-1 of 1
+
+%I A017582
+%S A017582 25,289,841,1681,2809,4225,5929,7921,10201,12769,15625,18769,22201,
+%T A017582 25921,29929,34225,38809,43681,48841,54289,60025,66049,72361,78961,
+%U A017582 85849,93025,100489,108241,116281
+%N A017582 a(n) = (12n + 5)^2.
+%F A017582 a(n) = A017581(n)^2. - _Michel Marcus_, Dec 28 2014
+%F A017582 G.f.: (25 + 214*x + 49*x^2)/(1-x)^3. - _Vincenzo Librandi_, Dec 28 2014
+%t A017582 lst={};Do[AppendTo[lst,(12*n+5)^2],{n,0,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jun 29 2009 *)
+%t A017582 CoefficientList[Series[(25 + 214 x + 49 x^2) / (1 - x)^3, {x, 0, 40}], x] (* _Vincenzo Librandi_, Dec 28 2014 *)
+%K A017582 nonn,easy
+%O A017582 0,1
+%A A017582 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036320
+Showing 1-1 of 1
+
+%I A036320
+%S A036320 25,35,49,125,175,245,343,625,875,1225,1715,2401,2785,2885,3125,3785,
+%T A036320 3899,4039,4375,5299,6125,8575,12005,13925,14425,15625,16807,18925,
+%U A036320 19495,20195,21875,26495,27293,27785,28273,30625,37093,37885,38785
+%N A036320 Composite numbers n such that digits of prime factors of n are either 5 or 7.
+%Y A036320 Cf. A003595, A036302-A036325.
+%K A036320 nonn,base
+%O A036320 1,1
+%A A036320 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

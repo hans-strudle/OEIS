@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040017
+Showing 1-1 of 1
+
+%I A040017
+%S A040017 3,11,37,101,9091,9901,333667,909091,99990001,999999000001,
+%T A040017 9999999900000001,909090909090909091,1111111111111111111,
+%U A040017 11111111111111111111111,900900900900990990990991,909090909090909090909090909091
+%N A040017 Unique period primes (no other prime has same period as 1/p) in order (periods are given in A051627).
+%D A040017 J.-P. Delahaye, Merveilleux nombres premiers ("Amazing primes"), p. 324, Pour la Science Paris 2000.
+%H A040017 Robert G. Wilson v, <a href="/A040017/b040017.txt">Table of n, a(n) for n = 1..46</a>
+%H A040017 Chris Caldwell, The Prime Glossary, <a href="http://primes.utm.edu/glossary/xpage/UniquePrime.html">Unique prime</a>
+%H A040017 C. K. Caldwell, "Top Twenty" page, <a href="http://primes.utm.edu/top20/page.php?id=62">Unique</a>
+%H A040017 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/UniquePrime.html">Unique Prime</a>
+%H A040017 Wikipedia, <a href="http://en.wikipedia.org/wiki/Unique_prime">Unique prime</a>
+%H A040017 <a href="/index/1#1overn">Index entries for sequences related to decimal expansion of 1/n</a>
+%e A040017 The decimal expansion of 1/101 is 0.00990099..., having a period of 4 and it is the only prime with that period.
+%t A040017 lst = {}; Do[c = Cyclotomic[n, 10]; q = c/GCD[c, n]; If[PrimeQ[q], AppendTo[lst, q]], {n, 62}]; Prepend[Sort[lst], 3] (* _Arkadiusz Wesolowski_, May 13 2012 *)
+%Y A040017 Cf. A007615 (same numbers ordered by period length).
+%Y A040017 Cf. A007498, A002371, A048595, A006883, A007732, A051626, A051627.
+%K A040017 nonn,base,nice
+%O A040017 1,1
+%A A040017 _Jud McCranie_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

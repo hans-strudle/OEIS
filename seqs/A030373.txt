@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030373
+Showing 1-1 of 1
+
+%I A030373
+%S A030373 1,2,3,1,0,1,1,1,2,1,3,2,0,2,1,2,2,2,3,3,0,3,1,3,2,3,3,1,0,0,1,0,1,1,
+%T A030373 0,2,1,0,3,1,1,0,1,1,1,1,1,2,1,1,3,1,2,0,1,2,1,1,2,2,1,2,3,1,3,0,1,3,
+%U A030373 1,1,3,2,1,3,3,2,0,0,2,0,1,2,0,2,2,0,3,2,1,0
+%N A030373 Write n in base 4 and juxtapose.
+%C A030373 An irregular table in which the n-th row lists the base 4 digits of n. - _Jason Kimberley_, Nov 26 2012
+%C A030373 The base 4 Champernowne constant: it is normal in base 4. - _Jason Kimberley_, Nov 26 2012
+%H A030373 F. J. Aragon Artacho, D. H. Bailey, J. M. Borwein, and P. B. Borwein, <a href="http://carma.newcastle.edu.au/walks/">Walking on real numbers</a>, preprint September 2012.
+%t A030373 Flatten[IntegerDigits[Range[40],4]] (* _Harvey P. Dale_, Aug 23 2011 *)
+%t A030373 almostNatural[n_, b_] := Block[{m = 0, d = n, i = 1, l, p}, While[m <= d, l = m; m = (b - 1) i*b^(i - 1) + l; i++]; i--; p = Mod[d - l, i]; q = Floor[(d - l)/i] + b^(i - 1); If[p != 0, IntegerDigits[q, b][[p]], Mod[q - 1, b]]]; Array[ almostNatural[#, 4] &, 105] (* _Robert G. Wilson v_, Jun 29 2014 *)
+%o A030373 (MAGMA) &cat[Reverse(IntegerToSequence(n,4)):n in[1..31]]; // _Jason Kimberley_, Dec 07 2012
+%Y A030373 Cf. A007376, A003137, A007090.
+%Y A030373 Tables in which the n-th row lists the base b digits of n: A030190 and A030302 (b=2), A003137 and A054635 (b=3), this sequence (b=4), A031219 (b=5), A030548 (b=6), A030998 (b=7), A031035 and A054634 (b=8), A031076 (b=9), A007376 and A033307 (b=10). - _Jason Kimberley_, Dec 06 2012
+%K A030373 nonn,base,cons,tabf,easy
+%O A030373 1,2
+%A A030373 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

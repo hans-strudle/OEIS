@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045740
+Showing 1-1 of 1
+
+%I A045740
+%S A045740 1,3,12,62,370,2397,16345,115376,834786,6152285,45990120,347673108,
+%T A045740 2652283517,20385035972,157656007680,1225743120520,9572972899946,
+%U A045740 75056029550721,590469939950716,4659115833115680,36859770507695688
+%N A045740 Number of components in all forests on nodes on a circle.
+%F A045740 Sum(k*binomial(n, k-1)*binomial(3*n-2*k-1, n-k)/(2*n-k), k=1..n)
+%K A045740 nonn
+%O A045740 1,2
+%A A045740 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

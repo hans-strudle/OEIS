@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057351
+Showing 1-1 of 1
+
+%I A057351
+%S A057351 1,2,26,338,2054,4394,13282,26702,46306,57122,59566,162266,221446,
+%T A057351 347126,404293,742586,760318
+%N A057351 Numbers n such that n | 4^n + 3^n + 1.
+%t A057351 Select[ Range[ 10^6 ], Mod[ PowerMod[ 4, #, # ] + PowerMod[ 3, #, # ] + 1, # ] == 0 & ]
+%K A057351 nonn
+%O A057351 1,2
+%A A057351 _Robert G. Wilson v_, Sep 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

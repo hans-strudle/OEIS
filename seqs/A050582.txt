@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050582
+Showing 1-1 of 1
+
+%I A050582
+%S A050582 8,14,74,80,274,334,590,608,614,650,1016,1814,1904,4400,5474,144866,
+%T A050582 174898,343214,422866,464386
+%N A050582 Numbers n such that 113*2^n-1 is prime.
+%H A050582 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A050582 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A050582 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%H A050582 Kosmaj, <a href="http://www.15k.org/riesellist.htm">Riesel list k<300</a>.
+%K A050582 hard,nonn
+%O A050582 1,1
+%A A050582 _N. J. A. Sloane_, Dec 29 1999
+%E A050582 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

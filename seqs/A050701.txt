@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050701
+Showing 1-1 of 1
+
+%I A050701
+%S A050701 51,62,85,93,94,221,302,321,341,381,394,413,442,492,493,502,511,513,
+%T A050701 514,522,523,524,533,534,551,553,561,562,574,581,582,604,605,621,622,
+%U A050701 623,642,663,682,685,705,711,723,734,741,766,771,781,794,805,814,817
+%N A050701 Largest of the pair n and n-reversed (<>n and no leading zeros) having the same number of prime factors, in sorted order.
+%e A050701 a(n)=341 -> a(n)-reversed=143 gives pair (143,341) of which only the largest value 341 is withheld.
+%t A050701 rev[n_]:=FromDigits[Reverse[IntegerDigits[n]]]; Select[Range[825],!PrimeQ[#]&&PrimeOmega[#]==PrimeOmega[x=rev[#]]&&#>x&] (* _Jayanta Basu_, May 31 2013 *)
+%Y A050701 Cf. A050699, A050700.
+%K A050701 nonn,base
+%O A050701 0,1
+%A A050701 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

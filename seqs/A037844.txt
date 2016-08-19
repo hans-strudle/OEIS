@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037844
+Showing 1-1 of 1
+
+%I A037844
+%S A037844 0,0,0,0,1,0,0,0,0,1,2,0,0,1,1,1,1,0,1,2,0,0,1,0,0,0,0,1,2,1,1,2,2,2,
+%T A037844 2,0,1,2,0,0,1,1,1,1,1,2,3,1,1,2,1,1,1,0,1,2,1,1,2,2,2,2,0,1,2,0,0,1,
+%U A037844 1,1,1,0,1,2,0,0,1,0,0,0,0,1,2,1,1,2,2,2,2,1
+%N A037844 Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is base 3 representation of n.
+%p A037844 A037844 := proc(n)
+%p A037844     a := 0 ;
+%p A037844     dgs := convert(n,base,3);
+%p A037844     for i from 2 to nops(dgs) do
+%p A037844         if op(i,dgs)<op(i-1,dgs) then
+%p A037844             a := a-op(i,dgs)+op(i-1,dgs) ;
+%p A037844         end if;
+%p A037844     end do:
+%p A037844     a ;
+%p A037844 end proc: # _R. J. Mathar_, Oct 16 2015
+%Y A037844 Cf. A037853
+%K A037844 nonn,base
+%O A037844 1,11
+%A A037844 _Clark Kimberling_
+%E A037844 Definition corrected. - _R. J. Mathar_, Oct 16 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

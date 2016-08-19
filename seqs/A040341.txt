@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040341
+Showing 1-1 of 1
+
+%I A040341
+%S A040341 18,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,
+%T A040341 1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,
+%U A040341 36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36
+%N A040341 Continued fraction for sqrt(360).
+%H A040341 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040341 a(n)=37+35*(-1)^n-18*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 28 2009]
+%p A040341 with(numtheory): Digits := 300: convert(evalf(sqrt(360)),confrac);
+%K A040341 nonn,cofr,easy
+%O A040341 0,1
+%A A040341 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

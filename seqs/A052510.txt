@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052510
+Showing 1-1 of 1
+
+%I A052510
+%S A052510 1,6,240,25200,5080320,1676505600,821966745600,560992303872000,
+%T A052510 508633022177280000,591438478187741184000
+%N A052510 Number of labeled planar binary trees with n elements (external nodes or internal nodes).
+%H A052510 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=54">Encyclopedia of Combinatorial Structures 54</a>
+%F A052510 E.g.f.: (1/2)/x*(1-(1-4*x^2)^(1/2))
+%F A052510 Recurrence: {a(1)=1, a(2)=0, (-4*n^3-12*n^2-8*n)*a(n)+(n+3)*a(n+2), a(3)=6}
+%F A052510 a(n) = (2n-1)/n * ( (2(n-1))! / (n-1)! )^2 - Travis Kowalski (kowalski(AT)euclid.UCSD.Edu), Dec 15, 2000
+%F A052510 I*sin(asec(2x)) = -1/2x + x + 6x^3/3! + 240x^5/5! + 25200x^7/7! +...
+%p A052510 spec := [S,{S=Union(Z,Prod(Z,S,S))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052510 nn=20;f[x_]:=Sum[a[n]x^n/n!,{n,0,nn}];s=SolveAlways[0==Series[f[x]-x(1+f[x]^2),{x,0,nn}],x];Select[Flatten[Table[a[n],{n,0,nn}]/.s],#>0&]  (* _Geoffrey Critzer_, Mar 23 2013 *)
+%Y A052510 Equals 2^(n-1) * A036770(n). Cf. A101921.
+%K A052510 easy,nonn
+%O A052510 1,2
+%A A052510 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

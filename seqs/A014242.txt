@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014242
+Showing 1-1 of 1
+
+%I A014242
+%S A014242 1,1,1,1,4,11,23,43,75,129,217,360,592,968,1577,2562,4158,6741,
+%T A014242 10921,17685,28630,46340,74996,121363,196387,317779,514196,832005,
+%U A014242 1346233,2178272,3524540,5702848,9227425
+%V A014242 1,-1,-1,1,4,11,23,43,75,129,217,360,592,968,1577,2562,4158,6741,
+%W A014242 10921,17685,28630,46340,74996,121363,196387,317779,514196,832005,
+%X A014242 1346233,2178272,3524540,5702848,9227425
+%N A014242 (n-th Fibonacci number that is not 1) - (n-th number that is 1 or not a Fibonacci number).
+%K A014242 sign
+%O A014242 1,5
+%A A014242 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

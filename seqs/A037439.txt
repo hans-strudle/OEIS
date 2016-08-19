@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037439
+Showing 1-1 of 1
+
+%I A037439
+%S A037439 1,2,3,4,5,6,31,99,198,248,297,749,1163,1471,1498,1577,1831,2247,3413,
+%T A037439 3988,4473,4491,4500,4509,4788,4789,4790,4791,4792,4793,4794,6769,
+%U A037439 7311,7626,7698,7726,8290,8299,8535,9005,9038,9122,9172,9185,9192
+%N A037439 Numbers n such that the set of base 7 digits of n equals the set of base 9 digits of n.
+%K A037439 nonn,base
+%O A037439 1,2
+%A A037439 _Clark Kimberling_
+%E A037439 More terms from Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

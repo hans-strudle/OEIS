@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048358
+Showing 1-1 of 1
+
+%I A048358
+%S A048358 2,77,257,2570,816,25808,163299,812816,2463060,24629808,246306030,
+%T A048358 791999183,812812816,2581876578,81649658057
+%N A048358 a(n) is base of smallest triangle containing exactly n 3's.
+%H A048358 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TriangularNumber.html">Triangular Number</a>
+%Y A048358 Cf. A036520.
+%K A048358 nonn,base,more
+%O A048358 1,1
+%A A048358 _Patrick De Geest_, Mar 15 1999.
+%E A048358 a(12) corrected by _Lars Blomberg_, May 13 2011
+%E A048358 a(13)-a(15) from _Lars Blomberg_, May 13 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

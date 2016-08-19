@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020918
+Showing 1-1 of 1
+
+%I A020918
+%S A020918 1,14,126,924,6006,36036,204204,1108536,5819814,29745716,148728580,
+%T A020918 730122120,3528923580,16830250920,79342611480,370265520240,
+%U A020918 1712478031110,7857252142740,35794148650260
+%N A020918 Expansion of 1/(1-4*x)^(7/2).
+%C A020918 Also convolution of A000984 with A038845, also convolution of A000302 with A002802, also convolution of A002457 with A002697. [_Rui Duarte_, Oct 08 2011]
+%H A020918 Vincenzo Librandi, <a href="/A020918/b020918.txt">Table of n, a(n) for n = 0..200</a>
+%F A020918 a(n) = binomial(n+3, 3)*A000984(n+3)/A000984(3), where A000984 are the central binomial coefficients. - _Wolfdieter Lang_
+%F A020918 a(n) ~ 8/15*Pi^(-1/2)*n^(5/2)*2^(2*n)*{1 + 35/8*n^-1 + ...}. - Joe Keane (jgk(AT)jgk.org), Nov 22 2001
+%F A020918 a(n) = sum( a+b+c+d+e+f+g=n, f(a)*f(b)*f(c)*f(d)*f(e)*f(f)*f(g)) with f(n)=A000984(n) . - _Philippe Deléham_, Jan 22 2004
+%F A020918 a(n) = A000292(n)*A000984(n+2)/20. - _Zerinvary Lajos_, May 05 2007
+%F A020918 a(n) = ((2n+5)(2n+3)(2n+1)/(5*3*1)) * binomial(2n, n), a(n) = binomial(2n+6, 6) * binomial(2n, n) / binomial(n+3, 3), a(n) = binomial(n+3, 3) * binomial(2n+6, n+3) / binomial(6, 3). - _Rui Duarte_, Oct 08 2011
+%F A020918 a(n) = 4^n*hypergeom([-n,-5/2], [1], 1). - _Peter Luschny_, Apr 26 2016
+%p A020918 seq(binomial(2*n,n)*binomial(n,(n-3))/20, n=2..21); # _Zerinvary Lajos_, May 05 2007
+%p A020918 seq(simplify(4^n*hypergeom([-n,-5/2], [1], 1)),n=0..18); # _Peter Luschny_, Apr 26 2016
+%t A020918 CoefficientList[Series[1 / (1 - 4 x)^(7/2), {x, 0, 30}], x] (* _Vincenzo Librandi_, Jul 04 2013 *)
+%K A020918 nonn,easy
+%O A020918 0,2
+%A A020918 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048001
+Showing 1-1 of 1
+
+%I A048001
+%S A048001 0,0,0,0,0,0,2,12,18,63,168,224,504,1014,1270,2420,4620,5742,12012,
+%T A048001 27027,35035,84119,199304,260064,601664,1339464,1720944,3755844,
+%U A048001 8093214,10329750,22591800,49876200,64071194,144780009
+%N A048001 Number of nonempty subsets of {1,2,...,n} in which exactly 1/6 of the elements are <= n/3.
+%K A048001 nonn
+%O A048001 1,7
+%A A048001 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

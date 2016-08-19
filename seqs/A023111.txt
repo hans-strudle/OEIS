@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023111
+Showing 1-1 of 1
+
+%I A023111
+%S A023111 0,36,51984,74960964,108093658176,155870980128900,224765845252215696,
+%T A023111 324112192982714904804,467369557515229640511744,
+%U A023111 673946577824768158903030116,971830497853758169908528915600
+%N A023111 Numbers n such that n remains square when digit 1 is appended.
+%C A023111 The terms of the sequence are the squares of the y-values in the solution to the Pellian equation x^2-10*y^2=1. - _Colin Barker_, Sep 28 2013
+%H A023111 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (1443, -1443, 1).
+%F A023111 Empirical G.f.: -36*x^2*(x+1) / ((x-1)*(x^2-1442*x+1)). [_Colin Barker_, Jan 31 2013]
+%F A023111 a(0)=0, a(1)=36, a(2)=51984, a(n)=1443*a(n-1)-1443*a(n-2)+a(n-3). - _Harvey P. Dale_, Dec 23 2013
+%t A023111 LinearRecurrence[{1443,-1443,1},{0,36,51984},20] (* _Harvey P. Dale_, Dec 23 2013 *)
+%Y A023111 Cf. A023110.
+%K A023111 nonn,base
+%O A023111 1,2
+%A A023111 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

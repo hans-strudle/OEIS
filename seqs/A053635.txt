@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053635
+Showing 1-1 of 1
+
+%I A053635
+%S A053635 0,2,6,12,24,40,84,140,288,540,1080,2068,4224,8216,16548,32880,65856,
+%T A053635 131104,262836,524324,1049760,2097480,4196412,8388652,16782048,
+%U A053635 33554600,67117128,134218836,268452240,536870968,1073777040,2147483708
+%N A053635 Sum_{d|n} phi(d)*2^(n/d).
+%D A053635 T. Pisanski, D. Schattschneider and B. Servatius, Applying Burnside's lemma to a one-dimensional Escher problem, Math. Mag., 79 (2006), 167-180. See v(n).
+%F A053635 a(n) = n * A000031(n).
+%p A053635 with(numtheory); A053685:=n->add( phi(n/d)*2^d, d in divisors(n)); [From _N. J. A. Sloane_, Nov 21 2009]
+%Y A053635 Cf. A053634, A053636. Twice A034738.
+%Y A053635 Column k=2 of A185651.
+%K A053635 nonn
+%O A053635 0,2
+%A A053635 _N. J. A. Sloane_, Mar 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030194
+Showing 1-1 of 1
+
+%I A030194
+%S A030194 0,2,4,9,11,13,18,20,22,27,29,31,51,53,60,62,69,71,85,94,101,103,110,
+%T A030194 112,141,143,150,152,159,161,168,170,211,220,229,245,267,269,292,299,
+%U A030194 301,308,310,317,319,326,348,357,359
+%N A030194 Let S = triangular numbers; a(0)=0; a(n) = smallest m such that m - a(i) is not in S for any i < n.
+%D A030194 Related papers: A. Sárközy. On the difference sets of sequences of integers, Acta. Math. Acad. Sci. Hungar. 31(1978), no. 1-2, 125-149; no. 3-4, 355-386; Ann. Univ. Sci. Budapest. Eotvos Sect. Math. 21(1978), 45-53.
+%D A030194 I. Z. Rusza. Difference sets without squares, Periodica Math. Hugarica 15(1984), 205-209.
+%K A030194 nonn
+%O A030194 0,2
+%A A030194 Jan Kristian Haugland (jankrihau(AT)hotmail.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

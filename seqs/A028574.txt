@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028574
+Showing 1-1 of 1
+
+%I A028574
+%S A028574 1,46,1356,32856,714672,14543712,283133632,5342645632,98527058688,
+%T A028574 1785505986048,31916125744128,564249389488128,9885635491508224,
+%U A028574 171893957900591104,2969895694579974144,51031902826852614144,872728343238158254080
+%N A028574 Expansion of 1/((1-2x)(1-4x)(1-8x)(1-16x)(1-32x)).
+%F A028574 a(n) = (32^(n+4) - 15*16^(n+4) + 70*8^(n+4) - 120*4^(n+4) + 64*2^(n+4))/322560. [_Yahia Kahloune_, Jul 06 2013]
+%K A028574 nonn
+%O A028574 0,2
+%A A028574 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

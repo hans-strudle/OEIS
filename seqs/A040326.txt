@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040326
+Showing 1-1 of 1
+
+%I A040326
+%S A040326 18,1,1,2,1,6,1,2,1,1,36,1,1,2,1,6,1,2,1,1,36,1,1,2,1,6,1,2,1,1,36,1,
+%T A040326 1,2,1,6,1,2,1,1,36,1,1,2,1,6,1,2,1,1,36,1,1,2,1,6,1,2,1,1,36,1,1,2,1,
+%U A040326 6,1,2,1,1,36,1,1,2,1,6,1,2,1,1,36,1,1,2,1,6,1,2,1,1
+%N A040326 Continued fraction for sqrt(345).
+%H A040326 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040326 a(n)=(1/450)*{-1523*(n mod 10)+52*[(n+1) mod 10]+97*[(n+2) mod 10]+7*[(n+3) mod 10]+277*[(n+4) mod 10]-173*[(n+5) mod 10]+97*[(n+6) mod 10]+7*[(n+7) mod 10]+52*[(n+8) mod 10]+1627*[(n+9) mod 10]}-18*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 27 2009]
+%p A040326 with(numtheory): Digits := 300: convert(evalf(sqrt(345)),confrac);
+%K A040326 nonn,cofr,easy
+%O A040326 0,1
+%A A040326 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

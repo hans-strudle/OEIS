@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033461
+Showing 1-1 of 1
+
+%I A033461
+%S A033461 1,1,0,0,1,1,0,0,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,0,0,2,2,0,0,2,2,0,0,0,
+%T A033461 1,1,1,1,1,1,1,2,1,0,0,2,2,0,0,2,3,1,1,2,2,1,1,1,1,1,0,2,3,1,1,4,3,0,
+%U A033461 1,2,2,1,0,1,4,3,0,2,4,2,1,3,2,1,2,3,3,2,1,3,6,3,0,2,5,3,0,1,3,3,3,4
+%N A033461 Number of partitions of n into distinct squares.
+%C A033461 "WEIGH" transform of squares A000290.
+%C A033461 a(n) = 0 for n in {A001422}, a(n) > 0 for n in {A003995}. - _Alois P. Heinz_, May 14 2014
+%C A033461 Number of partitions of n in which each part i has multiplicity i. Example: a(50)=3 because we have [1,2,2,3,3,3,6,6,6,6,6,6], [1,7,7,7,7,7,7,7], and [3,3,3,4,4,4,4,5,5,5,5,5]. - _Emeric Deutsch_, Jan 26 2016
+%H A033461 T. D. Noe and Alois P. Heinz, <a href="/A033461/b033461.txt">Table of n, a(n) for n = 0..10000</a> (first 1001 terms from T. D. Noe)
+%F A033461 G.f.: prod(n>=1, 1+x^(n^2) ).
+%e A033461 a(50)=3 because we have [1,4,9,36], [1,49], and [9,16,25]. - _Emeric Deutsch_, Jan 26 2016
+%p A033461 b:= proc(n, i) option remember; `if`(n=0, 1, `if`(i<1, 0,
+%p A033461        b(n, i-1) +`if`(i^2>n, 0, b(n-i^2, i-1))))
+%p A033461     end:
+%p A033461 a:= n-> b(n, isqrt(n)):
+%p A033461 seq(a(n), n=0..100);  # _Alois P. Heinz_, May 14 2014
+%t A033461 nn=10; CoefficientList[Series[Product[(1+x^(k*k)), {k,nn}], {x,0,nn*nn}], x] - _T. D. Noe_, Jul 24 2006
+%t A033461 b[n_, i_] := b[n, i] = If[n==0, 1, If[i<1, 0, b[n, i-1] + If[i^2 > n, 0, b[n - i^2, i-1]]]]; a[n_] := b[n, Floor[Sqrt[n]]]; Table[a[n], {n, 0, 100}] (* _Jean-François Alcover_, Sep 21 2015, after _Alois P. Heinz_ *)
+%o A033461 (PARI) a(n)=polcoeff(prod(k=1,sqrt(n),1+x^k^2), n)
+%o A033461 (PARI) first(n)=Vec(prod(k=1,sqrtint(n),1+'x^k^2,O('x^(n+1))+1)) \\ _Charles R Greathouse IV_, Sep 03 2015
+%Y A033461 Cf. A003995, A001422, A242434 (the same for compositions).
+%K A033461 nonn
+%O A033461 0,26
+%A A033461 _N. J. A. Sloane_.
+%E A033461 More terms from _Michael Somos_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

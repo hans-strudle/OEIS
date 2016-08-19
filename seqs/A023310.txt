@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023310
+Showing 1-1 of 1
+
+%I A023310
+%S A023310 3,199,233,709,1361,1367,2137,2879,5519,5987,7283,9719,11699,14983,
+%T A023310 16417,17881,20939,24481,30467,31663,31741,35107,35863,46811,47869,
+%U A023310 49261,58207,60497,63317,64781,68777,73453,74021,79901,85487,85571,94327,94999
+%N A023310 Numbers n such that n remains prime through 4 iterations of function f(x) = 3x + 10.
+%C A023310 n, 3*n+10, 9*n+40, 27*n+130 and 81*n+400 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023310 (MAGMA) [n: n in [1..1000000] | IsPrime(n) and IsPrime(3*n+10) and IsPrime(9*n+40) and IsPrime(27*n+130) and IsPrime(81*n+400)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023310 nonn
+%O A023310 1,1
+%A A023310 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

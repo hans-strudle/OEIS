@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007279
+Showing 1-1 of 1
+
+%I A007279 M0558
+%S A007279 1,2,3,4,6,8,11,14,18,23,29,36,44,54,66,79,95,113,133,157,184,216,250,
+%T A007279 290,335,385,442,505,576,656,743,842,951,1070,1204,1351,1514,1691,
+%U A007279 1887,2102,2336,2595,2875,3184,3519,3883,4282,4713,5181,5690,6241,6839,7482
+%N A007279 Number of partitions of n into partition numbers.
+%D A007279 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007279 Alois P. Heinz, <a href="/A007279/b007279.txt">Table of n, a(n) for n = 1..1000</a>
+%p A007279 with(combinat): gf := 1/product((1-q^numbpart(k)), k=1..20): s := series(gf, q, 200): for i from 1 to 199 do printf(`%d,`,coeff(s, q, i)) od: # _James A. Sellers_, Feb 08 2002
+%t A007279 CoefficientList[ Series[1/Product[1 - x^PartitionsP[i], {i, 1, 15}], {x, 0, 50}], x]
+%Y A007279 Cf. A000041.
+%Y A007279 Cf. A086209, A229362.
+%K A007279 nonn
+%O A007279 1,2
+%A A007279 _N. J. A. Sloane_, _Mira Bernstein_
+%E A007279 More terms from _James A. Sellers_, Feb 08 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

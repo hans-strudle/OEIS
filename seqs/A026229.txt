@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026229
+Showing 1-1 of 1
+
+%I A026229
+%S A026229 2,6,12,18,21,30,36,39,48,54,57,63,66,75,84,90,93,102,108,111,117,120,
+%T A026229 129,138,144,147,156,162,165,171,174,183,189,192,198,201,210,219,225,
+%U A026229 228,237,246,252,255,264,270,273,279,282,291
+%N A026229 n-th number k such that t(k) = s(k) + 2, where s = A026142, t = A026166.
+%K A026229 nonn
+%O A026229 1,1
+%A A026229 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

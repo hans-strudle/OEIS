@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048854
+Showing 1-1 of 1
+
+%I A048854
+%S A048854 1,2,1,12,12,1,120,180,30,1,1680,3360,840,56,1,30240,75600,25200,2520,
+%T A048854 90,1,665280,1995840,831600,110880,5940,132,1,17297280,60540480,
+%U A048854 30270240,5045040,360360,12012,182,1,518918400,2075673600,1210809600
+%N A048854 Triangle of coefficients of certain Sheffer-polynomials.
+%C A048854 s(n,x) := sum(a(n,m)*x^m,m=0..n) are monic polynomials satisfying s(n,x+y) = sum(binomial(n,k)*s(k,x)*p(n-k,y),k=0..n), with polynomials p(n,x)=sum(A048786(n,m)*x^m, m=1..n) (row polynomials of triangle A048786) and p(0,x)=1.
+%C A048854 In the umbral calculus (see reference) the s(n,x) are called Sheffer polynomials for(1/sqrt(1+4*t),t/(1+4*t)).
+%D A048854 S. Roman, The Umbral Calculus, Academic Press, New York, 1984.
+%F A048854 a(n, m) = (n!/m!)*A046521(n, m) = (n!/m!)* binomial(2*n, n)*binomial(n, m)/binomial(2*m, m), n >= m >= 0, a(n, m) := 0, n<m.
+%F A048854 Sum_{n>=0, k>=0} a(n, k)*x^n*y^k/(2*n)! = exp(x)*cosh(sqrt(x*y)). - _Vladeta Jovovic_, Feb 21 2003
+%e A048854 1;
+%e A048854 2,1;
+%e A048854 12,12,1;
+%e A048854 120,180,30,1;
+%e A048854 1680,3360,840,56,1;
+%e A048854 30240,75600,25200,2520,90,1;
+%e A048854 665280,1995840,831600,110880,5940,132,1;
+%t A048854 a[n_, m_] := n!/m! * Binomial[2*n, n] * Binomial[n, m] / Binomial[2*m, m]; Table[a[n, m], {n, 0, 8}, {m, 0, n}] // Flatten (* _Jean-François Alcover_, Jul 05 2013 *)
+%Y A048854 Related to triangle A046521. Cf. A048786. a(n, 0) = A001813.
+%K A048854 easy,nonn,tabl
+%O A048854 0,2
+%A A048854 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

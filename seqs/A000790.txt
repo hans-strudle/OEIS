@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000790
+Showing 1-1 of 1
+
+%I A000790
+%S A000790 4,4,341,6,4,4,6,6,4,4,6,10,4,4,14,6,4,4,6,6,4,4,6,22,4,4,9,6,4,4,6,6,
+%T A000790 4,4,6,9,4,4,38,6,4,4,6,6,4,4,6,46,4,4,10,6,4,4,6,6,4,4,6,15,4,4,9,6,
+%U A000790 4,4,6,6,4,4,6,9,4,4,15,6,4,4,6,6,4,4,6,21,4,4,10,6,4
+%N A000790 Primary pretenders: least composite c such that n^c == n (mod c).
+%C A000790 It is remarkable that this sequence is periodic with period
+%C A000790 19568584333460072587245340037736278982017213829337604336734362\
+%C A000790 294738647777395483196097971852999259921329236506842360439300 = 2^2 * 3^2 * 5^2 * 7^2 * 11^2 * 13^2 * 17^2 * 19^2 * 23^2 * 29 * 31 * 37 * 41 * 43 * 47 * 53 * 59 * 61 * 67 * 71 * 73 * 79 * 83 * 89 * 97 * 101 * 103 * 107 * 109 * 113 * 127 * 131 * 137 * 139 * 149 * 151 * 157 * 163 * 167 * 173 * 179 * 181 * 191 * 193 * 197 * 199 * 211 * 223 * 227 * 229 * 233 * 239 * 241 * 251 * 257 * 263 * 269 * 271 * 277.
+%C A000790 Note that the period is 277# * 23# (where as usual # is the primorial). - _Charles R Greathouse IV_, Feb 23 2014
+%C A000790 Records are 4, 341, 382 & 561, and they occur at indices of 0, 2, 383 & 10103. - _Robert G. Wilson v_, Feb 22 2014
+%H A000790 T. D. Noe, <a href="/A000790/b000790.txt">Table of n, a(n) for n=0..10000</a>
+%H A000790 John H. Conway, Richard K. Guy, W. A. Schneeberger and N. J. A. Sloane, <a href="http://neilsloane.com/doc/primary.html">The Primary Pretenders</a>, Acta Arith. 78 (1997), 307-313.
+%e A000790 a(2) = 341 because 2^341 = 2 mod 341 and there is no smaller composite number c such that 2^c = 2 mod c.
+%e A000790 a(3) = 6 because 3^6 = 3 mod 6 (whereas 3^4 = 1 mod 4).
+%t A000790 a[n_] := For[c = 4, True, c = If[PrimeQ[c + 1], c + 2, c + 1], If[PowerMod[n, c, c] == Mod[n, c], Return[c]]]; Table[a[n], {n, 0, 100}] (* _Jean-François Alcover_, Oct 18 2013 *)
+%o A000790 (PARI) a(n)=forcomposite(c=4,554,if(Mod(n,c)^c==n,return(c))); 561 \\ _Charles R Greathouse IV_, Feb 23 2014
+%o A000790 (Haskell)
+%o A000790 import Math.NumberTheory.Moduli (powerMod)
+%o A000790 a000790 n = head [c | c <- a002808_list, powerMod n c c == mod n c]
+%o A000790 -- _Reinhard Zumkeller_, Jul 11 2014
+%Y A000790 Cf. A108574 (all values occurring in this sequence).
+%Y A000790 Cf. A002808.
+%K A000790 nonn,nice
+%O A000790 0,1
+%A A000790 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

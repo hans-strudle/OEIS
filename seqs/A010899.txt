@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010899
+Showing 1-1 of 1
+
+%I A010899
+%S A010899 6,19,36,60
+%N A010899 Minimal scope of a (6,n) difference triangle.
+%D A010899 CRC Handbook of Combinatorial Designs, 1996, p. 315.
+%H A010899 J. B. Shearer, <a href="http://www.research.ibm.com/people/s/shearer/dtsopt.html">Difference Triangle Sets: Known optimal solutions</a>.
+%H A010899 J. B. Shearer, <a href="http://www.research.ibm.com/people/s/shearer/dtslb.html">Difference Triangle Sets: Discoverers</a>
+%Y A010899 A row or column of array in A234943.
+%K A010899 nonn,hard,more
+%O A010899 1,1
+%A A010899 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

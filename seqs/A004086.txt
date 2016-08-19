@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004086
+Showing 1-1 of 1
+
+%I A004086
+%S A004086 0,1,2,3,4,5,6,7,8,9,1,11,21,31,41,51,61,71,81,91,2,12,22,32,42,52,62,
+%T A004086 72,82,92,3,13,23,33,43,53,63,73,83,93,4,14,24,34,44,54,64,74,84,94,5,
+%U A004086 15,25,35,45,55,65,75,85,95,6,16,26,36,46,56,66,76,86,96,7,17,27,37,47
+%N A004086 Read n backwards (referred to as R(n) in many sequences).
+%C A004086 Also called digit reversal of n.
+%C A004086 For n>0: a(a(n)) = n iff n mod 10 != 0. - _Reinhard Zumkeller_, Mar 10 2002
+%H A004086 Franklin T. Adams-Watters, <a href="/A004086/b004086.txt">Table of n, a(n) for n = 0..1000</a>
+%F A004086 a(n) = d(n,0) with d(n,r) = if n=0 then r else d(floor(n/10),r*10+(n mod 10)). - _Reinhard Zumkeller_, Mar 04 201.
+%F A004086 a(n) = Sum_{k=0,floor(log10(n))}(floor(n/10^k)-10*floor(n/10^(k + 1)))*10^(floor(log10(n))-k). - _José de Jesús Camacho Medina_, Mar 21 2014
+%F A004086 a(n) = Sum_{m=0..floor(log_10(n))} (((floor(n/10^m)) mod 10) *10^(floor(log_10(n))-m)), n > 0. - _Timothy Hopper_, Jun 11 2015.
+%F A004086 a(10*n+x) = x*10^m + a(n) if 10^(m-1) <= n < 10^m and 0 <= x <= 9. - _Robert Israel_, Jun 11 2015
+%p A004086 read transforms; A004086 := digrev; #cf "Transforms" link at bottom of page
+%p A004086 A004086:=proc(n) local s,t; if n<10 then n else s:=irem(n,10,'t'); while t>9 do s:=s*10+irem(t,10,'t') od: s*10+t fi end; # _M. F. Hasler_, Jan 29 2012
+%t A004086 Table[FromDigits[Reverse[IntegerDigits[n]]], {n, 0, 75}]
+%t A004086 a[n_]:= Sum[(Floor[n/10^k]-10*Floor[n/10^(k + 1)])*10^(Floor[Log[10,n]]-k), {k, 0, Floor[Log[10, n]] }] ; a /@ Range[100] (* _José de Jesús Camacho Medina_, Mar 21 2014 *)
+%o A004086 (PARI) dig(n) = {local(m=n,r=[]); while(m>0,r=concat(m%10,r);m=floor(m/10));r}
+%o A004086 A004086(n) = {local(b,m,r);r=0;b=1;m=dig(n);for(i=1,matsize(m)[2],r=r+b*m[i];b=b*10);r} \\ _Michael B. Porter_, Oct 16 2009
+%o A004086 (PARI) A004086(n)=eval(concat(Vecrev(Str(n)))) \\ _M. F. Hasler_, Nov 11 2010, updated May 11 2015
+%o A004086 (Haskell) a004086 = read . reverse . show  -- _Reinhard Zumkeller_, Apr 11 2011
+%o A004086 (Python)
+%o A004086 def A004086(n):
+%o A004086 ....return int(str(n)[::-1]) # _Chai Wah Wu_, Aug 30 2014
+%Y A004086 Cf. A004185, A004186, A009996, A073138, A188649, A030101-A030108, A221714.
+%K A004086 nonn,base,nice,look
+%O A004086 0,3
+%A A004086 _N. J. A. Sloane_
+%E A004086 Extended by _Ray Chandler_, Dec 30 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

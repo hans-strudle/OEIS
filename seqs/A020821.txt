@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020821
+Showing 1-1 of 1
+
+%I A020821
+%S A020821 1,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A020821 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A020821 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A020821 Decimal expansion of 1/8.
+%C A020821 Also, decimal expansion of integral_0^infinity x^2/cosh(Pi*x) dx. [_Bruno Berselli_, Mar 20 2013]
+%C A020821 Also, decimal expansion of sum(i=1..infinity, 1/9^i). [_Bruno Berselli_, Jan 03 2014]
+%K A020821 nonn,cons
+%O A020821 0,2
+%A A020821 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

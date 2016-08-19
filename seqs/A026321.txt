@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026321
+Showing 1-1 of 1
+
+%I A026321
+%S A026321 2,5,18,21,24,27,40,43,46,49,62,65,68,71,84,87,90,93,106,109,112,115,
+%T A026321 128,131,134,137,150,153,156,159,172,175,178,181,197,200,203,219,222,
+%U A026321 225,241,244,247,263,266,269,285,288,291,307
+%N A026321 n-th nonnegative integer k satisfying |sin(k)| > |cos(k)| > |sin(k+1)|.
+%K A026321 nonn
+%O A026321 1,1
+%A A026321 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

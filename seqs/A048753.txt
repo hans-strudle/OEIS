@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048753
+Showing 1-1 of 1
+
+%I A048753
+%S A048753 4,6,15,16,20,21,27,33,36,39,42,45,48,50,51,56,57,69,70,75,87,93,100,
+%T A048753 105,111,120,123,129,132,141,154,159,162,175,177,182,183,189,196,198,
+%U A048753 201,210,213,219,220,231,237,238,245,249,256,266,267,270,273,275,291
+%N A048753 Composite n whose product of aliquot divisors divided by number of aliquot divisors is integral.
+%e A048753 a(2)=6; for n=6 product of aliquot divisors is 3*2*1=6; 6/3, number of aliquot divisors = 2. Since 2 is integral, append 6 to sequence.
+%t A048753 padQ[n_]:=Module[{ad=Most[Divisors[n]]},!PrimeQ[n]&&Divisible[Times@@ad, Length[ad]]]; Select[Range[2,300],padQ] (* _Harvey P. Dale_, May 07 2012 *)
+%Y A048753 A048752 and A048754.
+%K A048753 easy,nonn
+%O A048753 1,1
+%A A048753 _Enoch Haga_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

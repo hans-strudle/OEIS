@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052207
+Showing 1-1 of 1
+
+%I A052207
+%S A052207 0,0,0,0,0,8,16,40,80,168,336,672,1344,2640,5280,10296,20592,40040,
+%T A052207 80080,155584,311168,604656,1209312,2351440
+%N A052207 Number of {s(i):i=0..n} such that |s(i)-s(i-1)|=1, i=1..n and s(i)=0 at four values of i, one of which is i=0.
+%C A052207 Calculation suggests that {a(2n)/8} is A002054 (shifted).
+%K A052207 nonn
+%O A052207 1,6
+%A A052207 _John W. Layman_, Jan 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

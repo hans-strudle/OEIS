@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006759
+Showing 1-1 of 1
+
+%I A006759 M3038
+%S A006759 0,0,0,3,17,131,915,6553,47026,341888,2505499,18534827
+%N A006759 Number of one-sided 3-dimensional polyominoes with n cells.
+%D A006759 W. F. Lunnon, Counting multidimensional polyominoes. Computer Journal 18 (1975), no. 4, pp. 366-367.
+%D A006759 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A006759 A column of A195738.
+%K A006759 nonn
+%O A006759 1,4
+%A A006759 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

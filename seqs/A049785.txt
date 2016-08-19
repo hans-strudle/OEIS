@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049785
+Showing 1-1 of 1
+
+%I A049785
+%S A049785 0,0,0,0,1,0,2,0,2,1,5,0,5,4,3,2,9,2,10,4,6,7,17,0,10,11,13,6,19,4,18,
+%T A049785 10,15,18,21,2,19,22,27,8,27,10,30,20,17,22,44,6,28,21,29,22,47,21,34,
+%U A049785 17,28,35,63,8,37,44,38,28,43,19,51,41,55,29
+%N A049785 a(n)=Sum{n mod [ n/k ]: k=1,2,...,n}=T(n,n), array T as in A049783.
+%K A049785 nonn
+%O A049785 1,7
+%A A049785 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

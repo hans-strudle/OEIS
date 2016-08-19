@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031387
+Showing 1-1 of 1
+
+%I A031387
+%S A031387 5,23,47,73,103,137,167,197,233,269,307,347,379,419,449,487,523,571,
+%T A031387 607,643,677,727,761,811,853,883,937,977,1019,1051,1093,1129,1187,
+%U A031387 1229,1279,1303,1367,1427,1453,1489,1543,1579,1613,1663,1709,1753
+%N A031387 Primes p(6n-3).
+%H A031387 Ivan Panchenko, <a href="/A031387/b031387.txt">Table of n, a(n) for n = 1..1000</a>
+%o A031387 (MAGMA) [ NthPrime(6*n-3): n in [1..1000] ]; // _Vincenzo Librandi_, Apr 10 2011
+%K A031387 nonn
+%O A031387 1,1
+%A A031387 _Jeff Burch_
+%E A031387 Corrected by Neven Juric (neven.juric(AT)apis-it.hr), May 15 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

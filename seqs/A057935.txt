@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057935
+Showing 1-1 of 1
+
+%I A057935
+%S A057935 2,2,3,3,4,3,4,2,4,3,4,6,4,4,6,2,4,4,4,5,7,5,4,4,8,4,5,6,4,7,5,2,6,5,
+%T A057935 9,8,5,6,7,5,5,10,7,6,9,4,4,6,9,6,8,7,6,9,8,9,9,5,3,11,6,4,11,6,8,9,9,
+%U A057935 8,6,9,5,6,6,6,13,4,8,7,5,4,7,6,5,11,8,5,8,7,4,11,7,9,9,5,9,7,5,6,10,7,6
+%N A057935 Number of prime factors of 9^n + 1 (counted with multiplicity).
+%H A057935 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/main600">Main Tables</a> from the Cunningham Project.
+%H A057935 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>
+%F A057935 a(n) = A057952(2n) - A057952(n) - _T. D. Noe_, Jun 19 2003
+%Y A057935 Cf. A002592, A046053, A057934-A057941, A054992.
+%Y A057935 Cf. A057952.
+%K A057935 nonn
+%O A057935 1,1
+%A A057935 _Patrick De Geest_, Oct 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

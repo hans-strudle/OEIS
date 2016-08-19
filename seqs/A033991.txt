@@ -1,0 +1,48 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033991
+Showing 1-1 of 1
+
+%I A033991
+%S A033991 0,3,14,33,60,95,138,189,248,315,390,473,564,663,770,885,1008,1139,
+%T A033991 1278,1425,1580,1743,1914,2093,2280,2475,2678,2889,3108,3335,3570,
+%U A033991 3813,4064,4323,4590,4865,5148,5439,5738,6045,6360,6683,7014,7353,7700,8055,8418
+%N A033991 a(n) = n*(4*n-1).
+%C A033991 Write 0,1,2,... in clockwise spiral; sequence gives numbers on negative x axis.
+%C A033991 This sequence is the number of expressions x generated for a given modulus n in finite arithmetic. For example, n=1 (modulus 1) generates 3 expressions: 0+0=0(mod 1), 0-0=0(mod 1), 0*0=0(mod 1). By subtracting n from 4n^2, we eliminate the counting of those expressions that would include division by zero, which would be, of course, undefined. - David Quentin Dauthier (d_dauthier(AT)yahoo.com), Nov 04 2007
+%C A033991 From _Emeric Deutsch_, Sep 21 2010: (Start)
+%C A033991 a(n) is also the Wiener index of the windmill graph D(3,n). The windmill graph D(m,n) is the graph obtained by taking n copies of the complete graph K_m with a vertex in common (i.e. a bouquet of n pieces of K_m graphs). The Wiener index of a connected graph is the sum of the distances between all unordered pairs of vertices in the graph. Example: a(2)=14; indeed if the triangles are OAB and OCD, then, denoting distance by d, we have d(O,A)=d(O,B)=d(A,B)= d(O,C)=d(O,D)= d(C,D)=1 and d(A,C)=d(A,D)=d(B,C)=d(B,D)=2. The Wiener index of D(m,n) is (1/2)n(m-1)[(m-1)(2n-1)+1]. For the Wiener indices of D(4,n), D(5,n), and D(6,n) see A152743, A028994, and A180577, respectively.
+%C A033991 (End)
+%C A033991 Even hexagonal numbers divided by 2. - _Omar E. Pol_, Aug 18 2011
+%D A033991 S. M. Ellerstein, The square spiral, J. Recreational Mathematics 29 (#3, 1998) 188; 30 (#4, 1999-2000), 246-250.
+%D A033991 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 2nd ed., 1994, p. 99.
+%H A033991 Harvey P. Dale, <a href="/A033991/b033991.txt">Table of n, a(n) for n = 0..1000</a>
+%H A033991 Emilio Apricena, <a href="/A035608/a035608.png">A version of the Ulam spiral</a>
+%H A033991 Eric W. Weisstein, <a href="http://mathworld.wolfram.com/WindmillGraph.html">Windmill Graph</a>. [_Emeric Deutsch_, Sep 21 2010]
+%H A033991 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A033991 G.f.: x*(3+5*x)/(1-x)^3. - _Michael Somos_, Mar 03 2003
+%F A033991 a(n) = A014635(n)/2. - _Zerinvary Lajos_, Jan 16 2007
+%F A033991 a(n) = A000326(n)+A005476(n), a(n) = A049452(n)-A001105(n). - _Zerinvary Lajos_, Jun 12 2007
+%F A033991 a(n) = a(n-1)+8*n-5 (with a(0)=0). [_Vincenzo Librandi_, Nov 17 2010]
+%F A033991 a(0)=0, a(1)=3, a(2)=14, a(n) = 3*a(n-1)-3*a(n-2)+a(n-3). [_Harvey P. Dale_, Oct 10 2011]
+%F A033991 a(n) = A118729(8n+2). - _Philippe Deléham_, Mar 26 2013
+%e A033991 16 17 18 19 ...
+%e A033991 15 4 5 6 ...
+%e A033991 14 3 0 7 ...
+%e A033991 13 2 1 8 ...
+%p A033991 [seq(binomial(4*n, 2)/2, n=0..45)]; # _Zerinvary Lajos_, Jan 16 2007
+%t A033991 Table[n*(4*n - 1), {n, 0, 100}] (* _Vladimir Joseph Stephan Orlovsky_, Jul 06 2011 *)
+%t A033991 LinearRecurrence[{3,-3,1},{0,3,14},50] (* _Harvey P. Dale_, Oct 10 2011 *)
+%o A033991 (PARI) a(n)=4*n^2-n.
+%o A033991 (MAGMA) I:=[0, 3, 14]; [n le 3 select I[n] else 3*Self(n-1)-3*Self(n-2)+1*Self(n-3): n in [1..50]]; // _Vincenzo Librandi_, Jan 29 2012
+%Y A033991 Sequences from spirals: A001107, A002939, A007742, A033951-A033954, A033989-A033991, A002943, A033996, A033988.
+%Y A033991 Cf. A016742.
+%Y A033991 a(n)=A007742(-n)=A074378(2n-1)=A014848(2n).
+%Y A033991 Cf. A014635.
+%Y A033991 Cf. A033991, A152743, A028994 [From Emeric Deutsch, Sep 21 2010]
+%K A033991 nonn,easy,nice
+%O A033991 0,2
+%A A033991 _N. J. A. Sloane_.
+%E A033991 Two remarks combined into one by _Emeric Deutsch_, Oct 03 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

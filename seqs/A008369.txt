@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008369
+Showing 1-1 of 1
+
+%I A008369
+%S A008369 1,1,4,6,11,16,25,33,47,60,79,98,124
+%N A008369 Number of orbits on points that are at n steps from 0 in D_4 lattice.
+%H A008369 <a href="/index/Da#D4">Index entries for sequences related to D_4 lattice</a>
+%H A008369 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A008369 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/D4.html">Home page for this lattice</a>
+%K A008369 nonn
+%O A008369 0,3
+%A A008369 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

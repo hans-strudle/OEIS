@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057479
+Showing 1-1 of 1
+
+%I A057479
+%S A057479 1,4,5,8,11,12,14,18,23,28,30,36,49,54,60,68,71,79,84,103,113,151,156,
+%T A057479 191,198,364,390,470,476,508,540,620,721
+%N A057479 Numbers n such that x^n + x^9 + 1 is irreducible over GF(2).
+%t A057479 Do[ If[ ToString[ Factor[ x^n + x^9 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^9 + 1 ], Print[ n ] ], {n, 0, 750} ]
+%Y A057479 Cf. A002475.
+%K A057479 nonn
+%O A057479 1,2
+%A A057479 _Robert G. Wilson v_, Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

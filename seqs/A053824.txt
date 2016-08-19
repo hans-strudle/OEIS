@@ -1,0 +1,42 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053824
+Showing 1-1 of 1
+
+%I A053824
+%S A053824 0,1,2,3,4,1,2,3,4,5,2,3,4,5,6,3,4,5,6,7,4,5,6,7,8,1,2,3,4,5,2,3,4,5,
+%T A053824 6,3,4,5,6,7,4,5,6,7,8,5,6,7,8,9,2,3,4,5,6,3,4,5,6,7,4,5,6,7,8,5,6,7,
+%U A053824 8,9,6,7,8,9,10,3,4,5,6,7,4,5,6,7,8,5,6,7,8,9,6,7,8,9,10,7,8,9,10,11,4,5,6
+%N A053824 Sum of digits of (n written in base 5).
+%C A053824 Also the fixed point of the morphism 0->{0,1,2,3,4}, 1->{1,2,3,4,5}, 2->{2,3,4,5,6}, etc. - _Robert G. Wilson v_, Jul 27 2006
+%C A053824 a(n) = A138530(n,5) for n > 4. - _Reinhard Zumkeller_, Mar 26 2008
+%H A053824 Reinhard Zumkeller, <a href="/A053824/b053824.txt">Table of n, a(n) for n = 0..3125=5^5</a>
+%H A053824 Robert Walker, <a href="http://robertinventor.com/ftswiki/Self_Similar_Sloth_Canon_Number_Sequences">Self Similar Sloth Canon Number Sequences</a>
+%H A053824 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DigitSum.html">Digit Sum</a>
+%F A053824 a(0)=0, a(5n+i)=a(n)+i 0<=i<=4; a(n)=n-4*(sum(k>0, floor(n/5^k))=n-4*A027868(n). - _Benoit Cloitre_, Dec 19 2002
+%F A053824 From the second formula, a(n)=n-4*(sum(k>0, floor(n/5^k)). Also, if i >= 2, a(2^i) mod 4 = 0. - _Washington Bomfim_, Jan 01 2011
+%F A053824 a(n)=Sum_k>=0 {A031235(n,k)}. - _Philippe Deléham_, Oct 21 2011
+%e A053824 a(20) = 4 + 0 = 4 because 20 is written as 40 base 5.
+%e A053824 From _Omar E. Pol_, Feb 21 2010: (Start)
+%e A053824 It appears that this can be written as a triangle (See the conjecture in the entry A000120):
+%e A053824 0,
+%e A053824 1,2,3,4,
+%e A053824 1,2,3,4,5,2,3,4,5,6,3,4,5,6,7,4,5,6,7,8,
+%e A053824 1,2,3,4,5,2,3,4,5,6,3,4,5,6,7,4,5,6,7,8,5,6,7,8,9,2,3,4,5,6,3,4,5,6,7,4,5...
+%e A053824 (End)
+%t A053824 Table[Plus @@ IntegerDigits[n, 5], {n, 0, 100}] (* or *)
+%t A053824 Nest[Flatten[ #1 /. a_Integer -> Table[a + i, {i, 0, 4}]] &, {0}, 4] (* _Robert G. Wilson v_, Jul 27 2006 *)
+%t A053824 f[n_] := n - 4 Sum[Floor[n/5^k], {k, n}]; Array[f, 103, 0]
+%o A053824 (PARI) a(n)=if(n<1,0,if(n%5,a(n-1)+1,a(n/5)))
+%o A053824 (Haskell)
+%o A053824 a053824 0 = 0
+%o A053824 a053824 x = a053824 x' + d  where (x', d) = divMod x 5
+%o A053824 -- _Reinhard Zumkeller_, Jan 31 2014
+%Y A053824 Cf. A000120, A007953, A053735, A053737, A053827, A231668-A231671.
+%Y A053824 Cf. A173525. - _Omar E. Pol_, Feb 21 2010
+%Y A053824 Cf. A173670 (last nonzero decimal digit of (10^n)!). - _Washington Bomfim_, Jan 01 2011
+%K A053824 base,nonn,look
+%O A053824 0,3
+%A A053824 _Henry Bottomley_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047680
+Showing 1-1 of 1
+
+%I A047680
+%S A047680 1,28,342736,29398976,22841912576,495449389339648,113828913905979392,
+%T A047680 4138783908783021080576,226044736813811127599528869888,
+%U A047680 35882867158508587149623987273728,5564179808875681941887049052192768,197363311803624016534960016288517315362816
+%N A047680 Order of cyclic group of diffeomorphism classes of exotic (4n-1)-spheres which bound parallelizable manifolds, for n >= 2.
+%D A047680 J. W. Milnor and J. D. Stasheff, Characteristic Classes, Princeton, 1974, p. 285.
+%H A047680 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%H A047680 John W. Milnor, <a href="http://www.ams.org/notices/201106/rtx110600804p.pdf">Differential Topology Forty-six Years Later</a>, Notices Amer. Math. Soc. 58 (2011), 804-809.
+%p A047680 (-1)*2^(2*n-2)*(2^(2*n-1)-1)*numer(bernoulli(4*n)/n);
+%Y A047680 Cf. A001676.
+%K A047680 nonn
+%O A047680 1,2
+%A A047680 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

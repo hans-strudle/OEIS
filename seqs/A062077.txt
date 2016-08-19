@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062077
+Showing 1-1 of 1
+
+%I A062077
+%S A062077 2,256,157464,268435456,976562500000,6499837226778624,
+%T A062077 71493870602660352896,1208925819614629174706176,
+%U A062077 29772665345556510561479766528,1024000000000000000000000000000000
+%N A062077 (2n)^n * n^(2n).
+%H A062077 Harry J. Smith, <a href="/A062077/b062077.txt">Table of n, a(n) for n=1,...,100</a>
+%o A062077 (PARI) for(n=1,15,print((2*n)^n * n^(2*n)))
+%o A062077 (PARI) { for (n=1, 100, b=2*n; write("b062077.txt", n, " ", b^n * n^b) ) } [From _Harry J. Smith_, Jul 31 2009]
+%K A062077 nonn
+%O A062077 1,1
+%A A062077 Jason Earls (zevi_35711(AT)yahoo.com), Jun 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

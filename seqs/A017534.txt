@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017534
+Showing 1-1 of 1
+
+%I A017534
+%S A017534 1,169,625,1369,2401,3721,5329,7225,9409,11881,14641,17689,21025,
+%T A017534 24649,28561,32761,37249,42025,47089,52441,58081,64009,70225,76729,
+%U A017534 83521,90601,97969,105625,113569,121801
+%N A017534 (12n+1)^2.
+%H A017534 Vincenzo Librandi, <a href="/A017534/b017534.txt">Table of n, a(n) for n = 0..1000</a>
+%H A017534 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1)
+%F A017534 G.f. ( -1-166*x-121*x^2 ) / (x-1)^3 . - R. J. Mathar, Mar 10 2011
+%F A017534 a(n) = 3*a(n-1) -3*a(n-2) +a(n-3). - _Vincenzo Librandi_, Jul 07 2012
+%t A017534 CoefficientList[Series[(1+166*x+121*x^2)/(1-x)^3,{x,0,50}],x] (* _Vincenzo Librandi_, Jul 07 2012 *)
+%o A017534 (MAGMA) I:=[1, 169, 625]; [n le 3 select I[n] else 3*Self(n-1)-3*Self(n-2)+Self(n-3): n in [1..50]]; // _Vincenzo Librandi_, Jul 07 2012
+%K A017534 nonn,easy
+%O A017534 0,2
+%A A017534 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

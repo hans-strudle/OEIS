@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036055
+Showing 1-1 of 1
+
+%I A036055
+%S A036055 1,2,3,4,5,6,6,5,8,7,7,8,9,9,11,10,11,11,11,11,17,14,11,13,16,11,18,
+%T A036055 17,17,13
+%N A036055 Number of cycles of the permutation created by length sorting on the partitions of n.
+%Y A036055 Cf. A036045-A036056.
+%K A036055 nonn,more
+%O A036055 1,2
+%A A036055 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

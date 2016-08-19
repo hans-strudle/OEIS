@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023290
+Showing 1-1 of 1
+
+%I A023290
+%S A023290 149,439,1319,2069,2089,2389,2699,2819,4259,4919,5059,5689,6469,7559,
+%T A023290 8429,8669,9199,9239,9319,9769,10159,10529,14449,14479,17659,18899,
+%U A023290 19289,23879,25189,29819,33119,33149,34159,34439,35089,36229,38839,39829,40699
+%N A023290 Numbers n such that n remains prime through 3 iterations of function f(x) = 7x + 6.
+%C A023290 n, 7*n+6, 49*n+48 and 343*n+342 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023290 (MAGMA) [n: n in [1..150000] | IsPrime(n) and IsPrime(7*n+6) and IsPrime(49*n+48) and IsPrime(343*n+342)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023290 nonn
+%O A023290 1,1
+%A A023290 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

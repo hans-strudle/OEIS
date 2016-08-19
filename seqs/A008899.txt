@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008899
+Showing 1-1 of 1
+
+%I A008899
+%S A008899 87,260,130,65,194,97,290,145,434,217,650,325,974,487,1460,730,365,
+%T A008899 1094,547,1640,820,410,205,614,307,920,460,230,115,344,172,86,43,128,
+%U A008899 64,32,16,8,4,2,1,2,1,2,1,2,1,2,1
+%N A008899 x->x/2 if x even, x->3x-1 if x odd.
+%D A008899 R. K. Guy, Unsolved Problems in Number Theory, E16.
+%K A008899 nonn
+%O A008899 0,1
+%A A008899 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052224
+Showing 1-1 of 1
+
+%I A052224
+%S A052224 19,28,37,46,55,64,73,82,91,109,118,127,136,145,154,163,172,181,190,
+%T A052224 208,217,226,235,244,253,262,271,280,307,316,325,334,343,352,361,370,
+%U A052224 406,415,424,433,442,451,460,505,514,523,532,541,550,604,613,622,631,640
+%N A052224 Numbers whose sum of digits is 10.
+%C A052224 Proper subsequence of A017173. - _Rick L. Shepherd_, Jan 12 2009
+%C A052224 Subsequence of A227793. - _Michel Marcus_, Sep 23 2013
+%C A052224 A007953(a(n)) = 10; number of repdigits = #{55,22222,1^10} = A242627(10) = 3. - _Reinhard Zumkeller_, Jul 17 2014
+%C A052224 a(n) = A094677(n) for n = 1..28. - _Reinhard Zumkeller_, Nov 08 2015
+%H A052224 T. D. Noe, <a href="/A052224/b052224.txt">Table of n, a(n) for n = 1..8037</a>
+%p A052224 sd := proc (n) options operator, arrow: add(convert(n, base, 10)[j], j = 1 .. nops(convert(n, base, 10))) end proc: a := proc (n) if sd(n) = 10 then n else end if end proc: seq(a(n), n = 1 .. 800); [_Emeric Deutsch_, Jan 16 2009]
+%t A052224 Union[Flatten[Table[FromDigits /@ Permutations[PadRight[s, 7]], {s, Rest[IntegerPartitions[10]]}]]] (* _T. D. Noe_, Mar 08 2013 *)
+%t A052224 Select[Range[1000], Total[IntegerDigits[#]] == 10 &] (* _Vincenzo Librandi_, Mar 10 2013 *)
+%o A052224 (MAGMA) [n: n in [1..1000] | &+Intseq(n) eq 10 ]; // _Vincenzo Librandi_, Mar 10 2013
+%o A052224 (Haskell)
+%o A052224 a052224 n = a052224_list !! (n-1)
+%o A052224 a052224_list = filter ((== 10) . a007953) [0..]
+%o A052224 -- _Reinhard Zumkeller_, Jul 17 2014
+%o A052224 (PARI) isok(n) = sumdigits(n) == 10; \\ _Michel Marcus_, Dec 28 2015
+%Y A052224 Cf. A007953, A017173.
+%Y A052224 Cf. A011557 (1), A052216 (2), A052217 (3), A052218 (4), A052219 (5), A052220 (6), A052221 (7), A052222 (8), A052223 (9), A166311 (11), A235151 (12), A143164 (13), A235225(14), A235226 (15), A235227 (16), A166370 (17), A235228 (18), A166459 (19), A235229 (20).
+%Y A052224 Cf. A242614, A242627.
+%Y A052224 Cf. A094677.
+%K A052224 nonn,base,easy
+%O A052224 1,1
+%A A052224 _Henry Bottomley_, Feb 01 2000
+%E A052224 Incorrect formula deleted by _N. J. A. Sloane_, Jan 15 2009
+%E A052224 Extended by _Emeric Deutsch_, Jan 16 2009
+%E A052224 Offset changed from _Bruno Berselli_, Mar 07 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

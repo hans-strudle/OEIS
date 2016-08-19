@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052190
+Showing 1-1 of 1
+
+%I A052190
+%S A052190 16763,40039,42509,96353,98573,104183,119243,123863,160093,161783,
+%T A052190 169259,181789,185243,208529,209719,232753,235699,243343,246049,
+%U A052190 260339,261799,270073,295363,295703,302459,315199,331399,362003,364079,373669
+%N A052190 Primes p(k) such that p(k+2)-p(k+1)=p(k+1)-p(k)=24.
+%e A052190 a(2)=40039 is followed by 40063 and 40087 consecutive primes with equal distance of d=24.
+%Y A052190 A001223, A033451, A047948, A052188, A052189.
+%K A052190 nonn
+%O A052190 1,1
+%A A052190 _Labos Elemer_, Jan 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

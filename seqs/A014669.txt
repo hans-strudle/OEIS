@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014669
+Showing 1-1 of 1
+
+%I A014669
+%S A014669 1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,
+%T A014669 1,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,
+%U A014669 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014669 1,0,1,0,0,0,-1,0,-1,0,-1,0,0,0,1,0,1,0,0,0,0,0,-1,0,-1,0,0,0,1,0,1,0,
+%W A014669 1,0,0,0,-1,0,-1,0,0,0,0,0,1,0,1,0,0,0,-1,0,-1,0,-1,0,0,0,1,0,1,0,0,0,
+%X A014669 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014669 Inverse of 660th cyclotomic polynomial.
+%p A014669 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014669 sign
+%O A014669 0,1
+%A A014669 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

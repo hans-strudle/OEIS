@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014491
+Showing 1-1 of 1
+
+%I A014491
+%S A014491 1,1,1,1,1,3,1,1,1,1,1,3,1,1,1,1,1,9,1,5,7,1,1,3,1,1,1,1,1,3,1,1,1,1,
+%T A014491 1,9,1,1,1,5,1,21,1,1,1,1,1,3,1,1,1,1,1,27,1,1,1,1,1,15,1,1,7,1,1,3,1,
+%U A014491 1,1,1,1,9,1,1,1,1,1,3,1,5,1,1,1,21,1,1,1,1,1,9,1,1,1,1,1,3,1,1
+%N A014491 GCD(n, 2^n - 1).
+%H A014491 T. D. Noe, <a href="/A014491/b014491.txt">Table of n, a(n) for n=1..10000</a>
+%p A014491 A014491:=n->gcd(n, 2^n-1); seq(A014491(n), n=1..100); # _Wesley Ivan Hurt_, Feb 02 2014
+%t A014491 Table[GCD[n, 2^n-1], {n, 100}] (* _Harvey P. Dale_, Mar 14 2013 *)
+%K A014491 nonn,easy,nice
+%O A014491 1,6
+%A A014491 Gary M. Mcguire (gmm8n(AT)weyl.math.virginia.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

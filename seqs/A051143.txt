@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051143
+Showing 1-1 of 1
+
+%I A051143
+%S A051143 1,2,3,4,5,26,2061,702993,307058572,3350187739,9088200428,43794115173,
+%T A051143 51932790219,378210209388,521301342188
+%N A051143 Numbers n such that n-th prime is a partition number.
+%F A051143 a(n) = A000720(A049575(n)).
+%t A051143 PrimePi@Select[PartitionsP@Range@301, PrimeQ@# &] (* _Robert G. Wilson v_, Nov 14 2005 *)
+%Y A051143 Cf. A000040, A000041, A046063, A049575.
+%K A051143 nonn,nice,more
+%O A051143 1,2
+%A A051143 _G. L. Honaker, Jr._
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

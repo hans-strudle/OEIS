@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023257
+Showing 1-1 of 1
+
+%I A023257
+%S A023257 2,11,13,17,31,37,41,43,71,73,79,83,97,137,139,151,163,181,191,193,
+%T A023257 197,269,277,307,317,347,373,409,431,503,577,743,811,823,911,919,941,
+%U A023257 967,983,1021,1033,1049,1051,1093,1163,1187,1201,1361,1373,1423,1493,1571,1597
+%N A023257 Numbers n such that n remains prime through 2 iterations of function f(x) = 6x + 5.
+%C A023257 n, 6*n+5 and 36*n+35 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023257 (MAGMA) [n: n in [1..100000] | IsPrime(n) and IsPrime(6*n+5) and IsPrime(36*n+35)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023257 nonn
+%O A023257 1,1
+%A A023257 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

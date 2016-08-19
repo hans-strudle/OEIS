@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045526
+Showing 1-1 of 1
+
+%I A045526
+%S A045526 6,56,80,156,161,170,186,200,230,238,277,288,305,307,323,325,327,344,
+%T A045526 385,410,451,454,472,475,504,532,547,551,575,592,601,615,645,661,697,
+%U A045526 710,724,731,790,800,811,822,848
+%N A045526 n! has initial digit '7'.
+%H A045526 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A045526 Select[ Range[ 900 ], IntegerDigits[ #! ] [[1]] == 7 & ]
+%K A045526 nonn,base
+%O A045526 1,1
+%A A045526 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

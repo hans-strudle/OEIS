@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027502
+Showing 1-1 of 1
+
+%I A027502
+%S A027502 7,117,312,7418,36766575,450992774700,600032219433556,
+%T A027502 26813098669386499444,2042240716844153630049782160,
+%U A027502 199614327158669913965028375115294
+%N A027502 Second diagonal of A027496.
+%F A027502 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^3 where a[ i, j ] = S(i, j)/BellNumber(i) if j<=i, 0 if j>i
+%K A027502 nonn
+%O A027502 2,1
+%A A027502 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

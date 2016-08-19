@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,2,4,8,6,6,24,16,60,10,0,0,0,144,576,2016,2700,0,384,5120,0,0,0,0,24696,21600,0,18816,691200,0,0,1032192,11757312,27993600,6096384,39191040,64012032,15240960","description":"Product of digits of 2^n.","mathematica":"Array[ Times @@ IntegerDigits[ 2^# ]&, 100 ]","keyword":"nonn,base,easy","offset":"0,2","author":"_N. J. A. Sloane_."}

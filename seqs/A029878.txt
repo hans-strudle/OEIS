@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029878
+Showing 1-1 of 1
+
+%I A029878
+%S A029878 1,1,0,2,1,0,1,1,2,3,2,5,1,6,1,8,6,10,14,7,25,8,36,34,41,72,
+%T A029878 25,125,29,187,150,216,361,137,657,159,977,810,1135,1937,752,
+%U A029878 3558,792,5361,4327,6318,10641,4281,19848,4286
+%V A029878 1,1,0,-2,1,0,-1,1,2,-3,-2,5,1,-6,1,8,-6,-10,14,7,-25,8,36,-34,-41,72,
+%W A029878 25,-125,29,187,-150,-216,361,137,-657,159,977,-810,-1135,1937,752,
+%X A029878 -3558,792,5361,-4327,-6318,10641,4281,-19848,4286
+%N A029878 Inverse Euler transform of Thue-Morse sequence A001285.
+%H A029878 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%K A029878 sign
+%O A029878 0,4
+%A A029878 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

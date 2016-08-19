@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011768
+Showing 1-1 of 1
+
+%I A011768
+%S A011768 0,1,1,1,1,2,3,6,7,16,21,43,63,129,203,404,685,1343,2385,4625,8492,
+%T A011768 16409,30735,59290,112530,217182,415620,803076,1545463,2990968,
+%U A011768 5778267,11201472,21702686,42140890,81830744,159139498,309590883,602935713,1174779333,2290915478
+%N A011768 Number of Barlow packings that repeat after exactly n layers.
+%D A011768 E. Estevez-Rams, C. Azanza-Ricardo, J. Martinez-Garcia and B. Argon-Frenadez, On the algebra of binary codes representing closed-packed staking sequences, Acta Cryst. A61 (2006), 201-208.
+%D A011768 T. J. McLarnan, The numbers of polytypes ..., Zeits. Krist. 155, 269-291 (1981).
+%H A011768 N. J. A. Sloane, <a href="/A011768/b011768.txt">Table of n, a(n) for n = 1..200</a>
+%p A011768 with(numtheory); read transforms; M:=200;
+%p A011768 A:=proc(N,d) if d mod 3 = 0 then 2^(N/d) else (1/3)*(2^(N/d)+2*cos(Pi*N/d)); fi; end;
+%p A011768 E:=proc(N) if N mod 2 = 0 then N*2^(N/2) + add( did(N/2,d)*phi(2*d)*2^(N/(2*d)),d=1..N/2) else (N/3)*(2^((N+1)/2)+2*cos(Pi*(N+1)/2)); fi; end;
+%p A011768 PP:=proc(N) (1/(4*N))*(add(did(N,d)*phi(d)*A(N,d), d=1..N)+E(N)); end; for N from 1 to M do t1[N]:=PP(N); od:
+%p A011768 P:=proc(N) local s,d; s:=0; for d from 1 to N do if N mod d = 0 then s:=s+mobius(N/d)*t1[d]; fi; od: s; end; for N from 1 to M do lprint(N,P(N)); od: (_N. J. A. Sloane_, Aug 10 2006)
+%Y A011768 Cf. A114438.
+%K A011768 nonn,easy
+%O A011768 1,6
+%A A011768 _N. J. A. Sloane_, MOKeeffe(AT)asu.edu (Michael OKeeffe)
+%E A011768 More terms from _N. J. A. Sloane_, Aug 10 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059896
+Showing 1-1 of 1
+
+%I A059896
+%S A059896 1,2,2,3,2,3,4,6,6,4,5,8,3,8,5,6,10,12,12,10,6,7,6,15,4,15,6,7,8,14,6,
+%T A059896 20,20,6,14,8,9,8,21,24,5,24,21,8,9,10,18,24,28,30,30,28,24,18,10,11,
+%U A059896 10,27,8,35,6,35,8,27,10,11,12,22,30,36,40,42,42,40,36,30,22,12,13,24
+%N A059896 Table a(i,j) = product prime[k]^(Ei[k] OR Ej[k]) where Ei and Ej are the vectors of exponents in the prime factorizations of i and j; OR is the bitwise operation on binary representation of the exponents.
+%C A059896 Analogous to LCM, with OR replacing MAX.
+%e A059896 a(864,1944)=a(2^5*3^3,2^3*3^5)=2^(5 OR 3)* 3^(3 OR 5)=2^7*3^7=279936.
+%Y A059896 A003986, A003990, A059895, A059897.
+%K A059896 base,easy,nonn,tabl
+%O A059896 1,2
+%A A059896 _Marc LeBrun_, Feb 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

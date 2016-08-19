@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056607
+Showing 1-1 of 1
+
+%I A056607
+%S A056607 2,3,10,35,231,3003,14586,138567,5311735,154040315,434113615,
+%T A056607 16062203755,354604036745,15247973580035,286661903304658,
+%U A056607 7596540437573437,79093391614735197,4824696888498847017
+%N A056607 A002110(n)/A048633(n): n-th primorial divided by squarefree kernel of corresponding central binomial coefficient.
+%e A056607 n=6, A002110(6)=30030, C[6,3]=20 with 10 squarefree kernel. So a(6)=30030/10=3003=3.7.11.13, also squarefree.
+%Y A056607 A002110, A001405, A048633.
+%K A056607 nonn
+%O A056607 1,1
+%A A056607 _Labos Elemer_, Aug 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

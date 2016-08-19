@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034695
+Showing 1-1 of 1
+
+%I A034695
+%S A034695 1,6,6,21,6,36,6,56,21,36,6,126,6,36,36,126,6,126,6,126,36,36,6,336,
+%T A034695 21,36,56,126,6,216,6,252,36,36,36,441,6,36,36,336,6,216,6,126,126,36,
+%U A034695 6,756,21,126,36,126,6,336,36,336,36,36,6,756,6,36,126,462,36,216,6,126
+%N A034695 Dirichlet convolution of number-of-divisors function (A000005) with A007426.
+%C A034695 a(n) is also tau_6 (the 6th Piltz divisor function), where tau_5 is A061200, and A000005 is tau_2 (= tau).
+%C A034695 a(n) is the number of ordered 6-factorizations of n.
+%D A034695 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, pages 29 and 38
+%D A034695 Leveque, William J., Fundamentals of Number Theory. New York:Dover Publications, 1996, ISBN 9780486689067, p .167-Exercise 5.b.
+%H A034695 Enrique Pérez Herrero, <a href="/A034695/b034695.txt">Table of n, a(n) for n = 1..1000</a>
+%H A034695 E. Pérez Herrero, Piltz Divisor functions (1), <a href="http://psychedelic-geometry.blogspot.com/2009/08/splitting-fta-functions-ii.html">Psychedelic Geometry Blogspot</a>, Dec 21 2009
+%H A034695 E. Pérez Herrero, Piltz Divisor functions (2), <a href="http://psychedelic geometry.blogspot.com/2009/08/splitting-fta-functions-iii.html">Psychedelic Geometry Blogspot</a>, Dec 24 2009
+%F A034695 Dirichlet g.f.: zeta^6(s).
+%F A034695 Multiplicative with a(p^e) = (e+5 choose e). - _Mitch Harris_, Jun 27 2005
+%F A034695 The Piltz divisor functions hold for tau_j(*)tau_k = tau_{j+k}, where (*) means Dirichlet´s functional convolution.
+%t A034695 tau[n_, 1] = 1; tau[n_, k_] := tau[n, k] = Plus @@ (tau[ #, k - 1] & /@ Divisors[n]); Table[ tau[n, 6], {n, 68}] (* _Robert G. Wilson v_ *)
+%o A034695 tmd(n) = my(f=factor(n)); for (i=1, #f~, f[i,1] = binomial(f[i,2] + 5, f[i,2]); f[i,2]=1); factorback(f); \\ _Michel Marcus_, Jun 09 2014
+%Y A034695 Cf. A000005 (tau_2), A007425 (tau_3), A007426 (tau_4), A061200 (tau_5).
+%K A034695 nonn,mult
+%O A034695 1,2
+%A A034695 _N. J. A. Sloane_.
+%E A034695 More terms from _Robert G. Wilson v_, Nov 02 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

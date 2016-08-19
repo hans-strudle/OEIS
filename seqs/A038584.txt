@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038584
+Showing 1-1 of 1
+
+%I A038584
+%S A038584 2,3,19,78347,87641,139241,1959253,9564097,516916921,1048924213,
+%T A038584 155353386241,178196630873
+%N A038584 a(n) = smallest prime such that the sum of the primes from 2 through a(n) is a palindrome.
+%C A038584 a(13) > 10^12. [From _Donovan Johnson_, Apr 25 2010]
+%H A038584 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_007.htm">Source</a>
+%F A038584 a(n) = A000040(A038582(n)). - _R. J. Mathar_, Sep 09 2015
+%e A038584 2+3+5+7+11+13+17+19 = 77.
+%Y A038584 Cf. A007504, A038582-A038584.
+%K A038584 nonn,base,more
+%O A038584 1,1
+%A A038584 _Jud McCranie_
+%E A038584 a(11)-a(12) from _Donovan Johnson_, Apr 25 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

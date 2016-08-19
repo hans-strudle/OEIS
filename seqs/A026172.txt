@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026172
+Showing 1-1 of 1
+
+%I A026172
+%S A026172 1,3,2,7,9,4,5,15,6,19,21,8,25,27,10,11,33,12,13,39,14,43,45,16,17,51,
+%T A026172 18,55,57,20,61,63,22,23,69,24,73,75,26,79,81,28,29,87,30,31,93,32,97,
+%U A026172 99,34,35,105,36,37,111,38,115,117,40,41,123
+%N A026172 For n >= 2, let h={n/2 ], L=n-h, R=n+h; then a(R)=n if n even or a(L) already defined, else a(L)=n.
+%Y A026172 Cf. A026210.
+%K A026172 nonn
+%O A026172 1,2
+%A A026172 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

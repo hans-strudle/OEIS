@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025003
+Showing 1-1 of 1
+
+%I A025003
+%S A025003 2,4,8,14,22,33,48,66,90,120,156,202,256,322,400,494,604,734,888,1067,
+%T A025003 1272,1512,1790,2107,2472,2890,3364,3903,4515,5207,5990,6875,7868,
+%U A025003 8984,10238,11637,13207,14959,16909,19075,21483,24173,27149,30436,34080,38103
+%N A025003 a(1) = 2; a(n+1) = a(n)-th nonprime, where nonprimes begin at 1.
+%C A025003 Index of first occurrence of n in A090532.
+%Y A025003 Cf. A090532, A062298.
+%K A025003 nonn
+%O A025003 1,1
+%A A025003 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

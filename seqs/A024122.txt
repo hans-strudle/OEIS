@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024122
+Showing 1-1 of 1
+
+%I A024122
+%S A024122 1,9,156,5561,55536,290625,679616,4235199,83222784,956953279,
+%T A024122 9900000000,99785641119,999570018304,9999184269279,99998524210944,
+%U A024122 999997437109375,9999995705032704,99999993024242559,999999988980039424
+%V A024122 1,9,-156,-5561,-55536,-290625,-679616,4235199,83222784,956953279,
+%W A024122 9900000000,99785641119,999570018304,9999184269279,99998524210944,
+%X A024122 999997437109375,9999995705032704,99999993024242559,999999988980039424
+%N A024122 10^n-n^8.
+%H A024122 Vincenzo Librandi, <a href="/A024122/b024122.txt">Table of n, a(n) for n = 0..300</a>
+%H A024122 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (19,-126,444,-966,1386,-1344,876,-369,91,-10).
+%o A024122 (MAGMA) [10^n-n^8: n in [0..20]]; // Vincenzo Librandi, Jul 01 2011
+%o A024122 (PARI) a(n)=10^n-n^8 \\ _Charles R Greathouse IV_, Jul 01 2011
+%K A024122 sign,easy
+%O A024122 0,2
+%A A024122 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

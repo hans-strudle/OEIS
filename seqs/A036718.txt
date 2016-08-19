@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036718
+Showing 1-1 of 1
+
+%I A036718
+%S A036718 1,1,1,2,4,9,19,45,106,260,643,1624,4138,10683,27790,72917,192548,
+%T A036718 511624,1366424,3666930,9881527,26730495,72556208,197562840,539479354,
+%U A036718 1477016717,4053631757,11149957667,30732671572,84871652538,234802661446
+%N A036718 Number of rooted trees where each node has at most 4 children.
+%H A036718 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/tree/RootedTree.html">Information on Rooted Trees</a>
+%F A036718 G.f. satisfies A(x) = 1 + x*cycle_index(Sym(4), A(x)).
+%p A036718 A := 1; f := proc(n) global A; local A2,A3,A4; A2 := subs(x=x^2,A); A3 := subs(x=x^3,A); A4 := subs(x=x^4,A);
+%p A036718 coeff(series( 1+x*( (A^4+3*A2^2+8*A*A3+6*A^2*A2+6*A4)/2 ), x, n+1), x,n); end;
+%p A036718 for n from 1 to 50 do A := series(A+f(n)*x^n,x,n +1); od: A;
+%t A036718 a = 1; f[n_] := Module[{a2, a3, a4}, a2 = a /. x -> x^2; a3 = a /. x -> x^3; a4 = a /. x -> x^4; Coefficient[ Series[ 1 + x*(a^4 + 3*a2^2 + 8*a*a3 + 6*a^2*a2 + 6*a4)/24, {x, 0, n + 1}] // Normal, x, n]]; For[n = 1, n <= 30, n++, a = Series[a + f[n]*x^n, {x, 0, n + 1}] // Normal]; CoefficientList[a, x] (* _Jean-François Alcover_, Jan 16 2013, after Maple *)
+%Y A036718 Cf. A036717.
+%K A036718 nonn,easy,nice
+%O A036718 0,4
+%A A036718 _N. J. A. Sloane_.
+%E A036718 Better description from _Frank Ruskey_, Sep 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

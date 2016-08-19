@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014911
+Showing 1-1 of 1
+
+%I A014911
+%S A014911 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014911 0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014911 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014911 1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014911 0,0,0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014911 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014911 Inverse of 902nd cyclotomic polynomial.
+%p A014911 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014911 sign
+%O A014911 0,1
+%A A014911 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

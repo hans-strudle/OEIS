@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027547
+Showing 1-1 of 1
+
+%I A027547
+%S A027547 1,16,319,8296,274089,11233692,559402687,33242527600,2321736233953,
+%T A027547 188129440349764,17490569477124495,1847922212710560936,
+%U A027547 220017711270954521305,29303973269720039220172
+%N A027547 Second column of A027537.
+%F A027547 Numerators of sequence a[ 2, n ] in (a[ i, j ])^2 where a[ i, j ] = A(i, j)/i! if j<=i, 0 if j>i
+%K A027547 nonn
+%O A027547 2,2
+%A A027547 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

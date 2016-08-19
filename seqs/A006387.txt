@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006387
+Showing 1-1 of 1
+
+%I A006387 M4237
+%S A006387 0,0,1,6,40,320,2946,29364,309558,3365108,37246245,416751008
+%N A006387 Number of unsensed genus 1 maps with n edges.
+%D A006387 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006387 Walsh, T. R. S.; Generating nonisomorphic maps without storing them. SIAM J. Algebraic Discrete Methods 4 (1983), no. 2, 161-178.
+%H A006387 Timothy R. Walsh, <a href="http://www.info2.uqam.ca/~walsh_t/papers/GENERATING NONISOMORPHIC.pdf">Space-efficient generation of nonisomorphic maps and hypermaps</a>
+%Y A006387 Cf. A006385, A214814, A214815, A214816.
+%K A006387 nonn
+%O A006387 0,4
+%A A006387 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

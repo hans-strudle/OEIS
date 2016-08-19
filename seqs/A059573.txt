@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059573
+Showing 1-1 of 1
+
+%I A059573
+%S A059573 1,1,1,2,4,1,5,8,4,1,12,34,18,4,1,35,85,61,22,5,1
+%N A059573 Polyotessamino numbers T(n,k) (1<=k<=n): take all the polyominoes with n cells (including those with holes but excluding rotations and reflections); fill them as completely as possible with rectangular 1 X k tiles; T(n,k) is number of ways of doing this.
+%H A059573 Fabian Rothelius, <a href="http://w1.875.telia.com/~u87509703/mathez/polyotessaminoes/polyotessaminonumbers.html">The polyotessamino numbers</a>
+%e A059573 1; 1,1; 2,4,1; 5,8,4,1; ...
+%Y A059573 T(n, 1)=a(n) where a(n) is the n-th term of A000105.
+%K A059573 more,nonn,tabl
+%O A059573 1,4
+%A A059573 _Fabian Rothelius_, Jan 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

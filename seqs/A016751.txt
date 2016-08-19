@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016751
+Showing 1-1 of 1
+
+%I A016751
+%S A016751 0,2048,4194304,362797056,8589934592,100000000000,743008370688,
+%T A016751 4049565169664,17592186044416,64268410079232,204800000000000,
+%U A016751 584318301411328,1521681143169024,3670344486987776,8293509467471872
+%N A016751 a(n) = (2*n)^11.
+%H A016751 Vincenzo Librandi, <a href="/A016751/b016751.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016751 (MAGMA) [(2*n)^11: n in [0..20]]; // _Vincenzo Librandi_, Sep 05 2011
+%Y A016751 Cf. A016763.
+%K A016751 nonn,easy
+%O A016751 0,2
+%A A016751 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

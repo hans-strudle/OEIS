@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054877
+Showing 1-1 of 1
+
+%I A054877
+%S A054877 1,0,2,0,6,2,20,14,70,72,254,330,948,1430,3614,6008,13990,24786,54740,
+%T A054877 101118,215766,409640,854702,1652090,3396916,6643782,13530350,
+%U A054877 26667864,53971350,106914242,215492564,428292590,860941798
+%N A054877 Closed walks of length n along the edges of a pentagon based at a vertex.
+%C A054877 In general a(n,m)=2^n/m*Sum(k,0,m-1,Cos(2Pi*k/m)^n) counts closed walks of length n at a vertex of the cyclic graph on m nodes C_m. Here we have the case m=5. - _Herbert Kociemba_, May 31 2004
+%F A054877 G.f.: -1/5*1/(2*x-1)-2/5*(2+x)/(x^2-x-1). a(n)=( 2^n + 2*(-1)^n*( F(n) + F(n-2) ) )/5, for n>1, where F(n) is the n-th Fibonacci number (cf. A000045)
+%F A054877 a(n)=2^n/5*Sum(k, 0, 4, Cos(2Pi*k/5)^n) - _Herbert Kociemba_, May 31 2004
+%F A054877 Recurrence: a(n)=5(a(n-2)-a(n-4)) + 2a(n-5) - _Herbert Kociemba_, Jun 04 2004
+%Y A054877 {a(n)/2} for n>1 is A052964.
+%K A054877 nonn,walk
+%O A054877 0,3
+%A A054877 Paolo Dominici (pl.dm(AT)libero.it), May 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

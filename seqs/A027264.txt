@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027264
+Showing 1-1 of 1
+
+%I A027264
+%S A027264 5,40,150,1279,4797,41462,156900,1365014,5205950,45501743,174609162,
+%T A027264 1531614109,5906040623,51952990090,201114700568
+%N A027264 a(n) = Sum{T(n,k)*T(n,k+2)}, 0<=k<=2n-2, T given by A026519.
+%K A027264 nonn
+%O A027264 2,1
+%A A027264 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

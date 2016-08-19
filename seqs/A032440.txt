@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032440
+Showing 1-1 of 1
+
+%I A032440
+%S A032440 1,2,2,4,8,26,93,378,1562,6580,27776,117570,497785,2108418,8930754,
+%T A032440 37830676,160251624,678835194,2875587605,12181180442,51600296826,
+%U A032440 218582354212,925929680832,3922301042114,16615133763313
+%N A032440 Sum binomial(Fibonacci(n),i); i=0..3).
+%K A032440 nonn
+%O A032440 0,2
+%A A032440 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

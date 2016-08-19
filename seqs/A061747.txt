@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061747
+Showing 1-1 of 1
+
+%I A061747
+%S A061747 0,8,16,914,17912,91517910,179139151798,91517911179139151716,
+%T A061747 1791391517999151791117913915914,
+%U A061747 91517911179139151717179139151799915179111791317912
+%N A061747 a(0) = 0; a(n) is obtained by incrementing each digit of a(n-1) by 8.
+%C A061747 In A061511-A061522, A061746-A061750 when the incremented digit exceeds 9 it is written as a 2-digit string. So 9+1 becomes the 2-digit string 10, etc.
+%K A061747 base,nonn
+%O A061747 0,2
+%A A061747 _Amarnath Murthy_, May 08 2001
+%E A061747 More terms from Larry Reeves (larryr(AT)acm.org), May 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

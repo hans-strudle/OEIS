@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020037
+Showing 1-1 of 1
+
+%I A020037
+%S A020037 1,1,1,4,15,74,427,2901,22624,199095,1951127,21072175,248651668,
+%T A020037 3182741351,43921830648,650043093588,10270680878694,172547438762056,
+%U A020037 3071344409964594,57741274907334370,1143277243165220534
+%N A020037 Nearest integer to GAMMA(n+4/5)/GAMMA(4/5).
+%p A020037 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%K A020037 nonn
+%O A020037 0,4
+%A A020037 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

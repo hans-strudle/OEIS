@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009448
+Showing 1-1 of 1
+
+%I A009448
+%S A009448 0,1,2,2,8,84,504,2304,6656,15760,484000,5348320,44393856,
+%T A009448 288642368,1137006976,5372233216,195241910272,2961479980800,
+%U A009448 34259767672320,320473550808576,2158264400250880,1727938748171264,278774033845987328
+%V A009448 0,1,2,2,-8,-84,-504,-2304,-6656,15760,484000,5348320,44393856,
+%W A009448 288642368,1137006976,-5372233216,-195241910272,-2961479980800,
+%X A009448 -34259767672320,-320473550808576,-2158264400250880,-1727938748171264,278774033845987328
+%N A009448 E.g.f. sin(x*exp(x)).
+%F A009448 a(n)=sum(j=0..(n-1)/2, binomial(n,2*j+1)*(2*j+1)^(n-2*j-1)*(-1)^j). [From Vladimir Kruchinin, Jun 10 2011]
+%t A009448 With[{nn=30},CoefficientList[Series[Sin[x Exp[x]],{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Mar 17 2012 *)
+%o A009448 (Maxima)
+%o A009448 a(n):=sum(binomial(n,2*j+1)*(2*j+1)^(n-2*j-1)*(-1)^j,j,0,(n-1)/2); [From Vladimir Kruchinin, Jun 10 2011]
+%K A009448 sign,easy
+%O A009448 0,3
+%A A009448 _R. H. Hardin_
+%E A009448 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

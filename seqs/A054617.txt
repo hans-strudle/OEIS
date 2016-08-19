@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054617
+Showing 1-1 of 1
+
+%I A054617
+%S A054617 0,10,110,1020,10120,100040,1001220,10000060,100010240,1000002060,
+%T A054617 10000100440,100000000100,1000001022240,10000000000120,
+%U A054617 100000010000660,1000000000204080,10000000100020480,100000000000000160,1000000001002002660
+%N A054617 Sum_{d|n} phi(d)*10^(n/d).
+%F A054617 Dirichlet convolution of A000010 and A011557. - _R. J. Mathar_, Jan 11 2013
+%Y A054617 Column k=10 of A185651.
+%K A054617 nonn
+%O A054617 0,2
+%A A054617 _N. J. A. Sloane_, Apr 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

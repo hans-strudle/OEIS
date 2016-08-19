@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049460
+Showing 1-1 of 1
+
+%I A049460
+%S A049460 1,5,1,30,11,1,210,107,18,1,1680,1066,251,26,1,15120,11274,
+%T A049460 3325,485,35,1,151200,127860,44524,8175,835,45,1,1663200,
+%U A049460 1557660,617624,134449,17360,1330,56,1,19958400,20355120
+%V A049460 1,-5,1,30,-11,1,-210,107,-18,1,1680,-1066,251,-26,1,-15120,11274,
+%W A049460 -3325,485,-35,1,151200,-127860,44524,-8175,835,-45,1,-1663200,
+%X A049460 1557660,-617624,134449,-17360,1330,-56,1,19958400,-20355120
+%N A049460 Generalized Stirling number triangle of first kind.
+%C A049460 a(n,m)= ^5P_n^m in the notation of the given reference with a(0,0) := 1.
+%C A049460 The monic row polynomials s(n,x) := sum(a(n,m)*x^m,m=0..n) which are s(n,x)= product(x-(5+k),k=0..n-1), n >= 1 and s(0,x)=1 satisfy s(n,x+y) = sum(binomial(n,k)*s(k,x)*S1(n-k,y),k=0..n), with the Stirling1 polynomials S1(n,x)=sum(A008275(n,m)*x^m, m=1..n) and S1(0,x)=1.
+%C A049460 In the umbral calculus (see the S. Roman reference given in A048854) the s(n,x) polynomials are called Sheffer for (exp(5*t),exp(t)-1).
+%D A049460 Mitrinovic, D. S.; Mitrinovic, R. S.; Tableaux d'une classe de nombres relies aux nombres de Stirling. Univ. Beograd. Pubi. Elektrotehn. Fak. Ser. Mat. Fiz. No. 77 1962, 77 pp.
+%H A049460 Reinhard Zumkeller, <a href="/A049460/b049460.txt">Rows n = 0..125 of triangle, flattened</a>
+%F A049460 a(n, m)= a(n-1, m-1) - (n+4)*a(n-1, m), n >= m >= 0; a(n, m) := 0, n<m; a(n, -1) := 0, a(0, 0)=1. E.g.f. for m-th column of signed triangle: ((log(1+x))^m)/(m!*(1+x)^5).
+%F A049460 Triangle (signed) = [ -5, -1, -6, -2, -7, -3, -8, -4, -9, ...] DELTA [1, 0, 1, 0, 1, 0, 1, 0, 1, ...]; triangle (unsigned) = [5, 1, 6, 2, 7, 3, 8, 4, 9, ...] DELTA [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, ...]; where DELTA is Deléham's operator defined in A084938.
+%F A049460 If we define f(n,i,a)=sum(binomial(n,k)*stirling1(n-k,i)*product(-a-j,j=0..k-1),k=0..n-i), then T(n,i) = f(n,i,5), for n=1,2,...;i=0...n. - _Milan Janjic_, Dec 21 2008
+%e A049460 {1}; {-5,1}; {30,-11,1}; {-210,107,-18,1}; ... s(2,x)= 30-11*x+x^2; S1(2,x)= -x+x^2 (Stirling1).
+%o A049460 (Haskell)
+%o A049460 a049460 n k = a049460_tabl !! n !! k
+%o A049460 a049460_row n = a049460_tabl !! n
+%o A049460 a049460_tabl = map fst $ iterate (\(row, i) ->
+%o A049460    (zipWith (-) ([0] ++ row) $ map (* i) (row ++ [0]), i + 1)) ([1], 5)
+%o A049460 -- _Reinhard Zumkeller_, Mar 11 2014
+%Y A049460 Unsigned column sequences are: A001720-A001724. Row sums (signed triangle): A001715(n+3)*(-1)^n. Row sums (unsigned triangle): A001725(n+5).
+%Y A049460 Cf. A000035 A084938.
+%K A049460 sign,easy,tabl
+%O A049460 0,2
+%A A049460 _Wolfdieter Lang_
+%E A049460 Second formula corrected by _Philippe Deléham_, Nov 10 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

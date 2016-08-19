@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022623
+Showing 1-1 of 1
+
+%I A022623
+%S A022623 1,28,378,3304,21259,108892,469630,1778536,6096125,19303088,
+%T A022623 57249374,160633424,429762354,1103189388,2730461208,6542033848,
+%U A022623 15223719392,34504452668,76349114366,165267288816,350579820199
+%V A022623 1,-28,378,-3304,21259,-108892,469630,-1778536,6096125,-19303088,
+%W A022623 57249374,-160633424,429762354,-1103189388,2730461208,-6542033848,
+%X A022623 15223719392,-34504452668,76349114366,-165267288816,350579820199
+%N A022623 Expansion of Product (1+q^m)^-28; m=1..inf.
+%F A022623 a(n) ~ (-1)^n * 7^(1/4) * exp(Pi*sqrt(14*n/3)) / (2 * 6^(1/4) * n^(3/4)). - _Vaclav Kotesovec_, Aug 27 2015
+%t A022623 nmax = 50; CoefficientList[Series[Product[1/(1 + x^k)^28, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 27 2015 *)
+%K A022623 sign
+%O A022623 0,2
+%A A022623 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

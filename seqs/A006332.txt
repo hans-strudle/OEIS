@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006332
+Showing 1-1 of 1
+
+%I A006332 M2148
+%S A006332 0,2,28,168,660,2002,5096,11424,23256,43890,77924,131560,212940,
+%T A006332 332514,503440,742016,1068144,1505826,2083692,2835560,3801028,5026098,
+%U A006332 6563832,8475040,10829000,13704210,17189172,21383208,26397308,32355010
+%N A006332 From the enumeration of corners.
+%D A006332 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006332 G. Kreweras, <a href="http://www.numdam.org/numdam-bin/item?id=BURO_1965__6__9_0">Sur une classe de problèmes de dénombrement liés au treillis des partitions des entiers</a>, Cahiers du Bureau Universitaire de Recherche Opérationnelle}, Institut de Statistique, Université de Paris, 6 (1965), circa p. 82.
+%H A006332 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A006332 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%F A006332 a(n) = (n*(1 + n)^2*(2 + n)*(1 + 2*n)*(3 + 2*n))/90.
+%F A006332 G.f.: 2*(x+1)*(x^2 + 6*x + 1)/(1-x)^7.
+%p A006332 A006332:=-2*(1+z)*(z**2+6*z+1)/(z-1)**7; # conjectured by _Simon Plouffe_ in his 1992 dissertation
+%t A006332 Table[(n (1 + n)^2 (2 + n) (1 + 2 n) (3 + 2 n))/90, {n, 0, 30}] (* or *)
+%t A006332 {0}~Join~CoefficientList[Series[2 (x + 1) (x^2 + 6 x + 1)/(1 - x)^7, {x, 0, 29}], x] (* _Michael De Vlieger_, Mar 26 2016 *)
+%o A006332 (PARI) x='x+O('x^99); concat(0, Vec(2*(x+1)*(x^2+6*x+1)/(1-x)^7)) \\ _Altug Alkan_, Mar 26 2016
+%Y A006332 Equals 2*A006858. A row of A132339.
+%K A006332 nonn
+%O A006332 0,2
+%A A006332 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

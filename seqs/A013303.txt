@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013303
+Showing 1-1 of 1
+
+%I A013303
+%S A013303 1,0,3,90,5145,472500,63877275,11947285350,2955047720625,
+%T A013303 934039255149000,367306824871861875,175873128591661751250,
+%U A013303 100738594342264429175625,68014527663768884135437500
+%N A013303 sec(log(x+1)-arctanh(x))=1+3/4!*x^4+90/6!*x^6+5145/8!*x^8...
+%K A013303 nonn
+%O A013303 0,3
+%A A013303 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

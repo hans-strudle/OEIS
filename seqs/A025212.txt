@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025212
+Showing 1-1 of 1
+
+%I A025212
+%S A025212 1,6,15,29,51,79,117,163,220,287,365,455,558,673,802,945,1102,1273,
+%T A025212 1460,1663,1881,2116,2368,2636,2922,3226,3548,3888,4247,4625,5023,
+%U A025212 5439,5876,6333,6810,7307,7826,8366,8927,9510,10114,10741,11390,12061,12755,13472,14213
+%N A025212 a(n) = [ 2nd elementary symmetric function of {Sum{1/j, j = 1,2,...,k} ], k = 1,2,...,n.
+%K A025212 nonn
+%O A025212 2,2
+%A A025212 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023321
+Showing 1-1 of 1
+
+%I A023321
+%S A023321 8431,9721,24169,35311,63577,74203,109471,109891,140269,174613,176599,
+%T A023321 182857,210187,241561,270553,274837,274909,276517,281557,324763,
+%U A023321 326737,383659,464089,474127,489109,498403,540781,563587,576943,582949,633253
+%N A023321 Numbers n such that n remains prime through 4 iterations of function f(x) = 8x + 5.
+%C A023321 n, 8*n+5, 64*n+45, 512*n+365 and 4096*n+2925 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023321 (MAGMA) [n: n in [1..5000000] | IsPrime(n) and IsPrime(8*n+5) and IsPrime(64*n+45) and IsPrime(512*n+365) and IsPrime(4096*n+2925)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023321 nonn
+%O A023321 1,1
+%A A023321 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022465
+Showing 1-1 of 1
+
+%I A022465
+%S A022465 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,21,31,32,33,34,35,36,
+%T A022465 37,69,73,74,75,76,77,78,79,80,181,191,443,445,1052,2701,2703,6455,
+%U A022465 6456,6457,6459,6460,6466,15928,15929,16055,40073,40078,40080,40081,40082
+%N A022465 Numbers n such that prime(n) mod n <= 10.
+%t A022465 Select[Range[41000],Mod[Prime[#],#]<=10&] (* _Harvey P. Dale_, Aug 21 2011 *)
+%K A022465 nonn
+%O A022465 1,2
+%A A022465 _Clark Kimberling_
+%E A022465 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

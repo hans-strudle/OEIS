@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042440
+Showing 1-1 of 1
+
+%I A042440
+%S A042440 27,55,82,547,2817,3364,43185,46549,275930,1702129,1978059,5658247,
+%T A042440 307523397,620705041,928228438,6190075669,31878606783,38068682452,
+%U A042440 488702796207,526771478659,3122560189502,19262132615671
+%N A042440 Numerators of continued fraction convergents to sqrt(748).
+%H A042440 Vincenzo Librandi, <a href="/A042440/b042440.txt">Table of n, a(n) for n = 0..200</a>
+%t A042440 Numerator[Convergents[Sqrt[748], 30]] (* _Harvey P. Dale_, Nov 24 2011 *)
+%Y A042440 Cf. A042441.
+%K A042440 nonn,cofr,frac,easy
+%O A042440 0,1
+%A A042440 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

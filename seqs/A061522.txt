@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061522
+Showing 1-1 of 1
+
+%I A061522
+%S A061522 0,7,14,811,1588,8121515,1589812812,812151615891589,
+%T A061522 158981281381215168121516,812151615891581015898128131589812813,
+%U A061522 15898128138121516812158781215161589158108121516158915810
+%N A061522 a(0) = 0; a(n) is obtained by incrementing each digit of a(n-1) by 7.
+%C A061522 In A061511-A061522, A061746-A061750 when the incremented digit exceeds 9 it is written as a 2-digit string. So 9+1 becomes the 2-digit string 10, etc.
+%K A061522 base,nonn
+%O A061522 0,2
+%A A061522 _Amarnath Murthy_, May 08 2001
+%E A061522 More terms from Larry Reeves (larryr(AT)acm.org), May 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

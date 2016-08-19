@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022221
+Showing 1-1 of 1
+
+%I A022221
+%S A022221 1,259,57535,12485095,2698853335,583026951031,125936508182839,
+%T A022221 27202382491194295,5875718100153221815,1269155234987097152695,
+%U A022221 274137535269957102205111,59213707780769522731688119,12790160886494733304250601655
+%N A022221 Gaussian binomial coefficients [ n,3 ] for q = 6.
+%o A022221 (Sage) [gaussian_binomial(n,3,6) for n in xrange(3,16)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A022221 nonn
+%O A022221 0,2
+%A A022221 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

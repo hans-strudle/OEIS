@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006456
+Showing 1-1 of 1
+
+%I A006456 M0528
+%S A006456 1,1,1,1,2,3,4,5,7,11,16,22,30,43,62,88,124,175,249,354,502,710,1006,
+%T A006456 1427,2024,2870,4068,5767,8176,11593,16436,23301,33033,46832,66398,
+%U A006456 94137,133462,189211,268252,380315,539192,764433,1083764,1536498,2178364
+%N A006456 Number of compositions (ordered partitions) of n into squares.
+%D A006456 Jan Bohman, Carl-Erik Fröberg, Hans Riesel, Partitions in squares, Nordisk Tidskr. Informationsbehandling (BIT) 19 (1979), 297-301.
+%D A006456 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006456 T. D. Noe, <a href="/A006456/b006456.txt">Table of n, a(n) for n=0..500</a>
+%H A006456 <a href="/index/Su#ssq">Index entries for sequences related to sums of squares</a>
+%F A006456 a(n) = 1, if n = 0;  a(n)=Sum(1 <= k^2 <= n, a(n-k^2)), if n > 0. [_David W. Wilson_]
+%F A006456 G.f.: 1/(1-x-x^4-x^9-....) - _Jon Perry_, Jul 04 2004
+%F A006456 a(n) ~ c * d^n, where d=1.41774254618138831428829091099000662953179532057717725688..., c=0.46542113389379672452973940263069782869244877335179331541... - _Vaclav Kotesovec_, May 01 2014
+%o A006456 (PARI)
+%o A006456 N=66;  x='x+O('x^N);
+%o A006456 Vec( 1/( 1 - sum(k=1,1+sqrtint(N), x^(k^2) ) ) )
+%o A006456 /* _Joerg Arndt_, Sep 30 2012 */
+%K A006456 nonn,easy
+%O A006456 0,5
+%A A006456 _N. J. A. Sloane_.
+%E A006456 Name corrected by _Bob Selcoe_, Feb 12 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

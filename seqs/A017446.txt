@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017446
+Showing 1-1 of 1
+
+%I A017446
+%S A017446 1048576,576650390625,141167095653376,4808584372417849,
+%T A017446 64925062108545024,511116753300641401,2824752490000000000,
+%U A017446 12157665459056928801,43438845422363213824,134391637934412192049
+%N A017446 (11n+4)^10.
+%t A017446 (11*Range[0,20]+4)^10 (* _Harvey P. Dale_, Aug 30 2015 *)
+%K A017446 nonn,easy
+%O A017446 0,1
+%A A017446 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

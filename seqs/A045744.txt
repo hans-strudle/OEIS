@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045744
+Showing 1-1 of 1
+
+%I A045744
+%S A045744 1,4,22,141,988,7337,56749,452332,3689697,30652931,258465558,
+%T A045744 2206330790,19029531220,165582392070,1451789520435,12813638048184,
+%U A045744 113755675163767,1015119850103821,9100463691522759,81923222827031025
+%N A045744 Noncrossing connected graphs on n nodes on a circle and having no four-sided faces.
+%F A045744 Sum(binomial(n-2+i, i)*binomial(4*n-4-i, n-2-3*i), i=0..floor((n-2)/3))/(n-1)
+%K A045744 nonn
+%O A045744 2,2
+%A A045744 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

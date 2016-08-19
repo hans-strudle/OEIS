@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061912
+Showing 1-1 of 1
+
+%I A061912
+%S A061912 0,1,2,3,13,67,264,1667,16667,94863,1643167,29983327,706399164,
+%T A061912 31144643167,1296109172867
+%N A061912 a(n) is the smallest m for which sqrt(sum of digits of m^2) = n.
+%C A061912 a(15) <= 62441868958167. - _Donovan Johnson_, Jul 10 2012
+%e A061912 Sum of digits of 13^2 = sum of digits of 169 = 16 is the first occurrence of 4^2, so a(4) = 13.
+%p A061912 f := []: a := 1: for i from 1 to 10 do for j from 1 do if sqrt(convert(convert(j^2,base,10),`+`)) = i then f := [op(f),j]; a := j; break fi; od; od; f;
+%t A061912 t={}; m=0; Do[While[Sqrt[Total[IntegerDigits[m^2]]] != n, m++]; AppendTo[t, m], {n,0,9}]; t (* _Jayanta Basu_, May 06 2013 *)
+%Y A061912 Cf. A007953, A004159, A061909, A061910, A061911, A067072.
+%K A061912 nonn,base
+%O A061912 0,3
+%A A061912 Asher Auel (asher.auel(AT)reed.edu), May 17 2001
+%E A061912 One more term from _John W. Layman_, Jan 10 2002
+%E A061912 One more term from _Ryan Propper_, Jul 07 2005
+%E A061912 a(13) from _Zak Seidov_, Jan 27 2011.
+%E A061912 a(14) from _Donovan Johnson_, Jul 10 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

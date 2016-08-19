@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060345
+Showing 1-1 of 1
+
+%I A060345
+%S A060345 5,2875,4876875,8564575000,15517926796875,28663236110956000,
+%T A060345 5362194438318724200,101216230345800061125625,
+%U A060345 192323666400003538944396875,367299732093982242625847031250
+%N A060345 An expansion related to Yukawa coupling.
+%D A060345 P. Candelas et al., A pair of Calabi-yau manifolds as an exactly soluble superconformal theory, Nuclear Phys. B 359 (1991), 21-74.
+%F A060345 Sum_{n >= 0} a(n)*q^n = 5 + Sum_{n >= 1} A060041(n)*n^3*q^n/(1-q^n).
+%e A060345 a(10) = A060041(1) + 8*A060041(2) + 125*A060041(5) + 1000*A060041(10) = 704288164978454714776724365580000.
+%Y A060345 Cf. A060041.
+%K A060345 nonn,easy
+%O A060345 0,1
+%A A060345 _N. J. A. Sloane_, Mar 30 2001
+%E A060345 More terms from _Vladeta Jovovic_, Apr 01 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

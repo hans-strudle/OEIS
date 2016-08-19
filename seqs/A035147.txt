@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035147
+Showing 1-1 of 1
+
+%I A035147
+%S A035147 1,0,0,1,0,0,0,0,1,0,2,0,2,0,0,1,2,0,0,0,0,0,2,0,1,0,0,0,0,0,2,0,0,0,
+%T A035147 0,1,0,0,0,0,2,0,1,2,0,0,2,0,1,0,0,2,2,0,0,0,0,0,2,0,0,0,0,1,0,0,2,2,
+%U A035147 0,0,0,0,0,0,0,0,0,0,2,0,1
+%N A035147 Coefficients in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m = -43.
+%o A035147 (PARI) direuler(p=2,101,1/(1-(kronecker(m,p)*(X-X^2))-X))
+%K A035147 nonn
+%O A035147 1,11
+%A A035147 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031212
+Showing 1-1 of 1
+
+%I A031212
+%S A031212 1,30,93,1,19,80,4,30,80,1,30,93,4,10,80,24,30,80,28,30,93,8,30,80,28,
+%T A031212 19,93,8,30,93,4,30,80,8,30,93,8,10,93,1,10,80,8,10,93,28,30,80,28,19,
+%U A031212 80,28,30,93,8,30,93,8,30,80,24,19,93,28,30,80,4,30,80,4,30
+%N A031212 Periods of sum of 9th powers of digits iterated until the sequence becomes periodic.
+%H A031212 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Digitaddition.html">Digitaddition</a>
+%K A031212 nonn,base
+%O A031212 0,2
+%A A031212 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

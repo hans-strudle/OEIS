@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035544
+Showing 1-1 of 1
+
+%I A035544
+%S A035544 1,0,1,0,3,0,4,0,10,0,13,0,28,0,37,0,72,0,96,0,172,0,230,0,391,0,522,
+%T A035544 0,846,0,1129,0,1766,0,2348,0,3564,0,4722,0,6992,0,9226,0,13371,0,
+%U A035544 17568,0,25006,0,32708,0,45817,0,59668,0,82430,0,106874,0,145830,0,188260,0
+%N A035544 Number of partitions of n with equal number of parts congruent to each of 1 and 3 (mod 4)
+%K A035544 nonn
+%O A035544 0,5
+%A A035544 _Olivier Gérard_
+%E A035544 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

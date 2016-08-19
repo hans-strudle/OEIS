@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002671
+Showing 1-1 of 1
+
+%I A002671 M5174 N2246
+%S A002671 1,24,1920,322560,92897280,40874803200,25505877196800,
+%T A002671 21424936845312000,23310331287699456000,31888533201572855808000,
+%U A002671 53572735778642397757440000,108431217215972213061058560000
+%N A002671 4^n*(2*n+1)!.
+%D A002671 H. E. Salzer, Tables of coefficients for obtaining central differences from their derivatives, Journal of Mathematics and Physics, 42 (1963), 162-165. Note that there is a mistake in the definition of this sequence on line 2 of page 164.
+%D A002671 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002671 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002671 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%F A002671 a(n) = 16^n * Pochhammer(1,n) * Pochhammer(3/2,n). - _Roger L. Bagula_, Apr 26 2013
+%o A002671 (PARI) a(n)=4^n*(2*n+1)!
+%Y A002671 A002671(n) = A002866(2n+1).
+%Y A002671 Row sum of A225076. - _Roger L. Bagula_, Apr 27 2013
+%K A002671 nonn,easy
+%O A002671 0,2
+%A A002671 _N. J. A. Sloane_ and _Simon Plouffe_
+%E A002671 More terms from Michael Somos
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030126
+Showing 1-1 of 1
+
+%I A030126
+%S A030126 2,5,14,45
+%N A030126 Schur's numbers (version 1).
+%C A030126 Smallest number such that for any n-coloring of the integers 1, ..., a(n) no color is sum-free, that is, some color contains a triple x + y = z. - _Charles R Greathouse IV_, Jun 11 2013
+%D A030126 Leonard D. Baumert and Solomon W. Golomb, "Backtrack Programming", Journal of the ACM 12:4 (1965), pp. 516-524.
+%D A030126 R. K. Guy, Unsolved Problems in Number Theory, E11 and E12.
+%H A030126 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SchurNumber.html">Schur Number.</a>
+%e A030126 Baumert & Golomb find a(4) = 45 and give this example:
+%e A030126 A = {1, 3, 5, 15, 17, 19, 26, 28, 40, 42, 44}
+%e A030126 B = {2, 7, 8, 18, 21, 24, 27, 37, 38, 43}
+%e A030126 C = {4, 6, 13, 20, 22, 23, 25, 30, 32, 39, 41}
+%e A030126 D = {9, 10, 11, 12, 14, 16, 29, 31, 33, 34, 35, 36}
+%e A030126 which demonstrates that a(4) > 44. Note that the union of these sets is {1, ..., 44} and none of the sets contains three numbers (perhaps not all distinct) such that one is the sum of the other two. - _Charles R Greathouse IV_, Jun 11 2013
+%Y A030126 Cf. A045652.
+%K A030126 nonn,hard,nice,more
+%O A030126 1,1
+%A A030126 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

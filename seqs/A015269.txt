@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015269
+Showing 1-1 of 1
+
+%I A015269
+%S A015269 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,
+%T A015269 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,
+%U A015269 0,0,0,0,0,1,0,0,0,0,0,0,0,0
+%V A015269 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,-1,0,0,0,0,0,-1,0,0,
+%W A015269 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,
+%X A015269 0,0,0,0,0,1,0,0,0,0,0,0,0,0
+%N A015269 Inverse of 1260th cyclotomic polynomial.
+%p A015269 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015269 sign
+%O A015269 0,1
+%A A015269 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

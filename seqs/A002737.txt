@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002737
+Showing 1-1 of 1
+
+%I A002737 M3975 N1644
+%S A002737 0,5,35,189,924,4290,19305
+%N A002737 Coefficients for extrapolation.
+%D A002737 J. Ser, Les Calculs Formels des Séries de Factorielles. Gauthier-Villars, Paris, 1933, p. 93.
+%D A002737 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002737 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002737 J. Ser, <a href="/A002720/a002720.pdf">Les Calculs Formels des Séries de Factorielles</a> (Annotated scans of some selected pages)
+%F A002737 Conjecture: a = sum(binomial(n+j,j)*(n+j),j=0..n). - _Zerinvary Lajos_, Aug 30 2006
+%F A002737 Conjecture: a(n)=(n-2)*C(2*n,n)/4, n>=2. - _Zerinvary Lajos_, Feb 28 2007
+%K A002737 nonn,more
+%O A002737 0,2
+%A A002737 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

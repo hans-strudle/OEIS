@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047772
+Showing 1-1 of 1
+
+%I A047772
+%S A047772 0,0,1,8,42,232,1277,7183,41041,238315,1402076,8343804,50136483,
+%T A047772 303790544,1854115285,11388104153,70338364135,436605050440,
+%U A047772 2722153369473,17040017600925,107052073186950,674752469797923,4265733944934540
+%N A047772 Dissections: bisection of A047771.
+%C A047772 Also related to enumeration of alkane systems - see Cyvin reference for precise definition.
+%C A047772 Also A047758(4n+1).
+%D A047772 L. W. Beineke and R. E. Pippert, Enumerating dissectable polyhedra by their automorphism groups, Canad. J. Math., 26 (1974), 50-67.
+%D A047772 S. J. Cyvin et al., Enumeration of staggered conformers of alkanes: complete solution ..., J. Molec. Struct., 413 (1997), 237-239.
+%K A047772 nonn
+%O A047772 1,4
+%A A047772 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034682
+Showing 1-1 of 1
+
+%I A034682
+%S A034682 1,257,6562,65537,390626,1686434,5764802,16777217,43046722,100390882,
+%T A034682 214358882,430053794,815730722,1481554114,2563287812,4294967297,
+%U A034682 6975757442,11063007554,16983563042,25600456162,37828630724
+%N A034682 Sum of eighth powers of unitary divisors.
+%F A034682 Dirichlet g.f. zeta(s)*zeta(s-8)/zeta(2s-8). - R. J. Mathar, Apr 12 2011
+%Y A034682 Cf. A034444, A034448.
+%K A034682 nonn,mult
+%O A034682 1,2
+%A A034682 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

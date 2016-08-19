@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049316
+Showing 1-1 of 1
+
+%I A049316
+%S A049316 1,6,48,336,2394,16752,117600,823152,5764416,40350870,282472512,
+%T A049316 1977307248,13841268048,96888873648,678222936384,4747560552384,
+%U A049316 33232929612330,232630507267536,1628413591207536,11398895138319024,79792266250574640,558545863753891104
+%N A049316 The number k(GL(n,q)) of conjugacy classes in GL(n,q), q=7.
+%D A049316 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A049316 W. Feit and N. J. Fine, Pairs of commuting matrices over a finite field. Duke Math. Journal, 27 (1960) 91-94.
+%H A049316 Alois P. Heinz, <a href="/A049316/b049316.txt">Table of n, a(n) for n = 0..1000</a>
+%F A049316 The number a(n) of conjugacy classes in the group GL(n, q) is the coefficient of t^n in the infinite product: product k=1, 2, ... (1-t^k)/(1-qt^k) - Noam Katz (noamkj(AT)hotmail.com), Mar 30 2001.
+%p A049316 with(numtheory):
+%p A049316 b:= proc(n) b(n):= add(phi(d)*7^(n/d), d=divisors(n))/n-1 end:
+%p A049316 a:= proc(n) a(n):= `if`(n=0, 1,
+%p A049316        add(add(d*b(d), d=divisors(j)) *a(n-j), j=1..n)/n)
+%p A049316     end:
+%p A049316 seq(a(n), n=0..30);  # _Alois P. Heinz_, Nov 03 2012
+%t A049316 b[n_] := Sum[EulerPhi[d]*7^(n/d), {d, Divisors[n]}]/n-1; a[n_] := a[n] = If[n == 0, 1, Sum[Sum[d*b[d], {d, Divisors[j]}]*a[n-j], {j, 1, n}]/n]; Table[a[n], {n, 0, 30}] (* _Jean-François Alcover_, Jan 24 2014, after _Alois P. Heinz_ *)
+%o A049316 (MAGMA) /* The program does not work for n>8: */ [1] cat [NumberOfClasses(GL(n,7)): n in [1..8]]; // Sergei Haller (sergei(AT)sergei-haller.de), Dec 21 2006
+%Y A049316 Cf. A006951, A006952, A049314, A049315.
+%K A049316 nonn
+%O A049316 0,2
+%A A049316 _Vladeta Jovovic_
+%E A049316 MAGMA code edited by _Vincenzo Librandi_, Jan 23 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

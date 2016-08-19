@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050677
+Showing 1-1 of 1
+
+%I A050677
+%S A050677 1,2,2,2,3,2,2,4,5,3,2,3,3,4,6,4,7,10,4,5,4,5,4,5,6,9,9,5,7,8,3,6,5,7,
+%T A050677 9,8,4,3,6,5,8,6,3,8,7,5,7,7,3,6,3,7,12,14,3,5,4,6,3,3,5,9,6,6
+%N A050677 Number of prime factors of concatenation of numbers from n down to 1, with multiplicity.
+%C A050677 Strictly speaking a(1) = 0.
+%C A050677 Smallest number not yet factored is 656463...4321.
+%H A050677 P. De Geest, <a href="http://www.worldofnumbers.com/revfact.htm">Reversed Smarandache Concatenated Numbers, Prime factors from n down to 1</a>
+%H A050677 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A050677 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/michafleuren.htm">Factors and primes of Smarandache sequences</a>.
+%H A050677 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%e A050677 21 = 3*7 so a(2) = 2; 321 = 3*107 so a(3) =2; 4321 = 29*149 so a(4) = 2; etc.
+%t A050677 Join[{1},Table[PrimeOmega[FromDigits[Flatten[IntegerDigits[Range[i,1,-1]]]]],{i,2,36}]] (* _Jayanta Basu_, May 30 2013 *)
+%Y A050677 Cf. A000422, A046460, A050679-A050682.
+%K A050677 nonn,base,hard
+%O A050677 1,2
+%A A050677 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

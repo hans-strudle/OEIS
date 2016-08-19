@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016363
+Showing 1-1 of 1
+
+%I A016363
+%S A016363 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,
+%T A016363 1,1,0,1,0,1,0,1,1,0,1,0,1,0,1,1,0,1,0,1,1,0,1,0,1,0,1,1,0,
+%U A016363 1,0,1,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0
+%V A016363 1,1,0,0,0,0,0,-1,-1,0,0,0,0,0,1,1,0,-1,-1,0,0,-1,-1,0,1,1,0,0,1,1,0,
+%W A016363 -1,-1,0,1,0,-1,0,1,1,0,-1,0,1,0,-1,-1,0,1,0,-1,-1,0,1,0,-1,0,1,1,0,
+%X A016363 -1,0,1,0,-1,-1,0,1,1,0,0,1,1,0,-1,-1,0,0,-1,-1,0
+%N A016363 238th cyclotomic polynomial.
+%K A016363 sign,fini
+%O A016363 0,1
+%A A016363 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

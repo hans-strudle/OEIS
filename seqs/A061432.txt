@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061432
+Showing 1-1 of 1
+
+%I A061432
+%S A061432 1,16,100,1024,10000,100489,1000000,10004569,100000000,1000014129,
+%T A061432 10000000000,100000147984,1000000000000,10000002149284,
+%U A061432 100000000000000,1000000025191729,10000000000000000,100000000621806289
+%N A061432 a(n) = smallest n-digit square.
+%F A061432 a(n)=ceil(10^((n-1)/2))^2 - Antonio G. Astudillo (afg_astudillo(AT)lycos.com), Mar 30 2003
+%e A061432 a(4) = 1024 = 32^2 has 4 digits while 31^2 = 961 has 3 digits.
+%p A061432 A061432 := n->ceil(10^((n-1)/2))^2;
+%t A061432 Table[Ceiling[Sqrt[10^n]]^2,{n,0,20}] (* _Harvey P. Dale_, Dec 29 2015 *)
+%K A061432 nonn,base,easy
+%O A061432 1,2
+%A A061432 _Amarnath Murthy_, May 03 2001
+%E A061432 More terms from Larry Reeves (larryr(AT)acm.org), May 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

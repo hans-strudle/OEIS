@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056982
+Showing 1-1 of 1
+
+%I A056982
+%S A056982 1,4,64,256,16384,65536,1048576,4194304,1073741824,4294967296,
+%T A056982 68719476736,274877906944,17592186044416,70368744177664,
+%U A056982 1125899906842624,4503599627370496,4611686018427387904,18446744073709551616,295147905179352825856,1180591620717411303424
+%N A056982 a(n) = 4^A005187(n).
+%C A056982 Also equal to A046161(n)^2.
+%C A056982 Let W(n)=Prod(k=1,n,1-1/4/k^2), the partial Wallis product with lim n -> infinity W(n)=2/Pi; a(n)=denominator(W(n)).
+%C A056982 Equivalently, denominators in partial products of the following approximation to Pi: Pi = Product_{n >= 1} 4*n^2/(4*n^2-1). Numerators are in A069955.
+%C A056982 Denominator of h^(2n) in the Kummer-Gauss series for the perimeter of an ellipse.
+%C A056982 Denominators of hypergeometric([1/2,-1/2],[1],x). The numerators are given in A038535. hypergeom([1/2,-1/2],[1],e^2) = L/(2*Pi*a) with the perimeter L of an ellipse with major axis a and numerical eccentricity e (Maclaurin 1742). - _Wolfdieter Lang_, Nov 08 2010
+%D A056982 O. J. Farrell and B. Ross, Solved Problems in Analysis, Dover, NY, 1971; p. 77.
+%H A056982 Charles R Greathouse IV, <a href="/A056982/b056982.txt">Table of n, a(n) for n = 0..500</a>
+%H A056982 B. Gourevitch, <a href="http://www.pi314.net">L'univers de Pi</a>
+%H A056982 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Gauss-KummerSeries.html">Gauss-Kummer Series</a>
+%H A056982 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Ellipse.html">Ellipse</a>
+%H A056982 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%p A056982 A056982 := n -> denom(binomial(1/2, n))^2:
+%p A056982 seq(A056982(n), n=0..19); # _Peter Luschny_, Apr 08 2016
+%o A056982 (PARI) a(n)=my(s=n); while(n>>=1, s+=n); 4^s \\ _Charles R Greathouse IV_, Apr 07 2012
+%Y A056982 Apart from offset, identical to A110258.
+%Y A056982 Cf. A005187, A046161, A056981.
+%Y A056982 Equals (1/2)*A038533(n).
+%K A056982 nonn,frac
+%O A056982 0,2
+%A A056982 _Eric W. Weisstein_
+%E A056982 Edited by _N. J. A. Sloane_, Feb 18 2004, Jun 05 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

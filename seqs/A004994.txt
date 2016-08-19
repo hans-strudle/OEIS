@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004994
+Showing 1-1 of 1
+
+%I A004994
+%S A004994 1,30,990,33660,1161270,40412196,1414426860,49707001080,1752171788070,
+%T A004994 61910069845140,2191616472517956,77702765843818440,
+%U A004994 2758448187455554620,98031004815728171880,3487102885588044971160
+%N A004994 (6^n/n!)*Product_[k=0..n-1](6*k + 5).
+%F A004994 A(x) = (1 - 36*x)^(-5/6).
+%F A004994 a(n) ~ Gamma(5/6)^-1*n^(-1/6)*6^(2*n)*{1 - 5/72*n^-1 + ...}. - Joe Keane (jgk(AT)jgk.org), Nov 24 2001
+%F A004994 a(n) = prod_{k=1..n} (36 - 6/k). [Michel Lagneau, Sep 16 2012]
+%t A004994 Table[Product[36-6/k,{k,n}],{n,0,20}] (* or *) FoldList[Times,1,36-6/Range[20]] (* _Harvey P. Dale_, Feb 27 2013 *)
+%K A004994 nonn
+%O A004994 0,2
+%A A004994 Joe Keane (jgk(AT)jgk.org)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

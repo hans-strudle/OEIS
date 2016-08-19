@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016955
+Showing 1-1 of 1
+
+%I A016955
+%S A016955 177147,31381059609,8649755859375,350277500542221,5559060566555523,
+%T A016955 50542106513726817,317475837322472439,1532278301220703125,
+%U A016955 6071163615208263051,20635899893042801193,62050608388552823487
+%N A016955 (6n+3)^11.
+%H A016955 Vincenzo Librandi, <a href="/A016955/b016955.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016955 (MAGMA) [(6*n+3)^11: n in [0..20]]; // Vincenzo Librandi, May 06 2011
+%K A016955 nonn,easy
+%O A016955 0,1
+%A A016955 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023696
+Showing 1-1 of 1
+
+%I A023696
+%S A023696 121,283,337,355,361,363,365,367,373,391,445,607,769,823,841,847,849,
+%T A023696 851,853,859,877,931,985,1003,1009,1011,1013,1015,1021,1039,1057,1063,
+%U A023696 1065,1067,1069,1075,1081,1083,1085,1087
+%N A023696 Numbers with exactly 5 1's in ternary expansion.
+%t A023696 Select[ Range[ 1134 ], (Count[ IntegerDigits[ #, 3 ], 1 ]==5)& ]
+%K A023696 nonn,base,easy
+%O A023696 1,1
+%A A023696 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024360
+Showing 1-1 of 1
+
+%I A024360
+%S A024360 0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,
+%T A024360 1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0,0,
+%U A024360 0,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1
+%N A024360 Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, (A, B) = 1, A <= B); sequence gives number of times B takes value n.
+%H A024360 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Pythag/pythag.html">Pythagorean Triples and Online Calculators</a>
+%K A024360 nonn
+%O A024360 1,1
+%A A024360 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

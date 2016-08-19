@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050265
+Showing 1-1 of 1
+
+%I A050265
+%S A050265 11,13,19,29,43,61,83,109,139,173,211,349,461,523,659,733,811,1069,
+%T A050265 1163,1579,1693,1811,1933,2749,3373,3539,3709,4243,4813,5011,5419,
+%U A050265 5843,7211,7699,7949,8461,9533,9811,10093,11261,13789,14461,15149,16573
+%N A050265 Primes of the form 2n^2 + 11.
+%H A050265 Vincenzo Librandi, <a href="/A050265/b050265.txt">Table of n, a(n) for n = 1..10000</a>
+%H A050265 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Prime-GeneratingPolynomial.html">Prime-generating Polynomial.</a>
+%F A050265 a(n) = 11 + 2*(A092968(n))^2. - _R. J. Mathar_, Jan 03 2009
+%t A050265 lst={};Do[p=2*n^2+11;If[PrimeQ[p],AppendTo[lst,p]],{n,0,3*5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 28 2009 *)
+%t A050265 Select[2Range[0,100]^2+11,PrimeQ] (* _Harvey P. Dale_, May 20 2011 *)
+%o A050265 (MAGMA) [a: n in [0..100] | IsPrime(a) where a is 2*n^2+11]; // _Vincenzo Librandi_, Dec 08 2011
+%K A050265 nonn,easy
+%O A050265 1,1
+%A A050265 _Eric W. Weisstein_
+%E A050265 11 added by _Vincenzo Librandi_, Dec 08 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

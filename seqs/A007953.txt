@@ -1,0 +1,91 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007953
+Showing 1-1 of 1
+
+%I A007953
+%S A007953 0,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,10,2,3,4,5,6,7,8,9,10,11,3,4,5,
+%T A007953 6,7,8,9,10,11,12,4,5,6,7,8,9,10,11,12,13,5,6,7,8,9,10,11,12,13,14,6,
+%U A007953 7,8,9,10,11,12,13,14,15,7,8,9,10,11,12,13,14,15,16,8,9,10,11,12,13,14,15
+%N A007953 Digital sum (i.e., sum of digits) of n; also called digsum(n).
+%C A007953 Do not confuse with the digital root of n, A010888 (first term that differs is a(19)).
+%C A007953 Also the fixed point of the morphism 0 -> {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, 1 -> {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}, 2 -> {2, 3, 4, 5, 6, 7, 8, 9, 10, 11}, etc. - _Robert G. Wilson v_, Jul 27 2006
+%C A007953 For n < 100 equal to (floor(n/10) + n mod 10) = A076314(n). - _Hieronymus Fischer_, Jun 17 2007
+%C A007953 a(n) = A138530(n, 10) for n > 9. - _Reinhard Zumkeller_, Mar 26 2008
+%C A007953 a(A058369(n)) = A004159(A058369(n)); a(A000290(n)) = A004159(n). - _Reinhard Zumkeller_, Apr 25 2009
+%C A007953 a(n) mod 2 = A179081(n). - _Reinhard Zumkeller_, Jun 28 2010
+%D A007953 Krassimir Atanassov, On the 16th Smarandache Problem, Notes on Number Theory and Discrete Mathematics, Sophia, Bulgaria, Vol. 5 (1999), No. 1, 36-38.
+%H A007953 N. J. A. Sloane, <a href="/A007953/b007953.txt">Table of n, a(n) for n = 0..10000</a>
+%H A007953 Krassimir Atanassov, <a href="http://www.gallup.unm.edu/~smarandache/Atanassov-SomeProblems.pdf">On Some of Smarandache's Problems</a>
+%H A007953 Jean-Luc Baril, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v18i1p178">Classical sequences revisited with permutations avoiding dotted pattern</a>, Electronic Journal of Combinatorics, 18 (2011), #P178.
+%H A007953 A. O. Gel'fond, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa13/aa13115.pdf">Sur les nombres qui ont des propriétés additives et multiplicatives données</a> (French) Acta Arith. 13 1967/1968 259--265. MR0220693 (36 #3745)
+%H A007953 Christian Mauduit & András Sárközy, <a href="http://dx.doi.org/10.1006/jnth.1998.2229">On the arithmetic structure of sets characterized by sum of digits properties</a> J. Number Theory 61(1996), no. 1, 25--38. MR1418316 (97g:11107)
+%H A007953 Christian Mauduit & András Sárközy, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa81/aa8122.pdf"> On the arithmetic structure of the integers whose sum of digits is fixed</a>, Acta Arith. 81 (1997), no. 2, 145--173. MR1456239 (99a:11096)
+%H A007953 Kerry Mitchell, <a href="http://kerrymitchellart.com/articles/Spirolateral-Type_Images_from_Integer_Sequences.pdf">Spirolateral-Type Images from Integer Sequences</a>, 2013
+%H A007953 Kerry Mitchell, <a href="/A007953/a007953.jpg">Spirolateral image for this sequence</a> [taken, with permission, from the Spirolateral-Type Images from Integer Sequences article]
+%H A007953 Jan-Christoph Puchta, Jürgen Spilker, <a href="http://dx.doi.org/10.1007/s00591-002-0048-4">Altes und Neues zur Quersumme</a>, Math. Semesterber, 49 (2002), 209-226.
+%H A007953 J.-C. Puchta, J. Spilker, <a href="http://www.math.uni-rostock.de/~schlage-puchta/papers/Quersumme.pdf">Altes und Neues zur Quersumme</a>
+%H A007953 Vladimir Shevelev, <a href="http://journals.impan.pl/aa/Inf/126-3-1.html">Compact integers and factorials</a>, Acta Arith. 126 (2007), no.3,195-236 (cf. pp.205-206).
+%H A007953 Robert Walker, <a href="http://robertinventor.com/ftswiki/Self_Similar_Sloth_Canon_Number_Sequences">Self Similar Sloth Canon Number Sequences</a>
+%H A007953 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DigitSum.html">Digit Sum</a>
+%H A007953 Wikipedia, <a href="http://en.wikipedia.org/wiki/Digit_sum">Digit sum</a>
+%H A007953 <a href="/index/Coi#Colombian">Index entries for Colombian or self numbers and related sequences</a>
+%F A007953 a(n) <= 9(log_10(n)+1). - _Stefan Steinerberger_, Mar 24 2006
+%F A007953 a(0) = 0, a(10n+i) = a(n) + i 0 <= i <= 9; a(n) = n - 9*(sum(k > 0,  floor(n/10^k)) = n - 9*A054899(n). - _Benoit Cloitre_, Dec 19 2002
+%F A007953 From _Hieronymus Fischer_, Jun 17 2007: (Start)
+%F A007953 G.f. g(x) = sum{k > 0, (x^k-x^(k+10^k)-9x^(10^k))/(1-x^(10^k))}/(1-x).
+%F A007953 a(n) = n - 9*sum{10 <= k <= n, sum{j|k, j >= 10, floor(log_10(j))-floor(log_10(j-1))}}. (End)
+%F A007953 From _Hieronymus Fischer_, Jun 25 2007: (Start)
+%F A007953 The g.f. can be expressed in terms of a Lambert series, in that g(x)=(x/(1-x) - 9*L[b(k)](x))/(1-x) where L[b(k)](x) = sum{k >= 0, b(k)*x^k/(1-x^k)} is a Lambert series with b(k) = 1, if k > 1 is a power of 10, else b(k) = 0.
+%F A007953 G.f.: g(x) = sum{k > 0, (1-9*c(k))*x^k}/(1-x), where c(k) = sum{j > 1, j|k,  floor(log_10(j)) - floor(log_10(j-1))}.
+%F A007953 a(n) = n - 9*sum_{0 < k <= floor(log_10(n))} a(floor(n/10^k))*10^(k-1). (End)
+%F A007953 From _Hieronymus Fischer_, Oct 06 2007: (Start)
+%F A007953 a(n) <= 9*(1+floor(log_10(n)), equality holds for n = 10^m - 1, m > 0.
+%F A007953 lim sup (a(n) - 9*log_10(n)) = 0 for n --> infinity.
+%F A007953 lim inf (a(n+1) - a(n) + 9*log_10(n)) = 1 for n --> infinity. (End)
+%F A007953 a(A051885(n)) = n.
+%F A007953 a(n) <= 9*log_10(n+1). - _Vladimir Shevelev_, Jun 01 2011
+%F A007953 a(n) = a(n-1) + a(n-10) - a(n-11), for n < 100. - _Alexander R. Povolotsky_, Oct 09 2011
+%F A007953 a(n) = Sum_k >= 0 {A031298(n, k)}. - _Philippe Deléham_, Oct 21 2011
+%F A007953 a(n) = a(n mod b^k) + a(floor(n/b^k)), for all k>=0. - _Hieronymus Fischer_, Mar 24 2014
+%F A007953 a(n) = Sum_{k, 0, floor(log10(n))}(floor(n/10^k) - 10*floor(n/10^(k+1))). - _José de Jesús Camacho Medina_, Mar 31 2014
+%F A007953 a(n) = Sum_{m=0..floor(log_10(n))}((floor(n/10^m)) mod 10), n > 0. - _Timothy Hopper_, Jun 10 2015.
+%e A007953 a(123) = 1 + 2 + 3 = 6, a(9875) = 9 + 8 + 7 + 5 = 29.
+%p A007953 A007953 := proc(n) add(d,d=convert(n,base,10)) ; end proc: # _R. J. Mathar_, Mar 17 2011
+%t A007953 Table[Sum[DigitCount[n][[i]] * i, {i, 9}], {n, 50}] (* _Stefan Steinerberger_, Mar 24 2006 *)
+%t A007953 Table[Plus @@ IntegerDigits @ n, {n, 0, 87}] (* or *)
+%t A007953 Nest[Flatten[# /. a_Integer -> Array[a + # &, 10, 0]] &, {0}, 2] (* _Robert G. Wilson v_, Jul 27 2006 *)
+%t A007953 Table[Sum[Floor[n/10^k] - 10 * Floor[n/10^(k + 1)], {k, 0, Floor[Log[10, n]]}], {n, 300}] (* _José de Jesús Camacho Medina_, Mar 31 2014 *)
+%t A007953 Total/@IntegerDigits[Range[0,90]] (* _Harvey P. Dale_, May 10 2016 *)
+%o A007953 (PARI) a(n)=if(n<1,0,if(n%10,a(n-1)+1,a(n/10)))
+%o A007953 (PARI) A007953(n,b=10)={my(s=(n=divrem(n,b))[2]); while(n[1]>=b, s+=(n=divrem(n[1],b))[2]); s+n[1]} \\ - _M. F. Hasler_, Mar 22 2011
+%o A007953 (Haskell)
+%o A007953 a007953 n | n < 10 = n
+%o A007953           | otherwise = a007953 n' + r where (n',r) = divMod n 10
+%o A007953 -- _Reinhard Zumkeller_, Nov 04 2011, Mar 19 2011
+%o A007953 (MAGMA) [ &+Intseq(n): n in [0..87] ];  // _Bruno Berselli_, May 26 2011
+%o A007953 (Smalltalk)
+%o A007953 "Recursive version for general bases"
+%o A007953 "Set base = 10 for this sequence"
+%o A007953 digitalSum: base
+%o A007953 | s |
+%o A007953 base = 1 ifTrue: [^self].
+%o A007953 (s := self // base) > 0
+%o A007953   ifTrue: [^(s digitalSum: base) + self - (s * base)]
+%o A007953   ifFalse: [^self]
+%o A007953 "by _Hieronymus Fischer_, Mar 24 2014"
+%o A007953 (Python)
+%o A007953 def A007953(n):
+%o A007953 ....return sum(int(d) for d in str(n)) # _Chai Wah Wu_, Sep 03 2014
+%o A007953 (PARI) A007953(n)=sum(i=1,#n=digits(n),n[i]) \\ Twice as fast as the previous code. ...Vecsmall(Str(n))...-48*#n is even a little faster. - _M. F. Hasler_, May 10 2015
+%Y A007953 Cf. A003132, A055012, A055013, A055014, A055015, A010888, A007954, A031347, A055017, A076313, A076314, A007953, A003132, A054899, A138470, A138471, A138472, A000120, A004426, A004427, A054683, A054684, A179082-A179085, A108971, A179987, A179988, A180018, A180019.
+%Y A007953 Cf. A217928, A216407, A037123, A074784, A231688, A231689.
+%Y A007953 For n + digsum(n) see A062028.
+%Y A007953 Cf. A225693.
+%K A007953 nonn,base,nice,easy,changed
+%O A007953 0,3
+%A A007953 R. Muller
+%E A007953 More terms from _Hieronymus Fischer_, Jun 17 2007
+%E A007953 Edited by _Michel Marcus_, Nov 11 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003883
+Showing 1-1 of 1
+
+%I A003883
+%S A003883 1,7,7,12,12,12,13,14,14
+%N A003883 Degrees of irreducible representations of group L2(13).
+%D A003883 J. H. Conway, R. T. Curtis, S. P. Norton, R. A. Parker and R. A. Wilson, ATLAS of Finite Groups. Oxford Univ. Press, 1985.
+%o A003883 (GAP) List(Irr(CharacterTable("L2(13)")), chi->chi[1]); # _Eric M. Schmidt_, Jul 18 2012
+%K A003883 nonn,fini,full
+%O A003883 1,2
+%A A003883 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

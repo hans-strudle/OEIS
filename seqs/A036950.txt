@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036950
+Showing 1-1 of 1
+
+%I A036950
+%S A036950 7,79,797,0,77797,777977,7777997,77779799,777777799,7777779799,
+%T A036950 77777779979,777777779777,7777777779977,77777777777977,
+%U A036950 777777777779797,7777777777797799,77777777777777797,777777777777797977
+%N A036950 Smallest n-digit prime containing only digits 7 and 9, or 0 if no such prime exists.
+%Y A036950 Cf. A036229, A020471, A036324.
+%K A036950 nonn,base
+%O A036950 1,1
+%A A036950 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

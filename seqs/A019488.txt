@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019488
+Showing 1-1 of 1
+
+%I A019488
+%S A019488 1,21,307,3897,46243,529953,5961259,66380889,735097555,8115781905,
+%T A019488 89452902331,985061928201,10842178002787,119303005894977,
+%U A019488 1312567620466123,14439652232597433,158844629298359539
+%N A019488 Expansion of 1/((1-4x)(1-6x)(1-11x)).
+%H A019488 Vincenzo Librandi, <a href="/A019488/b019488.txt">Table of n, a(n) for n = 0..200</a>
+%H A019488 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (21,-134,264).
+%F A019488 a(n) = 8*4^n/7 -18*6^n/5 +121*11^n/35. - _R. J. Mathar_, Jun 29 2013
+%F A019488 a(0)=1, a(1)=21, a(2)=307; for n>2, a(n) = 21*a(n-1) -134*a(n-2) +264*a(n-3). - _Vincenzo Librandi_, Jul 03 2013
+%F A019488 a(n) = 17*a(n-1) -66*a(n-2) +4^n. - _Vincenzo Librandi_, Jul 03 2013
+%t A019488 CoefficientList[Series[1 / ((1 - 4 x) (1 - 6 x) (1 - 11 x)), {x, 0, 20}], x] (* _Vincenzo Librandi_, Jul 03 2013 *)
+%t A019488 LinearRecurrence[{21,-134,264},{1,21,307},20] (* _Harvey P. Dale_, Jan 24 2014 *)
+%o A019488 (MAGMA) m:=20; R<x>:=PowerSeriesRing(Integers(), m); Coefficients(R!(1/((1-4*x)*(1-6*x)*(1-11*x)))); /* or */ I:=[1, 21, 307]; [n le 3 select I[n] else 21*Self(n-1)-134*Self(n-2)+264*Self(n-3): n in [1..20]]; // _Vincenzo Librandi_, Jul 03 2013
+%K A019488 nonn,easy
+%O A019488 0,2
+%A A019488 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

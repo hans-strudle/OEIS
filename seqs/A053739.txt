@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053739
+Showing 1-1 of 1
+
+%I A053739
+%S A053739 1,6,22,63,155,344,709,1383,2587,4685,8273,14323,24416,41119,68595,
+%T A053739 113590,187030,306605,500950,816410,1327986,2157046,3499982,5674578,
+%U A053739 9195035,14893364,24115804,39040633
+%N A053739 Partial sums of A014166.
+%D A053739 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A053739 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (6,-14,15,-5,-4,4,-1).
+%F A053739 a(n) = sum_{i=0..floor(n/2)} C(n+5-i, n-2i); n >= 0.
+%F A053739 a(n) = sum_{k=1..n} C(n-k+5,k+4), with n>=0. - _Paolo P. Lava_, Apr 16 2008
+%F A053739 G.f.: 1/ ( (x^2 + x - 1)*(x-1)^5 ). - _R. J. Mathar_, May 22 2013
+%e A053739 a(n) = a(n-1) + a(n-2) + C(n+4,4); n >= 0; a(-1)=0.
+%t A053739 lst={};s0=s1=s2=s3=s4=0;Do[s0+=a[n];s1+=s0;s2+=s1;s3+=s2;s4+=s3;AppendTo[lst, s4], {n, 0, 6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Dec 10 2008 *)
+%Y A053739 Cf. A014166 and A000045.
+%Y A053739 Right-hand column 10 of triangle A011794.
+%Y A053739 Cf. A228074.
+%K A053739 easy,nonn
+%O A053739 0,2
+%A A053739 _Barry E. Williams_, Feb 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

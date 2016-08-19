@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040728
+Showing 1-1 of 1
+
+%I A040728
+%S A040728 27,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,
+%T A040728 2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,
+%U A040728 54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54,2,54
+%N A040728 Continued fraction for sqrt(756).
+%H A040728 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040728 a(n)=28+26*(-1)^n-27*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 20 2009]
+%p A040728 with(numtheory): Digits := 300: convert(evalf(sqrt(756)),confrac);
+%K A040728 nonn,cofr,easy
+%O A040728 0,1
+%A A040728 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

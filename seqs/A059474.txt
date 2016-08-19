@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059474
+Showing 1-1 of 1
+
+%I A059474
+%S A059474 1,2,2,4,6,4,8,16,16,8,16,40,52,40,16,32,96,152,152,96,32,64,224,416,
+%T A059474 504,416,224,64,128,512,1088,1536,1536,1088,512,128,256,1152,2752,
+%U A059474 4416,5136,4416,2752,1152,256,512,2560,6784,12160,16032,16032
+%N A059474 Triangle read by rows: T(n,k) = coefficient of x^n*y^k in 1/(1-2*z-2*w+2*z*w) read by rows in order 00, 10, 01, 20, 11, 02, ...
+%C A059474 Pascal-like triangle: start with 1 at top; every subsequent entry is the sum of everything above you, plus 1.
+%F A059474 G.f.: 1/(1-2*z-2*w+2*z*w).
+%F A059474 T(n, k) = Sum_{b=0..n} (-1)^b*2^(n+k-b)*C(n, b)*C(n+k-b, n).
+%e A059474 1; 2,2; 4,6,4; 8,16,16,8; ...
+%p A059474 read transforms; SERIES2(1/(1-2*z-2*w+2*z*w),x,y,12): SERIES2TOLIST(%,x,y,12);
+%Y A059474 See A059576 for a similar triangle.
+%K A059474 nonn,tabl,easy
+%O A059474 0,2
+%A A059474 _N. J. A. Sloane_, Feb 03, 2001; revised Jun 12 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

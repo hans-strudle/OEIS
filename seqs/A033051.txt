@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033051
+Showing 1-1 of 1
+
+%I A033051
+%S A033051 0,1,15,16,225,226,240,241,3375,3376,3390,3391,3600,3601,3615,3616,
+%T A033051 50625,50626,50640,50641,50850,50851,50865,50866,54000,54001,54015,
+%U A033051 54016,54225,54226,54240,54241,759375,759376,759390,759391,759600
+%N A033051 Numbers whose set of base 15 digits is {0,1}.
+%C A033051 Sums of distinct powers of 15.
+%C A033051 a(n) modulo 2 is the Prouhet-Thue-Morse sequence A010060. - From _Philippe Deléham_, Oct 17 2011.
+%H A033051 T. D. Noe, <a href="/A033051/b033051.txt">Table of n, a(n) for n = 0..1023</a>
+%F A033051 a(n)=Sum{d(i)*15^i: i=0, 1, ..., m}, where Sum{d(i)*2^i: i=0, 1, ..., m} is the base 2 representation of n.
+%F A033051 a(n) = A097261(n)/14.
+%F A033051 a(2n) = 15*a(n), a(2n+1) = a(2n)+1.
+%F A033051 a(n)=Sum_k>=0 {A030308(n,k)*15^k}. - From _Philippe Deléham_, Oct 17 2011.
+%o A033051 (PARI) A033051(n, b=15)=subst(Pol(binary(n)),'x,b) \\ _M. F. Hasler_, Feb 01 2016
+%Y A033051 Cf. A000695, A005836, A033042-A033052.
+%Y A033051 Row 14 of array A104257.
+%K A033051 nonn,base,easy
+%O A033051 0,3
+%A A033051 _Clark Kimberling_
+%E A033051 Extended by _Ray Chandler_, Aug 03 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

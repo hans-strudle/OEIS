@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017735
+Showing 1-1 of 1
+
+%I A017735
+%S A017735 1,72,2628,64824,1215450,18474840,237093780,2641902120,26088783435,
+%T A017735 231900297200,1878392407320,14002561581840,96851050941060,
+%U A017735 625806790696080,3799541229226200,21784036380896880
+%N A017735 Binomial coefficients C(n,71).
+%t A017735 Binomial[Range[71,90],71] (* _Harvey P. Dale_, Jul 20 2011 *)
+%o A017735 (Sage) [binomial(n, 71) for n in xrange(71,87)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017735 nonn
+%O A017735 71,2
+%A A017735 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

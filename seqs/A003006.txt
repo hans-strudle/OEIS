@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003006
+Showing 1-1 of 1
+
+%I A003006 M0845
+%S A003006 1,1,2,3,7,15,35,81,195
+%N A003006 Number of n-level ladder expressions with A001622.
+%D A003006 R. K. Guy and J. L. Selfridge, The nesting and roosting habits of the laddered parenthesis. Amer. Math. Monthly 80 (1973), 868-876.
+%D A003006 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003006 R. K. Guy and J. L. Selfridge, <a href="/A003018/a003018.pdf">The nesting and roosting habits of the laddered parenthesis</a> (annotated cached copy)
+%H A003006 <a href="/index/Par#parens">Index entries for sequences related to parenthesizing</a>
+%Y A003006 Is this the same as A052321?
+%K A003006 nonn
+%O A003006 1,3
+%A A003006 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

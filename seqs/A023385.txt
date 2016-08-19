@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023385
+Showing 1-1 of 1
+
+%I A023385
+%S A023385 6,8,10,12,16,20,26,34,44,74,130,220,516,1168,2708,8394,34120,140132,
+%T A023385 786714,5410888,52875412,693422804,14304757018,578117808476,
+%U A023385 40779645639370,5155724444320556,1487145074938680394
+%N A023385 a(n+1) = a(n) converted to base 8 from base 6 (written in base 10).
+%K A023385 nonn
+%O A023385 1,1
+%A A023385 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

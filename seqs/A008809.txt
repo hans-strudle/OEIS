@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008809
+Showing 1-1 of 1
+
+%I A008809
+%S A008809 1,0,2,0,3,0,4,0,5,2,6,4,7,6,8,8,9,10,12,12,15,14,18,16,21,18,24,22,
+%T A008809 27,26,30,30,33,34,36,38,41,42,46,46,51,50,56,54,61,60,66,66,71,72,76,
+%U A008809 78,81,84,88,90,95,96,102,102
+%N A008809 Expansion of (1+x^9)/(1-x^2)^2/(1-x^9).
+%K A008809 nonn
+%O A008809 0,3
+%A A008809 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

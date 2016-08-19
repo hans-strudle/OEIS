@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048988
+Showing 1-1 of 1
+
+%I A048988
+%S A048988 59,67,83,107,139,179,227,283,347,419,499,587,683,787,1019,1283,1427,
+%T A048988 1579,1907,2083,2267,2459,2659,3083,3307,3539,3779,4027,4283,4547,
+%U A048988 5099,5387,5683,5987,6299,6619,6947,7283,8707,9467,9859,10259,10667,11083
+%N A048988 Primes of form 4n^2 + 4n + 59.
+%H A048988 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Prime-GeneratingPolynomial.html">Prime-Generating Polynomial.</a>
+%o A048988 (MAGMA) [ a: n in [0..250] | IsPrime(a) where a is 4*n^2 +4*n + 59] [From Vincenzo Librandi, Nov 19 2010]
+%Y A048988 Cf. A005846.
+%K A048988 nonn
+%O A048988 1,1
+%A A048988 _G. L. Honaker, Jr._
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016843
+Showing 1-1 of 1
+
+%I A016843
+%S A016843 2187,823543,19487171,170859375,893871739,3404825447,10460353203,
+%T A016843 27512614111,64339296875,137231006679,271818611107,506623120463,
+%U A016843 897410677851,1522435234375,2488651484819,3938980639167
+%N A016843 (4n+3)^7.
+%F A016843 a(n) = A004767(n)^7. - _Wesley Ivan Hurt_, Dec 26 2013
+%p A016843 A016843:=n->(4*n+3)^7; seq(A016843(n), n=0..50); # _Wesley Ivan Hurt_, Dec 26 2013
+%t A016843 Table[(4n+3)^7, {n, 0, 50}] (* _Wesley Ivan Hurt_, Dec 26 2013 *)
+%Y A016843 Cf. A004767.
+%K A016843 nonn,easy
+%O A016843 0,1
+%A A016843 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

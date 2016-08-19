@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052496
+Showing 1-1 of 1
+
+%I A052496
+%S A052496 1,7,3528,115379712,241909719367680,32467582052437076213760,
+%T A052496 278893342293098904613804037898240,
+%U A052496 153323163270070838469523866093442017326530560
+%N A052496 Nonsingular n X n matrices over GF(8).
+%F A052496 a(n) = (8^n - 1)*(8^n - 8)*...*(8^n - 8^(n-1)).
+%F A052496 a(n) = A109966(n)*A027876(n). [_Bruno Berselli_, Jan 30 2013]
+%o A052496 (MAGMA) [1] cat [&*[(8^n-8^k): k in [0..n-1]]: n in [1..7]]; // Bruno Berselli, Jan 30 2013
+%Y A052496 Cf. A002884, A003791, A027876, A053290-A053293, A052497, A052498, A109966.
+%K A052496 easy,nonn
+%O A052496 0,2
+%A A052496 _Vladeta Jovovic_, Mar 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

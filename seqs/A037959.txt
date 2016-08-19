@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037959
+Showing 1-1 of 1
+
+%I A037959
+%S A037959 6,90,1200,15750,211680,2963520,43545600,673596000,10977120000,
+%T A037959 188367379200,3399953356800,64457449056000,1281520880640000,
+%U A037959 26676557107200000,580481882652672000,13183287756807168000
+%N A037959 (n+2)!*n^2*(n+1)/48.
+%D A037959 The right-hand side of a binomial coefficient identity in H. W. Gould, Combinatorial Identities, Morgantown, 1972.
+%F A037959 (n-1)^2*a(n) -n*(n+2)*(n+1)*a(n-1)=0. - _R. J. Mathar_, Jul 26 2015
+%K A037959 nonn
+%O A037959 2,1
+%A A037959 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

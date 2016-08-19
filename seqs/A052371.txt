@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052371
+Showing 1-1 of 1
+
+%I A052371
+%S A052371 1,1,1,1,3,1,1,1,1,3,6,7,7,6,3,1,1,1,1,3,6,16,21,39,44,55,44,39,21,16,
+%T A052371 6,3,1,1,1,1,3,6,16,34,69,130,234,367,527,669,755,755,669,527,367,234,
+%U A052371 130,69,34,16,6,3,1,1
+%N A052371 Triangle T(n,k) of n X n binary matrices with k=0...n^2 ones up to row and column permutations.
+%e A052371 [1, 1], [1, 1, 3, 1, 1], [1, 1, 3, 6, 7, 7, 6, 3, 1, 1] (the last block giving the numbers of 3 X 3 binary matrices with k=0...9 ones up to row and column permutations).
+%Y A052371 Cf. A002724, A049311, A053304, A053305.
+%K A052371 nonn,tabf
+%O A052371 1,5
+%A A052371 _Vladeta Jovovic_, Mar 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

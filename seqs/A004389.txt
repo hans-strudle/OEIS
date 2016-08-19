@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004389
+Showing 1-1 of 1
+
+%I A004389
+%S A004389 1,72,3160,109736,3321960,91962520,2392407864,59487568920,
+%T A004389 1429702652400,33469894423680,767464189477128,17307292232623120,
+%U A004389 385037822966765800,8470484585302467168,184606563010558803400
+%N A004389 Binomial coefficient C(8n,n-8).
+%D A004389 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004389 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%K A004389 nonn,easy
+%O A004389 8,2
+%A A004389 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

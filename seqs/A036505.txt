@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036505
+Showing 1-1 of 1
+
+%I A036505
+%S A036505 1,2,9,32,625,324,117649,131072,4782969,1562500,25937424601,35831808,
+%T A036505 23298085122481,110730297608,4805419921875,562949953421312,
+%U A036505 48661191875666868481,91507169819844,104127350297911241532841,640000000000000000,865405750887126927009
+%N A036505 Numerator of (n+1)^n/n!.
+%C A036505 Also denominator of Sum(binomial(n,k)*(k/n)^k*((n-k)/n)^(n-k), k=0..n) [Prodinger]. _N. J. A. Sloane_, Jul 31 2013
+%H A036505 Vincenzo Librandi, <a href="/A036505/b036505.txt">Table of n, a(n) for n = 0..200</a>
+%H A036505 Helmut Prodinger, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v20i3p7/0">An identity conjectured by Lacasse via the tree function</a>, Electronic Journal of Combinatorics, 20(3) (2013), #P7.
+%F A036505 a(n) = A090878(n+1)/Sum(A128433(n+1)/A128434(n+1): 0<=k<=n+1). - _Reinhard Zumkeller_, Mar 03 2007
+%F A036505 G.f.: -x*e^(-Lambert_W(-x))/((Lambert_W(-x)+1)*Lambert_W(-x)). [_Vladimir Kruchinin_, Feb 04 2013]
+%F A036505 A simpler g.f. is 1/(1+Lambert_W(-x)). - _Jean-François Alcover_, Feb 04 2013.
+%t A036505 CoefficientList[Series[1/(1 + ProductLog[-x]), {x, 0, 21}], x] // Numerator // Rest (* _Jean-François Alcover_, Feb 04 2013, after _Vladimir Kruchinin_ *)
+%t A036505 Numerator[Exp[Table[Limit[Zeta[s]*Sum[(1 - If[Mod[k, n] == 0, n, 0])/k^(s - 1), {k, 1, n}], s -> 1], {n, 1, 12}]]] (*Conjecture _Mats Granvik_, Sep 09 2013*)
+%o A036505 (MAGMA) [Numerator ((n+1)^n/Factorial(n)): n in [0..20]]; // _Vincenzo Librandi_, Sep 10 2013
+%Y A036505 Cf. A036503, A063170.
+%K A036505 nonn,frac
+%O A036505 0,2
+%A A036505 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053095
+Showing 1-1 of 1
+
+%I A053095
+%S A053095 1,1,1,8,62,568,5370,114546,2898058,0
+%N A053095 Number of primes having exactly same digits as appear in first n primes.
+%C A053095 a(n) = 0 if sum of digits is a multiple of three (see A103208). - Chandler
+%e A053095 a(4)=8 because the first three prime n, concatenated, are 2+3+5+7 or 2357. There are 8 prime arrangements: 2357 2753 3257 3527 5237 5273 7253 7523.
+%Y A053095 Cf. A054260, A053160, A053161, A103208.
+%K A053095 base,nonn,more
+%O A053095 1,4
+%A A053095 _Enoch Haga_, Mar 19 2000
+%E A053095 a(7)-a(9) from _Ray Chandler_, Apr 07 2010
+%E A053095 a(10) from _Ray Chandler_, Apr 08 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

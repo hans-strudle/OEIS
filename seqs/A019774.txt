@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019774
+Showing 1-1 of 1
+
+%I A019774
+%S A019774 1,6,4,8,7,2,1,2,7,0,7,0,0,1,2,8,1,4,6,8,4,8,6,5,0,7,8,7,8,1,4,1,6,3,
+%T A019774 5,7,1,6,5,3,7,7,6,1,0,0,7,1,0,1,4,8,0,1,1,5,7,5,0,7,9,3,1,1,6,4,0,6,
+%U A019774 6,1,0,2,1,1,9,4,2,1,5,6,0,8,6,3,2,7,7,6,5,2,0,0,5,6,3,6,6,6,4
+%N A019774 Decimal expansion of sqrt(e).
+%C A019774 Also where x^(x^(-2)) is a maximum. - _Robert G. Wilson v_, Oct 22 2014
+%H A019774 Harry J. Smith, <a href="/A019774/b019774.txt">Table of n, a(n) for n = 1..20000</a>
+%F A019774 sqrt(e) = Sum_{n>=0} 1/(2^n*n!) = Sum_{n>=0} 1/(2n)!!. - _Daniel Forgues_, Apr 17 2011
+%F A019774 sqrt(e) = 1 + Sum_{n>0} Product_{i=1..n} 1/(2n). - _Ralf Stephan_, Sep 11 2013
+%F A019774 Continued fraction representation: sqrt(e) = 1 + 1/(1 + 2/(3 + 4/(5 + ... ))). See A000354 for details. - _Peter Bala_, Jan 30 2015
+%e A019774 1.6487212707001281468486507878141635716537761007101480115750...
+%t A019774 RealDigits[N[Sqrt[E],200]][[1]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 21 2011 *)
+%o A019774 (PARI) { default(realprecision, 20080); x=sqrt(exp(1)); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b019774.txt", n, " ", d)); } \\ _Harry J. Smith_, May 01 2009
+%Y A019774 Cf. A058281 for continued fraction for sqrt(e).
+%K A019774 nonn,cons
+%O A019774 1,2
+%A A019774 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

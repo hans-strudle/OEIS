@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026396
+Showing 1-1 of 1
+
+%I A026396
+%S A026396 3,7,17,37,87,187,437,937,2187,4687,10937,23437,54687,117187,273437,
+%T A026396 585937,1367187,2929687,6835937,14648437,34179687,73242187,170898437,
+%U A026396 366210937,854492187,1831054687,4272460937,9155273437
+%N A026396 Sum{T(i,j)}, 0<=j<=i, 0<=i<=n, where T is the array in A026386.
+%H A026396 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (1,5,-5)
+%F A026396 G.f.: [3+4x-5x^2]/[(1-x)(1-5x^2)]. - _Ralf Stephan_, Apr 30 2004
+%K A026396 nonn
+%O A026396 0,1
+%A A026396 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

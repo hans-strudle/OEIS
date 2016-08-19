@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021141
+Showing 1-1 of 1
+
+%I A021141
+%S A021141 0,0,7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,
+%T A021141 7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,7,2,
+%U A021141 9,9,2,7,0,0,7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,7,2,9,9,2,7,0,0,7
+%N A021141 Decimal expansion of 1/137.
+%C A021141 Until the middle of the 20th century, the so called "fine structure constant", a most important dimensionless physical constant, was widely supposed to be exactly 1/137.
+%C A021141 After Wikipedia :
+%C A021141 "Arthur Eddington [British astronomer and physicist] argued that the value could be "obtained by pure deduction" and he related it to the Eddington number, his estimate of the number of protons in the Universe. This led him in 1929 to conjecture that its reciprocal was precisely the integer 137. Other physicists neither adopted this conjecture nor accepted his arguments but by the 1940s experimental values deviated sufficiently from 1/137 to refute Eddington's argument. Attempts to find a mathematical basis for this dimensionless constant have continued up to the present time." [ Jean-François Alcover, Sep 01 2011 ]
+%F A021141 a(n)=(1/56)*{58*(n mod 8)-26*[(n+1) mod 8]+58*[(n+2) mod 8]+9*[(n+3) mod 8]-40*[(n+4) mod 8]+44*[(n+5) mod 8]-40*[(n+6) mod 8]+9*[(n+7) mod 8]}, with n>=0 [From _Paolo P. Lava_, Sep 21 2009]
+%K A021141 nonn,cons
+%O A021141 0,3
+%A A021141 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

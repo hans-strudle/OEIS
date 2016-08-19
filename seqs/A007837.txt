@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007837
+Showing 1-1 of 1
+
+%I A007837
+%S A007837 1,1,1,4,5,16,82,169,541,2272,17966,44419,201830,802751,4897453,
+%T A007837 52275409,166257661,840363296,4321172134,24358246735,183351656650,
+%U A007837 2762567051857,10112898715063,62269802986835,343651382271526,2352104168848091,15649414071734847
+%N A007837 Number of partitions of n-set with distinct block sizes.
+%H A007837 Alois P. Heinz, <a href="/A007837/b007837.txt">Table of n, a(n) for n = 0..700</a>
+%H A007837 Philippe Flajolet, Éric Fusy, Xavier Gourdon, Daniel Panario and Nicolas Pouyanne, <a href="http://arxiv.org/abs/math/0606370">A Hybrid of Darboux's Method and Singularity Analysis in Combinatorial Asymptotics</a>, Fig. 3, arXiv:math.CO/0606370
+%H A007837 Knopfmacher, A., Odlyzko, A. M., Pittel, B., Richmond, L. B., Stark, D., Szekeres, G. and Wormald, N. C., The asymptotic number of set partitions with unequal block sizes. <a href="http://www.combinatorics.org/">Electron. J. Combin.</a>, 6 (1999), no. 1, Research Paper 2, 36 pp.
+%F A007837 E.g.f.: Product_{m >= 1} (1+x^m/m!).
+%F A007837 a(n) = Sum_{k=1..n} (n-1)!/(n-k)!*b(k)*a(n-k), where b(k) = Sum_{d divides k} (-d)*(-d!)^(-k/d) and a(0) = 1. - _Vladeta Jovovic_, Oct 13 2002
+%p A007837 with(numtheory): a:= proc(n) option remember; if n=0 then 1 else add((n-1)!/ (n-k)! *add((-d) *(-d!)^(-k/d), d=divisors(k)) *a(n-k), k=1..n) fi end: seq(a(n), n=0..30);  # _Alois P. Heinz_, Sep 06 2008
+%p A007837 A007837 := proc(n) option remember; local k; `if`(n = 0, 1,
+%p A007837 add(binomial(n-1, k-1) * A182927(k) * A007837(n-k), k = 1..n)) end:
+%p A007837 seq(A007837(i),i=0..24); # _Peter Luschny_, Apr 25 2011
+%t A007837 nn=20;p=Product[1+x^i/i!,{i,1,nn}];Drop[Range[0,nn]!CoefficientList[ Series[p,{x,0,nn}],x],1]  (* _Geoffrey Critzer_, Sep 22 2012 *)
+%t A007837 a[0]=1; a[n_] := a[n] = Sum[(n-1)!/(n-k)!*DivisorSum[k, -#*(-#!)^(-k/#)&]* a[n-k], {k, 1, n}]; Table[a[n], {n, 0, 30}] (* _Jean-François Alcover_, Nov 23 2015, after _Vladeta Jovovic_ *)
+%Y A007837 Cf. A007838, A178682, A265950, A271423.
+%Y A007837 Row sums of A262072 or A262078.
+%K A007837 nonn
+%O A007837 0,4
+%A A007837 Arnold Knopfmacher (ARNOLDK(AT)gauss.cam.wits.ac.za)
+%E A007837 More terms from _Christian G. Bower_
+%E A007837 a(0)=1 prepended by _Alois P. Heinz_, Aug 29 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037133
+Showing 1-1 of 1
+
+%I A037133
+%S A037133 0,2,12,58,307,1550,7781,39003,195195,976315,4882299,24413043,
+%T A037133 122068292,610347461,3051749613,15258772698,76293912556,381469661013,
+%U A037133 1907348501745,9536742901936,47683715296045
+%N A037133 (nextprime(5^n)-nextprime(2^n))/2.
+%K A037133 nonn
+%O A037133 0,2
+%A A037133 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

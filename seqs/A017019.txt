@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017019
+Showing 1-1 of 1
+
+%I A017019
+%S A017019 27,1000,4913,13824,29791,54872,91125,140608,205379,287496,389017,
+%T A017019 512000,658503,830584,1030301,1259712,1520875,1815848,2146689,2515456,
+%U A017019 2924207,3375000,3869893,4410944,5000211
+%N A017019 (7*n+3)^3.
+%H A017019 Vincenzo Librandi, <a href="/A017019/b017019.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017019 (MAGMA) [(7*n+3)^3: n in [0..35]]; // Vincenzo Librandi, Jul 14 2011
+%K A017019 nonn,easy
+%O A017019 0,1
+%A A017019 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

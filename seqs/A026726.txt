@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026726
+Showing 1-1 of 1
+
+%I A026726
+%S A026726 1,2,7,27,108,440,1812,7514,31307,130883,548547,2303413,9686617,
+%T A026726 40783083,171868037,724837891,3058850316,12915186640,54554594416,
+%U A026726 230526280814,974414815782,4119854160332,17422801069670,73695109608352
+%N A026726 T(2n,n), T given by A026725.
+%H A026726 Paul Barry, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Barry/barry84.html">A Catalan Transform and Related Transformations on Integer Sequences</a>, Journal of Integer Sequences, Vol. 8 (2005), Article 05.4.5.
+%F A026726 a(n)= sum{k=0..n, A039599(n,k)*A000045(k+1)}. [From _Philippe Deléham_, Feb 11 2009]
+%F A026726 a(n)=Sum_{k, 0<=k<=n}A106566(n,k)*A122367(k). [From _Philippe Deléham_, Feb 11 2009]
+%F A026726 From _Philippe Deléham_, Feb 02 2014: (Start)
+%F A026726 a(n) = Sum_{k=0..n} A236843(n+k,2*k).
+%F A026726 a(n) = Sum_{k=0..n} A236830(n,k).
+%F A026726 a(n) = A236830(n+1,1).
+%F A026726 a(n) = A165407(3*n).
+%F A026726 G.f.: C(x)/(1-x*C(x)^3), C(x) the g.f. of A000108. (End)
+%Y A026726 Cf. A000045, A000108, A026725.
+%K A026726 nonn
+%O A026726 0,2
+%A A026726 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

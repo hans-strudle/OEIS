@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024853
+Showing 1-1 of 1
+
+%I A024853
+%S A024853 3,4,13,16,34,40,70,80,125,140,203,224,308,336,444,480,615,660,825,
+%T A024853 880,1078,1144,1378,1456,1729,1820,2135,2240,2600,2720,3128,3264,3723,
+%U A024853 3876,4389,4560,5130,5320,5950,6160,6853,7084,7843,8096,8924,9200,10100,10400
+%N A024853 a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (natural numbers), t = (natural numbers >= 2).
+%K A024853 nonn
+%O A024853 2,1
+%A A024853 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

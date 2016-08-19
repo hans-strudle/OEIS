@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049019
+Showing 1-1 of 1
+
+%I A049019
+%S A049019 1,1,2,1,6,6,1,8,6,36,24,1,10,20,60,90,240,120,1,12,30,20,90,360,90,
+%T A049019 480,1080,1800,720,1,14,42,70,126,630,420,630,840,5040,2520,4200,
+%U A049019 12600,15120,5040,1,16,56,112,70,168,1008,1680,1260,1680,1344,10080,6720
+%N A049019 Number of preferential arrangements (onto functions) associated with each numeric partition.
+%C A049019 a(n) is a refinement of A019538 with row sums in A000670.
+%C A049019 From _Tom Copeland_, Sep 29 2008: (Start)
+%C A049019 This array is related to the reciprocal of an e.g.f. as sketched in A133314. For example, the coefficient of the fourth order term in the Taylor series expansion of 1/(a(0) + a(1) x + a(2) x^2/2! + a(3) x^3/3! + ...) is a(0)^(-5) * {24 a(1)^4 - 36 a(1)^2 a(2) a(0) + [8 a(1) a(3) + 6 a(2)^2] a(0)^2 - a(4) a(0)^3}.
+%C A049019 The unsigned coefficients characterize the P3 permutohedron depicted on page 10 in the Loday link with 24 vertices (0-D faces), 36 edges (1-D faces), 6 squares (2-D faces), 8 hexagons (2-D faces) and 1 3-D permutohedron. Summing coefficients over like dimensions gives A019538 and A090582. Compare to A133437 for the associahedron.
+%C A049019 Given the n by n lower triangular matrix M = [ binomial(j,k) u(j-k) ], the first column of the inverse matrix M^(-1) contains the (n-1) rows of A049019 as the coefficients of the multinomials formed from the u(j). M^(-1) can be computed as (1/u(0)){I - [I- M/u(0)]^n} / {I - [I- M/u(0)]} = - u(0)^(-n) {sum(j=1 to n)(-1)^j bin(n,j) u(0)^(n-j) M^(j-1)} where I is the identity matrix.
+%C A049019 Another method for computing the coefficients and partitions up to (n-1) rows is to use (1-x^n)/ (1-x) = 1+x^2+x^3+ ... + x^(n-1) with x replaced either by [I- M/a(0)] or [1- g(x)/a(0)] with the n by n matrix M = [bin(j,k) a(j-k)] and g(x)= a(0) + a(1)x + a(2)x^2/2! + ... + a(n) x^n/n!. The first n terms (rows of the first column) of the resulting series (matrix) divided by a(0) contain the (n-1) rows of signed coefficients and associated partitions for A049019.
+%C A049019 To obtain unsigned coefficients, change a(j) to -a(j) for j>0. A133314 contains other matrices and recursion formulae that could be used. The Faa di Bruno formula gives the coefficients as n! [e(1)+e(2)+...+e(n)]! / [1!^e(1) e(1)! 2!^e(2) e(2)!... n!^e(n) e(n)! ] for the partition of form [a(1)^e(1)...a(n)^e(n)] with [e(1)+2e(2)+...+ n e(n)] = n (see Abramowitz and Stegun pages 823 and 831) in agreement with Arnold's formula. (End)
+%H A049019 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972. [From _Tom Copeland_, Oct 04 2008]
+%H A049019 J. Loday, <a href="http://www.claymath.org/programs/outreach/academy/LectureNotes05/Lodaypaper.pdf">The Multiple Facets of the Associahedron</a> [From _Tom Copeland_, Sep 29 2008]
+%F A049019 a(n) = A048996(n) * A036038(n); also a(n) = A036040(n) * factorial(A036043(n)).
+%F A049019 A lowering operator for the unsigned multinomials in the brackets in the example is [d/du(1) 1/POP] where u(1) is treated as a continuous variable and POP is an operator that pulls off the # of parts of a partition ignoring u(0), e.g., [d/du(1) 1/POP][ u(0)u(2) + 2 u(1)^2 ] = (1/2) 2*2 u(1) = 2*u(1), analogous to the prototypical delta operator (d/dz) z^n = n z^(n-1). - _Tom Copeland_, Oct 04 2008
+%F A049019 From _Tom Copeland_, Oct 06 2008: (Start)
+%F A049019 From the matrix formulation with M_m,k = 1/(m-k)! ; g(x) = exp[ u(.) x] ;
+%F A049019 an orthonormal vector basis x_1, ..., x_n ;
+%F A049019 and En(x^k) = x_k for k<=n and zero otherwise,
+%F A049019 for j=0 to n-1 the j-th signed row multinomial is given by the wedge product of x_1 with the wedge product
+%F A049019 (-1)^j * j! * u(0)^(-n) * Wedge{ En[x g(x),x^2 g(x),....,x^(j) g(x), ~,x^(j+2) g(x),...,x^n g(x)] }
+%F A049019 where Wedge{a,b,c} = a v b v c ( the usual wedge symbol is inverted here to prevent confusion with the power notation, see Mathworld)
+%F A049019 and the (j+1)-th element is omitted from the product. (End)
+%e A049019 a(17) = 240 because we can write A048996(17) * A036038 (17) = 4* 60 A036040(17) * A036043(17) ! = 10 * 24
+%e A049019 As in A133314, 1/exp[u(.)*x] = u(0)^(-1) [ 1 ] + u(0)^(-2) [ -u(1) ] x + u(0)^(-3) [ -u(0)u(2) + 2 u(1)^2 ] x^2/2! + u(0)^(-4) [ -u(0)^2 u(3) + 6 u(0)u(1)u(2) - 6 u(1)^3 ] x^3/3! + u(0)^(-5) [ -u(0)^3 u(4) + 8 u(0)^2 u(1)u(3) + 6 u(0)^2 u(2)^2 - 36 u(0)u(1)^2 u(2) + 24 u(1)^4 ] x^4/4! + .... Partitions in Abramowitz and Stegun order (page 831). These are essentially refined face polynomials for permutohedra--empty set + point + line segment + hexagon + 3-D permutohedron + ... . - _Tom Copeland_, Oct 04 2008
+%Y A049019 Cf. A000670, A000041.
+%K A049019 nonn
+%O A049019 1,3
+%A A049019 _Alford Arnold_
+%E A049019 Partitions for 7 and 8 in Abramowitz and Stegun order from _Tom Copeland_, Oct 02 2008
+%E A049019 Changed an x^n to x^(n-1) and "inner product of x_1" to "wedge". - _Tom Copeland_, Feb 03 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

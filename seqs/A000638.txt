@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000638
+Showing 1-1 of 1
+
+%I A000638 M1244 N0477
+%S A000638 1,1,2,4,11,19,56,96,296,554,1593,3094,10723,20832,75154,159129,
+%T A000638 686165,1466358,7274651
+%N A000638 Number of permutation groups of degree n; also number of conjugacy classes of subgroups of symmetric group S_n; also number of molecular species of degree n.
+%D A000638 F. Bergeron, G. Labelle and P. Leroux, Combinatorial Species and Tree-Like Structures, Camb. 1998, p. 147.
+%D A000638 Labelle, Jacques. "Quelques especes sur les ensembles de petite cardinalité."Ann. Sc. Math. Québec 9.1 (1985): 31-58.
+%D A000638 G. Pfeiffer, Counting Transitive Relations, preprint 2004.
+%D A000638 C. C. Sims, Computational methods in the study of permutation groups, pp. 169-183 of J. Leech, editor, Computational Problems in Abstract Algebra. Pergamon, Oxford, 1970.
+%D A000638 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000638 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000638 A. C. Lunn and J. K. Senior, <a href="http://dx.doi.org/10.1021/j150301a009">Isomerism and Configuration</a>, J. Physical Chem. 33 (7) 1929, 1027-1079.
+%H A000638 A. C. Lunn and J. K. Senior, <a href="/A000637/a000637.pdf">Isomerism and Configuration</a>, J. Physical Chem. 33 (7) 1929, 1027-1079. [Annotated scan of page 1069 only]
+%H A000638 L. Naughton and G. Pfeiffer, <a href="http://arxiv.org/abs/1211.1911">Integer Sequences Realized by the Subgroup Pattern of the Symmetric Group</a>, arXiv preprint arXiv:1211.1911, 2012. - From _N. J. A. Sloane_, Jan 02 2013
+%H A000638 G. Pfeiffer, <a href="http://schmidt.nuigalway.ie/subgroups">Subgroups</a>
+%H A000638 G. Pfeiffer, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL7/Pfeiffer/pfeiffer6.html">Counting Transitive Relations</a>, Journal of Integer Sequences, Vol. 7 (2004), Article 04.3.2.
+%H A000638 C. C. Sims, <a href="/A000019/a000019.pdf">Letter to N. J. A. Sloane (no date)</a>
+%H A000638 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A000638 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~algebra~permgroup.en.html">PermGroup</a>
+%H A000638 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%F A000638 Euler Transform of A005226. Define b(n), c(n), d(n): b(1)=d(1)=0. b(k)=A005227(k), k>1. c(k)=a(k), k>0, d(k)=A005226(k), k>1. d is Dirichlet convolution of b and c. - _Christian G. Bower_, Feb 23 2006
+%o A000638 (MAGMA) n := 5; #SubgroupLattice(Sym(n));
+%o A000638 (GAP 4r2) Length(ConjugacyClassesSubgroups(SymmetricGroup(n)));
+%Y A000638 Partial sums of A000637.
+%Y A000638 Cf. A000001, A000019. Unlabeled version of A005432.
+%K A000638 nonn,hard,more,nice
+%O A000638 0,3
+%A A000638 _N. J. A. Sloane_.
+%E A000638 a(11) corrected and a(12) added by Goetz Pfeiffer (goetz.pfeiffer(AT)nuigalway.ie), Jan 21 2004
+%E A000638 Extended to a(18) using Derek Holt's data from A000637. - _N. J. A. Sloane_, Jul 31 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

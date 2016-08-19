@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054929
+Showing 1-1 of 1
+
+%I A054929
+%S A054929 1,1,1,2,2,4,2,6,4,10,4,24,8,24,22,42,20,96
+%N A054929 Complementary pairs of circulant graphs on n nodes.
+%H A054929 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054929 Average of A049287 and A049289.
+%K A054929 nonn,easy,more
+%O A054929 1,4
+%A A054929 _N. J. A. Sloane_, May 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

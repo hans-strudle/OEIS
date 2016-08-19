@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010825
+Showing 1-1 of 1
+
+%I A010825
+%S A010825 1,19,152,627,1140,988,9063,14212,7410,44270,22781,38114,36176,
+%T A010825 137256,154850,480605,46493,316065,153406,254525,1156948,
+%U A010825 184927,88483,1051042,2381650,3838874,1417039,542146
+%V A010825 1,-19,152,-627,1140,988,-9063,14212,7410,-44270,22781,38114,36176,
+%W A010825 -137256,-154850,480605,-46493,-316065,-153406,-254525,1156948,
+%X A010825 -184927,88483,-1051042,-2381650,3838874,1417039,-542146
+%N A010825 Expansion of Product (1-x^k )^19.
+%D A010825 M. Boylan, Exceptional congruences for the coefficients of certain eta-product newforms, J. Number Theory 98 (2003), no. 2, 377-389.
+%D A010825 Newman, Morris; A table of the coefficients of the powers of $\eta(\tau)$. Nederl. Akad. Wetensch. Proc. Ser. A. 59 = Indag. Math. 18 (1956), 204-216.
+%H A010825 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%K A010825 sign
+%O A010825 0,2
+%A A010825 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

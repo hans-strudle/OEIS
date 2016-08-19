@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036603
+Showing 1-1 of 1
+
+%I A036603
+%S A036603 1,1,10,110,11000,1111000,1011010000,1001110110000,1001110110000000,
+%T A036603 1011000100110000000,1101110101111100000000,
+%U A036603 10011000010001010100000000,11100100011001111110000000000
+%N A036603 n! in binary.
+%D A036603 D. E. Knuth, Art of Computer Programming, Vol. 3, Sect. 5.3.1, Table 1.
+%H A036603 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A036603 FromDigits/@(IntegerDigits[#,2]&/@(Range[0,15]!)) (* _Harvey P. Dale_, Feb 05 2012 *)
+%K A036603 nonn,easy,base
+%O A036603 0,3
+%A A036603 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

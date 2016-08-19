@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045739
+Showing 1-1 of 1
+
+%I A045739
+%S A045739 1,9,70,535,4101,31633,245512,1915875,15020545,118231212,933812892,
+%T A045739 7397179309,58746824150,467602683135,3729318261224,29795160492299,
+%U A045739 238421091129957,1910544426355420,15329353155160880,123138401704273620
+%N A045739 Number of edges in all noncrossing forests on n nodes on a circle.
+%F A045739 sum(k*binomial(n, k+1)*binomial(n+2*k-1, k)/(n+k), k=1..n-1)
+%K A045739 nonn
+%O A045739 2,2
+%A A045739 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

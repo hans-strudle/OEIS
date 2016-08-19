@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058602
+Showing 1-1 of 1
+
+%I A058602
+%S A058602 2,4,6,8,16,18,26,30,42,52,54,60,98,138,148,164,180,188,198,232,268,
+%T A058602 366,494,556,636,700,830,908,2164,5764,9854
+%N A058602 Numbers n such that 7*2^n - 5 is prime.
+%t A058602 Do[ If[ PrimeQ[ 7*2^n - 5 ], Print[ n ] ], {n, 0, 5371} ]
+%t A058602 Select[Range[0, 10000], PrimeQ[(7*2^# - 5)] &] (* _Vincenzo Librandi_, Sep 29 2012 *)
+%K A058602 nonn
+%O A058602 1,1
+%A A058602 _Robert G. Wilson v_, Dec 26 2000
+%E A058602 a(30)-a(31) from _Vincenzo Librandi_, Sep 29 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

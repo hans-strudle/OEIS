@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050989
+Showing 1-1 of 1
+
+%I A050989
+%S A050989 1,56,1764,41160,792330,13311144,201885684,2826399576,37096494435,
+%T A050989 461645264080,5493578642552,62926446269232,697434779483988,
+%U A050989 7510836086750640,78863778910881720,809668130151718992
+%N A050989 7-idempotent numbers.
+%H A050989 Vincenzo Librandi, <a href="/A050989/b050989.txt">Table of n, a(n) for n = 7..400</a>
+%H A050989 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/IdempotentNumber.html">Idempotent Number</a>
+%H A050989 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (56,-1372,19208,-168070,941192,-3294172,6588344,-5764801).
+%F A050989 a(n) = C(n, 7)*7^(n-7).
+%F A050989 G.f.: x^7/(1-7*x)^8.
+%p A050989 seq(binomial(n+7, 7)*7^n, n=0..17); - _Zerinvary Lajos_, Aug 01 2008
+%t A050989 LinearRecurrence[{56,-1372,19208,-168070,941192,-3294172,6588344,-5764801}, {1,56,1764,41160,792330,13311144,201885684,2826399576},20] (* _Harvey P. Dale_, May 31 2014 *)
+%o A050989 (Sage) [lucas_number2(n, 7, 0)*binomial(n,7)/7^7 for n in xrange(7, 23)] # [From _Zerinvary Lajos_, Mar 13 2009]
+%o A050989 (PARI) a(n)=binomial(n, 7)*7^(n-7) \\ _Charles R Greathouse IV_, Sep 03 2011
+%o A050989 (MAGMA) [7^(n-7)* Binomial(n, 7): n in [7..30]]; // Vincenzo Librandi, Oct 16 2011
+%Y A050989 Cf. A001788, A036216, A040075, A050982, A050988, A059297, A059300.
+%K A050989 nonn,easy
+%O A050989 7,2
+%A A050989 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

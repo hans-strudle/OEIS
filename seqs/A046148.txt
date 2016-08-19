@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046148
+Showing 1-1 of 1
+
+%I A046148
+%S A046148 10,1,9,12,20,2430,5229,7448,282852,88200,8015040,200676960
+%N A046148 Number of n-digit numbers with maximal multiplicative persistence A014553.
+%H A046148 N. J. A. Sloane, <a href="http://neilsloane.com/doc/persistence.html">The persistence of a number</a>, J. Recreational Math., 6 (1973), 97-98.
+%H A046148 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence.</a>
+%Y A046148 Cf. A014553, A046149, A046150.
+%K A046148 nonn,more,base
+%O A046148 1,1
+%A A046148 _Eric W. Weisstein_
+%E A046148 a(8)-a(12) from _Donovan Johnson_, Mar 30 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

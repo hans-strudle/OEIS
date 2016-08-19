@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003029
+Showing 1-1 of 1
+
+%I A003029 M3156
+%S A003029 1,3,48,3400,955860,1034141596,4340689156440,71756043154026904,
+%T A003029 4716284688998245793376,1237457313794197125403483936,
+%U A003029 1297922676419612772784598299454784
+%N A003029 Number of unilaterally connected digraphs with n nodes.
+%D A003029 V. Jovovic, G. Kilibarda, Enumeration of labeled initially-finally connected digraphs, Scientific review, Serbian Scientific Society, 19-20 (1996), 237-247.
+%D A003029 R. W. Robinson, Counting labeled acyclic digraphs, pp. 239-273 of F. Harary, editor, New Directions in the Theory of Graphs. Academic Press, NY, 1973.
+%D A003029 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A003029 nonn,nice,easy
+%O A003029 1,2
+%A A003029 _N. J. A. Sloane_
+%E A003029 Corrected and extended by _Vladeta Jovovic_, Goran Kilibarda
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

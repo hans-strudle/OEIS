@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055761
+Showing 1-1 of 1
+
+%I A055761
+%S A055761 1,0,0,10,146,0,0,31504,129228,0,0,3686862,9183256,0,0,95578992,
+%T A055761 188199198,0,0,1143266014,1959888120,0,0,8506488912,13292469432,0,0,
+%U A055761 45761283848,67074717248,0,0,195393400992,272568291732,0,0
+%N A055761 Jacobi form of weight 12 and index 1 for Niemeier lattice of type A_6^4.
+%D A055761 Eichler and Zagier, The Theory of Jacobi Forms, Birkhauser,1985.
+%F A055761 E_8*E_{4, 1}-46*phi_12
+%Y A055761 A008699.
+%K A055761 nonn
+%O A055761 0,4
+%A A055761 Kok Seng Chua (chuaks(AT)ihpc.nus.edu.sg), Jul 12 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

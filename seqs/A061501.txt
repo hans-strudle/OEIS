@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061501
+Showing 1-1 of 1
+
+%I A061501
+%S A061501 1,2,4,7,1,6,2,9,7,6,6,7,9,2,6,1,7,4,2,1,1,2,4,7,1,6,2,9,7,6,6,7,9,2,
+%T A061501 6,1,7,4,2,1,1,2,4,7,1,6,2,9,7,6,6,7,9,2,6,1,7,4,2,1,1,2,4,7,1,6,2,9,
+%U A061501 7,6,6,7,9,2,6,1,7,4,2,1,1,2,4,7,1,6,2,9,7,6,6,7,9,2,6,1,7,4,2,1,1,2,4,7,1
+%N A061501 a(1) = 1, a(n+1) = (a(n) + n) mod 10.
+%C A061501 First row of array shown below.
+%C A061501 a(n) = most significant digit of A062273(n).
+%F A061501 a(n) = (1 + n-th triangular number) mod 10.
+%e A061501 1 2 4 7 1 6 2 9 7 6 6 ...
+%e A061501 3 5 8 2 7 3 0 8 7 7 ...
+%e A061501 6 9 3 8 4 1 9 8 8 ...
+%e A061501 0 4 9 5 2 0 9 9 ...
+%e A061501 5 0 6 3 1 0 0 ...
+%e A061501 1 7 4 2 1 1 ...
+%Y A061501 Equals A008954 + 1. Cf. A061352, A061353.
+%Y A061501 Cf. A062273, A077577, A077578.
+%K A061501 base,nonn,less
+%O A061501 1,2
+%A A061501 _Amarnath Murthy_, May 06 2001
+%E A061501 Better description and more terms from Larry Reeves (larryr(AT)acm.org), May 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

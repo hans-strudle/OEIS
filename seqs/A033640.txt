@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033640
+Showing 1-1 of 1
+
+%I A033640
+%S A033640 1,1,2,1,3,7,6,20,52,6,26,104,32,162,460,356,1438,4048,712,3588,15272,
+%T A033640 5012,27460,90476,64944,300816,912472,90476,155420,611656,1067892,
+%U A033640 1770024,4763360,4151704,14746316,39566064,8915064,27813084,109938548
+%N A033640 Base 3 digital convolution sequence.
+%e A033640 Suppose base = 3 and a(0)..a(13) are 1 1 2 1 3 7 6 20 52 6 26 104 32 162. In base 3, 14 = 112, so we convolve the last three terms with 1, 1, 2 to obtain 104*1+32*1+162*2 = 460.
+%K A033640 base,nonn
+%O A033640 0,3
+%A A033640 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

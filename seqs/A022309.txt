@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022309
+Showing 1-1 of 1
+
+%I A022309
+%S A022309 0,4,5,10,16,27,44,72,117,190,308,499,808,1308,2117,3426,5544,8971,
+%T A022309 14516,23488,38005,61494,99500,160995,260496,421492,681989,1103482,
+%U A022309 1785472,2888955,4674428,7563384
+%N A022309 a(n)=a(n-1)+a(n-2)+1.
+%H A022309 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-1).
+%F A022309 G.f. -x*(-4+3*x) / ( (x-1)*(x^2+x-1) ). a(n)=A022095(n)-1.  - R. J. Mathar, Apr 07 2011
+%t A022309 RecurrenceTable[{a[0]==0,a[1]==4,a[n]==a[n-1]+a[n-2]+1},a,{n,40}] (* or *) CoefficientList[Series[-x(-4+3x)/((x-1)(x^2+x-1)),{x,0,40}],x]  (* _Harvey P. Dale_, Apr 24 2011 *)
+%K A022309 nonn,easy
+%O A022309 0,2
+%A A022309 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

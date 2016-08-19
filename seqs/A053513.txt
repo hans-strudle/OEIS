@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053513
+Showing 1-1 of 1
+
+%I A053513
+%S A053513 3,18,165,3132,137268,15548004,4679446950,3771927027864,
+%T A053513 8186669639820081,48184182482857319682,774912347548961791914585,
+%U A053513 34299111628183837790980740312,4205499936656520106909422649497294
+%N A053513 Number of 2-multigraphs with loops on n nodes.
+%C A053513 A 2-multigraph is similar to an ordinary graph except there are 0, 1 or 2 edges between any two nodes (self-loops are not allowed).
+%Y A053513 Cf. A004102.
+%K A053513 easy,nonn
+%O A053513 1,1
+%A A053513 _Vladeta Jovovic_, Jan 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039689
+Showing 1-1 of 1
+
+%I A039689
+%S A039689 15,16,20,24,25,30,33,35,39,44,45,50,51,52,56,64,65,66,68,69,70,72,78,
+%T A039689 80,81,84,85,87,90,92,96,102,104,105,112,116,120,121,123,128,129,130,
+%U A039689 136,138,140,141,143,144,147,155,156,159,160,161,162,164,165,168,170
+%N A039689 phi(a(n)) is not of the form p-1 with p a prime number.
+%e A039689 phi(20)+1=8+1=9 is not prime.
+%Y A039689 Cf. A000010, A007614.
+%K A039689 nonn,easy
+%O A039689 1,1
+%A A039689 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018699
+Showing 1-1 of 1
+
+%I A018699
+%S A018699 1,2,4,5,8,10,11,16,20,22,40,44,55,80,88,110,176,220,440,880
+%N A018699 Divisors of 880.
+%H A018699 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
+%o A018699 (Sage) divisors(880);# [From _Zerinvary Lajos_, Jun 13 2009]
+%K A018699 nonn,fini,full
+%O A018699 1,2
+%A A018699 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

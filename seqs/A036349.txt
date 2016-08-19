@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036349
+Showing 1-1 of 1
+
+%I A036349
+%S A036349 2,4,8,9,15,16,18,21,25,30,32,33,35,36,39,42,49,50,51,55,57,60,64,65,
+%T A036349 66,69,70,72,77,78,81,84,85,87,91,93,95,98,100,102,110,111,114,115,
+%U A036349 119,120,121,123,128,129,130,132,133,135,138,140,141,143,144,145,154,155
+%N A036349 Sum of prime factors is even (counted with multiplicity).
+%e A036349 141 = 3 * 47 -> sum = 50 -> 50 is even.
+%t A036349 Select[Range[160],EvenQ[Total[Times@@@FactorInteger[#]]]&] (* _Harvey P. Dale_, Sep 21 2011 *)
+%Y A036349 Cf. A046363, A036350.
+%K A036349 nonn,base
+%O A036349 1,1
+%A A036349 _Patrick De Geest_, Dec 15 1998.
+%E A036349 First term (2) from Harvey P. Dale, Sep 21 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

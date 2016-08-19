@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056674
+Showing 1-1 of 1
+
+%I A056674
+%S A056674 0,0,0,1,0,0,0,1,1,0,0,2,0,0,0,1,0,2,0,2,0,0,0,2,1,0,1,2,0,0,0,1,0,0,
+%T A056674 0,3,0,0,0,2,0,0,0,2,2,0,0,2,1,2,0,2,0,2,0,2,0,0,0,4,0,0,2,1,0,0,0,2,
+%U A056674 0,0,0,3,0,0,2,2,0,0,0,2,1,0,0,4,0,0,0,2,0,4,0,2,0,0,0,2,0,2,2,3,0,0,0,2,0
+%N A056674 Number of squarefree divisors which are not unitary. Also number of unitary divisors which are not squarefree.
+%C A056674 Numbers of unitary and of squarefree divisors are identical, although the 2 sets are usually different, so sizes of parts outside overlap are also equal to each other.
+%F A056674 a(n)=A034444(n)-A000005[A055231(n)] a(n)=A034444(n)-A000005[A007913(n)/A055229(n)]
+%e A056674 n=252, it has 18 divisors, 8 are unitary, 8 are squarefree, 2 belong to both classes, so 6 are squarefree but not unitary, thus a(252)=6. Set {2,3,14,21,42} forms squarefree but non-unitary while set {4,9,36,28,63,252} of same size gives the set of not squarefree but unitary divisors.
+%Y A056674 A034444, A000005, A055231, A007913, A055229 a(n)=A000005[A055231(n)]=A000005[A007913(n)/A055229(n)]
+%K A056674 nonn
+%O A056674 1,12
+%A A056674 _Labos Elemer_, Aug 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

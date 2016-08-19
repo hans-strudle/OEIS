@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007237
+Showing 1-1 of 1
+
+%I A007237 M3878
+%S A007237 5,18,45,45,52,139,80,89,184,145,103,312,96,225,379,169,116,498,123,
+%T A007237 328,560,280,134,592,228,271,452,510,134,1036,144,280,639,339,597,
+%U A007237 1119,139,354,635,648,162,1486,169,594,1215,354,186,1066,369,622
+%N A007237 Number of triangles with integer sides and area = n times perimeter.
+%D A007237 Problem E3408, Amer. Math. Monthly, 99 (1992), 175-176.
+%D A007237 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A007237 nonn
+%O A007237 1,1
+%A A007237 _Simon Plouffe_
+%E A007237 a(16)-a(50)from _Les Reid_, Jul 06 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

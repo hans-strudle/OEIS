@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013777
+Showing 1-1 of 1
+
+%I A013777
+%S A013777 8,128,2048,32768,524288,8388608,134217728,2147483648,34359738368,
+%T A013777 549755813888,8796093022208,140737488355328,2251799813685248,
+%U A013777 36028797018963968,576460752303423488,9223372036854775808
+%N A013777 2^(4n+3).
+%H A013777 Vincenzo Librandi, <a href="/A013777/b013777.txt">Table of n, a(n) for n = 0..200</a>
+%H A013777 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A013777 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%F A013777 a(n)=16*a(n-1), n>0 ; a(0)=8 . G.f.: 8/(1-16x). [From _Philippe Deléham_, Nov 23 2008]
+%o A013777 (Sage) [lucas_number1(4*n, 2, 0) for n in xrange(1, 17)] # [From _Zerinvary Lajos_, Oct 27 2009]
+%o A013777 (MAGMA) [2^(4*n+3): n in [0..20]]; // Vincenzo Librandi, Jun 27 2011
+%o A013777 (PARI) a(n)=8<<(4*n) \\ _Charles R Greathouse IV_, Apr 08 2012
+%K A013777 nonn,easy
+%O A013777 0,1
+%A A013777 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

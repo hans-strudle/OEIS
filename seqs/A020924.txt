@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020924
+Showing 1-1 of 1
+
+%I A020924
+%S A020924 1,26,390,4420,41990,352716,2704156,19315400,130378950,840219900,
+%T A020924 5209363380,31256180280,182327718300,1037865473400,5782393351800,
+%U A020924 31610416989840,169905991320390,899502306990300
+%N A020924 Expansion of 1/(1-4*x)^(13/2).
+%H A020924 Vincenzo Librandi, <a href="/A020924/b020924.txt">Table of n, a(n) for n = 0..200</a>
+%F A020924 a(n) = binomial(n+6, 6)*A000984(n+6)/A000984(6), where A000984 are the central binomial coefficients. - _Wolfdieter Lang_
+%F A020924 a(n) = (2*n+11)*(2*n+9)*(2*n+7)*(2*n+5)*(2*n+3)*(2*n+1)*Binomial(2*n, n)/10395. - _Vincenzo Librandi_, Jul 05 2013
+%F A020924 n*a(n) - 2*(2*n+11)*a(n-1) = 0. [_Bruno Berselli_, Jul 05 2013]
+%t A020924 CoefficientList[Series[1 / (1 - 4 x)^(13/2), {x, 0, 20}], x] (* _Vincenzo Librandi_, Jul 05 2013 *)
+%o A020924 (MAGMA) [&*[2*n+i: i in [1..11 by 2]]*Binomial(2*n, n)/10395: n in [0..20]]; // _Vincenzo Librandi_, Jul 05 2013
+%K A020924 nonn,easy
+%O A020924 0,2
+%A A020924 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

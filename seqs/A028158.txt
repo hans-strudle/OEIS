@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028158
+Showing 1-1 of 1
+
+%I A028158
+%S A028158 1,33,695,11925,181911,2572893,34540735,446515125,5610825671,
+%T A028158 68978848653,833511432975,9933242415525,117049255275031,
+%U A028158 1366477139586813,15829397675656415,182175233504671125
+%N A028158 Expansion of 1/((1-4x)(1-8x)(1-10x)(1-11x)).
+%F A028158 a(n)=(8*11^(n+3)-14*10^(n+3)+7*8^(n+3)-4^(n+3))/168. [_Yahia Kahloune_, Jun 12 2013]
+%K A028158 nonn
+%O A028158 0,2
+%A A028158 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

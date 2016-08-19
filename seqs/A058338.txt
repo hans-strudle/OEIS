@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058338
+Showing 1-1 of 1
+
+%I A058338
+%S A058338 1,1,2,5,18,111,2292,181519
+%N A058338 Number of digraphs with indegree = outdegree at each vertex, or Eulerian digraphs (including disconnected graphs) with n nodes.
+%D A058338 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 219 (but there is an error).
+%D A058338 R. C. Read (rcread(AT)math.uwaterloo.ca), email to _N. J. A. Sloane_, 28 August, 2000.
+%Y A058338 Euler transform of A058337.
+%K A058338 nonn,nice,more
+%O A058338 0,3
+%A A058338 _N. J. A. Sloane_.
+%E A058338 a(7) added using A058337 by _Falk Hüffner_, Dec 03 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

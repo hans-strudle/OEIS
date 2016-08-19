@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017493
+Showing 1-1 of 1
+
+%I A017493
+%S A017493 134217728,322687697779,19683000000000,327381934393961,
+%T A017493 2779905883635712,15633814156853823,66540410775079424,
+%U A017493 231616946283203125,692533995824480256,1838459212420154507,4435453859151328768
+%N A017493 (11n+8)^9.
+%t A017493 (11Range[0,10]+8)^9  (* _Harvey P. Dale_, Apr 06 2011 *)
+%o A017493 (Maxima) makelist( (11*n+8)^9, n, 0, 30); [_Martin Ettl_, Oct 21 2012]
+%K A017493 nonn,easy
+%O A017493 0,1
+%A A017493 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

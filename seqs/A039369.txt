@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039369
+Showing 1-1 of 1
+
+%I A039369
+%S A039369 15,55,87,105,114,123,132,135,137,138,139,140,142,143,150,159,177,217,
+%T A039369 258,298,339,379,420,460,487,495,497,498,499,500,502,503,505,514,523,
+%U A039369 532,550,559,582,622,663,703,735,753,762,771,780,783,785,786,787,788
+%N A039369 Numbers n such that representation in base 9 has same nonzero number of 1's and 6's.
+%t A039369 Select[Range[1000],DigitCount[#,9,1]==DigitCount[#,9,6]>0&] (* _Harvey P. Dale_, Oct 15 2014 *)
+%K A039369 nonn,base,easy
+%O A039369 1,1
+%A A039369 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

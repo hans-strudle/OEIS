@@ -1,0 +1,53 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047969
+Showing 1-1 of 1
+
+%I A047969
+%S A047969 1,1,1,1,3,1,1,5,7,1,1,7,19,15,1,1,9,37,65,31,1,1,11,61,175,211,63,1,
+%T A047969 1,13,91,369,781,665,127,1,1,15,127,671,2101,3367,2059,255,1,1,17,169,
+%U A047969 1105,4651,11529,14197,6305,511,1,1,19,217,1695,9031
+%N A047969 Square array of nexus numbers a(n,k) = (n+1)^(k+1) - n^(k+1) (n >= 0, k >= 0) read by antidiagonals.
+%C A047969 If each row started with an initial 0 (i.e., a(n,k)=(n+1)^k-n^k) then each row would be the binomial transform of the preceding row. - _Henry Bottomley_, May 31 2001
+%C A047969 a(n-1, k-1) is the number of ordered k-tuples of positive integers such that the largest of these integers is n. - _Alford Arnold_, Sep 07 2005
+%C A047969 From _Alford Arnold_, Jul 21 2006: (Start)
+%C A047969 The sequences in A047969 can also be calculated using the Eulerian Array (A008292) and Pascal's Triangle (A007318) as illustrated below: (cf. A101095).
+%C A047969 1.......1.......1.......1.......1.......1
+%C A047969 1.......1.......1.......1.......1.......1
+%C A047969 -----------------------------------------
+%C A047969 1.......2.......3.......4.......5.......6
+%C A047969 ........1.......2.......3.......4.......5
+%C A047969 1.......3.......5.......7.......9.......11
+%C A047969 -----------------------------------------
+%C A047969 1.......3.......6.......10.......15.......21
+%C A047969 ........4.......12.......24......40.......60
+%C A047969 .................1.......3........6.......10
+%C A047969 1.......7.......19.......37.......61.......91
+%C A047969 -----------------------------------------
+%C A047969 1.......4.......10.......20.......35.......56
+%C A047969 .......11.......44.......110.......220.......385
+%C A047969 ................11.......44.......110.......220
+%C A047969 ..........................1.......4.......10
+%C A047969 1.......15.......65.......175.......369.......671
+%C A047969 -----------------------------------------  (End)
+%C A047969 From _Peter Bala_, Oct 26 2008: (Start)
+%C A047969 The above remarks of _Alford Arnold_ may be summarized by saying that (the transpose of) this array is the Hilbert transform of the triangle of Eulerian numbers A008292 (see A145905 for the definition of the Hilbert transform). In this context, A008292 is best viewed as the array of h-vectors of permutohedra of type A. See A108553 for the Hilbert transform of the array of h-vectors of type D permutohedra. Compare this array with A009998.
+%C A047969 The polynomials n^k - (n-1)^k, k = 1,2,3,..., which give the nonzero entries in the columns of this array, satisfy a Riemann hypothesis: their zeros lie on the vertical line Re s = 1/2 in the complex plane. See A019538 for the connection between the polynomials n^k - (n-1)^k and the Stirling polynomials of the simplicial complexes dual to the type A permutohedra.
+%C A047969 (End)
+%C A047969 Empirical: (n+1)^(k+1)-n^(k+1) is the number of first differences of length k+1 arrays of numbers in 0..n, k>0. - _R. H. Hardin_, Jun 30 2013
+%D A047969 J. H. Conway and R. K. Guy, The Book of Numbers, Copernicus Press, NY, 1996, p. 54.
+%H A047969 T. D. Noe, <a href="/A047969/b047969.txt">Rows n = 0..100 of triangle, flattened</a>
+%H A047969 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/NexusNumber.html">Nexus Number</a>
+%e A047969 Array begins
+%e A047969 1 1 1 1 1 1 1 1 ...
+%e A047969 1 3 7 15 31 63 ...
+%e A047969 1 5 19 65 211 ...
+%e A047969 1 7 37 175 ...
+%t A047969 Flatten[Table[n = d - e; k = e; (n + 1)^(k + 1) - n^(k + 1), {d, 0, 100}, {e, 0, d}]] (* _T. D. Noe_, Feb 22 2012 *)
+%Y A047969 Cf. A047970. Rows include A005917, A022521, A022522, etc.
+%Y A047969 Cf. A009998, A108553 (Hilbert transform of array of h-vectors of type D permutohedra), A145904, A145905.
+%K A047969 nonn,tabl,nice,easy
+%O A047969 0,5
+%A A047969 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

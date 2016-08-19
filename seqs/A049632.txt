@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049632
+Showing 1-1 of 1
+
+%I A049632
+%S A049632 1,4,6,10,14,22,26,38,46,58,66,86,94,118,130,146,162,194,206,242,258,
+%T A049632 282,302,346,362,402,426,462,486,542,558,618,650,690,722,770,794,866
+%N A049632 a(n)=T(n,n), array T as in A049627.
+%F A049632 a(n) = 2*A005728(n) if n>=1 . - _R. J. Mathar_, Feb 05 2008
+%Y A049632 Cf. A049643, A005728.
+%K A049632 nonn
+%O A049632 0,2
+%A A049632 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031397
+Showing 1-1 of 1
+
+%I A031397
+%S A031397 50,125,250,325,338,425,845,925,1025,1250,1325,1445,1450,1525,1625,
+%T A031397 1682,1825,1850,2050,2125,2197,2425,2725,2738,2825,2873,2890,3050,
+%U A031397 3125,3250,3425,3625,3725,3925,4250,4325,4394,4625,4825,4901,4913
+%N A031397 Nonsquarefree n such that Pell equation x^2 - n y^2 = -1 is soluble.
+%D A031397 Harvey Cohn, Advanced Number Theory, Dover Publications, New York, N.Y. (1980).
+%Y A031397 Equals {A003814} minus {A003654}, cf. A031396.
+%K A031397 nonn
+%O A031397 0,1
+%A A031397 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

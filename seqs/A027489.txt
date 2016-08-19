@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027489
+Showing 1-1 of 1
+
+%I A027489
+%S A027489 1,7,176,10746,1297704,272866980,91570835040,46034917019280,
+%T A027489 33038572997888640,32591683412232799680,42861143959833044563200,
+%U A027489 73273310483627217731644800,159431451667479363623304936960
+%N A027489 First column of A027478.
+%F A027489 Numerators of sequence a[ 1, n ] in (a[ i, j ])^3 where a[ i, j ] = s(i, j)/i! if j<=i, 0 if j>i
+%K A027489 nonn
+%O A027489 1,2
+%A A027489 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

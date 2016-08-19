@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020345
+Showing 1-1 of 1
+
+%I A020345
+%S A020345 0,1,2,3,4181,5,610,75025,8,987,10946,1134903170,121393,13,144,1597,
+%T A020345 165580141,17711,1836311903,196418,20365011074,21,225851433717,233,
+%U A020345 24157817,2584,267914296,27777890035288,28657,2971215073,308061521170129,317811
+%N A020345 Smallest Fibonacci number beginning with n.
+%C A020345 The graph of the indices A020344 is much more interesting. - _T. D. Noe_, Apr 02 2014
+%H A020345 T. D. Noe, <a href="/A020345/b020345.txt">Table of n, a(n) for n = 0..400</a>
+%e A020345 a(4)=4181 is a Fibonacci number starting with 4.
+%t A020345 nn = 31; t = tn = Table[0, {nn}]; found = 0; n = 0; While[found < nn, n++;  f = Fibonacci[n]; d = IntegerDigits[f]; i = 1; While[i <= Length[d], k = FromDigits[Take[d, i]]; If[k > nn, Break[]]; If[t[[k]] == 0, t[[k]] = f; tn[[k]] = n; found++]; i++]]; t = Join[{0}, t] (* _T. D. Noe_, Apr 02 2014 *)
+%Y A020345 Cf. A000045, A020344, A023183, A023184.
+%K A020345 nonn,base
+%O A020345 0,3
+%A A020345 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

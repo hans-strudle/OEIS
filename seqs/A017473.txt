@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017473
+Showing 1-1 of 1
+
+%I A017473
+%S A017473 7,18,29,40,51,62,73,84,95,106,117,128,139,150,161,172,183,194,205,
+%T A017473 216,227,238,249,260,271,282,293,304,315,326,337,348,359,370,381,392,
+%U A017473 403,414,425,436,447,458,469,480,491,502,513,524,535,546,557,568,579,590
+%N A017473 11*n+7.
+%H A017473 Vincenzo Librandi, <a href="/A017473/b017473.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017473 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A017473 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1).
+%F A017473 a(n) = 2*a(n-1)-a(n-2). G.f.: (7+4*x)/(1-x)^2. - _Colin Barker_, Jun 06 2012
+%t A017473 Range[7, 1000, 11] (* _Vladimir Joseph Stephan Orlovsky_, May 29 2011 *)
+%o A017473 (MAGMA) [(11*n+7): n in [0..60]]; // _Vincenzo Librandi_, Sep 04 2011
+%Y A017473 Cf. A008593, A017401, A017413.
+%K A017473 nonn,easy
+%O A017473 0,1
+%A A017473 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

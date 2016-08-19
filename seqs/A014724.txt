@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014724
+Showing 1-1 of 1
+
+%I A014724
+%S A014724 1,1,0,0,0,1,1,0,0,0,1,0,1,1,1,1,0,1,1,1,1,0,0,0,0,0,1,1,0,0,0,
+%T A014724 1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,
+%U A014724 0,0,0,1,1,0,0,0,0,0,1,1,1,1,0,1,1,1,1
+%V A014724 1,-1,0,0,0,1,-1,0,0,0,1,0,-1,1,-1,1,0,-1,1,-1,1,0,0,0,0,0,1,-1,0,0,0,
+%W A014724 1,-1,1,-1,1,0,0,0,0,0,0,0,0,1,-1,1,-1,1,0,0,0,0,0,0,0,0,1,-1,1,-1,1,
+%X A014724 0,0,0,-1,1,0,0,0,0,0,1,-1,1,-1,0,1,-1,1,-1
+%N A014724 Inverse of 715th cyclotomic polynomial.
+%p A014724 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014724 sign
+%O A014724 0,1
+%A A014724 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

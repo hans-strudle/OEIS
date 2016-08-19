@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053653
+Showing 1-1 of 1
+
+%I A053653
+%S A053653 0,0,1,0,1,0,1,2,0,0,3,4,8,0,6,11,3,0,3,6,1,1,4,3,0,2,5,6,15,15,17,16,
+%T A053653 12,12,4,10,8,5,8,18,11,23,5,13,9,10,8,6,27,9,4,6,14,4,24,3,14,6,4,33,
+%U A053653 7,14,11,12,6,86,26,53,13,79,27
+%N A053653 Number of ways to rearrange digits of prime(n)*prime(n+1) to form a prime.
+%e A053653 a(8)=2 because 19*23=437 and 2 primes, 347 and 743, can be formed from the digits of 437.
+%p A053653 Leading zeros are not allowed in the rearranged number.
+%Y A053653 Cf. A053652, A053736.
+%K A053653 easy,nonn,base
+%O A053653 1,8
+%A A053653 _Enoch Haga_, Feb 18 2000
+%E A053653 Edited by _Jens Kruse Andersen_, Dec 01 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017464
+Showing 1-1 of 1
+
+%I A017464
+%S A017464 1296,83521,614656,2313441,6250000,13845841,26873856,47458321,
+%T A017464 78074896,121550625,181063936,260144641,362673936,492884401,655360000,
+%U A017464 855036081,1097199376,1387488001,1731891456,2136750625
+%N A017464 (11*n+6)^4.
+%H A017464 Vincenzo Librandi, <a href="/A017464/b017464.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017464 (MAGMA) [(11*n+6)^4: n in [0..30]]; // Vincenzo Librandi, Sep 03 2011
+%K A017464 nonn,easy
+%O A017464 0,1
+%A A017464 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

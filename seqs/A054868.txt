@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054868
+Showing 1-1 of 1
+
+%I A054868
+%S A054868 0,1,1,1,1,1,1,2,1,1,1,2,1,2,2,1,1,1,1,2,1,2,2,1,1,2,2,1,2,1,1,2,1,1,
+%T A054868 1,2,1,2,2,1,1,2,2,1,2,1,1,2,1,2,2,1,2,1,1,2,2,1,1,2,1,2,2,2,1,1,1,2,
+%U A054868 1,2,2,1,1,2,2,1,2,1,1,2,1,2,2,1,2,1,1,2,2,1,1,2,1,2,2,2,1,2,2
+%N A054868 Sum of bits of sum of bits of n.
+%C A054868 a(n) = A000120(A000120(n)).
+%H A054868 Reinhard Zumkeller, <a href="/A054868/b054868.txt">Table of n, a(n) for n = 0..10000</a>
+%H A054868 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>
+%H A054868 <a href="/index/Bi#binary">Index entries for sequences related to binary expansion of n</a>
+%e A054868 a(127) = 3 since 127 in base 2 is 1111111, whose sum of bits is 7 and 7 in base 2 is 111, whose sum of bits is 3
+%o A054868 (PARI) a(n) = norml2(binary(norml2(binary(n))))  \\ _Michel Marcus_, May 25 2013
+%o A054868 (Haskell)
+%o A054868 a054868 = a000120 . a000120  -- _Reinhard Zumkeller_, Mar 31 2015
+%Y A054868  Cf. A000120, A089224.
+%K A054868 nonn
+%O A054868 0,8
+%A A054868 _Jeffrey Shallit_, May 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047362
+Showing 1-1 of 1
+
+%I A047362
+%S A047362 2,3,4,5,9,10,11,12,16,17,18,19,23,24,25,26,30,31,32,33,37,38,39,40,
+%T A047362 44,45,46,47,51,52,53,54,58,59,60,61,65,66,67,68,72,73,74,75,79,80,81,
+%U A047362 82,86,87,88,89,93,94,95,96
+%N A047362 Numbers that are congruent to {2, 3, 4, 5} mod 7.
+%H A047362 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,1,-1).
+%F A047362 G.f. x*(2*x^2+3*x+2)*(x^2-x+1) / ( (1+x)*(x^2+1)*(x-1)^2 ). - R. J. Mathar, Dec 04 2011
+%t A047362 Select[Range[100],MemberQ[{2,3,4,5},Mod[#,7]]&] (* or *) LinearRecurrence[ {1,0,0,1,-1},{2,3,4,5,9},60] (* _Harvey P. Dale_, Oct 03 2015 *)
+%K A047362 nonn
+%O A047362 1,1
+%A A047362 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

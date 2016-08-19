@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005393
+Showing 1-1 of 1
+
+%I A005393
+%S A005393 0,0,1,5,23,118,710,4980,39902,359536,3598695,39615625,475687487,
+%T A005393 6187239487,86661001990,1300430725000,20814114480000,353948329800000,
+%U A005393 6372804643000000,121112787000000000
+%N A005393 Leading term of Stirling's approximation to n!, sqrt(2*Pi)*n^(n+(1/2))/e^n, rounded down.
+%K A005393 nonn
+%O A005393 0,4
+%A A005393 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

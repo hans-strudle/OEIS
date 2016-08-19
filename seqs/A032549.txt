@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032549
+Showing 1-1 of 1
+
+%I A032549
+%S A032549 1,2,3,4,5,6,51,102,105,153,156,207,210,258,261,312,315,2589,2590,
+%T A032549 2601,2753,5354,5355,5506,8108,8259,8260,10861,11013,11025,13614,
+%U A032549 13615,13626,13766,13778,16379,16380,16531,33045,140403,289065,1123224
+%N A032549 Decimal 'base 7 looking' numbers divided by their actual base 7 values (n) is an integer.
+%Y A032549 Cf. A032548, A032550. See also A032532 for explanation.
+%K A032549 nonn,base
+%O A032549 0,2
+%A A032549 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

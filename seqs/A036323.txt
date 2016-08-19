@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036323
+Showing 1-1 of 1
+
+%I A036323
+%S A036323 49,343,2401,5509,6139,6209,16807,38563,42973,43463,55139,62209,
+%T A036323 117649,269941,300811,304241,385973,435463,551509,552139,552209,
+%U A036323 615139,615209,619369,690199,698069,769129,777899,786769,823543,1889587,2105677
+%N A036323 Composite numbers n such that digits of prime factors of n are either 7 or 8.
+%t A036323 Select[Range[25*10^5],CompositeQ[#]&&SubsetQ[{7,8},Flatten[ IntegerDigits/@ Transpose[ FactorInteger[#]][[1]]]]&] (* _Harvey P. Dale_, Jan 19 2015 *)
+%Y A036323 Cf. A036302-A036325.
+%K A036323 nonn,base
+%O A036323 1,1
+%A A036323 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

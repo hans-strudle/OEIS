@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045743
+Showing 1-1 of 1
+
+%I A045743
+%S A045743 1,3,13,66,367,2164,13293,84157,545270,3598244,24100375,163416748,
+%T A045743 1119592052,7738412716,53894849437,377851866954,2664570714233,
+%U A045743 18887568709788,134501247038230,961774761388430,6903072966224220
+%N A045743 Noncrossing connected graphs on n nodes on a circle and having no triangular faces.
+%F A045743 Sum(binomial(n-2+i, i)*binomial(3*n-3-i, n-2-2*i), i=0..floor((n-2)/2))/(n-1)
+%F A045743 Contribution from _Paul D. Hanna_, Mar 09 2010: (Start)
+%F A045743 G.f. A(x): Let F(x) = 1 + A(x)/x = 1 + x + 3*x^2 + 13*x^3 + 66*x^4 +...
+%F A045743 then F(x) satisfies: x*F(x)^4 = (1 - F(x))*(1 - 3*F(x) + F(x)^2). (End)
+%o A045743 (PARI) {a(n)=local(A=1+x+x*O(x^n));for(i=1,n,A=1-x*A^4/(1-3*A+A^2));polcoeff(A,n)} [From _Paul D. Hanna_, Mar 09 2010]
+%K A045743 nonn
+%O A045743 2,2
+%A A045743 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

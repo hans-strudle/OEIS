@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037150
+Showing 1-1 of 1
+
+%I A037150
+%S A037150 1,0,1512,44352,449064,6519744,47263608
+%V A037150 1,0,-1512,44352,449064,6519744,47263608
+%N A037150 Fourier coefficients of Eisenstein series of degree 2 and weight 6 when evaluated at Gram(A_2)*z.
+%D A037150 Klingen, Intro. Lectures on Siegel Modular Forms, p. 123.
+%H A037150 <a href="/index/Ed#Eisen">Index entries for sequences related to Eisenstein series</a>
+%F A037150 x^12-72*x^6*y-1728*y^2, x = phi_0(z), y = Delta_12(z);
+%K A037150 sign
+%O A037150 0,3
+%A A037150 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

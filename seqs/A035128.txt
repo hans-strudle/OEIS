@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035128
+Showing 1-1 of 1
+
+%I A035128
+%S A035128 1,2,5,379
+%N A035128 Rotating digits of a(n)^3 right once still yields a cube.
+%C A035128 Cubes resulting in leading zeros excluded.
+%H A035128 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html">Cubic Number</a>
+%e A035128 E.g. 379^3 = 54439939 -> 95443993 = 457^3.
+%Y A035128 Cf. A045877, A035129.
+%K A035128 nonn,base,hard
+%O A035128 1,2
+%A A035128 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

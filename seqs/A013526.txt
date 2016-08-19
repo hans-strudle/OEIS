@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013526
+Showing 1-1 of 1
+
+%I A013526
+%S A013526 1,1,3,59,871,325249,35797,24362249,342232522657,8224154352439,
+%T A013526 23157229065769,9926476934520521,37638416003805990839,
+%U A013526 296699416391356495667713,691054566545631371393
+%N A013526 Numerator of [x^(2n)] of the Taylor expansion cosh(cosec(x)-cot(x))=1 +x^2/8 +3*x^4/128 +59*x^6/15360 +871*x^8/1474560 +....
+%C A013526 The coefficients of the e.g.f of x/2, cosh(cosec(x)-cot(x)) = 1 +1*x^2/(2^2*2!) + 9*x^4/(2^4*4!) +177*x^6/(2^6*6!) +6097*x^8/(2^8*8!)+.. are apparently the absolute values of A003711.
+%K A013526 nonn,frac
+%O A013526 0,3
+%A A013526 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013526 Values replaced by numerators - R. J. Mathar, Dec 19 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057467
+Showing 1-1 of 1
+
+%I A057467
+%S A057467 1,2,2,2,2,2,2,2,2,2,2,2,2,2,6,2,2,2,2,2,2,2,2,4,2,2,2,2,2,2,2,2,2,2,
+%T A057467 2,6,2,2,6,2,2,2,2,2,2,12,4,2,2,2,2,2,2,6,6,2,2,2,2,2,2,2,2,2,2,2,2,2,
+%U A057467 2,2,2,2,6,2,2,2,4,4,2,2,2,2,2,2,2,2,4,2,2,4,4,4,4,4,2,6,2,2,6,2,2,6,2,2
+%N A057467 GCD of n-th and (n+1)-st term in the sequence of first differences between primes, A001223.
+%D A057467 a(n)=GCD { A001223(n+1), A001223(n) }.
+%Y A057467 Cf. A001223.
+%K A057467 nonn,easy
+%O A057467 0,2
+%A A057467 _Labos Elemer_, Dec 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

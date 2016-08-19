@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019307
+Showing 1-1 of 1
+
+%I A019307
+%S A019307 0,1,2,3,8,9,144,145,167,627,2677,2725,2726,12071,48652,206025,
+%T A019307 63331966
+%N A019307 First time that the Grundy function G(x) for "subtract-a-Fibonacci-number" take the value n.
+%C A019307 See Rouse Ball and Coxeter for "subtract-a-square".
+%D A019307 W. W. Rouse Ball and H. S. M. Coxeter, Mathematical Recreations and Essays, 12th Edition.
+%K A019307 nonn
+%O A019307 0,3
+%A A019307 Torsten Sillke (sillke(AT)lh-systems.de)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

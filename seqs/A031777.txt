@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031777
+Showing 1-1 of 1
+
+%I A031777
+%S A031777 9803,39208,88215,156824,245035,352848,480263,627280,793899,980120,
+%T A031777 1185943,1411368,1656395,1921024,2205255,2509088,2832523,3175560,
+%U A031777 3538199,3920440,4322283,4743728,5184775,5645424,6125675,6625528,7144983,7684040
+%N A031777 Numbers n such that least term in period of continued fraction for sqrt(n) is 99.
+%t A031777 lt99Q[n_]:=Module[{s=Sqrt[n],lt},If[IntegerQ[s],lt=1,lt= Min[ ContinuedFraction[ s][[2]]]];lt==99]; Select[Range[8000000],lt99Q] (* _Harvey P. Dale_, Apr 20 2013 *)
+%K A031777 nonn
+%O A031777 1,1
+%A A031777 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051464
+Showing 1-1 of 1
+
+%I A051464
+%S A051464 2,2,2,2,4,4,2,2,4,2,4,2,4,6,4,4,16,2,4,2,4,2,4,8,12,8,2,4,8,4,4,4,4,
+%T A051464 4,4,8,8,4,8,16,8,4,8,8,6,16,8,8,8,16,8,4,32,32,8,4,8,4,4,8,16,8,8,16,
+%U A051464 48,16,16,8,4,16,4,16,16,8,8,8,16,16,8,16,16,8,16,8,48,192,8,8,16,4,8,2
+%N A051464 Number of divisors of 4*(2^n-1) + 1.
+%C A051464 Create a table with tau(2^n-1) as the first row (A046801) and tau(m) as the first column (A000005). The second column is tau(A004760) and so on. Rows 2, 3 and 4 are easily described in terms of row 1. This sequence is row 5.
+%F A051464 a[ n ] = DivisorSigma [ 0, 4*(2^n -1)+1 ] ]
+%K A051464 nonn
+%O A051464 1,1
+%A A051464 Edwin D. Evans, eevans2(AT)pacbell.net
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

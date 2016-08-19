@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017092
+Showing 1-1 of 1
+
+%I A017092
+%S A017092 16,10000,104976,456976,1336336,3111696,6250000,11316496,18974736,
+%T A017092 29986576,45212176,65610000,92236816,126247696,168896016,221533456,
+%U A017092 285610000,362673936,454371856,562448656
+%N A017092 (8*n+2)^4.
+%H A017092 Vincenzo Librandi, <a href="/A017092/b017092.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017092 (MAGMA) [(8*n+2)^4: n in [0..30]]; // Vincenzo Librandi, Jul 12 2011
+%K A017092 nonn,easy
+%O A017092 0,1
+%A A017092 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

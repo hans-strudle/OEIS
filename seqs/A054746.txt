@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054746
+Showing 1-1 of 1
+
+%I A054746
+%S A054746 1,6,67,1379,40000,1488212,66468616,3459744878,205517092374,
+%T A054746 13719689837415,1016860316477931,82855990193202263,
+%U A054746 7361905026684383986,708398087768889272827,73390382551302560225067
+%N A054746 Number of nonisomorphic connected binary n-state automata without output under input permutations.
+%C A054746 Inverse Euler transform of A054745.
+%D A054746 M. A. Harrison, A census of finite automata, Canad. J. Math., 17, No. 1, 1965, p. 110.
+%D A054746 F. Harary and E. Palmer, Graphical Enumeration, 1973.
+%e A054746 There are 40000 nonisomorphic connected binary 5-state automata under input permutations.
+%Y A054746 Cf. A054732, A027834.
+%K A054746 nonn
+%O A054746 1,2
+%A A054746 _Vladeta Jovovic_, Apr 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

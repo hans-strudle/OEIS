@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059855
+Showing 1-1 of 1
+
+%I A059855
+%S A059855 1,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,
+%T A059855 5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,
+%U A059855 5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2,5,2
+%N A059855 Quotient cycle lengths in continued fraction expansion of Sqrt(n^2+4).
+%F A059855 with(numtheory): [seq(nops(cfrac(sqrt(k^2+4), 'periodic', 'quotients')[2]), k=1..100)];
+%e A059855 For even numbers 2, for odds 5 is the length of cycles: n=96,97 the integer parts and cycles are: [96],[48,192]] and [97],[48, 1, 1, 48, 194] resp. Inside cycles Floor[n/2],1,1 and 2n arise.
+%Y A059855 A002496, A005574, A056899, A049423, A056903, A056905.
+%K A059855 nonn
+%O A059855 1,2
+%A A059855 _Labos Elemer_, Feb 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

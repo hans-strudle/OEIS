@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058362
+Showing 1-1 of 1
+
+%I A058362
+%S A058362 121174811,1128318991,2201579179,2715239543,2840465567,3510848161,
+%T A058362 3688067693,3893783651,5089850089,5825680093,6649068043,6778294049,
+%U A058362 7064865859,7912975891,8099786711,9010802341,9327115723,9491161423
+%N A058362 Initial primes of sets of 6 consecutive primes in arithmetic progression. Each set has a constant difference equal to 30. These are the smallest such sets.
+%C A058362 It is conjectured that there exist arbitrarily long sequences of consecutive primes in arithmetic progression. As of December 2000 the record is 10 primes.
+%H A058362 <a href="/index/Pri#primes_AP">Index entries for sequences related to primes in arithmetic progressions</a>
+%F A058362 Found by exhaustive search for 6 primes that are in arithmetic progression with all other intermediate numbers being composite.
+%Y A058362 Cf. A033451, A059044.
+%K A058362 nonn
+%O A058362 1,1
+%A A058362 Harvey Dubner (harvey(AT)dubner.com), Dec 18 2000
+%E A058362 Corrected by _Jud McCranie_, Jan 04 2001
+%E A058362 a(11)-a(18) from _Donovan Johnson_, Sep 05 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027323
+Showing 1-1 of 1
+
+%I A027323
+%S A027323 1,5,38,281,2116,16222,126244,994860,7923456,63679869,515810606,
+%T A027323 4206733157,34515110876,284699216035
+%N A027323 a(n) = Sum{T(n,k)*T(n,k+1)}, 0<=k<=m, where m=0 for n=1; m=n for n >= 2; T given by A026120.
+%K A027323 nonn
+%O A027323 1,2
+%A A027323 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

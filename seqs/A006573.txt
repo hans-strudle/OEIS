@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006573
+Showing 1-1 of 1
+
+%I A006573 M1828
+%S A006573 1,1,1,2,8,16,384,768,3072,6144,61440,983040
+%N A006573 Denominators of an asymptotic expansion for the number of forests on n nodes (A001858).
+%D A006573 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006573 L. Takacs, On the number of distinct forests, SIAM J. Discrete Math., 3 (1990), 574-581.
+%Y A006573 Cf. A006572, A001858.
+%K A006573 nonn,frac,more
+%O A006573 0,4
+%A A006573 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

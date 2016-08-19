@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027447
+Showing 1-1 of 1
+
+%I A027447
+%S A027447 1,7,1,85,19,4,415,115,37,9,12019,3799,1489,549,144,13489,4669,2059,
+%T A027447 919,364,100,726301,268921,128431,64171,30676,12700,3600,3144919,
+%U A027447 1227199,621139,334699,178669,89125,38025,11025,30300391,12335311
+%N A027447 Cube of the lower triangular mean matrix.
+%F A027447 Numerators of lower triangle of (a[ i, j ])^3 where a[ i, j ] = 1/i if j<=i, 0 if j>i
+%t A027447 rows = 9; m = Table[ If[j <= i, 1/i, 0], {i, 1, rows}, {j, 1, rows}]; m3 = m.m.m; Table[ fracs = m3[[i]]; nums = fracs // Numerator; dens = fracs // Denominator; lcm = LCM @@ dens; Table[ nums[[j]]*lcm/dens[[j]], {j, 1, i}], {i, 1, rows}] // Flatten (* _Jean-François Alcover_, Mar 05 2013 *)
+%K A027447 nonn,tabl
+%O A027447 1,2
+%A A027447 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

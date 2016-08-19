@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046052
+Showing 1-1 of 1
+
+%I A046052
+%S A046052 1,1,1,1,1,2,2,2,2,3,4,5
+%N A046052 Number of prime factors of Fermat number F(n).
+%C A046052 F(12) has 6 known factors with C1133 remaining. [Updated by _Walter Nissen_, Apr 02 2010]
+%C A046052 F(13) has 4 known factors with C2391 remaining.
+%C A046052 F(14) has one known factor with C4880 remaining. [Updated by Matt C. Anderson, Feb 14 2010]
+%H A046052 W. Keller, <a href="http://www.prothsearch.net/fermat.html">Prime factors k.2^n + 1 of Fermat numbers F_m</a>
+%H A046052 W. Keller, <a href="http://www.prothsearch.net/fermat.html#Summary">Summary of factoring status for Fermat numbersF(n)</a>
+%H A046052 PSI (The algorithm company), <a href="http://www.perfsci.com/prizes.html">Fermat factor status</a> [Broken link?]
+%H A046052 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/FermatNumber.html">Fermat Number</a>
+%Y A046052 Cf. A000215, A023394, A229850.
+%K A046052 nonn,hard
+%O A046052 0,6
+%A A046052 _Eric W. Weisstein_
+%E A046052 Name corrected by Arkadiusz Wesolowski, Oct 31 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

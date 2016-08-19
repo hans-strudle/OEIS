@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002074
+Showing 1-1 of 1
+
+%I A002074 M3976 N1645
+%S A002074 1,5,35,225,67375,853125,955040625,1861234375,151365980390625,
+%T A002074 142468185234375,10686017754521484375,8684623124912109375,
+%U A002074 5398544111530990341796875,54231540104196533203125,1161721704933873029968505859375
+%N A002074 Denominators of coefficients in an asymptotic expansion of the confluent hypergeometric function F(1-b; 2; 4b).
+%C A002074 Value of a(5) is incorrectly given as 66693 in Henrici paper. - _Sean A. Irvine_, Jun 20 2013
+%D A002074 Henrici, Peter; Automatic computations with power series. J. Assoc. Comput. Mach. 3 (1956), 10-15.
+%D A002074 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002074 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A002074 Let f(x) = [sum_{k>=1}(3/(2*k+1)) * x^(2*k+1)]^(1/3) = x + (1/5)*x^3 + (18/175) * x^5 + ...; let g(x) be the Lagrange inversion of f(x), g(x) = REVERT(f(x)) = 1 - (1/5) * x^3 + (3/175) * x^5 + .... Then a(n) = denominator((2 * n + 1) * coeff(g(x), 2*n+1)). - _Sean A. Irvine_, Jun 20 2013
+%Y A002074 Cf. A002073.
+%K A002074 nonn,frac
+%O A002074 0,2
+%A A002074 _N. J. A. Sloane_.
+%E A002074 More terms from _Sean A. Irvine_, Jun 20 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

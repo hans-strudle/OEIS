@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022380
+Showing 1-1 of 1
+
+%I A022380
+%S A022380 3,12,15,27,42,69,111,180,291,471,762,1233,1995,3228,5223,8451,13674,
+%T A022380 22125,35799,57924,93723,151647,245370,397017,642387,1039404,1681791,
+%U A022380 2721195,4402986,7124181,11527167
+%N A022380 Fibonacci sequence beginning 3, 12.
+%H A022380 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022380 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022380 G.f.: (3+9*x)/(1-x-x^2). [_Philippe Deléham_, Nov 19 2008]
+%F A022380 a(n) = ((2^(-n-1)/5)*((15+21*sqrt(5))*(1+sqrt(5))^n + (15-21*sqrt(5))*(1-sqrt(5))^n). [_Bogart B. Strauss_, Oct 27 2013]
+%t A022380 a={};b=3;c=12;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022380 nonn
+%O A022380 0,1
+%A A022380 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027302
+Showing 1-1 of 1
+
+%I A027302
+%S A027302 1,2,9,24,95,286,1099,3536,13479,45220,172150,594320,2265003,7983990,
+%T A027302 30487175,109174560,417812417,1514797020,5810065898,21275014800,
+%U A027302 81775140083,301892460012
+%N A027302 a(n) = Sum{T(n,k)*T(n,k+1)}, 0<=k<=[ (n-1)/2 ], T given by A008315.
+%C A027302 a(n) is the number of Dyck (n+2)-paths with UU spanning the midpoint. e.g. for n=2 the two Dyck 4-paths are UUDU.UDDD and UDUU.UDDD where dot marks the midpoint. - _David Scambler_, Feb 11 2011
+%C A027302 Apparently the number of returns to the left of or at the midpoint of all Dyck paths with semilength n+1. - _David Scambler_, Apr 30 2013
+%H A027302 Alon Regev, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Regev/regev4.html">The central component of a triangulation</a>, arXiv preprint <a href="http://arXiv.org/abs/1210.3349">arXiv:1210.3349</a> p. 6.
+%o A027302 (Sage)
+%o A027302 def C(n): return binomial(2*n,n)/(n+1)  # Catalan numbers
+%o A027302 def A027302(n): return add(C(k)*C(n+1-k) for k in (1..(n+1)/2))
+%o A027302 [A027302(n) for n in (1..22)]  # _Peter Luschny_, Jun 27 2013
+%K A027302 nonn
+%O A027302 1,2
+%A A027302 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

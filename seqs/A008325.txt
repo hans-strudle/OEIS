@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008325
+Showing 1-1 of 1
+
+%I A008325
+%S A008325 1,1,2,6,14,41,157,725,4196,29816,246644,2297075
+%N A008325 Number of simple regular trivalent bipartite graphs with 2n nodes.
+%D A008325 G. Brinkmann, Fast generation of cubic graphs, J. Graph Theory 23 (1996), no. 2, 139-149.
+%H A008325 Sean A. Irvine, <a href="/A008325/a008325.png">On the difference between A004066 and A008325</a>
+%Y A008325 Cf. A006823 (bicolored), A006823 (unconnected).
+%Y A008325 A (right-hand) column of triangle A008326.
+%K A008325 nonn,hard
+%O A008325 3,3
+%A A008325 _Brendan McKay_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

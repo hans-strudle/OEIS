@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013779
+Showing 1-1 of 1
+
+%I A013779
+%S A013779 27,2187,177147,14348907,1162261467,94143178827,7625597484987,
+%T A013779 617673396283947,50031545098999707,4052555153018976267,
+%U A013779 328256967394537077627,26588814358957503287787,2153693963075557766310747
+%N A013779 3^(4n+3).
+%H A013779 Vincenzo Librandi, <a href="/A013779/b013779.txt">Table of n, a(n) for n = 0..200</a>
+%H A013779 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013779 a(n)=81*a(n-1), n>0 ; a(0)=27 . G.f.: 27/(1-81*x). [From _Philippe Deléham_, Nov 25 2008]
+%o A013779 (MAGMA) [3^(4*n+3): n in [0..20]]; // Vincenzo Librandi, Jun 27 2011
+%K A013779 nonn,easy
+%O A013779 0,1
+%A A013779 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

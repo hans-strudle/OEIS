@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058846
+Showing 1-1 of 1
+
+%I A058846
+%S A058846 3,5,229,257,1031,7213,11863,133853,1002073,31924583,97137589,
+%T A058846 1837875227
+%N A058846 Sum of odd primes up to n is palindromic.
+%C A058846 Sequence is 3 + 5 + 7 + 11 + 13 + 17 + ... + n.
+%H A058846 P. De Geest, <a href="http://www.worldofnumbers.com/firstpal.htm#sfn2">Palindromic Sums</a>
+%F A058846 a(n) = A065091(A058845(n)). - _R. J. Mathar_, Sep 09 2015
+%Y A058846 Cf. A058845, A058847.
+%K A058846 nonn,base,more
+%O A058846 1,1
+%A A058846 _Patrick De Geest_, Dec 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

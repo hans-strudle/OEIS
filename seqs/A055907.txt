@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055907
+Showing 1-1 of 1
+
+%I A055907
+%S A055907 0,1,1,1,2,1,1,4,4,1,1,6,10,6,1,1,9,21,20,8,1,1,12,39,53,36,10,1,1,16,
+%T A055907 67,121,128,56,12,1,1,20,107,249,388,240,74,14,1,1,25,163,471,1050,
+%U A055907 854,331,100,16,1,1,30,238,836,2601,2654,1212,511,130,18,1,1,36,337
+%N A055907 Triangle: number of directed site animals on a hexagonal lattice with n total sites and k sites supported in one particular way.
+%H A055907 A. J. Guttmann, <a href="http://www.ms.unimelb.edu.au/~tonyg/articles/viennafinal.pdf">Indicators of solvability for lattice models</a>, Discrete Math., 217 (2000), 167-189 (A_h of Section 6).
+%H A055907 A. J. Guttmann and A. R. Conway, <a href="http://www.ms.unimelb.edu.au/~tonyg/articles/hexfinal.pdf">Hexagonal lattice directed site animals</a>, Statistical Physics on the Eve of the Twenty-First Century, ed. M. T. Batchelor, World Scientific, 1999 (F_h of Section 4).
+%e A055907 0; 1,1; 1,2,1; 1,4,4,1; 1,6,11,6,1; ...
+%Y A055907 Row sums give A055919. Columns 1-9: A002620(n+1), A055908-A055915. Cf. A055898.
+%K A055907 nonn,tabl
+%O A055907 0,5
+%A A055907 _Christian G. Bower_, Jun 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

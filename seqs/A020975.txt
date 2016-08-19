@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020975
+Showing 1-1 of 1
+
+%I A020975
+%S A020975 1,30,607,10344,160189,2335746,32694859,444486828,5913240457,
+%T A020975 77372622822,999305059831,12772807490352,161880145667605,
+%U A020975 2037329650638858,25491080959642723,317372095748963316
+%N A020975 Expansion of 1/((1-7x)(1-11x)(1-12x)).
+%F A020975 a(n) = 30*a(n-1) - 293*a(n-2) + 924*a(n-3), n>=3. - Vincenzo Librandi, Mar 15 2011
+%F A020975 a(n) = 23*a(n-1) - 132*a(n-2) + 7^n, a(0)=1, a(1)=30. - Vincenzo Librandi, Mar 15 2011
+%F A020975 a(n) = 49*7^n/20 -121*11^n/4 +144*12^n/5. - _R. J. Mathar_, Jul 01 2013
+%K A020975 nonn
+%O A020975 0,2
+%A A020975 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

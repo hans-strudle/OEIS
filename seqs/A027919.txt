@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027919
+Showing 1-1 of 1
+
+%I A027919
+%S A027919 2,4,6,8,11,13,16,19,22,25,29,32,36,39,43,47,51,56,60,64,69,74,78,83,
+%T A027919 88,93,98,103,109,114,119,125,131,136,142,148,154,160,166,172,178,185,
+%U A027919 191,198,204,211,217,224,231,238,245,252,259,266
+%N A027919 a(n) = least k such that 2nd elementary symmetric function of {1,2,...,k} >= 3rd elementary symmetric function of {1,2,...,n}.
+%K A027919 nonn
+%O A027919 3,1
+%A A027919 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

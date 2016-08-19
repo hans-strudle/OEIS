@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045759
+Showing 1-1 of 1
+
+%I A045759
+%S A045759 7,14,43,50,61,63,67,80,84,118,122,134,137,163,196,212,213,224,241,
+%T A045759 273,274,277,279,283,351,352,373,375,390,398,421,457,462,474,475,489,
+%U A045759 495,510,516,523,526,537,547,555,558,577,584,590,592,616,638,644,660,673,687,691
+%N A045759 Maris-McGwire numbers: f(n)=f(n+1), where f(n) = sum of digits of n + sum of digits of prime factors of n (including multiplicities).
+%H A045759 <a href="http://users.aol.com/s6sj7gt/maris.htm">More information</a>
+%e A045759 (61,62) is such a pair, hence the name.
+%e A045759 Corrected and extended by _David W. Wilson_
+%Y A045759 Cf. Ruth-Aaron numbers A006145, A039945.
+%K A045759 nonn,base
+%O A045759 0,1
+%A A045759 Mike Keith (domnei(AT)aol.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

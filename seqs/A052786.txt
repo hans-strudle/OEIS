@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052786
+Showing 1-1 of 1
+
+%I A052786
+%S A052786 0,0,0,0,0,0,720,7560,70560,680400,7015680,78004080,935542080,
+%T A052786 12074119200,167122859904,2472036446880,38940240568320,
+%U A052786 651087633530880,11519998092877824,215088381671892480
+%N A052786 A simple grammar.
+%H A052786 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=743">Encyclopedia of Combinatorial Structures 743</a>
+%F A052786 E.g.f.: x^3*log(-1/(-1+x))^3.
+%F A052786 Recurrence: {a(1)=0, a(2)=0, a(4)=0, a(3)=0, a(5)=0, a(6)=720, (16*n^4+135*n+162-81*n^2-42*n^3-n^6+3*n^5)*a(n) + (-228+81*n^2+3*n^5+104*n-38*n^3-6*n^4)*a(n+1) + (36+6*n^3-3*n^4+21*n^2-60*n)*a(n+2) + (-3*n^2+n^3+2*n)*a(n+3)}.
+%p A052786 spec := [S,{B=Cycle(Z),S=Prod(Z,Z,Z,B,B,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052786 easy,nonn
+%O A052786 0,7
+%A A052786 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

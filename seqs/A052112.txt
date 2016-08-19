@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052112
+Showing 1-1 of 1
+
+%I A052112
+%S A052112 1,2,14,159,7629,599456,226066304,139178815861,410179495378288,
+%T A052112 2055126126323159298,48234291396964332998082,
+%U A052112 2016523952125103590736221923,382812826011951187177138562992638
+%N A052112 Number of self-complementary directed 2-multigraphs on n nodes.
+%C A052112 A 2-multigraph is similar to an ordinary graph except there are 0, 1 or 2 edges between any two nodes (self-loops are not allowed).
+%Y A052112 Cf. A053467, A003086, A053588.
+%K A052112 nonn
+%O A052112 1,2
+%A A052112 _Vladeta Jovovic_, Jan 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

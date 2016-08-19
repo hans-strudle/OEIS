@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061982
+Showing 1-1 of 1
+
+%I A061982
+%S A061982 0,0,3,17,66,222,701,2151,6516,19628,58983,177069,531350,1594218,
+%T A061982 4782849,14348771,43046568,129139992,387420299,1162261257,3486784170,
+%U A061982 10460352950,31381059333,94143178527,282429536156,847288609092
+%N A061982 3^n - (n + 1)(n + 2)/2.
+%H A061982 Harry J. Smith, <a href="/A061982/b061982.txt">Table of n, a(n) for n=0,...,200</a>
+%o A061982 (PARI) { for (n=0, 200, write("b061982.txt", n, " ", 3^n - (n + 1)*(n + 2)/2) ) } [From _Harry J. Smith_, Jul 29 2009]
+%Y A061982 Column of A061980.
+%K A061982 nonn
+%O A061982 0,3
+%A A061982 _Henry Bottomley_, May 24 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

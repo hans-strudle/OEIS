@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029574
+Showing 1-1 of 1
+
+%I A029574
+%S A029574 0,0,0,0,0,0,0,720,5760,51840,518400,5702400,68428800,889574400,
+%T A029574 11564467200,173467008000,2775472128000,47183026176000,
+%U A029574 849294471168000,16136594952192000,322731899043840000
+%N A029574 Number of permutations of an n-set containing a 7-cycle.
+%F A029574 a(n) = n! * (1 - sum_{k=0..floor(n/7)} (-1)^k/(k!*7^k)).
+%F A029574 a(n)/n! is asymptotic to 1-e^(-1/7) =  1 - A092750.
+%o A029574 (PARI) a(n) = n! * (1 - sum(k=0, floor(n/7), (-1)^k/(k!*7^k) ) ); \\ _Michel Marcus_, Aug 08 2013
+%K A029574 nonn
+%O A029574 0,8
+%A A029574 _Rob Pratt_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

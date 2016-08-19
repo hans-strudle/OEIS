@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062301
+Showing 1-1 of 1
+
+%I A062301
+%S A062301 0,0,1,1,0,1,0,1,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,1,
+%T A062301 0,1,0,0,0,0,0,1,0,1,0,1,0,0,0,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,
+%U A062301 0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1
+%N A062301 Number of ways writing n-th prime as a sum of two primes.
+%Y A062301 Equals A061358(A000040(n)).
+%Y A062301 Cf. A014092, A025584.
+%K A062301 nonn
+%O A062301 0,1
+%A A062301 _Labos Elemer_, Jul 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

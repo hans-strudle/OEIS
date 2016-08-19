@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022637
+Showing 1-1 of 1
+
+%I A022637
+%S A022637 1,9,54,273,1197,4761,17577,60957,200799,633007,1920510,5633667,
+%T A022637 16037700,44439840,120165858,317762553,823240341,2092864401,
+%U A022637 5228118701,12848849154,31100190048,74208885351
+%N A022637 Expansion of Product (1+m*q^m)^9; m=1..inf.
+%K A022637 nonn
+%O A022637 0,2
+%A A022637 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

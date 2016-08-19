@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023166
+Showing 1-1 of 1
+
+%I A023166
+%S A023166 1,7,18,42,138,162,258,282,378,402,498,594,618,642,714,762,978,1002,
+%T A023166 1242,1338,1362,1578,1674,1698,1842,1938,2082,2202,2298,2658,2778,
+%U A023166 2802,2922,3018,3138,3282,3378,3522,3642,3858,3882,4098,4362,4458,4554,4674,4698
+%N A023166 Numbers n such that Fibonacci(n) == -8 (mod n).
+%C A023166 Equivalently, n divides Fibonacci(n)+8.
+%t A023166 Select[Range[5000],Divisible[Fibonacci[#]+8,#]&]  (* _Harvey P. Dale_, Mar 26 2011 *)
+%K A023166 nonn
+%O A023166 1,2
+%A A023166 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

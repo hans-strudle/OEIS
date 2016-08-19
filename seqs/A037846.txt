@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037846
+Showing 1-1 of 1
+
+%I A037846
+%S A037846 0,0,0,0,0,0,1,2,3,0,0,0,1,2,0,0,0,0,1,0,0,0,0,0,0,1,2,3,4,0,0,1,2,3,
+%T A037846 1,1,1,2,3,2,2,2,2,3,3,3,3,3,3,0,1,2,3,4,0,0,1,2,3,0,0,0,1,2,1,1,1,1,
+%U A037846 2,2,2,2,2,2,0,1,2,3,4,0,0,1,2,3,0,0,0,1,2,0
+%N A037846 a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*5^i: i=0,1,...,m} is the base 5 representation of n.
+%p A037846 A037846 := proc(n)
+%p A037846     a := 0 ;
+%p A037846     dgs := convert(n,base,5);
+%p A037846     for i from 2 to nops(dgs) do
+%p A037846         if op(i,dgs)<op(i-1,dgs) then
+%p A037846             a := a-op(i,dgs)+op(i-1,dgs) ;
+%p A037846         end if;
+%p A037846     end do:
+%p A037846     a ;
+%p A037846 end proc: # _R. J. Mathar_, Oct 19 2015
+%K A037846 nonn,base
+%O A037846 1,8
+%A A037846 _Clark Kimberling_
+%E A037846 Definition swapped with A037855. - _R. J. Mathar_, Oct 19 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

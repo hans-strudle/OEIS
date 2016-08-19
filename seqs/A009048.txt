@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009048
+Showing 1-1 of 1
+
+%I A009048
+%S A009048 1,0,1,6,19,20,203,1862,9305,20472,159849,2441230,17558715,
+%T A009048 60043100,365766243,8445023358,80287239857,383311153776,
+%U A009048 1756145007825,61596647223446,735340088843107,4522824431862308,15016682566162427
+%V A009048 1,0,-1,-6,-19,-20,203,1862,9305,20472,-159849,-2441230,-17558715,
+%W A009048 -60043100,365766243,8445023358,80287239857,383311153776,
+%X A009048 -1756145007825,-61596647223446,-735340088843107,-4522824431862308,15016682566162427
+%N A009048 E.g.f. cos(sin(x)*exp(x)).
+%F A009048 a(n)=sum(k=1..n/2, (2^(n-2*k+1)*sum(j=k..n/2, binomial(n,n-2*j)*((k)^(n-2*j)*sum(i=0..k, (i-k)^(2*j)*binomial(2*k,i)*(-1)^(j-i)))))/(2*k)!); [From Vladimir Kruchinin, Jun 13 2011]
+%t A009048 With[{nn=30},CoefficientList[Series[Cos[Sin[x]Exp[x]],{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Jul 10 2015 *)
+%o A009048 (Maxima)
+%o A009048 a(n):=sum((2^(n-2*k+1)*sum(binomial(n,n-2*j)*((k)^(n-2*j)*sum((i-k)^(2*j)*binomial(2*k,i)*(-1)^(j-i),i,0,k)),j,k,n/2))/(2*k)!,k,1,n/2); [From Vladimir Kruchinin, Jun 13 2011]
+%K A009048 sign,easy
+%O A009048 0,4
+%A A009048 _R. H. Hardin_
+%E A009048 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

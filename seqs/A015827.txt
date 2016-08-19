@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015827
+Showing 1-1 of 1
+
+%I A015827
+%S A015827 3,5,7,10,15,21,24,30,31,33,42,47,57,69,78,79,93,102,114,127,129,135,
+%T A015827 145,161,174,177,186,210,213,216,223,231,237,238,239,249,258,264,270,
+%U A015827 282,297,309,318,355,367,371,376,393,399,402,417,418,435,438,455,456
+%N A015827 Numbers n such that phi(n + 9) | sigma(n).
+%H A015827 Vincenzo Librandi, <a href="/A015827/b015827.txt">Table of n, a(n) for n = 1..3000</a>
+%t A015827 Select[Range[1000], Divisible[DivisorSigma[1, #], EulerPhi[9 + #]] &] (* David Nacin, Mar 01 2012 *)
+%o A015827 (PARI) is(n)=sigma(n)%(eulerphi(n)+9)==0 \\ _Charles R Greathouse IV_, Sep 25 2012
+%K A015827 nonn
+%O A015827 1,1
+%A A015827 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

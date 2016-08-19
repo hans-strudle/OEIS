@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024355
+Showing 1-1 of 1
+
+%I A024355
+%S A024355 3,4,5,7,8,9,11,12,12,13,15,15,16,17,19,20,20,21,21,23,24,24,25,27,28,
+%T A024355 28,29,31,32,33,33,35,35,36,36,37,39,39,40,40,41,43,44,44,45,45,47,48,
+%U A024355 48,49,51,51,52,52,53,55,55,56,56,57,57,59,60,60,60,60,61,63
+%N A024355 Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, (A, B) = 1, A <= B); sequence gives values of AUB, sorted.
+%H A024355 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Pythag/pythag.html">Pythagorean Triples and Online Calculators</a>
+%K A024355 nonn
+%O A024355 1,1
+%A A024355 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

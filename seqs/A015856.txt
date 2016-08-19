@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015856
+Showing 1-1 of 1
+
+%I A015856
+%S A015856 2,3,4,5,7,12,13,14,20,28,29,32,36,44,45,52,53,56,60,66,77,84,86,104,
+%T A015856 105,108,110,123,130,144,172,221,228,238,270,287,312,342,366,380,385,
+%U A015856 396,441,468,558,584,585,588,644,672,750,754,760,854,864
+%N A015856 phi(n) | sigma(n + 10).
+%o A015856 (PARI) is(n)=!(sigma(n+10)%eulerphi(n)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%K A015856 nonn
+%O A015856 1,1
+%A A015856 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

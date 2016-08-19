@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037454
+Showing 1-1 of 1
+
+%I A037454
+%S A037454 0,1,2,6,7,8,12,13,14,36,37,38,42,43,44,48,49,50,72,73,74,78,79,80,84,
+%T A037454 85,86,216,217,218,222,223,224,228,229,230,252,253,254,258,259,260,
+%U A037454 264,265,266,288,289,290,294,295,296,300,301,302,432,433,434,438
+%N A037454 a(n)=Sum{d(i)*6^i: i=0,1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is the base 3 representation of n.
+%H A037454 Clark Kimberling, <a href="/A037454/b037454.txt">Table of n, a(n) for n = 0..1000</a>
+%t A037454 t = Table[FromDigits[RealDigits[n, 3], 6], {n, 0, 100}]
+%t A037454 (* _Clark Kimberling_, Aug 03 2012 *)
+%K A037454 nonn,base
+%O A037454 0,3
+%A A037454 _Clark Kimberling_
+%E A037454 Offset changed to 0 by _Clark Kimberling_, Aug 03 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038773
+Showing 1-1 of 1
+
+%I A038773
+%S A038773 11,31,79,331,2531,30319,511039,9700357,223093769,6469694377,
+%T A038773 200560491721,7420738136831,304250263529059,13082761331672803,
+%U A038773 614889782588494961,32589158477190048817,1922760350154212643889
+%N A038773 Smallest primes of form Q+c, where Q is the n-th primorial and c is composite>=Prime[n+1]^2.
+%C A038773 Remark that between 2310 and 2531, 26 primes(2311,...,2521) can be found, all of them have [primorial+prime] form. Observe that a(2)=31=2.3+5^2=2.3.5+1, so it has two "primorial forms"...
+%e A038773 At n=5, 5th primorial is A002110(5)=2310 and 2310+221=2531 is the prime of demanded form, where 221 is composite.
+%Y A038773 A002110, A054757, A054758, A005235.
+%K A038773 nonn
+%O A038773 1,1
+%A A038773 _Labos Elemer_, May 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017067
+Showing 1-1 of 1
+
+%I A017067
+%S A017067 0,512,4096,13824,32768,64000,110592,175616,262144,373248,512000,
+%T A017067 681472,884736,1124864,1404928,1728000,2097152,2515456,2985984,
+%U A017067 3511808,4096000,4741632,5451776,6229504,7077888
+%N A017067 (8*n)^3.
+%H A017067 Vincenzo Librandi, <a href="/A017067/b017067.txt">Table of n, a(n) for n = 0..10000</a>
+%F A017067 G.f.: 512*x*(1+4*x+x^2)/(-1+x)^4 . [From R. J. Mathar, Jun 24 2009]
+%o A017067 (MAGMA) [(8*n)^3: n in [0..35]]; // Vincenzo Librandi, Jul 10 2011
+%K A017067 nonn,easy
+%O A017067 0,2
+%A A017067 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

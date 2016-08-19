@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035682
+Showing 1-1 of 1
+
+%I A035682
+%S A035682 0,0,0,0,0,1,1,1,1,1,2,2,2,4,4,5,5,5,7,7,8,11,12,14,14,15,19,20,22,26,
+%T A035682 29,34,35,37,43,46,51,57,63,72,76,81,91,98,107,117,128,144,153,163,
+%U A035682 179,192,210,226,245,272,290,310,336,360,391,418,450,494,527,564,605
+%N A035682 Number of partitions of n into parts 8k+1 and 8k+5 with at least one part of each type.
+%K A035682 nonn
+%O A035682 1,11
+%A A035682 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

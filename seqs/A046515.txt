@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046515
+Showing 1-1 of 1
+
+%I A046515
+%S A046515 6788,6878,6887,7688,7868,7886,8678,8687,8768,8786,8867,8876,16788,
+%T A046515 16878,16887,17688,17868,17886,18678,18687,18768,18786,18867,18876,
+%U A046515 23788,23878,23887,24678,24687,24768,24786,24867,24876,26478,26487
+%N A046515 Numbers with multiplicative persistence value 6.
+%H A046515 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence</a>
+%e A046515 6788 -> [ 2688 ][ 768 ][ 336 ][ 54 ][ 20 ][ 0 ] -> one digit in six steps.
+%Y A046515 Cf. A003001, A014120, A046506.
+%K A046515 nonn,base
+%O A046515 0,1
+%A A046515 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

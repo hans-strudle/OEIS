@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045976
+Showing 1-1 of 1
+
+%I A045976
+%S A045976 1,1,0,9,121,2704,118336,4092529,0,97734390625,69057113823721,
+%T A045976 61675735716000000,120510849036513735801,204044070747203744272384,0,
+%U A045976 12086640655039701533948077217761,424809992547069296975659357323606889
+%N A045976 A product related to n-th roots of 1.
+%C A045976 a(3*(2*k+1)) = 0 for all k because there are some 3rd roots involved.
+%D A045976 related work:
+%D A045976 (a) Dickson's  History of the Theory of Numbers, Vol II,
+%D A045976 page 756, lines -5 to  -1, and page 757, lines 1 to 4:
+%D A045976 Some related work of E. Wendt is described.
+%D A045976 (b) Idem (a), but page 757, lines 14 to 24:
+%D A045976 Some related work of G. B. Mathews (in 1895) is described.
+%D A045976 (c) Mathews ' work  cited in (b) appears (in French)
+%D A045976 in page 132, lines 1 to 13 of R Nogues, Theoreme de Fermat
+%D A045976 Son Histoire, reprint (1992) Jacques Gabay's edition of the original of 1932.
+%D A045976 All this is related to "the first case" of Fermat's Theorem
+%D A045976 as worked by mathematiciens at the end of 19th century.
+%F A045976 a(n) = product ((1+u)^n +1), where u^n = 1, u != 1.
+%o A045976 (PARI) a(n)=sum(k=1,n-1,(1+exp(2*Pi*I/n))^n+1) \\ _Charles R Greathouse IV_, May 13, 2011
+%K A045976 nonn
+%O A045976 1,4
+%A A045976 _Luis H. Gallardo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

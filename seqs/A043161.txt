@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043161
+Showing 1-1 of 1
+
+%I A043161
+%S A043161 12,33,76,96,140,161,204,225,264,289,332,353,396,417,460,481,524,545,
+%T A043161 588,608,652,673,716,737,768,844,865,908,929,972,993,1036,1057,1100,
+%U A043161 1120,1164,1185,1228,1249,1288,1313,1356,1377
+%N A043161 Numbers n such that 1 and 4 occur juxtaposed in the base 8 representation of n but not of n-1.
+%K A043161 nonn,base
+%O A043161 1,1
+%A A043161 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

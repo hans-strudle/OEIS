@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040418
+Showing 1-1 of 1
+
+%I A040418
+%S A040418 20,1,19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19,
+%T A040418 1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,
+%U A040418 19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19,1,40,1,19
+%N A040418 Continued fraction for sqrt(439).
+%H A040418 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040418 a(n)=(1/24)*{-173*(n mod 4)+169*[(n+1) mod 4]-47*[(n+2) mod 4]+295*[(n+3) mod 4]}-20*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 30 2009]
+%p A040418 with(numtheory): Digits := 300: convert(evalf(sqrt(439)),confrac);
+%K A040418 nonn,cofr,easy
+%O A040418 0,1
+%A A040418 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

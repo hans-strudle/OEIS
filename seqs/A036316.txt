@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036316
+Showing 1-1 of 1
+
+%I A036316
+%S A036316 9,21,27,49,63,81,111,147,189,219,243,259,333,343,441,511,567,657,729,
+%T A036316 777,999,1011,1029,1119,1323,1369,1533,1701,1813,1971,2187,2199,2319,
+%U A036316 2331,2359,2401,2611,2701,2997,3033,3087,3357,3577,3969,4107,4599,5103
+%N A036316 Composite numbers n such that digits of the prime factors of n are either 3 or 7.
+%H A036316 Vincenzo Librandi, <a href="/A036316/b036316.txt">Table of n, a(n) for n = 1..800</a>
+%t A036316 dpfQ[n_]:=Module[{d=Union[Flatten[IntegerDigits/@Transpose[FactorInteger[n]][[1]]]]}, !PrimeQ[n]&&(d == {3}||d == {7}||d == {3, 7})]; Select[Range[6000], dpfQ] (* _Vincenzo Librandi_, Aug 25 2013 *)
+%o A036316 (MAGMA) [n: n in [9..6000] | not IsPrime(n) and forall{f: f in PrimeDivisors(n) | Intseq(f) subset [3,7]}]; // _Bruno Berselli_, Aug 26 2013
+%Y A036316 Cf. A003594, A036302-A036325.
+%K A036316 nonn,base
+%O A036316 1,1
+%A A036316 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

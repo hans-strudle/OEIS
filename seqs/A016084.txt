@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016084
+Showing 1-1 of 1
+
+%I A016084
+%S A016084 5,10,11,13,17,25,32,37,38,40,44,52,59,64,65,67,71,79,86,91,92,94,98,
+%T A016084 106,113,118,119,121,125,133,140,145,146,148,152,160,167,172,173,175,
+%U A016084 179,187,194,199,200,202,206,214,221,226,227,229,233,241,248
+%N A016084 a(n+1) = a(n) + its digital root.
+%F A016084 G.f.: x*(5+2*x^4+6*x^3-4*x^2)/((x+1)*(x^2-x+1)*(x-1)^2) [From Maksym Voznyy (voznyy(AT)mail.ru), Aug 11 2009]
+%K A016084 nonn,base
+%O A016084 1,1
+%A A016084 _Robert G. Wilson v_
+%E A016084 G.f. proposed by Maksym Voznyy checked and corrected by R. J. Mathar, Sep 16 2009.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052195
+Showing 1-1 of 1
+
+%I A052195
+%S A052195 69593,110651,134609,228647,237791,250889,303157,318919,396449,421913,
+%T A052195 498271,507431,535243,554317,629623,642427,642457,668243,692161,
+%U A052195 716003,729791,780523,782581,790897,801217,825131,829289,847393,892291,902873
+%N A052195 Primes p such that p, p+30, p+60 are consecutive primes.
+%H A052195 Zak Seidov, <a href="/A052195/b052195.txt">Table of n, a(n) for n = 1..1000</a>
+%e A052195 69593, 69623, 69653 are consecutive primes.
+%e A052195 110651, 110681 and 110711 are consecutive primes with equal distance d=30
+%Y A052195 Cf. A001223, A033451, A047948, A052188, A052189, A052190, A053075.
+%K A052195 nonn
+%O A052195 1,1
+%A A052195 _Labos Elemer_, Jan 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

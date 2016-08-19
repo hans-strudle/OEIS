@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037838
+Showing 1-1 of 1
+
+%I A037838
+%S A037838 0,0,0,0,0,1,0,1,2,3,4,2,1,0,1,2,3,3,2,1,0,1,2,4,3,2,1,0,1,5,4,3,2,1,
+%T A037838 0,1,2,3,4,5,6,1,0,1,2,3,4,3,2,1,2,3,4,5,4,3,2,3,4,7,6,5,4,3,4,9,8,7,
+%U A037838 6,5,4,2,3,4,5,6,7,2,1,2,3,4,5,2,1,0,1,2,3,4
+%N A037838 Sum{|d(i)-d(i-1)|: i=1,...,m}, where Sum{d(i)*6^i: i=0,1,...,m} is the base 6 representation of n.
+%K A037838 nonn,base
+%O A037838 1,9
+%A A037838 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

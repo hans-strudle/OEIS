@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011573
+Showing 1-1 of 1
+
+%I A011573
+%S A011573 1,8388607,47063200806,11681056634501,485000783495250,
+%T A011573 6090236036084530,31677463851804540,82318282158320505,
+%U A011573 120622574326072500,108254081784931500,63100165695775560,24930204590758260
+%N A011573 Stirling numbers of second kind S2(24,n).
+%D A011573 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 835.
+%D A011573 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 223.
+%H A011573 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%K A011573 nonn,fini
+%O A011573 1,2
+%A A011573 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

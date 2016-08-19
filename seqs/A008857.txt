@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008857
+Showing 1-1 of 1
+
+%I A008857
+%S A008857 0,0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,2,4,6,6,6,6,6,6,6,6,9,12,12,12,12,
+%T A008857 12,12,12,12,16,20,20,20,20,20,20,20,20,25,30,30,30,30,30,30,30,30,36,
+%U A008857 42,42,42,42,42,42,42,42,49
+%N A008857 floor(n/9)*ceil(n/9).
+%K A008857 nonn
+%O A008857 0,11
+%A A008857 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

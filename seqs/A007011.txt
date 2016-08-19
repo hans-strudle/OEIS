@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007011
+Showing 1-1 of 1
+
+%I A007011 M5444
+%S A007011 341,561,11305,825265,45593065,370851481,38504389105,7550611589521,
+%T A007011 277960972890601,32918038719446881,1730865304568301265,
+%U A007011 606395069520916762801,59989606772480422038001,6149883077429715389052001,540513705778955131306570201,35237869211718889547310642241
+%N A007011 a(n) = smallest pseudoprime to base 2 with n prime factors.
+%C A007011 Smallest composite number m with n prime factors such that 2^(m-1)-1 is divisible by m.
+%D A007011 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007011 R. Pinch, <a href="http://www.chalcedon.demon.co.uk/rgep/p41.ps">Pseudoprimes up to 10^13</a>, Proceedings ANTS-IV, 4th Algorithmic Number Theory Symposium, Leiden, 2000. Springer Lecture Notes in Computer Science 1838 (2000) 459--474.
+%H A007011 <a href="/index/Ps#pseudoprimes">Index entries for sequences related to pseudoprimes</a>
+%Y A007011 Cf. A007535.
+%K A007011 nonn,nice
+%O A007011 2,1
+%A A007011 _Richard Pinch_
+%E A007011 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), May 05 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

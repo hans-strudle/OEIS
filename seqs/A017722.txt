@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017722
+Showing 1-1 of 1
+
+%I A017722
+%S A017722 1,59,1770,35990,557845,7028847,74974368,696190560,5743572120,
+%T A017722 42757703560,290752384208,1823810410032,10638894058520,58104729088840,
+%U A017722 298824321028320,1454278362337824,6726037425812436
+%N A017722 Binomial coefficients C(n,58).
+%o A017722 (Sage) [binomial(n, 58) for n in xrange(58,75)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017722 nonn
+%O A017722 58,2
+%A A017722 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016786
+Showing 1-1 of 1
+
+%I A016786
+%S A016786 1,1048576,282475249,10000000000,137858491849,1099511627776,
+%T A016786 6131066257801,26559922791424,95367431640625,296196766695424,
+%U A016786 819628286980801,2064377754059776,4808584372417849,10485760000000000
+%N A016786 (3*n+1)^10.
+%H A016786 Vincenzo Librandi, <a href="/A016786/b016786.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016786 (MAGMA) [(3*n+1)^10: n in [0..20]]; // Vincenzo Librandi, Sep 29 2011
+%K A016786 nonn,easy
+%O A016786 0,2
+%A A016786 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

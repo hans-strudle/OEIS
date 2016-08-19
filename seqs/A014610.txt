@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014610
+Showing 1-1 of 1
+
+%I A014610
+%S A014610 3,5,10,19,37,71,137,264,509,981,1891,3645,7026,13543,26105,50319,
+%T A014610 96993,186960,360377,694649,1338979,2580965,4974970,9589563,18484477,
+%U A014610 35629975,68678985,132383000,255176437
+%N A014610 Tetranacci numbers arising in connection with current algebras sp(2)_n.
+%H A014610 <a href="http://arXiv.org/abs/hep-th/9704138">Reference</a>
+%F A014610 G.f.: (3+2x+2x^2+x^3)/(1-x-x^2-x^3-x^4).
+%K A014610 nonn
+%O A014610 0,1
+%A A014610 _Noureddine Chair_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

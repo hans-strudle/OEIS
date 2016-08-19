@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017968
+Showing 1-1 of 1
+
+%I A017968
+%S A017968 1,5,21,96,441,2021,9261,42439,194481,891224,4084101,18715702,
+%T A017968 85766121,393029742,1801088541,8253624572,37822859361,173326116021,
+%U A017968 794280046581,3639848436450,16679880978201,76436817165460
+%N A017968 Powers of sqrt(21) rounded to nearest integer.
+%H A017968 Vincenzo Librandi, <a href="/A017968/b017968.txt">Table of n, a(n) for n = 0..1000</a>
+%t A017968 Floor[(Sqrt[21])^Range[0,25]+1/2] (* _Harvey P. Dale_, Sep 22 2011 *)
+%o A017968 (PARI) a(n)=round(sqrt(21)^n) \\ _Charles R Greathouse IV_, Nov 18 2011
+%o A017968 (MAGMA) [Round(Sqrt(21)^n): n in [0..30]]; // Vincenzo Librandi, Nov 20 2011
+%K A017968 nonn
+%O A017968 0,2
+%A A017968 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

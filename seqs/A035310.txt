@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035310
+Showing 1-1 of 1
+
+%I A035310
+%S A035310 1,4,12,47,170,750,3255,16010,81199,448156,2579626,15913058,102488024,
+%T A035310 698976419,4976098729
+%N A035310 Let f(n) = number of ways to factor n = A001055(n); a(n) = sum of f(k) over all terms k in A025487 that have n factors.
+%C A035310 Ways of partitioning an n-multiset with multiplicities some partition of n.
+%e A035310 a(3) = 12 because there are 3 terms in A025487 with 3 factors, namely 8, 12, 30; and f(8)=3, f(12)=4, f(30)=5 and 3+4+5 = 12.
+%p A035310 with(numtheory):
+%p A035310 g:= proc(n, k) option remember;
+%p A035310       `if`(n>k, 0, 1) +`if`(isprime(n), 0,
+%p A035310       add(`if`(d>k, 0, g(n/d, d)), d=divisors(n) minus {1, n}))
+%p A035310     end:
+%p A035310 b:= proc(n, i, l)
+%p A035310       `if`(n=0, g(mul(ithprime(t)^l[t], t=1..nops(l))$2),
+%p A035310       `if`(i<1, 0, add(b(n-i*j, i-1, [l[], i$j]), j=0..n/i)))
+%p A035310     end:
+%p A035310 a:= n-> b(n$2, []):
+%p A035310 seq(a(n), n=1..10);  # _Alois P. Heinz_, May 26 2013
+%t A035310 g[n_, k_] := g[n, k] = If[n > k, 0, 1] + If[PrimeQ[n], 0, Sum[If[d > k, 0, g[n/d, d]], {d, Divisors[n] ~Complement~ {1, n}}]]; b[n_, i_, l_] := If[n == 0, g[p = Product[Prime[t]^l[[t]], {t, 1, Length[l]}], p], If[i < 1, 0, Sum[b[n - i*j, i-1, Join[l, Array[i&, j]]], {j, 0, n/i}]]]; a[n_] := b[n, n, {}]; Table[Print[an = a[n]]; an, {n, 1, 13}] (* _Jean-François Alcover_, Dec 12 2013, after _Alois P. Heinz_ *)
+%Y A035310 Cf. A025487, A000041, A000110, A035098, A080688.
+%Y A035310 Sequence A035341 counts the ordered cases. Tables A093936 and A095705 distribute the values; e.g. 81199 = 30 + 536 + 3036 + 6181 + 10726 + 11913 + 14548 + 13082 + 21147.
+%Y A035310 Cf. A035341, A093936, A095705.
+%K A035310 nonn,more,nice
+%O A035310 1,2
+%A A035310 _Alford Arnold_
+%E A035310 More terms from _Erich Friedman_.
+%E A035310 81199 from _Alford Arnold_, Mar 04 2008
+%E A035310 a(10) from _Alford Arnold_, Mar 31 2008
+%E A035310 a(10) corrected by _Alford Arnold_, Aug 07 2008
+%E A035310 a(11)-a(13) from _Alois P. Heinz_, May 26 2013
+%E A035310 a(14) from _Alois P. Heinz_, Sep 27 2014
+%E A035310 a(15) from _Alois P. Heinz_, Jan 10 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

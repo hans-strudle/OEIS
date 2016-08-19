@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007543
+Showing 1-1 of 1
+
+%I A007543 M1826
+%S A007543 2,8,12,8,16,24,20,32,18,24,40,48,28,48,60,32,32,56
+%N A007543 Frequency of n-th largest distance in N times N grid, N > n.
+%D A007543 V. Reddy and S. Skiena, Frequencies of large distances in integer lattices, in Graph theory, combinatorics and algorithms, Vol. 1, 2 (Kalamazoo, MI, 1992), 981-989, Wiley-Intersci. Publ., Wiley, New York, 1995.
+%D A007543 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A007543 Cf. A007544.
+%K A007543 nonn,more
+%O A007543 1,1
+%A A007543 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

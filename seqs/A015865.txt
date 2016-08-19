@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015865
+Showing 1-1 of 1
+
+%I A015865
+%S A015865 6,46,1030,2673,4738,4785,10437,14025,20038,20326,23914,28702,31101,
+%T A015865 39273,39669,41349,41554,44709,46366,55918,68638,74205,93682,94365,
+%U A015865 96790,103678,115245,115642,124785,169990,182830,185073,207118,214090
+%N A015865 Numbers n such that sigma(n) = sigma(n + 5).
+%H A015865 Donovan Johnson, <a href="/A015865/b015865.txt">Table of n, a(n) for n = 1..1000</a>
+%p A015865 A015865:=proc(q) local n;
+%p A015865 for n from 1 to q do if sigma(n+5)=sigma(n) then print(n); fi; od; end:
+%p A015865 A015865 (10^10); # _Paolo P. Lava_, Mar 25 2013
+%t A015865 Select[Range[215000], DivisorSigma[1, #]==DivisorSigma[1, # + 5] &] (* _Vincenzo Librandi_, Mar 10 2014 *)
+%o A015865 (PARI) is(n)=sigma(n)==sigma(n+5) \\ _Charles R Greathouse IV_, Mar 09 2014
+%Y A015865 Cf. A002961, A007373, A015861, A015863, A015866, A015867, A015876, A015877, A015880, A015881, A015882, A015883, A181647.
+%K A015865 nonn
+%O A015865 1,1
+%A A015865 _Robert G. Wilson v_
+%E A015865 Corrected and extended by _T. D. Noe_, Oct 31 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

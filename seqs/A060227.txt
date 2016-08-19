@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060227
+Showing 1-1 of 1
+
+%I A060227
+%S A060227 1,9,19,99,119,199,999,1199
+%N A060227 a(n) = smallest m such that the letter "N" appears n times in the English phrase for m.
+%D A060227 Rodolfo Kurchan, Mesmerizing Math. Puzzles, Sterling Publications, page 19
+%e A060227 a(2)= 9 because Nine has 2 N's.
+%K A060227 nonn,word
+%O A060227 0,2
+%A A060227 _Rodolfo Kurchan_, Mar 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054814
+Showing 1-1 of 1
+
+%I A054814
+%S A054814 1847,2503,3433,9587,21467,22993,25219,26083,32159,33377,33911,39079,
+%T A054814 40787,41213,44249,47269,48799,55871,57773,67003,70099,74257,74687,
+%U A054814 74699,75109,75133,82939,84299,87833,88379,88643,103769,103867
+%N A054814 Second term of strong prime sextets: p(m)-p(m-1) > p(m+1)-p(m) > p(m+2)-p(m+1) > p(m+3)-p(m+2) > p(m+4)-p(m+3).
+%Y A054814 Cf. A051634, A054800-A054840.
+%K A054814 nonn
+%O A054814 0,1
+%A A054814 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

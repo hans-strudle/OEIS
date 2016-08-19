@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025093
+Showing 1-1 of 1
+
+%I A025093
+%S A025093 3,5,22,30,66,82,161,191,342,680,768,1291,1437,2382,2622,4306,4698,
+%T A025093 7673,8311,13526,14562,23648,25328,41075,43797,70966,75374,122066,
+%U A025093 129202,209169,220719,357254,375946,608424,638672,1033531,1082477,1751630,1830830
+%N A025093 a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = (Lucas numbers), t = (odd natural numbers).
+%K A025093 nonn
+%O A025093 1,1
+%A A025093 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

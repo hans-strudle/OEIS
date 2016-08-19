@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023503
+Showing 1-1 of 1
+
+%I A023503
+%S A023503 2,2,3,5,3,2,3,11,7,5,3,5,7,23,13,29,5,11,7,3,13,41,11,3,5,17,53,3,7,
+%T A023503 7,13,17,23,37,5,13,3,83,43,89,5,19,3,7,11,7,37,113,19,29,17,5,5,2,
+%U A023503 131,67,5,23,7,47,73,17,31,13,79,11,7,173,29,11,179,61,31,7,191
+%N A023503 Greatest prime divisor of prime(n) - 1.
+%C A023503 Baker & Harman (1998) show that there are infinitely many n such that a(n)  > prime(n)^0.677. This improves on earlier work of Goldfeld, Hooley, Fouvry, Deshouillers, Iwaniec, Motohashi, et al.
+%C A023503 Fouvry shows that a(n) > prime(n)^0.6683 for a positive proportion of members of this sequence.  See Fouvry and also Baker & Harman (1996) which corrected an error in the former work.
+%D A023503 R. C. Baker and G. Harman, The Brun-Titchmarsh theorem on average, Analytic Number Theory (Proceedings in honor of Heini Halberstam), Birkhauser, Boston, 1996, pp. 39-103.
+%H A023503 T. D. Noe, <a href="/A023503/b023503.txt">Table of n, a(n) for n = 2..10000</a>
+%H A023503 R. Baker and G. Harman, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa83/aa8342.pdf">Shifted primes without large prime factors</a>, Acta Arithmetica 83 (1998), pp. 331-361.
+%H A023503 Etienne Fouvry, <a href="http://dx.doi.org/10.1007/BF01388980">Théorème de Brun-Titchmarsh; application au théorème de Fermat</a>, Invent. Math 79 (1985), 383-407.
+%H A023503 D. M. Goldfeld, <a href="http://dx.doi.org/10.1112/S0025579300004575">On the number of primes p for which p + a has a large prime factor</a>, Mathematika 16 (1969), pp. 23-27.
+%H A023503 R. R. Hall, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa28/aa2816.pdf">Some properties of the sequence {p-1}</a>, Acta Arith. 28 (1975/76), 101-105.
+%H A023503 G. Harman, <a href="http://dx.doi.org/10.1090/S0025-5718-05-01749-7">On the greatest prime factor of p-1 with effective constants</a>
+%F A023503 a(n) = A006530(A006093(n)). - _Michel Marcus_, Aug 15 2015
+%p A023503 s1:=[]; for n from 2 to 120 do m:=ithprime(n)-1; t1:=ifactors(m); t2:=t1[2][nops(t1[2])]; s1:=[op(s1),t2[1]]; od: s1; # assumes ifactors returns the prime factors in increasing order, but I am not certain this is correct
+%t A023503 Table[FactorInteger[Prime[n] - 1][[-1, 1]], {n, 2, 100}] (* _T. D. Noe_, Jun 08 2011 *)
+%o A023503 (PARI) a(n) = vecmax(factor(prime(n)-1)[,1]); \\ _Michel Marcus_, Aug 15 2015
+%Y A023503 Cf. A006093, A006530.
+%K A023503 nonn
+%O A023503 2,1
+%A A023503 _Clark Kimberling_
+%E A023503 Comments, references, and links from _Charles R Greathouse IV_, Mar 04 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

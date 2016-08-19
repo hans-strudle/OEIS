@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008659
+Showing 1-1 of 1
+
+%I A008659
+%S A008659 1,72,1800,17568,57096,225072,439200,1210176,1826568,4269096,5626800,
+%T A008659 11595744,13931424,26733168,30254400,54917568,58449672,102229776,
+%U A008659 106727400,178279200,178482096,295282944,289893600,463416768,445682592
+%N A008659 Theta series of direct sum of 3 copies of D_4 lattice.
+%D A008659 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 119.
+%D A008659 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, pp. 116, equation (4).
+%H A008659 <a href="/index/Da#D4">Index entries for sequences related to D_4 lattice</a>
+%F A008659 Expansion of (8 * E_6(x^2) - E_6(x)) / 7 in powers of x where E_6() is an Eisenstein series.
+%o A008659 (PARI) {a(n) = if( n<1, n==0, 72 * (sigma( n, 5) - if( n%2, 0, 8 * sigma( n/2, 5))))} /* _Michael Somos_, Jul 16 2004 */
+%K A008659 nonn,easy
+%O A008659 0,2
+%A A008659 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

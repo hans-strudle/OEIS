@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027691
+Showing 1-1 of 1
+
+%I A027691
+%S A027691 6,8,12,18,26,36,48,62,78,96,116,138,162,188,216,246,278,312,348,386,
+%T A027691 426,468,512,558,606,656,708,762,818,876,936,998,1062,1128,1196,1266,
+%U A027691 1338,1412,1488,1566,1646,1728,1812,1898,1986,2076,2168,2262
+%N A027691 n^2 + n + 6.
+%H A027691 P. De Geest, <a href="http://www.worldofnumbers.com/quasimor.htm">Palindromic Quasi_Over_Squares of the form n^2+(n+X)</a>
+%F A027691 a(n)=2*n+a(n-1) (with a(0)=6) [From _Vincenzo Librandi_, Aug 05 2010]
+%e A027691 a(1)=2*1+6=8; a(2)=2*2+8=12; a(3)=2*3+12=18 [From _Vincenzo Librandi_, Aug 05 2010]
+%p A027691 with (combinat):seq(fibonacci(3, n)+n+5, n=0..47); - _Zerinvary Lajos_, Jun 07 2008
+%t A027691 Table[n^2+n+6,{n,0,100}] (* _Vladimir Joseph Stephan Orlovsky_, Mar 12 2011*)
+%Y A027691 Cf. A002061, A002378, A002522.
+%K A027691 nonn,easy
+%O A027691 0,1
+%A A027691 _Patrick De Geest_
+%E A027691 Offset changed by _Charles R Greathouse IV_, Jul 25 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

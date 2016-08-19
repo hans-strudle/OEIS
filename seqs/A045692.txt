@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045692
+Showing 1-1 of 1
+
+%I A045692
+%S A045692 0,0,0,1,2,3,8,13,30,55,116,221,458,895,1816,3589,7238,14391,28892
+%N A045692 Number of binary words of length n (beginning 0) with autocorrelation function 2^(n-1)+2.
+%F A045692 a[ 2n-1 ] = 2 a[ 2n-2 ] + 2 a[ n ] for n >= 3; a[ 2n ] = 2 a[ 2n-1 ] -a[ n ] - a[ n+1 ] for n >= 3
+%K A045692 nonn
+%O A045692 1,5
+%A A045692 TORSTEN.SILLKE(AT)LHSYSTEMS.COM
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

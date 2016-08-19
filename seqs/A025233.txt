@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025233
+Showing 1-1 of 1
+
+%I A025233
+%S A025233 1,48,1176,19648,252204,2655456,23901760,189208704,1344644814,
+%T A025233 8713158928,52107076128,290374290624,1519725061816,7518508799904,
+%U A025233 35352238216704,158716136933504,683059486979301,2827559773199856
+%N A025233 Expansion of Product(1+q^m)^48; m=1..inf.
+%K A025233 nonn
+%O A025233 0,2
+%A A025233 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

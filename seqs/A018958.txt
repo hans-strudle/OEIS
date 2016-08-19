@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018958
+Showing 1-1 of 1
+
+%I A018958
+%S A018958 1,13,23,255,1076,7925,45657,309062,2001564
+%N A018958 Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AFO = AlPO4-41 [ Al20P20O80 ].
+%D A018958 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A018958 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A018958 nonn
+%O A018958 2,2
+%A A018958 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

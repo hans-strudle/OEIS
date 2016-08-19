@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035678
+Showing 1-1 of 1
+
+%I A035678
+%S A035678 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,3,0,0,0,0,0,1,3,6,0,0,0,
+%T A035678 0,1,3,7,11,0,0,0,1,3,7,14,18,0,0,1,3,7,15,25,29,0,1,3,7,15,28,43,44,
+%U A035678 1,3,7,15,29,50,69,67,3,7,15,29,53,84,110,99,7,15,29,54,91,138,168
+%N A035678 Number of partitions of n into parts 8k and 8k+7 with at least one part of each type
+%H A035678 Robert Israel, <a href="/A035678/b035678.txt">Table of n, a(n) for n = 1..5000</a>
+%p A035678 np:= combinat:-numbpart:
+%p A035678 NP:= proc(n,m) if m > n then np(n) else np(n,m) fi end proc;
+%p A035678 f:= proc(n) local r0;
+%p A035678    r0:= (-n) mod 8;
+%p A035678    add(np(s)*add(NP((n-8*s-7*r)/8, r), r=r0 .. floor((n-8*s)/7), 8), s=1..floor((n-1)/8))
+%p A035678 end proc:
+%p A035678 seq(f(n),n=1..100); # _Robert Israel_, Apr 06 2016
+%K A035678 nonn
+%O A035678 1,23
+%A A035678 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

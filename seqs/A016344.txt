@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016344
+Showing 1-1 of 1
+
+%I A016344
+%S A016344 1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,
+%T A016344 0,1,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0,0,0,1,1,0,0,0,1,
+%U A016344 1,0,0,0,1,1
+%V A016344 1,1,0,0,0,-1,-1,0,0,0,1,1,0,0,0,-1,-1,-1,-1,0,1,1,1,1,0,-1,-1,-1,-1,
+%W A016344 0,1,1,1,1,1,0,-1,-1,-1,-1,0,1,1,1,1,0,-1,-1,-1,-1,0,0,0,1,1,0,0,0,-1,
+%X A016344 -1,0,0,0,1,1
+%N A016344 170th cyclotomic polynomial.
+%K A016344 sign,fini
+%O A016344 0,1
+%A A016344 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028014
+Showing 1-1 of 1
+
+%I A028014
+%S A028014 1,32,671,11686,183561,2702868,38100595,520688018,6954616493,
+%T A028014 91281855808,1181868771447,15136545033246,192153235734097,
+%U A028014 2421636122107052,30334353203856827,378040802156676970
+%N A028014 Expansion of 1/((1-2x)(1-7x)(1-11x)(1-12x)).
+%F A028014 a(n)=(18*12^(n+3)-25*11^(n+3)+9*7^(n+3)-2^(n+4))/900. [_Yahia Kahloune_, May 31 2013]
+%K A028014 nonn,easy
+%O A028014 0,2
+%A A028014 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

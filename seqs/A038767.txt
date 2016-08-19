@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038767
+Showing 1-1 of 1
+
+%I A038767
+%S A038767 1,2,3,4,6,13,19,28,41,66,85
+%N A038767 Numbers n for which n-th primorial + square of (n+1)-th prime is also a prime.
+%C A038767 r = prime(n+1)^2 is the smallest possible composite number that, if added to the n-th primorial, might give a prime.
+%F A038767 a(n) = A002110(n) + prime(n+1)^2 is prime; n so that A054758(n)=1.
+%e A038767 a(5)=6, 6th primorial is 30030, square of 7th prime is 289, sum gives 30319, a prime. No more were found below 200.
+%Y A038767 A002110, A054758.
+%K A038767 nonn
+%O A038767 1,2
+%A A038767 _Labos Elemer_, May 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048754
+Showing 1-1 of 1
+
+%I A048754
+%S A048754 1,2,5,16,80,7,9,11,34992,13,10584,405,589824,500,17,25088,19,23,
+%T A048754 49000,1125,29,31,1250000,165375,37,23887872000000,41,43,3643149312,
+%U A048754 47,521752,53,76527504,6125,59,861224,61,964467,13176688,27665165088,67
+%N A048754 Mean integral quotients associated with A048753.
+%e A048754 a(6)=21, n=21; quotient of product of aliquot divisors divided by number of aliquot divisors is 7 (aliquot divisors of 21 = 1*3*7 and 21/3 divisors = 7). Since 7 is integral, add to sequence.
+%K A048754 easy,nonn
+%O A048754 4,2
+%A A048754 _Enoch Haga_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

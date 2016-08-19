@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021296
+Showing 1-1 of 1
+
+%I A021296
+%S A021296 0,0,3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,
+%T A021296 3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,3,4,
+%U A021296 2,4,6,5,7,5,3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,3,4,2,4,6,5,7,5,3
+%N A021296 Decimal expansion of 1/292.
+%F A021296 a(n)=(1/56)*{-5*(n mod 8)+16*[(n+1) mod 8]-5*[(n+2) mod 8]-5*[(n+3) mod 8]+23*[(n+4) mod 8]+2*[(n+5) mod 8]+23*[(n+6) mod 8]+23*[(n+7) mod 8]}-7*[C(2*n,n) mod 2]-5*{C[(n+1)^2,n+3] mod 2}, with n>=0 [From _Paolo P. Lava_, Nov 05 2009]
+%K A021296 nonn,cons
+%O A021296 0,3
+%A A021296 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

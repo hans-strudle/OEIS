@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029095
+Showing 1-1 of 1
+
+%I A029095
+%S A029095 1,1,1,1,1,2,2,3,3,3,4,4,6,6,7,8,8,10,10,12,13,14,16,16,19,20,22,24,
+%T A029095 25,28,29,32,34,36,39,41,45,47,50,53,56,60,63,67,70,74,78,82,87,91,96,
+%U A029095 100,105,110,115,121,126,132
+%N A029095 Expansion of 1/((1-x)(1-x^5)(1-x^7)(1-x^12)).
+%Y A029095 Cf. A025886 (first differences). [From _R. J. Mathar_, Oct 23 2008]
+%K A029095 nonn
+%O A029095 0,6
+%A A029095 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

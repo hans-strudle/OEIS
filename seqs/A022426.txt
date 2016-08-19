@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022426
+Showing 1-1 of 1
+
+%I A022426
+%S A022426 2,3,5,10,13,15,17,20,23,26,30,34,37,40,43,46,49,52,55,57,60,63,65,68,
+%T A022426 71,74,77,80,83,86,89,92,95,98,101,104,107,110,114,117,120,123,126,
+%U A022426 130,133,136
+%N A022426 a(n) = c(n-1) + c(n-2) where c is the sequence of numbers not in a.
+%K A022426 nonn
+%O A022426 0,1
+%A A022426 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

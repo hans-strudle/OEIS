@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060371
+Showing 1-1 of 1
+
+%I A060371
+%S A060371 2,3,25,721,3628801,479001601,20922789888001,6402373705728001,
+%T A060371 1124000727777607680001,304888344611713860501504000001,
+%U A060371 265252859812191058636308480000001,371993326789901217467999448150835200000001
+%N A060371 (prime(n) - 1)! + 1.
+%C A060371 If the prime p is in A055469, that is if p = 2, 7, 11, 29, ... = A055469(j) which is valid for the first, 4th, 5th, 10th,.... entry here with j = 1, 2, 3, ..., then a(n) = A052295[A067186(j)] + 1. - _R. J. Mathar_, Apr 27 2007
+%C A060371 It follows from Wilson's theorem that a(n) is divisible by the n-th prime. - _Alonso del Arte_, Feb 07 2014
+%D A060371 Takashi Agoh, Karl Dilcher and Ladislav Skula, "Wilson quotients for composite moduli," Math. Comp., 67 (1998) 843-861. MR 98h:11003
+%D A060371 Richard Crandall, Karl Dilcher and Carl Pomerance, "A search for Wieferich and Wilson primes," Math. Comp., 66:217 (1997) 433-449. MR 97c:11004
+%H A060371 Harry J. Smith, <a href="/A060371/b060371.txt">Table of n, a(n) for n=2,...,100</a>
+%H A060371 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=WilsonPrime">Wilson Primes</a>
+%t A060371 Table[(Prime[n] - 1)! + 1, {n, 12}] (* _Alonso del Arte_, Feb 07 2014 *)
+%o A060371 (PARI) { n=1; forprime (p=1, 524, write("b060371.txt", n++, " ", (p - 1)! + 1); ) } \\ _Harry J. Smith_, Jul 04 2009
+%K A060371 nonn
+%O A060371 1,1
+%A A060371 Jason Earls (zevi_35711(AT)yahoo.com), Apr 01 2001
+%E A060371 Corrected offset, _Alonso del Arte_, Feb 07 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

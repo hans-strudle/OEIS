@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049839
+Showing 1-1 of 1
+
+%I A049839
+%S A049839 2,3,4,4,5,5,5,6,6,6,6,6,7,7,7,7,7,7,7,7,8,8,7,8,8,8,8,8,8,8,8,8,8,9,
+%T A049839 8,9,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,9,9,10,9,9,9,9,10,9,10,10,
+%U A049839 10,10,10,9
+%N A049839 a(n)=MAX{T(n,k): k=1,2,...,n}, array T as in A049837.
+%K A049839 nonn
+%O A049839 1,1
+%A A049839 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

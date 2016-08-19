@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016341
+Showing 1-1 of 1
+
+%I A016341
+%S A016341 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,
+%T A016341 1,0,0,0,1,1,1,1,0,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,
+%U A016341 1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1
+%V A016341 1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,1,-1,0,0,0,1,-1,1,
+%W A016341 -1,0,0,0,1,-1,1,-1,0,0,0,1,-1,1,-1,1,-1,0,1,-1,1,-1,1,-1,0,1,-1,1,-1,
+%X A016341 1,-1,0,1,-1,1,-1,1,-1,1,0,-1,1,-1,1,-1,1,0,-1,1,-1
+%N A016341 161st cyclotomic polynomial.
+%t A016341 CoefficientList[Cyclotomic[161,x],x] (* _Harvey P. Dale_, Aug 22 2014 *)
+%K A016341 sign,fini
+%O A016341 0,1
+%A A016341 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

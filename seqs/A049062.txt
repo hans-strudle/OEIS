@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049062
+Showing 1-1 of 1
+
+%I A049062
+%S A049062 4181,5474,5777,6479,6721,10877,12958,13201,15251,17302,27071,34561,
+%T A049062 40948,41998,44099,47519,51841,54839,64079,64681,65471,67861,68251,
+%U A049062 72831,75077,78089,88198,90061,95038,96049,97921
+%N A049062 Composite n coprime to 5 such that Fibonacci(n) == Legendre(n,5) (mod n).
+%C A049062 If n is a prime, not 5, then Fibonacci(n) == Legendre(n,5) (mod n) (see for example G. H. Hardy and E. M. Wright, Theory of Numbers).
+%D A049062 Yorinaga, Masataka; On a congruencial property of Fibonacci numbers-considerations and remarks. Math. J. Okayama Univ. 19 (1976/77), no. 1, 11-17.
+%D A049062 Yorinaga, Masataka; On a congruencial property of Fibonacci numbers-numerical experiments. Math. J. Okayama Univ. 19 (1976/77), no. 1, 5-10.
+%t A049062 Select[ Range[ 2, 100000 ], ! PrimeQ[ # ] && Mod[ #, 5 ] != 0 && Mod[ Fibonacci[ # ] - JacobiSymbol[ #, 5 ], # ] == 0 & ]
+%Y A049062 Cf. A090820.
+%K A049062 nonn,nice
+%O A049062 1,1
+%A A049062 _N. J. A. Sloane_.
+%E A049062 Yorinaga gives table up to 707000.
+%E A049062 More terms from Eric S Rowland, Apr 29 2004
+%E A049062 Definition corrected by Eric S Rowland, Feb 24 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

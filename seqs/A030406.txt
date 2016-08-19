@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030406
+Showing 1-1 of 1
+
+%I A030406
+%S A030406 1,7,2,15,3,8,1,39,7,51,9,63,2,6,10,87,15,103,18,17,3,29,4,41,27,53,8,
+%T A030406 65,1,5,12,215,39,231,42,247,28,7,48,279,51,295,54,311,31,55,9,343,63,
+%U A030406 359,66,14,2,26,11,38,6,50,56,62,10,37,61,471
+%N A030406 a(n)=least k such that base 4 representation of n begins at s(k), where s=A030401.
+%K A030406 nonn
+%O A030406 1,2
+%A A030406 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

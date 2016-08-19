@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014885
+Showing 1-1 of 1
+
+%I A014885
+%S A014885 1,8177,8178,8179,8180,8181,8182,8183,8184,8192,8193,49137,49138,
+%T A014885 49139,49140,49141,49142,49143,49144,90112,90113,322096,1048576,
+%U A014885 1048577,1056753,1056754,1056755,1056756,1056757,1056758,1056759
+%N A014885 n is equal to the number of 1's in all numbers <= n written in base 8.
+%Y A014885 Cf. A014778.
+%K A014885 nonn,base
+%O A014885 1,2
+%A A014885 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

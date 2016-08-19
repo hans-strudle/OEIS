@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029059
+Showing 1-1 of 1
+
+%I A029059
+%S A029059 1,1,1,2,2,2,3,3,3,5,5,6,8,8,9,11,11,12,15,15,17,20,21,23,26,27,29,33,
+%T A029059 34,37,41,43,46,51,53,56,62,64,68,74,77,81,88,91,96,104,107,113,121,
+%U A029059 125,131,140,144,151,161,166
+%N A029059 Expansion of 1/((1-x)(1-x^3)(1-x^9)(1-x^11)).
+%K A029059 nonn
+%O A029059 0,4
+%A A029059 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

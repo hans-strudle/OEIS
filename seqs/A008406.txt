@@ -1,0 +1,57 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008406
+Showing 1-1 of 1
+
+%I A008406
+%S A008406 1,1,1,1,1,1,1,1,1,2,3,2,1,1,1,1,2,4,6,6,6,4,2,1,1,1,1,2,5,9,15,21,24,
+%T A008406 24,21,15,9,5,2,1,1,1,1,2,5,10,21,41,65,97,131,148,148,131,97,65,41,
+%U A008406 21,10,5,2,1,1,1,1,2,5,11,24,56,115,221,402,663,980,1312,1557,1646,1557
+%N A008406 Triangle T(n,k) read by rows, giving number of graphs with n nodes (n >= 1) and k edges (0 <= k <= n(n-1)/2).
+%C A008406 The index of T(n,k) in the sequence is ((n-2)^3-n+6*k+8)/6.
+%C A008406 T(n,k)=1 for k=n*(n-1)/2-1 and k=n*(n-1)/2 (therefore the pair {1,1} separates sublists for a given number of vertices (n>2)).
+%D A008406 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 264.
+%D A008406 J. L. Gross and J. Yellen, eds., Handbook of Graph Theory, CRC Press, 2004; p. 519.
+%D A008406 F. Harary, Graph Theory. Addison-Wesley, Reading, MA, 1969, p. 214.
+%D A008406 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 240.
+%D A008406 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 146.
+%D A008406 R. W. Robinson, Numerical implementation of graph counting algorithms, AGRC Grant, Math. Dept., Univ. Newcastle, Australia, 1976.
+%H A008406 R. W. Robinson, <a href="/A008406/b008406.txt">Rows 1 to 20 of triangle, flattened</a>
+%H A008406 Leonid Bedratyuk, <a href="http://arxiv.org/abs/1512.06355">A new formula for the generating function of the numbers of simple graphs</a>, arXiv:1512.06355 [math.CO], 2015.
+%H A008406 FindStat - Combinatorial Statistic Finder, <a href="http://www.findstat.org/StatisticsDatabase/St000081">The number of edges of a graph.</a>
+%H A008406 Sriram V. Pemmaraju, <a href="http://www.cs.uiowa.edu/~sriram/Combinatorica/index.html">Combinatorica 2.0</a>
+%H A008406 Gordon Royle, <a href="http://www.cs.uwa.edu.au/~gordon/remote/graphs/index.html#nums">Small graphs</a>
+%H A008406 S. S. Skiena, <a href="http://www.cs.sunysb.edu/~algorith/files/generating-graphs.shtml">Generating graphs</a>
+%H A008406 James Turner, William H. Kautz, <a href="http://dx.doi.org/10.1137/1012125">A survey of progress in graph theory in the Soviet Union</a> SIAM Rev. 12 1970 suppl. iv+68 pp. MR0268074 (42 #2973). See p. 19. - _N. J. A. Sloane_, Apr 08 2014
+%H A008406 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ConnectedGraph.html">Connected Graph</a>
+%H A008406 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SimpleGraph.html">Simple Graph</a>
+%H A008406 A. E. Yurtsun, <a href="http://dx.doi.org/10.1007/BF01085184">Principles of enumeration of the number of graphs</a>, Ukrainian Mathematical Journal, January-February, 1967, Volume 19, Issue 1, pp 123-125, DOI 10.1007/BF01085184. - _N. J. A. Sloane_, Apr 08 2014
+%F A008406 O.g.f. for n-th row: 1/n! Sum_g det(1-g z^2)/det(1-g z) where g runs through the natural matrix representation of the pair group A^2_n (for A^2_n see F. Harary and E. M. Palmer, Graphical Enumeration, page 83). - _Leonid Bedratyuk_, Sep 23 2014
+%e A008406 There are 2 connected graphs with 4 vertices and 3 edges up to isomorphy (first graph: ((1,2),(2,3),(3,4)); second graph: (1,2),(1,3),(1,4)). Index within the sequence is ((4-2)^3 - 4 + 6*3 + 8)/6 = 6.
+%e A008406 Triangle begins:
+%e A008406 1,
+%e A008406 1,1,
+%e A008406 1,1,1,1,
+%e A008406 1,1,2,3,2,1,1, [graphs with 4 nodes and from 0 to 6 edges]
+%e A008406 1,1,2,4,6,6,6,4,2,1,1,
+%e A008406 1,1,2,5,9,15,21,24,24,21,15,9,5,2,1,1,
+%e A008406 1,1,2,5,10,21,41,65,97,131,148,148,131,97,65,41,21,10,5,2,1,1,
+%e A008406 ...
+%p A008406 seq(seq(GraphTheory:-NonIsomorphicGraphs(v,e),e=0..v*(v-1)/2),v=1..9); # _Robert Israel_, Dec 22 2015
+%t A008406 NumberOfConnectedGraphs[vertices_, edges_] := Apply[Plus, Map[ConnectedQ, ListGraphs[vertices, edges]]/.{True->1}/.{False ->0}] The sequence up to MAX vertices: Table[Table[Apply[Plus, Map[ConnectedQ, ListGraphs[Vert, i]]] /.{True->1}/.{False->0}, {i, Vert-1, Vert*(Vert-1)/2}], {Vert, 1, MAX}]] Requires Combinatorica 2.0
+%t A008406 (*First do*) Needs["Combinatorica`"] (*then*) f[vertices_, edges_] := Plus @@ ConnectedQ /@ NumberOfGraphs[vertices, edges] /. {True -> 1, False -> 0}; Table[ f[v, e], {v, 1, 8}, {e, 0, v*(v - 1)/2}] (* _Robert G. Wilson v_, Dec 09 2009 *)
+%t A008406 <<Combinatorica`;Table[CoefficientList[GraphPolynomial[n, x], x], {n, 1, 10}] (* _Eric W. Weisstein_, Mar 20 2013 *)
+%o A008406 (Sage)
+%o A008406 def T(n,k):
+%o A008406     return len(list(graphs(n, size=k)))
+%o A008406 # _Ralf Stephan_, May 30 2014
+%Y A008406 Row sums give A000088.
+%Y A008406 Cf. A046742, A046751, A000717, A001432, A001431, A001430, A001433, A001434, A048179, A048180 etc.
+%Y A008406 Cf. also A039735, A002905.
+%Y A008406 Index calculation for the current sequence: A000124; number of connected graphs for given number of vertices: A001349; number of graphs for given number of edges: A000664.
+%K A008406 nonn,tabf,nice,look
+%O A008406 1,10
+%A A008406 _N. J. A. Sloane_, Mar 15 1996
+%E A008406 Additional comments from Arne Ring (arne.ring(AT)epost.de), Oct 03 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

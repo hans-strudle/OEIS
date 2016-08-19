@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006468
+Showing 1-1 of 1
+
+%I A006468 M3984
+%S A006468 5,37,150,449,1113,2422,4788,8790,15213,25091,39754,60879
+%N A006468 Number of rooted planar maps.
+%D A006468 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006468 Walsh, T. R. S.; Lehman, A. B.; Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%H A006468 Plouffe, Simon, Master Thesis <a href="http://arxiv.org/abs/0911.4975"> _Simon Plouffe_ Master thesis, UQAM, 1992 on the arXiv site.</a>
+%F A006468 G.f.: -(x^3-4*x^2+2*x+5)/(x-1)^7, conjectured in _Simon Plouffe_ Master thesis, 1992.
+%K A006468 nonn
+%O A006468 1,1
+%A A006468 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007389
+Showing 1-1 of 1
+
+%I A007389 M0424
+%S A007389 0,2,3,2,5,2,7,2,9,2,11,2,13,2,15,2,17,11,19,22,21,35,23,50,25,67,36,
+%T A007389 86,58,107,93,130,143,155,210,191,296,249,403,342,533,485,688,695,879,
+%U A007389 991,1128,1394,1470,1927,1955,2615,2650,3494,3641,4622,5035,6092,6962,8047
+%N A007389 7th order maximal independent sets in cycle graph.
+%D A007389 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007389 R. Yanco and A. Bagchi, K-th order maximal independent sets in path and cycle graphs, J. Graph Theory, submitted, 1994, apparently unpublished.
+%F A007389 Empirical g.f.: x^2*(7*x^14+5*x^12+3*x^10-2*x^7-2*x^5-2*x^3-3*x-2) / (x^9+x^2-1). - _Colin Barker_, Mar 29 2014
+%K A007389 nonn
+%O A007389 1,2
+%A A007389 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

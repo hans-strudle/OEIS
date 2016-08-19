@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056628
+Showing 1-1 of 1
+
+%I A056628
+%S A056628 1,1,1,1,1,144,144,144,1296,518400,518400,230400,230400,2822400,
+%T A056628 9144576,146313216,146313216,21069103104,21069103104,52672757760000,
+%U A056628 119439360000,3613040640000,3613040640000,18730002677760000
+%N A056628 Largest unitary square divisor of n!.
+%C A056628 Unitary analog of A055071.
+%F A056628 a(n)=A055071(n)/A055230(n)^2=A008833(n!)/A055229(n!)^2
+%e A056628 n=12, 12!=1440*1440*231, the largest square divisor is 1440^2=2073600. It becomes unitary if divided by g^2=9, so a(12)=230400=480^2.
+%Y A056628 Cf. A055772, A055071, A055230, A000188, A008833, A055229.
+%K A056628 nonn
+%O A056628 1,6
+%A A056628 _Labos Elemer_, Aug 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

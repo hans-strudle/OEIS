@@ -1,0 +1,40 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030717
+Showing 1-1 of 1
+
+%I A030717
+%S A030717 1,1,2,2,1,3,2,3,3,1,4,3,3,4,3,5,1,5,3,6,2,1,6,4,7,2,2,1,7,6,7,3,2,2,
+%T A030717 1,8,8,8,3,2,3,3,8,9,11,3,2,3,3,3,8,10,15,3,2,3,3,4,1,0,1,10,11,18,4,
+%U A030717 2,3,3,5,1,1,1,0,0,0,1,14,12,20,5,3,3,3,5,1,2,2,0,0,0,1,0,0,1,17,14,23,5,5
+%N A030717 Table with T(1,1) = 1; for n>1, T(n,k) is the number of k's in rows 1 through n-1.
+%C A030717 Equivalently, row 1, where, at stage k>1, write i in row 1 and j in row 2, where i is the number of j's in row 1, for j=1,2,...,m, where m=max number in row 1 from stages 1 to k-1; state 1 is 1 in row 1.
+%H A030717 Franklin T. Adams-Watters, <a href="/A030717/b030717.txt">First 32 rows, flattened</a>
+%e A030717 1;
+%e A030717 1;
+%e A030717 2;
+%e A030717 2, 1;
+%e A030717 3, 2;
+%e A030717 3, 3, 1;
+%e A030717 4, 3, 3;
+%o A030717 (Haskell)
+%o A030717 import Data.List (sort, group)
+%o A030717 a030717 n k = a030717_tabf !! (n-1) !! (k-1)
+%o A030717 a030717_row n = a030717_tabf !! (n-1)
+%o A030717 a030717_tabf = [1] : f [1] where
+%o A030717    f xs = ys : f ((filter (> 0) ys) ++ xs) where
+%o A030717           ys = h (group $ sort xs) [1..] where
+%o A030717                h [] _ = []
+%o A030717                h vss'@(vs:vss) (w:ws)
+%o A030717                  | head vs == w = (length vs) : h vss ws
+%o A030717                  | otherwise    = 0 : h vss' ws
+%o A030717 -- _Reinhard Zumkeller_, Dec 28 2014
+%Y A030717 Cf. A126027 (row lengths), A006920, A030718 (column numbers).
+%Y A030717 Cf. A174382.
+%Y A030717  Cf. A253170 (row sums).
+%K A030717 nonn,tabf,nice
+%O A030717 1,3
+%A A030717 _Clark Kimberling_
+%E A030717 More terms from _Franklin T. Adams-Watters_, Dec 14 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

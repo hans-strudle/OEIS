@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010806
+Showing 1-1 of 1
+
+%I A010806
+%S A010806 0,1,262144,387420489,68719476736,3814697265625,101559956668416,
+%T A010806 1628413597910449,18014398509481984,150094635296999121,
+%U A010806 1000000000000000000,5559917313492231481,26623333280885243904
+%N A010806 18th powers: a(n) = n^18.
+%C A010806 Totally multiplicative sequence with a(p) = p^18 for prime p. Multiplicative sequence with a(p^e) = p^(18e). - _Jaroslav Krizek_, Nov 01 2009
+%H A010806 Vincenzo Librandi, <a href="/A010806/b010806.txt">Table of n, a(n) for n = 0..1000</a>
+%t A010806 Range[0, 17]^18 (* _Alonso del Arte_, Feb 17 2015 *)
+%o A010806 (MAGMA) [n^18: n in [0..15]]; // _Vincenzo Librandi_, Jun 19 2011
+%K A010806 nonn,mult,easy
+%O A010806 0,3
+%A A010806 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

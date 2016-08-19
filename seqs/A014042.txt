@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014042
+Showing 1-1 of 1
+
+%I A014042
+%S A014042 1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014042 1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014042 1,1,1,0,0,0,0,0,0,0,0,1,1,1,0
+%V A014042 1,1,1,0,0,0,0,0,0,0,0,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014042 1,1,1,0,0,0,0,0,0,0,0,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014042 1,1,1,0,0,0,0,0,0,0,0,-1,-1,-1,0
+%N A014042 Inverse of 33rd cyclotomic polynomial.
+%H A014042 Vincenzo Librandi, <a href="/A014042/b014042.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014042 <a href="/index/Rec#order_20">Index entries for linear recurrences with constant coefficients</a>, signature (1, 0, -1, 1, 0, -1, 1, 0, -1, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1).
+%p A014042 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014042 CoefficientList[Series[1/Cyclotomic[33, x], {x, 0, 100}], x] (* _Vincenzo Librandi_, Apr 04 2014 *)
+%t A014042 LinearRecurrence[{1, 0, -1, 1, 0, -1, 1, 0, -1, 1, -1, 0, 1, -1, 0, 1, -1, 0, 1, -1},{1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, -1, -1, -1, 0, 0, 0, 0, 0, 0},81] (* _Ray Chandler_, Sep 15 2015 *)
+%o A014042 (PARI) Vec(1/polcyclo(33)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%o A014042 (MAGMA) t:=33; u:=3; m:=u*t+3; R<x>:=PowerSeriesRing(Integers(), m); Coefficients(R!(1/CyclotomicPolynomial(t))); // _Bruno Berselli_, Apr 04 2014
+%K A014042 sign,easy
+%O A014042 0,1
+%A A014042 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

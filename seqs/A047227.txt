@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047227
+Showing 1-1 of 1
+
+%I A047227
+%S A047227 1,2,3,4,7,8,9,10,13,14,15,16,19,20,21,22,25,26,27,28,31,32,33,34,37,
+%T A047227 38,39,40,43,44,45,46,49,50,51,52,55,56,57,58,61,62,63,64,67,68,69,70,
+%U A047227 73,74,75,76,79,80,81,82,85,86,87,88,91,92,93,94,97,98
+%N A047227 Numbers that are congruent to {1, 2, 3, 4} mod 6.
+%H A047227 Vincenzo Librandi, <a href="/A047227/b047227.txt">Table of n, a(n) for n = 1..1000</a>
+%F A047227 From Johannes W. Meijer, Jul 07 2011: (Start)
+%F A047227 a(n) = floor((n+2)/4) + floor((n+1)/4) + floor((n)/4) + 2*floor((n-1)/4) + floor((n+3)/4).
+%F A047227 G.f.: x*(1+x+x^2+x^3+2*x^4)/(x^5-x^4-x+1). (End)
+%t A047227 Complement[Range[100], Flatten[Table[{6n - 1, 6n}, {n, 0, 15}]]] (* _Alonso del Arte_, Jul 07 2011 *)
+%t A047227 Select[Range[100], MemberQ[{1, 2, 3, 4}, Mod[#, 6]]&] (* _Vincenzo Librandi_, Jan 06 2013 *)
+%o A047227 (MAGMA) [n: n in [0..100] | n mod 6 in [1..4]]; // _Vincenzo Librandi_, Jan 06 2013
+%Y A047227 Cf. A047245, A008621. Complement of A047264. Equals A203016 divided by 3.
+%K A047227 nonn,easy
+%O A047227 1,2
+%A A047227 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

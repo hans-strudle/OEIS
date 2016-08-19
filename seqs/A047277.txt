@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047277
+Showing 1-1 of 1
+
+%I A047277
+%S A047277 0,2,6,7,9,13,14,16,20,21,23,27,28,30,34,35,37,41,42,44,48,49,51,55,
+%T A047277 56,58,62,63,65,69,70,72,76,77,79,83,84,86,90,91,93,97,98,100,104,105,
+%U A047277 107,111,112,114,118,119,121
+%N A047277 Numbers that are congruent to {0, 2, 6} mod 7.
+%H A047277 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047277 G.f. x^2*(2+4*x+x^2) / ( (1+x+x^2)*(x-1)^2 ). - R. J. Mathar, Oct 25 2011
+%K A047277 nonn
+%O A047277 1,2
+%A A047277 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

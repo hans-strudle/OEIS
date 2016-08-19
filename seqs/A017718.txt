@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017718
+Showing 1-1 of 1
+
+%I A017718
+%S A017718 1,55,1540,29260,424270,5006386,50063860,436270780,3381098545,
+%T A017718 23667689815,151473214816,895068996640,4922879481520,25371763481680,
+%U A017718 123234279768160,566877686933536,2480089880334220,10358022441395860
+%N A017718 Binomial coefficients C(n,54).
+%t A017718 Binomial[Range[54,80],54]  (* _Harvey P. Dale_, Apr 02 2011 *)
+%o A017718 (Sage) [binomial(n, 54) for n in xrange(54,72)] # [From _Zerinvary Lajos_, May 23 2009]
+%o A017718 (MAGMA) [ Binomial(n, 54): n in [54..180]]; // Vincenzo Librandi, Apr 04 2011
+%K A017718 nonn
+%O A017718 54,2
+%A A017718 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

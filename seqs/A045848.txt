@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045848
+Showing 1-1 of 1
+
+%I A045848
+%S A045848 1,6,15,20,21,36,61,60,45,72,120,120,95,120,186,200,141,150,270,300,
+%T A045848 216,252,375,360,271,306,450,500,390,396,626,660,405,420,735,780,582,
+%U A045848 600,825,920,720,606,960,1140,825
+%N A045848 Number of nonnegative solutions of x1^2 + x2^2 +...+ x6^2 = n.
+%D A045848 Coefficient of q^n in (1+q+q^4+q^9+q^16+q^25+q^36+q^49+q^64+...)^6.
+%H A045848 T. D. Noe, <a href="/A045848/b045848.txt">Table of n, a(n) for n=0..10000</a>
+%K A045848 nonn
+%O A045848 0,2
+%A A045848 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048630
+Showing 1-1 of 1
+
+%I A048630
+%S A048630 15,91,187,551,851,1271,2279,2867,4307,5963,6887,7979,9047,11639,
+%T A048630 14659,18923,20567,24047,27331,31459,32899,40991,44503,47959,54227,
+%U A048630 59987,62879,67159,73543,82319,85907,95371,107143,109783,123463
+%N A048630 n-th 4k+1 prime times n-th 4k-1 prime.
+%Y A048630 A002144(n)*A002145(n).
+%K A048630 nonn
+%O A048630 0,1
+%A A048630 _N. J. A. Sloane_, Den Roussel (DenRoussel(AT)webtv.net)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

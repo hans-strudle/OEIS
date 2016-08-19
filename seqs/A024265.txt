@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024265
+Showing 1-1 of 1
+
+%I A024265
+%S A024265 0,1,4,168,7808,725120,92516352,16783492096,3985986666496,
+%T A024265 1212492098764800,457766291434373120,210284967226818953216,
+%U A024265 115422873756041723510784,74614491201111668354449408
+%N A024265 Expansion of tan(tan(x) * x)/2.
+%t A024265 With[{nn=30},Take[CoefficientList[Series[(Tan[Tan[x]*x])/2,{x,0,nn}],x] Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Nov 03 2015 *)
+%Y A024265 A009707.
+%K A024265 nonn
+%O A024265 0,3
+%A A024265 _R. H. Hardin_
+%E A024265 Extended and signs tested 03/97.
+%E A024265 Definition clarified and prior Mathematica program replaced by _Harvey P. Dale_, Nov 03 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

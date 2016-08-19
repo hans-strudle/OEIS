@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015771
+Showing 1-1 of 1
+
+%I A015771
+%S A015771 1,2,3,6,12,14,15,30,35,42,56,70,78,105,140,168,190,210,248,264,270,
+%T A015771 357,418,420,570,594,616,630,714,744,749,812,840,910,1045,1240,1254,
+%U A015771 1485,1498,1672,1848,2090,2214,2247,2376,2436,2568,2580,2730
+%N A015771 Phi(n) | Sigma_13(n).
+%C A015771 sigma_13(n) is the sum of the 13th powers of the divisors of n.
+%p A015771 with(numtheory); a := []: for n from 1 to 3000 do if sigma[13](n) mod phi(n) = 0 then a := [op(a), n]; fi; od: a;
+%K A015771 nonn
+%O A015771 0,2
+%A A015771 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

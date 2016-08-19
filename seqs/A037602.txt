@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037602
+Showing 1-1 of 1
+
+%I A037602
+%S A037602 1,12,108,973,8760,78840,709561,6386052,57474468,517270213,4655431920,
+%T A037602 41898887280,377089985521,3393809869692,30544288827228,
+%U A037602 274898599445053,2474087395005480
+%N A037602 Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 1,3,0.
+%H A037602 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (9,0,1,-9).
+%F A037602 G.f.: x*(1+3*x) / ( (x-1)*(9*x-1)*(1+x+x^2) ). - _R. J. Mathar_, Apr 27 2015
+%F A037602 A007095(a(n)) = A037603(n). - _R. J. Mathar_, Apr 27 2015
+%K A037602 nonn,base,easy
+%O A037602 1,2
+%A A037602 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

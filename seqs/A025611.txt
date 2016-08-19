@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025611
+Showing 1-1 of 1
+
+%I A025611
+%S A025611 1,2,4,8,9,16,18,32,36,64,72,81,128,144,162,256,288,324,512,576,648,
+%T A025611 729,1024,1152,1296,1458,2048,2304,2592,2916,4096,4608,5184,5832,6561,
+%U A025611 8192,9216,10368,11664,13122,16384,18432,20736,23328,26244,32768,36864,41472
+%N A025611 Numbers of form 2^i*9^j, with i, j >= 0.
+%t A025611 Take[Union[2^First[#] 9^Last[#]&/@Tuples[Range[0,20],{2}]],50] (* _Harvey P. Dale_, May 26 2011 *)
+%K A025611 easy,nonn
+%O A025611 1,2
+%A A025611 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038617
+Showing 1-1 of 1
+
+%I A038617
+%S A038617 2,3,5,7,11,13,17,23,31,37,41,43,47,53,61,67,71,73,83,101,103,107,113,
+%T A038617 127,131,137,151,157,163,167,173,181,211,223,227,233,241,251,257,263,
+%U A038617 271,277,281,283,307,311,313,317,331,337,347,353,367,373,383,401,421
+%N A038617 Primes not containing digit '9'.
+%C A038617 Subsequence of primes of A007095. - _Michel Marcus_, Feb 22 2015
+%C A038617 Maynard proves that this sequence is infinite and in particular contains the expected number of elements up to x, on the order of x^(log 9/log 10)/log x. - _Charles R Greathouse IV_, Apr 08 2016
+%H A038617 James Maynard, <a href="http://arxiv.org/abs/1604.01041">Primes with restricted digits</a>, arXiv:1604.01041 [math.NT], 2016.
+%t A038617 Select[Prime[Range[1000]], DigitCount[ # ][[9]] == 0 &] (* _Stefan Steinerberger_, May 20 2006 *)
+%o A038617 (MAGMA) [ p: p in PrimesUpTo(500) | not 9 in Intseq(p) ]; // _Bruno Berselli_, Aug 08 2011
+%o A038617 (PARI) lista(nn)=forprime(p=2, nn, if (!vecsearch(vecsort(digits(p),,8), 9), print1(p, ", "));); \\ _Michel Marcus_, Feb 22 2015
+%o A038617 (PARI) lista(nn) = forprime (p=2, nn, if (vecmax(digits(p)) != 9, print1(p, ", "))); \\ _Michel Marcus_, Apr 06 2016
+%Y A038617 Cf. A000040, A007095.
+%Y A038617 Primes with restrictions on digits: A038603, A038604, A038611, A038612, A038613, A038614, A038615, A038616, A038618, A106116, A156756.
+%K A038617 nonn,easy,base
+%O A038617 1,1
+%A A038617 Vasiliy Danilov (danilovv(AT)usa.net), Jul 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

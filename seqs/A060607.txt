@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060607
+Showing 1-1 of 1
+
+%I A060607
+%S A060607 1,2,3,3,4,4,5,4,5,5,5,5,6,5,6,6,6,6,6,6,6,6,7,7,7,7,7,7,6,7,6,7,8,7,
+%T A060607 7,7,7,6,8,7,8,7,7,8,7,7,7,7,8,7,8,8,8,8,9,8,8,7,8,8,8,8,8,8,8,8,8,8,
+%U A060607 8,8,9,9,8,8,7,8,9,8,9,9,8,8,8,8,8,9,9,8,9,8,9,9,7,8,9,9,8,9,8,8,8,9,9,9,8
+%N A060607 Length of iteration chain of phi[p(n)] needed to reach 1; initial value = p(n) is the n-th prime.
+%F A060607 a(n)=A049108[A000040(n)]
+%Y A060607 A000040, A000005, A049108, A003434.
+%K A060607 easy,nonn
+%O A060607 1,2
+%A A060607 _Labos Elemer_, Apr 13 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

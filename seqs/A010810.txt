@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010810
+Showing 1-1 of 1
+
+%I A010810
+%S A010810 0,1,4194304,31381059609,17592186044416,2384185791015625,
+%T A010810 131621703842267136,3909821048582988049,73786976294838206464,
+%U A010810 984770902183611232881,10000000000000000000000,81402749386839761113321
+%N A010810 22nd powers: a(n) = n^22.
+%C A010810 Totally multiplicative sequence with a(p) = p^22 for prime p. Multiplicative sequence with a(p^e) = p^(22e). [From _Jaroslav Krizek_, Nov 01 2009]
+%H A010810 Vincenzo Librandi, <a href="/A010810/b010810.txt">Table of n, a(n) for n = 0..1000</a>
+%o A010810 (MAGMA) [n^22: n in [0..15]]; // Vincenzo Librandi, Jun 19 2011
+%K A010810 nonn,mult
+%O A010810 0,3
+%A A010810 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

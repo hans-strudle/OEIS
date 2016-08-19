@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023486
+Showing 1-1 of 1
+
+%I A023486
+%S A023486 7,11,15,22,31,45,67,103,159,249,394,628,1006,1617,2605,4203,6788,
+%T A023486 10970,17736,28683,46395,75053,121422,196448,317842,514261,832073,
+%U A023486 1346303,2178344,3524614,5702924,9227503,14930391,24157857,39088210
+%N A023486 a(n) = b(n) + d(n), where b(n) = (n-th Fibonacci number > 2) and d(n) = (n-th nonFibonacci number).
+%K A023486 nonn
+%O A023486 0,1
+%A A023486 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

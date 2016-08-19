@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060092
+Showing 1-1 of 1
+
+%I A060092
+%S A060092 3,7,16,12,63,125,90,18,162,722,1716,1680,25,341,2565,11350,27342,
+%T A060092 29960,7560,33,636,7180,49860,208302,503000,631512,302400,42,1092,
+%U A060092 17335,173745,1099602,4389875,10762299,14975730,9632700,1247400
+%N A060092 Triangle T(n,k) of k-block ordered bicoverings of an unlabeled n-set.
+%F A060092 E.g.f. for k-block ordered bicoverings of an unlabeled n-set is exp(-x-x^2/2*y/(1-y))*Sum_{k=0..inf} 1/(1-y)^binomial(k, 2)*x^k/k!.
+%e A060092 [3], [7, 16], [12, 63, 125, 90], [18, 162, 722, 1716, 1680], [25, 341, 2565, 11350, 27342, 29960, 7560], [33, 636, 7180, 49860, 208302, 503000, 631512, 302400], [42, 1092, 17335, 173745, 1099602, 4389875, 10762299, 14975730, 9632700, 1247400], ...; There are 23=7+16 ordered bicoverings of an unlabeled 3-set: 7 3-block bicoverings and 16 4-block bicoverings, cf. A060090.
+%Y A060092 Cf. (row sums) A060090, A060091, A060093-A060095, A060069, A060070, A060051-A060053, A002718, A059443, A003462, A059945-A059951.
+%K A060092 nonn,tabf
+%O A060092 2,1
+%A A060092 _Vladeta Jovovic_, Feb 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

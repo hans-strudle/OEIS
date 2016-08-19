@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061411
+Showing 1-1 of 1
+
+%I A061411
+%S A061411 1,22,24,65,110,112,135,137,166,167,218,219,220,228,229,239,257,280,
+%T A061411 310,344,345,346,398,399,403,404,405,430,439,440,475,494,504,505,508,
+%U A061411 522,524,534,535,536,557,559,592,619,620,624,625,626,679,703,705,706
+%N A061411 m.2^n-1 is not prime for all coefficients m in the range 0<=m<=n.
+%Y A061411 Cf. A061410-A061415.
+%K A061411 nonn
+%O A061411 0,2
+%A A061411 _Patrick De Geest_, May 15 2001.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

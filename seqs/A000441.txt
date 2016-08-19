@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000441
+Showing 1-1 of 1
+
+%I A000441 M4613 N1968
+%S A000441 0,1,9,34,95,210,406,740,1161,1920,2695,4116,5369,7868,9690,13640,
+%T A000441 16116,22419,25365,34160,38640,50622,55154,73320,77225,100100,107730,
+%U A000441 135576,141085,182340,184760,233616,243408,297738,301420,385110,377511,467210,478842
+%N A000441 Sum(k*sigma(k)*sigma(n-k),k=1..n-1).
+%D A000441 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000441 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000441 J. Touchard, On prime numbers and perfect numbers, Scripta Math., 129 (1953), 35-39.
+%H A000441 J. Touchard, <a href="/A000385/a000385.pdf">On prime numbers and perfect numbers</a>, Scripta Math., 129 (1953), 35-39. [Annotated scanned copy]
+%F A000441 a(n) = sum(k=1..n-1, k * sigma(k) * sigma(n-k) ). Convolution of A000203 with A064987. - _Sean A. Irvine_, Nov 14 2010
+%p A000441 S:=(n,e)->add(k^e*sigma(k)*sigma(n-k),k=1..n-1);
+%p A000441 f:=e->[seq(S(n,e),n=1..30)];f(1); # from _N. J. A. Sloane_, Jul 03 2015
+%t A000441 a[n_] := Sum[k*DivisorSigma[1, k]*DivisorSigma[1, n-k], {k, 1, n-1}]; Array[a, 40] (* _Jean-François Alcover_, Feb 08 2016 *)
+%o A000441 (PARI) a(n) = sum(k=1, n-1, k*sigma(k)*sigma(n-k)); \\ _Michel Marcus_, Feb 02 2014
+%Y A000441 Cf. A000441, A000499.
+%K A000441 nonn
+%O A000441 1,3
+%A A000441 _N. J. A. Sloane_.
+%E A000441 More terms from _Sean A. Irvine_, Nov 14 2010
+%E A000441 a(1)=0 prepended by _Michel Marcus_, Feb 02 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

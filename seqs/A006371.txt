@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006371
+Showing 1-1 of 1
+
+%I A006371 M0207
+%S A006371 1,1,1,1,1,2,2,2,1,2,3,2,2,2,3,3,2,3,4,2,1,4,5,4,2,2,4,4,3,4,5,4,1,4,
+%T A006371 7,3,3,4,5,6,3
+%N A006371 Number of reduced binary quadratic forms of discriminant -n.
+%D A006371 H. Davenport, The Higher Arithmetic. Cambridge Univ. Press, 5th edition, 1982, p. 144.
+%D A006371 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006371 Rick L. Shepherd, <a href="http://libres.uncg.edu/ir/uncg/f/Shepherd_uncg_0154M_11099.pdf">Binary quadratic forms and genus theory</a>, Master of Arts Thesis, University of North Carolina at Greensboro, 2013.
+%Y A006371 Cf. A006374.
+%K A006371 nonn
+%O A006371 3,6
+%A A006371 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035495
+Showing 1-1 of 1
+
+%I A035495
+%S A035495 1,1,6,19,43,66,80,66,43,19,6,1,1
+%N A035495 Musical scales consisting of n notes.
+%D A035495 R. C. Read, Combinatorial problems in theory of music, Discrete Math. 167 (1997), 543-551.
+%H A035495 H. Fripertinger, <a href="http://www.mat.univie.ac.at/~slc/opapers/s26fripert.html">Enumeration in musical theory</a>
+%F A035495 Coefficient of x^n in cycle index Z(C_12; 1+x).
+%K A035495 nonn,fini,full,nice
+%O A035495 0,3
+%A A035495 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

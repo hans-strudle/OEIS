@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020330
+Showing 1-1 of 1
+
+%I A020330
+%S A020330 3,10,15,36,45,54,63,136,153,170,187,204,221,238,255,528,561,594,627,
+%T A020330 660,693,726,759,792,825,858,891,924,957,990,1023,2080,2145,2210,2275,
+%U A020330 2340,2405,2470,2535,2600,2665,2730,2795,2860,2925,2990,3055,3120,3185,3250
+%N A020330 Numbers n such that base 2 representation is the juxtaposition of two identical strings.
+%C A020330 All differences are in union of A000051 and A001576. - _Vladimir Shevelev_, Dec 07 2013
+%H A020330 Reinhard Zumkeller, <a href="/A020330/b020330.txt">Table of n, a(n) for n = 1..8191</a>
+%F A020330 a(n) = n + 2n*2^floor(log2(n)). - _Ralf Stephan_, Dec 07 2004
+%e A020330 36 is a member because 36 = 100100_2 which is 100 followed by 100.
+%t A020330 Table[n + 2 n*2^Floor[Log[2, n]], {n, 50}] (* _T. D. Noe_, Dec 10 2013 *)
+%o A020330 (Haskell)
+%o A020330 a020330 n = foldr (\d v -> 2 * v + d) 0 (bs ++ bs) where
+%o A020330    bs = a030308_row n
+%o A020330 -- _Reinhard Zumkeller_, Feb 19 2013
+%o A020330 (PARI) a(n)=n+n<<#binary(n) \\ _Charles R Greathouse IV_, Mar 29 2013
+%o A020330 (PARI) is(n)=my(L=#binary(n)\2); n>>L==bitand(n,2^L-1) \\ _Charles R Greathouse IV_, Mar 29 2013
+%Y A020330 Subsequence of A121016.
+%Y A020330 Cf. A062383, A030308, A007088.
+%Y A020330 Column k=0 of A246830, column k=1 of A246834.
+%K A020330 nonn,base,easy,look
+%O A020330 1,1
+%A A020330 _David W. Wilson_, Melia Aldridge, ma38(AT)spruce.evansville.edu
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015761
+Showing 1-1 of 1
+
+%I A015761
+%S A015761 1,2,3,6,12,14,15,30,35,38,42,54,56,70,78,87,95,105,114,126,135,140,
+%T A015761 147,168,174,182,190,209,210,215,216,222,248,258,264,270,285,294,297,
+%U A015761 315,357,418,420,430,455,456,540,546,551,570,594,609,616,627
+%N A015761 Phi(n) | Sigma_3(n).
+%C A015761 sigma_3(n) is the sum of the cubes of the divisors of n (A001158).
+%K A015761 nonn
+%O A015761 0,2
+%A A015761 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

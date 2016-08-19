@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003972
+Showing 1-1 of 1
+
+%I A003972
+%S A003972 1,2,4,6,6,8,10,18,20,12,12,24,16,20,24,54,18,40,22,36,40,24,28,72,42,
+%T A003972 32,100,60,30,48,36,162,48,36,60,120,40,44,64,108,42,80,46,72,120,56,
+%U A003972 52,216,110,84,72,96,58,200,72,180,88,60,60,144,66,72,200,486,96,96,70
+%N A003972 Moebius transform of A003961.
+%H A003972 Vincenzo Librandi, <a href="/A003972/b003972.txt">Table of n, a(n) for n = 1..1000</a>
+%F A003972 Multiplicative with a(p^e) = (q-1)q^(e-1) where q = nextPrime(p).. - _David W. Wilson_, Sep 01, 2001
+%t A003972 b[1] = 1; b[p_?PrimeQ] := b[p] = Prime[ PrimePi[p] + 1]; b[n_] := b[n] = Times @@ (b[First[#]]^Last[#] &) /@ FactorInteger[n]; a[n_] := Sum[ MoebiusMu[n/d]*b[d], {d, Divisors[n]}]; Table[a[n], {n, 1, 70}]  (* _Jean-François Alcover_, Jul 18 2013 *)
+%K A003972 nonn,mult
+%O A003972 1,2
+%A A003972 _Marc LeBrun_
+%E A003972 More terms from _David W. Wilson_, Aug 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060052
+Showing 1-1 of 1
+
+%I A060052
+%S A060052 1,1,4,15,25,3,30,222,226,40,30,1230,3670,2706,535,15,5040,39900,
+%T A060052 69450,40405,8141,420,15120,345240,1254960,1498035,722275,142877,9730,
+%U A060052 105,30240,2492280,18587520,40701780,36450820,15031204,2871240,226828,5040
+%N A060052 Triangle read by rows: T(n,k) (n >= 2) gives number of r-bicoverings of an n-set with k blocks.
+%C A060052 A bicovering is r-bicovering if intersection of every two blocks contains at most one element.
+%D A060052 I. P. Goulden and D. M. Jackson, Combinatorial Enumeration, John Wiley and Sons, N.Y., 1983.
+%H A060052 <a href="/A060052/a060052.pdf">Table</a>
+%F A060052 E.g.f. for number of k-block r-bicoverings of an n-set is exp(-x-1/2*x^2*y)*Sum_{i=0..inf} (1+y)^binomial(i, 2)*x^i/i!.
+%e A060052 [1], [1, 4], [15, 25, 3], [30, 222, 226, 40], [30, 1230, 3670, 2706, 535, 15], [5040, 39900, 69450, 40405, 8141, 420], [15120, 345240, 1254960, 1498035, 722275, 142877, 9730, 105], [30240, 2492280, 18587520, 40701780, 36450820, 15031204, 2871240, 226828, 5040], ...
+%Y A060052 Cf. A060053(row sums), A060051(column sums), A002718, A059443, A003462, A059945-A059951.
+%K A060052 easy,nonn,tabl
+%O A060052 2,3
+%A A060052 _Vladeta Jovovic_, Feb 15 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

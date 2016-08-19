@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036388
+Showing 1-1 of 1
+
+%I A036388
+%S A036388 0,0,0,0,1,4,12,30,69,156,347,747,1602,3378,7075,14719,30471,62836,
+%T A036388 128240,264610
+%N A036388 Number of odd split numbers (A036382) of which the binary order (A029837) is <=n, i.e. those which occur below 2^n.
+%e A036388 Below 32 the only odd split number is 21, so a(5) = 1. [ In this range there are also 11 primes, 7 true prime powers, 1 composite connected number (15) and 4 even split numbers ]
+%Y A036388 Cf. A029837, A036378-A036390.
+%K A036388 nonn
+%O A036388 1,6
+%A A036388 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001587
+Showing 1-1 of 1
+
+%I A001587 M1715 N0679
+%S A001587 2,6,46,522,7970,152166,3487246,93241002,2849229890,97949265606,
+%T A001587 3741386059246,157201459863882,7205584123783010,357802951084619046,
+%U A001587 19133892392367261646,1096291279711115037162,67000387673723462963330,4350684698032741048452486
+%N A001587 Generalized Euler numbers.
+%D A001587 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001587 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001587 Lars Blomberg, <a href="/A001587/b001587.txt">Table of n, a(n) for n = 0..199</a>
+%H A001587 D. Shanks, <a href="http://dx.doi.org/10.1090/S0025-5718-1967-0223295-5">Generalized Euler and class numbers</a>. Math. Comp. 21 (1967) 663-688.
+%H A001587 D. Shanks, <a href="http://dx.doi.org/10.1090/S0025-5718-68-99652-X">Corrigendum: Generalized Euler and class numbers</a>. Math. Comp. 22, (1968) 699.
+%H A001587 D. Shanks, <a href="/A000003/a000003.pdf">Generalized Euler and class numbers</a>, Math. Comp. 21 (1967), 689-694; 22 (1968), 699. [Annotated scanned copy]
+%K A001587 nonn
+%O A001587 0,1
+%A A001587 _N. J. A. Sloane_
+%E A001587 a(11)-a(14) from _Lars Blomberg_, Sep 10 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

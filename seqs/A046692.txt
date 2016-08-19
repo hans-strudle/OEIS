@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046692
+Showing 1-1 of 1
+
+%I A046692
+%S A046692 1,3,4,2,6,12,8,0,3,18,12,8,14,24,24,0,18,9,20,12,32,36,
+%T A046692 24,0,5,42,0,16,30,72,32,0,48,54,48,6,38,60,56,0,42,96,44,
+%U A046692 24,18,72,48,0,7,15,72,28,54,0,72,0,80,90,60,48,62,96,24,0,84,144,68,36,96,144,72,0,74,114,20,40,96,168
+%V A046692 1,-3,-4,2,-6,12,-8,0,3,18,-12,-8,-14,24,24,0,-18,-9,-20,-12,32,36,
+%W A046692 -24,0,5,42,0,-16,-30,-72,-32,0,48,54,48,6,-38,60,56,0,-42,-96,-44,
+%X A046692 -24,-18,72,-48,0,7,-15,72,-28,-54,0,72,0,80,90,-60,48,-62,96,-24,0,84,-144,-68,-36,96,-144,-72,0,-74,114,-20,-40,96,-168
+%N A046692 Dirichlet inverse of sigma function (A000203).
+%D A046692 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 39.
+%D A046692 Feist, Andrew R., Fun With the Sigma-Function, unpub.
+%F A046692 a(p) = -p-1, a(p^2) = p, a(p^k) = 0 for k > 2.
+%e A046692 a(36) = a(2^2*3^2) = 2*3 = 6
+%p A046692 t := 1; a := proc(n,t) local t1,d; t1 := 0; for d from 1 to n do if n mod d = 0 then t1 := t1+d^t*mobius(d)*mobius(n/d); fi; od; t1; end;
+%t A046692 a[n_] := (k = 0; Do[If[Mod[n, d] == 0, k = k + d*MoebiusMu[d]*MoebiusMu[n/d]], {d, 1, n}]; k); Table[a[n], {n, 1, 78}](* _Jean-François Alcover_, Oct 13 2011, after Maple *)
+%o A046692 (PARI) a(n)=if(n<1,0,direuler(p=2,n,(1-X)*(1-p*X))[n]) /* _Ralf Stephan_ */
+%Y A046692 Cf. A000203.
+%K A046692 easy,mult,sign,nice
+%O A046692 1,2
+%A A046692 Andrew R. Feist (arf22540(AT)cmsu2.cmsu.edu)
+%E A046692 Corrected by _T. D. Noe_, Nov 13 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

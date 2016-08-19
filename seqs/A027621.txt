@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027621
+Showing 1-1 of 1
+
+%I A027621
+%S A027621 90,288,700,1440,2646,4480,7128,10800,15730,22176,30420,40768,53550,
+%T A027621 69120,87856,110160,136458,167200,202860,243936,290950,344448,405000,
+%U A027621 473200,549666,635040,729988,835200,951390,1079296,1219680
+%N A027621 n + (n+1)^2 + (n+2)^3 + (n+3)^4.
+%H A027621 Vincenzo Librandi, <a href="/A027621/b027621.txt">Table of n, a(n) for n = 0..10000</a>
+%H A027621 P. De Geest, <a href="http://www.worldofnumbers.com/sumpower.htm">Palindromic Quasi_Under_Squares of the form n+(n+1)^2</a>
+%H A027621 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%F A027621 G.f.: -16/(-1+x)-24/(-1+x)^5+16/(-1+x)^2-16/(-1+x)^3+18/(-1+x)^4 . - R. J. Mathar, Feb 22 2008
+%F A027621 a(n) = (n+3)^2*(n^2+7*n+10).  - Bruno Berselli, Aug 05 2011
+%o A027621 (Sage) [i+(i+1)^2+(i+2)^3+(i+3)^4 for i in xrange(0,36)] # _Zerinvary Lajos_, Jul 03 2008
+%o A027621 (MAGMA) [n + (n+1)^2 + (n+2)^3 + (n+3)^4: n in [0..30]]; // Vincenzo Librandi, Aug 05 2011
+%K A027621 nonn,easy
+%O A027621 0,1
+%A A027621 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

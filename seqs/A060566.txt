@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060566
+Showing 1-1 of 1
+
+%I A060566
+%S A060566 1523,1447,1373,1301,1231,1163,1097,1033,971,911,853,797,743,691,641,
+%T A060566 593,547,503,461,421,383,347,313,281,251,223,197,173,151,131,113,97,
+%U A060566 83,71,61,53,47,43,41,41,43,47,53,61,71,83,97,113,131,151,173,197,223,251
+%N A060566 a(n) = n^2 - 79*n + 1601.
+%C A060566 The formula produces primes for all values of n from 0 through 79.
+%C A060566 First 80 prime entries are palindromically distributed because a(n) = P(x) = x^2 + x + 41, with x=n-40 and we observe that P(x) generates primes (A005846) for x = 0 through 39, along with the fact that P(-x) = P(x-1). - _Lekraj Beedassy_, Apr 24 2006
+%D A060566 C. Stanley Ogilvy and John T. Anderson, Excursions in Number Theory, Dover Publications, NY, 1966, p. 37, 147.
+%H A060566 Harry J. Smith, <a href="/A060566/b060566.txt">Table of n, a(n) for n=1,...,500</a>
+%t A060566 lst={};Do[AppendTo[lst,n^2-79*n+1601],{n,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Apr 05 2009 *)
+%o A060566 (PARI) { for (n=1, 500, write("b060566.txt", n, " ", n^2 - 79*n + 1601); ) } \\ _Harry J. Smith_, Jul 07 2009
+%K A060566 easy,nonn
+%O A060566 1,1
+%A A060566 Jason Earls (zevi_35711(AT)yahoo.com), Apr 11 2001
+%E A060566 Edited by _N. J. A. Sloane_ at the suggestion of _Andrew Plewe_, May 16 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

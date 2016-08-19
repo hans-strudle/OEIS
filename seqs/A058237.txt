@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058237
+Showing 1-1 of 1
+
+%I A058237
+%S A058237 1,2,3,5,8,9,13,16,24,29,56,120,160,216,493
+%N A058237 Numbers n such that x^n + x^4 + 2 is irreducible over GF(3).
+%t A058237 Do[ If[ ToString[ Factor[ x^n + x^4 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^4 + 2 ], Print[ n ] ], {n, 0, 1027} ]
+%Y A058237 Cf. A057463.
+%K A058237 nonn
+%O A058237 1,2
+%A A058237 _Robert G. Wilson v_, Dec 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

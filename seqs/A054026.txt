@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054026
+Showing 1-1 of 1
+
+%I A054026
+%S A054026 0,0,0,0,300,1296,4116,9984,21384
+%N A054026 a(n) is the number of sets of natural numbers [a,b,c,d,e] that can be produced with the numbers [0..n] such that the values of all the distinct parenthesized expressions of a-b-c-d-e are different.
+%C A054026 There are 14 ways to put parentheses in the expression a - b - c - d - e: ((a - (b - c)) - d) - e, (((a - b) - c) - d) - e, ((a - b) - (c - d)) - e, etc. This sequence describes how many sets of natural numbers [a,b,c,d,e] can be produced with the numbers {0,1,2,3,...n} such that the values of all the distinct expressions are different.
+%H A054026 <a href="/index/Par#parens">Index entries for sequences related to parenthesizing</a>
+%F A054026 Empirical formula: a(n) = n * (n-1) * (n-2) * (n-3) * (27*n^4 -682*n^3 +6398*n^2 -26300*n +42193)/210. - _Jean-François Alcover_, Jan 20 2015
+%e A054026 For example, no such sets can be produced with only 0's, only 0's and 1's, only 0's and 1's and 2's, only 1's and 2's and 3's; with {0,1,2,3,4}, 300 such sets can be produced.
+%Y A054026 Cf. A045991 (similar for a - b - c), A047929 (similar for a - b - c - d).
+%K A054026 nonn,nice,more
+%O A054026 0,5
+%A A054026 Asher Auel (asher.auel(AT)reed.edu), Jan 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007702
+Showing 1-1 of 1
+
+%I A007702
+%S A007702 6,15015,33426748355,1357656019974967471687377449,
+%T A007702 7105630242567996762185122555313528897845637444413640621
+%N A007702 a(n) = prime(n)*...*prime(m), the least product of consecutive primes which is non-deficient.
+%Y A007702 Cf. A005100, A007741, A007684, A007686.
+%K A007702 nonn
+%O A007702 1,1
+%A A007702 _Walter Nissen_
+%E A007702 More terms from Don Reble (djr(AT)nk.ca), Nov 10 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

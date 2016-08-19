@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052675
+Showing 1-1 of 1
+
+%I A052675
+%S A052675 1,4,40,600,12000,300000,9000000,315000000,12600000000,567000000000,
+%T A052675 28350000000000,1559250000000000,93555000000000000,
+%U A052675 6081075000000000000,425675250000000000000,31925643750000000000000
+%N A052675 E.g.f. (1-x)/(1-5x).
+%H A052675 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=623">Encyclopedia of Combinatorial Structures 623</a>
+%F A052675 E.g.f.: (-1+x)/(-1+5*x)
+%F A052675 Recurrence: {a(0)=1, (-5*n-5)*a(n)+a(n+1)=0, a(1)=4}
+%F A052675 4*5^(n-1)*n!, n>0.
+%p A052675 spec := [S,{S=Sequence(Prod(Sequence(Z),Union(Z,Z,Z,Z)))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%Y A052675 Equals (4/5) * A052562.
+%K A052675 easy,nonn
+%O A052675 0,2
+%A A052675 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027571
+Showing 1-1 of 1
+
+%I A027571
+%S A027571 1,9,12,16,919,1257,1262,1621,1706,170706,904280,1258182,7901014,
+%T A027571 8659929,12458597,17070706,80472264,1616689803,1680689788,1705387643
+%N A027571 Numbers n such that n^2 + (n+1)^2 is palindromic.
+%H A027571 P. De Geest, <a href="http://www.worldofnumbers.com/sumsquare.htm">Palindromic Sums of Squares of Consecutive Integers</a>
+%Y A027571 Cf. A027572.
+%K A027571 nonn,base
+%O A027571 1,2
+%A A027571 _Patrick De Geest_
+%E A027571 a(17)-a(20) from _Donovan Johnson_, Aug 26 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019952
+Showing 1-1 of 1
+
+%I A019952
+%S A019952 1,3,7,6,3,8,1,9,2,0,4,7,1,1,7,3,5,3,8,2,0,7,2,0,9,5,8,1,9,1,0,8,8,7,
+%T A019952 6,7,9,5,2,5,8,9,9,3,3,6,0,0,8,1,5,8,6,6,3,3,6,5,6,7,5,7,6,5,6,1,9,0,
+%U A019952 9,5,1,9,3,7,6,7,1,7,2,9,8,5,0,6,5,9,5,2,9,9,3,1,1,0,0,7,0,1,9
+%N A019952 Decimal expansion of tangent of 54 degrees.
+%C A019952 Also the decimal expansion of cotangent of 36 degrees. - _Mohammad K. Azarian_, Jun 30 2013
+%H A019952 Ivan Panchenko, <a href="/A019952/b019952.txt">Table of n, a(n) for n = 1..1000</a>
+%H A019952 Wikipedia, <a href="http://en.wikipedia.org/wiki/Exact_trigonometric_constants">Exact trigonometric constants</a>
+%F A019952 Equals A019863/A019845 = 1/A019934. [_R. J. Mathar_, Jul 26 2010]
+%F A019952 The largest positive solution of cos(4*arctan(1/x)) = cos(6*arctan(1/x)). - _Thomas Olson_, Oct 03 2014
+%e A019952 1.376381920471173538...
+%p A019952 Digits:=100: evalf(tan(3*Pi/10)); # _Wesley Ivan Hurt_, Oct 07 2014
+%t A019952 RealDigits[Tan[3*Pi/10], 10, 100][[1]] (* _Wesley Ivan Hurt_, Oct 07 2014 *)
+%Y A019952 Cf. A019845, A019863, A019934.
+%K A019952 nonn,cons
+%O A019952 1,2
+%A A019952 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

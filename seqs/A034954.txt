@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034954
+Showing 1-1 of 1
+
+%I A034954
+%S A034954 3,15,91,153,435,703,861,1431,1891,2701,4005,4753,5151,5995,6441,9453,
+%T A034954 11175,12403,15051,16471,18721,19503,26335,27261,29161,33153,36315,
+%U A034954 38503,39621,43071,49141,50403,56953,61075,62481,69751,75855,79003
+%N A034954 Odd triangular numbers with prime indices.
+%C A034954 For prime indices p such that p(p+1)/2 is 'odd' see A002313 (primes of form 4n+1).
+%H A034954 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TriangularNumber.html">Triangular Number</a>
+%Y A034954 Cf. A014493, A034953, A034955.
+%K A034954 nonn
+%O A034954 1,1
+%A A034954 _Patrick De Geest_, Oct 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

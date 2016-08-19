@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058392
+Showing 1-1 of 1
+
+%I A058392
+%S A058392 1,11,782,96073,9283247,537001197,19578605324,487615778173,
+%T A058392 8892272235593,125319645293555,1423054983691408,13451239365449764,
+%U A058392 108603794657349271,764673059329865921,4775254548845993462
+%N A058392 Number of 6 X 6 matrices with nonnegative integer entries and all row sums equal to n, up to row and column permutation.
+%H A058392 <a href="/A058389/a058389a.pdf">Number of m x m nonnegative integer matrices with all row sums equal to n, up to row and column permutation.</a>
+%Y A058392 Cf. A002620, A058389-A058391, A003439, A005467.
+%K A058392 nonn
+%O A058392 0,2
+%A A058392 _Vladeta Jovovic_, Nov 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

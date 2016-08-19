@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021328
+Showing 1-1 of 1
+
+%I A021328
+%S A021328 0,0,3,0,8,6,4,1,9,7,5,3,0,8,6,4,1,9,7,5,3,0,8,6,4,1,9,7,5,3,0,8,6,4,
+%T A021328 1,9,7,5,3,0,8,6,4,1,9,7,5,3,0,8,6,4,1,9,7,5,3,0,8,6,4,1,9,7,5,3,0,8,
+%U A021328 6,4,1,9,7,5,3,0,8,6,4,1,9,7,5,3,0,8,6,4,1,9,7,5,3,0,8,6,4,1,9
+%N A021328 Decimal expansion of 1/324.
+%C A021328 The nominal length of 1 second of latitude is 10000/324 m, that is 30.86419753086419753... m. - _Jean-François Alcover_, Mar 10 2015
+%F A021328 a(n)=(1/450)*{133*(n mod 10)+133*[(n+1) mod 10]-317*[(n+2) mod 10]+178*[(n+3) mod 10]+133*[(n+4) mod 10]+133*[(n+5) mod 10]-317*[(n+6) mod 10]+178*[(n+7) mod 10]-92*[(n+8) mod 10]+268*[(n+9) mod 10]}-5*[C(2*n,n) mod 2], with n>=0. [_Paolo P. Lava_, Nov 10 2009]
+%e A021328 0.00308641975308641975308641975308641975...
+%K A021328 nonn,cons
+%O A021328 0,3
+%A A021328 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

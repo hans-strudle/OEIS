@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058581
+Showing 1-1 of 1
+
+%I A058581
+%S A058581 0,1,34,195,644,1605,3366,6279,10760,17289,26410,38731,54924,75725,
+%T A058581 101934,134415,174096,221969,279090,346579,425620,517461,623414,
+%U A058581 744855,883224,1040025,1216826,1415259,1637020,1883869,2157630
+%N A058581 (4*n^2+2*n-3)*(2*n-1)*n/3.
+%K A058581 nonn
+%O A058581 0,3
+%A A058581 _N. J. A. Sloane_, Dec 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

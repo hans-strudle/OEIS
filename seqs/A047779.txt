@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047779
+Showing 1-1 of 1
+
+%I A047779
+%S A047779 56,120,144,160,176,186,204,208,216,220,246,260,288,300,304,320,324,
+%T A047779 340,342,364,392,414,416,426,474,476,496,516,528,532,534,544,550,552,
+%U A047779 560,580,582,624,636,650,666,680,696,704,714,736,748,780,784,792,800
+%N A047779 Abundant or perfect numbers n such that neither n-1 nor n+1 is a prime.
+%H A047779 <a href="http://bruichladdich.dcs.st-and.ac.uk/maths/abundants.html">Source</a> [Broken link?]
+%e A047779 a(1) = 56 because 55 and 57 are composite and the sum of the divisors of 56 is 64 which is >= 56 and no integer < 56 has this property.
+%o A047779 (PARI) isok(n) = (sigma(n) >= 2*n) && ! isprime(n-1) && ! isprime(n+1) \\ _Michel Marcus_, Jun 12 2013
+%Y A047779 A023196 is a superset.
+%K A047779 easy,nonn
+%O A047779 1,1
+%A A047779 Tony Davie (ad(AT)dcs.st-and.ac.uk)
+%E A047779 More terms from _Michel Marcus_, Jun 12 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

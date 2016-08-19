@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059680
+Showing 1-1 of 1
+
+%I A059680
+%S A059680 1,0,12,0,18,50,0,8,154,120,0,1,212,584,230,0,0,158,1396,1526,388,0,0,
+%T A059680 62,2038,5154,3276,602
+%N A059680 Triangle T(n,k) read by rows giving number of fixed 4 X k polyominoes with n cells (n >= 4, 1<=k<=n-3).
+%D A059680 R. C. Read, Contributions to the cell growth problem, Canad. J. Math., 14 (1962), 1-20.
+%e A059680 1; 0,12; 0,18,50; 0,8,154,120; ...
+%K A059680 nonn,easy,nice,tabl
+%O A059680 4,3
+%A A059680 _N. J. A. Sloane_, Feb 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

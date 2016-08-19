@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052078
+Showing 1-1 of 1
+
+%I A052078
+%S A052078 2,43,0,10987,76543,0,73727170696867,4645444342414039,0,
+%T A052078 56555453525150494847,219218217216215214213212211210209,0,
+%U A052078 25242322212019181716151413,6059585756555453525150494847,0
+%N A052078 Smallest prime formed by concatenating n consecutive decreasing numbers, 0 if no such prime exists.
+%C A052078 Starting numbers in concatenations are given by A052080.
+%H A052078 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_078.htm">Prime Puzzle 78</a>
+%Y A052078 Cf. A052077, A052079, A052080.
+%K A052078 nonn,base,nice
+%O A052078 1,1
+%A A052078 _Patrick De Geest_, Jan 15 2000.
+%E A052078 Terms for n>6 calculated by _Carlos Rivera_ and _Felice Russo_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055661
+Showing 1-1 of 1
+
+%I A055661
+%S A055661 0,1,7,8,17,15,12,13,67,68,65,63,72,73,79,80,161,159,156,157,139,140,
+%T A055661 137,135,108,109,115,116,125,123,120,121,607,608,605,603,612,613,619,
+%U A055661 620,593,591,588,589,571,572,569,567,648,649,655,656,665,663,660,661
+%N A055661 Tower of Hanoi positions (A055662) converted from base 3 to base 10.
+%H A055661 Z. Sunic, <a href="http://arXiv.org/abs/math.CO/0612080">Tree morphisms, transducers and integer sequences</a>
+%F A055661 a(n) =sum (3^j*((-1)^j*(floor[(n/2^j+1)/2] mod 3)) with j=0 to floor[log2(n)]
+%Y A055661 Cf. A055662.
+%K A055661 base,nonn
+%O A055661 0,3
+%A A055661 _Henry Bottomley_, Jun 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

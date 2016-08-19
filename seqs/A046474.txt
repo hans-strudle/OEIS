@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046474
+Showing 1-1 of 1
+
+%I A046474
+%S A046474 2,3,5,373,787,3826283,73979697937
+%N A046474 Palindromic primes in bases 4 and 10.
+%C A046474 373{10} gives 373{4} but also 373{8} and 373{9}.
+%H A046474 P. De Geest, <a href="http://www.worldofnumbers.com/palpri.htm">World!Of Palindromic Primes</a>
+%Y A046474 Cf. A002385.
+%K A046474 nonn,hard,base
+%O A046474 1,1
+%A A046474 _Patrick De Geest_, Aug 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

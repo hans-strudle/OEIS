@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027479
+Showing 1-1 of 1
+
+%I A027479
+%S A027479 1,15,1,1175,120,1,294330,36935,510,1,181082204,25816200,460035,1560,
+%T A027479 1,231844265940,36133755364,757122975,3411835,3885,1,551220029003580,
+%U A027479 91850446178400,2159098539409,11690792400,18037810,8400,1
+%N A027479 4th power of the lower triangular normalized first kind Stirling matrix.
+%F A027479 Numerators of lower triangle of (a[ i, j ])^4 where a[ i, j ] = s(i, j)/i! if j<=i, 0 if j>i
+%t A027479 rows = 7; m = Table[If[k <= n, StirlingS1[n, k]/n!, 0], {n, 1, rows}, {k, 1, rows}]; m4 = m.m.m.m; Table[fracs = m4[[i]]; nums = fracs // Numerator; dens = fracs // Denominator; lcm = LCM @@ dens; Table[nums[[j]]*lcm/dens[[j]], {j, 1, i}], {i, 1, rows}] // Abs // Flatten (* _Jean-François Alcover_, Mar 05 2013 *)
+%K A027479 nonn,tabl
+%O A027479 1,2
+%A A027479 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

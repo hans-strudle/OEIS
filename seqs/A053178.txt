@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053178
+Showing 1-1 of 1
+
+%I A053178
+%S A053178 1,21,51,81,91,111,121,141,161,171,201,221,231,261,291,301,321,341,
+%T A053178 351,361,371,381,391,411,441,451,471,481,501,511,531,551,561,581,591,
+%U A053178 611,621,651,671,681,711,721,731,741,771,781,791,801,831,841,851,861,871
+%N A053178 Numbers ending in 1 which are not prime.
+%C A053178 n*10+1 is nonprime. - _Juri-Stepan Gerasimov_, Oct 14 2009
+%e A053178 a(4)=91 may look prime to some, but is composite.
+%o A053178 (PARI) isok(n) = ((n % 10) == 1) && (! isprime(n)) \\ _Michel Marcus_, Jul 26 2013
+%K A053178 easy,nonn,base
+%O A053178 1,2
+%A A053178 _Enoch Haga_, Feb 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

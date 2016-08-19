@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030470
+Showing 1-1 of 1
+
+%I A030470
+%S A030470 4,14,20,34,58,64,118,140,148,176,196,218,220,236,238,268,278,286,316,
+%T A030470 334,374,386,398,428,430,436,446,460,470,496,508,514,550,566,568,590,
+%U A030470 610,616,634,644,670,674,688,706,718,728,740,746,764,770
+%N A030470 Numbers n such that n concatenated with n+1, n+2, n+3 is prime.
+%e A030470 E.g. 4567 is prime.
+%K A030470 nonn,base
+%O A030470 1,1
+%A A030470 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

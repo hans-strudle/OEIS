@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017030
+Showing 1-1 of 1
+
+%I A017030
+%S A017030 16,121,324,625,1024,1521,2116,2809,3600,4489,5476,6561,7744,9025,
+%T A017030 10404,11881,13456,15129,16900,18769,20736,22801,24964,27225,29584,
+%U A017030 32041,34596,37249,40000,42849,45796
+%N A017030 (7*n+4)^2.
+%H A017030 Vincenzo Librandi, <a href="/A017030/b017030.txt">Table of n, a(n) for n = 0..10000</a>
+%F A017030 a(n) = A017029(n)^2. - _Michel Marcus_, Nov 11 2013
+%p A017030 A017030:=n->(7*n+4)^2; seq(A017030(n), n=0..100); # _Wesley Ivan Hurt_, Nov 11 2013
+%t A017030 Table[(7n+4)^2, {n,0,100}] (* _Wesley Ivan Hurt_, Nov 11 2013 *)
+%o A017030 (MAGMA) [(7*n+4)^2: n in [0..40] ]; // Vincenzo Librandi, Jul 16 2011
+%K A017030 nonn,easy
+%O A017030 0,1
+%A A017030 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

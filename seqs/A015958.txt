@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015958
+Showing 1-1 of 1
+
+%I A015958
+%S A015958 1,11,121,253,1331,2783,5819,11891,14641,30613,35167,45023,64009,
+%T A015958 96569,130801,133837,161051,273493,336743,386837,495253,527197,558877,
+%U A015958 640343,704099,808841,1035529,1062259,1438811,1472207
+%N A015958 Numbers n such that n | 10^n + 1.
+%K A015958 nonn
+%O A015958 1,2
+%A A015958 _Robert G. Wilson v_
+%E A015958 Corrected by _T. D. Noe_, Oct 31 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

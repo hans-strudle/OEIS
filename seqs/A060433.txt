@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060433
+Showing 1-1 of 1
+
+%I A060433
+%S A060433 3,5,41,1151,311,34421,442019,3634531,48205429
+%N A060433 a(n) is the smallest odd number that can be represented as the sum of one or more consecutive primes in n ways.
+%H A060433 C. Rivera, <a href="http://www.primepuzzles.net/problems/prob_009.htm">Prime Puzzles</a>
+%e A060433 a(2) = 5 because of 5 and 2+3 = 5. a(3) = 41 because of 41, 2+3+5+7+11+13 = 41 and 11+13+17 = 41.
+%t A060433 lim = 500000; cnt = Table[If[OddQ[n] && PrimeQ[n], 1, 0], {n, lim}]; ps = Prime[Range[PrimePi[lim]]]; sm = ps; i = 0; While[i++; j = 1; While[sm[[j]] = sm[[j]] + ps[[i + j]]; sm[[j]] <= lim, If[OddQ[sm[[j]]], cnt[[sm[[j]]]]++]; j++]; j > 1]; Table[Position[cnt, i, 1, 1][[1, 1]], {i, Union[cnt][[-1]]}] (* _T. D. Noe_, Nov 03 2011 *)
+%K A060433 nonn
+%O A060433 1,1
+%A A060433 Jason Earls (zevi_35711(AT)yahoo.com), Apr 06 2001
+%E A060433 Edited by Larry Reeves (larryr(AT)acm.org), Apr 25 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038710
+Showing 1-1 of 1
+
+%I A038710
+%S A038710 2,3,7,31,211,2311,30047,510529,9699713,223092907,6469693291,
+%T A038710 200560490131,7420738134871,304250263527281,13082761331670077,
+%U A038710 614889782588491517,32589158477190044789,1922760350154212639131
+%N A038710 Smallest prime > product of first n primes.
+%C A038710 Observe that in A035345 the first term is 3=1+2 and 1 is not a primorial number.
+%F A038710 a(n) = Min[A035345(n), A018239(n)]=A002110(n)+Min[1, A005235(n)]
+%e A038710 for n=1,2,3,4,5,11,75 A002110(n)+1 gives smaller primes than A002110(n)+p, where p is a fortunate number(prime). At n=5, both 2311 and 2333 are primes but first is smaller.
+%t A038710 nmax = 2^16384; npd = 1; n = 1; npd = npd*Prime[n]; While[npd < nmax, cp = npd + 1; While[ ! (PrimeQ[cp]), cp = cp + 2]; Print[cp]; n = n + 1; npd = npd*Prime[n]] (_Lei Zhou_, Feb 15 2005)
+%t A038710 NextPrime/@FoldList[Times,1,Prime[Range[25]]] [From Harvey P. Dale, Dec. 17, 2010]
+%Y A038710 A002110, A005235, A035345, A018239.
+%K A038710 nonn
+%O A038710 1,1
+%A A038710 _Labos Elemer_, May 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

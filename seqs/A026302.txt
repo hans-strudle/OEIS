@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026302
+Showing 1-1 of 1
+
+%I A026302
+%S A026302 1,2,9,44,230,1242,6853,38376,217242,1239980,7123765,41141916,
+%T A026302 238637282,1389206210,8112107475,47495492400,278722764954,
+%U A026302 1638970147188,9654874654438,56965811111240,336590781348276,1991357644501170
+%N A026302 a(n) = number of (s(0), s(1), ..., s(n)) such that s(i) is a nonnegative integer and |s(i) - s(i-1)| <= 1 for i = 1,2,...,n, s(0) = 0, s(2n) = n. Also a(n) = T(2n,n), where T is the array in A026300.
+%D A026302 D. Kruchinin and V. Kruchinin, A Method for Obtaining Generating Function for Central Coefficients of Triangles, Journal of Integer Sequence,  Vol. 15 (2012), article 12.9.3.
+%F A026302 a(n) = binomial(2*n,n)*hypergeom([ -n/2, 1/2 - n/2],[n+2],4). [_Mark van Hoeij_, Jun 02 2010]
+%F A026302 A026302(n) = (n + 1) * A006605(n). [_Mark van Hoeij_, Jul 02 2010]
+%F A026302 G.f. A(x)=(x*M(x))', where M(x)=1+x*M(x)^2+x^2*M(x)^4. [_Vladimir Kruchinin_, May 25 2012]
+%o A026302 (PARI programs from R. J. Mathar) A026300(n,k)={ if(n<0 || k < 0, return(0) ;) ; if(n<=1, 1, if(k==0, 1, sum(i=0,k/2, binomial(n,2*i+n-k)*(binomial(2*i+n-k,i)-binomial(2*i+n-k,i-1))) ;) ;) ; }
+%o A026302 A026302(n)={ A026300(2*n,n) ; } { for(n=0,21, print(n," ",A026302(n))) ; }
+%Y A026302 Bisection of A026307.
+%K A026302 nonn
+%O A026302 0,2
+%A A026302 _Clark Kimberling_
+%E A026302 Corrected by R. J. Mathar, Oct 26 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

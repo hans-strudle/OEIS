@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054831
+Showing 1-1 of 1
+
+%I A054831
+%S A054831 2927,13487,13913,14969,15391,15401,21419,21569,21881,28289,30893,
+%T A054831 33223,35603,37717,42239,42589,45833,55673,64679,64937,64951,68219,
+%U A054831 68227,68909,68917,73961,74219,78607,83117,85531,87337,88019,90931
+%N A054831 Fourth term of weak prime sextet: p(m-2)-p(m-3) < p(m-1)-p(m-2) < p(m)-p(m-1) < p(m+1)-p(m) < p(m+2)-p(m+1).
+%Y A054831 Cf. A051635, A054800-A054840.
+%K A054831 nonn
+%O A054831 1,1
+%A A054831 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

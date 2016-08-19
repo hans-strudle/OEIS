@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057203
+Showing 1-1 of 1
+
+%I A057203
+%S A057203 3,7,39,79,359,451,1031,1039,11311,30227,47599,55731,307099,351831,
+%T A057203 418851
+%N A057203 Numbers n such that 2^n + 23 is prime.
+%C A057203 a(16) > 5*10^5. - _Robert Price_, Sep 06 2015
+%t A057203 Do[ If[ PrimeQ[2^n + 23], Print[ n ]], {n, 1, 5000} ]
+%K A057203 nonn
+%O A057203 1,1
+%A A057203 _Robert G. Wilson v_, Sep 16 2000
+%E A057203 a(9)-a(15) from _Robert Price_, Sep 06 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

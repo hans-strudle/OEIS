@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022530
+Showing 1-1 of 1
+
+%I A022530
+%S A022530 1,16383,4766585,263652487,5835080169,72260648471,599858908753,
+%T A022530 3719823438255,18478745943857,77123207545039,279749833583241,
+%U A022530 904168630965623,2653457921150425,7174630439858727,18080919199832609
+%N A022530 Nexus numbers (n+1)^14 - n^14.
+%D A022530 J. H. Conway and R. K. Guy, The Book of Numbers, Copernicus Press, NY, 1996, p. 54.
+%H A022530 Harvey P. Dale, <a href="/A022530/b022530.txt">Table of n, a(n) for n = 0..1000</a>
+%t A022530 lst={};Do[a=n^7;b=(n+1)^7;s=(a+b)*(b-a);AppendTo[lst,s],{n,0,4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 23 2009 *)
+%t A022530 Last[#]-First[#]&/@Partition[Range[0,20]^14,2,1] (* _Harvey P. Dale_, Oct 04 2011 *)
+%K A022530 nonn
+%O A022530 0,2
+%A A022530 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

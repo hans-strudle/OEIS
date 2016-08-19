@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051686
+Showing 1-1 of 1
+
+%I A051686
+%S A051686 2,3,2,2,3,3,2,7,2,2,3,3,2,7,2,3,3,2,5,7,3,2,3,2,2,3,2,2,19,3,5,3,3,2,
+%T A051686 3,13,2,3,2,3,19,5,2,7,2,3,3,2,2,7,3,3,7,5,3,3,2,2,7,2,3,3,3,2,7,3,2,
+%U A051686 3,2,2,13,3,2,37,5,3,3,2,2,13,3,5,3,2,11,13,2,2,31,3,3,7,2,5,3,3,2,7,2,2
+%N A051686 Smallest prime p such that 2n*p+1 is also prime.
+%C A051686 These are the primes arising in A051899.
+%e A051686 a(29)=19 because 19 is the smallest prime p such that 2*29*p+1 is prime.
+%o A051686 (PARI) a(n) = p=2; while(!isprime(2*n*p+1), p = nextprime(p+1)); p; \\ _Michel Marcus_, Dec 10 2013
+%Y A051686 Cf. A005384, A051644-A051654, A051899.
+%K A051686 nonn
+%O A051686 1,1
+%A A051686 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060927
+Showing 1-1 of 1
+
+%I A060927
+%S A060927 3,13,65,337,1737,8945,46073,237313,1222345,6296017,32429337,
+%T A060927 167036065,860364393,4431539313,22825840825,117570661697,605579465737,
+%U A060927 3119200691985,16066286106713,82753748396513
+%N A060927 Row sums of triangle A060924 (odd part of bisection of Lucas triangle).
+%F A060927 a(n) = sum(A060924(n, m), m=0..n).
+%F A060927 G.f.: (3-2*x)/(1-5*x-4*x^3).
+%F A060927 a(n) = 3*A060928(n)-2*A060928(n-1), n >= 1; a(0)=3.
+%Y A060927 Cf. A060926 (row sums of A060923 companion triangle).
+%K A060927 nonn,easy
+%O A060927 0,1
+%A A060927 _Wolfdieter Lang_, Apr 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037896
+Showing 1-1 of 1
+
+%I A037896
+%S A037896 2,17,257,1297,65537,160001,331777,614657,1336337,4477457,5308417,
+%T A037896 8503057,9834497,29986577,40960001,45212177,59969537,65610001,
+%U A037896 126247697,193877777,303595777,384160001,406586897,562448657,655360001
+%N A037896 Primes of the form n^4 + 1.
+%H A037896 T. D. Noe, <a href="/A037896/b037896.txt">Table of n, a(n) for n=1..1000</a>
+%H A037896 M. Lal, <a href="http://dx.doi.org/10.1090/S0025-5718-1967-0222007-9">Primes of the form n^4 + 1</a>, Math. Comp. 21 (1967), pp. 245-247.
+%e A037896 6^4 + 1 = 1297 is prime.
+%t A037896 lst={};Do[p=n^4+1;If[PrimeQ[p],AppendTo[lst,p]],{n,0,4*5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 27 2009 *)
+%t A037896 Select[Range[200]^4+1,PrimeQ] (* _Harvey P. Dale_, Jul 20 2015 *)
+%o A037896 (PARI) j=[]; for(n=1,300, if(isprime(n^4+1),j=concat(j,n^4+1))); j
+%Y A037896 Cf. A000068, A002523.
+%K A037896 easy,nonn
+%O A037896 1,1
+%A A037896 _Donald S. McDonald_, Feb 27 2000
+%E A037896 Corrected and extended by Jason Earls (zevi_35711(AT)yahoo.com), Jul 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

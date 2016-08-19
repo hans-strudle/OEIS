@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039284
+Showing 1-1 of 1
+
+%I A039284
+%S A039284 10,27,35,51,53,54,55,65,70,77,85,102,110,132,136,138,139,142,147,152,
+%T A039284 160,176,178,179,180,190,195,202,210,227,235,252,256,258,259,260,266,
+%U A039284 268,269,271,273,274,276,278,279,280,290,295,300,326,328,329,330,340
+%N A039284 Numbers n such that representation in base 5 has same nonzero number of 0's and 2's.
+%t A039284 Select[Range[400],DigitCount[#,5,0]==DigitCount[#,5,2]>0&] (* _Harvey P. Dale_, Oct 03 2014 *)
+%K A039284 nonn,base,easy
+%O A039284 1,1
+%A A039284 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

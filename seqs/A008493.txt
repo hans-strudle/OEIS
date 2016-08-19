@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008493
+Showing 1-1 of 1
+
+%I A008493
+%S A008493 1,11,66,286,1001,3003,8008,19448,43758,92378,184756,352715,646635,
+%T A008493 1144000,1960970,3267759,5308732,8428277,13103662,19986252,29952637,
+%U A008493 44167409,64159524,91914394
+%N A008493 Expansion of (1-x^11 )/(1-x)^11.
+%C A008493 Coordination sequence for 10-dimensional cyclotomic lattice Z[zeta_11].
+%H A008493 M. Beck and S. Hosten, <a href="http://arxiv.org/abs/math.CO/0508136">Cyclotomic polytopes and growth series of cyclotomic lattices</a>, arXiv math.CO/0508136.
+%F A008493 a(n) = A001287(n+10)-A001287(n-1). - _R. J. Mathar_, Aug 10 2013
+%K A008493 nonn
+%O A008493 0,2
+%A A008493 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

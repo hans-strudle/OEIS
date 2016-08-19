@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048329
+Showing 1-1 of 1
+
+%I A048329
+%S A048329 0,1,2,3,5,10,15,21,42,63,85,170,255,341,682,1023,1365,2730,4095,5461,
+%T A048329 10922,16383,21845,43690,65535,87381,174762,262143,349525,699050,
+%U A048329 1048575,1398101,2796202,4194303,5592405,11184810,16777215,22369621
+%N A048329 a(n) in base 4 is a repdigit.
+%H A048329 Vincenzo Librandi, <a href="/A048329/b048329.txt">Table of n, a(n) for n = 0..300</a>
+%H A048329 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repdigit.html">Repdigit</a>
+%F A048329 Conjecture: G.f.: x*(1+2*x+3*x^2) / ( (x-1)*(4*x^3-1)*(1+x+x^2) ) with a(n) = 5*a(n-3) -4*a(n-6). - _R. J. Mathar_, Mar 15 2015
+%t A048329 Union[Flatten[Table[FromDigits[PadRight[{}, n, d], 4], {n, 0, 40}, {d, 3}]]](* _Vincenzo Librandi_, Feb 06 2014 *)
+%Y A048329 Cf. A010785, A033017, A028987, A028988 (trisection?), A024036 (trisection?), A002450 (trisection?).
+%K A048329 nonn,base
+%O A048329 0,3
+%A A048329 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

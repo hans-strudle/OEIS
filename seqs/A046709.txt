@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046709
+Showing 1-1 of 1
+
+%I A046709
+%S A046709 25200,982800,1562400,60933600,6854400,267321600,798939187200,
+%T A046709 31158628300800,450964684800,17587622707200,118216784402841600,
+%U A046709 459775632811622400,1936908127288531353600,75539416964252722790400
+%N A046709 Irrational unitary phi amicable number: two numbers which satisfy uphi(a)=uphi(b)=2*(a^2-b^2)^(1/2) where if x=Product p(i)^r(i) then uphi(x)=Product (p(i)^r(i)-1) (A047994).
+%C A046709 Factorizations: 2^4*3^2*5^2*7, 2^4*3^3*13*5^2*7, 2^5*3^2*31*5^2*7, 2^5*3^3*13*31*5^2*7, ...
+%Y A046709 Cf. A046710.
+%K A046709 nonn
+%O A046709 4,1
+%A A046709 _Yasutoshi Kohmoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

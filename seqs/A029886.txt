@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029886
+Showing 1-1 of 1
+
+%I A029886
+%S A029886 1,4,8,10,12,14,15,16,22,24,23,26,29,30,34,40,38,40,43,42,47,50,52,56,
+%T A029886 55,56,62,66,64,70,71,64,78,80,75,82,83,82,88,96,89,92,100,98,102,106,
+%U A029886 105,104,111,112,114,122,118,122,125,120,130,136,131,130,141,134,138,160
+%N A029886 Convolution of Thue-Morse sequence A001285 with itself.
+%C A029886 Comment from Jeremy Gardiner, Dec 28 2008: The following sequences all appear to have the same parity: A003071, A029886, A061297, A092524, A093431, A102393, A104258, A122248, A128975.
+%H A029886 Tanya Khovanova, <a href="http://arxiv.org/abs/1410.2193">There are no coincidences</a>, arXiv preprint 1410.2193, 2014
+%o A029886 (PARI) a(n)=sum(k=0,n,(1+subst(Pol(binary(k)),x,1)%2)*(1+subst(Pol(binary(n-k)),x,1)%2)) /* from _Ralf Stephan_, Aug 23 2013 */
+%K A029886 nonn
+%O A029886 0,2
+%A A029886 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

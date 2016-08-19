@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030055
+Showing 1-1 of 1
+
+%I A030055
+%S A030055 1,13,105,680,3876,20349,100947,480700,2220075,10015005,44352165,
+%T A030055 193536720,834451800,3562467300,15084504396,63432274896,265182149218,
+%U A030055 1103068603890,4568648125690,18851684897584
+%N A030055 a(n) = binomial(2n+1,n-5).
+%H A030055 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%F A030055 G.f.: x^5*2048/((1-sqrt(1-4*x))^11*sqrt(1-4*x))+(-1/x^6+9/x^5-28/x^4+35/x^3-15/x^2+1/x). - _Vladimir Kruchinin_, Aug 11 2015
+%o A030055 (PARI) vector(30, n, m=n+5; binomial(2*m+1,m-5)) \\ _Michel Marcus_, Aug 11 2015
+%Y A030055 Diagonal 12 of triangle A100257.
+%K A030055 nonn
+%O A030055 5,2
+%A A030055 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

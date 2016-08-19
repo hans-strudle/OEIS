@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004959
+Showing 1-1 of 1
+
+%I A004959
+%S A004959 0,7,14,21,28,35,42,48,55,62,69,76,83,90,96,103,110,117,124,131,138,
+%T A004959 144,151,158,165,172,179,186,192,199,206,213,220,227,234,240,247,254,
+%U A004959 261,268,275,282,288,295,302,309
+%N A004959 Ceiling of n*phi^4, where phi is the golden ratio, A001622.
+%t A004959 With[{c=GoldenRatio^4},Ceiling[c*Range[0,50]]] (* _Harvey P. Dale_, Oct 04 2015 *)
+%K A004959 nonn
+%O A004959 0,2
+%A A004959 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

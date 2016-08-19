@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022641
+Showing 1-1 of 1
+
+%I A022641
+%S A022641 1,13,104,663,3614,17576,78299,324766,1269242,4715204,16762551,
+%T A022641 57327556,189418658,606787572,1890046210,5738539729,17019191579,
+%U A022641 49394158541,140507716414,392299039821,1076369417474,2905414115877
+%N A022641 Expansion of Product (1+m*q^m)^13; m=1..inf.
+%K A022641 nonn
+%O A022641 0,2
+%A A022641 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

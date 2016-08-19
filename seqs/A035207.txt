@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035207
+Showing 1-1 of 1
+
+%I A035207
+%S A035207 1,2,2,3,1,4,2,4,3,2,2,6,2,4,2,5,2,6,2,3,4,4,2,8,1,4,4,6,2,4,2,6,4,4,
+%T A035207 2,9,2,4,4,4,2,8,2,6,3,4,2,10,3,2,4,6,2,8,2,8,4,4,2,6,2,4,6,7,2,8,2,6,
+%U A035207 4,4,2,12,2,4,2,6,4,8,2,5,5,4,2,12,2,4,4,8,2,6,4,6,4,4,2,12,2,6,6,3,2,8,2
+%N A035207 Coefficients in expansion of Dirichlet series Product_p (1 - (Kronecker(m,p) + 1)*p^(-s) + Kronecker(m,p)*p^(-2s))^(-1) for m = 25.
+%C A035207 Number of divisors of n not congruent to 0 mod 5.
+%F A035207 Multiplicative with a(5^e)=1 and a(p^e)=e+1 for p<>5.
+%F A035207 Moebius transform is period 5 sequence [ 1, 1, 1, 1, 0, ...]. - _Michael Somos_, Oct 31 2006
+%p A035207 for n from 1 to 500 do a := ifactors(n):s := 1:for k from 1 to nops(a[2]) do p := a[2][k][1]:e := a[2][k][2]: if p=5 then b := 1:else b := e+1:fi:s := s*b:od:printf(`%d,`,s); od:
+%t A035207 Table[Count[Divisors[n],_?(!Divisible[#,5]&)],{n,110}] (* _Harvey P. Dale_, Apr 08 2015 *)
+%o A035207 (PARI) {a(n)=if(n<1, 0, sumdiv(n, d, d%5>0))} /* _Michael Somos_, Oct 31 2006 */
+%o A035207 (PARI) {a(n)=if(n<1, 0, direuler(p=2, n, 1/(1-X)/if(p==5, 1, 1-X))[n])} /* _Michael Somos_, Oct 31 2006 */
+%Y A035207 Cf. A035191.
+%K A035207 nonn,mult
+%O A035207 1,2
+%A A035207 _N. J. A. Sloane_
+%E A035207 Additional comments from _Vladeta Jovovic_, Oct 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021180
+Showing 1-1 of 1
+
+%I A021180
+%S A021180 0,0,5,6,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,
+%T A021180 8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,
+%U A021180 8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8,1,8
+%N A021180 Decimal expansion of 1/176.
+%o A021180 (PARI) { default(realprecision); x=1/176*10; for(n=1, 100, d=floor(x); x=(x-d)*10; print1(d, ", ")) } \\ _Felix Fröhlich_, Aug 11 2014
+%K A021180 nonn,cons
+%O A021180 0,3
+%A A021180 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

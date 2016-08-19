@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009606
+Showing 1-1 of 1
+
+%I A009606
+%S A009606 0,2,8,168,5760,310304,23894144,2481859968,333725331456,
+%T A009606 56329065984512,11650274400684032,2895770490247219200,
+%U A009606 851263005980215443456,292012329049579197046784,115560631410392130840461312,52240866338892496235877335040
+%N A009606 Expansion of sinh(tan(x))*sin(x).
+%t A009606 With[{nn=40},Take[CoefficientList[Series[Sinh[Tan[x]]Sin[x],{x,0,nn}], x] Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Dec 27 2011 *)
+%K A009606 nonn
+%O A009606 0,2
+%A A009606 _R. H. Hardin_
+%E A009606 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+%E A009606 More terms from Harvey P. Dale, Dec 27 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002904
+Showing 1-1 of 1
+
+%I A002904
+%S A002904 0,0,0,0,4,9,5,1,1,0,55,55,1,0,1,9,5,1,1,0,0,0,0,0,4,9,5,1,1,1,1,1,1,1
+%N A002904 Delete all letters except c,d,i,l,m,v,x from n then read as Roman numeral if possible, otherwise 0.
+%Y A002904 See A092302 and A121305 for other versions.
+%K A002904 nonn,word
+%O A002904 1,5
+%A A002904 _J. H. Conway_
+%E A002904 Ambiguous or ill-defined beyond the last term shown.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

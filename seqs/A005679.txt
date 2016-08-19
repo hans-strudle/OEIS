@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005679
+Showing 1-1 of 1
+
+%I A005679 M0140
+%S A005679 2,1,3,2,3,1,2,1,3,1,2,3,2,1,3,2,3,1,2,3,2,1,3,1,2,1,3,2,3,1,2,1,3,1,
+%T A005679 2,3,2,1,3,1,2,1,3,2,3,1,2,3,2,1,3,2,3,1,2,1,3,1,2,3,2,1,3,2,3,1,2,3,
+%U A005679 2,1,3,1,2,1,3,2,3,1,2,3,2,1,3,2,3,1,2,1,3,1,2,3,2,1,3,1,2,1,3,2,3,1,2,1,3
+%N A005679 A squarefree (or Thue-Morse) ternary sequence: closed under a->abc, b->ac, c->b.
+%C A005679 Trajectory of 2 under the morphism 1 -> 23, 2 -> 213 & 3 -> 1. - _Robert G. Wilson v_, Apr 06 2008
+%D A005679 M. Morse and G. A. Hedlund, Unending chess, symbolic dynamics and a problem in semigroups, Duke Math. J., 11 (1944), 1-7.
+%D A005679 A. Salomaa, Jewels of Formal Language Theory. Computer Science Press, Rockville, MD, 1981, p. 10.
+%D A005679 G. Siebert, personal communication.
+%D A005679 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%t A005679 Nest[ # /. {1 -> {2, 3}, 2 -> {2, 1, 3}, 3 -> 1} &, {2}, 7] // Flatten (* _Robert G. Wilson v_, Apr 06 2008 *)
+%K A005679 nonn,easy,nice
+%O A005679 1,1
+%A A005679 _N. J. A. Sloane_
+%E A005679 More terms from _Robert G. Wilson v_, Apr 06 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

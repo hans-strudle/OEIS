@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001692
+Showing 1-1 of 1
+
+%I A001692 M3804 N1554
+%S A001692 1,5,10,40,150,624,2580,11160,48750,217000,976248,4438920,20343700,
+%T A001692 93900240,435959820,2034504992,9536718750,44878791360,211927516500,
+%U A001692 1003867701480,4768371093720,22706531339280
+%N A001692 Number of irreducible polynomials of degree n over GF(5); dimensions of free Lie algebras.
+%C A001692 Exponents in expansion of Hardy-Littlewood constant C_5 = 0.409874885.. as a product_{n>=2} zeta(n)^(-a(n)).
+%D A001692 E. R. Berlekamp, Algebraic Coding Theory, McGraw-Hill, NY, 1968, p. 84.
+%D A001692 M. Lothaire, Combinatorics on Words. Addison-Wesley, Reading, MA, 1983, p. 79.
+%D A001692 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001692 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001692 T. D. Noe, <a href="/A001692/b001692.txt">Table of n, a(n) for n=0..200</a>
+%H A001692 Steven R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Mathematical Constants</a>
+%H A001692 E. N. Gilbert and J. Riordan, <a href="http://projecteuclid.org/euclid.ijm/1255631587">Symmetry types of periodic sequences</a>, Illinois J. Math., 5 (1961), 657-665.
+%H A001692 G. Niklasch, <a href="/A001692/a001692.html">Some number theoretical constants: 1000-digit values</a> [Cached copy]
+%H A001692 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%H A001692 G. J. Simmons, <a href="http://www.jstor.org/stable/2316211">The number of irreducible polynomials of degree n over GF(p)</a>, Amer. Math. Monthly, 77 (1970), 743-745.
+%H A001692 G. Viennot, <a href="http://dx.doi.org/10.1007/BFb0067950">Algèbres de Lie Libres et Monoïdes Libres</a>, Lecture Notes in Mathematics 691, Springer Verlag 1978.
+%H A001692 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
+%F A001692 a(n) = Sum_{d|n} mu(d)*5^(n/d)/n, for n>0.
+%t A001692 a[0] = 1; a[n_] := Sum[MoebiusMu[d]*5^(n/d)/n, {d, Divisors[n]}]; Table[a[n], {n, 0, 21}] (* _Jean-François Alcover_, Mar 11 2014 *)
+%o A001692 (PARI) a(n)=if(n,sumdiv(n,d,moebius(d)*5^(n/d))/n,1) \\ _Charles R Greathouse IV_, Jun 15 2011
+%o A001692 (Haskell)
+%o A001692 a001692 n = flip div n $ sum $
+%o A001692             zipWith (*) (map a008683 divs) (map a000351 $ reverse divs)
+%o A001692             where divs = a027750_row n
+%o A001692 -- _Reinhard Zumkeller_, Oct 07 2015
+%Y A001692 Cf. A001037, A054720, A002105.
+%Y A001692 5th column of A074650. - _Alois P. Heinz_, Aug 08 2008
+%Y A001692 Cf. A008683, A000351, A027750.
+%K A001692 nonn,nice,easy
+%O A001692 0,2
+%A A001692 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

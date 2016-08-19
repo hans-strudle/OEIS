@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055128
+Showing 1-1 of 1
+
+%I A055128
+%S A055128 4,40,880,40480,3805120,7174702080
+%N A055128 Fixed points of the following function: if n=Product p(i)^r(i) then f(n)=Product (-2+p(i)^(r(i)-1)+p(i)^r(i)).
+%e A055128 E.g.: f(200)=f(2^3*5^2)=(-2+2^2+2^3)*(-2+5+5^2)=280. f(880)=880.
+%e A055128 Factorizations: 2^2, 2^3*5, 2^4*5*11, 2^5*5*11*23, 2^6*5*11*23*47, 2^10*3^2*5*7*13*29*59
+%K A055128 nonn
+%O A055128 0,1
+%A A055128 _Yasutoshi Kohmoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

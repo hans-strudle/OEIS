@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053938
+Showing 1-1 of 1
+
+%I A053938
+%S A053938 2,6,8,58,2108,665908,682908,6583794,6814942,58622892,183475738,
+%T A053938 79651953188,666585663238,2081740457806
+%N A053938 Numbers n such that n^2 contains only digits {3,4,6}.
+%H A053938 P. De Geest, <a href="http://www.worldofnumbers.com/threedigits.htm">Squares containing at most three distinct digits, Index entries for related sequences</a>
+%H A053938 Author?, <a href="http://blue.kakiko.com/mmrmmr/htm/eqtn06.html">Source</a>(<a href="http://blue.kakiko.com/mmrmmr/txt/eqtn06.txt">txt</a>)
+%Y A053938 Cf. A053939.
+%K A053938 nonn,base,more
+%O A053938 1,1
+%A A053938 _Patrick De Geest_, Mar 15 2000.
+%E A053938 More terms from C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 03 2005
+%E A053938 One more term from _Jon E. Schoenfield_, Sep 04 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

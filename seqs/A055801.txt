@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055801
+Showing 1-1 of 1
+
+%I A055801
+%S A055801 1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,2,2,1,1,1,1,2,3,3,1,1,1,1,2,3,4,
+%T A055801 3,1,1,1,1,2,3,5,6,4,1,1,1,1,2,3,5,7,7,4,1,1,1,1,2,3,5,8,11,10,5,1,1,
+%U A055801 1,1,2,3,5,8,12,14,11,5,1,1,1,1,2,3,5,8,13
+%N A055801 Array T read by rows: T(i,0)=T(i,i)=1 for i >= 0; T(i,j)=Sum{T(i-2k,j-2k+1: k >= 1) for 1<=j<=i-1, where T(m,n) := 0 if m<0 or n<0.
+%C A055801 T(i+j,j)=number of strings (s(1),...,s(m)) of nonnegative integers s(k) such that m<=i+1, s(m)=j and s(k)-s(k-1) is an odd positive integer for k=2,3,...,m.
+%C A055801 T(i+j,j)=number of compositions of numbers <=j using up to i parts, each an odd positive integer.
+%e A055801 Rows: 1; 1,1; 1,1,1; 1,1,1,1; 1,1,1,2,1; ...
+%e A055801 T(9,6) counts the strings 3456, 1236, 1256, 1456, 036, 016, 056.
+%e A055801 T(9,6) counts the compositions 111, 113, 131, 311, 33, 15, 51.
+%Y A055801 Infinitely many of the columns are (1, 1, 1, 2, 3, 5, 8, ..., Fibonacci numbers)
+%Y A055801 Essentially a reflected version of A011794.
+%K A055801 nonn,tabl
+%O A055801 0,14
+%A A055801 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

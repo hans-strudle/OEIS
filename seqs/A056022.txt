@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056022
+Showing 1-1 of 1
+
+%I A056022
+%S A056022 1,18,19,30,31,48,50,67,68,79,80,97,99,116,117,128,129,146,148,165,
+%T A056022 166,177,178,195,197,214,215,226,227,244,246,263,264,275,276,293,295,
+%U A056022 312,313,324,325,342,344,361,362,373,374,391,393,410,411,422,423,440,442
+%N A056022 n^6 = 1 (mod 7^2).
+%t A056022 Select[ Range[ 500 ], PowerMod[ #, 6, 49 ]==1& ]
+%K A056022 nonn
+%O A056022 1,2
+%A A056022 _Robert G. Wilson v_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

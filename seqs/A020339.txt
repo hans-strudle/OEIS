@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020339
+Showing 1-1 of 1
+
+%I A020339
+%S A020339 6,2,615,84,119973,4,3,23620,36363636364,6,24766945690,17928148,915,4,
+%T A020339 86808207405692007605,6,130,10,2667,95530227420606,10623969116570,12,
+%U A020339 5,343872950627253606,9,14,59239353339085,8130
+%N A020339 p^2 is least square base n doublet (base n representation is juxtaposition of 2 identical strings)..
+%D A020339 David Wells, "The Penguin Dictionary of Curious and Interesting Numbers", Revised Edition 1997, p. 189.
+%H A020339 A. Ottens, <a href="http://einstein.et.tudelft.nl/~arlet/puzzles/sol.cgi/arithmetic/digits/squares/three.digits">The arithmetic-digits-squares-three.digits problem</a>
+%Y A020339 Cf. A020340, A054214, A054215, A054216, A030465, A030466, A030467.
+%K A020339 base,nonn
+%O A020339 2,1
+%A A020339 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

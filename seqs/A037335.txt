@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037335
+Showing 1-1 of 1
+
+%I A037335
+%S A037335 1,2,3,4,5,6,7,70,71,130,131,132,133,134,135,260,261,262,263,320,321,
+%T A037335 322,323,324,325,326,327,390,391,450,451,452,453,454,455,1080,1081,
+%U A037335 1082,1083,1084,1085,1086,1087,1144,1145,1146,1147
+%N A037335 (sum of base 8 digits of n)=(sum of base 10 digits of n).
+%K A037335 nonn,base
+%O A037335 1,2
+%A A037335 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

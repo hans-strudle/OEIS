@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033548
+Showing 1-1 of 1
+
+%I A033548
+%S A033548 131,263,457,1039,1049,1091,1301,1361,1433,1571,1913,1933,2141,2221,
+%T A033548 2273,2441,2591,2663,2707,2719,2729,2803,3067,3137,3229,3433,3559,
+%U A033548 3631,4091,4153,4357,4397,4703,4723,4903,5009,5507,5701,5711,5741,5801,5843
+%N A033548 Honaker primes: primes P(k) such that sum of digits of P(k) equals sum of digits of k.
+%C A033548 A090431(A049084(a(n))) = 0.
+%D A033548 Proposed by _G. L. Honaker, Jr._
+%H A033548 T. D. Noe and Charles R Greathouse IV, <a href="/A033548/b033548.txt">Table of n, a(n) for n = 1..10000</a> (first 1000 terms from Noe)
+%e A033548 131 is the 32nd prime and sum of digits of both is 5.
+%t A033548 Prime[ Select[ Range[ 2000 ], Apply[ Plus, IntegerDigits[ # ] ] == Apply[ Plus, IntegerDigits[ Prime[ # ] ] ] & ] ] (* _Santi Spadaro_, Oct 14 2001 *)
+%t A033548 Select[ Prime@ Range@ 5927, Plus @@ IntegerDigits@ # == Plus @@ IntegerDigits@ PrimePi@ # &]  (* _Robert G. Wilson v_, Jun 07 2009 *)
+%t A033548 nn=800;Transpose[Select[Thread[{Prime[Range[nn]],Range[nn]}],Total[IntegerDigits[First[#]]]== Total[ IntegerDigits[ Last[#]]]&]][[1]] (* _Harvey P. Dale_, Jun 13 2011 *)
+%o A033548 (Haskell)
+%o A033548 a033548 n = a033548_list !! (n-1)
+%o A033548 a033548_list = filter ((== 0) . a090431 . a049084) a000040_list
+%o A033548 -- _Reinhard Zumkeller_, Mar 16 2014
+%o A033548 (PARI) is(n)=isprime(n) && sumdigits(n)==sumdigits(primepi(n)) \\ _Charles R Greathouse IV_, Jun 18 2015
+%Y A033548 Cf. A033549, A072439.
+%K A033548 nonn,base,nice
+%O A033548 1,1
+%A A033548 Calculated by _Jud McCranie_
+%E A033548 More terms from _Robert G. Wilson v_, Jun 07 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

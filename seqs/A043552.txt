@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043552
+Showing 1-1 of 1
+
+%I A043552
+%S A043552 1,1,1,2,4,4,4,6,10,13,13,18,18,22,29,34,37,42,45,55,58,65,73,76,84,
+%T A043552 93,97,106,120,125,130,146,157,163,174,186,199,205,218,238,245,260,
+%U A043552 274,289,305,312,328,345,362,379,396,405,433,442
+%N A043552 Least k for which the integers Floor(5k/m) for m=2,3,...,n are distinct.
+%K A043552 nonn
+%O A043552 1,4
+%A A043552 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

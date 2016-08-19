@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045585
+Showing 1-1 of 1
+
+%I A045585
+%S A045585 1,2,34,578,4658,9826,79186,167042,638146,1346162,2839714,5109826,
+%T A045585 10848482,22884754,48275138,86867042,87426002,184424194,389040818,
+%U A045585 459469778,700046162,820677346,1476739714,1486242034,3135211298
+%N A045585 Numbers n such that n | 5^n + 3^n.
+%K A045585 nonn
+%O A045585 1,2
+%A A045585 _David W. Wilson_
+%E A045585 Complete up to 33000000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

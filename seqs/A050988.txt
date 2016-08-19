@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050988
+Showing 1-1 of 1
+
+%I A050988
+%S A050988 1,42,1008,18144,272160,3592512,43110144,480370176,5043886848,
+%T A050988 50438868480,484213137408,4489976365056,40409787285504,
+%U A050988 354362750042112,3037395000360960,25514118003032064
+%N A050988 6-idempotent numbers.
+%C A050988 With a different offset, number of n-permutations (n>=6) of 7 objects: s, t, u, v, z, x, y with repetition allowed, containing exactly six (6) u's. - _Zerinvary Lajos_, Jun 16 2008
+%H A050988 Vincenzo Librandi, <a href="/A050988/b050988.txt">Table of n, a(n) for n = 6..400</a>
+%H A050988 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/IdempotentNumber.html">Idempotent Number.</a>
+%F A050988 a(n) = 6^n*binomial(n+6, 6). G.f.: 1/(1-6*x)^7. [Corrected by _Zerinvary Lajos_, Aug 02 2008]
+%F A050988 G.f.:1/(1-6*x)^7 [From _Zerinvary Lajos_, Aug 09 2008]
+%e A050988 A050988:=1/(1-6*x)^7:series(A050988,x,17);# 1 + 42 x + 1008 x^2 + 18144 x^3 + 272160 x^4 + 3592512 x^5 + 43110144x^6 + 480370176 x^7 + 5043886848 x^8 + 50438868480 x^9 [From _Zerinvary Lajos_, Aug 09 2008]
+%p A050988 seq(binomial(n+6,6)*6^n,n=0..16); - _Zerinvary Lajos_, Jun 16 2008
+%p A050988 A050988:=1/(1-6*x)^7;series(A050988,x,17);# [From _Zerinvary Lajos_, Aug 09 2008]
+%o A050988 (Sage)[lucas_number2(n, 6, 0)*binomial(n,6)/6^6for n in xrange(6, 22)] # [From _Zerinvary Lajos_, Mar 13 2009]
+%o A050988 (MAGMA)  [6^n* Binomial(n+6, 6): n in [0..20]]; // Vincenzo Librandi, Oct 16 2011
+%Y A050988 Cf. A000027, A001788, A036216, A040075, A050982, A050989.
+%K A050988 nonn,easy
+%O A050988 6,2
+%A A050988 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

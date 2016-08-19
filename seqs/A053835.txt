@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053835
+Showing 1-1 of 1
+
+%I A053835
+%S A053835 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,1,2,3,4,5,6,7,8,9,10,11,12,13,14,
+%T A053835 15,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,3,4,5,6,7,8,9,10,11,12,13,14,
+%U A053835 15,16,17,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,5,6,7,8,9,10,11,12,13
+%N A053835 Sum of digits of n written in base 15.
+%C A053835 a(n) = A138530(n,15) for n > 14. - _Reinhard Zumkeller_, Mar 26 2008
+%H A053835 Robert Walker, <a href="http://robertinventor.com/ftswiki/Self_Similar_Sloth_Canon_Number_Sequences">Self Similar Sloth Canon Number Sequences</a>
+%H A053835 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DigitSum.html">Digit Sum</a>
+%F A053835 a(0)=0, a(15n+i)=a(n)+i 0<=i<=14; a(n)=n-14*(sum(k>0, floor(n/15^k)). - _Benoit Cloitre_, Dec 19 2002
+%e A053835 a(20) = 1 + 5 = 6 because 20 is written as "15" in base 15.
+%o A053835 (PARI) a(n)=if(n<1,0,if(n%15,a(n-1)+1,a(n/15)))
+%Y A053835 Cf. A000120, A007953.
+%K A053835 base,nonn
+%O A053835 0,3
+%A A053835 _Henry Bottomley_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

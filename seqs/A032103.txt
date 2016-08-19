@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032103
+Showing 1-1 of 1
+
+%I A032103
+%S A032103 2,2,3,9,32,125,489,1971,8057,33582,141854,606967,2623678,11444588,
+%T A032103 50306835,222638649,991173730,4435974275,19946529375,90069370028,
+%U A032103 408261634445,1856940442884,8472695323318
+%N A032103 Number of dyslexic identity planted planar trees with n+1 nodes and leaves of 2 colors.
+%H A032103 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032103 Shifts left under "BHK" (reversible, identity, unlabeled) transform
+%K A032103 nonn
+%O A032103 1,1
+%A A032103 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

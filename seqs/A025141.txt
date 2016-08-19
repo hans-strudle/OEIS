@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025141
+Showing 1-1 of 1
+
+%I A025141
+%S A025141 1,1,11,16,551,1190,178024,564678,410606100,1876011225,6915255136416,
+%T A025141 44675417804160
+%N A025141 a(n) = (k-1)st elementary symmetric function of C(n,0), C(n,1), ..., C(n,k), where k = [ n/2 ].
+%K A025141 nonn
+%O A025141 2,3
+%A A025141 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

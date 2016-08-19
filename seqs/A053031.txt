@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053031
+Showing 1-1 of 1
+
+%I A053031
+%S A053031 1,2,4,11,19,22,29,31,38,44,58,59,62,71,76,79,101,116,118,121,124,131,
+%T A053031 139,142,151,158,179,181,191,199,202,209,211,229,236,239,242,251,262,
+%U A053031 271,278,284,302,311,316,319,331,341,349,358,359,361,362,379,382,398
+%N A053031 Numbers with 1 zero in Fibonacci numbers mod m.
+%C A053031 Conjecture: m is on this list iff m is an odd number all of whose factors are on this list or m is 2 or 4 times such an odd number.
+%C A053031 A001176(a(n)) = A128924(a(n),1) = 1. - _Reinhard Zumkeller_, Jan 16 2014
+%H A053031 Reinhard Zumkeller, <a href="/A053031/b053031.txt">Table of n, a(n) for n = 1..1000</a>
+%H A053031 M. Renault, <a href="http://www.math.temple.edu/~renault/fibonacci/fiblist.html">Fibonacci sequence modulo m</a>
+%o A053031 (Haskell)
+%o A053031 a053031 n = a053031_list !! (n-1)
+%o A053031 a053031_list = filter ((== 1) . a001176) [1..]
+%o A053031 -- _Reinhard Zumkeller_, Jan 16 2014
+%Y A053031 Cf. A001176.
+%Y A053031 Cf. A053029 (with 4 zeros), A053030 (with 2 zeros).
+%K A053031 nonn
+%O A053031 1,2
+%A A053031 _Henry Bottomley_, Feb 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

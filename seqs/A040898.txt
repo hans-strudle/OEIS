@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040898
+Showing 1-1 of 1
+
+%I A040898
+%S A040898 30,2,11,1,2,3,2,7,5,2,2,5,7,2,3,2,1,11,2,60,2,11,1,2,3,2,7,5,2,2,5,7,
+%T A040898 2,3,2,1,11,2,60,2,11,1,2,3,2,7,5,2,2,5,7,2,3,2,1,11,2,60,2,11,1,2,3,
+%U A040898 2,7,5,2,2,5,7,2,3,2,1,11,2,60,2,11,1,2,3,2,7,5,2,2
+%N A040898 Continued fraction for sqrt(929).
+%H A040898 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040898 with(numtheory): Digits := 300: convert(evalf(sqrt(929)),confrac);
+%K A040898 nonn,cofr,easy
+%O A040898 0,1
+%A A040898 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

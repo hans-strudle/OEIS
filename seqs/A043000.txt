@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043000
+Showing 1-1 of 1
+
+%I A043000
+%S A043000 2,4,7,9,11,13,16,19,21,23,25,27,29,31,35,37,39,41,43,45,47,49,51,54,
+%T A043000 56,59,61,63,65,67,70,72,74,76,79,81,83,85,87,89,91,93,95,97,99,101,
+%U A043000 103,106,108,110,112,114,116,118,120,122,124,126
+%N A043000 Number of digits in all base b representations of n, for 2<=b<=n.
+%F A043000 a(n) = sum{i=2,...,n} floor(log_i(i*n)); a(n)=n*log_2(n)+O(n). - _Vladimir Shevelev_, Jun 03 2011
+%F A043000 a(n) = A070939(n) + A081604(n) + A110591(n) + ... + 1. - _R. J. Mathar_, Jun 04 2011
+%e A043000 5=101_2=12_3=11_4=10_5. Thus a(5)=3+2+2+2=9.
+%p A043000 A043000 := proc(n) add( nops(convert(n,base,b)),b=2..n) ; end proc: # _R. J. Mathar_, Jun 04 2011
+%Y A043000 Cf. A043306, A068953, A191322.
+%K A043000 nonn,base
+%O A043000 2,1
+%A A043000 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

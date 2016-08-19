@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017761
+Showing 1-1 of 1
+
+%I A017761
+%S A017761 1,98,4851,161700,4082925,83291670,1429840335,21243342120,
+%T A017761 278818865325,3283866636050,35137373005735,344985116783580,
+%U A017761 3133614810784185,26515202245096950,210227674943268675,1569699972909739440,11086006058675034795,74341452393467880390
+%N A017761 Binomial coefficients C(n,97).
+%t A017761 Table[Binomial[n, 97], {n, 97, 120}] (* _Vladimir Joseph Stephan Orlovsky_, Jul 15 2011 *)
+%o A017761 (Sage) [binomial(n, 97) for n in xrange(97,112)] # [From _Zerinvary Lajos_, May 23 2009]
+%o A017761 (PARI) a(n)=binomial(n,97) \\ _Charles R Greathouse IV_, Jun 28 2012
+%Y A017761 Cf. A017762.
+%K A017761 nonn,easy
+%O A017761 97,2
+%A A017761 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

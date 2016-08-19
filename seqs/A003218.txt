@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003218
+Showing 1-1 of 1
+
+%I A003218 M0719
+%S A003218 1,2,3,5,9,18,42
+%N A003218 Weights of threshold functions.
+%D A003218 S. Muroga, Threshold Logic and Its Applications. Wiley, NY, 1971, p. 268.
+%D A003218 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003218 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A003218 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%p A003218 A003218:=-(1-4*z+2*z**3)/(-1+6*z-9*z**2+3*z**3); [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%K A003218 nonn
+%O A003218 2,2
+%A A003218 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009751
+Showing 1-1 of 1
+
+%I A009751
+%S A009751 0,2,8,48,2176,72704,2567168,320538624,23648567296,2869964963840,
+%T A009751 550752408829952,81617924549246976,20769854695130791936,
+%U A009751 5449382125873097867264,1599364150040158382587904,573113440182309263706685440
+%N A009751 Expansion of tan(x)*tan(tanh(x)).
+%H A009751 Vincenzo Librandi, <a href="/A009751/b009751.txt">Table of n, a(n) for n = 0..100</a>
+%t A009751 With[{nn=30},Take[CoefficientList[Series[Tan[x]*Tan[Tanh[x]],{x,0,nn}],x] Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Feb 07 2014 *)
+%K A009751 nonn
+%O A009751 0,2
+%A A009751 _R. H. Hardin_
+%E A009751 Extended and signs tested by _Olivier Gérard_, Mar 15 1997
+%E A009751 Prior Mathematica program replaced by and one more term from _Harvey P. Dale_, Feb 07 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

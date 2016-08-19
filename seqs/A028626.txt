@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028626
+Showing 1-1 of 1
+
+%I A028626
+%S A028626 1,4,4,0,12,24,8,16,36,4,64,16,16,24,48,20,60,40,4,48,152,16,80,48,24,
+%T A028626 124,88,0,112,56,68,64,116,32,104,176,12,56,112,32,336,104,48,96,176,
+%U A028626 24,144,112,64,100,364,32,200
+%N A028626 Expansion of (theta_3(z)*theta_3(15z)+theta_2(z)*theta_2(15z))^2.
+%K A028626 nonn
+%O A028626 0,2
+%A A028626 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

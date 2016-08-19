@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057482
+Showing 1-1 of 1
+
+%I A057482
+%S A057482 3,5,7,9,17,49,97,257,425
+%N A057482 Numbers n such that x^n + x^12 + 1 is irreducible over GF(2).
+%t A057482 Do[ If[ ToString[ Factor[ x^n + x^12 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^12 + 1 ], Print[ n ] ], {n, 0, 750} ]
+%Y A057482 Cf. A002475.
+%K A057482 nonn
+%O A057482 1,1
+%A A057482 _Robert G. Wilson v_, Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

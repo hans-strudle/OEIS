@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055820
+Showing 1-1 of 1
+
+%I A055820
+%S A055820 1,11,24,43,69,103,146,199,263,339,428,531,649,783,934,1103,1291,1499,
+%T A055820 1728,1979,2253,2551,2874,3223,3599,4003,4436,4899,5393,5919,6478,
+%U A055820 7071,7699,8363,9064,9803,10581,11399,12258
+%N A055820 T(n,n-3), array T as in A055818.
+%H A055820 Vincenzo Librandi, <a href="/A055820/b055820.txt">Table of n, a(n) for n = 3..10000</a>
+%H A055820 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4, -6, 4, -1).
+%F A055820 For n>3, a(n) = (n^3+3n^2-10n-6)/6.
+%t A055820 Join[{1},Table[(n^3+3n^2-10n-6)/6,{n,4,50}]] (* or *) Join[{1}, LinearRecurrence[ {4,-6,4,-1},{11,24,43,69},50]] (* _Harvey P. Dale_, Sep 18 2011 *)
+%K A055820 nonn,easy
+%O A055820 3,2
+%A A055820 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

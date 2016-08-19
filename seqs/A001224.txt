@@ -1,0 +1,53 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001224
+Showing 1-1 of 1
+
+%I A001224 M0318 N0117
+%S A001224 1,2,2,4,5,9,12,21,30,51,76,127,195,322,504,826,1309,2135,3410,5545,
+%T A001224 8900,14445,23256,37701,60813,98514,159094,257608,416325,673933,
+%U A001224 1089648,1763581,2852242,4615823,7466468,12082291,19546175,31628466
+%N A001224 If F(n) is the n-th Fibonacci number, then a(2n)=(F(2n+1)+F(n+2))/2 and a(2n+1)=(F(2n+2)+F(n+1))/2.
+%C A001224 Arises from problem of finding the number of inequivalent ways to pack a 2 X n rectangle with dominoes. The official solution is given in A060312. The present sequence gives the correct answer provided n !=2, when it gives 2 instead of 1. To put it another way, the present sequence gives the number of tilings of a 2 x n rectangle with dominoes when left-to-right mirror images are not regarded as distinct. - _N. J. A. Sloane_, Mar 30 2015
+%C A001224 Slavik V. Jablan (jablans(AT)yahoo.com) observes that this is also number of generating rational knots and links. See reference.
+%C A001224 Also the number of distinct binding configurations on an n-site one-dimensional linear lattice, where the molecules cannot touch each other. This number determines the order of recurrence for the partition function of binding to a two-dimensional n X m lattice.
+%D A001224 S. Golomb, Polyominoes, Princeton Univ. Press 1994.
+%D A001224 Jablan S. and Sazdanovic R., LinKnot: Knot Theory by Computer, World Scientific Press, 2007.
+%D A001224 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001224 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001224 T. D. Noe, <a href="/A001224/b001224.txt">Table of n, a(n) for n=1..500</a>
+%H A001224 Ali Reza Ashrafi, Jernej Azarija, Khadijeh Fathalikhani, Sandi Klavžar, Marko Petkovšek, <a href="http://arxiv.org/abs/1407.4962">Vertex and edge orbits of Fibonacci and Lucas cubes</a>, arXiv:1407.4962 [math.CO], 2014.
+%H A001224 M. Assis, J. L. Jacobsen, I. Jensen, J.-M. Maillard and B. M. McCoy, <a href="http://arxiv.org/abs/1406.5566">Integrability vs non-integrability: Hard hexagons and hard squares compared</a>, arXiv preprint 1406.5566, 2014
+%H A001224 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A001224 S. V. Jablan, <a href="http://www.ams.org./preprints/57/199706/199706-57-001-199706-57-001.html">Geometry of Links</a>, XII Yugoslav Geometric Seminar (Novi Sad, 1998), Novi Sad J. Math. 29 (1999), no. 3, 121-139.
+%H A001224 Y. Kong, <a href="http://dx.doi.org/10.1063/1.479242">General recurrence theory of ligand binding on a three-dimensional lattice</a>, J. Chem. Phys. Vol. 111 (1999), pp. 4790-4799. (Table I)
+%H A001224 W. E. Patten (proposer) and S. W. Golomb (solver), <a href="http://www.jstor.org/stable/2312751">Problem E1470</a>, "Covering a 2Xn rectangle with dominoes", Amer. Math. Monthly, 69 (1962), 61-62.
+%H A001224 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001224 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A001224 N. J. A. Sloane, <a href="/A001224/a001224.png">Annotated scan of Monthly problem E1470 with illustration of a(4)=4 (Page 1)</a>
+%H A001224 N. J. A. Sloane, <a href="/A001224/a001224_1.png">Annotated scan of Monthly problem E1470 with illustration of a(4)=4 (Page 2)</a>
+%H A001224 <a href="/index/Do#domino">Index entries for sequences related to dominoes</a>
+%F A001224 From _Christian G. Bower_, May 09 2000: (Start)
+%F A001224 G.f.: (2-(x+x^2)^2)/(2*(1-x-x^2)) + (1+x+x^2)*(x^2+x^4)/(2*(1-x^2-x^4)).
+%F A001224 "BIK" transform of x+x^2. (End)
+%F A001224 If F(n) is the n-th Fibonacci number, then a(2n)=(F(2n+1)+F(n+2))/2 and a(2n+1)=(F(2n+2)+F(n+1))/2.
+%p A001224 # Maple code for A060312 and A001224 from _N. J. A. Sloane_, Mar 30 2015
+%p A001224 with(combinat); F:=fibonacci;
+%p A001224 f:=proc(n) option remember;
+%p A001224 if n=2 then 1 # change this to 2 to get A001224
+%p A001224 elif (n mod 2) = 0 then (F(n+1)+F(n/2+2))/2;
+%p A001224 else (F(n+1)+F((n+1)/2))/2; fi; end;
+%p A001224 [seq(f(n),n=1..50)];
+%p A001224 A001224:=-(-1-z+2*z**2+z**3+z**4+z**5)/(z**4+z**2-1)/(z**2+z-1); # conjectured by _Simon Plouffe_ in his 1992 dissertation
+%p A001224 a:= n-> (Matrix([[5,4,2,2,1,1]]). Matrix(6, (i,j)-> if (i=j-1) then 1 elif j=1 then [1,2,-1,0,-1,-1][i] else 0 fi)^n)[1,6]: seq (a(n), n=1..38); # _Alois P. Heinz_, Aug 26 2008
+%t A001224 a[n_?EvenQ] := (Fibonacci[n + 1] + Fibonacci[n/2 + 2])/2; a[n_?OddQ] := (Fibonacci[n + 1] + Fibonacci[(n + 1)/2])/2; Table[a[n], {n, 38}] (* _Jean-François Alcover_, Oct 06 2011, after formula *)
+%o A001224 (MAGMA) [(1/2)*((Fibonacci(n+1))+Fibonacci(Floor((n+3+(-1)^n) div 2))): n in [1..40]]; // _Vincenzo Librandi_, Nov 23 2014
+%Y A001224 Essentially the same as A060312, A068928 and A102526.
+%K A001224 nonn,nice,easy
+%O A001224 1,2
+%A A001224 _N. J. A. Sloane_
+%E A001224 More terms from _Christian G. Bower_, May 09 2000
+%E A001224 Typo in references corrected by _Jernej Azarija_, Oct 23 2013
+%E A001224 Edited by _N. J. A. Sloane_, Mar 30 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

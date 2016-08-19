@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056145
+Showing 1-1 of 1
+
+%I A056145
+%S A056145 3,5,7,73,28807,31727,262657,295433,1311749,1385621,1478189,1540157,
+%T A056145 1543741,1549501,1551037,1865159,1932247,2031599,2067007,2085247,
+%U A056145 2087807
+%N A056145 Palindromic primes in bases 2 and 8.
+%t A056145 Do[ If[ PrimeQ[ n ], t=RealDigits[ n, 8 ][ [ 1 ] ]; If[ FromDigits[ t ]==FromDigits[ Reverse[ t ] ], s=RealDigits[ n, 2 ][ [ 1 ] ]; If[ FromDigits[ s ]==FromDigits[ Reverse[ s ] ], Print[ n ] ] ] ], {n, 1, 10^8} ]
+%Y A056145 Cf. A016041 and A029976.
+%K A056145 nonn,base
+%O A056145 1,1
+%A A056145 _Robert G. Wilson v_, Jul 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034095
+Showing 1-1 of 1
+
+%I A034095
+%S A034095 1,1,1,1,2,2,2,1,2,1,1,2,2,2,2,3
+%N A034095 Indices of (-1)sigma perfect numbers.
+%F A034095 a(n)=(-1)sigma(A034094(n))/A034094(n).
+%Y A034095 Cf. A034094.
+%K A034095 nonn
+%O A034095 0,5
+%A A034095 _Yasutoshi Kohmoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023258
+Showing 1-1 of 1
+
+%I A023258
+%S A023258 5,17,29,37,89,127,199,229,269,347,359,379,397,499,769,809,929,947,
+%T A023258 977,1049,1087,1129,1277,1279,1367,1409,1439,1489,1499,1607,1609,1787,
+%U A023258 2017,2039,2089,2399,2539,2707,2819,2837,2957,3089,3109,3217,3229,3389,3499
+%N A023258 Numbers n such that n remains prime through 2 iterations of function f(x) = 6x + 7.
+%C A023258 n, 6*n+7 and 36*n+49 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023258 (MAGMA) [n: n in [1..100000] | IsPrime(n) and IsPrime(6*n+7) and IsPrime(36*n+49)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023258 nonn
+%O A023258 1,1
+%A A023258 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

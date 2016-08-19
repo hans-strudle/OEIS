@@ -1,0 +1,67 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005614
+Showing 1-1 of 1
+
+%I A005614
+%S A005614 1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,
+%T A005614 1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,
+%U A005614 1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,0,1,1,0,1,0,1,1,0
+%N A005614 The infinite Fibonacci word (start with 1, apply 0->1, 1->10, iterate, take limit).
+%C A005614 Characteristic function of A022342. - _Philippe Deléham_, May 03 2004
+%C A005614 a(n) = number of 0's between successive 1's (see also A003589 and A007538) - _Eric Angelini_, Jul 06 2005
+%C A005614 With offset 1 this is the characteristic sequence for Wythoff A-numbers A000201=[1,3,4,6,...].
+%C A005614 Eric Angelini's comment made me think that if 1 is defined as the number of 0's between successive 1's in a string of 0's and 1's, then this string is 101. Applying the same operation to the digits of 101 leads to 101101, the iteration leads to successive palindromes of lengths given by A001911, up to a(n). [From Remi Schulz (Remi.Schulz(AT)club-internet.fr), Jul 06 2010]
+%C A005614 For generalized Fibonacci words see A221150, A221151 and A221152.. - _Peter Bala_, Nov 11 2013
+%C A005614 The limiting mean of the first n terms is phi - 1; the limiting variance is phi (A001622). - _Clark Kimberling_, Mar 12 2014
+%C A005614 Apply the difference operator to every column of the Wythoff difference array, A080164, to get an array of Fibonacci numbers, F(h).  Replace each F(h) by h, and apply the difference operator to every column.  In the resulting array, every column is A005614. - _Clark Kimberling_, Mar 02 2015
+%D A005614 J.-P. Allouche and J. Shallit, Automatic Sequences, Cambridge Univ. Press, 2003.
+%D A005614 D. Gault and M. Clint, "Curiouser and curiouser" said Alice. Further reflections on an interesting recursive function, Internat. J. Computer Math., 26 (1988), 35-43. See Table 3.
+%D A005614 C. Kimberling and K. B. Stolarsky, Slow Beatty sequences, devious convergence, and partitional divergence, Amer. Math. Monthly, 123 (No. 2, 2016), 267-273.
+%D A005614 G. Melancon, Factorizing infinite words using Maple, MapleTech journal, vol. 4, no. 1, 1997, pp. 34-42, esp. p. 36.
+%D A005614 S. Mneimneh, Fibonacci in The Curriculum: Not Just a Bad Recurrence, in Proceeding SIGCSE '15 Proceedings of the 46th ACM Technical Symposium on Computer Science Education, Pages 253-258.
+%H A005614 T. D. Noe, <a href="/A005614/b005614.txt">Table of n, a(n) for n=0..10945</a> (19 iterations)
+%H A005614 F. Axel et al., <a href="http://dx.doi.org/10.1051/jphyscol:1986318">Vibrational modes in a one dimensional "quasi-alloy": the Morse case</a>, J. de Physique, Colloq. C3, Supp. to No. 7, Vol. 47 (Jul 1986), pp. C3-181-C3-186; see Eq. (10).
+%H A005614 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, pp.753-754
+%H A005614 M. Bunder and K. Tognetti, <a href="http://dx.doi.org/10.1016/S0012-365X(01)00147-9">On the self matching properties of [j tau]</a>, Discrete Math., 241 (2001), 139-151.
+%H A005614 S. Dulucq and D. Gouyou-Beauchamps, <a href="http://dx.doi.org/10.1016/0304-3975(90)90050-R">Sur les facteurs des suites de Sturm</a>, Theoret. Comput. Sci. 71 (1990), 381-400.
+%H A005614 M. S. El Naschie, <a href="http://dx.doi.org/10.1016/0898-1221(95)00062-4">Statistical geometry of a Cantor discretum and semiconductors</a>, Computers & Mathematics with Applications, Vol. 29 (Issue 12, June 1995), 103-110.
+%H A005614 J. Grytczuk, <a href="http://dx.doi.org/10.1016/0012-365X(95)00297-A">Infinite semi-similar words</a>, Discrete Math. 161 (1996), 133-141.
+%H A005614 R. Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fibrab.html">The Fibonacci Rabbit Sequence</a>
+%H A005614 G. Melancon, <a href="http://dx.doi.org/10.1016/S0012-365X(99)00123-5">Lyndon factorization of sturmian words</a>, Discr. Math., 210 (2000), 137-149.
+%H A005614 C. Mongoven, <a href="http://caseymongoven.com/b35">The Rabbit Sequence</a> (a musical composition with A005614)
+%H A005614 T. D. Noe, <a href="/A171676/a171676.txt">The first 1652 subwords, including leading zeros.</a>
+%H A005614 José L. Ramírez, Gustavo N. Rubiano, and Rodrigo de Castro, <a href="http://arxiv.org/abs/1212.1368">A Generalization of the Fibonacci Word Fractal and the Fibonacci Snowflake</a>, arXiv preprint arXiv:1212.1368, 2012
+%H A005614 Jeffrey Shallit, <a href="http://www.cs.uwaterloo.ca/cs-archive/CS-1991/72/fix0.pdf">Characteristic words as fixed points of homomorphisms</a>
+%H A005614 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RabbitConstant.html">Rabbit Constant</a>
+%H A005614 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RabbitSequence.html">Rabbit Sequence</a>
+%H A005614 <a href="/index/Ch#char_fns">Index entries for characteristic functions</a>
+%F A005614 Define strings S(0)=1, S(1)=10, thereafter S(n)=S(n-1)S(n-2); iterate. Sequence is S(oo). The individual S(n)'s are given in A036299.
+%F A005614 a(n) = floor((n+1)*u)-floor(n*u), where u = (-1+sqrt(5))/2.
+%F A005614 sum_{n>=0} a(n)/2^(n+1) = A014565. - _R. J. Mathar_, Jul 19 2013
+%F A005614 From _Peter Bala_, Nov 11 2013: (Start)
+%F A005614 If we read the present sequence as the digits of a decimal constant c = 0.101101011011010 ... then we have the series representation c = sum {n >= 1} 1/10^floor(n*phi). An alternative representation is c = sum {n >= 1} 1/10^floor(n/phi) - 10/9.
+%F A005614 The constant 9*c has the simple continued fraction representation [0; 1, 10, 10, 100, 1000, ..., 10^Fibonacci(n), ...]. See A010100.
+%F A005614 Using this result we can find the alternating series representation c = 1/9 - 9*sum {n >= 1} (-1)^(n+1)*(1 + 10^Fibonacci(3*n+1))/( (10^(Fibonacci(3*n - 1)) - 1)*(10^(Fibonacci(3*n + 2)) - 1) ). The series converges very rapidly: for example, the first 10 terms of the series give a value for c accurate to more than 5.7 million decimal places. Cf. A014565. (End)
+%e A005614 The infinite word is 101101011011010110101101101011...
+%p A005614 Digits := 50; u := evalf((1-sqrt(5))/2); A005614 := n->floor((n+1)*u)-floor(n*u);
+%t A005614 Nest[ Flatten[ # /. {0 -> {1}, 1 -> {1, 0}}] &, {1}, 10] (* _Robert G. Wilson v_, Jan 30 2005 *)
+%t A005614 Flatten[Nest[{#, #[[1]]} &, {1, 0}, 9]] (* _IWABUCHI Yu(u)ki_, Oct 23 2013 *)
+%o A005614 (PARI) a(n,w1,s0,s1)=local(w2); for(i=2,n,w2=[ ]; for(k=1,length(w1),w2=concat(w2, if(w1[ k ],s1,s0))); w1=w2); w2
+%o A005614 for(n=2,10,print(n" "a(n,[ 0 ],[ 1 ],[ 1,0 ]))) \\ Gives successive convergents to sequence
+%o A005614 (PARI) /* for m>=1 compute exactly A183136(m+1)+1 terms of the sequence */
+%o A005614 r=(1+sqrt(5))/2;v=[1,0];for(n=2,m,v=concat(v,vector(floor((n+1)/r),i,v[i]));a(n)=v[n];) /* _Benoit Cloitre_, Jan 16 2013 */
+%o A005614 (Haskell)
+%o A005614 a005614 n = a005614_list !! n
+%o A005614 a005614_list = map (1 -) a003849_list
+%o A005614 -- _Reinhard Zumkeller_, Apr 07 2012
+%Y A005614 Binary complement of A003849, which is the standard form of this sequence. Cf. A036299, A001468, A014675.
+%Y A005614 Two other essentially identical sequences are A096270, A114986.
+%Y A005614 Subwords: A178992, A171676.
+%Y A005614 Cf. A000045 (Fibonacci numbers), A044432, A005206 (partial sums). A014565, A221150, A221151, A221152.
+%K A005614 nonn,easy,nice
+%O A005614 0,1
+%A A005614 _N. J. A. Sloane_
+%E A005614 Corrected by _Clark Kimberling_, Oct 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

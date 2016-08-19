@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004282
+Showing 1-1 of 1
+
+%I A004282
+%S A004282 0,3,24,100,300,735,1568,3024,5400,9075,14520,22308,33124,47775,67200,
+%T A004282 92480,124848,165699,216600,279300,355740,448063,558624,690000,845000,
+%U A004282 1026675,1238328,1483524,1766100,2090175
+%N A004282 n*(n+1)^2*(n+2)^2/12.
+%H A004282 Vincenzo Librandi, <a href="/A004282/b004282.txt">Table of n, a(n) for n = 0..10000</a>
+%H A004282 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A004282 C(3+n, 2)*C(3+n, 3). - _Zerinvary Lajos_, Jan 10 2006
+%F A004282 a(n-1) = sum {1 <= x_1, x_2 <= n} x_1*(det V(x_1,x_2))^2 = sum {1 <= i,j <= n} i*(i-j)^2, where V(x_1,x_2) is the Vandermonde matrix of order 2. - _Peter Bala_, Sep 21 2007
+%F A004282 G.f.: x*(3+6*x+x^2)/(1-x)^6. [Colin Barker, Feb 09 2012]
+%p A004282 [seq(numbperm (n,2)*numbperm (n,3)/12, n=2..31)]; - _Zerinvary Lajos_, Apr 26 2007
+%p A004282 a:=n->sum(sum((n^3-n^2)/12, j=0..n),k=0..n): seq(a(n), n=1..30); - _Zerinvary Lajos_, May 09 2007
+%p A004282 a:=n->(sum((numbcomp(n,4)*numbcomp(n,2)), j=3..n)):seq(a(n), n=2..39); [From _Zerinvary Lajos_, Aug 26 2008]
+%t A004282 Table[n*(n+1)^2*(n+2)^2/12,{n,0,40} (* _Vincenzo Librandi_, Feb 09 2012 *)
+%o A004282 (MAGMA) [n*(n+1)^2*(n+2)^2/12: n in [0..50]]; // Vincenzo Librandi, Feb 09 2012
+%o A004282 (PARI) binomial(n+3,2)*binomial(n+3,3) \\ _Charles R Greathouse IV_, Feb 09 2012
+%Y A004282 Cf. A006542, A107891, A114242.
+%K A004282 nonn,easy
+%O A004282 0,2
+%A A004282 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

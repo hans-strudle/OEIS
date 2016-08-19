@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020676
+Showing 1-1 of 1
+
+%I A020676
+%S A020676 0,2,8,9,11,17,18,27,32,36,38,41,44,50,54,59,68,72,81,83,86,89,98,99,
+%T A020676 107,108,113,128,131,134,137,144,146,152,153,162,164,171,176,179,194,
+%U A020676 198,200,209,216,225,227,233,236,242,243,251,257,272,275,278,281,288,297,306,323
+%N A020676 Numbers of form 2 x^2 + 9 y^2.
+%H A020676 N. J. A. Sloane et al., <a href="https://oeis.org/wiki/Binary_Quadratic_Forms_and_OEIS">Binary Quadratic Forms and OEIS</a> (Index to related sequences, programs, references)
+%K A020676 easy,nonn
+%O A020676 1,2
+%A A020676 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

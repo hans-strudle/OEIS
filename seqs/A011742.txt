@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011742
+Showing 1-1 of 1
+
+%I A011742
+%S A011742 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,
+%T A011742 1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,1,1,0,1,1,1,0,
+%U A011742 1,1,1,0,1,1,1,0,1,1,1,0,1
+%N A011742 A binary m-sequence: expansion of reciprocal of x^29+x^2+1.
+%D A011742 S. W. Golomb, Shift-Register Sequences, Holden-Day, San Francisco, 1967.
+%D A011742 H. D. Lueke, Korrelationssignale, Springer 1992, pp. 43-48.
+%D A011742 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier/North Holland, 1978, p. 408.
+%K A011742 nonn
+%O A011742 0,1
+%A A011742 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

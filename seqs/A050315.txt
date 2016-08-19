@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050315
+Showing 1-1 of 1
+
+%I A050315
+%S A050315 1,1,1,2,1,2,2,5,1,2,2,5,2,5,5,15,1,2,2,5,2,5,5,15,2,5,5,15,5,15,15,
+%T A050315 52,1,2,2,5,2,5,5,15,2,5,5,15,5,15,15,52,2,5,5,15,5,15,15,52,5,15,15,
+%U A050315 52,15,52,52,203,1,2,2,5,2,5,5,15,2,5,5,15,5,15,15,52,2,5,5,15,5,15
+%N A050315 Main diagonal of A050314.
+%H A050315 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>
+%F A050315 Bell number of number of 1's in binary. A000110(A000120).
+%K A050315 nonn
+%O A050315 0,4
+%A A050315 _Christian G. Bower_, Sep 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

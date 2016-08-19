@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010912
+Showing 1-1 of 1
+
+%I A010912
+%S A010912 3,7,16,37,86,200,465,1081,2513,5842,13581,31572,73396,170625,396655,
+%T A010912 922111,2143648,4983377,11584946,26931732,62608681,145547525,
+%U A010912 338356945,786584466,1828587033,4250949112,9882257736,22973462017,53406819691,124155792775
+%N A010912 Pisot sequences E(3,7), P(3,7).
+%H A010912 Vincenzo Librandi, <a href="/A010912/b010912.txt">Table of n, a(n) for n = 0..1000</a>
+%H A010912 D. W. Boyd, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa34/aa3444.pdf">Some integer sequences related to the Pisot sequences</a>, Acta Arithmetica, 34 (1979), 295-305
+%H A010912 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%H A010912 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=895">Encyclopedia of Combinatorial Structures 895</a>.
+%F A010912 a(n) = 3*a(n-1) - 2*a(n-2) + a(n-3) (holds at least up to n = 1000 but is not known to hold in general).
+%F A010912 Empirical g.f.: (3-2*x+x^2)/(1-3*x+2*x^2-x^3).  -_Colin Barker_, Feb 19 2012
+%t A010912 a=1;b=1;c=1;Table[a+=b;b+=c;c+=a,{n,50}] (* _Vladimir Joseph Stephan Orlovsky_, Nov 17 2010 *)
+%o A010912 (MAGMA) XY:=[3, 7]; [n le 2 select XY[n] else Ceiling(Self(n-1)^2/Self(n-2)-1/2): n in [1..32]]; // _Klaus Brockhaus_, Nov 17 2010
+%o A010912 (MAGMA) a:=1; b:=1; c:=1; S:=[]; for n in [1..32] do a+:=b; b+:=c; c+:=a; Append(~S, c); end for; S; // __Klaus Brockhaus_, Nov 17 2010
+%Y A010912 See A008776 for definitions of Pisot sequences.
+%K A010912 nonn,easy
+%O A010912 0,1
+%A A010912 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018820
+Showing 1-1 of 1
+
+%I A018820
+%S A018820 169,225,289,625,676,841,900,1156,1225,1369,1521,1681,2025,2500,2601,
+%T A018820 2704,2809,3025,3364,3600,3721,4225,4624,4900,5329,5476,5625,6084,
+%U A018820 6724,7225,7569,7921,8100,8281,9025,9409,10000,10201,10404,10816,11025,11236
+%N A018820 n is the sum of k nonzero squares for all 1 <= k <= n-14.
+%H A018820 <a href="/index/Su#ssq">Index entries for sequences related to sums of squares</a>
+%K A018820 nonn
+%O A018820 1,1
+%A A018820 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

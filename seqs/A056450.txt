@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056450
+Showing 1-1 of 1
+
+%I A056450
+%S A056450 4,4,16,16,64,64,256,256,1024,1024,4096,4096,16384,16384,65536,65536,
+%T A056450 262144,262144,1048576,1048576,4194304,4194304,16777216,16777216,
+%U A056450 67108864,67108864,268435456,268435456
+%N A056450 Number of palindromes of length n using a maximum of four different symbols.
+%D A056450 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056450 Vincenzo Librandi, <a href="/A056450/b056450.txt">Table of n, a(n) for n = 1..2000</a>
+%H A056450 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A056450 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,4)
+%F A056450 a(n) = 4^floor((n+1)/2).
+%F A056450 G.f.: -4*x*(1+x) / ( (2*x-1)*(2*x+1) ). - _R. J. Mathar_, Jan 19 2011
+%F A056450 a(n) = 4*abs(A164111(n-1)). - _R. J. Mathar_, Jan 19 2011
+%e A056450 At length n=1 there are a(1)=4 palindromes, A, B, C, D. At length n=2, there are a(2)=4 palindromes, AA, BB, CC, DD. At length n=3, there are a(3)=16 palindromes, AAA, BBB, CCC, DDD, ABA, BAB, ... , CDC, DCD.
+%o A056450 (MAGMA) [4^Floor((n+1)/2): n in [1..40]]; // _Vincenzo Librandi_, Aug 16 2011
+%o A056450 (PARI) a(n)=4^((n+1)\2) \\ _Charles R Greathouse IV_, Apr 08 2012
+%Y A056450 Cf. A016116.
+%K A056450 nonn,easy
+%O A056450 1,1
+%A A056450 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

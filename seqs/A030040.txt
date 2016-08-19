@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030040
+Showing 1-1 of 1
+
+%I A030040
+%S A030040 1,1,1,2,3,6,13,26,57,117,262,602,1329,3079,7245,16503,38869,89113,
+%T A030040 210974,504309,1179630,2824021,6635307,15941802,38557737,91823353,
+%U A030040 222366338,541354461,1299734664,3164349333
+%N A030040 a(n+1)= Sum a(k)a(n-k), k = 0 ... [ n/tau ], tau = (1+sqrt(5))/2.
+%Y A030040 Cf. A000992.
+%K A030040 nonn
+%O A030040 0,4
+%A A030040 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

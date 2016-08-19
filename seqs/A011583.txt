@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011583
+Showing 1-1 of 1
+
+%I A011583
+%S A011583 0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,
+%T A011583 1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,
+%U A011583 1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+%V A011583 0,1,-1,1,1,-1,-1,-1,-1,1,1,-1,1,0,1,-1,1,1,-1,-1,-1,-1,1,1,-1,1,0,1,
+%W A011583 -1,1,1,-1,-1,-1,-1,1,1,-1,1,0,1,-1,1,1,-1,-1,-1,-1,1,1,-1,1,0,1,-1,1,
+%X A011583 1,-1,-1,-1,-1,1,1,-1,1,0,1,-1,1,1,-1,-1,-1,-1,1,1,-1,1,0,1,-1
+%N A011583 Legendre symbol (n,13).
+%D A011583 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers. 3rd ed., Oxford Univ. Press, 1954, p. 68.
+%o A011583 (PARI) A011583(n) = kronecker(n,13) ;
+%o A011583 for(n=0,20,print1(A011583(n)",") ); /* R. J. Mathar, Feb 25 2012 */
+%K A011583 sign,mult
+%O A011583 0,1
+%A A011583 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

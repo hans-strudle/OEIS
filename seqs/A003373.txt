@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003373
+Showing 1-1 of 1
+
+%I A003373
+%S A003373 6,133,260,387,514,641,768,2192,2319,2446,2573,2700,2827,4378,4505,
+%T A003373 4632,4759,4886,6564,6691,6818,6945,8750,8877,9004,10936,11063,13122,
+%U A003373 16389,16516,16643,16770,16897,17024,18575,18702,18829,18956,19083,20761,20888
+%N A003373 Numbers that are the sum of 6 positive 7th powers.
+%t A003373 Union[Total[#^7]&/@Tuples[Range[4],6]] (* _Harvey P. Dale_, Nov 14 2012 *)
+%K A003373 nonn
+%O A003373 1,1
+%A A003373 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

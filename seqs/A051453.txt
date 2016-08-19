@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051453
+Showing 1-1 of 1
+
+%I A051453
+%S A051453 1,2,3,4,5,7,9,19,25,31,47,89,127,139,1369,2251,3271
+%N A051453 Prime powers such that 1+lcm(1,...,p^w) is prime.
+%e A051453 1+lcm(1,..,89)=718766754945489455304472257065075294401 is prime.
+%Y A051453 Cf. A000961, A003418, A049536, A049537.
+%K A051453 nonn
+%O A051453 1,2
+%A A051453 _Labos Elemer_
+%E A051453 Corrected and extended by _Wouter Meeussen_, Apr 18 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

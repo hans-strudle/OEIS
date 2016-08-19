@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014471
+Showing 1-1 of 1
+
+%I A014471
+%S A014471 1,1,0,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,0,1,1,0,0,0,0,1,1,0,1,0,
+%T A014471 1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014471 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1
+%V A014471 1,1,0,-1,-1,0,1,0,-1,-1,0,0,0,0,1,1,0,-1,0,1,1,0,0,0,0,-1,-1,0,1,0,
+%W A014471 -1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014471 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,-1
+%N A014471 Inverse of 462nd cyclotomic polynomial.
+%p A014471 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014471 sign
+%O A014471 0,1
+%A A014471 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

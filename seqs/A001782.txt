@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001782
+Showing 1-1 of 1
+
+%I A001782 M5286 N2301
+%S A001782 1,44,4940800,564083990621761115783168,
+%T A001782 265595429519150677725101890892978815884074732203939261150723571712
+%V A001782 1,-44,-4940800,-564083990621761115783168,
+%W A001782 -265595429519150677725101890892978815884074732203939261150723571712
+%N A001782 Discriminants of Shapiro polynomials.
+%D A001782 Mohammad K. Azarian, On the Hyperfactorial Function, Hypertriangular Function, and the Discriminants of Certain Polynomials, International Journal of Pure and Applied Mathematics, Vol. 36, No. 2, 2007, pp. 251-257.  Mathematical Reviews, MR2312537.  Zentralblatt MATH, Zbl 1133.11012.
+%D A001782 J. Brillhart and L. Carlitz, Note on the Shapiro polynomials, Pacific J. Math., 25 (1970), 114-118.
+%D A001782 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001782 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001782 Sean A. Irvine, <a href="/A001782/b001782.txt">Table of n, a(n) for n = 1..8</a>
+%H A001782 J. Brillhart and L. Carlitz, <a href="/A001782/a001782.pdf">Note on the Shapiro polynomials</a> [Annotated scanned copy]
+%F A001782 Let P_0(x) = Q_0(x) = 1. For n > 0, P_{n + 1}(x) = P_n(x) + x^(2^n)*Q_n(x) and Q_{n + 1}(x) = P_n(x) - x^(2^n)*Q_n(x). Then, a(n) = discrim(P_n(x)). Note also that discrim(P_n(x)) = discrim(Q_n(x)). - _Sean A. Irvine_, Nov 25 2012
+%K A001782 sign,nice
+%O A001782 1,2
+%A A001782 _N. J. A. Sloane_.
+%E A001782 Extended by _Sean A. Irvine_, Nov 25 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

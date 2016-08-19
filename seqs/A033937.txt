@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033937
+Showing 1-1 of 1
+
+%I A033937
+%S A033937 2,7,17,35,66,118,204,345,575,949,1556,2540,4134,6715,10893,17655,
+%T A033937 28598,46306,74960,121325,196347,317737,514152,831960,1346186,2178223,
+%U A033937 3524489,5702795,9227370,14930254,24157716
+%N A033937 Convolution of natural numbers n >= 1 with Fibonacci numbers F(k), k >= 3.
+%F A033937 a(n) = F(n+7)-(11+3*n); G.f.: (2+x)/((1-x-x^2)*(1-x)^2)
+%Y A033937 Cf. A000045, A001924, A001891.
+%K A033937 easy,nonn
+%O A033937 0,1
+%A A033937 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

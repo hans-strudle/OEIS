@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045820
+Showing 1-1 of 1
+
+%I A045820
+%S A045820 2,24,124,368,746,1288,2220,3536,4964,6904,9536,12112,15630,20592,
+%T A045820 24588,29632,37472,43296,50492,61456,68724,79560,95404,104352,118226,
+%U A045820 137392,148636,167920,191904,204712
+%N A045820 Theta series of D8 lattice with respect to mid-point of edge.
+%F A045820 (1/2)*(theta_2^2*theta_3^6).
+%K A045820 nonn
+%O A045820 0,1
+%A A045820 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

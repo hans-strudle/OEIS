@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052722
+Showing 1-1 of 1
+
+%I A052722
+%S A052722 0,0,0,0,0,120,3600,100800,3024000,99792000,3632428800,145297152000,
+%T A052722 6351561216000,301699157760000,15487223431680000,854894733428736000,
+%U A052722 50516506975334400000,3182539939446067200000,212985365178313728000000
+%N A052722 E.g.f. (1-2*x-sqrt(1-4*x))^2 *(1-sqrt(1-4*x)) /8.
+%H A052722 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=678">Encyclopedia of Combinatorial Structures 678</a>
+%F A052722 Recurrence: a(1)=0; a(2)=0; a(4)=0; a(3)=0; a(5)=120; (-2*n^2+22*n+20-4*n^3)*a(n) +(19*n-14+13*n^2)*a(n+1) +(-7*n-9)*a(n+2) +a(n+3) = 0.
+%F A052722 a(n) = n!*A000344(n-3). - _R. J. Mathar_, Oct 18 2013
+%p A052722 spec := [S,{C=Union(B,Z),B=Prod(C,C),S=Prod(B,B,C)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052722 easy,nonn
+%O A052722 0,6
+%A A052722 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

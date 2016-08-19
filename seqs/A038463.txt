@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038463
+Showing 1-1 of 1
+
+%I A038463
+%S A038463 4095,6143,7167,7679,7935,8063,8127,8159,8175,8183,8187,8189,8190,
+%T A038463 10239,11263,11775,12031,12159,12223,12255,12271,12279,12283,12285,
+%U A038463 12286,13311,13823,14079,14207,14271,14303,14319,14327,14331,14333
+%N A038463 Sums of 12 distinct powers of 2.
+%H A038463 Ivan Neretin, <a href="/A038463/b038463.txt">Table of n, a(n) for n = 1..10000</a>
+%Y A038463 Base 2 interpretation of A038454.
+%K A038463 nonn,easy
+%O A038463 1,1
+%A A038463 _Olivier Gérard_
+%E A038463 Offset changed to 1 by _Ivan Neretin_, Feb 28 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

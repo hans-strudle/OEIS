@@ -1,0 +1,49 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025459
+Showing 1-1 of 1
+
+%I A025459
+%S A025459 0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,1,0,
+%T A025459 1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,
+%U A025459 0,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,1,0,1,0,0,0,1,1,0,0,0,1,0,1,1,0,0,0,1,0,1,1,0,0
+%N A025459 Number of partitions of n into 6 positive cubes.
+%p A025459 A025459 := proc(n)
+%p A025459     local a,x,y,z,u,v,wcu ;
+%p A025459     a := 0 ;
+%p A025459     for x from 1 do
+%p A025459         if 6*x^3 > n then
+%p A025459             return a;
+%p A025459         end if;
+%p A025459         for y from x do
+%p A025459             if x^3+5*y^3 > n then
+%p A025459                 break;
+%p A025459             end if;
+%p A025459             for z from y do
+%p A025459                 if x^3+y^3+4*z^3 > n then
+%p A025459                     break;
+%p A025459                 end if;
+%p A025459                 for u from z do
+%p A025459                     if x^3+y^3+z^3+3*u^3 > n then
+%p A025459                         break;
+%p A025459                     end if;
+%p A025459                     for v from u do
+%p A025459                         if x^3+y^3+z^3+u^3+2*v^3 > n then
+%p A025459                             break;
+%p A025459                         end if;
+%p A025459                         wcu := n-x^3-y^3-z^3-u^3-v^3 ;
+%p A025459                         if isA000578(wcu) then
+%p A025459                             a := a+1 ;
+%p A025459                         end if;
+%p A025459                     end do:
+%p A025459                 end do:
+%p A025459             end do:
+%p A025459         end do:
+%p A025459     end do:
+%p A025459 end proc: # _R. J. Mathar_, Sep 15 2015
+%Y A025459 Cf. A048931 (in exactly 3 ways).
+%K A025459 nonn
+%O A025459 0,1
+%A A025459 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001010
+Showing 1-1 of 1
+
+%I A001010 M0323 N0120
+%S A001010 1,2,2,4,6,8,18,20,56,48,178,132,574,348,1870,1008,6144,2812,20314,
+%T A001010 8420,67534,24396,225472,74756,755672,222556,2540406,693692,8564622,
+%U A001010 2107748,28941258,6656376,98011464,20548932
+%N A001010 Number of symmetric foldings of a strip of n stamps.
+%D A001010 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001010 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001010 R. Dickau, <a href="http://www.robertdickau.com/symmetricfoldings.html">Symmetric Stamp Foldings</a>
+%H A001010 R. Dickau, <a href="/A001010/a001010.pdf">Symmetric Stamp Foldings</a> [Cached copy, pdf format, with permission]
+%H A001010 J. E. Koehler, <a href="http://dx.doi.org/10.1016/S0021-9800(68)80048-1">Folding a strip of stamps</a>, J. Combin. Theory, 5 (1968), 135-152.
+%H A001010 J. E. Koehler, <a href="/A001011/a001011_4.pdf">Folding a strip of stamps</a>, J. Combin. Theory, 5 (1968), 135-152. [Annotated, corrected, scanned copy]
+%H A001010 Frank Ruskey, <a href="http://theory.cs.uvic.ca/inf/perm/StampFolding.html">Information on Stamp Foldings</a>
+%H A001010 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/StampFolding.html">Stamp Folding.</a>
+%H A001010 <a href="/index/Fo#fold">Index entries for sequences obtained by enumerating foldings</a>
+%F A001010 a(2n) = 2*A000682(n+1), a(2n+1) = 2*A007822(n). - _Sean A. Irvine_, Mar 18 2013
+%Y A001010 Cf. A007822, A000682.
+%K A001010 nonn,nice
+%O A001010 1,2
+%A A001010 _N. J. A. Sloane_, _Stéphane Legendre_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

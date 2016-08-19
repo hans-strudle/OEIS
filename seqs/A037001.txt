@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037001
+Showing 1-1 of 1
+
+%I A037001
+%S A037001 6,16,21,28,33,53,63,73,76,83,89,93,102,112,114,135,136,140,149,160,
+%T A037001 165,173,185,186,203,221,229,241,244,260,275,280,289,292,298,302,326,
+%U A037001 329,333,335,337,354,374,380,406,423,435,456,462,477,479,484,485,500
+%N A037001 Positions of the digit '2' in the decimal expansion of Pi.
+%H A037001 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiDigits.html">Pi Digits.</a>
+%t A037001 Flatten @ Position[ RealDigits[Pi - 3, 10, 500][[1]], 2] (* _Robert G. Wilson v_, Mar 07 2011 *)
+%Y A037001 Cf. A036974.
+%K A037001 nonn,base
+%O A037001 1,1
+%A A037001 Nicolau C. Saldanha (nicolau(AT)mat.puc-rio.br)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

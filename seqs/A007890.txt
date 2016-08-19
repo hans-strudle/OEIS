@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007890
+Showing 1-1 of 1
+
+%I A007890
+%S A007890 1,11,21,1211,1231,131221,132231,232221,134211,14131231,14231241,
+%T A007890 24132231,14233221,14233221,14233221,14233221,14233221,14233221,
+%U A007890 14233221,14233221,14233221,14233221,14233221,14233221,14233221
+%N A007890 Summarize the previous term! (in decreasing order).
+%e A007890 For example, the term after 131221 is obtained by saying "one 3, two 2's, three 1's", which gives 13-22-31, i.e. 132231.
+%Y A007890 Cf. A005150.
+%K A007890 nonn,base,easy
+%O A007890 1,2
+%A A007890 _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

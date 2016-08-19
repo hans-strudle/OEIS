@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013833
+Showing 1-1 of 1
+
+%I A013833
+%S A013833 256,262144,268435456,274877906944,281474976710656,288230376151711744,
+%T A013833 295147905179352825856,302231454903657293676544,
+%U A013833 309485009821345068724781056,316912650057057350374175801344,324518553658426726783156020576256
+%N A013833 4^(5*n+4).
+%H A013833 Vincenzo Librandi, <a href="/A013833/b013833.txt">Table of n, a(n) for n = 0..100</a>
+%H A013833 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013833 a(n)=1024*a(n-1), n>0 ; a(0)=256 . G.f.: 256/(1-1024*x). a(n)=4*A013832(n). [From _Philippe Deléham_, Nov 30 2008]
+%o A013833 (MAGMA) [4^(5*n+4): n in [0..15]]; // Vincenzo Librandi, Jul 07 2011
+%K A013833 nonn,easy
+%O A013833 0,1
+%A A013833 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

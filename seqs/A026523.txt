@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026523
+Showing 1-1 of 1
+
+%I A026523
+%S A026523 1,2,8,16,52,104,319,635,1910,3786,11304,22344,66514,131264,390266,
+%T A026523 769578,2286996,4508580,13397075,26412001,78489235,154773696,
+%U A026523 460030947,907432695,2697786052,5323519838,15830906756,31251588060
+%N A026523 a(n) = T(n,n-3), T given by A026519. Also a(n) = number of integer strings s(0),...,s(n), counted by T, such that s(n)=3.
+%K A026523 nonn
+%O A026523 3,2
+%A A026523 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062631
+Showing 1-1 of 1
+
+%I A062631
+%S A062631 5,31,9013,29077,35543,56809,60167
+%N A062631 Numbers n such that 65^n - 64^n is prime.
+%C A062631 Terms greater than 1000 are often only strong pseudoprimes.
+%C A062631 All terms are prime. - _Robert Price_, Aug 09 2013
+%C A062631 a(8) > 10^5. - _Robert Price_, Aug 09 2013
+%Y A062631 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062631 nonn,hard,more
+%O A062631 1,1
+%A A062631 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062631 a(4)-a(7) (calculations by Adam Marciniec) - _Robert Price_, Aug 09 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

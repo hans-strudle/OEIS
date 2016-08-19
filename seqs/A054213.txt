@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054213
+Showing 1-1 of 1
+
+%I A054213
+%S A054213 0,225313610074846875,312343781246875156246875,
+%T A054213 119665765800843104737370354851986949,
+%U A054213 2439979134100773706931016420916722663424
+%N A054213 Smallest fifth powers whose decimal expansion digits occur with same frequency n.
+%C A054213 Terms calculated by _Jeff Heleen_.
+%H A054213 P. De Geest, <a href="http://www.worldofnumbers.com/samedigits.htm">Numbers whose digits occur with same frequency</a>
+%e A054213 2955^5 = 225313610074846875 and digits 0, 1, 2, 3, 4, 5, 6, 7, and 8 each occur twice.
+%Y A054213 Cf. A054212, A052093, A052094, A052069, A052071.
+%K A054213 nonn,base,hard
+%O A054213 1,2
+%A A054213 _Patrick De Geest_, Feb 15 2000
+%E A054213 Offset corrected by _Michel Marcus_, Aug 12 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

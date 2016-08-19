@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008775
+Showing 1-1 of 1
+
+%I A008775
+%S A008775 1,2,272,261392,923578112,8687146706432,179207715900772352,
+%T A008775 7123449535546491471872,497301503279765920504020992,
+%U A008775 56869795869126246818618490355712,10089974849557868979545831504092332032,2659150134955694814127423122143061660925952
+%N A008775 Expansion of 2(1 + cos x cosh x )^-1.
+%D A008775 Goulden and Jackson, Combin. Enum., Wiley, 1983 p. 287.
+%F A008775 a(n) ~ 8 * (4*n)! / ((cosh(r)*sin(r) - cos(r)*sinh(r)) * r^(4*n+1)), where r = 1.875104068711961166445308241... is the root of the equation cosh(r)*cos(r) = -1. - _Vaclav Kotesovec_, Sep 15 2014
+%t A008775 Table[(CoefficientList[Series[2/(1 + Cos[x]*Cosh[x]), {x, 0, 60}], x] * Range[0, 60]! )[[n]], {n, 1, 61, 4}] (* _Vaclav Kotesovec_, Sep 15 2014 *)
+%Y A008775 Cf. A101921.
+%K A008775 nonn
+%O A008775 0,2
+%A A008775 _N. J. A. Sloane_.
+%E A008775 More terms from _Vaclav Kotesovec_, Sep 15 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

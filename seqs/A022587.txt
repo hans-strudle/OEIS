@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022587
+Showing 1-1 of 1
+
+%I A022587
+%S A022587 1,22,253,2046,13134,71368,341275,1473494,5848810,21628002,75261384,
+%T A022587 248403586,782547909,2365168542,6887441198,19393122562,52959869787,
+%U A022587 140631776582,363943223941,919706094494,2273411319069
+%N A022587 Expansion of Product (1+q^m)^22; m=1..inf.
+%F A022587 a(n) ~ (11/6)^(1/4) * exp(Pi * sqrt(22*n/3)) / (4096 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022587 nmax=50; CoefficientList[Series[Product[(1+q^m)^22,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022587 nonn
+%O A022587 0,2
+%A A022587 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

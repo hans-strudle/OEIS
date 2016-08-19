@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010919
+Showing 1-1 of 1
+
+%I A010919
+%S A010919 4,13,42,135,433,1388,4449,14260,45706,146496,469546,1504979,4823727,
+%T A010919 15460908,49554976,158832563,509086778,1631714194,5229935889,
+%U A010919 16762880107,53728029453,172207945799,551957272549
+%N A010919 Pisot sequence T(4,13), a(n)=[ a(n-1)^2/a(n-2) ].
+%H A010919 D. W. Boyd, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa34/aa3444.pdf">Some integer sequences related to the Pisot sequences</a>, Acta Arithmetica, 34 (1979), 295-305
+%H A010919 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%Y A010919 Cf. A022029.
+%K A010919 nonn
+%O A010919 0,1
+%A A010919 _Simon Plouffe_ and _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

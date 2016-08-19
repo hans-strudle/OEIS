@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053619
+Showing 1-1 of 1
+
+%I A053619
+%S A053619 1,8,28,8,5,5,3,3,4,4,3,3,2,3,3,3,2,3,2,2,2,3,2,2,2,3,3,3,2,2,2,2,2,
+%T A053619 2,3,3,2,2,3,3,2,2,2,2,2,2,1,2,2,2,2,3,2,2,2,3,3,3,2,2,2,2,2,2,2,3,2,
+%U A053619 2,2,3,2,2,1,1,2,2,2,2,1,2,2,2,1,1,2,2,2,2,2,2,2,2,2,3,3,3,2,2,3,3,2,2,1
+%V A053619 -1,-8,28,8,5,5,3,3,4,4,3,3,2,3,3,3,2,3,2,2,2,3,2,2,2,3,3,3,2,2,2,2,2,
+%W A053619 2,3,3,2,2,3,3,2,2,2,2,2,2,1,2,2,2,2,3,2,2,2,3,3,3,2,2,2,2,2,2,2,3,2,
+%X A053619 2,2,3,2,2,1,1,2,2,2,2,1,2,2,2,1,1,2,2,2,2,2,2,2,2,2,3,3,3,2,2,3,3,2,2,1
+%N A053619 Round[n/(log(n)-1)-pi(n)].
+%H A053619 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/howmany.shtml">How Many Primes Are There?</a>
+%Y A053619 Cf. A000720, A052434, A052435.
+%K A053619 sign
+%O A053619 1,2
+%A A053619 _Henry Bottomley_, Mar 21 2000
+%E A053619 More terms from _James A. Sellers_, Mar 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

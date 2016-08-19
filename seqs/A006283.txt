@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006283
+Showing 1-1 of 1
+
+%I A006283 M3092
+%S A006283 3,22,118,383,571,635,70529,375687,399380,575584,699357,1561065,
+%T A006283 1795712,194445473,253745996,3199003690,3727084011,6607433185,
+%U A006283 16248462801
+%N A006283 Pierce expansion for 1 / Pi.
+%D A006283 Jeffrey Shallit, Some predictable Pierce expansions, Fib. Quart., 22 (1984), 332-335.
+%D A006283 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006283 Jeffrey Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Papers/sppe.ps">Some predictable Pierce expansions</a>, Fib. Quart., 22 (1984), 332-335.
+%H A006283 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PierceExpansion.html">Pierce Expansion</a>
+%o A006283 (PARI) r=Pi;for(n=1,100,s=(r/(r-floor(r)));r=s;print1(floor(s),",")) (from Benoit Cloitre)
+%K A006283 nonn
+%O A006283 0,1
+%A A006283 _Jeffrey Shallit_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

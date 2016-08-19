@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036067
+Showing 1-1 of 1
+
+%I A036067
+%S A036067 0,0,20,1220,321120,13423120,1433424120,4443424120,8433423120,
+%T A036067 187443422120,28175443523120,2827255433624120,282716454443823120,
+%U A036067 382726356443923120,19382736256463823120,29382756253483823120
+%N A036067 A summarize Fibonacci sequence: summarize the previous two terms!.
+%C A036067 From the 54th term the sequence goes into a cycle of 117 terms.
+%Y A036067 Cf. A036059.
+%K A036067 base,easy,nice,nonn
+%O A036067 0,3
+%A A036067 _Floor van Lamoen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

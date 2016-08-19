@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017007
+Showing 1-1 of 1
+
+%I A017007
+%S A017007 8,729,4096,12167,27000,50653,85184,132651,195112,274625,373248,
+%T A017007 493039,636056,804357,1000000,1225043,1481544,1771561,2097152,2460375,
+%U A017007 2863288,3307949,3796416,4330747,4913000
+%N A017007 (7*n+2)^3.
+%H A017007 Vincenzo Librandi, <a href="/A017007/b017007.txt">Table of n, a(n) for n = 0..10000</a>
+%F A017007 G.f.: (8+697*x+1228*x^2+125*x^3)/(-1+x)^4. [From _R. J. Mathar_, Jun 24 2009]
+%o A017007 (MAGMA) [(7*n+2)^3: n in [0..40]]; // Vincenzo Librandi, Jul 13 2011
+%K A017007 nonn,easy
+%O A017007 0,1
+%A A017007 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

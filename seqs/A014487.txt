@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014487
+Showing 1-1 of 1
+
+%I A014487
+%S A014487 1,0,0,0,2754,18360,77112,110160,50949,2808
+%N A014487 Weight distribution of [ 18,9,8 ] self-dual code over GF(4).
+%D A014487 Y. Cheng and N. J. A. Sloane, The Automorphism Group of an [18,9,8] Quaternary Code, Discrete Math. 83 (1990), 205-212
+%D A014487 F. J. MacWilliams, A. M. Odlyzko, N. J. A. Sloane and H. N. Ward, Self-Dual Codes over GF(4), J. Combin. Theory, A 25 288-318 1978.
+%H A014487 N. Heninger, E. M. Rains and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.NT/0509316">On the Integrality of n-th Roots of Generating Functions</a>, J. Combinatorial Theory, Series A, 113 (2006), 1732-1745.
+%Y A014487 Cf. A109142.
+%K A014487 nonn,fini,full
+%O A014487 0,5
+%A A014487 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

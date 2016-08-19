@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014485
+Showing 1-1 of 1
+
+%I A014485
+%S A014485 1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014485 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014485 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014485 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014485 0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014485 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014485 Inverse of 476th cyclotomic polynomial.
+%p A014485 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014485 sign
+%O A014485 0,1
+%A A014485 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

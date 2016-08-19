@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006486
+Showing 1-1 of 1
+
+%I A006486 M2938
+%S A006486 3,13,17,71,43,4733,241,757,9091,1806113,20593,1803647,8108731,
+%T A006486 39225301,6700417,2699538733,465841,109912203092239643840221,222361,
+%U A006486 227633407,285451051007,1920647391913,1134793633,50150933101,3574533119,12557612956332313,1100860153
+%N A006486 Largest factor of n^n - 1.
+%D A006486 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%t A006486 Table[Max@Transpose[FactorInteger[n^n - 1]][[1]], {n, 2, 28}] (* _Arkadiusz Wesolowski_, Aug 06 2012 *)
+%K A006486 nonn
+%O A006486 2,1
+%A A006486 Dennis S. Kluk (mathemagician(AT)ameritech.net)
+%E A006486 Corrected by _T. D. Noe_, Nov 14 2006
+%E A006486 5 more terms from Arkadiusz Wesolowski, Aug 06 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

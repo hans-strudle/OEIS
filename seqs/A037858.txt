@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037858
+Showing 1-1 of 1
+
+%I A037858
+%S A037858 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,3,2,1,0,0,0,0,0,4,3,2,
+%T A037858 1,0,0,0,0,5,4,3,2,1,0,0,0,6,5,4,3,2,1,0,0,7,6,5,4,3,2,1,0,1,1,1,1,1,
+%U A037858 1,1,1,1,0,0,0,0,0,0,0,2,1,0,0,0,0,0,0,3,2,1
+%N A037858 Sum{d(i)-d(i-1): d(i)>d(i-1), i=1,...,m}, where Sum{d(i)*8^i: i=0,1,...,m} is base 8 representation of n.
+%p A037858 A037858 := proc(n)
+%p A037858     a := 0 ;
+%p A037858     dgs := convert(n,base,8);
+%p A037858     for i from 2 to nops(dgs) do
+%p A037858         if op(i,dgs)>op(i-1,dgs) then
+%p A037858             a := a+op(i,dgs)-op(i-1,dgs) ;
+%p A037858         end if;
+%p A037858     end do:
+%p A037858     a ;
+%p A037858 end proc: # _R. J. Mathar_, Oct 19 2015
+%K A037858 nonn,base
+%O A037858 1,16
+%A A037858 _Clark Kimberling_
+%E A037858 Definition swapped with A037849. - _R. J. Mathar_, Oct 19 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

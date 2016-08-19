@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000716
+Showing 1-1 of 1
+
+%I A000716 M2788 N1123
+%S A000716 1,3,9,22,51,108,221,429,810,1479,2640,4599,7868,13209,21843,35581,
+%T A000716 57222,90882,142769,221910,341649,521196,788460,1183221,1762462,
+%U A000716 2606604,3829437,5590110,8111346,11701998,16790136,23964594,34034391,48104069,67679109,94800537,132230021,183686994,254170332
+%N A000716 Number of partitions of n into parts of 3 kinds.
+%C A000716 A000712: (1, 2, 5, 10, 20, 36,...) = A000716 convolved with A010815. [_Gary W. Adamson_, Oct 26 2008]
+%C A000716 It appears that the partial sums give A210843. - _Omar E. Pol_, Jun 18 2012
+%D A000716 H. Gupta et al., Tables of Partitions. Royal Society Mathematical Tables, Vol. 4, Cambridge Univ. Press, 1958, p. 122.
+%D A000716 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000716 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000716 T. D. Noe, <a href="/A000716/b000716.txt">Table of n, a(n) for n=0..500</a>
+%H A000716 Victor J. W. Guo and Jiang Zeng, <a href="http://arxiv.org/abs/1205.4340">Two truncated identities of Gauss</a>, arXiv 1205.4340, 2012. - _N. J. A. Sloane_, Oct 10 2012
+%H A000716 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=391">Encyclopedia of Combinatorial Structures 391</a>
+%H A000716 Vladimir P. Kostov, <a href="http://arxiv.org/abs/1504.00883.pdf">Asymptotic expansions of zeros of a partial theta function</a>, arXiv:1504.00883, 2015.
+%H A000716 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015, p. 8.
+%H A000716 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A000716 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%F A000716 G.f.: Product_{m>=1} 1/(1-x^m)^3.
+%F A000716 EULER transform of 3, 3, 3, 3, 3, 3, 3, 3...
+%F A000716 a(0)=1, a(n)=1/n*sum(k=0,n-1, 3*a(k)*sigma_1(n-k)) - _Joerg Arndt_, Feb 05 2011
+%F A000716 a(n) ~ exp(Pi * sqrt(2*n)) / (8 * sqrt(2) * n^(3/2)). - _Vaclav Kotesovec_, Feb 28 2015
+%p A000716 with(numtheory): a:= proc(n) option remember; `if`(n=0, 1, add(add(d*3, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq(a(n), n=0..40); # _Alois P. Heinz_, May 20 2013
+%t A000716 a[0] = 1; a[n_] := a[n] = 1/n*Sum[3*a[k]*DivisorSigma[1, n-k], {k, 0, n-1}]; Table[a[n], {n, 0, 40}] (* _Jean-François Alcover_, Mar 03 2014, after _Joerg Arndt_ *)
+%o A000716 (PARI) Vec(1/eta('x+O('x^66))^3) \\ _Joerg Arndt_, Apr 28 2013
+%Y A000716 Cf. A000713.
+%Y A000716 Cf. A000712, A010815
+%Y A000716 Column 3 of A144064.
+%K A000716 nonn
+%O A000716 0,2
+%A A000716 _N. J. A. Sloane_.
+%E A000716 Extended with formula from _Christian G. Bower_, Apr 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

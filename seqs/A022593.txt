@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022593
+Showing 1-1 of 1
+
+%I A022593
+%S A022593 1,29,435,4524,36801,249980,1476535,7792619,37464346,166445529,
+%T A022593 690898842,2702690003,10033022642,35545708813,120756549637,
+%U A022593 394935306099,1247670362782,3818503661392,11350088407317
+%N A022593 Expansion of Product (1+q^m)^29; m=1..inf.
+%F A022593 a(n) ~ (29/3)^(1/4) * exp(Pi * sqrt(29*n/3)) / (65536 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022593 nmax=50; CoefficientList[Series[Product[(1+q^m)^29,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022593 nonn
+%O A022593 0,2
+%A A022593 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

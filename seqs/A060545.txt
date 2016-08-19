@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060545
+Showing 1-1 of 1
+
+%I A060545
+%S A060545 1,3,28,455,10626,324632,12271512,553270671,28987537150,1731030945644,
+%T A060545 116068178638776,8634941152058949,705873715441872264,
+%U A060545 62895036884524942320,6067037854078498539696
+%N A060545 C(n^2,n)/n.
+%H A060545 Harry J. Smith, <a href="/A060545/b060545.txt">Table of n, a(n) for n=1,...,100</a>
+%F A060545 a(n) =A060543(n, n) =A014062(n)/n.
+%o A060545 (PARI) { for (n=1, 100, write("b060545.txt", n, " ", binomial(n^2, n)/n); ) } [From _Harry J. Smith_, Jul 06 2009]
+%K A060545 nonn
+%O A060545 1,2
+%A A060545 _Henry Bottomley_, Apr 02 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

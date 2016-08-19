@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062140
+Showing 1-1 of 1
+
+%I A062140
+%S A062140 1,5,1,30,12,1,210,126,21,1,1680,1344,336,32,1,15120,15120,
+%T A062140 5040,720,45,1,151200,181440,75600,14400,1350,60,1,1663200,
+%U A062140 2328480,1164240,277200,34650,2310,77,1,19958400,31933440
+%V A062140 1,5,-1,30,-12,1,210,-126,21,-1,1680,-1344,336,-32,1,15120,-15120,
+%W A062140 5040,-720,45,-1,151200,-181440,75600,-14400,1350,-60,1,1663200,
+%X A062140 -2328480,1164240,-277200,34650,-2310,77,-1,19958400,-31933440
+%N A062140 Coefficient triangle of generalized Laguerre polynomials n!*L(n,4,x) (rising powers of x).
+%C A062140 The row polynomials s(n,x) := n!*L(n,4,x)= sum(a(n,m)*x^m,m=0..n) have g.f. exp(-z*x/(1-z))/(1-z)^5. They are Sheffer polynomials satisfying the binomial convolution identity s(n,x+y) = sum(binomial(n,k)*s(k,x)*p(n-k,y),k=0..n), with polynomials p(n,x)=sum(|A008297(n,m)|*(-x)^m, m=1..n) and p(0,x)=1 (for Sheffer polynomials see A048854 for S. Roman reference).
+%H A062140 <a href="/index/La#Laguerre">Index entries for sequences related to Laguerre polynomials</a>
+%F A062140 a(n, m)=((-1)^m)*n!*binomial(n+4, n-m)/m!.
+%F A062140 E.g.f. for m-th column sequence: ((-x/(1-x))^m)/(m!*(1-x)^5), m >= 0.
+%e A062140 {1}; {5,-1}; {30,-12,1}; {210,-126,21,-1}; ...; 2!*L(2,4,x)=30-12*x+x^2.
+%Y A062140 For m=0..5 the (unsigned) columns give A001720(n+4), A062199, A062260-A062263. The row sums (signed) give A062265, the row sums (unsigned) give A062266.
+%Y A062140 Cf. A021009, A062137-A062139, A066667.
+%K A062140 sign,easy,tabl
+%O A062140 0,2
+%A A062140 _Wolfdieter Lang_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

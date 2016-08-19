@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032565
+Showing 1-1 of 1
+
+%I A032565
+%S A032565 1,2,3,4,5,6,7,8,9,1757,10672,11068,16233,21759,21760,22156,32847,
+%T A032565 33244,43935,44332,55419,55420,66488,66507,77576,88664,89061,99752,
+%U A032565 246519,497441,3025204,3811939,4034212,5043220,7059416,8068424,9077432
+%N A032565 Base 17 value of decimal denominator divided by this decimal value (n) is an integer.
+%Y A032565 Cf. A032566. See also A032563 for explanation.
+%K A032565 nonn,base
+%O A032565 0,2
+%A A032565 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

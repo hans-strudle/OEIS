@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013846
+Showing 1-1 of 1
+
+%I A013846
+%S A013846 8,262144,8589934592,281474976710656,9223372036854775808,
+%T A013846 302231454903657293676544,9903520314283042199192993792,
+%U A013846 324518553658426726783156020576256,10633823966279326983230456482242756608
+%N A013846 8^(5*n+1).
+%H A013846 Vincenzo Librandi, <a href="/A013846/b013846.txt">Table of n, a(n) for n = 0..100</a>
+%H A013846 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013846 (MAGMA) [8^(5*n+1): n in [0..15]]; // Vincenzo Librandi, Jul 08 2011
+%K A013846 nonn,easy
+%O A013846 0,1
+%A A013846 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

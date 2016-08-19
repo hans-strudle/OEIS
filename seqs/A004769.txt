@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004769
+Showing 1-1 of 1
+
+%I A004769
+%S A004769 11,19,27,35,43,51,59,67,75,83,91,99,107,115,123,131,139,147,155,163,
+%T A004769 171,179,187,195,203,211,219,227,235,243,251,259,267,275,283,291,299,
+%U A004769 307,315,323,331,339,347,355,363,371,379,387,395,403,411,419,427,435,443,451,459,467,475,483,491
+%N A004769 Binary expansion ends 011.
+%H A004769 Vincenzo Librandi, <a href="/A004769/b004769.txt">Table of n, a(n) for n = 0..10000</a>
+%H A004769 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A004769 a(n) = 8*n+11;  [From Vincenzo Librandi, Jul 12 2011]
+%o A004769 (MAGMA) [8*n+11: n in [0..60]]; // Vincenzo Librandi, Jul 12 2011
+%Y A004769 Essentially same as A017101.
+%K A004769 nonn,easy
+%O A004769 0,1
+%A A004769 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

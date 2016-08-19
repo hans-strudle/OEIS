@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036159
+Showing 1-1 of 1
+
+%I A036159
+%S A036159 1,2,4,8,16,32,64,128,45,90,180,149,87,174,137,63,126,41,82,164,117,
+%T A036159 23,46,92,184,157,103,206,201,191,171,131,51,102,204,197,183,155,99,
+%U A036159 198,185,159,107,3,6,12,24,48,96
+%N A036159 2^n mod 211.
+%D A036159 I. M. Vinogradov, Elements of Number Theory, pp. 220 ff.
+%p A036159 [ seq(primroot(ithprime(i))^j mod ithprime(i),j=0..100) ];
+%t A036159 PowerMod[2,Range[0,50],211] (* _Harvey P. Dale_, Apr 18 2016 *)
+%o A036159 (PARI) a(n)=lift(Mod(2,211)^n) \\ _Charles R Greathouse IV_, Mar 22 2016
+%K A036159 nonn,easy
+%O A036159 0,2
+%A A036159 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

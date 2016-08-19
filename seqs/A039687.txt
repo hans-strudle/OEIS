@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039687
+Showing 1-1 of 1
+
+%I A039687
+%S A039687 7,13,97,193,769,12289,786433,3221225473,206158430209,6597069766657,
+%T A039687 221360928884514619393,
+%U A039687 2353913150770005286438421033702874906038383291674012942337
+%N A039687 Primes of form 3*2^n+1.
+%H A039687 S. W. Golomb, <a href="http://www.jstor.org/stable/2005337">Properties of the sequence 3.2^n+1</a>, Math. Comp., 30 (1976), 657-663.
+%t A039687 Select[Table[6 2^n+1,{n,0,250}],PrimeQ] [From Harvey P. Dale, Dec. 17, 2010]
+%Y A039687 For more terms see A002253. These are the primes in A004119 (or A181565).
+%K A039687 nonn
+%O A039687 1,1
+%A A039687 _Felice Russo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

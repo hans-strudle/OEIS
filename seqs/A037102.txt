@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037102
+Showing 1-1 of 1
+
+%I A037102
+%S A037102 3,28,14,7,64,32,16,8,4,2,1,10,5,46,23,208,104,52,26,13,118,59,532,
+%T A037102 266,133,1198,599,5392,2696,1348,674,337,3034,1517,13654,6827,61444,
+%U A037102 30722,15361,138250,69125,622126
+%N A037102 Trajectory of 3 under map n->9n+1 if n odd, n->n/2 if n even
+%K A037102 nonn
+%O A037102 0,1
+%A A037102 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

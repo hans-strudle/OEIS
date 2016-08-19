@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005081
+Showing 1-1 of 1
+
+%I A005081
+%S A005081 0,0,0,0,625,0,0,0,0,625,0,0,28561,0,625,0,83521,0,0,625,0,0,0,0,625,
+%T A005081 28561,0,0,707281,625,0,0,0,83521,625,0,1874161,0,28561,625,2825761,0,
+%U A005081 0,0,625,0,0,0,0,625,83521,28561
+%N A005081 Sum of 4th powers of primes = 1 mod 4 dividing n.
+%F A005081 Additive with a(p^e) = p^4 if p = 1 (mod 4), 0 otherwise.
+%K A005081 nonn
+%O A005081 1,5
+%A A005081 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

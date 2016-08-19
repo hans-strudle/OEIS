@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046890
+Showing 1-1 of 1
+
+%I A046890
+%S A046890 1,2,13,113,149,1013,1039,1247,1123,1349,1579,1237,10127,10238,10139,
+%T A046890 10235,10234,10457,11579,10789,10237,11239,12457,10279,12349,12347,
+%U A046890 13678,12359,14579,13489,10379,12367,12389,23579,13579,100349,12379
+%N A046890 a(n) has exactly n anagrams that are primes.
+%C A046890 An anagram is a permutation of digits not beginning with 0
+%t A046890 ap[n_] := Count[FromDigits /@ Select[Permutations[IntegerDigits[n]], First[#] != 0 &], _?PrimeQ]; t = {1}; Do[i = 1; While[ap[i] != n, i++]; AppendTo[t, i], {n, 30}]; t (* _Jayanta Basu_, Jun 29 2013 *)
+%Y A046890 Cf. A046810.
+%K A046890 nonn,base
+%O A046890 0,2
+%A A046890 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010723
+Showing 1-1 of 1
+
+%I A010723
+%S A010723 6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,
+%T A010723 6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,6,7,
+%U A010723 6,7,6,7,6,7,6,7,6,7,6,7,6
+%N A010723 Period 2: repeat (6,7).
+%C A010723 Continued fraction of 3+sqrt(483)/7 = A176399. - R. J. Mathar, Nov 21 2011
+%H A010723 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1)
+%F A010723 a(n)=-(1/2)*(-1)^n+13/2; a(n)=7*(n mod 2)+6*[(n+1) mod 2] - _Paolo P. Lava_, Oct 27 2006
+%F A010723 G.f. (-6-7*x) / ( (x-1)*(1+x) ). - R. J. Mathar, Nov 21 2011
+%K A010723 nonn
+%O A010723 0,1
+%A A010723 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

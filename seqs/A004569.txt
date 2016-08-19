@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004569
+Showing 1-1 of 1
+
+%I A004569
+%S A004569 1,0,1,0,1,0,0,1,0,1,0,1,0,0,1,1,1,1,1,1,1,1,0,1,0,1,0,0,1,1,1,0,1,0,
+%T A004569 0,1,0,1,1,1,1,1,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,0,1,1,1,1,0,0,0,1,1,1,
+%U A004569 0,0,1,1,1,0,1,0,1,0,0,1,1,1,1,1,1,0,0,1,1,0,0,0,0,1,1,1,1,1,1
+%N A004569 Expansion of sqrt(7) in base 2.
+%H A004569 Ivan Panchenko, <a href="/A004569/b004569.txt">Table of n, a(n) for n = 2..1000</a>
+%H A004569 Jason Kimberley, <a href="/wiki/User:Jason_Kimberley/sqrt_base">Index of expansions of sqrt(d) in base b</a>
+%t A004569 RealDigits[Sqrt[7],2,120][[1]] (* _Harvey P. Dale_, Jan 18 2012 *)
+%K A004569 nonn,base,cons
+%O A004569 2,1
+%A A004569 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

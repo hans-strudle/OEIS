@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056292
+Showing 1-1 of 1
+
+%I A056292
+%S A056292 1,2,3,7,11,39,103,367,1235,4439,15935,58509,215251,799697,2983217,
+%T A056292 11187567,42109451,159082753,602809327,2290684251,8726308317,
+%U A056292 33318661277,127479700199,488672302909,1876500180291
+%N A056292 Number of n-bead necklace structures using a maximum of four different colored beads.
+%C A056292 Turning over the necklace is not allowed. Colors may be permuted without changing the necklace structure.
+%D A056292 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056292 N. J. A. Sloane, <a href="/A000013/a000013.txt">Maple code for this and related sequences</a>
+%F A056292 Use de Bruijn's generalization of Polya's enumeration theorem as discussed in reference.
+%t A056292 Adn[d_, n_] := Module[{ c, t1, t2}, t2 = 0; For[c = 1, c <= d, c++, If[Mod[d, c] == 0 , t2 = t2 + (x^c/c)*(E^(c*z) - 1)]]; t1 = E^t2; t1 = Series[t1, {z, 0, n+1}]; Coefficient[t1, z, n]*n!]; Pn[n_] := Module[{ d, e, t1}, t1 = 0; For[d = 1, d <= n, d++, If[Mod[n, d] == 0, t1 = t1 + EulerPhi[d]*Adn[d, n/d]/n]]; t1/(1 - x)]; Pnq[n_, q_] := Module[{t1}, t1 = Series[Pn[n], {x, 0, q+1}] ; Coefficient[t1, x, q]]; a[n_] := Pnq[n, 4]; Table[Print[an = a[n]]; an, {n, 1, 25}] (* _Jean-François Alcover_, Oct 04 2013, after N. J. A. Sloane's Maple code *)
+%Y A056292 Cf. A000013, A001868.
+%K A056292 nonn
+%O A056292 1,2
+%A A056292 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

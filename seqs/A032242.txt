@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032242
+Showing 1-1 of 1
+
+%I A032242
+%S A032242 5,10,10,45,252,1120,5270,23475,106950,483504,2211650,10148630,
+%T A032242 46911060,217863040,1017057256,4767774375,22438419120,105960830300,
+%U A032242 501928967930,2384170903140,11353241255900
+%N A032242 Number of identity bracelets of n beads of 5 colors.
+%H A032242 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032242 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A032242 <a href="/index/Br#bracelets">Index entries for sequences related to bracelets</a>
+%F A032242 "DHK" (bracelet, identity, unlabeled) transform of 5, 0, 0, 0...
+%t A032242 m=5; (* asymmetric bracelets of n beads of m colors *) Table[Sum[MoebiusMu[d](m^(n/d)/n - If[OddQ[n/d], m^((n/d+1)/2), ((m+1)m^(n/(2d))/2)]), {d,Divisors[n]}]/2, {n,3,20}] (* _Robert A. Russell_, Mar 18 2013 *)
+%K A032242 nonn
+%O A032242 1,1
+%A A032242 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

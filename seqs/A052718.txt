@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052718
+Showing 1-1 of 1
+
+%I A052718
+%S A052718 0,1,4,24,240,3360,60480,1330560,34594560,1037836800,35286451200,
+%T A052718 1340885145600,56317176115200,2590590101299200,129529505064960000,
+%U A052718 6994593273507840000,405686409863454720000,25152557411534192640000
+%N A052718 E.g.f. 1 - x - sqrt(1-4*x).
+%H A052718 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=674">Encyclopedia of Combinatorial Structures 674</a>
+%F A052718 a(0)=0, a(1)=1, a(n) = 2^(2n-1) * Gamma(n-1/2) / sqrt(Pi) for n>=2. - _Jon E. Schoenfield_, Jan 11 2015
+%F A052718 Recurrence: a(1)=1; a(2)=4; (2-4*n)*a(n) + a(n+1) = 0.
+%F A052718 O.g.f.: 1-x-_2F_0(-1/2,1;;4*x). - _R. J. Mathar_, Feb 23 2010
+%F A052718 G.f.: 1-x - G(0)/2, where G(k)= 1 + 1/(1 - x*(4*k-2)/(x*(4*k-2) + 1/G(k+1))); (continued fraction). - _Sergei N. Gladkovskii_, Jun 04 2013
+%F A052718 a(n) = n!*A068875(n-1). - _R. J. Mathar_, Oct 18 2013
+%p A052718 spec := [S,{B=Union(Z,C),C=Prod(B,B),S=Union(B,C)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052718 s=2;lst={0, 1};Do[s+=n*s+s;AppendTo[lst, s], {n, 0, 5!, 4}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%K A052718 easy,nonn
+%O A052718 0,3
+%A A052718 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

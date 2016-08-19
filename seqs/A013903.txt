@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013903
+Showing 1-1 of 1
+
+%I A013903
+%S A013903 484,2494357888,12855002631049216,66249952919459433152512,
+%T A013903 341427877364219557396646723584,1759593634476317566025195247357657088,
+%U A013903 9068298061633453450429559033030337013743616,46734671075972137972644189178514201804813539213312
+%N A013903 22^(5n+2).
+%H A013903 Vincenzo Librandi, <a href="/A013903/b013903.txt">Table of n, a(n) for n = 0..50</a>
+%H A013903 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013903 a(n) = 5153632*a(n-1), a(0)=484. [From Vincenzo Librandi, May 28 2011]
+%o A013903 (MAGMA) [22^(5*n+2): n in [0..10]]; // Vincenzo Librandi, May 28 2011
+%K A013903 nonn
+%O A013903 0,1
+%A A013903 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

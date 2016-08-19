@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005090
+Showing 1-1 of 1
+
+%I A005090
+%S A005090 0,1,0,1,1,1,0,1,0,2,1,1,0,1,1,1,1,1,0,2,0,2,1,1,1,1,0,1,1,2,0,1,1,2,
+%T A005090 1,1,0,1,0,2,1,1,0,2,1,2,1,1,0,2,1,1,1,1,2,1,0,2,1,2,0,1,0,1,1,2,0,2,
+%U A005090 1,2,1,1,0,1,1,1,1,1,0,2,0
+%N A005090 Number of primes = 2 mod 3 dividing n.
+%F A005090 Additive with a(p^e) = 1 if p = 2 (mod 3), 0 otherwise.
+%K A005090 nonn
+%O A005090 1,10
+%A A005090 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

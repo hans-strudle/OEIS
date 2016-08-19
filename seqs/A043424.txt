@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043424
+Showing 1-1 of 1
+
+%I A043424
+%S A043424 4096,8192,12288,16384,20480,24576,28672,32769,32770,32771,32772,
+%T A043424 32773,32774,32775,32776,32784,32792,32800,32808,32816,32824,32832,
+%U A043424 32896,32960,33024,33088,33152,33216,33280,33792,34304
+%N A043424 Numbers n such that number of 0's in base 8 is 4.
+%t A043424 Select[Range[35000],DigitCount[#,8,0]==4&] (* _Harvey P. Dale_, Dec 08 2013 *)
+%K A043424 nonn,base
+%O A043424 1,1
+%A A043424 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

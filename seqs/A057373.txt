@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057373
+Showing 1-1 of 1
+
+%I A057373
+%S A057373 9,18,45,90,117,306,522,585,801,1305,2097,3042,3978,5490,8730,14373,
+%T A057373 17730,19485,22698,27234,37629,44109,98514,103338,113013,130365,
+%U A057373 155025,186633,257913,290970,405450,602298,675225,884637,1279170,1498185,1767762,1946745
+%N A057373 Numbers n such that n=(a+b)=(x*y) with a*b=(x^2+y^2) (a>0,b>0,x>0,y>0).
+%C A057373 From _Robert Israel_, Feb 01 2016: (Start)
+%C A057373 n such that n^2 - 4*(d^2 + n^2/d^2) is a square for some divisor d of n.
+%C A057373 All terms are divisible by 9.
+%C A057373 Includes 9*A001519(k) for all k (where x = 3, y = 3*A001519(k)). In particular, the sequence is infinite. (End)
+%p A057373 filter:= proc(n) local x;
+%p A057373   nops(select(x -> issqr(n^2-4*x^2 - 4*(n/x)^2), numtheory:-divisors(n)))>0;
+%p A057373 end proc:
+%p A057373 select(filter, [$1..10^6]); # _Robert Israel_, Feb 01 2016
+%Y A057373 Cf. A001519.
+%K A057373 nonn
+%O A057373 1,1
+%A A057373 _Naohiro Nomoto_, Sep 24 2000
+%E A057373 a(19)-a(38) from _Robert Israel_, Feb 01 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

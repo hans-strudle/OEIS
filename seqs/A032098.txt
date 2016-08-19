@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032098
+Showing 1-1 of 1
+
+%I A032098
+%S A032098 3,6,21,87,363,1491,6051,24387,97923,392451,1571331,6288387,25159683,
+%T A032098 100651011,402628611,1610563587,6442352643,25769607171,103078821891,
+%U A032098 412316073987,1649265868803,6597066620931
+%N A032098 "BHK" (reversible, identity, unlabeled) transform of 3,3,3,3...
+%H A032098 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032098 Conjecture: a(n) = 3 * (2^(2n-3) - 2^(n-2) + 1). - _Ralf Stephan_, Sep 11 2003
+%F A032098 Conjecture: a(n) = 7*a(n-1)-14*a(n-2)+8*a(n-3). G.f.: 3*x*(1-5*x+7*x^2)/((1-x)*(1-2*x)*(1-4*x)). - _Colin Barker_, Sep 22 2012
+%K A032098 nonn
+%O A032098 1,1
+%A A032098 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

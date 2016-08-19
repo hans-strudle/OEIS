@@ -1,0 +1,63 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039755
+Showing 1-1 of 1
+
+%I A039755
+%S A039755 1,1,1,1,4,1,1,13,9,1,1,40,58,16,1,1,121,330,170,25,1,1,364,1771,1520,
+%T A039755 395,36,1,1,1093,9219,12411,5075,791,49,1,1,3280,47188,96096,58086,
+%U A039755 13776,1428,64,1,1,9841,239220,719860,618870,209622,32340,2388,81,1,1
+%N A039755 Triangle of B-analogs of Stirling numbers of the second kind.
+%C A039755 Let M = an infinite lower triangular bidiagonal matrix with (1,3,5,7,...) in the main diagonal and (1,1,1,...) in the subdiagonal. n-th row = M^n * [1,0,0,0,...]. - _Gary W. Adamson_, Apr 13 2009
+%C A039755 From _Peter Bala_, Aug 08 2011: (Start)
+%C A039755 A type B_n set partition is a partition P of the set {1, 2, ... , n, -1, -2, ... , -n} such that for any block B of P, -B is also a block of P, and there is at most one block, called a zero-block, satisfying B = -B. We call (B, -B) a block pair of P if B is not a zero-block. Then T(n,k) is the number of type B_n set partitions with k block pairs. See [Wang].
+%C A039755 For example, T(2,1) = 4 since the B_2 set partitions with 1 block pair are {1,2}{-1,-2}, {1,-2}{-1,2}, {1,-1}{2}{-2} and {2,-2}{1}{-1} (the last two partitions contain a zero block).
+%C A039755 (End)
+%C A039755 Exponential Riordan array [exp(x),1/2(exp(2*x) - 1)]. Triangle of connection constants for expressing the monomial polynomials x^n as a linear combination of the basis polynomials (x-1)*(x-3)*...*(x-(2*k-1)) of A039757. An example is given below. Inverse array is A039757. Equals matrix product A008277 * A122848. - _Peter Bala_, Jun 23 2014
+%H A039755 V. E. Adler, <a href="http://arxiv.org/abs/1510.02900">Set partitions and integrable hierarchies</a>, arXiv:1510.02900 [nlin.SI], 2015.
+%H A039755 P. Bala, <a href="/A035342/a035342.txt">Generalized Dobinski formulas</a>
+%H A039755 P. Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Barry3/barry84r2.html">A Note on Three Families of Orthogonal Polynomials defined by Circular Functions, and Their Moment Sequences</a>, Journal of Integer Sequences, Vol. 15 (2012), #12.7.2.
+%H A039755 Sandrine Dasse-Hartaut and Pawel Hitczenko, <a href="http://arxiv.org/abs/1202.3092">Greek letters in random staircase tableaux</a> arXiv:1202.3092v1 [math.CO], 2012.
+%H A039755 I. Dolgachev and V. Lunts, <a href="http://www.math.lsa.umich.edu/~idolga/luntz94.pdf">A character formula for the representation of the Weyl group in the cohomology of the associated toric variety</a> Journal of Algebra, 168, 741-772, (1994)
+%H A039755 L. Liu, Y. Wang, <a href="http://www.arXiv.org/abs/math.CO/0509207">A unified approach to polynomial sequences with only real zeros</a>, arXiv:math/0509207v5 [math.CO], 2005-2006.
+%H A039755 Shi-Mei Ma, T. Mansour, D. Callan, <a href="http://arxiv.org/abs/1404.0731">Some combinatorial arrays related to the Lotka-Volterra system</a>, arXiv preprint arXiv:1404.0731 [math.CO], 2014.
+%H A039755 R. Suter, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/SUTER/sut1.html">Two analogues of a classical sequence</a>, J. Integer Sequences, Vol. 3 (2000), #P00.1.8.
+%H A039755 D. G. L. Wang, <a href="http://arxiv.org/abs/1108.1264">The Limiting Distribution of the Number of Block Pairs in Type B Set Partitions</a>, arXiv:1108.1264v1 [math.CO], 2011.
+%F A039755 E.g.f./g.f.: exp(x + y/2 * (exp(2*x) - 1)).
+%F A039755 T(n,k) = T(n-1,k-1) + (2*k+1)*T(n-1,k) with T(0,0)=T(1,0)=T(1,1)=0. Sum_{k=0..n} T(n,k) = A007405(n). - _R. J. Mathar_, Oct 30 2009
+%F A039755 T(n,k) = 1/(2^k*k!) * Sum_{j=0..k} (-1)^(k-j)*C(k,j)*(2*j+1)^n.
+%F A039755 T(n,k) = 1/(2^k*k!) * A145901(n,k). - _Peter Bala_
+%F A039755 The row polynomials R(n,x) satisfy the Dobinski-type identity:
+%F A039755 R(n,x) = exp(-x/2)* Sum_{k >= 0} (2*k+1)^n*(x/2)^k/k!, as well as the recurrence equation R(n+1,x) = (1+x)*R(n,x)+2*x*R'(n,x). The polynomial R(n,x) has all real zeros (apply [Liu et al., Theorem 1.1] with f(x) = R(n,x) and g(x) = R'(n,x)). The polynomials R(n,2*x) are the row polynomials of A154537. - _Peter Bala_, Oct 28 2011
+%F A039755 Let f(x) = exp(1/2*exp(2*x)+x). Then the row polynomials R(n,x) are given by R(n,exp(2*x)) = 1/f(x)*(d/dx)^n(f(x)). Similar formulas hold for A008277, A105794, A111577, A143494 and A154537. - _Peter Bala_, Mar 01 2012
+%F A039755 From _Peter Bala_, Jul 20 2012: (Start)
+%F A039755 The o.g.f. for the n-th diagonal (with interpolated zeros) is the rational function D^n(x), where D is the operator x/(1-x^2)*d/dx. For example, D^3(x) = x*(1+8*x^2+3*x^4)/(1-x^2)^5 = x + 13*x^3 + 58*x^5 + 170*x^7 + ... . See A214406 for further details.
+%F A039755 An alternative formula for the o.g.f. of the n-th diagonal is exp(-x/2)*(Sum_{k >= 0} (2*k+1)^(k+n-1)*(x/2*exp(-x))^k/k!).
+%F A039755 (End)
+%F A039755 From _Tom Copeland_, Dec 31 2015: (Start)
+%F A039755 T(n,m) = Sum_{i=0..n-m} 2^(n-m-i)*binomial(n,i)*St2(n-i,m), where St2(n,k) are the Stirling numbers of the second kind, A048993 (also A008277). See p. 755 of Dolgachev and Lunts.
+%F A039755 The relation of this entry's e.g.f. above to that of the Bell polynomials, Bell_n(y), of A048993 establishes this formula from a binomial transform of the normalized Bell polynomials, NB_n(y) = 2^n Bell_n(y/2); that is, e^x exp[(y/2)(e^(2x)-1)] = e^x exp[x*2*Bell.(y/2)] = exp[x(1+NB.(y))] = exp(x*P.(y)), so the row polynomials of this entry are given by P_n(y) = [1+NB.(y)]^n = sum(k=0,..n)  C(n,k) NB_k(y) = sum(k=0..n)  2^k C(n,k) Bell_k(y/2).
+%F A039755 The umbral compositional inverses of the Bell polynomials are the falling factorials Fct_n(y) = y! / (y-n)!; i.e., Bell_n(Fct.(y)) = y^n =  Fct_n(Bell.(y)). Since P_n(y)  =  [1+2Bell.(y/2)]^n, the umbral  inverses are determined by [1 + 2 Bell.[ 2 Fct.[(y-1)/2] / 2 ] ]^n = [1 + 2 Bell.[ Fct.[(y-1)/2] ] ]^n = [1+y-1]^n = y^n. Therefore, the umbral inverse sequence of this entry's row polynomials is the sequence  IP_n( y) = 2^n Fct_n[(y-1)/2] = (y-1)(y-3) .. (y-2n+1) with IP_0(y) = 1 and, from the binomial theorem, with e.g.f. exp[x IP.(y)]= exp[ x 2Fct.[(y-1)/2] ] = (1+2x)^[(y-1)/2] = exp[ [(y-1)/2] log(1+2x) ].
+%e A039755 Triangle T(n,k) begins:
+%e A039755 1
+%e A039755 1   1
+%e A039755 1   4   1
+%e A039755 1  13   9   1
+%e A039755 1  40  58  16  1
+%e A039755 1 121 330 170 25 1
+%e A039755 The sequence of row polynomials of A214406 begins [1, 1+x, 1+8*x+3*x^2, ...]. The o.g.f.'s for the diagonals of this triangle thus begin
+%e A039755 1/(1-x) = 1 + x + x^2 + x^3 + ...
+%e A039755 (1+x)/(1-x)^3 = 1 + 4*x + 9*x^2 + 16*x^3 + ...
+%e A039755 (1+8*x+3*x^2)/(1-x)^5 = 1 + 13*x + 58*x^2 + 170*x^3 + ... . - _Peter Bala_, Jul 20 2012
+%e A039755 Connection constants: x^3 = 1 + 13*(x-1) + 9*(x-1)*(x-3) + (x-1)*(x-3)*(x-5). Hence row 3 = [1,13,9,1]. - _Peter Bala_, Jun 23 2014
+%p A039755 A039755 := proc(n,k) if k < 0 or k > n then 0 ; elif n <= 1 then 1; else procname(n-1,k-1)+(2*k+1)*procname(n-1,k) ; fi; end: seq(seq(A039755(n,k),k=0..n),n=0..10) ; # _R. J. Mathar_, Oct 30 2009
+%t A039755 t[n_, k_] = Sum[(-1)^(k-j)*(2j+1)^n*Binomial[k, j], {j, 0, k}]/(2^k*k!); Flatten[Table[t[n, k], {n, 0, 10}, {k, 0, n}]][[1 ;; 56]]
+%t A039755 (* _Jean-François Alcover_, Jun 09 2011, after _Peter Bala_ *)
+%o A039755 (PARI) T(n,k)=if(k<0|k>n,0,n!*polcoeff(polcoeff(exp(x+y/2*(exp(2*x+x*O(x^n))-1)),n),k))
+%Y A039755 Cf. A154537, A214406, A039756, A039757, A122848.
+%Y A039755 Cf. A008277, A048993.
+%K A039755 nonn,tabl
+%O A039755 0,5
+%A A039755 Ruedi Suter (suter(AT)math.ethz.ch)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044770
+Showing 1-1 of 1
+
+%I A044770
+%S A044770 57,157,257,357,457,557,579,657,757,857,957,1057,1157,1257,1357,1457,
+%T A044770 1557,1579,1657,1757,1857,1957,2057,2157,2257,2357,2457,2557,2579,
+%U A044770 2657,2757,2857,2957,3057,3157,3257,3357,3457,3557
+%N A044770 Numbers n such that string 5,7 occurs in the base 10 representation of n but not of n+1.
+%K A044770 nonn,base
+%O A044770 1,1
+%A A044770 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

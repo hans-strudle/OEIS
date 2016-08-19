@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053731
+Showing 1-1 of 1
+
+%I A053731
+%S A053731 0,0,0,0,0,0,0,1,1,5,15,42,99,215,429,805,1430,2431,3978,6299,9690,
+%T A053731 14535,21318,30645,43263,60088,82225,111004,148005,195098,254475,
+%U A053731 328697,420732,534006,672452,840565,1043460,1286934,1577532,1922618
+%N A053731 Ceiling(binomial(n,8)/8).
+%D A053731 R. L. Graham and N. J. A. Sloane, Lower bounds for constant weight codes, IEEE Trans. Inform. Theory, 26 (1980), 37-43.
+%Y A053731 Cf. A053618.
+%K A053731 nonn
+%O A053731 1,10
+%A A053731 _N. J. A. Sloane_, Mar 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

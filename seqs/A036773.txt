@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036773
+Showing 1-1 of 1
+
+%I A036773
+%S A036773 1,6,13860,423783360,70220478968640,41004669682770393600,
+%T A036773 65405789473547026656472320,240729724316568938710767014707200,
+%U A036773 1813083536072533851678174232377806438400,25541737277107694920826740625991927645705830400
+%N A036773 Number of labeled rooted trees with a degree constraint: (5*n)!/(120^n))*C(5*n+1,n).
+%D A036773 L. Takacs, Enumeration of rooted trees and forests, Math. Scientist 18 (1993), 1-10, esp. Eq. (12).
+%H A036773 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%K A036773 nonn
+%O A036773 0,2
+%A A036773 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

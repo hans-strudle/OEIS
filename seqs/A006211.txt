@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006211
+Showing 1-1 of 1
+
+%I A006211 M1130
+%S A006211 0,0,1,2,4,8,16,32,64,130,264,538,1104,2272,4692,9730,20236,42208,
+%T A006211 88288,185126,389072,819458,1729296,3655936,7742124
+%N A006211 Generalized Fibonacci numbers D_{n,3}.
+%D A006211 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006211 Bau-Sen Du, <a href="http://arXiv.org/abs/0706.2421">A Simple Method Which Generates Infinitely Many Congruence Identities</a>, Fib. Quart. 27 (1989), 116-124.
+%K A006211 nonn,more
+%O A006211 1,4
+%A A006211 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

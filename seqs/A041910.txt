@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a041910
+Showing 1-1 of 1
+
+%I A041910
+%S A041910 21,22,131,415,546,2599,26536,29135,84806,198747,879794,1958335,
+%T A041910 4796464,6754799,72344454,296132615,368477069,1401563822,7376296179,
+%U A041910 8777860001,376046416221,384824276222,2300167797331
+%N A041910 Numerators of continued fraction convergents to sqrt(477).
+%H A041910 Vincenzo Librandi, <a href="/A041910/b041910.txt">Table of n, a(n) for n = 0..200</a>
+%t A041910 Numerator[Convergents[Sqrt[477], 30]] (* _Vincenzo Librandi_, Nov 12 2013 *)
+%Y A041910 Cf. A041911.
+%K A041910 nonn,cofr,frac,easy,less
+%O A041910 0,1
+%A A041910 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

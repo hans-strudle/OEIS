@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053287
+Showing 1-1 of 1
+
+%I A053287
+%S A053287 1,2,6,8,30,36,126,128,432,600,1936,1728,8190,10584,27000,32768,
+%T A053287 131070,139968,524286,480000,1778112,2640704,8210080,6635520,32400000,
+%U A053287 44717400,113467392,132765696,533826432,534600000,2147483646,2147483648,6963536448,11452896600
+%N A053287 Euler totient function (A000010) of 2^n-1.
+%C A053287 Number of elements of multiplicative order 2^n-1 in GF(2^n).
+%C A053287 a(A000079(n-1)) = A058891(n).
+%H A053287 T. D. Noe, <a href="/A053287/b053287.txt">Table of n, a(n) for n=1..100</a>
+%F A053287 a(n) = A000010(A000225(n)).
+%F A053287 a(n) = A000010(2^n-1) or also a(n) = A062401(2^(n-1)) = phi(sigma(2^(n-1))). - _Labos Elemer_, Jul 19 2004
+%p A053287 with(numtheory):with(combinat):a:=n->phi(stirling2(n,2)): seq(a(n), n=2..32); # _Zerinvary Lajos_, Oct 05 2007
+%t A053287 Table[EulerPhi[DivisorSigma[1, 2^w]], {w, 0, 25}] Table[EulerPhi[2^w-1], {w, 1, 25}]
+%o A053287 (PARI) a(n) = eulerphi(2^n-1) \\ _Michael B. Porter_, Oct 06 2009
+%o A053287 (MAGMA) [EulerPhi(2^n-1): n in [1..40]]; // _Vincenzo Librandi_, Jul 15 2015
+%Y A053287 Cf. A000010, A000225, A051953, A057764.
+%K A053287 nonn,easy,nice
+%O A053287 1,2
+%A A053287 _Labos Elemer_, Mar 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

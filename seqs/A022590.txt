@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022590
+Showing 1-1 of 1
+
+%I A022590
+%S A022590 1,26,351,3302,24427,151658,822484,4001660,17799041,73391968,
+%T A022590 283542740,1034983222,3593364255,11931569028,38062054017,117095671862,
+%U A022590 348538604492,1006539781078,2827014674081
+%N A022590 Expansion of Product (1+q^m)^26; m=1..inf.
+%F A022590 a(n) ~ (13/6)^(1/4) * exp(Pi * sqrt(26*n/3)) / (16384 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022590 nmax=50; CoefficientList[Series[Product[(1+q^m)^26,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022590 nonn
+%O A022590 0,2
+%A A022590 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

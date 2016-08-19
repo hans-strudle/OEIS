@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030503
+Showing 1-1 of 1
+
+%I A030503
+%S A030503 2,4,8,13,19,27,36,46,58,71,85,101,118,136,156,177,199,223,248,274,
+%T A030503 302,331,361,393,426,460,496,533,571,611,652,694,738,783,829,877,926,
+%U A030503 976,1028,1081,1135,1191,1248,1306,1366,1427,1489,1553,1618
+%N A030503 Graham-Sloane-type lower bound on the size of a ternary (n,3,3) constant-weight code.
+%H A030503 M. Svanstrom, <a href="http://www.dtr.isy.liu.se/dtr/staff/mattias">A lower bound for ternary constant weight codes</a>, IEEE Trans. on Information Theory, Vol. 43, pp. 1630-1632, Sep. 1997.
+%F A030503 a(n) = ceil (binomial (n, w) * 2^w / (2*n + 1))
+%K A030503 nonn
+%O A030503 3,1
+%A A030503 Mattias Svanstrom (mattias(AT)isy.liu.se)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

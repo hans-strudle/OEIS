@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049784
+Showing 1-1 of 1
+
+%I A049784
+%S A049784 0,0,1,1,6,3,14,12,21,21,51,21,62,69,79,63,136,90,181,129,160,186,324,
+%T A049784 160,264,306,371,297,512,285,528,444,547,628,768,372,715,820,980,652,
+%U A049784 1079,702,1173,1053,1002,1155,1728,960,1417,1292
+%N A049784 a(n)=Sum{T(n,k): k=1,2,...,n}, array T as in A049783.
+%K A049784 nonn
+%O A049784 1,5
+%A A049784 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

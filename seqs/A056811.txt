@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056811
+Showing 1-1 of 1
+
+%I A056811
+%S A056811 0,0,0,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,
+%T A056811 3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+%U A056811 4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4
+%N A056811 Number of primes not exceeding square root of n: primepi(sqrt(n)).
+%C A056811 Number of primes among factors of LCM(1,..,n) whose exponent is > 1, i.e. number of non-unitary prime factors of LCM(1,..,n).
+%C A056811 Number of positive integers <= n with exactly 3 divisors.
+%C A056811 Number of squared primes not exceeding n. - _Wesley Ivan Hurt_, May 24 2013
+%H A056811 T. D. Noe, <a href="/A056811/b056811.txt">Table of n, a(n) for n = 1..10000</a>
+%F A056811 a(n) = A056170(A003418)) = A000720(A000196(n)).
+%F A056811 For k = 1, 2, ..., repeat k A069482(k) (that is, prime(k+1)^2 - prime(k)^2) times, and add 0 three times at the beginning (or begin the preceding by k = 0, with prime(0) set to 1). - _Jean-Christophe Hervé_, Oct 30 2013
+%e A056811 If n=169,...,288 = p()^2,..,p(7)^2-1, then only the first 6 primes have exponents larger than 1, resulting in powers: 128, 81, 125, 49, 121, 169. So a(n)=6 for as much as 288-169+1 = 120 values of n.
+%t A056811 Table[PrimePi[Sqrt[n]], {n, 100}] (* _T. D. Noe_, Mar 13 2013 *)
+%o A056811 (PARI) a(n) = primepi(sqrt(n)); \\ _Michel Marcus_, Apr 11 2016
+%Y A056811 Cf. A000196, A000720, A003418, A056170.
+%Y A056811 Cf. A069482, A056813.
+%K A056811 nonn,easy
+%O A056811 1,9
+%A A056811 _Labos Elemer_, Aug 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

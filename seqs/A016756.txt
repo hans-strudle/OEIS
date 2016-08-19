@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016756
+Showing 1-1 of 1
+
+%I A016756
+%S A016756 1,81,625,2401,6561,14641,28561,50625,83521,130321,194481,279841,
+%T A016756 390625,531441,707281,923521,1185921,1500625,1874161,2313441,2825761,
+%U A016756 3418801,4100625,4879681,5764801,6765201
+%N A016756 a(n) = (2*n+1)^4.
+%C A016756 a(n) is the number of ordered pairs of lattice points (vectors in R^2 with integer coordinates) that are in or on a square centered at the origin with side length 2*n. - _Geoffrey Critzer_, Apr 20 2013
+%H A016756 Vincenzo Librandi, <a href="/A016756/b016756.txt">Table of n, a(n) for n = 0..10000</a>
+%e A016756 a(1) = 81 because there are 9 lattice points in or on the 2 x 2 square centered at the origin, so there are 9*9 =81 ordered pairs. - _Geoffrey Critzer_, Apr 20 2013
+%t A016756 Table[(2n+1)^4,{n,0,25}]  (* _Geoffrey Critzer_, Apr 20 2013 *)
+%o A016756 (MAGMA) [(2*n+1)^4: n in [0..40]]; // _Vincenzo Librandi_, Sep 07 2011
+%K A016756 nonn,easy
+%O A016756 0,2
+%A A016756 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

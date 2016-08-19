@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020696
+Showing 1-1 of 1
+
+%I A020696
+%S A020696 2,6,8,30,12,168,16,270,80,396,24,10920,28,720,768,4590,36,31920,40,
+%T A020696 41580,1408,1656,48,2457000,312,2268,2240,104400,60,5499648,64,151470,
+%U A020696 3264,3780,3456,76767600,76,4680,4480,15343020,84,19071360,88
+%N A020696 Let a,b,c,...k be all divisors of n; a(n) = (a+1)*(b+1)*...*(k+1).
+%C A020696 a(p) = 2(p+1), a(p^2) = 2(p+1)(p^2+1) for primes p.
+%H A020696 Reinhard Zumkeller, <a href="/A020696/b020696.txt">Table of n, a(n) for n = 1..10000</a>
+%F A020696 a(n) = Product(A027750(n,k) + 1: k = 1..A000005(n)). - _Reinhard Zumkeller_, Mar 28 2015
+%t A020696 Table[Times @@ (Divisors[n] + 1), {n, 43}] (* _Ivan Neretin_, May 27 2015 *)
+%o A020696 (PARI) a(n) = {d = divisors(n); return (prod(i=1, #d, d[i]+1));} \\ _Michel Marcus_, Jun 12 2013
+%o A020696 (Haskell)
+%o A020696 a020696 = product . map (+ 1) . a027750_row'
+%o A020696 -- _Reinhard Zumkeller_, Mar 28 2015
+%Y A020696 Cf. A027750, A000005, A003959.
+%Y A020696 Cf. A057643 (LCM instead of product).
+%K A020696 nonn,easy
+%O A020696 1,1
+%A A020696 _Amarnath Murthy_, Jun 01 2003
+%E A020696 Edited by Don Reble (djr(AT)nk.ca), Jun 05 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

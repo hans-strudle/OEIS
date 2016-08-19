@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027717
+Showing 1-1 of 1
+
+%I A027717
+%S A027717 4,6,424,40204,48184,68386,4002004,4992994,6510156,6830386,400020004,
+%T A027717 424545424,40000200004,41162526114,42314341324,47678687674,
+%U A027717 4000002000004,4644626264464,6201427241026
+%N A027717 Palindromes of form n^2+n+4.
+%H A027717 P. De Geest, <a href="http://www.worldofnumbers.com/quasimor.htm">Palindromic Quasi_Over_Squares of the form n^2+(n+X)</a>
+%t A027717 Select[Table[n^2+n+4,{n,0,25*10^5}],IntegerDigits[#] == Reverse[ IntegerDigits[ #]]&] (* _Harvey P. Dale_, Mar 05 2015 *)
+%Y A027717 Cf. A027716, A027689.
+%K A027717 nonn,base
+%O A027717 1,1
+%A A027717 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

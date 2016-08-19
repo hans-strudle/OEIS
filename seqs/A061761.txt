@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061761
+Showing 1-1 of 1
+
+%I A061761
+%S A061761 0,3,7,13,23,41,75,141,271,529,1043,2069,4119,8217,16411,32797,65567,
+%T A061761 131105,262179,524325,1048615,2097193,4194347,8388653,16777263,
+%U A061761 33554481,67108915,134217781,268435511,536870969,1073741883,2147483709
+%N A061761 2^n + 2*n - 1.
+%H A061761 Harry J. Smith, <a href="/A061761/b061761.txt">Table of n, a(n) for n=0,...,200</a>
+%F A061761 G.f.: x(3-5x)/((1-x)^2*(1-2x)). Binomial transform of 0,3,1,1,... (1 continued). [From _R. J. Mathar_, Sep 17 2008]
+%t A061761 Table[2^n+2*n-1,{n,0,60}] (* _Vladimir Joseph Stephan Orlovsky_, Feb 15 2011*)
+%o A061761 (PARI) { for (n=0, 200, write("b061761.txt", n, " ", 2^n + 2*n - 1) ) } [From _Harry J. Smith_, Jul 27 2009]
+%K A061761 nonn
+%O A061761 0,2
+%A A061761 _Amarnath Murthy_, May 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

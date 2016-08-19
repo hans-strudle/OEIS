@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044933
+Showing 1-1 of 1
+
+%I A044933
+%S A044933 0,0,1,1,0,1,0,0,1,0,1,2,1,0,1,1,0,1,2,1,0,1,0,1,2,1,2,1,0,1,0,0,1,0,
+%T A044933 1,2,1,2,1,0,1,0,1,2,1,0,1,2,1,2,3,2,1,2,1,0,1,0,1,2,1,0,1,1,0,1,2,1,
+%U A044933 0,1,0,1,2,1,2,3,2,1,2,1,0,1,2,1,0,1,0,1,2,1
+%N A044933 Runs of even length in the base 2 representation of n.
+%K A044933 nonn,base
+%O A044933 1,12
+%A A044933 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

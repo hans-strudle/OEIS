@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026977
+Showing 1-1 of 1
+
+%I A026977
+%S A026977 1,4,24,90,365,1376,7365,28002,121049,465004,2437089,9396986,41758527,
+%T A026977 162167568,842470494,3277804402,14798196587,57865149612,299015494394
+%N A026977 Sum{T(n,k)*T(n,k+1)}, 0<=k<=n-1, T given by A026659.
+%K A026977 nonn
+%O A026977 1,2
+%A A026977 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

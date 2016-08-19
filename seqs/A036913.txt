@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036913
+Showing 1-1 of 1
+
+%I A036913
+%S A036913 2,6,12,18,30,42,60,66,90,120,126,150,210,240,270,330,420,462,510,630,
+%T A036913 660,690,840,870,1050,1260,1320,1470,1680,1890,2310,2730,2940,3150,
+%U A036913 3570,3990,4620,4830,5460,5610,5670,6090,6930,7140,7350,8190,9240,9660
+%N A036913 Sparsely totient numbers; numbers n such that m > n implies phi(m) > phi(n).
+%C A036913 The paper by Masser and Shiu lists 150 terms of this sequence less than 10^6. For odd prime p, they show that p# and p*p# are in this sequence, where p# denotes the primorial (A002110). - _T. D. Noe_, Jun 14 2006
+%D A036913 Glyn Harman, On sparsely totient numbers, Glasgow Math. J. 33 (1991), 349-358.
+%H A036913 T. D. Noe, <a href="/A036913/b036913.txt">Table of n, a(n) for n = 1..5000</a>
+%H A036913 Roger C. Baker and Glyn Harman, <a href="http://www.numdam.org/item?id=AFST_1996_6_5_2_183_0">Sparsely totient numbers</a>, Annales de la faculte des sciences de Toulouse Ser. 6, 5 no. 2 (1996), 183-190.
+%H A036913 D. W. Masser and P. Shiu, <a href="http://projecteuclid.org/Dienst/UI/1.0/Summarize/euclid.pjm/1102702441">On sparsely totient numbers</a>, Pacific J. Math. 121, no. 2 (1986), 407-426.
+%e A036913 This sequence contains 60 because of all the numbers whose totient is <=16, 60 is the largest such number. [From _Graeme McRae_, Feb 12 2009]
+%t A036913 nn=10000; lastN=Table[0,{nn}]; Do[e=EulerPhi[n]; If[e<=nn, lastN[[e]]=n], {n,10nn}]; mx=0; lst={}; Do[If[lastN[[i]]>mx, mx=lastN[[i]]; AppendTo[lst,mx]], {i,Length[lastN]}]; lst - _T. D. Noe_, Jun 14 2006
+%Y A036913 Cf. A097942 (highly totient numbers). Records in A006511 (see also A132154).
+%K A036913 nonn
+%O A036913 1,1
+%A A036913 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

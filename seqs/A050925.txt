@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050925
+Showing 1-1 of 1
+
+%I A050925
+%S A050925 1,1,1,0,1,0,1,0,3,0,5,0,691,0,35,0,3617,0,43867,0,1222277,0,
+%T A050925 854513,0,1181820455,0,76977927,0,23749461029,0,8615841276005,0,
+%U A050925 84802531453387,0,90219075042845,0,26315271553053477373,0,38089920879940267,0
+%V A050925 1,-1,1,0,-1,0,1,0,-3,0,5,0,-691,0,35,0,-3617,0,43867,0,-1222277,0,
+%W A050925 854513,0,-1181820455,0,76977927,0,-23749461029,0,8615841276005,0,
+%X A050925 -84802531453387,0,90219075042845,0,-26315271553053477373,0,38089920879940267,0
+%N A050925 Numerator of (n+1)*Bernoulli(n).
+%C A050925 The denominators are in A050932. The e.g.f. for (n+1)*Bernoulli(n), n >= 0, is diff(x^2/(exp(x)-1),x) = x*(2*(exp(x)-1)- x*exp(x))/(exp(x)-1)^2. - _Wolfdieter Lang_, Jul 15 2013
+%D A050925 M. Kaneko, A recurrence formula for the Bernoulli numbers, Proc. Japan Acad., 71 A (1995), 192-193.
+%H A050925 N. J. A. Sloane, <a href="/A050925/b050925.txt">Table of n, a(n) for n = 0..200</a>
+%H A050925 S. C. Woon, <a href="http://www.jstor.org/stable/2691054">A tree for generating Bernoulli numbers</a>, Math. Mag., 70 (1997), 51-56.
+%H A050925 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%t A050925 Numerator[Table[(n+1)BernoulliB[n],{n,0,40}]] (* _Harvey P. Dale_, May 13 2012 *)
+%o A050925 (Haskell)
+%o A050925 a050925 n = a050925_list !! n
+%o A050925 a050925_list = 1 : -1 : (tail $ map (numerator . sum) $
+%o A050925    zipWith (zipWith (%))
+%o A050925    (zipWith (map . (*)) (drop 2 a000142_list) a242179_tabf) a106831_tabf)
+%o A050925 -- _Reinhard Zumkeller_, Jul 04 2014
+%Y A050925 Cf. A050932, A000367/A002445.
+%Y A050925 Cf. also A002882, A003245, A127187, A127188.
+%Y A050925 Cf. A242179, A106831, A000142.
+%K A050925 sign,easy,frac,nice
+%O A050925 0,9
+%A A050925 _N. J. A. Sloane_, Dec 30 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

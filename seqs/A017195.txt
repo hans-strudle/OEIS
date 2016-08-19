@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017195
+Showing 1-1 of 1
+
+%I A017195
+%S A017195 2048,285311670611,204800000000000,12200509765705829,
+%T A017195 238572050223552512,2472159215084012303,16985107389382393856,
+%U A017195 87507831740087890625,364375289404334925824,1287831418538085836267,3996373778857415671808
+%N A017195 (9*n+2)^11.
+%H A017195 Vincenzo Librandi, <a href="/A017195/b017195.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017195 (MAGMA) [(9*n+2)^11: n in [0..10]]; // Vincenzo Librandi, Jul 23 2011
+%K A017195 nonn,easy
+%O A017195 0,1
+%A A017195 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

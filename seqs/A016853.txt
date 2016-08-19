@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016853
+Showing 1-1 of 1
+
+%I A016853
+%S A016853 0,3125,100000,759375,3200000,9765625,24300000,52521875,102400000,
+%T A016853 184528125,312500000,503284375,777600000,1160290625,1680700000,
+%U A016853 2373046875,3276800000,4437053125,5904900000
+%N A016853 (5n)^5.
+%C A016853 a(n) = A155955(n,5) for n>4. [From _Reinhard Zumkeller_, Jan 31 2009]
+%H A016853 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A016853 a(0)=0, a(1)=3125, a(2)=100000, a(3)=759375, a(4)=3200000, a(5)=9765625, a(n)=6*a(n-1)-15*a(n-2)+20*a(n-3)-15*a(n-4)+6*a(n-5)-a(n-6). - _Harvey P. Dale_, Jul 11 2015
+%t A016853 (5*Range[0,20])^5 (* or *) LinearRecurrence[{6,-15,20,-15,6,-1},{0,3125,100000,759375,3200000,9765625},20] (* _Harvey P. Dale_, Jul 11 2015 *)
+%K A016853 nonn,easy
+%O A016853 0,2
+%A A016853 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

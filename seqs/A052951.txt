@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052951
+Showing 1-1 of 1
+
+%I A052951
+%S A052951 1,5,14,36,88,208,480,1088,2432,5376,11776,25600,55296,118784,253952,
+%T A052951 540672,1146880,2424832,5111808,10747904,22544384,47185920,98566144,
+%U A052951 205520896,427819008,889192448,1845493760,3825205248,7918845952
+%N A052951 Expansion of (1+x-2x^2)/(1-2x)^2.
+%C A052951 Equals binomial transform of A042948 starting with "1": (1, 4, 5, 8, 9, 12, 13,...) = terms >0, == 0 or 1 mod 4. [From _Gary W. Adamson_, Feb 07 2009]
+%H A052951 Vincenzo Librandi, <a href="/A052951/b052951.txt">Table of n, a(n) for n = 0..1000</a>
+%H A052951 O. Aichholzer, A. Asinowski, T. Miltzow, <a href="http://arxiv.org/abs/1403.5546">Disjoint compatibility graph of non-crossing matchings of points in convex position</a>, arXiv preprint arXiv:1403.5546, 2014
+%H A052951 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=1021">Encyclopedia of Combinatorial Structures 1021</a>
+%H A052951 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-4).
+%F A052951 G.f.: -(-x+2*x^2-1)/(-1+2*x)^2
+%F A052951 Recurrence: {a(0)=1, 4*a(n)-4*a(n+1)+a(n+2)=0, a(1)=5, a(2)=14}
+%F A052951 2^n*n+2^n+2^(n-1), n>0.
+%F A052951 a(n) = A118413(n+1,n-1) for n>2. - _Reinhard Zumkeller_, Apr 27 2006
+%p A052951 spec := [S,{S=Prod(Union(Sequence(Union(Z,Z)),Z),Sequence(Union(Z,Z)))},unlabeled ]: seq(combstruct[count ](spec,size=n), n=0..20);
+%t A052951 CoefficientList[Series[-(-x+2*x^2-1)/(-1+2*x)^2,{x,0,40}],x] (* _Vincenzo Librandi_, Jun 22 2012 *)
+%o A052951 (MAGMA) I:=[1, 5, 14]; [n le 3 select I[n] else 4*Self(n-1)-4*Self(n-2): n in [1..30]]; // _Vincenzo Librandi_, Jun 22 2012
+%Y A052951 Cf. A042948 [From _Gary W. Adamson_, Feb 07 2009]
+%K A052951 easy,nonn
+%O A052951 0,2
+%A A052951 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

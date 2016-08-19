@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059238
+Showing 1-1 of 1
+
+%I A059238
+%S A059238 6,48,180,480,2016,3528,5760,13200,26208,61200,78336,123120,267168,
+%T A059238 374400,511056,682080,892800,1014816,1822176,2755200,3337488,4773696,
+%U A059238 5644800,7738848,11908560,13615200,16511040,19845936,25048800,28003968
+%N A059238 Orders of the finite groups GL_2(K) when K is a finite field with q = p^m elements for a prime p and m >= 1.
+%H A059238 R. A. Wilson, <a href="http://dx.doi.org/10.1007/978-1-84800-988-2_3">The classical groups</a>, chapter 3.3.1 in The finite Simple Groups, Graduate Texts in Mathematics 251 (2009).
+%F A059238 If the finite field K has p^m elements the order of the group GL_2(K) is (p^(2m)-1)*(p^(2m) - p^m) = (p^m+1)*(p^m)*(p^m-1)^2
+%e A059238 a(4) = 480 because (5^2-1)*(5^2-5) = 480.
+%p A059238 with(numtheory): for n from 2 to 400 do if nops(ifactors(n)[2]) = 1 then printf(`%d,`, (n+1)*(n)*(n-1)^2) fi: od:
+%t A059238 nn=30;a=Take[Union[Sort[Flatten[Table[Table[Prime[m]^k,{m,1,nn}],{k,1,nn}]]]],nn];Table[(q^2-1)(q^2-q),{q,a}]  (* _Geoffrey Critzer_, Apr 20 2013 *)
+%Y A059238 Subset of A047927.
+%Y A059238 Cf. A000961
+%K A059238 nonn
+%O A059238 0,1
+%A A059238 Avi Peretz (njk(AT)netvision.net.il), Jan 21 2001
+%E A059238 More terms from _James A. Sellers_, Jan 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

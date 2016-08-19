@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026151
+Showing 1-1 of 1
+
+%I A026151
+%S A026151 2,4,12,32,89,246,685,1912,5355,15038,42339,119484,337935,957738,
+%T A026151 2719539,7736208,22044444,62916696,17981270,514793944,1475586687,
+%U A026151 4234989242,12169352003,35009302296,100826681530,290683486132,838873595124
+%N A026151 a(n) = T(n,n), where T is the array in A026148.
+%Y A026151 First differences of A026325.
+%K A026151 nonn
+%O A026151 2,1
+%A A026151 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

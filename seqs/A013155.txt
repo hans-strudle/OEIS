@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013155
+Showing 1-1 of 1
+
+%I A013155
+%S A013155 1,2,3,6,21,90,495,3150,23625,198450,1885275,19646550,225935325,
+%T A013155 2809456650,37927664775,547844046750,8491582724625,139700231921250,
+%U A013155 2444754058621875,45123174910563750,879901910755993125
+%N A013155 exp(arctanh(x)+log(x+1))=1+2*x+3/2!*x^2+6/3!*x^3+21/4!*x^4+90/5!*x^5...
+%Y A013155 a(2n+1) = 2 * A079484(n+1).
+%K A013155 nonn
+%O A013155 0,2
+%A A013155 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

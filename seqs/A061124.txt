@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061124
+Showing 1-1 of 1
+
+%I A061124
+%S A061124 0,0,0,0,0,0,504,4032,27216,514080,4823280,57081024,500972472,
+%T A061124 4412103696,60619398840,686638592640,9335025764064,104304736815552,
+%U A061124 1180585704051936,29016515871665280,478096386437121480
+%N A061124 Number of degree-n permutations of order exactly 10.
+%F A061124 E.g.f.: exp(x)-exp(x+1/2*x^2)-exp(x+1/5*x^5)+exp(x+1/2*x^2+1/5*x^5+1/10*x^10).
+%Y A061124 Cf. A000085, A001470, A001472, A052501, A053496-A053505, A001189, A001471, A001473, A061121-A061128.
+%K A061124 easy,nonn
+%O A061124 1,7
+%A A061124 _Vladeta Jovovic_, Apr 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

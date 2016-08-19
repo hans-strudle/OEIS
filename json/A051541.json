@@ -1,0 +1,1 @@
+{"formerly":"","seq":"5,9,13,17,7,5,29,11,37,41,1,7,53,19,61,1,23,73,1,9,1,89","description":"Quotients of consecutive values of LCM {1, 5, 9, 13, 17 ...,(4n+1)}.","formula":"a(n) = A051539(n)/A051539(n-1)","example":"a(2) = A051539(2)/A051539(1) = 45/5 = 9","crossrefs":["A051539."],"keyword":"easy,nonn","offset":"1,1","author":"Asher Auel (asher.auel(AT)reed.edu)"}

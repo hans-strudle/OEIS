@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023613
+Showing 1-1 of 1
+
+%I A023613
+%S A023613 1,1,2,4,6,10,16,26,42,69,111,180,291,471,762,1233,1995,3228,5223,
+%T A023613 8452,13675,22127,35802,57929,93731,151660,245391,397051,642442,
+%U A023613 1039493,1681935,2721428,4403363,7124791
+%N A023613 Convolution of Fibonacci numbers and A023533.
+%H A023613 Danny Rorabaugh, <a href="/A023613/b023613.txt">Table of n, a(n) for n = 0..4000</a>
+%F A023613 a(n-1) = Sum_{k=1..n} A000045(k)*A023533(n+1-k). - _Danny Rorabaugh_, Mar 13 2015
+%o A023613 (Sage) #Assuming A023533 is available as an array
+%o A023613 for n in range(34):
+%o A023613 ..print n, sum([A023533[k]*fibonacci(n+2-k) for k in range(1,n+2)])
+%o A023613 # _Danny Rorabaugh_, Mar 14 2015
+%Y A023613 Cf. A000045, A023533.
+%K A023613 nonn
+%O A023613 0,3
+%A A023613 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

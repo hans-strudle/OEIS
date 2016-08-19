@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043205
+Showing 1-1 of 1
+
+%I A043205
+%S A043205 35,75,116,156,197,237,278,315,359,399,440,480,521,561,602,642,675,
+%T A043205 723,764,804,845,885,926,966,1007,1044,1088,1128,1169,1209,1250,1290,
+%U A043205 1331,1371,1404,1452,1493,1533,1574,1614,1655,1695
+%N A043205 Numbers n such that 3 and 8 occur juxtaposed in the base 9 representation of n but not of n-1.
+%K A043205 nonn,base
+%O A043205 1,1
+%A A043205 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

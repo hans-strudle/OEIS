@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050427
+Showing 1-1 of 1
+
+%I A050427
+%S A050427 8,24,40,44,52,56,72,76,78,92,100,114,116,120,136,140,142,143,148,150,
+%T A050427 151,158,164,168,172,174,188,196,210,212,216,220,226,233,234,236,241,
+%U A050427 242,244,248,264,268,270,271,276,278,279,282,283,287,303
+%N A050427 Numbers for which in base 2 the least number of digits that can be removed to leave a base 2 palindromic number (beginning with 1) is 3.
+%e A050427 (72 base 2) = 1001000 -> 1001.
+%K A050427 nonn,base
+%O A050427 1,1
+%A A050427 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013542
+Showing 1-1 of 1
+
+%I A013542
+%S A013542 1,53,3341,391337,710371933,6178130243,225570264096917,
+%T A013542 1546226961439379,5665951032145572087083,1602619428542796266047,
+%U A013542 218332153959703843484481031721,149315097238822774731841867
+%V A013542 -1,53,3341,391337,710371933,6178130243,225570264096917,
+%W A013542 1546226961439379,5665951032145572087083,-1602619428542796266047,
+%X A013542 218332153959703843484481031721,-149315097238822774731841867
+%N A013542 Numerator of the coefficient [x^(2n+1)] of the Taylor series sinh(cosec(x)-coth(x)) = -x/6 +53*x^3/1296 +3341*x^5/6531840 +391337*x^7/1410877440 +...
+%C A013542 A bisection of A013536. Denominators appear to be a bisection of A202382.
+%K A013542 sign,frac
+%O A013542 0,2
+%A A013542 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013542 Values replaced by numerators. - R. J. Mathar, Dec 21 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

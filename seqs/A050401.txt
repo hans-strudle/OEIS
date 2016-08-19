@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050401
+Showing 1-1 of 1
+
+%I A050401
+%S A050401 8,1,41,142,933,4741,26660,143697,788453,4293286,23454801,127953981,
+%T A050401 698467368,3811712633,20803963753,113540081302,619672701957,
+%U A050401 3381980484909,18457878595412,100737602247769,549796303339413
+%N A050401 Number of independent sets of nodes in P_4 X C_n (n > 2).
+%H A050401 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,20,27,-14,-25,4,5,-1).
+%F A050401 a(n) = a(n-1) + 20*a(n-2) + 27*a(n-3) - 14*a(n-4) - 25*a(n-5) + 4*a(n-6) + 5*a(n-7) - a(n-8).
+%F A050401 G.f.: -(5*x^7 +8*x^6 -75*x^5 -56*x^4 +135*x^3 +120*x^2 +7*x -8)/((x +1)*(x^2 -2*x -1)*(x^5 -4*x^4 -5*x^3 +9*x^2 +4*x -1)). [_Colin Barker_, Aug 31 2012]
+%K A050401 easy,nonn
+%O A050401 0,1
+%A A050401 Stephen G. Penrice (spenrice(AT)ets.org), Dec 21 1999
+%E A050401 More terms from Michael Lugo (mlugo(AT)thelabelguy.com), Dec 22 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

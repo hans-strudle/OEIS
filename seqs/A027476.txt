@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027476
+Showing 1-1 of 1
+
+%I A027476
+%S A027476 1,45,1350,33750,759375,15946875,318937500,6150937500,115330078125,
+%T A027476 2114384765625,38058925781250,674680957031250,11806916748046875,
+%U A027476 204350482177734375,3503151123046875000,59553569091796875000
+%N A027476 Third column of A027467.
+%H A027476 Vincenzo Librandi, <a href="/A027476/b027476.txt">Table of n, a(n) for n = 3..200</a>
+%F A027476 Numerators of sequence a[ 3, n ] in (a[ i, j ])^4 where a[ i, j ] = Binomial(i-1, j-1)/2^(i-1) if j<=i, 0 if j>i
+%F A027476 (n-1)(n-2)/2 * 15^(n-3).
+%t A027476 Table[(n - 1)*(n - 2)/2 * 15^(n - 3), {n, 3, 30}] (* _Vincenzo Librandi_, Dec 29 2012 *)
+%o A027476 (MAGMA) [(n - 1) * (n - 2)/2 * 15^(n - 3): n in [3..20]]; // _Vincenzo Librandi_, Dec 29 2012
+%K A027476 nonn
+%O A027476 3,2
+%A A027476 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

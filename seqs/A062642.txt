@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062642
+Showing 1-1 of 1
+
+%I A062642
+%S A062642 2,5,61,97,167,433
+%N A062642 Numbers n such that k^n - (k-1)^n is prime, where k is 76.
+%C A062642 Terms > 1000 are often only strong pseudoprimes.
+%C A062642 a(7) > 10^5. - _Robert Price_, Jul 24 2014
+%t A062642 Select[Range[450],PrimeQ[76^#-75^#]&] (* _Harvey P. Dale_, Aug 30 2013 *)
+%Y A062642 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062642 nonn,hard
+%O A062642 1,1
+%A A062642 _Mike Oakes_, May 18 2001, May 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054679
+Showing 1-1 of 1
+
+%I A054679
+%S A054679 23,47,251,1741,1741,19471,118801,148531,148531,406951,1820111,
+%T A054679 2339041,19725473,19725473,73451737,232301497,400414121,489144599,
+%U A054679 489144599,766319189,766319189,21549657539,21549657539,21549657539,140432294381
+%N A054679 n consecutive primes differ by a multiple of 6 starting at a(n).
+%H A054679 Giovanni Resta, <a href="/A054679/b054679.txt">Table of n, a(n) for n = 2..35</a> (terms < 4*10^14)
+%H A054679 J. K. Andersen, <a href="http://primerecords.dk/congruent-primes.htm">Consecutive Congruent Primes</a>.
+%Y A054679 Cf. A054678, A054680.
+%K A054679 nonn
+%O A054679 2,1
+%A A054679 _Jeff Burch_, Apr 18 2000
+%E A054679 More terms from Larry Reeves (larryr(AT)acm.org), Nov 09 2000
+%E A054679 More terms from _Jens Kruse Andersen_, May 30 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

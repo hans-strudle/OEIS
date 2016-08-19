@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044277
+Showing 1-1 of 1
+
+%I A044277
+%S A044277 26,107,188,234,269,350,431,512,593,674,755,836,917,963,998,1079,1160,
+%T A044277 1241,1322,1403,1484,1565,1646,1692,1727,1808,1889,1970,2051,2106,
+%U A044277 2213,2294,2375,2421,2456,2537,2618,2699,2780,2861
+%N A044277 Numbers n such that string 2,8 occurs in the base 9 representation of n but not of n-1.
+%K A044277 nonn,base
+%O A044277 1,1
+%A A044277 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

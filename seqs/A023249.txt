@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023249
+Showing 1-1 of 1
+
+%I A023249
+%S A023249 3,7,11,17,19,47,67,109,149,151,199,227,233,347,353,359,397,431,457,
+%T A023249 487,563,571,577,607,709,809,919,947,997,1013,1033,1069,1103,1117,
+%U A023249 1151,1187,1279,1361,1367,1451,1601,1607,1697,1699,1801,1811,1823,1831,1871,1913
+%N A023249 Numbers n such that n remains prime through 2 iterations of function f(x) = 3x + 10.
+%C A023249 n, 3*n+10, 9*n+40 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023249 (MAGMA) [n: n in [0..100000] | IsPrime(n) and IsPrime(3*n+10) and IsPrime(9*n+40)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023249 nonn
+%O A023249 1,1
+%A A023249 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005326
+Showing 1-1 of 1
+
+%I A005326 M2382
+%S A005326 1,1,3,4,28,16,256,324,3600,3600,129744,63504,3521232,3459600,
+%T A005326 60891840,91240704,8048712960,3554067456,425476094976,320265446400,
+%U A005326 12474417291264,16417666704384,2778580249611264,1142807773593600
+%N A005326 Permanent of `coprime?' matrix.
+%C A005326 Number of permutations p of (1,2,3,...,n) such that k and p(k) are relatively prime for all k in (1,2,3,...,n). - _Benoit Cloitre_, Aug 23 2002
+%C A005326 Coprime matrix M=[m(i,j)] is a square matrix defined by m(i,j)=1 if gcd(i,j)=1 else 0.
+%D A005326 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005326 D. M. Jackson, <a href="http://dx.doi.org/10.1016/0097-3165(77)90016-4">The combinatorial interpretation of the Jacobi identity from Lie algebra</a>, J. Combin. Theory, A 23 (1977), 233-256.
+%F A005326 a(2n)=A009679(n)^2 - _T. D. Noe_, Feb 10 2007
+%t A005326 perm[m_?MatrixQ] := With[{v = Array[x, Length[m]]}, Coefficient[Times @@ (m.v), Times @@ v]]; a[n_] := perm[ Table[ Boole[GCD[i, j] == 1], {i, 1, n}, {j, 1, n}]]; Table[an = a[n]; Print[an]; an, {n, 1, 24}](* _Jean-François Alcover_, Nov 15 2011 *)
+%o A005326 (PARI) permRWNb(a)=n=matsize(a)[1]; if(n==1,return(a[1,1])); sg=1; nc=0; in=vectorv(n); x=in; x=a[,n]-sum(j=1,n,a[,j])/2; p=prod(i=1,n,x[i]); for(k=1,2^(n-1)-1,sg=-sg; j=valuation(k,2)+1; z=1-2*in[j]; in[j]+=z; nc+=z; x+=z*a[,j]; p+=prod(i=1,n,x[i],sg)); return(2*(2*(n%2)-1)*p)
+%o A005326 for(n=1,26,a=matrix(n,n,i,j,gcd(i,j)==1); print1(permRWNb(a)",")) \\ Herman Jamke (hermanjamke(AT)fastmail.fm), May 13 2007
+%K A005326 nonn,nice
+%O A005326 1,3
+%A A005326 _N. J. A. Sloane_.
+%E A005326 Corrected by _Vladeta Jovovic_, Jul 05 2003
+%E A005326 More terms from _T. D. Noe_, Feb 10 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

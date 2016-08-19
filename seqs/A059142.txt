@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059142
+Showing 1-1 of 1
+
+%I A059142
+%S A059142 11,40,105,242,523,1092,2237,4534,9135,18344,36769,73626,147347,
+%T A059142 294796,589701
+%N A059142 A hierarchical sequence (S(W2{3}*) - see A059126).
+%H A059142 J. Wallgren, <a href="/A059126/a059126.txt">Hierarchical sequences</a>
+%F A059142 Conjectures from _Colin Barker_, Oct 06 2015: (Start)
+%F A059142 a(n) = 4*a(n-1) - 5*a(n-2) + 2*a(n-3) for n>2.
+%F A059142 a(n) = (-25+9*2^(2+n)-7*n).
+%F A059142 G.f.: (4*x-11) / ((x-1)^2*(2*x-1)).
+%F A059142 (End)
+%K A059142 easy,nonn,more
+%O A059142 0,1
+%A A059142 _Jonas Wallgren_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

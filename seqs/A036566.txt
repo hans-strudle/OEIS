@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036566
+Showing 1-1 of 1
+
+%I A036566
+%S A036566 1,7,8,49,56,64,343,392,448,512,2401,2744,3136,3584,4096,16807,19208,
+%T A036566 21952,25088,28672,32768,117649,134456,153664,175616,200704,229376,
+%U A036566 262144,823543,941192,1075648,1229312,1404928,1605632,1835008,2097152
+%N A036566 Numbers of form 7^i*8^j, with i, j >= 0.
+%C A036566 May also be read as a triangle of numbers in which i-th row is {7^(i-j)*8^j, 0<=j<=i}; i >= 0.
+%H A036566 Robert Sedgewick, <a href="http://www.cs.princeton.edu/~rs/talks/shellsort.ps">Analysis of shellsort and related algorithms</a>, Fourth European Symposium on Algorithms, Barcelona, September, 1996.
+%K A036566 easy,nonn,tabl
+%O A036566 1,2
+%A A036566 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

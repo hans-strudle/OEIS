@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039900
+Showing 1-1 of 1
+
+%I A039900
+%S A039900 0,1,1,2,4,6,9,13,19,27,38,52,71,95,127,167,220,285,370,474,607,770,
+%T A039900 976,1226,1540,1920,2391,2960,3660,4501,5529,6760,8254,10038,12190,
+%U A039900 14750,17825,21470,25825,30975,37101,44322,52879,62937,74811,88733
+%N A039900 Number of partitions satisfying 0 < cn(0,5) + cn(1,5) + cn(4,5).
+%C A039900 For a given partition cn(i,n) means the number of its parts equal to i modulo n.
+%C A039900 Short: o < 0 + 1 + 4 (OMZAAp).
+%C A039900 Number of partitions of n such that (greatest part) >= (multiplicity of greatest part), for n >= 1.  For example, a(6) counts these 9 partitions:  6, 51, 42, 411, 33, 321, 3111, 22111, 21111.  See the Mathematica program at A240057 for the sequence as a count of these partitions, along with counts of related partitions.  - _Clark Kimberling_, Apr 02 2014
+%H A039900 Alois P. Heinz, <a href="/A039900/b039900.txt">Table of n, a(n) for n = 0..1000</a>
+%p A039900 b:= proc(n, i, t) option remember; `if`(n=0, t,
+%p A039900       `if`(i<1, 0, b(n, i-1, t)+ `if`(i>n, 0, b(n-i, i,
+%p A039900       `if`(irem(i, 5) in {2, 3}, t, 1)))))
+%p A039900     end:
+%p A039900 a:= n-> b(n$2, 0):
+%p A039900 seq(a(n), n=0..50);  # _Alois P. Heinz_, Apr 03 2014
+%t A039900 Table[Count[IntegerPartitions[n], p_ /; Min[p] <= Length[p]], {n, 40}] (* _Clark Kimberling_, Feb 13 2014 *)
+%t A039900 b[n_, i_, t_] := b[n, i, t] = If[n==0, t, If[i<1, 0, b[n, i-1, t] + If[i > n, 0, b[n-i, i, If[MemberQ[{2, 3}, Mod[i, 5]], t, 1]]]]]; a[n_] := b[n, n, 0]; Table[a[n], {n, 0, 50}] (* _Jean-François Alcover_, Nov 16 2015, after _Alois P. Heinz_ *)
+%Y A039900 Cf. A039899, A003114, A003106.
+%K A039900 nonn
+%O A039900 0,4
+%A A039900 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

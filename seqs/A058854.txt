@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058854
+Showing 1-1 of 1
+
+%I A058854
+%S A058854 2,5,7,173,563,73,41,369581,1409,109,449,176459,44221,12148537,148381,
+%T A058854 11399977,5779337237,16111,26013917,57405011,3019,1973,191141,6730949,
+%U A058854 998917,6619,3853,5153,138961158000728258971,2593,6511107455627473
+%N A058854 a(n) = largest prime in the factorization of (n+1)-st Franel number (A000172).
+%e A058854 a(3)=173 because the 4th Franel number is 346 = 2^1 * 173^1, in which 173 is the largest prime.
+%p A058854 with(combinat): with(numtheory): A000172 := n->sum(binomial(n,k)^3, k=0..n): for n from 1 to 50 do printf(`%d,`, ifactors(A000172(n))[2][nops(ifactors(A000172(n))[2])][1]) od:
+%t A058854 Do[ Print[ FactorInteger[ Sum[ Binomial[n, k]^3, {k, 0, n}]] [[ -1, 1]] ], {n, 1, 32} ]
+%Y A058854 Cf. A000172.
+%K A058854 nonn
+%O A058854 0,1
+%A A058854 Felix Goldberg (felixg(AT)tx.technion.ac.il), Jan 30 2001
+%E A058854 More terms from _James A. Sellers_, Feb 01 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

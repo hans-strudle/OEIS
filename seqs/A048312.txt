@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048312
+Showing 1-1 of 1
+
+%I A048312
+%S A048312 0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,16,32,48,64,80,96,112,128,144,160,
+%T A048312 176,192,208,224,225,241,257,273,289,305,321,337,353,369,385,401,417,
+%U A048312 433,449,450,466,482,498,514,530,546,562,578,594,610,626,642,658,674
+%N A048312 Reading base 15 expansion from left to right, run lengths strictly increase.
+%Y A048312 Cf. A037015, A043704, A043718, A044826, A044964.
+%K A048312 nonn,base
+%O A048312 0,3
+%A A048312 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

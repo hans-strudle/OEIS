@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018859
+Showing 1-1 of 1
+
+%I A018859
+%S A018859 1,256,302231454903657293676544,4,5070602400912917605986812821504,64,
+%T A018859 70368744177664,81129638414606681695789005144064,
+%U A018859 91343852333181432387730302044767688728495783936,1024,1125899906842624
+%N A018859 Smallest power of 4 that begins with n.
+%F A018859 a(n) = 4^A018860(n). - _Michel Marcus_, Feb 24 2016
+%K A018859 nonn,base
+%O A018859 1,2
+%A A018859 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

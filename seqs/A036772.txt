@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036772
+Showing 1-1 of 1
+
+%I A036772
+%S A036772 1,5,2520,9909900,150089940000,6217438242015000,574985352122181000000,
+%T A036772 103753754577643425255000000,33189544956070738228953960000000,
+%U A036772 17517292900368819935211385551000000000
+%N A036772 Number of labeled rooted trees with a degree constraint: (4*n)!/(24^n))*binomial(4*n+1,n).
+%D A036772 L. Takacs, Enumeration of rooted trees and forests, Math. Scientist 18 (1993), 1-10, esp. Eq. (12).
+%H A036772 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A036772 E.g.f. A(x) satisfies A(x)=1+1/24*(x*A(x))^4. [From Vladimir Kruchinin, Nov 22 2011 ]
+%t A036772 Table[(4n)!/24^n Binomial[4n+1,n],{n,0,10}] (* _Harvey P. Dale_, Aug 10 2011 *)
+%K A036772 nonn
+%O A036772 0,2
+%A A036772 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

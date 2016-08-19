@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008293
+Showing 1-1 of 1
+
+%I A008293
+%S A008293 1,1,1,1,2,2,2,8,6,16,40,24,16,136,240,120,272,1232,1680,720,272,3968,
+%T A008293 12096,13440,5040,7936,56320,129024,120960,40320,7936,176896,814080,
+%U A008293 1491840,1209600,362880,353792,3610112,12207360,18627840,13305600
+%N A008293 Triangle of coefficients in expansion of D^n (tan x) in powers of tan x.
+%D A008293 Haigh, Gordon; A "natural" approach to Pick's theorem. Math. Gaz. 64 (1980), no. 429, 173-180.
+%D A008293 Knuth, D. E. and Buckholtz, Thomas J., Computation of tangent, Euler and Bernoulli numbers. Math. Comp. 21 1967 663-688.
+%H A008293 Vincenzo Librandi, <a href="/A008293/b008293.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008293 M.-P. Grosset and A. P. Veselov, <a href="http://arXiv.org/abs/math.GM/0503175">Bernoulli numbers and solitons</a>
+%F A008293 a(0, k)=delta(1, k); a(n+1, k)=(k-1)a(n, k-1)+(k+1)a(n, k+1).
+%t A008293 row[n_] := CoefficientList[ D[Tan[x], {x, n}] /. Tan -> Identity /. Sec -> Function[Sqrt[1 + #^2]], x] // DeleteCases[#, 0]&; Table[row[n], {n, 0, 10}] // Flatten // Prepend[#, 1] & (* _Jean-François Alcover_, Apr 05 2013 *)
+%Y A008293 Cf. A008294. Other versions of same triangle: A101343, A155100.
+%K A008293 nonn,tabl,easy,nice
+%O A008293 0,5
+%A A008293 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

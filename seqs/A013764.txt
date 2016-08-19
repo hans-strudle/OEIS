@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013764
+Showing 1-1 of 1
+
+%I A013764
+%S A013764 19,130321,893871739,6131066257801,42052983462257059,
+%T A013764 288441413567621167681,1978419655660313589123979,
+%U A013764 13569980418174090907801371961,93076495688256089536609610280499
+%N A013764 19^(3n+1).
+%H A013764 Vincenzo Librandi, <a href="/A013764/b013764.txt">Table of n, a(n) for n = 0..90</a>
+%H A013764 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013764 a(n) = 6859*a(n-1), a(0)= 19. // Vincenzo Librandi, May 24 2011
+%o A013764 (MAGMA) [19^(3*n+1): n in [0..15]]; // Vincenzo Librandi, May 24 2011
+%K A013764 nonn
+%O A013764 0,1
+%A A013764 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

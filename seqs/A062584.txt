@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062584
+Showing 1-1 of 1
+
+%I A062584
+%S A062584 101,11,2,3,41,5,61,7,83,19,101,11,127,13,149,151,163,17,181,19,1201,
+%T A062584 211,223,23,241,251,263,127,281,29,307,31,1321,233,347,353,367,37,383,
+%U A062584 139,401,41,421,43,443,457,461,47,487,149,503,151,521,53,541,557,563
+%N A062584 First occurrence of n in the decimal representation of primes.
+%H A062584 Reinhard Zumkeller, <a href="/A062584/b062584.txt">Table of n, a(n) for n = 0..10000</a>
+%e A062584 0 first occurs in 101. 14 first occurs as a substring in 149.
+%t A062584 Do[k = 1; While[ StringPosition[ ToString[Prime[k]], ToString[n]] == {}, k++ ]; Print[ Prime[k]], {n, 0, 62} ]
+%o A062584 (Haskell)
+%o A062584 import Data.List (isInfixOf)
+%o A062584 a062584 n = head [p | p <- a000040_list, show n `isInfixOf` show p]
+%o A062584 -- _Reinhard Zumkeller_, Dec 29 2011
+%Y A062584 Cf. A018800, A060386. Similar to but different from A068164. E.g. a(133) = 4133, but A068164(133) = 1033.
+%K A062584 easy,nonn,base,nice
+%O A062584 0,1
+%A A062584 Jason Earls (zevi_35711(AT)yahoo.com), Jul 03 2001
+%E A062584 More terms from _Lior Manor_ Jul 08 2001. Corrected by Larry Reeves (larryr(AT)acm.org), Jul 10 2001. Further correction from _Reinhard Zumkeller_, Oct 14 2001.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

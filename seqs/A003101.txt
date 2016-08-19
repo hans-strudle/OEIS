@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003101
+Showing 1-1 of 1
+
+%I A003101 M2745
+%S A003101 0,1,3,8,22,65,209,732,2780,11377,49863,232768,1151914,6018785,
+%T A003101 33087205,190780212,1150653920,7241710929,47454745803,323154696184,
+%U A003101 2282779990494,16700904488705,126356632390297
+%N A003101 Sum_{k = 1..n} (n-k+1)^k.
+%C A003101 For n > 0: a(n) = sum of row n of triangles A051129 and A247358. - _Reinhard Zumkeller_, Sep 14 2014
+%D A003101 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003101 Charles R Greathouse IV, <a href="/A003101/b003101.txt">Table of n, a(n) for n = 0..598</a>
+%H A003101 R. K. Hoeflin, <a href="http://www.eskimo.com/~miyaguch/mega.html">Mega Test</a> [broken link]
+%F A003101 G.f.: G(0)/x-1/(1-x)/x where G(k) =  1 + x*(2*k*x-1)/((2*k*x+x-1) - x*(2*k*x+x-1)^2/(x*(2*k*x+x-1) + (2*k*x+2*x-1)/G(k+1) )); (recursively defined continued fraction). - _Sergei N. Gladkovskii_, Jan 26 2013
+%e A003101 For n = 3 we get a(3) = 3^1 + 2^2 + 1^3 = 8. For n = 4 we get a(4) = 4^1 + 3^2 + 2^3 + 1^4 = 22.
+%p A003101 A003101 := n->add((n-k+1)^k, k=1..n);
+%p A003101 P:=proc(n) local a,i,k; for i from 0 by 1 to n do k:=i; a:=0; while k>0 do a:=a+k^(i-k+1); k:=k-1; od; print(a); od; end: P(100); - _Paolo P. Lava_, Feb 29 2008
+%p A003101 a:=n->sum((n-j)^j,j=1..n): seq(a(n), n=1..23); - _Zerinvary Lajos_, Jun 07 2008
+%t A003101 Table[Sum[(n-k+1)^k,{k,n}],{n,0,25}] (* _Harvey P. Dale_, Aug 14 2011 *)
+%o A003101 (PARI) a(n)=sum(k=1,n,(n-k+1)^k) \\ _Charles R Greathouse IV_, Oct 31 2011
+%o A003101 (Haskell)
+%o A003101 a003101 n = sum $ zipWith (^) [0 ..] [n + 1, n .. 1]
+%o A003101 -- _Reinhard Zumkeller_, Sep 14 2014
+%Y A003101 a(n) = A026898(n)-1
+%Y A003101 First differences are in A047970.
+%Y A003101 Cf. A062810.
+%Y A003101 Cf. A051129, A247358.
+%K A003101 nonn,easy
+%O A003101 0,3
+%A A003101 _N. J. A. Sloane_, _Henry W. Gould_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

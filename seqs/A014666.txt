@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014666
+Showing 1-1 of 1
+
+%I A014666
+%S A014666 1,2,4,6,10,11,17,21,27,29,39,42,54,58,63,71,87,90,108,114,121,126
+%N A014666 Partial sums of A014665.
+%D A014666 S. W. Golomb, personal communication, Svalbard, Norway, 7/97.
+%F A014666 For n>1: # of positive integers u <= n(n-1) such that p^H_p(u)<=n for all p<=u, where H_p(u) = highest power of p dividing u.
+%K A014666 nonn
+%O A014666 1,2
+%A A014666 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

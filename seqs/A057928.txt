@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057928
+Showing 1-1 of 1
+
+%I A057928
+%S A057928 0,1,2,3,6,9,15,27,36,51,87,135,243,315,531,735
+%V A057928 0,-1,2,3,6,9,15,27,36,51,87,135,243,315,531,735
+%N A057928 Position at which 2^n occurs in A057926, or -1 if it does not occur.
+%Y A057928 Cf. A057926, A057927.
+%K A057928 easy,sign
+%O A057928 0,3
+%A A057928 Larry Reeves (larryr(AT)acm.org), Oct 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

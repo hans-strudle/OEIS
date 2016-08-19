@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050279
+Showing 1-1 of 1
+
+%I A050279
+%S A050279 32,307,601,13390,17534,1699927,3794572,172330850,2542542102,
+%T A050279 8324296435
+%N A050279 a(n) is the starting position of the first occurrence of a string of exactly n 0's in the decimal expansion of Pi.
+%D A050279 Shigeru Kondo, calculation of Pi to 12.8 * 10^9 digits, using the program PiFast of Xavier Gourdon
+%H A050279 David G. Andersen, <a href="http://www.angio.net/pi/piquery">The Pi-Search Page</a>.
+%H A050279 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiDigits.html">Pi Digits</a>
+%Y A050279 Cf. A050279, A035117, A096756, A096757, A096758, A096759, A096760, A096761, A096762, A096763.
+%K A050279 nonn,base,more
+%O A050279 1,1
+%A A050279 _Eric W. Weisstein_
+%E A050279 More terms from Colin B Martin (martinc(AT)ram.net.au), Nov 25 2001
+%E A050279 Edited by _N. J. A. Sloane_ at the suggestion of _M. F. Hasler_, Aug 24 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

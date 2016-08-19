@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007509
+Showing 1-1 of 1
+
+%I A007509 M2061
+%S A007509 1,2,13,76,263,2578,36979,33976,622637,11064338,11757173,255865444,
+%T A007509 1346255081,3852854518,116752370597,3473755390832,3610501179557,
+%U A007509 3481569435902,133330680156299,129049485078524,5457995496252709
+%N A007509 Numerator of Sum_{k=0..n} (-1)^k/(2*k+1).
+%C A007509 Denominators of convergents to 4/pi.
+%D A007509 P. Beckmann, A History of Pi. Golem Press, Boulder, CO, 2nd ed., 1971, p. 131.
+%D A007509 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007509 Harvey P. Dale, <a href="/A007509/b007509.txt">Table of n, a(n) for n = 0..1000</a>
+%H A007509 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Pi.html">Pi</a>.
+%H A007509 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiContinuedFraction.html">Pi - Continued Fraction</a>
+%e A007509 [ 1 ], 2/3, 13/15, 76/105, 263/315, 2578/3465, 36979/45045, 33976/45045, 622637/765765,...
+%p A007509 A007509 := n->numer(add((-1)^k/(2*k+1),k=0..n));
+%t A007509 Table[Numerator[FunctionExpand[(Pi + (-1)^n(HarmonicNumber[n/2 + 1/4] - HarmonicNumber[n/2 - 1/4]))/4]], {n, 0, 20}] (* From _Vladimir Reshetnikov_, Jan 18 2011 *)
+%t A007509 Numerator[Table[Sum[(-1)^k/(2k+1),{k,0,n}],{n,0,30}]] (* _Harvey P. Dale_, Oct 22 2011 *)
+%Y A007509 Denominators are A025547.
+%Y A007509 Contribution from _Johannes W. Meijer_, Nov 12 2009: (Start)
+%Y A007509 Cf. A157142 and A166107.
+%Y A007509 Appears in A167576, A167577, A167578, A024199, A167588 and A167589.
+%Y A007509 (End)
+%K A007509 nonn,easy,nice,frac
+%O A007509 0,2
+%A A007509 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

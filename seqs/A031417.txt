@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031417
+Showing 1-1 of 1
+
+%I A031417
+%S A031417 274,370,481,797,953,1069,1249,1313,1378,1381,1514,1657,1658,1733,
+%T A031417 1889,2125,2297,2377,2554,2557,2833,2834,2929,2941,3226,3329,3338,
+%U A031417 3433,3541,3761,3874,3989,4093,4106,4441,4442,4561,4682,4685,4933,4937,5197,5450
+%N A031417 Numbers n such that continued fraction for sqrt(n) has odd period and  a pair of central terms both equal to 4.
+%H A031417 T. D. Noe, <a href="/A031417/b031417.txt">Table of n, a(n) for n = 1..1000</a>
+%e A031417 The simple continued fraction for sqrt(274) = [16; 1, 1, 4, 4, 1, 1, 32, ...] with odd period 7 and central term 4. Another example is sqrt(481) = [21; 1, 13, 1, 1, 1, 4, 4, 1, 1, 1, 13, 1, 42, ...] with odd period 13 and central term 4. - _Michael Somos_, Apr 03 2014
+%t A031417 n = 1; t = {}; While[Length[t] < 50, n++; If[! IntegerQ[Sqrt[n]], c = ContinuedFraction[Sqrt[n]]; len = Length[c[[2]]]; If[OddQ[len] && c[[2, (len + 1)/2]] == 4, AppendTo[t, n]]]]; t (* _T. D. Noe_, Apr 03 2014 *)
+%Y A031417 Cf. A031404-A031423.
+%K A031417 nonn
+%O A031417 1,1
+%A A031417 _David W. Wilson_
+%E A031417 a(1) corrected by _T. D. Noe_, Apr 03 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

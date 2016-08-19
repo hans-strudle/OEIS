@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053198
+Showing 1-1 of 1
+
+%I A053198
+%S A053198 2,4,6,8,20,18,16,42,32,54,110,100,64,156,162,128,272,294,342,256,506,
+%T A053198 500,486,812,930,512,1210,1332,1640,1806,1024,1458,2028,2162,2058,
+%U A053198 2756,2500,3422,3660,2048,4422,4624,4970,5256,6162,4374,6498,6806,7832,4096
+%N A053198 Totients of consecutive pure powers of primes.
+%C A053198 Totients of prime powers are prime powers only for powers of 2.
+%F A053198 a(n)=A000010[A025475(n)]=Phi(p^k)=(p-1)*p^(k-1)
+%e A053198 The 10th pure power of prime (but not a prime) is 81, so a(10)=EulerPh[81]=54
+%Y A053198 A000010, A051593, A001248, A002618, A036689, A053650, A053191, A053192.
+%K A053198 nonn
+%O A053198 1,1
+%A A053198 _Labos Elemer_, Mar 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

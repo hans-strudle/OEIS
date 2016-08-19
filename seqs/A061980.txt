@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061980
+Showing 1-1 of 1
+
+%I A061980
+%S A061980 1,0,3,0,2,9,0,1,8,27,0,0,6,26,81,0,0,4,23,80,243,0,0,3,20,76,242,729,
+%T A061980 0,0,3,17,72,237,728,2187,0,0,1,17,66,232,722,2186,6561,0,0,1,11,66,
+%U A061980 222,716,2179,6560,19683,0,0,1,11,54,222,701,2172,6552,19682,59049,0,0
+%N A061980 Square array read by antidiagonals of T(n,k)=T(n-1,k)+T(n-1,[k/2])+T(n-1,[k/3]) with T(0,0)=1.
+%e A061980 Rows start (1,0,0,0,0,...), (3,2,1,0,0,...), (9,8,6,4,3,...), (27,26,23,20,17,...) etc.
+%Y A061980 Row sums are 6^n: A000400. Columns are A000244, A024023, A060188, A061981, A061982 twice, A061983 twice, etc. Cf. A061290, A061930, A061979, A061984, A061987.
+%K A061980 nonn,tabl
+%O A061980 0,3
+%A A061980 _Henry Bottomley_, May 24 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

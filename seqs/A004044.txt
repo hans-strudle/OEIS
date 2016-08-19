@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004044
+Showing 1-1 of 1
+
+%I A004044
+%S A004044 1,3,5,9,27
+%N A004044 Size of minimal covering code in {Z_3}^n with covering radius 1 (the next 3 terms are in the ranges 71-73, 156-186, 402-486).
+%C A004044 Because each codeword covers 2n+1 of the 3^n words, ceil(3^n/(2n+1)) is a lower bound. - _Rob Pratt_, Jan 06 2015
+%D A004044 G. D. Cohen et al., Covering Codes, North-Holland, 1997, p. 174.
+%H A004044 H. Hamalainen et al., <a href="http://www.jstor.org/stable/2974552">Football pools - a game for mathematicians</a>, Amer. Math. Monthly, 102 (1995), 579-588.
+%H A004044 G. Keri, <a href="http://www.sztaki.hu/~keri/codes">Tables for Bounds on Covering Codes</a>
+%H A004044 <a href="/index/Coa#covcod">Index entries for sequences related to covering codes</a>
+%Y A004044 A column of A060439.
+%K A004044 nonn,hard
+%O A004044 1,2
+%A A004044 _N. J. A. Sloane_.
+%E A004044 Bounds corrected and corresponding reference added by Jan Kristian Haugland (admin(AT)neutreeko.net), Mar 10 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

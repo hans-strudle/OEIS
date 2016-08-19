@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028343
+Showing 1-1 of 1
+
+%I A028343
+%S A028343 1,1,1,1,1,41,131,1499,4159,10639,100871,4142249,111459041,
+%T A028343 1127459321,1797229589,185028952109,706529394689,29136228245279,
+%U A028343 547852336663409,7139784702100049,195178627579232449
+%V A028343 1,-1,-1,1,-1,41,-131,1499,-4159,10639,100871,4142249,-111459041,
+%W A028343 1127459321,1797229589,-185028952109,706529394689,29136228245279,
+%X A028343 -547852336663409,7139784702100049,-195178627579232449
+%N A028343 Expansion of prod( (1-x^i)^(1/i), i = 1..infinity); also of exp(- sum( d(n)*x^n /n, n = 1..infinity)) where d is number of divisors function.
+%K A028343 sign
+%O A028343 0,6
+%A A028343 _Jeffrey Shallit_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

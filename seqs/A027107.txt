@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027107
+Showing 1-1 of 1
+
+%I A027107
+%S A027107 1,6,20,62,188,566,1700,5102,15308,45926,137780,413342,1240028,
+%T A027107 3720086,11160260,33480782,100442348,301327046,903981140,2711943422,
+%U A027107 8135830268,24407490806,73222472420,219667417262,659002251788
+%N A027107 a(n) = Sum{(k+1)*T(n,2n-k)}, 0<=k<=2n, T given by A027082.
+%H A027107 Vincenzo Librandi, <a href="/A027107/b027107.txt">Table of n, a(n) for n = 0..1000</a>
+%F A027107 For n>0, a(n) = 7*3^(n-1) - 1.
+%F A027107 G.f.: (1+2*x-x^2)/(1-4*x+3*x^2). [_Bruno Berselli_, Mar 25 2013]
+%t A027107 Join[{1}, Table[7 3^(n-1) - 1, {n, 30}]] (* _Vincenzo Librandi_, Mar 24 2013 *)
+%o A027107 (MAGMA) [1] cat [7*3^n-1: n in [0..30]]; // _Vincenzo Librandi_, Mar 24 2013
+%K A027107 nonn,easy
+%O A027107 0,2
+%A A027107 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

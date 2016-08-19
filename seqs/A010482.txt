@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010482
+Showing 1-1 of 1
+
+%I A010482
+%S A010482 5,1,9,6,1,5,2,4,2,2,7,0,6,6,3,1,8,8,0,5,8,2,3,3,9,0,2,4,5,1,7,6,1,7,
+%T A010482 1,0,0,8,2,8,4,1,5,7,6,1,4,3,1,1,4,1,8,8,4,1,6,7,4,2,0,9,3,8,3,5,5,7,
+%U A010482 9,9,0,5,0,7,2,6,4,0,0,1,1,1,2,4,3,4,3,8,5,6,0,2,7,1,7,4,5,7,2
+%N A010482 Decimal expansion of square root of 27.
+%C A010482 Continued fraction expansion is 5 followed by {5, 10} repeated. - _Harry J. Smith_, Jun 04 2009
+%C A010482 6 + sqrt(27) represents the surface of a dodecahedron of side equal to one. S = 3*a^2(2 + sqrt(3)) with a = 1. - _Vincenzo Librandi_, Jul 10 2010
+%H A010482 Harry J. Smith, <a href="/A010482/b010482.txt">Table of n, a(n) for n = 1..20000</a>
+%e A010482 5.196152422706631880582339024517617100828415761431141884167420938355799... - _Harry J. Smith_, Jun 04 2009
+%t A010482 RealDigits[N[Sqrt[27], 200]][[1]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 22 2011 *)
+%o A010482 (PARI) { default(realprecision, 20080); x=sqrt(27); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b010482.txt", n, " ", d)); } \\ _Harry J. Smith_, Jun 04 2009
+%Y A010482 Cf. A040021 Continued fraction. - _Harry J. Smith_, Jun 04 2009
+%K A010482 nonn,cons,easy
+%O A010482 1,1
+%A A010482 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

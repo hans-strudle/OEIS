@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062518
+Showing 1-1 of 1
+
+%I A062518
+%S A062518 0,168,106,84,65,64,61,56,53,0,41,51,37,34,34,42,27,25,44,168,29,24,
+%T A062518 50,23,29,31,28,28,45,106,28,18,24,34,18,32,25,17,41,84,23,19,20,29,
+%U A062518 39,32,15,29,16,65,29,29,30,18,17,33,19,31,27,64,26,19,24,28,17,15,21,25,13
+%N A062518 Conjectural largest exponent k such that n^k does not possess all of the digits 0 through 9 (in decimal notation) or 0 if no such k exists (if n is a power of 10).
+%C A062518 I do not know how many of these terms have been proved to be correct - _N. J. A. Sloane_.
+%C A062518 In particular, are the powers of 10 the only n with a(n) = 0?
+%C A062518 Note that a(10n) = a(n) unless n^a(n) contains no 0 (i.e. a(n) = A020665(n)), in which case a(10n) < a(n). - _Christopher J. Smyth_, Aug 20 2014
+%e A062518 a(11) = 41 as 11^41 = 4978518112499354698647829163838661251242411 is the conjectural highest power of 11 not containing all ten digits.
+%e A062518 a(110) = 38 as 110^38 does not contain the digit 2, while, conjecturally, all higher powers of 110 contain all ten digits. - _Christopher J. Smyth_, Aug 20 2014
+%t A062518 Do[ If[ IntegerQ[ Log[10, n] ], Print[0], Print[ Select[ Range[25000], Union[ IntegerDigits[n^# ] ] != {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} &] [[ -1]] ] ], {n, 1, 100} ]
+%Y A062518 Cf. A090493, A020665.
+%K A062518 base,nonn
+%O A062518 1,2
+%A A062518 _Robert G. Wilson v_, Jun 24 2001
+%E A062518 Definition corrected by _Christopher J. Smyth_, Aug 20 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

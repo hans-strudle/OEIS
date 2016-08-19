@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011989
+Showing 1-1 of 1
+
+%I A011989
+%S A011989 1,6,8,16,26
+%N A011989 Covering numbers C(n,8,5) (next term is <= 43).
+%D A011989 CRC Handbook of Combinatorial Designs, 1996, p. 263.
+%H A011989 D. Gordon, <a href="http://www.ccrwest.org/cover.html">La Jolla Repository of Coverings</a>
+%H A011989 <a href="/index/Cor#covnum">Index entries for covering numbers</a>
+%K A011989 nonn,hard
+%O A011989 8,2
+%A A011989 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

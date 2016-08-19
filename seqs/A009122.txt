@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009122
+Showing 1-1 of 1
+
+%I A009122
+%S A009122 1,0,1,6,41,335,3229,36036,457932,6534384,103499016,1802302128,
+%T A009122 34227784920,704076488232,15595687319640,370108332316992,
+%U A009122 9368461983616128,251958336139856448,7174771808983995456
+%V A009122 1,0,1,-6,41,-335,3229,-36036,457932,-6534384,103499016,-1802302128,
+%W A009122 34227784920,-704076488232,15595687319640,-370108332316992,
+%X A009122 9368461983616128,-251958336139856448,7174771808983995456
+%N A009122 Expansion of cosh(log(1+log(1+x))).
+%F A009122 a(n) ~ n! * (-1)^n * exp(n) / (2 * (exp(1)-1)^(n+1)). - _Vaclav Kotesovec_, Jan 22 2015
+%t A009122 Cosh[ Log[ 1+Log[ 1+x ] ] ]
+%t A009122 CoefficientList[Series[(1 + (1 + Log[1 + x])^2)/(2*(1 + Log[1 + x])), {x, 0, 20}], x] * Range[0, 20]! (* _Vaclav Kotesovec_, Jan 22 2015 *)
+%Y A009122 Twice the absolute values are in A052864.
+%K A009122 sign,easy
+%O A009122 0,4
+%A A009122 _R. H. Hardin_
+%E A009122 Extended with signs by _Olivier Gérard_, Mar 15 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

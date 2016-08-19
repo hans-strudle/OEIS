@@ -1,0 +1,94 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033282
+Showing 1-1 of 1
+
+%I A033282
+%S A033282 1,1,2,1,5,5,1,9,21,14,1,14,56,84,42,1,20,120,300,330,132,1,27,225,
+%T A033282 825,1485,1287,429,1,35,385,1925,5005,7007,5005,1430,1,44,616,4004,
+%U A033282 14014,28028,32032,19448,4862,1,54,936,7644,34398,91728,148512
+%N A033282 Triangle read by rows: T(n,k) is the number of diagonal dissections of a convex n-gon into k+1 regions.
+%C A033282 T(n+3,k) is also the number of compatible k-sets of cluster variables in Fomin and Zelevinsky's cluster algebra of finite type A_n. Take a row of this triangle regarded as a polynomial in x and rewrite as a polynomial in y := x+1. The coefficients of the polynomial in y give a row of the triangle of Narayana numbers A001263. For example, x^2 + 5*x + 5 = y^2 + 3*y + 1. - _Paul Boddington_, Mar 07 2003
+%C A033282 Number of standard Young tableaux of shape (k+1,k+1,1^(n-k-3)), where 1^(n-k-3) denotes a sequence of n-k-3 1's (see the Stanley reference).
+%C A033282 Number of k dimensional 'faces' of the n dimensional associahedron (see Simion, p. 168). - _Mitch Harris_, Jan 16 2007
+%C A033282 Mirror image of triangle A126216 . - _Philippe Deléham_, Oct 19 2007
+%C A033282 For relation to Lagrange inversion or series reversion and the geometry of associahedra or Stasheff polytopes (and other combinatorial objects) see A133437. - _Tom Copeland_, Sep 29 2008
+%C A033282 Row generating polynomials 1/(n+1)*Jacobi_P(n,1,1,2*x+1). Row n of this triangle is the f-vector of the simplicial complex dual to an associahedron of type A_n [Fomin & Reading, p.60]. See A001263 for the corresponding array of h-vectors for associahedra of type A_n. See A063007 and A080721 for the f-vectors for associahedra of type B and type D respectively. - _Peter Bala_, Oct 28 2008
+%C A033282 f-vectors of secondary polytopes for Grobner bases for optimization and integer programming (see De Loera et al. and Thomas). - _Tom Copeland_, Oct 11 2011
+%C A033282 From Devadoss and O'Rourke's book: The Fulton-MacPherson compactification of the configuration space of n free particles on a line segment with a fixed particle at each end is the n-Dim Stasheff associahedron whose refined f-vector is given in A133437 which reduces to A033282. - _Tom Copeland_, Nov 29 2011
+%C A033282 Diagonals of A132081 are rows of A033282. - _Tom Copeland_, May 08 2012
+%D A033282 S. Devadoss and J. O'Rourke, Discrete and Computational Geometry, Princeton Univ. Press, 2011 (See pg. 241)
+%D A033282 T. K. Petersen, Eulerian Numbers, Birkhauser, 2015, Section 5.8.
+%H A033282 Vincenzo Librandi, <a href="/A033282/b033282.txt">Table of n, a(n) for n = 3..2000</a>
+%H A033282 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL9/Barry/barry91.html">On Integer-Sequence-Based Constructions of Generalized Pascal Triangles</a>, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.4. [From _Tom Copeland_, Nov 03 2008]
+%H A033282 Paul Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Barry3/barry252.html">On the Inverses of a Family of Pascal-Like Matrices Defined by Riordan Arrays</a>, Journal of Integer Sequences, 16 (2013), #13.5.6.
+%H A033282 D. Beckwith, <a href="http://www.jstor.org/stable/2589081">Legendre polynomials and polygon dissections?</a>, Amer. Math. Monthly, 105 (1998), 256-257.
+%H A033282 W. Butler, A. Kalotay and N. J. A. Sloane, <a href="/A000108/a000108_3.pdf">Correspondence, 1974</a>
+%H A033282 A. Cayley, <a href="http://plms.oxfordjournals.org/content/s1-22/1/237.extract">On the partitions of a polygon</a>, Proc. London Math. Soc., 22 (1891), 237-262 = Collected Mathematical Papers. Vols. 1-13, Cambridge Univ. Press, London, 1889-1897, Vol. 13, pp. 93ff. (See p. 239.)
+%H A033282 F. Chapoton, <a href="http://www.mat.univie.ac.at/~slc/opapers/s51chapoton.html">Enumerative properties of generalized associahedra</a>
+%H A033282 J. Cigler, <a href="http://homepage.univie.ac.at/johann.cigler/preprints/lattice-paths.pdf">Some remarks on lattice paths in strips along the x-axis</a>, 2014.
+%H A033282 J. De Loera, J. Rambau, and F. Leal, <a href="http://personales.unican.es/santosf/MSRI03/chapter1.pdf">Triangulations of Point Sets</a> [From Tom Copeland Oct 11 2011]
+%H A033282 S. Devadoss, <a href="http://www.ams.org/notices/200406/fea-devadoss.pdf">Combinatorial Equivalence of Real Moduli Spaces</a> [From Tom Copeland Nov 29 2011]
+%H A033282 A. Dochtermann, <a href="http://arxiv.org/abs/1503.06243">Face rings of cycles, associahedra, and standard Young tableaux</a>, arXiv preprint arXiv:1503.06243 [math.CO], 2015.
+%H A033282 Brian Drake, Ira M. Gessel, and Guoce Xin, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL10/Gessel/gessel20.html">Three Proofs and a Generalization of the Goulden-Litsyn-Shevelev Conjecture on a Sequence Arising in Algebraic Geometry,</a> J. of Integer Sequences, Vol. 10 (2007), Article 07.3.7
+%H A033282 P. Flajolet and M. Noy, <a href="http://dx.doi.org/10.1016/S0012-365X(98)00372-0">Analytic Combinatorics of Non-crossing Configurations</a>, Discrete Math., 204, 1999, 203-229.
+%H A033282 S. Fomin and N. Reading, <a href="http://arxiv.org/abs/math.CO/0505518">Root systems and generalized associahedra</a>, Lecture notes for IAS/Park-City 2004, arXiv:math/0505518 [math.CO], 2005-2008. [From _Peter Bala_, Oct 28 2008]
+%H A033282 S. Fomin and A. Zelevinsky, <a href="http://arXiv.org/abs/math/0104151">Cluster algebras I: Foundations</a>, arXiv:math/0104151 [math.RT], 2001.
+%H A033282 S. Fomin and A. Zelevinsky, <a href="http://dx.doi.org/10.1090/S0894-0347-01-00385-X">Cluster algebras I: Foundations</a>, J. Amer. Math. Soc. 15 (2002) no.2, 497-529.
+%H A033282 S. Fomin and A. Zelevinsky, <a href="http://www.jstor.org/stable/3597238">Y-systems and generalized associahedra</a>, Ann. of Math. (2) 158 (2003), no. 3, 977-1018.
+%H A033282 G. Kreweras, <a href="http://dx.doi.org/10.1016/0012-365X(72)90041-6">Sur les partitions non croisees d'un cycle</a>, (French) Discrete Math. 1 (1972), no. 4, 333--350. MR0309747 (46 #8852).
+%H A033282 G. Kreweras, <a href="http://www.numdam.org/item?id=BURO_1973__20__3_0">Sur les hiérarchies de segments</a>, Cahiers Bureau Universitaire Recherche Opérationnelle, Cahier 20, Inst. Statistiques, Univ. Paris, 1973.
+%H A033282 G. Kreweras, <a href="http://archive.numdam.org/article/MSH_1976__53__5_0.pdf">Les préordres totaux compatibles avec un ordre partiel</a>, Math. Sci. Humaines No. 53 (1976), 5-30.
+%H A033282 T. Manneville, V. Pilaud, <a href="http://arxiv.org/abs/1501.07152">Compatibility fans for graphical nested complexes</a>, arXiv preprint arXiv:1501.07152 [math.CO], 2015.
+%H A033282 J.-C. Novelli, J.-Y. Thibon, <a href="http://arxiv.org/abs/1403.5962">Hopf Algebras of m-permutations,(m+1)-ary trees, and m-parking functions</a>, arXiv preprint arXiv:1403.5962 [math.CO], 2014.
+%H A033282 Vincent Pilaud, <a href="http://arxiv.org/abs/1505.07665">Brick polytopes, lattice quotients, and Hopf algebras</a>, arXiv preprint arXiv:1505.07665 [math.CO], 2015.
+%H A033282 R. C. Read, <a href="http://dx.doi.org/10.1007/BF03031688">On general dissections of a polygon</a>, Aequat. Math. 18 (1978), 370-388.
+%H A033282 R. Simion, <a href="http://dx.doi.org/10.1006/aama.1996.0505">Convex Polytopes and Enumeration</a>, Adv. in Appl. Math. 18 (1997) pp. 149-180.
+%H A033282 R. P. Stanley, <a href="http://dx.doi.org/10.1006/jcta.1996.0099">Polygon dissections and standard Young tableaux</a>, J. Comb. Theory, Ser. A, 76, 175-177, 1996.
+%H A033282 R. Thomas, <a href="http://www.cis.upenn.edu/~cis610/ThomasLGC.pdf">Lectures in Geometric Combinatorics</a> [From Tom Copeland Oct 11 2011]
+%F A033282 G.f. G=G(t, z) satisfies (1+t)*G^2 - z*(1-z-2*t*z)*G + t*z^4 = 0.
+%F A033282 T(n, k) = binomial(n-3, k)*binomial(n+k-1, k)/(k+1) for n >= 3, 0 <= k <= n-3.
+%F A033282 From _Tom Copeland_, Nov 03 2008: (Start)
+%F A033282 Two g.f.s (f1 and f2) for A033282 and their inverses (x1 and x2) can be derived from the Drake and Barry references.
+%F A033282 1. a: f1(x,t) = y = {1 - (2t+1) x - sqrt[1 - (2t+1) 2x + x^2]}/[2x (t+1)]
+%F A033282 = t x + (t + 2 t^2) x^2 + (t + 5 t^2 + 5 t^3) x^3 + ...
+%F A033282 b: x1 = y/[t + (2t+1)y + (t+1)y^2] = y {1/[t/(t+1) + y] - 1/(1+y)}
+%F A033282 = (y/t) - (1+2t)(y/t)^2 + (1+ 3t + 3t^2)(y/t)^3 +...
+%F A033282 2. a: f2(x,t) = y = {1 - x - sqrt[(1-x)^2 - 4xt]}/[2(t+1)]
+%F A033282 = (t/(t+1)) x + t x^2 + (t + 2 t^2) x^3 + (t + 5 t^2 + 5 t^3) x^4 + ...
+%F A033282 b: x2 = y(t+1) [1- y(t+1)]/[t + y(t+1)]
+%F A033282 = (t+1) (y/t) - (t+1)^3 (y/t)^2 + (t+1)^4 (y/t)^3 + ...
+%F A033282 c: y/x2(y,t) = [t/(t+1) + y] / [1- y(t+1)]
+%F A033282 = t/(t+1) + (1+t) y + (1+t)^2 y^2 + (1+t)^3 y^3 + ...
+%F A033282 x2(y,t) can be used along with the Lagrange inversion for an o.g.f. (A133437)
+%F A033282 to generate A033282 and show that A133437 is a refinement of A033282,
+%F A033282 i.e., a refinement of the f-polynomials of the associahedra, the Stasheff polytopes.
+%F A033282 y/x2(y,t) can be used along with the indirect Lagrange inversion (A134264)
+%F A033282 to generate A033282 and show that A134264 is a refinement of A001263, i.e.,
+%F A033282 a refinement of the h-polynomials of the associahedra.
+%F A033282 f1[x,t](t+1) gives a generator for A088617.
+%F A033282 f1[xt,1/t](t+1) gives a generator for A060693, with inverse y/[1 + t + (2+t) y + y^2].
+%F A033282 f1[x(t-1),1/(t-1)]t gives a generator for A001263, with inverse y/[t + (1+t) y + y^2].
+%F A033282 The unsigned coefficients of x1(y t,t) are A074909, reverse rows of A135278. (End)
+%F A033282 G.f.: 1/(1-x*y-(x+x*y)/(1-x*y/(1-(x+x*y)/(1-x*y/(1-(x+x*y)/(1-x*y/(1-.... (continued fraction). - _Paul Barry_, Feb 06 2009
+%F A033282 Let h(t) = (1-t)^2/(1+(u-1)*(1-t)^2) = 1/(u + 2*t + 3*t^2 + 4*t^3 + ...), then a signed (n-1)-th row polynomial of A033282 is given by u^(2n-1)*(1/n!)*((h(t)*d/dt)^n) t, evaluated at t=0, with initial n=2. The power series expansion of h(t) is related to A181289 (cf. A086810). - _Tom Copeland_, Sep 06 2011
+%e A033282 Triangle begins:
+%e A033282 1;
+%e A033282 1,2;
+%e A033282 1,5,5;
+%e A033282 1,9,21,14;
+%e A033282 1,14,56,84,42;
+%t A033282 t[n_, k_] = Binomial[n-3, k]*Binomial[n+k-1, k]/(k+1);
+%t A033282 Flatten[Table[t[n, k], {n, 3, 12}, {k, 0, n-3}]][[1 ;; 52]] (* _Jean-François Alcover_, Jun 16 2011 *)
+%Y A033282 Cf. diagonals: A000012, A000096, A033275, A033276, A033277, A033278, A033279; A000108, A002054, A002055, A002056, A007160, A033280, A033281; row sums: A001003 (Schroeder numbers, first term omitted). See A086810 for another version.
+%Y A033282 A007160 is a diagonal. Cf. A001263.
+%Y A033282 With leading zero: A086810.
+%Y A033282 Cf. A019538 'faces' of the permutohedron.
+%Y A033282 Cf. A063007 (f-vectors type B associahedra), A080721 (f-vectors type D associahedra), A126216 (mirror image). - _Peter Bala_, Oct 28 2008
+%Y A033282 Cf. A248727 for a relation to f-polynomials of simplices.
+%K A033282 nonn,tabl,easy
+%O A033282 3,3
+%A A033282 _N. J. A. Sloane_
+%E A033282 Missing factor of 2 for expansions of f1 and f2 added by _Tom Copeland_, Apr 12 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

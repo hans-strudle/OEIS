@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025984
+Showing 1-1 of 1
+
+%I A025984
+%S A025984 1,28,524,8288,119952,1646400,21834688,282827776,3602179328,
+%T A025984 45309135872,564541565952,6982826532864,85877229359104,
+%U A025984 1051359996166144,12824652929417216,155979167054692352
+%N A025984 Expansion of 1/((1-2x)(1-4x)(1-10x)(1-12x)).
+%F A025984 a(n) = -2^n/20 +2*4^n/3 -125*10^n/12 +54*12^n/5. _R. J. Mathar_, Jun 20 2013
+%K A025984 nonn
+%O A025984 0,2
+%A A025984 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

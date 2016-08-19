@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056128
+Showing 1-1 of 1
+
+%I A056128
+%S A056128 1,20,174,988,4277,15288,47320,130832,330174,772616,1696396,3527160,
+%T A056128 6995534,13312768,24426552,43385360,74847175,125777340,206390730,
+%U A056128 331405620,521690715,806403000,1225732560,1834391520,2706007980,3938612496,5661434520,8043259504
+%N A056128 A second-order recursive sequence.
+%H A056128 T. D. Noe, <a href="/A056128/b056128.txt">Table of n, a(n) for n = 0..1000</a>
+%H A056128 <a href="/index/Rec#order_12">Index entries for linear recurrences with constant coefficients</a>, signature (12,-66,220,-495,792,-924,792,-495,220,-66,12,-1).
+%F A056128 a(n) = (9n+11)*C(n+10, 10)/11.
+%F A056128 G.f.: (1+8x)/(1-x)^12.
+%t A056128 CoefficientList[Series[(1 + 8 x)/(1 - x)^12, {x, 0, 40}], x] (* _Vincenzo Librandi_, Jul 30 2014 *)
+%t A056128 LinearRecurrence[{12,-66,220,-495,792,-924,792,-495,220,-66,12,-1},{1,20,174,988,4277,15288,47320,130832,330174,772616,1696396,3527160},40] (* _Harvey P. Dale_, Jan 14 2015 *)
+%o A056128 (MAGMA) [((9*n+11)*Binomial(n+10,10))/11: n in [0..40]]; // _Vincenzo Librandi_, Jul 30 2014
+%Y A056128 Cf. A056003.
+%K A056128 easy,nonn
+%O A056128 0,2
+%A A056128 _Barry E. Williams_, Jul 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

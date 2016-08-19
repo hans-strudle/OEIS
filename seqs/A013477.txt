@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013477
+Showing 1-1 of 1
+
+%I A013477
+%S A013477 238,473762,4544139598,133366253033282,9357776691549409198,
+%T A013477 1341930712996828590536162
+%V A013477 238,-473762,4544139598,-133366253033282,9357776691549409198,
+%W A013477 -1341930712996828590536162
+%N A013477 tanh(cos(x)-cosh(x))=238/6!*x^6-473762/10!*x^10+4544139598/14!*x^14...
+%K A013477 sign
+%O A013477 0,1
+%A A013477 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

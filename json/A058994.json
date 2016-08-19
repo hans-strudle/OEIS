@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,12,24,225,392,819,1201,1645,1775","description":"Numbers n such that 7^n reversed is prime.","mathematica":"Do[ If[ PrimeQ[ ToExpression[ StringReverse[ ToString[7^n] ] ] ], Print[n] ], {n, 1, 2500} ]","crossrefs":["Cf. A057708."],"keyword":"nonn,base","offset":"1,2","author":"_Robert G. Wilson v_, Jan 17 2001"}

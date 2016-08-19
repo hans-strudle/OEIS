@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008535
+Showing 1-1 of 1
+
+%I A008535
+%S A008535 1,16,128,688,2746,8752,23536,55568,118498,232976,428752,747056,
+%T A008535 1243258,1989808,3079456,4628752,6781826,9714448,13638368,18805936,
+%U A008535 25515002,34114096,45007888,58662928,75613666,96468752,121917616,152737328,189799738,234078896
+%N A008535 Coordination sequence for {A_7}* lattice.
+%H A008535 Colin Barker, <a href="/A008535/b008535.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008535 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/As7.html">Home page for this lattice</a>
+%H A008535 M. O'Keeffe, <a href="http://dx.doi.org/10.1524/zkri.1995.210.12.905">Coordination sequences for lattices</a>, Zeit. f. Krist., 210 (1995), 905-908.
+%H A008535 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A008535 G.f.: -(x+1)*(x^6+8*x^5+29*x^4+64*x^3+29*x^2+8*x+1) / (x-1)^7. - _Colin Barker_, Mar 03 2015
+%p A008535 [ seq( (7*k^6+70*k^4+175*k^2+36)/18, k=0..40) ];
+%o A008535 (PARI) Vec(-(x+1)*(x^6+8*x^5+29*x^4+64*x^3+29*x^2+8*x+1) / (x-1)^7 + O(x^100)) \\ _Colin Barker_, Mar 03 2015
+%K A008535 nonn,easy
+%O A008535 0,2
+%A A008535 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

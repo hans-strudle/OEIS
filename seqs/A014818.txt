@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014818
+Showing 1-1 of 1
+
+%I A014818
+%S A014818 1,4,11,24,43,71,109,160,222,298,391,502,631,781,953,1150,1369,1617,
+%T A014818 1891,2196,2531,2899,3301,3740,4215,4726,5283,5874,6511,7193,7921,
+%U A014818 8700,9521,10396,11323,12306,13339
+%N A014818 a(n) is the sum over all floor(k^3/n), k=0 to n inclusive.
+%D A014818 M. Eichler and D. Zagier, The Theory of Jacobi Forms, Birkhauser, 1985, p. 103.
+%p A014818 f := m->sum( floor(k^3 / m), k=0..m);
+%K A014818 nonn
+%O A014818 1,2
+%A A014818 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

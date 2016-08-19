@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032861
+Showing 1-1 of 1
+
+%I A032861
+%S A032861 1,2,3,4,5,6,12,13,18,19,20,24,25,26,27,30,31,32,33,34,37,38,39,40,41,
+%T A032861 73,74,75,76,77,80,81,82,83,109,110,111,112,113,116,117,118,119,123,
+%U A032861 124,125,145,146,147,148,149,152,153,154,155
+%N A032861 Numbers n such that base 6 representation Sum{d(i)*6^i: i=0,1,...,m) has d(m)>d(m-1)<d(m-2)>...
+%K A032861 nonn,base
+%O A032861 1,2
+%A A032861 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

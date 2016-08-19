@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036951
+Showing 1-1 of 1
+
+%I A036951
+%S A036951 0,89,0,8999,89899,888989,8888989,88888999,888898889,8888888989,
+%T A036951 88888888999,888888898999,8888888999899,88888888888889,
+%U A036951 888888888898999,8888888888989999,88888888888888889,888888888888898889
+%N A036951 Smallest n-digit prime containing only digits 8 and 9, or 0 if no such prime exists.
+%Y A036951 Cf. A036229, A020472, A036325.
+%K A036951 nonn,base
+%O A036951 1,2
+%A A036951 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

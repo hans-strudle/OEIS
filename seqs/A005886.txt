@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005886
+Showing 1-1 of 1
+
+%I A005886 M3429
+%S A005886 4,12,12,16,24,12,24,36,12,28,36,24,36,36,24,24,60,36,28,48,12,60,60,
+%T A005886 24,48,48,36,48,60,24,52,84,48,24,60,36,48,96,36,72,48,36,72,60,48,52,
+%U A005886 96,36,60,96
+%N A005886 Theta series of f.c.c. lattice with respect to tetrahedral hole.
+%D A005886 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005886 N. J. A. Sloane and B. K. Teo, Theta series and magic numbers for close-packed spherical clusters, J. Chem. Phys. 83 (1985) 6520-6534.
+%H A005886 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/D3.html">Home page for this lattice</a>
+%H A005886 <a href="/index/Fa#fcc">Index entries for sequences related to f.c.c. lattice</a>
+%F A005886 a(n) = 1/2 * A005878(n) = 2 * A005869(n) = 4 * A008443(n). - _Michael Somos_, May 31 2012
+%e A005886 4 + 12*x + 12*x^2 + 16*x^3 + 24*x^4 + 12*x^5 + 24*x^6 + 36*x^7 + 12*x^8 + ...
+%Y A005886 Cf. A005869, A005878, A008443. Partial sums is A121054.
+%K A005886 nonn,easy
+%O A005886 0,1
+%A A005886 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051896
+Showing 1-1 of 1
+
+%I A051896
+%S A051896 2,3,5,6,9,55,66,77,88,161,191,313,484,494,525,747,3223,3993,11711,
+%T A051896 13431,13731,18881,19691,21012,21112,22422,24242,34443,35353,41114,
+%U A051896 44244,44844,46664,52225,52925,53935,58385,59895,60806,64146,71917
+%N A051896 a(n) = smallest palindrome > a(n-1) such that a(1)*a(2)*...*a(n) + 1 is prime.
+%Y A051896 Cf. A046966, A051934.
+%K A051896 easy,nice,nonn,base
+%O A051896 1,1
+%A A051896 _Felice Russo_, Dec 21 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

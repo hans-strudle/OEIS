@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053770
+Showing 1-1 of 1
+
+%I A053770
+%S A053770 1,1,1,1345,666625,223985665,65019838465,105072058957825,
+%T A053770 11436238073940148225,997931868985434228916225,
+%U A053770 74706800043914446529756135425,5321514758546715999509008953114625
+%N A053770 Number of n X n binary matrices of order dividing 5 (i.e. number of solutions of X^5=I in GL(n,2)).
+%D A053770 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053770 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053770 Cf. A053722, A053725, A053718.
+%K A053770 nonn
+%O A053770 1,4
+%A A053770 _Vladeta Jovovic_, Mar 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

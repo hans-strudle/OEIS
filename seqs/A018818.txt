@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018818
+Showing 1-1 of 1
+
+%I A018818
+%S A018818 1,2,2,4,2,8,2,10,5,11,2,45,2,14,14,36,2,81,2,92,18,20,2,458,7,23,23,
+%T A018818 156,2,742,2,202,26,29,26,2234,2,32,30,1370,2,1654,2,337,286,38,2,
+%U A018818 9676,9,407,38,454,2,3132,38,3065,42,47,2,73155,2,50,493,1828,44,5257,2,740,50,5066
+%N A018818 Number of partitions of n into divisors of n.
+%C A018818 Quite trivial, but a(n) = 2 iff n is prime. - _Juhani Heino_, Aug 27 2009
+%C A018818 From _Reinhard Zumkeller_, Dec 11 2009: (Start)
+%C A018818 For odd primes p: a(p^2) = p + 2; for n>1: a(A001248(n))=A052147(n);
+%C A018818 for odd primes p>3: a(3*p) = 2*p + 4; for n>2: a(A001748(n))=A100484(n)+4. (End)
+%D A018818 Douglas Bowman et al., Partitions of n into parts which are divisors of n, American Mathematical Monthly 99:3 (1992), pp. 276-277.
+%H A018818 T. D. Noe and Alois P. Heinz, <a href="/A018818/b018818.txt">Table of n, a(n) for n = 1..10000</a> (the first 1000 terms were computed by T. D. Noe)
+%H A018818 Hansraj Gupta, <a href="http://www.dli.gov.in/rawdataupload/upload/insa/INSA_2/20005a84_1276.pdf">Partitions of n into divisors of m</a>, Indian J. Pure Appl. Math. 6:11 (1975), pp. 1276-1286.
+%F A018818 Coefficient of x^n in expansion of 1/Product_{d divides n} (1-x^d). - _Vladeta Jovovic_, Sep 28 2002
+%F A018818 a(n) = f(n,n,1) with f(n,m,k) = if k<=m then f(n,m,k+1)+f(n,m-k,k)*0^(n mod k) else 0^m. - _Reinhard Zumkeller_, Dec 11 2009
+%F A018818 Paul Erdős, Andrew M. Odlyzko, and the Editors of the AMM give bounds; see Bowman et al. - _Charles R Greathouse IV_, Dec 04 2012
+%t A018818 Table[d = Divisors[n]; Coefficient[Series[1/Product[1 - x^d[[i]], {i, Length[d]}], {x, 0, n}], x, n], {n, 100}] (* _T. D. Noe_, Jul 28 2011 *)
+%o A018818 (Haskell)
+%o A018818 a018818 n = p (init $ a027750_row n) n + 1 where
+%o A018818    p _      0 = 1
+%o A018818    p []     _ = 0
+%o A018818    p ks'@(k:ks) m | m < k     = 0
+%o A018818                   | otherwise = p ks' (m - k) + p ks m
+%o A018818 -- _Reinhard Zumkeller_, Apr 02 2012
+%Y A018818 Cf. A002577, A033630, A171565, A211110, A027750.
+%Y A018818 Cf. A210442.
+%Y A018818 Cf. A225244.
+%K A018818 nonn,nice,look
+%O A018818 1,2
+%A A018818 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

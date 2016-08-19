@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000513
+Showing 1-1 of 1
+
+%I A000513
+%S A000513 0,0,0,1,1,4,16,194,3529,121790,5582612,317579783
+%N A000513 Number of equivalence classes of n X n matrices over {0,1} with rows and columns summing to 4, where equivalence is defined by row and column permutations. Also number of isomorphism classes of bicolored quartic bipartite graphs, where isomorphism cannot exchange the colors.
+%D A000513 A. Al-Azemi, Isomorph-rejection: theory and an application, Kuwait J. Sci., 39 (2A) (2012), 1-14. - From _N. J. A. Sloane_, Mar 01 2013
+%D A000513 A. Burgess, P. Danziger, E. Mendelsohn, B. Stevens, Orthogonally Resolvable Cycle Decompositions, 2013; http://www.math.ryerson.ca/~andrea.burgess/OCD-submit.pdf
+%H A000513 <a href="/index/La#Latin">Index entries for sequences related to Latin squares and rectangles</a>
+%e A000513 a(4) = 1:
+%e A000513 1111
+%e A000513 1111
+%e A000513 1111
+%e A000513 1111
+%e A000513 a(5)=1:
+%e A000513 01111
+%e A000513 10111
+%e A000513 11011
+%e A000513 11101
+%e A000513 11110
+%e A000513 Two of the four examples with n = 6:
+%e A000513 111100 . 111100
+%e A000513 110011 . 011110
+%e A000513 001111 . 001111
+%e A000513 111100 . 100111
+%e A000513 110011 . 110011
+%e A000513 001111 . 111001
+%Y A000513 Cf. A000512.
+%K A000513 nonn,more
+%O A000513 1,6
+%A A000513 Eric Rogoyski
+%E A000513 Definition corrected by _Brendan McKay_, May 28 2006
+%E A000513 Offset corrected and a(12) added (from Al-Azemi) by _N. J. A. Sloane_, Mar 01 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

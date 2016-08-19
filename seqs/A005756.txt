@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005756
+Showing 1-1 of 1
+
+%I A005756 M3607
+%S A005756 4,24,304,5440,125824,3566080,119614464
+%N A005756 Number of non-degenerate fanout-free Boolean functions of n variables having AND rank 2.
+%D A005756 J. P. Hayes, Enumeration of fanout-free Boolean functions, J. ACM, 23 (1976), 700-709.
+%D A005756 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005756 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%F A005756 ~Hayes (1976, Theorem 3) gives a recurrence.
+%Y A005756 A column of A225171.
+%K A005756 nonn,more
+%O A005756 2,1
+%A A005756 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

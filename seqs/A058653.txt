@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058653
+Showing 1-1 of 1
+
+%I A058653
+%S A058653 2,18,50,1250,1980,6900,61080,1369020,2025660,2820240,4003230,4917360,
+%T A058653 8597316,15396360,15893010,28725648,41427360,53423760,148663020,
+%U A058653 209752500,212019024,222746160,232210080,281870316,298848144,314121180,322230180,385612260,390760260
+%N A058653 Numbers n such that Sigma(Phi(n)) = Phi(Sigma(n)-n).
+%t A058653 Select[ Range[ 10^6 ], DivisorSigma[ 1, EulerPhi[ # ] ] == EulerPhi[ DivisorSigma[ 1, # ] - # ] & ]
+%K A058653 nonn
+%O A058653 1,1
+%A A058653 _Robert G. Wilson v_, Dec 26 2000
+%E A058653 a(8)-a(29) from _Donovan Johnson_, Jan 19 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

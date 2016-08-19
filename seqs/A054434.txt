@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054434
+Showing 1-1 of 1
+
+%I A054434
+%S A054434 1,88179840,43252003274489856000,
+%T A054434 235731790397475540746817350638390943894470656000000000,
+%U A054434 498193725479737534560729108444190506542841230720338952960026775572709376000000000000000
+%N A054434 Number of possible positions in an n X n X n Rubik's cube reachable from the starting position.
+%C A054434 It would be nice to have a more precise definition of this sequence! - _N. J. A. Sloane_, Feb 28 2003
+%H A054434 Georges Helm, <a href="http://webplaza.pt.lu/geohelm/myweb/cubeold.htm">Rubik's Cube</a>
+%H A054434 E. Rubik, <a href="http://www.rubiks.com/">Rubik Cube Site</a>
+%H A054434 Jaap Scherphuis, <a href="http://www.jaapsch.net/puzzles/">Puzzle Pages</a>
+%H A054434 Xavier Servantie, <a href="http://www-ensimag.imag.fr/eleves/Xavier.Servantie/rubik/index.eng.html">All about Rubik's cube</a>
+%Y A054434 See A075152, A007458 for other versions.
+%K A054434 nonn,nice
+%O A054434 1,2
+%A A054434 Antreas P. Hatzipolakis (xpolakis(AT)otenet.gr)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

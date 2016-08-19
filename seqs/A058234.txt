@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058234
+Showing 1-1 of 1
+
+%I A058234
+%S A058234 4,16,52,76,236,376,380,1064,1460,4600,5204
+%N A058234 Numbers n such that x^n + x^9 + 2 is irreducible over GF(3).
+%C A058234 All terms are even, as 2 is a root if n is odd. - _Robert Israel_, Dec 31 2015
+%p A058234 select(n  -> Irreduc(x^n + x^9 + 2) mod 3, 2*[$1..1000]); # _Robert Israel_, Dec 31 2015
+%t A058234 Do[ If[ ToString[ Factor[ x^n + x^9 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^9 + 2 ], Print[ n ] ], {n, 0, 1600} ]
+%Y A058234 Cf. A057479.
+%K A058234 nonn,more
+%O A058234 1,1
+%A A058234 _Robert G. Wilson v_, Dec 01 2000
+%E A058234 a(10) and a(11) from _Robert Israel_, Dec 31 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

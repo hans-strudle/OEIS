@@ -1,0 +1,44 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033487
+Showing 1-1 of 1
+
+%I A033487
+%S A033487 0,6,30,90,210,420,756,1260,1980,2970,4290,6006,8190,10920,14280,
+%T A033487 18360,23256,29070,35910,43890,53130,63756,75900,89700,105300,122850,
+%U A033487 142506,164430,188790,215760,245520,278256,314160,353430,396270,442890,493506
+%N A033487 a(n) = n*(n+1)*(n+2)*(n+3)/4.
+%C A033487 Sum_{n>0} 1/a(n) = 2/9. - _Enrique Pérez Herrero_, Nov 10 2013
+%C A033487 Non-vanishing diagonal of A132440^4/4. Third subdiagonal of unsigned A238363 without the zero. Cf. A130534 for relations to colored forests, disposition of flags on flagpoles, and colorings of the vertices of the complete graph K_4. - _Tom Copeland_, Apr 05 2014
+%C A033487 Total number of pips on a set of trominoes (3-armed dominoes) with up to n pips on each arm. - _Alan Shore_ and _N. J. A. Sloane_, Jan 06 2016
+%D A033487 J. Riordan, Combinatorial Identities, Wiley, 1968, p. 77.
+%H A033487 Vincenzo Librandi, <a href="/A033487/b033487.txt">Table of n, a(n) for n = 0..690</a>
+%H A033487 A. Petojevic and N. Dapic, <a href="http://www.mi.sanu.ac.rs/~gvm/radovi/AP-Budva.pdf">The vAm(a,b,c;z) function</a>, Preprint 2013.
+%H A033487 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081 [math.CO], 2014-2015.
+%H A033487 <a href="/index/Be#Bessel">Index entries for sequences related to Bessel functions or polynomials</a>
+%H A033487 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%F A033487 From Antonio G. Astudillo (afg_astudillo(AT)hotmail.com), Jun 10 2001: (Start)
+%F A033487 G.f.: -6*x/(x-1)^5.
+%F A033487 a(n) = 6*binomial(n+3, 4) = a(n-1) + A007531(n+1) = 6*A000332(n) = Sum_{i=0..n} i*(i+1)*(i+2). (End)
+%F A033487 Constant term in Bessel polynomial {y_n(x)}''.
+%F A033487 a(n) = binomial(n+1,2)*binomial(n+3,2) = A000217(n)*A000217(n+2). - _Zerinvary Lajos_, May 25 2005
+%F A033487 a(n) = binomial(n+2,2)^2 - binomial(n+2,2). - _Zerinvary Lajos_, May 17 2006
+%F A033487 a(n-1) = Sum_{j=1..n} Sum_{i=2..n}i*j = Sum_{j=1..n}j*(n+2)*(n-1)/2. - _Zerinvary Lajos_, May 11 2007
+%F A033487 a(-3-n) = a(n) = 2 * binomial(binomial(n+2, 2), 2). - _Michael Somos_, Apr 06 2014
+%e A033487 G.f. = 6*x + 30*x^2 + 90*x^3 + 210*x^4 + 420*x^5 + 756*x^6 + 1260*x^7 + ...
+%p A033487 [seq(binomial(n+3,4)*6, n=0..40)]; # _Zerinvary Lajos_, Jul 18 2006
+%t A033487 f[n_]:=n*(n+1)*(n+2)*(n+3)/4; lst={};Do[AppendTo[lst,f[n]],{n,0,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 08 2009 *)
+%t A033487 Table[(Times@@(n+Range[0,3]))/4,{n,0,40}] (* _Harvey P. Dale_, Nov 27 2013 *)
+%t A033487 LinearRecurrence[ {5,-10,10,-5,1},{0,6,30,90,210},40] (* _Harvey P. Dale_, Nov 27 2013 *)
+%o A033487 (MAGMA) [n*(n+1)*(n+2)*(n+3)/4: n in [0..40]]; // _Vincenzo Librandi_, Apr 28 2011
+%o A033487 (PARI) a(n)=6*binomial(n+3,4) \\ _Charles R Greathouse IV_, Apr 17 2012
+%o A033487 (PARI) concat(0, Vec(-6*x/(x-1)^5 + O(x^100))) \\ _Altug Alkan_, Nov 29 2015
+%Y A033487 Partial sums of A007531.
+%Y A033487 Cf. A050534, A034827.
+%Y A033487 Cf. A033486, A033488. - _Zerinvary Lajos_, Aug 26 2008
+%Y A033487 A row of the array in A129533.
+%K A033487 nonn,easy
+%O A033487 0,2
+%A A033487 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

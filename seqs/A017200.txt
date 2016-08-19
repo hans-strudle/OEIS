@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017200
+Showing 1-1 of 1
+
+%I A017200
+%S A017200 81,20736,194481,810000,2313441,5308416,10556001,18974736,31640625,
+%T A017200 49787136,74805201,108243216,151807041,207360000,276922881,362673936,
+%U A017200 466948881,592240896,741200625,916636176
+%N A017200 a(n) = (9*n+3)^4.
+%H A017200 Vincenzo Librandi, <a href="/A017200/b017200.txt">Table of n, a(n) for n = 0..10000</a>
+%F A017200 a(n) = A000583(A017197(n)). - _Michel Marcus_, Nov 06 2015
+%F A017200 a(n) = 81*A016780(n). - _Michel Marcus_, Nov 06 2015
+%o A017200 (MAGMA) [(9*n+3)^4: n in [0..30]]; // _Vincenzo Librandi_, Jul 23 2011
+%Y A017200 Cf. A000583 (n^4), A016780 ((3n+1)^4), A017197 (9n+3).
+%K A017200 nonn,easy
+%O A017200 0,1
+%A A017200 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040275
+Showing 1-1 of 1
+
+%I A040275
+%S A040275 17,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,
+%T A040275 8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,
+%U A040275 1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8,34,8,1,1,8
+%N A040275 Continued fraction for sqrt(293).
+%H A040275 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040275 a(n)=(1/25)*{-104*(n mod 5)-9*[(n+1) mod 5]+26*[(n+2) mod 5]+61*[(n+3) mod 5]+156*[(n+4) mod 5]}-17*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 24 2009]
+%p A040275 with(numtheory): Digits := 300: convert(evalf(sqrt(293)),confrac);
+%K A040275 nonn,cofr,easy
+%O A040275 0,1
+%A A040275 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

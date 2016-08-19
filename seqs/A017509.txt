@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017509
+Showing 1-1 of 1
+
+%I A017509
+%S A017509 10,21,32,43,54,65,76,87,98,109,120,131,142,153,164,175,186,197,208,
+%T A017509 219,230,241,252,263,274,285,296,307,318,329,340,351,362,373,384,395,
+%U A017509 406,417,428,439,450,461,472,483,494,505,516,527,538,549,560,571,582
+%N A017509 a(n) = 11*n + 10.
+%C A017509 If k is any member of A045572, the sequence lists the numbers n such that (n^k+1)/11 is a nonnegative integer. See also A267541. [_Bruno Berselli_, Jan 16 2016]
+%H A017509 Vincenzo Librandi, <a href="/A017509/b017509.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017509 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A017509 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=989">Encyclopedia of Combinatorial Structures 989</a>
+%t A017509 f[n_] := FromDigits[IntegerDigits[n^2 + 2n - 1, n + 1]]; Array[f, 54] (* _Robert G. Wilson v_, Apr 14 2009 *)
+%t A017509 Range[10, 1000, 11] (* _Vladimir Joseph Stephan Orlovsky_, May 29 2011 *)
+%o A017509 (Sage) [i+10 for i in range(475) if gcd(i,11) == 11] # _Zerinvary Lajos_, May 21 2009
+%o A017509 (MAGMA) [11*n+10: n in [0..60]]; // _Vincenzo Librandi_, Sep 18 2011
+%Y A017509 Cf. A008593, A017401, A017413, A045572, A267541.
+%K A017509 nonn,easy
+%O A017509 0,1
+%A A017509 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015762
+Showing 1-1 of 1
+
+%I A015762
+%S A015762 1,2,3,6,249,498
+%N A015762 Numbers n such that phi(n) | sigma_4(n).
+%C A015762 sigma_4(n) is the sum of the 4th powers of the divisors of n (A001159).
+%C A015762 sigma_{8j+4}(x)/phi[x] is an integer for j=0,..,500 for x=1,2,3,6,249,498 and supposed to hold for possible larger terms of A015762 and all j. Compare with comments to A015759, A091285, A015770. - _Labos Elemer_, May 27 2004
+%t A015762 Select[Range[500],Divisible[DivisorSigma[4,#],EulerPhi[#]]&] (* _Harvey P. Dale_, Dec 16 2012 *)
+%K A015762 nonn
+%O A015762 1,2
+%A A015762 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039743
+Showing 1-1 of 1
+
+%I A039743
+%S A039743 2,4,8,15,16,32,35,39,51,55,63,64,70,75,87,95,99,111,115,119,123,128,
+%T A039743 130,135,143,147,154,155,159,171,183,187,203,207,215,219,235,238,256,
+%U A039743 267,275,279,280,287,291,295,299,303,310,319,322,323,327,335,339,351
+%N A039743 GCD(phi(a(n)),a(n)-1) = number of prime factors of a(n).
+%e A039743 phi(15)=8, gcd(8,14)=2, 15=3*5, 2 prime factors.
+%Y A039743 Cf. A000010, A001221.
+%K A039743 nonn,easy
+%O A039743 1,1
+%A A039743 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

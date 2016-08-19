@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019544
+Showing 1-1 of 1
+
+%I A019544
+%S A019544 0,1,4,9,49,100,144,400,441,900,1444,4900,9409,10000,10404,11449,
+%T A019544 14400,19044,40000,40401,44100,44944,90000,144400,419904,490000,
+%U A019544 491401,904401,940900,994009,1000000,1004004,1014049,1040400,1100401,1144900,1440000,1904400
+%N A019544 Squares whose digits are squares.
+%C A019544 Are there infinitely many terms not divisible by 100? - _Charles R Greathouse IV_, Sep 19 2012
+%C A019544 Yes. For example, the squares of the type (k*10^m+1)^2, where m>0 and k = 2, 70, 970, 202470000  or  m>1 and k = 10^m-3, belong to the sequence. - _Bruno Berselli_, Jan 10 2013
+%D A019544 Sylvester Smith, "A Set of Conjectures on Smarandache Sequences", Bulletin of Pure and Applied Sciences, (Bombay, India), Vol. 15 E (No. 1), 1996, pp. 101-107.
+%H A019544 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmarandacheSequences.html">Smarandache Sequences</a>
+%o A019544 (MAGMA) [n^2: n in [0..2000] | forall{d: d in Intseq(n^2) | d in [0,1,4,9]}]; // _Bruno Berselli_, Jan 10 2013
+%K A019544 nonn,base
+%O A019544 0,3
+%A A019544 R. Muller
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

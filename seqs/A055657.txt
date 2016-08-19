@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055657
+Showing 1-1 of 1
+
+%I A055657
+%S A055657 0,1,11,111,337,3371,33711,317661,3195573,33134361,313849599,
+%T A055657 3714945219,3412771691,7487538813,38359316903,1311540119013,
+%U A055657 3837735218627,38377352186271,371907319435931,715238131259661
+%N A055657 If a(n) is prime, a(n+1) = a(n) followed by a 1; if a(n) is composite, a(n+1) = concatenation of distinct prime factors of a(n).
+%C A055657 Is the sequence eventually cyclic?
+%Y A055657 Cf. A049121.
+%K A055657 nonn,base
+%O A055657 0,3
+%A A055657 _Harvey P. Dale_, Jun 08 2000
+%E A055657 Comment from _Charles R Greathouse IV_, Apr 27 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

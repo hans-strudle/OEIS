@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061280
+Showing 1-1 of 1
+
+%I A061280
+%S A061280 10,5,7,7,5,2,3,7,3,2,11,7,6,25,7,11,4,8,5,7,6,6,6,3,4,9,17,3,6,13,8,
+%T A061280 5,8,5,2,2,2,8,6,6,5,4,7,2,6,9,8,6,2,4,2,8,6,5,5,5,3,8,4,2,3,3,6,5,6,
+%U A061280 12,2,6,3,5,3,2,2,6,5,6,3,3,4,3,4,2,3,4,2,4,3,7,2,8,8,4,2,6,3,4,7,6,7,7
+%N A061280 Smallest base b for which b^n contains n as a substring.
+%e A061280 a(3)=7 since 7^1 contains no 1 and 7^2 contains no 2, but 7^3 contains a 3.
+%K A061280 base,easy,nonn
+%O A061280 1,1
+%A A061280 _Erich Friedman_, Jun 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

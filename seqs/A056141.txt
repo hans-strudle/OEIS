@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056141
+Showing 1-1 of 1
+
+%I A056141
+%S A056141 1,0,4,0,6,0,0,0,30,0,18,0,0,0,42,0,30,0,0,0,22,0,0,0,0,0,128,0,
+%T A056141 112,0,0,0,0,0,98,0,0,0,90,0,78
+%V A056141 -1,0,4,0,-6,0,0,0,30,0,-18,0,0,0,42,0,-30,0,0,0,-22,0,0,0,0,0,128,0,
+%W A056141 -112,0,0,0,0,0,98,0,0,0,90,0,-78
+%N A056141 primefloor[n]*primeceiling[n]-previousprime[n]*nextprime[n].
+%F A056141 a(n)=A007917(n)*A007918(n)-A007917(n-1)*A007918(n+1) =A030664(n)-A013638(n) =A056140(n)-A056139(n)
+%e A056141 a(n)=A056140(n) if n is prime, a(n)=0 otherwise
+%e A056141 a(3)=3*3-2*5=-1, a(4)=3*5-3*5=0
+%Y A056141 Cf. A056139, A056140.
+%K A056141 easy,sign
+%O A056141 3,3
+%A A056141 _Henry Bottomley_, Jun 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

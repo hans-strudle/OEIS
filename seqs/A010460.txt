@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010460
+Showing 1-1 of 1
+
+%I A010460
+%S A010460 0,1,4,9,16,22,25,27,31,34,36,37,45,49,55,58,64,67,70,81,82,88,91,97
+%N A010460 Squares mod 99.
+%t A010460 Union[Mod[Range[50]^2,99]]  [From Harvey P. Dale, Dec. 26, 2010]
+%o A010460 (Sage) [quadratic_residues(99)]# [From _Zerinvary Lajos_, May 28 2009]
+%K A010460 nonn,fini,full
+%O A010460 1,3
+%A A010460 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

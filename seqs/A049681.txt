@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049681
+Showing 1-1 of 1
+
+%I A049681
+%S A049681 0,1,2,7,20,56,152,407,1080,2851,7502,19702,51680,135461,354902,
+%T A049681 929567,2434320,6374236,16689752,43697227,114405500,299525051,
+%U A049681 784179002,2053027082,5374926720,14071792681
+%N A049681 a(n)=(L(2n)-L(n))/2, where L=A000032 (the Lucas sequence).
+%C A049681 Create a triangle with T(n,1)=L(n-1) for L a Lucas number and the other side T(n,n)=L(2*(n-1)).  Interior elements are defined as T(r,c)=T(r-1,c-1)+T(r-1,c).  Half the sum of the terms in row(n)=a(n) for n=1,2,3...- _J. M. Bergot_, Dec 15 2012
+%H A049681 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-3,-2,1).
+%F A049681 G.f. -x*(1-2*x+2*x^2) / ( (x^2+x-1)*(x^2-3*x+1) ). - _R. J. Mathar_, Dec 17 2012
+%Y A049681 Cf. A094292.
+%K A049681 nonn
+%O A049681 0,3
+%A A049681 _Clark Kimberling_
+%E A049681 Corrected by Franklin T. Adams-Watters, Oct 25 2006
+%E A049681 Corrected by _T. D. Noe_, Nov 01 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

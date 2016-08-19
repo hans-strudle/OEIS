@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006193
+Showing 1-1 of 1
+
+%I A006193 M4437
+%S A006193 0,1,7,58,519,4856,46780,460027,4593647,46416730,473464492,4866762231,
+%T A006193 50346419064,523649493732,5471647249551,57402510799673
+%N A006193 Number of n-node animals on cubic lattice.
+%D A006193 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006193 I. Dutour, <a href="http://www.labri.fr/~dutour/Publis/DEA_Dutour.html">Animaux dirigés et approximations de séries génératrices</a>, Mémoire de DEA, 1992, Université Bordeaux I. (See page 40)
+%K A006193 nonn,more,changed
+%O A006193 0,3
+%A A006193 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

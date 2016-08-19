@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060025
+Showing 1-1 of 1
+
+%I A060025
+%S A060025 1,0,1,1,2,2,3,2,4,3,4,2,3,1,1,6,9,17,22,35,43,61,76,100,
+%T A060025 121,155,185,229,271,328,383,458,529,622,715,830,946,
+%U A060025 1090,1233,1407,1584,1794,2008,2261,2517,2816,3124,3476,3838,4253,4677,5159,5656,6213
+%V A060025 1,0,1,1,2,2,3,2,4,3,4,2,3,-1,-1,-6,-9,-17,-22,-35,-43,-61,-76,-100,
+%W A060025 -121,-155,-185,-229,-271,-328,-383,-458,-529,-622,-715,-830,-946,
+%X A060025 -1090,-1233,-1407,-1584,-1794,-2008,-2261,-2517,-2816,-3124,-3476,-3838,-4253,-4677,-5159,-5656,-6213
+%N A060025 Expansion of (1-x-x^N)/((1-x)(1-x^2)(1-x^3)...(1-x^N)) for N = 6.
+%D A060025 P. A. MacMahon, Perpetual reciprocants, Proc. London Math. Soc., 17 (1886), 139-151; Coll. Papers II, pp. 584-596.
+%t A060025 With[{nn=6},CoefficientList[Series[(1-x-x^nn)/Times@@(1-x^Range[nn]),{x,0,60}],x]] (* _Harvey P. Dale_, May 15 2016 *)
+%K A060025 sign,changed
+%O A060025 0,5
+%A A060025 _N. J. A. Sloane_, Mar 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

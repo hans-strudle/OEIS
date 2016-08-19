@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012532
+Showing 1-1 of 1
+
+%I A012532
+%S A012532 1,12,8848,45051072,840261660928,41695924253002752,
+%T A012532 4537436258866404364288,951427888272965045905047552
+%V A012532 1,-12,8848,-45051072,840261660928,-41695924253002752,
+%W A012532 4537436258866404364288,-951427888272965045905047552
+%N A012532 sech(sinh(x)*sin(x)) = 1-12/4!*x^4+8848/8!*x^8-45051072/12!*x^12...
+%K A012532 sign
+%O A012532 0,2
+%A A012532 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

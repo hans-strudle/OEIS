@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003182
+Showing 1-1 of 1
+
+%I A003182 M0729
+%S A003182 2,3,5,10,30,210,16353,490013148
+%N A003182 Dedekind numbers: inequivalent monotone Boolean functions of n or fewer variables, or antichains of subsets of an n-set.
+%C A003182 NP-equivalence classes of unate Boolean functions of n or fewer variables.
+%D A003182 I. Anderson, Combinatorics of Finite Sets. Oxford Univ. Press, 1987, p. 38.
+%D A003182 Arocha, Jorge Luis (1987) "Antichains in ordered sets" [ In Spanish ]. Anales del Instituto de Matematicas de la Universidad Nacional Autonoma de Mexico 27: 1-21.
+%D A003182 J. Berman, Free spectra of 3-element algebras, in R. S. Freese and O. C. Garcia, editors, Universal Algebra and Lattice Theory (Puebla, 1982), Lect. Notes Math. Vol. 1004, 1983.
+%D A003182 G. Birkhoff, Lattice Theory. American Mathematical Society, Colloquium Publications, Vol. 25, 3rd ed., Providence, RI, 1967, p. 63.
+%D A003182 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 273.
+%D A003182 M. A. Harrison, Introduction to Switching and Automata Theory. McGraw Hill, NY, 1965, p. 188.
+%D A003182 D. J. Kleitman, On Dedekind's problem: The number of monotone Boolean functions. Proc. Amer. Math. Soc. 21 1969 677-682.
+%D A003182 D. J. Kleitman and I. Markowsky, On Dedekind's problem: the number of isotone Boolean functions. II. Trans. Amer. Math. Soc. 213 (1975), 373-390.
+%D A003182 D. E. Knuth, The Art of Computer Programming, Vol. 4A, Section 7.1.1, p. 79.
+%D A003182 S. Kurz, Competitive learning of monotone Boolean functions, http://www.wm.uni-bayreuth.de/fileadmin/Sascha/Publikationen2/learning_apmod.pdf
+%D A003182 W. F. Lunnon, The IU function: the size of a free distributive lattice, pp. 173-181 of D. J. A. Welsh, editor, Combinatorial Mathematics and Its Applications. Academic Press, NY, 1971.
+%D A003182 S. Muroga, Threshold Logic and Its Applications. Wiley, NY, 1971, p. 38, Table 2.3.2. - Row 13.
+%D A003182 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003182 D. H. Wiedemann, personal communication.
+%H A003182 K. S. Brown, <a href="http://www.mathpages.com/home/kmath030.htm">Dedekind's problem</a>
+%H A003182 Patrick De Causmaecker, Stefan De Wannemacker, <a href="http://arxiv.org/abs/1407.4288">On the number of antichains of sets in a finite universe</a>, arXiv:1407.4288 [math.CO], 2014
+%H A003182 J. L. King, <a href="http://www.math.ufl.edu/~squash/">Brick tiling and monotone Boolean functions</a>
+%H A003182 S. Muroga, <a href="/A000371/a000371.pdf">Threshold Logic and Its Applications</a>, Wiley, NY, 1971 [Annotated scans of a few pages]
+%H A003182 Tamon Stephen and Timothy Yusun, <a href="http://www.sciencedirect.com/science/article/pii/S0166218X13005611">Counting inequivalent monotone Boolean functions</a>, Discrete Applied Mathematics, 167 (2014), 15-24.
+%H A003182 Tamon Stephen and Timothy Yusun, <a href="http://arxiv.org/abs/1209.4623">Counting inequivalent monotone Boolean functions</a>, arXiv preprint arXiv:1209.4623, 2012
+%H A003182 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BooleanFunction.html">Boolean Function.</a>
+%H A003182 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%Y A003182 Cf. A000372, A007153, A006602, A007411.
+%K A003182 nonn,hard,nice,more
+%O A003182 0,1
+%A A003182 _N. J. A. Sloane_.
+%E A003182 a(7) added by _Timothy Yusun_, Sep 27 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057029
+Showing 1-1 of 1
+
+%I A057029
+%S A057029 1,6,12,27,39,64,82,117,141,186,216,271,307,372,414,489,537,622,676,
+%T A057029 771,831,936,1002,1117,1189,1314,1392,1527,1611,1756,1846,2001,2097,
+%U A057029 2262,2364,2539,2647,2832,2946,3141,3261,3466
+%N A057029 Central column of arrays in A057027 and A057028.
+%F A057029 C(2n-1, 2)+(n+1)/2 if n is odd, else C(2n, 2)-(n-2)/2.
+%K A057029 nonn
+%O A057029 1,2
+%A A057029 _Clark Kimberling_, Jul 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

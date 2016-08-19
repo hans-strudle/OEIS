@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018851
+Showing 1-1 of 1
+
+%I A018851
+%S A018851 1,5,6,2,23,8,27,9,3,10,34,11,37,12,39,4,42,43,14,45,46,15,48,49,5,51,
+%T A018851 52,17,54,55,56,18,58,59,188,6,61,62,63,20,203,65,66,21,213,68,69,22,
+%U A018851 7,71,72,23,73,74,235,75,24,241,77,78,247,25,251,8,81,257,26,83,263,84,267,27
+%N A018851 a(n)^2 is smallest square beginning with n.
+%C A018851 Each of the "curves" visible in the scatter plot corresponds to a different nonnegative integer d such that 10^d*n <= a(n)^2 < 10^d*(n+1), and thus a(n) ~ 10^(d/2)*sqrt(n). - _Robert Israel_, Jul 26 2015
+%H A018851 Zak Seidov, <a href="/A018851/b018851.txt">Table of n, a(n) for n = 1..10000</a>
+%H A018851 Zak Seidov, <a href="http://zak08.livejournal.com/9621.html">More information</a>
+%F A018851 a(n) >= sqrt(n), for all n > 0 with equality when n is a square. - _Derek Orr_, Jul 26 2015
+%p A018851 f:= proc(n) local d,m;
+%p A018851   for d from 0 do
+%p A018851     m:= ceil(sqrt(10^d*n));
+%p A018851     if m^2 < 10^d*(n+1) then return m fi
+%p A018851   od
+%p A018851 end proc:
+%p A018851 map(f, [$1..100]); # _Robert Israel_, Jul 26 2015
+%o A018851 (PARI) a(n)=k=1; while(k,d=digits(k^2); D=digits(n); if(#D<=#d,c=1; for(i=1,#D,if(D[i]!=d[i],c=0;break));if(c,return(k)));k++)
+%o A018851 vector(100,n,a(n)) \\ _Derek Orr_, Jul 26 2015
+%K A018851 nonn,base,look
+%O A018851 1,2
+%A A018851 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

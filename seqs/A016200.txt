@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016200
+Showing 1-1 of 1
+
+%I A016200
+%S A016200 1,9,61,381,2317,13965,83917,503757,3023053,18139341,108838093,
+%T A016200 653032653,3918204109,23509241037,141055478989,846332939469,
+%U A016200 5077997767885,30467986869453,182807921741005,1096847531494605
+%N A016200 Expansion of 1/((1-x)(1-2x)(1-6x)).
+%H A016200 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (9,-20,12).
+%F A016200 a(n) = (9*6^n-5*2^n+1)/5.  - Bruno Berselli, Feb 09 2011
+%F A016200 a(0)=1, a(n)=6*a(n-1)+2^(n+1)-1.  - Vincenzo Librandi, Feb 09 2011
+%p A016200 a:=n->sum((6^(n-j)-2^(n-j))/4,j=0..n): seq(a(n), n=1..20); - _Zerinvary Lajos_, Jan 15 2007
+%t A016200 Join[{a=1,b=9},Table[c=8*b-12*a+1;a=b;b=c,{n,60}]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 07 2011*)
+%K A016200 nonn
+%O A016200 0,2
+%A A016200 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

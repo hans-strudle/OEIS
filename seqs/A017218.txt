@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017218
+Showing 1-1 of 1
+
+%I A017218
+%S A017218 1048576,137858491849,26559922791424,819628286980801,
+%T A017218 10485760000000000,79792266297612001,430804206899405824,
+%U A017218 1822837804551761449,6428888932339941376,19687440434072265625,53861511409489970176
+%N A017218 (9*n+4)^10.
+%H A017218 Vincenzo Librandi, <a href="/A017218/b017218.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017218 (MAGMA) [(9*n+4)^10: n in [0..15]]  ; // Vincenzo Librandi, Jul 24 2011
+%K A017218 nonn,easy
+%O A017218 0,1
+%A A017218 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039963
+Showing 1-1 of 1
+
+%I A039963
+%S A039963 1,1,0,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,
+%T A039963 0,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,0,
+%U A039963 1,1,1,1,1,1,0,0,1,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1
+%N A039963 The period-doubling sequence A035263 repeated.
+%C A039963 An example of a d-perfect sequence.
+%C A039963 Motzkin numbers mod 2. - _Benoit Cloitre_, Mar 23 2004
+%C A039963 Let {a, b, c, c, a, b, a, b, a, b, c, c, a, b, ...} be the fixed point of the morphism : a -> ab, b -> cc, c -> ab, starting from a; then the sequence is obtained by taking a = 1, b = 1, c = 0. - _Philippe Deléham_, Mar 28 2004
+%H A039963 D. Kohel, S. Ling and C. Xing, <a href="http://www.maths.usyd.edu.au/u/kohel/doc/perfect.ps">Explicit Sequence Expansions</a>
+%H A039963 E. Rowland, R. Yassawi, <a href="http://arxiv.org/abs/1310.8635">Automatic congruences for diagonals of rational functions</a>, arXiv preprint arXiv:1310.8635, 2013
+%F A039963 a(n) = A035263(1+floor(n/2)). - _Benoit Cloitre_, Mar 23 2004
+%F A039963 a(n) = A040039(n) mod 2 = A002212(n+1) mod 2. a(0) = a(1) = 1, for n>=2: a(n) = ( a(n) + sum_{k= 0, (n-2)} a(k)*a(n-2-k)) mod 2. - _Philippe Deléham_, Mar 26 2004
+%F A039963 a(n) = (A(n+2) - A(n)) mod 2, for A = A019300, A001285, A010060, A010059, A000069, A001969. - _Philippe Deléham_, Mar 28 2004
+%F A039963 a(n) = A001006(n) mod 2 = A092444(n). - _Christian G. Bower_, Jun 12 2005
+%F A039963 a(n) = (-1)^n*(A096268(n+1)- A096268(n)). - _Johannes W. Meijer_, Feb 02 2013
+%t A039963 Flatten[ Nest[ Function[l, {Flatten[(l /. {a -> {a, b}, b -> {c, c}, c -> {a, b}})]}], {a}, 7] /. {a -> {1}, b -> {1}, c -> {0}}] (* _Robert G. Wilson v_, Feb 26 2005 *)
+%Y A039963 Cf. A081706.
+%K A039963 nonn
+%O A039963 0,1
+%A A039963 _N. J. A. Sloane_
+%E A039963 More terms from _Christian G. Bower_, Jun 12 2005
+%E A039963 Edited by _N. J. A. Sloane_ at the suggestion of _Andrew Plewe_ and _Ralf Stephan_, Jul 13 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

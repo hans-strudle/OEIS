@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015213
+Showing 1-1 of 1
+
+%I A015213
+%S A015213 1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015213 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015213 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015213 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015213 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015213 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015213 Inverse of 1204th cyclotomic polynomial.
+%p A015213 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015213 sign
+%O A015213 0,1
+%A A015213 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

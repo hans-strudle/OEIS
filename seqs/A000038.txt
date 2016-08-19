@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000038
+Showing 1-1 of 1
+
+%I A000038 M0004
+%S A000038 2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A000038 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A000038 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A000038 Twice A000007.
+%C A000038 Multiplicative with a(p^e) = 0. - _Mitch Harris_, Jun 09 2005
+%C A000038 1 + (-1)^n-th prime. - _Juri-Stepan Gerasimov_, Oct 29 2009
+%D A000038 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000038 James Spahlinger, <a href="/A000038/b000038.txt">Table of n, a(n) for n = 0..10000</a>
+%H A000038 Daniele A. Gewurz and Francesca Merola, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Sequences realized as Parker vectors ...</a>, J. Integer Seqs., Vol. 6, 2003.
+%F A000038 a(n) = 2*A000007(n) = (-1)^A000040(n) + 1. - _Juri-Stepan Gerasimov_, Oct 29 2009
+%o A000038 (Haskell)
+%o A000038 a000038 n = 2 * a000007 n -- _James Spahlinger_, Oct 08 2012
+%o A000038 (PARI) a(n)=if(n,0,2) \\ _Charles R Greathouse IV_, Oct 09 2012
+%Y A000038 Cf. A007395, A000007.
+%K A000038 easy,nonn,mult
+%O A000038 0,1
+%A A000038 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020948
+Showing 1-1 of 1
+
+%I A020948
+%S A020948 1,8,16,32,34,128,66,68,130,134,132,140,138,260,264,284,268,266,274,
+%T A020948 572,276,524,522,536,534,530,538,1034,532,548,556,1046,1042,554,1050,
+%U A020948 1082,1044
+%N A020948 Least k such that b(k) = n, where b( ) is sequence A020944.
+%Y A020948 Cf. A020943-A020945, A002487, A020947-A020950.
+%K A020948 nonn
+%O A020948 1,2
+%A A020948 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

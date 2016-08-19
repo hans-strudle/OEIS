@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034377
+Showing 1-1 of 1
+
+%I A034377
+%S A034377 1,4,9,16,49,64,81,100,169,196,225,256,361,400,625,841,900,1225,1296,
+%T A034377 1369,1444,1521,1600,1936,2025,2809,3025,3249,4225,4900,5329,5476,
+%U A034377 5625,5776,5929,6400,7225,8100,9025,10000,12996,13225,13689,15625,16900
+%N A034377 Squares that remain a square if a suitably chosen digit is dropped.
+%e A034377 1296 = 36^2 belongs to the sequence as removing 2 yields 196 = 14^2. 1444 = 38^2 belongs to the sequence as removing 4 yields 144 = 12^2.
+%Y A034377 Cf. A062387, A034378.
+%K A034377 nonn,base
+%O A034377 1,2
+%A A034377 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

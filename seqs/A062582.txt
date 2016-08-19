@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062582
+Showing 1-1 of 1
+
+%I A062582
+%S A062582 2,43,211,1523,1579,1693,12281,24889
+%N A062582 Numbers n such that 16^n - 15^n is prime.
+%C A062582 Terms greater than 1000 may correspond to (unproven) strong pseudoprimes.
+%C A062582 No other terms less than 100000. - _Robert Price_, Apr 15 2012
+%H A062582 <a href="http://www.primenumbers.net/prptop/searchform.php?form=16%5Ep-15%5Ep">Top probable primes of the form 16^p-15^p</a>
+%Y A062582 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062582 nonn,hard,more
+%O A062582 1,1
+%A A062582 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062582 One more term (12281) found by _Mike Oakes_ in August 2003 corresponding to a probable prime with 14788 digits.
+%E A062582 One more term (24889) found by _Jean-Louis Charton_ in December 2010 corresponding to a probable prime with 29970 digits.
+%E A062582 Edited by _M. F. Hasler_, Sep 16 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054533
+Showing 1-1 of 1
+
+%I A054533
+%S A054533 1,1,1,1,1,2,0,2,0,2,1,1,1,1,4,1,1,2,1,1,2,1,1,1,1,1,
+%T A054533 1,6,0,0,0,4,0,0,0,4,0,0,3,0,0,3,0,0,6,1,1,1,1,4,1,1,1,1,4,
+%U A054533 1,1,1,1,1,1,1,1,1,1,10,0,2,0,2,0,4,0,2,0,2,0,4,1,1,1,1,1,1,1,1,1,1,1,1,12,1
+%V A054533 1,-1,1,-1,-1,2,0,-2,0,2,-1,-1,-1,-1,4,1,-1,-2,-1,1,2,-1,-1,-1,-1,-1,
+%W A054533 -1,6,0,0,0,-4,0,0,0,4,0,0,-3,0,0,-3,0,0,6,1,-1,1,-1,-4,-1,1,-1,1,4,
+%X A054533 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,10,0,2,0,-2,0,-4,0,-2,0,2,0,4,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,12,1
+%N A054533 Triangular array giving Ramanujan sum T(n,k) = c_n(k), for n >= 1, 1<=k<=n, where c_k(n) = Sum_{m=1..k, (m,k)=1} exp(2 Pi i m n / k).
+%D A054533 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, page 160.
+%H A054533 T. D. Noe, <a href="/A054533/b054533.txt">Rows n=1..50 of triangle, flattened</a>
+%e A054533 1; -1,1; -1,-1,2; 0,-2,0,2; -1,-1,-1,-1,4; ...
+%t A054533 c[k_, n_] := Sum[ If[GCD[m, k] == 1, Exp[2 Pi*I*m*n/k], 0], {m, 1, k}]; A054533 = Flatten[ Table[c[n, k] // FullSimplify, {n, 1, 14}, {k, 1, n}] ] (* _Jean-François Alcover_, Jun 27 2012 *)
+%Y A054533 Cf. A054532, A054534, A054535.
+%K A054533 sign,easy,nice,tabl
+%O A054533 1,6
+%A A054533 _N. J. A. Sloane_, Apr 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

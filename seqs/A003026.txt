@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003026
+Showing 1-1 of 1
+
+%I A003026 M4666
+%S A003026 1,9,198,10710,1384335,416990763,286992935964,444374705175516,
+%T A003026 1528973599758889005,11573608032229769067465,
+%U A003026 191141381932394665770442818,6839625961762363728765713227698
+%N A003026 Number of n-node acyclic digraphs with 2 out-points.
+%D A003026 R. W. Robinson, Counting labeled acyclic digraphs, pp. 239-273 of F. Harary, editor, New Directions in the Theory of Graphs. Academic Press, NY, 1973.
+%D A003026 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A003026 Cf. A058876, A003025.
+%K A003026 nonn
+%O A003026 2,2
+%A A003026 _N. J. A. Sloane_.
+%E A003026 More terms from _Vladeta Jovovic_, Apr 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

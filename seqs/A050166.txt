@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050166
+Showing 1-1 of 1
+
+%I A050166
+%S A050166 1,1,2,1,4,5,1,6,14,14,1,8,27,48,42,1,10,44,110,165,132,1,12,65,208,
+%T A050166 429,572,429,1,14,90,350,910,1638,2002,1430,1,16,119,544,1700,3808,
+%U A050166 6188,7072,4862,1,18,152,798,2907,7752,15504,23256,15194,16796,1,20
+%N A050166 Triangle T(n,k)=M(2n,k,-1), 0<=k<=n, n >= 0, array M as in A050144.
+%C A050166 Sometimes called Catalan's triangle, although this term is usually reserved for several other triangles!
+%C A050166 T is a mirror image of the array in A039598.
+%C A050166 Given (1) = row 0, then the sum of terms with alternating signs in row r of A050166 = (-1)^r * A000108(n); where A000108 = 1, 1, 2, 5, 14, 42...the Catalan numbers. - _Herb Conn_
+%C A050166 The diagonals of this triangle are self-convolutions of the main diagonal A000108(n+1) : 1, 2, 5, 14, 42, 132, 429, . . . - _Philippe Deléham_, May 25 2005
+%D A050166 B. A. Bondarenko, Generalized Pascal Triangles and Pyramids (in Russian), FAN, Tashkent, 1990, ISBN 5-648-00738-8. English translation published by Fibonacci Association, Santa Clara Univ., Santa Clara, CA, 1993; see p. 29.
+%D A050166 E. H. M. Brietzke, An identity of Andrews ..., Discrete Math., 308 (2008), 4246-4262.
+%D A050166 E. Deutsch and L. Shapiro, A survey of the Fine numbers, Discrete Math., 241 (2001), 241-265.
+%D A050166 A. Nkwanta, Lattice paths and RNA secondary structures, in African Americans in Mathematics, ed. N. Dean, Amer. Math. Soc., 1997, pp. 137-147.
+%D A050166 L. W. Shapiro, W.-J. Woan and S. Getu, Runs, slides and moments, SIAM J. Alg. Discrete Methods, 4 (1983), 459-466.
+%H A050166 R. K. Guy, Catwalks, Sandsteps and Pascal Pyramids, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">J. Integer Seqs., Vol. 3 (2000), #00.1.6</a>
+%F A050166 a(n, k) = C(2n+1, k)*2*(n-k+1)/(2n-k+2) = A039598(n, n-k) = a(n-1, k)+2*a(n-1, k-1)+a(n-1, k-2) [with a(0, 0) = 1 and a(n, k) = 0 if n<0 or n<k]. - _Henry Bottomley_, Sep 24 2001
+%F A050166 Sum_{0<=k<=n} T(n,k)*x^k = A000012(n), A001700(n), A194723(n+1), A194724(n+1), A194725(n+1), A194726(n+1), A195727(n+1), A194728(n+1), A194729(n+1), A194730(n+1) for x = 0,1,2,3,4,5,6,7,8,9 respectively. - From _Philippe Deléham_, Nov 03 2011
+%e A050166 Rows: {1}; {1,2}; {1,4,5}; ...
+%Y A050166 Mirror image of A039598.
+%K A050166 nonn,tabl,easy
+%O A050166 0,3
+%A A050166 _Clark Kimberling_
+%E A050166 More terms from Larry Reeves (larryr(AT)acm.org), Mar 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

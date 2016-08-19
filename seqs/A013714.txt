@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013714
+Showing 1-1 of 1
+
+%I A013714
+%S A013714 9,729,59049,4782969,387420489,31381059609,2541865828329,
+%T A013714 205891132094649,16677181699666569,1350851717672992089,
+%U A013714 109418989131512359209,8862938119652501095929,717897987691852588770249,58149737003040059690390169
+%N A013714 9^(2n+1).
+%H A013714 Vincenzo Librandi, <a href="/A013714/b013714.txt">Table of n, a(n) for n = 0..150</a>
+%H A013714 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013714 a(n)=81*a(n-1), n>0 ; a(0)=9 . G.f.: 9/(1-81*x). [From _Philippe Deléham_, Nov 25 2008]
+%o A013714 (MAGMA) [9^(2*n+1): n in [0..20]]; // Vincenzo Librandi, May 26 2011
+%K A013714 nonn,easy
+%O A013714 0,1
+%A A013714 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

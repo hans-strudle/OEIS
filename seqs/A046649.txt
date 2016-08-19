@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046649
+Showing 1-1 of 1
+
+%I A046649
+%S A046649 2,8,34,160,806,4256,23256,130416,746350,4341480,25594530,152585472,
+%T A046649 918324904,5572034240,34048494608,209347674768,1294227005694,
+%U A046649 8040125464280,50165404177350,314229490307040,1975283452131990
+%N A046649 Number of certain rooted planar maps.
+%D A046649 W. G. Brown, Enumeration of non-separable planar maps, Canad. J. Math., 15 (1963), 526-545.
+%F A046649 a(n)=4(7n-11)(3n-5)!/[(n-2)!(2n-1)! ]. - Emeric Deutsch, Mar 03 2004
+%F A046649 G.f.: 2*(g+1)/(1-g)^3 where g*(1-g)^2 = x. - Mark van Hoeij, Nov 10 2011
+%K A046649 nonn,easy
+%O A046649 2,1
+%A A046649 _N. J. A. Sloane_.
+%E A046649 More terms from _Emeric Deutsch_, Mar 03 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

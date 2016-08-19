@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025875
+Showing 1-1 of 1
+
+%I A025875
+%S A025875 1,0,0,0,1,0,0,0,1,0,0,1,2,0,0,1,2,0,0,1,2,0,1,2,3,0,1,2,3,0,1,2,3,1,
+%T A025875 2,3,4,1,2,3,4,1,2,3,5,2,3,4,6,2,3,4,6,2,3,5,7,3,4,6,8,3,4,6,8,3,5,7,
+%U A025875 9,4,6,8,10,4,6,8,10,5,7,9
+%N A025875 Expansion of 1/((1-x^4)(1-x^11)(1-x^12)).
+%o A025875 (PARI) Vec(1/((1-x^4)*(1-x^11)*(1-x^12))+O(x^99)) \\ _Charles R Greathouse IV_, Sep 27 2012
+%K A025875 nonn,easy
+%O A025875 0,13
+%A A025875 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

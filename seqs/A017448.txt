@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017448
+Showing 1-1 of 1
+
+%I A017448
+%S A017448 16777216,129746337890625,95428956661682176,6582952005840035281,
+%T A017448 149587343098087735296,1779197418239532716881,13841287201000000000000,
+%U A017448 79766443076872509863361,367666387654882241806336,1425760886846178945447841
+%N A017448 (11n+4)^12.
+%t A017448 (11Range[0,20]+4)^12  (* _Harvey P. Dale_, Apr 18 2011 *)
+%o A017448 (MAGMA) [(11*n+4)^12: n in [0..25]]; // Vincenzo Librandi, Apr 19 2011
+%K A017448 nonn,easy
+%O A017448 0,1
+%A A017448 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

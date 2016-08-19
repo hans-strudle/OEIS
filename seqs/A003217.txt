@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003217
+Showing 1-1 of 1
+
+%I A003217 M2455
+%S A003217 0,1,3,5,9,17,35,79,209
+%N A003217 Maximum of minimum total weight for threshold functions of n Boolean variables.
+%D A003217 N. Alon and V. H. Vu, Anti-Hadamard matrices, coin weighing, threshold gates and indecomposable hypergraphs, Journal of Combinatorial Theory A79 (1997), 133-160.
+%D A003217 S. Muroga, Threshold Logic and Its Applications. Wiley, NY, 1971, p. 268.
+%D A003217 S. Muroga, T. Tsuboi and C. R. Baugh, "Enumeration of threshold functions of eight variables," IEEE Transactions on Computers, 19 (1970), 818-825.
+%D A003217 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A003217 For asymptotics see the Alon-Vu article.
+%e A003217 a(4)=9 because the threshold functions "majority of wwxxyz000" and "majority of wwwxxyz00" and "majority of wwwxxyyz0" cannot be described as majority of seven or five things, but no threshold function of w,x,y,z requires a majority of more than nine.
+%K A003217 nonn,hard
+%O A003217 0,3
+%A A003217 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

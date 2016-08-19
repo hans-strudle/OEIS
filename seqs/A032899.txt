@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032899
+Showing 1-1 of 1
+
+%I A032899
+%S A032899 1,2,3,6,7,8,10,11,14,15,24,26,27,30,31,32,34,35,40,42,43,46,47,56,58,
+%T A032899 59,62,63,96,98,99,104,106,107,110,111,120,122,123,126,127,128,130,
+%U A032899 131,136,138,139,142,143,160,162,163,168,170,171
+%N A032899 Numbers n such that base 2 representation Sum{d(i)*2^i: i=0,1,...,m} has d(0)<=d(1)>=d(2)<=...
+%K A032899 nonn,base
+%O A032899 1,2
+%A A032899 _Clark Kimberling_. Corrected Jul 07 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

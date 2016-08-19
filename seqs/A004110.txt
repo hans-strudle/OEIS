@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004110
+Showing 1-1 of 1
+
+%I A004110 M1504
+%S A004110 1,1,1,2,5,16,78,588,8047,205914,10014882,912908876,154636289460,
+%T A004110 48597794716736,28412296651708628,31024938435794151088,
+%U A004110 63533059372622888758054,244916078509480823407040988,1783406527599529094009748567708
+%N A004110 Number of n-node unlabeled graphs without endpoints (i.e., no nodes of degree 1).
+%C A004110 a(n) is also the number of unlabeled mating graphs with n nodes. A mating graph has no two vertices with identical sets of neighbors. [_Tanya Khovanova_, Oct 23 2008]
+%D A004110 F. Harary, Graph Theory, Wiley, 1969. See illustrations in Appendix 1.
+%D A004110 F. Harary and E. Palmer, Graphical Enumeration, (1973), compare formula (8.7.11).
+%D A004110 R. W. Robinson, personal communication.
+%D A004110 R. W. Robinson, Numerical implementation of graph counting algorithms, AGRC Grant, Math. Dept., Univ. Newcastle, Australia, 1976.
+%D A004110 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A004110 R. W. Robinson, <a href="/A004110/b004110.txt">Table of n, a(n) for n = 0..26</a>
+%H A004110 David Cook II, <a href="http://arxiv.org/abs/1306.0140">Nested colourings of graphs</a>, arXiv preprint arXiv:1306.0140 [math.CO], 2013
+%H A004110 Ji Li, <a href="http://math.arizona.edu/~jli/indexes/research.htm">Ji Li's Research page</a> [From _Tanya Khovanova_, Oct 23 2008]
+%H A004110 R. J. Mathar, <a href="/A004110/a004110_1.pdf">Illustrations for n=1..5 nodes</a>
+%H A004110 N. J. A. Sloane, <a href="/A004110/a004110.pdf">Illustration of a(0)-a(5)</a>
+%Y A004110 Cf. A059166 (n-node connected labeled graphs without endpoints), A059167 (n-node labeled graphs without endpoints), A004108 (n-node connected unlabeled graphs without endpoints).
+%Y A004110 If isolated nodes are forbidden, see A261919.
+%Y A004110 Cf. A006024 (number of labeled mating graphs with n nodes). [_Tanya Khovanova_, Oct 23 2008]
+%K A004110 nonn
+%O A004110 0,4
+%A A004110 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

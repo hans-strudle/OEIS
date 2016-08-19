@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053340
+Showing 1-1 of 1
+
+%I A053340
+%S A053340 5865,8645,10005,10465,13685,15045,15295,16269,18285,20445,22015,
+%T A053340 24871,26845,27965,28405,28815,29733,30705,31031,31255,33215,35245,
+%U A053340 36105,37037,37145,37365,37765,37995,38985,39831,40579,41041,43435,44135
+%N A053340 Terms of A050530 with four prime divisors.
+%F A053340 n=pqrs, having 4 prime divisors, squarefree and n-phi(n) is a prime
+%e A053340 The 3rd entry is 10005=3*5*23*29, also in A050530 and A051593[10005]=5077 is a prime.
+%Y A053340 A051593, A050530.
+%K A053340 nonn
+%O A053340 1,1
+%A A053340 _Labos Elemer_, Jan 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

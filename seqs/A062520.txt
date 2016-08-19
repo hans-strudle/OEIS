@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062520
+Showing 1-1 of 1
+
+%I A062520
+%S A062520 10,0,3,1,5,8,8,3,4,2,21,19,17,22,11,13,17,11,7,9,18,7,19,13,5,26,19,
+%T A062520 3,24,6,16,12,13,31,15,21,24,29,18,31,17,12,18,5,12,28,16,11,15,10,35,
+%U A062520 32,33,12,26,27,8,40,26,10,21,8,19,17,24,8,33,16,9,14,35,11,6,29,18,47
+%N A062520 3^a(n) is smallest nonnegative power of 3 containing the string 'n'.
+%t A062520 Table[k = 0; While[ StringPosition[ ToString[3^k], ToString[n] ] == {}, k++ ]; k, {n, 0, 75} ]
+%Y A062520 Cf. A030000. Essentially the same as A063566.
+%K A062520 base,nonn
+%O A062520 0,1
+%A A062520 _Robert G. Wilson v_, Jun 24 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

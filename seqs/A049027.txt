@@ -1,0 +1,47 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049027
+Showing 1-1 of 1
+
+%I A049027
+%S A049027 1,1,4,17,74,326,1446,6441,28770,128750,576944,2587850,11615932,
+%T A049027 52167688,234383146,1053386937,4735393794,21291593238,95747347176,
+%U A049027 430624242942,1936925461644,8712882517188,39195738193836,176335080590442
+%N A049027 G.f.: (1-2*x*C)/(1-3*x*C) where C = (1/2-1/2*(1-4*x)^(1/2))/x is the g.f. for Catalan numbers A000108.
+%C A049027 Row sums of triangle A035324.
+%C A049027 [a(n+1)] = [1,4,17,74,326,...] is the binomial transform of A059738. [From _Philippe Deléham_, Nov 26 2009]
+%C A049027 (1, 4, 17, 74, 326, ...) is the invert transform of the odd-indexed central binomial coefficients, A001700. [_David Callan_, Oct 14 2012]
+%C A049027 The sequence starting with index 1 is the INVERT transform of A001700: (1, 3, 10, 35, 126,...) and the second INVERT transform of the Catalan numbers starting with index 1: (1, 2, 5, 14, 42,...). - _Gary W. Adamson_, Jun 23 2015
+%D A049027 L. W. Shapiro and C. J. Wang, Generating identities via 2 X 2 matrices, Congressus Numerantium, 205 (2010), 33-46.
+%H A049027 Vincenzo Librandi, <a href="/A049027/b049027.txt">Table of n, a(n) for n = 0..200</a>
+%H A049027 José Agapito, Ângela Mestre, Maria M. Torres, and Pasquale Petrullo, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL18/Agapito/agapito2.html">On One-Parameter Catalan Arrays</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.5.1 and arXiv:1505.05568
+%H A049027 W. Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LANG/lang.html">On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), #00.2.4.
+%H A049027 J. W. Layman, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/LAYMAN/hankel.html">The Hankel Transform and Some of its Properties</a>, J. Integer Sequences, 4 (2001), #01.1.5.
+%F A049027 G.f.: x*c(x)/(1-3*x*c(x)), c(x)= g.f. of Catalan numbers A000108.
+%F A049027 a(n+1) = sum{k=0..n, 2^k*comb(2n+1, n-k)2(k+1)/(n+k+2)} - _Paul Barry_, Jun 22 2004
+%F A049027 a(n) = (9*a(n-1)-Catalan(n-1))/2, n>1. - _Vladeta Jovovic_, Aug 08 2004
+%F A049027 a(n+1) = Sum_{k, 0<=k<=n}A039598(n,k)*2^k . - _Philippe Deléham_, Mar 21 2007
+%F A049027 G.f.: 2 / (3 - 1 / sqrt(1 - 4*x)). - _Michael Somos_, Apr 08 2007
+%F A049027 a(n) = Sum_{k, 0<=k<=n}A039599(n,k)*A001045(k), for n>=1 . - _Philippe Deléham_, Jun 10 2007
+%F A049027 Let A be the Toeplitz matrix of order n defined by: A[i,i-1]=-1, A[i,j]=Catalan(j-i), (i<=j), and A[i,j]=0, otherwise. Then, for n>=1, a(n+1)=(-1)^n*charpoly(A,-3). [_Milan Janjic_, Jul 08 2010]
+%F A049027 From _Gary W. Adamson_, Jul 25 2011: (Start)
+%F A049027 a(n) = upper left term in M^(n-1), M = an infinite square production matrix as follows:
+%F A049027 4, 1, 0, 0, 0,...
+%F A049027 1, 1, 1, 0, 0,...
+%F A049027 1, 1, 1, 1, 0,...
+%F A049027 1, 1, 1, 1, 1,...
+%F A049027 ... (End)
+%F A049027 Conjecture: 2*n*a(n) +(12-17*n)*a(n-1) +18*(2*n-3)*a(n-2)=0. - _R. J. Mathar_, Nov 14 2011
+%F A049027 a(n) ~ 3^(2*n-1)/2^(n+1). - _Vaclav Kotesovec_, Oct 08 2012
+%F A049027 0 = a(n)*(1296*a(n+1) - 1098*a(n+2) + 180*a(n+3)) + a(n+1)*(-126*a(n+1) + 253*a(n+2) - 58*a(n+3)) + a(n+2)*(-10*a(n+2) + 4*a(n+3)) if n>0. - _Michael Somos_, Jan 23 2014
+%e A049027 G.f. = 1 + x + 4*x^2 + 17*x^3 + 74*x^4 + 326*x^5 + 1446*x^6 + 6441*x^7 + ...
+%t A049027 Table[SeriesCoefficient[2/(3-1/Sqrt[1-4*x]),{x,0,n}],{n,0,20}] (* _Vaclav Kotesovec_, Oct 08 2012 *)
+%o A049027 (PARI) {a(n) = if( n<1, n==0, polcoeff( serreverse( x * (1 + 2*x) / (1 + 3*x)^2 + x * O(x^n) ), n))}; /* _Michael Somos_, Apr 08 2007 */
+%o A049027 (PARI) {a(n) = if( n<0, 0, polcoeff( 2 / (3 - 1 / sqrt(1 - 4*x + x * O(x^n))), n))}; /* _Michael Somos_, Apr 08 2007 */
+%o A049027 (MAGMA) [1] cat [n eq 1 select 1 else (9*Self(n-1)-Catalan(n-1))/2: n in [1..30]]; // _Vincenzo Librandi_, Jun 25 2015
+%Y A049027 Cf. A000108, A001700.
+%K A049027 easy,nonn
+%O A049027 0,3
+%A A049027 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

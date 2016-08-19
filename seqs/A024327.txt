@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024327
+Showing 1-1 of 1
+
+%I A024327
+%S A024327 0,0,1,1,0,1,1,1,2,2,1,2,2,1,2,2,3,2,3,3,2,3,3,2,3,3,4,3,4,4,4,4,3,4,
+%T A024327 4,3,4,4,3,5,5,5,4,5,5,5,5,4,5,5,5,5,6,5,6,6,5,6,6,5,5,6,6,5,6,6,6,6,
+%U A024327 5,7,7,7,7,7,6,7,7,7,7,7,7,6,7,7,6,7,8,7,8,7
+%N A024327 s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = floor( (n+1)/2 ), s = A023531, t = A023534.
+%K A024327 nonn
+%O A024327 1,9
+%A A024327 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

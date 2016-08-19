@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028934
+Showing 1-1 of 1
+
+%I A028934
+%S A028934 0,1,5,8,435,3612,43355,28076979,331948240,641260644409,
+%T A028934 318128427505160,66316334575107447,588310630753491921045,
+%U A028934 435912379274109872312968,2181616293371330311419201915
+%V A028934 0,1,5,-8,435,3612,43355,28076979,-331948240,641260644409,
+%W A028934 318128427505160,-66316334575107447,588310630753491921045,
+%X A028934 435912379274109872312968,2181616293371330311419201915
+%N A028934 Negative of numerator of y coordinate of (2n+1)*P where P is generator for rational points on curve y^2+y = x^3-x.
+%D A028934 B. Mazur, Arithmetic on curves, Bull. Amer Math. Soc. 14 (1986), 207-259; see p 225.
+%F A028934 P=(0, 0), 2P=(1, 0), if kP=(a, b) then (k+1)P=(a'=(b^2-a^3)/a^2, b'=1-b*a'/a).
+%e A028934 3P = (-1, -1).
+%K A028934 sign
+%O A028934 0,3
+%A A028934 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

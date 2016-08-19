@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007041
+Showing 1-1 of 1
+
+%I A007041 M2016
+%S A007041 2,12,12,1120,3360,6720,6720,172972800
+%N A007041 State assignments for n-state machine.
+%D A007041 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007041 P. E. Wood, Jr., Switching Theory, McGraw-Hill, 1968, see p. 263.
+%F A007041 a(n) = (2^n)!/(2^n-s)!*n!) where s = ceiling(log_2 n).
+%Y A007041 Cf. A006845.
+%K A007041 nonn,more
+%O A007041 2,1
+%A A007041 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

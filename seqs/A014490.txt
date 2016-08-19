@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014490
+Showing 1-1 of 1
+
+%I A014490
+%S A014490 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014490 0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014490 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014490 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014490 0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014490 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014490 Inverse of 481st cyclotomic polynomial.
+%p A014490 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014490 sign
+%O A014490 0,1
+%A A014490 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

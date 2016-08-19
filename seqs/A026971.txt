@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026971
+Showing 1-1 of 1
+
+%I A026971
+%S A026971 1,2,11,34,138,492,2342,8500,39814,148124,709266,2665932,12824196,
+%T A026971 48623448,235400988,897705096,4362689862,16713200556,81488683874,
+%U A026971 313281535180
+%N A026971 a(n) = self-convolution of array T given by A026648.
+%K A026971 nonn
+%O A026971 0,2
+%A A026971 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

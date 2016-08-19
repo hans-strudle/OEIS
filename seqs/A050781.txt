@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050781
+Showing 1-1 of 1
+
+%I A050781
+%S A050781 55,72,84,119,143,256,2106,2211,2279,3024,3150,3551,4284,6360,6500,
+%T A050781 9350,10200,10285,10919,13560,14279,14351,15606,16463,17063,23595,
+%U A050781 25011,27208,28208,28600,31460,33096,42180,44330,52320,53053,53824
+%N A050781 (n + sopf_n = m) and (m - sopf_m = n). Sequence gives values of m.
+%C A050781 sopf_m = sum of the prime factors of m (with multiplicity).
+%H A050781 Paolo P. Lava, <a href="/A050781/b050781.txt">Table of n, a(n) for n = 0..200</a>
+%e A050781 E.g. 585585 + (3+3+5+7+11+13+13) = 585640 - (2+2+2+5+11+11+11+11) = 585585.
+%t A050781 sopf[n_]:=Module[{sopfn=Total[Times@@@FactorInteger[n]],m},m=n+sopfn;If[n==m-Total[Times@@@FactorInteger[m]],m,0]]; DeleteCases[Table[ sopf[n],{n,55000}],_?(#==0&)] (* _Harvey P. Dale_, Jun 15 2011 *)
+%Y A050781 Cf. A050780, A050703-A050710.
+%K A050781 nonn,nice
+%O A050781 0,1
+%A A050781 _Patrick De Geest_, Sep 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

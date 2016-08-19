@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010106
+Showing 1-1 of 1
+
+%I A010106
+%S A010106 2,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,4,3,0,0,0,0,0,0,0,30,48,19,
+%T A010106 0,0,0,0,0,36,136,468,408,111,0,0,0,150,180,135,3240,5340,3260,
+%U A010106 696,132,414,612,696,1932,16158,51004,53919
+%V A010106 2,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,-4,3,0,0,0,0,0,0,0,-30,48,-19,
+%W A010106 0,0,0,0,0,-36,-136,468,-408,111,0,0,0,-150,-180,-135,3240,-5340,3260,
+%X A010106 -696,-132,-414,-612,696,1932,16158,-51004,53919
+%N A010106 Spontaneous magnetization coefficients for square lattice spin 5/2 Ising model.
+%C A010106 First term is really 5/2.
+%D A010106 Jensen, Iwan; Guttmann, Anthony J.; Series expansions of the percolation probability for directed square and honeycomb lattices. J. Phys. A 28 (1995), no. 17, 4813-4833.
+%H A010106 I. Jensen, <a href="/A010106/b010106.txt">Table of n, a(n) for n = 0..126</a> [taken from web site below]
+%H A010106 I. G. Enting, A, J. Guttmann and I. Jensen, <a href="http://arXiv.org/abs/hep-lat/?9410005">Low-Temperature Series Expansions for the Spin-1 Ising Model</a>, J. Phys. A. 27 (1994) 6987-7006.
+%H A010106 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/ising/series/mag5_2.ser">More terms</a>
+%Y A010106 Apart from first term, same as A030121 (first term is really 5/2).
+%K A010106 sign
+%O A010106 0,1
+%A A010106 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

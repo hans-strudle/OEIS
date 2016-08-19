@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036599
+Showing 1-1 of 1
+
+%I A036599
+%S A036599 0,0,0,0,0,0,0,0,0,0,1,9,44,162,509,1446,3835,9687,23612,56026,130192,
+%T A036599 297562,670942,1495811,3302564,7230246,15710344,33906496,72728133,
+%U A036599 155120068,329124137,694925899,1460623771,3056894972,6371896316
+%N A036599 Number of binary rooted trees with n nodes and height exactly 10.
+%H A036599 E. M. Rains and N. J. A. Sloane, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On Cayley's Enumeration of Alkanes (or 4-Valent Trees)</a>, J. Integer Sequences, Vol. 2 (1999), Article 99.1.1.
+%H A036599 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%K A036599 nonn,fini
+%O A036599 0,12
+%A A036599 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

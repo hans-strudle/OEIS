@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022335
+Showing 1-1 of 1
+
+%I A022335
+%S A022335 1,2,3,5,7,10,13,17,21,25,30,35,41,47,54,61,68,76,84,93,102,112,122,
+%T A022335 132,143,154,166,178,191,204,217,231,245,260,275,291,307,323,340,357,
+%U A022335 375,393,412,431,450,470,490,511,532,554,576,598,621,644,668,692,717,742,767,793
+%N A022335 Index of 2^n within sequence of numbers of form 2^i * 5^j.
+%F A022335 a(n) = sum(i=0..n, 1 + floor(log(2^i)/log(5)) ). - _Michel Marcus_, Oct 02 2013
+%o A022335 (PARI) a(n) = sum(i=0, n, 1 + floor(log(2^i)/log(5))); \\ _Michel Marcus_, Oct 02 2013
+%Y A022335 Cf. A003592, A022334.
+%K A022335 nonn
+%O A022335 1,2
+%A A022335 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

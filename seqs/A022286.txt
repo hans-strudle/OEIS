@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022286
+Showing 1-1 of 1
+
+%I A022286
+%S A022286 0,14,57,129,230,360,519,707,924,1170,1445,1749,2082,2444,2835,3255,
+%T A022286 3704,4182,4689,5225,5790,6384,7007,7659,8340,9050,9789,10557,11354,
+%U A022286 12180,13035,13919,14832,15774,16745
+%N A022286 a(n) = n*(29*n-1)/2.
+%F A022286 a(n) = 29*n+a(n-1)-15, for n>0, a(0)=0. [_Vincenzo Librandi_, Aug 04 2010]
+%K A022286 nonn,easy
+%O A022286 0,2
+%A A022286 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

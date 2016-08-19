@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038737
+Showing 1-1 of 1
+
+%I A038737
+%S A038737 1,6,23,73,211,581,1560,4135,10890,28590,74946,196326,514123,1346148,
+%T A038737 3524441,9227311,24157645,63245795,165579930,433494205,1134902916,
+%U A038737 2971214796,7778741748,20365010748,53316290821,139583862066
+%N A038737 T(n,n-2), array T as in A038792.
+%F A038737 Fifth diagonal of array defined by T(i, 1)=T(1, j)=1, T(i, j)=Max(T(i-1, j)+T(i-1, j-1); T(i-1, j-1)+T(i, j-1)) - _Benoit Cloitre_, Aug 05 2003
+%F A038737 G.f.: 1/[(1-3x+x^2)(1-x)^3].
+%Y A038737 Apparently the same as A038797.
+%K A038737 nonn
+%O A038737 2,2
+%A A038737 _Clark Kimberling_, May 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

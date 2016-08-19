@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049306
+Showing 1-1 of 1
+
+%I A049306
+%S A049306 4,6,7,10,13,17,18,28,31,33,36,38,42,44,47,48,49,52,54,56,58,60,63,64,
+%T A049306 67,68,69,76,77,79,81,82,83,85,86,89,90,91,94,97,112,115,124,130,135,
+%U A049306 165,173,176,178,189,193,195,206,208,215,221,225,249,251,252,253,256
+%N A049306 Numbers n such that n is a substring of 8^n.
+%Y A049306 Cf. A032740, A049301-A049307.
+%K A049306 nonn,base,easy
+%O A049306 1,1
+%A A049306 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006855
+Showing 1-1 of 1
+
+%I A006855 M2320
+%S A006855 0,1,3,4,6,7,9,11,13,16,18,21,24,27,30,33,36,39,42,46,50,52,56,59,63,
+%T A006855 67,71,76,80,85,90
+%N A006855 Maximal edges in n-node squarefree graph.
+%D A006855 M. Aigner and G. M. Ziegler, Proofs from The Book, Springer-Verlag, Berlin, 1999. Chap. 20 gives a simple proof of the upper bound (n/4)(1+sqrt(4n-3)) and of the fact that it is asymptotically good. - _Christopher E. Thompson_, Aug 14 2001
+%D A006855 _Brendan McKay_, personal communication.
+%D A006855 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006855 Zoltan Füredi, <a href="http://www.math.uiuc.edu/~z-furedi/PUBS/furedi_C4abs.pdf">Quadrilateral-free graphs with maximum number of edges</a>, Extended abstract, Proceedings of the Japan Workshop on Graph Th. and Combinatorics, University, Yokohama, Japan 1994, pp. 13-22 (see Section 6).
+%K A006855 nonn,more
+%O A006855 1,3
+%A A006855 _N. J. A. Sloane_.
+%E A006855 a(23)-a(31) from _Michel Marcus_, Jul 23 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

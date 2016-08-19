@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032012
+Showing 1-1 of 1
+
+%I A032012
+%S A032012 1,1,0,1,8,1,12,1,128,3025,260,7921,2048,78937,4760,2375101,138411008,
+%T A032012 9837697,588189972,96605425,7353141248,1752111145,151280741480,
+%U A032012 9294316285,12191175684608,1413604888888801,75955683963432,9022098736088101,1170150933402368
+%N A032012 Number of ways to partition n labeled elements into sets of different odd sizes and order the sets.
+%H A032012 Alois P. Heinz, <a href="/A032012/b032012.txt">Table of n, a(n) for n = 0..742</a>
+%H A032012 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032012 "AGJ" (ordered, elements, labeled) transform of 1, 0, 1, 0, ...(odds)
+%p A032012 b:= proc(n, i, p) option remember;
+%p A032012       `if`(n=0, p!, `if`(i<1, 0, b(n, i-2, p)+
+%p A032012       `if`(i>n, 0, b(n-i, i-2, p+1)*binomial(n, i))))
+%p A032012     end:
+%p A032012 a:= n-> b(n, n-1+irem(n, 2), 0):
+%p A032012 seq(a(n), n=0..30);
+%K A032012 nonn,changed
+%O A032012 0,5
+%A A032012 _Christian G. Bower_
+%E A032012 a(0)=1 prepended by _Alois P. Heinz_, May 11 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

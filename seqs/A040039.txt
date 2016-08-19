@@ -1,0 +1,81 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040039
+Showing 1-1 of 1
+
+%I A040039
+%S A040039 1,1,2,2,3,3,5,5,7,7,10,10,13,13,18,18,23,23,30,30,37,37,47,47,57,57,
+%T A040039 70,70,83,83,101,101,119,119,142,142,165,165,195,195,225,225,262,262,
+%U A040039 299,299,346,346,393,393,450,450,507,507,577,577,647,647,730,730,813,813,914,914,1015,1015,1134,1134,1253,1253,1395,1395
+%N A040039 First differences of A033485; also A033485 with terms repeated.
+%C A040039 Apparently a(n) = number of partitions (p_1, p_2, ..., p_k) of n+1, with p_1 >= p_2 >= ... >= p_k, such that for each i, p_i > p_{i+1}+...+p_k. - John McKay (mac(AT)mathstat.concordia.ca), Mar 06 2009
+%C A040039 Comment from John McKay confirmed in paper by Bessenrodt, Olsson, and Sellers. Such partitions are called "strongly decreasing" partitions in the paper, see the function s(n) therein.
+%H A040039 Joerg Arndt, <a href="/A040039/b040039.txt">Table of n, a(n) for n = 0..500</a>
+%H A040039 Christine Bessenrodt, Jorn B. Olsson, and James A. Sellers, <a href="http://arxiv.org/abs/1107.1156">Unique path partitions: Characterization and Congruences</a>, arXiv:1107.1156 [math.CO], 2011-2012.
+%H A040039 J. Jordan and R. Southwell, <a href="http://dx.doi.org/10.4236/am.2010.15045">Further Properties of Reproducing Graphs</a>, Applied Mathematics, Vol. 1 No. 5, 2010, pp. 344-350. - From _N. J. A. Sloane_, Feb 03 2013
+%F A040039 Let T(x) be the g.f, then T(x) = 1 + x/(1-x)*T(x^2) = 1 + x/(1-x) * ( 1 + x^2/(1-x^2) * ( 1 + x^4/(1-x^4) * ( 1 + x^8/(1-x^8) *(...) ))). [_Joerg Arndt_, May 11 2010]
+%F A040039 From _Joerg Arndt_, Oct 02 2013: (Start)
+%F A040039 G.f.: sum(k>=1, x^(2^k-1) / prod(j=0..k-1, 1-x^(2^k) ) ) [Bessenrodt/Olsson/Sellers].
+%F A040039 G.f.: 1/(2*x^2) * ( 1/prod(k>=0, 1 - x^(2^k) ) - (1 + x) ).
+%F A040039 a(n) = 1/2 * A018819(n+2).
+%F A040039 (End)
+%F A040039 a(n) = T(n+1,1), where T(n,m)=sum(k..0,(n-m)/2, binomial(n-2*k-1,n-2*k-m)*sum(i=1..k, binomial(m,i)*T(k,i)))+binomial(n-1,n-m). - _Vladimir Kruchinin_, Mar 19 2015
+%e A040039 From _Joerg Arndt_, Dec 17 2012: (Start)
+%e A040039 The a(19-1)=30 strongly decreasing partitions of 19 are (in lexicographic order)
+%e A040039 [ 1]    [ 10 5 3 1 ]
+%e A040039 [ 2]    [ 10 5 4 ]
+%e A040039 [ 3]    [ 10 6 2 1 ]
+%e A040039 [ 4]    [ 10 6 3 ]
+%e A040039 [ 5]    [ 10 7 2 ]
+%e A040039 [ 6]    [ 10 8 1 ]
+%e A040039 [ 7]    [ 10 9 ]
+%e A040039 [ 8]    [ 11 5 2 1 ]
+%e A040039 [ 9]    [ 11 5 3 ]
+%e A040039 [10]    [ 11 6 2 ]
+%e A040039 [11]    [ 11 7 1 ]
+%e A040039 [12]    [ 11 8 ]
+%e A040039 [13]    [ 12 4 2 1 ]
+%e A040039 [14]    [ 12 4 3 ]
+%e A040039 [15]    [ 12 5 2 ]
+%e A040039 [16]    [ 12 6 1 ]
+%e A040039 [17]    [ 12 7 ]
+%e A040039 [18]    [ 13 4 2 ]
+%e A040039 [19]    [ 13 5 1 ]
+%e A040039 [20]    [ 13 6 ]
+%e A040039 [21]    [ 14 3 2 ]
+%e A040039 [22]    [ 14 4 1 ]
+%e A040039 [23]    [ 14 5 ]
+%e A040039 [24]    [ 15 3 1 ]
+%e A040039 [25]    [ 15 4 ]
+%e A040039 [26]    [ 16 2 1 ]
+%e A040039 [27]    [ 16 3 ]
+%e A040039 [28]    [ 17 2 ]
+%e A040039 [29]    [ 18 1 ]
+%e A040039 [30]    [ 19 ]
+%e A040039 The a(20-1)=30 strongly decreasing partitions of 20 are obtained by adding 1 to the first part in each partition in the list.
+%e A040039 (End)
+%p A040039 # For example, the five partitions of 4, written in nonincreasing order, are
+%p A040039 # [1,1,1,1], [2,1,1], [2,2], [3,1], [4].
+%p A040039 # Only the last two satisfy the condition, and a(3)=2.
+%p A040039 # The Maple program below verifies this for small values of n.
+%p A040039 with(combinat); N:=8; a:=array(1..N); c:=array(1..N);
+%p A040039 for n from 1 to N do p:=partition(n); np:=nops(p); t:=0;
+%p A040039 for s to np do r:=p[s]; r:=sort(r,`>`); nr:=nops(r); j:=1;
+%p A040039 while j<nr and r[j]>sum(r[k],k=j+1..nr) do j:=j+1;od; # gives A040039
+%p A040039 #while j<nr and r[j]>= sum(r[k],k=j+1..nr) do j:=j+1;od; # gives A018819
+%p A040039 if j=nr then t:=t+1;fi od; a[n]:=t; od;
+%p A040039 # John McKay
+%o A040039 (PARI) /* compute as "A033485 with terms repeated" */
+%o A040039 b(n) = if(n<2, 1, b(floor(n/2))+b(n-1));  /* A033485 */
+%o A040039 a(n) = b(n\2+1); /* note different offsets */
+%o A040039 for(n=0,99, print1(a(n),", ")); /* _Joerg Arndt_, Jan 21 2011 */
+%o A040039 (Maxima)
+%o A040039 T(n,m):=sum(binomial(n-2*k-1,n-2*k-m)*sum(binomial(m,i)*T(k,i),i,1,k),k,0,(n-m)/2)+binomial(n-1,n-m);
+%o A040039 makelist(T(n+1,1),n,0,40); /* _Vladimir Kruchinin_, Mar 19 2015 */
+%Y A040039 Cf. A000123, A018819.
+%Y A040039 Cf. A018819, A088567, A089054.
+%K A040039 nonn,easy
+%O A040039 0,3
+%A A040039 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

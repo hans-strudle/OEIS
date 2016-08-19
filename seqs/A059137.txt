@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059137
+Showing 1-1 of 1
+
+%I A059137
+%S A059137 18,54,18,90,18,54,18,126,18,54,18,90,18,54,18,162,18,54,18,90,18,54,
+%T A059137 18,126,18,54,18,90,18,54,18,198,18,54,18,90,18,54,18,126,18,54,18,90,
+%U A059137 18,54,18,162,18,54,18,90,18,54,18,126,18,54,18,90,18,54,18,234,18,54
+%N A059137 A hierarchical sequence (W3{2,2}cc - see A059126).
+%H A059137 J. Wallgren, <a href="/A059126/a059126.txt">Hierarchical sequences</a>
+%F A059137 a(n) = 18*A037227(n) (from Mitch Harris, Jun 29 2005)
+%K A059137 easy,nonn
+%O A059137 0,1
+%A A059137 _Jonas Wallgren_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

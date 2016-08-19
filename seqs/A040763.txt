@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040763
+Showing 1-1 of 1
+
+%I A040763
+%S A040763 28,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,
+%T A040763 7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,
+%U A040763 56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56,7,56
+%N A040763 Continued fraction for sqrt(792).
+%H A040763 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040763 a(n)=(1/2)*[63+49*(-1)^n]-28*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 20 2009]
+%p A040763 with(numtheory): Digits := 300: convert(evalf(sqrt(792)),confrac);
+%K A040763 nonn,cofr,easy
+%O A040763 0,1
+%A A040763 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023864
+Showing 1-1 of 1
+
+%I A023864
+%S A023864 1,2,7,11,27,44,91,147,278,450,806,1304,2257,3652,6181,10001,16677,
+%T A023864 26984,44551,72085,118220,191284,312300,505312,822513,1330854,2161907,
+%U A023864 3498039,5674751,9181940
+%N A023864 a(n) = s(1)t(n)+s(2)t(n-1)+...+s(k)t(n+1-k), where k=[ (n+1)/2 ], s = (natural numbers), t = ( F(2), F(3), F(4), ... ).
+%C A023864 Essentially the same as A024857 with different indexing.
+%F A023864 Conjecture: G.f.: x*(-1-x^5-2*x^2-x)/((x^2+x-1)*(x^4+x^2-1)^2) [From Maksym Voznyy (voznyy(AT)mail.ru), Jul 27 2009]
+%K A023864 nonn
+%O A023864 1,2
+%A A023864 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

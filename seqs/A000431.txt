@@ -1,0 +1,41 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000431
+Showing 1-1 of 1
+
+%I A000431 M2089 N0824
+%S A000431 0,0,0,2,16,88,416,1824,7680,31616,128512,518656,2084864,8361984,
+%T A000431 33497088,134094848,536608768,2146926592,8588754944,34357248000,
+%U A000431 137433710592,549744803840,2199000186880,8796044787712,35184271425536,140737278640128,562949517213696
+%N A000431 Expansion of 2*x^3/((1-2*x)^2*(1-4*x)).
+%C A000431 Number of permutations of length n with exactly one valley. Also (for n>0), the number of ways to pick two of the 2^(n-1) vertices of an n-1 cube that are not connected by an edge. - _Aaron Meyerowitz_, Apr 21 2014
+%C A000431 a(n+1), n >= 1: Number of independent vertex pairs for Q_n, n >= 1: 2^(n-1) * (2^n - (n+1)) = T_(2^n - 1) - n * 2^(n-1) = L_n - E_n = A006516(n) - A001787(n), where L_n is the number of vertex pairs and E_n is the number of vertex pairs yielding edges. (Cf. A027624.) - _Daniel Forgues_, Feb 19 2015
+%D A000431 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 261.
+%D A000431 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000431 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000431 T. D. Noe, <a href="/A000431/b000431.txt">Table of n, a(n) for n = 0..200</a>
+%H A000431 S. Billey, K. Burdzy and B. E. Sagan, <a href="http://arxiv.org/abs/1209.0693">Permutations with given peak set</a>, arXiv preprint arXiv:1209.0693 [math.CO], 2012. - From _N. J. A. Sloane_, Dec 26 2012
+%H A000431 C. J. Fewster, D. Siemssen, <a href="http://arxiv.org/abs/1403.1723">Enumerating Permutations by their Run Structure</a>, arXiv preprint arXiv:1403.1723 [math.CO], 2014.
+%H A000431 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A000431 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A000431 R. G. Rieper and M. Zeleke, <a href="http://arXiv.org/abs/math.CO/0005180">Valleyless Sequences</a>, arXiv:math/0005180 [math.CO], 2000.
+%H A000431 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (8,-20,16)
+%F A000431 From _Mitch Harris_, Apr 02 2004: (Start)
+%F A000431 a(n) = Sum[k A007814(k), {k, 1, 2^(n+1) - 1}].
+%F A000431 a(n) = (4^n - n 2^(n+1))/8 for n >= 1.
+%F A000431 (End)
+%F A000431 a(n) = 2*A100575(n-1). - _R. J. Mathar_, Mar 14 2011
+%F A000431 a(n) = 2^(n-2) * (2^(n-1) - n), n >= 1. - _Daniel Forgues_, Feb 24 2015
+%p A000431 A000431:=-2/(4*z-1)/(-1+2*z)**2; # conjectured by _Simon Plouffe_ in his 1992 dissertation
+%p A000431 a:= n-> if n=0 then 0 else (Matrix([[2,0,0]]). Matrix(3, (i,j)-> if (i=j-1) then 1 elif j=1 then [8,-20,16][i] else 0 fi)^(n-1))[1,3] fi: seq(a(n), n=0..30); # _Alois P. Heinz_, Aug 26 2008
+%t A000431 nn = 30; CoefficientList[Series[2*x^3/((1 - 2*x)^2*(1 - 4*x)), {x, 0, nn}], x] (* _T. D. Noe_, Jun 20 2012 *)
+%t A000431 Join[{0}, LinearRecurrence[{8, -20, 16}, {0, 0, 2}, 30]] (* _Jean-François Alcover_, Jan 31 2016 *)
+%o A000431 (MAGMA) [0] cat [(4^n - n*2^(n+1))/8: n in [1..30]]; // _Vincenzo Librandi_, Feb 18 2015
+%o A000431 (PARI) concat(vector(3), Vec(2*x^3/((1-2*x)^2*(1-4*x)) + O(x^40))) \\ _Michel Marcus_, Jan 31 2016
+%Y A000431 Cf. A000487, A000517, A027624.
+%Y A000431 Column k=1 of A008303.
+%K A000431 nonn,easy
+%O A000431 0,4
+%A A000431 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

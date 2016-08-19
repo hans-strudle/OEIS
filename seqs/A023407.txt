@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023407
+Showing 1-1 of 1
+
+%I A023407
+%S A023407 6,3,3,6,6,3,6,3,6,3,3,3,3,3,6,3,3,3,6,3,3,3,3,3,6,6,3,3,6,3,3,6,3,6,
+%T A023407 3,3,3,6,3,6,3,6,6,3,3,6,3,6,6,6,3,3,3,3,6,6,3,6,3,3,3,6,6,6,3,6,3,3,
+%U A023407 6,6,6,3,6,6,3,3,6,3,3,3,6,3,3,6,3,6,3,3,6,6,3,3,6,3,3,6,3,3,6,3,6,3,6,3,6,3,3,3
+%N A023407 If any power of 2 ends with k 3's and 6's, they must be the first k elements of this sequence in reverse order.
+%H A023407 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+%Y A023407 a(n)=3*A023396(n)
+%K A023407 nonn
+%O A023407 0,1
+%A A023407 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003130
+Showing 1-1 of 1
+
+%I A003130 M4873
+%S A003130 1,12,157,1750,17446,164108,1505099,13720902,125782441,1167813944,
+%T A003130 11029947952,106273227216,1046320856673,10537366304920,
+%U A003130 108606982421301,1145873284492738,12375688888657414,136802023177966948,1547385154016264531
+%N A003130 Impedances of an n-terminal network.
+%D A003130 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003130 J. Riordan, <a href="https://archive.org/details/bstj18-2-300">The number of impedances of an n-terminal network</a>, Bell Syst. Tech. J., 18 (1939), 300-314.
+%F A003130 a(n) = A003128(n) + 2 * A003129(n) + U(n) where U(n) = sum(u(n) * Stirling2(n, k), k=2..n) and u(n) = (20(n)_4 + 10(n)_5 + (n)_6) / 8 where (n)_k = n * (n - 1) * ... * (n - k + 1) denotes the falling factorial. - _Sean A. Irvine_, Feb 03 2015
+%Y A003130 Cf. A003128, A003129.
+%K A003130 nonn
+%O A003130 2,2
+%A A003130 _N. J. A. Sloane_.
+%E A003130 More terms from _Sean A. Irvine_, Feb 03 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

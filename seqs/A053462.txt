@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053462
+Showing 1-1 of 1
+
+%I A053462
+%S A053462 0,6,61,608,6083,60794,607926,6079291,60792694,607927124,6079270942,
+%T A053462 60792710280,607927102274,6079271018294,60792710185947,
+%U A053462 607927101854103,6079271018540405,60792710185403794
+%N A053462 Number of positive squarefree integers less than 10^n.
+%C A053462 a(n)/10^n = 6/Pi^2*(1+o(1)), cf. A059956.
+%H A053462 G. P. Michon, <a href="http://www.numericana.com/answer/counting.htm#euler193">On the number of squarefree integers not exceeding N</a>. [From _Gerard P. Michon_, Apr 30 2009]
+%e A053462 There are 608 squarefree integers smaller than 1000.
+%t A053462 a[n_] := Module[{t=10^n-1}, Sum[MoebiusMu[k]Floor[t/k^2], {k, 1, Sqrt[t]}]]
+%o A053462 (PARI) a(n)=sum(d=1,sqrtint(n=10^n-1),moebius(d)*n\d^2) \\ _Charles R Greathouse IV_, Nov 14 2012
+%Y A053462 Cf. A059956, A063035.
+%Y A053462 Apart from initial term, same as A071172.
+%Y A053462 Binary counterpart is A143658. [From _Gerard P. Michon_, Apr 30 2009]
+%K A053462 nonn
+%O A053462 1,2
+%A A053462 _Harvey P. Dale_, Aug 01 2001
+%E A053462 More terms from _Dean Hickerson_ and _Vladeta Jovovic_, Aug 06, 2001
+%E A053462 One more term from _Jud McCranie_, Sep 01 2005
+%E A053462 a(0)=0 and a(14)-a(17) from _Gerard P. Michon_, Apr 30 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

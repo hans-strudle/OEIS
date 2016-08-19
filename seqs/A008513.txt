@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008513
+Showing 1-1 of 1
+
+%I A008513
+%S A008513 0,64,728,4032,14896,42560,102024,215488,413792,737856,1240120,
+%T A008513 1985984,3055248,4543552,6563816,9247680,12746944,17235008,22908312,
+%U A008513 29987776,38720240,49379904,62269768
+%N A008513 Number of points on surface of 6-dimensional cube.
+%H A008513 Vincenzo Librandi, <a href="/A008513/b008513.txt">Table of n, a(n) for n = 0..10000</a>
+%H A008513 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A008513 G.f.: 8*x*(8+43*x+78*x^2+43*x^3+8*x^4)/(x-1)^6 [Colin Barker, Jan 02 2012]
+%F A008513 a(n) = 12n^5 + 40n^3 + 12n. [_Charles R Greathouse IV_, Jan 02 2012]
+%p A008513 (n+1)^6-(n-1)^6;
+%o A008513 (MAGMA) [(n+1)^6-(n-1)^6: n in [0..30]]; // Vincenzo Librandi, Aug 27 2011
+%o A008513 (PARI) a(n)=n++^6-(n-2)^6 \\ _Charles R Greathouse IV_, Jan 02 2012
+%K A008513 nonn,easy
+%O A008513 0,2
+%A A008513 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

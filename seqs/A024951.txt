@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024951
+Showing 1-1 of 1
+
+%I A024951
+%S A024951 1,1,5,5,5,30,55,80,230,530,1080,2505,5555,15130,34705,80530,197855,
+%T A024951 511455,1249430,2966155,7334380,18923630,46926130,114708755,287150005,
+%U A024951 741017280,1860971930,4628582080,11629943105,30291303280,76640090080,192409197255
+%N A024951 a(n) = Sum(a(2i-1)*a(n-2i+1), i = 1,2,...,[ (n+2)/4 ]).
+%K A024951 nonn
+%O A024951 4,3
+%A A024951 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

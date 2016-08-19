@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028370
+Showing 1-1 of 1
+
+%I A028370
+%S A028370 1,4,192,5160960,685597979049984000,
+%T A028370 565069169599661316277495386764665159680000000
+%N A028370 (2^(n-1))!*2^(2^(n-1)-1).
+%D A028370 I. Strazdins, Universal affine classification of Boolean functions, Acta Applic. Math. 46 (1997), 147-167.
+%H A028370 Vincenzo Librandi, <a href="/A028370/b028370.txt">Table of n, a(n) for n = 1..11</a>
+%o A028370 (MAGMA) [Factorial(2^(n-1))*2^(2^(n-1)-1): n in [1..7]]; // Vincenzo Librandi, Jun 03 2011
+%K A028370 nonn
+%O A028370 1,2
+%A A028370 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

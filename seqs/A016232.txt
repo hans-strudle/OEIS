@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016232
+Showing 1-1 of 1
+
+%I A016232
+%S A016232 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,
+%T A016232 0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,2,0,0,1,0,
+%U A016232 0,1,0,0,2,0,0,1,0,0,1,0,0,1,0,0
+%V A016232 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,
+%W A016232 0,0,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,1,0,0,-2,0,0,1,0,
+%X A016232 0,1,0,0,-2,0,0,1,0,0,1,0,0,-1,0,0
+%N A016232 Inverse of 2223rd cyclotomic polynomial.
+%H A016232 Robert Israel, <a href="/A016232/b016232.txt">Table of n, a(n) for n = 0..10000</a>
+%F A016232 From _Robert Israel_, Apr 19 2016: (Start)
+%F A016232 G.f.: 1/C_2223(x), where C_n(x) is the n-th cyclotomic polynomial.
+%F A016232 a(n) = 0 if n is not divisible by 3.
+%F A016232 a(3*n) = A014750(n).- (End)
+%p A016232 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016232 sign
+%O A016232 0,61
+%A A016232 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

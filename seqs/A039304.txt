@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039304
+Showing 1-1 of 1
+
+%I A039304
+%S A039304 1,4,22,151,1051,7354,51472,360301,2522101,17654704,123582922,
+%T A039304 865080451,6055563151,42388942054,296722594372,2077058160601,
+%U A039304 14539407124201,101775849869404,712430949085822,4987016643600751,34909116505205251
+%N A039304 Number of distinct quadratic residues mod 7^n.
+%C A039304 Number of distinct n-digit suffixes of base 7 squares.
+%H A039304 Vincenzo Librandi, <a href="/A039304/b039304.txt">Table of n, a(n) for n = 0..200</a>
+%H A039304 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (7,1,-7).
+%F A039304 a(n) = floor( (7^n+3)*7/16 ).
+%F A039304 G.f.: (1-3*x-7*x^2)/((1-x)*(1+x)*(1-7*x)). [Colin Barker, Mar 08 2012]
+%F A039304 a(n) = 7*a(n-1) +a(n-2) -7*a(n-3). _Vincenzo Librandi_, Apr 21 2012
+%t A039304  CoefficientList[Series[(1-3*x-7*x^2)/((1-x)*(1+x)*(1-7*x)),{x,0,40}],x] (* _Vincenzo Librandi_, Apr 21 2012 *)
+%o A039304 (MAGMA) [Floor((7^n+3)*7/16): n in [0..25]]; // Vincenzo Librandi, May 14 2011
+%o A039304 (MAGMA) I:=[1, 4, 22]; [n le 3 select I[n] else 7*Self(n-1)+Self(n-2)-7*Self(n-3): n in [1..30]]; // _Vincenzo Librandi_, Apr 21 2012
+%K A039304 nonn,easy
+%O A039304 0,2
+%A A039304 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000778
+Showing 1-1 of 1
+
+%I A000778
+%S A000778 1,2,6,18,55,173,560,1858,6291,21657,75581,266797,950911,3417339,
+%T A000778 12369284,45052514,165002459,607283489,2244901889,8331383609,
+%U A000778 31030387439,115948830659,434542177289,1632963760973,6151850548775,23229299473603,87900903988155
+%N A000778 Catalan(n) + Catalan(n+1) - 1.
+%D A000778 J. R. Stembridge, Some combinatorial aspects of reduced words in finite Coxeter groups. Trans. Amer. Math. Soc. 349 (1997), no. 4, 1285-1332.
+%H A000778 T. D. Noe, <a href="/A000778/b000778.txt">Table of n, a(n) for n = 0..200</a>
+%t A000778 Table[CatalanNumber[n] + CatalanNumber[n + 1] - 1, {n, 0, 200}] (* _T. D. Noe_, Jun 20 2012 *)
+%Y A000778 Cf. A000108.
+%Y A000778 Equals A005807(n) - 1. Cf. A071716.
+%K A000778 nonn
+%O A000778 0,2
+%A A000778 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

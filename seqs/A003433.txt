@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003433
+Showing 1-1 of 1
+
+%I A003433 M1291
+%S A003433 1,2,4,16,48,160,576,4096,14336,73728,327680,2985984,14929920,
+%T A003433 77635584,418037760,4294967296,21474836480,146028888064,894426939392,
+%U A003433 10240000000000,59392000000000
+%N A003433 Hadamard maximal determinant problem: largest determinant of (+1,-1)-matrix of order n.
+%D A003433 Ed Hughes and Rob Pratt, New Features in SAS/OR 13.1, SAS Paper SAS256-2014; file:///Users/njasloane/Downloads/SAS256_Hughes_FinalPaper.pdf
+%D A003433 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003433 See A003432 for further references, links and formulae.
+%H A003433 Richard P. Brent and Judy-anne H. Osborn, <a href="http://arxiv.org/abs/1208.3819">On minors of maximal determinant matrices</a>, arXiv preprint arXiv:1208.3819, 2012.
+%H A003433 W. P. Orrick and B. Solomon, <a href="http://dx.doi.org/10.1016/j.disc.2006.04.041">Large-determinant sign matrices of order 4k+1</a>, Discr. Math. 307 (2007), 226-236.
+%H A003433 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/-11-Matrix.html">-11-Matrix</a>
+%H A003433 <a href="/index/Mat#binmat">Index entries for sequences related to binary matrices</a>
+%H A003433 <a href="/index/Ha#Hadamard">Index entries for sequences related to Hadamard matrices</a>
+%H A003433 <a href="/index/De#determinants">Index entries for sequences related to maximal determinants</a>
+%F A003433 a(n) = 2^(n-1)*A003432(n-1). E.g., a(6) = 32*A003432(5) = 32*5 = 160.
+%F A003433 a(n) <= n^(n/2).
+%Y A003433 A003432 is the main entry for this sequence.
+%Y A003433 Cf. A051753.
+%Y A003433 Cf. A188895 (number of distinct matrices having this maximal determinant).
+%K A003433 nonn,hard,nice
+%O A003433 1,2
+%A A003433 _N. J. A. Sloane_
+%E A003433 Added a(19)-a(21).
+%E A003433 Edited by _William P. Orrick_, Dec 20 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

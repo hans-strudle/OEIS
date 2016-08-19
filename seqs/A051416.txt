@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051416
+Showing 1-1 of 1
+
+%I A051416
+%S A051416 89,449,499,4649,4889,4969,4999,6449,6469,6689,6869,6899,6949,8669,
+%T A051416 8689,8699,8849,8969,8999,9649,9689,9949,44449,44699,46489,46499,
+%U A051416 46649,46889,48449,48649,48869,48889,48989,49499,49669,49999,64489,64499,64849,64969,66449
+%N A051416 Primes whose digits are composite.
+%H A051416 Chris Caldwell, The Prime Glossary, <a href="http://primes.utm.edu/glossary/xpage/Composite.html">Composite number</a>
+%H A051416 G. L. Honaker, Jr. and Chris Caldwell, <a href="http://primes.utm.edu/curios/cpage/646.html">Prime Curios! 89</a>
+%t A051416 Select[Prime@Range[6500], Intersection[IntegerDigits[ # ], {0, 1, 2, 3, 5, 7}] == {} & ] (* _Ray Chandler_, Mar 04 2007 *)
+%Y A051416 Cf. A019546, A061372.
+%K A051416 nonn,easy,base,less
+%O A051416 1,1
+%A A051416 _G. L. Honaker, Jr._, Jan 17 2000
+%E A051416 Extended by _Ray Chandler_, Mar 04 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

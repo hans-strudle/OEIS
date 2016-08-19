@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039824
+Showing 1-1 of 1
+
+%I A039824
+%S A039824 1,2,4,11,20,31,46,61,78,97,118,141,166,193,222,253,286,321,358,397,
+%T A039824 438,481,526,573,622,673,726,781,838,897,958,1021,1086,1153,1222,1293,
+%U A039824 1366,1441,1518,1597,1678,1761,1846,1933,2022,2113,2206,2301,2398,2497
+%N A039824 Number of different coefficient values in expansion of Product (1+q^1+q^3...+q^(2i-1)), i=1 to n.
+%C A039824 Conjecture: for n>6, a(n) = n^2 - 3. - _Ralf Stephan_, Mar 07 2004
+%Y A039824 Cf. A028872.
+%K A039824 nonn
+%O A039824 1,2
+%A A039824 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

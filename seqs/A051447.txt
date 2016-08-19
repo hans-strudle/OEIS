@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051447
+Showing 1-1 of 1
+
+%I A051447
+%S A051447 1,7,2228071,16888457,352978207,1737848873,77362855777,567442642711
+%N A051447 Integers n such that 2^n == 9 (mod n).
+%C A051447 No other terms below 10^15. [From _Max Alekseyev_, May 20 2012]
+%H A051447 Joe K. Crump, <a href="http://web.archive.org/web/20070614175509/http://www.immortaltheory.com/NumberTheory/2nmodn.htm">2^n mod n</a>
+%Y A051447 Cf. A125000, A124974, A033983, A033982, A033981, A050259, A124977, A124965, A015911, A015910.
+%Y A051447 Cf. A033981, A033982, A033983.
+%K A051447 hard,nonn,more
+%O A051447 1,2
+%A A051447 Joe K. Crump (joecr(AT)carolina.rr.com)
+%E A051447 Edited by _N. J. A. Sloane_, Jun 22 2008, at the suggestion of Don Reble.
+%E A051447 Terms 1, 7 prepended by _Max Alekseyev_, May 18 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

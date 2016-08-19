@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052020
+Showing 1-1 of 1
+
+%I A052020
+%S A052020 12,20,21,30,50,70,102,110,111,120,133,140,200,201,209,210,230,247,
+%T A052020 300,308,320,322,364,407,410,476,481,500,506,511,605,629,700,704,715,
+%U A052020 782,803,832,874,902,935,1002,1010,1011,1015,1020,1040,1066,1088,1100,1101
+%N A052020 Sum of digits of n is a prime factor of n.
+%Y A052020 Cf. A052018, A052019, A052021, A052022, A007953, A005349, A028834.
+%K A052020 nonn,base,easy
+%O A052020 0,1
+%A A052020 _Patrick De Geest_, Nov 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

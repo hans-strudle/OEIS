@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044500
+Showing 1-1 of 1
+
+%I A044500
+%S A044500 17,53,89,107,125,161,197,233,269,305,323,341,377,413,449,485,521,539,
+%T A044500 557,593,647,665,701,737,755,773,809,845,881,917,953,971,989,1025,
+%U A044500 1061,1097,1133,1169,1187,1205,1241,1277,1313,1349
+%N A044500 Numbers n such that string 2,5 occurs in the base 6 representation of n but not of n+1.
+%K A044500 nonn,base
+%O A044500 1,1
+%A A044500 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

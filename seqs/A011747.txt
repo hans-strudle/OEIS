@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011747
+Showing 1-1 of 1
+
+%I A011747
+%S A011747 1,0,0,1,0,0,1,1,0,0,0,0,1,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,1,1,1,1,0,0,
+%T A011747 1,0,0,1,1,0,0,0,0,1,0,1,1,0,1,0,1,0,0,0,1,1,1,0,1,1,1,1,1,0,0,1,0,0,
+%U A011747 1,1,0,0,0,0,1,0,1,1,0,1,0
+%N A011747 Expansion of (1+x^2+x^4)/(1+x^2+x^3+x^4+x^5) mod 2.
+%D A011747 R. Gold, Characteristic linear sequences and their coset functions, J. SIAM Applied. Math., 14 (1966), 980-985.
+%H A011747 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>
+%p A011747 series((1+x^2+x^4)/(1+x^2+x^3+x^4+x^5),x,100) mod 2;
+%K A011747 nonn
+%O A011747 0,1
+%A A011747 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

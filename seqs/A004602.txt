@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004602
+Showing 1-1 of 1
+
+%I A004602
+%S A004602 1,0,0,1,0,2,1,1,0,1,2,2,2,2,0,1,0,2,1,1,0,0,2,1,1,1,1,1,0,2,2,1,2,2,
+%T A004602 2,2,2,0,1,1,1,2,0,1,2,1,2,1,2,1,2,0,0,1,2,1,1,0,0,1,0,0,1,0,1,2,2,2,
+%U A004602 0,2,2,2,1,2,0,1,2,0,1,2,1,1,1,2,1,0,1,2,1,0,1,1,2,0,0,2,2,0,1
+%N A004602 Expansion of Pi in base 3.
+%H A004602 Steve Pagliarulo, <a href="http://members.shaw.ca/francislyster/pi/pistats/pibase3.pdf">Stu's pi page: base 3</a> (23 pages)
+%t A004602 RealDigits[ N[ Pi, 105], 3] [[1]]
+%Y A004602 Pi in base b: A004601 (b=2), this sequence (b=3), A004603 (b=4), A004604 (b=5), A004605 (b=6), A004606 (b=7), A006941 (b=8), A004608 (b=9), A000796 (b=10), A068436 (b=11), A068437 (b=12), A068438 (b=13), A068439 (b=14), A068440 (b=15), A062964 (b=16), A060707 (b=60).
+%Y A004602 Cf. A007514.
+%K A004602 nonn,base,cons,easy
+%O A004602 2,6
+%A A004602 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

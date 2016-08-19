@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045181
+Showing 1-1 of 1
+
+%I A045181
+%S A045181 50,127,135,175,251,253,254,255,265,270,275,325,350,377,385,425,502,
+%T A045181 510,550,632,636,638,639,642,647,652,660,676,678,679,680,690,695,702,
+%U A045181 710,727,735,752,760,800,876,878,879,880,890,895
+%N A045181 Numbers n with property that in base 5 representation the numbers of 0's and 2's are 2 and 1, respectively.
+%t A045181 Select[Range[1000],DigitCount[#,5,0]==2&&DigitCount[#,5,2]==1&]  [From _Harvey P. Dale_, Feb 02 2011]
+%K A045181 nonn,base
+%O A045181 1,1
+%A A045181 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

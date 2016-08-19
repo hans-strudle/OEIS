@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014116
+Showing 1-1 of 1
+
+%I A014116
+%S A014116 2,8,1152,696729600,89181388800,48126558103142400,
+%T A014116 409825748158189771161600,55428899652335313894424707072000
+%N A014116 Order of automorphism group of Barnes-Wall lattice in dimension 2^n.
+%D A014116 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 129.
+%D A014116 G. E. Wall, On the Clifford collineation..., Nagoya Math. J., 21 (1962), pp. 199-222.
+%H A014116 A. R. Calderbank, E. M. Rains, P. W. Shor and N. J. A. Sloane, <a href="http://arXiv.org/abs/quant-ph/9608006">Quantum error correction via codes over GF(4)</a>, IEEE Trans. Inform. Theory, 44 (1998), 1369-1387.
+%H A014116 <a href="/index/Ba#BW">Index entries for sequences related to Barnes-Wall lattices</a>
+%p A014116 2^(n^2+n+1) * (2^n - 1) * product('2^(2*i)-1','i'=1..n-1); # except for n=3.
+%Y A014116 Agrees with A014115 except at n=3. Equals half of A001309. Cf. A003956.
+%K A014116 nonn
+%O A014116 0,1
+%A A014116 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

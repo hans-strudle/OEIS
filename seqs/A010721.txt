@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010721
+Showing 1-1 of 1
+
+%I A010721
+%S A010721 5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,
+%T A010721 10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,5,10,
+%U A010721 5,10,5,10,5,10,5,10,5,10,5,10
+%N A010721 Period 2: repeat (5,10).
+%H A010721 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1)
+%F A010721 a(n)=-5/2*(-1)^n+15/2 =10*(n mod 2)+5*[(n+1) mod 2] - _Paolo P. Lava_, Oct 27 2006
+%F A010721 G.f.: 5(1+2x)/((1-x)(1+x)). a(n)=5*A000034(n). [From R. J. Mathar, Oct 20 2008]
+%Y A010721 Cf. A176325.
+%K A010721 nonn
+%O A010721 0,1
+%A A010721 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

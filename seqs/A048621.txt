@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048621
+Showing 1-1 of 1
+
+%I A048621
+%S A048621 0,1,1,2,2,3,2,3,4,5,4,5,5,6,5,6,5,6,5,6,7,8,6,7,8,9,10,11,10,11,8,9,
+%T A048621 10,11,10,11,11,12,11,12,11,12,11,12,14,15,12,13,13,14,14,15,13,14,13,
+%U A048621 14,15,16,14,15,15,16,14,15,15,16,15,16,16,17,14,15,15,16,17,18,18,19
+%N A048621 Central value of p(C(n,[ n/2 ])), where p()=A001222 (prime factors with multiple counting) applied to A001405(n).
+%F A048621 A001222(A001405(n))=a(n)
+%e A048621 n=24: the sums of prime factor exponents when k runs from 0 to 24 is {0,4,4,5,5,7,6,8,6,8,8,9,7,9,8,8,6,8,6,7,5,5,4,4,0}. The central value is 7, so a(24)=7.
+%Y A048621 A001222, A001221, A046660, A034973, A034974.
+%K A048621 nonn
+%O A048621 1,4
+%A A048621 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

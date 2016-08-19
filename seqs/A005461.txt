@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005461
+Showing 1-1 of 1
+
+%I A005461 M4985
+%S A005461 1,15,180,2100,25200,317520,4233600,59875200,898128000,14270256000,
+%T A005461 239740300800,4249941696000,79332244992000,1556132497920000,
+%U A005461 32011868528640000,689322235650048000,15509750302126080000,364022962973429760000,8898339094906060800000
+%N A005461 Number of simplices in barycentric subdivision of n-simplex.
+%D A005461 R. Austin, R. K. Guy, and R. Nowakowski, unpublished notes, circa 1987.
+%D A005461 R. K. Guy, personal communication.
+%D A005461 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005461 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+%F A005461 a(n) = n(n + 1)(n + 3)!/48.
+%F A005461 Essentially Stirling numbers of second kind - see A028246.
+%F A005461 If we define f(n,i,x) = sum(sum(binomial(k,j)*stirling1(n,k) *stirling2(j,i) *x^(k-j), j=i..k), k=i..n) then a(n-3)=(-1)^n*f(n,4,-3), (n>=4). - _Milan Janjic_, Mar 01 2009
+%e A005461 G.f. = x + 15*x^2 + 180*x^3 + 2100*x^4 + 25200*x^5 + 317520*x^6 + ...
+%p A005461 a:=n->sum((n-j)*n!/4!, j=3..n): seq(a(n), n=4..17); # _Zerinvary Lajos_, Apr 29 2007
+%t A005461 Table[(n(n+1)(n+3)!)/48,{n,20}] (* _Harvey P. Dale_, Mar 14 2012 *)
+%t A005461 a[ n_] := If[ n < 0, 0, n (n + 1) (n + 3)! / 48]; (* _Michael Somos_, May 27 2014 *)
+%o A005461 (Sage) [factorial(m+1)*binomial(m-1,2)/24 for m in xrange(3, 19)] # _Zerinvary Lajos_, Jul 05 2008
+%o A005461 (Sage) [binomial(n,4)*factorial (n-2)/2 for n in xrange(4, 18)] #  _Zerinvary Lajos_, Jul 07 2009
+%K A005461 nonn,easy,nice
+%O A005461 1,2
+%A A005461 _N. J. A. Sloane_.
+%E A005461 More terms from _Harvey P. Dale_, Mar 14 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035089
+Showing 1-1 of 1
+
+%I A035089
+%S A035089 2,3,5,17,17,97,193,257,257,7681,12289,12289,12289,40961,65537,65537,
+%T A035089 65537,786433,786433,5767169,7340033,23068673,104857601,167772161,
+%U A035089 167772161,167772161,469762049,2013265921,3221225473,3221225473
+%N A035089 Smallest prime of form 2^n*k+1.
+%t A035089 a = {}; Do[k = 0; While[ !PrimeQ[k 2^n + 1], k++ ]; AppendTo[a, k 2^n + 1], {n, 1, 50}]; a (* _Artur Jasinski_ *)
+%o A035089 (PARI) a(n)=for(k=1,9e99,if(ispseudoprime(k<<n+1),return(k<<n+1))) \\ _Charles R Greathouse IV_, Jul 06 2011
+%Y A035089 Analogous case is A034694. Fermat primes (A000215) are a subset. See also Fermat numbers A000051.
+%Y A035089 Cf. A007522, A127575, A127576, A127577, A127578, A127580, A127581, A087522, A127586, A127587.
+%K A035089 nonn
+%O A035089 0,1
+%A A035089 _Labos Elemer_
+%E A035089 a(0) from _Joerg Arndt_, Jul 06 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

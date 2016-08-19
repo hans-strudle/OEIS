@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030996
+Showing 1-1 of 1
+
+%I A030996
+%S A030996 2,2,5,2,7,113,29,107,211,691,23,11,5,71,277,181,13,307,43,223,43,167,
+%T A030996 31,23,151,29,67,383,19,53,53,277,541,37,103,127,947,79,4409,1699,13,
+%U A030996 73,31,107,751,1187,1069,859,67,229,293,47,1303,2909,1319
+%N A030996 Concatenation of n consecutive primes starting with the prime a(n) is a prime.
+%H A030996 Zak Seidov, <a href="/A030996/b030996.txt">Table of n, a(n) for n = 1..100</a>
+%Y A030996 Cf. A030997.
+%K A030996 nonn,base
+%O A030996 1,1
+%A A030996 _Patrick De Geest_, _Warut Roonguthai_
+%E A030996 Edited by _Charles R Greathouse IV_, Apr 30 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

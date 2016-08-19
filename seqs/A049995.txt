@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049995
+Showing 1-1 of 1
+
+%I A049995
+%S A049995 0,0,0,1,2,3,4,6,7,10,11,14,15,18,21,25,26,30,31,37,40,44,45,51,55,59,
+%T A049995 62,69,70,79,80,86,89,94,101,111,112,117,120,132,133,143,144,152,162,
+%U A049995 168,169,180,184,196,200,209,210,221,230,242
+%N A049995 Number of arithmetic progressions of 4 or more positive integers, nondecreasing with sum <=n.
+%K A049995 nonn
+%O A049995 1,5
+%A A049995 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

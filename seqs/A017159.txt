@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017159
+Showing 1-1 of 1
+
+%I A017159
+%S A017159 1977326743,8649755859375,952809757913927,25408476896404831,
+%T A017159 317475837322472439,2472159215084012303,13931233916552734375,
+%U A017159 62050608388552823487,231122292121701565271,747993810527520928879
+%N A017159 (8*n+7)^11.
+%H A017159 Vincenzo Librandi, <a href="/A017159/b017159.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017159 (MAGMA) [(8*n+7)^11: n in [0..15]]; // Vincenzo Librandi, Jul 22 2011
+%K A017159 nonn,easy
+%O A017159 0,1
+%A A017159 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

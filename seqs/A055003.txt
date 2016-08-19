@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055003
+Showing 1-1 of 1
+
+%I A055003
+%S A055003 2,3,7,13,29,37,53,61,79,107,113,151,173,181,199,239,271,281,317,349,
+%T A055003 359,397,421,457,503,541,557,577,593,613,701,733,769,787,857,863,911,
+%U A055003 953,983,1021,1061,1069,1151,1163,1193,1213,1291,1399,1429
+%N A055003 ithprime(ithprime(n)-1).
+%C A055003 Noncomposites (A008578) with prime (A000040) subscripts. a(n) = noncomposite(prime(n)) = A008578(A000040(n)). Subsequence of A175248 (noncomposites (A008578) with noncomposite (A008578) subscripts), a(n) = A175248(n+1). a(n) U A175249(n) = A008578(n). [From _Jaroslav Krizek_, Mar 13 2010]
+%e A055003 a(5) = 29 because a(5) = q(p(5)) = q(11) = 29, p = prime, q = noncomposite. [From _Jaroslav Krizek_, Mar 13 2010]
+%p A055003 with(numtheory): [seq(ithprime(ithprime(i)-1),i=1..70)];
+%K A055003 nonn
+%O A055003 1,1
+%A A055003 _N. J. A. Sloane_, Jun 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

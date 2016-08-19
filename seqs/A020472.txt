@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020472
+Showing 1-1 of 1
+
+%I A020472
+%S A020472 89,8999,89899,89989,98899,98999,99989,888989,898889,989999,998989,
+%T A020472 8888989,8889889,8988989,8989999,8998889,8999899,9888889,9889889,
+%U A020472 9899999,9989899,9999889,88888999,88898989,88989899,89888989,89889889,89898889
+%N A020472 Primes that contain digits 8 and 9 only.
+%C A020472 Or, primes with minimal digit 8.
+%H A020472 Vincenzo Librandi, <a href="/A020472/b020472.txt">Table of n, a(n) for n = 1..1000</a>
+%H A020472 <a href="/index/Pri#PrimesWithDigits">Index to entries about primes with digits in a given set</a>
+%t A020472 Select[Prime[Range[80000]], Min[IntegerDigits[ # ]]==8&] - _Zak Seidov_, May 07 2005
+%t A020472 Flatten[Table[Select[FromDigits/@Tuples[{8,9},n],PrimeQ],{n,8}]] (* _Vincenzo Librandi_, Jul 27 2012 *)
+%o A020472 (PARI) for(nd=1,9, p=vector(nd,i,10^(nd-i))~; forvec(v=vector(nd,i,[8+(i==nd),9]), isprime(v*p) && print1(v*p","))) \\ _M. F. Hasler_, Mar 18 2010
+%Y A020472 Cf. A020449 (digits 0 & 1), ..., A020471 (digits 7 & 9). [From _M. F. Hasler_, Mar 18 2010]
+%K A020472 nonn,base
+%O A020472 1,1
+%A A020472 _David W. Wilson_
+%E A020472 Edited by _N. J. A. Sloane_, Jan 26 2008 at the suggestion of Lekraj Beedasy
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

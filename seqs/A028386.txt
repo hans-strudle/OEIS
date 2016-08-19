@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028386
+Showing 1-1 of 1
+
+%I A028386
+%S A028386 1,2,4,26,44,101,693,2173,2229,4228,6010,26466,26906,31926,44059,
+%T A028386 1258723,1965117,1979130,2684561,13280839,59401650,84885761,100058581,
+%U A028386 225563533,316882086,700457153,818049201,851649306,1345679688
+%N A028386 Numbers n such that n(3n-1)/2 is a pentagonal palindrome.
+%H A028386 P. De Geest, <a href="http://www.worldofnumbers.com/penta.htm">Palindromic Pentagonals</a>
+%Y A028386 Cf. A002069, A000326.
+%K A028386 nonn,base
+%O A028386 1,2
+%A A028386 _Patrick De Geest_, extended 11/98.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

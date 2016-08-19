@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014324
+Showing 1-1 of 1
+
+%I A014324
+%S A014324 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+%T A014324 1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,
+%U A014324 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014324 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+%W A014324 -1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,
+%X A014324 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014324 Inverse of 315th cyclotomic polynomial.
+%p A014324 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014324 sign
+%O A014324 0,1
+%A A014324 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057215
+Showing 1-1 of 1
+
+%I A057215
+%S A057215 0,1,1,0,0,1,1,0,0,1,0,1,0,1,0,1,1,0,1,0,0,1,0,1,0,1,0,1,1,0,0,1,1,0,
+%T A057215 0,1,0,1,0,1,1,0,0,1,1,0,0,1,1,0,0,1,0,1,1,0,0,1,0,1,0,1,0,1,1,0,0,1,
+%U A057215 1,0,0,1,0,1,0,1,1,0,0,1,1,0,0,1,1,0,0,1,0,1,0,1,1,0,0,1,1,0,0,1,0,1,0,1,0
+%N A057215 Analog of A026600 using instead of 1: 0,1; instead of 2: 1,0; instead of 3: 0,1.
+%C A057215 A nonperiodic sequence of 0 and 1, with one 0 and one 1 in every subsequence of three terms.
+%t A057215 Flatten[ Nest[ Flatten[ # /. {1 -> {1, 2, 3}, 2 -> {2, 3, 1}, 3 -> {3, 1, 2}}] &, {1}, 4] /. {1 -> {0, 1}, 2 -> {1, 0}, 3 -> {0, 1}}] (* _Robert G. Wilson v_, Mar 09 2005 *)
+%Y A057215 Cf. A026600.
+%K A057215 nonn
+%O A057215 0,1
+%A A057215 _Richard Blavy_, Sep 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

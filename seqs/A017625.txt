@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017625
+Showing 1-1 of 1
+
+%I A017625
+%S A017625 134217728,512000000000,35184372088832,618121839509504,
+%T A017625 5416169448144896,31087100296429568,134217728000000000,
+%U A017625 472161363286556672,1423311812421484544,3802961274698203136
+%N A017625 (12n+8)^9.
+%t A017625 (12Range[0,20]+8)^9 (* _Harvey P. Dale_, Nov 14 2011 *)
+%K A017625 nonn,easy
+%O A017625 0,1
+%A A017625 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

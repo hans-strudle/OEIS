@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013752
+Showing 1-1 of 1
+
+%I A013752
+%S A013752 13,28561,62748517,137858491849,302875106592253,665416609183179841,
+%T A013752 1461920290375446110677,3211838877954855105157369,
+%U A013752 7056410014866816666030739693
+%N A013752 13^(3n+1).
+%H A013752 Vincenzo Librandi, <a href="/A013752/b013752.txt">Table of n, a(n) for n = 0..200</a>
+%H A013752 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A013752 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2197).
+%F A013752 a(n)=2197*a(n-1), n>0 ; a(0)=13 . G.f.: 13/(1-2197*x). a(n)=A013753(n)/13 . - _Philippe Deléham_, Nov 30 2008
+%o A013752 (MAGMA) [13^(3*n+1): n in [0..15]]; // Vincenzo Librandi, Jun 27 2011
+%o A013752 (PARI) a(n)=13^(3*n+1) \\ _Charles R Greathouse IV_, Jun 27 2011
+%K A013752 nonn,easy
+%O A013752 0,1
+%A A013752 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059670
+Showing 1-1 of 1
+
+%I A059670
+%S A059670 1,2,3,13,16,20,28,83,136,300,765,1005,1395
+%N A059670 F(n)*2^n + 1 (A006483) is prime, where F(n) is the n-th Fibonacci number.
+%t A059670 Do[ If[ PrimeQ[ Fibonacci[ n ]*2^n + 1 ], Print[ n ] ], {n, 1, 3000} ]
+%Y A059670 Cf. A006483.
+%K A059670 nonn
+%O A059670 1,2
+%A A059670 _Robert G. Wilson v_, Feb 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

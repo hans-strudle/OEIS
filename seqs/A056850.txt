@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056850
+Showing 1-1 of 1
+
+%I A056850
+%S A056850 0,1,1,5,17,13,217,139,1631,3299,6487,46075,7153,502829,588665,
+%T A056850 2428309,9492289,5077565,118985033,88519643,808182895,1870418611,
+%U A056850 2978678759,25423702091,7551629537,252223018333,342842572777,1170495537221
+%N A056850 Absolute difference of 3^n and 2^k is minimal.
+%C A056850 Except for 3^0 - 2^0, 3^1 - 2^1 and 3^2 - 2^3, there are no cases where the differences are less than 4.
+%t A056850 Do[ k = 0; While[ Abs[ 3^n - 2^k ] > Abs[ 3^n - 2^(k + 1) ], k++ ]; Print[ Abs[ 3^n - 2^k ] ], {n, 0, 70} ]
+%K A056850 nonn
+%O A056850 0,4
+%A A056850 _Robert G. Wilson v_, Aug 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

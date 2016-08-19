@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036129
+Showing 1-1 of 1
+
+%I A036129
+%S A036129 1,2,4,8,16,32,5,10,20,40,21,42,25,50,41,23,46,33,7,14,28,56,53,47,35,
+%T A036129 11,22,44,29,58,57,55,51,43,27,54,49,39,19,38,17,34,9,18,36,13,26,52,
+%U A036129 45,31,3,6,12,24,48,37,15
+%N A036129 a(n) = 2^n mod 59.
+%D A036129 I. M. Vinogradov, Elements of Number Theory, pp. 220 ff.
+%p A036129 i := pi(59) ; [ seq(primroot(ithprime(i))^j mod ithprime(i),j=0..100) ];
+%o A036129 (PARI) a(n)=lift(Mod(2,59)^n) \\ _Charles R Greathouse IV_, Mar 22 2016
+%K A036129 nonn,easy
+%O A036129 0,2
+%A A036129 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

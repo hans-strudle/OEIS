@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029100
+Showing 1-1 of 1
+
+%I A029100
+%S A029100 1,1,1,1,1,2,2,2,2,3,5,5,5,5,6,8,8,8,9,11,14,14,14,15,17,20,20,21,23,
+%T A029100 26,30,30,31,33,36,40,41,43,46,50,55,56,58,61,65,71,73,76,80,85,92,94,
+%U A029100 97,101,107,115,118,122,127
+%N A029100 Expansion of 1/((1-x)(1-x^5)(1-x^9)(1-x^10)).
+%K A029100 nonn
+%O A029100 0,6
+%A A029100 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

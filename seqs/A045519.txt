@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045519
+Showing 1-1 of 1
+
+%I A045519
+%S A045519 87178291200,8841761993739701954543616000000,
+%T A045519 8222838654177922817725562880000000,
+%U A045519 8683317618811886495518194401280000000
+%N A045519 Factorials with initial digit '8'.
+%C A045519 Benford's law suggests that this sequence will contain about (log 9 - log 8)/log 10 =~ 5% of factorials. [From _Charles R Greathouse IV_, Nov 13 2010]
+%K A045519 nonn,base
+%O A045519 1,1
+%A A045519 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

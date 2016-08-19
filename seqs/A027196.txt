@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027196
+Showing 1-1 of 1
+
+%I A027196
+%S A027196 0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,3,4,5,6,8,9,12,14,17,20,25,29,35,
+%T A027196 41,50,58,70,81,97,113,134,156,185,214,252,292,343,396,463,534,623,
+%U A027196 718,833,958,1110,1274,1471,1686
+%N A027196 Number of partitions of n into an even number of parts, the least being 4; also, a(n+4) = number of partitions of n into an odd number of parts, each >=4.
+%K A027196 nonn
+%O A027196 1,16
+%A A027196 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

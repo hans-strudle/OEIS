@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052445
+Showing 1-1 of 1
+
+%I A052445
+%S A052445 0,0,0,1,0,3,21
+%N A052445 Number of simple exactly-4-connected unlabeled n-node graphs.
+%C A052445 This counts graphs whose connectivity is exactly 4. However, the numbers are not correct: the smallest 4-connected graph is the complete graph K_5, so the initial terms are incorrect. See A086216 and A259862 for more information. - _N. J. A. Sloane_, Jul 08 2015
+%H A052445 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/k-ConnectedGraph.html">k-connected Graph.</a>
+%Y A052445 Cf. A052441, ..., A052445.
+%Y A052445 See A086216 for another version. See also A259862.
+%K A052445 nonn,more
+%O A052445 1,6
+%A A052445 _Eric W. Weisstein_
+%E A052445 Partially edited by _N. J. A. Sloane_, Jul 08 2015 at the suggestion of _Brendan McKay_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

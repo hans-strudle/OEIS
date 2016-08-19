@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061829
+Showing 1-1 of 1
+
+%I A061829
+%S A061829 5,15,35,55,75,95,115,135,155,175,195,315,335,355,375,395,515,535,555,
+%T A061829 575,595,715,735,755,775,795,915,935,955,975,995,1115,1135,1155,1175,
+%U A061829 1195,1315,1335,1355,1375,1395,1515,1535,1555,1575,1595,1715,1735,1755
+%N A061829 Multiples of 5 having only odd digits.
+%e A061829 135 = 5*15 is a term having all odd digits.
+%t A061829 Select[5 Range[370],Select[IntegerDigits[#],EvenQ]=={}&]  (* _Harvey P. Dale_, Feb 07 2011 *)
+%K A061829 nonn,base,easy
+%O A061829 1,1
+%A A061829 _Amarnath Murthy_, May 29 2001
+%E A061829 More terms from Larry Reeves (larryr(AT)acm.org), May 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

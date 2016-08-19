@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019240
+Showing 1-1 of 1
+
+%I A019240
+%S A019240 0,1,2,8,8,17,36,92,150,450,994,2538,6376,16262,41688,106612,276186,
+%T A019240 715846
+%N A019240 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite STI = Stilbite Na4Ca8[ Al20Si52O144 ] . 56 H2O.
+%D A019240 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019240 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019240 nonn
+%O A019240 3,3
+%A A019240 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

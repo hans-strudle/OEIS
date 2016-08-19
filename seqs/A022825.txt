@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022825
+Showing 1-1 of 1
+
+%I A022825
+%S A022825 1,1,2,3,4,6,7,9,11,13,14,19,20,22,25,29,30,36,37,42,45,47,48,60,62,
+%T A022825 64,68,73,74,84,85,93,96,98,101,119,120,122,125,137,138,148,149,154,
+%U A022825 162,164,165,193,195,201,204,209,210,226,229,241,244,246,247,278
+%N A022825 a(n) = a([ n/2 ]) + a([ n/3 ]) + . . . + a([ n/n ]).
+%K A022825 nonn
+%O A022825 0,3
+%A A022825 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

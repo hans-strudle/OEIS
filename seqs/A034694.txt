@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034694
+Showing 1-1 of 1
+
+%I A034694
+%S A034694 2,3,7,5,11,7,29,17,19,11,23,13,53,29,31,17,103,19,191,41,43,23,47,73,
+%T A034694 101,53,109,29,59,31,311,97,67,103,71,37,149,191,79,41,83,43,173,89,
+%U A034694 181,47,283,97,197,101,103,53,107,109,331,113,229,59,709,61,367,311
+%N A034694 Smallest prime == 1 (mod n).
+%C A034694 Thangadurai and Vatwani prove that a(n) <= 2^(phi(n)+1)-1. - _T. D. Noe_, Oct 12 2011
+%D A034694 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 127-130.
+%D A034694 P. Ribenboim, The Book of Prime Number Records. Chapter 4,IV.B.: The Smallest Prime In Arithmetic Progressions, 1989, pp. 217-223.
+%H A034694 T. D. Noe, <a href="/A034694/b034694.txt">Table of n, a(n) for n = 1..10000</a>
+%H A034694 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/linnik/linnik.html">More about Linnik's Constant</a>
+%H A034694 D. Graham, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa39/aa3926.pdf">On Linnik's Constant</a>, Acta Arithm., 39, 1981, pp. 163-179.
+%H A034694 I. Niven and B. Powell, <a href="http://www.jstor.org/stable/2318341">Primes in Certain Arithmetic Progressions</a>, Amer. Math. Monthly, 83, 1976, pp. 467-489.
+%H A034694 R. Thangadurai and A. Vatwani, <a href="http://www.jstor.org/stable/10.4169/amer.math.monthly.118.08.737">The least prime congruent to one modulo n</a>, Amer. Math. Monthly, Vol. 118, 2011, p. 737-742.
+%F A034694 a(n) = min{m: m=k*n+1 with k>0 and A010051(m)=1}. - _Reinhard Zumkeller_, Dec 17 2013
+%e A034694 If n = 7, the smallest prime in the sequence 8,15,22,29,... is 29, so a(7) = 29.
+%t A034694 f[n_] := Block[{k = 1}, If[n == 1, 2, While[Mod[Prime@k, n] != 1, k++ ]; Prime@k]]; Array[f, 64] (* _Robert G. Wilson v_, Jul 08 2006 *)
+%t A034694 With[{prs=Prime[Range[200]]},Join[{2},Flatten[Table[Select[prs,Mod[#,n] == 1&,1],{n,2,70}]]]] (* _Harvey P. Dale_, Mar 16 2012 *)
+%o A034694 (PARI) a(n)=if(n<0,0,s=1; while((prime(s)-1)%n>0,s++); prime(s))
+%o A034694 (Haskell)
+%o A034694 a034694 n = until ((== 1) . a010051) (+ n) (n + 1)
+%o A034694 -- _Reinhard Zumkeller_, Dec 17 2013
+%Y A034694 Cf. A034693, A034780, A034782, A034783, A034784, A034785, A034846, A034847, A034848, A034849, A038700.
+%Y A034694 Cf. A085420. Records: A120856, A120857.
+%K A034694 nonn,nice,easy
+%O A034694 1,1
+%A A034694 _Labos Elemer_, _David W. Wilson_, Spring 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

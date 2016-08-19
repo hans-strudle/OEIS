@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013463
+Showing 1-1 of 1
+
+%I A013463
+%S A013463 0,4,0,1440,17920,7257600,395366400,175791616000,24049778688000,
+%T A013463 13090802909184000,3482386518507520000,2338795470534082560000,
+%U A013463 1043344639170183168000000,855872901958901432320000000
+%V A013463 0,-4,0,-1440,17920,-7257600,395366400,-175791616000,24049778688000,
+%W A013463 -13090802909184000,3482386518507520000,-2338795470534082560000,
+%X A013463 1043344639170183168000000,-855872901958901432320000000
+%N A013463 E.g.f.: sin(arctan(x) - arctanh(x)) (odd powers only).
+%F A013463 a(n) = (2*n+1)! * [x^(2*n+1)] sin(arctan(x)-arctanh(x)). - _Alois P. Heinz_, Aug 20 2014
+%e A013463 sin(arctan(x) - arctanh(x)) = -4/3!*x^3 -1440/7!*x^7 +17920/9!*x^9 ...
+%t A013463 With[{nn=30},Take[CoefficientList[Series[Sin[ArcTan[x]-ArcTanh[x]],{x,0,nn}],x] Range[0,nn-1]!,{2,-1,2}]] (* _Harvey P. Dale_, Aug 14 2014 *)
+%K A013463 sign
+%O A013463 0,2
+%A A013463 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013463 Definition clarified by _Harvey P. Dale_, Aug 14 2014
+%E A013463 Prepended a(0)=0 by _Joerg Arndt_, Aug 19 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

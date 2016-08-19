@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008514
+Showing 1-1 of 1
+
+%I A008514
+%S A008514 1,17,97,337,881,1921,3697,6497,10657,16561,24641,35377,49297,66977,
+%T A008514 89041,116161,149057,188497,235297,290321,354481,428737,514097,611617,
+%U A008514 722401,847601,988417,1146097
+%N A008514 4-dimensional centered cube numbers.
+%C A008514 Summation of n^4 taken two at a time. - Al Hakanson (hawkuu(AT)gmail.com), May 27 2009
+%C A008514 The primes in this sequence are given by A152913. - _Jonathan Vos Post_, Aug 17 2011
+%H A008514 Vincenzo Librandi, <a href="/A008514/b008514.txt">Table of n, a(n) for n = 0..10000</a>
+%H A008514 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5, -10, 10, -5, 1).
+%F A008514 a(n) = 2*n^4 + 4*n^3 + 6*n^2 + 4*n + 1. - Al Hakanson (hawkuu(AT)gmail.com), May 27 2009, corrected _R. J. Mathar_, May 29 2009
+%F A008514 G.f.:-(x^2+10*x+1)*(x+1)^2/(x-1)^5. - Maksym Voznyy (voznyy(AT)mail.ru), Aug 09 2009
+%F A008514 a(0) = 1, a(1) = 17, a(2) = 97, a(3) = 337, a(4) = 881, a(n) = 5*a(n-1) - 10*a(n-2) + 10*a(n-3) - 5*a(n-4) + a(n-5). - _Harvey P. Dale_, Jan 28 2013
+%F A008514 a(n) = 4*(n+n^2) + 2*(n+n^2)^2 + 1. - _Avi Friedlich_, Mar 31 2015
+%p A008514 n^4+(n+1)^4;
+%t A008514 Total/@Partition[Range[0, 30]^4, 2, 1] (* or *) LinearRecurrence[ {5, -10, 10, -5, 1}, {1, 17, 97, 337, 881}, 30] (* _Harvey P. Dale_, Jan 28 2013 *)
+%o A008514 (Sage) [i^4+(i+1)^4 for i in xrange(0,36)] # _Zerinvary Lajos_, Jul 03 2008
+%o A008514 (MAGMA) [(n+1)^4+n^4: n in [0..30]]; // _Vincenzo Librandi_, Aug 27 2011
+%Y A008514 Cf. A152913.
+%K A008514 nonn,easy
+%O A008514 0,2
+%A A008514 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005806
+Showing 1-1 of 1
+
+%I A005806 M2072
+%S A005806 1,1,2,14,546,169444,560043206
+%N A005806 Comparative probability orderings on n elements.
+%D A005806 T. Fine and J. Gill, Comparative probability relations, Ann. Prob. 4 (1976) 667-673.
+%D A005806 D. Maclagan, Boolean Term Orders and the Root System B_n, Order 15 (1999), 279-295.
+%D A005806 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005806 D. Maclagan, <a href="http://arXiv.org/abs/math.CO/9809134">[math/9809134] Boolean Term Orders and the Root System B_n</a>
+%e A005806 For n=3, the two orders are 1 < 2 < 12 < 3 < 13 < 23 < 123 and 1 < 2 < 3 < 12 < 13 < 23 < 123.
+%Y A005806 Cf. A009997.
+%K A005806 hard,nice,nonn
+%O A005806 1,3
+%A A005806 _N. J. A. Sloane_
+%E A005806 a(7) from Diane Maclagan and _Michael Kleber_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017512
+Showing 1-1 of 1
+
+%I A017512
+%S A017512 10000,194481,1048576,3418801,8503056,17850625,33362176,57289761,
+%T A017512 92236816,141158161,207360000,294499921,406586896,547981281,723394816,
+%U A017512 937890625,1196883216,1506138481,1871773696
+%N A017512 (11n+10)^4.
+%H A017512 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5, -10, 10, -5, 1).
+%t A017512 (11*Range[0,20]+10)^4 (* or *) LinearRecurrence[{5,-10,10,-5,1},{10000,194481,1048576,3418801,8503056},20] (* _Harvey P. Dale_, Dec 24 2014 *)
+%K A017512 nonn,easy
+%O A017512 0,1
+%A A017512 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

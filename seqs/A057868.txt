@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057868
+Showing 1-1 of 1
+
+%I A057868
+%S A057868 48,5760,362880,19353600,958003200,31384184832000,2092278988800,
+%T A057868 341459930972160000,183927391818153984000,32114306507931648000000,
+%U A057868 620448401733239439360000,81303558563123696133734400000
+%N A057868 Denominator of "modified Bernoulli number" b(2n) = Bernoulli(2*n)/(2*n*n!).
+%H A057868 D. Bar-Natan, T. T. Q. Le and D. P. Thurston, <a href="http://arXiv.org/abs/math.QA/0204311">Two applications of elementary knot theory ...</a> Geometry and Topology 7-1 (2003) 1-31.
+%H A057868 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ModifiedBernoulliNumber.html">Modified Bernoulli Numbers.</a>
+%H A057868 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%e A057868 The sequence of modified Bernoulli numbers begins 1/48, -1/5760, 1/362880, -1/19353600, 1/958003200, -691/31384184832000, ...
+%t A057868 a[n_] := Denominator[ BernoulliB[2n] / (8n^2*(2n-1)!)];
+%t A057868 Table[a[n], {n, 1, 12}] (* _Jean-François Alcover_, Jun 07 2012 *)
+%Y A057868 Numerators are in A001067.
+%K A057868 nonn,frac
+%O A057868 1,1
+%A A057868 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

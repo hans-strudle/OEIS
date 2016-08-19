@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047855
+Showing 1-1 of 1
+
+%I A047855
+%S A047855 1,2,12,112,1112,11112,111112,1111112,11111112,111111112,1111111112,
+%T A047855 11111111112,111111111112,1111111111112,11111111111112,
+%U A047855 111111111111112,1111111111111112,11111111111111112,111111111111111112,1111111111111111112,11111111111111111112
+%N A047855 a(n)=T(7,n), array T given by A047848.
+%C A047855 Range of A164898, apart from first term. [From _Reinhard Zumkeller_, Aug 30 2009]
+%H A047855 Ivan Panchenko, <a href="/A047855/b047855.txt">Table of n, a(n) for n = 0..200</a>
+%F A047855 (10^n + 8)/9. - _Ralf Stephan_, Feb 14 2004
+%F A047855 a(0)=1, a(1)=2, a(n)=11*a(n-1)-10*a(n-2) for n>1. - Lambert Klasen (lambert.klasen(AT)gmx.net), Jan 28 2005
+%F A047855 G.f.: (1-9x)/(1-11x+10x^2). [From _Philippe Deléham_, Oct 05 2009]
+%F A047855 a(n)=10*a(n-1)-8 (with a(0)=1) [From _Vincenzo Librandi_, Aug 06 2010]
+%e A047855 For n=1, a(1)=10*1-8=2; n=2, a(2)=10*2-8=12; n=3, a(3)=10*12-8=112 [From _Vincenzo Librandi_, Aug 06 2010]
+%p A047855 a[0]:=0:a[1]:=1:for n from 2 to 50 do a[n]:=10*a[n-1]+1 od: seq(a[n]+1, n=0..18); - _Zerinvary Lajos_, Mar 20 2008
+%t A047855 Join[{1},Table[FromDigits[PadLeft[{2},n,1]],{n,30}]] (* _Harvey P. Dale_, Apr 17 2013 *)
+%o A047855 (PARI) a(n)=if(n==0,1,if(n==1,2,11*a(n-1)-10*a(n-2))) for(i=0,10,print1(a(i),",")) (Klasen)
+%o A047855 (Sage) [gaussian_binomial(n,1,10)+1 for n in xrange(0,17)] # [From _Zerinvary Lajos_, May 29 2009]
+%Y A047855 n-th difference of a(n), a(n-1), ..., a(0) is 9^(n-1) for n=1, 2, 3, ...
+%K A047855 nonn
+%O A047855 0,2
+%A A047855 _Clark Kimberling_
+%E A047855 More terms from _Harvey P. Dale_, Apr 17 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

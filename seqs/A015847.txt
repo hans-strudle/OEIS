@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015847
+Showing 1-1 of 1
+
+%I A015847
+%S A015847 5,10,14,22,34,35,38,58,70,82,95,110,118,140,142,143,191,202,214,224,
+%T A015847 230,274,298,308,358,374,376,382,394,454,478,538,562,590,598,616,620,
+%U A015847 622,623,694,728,838,862,920,922,1012,1042,1121,1138,1198
+%N A015847 phi(n + 3) | sigma(n) for n not congruent to 0 (mod 3).
+%o A015847 (PARI) is(n)=n%3 && !(sigma(n)%eulerphi(n+3)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%K A015847 nonn
+%O A015847 1,1
+%A A015847 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

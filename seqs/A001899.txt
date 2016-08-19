@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001899
+Showing 1-1 of 1
+
+%I A001899
+%S A001899 0,0,0,0,1,0,0,0,1,1,0,0,1,0,1,0,1,0,1,1,1,0,0,0,2,0,0,1,2,1,0,0,1,0,
+%T A001899 1,0,2,0,1,1,1,0,1,0,2,1,0,0,2,1,0,0,1,0,2,0,2,1,1,1,1,0,0,1,2,0,0,0,
+%U A001899 2,1,1,0,3,0,1,0,2,0,1,1,1,1,0,0,3,0,0
+%N A001899 Number of divisors of n of form 5k+4.
+%H A001899 T. D. Noe, <a href="/A001899/b001899.txt">Table of n, a(n) for n = 0..10000</a>
+%F A001899 G.f.: Sum x^(5n+4)/(1-x^(5n+4)), n=0..inf.
+%t A001899 Join[{0}, Table[d = Divisors[n]; Length[Select[d, Mod[#, 5] == 4 &]], {n, 100}]] (* _T. D. Noe_, Aug 10 2012 *)
+%K A001899 nonn
+%O A001899 0,25
+%A A001899 _N. J. A. Sloane_.
+%E A001899 Better definition from _Michael Somos_, Aug 31 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

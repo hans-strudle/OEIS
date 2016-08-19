@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011758
+Showing 1-1 of 1
+
+%I A011758
+%S A011758 1,1,1,1,1,1,1,1,1,1,1,1,1
+%V A011758 1,1,1,1,1,-1,-1,1,1,-1,1,-1,1
+%N A011758 Barker sequence of length 13.
+%D A011758 Eliahou, Shalom; Kervaire, Michel; Barker sequences and difference sets. Enseign. Math. (2) 38 (1992), no. 3-4, 345-382.
+%D A011758 H. D. Lueke, Korrelationssignale, Springer 1992, p. 114.
+%Y A011758 Cf. A011759, A091704.
+%K A011758 sign,fini,full
+%O A011758 1,1
+%A A011758 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

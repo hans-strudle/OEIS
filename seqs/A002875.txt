@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002875
+Showing 1-1 of 1
+
+%I A002875 M1300 N0498
+%S A002875 1,2,4,24,128,880,7440
+%N A002875 Sorting numbers (see Motzkin article for details).
+%C A002875 How is the sequence defined (see the links in A000262)?  Also more terms would be welcome.
+%D A002875 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002875 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002875 T. S. Motzkin, <a href="/A000262/a000262.pdf">Sorting numbers for cylinders and other classification numbers</a>, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176. [Annotated, scanned copy]
+%H A002875 OEIS Wiki, <a href="http://oeis.org/wiki/Sorting_numbers">Sorting numbers</a>
+%H A002875 <a href="/index/So#sorting">Index entries for sequences related to sorting</a>
+%Y A002875 Cf. A000262, A001861, A002872, A002873, A002874, A036073.
+%K A002875 nonn,nice,more,easy,uned
+%O A002875 0,2
+%A A002875 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008894
+Showing 1-1 of 1
+
+%I A008894
+%S A008894 36,18,9,26,13,38,19,56,28,14,7,20,10,5,14,7,20,10,5,14,7,20,10,5,14,
+%T A008894 7,20,10,5,14,7,20,10,5,14,7,20,10,5,14,7,20,10,5,14,7,20,10,5,14,7,
+%U A008894 20,10,5,14,7,20,10,5,14,7,20
+%N A008894 x->x/2 if x even, x->3x-1 if x odd.
+%D A008894 R. K. Guy, Unsolved Problems in Number Theory, E16.
+%K A008894 nonn
+%O A008894 0,1
+%A A008894 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

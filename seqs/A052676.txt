@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052676
+Showing 1-1 of 1
+
+%I A052676
+%S A052676 0,3,12,72,576,5760,69120,967680,15482880,278691840,5573836800,
+%T A052676 122624409600,2942985830400,76517631590400,2142493684531200,
+%U A052676 64274810535936000,2056793937149952000,69930993863098368000
+%N A052676 E.g.f. 3x/(1-2x).
+%H A052676 Guo-Niu Han, <a href="http://www-irma.u-strasbg.fr/~guoniu/papers/p77puzzle.pdf">Enumeration of Standard Puzzles</a>
+%H A052676 Guo-Niu Han, <a href="/A196265/a196265.pdf">Enumeration of Standard Puzzles</a> [Cached copy]
+%H A052676 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=624">Encyclopedia of Combinatorial Structures 624</a>
+%F A052676 E.g.f.: -3*x/(-1+2*x)
+%F A052676 Recurrence: {a(0)=0, (-2*n-2)*a(n)+a(n+1)=0, a(1)=3}
+%F A052676 3*2^(n-1)*n!, n>0.
+%p A052676 spec := [S,{S=Prod(Sequence(Union(Z,Z)),Union(Z,Z,Z))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052676 With[{nn=20},CoefficientList[Series[(3x)/(1-2x),{x,0,nn}],x]Range[0,nn]!] (* _Harvey P. Dale_, Feb 23 2013 *)
+%K A052676 easy,nonn
+%O A052676 0,2
+%A A052676 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

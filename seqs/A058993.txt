@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058993
+Showing 1-1 of 1
+
+%I A058993
+%S A058993 1,3,26,36,43,66,76,149,511,885,3767
+%N A058993 Numbers n such that 5^n reversed is a prime.
+%t A058993 Do[ If[ PrimeQ[ ToExpression[ StringReverse[ ToString[5^n] ] ] ], Print[n] ], {n, 1, 3000} ]
+%Y A058993 Cf. A057708.
+%K A058993 nonn,base
+%O A058993 1,2
+%A A058993 _Robert G. Wilson v_, Jan 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029749
+Showing 1-1 of 1
+
+%I A029749
+%S A029749 1,2,4,5,7,8,10,14,16,20,28,32,40,56,64,80,112,128,160,224,256,320,
+%T A029749 448,512,640,896,1024,1280,1792,2048,2560,3584,4096,5120,7168,8192,
+%U A029749 10240,14336,16384,20480,28672,32768,40960,57344,65536,81920,114688,131072
+%N A029749 2^n times 1, 5 or 7.
+%H A029749 Vincenzo Librandi, <a href="/A029749/b029749.txt">Table of n, a(n) for n = 0..1000</a>
+%H A029749 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,2).
+%F A029749 a(n) = 2*a(n-3) for n>4. G.f.: -(3*x^4+3*x^3+4*x^2+2*x+1) / (2*x^3-1). - _Colin Barker_, Jul 19 2013
+%t A029749 CoefficientList[Series[-(3 x^4 + 3 x^3 + 4 x^2 + 2 x + 1) / (2 x^3 - 1), {x, 0, 40}], x] (* _Vincenzo Librandi_, Jul 20 2013 *)
+%K A029749 nonn,easy
+%O A029749 0,2
+%A A029749 _N. J. A. Sloane_.
+%E A029749 More terms from _Colin Barker_, Jul 19 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

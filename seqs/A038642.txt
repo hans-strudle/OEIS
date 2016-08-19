@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038642
+Showing 1-1 of 1
+
+%I A038642
+%S A038642 18,6,11,24,5,65,2,20,49,28,3,1,538,457,23,31,13,230,4,14,30,69,1138,
+%T A038642 152,12,40,39,7,94,92,1037,116,46,36,96,103,42,309,199,1411,943,315,
+%U A038642 125,26,64,169,48,625,354,3482,29,163,19,170,37,45,87,154,641,974,136
+%N A038642 a(n)-th and [ a(n)+1 ]st term of A038593 are the first pair that differ by n.
+%K A038642 nonn
+%O A038642 0,1
+%A A038642 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

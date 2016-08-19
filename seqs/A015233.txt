@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015233
+Showing 1-1 of 1
+
+%I A015233
+%S A015233 1,0,180,416,1620,3024,6404,9408,18876,20048,43224,45408,70462,82272,
+%T A015233 138408,121600
+%N A015233 Theta series of lattice Kappa_9.
+%D A015233 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 161.
+%e A015233 1+180*q^4+416*q^6+...
+%K A015233 nonn
+%O A015233 0,3
+%A A015233 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

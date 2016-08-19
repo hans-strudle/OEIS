@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,1,7,265,57799,75025897,583552122727,27227375795690569,7621977131953256556295,12802009986716861649949951657,129014790439200398432389878440405671","description":"q-Catalan numbers (recurrence version) for q=6.","formula":"a(n) = sum_{i=1}^{n-1} q^{(i-1)} a(i) a(n-i).","keyword":"nonn","offset":"1,3","author":"_Olivier Gérard_"}

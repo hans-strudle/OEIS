@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034813
+Showing 1-1 of 1
+
+%I A034813
+%S A034813 36,74,104,132,188,222,224,305,317,344,367,368,389,457,458,475,540,
+%T A034813 572,584,608,631,676,682,689,697,738,756,760,781,797,829,841,893,910,
+%U A034813 911,914,928,982,1018,1104,1122,1178,1186,1317,1328,1391,1402,1406,1518
+%N A034813 Concatenations C1 and C2 are both prime (see the comment lines).
+%C A034813 C1 = 'prevprime(n) followed by n followed by nextprime(n)'
+%C A034813 C2 = 'nextprime(n) followed by n followed by prevprime(n)'
+%e A034813 n=797 -> previous prime is 787, next prime is 809, thus '787797809' and '809797787' are both primes.
+%Y A034813 Cf. A034808-A034821.
+%K A034813 nonn,base
+%O A034813 0,1
+%A A034813 _Patrick De Geest_, Oct 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

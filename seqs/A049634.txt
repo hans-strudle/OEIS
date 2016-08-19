@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049634
+Showing 1-1 of 1
+
+%I A049634
+%S A049634 2,6,9,15,19,29,35,47,55,71,79,101,111,131,145,169,183,217,231,261,
+%T A049634 279,313,331,373,393,431,455,501,521,579,603,653,685,729,757,817,847,
+%U A049634 907
+%N A049634 a(n)=T(n,n+2), array T as in A049627.
+%K A049634 nonn
+%O A049634 0,1
+%A A049634 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

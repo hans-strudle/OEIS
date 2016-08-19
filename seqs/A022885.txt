@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022885
+Showing 1-1 of 1
+
+%I A022885
+%S A022885 5,7,11,13,23,37,53,73,97,101,103,109,137,157,179,191,223,251,263,307,
+%T A022885 353,373,389,409,419,433,457,479,487,541,563,571,593,683,691,701,757,
+%U A022885 809,821,853,859,877,883,911,977,1019,1039,1049,1087,1103
+%N A022885 Primes p(k) such that p(k) + p(k+3) = p(k+1) + p(k+2).
+%H A022885 Vincenzo Librandi, <a href="/A022885/b022885.txt">Table of n, a(n) for n = 1..1000</a>
+%e A022885 Starting from 5, the four consecutive primes are 5, 7, 11, 13; and they satisfy 5 + 13 = 7 + 11. So 5 is in the sequence.
+%t A022885 Transpose[Select[Partition[Prime[Range[500]],4,1],First[#]+Last[#] == #[[2]]+#[[3]]&]][[1]] (* _Harvey P. Dale_, May 23 2011 *)
+%o A022885 (PARI) isok(p) = {my(k = primepi(p)); (p == prime(k)) && ((prime(k) + prime(k+3)) == (prime(k+1) + prime(k+2)));} \\ _Michel Marcus_, Jan 15 2014
+%Y A022885 Cf. A022884, A260179.
+%K A022885 nonn
+%O A022885 1,1
+%A A022885 _Clark Kimberling_
+%E A022885 Name edited by _Michel Marcus_, Jan 15 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

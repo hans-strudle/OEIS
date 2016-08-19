@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035709
+Showing 1-1 of 1
+
+%I A035709
+%S A035709 1,28,392,3668,25872,147084,703640,2919620,10746400,35704060,
+%T A035709 108568488,305568564,803467056,1989102444,4666890936,10435418532,
+%U A035709 22345512000,46012094940,91437047240,175918049300,328578611536
+%N A035709 Coordination sequence for 14-dimensional cubic lattice.
+%D A035709 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035709 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035709 <a href="/index/Rec#order_14">Index entries for linear recurrences with constant coefficients</a>, signature (14, -91, 364, -1001, 2002, -3003, 3432, -3003, 2002, -1001, 364, -91, 14, -1).
+%F A035709 G.f.: ((1+x)/(1-x))^14.
+%K A035709 nonn,easy
+%O A035709 0,2
+%A A035709 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035709 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

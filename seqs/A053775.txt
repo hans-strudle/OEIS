@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053775
+Showing 1-1 of 1
+
+%I A053775
+%S A053775 1,4,22,1660,673600,896315680,1430468698240,27959577476915200,
+%T A053775 2959021586728806707200,1022333042228611529224192000,
+%U A053775 420758775616050043741512977612800
+%N A053775 Number of n X n binary matrices of order dividing 10 (i.e. number of solutions of X^10=I in GL(n,2)).
+%D A053775 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053775 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053775 Cf. A053722, A053725, A053718.
+%K A053775 nonn
+%O A053775 1,2
+%A A053775 _Vladeta Jovovic_, Mar 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

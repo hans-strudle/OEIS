@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023034
+Showing 1-1 of 1
+
+%I A023034
+%S A023034 1,9,45,165,495,1287,3003,6435,12870,24309,43758,75573,125970,203445,
+%T A023034 319770,490149,735471,1081080,1562274,2218788,3108105,4289133,5852925,
+%U A023034 7882290,10518255,13871286,18156204,23511345,30260340,38564262,48902997
+%N A023034 Number of compositions of n into 9 ordered relatively prime parts.
+%H A023034 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023034 Moebius transform of C(n-1, 8)
+%K A023034 nonn
+%O A023034 9,2
+%A A023034 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

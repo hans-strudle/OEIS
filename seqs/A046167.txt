@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046167
+Showing 1-1 of 1
+
+%I A046167
+%S A046167 0,0,0,0,0,1,420,100814,18151560,2723868147,359750257020,
+%T A046167 43199991728608,4817721638970240,506352103838393813,
+%U A046167 50691406225311551700,4872449650707855334482,452435489306282260691640
+%N A046167 Number of minimal covers on n objects with 6 members.
+%H A046167 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MinimalCover.html">Minimal Cover.</a>
+%F A046167 G.f.: x^6/[(1-57x)(1-58x)(1-59x)(1-60x)(1-61x)(1-62x)(1-63x)].
+%Y A046167 Cf. A035348.
+%K A046167 nonn
+%O A046167 1,7
+%A A046167 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

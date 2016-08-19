@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027975
+Showing 1-1 of 1
+
+%I A027975
+%S A027975 1,1,4,5,8,12,16,23,31,42,57,76,102,136,181,241,320,425,564,748,992,
+%T A027975 1315,1743,2310,3061,4056,5374,7120,9433,12497,16556,21933
+%N A027975 a(n) = n-th diagonal sum of left justified array T given by A027960.
+%F A027975 G.f.: (2x^2+1)/[(1-x)(1-x^2-x^3)].
+%K A027975 nonn
+%O A027975 0,3
+%A A027975 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

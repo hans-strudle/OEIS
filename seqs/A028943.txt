@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028943
+Showing 1-1 of 1
+
+%I A028943
+%S A028943 1,1,1,1,8,1,27,125,343,64,12167,24389,205379,2146689,30959144,274625,
+%T A028943 3574558889,50202571769,553185473329,4302115807744,578280195945297,
+%U A028943 1469451780501769,238670664494938073,13528653463047586625
+%N A028943 Denominator of y coordinate of n*P where P is generator for rational points on curve y^2+y = x^3-x.
+%D A028943 B. Mazur, Arithmetic on curves, Bull. Amer. Math. Soc. 14 (1986), 207-259; see p. 225.
+%F A028943 P=(0, 0), 2P=(1, 0), if kP=(a, b) then (k+1)P=(a'=(b^2-a^3)/a^2, b'=1-b*a'/a).
+%e A028943 5P = (1/4, -5/8).
+%K A028943 nonn
+%O A028943 1,5
+%A A028943 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

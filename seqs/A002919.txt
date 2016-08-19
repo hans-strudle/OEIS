@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002919
+Showing 1-1 of 1
+
+%I A002919 M4162 N1730
+%S A002919 1,6,24,90,318,1098,3696,12270,40224,130650,421176,1348998,4299018,
+%T A002919 13635630,43092888,135698970,426144654
+%N A002919 Susceptibility for hexagonal lattice.
+%C A002919 The hexagonal lattice is the familiar 2-dimensional lattice in which each point has 6 neighbors. This is sometimes called the triangular lattice.
+%D A002919 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002919 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002919 M. F. Sykes, D. G. Gaunt, P. D. Roberts and J. A. Wyles, High temperature series for the susceptibility of the Ising model, I. Two dimensional lattices, J. Phys. A 5 (1972) 624-639.
+%H A002919 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>
+%K A002919 nonn,nice
+%O A002919 0,2
+%A A002919 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

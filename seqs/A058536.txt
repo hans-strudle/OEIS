@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058536
+Showing 1-1 of 1
+
+%I A058536
+%S A058536 1,0,1,4,0,4,10,0,6,20,0,4,35,0,1,60,0,4,100,0,16,164,0,28,261
+%V A058536 1,0,1,4,0,-4,10,0,6,20,0,-4,35,0,1,60,0,-4,100,0,16,164,0,-28,261
+%N A058536 McKay-Thompson series of class 18a for Monster.
+%D A058536 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058536 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058536 T18a = 1/q + q + 4*q^2 - 4*q^4 + 10*q^5 + 6*q^7 + 20*q^8 - 4*q^10 + 35*q^11 + ...
+%Y A058536 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058536 sign
+%O A058536 -1,4
+%A A058536 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

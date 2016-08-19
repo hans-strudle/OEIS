@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023276
+Showing 1-1 of 1
+
+%I A023276
+%S A023276 5,11,31,71,281,521,911,1181,2371,2521,3391,3701,4211,4931,5051,7211,
+%T A023276 7411,8221,8431,8461,8501,8641,8951,9601,9871,10301,11981,12421,13121,
+%U A023276 13921,14591,16381,16451,16901,16931,17791,17881,19391,19751,21991,23021
+%N A023276 Numbers n such that n remains prime through 3 iterations of function f(x) = 2x + 9.
+%C A023276 n, 2*n+9, 4*n+27 and 8*n+63 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023276 (MAGMA) [n: n in [1..100000] | IsPrime(n) and IsPrime(2*n+9) and IsPrime(4*n+27) and IsPrime(8*n+63)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023276 nonn
+%O A023276 1,1
+%A A023276 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

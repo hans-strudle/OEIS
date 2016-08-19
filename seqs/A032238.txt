@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032238
+Showing 1-1 of 1
+
+%I A032238
+%S A032238 2,1,2,5,14,43,142,475,1640,5774,20682,74911,274392,1014155,3778158,
+%T A032238 14170988,53471322,202835554,773073462,2958951714,11368816862,
+%U A032238 43832643969,169531531422,657591743743,2557480816940
+%N A032238 Number of series-reduced dyslexic planted compound windmills with n leaves of 2 colors where any 2 submills extending from the same node are different.
+%H A032238 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A032238 Doubles (index 2+) under "DGK" (bracelet, element, unlabeled) transform.
+%K A032238 nonn
+%O A032238 1,1
+%A A032238 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001882
+Showing 1-1 of 1
+
+%I A001882 M0730 N0273
+%S A001882 2,3,5,11,16,38,54,130,184,444,628,1516,2144,5176,7320,17672,24992,
+%T A001882 60336,85328,206000,291328,703328,994656,2401312,3395968,8198592,
+%U A001882 11594560,27991744,39586304,95569792,135156096,326295680,461451776,1114043136,1575494912
+%N A001882 a(2n) = a(2n-1) + 2a(2n-2), a(2n+1) = a(2n) + a(2n-1), with a(1) = 2 and a(2) = 3.
+%D A001882 Problem E1738, Amer. Math. Monthly, 72 (1965), 1024-1025.
+%D A001882 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001882 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001882 T. D. Noe, <a href="/A001882/b001882.txt">Table of n, a(n) for n = 1..500</a>
+%H A001882 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001882 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A001882 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (0, 4, 0, -2).
+%p A001882 A001882:=-(-2-3*z+3*z**2+z**3)/(1-4*z**2+2*z**4); [_Simon Plouffe_ in his 1992 dissertation for offfset 0.]
+%t A001882 a[1] = 2; a[2] = 3; a[n_] := a[n] = If[EvenQ[n], a[n-1] + 2*a[n-2], a[n-1] + a[n-2]]; Table[a[n], {n, 50}] (* _T. D. Noe_, Aug 10 2012 *)
+%Y A001882 Cf. A161941 (bisection).
+%K A001882 nonn
+%O A001882 1,1
+%A A001882 _N. J. A. Sloane_.
+%E A001882 Removed the attribute "conjectured" from the Plouffe g.f _R. J. Mathar_, Aug 17 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

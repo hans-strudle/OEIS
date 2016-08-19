@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001841
+Showing 1-1 of 1
+
+%I A001841 M2460 N0977
+%S A001841 3,5,10,14,21,26,36,43,55,64,78,88,105,117,136,150,171,186,210,227,
+%T A001841 253,272,300,320,351,373,406,430,465,490,528,555,595,624,666,696,741
+%N A001841 Related to Zarankiewicz's problem.
+%D A001841 R. K. Guy, A problem of Zarankiewicz, in P. Erdős and G. Katona, editors, Theory of Graphs (Proceedings of the Colloquium, Tihany, Hungary), Academic Press, NY, 1968, pp. 119-150, (p. 126, divided by 2).
+%D A001841 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001841 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001841 R. K. Guy, <a href="/A001197/a001197.pdf">A problem of Zarankiewicz</a>, Research Paper No. 12, Dept. of Math., Univ. Calgary, Jan. 1967. [Annotated and scanned copy, with permission]
+%H A001841 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001841 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%p A001841 A001841:=-(2*z**4+z**5+2*z**2+2*z**3+2*z+3)/(z**2-z+1)/(z**2+z+1)/(z+1)**2/(z-1)**3; # conjectured by _Simon Plouffe_ in his 1992 dissertation
+%K A001841 nonn,more
+%O A001841 3,1
+%A A001841 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

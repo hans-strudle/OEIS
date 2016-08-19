@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036577
+Showing 1-1 of 1
+
+%I A036577
+%S A036577 2,1,0,2,0,1,2,1,0,1,2,0,2,1,0,2,0,1,2,0,2,1,0,1,2,1,0,2,0,1,2,1,0,1,
+%T A036577 2,0,2,1,0,1,2,1,0,2,0,1,2,0,2,1,0,2,0,1,2,1,0,1,2,0,2,1,0,2,0,1,2,0,
+%U A036577 2,1,0,1,2,1,0,2,0,1,2,0,2,1,0,2,0,1,2,1,0,1,2,0,2,1,0,1,2,1,0,2,0,1,2,1,0
+%N A036577 Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b.
+%C A036577 Number of 1's between successive 0's in A010060.
+%C A036577 The infinite sequence is abcacbabcbac... which is encoded with a->2, b->1, c->0 to produce this integer sequence.
+%D A036577 M. Lothaire, Combinatorics on Words. Addison-Wesley, Reading, MA, 1983, p. 26.
+%H A036577 J.-P. Allouche and Jeffrey Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Papers/ubiq.ps">The Ubiquitous Prouhet-Thue-Morse Sequence</a>, in C. Ding. T. Helleseth and H. Niederreiter, eds., Sequences and Their Applications: Proceedings of SETA '98, Springer-Verlag, 1999, pp. 1-16.
+%H A036577 J. Grytczuk, <a href="http://dx.doi.org/10.1016/j.disc.2007.08.039">Thue type problems for graphs, points and numbers</a>, Discrete Math., 308 (2008), 4419-4429.
+%F A036577 a(n) = A036585(n) - 1 = A029883(n) + 1.
+%F A036577 a(n) = 3 - A007413(n). a(A036554(n)) = 1; a(A091785(n)) = 0; a(A091855(n)) = 2. - _Philippe Deléham_, Mar 20 2004
+%F A036577 a(4*n + 2) = 1. a(2*n + 1) = 2 * A010059(n). a(4*n + 3) = 2 * A010060(n). - _Michael Somos_, Aug 03 2011
+%e A036577 2*x + x^2 + 2*x^4 + x^6 + 2*x^7 + x^8 + x^10 + 2*x^11 + 2*x^13 + x^14 + ...
+%t A036577 (* ThueMorse is built-in since version 10.2, for lower versions it needs to be defined manually *) ThueMorse[n_] := Mod[DigitCount[n, 2, 1], 2]; Table[1 + ThueMorse[n] - ThueMorse[n-1], {n, 1, 100}]  (* _Vladimir Reshetnikov_, May 17 2016 *)
+%o A036577 (PARI) {a(n) = if( n<1, 0, if( valuation( n, 2)%2, 1, 1 - (-1)^subst( Pol( binary(n)), x, 1)))} /* _Michael Somos_, Aug 03 2011 */
+%Y A036577 Cf. A010059, A010060, A029883, A036585, A104248.
+%K A036577 nonn,changed
+%O A036577 1,1
+%A A036577 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

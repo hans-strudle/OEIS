@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052113
+Showing 1-1 of 1
+
+%I A052113
+%S A052113 1,5,41,1023,67173,10771355,5957216417,6971880064072,
+%T A052113 32181855124938673,290910256437910060602,11266525980714327353251353,
+%U A052113 815201852317091835592374861144,266236010885685869904935495261864265
+%N A052113 Number of self-complementary directed 2-multigraphs with loops on n nodes.
+%C A052113 A 2-multigraph is similar to an ordinary graph except there are 0, 1 or 2 edges between any two nodes (self-loops are not allowed).
+%D A052113 V. Jovovic, On the number of m-place relations (in Russian), Logiko-algebraicheskie konstruktsii, Tver, 1992, 59-66.
+%Y A052113 Cf. A004105, A047832.
+%K A052113 nonn
+%O A052113 1,2
+%A A052113 _Vladeta Jovovic_, Jan 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

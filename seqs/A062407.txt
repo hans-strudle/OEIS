@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062407
+Showing 1-1 of 1
+
+%I A062407
+%S A062407 1,4,2304,24964,73441,1560001,132549169,1626428241,147805647025,
+%T A062407 3518227981636,120105730444176,1760865925304929,1455206977344160000,
+%U A062407 23275351872778367961
+%N A062407 Sum_{k=1..n} sigma(k) is a square.
+%C A062407 a(15) > 2*10^21. [From _Donovan Johnson_, Feb 17 2010]
+%o A062407 (PARI) for(n=1,3000,x=sum(k=1,n, sigma(k)); if(issquare(x),print(x),))
+%o A062407 (PARI) { n=0; for (m=1, 10^5, x=sum(k=1, m, sigma(k)); if (issquare(x), write("b062407.txt", n++, " ", x); if (n==8, break)) ) } [From _Harry J. Smith_, Aug 07 2009]
+%K A062407 nonn
+%O A062407 1,2
+%A A062407 Jason Earls (zevi_35711(AT)yahoo.com), Jul 08 2001
+%E A062407 Terms a(7) and a(8) added by _Harry J. Smith_, Aug 07 2009
+%E A062407 a(9)-a(14) from _Donovan Johnson_, Feb 17 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

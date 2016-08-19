@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061941
+Showing 1-1 of 1
+
+%I A061941
+%S A061941 1,2,3,4,6,11,58,77,143,209,1009,1280,6555,7564,12793,52162,59147,
+%T A061941 75801,85460,127710,205439,589003,856075
+%N A061941 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 12 (most significant digit on right).
+%C A061941 This sequence differs from A029505 in that all least significant zeros are removed before concatenation.
+%C A061941 No more terms < 10^7. [Lars Blomberg, Oct 20 2011]
+%H A061941 <a href="/index/N#concat">Index entries for related sequences</a>
+%e A061941 See A061931 for example.
+%Y A061941 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A061941 nonn,base
+%O A061941 1,2
+%A A061941 Larry Reeves (larryr(AT)acm.org), May 24 2001
+%E A061941 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002; Aug 25, 2002
+%E A061941 a(23) from _Lars Blomberg_, Oct 20 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

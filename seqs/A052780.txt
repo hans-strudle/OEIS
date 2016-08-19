@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052780
+Showing 1-1 of 1
+
+%I A052780
+%S A052780 0,0,2,24,192,1280,7680,43008,229376,1179648,5898240,28835840,
+%T A052780 138412032,654311424,3053453312,14092861440,64424509440,292057776128,
+%U A052780 1314259992576,5875515260928,26113401159680
+%N A052780 A simple grammar.
+%H A052780 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=737">Encyclopedia of Combinatorial Structures 737</a>
+%H A052780 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (12,-48,64).
+%F A052780 E.g.f.: x^2*exp(x)^4.
+%F A052780 a(n) = 2*A038845(n-2).
+%F A052780 Recurrence: a(1)=0, a(2)=2, (-4-4*n)*a(n)+(n-1)*a(n+1)=0.
+%F A052780 n(n-1)*4^(n-2). G.f.: 2x^2/(1-4x)^3. - _Ralf Stephan_, Mar 26 2003
+%F A052780 a(n)=n*(n-1)*4^(n-2), n>=0 . - _Zerinvary Lajos_, Apr 25 2007
+%p A052780 spec := [S,{B=Set(Z),S=Prod(Z,Z,B,B,B,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%p A052780 seq(n*(n-1)*4^(n-2), n=0..20); - _Zerinvary Lajos_, Apr 25 2007
+%Y A052780 Cf. A038845.
+%K A052780 easy,nonn
+%O A052780 0,3
+%A A052780 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

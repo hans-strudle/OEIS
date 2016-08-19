@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005005
+Showing 1-1 of 1
+
+%I A005005 M3305
+%S A005005 1,4,7,12,16,23,28,35,40,47,52,59,64,71,76,83,88,95,100,107,112,119,
+%T A005005 124,131,136,143,148,155,160,167,172,179,184,191,196,203,208,215,220,
+%U A005005 227,232,239,244,251,256,263,268,275,280,287,292,299,304
+%N A005005 Davenport-Schinzel numbers of degree n on 4 symbols.
+%D A005005 R. K. Guy, Unsolved Problems in Number Theory, E20.
+%D A005005 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005005 R. G. Stanton and P. H. Dirksen, Davenport-Schinzel sequences, Ars. Combin., 1 (1976), 43-51.
+%H A005005 R. G. Stanton and P. H. Dirksen, <a href="/A002004/a002004.pdf">Davenport-Schinzel sequences</a>, Ars. Combin., 1 (1976), 43-51. [Annotated scanned copy]
+%F A005005 For n > 4, a(2*n) = 12 * n - 13 and a(2*n+1) = 12 * n - 14. - _Sean A. Irvine_, Feb 19 2016
+%Y A005005 A row of the array in A259874.
+%K A005005 nonn,nice
+%O A005005 1,2
+%A A005005 _N. J. A. Sloane_.
+%E A005005 Title improved and more terms from _Sean A. Irvine_, Feb 19 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

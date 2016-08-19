@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015473
+Showing 1-1 of 1
+
+%I A015473
+%S A015473 0,1,2,9,74,1193,38250,2449193,313534954,80267397417,41097221012458,
+%T A015473 42083634584154409,86187324725569242090,353023324159566199755049,
+%U A015473 2891967157702491033962603498,47381990264820937260009495466281
+%N A015473 q-Fibonacci numbers for q=2.
+%C A015473 a(1) = 1, a(n+1) = denominator of continued fraction [1;2,4,8,...,2^n]. - _Amarnath Murthy_, May 02 2001
+%H A015473 Vincenzo Librandi, <a href="/A015473/b015473.txt">Table of n, a(n) for n = 0..80</a>
+%F A015473 a(n) = 2^(n-1) a(n-1) + a(n-2).
+%t A015473 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*2^(n-1)+a[n-2]},  a, {n, 30}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%t A015473 Join[{0},Denominator[Table[FromContinuedFraction[2^Range[0,n]],{n,0,20}]]] (* _Harvey P. Dale_, Feb 09 2013 *)
+%o A015473 (MAGMA) [0] cat [n le 2 select n else 2^(n-1)*Self(n-1) + Self(n-2): n in [1..16]]; // Vincenzo Librandi_, Nov 09 2012
+%Y A015473 Cf. A061377.
+%K A015473 nonn,easy
+%O A015473 0,3
+%A A015473 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

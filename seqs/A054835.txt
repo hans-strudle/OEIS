@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054835
+Showing 1-1 of 1
+
+%I A054835
+%S A054835 15377,64921,68209,68899
+%N A054835 Second term of weak prime septet: p(m)-p(m-1) < p(m+1)-p(m) < p(m+2)-p(m+1) < p(m+3)-p(m+2) < p(m+4)-p(m+3) < p(m+5)-p(m+4).
+%C A054835 a(1) = A229832(5). - _Jonathan Sondow_, Oct 13 2013
+%Y A054835 Cf. A051635, A054800-A054840, A229832.
+%K A054835 nonn
+%O A054835 1,1
+%A A054835 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

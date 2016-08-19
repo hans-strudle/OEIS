@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001646
+Showing 1-1 of 1
+
+%I A001646
+%S A001646 1,1,1,2,3,5,10,21,55
+%N A001646 Number of self-dual codes of length 2n over GF(4).
+%D A001646 Conway, Pless, Sloane, Self-Dual Codes ..., IEEE Trans. Information Theory 25 312-322 1979.
+%D A001646 W. C. Huffman, On the classification and enumeration of self-dual codes, Finite Fields Applic. 11 (2005), 451-490.
+%D A001646 F. J. MacWilliams, A. M. Odlyzko, N. J. A. Sloane and H. N. Ward, Self-Dual Codes over GF(4), J. Combin. Theory, A 25 288-318 1978.
+%H A001646 G. Nebe, E. M. Rains and N. J. A. Sloane, <a href="http://neilsloane.com/doc/cliff2.html">Self-Dual Codes and Invariant Theory</a>, Springer, Berlin, 2006.
+%H A001646 E. M. Rains and N. J. A. Sloane, Self-dual codes, pp. 177-294 of Handbook of Coding Theory, Elsevier, 1998 (<a href="http://neilsloane.com/doc/self.txt">Abstract</a>, <a href="http://neilsloane.com/doc/self.pdf">pdf</a>, <a href="http://neilsloane.com/doc/self.ps">ps</a>).
+%K A001646 nonn,hard
+%O A001646 0,4
+%A A001646 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

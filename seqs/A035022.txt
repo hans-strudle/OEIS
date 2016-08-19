@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035022
+Showing 1-1 of 1
+
+%I A035022
+%S A035022 1,17,442,15470,680680,36076040,2236714480,158806728080,
+%T A035022 12704538246400,1130703903929600,110808982585100800,
+%U A035022 11856561136605785600,1375361091846271129600,171920136480783891200000
+%N A035022 One eighth of 9-factorial numbers.
+%H A035022 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035022 8*a(n) = (9*n-1)(!^9) := product(9*j-1, j=1..n) = (9*n)!/(n!*2^4*3^(4*n) *5*7*A045756(n)*A035012(n)*A007559(n)*A035017(n) *A035018(n) *A034000(n) *A035021(n)).
+%F A035022 E.g.f.: (-1+(1-9*x)^(-8/9))/8.
+%t A035022 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 16, 2*5!, 9}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A035022 Cf. A007559, A034171, A045756, A035012, A035013, A035017, A035018, A035020-A035023.
+%K A035022 easy,nonn
+%O A035022 1,2
+%A A035022 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

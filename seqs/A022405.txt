@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022405
+Showing 1-1 of 1
+
+%I A022405
+%S A022405 0,1,2,2,3,4,10,37,366,13532,4952675,67019597734,331926286207224918,
+%T A022405 22245566178948766568816183137,
+%U A022405 7383888166355511098764350563784314022618210032
+%N A022405 a(n) = a(n-1)*a(n-2)-a(n-3)
+%t A022405 a[0] = 0; a[1] = 1; a[2] = 2; a[n_] := a[n] = a[n - 1] a[n - 2] - a[n - 3]; Table[a[n], {n, 0, 15}] (* _Alonso del Arte_, Jan 31 2011 *)
+%K A022405 easy,nonn
+%O A022405 1,3
+%A A022405 _Robert G. Wilson v_, Jul 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

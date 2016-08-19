@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058720
+Showing 1-1 of 1
+
+%I A058720
+%S A058720 1,1,1,1,5,1,1,31,16,1,1,352,337,42,1,1,8389,18700,2570,99,1,1,433038,
+%T A058720 7642631,907647,16865,219,1
+%N A058720 Triangle T(n,k) giving number of simple matroids of rank k on n labeled points (n >= 2, 2<=k<=n).
+%H A058720 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/matroid.html">Tables of matroids</a>
+%H A058720 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/phd.html">Counting and Probability in Matroid Theory</a>, Ph.D. Thesis, Trinity College, Dublin, 2000.
+%H A058720 <a href="/index/Mat#matroid">Index entries for sequences related to matroids</a>
+%H A058720 W. M. B. Dukes, <a href="http://arXiv.org/abs/math.CO/0411557">On the number of matroids on a finite set</a>
+%e A058720 1; 1,1; 1,5,1; 1,31,16,1; ...
+%Y A058720 Cf. A058716, A058730. Row sums give A058721. Diagonals give (A056642)+1, A058722.
+%K A058720 nonn,tabl,nice
+%O A058720 2,5
+%A A058720 _N. J. A. Sloane_, Dec 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

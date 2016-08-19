@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050318
+Showing 1-1 of 1
+
+%I A050318
+%S A050318 1,1,1,2,2,3,3,5,6,8,8,12,12,15,17,23,23,31,31,41,44,52,52,69,72,84,
+%T A050318 90,108,108,135,135,161,169,192,198,246,246,277,289,342,342,404,404,
+%U A050318 464,491,543,543,644,650,734,757,853,853,978,994,1123,1154,1262,1262
+%N A050318 Number of ways to write n as an mterm, where an mterm is an unordered sum which is either 2, or 1 + an unordered product of mterms.
+%F A050318 Shifts left under transform T where Ta has Dirichlet g.f.: prod{n=1 to inf}(1/(1-1/n^s)^a(n)).
+%e A050318 The different ways of writing the numbers 2 through 7 as mterms are
+%e A050318   2 = 2,
+%e A050318   3 = 1 + 2,
+%e A050318   4 = 1 + (1+2),
+%e A050318   5 = 1 + (1+1+2) = 1 + 2*2,
+%e A050318   6 = 1 + (1+1+1+2) = 1 + (1+2*2),
+%e A050318   7 = 1 + (1+1+1+1+2) = 1 + (1+1+2*2) = 1 + 2*(1+2).
+%Y A050318 Cf. A001055, A050319, A050365, A050366.
+%K A050318 nonn,eigen,nice,easy
+%O A050318 2,4
+%A A050318 _Christian G. Bower_, Sep 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

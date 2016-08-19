@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055481
+Showing 1-1 of 1
+
+%I A055481
+%S A055481 1,10,18,21,72,100,101,111,134,231,246,505,682,1000,1010,1100,1122,
+%T A055481 2210,3103,4006,6008,10000,10001,10012,11101,15453,20101,29358,34698,
+%U A055481 56576
+%N A055481 Numbers n such that there exists some k such that n is the sum of (k choose digits of n).
+%e A055481 3103 = (22 choose 3)+(22 choose 1)+(22 choose 0)+(22 choose 3)
+%Y A055481 Cf. A055482.
+%K A055481 base,nonn
+%O A055481 1,2
+%A A055481 _Erich Friedman_, Jun 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

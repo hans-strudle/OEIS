@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046047
+Showing 1-1 of 1
+
+%I A046047
+%S A046047 31,46,61,76,111,126,141,156,191,206,221,236,271,286,301,316,351,366,
+%T A046047 381,396,431,446,461,476,496,511,526,541,556,591,606,621,671,686,701,
+%U A046047 736,751,766,781,831,846,861,911,926,941,976,991,1006,1021,1071,1086
+%N A046047 Sum of 16 but no fewer nonzero fourth powers.
+%H A046047 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number</a>
+%t A046047 Select[Range[  1100], (pr = PowersRepresentations[#, 16, 4]; test = pr != {} && Count[pr, r_ /; (Times @@ r) == 0] == 0; If[test, Print[#]]; test) &] (* _Jean-François Alcover_, Oct 30 2012 *)
+%Y A046047 Cf. A000583, A002377, A046046.
+%K A046047 nonn
+%O A046047 1,1
+%A A046047 _Eric W. Weisstein_
+%E A046047 More terms from Arlin Anderson (starship1(AT)gmail.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

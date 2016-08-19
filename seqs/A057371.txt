@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057371
+Showing 1-1 of 1
+
+%I A057371
+%S A057371 64,72,81,100,108,125,128,216,225,288,324,500,500,576,864,972,1125,
+%T A057371 1152,1225,1800,2025,2700,3125,3200,3528,4500,7776,8100,8100,8100,
+%U A057371 10125,13068,13068,13689,15488
+%N A057371 Numbers n such that n=(a+b)=(x*y) with (a*b)=n*(x+y).
+%C A057371 These are powerful number(A001694).
+%Y A057371 Cf. A001694.
+%K A057371 nonn
+%O A057371 1,1
+%A A057371 _Naohiro Nomoto_, Sep 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

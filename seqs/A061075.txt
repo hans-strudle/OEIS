@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061075
+Showing 1-1 of 1
+
+%I A061075
+%S A061075 3,11,37,101,271,13,4649,137,333667,9091,513239,9901,265371653,909091,
+%T A061075 2906161,5882353,5363222357,52579,1111111111111111111,27961,10838689,
+%U A061075 8779,11111111111111111111111,99990001,182521213001,1058313049
+%N A061075 Greatest prime number p(n) with decimal fraction period of length n.
+%H A061075 <a href="/index/1#1overn">Index entries for sequences related to decimal expansion of 1/n</a>
+%e A061075 1/271 = 0.0036900369, period of n=5 for p(5)=271
+%t A061075 a[n_] := Cyclotomic[n, 10] // FactorInteger // Last // First; Table[a[n], {n, 1, 26}] (* _Jean-François Alcover_, Aug 05 2013, after Pari *)
+%o A061075 (PARI) a(n) = my(p); if(n<1, 0, p=factor(polcyclo(n,10))[,1]; p[#p])
+%Y A061075 Cf. A007138, A003020, A005422.
+%K A061075 nonn,nice,base
+%O A061075 1,1
+%A A061075 Heiner Muller-Merbach (hmm(AT)sozwi.uni-kl.de), May 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

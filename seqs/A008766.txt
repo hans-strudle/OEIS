@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008766
+Showing 1-1 of 1
+
+%I A008766
+%S A008766 1,1,2,3,5,7,10,13,18,23,29,36,45,54,65,77,91,106,123,141,162,184,208,
+%T A008766 234,263,293,326,361,399,439,482,527,576,627,681,738,799,862,929,999,
+%U A008766 1073,1150,1231,1315
+%N A008766 Expansion of (1+x^5)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4).
+%o A008766 (PARI) Vec((1+x^5)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4)+O(x^99)) \\ _Charles R Greathouse IV_, Sep 26 2012
+%K A008766 nonn,easy
+%O A008766 0,3
+%A A008766 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

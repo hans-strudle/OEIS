@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028150
+Showing 1-1 of 1
+
+%I A028150
+%S A028150 1,31,614,9926,142995,1915077,24414088,300588892,3608146949,
+%T A028150 42498447563,493420114122,5665664143698,64496965543063,
+%U A028150 729264545514289,8201673484111916,91847355888191144,1025058980614782537
+%N A028150 Expansion of 1/((1-4x)(1-7x)(1-9x)(1-11x)).
+%F A028150 a(n)=(15*11^(n+3)-42*9^(n+3) +5*7^(n+4)-2*4^(n+4))/840. [_Yahia Kahloune_, May 29 2013].
+%K A028150 nonn
+%O A028150 0,2
+%A A028150 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

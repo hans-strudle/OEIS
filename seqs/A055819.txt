@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055819
+Showing 1-1 of 1
+
+%I A055819
+%S A055819 1,2,4,10,26,68,178,466,1220,3194,8362,21892,57314,150050,392836,
+%T A055819 1028458,2692538,7049156,18454930,48315634,126491972,331160282,
+%U A055819 866988874,2269806340,5942430146,15557484098,40730022148,106632582346
+%N A055819 Row sums of array T in A055818; twice the odd-index Fibonacci numbers after initial term.
+%C A055819 Solutions (x, y) = (a(n), a(n+1)) satisfying  x^2 + y^2 = 3xy - 4. [Michel Lagneau, Feb 01 2014]
+%C A055819 Except for the first term, positive values of x (or y) satisfying x^2 - 18xy + y^2 + 256 = 0. - _Colin Barker_, Feb 16 2014
+%H A055819 Vincenzo Librandi, <a href="/A055819/b055819.txt">Table of n, a(n) for n = 0..1000</a>
+%H A055819 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-1).
+%F A055819 a(n) = 3*a(n-1)-a(n-2) for n>0. G.f.: -(x^2+x-1) / (x^2-3*x+1). - _Colin Barker_, Feb 01 2014
+%F A055819 a(n) = 2*A001519(n) for n>0. - _Colin Barker_, Feb 04 2014
+%t A055819 CoefficientList[Series[(1 - x - x^2)/(x^2 - 3 x + 1), {x, 0, 40}], x] (* _Vincenzo Librandi_, Feb 05 2014 *)
+%t A055819 Join[{1},LinearRecurrence[{3,-1},{2,4},30]] (* _Harvey P. Dale_, Oct 01 2014 *)
+%o A055819 (PARI) Vec(-(x^2+x-1)/(x^2-3*x+1) + O(x^100)) \\ _Colin Barker_, Feb 01 2014
+%Y A055819 Essentially the same as A052995.
+%K A055819 nonn,easy
+%O A055819 0,2
+%A A055819 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

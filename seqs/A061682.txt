@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061682
+Showing 1-1 of 1
+
+%I A061682
+%S A061682 4,10,16,44,74,46,204,714,702,908,404,7754,1136,9886,8154,23578,65096,
+%T A061682 404762,23992,3514774,110124,4802160,6490450,180832,115972,770304,
+%U A061682 62665998
+%N A061682 Quotient cycle length in continued fraction expansion of sqrt(2^(2n+1)+1).
+%Y A061682 Cf. A059866, A059926.
+%K A061682 nonn,nice
+%O A061682 2,1
+%A A061682 _Labos Elemer_, Mar 01 2001
+%E A061682 One more term from _David W. Wilson_, Jun 18 2001.
+%E A061682 Corrected and extended by _Naohiro Nomoto_, Nov 09 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

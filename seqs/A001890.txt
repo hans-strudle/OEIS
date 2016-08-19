@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001890
+Showing 1-1 of 1
+
+%I A001890 M4696 N2005
+%S A001890 1,10,34,206,1351,10543,92708,912884,9917445,117838808,1519483258,
+%T A001890 21128310078,315093762147,5016410089130,84909414423784,
+%U A001890 1522548805068310,28830824064870329,574880701875755325
+%N A001890 Hit polynomials.
+%D A001890 J. Riordan, The enumeration of permutations with three-ply staircase restrictions, unpublished memorandum, Bell Telephone Laboratories, Murray Hill, NJ, Oct 1963. (See A001883)
+%D A001890 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001890 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001890 N. J. A. Sloane, <a href="/A001883/a001883_21.pdf">Annotated copy of Riordan's Three-Ply Staircase paper</a> (unpublished memorandum, Bell Telephone Laboratories, Murray Hill, NJ, Oct 1963)
+%Y A001890 Fourth column of A080061.
+%Y A001890 Cf. A001883-A001891.
+%K A001890 nonn
+%O A001890 3,2
+%A A001890 _N. J. A. Sloane_.
+%E A001890 More terms from _Vladeta Jovovic_, _Vladimir Baltic_, Jan 23 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

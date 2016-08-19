@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032545
+Showing 1-1 of 1
+
+%I A032545
+%S A032545 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A032545 1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+%U A032545 2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+%N A032545 Integer part of decimal 'base 6 looking' numbers divided by their actual base 6 values, rounded down.
+%H A032545 Charles R Greathouse IV, <a href="/A032545/b032545.txt">Table of n, a(n) for n = 1..10000</a>
+%o A032545 (PARI) for(n=1,1e3,v=eval(Vec(Str(n)));if(vecmax(v)<6, print1(n\sum(i=1,#v,v[i]*6^(#v-i))", "))) \\ _Charles R Greathouse IV_, Apr 08 2012
+%Y A032545 Cf. A032546, A032547. See also A032532 for explanation.
+%K A032545 nonn,easy,base
+%O A032545 1,36
+%A A032545 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

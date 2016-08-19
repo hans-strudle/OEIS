@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010984
+Showing 1-1 of 1
+
+%I A010984
+%S A010984 1,32,528,5984,52360,376992,2324784,12620256,61523748,273438880,
+%T A010984 1121099408,4280561376,15338678264,51915526432,166871334960,
+%U A010984 511738760544,1503232609098,4244421484512,11554258485616,30405943383200,77535155627160,191991813933920
+%N A010984 Binomial coefficient C(n,31).
+%H A010984 T. D. Noe, <a href="/A010984/b010984.txt">Table of n, a(n) for n = 31..1000</a>
+%F A010984 G.f.: 1/(1-x)^32 . [_Zerinvary Lajos_, Dec 19 2008]
+%p A010984 seq(binomial(n,31),n=31..53); # _Zerinvary Lajos_, Dec 19 2008
+%t A010984 Table[Binomial[n,31],{n,31,60}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 26 2011 *)
+%o A010984 (MAGMA) [Binomial(n, 31): n in [31..70]]; // _Vincenzo Librandi_, Jun 12 2013
+%Y A010984 Cf. A010980, A010981, A010982.
+%K A010984 nonn,easy
+%O A010984 31,2
+%A A010984 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

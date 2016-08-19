@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045722
+Showing 1-1 of 1
+
+%I A045722
+%S A045722 1,6,28,150,858,5096,31008,191862,1201750,7597590,48384180,309939240,
+%T A045722 1994981688,12892738800,83604224384,543722433078,3545056580814,
+%U A045722 23164787710610,151662849838500,994674967479270,6533629880128890
+%N A045722 Number of border edges in all noncrossing rooted trees on n nodes.
+%H A045722 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A045722 n*binomial(3n-5, n-2)/(n-1) for n >= 2
+%F A045722 G.f.: (1+g-7*g^2+3*g^3)/((1-3*g)*(g-1)^2) where g*(1-g)^2 = x. - Mark van Hoeij, Nov 10 2011
+%Y A045722 Cf. A026004.
+%K A045722 nonn
+%O A045722 1,2
+%A A045722 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

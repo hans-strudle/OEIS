@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054392
+Showing 1-1 of 1
+
+%I A054392
+%S A054392 1,1,2,5,14,42,131,418,1352,4410,14463,47605,157084,519255,1718653,
+%T A054392 5693903,18877509,62620857,207816230,689899944,2290913666,7608939443,
+%U A054392 25276349558,83977959853,279039638062,927272169336,3081641953082
+%N A054392 Number of permutations with certain forbidden subsequences.
+%C A054392 Apparently the Motzkin transform of A005251, after A005251(0) is set to 1. [From _R. J. Mathar_, Dec 11 2008]
+%H A054392 E. Barcucci et al., <a href="http://dx.doi.org/10.1016/S0012-365X(99)00254-X">From Motzkin to Catalan Permutations</a>, Discr. Math., 217 (2000), 33-49.
+%F A054392 Conjecture: (-n+2)*a(n) +(8*n-19)*a(n-1) +(-20*n+49)*a(n-2) +(11*n-1)*a(n-3) +(19*n-116)*a(n-4) +21*(-n+5)*a(n-5)=0. - _R. J. Mathar_, Aug 09 2015
+%e A054392 G.f. = 1 + x + 2*x^2 + 5*x^3 + 14*x^4 + 42*x^5 + 131*x^6 + 418*x^7 + 1352*x^8 + ...
+%o A054392 (PARI) {a(n) = if( n<1, n==0, polcoeff( subst( x * (1 - x) / (1 - 2*x + x^2 - x^3), x, serreverse( x / (1 + x + x^2) + x * O(x^n))), n))}; /* _Michael Somos_, Aug 06 2014 */
+%Y A054392 Interpolates between Motzkin numbers (A001006) and Catalan numbers (A000108). Cf. A005773, A054391-A054394.
+%K A054392 nonn
+%O A054392 0,3
+%A A054392 _N. J. A. Sloane_, Elisa Pergola (elisa(AT)dsi.unifi.it), May 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

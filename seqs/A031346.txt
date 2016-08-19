@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031346
+Showing 1-1 of 1
+
+%I A031346
+%S A031346 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,1,1,1,1,
+%T A031346 2,2,2,2,2,3,1,1,1,2,2,2,2,3,2,3,1,1,2,2,2,3,2,3,2,3,1,1,2,2,2,2,3,2,
+%U A031346 3,3,1,1,2,2,3,3,2,4,3,3,1,1,2,2,2,2,3,3,3,3,1,1,2,3,3,3,3,3,3,2
+%N A031346 Multiplicative persistence: number of iterations of "multiply digits" needed to reach a number < 10.
+%D A031346 M. Gardner, Fractal Music, Hypercards and More Mathematical Recreations from Scientific American, Persistence of Numbers, pp. 120-1; 186-7, W. H. Freeman NY 1992
+%H A031346 T. D. Noe, <a href="/A031346/b031346.txt">Table of n, a(n) for n=0..10000</a>
+%H A031346 M. R. Diamond, <a href="http://www.markdiamond.com.au/download/joous-3-1-1.pdf">Multiplicative persistence base 10: some new null results</a>.
+%H A031346 N. J. A. Sloane, <a href="http://neilsloane.com/doc/persistence.html">The persistence of a number</a>, J. Recreational Math., 6 (1973), 97-98.
+%H A031346 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence</a>
+%p A031346 A007954 := proc(n) return mul(d, d=convert(n, base, 10)): end: A031346 := proc(n) local k,m: k:=0:m:=n: while(length(m)>1)do m:=A007954(m):k:=k+1: od: return k: end: seq(A031346(n),n=0..100); # _Nathaniel Johnston_, May 04 2011
+%o A031346 (Python)
+%o A031346 from operator import mul
+%o A031346 from functools import reduce
+%o A031346 def A031346(n):
+%o A031346 ....mp = 0
+%o A031346 ....while (n > 9):
+%o A031346 ........n = reduce(mul,(int(d) for d in str(n)))
+%o A031346 ........mp += 1
+%o A031346 ....return mp
+%o A031346 # _Chai Wah Wu_, Aug 23 2014
+%Y A031346 Cf. A010888 (additive digital root of n).
+%Y A031346 Cf. A031286 (additive persistence of n).
+%Y A031346 Cf. A031347 (multiplicative digital root of n).
+%Y A031346 Cf. A263131 (ordinal transform of a).
+%K A031346 nonn,easy,base
+%O A031346 0,26
+%A A031346 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030129
+Showing 1-1 of 1
+
+%I A030129
+%S A030129 1,0,1,0,0,0,1,0,1,0,0,0,2,0,80,0,0,0,11084874829
+%N A030129 Number of nonisomorphic Steiner triple systems (STS's) S(2,3,n) on n points.
+%D A030129 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 304.
+%D A030129 CRC Handbook of Combinatorial Designs, 1996, p. 70.
+%H A030129 P. Kaski and P. R. J. Ostergard (Patric.Ostergard(AT)hut.fi), <a href="http://www.tcs.hut.fi/~pkaski/sts19.ps">The Steiner triple systems of order 19</a>
+%H A030129 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SteinerTripleSystem.html">Steiner Triple System.</a>
+%H A030129 <a href="/index/St#Steiner">Index entries for sequences related to Steiner systems</a>
+%Y A030129 Cf. A001201, A030128, A051390, A124118, A124119.
+%K A030129 nonn,nice,hard
+%O A030129 1,13
+%A A030129 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

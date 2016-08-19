@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047402
+Showing 1-1 of 1
+
+%I A047402
+%S A047402 2,3,6,10,11,14,18,19,22,26,27,30,34,35,38,42,43,46,50,51,54,58,59,62,
+%T A047402 66,67,70,74,75,78,82,83,86,90,91,94,98,99,102,106,107,110,114,115,
+%U A047402 118,122,123,126,130,131,134
+%N A047402 Numbers that are congruent to {2, 3, 6} mod 8.
+%H A047402 C. P. Simoes, <a href="http://www.cpsimoes.net/tdm/tdm.html">Teste de Desempenho Mental</a>.
+%H A047402 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1)
+%F A047402 a(n)=a(n-3)+8. - Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 14 2006
+%F A047402 a(n)=1+2*[ -1/2-(1/2)*I*sqrt(3)]^(-2)*[ -1/2-(1/2)*I*sqrt(3))^(n-1)+2*[ -1/2+(1/2)*I *sqrt(3)]^(-2)*[ -1/2+(1/2)*I*sqrt(3)]^(n-1)+(8/3)*(n-1)-(4/9)*I*sqrt(3)*[ -1/2+(1/2)*I *sqrt(3)]^(n-1)+2*[ -1/2-(1/2)*I*sqrt(3)]^(n-1)+2*[ -1/2+(1/2)*I*sqrt(3)]^(n-1)+(4/9)*I *sqrt(3)*[ -1/2-(1/2)*I*sqrt(3)]^(n-1)+[ -1/2-(1/2)*I*sqrt(3)]^(-1)*[ -1/2-(1/2)*I *sqrt(3)]^(n-1)+[ -1/2+(1/2)*I*sqrt(3)]^(-1)*[ -1/2+(1/2)*I*sqrt(3)]^(n-1), with n>=1 [From _Paolo P. Lava_, Oct 01 2008]
+%F A047402 G.f. x*(2+x+3*x^2+2*x^3) / ( (1+x+x^2)*(x-1)^2 ). - R. J. Mathar, Jul 08 2011
+%t A047402 Flatten[#+{2,3,6}&/@(8Range[0,20])] (* or *) LinearRecurrence[{1,0,1,-1},{2,3,6,10},70] (* _Harvey P. Dale_, Nov 03 2013 *)
+%K A047402 nonn
+%O A047402 1,1
+%A A047402 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

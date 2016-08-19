@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028066
+Showing 1-1 of 1
+
+%I A028066
+%S A028066 1,27,474,6902,90867,1126545,13446028,156530604,1791797733,
+%T A028066 20274317063,227558149182,2539586737506,28227640438999,
+%U A028066 312844584806781,3460030004311536,38210322891344408,421513875961285065
+%N A028066 Expansion of 1/((1-3x)(1-5x)(1-8x)(1-11x)).
+%F A028066 a(n)=(5*11^(n+3)-2*8^(n+4)+4*5^(n+4)-3^(n+5))/720. [_Yahia Kahloune_, Jun 08 2013]
+%K A028066 nonn
+%O A028066 0,2
+%A A028066 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

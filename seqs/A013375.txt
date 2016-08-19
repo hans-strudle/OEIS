@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013375
+Showing 1-1 of 1
+
+%I A013375
+%S A013375 1,0,0,40,0,480,1232000,8320,256256000,744065052160,56972032000,
+%T A013375 933057413785600,3248379673651200000,1038642349994762240,
+%U A013375 15202354034221486080000,62540998641516972945735680
+%N A013375 sec(sin(x)-sinh(x))=1+40/6!*x^6+480/10!*x^10+1232000/12!*x^12...
+%K A013375 nonn
+%O A013375 0,4
+%A A013375 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

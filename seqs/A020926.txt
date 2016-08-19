@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020926
+Showing 1-1 of 1
+
+%I A020926
+%S A020926 1,30,510,6460,67830,624036,5200300,40116600,290845350,2003601300,
+%T A020926 13223768580,84151254600,518932736700,3113596420200,18236779032600,
+%U A020926 104557533120240,588136123801350,3252046802195700
+%N A020926 Expansion of 1/(1-4*x)^(15/2).
+%H A020926 Vincenzo Librandi, <a href="/A020926/b020926.txt">Table of n, a(n) for n = 0..200</a>
+%F A020926 a(n) = binomial(n+7, 7)*A000984(n+7)/A000984(7), A000984: central binomial coefficients - from _Wolfdieter Lang_.
+%F A020926 a(n) = ((2*n+13)*(2*n+11)*(2*n+9)*(2*n+7)*(2*n+5)*(2*n+3)*(2*n+1)/135135) * Binomial(2*n, n). - _Vincenzo Librandi_, Jul 05 2013
+%t A020926 CoefficientList[Series[1 / (1 - 4 x)^(15/2), {x, 0, 20}], x] (* _Vincenzo Librandi_, Jul 05 2013 *)
+%o A020926 (MAGMA) [&*[2*n+i: i in [1..13 by 2]]*Binomial(2*n, n)/135135: n in [0..20]]; // _Vincenzo Librandi_, Jul 05 2013
+%K A020926 nonn,easy
+%O A020926 0,2
+%A A020926 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

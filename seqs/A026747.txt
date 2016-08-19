@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026747
+Showing 1-1 of 1
+
+%I A026747
+%S A026747 1,1,1,1,3,1,1,4,4,1,1,6,11,5,1,1,7,17,16,6,1,1,9,30,44,22,7,1,1,10,
+%T A026747 39,74,66,29,8,1,1,12,58,143,184,95,37,9,1,1,13,70,201,327,279,132,46,
+%U A026747 10,1,1,15,95,329,671,790,411,178,56,11,1,1,16
+%N A026747 Triangular array T read by rows: T(n,0)=T(n,n)=1 for n >= 0; for n >= 2 and 1<=k<=n-1, T(n,k)=T(n-1,k-1)+T(n-2,k-1)+T(n-1,k) if n is even and 1<=k<=n/2, else T(n,k)=T(n-1,k-1)+T(n-1,k).
+%F A026747 T(n, k) = number of paths from (0, 0) to (n-k, k) in the directed graph having vertices (i, j) and edges (i, j)-to-(i+1, j) and (i, j)-to-(i, j+1) for i, j >= 0 and edges (i, 2h+i)-to-(i+1, 2h+i+1) for i >= 0, h>=0.
+%e A026747 1;
+%e A026747 1,  1;
+%e A026747 1,  3,  1;
+%e A026747 1,  4,  4,  1;
+%e A026747 1,  6, 11,  5,  1;
+%e A026747 1,  7, 17, 16,  6,  1;
+%e A026747 1,  9, 30, 44, 22,  7,  1;
+%p A026747 A026747 := proc(n,k)
+%p A026747     if k=0 or k = n then
+%p A026747         1;
+%p A026747     elif type(n,'even') and k <= n/2 then
+%p A026747         procname(n-1,k-1)+procname(n-2,k-1)+procname(n-1,k) ;
+%p A026747     else
+%p A026747         procname(n-1,k-1)+procname(n-1,k) ;
+%p A026747     end if ;
+%p A026747 end proc: # _R. J. Mathar_, Jun 30 2013
+%Y A026747 Cf. A026754 (row sums).
+%K A026747 nonn,tabl
+%O A026747 0,5
+%A A026747 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

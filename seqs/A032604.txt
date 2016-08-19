@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032604
+Showing 1-1 of 1
+
+%I A032604
+%S A032604 12,33,75,97,1311,1513,2117,2519,3123,3329,3731,4337,4941,5143,6347,
+%T A032604 6753,6959,7361,7567,7971,8773,9379,9983,10589,11197,115101,127103,
+%U A032604 129107,133109,135113,141127,151131,159137,163139,169149,171151,189157
+%N A032604 Decimal concatenation of n-th lucky number and n-th prime number.
+%Y A032604 Cf. A032603, A000959.
+%K A032604 nonn,base
+%O A032604 1,1
+%A A032604 _Patrick De Geest_, May 15 1998
+%E A032604 Edited by _Charles R Greathouse IV_, Apr 30 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

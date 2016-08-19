@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027648
+Showing 1-1 of 1
+
+%I A027648
+%S A027648 1,16,1296,3456,3240000,144000,1555848000,59270400,5000940000,1587600,
+%T A027648 9762501672000,11269843200,221794053611130000,39390663312000,
+%U A027648 5849513501832000,519437318400,407131014322092060000,1063331477208000
+%N A027648 Denominators of poly-Bernoulli numbers B_n^(k) with k=4.
+%H A027648 M. Kaneko, <a href="http://ftp.linux.cz/mount/muni.cz/EMIS/journals/JTNB/1997-1/kaneko.ps">Poly-Bernoulli numbers</a>
+%H A027648 Masanobu Kaneko, <a href="http://jtnb.cedram.org/item?id=JTNB_1997__9_1_221_0">Poly-Bernoulli numbers</a>, Journal de théorie des nombres de Bordeaux, 9 no. 1 (1997), Pages 221-228.
+%H A027648 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%p A027648 (-1)^n*sum( (-1)^'m'*'m'!*stirling2(n,'m')/('m'+1)^k,'m'=0..n);
+%Y A027648 Cf. A027647.
+%K A027648 nonn,frac,easy
+%O A027648 0,2
+%A A027648 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

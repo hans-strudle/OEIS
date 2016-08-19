@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051489
+Showing 1-1 of 1
+
+%I A051489
+%S A051489 1,4,32,368,5392,94932,1941760,45136576,1173741824,33739007300,
+%T A051489 1061917364224,36314872537968,1340612376924160,53132088082450132,
+%U A051489 2250010931847299072,101388548387203175168,4843806013966239465472
+%N A051489 a(n) = n^(n+2) + (n+2)^n.
+%t A051489 lst={};Do[m=n+2;q=n^m+m^n;AppendTo[lst,q],{n,0,2*4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 23 2009 *)
+%Y A051489 Cf. A046065, A051442, A007925. - _Vladimir Joseph Stephan Orlovsky_, Jan 23 2009
+%K A051489 nonn
+%O A051489 0,2
+%A A051489 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

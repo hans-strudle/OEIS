@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013634
+Showing 1-1 of 1
+
+%I A013634
+%S A013634 2,3,5,8,9,12,13,18,19,20,21,24,25,30,31,32,33,36,37,42,43,44,45,52,
+%T A013634 53,54,55,56,57,60,61,68,69,70,71,72,73,78,79,80,81,84,85,90,91,92,93,
+%U A013634 100,101,102,103,104,105,112
+%N A013634 nextprime(n)+n.
+%p A013634 [ seq(nextprime(i)+i,i=0..100) ];
+%t A013634 Table[n+NextPrime[n],{n,0,120}] (* _Harvey P. Dale_, May 03 2013 *)
+%K A013634 nonn
+%O A013634 0,1
+%A A013634 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

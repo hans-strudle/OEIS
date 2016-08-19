@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037031
+Showing 1-1 of 1
+
+%I A037031
+%S A037031 1,2,3,6,10,20,35,70,126,210,462,792,1716,3003,5005,8008,19448,31824,
+%T A037031 75582,125970,203490,319770,817190,1307504,2042975,3124550,4686825,
+%U A037031 6906900,20030010,30045015,84672315,129024480,193536720,286097760
+%N A037031 Number of combinations of n objects taken pi(n) at a time.
+%H A037031 Vincenzo Librandi, <a href="/A037031/b037031.txt">Table of n, a(n) for n = 1..1000</a>
+%F A037031 a(n) = C(n, pi(n)).
+%e A037031 C(16, 6) = 8008.
+%p A037031 with(numtheory); A037031:=n->binomial(n, pi(n)); seq(A037031(k), k=1..100); # _Wesley Ivan Hurt_, Oct 19 2013
+%t A037031 Table[Binomial[n,PrimePi[n]],{n,40}] (* _Harvey P. Dale_, Mar 22 2012 *)
+%Y A037031 Cf. A000720.
+%K A037031 nonn
+%O A037031 1,2
+%A A037031 _G. L. Honaker, Jr._
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

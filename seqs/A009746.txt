@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009746
+Showing 1-1 of 1
+
+%I A009746
+%S A009746 0,2,20,438,16680,973034,80252732,8859646110,1258403748432,
+%T A009746 223202277906386,48295209177888356,12510350648500199814,
+%U A009746 3820068667490198035320,1357281805972469318509754
+%N A009746 Expansion of tan(x)*sinh(tan(x)).
+%t A009746 Tan[ x ]*Sinh[ Tan[ x ] ] (* Even Part *)
+%K A009746 nonn
+%O A009746 0,2
+%A A009746 _R. H. Hardin_
+%E A009746 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

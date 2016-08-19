@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013967
+Showing 1-1 of 1
+
+%I A013967
+%S A013967 1,524289,1162261468,274878431233,19073486328126,609360902796252,
+%T A013967 11398895185373144,144115462954287105,1350851718835253557,
+%U A013967 10000019073486852414,61159090448414546292,319480609006403630044
+%N A013967 a(n) = sigma_19(n), the sum of the 19th powers of the divisors of n.
+%C A013967 If the canonical factorization of n into prime powers is the product of p^e(p) then sigma_k(n) = Product_p ((p^((e(p)+1)*k))-1)/(p^k-1).
+%C A013967 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%F A013967 G.f.: sum_{k>=1} k^19*x^k/(1-x^k). - _Benoit Cloitre_, Apr 21 2003
+%t A013967 lst={};Do[AppendTo[lst,DivisorSigma[19,n]],{n,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Mar 11 2009 *)
+%o A013967 (Sage) [sigma(n,19)for n in xrange(1,13)] # _Zerinvary Lajos_, Jun 04 2009
+%K A013967 nonn,mult
+%O A013967 1,2
+%A A013967 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

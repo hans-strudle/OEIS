@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045678
+Showing 1-1 of 1
+
+%I A045678
+%S A045678 0,0,0,2,4,12,26,56,116,240,492,992,2010,4032,8120,16256,32628,65280,
+%T A045678 130800,261632,523756,1047552,2096096,4192256,8386522,16773120,
+%U A045678 33550272,67100672,134209464,268419072,536854400,1073709056,2147450740
+%N A045678 Number of 2n-bead balanced binary necklaces, equivalent to reversed complement, inequivalent to reverse and complement.
+%H A045678 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A045678 a(2n+1)=A020522(n)=4^n-2^n - _Max Alekseyev_, Jan 13 2006
+%K A045678 nonn
+%O A045678 0,4
+%A A045678 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021565
+Showing 1-1 of 1
+
+%I A021565
+%S A021565 0,0,1,7,8,2,5,3,1,1,9,4,2,9,5,9,0,0,1,7,8,2,5,3,1,1,9,4,2,9,5,9,0,0,
+%T A021565 1,7,8,2,5,3,1,1,9,4,2,9,5,9,0,0,1,7,8,2,5,3,1,1,9,4,2,9,5,9,0,0,1,7,
+%U A021565 8,2,5,3,1,1,9,4,2,9,5,9,0,0,1,7,8,2,5,3,1,1,9,4,2,9,5,9,0,0,1
+%N A021565 Decimal expansion of 1/561.
+%F A021565 a(n)=(1/320)*{191*(n mod 16)-69*[(n+1) mod 16]+91*[(n+2) mod 16]-129*[(n+3) mod 16]+51*[(n+4) mod 16]+111*[(n+5) mod 16]-149*[(n+6) mod 16]+11*[(n+7) mod 16]+51*[(n+8) mod 16]+51*[(n+9) mod 16]-49*[(n+10) mod 16]+131*[(n+11) mod 16]-9*[(n+12) mod 16]-109*[(n+13) mod 16]-9*[(n+14) mod 16]+11*[(n+15) mod 16]}, with n>=0 [From _Paolo P. Lava_, Nov 20 2009]
+%K A021565 nonn,cons
+%O A021565 0,4
+%A A021565 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

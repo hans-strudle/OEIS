@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053827
+Showing 1-1 of 1
+
+%I A053827
+%S A053827 0,1,2,3,4,5,1,2,3,4,5,6,2,3,4,5,6,7,3,4,5,6,7,8,4,5,6,7,8,9,5,6,7,8,
+%T A053827 9,10,1,2,3,4,5,6,2,3,4,5,6,7,3,4,5,6,7,8,4,5,6,7,8,9,5,6,7,8,9,10,6,
+%U A053827 7,8,9,10,11,2,3,4,5,6,7,3,4,5,6,7,8,4,5,6,7,8,9,5,6,7,8,9,10,6,7,8,9,10
+%N A053827 Sum of digits of (n written in base 6).
+%C A053827 Also the fixed point of the morphism 0->{0,1,2,3,4,5}, 1->{1,2,3,4,5,6}, 2->{2,3,4,5,6,7}, etc. - _Robert G. Wilson v_, Jul 27 2006
+%C A053827 a(n) = A138530(n,6) for n > 5. - _Reinhard Zumkeller_, Mar 26 2008
+%C A053827 Sum of six consecutive terms is (15,21,27,33,39,45; 21,27,33,39,45,51; 27,33,39,45,51,57; and so on). - _Vincenzo Librandi_, Aug 02 2010
+%H A053827 Robert Walker, <a href="http://robertinventor.com/ftswiki/Self_Similar_Sloth_Canon_Number_Sequences">Self Similar Sloth Canon Number Sequences</a>
+%H A053827 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DigitSum.html">Digit Sum</a>
+%F A053827 a(0)=0, a(6n+i)=a(n)+i 0<=i<=5; a(n)=n-5*(sum(k>0, floor(n/6^k))=n-5*A054895(n). - _Benoit Cloitre_, Dec 19 2002
+%F A053827 a(n)=Sum_{k>=0} A030567(n,k). - _Philippe Deléham_, Oct 21 2011
+%e A053827 a(20)=3+2=5 because 20 is written as 32 base 6
+%e A053827 From _Omar E. Pol_, Feb 21 2010: (Start)
+%e A053827 It appears that this can be written as a triangle (See the conjecture in the entry A000120):
+%e A053827 0,
+%e A053827 1,2,3,4,5,
+%e A053827 1,2,3,4,5,6,2,3,4,5,6,7,3,4,5,6,7,8,4,5,6,7,8,9,5,6,7,8,9,10,
+%e A053827 1,2,3,4,5,6,2,3,4,5,6,7,3,4,5,6,7,8,4,5,6,7,8,9,5,6,7,8,9,10,6,7,8,9,10,11,2...
+%e A053827 where the rows converge to A173526.
+%e A053827 (End)
+%t A053827 Table[Plus @@ IntegerDigits[n, 6], {n, 0, 100}] (* or *)
+%t A053827 Nest[ Flatten[ #1 /. a_Integer -> Table[a + i, {i, 0, 5}]] &, {0}, 4] (* _Robert G. Wilson v_, Jul 27 2006 *)
+%o A053827 (PARI) a(n)=if(n<1,0,if(n%6,a(n-1)+1,a(n/6)))
+%Y A053827 Cf. A000120, A007953, A053735, A053737, A053824, A231672-A231675.
+%Y A053827 Cf. A173526. - _Omar E. Pol_, Feb 21 2010
+%K A053827 base,nonn
+%O A053827 0,3
+%A A053827 _Henry Bottomley_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048113
+Showing 1-1 of 1
+
+%I A048113
+%S A048113 0,0,0,0,1,0,0,1,1,0,0,0,2,0,0,0,0,2,2,0,0,0,0,2,4,2,0,0,0,0,0,6,6,0,
+%T A048113 0,0,0,0,0,6,12,6,0,0,0,0,0,0,6,18,18,6,0,0,0,0,0,0,0,24,36,24,0,0,0,
+%U A048113 0,0,0,0,0,24,60,60,24,0,0,0,0,0,0,0,0,24,84
+%N A048113 Triangular array T read by rows: T(h,k)=number of paths consisting of steps from (1,1) to (h,k) such that each step has length 1 directed up or right and each vertex (i,j) satisfies i/2<=j<=2i, for h=0,1,2,... and k=0,1,2,...
+%e A048113 Rows: {0}; {0,0}; {0,1,0}; {0,1,1,0}; ...
+%K A048113 nonn,tabl
+%O A048113 1,13
+%A A048113 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

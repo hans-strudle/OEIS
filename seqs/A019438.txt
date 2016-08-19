@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019438
+Showing 1-1 of 1
+
+%I A019438
+%S A019438 1,2,3,5,6,7,11,14,15,23
+%N A019438 Squarefree orders of elements of Mathieu group M_23.
+%C A019438 Numbers having a unique partition into four nonnegative squares. Let r=2, 6, or 14. Then the numbers r*4^k also have unique partitions into the four nonnegative squares for k>0. See A006431. - _T. D. Noe_, Aug 10 2005
+%D A019438 D. H. Lehmer, On the partition of numbers into squares, Amer. Math. Monthly, Vol. 55, No. 8 (Oct 1948), 476-481.
+%D A019438 G. Nebe and M. Teider, Hecke actions on certain strongly modular genera of lattices. Archiv der Mathematik 84 (1) (2005) 46-56.
+%H A019438 E. M. Rains and N. J. A. Sloane, <a href="http://neilsloane.com/doc/shad.html">The Shadow Theory of Modular and Unimodular Lattices</a>, J. Number Theory, 73 (1998), 359-389.
+%K A019438 nonn,fini,full
+%O A019438 0,2
+%A A019438 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

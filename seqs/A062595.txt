@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062595
+Showing 1-1 of 1
+
+%I A062595
+%S A062595 3,7219,34871
+%N A062595 Numbers n such that 29^n - 28^n is prime.
+%C A062595 Terms > 1000 are often only strong pseudoprimes.
+%C A062595 a(4) > 10^5. - _Robert Price_, Sep 22 2012
+%Y A062595 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062595 nonn,hard,bref
+%O A062595 1,1
+%A A062595 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062595 a(3) from _Robert Price_, Sep 22 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

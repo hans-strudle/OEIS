@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047622
+Showing 1-1 of 1
+
+%I A047622
+%S A047622 0,3,5,8,11,13,16,19,21,24,27,29,32,35,37,40,43,45,48,51,53,56,59,61,
+%T A047622 64,67,69,72,75,77,80,83,85,88,91,93,96,99,101,104,107,109,112,115,
+%U A047622 117,120,123,125,128,131,133,136
+%N A047622 Numbers that are congruent to {0, 3, 5} mod 8.
+%F A047622 a(n)=A008576(n-1), n>1. G.f.: x^2(3+2x+3x^2)/((1-x)^2*(1+x+x^2)). [From _R. J. Mathar_, Oct 18 2008]
+%F A047622 a(n) = floor((8n-7)/3) [From _Gary Detlefs_, Mar 07 2010]
+%p A047622 seq(floor((8*n-7)/3),n=1..52); [From _Gary Detlefs_, Mar 07 2010]
+%t A047622 Select[Range[0,150],MemberQ[{0,3,5},Mod[#,8]]&] (* _Harvey P. Dale_, Oct 04 2012 *)
+%K A047622 nonn
+%O A047622 1,2
+%A A047622 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

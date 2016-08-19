@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059506
+Showing 1-1 of 1
+
+%I A059506
+%S A059506 3,7,19,53,148,412,1143,3161,8717,23977,65798,180182,492459,1343563,
+%T A059506 3659623,9953117,27031768,73320496,198632607,537507677,1452978593,
+%U A059506 3923762257,10586222474,28536313898,76859031123
+%N A059506 Transform of A059502 applied to sequence 3,4,5,...
+%C A059506 The third row of the array A059503.
+%H A059506 <a href="/index/Bo#boustrophedon">Index entries for sequences related to boustrophedon transform</a>
+%H A059506 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-11,6,-1).
+%F A059506 a(n) = 6*a(n-1)-11*a(n-2)+6*a(n-3)-a(n-4). G.f.: -x*(x-1)*(2*x^2-8*x+3)/(x^2-3*x+1)^2. [_Colin Barker_, Nov 30 2012]
+%t A059506 LinearRecurrence[{6,-11,6,-1},{3,7,19,53},30] (* _Harvey P. Dale_, Jul 30 2015 *)
+%Y A059506 Cf. A000667, A059216, A059219, A059502.
+%K A059506 easy,nonn
+%O A059506 1,1
+%A A059506 _Floor van Lamoen_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

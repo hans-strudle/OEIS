@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058397
+Showing 1-1 of 1
+
+%I A058397
+%S A058397 1,3,6,13,22,42,66,112,172,270,397,602,858,1245,1748,2464,3381,4671,
+%T A058397 6302,8537,11372,15147,19914,26201,34057,44250,56986,73277,93497,
+%U A058397 119161,150809,190590,239496,300388,374912,467135,579394,717384,884813
+%N A058397 Row sums of partition triangle A026820.
+%F A058397 a(n) = sum(A026820(n, k), k=1..n).
+%p A058397 seq(add(combinat:-numbpart(n,k),k=0..n),n=1..39); # _Peter Luschny_, Aug 03 2015
+%o A058397 (PARI) a(n)=if(n<1,0,polcoeff(sum(k=1,n,1/prod(i=1,k,(1-x^i)),x*O(x^n)),n))
+%Y A058397 Cf. A026820, A046682.
+%K A058397 nonn
+%O A058397 1,2
+%A A058397 _Wolfdieter Lang_, Dec 11 2000
+%E A058397 More terms from _Benoit Cloitre_, Apr 21 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

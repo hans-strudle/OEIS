@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007275
+Showing 1-1 of 1
+
+%I A007275 M4223
+%S A007275 1,6,36,216,1296,7776,46440,276054,1633848,9633366,56616140,331847200,
+%T A007275 1940717000,11327957196,66010769382
+%N A007275 Expansion for generalized walks on hexagonal lattice.
+%C A007275 The hexagonal lattice is the familiar 2-dimensional lattice in which each point has 6 neighbors. This is sometimes called the triangular lattice.
+%D A007275 A. J. Guttmann, C. Byrnes and N. E. Frankel, A generalized self-avoiding walk, J. Phys. A 17 (1984), L457-L461.
+%D A007275 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007275 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>
+%K A007275 nonn,walk
+%O A007275 0,2
+%A A007275 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

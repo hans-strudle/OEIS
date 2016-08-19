@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052346
+Showing 1-1 of 1
+
+%I A052346
+%S A052346 1,2,16,81,471,1056,1381,11781,6906,17956,34531,123256,40056,4462656,
+%T A052346 305256,448906,200281,1957231,520731,10563906,1001406,11222656,
+%U A052346 539550781,3454506,1482081,75865156,7172606106,8852431,25035156
+%N A052346 Smallest number which is the sum of two triangular numbers in exactly n different ways.
+%e A052346 471 = 300+171 = 351+120 = 435+36 = 465 + 6
+%Y A052346 Cf. A052343-A052348, A053587, A064816.
+%K A052346 nonn
+%O A052346 0,2
+%A A052346 _Christian G. Bower_, Jan 23 2000
+%E A052346 a(27), a(28) = 8852431, 25035156. a(26) not yet found.
+%E A052346 a(26) from _Donovan Johnson_, Nov 17 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

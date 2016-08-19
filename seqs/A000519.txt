@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000519
+Showing 1-1 of 1
+
+%I A000519
+%S A000519 1,2,3,5,7,18,43,313,7525,846992,324127859
+%N A000519 Number of equivalence classes of nonzero regular 0-1 matrices of order n.
+%C A000519 Previous name was: Number of different row sums among Latin squares of order n.
+%C A000519 A regular 0-1 matrix has all row sums and column sums equal. Equivalence is defined by independently permuting rows and columns (but not by transposing). - _Brendan McKay_, Nov 18 2015
+%H A000519 <a href="/index/La#Latin">Index entries for sequences related to Latin squares and rectangles</a>
+%e A000519 For n = 4, representatives of the a(4) = 5 classes are
+%e A000519 [1 0 0 0]  [1 1 0 0]  [1 1 0 0]  [1 1 1 0]  [1 1 1 1]
+%e A000519 [0 1 0 0]  [1 1 0 0]  [0 1 1 0]  [1 1 0 1]  [1 1 1 1]
+%e A000519 [0 0 1 0]  [0 0 1 1]  [0 0 1 1]  [1 0 1 1]  [1 1 1 1]
+%e A000519 [0 0 0 1]  [0 0 1 1]  [1 0 0 1]  [0 1 1 1]  [1 1 1 1].
+%e A000519 G.f. = x + 2*x^2 + 3*x^3 + 5*x^4 + 7*x^5 + 18*x^6 + 43*x^7 + 313*x^8 + 7525*x^9 + ...
+%Y A000519 One less than the row sums of A133687.
+%K A000519 nonn,more
+%O A000519 1,2
+%A A000519 Eric Rogoyski
+%E A000519 Description changed, after discussion with Andrew Howroyd, by _Brendan McKay_, Nov 18 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

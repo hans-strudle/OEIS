@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029067
+Showing 1-1 of 1
+
+%I A029067
+%S A029067 1,1,1,1,2,3,3,3,4,5,7,7,8,9,11,13,14,15,17,19,23,24,26,28,32,36,38,
+%T A029067 40,44,48,54,56,60,64,70,76,80,84,90,96,105,109,115,121,130,139,145,
+%U A029067 151,160,169,181,187,196,205,217,229,238,247,259,271,287,296,308
+%N A029067 Expansion of 1/((1-x)(1-x^4)(1-x^5)(1-x^10)).
+%o A029067 (PARI) a(n)=round((n+10)*(2*n^2+40*n+129+15*(-1)^n)/2400+(n\5+1)*[2,0,-1,-1,0][n%5+1]/10+(n%2)*(-1)^(n\2)/8) \\ _Tani Akinari_, May 22 2014
+%K A029067 nonn
+%O A029067 0,5
+%A A029067 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051070
+Showing 1-1 of 1
+
+%I A051070
+%S A051070 1,2,1,0,2,3,0,7,8,4,63,1,316,78,16,2048,7652,26627,8,24000,232919,
+%T A051070 1145406,3498690007594650042368,2058537,58,26,27,59,9272780,3,
+%U A051070 69273668,4870847,2387010102192469724605148123694256128,1,1,53,43,0,4696,173,44583,111111111111111111111111111111111111111111,30402457,668803781,1134903170,382443020332
+%V A051070 1,2,1,0,2,3,0,7,8,4,63,1,316,78,16,2048,7652,26627,8,24000,232919,
+%W A051070 1145406,3498690007594650042368,2058537,58,26,27,59,9272780,3,
+%X A051070 69273668,4870847,2387010102192469724605148123694256128,1,1,-53,43,0,-4696,173,44583,111111111111111111111111111111111111111111,30402457,668803781,1134903170,382443020332
+%N A051070 a(n) is the n-th term in sequence A_n, respecting the offset.
+%C A051070 The sequence is undefined from n = 53 on, since A000053 has only 29 terms. Except for n = 47, n = 49 and n = 50, all terms up to there are known, cf. A091967. - _M. F. Hasler_, Sep 22 2013
+%H A051070 E. M. Rains and N. J. A. Sloane, <a href="https://cs.uwaterloo.ca/journals/JIS/cayley.html">On Cayley's Enumeration of Alkanes (or 4-Valent Trees).</a>, J. Integer Sequences, Vol. 2 (1999), Article 99.1.1.
+%H A051070 N. J. A. Sloane, <a href="http://neilsloane.com/doc/sg.txt">My favorite integer sequences</a>, in Sequences and their Applications (Proceedings of SETA '98).
+%H A051070 N. J. A. Sloane, <a href="/index.html">Online Encyclopedia of Integer Sequences</a>
+%e A051070 a(19) = 8 because A000019(19) = 8.
+%e A051070 a(20) = 24000 because A000020(20) = 24000.
+%p A051070 for m from 1 do
+%p A051070   url:= sprintf("https://oeis.org/A%06d/b%06d.txt",m,m);
+%p A051070   S:= URL:-Get(url);
+%p A051070   L:= StringTools[Split](S,"\n");
+%p A051070   for t in L do
+%p A051070     g:= sscanf(t, "%d %d");
+%p A051070     if nops(g) = 2 and g[1] = m then
+%p A051070       a[m]:= g[2];
+%p A051070       break
+%p A051070     fi;
+%p A051070   od;
+%p A051070   if not assigned(a[m]) then break fi;
+%p A051070 od:
+%p A051070 seq(a[i],i=1..m-1); # _Robert Israel_, May 31 2015
+%Y A051070 Cf. A000001 through A000053.
+%Y A051070 See A091967, A107357, A102288 for other versions. See also A031214, A031135, A037181.
+%K A051070 easy,sign,fini
+%O A051070 1,2
+%A A051070 _Robert G. Wilson v_, Aug 23 2000
+%E A051070 Rechecked and 4 more terms added by _N. J. A. Sloane_, May 25 2005
+%E A051070 a(43) is presently unknown, since A000043(43) is the exponent of the 43rd Mersenne prime. a(44) = 668803781. - _N. J. A. Sloane_, May 25 2005
+%E A051070 a(36) and a(42) corrected and a(43) to a(46) added by _Robert Israel_, May 31 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

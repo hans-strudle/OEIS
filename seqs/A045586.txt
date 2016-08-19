@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045586
+Showing 1-1 of 1
+
+%I A045586
+%S A045586 1,2,5,25,55,58,125,155,275,605,625,775,1265,1375,1682,1705,3025,3125,
+%T A045586 3875,4805,6325,6655,6875,8525,13915,15125,15625,18755,19375,24025,
+%U A045586 29095,31625,33275,34375,39215,42625,48778,52855,53882,69575,73205
+%N A045586 Numbers n such that n | 7^n + 3^n.
+%K A045586 nonn
+%O A045586 1,2
+%A A045586 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

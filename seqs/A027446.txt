@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027446
+Showing 1-1 of 1
+
+%I A027446
+%S A027446 1,3,1,11,5,2,25,13,7,3,137,77,47,27,12,147,87,57,37,22,10,1089,669,
+%T A027446 459,319,214,130,60,2283,1443,1023,743,533,365,225,105,7129,4609,3349,
+%U A027446 2509,1879,1375,955,595,280,7381,4861,3601,2761,2131,1627,1207,847
+%N A027446 Square of the lower triangular mean matrix.
+%C A027446 The rational matrix A^2, where the matrix A has elements a[i,j] = 1/A002024(i,j) is equal to A119947(i,j)/A119948(i,j).
+%F A027446 Numerators of lower triangle of (a[ i, j ])^2 where a[ i, j ] = 1/i if j<=i, 0 if j>i.
+%F A027446 a(i,j) = lcm(seq(A119948(i,m),m=1..i))*A119947(i,j)/A119948(i,j), 1 <= j =< i and zero otherwise.
+%e A027446 Triangle starts
+%e A027446      1
+%e A027446      3,    1
+%e A027446     11,    5,    2
+%e A027446     25,   13,    7,    3
+%e A027446    137,   77,   47,   27,   12
+%e A027446    147,   87,   57,   37,   22,   10
+%e A027446   1089,  669,  459,  319,  214,  130,  60
+%e A027446   2283, 1443, 1023,  743,  533,  365, 225, 105
+%e A027446   7129, 4609, 3349, 2509, 1879, 1375, 955, 595, 280
+%e A027446   ... - _Joerg Arndt_, Mar 29 2013
+%t A027446 rows = 10; m = Table[ If[j <= i, 1/i, 0], {i, 1, rows}, {j, 1, rows}]; m2 = m.m; Table[fracs = m2[[i]]; nums = fracs // Numerator; dens = fracs // Denominator; lcm = LCM @@ dens; Table[ nums[[j]]*lcm/dens[[j]], {j, 1, i}], {i, 1, rows}] // Flatten (* _Jean-François Alcover_, Mar 05 2013 *)
+%Y A027446 The row sums give A081528(n), n>=1.
+%Y A027446 The column sequences give A025529, A027457, A027458 for j=1..3.
+%Y A027446 The diagonal sequences give A002944, A027449, A027450.
+%Y A027446 Cf. A027447, A027448.
+%K A027446 nonn,tabl
+%O A027446 1,2
+%A A027446 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

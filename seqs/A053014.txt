@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053014
+Showing 1-1 of 1
+
+%I A053014
+%S A053014 30,60,840,10080,110880,1441440,15135120,21162960,21162960
+%N A053014 Smallest number which has n successive divisors such that the quotients all begin with the same digit.
+%D A053014 Denis Borris, Ken Duisenberg's Puzzle of the Week Feb. 15 2000
+%H A053014 <a href="http://www.ecst.csuchico.edu/~kend/potw/archive/000215sol.html">Source</a>
+%e A053014 a(4)=840 since 840/5=168, 840/6=140, 840/7=120 and 840/8=105 all start with 1
+%Y A053014 Cf. A000142.
+%K A053014 nonn,base,more
+%O A053014 2,1
+%A A053014 _Henry Bottomley_, Feb 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

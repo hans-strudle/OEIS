@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020883
+Showing 1-1 of 1
+
+%I A020883
+%S A020883 4,12,15,21,24,35,40,45,55,56,60,63,72,77,80,84,91,99,105,112,117,120,
+%T A020883 132,140,143,144,153,156,165,168,171,176,180,187,195,208,209,220,221,
+%U A020883 224,231,240,247,252,253,255,260,264,272,273,275,285,288,299,304,308,312,323
+%N A020883 Ordered long legs of primitive Pythagorean triangles.
+%C A020883 Consider primitive Pythagorean triangles (A^2 + B^2 = C^2, (A, B) = 1, A <= B); sequence gives values of B, sorted.
+%C A020883 Any term in this sequence is given by f(m,n) = 2*m*n where m and n are any two positive integers, m > 1, n < m, the greatest common divisor of m and n is 1, m and n are not both odd, e.g. f(m,n) = f(2,1) = 2*2*1 = 4. - _Agola Kisira Odero_, Apr 29 2016
+%H A020883 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Pythag/pythag.html">Pythagorean Triples and Online Calculators</a>
+%t A020883 lst={}; amx=99; Do[For[b=a+1, b<(a^2/2), c=(a^2+b^2)^(1/2); If[c==IntegerPart[c]&&GCD[a, b, c]==1, AppendTo[lst, b]]; b=b+2], {a, 3, amx}]; lst (* _Vladimir Joseph Stephan Orlovsky_, Aug 07 2008 *)
+%Y A020883 Cf. A020882, A020884, A020885, A020886, A024354.
+%K A020883 nonn
+%O A020883 1,1
+%A A020883 _Clark Kimberling_
+%E A020883 Extended and corrected by _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

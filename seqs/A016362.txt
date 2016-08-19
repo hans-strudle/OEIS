@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016362
+Showing 1-1 of 1
+
+%I A016362
+%S A016362 1,1,1,0,0,0,0,1,1,1,0,1,1,1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,1,
+%T A016362 1,0,1,0,0,1,0,0,0,1,0,0,0,1,0,1,1,0,0,1,1,0,1,0,0,0,1,0,0,0,1,
+%U A016362 0,0,0,1,0,0,0,1,0,1,1,0,0,1,1,0,1,0,0,0
+%V A016362 1,1,1,0,0,0,0,-1,-1,-1,0,-1,-1,-1,0,0,0,0,1,1,1,1,1,1,0,0,0,0,-1,-1,
+%W A016362 -1,0,-1,0,0,1,0,0,0,1,0,0,0,1,0,-1,-1,0,0,-1,-1,0,1,0,0,0,1,0,0,0,1,
+%X A016362 0,0,0,1,0,0,0,1,0,-1,-1,0,0,-1,-1,0,1,0,0,0
+%N A016362 231st cyclotomic polynomial.
+%K A016362 sign,fini
+%O A016362 0,1
+%A A016362 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

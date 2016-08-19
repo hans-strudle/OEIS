@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047267
+Showing 1-1 of 1
+
+%I A047267
+%S A047267 0,2,5,6,8,11,12,14,17,18,20,23,24,26,29,30,32,35,36,38,41,42,44,47,
+%T A047267 48,50,53,54,56,59,60,62,65,66,68,71,72,74,77,78,80,83,84,86,89,90,92,
+%U A047267 95,96,98,101,102,104,107,108
+%N A047267 Numbers that are congruent to {0, 2, 5} mod 6.
+%H A047267 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047267 a(n)= 3*n-3*floor(n/3)-(n^2 mod 3), with offset 0..a(0)=0 [From _Gary Detlefs_, Mar 19 2010]
+%F A047267 G.f.  x^2*(x+2)*(1+x) / ( (1+x+x^2)*(x-1)^2 ). - R. J. Mathar, Oct 08 2011
+%p A047267 seq(3*n-3*floor(n/3)-(n^2 mod 3),n=0..54); [From _Gary Detlefs_, Mar 19 2010]
+%t A047267 Select[Range[0,110],MemberQ[{0,2,5},Mod[#,6]]&] (* or *) LinearRecurrence[ {1,0,1,-1},{0,2,5,6},60] (* _Harvey P. Dale_, Aug 31 2015 *)
+%Y A047267 Cf. A011655 [From _Gary Detlefs_, Mar 19 2010]
+%K A047267 nonn
+%O A047267 1,2
+%A A047267 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

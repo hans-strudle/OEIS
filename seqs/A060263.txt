@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060263
+Showing 1-1 of 1
+
+%I A060263
+%S A060263 59,257,17,487,1847,911,5857,1033,1523,2293,2819,10627,4507,5563,20773
+%N A060263 a(n) = smallest prime q such that precisely n successive primes p starting at q have reciprocals with period p-1.
+%Y A060263 Cf. A002371, A048595.
+%K A060263 nonn,easy
+%O A060263 2,1
+%A A060263 _Jeff Burch_, Mar 23 2001
+%E A060263 Corrected and extended by Antonio G. Astudillo (afg_astudillo(AT)lycos.com), Apr 21 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

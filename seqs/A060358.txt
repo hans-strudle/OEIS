@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060358
+Showing 1-1 of 1
+
+%I A060358
+%S A060358 5,11,59,59,419,839,2503,2503,27701,27701,360337,360337,360337,720703,
+%T A060358 12252197,12252197,232792559,232792559,232792559,232792559,5354228879,
+%U A060358 5354228879,26771144371,26771144371,80313433159,80313433159
+%N A060358 Largest prime < LCM{1,2,...,n}.
+%t A060358 Table[NextPrime[LCM@@Range[n],-1],{n,3,30}] (* _Harvey P. Dale_, May 28 2014 *)
+%Y A060358 Cf. A003418, A060357.
+%K A060358 nonn
+%O A060358 3,1
+%A A060358 _N. J. A. Sloane_, Apr 01 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

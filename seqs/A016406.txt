@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016406
+Showing 1-1 of 1
+
+%I A016406
+%S A016406 1,0,1,0,1,0,0,0,0,0,1,0,1,0,2,0,1,0,1,0,0,0,0,0,1,0,1,0,1,0,1,0,
+%T A016406 1,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,1,
+%U A016406 0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,1,0,1
+%V A016406 1,0,-1,0,1,0,0,0,0,0,1,0,-1,0,2,0,-1,0,1,0,0,0,0,0,1,0,-1,0,1,0,-1,0,
+%W A016406 1,0,-1,0,0,0,0,0,-1,0,0,0,-1,0,0,0,-1,0,0,0,-1,0,0,0,-1,0,0,0,0,0,-1,
+%X A016406 0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,1,0,-1
+%N A016406 420th cyclotomic polynomial.
+%K A016406 sign,fini
+%O A016406 0,15
+%A A016406 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

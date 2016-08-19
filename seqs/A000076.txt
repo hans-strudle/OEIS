@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000076
+Showing 1-1 of 1
+
+%I A000076 M1079 N0409
+%S A000076 0,0,1,2,4,7,14,24,43,82,149,284,534,1015,1937,3713,7136,13759,26597,
+%T A000076 51537,100045,194586,378987,739161,1443465,2821923,5522689
+%N A000076 Number of integers <= 2^n of form 4 x^2 + 4 x y + 5 y^2.
+%D A000076 D. Shanks and L. P. Schmid, Variations on a theorem of Landau. Part I, Math. Comp., 20 (1966), 551-569.
+%D A000076 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000076 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000076 <a href="/index/Qua#quadpop">Index entries for sequences related to populations of quadratic forms</a>
+%e A000076 a(4)=4 since 2^4=16 and 4=4*1^2, 5=5*1^2, 13=4*1^2+4*1*1+5*1^2, 16=4*2^2.
+%o A000076 (PARI) a(n)=if(n<0,0,sum(k=1,2^n,0<sum(j=0,sqrtint(k)\2,issquare(k-4*j^2)&(k-j)%2==0)))
+%K A000076 nonn
+%O A000076 0,4
+%A A000076 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

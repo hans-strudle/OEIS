@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011931
+Showing 1-1 of 1
+
+%I A011931
+%S A011931 0,0,0,0,1,5,17,40,80,144,240,377,565,817,1144,1560,2080,2720,3497,
+%T A011931 4429,5537,6840,8360,10120,12144,14457,17085,20057,23400,27144,31320,
+%U A011931 35960,41097,46765,53001,59840
+%N A011931 [ n(n-1)(n-2)(n-3)/21 ].
+%F A011931 a(n) = +4*a(n-1) -6*a(n-2) +4*a(n-3) -a(n-4) +a(n-7) -4*a(n-8) +6*a(n-9) -4*a(n-10) +a(n-11). [From _R. J. Mathar_, Apr 15 2010]
+%K A011931 nonn
+%O A011931 0,6
+%A A011931 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

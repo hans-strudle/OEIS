@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028041
+Showing 1-1 of 1
+
+%I A028041
+%S A028041 1,25,410,5630,70551,839775,9697720,109955260,1232712701,13723263125,
+%T A028041 152103875430,1681194742890,18549572478451,204440573062075,
+%U A028041 2251614293669540,24787137412192520,272794189857639801
+%N A028041 Expansion of 1/((1-3x)(1-4x)(1-7x)(1-11x)).
+%F A028041 a(n)=(3*11^(n+3)-2*7^(n+4)+2*4^(n+5)-7*3^(n+4))/672. [_Yahia Kahloune_, Jun 07 2013]
+%K A028041 nonn
+%O A028041 0,2
+%A A028041 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

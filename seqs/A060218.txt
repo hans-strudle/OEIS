@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060218
+Showing 1-1 of 1
+
+%I A060218
+%S A060218 15,105,1120,12600,151872,1897840,24408480,320355000,4271484000,
+%T A060218 57664963104,786341441760,10812193870800,149707312950720,
+%U A060218 2085208989609360,29192926025339776,410525522071875000
+%N A060218 Number of orbits of length n under the full 15-shift (whose periodic points are counted by A001024).
+%D A060218 Yash Puri and Thomas Ward, A dynamical property unique to the Lucas sequence, Fibonacci Quarterly, Volume 39, Number 5 (November 2001), pp. 398-402.
+%H A060218 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%H A060218 T. Ward, <a href="http://www.mth.uea.ac.uk/~h720/research/files/integersequences.html">Exactly realizable sequences</a>
+%F A060218 If b(n) is the (n+1)-th term of A001024, then the n-th term is a(n) = (1/n)* Sum_{d|n}\mu(d)b(n/d)
+%e A060218 a(2)=105 since there are 225 points of period 2 in the full 15-shift and 15 fixed points, so there must be (225-15)/2 = 105 orbits of length 2.
+%Y A060218 Cf. A001024.
+%K A060218 easy,nonn
+%O A060218 1,1
+%A A060218 Thomas Ward (t.ward(AT)uea.ac.uk), Mar 21 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050004
+Showing 1-1 of 1
+
+%I A050004
+%S A050004 1,5,2,10,50,25,12,6,3,15,7,35,17,8,4,20,100,500,250,125,62,31,155,77,
+%T A050004 38,19,9,45,22,11,55,27,13,65,32,16,80,40,200,1000,5000,2500,1250,625,
+%U A050004 312,156,78,39,195,97,48,24,120,60,30,150
+%N A050004 a(n)=[ a(n-1)/2 ] if this is not among 0,a(1),...,a(n-2), else a(n)=5*a(n-1).
+%K A050004 nonn,easy
+%O A050004 1,2
+%A A050004 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

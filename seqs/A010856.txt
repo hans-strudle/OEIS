@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010856
+Showing 1-1 of 1
+
+%I A010856
+%S A010856 17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,
+%T A010856 17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,17,
+%U A010856 17,17,17,17,17,17,17,17
+%N A010856 Constant sequence: a(n) = 17.
+%H A010856 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A010856 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A010856 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1).
+%F A010856 a(n) = A152179(3n)+A152179(3n+1)+A152179(3n+2). - Paul Curtz, Nov 28 2008
+%F A010856 G.f.: 17/(1-x); e.g.f.: 17*e^x. - Vincenzo Librandi, Jan 20 2012
+%t A010856 Table[17,{80}] (* _Vincenzo Librandi_, Jan 20 2012 *)
+%K A010856 nonn,easy
+%O A010856 0,1
+%A A010856 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

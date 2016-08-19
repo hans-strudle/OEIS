@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052107
+Showing 1-1 of 1
+
+%I A052107
+%S A052107 1,0,0,4,16,0,0,2080,32896,0,0,178990080,11453771776,0,0,
+%T A052107 3002404080455680,768614611824951296,0,0,10316167090130469587779584,
+%U A052107 10563755026498136326181748736,0,0
+%N A052107 Number of self-complementary 3-multigraphs on n nodes.
+%D A052107 D. Wille, Enumeration of self-complementary structures, J. Combin. Theory Ser.B 25 (1978), no. 2, 143-150.
+%D A052107 J. Xu, Ch. R. Wang, J. F. Wang, The theory of self-complementary k-multigraphs (in Chinese), Pure Appl. Math. [Chuncui Shuxue yu Yingyong Shuxue] 10 (1994), Special Issue, 18-22.
+%D A052107 V. Jovovic, On the number of m-place relations (in Russian), Logiko-algebraicheskie konstruktsii, Tver, 1992, 59-66.
+%Y A052107 Cf. A000171, A053588, A053400.
+%K A052107 nonn
+%O A052107 1,4
+%A A052107 _Vladeta Jovovic_, Jan 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

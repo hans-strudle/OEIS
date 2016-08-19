@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023185
+Showing 1-1 of 1
+
+%I A023185
+%S A023185 73225,196729,543049,706225,730249,3560089,3584425,6434041,8392849,
+%T A023185 14561209,15686089,40742425,43508881,69339625,73878025,85753369,
+%U A023185 88450609,90723169,146947321,148031689,180998425,216698161,235198825,273080809
+%N A023185 Square of main diagonal of 3d box with coprime integer sides and integer face diagonals.
+%H A023185 Jean Lagrange, <a href="http://dx.doi.org/10.1090/S0025-5718-1983-0717711-9">Sets of n Squares of Which Any n — 1 Have Their Sum Square</a>, Mathematics of Computation, Vol 41, Nr 164, Oct 1983.
+%H A023185 Wikipedia, <a href="https://en.wikipedia.org/wiki/Euler_brick">Euler brick</a>
+%Y A023185 Cf. A031173, A031174, A031175.
+%K A023185 nonn
+%O A023185 1,1
+%A A023185 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

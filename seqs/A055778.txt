@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055778
+Showing 1-1 of 1
+
+%I A055778
+%S A055778 0,1,2,2,3,3,3,2,3,4,4,5,4,4,4,5,4,4,2,3,4,4,5,5,5,4,5,6,6,7,5,5,5,6,
+%T A055778 5,5,4,5,6,6,7,5,5,5,6,5,5,2,3,4,4,5,5,5,4,5,6,6,7,6,6,6,7,6,6,4,5,6,
+%U A055778 6,7,7,7,6,7,8,8,9,6,6,6,7,6,6,5,6,7,7,8,6,6,6,7,6,6,4,5,6,6,7,7,7,6,7,8,8
+%N A055778 Number of 1's in base phi representation of n.
+%C A055778 Uses greedy algorithm (start with largest possible power of phi, then work downward) - see pseudo-code below.
+%C A055778 Conjecture: For all n, A007895(n) <= A055778(n). There is equality at 1, 7, 18, 19, 47, 48, 54, 123, 124, 130, 141, 142, 322, 323, 329, 340, 341, 369, 370, 376, 843, 844, 850, 861, 862, 890, 891, 897, 966, 967, 973, 984, 985, 2207, 2208, 2214, 2225, 2226, 2254, 2255, 2261, 2330, 2331, 2337, 2348, 2349, 2529, 2530, 2536, 2547, 2548, 2576, 2577, 2583, ... - Dale Gerdemann at Sun Apr 01 17:09:19 EDT 2012
+%H A055778 Carmine Suriano, <a href="/A055778/b055778.txt">Table of n, a(n) for n = 0..5000</a>
+%H A055778 R. Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/phigits.html">Using Powers of Phi to represent Integers (Base Phi)</a> (inspiration for this sequence).
+%H A055778 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PhiNumberSystem.html">Phi Number System</a>
+%e A055778 The phi-expansions for n<=15 are:
+%e A055778    n   phi-rep(n)     a(n)
+%e A055778    0       0.           0
+%e A055778    1       1.           1
+%e A055778    2      10.01         2
+%e A055778    3     100.01         2
+%e A055778    4     101.01         3
+%e A055778    5    1000.1001       3
+%e A055778    6    1010.0001       3
+%e A055778    7   10000.0001       2
+%e A055778    8   10001.0001       3
+%e A055778    9   10010.0101       4
+%e A055778   10   10100.0101       4
+%e A055778   11   10101.0101       5
+%e A055778   12  100000.101001     4
+%e A055778   13  100010.001001     4
+%e A055778   14  100100.001001     4
+%e A055778   15  100101.001001     5
+%e A055778 [Joerg Arndt, Jan 30 2012]
+%t A055778 nn = 100; len = 2*Ceiling[Log[GoldenRatio, nn]]; Table[d = RealDigits[n, GoldenRatio, len]; Total[d[[1]]], {n, 0, nn}] (* _T. D. Noe_, May 20 2011 *)
+%o A055778 (Pseudo-code from Henry Bottomley):
+%o A055778 constant (float): phi=(sqrt(5)+1)/2; function: lphi(x)=log(x)/log(phi); variable (float): rem=n; variable (integer): count=0; loop: while rem>0 {rem=rem-phi^floor[lphi(x)]; count++;} result: return count;
+%K A055778 base,easy,nonn
+%O A055778 0,3
+%A A055778 Robert Lozyniak (11(AT)onna.com), Jul 12 2000
+%E A055778 More terms and algorithm from _Henry Bottomley_, Aug 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

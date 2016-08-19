@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013897
+Showing 1-1 of 1
+
+%I A013897
+%S A013897 160000,512000000000,1638400000000000000,5242880000000000000000000,
+%T A013897 16777216000000000000000000000000,
+%U A013897 53687091200000000000000000000000000000,171798691840000000000000000000000000000000000,549755813888000000000000000000000000000000000000000
+%N A013897 20^(5n+4).
+%H A013897 Vincenzo Librandi, <a href="/A013897/b013897.txt">Table of n, a(n) for n = 0..50</a>
+%H A013897 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013897 a(n) = 3200000*a(n-1), a(0)=160000. [Vincenzo Librandi, May 27 2011]
+%t A013897 20^(5*Range[0,10]+4) (* or *) NestList[3200000#&,160000,10] (* _Harvey P. Dale_, Feb 15 2016 *)
+%o A013897 (MAGMA) [20^(5*n+4): n in [0..10]]; // Vincenzo Librandi, May 27 2011
+%K A013897 nonn
+%O A013897 0,1
+%A A013897 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

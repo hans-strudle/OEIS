@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025431
+Showing 1-1 of 1
+
+%I A025431
+%S A025431 0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,1,0,1,1,0,1,2,1,1,2,1,1,2,1,2,3,1,2,
+%T A025431 3,1,1,4,2,3,4,1,4,3,1,5,4,3,4,4,4,3,4,4,5,7,3,5,7,3,5,8,4,7,7,4,8,6,
+%U A025431 3,9,10,6,8,8,7,7,8,8,9,11,7,9,12,6,8,15,8,12,12,7,15,10,8,16,13,11,13,13,12,11
+%N A025431 Number of partitions of n into 7 nonzero squares.
+%H A025431 Alois P. Heinz, <a href="/A025431/b025431.txt">Table of n, a(n) for n = 0..10000</a>
+%p A025431 b:= proc(n, i, t) option remember; `if`(n=0, `if`(t=0, 1, 0),
+%p A025431       `if`(i<1 or t<1, 0, b(n, i-1, t)+
+%p A025431       `if`(i^2>n, 0, b(n-i^2, i, t-1))))
+%p A025431     end:
+%p A025431 a:= n-> b(n, isqrt(n), 7):
+%p A025431 seq(a(n), n=0..120);  # _Alois P. Heinz_, May 30 2014
+%Y A025431 Column k=7 of A243148.
+%K A025431 nonn
+%O A025431 0,23
+%A A025431 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

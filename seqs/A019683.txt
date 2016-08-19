@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019683
+Showing 1-1 of 1
+
+%I A019683
+%S A019683 1,9,6,3,4,9,5,4,0,8,4,9,3,6,2,0,7,7,4,0,3,9,1,5,2,1,1,4,5,4,9,6,8,9,
+%T A019683 3,0,2,6,2,3,2,3,0,8,7,4,6,0,9,4,4,1,1,3,8,1,0,9,3,4,0,3,7,0,1,9,2,3,
+%U A019683 8,5,2,5,3,9,2,8,8,8,0,6,2,4,1,4,2,5,2,1,7,6,5,8,3,8,8,2,3,1,6
+%N A019683 Decimal expansion of Pi/16.
+%H A019683 Ivan Panchenko, <a href="/A019683/b019683.txt">Table of n, a(n) for n = 0..1000</a>
+%e A019683 Pi/16=0.19634954084936207740391521145496893026232308746094411381093403701923852... [_Vladimir Joseph Stephan Orlovsky_, Dec 02 2009]
+%t A019683 RealDigits[N[Pi/16,6! ]] (* _Vladimir Joseph Stephan Orlovsky_, Dec 02 2009 *)
+%Y A019683 Cf. A157332. [_Jaume Oliver Lafont_, Mar 03 2009]
+%K A019683 nonn,cons
+%O A019683 0,2
+%A A019683 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

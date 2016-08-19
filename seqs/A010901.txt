@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010901
+Showing 1-1 of 1
+
+%I A010901
+%S A010901 4,7,12,21,37,65,114,200,351,616,1081,1897,3329,5842,10252,17991,
+%T A010901 31572,55405,97229,170625,299426,525456,922111,1618192,2839729,
+%U A010901 4983377,8745217,15346786,26931732,47261895,82938844,145547525,255418101,448227521,786584466
+%N A010901 Pisot sequences E(4,7), P(4,7).
+%C A010901 Essentially the same as A005251: a(n) = A005251(n+5).
+%C A010901 See A008776 for definitions of Pisot sequences.
+%F A010901 a(n) = 2a(n-1) - a(n-2) + a(n-3) (holds at least up to n = 1000).
+%K A010901 nonn
+%O A010901 0,1
+%A A010901 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

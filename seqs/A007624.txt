@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007624
+Showing 1-1 of 1
+
+%I A007624 M4824
+%S A007624 12,18,20,24,28,30,32,40,42,44,45,48,50,52,54,56,60,63,66,68,70,72,75,
+%T A007624 76,78,80,84,88,90,92,96,98,99,102,104,105,108,110,112,114,116,117,
+%U A007624 120,124,126,128,130,132,135,136,138,140,147,148,150,152,153,154
+%N A007624 Product of proper divisors of n = n^k, k>1.
+%D A007624 A. H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 1964, p. 23.
+%D A007624 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A007624 d(n) >= 4 and even.
+%F A007624 a(n) = n + O(n/log n). - _Charles R Greathouse IV_, Oct 23 2015
+%t A007624 ppdQ[n_]:=Module[{c=Log[n,Times@@Most[Divisors[n]]]},c>1&&IntegerQ[c]]; Select[Range[2,160],ppdQ] (* _Harvey P. Dale_, Mar 06 2012 *)
+%o A007624 (PARI) is(n)=!isprime(n)&&!issquare(n) \\ _Charles R Greathouse IV_, Oct 23 2015
+%K A007624 nonn,easy
+%O A007624 1,1
+%A A007624 _N. J. A. Sloane_, _Robert G. Wilson v_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

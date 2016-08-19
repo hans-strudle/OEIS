@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017765
+Showing 1-1 of 1
+
+%I A017765
+%S A017765 1,49,1176,18424,211876,1906884,13983816,85900584,450978066,
+%T A017765 2054455634,8217822536,29135916264,92263734836,262596783764,
+%U A017765 675248872536,1575580702584,3348108992991,6499270398159,11554258485616,18851684897584,28277527346376
+%N A017765 Binomial coefficients C(49,n).
+%C A017765 Row 49 of A007318.
+%H A017765 Nathaniel Johnston, <a href="/A017765/b017765.txt">Table of n, a(n) for n = 0..49</a> (full sequence)
+%p A017765 seq(binomial(49,n), n=0..49); # Nathaniel Johnston, Jun 24 2011
+%t A017765 Binomial[49,Range[0,50]] (* _Harvey P. Dale_, Feb 17 2015 *)
+%o A017765 (Sage) [binomial(49, n) for n in range(50)] # [From _Zerinvary Lajos_, May 21 2009]
+%Y A017765 Cf. A010926-A011001, A017766-A017816.
+%K A017765 nonn,fini,full,easy
+%O A017765 0,2
+%A A017765 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

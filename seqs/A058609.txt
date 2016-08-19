@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058609
+Showing 1-1 of 1
+
+%I A058609
+%S A058609 1,2,3,6,9,14,22,30,42,60,81,110,148
+%N A058609 McKay-Thompson series of class 28D for Monster.
+%D A058609 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058609 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058609 T28D = 1/q + 2*q + 3*q^3 + 6*q^5 + 9*q^7 + 14*q^9 + 22*q^11 + 30*q^13 + ...
+%Y A058609 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058609 nonn
+%O A058609 -1,2
+%A A058609 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

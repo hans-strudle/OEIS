@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038453
+Showing 1-1 of 1
+
+%I A038453
+%S A038453 11111111111,101111111111,110111111111,111011111111,111101111111,
+%T A038453 111110111111,111111011111,111111101111,111111110111,111111111011,
+%U A038453 111111111101,111111111110,1001111111111,1010111111111,1011011111111
+%N A038453 Sums of 11 distinct powers of 10.
+%t A038453 Union[Total/@Subsets[10^Range[0,12],{11}]] (* _Harvey P. Dale_, Jan 20 2013 *)
+%o A038453 (PARI) lista(nn) = {for (n=1, nn, if (hammingweight(n) == 11, print1(subst(Pol(binary(n)), x, 10), ", ");););} \\ _Michel Marcus_, Feb 29 2016
+%K A038453 nonn,easy
+%O A038453 1,1
+%A A038453 _Olivier Gérard_
+%E A038453 Offset changed to 1 by _Ivan Neretin_, Feb 28 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

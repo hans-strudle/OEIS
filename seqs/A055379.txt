@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055379
+Showing 1-1 of 1
+
+%I A055379
+%S A055379 3,12216,1049332,24866496,289421466,2150562080,11720932296,
+%T A055379 50917793280,186017041471,592764490128,1691223619836,4404312868096,
+%U A055379 10623285300642,24004367672640,51272935258008,104280162643968,203151521341206
+%N A055379 16*a(n) gives theta series of the shadow of the 24-dimensional odd Leech lattice.
+%D A055379 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag.
+%H A055379 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/oddLeech.html">Home page for odd Leech lattice</a>
+%H A055379 E. M. Rains and N. J. A. Sloane, <a href="http://neilsloane.com/doc/shad.html">The Shadow Theory of Modular and Unimodular Lattices</a>, J. Number Theory, 73 (1998), 359-389.
+%F A055379 [theta2(z)^24+3*theta4(2z)^8*theta2(z)^16+3*theta4(2z)^16*theta2(z)^8/16]/16
+%Y A055379 A027859.
+%K A055379 nonn
+%O A055379 1,1
+%A A055379 Kok Seng Chua (chuaks(AT)ihpc.nus.edu.sg), Jun 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

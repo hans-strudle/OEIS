@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007893
+Showing 1-1 of 1
+
+%I A007893
+%S A007893 1,4,9,16,1,4,9,16,25,4,9,16,25,36,9,16,25,36,49,16,25,36,49,64,25,36,
+%T A007893 49,64,81,36,49,64,81,100,49,64,81,100,121,64,81,100,121,144,81,100,
+%U A007893 121,144,169,100,121,144,169,196,121,144,169,196,225,144,169,196
+%N A007893 A Kutz sequence.
+%D A007893 R. E. Kutz, Two unusual sequences, Two-Year College Mathematics Journal, 12 (1981), 316-319.
+%H A007893 Vincenzo Librandi, <a href="/A007893/b007893.txt">Table of n, a(n) for n = 1..10000</a>
+%F A007893 The pattern is obvious!
+%F A007893 a(n) = (n - 4*floor(n/5))^2. - _Michael Somos_, Jun 01 1999
+%t A007893 Table[(n - 4*Floor[n/5])^2, {n, 60}] (* _Arkadiusz Wesolowski_, Sep 29 2011 *)
+%o A007893 (MAGMA) [(n-4*Floor(n/5))^2: n in [1..60]]; // Vincenzo Librandi, Sep 30 2011
+%K A007893 nonn,easy
+%O A007893 1,2
+%A A007893 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

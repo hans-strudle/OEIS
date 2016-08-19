@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008695
+Showing 1-1 of 1
+
+%I A008695
+%S A008695 1,288,189648,16845696,397610064,4630772160,34415914176,187485113088,
+%T A008695 814904105040,2975518758816,9486517914720,27053099888256,
+%U A008695 70486130167488,169930928938176,384163702086528
+%N A008695 Theta series of Niemeier lattice of type A_11 D_7 E_6.
+%D A008695 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 407.
+%F A008695 This series is the q-expansion of 3/4 E_4(z)^3 + 1/4 E_6(z)^2. Cf. A004009, A013973. - Daniel D. Briggs, Nov 25 2011
+%Y A008695 Equal to theta series of E_6^4, cf. A047805.
+%K A008695 nonn
+%O A008695 0,2
+%A A008695 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

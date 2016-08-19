@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046906
+Showing 1-1 of 1
+
+%I A046906
+%S A046906 0,1,0,0,24,1080,52440,3281880
+%N A046906 Number of connected irreducible posets with n labeled points.
+%D A046906 J. A. Wright, There are 718 6-point topologies, quasi-orderings and transgraphs, Notices Amer. Math. Soc., 17 (1970), p. 646, Abstract #70T-A106.
+%H A046906 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Series-parallel networks</a>
+%H A046906 J. A. Wright, <a href="/A000798/a000798_4.pdf">Letter to N. J. A. Sloane, Apr 06 1972, listing 18 sequences</a>
+%H A046906 <a href="/index/Pos#posets">Index entries for sequences related to posets</a>
+%Y A046906 A003431 gives isomorphism classes of these posets.
+%K A046906 nonn
+%O A046906 0,5
+%A A046906 John A. Wright.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

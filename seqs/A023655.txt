@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023655
+Showing 1-1 of 1
+
+%I A023655
+%S A023655 1,2,3,6,10,16,26,42,68,111,180,291,471,762,1233,1995,3228,5223,8451,
+%T A023655 13675,22127,35802,57929,93731,151660,245391,397051,642442,1039493,
+%U A023655 1681935,2721428,4403363,7124791
+%N A023655 Convolution of (F(2), F(3), F(4), ...) and A023533.
+%Y A023655 Essentially the same as A023613.
+%K A023655 nonn
+%O A023655 1,2
+%A A023655 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

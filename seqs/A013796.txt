@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013796
+Showing 1-1 of 1
+
+%I A013796
+%S A013796 12,248832,5159780352,106993205379072,2218611106740436992,
+%T A013796 46005119909369701466112,953962166440690129601298432,
+%U A013796 19781359483314150527412524285952,410186270246002225336426103593500672,8505622499821102144576131684114829934592
+%N A013796 12^(4n+1).
+%H A013796 Vincenzo Librandi, <a href="/A013796/b013796.txt">Table of n, a(n) for n = 0..200</a>
+%H A013796 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013796 (MAGMA) [12^(4*n+1): n in [0..10]]; // Vincenzo Librandi, Jun 28 2011
+%o A013796 (Maxima) makelist(12^(4*n+1),n,0,20); [_Martin Ettl_, Oct 21 2012]
+%K A013796 nonn,easy
+%O A013796 0,1
+%A A013796 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008447
+Showing 1-1 of 1
+
+%I A008447
+%S A008447 1,56,420,896,2366,3360,6440,7168,14196,14168,22120,24192,37912,33824,
+%T A008447 55440,50176,75838,71232,98700,88704,141960,117824,156520,150528,
+%U A008447 217672,173656,261240,218624,303424
+%N A008447 Theta series of A_7 lattice.
+%D A008447 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 110.
+%o A008447 (MAGMA) L:=Lattice("A",7); T1<q> := ThetaSeries(L,60);
+%Y A008447 Cf. A023919 (dual).
+%K A008447 nonn
+%O A008447 0,2
+%A A008447 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

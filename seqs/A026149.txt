@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026149
+Showing 1-1 of 1
+
+%I A026149
+%S A026149 1,28,517,7980,111741,1473948,18687397,230431180,2784091981,
+%T A026149 33121756668,389323047477,4532472142380,52356786665821,
+%U A026149 600922618820188,6860138634498757,77961474116861580,882575960972337261
+%N A026149 Expansion of 1/((1-2x)(1-5x)(1-10x)(1-11x)).
+%F A026149 a(n) = -2^n/27 +25*5^n/18 -25*10^n +1331*11^n/54. _R. J. Mathar_, Jun 23 2013
+%K A026149 nonn
+%O A026149 0,2
+%A A026149 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

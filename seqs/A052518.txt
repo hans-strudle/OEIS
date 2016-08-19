@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052518
+Showing 1-1 of 1
+
+%I A052518
+%S A052518 0,0,0,0,6,40,260,1848,14616,128448,1246752,13273920,153996480,
+%T A052518 1935048960,26193473280,380120670720,5888620684800,97007636275200,
+%U A052518 1693590745190400,31237853849395200,607035345406156800
+%N A052518 Number of pairs of cycles of cardinality at least 2.
+%H A052518 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=84">Encyclopedia of Combinatorial Structures 84</a>
+%F A052518 E.g.f.: log(-1/(-1+x))^2 - 2*log(-1/(-1+x))*x + x^2.
+%F A052518 Recurrence: {a(1)=0, a(2)=0, a(3)=0, a(4)=6, (n^3-n)*a(n)+(-2*n^2-n+1)*a(n+1)+a(n+2)*n}.
+%F A052518 a(n) = 2*(n-2)!*((n-1)*(Psi(n)+gamma)-n), n>2. - _Vladeta Jovovic_, Sep 21 2003
+%p A052518 Pairs spec := [S,{B=Cycle(Z,2 <= card),S=Prod(B,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%o A052518 (PARI) a(n) = if (n <= 2, 0, round(2*(n-2)!*((n-1)*(psi(n)+Euler)-n))); \\ _Michel Marcus_, Jul 08 2015
+%Y A052518 Cf. A000254, A000276.
+%K A052518 easy,nonn
+%O A052518 0,5
+%A A052518 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

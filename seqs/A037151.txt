@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037151
+Showing 1-1 of 1
+
+%I A037151
+%S A037151 2,3,7,29,127,727,5051,40343,362897,3628811,39916801,479001629,
+%T A037151 6227020867,87178291219,1307674368043,20922789888023,355687428096031,
+%U A037151 6402373705728037,121645100408832089,2432902008176640029
+%N A037151 Smallest prime > n!.
+%F A037151 a(n) = A151800(A000142(n)) = A000142(n) + A033932(n).
+%t A037151 PrimeNext[n_]:=Module[{k},k=n+1;While[ !PrimeQ[k],k++ ];k]; Table[PrimeNext[n! ],{n,40}] (* _Vladimir Joseph Stephan Orlovsky_, May 30 2010 *)
+%t A037151 Table[NextPrime[n!],{n,25}] (* _Harvey P. Dale_, Dec 12 2010 *)
+%K A037151 nonn
+%O A037151 1,1
+%A A037151 _Jud McCranie_
+%E A037151 Extended by _Ray Chandler_, Mar 07 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

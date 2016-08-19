@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054770
+Showing 1-1 of 1
+
+%I A054770
+%S A054770 2,6,9,13,17,20,24,27,31,35,38,42,46,49,53,56,60,64,67,71,74,78,82,85,
+%T A054770 89,93,96,100,103,107,111,114,118,122,125,129,132,136,140,143,147,150,
+%U A054770 154,158,161,165,169,172,176,179,183,187,190,194,197,201,205,208,212
+%N A054770 Numbers that are not the sum of distinct Lucas numbers 1,3,4,7,11 ... (A000204).
+%C A054770 Alternatively, Lucas representation of n includes L_0 = 2. - _Fred Lunnon_, Aug 25 2001
+%C A054770 Conjecture: this is the sequence of numbers for which the base phi representation includes phi itself, where phi = (1 + sqrt(5))/2 = the golden ratio. Example: let r = phi; then 6 = r^3 + r + r^(-4). - _Clark Kimberling_, Oct 17 2012
+%F A054770 a_n = [((5+sqrt(5))/2)n]-1 (conjectured by _David W. Wilson_; proved by Ian Agol (iagol(AT)math.ucdavis.edu), Jun 08 2000)
+%p A054770 A054770 := n -> floor(n*(sqrt(5)+5)/2)-1;
+%t A054770 Complement[Range[220],Total/@Subsets[LucasL[Range[25]],5]] (* _Harvey P. Dale_, Feb 27 2012 *)
+%o A054770 (PARI) a(n)=floor(n*(sqrt(5)+5)/2)-1
+%Y A054770 Cf. A003263, A003622, A022342. Complement of A063732.
+%K A054770 nonn,easy
+%O A054770 1,1
+%A A054770 Antreas P. Hatzipolakis (xpolakis(AT)otenet.gr), May 28 2000
+%E A054770 More terms from _James A. Sellers_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044324
+Showing 1-1 of 1
+
+%I A044324
+%S A044324 73,154,235,316,397,478,559,640,657,721,802,883,964,1045,1126,1207,
+%T A044324 1288,1369,1386,1450,1531,1612,1693,1774,1855,1936,2017,2098,2115,
+%U A044324 2179,2260,2341,2422,2503,2584,2665,2746,2827,2844
+%N A044324 Numbers n such that string 8,1 occurs in the base 9 representation of n but not of n-1.
+%K A044324 nonn,base
+%O A044324 1,1
+%A A044324 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045966
+Showing 1-1 of 1
+
+%I A045966
+%S A045966 3,5,7,25,11,35,13,125,49,55,17,175,19,65,77,625,23,245,29,275,91,85,
+%T A045966 31,875,121,95,343,325,37,385,41,3125,119,115,143,1225,43,145,133,
+%U A045966 1375,47,455,53,425,539,155,59,4375,169,605,161,475,61,1715,187,1625,203,185,67
+%N A045966 a(1)=3; if n = Product p_i^e_i, n>1, then a(n) = Product p_{i+2}^e_i.
+%D A045966 From a puzzle proposed by _Marc LeBrun_.
+%H A045966 Reinhard Zumkeller, <a href="/A045966/b045966.txt">Table of n, a(n) for n = 1..10000</a>
+%t A045966 a[1] = 3; a[n_] := With[{f = FactorInteger[n]}, Times @@ (Prime[PrimePi[f[[All, 1]]]+2]^f[[All, 2]])]; Array[a, 60] (* _Jean-François Alcover_, Jun 19 2015 *)
+%o A045966 (Haskell)
+%o A045966 a045966 1 = 3
+%o A045966 a045966 n = product $ zipWith (^)
+%o A045966             (map a101300 $ a027748_row n) (a124010_row n)
+%o A045966 -- _Reinhard Zumkeller_, Jun 03 2013, Dec 23 2011
+%Y A045966 Cf. A045967, A027748, A124010, A000040.
+%Y A045966 Cf. A101300.
+%K A045966 easy,nonn,nice
+%O A045966 1,1
+%A A045966 _N. J. A. Sloane_.
+%E A045966 More terms from _David W. Wilson_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

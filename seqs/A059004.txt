@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059004
+Showing 1-1 of 1
+
+%I A059004
+%S A059004 2,61,521,61,23,61277761,821,61277761,23888027348153,4201,
+%T A059004 33670369817243,61277761,5265674839116110941,441435249928911950281,
+%U A059004 23888027348153,1232787935486158110509626783,270131
+%N A059004 Smallest prime whose reversal is an n-th power.
+%t A059004 Do[ k = 1; While[ r = ToExpression[ StringReverse[ ToString[ k^n ] ] ]; ! PrimeQ[ r ], k++ ]; Print[ r ], {n, 1, 25} ]
+%Y A059004 Cf. A007488.
+%K A059004 nonn,base
+%O A059004 1,1
+%A A059004 _Robert G. Wilson v_, Jan 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

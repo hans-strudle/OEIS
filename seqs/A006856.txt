@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006856
+Showing 1-1 of 1
+
+%I A006856 M0624
+%S A006856 0,1,2,3,5,6,8,10,12,15,16,18,21,23,26,28,31,34,38,41,44,47,50,54,57,
+%T A006856 61,65,68,72,76,80,85
+%N A006856 Maximal number of edges in n-node graph of girth at least 5.
+%D A006856 Brendan McKay, personal communication.
+%D A006856 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006856 Michael Codish, Alice Miller, Patrick Prosser, Peter J. Stuckey, <a href="http://www.cs.bgu.ac.il/~mcodish/Papers/Pages/ijcai2013.html">Breaking Symmetries in Graph Representation</a>, IJCAI 2013
+%H A006856 David K. Garnick, Y. H. Harris Kwong and Felix Lazebnik, <a href="http://www.math.udel.edu/~lazebnik/papers/ex34a_v2.pdf">Extremal Graphs without Three-Cycles or Four-Cycles</a>, Journal of Graph Theory, 17 (1993), 633-645.
+%Y A006856 Cf. A159847.
+%K A006856 nonn,more
+%O A006856 1,3
+%A A006856 _N. J. A. Sloane_
+%E A006856 Two more terms from David Garnick (dgarnick(AT)gmail.com), Jan 09 2007
+%E A006856 Two more terms from _Michael Codish_, Apr 07 2013
+%E A006856 Definition clarified by _Jörgen Backelin_, Jun 18 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

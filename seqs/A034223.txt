@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034223
+Showing 1-1 of 1
+
+%I A034223
+%S A034223 1,4,10,20,35,57,87,127,179,245
+%N A034223 Number of ternary codes (not necessarily linear) of length n with 3 words.
+%D A034223 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034223 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034223 Cf. A034188-.
+%K A034223 nonn
+%O A034223 1,2
+%A A034223 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

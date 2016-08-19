@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027643
+Showing 1-1 of 1
+
+%I A027643
+%S A027643 1,1,1,1,7,1,38,5,11,7,3263,15,13399637,7601,8364,91,
+%T A027643 1437423473,3617,177451280177,745739,166416763419,3317609,
+%U A027643 17730427802974,5981591,51257173898346323,5436374093,107154672791057,213827575
+%V A027643 1,1,-1,-1,7,1,-38,-5,11,7,-3263,-15,13399637,7601,-8364,-91,
+%W A027643 1437423473,3617,-177451280177,-745739,166416763419,3317609,
+%X A027643 -17730427802974,-5981591,51257173898346323,5436374093,-107154672791057,-213827575
+%N A027643 Numerators of poly-Bernoulli numbers B_n^(k) with k=2.
+%H A027643 M. Kaneko, <a href="http://ftp.linux.cz/mount/muni.cz/EMIS/journals/JTNB/1997-1/kaneko.ps">Poly-Bernoulli numbers</a>, Journal de Théorie des Nombres de Bordeaux, 9 no. 1 (1997), Pages 221-228.
+%H A027643 Masanobu Kaneko, <a href="http://dx.doi.org/10.5802/jtnb.197">Poly-Bernoulli numbers</a>, Journal de Théorie des Nombres de Bordeaux, 9 no. 1 (1997), Pages 221-228.
+%H A027643 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%p A027643 (-1)^n*sum( (-1)^'m'*'m'!*stirling2(n,'m')/('m'+1)^k,'m'=0..n);
+%t A027643 k = 2; Table[Numerator[(-1)^n Sum[(-1)^m m! StirlingS2[n, m]/(m + 1)^k, {m, 0, n}]], {n, 0, 27}] (* _Michael De Vlieger_, Oct 28 2015 *)
+%Y A027643 Cf. A027644.
+%K A027643 sign
+%O A027643 0,5
+%A A027643 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

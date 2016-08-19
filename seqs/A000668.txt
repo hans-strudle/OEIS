@@ -1,0 +1,93 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000668
+Showing 1-1 of 1
+
+%I A000668 M2696 N1080
+%S A000668 3,7,31,127,8191,131071,524287,2147483647,2305843009213693951,
+%T A000668 618970019642690137449562111,162259276829213363391578010288127,
+%U A000668 170141183460469231731687303715884105727
+%N A000668 Mersenne primes (of form 2^p - 1 where p is a prime).
+%C A000668 Equivalently, primes of form 2^n - 1 for integers n.
+%C A000668 See A000043 for the values of p.
+%C A000668 Prime repunits in base 2.
+%C A000668 Define f(k) = 2k+1; begin with k = 2, a(n+1) = least prime of the form f(f(f(...(a(n)))). - _Amarnath Murthy_, Dec 26 2003
+%C A000668 Mersenne primes other than the first are of form 6n+1. - _Lekraj Beedassy_, Aug 27 2004
+%C A000668 A034876(a(n)) = 0 and A034876(a(n)+1) = 1. - _Jonathan Sondow_, Dec 19 2004
+%C A000668 Mersenne primes are solutions to sigma(n+1)-sigma(n)=n as perfect numbers (A000396(n)) are solutions to sigma(n)=2n. - _Benoit Cloitre_, Feb 07 2002
+%C A000668 Appears to give all n such that sigma(n+1)-sigma(n)=n. - _Benoit Cloitre_, Aug 27 2002
+%C A000668 If n is in the sequence then sigma(sigma(n))=2n+1. Is it true that this sequence gives all numbers n such that sigma(sigma(n))=2n+1? - _Farideh Firoozbakht_, Aug 19 2005
+%C A000668 Mersenne primes other than the first are of form 24n+7; see also A124477. - _Artur Jasinski_, Nov 25 2007
+%C A000668 It is easily proved that if n is a Mersenne prime then sigma(sigma(n)) - sigma(n) = n. Is it true that Mersenne primes are all the solutions of the equation sigma(sigma(x)) - sigma(x) = x? - _Farideh Firoozbakht_, Feb 12 2008
+%C A000668 Sum of divisors of n-th even superperfect number A061652(n). Sum of divisors of n-th superperfect number A019279(n), if there are no odd superperfect numbers. - _Omar E. Pol_, Mar 11 2008
+%C A000668 Indices of both triangular numbers and generalized hexagonal numbers (A000217) that are also even perfect numbers. - _Omar E. Pol_, May 10 2008, Sep 22 2013
+%C A000668 Number of positive integers (1, 2, 3,...) whose sum is the n-th perfect number A000396(n). - _Omar E. Pol_, May 10 2008
+%C A000668 Vertex number where the n-th perfect number A000396(n) is located in the square spiral whose vertices are the positive triangular numbers A000217. - _Omar E. Pol_, May 10 2008
+%C A000668 R(a(n)) is prime when R(k) means the digital reverse of k base 2. In base 10, R(a(n)) is prime when R(k) means the digital reverse of k base 10. For example, R(2^53-1) = 1990474529917009 is prime although 2^53-1 is an element of A001348 (not itself prime). - _Jonathan Vos Post_, Jul 11 2008
+%C A000668 Mersenne numbers A000225 whose indices are the prime numbers A000043. - _Omar E. Pol_, Aug 31 2008
+%C A000668 The digital roots are 1 if p == 1 (mod 6) and 4 if p == 5 (mod 6). [T. Koshy, Math Gaz. 89 (2005) p. 465]
+%C A000668 Primes p such that for all primes q<p p XOR q = p - q. - _Brad Clardy_, Oct 26 2011
+%C A000668 These primes are Brazilian primes, so they are also in A085104 and A023195. - _Bernard Schott_, Dec 26 2012
+%C A000668 All prime numbers p can be classified by k = (p mod 12) into four classes: k=1, 5, 7, 11. The Mersennne prime numbers 2^p-1, p>2 are in the class k=7 with p=12*(n-1)+7, n=1,2,.... As all 2^p (p odd) are in class k=8 it follows that all 2^p-1, p>2 are in class k=7. - _Freimut Marschner_, Jul 27 2013
+%C A000668 From "The Guinness Book of Primes": "During the reign of Queen Elizabeth I, the largest known prime number was the number of grains of rice on the chess board up to and including the nineteenth square: 524,287 [= 2^19 -1]. By the time Lord Nelson was fighting the Battle of Trafalgar, the record for the largest prime had gone up to the thirty-first square of the chessboard: 2,147,483,647 [= 2^31 -1]. This ten-digits number was proved to be prime in 1772 by the Swiss mathematician Leonard Euler, and it held the record until 1867." [du Sautoy] - _Robert G. Wilson v_, Nov 26 2013
+%C A000668 If n is in the sequence then A024816(n) = antisigma(n) = antisigma(n+1) - 1. Is it true that this sequence gives all numbers n such that antisigma(n) = antisigma(n+1) - 1? Are there composite numbers with this property? - _Jaroslav Krizek_, Jan 24 2014
+%C A000668 If n is in the sequence then phi(n) + sigma(sigma(n)) = 3n.
+%C A000668 Is it true that Mersenne primes are all the solutions of the equation phi(x) + sigma(sigma(x)) = 3x? - _Farideh Firoozbakht_, Sep 03 2014
+%C A000668 a(5) = A229381(2) = 8191 is the "Simpsons' Mersenne prime". - _Jonathan Sondow_, Jan 02 2015
+%D A000668 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 4.
+%D A000668 J. Brillhart et al., Factorizations of b^n +- 1. Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 2nd edition, 1985; and later supplements.
+%D A000668 G. Everest, A. van der Poorten, I. Shparlinski and T. Ward, Recurrence Sequences, Amer. Math. Soc., 2003; see esp. p. 255.
+%D A000668 Marcus P. F. du Sautoy, The Number Mysteries, A Mathematical Odyssey Through Everyday Life, Palgrave Macmillan, First published in 2010 by the Fourth Estate, an imprint of Harper Collins UK, 2011, p. 46. - _Robert G. Wilson v_, Nov 26 2013
+%D A000668 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000668 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000668 B. Tuckerman, The 24th Mersenne prime, Notices Amer. Math. Soc., 18 (Jun, 1971), Abstract 684-A15, p. 608.
+%H A000668 Harry J. Smith, <a href="/A000668/b000668.txt">Table of n, a(n) for n = 1..18</a>
+%H A000668 P. Alfeld, <a href="http://www.math.utah.edu/~pa/math/largeprime.html">The 39th Mersenne prime</a> [From _Lekraj Beedassy_, Nov 09 2008]
+%H A000668 J. Bernheiden, <a href="http://translate.google.com/translate?hl=en&amp;sl=de&amp;u=http://www.mathe-schule.de/Mathe/primzahlen.htm">Prime numbers(Prmality check & Mersenne primes: 39th to 43rd)</a>
+%H A000668 Andrew R. Booker, <a href="http://primes.utm.edu/nthprime/">The Nth Prime Page</a>
+%H A000668 J. Brillhart et al., <a href="http://dx.doi.org/10.1090/conm/022">Factorizations of b^n +- 1</a>, Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 3rd edition, 2002.
+%H A000668 D. Butler, <a href="http://www.tsm-resources.com/alists/mers.html">Mersenne Primes</a>
+%H A000668 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/mersenne/index.html">Mersenne primes</a>
+%H A000668 C. K. Caldwell, "Top Twenty" page, <a href="http://www.utm.edu/research/primes/lists/top20/Mersenne.html">Mersenne Primes</a>
+%H A000668 S. A. Khan, <a href="http://arxiv.org/abs/1203.2083">Primes in Geometric-Arithmetic Progression</a>, arXiv preprint arXiv:1203.2083, 2012. - From _N. J. A. Sloane_, Sep 15 2012
+%H A000668 Math Reference Project, <a href="http://www.mathreference.com/num,mers.html">Mersenne and Fermat Primes</a>
+%H A000668 R. Mestrovic, <a href="http://arxiv.org/abs/1202.3670">Euclid's theorem on the infinitude of primes: a historical survey of its proofs (300 BC--2012) and another new proof</a>, arXiv preprint arXiv:1202.3670, 2012 - From _N. J. A. Sloane_, Jun 13 2012
+%H A000668 L. C. Noll, <a href="http://www.isthe.com/chongo/tech/math/prime/mersenne.html">Mersenne Prime Digits and Names</a>
+%H A000668 Omar E. Pol, <a href="http://www.polprimos.com">Determinacion geometrica de los numeros primos y perfectos</a>.
+%H A000668 Primefan, <a href="http://primefan.tripod.com/MersennePrimes.html">The Mersenne Primes</a>
+%H A000668 Christian Salas, <a href="http://arxiv.org/abs/1203.3969">Cantor Primes as Prime-Valued Cyclotomic Polynomials</a>, arXiv preprint arXiv:1203.3969, 2012.
+%H A000668 H. J. Smith, <a href="http://harry-j-smith-memorial.com/Perfect/MersPlot.html">Plot of Mersenne Primes</a>
+%H A000668 G. Spence, <a href="http://www.rugeley.demon.co.uk/gimps/prime.htm">36th Mersenne Prime Found</a>
+%H A000668 S. Stepney, <a href="http://public.logica.com/~stepneys/cyc/m/mersenne.htm">Mersenne Prime</a>
+%H A000668 Thesaurus.maths.org, <a href="http://thesaurus.maths.org/dictionary/map/word/990">Mersenne Prime</a>
+%H A000668 B. Tuckerman, <a href="http://www.pnas.org/content/68/10/2319.abstract">The 24th Mersenne prime</a>, Proc. Nat. Acad. Sci. USA, 68 (1971), 2319-2320.
+%H A000668 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>
+%H A000668 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MersennePrime.html">Mersenne Prime</a>
+%H A000668 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PerfectNumber.html">Perfect Number</a>
+%H A000668 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MersennePrime.html">Mersenne Prime</a>
+%H A000668 Wikipedia, <a href="http://www.wikipedia.org/wiki/Mersenne_prime">Mersenne prime</a>
+%H A000668 M. Wolf, <a href="http://arxiv.org/abs/1112.2412">Computer experiments with Mersenne primes</a>, arXiv preprint arXiv:1112.2412, 2011
+%F A000668 a(n) = sigma(A061652(n)) = A000203(A061652(n)). - _Omar E. Pol_, Apr 15 2008
+%F A000668 a(n) = sigma(A019279(n)) = A000203(A019279(n)), provided that there are no odd superperfect numbers. - _Omar E. Pol_, May 10 2008
+%F A000668 a(n) = A000225(A000043(n)). - _Omar E. Pol_, Aug 31 2008
+%F A000668 a(n) = 2^A000043(n) - 1 = 2^(A000005(A061652(n))) - 1. - _Omar E. Pol_, Oct 27 2011
+%F A000668 a(n) = A000040(A059305(n)) = A001348(A016027(n)). - _Omar E. Pol_, Jun 29 2012
+%F A000668 a(n) = A007947(A000396(n))/2, provided that there are no odd perfect numbers. - _Omar E. Pol_, Feb 01 2013
+%F A000668 a(n) = 4*A134709(n) + 3. - _Ivan N. Ianakiev_, Sep 07 2013
+%p A000668 A000668 := proc(n) local i;
+%p A000668 i := 2^(ithprime(n))-1:
+%p A000668 if (isprime(i)) then
+%p A000668    return i
+%p A000668 fi: end:
+%p A000668 seq(A000668(n), n=1..31); # - _Jani Melik_, Feb 09 2011
+%p A000668 # Alternate:
+%p A000668 seq(numtheory:-mersenne([i]),i=1..26); # _Robert Israel_, Jul 13 2014
+%t A000668 Select[2^Range[1000] - 1, PrimeQ] (* _Vladimir Joseph Stephan Orlovsky_, Jul 19 2011 *)
+%o A000668 (PARI) forprime(p=2,1e5,if(ispseudoprime(2^p-1),print1(2^p-1", "))) \\ _Charles R Greathouse IV_, Jul 15 2011
+%Y A000668 Cf. A000043, A028335 (lengths), A001348, A046051, A057951-A057958, A034876, A124477, A135659, A019279, A061652, A000203, A000217, A000225.
+%Y A000668 Cf. A085104, A023195, A083420, A023758.
+%K A000668 nonn,nice,hard
+%O A000668 1,1
+%A A000668 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

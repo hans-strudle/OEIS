@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007668
+Showing 1-1 of 1
+
+%I A007668
+%S A007668 1,2,6,12,840,332640
+%N A007668 phi(n) divides sigma(n) and sigma(n)/n > sigma(m)/m for all m < n.
+%Y A007668 Cf. A020492, A004394.
+%K A007668 nonn
+%O A007668 1,2
+%A A007668 _Walter Nissen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

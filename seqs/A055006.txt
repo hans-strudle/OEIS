@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055006
+Showing 1-1 of 1
+
+%I A055006
+%S A055006 1,2,3,4,25,6,301,736,2241,190,25201,4236,83161,19306,64065,135136,
+%T A055006 7207201,85086,49008961,49468420,36951201,27776386,698377681
+%N A055006 a(n) is the least multiple of n such that a(n) = 1 mod k for all integers k with 1 < k < n and k relatively prime to n.
+%K A055006 nonn
+%O A055006 1,2
+%A A055006 Stephen G. Penrice (spenrice(AT)ets.org), May 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

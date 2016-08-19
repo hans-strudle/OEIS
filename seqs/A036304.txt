@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036304
+Showing 1-1 of 1
+
+%I A036304
+%S A036304 121,451,1331,1681,4961,14641,18491,45221,48851,54571,68921,125521,
+%T A036304 158521,161051,168551,182081,203401,452551,455521,467851,485221,
+%U A036304 497431,537361,590851,600281,758131,1380731,1686781,1697851,1743731,1771561
+%N A036304 Composite numbers n such that digits of prime factors of n are either 1 or 4.
+%H A036304 Alois P. Heinz, <a href="/A036304/b036304.txt">Table of n, a(n) for n = 1..1000</a>
+%Y A036304 Cf. A036302-A036325.
+%K A036304 nonn,base
+%O A036304 1,1
+%A A036304 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

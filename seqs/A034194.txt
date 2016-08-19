@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034194
+Showing 1-1 of 1
+
+%I A034194
+%S A034194 1,1,9,43,649,12320,404154,16957301,805174011,38921113842,
+%T A034194 1816451773537,79799396735243,3267743403989063,124448560749072651,
+%U A034194 4413401558241969897,146147123072487323183,4533679418476771721737
+%N A034194 Number of binary codes of length 9 with n words.
+%D A034194 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034194 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034194 Cf. A034188, A034189, A034190, A034191, A034192, A034193, A034195, A034196, A034197.
+%K A034194 nonn
+%O A034194 0,3
+%A A034194 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047232
+Showing 1-1 of 1
+
+%I A047232
+%S A047232 1,2,7,6,6,10,10,9,14,11,15,14,22,17,22,21,17,19,21,27,22,25,26,29,29,
+%T A047232 27,37,33,31,46,34,33,46,34,37,38,38,41,43,42,41,43,47,49,49,55,49,53,
+%U A047232 52,53,62,59,54,58,57,57,61,59,61,62,66,65,67,74,66,67,75,77,76,73,74
+%N A047232 Smallest k>n where n is a 4th power modulo k.
+%K A047232 easy,nonn
+%O A047232 0,2
+%A A047232 _Henry Bottomley_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

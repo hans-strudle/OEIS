@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003516
+Showing 1-1 of 1
+
+%I A003516 M4417
+%S A003516 1,7,36,165,715,3003,12376,50388,203490,817190,3268760,13037895,
+%T A003516 51895935,206253075,818809200,3247943160,12875774670,51021117810,
+%U A003516 202112640600,800472431850,3169870830126,12551759587422
+%N A003516 Binomial coefficients C(2n+1,n-2).
+%C A003516 a(n) = number of royal paths (A006318) from (0,0) to (n,n) with exactly one diagonal step off the line y=x. - _David Callan_, Mar 25 2004
+%C A003516 a(n) = the total number of DDUU's in all Dyck (n+2)-paths. - _David Scambler_, May 03 2013
+%D A003516 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%D A003516 Asamoah Nkwanta and Earl R. Barnes, Two Catalan-type Riordan Arrays and their Connections to the Chebyshev Polynomials of the First Kind, Journal of Integer Sequences, Article 12.3.3, 2012. - From _N. J. A. Sloane_, Sep 16 2012
+%D A003516 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003516 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A003516 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%F A003516 G.f.: 32*x^2/(((sqrt(1-4*x)+1)^5)*(sqrt(1-4*x))). - _Marco A. Cisneros Guevara_, Jul 18 2011
+%F A003516 a(n) = sum(k=0..n-2, binomial(n+k+2,k)). - _Arkadiusz Wesolowski_, Apr 02 2012
+%F A003516 (n+3)*(n-2)*a(n) = 2*n*(2*n+1)*a(n-1). - _R. J. Mathar_, Oct 13 2012
+%t A003516 CoefficientList[ Series[ 32/(((Sqrt[1 - 4 x] + 1)^5)*Sqrt[1 - 4 x]), {x, 0, 21}], x] (* _Robert G. Wilson v_, Aug 08 2011 *)
+%o A003516 (MAGMA) [ Binomial(2*n+1,n-2): n in [2..150] ]; // _Vincenzo Librandi_, Apr 13 2011
+%Y A003516 Diagonal 6 of triangle A100257.
+%Y A003516 Third unsigned column (s=2) of A113187. _Wolfdieter Lang_, Oct 18 2012
+%Y A003516 Cf. triangle A114492 - Dyck paths with k DDUU's.
+%K A003516 nonn,easy
+%O A003516 2,2
+%A A003516 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

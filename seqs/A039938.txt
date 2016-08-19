@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039938
+Showing 1-1 of 1
+
+%I A039938
+%S A039938 7,37,237,1789,4357,14379,19587,93957,189572,189572,189597,189597,
+%T A039938 189597,1234397,1839597,1958798,1983957,1983957,1983957,1983957,
+%U A039938 1983957,1983957,3978594,11983957,19596487,29195397,29195397,29195397
+%N A039938 Smallest k for which k, 2k, ... nk all contain the digit 7.
+%e A039938 a(2)=37 since 37 and 74 contain a 7.
+%K A039938 base,nonn
+%O A039938 1,1
+%A A039938 _Erich Friedman_
+%E A039938 More terms from _Patrick De Geest_, Oct 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

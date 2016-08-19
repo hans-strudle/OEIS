@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002154
+Showing 1-1 of 1
+
+%I A002154 M4782 N2040
+%S A002154 11,26,39,47,53,61,67,76,83,89,104,106,109,116,118,121,139,147,152,
+%T A002154 155,170,186,191,200,207,211,212,214,219,222,233,236,244,249,262,277,
+%U A002154 286,289
+%N A002154 Numbers n for which rank of the elliptic curve y^2=x^3-n is 2.
+%D A002154 B. J. Birch and H. P. F. Swinnerton-Dyer, Notes on elliptic curves, I, J. Reine Angew. Math., 212 (1963), 7-25.
+%D A002154 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002154 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A002154 nonn
+%O A002154 1,1
+%A A002154 _N. J. A. Sloane_.
+%E A002154 Better definition from _Artur Jasinski_, Jun 30 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

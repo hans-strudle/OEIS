@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016325
+Showing 1-1 of 1
+
+%I A016325
+%S A016325 1,23,377,5395,71841,915243,11317657,136994195,1631936081,19201296763,
+%T A016325 223714264137,2585856904995,29694425953921,339138685491083,
+%U A016325 3855525540397817,43660780944367795,492768590388029361
+%N A016325 Expansion of 1/((1-2x)(1-10x)(1-11x)).
+%H A016325 Vincenzo Librandi, <a href="/A016325/b016325.txt">Table of n, a(n) for n = 0..900</a>
+%H A016325 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (23,-152,220)
+%F A016325 a(n) = 11^(n+2)/9+2^(n-1)/9-25*10^n/2. a(n) = A016135(n+1)-A016134(n+1). [From _Zerinvary Lajos_, Jun 05 2009, corrected by R. J. Mathar, Mar 14 2011
+%F A016325 a(n) = 21*a(n-1) - 110*a(n-2) + 2^n. -  Vincenzo Librandi, Oct 09 2011
+%o A016325 (Sage) [(11^n - 2^n)/9-(10^n - 2^n)/8 for n in xrange(2,19)] # [From _Zerinvary Lajos_, Jun 05 2009]
+%o A016325 (MAGMA) [(2*11^(n+2) +2^n-225*10^n)/18 : n in [0..20]]; // Vincenzo Librandi, Oct 09 2011
+%o A016325 (PARI) Vec(1/((1-2*x)*(1-10*x)*(1-11*x))+O(x^99)) \\ _Charles R Greathouse IV_, Sep 23 2012
+%Y A016325 Cf. A016134, A016135.
+%K A016325 nonn,easy
+%O A016325 0,2
+%A A016325 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

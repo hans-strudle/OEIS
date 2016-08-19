@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014513
+Showing 1-1 of 1
+
+%I A014513
+%S A014513 3,0,1,2,8,35,184,1155,8376,69106,639232,6552134,73711509,902965985,
+%T A014513 11964299312,170491265198,2599991794272,42249866656927,
+%U A014513 728810199831991,13300786146933842,256040133328476465
+%N A014513 [ GAMMA(n+1/4) ].
+%D A014513 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 255.
+%H A014513 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A014513 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 255.
+%p A014513 seq(floor(evalf(GAMMA(n+1/4),100)), n=0..24);
+%K A014513 nonn
+%O A014513 0,1
+%A A014513 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

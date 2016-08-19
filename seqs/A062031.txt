@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062031
+Showing 1-1 of 1
+
+%I A062031
+%S A062031 1,105,328185,5568833025,304513870485825,40992233865440682825,
+%T A062031 11492457771692770753505625,5984524775454356180393209490625,
+%U A062031 5325142910343897163530366857379506625,7598549164899334249502031499667984969915625
+%N A062031 Group odd numbers into (1), (3,5,7), (9,11,13,15,17),...; a(n) = product of n-th group.
+%H A062031 Harry J. Smith, <a href="/A062031/b062031.txt">Table of n, a(n) for n=1,...,100</a>
+%e A062031 a(2) =3*5*7 = 105.
+%o A062031 (PARI) { for (n=1, 100, b=2*n^2 - 4*n + 3; write("b062031.txt", n, " ", prod(k=0, 2*n - 2, b + 2*k)) ) } [From _Harry J. Smith_, Jul 30 2009]
+%K A062031 nonn
+%O A062031 1,2
+%A A062031 _Amarnath Murthy_, Jun 02 2001
+%E A062031 More terms from _Matthew Conroy_, Jun 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

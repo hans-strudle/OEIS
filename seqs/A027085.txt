@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027085
+Showing 1-1 of 1
+
+%I A027085
+%S A027085 5,16,39,84,169,328,623,1168,2173,4024,7431,13700,25233,46448,85471,
+%T A027085 157248,289269,532096,978727,1800212,3311161,6090232,11201743,
+%U A027085 20603280,37895405,69700584,128199431,235795588,433695777,797690976
+%N A027085 T(n,n+3), T given by A027082.
+%F A027085 G.f.: (x^3-x^2-x-5)/((x-1)^2(x^3+x^2+x-1)). - _Harvey P. Dale_, May 15 2013
+%F A027085 a(n) = A027025(n) + n + 1.
+%t A027085 CoefficientList[Series[-((-x^3+x^2+x+5)/((x-1)^2 (x^3+x^2+x-1))),{x,0,30}],x] (* _Harvey P. Dale_, May 15 2013 *)
+%K A027085 nonn,easy
+%O A027085 0,1
+%A A027085 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

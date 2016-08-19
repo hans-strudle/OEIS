@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019293
+Showing 1-1 of 1
+
+%I A019293
+%S A019293 1,2,3,4,6,8,10,12,15,18,21,24,26,32,39,42,60,65,72,84,96,160,182,336,
+%T A019293 455,512,896,960,992,1023,1280,1536,1848,2040,2688,4092,5920,7808,
+%U A019293 7936,10416,16352,20384,21824,23424,24564,29127,33792,41440
+%N A019293 Let sigma_m (n) be result of applying sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m (n) = k*n; sequence gives the (4,k)-perfect numbers.
+%C A019293 See also the Cohen-te Reile links under A019276.
+%D A019293 Graeme L. Cohen and Herman J. J. te Riele, Iterating the sum-of-divisors function, Experimental Mathematics, 5 (1996), pp. 93-100.
+%H A019293 Experimental Mathematics, <a href="http://www.emis.de/journals/EM/">Home Page</a>
+%K A019293 nonn
+%O A019293 1,2
+%A A019293 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

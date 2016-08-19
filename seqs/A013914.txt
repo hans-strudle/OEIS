@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013914
+Showing 1-1 of 1
+
+%I A013914
+%S A013914 1,1,1,2,3,4,8,12,16,33,62,67,186,316,280,1040,1963,1702,6830,10751,
+%T A013914 8679,45838,88255,56292,264838,624778
+%N A013914 Number of distinct nonzero absolute values of sum_{j=1}^n \sigma_j \exp( i \pi j / n ) where \sigma_j = +- 1.
+%H A013914 J. M. Borwein, D. M. Bradley and D. J. Broadhurst, Evaluations of k-fold Euler/Zagier sums..., <a href="http://www.combinatorics.org/">Electron. J. Combinatorics</a>, 4 (No. 2, 1997) #N5.
+%K A013914 nonn,nice
+%O A013914 0,4
+%A A013914 _David Broadhurst_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

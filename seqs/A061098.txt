@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061098
+Showing 1-1 of 1
+
+%I A061098
+%S A061098 1,2,3,24,5,2346,7,2468,369,2456810,11,2346891012,13,24678101214
+%N A061098 Concatenation of all numbers less than or equal to n other than the phi(n) numbers relatively prime to n.
+%C A061098 a(1) = 1 as the number itself is to be included. a(p) = p if p is a prime (by definition).
+%e A061098 a(6) = 2346, as 2,3,4,6 are not coprime to 6 and 1 and 5 are coprime to 6.
+%Y A061098 A000010.
+%K A061098 nonn,base
+%O A061098 0,2
+%A A061098 _Amarnath Murthy_, Apr 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

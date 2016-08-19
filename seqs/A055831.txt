@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055831
+Showing 1-1 of 1
+
+%I A055831
+%S A055831 5,15,31,54,85,125,175,236,309,395,495,610,741,889,1055,1240,1445,
+%T A055831 1671,1919,2190,2485,2805,3151,3524,3925,4355,4815,5306,5829,6385,
+%U A055831 6975,7600,8261,8959,9695,10470,11285,12141,13039
+%N A055831 T(n,n-4), where T is the array in A055830.
+%H A055831 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A055831 a(n)  = (n-3)*(n^2+6*n-10)/6, n>3.
+%F A055831 G.f.: x^4*(5-5*x+x^2) / (x-1)^4 . - _R. J. Mathar_, Mar 13 2016
+%K A055831 nonn,easy
+%O A055831 4,1
+%A A055831 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

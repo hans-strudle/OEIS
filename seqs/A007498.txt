@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007498
+Showing 1-1 of 1
+
+%I A007498 M0592
+%S A007498 1,2,3,4,9,10,12,14,19,23,24,36,38,39,48,62,93,106,120,134,150,196,
+%T A007498 294,317,320,385,586,597,654,738,945,1031,1172,1282,1404,1426,1452,
+%U A007498 1521,1752,1812,1836,1844,1862,2134,2232,2264,2667,3750,3903,3927,4274,4354
+%N A007498 Unique period lengths of primes mentioned in A007615.
+%D A007498 Chris K. Caldwell, Unique (period) primes and the factorization of cyclotomic polynomials minus one, Mathematica Japonica, 26 (1997), 189-195.
+%D A007498 C. K. Caldwell & H. Dubner, Unique-Period Primes, Table 2 in Journal of Recreational Mathematics 29(1) 46 1998.
+%D A007498 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007498 Samuel Yates, Period Lengths of Exactly One or Two Prime Numbers, J. Rec. Math., 18 (1985), 22-24.
+%H A007498 Ray Chandler, <a href="/A007498/b007498.txt">Table of n, a(n) for n = 1..97</a>
+%H A007498 <a href="/index/1#1overn">Index entries for sequences related to decimal expansion of 1/n</a>
+%t A007498 lst={1}; Do[p=Cyclotomic[n, 10]/GCD[n, Cyclotomic[n, 10]]; If[PrimeQ[p], AppendTo[lst, n]], {n, 3000}]; lst (Noe)
+%Y A007498 Cf. A007615, A002371, A048595, A006883, A007732, A051626.
+%K A007498 nonn,nice,base
+%O A007498 1,2
+%A A007498 _N. J. A. Sloane_, _Robert G. Wilson v_
+%E A007498 More terms from _T. D. Noe_, Sep 08 2005
+%E A007498 a(48)-a(52) from _Ray Chandler_, Jul 09 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

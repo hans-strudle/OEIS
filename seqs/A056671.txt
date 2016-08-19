@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056671
+Showing 1-1 of 1
+
+%I A056671
+%S A056671 1,2,2,1,2,4,2,1,1,4,2,2,2,4,4,1,2,2,2,2,4,4,2,2,1,4,1,2,2,8,2,1,4,4,
+%T A056671 4,1,2,4,4,2,2,8,2,2,2,4,2,2,1,2,4,2,2,2,4,2,4,4,2,4,2,4,2,1,4,8,2,2,
+%U A056671 4,8,2,1,2,4,2,2,4,8,2,2,1,4,2,4,4,4,4,2,2,4,4,2,4,4,4,2,2,2,2,1,2,8,2,2,8
+%N A056671 1 + the number of unitary and squarefree divisors of n = number of divisors of reduced squarefree part of n.
+%C A056671 Note that 1 is regarded as free of prime squares and also a square number and it is also a unitary divisor.
+%H A056671 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Unitarism and infinitarism</a>.
+%F A056671 Multiplicative with a(p)=2 and a(p^e)=1 for e>1. a(n)=2^A056169(n). - _Vladeta Jovovic_, Nov 01 2001
+%e A056671 n=252=2.2.3.3.7 has 18 divisors, 8 unitary and 8 squarefree divisors of which 2 are unitary and squarefree,divisors {1,7}; n=2520=2.2.2.3.3.5.7 has 48 divisors,16 unitary and 16 squarefree divisors of which {1,5,7,35}, i.e. a(2520)=4
+%e A056671 a(2520)=a(2^3*3^2*5*7)=a(2^3)*a(3^2)*a(5)*a(7)=1*1*2*2=4.
+%Y A056671 a(n) = A000005[A055231(n)] = A000005[A007913(n)/A055229(n)]
+%K A056671 mult,nonn
+%O A056671 1,2
+%A A056671 _Labos Elemer_, Aug 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

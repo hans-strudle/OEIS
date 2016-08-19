@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017670
+Showing 1-1 of 1
+
+%I A017670
+%S A017670 1,8,27,64,125,6,343,512,729,500,1331,432,2197,343,375,4096,4913,648,
+%T A017670 6859,4000,1323,2662,12167,384,15625,8788,19683,2744,24389,125,29791,
+%U A017670 32768,3993,19652,6125,46656,50653,13718,59319,6400,68921,147,79507,21296,10125
+%N A017670 Denominator of sum of -3rd powers of divisors of n.
+%C A017670 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%F A017670 Denominator of Sum_{d|n} 1/d^3.
+%t A017670 A017670[n_Integer] := Denominator[DivisorSigma[-3, n]]; A017670 /@ Range[100] (* _Vladimir Joseph Stephan Orlovsky_, Jul 21 2011 *)
+%Y A017670 Cf. A017669.
+%K A017670 nonn,frac
+%O A017670 1,2
+%A A017670 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

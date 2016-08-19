@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014863
+Showing 1-1 of 1
+
+%I A014863
+%S A014863 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014863 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,
+%U A014863 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014863 1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014863 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,1,-1,1,
+%X A014863 -1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014863 Inverse of 854th cyclotomic polynomial.
+%p A014863 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014863 sign
+%O A014863 0,1
+%A A014863 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027809
+Showing 1-1 of 1
+
+%I A027809
+%S A027809 715,11011,90090,520520,2382380,9189180,31039008,94225560,261891630,
+%T A027809 675745070,1636014380,3747960216,8180071900,17103786700,34420042800,
+%U A027809 66927861000,126159017985,231196390425,412918656150,720279159600,1229442013800,2056876004040
+%N A027809 a(n) = 143*(n+1)*C(n+4,13)/2.
+%H A027809 T. D. Noe, <a href="/A027809/b027809.txt">Table of n, a(n) for n = 9..1000</a>
+%F A027809 Number of 18-subsequences of [ 1, n ] with just 4 contiguous pairs.
+%F A027809 G.f.: 143*(5+2x)*x^9/(1-x)^15.
+%F A027809 a(n) = C(n+1, 10)*C(n+4, 4). - _Zerinvary Lajos_, May 26 2005, corrected by _R. J. Mathar_, Mar 16 2016
+%t A027809 Table[143 (n + 1) Binomial[n + 4, 13]/2, {n, 9, 30}] (* or *) Table[Binomial[n + 1, 10] Binomial[n + 4, 4], {n, 9, 30}] (* _Michael De Vlieger_, Mar 16 2016 *)
+%K A027809 nonn
+%O A027809 9,1
+%A A027809 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

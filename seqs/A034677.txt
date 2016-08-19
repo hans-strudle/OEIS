@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034677
+Showing 1-1 of 1
+
+%I A034677
+%S A034677 1,9,28,65,126,252,344,513,730,1134,1332,1820,2198,3096,3528,4097,
+%T A034677 4914,6570,6860,8190,9632,11988,12168,14364,15626,19782,19684,22360,
+%U A034677 24390,31752,29792,32769,37296,44226,43344,47450
+%N A034677 Sum of cubes of unitary divisors of n.
+%C A034677 A unitary divisor of n is a divisor d such that GCD(d,n/d)=1.
+%F A034677 Dirichlet g.f. zeta(s)*zeta(s-3)/zeta(2s-3). - R. J. Mathar, Mar 04 2011
+%e A034677 The unitary divisors of 6 are 1, 2, 3 and 6, so a(6) = 252.
+%o A034677 (PARI) A034677_vec(len)={
+%o A034677         a000012=direuler(p=2,len, 1/(1-X)) ;
+%o A034677         a000578=direuler(p=2,len, 1/(1-p^3*X)) ;
+%o A034677         a000578x=direuler(p=2,len, 1-p^3*X^2) ;
+%o A034677         dirmul(dirmul(a000012,a000578),a000578x)
+%o A034677 }
+%o A034677 A034677_vec(70) /* via D.g.f., R. J. Mathar, Mar 05 2011 */
+%Y A034677 Cf. A034444, A034448.
+%K A034677 nonn,mult
+%O A034677 1,2
+%A A034677 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044727
+Showing 1-1 of 1
+
+%I A044727
+%S A044727 14,114,149,214,314,414,514,614,714,814,914,1014,1114,1149,1214,1314,
+%T A044727 1499,1514,1614,1714,1814,1914,2014,2114,2149,2214,2314,2414,2514,
+%U A044727 2614,2714,2814,2914,3014,3114,3149,3214,3314,3414
+%N A044727 Numbers n such that string 1,4 occurs in the base 10 representation of n but not of n+1.
+%K A044727 nonn,base
+%O A044727 1,1
+%A A044727 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

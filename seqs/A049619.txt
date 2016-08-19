@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049619
+Showing 1-1 of 1
+
+%I A049619
+%S A049619 0,0,0,3,4,11,14,26,30,49,56,82,92,126,138,184,200,256,276,343,366,
+%T A049619 449,478,574,608,720,758,889,934,1081,1134,1298,1352,1540,1602,1814,
+%U A049619 1888
+%N A049619 a(n)=Sum{T(2i+1,n-2i-1): i=0,1,...,[ (n+1)/2 ]}, array T as in A049615.
+%K A049619 nonn
+%O A049619 0,4
+%A A049619 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

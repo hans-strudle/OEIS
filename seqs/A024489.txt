@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024489
+Showing 1-1 of 1
+
+%I A024489
+%S A024489 1,6,70,1050,18018,336336,6651216,137181330,2921454250,63804560820,
+%T A024489 1422156202740,32235540595440,741035948007600,17240428178136000,
+%U A024489 405264998374050240,9612379180184504130,229799057978874529530,5532199543935868303500,134014085905039247407500
+%N A024489 a(n) = (1/(9n-3))*M(3n; n,n,n), where M() is a multinomial coefficient.
+%C A024489 a(n) is also the number of possible necklaces consisting of n white beads, n red beads and n-1 black beads, where two necklaces are considered equivalent if they differ by a cyclic permutation. - _Thotsaporn Thanatipanonda_, Feb 20 2012
+%H A024489 Alois P. Heinz, <a href="/A024489/b024489.txt">Table of n, a(n) for n = 1..300</a>
+%F A024489 a(n) ~ 3^(3*n-3/2) / (2*Pi*n^2). - _Vaclav Kotesovec_, Aug 25 2014
+%p A024489 with(combinat):
+%p A024489 a:= n-> multinomial(3*n, n$3)/(9*n-3):
+%p A024489 seq(a(n), n=1..20);  # _Alois P. Heinz_, Feb 20 2012
+%K A024489 nonn
+%O A024489 1,2
+%A A024489 _Clark Kimberling_
+%E A024489 More terms from _Alois P. Heinz_, Feb 20 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058880
+Showing 1-1 of 1
+
+%I A058880
+%S A058880 12,36,104,352,1172,4119,14572,52492,190652,699266,2581112,9587602,
+%T A058880 35791472,134219859,505290272,1908881998,7233629132,27487817244,
+%U A058880 104715393912,399822505942,1529755308212,5864062368274,22517998136936
+%N A058880 Number of orientations of an n-cycle.
+%D A058880 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 129, (5.3.3).
+%p A058880 A058880 := proc(n) local d,t1,t2; if n mod 2 = 0 then t1 := 2^((n-4)/2) else t1 := 0; fi; t2 := divisors(n); for d in t2 do t1 := t1+phi(d)*2^(2*n/d)/(2*n); od; t1; end;
+%K A058880 nonn
+%O A058880 3,1
+%A A058880 _N. J. A. Sloane_, Jan 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

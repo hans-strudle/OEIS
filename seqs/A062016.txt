@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062016
+Showing 1-1 of 1
+
+%I A062016
+%S A062016 9,15,33,35,39,51,55,57,75,77,91,93,95,99,111,117,119,133,135,153,155,
+%T A062016 159,171,175,177,195,315,333,339,351,355,357,371,375,393,395,399,511,
+%U A062016 513,519,531,537,539,553,555,573,575,579,591,595,597,711,715,755,775
+%N A062016 Numbers with all odd digits which can be factored into two numbers > 1 with odd digits.
+%e A062016 95 = 19*5 is OK but 115 = 23*5 and 17*5 = 85 are not.
+%K A062016 nonn,base,easy
+%O A062016 0,1
+%A A062016 _Amarnath Murthy_, Jun 01 2001
+%E A062016 More terms from _Matthew Conroy_, Jun 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

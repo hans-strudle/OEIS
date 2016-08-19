@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010918
+Showing 1-1 of 1
+
+%I A010918
+%S A010918 8,55,379,2612,18002,124071,855106,5893451,40618081,279942687,
+%T A010918 1929384798,13297456486,91647010581,631637678776,4353291555505,
+%U A010918 30003193292641,206784130187015,1425170850320396,9822378297435246
+%N A010918 Shallit sequence S(8,55): a(n)=[ a(n-1)^2/a(n-2)+1 ].
+%C A010918 Agrees with A019484 for terms 0 through 11056 but then differs from it.
+%D A010918 D. W. Boyd, Some integer sequences related to the Pisot sequences, Acta Arithmetica, 34 (1979), 295-305.
+%D A010918 Problem B-686, Fib. Quart., 29 (1991), 85.
+%H A010918 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%K A010918 nonn
+%O A010918 0,1
+%A A010918 _N. J. A. Sloane_ and _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

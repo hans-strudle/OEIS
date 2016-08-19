@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015444
+Showing 1-1 of 1
+
+%I A015444
+%S A015444 1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,
+%T A015444 0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,
+%U A015444 0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015444 1,-1,0,0,0,1,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,1,0,0,0,-1,1,0,0,0,0,0,
+%W A015444 0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,1,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,1,
+%X A015444 0,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015444 Inverse of 1435th cyclotomic polynomial.
+%p A015444 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%o A015444 (PARI) Vec(1/polcyclo(1435)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%K A015444 sign
+%O A015444 0,1
+%A A015444 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006124
+Showing 1-1 of 1
+
+%I A006124
+%S A006124 3,7,18,36,61,93,132,178,231,291,358,432,513,601,696,798,907,1023,
+%T A006124 1146,1276,1413,1557,1708,1866,2031,2203,2382,2568,2761,2961,3168,
+%U A006124 3382,3603,3831,4066,4308,4557,4813
+%N A006124 3 + n/2 + 7n^2/2.
+%H A006124 Vincenzo Librandi, <a href="/A006124/b006124.txt">Table of n, a(n) for n = 0..1000</a>
+%H A006124 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A006124 G.f.:(3-2*x+6*x^2)/(1-x)^3 (* _Vincenzo Librandi_, Jul 07 2012 *)
+%F A006124 a(n) = 3*a(n-1) -3*a(n-2) +a(n-3). - _Vincenzo Librandi_, Jul 07 2012
+%t A006124 Table[3+n/2+7/2 n^2,{n,0,50}]  (* _Harvey P. Dale_, Mar 21 2011 *)
+%t A006124 CoefficientList[Series[(3-2*x+6*x^2)/(1-x)^3,{x,0,50}],x] (* _Vincenzo Librandi_, Jul 07 2012 *)
+%o A006124 (MAGMA) I:=[3, 7, 18]; [n le 3 select I[n] else 3*Self(n-1)-3*Self(n-2)+Self(n-3): n in [1..50]]; // _Vincenzo Librandi_, Jul 07 2012
+%K A006124 nonn,easy
+%O A006124 0,1
+%A A006124 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

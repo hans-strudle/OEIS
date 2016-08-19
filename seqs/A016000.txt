@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016000
+Showing 1-1 of 1
+
+%I A016000
+%S A016000 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A016000 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A016000 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A016000 Inverse of 1991st cyclotomic polynomial.
+%p A016000 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016000 sign
+%O A016000 0,1
+%A A016000 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

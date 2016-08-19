@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008827
+Showing 1-1 of 1
+
+%I A008827
+%S A008827 3,13,50,201,875,4138,21145,115973,678568,4213595,27644435,190899320,
+%T A008827 1382958543,10480142145,82864869802,682076806157,5832742205055,
+%U A008827 51724158235370,474869816156749,4506715738447321,44152005855084344,445958869294805287,4638590332229999351
+%N A008827 Coefficients from fractional iteration of e^x -1.
+%D A008827 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 148.
+%H A008827 Vincenzo Librandi, <a href="/A008827/b008827.txt">Table of n, a(n) for n = 3..200</a>
+%H A008827 Rosenberg, Ivo; <a href="http://dx.doi.org/10.1016/0097-3165(73)90058-7">The number of maximal closed classes in the set of functions over a finite domain</a>, J. Combinatorial Theory Ser. A 14 (1973), 1-7. See Table I (it is not certain that this is the same sequence. - _N. J. A. Sloane_, Jun 25 2015)
+%p A008827 [seq(bell(n+1)-2, n=2..31)]; - _Zerinvary Lajos_, Sep 29 2006
+%p A008827 a:=n->(sum((j+1)*stirling2(n,j), j=2..n)): seq(a(n), n=2..21); - _Zerinvary Lajos_, Apr 18 2007
+%t A008827 Table[BellB[n] - 2, {n, 3, 40}] (* _Vladimir Joseph Stephan Orlovsky_, Jul 06 2011 *)
+%o A008827 (PARI) a(n)=sum(j=2,n--,(j+1)*stirling(n,j,2)) \\ _Charles R Greathouse IV_, Jul 06 2011
+%Y A008827 Cf. A008826.
+%Y A008827 Equals Bell(n) - 2 = A000110(n) - 2.
+%K A008827 nonn
+%O A008827 3,1
+%A A008827 _N. J. A. Sloane_.
+%E A008827 More terms from _Vladeta Jovovic_, Jan 02 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

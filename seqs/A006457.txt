@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006457
+Showing 1-1 of 1
+
+%I A006457 M3873
+%S A006457 1,5,17,49,125,297,669,1457,3093,6457,13309,27201,55237,111689,225101,
+%T A006457 452689,908885,1822809,3652701,7315553,14645349,29311081,58650733,
+%U A006457 117342321,234741877
+%N A006457 Number of elements in Z[ i ] whose `smallest algorithm' is <= n.
+%D A006457 P. Samuel, About Euclidean rings, J. Alg., 19 (1971), 282-301.
+%D A006457 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006457 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A006457 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A006457 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (4, -3, -6, 10, -4).
+%F A006457 a(n+5)-4*a(n+4)+3*a(n+3)+6*a(n+2)-10*a(n+1)+4*a(n)=0.
+%p A006457 A006457:=(1+z+2*z**3)/(2*z-1)/(2*z**2-1)/(z-1)**2; [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%t A006457 CoefficientList[Series[(1+x+2x^3)/(2x-1)/(2x^2-1)/(x-1)^2,{x,0,30}], x] (* or *) LinearRecurrence[{4,-3,-6,10,-4},{1,5,17,49,125},30] (* _Harvey P. Dale_, Jun 22 2011 *)
+%Y A006457 Cf. A006458, A006459.
+%K A006457 nonn,easy,nice
+%O A006457 0,2
+%A A006457 H. W. Lenstra, Jr.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061518
+Showing 1-1 of 1
+
+%I A061518
+%S A061518 0,5,10,61,116,6611,111166,66661111,111111116666,6666666611111111,
+%T A061518 111111111111111166666666,66666666666666661111111111111111,
+%U A061518 111111111111111111111111111111116666666666666666
+%N A061518 a(0) = 0; a(n) is obtained by incrementing each digit of a(n-1) by 5.
+%C A061518 In A061511-A061522, A061746-A061750 when the incremented digit exceeds 9 it is written as a 2-digit string. So 9+1 becomes the 2-digit string 10, etc.
+%F A061518 a(2n+4) = {10^(2^n)}*6*[10^{2^(n)} - 1]/9 + [10^(2^n) -1]/9 a(2n+3) = {10^(2^(n-1))}*[10^(2^n) - 1]/9 + 6*[10^(2^(n-1)) - 1]/9
+%K A061518 base,nonn
+%O A061518 0,2
+%A A061518 _Amarnath Murthy_, May 08 2001
+%E A061518 More terms from Larry Reeves (larryr(AT)acm.org), May 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

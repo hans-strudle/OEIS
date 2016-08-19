@@ -1,0 +1,74 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002182
+Showing 1-1 of 1
+
+%I A002182 M1025 N0385
+%S A002182 1,2,4,6,12,24,36,48,60,120,180,240,360,720,840,1260,1680,2520,5040,
+%T A002182 7560,10080,15120,20160,25200,27720,45360,50400,55440,83160,110880,
+%U A002182 166320,221760,277200,332640,498960,554400,665280,720720,1081080,1441440,2162160
+%N A002182 Highly composite numbers, definition (1): where d(n), the number of divisors of n (A000005), increases to a record.
+%C A002182 Where record values of d(n) occur: d(n) > d(k) for all k < n.
+%C A002182 A002183 is the RECORDS transform of A000005, i.e., lists the corresponding values d(n) for n in A002182.
+%C A002182 Flammenkamp's page has also a copy of the missing Siano paper.
+%C A002182 Highly composite numbers are the product of primorials, A002110. See A112779 for the number of primorial terms in the product of a highly composite number. - _Jud McCranie_, Jun 12 2005
+%C A002182 Sigma and tau for highly composite numbers through the 146th entry conform to a power fit as follows: log(sigma)=A*log(tau)^B where (A,B) =~ (1.45,1.38). - _Bill McEachen_, May 24 2006
+%C A002182 a(n) often corresponds to P(n,m) = number of permutations of n things taken m at a time. Specifically, if start=1, pointers 1-6, 9, 10, 13-15, 17-19, 22, 23, 28, 34, 37, 43, 52, ... An example is a(37)=665280, which is P(12,6)=12!/(12-6)!. - _Bill McEachen_, Feb 09 2009
+%C A002182 Concerning the previous comment, if m=1, then P(n,m) can represent any number. So let's assume m>1. Searching the first 1000 terms, the only indices of terms of the form P(n,m) are 4, 5, 6, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, 22, 23, 27, 28, 31, 34, 37, 41, 43, 44, 47, 50, 52, and 54. Note that a(44) = 4324320 = P(2079,2). See A163264. - _T. D. Noe_, Jun 10 2009
+%C A002182 A large number of highly composite numbers have 9 as their digit root. - _Parthasarathy Nambi_, Jun 07 2009
+%C A002182 Because 9 divides all highly composite numbers greater than 1680, those numbers have digital root 9. - _T. D. Noe_, Jul 24 2009
+%C A002182 See A181309 for highly composite numbers that are not highly abundant.
+%C A002182 a(n) is also defined by the recurrence : a(1) = 1, a(n+1)/sigma(a(n+1)) < a(n) / sigma(a(n)) - [From Michel Lagneau, Jan 02 2012]. [This "definition" is wrong (the term a(20)=7560 does not satisfy this inequality) and incomplete: It does not determine a sequence uniquely, e.g., any subsequence would satisfy the same relation. The intended meaning is probably the definition of the (different) sequence A004394. - _M. F. Hasler_, Sep 13 2012]
+%C A002182 Up to a(1000), the terms beyond a(5)=12 resp. beyond a(9)=60 are a multiples of these. Is this true for all subsequent terms? - _M. F. Hasler_, Sep 13 2012
+%C A002182 Differs from the superabundant numbers from a(20)=7560 on, which is not in A004394. The latter is not a subsequence of A002182, as might appear from considering the displayed terms: The two sequences have only 449 terms in common, the largest of which is A002182(2567) = A004394(1023). See A166735 for superabundant numbers that are not highly composite, and A004394 for further information. - _M. F. Hasler_, Sep 13 2012
+%C A002182 Subset of A067128. - _David A. Corneth_, May 16 2016
+%D A002182 CRC Press Standard Mathematical Tables 28th Ed, p. 61.
+%D A002182 J.-M. De Koninck, Ces nombres qui nous fascinent, Entry 180, p. 56, Ellipses, Paris 2008.
+%D A002182 L. E. Dickson, History of Theory of Numbers, I, p. 323.
+%D A002182 R. Honsberger, An introduction to Ramanujan's Highly Composite Numbers, Chap. 14 pp. 193-200 Mathematical Gems III, DME no. 9 MAA 1985
+%D A002182 J. L. Nicolas, On highly composite numbers, pp. 215-244 in Ramanujan Revisited, Editors G. E. Andrews et al., Academic Press 1988
+%D A002182 G. Robin, Méthodes d'optimisation pour un problème de théorie des nombres, RAIRO Informatique Theorique, 17, 1983, 239-247.
+%D A002182 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002182 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002182 D. Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, 128.
+%H A002182 T. D. Noe, <a href="/A002182/b002182.txt">Table of n, a(n) for n = 1..1000</a>
+%H A002182 P. Erdős, <a href="https://www.renyi.hu/~p_erdos/1944-04.pdf">On Highly composite numbers</a>, J. London Math. Soc. 19 (1944), 130--133 MR7,145d; Zentralblatt 61,79.
+%H A002182 A. Flammenkamp, <a href="http://wwwhomes.uni-bielefeld.de/achim/highly.html">Highly composite numbers</a>
+%H A002182 A. Flammenkamp, <a href="http://wwwhomes.uni-bielefeld.de/achim/highly.txt">List of the first 1200 highly composite numbers</a>
+%H A002182 J. C. Lagarias, <a href="http://arXiv.org/abs/math.NT/0008177">An elementary problem equivalent to the Riemann hypothesis</a>, Am. Math. Monthly 109 (#6, 2002), 534-543.
+%H A002182 W. Lauritzen, <a href="http://www.earth360.com/math-versatile.html">Versatile Numbers -Versatile Economics</a>
+%H A002182 R. J. Mathar, <a href="/A002182/a002182.mp">Maple program to convert the Flammenkamp file to an OEIS b-file</a>
+%H A002182 R. J. Mathar, <a href="/A002182/a002182.txt.gz">Output of above Maple program</a> [Uncompresses to 9.1 MB]
+%H A002182 Graeme McRae, <a href="http://2000clicks.com/MathHelp/NumberFactorsHighlyComposite.htm">Highly Composite Numbers</a>
+%H A002182 J.-L. Nicolas, <a href="http://archive.numdam.org/article/BSMF_1969__97__129_0.pdf">Ordre maximal d'un element du groupe S_n de permutations et 'highly composite numbers' (Text in French)</a>
+%H A002182 J.-L. Nicolas and G. Robin, <a href="http://www.springerlink.com/content/1382-4090/1/2/">Highly Composite Numbers by Srinivasa Ramanujan</a>, The Ramanujan Journal, Vol. 1(2), pp. 119-153, Kluwer Academics Pub.
+%H A002182 K. O'Bryant, PlanetMath.org, <a href="http://planetmath.org/encyclopedia/HighlyCompositeNumber.html">Highly composite number</a>
+%H A002182 S. Ramanujan, <a href="http://ramanujan.sirinudi.org/Volumes/published/ram15.html">Highly composite numbers</a>, Proceedings of the London Mathematical Society, 2, XIV, 1915, 347 - 409.
+%H A002182 S. Ratering, <a href="http://www.jstor.org/stable/2690653">An interesting subset of the highly composite numbers</a>, Math. Mag., 64 (1991), 343-346.
+%H A002182 D. B. Siano and J. D. Siano, An Algorithm for Generating Highly Composite Numbers (<a href="http://www.eclipse.net/~dimona/julianmanuscript3.pdf">pdf</a>)
+%H A002182 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A002182 M. Waldschmidt, <a href="http://www.math.jussieu.fr/~miw/articles/pdf/LegacyRamanujan2013Text.pdf">From highly composite numbers to transcendental number theory</a>, 2013.
+%H A002182 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HighlyCompositeNumber.html">Highly Composite Number</a>
+%H A002182 Wikipedia, <a href="http://www.wikipedia.org/wiki/Highly_composite_number">Highly composite number</a>
+%F A002182 Also, for n >=2, smallest values of p for which a006218(p)-A006318(p-1)=A002183(n) - Philippe LALLOUET (philip.lallouet(AT)wanadoo.fr), Jun 23 2007
+%F A002182 a(n+1) < a(n) * (1+log(a(n))^-c) for some positive c (see Erdős). - _David A. Corneth_, May 16 2016
+%t A002182 a = 0; Do[b = DivisorSigma[0, n]; If[b > a, a = b; Print[n]], {n, 1, 10^7}]
+%o A002182 (PARI) print1(r=1);forstep(n=2,1e5,2,if(numdiv(n)>r,r=numdiv(n);print1(", "n))) \\ _Charles R Greathouse IV_, Jun 10 2011
+%o A002182 (Python)
+%o A002182 from sympy import divisor_count
+%o A002182 A002182_list, r = [], 0
+%o A002182 for i in range(1,10**4):
+%o A002182 ....d = divisor_count(i)
+%o A002182 ....if d > r:
+%o A002182 ........r = d
+%o A002182 ........A002182_list.append(i) # _Chai Wah Wu_, Mar 23 2015
+%Y A002182 Cf. A000005, A002110, A002183, A002473, A004394, A106037, A108602, A112778, A112779, A112780, A112781, A006218, A126098, A002201, A072938, A094348, A003418, A161184.
+%K A002182 nonn,nice,changed
+%O A002182 1,2
+%A A002182 _N. J. A. Sloane_
+%E A002182 Jun 19 1996: Changed beginning to start at 1.
+%E A002182 Jul 10 1996: _Matthew Conroy_ points out that these are different from the super-abundant numbers - see A004394. Last 8 terms sent by _J. Lowell_; checked by _Jud McCranie_.
+%E A002182 Description corrected by _Gerard Schildberger_ and _N. J. A. Sloane_, Apr 04 2001
+%E A002182 Additional references from _Lekraj Beedassy_, Jul 24 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

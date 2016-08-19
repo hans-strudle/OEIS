@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034699
+Showing 1-1 of 1
+
+%I A034699
+%S A034699 1,2,3,4,5,3,7,8,9,5,11,4,13,7,5,16,17,9,19,5,7,11,23,8,25,13,27,7,29,
+%T A034699 5,31,32,11,17,7,9,37,19,13,8,41,7,43,11,9,23,47,16,49,25,17,13,53,27,
+%U A034699 11,8,19,29,59,5,61,31,9,64,13,11,67,17,23,7,71,9,73,37,25,19,11,13,79
+%N A034699 Largest prime power factor of n.
+%C A034699 n divides lcm(1, 2, ..., a(n)).
+%C A034699 a(n) = A210208(n,A073093(n)) = largest term of n-th row in A210208. - _Reinhard Zumkeller_, Mar 18 2012
+%C A034699 a(n) = smallest m > 0 such that n divides A003418(m). - _Thomas Ordowski_, Nov 15 2013
+%C A034699 a(n) = n when n is a prime power (A000961). - _Michel Marcus_, Dec 03 2013
+%H A034699 T. D. Noe, <a href="/A034699/b034699.txt">Table of n, a(n) for n = 1..1000</a>
+%F A034699 If n = p_1^e_1 *...* p_k^e_k, p_1<...<p_k primes, then a(n) = max { p_i^e_i }.
+%t A034699 f[n_] := If[n == 1, 1, Max[ #[[1]]^#[[2]] & /@ FactorInteger@n]]; Array[f, 79] (* _Robert G. Wilson v_ Sep 02 2006 *)
+%o A034699 (Haskell)
+%o A034699 a034699 = last . a210208_row
+%o A034699 -- _Reinhard Zumkeller_, Mar 18 2012, Feb 14 2012
+%o A034699 (PARI) a(n)=my(f=factor(n));vecmax(vector(#f[,1],i,f[i,1]^f[i,2])) \\ _Charles R Greathouse IV_, Nov 20 2012
+%Y A034699 Cf. A020639, A006530, A034684, A028233, A034699, A053585, A051283, A052128, A038610, A027750, A010055.
+%K A034699 nonn,easy,nice
+%O A034699 1,2
+%A A034699 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

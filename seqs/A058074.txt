@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058074
+Showing 1-1 of 1
+
+%I A058074
+%S A058074 1,3,4,8,9,15,16,24,25,35,36,48,63,64,81,100,120,121,143,144,168,169,
+%T A058074 195,196,225,255,256,289,323,361,399,400,440,441,483,484,528,529,576,
+%U A058074 625,676,728,729,783,784,840,841,899,900,960,961,1023,1024,1088,1089
+%N A058074 GCD(d(n),d(n+1)) = 1, where d(n) is number of positive divisors of n.
+%e A058074 8 is included because d(8) = 4 is relatively prime to d(9) = 3.
+%t A058074 Select[Range[1100],GCD[DivisorSigma[0,#],DivisorSigma[0,#+1]]==1&] (* _Harvey P. Dale_, Apr 04 2015 *)
+%o A058074 (PARI) lista(nn) = {for(n=1, nn, if (gcd(numdiv(n), numdiv(n+1)) == 1, print1(n, ", ")));} \\ _Michel Marcus_, May 19 2014
+%Y A058074 Cf. A058075.
+%K A058074 nonn
+%O A058074 1,2
+%A A058074 _Leroy Quet_, Nov 11 2000
+%E A058074 Offset changed to 1 by _Michel Marcus_, May 20 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

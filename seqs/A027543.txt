@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027543
+Showing 1-1 of 1
+
+%I A027543
+%S A027543 163,4719,64966,610166,4546137,29120349,168301828,905468700,
+%T A027543 4631682463,22861603067,110036539458,520325868354,2430026294149
+%N A027543 Third diagonal of A027538.
+%F A027543 Numerators of sequence a[ n, n-2 ] in (a[ i, j ])^3 where a[ i, j ] = A(i, j)/i! if j<=i, 0 if j>i
+%K A027543 nonn
+%O A027543 3,1
+%A A027543 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

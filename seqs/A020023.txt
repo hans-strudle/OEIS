@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020023
+Showing 1-1 of 1
+
+%I A020023
+%S A020023 1,0,0,1,2,8,43,267,1927,15845,146123,1493701,16762640,204876709,
+%T A020023 2708925368,38526938568,586465620430,9513775620310,163848357905336,
+%U A020023 2985681188497227,57391427290002261,1160582196308934615
+%N A020023 Nearest integer to GAMMA(n+2/9)/GAMMA(2/9).
+%p A020023 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%K A020023 nonn
+%O A020023 0,5
+%A A020023 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

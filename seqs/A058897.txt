@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058897
+Showing 1-1 of 1
+
+%I A058897
+%S A058897 6,39,78,95,82,4
+%N A058897 An unknown sequence: several people have asked about this, so I have added it to the database.
+%C A058897 The question of the next term was proposed Jan 06 2001 on mathforum.org by user "Manikandansk". But no satisfactory solution has so far appeared there. - _M. F. Hasler_, Mar 27 2008
+%F A058897 If anyone can explain this, please let me know! - _N. J. A. Sloane_
+%F A058897 One possible formula: For n = 1..6, a(n)=(1+floor(n/2)-ceil(n/2))*(40-(n^2)+(3*floor(n/2)*floor(2/n))+71*(1+floor(n/4)-ceil(n/4))) + (ceil(n/2)-floor(n/2))*((5*n-5)*(7-((n+1)/2))+A000396((n+1)/2)-(494*floor(n/5)*floor(5/n))). - _Wesley Ivan Hurt_, Jan 03 2013
+%Y A058897 For the most pedestrian explanation see A058985.
+%K A058897 nonn,unkn
+%O A058897 0,1
+%A A058897 _N. J. A. Sloane_, Jan 09 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

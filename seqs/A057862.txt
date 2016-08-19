@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057862
+Showing 1-1 of 1
+
+%I A057862
+%S A057862 0,0,0,1,2,0,11,4,2,34,1,64,37,173,438,394,118,1160,1663,1,6466,14508,
+%T A057862 20764,38368,18257,99928,64234,202972,15836,410224,184593,1520257,
+%U A057862 538006,2773540,5886173,9996832,5132559,9902536,21703576,33466456
+%N A057862 2^n modulo Fibonacci(n).
+%F A057862 a(n) = A000079(n) - A057861(n)*A000045(n)
+%t A057862 Table[Mod[2^n,Fibonacci[n]],{n,1,80}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 03 2011*)
+%o A057862 (Sage) [power_mod(2,n,fibonacci(n))for n in xrange(1,41)] # [From _Zerinvary Lajos_, Nov 28 2009]
+%K A057862 nonn
+%O A057862 1,5
+%A A057862 _Henry Bottomley_, Sep 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

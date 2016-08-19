@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045134
+Showing 1-1 of 1
+
+%I A045134
+%S A045134 3,7,12,13,19,23,28,29,48,49,52,53,67,71,76,77,83,87,92,93,112,113,
+%T A045134 116,117,192,193,196,197,208,209,212,213,259,263,268,269,275,279,284,
+%U A045134 285,304,305,308,309,323,327,332,333,339,343,348
+%N A045134 Numbers n with property that in base 4 representation the numbers of 2's and 3's are 0 and 1, respectively.
+%t A045134 Select[Range[400],DigitCount[#,4,2]==0&&DigitCount[#,4,3]==1&] (* _Harvey P. Dale_, Dec 25 2012 *)
+%K A045134 nonn,base
+%O A045134 1,1
+%A A045134 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

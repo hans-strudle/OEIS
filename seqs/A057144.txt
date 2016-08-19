@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057144
+Showing 1-1 of 1
+
+%I A057144
+%S A057144 1,2,2,4,4,6,6,6,6,6,6,12,12,12,12,12,12,36,36,60,60,60,60,24,24,24,
+%T A057144 24,24,24,60,60,60,60,60,60,60,60,60,60,120,120,120,120,120,120,120,
+%U A057144 120,120,120,120,120,120,120,120,120,120,120,120,120,120,120,120,120,120
+%N A057144 Smallest of the most frequently occurring numbers in 1-to-n multiplication table.
+%H A057144 Reinhard Zumkeller, <a href="/A057144/b057144.txt">Table of n, a(n) for n = 1..1000</a>
+%e A057144 M(n) is the array in which m(x,y)= x*y for x = 1 to n and y = 1 to n. In m(10), the most frequently occurring numbers are 6, 8, 10, 12, 18, 20, 24, 30,40, each occurring 4 times. The smallest of these numbers is 6, so a(10) = 6.
+%o A057144 (Haskell)
+%o A057144 import Data.List (sort, group, sortBy, groupBy)
+%o A057144 import Data.Function (on)
+%o A057144 a057144 n = head $ last $ head $ groupBy ((==) `on` length) $
+%o A057144             reverse $ sortBy (compare `on` length) $
+%o A057144             group $ sort [u * v | u <- [1..n], v <- [1..n]]
+%o A057144 -- _Reinhard Zumkeller_, Jun 22 2013
+%Y A057144 Cf. A057142, A057143, A057338.
+%K A057144 nonn
+%O A057144 1,2
+%A A057144 _Arran Fernandez_, Aug 13 2000
+%E A057144 More terms from Larry Reeves (larryr(AT)acm.org), Apr 18 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

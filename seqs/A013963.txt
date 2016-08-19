@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013963
+Showing 1-1 of 1
+
+%I A013963
+%S A013963 1,32769,14348908,1073774593,30517578126,470199366252,4747561509944,
+%T A013963 35185445863425,205891146443557,1000030517610894,4177248169415652,
+%U A013963 15407492847694444,51185893014090758,155572843119354936
+%N A013963 a(n) = sigma_15(n), the sum of the 15th powers of the divisors of n.
+%C A013963 If the canonical factorization of n into prime powers is the product of p^e(p) then sigma_k(n) = Product_p ((p^((e(p)+1)*k))-1)/(p^k-1).
+%C A013963 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%F A013963 G.f.: sum_{k>=1} k^15*x^k/(1-x^k). - _Benoit Cloitre_, Apr 21 2003
+%t A013963 lst={};Do[AppendTo[lst,DivisorSigma[15,n]],{n,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Mar 11 2009 *)
+%o A013963 (Sage) [sigma(n,15)for n in xrange(1,15)] # _Zerinvary Lajos_, Jun 04 2009
+%K A013963 nonn,mult
+%O A013963 1,2
+%A A013963 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

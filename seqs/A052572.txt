@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052572
+Showing 1-1 of 1
+
+%I A052572
+%S A052572 1,4,10,36,168,960,6480,50400,443520,4354560,47174400,558835200,
+%T A052572 7185024000,99632332800,1482030950400,23538138624000,397533007872000,
+%U A052572 7113748561920000,134449847820288000,2676192208994304000
+%N A052572 E.g.f. (1+2x-2x^2)/(1-x)^2.
+%C A052572 a(n) equals the permanent of the (n+1) X (n+1) matrix whose entry directly below the entry in the top right corner is 3, and all of whose other entries are 1. [From _John M. Campbell_, May 25 2011]
+%H A052572 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=515">Encyclopedia of Combinatorial Structures 515</a>
+%F A052572 E.g.f.: -(-2*x+2*x^2-1)/(-1+x)^2
+%F A052572 Recurrence: {a(0)=1, a(1)=4, a(2)=10, (-n^2-5*n-4)*a(n)+(n+3)*a(n+1)=0}
+%F A052572 (n+3)*n! for n>0.
+%p A052572 spec := [S,{S=Prod(Union(Z,Z,Sequence(Z)),Sequence(Z))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%Y A052572 Essentially twice A038720.
+%K A052572 easy,nonn
+%O A052572 0,2
+%A A052572 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

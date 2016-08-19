@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055659
+Showing 1-1 of 1
+
+%I A055659
+%S A055659 0,15,253,1653,6786,21115,54615,123753,253828,481671,858705,1454365,
+%T A055659 2359878,3692403,5599531,8264145,11909640,16805503,23273253,31692741,
+%U A055659 42508810,56238315,73477503,94909753,121313676,153571575,192678265
+%N A055659 Number of (2,n)-partitions of a chain of length n^3.
+%C A055659 a (k,n)-partition of a chain C is a chain of k intervals of C of length n.
+%H A055659 Vincenzo Librandi, <a href="/A055659/b055659.txt">Table of n, a(n) for n = 1..1000</a>
+%F A055659 a(n)= (1/2) *(n-1)*(n^2+n-1)*(n^3-2*n+2).
+%e A055659 a(2)=15 because in the linearly ordered set {1,..,8} we can choose in 15 ways 2 successive blocks of 2 consecutive elements.
+%o A055659 (MAGMA) [(1/2) *(n-1)*(n^2+n-1)*(n^3-2*n+2): n in [1..35]]; // Vincenzo Librandi, Jun 30 2011
+%K A055659 nonn
+%O A055659 1,2
+%A A055659 Paolo Dominici (pl.dm(AT)libero.it), Jun 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013732
+Showing 1-1 of 1
+
+%I A013732
+%S A013732 3,81,2187,59049,1594323,43046721,1162261467,31381059609,847288609443,
+%T A013732 22876792454961,617673396283947,16677181699666569,450283905890997363,
+%U A013732 12157665459056928801,328256967394537077627,8862938119652501095929
+%N A013732 3^(3n+1).
+%H A013732 Vincenzo Librandi, <a href="/A013732/b013732.txt">Table of n, a(n) for n = 0..200</a>
+%H A013732 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013732 a(n)=27*a(n-1), n>0 ; a(0)=3 . G.f.: 3/(1-27*x). [From _Philippe Deléham_, Nov 25 2008]
+%p A013732 seq(3^(3*n+1),n=0..15); # Nathaniel Johnston, Jun 26 2011
+%o A013732 (MAGMA) [3^(3*n+1): n in [0..25]]; // Vincenzo Librandi, May 25 2011
+%Y A013732 Cf. A013730, A013733, A013734.
+%K A013732 nonn,easy
+%O A013732 0,1
+%A A013732 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

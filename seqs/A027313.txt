@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027313
+Showing 1-1 of 1
+
+%I A027313
+%S A027313 1,6,27,81,243,729,2187,6561,19683,59049,177147,531441,1594323,
+%T A027313 4782969,14348907,43046721,129140163,387420489,1162261467,3486784401,
+%U A027313 10460353203,31381059609,94143178827,282429536481,847288609443
+%N A027313 a(n) = Sum{(k+1)*T(n,2n-k)}, 0<=k<=2n, T given by A026323.
+%F A027313 For n>1, a(n) = 3^(n+1).
+%K A027313 nonn
+%O A027313 0,2
+%A A027313 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

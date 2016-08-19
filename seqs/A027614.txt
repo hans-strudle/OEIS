@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027614
+Showing 1-1 of 1
+
+%I A027614
+%S A027614 1,1,3,14,80,468,2268,10224,313632,9849600,21954240,8894136960,
+%T A027614 105857556480,20609598562560,650835095904000,80028503341516800,
+%U A027614 5018759207362252800,503681435808239001600,56090762228110443724800
+%V A027614 1,1,3,14,80,468,2268,10224,313632,9849600,21954240,-8894136960,
+%W A027614 -105857556480,20609598562560,650835095904000,-80028503341516800,
+%X A027614 -5018759207362252800,503681435808239001600,56090762228110443724800
+%N A027614 Related to Clebsch-Gordan formulae.
+%D A027614 J. Cigler, Some results and conjectures about a class of q-polynomials with simple moments, 2014; http://homepage.univie.ac.at/Johann.Cigler/preprints/q-pol.pdf
+%H A027614 Allan Adler, <a href="/A027614/a027614.tex">Definition (plain tex file)</a>
+%K A027614 sign
+%O A027614 1,3
+%A A027614 Allan Adler (ara(AT)zurich.ai.mit.edu), Dec 15 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

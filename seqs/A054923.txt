@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054923
+Showing 1-1 of 1
+
+%I A054923
+%S A054923 1,0,1,0,0,1,0,0,1,2,0,0,0,2,3,0,0,0,1,5,6,0,0,0,1,5,13,11,0,0,0,0,4,
+%T A054923 19,33,23,0,0,0,0,2,22,67,89,47,0,0,0,0,1,20,107,236,240,106,0,0,0,0,
+%U A054923 1,14,132,486,797,657,235,0,0,0,0,0,9,138,814,2075,2678,1806,551,0,0,0,0,0,2,95,1454,8404,22950,33851,28908,1301
+%N A054923 Triangle read by rows: number of connected graphs with k >= 0 edges and n nodes (1<=n<=k+1).
+%C A054923 The diagonal n = k+1 is A000055(n). - _Jonathan Vos Post_, Aug 10 2008
+%D A054923 G. A. Baker et al., High-temperature expansions for the spin-1/2 Heisenberg model, Phys. Rev., 164 (1967), 800-817.
+%D A054923 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 93, Table 4.2.2; p. 241, Table A2.
+%H A054923 Gordon Royle, <a href="http://www.cs.uwa.edu.au/~gordon/remote/graphs/index.html#nums">Small graphs</a>
+%e A054923 1; 0 1; 0 0 1; 0 0 1 2; 0 0 0 2 3; 0 0 0 1 5 6; ... (so with 5 edges there's 1 graph with 4 nodes, 5 with 5 nodes and 6 with 6 nodes). [Typo corrected by Anders Haglund, Jul 08 2008]
+%Y A054923 Cf. A002905, A008406, A046751, A054924, A046742.
+%K A054923 nonn,easy,nice,tabl
+%O A054923 0,10
+%A A054923 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

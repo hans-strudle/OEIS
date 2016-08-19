@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059892
+Showing 1-1 of 1
+
+%I A059892
+%S A059892 3,3,5,6,9,53,9,36,12,33,9,186,21,33,111,144,9,564,3,330,239,273,3,
+%T A059892 1756,84,165,76,714,93,16167,21,5952,111,177,363,4288,21,15,99,5724,
+%U A059892 45,48807,45,4314,1140,183,9,14192,36,2940,495,1338,45,11572,747,11484
+%N A059892 a(n) = |{m : multiplicative order of 10 mod m is equal to n}|.
+%C A059892 The multiplicative order of a mod m, gcd(a,m)=1, is the smallest natural number d for which a^d = 1 (mod m).
+%C A059892 The number of unit fractions 1/k having a decimal expansion of period n and with k coprime to 10. - _T. D. Noe_, May 18 2007
+%H A059892 T. D. Noe, <a href="/A059892/b059892.txt">Table of n, a(n) for n = 1..280</a> (using data from A070528)
+%F A059892 a(n) = Sum_{d|n} mu(n/d)*tau(10^d-1), (mu(n) = Moebius function A008683, tau(n) = number of divisors of n A000005).
+%p A059892 with(numtheory):
+%p A059892 a:= n-> add(mobius(n/d)*tau(10^d-1), d=divisors(n)):
+%p A059892 seq(a(n), n=1..30);  # _Alois P. Heinz_, Oct 12 2012
+%t A059892 f[n_, d_] := MoebiusMu[n/d]*Length[Divisors[10^d - 1]]; a[n_] := Total[(f[n, #] & ) /@ Divisors[n]]; Table[a[n], {n, 1, 56}] (* Jean-François Alcover  Mar 21 2011 *)
+%o A059892 (PARI) j=[]; for(n=1,70,j=concat(j,sumdiv(n,d,moebius(n/d)*numdiv(10^d-1)))); j
+%Y A059892 Cf. A000005, A008683, A053453, A058946, A059499, A059885-A059891.
+%Y A059892 Column k=10 of A212957.
+%K A059892 easy,nonn,nice
+%O A059892 1,1
+%A A059892 _Vladeta Jovovic_, Feb 06 2001
+%E A059892 More terms from Jason Earls (zevi_35711(AT)yahoo.com), Aug 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

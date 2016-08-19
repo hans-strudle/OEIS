@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016402
+Showing 1-1 of 1
+
+%I A016402
+%S A016402 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1,0,
+%T A016402 0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,0,1,0,0,0,1,
+%U A016402 0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,1
+%V A016402 1,1,0,0,0,0,0,-1,-1,0,0,0,0,0,1,1,0,0,0,0,0,-1,-1,0,0,0,0,0,1,0,-1,0,
+%W A016402 0,0,0,-1,0,1,0,0,0,0,1,0,-1,0,0,0,0,-1,0,1,0,0,0,0,1,0,0,1,0,0,0,-1,
+%X A016402 0,0,-1,0,0,0,1,0,0,1,0,0,0,-1,0,0,-1
+%N A016402 406th cyclotomic polynomial.
+%K A016402 sign,fini
+%O A016402 0,1
+%A A016402 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

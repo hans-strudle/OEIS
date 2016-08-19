@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036552
+Showing 1-1 of 1
+
+%I A036552
+%S A036552 1,2,3,6,4,8,5,10,7,14,9,18,11,22,12,24,13,26,15,30,16,32,17,34,19,38,
+%T A036552 20,40,21,42,23,46,25,50,27,54,28,56,29,58,31,62,33,66,35,70,36,72,37,
+%U A036552 74,39,78,41,82,43,86,44,88,45,90,47,94,48,96,49,98,51,102
+%N A036552 List of pairs (n,2n) where n is the least unused number so far.
+%C A036552 A permutation of the natural numbers. Inverse permutation is A065037.
+%H A036552 Reinhard Zumkeller, <a href="/A036552/b036552.txt">Table of n, a(n) for n = 1..10000</a>
+%H A036552 P. Erdős, R. Freud, and N. Hegyvári, <a href="http://renyi.mta.hu/~p_erdos/1983-02.pdf">Arithmetical properties of permutations of integers</a>, Acta Mathematica Hungarica 41:1-2 (1983), pp 169-176.
+%H A036552 <a href="/index/Per#IntegerPermutation">Index entries for sequences that are permutations of the natural numbers</a>
+%t A036552 w = {}; Do[ w = If[ FreeQ[w, k], w = Join[w, {k, 2k}], w], {k, 100}]; w
+%t A036552 (* _Jean-François Alcover_, Nov 04 2011, after Wouter Meeussen *)
+%o A036552 (Haskell)
+%o A036552 import Data.List (delete)
+%o A036552 a036552 n = a036552_list !! (n-1)
+%o A036552 a036552_list = g [1..] where
+%o A036552    g (x:xs) = x : (2*x) : (g $ delete (2*x) xs)
+%o A036552 -- _Reinhard Zumkeller_, Feb 07 2011
+%Y A036552 Alternating merge of A003159 and A036554. Cf. A065037.
+%K A036552 nonn,easy,nice
+%O A036552 1,2
+%A A036552 Tom Verhoeff (Tom.Verhoeff(AT)acm.org)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

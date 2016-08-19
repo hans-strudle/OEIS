@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008817
+Showing 1-1 of 1
+
+%I A008817
+%S A008817 1,2,3,4,5,6,7,8,9,10,13,16,19,22,25,28,31,34,37,40,45,50,55,60,65,70,
+%T A008817 75,80,85,90,97,104,111,118,125,132,139,146,153,160,169,178,187,196,
+%U A008817 205,214,223,232,241,250,261
+%N A008817 Expansion of (1+x^10)/(1-x)^2/(1-x^10).
+%H A008817 <a href="/index/Rec#order_12">Index entries for linear recurrences with constant coefficients</a>, signature (2, -1, 0, 0, 0, 0, 0, 0, 0, 1, -2, 1).
+%F A008817 a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=5, a(5)=6, a(6)=7, a(7)=8, a(8)=9, a(9)=10, a(10)=13, a(11)=16, a(n)=2*a(n-1)-a(n-2)+a(n-10)-2*a(n-11)+ a(n-12). - _Harvey P. Dale_, Jul 31 2014
+%t A008817 CoefficientList[Series[(1+x^10)/(1-x)^2/(1-x^10),{x,0,80}],x] (* or *) LinearRecurrence[{2,-1,0,0,0,0,0,0,0,1,-2,1},{1,2,3,4,5,6,7,8,9,10,13,16},80] (* _Harvey P. Dale_, Jul 31 2014 *)
+%K A008817 nonn
+%O A008817 0,2
+%A A008817 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

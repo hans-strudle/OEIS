@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010908
+Showing 1-1 of 1
+
+%I A010908
+%S A010908 4,21,110,576,3016,15792,82688,432960,2267008,11870208,62153216,
+%T A010908 325438464,1704017920,8922353664,46718050304,244618887168,
+%U A010908 1280841121792,6706571182080,35116062605312,183870090903552
+%N A010908 Pisot sequence E(4,21), a(n)=[ a(n-1)^2/a(n-2)+1/2 ].
+%C A010908 For n>=1, a(n-1) is the number of generalized compositions of n when there are i+3 different types of i, (i=1,2,...). [From _Milan Janjic_, Sep 24 2010]
+%H A010908 D. W. Boyd, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa34/aa3444.pdf">Some integer sequences related to the Pisot sequences</a>, Acta Arithmetica, 34 (1979), 295-305
+%H A010908 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%K A010908 nonn
+%O A010908 0,1
+%A A010908 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

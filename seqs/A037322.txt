@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037322
+Showing 1-1 of 1
+
+%I A037322
+%S A037322 1,2,3,4,45,46,47,66,67,68,69,85,86,87,88,89,145,146,147,148,149,168,
+%T A037322 169,186,187,188,189,225,226,227,265,266,267,268,269,306,307,308,309,
+%U A037322 325,326,327,328,329,370,371,408,409,490,491
+%N A037322 Numbers n such that (sum of base 5 digits of n) = (sum of base 6 digits of n).
+%K A037322 nonn,base
+%O A037322 1,2
+%A A037322 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

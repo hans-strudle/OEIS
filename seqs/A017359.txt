@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017359
+Showing 1-1 of 1
+
+%I A017359
+%S A017359 823543,410338673,10460353203,94931877133,506623120463,1954897493193,
+%T A017359 6060711605323,16048523266853,37725479487783,80798284478113,
+%U A017359 160578147647843,300124211606973,532875860165503
+%N A017359 (10*n+7)^7.
+%C A017359 The penultimate digit of a(n) is period 10, repeat (4,7,0,3,6,9,2,5,8,1) = A131579(n+8) - Paul Curtz, Mar 07 2011.
+%H A017359 Vincenzo Librandi, <a href="/A017359/b017359.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017359 (MAGMA) [(10*n+7)^7: n in [0..20]]; // Vincenzo Librandi, Aug 14 2011
+%K A017359 nonn,easy
+%O A017359 0,1
+%A A017359 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

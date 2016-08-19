@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057231
+Showing 1-1 of 1
+
+%I A057231
+%S A057231 1,2,3,9,27,33,81,194,243,729,1647,2187,2673,6561,15957,19683,59049,
+%T A057231 133407,177147,216513,314523,531441,699597
+%N A057231 Numbers n such that n | 9^n + 8^n + 7^n.
+%t A057231 Select[ Range[ 10^6 ], Mod[ PowerMod[ 9, #, # ] + PowerMod[ 8, #, # ] + PowerMod[ 7, #, # ], # ] == 0 & ]
+%K A057231 nonn
+%O A057231 1,2
+%A A057231 _Robert G. Wilson v_, Sep 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

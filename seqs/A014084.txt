@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014084
+Showing 1-1 of 1
+
+%I A014084
+%S A014084 1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,
+%T A014084 0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014084 0,0,0,0,0,0,0,0,1,0,0,0,0,1
+%V A014084 1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,
+%W A014084 0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014084 0,0,0,0,0,0,0,0,1,0,0,0,0,1
+%N A014084 Inverse of 75th cyclotomic polynomial.
+%H A014084 Vincenzo Librandi, <a href="/A014084/b014084.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014084 <a href="/index/Rec#order_40">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1).
+%p A014084 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014084 CoefficientList[Series[1/Cyclotomic[75, x], {x, 0, 200}], x] (* _Vincenzo Librandi_, Apr 06 2014 *)
+%t A014084 LinearRecurrence[{0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1},{1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, -1, 0, 0, 0, 0},81] (* _Ray Chandler_, Sep 15 2015 *)
+%Y A014084 Cf. similar sequences listed in A240328.
+%K A014084 sign,easy
+%O A014084 0,1
+%A A014084 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

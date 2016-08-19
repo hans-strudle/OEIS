@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036470
+Showing 1-1 of 1
+
+%I A036470
+%S A036470 1,2,3,4,6,7,11,12,16,17,23,26,31,37,43,48,58,64,74,82,95,108
+%N A036470 Number of distinct possible values of d[ x ], the number of divisors, if binary order of x (A029837) <= n.
+%e A036470 If 1<=x<=128, i.e. binary order of x is n=g[ x ]<=7, then d[ x ] takes 12 values {1,2,3,4,5,6,7,8,9,10,12,16}; thus a(7)=a(g[ 7 ])=12. The maximal value (16) occurs as a(7) in A036451.
+%Y A036470 Cf. A000005, A029837, A036471, A036493.
+%K A036470 nonn
+%O A036470 0,2
+%A A036470 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

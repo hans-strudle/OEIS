@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022396
+Showing 1-1 of 1
+
+%I A022396
+%S A022396 1,26,27,53,80,133,213,346,559,905,1464,2369,3833,6202,10035,16237,
+%T A022396 26272,42509,68781,111290,180071,291361,471432,762793,1234225,1997018,
+%U A022396 3231243,5228261,8459504,13687765
+%N A022396 Fibonacci sequence beginning 1, 26.
+%H A022396 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022396 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022396 G.f.: (1+25*x)/(1-x-x^2). - _Philippe Deléham_, Nov 20 2008
+%F A022396 a(n) = 26*A000045(n) + A000045(n-1). [_Paolo P. Lava_, May 19 2015]
+%p A022396 with(numtheory): with(combinat): P:=proc(q) local n;
+%p A022396 for n from 0 to q do print(26*fibonacci(n)+fibonacci(n-1));
+%p A022396 od; end: P(30); # _Paolo P. Lava_, May 19 2015
+%t A022396 a={};b=1;c=26;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022396 nonn
+%O A022396 0,2
+%A A022396 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057326
+Showing 1-1 of 1
+
+%I A057326
+%S A057326 2,19,79,331,439,499,619,829,1069,1279,1531,2089,2131,2179,2311,2791,
+%T A057326 3019,3061,3109,3181,3769,4159,4231,4261,4621,4639,4861,4951,5419,
+%U A057326 5749,6121,6211,6709,6841,7369,7411,7561,7639,8209,8629,9109,9199,9319,9739
+%N A057326 First member of a prime triple in a 2p-1 progression.
+%C A057326 Numbers n such that n remains prime through 2 iterations of function f(x) = 2x - 1.
+%H A057326 <a href="/index/Pri#primes_AP">Index entries for sequences related to primes in arithmetic progressions</a>
+%e A057326 Triplets are (2,3,5),(19,37,73),(79,157,313),(331,661,1321),...
+%t A057326 Select[Prime[Range[1500]],And@@PrimeQ[NestList[2#-1&,#,2]]&] (* _Harvey P. Dale_, Dec 09 2011 *)
+%Y A057326 Cf. (A005382 and A005383), A057327, A057328, A057329, A057330, A005603.
+%K A057326 nonn
+%O A057326 0,1
+%A A057326 _Patrick De Geest_, Aug 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

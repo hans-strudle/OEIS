@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037320
+Showing 1-1 of 1
+
+%I A037320
+%S A037320 1,2,3,28,29,30,31,54,55,100,101,102,103,198,199,248,249,250,251,270,
+%T A037320 271,342,343,441,442,443,488,489,490,491,752,753,754,755,774,775,824,
+%U A037320 825,826,827,873,874,875,920,921,922,923,945
+%N A037320 (sum of base 4 digits of n)=(sum of base 9 digits of n).
+%K A037320 nonn,base
+%O A037320 1,2
+%A A037320 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046241
+Showing 1-1 of 1
+
+%I A046241
+%S A046241 0,1,2,10,38,82,91,730,6562,6643,59050,531442,532171,4782970,43046722,
+%T A046241 43053283,387420490,3486784402,3486843451,31381059610
+%N A046241 Numbers n such that n^3 is palindromic in base 9.
+%C A046241 No more terms through 190000000000. - _Ryan Propper_, Jun 01 2006
+%H A046241 P. De Geest, <a href="http://www.worldofnumbers.com/index.html">World!Of Numbers</a>
+%Y A046241 Cf. A046242.
+%K A046241 nonn,more,base
+%O A046241 1,3
+%A A046241 _Patrick De Geest_, May 15 1998
+%E A046241 More terms from _Ryan Propper_, Jun 01 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

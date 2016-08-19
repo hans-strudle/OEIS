@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016990
+Showing 1-1 of 1
+
+%I A016990
+%S A016990 0,282475249,289254654976,16679880978201,296196766695424,
+%T A016990 2758547353515625,17080198121677824,79792266297612001,
+%U A016990 303305489096114176,984930291881790849,2824752490000000000,7326680472586200649
+%N A016990 (7*n)^10.
+%H A016990 Vincenzo Librandi, <a href="/A016990/b016990.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016990 (MAGMA) [(7*n)^10: n in [0..20]]; // Vincenzo Librandi, Jun 18 2011
+%K A016990 nonn,easy
+%O A016990 0,2
+%A A016990 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

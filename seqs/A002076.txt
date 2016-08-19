@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002076
+Showing 1-1 of 1
+
+%I A002076 M0761 N0288
+%S A002076 1,2,3,6,9,26,53,146,369,1002,2685,7434,20441,57046,159451,448686,
+%T A002076 1266081,3588002,10195277,29058526,83018783,237740670,682196949,
+%U A002076 1961331314,5648590737,16294052602,47071590147,136171497650
+%N A002076 Number of equivalence classes of base-3 necklaces of length n, where necklaces are considered equivalent under both rotations as well as permutations of the symbols.
+%D A002076 N. J. Fine, Classes of periodic sequences, Illinois J. Math., 2 (1958), 285-302.
+%D A002076 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002076 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002076 N. J. A. Sloane, <a href="/A000013/a000013.txt">Maple code for this and related sequences</a>
+%H A002076 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A002076 Reference gives formula.
+%e A002076 E.g. a(2) = 2 as there are two equivalence classes of the 9 strings {00,01,02,10,11,12,20,21,22 }: {00,11,22} form one equivalence class and {01,02,10,12,20,21} form the other. To see that (for example) 01 and 02 are equivalent, rotate 01 to 10 and then subtract 1 mod 3 from each element in 10 to get 02.
+%t A002076 Adn[d_, n_] := Module[{ c, t1, t2}, t2 = 0; For[c = 1, c <= d, c++, If[Mod[d, c] == 0 , t2 = t2 + (x^c/c)*(E^(c*z) - 1)]]; t1 = E^t2; t1 = Series[t1, {z, 0, n+1}]; Coefficient[t1, z, n]*n!]; Pn[n_] := Module[{ d, e, t1}, t1 = 0; For[d = 1, d <= n, d++, If[Mod[n, d] == 0, t1 = t1 + EulerPhi[d]*Adn[d, n/d]/n]]; t1/(1 - x)]; Pnq[n_, q_] := Module[{t1}, t1 = Series[Pn[n], {x, 0, q+1}] ; Coefficient[t1, x, q]]; a[n_] := Pnq[n, 3]; Table[Print[an = a[n]]; an, {n, 1, 28}] (* _Jean-François Alcover_, Oct 04 2013, after N. J. A. Sloane's Maple code *)
+%Y A002076 Cf. A000013, A000048, A002075.
+%K A002076 nonn,easy,nice
+%O A002076 1,2
+%A A002076 _N. J. A. Sloane_.
+%E A002076 Better description and more terms from Mark Weston (mweston(AT)uvic.ca), Oct 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062639
+Showing 1-1 of 1
+
+%I A062639
+%S A062639 19,83,1091,20117
+%N A062639 Numbers n such that 73^n - 72^n is prime.
+%C A062639 Terms greater than 1000 are often only strong pseudoprimes.
+%C A062639 a(5) > 10^5. - _Robert Price_, Apr 21 2014
+%Y A062639 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062639 nonn,hard
+%O A062639 1,1
+%A A062639 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062639 a(4) from _Robert Price_, Apr 21 2014 (Computer run by Adam Marciniec)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

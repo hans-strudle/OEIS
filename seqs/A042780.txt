@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042780
+Showing 1-1 of 1
+
+%I A042780
+%S A042780 30,61,91,607,698,8285,25553,33838,93229,220296,754117,974413,1728530,
+%T A042780 2702943,4431473,7134416,61506801,1237270436,9959670289,11196940725,
+%U A042780 21156611014,32353551739,53510162753
+%N A042780 Numerators of continued fraction convergents to sqrt(921).
+%H A042780 Vincenzo Librandi, <a href="/A042780/b042780.txt">Table of n, a(n) for n = 0..200</a>
+%t A042780 Numerator[Convergents[Sqrt[921], 30]] (* _Vincenzo Librandi_, Dec 04 2013 *)
+%Y A042780 Cf. A042781.
+%K A042780 nonn,cofr,frac,easy
+%O A042780 0,1
+%A A042780 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

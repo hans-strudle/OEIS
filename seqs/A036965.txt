@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036965
+Showing 1-1 of 1
+
+%I A036965
+%S A036965 1,2,3,4,5,6,7,8,9,10,12,15,16,18,20,21,24,25,28,30,32,35,36,40,42,45,
+%T A036965 48,50,54,56,60,63,64,72,75,84,90,96,105,108,112,120,126,128,135,140,
+%U A036965 144,150,160,162,168,180,192,200,210,216,220,224,225,240,252,256,270
+%N A036965 Record values of b(n) mentioned in A005934.
+%D A036965 G. E. Hardy and M. V. Subbarao, Highly powerful numbers, Congress. Numer. 37 (1983), 277-307.
+%H A036965 T. D. Noe, <a href="/A036965/b036965.txt">Table of n, a(n) for n=1..300</a>
+%Y A036965 Cf. A085629
+%K A036965 easy,nonn
+%O A036965 1,2
+%A A036965 _N. J. A. Sloane_.
+%E A036965 Reference gives an extensive table.
+%E A036965 More terms from _Naohiro Nomoto_, Jul 25 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

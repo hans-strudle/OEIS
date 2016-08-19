@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032133
+Showing 1-1 of 1
+
+%I A032133
+%S A032133 2,3,12,61,340,2070,13178,87115,590720,4089214,28766442,205072330,
+%T A032133 1478149486,10754615963,78878136418,582563752101,4328922702536,
+%U A032133 32341244773080,242781826475456,1830377795460438
+%N A032133 Number of series-reduced dyslexic planted planar trees with n leaves of 2 colors.
+%H A032133 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032133 Doubles (index 2+) under "BIK" (reversible, indistinct, unlabeled) transform.
+%K A032133 nonn
+%O A032133 1,1
+%A A032133 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

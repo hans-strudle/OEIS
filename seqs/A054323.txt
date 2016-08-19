@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054323
+Showing 1-1 of 1
+
+%I A054323
+%S A054323 5,140,2016,21120,183040,1397760,9748480,63504384,392232960,
+%T A054323 2321285120,13264486400,73610035200,398475657216,2111580405760,
+%U A054323 10984378859520,56221121904640,283661115064320,1413061420253184,6959221409054720
+%N A054323 Fifth column of Lanczos triangle A053125 (decreasing powers).
+%D A054323 C. Lanczos, Applied Analysis. Prentice-Hall, Englewood Cliffs, NJ, 1956, p. 518.
+%D A054323 Theodore J. Rivlin, Chebyshev polynomials: from approximation theory to algebra and number theory, 2. ed., Wiley, New York, 1990.
+%H A054323 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%F A054323 a(n) =(4^n)*binomial(2*n+5, 4)= A053125(n+4, 4).
+%F A054323 G.f.: (5+40*x+16*x^2)/(1-4*x)^5.
+%Y A054323 Cf. A053125, A054322.
+%Y A054323 Bisection of A080951.
+%K A054323 nonn,easy
+%O A054323 0,1
+%A A054323 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

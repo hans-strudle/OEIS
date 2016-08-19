@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040379
+Showing 1-1 of 1
+
+%I A040379
+%S A040379 19,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,
+%T A040379 1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,
+%U A040379 38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38,1,38
+%N A040379 Continued fraction for sqrt(399).
+%H A040379 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040379 a(n)=(1/2)*[39+37*(-1)^n]-19*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 29 2009]
+%p A040379 with(numtheory): Digits := 300: convert(evalf(sqrt(399)),confrac);
+%K A040379 nonn,cofr,easy
+%O A040379 0,1
+%A A040379 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

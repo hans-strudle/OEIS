@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023007
+Showing 1-1 of 1
+
+%I A023007
+%S A023007 1,8,44,192,726,2464,7704,22528,62337,164560,417140,1020416,2418710,
+%T A023007 5573568,12520744,27484160,59068372,124505880,257770964,524871424,
+%U A023007 1052316364,2079491744,4053978040,7803219968,14840711765,27907041392,51917588800,95608651776
+%N A023007 Number of partitions of n into parts of 8 kinds.
+%C A023007 a(n) is Euler transform of A010731. - _Alois P. Heinz_, Oct 17 2008
+%H A023007 Alois P. Heinz, <a href="/A023007/b023007.txt">Table of n, a(n) for n = 0..1000</a>
+%H A023007 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%H A023007 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023007 a(n) ~ exp(4 * Pi * sqrt(n/3)) / (sqrt(2) * 3^(9/4) * n^(11/4)). - _Vaclav Kotesovec_, Feb 28 2015
+%p A023007 with(numtheory): a:= proc(n) option remember; `if`(n=0, 1, add(add(d*8, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq(a(n), n=0..40); # _Alois P. Heinz_, Oct 17 2008
+%t A023007 nmax=50; CoefficientList[Series[Product[1/(1-x^k)^8,{k,1,nmax}],{x,0,nmax}],x] (* _Vaclav Kotesovec_, Feb 28 2015 *)
+%Y A023007 Cf. 8th column of A144064. - _Alois P. Heinz_, Oct 17 2008
+%K A023007 nonn
+%O A023007 0,2
+%A A023007 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017462
+Showing 1-1 of 1
+
+%I A017462
+%S A017462 36,289,784,1521,2500,3721,5184,6889,8836,11025,13456,16129,19044,
+%T A017462 22201,25600,29241,33124,37249,41616,46225,51076,56169,61504,67081,
+%U A017462 72900,78961,85264,91809,98596,105625
+%N A017462 (11*n+6)^2.
+%H A017462 Vincenzo Librandi, <a href="/A017462/b017462.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017462 (MAGMA)[(11*n+6)^2: n in [0..40]]; // Vincenzo Librandi, Sep 03 2011
+%K A017462 nonn,easy
+%O A017462 0,1
+%A A017462 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

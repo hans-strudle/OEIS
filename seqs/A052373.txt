@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052373
+Showing 1-1 of 1
+
+%I A052373
+%S A052373 1,1,4,10,33,91,298,910,2974,9655,32287,108274,367489,1246921,4229171,
+%T A052373 14246120,47542245,156588539,507914513,1618965097,5064384168,
+%U A052373 15531406244,46670874679,137372332583,396053582039,1118577433593
+%N A052373 Number of nonnegative integer 7x7 matrices with sum of elements equal to n, under row and column permutations.
+%C A052373 a(n)=A007716(n) for n=0...7.
+%Y A052373 Cf. A002724, A053307, A053304.
+%K A052373 nonn
+%O A052373 0,3
+%A A052373 _Vladeta Jovovic_, Mar 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

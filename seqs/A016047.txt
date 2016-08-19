@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016047
+Showing 1-1 of 1
+
+%I A016047
+%S A016047 3,7,31,127,23,8191,131071,524287,47,233,2147483647,223,13367,431,
+%T A016047 2351,6361,179951,2305843009213693951,193707721,228479,439,2687,167,
+%U A016047 618970019642690137449562111,11447,7432339208719,2550183799,162259276829213363391578010288127
+%N A016047 Smallest prime factor of Mersenne numbers.
+%C A016047 Contribution from _Lekraj Beedassy_, Jun 11 2009: (Start)
+%C A016047 "Mersenne numbers", here, implies A001348.
+%C A016047 Compare with sequence A049479, where "Mersenne numbers" is used in the sense of A000225. (End)
+%C A016047 Submitted new b-file withdrawing last three terms previously submitted.  I had, before submitting that b-file, checked that the smallest known factors of incompletely factored Mersenne numbers was less than the known trial factoring limits recorded by Will Edgington in his LowM.txt file which can be found on his Mersenne page, (see link above.)  I have now discovered that I inadvertently omitted the purported a(203) from that check. - _Daran Gill_, Apr 05 2013
+%H A016047 T. D. Noe and Daran Gill, <a href="/A016047/b016047.txt">Table of n, a(n) for n = 1..202</a> (first 95 terms from T. D. Noe)
+%H A016047 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/mersenne/index.html">Mersenne Primes</a>
+%H A016047 Will Edgington <a href="http://www.garlic.com/~wedgingt/mersenne.html">Mersenne Page</a>
+%H A016047 GIMPS, <a href="http://mersenne.org/report_factors/">PrimeNet Known Factors of Mersenne Numbers</a>
+%t A016047 a = {}; Do[If[PrimeQ[n], w = 2^n - 1; c = FactorInteger[w]; b = c[[1]][[1]]; AppendTo[a, b]], {n, 2, 100}]; a - _Artur Jasinski_, Dec 11 2007
+%o A016047 (PARI) forprime(p=2,150,print1(factor(2^p-1)[1,1],", "))
+%Y A016047 Cf. A003260, A046800
+%K A016047 nonn,hard
+%O A016047 1,1
+%A A016047 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

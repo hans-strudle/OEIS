@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032239
+Showing 1-1 of 1
+
+%I A032239
+%S A032239 2,1,0,0,0,1,2,6,14,30,62,127,252,493,968,1860,3600,6902,13286,25446,
+%T A032239 48914,93775,180314,346420,666996,1284318,2477328,4781007,9240012,
+%U A032239 17870709,34604066,67058880,130084990,252545160,490722342
+%N A032239 Number of identity bracelets of n beads of 2 colors.
+%H A032239 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032239 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A032239 <a href="/index/Br#bracelets">Index entries for sequences related to bracelets</a>
+%F A032239 "DHK" (bracelet, identity, unlabeled) transform of 2, 0, 0, 0...
+%t A032239 m = 2; (* asymmetric bracelets of n beads of m colors *) Table[Sum[MoebiusMu[d] (m^(n/d)/n - If[OddQ[n/d], m^((n/d + 1)/2), ((m + 1) m^(n/(2 d))/2)]), {d, Divisors[n]}]/2, {n, 3, 20}] (* _Robert A. Russell_, Mar 18 2013 *)
+%K A032239 nonn
+%O A032239 1,1
+%A A032239 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021160
+Showing 1-1 of 1
+
+%I A021160
+%S A021160 0,0,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,
+%T A021160 1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,
+%U A021160 6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6,4,1,0,2,5,6
+%N A021160 Decimal expansion of 1/156.
+%F A021160 a(n)=(1/30)*{-4*(n mod 6)+11*[(n+1) mod 6]+21*[(n+2) mod 6]+16*[(n+3) mod 6]+[(n+4) mod 6]-9*[(n+5) mod 6]}-2*[C(2*n,n) mod 2]-5*{C[(n+1)^2,n+3] mod 2}, with n>=0 [From _Paolo P. Lava_, Sep 23 2009]
+%t A021160 PadRight[{0,0},100,{2,5,6,4,1,0}] (* or *) Join[{0,0}, RealDigits[ 1/156,10,100][[1]]] (* _Harvey P. Dale_, May 13 2012 *)
+%K A021160 nonn,cons
+%O A021160 0,3
+%A A021160 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

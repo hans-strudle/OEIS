@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058912
+Showing 1-1 of 1
+
+%I A058912
+%S A058912 2,3,19,30,535,1551
+%N A058912 Numbers n such that n^n + n - 1 is prime.
+%C A058912 Except for the first term all terms are of the form 3k or 3k+1. There is no further term up to 2300. - _Farideh Firoozbakht_, Oct 18 2006
+%C A058912 Corresponding values of primes are in A187605. - _Jaroslav Krizek_, Nov 14 2013
+%e A058912 a(2)=3 because 3^3+(3-1)=29.
+%t A058912 Do[ If[ PrimeQ[ n^n + n - 1], Print[n]], {n, 1, 750} ]
+%Y A058912 Cf. A058911 (n^n+1+1).
+%K A058912 nonn
+%O A058912 1,1
+%A A058912 _Felice Russo_, Jan 10 2001
+%E A058912 One more term from _Farideh Firoozbakht_, Oct 18 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

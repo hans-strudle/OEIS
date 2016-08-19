@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030304
+Showing 1-1 of 1
+
+%I A030304
+%S A030304 1,2,1,6,2,1,4,18,6,26,2,5,1,4,15,50,18,6,22,63,26,77,2,17,5,25,1,4,
+%T A030304 11,15,46,130,50,18,55,154,6,22,65,146,63,26,28,163,77,2,13,49,17,5,
+%U A030304 34,69,25,79,1,16,4,68,11,15,41,46,125,322,130,50
+%N A030304 Least k such that base 2 representation of n begins at s(k), where s=A030302.
+%K A030304 nonn
+%O A030304 1,2
+%A A030304 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

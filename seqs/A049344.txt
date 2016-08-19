@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049344
+Showing 1-1 of 1
+
+%I A049344
+%S A049344 0,1,1,2,3,8,14,39,96,297,915,3308,12417,51347,222595,1016975,4799520,
+%T A049344 23301779,115405815
+%N A049344 Prime unoriented alternating links (not necessarily connected knots) with n crossings.
+%H A049344 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Knots, links and tangles</a>
+%Y A049344 Cf. A002864. Row sums of A059739.
+%K A049344 nonn,nice,hard
+%O A049344 1,4
+%A A049344 _N. J. A. Sloane_, Feb 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

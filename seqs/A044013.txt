@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044013
+Showing 1-1 of 1
+
+%I A044013
+%S A044013 23,32,123,132,223,239,329,332,423,432,523,532,623,632,723,732,823,
+%T A044013 832,923,932,1023,1032,1123,1132,1223,1239,1329,1332,1423,1432,1523,
+%U A044013 1532,1623,1632,1723,1732,1823,1832,1923,1932,2023
+%N A044013 Numbers n such that 2 and 3 occur juxtaposed in the base 10 representation of n but not of n+1.
+%K A044013 nonn,base
+%O A044013 1,1
+%A A044013 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

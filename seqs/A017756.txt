@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017756
+Showing 1-1 of 1
+
+%I A017756
+%S A017756 1,93,4371,138415,3321960,64446024,1052618392,14887031544,
+%T A017756 186087894300,2088319702700,21300860967540,199453516332420,
+%U A017756 1728597141547640,13961746143269400,105710363656182600
+%N A017756 Binomial coefficients C(n,92).
+%o A017756 (Sage) [binomial(n, 92) for n in xrange(92,107)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017756 nonn
+%O A017756 92,2
+%A A017756 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

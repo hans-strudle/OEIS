@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026155
+Showing 1-1 of 1
+
+%I A026155
+%S A026155 1,4,16,56,189,616,1967,6182,19205,59124,180726,549276,1661646,
+%T A026155 5007520,15042722,45068836,134727499,401991436,1197519631,3562523314,
+%U A026155 10585937404,31424706800,93206486620,276253350360,818278951035,2422518642516
+%N A026155 T(n,n-4), where T is the array in A026148.
+%Y A026155 First differences of A026329.
+%K A026155 nonn
+%O A026155 4,2
+%A A026155 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

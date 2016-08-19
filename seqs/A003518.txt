@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003518
+Showing 1-1 of 1
+
+%I A003518 M4529
+%S A003518 1,8,44,208,910,3808,15504,62016,245157,961400,3749460,14567280,
+%T A003518 56448210,218349120,843621600,3257112960,12570420330,48507033744,
+%U A003518 187187399448,722477682080,2789279908316,10772391370048,41620603020640
+%N A003518 a(n) = 8*C(2*n+1,n-3)/(n+5).
+%C A003518 a(n-6) is the number of n-th generation nodes in the tree of sequences with unit increase labeled by 7 (cf. Zoran Sunik reference). - _Benoit Cloitre_, Oct 07 2003
+%C A003518 Number of standard tableaux of shape (n+4,n-3). - _Emeric Deutsch_, May 30 2004
+%C A003518 a(n) = A214292(2*n,n-4) for n > 3. - _Reinhard Zumkeller_, Jul 12 2012
+%D A003518 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003518 S. J. Cyvin, J. Brunvoll, E. Brendsdal, B. N. Cyvin and E. K. Lloyd, <a href="http://dx.doi.org/10.1021/ci00026a012">Enumeration of polyene hydrocarbons: a complete mathematical solution</a>, J. Chem. Inf. Comput. Sci., 35 (1995) 743-751.
+%H A003518 S. J. Cyvin, J. Brunvoll, E. Brendsdal, B. N. Cyvin and E. K. Lloyd, <a href="/A002057/a002057.pdf">Enumeration of polyene hydrocarbons: a complete mathematical solution</a>, J. Chem. Inf. Comput. Sci., 35 (1995) 743-751. [Annotated scanned copy]
+%H A003518 H. H. Gudmundsson, <a href="http://puma.dimai.unifi.it/21_2/9_Gudmundsson.pdf">Dyck paths, standard Young tableaux, and pattern avoiding permutations</a>, PU. M. A. Vol. 21 (2010), No. 2, pp. 265-284 (see 4.5 p. 280).
+%H A003518 R. K. Guy, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/GUY/catwalks.html">Catwalks, Sandsteps and Pascal Pyramids</a>, J. Integer Seqs., Vol. 3 (2000), #00.1.6.
+%H A003518 V. E. Hoggatt, Jr. and M. Bicknell, <a href="http://www.fq.math.ca/Scanned/14-5/hoggatt1.pdf">Catalan and related sequences arising from inverses of Pascal's triangle matrices</a>, Fib. Quart., 14 (1976), 395-405.
+%H A003518 L. W. Shapiro, <a href="http://dx.doi.org/10.1016/0012-365X(76)90009-1">A Catalan triangle</a>, Discrete Math. 14 (1976), no. 1, 83-90.
+%H A003518 Zoran Sunik, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v10i1n5">Self describing sequences and the Catalan family tree</a>, Elect. J. Combin., 10 (No. 1, 2003).
+%H A003518 W.-J. Woan, L. Shapiro and D. G. Rogers, <a href="http://www.jstor.org/stable/2974473">The Catalan numbers, the Lebesgue integral and 4^{n-2}</a>, Amer. Math. Monthly, 104 (1997), 926-931.
+%F A003518 G.f.: x^3*C(x)^8, where C(x)=(1-sqrt(1-4*x))/(2*x) is g.f. for the Catalan numbers (A000108). - _Emeric Deutsch_, May 30 2004
+%F A003518 The convolution of A002057 with itself. - _Gerald McGarvey_, Nov 08 2007
+%F A003518 Let A be the Toeplitz matrix of order n defined by: A[i,i-1]=-1, A[i,j]=Catalan(j-i), (i<=j), and A[i,j]=0, otherwise. Then, for n>=7, a(n-4)=(-1)^(n-7)*coeff(charpoly(A,x),x^7). - _Milan Janjic_, Jul 08 2010
+%e A003518 x^3 + 8*x^4 + 44*x^5 + 208*x^6 + 910*x^7 + 3808*x^8 + 15504*x^9 + ...
+%o A003518 (PARI) {a(n) = if( n<3, 0, 8 * binomial(2*n + 1, n-3) / (n + 5)}} /* _Michael Somos_, Mar 14 2011 */
+%o A003518 (PARI) x='x+O('x^50); Vec(x^3*((1-(1-4*x)^(1/2))/(2*x))^8) \\ _Altug Alkan_, Nov 01 2015
+%Y A003518 Cf. A002057.
+%Y A003518 First differences are in A026018.
+%Y A003518 A diagonal of any of the essentially equivalent arrays A009766, A030237, A033184, A059365, A099039, A106566, A130020, A047072.
+%Y A003518 Cf. A000108 A000245 A002057 A000344 A003517 A000588 A003519 A001392.
+%K A003518 nonn,easy
+%O A003518 3,2
+%A A003518 _N. J. A. Sloane_
+%E A003518 More terms from _Jon E. Schoenfield_, May 06 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

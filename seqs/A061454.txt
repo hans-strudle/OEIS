@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061454
+Showing 1-1 of 1
+
+%I A061454
+%S A061454 1,4,109,27908,87212609,4068991513412,3350989478017071325
+%N A061454 a(n) = denominator of the continued fraction [1;2^2,3^3,...n^n].
+%e A061454 a(1) = 1, a(2) = 4 = denominator of 1 + 1/4 = 5/4.
+%Y A061454 Numerators are sequence A061453.
+%K A061454 nonn,easy,frac
+%O A061454 1,2
+%A A061454 _Amarnath Murthy_, May 03 2001
+%E A061454 More terms from Larry Reeves (larryr(AT)acm.org), May 15 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

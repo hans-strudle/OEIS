@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038825
+Showing 1-1 of 1
+
+%I A038825
+%S A038825 9592,8392,8013,7863,7678,7560,7445,7408,7323,7224,7216,7224,7083,
+%T A038825 7105,7029,6972,7014,6931,6957,6904,6872,6857,6849,6791,6770,6808,
+%U A038825 6765,6717,6747,6707,6676,6717,6691,6639,6611,6576,6671,6590,6624,6535,6628,6540
+%N A038825 Number of primes between n*100000 and (n+1)*100000.
+%t A038825 Table[PrimePi[(n+1)*10^5] - PrimePi[n*10^5], {n, 0, 41}]
+%Y A038825 Cf. A038823, A038824, A038826, A038827, A038828, A038829, A038830, A038831, A038832, A080132.
+%K A038825 nonn
+%O A038825 0,1
+%A A038825 _Jeff Burch_
+%E A038825 Edited and extended by _Robert G. Wilson v_, Jan 29 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

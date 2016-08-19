@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011939
+Showing 1-1 of 1
+
+%I A011939
+%S A011939 0,0,0,0,0,4,12,28,57,104,173,273,409,591,828,1129,1506,1969,2532,
+%T A011939 3207,4009,4953,6053,7328,8793,10468,12372,14524,16944,19656,22680,
+%U A011939 26040,29760,33864,38380,43332,48748
+%N A011939 [ n(n-1)(n-2)(n-3)/29 ].
+%K A011939 nonn
+%O A011939 0,6
+%A A011939 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

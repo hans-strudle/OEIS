@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049035
+Showing 1-1 of 1
+
+%I A049035
+%S A049035 5,25,174,1270,10250,86027,738597,6497407
+%N A049035 Number of pairs of twin primes whose smaller element is <= 10^n-th prime.
+%H A049035 <a href="/index/Pri#primepop">Index entries for sequences related to numbers of primes in various ranges</a>
+%e A049035 a(1)=5 since the 10th prime is 29 and the first 5 twin primes are {3,5}, {5,7}, {11,13}, {17,19} and {29,31}.
+%Y A049035 See A093683 for another version.
+%K A049035 nonn
+%O A049035 1,1
+%A A049035 Dennis S. Kluk (mathemagician(AT)ameritech.net)
+%E A049035 More terms from _Labos Elemer_, Oct 13 2000; _Jud McCranie_, Dec 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

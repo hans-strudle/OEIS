@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008342
+Showing 1-1 of 1
+
+%I A008342
+%S A008342 0,1,2,1,2,3,2,1,2,3,4,3,4,3,2,1,2,3,4,3,4,4,4,3,4,4,4,3,4,3,2,1,2,3,
+%T A008342 4,3,4,5,4,3,4,5,5,4,4,4,4,3,4,4,4,4,5,5,4,3,4,5,4,3,4,3,2,1,2,3,4,3,
+%U A008342 4,5,4,3,4,5,4,4,5,5,4,3,4,5,5,4,4,5,6,5,5,5,5,4,4,4,4,3,4,4,4
+%N A008342 Minimal number of shift, add and subtract operations to multiply by n.
+%K A008342 nonn
+%O A008342 1,3
+%A A008342 dg(AT)franklin.com (Doug Grundman)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

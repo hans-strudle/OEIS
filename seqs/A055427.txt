@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055427
+Showing 1-1 of 1
+
+%I A055427
+%S A055427 1,7,29,123,425,1343,4197,12435,33809,84663,198765,444907,959801,
+%T A055427 2005615,4064821,7988867,15221537,28122727,50423741,87851099,
+%U A055427 148962249,246243487,397527813,627798387,971451697,1475103511,2201030157
+%N A055427 Number of points in Z^n of norm <= 3.
+%F A055427 Appears to satisfy a 9-degree polynomial. - _Ralf Stephan_, Mar 07 2004
+%F A055427 Empirical g.f.: (x+1)*(93*x^8+620*x^7-848*x^6+516*x^5-150*x^4+20*x^3+8*x^2-4*x+1) / (x-1)^10. - _Colin Barker_, Jul 07 2013
+%K A055427 nonn
+%O A055427 0,2
+%A A055427 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

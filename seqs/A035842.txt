@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035842
+Showing 1-1 of 1
+
+%I A035842
+%S A035842 1,272,18632,579632,10501172,127485584,1135620536,7907476016,
+%T A035842 45076309166,217815522736,916470530808,3429182092560,11603837100660,
+%U A035842 35995371261360,103501142484360,278406848295312,705951252118284
+%N A035842 Coordination sequence for A_16 lattice.
+%D A035842 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A035842 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035842 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035842 <a href="/index/Rec#order_16">Index entries for linear recurrences with constant coefficients</a>, signature (16, -120, 560, -1820, 4368, -8008, 11440, -12870, 11440, -8008, 4368, -1820, 560, -120, 16, -1).
+%F A035842 Sum_{d=1}^16 C(17, d) C(m/2-1, d-1) C(16-d+m/2, m/2), where norm m is always even
+%K A035842 nonn,easy
+%O A035842 0,2
+%A A035842 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

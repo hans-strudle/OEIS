@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059407
+Showing 1-1 of 1
+
+%I A059407
+%S A059407 11,20,32,48,68,93,124,162,209,266,334,415,513,628,764,922,1108,1325,
+%T A059407 1574,1858,2186,2562,2992,3480,4038,4670,5379,6184,7094,8115,9263,
+%U A059407 10552,11991,13600,15400,17403,19629,22107,24856,27902,31275,35008
+%N A059407 a(n+1) = a(n)-th composite number, with a(1) = 11.
+%t A059407 g[ n_Integer ] := (k = n + PrimePi[ n ] + 1; While[ k - PrimePi[ k ] - 1, k++ ]; k); NestList[ g, 11, 45 ]
+%Y A059407 Cf. A006508.
+%K A059407 nonn
+%O A059407 1,1
+%A A059407 _Robert G. Wilson v_, Jan 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

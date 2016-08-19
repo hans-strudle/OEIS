@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058714
+Showing 1-1 of 1
+
+%I A058714
+%S A058714 1,0,1,2,1,2,3,4,5,6,8,8,10,12,15,18,22,26,29,34,39,48,55,64,76,84,97,
+%T A058714 112,128,146,168,192,217,246,277,316,355,402,454,508,572,640,721,804,
+%U A058714 898,1008,1119,1248,1392,1548,1718,1910,2118,2344,2598,2872,3181
+%N A058714 McKay-Thompson series of class 56A for the Monster group.
+%H A058714 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058714 David A. Madore, <a href="http://mathforum.org/kb/thread.jspa?forumID=253&amp;threadID=1602206&amp;messageID=5836094">Coefficients of Moonshine (McKay-Thompson) series</a>, The Math Forum
+%H A058714 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058714 T56A = 1/q + q + 2*q^2 + q^3 + 2*q^4 + 3*q^5 + 4*q^6 + 5*q^7 + 6*q^8 + 8*q^9 + ...
+%Y A058714 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058714 nonn
+%O A058714 -1,4
+%A A058714 _N. J. A. Sloane_, Nov 27 2000
+%E A058714 More terms from _Michel Marcus_, Feb 24 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

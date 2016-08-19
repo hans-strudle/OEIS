@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015520
+Showing 1-1 of 1
+
+%I A015520
+%S A015520 0,1,2,15,52,269,1110,5179,22568,102105,452458,2028071,9033180,
+%T A015520 40375141,180115262,804357075,3589982032,16027891889,71545586130,
+%U A015520 319397983039,1425797413508,6364972640445,28413716829478
+%N A015520 a(n) = 2*a(n-1) + 11*a(n-2), a(0) = 0, a(1) = 1.
+%H A015520 Vincenzo Librandi, <a href="/A015520/b015520.txt">Table of n, a(n) for n = 0..100</a>
+%H A015520 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (2, 11).
+%F A015520 a(n) = 2*a(n-1) + 11*a(n-2).
+%F A015520 E.g.f.: exp(x)*sinh(2*sqrt(3)*x)/(2*sqrt(3)) - Paul Barry, Nov 20 2003
+%F A015520 a(n)=sum{k=0..n, binomial(n, 2*k+1)*12^k} - Paul Barry, Sep 29 2004
+%F A015520 O.g.f.: -x/(-1+2*x+11*x^2). a(n)=11^n*(A^n-B^n)/(4*sqrt(3)) where A=1/(2*sqrt(3)-1) and B=-1/(2*sqrt(3)+1) . - R. J. Mathar, Apr 29 2008
+%t A015520 Join[{a=0,b=1},Table[c=2*b+11*a;a=b;b=c,{n,100}]] (* _Vladimir Joseph Stephan Orlovsky_, Jan 16 2011*)
+%t A015520 LinearRecurrence[{2,11},{0,1},30] (* _Harvey P. Dale_, Jul 13 2011 *)
+%o A015520 (Sage) [lucas_number1(n,2,-11) for n in xrange(0, 23)] # [From _Zerinvary Lajos_, Apr 22 2009]
+%o A015520 (MAGMA) [ n eq 1 select 0 else n eq 2 select 1 else 2*Self(n-1)+11*Self(n-2): n in [1..30] ]; // Vincenzo Librandi, Aug 23 2011
+%K A015520 nonn,easy
+%O A015520 0,3
+%A A015520 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

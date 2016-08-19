@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062448
+Showing 1-1 of 1
+
+%I A062448
+%S A062448 2,2,7,103,1619,28687,567871,12579617,310248241,8448283757,
+%T A062448 252097800623,8187297276401
+%N A062448 Prime numbers at large subscripts: a(n)=prime(n^n).
+%F A062448 a(n)=A000040[A000312(n)]
+%e A062448 n=10: a(10)=p(10000000000)=252097800623.
+%Y A062448 A000040, A000312, A002110, A000142, A000079, A033844.
+%K A062448 hard,nonn
+%O A062448 0,1
+%A A062448 _Labos Elemer_, Jul 09 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

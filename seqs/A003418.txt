@@ -1,0 +1,87 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003418
+Showing 1-1 of 1
+
+%I A003418 M1590
+%S A003418 1,1,2,6,12,60,60,420,840,2520,2520,27720,27720,360360,360360,360360,
+%T A003418 720720,12252240,12252240,232792560,232792560,232792560,232792560,
+%U A003418 5354228880,5354228880,26771144400,26771144400,80313433200,80313433200
+%N A003418 Least common multiple (or LCM) of {1, 2, ..., n} for n >= 1, a(0) = 1.
+%C A003418 The minimal exponent of the symmetric group S_n (i.e. the least positive integer for which x^a(n)=1 for all x in S_n). - _Franz Vrabec_, Dec 28 2008
+%C A003418 Product over all primes of highest power of prime less than or equal to n. a(0) = 1 by convention.
+%C A003418 Also smallest number such that its set of divisors contains an n-term arithmetic progression. - _Reinhard Zumkeller_, Dec 09 2002
+%C A003418 An assertion equivalent to the Riemann hypothesis is: | log(a(n)) - n | < sqrt(n) * log(n)^2. - _Lekraj Beedassy_, Aug 27 2006. (.. with the constraint n>=3).
+%C A003418 Periods of the sequences b(n)=Sum{i=0..k-1}{(n+i} mod (k-i)} for k=0,1,2,3,... - _Paolo P. Lava_, Feb 18 2009
+%C A003418 Corollary 3 of Farhi gives a simple proof that A003418(n) >= 2^(n-1). The main theorem proved in Farhi is the identity lcm{binom(k,0), binom(k,1), ..., binom(k,k)} = lcm(1, 2, ..., k, k + 1)/(k + 1) for all k in N. - _Jonathan Vos Post_, Jun 15 2009
+%C A003418 a[x]=exp(psi(x)) where psi(x)=log(lcm(1,2,...,floor(x))) is the Chebyshev function of the second kind. - _Stephen Crowley_, Jul 04 2009
+%C A003418 Appears to be row products of the triangle T(n,k) = b(A010766) where b = A130087/A130086. - _Mats Granvik_, Jul 08 2009
+%C A003418 The product of the gamma-function sampled over the set of all rational numbers in the open interval (0, 1) whose denominator in lowest terms is at most n equals ((2*pi)^(1/2)) * a(n)^(-1/2). - _Jonathan Vos Post_, Jul 28 2009
+%C A003418 a(n) = LCM {A188666(n), A188666(n)+1, ... n}. - _Reinhard Zumkeller_, Apr 25 2011
+%C A003418 a(n+1) is the smallest integer such that all polynomials a(n+1)*(1^i+2^i+...+m^i) in m, for i=0,1,...,n, are polynomials with integer coefficients. - _Vladimir Shevelev_, Dec 23 2011
+%C A003418 It appears that A020500(n) = a(n+1)/a(n). - Asher Auel (asher.auel(AT)reed.edu)
+%C A003418 n-th distinct value = A051451(n). - _Matthew Vandermast_, Nov 27 2009
+%C A003418 a(n+1) = least common multiple of n-th row in A213999. - _Reinhard Zumkeller_, Jul 03 2012
+%C A003418 For n>2, (n-1) = sum(k=2..n, exp(A003418(n)*2*i*Pi/k) ). - _Eric Desbiaux_, Sep 13 2012
+%C A003418 First column minus second column of A027446. - _Eric Desbiaux_, Mar 29 2013.
+%C A003418 a(n)>0 is the smallest number k such that n is the n-th divisor of k. - _Michel Lagneau_, Apr 24 2014
+%C A003418 Slowest growing integer >0 in Z converging to 0 in Z^ when considered as profinite integer. _Herbert Eberle_, May 01 2016
+%D A003418 J. M. Borwein and P. B. Borwein, Pi and the AGM, Wiley, 1987, p. 365.
+%D A003418 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003418 T. D. Noe, <a href="/A003418/b003418.txt">Table of n, a(n) for n = 0..500</a>
+%H A003418 Javier Cilleruelo, Juanjo Rué, Paulius Šarka, and Ana Zumalacárregui, <a href="http://arxiv.org/abs/1112.3013">The least common multiple of sets of positive integers</a> arXiv:1112.3013 [math.NT], 2011.
+%H A003418 R. E. Crandall, C. Pomerance, Prime numbers: a computational perspective, <a href="http://www.ams.org/mathscinet-getitem?mr=2156291">MR2156291</a>, page 61
+%H A003418 Bakir Farhi, <a href="http://arxiv.org/abs/0906.2295">An identity involving the least common multiple of binomial coefficients and its application</a>, arXiv:0906.2295.
+%H A003418 Steven Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/ci.pdf">Cilleruelo's LCM Constants</a>, 2013.
+%H A003418 S. Labbé, E. Pelantová, <a href="http://arxiv.org/abs/1409.7510">Palindromic sequences generated from marked morphisms</a>, arXiv preprint arXiv:1409.7510, 2014
+%H A003418 J. C. Lagarias, <a href="http://www.jstor.org/stable/2695444">An elementary problem equivalent to the Riemann hypothesis</a>, Am. Math. Monthly 109 (6) (2002) 534. <a href="http://arxiv.org/abs/math.NT/0008177">arXiv:math.NT/0008177</a>
+%H A003418 Des MacHale and Joseph Manning, <a href="http://dx.doi.org/10.1017/mag.2015.28">Maximal runs of strictly composite integers</a> The Mathematical Gazette, 99, pp 213-219 (2015).
+%H A003418 Greg Martin, <a href="http://arxiv.org/abs/0907.4384">A product of Gamma function values at fractions with the same denominator</a>, arXiv:0907.4384
+%H A003418 E. S. Selmer, <a href="http://www.mscand.dk/article.php?id=2331">On the number of prime divisors of a binomial coefficient</a> Math. Scand. 39 (1976), no. 2, 271-281 (1977).
+%H A003418 J. Sondow, <a href="http://dx.doi.org/10.1090/S0002-9939-03-07081-3">Criteria for irrationality of Euler's constant</a>, Proc. AMS 131 (2003) 3335.
+%H A003418 Rosemary Sullivan and Neil Watling, <a href="http://www.emis.de/journals/INTEGERS/papers/n65/n65.Abstract.html">Independent divisibility pairs on the set of integers from 1 to n</a>, INTEGERS 13 (2013) #A65.
+%H A003418 M. Tchebichef, <a href="http://gallica.bnf.fr/ark:/12148/bpt6k163969/f374">Mémoire sur les nombres premiers</a>, J. Math. Pures Appliquées 17 (1852) 366.
+%H A003418 Helge von Koch, <a href="http://dx.doi.org/10.1007/BF02403071">Sur la distribution des nombres premiers</a>, Acta Math. 24 (1) (1901) 159-182.
+%H A003418 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/LeastCommonMultiple.html">Least Common Multiple</a>, <a href="http://mathworld.wolfram.com/ChebyshevFunctions.html">Chebyshev Functions</a>, <a href="http://mathworld.wolfram.com/MangoldtFunction.html">Mangoldt Function</a>
+%H A003418 D. Williams, <a href="http://www.louisville.edu/~dawill03/crypto/LCM.html">LCM</a>
+%H A003418 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A003418 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%H A003418 <a href="/index/Lc#lcm">Index entries for sequences related to lcm's</a>
+%F A003418 The prime number theorem implies that LCM(1,2,...,n) = exp(n(1+o(1))) as n -> infinity. In other words, log(LCM(1,2,...,n))/n -> 1 as n -> infinity. - _Jonathan Sondow_, Jan 17 2005
+%F A003418 a(n) = product_{p^(floor(log n/log p))}, where p runs through primes not exceeding n (i.e., primes 2 through A007917(n)). - _Lekraj Beedassy_, Jul 27 2004
+%F A003418 Greg Martin showed that a(n) = LCM{1,2,3,..,n} = Prod_{i=Farey(n),0<i<1} 2Pi/Gamma(i)^2. This can be rewritten (for n>1) as a(n) = (1/2)[Prod_{ i=Farey(n),0<i<=1/2} 2sin(iPI)]^2. - _Peter Luschny_, Aug 08 2009
+%F A003418 Recursive formula useful for computations: a(0)=1; a(1)=1; a(n)=lcm(n,a(n-1)). - _Enrique Pérez Herrero_, Jan 08 2011
+%F A003418 From _Enrique Pérez Herrero_, Jun 01 2011: (Start)
+%F A003418 a(n)/a(n-1) = A014963(n).
+%F A003418 if n is a prime power p^k then a(n)=a(p^k)=p*a(n-1), otherwise a(n)=a(n-1).
+%F A003418 a(n) = prod(k=2,n, 1+(A007947(k)-1)*floor(1/A001221(k))), for n>1.  (End)
+%F A003418 a(n) = A079542(n+1, 2) for n>1.
+%F A003418 a(n) = exp(sum_{k=1..n} sum_{d|k} moebius(d)*log(k/d)). - _Peter Luschny_, Sep 01 2012
+%F A003418 a(n) = A025529(n) - A027457(n). - _Eric Desbiaux_, Mar 14 2013
+%F A003418 a(n) = exp(Psi(n)) = 2 * product_{k=2..A002088(n)} (1 - exp(2*Pi*i * A038566(k+1) / A038567(k))), where i is the imaginary unit, and Psi the second Chebyshev's function. - _Eric Desbiaux_, Aug 13 2014
+%e A003418 LCM of {1,2,3,4,5,6} = 60.
+%p A003418 A003418 := n-> lcm(seq(i,i=1..n));
+%p A003418 HalfFarey := proc(n) local a,b,c,d,k,s; a := 0; b := 1; c := 1; d := n; s := NULL; do k := iquo(n + b, d); a, b, c, d := c, d, k*c - a, k*d - b; if 2*a > b then break fi; s := s,(a/b); od: [s] end: LCM := proc(n) local i; (1/2)*mul(2*sin(Pi*i),i=HalfFarey(n))^2 end: # _Peter Luschny_
+%t A003418 Table[LCM @@ Range[n], {n, 1, 40}] (* _Stefan Steinerberger_, Apr 01 2006 *)
+%t A003418 FoldList[ LCM, 1, Range@ 28]
+%t A003418 A003418[0] := 1; A003418[1] := 1; A003418[n_] := A003418[n] = LCM[n,A003418[n-1]]; (* _Enrique Pérez Herrero_, Jan 08 2011 *)
+%t A003418 Table[Product[Prime[i]^Floor[Log[Prime[i], n]], {i, PrimePi[n]}], {n, 0, 28}] (* _Wei Zhou_, Jun 25 2011 *)
+%t A003418 Table[Product[Cyclotomic[n, 1], {n, 2, m}], {m, 0, 28}] (* _Fred Daniel Kline_, May 22 2014 *)
+%o A003418 (PARI) a(n)=local(t); t=n>=0; forprime(p=2,n,t*=p^(log(n)\log(p))); t
+%o A003418 (PARI) a(n)=if(n<1,n==0,1/content(vector(n,k,1/k)))
+%o A003418 (PARI) a(n)=my(v=primes(primepi(n)),k=sqrtint(n),L=log(n+.5));prod(i=1,#v,if(v[i]>k,v[i],v[i]^(L\log(v[i])))) \\ _Charles R Greathouse IV_, Dec 21 2011
+%o A003418 (PARI) a(n)=lcm(vector(n,i,i)) \\ Bill Allombert, Apr 18 2012 [via _Charles R Greathouse IV_]
+%o A003418 (PARI) n=1; lim=100; i=1; j=1; until(n==lim, a=lcm(j,i+1); i++; j=a; n++; print(n" "a);); \\ _Mike Winkler_, Sep 07 2013
+%o A003418 (Sage) [lcm(range(1,n)) for n in xrange(1, 30)] # _Zerinvary Lajos_, Jun 06 2009
+%o A003418 (Haskell)
+%o A003418 a003418 = foldl lcm 1 . enumFromTo 2
+%o A003418 -- _Reinhard Zumkeller_, Apr 04 2012, Apr 25 2011
+%o A003418 (MAGMA) [1] cat [Exponent(SymmetricGroup(n)) : n in [1..28]]; // _Arkadiusz Wesolowski_, Sep 10 2013
+%o A003418 (MAGMA) [Lcm([1..n]): n in [0..30]]; // _Bruno Berselli_, Feb 06 2015
+%Y A003418 Row products of A133233.
+%Y A003418 Cf. A002944, A102910, A093880, A099996, A051173, A014963, A069513, A096179, A179661, A094348, A002182, A002201, A072938, A106037, A002110, A025527, A225558, A225630, A225632, A225640, A225642.
+%K A003418 nonn,easy,core,nice
+%O A003418 0,3
+%A A003418 Roland Anderson (roland.anderson(AT)swipnet.se)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

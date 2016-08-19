@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027951
+Showing 1-1 of 1
+
+%I A027951
+%S A027951 1,8,129,967,4950,20175,70954,226007,672959,1914166,5280288,14275838,
+%T A027951 38102976,100888126,265838881,698489013,1832277574,4802042229,
+%U A027951 12578921258,32941567397,86254888591,225835057708,591265802288,1547982265500,4052706300752
+%N A027951 T(2n,n+3), T given by A027948.
+%H A027951 Colin Barker, <a href="/A027951/b027951.txt">Table of n, a(n) for n = 3..1000</a>
+%H A027951 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (10,-43,105,-161,161,-105,43,-10,1).
+%F A027951 G.f.: x^3*(x^9-10*x^8+43*x^7-105*x^6+162*x^5-148*x^4+84*x^3-92*x^2+2*x-1) / ((x-1)^7*(x^2-3*x+1)). - _Colin Barker_, Nov 19 2014
+%t A027951 CoefficientList[Series[(x^9 - 10 x^8 + 43 x^7 - 105 x^6 + 162 x^5 - 148 x^4 + 84 x^3 - 92 x^2 + 2 x - 1) / ((x - 1)^7 (x^2 - 3 x + 1)), {x, 0, 40}], x] (* _Vincenzo Librandi_, Nov 20 2014 *)
+%o A027951 (PARI) Vec(x^3*(x^9-10*x^8+43*x^7-105*x^6+162*x^5-148*x^4+84*x^3-92*x^2+2*x-1)/((x-1)^7*(x^2-3*x+1)) + O(x^100)) \\ _Colin Barker_, Nov 19 2014
+%K A027951 nonn,easy
+%O A027951 3,2
+%A A027951 _Clark Kimberling_
+%E A027951 More terms from _Colin Barker_, Nov 19 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

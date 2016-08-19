@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a041008
+Showing 1-1 of 1
+
+%I A041008
+%S A041008 2,3,5,8,37,45,82,127,590,717,1307,2024,9403,11427,20830,32257,149858,
+%T A041008 182115,331973,514088,2388325,2902413,5290738,8193151,38063342,
+%U A041008 46256493,84319835,130576328,606625147
+%N A041008 Numerators of continued fraction convergents to sqrt(7).
+%H A041008 Vincenzo Librandi, <a href="/A041008/b041008.txt">Table of n, a(n) for n = 0..200</a>
+%H A041008 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,16,0,0,0,-1).
+%F A041008 G.f.: (2+3*x+5*x^2+8*x^3+5*x^4-3*x^5+2*x^6-x^7)/(1-16*x^4+x^8)
+%t A041008 Table[Numerator[FromContinuedFraction[ContinuedFraction[Sqrt[7],n]]],{n,1,50}] (* _Vladimir Joseph Stephan Orlovsky_, Mar 16 2011*)
+%t A041008 Numerator[Convergents[Sqrt[7], 30]] (* _Vincenzo Librandi_, Oct 28 2013 *)
+%Y A041008 Cf. A010465, A041009.
+%K A041008 nonn,cofr,frac,easy
+%O A041008 0,1
+%A A041008 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023415
+Showing 1-1 of 1
+
+%I A023415
+%S A023415 8,8,8,9,8,9,9,8,9,8,9,8,8,9,9,8,9,8,9,9,9,8,8,8,8,9,8,8,8,8,9,9,9,9,
+%T A023415 8,9,8,8,9,9,8,8,9,9,8,9,8,8,9,8,9,8,9,8,8,8,8,8,8,9,9,9,9,8,9,8,8,8,
+%U A023415 9,9,8,8,9,8,8,9,9,8,8,9,9,9,8,9,9,9,9,9,9,8,8,9,8,8,9,9,9,9,9,9,8,8,8,9,9,8,8,8
+%N A023415 If any power of 2 ends with k 8's and 9's, they must be the first k elements of this sequence in reverse order.
+%C A023415 Upper limit of backward value of 2^n and n!. - _Simon Plouffe_, Mar 23 2009.
+%K A023415 nonn
+%O A023415 0,1
+%A A023415 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

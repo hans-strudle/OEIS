@@ -1,0 +1,80 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003849
+Showing 1-1 of 1
+
+%I A003849
+%S A003849 0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,
+%T A003849 0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,
+%U A003849 0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1
+%N A003849 The infinite Fibonacci word (start with 0, apply 0->01, 1->0, take limit).
+%C A003849 A Sturmian word.
+%C A003849 Define strings S(0)=0, S(1)=01, S(n)=S(n-1)S(n-2); iterate; sequence is S(infinity).
+%C A003849 The 0's occur at positions in A022342 (i.e., A000201 - 1), the 1's at positions in A003622.
+%C A003849 Replace each run (1;1) with (1;0) in the infinite Fibonacci word A005614 (and add 0 as prefix) A005614 begins : 1,0,1,1,0,1,0,1,1,0,1,1,... changing runs (1,1) with (1,0) produces 1,0,0,1,0,1,0,0,1,0,0,1,... - _Benoit Cloitre_, Nov 10 2003
+%C A003849 Characteristic function of A003622. - _Philippe Deléham_, May 03 2004
+%C A003849 The fraction of 0's in the first n terms approaches 1/phi (see for example Allouche and Shallit). - _N. J. A. Sloane_, Sep 24 2007
+%C A003849 The limiting mean and variance of the first n terms are both equal to 2-phi. - _Clark Kimberling_, Mar 12 2014
+%D A003849 J.-P. Allouche and J. Shallit, Automatic Sequences, Cambridge Univ. Press, 2003.
+%D A003849 J. C. Lagarias, Number Theory and Dynamical Systems, pp. 35-72 of S. A. Burr, ed., The Unreasonable Effectiveness of Number Theory, Proc. Sympos. Appl. Math., 46 (1992). Amer. Math. Soc. - see p. 64.
+%D A003849 G. Melancon, Factorizing infinite words using Maple, MapleTech journal, vol. 4, no. 1, 1997, pp. 34-42, esp. p. 36.
+%D A003849 Michel Rigo, Formal Languages, Automata and Numeration Systems, 2 vols., Wiley, 2014. Mentions this sequence - see "List of Sequences" in Vol. 2.
+%H A003849 N. J. A. Sloane, <a href="/A003849/b003849.txt">Table of n, a(n) for n = 0..10945</a>
+%H A003849 A. G. M. Ahmed, <a href="http://archive.bridgesmathart.org/2013/bridges2013-263.pdf">AA Weaving</a>, in Proceedings of Bridges 2013: Mathematics, Music, Art, Architecture, Culture.
+%H A003849 J.-P. Allouche and M. Mendes France, <a href="http://www.math.jussieu.fr/~allouche/">Automata and Automatic Sequences.</a>
+%H A003849 P. Arnoux and E. Harriss, <a href="http://www.ams.org/notices/201407/rnoti-p768.pdf">What is a Rauzy Fractal?</a>, Notices Amer. Math. Soc., 61 (No. 7, 2014), 768-770, also p. 704 and front cover.
+%H A003849 Jean Berstel, <a href="http://www-igm.univ-mlv.fr/~berstel/">Home Page</a>
+%H A003849 J. Berstel and J. Karhumaki, <a href="http://www-igm.univ-mlv.fr/~berstel/Articles/2003TutorialCoWdec03.pdf">Combinatorics on words - a tutorial</a>, Bull. EATCS, #79 (2003), pp. 178-228.
+%H A003849 Fabien Durand, Julien Leroy, and Gwenaël Richomme, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Durand/durand2.html">Do the Properties of an S-adic Representation Determine Factor Complexity?</a>, Journal of Integer Sequences, Vol. 16 (2013), #13.2.6.
+%H A003849 J. Endrullis, D. Hendriks and J. W. Klop, <a href="http://www.cs.vu.nl/~diem/publication/pdf/degrees.pdf">Degrees of streams</a>.
+%H A003849 S. Ferenczi, <a href="http://dx.doi.org/10.1016/S0012-365X(98)00400-2">Complexity of sequences and dynamical systems</a>, Discrete Math., 206 (1999), 145-154.
+%H A003849 J. Grytczuk, <a href="http://dx.doi.org/10.1016/0012-365X(95)00297-A">Infinite semi-similar words</a>, Discrete Math. 161 (1996), 133-141.
+%H A003849 A. Hof, O. Knill and B. Simon, <a href="http://projecteuclid.org/euclid.cmp/1104275098">Singular continuous spectrum for palindromic Schroedinger operators</a>, Commun. Math. Phys. 174 (1995), 149-159.
+%H A003849 C. Kimberling, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/goldentext.html">A Self-Generating Set and the Golden Mean</a>, J. Integer Sequences, 3 (2000), #00.2.8.
+%H A003849 M. Lothaire, <a href="http://www-igm.univ-mlv.fr/~berstel/Lothaire/">Algebraic Combinatorics on Words</a>, Cambridge, 2002, see p. 41, etc.
+%H A003849 G. Melancon, <a href="http://dx.doi.org/10.1016/S0012-365X(99)00123-5">Lyndon factorization of sturmian words</a>, Discr. Math., 210 (2000), 137-149.
+%H A003849 F. Mignosi, A. Restivo, M. Sciortino, <a href="http://dx.doi.org/10.1016/S0304-3975(00)00436-9">Words and forbidden factors</a>, WORDS (Rouen, 1999). Theoret. Comput. Sci. 273 (2002), no. 1-2, 99--117. MR1872445 (2002m:68096) - From _N. J. A. Sloane_, Jul 10 2012
+%H A003849 Kerry Mitchell, <a href="http://kerrymitchellart.com/articles/Spirolateral-Type_Images_from_Integer_Sequences.pdf">Spirolateral-Type Images from Integer Sequences</a>, 2013
+%H A003849 Kerry Mitchell, <a href="/A003849/a003849.jpg">Spirolateral image for this sequence</a> [taken, with permission, from the Spirolateral-Type Images from Integer Sequences article]
+%H A003849 T. D. Noe, <a href="/A003849/a003849.txt">The first 1652 subwords, including leading zeros.</a>
+%H A003849 Giuseppe Pirillo, <a href="http://dx.doi.org/10.1016/S0012-365X(94)00236-C">Fibonacci numbers and words</a>, Discrete Math. 173 (1997), no. 1-3, 197--207. MR1468849 (98g:68135)
+%H A003849 J. L. Ramírez, G. N. Rubiano, <a href="http://www.mathematica-journal.com/2014/02/properties-and-generalizations-of-the-fibonacci-word-fractal/">Properties and Generalizations of the Fibonacci Word Fractal</a>, The Mathematica Journal, Vol. 16 (2014).
+%H A003849 José L. Ramírez, Gustavo N. Rubiano, and Rodrigo de Castro, <a href="http://arxiv.org/abs/1212.1368">A Generalization of the Fibonacci Word Fractal and the Fibonacci Snowflake</a>, arXiv preprint arXiv:1212.1368 [cs.DM], 2012.
+%H A003849 M. Rigo, P. Salimov, and E. Vandomme, <a href="http://www.emis.de/journals/JIS/VOL16/Rigo/rigo3.html">Some Properties of Abelian Return Words</a>, Journal of Integer Sequences, Vol. 16 (2013), #13.2.5.
+%H A003849 Luke Schaeffer, Jeffrey Shallit, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v23i1p25">Closed, Palindromic, Rich, Privileged, Trapezoidal, and Balanced Words in Automatic Sequences</a>, Electronic Journal of Combinatorics 23(1) (2016), #P1.25.
+%H A003849 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/GoldenRatio.html">Golden Ratio</a>
+%H A003849 <a href="/index/Ch#char_fns">Index entries for characteristic functions</a>
+%F A003849 a(n) = floor((n+2)*r) - floor((n+1)*r) where r=phi/(1+2*phi) and phi is the Golden Ratio. - _Benoit Cloitre_, Nov 10 2003
+%F A003849 a(n) = A003714(n) mod 2 = A014417(n) mod 2. - _Philippe Deléham_, Jan 04 2004
+%e A003849 The word is 010010100100101001010010010100...
+%e A003849 Over the alphabet {a,b} this is a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, a, b, a, b, a, a, b, a, a, b, a, b, a, ...
+%p A003849 z := proc(m) option remember; if m=0 then [0] elif m=1 then [0,1] else [op(z(m-1)),op(z(m-2))]; fi; end; z(12);
+%p A003849 M:=19; S[0]:=`0`; S[1]:=`01`; for n from 2 to M do S[n]:=cat(S[n-1], S[n-2]); od:
+%p A003849 t0:=S[M]: l:=length(t0); for i from 1 to l do lprint(i-1,substring(t0,i..i)); od: # _N. J. A. Sloane_, Nov 01 2006
+%t A003849 Nest[ Flatten[ # /. {0 -> {0, 1}, 1 -> {0}}] &, {0}, 10] (* _Robert G. Wilson v_, Mar 05 2005 *)
+%t A003849 Flatten[Nest[{#, #[[1]]} &, {0, 1}, 9]] (* _IWABUCHI Yu(u)ki_, Oct 23 2013 *)
+%o A003849 (MAGMA) t1:=[ n le 2 select ["0","0,1"][n] else Self(n-1) cat "," cat Self(n-2) : n in [1..12]]; t1[12];
+%o A003849 (Haskell)
+%o A003849 a003849 n = a003849_list !! n
+%o A003849 a003849_list = tail $ concat fws where
+%o A003849    fws = [1] : [0] : (zipWith (++) fws $ tail fws)
+%o A003849 -- _Reinhard Zumkeller_, Nov 01 2013, Apr 07 2012
+%o A003849 (PARI) a(n)=my(k=2);while(fibonacci(k)<=n,k++);while(n>1,while(fibonacci(k--)>n,); n-=fibonacci(k)); n==1 \\ _Charles R Greathouse IV_, Feb 03 2014
+%o A003849 (Python)
+%o A003849 def fib(n):
+%o A003849 ....a,b='1','0'
+%o A003849 ....if n==1: return a
+%o A003849 ....elif n==2: return b
+%o A003849 ....else:
+%o A003849 ........for i in range(n-2):
+%o A003849 ........a,b=b,b+a
+%o A003849 ....return(b) # _Robert FERREOL_, Apr 15 2016
+%Y A003849 There are several versions of this sequence in the OEIS. This one and A003842 are probably the most important. See also A008352, A076662.
+%Y A003849 Binary complement of A005614. Cf. A014675, A036299, A003714, A014417, A096268, A096270, A133235, A182028, A213975.
+%Y A003849 Positions of 1's gives A003622.
+%K A003849 nonn,easy,nice
+%O A003849 0,1
+%A A003849 _N. J. A. Sloane_
+%E A003849 Revised by _N. J. A. Sloane_, Jul 03 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

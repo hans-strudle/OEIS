@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062586
+Showing 1-1 of 1
+
+%I A062586
+%S A062586 5,17,109,1979,6899,7331,18661,79621,81649
+%N A062586 Numbers n such that 20^n - 19^n is prime.
+%C A062586 Terms n > 1000 may correspond to (unproven) strong pseudoprimes 20^n - 19^n.
+%H A062586 <a href="http://www.primenumbers.net/prptop/searchform.php?form=20%5Ep-19%5Ep">Top probable primes of the form 20^p-19^p</a>
+%Y A062586 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062586 nonn,hard
+%O A062586 1,1
+%A A062586 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062586 Three more terms (18661, 79621 and 81649) found by Jean-Louis Charton in February and March 2011 corresponding to probable primes with 24279, 103590 and 106228 digits.
+%E A062586 Edited by _M. F. Hasler_, Sep 16 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014120
+Showing 1-1 of 1
+
+%I A014120
+%S A014120 0,10,25,39,77,679,6788,68889,2677889,26888999,3778888999,
+%T A014120 267777777889999,77777777788888888888899999,
+%U A014120 37777777777777777777777777778888889999999999999999999
+%N A014120 Smallest number of persistence n over product-of-nonzero-digits function.
+%H A014120 Ray Chandler, <a href="/A014120/b014120.txt">Table of n, a(n) for n=0..14</a>
+%H A014120 N. J. A. Sloane, <a href="http://neilsloane.com/doc/persistence.html">The persistence of a number</a>, J. Recreational Math., 6 (1973), 97-98.
+%Y A014120 Cf. A003001.
+%K A014120 nonn,base,nice
+%O A014120 0,2
+%A A014120 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

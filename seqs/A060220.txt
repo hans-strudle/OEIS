@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060220
+Showing 1-1 of 1
+
+%I A060220
+%S A060220 17,136,1632,20808,283968,4022064,58619808,871959240,13176430176,
+%T A060220 201599248032,3115626937056,48551851084080,761890617915840,
+%U A060220 12026987582075856,190828203433892736
+%N A060220 Number of orbits of length n under the full 17-shift (whose periodic points are counted by A001026).
+%D A060220 Yash Puri and Thomas Ward, A dynamical property unique to the Lucas sequence, Fibonacci Quarterly, Volume 39, Number 5 (November 2001), pp. 398-402.
+%H A060220 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%H A060220 T. Ward, <a href="http://www.mth.uea.ac.uk/~h720/research/files/integersequences.html">Exactly realizable sequences</a>
+%F A060220 If b(n) is the (n+1)-th term of A001026, then the n-th term is a(n) = (1/n)* Sum_{d|n}\mu(d)b(n/d)
+%e A060220 a(2)=136 since there are 289 points of period 2 in the full 17-shift and 17 fixed points, so there must be (289-17)/2 = 136 orbits of length 2.
+%Y A060220 Cf. A001026.
+%K A060220 easy,nonn
+%O A060220 1,1
+%A A060220 Thomas Ward (t.ward(AT)uea.ac.uk), Mar 21 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

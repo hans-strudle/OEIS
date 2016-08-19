@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021442
+Showing 1-1 of 1
+
+%I A021442
+%S A021442 0,0,2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,
+%T A021442 2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,2,2,
+%U A021442 8,3,1,0,5,0,2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,2,2,8,3,1,0,5,0,2
+%N A021442 Decimal expansion of 1/438.
+%F A021442 a(n)=(1/32)*{-17*(n mod 8)+7*[(n+1) mod 8]+11*[(n+2) mod 8]+23*[(n+3) mod 8]-21*[(n+4) mod 8]+3*[(n+5) mod 8]-5*[(n+6) mod 8]+23*[(n+7) mod 8]}-5*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Nov 11 2009]
+%K A021442 nonn,cons
+%O A021442 0,3
+%A A021442 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

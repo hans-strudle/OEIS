@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023883
+Showing 1-1 of 1
+
+%I A023883
+%S A023883 1,6,14,15,20,21,22,27,30,33,35,38,39,42,44,45,46,49,51,54,55,56,57,
+%T A023883 60,62,65,66,68,69,70,77,78,85,86,87,91,92,93,94,95,96,99,102,105,110,
+%U A023883 111,114,115,116,118,119,123,125,126,129,132,133,134,135,138
+%N A023883 Not a prime and average of divisors is an integer.
+%C A023883 Composite numbers n such that sigma(n)==0 mod tau(n). [_Paolo P. Lava_, Jun 11 2013]
+%H A023883 Paolo P. Lava, <a href="/A023883/b023883.txt">Table of n, a(n) for n = 1..1000</a>
+%p A023883 with(numtheory); ListA023883:=proc(q) local n;
+%p A023883 for n from 1 to q do if not isprime(n) then  if  sigma(n) mod tau(n)=0 then
+%p A023883 print(n); fi; fi; od;  end: ListA023883(10^6); # _Paolo P. Lava_, Jun 11 2013
+%Y A023883 A003601.
+%K A023883 nonn
+%O A023883 1,2
+%A A023883 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

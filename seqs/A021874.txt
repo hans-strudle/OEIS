@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021874
+Showing 1-1 of 1
+
+%I A021874
+%S A021874 1,22,325,4070,46781,511742,5430405,56516790,580744461,5916830062,
+%T A021874 59935396885,604729235110,6084941584541,61113049957982,
+%U A021874 612976296281765,6142684971387030,61517309500479021,615806336417543502
+%N A021874 Expansion of 1/((1-x)(1-4x)(1-7x)(1-10x)).
+%H A021874 Vincenzo Librandi, <a href="/A021874/b021874.txt">Table of n, a(n) for n = 0..200</a>
+%F A021874 a(n) = (10^(n+3) - 3*7^(n+3) + 3*4^(n+3) -1)/162. [_Yahia Kahloune_, Jul 05 2013]
+%t A021874 CoefficientList[Series[1 / ((1 - x) (1 - 4 x) (1 - 7 x) (1 - 10 x)), {x, 0, 20}], x] (* _Vincenzo Librandi_, Jul 11 2013 *)
+%K A021874 nonn,easy
+%O A021874 0,2
+%A A021874 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

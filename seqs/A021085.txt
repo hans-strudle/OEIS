@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021085
+Showing 1-1 of 1
+
+%I A021085
+%S A021085 0,1,2,3,4,5,6,7,9,0,1,2,3,4,5,6,7,9,0,1,2,3,4,5,6,7,9,0,1,2,3,4,5,6,
+%T A021085 7,9,0,1,2,3,4,5,6,7,9,0,1,2,3,4,5,6,7,9,0,1,2,3,4,5,6,7,9,0,1,2,3,4,
+%U A021085 5,6,7,9,0,1,2,3,4,5,6,7,9,0,1,2,3,4,5,6,7,9,0,1,2,3,4,5,6,7,9
+%N A021085 Decimal expansion of 1/81.
+%C A021085 The decimal expansion of Sum_{n>=1} floor(n * tanh(Pi))/10^n is the same as that of 1/81 for the first 268 decimal places [Borwein et al.]
+%C A021085 Sqrt(999999999999999999) = 9*sqrt(12345679012345679). - _Ryohei Miyadera_, Ken Hirotomi, Hiroyuki Ozaki and Atushi Tanaka, Jan 16 2006
+%C A021085 Equals Sum_{k = 1 to infinity} (1/2^k)*(1/5^k)*k. - _Eric Desbiaux_, Mar 11 2009
+%D A021085 J. Borwein, D. Bailey and R. Girgensohn, Experimentation in Mathematics: Computational Paths to Discovery, Peters, Boston, 2004. See Sect. 1.4.
+%K A021085 nonn,cons
+%O A021085 0,3
+%A A021085 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

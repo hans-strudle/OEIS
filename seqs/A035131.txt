@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035131
+Showing 1-1 of 1
+
+%I A035131
+%S A035131 1,8,512,95443993
+%N A035131 Cubes that when digits rotated left once remain cubic.
+%C A035131 Those resulting in leading zeros excluded.
+%H A035131 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html">Cubic Number</a>
+%e A035131 E.g. 8^3 = 512 and 125 = 5^3.
+%Y A035131 Cf. A035129, A035127.
+%K A035131 nonn,base,hard
+%O A035131 1,2
+%A A035131 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

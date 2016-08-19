@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016287
+Showing 1-1 of 1
+
+%I A016287
+%S A016287 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A016287 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A016287 0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%V A016287 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A016287 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A016287 0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1
+%N A016287 Inverse of 2278th cyclotomic polynomial.
+%p A016287 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016287 sign
+%O A016287 0,1
+%A A016287 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

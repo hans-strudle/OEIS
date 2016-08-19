@@ -1,0 +1,1 @@
+{"formerly":"","seq":"11,26,121,558,1178,784,567,397,1166,845,31965,425752,647962","description":"Third diagonal of A027516.","formula":"Numerators of sequence a[ n, n-2 ] in (a[ i, j ])^2 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i","keyword":"nonn","offset":"3,1","author":"_Olivier Gérard_"}

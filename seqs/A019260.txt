@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019260
+Showing 1-1 of 1
+
+%I A019260
+%S A019260 1,1,1,0,0,8,24,90,236,490,1098,2492,5786,14710,38256,98480,253500,
+%T A019260 648418
+%N A019260 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite VSV = VPI-7 Na26H6[ Zn16Si56O144 ] . 44 H2O.
+%D A019260 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019260 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019260 nonn
+%O A019260 3,6
+%A A019260 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

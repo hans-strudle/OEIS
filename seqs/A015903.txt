@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015903
+Showing 1-1 of 1
+
+%I A015903
+%S A015903 1,11,12,22,44,66,132,148,276,671,814,1068,2388,3498,24564,29234,
+%T A015903 54924,60126,80476,80526,85866,212532,234652,252967,307396,368668,
+%U A015903 700404,885786,1121044,1350812,1366476,1631004,1697116,1698906
+%N A015903 Numbers n such that n | 11^n + 11.
+%K A015903 nonn
+%O A015903 1,2
+%A A015903 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

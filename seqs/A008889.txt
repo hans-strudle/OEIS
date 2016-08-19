@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008889
+Showing 1-1 of 1
+
+%I A008889
+%S A008889 150,222,234,312,528,960,2088,3762,5598,6570,10746,13254,13830,19434,
+%T A008889 20886,21606,25098,26742,26754,40446,63234,77406,110754,171486,253458,
+%U A008889 295740,647748,1077612,1467588
+%N A008889 Aliquot sequence starting at 150.
+%C A008889 Start at 150, and repeatedly apply the map x -> Sum of divisors of x excluding x.
+%D A008889 R. K. Guy, Unsolved Problems in Number Theory, B6.
+%H A008889 Ivan Panchenko, <a href="/A008889/b008889.txt">Table of n, a(n) for n = 0..177</a>
+%H A008889 Christophe CLAVIER, <a href="http://christophe.clavier.free.fr/Aliquot/site/Aliquot.html">Aliquot Sequences</a>
+%H A008889 Factordb, <a href="http://www.factordb.com/sequences.php?se=1&amp;aq=150&amp;action=all&amp;fr=0&amp;to=100">Whole sequence starting with 150</a>
+%F A008889 a(n)=A008888(n+1). [From _R. J. Mathar_, Oct 28 2008]
+%p A008889 f := proc(n) option remember; if n = 0 then 150; else sigma(f(n-1))-f(n-1); fi; end:
+%Y A008889 Cf. A008888, A008892, A080907.
+%K A008889 nonn,fini
+%O A008889 0,1
+%A A008889 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

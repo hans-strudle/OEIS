@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007920
+Showing 1-1 of 1
+
+%I A007920
+%S A007920 2,1,0,0,1,0,1,0,3,2,1,0,1,0,3,2,1,0,1,0,3,2,1,0,5,4,3,2,1,0,1,0,5,4,
+%T A007920 3,2,1,0,3,2,1,0,1,0,3,2,1,0,5,4,3,2,1,0,5,4,3,2,1,0,1,0,5,4,3,2,1,0,
+%U A007920 3,2,1,0,1,0,5,4,3,2,1,0,3,2,1,0,5,4,3,2,1,0,7,6,5,4,3,2,1,0,3,2,1,0,1,0,3,2,1,0,1
+%N A007920 Smallest number k such that n+k is prime.
+%C A007920 Smarandache complementary prime function.
+%C A007920 a(n) = A007918(n) - n.
+%D A007920 M. Popescu, V. Seleacu, About the Smarandache Complementary Prime Function, Smarandache Notions Journal, Vol. 7, No. 1-2-3, 1996, 12-22.
+%H A007920 T. D. Noe, <a href="/A007920/b007920.txt">Table of n, a(n) for n = 0..10000</a>
+%H A007920 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/OPNS.pdf">Only Problems, Not Solutions!</a>.
+%e A007920 a(1)=1 because 1+1=2=prime
+%t A007920 snk[n_]:=If[PrimeQ[n],0,NextPrime[n]-n]; Array[snk,110,0] (* _Harvey P. Dale_, Sep 19 2011 *)
+%o A007920 (PARI) a(n)=nextprime(n)-n
+%Y A007920 Cf. A064722.
+%K A007920 nonn,easy
+%O A007920 0,1
+%A A007920 R. Muller
+%E A007920 More terms from Joanna S. Bartlett (s1117611(AT)cedarville.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

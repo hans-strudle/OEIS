@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044936
+Showing 1-1 of 1
+
+%I A044936
+%S A044936 0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,1,0,1,1,1,
+%T A044936 0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,1,1,0,1,1,0,0,0,1,
+%U A044936 0,0,0,0,0,1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1
+%N A044936 Number of runs of even length in base 5 representation of n.
+%K A044936 nonn,base
+%O A044936 1,1
+%A A044936 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

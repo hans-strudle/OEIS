@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048243
+Showing 1-1 of 1
+
+%I A048243
+%S A048243 0,0,0,0,0,2,0,0,4,10,0,8,8,16,8,16,0,16,0,16,32,64,0,32,80,128,224,
+%T A048243 320,256,352,64,128,256,512,256,640,640,1024,512,1280,512,1024,512,
+%U A048243 1024,2560,3328,1280,2432,2432,3584,3584,5120,2048,2816,2048,4096,8192
+%N A048243 Number of non-unitary divisors of C(n,[ n/2 ]) = A000005[ n ] - A034444[ n ].
+%e A048243 At n=10, he C(10,5) = 252=4*9*7 has 18 divisors, 8 are unitary and the residual 10 are non-unitary; thus a[ 10 ]=10=18-8.
+%Y A048243 A048105 applied to terms of A001405.
+%K A048243 nonn
+%O A048243 1,6
+%A A048243 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

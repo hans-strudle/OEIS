@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054241
+Showing 1-1 of 1
+
+%I A054241
+%S A054241 1,1,1,2,2,3,4,7,2,4,3,7,8,15,15,28,5,7,12,19,11,15,30,45,26,43,49,81,
+%T A054241 69,107,130,203,5,12,7,19,26,49,43,81,11,30,15,45,69,130,107,203,86,
+%U A054241 143,143,236,231,362,381,595,231,381,362,595,616,961,961,1492,22,30,67
+%N A054241 Number of partitions of bit-interleaved numbers; partitions of n in base sqrt(2).
+%C A054241 Rearrangement of A054225 via A054238. Also can be directly derived from A054240 (bit-interleaved addition table).
+%e A054241 a(6)=4 thus: {6, 4+2, 3+1, 2+1+1} all in base sqrt(2)
+%Y A054241 A054225 A054238 A054240.
+%K A054241 easy,nonn
+%O A054241 0,4
+%A A054241 _Marc LeBrun_, Feb 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

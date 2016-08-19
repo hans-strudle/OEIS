@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051695
+Showing 1-1 of 1
+
+%I A051695
+%S A051695 0,0,0,0,0,90,630,3780,18900,94500,457380,3825360,31505760,312432120,
+%T A051695 2704501800,22984481520,179863997040,1531709328240
+%N A051695 Number of degree-n even permutations of order exactly 4.
+%F A051695 a(n)=(A001473(n)+A051685(n))/2
+%Y A051695 Cf. A048099.
+%K A051695 easy,nonn
+%O A051695 1,6
+%A A051695 _Vladeta Jovovic_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

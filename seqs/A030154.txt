@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030154
+Showing 1-1 of 1
+
+%I A030154
+%S A030154 0,1,4,9,16,25,36,49,81,256,529,729,1296,4761,5476,6561,9216,16129,
+%T A030154 32761,34969,87616,763876,5414929,5612161,7414729,7436529,7634169,
+%U A030154 14561856,21058921,34503876,43072969,43414921,45252529,69272329
+%N A030154 Squares such that in n and sqrt(n) the parity of digits alternates.
+%K A030154 nonn,base
+%O A030154 0,3
+%A A030154 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

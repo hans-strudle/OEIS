@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022856
+Showing 1-1 of 1
+
+%I A022856
+%S A022856 1,1,1,2,3,5,8,12,17,23,30,38,47,57,68,80,93,107,122,138,155,173,192,
+%T A022856 212,233,255,278,302,327,353,380,408,437,467,498,530,563,597,632,668,
+%U A022856 705,743,782,822,863,905,948,992,1037,1083,1130,1178,1227
+%N A022856 a(n) = n-2 + Sum of a(i+1) mod(a(i)) for i = 1 to n-2, for n >= 3.
+%C A022856 Essentially triangular numbers + 2, but with three extra initial terms.
+%H A022856 Guo-Niu Han, <a href="http://www-irma.u-strasbg.fr/~guoniu/papers/p77puzzle.pdf">Enumeration of Standard Puzzles</a> [broken link]
+%H A022856 Guo-Niu Han, <a href="/A196265/a196265.pdf">Enumeration of Standard Puzzles</a> [Cached copy]
+%F A022856 For n>3, a(n) = (n^2-7*n+16)/2 = A027689(n-4)/2 = A000217(n-4)+2 = A000124(n-4)+1. - _Henry Bottomley_, Jun 27 2000
+%F A022856 a(n) = sum(A007318(n-k-2, k), k=0..2), n > 3. - _Johannes W. Meijer_, Aug 11 2013
+%K A022856 nonn,easy
+%O A022856 1,4
+%A A022856 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

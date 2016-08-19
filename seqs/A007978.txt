@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007978
+Showing 1-1 of 1
+
+%I A007978
+%S A007978 2,3,2,3,2,4,2,3,2,3,2,5,2,3,2,3,2,4,2,3,2,3,2,5,2,3,2,3,2,4,2,3,2,3,
+%T A007978 2,5,2,3,2,3,2,4,2,3,2,3,2,5,2,3,2,3,2,4,2,3,2,3,2,7,2,3,2,3,2,4,2,3,
+%U A007978 2,3,2,5,2,3,2,3,2,4,2,3,2,3,2,5,2,3,2,3,2,4,2,3,2,3,2,5,2,3,2,3
+%N A007978 Least non-divisor of n.
+%C A007978 Least k >= 2 such that sigma(n) divides sigma(n*k), where sigma is A000203 - _Benoit Cloitre_, Dec 01 2002
+%C A007978 Contains all and only the prime powers p^k, k>0. The first occurrence of p^k is at A003418(p^k-1); so new records occur at indices in A051451. - Franklin T. Adams-Watters, Jun 13 2011.
+%H A007978 Reinhard Zumkeller, <a href="/A007978/b007978.txt">Table of n, a(n) for n = 1..10000</a>
+%F A007978 a(n) = A053669(n) + A061853(n) = A055874(n) + 1. - _Henry Bottomley_, May 10 2001
+%F A007978 G.f.: sum(k>=2, -k*(x^A003418(k)-x^A003418(k-1))/((x^A003418(k)-1)*(x^A003418(k-1)-1))). - _Robert Israel_, Sep 02 2014
+%p A007978 a:= proc(n) local k;
+%p A007978 for k from 2 while n mod k = 0 do od:
+%p A007978 k
+%p A007978 end proc:
+%p A007978 seq(a(n),n=1..100); # _Robert Israel_, Sep 02 2014
+%t A007978 Table[k := 1; While[Mod[n, k] == 0, k++]; k, {n, 1, 2000}]  (* _Clark Kimberling_, Jun 16 2012 *)
+%o A007978 (Haskell)
+%o A007978 import Data.List ((\\))
+%o A007978 a007978 = head . ([1..] \\) . a027750_row
+%o A007978 -- _Reinhard Zumkeller_, May 10 2014
+%Y A007978 Cf. A003418, A051451, A055874, A053669, A061853.
+%Y A007978 Cf. A027750.
+%K A007978 nonn
+%O A007978 1,1
+%A A007978 _Jeffrey Shallit_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

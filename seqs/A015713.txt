@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015713
+Showing 1-1 of 1
+
+%I A015713
+%S A015713 4,9,18,49,81,98,121,162,242,361,529,722,729,961,1058,1458,1849,1922,
+%T A015713 2209,2401,3481,3698,4418,4489,4802,5041,6241,6561,6889,6962,8978,
+%U A015713 10082,10609,11449,12482,13122,13778,14641,16129,17161
+%N A015713 phi(n) * sigma(n) + k^2 is not a square for any k.
+%D A015713 R. K. Guy, Divisors and desires, Amer. Math. Monthly, 104 (1997), 359-360.
+%K A015713 nonn
+%O A015713 0,1
+%A A015713 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

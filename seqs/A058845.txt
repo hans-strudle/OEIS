@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058845
+Showing 1-1 of 1
+
+%I A058845
+%S A058845 1,2,49,54,172,921,1421,12485,78653,1969457,5606014,90638394
+%N A058845 Numbers n such that the sum of the first n odd primes is palindromic.
+%H A058845 P. De Geest, <a href="http://www.worldofnumbers.com/firstpal.htm#sfn2">Palindromic Sums</a>
+%e A058845 Palindromes are 3 + 5 + 7 + 11 + 13 + 17 + ... + z. For values of z see A058846.
+%Y A058845 Cf. A058846, A058847.
+%K A058845 nonn,base,more
+%O A058845 1,2
+%A A058845 _Patrick De Geest_, Dec 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

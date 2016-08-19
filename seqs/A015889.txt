@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015889
+Showing 1-1 of 1
+
+%I A015889
+%S A015889 1,2,4,10,20,52,130,370,1066,1090,2626,4580,7540,9140,21268,21682,
+%T A015889 24634,26596,29380,38740,40330,65026,146810,152164,154180,159172,
+%U A015889 211492,271426,290116,330706,432730,567988,575956,710788,782090
+%N A015889 Numbers n such that n | 4^n + 4.
+%t A015889 Select[Range[800000],Divisible[4^#+4,#]&] (* _Harvey P. Dale_, Jun 06 2012 *)
+%K A015889 nonn
+%O A015889 1,2
+%A A015889 _Robert G. Wilson v_
+%E A015889 Corrected (a(2) = 2 inserted) by _Harvey P. Dale_, Jun 06 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

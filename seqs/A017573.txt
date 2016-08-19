@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017573
+Showing 1-1 of 1
+
+%I A017573
+%S A017573 1024,1048576,17210368,102400000,380204032,1073741824,2535525376,
+%T A017573 5277319168,10000000000,17623416832,29316250624,46525874176,
+%U A017573 71008211968,104857600000,150536645632,210906087424,289254654976
+%N A017573 (12n+4)^5.
+%H A017573 Vincenzo Librandi, <a href="/A017573/b017573.txt">Table of n, a(n) for n = 0..200</a>
+%F A017573 a(n) = (12n + 4)^5 = 1024(3n + 1)^5 = A000584(A017569(n)). - _Wesley Ivan Hurt_, Feb 25 2014
+%p A017573 A017573:=n->(12*n + 4)^5; seq(A017573(n), n=0..20); # _Wesley Ivan Hurt_, Feb 25 2014
+%t A017573 Table[(12 n + 4)^5, {n, 0, 20}] (* _Wesley Ivan Hurt_, Feb 25 2014 *)
+%o A017573 (MAGMA) [(12*n+4)^5: n in [0..20]]; // _Vincenzo Librandi_, Feb 27 2014
+%Y A017573 Cf. A000584, A017569.
+%K A017573 nonn,easy
+%O A017573 0,1
+%A A017573 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

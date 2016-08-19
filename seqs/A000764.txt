@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000764
+Showing 1-1 of 1
+
+%I A000764
+%S A000764 1,2,5,16,60,258,1247,6686,39371,252688,1756920,13168178,105949517,
+%T A000764 911834394,8367625793,81642384468,844718036940,9245285569526,
+%U A000764 106790005796627,1298920385093126,16602066548692623
+%N A000764 Boustrophedon transform of Bell numbers.
+%H A000764 J. Millar, N. J. A. Sloane and N. E. Young, A new operation on sequences: the Boustrophedon on transform, J. Combin. Theory, 17A 44-54 1996 (<a href="http://neilsloane.com/doc/bous.txt">Abstract</a>, <a href="http://neilsloane.com/doc/bous.pdf">pdf</a>, <a href="http://neilsloane.com/doc/bous.ps">ps</a>).
+%H A000764 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A000764 <a href="/index/Bo#boustrophedon">Index entries for sequences related to boustrophedon transform</a>
+%F A000764 E.g.f.: (tan x + sec x)*exp( exp(x)-1 ).
+%t A000764 t[n_, 0] := BellB[n]; t[n_, k_] := t[n, k] = t[n, k - 1] + t[n - 1, n - k]; a[n_] := t[n, n]; Array[a, 30, 0] (* _Jean-François Alcover_, Feb 12 2016 *)
+%K A000764 nonn
+%O A000764 0,2
+%A A000764 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

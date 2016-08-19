@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050239
+Showing 1-1 of 1
+
+%I A050239
+%S A050239 5,181,313,3187813
+%N A050239 Consecutive square palindromic primes; palindromic primes of the form x^2+(x+1)^2, where x are given by A050236.
+%H A050239 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_014.htm">Source 3</a>
+%H A050239 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PalindromicPrime.html">Palindromic Prime</a>
+%H A050239 P. De Geest, <a href="http://www.worldofnumbers.com/sumsquare.htm">Palindromic Sums of Squares of Consecutive Integers</a>
+%Y A050239 Cf. A050236.
+%K A050239 nonn,nice,hard,base
+%O A050239 1,1
+%A A050239 _Eric W. Weisstein_
+%E A050239 No others < 10^20 - _Patrick De Geest_, 8/99.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

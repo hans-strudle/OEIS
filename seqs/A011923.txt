@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011923
+Showing 1-1 of 1
+
+%I A011923
+%S A011923 0,0,0,0,1,9,27,64,129,232,387,609,913,1320,1848,2520,3360,4393,5649,
+%T A011923 7155,8944,11049,13504,16347,19617,23353,27600,32400,37800,43848,
+%U A011923 50593,58089,66387,75544,85617,96664
+%N A011923 [ n(n-1)(n-2)(n-3)/13 ].
+%K A011923 nonn
+%O A011923 0,6
+%A A011923 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

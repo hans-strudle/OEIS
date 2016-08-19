@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017505
+Showing 1-1 of 1
+
+%I A017505
+%S A017505 387420489,512000000000,26439622160671,406671383849472,
+%T A017505 3299763591802133,18014398509481984,75084686279296875,
+%U A017505 257327417311663616,760231058654565217,1999004627104432128,4785448563124474679
+%N A017505 (11n+9)^9.
+%o A017505 (Maxima) makelist( (11*n+9)^9, n, 0, 30); /* _Martin Ettl_, Oct 21 2012 */
+%K A017505 nonn,easy
+%O A017505 0,1
+%A A017505 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

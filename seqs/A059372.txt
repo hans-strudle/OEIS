@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059372
+Showing 1-1 of 1
+
+%I A059372
+%S A059372 1,2,2,4,4,48,336,2928,28144,298528,3454432,43286528,
+%T A059372 583835648,8433987584,129941213184,2127349165824,36889047574272,
+%U A059372 675548628690432,13030733384956416,264111424634864640
+%V A059372 1,-2,2,-4,-4,-48,-336,-2928,-28144,-298528,-3454432,-43286528,
+%W A059372 -583835648,-8433987584,-129941213184,-2127349165824,-36889047574272,
+%X A059372 -675548628690432,-13030733384956416,-264111424634864640
+%N A059372 Revert transform of factorials.
+%C A059372 First diagonal of triangle in A059370.
+%D A059372 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 171, #34.
+%H A059372 T. D. Noe and Vaclav Kotesovec, <a href="/A059372/b059372.txt">Table of n, a(n) for n = 1..400</a> (first 100 terms from T. D. Noe)
+%H A059372 M. H. Albert, M. D. Atkinson and M. Klazar, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL6/Albert/albert.html">The Enumeration of Simple Permutations</a>, J. Integer Seqs., Vol. 6, 2003.
+%H A059372 E. Deutsch and B. E. Sagan, <a href="http://arxiv.org/abs/math.CO/0407326">Congruences for Catalan and Motzkin numbers and related sequences</a>, J. Num. Theory 117 (2006), 191-215.
+%H A059372 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%F A059372 a(n) ~ -exp(-2) * n! * (1 - 4/n + 2/n^2 - 34/(3*n^3) - 296/(3*n^4) - 4818/(5*n^5) - 508532/(45*n^6)). - _Vaclav Kotesovec_, Aug 04 2015
+%Y A059372 Cf. A059370.
+%K A059372 sign,easy
+%O A059372 1,2
+%A A059372 _N. J. A. Sloane_, Jan 28 2001
+%E A059372 More terms from _Vladeta Jovovic_, Mar 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044452
+Showing 1-1 of 1
+
+%I A044452
+%S A044452 10,26,43,58,74,90,107,122,138,154,175,186,202,218,235,250,266,282,
+%T A044452 299,314,330,346,363,378,394,410,431,442,458,474,491,506,522,538,555,
+%U A044452 570,586,602,619,634,703,714,730,747,762,778,794
+%N A044452 Numbers n such that string 2,2 occurs in the base 4 representation of n but not of n+1.
+%K A044452 nonn,base
+%O A044452 1,1
+%A A044452 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017388
+Showing 1-1 of 1
+
+%I A017388
+%S A017388 282429536481,2213314919066161,353814783205469041,
+%T A017388 12381557655576425121,191581231380566414401,1779197418239532716881,
+%U A017388 11646329922777311412561,59091511031674153381441,246990403565262140303521,886384871716129280658801
+%N A017388 (10*n+9)^12.
+%H A017388 Vincenzo Librandi, <a href="/A017388/b017388.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017388 (10*Range[0,20]+9)^12 (* _Harvey P. Dale_, Dec 06 2013 *)
+%o A017388 (MAGMA) [(10*n+9)^12: n in [0..20]]; // Vincenzo Librandi, Sep 01 2011
+%K A017388 nonn,easy
+%O A017388 0,1
+%A A017388 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

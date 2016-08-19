@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025455
+Showing 1-1 of 1
+
+%I A025455
+%S A025455 0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+%T A025455 0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,
+%U A025455 0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A025455 Number of partitions of n into 2 positive cubes.
+%C A025455 If a(n) > 0 then A025456(n + k^3) > 0 for k>0; (A113958(n))>0; a(A003325(n))>0. - _Reinhard Zumkeller_, Jun 03 2006
+%H A025455 <a href="/index/Su#ssq">Index entries for sequences related to sums of cubes</a>
+%Y A025455 Cf. A025456, A003108, A000578, A001235 (two or more ways).
+%K A025455 nonn
+%O A025455 0,1
+%A A025455 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

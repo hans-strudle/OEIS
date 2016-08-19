@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020009
+Showing 1-1 of 1
+
+%I A020009
+%S A020009 1,1,1,2,8,35,192,1255,9471,80933,772545,8146834,94058896,1180011610,
+%T A020009 15983793633,232491543753,3614186725612,59798362187392,
+%U A020009 1049189445651507,19457695173900667,380309496580785766
+%N A020009 Nearest integer to GAMMA(n+6/11)/GAMMA(6/11).
+%p A020009 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%K A020009 nonn
+%O A020009 0,4
+%A A020009 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048731
+Showing 1-1 of 1
+
+%I A048731
+%S A048731 1,1,4,15,256,1285,5440,28123,16777216,150994953,1140868096,
+%T A048731 12465661415,73299656704,952678341901,5584872095744,56294136361779,
+%U A048731 18446744073709551616,313594649253062377489,4796153459164500459520
+%N A048731 Diagonal of A048723, a(n) = Xpower(n,n)
+%K A048731 nonn
+%O A048731 0,3
+%A A048731 Antti Karttunen, Apr 26 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

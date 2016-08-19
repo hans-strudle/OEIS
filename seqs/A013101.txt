@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013101
+Showing 1-1 of 1
+
+%I A013101
+%S A013101 1,4,88,5014,527624,89331514,22153827556,7576868616438,
+%T A013101 3416549387012336,1964348168375260594,1402481265951220466076,
+%U A013101 1217416473808119071396046,1262628491065344385303595816
+%N A013101 sec(arcsinh(x)+tan(x))=1+4/2!*x^2+88/4!*x^4+5014/6!*x^6+527624/8!*x^8...
+%K A013101 nonn
+%O A013101 0,2
+%A A013101 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

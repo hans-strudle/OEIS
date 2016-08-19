@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040025
+Showing 1-1 of 1
+
+%I A040025
+%S A040025 4,15,93,668,5172,42042,353701,3036643,27045226,239093865,2158090933,
+%T A040025 19742800564
+%N A040025 Number of prime palindromes with 2n+1 digits.
+%H A040025 Shyam Sunder Gupta, <a href="http://listserv.nodak.edu/cgi-bin/wa.exe?A1=ind0602&amp;L=nmbrthry">Palindromic Primes up to 10^19</a>.
+%H A040025 Shyam Sunder Gupta, <a href="http://listserv.nodak.edu/cgi-bin/wa.exe?A2=ind0903&amp;L=nmbrthry&amp;T=0&amp;F=&amp;S=&amp;P=2104">Palindromic Primes up to 10^21</a>.
+%H A040025 Shyam Sunder Gupta, <a href="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=ind1310&amp;L=NMBRTHRY&amp;F=&amp;S=&amp;P=241">Palindromic Primes up to 10^23</a>.
+%e A040025 a(1)=15 because Number of prime palindromes with 3 digits is 15. [_Shyam Sunder Gupta_, Mar 14 2009]
+%o A040025 (PARI) a(n) = {my(nb = 0); forprime(p=10^(2*n), 10^(2*n+1)-1, if (eval(concat(Vecrev(Str(p)))) == p, nb++);); nb;} \\ _Michel Marcus_, Jul 24 2015
+%Y A040025 Subsequence of A016115, which is the main entry.
+%K A040025 nonn,hard,base,more
+%O A040025 0,1
+%A A040025 _Patrick De Geest_
+%E A040025 a(9) from _Shyam Sunder Gupta_, Feb 12 2006
+%E A040025 a(10) from _Shyam Sunder Gupta_, Mar 14 2009
+%E A040025 a(11) from _Shyam Sunder Gupta_, Oct 05 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

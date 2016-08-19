@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052891
+Showing 1-1 of 1
+
+%I A052891
+%S A052891 0,1,2,5,16,56,217,876,3686,15903,70103,314042,1426076,6548060,
+%T A052891 30352695,141837086,667469159,3160370217,15045244375,71970393570,
+%U A052891 345766441537
+%N A052891 A simple grammar.
+%H A052891 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=867">Encyclopedia of Combinatorial Structures 867</a>
+%p A052891 spec := [S,{C=Prod(Z,B),S=Set(C,1 <= card),B=Sequence(S)},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052891 easy,nonn
+%O A052891 0,3
+%A A052891 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

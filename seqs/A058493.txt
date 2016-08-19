@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058493
+Showing 1-1 of 1
+
+%I A058493
+%S A058493 1,4,0,4,16,0,6,40,0,8,96,0,17
+%V A058493 1,4,0,-4,16,0,6,40,0,-8,96,0,17
+%N A058493 McKay-Thompson series of class 12e for Monster.
+%D A058493 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058493 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058493 T12e = 1/q + 4*q - 4*q^5 + 16*q^7 + 6*q^11 + 40*q^13 - 8*q^17 + 96*q^19 + ...
+%Y A058493 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058493 sign
+%O A058493 -1,2
+%A A058493 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

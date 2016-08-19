@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027340
+Showing 1-1 of 1
+
+%I A027340
+%S A027340 1,1,2,3,5,7,10,14,20,27,37,49,66,86,113,146,189,241,308,389,492,616,
+%T A027340 771,958,1190,1468,1809,2218,2716,3310,4029,4884,5913,7133,8592,10318,
+%U A027340 12373,14795,17666,21042,25028,29700,35197,41624,49160,57949,68220
+%N A027340 Number of partitions of n that do not contain 6 as a part.
+%C A027340 Also number of partitions of n where no part appears more than five times.
+%F A027340 G.f.: (1-x^6) Product_{m>0} 1/(1-x^m).
+%o A027340 (PARI) a(n)=if(n<0,0,polcoeff((1-x^6)/eta(x+x*O(x^n)),n))
+%Y A027340 a(n)=A000041(n)-A000041(n-6).
+%K A027340 nonn
+%O A027340 0,3
+%A A027340 _Clark Kimberling_
+%E A027340 More terms from _Benoit Cloitre_, Dec 10 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

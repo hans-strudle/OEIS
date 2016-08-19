@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017047
+Showing 1-1 of 1
+
+%I A017047
+%S A017047 78125,35831808,893871739,8031810176,42618442977,163840000000,
+%T A017047 506623120463,1338925209984,3142742836021,6722988818432,
+%U A017047 13348388671875,24928547056768,44231334895529,75144747810816
+%N A017047 (7*n+5)^7.
+%H A017047 Vincenzo Librandi, <a href="/A017047/b017047.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017047 (MAGMA) [(7*n+5)^7: n in [0..20] ]; // Vincenzo Librandi, Jul 18 2011
+%K A017047 nonn,easy
+%O A017047 0,1
+%A A017047 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

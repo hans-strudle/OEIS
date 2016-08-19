@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016286
+Showing 1-1 of 1
+
+%I A016286
+%S A016286 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,
+%T A016286 0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,
+%U A016286 0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0
+%V A016286 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,
+%W A016286 0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,
+%X A016286 0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0
+%N A016286 Inverse of 2277th cyclotomic polynomial.
+%p A016286 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%o A016286 (PARI) Vec(1/polcyclo(2277)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%K A016286 sign
+%O A016286 0,1
+%A A016286 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

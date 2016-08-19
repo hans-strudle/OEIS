@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053918
+Showing 1-1 of 1
+
+%I A053918
+%S A053918 5,15,235,485,1885,5765,15885,50235,57665,72335,1798765,15249765,
+%T A053918 187703365,179876492415,159789024443333515
+%N A053918 Numbers n such that n^2 contains only digits {2,3,5}.
+%H A053918 P. De Geest, <a href="http://www.worldofnumbers.com/threedigits.htm">Squares containing at most three distinct digits, Index entries for related sequences</a>
+%H A053918 Author?, <a href="http://blue.kakiko.com/mmrmmr/htm/eqtn06.html">Source</a>(<a href="http://blue.kakiko.com/mmrmmr/txt/eqtn06.txt">txt</a>)
+%H A053918 H. Mishima <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/math02/math0210.htm#235">Squares consisted of 3 different digits</a>
+%Y A053918 Cf. A053919.
+%K A053918 nonn,base,more
+%O A053918 1,1
+%A A053918 _Patrick De Geest_, Mar 15 2000.
+%E A053918 More terms from C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 03 2005
+%E A053918 One more term from Mishima's webpage added by _Max Alekseyev_, Jun 17 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

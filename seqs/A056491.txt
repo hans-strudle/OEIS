@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056491
+Showing 1-1 of 1
+
+%I A056491
+%S A056491 0,0,0,0,0,0,0,60,120,960,1800,9300,16800,71400,126000,480060,834120,
+%T A056491 2968560,5103000,17355300,29607600,97567800,165528000,533274060,
+%U A056491 901020120,2855012160,4809004200,15050517300
+%N A056491 Number of periodic palindromes using exactly five different symbols.
+%D A056491 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056491 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,14,-14,-71,71,154,-154,-120,120).
+%F A056491 a(n) = 2*A056345(n)-A056285(n).
+%F A056491 G.f.: -60*x^8*(x+1)/((x-1)*(2*x-1)*(2*x+1)*(2*x^2-1)*(3*x^2-1)*(5*x^2-1)). [_Colin Barker_, Jul 08 2012]
+%e A056491 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome.
+%Y A056491 Cf. A056456.
+%K A056491 nonn,easy
+%O A056491 1,8
+%A A056491 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

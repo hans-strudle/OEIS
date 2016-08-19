@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031127
+Showing 1-1 of 1
+
+%I A031127
+%S A031127 108,188,322,521,830,1278,1940,2875,4214,6065,8643,12150,16932,23335,
+%T A031127 31920,43263,58249,77824,103361,136370,178974
+%N A031127 Number of proper factorizations of p1^n*p2^4, where p1 and p2 are distinct primes.
+%Y A031127 Cf. A028422.
+%K A031127 nonn
+%O A031127 4,1
+%A A031127 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

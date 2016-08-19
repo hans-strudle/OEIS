@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060048
+Showing 1-1 of 1
+
+%I A060048
+%S A060048 1,2,2,3,5,5,7,11,11,13,13,17,19,19,23,23,29,31,31,37,37,41,43,43,47,
+%T A060048 47,53,53,59,61,61,67,67,71,71,73,79,79,83,83,89,97,97,101,101,103,
+%U A060048 103,107,109,109,113,113,127,127,131,131,137,139,139,149,149,151,151,157
+%N A060048 a(1) = 1 and for n>1 a(n) = Max { q prime | q# < p(n)# / q# } where p(i) = A000040(i) and p(i)# = A002110(i), primorial.
+%e A060048 p(10) = 29: 2*3*5*7*11*13 < 17*19*23*29 and as 2*3*5*7*11*13*17 > 19*23*29 we have a(10) = 13.
+%Y A060048 A000040, A002110.
+%K A060048 nonn
+%O A060048 1,2
+%A A060048 _Reinhard Zumkeller_, Oct 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

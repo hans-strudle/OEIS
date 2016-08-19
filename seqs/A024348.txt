@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024348
+Showing 1-1 of 1
+
+%I A024348
+%S A024348 2,240,483840,4704860160,140016638361600,9962283186074419200,
+%T A024348 1448674564423160954880000,386164234578290422390456320000
+%N A024348 Expansion of tan(x^2).
+%t A024348 Tan[ x^2 ] (* [ x^(4n+2) ] *)
+%K A024348 nonn
+%O A024348 0,1
+%A A024348 _R. H. Hardin_
+%E A024348 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

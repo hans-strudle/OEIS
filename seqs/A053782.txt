@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053782
+Showing 1-1 of 1
+
+%I A053782
+%S A053782 5,14,17,20,35,36,37,43,47,48,53,54,63,64,68,73,74,75,86,101,106,127,
+%T A053782 142,149,154,159,208,209,214,221,231,234,250,254,258,259,272,283,302,
+%U A053782 304,329,332,346,352,374,398,417,424,439,440,445,458,471,550,551,556
+%N A053782 Sum of first n composite numbers is prime.
+%t A053782 f[ n_Integer ] := Block[ {k = n + PrimePi[ n ] + 1}, While[ k - PrimePi[ k ] - 1 != n, k++ ]; k ]; s = 0; Do[ s = s + f[ n ]; If[ PrimeQ[ s ], Print[ n ] ], {n, 1, 1000} ]
+%Y A053782 Cf. A002808, A000040, A053872, A013919.
+%K A053782 nonn
+%O A053782 1,1
+%A A053782 _G. L. Honaker, Jr._, Mar 30 2000
+%E A053782 More terms from _Robert G. Wilson v_, Mar 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

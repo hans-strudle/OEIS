@@ -1,0 +1,46 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003108
+Showing 1-1 of 1
+
+%I A003108 M0209
+%S A003108 1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,4,4,4,5,5,5,5,5,6,6,
+%T A003108 6,7,7,7,7,7,8,8,8,9,9,9,9,9,10,10,10,11,11,11,12,12,13,13,13,14,14,
+%U A003108 14,15,15,17,17,17,18,18,18,19,19,21,21,21,22,22,22,23,23,25,26,26,27,27,27,28
+%N A003108 Number of partitions of n into cubes.
+%C A003108 The g.f. 1/(z+1)/(z**2+1)/(z**4+1)/(z-1)**2 conjectured by _Simon Plouffe_ in his 1992 dissertation is wrong.
+%D A003108 H. P. Robinson, Letter to N. J. A. Sloane, Jan 04 1974.
+%D A003108 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003108 F. Smarandache, Sequences of Numbers Involved in Unsolved Problems, Hexis, Phoenix, 2006.
+%H A003108 T. D. Noe, <a href="/A003108/b003108.txt">Table of n, a(n) for n=0..1000</a>
+%H A003108 F. Iacobescu, <a href="http://www.gallup.unm.edu/~smarandache/SN/ScArt5/SPartitionType.pdf">Smarandache Partition Type and Other Sequences</a>, Bull. Pure Appl. Sci. 16E, 237-240, 1997.
+%H A003108 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A003108 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A003108 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/Sequences-book.pdf">Sequences of Numbers Involved in Unsolved Problems</a>.
+%H A003108 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html"> Cubic Number </a>
+%H A003108 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Partition.html"> Partition </a>
+%H A003108 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmarandacheSequences.html"> Smarandache Sequences </a>
+%F A003108 G.f.: 1/product(1-x^(j^3), j=1..infinity). - _Emeric Deutsch_, Mar 30 2006
+%F A003108 G.f.: Sum_{n>=0} x^(n^3) / Product_{k=1..n} (1 - x^(k^3)). - _Paul D. Hanna_, Mar 09 2012
+%e A003108 a(16) = 3 because we have [8,8], [8,1,1,1,1,1,1,1,1] and [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1].
+%e A003108 G.f.: A(x) = 1 + x + x^2 + x^3 + x^4 + x^5 + x^6 + x^7 + 2*x^8 +...
+%e A003108 such that the g.f. A(x) satisfies the identity [Paul D. Hanna]:
+%e A003108 A(x) = 1/((1-x)*(1-x^8)*(1-x^27)*(1-x^64)*(1-x^125)*...)
+%e A003108 A(x) = 1 + x/(1-x) + x^8/((1-x)*(1-x^8)) + x^27/((1-x)*(1-x^8)*(1-x^27)) + x^64/((1-x)*(1-x^8)*(1-x^27)*(1-x^64)) +...
+%p A003108 g:=1/product(1-x^(j^3),j=1..30): gser:=series(g,x=0,70): seq(coeff(gser,x,n),n=0..65); # _Emeric Deutsch_, Mar 30 2006
+%t A003108 nmax = 100; CoefficientList[Series[Product[1/(1 - x^(k^3)), {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 19 2015 *)
+%o A003108 (PARI) {a(n)=polcoeff(1/prod(k=1, ceil(n^(1/3)), 1-x^(k^3)+x*O(x^n)), n)} /* _Paul D. Hanna_, Mar 09 2012 */
+%o A003108 (PARI) {a(n)=polcoeff(1+sum(m=1, ceil(n^(1/3)), x^(m^3)/prod(k=1, m, 1-x^(k^3)+x*O(x^n))), n)} /* _Paul D. Hanna_, Mar 09 2012 */
+%o A003108 (Haskell)
+%o A003108 a003108 = p $ tail a000578_list where
+%o A003108    p _          0 = 1
+%o A003108    p ks'@(k:ks) m = if m < k then 0 else p ks' (m - k) + p ks m
+%o A003108 -- _Reinhard Zumkeller_, Oct 31 2012
+%Y A003108 Cf. A131799, A259792.
+%Y A003108 Cf. A001156, A046042, A000578, A218495.
+%Y A003108 Cf. A226748, A068980.
+%K A003108 nonn
+%O A003108 0,9
+%A A003108 _N. J. A. Sloane_, _Herman P. Robinson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

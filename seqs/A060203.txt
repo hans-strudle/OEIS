@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060203
+Showing 1-1 of 1
+
+%I A060203
+%S A060203 2,3,7,5,10,6,13,29,8,23,35,46,45,19,42,32,12,58,48,84,92,14,39,94,15,
+%T A060203 28,116,44,17,98,31,128,122,83,88,51,34,53,20,198,171,133,21,232,139,
+%U A060203 60,129,40,109,213,24,210,65,252,43,177,296,255,253,227,281,307,320,72
+%N A060203 Cube root of unity mod p, where p is the n-th prime congruent to 1 mod 3.
+%C A060203 The cube roots of unity mod p, the n-th prime congruent to 1 mod 3 (A002476), are 1, a(n) and p-a(n)-1.
+%e A060203 The 5th prime == 1 (mod 3) is 37, 10^3 == 1 (mod 37), so a(5)=10.
+%Y A060203 Cf. A002476.
+%K A060203 nonn
+%O A060203 0,1
+%A A060203 _Jud McCranie_, Mar 18 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

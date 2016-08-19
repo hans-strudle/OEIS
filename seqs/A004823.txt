@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004823
+Showing 1-1 of 1
+
+%I A004823
+%S A004823 12,2059,4106,6153,8200,10247,12294,14341,16388,18435,20482,22529,
+%T A004823 24576,177158,179205,181252,183299,185346,187393,189440,191487,193534,
+%U A004823 195581,197628,199675,354304,356351,358398,360445,362492,364539,366586,368633
+%N A004823 Sum of 12 positive 11th powers.
+%H A004823 T. D. Noe, <a href="/A004823/b004823.txt">Table of n, a(n) for n = 1..1000</a>
+%t A004823 Select[Union[Total[#^11]&/@Tuples[Range[3],{12}]],#<+400000&]  (* _Harvey P. Dale_, Apr 29 2011 *)
+%K A004823 nonn
+%O A004823 1,1
+%A A004823 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

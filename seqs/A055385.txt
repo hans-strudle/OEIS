@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055385
+Showing 1-1 of 1
+
+%I A055385
+%S A055385 2,5,2,257,2,13,2,97,2,101,2,89,2,29,2,274177,2,5,2,148721,2,5,2,17,2,
+%T A055385 53,2,449,2,17,2,641,2,13,2,17,2,5,2,17,2,5,2,41,2,29,2,769,2,41,2,89,
+%U A055385 2,13,2,17,2,5,2,17,2,5,2,59649589127497217,2,37,2,41,2,13,2,97,2,149
+%N A055385 Smallest factor of n^n + 1.
+%D A055385 C. Stanley Ogilvy and John T. Anderson, Excursions in Number Theory. Dover. New York: 1988. Page 82.
+%H A055385 <a href="http://cage.rug.ac.be/~hvernaev/problems/Proble36.html">Is there any value of n other than 1, 2 and 4, such that n^n+1 is a prime? </a>
+%e A055385 4^4 + 1 = 257 is the largest known prime in the underlying sequence; 6^6 + 1 = 13 * 37 * 97, so a(6) = 13.
+%t A055385 Table[FactorInteger[n^n + 1][[1, 1]], {n, 74}] (* _Vincenzo Librandi_, Jul 23 2013 *)
+%o A055385 (PARI) a(n) =  {if (n % 2, return (2)); return (factor(n^n + 1)[1, 1]);} \\ _Michel Marcus_, Jul 23 2013
+%Y A055385 Cf. A014566, A055386.
+%K A055385 nonn
+%O A055385 1,1
+%A A055385 _Walter Nissen_, Jun 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

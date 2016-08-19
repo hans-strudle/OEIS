@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060745
+Showing 1-1 of 1
+
+%I A060745
+%S A060745 1,7,33,40,109,124,314,659,815,964,2499,4351,5780
+%N A060745 When GCD( p(n), q(n) ) increases, where p() is the unrestricted partition function (A000041) and q is the distinct partition function (A000009).
+%t A060745 a = 0; Do[ d = GCD[ PartitionsP[ n ], PartitionsQ[ n ]]; If[ d > a, a = d; Print[ n ]], {n, 1, 11050} ]
+%K A060745 nonn
+%O A060745 1,2
+%A A060745 _Robert G. Wilson v_, Apr 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

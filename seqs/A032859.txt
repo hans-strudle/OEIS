@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032859
+Showing 1-1 of 1
+
+%I A032859
+%S A032859 1,2,3,4,8,9,12,13,14,17,18,19,33,34,35,38,39,49,50,51,54,55,59,68,72,
+%T A032859 73,76,77,78,132,136,137,140,141,142,152,153,156,157,158,196,200,201,
+%U A032859 204,205,206,216,217,220,221,222,236,237,238
+%N A032859 Numbers n such that base 4 representation Sum{d(i)*4^i: i=0,1,...,m) has d(m)>d(m-1)<d(m-2)>...
+%K A032859 nonn,base
+%O A032859 1,2
+%A A032859 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

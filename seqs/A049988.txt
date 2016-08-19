@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049988
+Showing 1-1 of 1
+
+%I A049988
+%S A049988 1,2,3,4,4,7,5,7,9,9,7,14,8,11,16,13,10,20,11,17,21,16,13,27,17,18,26,
+%T A049988 22,16,35,17,23,31,23,25,41,20,25,36,33,22,46,23,31,48,30,25,52,29,38,
+%U A049988 47,36,28,57,37,41,52,37,31,71,32,39,62,44,43,69,35,45,62,57,37,79,38
+%N A049988 Number of nondecreasing arithmetic progressions of positive integers with sum n.
+%H A049988 Lars Blomberg, <a href="/A049988/b049988.txt">Table of n, a(n) for n = 1..10000</a>
+%H A049988 Lars Blomberg, <a href="/A049988/a049988.cs.txt">C# program for calculating b-file</a>
+%F A049988 G.f.: x/(1-x) + Sum_{k>=2} x^k/(1-x^(k(k-1)/2))/(1-x^k). - _Leroy Quet_, Apr 08 2010
+%t A049988 a[n_] := Block[{i, c=Floor[(n-1)/2]+DivisorSigma[0,n]}, Do[ i=1; While[i*k < n, If[Mod[2*(n-i*k), k*(k-1)] == 0, c++]; i++], {k, 3, (Sqrt[1+8*n]-1) / 2}]; c]; a/@Range[73] (* _Giovanni Resta_, Feb 16 2013 *)
+%K A049988 nonn
+%O A049988 1,2
+%A A049988 _Clark Kimberling_
+%E A049988 Edited by _Max Alekseyev_, May 03 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

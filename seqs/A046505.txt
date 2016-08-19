@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046505
+Showing 1-1 of 1
+
+%I A046505
+%S A046505 769,967,1697,2777,3637,3673,4483,6197,6337,6373,6719,6733,6779,6791,
+%T A046505 6917,6971,6977,7559,7691,7727,8443,8681,8861,9677,9767,12379,12739,
+%U A046505 12973,13297,13367,13729,13763,14779,14797,14843,17239,17293,17497
+%N A046505 Primes with multiplicative persistence value 5.
+%H A046505 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence</a>
+%e A046505 769 -> [ 378 ][ 168 ][ 48 ][ 32 ][ 6 ] -> one digit in five steps.
+%Y A046505 Cf. A046500, A046514.
+%K A046505 nonn,base
+%O A046505 0,1
+%A A046505 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

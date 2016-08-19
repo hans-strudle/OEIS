@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033585
+Showing 1-1 of 1
+
+%I A033585
+%S A033585 0,10,36,78,136,210,300,406,528,666,820,990,1176,1378,1596,1830,2080,
+%T A033585 2346,2628,2926,3240,3570,3916,4278,4656,5050,5460,5886,6328,6786,
+%U A033585 7260,7750,8256,8778,9316,9870,10440
+%N A033585 a(n) = 2*n*(4*n+1).
+%C A033585 If Y is a fixed 3-subset of a (4n+1)-set X then a(n) is the number of (4n-1)-subsets of X intersecting Y. - _Milan Janjic_, Oct 28 2007
+%C A033585 Sequence found by reading the line from 0, in the direction 0, 10, ..., in the square spiral whose vertices are the triangular numbers A000217. - _Omar E. Pol_, Sep 03 2011
+%H A033585 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%F A033585 a(n) = A000217(4*n) = A014105(2*n). - _Reinhard Zumkeller_, Sep 17 2008
+%F A033585 a(n) = 16*n + a(n-1) - 6 (with a(0) = 0). - _Vincenzo Librandi_, Aug 05 2010
+%F A033585 a(n) = A005843(n)*A016813(n). - _Omar E. Pol_, Oct 31 2013
+%p A033585 seq(binomial(4*n+1,2), n=0..36); # _Zerinvary Lajos_, Jan 21 2007
+%t A033585 f[n_]:=2*n*(4*n+1);f[Range[0,60]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 05 2011 *)
+%Y A033585 Cf. A081266, A144312, A144314. - _Reinhard Zumkeller_, Sep 17 2008
+%K A033585 nonn,easy
+%O A033585 0,2
+%A A033585 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

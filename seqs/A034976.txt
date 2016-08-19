@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034976
+Showing 1-1 of 1
+
+%I A034976
+%S A034976 1,16,384,12288,491520,23592960,1321205760,84557168640,6088116142080,
+%T A034976 487049291366400,42860337640243200,4114592413463347200,
+%U A034976 427917611000188108800,47926772432021068185600
+%N A034976 One eighth of octo-factorial numbers.
+%H A034976 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A034976 8*a(n) = (8*n)!^8 := product(8*j, j=1..n) = 8^n*n!.
+%F A034976 E.g.f.: (-1+(1-8*x)^(-1))/8.
+%F A034976 G.f.: x/(1-16x/(1-8x/(1-24x/(1-16x/(1-32x/(1-24x/(1-40x/(1-32x/(1-... (continued fraction). - _Philippe Deléham_, Jan 07 2012
+%t A034976 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 15, 5!, 8}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A034976 Cf. A045755, A034908-A034912, A034975, A051189.
+%K A034976 easy,nonn
+%O A034976 1,2
+%A A034976 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

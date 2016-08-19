@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057190
+Showing 1-1 of 1
+
+%I A057190
+%S A057190 7,11,19,2207,2477,4951
+%N A057190 Numbers n such that (24^n+1)/25 is a prime.
+%C A057190 a(7) > 10^5. - _Robert Price_, Jun 04 2013
+%H A057190 H. Dubner and T. Granlund, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Primes of the Form (b^n+1)/(b+1)</a>, J. Integer Sequences, 3 (2000), #P00.2.7.
+%H A057190 H. Lifchitz, <a href="http://www.primenumbers.net/Henri/us/MersFermus.htm">Mersenne and Fermat primes field</a>
+%K A057190 nonn
+%O A057190 1,1
+%A A057190 _N. J. A. Sloane_, Sep 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

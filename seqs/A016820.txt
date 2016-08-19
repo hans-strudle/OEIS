@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016820
+Showing 1-1 of 1
+
+%I A016820
+%S A016820 1,390625,43046721,815730721,6975757441,37822859361,152587890625,
+%T A016820 500246412961,1406408618241,3512479453921,7984925229121,
+%U A016820 16815125390625,33232930569601,62259690411361,111429157112001
+%N A016820 (4n+1)^8.
+%H A016820 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9, -36, 84, -126, 126, -84, 36, -9, 1).
+%F A016820 a(0)=1, a(1)=390625, a(2)=43046721, a(3)=815730721, a(4)=6975757441, a(5)=37822859361, a(6)=152587890625, a(7)=500246412961, a(8)=1406408618241, a(n)=9*a(n-1)-36*a(n-2)+84*a(n-3)-126*a(n-4)+126*a(n-5)-84*a(n-6)+ 36*a(n-7)- 9*a(n-8)+a(n-9). - _Harvey P. Dale_, Jul 11 2013
+%t A016820 (4*Range[0,20]+1)^8 (* or *) LinearRecurrence[{9,-36,84,-126,126,-84,36,-9,1},{1,390625,43046721,815730721,6975757441,37822859361,152587890625,500246412961,1406408618241},20] (* _Harvey P. Dale_, Jul 11 2013 *)
+%K A016820 nonn,easy
+%O A016820 0,2
+%A A016820 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

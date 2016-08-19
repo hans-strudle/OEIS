@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021444
+Showing 1-1 of 1
+
+%I A021444
+%S A021444 0,0,2,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,
+%T A021444 7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,
+%U A021444 7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7,2,7
+%N A021444 Decimal expansion of 1/440.
+%F A021444 a(n)=(1/2)*[9+5*(-1)^n]-7*[C(2*n,n) mod 2]-2*{C[(n+1)^2,n+3] mod 2}-5*{C[(n+12)^4,n+14] mod 2}, with n>=0 [From _Paolo P. Lava_, Nov 11 2009]
+%K A021444 nonn,cons
+%O A021444 0,3
+%A A021444 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

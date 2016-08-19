@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055376
+Showing 1-1 of 1
+
+%I A055376
+%S A055376 0,1,1,2,3,2,3,7,7,3,5,15,24,15,5,7,31,62,62,31,7,13,63,161,212,161,
+%T A055376 63,13,19,127,381,635,635,381,127,19,35,255,900,1785,2244,1785,900,
+%U A055376 255,35,59,511,2044,4774,7154,7154,4774,2044,511,59,107,1023,4619
+%N A055376 CIK transform of Pascal's triangle A007318.
+%H A055376 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A055376 <a href="/index/Pas#Pascal">Index entries for triangles and arrays related to Pascal's triangle</a>
+%e A055376 0; 1,1; 2,3,2; 3,7,7,3; 5,15,24,15,5; ...
+%Y A055376 Row sums give A055891.
+%K A055376 nonn,tabl
+%O A055376 0,4
+%A A055376 _Christian G. Bower_, May 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

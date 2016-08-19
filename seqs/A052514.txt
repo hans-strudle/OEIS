@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052514
+Showing 1-1 of 1
+
+%I A052514
+%S A052514 0,1,2,9,64,625,7056,89929,1284032,20351601,354648160,6736612201,
+%T A052514 138472331328,3061103815081,72391319923664,1823032999274985,
+%U A052514 48692068509655936,1374488205290880481,40877130077266074048
+%N A052514 Number of labeled trees of height at most 4.
+%H A052514 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=60">Encyclopedia of Combinatorial Structures 60</a>
+%F A052514 E.g.f.: x*exp(x*exp(x*exp(x*exp(x))))
+%p A052514 spec := [S,{T2=Prod(Z,Set(T3)),S=Prod(Z,Set(T1)), T4=Z, T3=Prod(Z,Set(T4)), T1=Prod(Z,Set(T2))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052514 easy,nonn
+%O A052514 0,3
+%A A052514 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+%E A052514 Added "at most" in the title; by _Stanislav Sykora_, May 12 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

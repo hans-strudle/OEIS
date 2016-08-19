@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014044
+Showing 1-1 of 1
+
+%I A014044
+%S A014044 1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014044 0,0,0,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014044 0,0,0,0,0,0,1,1,1,1,1,0,0,1,1,1,1
+%V A014044 1,1,1,1,1,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014044 0,0,0,1,1,1,1,1,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014044 0,0,0,0,0,0,1,1,1,1,1,0,0,-1,-1,-1,-1
+%N A014044 Inverse of 35th cyclotomic polynomial.
+%H A014044 Vincenzo Librandi, <a href="/A014044/b014044.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014044 <a href="/index/Rec#order_24">Index entries for linear recurrences with constant coefficients</a>, signature (1, 0, 0, 0, -1, 1, -1, 1, 0, -1, 1, -1, 1, -1, 0, 1, -1, 1, -1, 0, 0, 0, 1, -1).
+%p A014044 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014044 CoefficientList[Series[1/Cyclotomic[35, x], {x, 0, 100}], x] (* _Vincenzo Librandi_, Apr 04 2014 *)
+%t A014044 LinearRecurrence[{1, 0, 0, 0, -1, 1, -1, 1, 0, -1, 1, -1, 1, -1, 0, 1, -1, 1, -1, 0, 0, 0, 1, -1},{1, 1, 1, 1, 1, 0, 0, -1, -1, -1, -1, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},81] (* _Ray Chandler_, Sep 15 2015 *)
+%o A014044 (PARI) Vec(1/polcyclo(35)+O(x^99)) \\ _Charles R Greathouse IV_, Apr 01 2014
+%K A014044 sign,easy
+%O A014044 0,1
+%A A014044 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

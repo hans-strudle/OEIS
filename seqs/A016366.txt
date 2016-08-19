@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016366
+Showing 1-1 of 1
+
+%I A016366
+%S A016366 1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,1,
+%T A016366 1,0,1,1,1,1,0,1,1,0,0,0,0,0,1,1,0,1,1,1,0,1,2,1,0,1,1,1,0,
+%U A016366 1,1,0,1,1,1,0,1,1,0,1,1,1,0,1,2,1,0,1,1,1
+%V A016366 1,1,1,0,0,-1,-1,-1,0,0,0,0,0,0,0,1,1,0,-1,-1,-1,-1,0,1,1,0,0,0,0,0,1,
+%W A016366 1,0,-1,-1,-1,-1,0,1,1,0,0,0,0,0,1,1,0,-1,-1,-1,0,1,2,1,0,-1,-1,-1,0,
+%X A016366 1,1,0,-1,-1,-1,0,1,1,0,-1,-1,-1,0,1,2,1,0,-1,-1,-1
+%N A016366 255th cyclotomic polynomial.
+%t A016366 CoefficientList[Cyclotomic[255,x],x] (* _Harvey P. Dale_, Oct 10 2013 *)
+%K A016366 sign,fini
+%O A016366 0,54
+%A A016366 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

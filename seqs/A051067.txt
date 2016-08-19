@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051067
+Showing 1-1 of 1
+
+%I A051067
+%S A051067 0,1,1,1,0,0,0,1,1,0,0,1,0,0,1,0,0,1,1,0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,
+%T A051067 1,1,0,0,1,0,0,1,0,0,1,1,0,0,0,1,1,1,0,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,
+%U A051067 1,0,0,1,1,0,0,0,1,1,1,0,0,1,1,0,1,1,0,1,1,0,0,1,1,1,0,0,0,1,1,0,0,1,0,0,1
+%N A051067 A051066 read mod 2.
+%D A051067 Letter from Gary W. Adamson concerning Prouhet-Thue-Morse sequence, Nov. 11, 1999.
+%Y A051067 Cf. A004128, A051065, A051066.
+%K A051067 nonn,easy
+%O A051067 0,1
+%A A051067 _N. J. A. Sloane_, Gary W. Adamson
+%E A051067 More terms from _James A. Sellers_, Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

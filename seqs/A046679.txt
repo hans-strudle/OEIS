@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046679
+Showing 1-1 of 1
+
+%I A046679
+%S A046679 2,8,9,16,18,64,72,81,128,144,625,729,1024,1152,1296,1458,2401,4096,
+%T A046679 5184,5625,5832,6561,8192,9216,10000,11664,13122,15625,21609,28561,
+%U A046679 31250,32768,38416,40000,46656,50625,52488,59049,65536,83521,90000
+%N A046679 Numbers n such that number of divisors of n and sum of squares of divisors of n are relatively prime.
+%C A046679 It can be shown that this is a subset of A028982.
+%t A046679 Rest[Select[Range[91000],CoprimeQ[DivisorSigma[0,#], DivisorSigma[2,#]]&]] (* _Harvey P. Dale_, May 11 2011 *)
+%Y A046679 Cf. A028982, A046678 - A046981, A046983, A046985.
+%K A046679 nonn
+%O A046679 1,1
+%A A046679 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

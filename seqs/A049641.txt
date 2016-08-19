@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049641
+Showing 1-1 of 1
+
+%I A049641
+%S A049641 0,0,2,0,3,0,5,0,7,0,11,0,13,0,19,0,23,0,29,0,33,0,43,0,47,0,59,0,65,
+%T A049641 0,73,0,81,0,97,0,103,0,121,0,129,0
+%N A049641 a(n)=Sum{((-1)^i)*T(i,n-i): i=0,1,...,n), array T as in A049639.
+%K A049641 nonn
+%O A049641 0,3
+%A A049641 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

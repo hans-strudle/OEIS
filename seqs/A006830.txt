@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006830
+Showing 1-1 of 1
+
+%I A006830 M3349
+%S A006830 1,1,1,1,4,9,2,0,1,45,4,3,2,7,0,1,36792,11320425,2,24,
+%T A006830 267972,352849,10,0,17,135531,12,189709,21012,371631,1008,32,8,
+%U A006830 34255,0,71847,147714465189436,840,78
+%V A006830 -1,1,1,-1,-4,9,-2,0,-1,-45,4,3,2,-7,0,-1,-36792,-11320425,-2,-24,
+%W A006830 -267972,352849,-10,0,17,135531,-12,189709,-21012,-371631,-1008,32,8,
+%X A006830 34255,0,-71847,147714465189436,840,78
+%N A006830 From fundamental unit of Z[ (-n)^1/4 ].
+%D A006830 J. Buchmann, The computation of the fundamental unit of totally complex quartic orders, Math. Comp. 48 (1987), 39-54.
+%D A006830 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A006830 Cf. A006828-A006831.
+%K A006830 sign
+%O A006830 1,5
+%A A006830 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017481
+Showing 1-1 of 1
+
+%I A017481
+%S A017481 40353607,198359290368,14507145975869,262144000000000,
+%T A017481 2334165173090451,13537086546263552,58871586708267913,
+%U A017481 208215748530929664,630249409724609375,1689478959002692096,4108400332687853397
+%N A017481 (11*n+7)^9.
+%H A017481 Vincenzo Librandi, <a href="/A017481/b017481.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017481 (11Range[0,20]+7)^9  (* _Harvey P. Dale_, Mar 23 2011 *)
+%o A017481 (MAGMA) [(11*n+7)^9: n in [0..20]]; // Vincenzo Librandi, Sep 04 2011
+%o A017481 (Maxima) makelist((11*n+7)^9, n, 0, 30); [_Martin Ettl_, Oct 21 2012]
+%K A017481 nonn,easy
+%O A017481 0,1
+%A A017481 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

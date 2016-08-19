@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019206
+Showing 1-1 of 1
+
+%I A019206
+%S A019206 0,0,6,6,4,29,62,96,264,739,1482,3498,9563,22366,52602,137884,346478,
+%T A019206 856092
+%N A019206 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite NES = NU-87 H4[ Al4Si64O136 ] . n H2O.
+%D A019206 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019206 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019206 nonn
+%O A019206 3,3
+%A A019206 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

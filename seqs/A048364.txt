@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048364
+Showing 1-1 of 1
+
+%I A048364
+%S A048364 13,44,631,1413,28282,76419,282842,1414213,4471955,31616419,446313656,
+%T A048364 1414001413,6276925986,44710913656,44721356419
+%N A048364 a(n) is base of smallest triangle containing exactly n 9's.
+%H A048364 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TriangularNumber.html">Triangular Number</a>
+%Y A048364 Cf. A036526.
+%K A048364 nonn,base,more
+%O A048364 1,1
+%A A048364 _Patrick De Geest_, Mar 15 1999.
+%E A048364 a(13)-a(15) from _Lars Blomberg_, May 16 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

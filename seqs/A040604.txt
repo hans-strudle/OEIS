@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040604
+Showing 1-1 of 1
+
+%I A040604
+%S A040604 25,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,
+%T A040604 10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,
+%U A040604 50,10,50,10,50,10,50,10,50,10,50,10,50,10,50,10,50
+%N A040604 Continued fraction for sqrt(630).
+%H A040604 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040604 a(n)=30+20*(-1)^n-25*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 15 2009]
+%p A040604 with(numtheory): Digits := 300: convert(evalf(sqrt(630)),confrac);
+%K A040604 nonn,cofr,easy
+%O A040604 0,1
+%A A040604 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

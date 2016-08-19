@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022262
+Showing 1-1 of 1
+
+%I A022262
+%S A022262 1,35303692060,1121715605764106708446,
+%T A022262 35248976794718684386485952344220,
+%U A022262 1106318862415031509992507967997199980871301,34718046121166753868579146371116506562228516029840080,1089491124906108051165135239699867397777196296355089299912829976
+%N A022262 Gaussian binomial coefficients [ n,11 ] for q = 9.
+%D A022262 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%o A022262 (Sage) [gaussian_binomial(n,11,9) for n in xrange(11,18)] # [From _Zerinvary Lajos_, May 28 2009]
+%K A022262 nonn
+%O A022262 0,2
+%A A022262 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

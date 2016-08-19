@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055082
+Showing 1-1 of 1
+
+%I A055082
+%S A055082 1,8,42,179,633,2001,5745,15274,38000,89331,199715,427184,878152,
+%T A055082 1741964,3345562,6239390,11327863,20065972,34747460,58924066
+%N A055082 Number of 4 X n binary matrices with no zero rows or columns, up to row and column permutation.
+%Y A055082 Cf. A024206, A055609, A054976, A048291.
+%K A055082 nonn
+%O A055082 1,2
+%A A055082 _Vladeta Jovovic_, Jun 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

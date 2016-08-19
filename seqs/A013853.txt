@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013853
+Showing 1-1 of 1
+
+%I A013853
+%S A013853 6561,387420489,22876792454961,1350851717672992089,
+%T A013853 79766443076872509863361,4710128697246244834921603689,
+%U A013853 278128389443693511257285776231761,16423203268260658146231467800709255289,969773729787523602876821942164080815560161
+%N A013853 9^(5*n+4).
+%H A013853 Vincenzo Librandi, <a href="/A013853/b013853.txt">Table of n, a(n) for n = 0..100</a>
+%H A013853 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013853 (MAGMA) [9^(5*n+4): n in [0..15]]; // Vincenzo Librandi, Jul 08 2011
+%o A013853 (Maxima) makelist(9^(5*n+4),n,0,20); [_Martin Ettl_, Oct 21 2012]
+%K A013853 nonn,easy
+%O A013853 0,1
+%A A013853 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

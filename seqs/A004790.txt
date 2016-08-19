@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004790
+Showing 1-1 of 1
+
+%I A004790
+%S A004790 2,3,8,21,55,149,404,1097,2981,162755,1202605,3269018,8886111,
+%T A004790 24154953,178482301,9744803447,26489122130,195729609429,532048240602,
+%U A004790 1446257064292,3931334297145,10686474581525,29048849665248
+%N A004790 a(n) = n-th number k >= 2 such that if 1 < j < k then fractional part of log k < fractional part of log j.
+%o A004790 (PARI) lista(n) = {last = frac(log(2));for (k=2, n, new = frac(log(k)); if (new < last, print1 (k, ", "); last = new;););} \\ _Michel Marcus_, Mar 21 2013
+%Y A004790 Cf. A004791.
+%K A004790 nonn
+%O A004790 1,1
+%A A004790 _Clark Kimberling_
+%E A004790 More terms from _David W. Wilson_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

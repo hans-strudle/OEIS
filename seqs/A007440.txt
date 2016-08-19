@@ -1,0 +1,57 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007440
+Showing 1-1 of 1
+
+%I A007440 M0413
+%S A007440 1,1,0,2,3,1,11,15,13,77,86,144,595,495,1520,4810,2485,
+%T A007440 15675,39560,6290,159105,324805,87075,1592843,2616757,2136539,
+%U A007440 15726114,20247800,32296693,152909577,145139491,417959049,1460704685,885536173,4997618808,13658704994
+%V A007440 1,-1,0,2,-3,-1,11,-15,-13,77,-86,-144,595,-495,-1520,4810,-2485,
+%W A007440 -15675,39560,-6290,-159105,324805,87075,-1592843,2616757,2136539,
+%X A007440 -15726114,20247800,32296693,-152909577,145139491,417959049,-1460704685,885536173,4997618808,-13658704994
+%N A007440 Reversion of g.f. for Fibonacci numbers 1,1,2,3,5,...
+%C A007440 Binomial transform of A104565 (reversion of Pell numbers). - _Paul Barry_, Mar 15 2005
+%C A007440 From _Paul Barry_, Nov 03 2008: (Start)
+%C A007440 Hankel transform of a(n) (starting 0,1,-1,..) is F(n)*(-1)^C(n+1,2).
+%C A007440 Hankel transform of a(n+1) is (-1)^C(n+1,2).
+%C A007440 Hankel transform of a(n+2) is F(n+2)*(-1)^C(n+2,2).
+%C A007440 (End)
+%C A007440 The sequence 1,1,-1,0,2,... given by 0^n+sum{k=0..floor((n-1)/2), C(n-1,2k)*A000108(k)*(-1)^(n-k-1)} has Hankel transform F(n+2)*(-1)^C(n+1,2). - _Paul Barry_, Jan 13 2009
+%D A007440 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007440 Vincenzo Librandi, <a href="/A007440/b007440.txt">Table of n, a(n) for n = 1..300</a>
+%H A007440 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%F A007440 (n + 3)*a(n + 2) = -(2*n + 3)*a(n + 1) - 5*n*a(n), a(1) = 1, a(2) = -1.
+%F A007440 G.f.: A(x) = (-1-x+sqrt(1+2*x+5*x^2))/(2*x).
+%F A007440 a(n) = sum{k=0..floor(n/2), binomial(n, 2k)*C(k)*(-1)^(n-k)}, where C(n) is A000108. - _Paul Barry_, May 16 2005
+%F A007440 a(n) = (5^((n+1)/2)*LegendreP(n-1,-1/sqrt(5))+5^(n/2)* LegendreP(n,-1/sqrt(5)))/(2*n+2). - _Mark van Hoeij_, Jul 02 2010
+%F A007440 a(n) = 2^(-n-1)*(sum(binomial(k+1,n-k)*5^(n-k)*(-1)^(k+2)*C(k),k,floor((n-1)/2),n)), n>0, where C(k) is A000108. - _Vladimir Kruchinin_, Sep 21 2010
+%F A007440 G.f.: (G(0)-x-1)/(x^2)=1/G(0) where G(k) = 1 + x + x^2/G(k+1) ; (continued fraction). - _Sergei N. Gladkovskii_, Dec 25 2011
+%F A007440 From _Peter Bala_, Jun 23 2015: (Start)
+%F A007440 Lucas(n) = [x^n] (x/A(x))^n for n >= 1.
+%F A007440 -1/A(-x) = 1/x - 1 + x + x^2 - 2*x^4 - 3*x^5 + x^6 + 11*x^7 + 15*x^8 - 13*x^9 + ... is the Laurent series generating function for A214649. (End)
+%t A007440 a[1] = 1; a[2] = -1; a[n_] := a[n] = (-5*(n-2)*a[n-2] + (1-2*n)*a[n-1])/(n+1); Array[a, 36] (* _Jean-François Alcover_, Apr 18 2014 *)
+%t A007440 Rest[CoefficientList[Series[(-1-x+Sqrt[1+2*x+5*x^2])/(2*x),{x,0,20}],x]] (* _Vaclav Kotesovec_, Apr 25 2015 *)
+%o A007440 (PARI) a(n)=polcoeff((-1-x+sqrt(1+2*x+5*x^2+x^2*O(x^n)))/(2*x),n)
+%o A007440 (PARI) Vec(serreverse(x/(1-x-x^2)+O(x^66))) /* _Joerg Arndt_, Aug 19 2012 */
+%o A007440 (Sage)
+%o A007440 def A007440_list(len):
+%o A007440     T = [0]*(len+1); T[1] = 1; R = [1]
+%o A007440     for n in (1..len-1):
+%o A007440         a,b,c = 1,0,0
+%o A007440         for k in range(n,-1,-1):
+%o A007440             r = a - b - c
+%o A007440             if k < n : T[k+2] = u;
+%o A007440             a,b,c = T[k-1],a,b
+%o A007440             u = r
+%o A007440         T[1] = u; R.append(u)
+%o A007440     return R
+%o A007440 A007440_list(36) # _Peter Luschny_, Nov 01 2012
+%Y A007440 Cf. A000045, A000032, A214649.
+%K A007440 sign
+%O A007440 1,4
+%A A007440 _N. J. A. Sloane_, May 24 1994
+%E A007440 Extended and signs added by _Olivier Gérard_
+%E A007440 Second formula adapted to offset by _Vaclav Kotesovec_, Apr 25 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

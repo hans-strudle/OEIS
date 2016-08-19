@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035626
+Showing 1-1 of 1
+
+%I A035626
+%S A035626 0,0,0,0,1,0,1,1,3,1,4,3,7,4,10,8,15,11,21,18,30,24,42,37,56,50,78,70,
+%T A035626 102,95,137,129,179,171,236,227,303,297,395,386,502,501,643,641,814,
+%U A035626 820,1030,1041,1291,1317,1622,1652,2018,2075,2509,2582,3107,3212,3834
+%N A035626 Number of partitions of n into parts 4k+2 and 4k+3 with at least one part of each type
+%K A035626 nonn
+%O A035626 1,9
+%A A035626 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

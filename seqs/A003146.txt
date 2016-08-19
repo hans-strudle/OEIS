@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003146
+Showing 1-1 of 1
+
+%I A003146 M3407
+%S A003146 4,11,17,24,28,35,41,48,55,61,68,72,79,85,92,98,105,109,116,122,129,
+%T A003146 136,142,149,153,160,166,173,177,184,190,197,204,210,217,221,228,234,
+%U A003146 241,247,254,258,265,271,278,285,291,298,302,309,315,322,329,335,342,346,353,359
+%N A003146 A self-generating sequence.
+%C A003146 Comment from Philippe Deléham: A003144, A003145, A003146 may be defined as follows. Consider the maps a -> ab, b ->ac, c ->a, starting from a(1) = a; then A003144 gives the indices of a, A003145 gives the indices of b and A003146 gives the indices of c. The sequence of letters in the infinite word begins a, b, a, c, a, b, a, a, b, a, c, a, b, a, b, a, c, ... Setting a = 1, b = 2, c = 3 gives A092782.
+%C A003146 Also, indices of c in the sequence closed under a -> abac, b -> aba, c -> ab; starting with a(1) = a. - _Philippe Deléham_, Apr 16 2004
+%D A003146 L. Belanger and S. Brlek, On tribonacci sequences, preprint, 1998.
+%D A003146 L. Carlitz, R. Scoville and V. E. Hoggatt, Jr., Fibonacci representations of higher order, Fib. Quart., 10 (1972), 43-69.
+%D A003146 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003146 N. J. A. Sloane, <a href="/A003146/b003146.txt">Table of n, a(n) for n = 1..3136</a>
+%p A003146 M:=17; S[1]:=`a`; S[2]:=`ab`; S[3]:=`abac`;
+%p A003146 for n from 4 to M do S[n]:=cat(S[n-1], S[n-2], S[n-3]); od:
+%p A003146 t0:=S[M]: l:=length(t0); t1:=[];
+%p A003146 for i from 1 to l do if substring(t0,i..i) = `c` then t1:=[op(t1),i]; fi; od: (_N. J. A. Sloane_, Nov 01 2006)
+%Y A003146 Cf. A003145, A003144, A080843, A092782.
+%K A003146 nonn
+%O A003146 1,1
+%A A003146 _N. J. A. Sloane_.
+%E A003146 More terms from _Philippe Deléham_, Apr 16 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

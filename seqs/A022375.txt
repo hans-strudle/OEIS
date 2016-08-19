@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022375
+Showing 1-1 of 1
+
+%I A022375
+%S A022375 2,26,28,54,82,136,218,354,572,926,1498,2424,3922,6346,10268,16614,
+%T A022375 26882,43496,70378,113874,184252,298126,482378,780504,1262882,2043386,
+%U A022375 3306268,5349654,8655922,14005576
+%N A022375 Fibonacci sequence beginning 2, 26.
+%H A022375 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022375 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022375 G.f.: (2+24x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%t A022375 a={};b=2;c=26;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022375 nonn
+%O A022375 0,1
+%A A022375 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

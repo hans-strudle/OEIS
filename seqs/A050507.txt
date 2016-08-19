@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050507
+Showing 1-1 of 1
+
+%I A050507
+%S A050507 434,8575,8825
+%N A050507 Solutions to sigma(x)+2=sigma(x+2) other than the smaller of twin primes.
+%C A050507 This sequence together with A001359 gives the solutions of sigma(x)+2 = sigma(x+2).
+%C A050507 No others < 4290000000.
+%C A050507 No others < 50000000000. [_Charles R Greathouse IV_, Oct 19 2010]
+%C A050507 They are also the solutions of A001065(x) = A001065(x+2), where A001065(n) is the sum of proper divisors of n. - _Michel Marcus_, Nov 14 2014
+%D A050507 Sivaramakrishnan, R. (1989): Classical Theory of Arithmetical Functions, M. Dekker Inc., New York-Basel, p. 81, Problem 12.
+%D A050507 These 3 solutions are from Makowski, according to Sivaramakrishnan, R. (1989).
+%e A050507 sigma(434)+2=770=sigma(434+2), so 434 is in the sequence.
+%o A050507 (PARI) is(n)=sigma(n+2)==sigma(n)+2&&!isprime(n) \\ _Charles R Greathouse IV_, Feb 13 2013
+%Y A050507 Cf. A000203, A001359, A054799.
+%K A050507 nonn,bref
+%O A050507 1,1
+%A A050507 _Jud McCranie_, Dec 27 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

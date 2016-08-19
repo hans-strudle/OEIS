@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062274
+Showing 1-1 of 1
+
+%I A062274
+%S A062274 0,0,1,7,45,291,2030,15695,135045,1287243,13495669
+%N A062274 Number of prime divisors (with repetition) of (n!)!, A000197.
+%t A062274 Table[PrimeOmega[(n!)!],{n,0,10}] (* _Harvey P. Dale_, Apr 29 2015 *)
+%o A062274 (PARI) for(n=0,10,print(bigomega(n!!)))
+%Y A062274 Cf. A000197.
+%K A062274 nonn
+%O A062274 0,4
+%A A062274 Jason Earls (zevi_35711(AT)yahoo.com), Jul 04 2001
+%E A062274 More terms from _David W. Wilson_, Jul 06, 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

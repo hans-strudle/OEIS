@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037920
+Showing 1-1 of 1
+
+%I A037920
+%S A037920 8,2,2,2,2,3,37,3,19,41,3,3,3,7,13,13,3,11123771,7,149,317,941,229,
+%T A037920 31219729,11,2084656339,3,347,911,118189,11,613,496501723,97,130517,
+%U A037920 917327,53,1832651281459,3,3,3,11,139,653,3863,5107
+%N A037920 Trajectory of 8 under prime factor concatenation procedure.
+%H A037920 P. De Geest, <a href="http://www.worldofnumbers.com/topic1.htm">Home Primes</a>
+%Y A037920 Cf. A037273.
+%K A037920 fini,full,nonn,tabl,base
+%O A037920 0,1
+%A A037920 _Jeff Burch_
+%E A037920 Edited by _Charles R Greathouse IV_, Apr 30 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

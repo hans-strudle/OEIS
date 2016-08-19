@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005199
+Showing 1-1 of 1
+
+%I A005199 M3285
+%S A005199 0,1,1,4,6,18,35,93,214,549,1362,3534,9102,23951,63192,168561,451764,
+%T A005199 1219290,3305783,9008027,24643538,67681372,186504925,515566016,
+%U A005199 1429246490
+%N A005199 a(n) = Sum_t t*F(n,t), where F(n,t) is the number of forests with n (unlabeled) nodes and exactly t trees, all of which are planted (that is, rooted trees in which the root has degree 1).
+%C A005199 The triangular array F(n,t) (analogous to A095133 for A005196 and A033185 for A005197) seems not to be in the OEIS as yet.
+%D A005199 E. M. Palmer and A. J. Schwenk, On the number of trees in a random forest, J. Combin. Theory, B 27 (1979), 109-121.
+%D A005199 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A005199 nonn
+%O A005199 1,4
+%A A005199 _N. J. A. Sloane_. Definition clarified by _N. J. A. Sloane_, May 29 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

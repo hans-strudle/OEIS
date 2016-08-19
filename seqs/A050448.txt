@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050448
+Showing 1-1 of 1
+
+%I A050448
+%S A050448 1,1,1,1,626,1,1,1,6562,626,1,1,28562,1,626,1,83522,6562,1,626,194482,
+%T A050448 1,1,1,391251,28562,6562,1,707282,626,1,1,1185922,83522,626,6562,
+%U A050448 1874162,1,28562,626,2825762,194482,1,1,4107812,1,1,1
+%N A050448 Sum_{d|n, d=1 mod 4} d^4.
+%K A050448 nonn
+%O A050448 0,5
+%A A050448 _N. J. A. Sloane_, Dec 23 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

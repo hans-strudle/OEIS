@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006804
+Showing 1-1 of 1
+
+%I A006804 M2291
+%S A006804 3,3,12,21,55,114,273,611,1437,3300,7714,17913
+%V A006804 3,-3,12,-21,55,-114,273,-611,1437,-3300,7714,-17913
+%N A006804 Percolation series for cubic lattice.
+%D A006804 J. Blease, Series expansions for the directed-bond percolation problem, J. Phys. C 10 (1977), 917-924.
+%D A006804 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A006804 sign
+%O A006804 0,1
+%A A006804 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

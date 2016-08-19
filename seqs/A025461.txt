@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025461
+Showing 1-1 of 1
+
+%I A025461
+%S A025461 0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,
+%T A025461 1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,
+%U A025461 0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,1,1,0,1,0,0,0,1,1,0,1,0,1,0,1,1,0,1,0,1,0,1,1
+%N A025461 Number of partitions of n into 8 positive cubes.
+%K A025461 nonn
+%O A025461 0,1
+%A A025461 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

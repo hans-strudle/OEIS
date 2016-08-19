@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038007
+Showing 1-1 of 1
+
+%I A038007
+%S A038007 166,248,298,518,536,586,766,946,956,1076,1126,1148,1208,1216,1366,
+%T A038007 1376,1418,1544,1558,1618,1678,1688,1726,1756,1786,1796,1898,1918,
+%U A038007 1948,1978,2138,2168,2188,2206,2228,2296,2338,2426,2458,2476
+%N A038007 Even numbers n such that b(n) is greater than b(n-1) and b(n+1); b(n) = A033178.
+%Y A038007 Cf. A038008, A038009, A038011.
+%K A038007 nonn
+%O A038007 0,1
+%A A038007 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052189
+Showing 1-1 of 1
+
+%I A052189
+%S A052189 20183,21893,25373,29251,30431,34613,50423,54833,56131,58111,63541,
+%T A052189 66413,74453,74471,76543,76561,77933,78241,81421,107563,108421,110441,
+%U A052189 112163,121403,122081,122561,131023,132893,132911,135283,137303,137831
+%N A052189 Primes p(k) such that p(k+2)-p(k+1)=p(k+1)-p(k)=18.
+%e A052189 a(1)=20183, followed by 20201 and 20219 consecutive primes with d=18 distances
+%Y A052189 Cf. A001223, A033451, A047948, A052188.
+%K A052189 nonn
+%O A052189 1,1
+%A A052189 _Labos Elemer_, Jan 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

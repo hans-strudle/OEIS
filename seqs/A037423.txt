@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037423
+Showing 1-1 of 1
+
+%I A037423
+%S A037423 1,2,3,28,37,76,132,137,152,167,183,205,210,217,280,380,407,411,413,
+%T A037423 431,441,451,455,657,660,676,692,710,711,713,717,888,903,915,917,918,
+%U A037423 933,941,957,1035,1051,1075,1076,1258,1266,1278,1282,1286,1291,1305
+%N A037423 Numbers n such that the set of base 4 digits of n equals the set of base 5 digits of n.
+%K A037423 nonn,base
+%O A037423 1,2
+%A A037423 _Clark Kimberling_
+%E A037423 Edited by Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007948
+Showing 1-1 of 1
+
+%I A007948
+%S A007948 1,2,3,4,5,6,7,4,9,10,11,12,13,14,15,4,17,18,19,20,21,22,23,12,25,26,
+%T A007948 9,28,29,30,31,4,33,34,35,36,37,38,39,20,41,42,43,44,45,46,47,12,49,
+%U A007948 50,51,52,53,18,55,28,57,58,59,60,61,62,63,4,65,66,67,68,69,70,71,36,73
+%N A007948 Largest cubefree number dividing n.
+%C A007948 a(n) = max{A212793(A027750(n,k)) * A027750(n,k): k=1..A000005(n)}. - _Reinhard Zumkeller_, May 27 2012
+%H A007948 Reinhard Zumkeller, <a href="/A007948/b007948.txt">Table of n, a(n) for n = 1..10000</a>
+%H A007948 H. Bottomley, <a href="http://www.gallup.unm.edu/~smarandache/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative functions</a>.
+%H A007948 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/OPNS.pdf">Only Problems, Not Solutions!</a>.
+%F A007948 Multiplicative with a(p^e) = p^(min(e, 2)). - _David W. Wilson_, Aug 01 2001
+%o A007948 (Haskell)
+%o A007948 a007948 = last . filter ((== 1) . a212793) . a027750_row
+%o A007948 -- _Reinhard Zumkeller_, May 27 2012, Jan 06 2012
+%o A007948 (PARI) a(n) = my(f=factor(n)); for (i=1, #f~, f[i,2] = min(f[i, 2], 2)); factorback(f); \\ _Michel Marcus_, Jun 09 2014
+%Y A007948 Cf. A004709, A007947, A058035, A062378, A027748, A124010, A197863.
+%K A007948 nonn,mult
+%O A007948 1,2
+%A A007948 R. Muller
+%E A007948 More terms from _Henry Bottomley_, Jun 18 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

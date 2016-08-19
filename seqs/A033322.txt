@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033322
+Showing 1-1 of 1
+
+%I A033322
+%S A033322 2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A033322 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A033322 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A033322 [ 2/n ].
+%F A033322 a(n)=2*{1-[(n+2) mod (n+1)]}+[n!^2 mod (n+1)]*[(n+1)!^2 mod (n+2)] - _Paolo P. Lava_, Aug 29 2007
+%K A033322 easy,nonn
+%O A033322 1,1
+%A A033322 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

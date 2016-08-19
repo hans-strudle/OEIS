@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028649
+Showing 1-1 of 1
+
+%I A028649
+%S A028649 1,0,2,0,0,0,0,0,2,0,0,4,0,0,0,4,0,0,2,0,0,0,0,4,0,0,0,0,0,0,0,0,2,0,
+%T A028649 0,4,0,0,0,0,0,0,2,0,4,0,0,0,0,0,6,4,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,
+%U A028649 0,0,0,4,2,0,4,0,0,0,0,0,0
+%N A028649 Expansion of (theta_3(z)*theta_3(21z)+theta_2(z)*theta_2(21z)).
+%K A028649 nonn
+%O A028649 0,3
+%A A028649 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

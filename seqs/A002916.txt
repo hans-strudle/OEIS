@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002916
+Showing 1-1 of 1
+
+%I A002916 M3133 N1271
+%S A002916 3,33,564,8976,155124,2791308,51382068,962178084,18258531348,
+%T A002916 350143322088,6772382631732,131922552534036,2585198190891636
+%N A002916 High temperature series for spin-1/2 Ising specific heat on 3-dimensional simple cubic lattice.
+%D A002916 G. A. Baker, Further application of the Pade approximant method to the Ising and Heisenberg models, Phys. Rev. 129 (1963) 99-102.
+%D A002916 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 391-406.
+%D A002916 A. J. Guttmann and I. G. Enting, The high-temperature specific heat exponent of the 3-dimensional Ising model, J. Phys. A 27 (1994) 8007-8010.
+%D A002916 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002916 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002916 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/ising/ising.html">Lenz-Ising Constants</a>
+%H A002916 <a href="/index/Sp#specific_heat">Index entries for sequences related to specific heat</a>
+%Y A002916 3*A001408.
+%K A002916 nonn
+%O A002916 0,1
+%A A002916 _N. J. A. Sloane_.
+%E A002916 Corrections and updates from _Steven Finch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

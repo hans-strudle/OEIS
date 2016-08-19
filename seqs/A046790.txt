@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046790
+Showing 1-1 of 1
+
+%I A046790
+%S A046790 8,9,16,18,24,25,27,32,36,40,45,48,49,50,54,56,63,64,72,75,80,81,88,
+%T A046790 90,96,98,99,100,104,108,112,117,120,121,125,126,128,135,136,144,147,
+%U A046790 150,152,153,160,162,168,169,171,175,176,180,184,189,192,196,198,200,207,208
+%N A046790 Arithmetic and geometric means of A046791(n) and a(n) both integers.
+%C A046790 n such that A008475(n) is different from A001414(n). - _Benoit Cloitre_, Jan 11 2003
+%C A046790 This sequence appears to coincide with the sequence of moduli n for which there exist affine maps f:x->a x + b modulo n, with a>1, such that f has order n in the affine group. - Emmanuel Amiot (manu.amiot(AT)free.fr), Jul 28 2007
+%D A046790 Mohammad K. Azarian, AM - GM Strikes Again, Problem 451, College Mathematics Journal, Vol. 22, No. 3, May 1991, p. 255.  Solution published in Vol. 23, No. 3, May 1992, pp. 248-249.
+%D A046790 Mohammad K. Azarian, An Application of the Inequality on the Means, Problem B-635, Fibonacci Quarterly, Vol. 27, No. 1, Feb. 1989, p.87.  Solution published in Vol. 28, No. 1, Feb. 1990, pp. 86-87.
+%D A046790 Amiot, E., AutoSimilar Melodies, J. Math. Music 2 (2008), no. 3, 157-180.
+%e A046790 8 is in the list because f:x->5x+1 mod 8 is a map with order 8 in the group of affine maps mod 8: the smallest power of f equal to identity is f^8. Obviously the maps x->x+1 always have this property, so are excluded from consideration.
+%t A046790 ordreMax[a_, n_]:= Module[{mo, r, s, s0, gcd}, mo=MultiplicativeOrder[a,n]; s= s0=Mod[Sum[a^k,{k,0,mo-1}], n]; Max[Table[gcd=GCD[a-1,b];r=1; While[Mod[s *gcd, n]!=0, s=Mod[s0+a^mos,n];r++ ]; r*mo, {b,0,n-1} ]] ] ordreMax[n_] := Module[{candidats, m,t}, candidats = Select[Range[2,n-1], (GCD[n,# ]==1 && GCD[n, #-1]>1)&]; m=Max[t=Table[ordreMax[a,n], {a, candidats}] ]; {m,Part[candidats,Flatten@Position[t, m] ]}] Module[{resu}, Do[resu=ordreMax[n]; If[First[resu] >=n, Print[n ]], {n,4,200}]] - Emmanuel Amiot (manu.amiot(AT)free.fr), Jul 28 2007
+%K A046790 nonn
+%O A046790 1,1
+%A A046790 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

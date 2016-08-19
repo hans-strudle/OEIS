@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015786
+Showing 1-1 of 1
+
+%I A015786
+%S A015786 3,42,162,5478,491910,45504705
+%N A015786 Phi(n) + 7 | sigma(n + 7).
+%o A015786 (PARI) is(n)=!(sigma(n+7)%(eulerphi(n)+7)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%K A015786 nonn
+%O A015786 1,1
+%A A015786 _Robert G. Wilson v_
+%E A015786 Corrected and added a(5)-a(6) - _Charles R Greathouse IV_, Sep 25 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

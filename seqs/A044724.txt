@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044724
+Showing 1-1 of 1
+
+%I A044724
+%S A044724 11,119,211,311,411,511,611,711,811,911,1011,1199,1211,1311,1411,1511,
+%T A044724 1611,1711,1811,1911,2011,2119,2211,2311,2411,2511,2611,2711,2811,
+%U A044724 2911,3011,3119,3211,3311,3411,3511,3611,3711,3811
+%N A044724 Numbers n such that string 1,1 occurs in the base 10 representation of n but not of n+1.
+%K A044724 nonn,base
+%O A044724 1,1
+%A A044724 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

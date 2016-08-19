@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014947
+Showing 1-1 of 1
+
+%I A014947
+%S A014947 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014947 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014947 1,1,1,1,1,1,1,0,0,0,0,0,0,0
+%V A014947 1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014947 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014947 1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0
+%N A014947 Inverse of 938th cyclotomic polynomial.
+%p A014947 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014947 Join[CoefficientList[Series[1/Cyclotomic[938,x],{x,0,74}],x],{0,0,0,0,0,0,0}] (* _Harvey P. Dale_, Jan 23 2015 *)
+%K A014947 sign
+%O A014947 0,1
+%A A014947 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

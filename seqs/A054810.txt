@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054810
+Showing 1-1 of 1
+
+%I A054810
+%S A054810 1663,1783,1861,1867,1993,2377,2467,2521,2531,3449,3457,4211,4513,
+%T A054810 5273,5413,5437,6037,6653,7237,7297,7753,7873,7927,8161,8513,9601,
+%U A054810 9613,11047,11383,11587,11827,12401,13873,14821,15131,15541,16057,16319
+%N A054810 Third term of strong prime quintets: p(m-1)-p(m-2) > p(m)-p(m-1) > p(m+1)-p(m) > p(m+2)-p(m+1).
+%H A054810 Harvey P. Dale, <a href="/A054810/b054810.txt">Table of n, a(n) for n = 0..1000</a>
+%t A054810 spqQ[{a_,b_,c_,d_,e_}]:=(b-a)>(c-b)>(d-c)>(e-d); Transpose[Select[Partition[ Prime[ Range[2000]],5,1],spqQ]][[3]] (* _Harvey P. Dale_, Feb 25 2013 *)
+%Y A054810 Cf. A051634, A054800-A054840.
+%K A054810 nonn
+%O A054810 0,1
+%A A054810 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

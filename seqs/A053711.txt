@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053711
+Showing 1-1 of 1
+
+%I A053711
+%S A053711 1,7,11,31,397,409,1657,2131,7607
+%N A053711 For some x, x!+a(n) or x!-a(n) are the upper and lower primes closest to x!.
+%C A053711 These d differences are the smallest ones of their actual property.
+%e A053711 For n=10 n!=3628800, d=11 and the closest primes to 10! are q=10!-11=3628789 p=10!+11=3628811 The d differences are listed here.
+%Y A053711 Cf. A033393, A033392, A006990, A037151, A006562, A053709, A053710.
+%K A053711 more,nonn
+%O A053711 1,2
+%A A053711 _Labos Elemer_, Feb 10 2000
+%E A053711 a(5)-a(8) from _Donovan Johnson_, Oct 12 2008
+%E A053711 a(9) from _Hans Havermann_, Aug 15 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

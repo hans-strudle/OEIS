@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035075
+Showing 1-1 of 1
+
+%I A035075
+%S A035075 9,29,90,283,895,2829,8945,28285,89443,282843,894428,2828428,8944272,
+%T A035075 28284272,89442720,282842713,894427191,2828427125,8944271910,
+%U A035075 28284271248,89442719100,282842712475,894427191000,2828427124747
+%N A035075 a(n) is root of square starting with digit 8: first term of runs.
+%F A035075 ceiling(sqrt((8*10^n)), n > 0.
+%t A035075 Ceiling[Sqrt[8*10^Range[30]]] (* _Harvey P. Dale_, Apr 12 2013 *)
+%Y A035075 Cf. A067478 (squares), A035076 (2..9).
+%K A035075 nonn,base
+%O A035075 1,1
+%A A035075 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

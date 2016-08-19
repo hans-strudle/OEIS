@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007999
+Showing 1-1 of 1
+
+%I A007999
+%S A007999 1,1,2,3,8,19,64,213,880,3717,18288,92935,531440,3147495,20525168,
+%T A007999 138638825,1015694832,7700244745,62623847536,526317901451,
+%U A007999 4705365925872,43407723925499,423149546210416,4250149857500861,44868038386273776
+%N A007999 a(n)=number of permutations w of 1,2,...,n such that w and w^{-1} are alternating.
+%D A007999 Foulkes, H. O.; Tangent and secant numbers and representations of symmetric groups. Discrete Math. 15 (1976), no. 4, 311-324.
+%D A007999 R. P. Stanley, Alternating permutations and symmetric functions, in preparation.
+%H A007999 R. P. Stanley, <a href="http://arxiv.org/abs/math/0603520">Alternating permutations and symmetric functions</a> [From _Joel B. Lewis_, May 21 2009]
+%F A007999 sum_{n=0..infinity} a(n)x^n = sum_{k=0..infinity} E_{2k+1}^2 u^{2k+1}/(2k+1)! + (1-x^2)^{-1/2} sum_{k=0..infinity} E_{2k}^2 u^{2k}/(2k)!, where E_j is an Euler number and u = (1/2)log((1+x)/(1-x)). - _Richard Stanley_, Jan 21 2006
+%K A007999 nonn
+%O A007999 0,3
+%A A007999 poirier(AT)lacim.uqam.ca, _Simon Plouffe_
+%E A007999 More terms from _Vladeta Jovovic_, May 15 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

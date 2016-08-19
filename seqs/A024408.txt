@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024408
+Showing 1-1 of 1
+
+%I A024408
+%S A024408 1716,2652,3876,3960,4290,5244,5700,5720,6900,6930,8004,8700,9300,
+%T A024408 9690,10010,10788,11088,12180,12876,12920,13020,13764,14280,15252,
+%U A024408 15470,15540,15960,16380,17220,17480,18018,18060,18088,18204,19092,19320,20592,20868
+%N A024408 Perimeters of more than one primitive Pythagorean triangle.
+%C A024408 a(23) = 14280 is the first perimeter of 3 primitive Pythagorean triangles: {119, 7080, 7081}, {168, 7055, 7057} and {3255, 5032, 5993} [From Jean-François Alcover, Mar 14 2012]
+%H A024408 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Pythag/pythag.html">Pythagorean Triples and Online Calculators</a>
+%K A024408 nonn
+%O A024408 1,1
+%A A024408 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

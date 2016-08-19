@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052686
+Showing 1-1 of 1
+
+%I A052686
+%S A052686 0,0,2,24,24,120,720,5040,40320,362880,3628800,39916800,479001600,
+%T A052686 6227020800,87178291200,1307674368000,20922789888000,355687428096000,
+%U A052686 6402373705728000,121645100408832000,2432902008176640000
+%N A052686 E.g.f. x^2*(1+3x-3x^2)/(1-x).
+%H A052686 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=634">Encyclopedia of Combinatorial Structures 634</a>
+%F A052686 E.g.f.: x^2*(-3*x+3*x^2-1)/(-1+x)
+%F A052686 Recurrence: {a(1)=0, a(0)=0, (-1-n)*a(n)+a(n+1)=0, a(2)=2, a(4)=24, a(3)=24}
+%F A052686 n!, n>3.
+%p A052686 spec := [S,{S=Prod(Z,Z,Union(Z,Z,Z,Sequence(Z)))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052686 easy,nonn
+%O A052686 0,3
+%A A052686 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

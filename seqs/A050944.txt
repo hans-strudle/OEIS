@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050944
+Showing 1-1 of 1
+
+%I A050944
+%S A050944 44,104,116,164,224,272,296,344,356,464,512,560,584,620,704,776,824,
+%T A050944 836,860,884,1004,1112,1184,1196,1280,1304,1424,1484,1520,1544,1592,
+%U A050944 1616,1700,1724,1880,1904,1952,1964,2024,2036,2120,2144,2276,2324,2372
+%N A050944 Four consecutive integers with decreasing values of sigma start at these numbers; i.e. sigma(x) > sigma(x+1) > sigma(x+2) > sigma(x+3).
+%D A050944 David Wells, The Penguin Dictionary of Curious and Interesting Numbers, entry 44.
+%e A050944 sigma(44)=84 > sigma(45)=78 > sigma(46)=72 > sigma(47)=48
+%Y A050944 Cf. A050945.
+%K A050944 nonn
+%O A050944 1,1
+%A A050944 _Jud McCranie_, Jan 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

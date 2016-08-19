@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034323
+Showing 1-1 of 1
+
+%I A034323
+%S A034323 1,7,84,1428,31416,848232,27143424,1004306688,42180880896,
+%T A034323 1982501402112,103090072909824,5876134155859968,364320317663318016,
+%U A034323 24409461283442307072,1757481212407846109184,135326053355404150407168
+%N A034323 a(n) = n-th quintic factorial number divided by 2.
+%H A034323 J.-C. Novelli, J.-Y. Thibon, <a href="http://arxiv.org/abs/1403.5962">Hopf Algebras of m-permutations,(m+1)-ary trees, and m-parking functions</a>, arXiv preprint arXiv:1403.5962, 2014
+%F A034323 2*a(n) = (5*n-3)(!^5) = product_{j=1..n} (5*j-3).
+%F A034323 E.g.f.: (-1 + (1-5*x)^(-2/5))/2, a(0) := 0.
+%F A034323 a(n) ~ sqrt(2*Pi) * 5/(2*Gamma(2/5)) * n^(9/10) * (5*n/e)^n * (1 + (109/300)/n - ...). - Joe Keane (jgk(AT)jgk.org), Nov 24 2001
+%t A034323 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 6, 5!, 5}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%t A034323 Table[Product[5j-3,{j,n}]/2,{n,20}] (* _Harvey P. Dale_, Nov 25 2013 *)
+%Y A034323 Cf. A008548, A034300, A034301, A034325.
+%K A034323 easy,nonn
+%O A034323 1,2
+%A A034323 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

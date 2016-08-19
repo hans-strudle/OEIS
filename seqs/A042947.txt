@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042947
+Showing 1-1 of 1
+
+%I A042947
+%S A042947 0,29,49,78,110,152,220,314,330,364,440,550,628,660,683,770,880,990,
+%T A042947 997,2207,5346,13064,30254,35422,37862,38006,65676,73805,143662,
+%U A042947 202196,933138,977909,3120796,3242189,3363582,3606368,3727761,3849154,3970547,4484776,4848955
+%N A042947 Gilda's numbers: if a Fibonacci sequence is formed with first term = absolute value between decimal digits in n and second term = sum of decimal digits in n, then n itself occurs as a term in the sequence.
+%C A042947 Is this sequence infinite?
+%H A042947 Russo, F. <a href="http://www.gallup.unm.edu/~smarandache/Felice-Russo-book1.pdf">A Set of New Smarandache Functions, Sequences and Conjectures in Numer Theory.</a>, Lupton, AZ: American Research Press, 2000.
+%F A042947 Let be n=x1x2x3...xi in base 10. Then F(0)=|x1-x2..-xi|, F(1)=x1+x2+x3..+xi......F(k)=F(k-1)+F(k-2). If F(k)=n then n belong to the sequence.
+%o A042947 (PARI) for(n=0,10000000,s=eval(Vec(Str(n)));f1=sum(i=1,#s,s[i]);f0=abs(2*s[1]-f1);f=f0+f1;while(f<=n,if(f==n,print1(n",");break);f0=f1;f1=f;f=f0+f1)) -Herman Jamke (hermanjamke(AT)fastmail.fm), Mar 30 2008
+%Y A042947 Cf. A038868.
+%K A042947 base,nonn
+%O A042947 0,2
+%A A042947 _Felice Russo_
+%E A042947 Corrected and extended by Larry Reeves (larryr(AT)acm.org), Sep 28 2000
+%E A042947 2 more terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Mar 30 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

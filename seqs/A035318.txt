@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035318
+Showing 1-1 of 1
+
+%I A035318
+%S A035318 1,1,1,10,21,483,1485,56628,225225,12317877,59520825,4304016990,
+%T A035318 24325703325,2208143028375,14230536445125,1564439686929000,
+%U A035318 11288163762500625,1463987089109939625,11665426077721040625,1749439028845202483250,15230046989184655753125
+%N A035318 Right-hand diagonal of A035309.
+%H A035318 Gheorghe Coserea, <a href="/A035318/b035318.txt">Table of n, a(n) for n = 0..200</a>
+%F A035318 a(n) = T(n, floor(n/2)), where T(n,g) is defined by A035309. - _Gheorghe Coserea_, Mar 18 2016
+%o A035318 (PARI)
+%o A035318 N = 20; F = 1; gmax(n) = n\2;
+%o A035318 Q = matrix(N + 1, N + 1);
+%o A035318 Qget(n, g) = { if (g < 0 || g > n/2, 0, Q[n+1, g+1]) };
+%o A035318 Qset(n, g, v) = { Q[n+1, g+1] = v };
+%o A035318 Quadric({x=1}) = {
+%o A035318   Qset(0, 0, x);
+%o A035318   for (n = 1, length(Q)-1, for (g = 0, gmax(n),
+%o A035318     my(t1 = (1+x)*(2*n-1)/3 * Qget(n-1, g),
+%o A035318        t2 = (2*n-3)*(2*n-2)*(2*n-1)/12 * Qget(n-2, g-1),
+%o A035318        t3 = 1/2 * sum(k = 1, n-1, sum(i = 0, g,
+%o A035318        (2*k-1) * (2*(n-k)-1) * Qget(k-1, i) * Qget(n-k-1, g-i))));
+%o A035318     Qset(n, g, (t1 + t2 + t3) * 6/(n+1))));
+%o A035318 };
+%o A035318 Quadric('x + O('x^(F+1)));
+%o A035318 v = vector(N+2-F, n, vector(1 + gmax(n-1), g, polcoeff(Qget(n+F-2, g-1), F)));
+%o A035318 apply(x->x[#x], v) \\ _Gheorghe Coserea_, Mar 17 2016
+%K A035318 nonn
+%O A035318 0,4
+%A A035318 _N. J. A. Sloane_.
+%E A035318 More terms from _Gheorghe Coserea_, Mar 18 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

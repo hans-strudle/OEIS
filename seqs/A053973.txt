@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053973
+Showing 1-1 of 1
+
+%I A053973
+%S A053973 9,676,69696,97969,9696996,9697699776769,77797697969777769,
+%T A053973 776797677679677696,6776696769676669969,9767769967769766976,
+%U A053973 97667999767779769677969
+%N A053973 Squares composed of digits {6,7,9}.
+%H A053973 P. De Geest, <a href="http://www.worldofnumbers.com/threedigits.htm">Squares containing at most three distinct digits, Index entries for related sequences</a>
+%H A053973 Author?, <a href="http://blue.kakiko.com/mmrmmr/htm/eqtn06.html">Source</a>, (<a href="http://blue.kakiko.com/mmrmmr/txt/eqtn06.txt">txt</a>)
+%t A053973 Flatten[Table[Select[FromDigits/@Tuples[{6,7,9},i],IntegerQ[Sqrt[#]]&],{i,23}]] (* _Harvey P. Dale_, Dec 07 2014 *)
+%Y A053973 Cf. A053972.
+%K A053973 nonn,base
+%O A053973 1,1
+%A A053973 _Patrick De Geest_, Mar 15 2000.
+%E A053973 More terms from C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 14 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

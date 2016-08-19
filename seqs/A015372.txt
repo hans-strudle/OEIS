@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015372
+Showing 1-1 of 1
+
+%I A015372
+%S A015372 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,
+%T A015372 0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A015372 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+%V A015372 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,
+%W A015372 0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+%X A015372 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0
+%N A015372 Inverse of 1363rd cyclotomic polynomial.
+%p A015372 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015372 sign
+%O A015372 0,1
+%A A015372 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

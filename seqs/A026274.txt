@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026274
+Showing 1-1 of 1
+
+%I A026274
+%S A026274 3,5,8,11,13,16,18,21,24,26,29,32,34,37,39,42,45,47,50,52,55,58,60,63,
+%T A026274 66,68,71,73,76,79,81,84,87,89,92,94,97,100,102,105,107,110,113,115,
+%U A026274 118,121,123,126,128,131,134,136,139,141,144
+%N A026274 Greatest k such that s(k) = n, where s = A026272.
+%C A026274 This is the upper s-Wythoff sequence, where s(n)=n+1.
+%C A026274 See comments at A026273.
+%C A026274 Conjecture: This sequence consists precisely of those numbers without a 1 or 2 in their Zeckendorf representation. - _Charles R Greathouse IV_, Jan 28 2015
+%C A026274 A Beatty sequence with complement A026273. - _Robert G. Wilson v_, Jan 30 2015
+%C A026274 A035612(a(n)+1) = 1. - _Reinhard Zumkeller_, Jul 20 2015
+%H A026274 Reinhard Zumkeller, <a href="/A026274/b026274.txt">Table of n, a(n) for n = 1..10000</a>
+%F A026274 a(n) = floor(r*r*(n+2r-3)), where r = (1+sqrt(5))/2 = A001622. [Corrected by _Tom Edgar_, Jan 30 2015]
+%F A026274 a(n) = 3*n - floor[(n+1)/(1+phi)], phi = (1+sqrt(5))/2. - Joshua Tobin (tobinrj(AT)tcd.ie), May 31 2008
+%t A026274 r=(1+Sqrt[5])/2;
+%t A026274 a[n_]:=Floor[r*r*(n+2r-3)];
+%t A026274 Table[a[n],{n,200}]
+%o A026274 (Haskell)
+%o A026274 a026274 n = a026274_list !! (n-1)
+%o A026274 a026274_list = map (subtract 1) $ tail $ filter ((== 1) . a035612) [1..]
+%o A026274 -- _Reinhard Zumkeller_, Jul 20 2015
+%Y A026274 Cf. A184117, A026273.
+%K A026274 nonn
+%O A026274 1,1
+%A A026274 _Clark Kimberling_
+%E A026274 Extended by _Clark Kimberling_, Jan 14 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

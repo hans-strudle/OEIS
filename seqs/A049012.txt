@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049012
+Showing 1-1 of 1
+
+%I A049012
+%S A049012 33,75,94,106,118,1540,2442,5340
+%N A049012 Composite numbers n such that number of nonprime d with 0<d<n, GCD(n,d)=1, is pi(n).
+%C A049012 Numbers n such that 2*A000720(n) = A000010(n) + A001221(n). - _Max Alekseyev_, Aug 22 2013
+%C A049012 No other terms below 10^6.
+%e A049012 GCD(33,d)=1: d=1,4,8,10,14,16,20,25,26,28,32, pi(33)=11, so 33 is OK.
+%o A049012 (PARI) isok(n) = {if (isprime(n) , return (0)); nb = 0; for (d=1, n-1, if (! isprime(d) && gcd(n, d) == 1, nb++);); return (nb == primepi(n));} \\ _Michel Marcus_, Jul 14 2013
+%K A049012 nonn,more
+%O A049012 1,1
+%A A049012 _Naohiro Nomoto_
+%E A049012 More terms from _Michel Marcus_, Jul 14 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

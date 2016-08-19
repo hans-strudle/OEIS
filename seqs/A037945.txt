@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037945
+Showing 1-1 of 1
+
+%I A037945
+%S A037945 1,456,50652,316352,2377410,23097312,16917544,383331840,
+%T A037945 1403363637,1084098960,16212108,16023861504,50421615062,
+%U A037945 7714400064,120420571320,8939761664,225070099506,639933818472
+%V A037945 1,456,50652,-316352,-2377410,23097312,-16917544,-383331840,
+%W A037945 1403363637,-1084098960,-16212108,-16023861504,50421615062,
+%X A037945 -7714400064,-120420571320,-8939761664,225070099506,639933818472
+%N A037945 Coefficients of unique normalized cusp form Delta_20 of weight 20 for full modular group.
+%H A037945 Fernando Q. Gouvêa, <a href="http://projecteuclid.org/euclid.em/1047920420">Non-ordinary primes: a story</a>, Experimental Mathematics, Volume 6, Issue 3 (1997), 195-205.
+%H A037945 <a href="/index/Gre#groups_modular">Index entries for sequences related to modular groups</a>
+%e A037945 q^2 + 456*q^4 + ...
+%K A037945 sign
+%O A037945 0,2
+%A A037945 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

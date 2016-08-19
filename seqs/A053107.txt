@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053107
+Showing 1-1 of 1
+
+%I A053107
+%S A053107 1,64,2304,61440,1351680,25952256,449839104,7197425664,107961384960,
+%T A053107 1535450808320,20882130993152,273366078455808,3462636993773568,
+%U A053107 42617070692597760,511404848311173120
+%N A053107 Expansion of 1/(1-8*x)^8.
+%C A053107 With a different offset, number of n-permutations (n>=7) of 9 objects: p, r, s, t, u, v, z, x, y with repetition allowed, containing exactly 7 u's. - _Zerinvary Lajos_, Feb 11 2010
+%H A053107 Vincenzo Librandi, <a href="/A053107/b053107.txt">Table of n, a(n) for n = 0..400</a>
+%F A053107 a(n) = 8^n*binomial(n+7, 7); G.f. 1/(1-8*x)^8.
+%t A053107 Table[Binomial[n + 7, 7]*8^n, {n, 0, 20}] (* _Zerinvary Lajos_, Feb 11 2010 *)
+%o A053107 (Sage)[lucas_number2(n, 8, 0)*binomial(n,7)/8^7 for n in xrange(7, 22)] # _Zerinvary Lajos_, Mar 13 2009
+%o A053107 (MAGMA) [8^n* Binomial(n+7, 7): n in [0..20]]; // Vincenzo Librandi, Oct 16 2011
+%Y A053107 A036226.
+%Y A053107 A081138, A140802, A175210, A140406, A053107, A141054,A173155 [From _Zerinvary Lajos_, Feb 11 2010]
+%K A053107 easy,nonn
+%O A053107 0,2
+%A A053107 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

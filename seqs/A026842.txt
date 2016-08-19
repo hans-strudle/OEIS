@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026842
+Showing 1-1 of 1
+
+%I A026842
+%S A026842 1,9,56,300,1487,7041,32381,146017,649395,2859231,12494914,54291912,
+%T A026842 234860677,1012433965,4352210327,18666918033,79916230409,341615895659,
+%U A026842 1458457275715,6220016154525,26503542364381,112847001503099,480173686483581
+%N A026842 T(2n,n-3), T given by A026725.
+%C A026842 Column k=8 of triangle A236830. - _Philippe Deléham_, Feb 02 2014
+%F A026842 a(n) = A026846(n) = A026849(n). - _Philippe Deléham_, Feb 02 2014
+%F A026842 G.f.: (x^3*C(x)^8)/(1-x*C(x)^3) where C(x) is the g.f. of A000108. - _Philippe Deléham_, Feb 02 2014
+%Y A026842 Cf. A236830
+%K A026842 nonn
+%O A026842 3,2
+%A A026842 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

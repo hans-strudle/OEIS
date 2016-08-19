@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001568
+Showing 1-1 of 1
+
+%I A001568 M2171 N0867
+%S A001568 1,1,1,2,49,629,6961,38366,1899687,133065253,6482111309
+%V A001568 1,-1,-1,2,49,629,6961,38366,-1899687,-133065253,-6482111309
+%N A001568 Related to 3-line Latin rectangles.
+%D A001568 S. M. Kerawala, The asymptotic number of three-deep Latin rectangles, Bull. Calcutta Math. Soc., 39 (1947), 71-72.
+%D A001568 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001568 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001568 S. M. Kerawala, <a href="/A000186/a000186.pdf">The asymptotic number of three-deep Latin rectangles</a>, Bull. Calcutta Math. Soc., 39 (1947), 71-72. [Annotated scanned copy]
+%H A001568 S. M. Kerawala, <a href="/A001569/a001569.pdf">Asymptotic solution of the "Probleme des menages</a>, Bull. Calcutta Math. Soc., 39 (1947), 82-84. [Annotated scanned copy]
+%H A001568 <a href="/index/La#Latin">Index entries for sequences related to Latin squares and rectangles</a>
+%K A001568 sign,more
+%O A001568 1,4
+%A A001568 _N. J. A. Sloane_.
+%E A001568 Signs added by _N. J. A. Sloane_, Jul 23 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

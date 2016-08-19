@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017729
+Showing 1-1 of 1
+
+%I A017729
+%S A017729 1,66,2211,50116,864501,12103014,143218999,1473109704,13442126049,
+%T A017729 110524147514,828931106355,5727160371180,36749279048405,
+%U A017729 220495674290430,1244225590638855,6635869816740560,33594090947249085
+%N A017729 Binomial coefficients C(n,65).
+%o A017729 (Sage) [binomial(n, 65) for n in xrange(65,82)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017729 nonn
+%O A017729 65,2
+%A A017729 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

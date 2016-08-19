@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005075
+Showing 1-1 of 1
+
+%I A005075
+%S A005075 0,4,0,4,25,4,0,4,0,29,121,4,0,4,25,4,289,4,0,29,0,125,529,4,25,4,0,4,
+%T A005075 841,29,0,4,121,293,25,4,0,4,0,29,1681,4,0,125,25,533,2209,4,0,29,289,
+%U A005075 4,2809,4,146,4,0,845,3481
+%N A005075 Sum of squares of primes = 2 mod 3 dividing n.
+%F A005075 Additive with a(p^e) = p^2 if p = 2 (mod 3), 0 otherwise.
+%K A005075 nonn
+%O A005075 1,2
+%A A005075 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

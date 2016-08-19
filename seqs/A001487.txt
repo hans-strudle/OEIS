@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001487
+Showing 1-1 of 1
+
+%I A001487 M4618 N1971
+%S A001487 1,9,36,84,117,54,177,540,837,755,54,1197,2535,3204,2520,246,
+%T A001487 3150,6426,8106,7011,2844,3549,10359,15120,15804,11403,2574,
+%U A001487 8610,18972,25425,25824,18954,6165,10080,25101,35262,37799,31374,17379,1929
+%V A001487 1,-9,36,-84,117,-54,-177,540,-837,755,-54,-1197,2535,-3204,2520,-246,
+%W A001487 -3150,6426,-8106,7011,-2844,-3549,10359,-15120,15804,-11403,2574,
+%X A001487 8610,-18972,25425,-25824,18954,-6165,-10080,25101,-35262,37799,-31374,17379,1929
+%N A001487 Expand {Product_{j=1..inf} (1-x^j) - 1 }^9 in powers of x.
+%D A001487 H. Gupta, On the coefficients of the powers of Dedekind's modular form, J. London Math. Soc., 39 (1964), 433-440.
+%D A001487 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001487 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A001487 sign
+%O A001487 1,2
+%A A001487 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

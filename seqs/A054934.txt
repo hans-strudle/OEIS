@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054934
+Showing 1-1 of 1
+
+%I A054934
+%S A054934 1,2,6,30,342,11164,1077370,287640989,207974848520,408004023529326,
+%T A054934 2187203136795598146,32269918474347692838600,
+%U A054934 1318898367787065334889143452,150182948079490899321955309512894
+%N A054934 Number of oriented graphs on n nodes up to reversing the arcs.
+%H A054934 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054934 Average of A001174 and A005639.
+%K A054934 nonn,easy
+%O A054934 1,2
+%A A054934 _N. J. A. Sloane_, May 24 2000
+%E A054934 More terms from Philip Sung (phil(AT)main.nu), May 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

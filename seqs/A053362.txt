@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053362
+Showing 1-1 of 1
+
+%I A053362
+%S A053362 4,12,16,20,24,39,40,65,77,95,240,256,303,376,416,596,760,1037,1045,
+%T A053362 1553,2452,2559,2596,2607,4616,5703,8620,8799,10180,12756,13124,16620,
+%U A053362 17312,29489,33576,51149,74832,77560,106863
+%N A053362 Numbers n such that 291*2^n+1 is prime.
+%H A053362 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A053362 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A053362 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A053362 hard,nonn
+%O A053362 1,1
+%A A053362 _N. J. A. Sloane_, Dec 29 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

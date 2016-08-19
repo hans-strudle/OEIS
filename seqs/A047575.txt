@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047575
+Showing 1-1 of 1
+
+%I A047575
+%S A047575 0,5,6,7,8,13,14,15,16,21,22,23,24,29,30,31,32,37,38,39,40,45,46,47,
+%T A047575 48,53,54,55,56,61,62,63,64,69,70,71,72,77,78,79,80,85,86,87,88,93,94,
+%U A047575 95,96,101,102,103,104,109,110
+%N A047575 Numbers that are congruent to {0, 5, 6, 7} mod 8.
+%t A047575 Select[Range[0,120],MemberQ[{0,5,6,7},Mod[#,8]]&] (* _Harvey P. Dale_, Jun 30 2011 *)
+%K A047575 nonn
+%O A047575 1,2
+%A A047575 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

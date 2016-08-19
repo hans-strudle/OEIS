@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046293
+Showing 1-1 of 1
+
+%I A046293
+%S A046293 102,107,203,207,248,257,263,271,307,312,321,324,329,331,343,357,362,
+%T A046293 385,390,429,458,469,486,491,524,535,546,553,568,569,586,607,614,625,
+%U A046293 627,633,634,640,648,651,662,665,668,675,688,695,702,707,711,712,715
+%N A046293 2^a(n) contains 2^7=128 as largest proper substring of form 2^n.
+%e A046293 2^102=50706024009129176059868{128}21504.
+%Y A046293 Cf. A033921.
+%K A046293 nonn,base
+%O A046293 0,1
+%A A046293 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043295
+Showing 1-1 of 1
+
+%I A043295
+%S A043295 1,1,1,1,5,16,7,17,28,20,26,34,25,47,53,44,79,79,88,82,88,86,104,146,
+%T A043295 113,152,145,164,152,158,160,206,164,190,193,250,205,262,259,341,257,
+%U A043295 278,331,301,323,362,295,356,349,355,346,359,380,475,457,449,415,464
+%N A043295 Sum of digits of numerator of Bernoulli number B(2n).
+%e A043295 Numerator(B(2*9))=43867 and 4+3+8+6+7=28 hence a(9)=28
+%Y A043295 Cf. A043296.
+%K A043295 base,easy,nonn
+%O A043295 1,5
+%A A043295 _Benoit Cloitre_, Mar 24 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

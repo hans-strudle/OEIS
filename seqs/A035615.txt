@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035615
+Showing 1-1 of 1
+
+%I A035615
+%S A035615 1,0,2,2,6,12,26,58,126,278,602,1300,2774,5878,12350,25778,53470,
+%T A035615 110332,226610,463602,945214,1921550,3896642,7885092,15927086,
+%U A035615 32121582,64697726
+%N A035615 Number of winning length n strings with a 2 symbol alphabet in "same game".
+%C A035615 Strings that can be reduced to null string by repeatedly removing an entire run of two or more consecutive symbols.
+%H A035615 C. Burns and B. Purcell, <a href="http://www.oberlin.edu/math/Research/Burns-Purcell.pdf">A note on Stephan's conjecture 77</a>, preprint, 2005.
+%H A035615 Sascha Kurz, Polynomials for same game, <a href="http://www.mathe2.uni-bayreuth.de/sascha/oeis/paper/same_game.pdf">pdf</a>
+%H A035615 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (4, -2, -8, 6, 6, -3, -2).
+%F A035615 G.f.: x(2x^6-6x^5+8x^4+2x^3-6x^2+2x)/[(1-x^2)(1-2x)(1-x-x^2)^2] (conjectured). - _Ralf Stephan_, May 11 2004. Established by Burns and Purcell - see link.
+%F A035615 a(0)=1, a(1)=0, a(2)=2, a(3)=2, a(4)=6, a(5)=12, a(6)=26, a(7)=58, a(n)=4*a(n-1)-2*a(n-2)-8*a(n-3)+6*a(n-4)+6*a(n-5)-3*a(n-6)-2*a(n-7). - _Harvey P. Dale_, Sep 26 2012
+%e A035615 11011001 is a winning string since 110{11}001->11{000}1->{111}->null
+%t A035615 Join[{1},Rest[CoefficientList[Series[x (2x^6-6x^5+8x^4+2x^3-6x^2+2x)/ ((1-x^2)(1-2x)(1-x-x^2)^2),{x,0,40}],x]]] (* or *) Join[{1}, LinearRecurrence[ {4,-2,-8,6,6,-3,-2},{0,2,2,6,12,26,58},40]] (* _Harvey P. Dale_, Sep 26 2012 *)
+%o A035615 (PARI) a(n)=if(n, ([0,1,0,0,0,0,0; 0,0,1,0,0,0,0; 0,0,0,1,0,0,0; 0,0,0,0,1,0,0; 0,0,0,0,0,1,0; 0,0,0,0,0,0,1; -2,-3,6,6,-8,-2,4]^(n-1)*[0;2;2;6;12;26;58])[1,1], 1) \\ _Charles R Greathouse IV_, Jun 15 2015
+%Y A035615 Cf. A035617.
+%K A035615 nonn,nice,easy
+%O A035615 0,3
+%A A035615 _Erich Friedman_
+%E A035615 More terms from _Naohiro Nomoto_, Jul 09 2001
+%E A035615 Further terms from _Sascha Kurz_, Oct 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

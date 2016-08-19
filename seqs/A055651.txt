@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055651
+Showing 1-1 of 1
+
+%I A055651
+%S A055651 0,1,1,1,0,1,1,1,1,1,1,2,0,2,1,1,3,1,1,3,1,1,4,0,0,0,4,1,1,
+%T A055651 5,7,17,17,7,5,1,1,6,28,118,0,118,28,6,1,1,7,79,513,399,
+%U A055651 399,513,79,7,1,1,8,192,1844,2800,0,2800,1844,192,8,1,1,9,431
+%V A055651 0,1,-1,1,0,-1,1,1,-1,-1,1,2,0,-2,-1,1,3,1,-1,-3,-1,1,4,0,0,0,-4,-1,1,
+%W A055651 5,-7,-17,17,7,-5,-1,1,6,-28,-118,0,118,28,-6,-1,1,7,-79,-513,-399,
+%X A055651 399,513,79,-7,-1,1,8,-192,-1844,-2800,0,2800,1844,192,-8,-1,1,9,-431
+%N A055651 Table read by rows: T(m,k)=m^k-k^m (with 0^0 assumed to be finite).
+%Y A055651 Rows A000012 (offset), A023443, A024012, A024026, A024040 and diagonals A000004, A007925, A046065.
+%K A055651 easy,sign,tabl
+%O A055651 0,12
+%A A055651 _Henry Bottomley_, Jun 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

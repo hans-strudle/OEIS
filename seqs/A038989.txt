@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038989
+Showing 1-1 of 1
+
+%I A038989
+%S A038989 1,2,5,14,41,118,341,986,2849,8234,23797,68774,198761,574430,1660133,
+%T A038989 4797874,13866113,40073810,115815461,334712894,967338217,2795659334,
+%U A038989 8079605429,23350493066,67484177441
+%N A038989 Expansion of (1-x^2-2*x^3)/(1-2*x-2*x^2-2*x^3+x^4).
+%H A038989 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,2,2,-1).
+%K A038989 nonn
+%O A038989 0,2
+%A A038989 _Colin Mallows_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

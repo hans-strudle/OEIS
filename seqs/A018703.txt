@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018703
+Showing 1-1 of 1
+
+%I A018703
+%S A018703 1,2,3,4,6,8,12,24,37,74,111,148,222,296,444,888
+%N A018703 Divisors of 888.
+%H A018703 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
+%o A018703 (Sage) divisors(888);# [From _Zerinvary Lajos_, Jun 13 2009]
+%K A018703 nonn,fini,full
+%O A018703 1,2
+%A A018703 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

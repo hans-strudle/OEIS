@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057481
+Showing 1-1 of 1
+
+%I A057481
+%S A057481 2,9,15,17,18,36,60,63,84,95,98,135,156,170,186,218,540,641,660
+%N A057481 Numbers n such that x^n + x^11 + 1 is irreducible over GF(2).
+%t A057481 Do[ If[ ToString[ Factor[ x^n + x^11 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^11 + 1 ], Print[ n ] ], {n, 0, 750} ]
+%Y A057481 Cf. A002475.
+%K A057481 nonn
+%O A057481 1,1
+%A A057481 _Robert G. Wilson v_, Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

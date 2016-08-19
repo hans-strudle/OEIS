@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057911
+Showing 1-1 of 1
+
+%I A057911
+%S A057911 1,2,3,4,5,8,9,22,23,28,37,49,53,59,74,83,149,183,577,993,1335,1777
+%N A057911 Numbers n such that 2*3^n + 5 is prime.
+%t A057911 Do[ If[ PrimeQ[ 2*3^n + 5 ], Print[ n ] ], {n, 1, 2500} ]
+%K A057911 nonn
+%O A057911 1,2
+%A A057911 _Robert G. Wilson v_, Nov 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

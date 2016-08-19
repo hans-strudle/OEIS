@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008979
+Showing 1-1 of 1
+
+%I A008979
+%S A008979 1,720,7484400,137225088000,3246670537110000,88832646059788350720,
+%T A008979 2670177736637149247308800,85722533226982363751829504000,
+%U A008979 2889253496242619386328267523990000
+%N A008979 (6n)!/(n!)^6.
+%H A008979 Vincenzo Librandi, <a href="/A008979/b008979.txt">Table of n, a(n) for n = 0..100</a>
+%t A008979 Table[(6 n)!/(n)!^6, {n, 0, 20}] (* _Vincenzo Librandi_, Aug 13 2014 *)
+%o A008979 (MAGMA) [Factorial(6*n)/Factorial(n)^6: n in [0..20]]; // _Vincenzo Librandi_, Aug 13 2014
+%K A008979 nonn
+%O A008979 0,2
+%A A008979 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

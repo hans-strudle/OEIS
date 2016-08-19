@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005076
+Showing 1-1 of 1
+
+%I A005076
+%S A005076 0,8,0,8,125,8,0,8,0,133,1331,8,0,8,125,8,4913,8,0,133,0,1339,12167,8,
+%T A005076 125,8,0,8,24389,133,0,8,1331,4921,125,8,0,8,0,133,68921,8,0,1339,125,
+%U A005076 12175,103823,8,0,133,4913
+%N A005076 Sum of cubes of primes = 2 mod 3 dividing n.
+%F A005076 Additive with a(p^e) = p^3 if p = 2 (mod 3), 0 otherwise.
+%K A005076 nonn
+%O A005076 1,2
+%A A005076 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

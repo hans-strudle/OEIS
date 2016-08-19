@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048597
+Showing 1-1 of 1
+
+%I A048597
+%S A048597 1,2,3,4,6,8,12,18,24,30
+%N A048597 Very round numbers: reduced residue system consists of only primes and 1.
+%C A048597 According to Ribenboim, Schatunowsky and Wolfskehl independently showed that 30 is the largest element in the sequence. This gives a lower bound for the maximum of the smallest prime in a, a+d, a+2d, ... taken over all a with 1 < a < d and GCD(a,d) = 1 for d > 30 [see Ribenboim].
+%C A048597 For n >= 4, numbers that are divisible by all primes <= sqrt(n). - _Jayanta Basu_, May 03 2013
+%D A048597 A. H. Beiler, Recreations in the Theory of Numbers, page 91.
+%D A048597 H. Bonse, Über eine bekannte Eigenschaft der Zahl 30 und ihre Verallgemeinerung, Archiv der Mathematik und Physik 3 (12) (1907), 292-295.
+%D A048597 R. Honsberger, Mathematical Diamonds, MAA, 2003, see p. 79. [Added by _N. J. A. Sloane_, Jul 05 2009]
+%D A048597 H. Rademacher and O. Toeplitz, Von Zahlen und Figuren, Springer Verlag, Berlin, 1933, Zweite Auflage, see last chapter.
+%D A048597 H. Rademacher & O. Toeplitz, The Enjoyment of Mathematics, pp. 187-192 Dover NY 1990.
+%D A048597 P. Ribenboim: The little book of big primes, Chapter on primes in arithmetic progression.
+%D A048597 J. E. Roberts, Lure of Integers, pp. 179-180 MAA 1992
+%H A048597 Bill Taylor, <a href="http://mathforum.org/epigone/sci.math/chaxclixsnerm">Posting to sci.math, Sep 13 1999</a>
+%F A048597 PrimeQ[ {k | GCD[ a[ n ], k ]=1; k= 2, ..., n-1} ] = True for all k.
+%e A048597 The reduced residue systems of these numbers are as follows: {{1, {1}}, {2, {1}}, {3, {1, 2}}, {4, {1, 3}}, {6, {1, 5}}, {8, {1, 3, 5, 7}}, {12, {1, 5, 7, 11}}, {18, {1, 5, 7, 11, 13, 17}}, {24, {1, 5, 7, 11, 13, 17, 19, 23}}, {30, {1, 7, 11, 13, 17, 19, 23, 29}}}
+%o A048597 (PARI) is(n)=forcomposite(k=2,n-1,if(gcd(n,k)==1, return(0))); 1 \\ _Charles R Greathouse IV_, Apr 28 2015
+%Y A048597 The sequences consists of the n with A036997(n)=0.
+%K A048597 fini,full,nonn
+%O A048597 1,2
+%A A048597 _Labos Elemer_
+%E A048597 Additional comments from Ulrich Schimke (ulrschimke(AT)aol.com), May 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

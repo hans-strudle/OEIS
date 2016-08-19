@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014045
+Showing 1-1 of 1
+
+%I A014045
+%S A014045 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
+%T A014045 0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,
+%U A014045 0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+%V A014045 1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,
+%W A014045 0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,-1,0,0,0,0,0,
+%X A014045 0,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+%N A014045 Inverse of 36th cyclotomic polynomial.
+%H A014045 Vincenzo Librandi, <a href="/A014045/b014045.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014045 <a href="/index/Rec#order_12">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, -1).
+%p A014045 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014045 CoefficientList[Series[1/Cyclotomic[36, x], {x, 0, 100}], x] (* _Vincenzo Librandi_, Apr 04 2014 *)
+%t A014045 LinearRecurrence[{0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, -1},{1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},81] (* _Ray Chandler_, Sep 15 2015 *)
+%o A014045 (PARI) Vec(1/polcyclo(36)+O(x^99)) \\ _Charles R Greathouse IV_, Apr 01 2014
+%K A014045 sign,easy
+%O A014045 0,1
+%A A014045 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

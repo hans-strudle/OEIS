@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049855
+Showing 1-1 of 1
+
+%I A049855
+%S A049855 2,3,3,5,10,18,31,54,95,167,293,514,902,1583,2778,4875,8555,15013,
+%T A049855 26346,46234,81135,142382,249863,438479,769477,1350338,2369678,
+%U A049855 4158495,7297650,12806483,22473811,39438789,69210250,121455522
+%N A049855 a(n)=Sum{a(k): k=0,1,2,...,n-3,n-1}; a(n-2) is not a summand; 2 initial terms required.
+%F A049855 a(n)=2*a(n-1)-a(n-2)+a(n-3); 3 initial terms required.
+%K A049855 nonn
+%O A049855 0,1
+%A A049855 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

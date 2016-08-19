@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037047
+Showing 1-1 of 1
+
+%I A037047
+%S A037047 1,0,1,0,0,0,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,2,0,
+%T A037047 0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+%U A037047 1,0,0,0,0,0,0,0,0,0,0,0,2
+%N A037047 Starting at n, "say what you see"; sequence gives number of primes obtained before first composite number appears.
+%H A037047 P. De Geest, <a href="http://www.worldofnumbers.com/palpri.htm">World!Of Palindromic Primes</a>
+%e A037047 1->11(prime)->21(composite), so a(1)=1.
+%Y A037047 Cf. A005150, A036978.
+%K A037047 nonn,base
+%O A037047 1,7
+%A A037047 _G. L. Honaker, Jr._
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

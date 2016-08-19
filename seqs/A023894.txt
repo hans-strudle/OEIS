@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023894
+Showing 1-1 of 1
+
+%I A023894
+%S A023894 1,0,1,1,2,2,3,4,6,7,9,12,15,19,23,29,37,44,54,66,80,96,115,138,165,
+%T A023894 196,231,275,322,380,443,520,607,705,819,950,1099,1268,1461,1681,1932,
+%U A023894 2214,2533,2898,3305,3768,4285,4872,5530,6267,7094,8022,9060
+%N A023894 Number of partitions of n into prime power parts (1 excluded).
+%H A023894 E. Grosswald, <a href="http://projecteuclid.org/Dienst/UI/1.0/Summarize/euclid.mmj/1028998381">Partitions into prime powers</a>
+%F A023894 G.f.: Prod(p prime, Prod(k >= 1, 1/(1-x^(p^k))))
+%o A023894 (PARI) isprimepower(n)= {ispower(n, , &n); isprime(n)}
+%o A023894 lista(m) = {x = t + t*O(t^m); gf = prod(k=1, m, if (isprimepower(k), 1/(1-x^k), 1)); for (n=0, m, print1(polcoeff(gf, n, t), ", "));}
+%o A023894 \\ _Michel Marcus_, Mar 09 2013
+%Y A023894 Cf. A023893.
+%K A023894 nonn
+%O A023894 0,5
+%A A023894 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

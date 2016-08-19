@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012261
+Showing 1-1 of 1
+
+%I A012261
+%S A012261 1,1,1,4,13,76,421,3424,26713,277456,2794441,35345344,436186213,
+%T A012261 6504742336,95033434861,1632531979264,27555582190513,535821754153216,
+%U A012261 10260037095841681,222769351470429184,4771143086720391613
+%N A012261 E.g.f.: exp(arctanh(sinh(x)))=1+x+1/2!*x^2+4/3!*x^3+13/4!*x^4+76/5!*x^5...
+%F A012261 E.g.f.: sqrt( (1 + sinh(x)) / (1 - sinh(x)) ).
+%F A012261 a(n) ~ 2^(3/4) * n^n / (exp(n) * arcsinh(1)^(n+1/2)). - _Vaclav Kotesovec_, Oct 25 2013
+%t A012261 With[{nn=30},CoefficientList[Series[Exp[ArcTanh[Sinh[x]]],{x,0,nn}], x] Range[0,nn]!] (* _Harvey P. Dale_, Jul 24 2012 *)
+%K A012261 nonn
+%O A012261 0,4
+%A A012261 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A012261 Definition clarified by _Harvey P. Dale_, Jul 24 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

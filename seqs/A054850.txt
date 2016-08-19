@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054850
+Showing 1-1 of 1
+
+%I A054850
+%S A054850 1,2,4,7,11,14,18,23,27,32,37,42,48,53,59,64,70,76,82,88,95,101,107,
+%T A054850 114,120,127,134,140,147,154,161,168,175,182,189,197,204,211,219,226,
+%U A054850 234,241,249,256,264,272,279,287,295,303,311,318,326,334,342,350,358,367
+%N A054850 a(n)=m such that 2^m <= p(n)# <= 2^(m+1), where p(n)# is primorial of the n-th prime (A002110).
+%C A054850 A measure of the growth rate of the primorials.
+%t A054850 Table[ Floor[ Log[2, Product[ Prime[i], {i, 1, n}]]], {n, 1, 60}]
+%Y A054850 Cf. A002110, A058033.
+%Y A054850 Equals A045716(n)-1.
+%K A054850 nonn
+%O A054850 1,2
+%A A054850 _Lekraj Beedassy_, May 22 2003
+%E A054850 Edited, corrected and extended by _Robert G. Wilson v_, May 22 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

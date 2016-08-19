@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015220
+Showing 1-1 of 1
+
+%I A015220
+%S A015220 4,10,20,56,84,120,220,286,364,560,680,816,1140,1330,1540,2024,2300,
+%T A015220 2600,3276,3654,4060,4960,5456,5984,7140,7770,8436,9880,10660,11480,
+%U A015220 13244,14190,15180,17296,18424,19600,22100,23426,24804,27720,29260
+%N A015220 Even tetrahedral numbers.
+%C A015220 Sum_{n>=0} 1/a(n) = 3/2*(1-log(2)). - _Ant King_ Oct 19 2012
+%H A015220 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (1, 0, 3, -3, 0, -3, 3, 0, 1, -1).
+%F A015220 Contribution from _Ant King_, Oct 19 2012: (Start)
+%F A015220 a(n) = a(n-1) + 3*a(n-3) - 3*a(n-4) - 3*a(n-6) + 3*a(n-7) + a(n-9) - a(n-10)
+%F A015220 a(n) = 64 + 3*a(n-3) - 3*a(n-6) + a(n-9)
+%F A015220 G.f. 2*(2+3*x+5*x^2+12*x^3+5*x^4+3*x^5+2*x^6) / ((1-x)^4*(1+x+x^2)^3).
+%F A015220 (End)
+%t A015220 LinearRecurrence[{1,0,3,-3,0,-3,3,0,1,-1},{4,10,20,56,84,120,220,286,364,560},41] (* _Ant King_, Oct 19 2012 *)
+%t A015220 Select[Table[(Times@@(n+{0,1,2}))/6,{n,60}],EvenQ] (* _Harvey P. Dale_, Jan 22 2013 *)
+%Y A015220 Cf. A000292.
+%K A015220 nonn,easy
+%O A015220 0,1
+%A A015220 _Mohammad K. Azarian_
+%E A015220 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042434
+Showing 1-1 of 1
+
+%I A042434
+%S A042434 27,82,191,273,464,2593,5650,59093,123836,678273,802109,1480382,
+%T A042434 3762873,12769001,693288927,2092635782,4878560491,6971196273,
+%U A042434 11849756764,66219980093,144289716950,1509117149593
+%N A042434 Numerators of continued fraction convergents to sqrt(745).
+%H A042434 Vincenzo Librandi, <a href="/A042434/b042434.txt">Table of n, a(n) for n = 0..200</a>
+%t A042434 Numerator/@Convergents[Sqrt[745], 30] (* _Harvey P. Dale_, May 03 2011 *)
+%Y A042434 Cf. A042435.
+%K A042434 nonn,cofr,frac,easy
+%O A042434 0,1
+%A A042434 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

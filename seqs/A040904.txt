@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040904
+Showing 1-1 of 1
+
+%I A040904
+%S A040904 30,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1,
+%T A040904 60,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1,
+%U A040904 60,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1,60,1,1,2,1,2,1,1
+%N A040904 Continued fraction for sqrt(935).
+%H A040904 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040904 a(n)=(1/224)*{-1583*(n mod 8)+69*[(n+1) mod 8]+97*[(n+2) mod 8]+41*[(n+3) mod 8]+97*[(n+4) mod 8]+41*[(n+5) mod 8]+69*[(n+6) mod 8]+1721*[(n+7) mod 8]}-30*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 03 2009]
+%p A040904 with(numtheory): Digits := 300: convert(evalf(sqrt(935)),confrac);
+%K A040904 nonn,cofr,easy
+%O A040904 0,1
+%A A040904 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

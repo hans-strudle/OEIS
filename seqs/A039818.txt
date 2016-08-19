@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039818
+Showing 1-1 of 1
+
+%I A039818
+%S A039818 4409,67307,86573,111857,198349,259507
+%N A039818 Isolated primes: primes that become composite if any digit is changed (to another nonzero digit).
+%C A039818 There's no prime at Hamming distance 1.
+%H A039818 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_017.htm">Weakly Primes</a>
+%K A039818 nonn,base,nice
+%O A039818 0,1
+%A A039818 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

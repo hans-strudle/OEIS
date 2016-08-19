@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007104
+Showing 1-1 of 1
+
+%I A007104
+%S A007104 1,1,1,2,1,4,1,4,4,4,2,10,1,5,7,12,1,10,4,10,12,4,6,24,4,12,7,10,5,26,
+%T A007104 6,20,13,12,7,30,11,4,15,32
+%N A007104 Number of elements (a b, c d) in GL(2,Z) with det = -1, trace n and 0 <= a <= {b, c} <= d.
+%K A007104 nonn
+%O A007104 1,4
+%A A007104 John Lewis (frc.mass.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

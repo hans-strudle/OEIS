@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061783
+Showing 1-1 of 1
+
+%I A061783
+%S A061783 229,239,241,257,269,271,277,281,439,443,463,467,479,499,613,641,653,
+%T A061783 661,673,677,683,691,811,823,839,863,881,20011,20029,20047,20051,
+%U A061783 20101,20161,20201,20249,20269,20347,20389,20399,20441,20477,20479,20507
+%N A061783 Luhn primes: primes p such that p + (p reversed) is also a prime.
+%C A061783 a(n) has an odd number of digits, as otherwise a(n) + reverse(a(n)) is a multiple of 11. For a(n) > 10, a(n) is prime and thus odd, and therefore the first digit of a(n) is even as otherwise a(n) + reverse(a(n)) is even and composite. - _Chai Wah Wu_, Aug 19 2015
+%D A061783 O. Cira, F. Smarandache, Luhn prime numbers, 2014; http://www.gallup.unm.edu/~smarandache/ScArt7/CP-LuhnPrimeNumbers.pdf
+%H A061783 Harry J. Smith and Chai Wah Wu, <a href="/A061783/b061783.txt">Table of n, a(n) for n = 1..50598</a>, giving all terms below 9*10^6 (The first 1000 terms from Harry J. Smith)
+%H A061783 Chai Wah Wu, <a href="/A061783/a061783-big.zip">3010506 terms</a>, 11MB zipped file of all terms below 10^9.
+%e A061783 229 is a term since 229 is a prime and so is 229 + 922 = 1151.
+%t A061783 Select[Prime[Range[3000]],PrimeQ[#+FromDigits[Reverse[IntegerDigits[#]]]]&] (* _Harvey P. Dale_, Nov 27 2010 *)
+%o A061783 (PARI) { n=0; forprime (p=2, 86843, x=p; r=0; while (x>0, d=x-10*(x\10); x\=10; r=r*10 + d); if (isprime(p + r), write("b061783.txt", n++, " ", p)) ) } \\ _Harry J. Smith_, Jul 28 2009
+%o A061783 (MAGMA) [NthPrime(n): n in [1..2400] | IsPrime(s) where s is NthPrime(n)+Seqint(Reverse(Intseq(NthPrime(n))))]; // _Bruno Berselli_, Aug 05 2013
+%o A061783 (Python)
+%o A061783 from sympy import isprime, prime
+%o A061783 A061783 = [prime(n) for n in xrange(1,10**5) if isprime(prime(n)+int(str(prime(n))[::-1]))] # _Chai Wah Wu_, Aug 14 2014
+%K A061783 nonn,base,easy
+%O A061783 1,1
+%A A061783 _Amarnath Murthy_, May 24 2001
+%E A061783 Corrected and extended by _Patrick De Geest_, May 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

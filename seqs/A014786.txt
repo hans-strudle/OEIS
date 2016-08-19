@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014786
+Showing 1-1 of 1
+
+%I A014786
+%S A014786 1,1,0,1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014786 0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014786 0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1
+%V A014786 1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014786 0,0,0,0,0,1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014786 0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,1
+%N A014786 Inverse of 777th cyclotomic polynomial.
+%p A014786 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014786 CoefficientList[Series[1/Cyclotomic[777,x],{x,0,120}],x] (* _Harvey P. Dale_, May 09 2016 *)
+%K A014786 sign,changed
+%O A014786 0,1
+%A A014786 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045853
+Showing 1-1 of 1
+
+%I A045853
+%S A045853 1,12,66,220,507,924,1584,2772,4521,6436,8712,12552,18041,23364,28776,
+%T A045853 37896,50997,62832,72996,89892,115776,139348,156816,185064,231759,
+%U A045853 274044,300828,343564,418638,487080
+%N A045853 Number of nonnegative solutions of x1^2 + x2^2 +...+ x12^2 = n.
+%D A045853 Coefficient of q^n in (1+q+q^4+q^9+q^16+q^25+q^36+q^49+q^64+...)^12.
+%H A045853 T. D. Noe, <a href="/A045853/b045853.txt">Table of n, a(n) for n=0..2000</a>
+%K A045853 nonn
+%O A045853 0,2
+%A A045853 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

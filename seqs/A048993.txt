@@ -1,0 +1,88 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048993
+Showing 1-1 of 1
+
+%I A048993
+%S A048993 1,0,1,0,1,1,0,1,3,1,0,1,7,6,1,0,1,15,25,10,1,0,1,31,90,65,15,1,0,1,
+%T A048993 63,301,350,140,21,1,0,1,127,966,1701,1050,266,28,1,0,1,255,3025,7770,
+%U A048993 6951,2646,462,36,1,0,1,511,9330,34105,42525,22827,5880,750,45,1
+%N A048993 Triangle of Stirling numbers of 2nd kind, S(n,k), n >= 0, 0<=k<=n.
+%C A048993 Also known as Stirling set numbers.
+%C A048993 S(n,k) enumerates partitions of an n-set into k nonempty subsets.
+%C A048993 The o.g.f. for the sequence of diagonal k (k=0 for the main diagonal) is G(k,x)= ((x^k)/(1-x)^(2*k+1))*sum(A008517(k,m+1)*x^m,m=0..k-1). A008517 is the second-order Eulerian triangle. - _Wolfdieter Lang_, Oct 14 2005.
+%C A048993 From _Philippe Deléham_, Nov 14 2007: (Start)
+%C A048993 Sum_{k, 0<=k<=n}S(n,k)*x^k = B_n(x), where B_n(x) = Bell polynomials. The first few Bell polynomials are:
+%C A048993 B_0(x) = 1;
+%C A048993 B_1(x) = 0 + x;
+%C A048993 B_2(x) = 0 + x + x^2;
+%C A048993 B_3(x) = 0 + x + 3x^2 + x^3;
+%C A048993 B_4(x) = 0 + x + 7x^2 + 6x^3 + x^4;
+%C A048993 B_5(x) = 0 + x + 15x^2 + 25x^3 + 10x^4 + x^5;
+%C A048993 B_6(x) = 0 + x + 31x^2 + 90x^3 + 65x^4 + 15x^5 + x^6;
+%C A048993 (End)
+%C A048993 This is the Sheffer triangle (1, exp(x) - 1), an exponential (binomial) convolution triangle. The a-sequence is given by A006232/A006233 (Cauchy sequence). The z-sequence is the zero sequence. See the link under A006232 for the definition and use of these sequences. The row sums give A000110 (Bell), and the alternating row sums give A000587 (see the Philippe Deléham formulas and crossreferences below). - _Wolfdieter Lang_, Oct 16 2014
+%C A048993 Also the inverse Bell transform of the factorial numbers (A000142). For the definition of the Bell transform see A264428 and for cross-references A265604. - _Peter Luschny_, Dec 31 2015
+%D A048993 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 835.
+%D A048993 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 310.
+%D A048993 J. H. Conway and R. K. Guy, The Book of Numbers, Springer, p. 92.
+%D A048993 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 223.
+%D A048993 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 244.
+%D A048993 J. Riordan, An Introduction to Combinatorial Analysis, p. 48.
+%H A048993 David W. Wilson, <a href="/A048993/b048993.txt">Table of n, a(n) for n = 0..10010</a>
+%H A048993 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A048993 V. E. Adler, <a href="http://arxiv.org/abs/1510.02900">Set partitions and integrable hierarchies</a>, arXiv:1510.02900 [nlin.SI], 2015.
+%H A048993 P. Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Barry1/barry263.html">Generalized Stirling Numbers, Exponential Riordan Arrays, and Toda Chain Equations</a>, Journal of Integer Sequences, 17 (2014), #14.2.3.
+%H A048993 P. Barry, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Barry2/barry281.html">Constructing Exponential Riordan Arrays from Their A and Z Sequences</a>, Journal of Integer Sequences, 17 (2014), #14.2.6.
+%H A048993 R. M. Dickau, <a href="http://mathforum.org/advanced/robertd/stirling2.html">Stirling numbers of the second kind</a>
+%H A048993 G. Duchamp, K. A. Penson, A. I. Solomon, A. Horzela and P. Blasiak, <a href="http://arXiv.org/abs/quant-ph/0401126">One-parameter groups and combinatorial physics</a>, arXiv:quant-ph/0401126, 2004.
+%H A048993 FindStat - Combinatorial Statistic Finder, <a href="http://www.findstat.org/StatisticsDatabase/St000105">The number of blocks in the set partition.</a>
+%H A048993 W. S. Gray and M. Thitsa, <a href="http://dx.doi.org/10.1109/SSST.2013.6524939">System Interconnections and Combinatorial Integer Sequences</a>, in: System Theory (SSST), 2013 45th Southeastern Symposium on, Date of Conference: 11-11 March 2013, Digital Object Identifier: 10.1109/SSST.2013.6524939.
+%H A048993 C. M. Ringel, <a href="http://arxiv.org/abs/1502.06553">The Catalan combinatorics of the hereditary artin algebras</a>, arXiv preprint arXiv:1502.06553, 2015
+%H A048993 X.-T. Su, D.-Y. Yang, W.-W. Zhang, <a href="http://ajc.maths.uq.edu.au/pdf/56/ajc_v56_p133.pdf">A note on the generalized factorial</a>, Australasian Journal of Combinatorics, Volume 56 (2013), Pages 133-137.
+%F A048993 S(n, k) = k*S(n-1, k) + S(n-1, k-1), n>0; S(0, k) = 0, k>0; S(0, 0)=1.
+%F A048993 Equals [0, 1, 0, 2, 0, 3, 0, 4, 0, 5, ..] DELTA [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, ...] where DELTA is Deléham's operator defined in A084938.
+%F A048993 Sum_{k = 0..n} x^k*S(n, k) = A213170(n), A000587(n), A000007(n), A000110(n), A001861(n), A027710(n), A078944(n), A144180(n), A144223(n), A144263(n) respectively for x = -2, -1, 0, 1, 2, 3, 4, 5, 6, 7. - _Philippe Deléham_, May 09 2004, Feb 16 2013
+%F A048993 S(n, k) = sum{i=0..k, (-1)^(k+i)binomial(k, i)i^n/k!}. - _Paul Barry_, Aug 05 2004
+%F A048993 Sum(k*S(n,k), k=0..n)=B(n+1)-B(n), where B(q) are the Bell numbers (A000110). - _Emeric Deutsch_, Nov 01 2006
+%F A048993 Equals the inverse binomial transform of A008277. - _Gary W. Adamson_, Jan 29 2008
+%F A048993 G.f.: 1/(1-xy/(1-x/(1-xy/(1-2x/(1-xy/1-3x/(1-xy/(1-4x/(1-xy/(1-5x/(1-... (continued fraction equivalent to Deleham DELTA construction). - _Paul Barry_, Dec 06 2009
+%F A048993 G.f.: 1/Q(0), where Q(k) = 1 -(y+k)*x - (k+1)*y*x^2/Q(k+1) ; (continued fraction). - _Sergei N. Gladkovskii_, Nov 09 2013
+%F A048993 Inverse of padded A008275 (padded just as A048993 = padded A008277). - _Tom Copeland_, Apr 25 2014
+%F A048993 E.g.f. for the row polynomials s(n,x) = sum(S(n,k)*x^k, k=0..n) is exp(x*(exp(z)-1)) (Sheffer property). E.g.f. for the k-th column sequence with k leading zeros is ((exp(x)-1)^k)/k! (Sheffer property). - _Wolfdieter Lang_, Oct 16 2014
+%e A048993 The triangle S(n,k) begins:
+%e A048993 n\k 0 1    2     3      4       5       6      7      8     9   10 11 12
+%e A048993 0:  1
+%e A048993 1:  0 1
+%e A048993 2:  0 1    1
+%e A048993 3:  0 1    3     1
+%e A048993 4:  0 1    7     6      1
+%e A048993 5:  0 1   15    25     10       1
+%e A048993 6:  0 1   31    90     65      15       1
+%e A048993 7:  0 1   63   301    350     140      21      1
+%e A048993 8:  0 1  127   966   1701    1050     266     28      1
+%e A048993 9:  0 1  255  3025   7770    6951    2646    462     36     1
+%e A048993 10: 0 1  511  9330  34105   42525   22827   5880    750    45    1
+%e A048993 11: 0 1 1023 28501 145750  246730  179487  63987  11880  1155   55  1
+%e A048993 12: 0 1 2047 86526 611501 1379400 1323652 627396 159027 22275 1705 66  1
+%e A048993 ... reformatted and extended - _Wolfdieter Lang_, Oct 16 2014
+%e A048993 ------------------------------------------------------------------------
+%p A048993 with(combinat): for n from 0 to 10 do seq(stirling2(n,k),k=0..n) od; # yields sequence in triangular form - _Emeric Deutsch_, Nov 01 2006
+%t A048993 t[n_, k_] := StirlingS2[n, k]; Table[t[n, k], {n, 0, 10}, {k, 0, n}] // Flatten (* _Robert G. Wilson v_ *)
+%o A048993 (PARI) for(n=0, 22, for(k=0, n, print1(stirling(n, k, 2), ", ")); print()); \\ _Joerg Arndt_, Apr 21 2013
+%o A048993 (Maxima) create_list(stirling2(n,k),n,0,12,k,0,n); /* _Emanuele Munarini_, Mar 11 2011 */
+%o A048993 (Haskell)
+%o A048993 a048993 n k = a048993_tabl !! n !! k
+%o A048993 a048993_row n = a048993_tabl !! n
+%o A048993 a048993_tabl = iterate (\row ->
+%o A048993    [0] ++ (zipWith (+) row $ zipWith (*) [1..] $ tail row) ++ [1]) [1]
+%o A048993 -- _Reinhard Zumkeller_, Mar 26 2012
+%Y A048993 See especially A008277 which is the main entry for this triangle.
+%Y A048993 Cf. A008275, A039810-A039813, A048994.
+%Y A048993 A000110(n) = sum(S(n, k)) k=0..n, n >= 0. Cf. A085693.
+%Y A048993 Cf. A084938, A106800 (mirror image), A213061.
+%K A048993 nonn,tabl,nice
+%O A048993 0,9
+%A A048993 _N. J. A. Sloane_, Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

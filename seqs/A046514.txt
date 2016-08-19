@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046514
+Showing 1-1 of 1
+
+%I A046514
+%S A046514 679,688,697,769,796,868,886,967,976,1679,1688,1697,1769,1796,1868,
+%T A046514 1886,1967,1976,2379,2388,2397,2468,2486,2648,2684,2688,2739,2777,
+%U A046514 2793,2838,2846,2864,2868,2883,2886,2937,2973,3279,3288,3297,3367,3376,3448
+%N A046514 Numbers with multiplicative persistence value 5.
+%H A046514 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence</a>
+%e A046514 2777 -> [ 686 ][ 288 ][ 128 ][ 16 ][ 6 ] -> one digit in five steps.
+%Y A046514 Cf. A003001, A014120, A046505.
+%K A046514 nonn,base
+%O A046514 0,1
+%A A046514 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

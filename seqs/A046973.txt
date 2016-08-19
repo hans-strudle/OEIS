@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046973
+Showing 1-1 of 1
+
+%I A046973
+%S A046973 2,17,43,89,593,2213,9277,39929,1336337,2986609,12136609,226981081,
+%T A046973 309601747141,576013438873664081,576013438873858481,
+%U A046973 4622463127346550949,43784599166913148633,43784599166913343033,43784599169860444073,43784605671499215833,1488418770664783966373
+%N A046973 Primes of the form F(i)^3 + F(j)^4, where F() are Fibonacci numbers.
+%K A046973 nonn
+%O A046973 1,1
+%A A046973 _Felice Russo_
+%E A046973 More terms from Victoria A Sapko (vsapko(AT)canes.gsw.edu), Nov 07 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

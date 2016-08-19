@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037337
+Showing 1-1 of 1
+
+%I A037337
+%S A037337 9,18,27,28,36,37,38,46,47,48,54,55,57,58,63,64,65,66,68,72,73,74,75,
+%T A037337 76,77,82,83,84,85,86,87,88,99,164,165,166,167,169,189,191,194,195,
+%U A037337 196,197,198,244,246,248,249,251,252,255,256,258
+%N A037337 n-th number k such that no base 9 digit of k is a base 10 digit of k.
+%H A037337 Vincenzo Librandi, <a href="/A037337/b037337.txt">Table of n, a(n) for n = 1..1000</a>
+%t A037337  Select[Range[1000],Intersection[IntegerDigits[#,9],IntegerDigits[#,10]]=={}&] (* _Vincenzo Librandi_, Jun 07 2012 *)
+%K A037337 nonn,base
+%O A037337 1,1
+%A A037337 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

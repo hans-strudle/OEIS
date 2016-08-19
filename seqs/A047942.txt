@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047942
+Showing 1-1 of 1
+
+%I A047942
+%S A047942 1,7,616,10092775,8308234084801,335267154940213889575,
+%T A047942 662932711464913775048175499816,
+%U A047942 64230894380264719522488136461023341060807
+%N A047942 Number of 7-colorings of an n X n grid, up to rotational symmetry.
+%F A047942 a(n) = (m^(n^2) + 2 m^((n^2 + 3 (n mod 2))/4) + m^((n^2 + (n mod 2))/2))/4, with m = 7
+%Y A047942 Cf. A047937-A047945.
+%K A047942 nonn
+%O A047942 0,2
+%A A047942 _Rob Pratt_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

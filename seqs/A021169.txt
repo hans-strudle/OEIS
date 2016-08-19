@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021169
+Showing 1-1 of 1
+
+%I A021169
+%S A021169 0,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,
+%T A021169 6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,
+%U A021169 6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6
+%N A021169 Decimal expansion of 1/165.
+%F A021169 a(n)=3+3*(-1)^n-6*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Sep 23 2009]
+%K A021169 nonn,cons
+%O A021169 0,3
+%A A021169 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

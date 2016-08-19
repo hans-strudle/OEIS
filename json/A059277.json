@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,33554432,43046721,162144,625,6,1","description":"1^36, 2^25, 3^16, 4^9, 5^4, 6^1, 7^0.","references":["Seen on a puzzle calendar."],"formula":"a(n) = n^((7-n)^2), n < 7.","example":"a(5) = 625 because n = 5, so n^((7-n)^2) = 5^((7-5)^2) = 5^(2^2) = 5^4 = 625","keyword":"nonn,fini,full","offset":"0,2","author":"J. McV., Jan 23, 2001"}

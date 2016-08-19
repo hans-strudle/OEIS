@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055855
+Showing 1-1 of 1
+
+%I A055855
+%S A055855 0,1,10,64,328,1462,5908,22180,78592,265729,864146,2719028,8316200,
+%T A055855 24814832,72453344,207502016,584094080,1618757120,4423347200,
+%U A055855 11932579840,31812874240,83901227008,219074805760,566754967552
+%N A055855 Convolution of A055854 with A011782.
+%C A055855 Tenth column of triangle A055587. T(n,8) of array T as in A049600.
+%F A055855 a(n)= T(n, 8)= A055587(n+8, 9); G.f. x*((1-x)^8)/(1-2*x)^9.
+%Y A055855 Cf. A049600, A055587, A055854, A011782.
+%K A055855 nonn,easy
+%O A055855 0,3
+%A A055855 _Wolfdieter Lang_ May 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

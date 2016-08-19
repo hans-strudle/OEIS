@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009306
+Showing 1-1 of 1
+
+%I A009306
+%S A009306 0,1,1,1,2,9,6,155,232,3969,20870,118779,1655028,1610257,
+%T A009306 143697722,522358005,13332842416,138189937791,1128293525646,
+%U A009306 29219838555781,17274118159180,5993074252801839,38541972209299966,1179892974640047669
+%V A009306 0,1,1,-1,-2,9,6,-155,232,3969,-20870,-118779,1655028,1610257,
+%W A009306 -143697722,522358005,13332842416,-138189937791,-1128293525646,
+%X A009306 29219838555781,17274118159180,-5993074252801839,38541972209299966,1179892974640047669
+%N A009306 Expansion of log(1+exp(x)*x).
+%H A009306 Alois P. Heinz, <a href="/A009306/b009306.txt">Table of n, a(n) for n = 0..200</a>
+%H A009306 Vladimir Kruchinin, D. V. Kruchinin, <a href="http://arxiv.org/abs/1103.2582">Composita and their properties </a>, arXiv:1103.2582
+%F A009306 a(n) = n! * sum(k^(n-k-1) * (-1)^(k+1)/(n-k)!, k=1..n). - _Vladimir Kruchinin_, Sep 07 2010
+%p A009306 a:= n-> n! *add(k^(n-k-1) *(-1)^(k+1) /(n-k)!, k=1..n):
+%p A009306 seq(a(n), n=0..25);
+%K A009306 sign,easy
+%O A009306 0,5
+%A A009306 _R. H. Hardin_
+%E A009306 Extended with signs by _Olivier Gérard_, Mar 15 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012607
+Showing 1-1 of 1
+
+%I A012607
+%S A012607 1,12,6608,38672832,1035058952448,83042522104507392,
+%T A012607 15719007594987094364160,6022323864926672477183262720
+%N A012607 cosh(arcsinh(x)*arcsin(x)) = 1+12/4!*x^4+6608/8!*x^8+38672832/12!*x^12...
+%K A012607 nonn
+%O A012607 0,2
+%A A012607 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

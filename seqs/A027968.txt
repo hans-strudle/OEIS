@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027968
+Showing 1-1 of 1
+
+%I A027968
+%S A027968 1,4,11,29,73,171,370,743,1397,2482,4201,6821,10685,16225,23976,34591,
+%T A027968 48857,67712,92263,123805,163841,214103,276574,353511,447469,561326,
+%U A027968 698309,862021,1056469,1286093,1555796,1870975,2237553
+%N A027968 T(n,2n-6), T given by A027960.
+%F A027968 G.f.: x^3*(1-3x+4x^2+x^3-4x^4+3x^5-x^6)/(1-x)^7. Differences of A027969. - _Ralf Stephan_, Feb 07 2004
+%Y A027968 A column of triangle A026998.
+%K A027968 nonn
+%O A027968 3,2
+%A A027968 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

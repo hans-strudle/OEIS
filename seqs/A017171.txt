@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017171
+Showing 1-1 of 1
+
+%I A017171
+%S A017171 0,31381059609,64268410079232,5559060566555523,131621703842267136,
+%T A017171 1532278301220703125,11384956040305711104,62050608388552823487,
+%U A017171 269561249468963094528,984770902183611232881,3138105960900000000000
+%N A017171 (9*n)^11.
+%H A017171 Vincenzo Librandi, <a href="/A017171/b017171.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017171 (MAGMA) [(9*n)^11: n in [0..15]]; // Vincenzo Librandi, Jul 22 2011
+%K A017171 nonn,easy
+%O A017171 0,2
+%A A017171 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

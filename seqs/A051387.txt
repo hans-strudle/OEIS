@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051387
+Showing 1-1 of 1
+
+%I A051387
+%S A051387 134,182,183,201,219,273,278,309,399,422,453,497,579,651,658,1036,
+%T A051387 1132,1324,1464,1482,1554,1608,1612,1752,1842,1996,2058,2184,2457,
+%U A051387 2472,2476,2483,2574,2634,2994,3052,3192,3465,3474,3618,3624,3724,3858,3906,3976
+%N A051387 Numbers whose 4th power is the sum of two positive cubes in a nontrivial way.
+%C A051387 When x is the sum of 2 positive cubes (A003325) there is a trivial solution.
+%e A051387 273^4 = 728^3 + 1729^3
+%Y A051387 Cf. A003325, A051386.
+%K A051387 nonn
+%O A051387 1,1
+%A A051387 _Jud McCranie_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

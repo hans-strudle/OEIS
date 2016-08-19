@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030010
+Showing 1-1 of 1
+
+%I A030010
+%S A030010 2,0,1,0,2,3,2,4,4,3,4,5,10,21,20,18,34,46,64,99,126,182,258,
+%T A030010 319,464,685,936,1352,1888,2570,3690,5188,7292,10501,14742,
+%U A030010 20766,29610,41650,59052,84338,119602,170279,242256,343356,489550,698073
+%V A030010 2,0,1,0,2,-3,2,-4,4,-3,4,-5,10,-21,20,-18,34,-46,64,-99,126,-182,258,
+%W A030010 -319,464,-685,936,-1352,1888,-2570,3690,-5188,7292,-10501,14742,
+%X A030010 -20766,29610,-41650,59052,-84338,119602,-170279,242256,-343356,489550,-698073
+%N A030010 Inverse Euler transform of primes.
+%H A030010 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%K A030010 sign
+%O A030010 0,1
+%A A030010 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052890
+Showing 1-1 of 1
+
+%I A052890
+%S A052890 1,1,2,6,16,49,153,493,1623,5460,18625,64373,224843,792546,2815443,
+%T A052890 10070115,36233440,131063713,476320360,1738401482,6368750019
+%N A052890 A simple grammar.
+%H A052890 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=866">Encyclopedia of Combinatorial Structures 866</a>
+%p A052890 spec := [S,{B=Set(C,1 <= card),C=Prod(Z,S),S=PowerSet(B)},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052890 easy,nonn
+%O A052890 0,3
+%A A052890 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

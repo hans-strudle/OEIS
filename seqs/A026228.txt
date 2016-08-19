@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026228
+Showing 1-1 of 1
+
+%I A026228
+%S A026228 2,5,11,14,23,29,32,38,41,50,59,65,68,77,83,86,92,95,104,110,113,119,
+%T A026228 122,131,140,146,149,158,167,173,176,185,191,194,200,203,212,221,227,
+%U A026228 230,239,245,248,254,257,266,272,275,281,284
+%N A026228 n-th number k such that t(k) = s(k) - 1, where s = A026136, t = A026166.
+%K A026228 nonn
+%O A026228 1,1
+%A A026228 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005176
+Showing 1-1 of 1
+
+%I A005176 M0303
+%S A005176 1,1,2,2,4,3,8,6,22,26,176,546,19002,389454,50314870,2942198546,
+%T A005176 1698517037030
+%N A005176 Number of regular graphs with n nodes.
+%D A005176 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005176 P. Steinbach, Field Guide to Simple Graphs. Design Lab, Albuquerque NM, 1990.
+%H A005176 E. Friedman, <a href="/A000088/a000088a.gif">Illustration of small graphs</a>
+%H A005176 Jason Kimberley, <a href="/wiki/User:Jason_Kimberley/E_k-reg_girth_ge_g_index">Index of sequences counting not necessarily connected k-regular simple graphs with girth at least g</a>
+%H A005176 J. M. Larson, <a href="https://www.sas.upenn.edu/polisci/sites/www.sas.upenn.edu.polisci/files/Larson_cheaters_Feb2014.pdf">Cheating Because They Can: Social Networks and Norm Violators</a>, 2014. See Footnote 11. - _N. J. A. Sloane_, Mar 20 2014
+%H A005176 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RegularGraph.html">Regular Graph.</a>
+%F A005176 a(n) = A005177(n) + A068932(n). - _David Wasserman_, Mar 08 2002
+%F A005176 Row sums of triangle A051031.
+%Y A005176 Not necessarily connected simple regular graphs: A005176 (any degree), A051031 (triangular array), specified degree k: A000012 (k=0), A059841 (k=1), A008483 (k=2), A005638 (k=3), A033301 (k=4), A165626 (k=5), A165627 (k=6), A165628 (k=7).
+%Y A005176 Simple regular graphs of any degree: A005177 (connected), A068932 (disconnected), this sequence (not necessarily connected).
+%Y A005176 Not necessarily connected regular simple graphs with girth at least g: this sequence (g=3), A185314 (g=4), A185315 (g=5), A185316 (g=6), A185317 (g=7), A185318 (g=8), A185319 (g=9).
+%K A005176 nonn,nice,hard,more
+%O A005176 0,3
+%A A005176 _N. J. A. Sloane_
+%E A005176 More terms from _David Wasserman_, Mar 08 2002
+%E A005176 a(15) and a(16) from _Jason Kimberley_, Sep 25 2009
+%E A005176 Edited by _Jason Kimberley_, Jan 06 2011 and May 24 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

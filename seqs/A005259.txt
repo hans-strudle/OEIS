@@ -1,0 +1,76 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005259
+Showing 1-1 of 1
+
+%I A005259 M4020
+%S A005259 1,5,73,1445,33001,819005,21460825,584307365,16367912425,468690849005,
+%T A005259 13657436403073,403676083788125,12073365010564729,364713572395983725,
+%U A005259 11111571997143198073,341034504521827105445,10534522198396293262825,327259338516161442321485
+%N A005259 Apery (Apéry) numbers: Sum_{k=0..n} (binomial(n,k)*binomial(n+k,k))^2.
+%C A005259 Prime Apéry numbers include a(1) = 5, a(2) = 73, a(12) = 12073365010564729 and a(24). Semiprime central Delannoy numbers include a(4) = 33001 = 61 * 541. - _Jonathan Vos Post_, May 22 2005
+%C A005259 Conjecture: For each n = 1,2,3,... the Apéry polynomial A_n(x) = Sum_{k = 0..n} binomial(n,k)^2*binomial(n+k,k)^2*x^k is irreducible over the field of rational numbers. - _Zhi-Wei Sun_, Mar 21 2013
+%C A005259 The expansions of exp( Sum_{n >= 1} a(n)*x^n/n ) = 1 + 5*x + 49*x^2 + 685*x^3 + 11807*x^4 + 232771*x^5 + ... and exp( Sum_{n >= 1} a(n-1)*x^n/n ) = 1 + 3*x + 27*x^2 + 390*x^3 + 7038*x^4 + 144550*x^5 + ... both appear to have integer coefficients. See A267220. - _Peter Bala_, Jan 12 2016
+%D A005259 R. Apéry, Irrationalité de zeta(2) et zeta(3), in Journées Arith. de Luminy. Colloque International du Centre National de la Recherche Scientifique (CNRS) held at the Centre Universitaire de Luminy, Luminy, Jun 20-24, 1978. Asterisque, 61 (1979), 11-13.
+%D A005259 R. Apéry, "Interpolation de fractions continues et irrationalité de certaines constantes," in Mathématiques, Ministère universités (France), Comité travaux historiques et scientifiques. Bull. Section Sciences, Vol. 3, pp. 243-246, 1981.
+%D A005259 F. Beukers, Consequences of Apéry's work on zeta(3), in "Zeta(3) irrationnel: les retombees", Rencontres Arithmetiques de Caen, June 2-3, 1995 [Mentions divisibility of a(n) by powers of 5 and powers of 11]
+%D A005259 W. Koepf, Hypergeometric Summation, Vieweg, 1998, p. 146.
+%D A005259 M. Kontsevich and D. Zagier, Periods, pp. 771-808 of B. Engquist and W. Schmid, editors, Mathematics Unlimited - 2001 and Beyond, 2 vols., Springer-Verlag, 2001.
+%D A005259 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005259 T. D. Noe, <a href="/A005259/b005259.txt">Table of n, a(n) for n = 0..100</a>
+%H A005259 J.-P. Allouche, <a href="http://www.math.jussieu.fr/~allouche/bibliorecente.html">A remark on Apéry's numbers</a>, J. Comput. Appl. Math. 83 (1997), 123-125.
+%H A005259 R. Apéry, <a href="http://www.numdam.org/item?id=GAU_1981-1982__9_1_A9_0">Sur certaines séries entières arithmétiques</a>, Groupe de travail d'analyse ultramétrique, 9 no. 1 (1981-1982), Exp. No. 16, 2 p.
+%H A005259 F. Beukers, <a href="http://dx.doi.org/10.1016/0022-314X(87)90025-4">Another congruence for the Apéry numbers</a>, J. Number Theory 25 (1987), no. 2, 201-210.
+%H A005259 Francis Brown, <a href="http://arxiv.org/abs/1412.6508">Irrationality proofs for zeta values, moduli spaces and dinner parties</a>, arXiv:1412.6508 [math.NT], 2014.
+%H A005259 Y. C. Chen, Q.-H. Hou, Y-P. Mu, <a href="http://dx.doi.org/10.1016/j.cam.2005.10.010">A telescoping method for double summations</a>, J. Comp. Appl. Math. 196 (2006) 553-566, Example 4.
+%H A005259 E. Delaygue, <a href="http://arxiv.org/abs/1310.4131">Arithmetic properties of Apéry-like numbers</a>, arXiv preprint arXiv:1310.4131 [math.NT], 2013.
+%H A005259 E. Deutsch and B. E. Sagan, <a href="http://arxiv.org/abs/math.CO/0407326">Congruences for Catalan and Motzkin numbers and related sequences</a>, J. Num. Theory 117 (2006), 191-215.
+%H A005259 G. A. Edgar, <a href="http://mathforum.org/kb/message.jspa?messageID=3704516&amp;tstart=0">A formula with Legendre polynomials</a>, Sci. Math. Research posting Mar 21 2005
+%H A005259 C. Elsner, <a href="http://www.fq.math.ca/Papers1/43-1/paper43-1-5.pdf">On recurrence formulae for sums involving binomial coefficients</a>, Fib. Q., 43,1 (2005), 31-45.
+%H A005259 C. Elsner, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL11/Elsner/elsner7.html">On prime-detecting sequences from Apéry's recurrence formulae for zeta(3) and zeta(2)</a>, JIS 11 (2008) 08.5.1
+%H A005259 S. Fischler, <a href="http://arXiv.org/abs/math.NT/0303066">Irrationalite de valeurs de zeta</a>, arXiv:math/0303066 [math.NT], 2003.
+%H A005259 S. Garrabrant, I. Pak, <a href="http://arxiv.org/abs/1407.8222">Counting with irrational tiles</a>, arXiv:1407.8222 [math.CO], 2014.
+%H A005259 V. Kotesovec, <a href="https://oeis.org/wiki/User:Vaclav_Kotesovec">Asymptotic of generalized Apéry sequences with powers of binomial coefficients</a>, Nov 04 2012
+%H A005259 L. Lipshitz and A. J. van der Poorten, <a href="http://www-centre.mpce.mq.edu.au/alfpapers/a084.pdf">Rational functions, diagonals, automata and arithmetic</a>
+%H A005259 Stephen Melczer and Bruno Salvy, <a href="http://arxiv.org/abs/1605.00402">Symbolic-Numeric Tools for Analytic Combinatorics in Several Variables</a>, arXiv:1605.00402, 2016.
+%H A005259 R. Mestrovic, <a href="http://arxiv.org/abs/1409.3820">Lucas' theorem: its generalizations, extensions and applications (1878--2014)</a>, arXiv preprint arXiv:1409.3820 [math.NT], 2014.
+%H A005259 Robert Osburn and Brundaban Sahu, <a href="http://maths.ucd.ie/~osburn/superdomb.pdf">A supercongruence for generalized Domb numbers</a>
+%H A005259 Math Overflow, <a href="http://mathoverflow.net/questions/178790/a-conjectured-formula-for-apery-numbers">A conjectured formula for Apéry numbers</a>
+%H A005259 E. Rowland, R. Yassawi, <a href="http://arxiv.org/abs/1310.8635">Automatic congruences for diagonals of rational functions</a>, arXiv preprint arXiv:1310.8635 [math.NT], 2013.
+%H A005259 A. Strangeway, <a href="http://arxiv.org/abs/1302.5089">A Reconstruction Theorem for Quantum Cohomology of Fano Bundles on Projective Space</a>, arXiv preprint arXiv:1302.5089 [math.AG], 2013.
+%H A005259 A. Strangeway, <a href="http://dx.doi.org/10.1215/00277630-2817545">Quantum reconstruction for Fano bundles on projective space</a>, Nagoya Math. J., Volume 218 (2015), 1-28.
+%H A005259 V. Strehl, <a href="http://www.mat.univie.ac.at/~slc/opapers/s29strehl.html">Recurrences and Legendre transform</a>
+%H A005259 Volker Strehl, <a href="http://dx.doi.org/10.1016/0012-365X(94)00118-3">Binomial identities -- combinatorial and algorithmic aspects</a>, Discrete Mathematics, Vol. 136 (1994), 309-346.
+%H A005259 Z.-W. Sun, <a href="http://arxiv.org/abs/1112.1034">Congruences for Franel numbers</a>, arXiv preprint arXiv:1112.1034 [math.NT], 2011.
+%H A005259 Z.-W. Sun, <a href="http://dx.doi.org/10.1016/j.jnt.2012.05.014">On sums of Apéry polynomials and related congruences</a>, J. Number Theory 132(2012), 2673-2699. [_Zhi-Wei Sun_, Mar 21 2013]
+%H A005259 Z.-W. Sun, <a href="http://arxiv.org/abs/1101.1946">On sums of Apéry polynomials and related congruences</a>, arXiv:1101.1946 [math.NT], 2011-2014. [_Zhi-Wei Sun_, Mar 21 2013]
+%H A005259 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/AperyNumber.html">Apéry Number</a>
+%H A005259 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/StrehlIdentities.html">Strehl Identities</a>
+%H A005259 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SchmidtsProblem.html">Schmidt's Problem</a>
+%H A005259 E. X. W. Xia and O. X. M. Yao, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v20i4p3">A Criterion for the Log-Convexity of Combinatorial Sequences</a>, The Electronic Journal of Combinatorics, 20 (2013), #P3.
+%F A005259 (n+1)^3*a(n+1) = (34*n^3 + 51*n^2 + 27*n +5)*a(n) - n^3*a(n-1), n >= 1.
+%F A005259 Representation as a special value of the hypergeometric function 4F3, in Maple notation: a(n)=hypergeom([n+1, n+1, -n, -n], [1, 1, 1], 1), n=0, 1... - _Karol A. Penson_ Jul 24 2002
+%F A005259 a(n) = Sum_{k >= 0} A063007(n, k)*A000172(k)). A000172 = Franel numbers. - _Philippe Deléham_, Aug 14 2003
+%F A005259 G.f.: (-1/2)*(3*x - 3 + (x^2-34*x+1)^(1/2))*(x+1)^(-2)*hypergeom([1/3,2/3],[1],(-1/2)*(x^2 - 7*x + 1)*(x+1)^(-3)*(x^2 - 34*x + 1)^(1/2)+(1/2)*(x^3 + 30*x^2 - 24*x + 1)*(x+1)^(-3))^2. - _Mark van Hoeij_, Oct 29 2011
+%F A005259 Let g(x, y) = 4*cos(2*x) + 8*sin(y)*cos(x) + 5 and let P(n,z) denote the Legendre polynomial of degree n. Then Edgar conjectures that a(n) equals the double integral 1/(4*Pi^2)*int {y = -Pi..Pi} int {x = -Pi..Pi} P(n,g(x,y)) dx dy. (Added Jan 07 2015: Answered affirmatively in Math Overflow question 178790) - _Peter Bala_, Mar 04 2012
+%F A005259 a(n) ~ (1+sqrt(2))^(4*n+2)/(2^(9/4)*Pi^(3/2)*n^(3/2)). - _Vaclav Kotesovec_, Nov 01 2012
+%F A005259 a(n) = sum_{k=0..n} C(n,k)^2 * C(n+k,k)^2. - _Joerg Arndt_, May 11 2013
+%e A005259 G.f. = 1 + 5*x + 73*x^2 + 1445*x^3 + 33001*x^4 + 819005*x^5 + 21460825*x^6 + ...
+%p A005259 a := proc(n) option remember; if n=0 then 1 elif n=1 then 5 else (n^(-3))* ( (34*(n-1)^3 + 51*(n-1)^2 + 27*(n-1) +5)*a((n-1)) - (n-1)^3*a((n-1)-1)); fi; end;
+%t A005259 Table[HypergeometricPFQ[{-n, -n, n+1, n+1}, {1,1,1}, 1],{n,0,13}]  (* _Jean-François Alcover_, Apr 01 2011 *)
+%t A005259 Table[Sum[(Binomial[n,k]Binomial[n+k,k])^2,{k,0,n}],{n,0,30}] (* _Harvey P. Dale_, Oct 15 2011 *)
+%t A005259 a[ n_] := SeriesCoefficient[ SeriesCoefficient[ SeriesCoefficient[ SeriesCoefficient[ 1 / (1 - t (1 + x ) (1 + y ) (1 + z ) (x y z + (y + 1) (z + 1))), {t, 0, n}], {x, 0, n}], {y, 0, n}], {z, 0, n}]; (* _Michael Somos_, May 14 2016 *)
+%o A005259 (PARI) a(n)=sum(k=0,n,(binomial(n,k)*binomial(n+k,k))^2) \\ _Charles R Greathouse IV_, Nov 20 2012
+%o A005259 (Haskell)
+%o A005259 a005259 n = a005259_list !! n
+%o A005259 a005259_list = 1 : 5 : zipWith div (zipWith (-)
+%o A005259    (tail $ zipWith (*) a006221_list a005259_list)
+%o A005259    (zipWith (*) (tail a000578_list) a005259_list)) (drop 2 a000578_list)
+%o A005259 -- _Reinhard Zumkeller_, Mar 13 2014
+%Y A005259 Cf. A002736, A005258, A005259, A005429, A005430, A059415, A059416, A063007, A000172.
+%Y A005259 Cf. A006221, A000578.
+%K A005259 nonn,easy,nice,changed
+%O A005259 0,2
+%A A005259 _Simon Plouffe_, _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

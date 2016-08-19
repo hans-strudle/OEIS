@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032122
+Showing 1-1 of 1
+
+%I A032122
+%S A032122 5,15,75,325,1625,7875,39375,195625,978125,4884375,24421875,122078125,
+%T A032122 610390625,3051796875,15258984375,76294140625,381470703125,
+%U A032122 1907349609375,9536748046875,47683720703125
+%N A032122 Number of reversible strings with n beads of 5 colors.
+%H A032122 Vincenzo Librandi, <a href="/A032122/b032122.txt">Table of n, a(n) for n = 1..500</a>
+%H A032122 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032122 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (5,5,-25).
+%F A032122 "BIK" (reversible, indistinct, unlabeled) transform of 5, 0, 0, 0...
+%F A032122 a(n) = 1/2 * (5^n + 5^floor((n+1)/2)) = 5*A001447(n+1). - _Ralf Stephan_, Jul 07 2003
+%F A032122 G.f.: x*(5-10*x-25*x^2)/(1-5*x-5*x^2+25*x^3). - _Colin Barker_, Jan 30 2012
+%F A032122 a(n) = 5*a(n-1) + 5*a(n-2) - 25*a(n-3). - _Vincenzo Librandi_, Jan 31 2012
+%t A032122 LinearRecurrence[{5, 5, -25}, {5, 15, 75}, 30] (* _Vincenzo Librandi_, Jan 31 2012 *)
+%o A032122 (MAGMA) I:=[5, 15, 75]; [n le 3 select I[n] else 5*Self(n-1)+ 5*Self(n-2)-25*Self(n-3): n in [1..30]]; // _Vincenzo Librandi_, Jan 31 2012
+%o A032122 (PARI) a(n)=(5^((n+1)\2)+5^n)/2 \\ _Charles R Greathouse IV_, Jan 31 2012
+%K A032122 nonn,easy
+%O A032122 1,1
+%A A032122 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

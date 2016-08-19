@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051397
+Showing 1-1 of 1
+
+%I A051397
+%S A051397 0,1,7,141,5923,426457,46910271,7318002277,1536780478171,
+%T A051397 418004290062513,142957467201379447,60042136224579367741,
+%U A051397 30381320929637160076947,18228792557782296046168201,12796612375563171824410077103,10390849248957295521420982607637
+%N A051397 a(n) = (2*n-2)*(2*n-1)*a(n-1)+1.
+%D A051397 A. Petojevic, On Kurepa's Hypothesis for the Left Factorial, FILOMAT (Nis), 12:1 (1998), p. 29-37.
+%H A051397 Romeo Mestrovic, <a href="http://arxiv.org/abs/1312.7037">Variations of Kurepa's left factorial hypothesis</a>, arXiv preprint arXiv:1312.7037, 2013
+%F A051397 a(n) = Sum_{k=0..n-1} (2*n-1)!/(2*k+1)!. a(n) = floor((2*n-1)!*sinh(1)). - _Vladeta Jovovic_, Aug 10 2002
+%F A051397 Conjecture: a(n) +(-4*n^2+6*n-3)*a(n-1) +2*(2*n-3)*(n-2)*a(n-2)=0. - _R. J. Mathar_, Jan 31 2014
+%Y A051397 Bisection of abs(A009628).
+%K A051397 nonn
+%O A051397 0,3
+%A A051397 Aleksandar Petojevic.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

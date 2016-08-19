@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061825
+Showing 1-1 of 1
+
+%I A061825
+%S A061825 7,35,77,91,119,133,175,315,357,371,399,511,539,553,595,735,777,791,
+%T A061825 917,931,959,973,1113,1155,1197,1337,1351,1379,1393,1519,1533,1575,
+%U A061825 1715,1757,1771,1799,1911,1939,1953,1995,3115,3157,3171,3199,3311,3339
+%N A061825 Multiples of 7 containing only odd digits.
+%e A061825 315 = 7*45 is a term as it contains only odd digits.
+%t A061825 Select[7*Range[500], Count[IntegerDigits[#], _?EvenQ]==0&] (* _Harvey P. Dale_, Jun 13 2011 *)
+%Y A061825 Cf. A061826.
+%Y A061825 Subsequence of A008589.
+%K A061825 nonn,base,easy
+%O A061825 1,1
+%A A061825 _Amarnath Murthy_, May 28 2001
+%E A061825 More terms from Larry Reeves (larryr(AT)acm.org), May 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

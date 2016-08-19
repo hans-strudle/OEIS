@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034359
+Showing 1-1 of 1
+
+%I A034359
+%S A034359 0,0,0,0,1,6,23,77,240,705,1988,5468,14724,39006,101818,261924,663748,
+%T A034359 1655781,4062110,9793065,23186825,53896597,122975627,275449464,
+%U A034359 605794093
+%N A034359 Number of binary [ n,5 ] codes.
+%D A034359 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034359 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034359 Cf. A034253, A034254, A034253.
+%K A034359 nonn
+%O A034359 1,6
+%A A034359 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

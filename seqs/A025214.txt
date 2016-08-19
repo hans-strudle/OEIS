@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025214
+Showing 1-1 of 1
+
+%I A025214
+%S A025214 5,40,163,481,1175,2512,4869,8749,14801,23840,36866,55077,79897,
+%T A025214 112984,156254,211896,282391,370528,479419,612518,773638,966965
+%N A025214 4th elementary symmetric function of {Sum{1/j, j = 1,2,...,k} ], k = 1,2,...,n.
+%K A025214 nonn
+%O A025214 4,1
+%A A025214 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

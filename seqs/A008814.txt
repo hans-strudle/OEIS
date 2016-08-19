@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008814
+Showing 1-1 of 1
+
+%I A008814
+%S A008814 1,2,3,4,5,6,7,10,13,16,19,22,25,28,33,38,43,48,53,58,63,70,77,84,91,
+%T A008814 98,105,112,121,130,139,148,157,166,175,186,197,208,219,230,241,252,
+%U A008814 265,278,291,304,317,330,343,358
+%N A008814 Expansion of (1+x^7)/(1-x)^2/(1-x^7).
+%C A008814 Number of 0..n arrays of 8 elements with zero second differences  [From R. H. Hardin, Nov 16 2011]
+%H A008814 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1,0,0,0,0,1,-2,1).
+%F A008814 a(n) = 2*a(n-1) -a(n-2) +a(n-7) -2*a(n-8) +a(n-9). [_R. H. Hardin_, Nov 16 2011]
+%t A008814 CoefficientList[Series[(1+x^7)/(1-x)^2/(1-x^7),{x,0,50}],x] (* or *)
+%t A008814 LinearRecurrence[{2,-1,0,0,0,0,1,-2,1},{1,2,3,4,5,6,7,10,13},50] (* _Harvey P. Dale_, Dec 18 2012 *)
+%o A008814 (PARI) a(n)=(n*(n+2)+[7,11,13,13,11,7,1][n%7+1])/7 \\ _Charles R Greathouse IV_, Nov 16 2011
+%o A008814 (PARI) a(n)=(n*(n+2)+13-6*(n%7==6))\7  \\ _Tani Akinari_, Jul 25 2013
+%K A008814 nonn,easy
+%O A008814 0,2
+%A A008814 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

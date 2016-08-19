@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047444
+Showing 1-1 of 1
+
+%I A047444
+%S A047444 0,3,5,6,8,11,13,14,16,19,21,22,24,27,29,30,32,35,37,38,40,43,45,46,
+%T A047444 48,51,53,54,56,59,61,62,64,67,69,70,72,75,77,78,80,83,85,86,88,91,93,
+%U A047444 94,96,99,101,102,104,107,109
+%N A047444 Numbers that are congruent to {0, 3, 5, 6} mod 8.
+%H A047444 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,-2,2,-1).
+%F A047444 G.f. x^2*(3-x+2*x^2) / ( (x^2+1)*(x-1)^2 ). - R. J. Mathar, Dec 07 2011
+%K A047444 nonn
+%O A047444 1,2
+%A A047444 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

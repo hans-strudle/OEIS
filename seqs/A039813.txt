@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039813
+Showing 1-1 of 1
+
+%I A039813
+%S A039813 1,5,1,35,15,1,315,215,30,1,3455,3325,725,50,1,44590,56605,17100,1825,
+%T A039813 75,1,660665,1060780,415555,60900,3850,105,1,11035095,21772595,
+%U A039813 10606470,1998605,172550,7210,140,1,204904830,486459105,286281665
+%N A039813 Matrix 5th power of Stirling-2 Triangle A008277.
+%F A039813 E.g.f. k-th column: ((exp(exp(exp(exp(exp(x)-1)-1)-1)-1))^k)/k!.
+%e A039813 1; 5,1; 35,15,1; 315,215,30,1; ...
+%t A039813 max = 9; m = MatrixPower[Array[StirlingS2, {max, max}], 5]; Table[Take[m[[n]], n], {n, 1, max}] // Flatten (* _Jean-François Alcover_, Mar 03 2014 *)
+%Y A039813 Cf. A039810-A039812. |a(n, 1)| = A000357(n) (first column).
+%K A039813 nonn,tabl
+%O A039813 1,2
+%A A039813 _Christian G. Bower_, Feb 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

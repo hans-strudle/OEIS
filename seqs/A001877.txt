@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001877
+Showing 1-1 of 1
+
+%I A001877
+%S A001877 0,0,1,0,1,0,1,1,1,0,1,0,2,0,2,0,1,1,1,0,1,1,2,0,2,0,1,1,2,0,1,0,2,0,
+%T A001877 2,1,2,1,1,0,1,0,3,0,2,0,1,1,2,1,1,1,2,0,2,0,2,1,1,0,2,0,2,1,2,0,2,1,
+%U A001877 2,0,2,0,3,0,2,0,1,2,1,0,1,1,2,0,4,1,1,1
+%N A001877 Number of divisors of n of form 5k+2.
+%H A001877 T. D. Noe, <a href="/A001877/b001877.txt">Table of n, a(n) for n = 0..10000</a>
+%F A001877 G.f.: Sum x^(5n+2)/(1-x^(5n+2)), n=0..inf.
+%F A001877 G.f.: sum(n>=1, x^(2*n)/(1-x^(5*n))) - Joerg Arndt, Jan 30 2011
+%t A001877 Join[{0}, Table[d = Divisors[n]; Length[Select[d, Mod[#, 5] == 2 &]], {n, 100}]] (* _T. D. Noe_, Aug 10 2012 *)
+%K A001877 nonn
+%O A001877 0,13
+%A A001877 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054394
+Showing 1-1 of 1
+
+%I A054394
+%S A054394 1,1,2,5,14,42,132,429,1429,4847,16660,57820,202086,709928,2503266,
+%T A054394 8850681,31355020,111242127,395091069,1404332528,4994581900,
+%U A054394 17771328588,63253477326,225194224134,801884971816,2855809269782,10171707099565
+%N A054394 Number of permutations with certain forbidden subsequences.
+%D A054394 E. Barcucci et al., From Motzkin to Catalan Permutations, Discr. Math., 217 (2000), 33-49.
+%F A054394 Conjecture: g.f.(x)=1+z*(1-2z+z^2-z^3)/(1-3z+3z^2-3z^3+2z^4-z^5) where z=x*A001006(x) and A001006(x) is the g.f. of A001006. [From _R. J. Mathar_, Jul 07 2009]
+%Y A054394 Interpolates between Motzkin numbers (A001006) and Catalan numbers (A000108). Cf. A005773, A054391-A054393.
+%K A054394 nonn
+%O A054394 0,3
+%A A054394 _N. J. A. Sloane_, Elisa Pergola (elisa(AT)dsi.unifi.it), May 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030324
+Showing 1-1 of 1
+
+%I A030324
+%S A030324 1,1,0,1,1,1,0,1,1,0,0,0,1,1,0,1,1,0,1,0,1,1,0,0,0,1,0,1,1,0,1,1,1,1,
+%T A030324 0,1,1,0,0,1,1,0,0,1,0,0,0,0,1,1,1,0,1,0,0,1,1,0,1,1,1,1,0,0,1,1,0,0,
+%U A030324 1,1,0,0,0,1,0,1,1,1,1,0,1,1,0,1,1,1,1,0,0,0
+%N A030324 Write (n+1)st Fibonacci number in base 2 and juxtapose.
+%t A030324 Flatten[Map[IntegerDigits[#, 2] &, Table[Fibonacci[n], {n, 50}], {1}]] (* Ben Branman, Feb 14 2011 *)
+%K A030324 nonn,base
+%O A030324 1,1
+%A A030324 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

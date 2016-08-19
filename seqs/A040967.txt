@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040967
+Showing 1-1 of 1
+
+%I A040967
+%S A040967 31,1,1,1,1,5,6,1,5,2,5,1,6,5,1,1,1,1,62,1,1,1,1,5,6,1,5,2,5,1,6,5,1,
+%T A040967 1,1,1,62,1,1,1,1,5,6,1,5,2,5,1,6,5,1,1,1,1,62,1,1,1,1,5,6,1,5,2,5,1,
+%U A040967 6,5,1,1,1,1,62,1,1,1,1,5,6,1,5,2,5,1,6,5,1,1,1,1,62
+%N A040967 Continued fraction for sqrt(999).
+%H A040967 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040967 with(numtheory): Digits := 300: convert(evalf(sqrt(999)),confrac);
+%K A040967 nonn,cofr,easy
+%O A040967 0,1
+%A A040967 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

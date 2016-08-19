@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040705
+Showing 1-1 of 1
+
+%I A040705
+%S A040705 27,13,1,1,13,54,13,1,1,13,54,13,1,1,13,54,13,1,1,13,54,13,1,1,13,54,
+%T A040705 13,1,1,13,54,13,1,1,13,54,13,1,1,13,54,13,1,1,13,54,13,1,1,13,54,13,
+%U A040705 1,1,13,54,13,1,1,13,54,13,1,1,13,54,13,1,1,13,54,13
+%N A040705 Continued fraction for sqrt(733).
+%H A040705 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040705 a(n)=(1/25)*{-164*(n mod 5)-19*[(n+1) mod 5]+41*[(n+2) mod 5]+101*[(n+3) mod 5]+246*[(n+4) mod 5]}-27*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 19 2009]
+%p A040705 with(numtheory): Digits := 300: convert(evalf(sqrt(733)),confrac);
+%K A040705 nonn,cofr,easy
+%O A040705 0,1
+%A A040705 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

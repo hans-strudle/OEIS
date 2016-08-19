@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036465
+Showing 1-1 of 1
+
+%I A036465
+%S A036465 1,1,2,3,3,2,4,4,6,6,6,5,7,9,8,8,9,8,12,8,12,8,12,15,13,12,14,20,18,
+%T A036465 14,16,18,17,21,18,14,19,19,24,23,21,18,24,27,23,20,24,23,30,24,26,28,
+%U A036465 27,33,28,28,40,30,36,28,31,34,32,39,36,31,34,35,42
+%N A036465 If n^2 = sum a_i^2, i>1, then a(n) is the maximum value of min(a_i).
+%e A036465 a(9)=4 since 9^2 = 7^2 + 4^2 + 4^2
+%K A036465 nonn
+%O A036465 2,3
+%A A036465 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

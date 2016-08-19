@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055691
+Showing 1-1 of 1
+
+%I A055691
+%S A055691 2,6,14,66,186,378,546,1190,1470,2406,4470,5250,7086,18578,20166,
+%T A055691 25806,42602,58590,69006,85566,134946,137346,170586,187838,206646,
+%U A055691 262146,272610,285390,289394,420210,500570,538734,592410,595686,602250,618450
+%N A055691 Numbers n such that 8^n == -1 (mod n-1).
+%t A055691 Do[If[PowerMod[8, n, n-1]==n-2, Print[n]], {n, 2, 10^7}]
+%K A055691 nonn
+%O A055691 1,1
+%A A055691 _Robert G. Wilson v_, Jun 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

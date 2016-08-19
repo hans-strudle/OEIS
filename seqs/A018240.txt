@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018240
+Showing 1-1 of 1
+
+%I A018240
+%S A018240 1,1,2,3,7,12,24,45,91,176,352,693,1387,2752
+%N A018240 Rational knots with n crossings (up to mirroring).
+%C A018240 Identical through a(13) = 352 with Two-bridge Knots of crossing number n, in Table 1: Number of knots having two-bridged Conway polynomials, of Koseleff.
+%C A018240 There is a conjecture that this is the same as A090596.
+%H A018240 C. Ernst and D. W. Sumners, <a href="http://dx.doi.org/10.1017/S0305004100067323">The Growth of the Number of Prime Knots</a>, Math. Proc. Cambridge Philos. Soc. 102, 303-315, 1987.
+%H A018240 P. -V. Koseleff, D. Pecker, <a href="http://arxiv.org/abs/1011.5992">Conway polynomials of two-bridge links</a>, arXiv:1011.5992 [math.GT], 2010.
+%F A018240 Empirical g.f.: -x^3*(x^4+x^3+2*x^2-1) / ((x+1)*(2*x-1)*(x^2+1)*(2*x^2-1)). - _Colin Barker_, Oct 07 2014
+%Y A018240 Cf. A090596.
+%K A018240 nice,more,nonn
+%O A018240 3,3
+%A A018240 Alexander Stoimenow (stoimeno(AT)math.toronto.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

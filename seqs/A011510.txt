@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011510
+Showing 1-1 of 1
+
+%I A011510
+%S A011510 1,0,5,0,8,1,9,0,2,5,8,0,7,5,6,3,0,9,7,2,1,2,7,8,0,3,6,7,8,2,8,2,0,0,
+%T A011510 6,3,0,1,5,3,8,7,0,1,4,6,6,7,1,9,6,4,2,3,7,1,3,8,4,6,4,8,3,5,5,2,5,5,
+%U A011510 3,0,8,4,4,6,9,1,8,8,6,7,9,3,1,1,9,7,6,7,9,3,0,8,5,5,5,7,5,0,3
+%N A011510 Decimal expansion of 91st root of 91.
+%H A011510 Ivan Panchenko, <a href="/A011510/b011510.txt">Table of n, a(n) for n = 1..1000</a>
+%t A011510 RealDigits[Surd[91,91],10,120][[1]] (* _Harvey P. Dale_, Apr 22 2016 *)
+%K A011510 nonn,cons
+%O A011510 1,3
+%A A011510 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

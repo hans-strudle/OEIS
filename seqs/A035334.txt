@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035334
+Showing 1-1 of 1
+
+%I A035334
+%S A035334 1,2,5,3,14,4,39,6,119,7,352,8,706,9,2104,10,4209,11,8419,12,24552,13,
+%T A035334 49106,15,188594,16
+%N A035334 a(n) = smallest number which is not the sum of exactly 1 or a(n-1) earlier terms.
+%e A035334 a(5)=14 since all earlier numbers are either in list (1,2,3,5) or the sum of 3 terms from list (4=1+1+2, 6=2+2+2, ..., 12=2+5+5, 13=3+5+5).
+%Y A035334 Cf. A055456.
+%K A035334 nonn
+%O A035334 1,2
+%A A035334 _Erich Friedman_
+%E A035334 More terms from _Henry Bottomley_, May 19 2000; and from Larry Reeves (larryr(AT)acm.org), May 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

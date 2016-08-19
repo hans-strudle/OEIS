@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017081
+Showing 1-1 of 1
+
+%I A017081
+%S A017081 1,59049,1419857,9765625,39135393,115856201,282475249,601692057,
+%T A017081 1160290625,2073071593,3486784401,5584059449,8587340257,12762815625,
+%U A017081 18424351793,25937424601,35723051649,48261724457
+%N A017081 (8*n+1)^5.
+%H A017081 Vincenzo Librandi, <a href="/A017081/b017081.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017081 (MAGMA) [(8*n+1)^5: n in [0..30]]; // Vincenzo Librandi, Jul 11 2011
+%K A017081 nonn,easy
+%O A017081 0,2
+%A A017081 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

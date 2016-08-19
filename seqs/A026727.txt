@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026727
+Showing 1-1 of 1
+
+%I A026727
+%S A026727 1,27,477,7007,93093,1163799,13989949,163814559,1883880405,
+%T A026727 21393162791,240779316141,2692752875631,29976989988037,
+%U A026727 332620147754103,3681925234618653,40686711732853823,449042333942609589
+%N A026727 Expansion of 1/((1-2x)(1-6x)(1-8x)(1-11x)).
+%H A026727 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (27, -252, 932, -1056).
+%F A026727 a(n) = -2^n/27 +27*6^n/5 -128*8^n/9 +1331*11^n/135. _R. J. Mathar_, Jun 23 2013
+%t A026727 CoefficientList[Series[1/((1-2x)(1-6x)(1-8x)(1-11x)),{x,0,30}],x] (* or *) LinearRecurrence[{27,-252,932,-1056},{1,27,477,7007},30] (* _Harvey P. Dale_, Dec 15 2014 *)
+%K A026727 nonn
+%O A026727 0,2
+%A A026727 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

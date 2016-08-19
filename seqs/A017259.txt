@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017259
+Showing 1-1 of 1
+
+%I A017259
+%S A017259 512,4913,17576,42875,85184,148877,238328,357911,512000,704969,941192,
+%T A017259 1225043,1560896,1953125,2406104,2924207,3511808,4173281,4913000,
+%U A017259 5735339,6644672,7645373,8741816
+%N A017259 (9*n+8)^3.
+%H A017259 Vincenzo Librandi, <a href="/A017259/b017259.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017259 (MAGMA) [(9*n+8)^3: n in [0..30]]; // Vincenzo Librandi, Jul 28 2011
+%K A017259 nonn,easy
+%O A017259 0,1
+%A A017259 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

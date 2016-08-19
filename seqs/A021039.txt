@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021039
+Showing 1-1 of 1
+
+%I A021039
+%S A021039 0,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,
+%T A021039 7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,
+%U A021039 8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8,5,7,1,4,2,8
+%N A021039 Decimal expansion of 1/35.
+%C A021039 Same decimal period as A020806. - R. J. Mathar, Feb 13 2012
+%e A021039 0.0285714285714285..
+%t A021039 Join[{0},RealDigits[1/35,10,120][[1]]] (* or *) PadRight[{0},120,{4,2,8,5,7,1}] (* _Harvey P. Dale_, Oct 15 2013 *)
+%K A021039 nonn,cons
+%O A021039 0,2
+%A A021039 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

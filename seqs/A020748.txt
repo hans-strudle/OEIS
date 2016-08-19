@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020748
+Showing 1-1 of 1
+
+%I A020748
+%S A020748 4,10,25,62,153,377,928,2284,5621,13833,34042,83774,206159,507335,
+%T A020748 1248496,3072412,7560869,18606469,45788478,112680418,277294139,
+%U A020748 682390435,1679287948,4132543288,10169735361,25026602289,61587720810,151560619806,372974046999
+%N A020748 Pisot sequence T(4,10).
+%F A020748 G.f.: (-3x^5+2x^4+x^3-x^2-2x+4)/[(1-x)(1-2x-x^2-2x^5)] (conjectured). - _Ralf Stephan_, May 12 2004
+%Y A020748 See A008776 for definitions of Pisot sequences.
+%K A020748 nonn
+%O A020748 0,1
+%A A020748 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

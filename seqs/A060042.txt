@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060042
+Showing 1-1 of 1
+
+%I A060042
+%S A060042 1,2,30,420,5766,79356,1105868
+%N A060042 G.f.: V(x)^(1/4), where V(x) = Sum_{n >= 0} A065409(n)*x^n.
+%Y A060042 Cf. A065409, A046105, A026301.
+%K A060042 nonn
+%O A060042 0,2
+%A A060042 _N. J. A. Sloane_, following a suggestion of _Peter J Larcombe_, Jan 16 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

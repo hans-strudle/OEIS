@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054550
+Showing 1-1 of 1
+
+%I A054550
+%S A054550 25,35,49,55,65,77,85,91,95,115,119,125,133,145,155,161,175,185,203,
+%T A054550 205,215,217,235,245,259,265,275,287,295,301,305,325,329,335,343,355,
+%U A054550 365,371,385,395,413,415,425,427,445,455,469,475,485,497,505,511,515,535
+%N A054550 Union of 4 AP's: 25+30n, 35+30n, 49+42n, 77+42n.
+%H A054550 Harvey P. Dale, <a href="/A054550/b054550.txt">Table of n, a(n) for n = 1..1000</a>
+%t A054550 Union[Flatten[Table[{30n+{25,35},42n+{49,77}},{n,0,20}]]] (* _Harvey P. Dale_, Feb 19 2016 *)
+%Y A054550 Cf. A038509.
+%Y A054550 Cf. A067793. [From _R. J. Mathar_, Sep 30 2008]
+%K A054550 nonn
+%O A054550 1,1
+%A A054550 Stuart M. Ellerstein (ellerstein(AT)aol.com), May 15 2000
+%E A054550 More terms from _R. J. Mathar_, Sep 30 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

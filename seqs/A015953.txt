@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015953
+Showing 1-1 of 1
+
+%I A015953
+%S A015953 1,7,49,203,343,1379,1421,2401,5887,9653,9947,11977,16807,39991,41209,
+%T A015953 67571,69629,83839,117649,170723,271663,279937,288463,347333,472997,
+%U A015953 487403,586873,706643,823543,1159739,1195061,1901641,1959559
+%N A015953 Numbers n such that n | 6^n + 1.
+%t A015953 Select[Range[2000000],PowerMod[6,#,#]==#-1&] (* _Harvey P. Dale_, Aug 28 2012 *)
+%K A015953 nonn
+%O A015953 1,2
+%A A015953 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

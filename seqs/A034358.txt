@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034358
+Showing 1-1 of 1
+
+%I A034358
+%S A034358 0,0,0,1,5,16,43,106,240,516,1060,2108,4064,7641,14036,25253,44560,
+%T A034358 77245,131658,220883,365027,594674,955649,1515908,2374875
+%N A034358 Number of binary [ n,4 ] codes.
+%D A034358 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034358 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034358 Cf. A034253, A034254, A034253.
+%K A034358 nonn
+%O A034358 1,5
+%A A034358 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

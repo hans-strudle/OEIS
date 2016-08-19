@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032475
+Showing 1-1 of 1
+
+%I A032475
+%S A032475 15,19,35,55,59,115,163,371,1175,3047,5615,7855,9155,16467,22303,
+%T A032475 32879,66123,70619,85607
+%N A032475 Numbers n such that 197*2^n+1 is prime.
+%H A032475 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032475 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032475 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032475 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032475 nonn,hard
+%O A032475 1,1
+%A A032475 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

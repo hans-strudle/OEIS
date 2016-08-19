@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008772
+Showing 1-1 of 1
+
+%I A008772
+%S A008772 1,1,2,3,5,6,9,11,15,18,23,28,35,41,50,59,70,81,95,109,126,143,163,
+%T A008772 184,208,232,260,289,321,354,391,429,471,514,561,610,663,717,776,837,
+%U A008772 902,969,1041,1115,1194,1275
+%N A008772 Expansion of (1+x^11)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4).
+%K A008772 nonn
+%O A008772 0,3
+%A A008772 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

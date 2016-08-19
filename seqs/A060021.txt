@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060021
+Showing 1-1 of 1
+
+%I A060021
+%S A060021 1,1,2,2,3,3,4,4,4,5,5,5,6,6,7,6,8,7,9
+%N A060021 Maximal size of a subset of any Abelian group of order n that does not contain 0 and fails to span the group nontrivially.
+%D A060021 J. R. Griggs (griggs(AT)math.sc.edu), personal communication, Apr 24, 2001.
+%H A060021 J. R. Griggs, <a href="http://dx.doi.org/10.1016/S0012-365X(00)00203-X">Spanning subset sums for finite Abelian groups</a>, Discrete Math., 229 (2001), 89-99.
+%Y A060021 Cf. A060020.
+%K A060021 nonn,more
+%O A060021 2,3
+%A A060021 _N. J. A. Sloane_, Mar 17 2001
+%E A060021 n=21 is the first open case - it is either 7 or 8.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

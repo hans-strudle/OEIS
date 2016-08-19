@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014451
+Showing 1-1 of 1
+
+%I A014451
+%S A014451 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,
+%T A014451 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014451 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014451 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,1,
+%W A014451 -1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014451 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014451 Inverse of 442nd cyclotomic polynomial.
+%p A014451 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014451 sign
+%O A014451 0,1
+%A A014451 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

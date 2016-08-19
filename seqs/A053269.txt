@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053269
+Showing 1-1 of 1
+
+%I A053269
+%S A053269 0,1,1,1,2,3,2,2,4,5,5,5,7,9,8,9,12,14,15,16,20,23,23,25,
+%T A053269 31,36,37,40,47,54,56,60,71,79,84,91,103,115,121,131,149,164,
+%U A053269 174,188,210,232,245,264,294,321,343,368,406,443,470,505,554,602,641,687,751,813,863,925
+%V A053269 0,1,-1,1,-2,3,-2,2,-4,5,-5,5,-7,9,-8,9,-12,14,-15,16,-20,23,-23,25,
+%W A053269 -31,36,-37,40,-47,54,-56,60,-71,79,-84,91,-103,115,-121,131,-149,164,
+%X A053269 -174,188,-210,232,-245,264,-294,321,-343,368,-406,443,-470,505,-554,602,-641,687,-751,813,-863,925
+%N A053269 Coefficients of the '6th order' mock theta function psi(q).
+%D A053269 George E. Andrews and Dean Hickerson, Ramanujan's "lost" notebook VII: The sixth order mock theta functions, Advances in Mathematics, 89 (1991) 60-105
+%D A053269 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, pp. 4, 13
+%F A053269 G.f.: psi(q) = sum for n >= 0 of (-1)^n q^(n+1)^2 (1-q)(1-q^3)...(1-q^(2n-1))/((1+q)(1+q^2)...(1+q^(2n+1)))
+%F A053269 a(3*n + 1) =  A262614(n). a(3*n + 2) = - A263041(n). - _Michael Somos_, Apr 17 2016
+%t A053269 Series[Sum[(-1)^n q^(n+1)^2 Product[1-q^k, {k, 1, 2n-1, 2}]/Product[1+q^k, {k, 1, 2n+1}], {n, 0, 9}], {q, 0, 100}]
+%Y A053269 Other '6th order' mock theta functions are at A053268, A053270, A053271, A053272, A053273, A053274.
+%Y A053269 Cf. A262614, A263041.
+%K A053269 sign,easy
+%O A053269 0,5
+%A A053269 _Dean Hickerson_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

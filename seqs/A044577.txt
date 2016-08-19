@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044577
+Showing 1-1 of 1
+
+%I A044577
+%S A044577 9,79,137,201,265,329,393,457,521,639,649,713,777,841,905,969,1033,
+%T A044577 1103,1161,1225,1289,1353,1417,1481,1545,1615,1673,1737,1801,1865,
+%U A044577 1929,1993,2057,2127,2185,2249,2313,2377,2441,2505
+%N A044577 Numbers n such that string 1,1 occurs in the base 8 representation of n but not of n+1.
+%K A044577 nonn,base
+%O A044577 1,1
+%A A044577 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

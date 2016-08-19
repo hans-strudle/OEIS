@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034698
+Showing 1-1 of 1
+
+%I A034698
+%S A034698 2,7,31,113,233,647,1487,4919,6329,7951,26833,47737,53623,128959,
+%T A034698 135697,142327,1312777,3178289,6061607,26564393,32426081,102958417,
+%U A034698 209074609,323901311
+%N A034698 a(n) = smallest prime such that a(1), ..., a(n-1) are squares mod a(n).
+%o A034698 (Haskell)
+%o A034698 a034698 n = a034698_list !! (n-1)
+%o A034698 a034698_list = f [2..] [1] where
+%o A034698    f (x:xs) ys | a010051' x == 1 &&
+%o A034698                  (and $ map (isSquMod x) ys) = x : f xs (x:ys)
+%o A034698                | otherwise                   = f xs ys
+%o A034698    isSquMod u v = v `mod` u `elem` (map ((`mod` u) . (^ 2)) [0..u-1])
+%o A034698 -- _Reinhard Zumkeller_, Mar 28 2012
+%Y A034698 Cf. A034700.
+%Y A034698 Cf. A010051, A034791.
+%K A034698 nonn,nice
+%O A034698 1,1
+%A A034698 E. M. Rains (rains(AT)caltech.edu)
+%E A034698 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

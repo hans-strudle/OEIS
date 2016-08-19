@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013907
+Showing 1-1 of 1
+
+%I A013907
+%S A013907 529,3404825447,21914624432020321,141050039560662968926103,
+%T A013907 907846434775996175406740561329,5843211045545439551605946764725979847,
+%U A013907 37608910510519071039902074217516707306379521,242063847902005849254176436075394136454464685331703
+%N A013907 23^(5n+2).
+%H A013907 Vincenzo Librandi, <a href="/A013907/b013907.txt">Table of n, a(n) for n = 0..50</a>
+%H A013907 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013907 a(n) = 6436343*a(n-1), a(0)=529; [From Vincenzo Librandi, May 29 2011]
+%o A013907 (MAGMA) [23^(5*n+2): n in [0..10]]; // Vincenzo Librandi, May 29 2011
+%K A013907 nonn
+%O A013907 0,1
+%A A013907 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

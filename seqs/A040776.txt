@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040776
+Showing 1-1 of 1
+
+%I A040776
+%S A040776 28,2,1,2,5,1,13,2,1,10,1,2,13,1,5,2,1,2,56,2,1,2,5,1,13,2,1,10,1,2,
+%T A040776 13,1,5,2,1,2,56,2,1,2,5,1,13,2,1,10,1,2,13,1,5,2,1,2,56,2,1,2,5,1,13,
+%U A040776 2,1,10,1,2,13,1,5,2,1,2,56,2,1,2,5,1,13,2,1,10,1,2
+%N A040776 Continued fraction for sqrt(805).
+%H A040776 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040776 with(numtheory): Digits := 300: convert(evalf(sqrt(805)),confrac);
+%K A040776 nonn,cofr,easy
+%O A040776 0,1
+%A A040776 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

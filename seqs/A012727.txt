@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012727
+Showing 1-1 of 1
+
+%I A012727
+%S A012727 1,2,12,328,13328,1160352,123701952,22207125120,4532782825728,
+%T A012727 1380071532433920,459909185638812672,212375023941305272320,
+%U A012727 104929881035116227072000,68350141067274779587092480
+%N A012727 exp(arctanh(x)*atan(x))=1+2/2!*x^2+12/4!*x^4+328/6!*x^6+13328/8!*x^8...
+%K A012727 nonn
+%O A012727 0,2
+%A A012727 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

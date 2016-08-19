@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040451
+Showing 1-1 of 1
+
+%I A040451
+%S A040451 21,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,
+%T A040451 2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,
+%U A040451 42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1,42,1,2,1
+%N A040451 Continued fraction for sqrt(473).
+%H A040451 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040451 a(n)=(1/6)*{-50*(n mod 4)+13*[(n+1) mod 4]+10*[(n+2) mod 4]+73*[(n+3) mod 4]}-21*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 13 2009]
+%p A040451 with(numtheory): Digits := 300: convert(evalf(sqrt(473)),confrac);
+%K A040451 nonn,cofr,easy,less
+%O A040451 0,1
+%A A040451 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

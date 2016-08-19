@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045879
+Showing 1-1 of 1
+
+%I A045879
+%S A045879 12,13,14,16,21,25,31,32,33,36,37,42,44,49,54,64,69,96,98,99,101,102,
+%T A045879 103,106,108,110,112,113,120,122,128,129,130,133,135,137,140,144,146,
+%U A045879 148,152,153,154,155,157,158,159,160,166,172,174,178,179,181,186,190
+%N A045879 Numbers n such that n^2 contains the same digits as some other square.
+%e A045879 12^2 = 144 has same digits as 21^2 = 441, so 12 and 21 are in the sequence.
+%K A045879 nonn,base
+%O A045879 1,1
+%A A045879 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

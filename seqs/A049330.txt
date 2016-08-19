@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049330
+Showing 1-1 of 1
+
+%I A049330
+%S A049330 1,1,3,1,115,11,5887,151,259723,15619,381773117,655177,20646903199,
+%T A049330 27085381,467168310097,2330931341,75920439315929441,12157712239,
+%U A049330 5278968781483042969,37307713155613,9093099984535515162569
+%N A049330 Numerator of (1/pi)*Integral_{0..inf} (sin x / x)^n dx.
+%C A049330 The subsequence of primes in the unsorted order of occurrence begins (through n=100, the last and largest in that range has n=63): 3, 11, 151, 259723, 15619, 27085381, 3607856726470666022715979, 162393536899851293236257827401317071582797663083205707005010585853997149812190935313632896689565597 - Jonathan Vos Post, Feb 05 2011
+%D A049330 A. H. R. Grimsey, On the accumulation of chance effects and the Gaussian frequency distribution, Phil. Mag., 36 (1945), 294-295.
+%D A049330 R. G. Medhurst and J. H. Roberts, Evaluation of the integral I_n(b) = (2/pi)*Integral_{0..inf} (sin x / x)^n cos (bx) dx, Math. Comp., 19 (1965), 113-117.
+%H A049330 T. D. Noe, <a href="/A049330/b049330.txt">Table of n, a(n) for n=1..100</a>
+%H A049330 Iskander Aliev, <a href="http://arxiv.org/abs/math/0503115">Siegel's Lemma and Sum-Distinct Sets</a>, (2005) arXiv:math/0503115; Discrete and Computational Geometry, Volume 39, Numbers 1-3 / March, 2008. [Added by _N. J. A. Sloane_, Jul 09 2009]
+%H A049330 R. Baillie, D. Borwein and J. M. Borwein, <a href="http://www.jstor.org/stable/27642636">Surprising Sinc Sums and Integrals</a>, Amer. Math. Monthly, 115 (2008), 888-901.
+%H A049330 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SincFunction.html">Sinc Function</a>
+%e A049330 1/2, 1/2, 3/8, 1/3, 115/384, 11/40, ...
+%t A049330 Numerator[Table[Integrate[(Sin[x]/x)^n,{x,0,\[Infinity]}]/Pi,{n,25}]] (* _Harvey P. Dale_, Jan 01 2013 *)
+%Y A049330 Cf. A049331. Same as A002297 except for n=4 term. Cf. also A002304, A002305.
+%K A049330 nonn,frac,easy,nice
+%O A049330 1,3
+%A A049330 _N. J. A. Sloane_, Mark S. Riggs (msr1(AT)ra.msstate.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

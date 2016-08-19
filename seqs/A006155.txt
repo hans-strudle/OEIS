@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006155
+Showing 1-1 of 1
+
+%I A006155 M1945
+%S A006155 1,2,9,61,551,6221,84285,1332255,24066691,489100297,11044268633,
+%T A006155 274327080611,7433424980943,218208342366093,6898241919264181,
+%U A006155 233651576126946103,8441657595745501019,324052733365292875025
+%N A006155 Expansion of 1/(2-x-e^x).
+%D A006155 Getu, S.; Shapiro, L. W.; Combinatorial view of the composition of functions. Ars Combin. 10 (1980), 131-145.
+%D A006155 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006155 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=157">Encyclopedia of Combinatorial Structures 157</a>
+%F A006155 E.g.f.: 1/(2-x-exp(x)).
+%Y A006155 Cf. A032112.
+%K A006155 nonn,easy
+%O A006155 0,2
+%A A006155 _Simon Plouffe_
+%E A006155 More terms from _Ralf Stephan_, Mar 12 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

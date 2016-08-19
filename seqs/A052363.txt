@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052363
+Showing 1-1 of 1
+
+%I A052363
+%S A052363 0,3,11,13,17,23,73,101,103,111,113,117,123,173,323,373,1103,1111,
+%T A052363 1113,1117,1123,1173,1323,1373,3323,3373,11373,13323,13373,17373,
+%U A052363 23323,23373,73373,101373,103323,103373,111373,113323,113373,117373
+%N A052363 Numbers n whose English name (A005589) has a greater length than any smaller number.
+%C A052363 Positions of records in A005589.
+%H A052363 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Number.html">Number</a>
+%e A052363 Note that A052360(373373) = 64 and A005589(373373) = 56.
+%Y A052363 Cf. A005589, A052360, A052362.
+%K A052363 nonn,word
+%O A052363 1,2
+%A A052363 _Allan C. Wechsler_, Mar 07 2000
+%E A052363 Edited by _R. J. Mathar_ and _T. D. Noe_, Apr 09 2009
+%E A052363 Minor edits by _Ray Chandler_, Jul 22 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060491
+Showing 1-1 of 1
+
+%I A060491
+%S A060491 1,0,0,184,17488,2780752,689187720,236477490418,107317805999204,
+%T A060491 62318195302890305,45081693413563797127
+%N A060491 Number of ordered tricoverings of an unlabeled n-set.
+%C A060491 A covering of a set is a tricovering if every element of the set is covered by exactly three blocks of the covering.
+%F A060491 E.g.f. for ordered k-block tricoverings of an unlabeled n-set is exp(-x+x^2/2+x^3/3*y/(1-y))*Sum_{k=0..inf}1/(1-y)^binomial(k, 3)*exp(-x^2/2*1/(1-y)^n)*x^k/k!.
+%e A060491 There are 184 ordered tricoverings of an unlabeled 3-set: 4 4-block, 60 5-block and 120 6-block tricoverings (cf. A060492).
+%Y A060491 Cf. A006095, A060483-A060490, (row sums of) A060492, A060090-A060095, A060069, A060070, A060051-A060053, A002718, A059443, A003462, A059945-A059951.
+%K A060491 more,nonn
+%O A060491 0,4
+%A A060491 _Vladeta Jovovic_, Mar 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017669
+Showing 1-1 of 1
+
+%I A017669
+%S A017669 1,9,28,73,126,7,344,585,757,567,1332,511,2198,387,392,4681,4914,757,
+%T A017669 6860,4599,1376,2997,12168,455,15751,9891,20440,3139,24390,147,29792,
+%U A017669 37449,4144,22113,6192,55261,50654,15435,61544,7371,68922,172,79508,24309,10598
+%N A017669 Numerator of sum of -3rd powers of divisors of n.
+%C A017669 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%H A017669 Vincenzo Librandi, <a href="/A017669/b017669.txt">Table of n, a(n) for n = 1..1000</a>
+%t A017669 A017669[n_Integer] := Numerator[DivisorSigma[-3, n]]; A017669 /@ Range[100] (* _Vladimir Joseph Stephan Orlovsky_, Jul 21 2011 *)
+%Y A017669 Cf. A017670.
+%K A017669 nonn,frac
+%O A017669 1,2
+%A A017669 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

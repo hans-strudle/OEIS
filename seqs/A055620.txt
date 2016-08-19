@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055620
+Showing 1-1 of 1
+
+%I A055620
+%S A055620 4,4,3,5,0,2,4,3,3,3,0,4,0,0,4,1,4,2,4,3,0,0,0,5,0,3,0,0,0,2,4,1,2,2,
+%T A055620 5,1,3,3,1,5,4,2,2,4,1,5,3,5,4,3,0,3,1,5,3,2,2,5,2,1,0,0,3,0,0,1,2,3,
+%U A055620 2,4,0,1,0,1,5,4,4,5,1,3,5,4,2,5,4,0,5,1,2,0,5,4,5,3,1,5,2,1,3,3,2,3,3,5,3
+%N A055620 Digits of an idempotent 6-adic number.
+%C A055620 ( a(0) + a(1)*6 + a(2)*6^2 + ... )^k = a(0) + a(1)*6 + a(2)*6^2 + ... for each k. Apart from 0 and 1 in base 6 there are only 2 numbers with this property. For the other see A054869.
+%D A055620 V. deGuerre and R. A. Fairbairn, Automorphic numbers, J. Rec. Math., 1 (No. 3, 1968), 173-179.
+%e A055620 (a(0)+a(1)*6+a(2)*6^2+a(3)*6^3)^2=a(0)+a(1)*6+a(2)*6^2+a(3)*6^3 mod 6^4 because 1478656 = 1216 mod 1296.
+%Y A055620 The six examples given by deGuerre and Fairbairn are A055620, A054869, A018247, A018248, A259468, A259469.
+%K A055620 nonn,base
+%O A055620 0,1
+%A A055620 Paolo Dominici (pl.dm(AT)libero.it), Jun 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

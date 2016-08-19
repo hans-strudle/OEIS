@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061233
+Showing 1-1 of 1
+
+%I A061233
+%S A061233 1,7,112,115,157,372,432,1340,7034,8396,9200,18846,29558,34050,89754,
+%T A061233 101768,1361737,48461857,81164005,145676139,163820009,182446527,
+%U A061233 5021656281,8401618827,22255558907,28334352230,127113921970,310272097461,782301280193,5560255100022,9925600136870,85169484256928,2542699818508737,3145584963639199,397021758001902006,467746771316089905
+%N A061233 Pierce expansion for 4 - Pi.
+%C A061233 Also, alternating Engel expansion for Pi.
+%C A061233 Pi = 4 - 1/1 + 1/1*7 - 1/1*7*112 + 1/1*7*112*115 - ...
+%C A061233 Pierce expansions are always strictly increasing.
+%H A061233 T. D. Noe, <a href="/A061233/b061233.txt">Table of n, a(n) for n=0..400</a>
+%H A061233 <a href="/index/El#Engel">Index entries for sequences related to Engel expansions</a>
+%H A061233 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PierceExpansion.html">Pierce Expansion</a>
+%p A061233 Digits := 1000: x0 := 4-Pi-4^(-1000): x1 := 4-Pi+4^(-1000): ss := []: # when expansions of x0 and x1 differ, halt
+%p A061233 k0 := floor(1/x0): k1 := floor(1/x1): while k0=k1 do ss := [op(ss),k0]: x0 := 1-k0*x0: x1 := 1-k1*x1: k0 := floor(1/x0): k1 := floor(1/x1): od:
+%Y A061233 A014014 and A015884 are inferior versions of this sequence.
+%K A061233 nonn,easy,nice
+%O A061233 0,2
+%A A061233 _Frank Ellermann_, May 15 2001.
+%E A061233 More terms from Eric Rains (rains(AT)caltech.edu), May 31, 2001.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

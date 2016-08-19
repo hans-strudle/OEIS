@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025506
+Showing 1-1 of 1
+
+%I A025506
+%S A025506 1,4,31,256,797,824,857,1126,1397,1496,1523,1532,193139,193172,194035,
+%T A025506 194044,195377,196370,196379,198570,198633,199148,199553,199860,
+%U A025506 200285,201758,201785,201794,205329,205686,205713,205806,206031,206064,206091
+%N A025506 Least k such that first k terms of A006928 contain n more 1's than 2's.
+%K A025506 nonn
+%O A025506 1,2
+%A A025506 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

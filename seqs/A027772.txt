@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027772
+Showing 1-1 of 1
+
+%I A027772
+%S A027772 12,169,1274,6825,29120,105196,334152,957372,2519400,6172530,14226212,
+%T A027772 31097794,64899744,130007500,251100200,469364220,851809140,1504982115,
+%U A027772 2594796750,4374736275,7225370880,11708971560,18644037360,29205813000,45060397200,68541870852
+%N A027772 (n+1)*C(n+1,12).
+%C A027772 Number of 14-subsequences of [ 1, n ] with just 1 contiguous pair.
+%H A027772 T. D. Noe, <a href="/A027772/b027772.txt">Table of n, a(n) for n = 11..1000</a>
+%H A027772 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081, 2014
+%F A027772 G.f.: (12+x)*x^11/(1-x)^14.
+%F A027772 a(n) = C(n+1, 12)*C(n+1, 1). - _Zerinvary Lajos_, Jun 08 2005, corrected by _R. J. Mathar_, Feb 13 2016
+%K A027772 nonn,easy
+%O A027772 11,1
+%A A027772 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

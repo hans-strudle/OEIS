@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036052
+Showing 1-1 of 1
+
+%I A036052
+%S A036052 1,1,1,2,2,6,10,60,144,348,8526,8930,322560,210540,7296,7001280,
+%T A036052 3325069440,176880000,44528400,6398154000,74839427712000,222108480000,
+%U A036052 52321920,1864464000,5066300010240,1338148188,91406407293961987500
+%N A036052 Order of the permutation created by length sorting on the partitions of n.
+%Y A036052 Cf. A036045-A036056.
+%K A036052 nonn
+%O A036052 1,4
+%A A036052 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

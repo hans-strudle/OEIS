@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039655
+Showing 1-1 of 1
+
+%I A039655
+%S A039655 0,0,2,0,1,0,2,5,1,0,4,0,1,1,2,0,2,0,1,1,2,0,1,2,1,3,2,0,1,0,5,1,1,1,
+%T A039655 2,0,1,2,1,0,4,0,1,5,1,0,2,4,2,1,1,0,3,1,3,1,1,0,1,0,4,1,2,1,2,0,3,4,
+%U A039655 2,0,2,0,1,2,1,4,1,0,2,2,3,0,1,1,1,3,1,0,1,2,1,1,2,3,1,0,3,2,2,0,2,0,2,1,2
+%N A039655 Number of iterations of f(x) = sigma(x)-1 on n required to reach a prime.
+%H A039655 Charles R Greathouse IV, <a href="/A039655/b039655.txt">Table of n, a(n) for n = 2..10000</a>
+%H A039655 MathOverflow, <a href="http://mathoverflow.net/questions/181019/does-iterating-a-certain-function-related-to-the-sums-of-divisors-eventually-alw">Does iterating a certain function related to the sums of divisors eventually always result in a prime value?</a>, 2014
+%t A039655 f[n_] := Plus @@ Divisors@n - 1; g[n_] := Length@ NestWhileList[ f@# &, n, !PrimeQ@# &] - 1; Table[ g@n, {n, 2, 106}] (* _Robert G. Wilson v_, May 07 2010 *)
+%o A039655 (PARI) a(n)=my(t);while(!isprime(n),n=sigma(n)-1;t++);t \\ _Charles R Greathouse IV_, Sep 16 2014
+%Y A039655 Cf. A039649-A039656.
+%K A039655 nonn
+%O A039655 2,3
+%A A039655 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

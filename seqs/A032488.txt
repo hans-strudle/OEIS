@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032488
+Showing 1-1 of 1
+
+%I A032488
+%S A032488 8,10,22,44,58,62,68,82,100,104,118,230,260,440,446,512,700,892,932,
+%T A032488 1240,1456,2438,4982,5090,6496,14678,17944,23786,27838,39866,46322,
+%U A032488 52358,61700,68584,78244
+%N A032488 Numbers n such that 223*2^n+1 is prime.
+%H A032488 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032488 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032488 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032488 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032488 nonn,hard
+%O A032488 1,1
+%A A032488 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

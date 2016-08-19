@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013896
+Showing 1-1 of 1
+
+%I A013896
+%S A013896 8000,25600000000,81920000000000000,262144000000000000000000,
+%T A013896 838860800000000000000000000000,2684354560000000000000000000000000000,
+%U A013896 8589934592000000000000000000000000000000000,27487790694400000000000000000000000000000000000000
+%N A013896 20^(5n+3).
+%H A013896 Vincenzo Librandi, <a href="/A013896/b013896.txt">Table of n, a(n) for n = 0..50</a>
+%H A013896 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013896 a(n) = 3200000*a(n-1), a(0)=8000. [Vincenzo Librandi, May 27 2011]
+%o A013896 (MAGMA) [20^(5*n+3): n in [0..10]]; // Vincenzo Librandi, May 27 2011
+%K A013896 nonn
+%O A013896 0,1
+%A A013896 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

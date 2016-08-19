@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017255
+Showing 1-1 of 1
+
+%I A017255
+%S A017255 1977326743,17592186044416,2384185791015625,70188843638032384,
+%T A017255 929293739471222707,7516865509350965248,43513917611435838661,
+%U A017255 197732674300000000000,747993810527520928879,2450808588882738675712
+%N A017255 (9*n+7)^11.
+%H A017255 Vincenzo Librandi, <a href="/A017255/b017255.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017255 (9*Range[0,20]+7)^11 (* _Harvey P. Dale_, Jan 14 2015 *)
+%o A017255 (MAGMA) [(9*n+7)^11: n in [0..10]]; // Vincenzo Librandi, Jul 27 2011
+%K A017255 nonn,easy
+%O A017255 0,1
+%A A017255 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

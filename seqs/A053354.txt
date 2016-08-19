@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053354
+Showing 1-1 of 1
+
+%I A053354
+%S A053354 7,15,21,25,27,69,71,105,207,285,611,635,647,969,1127,1159,2407,2529,
+%T A053354 3517,3577,6275,6729,7919,8809,9375,27369,31657,44149,58579,59355
+%N A053354 Numbers n such that 275*2^n+1 is prime.
+%H A053354 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A053354 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A053354 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A053354 hard,nonn
+%O A053354 1,1
+%A A053354 _N. J. A. Sloane_, Dec 29 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016379
+Showing 1-1 of 1
+
+%I A016379
+%S A016379 1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,
+%T A016379 0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,
+%U A016379 0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1
+%V A016379 1,1,0,0,0,-1,-1,0,0,0,1,1,0,0,0,-1,-1,0,0,0,1,1,0,0,0,-1,-1,0,0,0,1,
+%W A016379 0,-1,0,0,-1,0,1,0,0,1,0,-1,0,0,-1,0,1,0,0,1,0,-1,0,0,-1,0,1,0,0,1,0,
+%X A016379 0,1,0,-1,0,0,-1,0,1,0,0,1,0,-1,0,0,-1,0,1
+%N A016379 310th cyclotomic polynomial.
+%t A016379 CoefficientList[Cyclotomic[310,x],x] (* _Harvey P. Dale_, Oct 26 2013 *)
+%K A016379 sign,fini
+%O A016379 0,1
+%A A016379 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

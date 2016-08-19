@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028627
+Showing 1-1 of 1
+
+%I A028627
+%S A028627 1,6,12,8,18,72,84,48,156,222,180,360,312,168,720,342,534,552,628,444,
+%T A028627 1272,1008,600,1128,1752,894,2520,1040,1008,2520,2140,1452,2796,1560,
+%U A028627 2112,3024,3690,1368,3576,3528
+%N A028627 Expansion of (theta_3(z)*theta_3(15z)+theta_2(z)*theta_2(15z))^3.
+%K A028627 nonn
+%O A028627 0,2
+%A A028627 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

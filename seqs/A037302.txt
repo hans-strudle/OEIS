@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037302
+Showing 1-1 of 1
+
+%I A037302
+%S A037302 1,1,3,352,4718075,14666561365176,17832560768358341943028,
+%T A037302 12816077964079346687829905128694016,
+%U A037302 7658969897501574748537755050756794492337074203099,5091038988117504946842559205930853037841762820367901333706255223000
+%N A037302 Normalized volume of Birkhoff polytope of n X n doubly-stochastic square matrices. If the volume is v(n), then a(n) = ((n-1)^2)! * v(n) / n^(n-1).
+%C A037302 The Birkhoff polytope is an (n-1)^2-dimensional polytope in n^2-dimensional space; its vertices are the n! permutation matrices.
+%C A037302 Is a(n) divisible by n^2 for all n>=4? - _Dean Hickerson_, Nov 27 2002
+%D A037302 Jesus A. De Loera, Fu Liu, and Ruriko Yoshida, A generating function for all semi-magic squares and the volume of the Birkhoff polytope, J. Algebraic Combin. 30 (2009), no. 1, 113-139. Also http://www.emis.ams.org/journals/JACO/Volume30_1/m6627810x2013373.fulltext.pdf
+%D A037302 R. P. Stanley, Decompositions of rational convex polytopes, Annals of Discrete Math. 6 (1980), 333-342.
+%H A037302 Matthias Beck and Dennis Pixton, <a href="http://www.math.binghamton.edu/dennis/Birkhoff/">The Ehrhart polynomial of the Birkhoff polytope</a>
+%H A037302 Beck, Matthias. <a href="http://arxiv.org/abs/1407.0255">Stanley's Major Contributions to Ehrhart Theory</a>, arXiv preprint arXiv:1407.0255 (2014).
+%H A037302 Matthias Beck and Dennis Pixton, The Ehrhart polynomial of the Birkhoff polytope, Discrete Comput. Geom. 30 (2003), no. 4, 623-637, <a href="http://arxiv.org/abs/math/0202267">arXiv:math.CO/0202267</a>
+%H A037302 C. S. Chan and D. P. Robbins, <a href="http://front.math.ucdavis.edu/math.CO/9806076">On the volume of the polytope of doubly stochastic matrices</a>, math.CO/9806076.
+%H A037302 C. S. Chan and D. P. Robbins, <a href="http://www.emis.de/journals/EM/expmath/volumes/8/8.html#3chan">On the volume of the polytope of doubly stochastic matrices</a>, Exper. Math. 8 (1999), 291-300.
+%e A037302 a(2)=1: The polytope of 2 X 2 matrices is the line segment from (1,0;0,1) to (0,1;1,0), with length v(2)=2, so a(2) = 1! * 2 / 2^1 = 1.
+%Y A037302 Numerator and denominator of v(n) are in A078524 and A078525.
+%K A037302 nonn,hard,nice
+%O A037302 1,3
+%A A037302 G"unter M. Ziegler (ziegler(AT)math.tu-berlin.de)
+%E A037302 v(9) computed by Matthias Beck (matthias(AT)math.binghamton.edu) and Dennis Pixton (dennis(AT)math.binghamton.edu), Feb 25 2002
+%E A037302 Edited by _Dean Hickerson_, Nov 27 2002
+%E A037302 a(10) is based on a calculation of v(10) by Matthias Beck (matthias(AT)math.binghamton.edu) and Dennis Pixton (dennis(AT)math.binghamton.edu) from Mar 13 2002 to May 18 2003.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

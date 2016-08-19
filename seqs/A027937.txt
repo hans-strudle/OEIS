@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027937
+Showing 1-1 of 1
+
+%I A027937
+%S A027937 1,7,26,79,221,596,1581,4163,10926,28635,75001,196392,514201,1346239,
+%T A027937 3524546,9227431,24157781,63245948,165580101,433494395,1134903126,
+%U A027937 2971215027,7778742001,20365011024,53316291121
+%N A027937 T(2*n,n+1), T given by A027935.
+%H A027937 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (5, -8, 5, -1).
+%F A027937 Fibonacci(2*n+3) - 2*n - 2.
+%F A027937 a(n)= 5*a(n-1) -8*a(n-2) +5*a(n-3) -a(n-4). G.f.: -x*(-1-2*x+x^2)/ ((x^2-3*x+1) * (x-1)^2). [From _R. J. Mathar_, Feb 06 2010]
+%o A027937 (MAGMA) [Fibonacci(2*n+3) - 2*n - 2: n in [1..30]]; // Vincenzo Librandi, Apr 18 2011
+%K A027937 nonn
+%O A027937 1,2
+%A A027937 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

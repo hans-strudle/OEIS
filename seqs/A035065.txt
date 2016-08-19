@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035065
+Showing 1-1 of 1
+
+%I A035065
+%S A035065 4,5,6,8,10,14,15,20,23,27,29,33,35,39,43,51,58,68,70,84,86,89,90,95,
+%T A035065 104,107,110,111,116,117,119,120,133,134,136,139,147,150,158,159,170,
+%U A035065 183,193,199,206,211,224,229,235,239,244,249,254,270,279,282,291,299
+%N A035065 n! has a prime number of digits.
+%H A035065 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%e A035065 a(1)=4 because 4! = 24 has 2 ( prime ) digits.
+%e A035065 23! = 25852016738884976640000 has exactly 23 digits !
+%t A035065 Select[ Range[300], PrimeQ[ Floor[ Log[10, #! ] + 1]] & ]
+%Y A035065 Cf. A000142, A035066, A067367.
+%K A035065 nonn,base
+%O A035065 0,1
+%A A035065 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

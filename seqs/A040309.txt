@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040309
+Showing 1-1 of 1
+
+%I A040309
+%S A040309 18,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,
+%T A040309 9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,
+%U A040309 36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36,9,36
+%N A040309 Continued fraction for sqrt(328).
+%H A040309 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040309 a(n)=(1/2)*[45+27(-1)^n]-18*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 27 2009]
+%p A040309 with(numtheory): Digits := 300: convert(evalf(sqrt(328)),confrac);
+%K A040309 nonn,cofr,easy
+%O A040309 0,1
+%A A040309 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

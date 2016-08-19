@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022554
+Showing 1-1 of 1
+
+%I A022554
+%S A022554 0,1,2,3,5,7,9,11,13,16,19,22,25,28,31,34,38,42,46,50,54,58,62,66,70,
+%T A022554 75,80,85,90,95,100,105,110,115,120,125,131,137,143,149,155,161,167,
+%U A022554 173,179,185,191,197,203,210,217,224,231,238,245,252,259,266,273,280
+%N A022554 a(n) = Sum_{k=0..n} floor(sqrt(k)).
+%C A022554 Partial sums of A000196. - _Michel Marcus_, Mar 01 2016
+%D A022554 R. L. Graham, D. E. Knuth, and O. Patashnik, Concrete Mathematics, 2nd Edition, Addison-Wesley, 1994, Eq. 3.27 on page 87.
+%D A022554 D. E. Knuth, The Art of Computer Programming, Vol. 1, 3rd Edition, Addison-Wesley, 1997, Ex. 43 of section 1.2.4.
+%D A022554 K. H. Rosen, Discrete Mathematics and Its Application, 6th Edition, McGraw-Hill, 2007, Ex. 25 of section 2.4.
+%H A022554 M. Griffiths, <a href="http://www.jstor.org/stable/3621862">More sums involving the floor function</a>, Math. Gaz., 86 (2002), 285-287.
+%F A022554 a(0)=0, a(1)=1; a(n) = 2 a(n-1) - a(n-2) if n is not a perfect square; a(n) = 2 a(n-1) - a(n-2) + 1 if n is a perfect square.
+%F A022554 a(n) = floor(sqrt(n)) * (n-1/6*(2*floor(sqrt(n))+5)*(floor(sqrt(n))-1)). - Yong Kong (ykong(AT)curagen.com), Mar 10 2001
+%F A022554 a(n) = 2/3 n^(3/2) - 1/2 n + O(sqrt(n)). [_Charles R Greathouse IV_, Jan 12 2012]
+%p A022554 Sum(floor(sqrt(k)),k=0..n)
+%t A022554 Accumulate[Floor[Sqrt[Range[0,60]]]] (* _Harvey P. Dale_, Feb 16 2011 *)
+%o A022554 (PARI) a(n)=sum(k=1,n,sqrtint(k)) \\ _Charles R Greathouse IV_, Jan 12 2012
+%o A022554 (PARI) a(n)=my(k=sqrtint(n));k*(n-(2*k+5)/6*(k-1)) \\ _Charles R Greathouse IV_, Jan 12 2012
+%Y A022554 Cf. A000196.
+%K A022554 nonn,easy
+%O A022554 0,3
+%A A022554 Michel Tixier (tixier(AT)dyadel.net)
+%E A022554 More terms from Yong Kong (ykong(AT)curagen.com), Mar 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050685
+Showing 1-1 of 1
+
+%I A050685
+%S A050685 0,0,9,18,189,360,2799,5238,36189,67140,435699,804258,5021289,9238320,
+%T A050685 56191599,103144878,615724389,1128303900,6641519499,12154735098,
+%U A050685 70773675489,129392615880,746963079399,1364533542918,7822667714589
+%N A050685 Number of nonzero palindromes < 10^n and containing at least one digit '0'.
+%F A050685 G.f.:(-9*x^2*(x+1))/((x-1)*(3*x-1)*(3*x+1)*(10*x^2-1)) [From Maksym Voznyy (voznyy(AT)mail.ru), Jul 28 2009]
+%e A050685 Up to 10^4 we find 18 numbers -> 101, 202, ..., 909, 1001, 2002,... and 9009.
+%Y A050685 Cf. A050250, A050684.
+%K A050685 nonn,base
+%O A050685 1,3
+%A A050685 _Patrick De Geest_, Aug 15 1999.
+%E A050685 More terms from Michael Lugo (mlugo(AT)thelabelguy.com), Dec 22 1999
+%E A050685 Corrected by _T. D. Noe_, Nov 08 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

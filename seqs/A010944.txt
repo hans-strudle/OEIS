@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010944
+Showing 1-1 of 1
+
+%I A010944
+%S A010944 1,28,378,3276,20475,98280,376740,1184040,3108105,6906900,13123110,
+%T A010944 21474180,30421755,37442160,40116600,37442160,30421755,21474180,
+%U A010944 13123110,6906900,3108105,1184040,376740,98280,20475,3276,378,28,1
+%N A010944 Binomial coefficient C(28,n).
+%C A010944 Row 28 of A007318.
+%p A010944 seq(binomial(28,n), n=0..28); # Nathaniel Johnston, Jun 24 2011
+%t A010944 q = 28; Join[{a = 1}, Table[a = (q - n)*a/(n + 1), {n, 0, q - 1}]] (* _Vladimir Joseph Stephan Orlovsky_, Jul 10 2011 *)
+%o A010944 (Sage) [binomial(28, n) for n in range(29)] # [From _Zerinvary Lajos_, May 21 2009]
+%o A010944 (MAGMA) [Binomial(28, n): n in [0..28]]; // _Vincenzo Librandi_, Jun 12 2013
+%Y A010944 Cf. A010926-A011001.
+%K A010944 nonn,fini,full,easy
+%O A010944 0,2
+%A A010944 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051187
+Showing 1-1 of 1
+
+%I A051187
+%S A051187 1,8,1,128,24,1,3072,704,48,1,98304,25600,2240,80,1,3932160,
+%T A051187 1122304,115200,5440,120,1,188743680,57802752,6651904,376320,
+%U A051187 11200,168,1,10569646080,3425697792,430309376,27725824,1003520,20608,224,1
+%V A051187 1,-8,1,128,-24,1,-3072,704,-48,1,98304,-25600,2240,-80,1,-3932160,
+%W A051187 1122304,-115200,5440,-120,1,188743680,-57802752,6651904,-376320,
+%X A051187 11200,-168,1,-10569646080,3425697792,-430309376,27725824,-1003520,20608,-224,1
+%N A051187 Generalized Stirling number triangle of first kind.
+%C A051187 a(n,m)= R_n^m(a=0,b=8) in the notation of the given reference.
+%C A051187 a(n,m) is a Jabotinsky matrix, i.e. the monic row polynomials E(n,x) := sum(a(n,m)*x^m,m=1..n) = product(x-8*j,j=0..n-1), n >= 1, E(0,x) := 1, are exponential convolution polynomials (see A039692 for the definition and a Knuth reference).
+%D A051187 Mitrinovic, D. S.; Mitrinovic, R. S.; Tableaux d'une classe de nombres relies aux nombres de Stirling. Univ. Beograd. Pubi. Elektrotehn. Fak. Ser. Mat. Fiz. No. 77 1962, 77 pp.
+%F A051187 a(n, m) = a(n-1, m-1) - 8*(n-1)*a(n-1, m), n >= m >= 1; a(n, m) := 0, n<m; a(n, 0) := 0, a(1, 1)=1. E.g.f. for m-th column of signed triangle: (((log(1+8*x))/8)^m)/m!.
+%e A051187 {1}; {-8,1}; {128,-24,1}; {-3072,704,-48,1}; ... E(3,x) = 128*x-24*x^2+x^3.
+%Y A051187 First (m=1) column sequence is: A051189(n-1). Row sums (signed triangle): A049210(n-1)*(-1)^(n-1). Row sums (unsigned triangle): A045755(n). The b=1..7 triangles are: A008275 (Stirling1 triangle), A039683, A051141, A051142, A051150, A051151, A051186.
+%K A051187 sign,easy,tabl
+%O A051187 1,2
+%A A051187 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

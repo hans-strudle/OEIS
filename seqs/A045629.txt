@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045629
+Showing 1-1 of 1
+
+%I A045629
+%S A045629 1,1,2,3,7,15,44,128,415,1367,4654,16080,56450,200170,716728,2585850,
+%T A045629 9393119,34319667,126047906,465076160,1723097066,6407856892,
+%U A045629 23910271224,89493903438,335912741682,1264106399934,4768448177636,18027218147818
+%N A045629 Number of 2n-bead black-white complementable necklaces with n black beads.
+%H A045629 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A045629 (1/2n) * sum{ d divides n } (phi(n/d)*C(2d-1, d-1) + phi(2n/d)*2^(d-1)) (Christian Bower)
+%K A045629 nonn
+%O A045629 0,3
+%A A045629 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

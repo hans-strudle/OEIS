@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039337
+Showing 1-1 of 1
+
+%I A039337
+%S A039337 11,25,67,83,88,90,92,93,94,95,99,107,115,123,139,153,193,200,202,204,
+%T A039337 205,206,207,209,225,233,241,249,267,281,331,345,395,409,459,473,515,
+%U A039337 531,536,538,540,541,542,543,547,555,563,571,603,643,659,664,666,668
+%N A039337 Numbers n such that representation in base 8 has same nonzero number of 1's and 3's.
+%t A039337 Select[Range[700],DigitCount[#,8,1]==DigitCount[#,8,3]>0&] (* _Harvey P. Dale_, Oct 24 2015 *)
+%K A039337 nonn,base,easy
+%O A039337 1,1
+%A A039337 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

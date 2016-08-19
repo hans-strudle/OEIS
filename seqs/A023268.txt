@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023268
+Showing 1-1 of 1
+
+%I A023268
+%S A023268 11,13,43,47,67,83,89,103,109,193,197,251,281,293,383,397,449,461,601,
+%T A023268 617,641,733,757,823,839,853,887,937,967,1013,1069,1091,1447,1489,
+%U A023268 1733,1741,1789,1931,2111,2237,2239,2251,2339,2521,2539,2647,2671,2693,2797
+%N A023268 Numbers n such that n remains prime through 2 iterations of function f(x) = 9x + 10.
+%C A023268 n, 9*n+10 and 81*n+100 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%t A023268 Select[Prime[Range[500]],And@@PrimeQ[Rest[NestList[9#+10&,#,2]]]&] (* _Harvey P. Dale_, Jul 13 2012 *)
+%o A023268 (MAGMA) [n: n in [1..100000] | IsPrime(n) and IsPrime(9*n+10) and IsPrime(81*n+100)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023268 nonn
+%O A023268 1,1
+%A A023268 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

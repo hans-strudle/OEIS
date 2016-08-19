@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056626
+Showing 1-1 of 1
+
+%I A056626
+%S A056626 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,
+%T A056626 0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0,
+%U A056626 0,0,0,2,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
+%N A056626 Number of non-unitary square divisors of n.
+%F A056626 a(n)=A046951(n)-2^r, where r is the number of prime factors in the largest unitary prime divisor of n.
+%e A056626 n=p^u prime-power has u+1 square-divisors of which 2 (i.e. 1 and n) are unitary but u-1 are not unitary, so a[p^u]=u-1. E.g. n=4^4=256, has 5 square divisors {1,4,16,64,256} of which {4,16,64} are not unitary, so a(256)=3.
+%Y A056626 Cf. A046951, A034444, A000188, A055229, A008833.
+%K A056626 nonn
+%O A056626 1,64
+%A A056626 _Labos Elemer_, Aug 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059746
+Showing 1-1 of 1
+
+%I A059746
+%S A059746 1,2,3,5,6,9,10,11,19,22,30,35,41,91,101,125,261,706,750,1315,1629,
+%T A059746 2082,2979,3029,3077,3950,4097,5491,5746,10761,12946,14770
+%N A059746 Numbers n such that 3*2^n + 7 is prime.
+%t A059746 Do[ If[ PrimeQ[ 3*2^n + 7 ], Print[n] ], {n, 1, 3000} ]
+%K A059746 nonn,more
+%O A059746 1,2
+%A A059746 _Robert G. Wilson v_, Feb 10 2001
+%E A059746 More terms from _Robert G. Wilson v_, Jan 28 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

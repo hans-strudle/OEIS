@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002419
+Showing 1-1 of 1
+
+%I A002419 M4699 N2008
+%S A002419 1,10,40,110,245,476,840,1380,2145,3190,4576,6370,8645,11480,14960,
+%T A002419 19176,24225,30210,37240,45430,54901,65780,78200,92300,108225,126126,
+%U A002419 146160,168490,193285,220720,250976,284240,320705,360570,404040,451326
+%N A002419 4-dimensional figurate numbers: (6n-2)*C(n+2,3)/4.
+%C A002419 a(n) is the n-th antidiagonal sum of the convolution array A213761. [Clark Kimberling, Jul 04 2012]
+%C A002419 Convolution of A000027 with A000567 (excluding 0). - _Bruno Berselli_, Dec 07 2012
+%D A002419 A. H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 1964, p. 195.
+%D A002419 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002419 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002419 Vincenzo Librandi, <a href="/A002419/b002419.txt">Table of n, a(n) for n = 0..1000</a>
+%H A002419 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A002419 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A002419 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1)
+%F A002419 a(n) = (3*n-1)*binomial(n+2, 3)/2.
+%F A002419 G.f.: x*(1+5*x)/(1-x)^5.
+%F A002419 sum{n>=1} 1/a(n) = (-24+81*log(3) -9*Pi*sqrt(3))/14 = 1.143929... - R. J. Mathar, Mar 29 2011
+%F A002419 a(n) = (3*n^4 + 8*n^3 + 3*n^2 - 2*n)/12. - _Chai Wah Wu_, Jan 24 2016
+%p A002419 A002419:=-(1+5*z)/(z-1)**5; [_Simon Plouffe_ in his 1992 dissertation.]
+%t A002419 CoefficientList[Series[(1 + 5 x) / (1 - x)^5, {x, 0, 40}], x] (* _Vincenzo Librandi_, Jun 20 2013 *)
+%t A002419 LinearRecurrence[{5,-10,10,-5,1},{1,10,40,110,245},40] (* _Harvey P. Dale_, Nov 30 2014 *)
+%o A002419 (MAGMA) /* A000027 convolved with A000567 (excluding 0): */ A000567:=func<n |  n*(3*n-2)>; [&+[(n-i+1)*A000567(i): i in [1..n]]: n in [1..36]]; // _Bruno Berselli_, Dec 07 2012
+%o A002419 (PARI) a(n)=(3*n-1)*binomial(n+2,3)/2 \\ _Charles R Greathouse IV_, Sep 24 2015
+%o A002419 (Python)
+%o A002419 A002419_list, m = [], [6, 1, 1, 1, 1]
+%o A002419 for _ in range(10**2):
+%o A002419     A002419_list.append(m[-1])
+%o A002419     for i in range(4):
+%o A002419         m[i+1] += m[i] # _Chai Wah Wu_, Jan 24 2016
+%Y A002419 Cf. A093563 ((6, 1) Pascal, column m=4).
+%Y A002419 Cf. A000567, A002414 (first differences).
+%Y A002419 Cf. A220212 for a list of sequences produced by the convolution of the natural numbers with the k-gonal numbers.
+%K A002419 nonn,easy
+%O A002419 1,2
+%A A002419 _N. J. A. Sloane_.
+%E A002419 More terms from Pab Ter (pabrlos(AT)yahoo.com), May 08 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

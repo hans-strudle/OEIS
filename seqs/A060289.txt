@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060289
+Showing 1-1 of 1
+
+%I A060289
+%S A060289 4,5,17,53,250,1404,9013
+%N A060289 Number of distinct (non-overlapping) twin Harshad numbers whose sum is prime and where the 2nd Harshad is <= 10^n.
+%C A060289 This sequence seems to be incorrect. _Charles R Greathouse IV_, Apr 03 2014
+%F A060289 Generate the twin Harshads whose sum is prime. Count how many there are where the 2nd Harshad in the pair is <= a consecutive power of 10.
+%e A060289 a(1)=4 because there are four pairs of Harshads whose sum is prime and the 2nd Harshad in the pair is <=10; these are 1+2=3, 3+4=7, 5+6=11, 9+10=19. 8+9=17 is not included because this pair overlaps 7+8=15, which also happens to be not prime. (Another sequence might include such overlapping pairs.)
+%o A060289 (PARI) Niven(n)=n%sumdigits(n)==0
+%o A060289 a(n)=my(t,s); for(k=1,10^n,if(Niven(k), if(isprime(t+k), t=-10^n; s++); t=k)); s \\ _Charles R Greathouse IV_, Jan 23 2014
+%Y A060289 Cf. A060288, A005349, A060159.
+%K A060289 more,nonn,base
+%O A060289 1,1
+%A A060289 _Enoch Haga_, Mar 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

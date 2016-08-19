@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008456
+Showing 1-1 of 1
+
+%I A008456
+%S A008456 0,1,4096,531441,16777216,244140625,2176782336,13841287201,
+%T A008456 68719476736,282429536481,1000000000000,3138428376721,8916100448256,
+%U A008456 23298085122481,56693912375296,129746337890625,281474976710656,582622237229761
+%N A008456 12th powers: a(n) = n^12.
+%C A008456 Totally multiplicative sequence with a(p) = p^12 for prime p. [_Jaroslav Krizek_, Nov 01 2009]
+%H A008456 Vincenzo Librandi, <a href="/A008456/b008456.txt">Table of n, a(n) for n = 0..1000</a>
+%F A008456 Multiplicative with a(p^e) = p^(12*e). - _David W. Wilson_, Aug 01 2001
+%t A008456 Range[0,30]^12 (* _Vladimir Joseph Stephan Orlovsky_, May 05 2011 *)
+%o A008456 (MAGMA) [n^12: n in [0..30]]; // _Vincenzo Librandi_, May 06 2011
+%Y A008456 a(n) = A123868(n) + 1.
+%K A008456 nonn,easy,mult
+%O A008456 0,3
+%A A008456 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

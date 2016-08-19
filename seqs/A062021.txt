@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062021
+Showing 1-1 of 1
+
+%I A062021
+%S A062021 0,5,42,151,548,1185,2542,4403,7608,13621,20834,32535,47980,65609,
+%T A062021 88278,119947,162368,208869,269194,340007,416580,512305,622286,756003,
+%U A062021 925432,1114661,1314498,1537015,1771628,2031993,2393158,2786315
+%N A062021 Let P(n) = { 2,3,5,7,...,p(n) } where p(n) is n-th prime; then a(1) =0 and a(n) = Sum [mod{p(i)^2 - p(j)^2}], for all i and j from 1 to n.
+%F A062021 a(n) = 2*a(n-1) + (n-1)*(p(n)^2-p(n-1)^2) - a(n-2)
+%e A062021 a(3) = (5^2-2^2) + (5^2-3^2) + (3^2-2^2) = 42, P(3) = {2,3,5}.
+%K A062021 nonn
+%O A062021 1,2
+%A A062021 _Amarnath Murthy_, Jun 02 2001
+%E A062021 More terms and formula from Larry Reeves (larryr(AT)acm.org), Jun 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

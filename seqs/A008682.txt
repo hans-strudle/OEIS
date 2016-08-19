@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008682
+Showing 1-1 of 1
+
+%I A008682
+%S A008682 1,0,0,0,1,1,1,0,1,1,2,1,2,1,2,2,3,2,3,2,4,3,4,3,5,4,5,4,6,5,7,5,7,6,
+%T A008682 8,7,9,7,9,8,11,9,11,9,12,11,13,11,14,12,15,13,16,14,17,15,18,16,19,
+%U A008682 17,21,18,21,19,23,21,24
+%N A008682 Expansion of 1/((1-x^4)(1-x^5)(1-x^6)).
+%H A008682 Vincenzo Librandi, <a href="/A008682/b008682.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008682 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=229">Encyclopedia of Combinatorial Structures 229</a>
+%t A008682 CoefficientList[Series[1 / ((1 - x^4) (1 - x^5) (1 - x^6)), {x, 0, 100}], x] (* _Vincenzo Librandi_, Jun 23 2013 *)
+%o A008682 (PARI) Vec(1/(1-x^4)*(1-x^5)*(1-x^6)+O(x^99)) \\ _Charles R Greathouse IV_, Sep 26 2012
+%K A008682 nonn,easy
+%O A008682 0,11
+%A A008682 _N. J. A. Sloane_.
+%E A008682 Typo in name fixed by _Vincenzo Librandi_, Jun 23 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

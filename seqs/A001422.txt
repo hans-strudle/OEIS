@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001422
+Showing 1-1 of 1
+
+%I A001422
+%S A001422 2,3,6,7,8,11,12,15,18,19,22,23,24,27,28,31,32,33,43,44,47,48,60,67,
+%T A001422 72,76,92,96,108,112,128
+%N A001422 Numbers which are not the sum of distinct squares. This is the complete list (Sprague).
+%D A001422 R. E. Dressler and T. Parker, "12,758", Math. Comp., 28 (1974), 313-314.
+%D A001422 S. Lin, Computer experiments on sequences which form integral bases, pp. 365-370 of J. Leech, editor, Computational Problems in Abstract Algebra. Pergamon, Oxford, 1970.
+%D A001422 Harry L. Nelson, The Partition Problem, J. Rec. Math., 20 (1988), 315-316.
+%D A001422 J. Roberts, Lure of the Integers, Math. Assoc. America, 1992, p. 222.
+%D A001422 R. Sprague, Über Zerlegungen in ungleiche Quadratzahlen, Math. Z. 51, (1948), 289-290.
+%H A001422 T. Sillke, <a href="http://www.mathematik.uni-bielefeld.de/~sillke/SEQUENCES/series010">Not the sum of distinct squares</a>
+%H A001422 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Square Number.</a>
+%H A001422 <a href="/index/Su#ssq">Index entries for sequences related to sums of squares</a>
+%F A001422 Complement of A003995.
+%t A001422 nn=50; t=Rest[CoefficientList[Series[Product[(1+x^(k*k)), {k,nn}], {x,0,nn*nn}], x]]; Flatten[Position[t,0]] (* _T. D. Noe_, Jul 24 2006 *)
+%Y A001422 Cf. A025524 (number of numbers not the sum of distinct n-th-order polygonal numbers)
+%Y A001422 Cf. A007419 (largest number not the sum of distinct n-th-order polygonal numbers)
+%Y A001422 Cf. A053614, A121405 (corresponding sequences for triangular and pentagonal numbers)
+%Y A001422 Cf. A033461.
+%K A001422 nonn,fini,full
+%O A001422 1,1
+%A A001422 _N. J. A. Sloane_, Jeff Adams (jeff.adams(AT)byu.net)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

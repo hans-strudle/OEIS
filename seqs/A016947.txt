@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016947
+Showing 1-1 of 1
+
+%I A016947
+%S A016947 27,729,3375,9261,19683,35937,59319,91125,132651,185193,250047,328509,
+%T A016947 421875,531441,658503,804357,970299,1157625,1367631,1601613,1860867,
+%U A016947 2146689,2460375,2803221,3176523
+%N A016947 (6n+3)^3.
+%H A016947 Vincenzo Librandi, <a href="/A016947/b016947.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016947 (MAGMA) [(6*n+3)^3: n in [0..50]]; // Vincenzo Librandi, May 05 2011
+%K A016947 nonn,easy
+%O A016947 0,1
+%A A016947 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

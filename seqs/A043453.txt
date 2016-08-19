@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043453
+Showing 1-1 of 1
+
+%I A043453
+%S A043453 9,18,27,36,45,54,63,72,82,83,84,85,86,87,88,89,90,99,108,117,126,135,
+%T A043453 144,153,163,164,165,166,167,168,169,170,171,180,189,198,207,216,225,
+%U A043453 234,244,245,246,247,248,249,250,251,252,261
+%N A043453 Numbers n such that number of 0's in base 9 is 1.
+%H A043453 Harvey P. Dale, <a href="/A043453/b043453.txt">Table of n, a(n) for n = 1..1000</a>
+%t A043453 Select[Range[300],DigitCount[#,9,0]==1&] (* _Harvey P. Dale_, Jun 18 2012 *)
+%K A043453 nonn,base
+%O A043453 1,1
+%A A043453 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

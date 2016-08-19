@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024759
+Showing 1-1 of 1
+
+%I A024759
+%S A024759 3432,6435,11440,12870,19448,24310,31824,43758,48620,50388,75582,
+%T A024759 77520,92378,116280,125970,167960,170544,184756,203490,245157,293930,
+%U A024759 319770,346104,352716,480700,490314,497420,646646,657800,705432,735471,817190
+%N A024759 Binomial coefficients: C(n,k), 7 <= k <= n-7, sorted, duplicates removed.
+%K A024759 nonn
+%O A024759 1,1
+%A A024759 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

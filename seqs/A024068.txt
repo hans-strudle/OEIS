@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024068
+Showing 1-1 of 1
+
+%I A024068
+%S A024068 1,5,28,513,2800,7849,0,162287,1417472,9546255,59466176,361025495,
+%T A024068 2173796352,13055867207,78356634560,470173593951,2821093130240,
+%U A024068 16926635307167,101559922656192,609359692964615
+%V A024068 1,5,-28,-513,-2800,-7849,0,162287,1417472,9546255,59466176,361025495,
+%W A024068 2173796352,13055867207,78356634560,470173593951,2821093130240,
+%X A024068 16926635307167,101559922656192,609359692964615
+%N A024068 a(n) = 6^n - n^6.
+%H A024068 Vincenzo Librandi, <a href="/A024068/b024068.txt">Table of n, a(n) for n = 0..200</a>
+%t A024068 lst={}; Do[AppendTo[lst,6^n-n^6],{n,0,5!}]; lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 15 2009 *)
+%o A024068 (MAGMA) [6^n-n^6: n in [0..30]]; // _Vincenzo Librandi_, May 14 2011
+%Y A024068 Cf. A024012, A024026, A058794, A024040, A024054. - _Vladimir Joseph Stephan Orlovsky_, Jan 15 2009
+%K A024068 sign
+%O A024068 0,2
+%A A024068 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

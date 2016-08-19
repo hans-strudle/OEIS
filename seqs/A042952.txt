@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042952
+Showing 1-1 of 1
+
+%I A042952
+%S A042952 1,2,3,4,5,6,7,9,12,13,17,18,19,21,25,27,30,31,32,35,38,41,42,47,50,
+%T A042952 54,59,61,62,63,68,73,76,78,80
+%N A042952 The sequence d when b=[ 1,0,1,1,1,.. ].
+%C A042952 Map a binary sequence b=[ b_1,... ] to a binary sequence c=[ c_1,... ] so that C=1/Product((1-x^i)^c_i == 1+Sum b_i*x^i mod 2.
+%C A042952 This produces 2 new sequences: d={i:c_i=1} and e=[ 1,e_1,... ] where C=1+Sum e_i*x^i.
+%K A042952 nonn
+%O A042952 0,2
+%A A042952 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025058
+Showing 1-1 of 1
+
+%I A025058
+%S A025058 11,14,17,19,20,23,23,26,26,27,29,29,31,31,32,34,35,35,36,38,38,39,39,
+%T A025058 41,41,41,43,44,44,44,46,47,47,47,47,49,50,50,51,51,52,53,53,54,54,55,
+%U A025058 55,56,56,56,59,59,59,59,59,61,61,62,62,62,63,63,64,65,65
+%N A025058 Numbers of form i*j + j*k + k*i, where 1 <=i < j < k, including repetitions.
+%H A025058 Bo Gyu Jeong, <a href="/A025058/b025058.txt">Table of n, a(n) for n = 1..2000</a>
+%e A025058 11 is in the sequence because 11 = 1*2 + 2*3 + 3*1
+%e A025058 23 appears twice because 23 = 1*3 + 3*5 + 5*1 = 1*2 + 2*7 + 7*1
+%Y A025058 Sequence without repetitions is A025060.
+%K A025058 nonn
+%O A025058 1,1
+%A A025058 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

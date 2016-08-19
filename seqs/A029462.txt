@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029462
+Showing 1-1 of 1
+
+%I A029462
+%S A029462 1,17,256,289,809,1792,2329,4352,4913,7055,8704,13285,24565,39509,
+%T A029462 43520,58880,83521,95744,147968,175616,197120,250563,304640,478720,
+%U A029462 548029,670208,739840,751689,1000960,1035776,1192448,1379840,1419857
+%N A029462 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 17 (most significant digit on left).
+%Y A029462 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029462 nonn,base
+%O A029462 1,2
+%A A029462 _Olivier Gérard_
+%E A029462 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

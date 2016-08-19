@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034737
+Showing 1-1 of 1
+
+%I A034737
+%S A034737 1,5,8,21,22,64,72,181,285,590,1036,2256,4110,8424,16496,33269,65554,
+%T A034737 132081,262164,526062,1048896,2100284,4194328,8395760,16777343,
+%U A034737 33566790,67109980,134242920,268435486,536922688,1073741856,2147583093
+%N A034737 Dirichlet convolution of b_n=2^(n-1) with sigma(n).
+%K A034737 nonn
+%O A034737 1,2
+%A A034737 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002427
+Showing 1-1 of 1
+
+%I A002427 M2510 N0993
+%S A002427 1,1,1,1,3,5,691,35,3617,43867,1222277,854513,1181820455,
+%T A002427 76977927,23749461029,8615841276005,84802531453387,90219075042845,
+%U A002427 26315271553053477373,38089920879940267,261082718496449122051,1520097643918070802691
+%V A002427 1,1,-1,1,-3,5,-691,35,-3617,43867,-1222277,854513,-1181820455,
+%W A002427 76977927,-23749461029,8615841276005,-84802531453387,90219075042845,
+%X A002427 -26315271553053477373,38089920879940267,-261082718496449122051,1520097643918070802691
+%N A002427 Numerator of (2n+1) B_{2n}, where B_n are the Bernoulli numbers.
+%C A002427 Doubled a(n+2)=-1,1,-3,5,-691,35, "gives" A140351(n+4) secondary Bernoulli twin numbers.Thanks to _R. J. Mathar_. [From _Paul Curtz_, Nov 28 2009]
+%D A002427 L. Euler, (E393) De summis serierum numeros Bernoullianos involventium, reprinted in: Opera Omnia. Teubner, Leipzig, 1911, Series (1), Vol. 15, p. 93.
+%D A002427 A. Fletcher, J. C. P. Miller, L. Rosenhead and L. J. Comrie, An Index of Mathematical Tables. Vols. 1 and 2, 2nd ed., Blackwell, Oxford and Addison-Wesley, Reading, MA, 1962, Vol. 1, p. 73.
+%D A002427 M. Kaneko, "A recurrence formula for the Bernoulli numbers", Proc. Japan Acad., 71 A (1995), 192-193.
+%D A002427 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002427 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002427 T. D. Noe, <a href="/A002427/b002427.txt">Table of n, a(n) for n=0..100</a>
+%H A002427 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%e A002427 (n+1)*B_n gives the sequence 1, -1/2, 1/6, 0, -1/30, 0, 1/42, 0, -1/30, 0, 5/66, ...
+%t A002427 Numerator[ Table[2(2n + 1)BernoulliB[2n], {n, 1, 21}]]
+%Y A002427 Denominators are in A006955. Cf. A050925/A050932, A000367/A002445.
+%K A002427 sign,easy,nice,frac
+%O A002427 0,5
+%A A002427 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

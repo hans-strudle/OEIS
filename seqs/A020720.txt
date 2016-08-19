@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020720
+Showing 1-1 of 1
+
+%I A020720
+%S A020720 7,9,12,16,21,28,37,49,65,86,114,151,200,265,351,465,616,816,1081,
+%T A020720 1432,1897,2513,3329,4410,5842,7739,10252,13581,17991,23833,31572,
+%U A020720 41824,55405,73396,97229,128801,170625,226030,299426,396655,525456,696081,922111,1221537
+%N A020720 Pisot sequences E(7,9), P(7,9).
+%C A020720 a(n) = a(n-2) + a(n-3) (holds at least up to n = 1000 but is not known to hold in general).
+%C A020720 The recurrence holds up to n=10^5. - _Ralf Stephan_, Sep 03 2013
+%Y A020720 Apparently a subsequence of A000931.
+%Y A020720 See A008776 for definitions of Pisot sequences.
+%Y A020720 The following are basically all variants of the same sequence: A000931, A078027, A096231, A124745, A133034, A134816, A164001, A182097, A228361 and probably A020720. However, each one has its own special features and deserves its own entry.
+%K A020720 nonn
+%O A020720 0,1
+%A A020720 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

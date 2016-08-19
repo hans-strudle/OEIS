@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058240
+Showing 1-1 of 1
+
+%I A058240
+%S A058240 1,5,8,13,16,25,37,80,88,112,128,296,400,601,640,656,800
+%N A058240 Numbers n such that x^n + x^6 + 2 is irreducible over GF(3).
+%t A058240 Do[ If[ ToString[ Factor[ x^n + x^6 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^6 + 2 ], Print[ n ] ], {n, 0, 1000} ]
+%Y A058240 Cf. A057476.
+%K A058240 nonn
+%O A058240 1,2
+%A A058240 _Robert G. Wilson v_, Dec 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

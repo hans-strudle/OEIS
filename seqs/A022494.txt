@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022494
+Showing 1-1 of 1
+
+%I A022494
+%S A022494 1,1,1,2,5,16,63,293,1561,9321,61436,442134,3446077,28905485,
+%T A022494 259585900,2485120780,25267283367,271949606805,3089330120711,
+%U A022494 36943477086287,463943009361687,6105064699310785,84011389289865102
+%N A022494 Number of connected regular linearized chord diagrams of degree n.
+%H A022494 A. Stoimenow, <a href="http://www.math.toronto.edu/stoimeno/bound.ps.gz">Enumeration of chord diagrams and an upper bound for Vassiliev invariants</a>, J. Knot Theory Ramifications, 7 (1998), no. 1, 93-114. [broken link]
+%H A022494 Don Zagier, <a href="http://people.mpim-bonn.mpg.de/zagier/">Vassiliev invariants and a strange identity related to the Dedekind eta-function</a>, Topology, vol.40, pp.945-960 (2001); see p.955.
+%K A022494 nonn
+%O A022494 0,4
+%A A022494 Alexander Stoimenow (stoimeno(AT)math.toronto.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

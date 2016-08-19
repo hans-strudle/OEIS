@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029831
+Showing 1-1 of 1
+
+%I A029831
+%S A029831 236364091,131040,1099243323360,12336522153621120,9221121336284413920,
+%T A029831 1562118530273437631040,103486260766565509822080,
+%U A029831 3586400651444203277717760,77352372210526124884754400,1161399411211600265764157280
+%N A029831 Eisenstein series E_24(q) (alternate convention E_12(q)), multiplied by 236364091.
+%D A029831 J.-P. Serre, Course in Arithmetic, Chap. VII, Section 4.
+%H A029831 <a href="/index/Ed#Eisen">Index entries for sequences related to Eisenstein series</a>
+%o A029831 (PARI) a(n)=if(n<1,236364091*(n==0),131040*sigma(n,23))
+%Y A029831 Cf. A006352 (E_2), A004009 (E_4), A013973 (E_6), A008410 (E_8), A013974 (E_10), A029828 (E_12), A058550 (E_14), A029829 (E_16), A029830 (E_20), A029831 (E_24).
+%K A029831 nonn,easy
+%O A029831 0,1
+%A A029831 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

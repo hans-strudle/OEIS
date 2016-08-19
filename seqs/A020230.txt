@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020230
+Showing 1-1 of 1
+
+%I A020230
+%S A020230 341,1387,2047,3277,4033,4371,4681,5461,8321,8911,10261,13747,14491,
+%T A020230 15709,15841,19951,29341,31621,42799,49141,49981,52633,60787,65077,
+%U A020230 65281,74665,80581,83333,85489,88357,90751,104653,123251,129921,130561,137149
+%N A020230 Strong pseudoprimes to base 4.
+%H A020230 R. J. Mathar, <a href="/A020230/b020230.txt">Table of n, a(n) for n = 1..229</a>
+%H A020230 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/StrongPseudoprime.html">Strong Pseudoprime</a>
+%H A020230 <a href="/index/Ps#pseudoprimes">Index entries for sequences related to pseudoprimes</a>
+%Y A020230 Cf. A001262 (base 2), A020229 (base 3).
+%K A020230 nonn
+%O A020230 1,1
+%A A020230 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

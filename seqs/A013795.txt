@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013795
+Showing 1-1 of 1
+
+%I A013795
+%S A013795 1331,19487171,285311670611,4177248169415651,61159090448414546291,
+%T A013795 895430243255237372246531,13109994191499930367061460371,
+%U A013795 191943424957750480504146841291811,2810243684806424785061213903353404851
+%N A013795 11^(4n+3).
+%H A013795 Vincenzo Librandi, <a href="/A013795/b013795.txt">Table of n, a(n) for n = 0..200</a>
+%H A013795 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013795 (MAGMA) [11^(4*n+3): n in [0..10]]; // Vincenzo Librandi, Jun 28 2011
+%K A013795 nonn,easy
+%O A013795 0,1
+%A A013795 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

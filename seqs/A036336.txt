@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036336
+Showing 1-1 of 1
+
+%I A036336
+%S A036336 2,10,102,1012,10010,100040,1000125,10000096,100000032,1000000080,
+%T A036336 10000000080,100000000512,1000000001280,10000000014336,
+%U A036336 100000000004096,1000000000010880,10000000000008192,100000000000008192
+%N A036336 Smallest positive integer with n digits and exactly n prime factors (counted with multiplicity).
+%H A036336 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_025.htm">Related puzzle</a>
+%t A036336 npf[n_]:=Module[{k=1,st=10^(n-1)-1},While[PrimeOmega[st+k]!=n,k++];st+k]; Array[npf,20] (* _Harvey P. Dale_, Mar 25 2012 *)
+%Y A036336 Cf. A036335-A036338.
+%K A036336 nonn,base
+%O A036336 0,1
+%A A036336 _Patrick De Geest_, Dec 15 1998.
+%E A036336 More terms from _Matthew Conroy_, May 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025666
+Showing 1-1 of 1
+
+%I A025666
+%S A025666 0,0,1,0,1,2,0,1,2,0,3,1,2,0,3,1,4,2,0,3,1,4,2,0,5,3,1,4,2,0,5,3,1,6,
+%T A025666 4,2,0,5,3,1,6,4,2,7,0,5,3,1,6,4,2,7,0,5,3,8,1,6,4,2,7,0,5,3,8,1,6,4,
+%U A025666 9,2,7,0,5,3,8,1,6,4,9,2,7,0,5,10,3,8,1,6,4,9,2,7,0,5,10,3,8,1,6,11,4,9,2,7,0,5
+%N A025666 Exponent of 7 (value of j) in n-th number of form 4^i*7^j.
+%K A025666 nonn
+%O A025666 1,6
+%A A025666 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

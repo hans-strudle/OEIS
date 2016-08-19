@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049541
+Showing 1-1 of 1
+
+%I A049541
+%S A049541 3,1,8,3,0,9,8,8,6,1,8,3,7,9,0,6,7,1,5,3,7,7,6,7,5,2,6,7,4,5,0,2,8,7,
+%T A049541 2,4,0,6,8,9,1,9,2,9,1,4,8,0,9,1,2,8,9,7,4,9,5,3,3,4,6,8,8,1,1,7,7,9,
+%U A049541 3,5,9,5,2,6,8,4,5,3,0,7,0,1,8,0,2,2,7,6,0,5,5,3,2,5,0,6,1,7,1
+%N A049541 Decimal expansion of 1/Pi.
+%C A049541 The ratio of the volume of a regular octahedron to the volume of the circumscribed sphere (which has circumradius a*sqrt(2)/2 = a*A010503, where a is the octahedron's edge length; see MathWorld link). For similar ratios for other Platonic solids, see A165922, A165952, A165953 and A165954. - _Rick L. Shepherd_, Oct 01 2009
+%H A049541 Mohammad K. Azarian, <a href="http://www.jstor.org/stable/27646572">An Expression for Pi, Problem #870</a>, College Mathematics Journal, Vol. 39, No. 1, January 2008, p. 66. <a href="http://www.jstor.org/stable/27646723">Solution</a> appeared in Vol. 40, No. 1, January 2009, pp. 62-64. [From _Mohammad K. Azarian_, Feb 08 2009]
+%H A049541 J. Bohr, <a href="http://ic.net/~jnbohr/java/Ramanujan.html">Ramanujan's Mathod of Approximating Pi</a> [Broken link]
+%H A049541 J. Borwein, <a href="http://www.cecm.sfu.ca/organics/papers/borwein/paper/html/node15.html#SECTION00080000000000000000">Ramanujan's Sum</a>
+%H A049541 Heng Huat Chan, Shaun Cooper and Wen-Chin Liaw, <a href="http://dx.doi.org/10.1090/S0002-9939-07-09031-4">The Rogers-Ramanujan continued fraction and a quintic iteration for 1/Pi</a>, Proc. Amer. Math. Soc. 135 (2007), 3417-3424.
+%H A049541 J. Guillera, <a href="http://dx.doi.org/10.1080/10586458.2006.10128943">A New Method to Obtain Series for 1/pi and 1/(pi)^2</a>, Experimental Mathematics, Volume 15, Issue 1, 2006.
+%H A049541 R. Matsumoto, <a href="http://babel.altavista.com/translate.dyn?url=http://www.pluto.ai.kyutech.ac.jp/plt/matumoto/pi_small/node26.html&amp;lp=ja_en">Ramanujan Type Series</a> [Broken link]
+%H A049541 Eric W. Weisstein, <a href="http://mathworld.wolfram.com/Octahedron.html">Octahedron</a>
+%e A049541 0.3183098861837906715377675267450287240689192914809128974953...
+%t A049541 RealDigits[N[1/Pi,6! ]][[1]] (* _Vladimir Joseph Stephan Orlovsky_, Jun 18 2009 *)
+%o A049541 (PARI) 1/Pi \\ _Charles R Greathouse IV_, Jun 16 2011
+%o A049541 (MATLAB) 1/pi \\ _Altug Alkan_, Apr 10 2016
+%Y A049541 Cf. A000796, A165922, A165952, A165953, A165954, A063723, A010503. - _Rick L. Shepherd_, Oct 01 2009
+%K A049541 nonn,cons
+%O A049541 0,1
+%A A049541 _N. J. A. Sloane_, Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

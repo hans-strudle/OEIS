@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020713
+Showing 1-1 of 1
+
+%I A020713
+%S A020713 5,9,16,28,49,86,151,265,465,816,1432,2513,4410,7739,13581,23833,
+%T A020713 41824,73396,128801,226030,396655,696081,1221537,2143648,3761840,
+%U A020713 6601569,11584946,20330163,35676949,62608681,109870576,192809420,338356945,593775046,1042002567
+%N A020713 Pisot sequences E(5,9), P(5,9).
+%F A020713 a(n) = 2*a(n-1) - a(n-2) + a(n-3) (holds at least up to n = 1000 but is not known to hold in general).
+%t A020713 RecurrenceTable[{a[0] == 5, a[1] == 9, a[n] == Ceiling[a[n - 1]^2/a[n - 2]-1/2]}, a, {n, 0, 40}] (* _Bruno Berselli_, Feb 04 2016 *)
+%o A020713 (MAGMA) Iv:=[5, 9]; [n le 2 select Iv[n] else Ceiling(Self(n-1)^2/Self(n-2)-1/2): n in [1..40]]; // _Bruno Berselli_, Feb 04 2016
+%o A020713 (PARI) lista(nn) = {print1(x = 5, ", ", y = 9, ", "); for (n=1, nn, z = ceil(y^2/x -1/2); print1(z, ", "); x = y; y = z;);} \\ _Michel Marcus_, Feb 04 2016
+%Y A020713 It appears that this is a subsequence of A005314.
+%Y A020713 See A008776 for definitions of Pisot sequences.
+%K A020713 nonn
+%O A020713 0,1
+%A A020713 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044785
+Showing 1-1 of 1
+
+%I A044785
+%S A044785 72,172,272,372,472,572,672,729,772,872,972,1072,1172,1272,1372,1472,
+%T A044785 1572,1672,1729,1772,1872,1972,2072,2172,2272,2372,2472,2572,2672,
+%U A044785 2729,2772,2872,2972,3072,3172,3272,3372,3472,3572
+%N A044785 Numbers n such that string 7,2 occurs in the base 10 representation of n but not of n+1.
+%K A044785 nonn,base
+%O A044785 1,1
+%A A044785 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

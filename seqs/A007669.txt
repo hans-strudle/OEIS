@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007669
+Showing 1-1 of 1
+
+%I A007669 M1135
+%S A007669 1,2,4,8,16,36,80
+%N A007669 Number of orthogonal lattices in dimension n.
+%C A007669 Conjecture (V. Kotesovec, 2010): A007669(n) = A178717(n-1) - 1 [From _Vaclav Kotesovec_, Sep 02 2010]
+%D A007669 R. L. E. Schwarzenberger, Crystallography in spaces of arbitrary dimension, Proc. Camb. Phil. Soc., 76 (1974), 23-32.
+%D A007669 R. L. E. Schwarzenberger, $N$-Dimensional Crystallography. Pitman, London, 1980, p. 65.
+%D A007669 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A007669 nonn
+%O A007669 1,2
+%A A007669 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017294
+Showing 1-1 of 1
+
+%I A017294
+%S A017294 4,144,484,1024,1764,2704,3844,5184,6724,8464,10404,12544,14884,17424,
+%T A017294 20164,23104,26244,29584,33124,36864,40804,44944,49284,53824,58564,
+%U A017294 63504,68644,73984,79524,85264
+%N A017294 (10*n+2)^2.
+%H A017294 Vincenzo Librandi, <a href="/A017294/b017294.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017294 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%o A017294 (MAGMA) [(10*n+2)^2: n in [0..35]]; // Vincenzo Librandi, Jul 30 2011
+%K A017294 nonn,easy
+%O A017294 0,1
+%A A017294 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

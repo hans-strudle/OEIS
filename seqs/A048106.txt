@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048106
+Showing 1-1 of 1
+
+%I A048106
+%S A048106 1,2,2,1,2,4,2,0,1,4,2,2,2,4,4,1,2,2,2,2,4,4,2,0,1,4,0,2,2,8,2,2,4,
+%T A048106 4,4,1,2,4,4,0,2,8,2,2,2,4,2,2,1,2,4,2,2,0,4,0,4,4,2,4,2,4,2,3,4,8,
+%U A048106 2,2,4,8,2,4,2,4,2,2,4,8,2,2,1,4,2,4,4,4,4,0,2,4,4,2,4,4,4,4,2,2,2
+%V A048106 1,2,2,1,2,4,2,0,1,4,2,2,2,4,4,-1,2,2,2,2,4,4,2,0,1,4,0,2,2,8,2,-2,4,
+%W A048106 4,4,-1,2,4,4,0,2,8,2,2,2,4,2,-2,1,2,4,2,2,0,4,0,4,4,2,4,2,4,2,-3,4,8,
+%X A048106 2,2,4,8,2,-4,2,4,2,2,4,8,2,-2,-1,4,2,4,4,4,4,0,2,4,4,2,4,4,4,-4,2,2,2
+%N A048106 Number of unitary divisors of n (A034444) - number of non-unitary divisors of n (A048105).
+%F A048106 a[ n ]=2^(1+r(n)) - d(n) =2^(1+A001221(n))-A000005(n).
+%F A048106 a(n) = -Sum_{ d divides n } (-1)^mu(d). - _Vladeta Jovovic_, Jan 24 2002
+%Y A048106 Cf. A008683.
+%K A048106 sign
+%O A048106 1,2
+%A A048106 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013776
+Showing 1-1 of 1
+
+%I A013776
+%S A013776 2,32,512,8192,131072,2097152,33554432,536870912,8589934592,
+%T A013776 137438953472,2199023255552,35184372088832,562949953421312,
+%U A013776 9007199254740992,144115188075855872,2305843009213693952
+%N A013776 a(n) = 2^(4n+1).
+%C A013776 a(n) ~ -Pi*E(2*n)/B(2*n), E(n) Euler number, B(n) Bernoulli number. - _Peter Luschny_, Oct 28 2012
+%H A013776 Vincenzo Librandi, <a href="/A013776/b013776.txt">Table of n, a(n) for n = 0..200</a>
+%H A013776 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A013776 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A013776 <a href="/index/Rec#order_01">Index entries for linear recurrences with constant coefficients</a>, signature (16).
+%F A013776 a(n) = 16*a(n-1), n > 0; a(0) = 2. G.f.: 2/(1 - 16*x). - _Philippe Deléham_, Nov 23 2008
+%F A013776 a(n) = Sum_{k = 0..n} binomial(2*k,k)*binomial(4*n + 2 - 2*k, 2*n + 1 - k). Bisection of A264960. - _Peter Bala_, Nov 29 2015
+%F A013776 a(n) = A000079(A016813(n)). - _Michel Marcus_, Nov 30 2015
+%o A013776 (MAGMA) [2^(4*n+1): n in [0..20]]; // _Vincenzo Librandi_, Jun 27 2011
+%o A013776 (PARI) a(n)=2<<(4*n) \\ _Charles R Greathouse IV_, Apr 07 2012
+%Y A013776 Cf. A000079, A016813, A264960.
+%K A013776 nonn,easy
+%O A013776 0,1
+%A A013776 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

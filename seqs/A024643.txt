@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024643
+Showing 1-1 of 1
+
+%I A024643
+%S A024643 0,1,2,3,4,5,6,60,61,62,63,64,65,66,650,651,652,653,654,655,656,6540,
+%T A024643 6541,6542,6543,6544,6545,6546,65430,65431,65432,65433,65434,65435,
+%U A024643 65436,654320,654321,654322,654323,654324,654325,654326,6543210,6543211
+%N A024643 n written in fractional base 7/6.
+%F A024643 To represent a number in base b, if a digit exceeds b, subtract b and carry 1. In fractional base a/b, subtract a and carry b.
+%K A024643 nonn,base
+%O A024643 0,3
+%A A024643 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

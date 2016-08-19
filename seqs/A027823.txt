@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027823
+Showing 1-1 of 1
+
+%I A027823
+%S A027823 462,6468,48048,252252,1051050,3699696,11435424,31855824,81477396,
+%T A027823 193993800,434546112,923410488,1873980108,3651858672,6864396000,
+%U A027823 12493200720,22086194130,38030772780,63935791920,105157552500,169513974630,268241893920,417265168320
+%N A027823 77*(n+1)*C(n+6,11).
+%H A027823 T. D. Noe, <a href="/A027823/b027823.txt">Table of n, a(n) for n = 5..1000</a>
+%F A027823 Number of 18-subsequences of [ 1, n ] with just 6 contiguous pairs; g.f. 462*(1+x)*x^5/(1-x)^13
+%F A027823 a(n) = C(n+1, 6)*C(n+6, 6) - _Zerinvary Lajos_, Jun 08 2005, corrected by _R. J. Mathar_, Feb 13 2016
+%Y A027823 Cf. A062190.
+%K A027823 nonn
+%O A027823 5,1
+%A A027823 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

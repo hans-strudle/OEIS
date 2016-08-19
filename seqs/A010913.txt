@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010913
+Showing 1-1 of 1
+
+%I A010913
+%S A010913 3,17,96,542,3060,17276,97536,550664,3108912,17552144,99095040,
+%T A010913 559465952,3158605632,17832701888,100679000064,568408596608,
+%U A010913 3209093579520,18117744283904,102288278544384,577494182698496
+%N A010913 Pisot sequence E(3,17), a(n) = floor( a(n-1)^2/a(n-2)+1/2 ).
+%C A010913 Up to n=10^5, a(n) = 6a(n-1) - 2a(n-2). - _Ralf Stephan_, Sep 03 2013
+%H A010913 D. W. Boyd, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa34/aa3444.pdf">Some integer sequences related to the Pisot sequences</a>, Acta Arithmetica, 34 (1979), 295-305
+%H A010913 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%F A010913 Conjecture: If p[i]=fibonacci(2i+2) and if A is the Hessenberg matrix of order n defined by: A[i,j]=p[j-i+1], (i<=j), A[i,j]=-1, (i=j+1), and A[i,j]=0 otherwise. Then, for n>=1, a(n-1)= det A. [_Milan Janjic_, May 08 2010]
+%K A010913 nonn
+%O A010913 0,1
+%A A010913 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

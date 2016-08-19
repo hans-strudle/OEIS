@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043193
+Showing 1-1 of 1
+
+%I A043193
+%S A043193 16,64,97,144,178,226,259,307,340,388,421,469,502,550,576,631,664,712,
+%T A043193 745,793,826,873,907,955,988,1036,1069,1117,1150,1198,1231,1279,1296,
+%U A043193 1393,1441,1474,1522,1555,1602,1636,1684,1717
+%N A043193 Numbers n such that 1 and 7 occur juxtaposed in the base 9 representation of n but not of n-1.
+%K A043193 nonn,base
+%O A043193 1,1
+%A A043193 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

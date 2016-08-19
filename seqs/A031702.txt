@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031702
+Showing 1-1 of 1
+
+%I A031702
+%S A031702 145,578,1299,2308,3605,5190,7063,9224,11673,14410,17435,20748,24349,
+%T A031702 28238,32415,36880,41633,46674,52003,57620,63525,69718,76199,82968,
+%U A031702 90025,97370,97994,105003,112924,121133,129630,138415,147488,156849,166498
+%N A031702 Numbers n such that least term in period of continued fraction for sqrt(n) is 24.
+%e A031702 The continued fraction of sqrt(97994) is 313, [25, 24, 25, 626], where the smallest element of the period is 24, so 97994 belongs in the sequence.
+%t A031702 Select[Range[200000], !IntegerQ[Sqrt[#]] && Min[ContinuedFraction[Sqrt[#]][[2]]] == 24&] (* _Vincenzo Librandi_, Feb 06 2012 *)
+%K A031702 nonn
+%O A031702 1,1
+%A A031702 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

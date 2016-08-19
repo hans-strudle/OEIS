@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040004
+Showing 1-1 of 1
+
+%I A040004
+%S A040004 4,16,5,9,4,32,13,12,11,16,6,14,15,64,6,27,4,25,24,23,23,32,10,26,40,
+%T A040004 29,29,30,5,128
+%N A040004 Minimal solution of a congruence.
+%C A040004 a(k) = smallest integer s such that for all n, all primes p and all m>0 the congruence (x_1)^k + ... + (x_s)^k == s (mod p^n) has a solution in which not all x_i are all 0 (mod p).
+%D A040004 G. H. Hardy and J. E. Littlewood, Some problems of `Partito Numerorum', IV, Math. Zeit., 12 (1922), 161-168. [G. H. Hardy, Collected Papers. Vols. 1-, Oxford Univ. Press, 1966-; see vol. 1, p. 466.] - Corrected reference from _N. J. A. Sloane_, Feb 21 2010.
+%K A040004 nonn,more
+%O A040004 3,1
+%A A040004 _Simon Plouffe_, Aug 01 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

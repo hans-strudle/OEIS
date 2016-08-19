@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006348
+Showing 1-1 of 1
+
+%I A006348 M3609
+%S A006348 0,1,4,25,174,1393,12536,125361,1378970,16547641,215119332,3011670649,
+%T A006348 45175059734,722800955745,12287616247664,221177092457953,
+%U A006348 4202364756701106
+%N A006348 a(n) = (n+2)*a(n-1) + (-1)^n.
+%C A006348 a(n) is a function of the subfactorials... a(n)= A000166(n+2)-1/3*(n+2)! /Q ie... 1= 9-24/3, 4= 44-120/3, 25=265-720/3... [From _Gary Detlefs_, Dec 17 2009]
+%D A006348 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A006348 a(n)=(n+1)(a(n-1)+a(n-2)) [From _Gary Detlefs_, Dec 17 2009]
+%F A006348 E.g.f. with offset 0: ((2+3*x+x^3)*exp(-x)-2)/(1-x)^4. From int(((9+8*x+6*x^2+x^4)*exp(-x)-8)/(1-x)^5, x) with input 0 for x=0. [From _Wolfdieter Lang_, May 03 2010]
+%p A006348 a:=n->n!*sum((-1)^k/k!, k=4..n): seq(a(n), n=3..19); - _Zerinvary Lajos_, May 25 2007
+%p A006348 a(n) := n-> floor(((n+2)!+1)/E) -(n+2)!/3 [From _Gary Detlefs_, Dec 17 2009]
+%K A006348 nonn,easy
+%O A006348 1,3
+%A A006348 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

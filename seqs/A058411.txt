@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058411
+Showing 1-1 of 1
+
+%I A058411
+%S A058411 1,11,101,149,1001,1011,1101,10001,10011,11001,14499,100001,100011,
+%T A058411 100101,101001,110001,316261,1000001,1000011,1000101,1010001,1010011,
+%U A058411 1100001,1100101,10000001,10000011,10000101,10001001,10001011,10001101
+%N A058411 Numbers n such that n^2 contains only digits {0,1,2}, not ending with zero.
+%H A058411 Chai Wah Wu, <a href="/A058411/b058411.txt">Table of n, a(n) for n = 1..1000</a>
+%H A058411 P. De Geest, <a href="http://www.worldofnumbers.com/threedigits.htm">Index to related sequences</a>
+%H A058411 Hisanori Mishima, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/math02/math0210.htm#012">Sporadic tridigital solutions</a>
+%F A058411 a(n) = sqrt(A058412(n)). - _Zak Seidov_, Jul 01 2013
+%p A058411 R[1]:= {1,9};
+%p A058411 for m from 2 to 10 do
+%p A058411   R[m]:= select(t -> max(convert(t^2 mod 10^m, base, 10)) <= 2, map(s -> seq(s + i*10^(m-1),i=0..9), R[m-1]))
+%p A058411 od:
+%p A058411 Res:= {seq(op(select(t -> t >= 10^(m-1) and max(convert(t^2,base,10)) <= 2, R[m])),m=1..10)}:
+%p A058411 sort(convert(Res,list)); # _Robert Israel_, Feb 23 2016
+%o A058411 (Python)
+%o A058411 A058411_list = [i for i in range(10**6) if i % 10 and max(str(i**2)) < '3'] # _Chai Wah Wu_, Feb 23 2016
+%o A058411 (PARI) isok(n) = (d = digits(n^2)) && (vecmax(d) <= 2) && d[#d]; \\ _Michel Marcus_, Feb 24 2016
+%o A058411 (MAGMA) [n: n in [1..2*10^8 by 2] | Set(Intseq(n^2)) subset [0,1,2]]; // _Vincenzo Librandi_, Feb 24 2016
+%Y A058411 Cf. A058412.
+%Y A058411 Cf. A063009, A066139. - _Zak Seidov_, Jul 01 2013
+%K A058411 nonn,base
+%O A058411 1,2
+%A A058411 _Patrick De Geest_, Nov 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

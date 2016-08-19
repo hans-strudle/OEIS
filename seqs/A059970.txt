@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059970
+Showing 1-1 of 1
+
+%I A059970
+%S A059970 1,2,1,4,2,11,1,8,5,9,2,4,9,4,1,16,8,140,5,82,9,145,2,44,6,108,9,154,
+%T A059970 13,209,1,32,20,132,10,243,172,123,4,139,68,62,11,222,182,92,2,16,36,
+%U A059970 224,5,242,91,24,11,105,178,56,5,241,92,205,1,64,39,20,23,161,225,53
+%N A059970 Nim-factorials: a(1)=1 and, for n>1, a(n)=n*a(n-1), where * denotes Nim multiplication.
+%C A059970 Conjectures: (1) Nim-Factorial(2^n-1)=1 (verified for n=1,2,3,...,16). (2) Nim-Factorial(2^n+2^(n-1)-1)=2 (verified for n=1,2,3,...,15).
+%Y A059970 Cf. A058734, A006042, A051917.
+%K A059970 nonn
+%O A059970 1,2
+%A A059970 _John W. Layman_, Mar 05 2001
+%E A059970 Corrected by _Gerald McGarvey_, Nov 12 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

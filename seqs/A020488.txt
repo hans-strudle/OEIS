@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020488
+Showing 1-1 of 1
+
+%I A020488
+%S A020488 1,3,8,10,18,24,30
+%N A020488 Numbers n such that tau(n) (or sigma_0(n)) = phi(n).
+%C A020488 Numbers satisfying A000005(n)=A000010(n)
+%C A020488 This sequence is complete because tau(n) < n^(2/3) for all n except a few small numbers, whereas phi(n) > n/(exp(gamma) * log(log(n)) + 3/(log(log(n))) for n > 2. log(log(n)) grows slowly, so phi(n) > tau(n) for all n > some relatively small constant. [Jud McCranie, Jun 17 2005]
+%C A020488 Subset of A112587. - _Reinhard Zumkeller_, Sep 14 2005
+%p A020488 select(k->tau(k)=phi(k),[$1..1000]); # Peter Luschny, Aug 26 2011
+%t A020488 k=1; s=Select[ Range[ 1, 100000 ], Equal[ Sign[ DivisorSigma[ k-1, # ]-EulerPhi[ # ]^k ], 0 ]& ]
+%Y A020488 Cf. A064374-A064377, A000005, A000010.
+%Y A020488 Cf. A112954, A062516, A063469, A063470.
+%K A020488 nonn,fini,full
+%O A020488 1,2
+%A A020488 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055781
+Showing 1-1 of 1
+
+%I A055781
+%S A055781 31,71,131,191,311,431,971,1031,1091,1511,1571,1811,1931,2111,2411,
+%T A055781 2711,3371,3491,3671,4091,4211,4391,4871,5231,5471,5711,6011,6131,
+%U A055781 6311,6911,7331,7691,8111,8231,8291,8831,9371,10091,10211,10331,10391,10631
+%N A055781 Primes q of form q=10p+1, where p is also prime.
+%C A055781 Corresponding values of p in A023237. - _Jaroslav Krizek_, Jul 14 2010
+%e A055781 1031=103*10+1, 1 glued to 103
+%t A055781 Select[10Prime[Range[200]]+1,PrimeQ]  (* _Harvey P. Dale_, Feb 04 2011 *)
+%Y A055781 A005384, A005385.
+%K A055781 nonn
+%O A055781 1,1
+%A A055781 _Labos Elemer_, Jul 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

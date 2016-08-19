@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048234
+Showing 1-1 of 1
+
+%I A048234
+%S A048234 3,3,16,36,59,89,131,185,250,323,400,488,582,681,790,905,1024,1147,
+%T A048234 1277,1419,1565,1716,1874,2036,2204,2375,2554,2738,2926,3123,3328,
+%U A048234 3541,3764
+%N A048234 a(n)=T(2n-1,n), array T given by A048225.
+%K A048234 nonn
+%O A048234 1,1
+%A A048234 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

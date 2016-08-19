@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051046
+Showing 1-1 of 1
+
+%I A051046
+%S A051046 1,109,113,114,199,200,201,241,242,271,277,281,282,283,284,285,286,
+%T A051046 287,288,289,293,294,295,313,317,318,319,443,444,445,449,450,451,457,
+%U A051046 458,461,462,463,464,465,466,467,468,469,470,471,472,473,474,475,476
+%N A051046 n for which pi(n) > n/(H_n-3/2), where pi is the prime-counting function and H_n is the n-th harmonic number.
+%H A051046 Reinhard Zumkeller, <a href="/A051046/b051046.txt">Table of n, a(n) for n = 1..2500</a>
+%H A051046 E. W. Weisstein, <a href="http://mathworld.wolfram.com/HarmonicNumber.html">MathWorld: Harmonic Number</a>
+%H A051046 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PrimeCountingFunction.html">Prime Counting Function</a>
+%t A051046 ppQ[n_]:=PrimePi[n]-n/(HarmonicNumber[n]-3/2)>0; Select[Range[500],ppQ] (* _Harvey P. Dale_, Feb 16 2012 *)
+%o A051046 (Haskell)
+%o A051046 a051046 n = a051046_list !! (n-1)
+%o A051046 a051046_list = filter
+%o A051046    (\x -> fromIntegral (a000720 x) > hs !! (x - 1)) [1..]
+%o A051046    where hs = zipWith (/)
+%o A051046               [1..] $ map (subtract 1.5) $ scanl1 (+) $ map (1 /) [1..]
+%o A051046 -- _Reinhard Zumkeller_, Mar 20 2014
+%Y A051046 Cf. A000720.
+%K A051046 nonn
+%O A051046 1,2
+%A A051046 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

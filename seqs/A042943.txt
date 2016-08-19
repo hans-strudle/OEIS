@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042943
+Showing 1-1 of 1
+
+%I A042943
+%S A042943 1,2,3,5,7,9,11,13,14,17,19,22,23,25,26,27,29,31,33,35,37,38,39,41,43,
+%T A042943 45,46,47,49,50,51,53,55,58,59,61,62,65,66,67,69,70,71,73,74,75,77,79,
+%U A042943 81,83,85,86,87,89,91,93,94,95,97,98,99,101,102,103,106,107,109,111
+%N A042943 C(2^n,n) is divisible by C(2^n,2).
+%C A042943 Does not contain multiples of 4 (A008586).
+%F A042943 Mod[A014070, A006516]=Mod[C(2^n, n), C(2^n, 2)]=0
+%t A042943 Select[Range[150],Divisible[Binomial[2^#,#],Binomial[2^#,2]]&]  (* _Harvey P. Dale_, Mar 24 2011 *)
+%Y A042943 A014070, A006516.
+%K A042943 easy,nonn
+%O A042943 0,2
+%A A042943 _Labos Elemer_, Apr 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

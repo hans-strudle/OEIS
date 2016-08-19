@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001666
+Showing 1-1 of 1
+
+%I A001666 M4545 N1929
+%S A001666 1,8,56,392,2648,17960,120056,804824,5351720,35652680,236291096,
+%T A001666 1568049560,10368669992,68626647608,453032542040,2992783648424
+%N A001666 Number of n-step self-avoiding walks on b.c.c. lattice.
+%D A001666 M. E. Fisher and M. F. Sykes, Excluded-volume problem and the Ising model of ferromagnetism, Phys. Rev. 114 (1959), 45-58.
+%D A001666 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001666 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001666 M. F. Sykes, Some counting theorems in the theory of the Ising problem and the excluded volume problem, J. Math. Phys., 2 (1961), 52-62.
+%D A001666 M. F. Sykes et al., The asymptotic behavior of selfavoiding walks and returns on a lattice, J. Phys. A 5 (1972), 653-660.
+%H A001666 A. J. Guttmann, <a href="http://dx.doi.org/10.1088/0305-4470/22/14/027">On the critical behavior of self-avoiding walks II</a>, J. Phys. A 22 (1989), 2807-2813. See Table 1.
+%H A001666 <a href="/index/Ba#bcc">Index entries for sequences related to b.c.c. lattice</a>
+%Y A001666 Cf. A002903.
+%K A001666 nonn,walk,nice
+%O A001666 0,2
+%A A001666 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

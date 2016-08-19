@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025042
+Showing 1-1 of 1
+
+%I A025042
+%S A025042 1,92378,925166131890,196056702961398759480,
+%T A025042 402789797982510165934296910320,
+%U A025042 5061324188732823772720935900249118313520,286835743456312434671347570864365730919777702885760
+%N A025042 Number of partitions of { 1, 2, ..., 10n } into sets of size 10.
+%F A025042 (10n)!/(n!(10!)^n). (_Christian G. Bower_, Sep 15 1998).
+%K A025042 nonn
+%O A025042 1,2
+%A A025042 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

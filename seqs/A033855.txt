@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033855
+Showing 1-1 of 1
+
+%I A033855
+%S A033855 1,2,7,9,29,143,155,183,731,791,1011,1346
+%N A033855 j(n)*phi(n)=s(phi(n)), j(n) = A033831, s(n) = sigma(n)-n.
+%K A033855 easy,nonn
+%O A033855 0,2
+%A A033855 _Naohiro Nomoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005401
+Showing 1-1 of 1
+
+%I A005401 M3519
+%S A005401 4,16,64,416,4544,23488,207616,4205056,198295552,2574439424
+%V A005401 4,16,64,416,4544,23488,-207616,4205056,198295552,-2574439424
+%N A005401 Susceptibility for square lattice.
+%D A005401 G. A. Baker et al., On the two-dimensional, spin-1/2 Heisenberg ferromagnetic models, Phys. Lett., 25A (1967), 207-209.
+%D A005401 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A005401 sign
+%O A005401 1,1
+%A A005401 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

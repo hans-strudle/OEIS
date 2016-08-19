@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045463
+Showing 1-1 of 1
+
+%I A045463
+%S A045463 7,13,29,41,43,71,83,97,113,127,139,167,181,197,211,223,239,251,281,
+%T A045463 293,307,337,349,379,419,421,433,449,461,463,491,503,547,587,601,617,
+%U A045463 631,643,659,673,701,727,743,757
+%N A045463 Primes congruent to {0, 1, 6} mod 7.
+%H A045463 Vincenzo Librandi, <a href="/A045463/b045463.txt">Table of n, a(n) for n = 1..1000</a>
+%F A045463 A045472 UNION {7}. [From _R. J. Mathar_, Oct 18 2008]
+%t A045463 Select[Prime[Range[200]],MemberQ[{0,1,6},Mod[#,7]]&] (* _Vincenzo Librandi_, Aug 13 2012 *)
+%o A045463 (MAGMA) [ p: p in PrimesUpTo(900) | p mod 7 in {0, 1, 6} ]; // _Vincenzo Librandi_, Aug 13 2012
+%Y A045463 Cf. A000040.
+%K A045463 nonn,easy
+%O A045463 1,1
+%A A045463 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015972
+Showing 1-1 of 1
+
+%I A015972
+%S A015972 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015972 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015972 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015972 Inverse of 1963rd cyclotomic polynomial.
+%p A015972 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015972 sign
+%O A015972 0,1
+%A A015972 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

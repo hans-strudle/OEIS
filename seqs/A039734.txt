@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039734
+Showing 1-1 of 1
+
+%I A039734
+%S A039734 2,3,5,7,7,11,11,13,17,17,19,23,23,29,29,31,31,37,37,37,41,43,47,53,
+%T A039734 53,53,59,59,59,67,67,71,71,79,79,79,83,89,89,97,97,97,97,101,101,107,
+%U A039734 113,127,127,127,127,127,127,131,137,137,137
+%N A039734 a(n)=the prime q<p(n) for which (p(n) mod q) is maximal.
+%o A039734 (PARI) a(n) = {theq = 0; modmax = 0; pr = prime(n); forprime(q = 2, pr-1, mq = pr % q; if (mq > modmax, modmax = mq; theq = q);); theq;} \\ _Michel Marcus_, Oct 02 2013
+%Y A039734 Cf. A039733.
+%K A039734 nonn
+%O A039734 2,1
+%A A039734 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014365
+Showing 1-1 of 1
+
+%I A014365
+%S A014365 1134,1770,2550,4146,4158,7362,8628,11532,16272,29670,46362,46374,
+%T A014365 48666,48678,70362,86118,92058,95622,95634,180846,246834,381006,
+%U A014365 460458,562902,612138,612150,1316298,1350582,1509690,3086790
+%N A014365 Aliquot sequence starting at 1134.
+%D A014365 R. K. Guy, Unsolved Problems in Number Theory, B6.
+%H A014365 Robert G. Wilson v, <a href="/A014365/b014365.txt">Table of n, a(n) for n = 0..3568 </a>
+%H A014365 Robert G. Wilson v, <a href="/A014365/a014365.txt">terms n = 0..3568  with factorization</a>
+%H A014365 Christophe CLAVIER, <a href="http://christophe.clavier.free.fr/Aliquot/site/Aliquot.html">Aliquot Sequences</a>
+%H A014365 Paul Zimmermann, <a href="http://www.loria.fr/~zimmerma/records/aliquot.html">Latest information</a>
+%t A014365 f[n_] := DivisorSigma[1, n] - n; NestList[f, 1134, 100] (* _Robert G. Wilson v_, Dec 22 2012 *)
+%K A014365 nonn
+%O A014365 0,1
+%A A014365 _Paul Zimmermann_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

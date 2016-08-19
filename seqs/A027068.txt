@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027068
+Showing 1-1 of 1
+
+%I A027068
+%S A027068 1,2,6,16,43,120,340,972,2793,8050,23256,67324,195275,567448,1651830,
+%T A027068 4816328,14064569,41128626,120425604,353022920,1035983443,3043189688,
+%U A027068 8947381566,26328236756,77531471737,228475334594,673725464150
+%N A027068 Sum{T(i,j)}, 0<=j<=i, 0<=i<=n, T given by A027052.
+%K A027068 nonn
+%O A027068 0,2
+%A A027068 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010724
+Showing 1-1 of 1
+
+%I A010724
+%S A010724 6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,
+%T A010724 6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,6,8,
+%U A010724 6,8,6,8,6,8,6,8,6,8,6,8,6
+%N A010724 Period 2: repeat (6,8).
+%H A010724 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010724 a(n) = (-1)^(n+1)+7 = 8*(n mod 2)+6*((n+1) mod 2). - _Paolo P. Lava_, Oct 27 2006
+%F A010724 G.f.: ( -6-8*x ) / ((x-1)*(1+x)). - _R. J. Mathar_, Nov 21 2011
+%o A010724 (PARI) a(n)=6+n%2*2 \\ _Charles R Greathouse IV_, Dec 08 2015
+%Y A010724 Cf. A176401.
+%K A010724 nonn,easy
+%O A010724 0,1
+%A A010724 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

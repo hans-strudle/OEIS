@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029063
+Showing 1-1 of 1
+
+%I A029063
+%S A029063 1,1,1,1,2,3,4,4,5,6,8,9,11,12,14,16,19,21,24,26,30,33,37,40,45,49,54,
+%T A029063 58,64,69,76,81,88,94,102,109,118,125,134,142,153,162,173,182,194,205,
+%U A029063 218,229,243,255,270,283,299
+%N A029063 Expansion of 1/((1-x)(1-x^4)(1-x^5)(1-x^6)).
+%K A029063 nonn
+%O A029063 0,5
+%A A029063 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

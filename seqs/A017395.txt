@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017395
+Showing 1-1 of 1
+
+%I A017395
+%S A017395 0,19487171,2494357888,42618442977,319277809664,1522435234375,
+%T A017395 5455160701056,16048523266853,40867559636992,93206534790699,
+%U A017395 194871710000000,379749833583241,698260569735168,1222791080775407
+%N A017395 (11n)^7.
+%H A017395 Vincenzo Librandi, <a href="/A017395/b017395.txt">Table of n, a(n) for n = 0..500</a>
+%t A017395 (11Range[0,20])^7 (* _Harvey P. Dale_, May 02 2011 *)
+%o A017395 (MAGMA) [(11*n)^7: n in [0..30]]; // Vincenzo Librandi, May 03 2011
+%K A017395 nonn,easy
+%O A017395 0,2
+%A A017395 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

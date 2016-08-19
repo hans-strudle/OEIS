@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046385
+Showing 1-1 of 1
+
+%I A046385
+%S A046385 1,2,4,8,88,252,2772,82728,2112,4224,8448,236989632,48384,2977792
+%N A046385 Smallest palindrome with exactly n palindromic prime factors (counted with multiplicity).
+%C A046385 Initial terms of sequences A046376-A046384.
+%C A046385 Note that 48384 (k=12) is a 'Droll' number: see A019507.
+%K A046385 nonn,hard,base
+%O A046385 0,2
+%A A046385 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

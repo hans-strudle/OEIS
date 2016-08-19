@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001395
+Showing 1-1 of 1
+
+%I A001395 M1973 N0782
+%S A001395 2,10,74,518,3934,29914,232094,1812890,14277886,113016230,898797262,
+%T A001395 7173454238
+%N A001395 Number of (2n+1)-step self-avoiding walks on diamond lattice ending at point with x = 1.
+%D A001395 J. L. Martin, The exact enumeration of self-avoiding walks on a lattice, Proc. Camb. Phil. Soc., 58 (1962), 92-101.
+%D A001395 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001395 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A001395 Cf. A001394, A001396, A001397, A001398, A227715, A227716.
+%K A001395 nonn,walk,more
+%O A001395 0,1
+%A A001395 _N. J. A. Sloane_.
+%E A001395 Edited and extended by _Joseph Myers_, Jul 21 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

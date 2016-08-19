@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032561
+Showing 1-1 of 1
+
+%I A032561
+%S A032561 1,2,3,4,5,6,7,8,9,145,150,295,1450,1500,2950,40885,51535,72385,83035,
+%T A032561 92850,1064439,1484850,1485000,2173239,3279726,3281913,3282039,
+%U A032561 4388526,4390713,5497326,7756839,7801192,7801200,8865639,8910000,9974439
+%N A032561 Base 15 value of decimal denominator divided by this decimal value (n) is an integer.
+%Y A032561 Cf. A032562. See also A032563 for explanation.
+%K A032561 nonn,base
+%O A032561 0,2
+%A A032561 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

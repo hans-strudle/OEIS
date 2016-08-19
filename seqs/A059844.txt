@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059844
+Showing 1-1 of 1
+
+%I A059844
+%S A059844 1,1,4,1,36,1,4,9,4,1,36,1,4,9,4,1,36,1,4,9,16,1,36,49,4,81,4,1,144,1,
+%T A059844 16,9,4,9,36,1,4,9,4,1,576,1,4,9,16,1,36,25,4,9,16,1,36,25,4,81,4,1,
+%U A059844 324,1,36,9,4,9,36,1,4,81,4,1,36,1,16,9,4,25,36,1,4,9,16,1,144,25,4,81
+%N A059844 Squares arising in p=x^2+n, where p is the smallest prime of this form. Smallest q squares > 0 so that q+n is a prime.
+%F A059844 a(n)+n is the smallest prime with x^2+n form, where x^2=a(n).
+%e A059844 n=24,a(24)=49 and 49+24=73 the first prime of x^2+24 form. For n=24 in 24+{1,4,9,16,25,36,49}={25,28,33,40,49,60,73) 49=p-n is the first prime generating square number.
+%Y A059844 A002496, A056899, A049423, A005473, A056905, A056909.
+%K A059844 nonn
+%O A059844 1,3
+%A A059844 _Labos Elemer_, Feb 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

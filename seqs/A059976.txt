@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059976
+Showing 1-1 of 1
+
+%I A059976
+%S A059976 1,338,6891,49246,228737,716214,2110081,4663844,10289331,19945864,
+%T A059976 37518971,61582884,109478509,165518210,259500567
+%N A059976 Number of 3 X 3 determinants with elements from {0,...,n} and having the value zero.
+%C A059976 Symmetry is not taken into account, i.e. symmetric solutions are counted more than once.
+%Y A059976 Cf. A059306.
+%K A059976 nonn
+%O A059976 0,2
+%A A059976 _Vladeta Jovovic_, Mar 05 2001
+%E A059976 More terms from _John W. Layman_, Nov 21 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

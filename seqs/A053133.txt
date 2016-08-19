@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053133
+Showing 1-1 of 1
+
+%I A053133
+%S A053133 5,110,1001,5720,24310,83980,248710,653752,1562275,3453450,7153575,
+%T A053133 14024400,26225628,47071640,81505820,136719440,222945905,354465254,
+%U A053133 550858165,838553320,1252716850,1839537700,2658968130,3787984200
+%N A053133 One half of binomial coefficients binomial(2n-8,9).
+%H A053133 Vincenzo Librandi, <a href="/A053133/b053133.txt">Table of n, a(n) for n = 9..200</a>
+%F A053133 a(n)= binomial(2*n-8, 9)/2; G.f.: (5+60*x+126*x^2+60*x^3+5*x^4)/(1-x)^10.
+%F A053133 a(n) = A053131(n)/2.
+%o A053133 (PARI) a(n)=binomial(2*n-8,9)/2 \\ _Charles R Greathouse IV_, Oct 03 2011
+%o A053133 (MAGMA) [Binomial(2*n-8,9)/2: n in [9..40]]; // Vincenzo Librandi, Oct 07 2011
+%Y A053133 Cf. A053131.
+%K A053133 nonn,easy
+%O A053133 9,1
+%A A053133 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

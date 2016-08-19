@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045288
+Showing 1-1 of 1
+
+%I A045288
+%S A045288 1624,1824,1864,1872,2824,2864,2872,3064,3072,3112,4749,4949,4989,
+%T A045288 4997,5949,5989,5997,6189,6197,6237,6624,6824,6864,6872,7249,7449,
+%U A045288 7489,7497,7624,7749,7999,8024,8049,8099,8104,8109
+%N A045288 Numbers n with property that in base 5 representation the numbers of 2's and 4's are 2 and 3, respectively.
+%t A045288 Select[Range[8200],DigitCount[#,5,2]==2&&DigitCount[#,5,4]==3&] (* _Harvey P. Dale_, Jul 03 2013 *)
+%K A045288 nonn,base
+%O A045288 1,1
+%A A045288 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

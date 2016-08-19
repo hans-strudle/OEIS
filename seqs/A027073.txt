@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027073
+Showing 1-1 of 1
+
+%I A027073
+%S A027073 1,1,2,8,31,129,510,1970,7513,28253,105176,388330,1423691,5188577,
+%T A027073 18812848,67907520,244160177,874821817,3124747792,11130097846,
+%U A027073 39544807851,140180597013,495886522916,1750852227736,6171019594129
+%N A027073 a(n) = Sum{T(n,k)*T(n,2n-k)}, 0<=k<=n, T given by A027052.
+%K A027073 nonn
+%O A027073 0,3
+%A A027073 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

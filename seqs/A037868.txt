@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037868
+Showing 1-1 of 1
+
+%I A037868
+%S A037868 1,1,1,1,1,1,1,1,2,2,2,2,2,0,0,0,0,2,2,2,2,2,0,0,0,0,2,2,2,2,2,0,
+%T A037868 0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,2,2,2,2,0,0,0,0,0,2,2,2,2,
+%U A037868 0,0,0,0,0,2,2,2,2,0,0,0,0,0,2,2,2,2
+%V A037868 1,1,1,1,-1,-1,-1,-1,2,2,2,2,2,0,0,0,0,2,2,2,2,2,0,0,0,0,2,2,2,2,2,0,
+%W A037868 0,0,0,2,2,2,2,2,0,0,0,0,0,0,0,0,0,-2,-2,-2,-2,0,0,0,0,0,-2,-2,-2,-2,
+%X A037868 0,0,0,0,0,-2,-2,-2,-2,0,0,0,0,0,-2,-2,-2,-2
+%N A037868 a(n)=(number of digits <=4)-(number of digits >4) in base 9 representation of n.
+%K A037868 base,sign
+%O A037868 0,9
+%A A037868 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

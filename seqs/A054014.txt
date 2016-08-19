@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054014
+Showing 1-1 of 1
+
+%I A054014
+%S A054014 0,0,0,2,0,1,0,2,0,3,0,3,0,1,0,4,0,2,0,3,2,1,0,3,2,3,0,3,0,1,0,0,2,3,
+%T A054014 0,0,0,1,0,1,0,5,0,3,2,1,0,5,1,0,0,3,0,1,0,7,2,3,0,11,0,1,4,6,2,5,0,3,
+%U A054014 2,1,0,2,0,3,0,3,2,1,0,5,4,3,0,7,2,1,0,3,0,11,0,3,2,1,0,11,0,0,2,8,0,1,0
+%N A054014 Chowla function of n read modulo (the number of divisors of n).
+%C A054014 Chowla's function (A048050) = sum of divisors of n except 1 and n.
+%F A054014 a(n) = A048050(n) mod A000005.
+%p A054014 with(numtheory): [seq((sigma(i)-i-1) mod tau(i),i=1..120)];
+%Y A054014 Cf. A000005, A048050, A054013, A054015.
+%K A054014 nonn
+%O A054014 1,4
+%A A054014 Asher Auel (asher.auel(AT)reed.edu) Jan 17, 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

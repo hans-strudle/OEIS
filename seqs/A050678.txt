@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050678
+Showing 1-1 of 1
+
+%I A050678
+%S A050678 1,2,5,8,9,15,17,30,26,18
+%N A050678 First occurrence of n in A050677.
+%H A050678 P. De Geest, <a href="http://www.worldofnumbers.com/revfact.htm">Reversed Smarandache Concatenated Numbers, Prime factors from n down to 1</a>
+%H A050678 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A050678 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/michafleuren.htm">Factors and primes of Smarandache sequences</a>.
+%H A050678 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%t A050678 Join[{1},Table[i=1; While[PrimeOmega[FromDigits[Flatten[IntegerDigits[Range[i,1,-1]]]]]!=n,i++]; i,{n,2,10}]] (* _Jayanta Basu_, May 30 2013 *)
+%Y A050678 Cf. A000422, A050676, A050677.
+%K A050678 nonn,base,hard
+%O A050678 1,2
+%A A050678 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

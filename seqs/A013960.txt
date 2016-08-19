@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013960
+Showing 1-1 of 1
+
+%I A013960
+%S A013960 1,4097,531442,16781313,244140626,2177317874,13841287202,68736258049,
+%T A013960 282430067923,1000244144722,3138428376722,8918294543346,
+%U A013960 23298085122482,56707753666594,129746582562692,281543712968705
+%N A013960 a(n) = sigma_12(n), the sum of the 12th powers of the divisors of n.
+%C A013960 If the canonical factorization of n into prime powers is the product of p^e(p) then sigma_k(n) = Product_p ((p^((e(p)+1)*k))-1)/(p^k-1).
+%C A013960 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%F A013960 G.f.: sum_{k>=1} k^12*x^k/(1-x^k). - _Benoit Cloitre_, Apr 21 2003
+%t A013960 lst={};Do[AppendTo[lst,DivisorSigma[12,n]],{n,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Mar 11 2009 *)
+%t A013960 DivisorSigma[12,Range[20]] (* _Harvey P. Dale_, Jan 28 2015 *)
+%o A013960 (Sage) [sigma(n,12)for n in xrange(1,17)] # _Zerinvary Lajos_, Jun 04 2009
+%K A013960 nonn,mult
+%O A013960 1,2
+%A A013960 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014483
+Showing 1-1 of 1
+
+%I A014483
+%S A014483 1,10,56,240,880,2912,8960,26112,72960,197120,518144,1331200,3354624,
+%T A014483 8314880,20316160,49020928,116981760,276430848,647495680,1504706560,
+%U A014483 3471835136,7958691840,18136170496
+%N A014483 Expansion of (1+2x)/(1-2x)^4.
+%H A014483 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (8,-24,32,-16)
+%F A014483 a(n)=2^n*A000330(n+1). [From _R. J. Mathar_, Oct 23 2008]
+%o A014483 (PARI) Vec((1+2*x)/(1-2*x)+O(x^99)) \\ _Charles R Greathouse IV_, Sep 26 2012
+%Y A014483 Cf. A087076, A058645.
+%K A014483 nonn,easy
+%O A014483 0,2
+%A A014483 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

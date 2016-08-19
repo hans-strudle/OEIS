@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028030
+Showing 1-1 of 1
+
+%I A028030
+%S A028030 1,23,350,4510,53691,614373,6891160,76527020,845660981,9322579123,
+%T A028030 102653929170,1129737260730,12429895581871,136743043622273,
+%U A028030 1504245500346380,16547064858237640,182019552263480361
+%N A028030 Expansion of 1/((1-3x)(1-4x)(1-5x)(1-11x)).
+%F A028030 a(n) = (11^(n+3)-28*5^(n+3)+48*4^(n+3)-21*3^(n+3))/336. [_Yahia Kahloune_, May 25 2013]
+%K A028030 nonn,easy
+%O A028030 0,2
+%A A028030 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

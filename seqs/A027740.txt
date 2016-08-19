@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027740
+Showing 1-1 of 1
+
+%I A027740
+%S A027740 1,2,4,14,60,384,3318,40638,689636,16383974,542420394,25075022590,
+%T A027740 1617185558560,145563089994148,18283036276489970,3204638749437865046,
+%U A027740 783848125594781710150,267554112823378352976752
+%N A027740 Number of independent subsets of nodes in graph formed from n-fold subdivision of triangle.
+%C A027740 Number of planar nXnXn binary triangular grids with no more than 1 one in any similarly oriented 2X2X2 subtriangle. [From _R. H. Hardin_, Dec 27 2008]
+%K A027740 nonn,nice
+%O A027740 0,2
+%A A027740 _R. H. Hardin_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

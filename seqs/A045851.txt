@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045851
+Showing 1-1 of 1
+
+%I A045851
+%S A045851 1,9,36,84,135,198,336,540,675,766,1080,1584,1857,1962,2520,3480,3987,
+%T A045851 3987,4656,6300,7326,7182,8064,10656,12063,11583,12672,16116,18180,
+%U A045851 17784,19104,23940,27027,25554
+%N A045851 Number of nonnegative solutions of x1^2 + x2^2 +...+ x9^2 = n.
+%D A045851 Coefficient of q^n in (1+q+q^4+q^9+q^16+q^25+q^36+q^49+q^64+...)^9.
+%H A045851 T. D. Noe, <a href="/A045851/b045851.txt">Table of n, a(n) for n=0..2000</a>
+%K A045851 nonn
+%O A045851 0,2
+%A A045851 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007445
+Showing 1-1 of 1
+
+%I A007445 M1335
+%S A007445 2,5,7,12,13,23,19,31,30,45,33,67,43,65,65,84,61,107,69,123,97,115,85,
+%T A007445 175,110,147,133,179,111,223,129,215,175,203,179,302,159,235,215,315,
+%U A007445 181,337,193,315,285,287,213,451,246,371,299,393,243,461,301,461,343
+%N A007445 Inverse Moebius transform of primes.
+%D A007445 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007445 Enrique Pérez Herrero, <a href="/A007445/b007445.txt">Table of n, a(n) for n = 1..5000</a>
+%H A007445 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A007445 a(n) = Sum_{d|n} prime(d)
+%e A007445 a(6)=23 because the divisors of 6 are: 1, 2, 3 and 6; and prime(1) + prime(2) + prime(3) + prime(6) = 2 + 3 + 5 + 13 = 23.
+%t A007445 a[n_] := DivisorSum[n, Prime]; Array[a, 60] (* _Jean-François Alcover_, Dec 01 2015 *)
+%o A007445 (PARI) je=[]; for(n=1,150,je=concat(je,sumdiv(n,d, prime(d)))); j
+%K A007445 nonn
+%O A007445 1,1
+%A A007445 _N. J. A. Sloane_.
+%E A007445 More terms from Jason Earls (zevi_35711(AT)yahoo.com), Jul 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

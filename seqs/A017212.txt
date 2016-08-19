@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017212
+Showing 1-1 of 1
+
+%I A017212
+%S A017212 256,28561,234256,923521,2560000,5764801,11316496,20151121,33362176,
+%T A017212 52200625,78074896,112550881,157351936,214358881,285610000,373301041,
+%U A017212 479785216,607573201,759333136,937890625
+%N A017212 (9*n+4)^4.
+%H A017212 Vincenzo Librandi, <a href="/A017212/b017212.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017212 (MAGMA) [(9*n+4)^4: n in [0..35]]; // Vincenzo Librandi, Jul 24 2011
+%K A017212 nonn,easy
+%O A017212 0,1
+%A A017212 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

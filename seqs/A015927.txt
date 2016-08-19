@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015927
+Showing 1-1 of 1
+
+%I A015927
+%S A015927 1,2,3,4,7,8,15,16,28,32,49,62,64,91,112,128,133,196,217,255,259,301,
+%T A015927 427,448,469,511,527,553,679,721,763,784,889,973,992,1015,1057,1099,
+%U A015927 1141,1168,1267,1351,1393,1477,1561,1603,1687,1897,1939,1981,2107,2149,2191,2317,2359,2443,2569,2611,2653
+%N A015927 Positive integers n such that 2^n == 2^7 (mod n).
+%H A015927 OEIS Wiki, <a href="/wiki/2^n mod n">2^n mod n</a>
+%K A015927 nonn
+%O A015927 1,2
+%A A015927 _Robert G. Wilson v_
+%E A015927 Edited by _Max Alekseyev_, Jul 30 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

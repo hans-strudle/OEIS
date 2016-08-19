@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034723
+Showing 1-1 of 1
+
+%I A034723
+%S A034723 1,9,135,2835,76545,2525985,98513415,4433103675,226088287425,
+%T A034723 12887032383225,811883040143175,56019929769879075,4201494732740930625,
+%U A034723 340321073352015380625,29607933381625338114375
+%N A034723 a(n) = n-th sextic factorial number divided by 3.
+%F A034723 3*a(n) = (6*n-3)(!^6) = product_{j=1..n} (6*j-3) = 3^n*A001147(n) = 3^n*(2*n)!/(2^n*n!).
+%F A034723 E.g.f.: (-1 + (1-6*x)^(-1/2))/3.
+%t A034723 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 8, 5!, 6}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A034723 Cf. A001147, A008542, A034689.
+%K A034723 easy,nonn
+%O A034723 1,2
+%A A034723 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

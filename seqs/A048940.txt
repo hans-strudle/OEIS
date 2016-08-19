@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048940
+Showing 1-1 of 1
+
+%I A048940
+%S A048940 5,44,762,762,762,762,1722776,36356642,564665206
+%N A048940 a(n) is the starting position of the first occurrence of a string of n 9's in the decimal expansion of Pi.
+%C A048940 a(10) > 11*10^9 - 1. - _Eric W. Weisstein_, Jul 20 2013
+%H A048940 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/FeynmanPoint.html">Feynman Point</a>
+%H A048940 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiDigits.html">Pi Digits</a>
+%Y A048940 Cf. A035117, A050281, A050282, A050283, A050284, A050285, A050286, A050287, A176341.
+%K A048940 nonn,base
+%O A048940 1,1
+%A A048940 _Eric W. Weisstein_
+%E A048940 More terms from Colin Martin (cbmartin(AT)tpg.com.au), Mar 03 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

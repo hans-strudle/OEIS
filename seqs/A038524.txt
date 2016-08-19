@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038524
+Showing 1-1 of 1
+
+%I A038524
+%S A038524 8,24,28,34,50,52,58,71,77,163,197,235,238,319,570,669,949,958
+%N A038524 Numbers n such that the n-th Fibonacci number is composite and the concatenation of its prime factors (written in base 10 in ascending order) is prime.
+%H A038524 Blair Kelly, <a href="http://mersennus.net/fibonacci/">Fibonacci and Lucas Factorizations</a>.
+%e A038524 F(24) = 46368 = 2^5 * 3^2 * 7 * 23 is composite and the concatenation 2222233723 is prime, so 24 is in the sequence.
+%K A038524 hard,base,nonn
+%O A038524 1,1
+%A A038524 _Jeff Burch_
+%E A038524 More terms from _Jens Kruse Andersen_, Jan 05 2003
+%E A038524 949 and 958 established as next two terms by _Ryan Propper_, May 29 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

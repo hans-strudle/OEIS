@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053365
+Showing 1-1 of 1
+
+%I A053365
+%S A053365 3,6,14,15,20,27,38,123,276,327,380,411,546,819,1155,1274,1800,1875,
+%T A053365 3135,3411,7514,9446,12615,23400,23564,99344,108258
+%N A053365 Numbers n such that 297*2^n+1 is prime.
+%H A053365 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A053365 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A053365 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A053365 hard,nonn
+%O A053365 1,1
+%A A053365 _N. J. A. Sloane_, Dec 29 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

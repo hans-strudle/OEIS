@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062625
+Showing 1-1 of 1
+
+%I A062625
+%S A062625 3,7,1123,7489
+%N A062625 Numbers n such that 59^n - 58^n is prime.
+%C A062625 Terms greater than 1000 often correspond only to strong pseudoprimes 59^n-58^n. [Clarified by _M. F. Hasler_, Sep 15 2013]
+%C A062625 a(5) > 10^5. - _Robert Price_, Jan 31 2013
+%Y A062625 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062625 nonn,hard
+%O A062625 1,1
+%A A062625 _Mike Oakes_, May 18 2001, May 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

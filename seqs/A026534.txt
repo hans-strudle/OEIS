@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026534
+Showing 1-1 of 1
+
+%I A026534
+%S A026534 1,4,10,28,64,172,388,1036,2332,6220,13996,37324,83980,223948,503884,
+%T A026534 1343692,3023308,8062156,18139852,48372940,108839116,290237644,
+%U A026534 653034700,1741425868,3918208204,10448555212,23509249228,62691331276
+%N A026534 a(n) = Sum{T(i,j)}, 0<=j<=i, 0<=i<=2n, T given by A026519.
+%F A026534 G.f.: [x(1+3x)]/[(1-x)(1-6x^2)]. - _Ralf Stephan_, Feb 03 2004
+%Y A026534 Cf. A026532, A026551.
+%K A026534 nonn
+%O A026534 1,2
+%A A026534 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

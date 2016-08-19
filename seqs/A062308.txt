@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062308
+Showing 1-1 of 1
+
+%I A062308
+%S A062308 2,3,61,37,7321,13421,1117,1623931,6304673,590077,212601841,58367,
+%T A062308 20113,59583967,55527473,7537711,447600088289,2218331,3138426605161,
+%U A062308 1390636259,1120648576818041,3421169496361,2649263870814793
+%N A062308 Largest prime factor of 11^n+1 (A034524).
+%H A062308 Harry J. Smith, <a href="/A062308/b062308.txt">Table of n, a(n) for n=0,...,80</a>
+%o A062308 (PARI) for(n=0,22,print(factor(11^n+1)))
+%o A062308 (PARI) { for (n=0, 80, f=factor(11^n + 1)~; write("b062308.txt", n, " ", f[1, length(f)]) ) } [From _Harry J. Smith_, Aug 04 2009]
+%K A062308 nonn
+%O A062308 0,1
+%A A062308 Jason Earls (zevi_35711(AT)yahoo.com), Jul 12 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025057
+Showing 1-1 of 1
+
+%I A025057
+%S A025057 2,4,6,9,12,14,16,19,22,24,27,30,33,35,38
+%N A025057 Position of 3n+2 in A025051 (numbers of form j*k + k*i + i*j, without repetitions, where 1 <= i <= j <= k).
+%K A025057 nonn
+%O A025057 1,1
+%A A025057 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

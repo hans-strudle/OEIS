@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017700
+Showing 1-1 of 1
+
+%I A017700
+%S A017700 1,262144,387420489,68719476736,3814697265625,50779978334208,
+%T A017700 1628413597910449,18014398509481984,150094635296999121,
+%U A017700 100000000000000000,5559917313492231481,4437222213480873984
+%N A017700 Denominator of sum of -18th powers of divisors of n.
+%C A017700 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%t A017700 Table[Denominator[Total[Divisors[n]^-18]],{n,20}] (* _Harvey P. Dale_, Sep 25 2012 *)
+%Y A017700 Cf. A017699.
+%K A017700 nonn,frac
+%O A017700 1,2
+%A A017700 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

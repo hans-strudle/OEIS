@@ -1,0 +1,1 @@
+{"formerly":"","seq":"10,11,12,13,14,15,16,17,18,19,21,23,25,31,34,103,201,10011,1111111111111111111","description":"19 in base 19-n.","mathematica":"Append[Table[FromDigits[IntegerDigits[19, 19 - n]], {n, 0, 17}], FromDigits[Table[1, {19}]]] (* _T. D. Noe_, Feb 23 2013 *)","keyword":"fini,nonn,base,full","offset":"0,1","author":"_N. J. A. Sloane_."}

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012519
+Showing 1-1 of 1
+
+%I A012519
+%S A012519 1,2,5,20,125,1022,10145,119240,1621625,25018202,431595485,8233157660,
+%T A012519 172077583925,3910293621782,95985774268025,2531103994315280,
+%U A012519 71356674948823025,2141700448802291762
+%N A012519 arcsin(sinh(x)*exp(x))=x+2/2!*x^2+5/3!*x^3+20/4!*x^4+125/5!*x^5...
+%K A012519 nonn
+%O A012519 0,2
+%A A012519 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

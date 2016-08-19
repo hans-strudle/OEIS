@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043999
+Showing 1-1 of 1
+
+%I A043999
+%S A043999 40,104,140,204,240,304,340,409,440,504,540,604,640,704,740,804,840,
+%T A043999 904,940,1004,1049,1104,1140,1204,1240,1304,1340,1409,1440,1504,1540,
+%U A043999 1604,1640,1704,1740,1804,1840,1904,1940,2004,2049
+%N A043999 Numbers n such that 0 and 4 occur juxtaposed in the base 10 representation of n but not of n+1.
+%K A043999 nonn,base
+%O A043999 1,1
+%A A043999 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

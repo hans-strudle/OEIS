@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061836
+Showing 1-1 of 1
+
+%I A061836
+%S A061836 1,5,4,3,4,5,6,5,4,6,5,7,6,7,6,5,8,7,6,5,4,7,8,7,6,5,9,8,7,7,6,9,8,7,
+%T A061836 6,5,9,8,7,6,8,7,6,11,10,9,10,9,8,7,10,9,8,7,6,5,7,13,12,11,10,9,8,7,
+%U A061836 8,7,6,13,12,11,10,9,8,7,6,9
+%N A061836 Least k such that k+n | k!.
+%t A061836 f[n_] := (k = 1; While[ !IntegerQ[ k! / (k + n) ], k++ ]; k); Table[ f[n], {n, 0, 75} ]
+%K A061836 nonn
+%O A061836 0,2
+%A A061836 _Robert G. Wilson v_, Jun 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058640
+Showing 1-1 of 1
+
+%I A058640
+%S A058640 1,0,1,4,6,6,10,10,19,22,32,40,51,68,86,108,135,166,218,258,325,390,
+%T A058640 477,582,713,856,1025,1222,1480,1750,2093,2470,2930,3458,4081,4782,
+%U A058640 5620,6550,7702,8960,10441,12110,14062,16298,18863,21776,25130,28884,33310
+%N A058640 McKay-Thompson series of class 35A for Monster.
+%H A058640 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058640 David A. Madore, <a href="http://mathforum.org/kb/thread.jspa?forumID=253&amp;threadID=1602206&amp;messageID=5836094">Coefficients of Moonshine (McKay-Thompson) series</a>, The Math Forum
+%H A058640 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058640 T35A = 1/q + q + 4*q^2 + 6*q^3 + 6*q^4 + 10*q^5 + 10*q^6 + 19*q^7 + 22*q^8 + ...
+%Y A058640 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058640 nonn
+%O A058640 -1,4
+%A A058640 _N. J. A. Sloane_, Nov 27 2000
+%E A058640 More terms from _Michel Marcus_, Feb 20 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

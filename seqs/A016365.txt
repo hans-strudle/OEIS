@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016365
+Showing 1-1 of 1
+
+%I A016365
+%S A016365 1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,
+%T A016365 1,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,
+%U A016365 1,0,0,0,1,0,0,0,0,0,0,1,0,0,0
+%V A016365 1,-1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,0,0,0,0,0,
+%W A016365 1,0,-1,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,
+%X A016365 1,0,0,0,-1,0,0,0,0,0,0,1,0,0,0
+%N A016365 253rd cyclotomic polynomial.
+%t A016365 CoefficientList[Cyclotomic[253,x],x] (* _Harvey P. Dale_, Nov 21 2012 *)
+%K A016365 sign,fini
+%O A016365 0,1
+%A A016365 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

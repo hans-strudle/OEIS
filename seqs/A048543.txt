@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048543
+Showing 1-1 of 1
+
+%I A048543
+%S A048543 8,108,878,870,8813,27924,84129,882483,2788865,7601169,88190572,
+%T A048543 421518419,4204014483,26034169427,42305694389,88022598108
+%N A048543 a(n)*(a(n)+1) is smallest pronic number containing exactly n 7's.
+%H A048543 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PronicNumber.html">Pronic Number</a>
+%Y A048543 Cf. A048544, A002378.
+%K A048543 nonn,base,more
+%O A048543 1,1
+%A A048543 _Patrick De Geest_, May 15 1999.
+%E A048543 a(13)-a(16) from _Lars Blomberg_, Jun 10 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

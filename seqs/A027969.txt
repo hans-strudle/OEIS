@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027969
+Showing 1-1 of 1
+
+%I A027969
+%S A027969 3,7,18,47,120,291,661,1404,2801,5283,9484,16305,26990,43215,67191,
+%T A027969 101782,150639,218351,310614,434419,598260,812363,1088937,1442448,
+%U A027969 1889917,2451243,3149552,4011573,5068042,6354135,7909931
+%N A027969 T(n,2n-7), T given by A027960.
+%F A027969 G.f.: [x^4*(3-2x)*(1-x+x^2)*(1-4x+7x^2-4x^3+x^4)]/(1-x)^8. Differences of A027970. - _Ralf Stephan_, Feb 07 2004
+%Y A027969 A column of triangle A027011.
+%K A027969 nonn
+%O A027969 4,1
+%A A027969 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

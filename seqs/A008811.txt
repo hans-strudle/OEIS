@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008811
+Showing 1-1 of 1
+
+%I A008811
+%S A008811 0,1,2,3,4,7,10,13,16,21,26,31,36,43,50,57,64,73,82,91,100,111,122,
+%T A008811 133,144,157,170,183,196,211,226,241,256,273,290,307,324,343,362,381,
+%U A008811 400,421,442,463,484,507,530,553,576
+%N A008811 Expansion of x(1+x^4)/((1-x)^2*(1-x^4)).
+%C A008811 Number of 0..n-1 arrays of 5 elements with zero 2nd differences [From R. H. Hardin, Nov 15 2011]
+%D A008811 Pach and Agarwal, Combinatorial Geometry, p. 220, Problem 13.10.
+%H A008811 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1,0,1,-2,1).
+%F A008811 a(n) = 2*a(n-1) -a(n-2) +a(n-4) -2*a(n-5) +a(n-6)  [From R. H. Hardin , Nov 15 2011]
+%F A008811 a(n) = (-2*(1+(-1)^n)*(-1)^floor(n/2)+2*n^2+5-(-1)^n)/8. - _Tani Akinari_, Jul 24 2013
+%p A008811 f := n->n^2/4+3*n/2+g(n); g := n->if n mod 2 = 0 then 3 elif n mod 4 = 1 then 9/4 else 13/4; fi;
+%o A008811 (PARI) Vec(x(1+x^4)/((1-x)^2*(1-x^4))+O(x^99)) \\ _Charles R Greathouse IV_, Sep 26 2012
+%Y A008811 Cf. A129756 (first differences).
+%K A008811 nonn,easy
+%O A008811 0,3
+%A A008811 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

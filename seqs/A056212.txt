@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056212
+Showing 1-1 of 1
+
+%I A056212
+%S A056212 211,617,1499,2087,2857,6007,6469,7127,7211,7589,9661,10193,13259,
+%T A056212 13553,14771,18047,18257,19937,20903,21379,23549,26153,27259,27539,
+%U A056212 32299,33181,33461,34847,35491,35897,41651,42407,42491,43051,43793
+%N A056212 Primes p for which the period of reciprocal = (p-1)/7.
+%C A056212 Cyclic numbers of the seventh degree (or seventh order): the reciprocals of these numbers belong to one of seven different cycles. Each cycle has the (number minus 1)/7 digits.
+%H A056212 <a href="/index/1#1overn">Index entries for sequences related to decimal expansion of 1/n</a>
+%t A056212 f[n_Integer] := Block[{ds = Divisors[n - 1]}, (n - 1)/Take[ ds, Position[ PowerMod[ 10, ds, n], 1] [[1, 1]]] [[ -1]]]; Select[ Prime[ Range[4, 4700]], f[ # ] == 7 &]
+%K A056212 nonn,base
+%O A056212 1,1
+%A A056212 _Robert G. Wilson v_, Aug 02 2000
+%E A056212 Edited by _N. J. A. Sloane_, Apr 30 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

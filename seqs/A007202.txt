@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007202
+Showing 1-1 of 1
+
+%I A007202 M4899
+%S A007202 1,13,57,153,323,587,967,1483,2157,3009,4061,5333,6847,8623,10683,
+%T A007202 13047,15737,18773,22177,25969,30171,34803,39887,45443,51493,58057,
+%U A007202 65157,72813,81047,89879,99331,109423,120177,131613,143753,156617
+%N A007202 Crystal ball sequence for hexagonal close-packing.
+%D A007202 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007202 T. D. Noe, <a href="/A007202/b007202.txt">Table of n, a(n) for n=0..1000</a>
+%H A007202 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A007202 <a href="/index/Cor#crystal_ball">Index entries for crystal ball sequences</a>
+%H A007202 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-2,-2,3,-1).
+%F A007202 Nearest integer to (7/8)*( (n+1)^4 - n^4 ).
+%F A007202 G.f.: (x^4+10*x^3+20*x^2+10*x+1)/(x-1)^4/(x+1).
+%F A007202 a(n) = 7*(2*n+1)*(2*n^2+2*n+1)/8 +(-1)^n/8. - R. J. Mathar, Mar 24 2011
+%F A007202 a(0)=1, a(1)=13, a(2)=57, a(3)=153, a(4)=323, a(n)=3*a(n-1)- 2*a(n-2)- 2*a(n-3)+3*a(n-4)-a(n-5) [From Harvey P. Dale, Jul 15 2011]
+%t A007202 Table[Floor[(7((n+1)^4-n^4)+4)/8],{n,0,40}] (* or *) LinearRecurrence[ {3,-2,-2,3,-1},{1,13,57,153,323},40] (* _Harvey P. Dale_, Jul 15 2011 *)
+%o A007202 (PARI) j=[]; for(n=0,75,j=concat(j,round((7/8)*((n+1)^4-n^4)))); j
+%K A007202 nonn,easy,nice
+%O A007202 0,2
+%A A007202 _N. J. A. Sloane_ and _J. H. Conway_
+%E A007202 More terms from Jason Earls (zevi_35711(AT)yahoo.com), Jul 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

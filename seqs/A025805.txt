@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025805
+Showing 1-1 of 1
+
+%I A025805
+%S A025805 1,0,1,0,2,0,2,0,3,0,3,1,4,1,4,2,5,2,5,3,6,3,7,4,8,4,9,5,10,5,11,6,12,
+%T A025805 7,13,8,14,9,15,10,16,11,17,12,19,13,20,14,22,15,23,16,25,17,26,19,28,
+%U A025805 20,29,22,31,23,32,25,34
+%N A025805 Expansion of 1/((1-x^2)(1-x^4)(1-x^11)).
+%K A025805 nonn
+%O A025805 0,5
+%A A025805 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

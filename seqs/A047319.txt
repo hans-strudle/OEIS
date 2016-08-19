@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047319
+Showing 1-1 of 1
+
+%I A047319
+%S A047319 5,6,12,13,19,20,26,27,33,34,40,41,47,48,54,55,61,62,68,69,75,76,82,
+%T A047319 83,89,90,96,97,103,104,110,111,117,118,124,125,131,132,138,139,145,
+%U A047319 146,152,153,159,160,166,167,173
+%N A047319 Numbers that are congruent to {5, 6} mod 7.
+%H A047319 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,-1)
+%F A047319 a(n) = 7*n-a(n-1)-3 (with a(1)=5). [_Vincenzo Librandi_, Aug 05 2010]
+%F A047319 a(n) = 1/4 +7*n/2-5*(-1)^n/4. G.f.  x*(5+x+x^2) / ( (1+x)*(x-1)^2 ). - R. J. Mathar, Oct 08 2011
+%K A047319 nonn,easy
+%O A047319 1,1
+%A A047319 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033448
+Showing 1-1 of 1
+
+%I A033448
+%S A033448 74453,76543,132893,182243,202823,297403,358793,485923,655453,735883,
+%T A033448 759113,780613,797833,849143,1260383,1306033,1442173,1531093,1534153,
+%U A033448 1586953,1691033,1717063,1877243,1945763,1973633,2035513,2067083
+%N A033448 Initial prime in set of 4 consecutive primes in arithmetic progression with common difference 18.
+%H A033448 Zak Seidov, <a href="/A033448/b033448.txt">Table of n, a(n) for n = 1..1000</a>
+%H A033448 <a href="/index/Pri#primes_AP">Index entries for sequences related to primes in arithmetic progressions</a>
+%t A033448 A033448 = Reap[For[p = 2, p < 2100000, p = NextPrime[p], p2 = NextPrime[p]; If[p2 - p == 18, p3 = NextPrime[p2]; If[p3 - p2 == 18, p4 = NextPrime[p3]; If[p4 - p3 == 18, Sow[p]]]]]][[2, 1]] (* Jean-François Alcover_, Jun 28 2012 *)
+%t A033448 Transpose[Select[Partition[Prime[Range[160000]],4,1],Union[ Differences[#]] == {18}&]][[1]] (* _Harvey P. Dale_, Jun 17 2014 *)
+%Y A033448 Analogous sequences [with common difference in square brackets]: A033451 [6], A033447 [12], A033448 [18], A052242 [24], A052243 [30].
+%Y A033448 Cf. A052189.
+%K A033448 nonn
+%O A033448 1,1
+%A A033448 _Jeff Burch_
+%E A033448 More terms from _Labos Elemer_, Jan 31 2000
+%E A033448 Definition clarified by _Harvey P. Dale_, Jun 17 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

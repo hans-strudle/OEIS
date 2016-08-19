@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056487
+Showing 1-1 of 1
+
+%I A056487
+%S A056487 1,3,5,15,25,75,125,375,625,1875,3125,9375,15625,46875,78125,234375,
+%T A056487 390625,1171875,1953125,5859375,9765625,29296875,48828125,146484375,
+%U A056487 244140625,732421875,1220703125,3662109375
+%N A056487 a(n)=5^(n/2) for n even, a(n)=3*5^((n-1)/2) for n odd.
+%C A056487 Number of periodic palindromes using a maximum of five different symbols. For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome.
+%C A056487 Apparently identical to A111386! Is this a theorem? - _Klaus Brockhaus_, Jul 21 2009
+%D A056487 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056487 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,5).
+%F A056487 a(n+2)=5a(n), a(0)=1, a(2)=3.
+%F A056487 Binomial transform of A087205. Binomial transform is A087206. - _Paul Barry_, Aug 25 2003
+%F A056487 G.f.: (1+3x)/(1-5x^2); a(n)=5^(n/2)(1/2+3sqrt(5)/10+(1/2-3sqrt(5)/10)(-1)^n). - _Paul Barry_, Mar 19 2004
+%F A056487 2nd inverse binomial transform of Fib(3n+2). - _Paul Barry_, Apr 16 2004
+%F A056487 a(n+3) = a(n+2)*a(n+1)/a(n). - _Reinhard Zumkeller_, Mar 04 2011
+%F A056487 a(n) = 3^((1-(-1)^n)/2) * 5^((2*n+(-1)^n-1)/4). - _Bruno Berselli_, Mar 24 2011
+%o A056487 (MAGMA) [n le 2 select 2*n-1 else 5*Self(n-2): n in [1..28]];  // _Bruno Berselli_, Mar 24 2011
+%o A056487 (PARI) a(n)=if(n%2,3,1)*5^(n\2) \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A056487 Cf. A029744, A038754, A056451.
+%K A056487 nonn,easy
+%O A056487 0,2
+%A A056487 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+%E A056487 Changed one 'even' to 'odd' in the definition - _R. J. Mathar_, Oct 06 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

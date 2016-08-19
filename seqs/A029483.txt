@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029483
+Showing 1-1 of 1
+
+%I A029483
+%S A029483 1,13,143,169,221,403,587,11219,178357,222157,85762339
+%N A029483 Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 14 (most significant digit on left).
+%C A029483 No other terms below 10^8.
+%H A029483 <a href="/index/N#concat">Index entries for related sequences</a>
+%Y A029483 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029483 nonn,base,more
+%O A029483 1,2
+%A A029483 _Olivier Gérard_
+%E A029483 More terms from Larry Reeves (larryr(AT)acm.org), Jul 09 2001
+%E A029483 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A029483 a(11) from _Max Alekseyev_, May 15 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

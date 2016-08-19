@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001661
+Showing 1-1 of 1
+
+%I A001661 M5393 N2342
+%S A001661 128,12758,5134240,67898771,11146309947,766834015734
+%N A001661 Largest number not the sum of distinct positive n-th powers.
+%C A001661 a(8) > 74^8. - _Donovan Johnson_
+%D A001661 S. Lin, Computer experiments on sequences which form integral bases, pp. 365-370 of J. Leech, editor, Computational Problems in Abstract Algebra. Pergamon, Oxford, 1970.
+%D A001661 Harry L. Nelson, The Partition Problem, J. Rec. Math., 20 (1988), 315-316.
+%D A001661 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001661 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001661 R. E. Dressler and T. Parker, <a href="http://dx.doi.org/10.1090/S0025-5718-1974-0327652-1">12,758</a>, Math. Comp. 28 (1974), 313-314.
+%H A001661 N. J. A. Sloane and R. E. Dressler, <a href="/A001661/a001661_1.pdf">Correspondence, June 1974</a>
+%H A001661 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Power.html">Power</a>
+%H A001661 J. W. Wrench, Jr., <a href="/A001661/a001661.pdf">Letter to N. J. A. Sloane, 10 Apr, 1974</a>
+%Y A001661 Cf. A173563.
+%K A001661 nonn,nice,more
+%O A001661 2,1
+%A A001661 _N. J. A. Sloane_, _Robert G. Wilson v_
+%E A001661 a(7) from _Donovan Johnson_, Nov 23 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

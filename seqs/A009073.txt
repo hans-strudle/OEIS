@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009073
+Showing 1-1 of 1
+
+%I A009073
+%S A009073 1,2,4,128,1296,85600,4372160,148860416,54261590272,1474575037952,
+%T A009073 1579094994228224,145025202842173440,87575771555229601792,
+%U A009073 13290672132247757398016,8077796113026531668901888
+%V A009073 1,-2,4,-128,1296,-85600,4372160,-148860416,54261590272,1474575037952,
+%W A009073 1579094994228224,145025202842173440,87575771555229601792,
+%X A009073 13290672132247757398016,8077796113026531668901888
+%N A009073 Expansion of cos(tan(x))/cosh(x).
+%t A009073 With[{nn=30},Take[CoefficientList[Series[Cos[Tan[x]]/Cosh[x],{x,0,nn}],x] Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Feb 12 2015 *)
+%K A009073 sign
+%O A009073 0,2
+%A A009073 _R. H. Hardin_
+%E A009073 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+%E A009073 Prior Mathematica program replaced by _Harvey P. Dale_, Feb 12 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059815
+Showing 1-1 of 1
+
+%I A059815
+%S A059815 1,1,4,4,9,16,64,1,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,
+%T A059815 2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,
+%U A059815 2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2,1,2
+%N A059815 Let g_n be the ball packing n-width for the manifold torus X square; sequence gives numerator of (g_n/Pi)^2.
+%D A059815 F. Miller Maley et al., Symplectic packings in cotangent bundles of tori, Experimental Mathematics, 9 (No. 3, 2000), 435-455.
+%e A059815 1, 1, 4/9, 4/9, 9/25, 16/49, 64/225, 1/4, ...
+%Y A059815 Cf. A059812 - A059818.
+%K A059815 nonn,frac
+%O A059815 1,3
+%A A059815 _N. J. A. Sloane_, Feb 24 2001
+%E A059815 Edited by _N. J. A. Sloane_, May 23 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

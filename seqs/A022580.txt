@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022580
+Showing 1-1 of 1
+
+%I A022580
+%S A022580 1,15,120,695,3285,13443,49305,165795,519240,1531960,4295046,11520000,
+%T A022580 29718605,74060355,178930605,420368858,962785560,2154411120,
+%U A022580 4718952965,10134292275,21369644184,44300604895
+%N A022580 Expansion of Product (1+q^m)^15; m=1..inf.
+%F A022580 a(n) ~ 5^(1/4) * exp(Pi * sqrt(5*n)) / (512 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022580 nmax=50; CoefficientList[Series[Product[(1+q^m)^15,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022580 nonn
+%O A022580 0,2
+%A A022580 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

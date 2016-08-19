@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030999
+Showing 1-1 of 1
+
+%I A030999
+%S A030999 8,22,36,50,64,78,92,93,95,98,101,104,107,110,114,135,156,177,198,219,
+%T A030999 239,240,242,245,248,251,254,257,261,282,303,324,345,366,386,387,389,
+%U A030999 392,395,398,401,404,408,429,450,471,492,513
+%N A030999 Position of n-th 0 in A030998.
+%H A030999 Harvey P. Dale, <a href="/A030999/b030999.txt">Table of n, a(n) for n = 1..1000</a>
+%t A030999 Rest[Flatten[Position[Flatten[IntegerDigits[#,7]&/@Range[0,200]], 0]]]-1 (* _Harvey P. Dale_, Oct 10 2011 *)
+%K A030999 nonn
+%O A030999 1,1
+%A A030999 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

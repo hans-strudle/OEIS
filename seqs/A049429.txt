@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049429
+Showing 1-1 of 1
+
+%I A049429
+%S A049429 1,1,1,1,4,2,1,11,11,3,1,34,77,35,6,1,107,499,412,104,11,1,368,3442,
+%T A049429 4888,2009,319,23,1,1284,24128,57122,36585,8869,951,47
+%N A049429 Triangle T(n,d) = number of distinct d-dimensional polyominoes (or polycubes) with n cells (n >= 2,d>=1).
+%D A049429 Dan Hoey, Bill Gosper and Rich Schroeppel, Discussions in Math-Fun Mailing list, circa Jul 13 1999.
+%H A049429 R. C. Schroeppel, <a href="http://www.experimentalmath.info/workshop2004/schroeppel-talk.pdf">A few mathematical experiments</a>
+%e A049429 1; 1,1; 1,4,2; 1,11,11,3; ...
+%Y A049429 Cf. A049430. Row sums give A005519. Rows give A006765-A006768.
+%K A049429 nonn,nice,tabl,hard
+%O A049429 2,5
+%A A049429 Richard Schroeppel
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

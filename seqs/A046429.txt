@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046429
+Showing 1-1 of 1
+
+%I A046429
+%S A046429 40,44,81,224,265,395,422,462,640,698,818,972,1010,1032,1070,1089,
+%T A046429 1174,1206,1280,1336,1446,1518,1520,1528,1581,1662,1728,1814,1816,
+%U A046429 1849,1852,1853,1856,1892,1927,1932,1960,2032,2060,2061,2090,2098,2202,2212,2249
+%N A046429 9 steps needed to reach a prime under prime factor concatenation procedure.
+%H A046429 P. De Geest, <a href="http://www.worldofnumbers.com/topic1.htm">Home Primes</a>
+%Y A046429 Cf. A037271, A046411.
+%K A046429 nonn,base
+%O A046429 1,1
+%A A046429 _Patrick De Geest_, Jun 15 1998.
+%E A046429 Extended and edited by _Charles R Greathouse IV_, Apr 28 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

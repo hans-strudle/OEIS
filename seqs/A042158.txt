@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042158
+Showing 1-1 of 1
+
+%I A042158
+%S A042158 24,25,49,123,172,639,1450,2089,3539,5628,9167,14795,68347,83142,
+%T A042158 484057,1535313,14301874,15837187,30139061,467923102,498062163,
+%U A042158 3456296080,41973615123,255297986818,297271601941
+%N A042158 Numerators of continued fraction convergents to sqrt(604).
+%H A042158 Vincenzo Librandi, <a href="/A042158/b042158.txt">Table of n, a(n) for n = 0..200</a>
+%t A042158 Numerator[Convergents[Sqrt[604], 30]] (* _Vincenzo Librandi_, Nov 18 2013 *)
+%Y A042158 Cf. A042159.
+%K A042158 nonn,cofr,frac,easy,less
+%O A042158 0,1
+%A A042158 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

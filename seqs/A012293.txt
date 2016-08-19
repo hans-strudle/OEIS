@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012293
+Showing 1-1 of 1
+
+%I A012293
+%S A012293 1,0,1,6,25,140,1177,10738,104977,1188120,15191889,211088350,
+%T A012293 3187087209,52357837220,926871127977,17553084005322,354581844112801,
+%U A012293 7614153761167920,173108509344647457,4153655608324341686
+%N A012293 sec(sin(x)*exp(x))=1+1/2!*x^2+6/3!*x^3+25/4!*x^4+140/5!*x^5...
+%t A012293 With[{nn=20},CoefficientList[Series[Sec[Sin[x]Exp[x]],{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Jan 14 2012 *)
+%K A012293 nonn
+%O A012293 0,4
+%A A012293 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

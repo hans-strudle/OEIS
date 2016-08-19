@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010230
+Showing 1-1 of 1
+
+%I A010230
+%S A010230 13,1,2,2,6,2,2,1,26,1,2,2,6,2,2,1,26,1,2,2,6,2,2,1,26,1,2,2,6,2,2,1,
+%T A010230 26,1,2,2,6,2,2,1,26,1,2,2,6,2,2,1,26,1,2,2,6,2,2,1,26,1,2,2,6,2,2,1,
+%U A010230 26,1,2,2,6,2,2,1,26,1,2,2,6
+%N A010230 Continued fraction for sqrt(188).
+%H A010230 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%H A010230 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A010230 a(n)=(1/16)*{-47*(n mod 8)+5*[(n+1) mod 8]+3*[(n+2) mod 8]+11*[(n+3) mod 8]-5*[(n+4) mod 8]+3*[(n+5) mod 8]+[(n+6) mod 8]+53*[(n+7) mod 8]}-13*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jul 28 2009]
+%t A010230 ContinuedFraction[Sqrt[188],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 28 2011*)
+%K A010230 nonn,cofr
+%O A010230 0,1
+%A A010230 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

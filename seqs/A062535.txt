@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062535
+Showing 1-1 of 1
+
+%I A062535
+%S A062535 0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,1,1,0,0,0,0,0,0,0,0,3,0,0,
+%T A062535 0,0,0,0,0,0,1,1,2,0,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0,0,3,0,0,0,0,0,1,0,
+%U A062535 0,1,1,1,0,1,1,2,0,1,1,0,0,0,0,1,0,0,0,2,1,0,0,0,2,0,0,2,0,1,1,0,0,0,0,0,0
+%N A062535 Don't be greedy! Difference between number of squares needed to sum to n using the greedy algorithm and using the best such sum.
+%F A062535 a(n) =A053610(n)-A002828(n).
+%e A062535 a(32)=5-2=3 since 32 can be written greedily as 25+4+1+1+1 or efficiently as 16+16.
+%K A062535 nonn
+%O A062535 1,32
+%A A062535 _Henry Bottomley_, Jun 25 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

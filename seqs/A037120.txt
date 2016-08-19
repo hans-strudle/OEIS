@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037120
+Showing 1-1 of 1
+
+%I A037120
+%S A037120 3,136,68,34,17,766,383,17236,8618,4309,193906,96953,4362886,2181443,
+%T A037120 98164936,49082468,24541234,12270617,552177766,276088883,12423999736,
+%U A037120 6211999868,3105999934,1552999967
+%N A037120 Trajectory of 3 under map n->45n+1 if n odd, n->n/2 if n even
+%K A037120 nonn
+%O A037120 0,1
+%A A037120 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

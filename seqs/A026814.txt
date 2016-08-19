@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026814
+Showing 1-1 of 1
+
+%I A026814
+%S A026814 0,0,0,0,0,0,0,1,1,2,3,5,7,11,15,22,29,40,52,70,89,116,146,186,230,
+%T A026814 288,352,434,525,638,764,919,1090,1297,1527,1801,2104,2462,2857,3319,
+%U A026814 3828,4417,5066,5812,6630,7564,8588,9749,11018,12450,14012,15765,17674
+%N A026814 Number of partitions of n in which the greatest part is 8.
+%H A026814 Vincenzo Librandi, <a href="/A026814/b026814.txt">Table of n, a(n) for n = 1..1000</a>
+%F A026814 G.f.: x^8 / ((1-x)*(1-x^2)*(1-x^3)*(1-x^4)*(1-x^5)*(1-x^6)*(1-x^7)*(1-x^8)). [_Colin Barker_, Feb 22 2013]
+%t A026814 Table[ Length[ Select[ Partitions[n], First[ # ] == 8 & ]], {n, 1, 60} ]
+%t A026814 CoefficientList[Series[x^7/((1 - x) (1 - x^2) (1 - x^3) (1 - x^4) (1 - x^5) (1 - x^6) (1 - x^7) (1 - x^8)), {x, 0, 60}], x] (* _Vincenzo Librandi_, Oct 18 2013 *)
+%Y A026814 Cf. A026810, A026811, A026812, A026813, A026815, A026816.
+%K A026814 nonn,easy
+%O A026814 1,10
+%A A026814 _Clark Kimberling_
+%E A026814 More terms from _Robert G. Wilson v_, Jan 11 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

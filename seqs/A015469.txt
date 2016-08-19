@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015469
+Showing 1-1 of 1
+
+%I A015469
+%S A015469 0,1,1,12,133,16105,1963358,2595689713,3480804151551,
+%T A015469 50586130104323474,746191869036731097905,119280194867984161366496439,
+%U A015469 19354414621214347335584253057344,34032051023004810891710239239325511573
+%N A015469 q-Fibonacci numbers for q=11.
+%H A015469 Vincenzo Librandi, <a href="/A015469/b015469.txt">Table of n, a(n) for n = 0..60</a>
+%F A015469 a(n) = a(n-1) + 11^(n-2) a(n-2).
+%t A015469 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]+a[n-2]*11^(n-2)},  a, {n, 61}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%o A015469 (MAGMA) [0] cat[n le 2 select 1 else Self(n-1) + Self(n-2)*(11^(n-2)): n in [1..15]]; // _Vincenzo Librandi_, Nov 09 2012
+%K A015469 nonn,easy
+%O A015469 0,4
+%A A015469 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

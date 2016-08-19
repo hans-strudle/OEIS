@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052035
+Showing 1-1 of 1
+
+%I A052035
+%S A052035 11,101,131,191,313,353,373,797,919,10301,11311,12721,13331,13931,
+%T A052035 14341,14741,16361,17971,18181,19391,30103,30703,33533,71317,71917,
+%U A052035 74747,75557,76367,77977,79397,90709,93139,93739,95959,96769,97379
+%N A052035 Palindromic primes whose sum of squared digits is also prime.
+%D A052035 Journal of Recreational Mathematics, Vol. 20(2), 1988, Charles W. Trigg.
+%D A052035 "Hands On Numbers Count", Personal Computer World, 1997, p. 290.
+%e A052035 E.g. 373 -> 3^2+7^2+3^2 = 67 and prime.
+%Y A052035 Cf. A052034, A003132.
+%K A052035 nonn,base
+%O A052035 1,1
+%A A052035 _Patrick De Geest_, Dec 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

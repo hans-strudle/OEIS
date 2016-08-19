@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055164
+Showing 1-1 of 1
+
+%I A055164
+%S A055164 99,168,187,493,637,780,943,1273,1537,1836,2183,2225,2976,3103,3589,
+%T A055164 4183,5353,5928,6201,6468,6667,8881,9553,9727,13393,13888,14453,15397,
+%U A055164 17587,19897,24253,24883,30883,33667,36259,36853,37523,43657,45901
+%N A055164 (n - Phi(n)) | Sigma(n) for composite n not congruent to 2 (mod 4).
+%t A055164 Do[ If[ !PrimeQ[ n ], If[ Mod[ n, 4 ]! = 0, If[ Mod[ DivisorSigma[ 1, n ], n-EulerPhi[ n ] ] == 0, Print[ n ] ] ], {n, 1, 5000} ]
+%K A055164 easy,nonn
+%O A055164 1,1
+%A A055164 _Robert G. Wilson v_, Jun 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

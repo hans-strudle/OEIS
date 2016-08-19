@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019859
+Showing 1-1 of 1
+
+%I A019859
+%S A019859 7,6,6,0,4,4,4,4,3,1,1,8,9,7,8,0,3,5,2,0,2,3,9,2,6,5,0,5,5,5,4,1,6,6,
+%T A019859 7,3,9,3,5,8,3,2,4,5,7,0,8,0,3,9,5,2,4,5,8,5,4,0,4,5,2,8,4,6,4,2,1,5,
+%U A019859 5,3,8,8,8,5,6,8,7,4,7,2,3,5,2,8,2,2,9,2,7,6,6,8,0,5,4,8,4,9,3
+%N A019859 Decimal expansion of sine of 50 degrees.
+%H A019859 Ivan Panchenko, <a href="/A019859/b019859.txt">Table of n, a(n) for n = 0..1000</a>
+%F A019859 Equals cos(2*Pi/9) = 2F1(5/6,1/6;1/2;3/4) / 2 . [From _R. J. Mathar_, Oct 27 2008]
+%t A019859 RealDigits[ Cos[ 2Pi/9], 10, 111][[1]] (* _Robert G. Wilson v_ *)
+%t A019859 RealDigits[Sin[50 Degree],10,120][[1]] (* _Harvey P. Dale_, Dec 19 2012 *)
+%K A019859 nonn,cons
+%O A019859 0,1
+%A A019859 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

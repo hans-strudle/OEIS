@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015527
+Showing 1-1 of 1
+
+%I A015527
+%S A015527 1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,0,1,1,0,1,1,0,
+%T A015527 1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,0,1,1,0,1,1,0,1,1,0,1,1,1,
+%U A015527 0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015527 1,1,0,-1,-1,0,1,1,0,-1,-1,-1,0,1,1,0,-1,-1,0,1,1,0,0,-1,-1,0,1,1,0,
+%W A015527 -1,-1,0,1,1,1,0,-1,-1,0,1,1,0,-1,-1,0,0,1,1,0,-1,-1,0,1,1,0,-1,-1,-1,
+%X A015527 0,1,1,0,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015527 Inverse of 1518th cyclotomic polynomial.
+%p A015527 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015527 sign
+%O A015527 0,1
+%A A015527 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

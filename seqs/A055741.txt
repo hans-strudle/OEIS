@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055741
+Showing 1-1 of 1
+
+%I A055741
+%S A055741 7,9,11,13,19,23,25,27,29,31,37,41,43,47,49,53,59,61,62,67,71,73,77,
+%T A055741 79,81,83,86,89,93,97,98,99,101,103,107,109,113,121,122,124,125,127,
+%U A055741 129,131,134,137,139,142,143,147,149,151,155,157,158,161,163,167,169,172
+%N A055741 EulerPhi(n) has more prime factors than n.
+%F A055741 A001221(A000010(n)) > A001221(n)
+%e A055741 All primes except Fermat-primes are included. Also true prime powers are included, such as 289 because Phi(289)=17.16=272 with 2 prime divisors. Besides many composites are included like 998=2.499 because Phi(998)=498-2.3.83 with 3>2 prime-factors.
+%Y A055741 Cf. A001221, A000010.
+%K A055741 nonn
+%O A055741 1,1
+%A A055741 _Labos Elemer_, Jul 11 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

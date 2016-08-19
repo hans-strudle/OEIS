@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016030
+Showing 1-1 of 1
+
+%I A016030
+%S A016030 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A016030 1,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A016030 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%V A016030 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%W A016030 1,1,1,1,1,1,1,1,1,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+%X A016030 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+%N A016030 Inverse of 2021st cyclotomic polynomial.
+%p A016030 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016030 sign
+%O A016030 0,1
+%A A016030 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

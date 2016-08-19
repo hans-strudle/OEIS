@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042937
+Showing 1-1 of 1
+
+%I A042937
+%S A042937 1,1,2,3,5,8,53,114,281,4329,8939,22207,142181,164388,306569,470957,
+%T A042937 777526,1248483,78183472,79431955,157615427,237047382,394662809,
+%U A042937 631710191,4184923955,9001558101,22188040157,341822160456,705832361069,1753486882594
+%N A042937 Denominators of continued fraction convergents to sqrt(1000).
+%H A042937 Vincenzo Librandi, <a href="/A042937/b042937.txt">Table of n, a(n) for n = 0..200</a>
+%t A042937 Denominator[Convergents[Sqrt[1000], 30]] (* _Vincenzo Librandi_, Feb 01 2014 *)
+%Y A042937 Cf. A042936, A040968.
+%K A042937 nonn,frac,easy
+%O A042937 0,3
+%A A042937 _N. J. A. Sloane_.
+%E A042937 More terms from _Vincenzo Librandi_, Feb 01 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

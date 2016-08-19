@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053577
+Showing 1-1 of 1
+
+%I A053577
+%S A053577 2,3,4,5,6,7,8,11,12,13,14,16,17,19,23,24,28,29,31,32,37,41,43,47,48,
+%T A053577 53,56,59,61,62,64,67,71,73,79,83,89,96,97,101,103,107,109,112,113,
+%U A053577 124,127,128,131,137,139,149,151,157,163,167,173,179,181,191,192,193,197
+%N A053577 Cototient function ( n-EulerPhi[n] ) is a power of 2.
+%F A053577 A051953[n]=2^w
+%e A053577 For p prime cototient[p]=1; for x in the set {49152,57344,63488,65024,65528,65536}, x-Phi[x]=2^15=32768.
+%t A053577 Select[Range[200],IntegerQ[Log[2,#-EulerPhi[#]]]&] (* _Harvey P. Dale_, Dec 14 2011 *)
+%Y A053577 Cf. A051953, A053578.
+%K A053577 nonn
+%O A053577 1,1
+%A A053577 _Labos Elemer_, Jan 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

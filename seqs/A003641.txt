@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003641
+Showing 1-1 of 1
+
+%I A003641 M0061
+%S A003641 1,1,1,2,1,1,1,2,2,1,1,2,2,1,1,1,1,1,2,2,2,1,1,2,2,2,2,1,1,1,2,1,2,2,
+%T A003641 1,1,1,2,2,1,4,1,2,1,2,2,1,1,4,2,1,2,1,4,2,1,2,1,1,2,2,2,2,2,1,1,2,2,
+%U A003641 2,1,2,2,1,2,1,1,2,1,1,2,2,4,2,2,2,2,1,2,1,4,1,1,2,2,4,1,1,2,1,4,1,1,1,1,2
+%N A003641 Number of genera of quadratic field with discriminant -4n+1.
+%D A003641 D. A. Buell, Binary Quadratic Forms. Springer-Verlag, NY, 1989, pp. 224-241.
+%D A003641 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003641 <a href="/index/Qua#quadfield">Index entries for sequences related to quadratic fields</a>
+%Y A003641 Cf. A003642.
+%K A003641 nonn
+%O A003641 1,4
+%A A003641 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

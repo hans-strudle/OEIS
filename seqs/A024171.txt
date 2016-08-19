@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024171
+Showing 1-1 of 1
+
+%I A024171
+%S A024171 0,0,0,2,18,77,241,623,1406,2868,5415,9608,16203,26188,40830,61720,
+%T A024171 90827,130548,183773,253942,345116,462042,610231,796034,1026724,
+%U A024171 1310578,1656969,2076457,2580887,3183486,3898970,4743648,5735537,6894474,8242236,9802664
+%N A024171 [ (4th elementary symmetric function of 1,2,..,n)/(1+2+...+n) ].
+%F A024171 a(n) = floor( A000915(n-3)/A000217(n)) . [From _R. J. Mathar_, Sep 15 2009]
+%K A024171 nonn
+%O A024171 1,4
+%A A024171 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

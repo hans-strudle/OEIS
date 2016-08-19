@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017750
+Showing 1-1 of 1
+
+%I A017750
+%S A017750 1,87,3828,113564,2555190,46504458,713068356,9473622444,111315063717,
+%T A017750 1174992339235,11279926456656,99468442390512,812325612855848,
+%U A017750 6186171974825304,44186942677323600,297525414027312240
+%N A017750 Binomial coefficients C(n,86).
+%o A017750 (Sage) [binomial(n, 86) for n in xrange(86,102)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017750 nonn
+%O A017750 86,2
+%A A017750 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

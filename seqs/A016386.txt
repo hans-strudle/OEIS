@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016386
+Showing 1-1 of 1
+
+%I A016386
+%S A016386 1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,
+%T A016386 1,0,1,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,1,0,1,0,1,0,1,0,0,0,1,0,1,
+%U A016386 0,1,0,1,0,1,0,0,0,1,0,1,0,1,0,1,0,0
+%V A016386 1,0,1,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,-1,0,
+%W A016386 -1,0,-1,0,-1,0,0,0,1,0,1,0,1,0,1,0,0,0,-1,0,-1,0,-1,0,-1,0,0,0,1,0,1,
+%X A016386 0,1,0,1,0,1,0,0,0,-1,0,-1,0,-1,0,-1,0,0
+%N A016386 340th cyclotomic polynomial.
+%t A016386 CoefficientList[Cyclotomic[340,x],x] (* _Harvey P. Dale_, Nov 23 2011 *)
+%K A016386 sign,fini
+%O A016386 0,1
+%A A016386 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004802
+Showing 1-1 of 1
+
+%I A004802
+%S A004802 2,1025,2048,59050,60073,118098,1048577,1049600,1107625,2097152,
+%T A004802 9765626,9766649,9824674,10814201,19531250,60466177,60467200,60525225,
+%U A004802 61514752,70231801,120932352,282475250,282476273,282534298,283523825,292240874
+%N A004802 Numbers that are the sum of 2 nonzero 10th powers.
+%H A004802 T. D. Noe, <a href="/A004802/b004802.txt">Table of n, a(n) for n = 1..1000</a>
+%t A004802 Union[Total/@Tuples[Range[10]^10,2]] (* _Harvey P. Dale_, Jul 31 2014 *)
+%K A004802 nonn
+%O A004802 1,1
+%A A004802 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026563
+Showing 1-1 of 1
+
+%I A026563
+%S A026563 1,1,2,2,7,8,24,28,93,111,362,436,1452,1763,5880,7176,24089,29521,
+%T A026563 99386,122182,412637,508595,1721500,2126312,7211536,8923136,30312960,
+%U A026563 37563930,127790379,158563368,540082784,670893296,2287577537
+%N A026563 a(n) = T(n,[ n/2 ]), T given by A026552.
+%K A026563 nonn
+%O A026563 0,3
+%A A026563 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035617
+Showing 1-1 of 1
+
+%I A035617
+%S A035617 1,0,3,3,15,33,105,297,879,2631,7833,23697,71385,216765,657849,2003151
+%N A035617 Number of winning length n strings with a 3 symbol alphabet in "same game".
+%C A035617 Strings that can be reduced to null string by repeatedly removing an entire run of two or more consecutive symbols.
+%H A035617 Sascha Kurz, <a href="http://www.mathe2.uni-bayreuth.de/sascha/oeis/paper/same_game.ps">Polynomials in "same game"</a>
+%Y A035617 Cf. A035615, A065237, A065238, A065239, A065240, A065241, A065242, A065243.
+%K A035617 nonn,nice
+%O A035617 0,3
+%A A035617 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

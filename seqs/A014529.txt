@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014529
+Showing 1-1 of 1
+
+%I A014529
+%S A014529 1,2,3,7,11,20,36,71,146,260,495,860,1559,2831,5114
+%N A014529 Largest convex area that can be tiled with n equilateral triangles whose sides are relatively prime.
+%D A014529 Mohammad K. Azarian, A Trigonometric Characterization of  Equilateral Triangle, Problem 336, Mathematics and Computer Education, Vol. 31, No. 1, Winter 1997, p. 96.  Solution published in Vol. 32, No. 1, Winter 1998, pp. 84-85.
+%D A014529 Mohammad K. Azarian, Equating Distances and Altitude in an Equilateral Triangle, Problem 316, Mathematics and Computer Education, Vol. 28, No. 3, Fall 1994, p. 337.  Solution published in Vol. 29, No. 3, Fall 1995, pp. 324-325.
+%D A014529 Robert T. Wainwright, quoted by Ian Stewart, Math. Recreations, Scientific American, Jul 15 1997, p. 96.
+%K A014529 nonn,hard,nice
+%O A014529 1,2
+%A A014529 _N. J. A. Sloane_.
+%E A014529 Terms n=12..15 were calculated by _John W. Layman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

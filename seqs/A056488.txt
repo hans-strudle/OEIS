@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056488
+Showing 1-1 of 1
+
+%I A056488
+%S A056488 6,21,36,126,216,756,1296,4536,7776,27216,46656,163296,279936,979776,
+%T A056488 1679616,5878656,10077696,35271936,60466176,211631616,362797056,
+%U A056488 1269789696,2176782336,7618738176,13060694016
+%N A056488 Number of periodic palindromes using a maximum of six different symbols.
+%D A056488 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056488 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,6).
+%F A056488 a(n)=6^((n+1)/2) for n odd, a(n)=6^(n/2)*7/2 for n even.
+%F A056488 a(n)=6*a(n-2). G.f.: 3*x*(2+7*x)/(1-6*x^2). [_Colin Barker_, Jul 08 2012]
+%e A056488 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome.
+%t A056488 LinearRecurrence[{0,6},{6,21},30] (* _Harvey P. Dale_, Feb 02 2015 *)
+%Y A056488 Cf. A029744, A038754, A056452.
+%K A056488 nonn,easy
+%O A056488 1,1
+%A A056488 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

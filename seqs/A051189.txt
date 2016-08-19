@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051189
+Showing 1-1 of 1
+
+%I A051189
+%S A051189 1,8,128,3072,98304,3932160,188743680,10569646080,676457349120,
+%T A051189 48704929136640,3896394330931200,342882701121945600,
+%U A051189 32916739307706777600,3423340888001504870400,383414179456168545484800
+%N A051189 Octo-factorial numbers.
+%C A051189 For n >= 1 a(n) is the order of the wreath product of the symmetric group S_n and the Abelian group (C_8)^n. - Ahmed Fares (ahmedfares(AT)my-deja.com), May 07 2001
+%C A051189 Number of n X n monomial matrices whose nonzero entries are unit quaternions.
+%C A051189 Number of ways of reassembling n slices of toast or of binding n square pages. - _Donald S. McDonald_, Sep 24 2005
+%H A051189 Vincenzo Librandi, <a href="/A051189/b051189.txt">Table of n, a(n) for n = 0..300</a>
+%H A051189 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A051189 a(n) = 8*A034976(n) = product(8*k, k=1..n), n >= 1; a(0) = 1.
+%F A051189 a(n) = n!*8^n.
+%F A051189 E.g.f.: 1/(1-8*x).
+%F A051189 G.f.: 1/(1-8x/(1-8x/(1-16x/(1-16x/(1-24x/(1-24x/(1-32x/(1-32x/(1-... (continued fraction). - _Philippe Deléham_, Jan 07 2012
+%p A051189 with(combstruct):A:=[N,{N=Cycle(Union(Z$8))},labeled]: seq(count(A,size=n+1)/8,n=0..15); # _Zerinvary Lajos_, Dec 05 2007
+%t A051189 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 7, 5!, 8}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%o A051189 (MAGMA) [8^n*Factorial(n): n in [0..20]]; // _Vincenzo Librandi_, Oct 05 2011
+%Y A051189 Cf. A047058, A051188, A053115, A000165.
+%K A051189 easy,nonn
+%O A051189 0,2
+%A A051189 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

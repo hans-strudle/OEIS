@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059791
+Showing 1-1 of 1
+
+%I A059791
+%S A059791 2,5,6,7,11,13,17,19,24,31,37,41,47,48,53,61,71,79,96,113,313,353,503,
+%T A059791 613,617,863,1097,1361,4787,4793,5851,7741,8467,10691,12251,13963
+%N A059791 Numbers n such that floor(phi^n) is prime, where phi = golden ratio.
+%H A059791 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Phi-Prime.html">Phi-Prime</a>
+%e A059791 floor(phi^863)=227160876495918562748535035942584201965901433059749617\
+%e A059791 427535706949917136103176482875403653972639455945062095866005032008819\
+%e A059791 9236184776437699830957031191632116265394965429613743580479 is prime.
+%o A059791 (PARI) isok(n) = isprime(floor(((sqrt(5)+1)/2)^n)) \\ _Michel Marcus_, Jul 14 2013
+%Y A059791 Cf. A001622, A059792.
+%K A059791 nonn
+%O A059791 1,1
+%A A059791 _Naohiro Nomoto_, Feb 22 2001
+%E A059791 More terms from _Vladeta Jovovic_, Feb 24 2001
+%E A059791 a(27)-a(33) from _Eric W. Weisstein_, May 01 2006
+%E A059791 a(34)-a(36) from _Dmitry Kamenetsky_, Dec 29 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

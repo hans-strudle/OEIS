@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016229
+Showing 1-1 of 1
+
+%I A016229
+%S A016229 1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A016229 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A016229 0,0,0,0,0,0,0,1,0,1,0,0,0,1
+%V A016229 1,0,1,0,0,0,-1,0,-1,0,-1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A016229 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A016229 0,0,0,0,0,0,0,-1,0,-1,0,0,0,1
+%N A016229 Inverse of 2220th cyclotomic polynomial.
+%p A016229 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016229 sign
+%O A016229 0,1
+%A A016229 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

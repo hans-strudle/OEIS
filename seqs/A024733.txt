@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024733
+Showing 1-1 of 1
+
+%I A024733
+%S A024733 1,1,7,7,7,7,56,105,154,546,1330,2800,7357,17745,47047,116480,290871,
+%T A024733 746179,1926638,4908876,12372409,31662582,84227577,217639730,
+%U A024733 556964730,1448423004,3868816175,10079702689,26120574753,68425502873,183684723775,482085719682
+%N A024733 a(n) = Sum (a(2i-1)*a(n-2i+1), i = 1,2,...,k), where k = [ (n+1)/4 ].
+%K A024733 nonn
+%O A024733 1,3
+%A A024733 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

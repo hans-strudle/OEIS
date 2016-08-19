@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023344
+Showing 1-1 of 1
+
+%I A023344
+%S A023344 7,7621,15937,382933,462271,518803,866941,1025407,1142503,1427347,
+%T A023344 1742473,1980067,2343619,2910031,3015283,4344121,4352269,4544209,
+%U A023344 5081893,5116543,5127043,5482531,5484379,5501473,5648221,6452899,7213897,7968469
+%N A023344 Numbers n such that n remains prime through 5 iterations of function f(x) = 5x + 8.
+%C A023344 n, 5*n+8, 25*n+48, 125*n+248, 625*n+1248 and 3125*n+6248 are primes. - _Vincenzo Librandi_, Aug 05 2010
+%t A023344 Select[Prime[Range[550000]],And@@PrimeQ[NestList[5#+8&,#,5]]&] (* _Harvey P. Dale_, Jun 04 2011 *)
+%o A023344 (MAGMA) [n: n in [1..10000000] | IsPrime(n) and IsPrime(5*n+8) and IsPrime(25*n+48) and IsPrime(125*n+248) and IsPrime(625*n+1248) and IsPrime(3125*n+6248)] [From _Vincenzo Librandi_, Aug 05 2010]
+%K A023344 nonn
+%O A023344 1,1
+%A A023344 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

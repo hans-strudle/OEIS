@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043286
+Showing 1-1 of 1
+
+%I A043286
+%S A043286 1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,
+%T A043286 1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,
+%U A043286 1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1
+%N A043286 Maximal run length in base 12 representation of n.
+%C A043286 For all numbers n in A023806, a(n)=1, but this holds also for others, e.g., n=145, not in A023806. The same relation holds for the terms of A113763 less than n=144, but becomes wrong from then on. - _M. F. Hasler_, Jul 24 2013
+%o A043286 (PARI) A043287(n, b=13){=my(m, c=1); while(n>0, n%b==(n\=b)%b&&c++&&next; m=max(m, c); c=1); m} \\ _M. F. Hasler_, Jul 23 2013
+%Y A043286 Cf. A043276-A043290 for base-2 to base-16 analogs.
+%K A043286 nonn,base
+%O A043286 1,13
+%A A043286 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035965
+Showing 1-1 of 1
+
+%I A035965
+%S A035965 1,2,3,4,6,9,12,17,23,31,41,55,70,92,118,151,191,243,303,381,473,587,
+%T A035965 723,892,1090,1334,1622,1970,2381,2878,3458,4156,4973,5944,7081,8429,
+%U A035965 9996,11848,14001,16527,19459,22891,26858,31486,36831,43036,50190
+%N A035965 Number of partitions of n into parts not of the form 17k, 17k+4 or 17k-4. Also number of partitions with at most 3 parts of size 1 and differences between parts at distance 7 are greater than 1.
+%C A035965 Case k=8,i=4 of Gordon Theorem.
+%D A035965 G. E. Andrews, The Theory of Partitions, Addison-Wesley, 1976, p. 109.
+%K A035965 nonn,easy
+%O A035965 1,2
+%A A035965 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

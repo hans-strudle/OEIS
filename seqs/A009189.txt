@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009189
+Showing 1-1 of 1
+
+%I A009189
+%S A009189 1,1,1,2,11,24,61,624,1737,7424,88679,242560,2086525,23499776,
+%T A009189 45950997,1002251264,9763133167,2151563264,705668046769,
+%U A009189 5583112077312,17356978593659,666018502836224,3823112141007763,39230927775531008
+%V A009189 1,1,1,-2,-11,-24,61,624,1737,-7424,-88679,-242560,2086525,23499776,
+%W A009189 45950997,-1002251264,-9763133167,-2151563264,705668046769,
+%X A009189 5583112077312,-17356978593659,-666018502836224,-3823112141007763,39230927775531008
+%N A009189 Expansion of exp(cos(x)*x).
+%F A009189 a(n):=(sum(k=1..n-1, binomial(n,k)*(-1)^((n-k)/2)*(1+(-1)^(n-k))/(2^(k))*sum(i=0..floor((k-1)/2)), binomial(k,i)*(k-2*i)^(n-k)))+1. - _Vladimir Kruchinin_, Apr 21 2011
+%t A009189 Exp[ Cos[ x ]*x ]
+%o A009189 (Maxima)
+%o A009189 a(n):=(sum(binomial(n,k)*(-1)^((n-k)/2)*(1+(-1)^(n-k))/(2^(k))*sum(binomial(k,i)*(k-2*i)^(n-k),i,0,floor((k-1)/2)),k,1,n-1))+1; [From _Vladimir Kruchinin_, Apr 21 2011]
+%K A009189 sign,easy
+%O A009189 0,4
+%A A009189 _R. H. Hardin_
+%E A009189 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

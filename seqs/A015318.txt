@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015318
+Showing 1-1 of 1
+
+%I A015318
+%S A015318 1,1,0,0,0,0,0,1,1,0,0,1,1,0,1,1,0,1,0,1,0,1,0,1,1,0,1,0,2,1,
+%T A015318 1,1,0,0,0,1,1,1,1,1,1,0,1,1,0,1,0,1,0,1,0,0,0,0,1,1,1,1,0,0,
+%U A015318 0,0,1,0,1,0,1,0,0,0,0,1,1,1,1,0,0,0,0,1,0
+%V A015318 1,-1,0,0,0,0,0,1,-1,0,0,1,-1,0,1,-1,0,1,0,-1,0,1,0,-1,1,0,-1,0,2,-1,
+%W A015318 -1,1,0,0,0,1,-1,-1,1,1,-1,0,1,-1,0,1,0,-1,0,1,0,0,0,0,-1,1,1,-1,0,0,
+%X A015318 0,0,1,0,-1,0,1,0,0,0,0,-1,1,1,-1,0,0,0,0,1,0
+%N A015318 Inverse of 1309th cyclotomic polynomial.
+%p A015318 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015318 sign
+%O A015318 0,29
+%A A015318 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

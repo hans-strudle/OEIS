@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025060
+Showing 1-1 of 1
+
+%I A025060
+%S A025060 11,14,17,19,20,23,26,27,29,31,32,34,35,36,38,39,41,43,44,46,47,49,50,
+%T A025060 51,52,53,54,55,56,59,61,62,63,64,65,66,67,68,69,71,73,74,75,76,77,79,
+%U A025060 80,81,82,83,84,86,87,89,90,91,92,94,95,96,97,98,99,100,101,103,104,106,107,108,109
+%N A025060 Uniquification of sequence A025058 (numbers of form i*j + j*k + k*i, where 1 <= i < j < k).
+%C A025060 Non-Idoneal Numbers. [_Artur Jasinski_, Oct 27 2008]
+%C A025060 Conjecture: If i, j and k are allowed to be negative, but not zero, and are still distinct, then the sequence is all the integers. - _Jon Perry_, Apr 21 2013
+%H A025060 Bo Gyu Jeong, <a href="/A025060/b025060.txt">Table of n, a(n) for n = 1..2000</a>
+%t A025060 aa = {}; Do[Do[Do[k = a b + b c + c a; AppendTo[aa, a b + b c + c a], {a, 1, b - 1}], {b, 2, c - 1}], {c, 3, 10}]; Union[aa] (* _Artur Jasinski_, Oct 27 2008 *)
+%K A025060 nonn
+%O A025060 1,1
+%A A025060 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

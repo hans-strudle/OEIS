@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058820
+Showing 1-1 of 1
+
+%I A058820
+%S A058820 1,5,15,85,475,2501,13045,66965,341875,1736125,8789377,44389205,
+%T A058820 223796925,1126802885
+%N A058820 a(0) = 1, a(1) = 5; for n>=2 a(n) is the number of degree-n monic reducible polynomials over GF(5), i.e. a(n) = 5^n - A001692(n).
+%C A058820 Dimensions of homogeneous subspaces of shuffle algebra over 5-letter alphabet (see A058766 for 2-letter case).
+%D A058820 M. Lothaire, Combinatorics on words, Cambridge mathematical library, 1983, p. 126 (definition of shuffle algebra).
+%Y A058820 Cf. A058766.
+%Y A058820 Cf. A001692.
+%K A058820 nonn
+%O A058820 0,2
+%A A058820 Claude Lenormand (claude.lenormand(AT)free.fr), Jan 04 2001
+%E A058820 Better description from Sharon Sela (sharonsela(AT)hotmail.com), Feb 19 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

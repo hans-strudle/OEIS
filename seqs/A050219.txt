@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050219
+Showing 1-1 of 1
+
+%I A050219
+%S A050219 728,2964,3864,4959,5935,6187,9386,9633,11695,13764,16536,16591,20784,
+%T A050219 25428,28808,29623,32696,33632,35805,39585,43736,44733,49027,55344,
+%U A050219 56336,57663,58305,62634,65912,65974,66650,67067,67728,69279,69835
+%N A050219 Smaller of Smith brothers.
+%H A050219 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmithBrothers.html">Smith Brothers.</a>
+%o A050219 (PARI) isone(n) = {if (!isprime(n), f = factor(n); sumdigits(n) == sum(k=1, #f~, f[k,2]*sumdigits(f[k,1])););}
+%o A050219 isok(n) =  isone(n) && isone(n+1); \\ _Michel Marcus_, Jul 17 2015
+%Y A050219 Cf. A006753, A050220.
+%K A050219 nonn
+%O A050219 1,1
+%A A050219 _Eric W. Weisstein_
+%E A050219 Offset corrected by _Arkadiusz Wesolowski_, May 08 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

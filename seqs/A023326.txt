@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023326
+Showing 1-1 of 1
+
+%I A023326
+%S A023326 397,467,907,1747,1901,4099,7237,8117,8581,9371,9587,23539,28081,
+%T A023326 32611,36899,41729,54767,55207,57601,61991,64997,66449,73061,74821,
+%U A023326 75527,86291,115021,118717,125659,126067,134287,140677,147011,148147,151531,171539
+%N A023326 Numbers n such that n remains prime through 4 iterations of the function f(x) = 9x + 8.
+%C A023326 n, 9*n+8, 81*n+80, 729*n+728 and 6561*n+6560 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023326 (MAGMA) [n: n in [1..5000000] | IsPrime(n) and IsPrime(9*n+8) and IsPrime(81*n+80) and IsPrime(729*n+728) and IsPrime(6561*n+6560)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023326 nonn
+%O A023326 1,1
+%A A023326 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

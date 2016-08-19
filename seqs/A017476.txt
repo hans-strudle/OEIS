@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017476
+Showing 1-1 of 1
+
+%I A017476
+%S A017476 2401,104976,707281,2560000,6765201,14776336,28398241,49787136,
+%T A017476 81450625,126247696,187388721,268435456,373301041,506250000,671898241,
+%U A017476 875213056,1121513121,1416468496,1766100625,2176782336
+%N A017476 (11*n+7)^4.
+%H A017476 Vincenzo Librandi, <a href="/A017476/b017476.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017476 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5, -10, 10, -5, 1).
+%F A017476 a(0)=2401, a(1)=104976, a(2)=707281, a(3)=2560000, a(4)=6765201, a(n)=5*a(n-1)-10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5). - _Harvey P. Dale_, Oct 21 2015
+%t A017476 (11*Range[0,30]+7)^4 (* or *) LinearRecurrence[{5,-10,10,-5,1},{2401,104976,707281,2560000,6765201},30] (* _Harvey P. Dale_, Oct 21 2015 *)
+%o A017476 (MAGMA) [(11*n+7)^4: n in [0..30]]; // Vincenzo Librandi, Sep 04 2011
+%K A017476 nonn,easy
+%O A017476 0,1
+%A A017476 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

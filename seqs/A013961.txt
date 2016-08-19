@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013961
+Showing 1-1 of 1
+
+%I A013961
+%S A013961 1,8193,1594324,67117057,1220703126,13062296532,96889010408,
+%T A013961 549822930945,2541867422653,10001220711318,34522712143932,
+%U A013961 107006334784468,302875106592254,793811662272744,1946196290656824
+%N A013961 a(n) = sigma_13(n), the sum of the 13th powers of the divisors of n.
+%C A013961 If the canonical factorization of n into prime powers is the product of p^e(p) then sigma_k(n) = Product_p ((p^((e(p)+1)*k))-1)/(p^k-1).
+%C A013961 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%F A013961 G.f.: sum_{k>=1} k^13*x^k/(1-x^k). - _Benoit Cloitre_, Apr 21 2003
+%t A013961 lst={};Do[AppendTo[lst,DivisorSigma[13,n]],{n,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Mar 11 2009 *)
+%o A013961 (Sage) [sigma(n,13)for n in xrange(1,16)] # _Zerinvary Lajos_, Jun 04 2009
+%K A013961 nonn,mult
+%O A013961 1,2
+%A A013961 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

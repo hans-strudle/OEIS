@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032413
+Showing 1-1 of 1
+
+%I A032413
+%S A032413 2,12,18,24,54,72,114,180,214,504,558,964,1098,1420,2764,4322,5582,
+%T A032413 10538,14634,23970,61054,67318,88958,96744
+%N A032413 Numbers n such that 127*2^n+1 is prime.
+%H A032413 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032413 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032413 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032413 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032413 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%Y A032413 Cf. A032418.
+%K A032413 nonn
+%O A032413 1,1
+%A A032413 _James R. Buddenhagen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

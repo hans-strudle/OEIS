@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005492
+Showing 1-1 of 1
+
+%I A005492 M3495
+%S A005492 4,15,52,151,372,799,1540,2727,4516,7087,10644,15415,21652,29631,
+%T A005492 39652,52039,67140,85327,106996,132567,162484,197215,237252,283111,
+%U A005492 335332,394479,461140,535927,619476,712447,815524,929415,1054852,1192591
+%N A005492 From expansion of falling factorials.
+%D A005492 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005492 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005492 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005492 E. G. Whitehead, Jr., <a href="http://dx.doi.org/10.1016/0097-3165(78)90061-4">Stirling number identities from chromatic polynomials</a>, J. Combin. Theory, A 24 (1978), 314-317.
+%H A005492 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5, -10, 10, -5, 1).
+%F A005492 a(n) = 5a(n-1) - 10a(n-2) + 10a(n-3) - 5a(n-4) + a(n-5).
+%F A005492 a(n) = n^4 - 16n^3 + 102n^2 - 300n + 340.
+%F A005492 G.f.: (-7*x^4-x^3-17*x^2+5*x-4)/(x-1)^5. - _Harvey P. Dale_, Dec 25 2012
+%p A005492 A005492:=-(15-23*z+41*z**2-13*z**3+4*z**4)/(z-1)**5; # Conjectured by _Simon Plouffe_ in his 1992 dissertation. Gives sequence except for the leading 4.
+%t A005492 LinearRecurrence[{5,-10,10,-5,1},{4,15,52,151,372},50] (* _Harvey P. Dale_, Dec 25 2012 *)
+%K A005492 nonn,easy
+%O A005492 4,1
+%A A005492 _N. J. A. Sloane_, _Simon Plouffe_
+%E A005492 More terms from Pab Ter (pabrlos(AT)yahoo.com), May 09 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

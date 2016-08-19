@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021004
+Showing 1-1 of 1
+
+%I A021004
+%S A021004 4,10,25,62,154,383,953,2371,5899,14677,36517,90856,226054,562433,
+%T A021004 1399360,3481674,8662570,21552885,53624600,133420548,331956651,
+%U A021004 825923891,2054937811,5112782731,12720845913,31650067929,78746870040,195925947300,487473048845
+%N A021004 Pisot sequence P(4,10).
+%F A021004 a(n) = 2a(n-1) + a(n-2) + a(n-3) - a(n-4) - a(n-6) (checked up to n = 1000)
+%F A021004 Conjectured G.f.: (4+2 x+x^2-2 x^3-x^4-2 x^5)/(1-2 x-x^2-x^3+ x^4+x^6)  [From Harvey P. Dale, Mar 12 2011 *)
+%t A021004 CoefficientList[Series[(4+2 x+x^2-2 x^3-x^4-2 x^5)/ (1-2 x-x^2-x^3+x^4+x^6),{x,0,30}],x] (* using conjectured GF, Harvey P. Dale, Mar 12 2011 *)
+%Y A021004 See A008776 for definitions of Pisot sequences.
+%K A021004 nonn
+%O A021004 0,1
+%A A021004 _R. K. Guy_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

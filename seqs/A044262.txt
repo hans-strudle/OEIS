@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044262
+Showing 1-1 of 1
+
+%I A044262
+%S A044262 11,92,99,173,254,335,416,497,578,659,740,821,828,891,983,1064,1145,
+%T A044262 1226,1307,1388,1469,1550,1557,1631,1712,1793,1874,1955,2036,2117,
+%U A044262 2198,2279,2286,2360,2441,2522,2603,2684,2765,2846
+%N A044262 Numbers n such that string 1,2 occurs in the base 9 representation of n but not of n-1.
+%K A044262 nonn,base
+%O A044262 1,1
+%A A044262 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

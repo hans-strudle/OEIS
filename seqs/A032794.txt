@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032794
+Showing 1-1 of 1
+
+%I A032794
+%S A032794 8,36,224,756,1232,2808,5544,7488,12852,20672,25704,38456,55440,65780,
+%T A032794 90720,122148,140616,183744,236096,266112,334628,415584,461168,563472,
+%U A032794 681912,747684,893376,1059380,1150560,1350440,1575288,1697696,1963764
+%N A032794 a(n) = n(n+1)(n+2)...(n+4) / (n+(n+1)+(n+2)+...+(n+4)) and a multiple of n.
+%F A032794 {A032770(i): A032770(i) = 0 (mod i)}. [_R. J. Mathar_, May 31 2010]
+%Y A032794 Cf. A032793, A032795.
+%K A032794 nonn
+%O A032794 0,1
+%A A032794 _Patrick De Geest_, May 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

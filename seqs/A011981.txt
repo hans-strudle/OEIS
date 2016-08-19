@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011981
+Showing 1-1 of 1
+
+%I A011981
+%S A011981 1,4,4,7,10,11,15
+%N A011981 Covering numbers C(n,6,3) (next term is <= 21).
+%D A011981 CRC Handbook of Combinatorial Designs, 1996, p. 262.
+%H A011981 D. Gordon, <a href="http://www.ccrwest.org/cover.html">La Jolla Repository of Coverings</a>
+%H A011981 <a href="/index/Cor#covnum">Index entries for covering numbers</a>
+%K A011981 nonn,hard
+%O A011981 6,2
+%A A011981 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

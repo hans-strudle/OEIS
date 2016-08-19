@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032478
+Showing 1-1 of 1
+
+%I A032478
+%S A032478 13,25,29,33,45,57,65,153,197,245,637,1785,1917,2045,4925,5313,7449,
+%T A032478 8437,23645,28273,34217,40189,135125,141477
+%N A032478 Numbers n such that 203*2^n+1 is prime.
+%H A032478 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032478 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032478 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032478 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032478 nonn,hard
+%O A032478 1,1
+%A A032478 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036687
+Showing 1-1 of 1
+
+%I A036687
+%S A036687 1,12,420,35280,6486480,2473511040,1888413246720,2815188363187200,
+%T A036687 8043859365429888000
+%N A036687 Prod( (3*i+1)! / (n+i)!, i=0..n).
+%K A036687 nonn
+%O A036687 0,2
+%A A036687 Christian Krattenthaler (kratt(AT)ap.UniVie.AC.AT)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

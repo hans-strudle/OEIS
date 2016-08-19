@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061811
+Showing 1-1 of 1
+
+%I A061811
+%S A061811 0,6,24,42,48,60,66,84,204,222,228,240,246,264,282,288,402,408,420,
+%T A061811 426,444,462,468,480,486,600,606,624,642,648,660,666,684,804,822,828,
+%U A061811 840,846,864,882,888,2004,2022,2028,2040,2046,2064,2082,2088,2202,2208
+%N A061811 Multiples of 3 with all even digits.
+%e A061811 228 has all even digits and 228 = 3*76.
+%Y A061811 A061810.
+%K A061811 nonn,base,easy
+%O A061811 0,2
+%A A061811 _Amarnath Murthy_, May 28 2001
+%E A061811 More terms from Larry Reeves (larryr(AT)acm.org), May 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

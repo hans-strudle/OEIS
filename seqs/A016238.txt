@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016238
+Showing 1-1 of 1
+
+%I A016238
+%S A016238 1,17,218,2554,28875,321531,3556372,39217748,431883509,4753160005,
+%T A016238 52296967086,575327673102,6328909579903,69619531257839,
+%U A016238 765822473230760,8424085352511016,92665129612484457,1019317379411645433
+%N A016238 Expansion of 1/((1-x)*(1-5*x)*(1-11*x)).
+%F A016238 a(0)=1, a(1)=17, a(n)=16*a(n-1)-55*a(n-2)+1. - Vincenzo Librandi, Feb 10 2011
+%K A016238 nonn
+%O A016238 0,2
+%A A016238 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

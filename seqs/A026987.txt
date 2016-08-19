@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026987
+Showing 1-1 of 1
+
+%I A026987
+%S A026987 1,6,35,154,613,2882,14995,68730,291606,1378110,7047087,32801046,
+%T A026987 143237183,681449778,3462931356,16261134650,72210836920,345094694354
+%N A026987 a(n) = Sum{T(n,k)*T(n,k+1)}, 0<=k<=n-1, T given by A026681.
+%K A026987 nonn
+%O A026987 1,2
+%A A026987 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

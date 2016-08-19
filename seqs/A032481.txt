@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032481
+Showing 1-1 of 1
+
+%I A032481
+%S A032481 1,5,11,13,65,113,299,335,1235,1991,2861,3295,3343,3901,5545,9125,
+%T A032481 10769,14303,19433,28535,76855
+%N A032481 Numbers n such that 209*2^n+1 is prime.
+%H A032481 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032481 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032481 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032481 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032481 nonn,hard
+%O A032481 1,2
+%A A032481 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

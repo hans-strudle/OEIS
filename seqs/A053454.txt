@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053454
+Showing 1-1 of 1
+
+%I A053454
+%S A053454 1,4,12,53,237,1306,7537,47913,322253,2297874,17191216,134505656,
+%T A053454 1095715055,9267223594,81162609328,734511656413,6856030049629,
+%U A053454 65899370570285,651338242941020,6611459646337423,68842439737228261
+%N A053454 Number of connected digraphs with n arcs.
+%F A053454 Inverse Euler transform of A053418. [From _Max Alekseyev_, Jan 22 2010]
+%Y A053454 Cf. A003085, A053418.
+%K A053454 nonn
+%O A053454 1,2
+%A A053454 _Vladeta Jovovic_, Jan 12 2000
+%E A053454 Extended by _Max Alekseyev_, Jan 22 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

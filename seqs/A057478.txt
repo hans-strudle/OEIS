@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057478
+Showing 1-1 of 1
+
+%I A057478
+%S A057478 9,15,39,105,119,153,177,209
+%N A057478 Numbers n such that x^n + x^8 + 1 is irreducible over GF(2).
+%t A057478 Do[ If[ ToString[ Factor[ x^n + x^8 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^8 + 1 ], Print[ n ] ], {n, 0, 750} ]
+%Y A057478 Cf. A002475.
+%K A057478 nonn
+%O A057478 1,1
+%A A057478 _Robert G. Wilson v_, Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030163
+Showing 1-1 of 1
+
+%I A030163
+%S A030163 2,12,168,240,14880,65280,7608944640,4294901760,1125874137169920,
+%T A030163 18446744069414584320
+%N A030163 2*uphi(x)=x, where the unitary phi function (A047994) is defined by if x=p1^r1*p2^r2*p3^r3*... then uphi(x)=(p1^r1-1)(p2^r2-1)(p3^r3-1)...
+%K A030163 nonn
+%O A030163 0,1
+%A A030163 _Yasutoshi Kohmoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

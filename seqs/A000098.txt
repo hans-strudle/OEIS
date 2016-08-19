@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000098
+Showing 1-1 of 1
+
+%I A000098 M1373 N0533
+%S A000098 1,2,5,10,19,33,57,92,147,227,345,512,752,1083,1545,2174,3031,4179,
+%T A000098 5719,7752,10438,13946,18519,24428,32051,41805,54265,70079,90102,
+%U A000098 115318,147005,186626,236064,297492,373645,467707
+%N A000098 Number of partitions of n if there are two kinds of 1, two kinds of 2 and two kinds of 3.
+%C A000098 Also number of partitions of 2*n+1 with exactly 3 odd parts (offset 1). - _Vladeta Jovovic_, Jan 12 2005
+%C A000098 Convolution of A000041 and A001399. - _Vaclav Kotesovec_, Aug 18 2015
+%D A000098 H. Gupta et al., Tables of Partitions. Royal Society Mathematical Tables, Vol. 4, Cambridge Univ. Press, 1958, p. 90.
+%D A000098 J. Riordan, Combinatorial Identities, Wiley, 1968, p. 199.
+%D A000098 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000098 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000098 T. D. Noe, <a href="/A000098/b000098.txt">Table of n, a(n) for n=0..1000</a>
+%H A000098 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A000098 Euler transform of 2 2 2 1 1 1 1...
+%F A000098 G.f.: 1/[(1-x)(1-x^2)(1-x^3)*product((1-x^k), k>=1)].
+%F A000098 a(n) = sum(A000097(n-3*j), j=0..floor(n/3)), n>=0.
+%F A000098 a(n) ~ sqrt(n) * exp(Pi*sqrt(2*n/3)) / (2*sqrt(2)*Pi^3). - _Vaclav Kotesovec_, Aug 18 2015
+%e A000098 a(3)=10 because we have 3, 3', 2+1, 2+1', 2'+1, 2'+1', 1+1+1, 1+1+1', 1+1'+1' and 1'+1'+1'.
+%t A000098 CoefficientList[1/((1-x)*(1-x^2)*(1-x^3)*QPochhammer[x]) + O[x]^40, x] (* _Jean-François Alcover_, Feb 04 2016 *)
+%Y A000098 Cf. A000070, A008951, A000097, A000710.
+%Y A000098 Fourth column of Riordan triangle A008951 and of triangle A103923.
+%K A000098 nonn,easy
+%O A000098 0,2
+%A A000098 _N. J. A. Sloane_
+%E A000098 Edited by _Emeric Deutsch_, Mar 23 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

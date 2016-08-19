@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059905
+Showing 1-1 of 1
+
+%I A059905
+%S A059905 0,1,0,1,2,3,2,3,0,1,0,1,2,3,2,3,4,5,4,5,6,7,6,7,4,5,4,5,6,7,6,7,0,1,
+%T A059905 0,1,2,3,2,3,0,1,0,1,2,3,2,3,4,5,4,5,6,7,6,7,4,5,4,5,6,7,6,7,8,9,8,9,
+%U A059905 10,11,10,11,8,9,8,9,10,11,10,11,12,13,12,13,14,15,14,15,12,13,12,13,14
+%N A059905 Index of first half of decomposition of integers into pairs based on A000695.
+%C A059905 One coordinate of a recursive non-self intersecting walk on the square lattice Z^2.
+%H A059905 Peter Kagey, <a href="/A059905/b059905.txt">Table of n, a(n) for n = 0..8192</a>
+%F A059905 n = A000695(a(n))+2*A000695(A059906(n))
+%F A059905 To get a(n), write n as Sum b_j*2^j, then a(n)=Sum b_(2j)*2^j. - _Vladimir Shevelev_, Nov 13 2008
+%F A059905 a(n) = Sum_k>=0 {A030308(n,k)*A077957(k)}. - _Philippe Deléham_, Oct 18 2011
+%F A059905 G.f.: (1-x)^(-1) * Sum_{j>=0} 2^j*x^(2^j)/(1+x^(2^j)). - _Robert Israel_, Aug 12 2015
+%e A059905 A000695(a(14))+2*A000695(A059906(14)) = A000695(2)+2*A000695(3) = 4+2*5 = 14.
+%e A059905 If n=27, then b_0=1, b_1=1, b_2=0, b_3=1, b_4=1. Therefore a(n)=b_0+b_2*2+b_4*2^2=5. - _Vladimir Shevelev_, Nov 13 2008
+%p A059905 f:= proc(n) local L; L:= convert(n,base,2); add(L[2*i+1]*2^i,i=0..floor((nops(L)-1)/2)) end;
+%p A059905 map(f, [$0..256]); # _Robert Israel_, Aug 12 2015
+%o A059905 (Ruby)
+%o A059905 def a(n)
+%o A059905   (0..n.bit_length/2).to_a.map { |i| (n >> 2 * i & 1) << i}.reduce(:+)
+%o A059905 end # _Peter Kagey_, Aug 12 2015
+%Y A059905 Cf. A000695, A059906.
+%K A059905 easy,nonn,look
+%O A059905 0,5
+%A A059905 _Marc LeBrun_, Feb 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

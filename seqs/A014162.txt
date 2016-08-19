@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014162
+Showing 1-1 of 1
+
+%I A014162
+%S A014162 0,1,4,11,25,51,97,176,309,530,894,1490,2462,4043,6610,10773,17519,
+%T A014162 28445,46135,74770,121115,196116,317484,513876,831660,1345861,2177872,
+%U A014162 3524111,5702389,9226935,14929789
+%N A014162 Apply partial sum operator thrice to Fibonacci numbers.
+%C A014162 With offset 4, number of 132-avoiding two-stack sortable permutations which contain exactly one subsequence of type 51234.
+%H A014162 E. S. Egge and T. Mansour, <a href="http://arXiv.org/abs/math.CO/0205206">132-avoiding Two-stack Sortable Permutations, Fibonacci Numbers, and Pell Numbers</a>, arXiv:math/0205206 [math.CO], 2002.
+%H A014162 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (4,-5,1,2,-1).
+%F A014162 a(n) = sum_{k=0..n} A000045(n-k)*k*(k+1)/2. - _Benoit Cloitre_, Jan 06 2003
+%F A014162 G.f.: x/[(1-x)^3(1-x-x^2)].
+%F A014162 a(n-2) = sum_{k=0..floor(n/2)} binomial(n-k, k+3); a(n-2) = sum_{k=0..n} binomial(k, n-k+3). - _Paul Barry_, Oct 07 2004
+%F A014162 Convolution of A000045 and A000217 (Fibonacci and triangular numbers). - _Ross La Haye_, Nov 08 2004
+%F A014162 Fib(n+6) - (1/2)(n^2+7n+16).
+%F A014162 a(n) = sum_{k=1..n} C(n-k+3,k+2), with n>=0. - _Paolo P. Lava_, Apr 16 2008
+%t A014162 lst={};s0=s1=s2=0;Do[s0+=a[n];s1+=s0;s2+=s1;AppendTo[lst, s2], {n, 0, 6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Dec 10 2008 *)
+%o A014162 (PARI) a(n)=fibonacci(n+6)-n*(n+7)/2-8 \\ _Charles R Greathouse IV_, Jun 11 2015
+%Y A014162 Cf. A000045, A001924, A228074.
+%Y A014162 Right-hand column 6 of triangle A011794.
+%K A014162 nonn,easy
+%O A014162 0,3
+%A A014162 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

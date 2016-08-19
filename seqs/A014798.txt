@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014798
+Showing 1-1 of 1
+
+%I A014798
+%S A014798 196,900,19600,41616,256036,422500,1537600,2238016,6100900,8236900,
+%T A014798 18696976,24010000,48024900,59505796,108493056,130873600,222308100,
+%U A014798 262634436,421891600,490179600,752624356,862596900,1275918400
+%N A014798 Squares of even square pyramidal numbers.
+%H A014798 Vincenzo Librandi, <a href="/A014798/b014798.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014798 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,6,-6,-15,15,20,-20,-15,15,6,-6,-1,1).
+%F A014798 G.f.: -4*(49*x^10 +176*x^9 +4381*x^8 +4448*x^7 +26290*x^6 +11232*x^5 +26290*x^4 +4448*x^3 +4381*x^2 +176*x +49)/((x -1)^7*(x +1)^6). [_Colin Barker_, Nov 16 2012]
+%t A014798 CoefficientList[Series[- 4 (49 x^10 + 176 x^9 + 4381 x^8 + 4448 x^7 + 26290 x^6 + 11232 x^5 + 26290 x^4 + 4448 x^3 + 4381 x^2 + 176 x + 49)/((x - 1)^7 (x + 1)^6), {x, 0, 30}], x] (* _Vincenzo Librandi_, Oct 15 2013 *)
+%K A014798 nonn,easy
+%O A014798 0,1
+%A A014798 _Mohammad K. Azarian_
+%E A014798 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

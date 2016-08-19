@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001674
+Showing 1-1 of 1
+
+%I A001674
+%S A001674 1,2,6,15,39,98,248,621,1558,3906,9792,24546,61528,154230,386597,
+%T A001674 969056,2429063,6088760,15262258,38256809,95895600,240374623,
+%U A001674 602529828,1510318305,3785806567,9489609784,23786924200,59624976768,149457652641,374634777972
+%N A001674 Floor(sqrt( 2*Pi )^n).
+%H A001674 T. D. Noe, <a href="/A001674/b001674.txt">Table of n, a(n) for n = 0..500</a>
+%t A001674 Table[Floor[Sqrt[2*Pi]^n], {n, 0, 50}] (* _T. D. Noe_, Aug 09 2012 *)
+%K A001674 nonn
+%O A001674 0,2
+%A A001674 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

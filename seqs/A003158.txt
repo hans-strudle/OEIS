@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003158
+Showing 1-1 of 1
+
+%I A003158 M1734
+%S A003158 2,7,10,13,18,23,28,31,34,39,42,45,50,53,56,61,66,71,74,77,82,87,92,
+%T A003158 95,98,103,108,113,116,119,124,127,130,135,138,141,146,151,156,159
+%N A003158 Not representable by A001045.
+%C A003158 Indices of b in the sequence closed under a -> abc, b -> a, c -> a, starting with a(1) = a; see A092606 where a = 0, b = 2, c = 1. - _Philippe Deléham_, Apr 12 2004
+%D A003158 A. Brousseau, Fibonacci and Related Number Theoretic Tables. Fibonacci Association, San Jose, CA, 1972, p. 67.
+%D A003158 L. Carlitz, R. Scoville and V. E. Hoggatt, Jr., Representations for a special sequence, Fib. Quart., 10 (1972), 499-518, 550.
+%D A003158 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A003158 a(n) = A003157(n) - 1 = A079523(n) + n. - _Philippe Deléham_, Feb 22 2004
+%K A003158 nonn
+%O A003158 1,1
+%A A003158 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

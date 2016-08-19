@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016787
+Showing 1-1 of 1
+
+%I A016787
+%S A016787 1,4194304,1977326743,100000000000,1792160394037,17592186044416,
+%T A016787 116490258898219,584318301411328,2384185791015625,8293509467471872,
+%U A016787 25408476896404831,70188843638032384,177917621779460413
+%N A016787 (3*n+1)^11.
+%H A016787 Vincenzo Librandi, <a href="/A016787/b016787.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016787 (MAGMA) [(3*n+1)^11: n in [0..20]]; // Vincenzo Librandi, Sep 29 2011
+%K A016787 nonn,easy
+%O A016787 0,2
+%A A016787 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

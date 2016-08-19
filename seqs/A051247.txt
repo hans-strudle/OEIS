@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051247
+Showing 1-1 of 1
+
+%I A051247
+%S A051247 10,12,18,22,24,28,34,36,39,40,43,46,48,53,54,57,58,60,66,68,71,74,76,
+%T A051247 79,80,83,86,88,91,94,96,101,102,104,109,110,113,114,116,121,122,124,
+%U A051247 130,132,135,136,139,141,144,147,149,154,156
+%N A051247 Binary numbers d(1)...d(j) such that d(i)<>d(j+1-k) for all but 4 i.
+%Y A051247 Each number becomes a palindrome by changing two digits.
+%K A051247 nonn,base
+%O A051247 1,1
+%A A051247 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

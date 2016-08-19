@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032066
+Showing 1-1 of 1
+
+%I A032066
+%S A032066 1,1,1,2,3,6,13,29,65,151,365,887,2185,5426,13636,34529,88017,225621,
+%T A032066 581461,1505490,3913987,10214576,26748565,70263410,185089117,
+%U A032066 488842459,1294194744,3433966729,9130325683,24322504467
+%N A032066 Number of dyslexic rooted planar trees with n nodes where any 2 subtrees extending from the same node are different.
+%H A032066 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032066 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032066 "CGK" (necklace, elements, unlabeled) transform of A032065 (shifted right one place).
+%K A032066 nonn
+%O A032066 1,4
+%A A032066 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

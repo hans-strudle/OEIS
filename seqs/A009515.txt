@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009515
+Showing 1-1 of 1
+
+%I A009515
+%S A009515 0,2,8,24,4544,333920,26272896,2354853760,233143441408,
+%T A009515 22905309777408,1339233237800960,428177363623094272,
+%U A009515 310125853369485017088,153488683972244927062016,72759436391841580585680896
+%V A009515 0,2,8,-24,-4544,-333920,-26272896,-2354853760,-233143441408,
+%W A009515 -22905309777408,-1339233237800960,428177363623094272,
+%X A009515 310125853369485017088,153488683972244927062016,72759436391841580585680896
+%N A009515 E.g.f. sin(x*tan(x)) (even powers only).
+%F A009515 a(n)=(sum(m=0..n-1/2, binomial(2*n,2*m+1)*(sum(j=2*m+1..2*n-2*m-1, binomial(j-1,2*m)*j!*(-1)^(n+m+j)*2^(2*n-2*m-j-1)*stirling2(2*n-2*m-1,j))))). [From Vladimir Kruchinin, Jun 23 2011]
+%o A009515 (Maxima)
+%o A009515 a(n):=(sum(binomial(2*n,2*m+1)*(sum(binomial(j-1,2*m)*j!*(-1)^(n+m+j)*2^(2*n-2*m-j-1)*stirling2(2*n-2*m-1,j),j,2*m+1,2*n-2*m-1)),m,0,n-1/2)); [From Vladimir Kruchinin, Jun 23 2011]
+%K A009515 sign
+%O A009515 0,2
+%A A009515 _R. H. Hardin_
+%E A009515 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

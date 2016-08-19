@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047880
+Showing 1-1 of 1
+
+%I A047880
+%S A047880 0,5,5,9,12,19,25,35,41,54,63,78,88,106,118,139,152,175,191,217,233,
+%T A047880 262,281,312,332,366,388,425,448,487,513,555,581,626,655,702,732,782,
+%U A047880 814,867,900,955,991,1049,1085,1146,1185,1248,1288
+%N A047880 a(n)=(1/2)*b(n), where b=A049690.
+%K A047880 nonn
+%O A047880 0,2
+%A A047880 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

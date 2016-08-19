@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045662
+Showing 1-1 of 1
+
+%I A045662
+%S A045662 1,2,4,6,32,50,204,266,1024,1224,4900,5522,21600,23998,95508,102750,
+%T A045662 409600,437546,1747152,1847522,7380000,7758870,31027876,32449826,
+%U A045662 129752064,135207500,540783100,561628620,2246337184,2326762742
+%N A045662 Number of 2n-bead balanced binary strings of fundamental period 2n, rotationally equivalent to reverse.
+%Y A045662 Equals 2*n*A045680(n).
+%K A045662 nonn
+%O A045662 0,2
+%A A045662 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

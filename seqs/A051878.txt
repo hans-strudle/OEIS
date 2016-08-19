@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051878
+Showing 1-1 of 1
+
+%I A051878
+%S A051878 1,13,63,203,518,1134,2226,4026,6831,11011,17017,25389,36764,51884,
+%T A051878 71604,96900,128877,168777,217987,278047,350658,437690,541190,663390,
+%U A051878 806715,973791,1167453,1390753
+%N A051878 Partial sums of A051797.
+%C A051878 Convolution of triangular numbers (A000217) and decagonal numbers (A001107). [_Bruno Berselli_, Jul 21 2015]
+%D A051878 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%D A051878 Herbert John Ryser, Combinatorial Mathematics, "The Carus Mathematical Monographs", No. 14, John Wiley and Sons, 1963, pp. 1-16.
+%H A051878 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A051878 a(n) = C(n+4, 4)*(8n+5)/5.
+%F A051878 G.f.: (1+7*x)/(1-x)^6.
+%t A051878 s=c=0;Table[c+=s+=n(n+1)(8n-5)/6,{n,80}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 19 2011 *)
+%Y A051878 Cf. A051797; A000217, A001107.
+%Y A051878 Cf. A093565 ((8, 1) Pascal, column m=5).
+%K A051878 nonn,easy
+%O A051878 0,2
+%A A051878 _Barry E. Williams_, Dec 14 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051891
+Showing 1-1 of 1
+
+%I A051891
+%S A051891 2,3,6,10,15,51,175,261,285,286,331,546,745,1135,1171,1275,1330,1365,
+%T A051891 1366,2025,2640,3180,3436,3780,4116,4861,5860,5890,6036,6670,8646,
+%U A051891 8961,8980,9715,9945,10116,10180,15771,16590,16876,19326,20215,20266,21451
+%N A051891 Values of m, the main key or generating number for Pythagorean triangles in which S (the odd short leg) and U (the hypotenuse) are twin primes.
+%H A051891 Roberts, <a href="http://www.math.clemson.edu/~rsimms/neat/math/pyth">Deriving Pythagorean Triples</a>
+%Y A051891 Cf. A051892. See A051642 for the S's, A051859 for the U's and A051858 for the T's (the even long leg).
+%K A051891 nonn
+%O A051891 1,1
+%A A051891 Stuart M. Ellerstein (ellerstein(AT)aol.com), Dec 17 1999
+%E A051891 More terms from _Joshua Zucker_, May 12 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

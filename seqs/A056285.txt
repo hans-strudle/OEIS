@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056285
+Showing 1-1 of 1
+
+%I A056285
+%S A056285 0,0,0,0,24,300,2400,15750,92680,510312,2691600,13794150,69309240,
+%T A056285 343501500,1686135376,8221437000,39901776360,193054016840,
+%U A056285 932142850800,4495236798162,21664357535320,104388120866100,503044634004000,2425003924383900,11696087875731624
+%N A056285 Number of n-bead necklaces with exactly five different colored beads.
+%C A056285 Turning over the necklace is not allowed.
+%D A056285 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056285 Alois P. Heinz, <a href="/A056285/b056285.txt">Table of n, a(n) for n = 1..1000</a>
+%F A056285 A001869(n)-5*A001868(n)+10*A001867(n)-10*A000031(n)+5.
+%Y A056285 Cf. A001869.
+%Y A056285 Column k=5 of A087854.
+%K A056285 nonn
+%O A056285 1,5
+%A A056285 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

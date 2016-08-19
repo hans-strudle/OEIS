@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059958
+Showing 1-1 of 1
+
+%I A059958
+%S A059958 1,2,5,14,65,209,714,7314,38570,254540,728364,11243154,58524465,
+%T A059958 812646120,5163068910,58720148850,555409903685,4339149420605
+%N A059958 Smallest number m such that m*(m+1) has at least n distinct prime factors.
+%C A059958 a(18) <= 5702759516090. - _Donovan Johnson_, Oct 05 2011
+%C A059958 The original definition left unclear whether "at least" or "exactly" n prime factors are required. Now the "at least" variant was chosen, for the other variant ("exactly"), see A069354: At least up to a(18), both criteria yield the same number, and therefore a(n) = A069354(n)+1, since m and m+1 are always coprime. - _M. F. Hasler_, Jan 15 2014
+%F A059958 a(n) = min { m | A001221(m*(m+1)) >= n }.
+%F A059958 a(n) = A069354(n) - 1. - _Robert G. Wilson v_, Feb 18 2014
+%e A059958 For n = 9, a(n) = 38570 since n*(n+1) = (2.5.7.19.29)*(3.13.23.43).
+%e A059958 a(n) <= A002110(n)-1 because A001221[(q-1)q] >= n+1 for q = A002110(n).
+%Y A059958 Cf. A006549, A001221, A002110, A054989, A083002, A232096, A232097.
+%K A059958 nonn
+%O A059958 1,2
+%A A059958 _Labos Elemer_, Mar 02 2001
+%E A059958 More terms from _William Rex Marshall_, Mar 18 2001
+%E A059958 Offset corrected and a(15)-a(16) from _Donovan Johnson_, Jan 31 2009
+%E A059958 a(17) from _Donovan Johnson_, Sep 15 2010
+%E A059958 a(18) from Don Reble (djr(AT)nk.ca), Jan 15 2014
+%E A059958 Edited by _M. F. Hasler_, Jan 15 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

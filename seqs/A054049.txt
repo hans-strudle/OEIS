@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054049
+Showing 1-1 of 1
+
+%I A054049
+%S A054049 1,1,2,3,6,13,5,9,377,21,11,89,14,8,233,16,987,18,2584,20,6765,55,23,
+%T A054049 28657,25,75025,27,196418,29,514229,31,1346269,33,3524578
+%N A054049 Earliest sequence with a(a(n))=Fib(n+1).
+%C A054049 a(34) > 10^69.
+%H A054049 <a href="/index/Aa#aan">Index entries for sequences of the a(a(n)) = 2n family</a>
+%e A054049 a(a(5))=a(13)=8
+%Y A054049 Cf. A000045.
+%K A054049 nice,nonn
+%O A054049 0,3
+%A A054049 _Henry Bottomley_, Apr 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

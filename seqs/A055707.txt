@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055707
+Showing 1-1 of 1
+
+%I A055707
+%S A055707 1,2,12,34,42,90,170,198,402,434,456,482,494,2046,4086,4518,7520,7605,
+%T A055707 8622,9632,10924,28280,51570,51714,74124,77724,100172,139653,143136,
+%U A055707 176760,294588,399980,471826,675356,690534,1358360,1577696,2089074,2121940,2136256
+%N A055707 Numbers n such that n | Sigma_13(n) - Phi(n)^13.
+%C A055707 sigma_13(n) is the sum of the 13th powers of the divisors of n (A013961).
+%t A055707 Do[If[Mod[DivisorSigma[13, n]-EulerPhi[n]^13, n]==0, Print[n]], {n, 1, 10^5}]
+%o A055707 (PARI) isok(n) = !((sigma(n, 13) - eulerphi(n)^13) % n); \\ _Michel Marcus_, Mar 02 2014
+%Y A055707 Cf. A000010.
+%K A055707 nonn
+%O A055707 1,2
+%A A055707 _Robert G. Wilson v_, Jun 09 2000
+%E A055707 Definition corrected and more terms from _Michel Marcus_, Mar 02 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

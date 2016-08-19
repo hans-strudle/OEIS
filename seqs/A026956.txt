@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026956
+Showing 1-1 of 1
+
+%I A026956
+%S A026956 1,2,11,52,200,742,2752,10278,38670,146426,557408,2131318,8179646,
+%T A026956 31491202,121568150,470404274,1823968074,7085220834,27567196704,
+%U A026956 107414120214,419080195374
+%N A026956 a(n) = self-convolution of array T given by A026615.
+%K A026956 nonn
+%O A026956 0,2
+%A A026956 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

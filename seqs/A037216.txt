@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037216
+Showing 1-1 of 1
+
+%I A037216
+%S A037216 0,0,0,0,1,0,0,8,0,0,24,0,12,32,0,72,16,0,144,16,54,96,96,216,0,192,
+%T A037216 216,144,256,0,576,336,0,576,336,432,261,544,864,744,384,0,1440,672,
+%U A037216 540,1440,960,1296,192,1216,1728
+%N A037216 Expansion of (sum(n*q^(n^2), n=0..inf))^4.
+%K A037216 nonn
+%O A037216 0,8
+%A A037216 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

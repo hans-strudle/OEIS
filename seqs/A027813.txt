@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027813
+Showing 1-1 of 1
+
+%I A027813
+%S A027813 56,630,3780,16170,55440,162162,420420,990990,2162160,4424420,8576568,
+%T A027813 15872220,28217280,48430620,80582040,130423524,205931880,317983050,
+%U A027813 481180700,714864150,1044323280,1502250750,2130464700
+%N A027813 a(n) = 14*(n+1)*C(n+5,8).
+%H A027813 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (10,-45,120,-210,252,-210,120,-45,10,-1).
+%F A027813 Number of 14-subsequences of [ 1, n ] with just 5 contiguous pairs; g.f. 14*(4+5x)*x^3/(1-x)^10.
+%F A027813 a(n) = C(n+1, 4)*C(n+5, 5). - _Zerinvary Lajos_, May 26 2005, corrected by _R. J. Mathar_, Feb 10 2016
+%K A027813 nonn,easy
+%O A027813 3,1
+%A A027813 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

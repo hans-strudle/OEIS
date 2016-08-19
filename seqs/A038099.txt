@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038099
+Showing 1-1 of 1
+
+%I A038099
+%S A038099 4,5,9,14,15,23,26,32,33,35,38,41,43,46,50,51,53,58,59,62,64,65,69,71,
+%T A038099 74,75,78,79,81,82,83,84,86,88,89,92,93,94,95,97,98,99,105,117,132,
+%U A038099 141,148,159,164,169,170,172,174,193,197,208,209,211,214,223,229,230,231
+%N A038099 a(n) > first location of string of a(n) in decimal expansion of Pi.
+%C A038099 'location' starts from the first digit after the decimal point and refers to the first digit of a(n).
+%H A038099 Dave Andersen, <a href="http://www.angio.net/pi/piquery">Pi-Search Page</a>
+%Y A038099 Cf. A038100.
+%K A038099 nonn,base
+%O A038099 0,1
+%A A038099 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

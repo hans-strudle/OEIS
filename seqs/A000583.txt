@@ -1,0 +1,58 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000583
+Showing 1-1 of 1
+
+%I A000583 M5004 N2154
+%S A000583 0,1,16,81,256,625,1296,2401,4096,6561,10000,14641,20736,28561,38416,
+%T A000583 50625,65536,83521,104976,130321,160000,194481,234256,279841,331776,
+%U A000583 390625,456976,531441,614656,707281,810000,923521,1048576,1185921
+%N A000583 Fourth powers: a(n) = n^4.
+%C A000583 Figurate numbers based on 4-dimensional regular convex polytope called the 4-measure polytope, 4-hypercube or tessaract with Schlaefli symbol {4,3,3}. - Michael J. Welch (mjw1(AT)ntlworld.com), Apr 01 2004
+%C A000583 Sum(k>0, 1/a(k)) = Pi^4/90 = A013662. - _Jaume Oliver Lafont_, Sep 20 2009
+%C A000583 Totally multiplicative sequence with a(p) = p^4 for prime p. - _Jaroslav Krizek_, Nov 01 2009
+%C A000583 The binomial transform yields A058649. The inverse binomial transforms yields the (finite) 0, 1, 14, 36, 24, the 4th row in A019538 and A131689. - _R. J. Mathar_, Jan 16 2013
+%C A000583 Generate Pythagorean triangles with parameters a and b to get sides of lengths x=b^2-a^2, y=2*a*b, and z=a^2 + b^2. In particular use a=n-1 and b=n for a triangle with sides (x1,y1,z1) and a=n and b=n+1 for another triangle with sides (x2,y2,z2). Then x1*x2 +y1*y2 +z1*z2 = 8*a(n). - _J. M. Bergot_, Jul 22 2013
+%C A000583 For n > 0, a(n) is the largest integer k such that k^4 + n is a multiple of k + n. Also, for n > 0, a(n) is the largest integer k such that k^2 + n^2 is a multiple of k + n^2. - _Derek Orr_, Sep 04 2014
+%D A000583 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000583 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000583 T. D. Noe, <a href="/A000583/b000583.txt">Table of n, a(n) for n = 0..1000</a>
+%H A000583 H. Bottomley, <a href="/A000583/a000583.gif">Illustration of initial terms</a>
+%H A000583 H. Bottomley, <a href="http://fs.gallup.unm.edu/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative sequences</a>
+%H A000583 Ralph Greenberg, <a href="http://www.math.washington.edu/~greenber/MathPoet.html">Math for Poets</a>
+%H A000583 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+%H A000583 Hyun Kwang Kim, <a href="http://dx.doi.org/10.1090/S0002-9939-02-06710-2">On Regular Polytope Numbers</a>, Proc. Amer. Math. Soc., 131 (2002), 65-75.
+%H A000583 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A000583 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A000583 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number</a>
+%H A000583 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%H A000583 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%F A000583 a(n) = A123865(n)+1 = A002523(n)-1.
+%F A000583 Multiplicative with a(p^e) = p^(4e). - _David W. Wilson_, Aug 01 2001
+%F A000583 G.f.: x*(1+11*x+11*x^2+x^3)/(1-x)^5. More generally, g.f. for n^m is Euler(m, x)/(1-x)^(m+1), where Euler(m, x) is Eulerian polynomial of degree m (cf. A008292).
+%F A000583 Dirichlet generating function: zeta(s-4). - _Franklin T. Adams-Watters_, Sep 11 2005
+%F A000583 E.g.f.: (x+7x^2+6x^3+x^4)*e^x. More generally, the general form for the e.g.f. for n^m is phi_m(x)*e^x, where phi_m is the exponential polynomial of order n. - _Franklin T. Adams-Watters_, Sep 11 2005
+%F A000583 a(n) = C(n+3,4) + 11*C(n+2,4) + 11*C(n+1,4) + C(n,4).
+%F A000583 a(n) = n*A177342(n) - sum(i=1..n-1, A177342(i)) - (n-1), with n>1. - _Bruno Berselli_, May 07 2010
+%F A000583 a(n) + a(n+1) + 1 = 2*A002061(n+1)^2. - _Charlie Marion_, Jun 13 2013
+%F A000583 a(n) = 4*a(n-1) - 6*a(n-2) + 4*a(n-3) - a(n-4) + 24. - _Ant King_, Sep 23 2013
+%p A000583 A000583 := n->n^4: seq(A000583(n), n=0..50);
+%p A000583 A000583:=-(z+1)*(z**2+10*z+1)/(z-1)**5; # _Simon Plouffe_ in his 1992 dissertation; gives sequence without initial zero
+%p A000583 with (combinat):seq(fibonacci(3, n^2)-1, n=0..33); # _Zerinvary Lajos_, May 25 2008
+%t A000583 Range[0,100]^4 (* _Vladimir Joseph Stephan Orlovsky_, Mar 14 2011 *)
+%o A000583 (PARI) A000583(n) = n^4 \\ _Michael B. Porter_, Nov 09 2009
+%o A000583 (Haskell)
+%o A000583 a000583 = (^ 4)
+%o A000583 a000583_list = scanl (+) 0 a005917_list
+%o A000583 -- _Reinhard Zumkeller_, Nov 13 2014, Nov 11 2012
+%o A000583 (Maxima) makelist(n^4,n,0,30); /* _Martin Ettl_, Nov 12 2012 */
+%o A000583 (MAGMA) [n^4 : n in [0..50]]; // _Wesley Ivan Hurt_, Sep 05 2014
+%Y A000583 Cf. A000538, A005917 (first differences), A000332, A014820, A092181, A092182, A092183.
+%Y A000583 Cf. A004831, A002646.
+%Y A000583 Cf. A002593, A260810. [_Bruno Berselli_, Jul 31 2015]
+%K A000583 nonn,core,easy,nice,mult
+%O A000583 0,3
+%A A000583 _N. J. A. Sloane_
+%E A000583 Broken link to Hyun Kwang Kim's paper fixed by _Felix Fröhlich_, Jun 16 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023012
+Showing 1-1 of 1
+
+%I A023012
+%S A023012 1,14,119,770,4165,19754,84602,333608,1228080,4263770,14071827,
+%T A023012 44420796,134793918,394805110,1119974875,3086034350,8280022023,
+%U A023012 21678277754,55486209625,139065013640,341779759755,824753397814,1956347387428
+%N A023012 Number of partitions of n into parts of 14 kinds.
+%C A023012 a(n) is Euler transform of A010853. - _Alois P. Heinz_, Oct 17 2008
+%H A023012 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%H A023012 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%p A023012 with(numtheory): a:= proc(n) option remember; `if`(n=0, 1, add(add(d*14, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq(a(n), n=0..40); # _Alois P. Heinz_, Oct 17 2008
+%Y A023012 14th column of A144064. - _Alois P. Heinz_, Oct 17 2008
+%K A023012 nonn
+%O A023012 0,2
+%A A023012 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

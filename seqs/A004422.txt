@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004422
+Showing 1-1 of 1
+
+%I A004422
+%S A004422 1,42,924,14168,169974,1698312,14692216,112987776,787175004,
+%T A004422 5039316786,29971442424,167060546184,878920016296,4390113366408,
+%U A004422 20920981191792,95515527307648,419275600889334,1775001330567696
+%V A004422 1,-42,924,-14168,169974,-1698312,14692216,-112987776,787175004,
+%W A004422 -5039316786,29971442424,-167060546184,878920016296,-4390113366408,
+%X A004422 20920981191792,-95515527307648,419275600889334,-1775001330567696
+%N A004422 Expansion of (Sum x^(n^2), n = -inf .. inf )^(-21).
+%F A004422 a(n) ~ (-1)^n * exp(Pi*sqrt(m*n)) * m^((m+1)/4) / (2^(3*(m+1)/2) * n^((m+3)/4)), set m = 21 for this sequence. - _Vaclav Kotesovec_, Aug 18 2015
+%t A004422 nmax = 30; CoefficientList[Series[Product[((1 + (-x)^k)/(1 - (-x)^k))^21, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 18 2015 *)
+%K A004422 sign
+%O A004422 0,2
+%A A004422 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

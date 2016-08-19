@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016022
+Showing 1-1 of 1
+
+%I A016022
+%S A016022 1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+%T A016022 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,
+%U A016022 1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1
+%V A016022 1,-1,0,1,-1,0,1,-1,0,1,-1,1,0,-1,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,
+%W A016022 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,
+%X A016022 -1,0,1,-1,0,1,-1,1,0,-1,1,0,-1,1,0,-1
+%N A016022 Inverse of 2013th cyclotomic polynomial.
+%p A016022 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A016022 CoefficientList[Series[1/Cyclotomic[2013,x],{x,0,120}],x] (* _Harvey P. Dale_, May 23 2015 *)
+%K A016022 sign
+%O A016022 0,1
+%A A016022 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

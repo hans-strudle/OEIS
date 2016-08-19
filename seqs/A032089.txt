@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032089
+Showing 1-1 of 1
+
+%I A032089
+%S A032089 1,0,1,1,2,3,5,9,14,25,39,68,107,182,289,483,772,1275,2047,3355,5402,
+%T A032089 8811,14213,23112,37325,60580,97905,158717,256622,415715,672337,
+%U A032089 1088661,1760998,2850645,4611643,7463884,12075527,19541994
+%N A032089 "BHK" (reversible, identity, unlabeled) transform of 1,0,1,0...(odds).
+%H A032089 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032089 G.f.: x[1-x-2x^2+2x^3+x^6]/[(1-x)(1+x)(1-x-x^2)(1-x^2-x^4)].
+%K A032089 nonn
+%O A032089 1,5
+%A A032089 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

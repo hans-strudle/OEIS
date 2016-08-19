@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027774
+Showing 1-1 of 1
+
+%I A027774
+%S A027774 14,225,1920,11560,55080,220932,775200,2441880,7034940,18795370,
+%T A027774 47070144,111435000,251100200,541574100,1123264800,2249204040,
+%U A027774 4362680250,8220658275,15085939200,27020703600,47327171760,81198579000,136666699200,225962211600,367443055800
+%N A027774 (n+1)*C(n+1,14).
+%C A027774 Number of 16-subsequences of [ 1, n ] with just 1 contiguous pair.
+%H A027774 T. D. Noe, <a href="/A027774/b027774.txt">Table of n, a(n) for n = 13..1000</a>
+%H A027774 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081, 2014
+%F A027774 G.f.: (14+x)*x^13/(1-x)^16.
+%K A027774 nonn,easy
+%O A027774 13,1
+%A A027774 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

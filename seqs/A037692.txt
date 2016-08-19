@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037692
+Showing 1-1 of 1
+
+%I A037692
+%S A037692 1,10,80,643,5145,41162,329296,2634371,21074969,168599754,1348798032,
+%T A037692 10790384259,86323074073,690584592586,5524676740688,44197413925507,
+%U A037692 353579311404057,2828634491232458
+%N A037692 Base 8 digits are, in order, the first n terms of the periodic sequence with initial period 1,2,0,3.
+%H A037692 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (8,0,0,1,-8).
+%F A037692 G.f.: ( x*(1+2*x+3*x^3) ) / ( (x-1)*(8*x-1)*(1+x)*(x^2+1) ). - _R. J. Mathar_, Oct 11 2015
+%K A037692 nonn,base,easy
+%O A037692 1,2
+%A A037692 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

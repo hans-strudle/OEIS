@@ -1,0 +1,63 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005439
+Showing 1-1 of 1
+
+%I A005439 M1888
+%S A005439 1,2,8,56,608,9440,198272,5410688,186043904,7867739648,401293838336,
+%T A005439 24290513745920,1721379917619200,141174819474169856,
+%U A005439 13266093250285568000,1415974941618255921152,170361620874699124637696
+%N A005439 Genocchi medians (or Genocchi numbers of second kind).
+%C A005439 a(n) is the number of Boolean functions of n variables whose ROBDD (reduced ordered binary decision diagram) contains exactly n branch nodes, one for each variable. - _Don Knuth_, Jul 11 2007
+%C A005439 The earliest known reference for these numbers is Seidel (1877). - _Don Knuth_, Jul 13 2007
+%C A005439 Hankel transform of 1,1,2,8,... is A168488. - _Paul Barry_, Nov 27 2009
+%D A005439 R. Ehrenborg and E. Steingrimsson, Yet another triangle for the Genocchi numbers, Europ. J. Combin., 21 (2000), 593-600.
+%D A005439 G. Han and J. Zeng, "On a q-sequence that generalizes the median Genocchi numbers", Annal Sci. Math. Quebec, 23(1999), no. 1, 63-72
+%D A005439 G. Kreweras, Sur les permutations compte'es par les nombres de Genocchi..., Europ. J. Comb., vol. 18, pp. 49-58, 1997. (See also page 76.)
+%D A005439 L. Seidel, Über eine einfache Entstehungsweise der Bernoulli'schen Zahlen und einiger verwandten Reihen, Sitzungsberichte der mathematisch-physikalischen Classe der königlich bayerischen Akademie der Wissenschaften zu München, volume 7 (1877), 157-187.
+%D A005439 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005439 G. Viennot, Interpretations combinatoires des nombres d'Euler et de Genocchi. Seminar on Number Theory, 1981/1982, Exp. No. 11, 94 pp., Univ. Bordeaux I, Talence, 1982.
+%H A005439 T. D. Noe, <a href="/A005439/b005439.txt">Table of n, a(n) for n = 1..100</a>
+%H A005439 Alexander Burstein, Sergi Elizalde and Toufik Mansour, <a href="http://arXiv.org/abs/math.CO/0610234">Restricted Dumont permutations, Dyck paths and noncrossing partitions</a>, arXiv math.CO/0610234. [Theorem 3.5]
+%H A005439 Kwang-Wu Chen, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL6/Chen/chen50.html">An Interesting Lemma for Regular C-fractions</a>, J. Integer Seqs., Vol. 6, 2003.
+%H A005439 D. Dumont and J. Zeng, <a href="http://igd.univ-lyon1.fr/home/zeng/public_html/paper/publication.html">Polynomes d'Euler et les fractions continues de Stieltjes-Rogers</a>, Ramanujan J. 2 (1998) 3, 387-410.
+%H A005439 I. M. Gessel, <a href="http://www.arXiv.org/abs/math.CO/0108121">Applications of the classical umbral calculus</a>.
+%H A005439 A. Randrianarivony and J. Zeng, <a href="http://dx.doi.org/10.1006/aama.1996.0001">Une famille de polynomes qui interpole plusieurs suites...</a>, Adv. Appl. Math. 17 (1996), 1-26.
+%F A005439 a(n) = T(n, 1) where T(1, x) = 1; T(n, x) = (x+1)*((x+1)T(n-1, x+1)-xT(n-1, x)); see A058942.
+%F A005439 2 * (-1)^n * sum{k=0..n, C(n, k)*(1-2^(n+k+1))*B(n+k+1)}, with B(n) the Bernoulli numbers. - _Ralf Stephan_, Apr 17 2004
+%F A005439 O.g.f.: 1 + x*A(x) = 1/(1-x/(1-x/(1-4*x/(1-4*x/(1-9*x/(1-9*x/(... -[(n+1)/2]^2*x/(1- ...)))))))) (continued fraction). - _Paul D. Hanna_, Oct 07 2005
+%F A005439 G.f.: (of 1,1,2,8,...) 1/(1-x-x^2/(1-5x-16x^2/(1-13x-81x^2/(1-25x-256x^2/(1-41x-625x^2/(1-... (continued fraction). - _Paul Barry_, Nov 27 2009
+%F A005439 G.f.: A(x) = 1/S(0), S(k) = 1 - x*(k+1)*(k+2)/(1 - x*(k+1)*(k+2)/S(k+1)) (continued fraction). - _Sergei N. Gladkovskii_, Dec 14 2011
+%F A005439 G.f.: A(x) = -1/S(0), S(k) = 2*x*(k+1)^2 - 1 - x^2*(k+1)^2*(k+2)^2/S(k+1) (continued fraction). - _Sergei N. Gladkovskii_, Dec 14 2011
+%F A005439 O.g.f.: Sum_{n>=0} n!*(n+1)! * x^(n+1) / Product_{k=1..n} (1 + k*(k+1)*x). - _Paul D. Hanna_, May 10 2012
+%F A005439 G.f.: A(x) = (1/(G(0)-1)/x where G(k) =  1 - x*(k+1)^2/(1 - x*(k+1)^2/G(k+1) ); (recursively defined continued fraction). - _Sergei N. Gladkovskii_, Dec 27 2012
+%F A005439 G.f.: 2/G(0), where G(k)= 1 + 1/(1 - 1/(1 - 1/(4*x*(k+1)) + 1/G(k+1))); (continued fraction). - _Sergei N. Gladkovskii_, May 29 2013
+%F A005439 G.f.: Q(0)/x - 1/x, where Q(k) = 1 - x*(k+1)^2/( x*(k+1)^2 - 1/(1 - x*(k+1)^2/( x*(k+1)^2 - 1/Q(k+1) ))); (continued fraction). - _Sergei N. Gladkovskii_, Oct 09 2013
+%F A005439 G.f.: T(0)/(1-2*x), where T(k) = 1 - x^2*((k + 2)*(k+1))^2/(x^2*((k + 2)*(k+1))^2 - (1 - 2*x*k^2 - 4*x*k - 2*x)*(1 - 2*x*k^2 - 8*x*k - 8*x)/T(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Oct 24 2013
+%F A005439 G.f.: R(0), where R(k) = 1 - x*(k+1)*(k+2)/( x*(k+1)*(k+2) - 1/(1 - x*(k+1)*(k+2)/( x*(k+1)*(k+2) - 1/R(k+1) ))); (continued fraction). - _Sergei N. Gladkovskii_, Oct 27 2013
+%F A005439 a(n) ~ 2^(2*n+4) * n^(2*n+3/2) / (exp(2*n) * Pi^(2*n+1/2)). - _Vaclav Kotesovec_, Oct 28 2014
+%t A005439 a[n_] = 2*(-1)^(n-2)* Sum[Binomial[n, k]*(1 - 2^(n+k+1))*BernoulliB[n+k+1], {k, 0, n}]; Table[a[n], {n,16}] (* _Jean-François Alcover_, Jul 18 2011, after PARI prog. *)
+%o A005439 (PARI) a(n)=2*(-1)^n*sum(k=0,n,binomial(n,k)*(1-2^(n+k+1))*bernfrac(n+k+1))
+%o A005439 (PARI) a(n)=local(CF=1+x*O(x^(n+2)));if(n<0,return(0), for(k=1,n+1,CF=1/(1-((n-k+1)\2+1)^2*x*CF));return(Vec(CF)[n+2])) \\ _Paul D. Hanna_
+%o A005439 (Sage) # Algorithm of L. Seidel (1877)
+%o A005439 # n -> [a(1), ..., a(n)] for n >= 1.
+%o A005439 def A005439_list(n) :
+%o A005439     D = []; [D.append(0) for i in (0..n+2)]; D[1] = 1
+%o A005439     R = [] ; b = True
+%o A005439     for i in(0..2*n-1) :
+%o A005439         h = i//2 + 1
+%o A005439         if b :
+%o A005439             for k in range(h-1,0,-1) : D[k] += D[k+1]
+%o A005439         else :
+%o A005439             for k in range(1,h+1,1) :  D[k] += D[k-1]
+%o A005439         if b : R.append(D[1])
+%o A005439         b = not b
+%o A005439     return R
+%o A005439 A005439_list(18) # _Peter Luschny_, Apr 01 2012
+%Y A005439 a(n) = A000366(n)*2^(n-1). See A000366 for further information.
+%K A005439 nonn,nice,easy
+%O A005439 1,2
+%A A005439 _Simon Plouffe_
+%E A005439 More terms and additional comments from _David W. Wilson_, Jan 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

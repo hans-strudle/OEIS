@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049791
+Showing 1-1 of 1
+
+%I A049791
+%S A049791 1,5,14,30,54,91,137,202,280,380,492,644,799,994,1212,1471,1735,2071,
+%T A049791 2400,2811,3232,3709,4190,4804,5380,6046,6739,7535,8297,9246,10115,
+%U A049791 11153,12184,13320,14458,15839,17074,18493,19931
+%N A049791 a(n)=Sum{T(n,k): k=1,2,...,n}, array T as in A049790.
+%K A049791 nonn
+%O A049791 1,2
+%A A049791 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

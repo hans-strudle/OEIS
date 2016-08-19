@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016752
+Showing 1-1 of 1
+
+%I A016752
+%S A016752 0,4096,16777216,2176782336,68719476736,1000000000000,8916100448256,
+%T A016752 56693912375296,281474976710656,1156831381426176,4096000000000000,
+%U A016752 12855002631049216,36520347436056576,95428956661682176
+%N A016752 a(n) = (2*n)^12.
+%H A016752 Vincenzo Librandi, <a href="/A016752/b016752.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016752 (MAGMA)[(2*n)^12: n in [0..20]]; // Vincenzo Librandi, Sep 05 2011
+%Y A016752 Cf. A016764.
+%K A016752 nonn,easy
+%O A016752 0,2
+%A A016752 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

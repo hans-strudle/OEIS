@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029471
+Showing 1-1 of 1
+
+%I A029471
+%S A029471 1,85,145,245,1189,356717,19590671,35741759
+%N A029471 Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 2 (most significant digit on left).
+%C A029471 No other terms below 10^8.
+%H A029471 <a href="/index/N#concat">Index entries for related sequences</a>
+%o A029471 (Python)
+%o A029471 from itertools import count
+%o A029471 .
+%o A029471 def a029471():
+%o A029471 ...total = 0
+%o A029471 ...power_of_two = 1
+%o A029471 ...index_of_two = 0
+%o A029471 ...length_of_string = 0
+%o A029471 .
+%o A029471 ...for n in count(1):
+%o A029471 ......total += (n<<length_of_string)
+%o A029471 ......if n==power_of_two:
+%o A029471 .........power_of_two*=2
+%o A029471 .........index_of_two += 1
+%o A029471 .
+%o A029471 ......length_of_string += index_of_two
+%o A029471 .
+%o A029471 ......if total % n == 0:
+%o A029471 .........yield n
+%o A029471 # _Christian Perfect_, Feb 07 2014
+%Y A029471 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978
+%K A029471 nonn,base,hard,more
+%O A029471 1,2
+%A A029471 _Olivier Gérard_
+%E A029471 One more term from Larry Reeves (larryr(AT)acm.org), Dec 03 2001
+%E A029471 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A029471 a(7)-a(8) from _Max Alekseyev_, May 12 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

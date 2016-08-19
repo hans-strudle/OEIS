@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027920
+Showing 1-1 of 1
+
+%I A027920
+%S A027920 3,6,10,15,20,26,33,40,49,58,68,78,90,102,115,129,143,158,174,191,208,
+%T A027920 227,246,265,286,307,329,352,376,400,425,451,477,505,533,562,591
+%N A027920 Least k such that 2nd elementary symmetric function of {1,2,...,k} >= 4th elementary symmetric function of {1,2,...,n}.
+%K A027920 nonn
+%O A027920 4,1
+%A A027920 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

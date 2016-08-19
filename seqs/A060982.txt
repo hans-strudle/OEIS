@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060982
+Showing 1-1 of 1
+
+%I A060982
+%S A060982 11,10,13,14,15,16,17,18,19,90,109,209,309,409,509,609,709,809,909,
+%T A060982 10909,20909,30909,40909,50909,60909,70909,80909,90909,1090909,
+%U A060982 2090909,3090909,4090909,5090909,6090909,7090909,8090909,9090909,109090909
+%N A060982 Smallest nontrivial number m such that |first digit - second digit + third digit - fourth digit ...| = n.
+%t A060982 m = 2; Do[ While[ a = IntegerDigits[ m ]; l = Length[ a ]; e = o = {}; Do[ o = Append[ o, a[ [ 2k - 1 ] ] ], {k, 1, l/2 + .5} ]; Do[ e = Append[ e, a[ [ 2k ] ] ], {k, 1, l/2} ]; Abs[ Apply[ Plus, o ] - Apply[ Plus, e ] ] != n, m++ ]; Print[ m ], {n, 1, 50} ]
+%Y A060982 Cf. A008593, A060978-A060980, A060982, A061470-A061479, A061870-A061882.
+%K A060982 base,nonn,easy
+%O A060982 0,1
+%A A060982 _Robert G. Wilson v_, May 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

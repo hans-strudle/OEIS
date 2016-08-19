@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040841
+Showing 1-1 of 1
+
+%I A040841
+%S A040841 29,1,1,19,5,1,5,1,2,1,1,1,1,1,1,1,2,1,5,1,5,19,1,1,58,1,1,19,5,1,5,1,
+%T A040841 2,1,1,1,1,1,1,1,2,1,5,1,5,19,1,1,58,1,1,19,5,1,5,1,2,1,1,1,1,1,1,1,2,
+%U A040841 1,5,1,5,19,1,1,58,1,1,19,5,1,5,1,2,1,1,1,1,1,1,1,2
+%N A040841 Continued fraction for sqrt(871).
+%H A040841 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040841 with(numtheory): Digits := 300: convert(evalf(sqrt(871)),confrac);
+%K A040841 nonn,cofr,easy
+%O A040841 0,1
+%A A040841 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

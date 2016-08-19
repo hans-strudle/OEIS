@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016762
+Showing 1-1 of 1
+
+%I A016762
+%S A016762 1,59049,9765625,282475249,3486784401,25937424601,137858491849,
+%T A016762 576650390625,2015993900449,6131066257801,16679880978201,
+%U A016762 41426511213649,95367431640625,205891132094649,420707233300201
+%N A016762 a(n) = (2*n+1)^10.
+%H A016762 Vincenzo Librandi, <a href="/A016762/b016762.txt">Table of n, a(n) for n = 0..10000</a>
+%t A016762 (2Range[0,20]+1)^10 (* _Harvey P. Dale_, Nov 06 2011 *)
+%o A016762 (MAGMA) [(2*n+1)^10: n in [0..20]]; // _Vincenzo Librandi_, Sep 07 2011
+%K A016762 nonn,easy
+%O A016762 0,2
+%A A016762 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

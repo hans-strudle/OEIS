@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018782
+Showing 1-1 of 1
+
+%I A018782
+%S A018782 1,5,25,65,625,325,15625,1105,4225,8125,9765625,5525,244140625,203125,
+%T A018782 105625,27625,152587890625,71825,3814697265625,138125,2640625,
+%U A018782 126953125,2384185791015625,160225,17850625,3173828125,1221025,3453125
+%N A018782 Smallest k such that circle x^2 + y^2 = k passes through exactly 4n integer points.
+%H A018782 Ray Chandler, <a href="/A018782/b018782.txt">Table of n, a(n) for n = 1..1432</a>  (a(1433) exceeds 1000 digits).
+%F A018782 A000446(n) = min(a(2n-1), a(2n)) for n > 1.
+%F A018782 A124980(n) = min(a(2n-1), a(2n)).
+%F A018782 A016032(n) = min(2*a(2n-1), a(2n), a(2n+1)).
+%F A018782 A093195(n) = min(a(2n), a(2n+1)).
+%F A018782 a(n) is least term of A054994 with exactly n divisors. - Ray Chandler, Jan 05 2012.
+%t A018782 (* This program is not convenient to compute huge terms - A054994 is assumed to be computed with maxTerm = 10^16 *) a[n_] := Catch[ For[k = 1, k <= Length[A054994], k++, If[DivisorSigma[0, A054994[[k]]] == n, Throw[A054994[[k]]]]]]; Table[a[n], {n, 1, 28}] (* _Jean-François Alcover_, Jan 21 2013, after _Ray Chandler_ *)
+%Y A018782 Cf. A002144, A054994, A000446, A124980, A016032, A093195.
+%K A018782 nonn
+%O A018782 1,2
+%A A018782 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

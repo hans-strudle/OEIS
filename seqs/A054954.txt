@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054954
+Showing 1-1 of 1
+
+%I A054954
+%S A054954 0,0,1,5,88,5141,1052471,706498013,1581059448184,12140608800384871,
+%T A054954 328173098339746387013
+%N A054954 Number of labeled semi-strong digraphs on n nodes with an even number of pairwise different components.
+%H A054954 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%K A054954 nonn,easy
+%O A054954 1,4
+%A A054954 _N. J. A. Sloane_, May 24 2000
+%E A054954 More terms from _Vladeta Jovovic_, Mar 11 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

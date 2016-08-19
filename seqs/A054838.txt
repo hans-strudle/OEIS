@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054838
+Showing 1-1 of 1
+
+%I A054838
+%S A054838 15401,64951,68227,68917
+%N A054838 Fifth term of weak prime septet: p(m-3)-p(m-4) < p(m-2)-p(m-3) < p(m-1)-p(m-2) < p(m)-p(m-1) < p(m+1)-p(m) < p(m+2)-p(m+1).
+%Y A054838 Cf. A051635, A054800-A054840.
+%K A054838 nonn
+%O A054838 1,1
+%A A054838 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011642
+Showing 1-1 of 1
+
+%I A011642
+%S A011642 1,1,0,0,0,0,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,1,0,1,0,1,1,0,1,0,
+%T A011642 1,0,1,0,1,1,0,1,0,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,0,1,1
+%V A011642 1,-1,0,0,0,0,0,1,-1,0,0,1,-1,0,1,-1,0,0,1,-1,0,1,0,-1,0,1,-1,0,1,0,
+%W A011642 -1,0,1,0,-1,1,0,-1,0,1,0,-1,1,0,0,-1,1,0,-1,1,0,0,-1,1,0,0,0,0,0,-1,1
+%N A011642 77th cyclotomic polynomial.
+%K A011642 sign,fini,full
+%O A011642 0,1
+%A A011642 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

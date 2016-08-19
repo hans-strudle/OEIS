@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017471
+Showing 1-1 of 1
+
+%I A017471
+%S A017471 362797056,34271896307633,8293509467471872,317475837322472439,
+%T A017471 4882812500000000000,43513917611435838661,269561249468963094528,
+%U A017471 1287831418538085836267,5062982072492057196544,17103393581163134765625
+%N A017471 (11*n+6)^11.
+%H A017471 Vincenzo Librandi, <a href="/A017471/b017471.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017471 (MAGMA) [(11*n+6)^11: n in [0..10]]; // Vincenzo Librandi, Sep 04 2011
+%K A017471 nonn,easy
+%O A017471 0,1
+%A A017471 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

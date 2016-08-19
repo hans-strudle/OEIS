@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028504
+Showing 1-1 of 1
+
+%I A028504
+%S A028504 0,3,8,99,323,575,4224,5775,9999,36863,42024,999999,3055503,3640463,
+%T A028504 5597955,8803088,32855823,99999999,360696063,422919224,9999999999,
+%U A028504 30485858403,30536863503,32154945123,59080108095,86310801368
+%N A028504 Palindromes of form n(n+2); or palindromes 1 less than a square.
+%H A028504 P. De Geest, <a href="http://www.worldofnumbers.com/quapron.htm">Palindromic quasipronic numbers of the form n(n+2)</a>
+%e A028504 4224 belongs to this sequence as 4225 = 65^2.
+%o A028504 (ARIBAS): stop := 400000; m := 1; while m < stop do s := m*m - 1; if s = int_reverse(s) then write(s," "); end; inc(m); end;
+%Y A028504 Cf. A005563, A028503.
+%K A028504 nonn,base
+%O A028504 1,2
+%A A028504 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

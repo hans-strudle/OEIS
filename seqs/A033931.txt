@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033931
+Showing 1-1 of 1
+
+%I A033931
+%S A033931 6,12,60,60,210,168,504,360,990,660,1716,1092,2730,1680,4080,2448,
+%T A033931 5814,3420,7980,4620,10626,6072,13800,7800,17550,9828,21924,12180,
+%U A033931 26970,14880,32736,17952,39270,21420,46620,25308,54834,29640,63960,34440
+%N A033931 LCM(n,n+1,n+2).
+%C A033931 a(n) = 6 * A067046(n); A007947(a(n)) = A078637(n); also denominator of h(n+2) - h(n-1), where h(n) is the n-th harmonic number sum(1/k, k=1..n), the numerator is A188386. - _Reinhard Zumkeller_, Jul 04 2012
+%H A033931 Reinhard Zumkeller, <a href="/A033931/b033931.txt">Table of n, a(n) for n = 1..10000</a>
+%H A033931 <a href="/index/Lc#lcm">Index entries for sequences related to lcm's</a>
+%F A033931 a(n) = n*(n+1)*(n+2)*[3-(-1)^n]/4.
+%o A033931 (Haskell)
+%o A033931 a033931 n = lcm n (lcm (n + 1) (n + 2))  -- _Reinhard Zumkeller_, Jul 04 2012
+%o A033931 (MAGMA) [Numerator((n^3-n)/(n^2+1)): n in [2..50]]; // _Vincenzo Librandi_, Aug 19 2014
+%K A033931 nonn
+%O A033931 1,1
+%A A033931 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

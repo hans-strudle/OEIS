@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013527
+Showing 1-1 of 1
+
+%I A013527
+%S A013527 1,1,13,397,4453,24649,12478897,47378857957,11289999097969,
+%T A013527 1143069714638779,1293273763150662781,15203530875840895739,
+%U A013527 46398798213229213203983,209490216975221386279672393,157153880464155360205476452597
+%N A013527 Numerator of [x^(2n)] of the Taylor expansion sec(cosec(x)-cot(x))= 1+ x^2/8 +13*x^4/384 +397*x^6/46080 +4453*x^8/2064384 + ...
+%C A013527 The e.g.f. related to x/2, sec(cosec(x)-cot(x)) = 1 +1*x^2/(2^2*2!) + 13*x^4/(2^4*4!) +397*x^6/(2^6*6!) + 22265*x^8/(2^8*8!) + .. is apparently provided by A009010.
+%K A013527 nonn,frac
+%O A013527 0,3
+%A A013527 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013527 Values replaced by numerators. - R. J. Mathar, Dec 20 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

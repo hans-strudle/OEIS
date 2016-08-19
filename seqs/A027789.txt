@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027789
+Showing 1-1 of 1
+
+%I A027789
+%S A027789 4,30,120,350,840,1764,3360,5940,9900,15730,24024,35490,50960,71400,
+%T A027789 97920,131784,174420,227430,292600,371910,467544,581900,717600,877500,
+%U A027789 1064700,1282554,1534680,1824970,2157600,2537040,2968064
+%N A027789 2*(n+1)*binomial(n+3,4).
+%H A027789 Harvey P. Dale, <a href="/A027789/b027789.txt">Table of n, a(n) for n = 1..1000</a>
+%H A027789 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A027789 Number of 8-subsequences of [ 1, n ] with just 3 contiguous pairs; g.f. 2*(2+3x)*x/(1-x)^6; 2*A006470.
+%F A027789 a(n) = C(n+1, 2)*C(n+3, 3) - _Zerinvary Lajos_, May 10 2005, corrected by _R. J. Mathar_, Feb 13 2016
+%F A027789 a(1)=4, a(2)=30, a(3)=120, a(4)=350, a(5)=840, a(6)=1764, a(n)= 6*a(n-1)- 15*a(n-2)+20*a(n-3)-15*a(n-4)+6*a(n-5)-a (n-6). - _Harvey P. Dale_, Jan 20 2015
+%p A027789 a:=n->(sum((numbperm(n,4)), j=3..n)):seq(a(n)/12, n=4..34); [From _Zerinvary Lajos_, Aug 26 2008]
+%t A027789 Table[2(n+1)Binomial[n+3,4],{n,40}] (* or *) LinearRecurrence[{6,-15,20,-15,6,-1},{4,30,120,350,840,1764},40] (* _Harvey P. Dale_, Jan 20 2015 *)
+%K A027789 nonn,easy
+%O A027789 1,1
+%A A027789 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

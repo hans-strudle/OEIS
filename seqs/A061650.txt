@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061650
+Showing 1-1 of 1
+
+%I A061650
+%S A061650 1,40,1200,32000,800000,19200000,448000000,10240000000,230400000000,
+%T A061650 5120000000000,112640000000000,2457600000000000,53248000000000000,
+%U A061650 1146880000000000000,24576000000000000000,524288000000000000000
+%N A061650 n*20^(n-1).
+%H A061650 Harry J. Smith, <a href="/A061650/b061650.txt">Table of n, a(n) for n=1,...,100</a>
+%F A061650 a(n)=n*20^(n-1).
+%o A061650 (PARI) { for (n=1, 100, write("b061650.txt", n, " ", n*20^(n - 1)) ) } [From _Harry J. Smith_, Jul 25 2009]
+%K A061650 easy,nonn
+%O A061650 1,2
+%A A061650 Jason Earls (zevi_35711(AT)yahoo.com), Jun 14 2001
+%E A061650 Corrected and extended by Larry Reeves (larryr(AT)acm.org), Jun 18 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

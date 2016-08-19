@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002925
+Showing 1-1 of 1
+
+%I A002925 M4997 N2151
+%S A002925 0,0,0,1,0,0,16,18,0,252,576,519,3264,12468,20568,26662,215568,
+%T A002925 528576,164616,3014889,10894920,13796840,29909616,190423962,
+%U A002925 399739840,22768752,2803402560,8743064909
+%V A002925 0,0,0,1,0,0,16,-18,0,252,-576,519,3264,-12468,20568,26662,-215568,
+%W A002925 528576,-164616,-3014889,10894920,-13796840,-29909616,190423962,
+%X A002925 -399739840,-22768752,2803402560,-8743064909
+%N A002925 Susceptibility series for b.c.c. lattice.
+%D A002925 C. Domb, Ising model, in Phase Transitions and Critical Phenomena, vol. 3, ed. C. Domb and M. S. Green, Academic Press, 1974; p. 421.
+%D A002925 J. W. Essam and M. E. Fisher, Pade' approximant studies of the lattice gas and Ising ferromagnet below the critical point, J. Chem. Phys., 38 (1963), 802-812.
+%D A002925 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002925 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002925 M. F. Sykes et al., Derivation of low-temperature expansions for Ising model VI. Three-dimensional lattices - temperature grouping, J. Phys. A 6 (1973), 1507-1516.
+%H A002925 <a href="/index/Ba#bcc">Index entries for sequences related to b.c.c. lattice</a>
+%K A002925 sign,nice
+%O A002925 1,7
+%A A002925 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

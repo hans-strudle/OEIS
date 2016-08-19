@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045725
+Showing 1-1 of 1
+
+%I A045725
+%S A045725 1,13,144,1597,10946,17711,121393,196418,1346269,14930352,102334155,
+%T A045725 165580141,1134903170,1836311903,12586269025,139583862445,
+%U A045725 1548008755920,10610209857723,17167680177565,117669030460994
+%N A045725 Fibonacci numbers having initial digit '1'.
+%t A045725 Select[Fibonacci[Range[2,100]], IntegerDigits[ #,10][[1]]==1&] - _T. D. Noe_, Nov 01 2006
+%K A045725 nonn,base
+%O A045725 1,2
+%A A045725 _Jeff Burch_
+%E A045725 Corrected by _T. D. Noe_, Nov 01 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

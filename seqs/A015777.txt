@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015777
+Showing 1-1 of 1
+
+%I A015777
+%S A015777 1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,
+%T A015777 1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015777 0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1
+%V A015777 1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,
+%W A015777 1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015777 0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,-1
+%N A015777 Inverse of 1768th cyclotomic polynomial.
+%F A015777 a(n)=(1/8)*{-(n mod 8)-[(n+3) mod 4]+[(n+4) mod 4]+[(n+7) mod 4]}, with n>=0 [From _Paolo P. Lava_, Feb 06 2009]
+%p A015777 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015777 sign
+%O A015777 0,1
+%A A015777 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019987
+Showing 1-1 of 1
+
+%I A019987
+%S A019987 5,7,2,8,9,9,6,1,6,3,0,7,5,9,4,2,4,6,8,7,2,7,8,1,4,7,5,3,7,1,1,2,5,7,
+%T A019987 7,9,8,0,2,1,7,5,2,2,2,3,5,1,4,3,9,2,6,4,7,2,5,8,1,1,0,3,6,0,6,5,2,9,
+%U A019987 2,2,8,9,3,6,4,7,9,1,9,3,0,6,7,2,4,1,6,2,8,2,2,0,6,8,3,8,8,0,6
+%N A019987 Decimal expansion of tangent of 89 degrees.
+%C A019987 Also cotangent of 1 degree. - _Mohammad K. Azarian_, Jan 21 2006
+%D A019987 Mohammad K. Azarian, Forty-Five Nested Equilateral Triangles and cosecant of 1 degree, Problem 813, College Mathematics Journal, Vol. 36, No. 5, November 2005, p. 413-414.  Solution published in Vol. 37 , No. 5, November 2006, pp. 394-395.
+%H A019987 Ivan Panchenko, <a href="/A019987/b019987.txt">Table of n, a(n) for n = 2..1000</a>
+%e A019987 57.28996...
+%Y A019987 Cf. A073449; A019987.
+%K A019987 nonn,cons
+%O A019987 2,1
+%A A019987 _N. J. A. Sloane_.
+%E A019987 Edited by _N. J. A. Sloane_, Aug 19 2008 at the suggestion of _R. J. Mathar_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

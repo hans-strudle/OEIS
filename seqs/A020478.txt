@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020478
+Showing 1-1 of 1
+
+%I A020478
+%S A020478 1,10,33,88,145,330,385,736,945,1450,1441,2904,2353,3850,4785,6016,
+%T A020478 5185,9450,7201,12760,12705,14410,12673,24288,18625,23530,26001,33880,
+%U A020478 25201,47850,30721,48640,47553,51850,55825,83160,51985,72010,77649,106720
+%N A020478 Number of singular 2 X 2 matrices over Z(n) (i.e. with determinant = 0).
+%H A020478 T. D. Noe, <a href="/A020478/b020478.txt">Table of n, a(n) for n=1..1000</a>
+%F A020478 a(n) = n^4 - A005353(n). Multiplicative with a(p^e) = p^(2*e-1)*(p^(e+1)+p^e-1). - _Vladeta Jovovic_, Apr 22 2002
+%F A020478 Dirichlet g.f.: zeta(s-2)*zeta(s-3)/zeta(s-1).
+%F A020478 A102631(n) | a(n).- R. J. Mathar, Mar 30 2011
+%o A020478 (PARI) a(n)=if(n<1, 0, direuler(p=2, n, (1-p*X)/((1-p^2*X)*(1-p^3*X)))[n])
+%o A020478 (PARI) a(n)=local(c=0); forvec(x=vector(4,k,[1,n]),c+=((x[1]*x[2]-x[3]*x[4])%n==0)); c
+%Y A020478 Cf. A059306, A062801.
+%K A020478 nonn,mult
+%O A020478 1,2
+%A A020478 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

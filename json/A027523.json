@@ -1,0 +1,1 @@
+{"formerly":"","seq":"7,19,49,1962,74100,100156,50911,25039,13189,111925,61425,172130400,15960298816,36469482889","description":"Second diagonal of A027517.","formula":"Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^3 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i","keyword":"nonn","offset":"2,1","author":"_Olivier Gérard_"}

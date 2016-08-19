@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061780
+Showing 1-1 of 1
+
+%I A061780
+%S A061780 2,12,30,18,90,132,24,240,306,60,462,300,162,756,870,180,360,1260,264,
+%T A061780 1560,1722,216,2070,1470,480,2652,1080,612,3306,3540,540,1584,4290,
+%U A061780 924,4830,5112,600,2700,6006,1458,6642,2880,1512,7656,3960,1740,3672,9120
+%N A061780 Number of solutions to x+y+z = 0 mod (2n+1) such that x,y,z are units modulo 2n+1 i.e. gcd(x,2n+1) = gcd(y,2n+1) = gcd(z,2n+1) = 1.
+%F A061780 a(n) is multiplicative and if 2n+1=p^k is a prime power with p an odd prime then a(n) = p^(2k-2) * (p^2 - 3p + 2).
+%e A061780 The only solutions modulo 3 in units are 1+1+1 = 0 mod 3, 2+2+2 = 0 mod 3 so the first element of the sequence is 2.
+%K A061780 nonn,mult
+%O A061780 1,1
+%A A061780 Ahmed Fares (ahmedfares(AT)my-deja.com), Jun 22 2001
+%E A061780 More terms from _Vladeta Jovovic_, Jun 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

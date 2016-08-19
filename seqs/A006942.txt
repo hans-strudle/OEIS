@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006942
+Showing 1-1 of 1
+
+%I A006942 M4049
+%S A006942 6,2,5,5,4,5,6,3,7,6,8,4,7,7,6,7,8,5,9,8,11,7,10,10,9,10,11,8,12,11,
+%T A006942 11,7,10,10,9,10,11,8,12,11,10,6,9,9,8,9,10,7,11,10,11,7,10,10,9,10,
+%U A006942 11,8,12,11,12,8,11,11,10,11,12,9,13,12,9,5,8,8,7,8,9
+%N A006942 Number of segments needed to represent n on calculator display.
+%C A006942 a(A216261(n)) = n and a(m) <> n for m < A216261(n). - _Reinhard Zumkeller_, Mar 15 2013
+%D A006942 Netnews group rec.puzzles, Frequently Asked Questions (FAQ) file. (Science Section).
+%D A006942 Clifford A. Pickover, A Passion for Mathematics, Wiley, 2005; see p. 65.
+%D A006942 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006942 Nathaniel Johnston, <a href="/A006942/b006942.txt">Table of n, a(n) for n = 0..10000</a>
+%F A006942 a(n) = a(floor(n/10) + a(n mod 10) for n > 9. - _Reinhard Zumkeller_, Mar 15 2013
+%e A006942 Zero is  _  (roughly), so a(0)=6.
+%e A006942 ....... | |
+%e A006942 ....... |_|
+%p A006942 A006942 := proc(n) local d,dig,j,s: if(n=0)then return 6:fi: dig:=[6,2,5,5,4,5,6,3,7,6]: d:=convert(n,base,10): s:=0: for j from 1 to nops(d) do s:=s+dig[d[j]+1]: od: return s: end: seq(A006942(n),n=0..100); # Nathaniel Johnston, May 08 2011
+%t A006942 MapIndexed[ (f[First[#2] - 1] = #1)& , {6, 2, 5, 5, 4, 5, 6, 3, 7, 6}]; a[n_] := Plus @@ f /@ IntegerDigits[n]; Table[a[n], {n, 0, 76}] (* _Jean-François Alcover_, Sep 25 2012 *)
+%o A006942 (Haskell)
+%o A006942 a006942 n = a006942_list !! n
+%o A006942 a006942_list = [6,2,5,5,4,5,6,3,7,6] ++ f 10 where
+%o A006942    f x = (a006942 x' + a006942 d) : f (x + 1)
+%o A006942          where (x',d) = divMod x 10
+%o A006942 -- _Reinhard Zumkeller_, Mar 15 2013
+%Y A006942 For other versions of this sequence see A010371 A018846 A018847 A018849 A038136 A053701 A063720.
+%K A006942 base,nonn,nice,easy
+%O A006942 0,1
+%A A006942 _N. J. A. Sloane_.
+%E A006942 More terms from _Matthew Conroy_, Sep 13 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

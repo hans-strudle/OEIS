@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036511
+Showing 1-1 of 1
+
+%I A036511
+%S A036511 4,144,1444,44944,6441444,47444544,4434494464,44424414441,
+%T A036511 4243443441444,44844344414464,444431244445444,44044624434444544,
+%U A036511 441544444344443449,14444545446449449444,346454444084444444644,44024844440444424044544
+%N A036511 Smallest square containing exactly n 4's.
+%Y A036511 Cf. A048349. [From _Jon E. Schoenfield_, Jan 24 2009]
+%K A036511 nonn,base
+%O A036511 1,1
+%A A036511 _David W. Wilson_
+%E A036511 a(13)-a(15) from _Jon E. Schoenfield_, Jan 17 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

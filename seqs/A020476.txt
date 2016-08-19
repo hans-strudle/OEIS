@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020476
+Showing 1-1 of 1
+
+%I A020476
+%S A020476 1,30154214043975990969,76630991932799573643,
+%T A020476 3590918978816938469301573291605,68804810614900760202830061602802,
+%U A020476 527113576787083306927808065765554478755087
+%N A020476 Numbers n such that sum of divisors of n^3 is a cube.
+%K A020476 nonn
+%O A020476 1,2
+%A A020476 _David W. Wilson_
+%E A020476 The size of elements in this sequence clearly prohibits an exhaustive search.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

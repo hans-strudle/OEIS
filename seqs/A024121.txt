@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024121
+Showing 1-1 of 1
+
+%I A024121
+%S A024121 1,9,28,1187,6384,21875,720064,9176457,97902848,995217031,
+%T A024121 9990000000,99980512829,999964168192,9999937251483,99999894586496,
+%U A024121 999999829140625,9999999731564544,99999999589661327,999999999387779968
+%V A024121 1,9,-28,-1187,-6384,21875,720064,9176457,97902848,995217031,
+%W A024121 9990000000,99980512829,999964168192,9999937251483,99999894586496,
+%X A024121 999999829140625,9999999731564544,99999999589661327,999999999387779968
+%N A024121 10^n-n^7.
+%H A024121 Vincenzo Librandi, <a href="/A024121/b024121.txt">Table of n, a(n) for n = 0..300</a>
+%H A024121 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (18,-108,336,-630,756,-588,288,-81,10).
+%o A024121 (MAGMA) [10^n-n^7: n in [0..20]]; // Vincenzo Librandi Jul 01 2011
+%o A024121 (PARI) a(n)=10^n-n^7 \\ _Charles R Greathouse IV_, Jul 01 2011
+%K A024121 sign,easy
+%O A024121 0,2
+%A A024121 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

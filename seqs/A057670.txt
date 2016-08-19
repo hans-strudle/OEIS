@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057670
+Showing 1-1 of 1
+
+%I A057670
+%S A057670 1,4,6,10,10,24,14,24,21,40,22,60,26,56,60,52,34,84,38,100,84,88,46,
+%T A057670 144,55,104,72,140,58,240,62,112,132,136,140,210,74,152,156,240,82,
+%U A057670 336,86,220,210,184,94,312,105,220,204,260,106,288,220,336,228,232,118,600
+%N A057670 Sum [LCM(k, n/k)], where sum is over positive integers k that divide n.
+%C A057670 Multiplicative with a(p) = 2*p, a(p^k) = (2*p^(k+1) - p^ceiling[(k+1)/2] - p^floor[(k+1)/2]) / (p-1). a(n) is odd iff n is an odd square. - _Henry Bottomley_, May 16 2005
+%C A057670 Multiplicative with a(p^e) = sum p^max(k, e-k), k=0..e (Cf. A107661). - _Mitch Harris_, May 18 2005
+%H A057670 L. Tóth, <a href="http://arxiv.org/abs/1310.7053">Multiplicative arithmetic functions of several variables: a survey</a>, arXiv preprint arXiv:1310.7053, 2013
+%F A057670 Dirichlet g.f. (zeta(s-1))^2*zeta(2s-1)/zeta(2s-2). - _R. J. Mathar_, Feb 11 2011
+%e A057670 a(8) = LCM(1,8) + LCM(2,4) + LCM(4,2) + LCM(8,1) = 8 + 4 + 4 + 8 = 24.
+%o A057670 (PARI) a(n) = sumdiv(n, d, lcm(d, n/d)); \\ _Michel Marcus_, May 19 2014
+%Y A057670 Cf. A055155.
+%K A057670 nonn,mult
+%O A057670 1,2
+%A A057670 _Leroy Quet_, Oct 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

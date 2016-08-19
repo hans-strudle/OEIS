@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058040
+Showing 1-1 of 1
+
+%I A058040
+%S A058040 12,36,576,16464
+%N A058040 (p_1,p_2,...,p_m) = prime factors of n; (m>1,k>0); n such that n = Sum_{i=1,2,..,m} k^(p_i).
+%C A058040 No others < 1000000.
+%e A058040 12=2^2*3=2^2+2^3 (k=2); 36=2^2*3^2=3^2+3^3 (k=3); 576=2^6*3^2=8^2+8^3 (k=8); 16464=2^4*3*7^3=4^2+4^3+4^7 (k=4);
+%K A058040 nonn
+%O A058040 0,1
+%A A058040 _Naohiro Nomoto_, Nov 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

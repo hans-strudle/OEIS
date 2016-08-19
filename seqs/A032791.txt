@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032791
+Showing 1-1 of 1
+
+%I A032791
+%S A032791 1,7,9,19,27,33,43,61,63,79,91,109,115,151,187,223,241,249,253,259,
+%T A032791 261,285,295,313,331,333,361,375,379,387,439,441,457,469,475,487,513,
+%U A032791 519,529,559,583,609,619,627,631,645,691,721,745,747,763,765,783,811,835
+%N A032791 n(n+1)(n+2) / n+(n+1)+(n+2) is a lucky number.
+%Y A032791 Cf. A032792.
+%K A032791 nonn
+%O A032791 0,2
+%A A032791 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

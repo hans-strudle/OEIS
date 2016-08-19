@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007108
+Showing 1-1 of 1
+
+%I A007108 M4667
+%S A007108 0,0,0,1,9,216,7560,357120,22025430,1720751760,166198926600,
+%T A007108 19453788144000,2714247736061400,445133524289731200,
+%U A007108 84788348720139464400,18565341317290193025600
+%N A007108 Number of connected labeled 2-regular digraphs with n nodes.
+%D A007108 R. W. Robinson, personal communication.
+%D A007108 R. W. Robinson, Numerical implementation of graph counting algorithms, AGRC Grant, Math. Dept., Univ. Newcastle, Australia, 1982.
+%D A007108 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007108 R. W. Robinson, <a href="/A007108/b007108.txt">Table of n, a(n) for n = 0..48</a>
+%K A007108 nonn,nice
+%O A007108 0,5
+%A A007108 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

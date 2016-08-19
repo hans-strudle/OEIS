@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049287
+Showing 1-1 of 1
+
+%I A049287
+%S A049287 1,2,2,4,3,8,4,12,8,20,8,48,14,48,44,84,36,192,60,336,200,416,188,
+%T A049287 1312,423,1400,928,3104,1182,8768,2192,8364,6768,16460,11144,46784,
+%U A049287 14602,58288,44424,136128,52488,355200,99880,432576,351424,762608,364724
+%N A049287 Number of nonisomorphic circulant graphs, i.e. undirected Cayley graphs for the cyclic group of order n.
+%H A049287 V. A. Liskovets, <a href="http://front.math.ucdavis.edu/math.CO/0104131">Some identities for enumerators of circulant graphs</a>.
+%H A049287 V. A. Liskovets and R. Poeschel, <a href="ftp://ftp.math.tu-dresden.de/pub/reports/alg/poeschel/lispoepp.ps">On the enumeration of circulant graphs of prime-power and squarefree orders</a>
+%H A049287 R. Poeschel, <a href="http://www.math.tu-dresden.de/~poeschel/Publikationen.html">Publications</a>
+%H A049287 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CirculantGraph.html">Circulant Graph.</a>
+%H A049287 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CirculantMatrix.html">Circulant Matrix.</a>
+%F A049287 There is an easy formula for prime orders. Formulae are also known for squarefree and prime-squared orders.
+%Y A049287 Cf. A049297, A049288-A049289.
+%K A049287 nonn,nice
+%O A049287 1,2
+%A A049287 _Valery A. Liskovets_
+%E A049287 Further values for (twice) squarefree and (twice) prime-squared orders can be found in the Liskovets reference.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

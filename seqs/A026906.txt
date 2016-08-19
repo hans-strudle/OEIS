@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026906
+Showing 1-1 of 1
+
+%I A026906
+%S A026906 1,2,4,6,9,13,18,24,32,42,54,69,87,109,136,168,206,252,306,370,446,
+%T A026906 535,639,761,903,1068,1260,1482,1738,2034,2374,2764,3212,3724,4309,
+%U A026906 4977,5737,6601,7583,8696,9956,11382,12992,14808,16856
+%N A026906 Number of sums S of distinct positive integers satisfying S <= n.
+%t A026906 Table[ Sum[ PartitionsQ[k], {k, 1, n}], {n, 1, 50}]
+%Y A026906 Partial sums of A000009.
+%K A026906 nonn
+%O A026906 1,2
+%A A026906 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017496
+Showing 1-1 of 1
+
+%I A017496
+%S A017496 68719476736,2213314919066161,531441000000000000,22563490300366186081,
+%T A017496 390877006486250192896,3909188328478827879681,26963771415920784510976,
+%U A017496 142241757136172119140625,612709757329767363772416,2252191588960823337718801
+%N A017496 (11n+8)^12.
+%t A017496 (11*Range[0,20]+8)^12 (* _Harvey P. Dale_, Jul 31 2012 *)
+%o A017496 (Maxima) makelist( (11*n+8)^12, n, 0, 30); [_Martin Ettl_, Oct 21 2012]
+%K A017496 nonn,easy
+%O A017496 0,1
+%A A017496 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

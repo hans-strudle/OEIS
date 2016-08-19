@@ -1,0 +1,1 @@
+{"formerly":"","seq":"3,5,7,9,17,49,97,257,425","description":"Numbers n such that x^n + x^12 + 1 is irreducible over GF(2).","mathematica":"Do[ If[ ToString[ Factor[ x^n + x^12 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^12 + 1 ], Print[ n ] ], {n, 0, 750} ]","crossrefs":["Cf. A002475."],"keyword":"nonn","offset":"1,1","author":"_Robert G. Wilson v_, Sep 27 2000"}

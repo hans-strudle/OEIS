@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033275
+Showing 1-1 of 1
+
+%I A033275
+%S A033275 0,5,21,56,120,225,385,616,936,1365,1925,2640,3536,4641,5985,7600,
+%T A033275 9520,11781,14421,17480,21000,25025,29601,34776,40600,47125,54405,
+%U A033275 62496,71456,81345,92225,104160,117216,131461,146965,163800,182040,201761,223041,245960
+%N A033275 Number of diagonal dissections of an n-gon into 3 regions.
+%C A033275 Number of standard tableaux of shape (n-3,2,2) (n>=5). - _Emeric Deutsch_, May 13 2004
+%C A033275 Number of short bushes with n+1 edges and 3 branch nodes (i.e., nodes with outdegree at least 2). A short bush is an ordered tree with no nodes of outdegree 1. Example: a(5)=5 because the only short bushes with 6 edges and 3 branch nodes are the five full binary trees with 6 edges. Column 3 of A108263. - _Emeric Deutsch_, May 29 2005
+%H A033275 D. Beckwith, <a href="http://www.jstor.org/stable/2589081">Legendre polynomials and polygon dissections?</a>, Amer. Math. Monthly, 105 (1998), 256-257.
+%H A033275 F. R. Bernhart, <a href="http://dx.doi.org/10.1016/S0012-365X(99)00054-0">Catalan, Motzkin and Riordan numbers</a>, Discr. Math., 204 (1999), 73-112.
+%H A033275 R. C. Read, <a href="http://dx.doi.org/10.1007/BF03031688">On general dissections of a polygon</a>, Aequat. Math. 18 (1978) 370-388, Table 1.
+%H A033275 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%F A033275 a(n) = binomial(n+1, 2)*binomial(n-3, 2)/3.
+%F A033275 G.f.: z^5*(5-4*z+z^2)/(1-z)^5. - _Emeric Deutsch_, May 29 2005
+%t A033275 f[n_]:=n*(n+2)*(n+4)/3; s=0;lst={};Do[AppendTo[lst,s+=f[n]],{n,0,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 08 2009 *)
+%o A033275 (PARI) concat(0, Vec(z^5*(5-4*z+z^2)/(1-z)^5 + O(z^60))) \\ _Michel Marcus_, Jun 18 2015
+%Y A033275 Cf. A033276.
+%Y A033275 Cf. A108263.
+%Y A033275 Cf. 2nd skew subdiagonal of A033282.
+%K A033275 nonn,easy
+%O A033275 4,2
+%A A033275 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

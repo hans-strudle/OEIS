@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062349
+Showing 1-1 of 1
+
+%I A062349
+%S A062349 2,6,12,120,360,5040,13440,181440,1814400,39916800,159667200,
+%T A062349 6227020800,43589145600,653837184000,5230697472000,355687428096000,
+%U A062349 2134124568576000,121645100408832000,810967336058880000
+%N A062349 n! / number of prime divisors of n (with repetition).
+%H A062349 Harry J. Smith, <a href="/A062349/b062349.txt">Table of n, a(n) for n=2,...,100</a>
+%F A062349 a(n) = n! / bigomega(n).
+%o A062349 (PARI) for(n=2,24,print(n!/bigomega(n)))
+%o A062349 (PARI) { f=1; for (n=2, 100, f*=n; write("b062349.txt", n, " ", f/bigomega(n)) ) } [From _Harry J. Smith_, Aug 05 2009]
+%K A062349 easy,nonn
+%O A062349 2,1
+%A A062349 Jason Earls (zevi_35711(AT)yahoo.com), Jul 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

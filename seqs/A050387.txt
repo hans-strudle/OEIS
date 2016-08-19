@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050387
+Showing 1-1 of 1
+
+%I A050387
+%S A050387 1,1,3,9,33,125,503,2083,8867,38477,169711,758369,3426415,15625647,
+%T A050387 71831229,332509595,1548599571,7251200053,34116127377,161202535685,
+%U A050387 764648531325,3639748179089,17380544553713,83237451101609
+%N A050387 Reversion of Liouville's lambda function A008836.
+%H A050387 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A050387 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%Y A050387 Cf. A050388.
+%K A050387 nonn
+%O A050387 1,3
+%A A050387 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

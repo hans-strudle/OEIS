@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035616
+Showing 1-1 of 1
+
+%I A035616
+%S A035616 1,0,0,0,0,18,10,0,0,0,135,7380,40,0,0,540,135540,56160,80,0,
+%T A035616 1215,336420,538380,43920,80,1458,102060,98280,20520,1440,697
+%V A035616 1,0,0,0,0,-18,-10,0,0,0,135,-7380,40,0,0,-540,-135540,-56160,-80,0,
+%W A035616 1215,-336420,538380,-43920,80,-1458,-102060,-98280,-20520,-1440,697
+%N A035616 Coefficients of minimal polynomial for 2^(1/6)+3^(1/5).
+%H A035616 Jonathan M. Borwein and Petr Lisonek, <a href="http://www.cecm.sfu.ca/preprints/1997pp.html">Applications of Integer Relation Algorithms</a>, Discrete Math. 217 (2000), 65-82.
+%p A035616 resultant(y^6-2,(x-y)^5-3,y);
+%K A035616 sign
+%O A035616 30,6
+%A A035616 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

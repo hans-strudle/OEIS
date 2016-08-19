@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034248
+Showing 1-1 of 1
+
+%I A034248
+%S A034248 0,13,9262768,795109767172,32754692969489938,995740669987430403414,
+%T A034248 25181456057693008339763059,553092980828190394446335839530,
+%U A034248 10778588361453642047099243794276139
+%N A034248 Number of quaternary codes (not necessarily linear) of length n with 11 words.
+%D A034248 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034248 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034248 Cf. A034188-.
+%K A034248 nonn
+%O A034248 1,2
+%A A034248 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059476
+Showing 1-1 of 1
+
+%I A059476
+%S A059476 1,2,40,6860,9779616,114640611228,10995014015567296,
+%T A059476 8604220484134405095680,54849585336544518476372715520,
+%U A059476 2845241019832977820277705514596768000,1200139922362764777157943140382976769515000000
+%N A059476 Number of 4n X 4n quarter-turn symmetric alternating-sign matrices (QTSASM's).
+%H A059476 G. Kuperberg, <a href="http://arXiv.org/abs/math.CO/0008184">Symmetry classes of alternating-sign matrices under one roof, arXiv math.CO/0008184</a>
+%F A059476 A059475(n)*A005130(n)^2.
+%K A059476 nonn
+%O A059476 0,2
+%A A059476 _N. J. A. Sloane_, Feb 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

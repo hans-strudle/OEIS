@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031711
+Showing 1-1 of 1
+
+%I A031711
+%S A031711 1091,4360,9807,17432,27235,39216,53375,69712,88227,108920,131791,
+%T A031711 156840,184067,213472,245055,278816,314755,352872,393167,435640,
+%U A031711 480291,527120,576127,627312,680675,736216,793935,853832,915907,980160,1046591,1115200
+%N A031711 Least term in period of continued fraction for sqrt(n) is 33.
+%H A031711 Colin Barker, <a href="/A031711/b031711.txt">Table of n, a(n) for n = 1..1000</a>
+%H A031711 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A031711 a(n) = n*(1089*n + 2).
+%F A031711 a(1)=1091, a(2)=4360, a(3)=9807, a(n)=3*a(n-1)-3*a(n-2)+a(n-3). - _Harvey P. Dale_, Dec 17 2012
+%F A031711 G.f.: -x*(1087*x+1091) / (x-1)^3. - _Colin Barker_, Apr 22 2015
+%t A031711 Table[n(1089n+2),{n,40}] (* or *) LinearRecurrence[{3,-3,1},{1091,4360,9807},40] (* _Harvey P. Dale_, Dec 17 2012 *)
+%o A031711 (PARI) Vec(-x*(1087*x+1091)/(x-1)^3 + O(x^100)) \\ _Colin Barker_, Apr 22 2015
+%o A031711 (MAGMA) [n*(1089*n + 2): n in [1..40]]; // _Vincenzo Librandi_, Apr 23 2015
+%K A031711 nonn,easy
+%O A031711 1,1
+%A A031711 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

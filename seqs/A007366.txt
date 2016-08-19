@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007366
+Showing 1-1 of 1
+
+%I A007366 M4685
+%S A007366 1,10,22,28,30,46,52,54,58,66,70,78,82,102,106,110,126,130,136,138,
+%T A007366 148,150,166,172,178,190,196,198,210,222,226,228,238,250,262,268,270,
+%U A007366 282,292,294,306,310,316,330,342,346,358,366,372,378,382,388,418,430,438
+%N A007366 Numbers n such that phi(x) = n has exactly 2 solutions.
+%D A007366 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 840.
+%D A007366 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007366 T. D. Noe, <a href="/A007366/b007366.txt">Table of n, a(n) for n=1..1000</a>
+%H A007366 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%e A007366 10 = phi(11) = phi(22).
+%t A007366 a = Table[ 0, {500} ]; Do[ p = EulerPhi[ n ]; If[ p < 501, a[ [ p ] ]++ ], {n, 1, 500} ]; Select[ Range[ 500 ], a[ [ # ] ] == 2 & ]
+%Y A007366 Cf. A000010, A007367.
+%K A007366 nonn
+%O A007366 1,2
+%A A007366 _N. J. A. Sloane_, _Mira Bernstein_, _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

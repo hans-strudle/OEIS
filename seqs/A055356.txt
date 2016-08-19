@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055356
+Showing 1-1 of 1
+
+%I A055356
+%S A055356 1,1,0,1,1,0,1,4,2,0,1,11,18,6,0,1,26,98,96,24,0,1,57,424,874,600,120,
+%T A055356 0,1,120,1614,6040,8244,4320,720,0,1,247,5682,35458,83500,83628,35280,
+%U A055356 5040,0,1,502,19022,187288,701164,1169768,915984,322560,40320,0,1
+%N A055356 Triangle of increasing mobiles (circular rooted trees) with n nodes and k leaves.
+%C A055356 In an increasing rooted tree, nodes are numbered and numbers increase as you move away from root.
+%C A055356 This is also related to the solution of the equation df/dt=f e^f (see the Maple code). - _F. Chapoton_, Jul 16 2004
+%H A055356 Shi-Mei Ma, <a href="http://arxiv.org/abs/1208.3104">Some combinatorial sequences associated with context-free grammars</a>, arXiv:1208.3104v2 [math.CO]. - From N. J. A. Sloane, Aug 21 2012
+%H A055356 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%e A055356 1;
+%e A055356 1,0;
+%e A055356 1,1,0;
+%e A055356 1,4,2,0;
+%e A055356 1,11,18,6,0; ...
+%p A055356 P[1]:=1;for n from 1 to 8 do P[n+1]:=simplify((1+n*x)*P[n]+x*diff(P[n],x)) end; (Chapoton)
+%Y A055356 Row sums give A029768. Columns 2 through 8: A000295, A055357-A055362.
+%K A055356 nonn,tabl
+%O A055356 1,8
+%A A055356 _Christian G. Bower_, May 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

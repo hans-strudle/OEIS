@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037641
+Showing 1-1 of 1
+
+%I A037641
+%S A037641 2,15,91,548,3291,19747,118484,710907,4265443,25592660,153555963,
+%T A037641 921335779,5528014676,33168088059,199008528355,1194051170132,
+%U A037641 7164307020795,42985842124771,257915052748628,1547490316491771
+%N A037641 Base 6 digits are, in order, the first n terms of the periodic sequence with initial period 2,3,1.
+%H A037641 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,0,1,-6).
+%F A037641 G.f. x*(x+2)*(1+x) / ( (x-1)*(6*x-1)*(1+x+x^2) ). - R. J. Mathar, Nov 21 2011
+%K A037641 nonn,base
+%O A037641 1,1
+%A A037641 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

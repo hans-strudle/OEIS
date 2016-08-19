@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016336
+Showing 1-1 of 1
+
+%I A016336
+%S A016336 1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,
+%T A016336 1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,
+%U A016336 0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0
+%V A016336 1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,1,0,
+%W A016336 -1,0,0,1,0,-1,0,0,1,0,-1,0,0,1,0,-1,0,0,1,0,-1,0,0,1,0,-1,0,1,0,0,-1,
+%X A016336 0,1,0,0,-1,0,1,0,0,-1,0,1,0,0,-1,0,1,0,0
+%N A016336 145th cyclotomic polynomial.
+%K A016336 sign,fini
+%O A016336 0,1
+%A A016336 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

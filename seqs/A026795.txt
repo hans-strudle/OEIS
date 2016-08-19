@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026795
+Showing 1-1 of 1
+
+%I A026795
+%S A026795 1,27,475,6915,90571,1110147,13011355,147722355,1638222091,
+%T A026795 17846324067,191730867835,2037261517395,21455455896811,
+%U A026795 224319716510787,2331201129229915,24104752246858035,248186422724438731
+%N A026795 Expansion of 1/((1-2x)(1-6x)(1-9x)(1-10x)).
+%F A026795 a(n) = -2^n/28 +9*6^n/2 -243*9^n/7 +125*10^n/4. _R. J. Mathar_, Jun 23 2013
+%K A026795 nonn
+%O A026795 0,2
+%A A026795 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

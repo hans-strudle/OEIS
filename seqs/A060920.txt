@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060920
+Showing 1-1 of 1
+
+%I A060920
+%S A060920 1,2,1,5,5,1,13,20,9,1,34,71,51,14,1,89,235,233,105,20,1,233,744,942,
+%T A060920 594,190,27,1,610,2285,3522,2860,1295,315,35,1,1597,6865,12473,12402,
+%U A060920 7285,2534,490,44,1,4181,20284
+%N A060920 Bisection of Fibonacci triangle A037027: even indexed members of column sequences of A037027 (not counting leading zeros).
+%C A060920 Row sums give A007583. Column sequences (without leading zeros) give for m=0..5: A001519, A054444, A061178-81.
+%C A060920 Companion triangle (odd indexed members) A060921.
+%H A060920 Yidong Sun, <a href="http://www.fq.math.ca/Papers1/43-4/paper43-4-10b.pdf">Numerical Triangles and Several Classical Sequences</a>, Fib. Quart. 43, no. 4, Nov. 2005, pp. 359-370.
+%F A060920 T(n, m) = A037027(2*n-m, m).
+%F A060920 T(n, m) = ((2*(n-m)+1)*A060921(n-1, m-1)+4*n*T(n-1, m-1))/(5*m), n >= m >= 1; T(n, 0) := F(n)^2+F(n+1)^2 = A001519(n), with the Fibonacci numbers F(n)=A000045(n); else 0.
+%F A060920 G.f. for column m >= 0: x^m*pFe(m+1, x)/(1-3*x+x^2)^(m+1), where pFe(n, x) := sum(A061176(n, m)*x^m, m=0..n) (row polynomials of signed triangle A061176).
+%F A060920 G.f.: (1-x*(1+y))/(1-(3+2*y)*x+(1+y)^2*x^2). - _Vladeta Jovovic_, Oct 11 2003
+%e A060920 {1}; {2,1}; {5,5,1}; {13,20,9,1}; ...; pFe(2,x)=1-x+x^2.
+%K A060920 nonn,easy,tabl
+%O A060920 0,2
+%A A060920 _Wolfdieter Lang_, Apr 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

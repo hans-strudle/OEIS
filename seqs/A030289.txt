@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030289
+Showing 1-1 of 1
+
+%I A030289
+%S A030289 0,1,8,27,64,125,343,512,4096,5832,64000,91125,300763,941192,3375000,
+%T A030289 8489664,13312053,86444696669696,100175333300307,488224224494488,
+%U A030289 510657175657000,2233398984434344,5177717000000000,6393843393228864
+%N A030289 Cubes whose digits do not appear in previous term.
+%t A030289 bb={0}; idi1=IntegerDigits[0]; Do[idi=IntegerDigits[r=i^3]; If[Intersection[idi, idi1]=={}, bb={bb, r}; idi1=idi], {i, 1, 100000}]; fla=Flatten[bb] - _Zak Seidov_, Feb 17 2005
+%Y A030289 Squares whose digits do not appear in previous term: A030288. Primes whose digits do not appear in previous term: A030284.
+%K A030289 nonn,base
+%O A030289 1,3
+%A A030289 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

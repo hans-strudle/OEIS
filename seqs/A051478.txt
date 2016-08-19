@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051478
+Showing 1-1 of 1
+
+%I A051478
+%S A051478 4,2,0,4,2,0,2,0,0,4,2,0,2,2,0,2,2,0,2,2,0,0,0,0,2,2,2,0,0,0,2,2,0,2,
+%T A051478 0,0,2,0,0,4,2,0,0,2,0,0,2,0,2,0,0,2,0,0,2,2,0,0,2,0,0,2,0,0,2,0,2,0,
+%U A051478 0,2,0,0,2,0,0,2,2,0,0,0,0,2,0,0,2,2,0,0,2,0,2,0,0,2,2,0,0,0,0,0,0,0,0
+%N A051478 Number of values of n satisfying phi(n)=4i+2, i>0.
+%C A051478 Sequence consists of only 0's, 2's and 4's.
+%e A051478 phi(n)=4*1+2 has 4 solutions (n=7, 9, 14, 18), so a(1)=4.
+%Y A051478 Cf. A000010, A032446, A051479.
+%K A051478 nonn
+%O A051478 1,1
+%A A051478 _Jud McCranie_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

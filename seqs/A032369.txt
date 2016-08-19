@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032369
+Showing 1-1 of 1
+
+%I A032369
+%S A032369 1,2,35,71680,2342475135,15348366279966720,2492793923102873600710500
+%N A032369 Hall normalization constants.
+%H A032369 P. B. Slater, <a href="http://arXiv.org/abs/quant-ph/9904101">Hall normalization constants ...</a>, J. Phys. A, 32 (1999), 8231-8246.
+%H A032369 H.-J. Sommers and K. Zyczkowski, <a href="http://arXiv.org/abs/quant-ph/0304041">Bures volume of the set of mixed quantum states</a>
+%F A032369 Numerator of 2^(N^2-N) Gamma[N^2/2]/(Pi^(N/2) Product[Gamma[i], {i, 1, n+1}])
+%K A032369 nonn
+%O A032369 1,2
+%A A032369 slater(AT)itp.ucsb.edu (Paul Slater)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

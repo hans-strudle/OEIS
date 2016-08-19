@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020333
+Showing 1-1 of 1
+
+%I A020333
+%S A020333 6,12,18,24,130,156,182,208,234,260,286,312,338,364,390,416,442,468,
+%T A020333 494,520,546,572,598,624,3150,3276,3402,3528,3654,3780,3906,4032,4158,
+%U A020333 4284,4410,4536,4662,4788,4914,5040,5166,5292,5418,5544,5670,5796,5922,6048
+%N A020333 Numbers n such that base 5 representation is the juxtaposition of two identical strings.
+%H A020333 Harvey P. Dale, <a href="/A020333/b020333.txt">Table of n, a(n) for n = 1..1000</a>
+%t A020333 tis5Q[n_]:=Module[{idn=IntegerDigits[n,5],len},len=Length[idn];EvenQ[len] && Take[idn,len/2]==Take[idn,-len/2]]; Select[Range[6500],tis5Q]  (* or *) Flatten[Table[FromDigits[#,5]&/@Select[(Flatten[{#,#}]&/@Tuples[ Range[ 0,4],n]),#[[1]]!=0&],{n,3}]] (* The second program is significantly faster than the first. *) (* _Harvey P. Dale_, Apr 08 2013 *)
+%K A020333 nonn,base
+%O A020333 1,1
+%A A020333 _David W. Wilson_, Melia Aldridge, ma38(AT)spruce.evansville.edu
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

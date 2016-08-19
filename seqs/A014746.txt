@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014746
+Showing 1-1 of 1
+
+%I A014746
+%S A014746 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014746 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%U A014746 1,1,1,1,1,1,1,1,1,1,0,0,0
+%V A014746 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014746 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,
+%X A014746 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0
+%N A014746 Inverse of 737th cyclotomic polynomial.
+%p A014746 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014746 sign
+%O A014746 0,1
+%A A014746 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

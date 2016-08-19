@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057491
+Showing 1-1 of 1
+
+%I A057491
+%S A057491 1,2,4,10,17,50,62,221,250,253,289,290,316,697,764,1250,1819,3590,
+%T A057491 4913,6250,31250,54043,55913,63869,83521,98923,156250,231250,530893,
+%U A057491 781250,987110
+%N A057491 Numbers n such that n | 12^n + 11^n + 10^n + 9^n + 8^n + 7^n + 6^n + 5^n.
+%t A057491 Select[ Range[ 10^6 ], Mod[ PowerMod[ 12, #, # ] + PowerMod[ 11, #, # ] + PowerMod[ 10, #, # ] + PowerMod[ 9, #, # ] + PowerMod[ 8, #, # ] + PowerMod[ 7, #, # ] + PowerMod[ 6, #, # ] + PowerMod[ 5, #, # ], # ] == 0 & ]
+%t A057491 Select[Range[1000000],Divisible[Total[PowerMod[Range[5,12],#,#]],#]&] (* _Harvey P. Dale_, Mar 28 2012 *)
+%K A057491 nonn
+%O A057491 1,2
+%A A057491 _Robert G. Wilson v_, Sep 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

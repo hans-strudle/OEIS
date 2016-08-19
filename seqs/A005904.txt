@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005904
+Showing 1-1 of 1
+
+%I A005904 M5239
+%S A005904 1,33,155,427,909,1661,2743,4215,6137,8569,11571,15203,19525,24597,
+%T A005904 30479,37231,44913,53585,63307,74139,86141,99373,113895,129767,147049,
+%U A005904 165801,186083,207955,231477,256709,283711,312543,343265,375937,410619,447371
+%N A005904 Centered dodecahedral numbers.
+%D A005904 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005904 B. K. Teo and N. J. A. Sloane, Magic numbers in polygonal and polyhedral clusters, Inorgan. Chem. 24 (1985), 4545-4558.
+%H A005904 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005904 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%F A005904 a(n) = (2*n+1)*(5*n^2+5*n+1).
+%p A005904 A005904:=(z+1)*(z**2+28*z+1)/(z-1)**4; [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%K A005904 nonn,easy
+%O A005904 0,2
+%A A005904 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

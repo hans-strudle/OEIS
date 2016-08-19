@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003347
+Showing 1-1 of 1
+
+%I A003347
+%S A003347 2,33,64,244,275,486,1025,1056,1267,2048,3126,3157,3368,4149,6250,
+%T A003347 7777,7808,8019,8800,10901,15552,16808,16839,17050,17831,19932,24583,
+%U A003347 32769,32800,33011,33614,33792,35893,40544,49575,59050,59081,59292,60073,62174
+%N A003347 Numbers that are the sum of 2 positive 5th powers.
+%H A003347 T. D. Noe, <a href="/A003347/b003347.txt">Table of n, a(n) for n = 1..1000</a>
+%Y A003347 Cf. A088703.
+%K A003347 nonn
+%O A003347 1,1
+%A A003347 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

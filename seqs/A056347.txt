@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056347
+Showing 1-1 of 1
+
+%I A056347
+%S A056347 6,15,50,210,882,4220,20640,107100,563730,3036411,16514100,90778485,
+%T A056347 502474350,2799199380,15673672238,88162569180,497847963690,
+%U A056347 2821127257950,16035812864940,91404065292036
+%N A056347 Number of primitive (period n) bracelets using a maximum of six different colored beads.
+%C A056347 Turning over will not create a new bracelet.
+%D A056347 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056347 sum mu(d)*A056341(n/d) where d|n.
+%Y A056347 Cf. A032164.
+%K A056347 nonn
+%O A056347 1,1
+%A A056347 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

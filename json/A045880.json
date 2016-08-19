@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,2,3,5,6,10,14,15,21,22,26,29,34,35,38,42,46,47","description":"Sqrt(a(n)) is \"well approximated\" by other sqrts of integers.","comments":"if b(n)=min {Sqrt[ n ]-sum Sqrt[ c_i ]>0 : c_i integers}, then b(a(n)) is smaller than any previous integer.","keyword":"nonn","offset":"0,2","author":"_Erich Friedman_"}

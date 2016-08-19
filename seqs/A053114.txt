@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053114
+Showing 1-1 of 1
+
+%I A053114
+%S A053114 1,17,425,14025,575025,28176225,1606044825,104392913625,7620682694625,
+%T A053114 617275298264625,54937501545551625,5328937649918507625,
+%U A053114 559538453241443300625,63227845216283092970625
+%N A053114 a(n) = ((8*n+9)(!^8))/9, related to A045755 ((8*n+1)(!^8) octo- or 8-factorials).
+%C A053114 Row m=9 of the array A(9; m,n) := ((8*n+m)(!^8))/m(!^8), m >= 0, n >= 0.
+%F A053114 a(n) = ((8*n+9)(!^8))/9(!^8) = A045755(n+2)/9.
+%F A053114 E.g.f. 1/(1-8*x)^(17/8).
+%F A053114 G.f.: 1/(1-17x/(1-8x/(1-25x/(1-16x/(1-33x/(1-24x/(1-41x/(1-32x/(1-... (continued fraction). - _Philippe Deléham_, Jan 07 2012
+%t A053114 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 16, 5!, 8}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A053114 Cf. A051189, A045755, A034908-12, A034975-6 (rows m=0..8).
+%K A053114 easy,nonn
+%O A053114 0,2
+%A A053114 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

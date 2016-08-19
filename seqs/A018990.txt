@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018990
+Showing 1-1 of 1
+
+%I A018990
+%S A018990 0,10,20,244,1028,7831,45586,320653,2114588
+%N A018990 Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite ATV = AlPO4-25 [ Al12P12O48 ].
+%D A018990 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A018990 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A018990 nonn
+%O A018990 2,2
+%A A018990 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

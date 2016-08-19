@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033787
+Showing 1-1 of 1
+
+%I A033787
+%S A033787 1,1,1,2,1,2,3,4,2,3,5,2,7,6,6,6,7,8,5,10,9,12,10,10,15,11,15,20,16,
+%T A033787 12,18,20,14,24,26,20,21,24,25,22,31,32,35,26,28,42,32,44,49,41,33
+%N A033787 Product t2(q^d); d | 28, where t2 = theta2(q)/(2*q^(1/4)).
+%K A033787 nonn
+%O A033787 0,4
+%A A033787 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

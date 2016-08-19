@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034168
+Showing 1-1 of 1
+
+%I A034168
+%S A034168 2,6,10,22,30,42,58,70,78,102,130,190,210,330,462
+%N A034168 Disjoint discriminants (one form per genus) of type 2 (doubled).
+%D A034168 J. M. Borwein and P. B. Borwein, Pi and the AGM, page 293.
+%D A034168 L. E. Dickson, Introduction to the theory of numbers, Dover, NY, 1929.
+%H A034168 J. Borwein and K.-K. S. Choi, On the representations of xy+yz+zx, Experimental Mathematics, 9 (2000), 153-158 (<a href="http://www.cecm.sfu.ca/ftp/pub/CECM/Preprints/Dvi/98:119-Borwein-Choi.dvi">dvi</a>, <a href="http://www.cecm.sfu.ca/ftp/pub/CECM/Preprints/Postscript/98:119-Borwein-Choi.ps.gz">ps</a>).
+%H A034168 Experimental Mathematics, <a href="http://www.emis.de/journals/EM/">Home Page</a>
+%Y A034168 Cf. A034169, A055745. Subsequence of A025052.
+%K A034168 nonn,fini,nice
+%O A034168 1,1
+%A A034168 Jonathan Borwein (jborwein(AT)cecm.sfu.ca), choi(AT)cecm.sfu.ca (Stephen Choi)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016993
+Showing 1-1 of 1
+
+%I A016993
+%S A016993 1,8,15,22,29,36,43,50,57,64,71,78,85,92,99,106,113,120,127,134,141,
+%T A016993 148,155,162,169,176,183,190,197,204,211,218,225,232,239,246,253,260,
+%U A016993 267,274,281,288,295,302,309,316,323,330,337,344,351,358,365,372,379
+%N A016993 7n+1.
+%H A016993 Vincenzo Librandi, <a href="/A016993/b016993.txt">Table of n, a(n) for n = 0..5000</a>
+%H A016993 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A016993 a(n) = 7*n + 1.
+%F A016993 G.f.: (1+6*x)/(1-x)^2.
+%p A016993 A016993:=n->7*n+1: seq(A016993(n), n=0..70); # _Wesley Ivan Hurt_, Nov 01 2014
+%t A016993 7*Range[0, 55] + 1 (* _Alonso del Arte_, Oct 26 2014 *)
+%o A016993 (MAGMA) [7*n+1: n in [0..60]]; // _Vincenzo Librandi_, May 28 2011
+%o A016993 (Haskell)
+%o A016993 a016993 = (+ 1) . (* 7)
+%o A016993 a016993_list = [1, 8 ..]  -- _Reinhard Zumkeller_, Jan 25 2013
+%Y A016993 Cf. A093564 (column 1).
+%Y A016993 Cf. A131844.
+%Y A016993 Cf. A008589.
+%K A016993 nonn,easy
+%O A016993 0,2
+%A A016993 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

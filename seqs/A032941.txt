@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032941
+Showing 1-1 of 1
+
+%I A032941
+%S A032941 1,2,3,4,5,6,12,18,24,30,36,37,38,39,40,41,72,73,74,75,76,77,108,109,
+%T A032941 110,111,112,113,144,145,146,147,148,149,180,181,182,183,184,185,216,
+%U A032941 222,228,234,240,246,432,438,444,450,456,462
+%N A032941 Numbers n such that base 6 representation Sum{d(i)*6^i: i=0,1,...,m} has d(i)=0 for all odd i.
+%K A032941 nonn,base
+%O A032941 1,2
+%A A032941 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

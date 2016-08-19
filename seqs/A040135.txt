@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040135
+Showing 1-1 of 1
+
+%I A040135
+%S A040135 12,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,
+%T A040135 6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,24,6,
+%U A040135 24,6,24,6,24,6,24,6,24,6,24,6
+%N A040135 Continued fraction for sqrt(148).
+%H A040135 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040135 a(n)=15+9*(-1)^n-12*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 10 2009]
+%p A040135 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040135 ContinuedFraction[Sqrt[148],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 13 2011*)
+%K A040135 nonn,cofr,easy
+%O A040135 0,1
+%A A040135 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

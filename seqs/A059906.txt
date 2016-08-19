@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059906
+Showing 1-1 of 1
+
+%I A059906
+%S A059906 0,0,1,1,0,0,1,1,2,2,3,3,2,2,3,3,0,0,1,1,0,0,1,1,2,2,3,3,2,2,3,3,4,4,
+%T A059906 5,5,4,4,5,5,6,6,7,7,6,6,7,7,4,4,5,5,4,4,5,5,6,6,7,7,6,6,7,7,0,0,1,1,
+%U A059906 0,0,1,1,2,2,3,3,2,2,3,3,0,0,1,1,0,0,1,1,2,2,3,3,2,2,3,3,4,4,5,5,4,4,5,5,6
+%N A059906 Index of second half of decomposition of integers into pairs based on A000695.
+%C A059906 One coordinate of a recursive non-self intersecting walk on the square lattice Z^2.
+%F A059906 n = A000695(A059905(n))+2*A000695(a(n))
+%F A059906 To get a(n), write n as Sum b_j*2^j, then a(n)=Sum b_(2j+1)*2^j. [From _Vladimir Shevelev_, Nov 13 2008]
+%F A059906 a(n)=Sum_k>=0 {A030308(n,k)*b(k)} with b(0)=0 and b(k)=A077957(k-1) for k>0.- From _Philippe Deléham_, Oct 18 2011.
+%e A059906 A000695(A059905(14))+2*A000695(a(14)) = A000695(2)+2*A000695(3) = 4+2*5 = 14.
+%e A059906 If n=27, then b_0=1, b_1=1, b_2=0, b_3=1, b_4=1. Therefore a(n)=b_1+b_3*2=3. [From _Vladimir Shevelev_, Nov 13 2008]
+%Y A059906 Cf. A000695, A059905.
+%K A059906 easy,nonn
+%O A059906 0,9
+%A A059906 _Marc LeBrun_, Feb 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

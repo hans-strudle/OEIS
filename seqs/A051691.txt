@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051691
+Showing 1-1 of 1
+
+%I A051691
+%S A051691 1,15,300,7500,225000,7875000,315000000,14175000000,708750000000,
+%T A051691 38981250000000,2338875000000000,152026875000000000,
+%U A051691 10641881250000000000,798141093750000000000,63851287500000000000000
+%N A051691 (5*n+10)(!^5)/10(!^5), related to A052562 ((5*n)(!^5) quintic, or 5-factorials).
+%C A051691 Row m=10 of the array A(6; m,n) := ((5*n+m)(!^5))/m(!^5), m >= 0, n >= 0.
+%F A051691 a(n) = ((5*n+10)(!^5))/10(!^5) = A052562(n+2)/(5*10).
+%F A051691 E.g.f.: 1/(1-5*x)^3.
+%t A051691 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 14, 5!, 5}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A051691 Cf. A052562, A008548(n+1), A034323(n+1), A034300(n+1), A034301(n+1), A034325(n+1), A051687-A051691 (rows m=0..10).
+%K A051691 easy,nonn
+%O A051691 0,2
+%A A051691 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060478
+Showing 1-1 of 1
+
+%I A060478
+%S A060478 1,0,0,2,0,0,0,0,0,0,0,6,0,12,56,0,0,0,72,0,0,24,0,0,96,24,0,48,0,0,
+%T A060478 33,270,136,0,144,18,0,0,160,0,168,0,696,96,0,48,0,3726,1752,0,208,96,
+%U A060478 1896,52,216,0,0,60,28512,1120,2208,16896,0,0,0,35904,1080,594,1112,12096
+%N A060478 Number of orbits of length n in map whose periodic points are A059928.
+%D A060478 M. Einsiedler, G. Everest and T. Ward, Primes in sequences associated to polynomials, LMS J. Comp. Math. 3 (2000), 15-29.
+%D A060478 G. Everest and T. Ward, Heights of Polynomials and Entropy in Algebraic Dynamics, Springer, London, 1999.
+%H A060478 G. Everest and T. Ward, <a href="http://www.mth.uea.ac.uk/~h090/cubo.ps">Primes in Divisibility Sequences</a>
+%H A060478 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%F A060478 If b(n) is the n-th term of A059928, then a(n)=(1/n)* Sum_{ d divides n }\mu(d)a(n/d)
+%Y A060478 Cf. A059928.
+%K A060478 easy,nonn
+%O A060478 1,4
+%A A060478 Thomas Ward (t.ward(AT)uea.ac.uk)
+%E A060478 More terms from _T. D. Noe_, Sep 15 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

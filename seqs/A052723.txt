@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052723
+Showing 1-1 of 1
+
+%I A052723
+%S A052723 0,0,2,6,24,240,2880,35280,524160,9434880,188697600,4151347200,
+%T A052723 101548339200,2727435110400,79332244992000,2488504322304000,
+%U A052723 83879464660992000,3021209014247424000,115754916599562240000
+%N A052723 E.g.f. (1-x-sqrt(1-2*x+x^2-4*x^3)) / (2*x).
+%H A052723 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=679">Encyclopedia of Combinatorial Structures 679</a>
+%F A052723 Recurrence: a(1)=0; a(3)=6; a(2)=2; a(4)=24; (-2*n-4*n^4-22*n^3-32*n^2+12)*a(n) +(n^3+6*n^2+11*n+6)*a(n+1) +(-2*n^2-15-11*n)*a(n+2) +(n+4)*a(n+3) =0.
+%F A052723 a(n) = n!*A023431(n-2). - _R. J. Mathar_, Oct 18 2013
+%p A052723 spec := [S,{B=Prod(S,S),C=Union(B,S,Z),S=Prod(Z,C)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%p A052723 seq(n!*add(binomial(n-2-k,2*k)*binomial(2*k,k)/(k+1), k=0..floor((n-2)/3)), n=0..18);  # _Mark van Hoeij_, May 12 2013
+%K A052723 easy,nonn
+%O A052723 0,3
+%A A052723 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020965
+Showing 1-1 of 1
+
+%I A020965
+%S A020965 1,4,7,10,12,17,18,23,26,29,30,37,39,41,44,50,54,56,58,63,64,67,73,77,
+%T A020965 79,83,85,88,92,95,96,104,106,112,113,117,120,122,124,131,132,135,138,
+%U A020965 142,143,151,153,158,161,164,168,171,173,177,178,183,188,191,192,197
+%N A020965 a(n) = Sum_{ k = 1 to infinity} floor[n * sqrt(2)^(1-k)].
+%D A020965 C. Kimberling, Problem 10520 in Amer. Math. Mon. 103 (1996) p. 347.
+%H A020965 Jon E. Schoenfield, <a href="/A020965/b020965.txt">Table of n, a(n) for n=1..1000</a>
+%K A020965 nonn
+%O A020965 1,2
+%A A020965 _Clark Kimberling_
+%E A020965 More terms from _Jon E. Schoenfield_, Jan 24 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

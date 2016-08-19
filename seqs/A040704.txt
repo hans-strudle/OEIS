@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040704
+Showing 1-1 of 1
+
+%I A040704
+%S A040704 27,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,
+%T A040704 18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,
+%U A040704 54,18,54,18,54,18,54,18,54,18,54,18,54,18,54,18,54
+%N A040704 Continued fraction for sqrt(732).
+%H A040704 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040704 a(n)=36+18(-1)^n-27*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 19 2009]
+%p A040704 with(numtheory): Digits := 300: convert(evalf(sqrt(732)),confrac);
+%K A040704 nonn,cofr,easy
+%O A040704 0,1
+%A A040704 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

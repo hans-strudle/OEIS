@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038106
+Showing 1-1 of 1
+
+%I A038106
+%S A038106 0,1,2,3,4,5,45240,45241,45242,45243,45244,45245,54000,54001,54002,
+%T A038106 54003,54004,54005,304200,304201,304202,304203,304204,304205,3240000,
+%U A038106 3240001,3240002,3240003,3240004,3240005,3544200,3544201,3544202
+%N A038106 Numbers n with property that n is a substring of its base 6 representation.
+%H A038106 Giovanni Resta, <a href="/A038106/b038106.txt">Table of n, a(n) for n = 1..125</a> (terms < 10^18)
+%e A038106 304201 = base 10 -> 10{304201} = base 6.
+%Y A038106 Cf. A038102-A038105, A228050-A228052, A227549.
+%K A038106 nonn,base
+%O A038106 1,3
+%A A038106 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

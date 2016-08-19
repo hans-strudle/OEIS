@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030661
+Showing 1-1 of 1
+
+%I A030661
+%S A030661 6,15,35,35,77,77,143,143,143,143,221,221,323,323,323,323,437,437,667,
+%T A030661 667,667,667,899,899,899,899,899,899,1147,1147,1517,1517,1517,1517,
+%U A030661 1517,1517,1763,1763,1763,1763
+%N A030661 Product of next 2 primes after n.
+%p A030661 f := n->nextprime(n) * nextprime(nextprime(n));
+%Y A030661 Cf. A000040.
+%K A030661 nonn
+%O A030661 1,1
+%A A030661 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

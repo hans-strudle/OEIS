@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050700
+Showing 1-1 of 1
+
+%I A050700
+%S A050700 15,26,39,49,58,115,117,122,123,126,129,143,147,155,158,159,165,169,
+%T A050700 177,178,183,185,187,203,205,225,226,244,246,265,285,286,289,294,314,
+%U A050700 315,319,326,327,329,335,338,339,355,366,369,394,398,406,415,418,425
+%N A050700 Smallest of the pair n and n-reversed (<>n and no leading zeros) having the same number of prime factors.
+%e A050700 a(n)=143 -> a(n)-reversed=341 gives pair (143,341) of which only the smallest value 143 is withheld.
+%t A050700 rev[n_]:=FromDigits[Reverse[IntegerDigits[n]]]; Select[Range[425],!PrimeQ[#]&&PrimeOmega[#]==PrimeOmega[x=rev[#]]&&#<x&] (* _Jayanta Basu_, May 31 2013 *)
+%Y A050700 Cf. A050699, A050701.
+%K A050700 nonn,base
+%O A050700 0,1
+%A A050700 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

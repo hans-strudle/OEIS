@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015374
+Showing 1-1 of 1
+
+%I A015374
+%S A015374 1,1,1,0,0,1,1,2,1,1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,1,1,2,1,2,
+%T A015374 1,1,1,1,2,1,2,1,1,0,1,0,0,1,1,2,2,2,1,1,1,0,1,1,1,2,2,2,1,
+%U A015374 1,0,0,1,0,1,1,1,0,1,1,1,0,0,0,0,1,1,1,1,1,0,0
+%V A015374 1,1,1,0,0,-1,-1,-2,-1,-1,0,0,1,0,0,0,1,1,1,1,1,1,0,0,-1,-1,-2,-1,-2,
+%W A015374 -1,-1,1,1,2,1,2,1,1,0,1,0,0,-1,-1,-2,-2,-2,-1,-1,-1,0,1,1,1,2,2,2,1,
+%X A015374 1,0,0,-1,0,-1,-1,-1,0,-1,-1,-1,0,0,0,0,1,1,1,1,1,0,0
+%N A015374 Inverse of 1365th cyclotomic polynomial.
+%p A015374 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A015374 CoefficientList[Series[1/Cyclotomic[1365,x],{x,0,90}],x] (* _Harvey P. Dale_, Dec 04 2011 *)
+%K A015374 sign
+%O A015374 0,8
+%A A015374 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038301
+Showing 1-1 of 1
+
+%I A038301
+%S A038301 1,9,11,81,198,121,729,2673,3267,1331,6561,32076,58806,47916,14641,
+%T A038301 59049,360855,882090,1078110,658845,161051,531441,3897234,11908215,
+%U A038301 19405980,17788815,8696754,1771561,4782969,40920957,150043509,305644185
+%N A038301 Triangle whose (i,j)-th entry is binomial(i,j)*9^(i-j)*11^j.
+%D A038301 B. N. Cyvin et al., Isomer enumeration of unbranched catacondensed polygonal systems with pentagons and heptagons, Match, No. 34 (Oct 1996), pp. 109-121.
+%K A038301 nonn,tabl,easy
+%O A038301 0,2
+%A A038301 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

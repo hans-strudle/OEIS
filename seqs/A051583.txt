@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051583
+Showing 1-1 of 1
+
+%I A051583
+%S A051583 1,11,143,2145,36465,692835,14549535,334639305,8365982625,
+%T A051583 225881530875,6550564395375,203067496256625,6701227376468625,
+%U A051583 234542958176401875,8678089452526869375,338445488648547905625,13876265034590464130625
+%N A051583 (2*n+9)!!/9!!, related to A001147 (odd double factorials).
+%C A051583 Row m=9 of the array A(3; m,n) := (2*n+m)!!/m!!, m >= 0, n >= 0.
+%F A051583 a(n) = (2*n+9)!!/9!!; e.g.f.: 1/(1-2*x)^(11/2).
+%p A051583 with(finance):seq(mul(cashflows([k,k,1],0), k=5..n), n=4..22);# [From _Zerinvary Lajos_, Dec 22 2008]
+%Y A051583 Cf. A000165, A001147(n+1), A002866(n+1), A051577-A051582 (rows m=0..8).
+%K A051583 easy,nonn
+%O A051583 0,2
+%A A051583 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

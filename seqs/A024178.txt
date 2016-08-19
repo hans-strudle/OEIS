@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024178
+Showing 1-1 of 1
+
+%I A024178
+%S A024178 2,11,29,61,115,196,312,474,690,971,1331,1781,2335,3010,3820,4782,
+%T A024178 5916,7239,8771,10535,12551,14842,17434,20350,23616,27261,31311,35795,
+%U A024178 40745,46190,52162,58696,65824,73581,82005,91131,100997,111644,123110,135436
+%N A024178 [ (3rd elementary symmetric function of 2,3,...,n+3)/(2+3+...+n+3) ].
+%F A024178 G.f.: x(x^3-3x^2+3x+2)/[(1-x^3)(1-x)^4].
+%K A024178 nonn
+%O A024178 1,1
+%A A024178 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

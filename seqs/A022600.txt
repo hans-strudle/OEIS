@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022600
+Showing 1-1 of 1
+
+%I A022600
+%S A022600 1,5,10,15,30,56,85,130,205,315,465,665,960,1380,1925,2651,
+%T A022600 3660,5020,6775,9070,12126,16115,21220,27765,36235,47101,60810,
+%U A022600 78115,100105,127825,162391,205530,259475,326565
+%V A022600 1,-5,10,-15,30,-56,85,-130,205,-315,465,-665,960,-1380,1925,-2651,
+%W A022600 3660,-5020,6775,-9070,12126,-16115,21220,-27765,36235,-47101,60810,
+%X A022600 -78115,100105,-127825,162391,-205530,259475,-326565
+%N A022600 Expansion of Product (1+q^m)^-5; m=1..inf.
+%F A022600 a(n) ~ (-1)^n * 5^(1/4) * exp(Pi*sqrt(5*n/6)) / (2^(7/4) * 3^(1/4) * n^(3/4)). - _Vaclav Kotesovec_, Aug 27 2015
+%t A022600 nmax = 50; CoefficientList[Series[Product[1/(1 + x^k)^5, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 27 2015 *)
+%K A022600 sign
+%O A022600 0,2
+%A A022600 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

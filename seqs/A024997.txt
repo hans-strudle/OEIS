@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024997
+Showing 1-1 of 1
+
+%I A024997
+%S A024997 2,8,20,58,162,462,1318,3782,10886,31436,91016,264134,768094,2237640,
+%T A024997 6529284,19079574,55826166,163538472,479588844,1407813438,4136307798,
+%U A024997 12163015662,35793391662,105407889930,310620540202,915913267652,2702265079208
+%N A024997 a(n) = number of (s(0), s(1), ..., s(n)) such that every s(i) is an integer, s(0) = 0 = s(n), |s(i) - s(i-1)| = 1 for i = 1,2; |s(i) - s(i-1)| <= 1 for i >= 3. Also a(n) = T(n,n), where T is the array defined in A024996.
+%C A024997 Second differences of the central trinomial coefficients A002426. - _T. D. Noe_, Mar 16 2005
+%t A024997 Rest[Differences[CoefficientList[Series[1/Sqrt[(1+x)(1-3x)],{x,0,30}],x],2]] (* _Harvey P. Dale_, May 11 2013 *)
+%Y A024997 Equals 2 * A025179.
+%K A024997 nonn
+%O A024997 3,1
+%A A024997 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

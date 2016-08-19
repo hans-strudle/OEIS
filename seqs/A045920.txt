@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045920
+Showing 1-1 of 1
+
+%I A045920
+%S A045920 2,9,14,21,25,27,33,34,38,44,57,75,85,86,93,94,98,116,118,121,122,124,
+%T A045920 133,135,141,142,145,147,153,158,164,170,171,174,177,201,202,205,213,
+%U A045920 214,217,218,230,244,245,253,284,285,296,298,301,302,326,332,334,350,356,361
+%N A045920 Numbers n such that factorizations of n and n+1 have the same number of primes (including multiplicities).
+%C A045920 A115186 is a subsequence: A001222(A115186(n))=A001222(A115186(n)+1)=n. - _Reinhard Zumkeller_, Jan 16 2006
+%C A045920 Indices k such that A076191(k) = 0. - _Ray Chandler_, Dec 10 2008
+%D A045920 C. Clawson, Mathematical mysteries, Plenum Press 1996, p. 250
+%H A045920 Reinhard Zumkeller, <a href="/A045920/b045920.txt">Table of n, a(n) for n = 1..10000</a>
+%t A045920 f[n_]:=Plus@@Last/@FactorInteger[n];lst={};Do[If[f[n]==f[n+1],AppendTo[lst,n]],{n,0,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, May 12 2010 *)
+%t A045920 Transpose[Transpose[Select[Partition[Table[{n,PrimeOmega[n]},{n,400}], 2,1], #[[1,2]]==#[[2,2]]&]][[1]]][[1]] (* _Harvey P. Dale_, Feb 21 2012 *)
+%t A045920 Position[Differences[PrimeOmega[Range[400]]], 0] // Flatten (* _Zak Seidov_, Oct 30 2012 *)
+%o A045920 (Haskell)
+%o A045920 import Data.List (elemIndices)
+%o A045920 a045920 n = a045920_list !! (n-1)
+%o A045920 a045920_list = map (+ 1) $ elemIndices 0 a076191_list
+%o A045920 -- _Reinhard Zumkeller_, Mar 23 2012, Oct 11 2011
+%o A045920 (PARI) is(n)=bigomega(n)==bigomega(n+1) \\ _Charles R Greathouse IV_, Sep 14 2015
+%K A045920 nice,nonn
+%O A045920 1,1
+%A A045920 _Felice Russo_
+%E A045920 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

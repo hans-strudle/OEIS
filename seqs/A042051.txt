@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042051
+Showing 1-1 of 1
+
+%I A042051
+%S A042051 1,2,7,65,722,787,1509,2296,3805,17516,21321,38837,60158,98995,
+%T A042051 1149103,10440922,32471869,75384660,3500166229,7075717118,24727317583,
+%U A042051 229621575365,2550564646598,2780186221963,5330750868561,8110937090524,13441687959085,61877688926864
+%N A042051 Denominators of continued fraction convergents to sqrt(549).
+%H A042051 Vincenzo Librandi, <a href="/A042051/b042051.txt">Table of n, a(n) for n = 0..200</a>
+%t A042051 Denominator[Convergents[Sqrt[549], 30]] (* _Vincenzo Librandi_, Jan 13 2014 *)
+%Y A042051 Cf. A042050.
+%K A042051 nonn,frac,easy
+%O A042051 0,2
+%A A042051 _N. J. A. Sloane_.
+%E A042051 More terms from _Vincenzo Librandi_, Jan 13 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

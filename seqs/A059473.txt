@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059473
+Showing 1-1 of 1
+
+%I A059473
+%S A059473 1,2,2,4,10,4,8,32,32,8,16,88,148,88,16,32,224,536,536,224,32,64,544,
+%T A059473 1696,2440,1696,544,64,128,1280,4928,9344,9344,4928,1280,128,256,2944,
+%U A059473 13504,31936,42256,31936,13504,2944,256,512,6656,35456
+%N A059473 Triangle T(n,k) = coefficient of x^n*y^k in 1/(1-2*z-2*w-2*z*w) read by rows in order 00, 10, 01, 20, 11, 02, ...
+%F A059473 G.f.: 1/(1-2*z-2*w-2*z*w).
+%e A059473 1; 2,2; 4,10,4; 8,32,32,8; ...
+%p A059473 read transforms; SERIES2(1/(1-2*z-2*w-2*z*w),x,y,12): SERIES2TOLIST(%,x,y,12);
+%K A059473 nonn,tabl,easy
+%O A059473 0,2
+%A A059473 _N. J. A. Sloane_, Feb 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

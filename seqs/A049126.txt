@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049126
+Showing 1-1 of 1
+
+%I A049126
+%S A049126 1,1,2,6,22,90,393,1789,8378,40050,194492,956448,4752519,23822571,
+%T A049126 120315345,611644737,3127389106,16072642890,82981119252,430187414196,
+%U A049126 2238469102212,11687227631892,61208286479382,321465732705594
+%N A049126 Revert transform of ((x - 1)(3x - 1))/(1 - 3x + x^3).
+%H A049126 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%F A049126 Revert transform of A122100 offset 1. - _Michael Somos_, May 11 2012
+%e A049126 G.f. = x + x^2 + 2*x^3 + 6*x^4 + 22*x^5 + 90*x^6 + 393*x^7 + 1789*x^8 + ...
+%o A049126 (PARI) {a(n) = if( n<1, 0, polcoeff( serreverse(x * (1 - 4*x + 3*x^2) / (1 - 3*x + x^3) + x * O(x^n)), n))}; /* _Michael Somos_, May 11 2012 */
+%Y A049126 Cf. A122100.
+%K A049126 nonn
+%O A049126 1,3
+%A A049126 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

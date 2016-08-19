@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038714
+Showing 1-1 of 1
+
+%I A038714
+%S A038714 0,0,0,0,2,2,2,2,6,6,6,6,12,12,12,12,20,20,20,20,30,30,30,30,42,42,42,
+%T A038714 42,56,56,56,56,72,72,72,72,90,90,90,90,110,110,110,110,132,132,132,
+%U A038714 132,156,156,156,156,182,182,182,182,210,210,210,210,240
+%N A038714 Floor(n/4)*ceiling((n+1)/4).
+%H A038714 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,2,-2,0,0,-1,1).
+%F A038714 a(n) = a(n-1) +2 a(n-4) -2 a(n-5) -a(n-8) +a(n-9). - R. J. Mathar, Mar 11 2012
+%K A038714 nonn
+%O A038714 0,5
+%A A038714 _N. J. A. Sloane_, May 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

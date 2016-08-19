@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038219
+Showing 1-1 of 1
+
+%I A038219
+%S A038219 0,1,0,0,1,1,0,1,0,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1,0,1,1,0,0,1,0,1,0,0,
+%T A038219 1,0,0,1,1,1,0,1,0,0,0,1,1,0,0,0,0,0,1,0,1,1,0,1,1,1,1,1,0,0,1,1,0,0,
+%U A038219 1,1,1,1,1,1,0,1,0,1,0,1,1,0,0,0,1,1,1,0,0,1,0,0,0,1,0,1,0,1,0,0,0,0,0,0,1
+%N A038219 The Ehrenfeucht-Mycielski sequence (0,1-version): a maximally unpredictable sequence.
+%C A038219 Comment from _Christopher Carl Heckman_, Feb 10 2005: The sequence starts 0,1,0 and continues according to the following rule: find the longest sequence at the end that has occurred at least once previously. If there are more than one previous occurrences select the last one. The next digit of the sequence is the opposite of the one following the previous occurrence.
+%D A038219 A. Ehrenfeucht and J. Mycielski, A pseudorandom sequence - how random is it?, Amer. Math. Monthly, 99 (1992), 373-375.
+%H A038219 Reinhard Zumkeller, <a href="/A038219/b038219.txt">Table of n, a(n) for n = 1..5000</a>
+%H A038219 Terry McConnell, <a href="http://barnyard.syr.edu/mseq/mseq.shtml">The Ehrenfeucht-Mycielski Sequence</a>
+%H A038219 K. Sutner, <a href="http://www.cs.cmu.edu/~sutner/papers/em-sequence.ps.gz">The Ehrenfeucht-Mycielski sequence</a>, 2001
+%H A038219 K. Sutner, <a href="/A007061/a007061.pdf">The Ehrenfeucht-Mycielski sequence</a>, 2001 [Cached copy]
+%o A038219 (Haskell)
+%o A038219 a038219 n = a038219_list !! n
+%o A038219 a038219_list = 0 : f [0] where
+%o A038219    f us = a' : f (us ++ [a']) where
+%o A038219         a' = b $ reverse $ map (`splitAt` us) [0..length us - 1] where
+%o A038219            b ((xs,ys):xyss) | vs `isSuffixOf` xs = 1 - head ys
+%o A038219                             | otherwise          = b xyss
+%o A038219         vs = fromJust $ find (`isInfixOf` init us) $ tails us
+%o A038219 -- _Reinhard Zumkeller_, Dec 05 2011
+%Y A038219 Cf. A007061 (1, 2 version).
+%Y A038219 Cf. A201881 (run lengths).
+%Y A038219 Cf. also A253059, A253060, A253061.
+%K A038219 nonn,nice
+%O A038219 1
+%A A038219 _N. J. A. Sloane_, _Mira Bernstein_
+%E A038219 More terms from _Joshua Zucker_, Aug 11 2006
+%E A038219 Offset changed by _Reinhard Zumkeller_, Dec 11 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

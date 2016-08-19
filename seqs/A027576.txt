@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027576
+Showing 1-1 of 1
+
+%I A027576
+%S A027576 100,10172,10460137,12309598,101740172,102025300,1085864492,1086219242
+%N A027576 Numbers n such that n^2 + (n+1)^2 + (n+2)^2 + (n+3)^2 is palindromic.
+%H A027576 P. De Geest, <a href="http://www.worldofnumbers.com/sumsquare.htm">Palindromic Sums of Squares of Consecutive Integers</a>
+%Y A027576 Cf. A027577.
+%K A027576 nonn,base
+%O A027576 1,1
+%A A027576 _Patrick De Geest_
+%E A027576 a(6)-a(8) from _Donovan Johnson_, Aug 26 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015770
+Showing 1-1 of 1
+
+%I A015770
+%S A015770 1,2,3,6,249,498,118578
+%N A015770 Phi(n) | Sigma_12(n).
+%C A015770 sigma_12(n) is the sum of the 12th powers of the divisors of n.
+%C A015770 sigma[24j+12,x]/phi[x] is an integer for j in the range 0,..,500 for x=1,2,3,6,249,498,118578 and supposed to hold for possible larger terms of A015770 and all j. Compare with comments to A015759, A091285, A015762. - _Labos Elemer_, May 27 2004
+%t A015770 Select[Range[1200000],Divisible[DivisorSigma[12,#],EulerPhi[#]]&] (* _Harvey P. Dale_, Dec 04 2015 *)
+%K A015770 nonn
+%O A015770 0,2
+%A A015770 _Robert G. Wilson v_
+%E A015770 Corrected by _Harvey P. Dale_, Dec 04 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

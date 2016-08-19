@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024925
+Showing 1-1 of 1
+
+%I A024925
+%S A024925 1,2,4,9,13,19,25,38,52,64,74,92,104,122,143,172,188,218,236,268,299,
+%T A024925 329,351,393,437,473,523,569,597,646,676,737,788,836,893,959,995,1049,
+%U A024925 1110,1182,1222,1293,1335,1409,1490,1556,1602,1692,1782,1874,1955,2043,2095,2197,2290
+%N A024925 Sum of remainders of n mod p(k), for k = 1,2,3,...,n.
+%K A024925 nonn
+%O A024925 1,2
+%A A024925 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

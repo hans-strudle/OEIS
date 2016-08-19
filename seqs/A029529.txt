@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029529
+Showing 1-1 of 1
+
+%I A029529
+%S A029529 1,11,143,1771,1931,3223,7409,17017,32417,125477,863203
+%N A029529 Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 12 (most significant digit on right).
+%C A029529 This sequence differs from A061965 in that all least significant zeros are removed before concatenation.
+%C A029529 No more terms < 10^7. [Lars Blomberg, Sep 14 2011]
+%H A029529 <a href="/index/N#concat">Index entries for related sequences</a>
+%e A029529 See A029519 for example.
+%Y A029529 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029529 nonn,base,more
+%O A029529 1,2
+%A A029529 _Olivier Gérard_
+%E A029529 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A029529 Additional comments and more terms from Larry Reeves (larryr(AT)acm.org), May 25 2001
+%E A029529 a(11) from _Lars Blomberg_, Sep 14 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053825
+Showing 1-1 of 1
+
+%I A053825
+%S A053825 1,9,28,8,126,252,344,0,27,1134,1332,224,2198,3096,3528,0,
+%T A053825 4914,243,6860,1008,9632,11988,12168,0,125,19782,0,2752,24390,
+%U A053825 31752,29792,0,37296,44226,43344,216,50654,61740,61544,0,68922,86688
+%V A053825 1,-9,-28,8,-126,252,-344,0,27,1134,-1332,-224,-2198,3096,3528,0,
+%W A053825 -4914,-243,-6860,-1008,9632,11988,-12168,0,125,19782,0,-2752,-24390,
+%X A053825 -31752,-29792,0,37296,44226,43344,216,-50654,61740,61544,0,-68922,-86688
+%N A053825 Dirichlet inverse of sigma_3 function (A001158).
+%C A053825 sigma_3(n) is the sum of the cubes of the divisors of n (A001158).
+%D A053825 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 39.
+%F A053825 Dirichlet g.f.: 1/(zeta(x)zeta(x-3))
+%F A053825 Multiplicative with a(p^1) = -1-p^3, a(p^2) = p^3, a(p^e) = 0 for e>=3. _Mitch Harris_ Jun 27, 2005.
+%K A053825 sign,mult
+%O A053825 1,2
+%A A053825 _N. J. A. Sloane_, Apr 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051392
+Showing 1-1 of 1
+
+%I A051392
+%S A051392 13,13,10,13,13,10,13,13,10,13,13,10,13,13,13,10,13,13,10,13,13,10,13,
+%T A051392 13,13,10,13,13,10,13,13,10,13,13,13,10,13,13,10,13,13,10,13,13,10,13,
+%U A051392 13,13,10,13,13,10
+%N A051392 First differences of A052006.
+%t A051392 With[{F = Fibonacci}, Reap[For[n = 0, n < 1000, n++, If[F[n - 1] < 2^Floor[Log[2, F[n]]] && F[n + 1] >= 2^(Floor[Log[2, F[n]]] + 1) && F[n + 2] >= 2^(Floor[Log[2, F[n]]] + 2), Sow[n]]]][[2, 1]]] // Differences (* _Jean-François Alcover_, Feb 27 2016 *)
+%K A051392 nonn,nice
+%O A051392 1,1
+%A A051392 Antti Karttunen and _Patrick De Geest_, Nov 15 1999.
+%E A051392 Does this sequence only contain 10's and 13's?
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

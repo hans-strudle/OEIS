@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001200
+Showing 1-1 of 1
+
+%I A001200 M0726 N0271
+%S A001200 1,1,1,2,3,5,10,24,69,384,5250,232929,28872973
+%N A001200 Number of linear geometries on n (unlabeled) points.
+%C A001200 For the labeled case see A056642.
+%C A001200 Also a(n) = 1 + number of non-isomorphic simple rank-3 matroids on n elements (see A058731); a(n) = number of non-isomorphic 2-partitions of a set of size n. For 1-partitions see A000041.
+%D A001200 Blackburn et al., A catalogue of combinatorial geometries, Math. Comp 27 1973 155-166.
+%D A001200 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 303, #42.
+%D A001200 CRC Handbook of Combinatorial Designs, 1996, pp. 216, 697.
+%D A001200 J. Doyen, Sur le nombre d'espaces lineaires non isomorphes de n points. Bull. Soc. Math. Belg. 19 1967 421-437.
+%D A001200 D. G. Glynn, Rings of geometries II, J. Combin. Theory, A 49 (1988), 26-66.
+%D A001200 D. G. Glynn, A geometrical isomorphism algorithm, Bull. ICA 7 (1993), 36-38.
+%D A001200 G. Heathcote, Linear spaces on 16 points, J. Combin. Designs, 1 (1993), 359-378.
+%D A001200 Ch. Pietsch, On the classification of linear spaces of order 11, J. Comb. Designs, 3 (1995), 185-193.
+%D A001200 P. Robillard, On the weighted finite linear spaces. Bull. Soc. Math. Belg. 22 (1970), 227-241.
+%D A001200 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001200 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001200 A. Betten and D. Betten, <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.86.1899">Linear spaces with at most 12 points</a>, J. Combinatorial Designs, Volume 7, 1999, pp. 119 - 145.
+%H A001200 J. Doyen, <a href="/A001200/a001200.pdf">Sur le nombre d'espaces lineaires non isomorphes de n points</a> [Annotated and scanned copy]
+%Y A001200 Cf. A000041, A056642, A058731, A001548.
+%K A001200 nonn,hard,more,nice
+%O A001200 0,4
+%A A001200 _N. J. A. Sloane_, D.Glynn(AT)math.canterbury.ac.nz
+%E A001200 Dead link to Betten paper replaced with CiteSeer entry (which has full text as cached PDF) _Robert Munafo_, Dec 13 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

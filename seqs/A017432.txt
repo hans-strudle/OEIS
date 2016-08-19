@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017432
+Showing 1-1 of 1
+
+%I A017432
+%S A017432 6561,1475789056,152587890625,2821109907456,23811286661761,
+%T A017432 128063081718016,513798374428641,1677721600000000,4702525276151521,
+%U A017432 11716593810022656,26584441929064321,55895067029733376
+%N A017432 (11n+3)^8.
+%t A017432 (11*Range[0,20]+3)^8 (* _Harvey P. Dale_, Oct 27 2013 *)
+%K A017432 nonn,easy
+%O A017432 0,1
+%A A017432 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

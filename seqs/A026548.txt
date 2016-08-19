@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026548
+Showing 1-1 of 1
+
+%I A026548
+%S A026548 1,4,7,22,42,127,249,746,1476,4414,8766,26215,52158,156041,310799,
+%T A026548 930194,1854072,5550976,11070000,33152042,66139316,198115526,
+%U A026548 395368914,1184511095,2364457980,7084871668,14145343660,42390336619
+%N A026548 a(n) = T(n,0) + T(n,1) + ... + T(n,n), T given by A026536.
+%Y A026548 Cf. A026550.
+%K A026548 nonn
+%O A026548 0,2
+%A A026548 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

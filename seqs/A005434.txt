@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005434
+Showing 1-1 of 1
+
+%I A005434 M0555
+%S A005434 1,2,3,4,6,8,10,13,17,21,27,30,37,47,57,62,75,87,102,116,135,155,180,
+%T A005434 194,220,254,289,312,359,392,438,479,538,595,664,701,772,863,956,1005,
+%U A005434 1115,1205,1317,1414,1552,1677,1836,1920,2074,2249,2444
+%N A005434 Correlations of length n.
+%D A005434 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics, Addison-Wesley Publ., 2nd Ed., 1994. Section 8.4: Flipping Coins
+%D A005434 L. J. Guibas, Periodicities in Strings, Combinatorial Algorithms on Words 1985, NATO ASI Vol. F12, 257-269
+%D A005434 L. J. Guibas and A. M. Odlyzko, Periods in Strings, Journal of Combinatorial Theory A 30:1 (1980) 19-42
+%D A005434 L. J. Guibas and A. M. Odlyzko, String Overlaps, Patterns, Matching and Nontransitive Games, Journal of Combinatorial Theory A 30 (March 1981) 183-208
+%D A005434 H. Harborth, Endliche 0-1-Folgen mit gleichen Teilbloecken, Journal fuer Mathematik, 271 (1974) 139-154
+%D A005434 E. Rivals, S. Rahmann, Combinatorics of Periods in Strings, Journal of Combinatorial Theory - Series A, Vol. 104(1) (2003), pp. 95-113.
+%D A005434 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005434 T. Sillke, <a href="http://www.mathematik.uni-bielefeld.de/~sillke/SEQUENCES/autocorrelation-range.c">Autocorrelation Range</a>
+%H A005434 T. Sillke, <a href="http://www.mathematik.uni-bielefeld.de/~sillke/SEQUENCES/kappa">kappa sequence for words of length n</a>
+%H A005434 T. Sillke, <a href="http://www.mathematik.uni-bielefeld.de/~sillke/SEQUENCES/series018">The autocorrelation function</a>
+%H A005434 E. H. Rivals, <a href="http://www.lirmm.fr/~rivals/RESEARCH/PERIOD/">Autocorrelation of Strings</a>.
+%H A005434 E. H. Rivals, S. Rahmann <a href="http://www.lirmm.fr/~rivals/PUBLI/FILES/RivalsRahmannJCTA03.pdf">Combinatorics of Periods in Strings</a>
+%t A005434 Table[Length[Union[Map[Flatten[Position[Table[Take[#,n-i]==Drop[#,i],{i,0,n-1}],True]-1]&,Tuples[{0,1},n]]]],{n,1,15}] (* _Geoffrey Critzer_, Nov 29 2013 *)
+%Y A005434 Cf. A045690.
+%Y A005434 Cf. A018819 (related to a lower bound for autocorrelations), A045690 (the number of binary strings sharing the same autocorrelation).
+%K A005434 nonn,nice
+%O A005434 1,2
+%A A005434 _Simon Plouffe_, _N. J. A. Sloane_
+%E A005434 More terms and additional references from TORSTEN.SILLKE(AT)LHSYSTEMS.COM
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

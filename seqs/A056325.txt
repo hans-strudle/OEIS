@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056325
+Showing 1-1 of 1
+
+%I A056325
+%S A056325 1,2,4,11,32,117,467,2135,10480,55091,301633,1704115,9819216,57365191,
+%T A056325 338134521,2005134639,11937364184,71254895955,426063226937,
+%U A056325 2550552314219,15280103807200,91588104196415
+%N A056325 Number of reversible string structures with n beads using a maximum of six different colors.
+%C A056325 A string and its reverse are considered to be equivalent. Permuting the colors will not change the structure. Thus aabc, cbaa and bbac are all considered to be identical.
+%D A056325 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056325 Use de Bruijn's generalization of Polya's enumeration theorem as discussed in reference.
+%Y A056325 Cf. A056308.
+%K A056325 nonn
+%O A056325 1,2
+%A A056325 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

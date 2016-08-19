@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015075
+Showing 1-1 of 1
+
+%I A015075
+%S A015075 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015075 0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,
+%U A015075 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015075 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015075 0,0,0,0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,
+%X A015075 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015075 Inverse of 1066th cyclotomic polynomial.
+%p A015075 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015075 sign
+%O A015075 0,1
+%A A015075 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

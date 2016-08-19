@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049115
+Showing 1-1 of 1
+
+%I A049115
+%S A049115 0,0,1,0,1,1,2,0,2,1,2,1,2,2,1,0,1,2,3,1,2,2,3,1,2,2,3,2,3,1,2,0,2,1,
+%T A049115 2,2,3,3,2,1,2,2,3,2,2,3,4,1,3,2,1,2,3,3,2,2,3,3,4,1,2,2,3,0,2,2,3,1,
+%U A049115 3,2,3,2,3,3,2,3,2,2,3,1,4,2,3,2,1,3,3,2,3,2,3,3,2,4,3,1,2,3,2,2,3,1,2,2,2
+%N A049115 Repeatedly apply Euler phi to n; a(n) = number of iterations that are applied to numbers that are not powers of 2.
+%H A049115 T. D. Noe, <a href="/A049115/b049115.txt">Table of n, a(n) for n=1..10000</a>
+%F A049115 The smallest x so that Nest[ EulerPhi, n, x ] = 2^w is just achieved.
+%e A049115 If n is a power of 2, then a(n)=0 by definition. If n=59049, then {59049,39366,13122,4374,1458,486,54,18,6,2,1}. This phi-sequence has a length of 12 and includes 10 non-2-powers, so a(59049)=8.
+%Y A049115 A000010.
+%K A049115 nonn
+%O A049115 1,7
+%A A049115 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

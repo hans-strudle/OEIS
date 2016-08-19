@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018783
+Showing 1-1 of 1
+
+%I A018783
+%S A018783 0,0,1,1,2,1,4,1,5,3,8,1,14,1,16,9,22,1,38,1,45,17,57,1,94,7,102,30,
+%T A018783 138,1,218,1,231,58,298,21,451,1,491,103,644,1,919,1,1005,203,1256,1,
+%U A018783 1784,15,1993,299,2439,1,3365,62,3735,492,4566,1,6252,1,6843,819,8349,107,11096
+%N A018783 Number of partitions of n into parts having a common factor.
+%H A018783 Alois P. Heinz, <a href="/A018783/b018783.txt">Table of n, a(n) for n = 0..10000</a>
+%F A018783 a(n) = -Sum_{d|n, d<n} moebius(n/d)*A000041(d) = A000041(n) - A000837(n). - _Vladeta Jovovic_, Jun 17 2003
+%p A018783 with(numtheory): with(combinat):
+%p A018783 a:= n-> `if`(n=0, 0,
+%p A018783          numbpart(n) -add(mobius(n/d)*numbpart(d), d=divisors(n))):
+%p A018783 seq(a(n), n=0..100); # _Alois P. Heinz_, Nov 29 2011
+%t A018783 A000837[n_] := Sum[ MoebiusMu[n/d]*PartitionsP[d], {d, Divisors[n]}]; a[0] = 0; a[n_] := PartitionsP[n] - A000837[n]; Table[a[n], {n, 0, 66}] (* _Jean-François Alcover_, Oct 03 2013, after Vladeta Jovovic *)
+%Y A018783 Cf. A083710.
+%K A018783 nonn
+%O A018783 0,5
+%A A018783 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

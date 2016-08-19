@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029241
+Showing 1-1 of 1
+
+%I A029241
+%S A029241 1,0,1,0,1,0,1,0,1,1,2,2,2,2,2,2,2,2,3,3,5,4,6,4,6,4,6,5,7,7,9,9,10,
+%T A029241 10,10,10,11,11,13,13,16,15,18,16,19,17,20,19,22,22,25,25,27,27,29,29,
+%U A029241 31,31,34,34,38,37,41,40,44
+%N A029241 Expansion of 1/((1-x^2)*(1-x^9)*(1-x^10)*(1-x^11)).
+%C A029241 Number of partitions of n into parts 2, 9, 10, and 11. - _Vincenzo Librandi_, Jun 03 2014
+%H A029241 Vincenzo Librandi, <a href="/A029241/b029241.txt">Table of n, a(n) for n = 0..1000</a>
+%t A029241 CoefficientList[Series[1/((1 - x^2) (1 - x^9) (1 - x^10) (1 - x^11)), {x, 0, 100}], x] (* _Vincenzo Librandi_, Jun 03 2014 *)
+%K A029241 nonn,easy
+%O A029241 0,11
+%A A029241 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

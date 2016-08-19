@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039758
+Showing 1-1 of 1
+
+%I A039758
+%S A039758 1,1,1,1,4,3,1,9,23,15,1,16,86,176,105,1,25,230,950,1689,945,
+%T A039758 1,36,505,3480,12139,19524,10395,1,49,973,10045,57379,177331,
+%U A039758 264207,135135,1,64,1708,24640,208054,1038016,2924172,4098240,2027025,1,81,2796,53676
+%V A039758 1,1,-1,1,-4,3,1,-9,23,-15,1,-16,86,-176,105,1,-25,230,-950,1689,-945,
+%W A039758 1,-36,505,-3480,12139,-19524,10395,1,-49,973,-10045,57379,-177331,
+%X A039758 264207,-135135,1,-64,1708,-24640,208054,-1038016,2924172,-4098240,2027025,1,-81,2796,-53676
+%N A039758 Triangle of B-analogs of Stirling numbers of first kind.
+%C A039758 Triangle T(n,k), read by rows, given by [1, 0, 1, 0, 1, 0, 1, 0, 1, ...] DELTA [ -1, -2, -3, -4, -5, -6, -7, -8, ...] where DELTA is the operator defined in A084938 . - _Philippe Deléham_, Aug 08 2005
+%H A039758 R. Suter, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/SUTER/sut1.html">Two analogues of a classical sequence</a>, J. Integer Sequences, Vol. 3 (2000), #P00.1.8.
+%K A039758 tabl,sign
+%O A039758 0,5
+%A A039758 Ruedi Suter (suter(AT)math.ethz.ch)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

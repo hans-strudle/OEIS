@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056950
+Showing 1-1 of 1
+
+%I A056950
+%S A056950 1,0,0,18,226,0,0,30800,128172,0,0,3697062,9189144,0,0,95514672,
+%T A056950 188176158,0,0,1143458294,1959992760,0,0,8506375824,13292036472,0,0,
+%U A056950 45760253096,67075640896,0,0,195396517152,272568595860,0,0
+%N A056950 Jacobi form of weight 12 and index 1 associated with a nonexistent Niemeier lattice of Coxeter number 11.
+%C A056950 a(n)>=0, for n<1000.
+%D A056950 Eichler and Zagier, The Theory of Jacobi Forms, Birkhauser 1985.
+%F A056950 E_8*E_{4, 1}+(2h-60)*E_{12, 1} where h=11.
+%K A056950 nonn
+%O A056950 0,4
+%A A056950 Kok Seng Chua (chuaks(AT)ihpc.nus.edu.sg), Jul 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

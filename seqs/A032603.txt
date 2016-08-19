@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032603
+Showing 1-1 of 1
+
+%I A032603
+%S A032603 21,33,57,79,1113,1315,1721,1925,2331,2933,3137,3743,4149,4351,4763,
+%T A032603 5367,5969,6173,6775,7179,7387,7993,8399,89105,97111,101115,103127,
+%U A032603 107129,109133,113135,127141,131151,137159,139163,149169,151171,157189
+%N A032603 Concatenation of n-th prime number and n-th lucky number.
+%Y A032603 Cf. A032604, A000959.
+%K A032603 nonn,base,less
+%O A032603 1,1
+%A A032603 _Patrick De Geest_, May 15 1998
+%E A032603 Edited by _Charles R Greathouse IV_, Apr 30 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

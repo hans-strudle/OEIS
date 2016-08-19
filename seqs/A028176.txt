@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028176
+Showing 1-1 of 1
+
+%I A028176
+%S A028176 1,32,655,10970,164281,2296172,30679075,397562990,5043607261,
+%T A028176 63029650112,779227037095,9558498208610,116583782365441,
+%U A028176 1416013883792852,17145682731588715,207132506435751830
+%N A028176 Expansion of 1/((1-5x)(1-6x)(1-9x)(1-12x)).
+%F A028176 a(n)=(2*12^(n+3)-7*9^(n+3)+14*6^(n+3)-9*5^(n+3))/252. [_Yahia Kahloune_, Jun 03 2013]
+%K A028176 nonn
+%O A028176 0,2
+%A A028176 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

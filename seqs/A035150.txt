@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035150
+Showing 1-1 of 1
+
+%I A035150
+%S A035150 1,96,4464,133760,2897880,48264768,641207744,6954435840,
+%T A035150 62452035180,467536231520,2916146241888,14993052561792,
+%U A035150 61695767581248,187599812159040,302907998183040,676931170946304,7255673126427378,28908305661771648
+%V A035150 1,-96,4464,-133760,2897880,-48264768,641207744,-6954435840,
+%W A035150 62452035180,-467536231520,2916146241888,-14993052561792,
+%X A035150 61695767581248,-187599812159040,302907998183040,676931170946304,-7255673126427378,28908305661771648
+%N A035150 Fourier coefficients of (normalized Delta)^4.
+%C A035150 Normalized Delta generates Ramanujan tau function. The 4th power is a weight-48 cusp form.
+%F A035150 G.f.: q^4 * prod (1-q^n)^96, n=1..infty.
+%e A035150 (normalized Delta)^4 = (tau(1)q+tau(2)q^2+ ... )^4 = q^4-96q^5+4464q^6- ....
+%K A035150 sign,easy
+%O A035150 4,2
+%A A035150 Barry Brent (barryb(AT)primenet.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

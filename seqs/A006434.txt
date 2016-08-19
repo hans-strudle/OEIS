@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006434
+Showing 1-1 of 1
+
+%I A006434 M3708
+%S A006434 4,120,1230,7424,32424,113584,338742,893220,2136618,4721728,9770904
+%N A006434 Tree-rooted toroidal maps.
+%D A006434 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006434 Walsh, T. R. S.; Lehman, A. B.; Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%F A006434 Empirical g.f.: 2*x*(x^6+8*x^5-13*x^4+22*x^3+105*x^2+40*x+2) / (x-1)^10. - _Colin Barker_, Apr 09 2013
+%K A006434 nonn,more
+%O A006434 1,1
+%A A006434 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

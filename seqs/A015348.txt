@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015348
+Showing 1-1 of 1
+
+%I A015348
+%S A015348 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015348 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015348 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015348 Inverse of 1339th cyclotomic polynomial.
+%p A015348 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015348 sign
+%O A015348 0,1
+%A A015348 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

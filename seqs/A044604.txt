@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044604
+Showing 1-1 of 1
+
+%I A044604
+%S A044604 36,100,164,228,295,356,420,484,548,612,676,740,807,868,932,996,1060,
+%T A044604 1124,1188,1252,1319,1380,1444,1508,1572,1636,1700,1764,1831,1892,
+%U A044604 1956,2020,2084,2148,2212,2276,2367,2404,2468,2532
+%N A044604 Numbers n such that string 4,4 occurs in the base 8 representation of n but not of n+1.
+%K A044604 nonn,base
+%O A044604 1,1
+%A A044604 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

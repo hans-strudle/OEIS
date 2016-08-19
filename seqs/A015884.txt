@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015884
+Showing 1-1 of 1
+
+%I A015884
+%S A015884 3,7,113,4739,46804,134370,614063,1669512,15474115,18858140,19180902,
+%T A015884 41486462,492988666,1794101482,34644610027,48670872793,97414216753,
+%U A015884 138669015304,195575194804,543142431219,3173502039447,4968328076747
+%N A015884 A modified Pierce-type expansion for Pi: Pi = a(0)+Sum[ (-1)^Floor(n/2)/Product[a(i),{i,1,n}],{n,1,Infinity} ] = 3 + 1/7 - 1/7*113 - 1/7*113*4739 + 1/7*113*4739*46804 + 1/7*113*4739*46804*134370 - 1/7*113*4739*46804*134370*614063 - 1/7*113*4739*46804*134370*614063*1669512 + ...
+%H A015884 <a href="/index/El#Engel">Index entries for sequences related to Engel expansions</a>
+%F A015884 a(0) = floor(Pi); A(1) = Pi-a(0); a(2*n-1) = floor(1/A(2*n-1)); A(2*n) = 1-a(2*n-1)*A(2*n-1); a(2*n) = ceiling(1/A(2*n)) and A(2*n+1) = a(2*n)*A(2*n)-1 for n >= 1.
+%Y A015884 Cf. A061233.
+%K A015884 nonn
+%O A015884 0,1
+%A A015884 Antreas P. Hatzipolakis (xpolakis(AT)otenet.gr), Jun 02 2000
+%E A015884 Better description and more terms from Antonio G. Astudillo (afg_astudillo(AT)hotmail.com), Jun 28 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

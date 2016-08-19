@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053284
+Showing 1-1 of 1
+
+%I A053284
+%S A053284 0,1,1,1,2,2,1,2,3,3,3,3,4,4,4,5,6,7,6,7,9,8,8,10,12,13,
+%T A053284 13,13,16,17,16,19,21,22,23,25,28,29,30,33,37,39,39,42,48,
+%U A053284 49,50,55,60,64,66,70,77,81,82,89,97,101,105,112,121,126,131,140,151,159,163,173,187,194,202
+%V A053284 0,1,-1,1,-2,2,-1,2,-3,3,-3,3,-4,4,-4,5,-6,7,-6,7,-9,8,-8,10,-12,13,
+%W A053284 -13,13,-16,17,-16,19,-21,22,-23,25,-28,29,-30,33,-37,39,-39,42,-48,
+%X A053284 49,-50,55,-60,64,-66,70,-77,81,-82,89,-97,101,-105,112,-121,126,-131,140,-151,159,-163,173,-187,194,-202
+%N A053284 Coefficients of the '10th order' mock theta function chi(q)
+%D A053284 Youn-Seo Choi, Tenth order mock theta functions in Ramanujan's lost notebook, Inventiones Mathematicae, 136 (1999) 497-569
+%D A053284 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, p. 9
+%F A053284 G.f.: chi(q) = sum for n >= 0 of (-1)^n q^(n+1)^2/((1+q)(1+q^2)...(1+q^(2n+1)))
+%t A053284 Series[Sum[(-1)^n q^(n+1)^2/Product[1+q^k, {k, 1, 2n+1}], {n, 0, 9}], {q, 0, 100}]
+%Y A053284 Other '10th order' mock theta functions are at A053281, A053282, A053283.
+%K A053284 sign,easy
+%O A053284 0,5
+%A A053284 _Dean Hickerson_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

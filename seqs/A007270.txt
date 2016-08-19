@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007270
+Showing 1-1 of 1
+
+%I A007270 M2194
+%S A007270 1,0,0,0,0,0,3,0,0,0,18,18,42,0,135,270,477,648,1980,2988,4140,
+%T A007270 14052,21690,52920,55020,201852,162774,914538,555750,3229524,
+%U A007270 1188399,13301370,1402686,52334268
+%V A007270 1,0,0,0,0,0,-3,0,0,0,-18,-18,42,0,-135,-270,477,648,-1980,-2988,4140,
+%W A007270 14052,-21690,-52920,55020,201852,-162774,-914538,555750,3229524,
+%X A007270 -1188399,-13301370,1402686,52334268
+%N A007270 Zero-field low-temperature series for 3-state Potts model.
+%D A007270 S. Miyashita, D. D. Betts and C. J. Elliott, High-field series expansions and critical properties for the three-state Potts model, J. Phys. A 12 (1979), 1605-1622.
+%D A007270 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A007270 sign
+%O A007270 0,7
+%A A007270 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003640
+Showing 1-1 of 1
+
+%I A003640 M0090
+%S A003640 1,1,1,1,1,2,1,2,1,2,1,2,2,2,1,1,2,2,2,2,1,1,2,1,1,1,4,2,2,2,2,1,2,1,
+%T A003640 2,2,2,2,4,2,1,1,4,2,1,2,2,1,2,2,2,1,2,1,4,1,2,2,2,1,4,1,2,1,2,2,2,1,
+%U A003640 1,4,4,2,2,1,2,2,2,1,4,2,4,1,4,2,1,4,4,1,2,2,2,2,2,2,2,1,4,1,4,2,2,2,2,1,2
+%N A003640 Number of genera of quadratic field with discriminant -n.
+%D A003640 D. A. Buell, Binary Quadratic Forms. Springer-Verlag, NY, 1989, pp. 224-241.
+%D A003640 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003640 Rick L. Shepherd, <a href="http://libres.uncg.edu/ir/uncg/f/Shepherd_uncg_0154M_11099.pdf">Binary quadratic forms and genus theory</a>, Master of Arts Thesis, University of North Carolina at Greensboro, 2013.
+%H A003640 <a href="/index/Qua#quadfield">Index entries for sequences related to quadratic fields</a>
+%F A003640 a(d) = 2^{t-1}, where t = number of distinct prime divisors of d.
+%K A003640 nonn,easy,nice
+%O A003640 3,6
+%A A003640 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

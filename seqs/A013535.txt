@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013535
+Showing 1-1 of 1
+
+%I A013535
+%S A013535 1,1,5,5449,6973,518819753,1489058191,293416964947,2531578641757,
+%T A013535 8778884852410565513,2503198198587351877067,2378459715706347981795671,
+%U A013535 2343990771779851025499037,521048260968673067986908628597,35145358095152621756454620279473
+%N A013535 Numerator of the coefficient [x^(2n)] in the Taylor series sec(cosec(x)-cosech(x))= 1 +x^2/18 +5*x^4/1944 +5449*x^6/3674160 +6973*x^8/52907904 +...
+%Y A013535 Cf. A068917.
+%K A013535 nonn,frac
+%O A013535 0,3
+%A A013535 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013535 Values replaced by numerators. - R. J. Mathar, Dec 20 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

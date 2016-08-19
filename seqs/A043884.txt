@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043884
+Showing 1-1 of 1
+
+%I A043884
+%S A043884 7,13,23,31,39,45,55,61,71,77,87,95,103,109,127,135,141,151,159,167,
+%T A043884 173,183,189,199,205,223,231,237,247,253,263,269,279,287,295,301,311,
+%U A043884 317,327,333,343,351,359,365,383,391,397,407,415
+%N A043884 Numbers n such that 1 and 3 occur juxtaposed in the base 4 representation of n but not of n+1.
+%K A043884 nonn,base
+%O A043884 1,1
+%A A043884 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

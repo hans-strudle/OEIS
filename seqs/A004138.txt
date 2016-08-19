@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004138
+Showing 1-1 of 1
+
+%I A004138 M0872
+%S A004138 1,2,3,8,13,24,37,66,107,186,303,516,849,1436,2377,3998,6639,11134,
+%T A004138 18531,31024,51701,86464,144205,241018,402163,671906,1121463,1873244
+%N A004138 A counter moving problem.
+%D A004138 D. St. P. Barnard, 50 Observer Brain Twisters. Faber and Faber, London, 1962, p. 38.
+%D A004138 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A004138 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A004138 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%p A004138 A004138:=-(-1+z**2-4*z**3+2*z**4)/(z-1)/(2*z**4-z**3+z**2+z-1); [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%K A004138 nonn
+%O A004138 1,2
+%A A004138 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

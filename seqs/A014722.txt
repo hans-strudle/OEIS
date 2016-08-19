@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014722
+Showing 1-1 of 1
+
+%I A014722
+%S A014722 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,1,1,
+%T A014722 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,
+%U A014722 0,0,0,0,0,0,0,0,0,0,0,0
+%V A014722 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,-1,-1,
+%W A014722 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,
+%X A014722 0,0,0,0,0,0,0,0,0,0,0,0
+%N A014722 Inverse of 713th cyclotomic polynomial.
+%p A014722 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014722 sign
+%O A014722 0,1
+%A A014722 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

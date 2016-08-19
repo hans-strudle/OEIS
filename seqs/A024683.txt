@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024683
+Showing 1-1 of 1
+
+%I A024683
+%S A024683 0,0,0,0,0,1,1,2,2,4,5,6,7,8,8,10,12,13,14,15,16,17,18,20,23,24,25,25,
+%T A024683 26,26,32,33,35,36,39,40,41,43,44,46,48,49,52,53,53,54,58,63,64,65,65,
+%U A024683 67,68,71,73,75,77,78,79,80,81,84,90,91,92,92,98,100,104,105,105,107,110,112,114
+%N A024683 a(n) = number of ways p(n) is a sum of two composite numbers r,s satisfying r < s.
+%H A024683 J. Stauduhar, <a href="/A024683/b024683.txt">Table of n, a(n) for n = 1..5000</a>
+%Y A024683 Subsequence of A224708.
+%K A024683 nonn
+%O A024683 1,8
+%A A024683 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

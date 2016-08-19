@@ -1,0 +1,68 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001181
+Showing 1-1 of 1
+
+%I A001181 M1661 N0652
+%S A001181 0,1,2,6,22,92,422,2074,10754,58202,326240,1882960,11140560,67329992,
+%T A001181 414499438,2593341586,16458756586,105791986682,687782586844,
+%U A001181 4517543071924,29949238543316,200234184620736,1349097425104912,9154276618636016
+%N A001181 Number of Baxter permutations of length n.
+%D A001181 E. Ackerman et al., On the number of rectangular partitions, SODA '04, 2004.
+%D A001181 Bonichon, Nicolas; Bousquet-Mélou, Mireille; Fusy, Éric; Baxter permutations and plane bipolar orientations. Sem. Lothar. Combin. 61A (2009/10), Art. B61Ah, 29 pp.
+%D A001181 F. Bousquet-Mélou, Four classes of pattern-avoiding permutations under one roof: generating trees with two labels, Electron. J. Combin. 9 (2002/03), no. 2, Research paper 19, 31 pp.
+%D A001181 W. M. Boyce, Generation of a class of permutations associated with commuting functions, Math. Algorithms, 2 (1967), 19-26.
+%D A001181 T. Y. Chow, Review of "Bonichon, Nicolas; Bousquet-Mélou, Mireille; Fusy, Éric; Baxter permutations and plane bipolar orientations. Sem. Lothar. Combin. 61A (2009/10), Art. B61Ah, 29 pp.", MathSciNet Review MR2734180 (2011m:05023).
+%D A001181 Chung, F. R. K., Graham, R. L., Hoggatt, V. E., Jr. and Kleiman, M., The number of Baxter permutations. J. Combin. Theory Ser. A 24 (1978), no. 3, 382-394.
+%D A001181 Doslic, Tomislav and Veljan, Darko. Logarithmic behavior of some combinatorial sequences. Discrete Math. 308 (2008), no. 11, 2182--2212. MR2404544 (2009j:05019) - From _N. J. A. Sloane_, May 01 2012
+%D A001181 Dulucq, S.; Guibert, O. Baxter permutations. Proceedings of the 7th Conference on Formal Power Series and Algebraic Combinatorics (Noisy-le-Grand, 1995). Discrete Math. 180 (1998), no. 1-3, 143--156. MR1603713 (99c:05004)
+%D A001181 Stefan Felsner, Eric Fusy, Marc Noy, and David Orden. Bijections for Baxter families and related objects. J. Combin. Theory Ser. A, 118(3):993-1020, 2011.
+%D A001181 D. C. Fielder and C. O. Alford, On a conjecture by Hoggatt with extensions to Hoggatt sums and Hoggatt triangles, Fib. Quart., 27 (1989), 160-168.
+%D A001181 P. Gawrychowski, P. K. Nicholson, Optimal Encodings for Range Top-k, Selection, and Min-Max, in Automata, Languages, and Programming, Volume 9134 of the series Lecture Notes in Computer Science, 2015, pp. 593-604.
+%D A001181 S. Giraudo, Algebraic and combinatorial structures on pairs of twin binary trees, Journal of Algebra, Volume 360, Jun 15 2012, Pages 115-157.
+%D A001181 O. Guibert and S. Linusson, Doubly alternating Baxter permutations are Catalan, Discrete Math., 217 (2000), 157-166.
+%D A001181 S. Kitaev, Patterns in Permutations and Words, Springer-Verlag, 2011. see p. 399 Table A.7
+%D A001181 Reiner, V.; Stanton, D.; and Welker, V., The Charney-Davis quantity for certain graded posets. Sem. Lothar. Combin. 50 (2003/04), Art. B50c, 13 pp.
+%D A001181 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001181 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001181 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2, 1999; see Problem 6.55.
+%H A001181 T. D. Noe, <a href="/A001181/b001181.txt">Table of n, a(n) for n = 0..100</a>
+%H A001181 A. Asinowski, G. Barequet, M. Bousquet-Mélou, T. Mansour, R. Pinter, <a href="http://arxiv.org/abs/1011.1889">Orders induced by segments in floorplans and (2-14-3,3-41-2)-avoiding permutations</a>, arXiv:1011.1889 [math.CO], 2010-2012.
+%H A001181 W. M. Boyce, <a href="/A001181/a001181_1.pdf">Generation of a class of permutations associated with commuting functions</a>, 1967; annotated and corrected scanned copy.
+%H A001181 W. M. Boyce, <a href="/A001181/a001181.jpg">Correction to page 25 (Part 1)</a>
+%H A001181 W. M. Boyce, <a href="/A001181/a001181_1.jpg">Correction to Page 25 (Part 2)</a>
+%H A001181 W. M. Boyce, <a href="/A001181/a001181.pdf">Baxter Permutations and Functional Composition</a>, Unpublished Memorandum, Jan 26 1978
+%H A001181 S. Burrill, S. Melczer, M. Mishna, <a href="http://arxiv.org/abs/1411.6606">A Baxter class of a different kind, and other bijective results using tableau sequences ending with a row shape</a>, arXiv preprint arXiv:1411.6606 [math.CO], 2014-2015.
+%H A001181 H. Canary, <a href="http://arxiv.org/abs/math/0309135">Aztec diamonds and Baxter permutations</a>, arXiv:math.CO/0309135.
+%H A001181 G. Chatel, V. Pilaud, <a href="http://arxiv.org/abs/1411.3704">Cambrian Hopf Algebras</a>, arXiv:1411.3704 [math.CO], 2014, 2015.
+%H A001181 T. Y. Chow, H. Eriksson and C. K. Fan, <a href="http://www.combinatorics.org/Volume_11/Abstracts/v11i2a3.html">Chess tableaux</a>, Elect. J. Combin., 11 (2) (2005), #A3.
+%H A001181 J. Cranch, <a href="http://jdc41.user.srcf.net/research/pasting/Pasting.pdf">Representing and Enumerating Two-Dimensional Pasting Diagrams</a>, 2014.
+%H A001181 S. Dulucq and O. Guibert, <a href="http://www.mat.univie.ac.at/~slc/opapers/s33dulgui.html">Permutations de Baxter</a>
+%H A001181 S. Dulucq and O. Guibert, <a href="http://www.sciencedirect.com/science/article/pii/S0012365X96830093">Stack words, standard tableaux and Baxter permutations</a>, Disc. Math. 157 (1996), 91-106.
+%H A001181 P. Gawrychowski, P. K. Nicholson, <a href="http://arxiv.org/abs/1411.6581">Optimal Encodings for Range Top-k, Selection, and Min-Max</a>, arXiv preprint arXiv:1411.6581 [cs.DS], 2014-2015.
+%H A001181 Vincent Pilaud, <a href="http://arxiv.org/abs/1505.07665">Brick polytopes, lattice quotients, and Hopf algebras</a>, arXiv preprint, 2015.
+%H A001181 Wikipedia, <a href="http://en.wikipedia.org/wiki/Baxter_permutation">Baxter permutation</a>
+%F A001181 a(n) = Sum_{k=1..n} C(n+1,k-1) * C(n+1,k) * C(n+1,k+1) ) / (C(n+1,1) * C(n+1,2).
+%F A001181 (n + 1)*(n + 2)*(n + 3)*(3*n - 2)*a(n) = 2*(n + 1)*(9*n^3 + 3*n^2 - 4*n + 4)*a(n - 1) + (3*n - 1)*(n - 2)*(15*n^2 - 5*n - 14)*a(n - 2) + 8*(3*n + 1)*(n - 2)^2*(n - 3)*a(n - 3), n>1. - _Michael Somos_, Jul 19 2002
+%F A001181 (n+2)(n+3)a(n) = (7n^2+7n-2)*a(n-1) + 8(n-1)(n-2)a(n-2); a(0)=a(1)=1 - Richard L. Ollerton (r.ollerton(AT)uws.edu.au), Sep 13 2006
+%F A001181 G.f.: -1 + (1/(3*x^2)) * (x-1 + (1-2*x)*hypergeom([-2/3, 2/3],[1],27*x^2/(1-2*x)^3) - (8*x^3-11*x^2-x)*hypergeom([1/3,  2/3],[2],27*x^2/(1-2*x)^3)/(1-2*x)^2 ). - _Mark van Hoeij_, Oct 23 2011
+%F A001181 a(n) ~ 2^(3*n+5)/(Pi*sqrt(3)*n^4). - _Vaclav Kotesovec_, Oct 01 2012
+%e A001181 a(4) = 22 since all permutations of length 4 are Baxter except 2413 and 3142. - _Michael Somos_, Jul 19 2002
+%e A001181 x + 2*x^2 + 6*x^3 + 22*x^4 + 92*x^5 + 422*x^6 + 2074*x^7 + 10754*x^8 + ...
+%p A001181 C := binomial; A001181 := proc(n) local k; add(C(n+1,k-1)*C(n+1,k)*C(n+1,k+1)/(C(n+1,1)*C(n+1,2)),k=1..n); end;
+%t A001181 A001181[n_]:=HypergeometricPFQ[{-1-n,-n,1-n},{2,3},-1] (* n>0 *) (* Richard L. Ollerton (r.ollerton(AT)uws.edu.au), Sep 13 2006 *)
+%t A001181 a[0]=0; a[1]=1; a[n_] := a[n] = ((7n^2+7n-2)*a[n-1] + 8(n-1)(n-2)*a[n-2]) / ((n+2)(n+3)); Table[a[n], {n, 0, 30}] (* _Jean-François Alcover_, Oct 28 2015, from 3rd formula *)
+%o A001181 (PARI) alias(C, binomial); {a(n) = if( n<0, 0, sum( k=1, n, C(n+1, k-1) * C(n+1, k) * C(n+1, k+1) / (C(n+1,1) * C(n+1,2))))} /* _Michael Somos_, Jul 19 2002 */
+%o A001181 (Haskell)
+%o A001181 a001181 0 = 0
+%o A001181 a001181 n =
+%o A001181    (sum $ map (\k -> product $ map (a007318 (n+1)) [k-1..k+1]) [1..n])
+%o A001181     `div` (a006002 n)
+%o A001181 -- _Reinhard Zumkeller_, Oct 23 2011
+%Y A001181 Cf. A001183, A001185, A046996, A006002, A007318.
+%K A001181 nonn,nice,easy
+%O A001181 0,3
+%A A001181 _N. J. A. Sloane_, _Simon Plouffe_
+%E A001181 Additional comments from _Michael Somos_, Jul 19 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

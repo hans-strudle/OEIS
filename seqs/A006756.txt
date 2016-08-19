@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006756
+Showing 1-1 of 1
+
+%I A006756 M3238
+%S A006756 0,4,5,6,8,16,27,49,92,168,320,613,1177,2262,4432,8696,17072,33531,
+%T A006756 65885,130593,258924
+%N A006756 The generalized Conway-Guy sequence w^{2}.
+%C A006756 See Lunnon for precise definition.
+%D A006756 W. F. Lunnon, Integer sets with distinct subset-sums, Math. Comp., 50 (1988), 297-320.
+%D A006756 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A006756 nonn,more
+%O A006756 0,2
+%A A006756 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

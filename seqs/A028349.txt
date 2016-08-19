@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028349
+Showing 1-1 of 1
+
+%I A028349
+%S A028349 1,5,11,55,131,181,505,929,1331,9119,10301,14041,15251,106601,145541,
+%T A028349 196691,1003001,1284821,1712171,9452549,100030001,106636601,112434211,
+%U A028349 160111061,174464471,924494429,950828059,990707099,1067557601,9140220419,9300770039
+%N A028349 Palindromes of form n^2 + 3*n + 1.
+%H A028349 P. De Geest, <a href="http://www.worldofnumbers.com/sumpower.htm">Palindromic Quasi_Under_Squares of the form n+(n+1)^2</a>
+%Y A028349 Cf. A028348.
+%K A028349 nonn,base
+%O A028349 1,2
+%A A028349 _Patrick De Geest_
+%E A028349 Name corrected and sequence extended by T. D. Noe, Apr 17 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

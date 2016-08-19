@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027448
+Showing 1-1 of 1
+
+%I A027448
+%S A027448 1,15,1,575,65,8,5845,865,175,27,874853,153713,39743,9963,1728,
+%T A027448 1009743,200403,60333,19153,5368,1000,389919909,84873489,28400079,
+%U A027448 10419739,3681784,1105000,216000,3449575767,807843807,292420227
+%N A027448 4th power of the lower triangular mean matrix.
+%F A027448 Numerators of lower triangle of (a[ i, j ])^4 where a[ i, j ] = 1/i if j<=i, 0 if j>i
+%t A027448 rows = 8; m = Table[ If[j <= i, 1/i, 0], {i, 1, rows}, {j, 1, rows}]; m4 = m.m.m.m; Table[ fracs = m4[[i]]; nums = fracs // Numerator; dens = fracs // Denominator; lcm = LCM @@ dens; Table[ nums[[j]]*lcm/dens[[j]], {j, 1, i}], {i, 1, rows}] // Flatten (* _Jean-François Alcover_, Mar 05 2013 *)
+%Y A027448 Cf. A027446, A027447.
+%K A027448 nonn,tabl
+%O A027448 1,2
+%A A027448 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

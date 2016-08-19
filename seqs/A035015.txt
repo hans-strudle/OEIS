@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035015
+Showing 1-1 of 1
+
+%I A035015
+%S A035015 1,2,1,2,4,1,2,5,4,2,1,6,6,6,4,1,5,2,8,4,4,2,1,2,2,3,2,10,12,4,2,5,4,
+%T A035015 6,7,6,11,4,1,2,10,8,6,8,7,5,6,4,4,1,2,5,10,2,5,8,10,16,4,11,1,2,12,2,
+%U A035015 9,6,15,2,6,9,6,10,10,4,1,2,12,10,3,6,16,14,9,4,18,4,4,2,1,2,9,20,10,4
+%N A035015 Period of continued fraction for square root of n-th squarefree integer.
+%H A035015 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Class number theory</a>
+%H A035015 R. Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/cfINTRO.html">An Introduction to Continued Fractions</a>
+%F A035015 a(n) = A003285(A005117(n)). - _Michel Marcus_, Dec 29 2014
+%e A035015 a(2)=1 because 2 is the 2nd smallest squarefree integer and sqrt 2 = [ 1,2,2,2,2,... ] thus has an eventual period of 1.
+%p A035015 sqf:= select(numtheory:-issqrfree,[$2..1000]):
+%p A035015 map(n->nops(numtheory:-cfrac(sqrt(n),'periodic','quotients')[2]),sqf); # _Robert Israel_, Dec 21 2014
+%t A035015 Length[ContinuedFraction[Sqrt[#]][[2]]]&/@Select[ Range[ 2,200], SquareFreeQ] (* _Harvey P. Dale_, Jul 17 2011 *)
+%Y A035015 Cf. A003285, A005117 (squarefree numbers), A013943.
+%K A035015 nonn,easy,nice
+%O A035015 2,2
+%A A035015 David L. Treumann (alewifepurswest(AT)yahoo.com)
+%E A035015 Corrected and extended by _James A. Sellers_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

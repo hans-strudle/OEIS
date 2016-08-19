@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060319
+Showing 1-1 of 1
+
+%I A060319
+%S A060319 1,2,21,610,6765,832040,102334155,190392490709135,1548008755920,
+%T A060319 23416728348467685,2880067194370816120,81055900096023504197206408605,
+%U A060319 2706074082469569338358691163510069157,5358359254990966640871840,57602132235424755886206198685365216,18547707689471986212190138521399707760
+%N A060319 Smallest Fibonacci number with n distinct prime factors.
+%H A060319 R. Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fib.html">Fibonacci numbers with tables of F(0)-F(500)</a>
+%e A060319 a(5) = F(30) = 832040 = 2^3 * 5 * 11 * 41 * 61.
+%t A060319 f[n_]:=Length@FactorInteger[Fibonacci[n]]; lst={};Do[Do[If[f[n]==q,Print[Fibonacci[n]];AppendTo[lst,Fibonacci[n]];Break[]],{n,280}],{q,18}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 23 2009 *)
+%Y A060319 Cf. A001605, A005478, A060320.
+%K A060319 nonn
+%O A060319 0,2
+%A A060319 _Labos Elemer_, Mar 28 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

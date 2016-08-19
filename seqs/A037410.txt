@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037410
+Showing 1-1 of 1
+
+%I A037410
+%S A037410 1,5,25,26,30,31,125,126,130,131,150,151,155,625,626,630,631,650,651,
+%T A037410 655,656,750,751,755,756,775,776,780,3125,3126,3130,3131,3150,3151,
+%U A037410 3155,3156,3250,3251,3255,3256,3275,3276,3280,3281
+%N A037410 Numbers n such that the set of base 2 digits of n equals the set of base 5 digits of n.
+%K A037410 nonn,base
+%O A037410 1,2
+%A A037410 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

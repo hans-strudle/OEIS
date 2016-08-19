@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053419
+Showing 1-1 of 1
+
+%I A053419
+%S A053419 1,2,5,14,38,107,318,972,3111,10410,36371,132656,504636,1998361,
+%T A053419 8224448,35112342,155211522,709123787,3342875421,16234342515,
+%U A053419 81102926848,416244824068,2192018373522,11831511359378,65387590986455
+%N A053419 Number of graphs with loops (symmetric relations) with n edges.
+%Y A053419 Cf. A000666.
+%Y A053419 Cf. A000664 [From _Max Alekseyev_, Jan 22 2010]
+%K A053419 nonn
+%O A053419 0,2
+%A A053419 _Vladeta Jovovic_, Jan 10 2000
+%E A053419 a(16)-a(24) from _Max Alekseyev_, Jan 22 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016763
+Showing 1-1 of 1
+
+%I A016763
+%S A016763 1,177147,48828125,1977326743,31381059609,285311670611,1792160394037,
+%T A016763 8649755859375,34271896307633,116490258898219,350277500542221,
+%U A016763 952809757913927,2384185791015625,5559060566555523
+%N A016763 a(n) = (2*n+1)^11.
+%H A016763 Vincenzo Librandi, <a href="/A016763/b016763.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016763 (MAGMA) [(2*n+1)^11: n in [0..20]]; // _Vincenzo Librandi_, Sep 07 2011
+%o A016763 (Maxima) A016763(n):=(2*n+1)^11$
+%o A016763 makelist(A016763(n),n,0,20); /* _Martin Ettl_, Nov 12 2012 */
+%K A016763 nonn,easy
+%O A016763 0,2
+%A A016763 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

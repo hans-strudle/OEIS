@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051835
+Showing 1-1 of 1
+
+%I A051835
+%S A051835 2,3,5,11,131,191,12821,14741,19391,19991,36563,38183,93239,96269,
+%T A051835 1028201,1074701,1150511,1178711,1243421,1281821,1317131,1333331,
+%U A051835 1407041,1456541,1508051,1532351,1557551,1598951,1600061,1609061
+%N A051835 Palindromic Sophie Germain primes.
+%C A051835 p and 2p+1 are primes (cf. A005384) and p is a palindrome.
+%H A051835 H. Dubner, <a href="http://ksc9.th.com/warut/dubner.html">Palindromic Sophie Germain primes</a>, Journal of Recreational Mathematics, Vol. 26, No. 1, pp. 38-41, 1994.
+%Y A051835 Cf. A002385, A005384.
+%K A051835 base,nonn
+%O A051835 1,1
+%A A051835 _Warut Roonguthai_ Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

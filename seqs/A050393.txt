@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050393
+Showing 1-1 of 1
+
+%I A050393
+%S A050393 1,1,0,3,7,3,31,105,101,419,1971,2923,5800,40388,81147,64075,
+%T A050393 854408,2204543,56096,18070916,58866158,38939227,371701743,
+%U A050393 1544696638,1870286829,7166094999,39743193694,68677654555
+%V A050393 1,-1,0,3,-7,3,31,-105,101,419,-1971,2923,5800,-40388,81147,64075,
+%W A050393 -854408,2204543,-56096,-18070916,58866158,-38939227,-371701743,
+%X A050393 1544696638,-1870286829,-7166094999,39743193694,-68677654555
+%N A050393 Reversion of partitions into distinct parts A000009.
+%H A050393 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%H A050393 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%Y A050393 Cf. A050394.
+%K A050393 sign
+%O A050393 1,4
+%A A050393 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046072
+Showing 1-1 of 1
+
+%I A046072
+%S A046072 1,1,1,1,1,1,1,2,1,1,1,2,1,1,2,2,1,1,1,2,2,1,1,3,1,1,1,2,1,2,1,2,2,1,
+%T A046072 2,2,1,1,2,3,1,2,1,2,2,1,1,3,1,1,2,2,1,1,2,3,2,1,1,3,1,1,2,2,2,2,1,2,
+%U A046072 2,2,1,3,1,1,2,2,2,2,1,3,1,1,1,3,2,1,2,3,1,2,2,2,2,1,2,3,1,1,2,2,1,2
+%N A046072 Decompose multiplicative group of integers modulo n as a product of cyclic groups C1 x C2 x ... x Cm, where |Ci| divides |Cj|, j>i, then a(n) = m.
+%C A046072 The multiplicative group modulo n is the direct product of a(n) cyclic groups. - _Joerg Arndt_, Dec 25 2014
+%C A046072 a(n) = 1 iff n is in A033948. - _Max Alekseyev_, Jan 07 2015
+%D A046072 Shanks, D. Solved and Unsolved Problems in Number Theory, 4th ed. New York: Chelsea, pp. 92-93, 1993.
+%H A046072 Joerg Arndt, <a href="/A046072/b046072.txt">Table of n, a(n) for n = 1..10000</a>
+%H A046072 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ModuloMultiplicationGroup.html">Modulo Multiplication Group.</a>
+%t A046072 f[n_] := Which[OddQ[n], PrimeNu[n], EvenQ[n] && ! IntegerQ[n/4],
+%t A046072   PrimeNu[n] - 1, IntegerQ[n/4] && ! IntegerQ[n/8], PrimeNu[n],
+%t A046072   IntegerQ[n/8], PrimeNu[n] + 1]; Join[{1, 1},
+%t A046072 Table[f[n], {n, 3, 102}]] (* _Geoffrey Critzer_, Dec 24 2014 *)
+%o A046072 (PARI) a(n)=if(n<=2,1, #znstar(n)[3] ); \\ _Joerg Arndt_, Aug 26 2014
+%Y A046072 Cf. A046073 (number of squares in multiplicative group modulo n).
+%K A046072 nonn,nice
+%O A046072 1,8
+%A A046072 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

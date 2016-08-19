@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014257
+Showing 1-1 of 1
+
+%I A014257
+%S A014257 1,2,4,8,6,6,24,16,60,10,0,0,0,144,576,2016,2700,0,384,5120,0,0,0,0,
+%T A014257 24696,21600,0,18816,691200,0,0,1032192,11757312,27993600,6096384,
+%U A014257 39191040,64012032,15240960
+%N A014257 Product of digits of 2^n.
+%t A014257 Array[ Times @@ IntegerDigits[ 2^# ]&, 100 ]
+%K A014257 nonn,base,easy
+%O A014257 0,2
+%A A014257 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

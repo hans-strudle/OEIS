@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057474
+Showing 1-1 of 1
+
+%I A057474
+%S A057474 2,3,6,9,12,14,17,20,23,44,47,63,84,129,236,278,279,297,300,647,726,
+%T A057474 737,2574,2660,4233,4500,8207,11900,16046,21983,23999,24596,24849,
+%U A057474 84929,130926,156308,160046,185142
+%N A057474 Numbers n such that x^n + x^5 + 1 is irreducible over GF(2).
+%C A057474 Next term is > 10^5. [_Joerg Arndt_, Apr 28 2012]
+%C A057474 Next term is > 241000. - _Manfred Scheucher_, Aug 18 2015
+%H A057474 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, section 40.9.3 "Irreducible trinomials of the form 1 + x^k + x^d", p.850
+%t A057474 Do[ If[ ToString[ Factor[ x^n + x^5 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^5 + 1 ], Print[ n ] ], {n, 0, 900} ]
+%o A057474 (Sage)
+%o A057474 P.<x> = GF(2)[]
+%o A057474 for n in range(10^4):
+%o A057474     if (x^n+x^5+1).is_irreducible():
+%o A057474         print(n) # _Joerg Arndt_, Apr 28 2012
+%Y A057474 Cf. A002475.
+%K A057474 nonn,hard,more
+%O A057474 1,1
+%A A057474 _Robert G. Wilson v_, Sep 27 2000
+%E A057474 a(23)-a(34) by _Joerg Arndt_, Apr 28 2012
+%E A057474 a(35)-a(38) by _Manfred Scheucher_, Aug 18 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

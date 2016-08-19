@@ -1,0 +1,52 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006068
+Showing 1-1 of 1
+
+%I A006068 M2253
+%S A006068 0,1,3,2,7,6,4,5,15,14,12,13,8,9,11,10,31,30,28,29,24,25,27,26,16,17,
+%T A006068 19,18,23,22,20,21,63,62,60,61,56,57,59,58,48,49,51,50,55,54,52,53,32,
+%U A006068 33,35,34,39,38,36,37,47,46,44,45,40,41,43,42,127,126,124,125,120,121
+%N A006068 a(n) is Gray-coded into n.
+%C A006068 Equivalently, if binary expansion of n has m bits (say), compute derivative of n (A038554), getting sequence n' of length m-1; sort on n'.
+%C A006068 Inverse of sequence A003188 considered as a permutation of the nonnegative integers, i.e. A006068(A003188(n)) = n = A003188(A006068(n)). - _Howard A. Landman_, Sep 25 2001
+%D A006068 M. Gardner, Mathematical Games, Sci. Amer. Vol. 227 (No. 2, Feb. 1972), p. 107.
+%D A006068 M. Gardner, Knotted Doughnuts and Other Mathematical Entertainments. Freeman, NY, 1986, p. 15.
+%D A006068 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006068 T. D. Noe, <a href="/A006068/b006068.txt">Table of n, a(n) for n=0..1023</a>
+%H A006068 Paul Tarau, <a href="http://logic.csci.unt.edu/tarau/research/2009/fISO.pdf">Isomorphic Data Encodings and their Generalization to Hylomorphisms on Hereditarily Finite Data Types</a>
+%H A006068 <a href="/index/Per#IntegerPermutation">Index entries for sequences that are permutations of the natural numbers</a>
+%F A006068 a(n) =2*a(ceiling[(n+1)/2])+A010060(n-1). If 3*2^(k-1) < n <= 2^(k+1), a(n)=2^(k+1)-1-a(n-2^k); if 2^(k+1) < n <= 3*2^k, a(n)=a(n-2^k)+2^k.
+%F A006068 a(n) = n XOR [n/2] XOR [n/4] XOR [n/8] ... XOR [n/2^m] where m = [log(n)/log(2)] (for n>0) and [x] is integer floor of x. - _Paul D. Hanna_, Jun 04 2002
+%F A006068 a(n) XOR [a(n)/2] = n. [_Paul D. Hanna_, Jan 18 2012]
+%F A006068 A066194(n) = a(n-1) + 1, n>=1 . - _Philippe Deléham_, Apr 29 2005
+%F A006068 Inverse of sequence A003188 . - _Philippe Deléham_, Apr 29 2005
+%F A006068 a(n) = if n<2 then n else 2*m + (n mod 2 + m mod 2) mod 2, with m=a(floor(n/2)). [_Reinhard Zumkeller_, Aug 10 2010]
+%e A006068 The first few values of n' are -,-,1,0,10,11,01,00,100,101,111,110,010,011,001,000,... (for n=0..15) and to put these in lexicographic order we must take n in the order 0,1,3,2,7,6,4,5,15,14,12,13,8,9,11,10,...
+%t A006068 a[n_] := BitXor @@ Table[Floor[n/2^m], {m, 0, Floor[Log[2, n]]}]; a[0]=0; Table[a[n], {n, 0, 69}] (* _Jean-François Alcover_, Jul 19 2012, after _Paul D. Hanna_ *)
+%t A006068 Table[Fold[BitXor, n, Quotient[n, 2^Range[BitLength[n] - 1]]], {n, 0, 70}] (* _Jan Mangaldan_, Mar 20 2013 *)
+%o A006068 (PARI) {a(n)=local(B=n);for(k=1,floor(log(n+1)/log(2)),B=bitxor(B,n\2^k));B} /* _Paul D. Hanna_, Jan 18 2012 */
+%o A006068 (PARI) /* the following routine needs only O(log_2(n)) operations */
+%o A006068 a(n)= {
+%o A006068     my( s=1, ns );
+%o A006068     while ( 1,
+%o A006068         ns = n >> s;
+%o A006068         if ( 0==ns, break() );
+%o A006068         n = bitxor(n, ns);
+%o A006068         s <<= 1;
+%o A006068     );
+%o A006068     return ( n );
+%o A006068 } /* _Joerg Arndt_, Jul 19 2012 */
+%o A006068 (Haskell)
+%o A006068 a006068 n = foldl xor 0 $
+%o A006068                   map (div n) $ takeWhile (<= n) a000079_list :: Integer
+%o A006068 -- _Reinhard Zumkeller_, Apr 28 2012
+%Y A006068 Cf. A038554, A005811, A003188, A014550, A003100.
+%Y A006068 Cf. A054429, A180200. [From _Reinhard Zumkeller_, Aug 15 2010]
+%Y A006068 Cf. A000079, A055975 (first differences).
+%K A006068 nonn,easy,nice
+%O A006068 0,3
+%A A006068 _N. J. A. Sloane_.
+%E A006068 Formula and more terms from _Henry Bottomley_, Jan 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

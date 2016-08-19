@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054119
+Showing 1-1 of 1
+
+%I A054119
+%S A054119 1,2,4,9,32,150,864,5880,46080,408240,4032000,43908480,522547200,
+%T A054119 6745939200,93884313600,1401079680000,22317642547200,377917892352000,
+%U A054119 6778983923712000
+%N A054119 n!+(n-1)!+(n-2)!.
+%H A054119 Vincenzo Librandi, <a href="/A054119/b054119.txt">Table of n, a(n) for n = 0..300</a>
+%F A054119 for n>2, a(n) = (n-2)! * n^2 [From Gary Detlefs, Aug 01 2009]
+%F A054119 a(n)= (n+1)!*(H(n-1)+H(n+1)-H(n-2)-H(n))/2, n>1, where H(n) is the n-th harmonic number. [From Gary Detlefs, Oct 04 2011]
+%F A054119 E.g.f. x + 1/(1-x) - x*log(1-x)= x^2/G(0)/2 where G(k)= 1 + (k+2)/(x - x*(k+1)/(x + k + 1 - x^4/(x^3 +(k+2)*(k+3)/G(k+1)))); (continued fraction, 3rd kind, 4-step). - Sergei N. Gladkovskii, Jul 06 2012
+%F A054119 G.f. G(0) where G(k)= 1 - x/(1 + x/(1 - x - (k+1)/( k+1 - x/Q))); (continued fraction, 3rd kind, 4-step). - Sergei N. Gladkovskii, Jul 28 2012
+%p A054119 seq(n!+(n+1)!+(n+2)!,n=0..30);
+%t A054119 Join[{1,2},Table[n!+(n+1)!+(n+2)!,{n,0,30}]] (* _Vladimir Joseph Stephan Orlovsky_, May 19 2011 *)
+%o A054119 (MAGMA) [1,2],[Factorial(n)+Factorial(n-1)+Factorial(n-2): n in [2..20]]; // Vincenzo Librandi, Oct 05 2011
+%Y A054119 Cf. A001048, A030495, A108217.
+%Y A054119 Equals T(n, 3), array T as in A054115.
+%K A054119 nonn
+%O A054119 0,2
+%A A054119 _Clark Kimberling_
+%E A054119 Simpler definition from _Miklos Kristof_, Jun 16 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,81 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014234
+Showing 1-1 of 1
+
+%I A014234
+%S A014234 2,3,7,13,31,61,127,251,509,1021,2039,4093,8191,16381,32749,65521,
+%T A014234 131071,262139,524287,1048573,2097143,4194301,8388593,16777213,
+%U A014234 33554393,67108859,134217689,268435399,536870909,1073741789,2147483647
+%N A014234 Largest prime <= 2^n.
+%C A014234 Calculated by computing all primes < 2^32 via Sieve of Eratosthenes over 2^28 bytes, omitting evens. Final two terms added (n=31,n=32) agree with Smith (see existing on known-math link); values of pi(2^n) calculated as by-product agree with A007053. - Fred Curtis (fred(AT)f2.org), Dec 08 2009
+%D A014234 D. E. Knuth, The Art of Computer Programming. Addison-Wesley, Reading, MA, Vol. 2, p. 390.
+%H A014234 T. D. Noe, <a href="/A014234/b014234.txt">Table of n, a(n) for n=1..1000</a>
+%H A014234 Harry J. Smith, <a href="http://www.math.niu.edu/~rusin/known-math/98/pi_x">PrimePi2 - Computes the Prime Pi(x) counting function</a> [Broken link]
+%H A014234 Harry J. Smith, <a href="/A014234/a014234.txt">PrimePi2 - Computes the Prime Pi(x) counting function</a> [Cached copy]
+%t A014234 PrevPrim[n_] := Block[{k = n - 1}, While[ !PrimeQ[k], k-- ]; k]; Table[ Abs[ PrevPrim[2^n]], {n, 1, 30} ]
+%t A014234 Join[{2},NextPrime[2^Range[2,40],-1]] (* _Harvey P. Dale_, Jun 26 2011 *)
+%o A014234 (C++)
+%o A014234 .// Calculate number of primes pi(2^n) for n=2..32 (see A007053)
+%o A014234 .// Calculate max prime <= 2^n for n=2..32 (see A014234)
+%o A014234 .
+%o A014234 .// C++ source. Compiles happily under g++. Assumes int >= 32 bits.
+%o A014234 .
+%o A014234 .#include <stdio.h>
+%o A014234 .
+%o A014234 .#define sieve_log2_bits_per_word 5
+%o A014234 .#define sieve_root_bits 16
+%o A014234 .#define sieve_bits (sieve_root_bits * 2)
+%o A014234 .#define sieve_square_root (1 << sieve_root_bits)
+%o A014234 .#define sieve_word_index(odd_x) ((odd_x) >> (sieve_log2_bits_per_word + 1))
+%o A014234 .#define sieve_bit_mask(odd_x) (1 << (((odd_x) >> 1) & ((1 << sieve_log2_bits_per_word) - 1)))
+%o A014234 .#define sieve_test(odd_x) (sieve_words[sieve_word_index(odd_x)] & sieve_bit_mask(odd_x))
+%o A014234 .#define sieve_clear(odd_x) (sieve_words[sieve_word_index(odd_x)] &= ~sieve_bit_mask(odd_x))
+%o A014234 .
+%o A014234 .unsigned int sieve_words[1 << (sieve_bits - sieve_log2_bits_per_word - 1)];
+%o A014234 .
+%o A014234 .int main(int argc, char *argv[]) {
+%o A014234 ...for (int i = sizeof(sieve_words) / sizeof(sieve_words[0]); --i >= 0; ) {
+%o A014234 .....sieve_words[i] = (unsigned int) -1;
+%o A014234 ...}
+%o A014234 .
+%o A014234 ...sieve_clear(1);
+%o A014234 ...for (int i = 3; i < sieve_square_root; i += 2) {
+%o A014234 .....if (((i + 1) & i) == 0) {
+%o A014234 .......int log2i = 0;
+%o A014234 .......for (int j = i; j > 0; j>>=1) { log2i++; }
+%o A014234 .......printf("Initializing sieve -- 2^%d\n", log2i);
+%o A014234 .....}
+%o A014234 .....if (sieve_test(i)) {
+%o A014234 .......unsigned int delta = i * 2;
+%o A014234 .......for (unsigned int j = i + delta; j > delta; j += delta) {
+%o A014234 .........sieve_clear(j);
+%o A014234 .......}
+%o A014234 .....}
+%o A014234 ...}
+%o A014234 ...int prime_pi = 1; // 2
+%o A014234 ...unsigned int i;
+%o A014234 ...unsigned int last_p;
+%o A014234 ...for (i = 3; i > 1; i += 2) {
+%o A014234 .....if (sieve_test(i)) {
+%o A014234 .......prime_pi++;
+%o A014234 .......last_p = i;
+%o A014234 .....}
+%o A014234 .... if (((i + 1) & i) == 0) {
+%o A014234 .......int log2i = 0;
+%o A014234 .......for (unsigned int j = i; j > 0; j>>=1) { log2i++; }
+%o A014234 .......printf("%d primes < 2^%d -- last prime %u\n", prime_pi, log2i, last_p);
+%o A014234 .....}
+%o A014234 ...}
+%o A014234 ...return 0;
+%o A014234 .}
+%o A014234 ./* Fred Curtis (fred(AT)f2.org), Dec 08 2009*/
+%o A014234 (PARI) a(n) = precprime(2^n) \\ _Michel Marcus_, Aug 08 2013
+%Y A014234 Cf. A000079.
+%Y A014234 Cf. A013603 (2^n - a(n)).
+%K A014234 nonn,changed
+%O A014234 1,1
+%A A014234 _Jud McCranie_
+%E A014234 Terms for n=31, n=32 added by Fred Curtis (fred(AT)f2.org), Dec 08 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

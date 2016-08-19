@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033595
+Showing 1-1 of 1
+
+%I A033595
+%S A033595 1,0,21,136,465,1176,2485,4656,8001,12880,19701,28920,41041,56616,
+%T A033595 76245,100576,130305,166176,208981,259560,318801,387640,467061,558096,
+%U A033595 661825,779376,911925,1060696,1226961
+%N A033595 (n^2-1)*(2*n^2-1).
+%K A033595 nonn
+%O A033595 0,3
+%A A033595 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

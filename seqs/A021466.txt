@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021466
+Showing 1-1 of 1
+
+%I A021466
+%S A021466 0,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,
+%T A021466 6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,
+%U A021466 2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2,1,6,4,5,0,2
+%N A021466 Decimal expansion of 1/462.
+%F A021466 a(n)=(1/30)*{(n mod 6)+16*[(n+1) mod 6]-19*[(n+2) mod 6]+11*[(n+3) mod 6]-4*[(n+4) mod 6]+31*[(n+5) mod 6]}-5*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Nov 11 2009]
+%t A021466 Join[{0,0},RealDigits[1/462,10,120][[1]]] (* _Harvey P. Dale_, Oct 16 2011 *)
+%K A021466 nonn,cons
+%O A021466 0,3
+%A A021466 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

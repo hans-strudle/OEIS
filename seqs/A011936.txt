@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011936
+Showing 1-1 of 1
+
+%I A011936
+%S A011936 0,0,0,0,0,4,13,32,64,116,193,304,456,660,924,1260,1680,2196,2824,
+%T A011936 3577,4472,5524,6752,8173,9808,11676,13800,16200,18900,21924,25296,
+%U A011936 29044,33193,37772,42808,48332,54373
+%N A011936 [ n(n-1)(n-2)(n-3)/26 ].
+%K A011936 nonn
+%O A011936 0,6
+%A A011936 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

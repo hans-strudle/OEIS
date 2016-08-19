@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026520
+Showing 1-1 of 1
+
+%I A026520
+%S A026520 1,1,2,4,8,20,38,104,196,556,1052,3032,5774,16778,32146,93872,180772,
+%T A026520 529684,1024256,3008864,5837908,17184188,33433996,98577712,192239854,
+%U A026520 567591142,1109049320,3278348608,6416509142,18986482250
+%N A026520 a(n) = T(n,n), T given by A026519. Also a(n) = number of integer strings s(0),...,s(n), counted by T, such that s(n)=0.
+%Y A026520 For n>1, a(n) = 2*A026554(n-1).
+%K A026520 nonn
+%O A026520 0,3
+%A A026520 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

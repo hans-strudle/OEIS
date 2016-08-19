@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039302
+Showing 1-1 of 1
+
+%I A039302
+%S A039302 1,3,11,53,261,1303,6511,32553,162761,813803,4069011,20345053,
+%T A039302 101725261,508626303,2543131511,12715657553,63578287761,317891438803,
+%U A039302 1589457194011,7947285970053,39736429850261,198682149251303,993410746256511
+%N A039302 Number of distinct quadratic residues mod 5^n.
+%C A039302 Number of distinct n-digit suffixes of base 5 squares.
+%H A039302 Vincenzo Librandi, <a href="/A039302/b039302.txt">Table of n, a(n) for n = 0..1000</a>
+%H A039302 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (5,1,-5).
+%F A039302 a(n) = floor((5^n+3)*5/12).
+%F A039302 G.f.: (1-2*x-5*x^2)/((1-x)*(1+x)*(1-5*x)). [Colin Barker, Mar 14 2012]
+%F A039302 a(n) = 5*a(n-1) +a(n-2) -5*a(n-3). _Vincenzo Librandi_, Apr 21 2012
+%t A039302 CoefficientList[Series[(1-2*x-5*x^2)/((1-x)*(1+x)*(1-5*x)),{x,0,30}],x] (* or *)LinearRecurrence[{5,1,-5},{1,3,11},30] (* _Vincenzo Librandi_, Apr 21 2012 *)
+%o A039302 (MAGMA) I:=[1, 3, 11]; [n le 3 select I[n] else 5*Self(n-1)+Self(n-2)-5*Self(n-3): n in [1..30]]; // _Vincenzo Librandi_, Apr 21 2012
+%K A039302 nonn,easy
+%O A039302 0,2
+%A A039302 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

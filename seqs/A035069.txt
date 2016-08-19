@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035069
+Showing 1-1 of 1
+
+%I A035069
+%S A035069 5,15,45,142,448,1415,4473,14143,44722,141422,447214,1414214,4472136,
+%T A035069 14142136,44721360,141421357,447213596,1414213563,4472135955,
+%U A035069 14142135624,44721359550,141421356238,447213595500,1414213562374
+%N A035069 a(n) is root of square starting with digit 2: first term of runs.
+%F A035069 ceiling(sqrt((2*10^n))
+%Y A035069 Cf. A067472 (squares), A035076 (2..9).
+%K A035069 nonn,base
+%O A035069 0,1
+%A A035069 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

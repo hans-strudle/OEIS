@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011607
+Showing 1-1 of 1
+
+%I A011607
+%S A011607 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A011607 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A011607 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%V A011607 0,1,1,-1,1,-1,-1,1,1,1,-1,1,-1,1,1,1,1,-1,1,-1,-1,-1,1,-1,-1,1,1,-1,
+%W A011607 1,-1,1,1,1,-1,-1,-1,1,-1,-1,-1,-1,1,-1,-1,1,-1,-1,-1,-1,1,1,1,1,1,-1,
+%X A011607 -1,1,1,-1,-1,1,1,1,1,1,-1,-1,-1,-1,1,-1,-1,1,-1,-1,-1,-1,1,-1,-1,-1
+%N A011607 Legendre symbol (n,113).
+%D A011607 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers. 3rd ed., Oxford Univ. Press, 1954, p. 68.
+%K A011607 sign,mult
+%O A011607 0,1
+%A A011607 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

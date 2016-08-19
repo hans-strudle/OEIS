@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059145
+Showing 1-1 of 1
+
+%I A059145
+%S A059145 15,54,141,324,699,1458,2985,6048,12183,24462,49029,98172,196467,
+%T A059145 393066,786273
+%N A059145 A hierarchical sequence (S(W3{2,2}*cc) - see A059126).
+%H A059145 J. Wallgren, <a href="/A059126/a059126.txt">Hierarchical sequences</a>
+%F A059145 Conjectures from _Colin Barker_, Oct 07 2015: (Start)
+%F A059145 a(n) = 3*(-11+2^(4+n)-3*n).
+%F A059145 a(n) = 4*a(n-1)-5*a(n-2)+2*a(n-3) for n>2.
+%F A059145 G.f.: 3*(2*x-5) / ((x-1)^2*(2*x-1)).
+%F A059145 (End)
+%K A059145 easy,nonn,more
+%O A059145 0,1
+%A A059145 _Jonas Wallgren_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

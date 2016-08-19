@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062319
+Showing 1-1 of 1
+
+%I A062319
+%S A062319 1,1,3,4,9,6,49,8,25,19,121,12,325,14,225,256,65,18,703,20,861,484,
+%T A062319 529,24,1825,51,729,82,1653,30,29791,32,161,1156,1225,1296,5329,38,
+%U A062319 1521,1600,4961,42,79507,44,4005,4186,2209,48,9457,99,5151,2704,5565,54
+%N A062319 Number of divisors of n^n, or of A000312.
+%H A062319 Harry J. Smith, <a href="/A062319/b062319.txt">Table of n, a(n) for n=0..1000</a>
+%F A062319 a(n) = A000005(A000312(n)). [_Enrique Pérez Herrero_, Nov 09 2010]
+%t A062319 A062319[n_IntegerQ]:=DivisorSigma[0,n^n]; (* _Enrique Pérez Herrero_, Nov 09 2010 *)
+%o A062319 (PARI) je=[]; for(n=0,200,je=concat(je,numdiv(n^n))); je
+%o A062319 (PARI) { for (n=0, 1000, write("b062319.txt", n, " ", numdiv(n^n)); ) } \\ _Harry J. Smith_, Aug 04 2009
+%o A062319 (PARI) a(n)=local(fm);fm=factor(n);prod(k=1,matsize(fm)[1],fm[k,2]*n+1) \\ _Franklin T. Adams-Watters_, May 03 2011
+%o A062319 (MAGMA) [NumberOfDivisors(n^n): n in  [0..60]]; // _Vincenzo Librandi_, Nov 09 2014
+%Y A062319 Cf. A000312.
+%Y A062319 Cf. A000005, A046798, A077592, A035116. [From _Enrique Pérez Herrero_, Nov 09 2010]
+%K A062319 easy,nonn
+%O A062319 0,3
+%A A062319 Jason Earls (zevi_35711(AT)yahoo.com), Jul 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

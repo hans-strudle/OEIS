@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058584
+Showing 1-1 of 1
+
+%I A058584
+%S A058584 1,5,5,9,14,19,34,55,69,104,164,209,283
+%V A058584 1,-5,-5,-9,-14,-19,-34,-55,-69,-104,-164,-209,-283
+%N A058584 McKay-Thompson series of class 24a for Monster.
+%D A058584 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058584 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058584 T24a = 1/q - 5*q - 5*q^3 - 9*q^5 - 14*q^7 - 19*q^9 - 34*q^11 - 55*q^13 - ...
+%Y A058584 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%Y A058584 Cf. A058491.
+%K A058584 sign
+%O A058584 -1,2
+%A A058584 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

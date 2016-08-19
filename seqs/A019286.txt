@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019286
+Showing 1-1 of 1
+
+%I A019286
+%S A019286 168,10752,331520,691200,1556480,1612800,106151936,5099962368
+%N A019286 Let sigma_m (n) be result of applying sum-of-divisors function m times to n; call n (m,k)-perfect if sigma_m (n) = k*n; sequence gives the (2,9)-perfect numbers.
+%C A019286 See also the Cohen-te Reile links under A019276.
+%C A019286 No other terms < 5*10^11. - _Jud McCranie_, Feb 08 2012
+%C A019286 4010593484800 is also a term. See comment in A019278. - _Michel Marcus_, May 15 2016
+%H A019286 Graeme L. Cohen and Herman J. J. te Riele, <a href="http://projecteuclid.org/euclid.em/1047565640">Iterating the sum-of-divisors function</a>, Experimental Mathematics, 5 (1996), pp. 93-100.
+%o A019286 (PARI) isok(n) = sigma(sigma(n))/n  == 9; \\ _Michel Marcus_, May 12 2016
+%Y A019286 Cf. A000668, A019278, A019279, A019282, A019283, A019284.
+%K A019286 nonn,more,changed
+%O A019286 1,1
+%A A019286 _N. J. A. Sloane_.
+%E A019286 a(8) by _Jud McCranie_, Jan 28 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

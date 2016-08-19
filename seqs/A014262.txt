@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014262
+Showing 1-1 of 1
+
+%I A014262
+%S A014262 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,
+%T A014262 1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014262 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014262 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,
+%W A014262 -1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014262 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014262 Inverse of 253rd cyclotomic polynomial.
+%H A014262 Vincenzo Librandi, <a href="/A014262/b014262.txt">Table of n, a(n) for n = 0..1000</a>
+%p A014262 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014262 CoefficientList[Series[1/Cyclotomic[253, x], {x, 0, 200}], x] (* _Vincenzo Librandi_, Apr 07 2014 *)
+%o A014262 (PARI) Vec(1/polcyclo(253)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%Y A014262 Cf. similar sequences listed in A240328, A240467.
+%K A014262 sign,easy
+%O A014262 0,1
+%A A014262 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

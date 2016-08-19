@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055940
+Showing 1-1 of 1
+
+%I A055940
+%S A055940 133,403,583,713,817,2077,2623,2923,4453,4717,5311,5773,7093,7747,
+%T A055940 9313,11023,11581,11653,12877,14353,15553,19303,20803,21409,21733,
+%U A055940 21971,24307,31169,35033,39283,39337,43873,46297,46357,50573,50879,53863
+%N A055940 Counterbalanced numbers: Composite n such that phi(n)/(sigma(n)-n) is an integer.
+%C A055940 q=A000010(n)/A001065(n) is integer and n is composite.
+%H A055940 Donovan Johnson, <a href="/A055940/b055940.txt">Table of n, a(n) for n = 1..10000</a>
+%e A055940 n=133=7*19: phi(133)=108, sigma(133)-133=1+7+19=27, q=4
+%t A055940 Do[s=EulerPhi[n]/(DivisorSigma[1, n]-n); If[ !PrimeQ[n]&&IntegerQ[s], Print[n]], {n, 2, 1000000}]
+%o A055940 (PARI) is(n)=!isprime(n) && n>1 && eulerphi(n)%(sigma(n)-n)==0 \\ _Charles R Greathouse IV_, Jan 02 2014
+%Y A055940 Cf. A000010, A001065, A068418, A020492, A070037.
+%K A055940 nonn
+%O A055940 1,1
+%A A055940 _Robert G. Wilson v_, Jul 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

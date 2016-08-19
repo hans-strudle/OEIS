@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029463
+Showing 1-1 of 1
+
+%I A029463
+%S A029463 1,2,3,6,9,17,18,27,34,36,44,51,54,68,81,99,102,108,153,162,204,289,
+%T A029463 306,324,340,360,408,442,459,486,536,540,578,612,648,680,702,729,867,
+%U A029463 908,918,972,1020,1080,1156,1224,1326,1377,1458,1620,1683,1734,1836
+%N A029463 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 18 (most significant digit on left).
+%Y A029463 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029463 nonn,base
+%O A029463 1,2
+%A A029463 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

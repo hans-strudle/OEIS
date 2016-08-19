@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053282
+Showing 1-1 of 1
+
+%I A053282
+%S A053282 0,1,1,2,2,2,4,4,4,6,7,8,10,11,12,16,18,20,24,26,30,36,40,44,52,58,64,
+%T A053282 74,82,91,104,116,128,144,159,176,198,218,240,268,294,324,360,394,432,
+%U A053282 478,524,572,630,688,752,826,900,980,1072,1168,1270,1386,1505,1634
+%N A053282 Coefficients of the '10th order' mock theta function psi(q)
+%D A053282 Youn-Seo Choi, Tenth order mock theta functions in Ramanujan's lost notebook, Inventiones Mathematicae, 136 (1999) 497-569
+%D A053282 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, p. 9
+%F A053282 G.f.: psi(q) = sum for n >= 0 of q^((n+1)(n+2)/2)/((1-q)(1-q^3)...(1-q^(2n+1)))
+%t A053282 Series[Sum[q^((n+1)(n+2)/2)/Product[1-q^(2k+1), {k, 0, n}], {n, 0, 12}], {q, 0, 100}]
+%Y A053282 Other '10th order' mock theta functions are at A053281, A053283, A053284.
+%K A053282 nonn,easy
+%O A053282 0,4
+%A A053282 _Dean Hickerson_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

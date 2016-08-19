@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038861
+Showing 1-1 of 1
+
+%I A038861
+%S A038861 26,56,296,316,386,866,936,1016,1206,1216,1736,1946,2196,2646,2716,
+%T A038861 2736,2906,3096,3176,4376,4706,4816,4886,5256,5616,5886,6146,6516,
+%U A038861 6536,7516,7936,8216,8666,8766,9136,9576,10136,10586,10816,10836,11096
+%N A038861 Numbers n such that n ends with '6' and is difference between two cubes in at least one way.
+%K A038861 nonn,base
+%O A038861 1,1
+%A A038861 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

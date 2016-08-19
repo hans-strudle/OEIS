@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045622
+Showing 1-1 of 1
+
+%I A045622
+%S A045622 1,25,362,3973,36646,299530,2238676,15613741,103054094,650194974,
+%T A045622 3950996556,23257207714,133217073276,745218012084,4083224828328,
+%U A045622 21966983072637,116268166691358,606474982072982,3122157367765788
+%N A045622 Convolution of A000108 (Catalan numbers) with A045543.
+%C A045622 Also convolution of A045530 with A000984 (central binomial coefficients); also convolution of A045505 with A000302 (powers of 4).
+%F A045622 a(n)= binomial(n+6, 5)*(4^(n+1)-A000984(n+6)/A000984(5))/2, A000984(n)=binomial(2*n, n); G.f. c(x)/(1-4*x)^6, where c(x) = g.f. for Catalan numbers.
+%K A045622 easy,nonn
+%O A045622 1,2
+%A A045622 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

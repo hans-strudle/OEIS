@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032948
+Showing 1-1 of 1
+
+%I A032948
+%S A032948 1,2,3,4,5,6,7,8,9,10,11,12,13,26,39,52,65,78,91,104,117,130,143,156,
+%T A032948 169,170,171,172,173,174,175,176,177,178,179,180,181,338,339,340,341,
+%U A032948 342,343,344,345,346,347,348,349,350,507,508
+%N A032948 Numbers n such that base 13 representation Sum{d(i)*13^(m-i): i=0,1,...,m} has d(i)=0 for all odd i. Here m is the position of the leading bit of n.
+%o A032948 (PARI) isok(n) = {my(d = digits(n, 13)); forstep (k=2, #d, 2, if (d[k], return (0));); return (1);} \\ _Michel Marcus_, Jun 03 2015
+%K A032948 nonn,base
+%O A032948 1,2
+%A A032948 _Clark Kimberling_
+%E A032948 Name corrected by _Michel Marcus_, Jun 03 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

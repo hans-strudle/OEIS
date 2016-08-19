@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053800
+Showing 1-1 of 1
+
+%I A053800
+%S A053800 1,2,4,8,14,24,38,58,86,124,174,238,320,422,548,702,886,1106,1366,
+%T A053800 1670,2024,2432,2900,3434,4040,4724,5492,6352,7310,8374,9552,10850,
+%U A053800 12278,13844,15556,17424,19456,21662,24052,26636,29424,32426,35654,39118
+%N A053800 Number of basis partitions of n+25 with Durfee square size 5.
+%D A053800 Hirschhorn, M. D., Basis partitions and Rogers-Ramanujan partitions, Discrete Math. 205 (1999), 241-243.
+%F A053800 G.f.: (1+q)(1+q^2)(1+q^3)(1+q^4)(1+q^5)/((1-q)(1-q^2)(1-q^3)(1-q^4)(1-q^5)).
+%K A053800 easy,nonn
+%O A053800 0,2
+%A A053800 _James A. Sellers_, Mar 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

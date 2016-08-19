@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006246
+Showing 1-1 of 1
+
+%I A006246 M0920
+%S A006246 1,1,1,2,3,20,242,6405,316835
+%N A006246 Number of primitive sorting networks on n elements.
+%D A006246 M. H. Klin et al., "2D-configurations and clique-cyclic orientations of the graphs L(K_p)", pages 149-162 of Reports in Molecular Theory, Vol. 1, 1990.
+%D A006246 D. E. Knuth, ``Axioms and hulls,'' Lect. Notes Comp. Sci., Vol. 606.
+%D A006246 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006246 <a href="/index/So#sorting">Index entries for sequences related to sorting</a>
+%Y A006246 Cf. A006245.
+%K A006246 nonn
+%O A006246 1,4
+%A A006246 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

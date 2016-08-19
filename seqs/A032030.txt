@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032030
+Showing 1-1 of 1
+
+%I A032030
+%S A032030 2,2,8,46,276,1836,12712,90610,661652,4922404,37178736,284330552,
+%T A032030 2197474456,17136206984,134667604360,1065457242054,8479671583004,
+%U A032030 67841927540372,545314544677904,4401667141277988
+%N A032030 Number of series-reduced planted planar trees with n leaves of 2 colors where any 2 subtrees extending from the same node are different.
+%H A032030 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032030 Doubles (index 2+) under "AGK" (ordered, elements, unlabeled) transform.
+%K A032030 nonn
+%O A032030 1,1
+%A A032030 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

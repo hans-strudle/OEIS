@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037428
+Showing 1-1 of 1
+
+%I A037428
+%S A037428 1,2,3,13,31,123,203,231,1031,1103,1120,1203,1230,1303,2103,2120,2201,
+%T A037428 2300,2301,2302,2303,3012,3020,3021,3022,3023,3100,3101,3102,3103,
+%U A037428 3200,3201,3202,3203,3320,10023,10032,10123,10132,10232,10323,10332
+%N A037428 Numbers n such that the set of base 4 digits of n equals the set of base 10 digits of n.
+%K A037428 nonn,base
+%O A037428 1,2
+%A A037428 _Clark Kimberling_
+%E A037428 Corrected by Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

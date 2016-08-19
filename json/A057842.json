@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,13,4381,560129,606797","description":"Numbers n such that n | 6^n + 4^n + 2^n + 1.","mathematica":"Select[ Range[ 10^6 ], Mod[ PowerMod[ 6, #, # ] + PowerMod[ 4, #, # ] + PowerMod[ 2, #, # ] + 1, # ] == 0 & ]","keyword":"nonn","offset":"1,2","author":"_Robert G. Wilson v_, Nov 09 2000"}

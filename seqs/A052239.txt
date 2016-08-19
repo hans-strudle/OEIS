@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052239
+Showing 1-1 of 1
+
+%I A052239
+%S A052239 251,111497,74453,1397609,642427,5321191,23921257,55410683,400948369,
+%T A052239 253444777,1140813701,491525857,998051413,2060959049,4480114337,
+%U A052239 55140921491,38415872947,315392068463,15162919459,60600021611,278300877401,477836574947,1486135570643
+%N A052239 Smallest prime p in set of 4 consecutive primes in arithmetic progression with common difference 6n.
+%H A052239 <a href="/index/Pri#primes_AP">Index entries for sequences related to primes in arithmetic progressions</a>
+%e A052239 642427,642457,642487,642517 are consecutive primes with 3 consecutive gaps of 30
+%t A052239 Transpose[Flatten[Table[Select[Partition[Prime[Range[2000000]],4,1], Union[ Differences[ #]] =={6n}&,1],{n,7}],1]][[1]] (* _Harvey P. Dale_, Aug 12 2012 *)
+%o A052239 (PARI) np(p, d=[N, N, N])={p=[p, 0, 0]; while(p[1]<MAX&&p+d!=p=[nextprime(p[1]+1), p[1], p[2]], ); p[3]-d[3]}; p=0; np=vector(1, i, p=np(p+1)); \\ after _M. F. Hasler_ in A052243; Graziano Aglietti (mg5055(AT)mclink.it), Aug 22 2010
+%Y A052239 Initial terms of sequences A033451, A033447, A033448, A052242, A052243, ...
+%K A052239 nice,nonn
+%O A052239 1,1
+%A A052239 _Labos Elemer_, Jan 31 2000
+%E A052239 More terms from _Labos Elemer_, Jan 04 2002
+%E A052239 The term for n=7 is 23921257 and not 23921299 Graziano Aglietti (mg5055(AT)mclink.it), Aug 22 2010
+%E A052239 Add more terms and correct the seventh term Graziano Aglietti (mg5055(AT)mclink.it), Aug 22 2010
+%E A052239 a(15)-a(20) from _Donovan Johnson_, Oct 05 2010
+%E A052239 a(21)-a(23) from _Donovan Johnson_, May 23 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

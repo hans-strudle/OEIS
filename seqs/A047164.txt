@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047164
+Showing 1-1 of 1
+
+%I A047164
+%S A047164 0,0,0,0,0,3,4,16,20,50,60,135,161,392,476,1232,1512,3864,4740,11850,
+%T A047164 14520,36300,44572,112519,138567,351351,433433,1098188,1355900,
+%U A047164 3433703,4243148,10758608,13308416,33794504
+%N A047164 Number of nonempty subsets of {1,2,...,n} in which exactly 3/4 of the elements are <= n/2.
+%K A047164 nonn
+%O A047164 1,6
+%A A047164 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

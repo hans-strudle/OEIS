@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027727
+Showing 1-1 of 1
+
+%I A027727
+%S A027727 9,11,99,141,191,515,939,1001,19191,90309,92729,93339,109901,192291,
+%T A027727 939939,1303031,1997991,5605065,9003009,9887889,15066051,97111179,
+%U A027727 900030009,936696639,5193003915,11406560411,13028282031,15676667651
+%N A027727 Palindromes of form n^2+n+9.
+%H A027727 P. De Geest, <a href="http://www.worldofnumbers.com/quasimor.htm">Palindromic Quasi_Over_Squares of the form n^2+(n+X)</a>
+%Y A027727 Cf. A027726, A027694, A027757, A027758.
+%K A027727 nonn,base
+%O A027727 1,1
+%A A027727 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

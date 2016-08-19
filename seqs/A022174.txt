@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022174
+Showing 1-1 of 1
+
+%I A022174
+%S A022174 1,1,1,1,11,1,1,111,111,1,1,1111,11211,1111,1,1,11111,1122211,1122211,
+%T A022174 11111,1,1,111111,112232211,1123333211,112232211,111111,1,1,1111111,
+%U A022174 11223332211,1123445443211,1123445443211
+%N A022174 Triangle of Gaussian binomial coefficients [ n,k ] for q = 10.
+%D A022174 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%D A022174 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%K A022174 nonn,tabl
+%O A022174 0,5
+%A A022174 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

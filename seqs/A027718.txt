@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027718
+Showing 1-1 of 1
+
+%I A027718
+%S A027718 0,1,2,8,12,26,74,127,224,230,2751,3462,4012,4067,12752,22424,27548,
+%T A027718 28168,105322,107422,2358150,2724718,2775383,4063892,7569245
+%N A027718 Numbers n such that n^2+n+5 is a palindrome.
+%Y A027718 Cf. A027728, A027690, A027754, A027755.
+%K A027718 nonn,base
+%O A027718 1,3
+%A A027718 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

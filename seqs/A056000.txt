@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056000
+Showing 1-1 of 1
+
+%I A056000
+%S A056000 0,5,11,18,26,35,45,56,68,81,95,110,126,143,161,180,200,221,243,266,
+%T A056000 290,315,341,368,396,425,455,486,518,551,585,620,656,693,731,770,810,
+%U A056000 851,893,936,980,1025,1071,1118,1166,1215,1265,1316,1368,1421,1475
+%N A056000 a(n) = n*(n+9)/2.
+%D A056000 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, p. 193.
+%H A056000 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A056000 a(n) = A000217(n+4) - 10.
+%F A056000 G.f.: x(5-4x)/(1-x)^3.
+%F A056000 From _Zerinvary Lajos_, Oct 01 2006: (Start)
+%F A056000 a(n) = A000096(n) + 3*n.
+%F A056000 a(n) = A055999(n) + n.
+%F A056000 a(n) = A056115(n) - n.
+%F A056000 (End)
+%F A056000 a(n) = C(n,2) - 4*n, n>=9. - _Zerinvary Lajos_, Nov 25 2006
+%F A056000 a(n) = A126890(n,4) for n>3. - _Reinhard Zumkeller_, Dec 30 2006
+%F A056000 a(n) = A028569(n)/2. - _Zerinvary Lajos_, Feb 12 2007
+%F A056000 If we define f(n,i,a) = sum_{k=0..n-i} binomial(n,k)*stirling1(n-k,i)*product_{j=0..k-1} (-a-j), then a(n) = -f(n,n-1,5), for n>=1. - _Milan Janjic_, Dec 20 2008
+%F A056000 a(n) = n + a(n-1) + 4. - _Vincenzo Librandi_, Aug 07 2010
+%F A056000 a(n) = sum_{k=1..n} (k+4). - _Gary Detlefs_, Aug 10 2010
+%F A056000 sum_{n>=1} 1/a(n) = 7129/11340. - _R. J. Mathar_, Jul 14 2012
+%F A056000 a(n) = 5n - floor(n/2) + floor(n^2/2). - _Wesley Ivan Hurt_, Jun 15 2013
+%t A056000 lst={};Do[AppendTo[lst, n*(n+9)/2], {n, 0, 5!}];lst ...and/or... s=0;lst={s};Do[s+=n+1;AppendTo[lst, s], {n, 4, 5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 25 2008 *)
+%o A056000 (PARI) a(n)=n*(n+9)/2 \\ _Charles R Greathouse IV_, Sep 24 2015
+%Y A056000 Cf. A000096, A055998, A055999, A001477.
+%Y A056000 Column m=2 of (1, 5)-Pascal triangle A096940.
+%Y A056000 Cf. numbers of the form n*(d*n+10-d)/2 indexed in A140090.
+%K A056000 easy,nonn
+%O A056000 0,2
+%A A056000 _Barry E. Williams_, Jun 16 2000
+%E A056000 More terms from _James A. Sellers_, Jul 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

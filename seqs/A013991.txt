@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013991
+Showing 1-1 of 1
+
+%I A013991
+%S A013991 1,1,4,16,72,335,1562,7273,33850,157534,733148,3412005,15879172,
+%T A013991 73900265,343925312,1600598044,7449042040,34667184251,161338016046,
+%U A013991 750852888177,3494403076902,16262643529850
+%N A013991 Edge-disjoint paths between opposite corners of 2 X n grid.
+%D A013991 rec.puzzles Dec 10 1995.
+%F A013991 G.f.: (-7x^6+15x^5-12x^4+2x^3+4x^2-5x+1)/[(1-x+x^2)(1-5x+9x^3-7x^4)].
+%K A013991 nonn,hard
+%O A013991 0,3
+%A A013991 _Dan Hoey_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

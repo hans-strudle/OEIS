@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050282
+Showing 1-1 of 1
+
+%I A050282
+%S A050282 9,24,1698,28467,28467,710100,710100,36488176,2011485307,4663739959
+%N A050282 a(n) is the starting position of the first occurrence of a string of n 3's in the decimal expansion of Pi.
+%H A050282 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiDigits.html">Pi Digits.</a>
+%K A050282 nonn,base
+%O A050282 1,1
+%A A050282 _Eric W. Weisstein_
+%E A050282 More terms from Colin Martin (cbmartin(AT)tpg.com.au), Mar 03 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

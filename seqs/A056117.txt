@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056117
+Showing 1-1 of 1
+
+%I A056117
+%S A056117 1,17,117,525,1815,5247,13299,30459,64350,127270,238238,425646,730626,
+%T A056117 1211250,1947690,3048474,4657983,6965343,10214875,14718275,20868705,
+%U A056117 29156985,40190085,54712125,73628100,98030556,129229452,168785452
+%N A056117 Expansion of (1+8x)/(1-x)^9.
+%D A056117 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A056117 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9,-36,84,-126,126,-84,36,-9,1).
+%F A056117 a(n)=[9n+8]*C(n+7, 7)/8. G.F.(x)=(1+8x)/(1-x)^9.
+%Y A056117 Cf. A052206.
+%Y A056117 Cf. A093644 ((9, 1) Pascal, column m=8). Partial sums of A052206.
+%K A056117 easy,nonn
+%O A056117 0,2
+%A A056117 _Barry E. Williams_, Jul 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

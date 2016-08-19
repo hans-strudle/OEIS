@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048663
+Showing 1-1 of 1
+
+%I A048663
+%S A048663 1,6,45,344,2670,20886,164514,1303304,10375830,82947380,665440039
+%N A048663 Number of rooted polycubes with n cells, with no symmetries removed.
+%C A048663 "Rooted" means some cell of the polycube is designated as the origin. This has the effect of multiplying the count by the volume of the polycube.
+%D A048663 Dan Hoey, Bill Gosper and Rich Schroeppel, Discussions in Math-Fun Mailing list, circa Jul 13 1999.
+%H A048663 R. C. Schroeppel, <a href="http://www.experimentalmath.info/workshop2004/schroeppel-talk.pdf">A few mathematical experiments</a>
+%e A048663 There are six dicubes, each consisting of the origin cube together with one adjacent cube, in each of the six directions.
+%Y A048663 A row of the array in A048790.
+%K A048663 nonn
+%O A048663 1,2
+%A A048663 Richard Schroeppel , _Dan Hoey_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

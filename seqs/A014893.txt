@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014893
+Showing 1-1 of 1
+
+%I A014893
+%S A014893 1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,
+%T A014893 0,0,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,
+%U A014893 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014893 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,
+%W A014893 0,0,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,
+%X A014893 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014893 Inverse of 884th cyclotomic polynomial.
+%p A014893 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014893 sign
+%O A014893 0,1
+%A A014893 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

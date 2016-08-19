@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059490
+Showing 1-1 of 1
+
+%I A059490
+%S A059490 1,1,5,105,9009,3128697,4379132901,24645892667825,556965289746386625,
+%T A059490 50494858759761851228625,18354114596951084500741513125,
+%U A059490 26735929307256782047733105984465625,156023842049488378026019378718492161640625,3646806710157227756289546514549111188854996015625
+%N A059490 Expansion of generating function A_{QT}^(1)(4n;2).
+%H A059490 G. Kuperberg, <a href="http://arXiv.org/abs/math.CO/0008184">Symmetry classes of alternating-sign matrices under one roof, arXiv math.CO/0008184</a> [Th. 5, but the right-hand side should be multiplied by (-1)^(n*(n-1)/2)]
+%p A059490 A059490 := proc(n) local i, j, t1; t1 := (-1)^(n*(n-1)/2)*2^(2*n^2-n); for i to n do for j to n do t1 := t1*(4*j - 4*i + 1)/(j - i + n); end do end do; t1 end proc;
+%K A059490 nonn,easy
+%O A059490 0,3
+%A A059490 _N. J. A. Sloane_, Feb 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

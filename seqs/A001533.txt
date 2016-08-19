@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001533
+Showing 1-1 of 1
+
+%I A001533
+%S A001533 7,135,391,775,1287,1927,2695,3591,4615,5767,7047,8455,9991,11655,
+%T A001533 13447,15367,17415,19591,21895,24327,26887,29575,32391,35335,38407,
+%U A001533 41607,44935,48391,51975,55687,59527,63495,67591,71815,76167,80647,85255,89991,94855
+%N A001533 (8n+1)(8n+7).
+%H A001533 T. D. Noe, <a href="/A001533/b001533.txt">Table of n, a(n) for n = 0..1000</a>
+%F A001533 a(n) = 128*n + a(n-1) with a(0)=7. [_Vincenzo Librandi_, Nov 12 2010]
+%Y A001533 Equals 4 * A001539 - 5.
+%K A001533 nonn
+%O A001533 0,1
+%A A001533 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

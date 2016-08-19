@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038788
+Showing 1-1 of 1
+
+%I A038788
+%S A038788 1,4,4,16,64,400,900,8836,355216,1201216,53523856
+%N A038788 Non-Cayley-isomorphic circulant self-complementary directed p^2-graphs, indexed by odd primes p.
+%C A038788 a(p^2)=A054246(p^2) for p=4k-1
+%D A038788 V. A. Liskovets and R. Poeschel, Non-Cayley-isomorphic self-complementary circulant graphs, J. Graph Th., 34, 2000, 128-141.
+%H A038788 M. Klin, V. A. Liskovets and R. Poeschel, <a href="http://www.mat.univie.ac.at/~slc/wpapers/s36klp.html">Analytical enumeration of circulant graphs with prime-squared vertices</a>, Sem. Lotharingien de Combin., B36d, 1996, 36 pages.
+%F A038788 a(p^2)=A049309(p)^2
+%Y A038788 Cf. A038785, A038787.
+%K A038788 nonn,easy
+%O A038788 3,2
+%A A038788 _N. J. A. Sloane_, May 04 2000
+%E A038788 More terms from _Valery A. Liskovets_, May 09 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

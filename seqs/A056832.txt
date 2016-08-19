@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056832
+Showing 1-1 of 1
+
+%I A056832
+%S A056832 1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,1,1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,2,1,2,
+%T A056832 1,1,1,2,1,2,1,2,1,1,1,2,1,1,1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,1,1,2,1,1,
+%U A056832 1,2,1,2,1,2,1,1,1,2,1,1,1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,2,1
+%N A056832 All a(n) = 1 or 2; a(1) = 1; get next 2^k terms by repeating first 2^k terms and changing last element so sum of first 2^(k+1) terms is odd.
+%C A056832 Fixed point of the morphism 1->12 and 2->11 (1 ->12 ->1211 ->12111212 ->..). - _Benoit Cloitre_, May 31 2004
+%C A056832 a(n) is multiplicative. - _Christian G. Bower_, Jun 03 2005
+%C A056832 a(n) is the least k such that A010060(n-1+k)=1-A010060(n-1); the sequence {a(n+1)-1} is the characteristic sequence for A079523. - _Vladimir Shevelev_, Jun 22 2009
+%D A056832 M. R. Schroeder, Fractals, Chaos, Power Laws, W. H. Freeman, NY, 1991; pp. 277-279.
+%D A056832 M. R. Schroeder, Latter to N. J. A. Sloane, May 05 1994.
+%H A056832 Reinhard Zumkeller, <a href="/A056832/b056832.txt">Table of n, a(n) for n = 1..10000</a>
+%H A056832 F. Michel Dekking, <a href="http://arxiv.org/abs/1509.00260">Pure morphic sequences and their standard forms</a>, arXiv:1509.00260 [math.CO], 2015.
+%H A056832 A. Hof, O. Knill and B. Simon, <a href="http://inis.iaea.org/search/search.aspx?orig_q=RN:27016845">Singular continuous spectrum for palindromic Schroedinger operators</a>, Commun. Math. Phys. 174 (1995), 149-159.
+%F A056832 a(n) = ((-1)^(n+1)*A002425(n)) modulo 3. - _Benoit Cloitre_, Dec 30 2003
+%F A056832 a(1)=1, a(n) = 1 + {sum(i=1, n-1, a(i)*a(n-i)) mod 2}. - _Benoit Cloitre_, Mar 16 2004
+%F A056832 a(n) is multiplicative with a(2^e)=1+(1-(-1)^e)/2, a(p^e)=1 if p>2. - _Michael Somos_, Jun 18 2005
+%F A056832 [a(2^n+1) .. a(2^(n+1)-1)] = [a(1) .. a(2^n-1)]; a(2^(n+1))=3-a(2^n).
+%F A056832 For n>0, a(n) = 2-A035263(n). - _Benoit Cloitre_, Nov 24 2002
+%F A056832 a(n)=2, if n-1 is in A079523; a(n)=1 otherwise. - _Vladimir Shevelev_, Jun 22 2009
+%F A056832 a(n) = A096268(n-1) + 1. - _Reinhard Zumkeller_, Jul 29 2014
+%e A056832 1 -> 1,2 -> 1,2,1,1 -> 1,2,1,1,1,2,1,2 -> 1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,1.
+%e A056832 Here we have 1 element, then 2 elements, then 4, 8, 16, etc.
+%t A056832 Nest[ Function[l, {Flatten[(l /. {1 -> {1, 2}, 2 -> {1, 1}})]}], {1}, 7] (* _Robert G. Wilson v_, Mar 03 2005 *)
+%o A056832 (PARI) a(n)=numerator(2/n*(4^n-1)*bernfrac(2*n))%3
+%o A056832 (PARI) a(n)=if(n<1, 0, valuation(n,2)%2+1) /* _Michael Somos_, Jun 18 2005 */
+%o A056832 (Haskell)
+%o A056832 a056832 n = a056832_list !! (n-1)
+%o A056832 a056832_list = 1 : f [1] where
+%o A056832    f xs = y : f (y : xs) where
+%o A056832           y = 1 + sum (zipWith (*) xs $ reverse xs) `mod` 2
+%o A056832 -- _Reinhard Zumkeller_, Jul 29 2014
+%Y A056832 Cf. A197911 (partial sums).
+%Y A056832 Essentially same as first differences of Thue-Morse, A010060. - _N. J. A. Sloane_, Jul 02 2015
+%K A056832 easy,nonn,nice,mult
+%O A056832 1,2
+%A A056832 _Jonas Wallgren_, Aug 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

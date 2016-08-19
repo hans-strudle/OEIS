@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013606
+Showing 1-1 of 1
+
+%I A013606
+%S A013606 1,3,3,5,3,3,3,15,5,3,3,3,5,57,35,5,41,5,45,87,11,17,21,59,27,47,33,5,
+%T A013606 27,93,57,59,5,23,35,93,35,15,11,65,57,35,35,299,33,83,3,17,51,15,33,
+%U A013606 17,117,59,21,75,11,3,5,119,3,59,137,159,5,347,45,113,105,27,111
+%N A013606 4^n-prevprime(4^n).
+%p A013606 seq(4^i-prevprime(4^i),i=1..100);
+%K A013606 nonn
+%O A013606 1,2
+%A A013606 James Kilfiger (mapdn(AT)csv.warwick.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

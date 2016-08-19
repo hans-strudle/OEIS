@@ -1,0 +1,41 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005901
+Showing 1-1 of 1
+
+%I A005901 M4834
+%S A005901 1,12,42,92,162,252,362,492,642,812,1002,1212,1442,1692,1962,2252,
+%T A005901 2562,2892,3242,3612,4002,4412,4842,5292,5762,6252,6762,7292,7842,
+%U A005901 8412,9002,9612,10242,10892,11562,12252,12962,13692,14442,15212,16002
+%N A005901 Number of points on surface of cuboctahedron (or icosahedron): a(0) = 1; for n > 0, a(n) = 10n^2 + 2. Also coordination sequence for f.c.c. or A_3 or D_3 lattice.
+%C A005901 Sequence found by reading the segment (1, 12) together with the line from 12, in the direction 12, 42,..., in the square spiral whose vertices are the generalized heptagonal numbers A085787. - _Omar E. Pol_, Jul 18 2012
+%D A005901 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A005901 H. S. M. Coxeter, ``Polyhedral numbers,'' in R. S. Cohen et al., editors, For Dirk Struik. Reidel, Dordrecht, 1974, pp. 25-35.
+%D A005901 Gmelin Handbook of Inorg. and Organomet. Chem., 8th Ed., 1994, TYPIX search code (225) cF4
+%D A005901 R. W. Marks and R. B. Fuller, The Dymaxion World of Buckminster Fuller. Anchor, NY, 1973, p. 46.
+%D A005901 S. Rosen, Wizard of the Dome: R. Buckminster Fuller; Designer for the Future. Little, Brown, Boston, 1969, p. 109.
+%D A005901 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005901 B. K. Teo and N. J. A. Sloane, Magic numbers in polygonal and polyhedral clusters, Inorgan. Chem. 24 (1985), 4545-4558.
+%H A005901 T. D. Noe, <a href="/A005901/b005901.txt">Table of n, a(n) for n=0..1000</a>
+%H A005901 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A005901 R. W. Grosse-Kunstleve, <a href="/A005897/a005897.html">Coordination Sequences and Encyclopedia of Integer Sequences</a>
+%H A005901 R. W. Grosse-Kunstleve, G. O. Brunner and N. J. A. Sloane, <a href="http://neilsloane.com/doc/ac96cs/">Algebraic Description of Coordination Sequences and Exact Topological Densities for Zeolites</a>, Acta Cryst., A52 (1996), pp. <a href="http://dx.doi.org/10.1107/S0108767396007519">879-889</a>.
+%H A005901 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/D3.html">Home page for this lattice</a>
+%H A005901 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005901 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005901 N. J. A. Sloane, <a href="/A000292/a000292a.jpg">A portion of the f.c.c. lattice packing.</a>
+%H A005901 K. Urner, <a href="http://www.grunch.net/synergetics/virus.html">Microarchitecture of the Virus</a>
+%H A005901 <a href="/index/Fa#fcc">Index entries for sequences related to f.c.c. lattice</a>
+%H A005901 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3, -3, 1).
+%F A005901 G.f. for coordination sequence for A_n lattice is Sum(binomial(n, i)^2*z^i, i=0..n)/(1-z)^n. [Bacher et al.]
+%F A005901 a(n+1) = A027599(n+2) + A09277(n+1) - _Creighton Dement_, Feb 11 2005
+%F A005901 a(n) = 2 + A033583(n), n >= 1. - _Omar E. Pol_, Jul 18 2012
+%p A005901 A005901:=-(z+1)*(z**2+8*z+1)/(z-1)**3; [_Simon Plouffe_ in his 1992 dissertation.]
+%t A005901 Join[{1},10*Range[40]^2+2] (* or *) Join[{1},LinearRecurrence[{3,-3,1},{12,42,92},40]] (* _Harvey P. Dale_, May 28 2014 *)
+%o A005901 (PARI) a(n)=if(n<0,0,10*n^2+1+(n>0))
+%Y A005901 Cf. A004015, A206399.
+%K A005901 nonn,easy,nice,changed
+%O A005901 0,2
+%A A005901 _N. J. A. Sloane_, R. Vaughan
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

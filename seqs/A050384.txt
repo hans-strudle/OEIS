@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050384
+Showing 1-1 of 1
+
+%I A050384
+%S A050384 1,15,33,35,51,65,69,77,85,87,91,95,115,119,123,133,141,143,145,159,
+%T A050384 161,177,185,187,209,213,215,217,221,235,247,249,255,259,265,267,287,
+%U A050384 295,299,303,319,321,323,329,335,339,341,345,365,371,377,391,393,395,403
+%N A050384 Nonprimes such that n and phi(n) are relatively prime.
+%C A050384 Also nonprimes n such that there is only one group of order n, i.e., A000001(n) = 1.
+%C A050384 Intersection of A018252 and A003277.
+%C A050384 Also numbers n such that n and A051953(n) are relatively prime. - _Labos Elemer_
+%C A050384 Apart from the first term, this is a subsequence of A024556. - _Charles R Greathouse IV_, Apr 15 2015
+%H A050384 T. D. Noe, <a href="/A050384/b050384.txt">Table of n, a(n) for n = 1..10000</a>
+%t A050384 Select[Range[450], !PrimeQ[#] && GCD[#, EulerPhi[#]] == 1&] (* _Harvey P. Dale_, Jan 31 2011 *)
+%o A050384 (PARI) is(n)=!isprime(n) && gcd(eulerphi(n),n)==1 \\ _Charles R Greathouse IV_, Apr 15 2015
+%Y A050384 If the primes are included we get A003277. Cf. A000001, A000010 (phi).
+%K A050384 nonn
+%O A050384 1,2
+%A A050384 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

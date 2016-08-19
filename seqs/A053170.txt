@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053170
+Showing 1-1 of 1
+
+%I A053170
+%S A053170 1584,13056,57744,133440,307632,519888,990288,1436208,2108832,3015648
+%N A053170 Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which generate a group of finite order under binary matrix multiplication.
+%Y A053170 a(n) = 2*(1 + A053171(n) + A053172(n) + A053173(n) + A053174(n)).
+%K A053170 nonn
+%O A053170 1,1
+%A A053170 Ralf W. Grosse-Kunstleve (rwgk(AT)cci.lbl.gov), Mar 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

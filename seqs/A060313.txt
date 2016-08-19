@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060313
+Showing 1-1 of 1
+
+%I A060313
+%S A060313 1,2,0,16,25,576,2989,51584,512649,8927200,130956001,2533847328,
+%T A060313 48008533885,1059817074512,24196291364925,609350187214336,
+%U A060313 16135860325700881,459434230368302016,13788624945433889593
+%N A060313 Number of homeomorphically irreducible rooted trees (also known as series-reduced rooted trees, or rooted trees without nodes of degree 2) on n labeled nodes.
+%D A060313 I. P. Goulden and D. M. Jackson, Combinatorial Enumeration, John Wiley and Sons, N.Y., 1983.
+%H A060313 David Callan, <a href="http://arxiv.org/abs/1406.7784">A sign-reversing involution to count labeled lone-child-avoiding trees</a>, arXiv:1406.7784 [math.CO], (30-June-2014)
+%F A060313 a(n)=n*(n - 2)!*Sum_{k=0..n - 2} ( - 1)^k*binomial(n, k)*(n - k)^(n - 2 - k)/(n - 2 - k)!, n>1. E.g.f.: x*(exp( - LambertW( - x/(1 + x))) - 1/2*(LambertW( - x/(1 + x)))^2).
+%F A060313 a(n) ~ n^(n-1) * (1-exp(-1))^(n+1/2). - _Vaclav Kotesovec_, Oct 05 2013
+%t A060313 f[n_] := If[n < 2, 1, n(n - 2)!Sum[(-1)^k*Binomial[n, k](n - k)^(n - 2 - k)/(n - 2 - k)!, {k, 0, n - 2}]]; Table[ f[n], {n, 19}] (* _Robert G. Wilson v_, Feb 12 2005 *)
+%Y A060313 Unlabeled case: A059123. Cf. A005512.
+%K A060313 easy,nonn
+%O A060313 1,2
+%A A060313 _Vladeta Jovovic_, Mar 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

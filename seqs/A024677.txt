@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024677
+Showing 1-1 of 1
+
+%I A024677
+%S A024677 2,2,3,2,3,2,3,2,2,2,3,2,3,2,2,2,2,3,2,2,3,2,3,3,2,3,2,3,2,3,2,2,2,2,
+%T A024677 2,2,3,2,2,2,2,2,3,2,5,7,3,2,3,2,2,2,2,2,2,2,2,3,2,2,2,3,2,3,2,2,2,2,
+%U A024677 3,2,3,2,2,3,2,3,3,3,2,2,2,2,2,3,2,3,3,2,3,11,3,3,3,3,2,5,2,2,2
+%N A024677 Smallest prime divisor of n-th terms of sequence A024675 (averages of two consecutive odd primes).
+%t A024677 Table[First@First@FactorInteger[(Prime[n+1]+Prime[n])/2],{n,2,150}] (* _Vladimir Joseph Stephan Orlovsky_, Jan 25 2012 *)
+%K A024677 nonn
+%O A024677 1,1
+%A A024677 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

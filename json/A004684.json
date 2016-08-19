@@ -1,0 +1,1 @@
+{"formerly":"","seq":"2,3,5,7,10,12,16,18,21,27,29,34,38","description":"Primes written in base 11. (Next term contains a non-decimal character).","prog":"(PARI) a(n)=subst(Pol(digits(prime(n),11)),'x,10) \\\\ _Charles R Greathouse IV_, Nov 06 2013","keyword":"nonn,easy,base","offset":"1,1","author":"_N. J. A. Sloane_."}

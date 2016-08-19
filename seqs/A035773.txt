@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035773
+Showing 1-1 of 1
+
+%I A035773
+%S A035773 1,2592,1121472,194986080,18300435840,1080041397408,44042615547456,
+%T A035773 1323529602867936,30721376739859200,570951048018417440,
+%U A035773 8740606046237286336,112789007191042473312,1250374850905568180352
+%N A035773 Coordination sequence for C_36 lattice.
+%D A035773 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A035773 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035773 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A035773 ((1+x)/(1-x))^36 if norm is even; otherwise 0.
+%K A035773 nonn,easy
+%O A035773 0,2
+%A A035773 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035773 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016988
+Showing 1-1 of 1
+
+%I A016988
+%S A016988 0,5764801,1475789056,37822859361,377801998336,2251875390625,
+%T A016988 9682651996416,33232930569601,96717311574016,248155780267521,
+%U A016988 576480100000000,1235736291547681,2478758911082496,4702525276151521
+%N A016988 (7*n)^8.
+%H A016988 Vincenzo Librandi, <a href="/A016988/b016988.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016988 (MAGMA) [(7*n)^8: n in [0..20]]; // Vincenzo Librandi, Jun 18 2011
+%K A016988 nonn,easy
+%O A016988 0,2
+%A A016988 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

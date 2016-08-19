@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016704
+Showing 1-1 of 1
+
+%I A016704
+%S A016704 4,3,9,4,4,4,9,1,5,4,6,7,2,4,3,8,7,6,5,5,8,0,9,8,0,9,4,7,6,9,0,1,0,2,
+%T A016704 8,1,8,5,8,9,9,6,2,2,3,1,2,9,0,9,9,7,8,0,6,9,3,8,7,7,7,3,3,4,5,4,9,9,
+%U A016704 7,7,1,7,2,8,7,4,4,3,5,8,6,7,4,9,4,4,6,3,0,1,9,2,5,4,9,2,8,3,5
+%N A016704 Decimal expansion of log(81).
+%D A016704 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 2.
+%H A016704 Harry J. Smith, <a href="/A016704/b016704.txt">Table of n, a(n) for n = 1..20000</a>
+%H A016704 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%F A016704 2 times A016632.
+%e A016704 4.394449154672438765580980947690102818589962231290997806938777334549977... - _Harry J. Smith_, May 24 2009
+%t A016704 RealDigits[Log[81],10,120][[1]] (* _Harvey P. Dale_, Feb 20 2012 *)
+%o A016704 (PARI) { default(realprecision, 20080); x=log(81); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b016704.txt", n, " ", d)); } \\ _Harry J. Smith_, May 24 2009
+%Y A016704 Cf. A016509 Continued fraction. - _Harry J. Smith_, May 24 2009
+%K A016704 nonn,cons
+%O A016704 1,1
+%A A016704 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

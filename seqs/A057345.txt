@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057345
+Showing 1-1 of 1
+
+%I A057345
+%S A057345 1,8,36,48,120,360,840,672,864
+%N A057345 Largest of the most frequently occurring numbers in 1-to-n 5-dimensional multiplication table.
+%e A057345 M(n) is the array in which m(x,y,z,t,u)=x*y*z*t*u for x = 1 to n, y = 1 to n, z = 1 to n, t = 1 to n and u = 1 to n. In M(7), the most frequently occurring numbers are 360, 420, 504 and 840, each occurring 300 times. The largest of these numbers is 840, so a(7) = 840.
+%Y A057345 Cf. A057144, A057339, A057342, A057344.
+%K A057345 nonn
+%O A057345 1,2
+%A A057345 _Neil Fernandez_, Aug 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

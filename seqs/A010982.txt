@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010982
+Showing 1-1 of 1
+
+%I A010982
+%S A010982 1,30,465,4960,40920,278256,1623160,8347680,38608020,163011640,
+%T A010982 635745396,2311801440,7898654920,25518731280,78378960360,229911617056,
+%U A010982 646626422970,1749695026860,4568648125690,11541847896480,28277527346376,67327446062800,156077261327400
+%N A010982 Binomial coefficient C(n,29).
+%H A010982 T. D. Noe, <a href="/A010982/b010982.txt">Table of n, a(n) for n = 29..1000</a>
+%F A010982 G.f.: 1/(1-x)^30. - _Zerinvary Lajos_, Dec 19 2008
+%p A010982 seq(binomial(n,29),n=29..53); # _Zerinvary Lajos_, Dec 19 2008
+%t A010982 Table[Binomial[n,29],{n,29,60}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 26 2011 *)
+%o A010982 (MAGMA) [Binomial(n, 29): n in [29..60]]; // _Vincenzo Librandi_, Jun 12 2013
+%Y A010982 Cf. A010980, A010981.
+%K A010982 nonn,easy
+%O A010982 29,2
+%A A010982 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

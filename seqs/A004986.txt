@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004986
+Showing 1-1 of 1
+
+%I A004986
+%S A004986 1,14,154,1540,14630,134596,1211364,10729224,93880710,813632820,
+%T A004986 6997242252,59794615608,508254232668,4300612737960,36248021648520,
+%U A004986 304483381847568,2550048322973382,21300403638954132,177503363657951100
+%N A004986 (2^n/n!)*product[ k=0..n-1 ](4*k + 7).
+%F A004986 A(x) = (1 - 8*x)^(-7/4).
+%F A004986 a(n) ~ 4/3*Gamma(3/4)^-1*n^(3/4)*2^(3*n)*{1 + 21/32*n^-1 - ...}
+%p A004986 seq(2^n/n!*product(4*k + 7,k=0..n-1),n=0..30);
+%K A004986 nonn,easy
+%O A004986 0,2
+%A A004986 Joe Keane (jgk(AT)jgk.org)
+%E A004986 More terms from _Sascha Kurz_, Mar 24 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

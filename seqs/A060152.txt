@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060152
+Showing 1-1 of 1
+
+%I A060152
+%S A060152 1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767,62914,
+%T A060152 65535
+%N A060152 Nim-factorial(a(n))=1.
+%C A060152 Except for the term a(16)=62914, all listed terms agree with those of A000225: 2^n - 1.
+%Y A060152 A059970 (Nim-factorials), A055010.
+%K A060152 nonn
+%O A060152 1,2
+%A A060152 _John W. Layman_, Mar 09 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

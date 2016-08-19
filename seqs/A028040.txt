@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028040
+Showing 1-1 of 1
+
+%I A028040
+%S A028040 1,24,375,4870,57321,636924,6829435,71574690,738951741,7552940824,
+%T A028040 76677389295,774826006110,7804690367761,78442179476724,
+%U A028040 787189784753955,7891278029367130,79048458617193381,791434402768644624
+%N A028040 Expansion of 1/((1-3x)(1-4x)(1-7x)(1-10x)).
+%F A028040 a(n)=(2*10^(n+3)-7^(n+4)+14*4^(n+3)-3^(n+5))/252. [_Yahia Kahloune_, Jun 07 2013]
+%K A028040 nonn
+%O A028040 0,2
+%A A028040 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

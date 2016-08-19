@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002097
+Showing 1-1 of 1
+
+%I A002097
+%S A002097 1,2,4,6,11,20,29
+%N A002097 Numbers that are not the sum of 3 nonzero triangular numbers.
+%C A002097 A063993(a(n)) = 0. - _Reinhard Zumkeller_, Jul 20 2012
+%Y A002097 Cf. A111638, A064825.
+%K A002097 fini,full,nonn
+%O A002097 1,2
+%A A002097 _N. J. A. Sloane_, _Dan Hoey_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

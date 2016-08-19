@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019505
+Showing 1-1 of 1
+
+%I A019505
+%S A019505 1,2,4,6,12,24,48,60,120,240,360,720,1260,2520,5040,10080,20160,27720,
+%T A019505 55440,110880,221760,332640,665280,1081080,2162160,4324320,8648640,
+%U A019505 17297280,21621600,43243200,73513440,147026880,294053760,367567200,735134400,1396755360,2793510720
+%N A019505 a(n) is smallest number with same number of factors as 2*a(n-1).
+%C A019505 From _J. Lowell_, Mar 19 2012 and Apr 05 2012: (Start)
+%C A019505 Conjectures:
+%C A019505 Subsequence of A002182.
+%C A019505 In order for n to be followed by a number less than 2n, a requirement is that the number of 2's in the prime factorization of n must not be of the form p-2 where p is a prime.
+%C A019505 There are infinitely many values where n, 2n, and 3n are all in this sequence. (It can be proved that n, 2n, 3n, and 4n can never all be in this sequence.)
+%C A019505 In any group of 3 consecutive terms of this sequence a,b,c at most one of the following statements is true:
+%C A019505 The value of b is less than twice a.
+%C A019505 The value of c is less than twice b.
+%C A019505 There are terms in the sequence divisible by 2^n no matter how large n is.
+%C A019505 (End)
+%H A019505 R. J. Mathar, <a href="/A019505/b019505.txt">Table of n, a(n) for n = 1..63</a>
+%F A019505 a(n) = A140635(2*a(n-1)) - _J. Lowell_, May 20 2008
+%e A019505 After a(3)=4 we argue as follows: 2*4 = 8 has 4 factors (1,2,4,8), but smallest number with 4 factors is 6, so a(4)=6.
+%Y A019505 Cf. A020697.
+%Y A019505 Cf. A140635.
+%K A019505 nonn
+%O A019505 1,2
+%A A019505 _J. Lowell_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

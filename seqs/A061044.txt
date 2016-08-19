@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061044
+Showing 1-1 of 1
+
+%I A061044
+%S A061044 1,900,1225,1600,2025,100,3025,3600,4225,4900,225,6400,7225,8100,9025,
+%T A061044 80,11025,12100,13225,14400,625,16900,18225,19600,21025,180,24025,
+%U A061044 25600,27225,28900,1225,32400,34225,36100,38025,1600,42025
+%N A061044 Denominator of 1/25 - 1/n^2.
+%D A061044 A. H. Pfund, The emission of nitrogen and hydrogen in the infrared, Journal of the 0ptical Society of America, Vol. 9, Issue 3, (1924) pp. 193-196.
+%H A061044 Reinhard Zumkeller, <a href="/A061044/b061044.txt">Table of n, a(n) for n = 5..10000</a>
+%o A061044 (PARI) a(n) = denominator(1/25 - 1/n^2); \\ _Michel Marcus_, Aug 15 2013
+%o A061044 (Haskell)
+%o A061044 import Data.Ratio ((%), denominator)
+%o A061044 a061044 = denominator . (1 % 25 -) . recip . (^ 2) . fromIntegral
+%o A061044 -- _Reinhard Zumkeller_, Jan 06 2014
+%Y A061044 See A061041 for comments, references, links.
+%K A061044 nonn,frac
+%O A061044 5,2
+%A A061044 _N. J. A. Sloane_, May 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

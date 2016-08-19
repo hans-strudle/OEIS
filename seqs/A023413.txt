@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023413
+Showing 1-1 of 1
+
+%I A023413
+%S A023413 8,8,8,5,8,8,8,5,5,8,5,8,5,8,5,5,5,8,8,8,8,5,5,5,8,5,8,5,5,5,8,8,5,8,
+%T A023413 8,5,5,8,5,8,5,8,8,8,5,5,5,8,8,8,5,8,8,8,8,8,5,8,5,5,8,5,5,8,5,8,8,5,
+%U A023413 8,8,5,8,5,8,5,8,8,5,8,8,5,8,5,8,5,5,8,5,5,8,8,5,8,5,5,8,8,5,5,5,5,8,8,8,8,8,5,5
+%N A023413 If any power of 2 ends with k 5's and 8's, they must be the first k elements of this sequence in reverse order.
+%K A023413 nonn
+%O A023413 0,1
+%A A023413 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

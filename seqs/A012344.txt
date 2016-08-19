@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012344
+Showing 1-1 of 1
+
+%I A012344
+%S A012344 1,0,12,240,7728,428160,37912512,4960720128,901797013248,
+%T A012344 217415865765888,67097095431416832,25783170924788428800,
+%U A012344 12066773451365568000000,6755136268249010663424000
+%V A012344 1,0,-12,-240,-7728,-428160,-37912512,-4960720128,-901797013248,
+%W A012344 -217415865765888,-67097095431416832,-25783170924788428800,
+%X A012344 -12066773451365568000000,-6755136268249010663424000
+%N A012344 cos(arcsin(x)*arcsin(x))=1-12/4!*x^4-240/6!*x^6-7728/8!*x^8...
+%F A012344 a(n) ~ -sqrt(Pi) * sin(Pi^2/4) * (2*n)! / (2 * n^(3/2)). - _Vaclav Kotesovec_, Feb 08 2015
+%t A012344 nn = 20; Table[(CoefficientList[Series[Cos[ArcSin[x]^2], {x, 0, 2*nn}], x] * Range[0, 2*nn]!)[[n]], {n, 1, 2*nn+1, 2}] (* _Vaclav Kotesovec_, Feb 08 2015 *)
+%K A012344 sign
+%O A012344 0,3
+%A A012344 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

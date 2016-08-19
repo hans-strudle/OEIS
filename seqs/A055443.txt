@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055443
+Showing 1-1 of 1
+
+%I A055443
+%S A055443 1,2,1,1,2,1,2,1,1,2,1,1,2,1,2,1,1,2,1,1,2,1,1,2,1,2,1,1,2,1,1,2,1,2,
+%T A055443 1,1,2,1,1,2,1,2,1,1,2,1,1,2,1,1,2,1,2,1,1,2,1,1,2,1,2,1,1,2,1,1,2,1,
+%U A055443 1,2,1,2,1,1,2,1,1,2,1,2,1,1,2,1,1,2,1,1,2,1,2,1,1,2,1,1,2,1,2,1,1,2,1,1,2
+%N A055443 Base 3 distribution of first digit of mantissa following Benford's Law, to minimize chi-squared statistic.
+%Y A055443 Cf. A055439.
+%K A055443 base,nonn
+%O A055443 1,2
+%A A055443 _Henry Bottomley_, May 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

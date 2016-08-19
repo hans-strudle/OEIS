@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037273
+Showing 1-1 of 1
+
+%I A037273
+%S A037273 1,0,0,2,0,1,0,13,2,4,0,1,0,5,4,4,0,1,0,15,1,1,0,2,3,4,4,1,0,2,0,2,1,
+%T A037273 5,3,2,0,2,1,9,0,2,0,9,6,1,0,15
+%V A037273 -1,0,0,2,0,1,0,13,2,4,0,1,0,5,4,4,0,1,0,15,1,1,0,2,3,4,4,1,0,2,0,2,1,
+%W A037273 5,3,2,0,2,1,9,0,2,0,9,6,1,0,15
+%N A037273 Number of steps to reach a prime under "replace n by concatenation of its prime factors", or -1 if no such number.
+%H A037273 P. De Geest, <a href="http://www.worldofnumbers.com/topic1.htm">Home Primes</a>
+%H A037273 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HomePrime.html">Home Prime</a>
+%e A037273 13 is already prime, so a(13) = 0.
+%e A037273 Starting with 14 we get 14 = 2*7, 27 = 3*3*3, 333 = 3*3*37, 3337 = 47*71, 4771 = 13*367, 13367 is prime; so a(14) = 5.
+%t A037273 nxt[n_] := FromDigits[Flatten[IntegerDigits/@Table[#[[1]], {#[[2]]}]&/@ FactorInteger[n]]]; Table[Length[NestWhileList[nxt, n, !PrimeQ[#]&]] - 1, {n, 48}] (* _Harvey P. Dale_, Jan 03 2013 *)
+%o A037273 (Haskell)
+%o A037273 a037273 1 = -1
+%o A037273 a037273 n = length $ takeWhile ((== 0) . a010051) $
+%o A037273    iterate (\x -> read $ concatMap show $ a027746_row x :: Integer) n
+%o A037273 -- _Reinhard Zumkeller_, Jan 08 2013
+%Y A037273 Cf. A037271-A037275, A056938.
+%Y A037273 Cf. A010051, A027746.
+%K A037273 sign,nice,hard,base
+%O A037273 1,4
+%A A037273 _N. J. A. Sloane_, _Jeff Burch_
+%E A037273 Starting with 49, no prime has been reached after 79 steps.
+%E A037273 Edited by _Charles R Greathouse IV_, Apr 23 2010
+%E A037273 a(1) = -1 by _Reinhard Zumkeller_, Jan 08 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

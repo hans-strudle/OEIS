@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059475
+Showing 1-1 of 1
+
+%I A059475
+%S A059475 1,2,10,140,5544,622908,198846076,180473355920,465904151957920,
+%T A059475 3422048076740462480,71525763221287897903500,
+%U A059475 4254840960508487045451825000,720428791920558617462950575000000,347230535542092373572967034254050000000
+%N A059475 Number of 2n X 2n half-turn symmetric alternating-sign matrices (HTSASM's).
+%H A059475 J. de Gier, <a href="http://arXiv.org/abs/math.CO/0211285">Loops, matchings and alternating-sign matrices</a>
+%H A059475 G. Kuperberg, <a href="http://arXiv.org/abs/math.CO/0008184">Symmetry classes of alternating-sign matrices under one roof, arXiv math.CO/0008184</a>
+%F A059475 A005130(n)*A006366(n).
+%Y A059475 Even-numbered terms of A005158.
+%K A059475 nonn
+%O A059475 0,2
+%A A059475 _N. J. A. Sloane_, Feb 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

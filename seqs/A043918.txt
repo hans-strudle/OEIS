@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043918
+Showing 1-1 of 1
+
+%I A043918
+%S A043918 10,22,59,76,108,120,160,169,206,218,255,267,304,316,353,365,402,419,
+%T A043918 451,463,538,549,561,598,610,647,659,696,708,745,762,794,806,846,855,
+%U A043918 892,904,941,953,990,1002,1039,1051,1126,1137
+%N A043918 Numbers n such that 1 and 3 occur juxtaposed in the base 7 representation of n but not of n+1.
+%K A043918 nonn,base
+%O A043918 1,1
+%A A043918 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005158
+Showing 1-1 of 1
+
+%I A005158 M0902
+%S A005158 1,2,3,10,25,140,588,5544,39204,622908,7422987,198846076
+%N A005158 Number of alternating sign n X n matrices invariant under a half-turn.
+%D A005158 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005158 R. P. Stanley, A baker's dozen of conjectures concerning plane partitions, pp. 285-293 of "Combinatoire Enumerative (Montreal 1985)", Lect. Notes Math. 1234, 1986.
+%H A005158 G. Kuperberg, <a href="http://arXiv.org/abs/math.CO/0008184">Symmetry classes of alternating-sign matrices under one roof, arXiv math.CO/0008184</a>
+%H A005158 D. P. Robbins, Symmetry classes of alternating sign matrices, <a href="http://arXiv.org/abs/math.CO/0008045">arXiv:math.CO/0008045</a>
+%F A005158 Robbins gives a simple (conjectured) formula.
+%t A005158 a[n_?OddQ] := a[n] = (a[n-1]*Binomial[(3*(n-1))/2, (n-1)/2])/ Binomial[n-1, (n-1)/2]; a[n_?EvenQ] := a[n] = (4*a[n-1]*Binomial[(3*n)/2, n/2])/ (3*Binomial[n, n/2]); a[1] = 1; Table[a[n], {n, 1, 11}] (* _Jean-François Alcover_, Sep 12 2012, from Robbins's conjectured(!) formula *)
+%o A005158 (PARI) /* from Robbins's conjectured(!) formula */
+%o A005158 /* using memoization for efficiency */
+%o A005158 N=33;  v=vector(N); v[1]=1;
+%o A005158 { for (n=2, N,
+%o A005158     if (bitand(n,1),
+%o A005158         v[n] = (v[n-1]*binomial((3*(n-1))/2, (n-1)/2)) / binomial(n-1, (n-1)/2);
+%o A005158     ,
+%o A005158         v[n] = (4*v[n-1]*binomial((3*n)/2, n/2))/ (3*binomial(n, n/2));
+%o A005158     );
+%o A005158 ); }
+%o A005158 v /* show terms */
+%o A005158 /* _Joerg Arndt_, Sep 12 2012 */
+%Y A005158 a(2n) gives A059475.
+%K A005158 nonn,nice,more
+%O A005158 1,2
+%A A005158 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

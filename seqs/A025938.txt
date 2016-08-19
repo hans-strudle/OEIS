@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025938
+Showing 1-1 of 1
+
+%I A025938
+%S A025938 1,19,237,2471,23429,210063,1818349,15380167,128060757,1054660607,
+%T A025938 8618507261,70035919863,566816115685,4573706232751,36824728021773,
+%U A025938 296008336113959,2376529889559413,19063018707520095
+%N A025938 Expansion of 1/((1-2x)(1-3x)(1-6x)(1-8x)).
+%F A025938 a(n) = (2*8^(n+3)-5*6^(n+3)+8*3^(n+3)-5*2^(n+3))/120. - _Yahia Kahloune_, May 24 2013
+%K A025938 nonn,easy
+%O A025938 0,2
+%A A025938 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030185
+Showing 1-1 of 1
+
+%I A030185
+%S A030185 1,720,911520,1301011200,1958042030400,3036508587993600,
+%T A030185 4800606078996518400,7692266556998230118400,
+%U A030185 12448466349673022940816000,20299324957420186505619072000,33301542920000564787678367257600
+%N A030185 Coefficients in expansion of E_2*E_4/(E_6*j) in powers of 1/j.
+%D A030185 M. Kaneko and D. Zagier, Supersingular j-invariants, hypergeometric series and Atkin's orthogonal polynomials. Computational perspectives on number theory (Chicago, IL, 1995), 97-126, AMS/IP Stud. Adv. Math., 7, Amer. Math. Soc., Providence, RI, 1998. See esp. p. 110.
+%D A030185 R. A. Rankin, The zeros of Eisenstein series, Publ. Ramanujan Institute 1 (1969), 137-144. (On page 139).
+%H A030185 M. Kaneko and D. Zagier, <a href="http://www2.math.kyushu-u.ac.jp/~mkaneko/papers/atkin.pdf">Supersingular j-invariants, hypergeometric series and Atkin's orthogonal polynomials</a>, AMS/IP Studies in Advanced Mathematics, vol. 7, 97--126, (1998). [From Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 25 2010]
+%K A030185 nonn
+%O A030185 1,2
+%A A030185 _N. J. A. Sloane_.
+%E A030185 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 25 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

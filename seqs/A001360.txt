@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001360
+Showing 1-1 of 1
+
+%I A001360
+%S A001360 1,8,29,85,232,617,1625,4264,11173,29261,76616,200593,525169,1374920,
+%T A001360 3599597,9423877,24672040,64592249,169104713,442721896,1159060981,
+%U A001360 3034461053,7944322184,20798505505
+%N A001360 Crystal ball sequence for hyperbolic tesselation 3^7 (from triangle group (2,3,7)).
+%H A001360 <a href="/index/Cor#crystal_ball">Index entries for crystal ball sequences</a>
+%F A001360 Conjecture: a(n) = 4*a(n-1)-4*a(n-2)+a(n-3). G.f.: (1+4*x+x^2)/((1-x)*(1-3*x+x^2)). - _Colin Barker_, Mar 16 2012
+%Y A001360 Cf. A001354.
+%K A001360 nonn,easy,nice
+%O A001360 0,2
+%A A001360 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

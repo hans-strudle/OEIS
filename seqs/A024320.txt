@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024320
+Showing 1-1 of 1
+
+%I A024320
+%S A024320 0,0,2,3,5,7,11,13,24,30,36,46,50,60,70,74,103,117,131,139,157,171,
+%T A024320 177,193,207,221,278,294,310,330,348,360,390,408,424,448,470,486,573,
+%U A024320 611,625,653,673,699,739,761,781,803,835,863,891,925,1054,1078,1104,1136,1180,1214
+%N A024320 a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k=[ (n+1)/2) ], s = A023531, t = (1, p(1), p(2), ... ).
+%K A024320 nonn
+%O A024320 1,3
+%A A024320 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

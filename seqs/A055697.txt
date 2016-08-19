@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055697
+Showing 1-1 of 1
+
+%I A055697
+%S A055697 1,2,10,12,78,198,1278,1470,1491,2376,2472,6768,7659,7774,9858,10912,
+%T A055697 11904,12862,16660,25758,35586,38976,39102,40986,41144,44688,59520,
+%U A055697 72961,80304,84084,94365
+%N A055697 Numbers n such that n | Sigma_3(n) + Phi(n)^3.
+%C A055697 sigma_3(n) is the sum of the cubes of the divisors of n (A001158).
+%t A055697 Do[If[Mod[DivisorSigma[3, n]+EulerPhi[n]^3, n]==0, Print[n]], {n, 1, 2*10^5}]
+%K A055697 nonn
+%O A055697 1,2
+%A A055697 _Robert G. Wilson v_, Jun 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

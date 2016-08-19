@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017695
+Showing 1-1 of 1
+
+%I A017695
+%S A017695 1,65537,43046722,4295032833,152587890626,1410576509857,
+%T A017695 33232930569602,281479271743489,1853020231898563,5000076293978081,
+%U A017695 45949729863572162,30814514057170571,665416609183179842
+%N A017695 Numerator of sum of -16th powers of divisors of n.
+%C A017695 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%t A017695 Table[Numerator[Total[1/Divisors[n]^16]],{n,20}] (* _Harvey P. Dale_, Sep 26 2014 *)
+%Y A017695 Cf. A017696.
+%K A017695 nonn,frac
+%O A017695 1,2
+%A A017695 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

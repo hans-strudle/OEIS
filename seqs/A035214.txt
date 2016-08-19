@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035214
+Showing 1-1 of 1
+
+%I A035214
+%S A035214 2,2,1,2,1,1,2,1,1,1,2,1,1,1,1,2,1,1,1,1,1,2,1,1,1,1,1,1,2,1,1,1,1,1,
+%T A035214 1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,2,1,
+%U A035214 1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1
+%N A035214 2 followed by a run of n 1's.
+%F A035214 a(n) = 2 if n is a triangular number, otherwise 1.
+%F A035214 a(n) = floor((3-cos(Pi*sqrt(8*n+1)))/2) - _Carl R. White_, Mar 18 2006
+%Y A035214 Cf. A035253, A035254.
+%Y A035214 Equals A010054(n) + 1.
+%K A035214 nonn
+%O A035214 0,1
+%A A035214 _N. J. A. Sloane_.
+%E A035214 Typo corrected by Neven Juric, Jan 10 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

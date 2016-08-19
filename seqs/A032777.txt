@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032777
+Showing 1-1 of 1
+
+%I A032777
+%S A032777 0,1120,8247,34892,110880,293505,682787,1441440,2820208,5189184,
+%T A032777 9075733,15209677,24576340,38478109,58605120,87115718,126727310,
+%U A032777 180818236,253541302,349949600,476135234,639381600,848329835
+%N A032777 [ n(n+1)(n+2)...(n+7) / n+(n+1)+(n+2)+...+(n+7) ].
+%Y A032777 Cf. A032778, A032779.
+%K A032777 nonn
+%O A032777 0,2
+%A A032777 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

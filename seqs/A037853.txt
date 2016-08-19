@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037853
+Showing 1-1 of 1
+
+%I A037853
+%S A037853 0,0,1,0,0,2,1,0,1,1,1,1,0,0,2,1,0,2,2,2,2,1,1,2,1,0,1,1,1,2,1,1,3,2,
+%T A037853 1,1,1,1,1,0,0,2,1,0,2,2,2,2,1,1,2,1,0,2,2,2,3,2,2,4,3,2,2,2,2,2,1,1,
+%U A037853 3,2,1,2,2,2,2,1,1,2,1,0,1,1,1,2,1,1,3,2,1,2
+%N A037853 Sum{d(i)-d(i-1): d(i)>d(i-1), i=1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is base 3 representation of n.
+%p A037853 A037853 := proc(n)
+%p A037853     a := 0 ;
+%p A037853     dgs := convert(n,base,3);
+%p A037853     for i from 2 to nops(dgs) do
+%p A037853         if op(i,dgs)>op(i-1,dgs) then
+%p A037853             a := a+op(i,dgs)-op(i-1,dgs) ;
+%p A037853         end if;
+%p A037853     end do:
+%p A037853     a ;
+%p A037853 end proc: # _R. J. Mathar_, Oct 16 2015
+%Y A037853 Cf. A037844
+%K A037853 nonn,base
+%O A037853 1,6
+%A A037853 _Clark Kimberling_
+%E A037853 Definition corrected. - _R. J. Mathar_, Oct 16 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

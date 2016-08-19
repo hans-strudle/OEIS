@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023327
+Showing 1-1 of 1
+
+%I A023327
+%S A023327 103,281,293,823,937,1733,3361,3919,4129,6101,8443,15413,16217,17959,
+%T A023327 21067,26459,26479,30253,31247,36691,37171,38561,40493,41411,46451,
+%U A023327 57709,60869,64621,79433,79987,89821,92821,113567,114997,118873,125539,142573
+%N A023327 Numbers n such that n remains prime through 4 iterations of function f(x) = 9x + 10.
+%C A023327 n, 9*n+10, 81*n+100, 729*n+910 and 6561*n+8200 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023327 (MAGMA) [n: n in [1..5000000] | IsPrime(n) and IsPrime(9*n+10) and IsPrime(81*n+100) and IsPrime(729*n+910) and IsPrime(6561*n+8200)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023327 nonn
+%O A023327 1,1
+%A A023327 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

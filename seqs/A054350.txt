@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054350
+Showing 1-1 of 1
+
+%I A054350
+%S A054350 1,1,2,1,2,2,1,1,2,2,1,1,2,1,1,2,2,1,1,2,1,2,2,1,2,1,2,2,1,1,2,1,2,2,
+%T A054350 1,2,2,1,1,2,1,1,2,1,2,2,1,1,2,1,2,2,1,2,2,1,1,2,1,1,2,2,1,2,1,1,2,1,
+%U A054350 2,2,1,1,2,2,1,1,2,1,2,2,1,2,2,1,1,2,1,1,2,2,1,2,1,1,2,1,2,2,1,1,2,1,1,2,1
+%N A054350 Triangular array whose rows are successive generations of the Kolakoski sequence A000002.
+%e A054350 1; 1,2; 1,2,2,1; 1,2,2,1,1,2,1; ...
+%Y A054350 Cf. A054348-A054352, A042942, A000002.
+%Y A054350 Row lengths give A054352.
+%K A054350 nonn,tabf,easy
+%O A054350 0,3
+%A A054350 _N. J. A. Sloane_, May 07 2000
+%E A054350 More terms from Antonio G. Astudillo (afg_astudillo(AT)lycos.com), Apr 05 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012281
+Showing 1-1 of 1
+
+%I A012281
+%S A012281 2,3,4,20,10,609,3880,32040,352742,3799565,44271460,571990068,
+%T A012281 7830460482,113493888585,1753811009808,28760379830416,
+%U A012281 498456016769742,9112758567973533,175322176912457996
+%V A012281 2,-3,4,-20,-10,609,-3880,32040,-352742,3799565,-44271460,571990068,
+%W A012281 -7830460482,113493888585,-1753811009808,28760379830416,
+%X A012281 -498456016769742,9112758567973533,-175322176912457996
+%N A012281 sin(sin(x)*log(x+1))=2/2!*x^2-3/3!*x^3+4/4!*x^4-20/5!*x^5-10/6!*x^6...
+%t A012281 With[{nn=20},Drop[CoefficientList[Series[Sin[Sin[x]Log[x+1]],{x,0,nn}],x] Range[0,nn]!,2]] (* _Harvey P. Dale_, Jun 01 2014 *)
+%K A012281 sign
+%O A012281 0,1
+%A A012281 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

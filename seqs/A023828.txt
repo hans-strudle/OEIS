@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023828
+Showing 1-1 of 1
+
+%I A023828
+%S A023828 0,3,5,5,5,9,9,11,8,8,10,12,13,15,15,16,13,16,17,16,16,18,20,22,18,20,
+%T A023828 21,20,20,22,24,25,24,25,26,26,24,28,28,29,24,28,29,29,28,29,32,34,31,
+%U A023828 31,33,31,31,34,32,34,30,33,34,37,37,40,43,42,37,39,40,41,41,41,43,44,40,45,46,46,45,47
+%N A023828 Sum of exponents in prime-power factorization of C(4n,n-2).
+%K A023828 nonn
+%O A023828 1,2
+%A A023828 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

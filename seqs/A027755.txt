@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027755
+Showing 1-1 of 1
+
+%I A027755
+%S A027755 5,7,11,17,47,61,137,277,311,347,467,557,761,997,1061,1487,1811,2357,
+%T A027755 2657,3911,4561,5261,5407,5857,6011,6977,7487,8377,8747,9511,11777,
+%U A027755 12437,13577,14767,16007,17827,18637,18911,21467,23567,25127
+%N A027755 Primes of form n^2 + n + 5.
+%C A027755 a(5) through a(14) are identical to the first 10 values of q, the left-hand column of "Example 2.3. We give examples of maximal and minimal elliptic curves over finite fields over F_q with discriminant -19 for all q < 1000.", p.4, and "Example 5.2. We produce examples of optimal curves over finite fields with discriminant -19." pp.10-11 of E. Alekseenko, et al. [From _Jonathan Vos Post_, Feb 12 2009]
+%H A027755 P. De Geest, <a href="http://www.worldofnumbers.com/index.html">World!Of Numbers</a>
+%H A027755 E. Alekseenko, S. Aleshnikov, N. Markin and A. Zaytsev, <a href="http://arxiv.org/abs/0902.1901">Optimal Curves of Genus 3 over Finite Fields with Discriminant -19</a>, Feb 11, 2009. [From _Jonathan Vos Post_, Feb 12 2009]
+%o A027755 (MAGMA) [a: n in [0..250]|IsPrime(a) where a is n^2+n+5][From Vincenzo Librandi, Dec 20 2010]
+%K A027755 nonn
+%O A027755 1,1
+%A A027755 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

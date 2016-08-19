@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052927
+Showing 1-1 of 1
+
+%I A052927
+%S A052927 1,4,16,65,264,1072,4353,17676,71776,291457,1183504,4805792,19514625,
+%T A052927 79242004,321773808,1306609857,5305681432,21544499536,87484608001,
+%U A052927 355244113436,1442520953280,5857568421121,23785517797920,96584592144960,392195937000961
+%N A052927 Expansion of 1/(1-4*x-x^3).
+%C A052927 A transform of A000302 under the mapping mapping g(x)->(1/(1-x^3))g(x/(1-x^3)). - _Paul Barry_, Oct 20 2004
+%C A052927 a(n) equals the number of n-length words on {0,1,2,3,4} such that 0 appears only in a run which length is a multiple of 3. - _Milan Janjic_, Feb 17 2015
+%H A052927 Vincenzo Librandi, <a href="/A052927/b052927.txt">Table of n, a(n) for n = 0..1000</a>
+%H A052927 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=913">Encyclopedia of Combinatorial Structures 913</a>
+%H A052927 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (4,0,1).
+%F A052927 G.f.: 1/(1-4*x-x^3).
+%F A052927 Recurrence: {a(0)=1, a(1)=4, a(2)=16, a(n)+4*a(n+2)-a(n+3)=0}.
+%F A052927 Sum(1/283*(64+24*r^2+9*r)*r^(-1-n), r=RootOf(-1+4*_Z+_Z^3)).
+%F A052927 a(n)=sum{k=0..floor(n/3), binomial(n-2*k, k)*4^(n-3*k)}. - _Paul Barry_, Oct 20 2004
+%p A052927 spec := [S,{S=Sequence(Union(Z,Z,Z,Z,Prod(Z,Z,Z)))},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052927 CoefficientList[Series[1/(1-4x-x^3),{x,0,40}],x] (* or *) LinearRecurrence[{4,0,1},{1,4,16},40] (* _Vladimir Joseph Stephan Orlovsky_, Jan 28 2012 *)
+%o A052927 (MAGMA) I:=[1, 4, 16]; [n le 3 select I[n] else 4*Self(n-1)+Self(n-3): n in [1..30]]; // _Vincenzo Librandi_, Jun 22 2012
+%Y A052927 Cf. A099503.
+%K A052927 easy,nonn
+%O A052927 0,2
+%A A052927 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

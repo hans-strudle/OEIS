@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051300
+Showing 1-1 of 1
+
+%I A051300
+%S A051300 1,2,4,8,16,77,154,569,1525,6677,14344,55778,141355,655490,721039,
+%T A051300 1693142,3862456,10248701,21273571,33400928,116741020,128415122,
+%U A051300 341256634,775382297,1552920526
+%N A051300 a(n+1) = a(n) + rotate( a(n), 1 digit right).
+%K A051300 nonn,base,easy
+%O A051300 1,2
+%A A051300 Armand Turpel armandt(AT)unforgettable.com
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

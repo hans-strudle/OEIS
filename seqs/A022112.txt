@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022112
+Showing 1-1 of 1
+
+%I A022112
+%S A022112 2,6,8,14,22,36,58,94,152,246,398,644,1042,1686,2728,4414,7142,11556,
+%T A022112 18698,30254,48952,79206,128158,207364,335522,542886,878408,1421294,
+%U A022112 2299702,3720996,6020698,9741694
+%N A022112 Fibonacci sequence beginning 2, 6.
+%H A022112 Reinhard Zumkeller, <a href="/A022112/b022112.txt">Table of n, a(n) for n = 0..1000</a>
+%H A022112 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022112 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1,1).
+%F A022112 a(n) = 4*Fibonacci(n+2) - 2*Fibonacci(n+1). - _Gary Detlefs_ Dec 21 2010
+%F A022112 a(n) = 2*A000204(n+1). - _R. J. Mathar_, Mar 11 2011
+%F A022112 G.f. ( -2-4*x ) / ( -1+x+x^2 ). - _R. J. Mathar_, Mar 11 2011
+%F A022112 a(n) = Fibonacci(n-2) + Fibonacci(n+4). - _Gary Detlefs_, Mar 31 2012
+%F A022112 a(n) = L(n - 1) + L(n) + L(n + 1), for n > 0, where L(n) is the n-th Lucas number (A000204). - _Alonso del Arte_, Sep 25 2013
+%t A022112 LinearRecurrence[{1, 1}, {2, 6}, 40] (* _Harvey P. Dale_, Apr 21 2012 *)
+%t A022112 2LucasL[Range[30]] (* _Alonso del Arte_, Sep 25 2013 *)
+%o A022112 (Haskell)
+%o A022112 a022112 n = a022112_list !! n
+%o A022112 a022112_list = 2 : 6 : zipWith (+) (tail a022112_list) a022112_list
+%o A022112 -- _Reinhard Zumkeller_, Apr 08 2012
+%o A022112 (PARI) a(n)=4*fibonacci(n+2)-2*fibonacci(n+1) \\ _Charles R Greathouse IV_, Oct 07 2015
+%K A022112 nonn,easy
+%O A022112 0,1
+%A A022112 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

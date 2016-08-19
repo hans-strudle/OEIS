@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035017
+Showing 1-1 of 1
+
+%I A035017
+%S A035017 1,13,286,8866,354640,17377360,1007886880,67528420960,5132159992960,
+%T A035017 436233599401600,41005958343750400,4223613709406291200,
+%U A035017 473044735453504614400,57238412989874058342400
+%N A035017 One quarter of 9-factorial numbers.
+%H A035017 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035017 4*a(n) = (9*n-5)(!^9) := product(9*j-5, j=1..n).
+%F A035017 E.g.f.: (-1+(1-9*x)^(-4/9))/4.
+%t A035017 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 12, 2*5!, 9}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A035017 Cf. A007559, A034171, A045756, A035012, A035013, A035017, A035018, A035020-A035023.
+%K A035017 easy,nonn
+%O A035017 1,2
+%A A035017 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

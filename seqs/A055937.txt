@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055937
+Showing 1-1 of 1
+
+%I A055937
+%S A055937 2,2,3,5,14,69,965,66584,64253559,4278258972455,274893365303916717344,
+%T A055937 1176065006579831683931038116759519,
+%U A055937 323292467474902888912311701915651931811127805144397535
+%N A055937 a(n) = a(n-1) * a(n-2) - 1.
+%H A055937 Vincenzo Librandi, <a href="/A055937/b055937.txt">Table of n, a(n) for n = 1..19</a>
+%t A055937 a=2;b=2;lst={a,b};Do[AppendTo[lst,c=a*b-1];a=b;b=c,{n,15}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 23 2010 *)
+%t A055937 RecurrenceTable[{a[1] == a[2] == 2, a[n] == a[n-1] a[n-2] - 1}, a, {n, 20}] (* _Vincenzo Librandi_, Sep 30 2015 *)
+%o A055937 (Python 2.7.x)
+%o A055937 def seq():
+%o A055937     j, k = 2L, 2L
+%o A055937     while k < 2L**3072:
+%o A055937         j, k = k, j * k - 1
+%o A055937         print k
+%o A055937 # _Joshua D. Olson_, Sep 29 2015
+%o A055937 (MAGMA) I:=[2,2]; [n le 2 select I[n] else Self(n-1)*Self(n-2)-1: n in [1..15]]; // _Vincenzo Librandi_, Sep 30 2015
+%o A055937 (PARI) a(n) = if(n<3, 2, a(n-1)*a(n-2)-1);
+%o A055937 vector(15, n, a(n)) \\ _Altug Alkan_, Sep 30 2015
+%Y A055937 A152446 uses largest prime < a(n-1)*a(n-2) instead of subtracting 1. - _Joshua D. Olson_, Sep 29 2015
+%K A055937 easy,nonn
+%O A055937 1,1
+%A A055937 _Robert G. Wilson v_, Jul 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054951
+Showing 1-1 of 1
+
+%I A054951
+%S A054951 1,1,4,78,4960,1041872,704369984,1579641879248,12137443766888448,
+%T A054951 328148810741254606592,31830752699315833628787200
+%N A054951 Number of unlabeled semi-strong digraphs on n nodes with mutually nonisomorphic components.
+%D A054951 V. A. Liskovets, A contribution to the enumeration of strongly connected digraphs, Dokl. AN BSSR, 17 (1973), 1077-1080 (Russian), MR49#4849.
+%H A054951 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%Y A054951 Cf. A035512, A049387.
+%K A054951 nonn,easy
+%O A054951 1,3
+%A A054951 _N. J. A. Sloane_, May 24 2000
+%E A054951 More terms from _Vladeta Jovovic_, Mar 11 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

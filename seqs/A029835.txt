@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029835
+Showing 1-1 of 1
+
+%I A029835
+%S A029835 0,1,1,1,2,2,2,2,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
+%T A029835 5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,
+%U A029835 5,5,5,5,5,5,5,5,5,5,5,6
+%N A029835 [ log(n-th prime) ].
+%t A029835 Table[Floor[Log[Prime[n]]], {n, 80}] (* _Alonso del Arte_, Sep 11 2013 *)
+%o A029835 (PARI) a(n) = floor(log(prime(n))); \\ _Michel Marcus_, Sep 11 2013
+%K A029835 nonn,easy
+%O A029835 1,5
+%A A029835 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

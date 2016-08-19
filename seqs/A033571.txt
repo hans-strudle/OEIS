@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033571
+Showing 1-1 of 1
+
+%I A033571
+%S A033571 1,18,55,112,189,286,403,540,697,874,1071,1288,1525,1782,2059,2356,
+%T A033571 2673,3010,3367,3744,4141,4558,4995,5452,5929,6426,6943,7480,8037,
+%U A033571 8614,9211,9828,10465,11122,11799,12496
+%N A033571 (2*n+1)*(5*n+1).
+%C A033571 Sequence found by reading the line from 1, in the direction 1, 18,..., in the square spiral whose vertices are the generalized heptagonal numbers A085787. This is one of the diagonals in the spiral - Omar E. Pol, Sep 10 2011
+%C A033571 Also sequence found by reading the line from 1, in the direction 1, 18,..., in the square spiral whose edges have length A195013 and whose vertices are the numbers  A195014. This is a line perpendicular to the main axis A195015 in the same spiral. - Omar E. Pol, Oct 14 2011
+%F A033571 a(n) = A153126(2*n) = A000566(2*n+1). [From _Reinhard Zumkeller_, Dec 20 2008]
+%F A033571 For n>0: a(n)=A008596(n)+A158186(n); a(n)=A010010(n)-A158186(n). [From _Reinhard Zumkeller_, Mar 13 2009]
+%F A033571 a(n)=a(n-1)+20*n-3 (with a(0)=1) [From Vincenzo Librandi, Nov 17 2010]
+%Y A033571 A153127. [From _Reinhard Zumkeller_, Dec 20 2008]
+%K A033571 nonn
+%O A033571 0,2
+%A A033571 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

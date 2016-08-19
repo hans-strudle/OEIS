@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026356
+Showing 1-1 of 1
+
+%I A026356
+%S A026356 1,2,4,7,9,12,15,17,20,22,25,28,30,33,36,38,41,43,46,49,51,54,56,59,
+%T A026356 62,64,67,70,72,75,77,80,83,85,88,91,93,96,98,101,104,106,109,111,114,
+%U A026356 117,119,122,125,127,130,132,135,138,140,143,145
+%N A026356 [(n-1)*phi] + n + 1, n>0, where phi = (1+sqrt(5))/2.
+%C A026356 Greatest k such that s(k) = n+1, where s = A026354.  Positions of 1 in A189661.
+%t A026356 (See A189661.)
+%Y A026356 Cf. A000201, A026351, etc. Apart from initial terms, same as A007066. Complement is A189662, clesly related to A026355.
+%K A026356 nonn
+%O A026356 0,2
+%A A026356 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

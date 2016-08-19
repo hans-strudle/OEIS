@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006758
+Showing 1-1 of 1
+
+%I A006758 M4114
+%S A006758 0,0,1,6,17,59,195,703,2499,9188,33895,126758,476269,1802311,6849776,
+%T A006758 26152417,100203193,385221142,1485200847,5741256763,22245940544,
+%U A006758 86383382826,336093325057,1309998125639,5114451441105,19998172734785,78306011677181,307022182222505,1205243866707467,4736694001644861,18635412907198669
+%N A006758 Number of one-sided polyominoes with n cells.
+%C A006758 A000988 is the main entry for this sequence.
+%D A006758 W. F. Lunnon, Counting multidimensional polyominoes. Computer Journal 18 (1975), no. 4, pp. 366-367.
+%D A006758 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006758 N. J. A. Sloane, <a href="/A006758/b006758.txt">Table of n, a(n) for n = 1..45</a>
+%Y A006758 A000988 (= a(n) + 1) is another version. A column of A195738.
+%K A006758 nonn
+%O A006758 1,4
+%A A006758 _N. J. A. Sloane_.
+%E A006758 Edited by _N. J. A. Sloane_, Sep 23 2011.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

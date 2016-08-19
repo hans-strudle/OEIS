@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037100
+Showing 1-1 of 1
+
+%I A037100
+%S A037100 4,6,12,24,54,186,3246,25926,169314,412026,541524,37949286,124716066,
+%T A037100 324532464
+%N A037100 Set of even numbers such that 1 plus the sum of any two is prime.
+%C A037100 This set has 14 members. Other sets with this property with up to 17 members are known (see the Rivera link). - _R. J. Mathar_, Jan 11 2008
+%H A037100 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_037.htm">The Prime Problems and Puzzles Connection - Puzzle 37</a>
+%e A037100 4+54+1 is prime.
+%K A037100 fini,full,nonn
+%O A037100 1,1
+%A A037100 _Carlos Rivera_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

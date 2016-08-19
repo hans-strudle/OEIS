@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051304
+Showing 1-1 of 1
+
+%I A051304
+%S A051304 0,0,0,0,5,780,41545,1442910,39400305,923889960,19550316665,
+%T A051304 384954289170,7196416532305,129495073447740,2264887575116985,
+%U A051304 38775513868485030
+%N A051304 Number of 4-element proper antichains of an n-element set.
+%F A051304 (1/4!) * (16^n -18*12^n +60*10^n -9*9^n -102*8^n +105*7^n -90*6^n +95*5^n -31*4^n -33*3^n +28*2^n -6).
+%F A051304 G.f. x^4*( 5 +365*x -7935*x^2 +46885*x^3 -191420*x^4 +2285460*x^5 -14380560*x^6 +27216000*x^7 ) / ( (x-1) *(9*x-1) *(6*x-1) *(7*x-1) *(3*x-1) *(5*x-1) *(2*x-1) *(12*x-1) *(10*x-1) *(4*x-1) *(8*x-1) *(16*x-1) ). - _R. J. Mathar_, Jun 13 2013
+%Y A051304 Cf. A032263, A036239, A051112.
+%K A051304 nonn
+%O A051304 0,5
+%A A051304 _Vladeta Jovovic_, Goran Kilibarda, Zoran Maksimovic
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

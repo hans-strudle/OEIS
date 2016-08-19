@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055803
+Showing 1-1 of 1
+
+%I A055803
+%S A055803 1,1,1,2,3,5,7,11,14,21,25,36,41,57,63,85,92,121,129,166,175,221,231,
+%T A055803 287,298,365,377,456,469,561,575,681,696,817,833,970,987,1141,1159,
+%U A055803 1331,1350,1541,1561,1772,1793,2025,2047,2301
+%N A055803 T(n,n-3), array T as in A055801.
+%C A055803 Third differences seem to be A002620(n)+1.
+%F A055803 Conjecture: a(n) = (-39 +135*(-1)^n +(55-39*(-1)^n)*n +3*(-5+(-1)^n)*n^2 +2*n^3)/96 for n>3. - _Colin Barker_, Nov 28 2014
+%F A055803 Empirical g.f.: x^3*(x^7-2*x^6-x^5+4*x^4+x^3-3*x^2+1) / ((x-1)^4*(x+1)^3). - _Colin Barker_, Nov 28 2014
+%K A055803 nonn
+%O A055803 3,4
+%A A055803 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

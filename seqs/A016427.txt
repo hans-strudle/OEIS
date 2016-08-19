@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016427
+Showing 1-1 of 1
+
+%I A016427
+%S A016427 1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,1,0,0,0,0,0,1,
+%T A016427 1,0,1,1,1,1,0,1,1,0,0,0,0,0,1,1,0,1,1,1,0,1,2,1,0,1,1,1,0,
+%U A016427 1,1,0,1,1,1,0,1,1,0,1,1,1,0,1,2,1,0,1,1,1
+%V A016427 1,-1,1,0,0,1,-1,1,0,0,0,0,0,0,0,-1,1,0,-1,1,-1,1,0,-1,1,0,0,0,0,0,1,
+%W A016427 -1,0,1,-1,1,-1,0,1,-1,0,0,0,0,0,-1,1,0,-1,1,-1,0,1,-2,1,0,-1,1,-1,0,
+%X A016427 1,-1,0,1,-1,1,0,-1,1,0,-1,1,-1,0,1,-2,1,0,-1,1,-1
+%N A016427 510th cyclotomic polynomial.
+%t A016427 CoefficientList[Cyclotomic[510,x],x] (* _Harvey P. Dale_, Apr 28 2012 *)
+%K A016427 sign,fini
+%O A016427 0,54
+%A A016427 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

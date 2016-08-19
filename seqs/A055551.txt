@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055551
+Showing 1-1 of 1
+
+%I A055551
+%S A055551 0,0,1,12,36,114,375,1071,2939,7706,20417,53332,124882
+%N A055551 Number of base-2 Euler-Jacobi pseudoprimes (A047713) less than 10^n.
+%H A055551 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Euler-JacobiPseudoprime.html">Jacobi Pseudoprime.</a>
+%H A055551 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Pseudoprime.html">Pseudoprime.</a>
+%Y A055551 Cf. A047713.
+%K A055551 nonn,more
+%O A055551 1,4
+%A A055551 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006469
+Showing 1-1 of 1
+
+%I A006469 M4727
+%S A006469 10,79,340,1071,2772,6258,12768,24090,42702,71929
+%N A006469 Number of rooted planar maps.
+%D A006469 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006469 Walsh, T. R. S.; Lehman, A. B.; Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%F A006469 G.f.:1/(x-1)^7*(3*x^2-9*x-10), in _Simon Plouffe_ Master thesis, Uqam 1992.
+%K A006469 nonn
+%O A006469 1,1
+%A A006469 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034772
+Showing 1-1 of 1
+
+%I A034772
+%S A034772 1,3,4,8,7,18,15,34,41,71,91,182,235,409,628,1047,1599,2685,4183,6906,
+%T A034772 10980,17895,28659,46756,75038,121865,196496,318620,514231,833426,
+%U A034772 1346271,2180369,3524764,5706087,9227505,14935978,24157819,39096537
+%N A034772 Dirichlet convolution of d(n) (# of divisors) with Fibonacci numbers.
+%K A034772 nonn
+%O A034772 1,2
+%A A034772 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

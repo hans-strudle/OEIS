@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056876
+Showing 1-1 of 1
+
+%I A056876
+%S A056876 1,0,0,2,6,0,184,936,6688,0,420480,4298664,44405142,0,6732621476,
+%T A056876 92014579912,1345077232898,0,349174373111790,6179276762966832,
+%U A056876 114913276077265202,0
+%N A056876 Number of permutations (p_1, ..., p_n) of {1,...,n} that are "balanced" in the sense that the sum of kp_k equals the sum of (n+1-k)p_k; equivalently, the expected value of kp_k is (expected value of k) times (expected value of p_k), assuming the uniform distribution.
+%C A056876 a(4k+2)=0; also, the same sequence enumerates permutations of {0,1,...,n-1} with the stated expected value property.
+%C A056876 Also, central coefficients in the expansion of the probability generating function for the exact null distribution of Spearman's rho. - Antonio G. Astudillo (afg_astudillo(AT)hotmail.com), May 14 2002
+%D A056876 Ivan Moscovich, MORE BRAINMATICS LOGIC PUZZLES, see p. 130. - from Neven Juric, Jan 21 2010.
+%H A056876 M.A. van de Wiel and A. Di Bucchianico, <a href="http://www.win.tue.nl/math/bs/spor/cosor98.html">Fast computation of the exact null distribution of Spearman's rho and Page's L statistic ... </a>, J. of Stat. Plan. and Inference, 92 (2001), 133-145.
+%H A056876 M.A. van de Wiel and A. Di Bucchianico, <a href="ftp://ftp.win.tue.nl/pub/techreports/cosor/98-17.ps">Fast computation of the exact null distribution of Spearman's rho and Page's L statistic ... </a>, J. of Stat. Plan. and Inference, 92 (2001), 133-145.
+%e A056876 a(5)=6 because of the permutations 15432, 23451, 25314, 41352, 43215, 51234.
+%K A056876 hard,nonn
+%O A056876 1,4
+%A A056876 _Don Knuth_, Sep 03 2000
+%E A056876 More terms from Antonio G. Astudillo (afg_astudillo(AT)hotmail.com), May 14 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056170
+Showing 1-1 of 1
+
+%I A056170
+%S A056170 0,0,0,1,0,0,0,1,1,0,0,1,0,0,0,1,0,1,0,1,0,0,0,1,1,0,1,1,0,0,0,1,0,0,
+%T A056170 0,2,0,0,0,1,0,0,0,1,1,0,0,1,1,1,0,1,0,1,0,1,0,0,0,1,0,0,1,1,0,0,0,1,
+%U A056170 0,0,0,2,0,0,1,1,0,0,0,1,1,0,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,1,2,0,0,0,1,0
+%N A056170 Number of non-unitary prime divisors of n.
+%C A056170 Number of prime squares dividing n. - _Reinhard Zumkeller_, May 18 2002
+%C A056170 a(A005117(n)) = 0; a(A013929(n)) > 0; a(A190641(n)) = 1. - _Reinhard Zumkeller_, Dec 29 2012
+%H A056170 Reinhard Zumkeller, <a href="/A056170/b056170.txt">Table of n, a(n) for n = 1..10000</a>
+%F A056170 A prime factor of n is unitary iff its exponent is 1 in the prime factorization of n. (Of course for any prime p, GCD(p, n/p) is either 1 or p. For a unitary prime factor it must be 1.)
+%F A056170 Additive with a(p^e) = 0 if e = 1, 1 otherwise.
+%p A056170 a:= n -> nops(select(t -> (t[2]>1), ifactors(n)[2]));
+%p A056170 seq(a(n),n=1..100); # _Robert Israel_, Jun 03 2014
+%t A056170 a[n_] := Count[FactorInteger[n], {_, k_ /; k > 1}]; Table[a[n], {n, 105}]  (* _Jean-François Alcover_, Mar 23 2011 *)
+%o A056170 (Haskell)
+%o A056170 a056170 = length . filter (> 1) . a124010_row
+%o A056170 -- _Reinhard Zumkeller_, Dec 29 2012
+%o A056170 (PARI) a(n)=my(f=factor(n)[,2]); sum(i=1,#f,f[i]>1) \\ _Charles R Greathouse IV_, May 18 2015
+%Y A056170 Cf. A034444, A001221, A048105, A124010, A212177.
+%Y A056170 Cf. A057427(a(n)) = 1 - A008966(n).
+%K A056170 nice,nonn
+%O A056170 1,36
+%A A056170 _Labos Elemer_, Jul 27 2000
+%E A056170 Minor edits by _Franklin T. Adams-Watters_, Mar 23 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

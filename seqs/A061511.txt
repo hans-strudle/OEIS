@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061511
+Showing 1-1 of 1
+
+%I A061511
+%S A061511 0,1,2,3,4,5,6,7,8,9,10,21,32,43,54,65,76,87,98,109,2110,3221,4332,
+%T A061511 5443,6554,7665,8776,9887,10998,2110109,32212110,43323221,54434332,
+%U A061511 65545443,76656554,87767665,98878776,109989887,211010910998
+%N A061511 a(0) = 0; a(n) is obtained by incrementing each digit of a(n-1) by 1.
+%C A061511 In A061511-A061522, A061746-A061750 when the incremented digit exceeds 9 it is written as a 2-digit string. So 9+1 becomes the 2-digit string 10, etc.
+%C A061511 a(n+10) is the concatenation of a(n) and a(n-1).
+%e A061511 Following 43: 4+1 = 5 and 3+1 = 4, hence the next term is 54.
+%t A061511 NestList[FromDigits[Flatten[IntegerDigits[IntegerDigits[#]+1]]]&,0,38] (* _Jayanta Basu_, May 18 2013 *)
+%K A061511 base,nonn
+%O A061511 0,3
+%A A061511 _Amarnath Murthy_, May 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058711
+Showing 1-1 of 1
+
+%I A058711
+%S A058711 1,1,1,1,4,1,1,14,11,1,1,31,106,21,1,1,202,1232,642,57,1,1,876,22172,
+%T A058711 28367,3592,120,1,1,4139,686515,8274374,991829,19904,247,1
+%N A058711 Triangle T(n,k) giving number of loopless matroids of rank k on n labeled points (n >= 1, 1<=k<=n).
+%H A058711 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/matroid.html">Tables of matroids</a>
+%H A058711 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/phd.html">Counting and Probability in Matroid Theory</a>, Ph.D. Thesis, Trinity College, Dublin, 2000.
+%H A058711 <a href="/index/Mat#matroid">Index entries for sequences related to matroids</a>
+%e A058711 1; 1,1; 1,4,1; 1,14,11,1; ...
+%Y A058711 Cf. A058710. Row sums give A058712. Diagonals give A058692, A058715.
+%K A058711 nonn,nice,tabl
+%O A058711 1,5
+%A A058711 _N. J. A. Sloane_, Dec 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

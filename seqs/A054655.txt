@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054655
+Showing 1-1 of 1
+
+%I A054655
+%S A054655 1,1,1,1,5,6,1,12,47,60,1,22,179,638,840,1,35,485,3325,11274,
+%T A054655 15120,1,51,1075,11985,74524,245004,332640,1,70,2086,34300,
+%U A054655 336049,1961470,6314664,8648640,1,92,3682,83720,1182769
+%V A054655 1,1,-1,1,-5,6,1,-12,47,-60,1,-22,179,-638,840,1,-35,485,-3325,11274,
+%W A054655 -15120,1,-51,1075,-11985,74524,-245004,332640,1,-70,2086,-34300,
+%X A054655 336049,-1961470,6314664,-8648640,1,-92,3682,-83720,1182769
+%N A054655 Triangle T(n,k) giving coefficients in expansion of n!*binomial(x-n,n) in powers of x.
+%F A054655 n!*binomial(x-n, n)= Sum T(n, k)*x^(n-k), k=0..n.
+%e A054655 1; 1,-1; 1,-5,6; 1,-12,47,-60; ...
+%p A054655 a054655_row := proc(n) local k; seq(coeff(expand((-1)^n*pochhammer (n-x,n)),x,n-k),k=0..n) end: [Peter Luschny, Nov 28 2010]
+%t A054655 row[n_] := Table[ Coefficient[(-1)^n*Pochhammer[n - x, n], x, n - k], {k, 0, n}]; A054655 = Flatten[ Table[ row[n], {n, 0, 8}]] (* _Jean-François Alcover_, Apr 06 2012, after Peter Luschny *)
+%o A054655 (PARI) T(n,k)=polcoeff(n!*binomial(x-n,n), n-k)
+%Y A054655 Cf. A054651, A054654, A008276.
+%K A054655 sign,tabl,easy,nice
+%O A054655 0,5
+%A A054655 _N. J. A. Sloane_, Apr 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

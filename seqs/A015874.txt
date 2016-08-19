@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015874
+Showing 1-1 of 1
+
+%I A015874
+%S A015874 5,40,108,9544
+%N A015874 Phi(n + 10) | sigma(n) + 10.
+%C A015874 The next term, if it exists, is greater than 10^8. - _Charles R Greathouse IV_, Sep 25 2012
+%o A015874 (PARI) is(n)=!((sigma(n)+10)%eulerphi(n+10)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%K A015874 nonn
+%O A015874 1,1
+%A A015874 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

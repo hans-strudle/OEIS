@@ -1,0 +1,64 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026465
+Showing 1-1 of 1
+
+%I A026465
+%S A026465 1,2,1,1,2,2,2,1,1,2,1,1,2,1,1,2,2,2,1,1,2,2,2,1,1,2,2,2,1,1,2,1,1,2,
+%T A026465 1,1,2,2,2,1,1,2,1,1,2,1,1,2,2,2,1,1,2,1,1,2,1,1,2,2,2,1,1,2,2,2,1,1,
+%U A026465 2,2,2,1,1,2,1,1,2,1,1,2,2,2,1,1,2,2,2,1,1,2,2,2,1,1,2,1,1,2,1,1,2,2,2,1,1
+%N A026465 Length of n-th run of identical symbols in the Thue-Morse sequence A010060 (or A001285).
+%C A026465 Number of representations of n as a sum of Jacobsthal numbers (1 is allowed twice as a part). Partial sums are A003159. With interpolated zeros, g.f. is Product{k>=1, 1+x^A078008(k)}/2. - _Paul Barry_, Dec 09 2004
+%C A026465 In other words, the consecutive 0's or 1's in A010060 or A010059. - Robin D. Saunders (saunders_robin_d(AT)hotmail.com), Sep 06 2006
+%C A026465 From _Carlo Carminati_, Feb 25 2011: (Start)
+%C A026465 The sequence (starting with the second term) can also be calculated by the following method:
+%C A026465 Apply repeatedly to the string S_0=[2] the following algorithm: take a string S, double it, if the last figure is 1, just add the last figure to the previous one, if the last figure is greater than one, decrease it by one unit and concatenate a figure 1 at the end. (This algorithm is connected with the interpretation of the sequence as a continued fraction expansion.) (End)
+%C A026465 This sequence, starting with the second term, happens to be the continued fraction expansion of the biggest cluster point of the set {x in [0,1]: F^k(x) >= x, for all k in N}, where F denotes the Farey map. - _Carlo Carminati_, Feb 28 2011
+%C A026465 Starting with the second term, the fixed point of the substitution 2->211, 1->2. - _Carlo Carminati_, Mar 03 2011
+%H A026465 N. J. A. Sloane, <a href="/A026465/b026465.txt">Table of n, a(n) for n = 1..10000</a>
+%H A026465 J.-P. Allouche, Andre Arnold, Jean Berstel, Srecko Brlek, William Jockusch, Simon Plouffe and Bruce E. Sagan, <a href="http://dx.doi.org/10.1016/0012-365X(93)00147-W">A sequence related to that of Thue-Morse</a>, Discrete Math., 139 (1995), 455-461.
+%H A026465 G. Allouche, J.-P. Allouche, J. Shallit, <a href="https://webusers.imj-prg.fr/~jean-paul.allouche/kolam.pdf">Kolam indiens, dessins sur le sable aux îles Vanuatu, courbe de Sierpinski et morphismes de monoïde</a>, Ann. Inst. Fourier (Grenoble) 56 (2006) 2115-2130.
+%H A026465 Claudio Bonanno, Carlo Carminati, Stefano Isola, Giulio Tiozzo, <a href="http://arxiv.org/abs/1012.2131">Dynamics of continued fractions and kneading sequences of unimodal maps</a>, arXiv:1012.2131 [math.DS], 2010-2012.
+%H A026465 S. Brlek, <a href="http://dx.doi.org/10.1016/0166-218X(92)90274-E">Enumeration of factors in the Thue-Morse word</a>, Discrete Applied Math. 24 (1989), 83-96.
+%H A026465 J. Cassaigne, <a href="http://dx.doi.org/10.1016/S0304-3975(98)00247-3">Limit values of the recurrence quotient of Sturmian sequences</a>, Theoret. Comput. Sci. 218 (1999) 3-12.
+%H A026465 Arturas Dubickas, <a href="http://dx.doi.org/10.1016/j.jnt.2005.07.004">On the distance from a rational power to the nearest integer</a>, Journal of Number Theory, Volume 117, Issue 1, March 2006, Pages 222-239.
+%H A026465 Artūras Dubickas, <a href="http://dx.doi.org/10.1016/j.disc.2006.08.001">On a sequence related to that of Thue-Morse and its applications</a>, Discrete Math. 307 (2007), no. 9-10, 1082--1093. MR2292537 (2008b:11086).
+%H A026465 Cor Kraaikamp, Thomas A. Schmidt, Wolfgang Steiner, <a href="http://arxiv.org/abs/1011.4283">Natural extensions and entropy of alpha-continued fractions</a>, arXiv:1011.4283 [math.DS], 2010-2012.
+%F A026465 It appears that the sequence can be calculated by any of the following methods: (1) Start with 1 and repeatedly replace 1 with 1, 2, 1 and 2 with 1, 2, 2, 2, 1; (2) a(1)=1, all terms are either 1 or 2 and, for n>0, a(n)=1 if the length of the n-th run of 2's is 1; a(n)=2 if the length of the n-th run of consecutive 2's is 3, with each run of 2's separated by a run of two 1's; (3) replace each 3 in A080426 with 2. - _John W. Layman_, Feb 18 2003
+%F A026465 a(1)=1, for n>1 a(n) = A003159(n)-A003159(n-1). - _Benoit Cloitre_, May 31 2003
+%F A026465 G.f.: Product{k>=1, 1+x^A001045(k)}. - _Paul Barry_, Dec 09 2004
+%p A026465 # From _Carlo Carminati_, Feb 25 2011:
+%p A026465 ## period-doubling routine:
+%p A026465 double:=proc(SS)
+%p A026465 NEW:=[op(S), op(S)]:
+%p A026465 if op(nops(NEW),NEW)=1
+%p A026465 then NEW:=[seq(op(j,NEW), j=1..nops(NEW)-2),op(nops(NEW)-1,NEW)+1]:
+%p A026465 else NEW:=[seq(op(j,NEW), j=1..nops(NEW)-1),op(nops(NEW)-1,NEW)-1,1]:
+%p A026465 fi:
+%p A026465 end proc:
+%p A026465 # 10 loops of the above routine generate the first 1365 terms of the sequence
+%p A026465 # (except for the initial term):
+%p A026465 S:=[2]:
+%p A026465 for j from 1 to 10  do S:=double(S); od:
+%p A026465 S;
+%p A026465 # From _N. J. A. Sloane_, Dec 31 2013:
+%p A026465 S:=[b]; M:=14;
+%p A026465 for n from 1 to M do T:=subs({b=[b,a,a], a=[b]}, S);
+%p A026465     S := map(x->op(x),T); od:
+%p A026465 T:=subs({a=1,b=2},S): T:=[1,op(T)]: [seq(T[n],n=1..40)];
+%t A026465 Length /@ Split@ Nest[ Flatten@ Join[#, # /. {1 -> 2, 2 -> 1}] &, {1}, 7]
+%t A026465 NestList[ Flatten[# /. {1 -> {2}, 2 -> {1, 1, 2}}] &, {1}, 7] // Flatten (* _Robert G. Wilson v_, May 20 2014 *)
+%o A026465 (Haskell)
+%o A026465 import Data.List (group)
+%o A026465 a026465 n = a026465_list !! (n-1)
+%o A026465 a026465_list = map length $ group a010060_list
+%o A026465 -- _Reinhard Zumkeller_, Jul 15 2014
+%Y A026465 Cf. A010060, A001285, A101615, A026490 (run lengths).
+%Y A026465 A080426 is an essentially identical sequence with another set of constructions.
+%K A026465 nonn,eigen,changed
+%O A026465 1,2
+%A A026465 _Clark Kimberling_
+%E A026465 Corrected and extended by _John W. Layman_, Feb 18 2003
+%E A026465 Definition revised by _N. J. A. Sloane_, Dec 30 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

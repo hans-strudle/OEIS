@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053271
+Showing 1-1 of 1
+
+%I A053271
+%S A053271 0,1,1,2,3,3,5,7,8,11,14,17,22,28,33,41,51,60,74,89,105,127,151,177,
+%T A053271 210,248,289,340,398,461,537,624,719,832,960,1101,1267,1453,1660,1899,
+%U A053271 2167,2465,2807,3190,3614,4097,4638,5237,5915,6671,7507,8450,9498
+%N A053271 Coefficients of the '6th order' mock theta function sigma(q).
+%D A053271 George E. Andrews and Dean Hickerson, Ramanujan's "lost" notebook VII: The sixth order mock theta functions, Advances in Mathematics, 89 (1991) 60-105
+%D A053271 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, p. 13
+%F A053271 G.f.: sigma(q) = sum for n >= 0 of q^((n+1)(n+2)/2) (1+q)(1+q^2)...(1+q^n)/((1-q)(1-q^3)...(1-q^(2n+1)))
+%t A053271 Series[Sum[q^((n+1)(n+2)/2) Product[1+q^k, {k, 1, n}]/Product[1-q^k, {k, 1, 2n+1, 2}], {n, 0, 12}], {q, 0, 100}]
+%Y A053271 Other '6th order' mock theta functions are at A053268, A053269, A053270, A053272, A053273, A053274.
+%K A053271 nonn,easy
+%O A053271 0,4
+%A A053271 _Dean Hickerson_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

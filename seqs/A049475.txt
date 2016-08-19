@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049475
+Showing 1-1 of 1
+
+%I A049475
+%S A049475 1,4,39,2260,1338614
+%N A049475 Number of 2n X 2n matrices whose entries are {0,-1,+1} and whose row sums and column sums are all distinct.
+%C A049475 Matrices differing by taking transpose, multiplying by -1 and permuting rows and columns are regarded as equivalent.
+%D A049475 It is known (see references) that a (2n+1) X (2n+1) matrix of this form cannot exist.
+%D A049475 Rainer Bodendiek, Gustav Burosch; Streifz"uge durch die Kombinatorik, Aufgaben und L"osungen aus dem Schatz der Mathematik-Olympiaden, (Excursions into Combinatorics) Spektrum Akademischer Verlag, Heidelberg, 1995, ISBN 3-86025-393-X Kapitel: Aufgaben zu Invarianten, Aufgabe 5.30, pp. 250-253.
+%D A049475 Fred Galvin, posting to sci.math, Date: 1999-09-25 - Solution to the antimagic 0,1,-1 matrix problem.
+%H A049475 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/IntegerMatrix.html">See also</a>
+%e A049475 A 2 X 2 example: [ 1 1; 0 -1 ].
+%Y A049475 Cf. A049526, A049527.
+%K A049475 nonn,nice,hard
+%O A049475 1,2
+%A A049475 _Michael Kleber_
+%E A049475 Bodendiek-Burosch reference from TORSTEN.SILLKE(AT)LHSYSTEMS.COM.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031213
+Showing 1-1 of 1
+
+%I A031213
+%S A031213 1,17,123,17,17,123,123,123,123,1,17,123,17,123,123,123,81,81,123,17,
+%T A031213 123,123,123,123,123,123,123,123,123,123,17,123,123,123,123,123,81,17,
+%U A031213 123,17,123,123,123,123,123,7,123,123,123,17,123,123,123,123
+%N A031213 Periods of sum of 10th powers of digits iterated until the sequence becomes periodic.
+%H A031213 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Digitaddition.html">Digitaddition</a>
+%K A031213 nonn,base
+%O A031213 0,2
+%A A031213 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

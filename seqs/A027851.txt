@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027851
+Showing 1-1 of 1
+
+%I A027851
+%S A027851 1,1,5,24,188,1915,28634,1627672,3684030417,105978177936292
+%N A027851 Number of nonisomorphic semigroups of order n.
+%D A027851 A. de Vries, Formal Languages: An Introduction, http://haegar.fh-swf.de/Seminare/Genome/Archiv/languages.pdf
+%H A027851 Peter Cameron's Blog, <a href="https://cameroncounts.wordpress.com/2016/02/18/discrete-mathematics-and-big-data-summary/">The combinatorial explosion</a>, Posted 18/02/2016.
+%H A027851 Andreas Distler, <a href="http://hdl.handle.net/10023/945">Classification and Enumeration of Finite Semigroups</a>, A Thesis Submitted for the Degree of PhD, University of St Andrews (2010).
+%H A027851 A. Distler and T. Kelsey, <a href="http://arxiv.org/abs/1301.6023">The semigroups of order 9 and their automorphism groups</a>, arXiv preprint arXiv:1301.6023, 2013.
+%H A027851 C. Noebauer, <a href="http://www.algebra.uni-linz.ac.at/~noebsi/">Home page</a>
+%H A027851 C. Noebauer, <a href="ftp://www.algebra.uni-linz.ac.at/pub/noebauer/smallrings.ps.gz">The Numbers of Small Rings</a>
+%H A027851 C. Noebauer, <a href="ftp://www.algebra.uni-linz.ac.at/pub/noebauer/thesis.ps.gz">Thesis on the enumeration of near-rings</a>
+%H A027851 Eric Postpischil <a href="http://groups.google.com/groups?&amp;hl=en&amp;lr=&amp;ie=UTF-8&amp;selm=11802%40shlump.nac.dec.com&amp;rnum=2">Posting to sci.math newsgroup, May 21 1990</a>
+%H A027851 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Semigroup.html">Semigroup.</a>
+%H A027851 <a href="/index/Se#semigroups">Index entries for sequences related to semigroups</a>
+%Y A027851 a(n)=A001423(n)*2-A029851(n). Cf. A001426, A023814, A058108.
+%Y A027851 a(n)+A079173(n)=A001329(n)
+%K A027851 nonn,hard,nice
+%O A027851 0,3
+%A A027851 _Christian G. Bower_, Dec 13 1997, updated Feb 19 2001
+%E A027851 a(8)-a(9) from _Andreas Distler_, Jan 13 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

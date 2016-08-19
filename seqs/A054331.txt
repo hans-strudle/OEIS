@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054331
+Showing 1-1 of 1
+
+%I A054331
+%S A054331 1,60,1584,27456,366080,4073472,39690240,349274112,2835283968,
+%T A054331 21554790400,155194490880,1067345510400,7058711642112,45127489814528,
+%U A054331 280101660917760,1693862087098368,10009185060126720,57935518230380544
+%N A054331 One eighth of eighth unsigned column of Lanczos' triangle A053125.
+%D A054331 C. Lanczos, Applied Analysis. Prentice-Hall, Englewood Cliffs, NJ, 1956, p. 518.
+%D A054331 Theodore J. Rivlin, Chebyshev polynomials: from approximation theory to algebra and number theory, 2. ed., Wiley, New York, 1990.
+%H A054331 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%F A054331 a(n)= (4^n)*binomial(2*n+8, 7)/8 = -A053125(n+7, 7)/8 = A054326(n)/8.
+%F A054331 G.f. (1+4*x)*(1+24*x+16*x^2)/(1-4*x)^8.
+%t A054331 Table[4^n Binomial[2n+8,7]/8,{n,0,20}] (* _Harvey P. Dale_, Nov 03 2011 *)
+%Y A054331 Cf. A054326, A053125.
+%K A054331 easy,nice,nonn,tabl
+%O A054331 0,2
+%A A054331 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

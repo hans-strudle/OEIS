@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027069
+Showing 1-1 of 1
+
+%I A027069
+%S A027069 1,1,1,2,2,4,5,7,11,14,22,32,43,67,97,134,206,298,419,637,923,1312,
+%T A027069 1978,2872,4111,6161,8961,12888,19232,28010,40423,60129
+%N A027069 a(n) = diagonal sum of left-justified array T given by A027052.
+%K A027069 nonn
+%O A027069 0,4
+%A A027069 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037010
+Showing 1-1 of 1
+
+%I A037010
+%S A037010 1,2,2,4,90,30,20,30,10,122,40,20,10,344,30,30,10,122,10,9372,200,100,
+%T A037010 710,100,1010,300,100,510,500,100,410,400,710,100,510,300,200,100,810,
+%U A037010 500,210,300,910,500,100,10112
+%N A037010 Differences between adjacent palindromic primes.
+%H A037010 P. De Geest, <a href="http://www.worldofnumbers.com/palpri.htm">World!Of Palindromic Primes</a>
+%e A037010 E.g. 11 - 7 = 4
+%t A037010 Differences[Select[Prime[Range[3260]], Reverse[x = IntegerDigits[#]] == x &]] (* _Jayanta Basu_, Jun 24 2013 *)
+%Y A037010 Cf. A002385.
+%K A037010 base,nonn
+%O A037010 1,2
+%A A037010 _G. L. Honaker, Jr._
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

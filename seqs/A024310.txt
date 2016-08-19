@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024310
+Showing 1-1 of 1
+
+%I A024310
+%S A024310 2,6,17,26,59,97,191,308,565,915,1606,2598,4436,7178,12037,19476,
+%T A024310 32273,52219,85845,138900,227133,367509,598828,968924,1575046,2548478,
+%U A024310 4136169,6692462
+%N A024310 s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k=[ (n+1)/2) ], s = (natural numbers >= 2), t = (Lucas numbers).
+%F A024310 G.f.:(-2-x^7+2*x^6-2*x^5+4*x^4+5*x^3-5*x^2-4*x)/((x^2+x-1)*(x^4+x^2-1)^2) [From Maksym Voznyy (voznyy(AT)mail.ru), Jul 27 2009]
+%K A024310 nonn
+%O A024310 1,1
+%A A024310 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

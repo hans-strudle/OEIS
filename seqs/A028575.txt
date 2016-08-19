@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028575
+Showing 1-1 of 1
+
+%I A028575
+%S A028575 1,5,49,721,14177,349141,10334689,357361985,14137664833,629779342213,
+%T A028575 31195027543505,1700812505769169,101218448336028193,
+%U A028575 6528869281965115541,453720852957751220353,33796334125623555379969
+%N A028575 Row sums of triangle A011801.
+%H A028575 W. Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), #00.2.4.
+%F A028575 E.g.f. exp(1-(1-5*x)^(1/5))-1.
+%F A028575 a(n) = D^n(exp(x)) evaluated at x = 0, where D is the operator 1/(1-x)^4*d/dx. Cf. A001515, A015735 and A016036. - Peter Bala, Nov 25 2011
+%Y A028575 A001515, A015735, A016036.
+%K A028575 nonn
+%O A028575 1,2
+%A A028575 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

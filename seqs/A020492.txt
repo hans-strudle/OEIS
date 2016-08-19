@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020492
+Showing 1-1 of 1
+
+%I A020492
+%S A020492 1,2,3,6,12,14,15,30,35,42,56,70,78,105,140,168,190,210,248,264,270,
+%T A020492 357,418,420,570,594,616,630,714,744,812,840,910,1045,1240,1254,1485,
+%U A020492 1672,1848,2090,2214,2376,2436,2580,2730,2970,3080,3135,3339,3596,3720,3828
+%N A020492 Balanced numbers: numbers n such that phi(n) (A000010) divides sigma(n) (A000203).
+%C A020492 The quotient A020492(n)/A002088(n) = SummatorySigma/SummatoryTotient as n increases seems to approach Pi^4/36 or zeta(2)^2 [~2.705808084277845]. - _Labos Elemer_, Sep 20 2004, corrected by _Charles R Greathouse IV_, Jun 20 2012
+%C A020492 If 2^p-1 is prime (a Mersenne prime) then m=2^(p-2)*(2^p-1) is in the sequence because when p=2 we get m=3 and phi(3) divides sigma(3) and for p>2, phi(m)=2^(p-2)*(2^(p-1)-1); sigma(m) =(2^(p-1)-1)*2^p hence sigma(m)/phi(m)=4 is an integer. So for each n, 2^(A000043(n)-2)*(2^A000043(n)-1) is in the sequence. - _Farideh Firoozbakht_, Nov 28 2005
+%C A020492 phi and sigma are both multiplicative functions and for this reason if m and n are coprime and included in this sequence then m*n is also in this sequence. - _Enrique Pérez Herrero_, Sep 05 2010
+%D A020492 D. Chiang, "N's for which phi(N) divides sigma(N)", Mathematical Buds, Chap. VI pp. 53-70 Vol. 3 Ed. H. D. Ruderman, Mu Alpha Theta 1984.
+%H A020492 T. D. Noe and Donovan Johnson, <a href="/A020492/b020492.txt">Table of n, a(n) for n = 1..10000</a> (first 1000 terms from T. D. Noe)
+%e A020492 sigma(35) = 1+5+7+35 = 48, phi(35) = 24, hence 35 is a term.
+%p A020492 with(numtheory);
+%p A020492 A020492:=proc(q)
+%p A020492 local n; for n from 1 to q do if (sigma(n) mod phi(n))=0 then print(n);
+%p A020492 fi; od; end:
+%p A020492 A020492(10000000); # _Paolo P. Lava_, Jan 31 2013.
+%t A020492 Select[ Range[ 4000 ], IntegerQ[ DivisorSigma[ 1, # ]/EulerPhi[ # ] ]& ]
+%o A020492 (MAGMA) [ n: n in [1..3900] | SumOfDivisors(n) mod EulerPhi(n) eq 0 ]; [From _Klaus Brockhaus_, Nov 09 2008]
+%o A020492 (PARI) select(n->sigma(n)%eulerphi(n)==0,vector(10^4,i,i)) \\ _Charles R Greathouse IV_, Jun 20 2012
+%Y A020492 Cf. A000010, A000203, A000043, A000668, A011257.
+%K A020492 nonn
+%O A020492 1,2
+%A A020492 _David W. Wilson_
+%E A020492 More terms from _Farideh Firoozbakht_, Nov 28 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

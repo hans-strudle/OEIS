@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039754
+Showing 1-1 of 1
+
+%I A039754
+%S A039754 1,1,1,1,1,2,1,1,1,1,3,3,6,3,3,1,1,1,1,4,6,19,27,50,56,74,56,50,27,19,
+%T A039754 6,4,1,1,1,1,5,10,47,131,472,1326,3779,9013,19963,38073,65664,98804,
+%U A039754 133576,158658,169112
+%N A039754 Triangle of numbers of inequivalent Boolean functions of n variables with exactly k nonzero values under action of Jevons group.
+%C A039754 T(n,k) = number of classes of nonlinear (or linear) binary codes of length n containing k codewords (n>=1, 0 <= k <= 2^n). - Diego Torres (torresvillarroel(AT)hotmail.com), Aug 31 2002
+%C A039754 For N=1 through N=5, the first 2^(N-1) terms of row N are also found in triangle A171871, which is related to A005646. This was shown for all N by Andrew Weimholt, Dec 30 2009. [_Robert Munafo_, Jan 25 2010]
+%D A039754 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 112.
+%D A039754 M. A. Harrison, Introduction to Switching and Automata Theory. McGraw Hill, NY, 1965, p. 150.
+%H A039754 D. Condon, S. Coskey, L. Serafin, C. Stockdale, <a href="http://arxiv.org/abs/1412.4683">On generalizations of separating and splitting families</a>, arXiv preprint arXiv:1412.4683 [math.CO], 2014-2015.
+%H A039754 Jacob Feldman, <a href="http://ruccs.rutgers.edu/~jacob/Papers/feldman_catalog.pdf">A catalog of Boolean concepts</a>, Journal of Mathematical Psychology, Volume 47, Issue 1, 2003, 75-89.
+%H A039754 Harald Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/html2/construction/blockcodes_2.html">Enumeration of block codes</a>
+%H A039754 Tilman Piesk, <a href="https://commons.wikimedia.org/wiki/File:Venn_and_Euler_diagram_of_3-ary_Boolean_relations.svg">Illustration of row 3</a>
+%H A039754 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%F A039754 Reference gives g.f.
+%F A039754 Fripertinger gives g.f. for the number of classes of (n, m) nonlinear codes over an alphabet of size A.
+%e A039754   k     0   1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16       sums
+%e A039754 n
+%e A039754 1       1   1   1                                                                  3
+%e A039754 2       1   1   2   1   1                                                          6
+%e A039754 3       1   1   3   3   6   3   3   1   1                                         22
+%e A039754 4       1   1   4   6  19  27  50  56  74  56  50  27  19   6   4   1   1        402
+%Y A039754 Row sums give A000616. Cf. A052265.
+%Y A039754 Cf. A171871. [_Robert Munafo_, Jan 25 2010]
+%K A039754 nonn,tabf,nice
+%O A039754 1,6
+%A A039754 _N. J. A. Sloane_.
+%E A039754 Corrected and extended by _Vladeta Jovovic_, Apr 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

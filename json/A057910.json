@@ -1,0 +1,1 @@
+{"formerly":"","seq":"2,4,6,10,12,13,19,43,48,64,72,97,187,190,336,348,676,2484,2719,3298,4726,9901","description":"Numbers n such that 2*3^n - 5 is prime.","mathematica":"Do[ If[ PrimeQ[ 2*3^n - 5 ], Print[ n ] ], {n, 1, 2500} ]","keyword":"nonn","offset":"1,1","author":"_Robert G. Wilson v_, Nov 16 2000"}

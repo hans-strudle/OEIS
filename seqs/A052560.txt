@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052560
+Showing 1-1 of 1
+
+%I A052560
+%S A052560 3,3,6,18,72,360,2160,15120,120960,1088640,10886400,119750400,
+%T A052560 1437004800,18681062400,261534873600,3923023104000,62768369664000,
+%U A052560 1067062284288000,19207121117184000,364935301226496000,7298706024529920000,153272826515128320000
+%N A052560 3*n!.
+%C A052560 a(n) is the size of the centralizer of a 3-cycle in the symmetric group S_(n+3). - Ahmed Fares (ahmedfares(AT)my-deja.com), May 12 2001
+%C A052560 3 times factorial numbers. [From _Omar E. Pol_, Jan 17 2009]
+%H A052560 Vincenzo Librandi, <a href="/A052560/b052560.txt">Table of n, a(n) for n = 0..200</a>
+%H A052560 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=502">Encyclopedia of Combinatorial Structures 502</a>
+%H A052560 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081, 2014
+%F A052560 E.g.f.: -3/(-1+x)
+%F A052560 Recurrence: {(-1-n)*a(n)+a(n+1), a(0)=3}
+%F A052560 For n>0: a(n) = SUM(A083746(k): 1<=k<=n+1). - _Reinhard Zumkeller_, Apr 14 2007
+%p A052560 spec := [S,{S=Union(Sequence(Z),Sequence(Z),Sequence(Z))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%p A052560 a:=n->sum(n!, k=1..n):seq(a(n)-sum(n!, k=4..n), n=0...19);# [From _Zerinvary Lajos_, Dec 22 2008]
+%t A052560 Table[3*n!, {n, 0, 50}] (* _Vladimir Joseph Stephan Orlovsky_, Jun 12 2011 *)
+%o A052560 (MAGMA) [3*Factorial(n): n in [0..20]]; // Vincenzo Librandi, Jun 13 2011
+%o A052560 (PARI) a(n)=3*n! \\ _Charles R Greathouse IV_, Nov 20 2011
+%Y A052560 Cf. A129380, A000142.
+%K A052560 easy,nonn
+%O A052560 0,1
+%A A052560 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

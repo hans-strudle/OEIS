@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048099
+Showing 1-1 of 1
+
+%I A048099
+%S A048099 0,0,0,3,15,45,105,315,1323,5355,18315,63855,272415,1264263,5409495,
+%T A048099 22302735,101343375,507711375,2495918223,11798364735,58074029055,
+%U A048099 309240315615
+%N A048099 Number of degree-n even permutations of order exactly 2.
+%D A048099 Koda, Tatsuhiko; Sato, Masaki; Takegahara, Yugen; 2-adic properties for the numbers of involutions in the alternating groups. J. Algebra Appl. 14 (2015), no. 4, 1550052 (21 pages).
+%F A048099 a(n)=(A001189(n)+A051684(n))/2
+%Y A048099 Cf. A001189, A051695. A column of A057740.
+%K A048099 easy,nonn
+%O A048099 1,4
+%A A048099 _Vladeta Jovovic_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

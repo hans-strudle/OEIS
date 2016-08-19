@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017045
+Showing 1-1 of 1
+
+%I A017045
+%S A017045 3125,248832,2476099,11881376,39135393,102400000,229345007,459165024,
+%T A017045 844596301,1453933568,2373046875,3707398432,5584059449,8153726976,
+%U A017045 11592740743,16105100000,21924480357,29316250624
+%N A017045 (7*n+5)^5.
+%H A017045 Vincenzo Librandi, <a href="/A017045/b017045.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017045 (MAGMA) [(7*n+5)^5: n in [0..30] ]; // Vincenzo Librandi, Jul 18 2011
+%K A017045 nonn,easy
+%O A017045 0,1
+%A A017045 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

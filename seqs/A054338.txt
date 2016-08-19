@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054338
+Showing 1-1 of 1
+
+%I A054338
+%S A054338 1,32,576,7680,84480,811008,7028736,56229888,421724160,2998927360,
+%T A054338 20392706048,133479530496,845370359808,5202279137280,31213674823680,
+%U A054338 183120225632256,1052941297385472,5946021444059136,33033452466995200
+%N A054338 8-fold convolution of A000302 (powers of 4).
+%C A054338 With a different offset, number of n-permutations (n>=7) of 5 objects: u, v, z, x, y with repetition allowed, containing exactly seven (7) u's. - _Zerinvary Lajos_, Jun 23 2008
+%H A054338 Vincenzo Librandi, <a href="/A054338/b054338.txt">Table of n, a(n) for n = 0..400</a>
+%F A054338 a(n) = binomial(n+7, 7)*4^n; G.f. 1/(1-4*x)^8 . a(n)= A054335(n+15, 15).
+%p A054338 seq(binomial(n+7,7)*4^n,n=0..18); - _Zerinvary Lajos_, Jun 23 2008
+%o A054338 (Sage) [lucas_number2(n, 4, 0)*binomial(n,7)/2^14 for n in xrange(7, 26)] # [From _Zerinvary Lajos_, Mar 11 2009]
+%o A054338 (MAGMA) [4^n*Binomial(n+7, 7): n in [0..30]]; // Vincenzo Librandi, Oct 15 2011
+%Y A054338 Cf. A000302, A054335.
+%Y A054338 Cf. A038231.
+%K A054338 easy,nonn
+%O A054338 0,2
+%A A054338 _Wolfdieter Lang_, Mar 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

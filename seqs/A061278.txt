@@ -1,0 +1,40 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061278
+Showing 1-1 of 1
+
+%I A061278
+%S A061278 0,1,5,20,76,285,1065,3976,14840,55385,206701,771420,2878980,10744501,
+%T A061278 40099025,149651600,558507376,2084377905,7779004245,29031639076,
+%U A061278 108347552060,404358569165,1509086724601,5631988329240,21018866592360,78443478040201,292755045568445
+%N A061278 a(n) = 5*a(n-1) - 5*a(n-2) + a(n-3) with a(1) = 1 and a(k) = 0 if k <= 0.
+%C A061278 Indices m of triangular numbers T(m) which are one-third of another triangular number: 3*T(m)=T(k); the k's are given by A001571. - Bruce Corrigan (scentman(AT)myfamily.com), Oct 31 2002 (For m=0 this is actually one third of the same triangular number. - _Zak Seidov_, Apr 07 2011)
+%C A061278 Also numbers n such that the n-th centered 24-gonal number 12n(n+1)+1 is a perfect square A001834(n)^2, where A001834(n) is defined by the recursion: a(0) = 1, a(1) = 5, a(n) = 4a(n-1) - a(n-2) + 1. - _Alexander Adamchuk_, Apr 21 2007
+%C A061278 Also numbers n such that RootMeanSquare(1,5,...,6*n-1) is an integer. [_Ctibor O. Zizka_, Dec 17 2008]
+%C A061278 Also numbers n such that n*(n+1) = sum(n+1,n+2,n+3,...,n+x) for some x. (This does not apply to the first term.) [_Gil Broussard_, Dec 23 2008]
+%H A061278 Vincenzo Librandi, <a href="/A061278/b061278.txt">Table of n, a(n) for n = 0..1000</a>
+%H A061278 L. A. Medina and A. Straub, <a href="http://emmy.uprrp.edu/lmedina/papers/logconcave/logconcavity.pdf">On multiple and infinite log-concavity</a>, 2013.
+%H A061278 S. Morier-Genoud, V. Ovsienko and S. Tabachnikov, <a href="http://aif.cedram.org/item?id=AIF_2012__62_3_937_0">2-frieze patterns and the cluster structure of the space of polygons</a>, Annales de l'institut Fourier, 62 no. 3 (2012), 937-987. - From _N. J. A. Sloane_, Dec 26 2012
+%H A061278 Eric Weisstein, <a href="http://mathworld.wolfram.com/CenteredPolygonalNumber.html">Centered Polygonal Number</a>.
+%H A061278 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (5, -5, 1).
+%F A061278 a(n) = 4a(n-1)-a(n-2)+1 = A001075(n)-a(n-1)-1 = (A001835(n+1)-1)/2 = (A001353(n+1)-A001353(n)-1)/2 = a(n-1)+A001353(n), i.e. partial sum of A001353.
+%F A061278 From the recursion: a(n+2) = 4a(n+1)-a(n)+1 a(0)=0, a(1)=1; g.f: A(x)= x/((1-x)*(1-4x+x^2)); closed form: a(n)=(1/12)*(-6+(3-sqrt(3))*(2-sqrt(3))^n+(3+sqrt(3))*(2+sqrt(3))^n). - Bruce Corrigan (scentman(AT)myfamily.com), Oct 31 2002
+%F A061278 a(n) = (1/12)(A003500(n)+A003500(n+1)-6). - Mario Catalani (mario.catalani(AT)unito.it), Apr 11 2003
+%F A061278 a(n+1) = sum{k=0..n, U(k, 2)}=sum{k=0..n, S(k, 4)} - _Paul Barry_, Nov 14 2003
+%F A061278 G.f.: x/((1-x)*(1-4*x+x^2)) = x/(1-5*x+5*x^2-x^3).
+%F A061278 a(n) = A079935(n+1) + A001571(n) for n > 0, a(0) = 0. - _Gerry Martens_, Jun 05 2015
+%e A061278 a(2)=5 and T(5)=15 which is 1/3 of 45=T(9).
+%p A061278 f:= gfun:-rectoproc({a(n) = 5*a(n-1) - 5*a(n-2) + a(n-3),a(1)=1,a(0)=0,a(-1)=0},a(n),remember):
+%p A061278 map(f, [$0..50]); # _Robert Israel_, Jun 05 2015
+%t A061278 Join[{a=0,b=1},Table[c=4*b-a+1;a=b;b=c,{n,60}]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 06 2011 *)
+%t A061278 CoefficientList[Series[x/(1 - 5*x + 5*x^2 - x^3), {x, 0, nn}], x] (* _T. D. Noe_, Jun 04 2012 *)
+%t A061278 LinearRecurrence[{5,-5,1},{0,1,5},30] (* _Harvey P. Dale_, Dec 23 2012 *)
+%o A061278 (PARI) M = [ 1, 1, 0; 1, 3, 1; 0, 1, 1]; for(i=1,30,print1(([1,0,0]*M^i)[3],",")) \\ Lambert Klasen (Lambert.Klasen(AT)gmx.net), Jan 25 2005
+%o A061278 (MAGMA) I:=[0, 1]; [n le 2 select I[n] else 4*Self(n-1) - Self(n-2) + 1: n in [1..30]]; // _Vincenzo Librandi_, Dec 23 2012
+%Y A061278 Cf. A001571, A001834.
+%K A061278 nonn
+%O A061278 0,3
+%A A061278 _Henry Bottomley_, Jun 04 2001
+%E A061278 More terms from Lambert Klasen (Lambert.Klasen(AT)gmx.net), Jan 25 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

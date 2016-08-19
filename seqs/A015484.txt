@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015484
+Showing 1-1 of 1
+
+%I A015484
+%S A015484 0,1,11,1332,1772903,25957074155,4180412751509808,
+%T A015484 7405856194503424044443,144319186063701664852323850561,
+%U A015484 30936099231445891001437365359291226684,72945703751334713422596099393765798208419237205
+%N A015484 q-Fibonacci numbers for q=11.
+%H A015484 Vincenzo Librandi, <a href="/A015484/b015484.txt">Table of n, a(n) for n = 0..40</a>
+%F A015484 a(n) = 11^(n-1) a(n-1) + a(n-2).
+%t A015484  RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*11^(n-1)+ a[n-2]}, a, {n, 20}] (* _Vincenzo Librandi_, Nov 10 2012 *)
+%K A015484 nonn,easy
+%O A015484 0,3
+%A A015484 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

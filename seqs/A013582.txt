@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013582
+Showing 1-1 of 1
+
+%I A013582
+%S A013582 1,4,25,124,574,2156,8258
+%N A013582 Number of positions in game "Connect Four" (played on usual 6 row, 7 column board) after n moves, up to reflection.
+%H A013582 John Tromp, <a href="http://tromp.github.io/c4/c4.html">John's Connect Four Playground</a>, viewed Jan 23 2014.
+%H A013582 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Connect-Four.html">Connect-Four</a>
+%Y A013582 Cf. A212693.
+%K A013582 nonn,fini
+%O A013582 0,2
+%A A013582 _Russ Cox_
+%E A013582 Name clarified by _Charles R Greathouse IV_, Dec 01 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

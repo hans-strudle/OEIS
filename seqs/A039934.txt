@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039934
+Showing 1-1 of 1
+
+%I A039934
+%S A039934 3,153,1153,1183,3465,7673,7673,7673,65913,65913,65913,76923,232767,
+%T A039934 232767,232767,232767,232767,2307767,2307767,2307767,2307767,3076923,
+%U A039934 6923313,17078903,19507893,56695913,56695913,113322666,113322666
+%N A039934 Smallest k for which k, 2k, ... nk all contain the digit 3.
+%e A039934 a(2)=153 since 153 and 306 both contain a 3.
+%K A039934 base,nonn
+%O A039934 1,1
+%A A039934 _Erich Friedman_
+%E A039934 More terms from _Patrick De Geest_, Oct 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

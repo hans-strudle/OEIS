@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016963
+Showing 1-1 of 1
+
+%I A016963
+%S A016963 16384,10000000,268435456,2494357888,13492928512,52523350144,
+%T A016963 163840000000,435817657216,1028071702528,2207984167552,4398046511104,
+%U A016963 8235430000000,14645194571776,24928547056768
+%N A016963 (6n+4)^7.
+%H A016963 Vincenzo Librandi, <a href="/A016963/b016963.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016963 (MAGMA) [(6*n+4)^7: n in [0..20]]; // Vincenzo Librandi, May 07 2011
+%K A016963 nonn,easy
+%O A016963 0,1
+%A A016963 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

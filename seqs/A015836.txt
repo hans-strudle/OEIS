@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015836
+Showing 1-1 of 1
+
+%I A015836
+%S A015836 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,
+%T A015836 1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015836 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015836 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,
+%W A015836 -1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015836 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015836 Inverse of 1827th cyclotomic polynomial.
+%p A015836 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015836 sign
+%O A015836 0,1
+%A A015836 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

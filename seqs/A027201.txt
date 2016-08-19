@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027201
+Showing 1-1 of 1
+
+%I A027201
+%S A027201 1,2,11,52,269,1380,7333,37772,203145,1044234,5643127,28956878,
+%T A027201 156801451,803721390,4356085375,22313412784,120988175101,619498949770
+%N A027201 a(n) = self-convolution of row n of array T given by A026202.
+%K A027201 nonn
+%O A027201 0,2
+%A A027201 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

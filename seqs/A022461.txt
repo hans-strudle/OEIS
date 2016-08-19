@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022461
+Showing 1-1 of 1
+
+%I A022461
+%S A022461 1,2,2,3,1,11,12,2,2,16,29,24,12,40,25,48,16,60,24,16,60,40,1,7,24,12,
+%T A022461 24,12,72,26,40,48,24,120,16,72,60,40,72,48,24,120,12,24,28,89,192,24,
+%U A022461 12,40,48,24,160,72,72,48,16,60,24,24,240,252,24,12,72,280
+%N A022461 a(n) = p(n+1)*p(n+2) mod p(n).
+%t A022461 Table[Mod[Prime[n + 1]Prime[n + 2], Prime[n]], {n, 1, 80}] (* _Stefan Steinerberger_, Apr 14 2006 *)
+%Y A022461 Equals A072565(n) - 1.
+%K A022461 nonn
+%O A022461 1,2
+%A A022461 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

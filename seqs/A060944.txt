@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060944
+Showing 1-1 of 1
+
+%I A060944
+%S A060944 1,9,130,2900,93576,4141872,241353792,17929776384,1655071418880,
+%T A060944 185914776960000,24978180045312000,3955930130221056000,
+%U A060944 729464836964806656000,154952762244805582848000
+%N A060944 n!^2 * sum{k=1 to n} sum{j=1 to k}[1/j^2].
+%C A060944 Sum of generalized harmonic numbers squared multiplied by (n!)^2. a(n) = Sum[HarmonicNumber[k, 2]], k = 1..n, where HarmonicNumber[k, 2] = Sum[1/k^2], k = 1..n. - _Alexander Adamchuk_, Oct 27 2004
+%H A060944 Harry J. Smith, <a href="/A060944/b060944.txt">Table of n, a(n) for n=1,...,100</a>
+%H A060944 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HarmonicNumber.html">Harmonic Number.</a>
+%F A060944 a(n) = (n!)^2 * Sum[(k+1)/(n-k)^2, {k, 0, n-1}], a(n) = (n!)^2 * Sum[HarmonicNumber[k, 2]], {k, 1, n}], HarmonicNumber[k, 2] = A007406(k) / A007407(k). - _Alexander Adamchuk_, Oct 27 2004
+%e A060944 a(3) = 6^2 *(1 + (1 + 1/2^2) + (1 + 1/2^2 + 1/3^2)) = 130
+%t A060944 Table[(n!)^2*Sum[(k+1)/(n-k)^2, {k, 0, n-1}], {n, 1, 10}]
+%o A060944 (PARI) { default(realprecision, 100); for (n=1, 100, write("b060944.txt", n, " ", n!^2 * sum(k=1, n, sum(j=1, k, 1/j^2))); ) } [From _Harry J. Smith_, Jul 15 2009]
+%Y A060944 Cf. A001705, A007406, A007407.
+%K A060944 easy,nonn
+%O A060944 1,2
+%A A060944 _Leroy Quet_, May 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005645
+Showing 1-1 of 1
+
+%I A005645 M0599
+%S A005645 1,0,1,2,3,4,15,32,89,266,797,2496,8012,26028,85888,286608,965216,
+%T A005645 3278776,11221548,38665192,134050521,467382224,1638080277,5768886048,
+%U A005645 20407622631,72494277840,258527335373,925322077852,3323258053528,11973883092034,43273374700200,156836969693756,569967330200576,2076647113454878,7584534277720818,27764845224462192,101862027752012402,374484866509396780,1379489908513460150
+%N A005645 Number of 3-connected planar maps with n edges.
+%D A005645 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005645 Walsh, T. R. S.; Counting nonisomorphic three-connected planar maps. J. Combin. Theory Ser. B 32 (1982), no. 1, 33-44.
+%H A005645 N. J. A. Sloane, <a href="/A005645/b005645.txt">Table of n, a(n) for n = 6..50</a>
+%K A005645 nonn
+%O A005645 6,4
+%A A005645 _N. J. A. Sloane_. More terms and b-file added May 08 2012.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

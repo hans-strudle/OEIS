@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003512
+Showing 1-1 of 1
+
+%I A003512 M2622
+%S A003512 3,7,11,14,18,22,26,29,33,37,41,44,48,52,55,59,63,67,70,74,78,82,85,
+%T A003512 89,93,97,100,104,108,111,115,119,123,126,130,134,138,141,145,149,153,
+%U A003512 156,160,164,167,171,175,179,182,186
+%N A003512 A Beatty sequence: floor(n*(sqrt(3) + 2)).
+%D A003512 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003512 Aviezri S. Fraenkel, Jonathan Levitt, Michael Shimshoni, <a href="http://dx.doi.org/10.1016/0012-365X(72)90012-X">Characterization of the set of values f(n)=[n alpha], n=1,2,...</a>, Discrete Math. 2 (1972), no.4, 335-345.
+%H A003512 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BeattySequence.html">Beatty Sequence.</a>
+%H A003512 <a href="/index/Be#Beatty">Index entries for sequences related to Beatty sequences</a>
+%F A003512 a(n) = floor(n*(sqrt(3)+2)). - _Michel Marcus_, Jan 05 2015
+%p A003512 Digits := 60: A003512 := proc(n) trunc( evalf( n*(sqrt(3)+2) )); end;
+%Y A003512 Cf. A003511, A019973 (sqrt(3)+2).
+%K A003512 nonn
+%O A003512 1,1
+%A A003512 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

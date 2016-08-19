@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002403
+Showing 1-1 of 1
+
+%I A002403 M4992 N2148
+%S A002403 1,15,528,3990,232305,4262895,128928632,1420184304,186936865290
+%N A002403 Coefficients for step-by-step integration.
+%D A002403 W. F. Pickard, Tables for the step-by-step integration of ordinary differential equations of the first order, J. ACM 11 (1964), 229-233.
+%D A002403 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002403 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002403 W. F. Pickard, <a href="/A002397/a002397.pdf">Tables for the step-by-step integration of ordinary differential equations of the first order</a>, J. ACM 11 (1964), 229-233. [Annotated scanned copy]
+%Y A002403 A diagonal of A260781 (negated).
+%K A002403 nonn,more
+%O A002403 2,2
+%A A002403 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

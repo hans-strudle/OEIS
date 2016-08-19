@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027266
+Showing 1-1 of 1
+
+%I A027266
+%S A027266 1,6,18,72,180,648,1512,5184,11664,38880,85536,279936,606528,1959552,
+%T A027266 4199040,13436928,28553472,90699264,191476224,604661760,1269789696,
+%U A027266 3990767616,8344332288,26121388032,54419558400,169789022208
+%N A027266 a(n) = Sum{(k+1)*T(n,k)}, 0<=k<=2n, T given by A026519.
+%H A027266 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (0,12,0,-36).
+%F A027266 G.f.: (1+6x+6x^2)/(1-6x^2)^2.
+%F A027266 a(0)=1, a(1)=6, a(2)=18, a(3)=72, a(n)=12*a(n-2)-36*a(n-4). - _Harvey P. Dale_, Jun 19 2015
+%t A027266 CoefficientList[Series[(1+6x+6x^2)/(1-6x^2)^2,{x,0,30}],x] (* or *) LinearRecurrence[{0,12,0,-36},{1,6,18,72},30] (* _Harvey P. Dale_, Jun 19 2015 *)
+%K A027266 nonn
+%O A027266 0,2
+%A A027266 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

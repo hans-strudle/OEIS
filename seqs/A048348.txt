@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048348
+Showing 1-1 of 1
+
+%I A048348
+%S A048348 6,56,586,1156,11547,57735,559769,1197219,6582806,36514844,350903624,
+%T A048348 1798230611,1825769244,48304278624,11547014044,577333277556,
+%U A048348 1527394295306
+%N A048348 a(n)^2 is the smallest square containing exactly n 3's.
+%H A048348 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Square Number</a>
+%Y A048348 Cf. A036510, A034982.
+%K A048348 nonn,base,more
+%O A048348 1,1
+%A A048348 _Patrick De Geest_, Mar 15 1999.
+%E A048348 More terms from _Jon E. Schoenfield_, Jan 11 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

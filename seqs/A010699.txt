@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010699
+Showing 1-1 of 1
+
+%I A010699
+%S A010699 2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,
+%T A010699 2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,2,9,
+%U A010699 2,9,2,9,2,9,2,9,2,9,2,9,2
+%N A010699 Period 2: repeat (2,9).
+%C A010699 Continued fraction of 1+sqrt(11)/3 = A176056. - R. J. Mathar, Nov 21 2011
+%F A010699 a(n)=-7/2*(-1)^n+11/2 =9*(n mod 2)+2*[(n+1) mod 2] - _Paolo P. Lava_, Oct 20 2006
+%F A010699 G.f.: (2+9x))/((1-x)(1+x)). - R. J. Mathar, Nov 21 2011
+%t A010699 PadRight[{},100,{2,9}] (* _Harvey P. Dale_, Mar 25 2015 *)
+%K A010699 nonn
+%O A010699 0,1
+%A A010699 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

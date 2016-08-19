@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000777
+Showing 1-1 of 1
+
+%I A000777
+%S A000777 1,2,7,24,83,293,1055,3860,14299,53481,201551,764217,2912167,11143499,
+%T A000777 42791039,164812364,636438059,2463251009,9552773999,37112526989,
+%U A000777 144410649239,562724141459,2195581527359,8576490341249,33537507830423,131272552839203,514285886020255
+%N A000777 (n+2)*Catalan(n)-1.
+%D A000777 C. K. Fan, Structure of a Hecke algebra quotient. J. Amer. Math. Soc. 10 (1997), no. 1, 139-167.
+%D A000777 J. R. Stembridge, Some combinatorial aspects of reduced words in finite Coxeter groups. Trans. Amer. Math. Soc. 349 (1997), no. 4, 1285-1332.
+%H A000777 T. D. Noe, <a href="/A000777/b000777.txt">Table of n, a(n) for n = 0..200</a>
+%F A000777 (binomial(2*n,n)/(n+1))*(n+2)-1 - _Zerinvary Lajos_, Jun 25 2006
+%F A000777 G.f. A(x)=1/2+(6x-1)/(2sqrt(1-4x)-x/(1-x). [From _Vladimir Kruchinin_, Aug 18 2010]
+%p A000777 [seq((binomial(2*n,n)/(n+1))*(n+2)-1,n=0..27)]; - _Zerinvary Lajos_, Jun 25 2006
+%t A000777 Table[(n + 2)*CatalanNumber[n] - 1, {n, 0, 20}] (* _T. D. Noe_, Jun 20 2012 *)
+%Y A000777 a(n) = A038665(n-1) - 1.
+%Y A000777 Cf. A000984, A000108.
+%K A000777 nonn,easy
+%O A000777 0,2
+%A A000777 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028935
+Showing 1-1 of 1
+
+%I A028935
+%S A028935 1,1,1,1,8,27,343,12167,205379,30959144,3574558889,553185473329,
+%T A028935 578280195945297,238670664494938073,487424450554237378792,
+%U A028935 2035972062206737347698803,4801616835579099275862827431
+%N A028935 A006720(n)^3 (cubed terms of Somos-4 sequence).
+%C A028935 If initial two 1's are omitted, denominator of y coordinate of (2n+1)*P where P is generator for rational points on curve y^2+y = x^3-x.
+%D A028935 B. Mazur, Arithmetic on curves, Bull. Amer Math. Soc. 14 (1986), 207-259; see p 225.
+%F A028935 P=(0, 0), 2P=(1, 0), if kP=(a, b) then (k+1)P=(a'=(b^2-a^3)/a^2, b'=1-b*a'/a).
+%e A028935 5P = (1/4, -5/8).
+%Y A028935 Cf. A006720, A028945, A151502.
+%K A028935 nonn
+%O A028935 0,5
+%A A028935 _N. J. A. Sloane_.
+%E A028935 Edited by _N. J. A. Sloane_, May 14 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

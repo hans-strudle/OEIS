@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038641
+Showing 1-1 of 1
+
+%I A038641
+%S A038641 28,63,79,132,197,235,283,311,313,365,368,422,483,555,564,590,596,709,
+%T A038641 820,881,885,969,975,980,1048,1070,1119,1289,1356,1466,1785,1836,1837,
+%U A038641 1888,1897,1939,1999,2338,2563,2846,3012,3116,3148,3311,3483,3512
+%N A038641 Numbers n such that n-th and (n+1)st term of A038593 differ by 10.
+%K A038641 nonn
+%O A038641 1,1
+%A A038641 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

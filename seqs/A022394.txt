@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022394
+Showing 1-1 of 1
+
+%I A022394
+%S A022394 1,24,25,49,74,123,197,320,517,837,1354,2191,3545,5736,9281,15017,
+%T A022394 24298,39315,63613,102928,166541,269469,436010,705479,1141489,1846968,
+%U A022394 2988457,4835425,7823882,12659307
+%N A022394 Fibonacci sequence beginning 1, 24.
+%H A022394 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022394 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022394 G.f.: (1+23*x)/(1-x-x^2). - _Philippe Deléham_, Nov 20 2008
+%F A022394 a(n) = 24*A000045(n) + A000045(n-1). [_Paolo P. Lava_, May 19 2015]
+%p A022394 with(numtheory): with(combinat): P:=proc(q) local n;
+%p A022394 for n from 0 to q do print(24*fibonacci(n)+fibonacci(n-1));
+%p A022394 od; end: P(30); # _Paolo P. Lava_, May 19 2015
+%t A022394 a={};b=1;c=24;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022394 nonn
+%O A022394 0,2
+%A A022394 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

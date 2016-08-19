@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040395
+Showing 1-1 of 1
+
+%I A040395
+%S A040395 20,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2,
+%T A040395 40,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2,
+%U A040395 40,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2,40,2,1,1,9,1,1,2
+%N A040395 Continued fraction for sqrt(416).
+%H A040395 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040395 a(n)=(1/224)*{-1007*(n mod 8)+29*[(n+1) mod 8]+57*[(n+2) mod 8]+281*[(n+3) mod 8]-167*[(n+4) mod 8]+57*[(n+5) mod 8]+85*[(n+6) mod 8]+1121*[(n+7) mod 8]}-20*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 30 2009]
+%p A040395 with(numtheory): Digits := 300: convert(evalf(sqrt(416)),confrac);
+%K A040395 nonn,cofr,easy
+%O A040395 0,1
+%A A040395 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

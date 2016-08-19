@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058935
+Showing 1-1 of 1
+
+%I A058935
+%S A058935 0,1,110,11011,11011100,11011100101,11011100101110,11011100101110111,
+%T A058935 110111001011101111000,1101110010111011110001001,
+%U A058935 11011100101110111100010011010,110111001011101111000100110101011
+%N A058935 Concatenation of first n binary numbers.
+%H A058935 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BinaryChampernowneConstant.html">Binary Champernowne Constant</a>
+%H A058935 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmarandacheNumber.html">Smarandache Number</a>
+%F A058935 a(n) = a(n-1)*10^A029837(n) + A007088(n).
+%t A058935 FromDigits /@ Flatten /@ Rest[FoldList[Append, {}, IntegerDigits[Range[10], 2]]] (* _Eric W. Weisstein_, Nov 04 2015 *)
+%Y A058935 Cf. A007908 for decimal equivalent, A047778 for this written in decimal, A001855 (offset) for number of digits.
+%K A058935 base,easy,nonn
+%O A058935 0,3
+%A A058935 _Henry Bottomley_, Jan 12 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

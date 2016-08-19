@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020032
+Showing 1-1 of 1
+
+%I A020032
+%S A020032 1,0,1,1,5,23,123,788,5853,49330,465113,4850460,55433829,688963306,
+%T A020032 9251792972,133490155744,2059562402903,33835668047686,589707357402530,
+%U A020032 10867464157846630,211139303638163097,4313274345751046120
+%N A020032 Nearest integer to GAMMA(n+3/7)/GAMMA(3/7).
+%p A020032 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%Y A020032 Cf. A220608.
+%K A020032 nonn
+%O A020032 0,5
+%A A020032 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032192
+Showing 1-1 of 1
+
+%I A032192
+%S A032192 1,1,4,12,30,66,132,246,429,715,1144,1768,2652,3876,5538,7752,10659,
+%T A032192 14421,19228,25300,32890,42288,53820,67860,84825,105183,129456,158224,
+%U A032192 192130,231880,278256,332112,394383,466089,548340
+%N A032192 Number of necklaces with 7 black beads and n-7 white beads.
+%C A032192 The g.f. is Z(C_7,x)/x^7, the 7-variate cycle index polynomial for the cyclic group C_7, with substitution x[i]->1/(1-x^i), i=1,...,7. Therefore by Polya enumeration a(n+7) is the number of cyclically inequivalent 7-necklaces whose 7 beads are labeled with nonnegative integers such that the sum of labels is n, for n=0,1,2,... See A102190 for Z(C_7,x) and the comment in A032191 on the equivalence of this problem with the one given in the `Name' line. _Wolfdieter Lang_, Feb 15 2005.
+%H A032192 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032192 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A032192 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A032192 "CIK[ 7 ]" (necklace, indistinct, unlabeled, 7 parts) transform of 1, 1, 1, 1...
+%F A032192 Empirically this is ceiling(C(n, 7)/n) - _N. J. A. Sloane_.
+%F A032192 G.f.: (x^6-5*x^5+13*x^4-17*x^3+13*x^2-5*x+1)/(x^6+x^5+x^4+x^3+x^2+x+1)/(1-x)^7 - Gael Linder (linder.gael(AT)wanadoo.fr), Jan 13 2005
+%F A032192 G.f.: (x^7)*(1-5*x+13*x^2-17*x^3+13*x^4-5*x^5+x^6)/((1-x)^6*(1-x^7)) (other version).
+%F A032192 a(n)=ceiling(binomial(n+7, 7)/(n+7)) (conjecture W. Lang).
+%t A032192 k = 7; Table[Apply[Plus, Map[EulerPhi[ # ]Binomial[n/#, k/# ] &, Divisors[GCD[n, k]]]]/n, {n, k, 30}] - _Robert A. Russell_, Sep 27 2004
+%Y A032192 Cf. A053618.
+%Y A032192 Cf. A004526, A007997, A008610, A008646, A032191.
+%K A032192 nonn
+%O A032192 7,3
+%A A032192 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

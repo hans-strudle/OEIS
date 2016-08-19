@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025135
+Showing 1-1 of 1
+
+%I A025135
+%S A025135 1,4,22,238,5825,345600,51583084,19765932032,19661794008192,
+%T A025135 51082239411000000,347836712523276735000,6221718604078720792473600,
+%U A025135 292819054882445795002015111824,36313083181879002042916296055971840,11881691691176915544450299522846484375000
+%N A025135 (n-1)st elementary symmetric function of binomial(n,0), binomial(n,1), ..., binomial(n,n).
+%H A025135 Vincenzo Librandi, <a href="/A025135/b025135.txt">Table of n, a(n) for n = 1..70</a>
+%t A025135 a[n_] := SymmetricPolynomial[n-1, Table[Binomial[n, k], {k, 0, n}]]; a /@ Range[18] (* _Jean-François Alcover_, Jul 12 2011 *)
+%K A025135 nonn
+%O A025135 1,2
+%A A025135 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

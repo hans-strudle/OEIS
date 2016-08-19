@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034902
+Showing 1-1 of 1
+
+%I A034902
+%S A034902 2,7,113,233,337,2129,3833,8737,19553,46337,72689,103681,361649,
+%T A034902 449689,477017,668273,3095353,7212577,13188281,26340857,46012633,
+%U A034902 246116833,330177017
+%N A034902 a(i) is square mod a(j), i <> j; a(n) prime.
+%t A034902 a[1] = 2; squareModQ[p_, q_] := (For[k=0, k <= q, k++, If[Mod[p-k^2, q] == 0, Return[True]]]; Return[False]); a[n_] := a[n] = For[r=NextPrime[a[n-1]], True, r=NextPrime[r], If[And @@ (squareModQ[r, #] && squareModQ[#, r] & /@ Array[a, n-1]), Return[r]]]; Table[Print[a[n]]; a[n], {n, 1, 10}] (* _Jean-François Alcover_, Dec 10 2014 *)
+%K A034902 nonn,nice
+%O A034902 1,1
+%A A034902 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

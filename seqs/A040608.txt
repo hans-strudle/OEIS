@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040608
+Showing 1-1 of 1
+
+%I A040608
+%S A040608 25,5,1,1,2,1,4,3,6,1,7,1,1,7,1,6,3,4,1,2,1,1,5,50,5,1,1,2,1,4,3,6,1,
+%T A040608 7,1,1,7,1,6,3,4,1,2,1,1,5,50,5,1,1,2,1,4,3,6,1,7,1,1,7,1,6,3,4,1,2,1,
+%U A040608 1,5,50,5,1,1,2,1,4,3,6,1,7,1,1,7,1,6,3,4,1,2,1,1,5
+%N A040608 Continued fraction for sqrt(634).
+%H A040608 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040608 with(numtheory): Digits := 300: convert(evalf(sqrt(634)),confrac);
+%K A040608 nonn,cofr,easy
+%O A040608 0,1
+%A A040608 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

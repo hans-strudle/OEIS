@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054785
+Showing 1-1 of 1
+
+%I A054785
+%S A054785 2,4,8,8,12,16,16,16,26,24,24,32,28,32,48,32,36,52,40,48,64,48,48,64,
+%T A054785 62,56,80,64,60,96,64,64,96,72,96,104,76,80,112,96,84,128,88,96,156,
+%U A054785 96,96,128,114,124,144,112,108,160,144,128,160,120,120,192,124,128,208
+%N A054785 Sigma(2n) - sigma(n), where sigma is the sum of divisors of n, A000203.
+%H A054785 Paul Tek, <a href="/A054785/b054785.txt">Table of n, a(n) for n = 1..10000</a>
+%F A054785 a(n) = A000203(2n) - A000203(n).
+%F A054785 a(n) = 2*A002131(n).
+%F A054785 a(2*n) = A000203(n) + A000593(2*n). - _Reinhard Zumkeller_, Apr 23 2008
+%e A054785 n=9: sigma(2n)=18+9+6+3+2+1=39, sigma(n)=9+3+1=13, a(n)=39-13=26.
+%t A054785 Table[DivisorSigma[1,2n]-DivisorSigma[1,n],{n,70}] (* _Harvey P. Dale_, May 11 2014 *)
+%o A054785 (PARI) a(n)=sigma(2*n)-sigma(n) \\ _Charles R Greathouse IV_, Feb 13 2013
+%Y A054785 Cf. A000203.
+%K A054785 nonn
+%O A054785 1,1
+%A A054785 _Labos Elemer_, May 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

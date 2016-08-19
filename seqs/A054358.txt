@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054358
+Showing 1-1 of 1
+
+%I A054358
+%S A054358 1,1,0,1,2,8,18,61,170,538,1654,5344,17252,57146,190786,646305,
+%T A054358 2209050,7626164,26532732,93013852,328196780,1165060170,4158266282,
+%U A054358 14915635376,53745892932,194477856048,706436256598,2575316698792,9419568272632
+%N A054358 Number of unlabeled asymmetric 2-ary cacti having n polygons.
+%H A054358 Miklos Bona, Michel Bousquet, Gilbert Labelle, Pierre Leroux, Enumeration of m-ary cacti, Advances in Applied Mathematics, 24 (2000), 22-56 (<a href="http://www.lacim.uqam.ca/~leroux/articles/cactus.pdf">pdf</a>, <a href="http://www.math.ufl.edu/~bona/cactusJCTA.dvi">dvi</a>).
+%H A054358 <a href="/index/Ca#cacti">Index entries for sequences related to cacti</a>
+%K A054358 nonn
+%O A054358 0,5
+%A A054358 _Simon Plouffe_
+%E A054358 More terms from _Vladeta Jovovic_, Oct 04 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

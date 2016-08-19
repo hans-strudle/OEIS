@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038218
+Showing 1-1 of 1
+
+%I A038218
+%S A038218 1,2,12,4,48,144,8,144,864,1728,16,384,3456,13824,20736,32,960,11520,
+%T A038218 69120,207360,248832,64,2304,34560,276480,1244160,2985984,2985984,128,
+%U A038218 5376,96768,967680,5806080,20901888,41803776,35831808
+%N A038218 Triangle whose (i,j)-th entry is binomial(i,j)*2^(i-j)*12^j.
+%D A038218 B. N. Cyvin et al., Isomer enumeration of unbranched catacondensed polygonal systems with pentagons and heptagons, Match, No. 34 (Oct 1996), pp. 109-121.
+%K A038218 nonn,tabl,easy
+%O A038218 0,2
+%A A038218 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

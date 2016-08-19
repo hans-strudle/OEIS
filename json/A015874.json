@@ -1,0 +1,1 @@
+{"formerly":"","seq":"5,40,108,9544","description":"Phi(n + 10) | sigma(n) + 10.","comments":"The next term, if it exists, is greater than 10^8. - _Charles R Greathouse IV_, Sep 25 2012","prog":"(PARI) is(n)=!((sigma(n)+10)%eulerphi(n+10)) \\\\ _Charles R Greathouse IV_, Sep 25 2012","keyword":"nonn","offset":"1,1","author":"_Robert G. Wilson v_"}

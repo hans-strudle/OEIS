@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056354
+Showing 1-1 of 1
+
+%I A056354
+%S A056354 1,2,3,7,11,33,73,237,703,2433,8309,30108,108991,403262,1497070,
+%T A056354 5607437,21076571,79595990,301492045,1145560579,4363503684,
+%U A056354 16660204452,63741248201,244339646708,938255682551
+%N A056354 Number of bracelet structures using a maximum of four different colored beads.
+%C A056354 Turning over will not create a new bracelet. Permuting the colors of the beads will not change the structure.
+%D A056354 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056354 Use de Bruijn's generalization of Polya's enumeration theorem as discussed in reference.
+%Y A056354 Cf. A056292.
+%K A056354 nonn
+%O A056354 1,2
+%A A056354 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

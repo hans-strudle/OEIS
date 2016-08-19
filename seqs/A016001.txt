@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016001
+Showing 1-1 of 1
+
+%I A016001
+%S A016001 1,2,2,3,2,9,2,4,3,9,2,16,2,9,9,5,2,16,2,16,9,9,2,23,3,9,4,16,2,58,2,
+%T A016001 6,9,9,9,29,2,9,9,23,2,58,2,16,16,9,2,30,3,16,9,16,2,23,9,23,9,9,2,
+%U A016001 107,2,9,16,7,9,58,2,16,9,58,2,42,2,9,16,16,9,58,2,30,5,9,2,107,9
+%N A016001 a(n) = (tau(n^6)+5)/6.
+%K A016001 nonn
+%O A016001 1,2
+%A A016001 _Robert G. Wilson v_
+%E A016001 Definition corrected by Vladeta Jovovic, Sep 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

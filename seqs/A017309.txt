@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017309
+Showing 1-1 of 1
+
+%I A017309
+%S A017309 243,371293,6436343,39135393,147008443,418195493,992436543,2073071593,
+%T A017309 3939040643,6956883693,11592740743,18424351793,28153056843,
+%U A017309 41615795893,59797108943,83841135993,115063617043
+%N A017309 (10*n+3)^5.
+%H A017309 Vincenzo Librandi, <a href="/A017309/b017309.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017309 (MAGMA) [(10*n+3)^5: n in [0..20]]; // Vincenzo Librandi, Jul 31 2011
+%K A017309 nonn,easy
+%O A017309 0,1
+%A A017309 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

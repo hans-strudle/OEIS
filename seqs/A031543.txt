@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031543
+Showing 1-1 of 1
+
+%I A031543
+%S A031543 2027,2039,2047,2063,2083,2087,2091,2099,2111,2123,2131,2143,2147,
+%T A031543 2179,2187,2191,2203,2207,8104,8168,8192,8200,8256,8296,8320,8352,
+%U A031543 8384,8448,8480,8488,8512,8544,8552,8576,8584,8608,8704,8736,8744,8800,8832,18231
+%N A031543 Numbers n such that continued fraction for sqrt(n) has even period and central term 45.
+%K A031543 nonn
+%O A031543 1,1
+%A A031543 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

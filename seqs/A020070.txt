@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020070
+Showing 1-1 of 1
+
+%I A020070
+%S A020070 1,0,1,4,18,89,523,3598,28341,251531,2483877,27012163,320769440,
+%T A020070 4129906548,57302453360,852373993744,13531437150692,228343001917931,
+%U A020070 4081631159283027,77040788131467135,1531185664112909314
+%N A020070 Integer part of GAMMA(n+7/8)/GAMMA(7/8).
+%p A020070 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020070 nonn
+%O A020070 0,4
+%A A020070 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

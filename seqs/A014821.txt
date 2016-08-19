@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014821
+Showing 1-1 of 1
+
+%I A014821
+%S A014821 1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014821 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,
+%U A014821 1,0,1,0,1,0,0,0,0,0,0,0,0,0,0
+%V A014821 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014821 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,1,0,-1,0,
+%X A014821 1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0
+%N A014821 Inverse of 812th cyclotomic polynomial.
+%p A014821 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014821 sign
+%O A014821 0,1
+%A A014821 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048768
+Showing 1-1 of 1
+
+%I A048768
+%S A048768 2,9,12,18,40,112,125,250,352,360,675,832,1008,1125,1350,1500,2176,
+%T A048768 2250,2401,3168,3969,4802,4864,7488,7938,11776,14000,19584,21609,
+%U A048768 28812,29403,29696,43218,43776,44000,58806,63488,75600
+%N A048768 Numbers n such that A048767(n) = n.
+%e A048768 E.g. n=12=(2^2)*(3^1)=([ 2nd prime ]^pi[ 2 ])*([ first prime ]^pi[ 3 ]).
+%Y A048768 Cf. A008478, A048767, A048769.
+%K A048768 easy,nonn
+%O A048768 1,1
+%A A048768 _Naohiro Nomoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

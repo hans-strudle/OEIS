@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008702
+Showing 1-1 of 1
+
+%I A008702
+%S A008702 1,96,194256,16797312,397892688,4629844800,34417075392,187488327936,
+%T A008702 814887884880,2975540578272,9486540171360,27052997242752,
+%U A008702 70486201388736,169931039863872,384163624930176
+%N A008702 Theta series of Niemeier lattice of type A_3^8.
+%D A008702 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 407.
+%F A008702 This series is the q-expansion of 23/36 E_4(z)^3 + 13/36 E_6(z)^2. Cf. A004009, A013973. - Daniel D. Briggs, Nov 26 2011
+%K A008702 nonn
+%O A008702 0,2
+%A A008702 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

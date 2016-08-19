@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039830
+Showing 1-1 of 1
+
+%I A039830
+%S A039830 2,4,4,6,16,22,15,19,46,56,34,40,92,106,61,69,154,172,96,106,232,254,
+%T A039830 139,151,326,352,190,204,436,466,249,265,562,596,316,334,704,742,391,
+%U A039830 411,862,904,474,496,1036,1082,565,589,1226,1276,664,690,1432,1486,771
+%N A039830 Number of different coefficient values in expansion of Product (1-q^1+q^2-..+(-q)^i), i=1 to n.
+%Y A039830 Cf. A039909.
+%K A039830 nonn
+%O A039830 1,1
+%A A039830 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

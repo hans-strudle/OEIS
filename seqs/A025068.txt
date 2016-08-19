@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025068
+Showing 1-1 of 1
+
+%I A025068
+%S A025068 3,4,7,11,25,40,76,123,199,322,550,890,1487,2406,3969,6422,10391,
+%T A025068 16813,27403,44339,72064,116602,189187,306111,496141,802773,1298914,
+%U A025068 2101687,3402808,5505859,8912238
+%N A025068 a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = A023532, t = (Lucas numbers).
+%K A025068 nonn
+%O A025068 1,1
+%A A025068 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

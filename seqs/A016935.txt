@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016935
+Showing 1-1 of 1
+
+%I A016935
+%S A016935 8,512,2744,8000,17576,32768,54872,85184,125000,175616,238328,314432,
+%T A016935 405224,512000,636056,778688,941192,1124864,1331000,1560896,1815848,
+%U A016935 2097152,2406104,2744000,3112136
+%N A016935 (6n+2)^3.
+%C A016935 The generating function is 8 times the gen. fun. of A016779. _R. J. Mathar_, May 07 2008
+%H A016935 Vincenzo Librandi, <a href="/A016935/b016935.txt">Table of n, a(n) for n = 0..2000</a>
+%F A016935 a(n) = 8*A016779(n). - _R. J. Mathar_, May 07 2008
+%o A016935 (MAGMA) [(6*n+2)^3: n in [0..50]]; // Vincenzo Librandi, May 04 2011
+%K A016935 nonn,easy
+%O A016935 0,1
+%A A016935 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057942
+Showing 1-1 of 1
+
+%I A057942
+%S A057942 645,25761,212421,332949,656601,6212361,63560685,413435121,1112691009,
+%T A057942 1121315385,1239702465,2851612221,5616154545,6454103601,6689540901,
+%U A057942 9691152801,9728582781,11970358401,12028438605,15076352901,17402551365
+%N A057942 Pseudoprimes k to base 2 such that k-2 and k+2 are primes.
+%H A057942 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=Pseudoprime">Pseudoprimes</a>
+%H A057942 <a href="/index/Ps#pseudoprimes">Index entries for sequences related to pseudoprimes</a>
+%Y A057942 Cf. A001567.
+%K A057942 nonn
+%O A057942 0,1
+%A A057942 _Patrick De Geest_, Oct 15 2000.
+%E A057942 More terms from Don Reble (djr(AT)nk.ca), Nov 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

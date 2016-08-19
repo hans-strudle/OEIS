@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034442
+Showing 1-1 of 1
+
+%I A034442
+%S A034442 2,3,5,7,11,13,13,14,16,17,17,19,23,29,34,35,37,37,38,47,59,67,79,79,
+%T A034442 89,112,113,113,115,118,119,124,125,127,127,128,136,137,137,139,139,
+%U A034442 149,157,167,179,179,199,223,227,229,233,236,239,257,269,277
+%N A034442 Arrange digits of primes in ascending order (omitting any that contain 0's), then sort list.
+%Y A034442 Cf. A032524.
+%K A034442 nonn,base,easy
+%O A034442 1,1
+%A A034442 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

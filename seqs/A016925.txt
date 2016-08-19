@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016925
+Showing 1-1 of 1
+
+%I A016925
+%S A016925 1,16807,371293,2476099,9765625,28629151,69343957,147008443,282475249,
+%T A016925 503284375,844596301,1350125107,2073071593,3077056399,4437053125,
+%U A016925 6240321451,8587340257,11592740743,15386239549
+%N A016925 (6n+1)^5.
+%H A016925 Vincenzo Librandi, <a href="/A016925/b016925.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016925 (MAGMA) [(6*n+1)^5: n in [0..50]]; // Vincenzo Librandi, May 04 2011
+%K A016925 nonn,easy
+%O A016925 0,2
+%A A016925 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

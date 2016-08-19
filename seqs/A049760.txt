@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049760
+Showing 1-1 of 1
+
+%I A049760
+%S A049760 0,0,1,1,3,1,8,10,11,12,13,13,31,37,31,41,42,47,58,60,82,86,95,76,125,
+%T A049760 123,140,103,115,134,188,229,235,213,186,239,264,283,244,243,263,342,
+%U A049760 369,430,387,407,473,413,446,489,522,492,558
+%N A049760 a(n)=Sum{T(n,k): k=1,2,...,n}, array T as in A049759.
+%H A049760 Charles R Greathouse IV, <a href="/A049760/b049760.txt">Table of n, a(n) for n = 1..10000</a>
+%o A049760 (PARI) a(n)=my(N=n^2);sum(k=2,n-1,N%k) \\ _Charles R Greathouse IV_, Mar 27 2014
+%K A049760 nonn
+%O A049760 1,5
+%A A049760 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015104
+Showing 1-1 of 1
+
+%I A015104
+%S A015104 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015104 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015104 0,0,0,0,0,0,1,1,0,1,1,1,0,1
+%V A015104 1,-1,0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015104 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015104 0,0,0,0,0,0,1,-1,0,1,-1,1,0,-1
+%N A015104 Inverse of 1095th cyclotomic polynomial.
+%p A015104 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015104 sign
+%O A015104 0,1
+%A A015104 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

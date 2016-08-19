@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029871
+Showing 1-1 of 1
+
+%I A029871
+%S A029871 1,1,6,25,104,384,1380,4729,15806,51478,164788,519296,1617066,4983855,
+%T A029871 15233671,46235252,139506803,418838281,1252174861,3730058316,
+%U A029871 11077154790,32808815240,96953599162,285945645659
+%N A029871 Number of connected functions on n points with a loop of length 8.
+%H A029871 C. G. Bower, <a href="/transforms2.html">Transforms</a>
+%F A029871 "CIK[ 8 ]" (necklace, indistinct, unlabeled, 8 parts) transform of A000081.
+%K A029871 nonn
+%O A029871 8,3
+%A A029871 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

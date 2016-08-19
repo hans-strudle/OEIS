@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010287
+Showing 1-1 of 1
+
+%I A010287
+%S A010287 3,1,6,1,2,1,10,1,2,7,1,4,15,37,1,6,1,2,2,1,2,8,10,39,75,1,2,2,1,1,2,
+%T A010287 1,10,18,1,4,3,2,1,2,1,2,1,5,1,4,1,1,3,181,1,2,1,5,11,2,16,1,2,1,2,3,
+%U A010287 1,1,1,3,3,1,1,15,3,8,3,3,2,2
+%N A010287 Continued fraction for cube root of 58.
+%H A010287 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%t A010287 ContinuedFraction[Power[58, (3)^-1],100] (* _Harvey P. Dale_, Jan 15 2012 *)
+%K A010287 nonn,cofr
+%O A010287 0,1
+%A A010287 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

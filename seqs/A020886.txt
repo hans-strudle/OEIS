@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020886
+Showing 1-1 of 1
+
+%I A020886
+%S A020886 6,15,20,28,35,42,45,63,66,72,77,88,91,99,104,110,117,120,130,143,153,
+%T A020886 156,165,170,187,190,195,204,209,210,221,228,231,238,247,255,266,272,
+%U A020886 273,276,285,299,304,322,323,325,336,342,345,350,357,368,378,391,399
+%N A020886 Ordered semiperimeters of primitive Pythagorean triangles.
+%C A020886 n is in this sequence iff A078926(n)>0. This is a subset of A005279.
+%F A020886 a(n) = A024364(n)/2.
+%p A020886 isA020886 := proc(an) local r::integer,s::integer ; for r from floor((an/2)^(1/2)) to floor(an^(1/2)) do for s from r-1 to 1 by -2 do if r*(r+s) = an and gcd(r,s) < 2 then RETURN(true) ; fi ; if r*(r+s) < an then break ; fi ; od ; od : RETURN(false) ; end : for n from 2 to 400 do if isA020886(n) then printf("%d,",n) ; fi ; od ; # _R. J. Mathar_, Jun 08 2006
+%Y A020886 Cf. A020882-A020885.
+%K A020886 nonn
+%O A020886 1,1
+%A A020886 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

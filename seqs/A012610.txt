@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012610
+Showing 1-1 of 1
+
+%I A012610
+%S A012610 1,2,16,350,12248,734218,55640396,6572508462,822057317136,
+%T A012610 170181011188626,28436167156754964,10592613470009612406,
+%U A012610 1668642302509175576856,1486955058235797307115866
+%N A012610 exp(arcsinh(x)*tan(x))=1+2/2!*x^2+16/4!*x^4+350/6!*x^6+12248/8!*x^8...
+%C A012610 a(16) is negative. - _Vaclav Kotesovec_, Oct 31 2013
+%F A012610 a(n) ~ (-1)^(n+1) * tanh(1) * 2^(2*n) *n^(2*n-1) / exp(2*n+Pi*tanh(1)/2). - _Vaclav Kotesovec_, Oct 31 2013
+%t A012610 Table[n!*SeriesCoefficient[Exp[ArcSinh[x]*Tan[x]],{x,0,n}],{n,0,40,2}] (* _Vaclav Kotesovec_, Oct 31 2013 *)
+%K A012610 sign
+%O A012610 0,2
+%A A012610 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

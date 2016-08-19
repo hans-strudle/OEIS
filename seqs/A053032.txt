@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053032
+Showing 1-1 of 1
+
+%I A053032
+%S A053032 11,19,29,31,59,71,79,101,131,139,151,179,181,191,199,211,229,239,251,
+%T A053032 271,311,331,349,359,379,419,431,439,461,479,491,499,509,521,541,571,
+%U A053032 599,619,631,659,691,709,719,739,751,809,811,839,859,911,919,941,971
+%N A053032 Odd primes p with one zero in Fibonacci numbers mod p.
+%C A053032 Also, odd primes that divide Lucas numbers of odd index. - _T. D. Noe_, Jul 25 2003
+%H A053032 T. D. Noe, <a href="/A053032/b053032.txt">Table of n, a(n) for n=1..1000</a>
+%H A053032 C. Ballot and M. Elia, <a href="http://www.fq.math.ca/Papers1/45-1/quartballot01_2007.pdf">Rank and period of primes in the Fibonacci sequence; a trichotomy</a>, Fib. Quart., 45 (No. 1, 2007), 56-63 (The sequence B1).
+%H A053032 M. Renault, <a href="http://www.math.temple.edu/~renault/fibonacci/fiblist.html">Fibonacci sequence modulo m</a>
+%F A053032 A prime p = prime(i) is in this sequence if p > 2 and A001602(i)/2 is odd. - _T. D. Noe_, Jul 25 2003
+%Y A053032 Cf. A001176. See A112860 for another version.
+%Y A053032 Cf. A000204 (Lucas numbers), A001602 (index of the smallest Fibonacci number divisible by prime(n)), A053029 (primes dividing no Lucas number), A053027 (primes dividing Lucas numbers of even index).
+%K A053032 nonn
+%O A053032 1,1
+%A A053032 _Henry Bottomley_, Feb 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

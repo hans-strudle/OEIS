@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047507
+Showing 1-1 of 1
+
+%I A047507
+%S A047507 0,4,6,7,8,12,14,15,16,20,22,23,24,28,30,31,32,36,38,39,40,44,46,47,
+%T A047507 48,52,54,55,56,60,62,63,64,68,70,71,72,76,78,79,80,84,86,87,88,92,94,
+%U A047507 95,96,100,102,103,104,108,110
+%N A047507 Numbers that are congruent to {0, 4, 6, 7} mod 8.
+%H A047507 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,1,-1).
+%F A047507 G.f.: x^2*(4+2*x+x^2+x^3) / ( (1+x)*(x^2+1)*(x-1)^2 ). - _R. J. Mathar_, Nov 06 2015
+%K A047507 nonn
+%O A047507 1,2
+%A A047507 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

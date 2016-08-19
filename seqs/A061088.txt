@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061088
+Showing 1-1 of 1
+
+%I A061088
+%S A061088 1,12,123,120304,102030405,10203040506
+%N A061088 A053062(n) / n.
+%e A061088 a(5) = 102030405 =510152025/5, where 510152025 is obtained by concatenating 5,10,15,20 and finally 25 (which is 5^2).
+%Y A061088 A053062.
+%K A061088 nonn,base
+%O A061088 0,2
+%A A061088 _Amarnath Murthy_, Apr 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

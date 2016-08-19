@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006735
+Showing 1-1 of 1
+
+%I A006735
+%S A006735 1,1,4,12,45,188,835,3849,18242,88265,434295,2165198,
+%T A006735 10915089,55534781,284708699,1470350760,7628363273,39878267745,
+%U A006735 208458228964,1103369168956,5771541600014
+%V A006735 1,-1,-4,-12,-45,-188,-835,-3849,-18242,-88265,-434295,-2165198,
+%W A006735 -10915089,-55534781,-284708699,-1470350760,-7628363273,-39878267745,
+%X A006735 -208458228964,-1103369168956,-5771541600014
+%N A006735 Bond percolation series for hexagonal net.
+%D A006735 Jensen, Iwan; Guttmann, Anthony J.; Series expansions of the percolation probability for directed square and honeycomb lattices. J. Phys. A 28 (1995), no. 17, 4813-4833.
+%H A006735 I. Jensen, <a href="/A006735/b006735.txt">Table of n, a(n) for n = 0..36</a> [from link below]
+%H A006735 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/dirperc/series//hcbond_pp.ser">More terms</a>
+%Y A006735 Cf. A030131.
+%K A006735 sign
+%O A006735 0,3
+%A A006735 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

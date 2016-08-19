@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023856
+Showing 1-1 of 1
+
+%I A023856
+%S A023856 2,3,10,13,28,34,60,70,110,125,182,203,280,308,408,444,570,615,770,
+%T A023856 825,1012,1078,1300,1378,1638,1729,2030,2135,2480,2600,2992,3128,3570,
+%U A023856 3723,4218,4389,4940,5130,5740,5950,6622,6853,7590,7843,8648,8924,9800,10100,11050,11375
+%N A023856 a(n) = s(1)t(n)+s(2)t(n-1)+...+s(k)t(n+1-k), where k = floor( (n+1)/2 ), s = (natural numbers), t = (natural numbers >= 2).
+%C A023856 Or, a(n) = s(1)s(n) + s(2)s(n-1) + ... + s(k)s(n-k+1), where k = floor( n/2 ) and s = (natural numbers).
+%H A023856 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (1,3,-3,-3,3,1,-1).
+%F A023856 a(n) = (n+2)*(4*n^2+13*n+6-3(n+2)(-1)^n)/48.
+%F A023856 a(n)=sum( k=1..(2*n+1+(-1)^(n+1))/4, (n-k+1)(k-1) ), with n>=3. - _Paolo P. Lava_, Jan 31 2007
+%F A023856 a(n) = sum_{i=1..ceil(n/2)} i*(n-i+2) = -ceil(n/2)*(ceil(n/2)+1)*(2*ceil(n/2)-3n-5)/6. - _Wesley Ivan Hurt_, Sep 20 2013
+%F A023856 G.f. x*(2+x+x^2) / ( (1+x)^3*(x-1)^4 ). - _R. J. Mathar_, Sep 25 2013
+%p A023856 seq(sum(i*(k-i+2), i=1..ceil(k/2)), k=1..70); # _Wesley Ivan Hurt_, Sep 20 2013
+%t A023856 Table[-Ceiling[n/2]*(Ceiling[n/2]+1)*(2*Ceiling[n/2]-3n-5)/6, {n, 100}] (* _Wesley Ivan Hurt_, Sep 20 2013 *)
+%Y A023856 Cf. A023855, A023857, A024305, A024854.
+%K A023856 nonn,easy
+%O A023856 1,1
+%A A023856 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

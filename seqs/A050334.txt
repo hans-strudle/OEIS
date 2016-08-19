@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050334
+Showing 1-1 of 1
+
+%I A050334
+%S A050334 1,1,1,1,1,2,1,2,1,2,1,4,1,2,2,3,1,4,1,4,2,2,1,8,1,2,2,4,1,7,1,5,2,2,
+%T A050334 2,10,1,2,2,8,1,7,1,4,4,2,1,15,1,4,2,4,1,8,2,8,2,2,1,18,1,2,4,8,2,7,1,
+%U A050334 4,2,7,1,23,1,2,4,4,2,7,1,15,3,2,1,18,2,2,2,8,1,18,2,4,2,2,2,28,1,4,4
+%N A050334 Number of ordered factorizations of n into numbers with an odd number of prime divisors.
+%C A050334 a(n) depends only on prime signature of n (cf. A025487). So a(24) = a(375) since 24 = 2^3*3 and 375 = 3*5^3 both have prime signature (3,1).
+%F A050334 Dirichlet g.f.: 1/(1-B(s)) where B(s) is d.g.f. of characteristic function of A026424.
+%Y A050334 Cf. A002033, A026424, A050333. a(p^k)=A000045. a(A002110)=A006154.
+%K A050334 nonn
+%O A050334 1,6
+%A A050334 _Christian G. Bower_, Oct 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022322
+Showing 1-1 of 1
+
+%I A022322
+%S A022322 1,8,10,19,30,50,81,132,214,347,562,910,1473,2384,3858,6243,10102,
+%T A022322 16346,26449,42796,69246,112043,181290,293334,474625,767960,1242586,
+%U A022322 2010547,3253134,5263682,8516817
+%N A022322 a(n)=a(n-1)+a(n-2)+1.
+%H A022322 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-1)
+%F A022322 G.f. ( 1+6*x-6*x^2 ) / ( (x-1)*(x^2+x-1) ). a(n) = A022114(n)-1. - R. J. Mathar, Apr 07 2011
+%t A022322 LinearRecurrence[{2,0,-1},{1,8,10},40] (* _Harvey P. Dale_, Oct 14 2012 *)
+%K A022322 nonn
+%O A022322 0,2
+%A A022322 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

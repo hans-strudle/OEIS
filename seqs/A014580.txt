@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014580
+Showing 1-1 of 1
+
+%I A014580
+%S A014580 2,3,7,11,13,19,25,31,37,41,47,55,59,61,67,73,87,91,97,103,109,115,
+%T A014580 117,131,137,143,145,157,167,171,185,191,193,203,211,213,229,239,241,
+%U A014580 247,253,283,285,299,301,313,319,333,351,355,357,361,369,375
+%N A014580 Binary irreducible polynomials (primes in the ring GF(2)[X]), evaluated at X=2.
+%C A014580 Or, binary irreducible polynomials, interpreted as binary vectors, then written in base 10.
+%C A014580 The numbers {a(n)} are a subset of the set {A206074}. - _Thomas Ordowski_, Feb 21 2014
+%H A014580 T. D. Noe, <a href="/A014580/b014580.txt">Table of n, a(n) for n = 1..1377</a> (through degree 13)
+%H A014580 <a href="/index/Ge#GF2X">Index entries for sequences operating on GF(2)[X]-polynomials</a>
+%e A014580 x^4 + x^3 + 1 -> 16+8+1 = 25. Or, x^4 + x^3 + 1 -> 11001 (binary) = 25 (decimal).
+%t A014580 fQ[n_] := Block[{ply = Plus @@ (Reverse@ IntegerDigits[n, 2] x^Range[0, Floor@ Log2@ n])}, ply == Factor[ply, Modulus -> 2] && n != 2^Floor@ Log2@ n]; fQ[2] = True; Select[ Range@ 378, fQ] (* _Robert G. Wilson v_, Aug 12 2011 *)
+%o A014580 (PARI) is(n)=polisirreducible(Pol(binary(n))*Mod(1,2)) \\ _Charles R Greathouse IV_, Mar 22 2013
+%Y A014580 Cf. A000031, A001037, A048720. Written in binary: A058943.
+%Y A014580 Characteristic function: A091225. Inverse: A091227. a(n) = A091202(A000040(n)). Almost complement of A091242. Union of A091206 & A091214 and also of A091250 & A091252. First differences: A091223. Apart from a(1) and a(2), a subsequence of A092246 and hence A000069.
+%K A014580 nonn
+%O A014580 1,1
+%A A014580 David Petry (petry(AT)accessone.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

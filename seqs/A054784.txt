@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054784
+Showing 1-1 of 1
+
+%I A054784
+%S A054784 1,2,3,4,6,7,8,12,14,16,21,24,28,31,32,42,48,56,62,64,84,93,96,112,
+%T A054784 124,127,128,168,186,192,217,224,248,254,256,336,372,381,384,434,448,
+%U A054784 496,508,512,651,672,744,762,768,868,889,896,992,1016,1024,1302,1344,1488
+%N A054784 Integers n such that sigma(2n) - sigma(n) is a power of 2, where sigma is the sum of the divisors of n.
+%C A054784 If n is a squarefree product of Mersenne primes multiplied by a power of 2, then sigma(2n) - sigma(n) is a power of 2.
+%F A054784 Numbers n such that A000203(2*a(n)) - A000203(a(n)) = 2^w for some w.
+%Y A054784 Cf. A000203, A000668.
+%K A054784 nonn
+%O A054784 1,2
+%A A054784 _Labos Elemer_, May 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

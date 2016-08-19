@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060776
+Showing 1-1 of 1
+
+%I A060776
+%S A060776 1,1,2,4,10,24,70,192,576,1890,6300,21600,78848,294840,1143072,
+%T A060776 4572288,18849600,79968000,348566400,1559376000,7147140000,
+%U A060776 33522128640,160758097500,787652812800,3938264064000,20080974513600
+%N A060776 Smaller central (median) divisor of n!.
+%C A060776 Between this d and its complementary divisor, the integer part of square root of n! is situated; for n=6:{24,26,30}.
+%C A060776   Essentially the same as A061055. - Nathaniel Johnston, Jun 25 2011
+%C A060776 More values:
+%C A060776 a(27)=104348440350000,
+%C A060776 a(28)=552160113120000,
+%C A060776 a(29)=2973500592562500,
+%C A060776 a(30)=16286248192500000,
+%C A060776 a(31)=90679705642597500,
+%C A060776 a(32)=512954426234250000. - M. F. Hasler, Sep 20 2011
+%H A060776 Terentyev Oleg, <a href="/A060776/b060776.txt">Table of n, a(n) for n=1..59</a>
+%F A060776 a(n) = n!/A060777(n). - _David Wasserman_, Jun 15 2002
+%e A060776 Divisors of 6!=720 are {1,2,3,4,5,6,...,24,30,...,360,720}. a(6)=24, the 15th divisor from 30 divisors of 720.
+%t A060776 Table[ Part[ Divisors[ w! ], Floor[ DivisorSigma[ 0, n! ]/2 ] ], {w, a, b} ]
+%Y A060776 Cf. A027423, A055226, A000196, A000142, A000005, A060777.
+%K A060776 nonn
+%O A060776 1,3
+%A A060776 _Labos Elemer_, Apr 26 2001
+%E A060776 More terms from _David Wasserman_, Jun 15 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

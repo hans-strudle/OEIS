@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046893
+Showing 1-1 of 1
+
+%I A046893
+%S A046893 1,2,13,103,107,1007,1036,1019,1013,1049,1079,1237,10099,10013,10135,
+%T A046893 10123,10039,10127,10079,10238,10234,10235,10139,10478,12349,12347,
+%U A046893 10378,12359,14579,10789,100336,10237,12389,23579,10279,100136,12379
+%N A046893 a(n) has exactly n permutations of digits that are primes.
+%t A046893 a = Table[0, {40}]; Do[b = Count[ PrimeQ[ FromDigits /@ Permutations[ IntegerDigits[n]]], True]; If[b < 40 && a[[b + 1]] == 0, a[[b + 1]] = n; Print[b, " ", n]], {n, 1, 110000}]
+%Y A046893 Cf. A039999.
+%K A046893 nonn,base
+%O A046893 0,2
+%A A046893 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033313
+Showing 1-1 of 1
+
+%I A033313
+%S A033313 3,2,9,5,8,3,19,10,7,649,15,4,33,17,170,9,55,197,24,5,51,26,127,9801,
+%T A033313 11,1520,17,23,35,6,73,37,25,19,2049,13,3482,199,161,24335,48,7,99,50,
+%U A033313 649,66249,485,89,15,151,19603,530,31,1766319049,63,8,129,65,48842,33
+%N A033313 Smallest positive integer x satisfying the Pell equation x^2 - D*y^2 = 1 for nonsquare D and positive y.
+%H A033313 Charles R Greathouse IV, <a href="/A033313/b033313.txt">Table of n, a(n) for n = 1..10000</a>
+%H A033313 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/clss.pdf">Class number theory</a>
+%H A033313 H. W. Lenstra, jr., <a href="http://www.ams.org/notices/200202/fea-lenstra.pdf">Solving the Pell Equation</a>
+%H A033313 F. Richman & R. Mines, <a href="http://www.math.fau.edu/Richman/pell-m.htm">Pell's equation</a>
+%H A033313 Derek Smith, <a href="http://web.archive.org/web/20051125023958/http://www.lacim.uqam.ca/~plouffe/OEIS/archive_in_pdf/HistoricalPell.pdf">Historical Overview of Pell Equations</a>
+%H A033313 Derek Smith, <a href="http://web.archive.org/web/20141029065638/http://www.plouffe.fr/simon/OEIS/archive_in_pdf/pellequations.pdf">The Search For An Exhaustive Solution to Pell's Equation</a>
+%H A033313 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PellEquation.html">Pell Equation</a>
+%F A033313 a(n) = sqrt(1 + A000037(n)*A033317(n)^2), or
+%F A033313 a(n) = sqrt(1 + (n + floor(1/2 + sqrt(n)))*A033317(n)^2). - _Zak Seidov_, Oct 24 2013
+%p A033313 F:= proc(d) local r,Q; uses numtheory;
+%p A033313   Q:= cfrac(sqrt(d),'periodic','quotients'):
+%p A033313   r:= nops(Q[2]);
+%p A033313   if r::odd then
+%p A033313     numer(cfrac([op(Q[1]),op(Q[2]),op(Q[2][1..-2])]))
+%p A033313   else
+%p A033313     numer(cfrac([op(Q[1]),op(Q[2][1..-2])]));
+%p A033313   fi
+%p A033313 end proc:
+%p A033313 map(F, remove(issqr,[$1..100])); # _Robert Israel_, May 17 2015
+%t A033313 r[n_] := Reduce[x > 0 && y > 0 && x^2 - n*y^2 == 1, {x, y}, Integers] /. C[_] -> k; sol[n_] := Catch[For[k = 0, True, k++, rn = r[n]; If[rn =!= False, Throw[rn]]]]; A033313 = Reap[For[n = 2, n <= 70, n++, If[! IntegerQ[Sqrt[n]], Sow[x /. ToRules[sol[n]]]]]][[2, 1]](* _Jean-François Alcover_, Apr 25 2012 *)
+%Y A033313 See A033317 (for y's).
+%Y A033313 Cf. A000037, A002350.
+%K A033313 nonn
+%O A033313 1,1
+%A A033313 _Eric W. Weisstein_
+%E A033313 Offset switched to 1 by _R. J. Mathar_, Sep 21 2009
+%E A033313 Name corrected by _Wolfdieter Lang_, Sep 03 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

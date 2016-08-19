@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043490
+Showing 1-1 of 1
+
+%I A043490
+%S A043490 100,200,300,400,500,600,700,800,900,1001,1002,1003,1004,1005,1006,
+%T A043490 1007,1008,1009,1010,1020,1030,1040,1050,1060,1070,1080,1090,1100,
+%U A043490 1200,1300,1400,1500,1600,1700,1800,1900,2001,2002
+%N A043490 Numbers n such that number of 0's in base 10 is 2.
+%t A043490 Select[Range[2100],DigitCount[#,10,0]==2&] (* _Harvey P. Dale_, Aug 29 2012 *)
+%K A043490 nonn,base
+%O A043490 1,1
+%A A043490 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

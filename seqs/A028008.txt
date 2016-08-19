@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028008
+Showing 1-1 of 1
+
+%I A028008
+%S A028008 1,29,551,8713,124719,1681449,21820639,276146585,3436220975,
+%T A028008 42270842185,515935095039,6263469307641,75758994829519,
+%U A028008 914022487668137,11008535762024351,132431203010446681,1591851153157367151
+%N A028008 Expansion of 1/((1-2x)(1-7x)(1-8x)(1-12x)).
+%F A028008 a(n)=(3*12^(n+3)-25*8^(n+3)+24*7^(n+3)-2^(n+4))/600. [_Yahia Kahloune_, Jun 06 2013]
+%K A028008 nonn
+%O A028008 0,2
+%A A028008 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

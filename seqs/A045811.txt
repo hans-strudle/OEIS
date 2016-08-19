@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045811
+Showing 1-1 of 1
+
+%I A045811
+%S A045811 20,10022,10202,12002,12020,12200,20012,20102,20120,20201,20210,20220,
+%T A045811 21002,21200,22002,22010,22020,22100,22200,1210020,1210022,1212200,
+%U A045811 1220100,10222011,12200220,12202020,12210210,20010121,20010212
+%N A045811 In the list of divisors of n (in base 3), each digit 0-2 appears equally often.
+%C A045811 E.g. divisors of 12200 are (1, 10, 100, 122, 1220, 12200); the numbers of digits (0-2) are [ 0(6),1(6),2(6) ]
+%H A045811 N. Nomoto, <a href="http://www.geocities.co.jp/Technopolis/1793/09digit.htm">In the list of divisors of n,... </a>
+%Y A045811 Cf. A038564, A038565, A045812.
+%K A045811 easy,nonn,base
+%O A045811 1,1
+%A A045811 _Naohiro Nomoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

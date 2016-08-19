@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001413
+Showing 1-1 of 1
+
+%I A001413 M5154 N2238
+%S A001413 0,24,264,3312,48240,762096,12673920,218904768,3891176352,70742410800
+%N A001413 Number of 2n-step polygons on cubic lattice.
+%D A001413 M. E. Fisher and M. F. Sykes, Excluded-volume problem and the Ising model of ferromagnetism, Phys. Rev. 114 (1959), 45-58.
+%D A001413 B. J. Hiley and M. F. Sykes, Probability of initial ring closure in the restricted random-walk model of a macromolecule, J. Chem. Phys., 34 (1961), 1531-1537.
+%D A001413 B. D. Hughes, Random Walks and Random Environments, Oxford 1995, vol. 1, p. 462.
+%D A001413 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001413 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001413 M. F. Sykes et al., The number of self-avoiding walks on a lattice, J. Phys. A 5 (1972), 661-666.
+%K A001413 nonn
+%O A001413 1,2
+%A A001413 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

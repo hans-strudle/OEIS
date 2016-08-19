@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023262
+Showing 1-1 of 1
+
+%I A023262
+%S A023262 13,43,103,139,199,349,397,577,727,733,829,967,1039,1303,1567,1597,
+%T A023262 1753,2131,2161,2311,2707,2719,2857,3109,3319,3613,3673,3697,3853,
+%U A023262 4051,4129,4201,4297,4441,4507,4513,4639,4663,4789,5503,5701,5743,5857,5953,6121
+%N A023262 Numbers n such that n remains prime through 2 iterations of function f(x) = 8x + 5.
+%C A023262 n, 8*n+5 and 64*n+45 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023262 (MAGMA) [n: n in [1..100000] | IsPrime(n) and IsPrime(8*n+5) and IsPrime(64*n+45)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023262 nonn
+%O A023262 1,1
+%A A023262 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

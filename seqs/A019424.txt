@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019424
+Showing 1-1 of 1
+
+%I A019424
+%S A019424 1,2667,3937,17490,19410,22578,24610,24910,25466,25910,26554,26818,
+%T A019424 27285,29342,29733,29762,31102,31535,32043,32997,33985,35585,36635,
+%U A019424 37985,39697,41393,41837,42347,44047,45637,45739,45937,46117,172011,253921,640737
+%N A019424 Numbers n such that sum of divisors of n is a sixth power.
+%H A019424 Donovan Johnson, <a href="/A019424/b019424.txt">Table of n, a(n) for n = 1..1000</a>
+%o A019424 (PARI) c=0; for(n=1, 306455560, if(ispower(sigma(n), 6), c++; write("b019424.txt", c " " n))) /* _Donovan Johnson_, Jun 13 2013 */
+%K A019424 nonn
+%O A019424 1,2
+%A A019424 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

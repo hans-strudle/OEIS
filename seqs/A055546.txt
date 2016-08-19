@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055546
+Showing 1-1 of 1
+
+%I A055546
+%S A055546 1,2,16,288,9216,460800,33177600,3251404800,416179814400,
+%T A055546 67421129932800,13484225986560000,3263182688747520000,
+%U A055546 939796614359285760000,317651255653438586880000
+%V A055546 -1,2,-16,288,-9216,460800,-33177600,3251404800,-416179814400,
+%W A055546 67421129932800,-13484225986560000,3263182688747520000,
+%X A055546 -939796614359285760000,317651255653438586880000
+%N A055546 (-1)^(n+1)*2^n*n!^2.
+%C A055546 Coefficient of the Cayley-Menger determinant of order n.
+%C A055546 A roller coaster has n rows of seats, each of which has room for two people.  |a(n)| is the number of ways n men and n women can be seated with a man and a woman in each row.  -Geoffrey Critzer, Dec 17 2011.
+%C A055546 The o.g.f. of 1/a(n) is -BesselI(0,i*sqrt(2*x)), with i the imaginary unit. See Abramowitz-Stegun (reference and link under A008277), p. 375, 9.6.10. [From _Wolfdieter Lang_, Jan 10 2012]
+%D A055546 Usman A. Khan, Soummya Kar and Jose M. F. Moura, A novel geometric approach towards a linear theory for sensor localization, http://www.eecs.tufts.edu/~khan/Courses/Spring2013/EE194/Lecs/LocalizationInWSNs_Khan.pdf, 2013.
+%D A055546 A. L. Mackay, On the regular heptagon, J. Math. Chemistry, vol. 21, 1997, 197-209.
+%H A055546 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Cayley-MengerDeterminant.html">Cayley-Menger Determinant.</a>
+%F A055546 E.g.f.: -arcsinh(x/sqrt(2))^2. - _Vladeta Jovovic_, Aug 30 2004
+%t A055546 Table[(-1)^(n+1)2^n n!^2, {n, 0, 20}]
+%K A055546 sign
+%O A055546 0,2
+%A A055546 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

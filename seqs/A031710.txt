@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031710
+Showing 1-1 of 1
+
+%I A031710
+%S A031710 257,1026,2307,4100,6405,9222,12551,16392,20745,25610,30987,36876,
+%T A031710 43277,50190,57615,65552,74001,82962,92435,102420,112917,123926,
+%U A031710 135447,147480,160025,173082,186651,200732,215325,230430,246047,262176,278817,295970
+%N A031710 Least term in period of continued fraction for sqrt(n) is 32.
+%Y A031710 Cf. A076338.
+%K A031710 nonn,easy
+%O A031710 1,1
+%A A031710 _David W. Wilson_
+%E A031710 Edited by _Charles R Greathouse IV_, Aug 09 2010
+%E A031710 Incorrect formula and comment removed by Vincenzo Librandi, Jan 09 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

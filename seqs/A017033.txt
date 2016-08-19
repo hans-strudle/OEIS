@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017033
+Showing 1-1 of 1
+
+%I A017033
+%S A017033 1024,161051,1889568,9765625,33554432,90224199,205962976,418195493,
+%T A017033 777600000,1350125107,2219006624,3486784401,5277319168,7737809375,
+%U A017033 11040808032,15386239549,21003416576,28153056843
+%N A017033 (7*n+4)^5.
+%H A017033 Vincenzo Librandi, <a href="/A017033/b017033.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017033 (MAGMA) [(7*n+4)^5: n in [0..40] ]; // Vincenzo Librandi, Jul 16 2011
+%K A017033 nonn,easy
+%O A017033 0,1
+%A A017033 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

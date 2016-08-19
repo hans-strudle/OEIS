@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057106
+Showing 1-1 of 1
+
+%I A057106
+%S A057106 1,2,52,6331,6431,7341,7863,426115,453486,1054067,1054167,1472746,
+%T A057106 2017631,42687015,1050553507,13175129925,335038979077,1400295262095,
+%U A057106 5847307263801,51722791547842,78849864240621,105802560494387
+%N A057106 Numbers n such that n(3n-2) is an octagonal palindrome.
+%H A057106 P. De Geest, <a href="http://www.worldofnumbers.com/octa.htm">Palindromic Octagonals</a>
+%Y A057106 Cf. A057107, A000567.
+%K A057106 nonn,base
+%O A057106 1,2
+%A A057106 _Patrick De Geest_, Aug 15 2000.
+%E A057106 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Apr 17 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

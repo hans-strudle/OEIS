@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049243
+Showing 1-1 of 1
+
+%I A049243
+%S A049243 0,2,1,0,4,4,1,4,0,4,1,4,3,2,1,0,4,4,1,4,4,4,1,4,0,4,1,4,4,4,1,4,3,2,
+%T A049243 1,0,4,4,4,4,4,4,1,4,4,2,1,4,0,4,1,4,4,4,4,4,4,4,1,4,3,2,1,0,4,4,1,4,
+%U A049243 3,4,1,4,3,4,1,4,4,4,1,4,0,4,1,4,4,4,1,4,4,4,1,4,4,2,4,4,3,2,1,0,4,4,1,4,4
+%N A049243 Smallest nonnegative value taken on by 4x^2 - ny^2 for an infinite number of integer pairs (x, y).
+%K A049243 nonn
+%O A049243 1,2
+%A A049243 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

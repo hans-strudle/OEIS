@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057943
+Showing 1-1 of 1
+
+%I A057943
+%S A057943 2,51,60,75,96,200,207,279,288,348,402,432,464,492,500,531,555,590,
+%T A057943 646,652,662,675,695,732,750,790,843,855,860,888,894,920,927,983,984,
+%U A057943 1074,1102,1139,1140,1150,1152,1163,1164,1203,1215,1230,1251,1278,1283,1336
+%N A057943 The smallest palindromic pseudoprime to base n is '101101'.
+%H A057943 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=CarmichaelNumber">Carmichael number</a>
+%H A057943 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=Pseudoprime">Pseudoprimes</a>
+%H A057943 C. Rivera, <a href="http://www.primepuzzles.net/problems/prob_024.htm">Carmichael Numbers</a>
+%H A057943 <a href="/index/Ps#pseudoprimes">Index entries for sequences related to pseudoprimes</a>
+%Y A057943 Cf. A002997, A001567.
+%K A057943 nonn,base
+%O A057943 1,1
+%A A057943 _Patrick De Geest_, Oct 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028061
+Showing 1-1 of 1
+
+%I A028061
+%S A028061 1,25,404,5390,64791,731595,7939714,83955520,872430581,8959286765,
+%T A028061 91262059824,924426748050,9327520083571,93861018423535,
+%U A028061 942726158964734,9456149685174980,94764094925599761,949061042927869905
+%N A028061 Expansion of 1/((1-3x)(1-5x)(1-7x)(1-10x)).
+%F A028061 a(n)=(8*10^(n+3)-5*7^(n+4)+42*5^(n+3)-5*3^(n+4))/840. [_Yahia Kahloune_, Jun 08 2013]
+%K A028061 nonn
+%O A028061 0,2
+%A A028061 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

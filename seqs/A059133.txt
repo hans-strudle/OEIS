@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059133
+Showing 1-1 of 1
+
+%I A059133
+%S A059133 4,18,52,126,280,594,1228,2502,5056,10170,20404,40878,81832,163746,
+%T A059133 327580
+%N A059133 A hierarchical sequence (S(W2{2}c) - see A059126).
+%H A059133 J. Wallgren, <a href="/A059126/a059126.txt">Hierarchical sequences</a>
+%F A059133 Conjectures from _Colin Barker_, Oct 07 2015: (Start)
+%F A059133 a(n) = 4*(-4+5*2^n)-6*n.
+%F A059133 a(n) = 4*a(n-1)-5*a(n-2)+2*a(n-3) for n>2.
+%F A059133 G.f.: -2*(x+2) / ((x-1)^2*(2*x-1)).
+%F A059133 (End)
+%K A059133 easy,nonn,more
+%O A059133 0,1
+%A A059133 _Jonas Wallgren_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

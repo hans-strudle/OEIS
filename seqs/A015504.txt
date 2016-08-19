@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015504
+Showing 1-1 of 1
+
+%I A015504
+%S A015504 1,1,0,0,0,1,1,0,0,0,1,1,0,1,1,1,1,0,1,1,1,1,0,2,2,1,0,1,2,
+%T A015504 2,1,0,1,2,2,1,1,2,2,1,0,1,2,2,1,0,2,3,2,0,1,2,2,1,0,1,2,
+%U A015504 2,1,1,2,2,1,0,1,2,2,1,0,2,3,2,0,1,2,2,1,0,1,2,2
+%V A015504 1,-1,0,0,0,1,-1,0,0,0,1,-1,0,1,-1,1,-1,0,1,-1,1,-1,0,2,-2,1,0,-1,2,
+%W A015504 -2,1,0,-1,2,-2,1,1,-2,2,-1,0,1,-2,2,-1,0,2,-3,2,0,-1,2,-2,1,0,-1,2,
+%X A015504 -2,1,1,-2,2,-1,0,1,-2,2,-1,0,2,-3,2,0,-1,2,-2,1,0,-1,2,-2
+%N A015504 Inverse of 1495th cyclotomic polynomial.
+%p A015504 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015504 sign
+%O A015504 0,24
+%A A015504 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

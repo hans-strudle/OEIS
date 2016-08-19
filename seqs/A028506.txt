@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028506
+Showing 1-1 of 1
+
+%I A028506
+%S A028506 1,2,4,10,24,68
+%N A028506 Number of non-descending integral vectors b of length n such that number of symmetric 0-1-matrices A of order n with row sums <= b is odd.
+%K A028506 nonn
+%O A028506 1,2
+%A A028506 TORSTEN.SILLKE(AT)LHSYSTEMS.COM
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

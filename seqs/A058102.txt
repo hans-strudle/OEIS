@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058102
+Showing 1-1 of 1
+
+%I A058102
+%S A058102 1,8,35,100,260,548,1191,2340,4525,8320,14838,25828,44070
+%N A058102 McKay-Thompson series of class 10a for Monster.
+%D A058102 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058102 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058102 T10a = 1/q + 8*q + 35*q^3 + 100*q^5 + 260*q^7 + 548*q^9 + 1191*q^11 + ...
+%Y A058102 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058102 nonn
+%O A058102 -1,2
+%A A058102 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

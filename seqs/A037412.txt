@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037412
+Showing 1-1 of 1
+
+%I A037412
+%S A037412 1,49,50,56,343,344,350,351,392,393,399,2401,2402,2408,2409,2450,2451,
+%T A037412 2457,2458,2744,2745,2751,2752,2793,2794,2800,16807,16808,16814,16815,
+%U A037412 16856,16857,16863,16864,17150,17151,17157,17158
+%N A037412 n-th number k such that the set of base 2 digits of k equals the set of base 7 digits of k.
+%Y A037412 Subset of A033044.
+%K A037412 nonn,base
+%O A037412 1,2
+%A A037412 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

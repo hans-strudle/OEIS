@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018737
+Showing 1-1 of 1
+
+%I A018737
+%S A018737 1,2,11,22,43,86,473,946
+%N A018737 Divisors of 946.
+%H A018737 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
+%o A018737 (Sage) divisors(946);# [From _Zerinvary Lajos_, Jun 30 2009]
+%o A018737 (PARI) divisors(946)
+%K A018737 nonn,fini,full,easy
+%O A018737 1,2
+%A A018737 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029590
+Showing 1-1 of 1
+
+%I A029590
+%S A029590 6,561,1595,35,1705,77,13481,187,143,209,4807,221,14807,493,20723,323,
+%T A029590 7429,437,36593,943,713,989,1147,1073,899,1537,1271,899,1333,1517,
+%U A029590 104355281,1591,1517,2993,1591,1517,621193,3397,1763,1763,2623,2021
+%N A029590 Least quasi-Carmichael number of order n.
+%H A029590 Donovan Johnson, <a href="/A029590/b029590.txt">Table of n, a(n) for n = 0..500</a>
+%H A029590 <a href="/index/Ca#Carmichael">Index entries for sequences related to Carmichael numbers.</a>
+%F A029590 a(n) composite and squarefree, prime p | a(n) ==> (p > n and p-n | a(n)-n)
+%K A029590 nonn
+%O A029590 0,1
+%A A029590 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

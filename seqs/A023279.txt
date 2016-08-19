@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023279
+Showing 1-1 of 1
+
+%I A023279
+%S A023279 11,31,211,1151,3181,5051,5261,6101,6661,9391,9551,10501,11701,13171,
+%T A023279 15901,16481,19531,22051,24181,26261,27031,28351,28591,28661,29411,
+%U A023279 30941,31321,32621,38011,40471,42101,48371,49921,57571,59791,61981,66161,67271
+%N A023279 Numbers n such that n remains prime through 3 iterations of function f(x) = 3x + 8.
+%C A023279 n, 3*n+8, 9*n+32 and 27*n+104 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023279 (MAGMA) [n: n in [1..150000] | IsPrime(n) and IsPrime(3*n+8) and IsPrime(9*n+32) and IsPrime(27*n+104)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023279 nonn
+%O A023279 1,1
+%A A023279 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

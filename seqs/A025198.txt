@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025198
+Showing 1-1 of 1
+
+%I A025198
+%S A025198 1,2,5,13,35,97,285,877,2834,9564,33627,122806,464672,1817558,7334633,
+%T A025198 30482068,130254933,571484558,2571058274,11846898738,55849086530,
+%U A025198 269103228643,1324099867934,6647523717749,34025304081591,177434116933088
+%N A025198 [ (n-1)st elementary symmetric function of {sqrt(k)} ], k = 1,2,...,n.
+%K A025198 nonn
+%O A025198 1,2
+%A A025198 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

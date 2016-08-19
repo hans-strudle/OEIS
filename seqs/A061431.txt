@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061431
+Showing 1-1 of 1
+
+%I A061431
+%S A061431 1,6,60,2520,60060,1627920,124324200,1694579040,446626220040,
+%T A061431 73706596563600,177223661334720,171986625946535400,3290057629552053360
+%N A061431 a(n) = LCM of the n consecutive numbers n(n-1)/2 + 1 ... n(n+1)/2.
+%e A061431 a(1) = 1, a(2) = LCM(2,3) = 6, a(3) = LCM(4,5,6) = 60, etc.
+%K A061431 nonn,easy
+%O A061431 1,2
+%A A061431 _Amarnath Murthy_, May 03 2001
+%E A061431 More terms from _John W. Layman_, Oct 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

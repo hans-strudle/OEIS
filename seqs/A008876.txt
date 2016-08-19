@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008876
+Showing 1-1 of 1
+
+%I A008876
+%S A008876 81,244,122,61,184,92,46,23,70,35,106,53,160,80,40,20,10,5,16,8,4,2,1,
+%T A008876 4,2,1,4,2,1,4,2,1,4,2,1,4,2,1,4,2,1,4,2,1,4,2,1,4,2,1,4,2,1,4,2,1,4,
+%U A008876 2,1,4,2,1,4,2,1,4,2,1,4,2,1
+%N A008876 3x+1 sequence starting at 81.
+%D A008876 Darrell Cox, The 3n + 1 Problem: A Probabilistic Approach, Journal of Integer Sequences, Vol. 15 (2012), #12.5.2.
+%D A008876 R. K. Guy, Unsolved Problems in Number Theory, E16.
+%H A008876 Vincenzo Librandi, <a href="/A008876/b008876.txt">Table of n, a(n) for n = 0..200</a>
+%H A008876 <a href="/index/3#3x1">Index entries for sequences related to 3x+1 (or Collatz) problem</a>
+%H A008876 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 1).
+%p A008876 f := proc(n) option remember; if n = 0 then 81; elif f(n-1) mod 2 = 0 then f(n-1)/2 else 3*f(n-1)+1; fi; end;
+%t A008876 NestList[If[EvenQ[#], #/2, 3# + 1]&, 81, 100] (* _Vincenzo Librandi_, Jul 29 2014 *)
+%o A008876 (Haskell)
+%o A008876 a008876 n = a008876_list !! n
+%o A008876 a008876_list = 81 : iterate a006370 81
+%o A008876 -- _Reinhard Zumkeller_, Aug 30 2012
+%o A008876 (MAGMA) [n eq 1 select 81 else IsOdd(Self(n-1)) select 3*Self(n-1)+1 else Self(n-1) div 2: n in [1..70]]; // _Vincenzo Librandi_, Jul 29 2014
+%Y A008876 Cf. A006370.
+%K A008876 nonn
+%O A008876 0,1
+%A A008876 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

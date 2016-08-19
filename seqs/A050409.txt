@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050409
+Showing 1-1 of 1
+
+%I A050409
+%S A050409 0,5,29,86,190,355,595,924,1356,1905,2585,3410,4394,5551,6895,8440,
+%T A050409 10200,12189,14421,16910,19670,22715,26059,29716,33700,38025,42705,
+%U A050409 47754,53186,59015,65255,71920,79024,86581,94605,103110,112110,121619
+%N A050409 Truncated square pyramid numbers: a(n)=sum(k^2,k=n..2*n).
+%H A050409 Vincenzo Librandi, <a href="/A050409/b050409.txt">Table of n, a(n) for n = 0..1000</a>
+%H A050409 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550, 2013. - From N. J. A. Sloane, Feb 13 2013
+%H A050409 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A050409 a(n)=n*(n+1)*(14*n+1)/6
+%F A050409 a(n) = A132121(n,4) for n>3. - _Reinhard Zumkeller_, Aug 12 2007
+%F A050409 G.f.: x*(5+9*x)/(1-x)^4.  a(n) = A129371(2*n).  - Bruno Berselli, Feb 11 2011
+%F A050409 a(n) = 4*a(n-1) -6*a(n-2) +4*a(n-3) -a(n-4). _Vincenzo Librandi_, Jun 22 2012
+%p A050409 seq(add((n+k)^2,k=0..n),n=0..37); - _Zerinvary Lajos_, Dec 01 2006
+%t A050409 LinearRecurrence[{4,-6,4,-1},{0,5,29,86},40] (* _Vincenzo Librandi_, Jun 22 2012
+%o A050409 (MAGMA) [&+[k^2: k in [n..2*n]]: n in [0..37]];  // Bruno Berselli, Feb 11 2011
+%o A050409 (PARI) a(n)=sum(k=n,n+n,k^2)
+%o A050409 (MAGMA) I:=[0, 5, 29, 86]; [n le 4 select I[n] else 4*Self(n-1)-6*Self(n-2)+4*Self(n-3)-Self(n-4): n in [1..50]]; // _Vincenzo Librandi_, Jun 22 2012
+%Y A050409 Cf. A000330, A033994, A132124, A132112.
+%Y A050409 Cf. A225144. [_Bruno Berselli_, Jun 06 2013]
+%K A050409 easy,nice,nonn
+%O A050409 0,2
+%A A050409 Klaus Strassburger (strass(AT)ddfi.uni-duesseldorf.de), Dec 22 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

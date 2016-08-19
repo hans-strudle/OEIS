@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049794
+Showing 1-1 of 1
+
+%I A049794
+%S A049794 1,2,3,6,11,16,25,31,44,53,66,79,97,108,130,148,168,187,214,233,265,
+%T A049794 286,315,344,381,402,442,474,511,545,590,619,670,705,751,797,848,880,
+%U A049794 940,988,1041,1087,1150,1192,1263,1311,1370,1431
+%N A049794 a(n)=T(n,n-2), array T as in A049790.
+%K A049794 nonn
+%O A049794 3,2
+%A A049794 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

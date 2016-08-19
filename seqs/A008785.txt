@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008785
+Showing 1-1 of 1
+
+%I A008785
+%S A008785 1,5,36,343,4096,59049,1000000,19487171,429981696,10604499373,
+%T A008785 289254654976,8649755859375,281474976710656,9904578032905937,
+%U A008785 374813367582081024,15181127029874798299,655360000000000000000
+%N A008785 (n+4)^n.
+%H A008785 Vincenzo Librandi, <a href="/A008785/b008785.txt">Table of n, a(n) for n = 0..1000</a>
+%F A008785 E.g.f.(x) for b(n)=n^(n-4)=a(n-4): T-(7/8)T^2+(11/36)T^3-(1/24)T^4, where T=T(x) is Euler's tree function (see A000169). - _Len Smiley_, Nov 17 2001
+%F A008785 E.g.f.: LambertW(-x)^4/(1+LambertW(-x))/x^4. - _Vladeta Jovovic_, Nov 07 2003
+%p A008785 seq(mul(n, k=5..n), n=4..20); # _Zerinvary Lajos_, Feb 15 2008
+%p A008785 a:=n->mul(denom (1/(n+5)), k=0..n): seq(a(n), n=-1..15); # _Zerinvary Lajos_, Apr 26 2008
+%p A008785 with(finance):seq(futurevalue(1,n+3,n), n=0..16); # _Zerinvary Lajos_, Mar 25 2009
+%t A008785 Table[(n+4)^n,{n,0,40}] (* _Vladimir Joseph Stephan Orlovsky_, Dec 26 2010 *)
+%o A008785 (MAGMA) [(n+4)^n: n in [0..20]]; // _Vincenzo Librandi_, Jun 11 2013
+%Y A008785 Cf. A000169, A000272, A000312, A007778, A007830, A008786-A008791.
+%K A008785 nonn,easy
+%O A008785 0,2
+%A A008785 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

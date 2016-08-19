@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028350
+Showing 1-1 of 1
+
+%I A028350
+%S A028350 1,6,210,12012,831402,63740820,5209363380,444799488600,
+%T A028350 39209074920090,3541117629057540,325969196485349340,
+%U A028350 30471769822097981160,2884881686418189303300,276043232874562618320072
+%V A028350 -1,6,210,12012,831402,63740820,5209363380,444799488600,
+%W A028350 39209074920090,3541117629057540,325969196485349340,
+%X A028350 30471769822097981160,2884881686418189303300,276043232874562618320072
+%N A028350 Expansion of -1/x + 6*3F2( 5/6, 1, 7/6; 3/2, 2; 108*x).
+%p A028350 a := proc(n) option remember; if n = -1 then -1 else 6*(6*n - 1)*(6*n + 1)*a(n - 1)/((n + 1)*(2*n + 1)) fi; end;
+%t A028350 nxt[{n_,a_}]:={n+1,(6*a*(5+6*n)*(7+6*n))/((2+n)*(3+2*n))}; Join[ {-1}, Transpose[NestList[nxt,{0,6},15]][[2]]] (* _Harvey P. Dale_, May 10 2013 *)
+%K A028350 sign
+%O A028350 -1,2
+%A A028350 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002840
+Showing 1-1 of 1
+
+%I A002840 M0339 N0129
+%S A002840 1,0,1,2,2,4,12,22,58,158,448,1342,4199,13384,43708,144810,485704,
+%T A002840 1645576,5623571,19358410,67078828,233800162,819267086,2884908430
+%N A002840 Number of polyhedral graphs with n edges.
+%C A002840 The subsequence of primes begins a(9) = a(10) = 2, a(24) = 5623571, no more through a(29). - _Jonathan Vos Post_, Feb 05 2011
+%D A002840 M. B. Dillencourt, Polyhedra of small orders and their Hamiltonian properties. Tech. Rep. 92-91, Info. and Comp. Sci. Dept., Univ. Calif. Irvine, 1992.
+%D A002840 Duijvestijn, A. J. W.; Federico, P. J.; The number of polyhedral (3-connected planar) graphs. Math. Comp. 37 (1981), no. 156, 523-532.
+%D A002840 P. J. Federico, Enumeration of polyhedra: the number of 9-hedra, J. Combin. Theory, 7 (1969), 155-161.
+%D A002840 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002840 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002840 T. R. S. Walsh, personal communication.
+%H A002840 G. P. Michon, <a href="http://www.numericana.com/data/polyhedra.htm">Counting Polyhedra</a>
+%H A002840 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PolyhedralGraph.html">Polyhedral Graph</a>
+%Y A002840 Cf. A002841, A000944.
+%K A002840 nonn,nice
+%O A002840 6,4
+%A A002840 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

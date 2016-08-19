@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004315
+Showing 1-1 of 1
+
+%I A004315
+%S A004315 1,20,231,2024,14950,98280,593775,3365856,18156204,94143280,472733756,
+%T A004315 2311801440,11058116888,51915526432,239877544005,1093260079344,
+%U A004315 4923689695575,21945588357420,96926348578605
+%N A004315 Binomial coefficient C(2n,n-9).
+%D A004315 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004315 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A004315 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A004315 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550, 2013. - From N. J. A. Sloane, Feb 13 2013
+%F A004315 -(n-9)*(n+9)*a(n) +2*n*(2*n-1)*a(n-1)=0. - _R. J. Mathar_, Dec 10 2013
+%o A004315 (MAGMA) [ Binomial(2*n,n-9): n in [9..150] ]; // Vincenzo Librandi, Apr 13 2011
+%K A004315 nonn,easy
+%O A004315 9,2
+%A A004315 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003966
+Showing 1-1 of 1
+
+%I A003966
+%S A003966 1,0,1,0,3,0,5,0,2,0,9,0,11,0,3,0,15,0,17,0,5,0,21,0,12,0,4,0,27,0,29,
+%T A003966 0,9,0,15,0,35,0,11,0,39,0,41,0,6,0,45,0,30,0,15,0,51,0,27,0,17,0,57,
+%U A003966 0,59,0,10,0,33
+%N A003966 Möbius transform of A003958.
+%F A003966 Multiplicative with a(p^e) = (p-2)(p-1)^(e-1). - _David W. Wilson_, Sep 01 2001
+%p A003966 A003966 := proc(n) option remember; local pf,p ; if n = 1 then 1; else pf := ifactors(n)[2] ; if nops(pf) = 1 then p := op(1,pf) ; (op(1,p)-2)*(op(1,p)-1)^(op(2,p)-1)  ; else mul(procname(op(1,p)^op(2,p)),p=pf) ; end if; end if; end proc:
+%p A003966 seq(A003966(n),n=1..100) ; # _R. J. Mathar_, Jan 07 2011
+%o A003966 (PARI) a(n) = {my(f=factor(n)); for (i=1, #f~, p = f[i, 1]; f[i, 1] = (p-2)*(p-1)^(f[i,2]-1); f[i, 2] = 1); factorback(f);} \\ _Michel Marcus_, Feb 27 2015
+%K A003966 nonn,mult
+%O A003966 1,5
+%A A003966 _Marc LeBrun_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024433
+Showing 1-1 of 1
+
+%I A024433
+%S A024433 2,1,10,25,49,651,819,8420,67243,55748,1812811,14107093,11951940,
+%T A024433 546956046,5292109758,8426418390,216826368641,3159650017954,
+%U A024433 9238538881880,99564223542300
+%N A024433 a(n) = difference between greatest two Stirling numbers S(n,k) of second kind, for k = 1,2,...,n.
+%K A024433 nonn
+%O A024433 3,1
+%A A024433 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

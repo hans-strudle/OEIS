@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053113
+Showing 1-1 of 1
+
+%I A053113
+%S A053113 1,55,2200,71500,2002000,50050000,1144000000,24310000000,486200000000,
+%T A053113 9237800000000,167960000000000,2939300000000000,49742000000000000,
+%U A053113 817190000000000000,13075040000000000000,204297500000000000000
+%N A053113 Expansion of (-1+1/(1-10*x)^10)/(100*x); related to A053109.
+%C A053113 This is the tenth member of the k-family of sequences a(k,n) := k^(n-1)*binomial(n+k,k-1) starting with A000012 (powers of 1), A001792, A036068, A036070, A036083, A036224, A053110-113 for k=1..10.
+%H A053113 W. Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), #00.2.4.
+%F A053113 a(n) = 10^(n-1)*binomial(n+10, 9); G.f. (-1+(1-10*x)^(-10))/(x*10^2).
+%K A053113 easy,nonn
+%O A053113 0,2
+%A A053113 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

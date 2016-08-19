@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017489
+Showing 1-1 of 1
+
+%I A017489
+%S A017489 32768,2476099,24300000,115856201,380204032,992436543,2219006624,
+%T A017489 4437053125,8153726976,14025517307,22877577568,35723051649,
+%U A017489 53782400000,78502725751,111577100832,154963892093,210906087424
+%N A017489 (11*n+8)^5.
+%H A017489 Vincenzo Librandi, <a href="/A017489/b017489.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017489 (MAGMA) [(11*n+8)^5: n in [0..30]]; // Vincenzo Librandi, Sep 04 2011
+%K A017489 nonn,easy
+%O A017489 0,1
+%A A017489 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

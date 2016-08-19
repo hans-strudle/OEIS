@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051649
+Showing 1-1 of 1
+
+%I A051649
+%S A051649 4621,11551,25411,43891,108571,164011,168631,224071,251791,261031,
+%T A051649 316471,321091,348811,376531,385771,459691,528991,552091,607531,
+%U A051649 626011,718411,723031,732271,764611,801571,815431,875491,995611,1000231
+%N A051649 Primes of form 2310p+1 where p is a prime.
+%C A051649 Generalization of A005385; can be called 2310-safe primes;
+%F A051649 A002110[5]*p+1=2310p+1 primes
+%e A051649 11551 is here because 11551=2310p+1, where p=5
+%Y A051649 A005384, A005385, A007693, A002110.
+%K A051649 nonn
+%O A051649 1,1
+%A A051649 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

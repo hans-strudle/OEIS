@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050172
+Showing 1-1 of 1
+
+%I A050172
+%S A050172 1,2,3,5,6,8,9,11,13,14,16,18,21,22,24,25,27,30,31,33,34,36,39,40,42,
+%T A050172 45,46,48,49,51,54,55,57,59,62,63,65,68,71,72,74,75,77,79,82,83,85,86,
+%U A050172 88,91,92,94,96,99,101,104,106,107,109,110
+%N A050172 a(n) = n-th number k such that b(k)<b(k+1), where b=A050170.
+%C A050172 Complement of A050173.
+%K A050172 nonn
+%O A050172 1,2
+%A A050172 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

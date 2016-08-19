@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052503
+Showing 1-1 of 1
+
+%I A052503
+%S A052503 1,1,9,105,2625,76545,3440745,176080905,12034447425,922995698625,
+%T A052503 87505195602825,9203114782686825,1141501848477415425,
+%U A052503 155540530213013570625,24232951756530007115625,4112826185329479728735625,781060320618828163499210625
+%N A052503 Number of permutations sigma of [2n] without fixed points such that sigma^4 = Id.
+%H A052503 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=28">Encyclopedia of Combinatorial Structures 28</a>
+%F A052503 a(n) = (2n)! * [x^(2n)] exp(1/2*x^2+1/4*x^4).
+%F A052503 Recurrence: {a(1)=0, a(0)=1, a(2)=1, a(3)=0, (-11*n-6-n^3-6*n^2)*a(n)+(-n-3)*a(n+2)+a(n+4)}
+%F A052503 a(n) = 2^n*GAMMA(n+1/2)*A047974(n)/Pi^(1/2). - _Mark van Hoeij_, Oct 30 2011.
+%p A052503 spec := [S,{S=Set(Union(Cycle(Z,card=2),Cycle(Z,card=4)))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%Y A052503 Cf. A001472, A261317, A261381.
+%Y A052503 Bisection of column k=4 of A261430.
+%K A052503 easy,nonn
+%O A052503 0,3
+%A A052503 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

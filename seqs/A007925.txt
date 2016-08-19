@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007925
+Showing 1-1 of 1
+
+%I A007925
+%S A007925 1,1,1,17,399,7849,162287,3667649,91171007,2486784401,74062575399,
+%T A007925 2395420006033,83695120256591,3143661612445145,126375169532421599,
+%U A007925 5415486851106043649,246486713303685957375,11877172892329028459041
+%V A007925 -1,-1,-1,17,399,7849,162287,3667649,91171007,2486784401,74062575399,
+%W A007925 2395420006033,83695120256591,3143661612445145,126375169532421599,
+%X A007925 5415486851106043649,246486713303685957375,11877172892329028459041
+%N A007925 n^(n+1) - (n+1)^n.
+%D A007925 G. Everest, A. van der Poorten, I. Shparlinski and T. Ward, Recurrence Sequences, Amer. Math. Soc., 2003; see esp. p. 255.
+%H A007925 T. D. Noe, <a href="/A007925/b007925.txt">Table of n, a(n) for n=0..100</a>
+%H A007925 Sergio Silva, <a href="http://ginasiomental.no.sapo.pt/materialc/mteste/teste.htm">Teste Numerico</a>, Item 3.
+%H A007925 H. J. Smith, <a href="http://harry-j-smith-memorial.com/Display/xyyx.html">Contour Plot of z = x^y - y^x</a>
+%F A007925 Asymptotic expression for a(n) is a(n) ~ n^n * (n - e). - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 19 2001
+%e A007925 a(2) = 1^2 - 2^1 = -1, a(4) = 3^4 - 4^3 = 17.
+%t A007925 lst={};Do[AppendTo[lst, (n^(n+1)-((n+1)^n))], {n, 0, 4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Sep 19 2008 *)
+%t A007925 #^(#+1)-(#+1)^#&/@Range[0,20] (* _Harvey P. Dale_, Oct 22 2011 *)
+%o A007925 (Maxima) A007925[n]:=n^(n+1)-(n+1)^n$ makelist(A007925[n],n,0,30); /* _Martin Ettl_, Oct 29 2012 */
+%Y A007925 Cf. A051442.
+%K A007925 sign,easy,nice
+%O A007925 0,4
+%A A007925 Dennis S. Kluk (mathemagician(AT)ameritech.net)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

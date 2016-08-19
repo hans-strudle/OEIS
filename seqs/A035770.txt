@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035770
+Showing 1-1 of 1
+
+%I A035770
+%S A035770 1,2178,792066,115852418,9160333314,456334097538,15745443972610,
+%T A035770 401492555264130,7932626513059842,125920628852842626,
+%U A035770 1652497769389663746,18348947281180593282,175716931633807644674,1474714295561130964098
+%N A035770 Coordination sequence for C_33 lattice.
+%D A035770 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A035770 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035770 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A035770 ((1+x)/(1-x))^33 if norm is even; otherwise 0.
+%K A035770 nonn,easy
+%O A035770 0,2
+%A A035770 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035770 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

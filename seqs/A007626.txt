@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007626
+Showing 1-1 of 1
+
+%I A007626
+%S A007626 1,3,7,12,28,60,91,124,168,360,546,744,1170,2418,2880,4368,5952,9360,
+%T A007626 19344,39312,59520,99944,112320,232128,471744,714240,1199328,1451520,
+%U A007626 2437344,2926080,3249792,6604416,9999360
+%N A007626 Sum of divisors of superabundant numbers (A004394).
+%C A007626 Local maxima of sigma(n), the sum of divisors function A000203.
+%C A007626 Same as A063072 for the first 19 terms. - T. D. Noe, Jul 01 2008
+%H A007626 T. D. Noe, <a href="/A007626/b007626.txt">Table of n, a(n) for n=1..500</a>
+%t A007626 Reap[ For[ n=1; a=0, n <= 3*10^6, n++, s = DivisorSigma[1, n]; b = s/n; If[ b>a, a=b; Print[s]; Sow[s]]]][[2, 1]] (* _Jean-François Alcover_, Apr 02 2013 *)
+%Y A007626 Cf. A002192, A000203, A051444, A004394.
+%Y A007626 See A034885 and A002093 for another version.
+%K A007626 nonn,easy,nice
+%O A007626 1,2
+%A A007626 _Walter Nissen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058707
+Showing 1-1 of 1
+
+%I A058707
+%S A058707 1,2,0,2,1,4,3,6,5,10,8,14,13
+%N A058707 McKay-Thompson series of class 52a for Monster.
+%D A058707 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058707 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058707 T52a = 1/q + 2*q + 2*q^5 + q^7 + 4*q^9 + 3*q^11 + 6*q^13 + 5*q^15 + 10*q^17 + ...
+%Y A058707 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058707 nonn
+%O A058707 -1,2
+%A A058707 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

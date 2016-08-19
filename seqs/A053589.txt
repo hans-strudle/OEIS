@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053589
+Showing 1-1 of 1
+
+%I A053589
+%S A053589 1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,30,1,2,1,2,
+%T A053589 1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,30,1,2,1,2,1,6,1,2,
+%U A053589 1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,30,1,2,1,2,1,6,1,2,1,2,1,6
+%N A053589 Greatest primorial number (A002110) which divides n.
+%e A053589 a(30)=30 because 30=2*3*5, a(15)=1 because 15=3*5
+%K A053589 nonn,easy
+%O A053589 1,2
+%A A053589 Frederick Magata (frederick.magata(AT)uni-muenster.de), Jan 19 2000
+%E A053589 More terms from Larry Reeves (larryr(AT)acm.org), Oct 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034340
+Showing 1-1 of 1
+
+%I A034340
+%S A034340 1,2,4,8,16,36,79,186,462,1222,3435,10397,33578,115624,419789,1585217,
+%T A034340 6130130,23928972,93161541,358570997,1356178991,5021267644,
+%U A034340 18160079508,64086748267,220608700157
+%N A034340 Number of binary [ n,6 ] codes of dimension <= 6 without zero columns.
+%D A034340 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034340 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034340 Cf. A034337-. A diagonal of A076832.
+%K A034340 nonn
+%O A034340 1,2
+%A A034340 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035727
+Showing 1-1 of 1
+
+%I A035727
+%S A035727 1,64,2048,43712,700416,8991552,96376832,887582144,7172939776,
+%T A035727 51697913408,336604997632,2000727369920,10951050137600,55605785375040,
+%U A035727 263584490403840,1172818839714752,4921911787962368,19564390413253696
+%N A035727 Coordination sequence for 32-dimensional cubic lattice.
+%D A035727 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035727 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035727 <a href="/index/Rec#order_32">Index entries for linear recurrences with constant coefficients</a>, signature (32, -496, 4960, -35960, 201376, -906192, 3365856, -10518300, 28048800, -64512240, 129024480, -225792840, 347373600, -471435600, 565722720, -601080390, 565722720, -471435600, 347373600, -225792840, 129024480, -64512240, 28048800, -10518300, 3365856, -906192, 201376, -35960, 4960, -496, 32, -1).
+%F A035727 G.f.: ((1+x)/(1-x))^32.
+%K A035727 nonn,easy
+%O A035727 0,2
+%A A035727 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035727 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

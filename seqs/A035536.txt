@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035536
+Showing 1-1 of 1
+
+%I A035536
+%S A035536 1,0,0,2,0,0,6,0,0,14,0,0,32,0,0,66,0,0,134,0,0,256,0,0,480,0,0,868,0,
+%T A035536 0,1540,0,0,2664,0,0,4536,0,0,7574,0,0,12474,0,0,20234,0,0,32428,0,0,
+%U A035536 51324,0,0,80388,0,0,124582,0,0,191310,0,0,291114,0,0,439394,0,0,657936,0,0
+%N A035536 Number of partitions of n with equal number of parts congruent to each of 1 and 2 (mod 3)
+%K A035536 nonn
+%O A035536 0,4
+%A A035536 _Olivier Gérard_
+%E A035536 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

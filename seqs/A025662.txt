@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025662
+Showing 1-1 of 1
+
+%I A025662
+%S A025662 0,1,0,2,1,0,3,2,1,0,4,3,2,1,0,5,4,3,2,1,6,0,5,4,3,2,7,1,6,0,5,4,3,8,
+%T A025662 2,7,1,6,0,5,4,9,3,8,2,7,1,6,0,5,10,4,9,3,8,2,7,1,6,11,0,5,10,4,9,3,8,
+%U A025662 2,7,12,1,6,11,0,5,10,4,9,3,8,13,2,7,12,1,6,11,0,5,10,4,9,14,3,8,13,2,7,12,1,6
+%N A025662 Exponent of 6 (value of i) in n-th number of form 6^i*9^j.
+%K A025662 nonn
+%O A025662 1,4
+%A A025662 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

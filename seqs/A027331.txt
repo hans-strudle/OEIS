@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027331
+Showing 1-1 of 1
+
+%I A027331
+%S A027331 5,36,293,2374,19398,159072,1310669,10844525,90088935,751173656,
+%T A027331 6284938344,52752138077,444072874534
+%N A027331 a(n) = Sum{T(n,k)*T(n,k+2)}, 0<=k<=m, where m=2 for n=2 and m=n+1 for n >= 3; T given by A026148.
+%K A027331 nonn
+%O A027331 2,1
+%A A027331 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

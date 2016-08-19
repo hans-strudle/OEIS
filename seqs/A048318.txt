@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048318
+Showing 1-1 of 1
+
+%I A048318
+%S A048318 0,1,2,3,4,5,6,8,16,24,32,40,48,56,57,58,59,60,61,62,112,113,114,115,
+%T A048318 116,117,118,168,169,170,171,172,173,174,224,225,226,227,228,229,230,
+%U A048318 280,281,282,283,284,285,286,336,337,338,339,340,341,342,399,400,401
+%N A048318 Reading base 7 expansion from left to right, run lengths strictly decrease.
+%Y A048318 Cf. A037013, A043696, A043710, A044818, A044956.
+%K A048318 nonn,base
+%O A048318 0,3
+%A A048318 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

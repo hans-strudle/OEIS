@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008691
+Showing 1-1 of 1
+
+%I A008691
+%S A008691 1,432,186192,16881984,397398096,4631467680,34415043264,187482701952,
+%T A008691 814916270160,2975502394224,9486501222240,27053176872384,
+%U A008691 70486076751552,169930845743904,384163759953792
+%N A008691 Theta series of Niemeier lattice of type A_17 E_7.
+%D A008691 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 407.
+%F A008691 This series is the q-expansion of 5/6 E_4(z)^3 + 1/6 E_6(z)^2. Cf. A004009, A013973. - Daniel D. Briggs, Nov 25 2011
+%Y A008691 Equal to the theta series for D_10*E_7^2, cf. A047804.
+%K A008691 nonn
+%O A008691 0,2
+%A A008691 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

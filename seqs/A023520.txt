@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023520
+Showing 1-1 of 1
+
+%I A023520
+%S A023520 0,1,1,2,1,2,1,2,1,1,1,2,1,2,1,1,1,1,2,1,1,2,1,3,2,1,2,1,2,1,2,1,1,1,
+%T A023520 1,1,1,2,1,1,1,1,1,2,1,2,2,2,1,2,1,1,1,1,1,1,1,1,2,1,1,1,2,1,2,1,1,1,
+%U A023520 1,2,1,3,1,1,2,1,6,2,3
+%N A023520 Exponent of 2 in prime factorization of p(n)*p(n-1) - 1.
+%F A023520 a(n) = A007814(A023515(n)). - _Michel Marcus_, Sep 30 2013
+%o A023520 (PARI) a(n) = valuation(prime(n)*prime(n-1) - 1, 2); \\ _Michel Marcus_, Sep 30 2013
+%K A023520 nonn
+%O A023520 2,4
+%A A023520 _Clark Kimberling_
+%E A023520 Offset set to 2 and a(2) corrected by _Michel Marcus_, Sep 30 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

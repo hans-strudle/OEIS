@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048094
+Showing 1-1 of 1
+
+%I A048094
+%S A048094 0,0,1,2,6,13,25,45,91,175,322,570,975,1617,2607,7425,12753,21385,
+%T A048094 35065,56302,88638,136986,208050,310840,1251606,1973706,3065931,
+%U A048094 4694921,7092211,10575635,15576535,22674015,32637675,46480475
+%N A048094 Number of nonempty subsets of {1,2,...,n} in which exactly 1/3 of the elements are <= sqrt(n).
+%K A048094 nonn
+%O A048094 1,4
+%A A048094 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

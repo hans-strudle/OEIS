@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038336
+Showing 1-1 of 1
+
+%I A038336
+%S A038336 1,12,10,144,240,100,1728,4320,3600,1000,20736,69120,86400,48000,
+%T A038336 10000,248832,1036800,1728000,1440000,600000,100000,2985984,14929920,
+%U A038336 31104000,34560000,21600000,7200000,1000000,35831808,209018880
+%N A038336 Triangle whose (i,j)-th entry is binomial(i,j)*12^(i-j)*10^j.
+%D A038336 B. N. Cyvin et al., Isomer enumeration of unbranched catacondensed polygonal systems with pentagons and heptagons, Match, No. 34 (Oct 1996), pp. 109-121.
+%K A038336 nonn,tabl,easy
+%O A038336 0,2
+%A A038336 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025200
+Showing 1-1 of 1
+
+%I A025200
+%S A025200 0,2,5,11,18,28,42,60,82,107,140,176,218,267,324,389,455,538,622,726,
+%T A025200 830,945,1072,1211,1363,1513,1692,1868,2076,2282,2502,2759,3013,3283,
+%U A025200 3572,3854
+%N A025200 s(n) = [ S3/S1 ], where S3 and S1 are, respectively, the 3rd and first elementary symmetric functions of {sqrt(k), k = 1,2,...,n} ].
+%K A025200 nonn
+%O A025200 2,2
+%A A025200 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

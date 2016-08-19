@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021186
+Showing 1-1 of 1
+
+%I A021186
+%S A021186 0,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,
+%T A021186 9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,
+%U A021186 5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5,4,9,4,5,0,5
+%N A021186 Decimal expansion of 1/182.
+%F A021186 a(n)=(1/15)*{2*(n mod 6)17*[(n+1) mod 6]-8*[(n+2) mod 6]+7*[(n+3) mod 6]-8*[(n+4) mod 6]+17*[(n+5) mod 6]}-5*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Sep 24 2009]
+%K A021186 nonn,cons
+%O A021186 0,3
+%A A021186 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

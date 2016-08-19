@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017629
+Showing 1-1 of 1
+
+%I A017629
+%S A017629 9,21,33,45,57,69,81,93,105,117,129,141,153,165,177,189,201,213,225,
+%T A017629 237,249,261,273,285,297,309,321,333,345,357,369,381,393,405,417,429,
+%U A017629 441,453,465,477,489,501,513,525,537,549,561,573,585,597,609,621,633
+%N A017629 12n+9.
+%C A017629 Numbers k such that k mod 2 = (k+1) mod 3 = 1 and (k+2) mod 4 <> 1. - _Klaus Brockhaus_, Jun 15 2004
+%C A017629 For n>3, the number of squares on the infinite 3-column chessboard at <=n knight moves from any fixed point. - _Ralf Stephan_, Sep 15 2004
+%C A017629 A089911(2*a(n)) = 4. - _Reinhard Zumkeller_, Jul 05 2013
+%H A017629 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A017629 a(n)=6*(4n+1)-a(n-1) (with a(0)=9). [From Vincenzo Librandi, Dec 17 2010]
+%t A017629 12*Range[0,200]+9 (* _Vladimir Joseph Stephan Orlovsky_, Feb 19 2011*)
+%o A017629 (Sage) [i+9 for i in range(525) if gcd(i,12) == 12] # [From _Zerinvary Lajos_, May 21 2009]
+%o A017629 (Haskell)
+%o A017629 a017629 = (+ 9) . (* 12)  -- _Reinhard Zumkeller_, Jul 05 2013
+%Y A017629 Cf. A008594, A017533, A017545.
+%Y A017629 Subsequence of A072065.
+%Y A017629 Cf. A017137, A004767.
+%K A017629 nonn,easy
+%O A017629 0,1
+%A A017629 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

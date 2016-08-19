@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030518
+Showing 1-1 of 1
+
+%I A030518
+%S A030518 0,2,8,52,248,1302,6448,32552,162448,813802,4067448,20345052,
+%T A030518 101717448,508626302,2543092448,12715657552,63578092448
+%N A030518 Number of walks of length n between two vertices on a icosahedron at distance 2.
+%F A030518 A030517(n)=2*A030517(n-1)+2*A030518(n-1)+5*A030517(n-2), A030518(n)=2*A030517(n-1)+2*A030518(n-1)+5*A030518(n-2)
+%F A030518 a(n)=5^n/12-(-1)^n/12-(sqrt(5))^(n+1)/20-(-sqrt(5))^(n+1)/20. a(n)=4a(n-1)+10a(n-2)-20a(n-3)-25a(n-4). - _Emeric Deutsch_, Apr 03 2004
+%K A030518 nonn
+%O A030518 1,2
+%A A030518 _Yasutoshi Kohmoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

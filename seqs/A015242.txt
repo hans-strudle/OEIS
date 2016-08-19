@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015242
+Showing 1-1 of 1
+
+%I A015242
+%S A015242 0,5,12,9,16,75,180,343,576,891,1300,1815,2448,3211,4116,5175,6400,
+%T A015242 7803,9396,11191,13200,15435,17908,20631,23616,26875,30420,34263,
+%U A015242 38416,42891,47700,52855,58368,64251
+%V A015242 0,-5,-12,-9,16,75,180,343,576,891,1300,1815,2448,3211,4116,5175,6400,
+%W A015242 7803,9396,11191,13200,15435,17908,20631,23616,26875,30420,34263,
+%X A015242 38416,42891,47700,52855,58368,64251
+%N A015242 (2*n-7)*n^2.
+%H A015242 Vincenzo Librandi, <a href="/A015242/b015242.txt">Table of n, a(n) for n = 0..10000</a>
+%H A015242 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A015242 G.f. x*(-5+8*x+9*x^2) / (x-1)^4 . - R. J. Mathar, Oct 25 2011
+%o A015242 (MAGMA) [(2*n-7)*n^2: n in [0..40]]; // Vincenzo Librandi, Oct 26 2011
+%K A015242 sign
+%O A015242 0,2
+%A A015242 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

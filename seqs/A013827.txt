@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013827
+Showing 1-1 of 1
+
+%I A013827
+%S A013827 9,2187,531441,129140163,31381059609,7625597484987,1853020188851841,
+%T A013827 450283905890997363,109418989131512359209,26588814358957503287787,
+%U A013827 6461081889226673298932241,1570042899082081611640534563
+%N A013827 3^(5*n+2).
+%H A013827 Vincenzo Librandi, <a href="/A013827/b013827.txt">Table of n, a(n) for n = 0..200</a>
+%H A013827 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013827 a(n)=243*a(n-1), n>0 ; a(0)=9 . G.f.: 9/(1-243*x). a(n)=3*A013826(n) . [From _Philippe Deléham_, Nov 26 2008]
+%o A013827 (MAGMA) [3^(5*n+2): n in [0..15]]; // Vincenzo Librandi, Jul 07 2011
+%K A013827 nonn,easy
+%O A013827 0,1
+%A A013827 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

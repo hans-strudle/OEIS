@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022124
+Showing 1-1 of 1
+
+%I A022124
+%S A022124 3,13,16,29,45,74,119,193,312,505,817,1322,2139,3461,5600,9061,14661,
+%T A022124 23722,38383,62105,100488,162593,263081,425674,688755,1114429,1803184,
+%U A022124 2917613,4720797,7638410,12359207
+%N A022124 Fibonacci sequence beginning 3, 13.
+%H A022124 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022124 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022124 G.f.: (3+10x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%t A022124 a={};b=3;c=13;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 17 2008 *)
+%K A022124 nonn
+%O A022124 0,1
+%A A022124 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003224
+Showing 1-1 of 1
+
+%I A003224 M3934
+%S A003224 1,5,24,391,9549,401691
+%N A003224 The number of superpositions of cycles of order n of the groups E_3 and D_n.
+%D A003224 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 171
+%D A003224 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003224 E. M. Palmer and R. W. Robinson, <a href="http://dx.doi.org/10.1007/BF02392038">Enumeration under two representations of the wreath product</a>, Acta Math., 131 (1973), 123-143.
+%Y A003224 Cf. A003223, A003225.
+%K A003224 nonn,easy,more
+%O A003224 3,2
+%A A003224 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

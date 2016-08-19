@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036580
+Showing 1-1 of 1
+
+%I A036580
+%S A036580 0,1,2,0,2,1,0,1,2,1,0,2,0,1,2,0,2,1,0,2,0,1,2,1,0,1,2,0,2,1,0,1,2,1,
+%T A036580 0,2,0,1,2,1,0,1,2,0,2,1,0,2,0,1,2,0,2,1,0,1,2,1,0,2,0,1,2,0,2,1,0,2,
+%U A036580 0,1,2,1,0,1,2,0,2,1,0,2,0,1,2,0,2,1,0,1,2,1,0,2,0,1,2,1,0,1,2
+%N A036580 Ternary Thue-Morse sequence: closed under a->abc, b->ac, c->b.
+%D A036580 M. Lothaire, Combinatorics on Words. Addison-Wesley, Reading, MA, 1983, p. 26.
+%Y A036580 A007413(n+1) - 1.
+%K A036580 nonn
+%O A036580 0,3
+%A A036580 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

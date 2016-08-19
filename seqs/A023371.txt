@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023371
+Showing 1-1 of 1
+
+%I A023371
+%S A023371 3,8,18,128,4738,4231753,1187731018833,42594869705663096099408,
+%T A023371 3228772089507297652799675584374257094299778
+%N A023371 a(n+1) = a(n) converted to base 8 from base 3 (written in base 10).
+%t A023371 NestList[FromDigits[IntegerDigits[#,3],8]&,3,10] (* _Harvey P. Dale_, Jan 29 2012 *)
+%K A023371 nonn,base
+%O A023371 1,1
+%A A023371 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

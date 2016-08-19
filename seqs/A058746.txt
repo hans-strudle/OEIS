@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058746
+Showing 1-1 of 1
+
+%I A058746
+%S A058746 1,1,0,2,1,2,1,2,3,4,5,5,5
+%N A058746 McKay-Thompson series of class 70a for Monster.
+%D A058746 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058746 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058746 T70a = 1/q + q + 2*q^5 + q^7 + 2*q^9 + q^11 + 2*q^13 + 3*q^15 + 4*q^17 + ...
+%Y A058746 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058746 nonn
+%O A058746 -1,4
+%A A058746 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

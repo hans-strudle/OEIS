@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028644
+Showing 1-1 of 1
+
+%I A028644
+%S A028644 1,8,24,32,24,64,192,272,248,392,752,976,1152,1648,2048,2272,3128,
+%T A028644 4128,4440,4648,6064,6656,8128,8480,10112,9416,13552,12512,16384,
+%U A028644 15632,21248,17856,26040,24928,30768
+%N A028644 Expansion of (theta_3(z)*theta_3(19z)+theta_2(z)*theta_2(19z))^4.
+%K A028644 nonn
+%O A028644 0,2
+%A A028644 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008838
+Showing 1-1 of 1
+
+%I A008838
+%S A008838 0,0,0,0,0,0,0,0,1,2,2,2,2,2,2,2,4,6,6,6,6,6,6,6,9,12,12,12,12,12,12,
+%T A008838 12,16,20,20,20,20,20,20,20,25,30,30,30,30,30,30,30,36,42,42,42,42,42,
+%U A008838 42,42,49,56,56,56,56,56,56
+%N A008838 floor(n/8)*ceil(n/8).
+%F A008838 a(n) = +2 a(n-1) -2 a(n-2) +2 a(n-3) -2 a(n-4) +2 a(n-5) -2 a(n-6) +2 a(n-7) -2 a(n-9) +2 a(n-10) -2 a(n-11) +2 a(n-12) -2 a(n-13) +2 a(n-14) -2 a(n-15) +a(n-16). - R. J. Mathar, Mar 11 2012
+%K A008838 nonn
+%O A008838 0,10
+%A A008838 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

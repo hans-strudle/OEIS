@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033778
+Showing 1-1 of 1
+
+%I A033778
+%S A033778 1,1,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,0,0,1,1,1,1,0,0,1,0,0,1,1,0,0,0,0,
+%T A033778 1,0,1,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0
+%N A033778 Product t2(q^d); d | 19, where t2 = theta2(q)/(2*q^(1/4)).
+%K A033778 nonn
+%O A033778 0,1
+%A A033778 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

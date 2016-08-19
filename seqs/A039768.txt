@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039768
+Showing 1-1 of 1
+
+%I A039768
+%S A039768 2,3,105,133,153,185,345,377,425,585,637,665,777,805,825,873,897,905,
+%T A039768 949,1017,1090,1113,1209,1225,1261,1305,1309,1385,1449,1525,1545,1573,
+%U A039768 1645,1681,1785,1813,1833,1865,1885,1957,1981,2009,2057,2077,2105
+%N A039768 GCD(phi(a(n)),a(n)-1) = number of divisors of (a(n)-1).
+%e A039768 phi(105)=48, gcd(48,104)=8, 104 is divisible by {1,2,4,8,13,26,52,104}.
+%Y A039768 Cf. A000005, A000010.
+%K A039768 nonn,easy
+%O A039768 1,1
+%A A039768 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045528
+Showing 1-1 of 1
+
+%I A045528
+%S A045528 96,97,98,99,100,101,102,103,122,139,166,190,233,241,261,268,301,331,
+%T A045528 366,380,415,431,445,481,497,514,521,583,596,624,629,634,655,672,690,
+%U A045528 716,723,762,789,799,821,833,861,897
+%N A045528 n! has initial digit '9'.
+%H A045528 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A045528 Select[ Range[ 900 ], IntegerDigits[ #! ] [ [1] ] == 9 & ]
+%K A045528 nonn,base
+%O A045528 1,1
+%A A045528 _Jeff Burch_
+%E A045528 More terms from _Robert G. Wilson v_, Jan 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

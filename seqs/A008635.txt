@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008635
+Showing 1-1 of 1
+
+%I A008635
+%S A008635 1,1,2,3,5,7,11,15,22,30,42,56,77,100,133,172,224,285,366,460,582,725,
+%T A008635 905,1116,1380,1686,2063,2503,3036,3655,4401,5262,6290,7476,8877,
+%U A008635 10489,12384,14552,17084,19978
+%N A008635 Molien series for alternating group Alt_12 (or A_12).
+%D A008635 D. J. Benson, Polynomial Invariants of Finite Groups, Cambridge, 1993, p. 105.
+%H A008635 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%p A008635 (1+x^66)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4)/(1-x^5)/(1-x^6)/(1-x^7)/(1-x^8)/(1-x^9)/(1-x^10)/(1-x^11)/(1-x^12)
+%K A008635 nonn,easy
+%O A008635 0,3
+%A A008635 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

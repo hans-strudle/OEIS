@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007919
+Showing 1-1 of 1
+
+%I A007919
+%S A007919 1,1,1,2,3,8,15,1,105,192,945,4,10395,46080,1,3,2027025,2560,34459425,
+%T A007919 192,5,3715891200,13749310575,2,81081,1961990553600,35,23040,
+%U A007919 213458046676875,128,6190283353629375,12
+%N A007919 Smallest k such that k*n is a double factorial.
+%H A007919 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/OPNS.pdf">Only Problems, Not Solutions!</a>.
+%H A007919 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%K A007919 nonn
+%O A007919 1,4
+%A A007919 R. Muller
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

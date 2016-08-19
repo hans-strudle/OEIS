@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027051
+Showing 1-1 of 1
+
+%I A027051
+%S A027051 1,5,13,33,85,221,581,1545,4149,11237,30657,84169,232361,644573,
+%T A027051 1795717,5021801,14091829,39665893,111965785,316857945,898797441,
+%U A027051 2555025821,7277679961,20767821489,59365259065,169967668645,487356812589
+%N A027051 a(n) = T(n,2n-2), T given by A027023.
+%K A027051 nonn
+%O A027051 2,2
+%A A027051 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

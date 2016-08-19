@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005073
+Showing 1-1 of 1
+
+%I A005073
+%S A005073 0,0,0,0,0,0,2401,0,0,0,0,0,28561,2401,0,0,0,0,130321,0,2401,0,0,0,0,
+%T A005073 28561,0,2401,0,0,923521,0,0,0,2401,0,1874161,130321,28561,0,0,2401,
+%U A005073 3418801,0,0,0,0,0,2401,0,0,28561
+%N A005073 Sum of 4th powers of primes = 1 mod 3 dividing n.
+%F A005073 Additive with a(p^e) = p^4 if p = 1 (mod 3), 0 otherwise.
+%K A005073 nonn
+%O A005073 1,7
+%A A005073 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

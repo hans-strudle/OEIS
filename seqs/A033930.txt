@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033930
+Showing 1-1 of 1
+
+%I A033930
+%S A033930 1,1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,8,9,10,2,3,4,5,6,7,8,9,10,11,3,4,5,
+%T A033930 6,7,8,9,10,11,12,4,5,6,7,8,9,10,11,12,13,5,6,7,8,9,10,11,12,13,14,6,
+%U A033930 7,8,9,10,11,12,13,14,15,7,8,9,10,11,12,13,14,15,16,8,9,10,11,12,13,14
+%N A033930 Base 10 digital convolution sequence.
+%C A033930 Differs from A007953 at n=0, 101-109, 111-119 etc. [_R. J. Mathar_, Oct 20 2008]
+%F A033930 For example, a(838) = 8*a(2)+3*a(1)+8*a(0).
+%o A033930 (PARI) a(n) = if (!n, 1, my(d = digits(n)); sum(i=1, #d, d[i]*a(#d-i))); \\ _Michel Marcus_, Sep 13 2014
+%K A033930 nonn,base
+%O A033930 0,3
+%A A033930 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

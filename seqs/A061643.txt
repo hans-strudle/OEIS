@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061643
+Showing 1-1 of 1
+
+%I A061643
+%S A061643 41,442,4142,37972,348006,3204692,29683955,276518007,2589254117,
+%T A061643 24357522791,230075505577,2181140435607,20744202741841,
+%U A061643 197860058269636,1892071150027210,18135207462554572,174187253099661529
+%N A061643 First n digits after the decimal point in the n-th root of n.
+%e A061643 a(2)=sqrt(2)=1.4142.. => 41; a(3)=cube root(3)=1.442249... => 442.
+%K A061643 easy,nonn,base
+%O A061643 2,1
+%A A061643 Jason Earls (zevi_35711(AT)yahoo.com), Jun 13 2001
+%E A061643 More terms from Larry Reeves (larryr(AT)acm.org), Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

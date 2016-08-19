@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049658
+Showing 1-1 of 1
+
+%I A049658
+%S A049658 1,77,3648,171409,8052605,378301056,17772097057,834910260653,
+%T A049658 39223010153664,1842646566961585,86565165637040861,
+%U A049658 4066720138373958912,191049281337939028033,8975249502744760358669
+%N A049658 a(n)=(F(8n+5)-2)/3, where F=A000045 (the Fibonacci sequence).
+%H A049658 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (48, -48, 1).
+%F A049658 G.f.: (1+29*x)/(1-48*x+48*x^2-x^3).
+%F A049658 a(0)=1, a(1)=77, a(2)=3648, a(n)=48*a(n-1)-48*a(n-2)+a(n-3). - _Harvey P. Dale_, Jun 20 2013
+%t A049658 (Fibonacci[8Range[0,20]+5]-2)/3 (* or *) LinearRecurrence[{48,-48,1},{1,77,3648},20] (* _Harvey P. Dale_, Jun 20 2013 *)
+%K A049658 nonn
+%O A049658 0,2
+%A A049658 _Clark Kimberling_
+%E A049658 Description corrected by and more terms from Michael Somos
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

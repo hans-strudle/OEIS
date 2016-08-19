@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006445
+Showing 1-1 of 1
+
+%I A006445 M0172
+%S A006445 0,0,0,0,0,1,0,1,2,1,4,9,12,27,50,99,188,386,740,1528,3012,6192,12376,
+%T A006445 25594,51628,107135,218100,453895,930812,1943281,4009512,8394915,
+%U A006445 17414512
+%N A006445 Number of n-edge 3-connected planar maps with a sense-reversing automorphism.
+%C A006445 Maps are counted up to isomorphism which is not restricted to those that preserve the orientation of the sphere.
+%D A006445 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006445 Computed by Nick Wormald (unpublished).
+%K A006445 nonn
+%O A006445 1,9
+%A A006445 _N. J. A. Sloane_, T. R. S. Walsh, personal communication
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

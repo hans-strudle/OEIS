@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034919
+Showing 1-1 of 1
+
+%I A034919
+%S A034919 1,2,4,8,28,86
+%N A034919 Minimal consecutive determinant (negated) of n X n persymmetric matrix with entries {-1,0,+1}.
+%C A034919 A persymmetric (or Hankel) matrix has M[ i,j ] = M[ i-k,j+k ] for all i and j (matrix is constant along antidiagonals).
+%C A034919 I would love to find out what "consecutive" means here! Adjacent entries along the top row and right side must be consecutive? - _N. J. A. Sloane_, May 16 2003
+%Y A034919 Cf. A034917-A034921.
+%K A034919 nonn,more
+%O A034919 1,2
+%A A034919 _Fred Lunnon_, Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

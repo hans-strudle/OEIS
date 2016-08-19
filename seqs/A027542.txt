@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027542
+Showing 1-1 of 1
+
+%I A027542
+%S A027542 7,52,231,806,2451,6840,18031,45682,112443,270788,641031,1496574,
+%T A027542 3453859,7893232
+%N A027542 Second diagonal of A027538.
+%F A027542 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^3 where a[ i, j ] = A(i, j)/i! if j<=i, 0 if j>i
+%K A027542 nonn
+%O A027542 2,1
+%A A027542 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

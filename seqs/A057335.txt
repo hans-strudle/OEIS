@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057335
+Showing 1-1 of 1
+
+%I A057335
+%S A057335 1,2,4,6,8,12,18,30,16,24,36,60,54,90,150,210,32,48,72,120,108,180,
+%T A057335 300,420,162,270,450,630,750,1050,1470,2310,64,96,144,240,216,360,600,
+%U A057335 840,324,540,900,1260,1500,2100,2940,4620,486,810,1350,1890,2250,3150,4410
+%N A057335 Essentially sequence A055932 generated using A000120, hence sorted by number of factors.
+%C A057335 Note that for n>0 the prime divisors of a(n) are consecutive primes starting with 2. All of the least prime signatures (A025487) are included; with the other values forming A056808.
+%C A057335 Using the formula, terms of b(n)= a(n)/A057334(n) are: 1, 1, 2, 2, 4, 4, 6, 6, 8, ..., indeed a(n) repeated. - _Michel Marcus_, Feb 09 2014
+%F A057335 a(n)= A057334(n) * a (repeated).
+%o A057335 (PARI) lista(nn) = {my(v = vector(nn)); v[1] = 1; for (i=2, nn, v[i] = mg(i-1)*v[(i+1)\2];); v;} \\ _Michel Marcus_, Feb 09 2014
+%Y A057335 Cf. A057334, A055932 and A056808.
+%K A057335 easy,nonn
+%O A057335 0,2
+%A A057335 _Alford Arnold_, Aug 27 2000
+%E A057335 More terms from Antonio G. Astudillo (afg_astudillo(AT)lycos.com), Mar 29 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

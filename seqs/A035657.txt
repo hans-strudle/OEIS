@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035657
+Showing 1-1 of 1
+
+%I A035657
+%S A035657 0,0,1,1,2,2,3,3,4,6,7,9,10,12,13,15,19,22,27,30,35,38,43,50,57,67,74,
+%T A035657 85,92,103,115,130,148,165,185,202,223,246,273,306,337,376,408,449,
+%U A035657 488,539,594,654,720,784,855,928,1013,1109,1210,1326,1436,1563,1685
+%N A035657 Number of partitions of n into parts 7k+1 and 7k+2 with at least one part of each type.
+%K A035657 nonn
+%O A035657 1,5
+%A A035657 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

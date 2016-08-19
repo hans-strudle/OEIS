@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015482
+Showing 1-1 of 1
+
+%I A015482
+%S A015482 0,1,10,1001,1001010,10010101001,1001010101101010,
+%T A015482 1001010101111020101001,10010101011111202020111101010,
+%U A015482 1001010101111121203021211212020101001,1001010101111121213031312223131303021111101010
+%N A015482 q-Fibonacci numbers for q=10.
+%H A015482 Vincenzo Librandi, <a href="/A015482/b015482.txt">Table of n, a(n) for n = 0..40</a>
+%F A015482 a(n) = 10^(n-1) a(n-1) + a(n-2).
+%t A015482 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*10^(n-1)+ a[n-2]}, a, {n, 40}] (* _Vincenzo Librandi_, Nov 10 2012 *)
+%K A015482 nonn,easy
+%O A015482 0,3
+%A A015482 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

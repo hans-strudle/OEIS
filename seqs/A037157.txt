@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037157
+Showing 1-1 of 1
+
+%I A037157
+%S A037157 8,29,71,147,278,498,862,1459,2433,4017,6588,10756,17508,28441,46139,
+%T A037157 74783,121138,196150,317530,513935,831733,1345949,2177976,3524232,
+%U A037157 5702528,9227093,14929967,24157419,39087758,63245562,102333718
+%N A037157 Convolution of natural numbers n >= 1 with Fibonacci numbers F(k), for k >= 6.
+%F A037157 a(n) = F(n+10)-(47+13*n); G.f.: (8+5*x)/((1-x-x^2)*(1-x)^2); 47=L(8), Lucas number;
+%Y A037157 Cf. A000045, A037140.
+%K A037157 easy,nonn
+%O A037157 0,1
+%A A037157 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

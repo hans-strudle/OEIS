@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034822
+Showing 1-1 of 1
+
+%I A034822
+%S A034822 2,4,8,10,14,18,20,24,30,38,40
+%N A034822 Numbers n such that there are no palindromic squares of length n.
+%H A034822 P. De Geest, <a href="http://www.worldofnumbers.com/square.htm">Palindromic Squares</a>
+%H A034822 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PalindromicNumber.html">Palindromic Number</a>
+%Y A034822 Cf. A002778, A002779, A034307.
+%K A034822 nonn,base,hard,more
+%O A034822 1,1
+%A A034822 _Patrick De Geest_, Oct 15 1998.
+%E A034822 Two more terms added by author, Apr 01 2002.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

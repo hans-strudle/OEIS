@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016986
+Showing 1-1 of 1
+
+%I A016986
+%S A016986 0,117649,7529536,85766121,481890304,1838265625,5489031744,
+%T A016986 13841287201,30840979456,62523502209,117649000000,208422380089,
+%U A016986 351298031616,567869252041,885842380864,1340095640625,1973822685184
+%N A016986 (7*n)^6.
+%H A016986 Vincenzo Librandi, <a href="/A016986/b016986.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016986 (MAGMA) [(7*n)^6: n in [0..25]]; // Vincenzo Librandi, Jun 18 2011
+%K A016986 nonn,easy
+%O A016986 0,2
+%A A016986 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015182
+Showing 1-1 of 1
+
+%I A015182
+%S A015182 1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,2,1,1,2,1,
+%T A015182 1,2,1,1,2,1,0,1,1,0,1,1,1,0,1,1,0,1,2,1,1,2,1,1,2,1,1,
+%U A015182 2,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,0
+%V A015182 1,-1,0,1,-1,0,1,-1,0,1,-1,0,1,-1,0,1,-1,1,0,-1,1,0,-1,2,-1,-1,2,-1,
+%W A015182 -1,2,-1,-1,2,-1,0,1,-1,0,1,-1,1,0,-1,1,0,-1,2,-1,-1,2,-1,-1,2,-1,-1,
+%X A015182 2,-1,0,1,-1,0,1,-1,1,0,-1,1,0,-1,1,0,-1,1,0,-1,1,0,-1,1,0,0
+%N A015182 Inverse of 1173rd cyclotomic polynomial.
+%p A015182 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A015182 Join[CoefficientList[Series[1/Cyclotomic[1173,x],{x,0,80}],x],{0,0}] (* _Harvey P. Dale_, Aug 19 2015 *)
+%K A015182 sign
+%O A015182 0,24
+%A A015182 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

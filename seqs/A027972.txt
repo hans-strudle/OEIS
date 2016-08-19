@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027972
+Showing 1-1 of 1
+
+%I A027972
+%S A027972 1,4,11,29,76,199,518,1324,3278,7784,17643,38138,78753,155793,296248,
+%T A027972 543333,964239,1660748,2783499,4550843,7273394,11385571,17485634,
+%U A027972 26385946,39175444,57296576,82639259,117654736,165492559
+%N A027972 T(n,2n-10), T given by A027960.
+%F A027972 Sequence satisfies a 10-degree polynomial approximating A002878.
+%F A027972 G.f. ( x^5*(-1+7*x-22*x^2+37*x^3-32*x^4-x^5+32*x^6-37*x^7+22*x^8-7*x^9+x^10) ) / ( (x-1)^11 ). - R. J. Mathar, Jan 30 2011
+%F A027972 a(n) = -76 +183941*n/2520 +386899*n^3/36288 -1747657*n^2/50400 -831241*n^4/362880 +11887*n^5/34560 -5807*n^6/172800 +41*n^7/24192 +n^8/60480 -n^9/145152 +n^10/3628800. - R. J. Mathar, Jan 30 2011
+%Y A027972 A column of triangle A026998.
+%K A027972 nonn
+%O A027972 5,2
+%A A027972 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006877
+Showing 1-1 of 1
+
+%I A006877 M0748
+%S A006877 1,2,3,6,7,9,18,25,27,54,73,97,129,171,231,313,327,649,703,871,1161,
+%T A006877 2223,2463,2919,3711,6171,10971,13255,17647,23529,26623,34239,35655,
+%U A006877 52527,77031,106239,142587,156159,216367,230631,410011,511935,626331,837799
+%N A006877 In the `3x+1' problem, these values for the starting value set new records for number of steps to reach 1.
+%C A006877 Both the 3x+1 steps and the halving steps are counted.
+%D A006877 T. Ahmed, H. Snevily, Are there an infinite number of Collatz integers?, http://users.encs.concordia.ca/~ta_ahmed/collatz.pdf, 2013.
+%D A006877 Gonnet, Gaston H. "Computations on the 3n+ 1 conjecture." Maple Technical Newsletter 6 (1991): 18-22.
+%D A006877 B. Hayes, Computer Recreations: On the ups and downs of hailstone numbers, Scientific American, 250 (No. 1, 1984), pp. 10-16.
+%D A006877 D. R. Hofstadter, Goedel, Escher, Bach: an Eternal Golden Braid, Random House, 1980, p. 400.
+%D A006877 G. T. Leavens and M. Vermeulen, 3x+1 search problems, Computers and Mathematics with Applications, 24 (1992), 79-99.
+%D A006877 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006877 T. D. Noe, <a href="/A006877/b006877.txt">Table of n, a(n) for n = 1..130</a> (from Eric Roosendaal's data)
+%H A006877 J. C. Lagarias, <a href="http://www.cecm.sfu.ca/organics/papers/lagarias/paper/html/paper.html">The 3x+1 problem and its generalizations</a>, Amer. Math. Monthly, 92 (1985), 3-23.
+%H A006877 R. Munafo, <a href="http://www.mrob.com/pub/math/seq-wondrous.html">Integer Sequences Related to 3x+1 Collatz Iteration</a>
+%H A006877 Eric Roosendaal, <a href="http://www.ericr.nl/wondrous/delrecs.html">3x+1 Delay Records</a>
+%H A006877 <a href="/index/Go#GEB">Index entries for sequences from "Goedel, Escher, Bach"</a>
+%H A006877 <a href="/index/3#3x1">Index entries for sequences related to 3x+1 (or Collatz) problem</a>
+%p A006877 A006877 := proc(n) local a,L; L := 0; a := n; while a <> 1 do if a mod 2 = 0 then a := a/2; else a := 3*a+1; fi; L := L+1; od: RETURN(L); end;
+%t A006877 numberOfSteps[x0_] := Block[{x = x0, nos = 0}, While [x != 1 , If[Mod[x, 2] == 0 , x = x/2, x = 3*x + 1]; nos++]; nos]; a[1] = 1; a[n_] := a[n] = Block[{x = a[n-1] + 1}, record = numberOfSteps[x - 1]; While[ numberOfSteps[x] <= record, x++]; x]; A006877 = Table[ Print[a[n]]; a[n], {n, 1, 44}](* _Jean-François Alcover_, Feb 14 2012 *)
+%o A006877 (PARI) A006577(n)=my(s);while(n>1,n=if(n%2,3*n+1,n/2);s++);s
+%o A006877 step(n,r)=my(t);forstep(k=bitor(n,1),2*n,2,t=A006577(k);if(t>r,return([k,t])));[2*n,r+1]
+%o A006877 r=0;print1(n=1);for(i=1,100,[n,r]=step(n,r); print1(", "n)) \\ _Charles R Greathouse IV_, Apr 01 2013
+%Y A006877 Cf. A006884, A006885, A006877, A006878, A033492.
+%K A006877 nonn,nice
+%O A006877 1,2
+%A A006877 _N. J. A. Sloane_, _Robert Munafo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

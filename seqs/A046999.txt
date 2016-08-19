@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046999
+Showing 1-1 of 1
+
+%I A046999
+%S A046999 28,496,8128,950976,2178540,33550336,142990848,301953024,459818240,
+%T A046999 675347400,714954240,995248800,1379454720,2701389600,3288789504,
+%U A046999 6720569856,8589869056,10200236032,14254365440,30600708096,42763096320,43861478400,66433720320,71271827200
+%N A046999 Non-integer average divisor divides the number.
+%C A046999 The sequence contains perfect numbers (A000396) and others. Most of them have only small prime factors.
+%C A046999 The first three terms are in A007691 (multiply perfect numbers) but 950976 is not since Sigma_1/x is not an integer.
+%C A046999 sigma_0(n) is the number of divisors of n (A000005).
+%C A046999 sigma_1(n) is the sum of the divisors of n [same as sigma(n)] (A000203).
+%F A046999 Average divisor=a=Sigma_1(x)/Sigma_0(x) is not an integer but x/a is.
+%e A046999 x=28, Sigma_0=6, Sigma_1=56, a=S1/S0=9.33 is not an integer but x/a=3 is; x=950976, a=2958592/84=3521.33 but x/a=27 is integral.
+%Y A046999 In A001599 but not in A003601. Cf. A007691, A046985 - A046987, A000396.
+%K A046999 nonn
+%O A046999 1,1
+%A A046999 _Labos Elemer_
+%E A046999 More terms from _Jud McCranie_, Dec 25 2000
+%E A046999 a(16)-a(24) from _Donovan Johnson_, Apr 22 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

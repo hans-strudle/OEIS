@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013770
+Showing 1-1 of 1
+
+%I A013770
+%S A013770 22,234256,2494357888,26559922791424,282810057883082752,
+%T A013770 3011361496339065143296,32064977213018365645815808,
+%U A013770 341427877364219557396646723584,3635524038174209847159494312722432,38711059958478986452554295441868455936
+%N A013770 22^(3n+1).
+%H A013770 Vincenzo Librandi, <a href="/A013770/b013770.txt">Table of n, a(n) for n = 0..200</a>
+%H A013770 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013770 (MAGMA) [22^(3*n+1): n in [0..10]]; // Vincenzo Librandi, Jun 27 2011
+%K A013770 nonn,easy
+%O A013770 0,1
+%A A013770 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

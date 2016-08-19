@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052075
+Showing 1-1 of 1
+
+%I A052075
+%S A052075 11,101,2239,34297,43789,53549,535487,59897017,430784719,2549592677,
+%T A052075 2837138669
+%N A052075 Nextprime(p(n)) is substring of p(n)^3.
+%Y A052075 Cf. A052076, A052073, A052074.
+%K A052075 nonn,base,more,nice
+%O A052075 0,1
+%A A052075 _Patrick De Geest_, Jan 15 2000.
+%E A052075 More terms from Sam Handler (sam_5_5_5_0(AT)yahoo.com), Sep 12 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

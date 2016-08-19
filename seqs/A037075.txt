@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037075
+Showing 1-1 of 1
+
+%I A037075
+%S A037075 1,2,5,16,118
+%N A037075 Number of eutactic lattices in dimension n.
+%D A037075 J. Martinet, Les reseaux parfaits des espaces Euclidiens, Masson, Paris, 1996.
+%D A037075 J. Martinet, Perfect Lattices in Euclidean Spaces, Springer-Verlag, NY, 2003.
+%D A037075 G. Nebe, Review of J. Martinet, Perfect Lattices in Euclidean Spaces, Bull. Amer. Math. Soc., 41 (No. 4, 2004), 529-533.
+%H A037075 J. Martinet and B. Venkov, <a href="http://www.math.u-bordeaux.fr/~martinet/">Les reseaux fortement eutactiques</a>, pp. 112-132 in Reseaux Euclidiens, Designs Spheriques et Formes Modulaires, ed. J. Martinet, L'Enseignement Mathematiques, Geneva, 2001.
+%H A037075 B. Venkov, <a href="http://www.math.u-bordeaux.fr/~martinet/">Reseaux et designs spheriques</a>, pp. 10-86 in Reseaux Euclidiens, Designs Spheriques et Formes Modulaires, ed. J. Martinet, L'Enseignement Mathematiques, Geneva, 2001.
+%Y A037075 Cf. A065536, A065535, A004026.
+%K A037075 nonn,nice,hard
+%O A037075 1,2
+%A A037075 J. Martinet (martinet(AT)math.u-bordeaux.fr), _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

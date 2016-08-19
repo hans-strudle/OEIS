@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007707
+Showing 1-1 of 1
+
+%I A007707
+%S A007707 3,6,11,21,35,51,73,98,130,167,204,249,296,347,406,471,538,608,686,
+%T A007707 768,855,950,1050,1156,1266,1377,1495,1621,1755,1898,2049,2194,2347,
+%U A007707 2504,2670,2837,3013,3194,3380,3573,3771,3974,4187,4401,4625,4856
+%N A007707 Prime(n)*...*prime(a(n)) is the least product of consecutive primes which is abundant.
+%o A007707 (PARI) a(n) = {p = prime(n); sig = p+1; prd = p; np = n; while (sig <= 2*prd, p = nextprime(p+1); sig *= p+1; prd *= p; np++;); return (np);} \\ _Michel Marcus_, Mar 10 2013
+%Y A007707 Cf. A005101, A007684 (a very similar sequence), A007708, A007741.
+%K A007707 nonn
+%O A007707 1,1
+%A A007707 _Walter Nissen_
+%E A007707 More terms from Don Reble (djr(AT)nk.ca), Nov 10 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022165
+Showing 1-1 of 1
+
+%I A022165
+%S A022165 1,5,6,26,32,136,168,712,880,3728,4608,19520,24128,102208,126336,
+%T A022165 535168,661504,2802176,3463680
+%N A022165 First row of spectral array W(sqrt(5)-1).
+%H A022165 A. Fraenkel and C. Kimberling, <a href="http://dx.doi.org/10.1016/0012-365X(94)90259-3">Generalized Wythoff arrays, shuffles and interspersions</a>, Discrete Mathematics 126 (1994) 137-149.
+%F A022165 Conjectures: a(n) = 6*a(n-2)-4*a(n-4). G.f.: -(x+1)*(4*x^2-4*x-1) / (4*x^4-6*x^2+1). - _Colin Barker_, Oct 23 2014
+%o A022165 (PARI)
+%o A022165 \\ The first row of the generalized Wythoff array W(h),
+%o A022165 \\   where h is an irrational number between 1 and 2.
+%o A022165 row1(h, m) = {
+%o A022165   my(
+%o A022165     a=vector(m, n, floor(n*h)),
+%o A022165     b=setminus(vector(m, n, n), a),
+%o A022165     w=[a[1]^2, b[a[1]]],
+%o A022165     j=3
+%o A022165   );
+%o A022165   while(1,
+%o A022165     if(j%2==1,
+%o A022165       if(w[j-1]<=#a, w=concat(w, a[w[j-1]]), return(w))
+%o A022165     ,
+%o A022165       if(w[j-2]<=#b, w=concat(w, b[w[j-2]]), return(w))
+%o A022165     );
+%o A022165     j++
+%o A022165   );
+%o A022165   w
+%o A022165 }
+%o A022165 row1(sqrt(5)-1, 100000) \\ _Colin Barker_, Oct 23 2014
+%K A022165 nonn,more
+%O A022165 0,2
+%A A022165 _Clark Kimberling_
+%E A022165 a(14)-a(18) from Colin Barker, Oct 23 2014 and Michel Marcus, Oct 24 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

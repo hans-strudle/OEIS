@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008747
+Showing 1-1 of 1
+
+%I A008747
+%S A008747 1,1,2,3,5,6,9,11,14,17,21,24,29,33,38,43,49,54,61,67,74,81,89,96,105,
+%T A008747 113,122,131,141,150,161,171,182,193,205,216,229,241,254,267,281,294,
+%U A008747 309,323,338,353,369,384,401,417,434,451,469,486,505
+%N A008747 Expansion of (1+x^4)/((1-x)*(1-x^2)*(1-x^3)).
+%C A008747 "In standard bootstrap percolation, a subset A of the n x n grid is initially infected. A new site is then infected if at least two of its neighbors are infected and an infected site stays infected forever. The set A is said to percolate if eventually the entire grid is infected. A percolating set is said to be minimal if none of its subsets percolate. Answering a question of Bollobas, we show that there exists a minimal percolating set of size 4n^2/33 + o(n^2), but there does not exist one larger than (n + 2)^2/6." - _Jonathan Vos Post_, Feb 13 2007
+%C A008747 For n>=1, the set {A008747(6n+-1)} is the set of numbers of the form a^2+5(a+1)^2 for -inf < a < inf. Furthermore the set A008747(6n) is A033581(n). - _Kieren MacMillan_, Dec 19 2007
+%H A008747 Robert Morris, <a href="http://arXiv.org/abs/math.CO/0702370">Minimal percolating sets in bootstrap percolation</a>, Feb 13 2007.
+%H A008747 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,0,-1,-1,1)
+%F A008747 Ceiling(n^2/6).
+%F A008747 n/3 +23/36 +n^2/6 +(-1)^n/4 +A061347(n)/9. - R. J. Mathar, Mar 15 2011
+%F A008747 a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(4)=5, a(5)=6, a(n)=a(n-1)+a(n-2)- a(n-4)- a(n-5)+a(n-6). - _Harvey P. Dale_, Sep 05 2012
+%t A008747 CoefficientList[Series[(1+x^4)/((1-x)(1-x^2)(1-x^3)),{x,0,60}],x] (* or *) LinearRecurrence[{1,1,0,-1,-1,1},{1,1,2,3,5,6},60] (* _Harvey P. Dale_, Sep 05 2012 *)
+%o A008747 (PARI) Vec((1+x^4)/((1-x)*(1-x^2)*(1-x^3))+O(x^99)) \\ _Charles R Greathouse IV_, Sep 25 2012
+%Y A008747 Cf. A033581.
+%K A008747 nonn,easy
+%O A008747 0,3
+%A A008747 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

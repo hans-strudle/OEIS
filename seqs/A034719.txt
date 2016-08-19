@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034719
+Showing 1-1 of 1
+
+%I A034719
+%S A034719 9,54,162,567,1458,4860,13122,40824,118827,358668,1062882,3206142,
+%T A034719 9565938,28737180,86106564,258404985,774840978,2324916594,6973568802,
+%U A034719 20921808654,62762237316,188289546300,564859072962,1694587257216
+%N A034719 Dirichlet convolution of powers of 3 (3,9,27,...) with themselves.
+%Y A034719 Equals 9 * A034751(n).
+%K A034719 nonn
+%O A034719 1,1
+%A A034719 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

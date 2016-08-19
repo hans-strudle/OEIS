@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023357
+Showing 1-1 of 1
+
+%I A023357
+%S A023357 13,293,6089,12823,37967,40949,121687,192037,243487,379679,409499,
+%T A023357 471841,1006193,1217131,1397311,1438793,1503613,1541063,1754591,
+%U A023357 2058629,2088421,2346791,2360357,2428243,2458609,2621527,2646167,2721053,3223247,3280003
+%N A023357 Numbers n such that n remains prime through 5 iterations of function f(x) = 10x + 9.
+%C A023357 n, 10*n+9, 100*n+99, 1000*n+999, 10000*n+9999 and 100000*n+99999 are primes. [From _Vincenzo Librandi_, Aug 05 2010]
+%o A023357 (MAGMA) [n: n in [1..19000000] | IsPrime(n) and IsPrime(10*n+9) and IsPrime(100*n+99) and IsPrime(1000*n+999) and IsPrime(10000*n+9999) and IsPrime(100000*n+99999)] [From _Vincenzo Librandi_, Aug 05 2010]
+%K A023357 nonn
+%O A023357 1,1
+%A A023357 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

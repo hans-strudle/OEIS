@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061581
+Showing 1-1 of 1
+
+%I A061581
+%S A061581 1,2,4,8,16,212,424,848,16816,21216212,424212424,848424848,
+%T A061581 1681684816816,212162121681621216212,42421242421216212424212424,
+%U A061581 848424848424212424848424848,16816848168168484248481681684816816
+%N A061581 a(1) = 1, a(n)= number obtained by replacing each digit of a(n-1) by its double.
+%e A061581 The term after 16 is 2-12, i.e. 212.
+%t A061581 NestList[FromDigits[Flatten[IntegerDigits[2*IntegerDigits[#]]]] &,1,16] (* _Jayanta Basu_, May 20 2013 *)
+%Y A061581 Cf. A061581-A061587.
+%K A061581 nonn,base,easy
+%O A061581 1,2
+%A A061581 _Amarnath Murthy_, May 13 2001
+%E A061581 More terms from Larry Reeves (larryr(AT)acm.org) and Asher Natan Auel (auela(AT)reed.edu), May 15 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

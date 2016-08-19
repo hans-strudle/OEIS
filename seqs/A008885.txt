@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008885
+Showing 1-1 of 1
+
+%I A008885
+%S A008885 30,42,54,66,78,90,144,259,45,33,15,9,4,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A008885 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A008885 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A008885 Aliquot sequence starting at 30.
+%D A008885 R. K. Guy, Unsolved Problems in Number Theory, B6.
+%H A008885 Christophe CLAVIER, <a href="http://christophe.clavier.free.fr/Aliquot/site/Aliquot.html">Aliquot Sequences</a>
+%H A008885 <a href="/index/Rec#order_01">Index entries for linear recurrences with constant coefficients</a>, signature (1).
+%p A008885 f := proc(n) option remember; if n = 0 then 30; else sigma(f(n-1))-f(n-1); fi; end:
+%t A008885 NestList[If[#>0,DivisorSigma[1,#]-#,0]&,30,80] (* _Harvey P. Dale_, Jun 12 2012 *)
+%K A008885 nonn
+%O A008885 0,1
+%A A008885 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

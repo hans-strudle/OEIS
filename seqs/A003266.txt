@@ -1,0 +1,46 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003266
+Showing 1-1 of 1
+
+%I A003266 M1692
+%S A003266 1,1,2,6,30,240,3120,65520,2227680,122522400,10904493600,
+%T A003266 1570247078400,365867569267200,137932073613734400,
+%U A003266 84138564904377984000,83044763560621070208000,132622487406311849122176000,342696507457909818131702784000
+%N A003266 Product of first n nonzero Fibonacci numbers F(1), ..., F(n).
+%C A003266 Equals right border of unsigned triangle A158472 - From _Gary W. Adamson_, Mar 20 2009
+%C A003266 Three closely related sequences are A194157 (product of first n nonzero F(2*n)), A194158 (product of first n nonzero F(2*n-1)) and A123029 (a(2*n) = A194157(n) and a(2*n-1) = A194158(n)) - _Johannes W. Meijer_, Aug 21 2011
+%D A003266 Mohammad K. Azarian, The Value of a Series of Reciprocal Fibonacci Numbers, Problem B-1133, Fibonacci Quarterly, Vol. 51, No. 3, August 2013, p. 275. Solution published in Vol. 52, No. 3, August 2014, pp. 277-278.
+%D A003266 A. Brousseau, Fibonacci and Related Number Theoretic Tables. Fibonacci Association, San Jose, CA, 1972, p. 69.
+%D A003266 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics, second edition, Addison Wesley, p 597
+%D A003266 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003266 T. D. Noe, <a href="/A003266/b003266.txt">Table of n, a(n) for n = 1..50</a>
+%H A003266 Y. V. Matiyasevich and R. K. Guy, <a href="http://www.jstor.org/stable/2322322">A new formula for pi</a>, Amer. Math. Monthly 93 (1986), no. 8, 631-635. Math. Rev. 2000i:11199.
+%H A003266 Stackexchange, <a href="http://mathematica.stackexchange.com/questions/19637/">Product of Fibonacci numbers using For/Do/While loops</a>
+%H A003266 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Fibonorial.html">Fibonorial</a>
+%H A003266 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%F A003266 a(n) is asymptotic to C*phi^(n*(n+1)/2)/sqrt(5)^n where phi = (1+sqrt(5))/2 is the golden ratio and the decimal expansion of C is given in A062073. - _Benoit Cloitre_, Jan 11 2003
+%F A003266 a(n+3) = a(n+1)*a(n+2)/a(n) + a(n+2)^2/a(n+1). - _Robert Israel_, May 19 2014
+%F A003266 a(0) = 1 by convention since empty products equal 1. - _Michael Somos_, Oct 06 2014
+%F A003266 0 = a(n)*(+a(n+1)*a(n+3) - a(n+2)^2) +a(n+2)*(-a(n+1)^2) for all n>=0. - _Michael Somos_, Oct 06 2014
+%e A003266 a(5) = 30 because the first 5 Fibonacci numbers are 1, 1, 2, 3, 5 and 1 * 1 * 2 * 3 * 5 = 30.
+%e A003266 a(6) = 240 because 8 is the sixth Fibonacci number and a(5) * 8 = 240.
+%e A003266 a(7) = 3120 because 13 is the seventh Fibonacci number and a(6) * 13 = 3120.
+%e A003266 G.f. = 1 + x + x^2 + 2*x^3 + 6*x^4 + 30*x^5 + 240*x^6 + 3120*x^7 + ...
+%p A003266 with(combinat): A003266 := n-> mul(fibonacci(i),i=1..n): seq(A003266(n), n=1..18);
+%t A003266 Rest[FoldList[Times,1,Fibonacci[Range[20]]]] (* _Harvey P. Dale_, Jul 11 2011 *)
+%t A003266 a[ n_] := If[ n < 0, 0, Fibonorial[n]]; (* _Michael Somos_, Oct 06 2014 *)
+%o A003266 (PARI) a(n)=prod(i=1,n,fibonacci(i)) \\ _Charles R Greathouse IV_, Jan 13 2012
+%o A003266 (Haskell)
+%o A003266 a003266 n = a003266_list !! (n-1)
+%o A003266 a003266_list = scanl1 (*) $ tail a000045_list
+%o A003266 -- _Reinhard Zumkeller_, Sep 03 2013
+%Y A003266 Cf. A000045.
+%Y A003266 A158472 [From _Gary W. Adamson_, Mar 20 2009]
+%Y A003266 Cf. A123741 (for Fibonacci second version), A002110 (for primes), A070825 (for Lucas), A003046 (for Catalan), A126772 (for Padovan), A069777 (q-factorial numbers for sums of powers). - _Johannes W. Meijer_, Aug 21 2011]
+%Y A003266 Cf. A176343, A238243, A238244.
+%K A003266 nonn,easy,nice
+%O A003266 1,3
+%A A003266 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

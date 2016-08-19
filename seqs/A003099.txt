@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003099
+Showing 1-1 of 1
+
+%I A003099 M0576
+%S A003099 1,2,3,4,6,11,22,43,79,137,231,397,728,1444,3018,6386,13278,26725,
+%T A003099 51852,97243,177671,320286,579371,1071226,2053626,4098627,8451288,
+%U A003099 17742649,37352435,77926452,159899767,321468048,632531039,1219295320,2308910353,4314168202
+%N A003099 a(n) = Sum_{k=0..n} C(n,k^2).
+%D A003099 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A003099 a(n)*sqrt(n)/2^n is bounded: lim sup a(n)*sqrt(n)/2^n = 0.82... and lim inf a(n)*sqrt(n)/2^n = 0.58... - _Benoit Cloitre_, Nov 14 2003
+%F A003099 Binomial transform of the characteristic function of squares A010052. - _Carl Najafi_, Sep 09 2011
+%t A003099 Table[Sum[Binomial[n, k^2], {k, 0, Sqrt[n]}], {n, 0, 50}] (* _T. D. Noe_, Sep 10 2011 *)
+%o A003099 (PARI) a(n)=sum(k=0,sqrtint(n),binomial(n,k^2)) \\ _Charles R Greathouse IV_, Mar 26 2013
+%K A003099 nonn,easy
+%O A003099 0,2
+%A A003099 _N. J. A. Sloane_, _Henry W. Gould_
+%E A003099 More terms from _Carl Najafi_, Sep 09 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

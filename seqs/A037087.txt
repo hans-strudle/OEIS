@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037087
+Showing 1-1 of 1
+
+%I A037087
+%S A037087 0,1,2,4,5,7,8,10,11,13,14,15,17,18,20,21,23,24,26,27,28,30,31,33,34,
+%T A037087 36,37,39,40,41,43,44,46,47,49,50,52,53,54,56,57,59,60,62,63,65
+%N A037087 Beatty sequence for e^(1/e).
+%H A037087 <a href="/index/Be#Beatty">Index entries for sequences related to Beatty sequences</a>
+%F A037087 a(n) = floor(n*e^(1/e)) = floor(n*A073229).
+%Y A037087 Cf. A073229.
+%K A037087 nonn
+%O A037087 0,3
+%A A037087 _Felice Russo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

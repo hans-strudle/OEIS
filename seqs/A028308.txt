@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028308
+Showing 1-1 of 1
+
+%I A028308
+%S A028308 1,6,48,4320,46448640,10835538739200000
+%N A028308 Form a triangle with n numbers in top row; all other numbers are the product of their parents. E.g.: 4 2 3 5; 8 6 15; 48 90; 4320. The numbers must be positive and distinct and the final number is to be minimized.
+%H A028308 <a href="http://www.mathpro.com/math/archive/RusMath.txt">Problem 401 here suggested this sequence</a>
+%e A028308 Solutions for n=1,2,... are 1; 2 3; 3 2 4; 4 2 3 5; 5 3 2 4 7
+%Y A028308 A less interesting cousin of A028307.
+%K A028308 nonn
+%O A028308 1,2
+%A A028308 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

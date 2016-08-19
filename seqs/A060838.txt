@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060838
+Showing 1-1 of 1
+
+%I A060838
+%S A060838 0,0,0,0,0,1,1,0,1,0,0,1,1,0,1,0,1,0,2,1
+%N A060838 Rank of elliptic curve x^3 + y^3 = n.
+%D A060838 N. M. Stephens, The Diophantine equation X^3 + Y^3 = D Z^3 and the conjectures of Birch and Swinnerton-Dyer, J. Reine Angew. Math. 231 (1968), 121-162.
+%Y A060838 Cf. A060748, A060950.
+%K A060838 nonn,nice
+%O A060838 1,19
+%A A060838 Noam Katz (noamkj(AT)hotmail.com), May 02 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

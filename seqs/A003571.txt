@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003571
+Showing 1-1 of 1
+
+%I A003571
+%S A003571 2,6,4,3,4,18,5,20,6,30,16,18,4,42,11,42,6,20,28,10,16,22,12,12,18,78,
+%T A003571 8,16,10,6,23,48,20,34,52,27,12,44,29,5,30,126,12,18,16,138,35,28,18,
+%U A003571 50,30,78,8,162,41,39,42,60,88,45,22,80,36,16,42,198,100,8
+%N A003571 Order of 3 mod 3n+1.
+%p A003571 with(numtheory): f := n->order(3,3*n+1);
+%t A003571 Table[MultiplicativeOrder[3, 3*n + 1], {n, 68}] (* _Arkadiusz Wesolowski_, Nov 27 2012 *)
+%Y A003571 Cf. A002326, A003573, A217469.
+%K A003571 nonn
+%O A003571 1,1
+%A A003571 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

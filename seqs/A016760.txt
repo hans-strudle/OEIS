@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016760
+Showing 1-1 of 1
+
+%I A016760
+%S A016760 1,6561,390625,5764801,43046721,214358881,815730721,2562890625,
+%T A016760 6975757441,16983563041,37822859361,78310985281,152587890625,
+%U A016760 282429536481,500246412961,852891037441,1406408618241,2251875390625
+%N A016760 a(n) = (2*n+1)^8.
+%H A016760 Vincenzo Librandi, <a href="/A016760/b016760.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016760 (MAGMA) [(2*n+1)^8: n in [0..30]]; // _Vincenzo Librandi_, Sep 07 2011
+%o A016760 (Maxima) A016760(n):=(2*n+1)^8$
+%o A016760 makelist(A016760(n),n,0,20); /* _Martin Ettl_, Nov 12 2012 */
+%K A016760 nonn,easy
+%O A016760 0,2
+%A A016760 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

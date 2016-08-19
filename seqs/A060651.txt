@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060651
+Showing 1-1 of 1
+
+%I A060651
+%S A060651 3,23,47,71,199,167,191,239,383,311,431,647,479,983,887,719,839,1031,
+%T A060651 1487,1439,1151,1847,1319,3023,1511,1559,2711,4463,2591,2399,3863,
+%U A060651 2351,3527,3719,3119,5471,2999,4703,6263,4391,3671,3911,4079,5279,6311,4679
+%N A060651 Smallest prime p such that Q(sqrt -p) has class number 2n +1.
+%t A060651 Note that all such primes are == (3 mod 4) << NumberTheory`NumberTheoryFunctions` a = Table[0, {101}]; Do[ c = ClassNumber[ -Prime[n] ]; If[ c < 102 && a[ [c] ] == 0, a[ [c] ] = Prime[n] ], {n, 2, 4000} ]; Table[ a[ [n] ], {n, 1, 101} ]
+%Y A060651 Cf. A002148.
+%Y A060651 Cf. A002146. [From _R. J. Mathar_, Oct 05 2008]
+%K A060651 nonn
+%O A060651 1,1
+%A A060651 _Robert G. Wilson v_, Apr 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

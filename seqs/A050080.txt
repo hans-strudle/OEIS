@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050080
+Showing 1-1 of 1
+
+%I A050080
+%S A050080 1,4,16,5,20,6,2,8,32,10,3,12,48,192,64,21,7,28,9,36,144,576,2304,768,
+%T A050080 256,85,340,113,37,148,49,196,65,260,86,344,114,38,152,50,200,66,22,
+%U A050080 88,29,116,464,154,51,17,68,272,90,30,120,40,13
+%N A050080 a(n)=[ a(n-1)/3 ] if this is not among 0,a(1),...,a(n-2), else a(n)=4*a(n-1).
+%K A050080 nonn
+%O A050080 1,2
+%A A050080 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

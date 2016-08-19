@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017773
+Showing 1-1 of 1
+
+%I A017773
+%S A017773 1,57,1596,29260,395010,4187106,36288252,264385836,1652411475,
+%T A017773 8996462475,43183019880,184509266760,707285522580,2448296039700,
+%U A017773 7694644696200,22057981462440,57902201338905,139646485582065,310325523515700,636983969321700
+%N A017773 Binomial coefficients C(57,n).
+%C A017773 Row 57 of A007318.
+%H A017773 Nathaniel Johnston, <a href="/A017773/b017773.txt">Table of n, a(n) for n = 0..57</a> (full sequence)
+%p A017773 seq(binomial(57,n), n=0..57); # Nathaniel Johnston, Jun 24 2011
+%o A017773 (Sage) [binomial(57, n) for n in range(58)] # [From _Zerinvary Lajos_, May 28 2009]
+%Y A017773 Cf. A010926-A011001, A017765-A017772, A017774-A017816.
+%K A017773 nonn,fini,full,easy
+%O A017773 0,2
+%A A017773 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

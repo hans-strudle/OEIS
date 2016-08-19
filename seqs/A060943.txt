@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060943
+Showing 1-1 of 1
+
+%I A060943
+%S A060943 1,5,251,357904,25795462624,141727869124448256,
+%T A060943 83296040059942781485105152,7013444132843374500928464765799366656
+%N A060943 n!^n * sum{k=1 to n}[1/k^n].
+%H A060943 Harry J. Smith, <a href="/A060943/b060943.txt">Table of n, a(n) for n=1,...,30</a>
+%e A060943 a(3) = 6^3 *(1 + 1/2^3 + 1/3^3) = 251.
+%o A060943 (PARI) { default(realprecision, 100); for (n=1, 30, write("b060943.txt", n, " ", n!^n * sum(k=1, n, 1/k^n)); ) } [From _Harry J. Smith_, Jul 14 2009]
+%K A060943 easy,nonn
+%O A060943 1,2
+%A A060943 _Leroy Quet_, May 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

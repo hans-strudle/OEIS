@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024418
+Showing 1-1 of 1
+
+%I A024418
+%S A024418 0,0,1,5,0,14,21,30,0,0,0,0,0,63,84,34,102,0,19,24
+%N A024418 a(n) = t mod s(n,n-1), where t = max{s(n,k): k=1,2,...,n}, s(n,k) = Stirling numbers of the second kind, n >= 2.
+%K A024418 nonn
+%O A024418 1,4
+%A A024418 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

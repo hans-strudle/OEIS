@@ -1,0 +1,64 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007949
+Showing 1-1 of 1
+
+%I A007949
+%S A007949 0,0,1,0,0,1,0,0,2,0,0,1,0,0,1,0,0,2,0,0,1,0,0,1,0,0,3,0,0,1,0,0,1,0,
+%T A007949 0,2,0,0,1,0,0,1,0,0,2,0,0,1,0,0,1,0,0,3,0,0,1,0,0,1,0,0,2,0,0,1,0,0,
+%U A007949 1,0,0,2,0,0,1,0,0,1,0,0,4,0,0,1,0,0,1,0,0,2,0,0,1,0,0,1,0,0,2,0,0,1,0,0,1
+%N A007949 Greatest k such that 3^k divides n. Or, 3-adic valuation of n.
+%C A007949 a(n) mod 2 = 1 - A014578(n). - _Reinhard Zumkeller_, Oct 04 2008
+%C A007949 Obeys the general recurrences for p-adic valuation discussed in A214411. - _Redjan Shabani_, Jul 17 2012
+%D A007949 K. Atanassov, On the 61st, 62nd and the 63rd Smarandache Problems, Notes on Number Theory and Discrete Mathematics, Sophia, Bulgaria, Vol. 4 (1998), No. 4, 175-182.
+%D A007949 F. Q. Gouvea, p-Adic Numbers, Springer-Verlag, 1993; see p. 23.
+%D A007949 M. Vassilev-Missana and K. Atanassov, Some Representations related to n!, Notes on Number Theory and Discrete Mathematics, Vol. 4 (1998), No. 4, 148-153.
+%H A007949 T. D. Noe, <a href="/A007949/b007949.txt">Table of n, a(n) for n = 1..1000</a>
+%H A007949 K. Atanassov, <a href="http://www.gallup.unm.edu/~smarandache/Atanassov-SomeProblems.pdf">On Some of Smarandache's Problems</a>, American Research Press, 1999, 16-21.
+%H A007949 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/OPNS.pdf">Only Problems, Not Solutions!</a>.
+%F A007949 a(n) = 0 if n != 0 (mod 3), else a(n) = 1 + a(n/3). - _Reinhard Zumkeller_, Aug 12 2001, edited by _M. F. Hasler_, Aug 11 2015
+%F A007949 a(n) = A051064(n)-1. G.f.: Sum(k>=1, x^3^k/(1-x^3^k)))). - _Ralf Stephan_, Apr 12 2002
+%F A007949 Fixed point of the morphism: 0 -> 001; 1 -> 002; 2 -> 003; 3 -> 004; 4 -> 005; etc...; starting from a(1) = 0. - _Philippe Deléham_, Mar 29 2004
+%F A007949 Totally additive with a(p) = 1 if p = 3, 0 otherwise.
+%F A007949 v_{m}(n) = sum_{r>=1} (r/m^{r+1}) sum_{j=1..m-1} sum_{k=0}^{m^{r+1}-1} exp[ {2*k*Pi*I*(n+(m-j)*m^r)} / m^{r+1}]. This formula is for the general case, for this specific one set m=3. - _A. Neves_, Oct 04 2010
+%F A007949 a(3n) = A051064(n), a(2n) = a(n), a(2n-1) = A253786(n). - _Cyril Damamme_, Aug 04 2015
+%F A007949 a(3n) = a(n) + 1, a(pn) = a(n) for any other prime p != 3. - _M. F. Hasler_, Aug 11 2015
+%p A007949 A007949 := proc(n) option remember; if n mod 3 > 0 then 0 else A007949(n/3)+1; fi; end;
+%t A007949 p=3; Array[ If[ Mod[ #, p ]==0, Select[ FactorInteger[ # ], Function[ q, q[ [ 1 ] ]==p ], 1 ][ [ 1, 2 ] ], 0 ]&, 81 ]
+%t A007949 Nest[ Function[ l, {Flatten[(l /. {0 -> {0, 0, 1}, 1 -> {0, 0, 2}, 2 -> {0, 0, 3}, 3 -> {0, 0, 4}}) ]}], {0}, 5] (* _Robert G. Wilson v_, Mar 03 2005 *)
+%t A007949 IntegerExponent[Range[200], 3] (* _Zak Seidov_, Apr 15 2010 *)
+%t A007949 Table[If[Mod[n, 3] > 0, 0, 1 + b[n/3]], {n, 200}] (* _Zak Seidov_, Apr 15 2010 *)
+%o A007949 (PARI) a(n)=valuation(n,3)
+%o A007949 (Haskell)
+%o A007949 a007949 n = if m > 0 then 0 else 1 + a007949 n'
+%o A007949             where (n', m) = divMod n 3
+%o A007949 -- _Reinhard Zumkeller_, Jun 23 2013, May 14 2011
+%o A007949 (MATLAB)
+%o A007949 %Input:
+%o A007949 %  n: an integer
+%o A007949 %Output:
+%o A007949 %  m: max power of 3 such that 3^m divides n
+%o A007949 %  M: 1-by-K matrix where M(i) is the max power of 3 such that 3^M(i) divides n
+%o A007949 function [m,M] = Omega3(n)
+%o A007949   M = NaN*zeros(1,n);
+%o A007949   M(1)=0; M(2)=0; M(3)=0;
+%o A007949     for k=4:n
+%o A007949       if M(k-3)~=0
+%o A007949         M(k)=M(k-k/3)+1;
+%o A007949       else
+%o A007949         M(k)=0;
+%o A007949       end
+%o A007949     end
+%o A007949     m=M(end);
+%o A007949 end
+%o A007949 % _Redjan Shabani_, Jul 17 2012
+%o A007949 (Sage) [valuation(n, 3) for n in (1..106)]  # _Peter Luschny_, Nov 16 2012
+%o A007949 (MAGMA) [Valuation(n, 3): n in [1..110]]; // _Bruno Berselli_, Aug 05 2013
+%Y A007949 Partial sums give A054861. Cf. A080278, A001511, A122841, A007814, A112765.
+%Y A007949 Cf. A051064.
+%Y A007949 Cf. A253786.
+%K A007949 nonn,easy
+%O A007949 1,9
+%A A007949 R. Muller
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

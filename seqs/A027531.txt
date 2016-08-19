@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027531
+Showing 1-1 of 1
+
+%I A027531
+%S A027531 1,7,85,814,102727,12277291,46825417,65344835,84274153,112772640,
+%T A027531 2289634277,3032809277,19401126651121,4053853857998431,
+%U A027531 20352163396468207
+%N A027531 First column of A027517.
+%F A027531 Numerators of sequence a[ 1, n ] in (a[ i, j ])^3 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i
+%K A027531 nonn
+%O A027531 1,2
+%A A027531 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

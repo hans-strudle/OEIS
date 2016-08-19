@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058998
+Showing 1-1 of 1
+
+%I A058998
+%S A058998 0,1,0,2,1,0,1,8,0,0,0,0,1,1,0,1,1,0,2,0,0,0,8,0,13,47,0,2,7,0,1,1,0,
+%T A058998 1,1,0,1,1,0,0,2,0,5,0,0,22,15,0,6,0,0,3,10,0,0,143,0,88,12,0,4,2,0,4,
+%U A058998 8,0,39,83,0,0,1,0,1,1,0
+%N A058998 Least power k for which n^k reversed is a prime, or 0 if impossible.
+%t A058998 Do[ If[ Mod[ n, 3 ] != 0 && Mod[ n, 10 ] != 0 && Mod[ n, 11 ] != 0, k = 1; While[ !PrimeQ[ ToExpression[ StringReverse[ ToString[ n^k ] ] ] ], k++ ]; Print[ k ], Print[ 0 ] ], {n, 2, 75} ]
+%K A058998 base,nonn
+%O A058998 1,4
+%A A058998 _Robert G. Wilson v_, Jan 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

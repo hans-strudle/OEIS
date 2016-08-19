@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057333
+Showing 1-1 of 1
+
+%I A057333
+%S A057333 4,21,74,347,1743,8385,44355,229952,1235489,6629026,37152645,202017712
+%N A057333 Numbers of n-digit primes that undulate.
+%C A057333 'Undulate' means that the alternate digits are consistently greater than or less than the digits adjacent to them (e.g. 70769). Smoothly undulating palindromic primes (e.g. 95959) are a subset and included in the count.
+%D A057333 C. A. Pickover, "Wonders of Numbers", Oxford New York 2001, Chapter 52, pp. 123-124, 316-317.
+%H A057333 C. A. Pickover, "Wonders of Numbers, Adventures in Mathematics, Mind and Meaning," <a href="http://www.zentralblatt-math.org/zmath/en/search/?q=an:0983.00008&amp;format=complete">Zentralblatt review</a>
+%H A057333 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/UndulatingNumber.html">Undulating Number.</a>
+%Y A057333 Cf. A046075, A033619, A032758, A039944, A016073, A046076, A046077, A057332.
+%K A057333 nonn,base,more
+%O A057333 1,1
+%A A057333 _Patrick De Geest_, Sep 15 2000.
+%E A057333 Offset corrected and a(10)-a(11) from _Donovan Johnson_, Aug 08 2010
+%E A057333 a(12) from _Giovanni Resta_, Feb 24 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

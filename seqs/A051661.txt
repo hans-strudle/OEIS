@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051661
+Showing 1-1 of 1
+
+%I A051661
+%S A051661 1,2,3,4,5,6,8,9,10,12,15,16,18,20,23,24,25,27,30,34,35,36,37,38,39,
+%T A051661 42,52,56,67,68,77,80,86,87,99,120,137,143,150,188
+%N A051661 Experimental values for number of circles in packing equal circles into a square for which there are no loose circles.
+%D A051661 H. T. Croft, K. J. Falconer and R. K. Guy: Unsolved problems in geometry, Springer, New York, 1991.
+%H A051661 D. Boll, <a href="http://www.frii.com/~dboll/packing.html">Optimal Packing Of Circles And Spheres</a>
+%H A051661 E. Friedman, <a href="http://www.stetson.edu/~efriedma/packing.html">Erich's Packing Center</a>
+%H A051661 C. D. Maranas, C. A. Floudas and P.M. Pardalos, <a href="http://www.inf.u-szeged.hu/~pszabo/Packing_circles.html">New results in the packing of equal circles in a square</a>, Discrete Mathematics 142 (1995), p. 287-293.
+%H A051661 K. J. Nurmela and P. R. J. Ostergard, <a href="http://www.inf.u-szeged.hu/~pszabo/Packing_circles.html">Packing up to 50 equal circles in a square</a>, Discrete Comput. Geom. 18 (1997) 1, p. 111-120.
+%H A051661 E. Specht, <a href="http://www.packomania.com/">www.packomania.com</a>
+%Y A051661 Complement of A051660.
+%K A051661 nonn
+%O A051661 0,2
+%A A051661 Eckard Specht (eckard.specht(AT)physik.uni-magdeburg.de)
+%E A051661 I do not know how many of these values have been rigorously proved - _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

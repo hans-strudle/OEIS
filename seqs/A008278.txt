@@ -1,0 +1,47 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008278
+Showing 1-1 of 1
+
+%I A008278
+%S A008278 1,1,1,1,3,1,1,6,7,1,1,10,25,15,1,1,15,65,90,31,1,1,21,140,350,301,63,
+%T A008278 1,1,28,266,1050,1701,966,127,1,1,36,462,2646,6951,7770,3025,255,1,1,
+%U A008278 45,750,5880,22827,42525,34105,9330
+%N A008278 Triangle of Stirling numbers of 2nd kind, S(n,n-k+1), n >= 1, 1<=k<=n.
+%C A008278 O.g.f. for the k-th column sequence is 1/(1-x) if k=1 and A(k,x):=((x^k)/(1-x)^(2*k+1))*sum(A008517(k,m+1)*x^m,m=0..k-1) if k>=2. A008517 is the second-order Eulerian triangle. Cf. p. 257, eq. (6.43) of the R. L. Graham et al. book. _Wolfdieter Lang_, Oct 14 2005.
+%C A008278 E.g.f. for the k-th column sequence with offset n=0 is E(k,x):= exp(x)*sum(A112493(k-1,m)*(x^(k-1+m))/(k-1+m)!,m=0..k-1) if k>=1. W. Lang, Oct 14 2005.
+%D A008278 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 835.
+%D A008278 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 223.
+%D A008278 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics, Addison-Wesley, 2nd ed., 1994.
+%H A008278 T. D. Noe, <a href="/A008278/b008278.txt">Rows n=0..100 of triangle, flattened</a>
+%H A008278 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A008278 T. Copeland, <a href="http://tcjpn.wordpress.com/2015/12/21/generators-inversion-and-matrix-binomial-and-integral-transforms/">Generators, Inversion, and Matrix, Binomial, and Integral Transforms</a>, 2015
+%H A008278 U. N. Katugampola, <a href="http://arxiv.org/abs/1106.0965">A new Fractional Derivative and its Mellin Transform</a>, arXiv preprint arXiv:1106.0965 [math.CA], 2011.
+%F A008278 a(n, k)=0 if n<k, a(n, 0)=0, a(1, 1)=1, a(n, k)= (n-k+1)*a(n-1, k-1) + a(n-1, k) else.
+%e A008278 The e.g.f. of [0,0,1,7,25,65,...], the k=3 column of A008278, but with offset n=0, is exp(x)*(1*(x^2)/2! + 4*(x^3)/3! + 3*(x^4)/4!).
+%e A008278 Triangle starts:
+%e A008278   1,
+%e A008278   1,  1,
+%e A008278   1,  3,   1,
+%e A008278   1,  6,   7,    1,
+%e A008278   1, 10,  25,   15,    1,
+%e A008278   1, 15,  65,   90,   31,    1,
+%e A008278   1, 21, 140,  350,  301,   63,    1,
+%e A008278   1, 28, 266, 1050, 1701,  966,  127,   1,
+%e A008278   1, 36, 462, 2646, 6951, 7770, 3025, 255, 1,
+%e A008278   ...
+%t A008278 rows = 10; Flatten[ Table[ StirlingS2[n, k], {n, 1, rows}, {k, n, 1, -1}]] (* _Jean-François Alcover_, Nov 17 2011, *)
+%o A008278 (Haskell)
+%o A008278 a008278 n k = a008278_tabl !! (n-1) !! (k-1)
+%o A008278 a008278_row n = a008278_tabl !! (n-1)
+%o A008278 a008278_tabl = iterate st2 [1] where
+%o A008278   st2 row = zipWith (+) ([0] ++ row') (row ++ [0])
+%o A008278             where row' = reverse $ zipWith (*) [1..] $ reverse row
+%o A008278 -- _Reinhard Zumkeller_, Jun 22 2013
+%Y A008278 See A008277 and A048993, which are the main entries for this triangle of numbers.
+%Y A008278 Cf. A094262, A008277, A008276, A003422, A000166, A000110, A000204, A000045, A000108.
+%K A008278 nonn,tabl,nice
+%O A008278 1,5
+%A A008278 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

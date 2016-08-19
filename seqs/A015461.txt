@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015461
+Showing 1-1 of 1
+
+%I A015461
+%S A015461 0,1,1,5,21,341,5717,354901,23771733,5838469717,1563742763605,
+%T A015461 1532083548256853,1641235215638133333,6427665390003549698645,
+%U A015461 27541785384957544314239573,431380864280640133787922528853
+%N A015461 q-Fibonacci numbers for q=4.
+%H A015461 Vincenzo Librandi, <a href="/A015461/b015461.txt">Table of n, a(n) for n = 0..80</a>
+%F A015461 a(n) = a(n-1) + 4^(n-2) a(n-2).
+%F A015461 Associated constant: C_4=lim n-->infty a(n)*a(n-2)/a(n-1)^2 =1.094337777197221121533242886.... - _Benoit Cloitre_, Aug 30 2003
+%t A015461 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]+a[n-2]*4^(n-2)}, a, {n, 30}] (* _Vincenzo Librandi_, Nov 08 2012 *)
+%o A015461 (MAGMA) [0] cat[n le 2 select 1 else Self(n-1) + Self(n-2)*(4^(n-2)): n in [1..20]]; // _Vincenzo Librandi_, Nov 08 2012
+%Y A015461 Cf. A015459, A015460.
+%K A015461 nonn,easy
+%O A015461 0,4
+%A A015461 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

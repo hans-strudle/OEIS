@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033536
+Showing 1-1 of 1
+
+%I A033536
+%S A033536 1,1,8,125,2744,74088,2299968,78953589,2924207000,114933031928,
+%T A033536 4738245926336,203152294091656,9000469593857728,410006814589000000,
+%U A033536 19129277941464384000,911218671317138401125,44202915427981062663000
+%N A033536 Cubes of Catalan numbers (A000108).
+%H A033536 Vincenzo Librandi, <a href="/A033536/b033536.txt">Table of n, a(n) for n = 0..500</a>
+%t A033536 Table[CatalanNumber@n^3, {n, 0, 30}] (* _Vincenzo Librandi_, Nov 13 2012 *)
+%o A033536 (Mupad) combinat::dyckWords::count(n)^3 $ n = 0..16; - _Zerinvary Lajos_, Feb 15 2007
+%o A033536 (Sage) [catalan_number(i)^3 for i in xrange(0,17)]# [From _Zerinvary Lajos_, May 17 2009]
+%o A033536 (MAGMA) [Catalan(n)^3: n in [0..20]]; // _Vincenzo Librandi_, Nov 13 2012
+%K A033536 nonn
+%O A033536 0,3
+%A A033536 _N. J. A. Sloane_, Dec 10 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

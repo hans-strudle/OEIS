@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045577
+Showing 1-1 of 1
+
+%I A045577
+%S A045577 1,2,3,4,8,9,10,16,27,32,50,64,68,81,128,171,243,250,256,410,512,513,
+%T A045577 729,1024,1156,1250,1539,2048,2050,2056,2187,3249,4096,4617,5050,6250,
+%U A045577 6561,8192,9747,10250,13203,13851,16384,16810,19652,19683,20512,25250
+%N A045577 Numbers n such that n | 4^n + 2^n, or n | 8^n + 4^n.
+%K A045577 nonn
+%O A045577 1,2
+%A A045577 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

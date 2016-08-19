@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008359
+Showing 1-1 of 1
+
+%I A008359
+%S A008359 1,84,1498,11620,55650,195972,559258,1371316,2999682,6003956,11193882,
+%T A008359 19695172,33023074,53163684,82663002,124723732,183309826,263258772,
+%U A008359 370401626,511690788,695335522
+%N A008359 Coordination sequence for D_7 lattice.
+%D A008359 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%H A008359 T. D. Noe, <a href="/A008359/b008359.txt">Table of n, a(n) for n=0..1000</a>
+%H A008359 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A008359 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A008359 G.f.: (x+1)*(x^6+76*x^5+855*x^4+2008*x^3+855*x^2+76*x+1)/(x-1)^7. [_Colin Barker_, Sep 26 2012]
+%p A008359 484/45*n^6+392/9*n^4+1246/45*n^2+2;
+%Y A008359 A row of array A103903.
+%K A008359 nonn,easy
+%O A008359 0,2
+%A A008359 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049772
+Showing 1-1 of 1
+
+%I A049772
+%S A049772 0,1,3,3,7,14,19,11,33,43,62,48,70,102,80,48,180,155,204,225,242,287,
+%T A049772 257,273,337,406,348,430,555,419,530,460,704,805,666,622,800,948,774,
+%U A049772 675,1040,1124,1147,1119,1364,1343,1237,995,1415
+%N A049772 a(n)=Sum{T(n,k): k=1,2,...,n}, array T as in A049771.
+%K A049772 nonn
+%O A049772 1,3
+%A A049772 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

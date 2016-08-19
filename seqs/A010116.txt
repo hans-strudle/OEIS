@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010116
+Showing 1-1 of 1
+
+%I A010116
+%S A010116 1,0,0,0,0,0,0,8,6,0,0,0,0,0,90,144,57,0,0,0,144,544,1872,1632,
+%T A010116 444,0,750,900,675,16200,26700,15508,5939,3672,4176,11736,93861,
+%U A010116 308572,316556,154084,35093,57624,85248,336492
+%V A010116 1,0,0,0,0,0,0,8,-6,0,0,0,0,0,90,-144,57,0,0,0,144,544,-1872,1632,
+%W A010116 -444,0,750,900,675,-16200,26700,-15508,5939,3672,-4176,-11736,-93861,
+%X A010116 308572,-316556,154084,-35093,-57624,-85248,-336492
+%N A010116 Magnetic susceptibility coefficients for square lattice spin 2 Ising model.
+%D A010116 Jensen, Iwan; Guttmann, Anthony J.; Series expansions of the percolation probability for directed square and honeycomb lattices. J. Phys. A 28 (1995), no. 17, 4813-4833.
+%H A010116 I. Jensen, <a href="/A010116/b010116.txt">Table of n, a(n) for n = 0..111</a> (from link below)
+%H A010116 I. G. Enting, A, J. Guttmann and I. Jensen, <a href="http://arXiv.org/abs/hep-lat/?9410005">Low-Temperature Series Expansions for the Spin-1 Ising Model</a>, J. Phys. A. 27 (1994) 6987-7006.
+%H A010116 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/ising/series/sus2.ser">More terms</a>
+%K A010116 sign
+%O A010116 0,8
+%A A010116 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

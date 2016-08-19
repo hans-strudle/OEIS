@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008761
+Showing 1-1 of 1
+
+%I A008761
+%S A008761 1,1,2,3,4,5,7,8,10,12,14,16,19,21,24,27,30,33,38,41,46,51,56,61,68,
+%T A008761 73,80,87,94,101,110,117,126,135,144,153,164,173,184,195,206,217,230,
+%U A008761 241,254,267,280,293,308
+%N A008761 Expansion of (1+x^18)/(1-x)/(1-x^2)/(1-x^3).
+%K A008761 nonn
+%O A008761 0,3
+%A A008761 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

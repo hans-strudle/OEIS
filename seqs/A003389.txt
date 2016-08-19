@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003389
+Showing 1-1 of 1
+
+%I A003389
+%S A003389 11,266,521,776,1031,1286,1541,1796,2051,2306,2561,2816,6571,6826,
+%T A003389 7081,7336,7591,7846,8101,8356,8611,8866,9121,13131,13386,13641,13896,
+%U A003389 14151,14406,14661,14916,15171,15426,19691,19946,20201,20456,20711,20966,21221
+%N A003389 Sum of 11 nonzero 8th powers.
+%H A003389 Alexsandar Petojevic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL5/Petojevic/petojevic5.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.1.7
+%F A003389 a(n) > 8n/3. (Work mod 32.) - _Charles R Greathouse IV_, May 04 2015
+%Y A003389 Subsequence of A004884.
+%K A003389 nonn
+%O A003389 1,1
+%A A003389 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

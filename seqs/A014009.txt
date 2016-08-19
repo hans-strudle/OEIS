@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014009
+Showing 1-1 of 1
+
+%I A014009
+%S A014009 3,4,10,25,62,154,383,952,2366,5881,14618,36335,90315,224489,557995,
+%T A014009 1386965,3447471,8569111,21299574,52942697,131595551,327096843,
+%U A014009 813039224,2020908468,5023215259,12485816125
+%N A014009 Difference of Shallit sequence S(3,7), a(n)=[ a(n-1)^2/a(n-2)+1 ].
+%D A014009 D. W. Boyd, Some integer sequences related to the Pisot sequences, Acta Arithmetica, 34 (1979), 295-305.
+%D A014009 Problem B-686, Fib. Quart., 29 (1991), 85.
+%H A014009 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%Y A014009 Cf. A020730.
+%K A014009 nonn
+%O A014009 0,1
+%A A014009 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

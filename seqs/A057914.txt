@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057914
+Showing 1-1 of 1
+
+%I A057914
+%S A057914 1,2,6,7,26,35,50,115,171,204,219,362,644,1959,4427
+%N A057914 Numbers n such that 2*5^n + 3 is prime.
+%t A057914 Do[ If[ PrimeQ[ 2*5^n + 3 ], Print[ n ] ], {n, 1, 2000} ]
+%K A057914 nonn
+%O A057914 1,2
+%A A057914 _Robert G. Wilson v_, Nov 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

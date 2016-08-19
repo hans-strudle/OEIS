@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052058
+Showing 1-1 of 1
+
+%I A052058
+%S A052058 16,24,25,26,27,38,39,40,42,43,44,45,46,51,95,96,108,169,191,193,198,
+%T A052058 202,205,247,250,316,317,379,386,421,422,423,425,485,486,488,589,592,
+%U A052058 642,643,659,731,736,758,759,800,835,839,927,971,972,978
+%N A052058 Largest palindromic substring (without leading zeros) of 2^n is a repdigit of minimum length 2.
+%e A052058 E.g. 2^44 = 175921860{444}16 and this repunit 444 is its largest palindromic substring.
+%Y A052058 Cf. A052059, A052057.
+%K A052058 nonn,base
+%O A052058 0,1
+%A A052058 _Patrick De Geest_, Jan 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006186
+Showing 1-1 of 1
+
+%I A006186 M3773
+%S A006186 1,5,8,10,11,12,12,13,13
+%N A006186 Number of pair-coverings with largest block size 4.
+%C A006186 The g.f. (1+5*z+6*z**2+z**3)/(z-1)/(z**2-z-1) conjectured by _Simon Plouffe_ in his 1992 dissertation is probably wrong.
+%D A006186 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006186 R. G. Stanton, J. L. Allston and D. D. Cowan, Pair-coverings with restricted largest block length, Ars Combin., 11 (1981), 85-98.
+%H A006186 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A006186 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%K A006186 nonn
+%O A006186 4,2
+%A A006186 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

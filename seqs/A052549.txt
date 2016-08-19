@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052549
+Showing 1-1 of 1
+
+%I A052549
+%S A052549 1,4,9,19,39,79,159,319,639,1279,2559,5119,10239,20479,40959,81919,
+%T A052549 163839,327679,655359,1310719,2621439,5242879,10485759,20971519,
+%U A052549 41943039,83886079,167772159,335544319,671088639,1342177279,2684354559
+%N A052549 a(0)=1; a(n) = 5*2^(n-1) - 1, n>0.
+%C A052549 A153894 is a better version of this sequence. - _N. J. A. Sloane_, Feb 07 2009
+%C A052549 Equals binomial transform of [1, 3, 2, 3, 2, 3, 2,...] and row sums of triangle A140183. - _Gary W. Adamson_, May 11 2008
+%H A052549 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=486">Encyclopedia of Combinatorial Structures 486</a>
+%H A052549 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (3,-2).
+%F A052549 G.f.: -(-x+x^2-1)/((-1+2*x)*(-1+x)).
+%F A052549 -2*a(n) + a(n+1) - 1 = 0, n>0.
+%F A052549 Row sums of triangle A133601. - _Gary W. Adamson_, Sep 18 2007
+%p A052549 spec := [S,{S=Prod(Sequence(Union(Z,Z)),Union(Z,Sequence(Z)))},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052549 a=4; lst={1, a}; k=5; Do[a+=k; AppendTo[lst, a]; k+=k, {n, 0, 5!}]; lst (* _Vladimir Joseph Stephan Orlovsky_, Dec 15 2008 *)
+%Y A052549 Cf. A133601, A140183, A153894.
+%K A052549 easy,nonn
+%O A052549 0,2
+%A A052549 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+%E A052549 More terms from _James A. Sellers_, Jun 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

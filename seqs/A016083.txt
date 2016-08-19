@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016083
+Showing 1-1 of 1
+
+%I A016083
+%S A016083 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A016083 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,
+%U A016083 1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0
+%V A016083 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A016083 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,1,
+%X A016083 -1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0
+%N A016083 Inverse of 2074th cyclotomic polynomial.
+%p A016083 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016083 sign
+%O A016083 0,1
+%A A016083 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

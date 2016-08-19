@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012927
+Showing 1-1 of 1
+
+%I A012927
+%S A012927 2,1,20,54,932,5670,99648,1005704,19127984,273119400,5764554528,
+%T A012927 106046677968,2504052726944,55986392252336,1478337150849408,
+%U A012927 38674242587249280,1136792156499528448
+%V A012927 2,-1,20,-54,932,-5670,99648,-1005704,19127984,-273119400,5764554528,
+%W A012927 -106046677968,2504052726944,-55986392252336,1478337150849408,
+%X A012927 -38674242587249280,1136792156499528448
+%N A012927 tan(tan(x)+log(x+1))=2*x-1/2!*x^2+20/3!*x^3-54/4!*x^4+932/5!*x^5...
+%t A012927 With[{nn=20},Rest[CoefficientList[Series[Tan[Tan[x]+Log[x+1]],{x,0,nn}], x]Range[0,nn]!]] (* _Harvey P. Dale_, Oct 06 2011 *)
+%K A012927 sign
+%O A012927 0,1
+%A A012927 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

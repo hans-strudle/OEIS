@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044219
+Showing 1-1 of 1
+
+%I A044219
+%S A044219 32,96,160,224,256,288,352,416,480,544,608,672,736,768,800,864,928,
+%T A044219 992,1056,1120,1184,1248,1280,1312,1376,1440,1504,1568,1632,1696,1760,
+%U A044219 1792,1824,1888,1952,2016,2048,2144,2208,2272,2304
+%N A044219 Numbers n such that string 4,0 occurs in the base 8 representation of n but not of n-1.
+%K A044219 nonn,base
+%O A044219 1,1
+%A A044219 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

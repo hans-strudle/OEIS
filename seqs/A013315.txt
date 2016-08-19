@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013315
+Showing 1-1 of 1
+
+%I A013315
+%S A013315 1,2,2,12,72,272,968,5488,36144,204512,1135840,7577856,56287168,
+%T A013315 406104064,2933384704,23084016896,194919700480,1664627753984,
+%U A013315 14417113925632,131148402111488,1251412558922752,12211894620549120
+%N A013315 sinh(exp(x)-cos(x))=x+2/2!*x^2+2/3!*x^3+12/4!*x^4+72/5!*x^5...
+%K A013315 nonn
+%O A013315 1,2
+%A A013315 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

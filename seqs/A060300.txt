@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060300
+Showing 1-1 of 1
+
+%I A060300
+%S A060300 0,16,144,576,1600,3600,7056,12544,20736,32400,48400,69696,97344,
+%T A060300 132496,176400,230400,295936,374544,467856,577600,705600,853776,
+%U A060300 1024144,1218816,1440000,1690000,1971216,2286144,2637376,3027600
+%N A060300 (2n(n+1))^2.
+%C A060300 Arises from middle column of following triangle: 4^2, 12^2, 24^2...:
+%C A060300 ......................3^2+ 4^2=5^2................
+%C A060300 ................10^2+11^2+12^2=13^2+14^2..........
+%C A060300 ...........21^2+22^2+23^2+24^2=25^2+26^2+27^2.....
+%C A060300 ......36^2+37^2+38^2+39^2+40^2=41^2+42^2+43^2+44^2, etc.
+%D A060300 C. Stanley Ogilvy and John T. Anderson, Excursions in Number Theory, Oxford University Press, NY, 1966, pp. 90-92.
+%H A060300 Harry J. Smith, <a href="/A060300/b060300.txt">Table of n, a(n) for n = 0..1000</a>
+%F A060300 G.f.: 16*x*(1+4*x+x^2)/(1-x)^5. [_Colin Barker_, Apr 22 2012]
+%o A060300 (PARI) { for (n=0, 1000, write("b060300.txt", n, " ", (2*n*(n + 1))^2); ) } [From _Harry J. Smith_, Jul 03 2009]
+%Y A060300 Cf. A046092.
+%K A060300 nonn,easy
+%O A060300 0,2
+%A A060300 Jason Earls (zevi_35711(AT)yahoo.com), Mar 25 2001
+%E A060300 Corrected the definition from 2n(n+1)^2 to (2n(n+1))^2. - _Harry J. Smith_, Jul 03 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036484
+Showing 1-1 of 1
+
+%I A036484
+%S A036484 1,2,4,6,12,24,60,120,240,360,840,1680,2520,7560,15120,27720,55440,
+%T A036484 110880,221760,498960,720720,1441440
+%N A036484 Minimal number with binary order n which has maximal number of divisors in this interval.
+%C A036484 Compare with A007416, where terms of this sequence are present.
+%e A036484 For n=9, with 256<x<=512, d[ x ] takes 17 distinct values, of which d[ x ]=24 is the greatest (see A036451 and A036470) and occurs first at x=360, so a(9)=360.
+%t A036484 ld[ x_ ] := Length[ Divisors[ x ] ]; a=1+2^(n-1), b=2^n; List=Flatten[ Position[ Table[ ld[ x ], {x, a, b} ], max{ld[ x ]} ]+a-1 ]; Min{List}=A036484
+%Y A036484 Cf. A000005, A029837, A005179, A007416, A036470, A036492, A036493.
+%K A036484 nonn
+%O A036484 0,2
+%A A036484 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

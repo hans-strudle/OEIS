@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034217
+Showing 1-1 of 1
+
+%I A034217
+%S A034217 1,1,5,35,490,11075,334678,10274578,293142769,7563157341,176207637611,
+%T A034217 3726299739235,71996867385677,1279018609068332,21010435342847404,
+%U A034217 320746985138432185,4570573075546774047
+%N A034217 Number of ternary codes of length 5 with n words.
+%D A034217 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034217 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034217 Cf. A034188-.
+%K A034217 nonn
+%O A034217 0,3
+%A A034217 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

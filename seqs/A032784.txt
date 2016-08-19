@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032784
+Showing 1-1 of 1
+
+%I A032784
+%S A032784 0,2,5,7,8,11,12,17,19,22,26,32,33,35,44,47,55,62,68,77,82,89,107,110,
+%T A032784 116,117,132,143,152,176,187,197,215,242,257,264,278,297,332,341,362,
+%U A032784 407,418,440,467,539,572,602,607,656,737,782,803,845,902,957,1007,1034
+%N A032784 n(n+1)(n+2)...(n+12) / n+(n+1)+(n+2)+...+(n+12) is an integer.
+%Y A032784 Cf. A032765-A032798.
+%K A032784 nonn
+%O A032784 0,2
+%A A032784 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

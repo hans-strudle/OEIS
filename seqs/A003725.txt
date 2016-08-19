@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003725
+Showing 1-1 of 1
+
+%I A003725 M1911
+%S A003725 1,1,1,2,9,4,95,414,49,10088,55521,13870,2024759,15787188,
+%T A003725 28612415,616876274,7476967905,32522642896,209513308607,
+%U A003725 4924388011050,38993940088199,11731860520780,3807154270837281
+%V A003725 1,1,-1,-2,9,-4,-95,414,49,-10088,55521,-13870,-2024759,15787188,
+%W A003725 -28612415,-616876274,7476967905,-32522642896,-209513308607,
+%X A003725 4924388011050,-38993940088199,11731860520780,3807154270837281
+%N A003725 E.g.f. exp( x * exp(-x) ).
+%D A003725 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A003725 a(n) = Sum_{k=0..n} (-k)^(n-k)*binomial(n, k). - _Vladeta Jovovic_, Mar 15 2003
+%F A003725 First column of A215652. - _Peter Bala_, Sep 14 2012
+%t A003725 With[{nn=30},CoefficientList[Series[Exp[x Exp[-x]],{x,0,nn}],x]Range[0,nn]!] (* _Harvey P. Dale_, Oct 20 2011 *)
+%Y A003725 Cf. A000248, A069856, A072034. A215652.
+%K A003725 sign,easy
+%O A003725 0,4
+%A A003725 _R. H. Hardin_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

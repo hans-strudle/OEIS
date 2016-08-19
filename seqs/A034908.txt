@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034908
+Showing 1-1 of 1
+
+%I A034908
+%S A034908 1,10,180,4680,159120,6683040,334152000,19380816000,1279133856000,
+%T A034908 94655905344000,7761784238208000,698560581438720000,
+%U A034908 68458936980994560000,7256647319985423360000,827257794478338263040000
+%N A034908 One half of octo-factorial numbers.
+%H A034908 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A034908 2*a(n) = (8*n-6)(!^8) := product(8*j-6, j=1..n) = 2^n*A007696(n), A007696(n)=(4*n-3)(!^4) := product(4*j-3, j=1..n).
+%F A034908 E.g.f.: (-1+(1-8*x)^(-1/4))/2.
+%F A034908 G.f.: x/(1-10x/(1-8x/(1-18x/(1-16x/(1-26x/(1-24x/(1-34x/(1-32x/(1-... (continued fraction). - _Philippe Deléham_, Jan 07 2012
+%t A034908 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 9, 5!, 8}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A034908 Cf. A045755, A034909-A039412.
+%K A034908 easy,nonn
+%O A034908 1,2
+%A A034908 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

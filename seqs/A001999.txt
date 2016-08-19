@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001999
+Showing 1-1 of 1
+
+%I A001999 M3055 N1239
+%S A001999 3,18,5778,192900153618,7177905237579946589743592924684178
+%N A001999 a(n+1) = a(n)(a(n)^2 - 3).
+%C A001999 The next terms in the sequence contain 102 and 305 digits. - _Harvey P. Dale_, Jun 09 2011
+%C A001999 From _Peter Bala_, Nov 13 2012: (Start)
+%C A001999 The present sequence is the case x = 3 of the following general remarks. For other cases see A219160 (x = 4), A219161 (x = 5) and A112845 (x = 6).
+%C A001999 Let x > 2 and let alpha := {x + sqrt(x^2 - 4)}/2. Define a sequence a(n) (which depends on x) by setting a(n) = alpha^(3^n) + (1/alpha)^(3^n). Then it is easy to verify that the sequence a(n) satisfies the recurrence equation a(n+1) = a(n)^3 - 3*a(n) with the initial condition a(0) = x.
+%C A001999 We have the following identity, valid for x > 2: sqrt((x + 2)/(x - 2)) = (1 + 2/(x-1))*sqrt((y + 2)/(y - 2)), where y = x^3 - 3*x. Iterating the identity produces the product expansion sqrt((x+2)/(x-2)) = product {n = 0..inf} (1 + 2/(a(n) - 1)), with a(0) = x and a(n+1) = a(n)^3 - 3*a(n). The rate of convergence is cubic (Fine).
+%C A001999 For similar results to the above see A001566 and A219162.
+%C A001999 (End)
+%D A001999 E. B. Escott, Rapid method for extracting a square root, Amer. Math. Monthly, 44 (1937), 644-646.
+%D A001999 N. J. Fine, Infinite products for k-th roots. Amer. Math. Monthly Vol. 84, No. 8, Oct. 1977
+%D A001999 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001999 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001999 A. V. Aho and N. J. A. Sloane, <a href="http://neilsloane.com/doc/doubly.html">Some doubly exponential sequences</a>, Fib. Quart., 11 (1973), 429-437.
+%H A001999 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PierceExpansion.html">Pierce Expansion</a>
+%F A001999 a(n) = 2*F(2*3^n+1)-F(2*3^n) = ceiling(tau^(2*3^n)) where F(k)=A000045(k) is the k-th Fibonacci number and tau is the golden ratio. - _Benoit Cloitre_, Nov 29 2002
+%F A001999 From _Peter Bala_, Nov 13 2012: (Start)
+%F A001999 a(n) = (1/2*(3 + sqrt(5)))^(3^n) + (1/2*(3 - sqrt(5)))^(3^n).
+%F A001999 Product {n = 0..inf} (1 + 2/(a(n) - 1)) = sqrt(5).
+%F A001999 a(n) = A002814(n+1) + 1.
+%F A001999 (End)
+%t A001999 NestList[#(#^2-3)&,3,6] (* _Harvey P. Dale_, Jun 09 2011 *)
+%o A001999 (PARI) a(n)=2*fibonacci(2*3^n+1)-fibonacci(2*3^n)
+%Y A001999 Cf. A006276. A001566, A002814, A112845, A219160, A219161, A219162.
+%K A001999 nonn,easy,nice
+%O A001999 0,1
+%A A001999 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

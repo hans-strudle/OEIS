@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014961
+Showing 1-1 of 1
+
+%I A014961
+%S A014961 1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,
+%T A014961 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014961 0,1,0,0,0,1,0,0,0,1,0,0,0,1
+%V A014961 1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,
+%W A014961 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014961 0,1,0,0,0,-1,0,0,0,1,0,0,0,-1
+%N A014961 Inverse of 952nd cyclotomic polynomial.
+%p A014961 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014961 sign
+%O A014961 0,1
+%A A014961 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

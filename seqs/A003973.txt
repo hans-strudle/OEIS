@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003973
+Showing 1-1 of 1
+
+%I A003973
+%S A003973 1,4,6,13,8,24,12,40,31,32,14,78,18,48,48,121,20,124,24,104,72,56,30,
+%T A003973 240,57,72,156,156,32,192,38,364,84,80,96,403,42,96,108,320,44,288,48,
+%U A003973 182,248,120,54,726,133,228,120,234,60,624,112,480,144,128,62,624,68
+%N A003973 Inverse Möbius transform of A003961.
+%H A003973 Charles R Greathouse IV, <a href="/A003973/b003973.txt">Table of n, a(n) for n = 1..10000</a>
+%F A003973 Multiplicative with a(p^e) = (q^(e+1)-1)/(q-1) where q = nextPrime(p). - _David W. Wilson_, Sep 01 2001
+%t A003973 b[1] = 1; b[p_?PrimeQ] := b[p] = Prime[ PrimePi[p] + 1]; b[n_] := b[n] = Times @@ (b[First[#]]^Last[#] &) /@ FactorInteger[n]; a[n_] := Sum[ b[d], {d, Divisors[n]}]; Table[a[n], {n, 1, 70}]  (* _Jean-François Alcover_, Jul 18 2013 *)
+%o A003973 (PARI) aPrime(p,e)=my(q=nextprime(p+1));(q^(e+1)-1)/(q-1)
+%o A003973 a(n)=my(f=factor(n));prod(i=1,#f~,aPrime(f[i,1],f[i,2])) \\ _Charles R Greathouse IV_, Jul 18 2013
+%K A003973 nonn,easy,mult
+%O A003973 1,2
+%A A003973 _Marc LeBrun_
+%E A003973 More terms from _David W. Wilson_, Aug 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

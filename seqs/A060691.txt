@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060691
+Showing 1-1 of 1
+
+%I A060691
+%S A060691 1,4,4,16,84,496,3120,20416,137300,942384,6572336,46432960,
+%T A060691 331580272,2389352256,17351364160,126851634432,932823545428,
+%U A060691 6895102385072,51199649648048,381738099675840,2856639909232112
+%V A060691 1,-4,-4,-16,-84,-496,-3120,-20416,-137300,-942384,-6572336,-46432960,
+%W A060691 -331580272,-2389352256,-17351364160,-126851634432,-932823545428,
+%X A060691 -6895102385072,-51199649648048,-381738099675840,-2856639909232112
+%N A060691 Expansion of AGM(1,1-8x) (where AGM denotes the arithmetic-geometric mean).
+%D A060691 Mohammad K. Azarian, AM - GM Strikes Again, Problem 451, College Mathematics Journal, Vol. 22, No. 3, May 1991, p. 255.  Solution published in Vol. 23, No. 3, May 1992, pp. 248-249.
+%D A060691 Mohammad K. Azarian, An Application of the Inequality on the Means, Problem B-635, Fibonacci Quarterly, Vol. 27, No. 1, Feb. 1989, p.87.  Solution published in Vol. 28, No. 1, Feb. 1990, pp. 86-87.
+%H A060691 Vaclav Kotesovec, <a href="/A060691/b060691.txt">Table of n, a(n) for n = 0..1000</a>
+%F A060691 G.f.: AGM(1, 1-8x).
+%o A060691 (PARI) a(n)=if(n<0,0,polcoeff(agm(1,1-8*x+x*O(x^n)),n))
+%K A060691 sign,changed
+%O A060691 0,2
+%A A060691 _Roland Bacher_, Apr 20 2001
+%E A060691 Edited by _Michael Somos_, Jul 19, 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

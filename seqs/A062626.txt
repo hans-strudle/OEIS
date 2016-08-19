@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062626
+Showing 1-1 of 1
+
+%I A062626
+%S A062626 4663,8839,14779
+%N A062626 Numbers n such that 60^n - 59^n is prime.
+%C A062626 Terms greater than 1000 often correspond only to strong pseudoprimes 60^n-59^n. [Clarified by _M. F. Hasler_, Sep 15 2013]
+%C A062626 a(4) > 10^5. - _Robert Price_, Mar 01 2013
+%H A062626 H. Lifchitz, R. Lifchitz, <a href="http://www.primenumbers.net/prptop/searchform.php?form=60^n-59^n">PRP top records (of the form 60^n-59^n)</a>
+%Y A062626 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062626 nonn,hard,bref
+%O A062626 1,1
+%A A062626 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062626 a(3) from _Robert Price_, Mar 01 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

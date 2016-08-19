@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057192
+Showing 1-1 of 1
+
+%I A057192
+%S A057192 0,1,1,2,1,2,3,6,1,1,8,2,1,2,583,1,5,4,2,3,2,2,1,1,2,3,16,3,6,1,2,1,3,
+%T A057192 2,3,4,8,2,7,1,1,4,1,2,15,2,20,8,11,6,1,1,36,1,279,29,3,4,2,1,30,1,2,
+%U A057192 9,4,7,4,4,3,10,21,1,12,2,14,6393,11,4,3,2,1,4,1,2,6,1,3,8,5,6,19,3,2,1,2,5
+%N A057192 Least m such that 1+prime(n)*2^m is a prime, or -1 if no such m exists.
+%C A057192 Primes p such that p*2^m+1 is composite for all m are called Sierpiński numbers. The smallest known prime Sierpiński number is 271129. Currently, 10223 is the smallest prime whose status is unknown.
+%C A057192 For 0 < k < a(n), prime(n)*2^k is a nontotient. See A005277. - _T. D. Noe_, Sep 13 2007
+%D A057192 See A046067
+%H A057192 T. D. Noe, <a href="/A057192/b057192.txt">Table of n, a(n) for n=1..1000</a>
+%H A057192 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/sierp.html">Sierpiński Problem</a>
+%H A057192 Seventeen or Bust, <a href="http://www.seventeenorbust.com/">A Distributed Attack on the Sierpinski problem</a>
+%e A057192 a(8)=6 because prime(8)=19 and the first prime in the sequence 1+19*{2,4,8,16,32,64}={39,77,153,305,609,1217} is 1217=1+19*2^6.
+%t A057192 Table[p=Prime[n]; k=0; While[ ! PrimeQ[1+p*2^k], k++ ]; k, {n, 100}] (Noe)
+%Y A057192 Cf. A058887, A058811, A058812, A002202, A014197, A005277, A005384, A005385, A051686.
+%Y A057192 Cf. A046067 (least k such that (2n-1)*2^k+1 is prime).
+%K A057192 sign
+%O A057192 1,4
+%A A057192 _Labos Elemer_, Jan 10 2001
+%E A057192 Corrected by _T. D. Noe_, Aug 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

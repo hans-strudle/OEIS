@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009596
+Showing 1-1 of 1
+
+%I A009596
+%S A009596 0,2,8,152,6848,312992,17468288,1385712512,143250864128,
+%T A009596 17321985331712,2418583050119168,396575082357512192,
+%U A009596 75839817371814084608,16517549362496506929152
+%V A009596 0,2,-8,152,-6848,312992,-17468288,1385712512,-143250864128,
+%W A009596 17321985331712,-2418583050119168,396575082357512192,
+%X A009596 -75839817371814084608,16517549362496506929152
+%N A009596 E.g.f. sinh(sin(x)^2) (even powers only).
+%F A009596 a(n)=8*sum(j=1..n, 2^(2*n-4*j)/(2*j-1)!*sum(i=0..2*j-1, (i-2*j+1)^(2*n)*binomial(4*j-2,i)*(-1)^(n-1-i))); [From Vladimir Kruchinin, Jun 08 2011]
+%e A009596 sinh(sin(x)*sin(x))=2/2!*x^2-8/4!*x^4+152/6!*x^6-6848/8!*x^8... - Patrick Demichel (patrick.demichel(AT)hp.com)
+%o A009596 (Maxima)
+%o A009596 a(n):=8*sum(2^(2*n-4*j)/(2*j-1)!*sum((i-2*j+1)^(2*n)*binomial(4*j-2,i)*(-1)^(n-1-i),i,0,2*j-1),j,1,n); [From Vladimir Kruchinin, Jun 08 2011]
+%K A009596 sign
+%O A009596 0,2
+%A A009596 _R. H. Hardin_
+%E A009596 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

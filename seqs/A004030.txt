@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004030
+Showing 1-1 of 1
+
+%I A004030 M3847
+%S A004030 1,1,5,14,64,189,826
+%N A004030 Number of n-dimensional Bravais lattices (version 1).
+%C A004030 In 1850, Bravais demonstrated that crystals comprised 14 different types of unit cells: simple cubic, body-centered cubic, face-centered cubic; simple tetragonal, body-centered tetragonal; simple monoclinic, end-centered monoclinic; simple orthorhombic, body-centered orthorhombic, face-centered orthorhombic, end-centered orthorhombic; rhombohedral; hexagonal; and triclinic. - _Jonathan Vos Post_, Mar 09 2010
+%C A004030 In the reference by Souvignier (Space groups, 2007, p. 30) a(6) is given as 841 (not 826). See A256413. - _Vaclav Kotesovec_, Sep 29 2014
+%C A004030 I don't know if 826 is simply wrong, or is using a different definition of "distinct". - _N. J. A. Sloane_, Apr 04 2015
+%D A004030 H. Brown, R. Bülow, J. Neubüser, H. Wondratschek and H. Zassenhaus, Crystallographic Groups of Four-Dimensional Space. Wiley, NY, 1978, p. 52.
+%D A004030 P. Engel, ``Geometric crystallography,'' in P. M. Gruber and J. M. Wills, editors, Handbook of Convex Geometry. North-Holland, Amsterdam, Vol. B, pp. 989-1041.
+%D A004030 Lomont, J. S. "Crystallographic Point Groups." 4.4 in Applications of Finite Groups. New York: Dover, pp. 132-146, 1993. [From _Jonathan Vos Post_, Mar 09 2010]
+%D A004030 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A004030 Yale, P. B. "Crystallographic Point Groups." 3.4 in Geometry and Symmetry. New York: Dover, pp. 103-108, 1988. [From _Jonathan Vos Post_, Mar 09 2010]
+%H A004030 D. Freittloh, <a href="http://arxiv.org/abs/1305.1798">Highly symmetric fundamental cells for lattices in R^2 and R^3</a>, arXiv.1305.1798, 2013.
+%H A004030 S. J. Heyes, <a href="http://www.chem.ox.ac.uk/icl/heyes/structure_of_solids/Lecture1/Bravais.gif">Illustration of the 14 possible 3-D Bravais lattices</a> from <a href="http://www.chem.ox.ac.uk/icl/heyes/structure_of_solids/Lecture1/Lec1.html#anchor3">Lecture 1. Fundamental Aspects of Solids & Sphere Packing. - Analysing a 3D solid</a> [From _Gerald McGarvey_, Mar 25 2010]
+%H A004030 Pegg, Ed Jr., <a href="http://mathworld.wolfram.com/BravaisLattice.html">Bravais Lattice.</a> [From _Jonathan Vos Post_, Mar 09 2010]
+%H A004030 W. Plesken and W. Hanrath, <a href="http://dx.doi.org/10.1090/S0025-5718-1984-0758205-5">The lattices of six-dimensional Euclidean space</a>, Math. Comp., 43 (1984), 573-587.
+%H A004030 B. Souvignier, <a href="http://dx.doi.org/10.1107/S0108767303004161">Enantiomorphism of Crystallographic Groups in Higher Dimensions with Results in Dimensions Up to 6</a>, Acta Cryst. A 59, 210-220, 2003. [From _Jonathan Vos Post_, Mar 09 2010]
+%H A004030 Bernd Souvignier, <a href="http://www.crystallography.fr/mathcryst/pdf/havana/Souvignier_syllabus.pdf">Space groups</a>, 2007, p. 30
+%Y A004030 Cf. A256413.
+%K A004030 nonn,hard,nice,more
+%O A004030 0,3
+%A A004030 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

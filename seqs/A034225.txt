@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034225
+Showing 1-1 of 1
+
+%I A034225
+%S A034225 0,5,105,1245,11075,82918,545544,3226809,17404018,86501661
+%N A034225 Number of ternary codes (not necessarily linear) of length n with 5 words.
+%D A034225 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034225 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034225 Cf. A034188-.
+%K A034225 nonn
+%O A034225 1,2
+%A A034225 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

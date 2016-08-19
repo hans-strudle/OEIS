@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027723
+Showing 1-1 of 1
+
+%I A027723
+%S A027723 7,9,313,999,31513,75357,78687,90909,98289,3159513,7642467,9009009,
+%T A027723 743080347,900090009,31413131413,90000900009,97474147479,
+%U A027723 3105075705013,9000009000009
+%N A027723 Palindromes of form n^2+n+7.
+%H A027723 P. De Geest, <a href="http://www.worldofnumbers.com/quasimor.htm">Palindromic Quasi_Over_Squares of the form n^2+(n+X)</a>
+%Y A027723 Cf. A027722, A027692, A027756, A005471.
+%K A027723 nonn,base
+%O A027723 1,1
+%A A027723 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

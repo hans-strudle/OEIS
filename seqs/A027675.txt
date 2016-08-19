@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027675
+Showing 1-1 of 1
+
+%I A027675
+%S A027675 1,2,3,7,12,21,38,107,212,31488,70107,387288,95610729,446653271,
+%T A027675 3148717107,21081079479,648070211589107021
+%N A027675 When squared gives number composed of digits {1,4,9}.
+%H A027675 P. De Geest, <a href="http://www.worldofnumbers.com/threedigits.htm">Squares containing at most three distinct digits, Index entries for related sequences</a>
+%H A027675 P. De Geest, <a href="http://www.worldofnumbers.com/square.htm">Palindromic Squares</a>
+%H A027675 A. Ottens, <a href="http://einstein.et.tudelft.nl/~arlet/puzzles/sol.cgi/arithmetic/digits/squares/three.digits">The arithmetic-digits-squares-three.digits problem</a>
+%H A027675 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Square Number.</a>
+%Y A027675 Cf. A006716.
+%K A027675 nonn,base,more
+%O A027675 1,2
+%A A027675 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

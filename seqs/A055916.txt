@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055916
+Showing 1-1 of 1
+
+%I A055916
+%S A055916 1,6,19,65,164,358,763,1377,2474,3936,6181,8979,12546,16753,21422,
+%T A055916 26258,31321,34969,39772,40007,44030,39493,42663,33716,36011,24891,
+%U A055916 26363,15853,16467,8717,8644,4115,3667,1683,1201,581,281,154,51,21,10
+%N A055916 Coefficients of a polynomial used in calculation of A055913.
+%H A055916 A. J. Guttmann and A. R. Conway, <a href="http://www.ms.unimelb.edu.au/~tonyg/pub9098.html">Hexagonal lattice directed site animals</a>, Statistical Physics on the Eve of the Twenty-First Century, ed. M. T. Batchelor, World Scientific, 1999 (t_7,m for hexagonal lattices, Table 1).
+%K A055916 nonn,fini,full
+%O A055916 0,2
+%A A055916 _Christian G. Bower_, Jun 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017093
+Showing 1-1 of 1
+
+%I A017093
+%S A017093 32,100000,1889568,11881376,45435424,130691232,312500000,656356768,
+%T A017093 1252332576,2219006624,3707398432,5904900000,9039207968,13382255776,
+%U A017093 19254145824,27027081632,37129300000
+%N A017093 (8*n+2)^5.
+%H A017093 Vincenzo Librandi, <a href="/A017093/b017093.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017093 (8Range[0,20]+2)^5  (* _Harvey P. Dale_, Feb 24 2011 *)
+%o A017093 (MAGMA) [(8*n+2)^5: n in [0..30]]; // Vincenzo Librandi, Jul 12 2011
+%K A017093 nonn,easy
+%O A017093 0,1
+%A A017093 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047621
+Showing 1-1 of 1
+
+%I A047621
+%S A047621 3,5,11,13,19,21,27,29,35,37,43,45,51,53,59,61,67,69,75,77,83,85,91,
+%T A047621 93,99,101,107,109,115,117,123,125,131,133,139,141,147,149,155,157,
+%U A047621 163,165,171,173,179,181,187,189,195,197,203,205,211,213,219,221,227,229
+%N A047621 Numbers that are congruent to {3, 5} mod 8.
+%C A047621 Odd numbers n such that x^2 == 2 (mod n) has no solution, i.e. those n for which Jacobi symbol J(2,n) = -1. - _Antti Karttunen_, Aug 27 2005
+%C A047621 Hence also odd numbers n such that 2^n is not a square mod n.
+%C A047621 A089911(3*a(n)) = 10. - _Reinhard Zumkeller_, Jul 05 2013
+%H A047621 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,-1).
+%F A047621 a(n)=8*n-a(n-1)-8 (with a(1)=3) [From _Vincenzo Librandi_, Aug 06 2010]
+%F A047621 G.f. x*(3+2*x+3*x^2) / ( (1+x)*(x-1)^2 ). - R. J. Mathar, Oct 08 2011
+%e A047621 For n=2, a(2)=8*2-3-8=5; n=3, a(3)=8*3-5-8=11; n=4, a(4)=8*4-11-8=13 [From _Vincenzo Librandi_, Aug 06 2010]
+%o A047621 (Haskell)
+%o A047621 a047621 n = a047621_list !! (n-1)
+%o A047621 a047621_list = 3 : 5 : map (+ 8) a047621_list
+%o A047621 -- _Reinhard Zumkeller_, Jul 05 2013
+%Y A047621 Row 1 of A112070. Complement of A047522 relative to A005408. Primes in this sequence: A003629.
+%Y A047621 Cf. A066507.
+%Y A047621 Cf. A047522.
+%K A047621 nonn
+%O A047621 1,1
+%A A047621 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

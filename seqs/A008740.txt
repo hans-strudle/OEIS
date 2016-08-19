@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008740
+Showing 1-1 of 1
+
+%I A008740
+%S A008740 1,2,3,4,5,7,9,11,13,16,19,22,25,28,32,36,40,44,49,54,59,64,69,75,81,
+%T A008740 87,93,100,107,114,121,128,136,144,152,160,169,178,187,196,205,215,
+%U A008740 225,235,245,256,267,278
+%N A008740 Molien series for 3-dimensional group [2+,n] = 2*(n/2).
+%H A008740 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A008740 <a href="/index/Rec#order_11">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1,0,0,0,0,0,0,1,-2,1).
+%F A008740 G.f. (1+x^5)/ ( (1-x)^2* (1-x^9)).
+%F A008740 Nearest integer to (n+4)^2/9.
+%F A008740 a(n)=a(n-4)+n - _Paul Barry_, Jul 14 2004
+%F A008740 a(n)= +2*a(n-1) -a(n-2) +a(n-9) -2*a(n-10) +a(n-11).
+%F A008740 a(n)=floor((n^2+6*n+12)/9). - _Tani Akinari_, Aug 19 2013
+%t A008740 CoefficientList[Series[(1+x^5)/((1-x)^2(1-x^9)),{x,0,50}],x] (* _Harvey P. Dale_, Aug 27 2011 *)
+%K A008740 nonn
+%O A008740 0,2
+%A A008740 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049065
+Showing 1-1 of 1
+
+%I A049065
+%S A049065 2,3,31,179,12007,1564237,17320726789571,401278664296369,
+%T A049065 576312045441408907,2277401721110994662527249,
+%U A049065 3690727229000499480592573891534356177653018575120050845976045596834749951228879
+%N A049065 Record primes reached in A048986.
+%C A049065 The value 2277401721110994662527249 is the base 2 home prime for 936 and occurs after 54 steps. The value 3690727229000499480592573891534356177653018575120050845976045596834749951228879 is the base 2 home prime for 1345 and occurs after 131 steps. The next term (home prime for 2295) contains at least 124 digits. Computation of further terms involves large factorizations. - _Sean A. Irvine_, Aug 04 2005
+%H A049065 P. De Geest, <a href="http://www.worldofnumbers.com/topic1.htm">Home Primes</a>
+%Y A049065 Cf. A056938, A037271-A037276, A048985, A048986, A049065.
+%K A049065 nonn,nice,base
+%O A049065 1,1
+%A A049065 Michael B Greenwald (mbgreen(AT)central.cis.upenn.edu)
+%E A049065 2 more terms from _Sean A. Irvine_, Aug 04 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

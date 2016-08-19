@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052469
+Showing 1-1 of 1
+
+%I A052469
+%S A052469 4,32,96,1024,2560,4096,28672,524288,1179648,5242880,11534336,
+%T A052469 100663296,218103808,939524096,134217728,68719476736,146028888064,
+%U A052469 206158430208,1305670057984,2199023255552,7696581394432
+%N A052469 Denominators in the Taylor series for arccosh(x) - log(2x).
+%D A052469 Bronstein-Semendjajew, sprawotchnik po matematikje, 6th russian ed. 1956, ch. 4.2.6
+%H A052469 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/InverseHyperbolicCosecant.html">Inverse Hyperbolic Cosecant</a>
+%H A052469 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/InverseHyperbolicCosine.html">Inverse Hyperbolic Cosine</a>
+%H A052469 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/InverseHyperbolicSine.html">Inverse Hyperbolic Sine</a>
+%F A052469 A052468(n) / a(n) = A001147(n) / ( A000165(n) *2*n )
+%F A052469 From _Johannes W. Meijer_, Jul 06 2009: (Start)
+%F A052469 a(n) = denom((2*n-1)!/( 2^(2*n)* (n!)^2)).
+%F A052469 Equals 2*A162442(n+1) for n >= 1.
+%F A052469 A52468(n)/A52469(n) = (1/(2*n))*A001790(n)/A046161(n) for n>=1.
+%F A052469 (End)
+%e A052469 arccosh(x) = log(2x) - 1/(4*x^2) - 3/(32*x^4) - 5/(96*x^6) - ... for x>1.
+%Y A052469 Cf. A002595.
+%K A052469 nonn,easy,frac
+%O A052469 1,1
+%A A052469 _Eric W. Weisstein_
+%E A052469 Updated by _Frank Ellermann_, May 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

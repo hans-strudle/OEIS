@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040003
+Showing 1-1 of 1
+
+%I A040003
+%S A040003 2,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,
+%T A040003 4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,4,2,
+%U A040003 4,2,4,2,4,2,4,2,4,2,4,2,4
+%N A040003 Continued fraction for sqrt(6).
+%H A040003 Harry J. Smith, <a href="/A040003/b040003.txt">Table of n, a(n) for n = 0..20000</a>
+%H A040003 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%H A040003 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040003 a(n) = 3 + (-1)^n - 2*(binomial(2*n, n) mod 2), with n >= 0. - _Paolo P. Lava_, Jun 11 2009
+%e A040003 2.449489742783178098197284074... = 2 + 1/(2 + 1/(4 + 1/(2 + 1/(4 + ...)))). - _Harry J. Smith_, Jun 01 2009
+%p A040003 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040003 ContinuedFraction[Sqrt[6], 300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 04 2011 *)
+%o A040003 (PARI) { allocatemem(932245000); default(realprecision, 21000); x=contfrac(sqrt(6)); for (n=0, 20000, write("b040003.txt", n, " ", x[n+1])); } \\ _Harry J. Smith_, Jun 01 2009
+%o A040003 (MAGMA) [3+(-1)^n-2*(Binomial(2*n, n) mod 2): n in [0..100]]; // _Vincenzo Librandi_, Jan 03 2016
+%Y A040003 Cf. A010464 (decimal expansion).
+%K A040003 nonn,cofr,easy
+%O A040003 0,1
+%A A040003 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

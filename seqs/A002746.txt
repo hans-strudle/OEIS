@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002746
+Showing 1-1 of 1
+
+%I A002746 M3468 N1411
+%S A002746 1,4,13,50,203,1154,6627,49356,403293,3858376,33929377,460614670,
+%T A002746 5168544119,64518640406,946910125319,16124114481720,221243980745433,
+%U A002746 4261440137319852,68524390012831189,1477309421907315082
+%N A002746 Sum of logarithmic numbers.
+%D A002746 J. M. Gandhi, On logarithmic numbers, Math. Student, 31 (1963), 73-83.
+%D A002746 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002746 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002746 J. M. Gandhi, <a href="/A002741/a002741.pdf">On logarithmic numbers</a>, Math. Student, 31 (1963), 73-83. [Annotated scanned copy]
+%H A002746 <a href="/index/Lo#logarithmic">Index entries for sequences related to logarithmic numbers</a>
+%F A002746 a(n) = Sum_{k=1..n} A000005(k)*(k-1)!*binomial(n, k). - _Vladeta Jovovic_, Feb 09 2003
+%K A002746 nonn
+%O A002746 1,2
+%A A002746 _N. J. A. Sloane_.
+%E A002746 Corrected and extended by _Jeffrey Shallit_.
+%E A002746 More terms from _Vladeta Jovovic_, Feb 09 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

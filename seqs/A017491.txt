@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017491
+Showing 1-1 of 1
+
+%I A017491
+%S A017491 2097152,893871739,21870000000,194754273881,1028071702528,
+%T A017491 3938980639167,12151280273024,32057708828125,75144747810816,
+%U A017491 160578147647843,318547390056832,594467302491009,1054135040000000
+%N A017491 (11n+8)^7.
+%H A017491 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (8, -28, 56, -70, 56, -28, 8, -1).
+%F A017491 G.f.: (2097152+877094523*x+14777746344*x^2+44705242061*x^3+32487494736*x^4+ 5260268829*x^5+105396008*x^6+2187*x^7)/(-1+x)^8 [From _R. J. Mathar_, Jun 24 2009]
+%F A017491 a(0)=2097152, a(1)=893871739, a(2)=21870000000, a(3)=194754273881, a(4)=1028071702528, a(5)=3938980639167, a(6)=12151280273024, a(7)=32057708828125, a(n)=8*a(n-1)- 28*a(n-2)+ 56*a(n-3)- 70*a(n-4)+ 56*a(n-5)- 28*a(n-6)+ 8*a(n-7)- a(n-8). - _Harvey P. Dale_, Aug 14 2015
+%t A017491 (11*Range[0,20]+8)^7 (* or *) LinearRecurrence[{8,-28,56,-70,56,-28,8,-1},{2097152,893871739,21870000000,194754273881,1028071702528,3938980639167,12151280273024,32057708828125},20] (* _Harvey P. Dale_, Aug 14 2015 *)
+%K A017491 nonn,easy
+%O A017491 0,1
+%A A017491 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

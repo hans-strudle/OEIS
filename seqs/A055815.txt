@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055815
+Showing 1-1 of 1
+
+%I A055815
+%S A055815 1,15,80,432,2352,12896,71136,394400,2196128,12273648,68811184,
+%T A055815 386838480,2179890000,12309739968,69641542848,394643939904,
+%U A055815 2239678552640,12727572969680,72415319422992,412470467298032
+%N A055815 T(2n+3,n), array T as in A055807.
+%Y A055815 Cf. A050149. [From _R. J. Mathar_, Oct 13 2008]
+%K A055815 nonn
+%O A055815 0,2
+%A A055815 _Clark Kimberling_, May 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

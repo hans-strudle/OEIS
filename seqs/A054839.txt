@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054839
+Showing 1-1 of 1
+
+%I A054839
+%S A054839 15413,64969,68239,68927,129011,129023,143551,154127,158047,192431,
+%T A054839 221747,222461,244507,249779,285377,318713,337313,354401,357913,
+%U A054839 374239,385433,394759,402613,402631,419651,439217,441971,448451,457433,457711,458239,482539,528013
+%N A054839 Sixth term of weak prime septet: p(m-4)-p(m-5) < p(m-3)-p(m-4) < p(m-2)-p(m-3) < p(m-1)-p(m-2) < p(m)-p(m-1) < p(m+1)-p(m).
+%t A054839 Transpose[Select[Partition[Prime[Range[50000]],7,1],Min[ Differences[ #,2]]> 0&]][[6]] (* _Harvey P. Dale_, Sep 27 2015 *)
+%Y A054839 Cf. A051635, A054800-A054840.
+%K A054839 nonn
+%O A054839 1,1
+%A A054839 _Henry Bottomley_, Apr 10 2000
+%E A054839 More terms from _Harvey P. Dale_, Sep 27 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

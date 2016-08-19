@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036910
+Showing 1-1 of 1
+
+%I A036910
+%S A036910 1,5,53,662,8885,124130,1778966,25947612,383358645,5719519850,
+%T A036910 85990654178,1300866635172,19780031677718,302045506654052,
+%U A036910 4629016098160220,71163013287905912,1096960888092571317,16949379732631632570,262435310495071434602
+%N A036910 (binomial(4*n,2*n)+binomial(2*n,n)^2)/2.
+%D A036910 The right-hand side of a binomial coefficient identity in H. W. Gould, Combinatorial Identities, Morgantown, 1972; Eq 3.68 page 30.
+%F A036910 a(n)=sum{k=0..n, (binomial(2n, k))^2 } - _Paul Barry_, May 15 2003
+%K A036910 nonn
+%O A036910 0,2
+%A A036910 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

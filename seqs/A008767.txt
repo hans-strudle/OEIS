@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008767
+Showing 1-1 of 1
+
+%I A008767
+%S A008767 0,0,0,0,0,0,0,1,2,2,2,2,2,2,4,6,6,6,6,6,6,9,12,12,12,12,12,12,16,20,
+%T A008767 20,20,20,20,20,25,30,30,30,30,30,30,36,42,42,42,42,42,42,49,56,56,56,
+%U A008767 56,56,56,64,72,72,72,72,72
+%N A008767 floor(n/7)*ceil(n/7).
+%F A008767 a(n) = +2 a(n-1) -2 a(n-2) +2 a(n-3) -2 a(n-4) +2 a(n-5) -2 a(n-7) +2 a(n-8) -2 a(n-9) +2 a(n-10) -2 a(n-11) +a(n-12). - R. J. Mathar, Mar 11 2012
+%F A008767 a(0)=0, a(1)=0, a(2)=0, a(3)=0, a(4)=0, a(5)=0, a(6)=0, a(7)=1, a(8)=2, a(9)=2, a(10)=2, a(11)=2, a(12)=2, a(13)=2, a(14)=4, a(n)=a(n-1)+ 2*a(n-7)- 2*a(n-8)-a(n-14)+a(n-15) - _Harvey P. Dale_, Aug 12 2012
+%t A008767 Table[Floor[n/7]Ceiling[n/7],{n,0,70}] (* _Harvey P. Dale_, Aug 12 2012 *)
+%K A008767 nonn
+%O A008767 0,9
+%A A008767 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

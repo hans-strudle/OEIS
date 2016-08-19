@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004382
+Showing 1-1 of 1
+
+%I A004382
+%S A004382 1,16,276,4960,91390,1712304,32468436,621216192,11969016345,
+%T A004382 231900297200,4513667845896,88188515933856,1728597141547640,
+%U A004382 33976189889821200,669413654240461560,13216710966550396800
+%N A004382 Binomial coefficient C(8n,n-1).
+%D A004382 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004382 Vincenzo Librandi, <a href="/A004382/b004382.txt">Table of n, a(n) for n = 1..120</a>
+%H A004382 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy, requires flash plugin].
+%o A004382 (MAGMA) [ Binomial(8*n, n-1): n in [1..60] ]; // Vincenzo Librandi, Apr 22 2011
+%K A004382 nonn,easy
+%O A004382 1,2
+%A A004382 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

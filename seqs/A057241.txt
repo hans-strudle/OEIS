@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057241
+Showing 1-1 of 1
+
+%I A057241
+%S A057241 0,0,3,6,10
+%N A057241 Circuit cost of the hardest Boolean function of n variables; metric: 2-input AND-gates cost 1, NOT is free, fanout is free, inputs are free, no feedback allowed.
+%C A057241 a(5) <= 23.
+%H A057241 Richard Schroeppel, <a href="/A057241/a057241.txt">Comments and examples</a>
+%Y A057241 Cf. A056287, A058759.
+%K A057241 nonn,nice,hard,more
+%O A057241 0,3
+%A A057241 Richard Schroeppel, Jan 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

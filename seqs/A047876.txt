@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047876
+Showing 1-1 of 1
+
+%I A047876
+%S A047876 0,6,8,8,12,18,22,28,36,42,52,64,68,82,98,104,118,138,146,164,184,194,
+%T A047876 216,240,248,274,302,312,338,370,382,412,444,458,492,528,540,578,618,
+%U A047876 632,670,714,730,772,816,834,880,928,944,994,1046
+%N A047876 a(n)=Sum{T(i,n-i): i=0,1,...,n}, array T as in A049604.
+%K A047876 nonn
+%O A047876 0,2
+%A A047876 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

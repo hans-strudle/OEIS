@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007388
+Showing 1-1 of 1
+
+%I A007388 M0425
+%S A007388 0,2,3,2,5,2,7,2,9,2,11,2,13,9,15,18,17,29,19,42,28,57,46,74,75,93,
+%T A007388 117,121,174,167,248,242,341,359,462,533,629,781,871,1122,1230,1584,
+%U A007388 1763
+%N A007388 5th order maximal independent sets in cycle graph.
+%D A007388 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007388 R. Yanco and A. Bagchi, K-th order maximal independent sets in path and cycle graphs, J. Graph Theory, submitted, 1994, apparently unpublished.
+%F A007388 Empirical g.f.: x^2*(5*x^10+3*x^8-2*x^5-2*x^3-3*x-2) / (x^7+x^2-1). - _Colin Barker_, Mar 29 2014
+%K A007388 nonn
+%O A007388 1,2
+%A A007388 _N. J. A. Sloane_, _Mira Bernstein_
+%E A007388 Typo in data (242 was inadvertently repeated) fixed by _Colin Barker_, Mar 29 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

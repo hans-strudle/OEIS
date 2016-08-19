@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046856
+Showing 1-1 of 1
+
+%I A046856
+%S A046856 1,2,630,81729648000,256963707943060088053923840000000,
+%T A046856 30978254928194376001814792318154658399137088909801072314160618743948902400000000000000
+%N A046856 (2^n)!/4^n, with a(1)=1, a(2)=2.
+%D A046856 C. S. Lorens, Invertible Boolean functions, IEEE Trans. Electron. Computers, EC-13 (1964), 529-541.
+%H A046856 C. S. Lorens, <a href="http://dx.doi.org/10.1109/PGEC.1964.263724">Invertible Boolean functions</a>, IEEE Trans. Electron. Computers, EC-13 (1964), 529-541.
+%H A046856 C. S. Lorens, <a href="/A000722/a000722.pdf">Invertible Boolean functions</a>, IEEE Trans. Electron. Computers, EC-13 (1964), 529-541. [Annotated scan of page 530 only]
+%K A046856 nonn,easy
+%O A046856 1,2
+%A A046856 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

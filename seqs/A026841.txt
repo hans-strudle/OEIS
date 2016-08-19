@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026841
+Showing 1-1 of 1
+
+%I A026841
+%S A026841 1,11,79,471,2535,12809,62067,292085,1345718,6102780,27343148,
+%T A026841 121359692,534632836,2341151646,10201950700,44278673806,191540714294,
+%U A026841 826265471868,3555992623850,15273547250820,65491352071266,280412963707416
+%N A026841 T(2n,n-4), T given by A026725.
+%C A026841 Column k=10 of triangle A236830. - _Philippe Deléham_, Feb 02 2014
+%F A026841 a(n) = A026848(n). - _Philippe Deléham_, Feb 02 2014
+%F A026841 G.f.: (x^4*C(x)^10)/(1-x*C(x)^3) where C(x) is the g.f. of A000108. - _Philippe Deléham_, Feb 02 2014
+%Y A026841 Cf. A236830
+%K A026841 nonn
+%O A026841 4,2
+%A A026841 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

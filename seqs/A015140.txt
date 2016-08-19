@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015140
+Showing 1-1 of 1
+
+%I A015140
+%S A015140 1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,1,
+%T A015140 1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,1,1,
+%U A015140 0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,0
+%V A015140 1,-1,0,1,-1,0,1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,0,-1,1,0,-1,1,0,0,0,0,1,
+%W A015140 -1,0,1,-1,0,1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,0,-1,1,0,-1,1,0,0,0,0,1,-1,
+%X A015140 0,1,-1,0,1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,0,-1,1,0
+%N A015140 Inverse of 1131st cyclotomic polynomial.
+%p A015140 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015140 sign
+%O A015140 0,1
+%A A015140 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

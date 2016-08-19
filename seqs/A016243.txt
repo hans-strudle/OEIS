@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016243
+Showing 1-1 of 1
+
+%I A016243
+%S A016243 1,15,163,1563,14059,121803,1030411,8579211,70649227,577287051,
+%T A016243 4690855819,37962203019,306309762955,2466150936459,19823244488587,
+%U A016243 159150177890187,1276586755010443,10233006031417227,81985920199339915
+%N A016243 Expansion of 1/((1-x)(1-6x)(1-8x)).
+%F A016243 a(n) = 14*a(n-1) - 48*a(n-2) + 1 with a(0)=1, a(1)=15. - _Vincenzo Librandi_, Feb 10 2011
+%F A016243 a(n) = (5*8^(n+2) - 7*6^(n+2) + 2)/70. - _Yahia Kahloune_, May 19 2013
+%p A016243 a:=n->sum((8^(n-j)-6^(n-j))/2, j=0..n): seq(a(n), n=1..19); # _Zerinvary Lajos_, Jan 15 2007
+%t A016243 Table[(5*8^(n + 2) - 7*6^(n + 2) + 2)/70, {n, 0, 20}] (* _Wesley Ivan Hurt_, Jun 06 2014 *)
+%o A016243 (MAGMA) [(5*8^(n+2) - 7*6^(n+2) + 2)/70 : n in [0..50]]; // _Wesley Ivan Hurt_, Jun 06 2014
+%K A016243 nonn,easy
+%O A016243 0,2
+%A A016243 _N. J. A. Sloane_, Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

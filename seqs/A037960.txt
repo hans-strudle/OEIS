@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037960
+Showing 1-1 of 1
+
+%I A037960
+%S A037960 0,1,14,150,1560,16800,191520,2328480,30240000,419126400,6187104000,
+%T A037960 97037740800,1612798387200,28332944640000,524813313024000,
+%U A037960 10226013557760000,209144207720448000,4480594531725312000
+%N A037960 (n+2)!*n*(3*n+1)/24.
+%C A037960 For n>=1, a(n) is equal to the number of surjections from {1,2,..,n+2} onto {1,2,...,n}. - Aleksandar M. Janjic and _Milan Janjic_, Feb 24 2007
+%D A037960 The right-hand side of a binomial coefficient identity in H. W. Gould, Combinatorial Identities, Morgantown, 1972.
+%H A037960 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+%F A037960 s(n) = sum_{j=0..n} (-1)^(n-j)*binomial(n,j)*j^(n+2). [_Vladimir Kruchinin_, Jun 01 2013]
+%F A037960 (3*n-2)*(n-1)*a(n) -n*(n+2)*(3*n+1)*a(n-1)=0. - _R. J. Mathar_, Jul 26 2015
+%t A037960 Table[(n+2)!*n*(3n+1)/24,{n,0,20}] (* _Harvey P. Dale_, Oct 16 2014 *)
+%o A037960 (PARI) n*(3*n+1)*(n+2)!/24 \\ _Charles R Greathouse IV_, Nov 02 2011
+%Y A037960 Cf. A019538, A001286.
+%K A037960 nonn,easy
+%O A037960 0,3
+%A A037960 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

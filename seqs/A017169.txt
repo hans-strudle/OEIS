@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017169
+Showing 1-1 of 1
+
+%I A017169
+%S A017169 0,387420489,198359290368,7625597484987,101559956668416,
+%T A017169 756680642578125,3904305912313344,15633814156853823,51998697814228992,
+%U A017169 150094635296999121,387420489000000000,913517247483640899
+%N A017169 (9*n)^9.
+%C A017169 a(n) = A155955(n,9) for n>8. [From _Reinhard Zumkeller_, Jan 31 2009]
+%H A017169 Vincenzo Librandi, <a href="/A017169/b017169.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017169 (MAGMA) [(9*n)^9: n in [0..20]]; // Vincenzo Librandi, Jul 22 2011
+%K A017169 nonn,easy
+%O A017169 0,2
+%A A017169 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

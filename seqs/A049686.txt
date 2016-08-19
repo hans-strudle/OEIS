@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049686
+Showing 1-1 of 1
+
+%I A049686
+%S A049686 0,7,329,15456,726103,34111385,1602508992,75283811239,3536736619241,
+%T A049686 166151337293088,7805576116155895,366695926122033977,
+%U A049686 17226902951619441024,809297742799991694151,38019767008647990184073
+%N A049686 a(n)=F(8n)/3, where F=A000045 (the Fibonacci sequence).
+%H A049686 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A049686 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (47,-1).
+%F A049686 a(n) = 47*a(n-1) - a(n-2), n>1. a(0)=0, a(1)=7. G.f.: 7*x/(1-47*x+x^2).
+%F A049686 a(n)=-(1/15)*sqrt(5)*[47/2-(21/2)*sqrt(5)]^n+(1/15)*[47/2+(21/2)*sqrt(5)]^n*sqrt(5), with n>=0 [From _Paolo P. Lava_, Oct 07 2008]
+%F A049686 a(n) = 7*A049668(n) . - _R. J. Mathar_, Oct 26 2015
+%Y A049686 a(n) = A004187(2n).
+%K A049686 nonn,easy
+%O A049686 0,2
+%A A049686 _Clark Kimberling_
+%E A049686 Better description and more terms from Michael Somos
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

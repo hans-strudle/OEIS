@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052074
+Showing 1-1 of 1
+
+%I A052074
+%S A052074 529,6889,12769,1261129,40001200009,107667328129,145381301521,
+%T A052074 510649971459777361
+%N A052074 Let p = square root of n then nextprime(p) is a substring of n.
+%Y A052074 Cf. A052073, A052075, A052076.
+%K A052074 nonn,base,more,nice
+%O A052074 0,1
+%A A052074 _Patrick De Geest_, Jan 15 2000.
+%E A052074 One more term from Sam Handler (sam_5_5_5_0(AT)yahoo.com), Sep 04 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

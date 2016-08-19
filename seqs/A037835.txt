@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037835
+Showing 1-1 of 1
+
+%I A037835
+%S A037835 0,0,1,0,1,2,1,0,1,2,3,1,0,1,3,2,1,2,3,4,2,1,2,2,1,0,1,2,3,3,2,3,5,4,
+%T A037835 3,1,2,3,1,0,1,3,2,1,3,4,5,3,2,3,3,2,1,2,3,4,4,3,4,6,5,4,2,3,4,2,1,2,
+%U A037835 4,3,2,2,3,4,2,1,2,2,1,0,1,2,3,3,2,3,5,4,3,3
+%N A037835 Sum{|d(i)-d(i-1)|: i=0,1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is base 3 representation of n.
+%p A037835 A037835 := proc(n)
+%p A037835     local dgs ;
+%p A037835     dgs := convert(n,base,3);
+%p A037835     add( abs(op(i,dgs)-op(i-1,dgs)),i=2..nops(dgs)) ;
+%p A037835 end proc: # _R. J. Mathar_, Oct 16 2015
+%K A037835 nonn,base
+%O A037835 1,6
+%A A037835 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

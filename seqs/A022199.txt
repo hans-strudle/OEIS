@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022199
+Showing 1-1 of 1
+
+%I A022199
+%S A022199 1,9841,72636421,494894285941,3287582741506063,21658948312410865183,
+%T A022199 142299528422960399756323,934054234760012359481199283,
+%U A022199 6129263888495201102915629695046,40216143252770054194345243936096486,263862583736385343242102717216527933566
+%N A022199 Gaussian binomial coefficients [ n,8 ] for q = 3.
+%D A022199 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%o A022199 (Sage) [gaussian_binomial(n,8,3) for n in xrange(8,19)] # [From _Zerinvary Lajos_, May 25 2009]
+%K A022199 nonn
+%O A022199 0,2
+%A A022199 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

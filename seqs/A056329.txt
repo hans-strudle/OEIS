@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056329
+Showing 1-1 of 1
+
+%I A056329
+%S A056329 0,0,0,0,1,9,76,542,3523,21393,123680,690550,3756151,20042589,
+%T A056329 105394296,548123982,2826435403,14479204833,73794961960,374603884910,
+%U A056329 1895632969351,9568915372269,48208452866816
+%N A056329 Number of reversible string structures with n beads using exactly five different colors.
+%C A056329 A string and its reverse are considered to be equivalent. Permuting the colors will not change the structure.
+%D A056329 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056329 a(n) = A056324(n)-A056323(n).
+%F A056329 Empirical G.f.: -x^5*(70*x^5-102*x^4+22*x^3+7*x^2-4*x+1) / ((x-1)*(2*x-1)*(2*x+1)*(3*x-1)*(4*x-1)*(5*x-1)*(2*x^2-1)*(5*x^2-1)). [_Colin Barker_, Nov 25 2012]
+%Y A056329 Cf. A056312.
+%K A056329 nonn
+%O A056329 1,6
+%A A056329 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024518
+Showing 1-1 of 1
+
+%I A024518
+%S A024518 1,2,4,6,10,14,18,23,29,36,43,49,59,67,76,86,97,108,119,132,143,157,
+%T A024518 169,182,198
+%N A024518 a(n) = position of 1 + n^2 in A000404 (sums of 2 nonzero squares).
+%K A024518 nonn
+%O A024518 1,2
+%A A024518 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

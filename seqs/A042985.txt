@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042985
+Showing 1-1 of 1
+
+%I A042985
+%S A042985 1,17,178,1477,10654,69930,428772,2496813,13962982,75582078,398302268,
+%T A042985 2052354850,10375356460,51596749300,252953904072,1224672639357,
+%U A042985 5863899363510,27801377704310,130648178243660,609082400931158
+%N A042985 Convolution of A000108 (Catalan numbers) with A038846.
+%C A042985 Also convolution of A045724 with A000984 (central binomial coefficients); also convolution of A042941 with A000302 (powers of 4).
+%F A042985 a(n) = binomial(n+4, 3)*(4^(n+1) - A000984(n+4)/A000984(3))/2, A000984(n)=binomial(2*n, n); G.f. c(x)/(1-4*x)^4, where c(x) = g.f. for Catalan numbers.
+%K A042985 easy,nonn
+%O A042985 0,2
+%A A042985 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

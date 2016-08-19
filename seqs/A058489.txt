@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058489
+Showing 1-1 of 1
+
+%I A058489
+%S A058489 1,11,21,55,110,285,450,1001,1605,2936,4740,8271,12571
+%V A058489 1,-11,-21,-55,-110,-285,-450,-1001,-1605,-2936,-4740,-8271,-12571
+%N A058489 McKay-Thompson series of class 12a for Monster.
+%D A058489 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058489 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058489 T12a = 1/q - 11*q - 21*q^3 - 55*q^5 - 110*q^7 - 285*q^9 - 450*q^11 - ...
+%Y A058489 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058489 sign
+%O A058489 -1,2
+%A A058489 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

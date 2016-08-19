@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025011
+Showing 1-1 of 1
+
+%I A025011
+%S A025011 7,14,24,36,52,74,100,133,174,222,284,356,442,543,665,805,969,1161,
+%T A025011 1383,1643,1939,2278,2665,3108,3614,4189,4840,5577,6412,7348,8400,
+%U A025011 9584,10912,12392,14049,15903,17963,20253,22801,25624,28757,32214,36044,40273,44943
+%N A025011 a(1) = 7; a(n+1) = a(n)-th composite.
+%t A025011 g[ n_Integer ] := (k = n + PrimePi[ n ] + 1; While[ k - PrimePi[ k ] - 1, k++ ]; k); NestList[ g, 7, 45 ]
+%Y A025011 Cf. A006508, A025010.
+%K A025011 nonn
+%O A025011 1,1
+%A A025011 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

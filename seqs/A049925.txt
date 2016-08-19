@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049925
+Showing 1-1 of 1
+
+%I A049925
+%S A049925 1,3,3,4,10,17,35,70,142,215,465,948,1903,3812,7625,15250,30502,45755,
+%T A049925 99135,202083,406075,813105,1626693,3253636,6507345,13014762,26029559,
+%U A049925 52059136,104118279,208236564,416473129,832946258,1665892518
+%N A049925 a(n)=a(1)+a(2)+...+a(n-1)-a(m), where m=2^(p+1)+2-n and 2^p<n-1<=2^(p+1).
+%K A049925 nonn
+%O A049925 1,2
+%A A049925 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055198
+Showing 1-1 of 1
+
+%I A055198
+%S A055198 1,2,5,6,9,13,16,24,27,31,35,38,53,57,68,71,75,79,82,93,97,101,122,
+%T A055198 137,141,177,181,217,304,319,323,359,363,399,501,505,526,541,545,581,
+%U A055198 585,621,708,723,727,763,767,803,905,909,945,949,985,989
+%N A055198 Numbers n with property that n cycles to itself after sufficiently many iterations of "reverse decimal digits of (n+4)".
+%C A055198 Sequence is probably finite and the list of 54 integers shown is probably complete (all integers <= 10000 eventually iterate to a cycle based on these 54, although for example 111 takes 2635 iterations to do so via a maximum of 99889)
+%C A055198 An equivalent conjecture is that all numbers converge to the trajectory of 1 shown in A119031. - _N. J. A. Sloane_, Aug 02 2009.
+%D A055198 J. Roberts, Lure of the Integers, Math. Assoc. America, 1992, p. 15.
+%Y A055198 Cf. A003608, A016081, A016082, A119031.
+%K A055198 nonn,base
+%O A055198 1,2
+%A A055198 _Henry Bottomley_, Jun 30 2000
+%E A055198 Edited by _N. J. A. Sloane_, Aug 02 2009
+%E A055198 Edited by _Charles R Greathouse IV_, Aug 04 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

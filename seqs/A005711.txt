@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005711
+Showing 1-1 of 1
+
+%I A005711 M0479
+%S A005711 1,1,1,1,1,1,1,1,2,3,4,5,6,7,8,9,10,12,15,19,24,30,37,45,54,64,76,91,
+%T A005711 110,134,164,201,246,300,364,440,531,641,775,939,1140,1386,1686,2050,
+%U A005711 2490,3021,3662,4437,5376,6516,7902,9588,11638,14128,17149,20811,25248
+%N A005711 a(n)=a(n-1)+a(n-9).
+%C A005711 a(n+7) equals the number of binary words of length n having at least 8 zeros between every two successive ones. - _Milan Janjic_, Feb 09 2015
+%D A005711 Problem E3274, Amer. Math. Monthly, 95 (1988), 555.
+%D A005711 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005711 Alois P. Heinz, <a href="/A005711/b005711.txt">Table of n, a(n) for n = 0..1000</a>
+%H A005711 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005711 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005711 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=382">Encyclopedia of Combinatorial Structures 382</a>
+%H A005711 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (1, 0, 0, 0, 0, 0, 0, 0, 1).
+%F A005711 G.f.: (1+x^8)/(1-x-x^9).
+%F A005711 For positive integers n and k such that k <= n <= 9*k, and 8 divides n-k, define c(n,k) = binomial(k,(n-k)/8), and c(n,k) = 0, otherwise. Then, for n>= 1, a(n-1) = sum(c(n,k), k=1..n). - Milan Janjic, Dec 09 2011
+%p A005711 A005711:=-(1+z**8)/(-1+z+z**9); [_Simon Plouffe_ in his 1992 dissertation.]
+%p A005711 ZL:=[S, {a = Atom, b = Atom, S = Prod(X,Sequence(Prod(X,b))), X = Sequence(b,card >= 8)}, unlabelled]: seq(combstruct[count](ZL, size=n), n=9..65); - _Zerinvary Lajos_, Mar 26 2008
+%p A005711 M := Matrix(9, (i,j)-> if j=1 and member(i,[1,9]) then 1 elif (i=j-1) then 1 else 0 fi); a := n -> (M^(n+1))[1,1]; seq (a(n), n=0..56); # _Alois P. Heinz_, Jul 27 2008
+%t A005711 LinearRecurrence[{1, 0, 0, 0, 0, 0, 0, 0, 1}, {1, 1, 1, 1, 1, 1, 1, 1, 1}, 80] (* _Vladimir Joseph Stephan Orlovsky_, Feb 16 2012 *)
+%o A005711 (PARI) x='x+O('x^66); Vec((1+x^8)/(1-x-x^9)) /* Joerg Arndt, Jun 25 2011 */
+%Y A005711 Cf. A005710.
+%K A005711 nonn,easy
+%O A005711 0,9
+%A A005711 _N. J. A. Sloane_.
+%E A005711 More terms from _Mohammad K. Azarian_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

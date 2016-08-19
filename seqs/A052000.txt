@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052000
+Showing 1-1 of 1
+
+%I A052000
+%S A052000 0,1,5,433494437,4807526976,53316291173
+%N A052000 Fibonacci(k) starting with digits of its index number k.
+%C A052000 Next term '3301...7801' has 690 digits.
+%F A052000 a(n) = A000045(A038546(n))
+%Y A052000 Cf. A000045, A038546, A000350, A050816.
+%K A052000 nonn,base
+%O A052000 0,3
+%A A052000 _Patrick De Geest_, Oct 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

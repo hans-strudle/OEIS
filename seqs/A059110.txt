@@ -1,0 +1,49 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059110
+Showing 1-1 of 1
+
+%I A059110
+%S A059110 1,1,1,3,4,1,13,21,9,1,73,136,78,16,1,501,1045,730,210,25,1,4051,9276,
+%T A059110 7515,2720,465,36,1,37633,93289,85071,36575,8015,903,49,1,394353,
+%U A059110 1047376,1053724,519456,137270,20048,1596,64,1,4596553,12975561
+%N A059110 Triangle T(n,m)= Sum_{i=0..n} L'(n,i)*binomial(i,m), m=0..n.
+%C A059110 L'(n,i) are unsigned Lah numbers (Cf. A008297): L'(n,i)=n!/i!*binomial(n-1,i-1) for i >= 1, L'(0,0)=1, L'(n,0)=0 for n>0. T(n,0)=A000262(n); T(n,2)=A052852(n). Row sums A052897.
+%C A059110 Exponential Riordan array [e^(x/(1-x)),x/(1-x)]. - _Paul Barry_, Apr 28 2007
+%C A059110 The matrix inverse starts
+%C A059110 1;
+%C A059110 -1,1;
+%C A059110 1,-4,1;
+%C A059110 -1,15,-9,1;
+%C A059110 1,-64,66,-16,1;
+%C A059110 -1,325,-490,190,-25,1;
+%C A059110 1,-1956,3915,-2120,435,-36,1;
+%C A059110 -1,13699,-34251,23975,-6755,861,-49,1;
+%C A059110 1,-109600,328804,-283136,101990,-17696,1540,-64,1; - _R. J. Mathar_, Mar 15 2013
+%F A059110 E.g.f. for T(n, m)=1/m!*(x/(1-x))^m*e^(x/(x-1)).
+%e A059110 [1],
+%e A059110 [1, 1],
+%e A059110 [3, 4, 1],
+%e A059110 [13, 21, 9, 1],
+%e A059110 [73, 136, 78, 16, 1],
+%e A059110 [501, 1045, 730, 210, 25, 1],
+%e A059110 ...; E.g.f. for T(n, 2) = 1/2!*(x/(1-x))^2*e^(x/(x-1)) = 1/2*x^2 + 3/2*x^3 + 13/4*x^4 + 73/12*x^5 + 167/16*x^6 + 4051/240*x^7 + ...
+%p A059110 Lprime := proc(n,i)
+%p A059110     if n = 0 and i = 0 then
+%p A059110         1;
+%p A059110     elif k = 0 then
+%p A059110         0 ;
+%p A059110     else
+%p A059110         n!/i!*binomial(n-1,i-1) ;
+%p A059110     end if;
+%p A059110 end proc:
+%p A059110 A059110 := proc(n,k)
+%p A059110     add(Lprime(n,i)*binomial(i,k),i=0..n) ;
+%p A059110 end proc: # _R. J. Mathar_, Mar 15 2013
+%t A059110 lp[n_, i_] := Binomial[n-1, i-1]*n!/i!; lp[0, 0] = 1; t[n_, m_] := Sum[lp[n, i]*Binomial[i, m], {i, 0, n}]; Table[t[n, m], {n, 0, 9}, {m, 0, n}] // Flatten (* _Jean-François Alcover_, Mar 26 2013 *)
+%Y A059110 Cf. A008297, A000262, A052852, A052897.
+%K A059110 easy,nonn,tabl
+%O A059110 0,4
+%A A059110 _Vladeta Jovovic_, Jan 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

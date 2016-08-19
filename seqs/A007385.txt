@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007385
+Showing 1-1 of 1
+
+%I A007385 M2200
+%S A007385 0,0,0,0,0,0,1,0,3,0,6,0,10,1,15,4,21,10,28,20,37,35,50,56,70,84,101,
+%T A007385 121,148,171,217,241,315,342,451,490,638,707,896,1022,1256,1473,1765,
+%U A007385 2111
+%N A007385 Number of strict 5th-order maximal independent sets in path graph.
+%D A007385 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007385 R. Yanco and A. Bagchi, ``K-th order maximal independent sets in path and cycle graphs,'' J. Graph Theory, submitted, 1994, apparently unpublished.
+%F A007385 Apparently a(n)= 3*a(n-2) -3*a(n-4) +a(n-6) +a(n-7) -2*a(n-9) +a(n-11) with g.f. -x^7/((x^7+x^2-1)*(x-1)^2*(1+x)^2). [From _R. J. Mathar_, Oct 30 2009]
+%K A007385 nonn
+%O A007385 1,9
+%A A007385 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

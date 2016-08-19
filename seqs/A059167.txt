@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059167
+Showing 1-1 of 1
+
+%I A059167
+%S A059167 1,1,1,2,15,314,13757,1142968,178281041,52610850316,29702573255587,
+%T A059167 32446427369694348,69254848513798160815,291053505824567573585744,
+%U A059167 2421830049319361003822380177,40050220743831370293688592267252
+%N A059167 Number of n-node labeled graphs without endpoints.
+%D A059167 F. Harary and E. Palmer, Graphical Enumeration, (1973), p. 31, problem 1.16(a).
+%F A059167 a(n)=Sum_{i=0..n-1} binomial(n-1, i)*b(i+1)*a(n-i-1), n>0, a(0)=1, where b(n) is number of n-node connected labeled graphs without endpoints (Cf. A059166).
+%F A059167 E.g.f.: exp(1/2*x^2)*Sum(2^binomial(n, 2)*(x/exp(x))^n/n!, n = 0 .. infinity). - _Vladeta Jovovic_, Mar 23 2004
+%Y A059167 Cf. A059166 (n-node connected labeled graphs without endpoints), A004108 (n-node connected unlabeled graphs without endpoints), A004110 (n-node unlabeled graphs without endpoints).
+%K A059167 easy,nonn
+%O A059167 0,4
+%A A059167 _Vladeta Jovovic_, Jan 12 2001
+%E A059167 More terms from John Renze (jrenze(AT)yahoo.com), Feb 01 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

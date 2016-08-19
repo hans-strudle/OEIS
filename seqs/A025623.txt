@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025623
+Showing 1-1 of 1
+
+%I A025623
+%S A025623 1,5,8,25,40,64,125,200,320,512,625,1000,1600,2560,3125,4096,5000,
+%T A025623 8000,12800,15625,20480,25000,32768,40000,64000,78125,102400,125000,
+%U A025623 163840,200000,262144,320000,390625,512000,625000,819200,1000000,1310720
+%N A025623 Numbers of form 5^i*8^j, with i, j >= 0.
+%K A025623 easy,nonn
+%O A025623 1,2
+%A A025623 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

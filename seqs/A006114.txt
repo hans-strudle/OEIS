@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006114
+Showing 1-1 of 1
+
+%I A006114 M4314
+%S A006114 1,6,806,2558556,200525284806,391901483074853556,
+%T A006114 19138263752352528498478556,23362736428829868448189697999416056
+%N A006114 Gaussian binomial coefficient [ 2n,n ] for q=5.
+%D A006114 J. Goldman and G.-C. Rota, The number of subspaces of a vector space, pp. 75-83 of W. T. Tutte, editor, Recent Progress in Combinatorics. Academic Press, NY, 1969.
+%D A006114 I. P. Goulden and D. M. Jackson, Combinatorial Enumeration. Wiley, NY, 1983, p, 99.
+%D A006114 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006114 M. Sved, Gaussians and binomials, Ars. Combinatoria, 17A (1984), 325-351.
+%H A006114 <a href="/index/Ga#Gaussian_binomial_coefficients">Index entries related to Gaussian binomial coefficients</a>
+%K A006114 nonn
+%O A006114 0,2
+%A A006114 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

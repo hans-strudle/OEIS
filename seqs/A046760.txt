@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046760
+Showing 1-1 of 1
+
+%I A046760
+%S A046760 4,6,8,9,12,18,20,22,24,26,28,30,33,34,36,38,39,40,42,44,45,46,48,50,
+%T A046760 51,52,54,55,56,57,58,60,62,63,65,66,68,69,70,72,74,75,76,77,78,80,82,
+%U A046760 84,85,86,87,88,90,91,92,93,94,95,96,98,99,100,102,104,108,110,114
+%N A046760 Wasteful numbers.
+%C A046760 Write n as product of primes raised to powers, let D(n) = number of digits in product, l(n) = number of digits in n; sequence gives n such that D(n)>l(n).
+%C A046760 A050252(a(n)) > A055642(a(n)). - _Reinhard Zumkeller_, Jun 21 2011
+%H A046760 Reinhard Zumkeller, <a href="/A046760/b046760.txt">Table of n, a(n) for n = 1..10000</a>
+%H A046760 J.-P. Delahaye, <a href="http://www.pourlascience.com/numeros/pls-258/logique.htm">Les chasseurs de nombres premiers</a> [broken link]
+%H A046760 R. G. E. Pinch, <a href="http://www.chalcedon.demon.co.uk/publish.html#62">Economical numbers.</a>
+%H A046760 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/WastefulNumber.html">Wasteful Number.</a>
+%H A046760 Wikipedia, <a href="http://en.wikipedia.org/wiki/Extravagant_number">Extravagant number</a>
+%e A046760 For n = 125 = 5^3, l(n) = 3 but D(n) = 2. So 125 is not a term of this sequence.
+%t A046760 Cases[Range[115], n_ /; Length[Flatten[IntegerDigits[FactorInteger[n] /. 1 -> Sequence[]]]] > Length[IntegerDigits[n]]] (* _Jean-François Alcover_, Mar 21 2011 *)
+%o A046760 (Haskell)
+%o A046760 a046760 n = a046760_list !! (n-1)
+%o A046760 a046760_list = filter (\n -> a050252 n > a055642 n) [1..]
+%o A046760 -- _Reinhard Zumkeller_, Aug 02 2013
+%o A046760 (PARI) for(n=1,100,s="";F=factor(n);for(i=1,#F[,1],s=concat(s,Str(F[i,1]));s=concat(s,Str(F[i,2])));c=0;for(j=1,#F[,2],if(F[j,2]==1,c++));if(#digits(n)<#s-c,print1(n,", "))) \\ _Derek Orr_, Jan 30 2015
+%Y A046760 Cf. A046758, A046759.
+%K A046760 nonn,nice,base,easy
+%O A046760 1,1
+%A A046760 _N. J. A. Sloane_
+%E A046760 Example clarified by _Derek Orr_, Jan 30 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

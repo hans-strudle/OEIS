@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057878
+Showing 1-1 of 1
+
+%I A057878
+%S A057878 23,37,53,73,113,131,151,211,311,11111111111111111131,
+%T A057878 11111111111111117111,11111111111131111111,11111111131111111111,
+%U A057878 111111111111111111111113,111111111111111112111111
+%N A057878 Primes with 2 distinct digits that remain prime (no leading zeros allowed) after deleting all occurrences of its digits d.
+%Y A057878 Cf. A057876-A057883, A004022, A004023, A051362, A034302-A034305.
+%K A057878 nonn,base
+%O A057878 1,1
+%A A057878 _Patrick De Geest_, Oct 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

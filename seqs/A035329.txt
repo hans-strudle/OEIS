@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035329
+Showing 1-1 of 1
+
+%I A035329
+%S A035329 0,63,198,429,780,1275,1938,2793,3864,5175,6750,8613,10788,13299,
+%T A035329 16170,19425,23088,27183,31734,36765,42300,48363,54978,62169,69960,
+%U A035329 78375,87438,97173,107604,118755,130650
+%N A035329 n(2n+5)(2n+7).
+%D A035329 Neville, Jacobian Elliptic Functions, 2nd ed., p. 38.
+%K A035329 nonn
+%O A035329 0,2
+%A A035329 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

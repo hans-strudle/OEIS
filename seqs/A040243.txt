@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040243
+Showing 1-1 of 1
+
+%I A040243
+%S A040243 16,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,
+%T A040243 8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,
+%U A040243 32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32,8,32
+%N A040243 Continued fraction for sqrt(260).
+%H A040243 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040243 a(n)=20+12*(-1)^n-16*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 21 2009]
+%p A040243 with(numtheory): Digits := 300: convert(evalf(sqrt(260)),confrac);
+%K A040243 nonn,cofr,easy
+%O A040243 0,1
+%A A040243 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

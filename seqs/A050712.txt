@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050712
+Showing 1-1 of 1
+
+%I A050712
+%S A050712 17,23,27,29,41,51,53,77,81,83,87,89,99,127,133,139,141,157,171,181,
+%T A050712 183,189,193,207,213,219,229,261,271,277,291,307,309,331,333,337,343,
+%U A050712 349,361,403,421,423,427,433,477,481,489,493,499,501,507,511,517,523
+%N A050712 Inserting a digit '2' between adjacent digits of n makes a prime.
+%H A050712 Harvey P. Dale, <a href="/A050712/b050712.txt">Table of n, a(n) for n = 0..1000</a>
+%e A050712 E.g. 333 becomes 3(2)3(2)3 which is prime 32323.
+%t A050712 Select[Range[10,600],PrimeQ[FromDigits[Riffle[IntegerDigits[#],2]]]&] (* _Harvey P. Dale_, Sep 13 2014 *)
+%Y A050712 Cf. A050674, A050711-A050719.
+%K A050712 nonn,base
+%O A050712 0,1
+%A A050712 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007120
+Showing 1-1 of 1
+
+%I A007120 M0915
+%S A007120 1,1,2,3,16,10,114,462,496,2952,16920,31680,130008,1707576,
+%T A007120 14259504,138375720,1652311680,22238105280,321916019904,
+%U A007120 4959460972224,81123831838080,1405677742882560,25732182778727040
+%V A007120 1,-1,-2,3,16,10,-114,-462,-496,2952,16920,31680,-130008,-1707576,
+%W A007120 -14259504,-138375720,-1652311680,-22238105280,-321916019904,
+%X A007120 -4959460972224,-81123831838080,-1405677742882560,-25732182778727040
+%N A007120 Expansion of (1+x)^(1-x).
+%D A007120 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A007120 sign
+%O A007120 0,3
+%A A007120 _Simon Plouffe_
+%E A007120 Signs from _Christian G. Bower_, Nov 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

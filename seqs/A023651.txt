@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023651
+Showing 1-1 of 1
+
+%I A023651
+%S A023651 0,2,15,24,1575,39366
+%N A023651 (product of digits of n) * (sum of digits of n) = 2n.
+%t A023651 Do[ If[ 2n == Apply[ Times, IntegerDigits[n]] Apply[ Plus, IntegerDigits[n]], Print[n]], {n, 0, 10^7} ]
+%Y A023651 2n = A007953(n) * A007954(n). Cf. A038369.
+%K A023651 nonn,base,fini
+%O A023651 1,2
+%A A023651 Jason Earls (zevi_35711(AT)yahoo.com), Dec 11 2001
+%E A023651 Offset corrected by _Arkadiusz Wesolowski_, Oct 17 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

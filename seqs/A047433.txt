@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047433
+Showing 1-1 of 1
+
+%I A047433
+%S A047433 2,4,5,6,10,12,13,14,18,20,21,22,26,28,29,30,34,36,37,38,42,44,45,46,
+%T A047433 50,52,53,54,58,60,61,62,66,68,69,70,74,76,77,78,82,84,85,86,90,92,93,
+%U A047433 94,98,100,101,102,106,108,109
+%N A047433 Numbers that are congruent to {2, 4, 5, 6} mod 8.
+%H A047433 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,1,-1).
+%F A047433 G.f. x*(2+2*x+x^2+x^3+2*x^4) / ( (1+x)*(x^2+1)*(x-1)^2 ). - _R. J. Mathar_, Dec 07 2011
+%t A047433 Select[Range[120],MemberQ[{2,4,5,6},Mod[#,8]]&]  (* _Harvey P. Dale_, Mar 04 2011 *)
+%K A047433 nonn
+%O A047433 1,1
+%A A047433 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015758
+Showing 1-1 of 1
+
+%I A015758
+%S A015758 1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+%T A015758 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0,1,
+%U A015758 1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0
+%V A015758 1,-1,0,1,-1,0,1,-1,0,1,-1,1,0,-1,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,
+%W A015758 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,1,-1,0,1,
+%X A015758 -1,1,0,-1,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0
+%N A015758 Inverse of 1749th cyclotomic polynomial.
+%p A015758 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015758 sign
+%O A015758 0,1
+%A A015758 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

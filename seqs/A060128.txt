@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060128
+Showing 1-1 of 1
+
+%I A060128
+%S A060128 0,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,2,1,1,1,2,1,1,1,1,2,2,2,2,2,1,2,1,1,
+%T A060128 1,1,1,1,1,1,2,1,1,1,2,1,1,1,1,2,1,1,1,1,1,2,1,1,1,1,2,2,1,1,2,1,2,2,
+%U A060128 2,1,1,1,1,1,1,1,2,1,2,2,1,1,2,1,1,1,1,1,2,1,2,1,2,1,2,1,1,1,2,1,1,1,2,2,2
+%N A060128 Number of disjoint cycles (excluding 1-cycles, i.e. fixed terms) in the permutations of sequences A060117/A060118.
+%F A060128 a(n) = nops(convert(PermUnrank3L(n), 'disjcyc'))
+%Y A060128 A060128[n] = A060129[n] - A060130[n]. Cf. A055090.
+%K A060128 nonn
+%O A060128 0,8
+%A A060128 _Antti Karttunen_, Mar 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

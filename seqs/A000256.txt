@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000256
+Showing 1-1 of 1
+
+%I A000256 M2923 N1173
+%S A000256 1,1,0,1,3,12,52,241,1173,5929,30880,164796,897380,4970296,27930828,
+%T A000256 158935761,914325657,5310702819,31110146416,183634501753,
+%U A000256 1091371140915,6526333259312,39246152584304,237214507388796,1440503185260748
+%N A000256 Number of simple triangulations of plane with n nodes.
+%D A000256 P. N. Rathie, A census of simple planar triangulations, J. Combin. Theory, B 16 (1974), 134-138.
+%D A000256 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000256 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000256 W. T. Tutte, A census of planar triangulations, Canad. J. Math., 14 (1962), 21-38.
+%D A000256 W. T. Tutte, A census of planar maps, Canad. J. Math., 15 (1963), 249-271.
+%D A000256 W. T. Tutte, The enumerative theory of planar maps, pp. 437-448 of J. N. Srivastava, ed., A Survey of Combinatorial Theory, North-Holland, 1973.
+%H A000256 T. D. Noe, <a href="/A000256/b000256.txt">Table of n, a(n) for n=3..200</a>
+%H A000256 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A000256 Simon Plouffe, <a href="http://arxiv.org/ftp/arxiv/papers/0912/0912.0072.pdf">Une méthode pour obtenir la fonction génératrice d'une série</a>. FPSAC 1993, Florence. Formal Power Series and Algebraic Combinatorics.
+%F A000256 a(n) = (1/4)*(7*binomial(3*n-9, n-4)-(8*n^2-43*n+57)*a(n-1))/(8*n^2-51*n+81), n>4. - _Vladeta Jovovic_, Aug 19 2004
+%F A000256 (1/4 + 7/8*n - 9/8*n^3)*a(n) + (-5/4 + 2/3*n + 59/12*n^2 - 13/3*n^3)*a(n+1) + (-1 - 2/3*n + n^2 + 2/3*n^3)*a(n+2). - _Simon Plouffe_, Feb 09 2012
+%F A000256 a(n) ~ 3^(3*n-6+1/2)/(2^(2*n+3)*sqrt(Pi)*n^(5/2)). - _Vaclav Kotesovec_, Aug 13 2013
+%p A000256 R := RootOf(x-t*(t-1)^2, t); ogf := series( (2*R^3+2*R^2-2*R-1)/((R-1)*(R+1)^2), x=0, 20); # _Mark van Hoeij_, Nov 08 2011
+%t A000256 r = Root[x - t*(t - 1)^2, t, 1] ; CoefficientList[ Series[(2*r^3 + 2*r^2 - 2*r - 1)/((r - 1)*(r + 1)^2), {x, 0, 24}], x](* _Jean-François Alcover_, Mar 14 2012, after _Mark van Hoeij_ *)
+%Y A000256 First row of array in A210664.
+%K A000256 nonn,nice
+%O A000256 3,5
+%A A000256 _N. J. A. Sloane_
+%E A000256 More terms from _Vladeta Jovovic_, Aug 19 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

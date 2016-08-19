@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054373
+Showing 1-1 of 1
+
+%I A054373
+%S A054373 0,8,0,0,2048,0,192,16384,28311552,0,0,1179648,0,29686813949952,0,
+%T A054373 7680,67108864,289910292480,5699868278390784,
+%U A054373 3039929748475084800000,0,0,838860800,0,1094374709451030528,0,37180135792929290696471347200000
+%V A054373 0,-8,0,0,-2048,0,192,16384,28311552,0,0,-1179648,0,29686813949952,0,
+%W A054373 -7680,67108864,-289910292480,5699868278390784,
+%X A054373 -3039929748475084800000,0,0,-838860800,0,1094374709451030528,0,-37180135792929290696471347200000
+%N A054373 Table of resultants for Hermite polynomials H_k(x) and H_n(x).
+%H A054373 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HermitePolynomial.html">Hermite Polynomial.</a>
+%H A054373 <a href="/index/He#Hermite">Index entries for sequences related to Hermite polynomials</a>
+%e A054373 {0},
+%e A054373 {-8, 0},
+%e A054373 {0, -2048, 0},
+%e A054373 {192, 16384, 28311552, 0},
+%e A054373 {0, -1179648, 0, 29686813949952, 0},
+%e A054373 {-7680, 67108864, -289910292480, 5699868278390784, -3039929748475084800000, 0}
+%t A054373 Flatten[Table[Resultant[HermiteH[n, x], HermiteH[k, x], x], {k, 20}, {n, k}]]
+%K A054373 sign,easy,tabl
+%O A054373 1,2
+%A A054373 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

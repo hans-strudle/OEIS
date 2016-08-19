@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022280
+Showing 1-1 of 1
+
+%I A022280
+%S A022280 0,11,45,102,182,285,411,560,732,927,1145,1386,1650,1937,2247,2580,
+%T A022280 2936,3315,3717,4142,4590,5061,5555,6072,6612,7175,7761,8370,9002,
+%U A022280 9657,10335,11036,11760,12507,13277
+%N A022280 a(n) = n*(23*n-1)/2.
+%H A022280 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A022280 a(n) = 23*n+a(n-1)-12 for n>0, a(0)=0. - _Vincenzo Librandi_, Aug 04 2010
+%F A022280 a(n) = 3*a(n-1)-3*a(n-2)+a(n-3). G.f.: x*(11+12*x)/(1-x)^3. - _Colin Barker_, Jun 05 2012
+%K A022280 nonn,easy
+%O A022280 0,2
+%A A022280 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

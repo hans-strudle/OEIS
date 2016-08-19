@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018803
+Showing 1-1 of 1
+
+%I A018803
+%S A018803 1,2,14,276,10980,781712,58339148,3066831440
+%N A018803 Number of ways to color cells of n X n square with 2 colors so that no subsquare of side >1 has all corners same color.
+%Y A018803 Main diagonal of A255256.
+%K A018803 nonn,fini
+%O A018803 0,2
+%A A018803 _David W. Wilson_
+%E A018803 a(0)=1 from _Alois P. Heinz_, Feb 19 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

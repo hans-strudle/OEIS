@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025056
+Showing 1-1 of 1
+
+%I A025056
+%S A025056 1,7,20,39,65,95,132,176,225,278
+%N A025056 a(n) = position of 3*n^2 in sequence A025051 (numbers of form j*k + k*i + i*j, without repetitions, where 1 <= i <= j <= k).
+%K A025056 nonn
+%O A025056 1,2
+%A A025056 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

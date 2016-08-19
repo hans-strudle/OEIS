@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015692
+Showing 1-1 of 1
+
+%I A015692
+%S A015692 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,
+%T A015692 0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,2,0,0,1,0,0,1,0,0,2,0,0,1,
+%U A015692 0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0
+%V A015692 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,
+%W A015692 0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,2,0,0,-1,0,0,-1,0,0,2,0,0,-1,
+%X A015692 0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0
+%N A015692 Inverse of 1683rd cyclotomic polynomial.
+%p A015692 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015692 sign
+%O A015692 0,52
+%A A015692 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

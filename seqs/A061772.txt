@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061772
+Showing 1-1 of 1
+
+%I A061772
+%S A061772 10,45,300,2250,18000,150000,1285714,11250000,100000000,900000000,
+%T A061772 8181818181,75000000000,692307692307,6428571428571,60000000000000,
+%U A061772 562500000000000,5294117647058824
+%N A061772 Number of n-digit multiples of n.
+%F A061772 a(n) = floor [{9*10^(n-1}/n] or floor [{9*10^(n-1)}/n] + 1.
+%e A061772 a(3) = 300 as there are 300 3-digit numbers divisible by 3, 102 to 999.
+%K A061772 nonn,base,easy
+%O A061772 1,1
+%A A061772 _Amarnath Murthy_, May 23 2001
+%E A061772 More terms from Jason Earls (zevi_35711(AT)yahoo.com), May 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

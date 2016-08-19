@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008528
+Showing 1-1 of 1
+
+%I A008528
+%S A008528 1,18,102,318,732,1410,2418,3822,5688,8082,11070,14718,19092,24258,
+%T A008528 30282,37230,45168,54162,64278,75582,88140,102018,117282,133998,
+%U A008528 152232,172050,193518,216702,241668
+%N A008528 Coordination sequence for 4-dimensional RR-centered di-isohexagonal orthogonal lattice.
+%D A008528 M. O'Keeffe, Coordination sequences for lattices, Zeit. f. Krist., 210 (1995), 905-908.
+%H A008528 Vincenzo Librandi, <a href="/A008528/b008528.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008528 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A008528 a(n) = n*(11*n^2+7) with n>0, a(0)=1 (see MAPLE line).
+%F A008528 G.f. 1 + 6*x*(3 + 5*x + 3*x^2) / (1-x)^4. - _R. J. Mathar_, Sep 04 2011
+%p A008528 [ seq( 11*k^3+7*k, k=1..40 ) ]; # apart from the first term
+%t A008528 CoefficientList[Series[1+6*x*(3+5*x+3*x^2)/(1-x)^4,{x,0,30}],x] (* _Vincenzo Librandi_, Jun 19 2012 *)
+%o A008528 (MAGMA) I:=[1, 18, 102, 318,732]; [n le 5 select I[n] else 4*Self(n-1)-6*Self(n-2)+4*Self(n-3)-Self(n-4): n in [1..30]]; // _Vincenzo Librandi_, Jun 19 2012
+%K A008528 nonn,easy
+%O A008528 0,2
+%A A008528 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048475
+Showing 1-1 of 1
+
+%I A048475
+%S A048475 0,1,1,2,2,3,2,3,3,5,4,5,6,7,7,8,6,7,6,7,7,11,8,11,11,13,12,13,14,15,
+%T A048475 11,13,13,14,15,17,18,19,19,20,18,19,20,21,19,23,23,24,23,24,20,23,22,
+%U A048475 23,24,23,28,29,21,29,23,23,29,21,31,29,29,24,31,29,24,29,29,31,31,33
+%N A048475 Let b(n) = A048275(n) = maximal number of divisors of C(n,k) for k=0..n; sequence gives smallest value of k achieving b(n).
+%e A048475 n=50, the number of divisors of {C[ 50,k ]} is maximal if k=24,26. It is 5184. The central(median) value, A00005[ C[ 50,25 ] ]=4608 is smaller.
+%Y A048475 A000005, A048275, A001405, A048570.
+%K A048475 nonn
+%O A048475 1,4
+%A A048475 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

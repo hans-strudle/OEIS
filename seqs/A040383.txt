@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040383
+Showing 1-1 of 1
+
+%I A040383
+%S A040383 20,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,
+%T A040383 10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,
+%U A040383 40,10,40,10,40,10,40,10,40,10,40,10,40,10,40,10,40
+%N A040383 Continued fraction for sqrt(404).
+%H A040383 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040383 a(n)=25+15*(-1)^n-20*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 29 2009]
+%p A040383 with(numtheory): Digits := 300: convert(evalf(sqrt(404)),confrac);
+%K A040383 nonn,cofr,easy
+%O A040383 0,1
+%A A040383 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040875
+Showing 1-1 of 1
+
+%I A040875
+%S A040875 30,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,
+%T A040875 10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,
+%U A040875 60,10,60,10,60,10,60,10,60,10,60,10,60,10,60,10,60
+%N A040875 Continued fraction for sqrt(906).
+%H A040875 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040875 a(n)=35+25*(-1)^n-30*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 03 2009]
+%p A040875 with(numtheory): Digits := 300: convert(evalf(sqrt(906)),confrac);
+%K A040875 nonn,cofr,easy
+%O A040875 0,1
+%A A040875 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

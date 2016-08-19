@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007635
+Showing 1-1 of 1
+
+%I A007635 M5069
+%S A007635 17,19,23,29,37,47,59,73,89,107,127,149,173,199,227,257,359,397,479,
+%T A007635 523,569,617,719,773,829,887,947,1009,1277,1423,1499,1657,1823,1997,
+%U A007635 2087,2179,2273,2467,2879,3209,3323,3557,3677,3923,4049,4177,4987,5273
+%N A007635 Primes of form n^2+n+17.
+%C A007635 a(n)=A117530(7,n) for n<=7: a(1)=A117530(7,1)=A014556(5)=17, A117531(7)=7. - _Reinhard Zumkeller_, Mar 26 2006
+%D A007635 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007635 D. Wells, The Penguin Dictionary of Curious and Interesting Numbers. Penguin Books, NY, 1986, 96.
+%H A007635 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Prime-GeneratingPolynomial.html">Prime-generating Polynomial.</a>
+%o A007635 (MAGMA) [a: n in [0..250]|IsPrime(a) where a is n^2+n+17][From Vincenzo Librandi, Dec 23 2010]
+%Y A007635 Cf. A005846, A028823, A048059, A160548.
+%K A007635 nonn,easy
+%O A007635 1,1
+%A A007635 _N. J. A. Sloane_, _Mira Bernstein_, _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

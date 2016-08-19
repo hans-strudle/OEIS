@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015908
+Showing 1-1 of 1
+
+%I A015908
+%S A015908 0,15,0,1566,111,35,0,123,365,671,15,185653,259,85,0,4369,39,247,
+%T A015908 800005,39,55,115,1731,85,221,135,35,105821,51,403,0,55,1649,1939,
+%U A015908 3177,3293,95,2283,3845,697,357,215,143,153,667,235,435,511,485
+%N A015908 First odd k>n such that k | n^k + n (or 0 if n=2^m).
+%K A015908 nonn
+%O A015908 0,2
+%A A015908 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

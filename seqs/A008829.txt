@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008829
+Showing 1-1 of 1
+
+%I A008829 N1424
+%S A008829 1,4,15,92,653,5897,9323,84626,433832,795028,841971,6939937,51058209,
+%T A008829 74944592,307816406,2862089986,28034825342,1170679821480,
+%U A008829 865132823066470,938446095505822
+%N A008829 Smallest number a(n) formed from consecutive sequences of digits of PI and satisfying a(n) > a(n-1); first 3 is omitted.
+%D A008829 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%Y A008829 Cf. A000796.
+%K A008829 nonn,base
+%O A008829 1,2
+%A A008829 _N. J. A. Sloane_. This sequence appeared in the 1973 "Handbook", but was then dropped from the database. Resubmitted by Victor H. Auerbach (vhambler(AT)voicenet.com). Entry revised by _N. J. A. Sloane_, Jun 11 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

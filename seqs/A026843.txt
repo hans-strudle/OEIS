@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026843
+Showing 1-1 of 1
+
+%I A026843
+%S A026843 1,8,46,233,1108,5083,22805,100827,441311,1917751,8289965,35694218,
+%T A026843 153225617,656213596,2805143526,11973556060,51047361676,217420991444,
+%U A026843 925300665762,3935293406942,16727533586006,71069911887898,301835332909216
+%N A026843 T(2n,n+3), T given by A026725.
+%C A026843 Column k=7 of triangle A236830. - _Philippe Deléham_, Feb 02 2014
+%F A026843 G.f.: (x^3*C(x)^7)/(1-x*C(x)^3) where C(x) is the g.f. of A000108. - _Philippe Deléham_, Feb 02 2014
+%Y A026843 Cf. A236830
+%K A026843 nonn
+%O A026843 3,2
+%A A026843 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

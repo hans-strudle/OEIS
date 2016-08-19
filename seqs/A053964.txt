@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053964
+Showing 1-1 of 1
+
+%I A053964
+%S A053964 2,3,7,88,212,893,69242288,8819171038
+%N A053964 Numbers n such that n^2 contains only digits {4,7,9}.
+%H A053964 P. De Geest, <a href="http://www.worldofnumbers.com/threedigits.htm">Squares containing at most three distinct digits, Index entries for related sequences</a>
+%H A053964 Author?, <a href="http://blue.kakiko.com/mmrmmr/htm/eqtn06.html">Source</a>(<a href="http://blue.kakiko.com/mmrmmr/txt/eqtn06.txt">txt</a>)
+%Y A053964 Cf. A053965.
+%K A053964 nonn,base,more
+%O A053964 1,1
+%A A053964 _Patrick De Geest_, Mar 15 2000.
+%E A053964 More terms from C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

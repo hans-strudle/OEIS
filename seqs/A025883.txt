@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025883
+Showing 1-1 of 1
+
+%I A025883
+%S A025883 1,0,0,0,0,1,0,1,0,1,1,0,1,0,2,1,1,1,1,2,1,2,1,2,2,2,2,2,3,2,3,2,3,3,
+%T A025883 3,4,3,4,3,4,4,4,5,4,5,5,5,5,5,6,6,6,6,6,7,7,7,7,7,8,8,8,8,9,9,9,9,9,
+%U A025883 10,10,11,10,11,11,11,12,11
+%N A025883 Expansion of 1/((1-x^5)(1-x^7)(1-x^9)).
+%K A025883 nonn
+%O A025883 0,15
+%A A025883 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

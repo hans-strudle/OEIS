@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056544
+Showing 1-1 of 1
+
+%I A056544
+%S A056544 1,2,3,4,5,6,7,8,9,101,11,121,131,141,151,161,171,181,191,202,121,22,
+%T A056544 232,242,252,262,272,282,292,303,131,232,33,343,353,363,373,383,393,
+%U A056544 404,141,242,343,44,454,464,474,484,494,505,151,252,353,454,55,565,575
+%N A056544 Least palindrome containing the digits of n as a subsequence.
+%e A056544 The smallest palindrome containing 21 as a subsequence is 121. So a(21) = 121.
+%t A056544 Do[k = 1; While[ StringPosition[ ToString[k], ToString[n]] == {} || ToString[k] != StringReverse[ ToString[k]], k++ ]; Print[k], {n, 1, 70} ]
+%K A056544 base,easy,nonn
+%O A056544 1,2
+%A A056544 _Joseph L. Pe_, Feb 10 2002
+%E A056544 Edited and extended by _Robert G. Wilson v_, Feb 12 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

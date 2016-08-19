@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050149
+Showing 1-1 of 1
+
+%I A050149
+%S A050149 1,15,80,432,2352,12896,71136,394400,2196128,12273648,68811184,
+%T A050149 386838480,2179890000,12309739968,69641542848,394643939904,
+%U A050149 2239678552640,12727572969680,72415319422992,412470467298032
+%N A050149 a(n)=T(n,n-3), array T as in A050143.
+%K A050149 nonn
+%O A050149 3,2
+%A A050149 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

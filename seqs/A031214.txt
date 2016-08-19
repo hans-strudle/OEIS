@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031214
+Showing 1-1 of 1
+
+%I A031214
+%S A031214 1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,2,1,1,1,2,2,1,
+%T A031214 0,2,2,2,2,2,1,1,2,1,0,1,1,1,0,1,2,8,14,4,1,1,2,2,1,1,1,1,1,1,1,2,1,1,
+%U A031214 1,1,0,1,0,1,0,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1
+%N A031214 Initial term of sequence An.
+%C A031214 This ignores the offset and gives the first term of the actual entry.
+%H A031214 N. J. A. Sloane, <a href="/index.html">Online Encyclopedia of Integer Sequences</a>
+%Y A031214 Cf. A051070, A091967, A107357, A102288; also A000001, A000002, A000003, A000004, A000005, etc.
+%K A031214 nonn
+%O A031214 1,20
+%A A031214 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

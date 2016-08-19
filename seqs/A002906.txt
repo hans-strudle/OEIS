@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002906
+Showing 1-1 of 1
+
+%I A002906 M3447 N1401
+%S A002906 1,4,12,36,100,276,740,1972,5172,13492,34876,89764,229628,585508,
+%T A002906 1486308,3763460,9497380,23918708,60080156,150660388,377009364,
+%U A002906 942106116,2350157268,5855734740,14569318492,36212402548,89896870204
+%N A002906 High temperature series for spin-1/2 Ising magnetic susceptibility on 2D square lattice.
+%D A002906 C. Domb, Ising model, in Phase Transitions and Critical Phenomena, vol. 3, ed. C. Domb and M. S. Green, Academic Press, 1974; p. 380.
+%D A002906 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 391-406.
+%D A002906 M. E. Fisher and R. J. Burford, Theory of critical point scattering and correlations I: the Ising model, Phys. Rev. 156 (1967), 583-621.
+%D A002906 S. Gartenhaus and W. S. McCullough, Higher order corrections for the quadratic Ising lattice susceptibility at criticality, Phys. Rev. B 38 (1988) 11688-11703.
+%D A002906 A. J. Guttmann, Asymptotic analysis of power-series expansions, pp. 1-234 of C. Domb and J. L. Lebowitz, editors, Phase Transitions and Critical Phenomena. Vol. 13, Academic Press, NY, 1989.
+%D A002906 B. G. Nickel, personal communication.
+%D A002906 B. Nickel, Journal of Physics A, Math. Gen. 32, 3889 (1999), 33, 1693 (2000)
+%D A002906 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002906 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002906 M. F. Sykes, Some counting theorems in the theory of the Ising problem and the excluded volume problem, J. Math. Phys., 2 (1961), 52-62.
+%D A002906 M. F. Sykes, D. G. Gaunt, P. D. Roberts and J. A. Wyles, High temperature series for the susceptibility of the Ising model, I. Two dimensional lattices, J. Phys. A 5 (1972) 624-639.
+%D A002906 M. F. Sykes et al., The asymptotic behavior of selfavoiding walks and returns on a lattice, J. Phys. A 5 (1972), 653-660.
+%H A002906 Fred Hucht (fred(AT)thp.uni-due.de), Oct 2008, <a href="/A002906/b002906.txt">Table of n, a(n) for n=0..116</a> [Coefficients of chi = Sum[a[n] z^n,{n,0,116}] with z=Tanh[1/kBT]]
+%H A002906 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/ising/ising.html">Lenz-Ising Constants</a>
+%H A002906 Peter Young, <a href="http://www.apyoung.com/~peter/219/series.dat">Coefficients in the series expansions</a>
+%K A002906 nonn,nice
+%O A002906 0,2
+%A A002906 _N. J. A. Sloane_.
+%E A002906 Corrections and updates from _Steven Finch_
+%E A002906 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Mar 01 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

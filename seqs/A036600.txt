@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036600
+Showing 1-1 of 1
+
+%I A036600
+%S A036600 0,0,0,0,0,0,0,0,0,0,0,1,10,54,217,736,2238,6311,16858,43262,107693,
+%T A036600 261823,624756,1468489,3409246,7833514,17841580,40327947,90547126,
+%U A036600 202096457,448654889,991165733,2179884354,4774433308,10416862098
+%N A036600 Number of binary rooted trees with n nodes and height exactly 11.
+%H A036600 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%H A036600 E. M. Rains and N. J. A. Sloane, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On Cayley's Enumeration of Alkanes (or 4-Valent Trees)</a>, J. Integer Sequences, Vol. 2 (1999), Article 99.1.1.
+%K A036600 nonn,fini
+%O A036600 0,13
+%A A036600 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

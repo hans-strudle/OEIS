@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017429
+Showing 1-1 of 1
+
+%I A017429
+%S A017429 243,537824,9765625,60466176,229345007,656356768,1564031349,
+%T A017429 3276800000,6240321451,11040808032,18424351793,29316250624,
+%U A017429 44840334375,66338290976,95388992557,133827821568,183765996899
+%N A017429 (11n+3)^5.
+%H A017429 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A017429 a(0)=243, a(1)=537824, a(2)=9765625, a(3)=60466176, a(4)=229345007, a(5)=656356768, a(n)=6*a(n-1)-15*a(n-2)+20*a(n-3)-15*a(n-4)+6*a(n-5)-a(n-6). - _Harvey P. Dale_, Apr 30 2013
+%t A017429 (11*Range[0,20]+3)^5 (* or *) LinearRecurrence[{6,-15,20,-15,6,-1},{243,537824,9765625,60466176,229345007,656356768},20] (* _Harvey P. Dale_, Apr 30 2013 *)
+%K A017429 nonn,easy
+%O A017429 0,1
+%A A017429 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010812
+Showing 1-1 of 1
+
+%I A010812
+%S A010812 0,1,16777216,282429536481,281474976710656,59604644775390625,
+%T A010812 4738381338321616896,191581231380566414401,4722366482869645213696,
+%U A010812 79766443076872509863361,1000000000000000000000000
+%N A010812 24th powers: a(n) = n^24.
+%C A010812 Totally multiplicative sequence with a(p) = p^24 for prime p. Multiplicative sequence with a(p^e) = p^(24e). [From _Jaroslav Krizek_, Nov 01 2009]
+%H A010812 Vincenzo Librandi, <a href="/A010812/b010812.txt">Table of n, a(n) for n = 0..1000</a>
+%o A010812 (MAGMA) [n^24: n in [0..15]]; // Vincenzo Librandi, Jun 19 2011
+%K A010812 nonn,mult
+%O A010812 0,3
+%A A010812 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

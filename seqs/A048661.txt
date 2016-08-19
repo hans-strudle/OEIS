@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048661
+Showing 1-1 of 1
+
+%I A048661
+%S A048661 0,0,0,0,0,4,12,16,132,308
+%N A048661 Number of n-digit dihedral primes for which the 4 numbers (n, n upside-down, n in a mirror, n upside-down and mirrored) are distinct.
+%H A048661 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_039.htm">Source</a>
+%Y A048661 Cf. A038136.
+%K A048661 base,more,nonn
+%O A048661 1,6
+%A A048661 _Felice Russo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

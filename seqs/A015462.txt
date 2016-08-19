@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015462
+Showing 1-1 of 1
+
+%I A015462
+%S A015462 0,1,1,6,31,781,20156,2460781,317398281,192565913906,124176269429531,
+%T A015462 376229476867085781,1213035110624630757656,18371792960261297531148281,
+%U A015462 296169521847801754865890523281,22426801247965814514582357345601406
+%N A015462 q-Fibonacci numbers for q=5.
+%H A015462 Vincenzo Librandi, <a href="/A015462/b015462.txt">Table of n, a(n) for n = 0..70</a>
+%F A015462 a(n) = a(n-1) + 5^(n-2) a(n-2).
+%F A015462 Associated constant: C_5=lim n-->infty a(n)*a(n-2)/a(n-1)^2 = 1.064478080430862119874641125.... - _Benoit Cloitre_, Aug 30 2003
+%t A015462 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]+a[n-2]*5^(n-2)},  a, {n, 20}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%o A015462 (MAGMA) [0] cat[n le 2 select 1 else Self(n-1) + Self(n-2)*(5^(n-2)): n in [1..20]]; // _Vincenzo Librandi_, Nov 09 2012
+%Y A015462 Cf. A015459, A015460, A015461.
+%K A015462 nonn,easy
+%O A015462 0,4
+%A A015462 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

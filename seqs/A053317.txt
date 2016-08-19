@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053317
+Showing 1-1 of 1
+
+%I A053317
+%S A053317 2,52,552,5552,55552,255552,5255552,55255552,255255552,2255255552,
+%T A053317 22255255552,222255255552,5222255255552,55222255255552,
+%U A053317 255222255255552,2255222255255552,22255222255255552,222255222255255552
+%N A053317 a(n) contains n digits (either '2' or '5') and is divisible by 2^n.
+%F A053317 a(n)=a(n-1)+10^(n-1)*(2+3*[a(n-1)/2^(n-1) mod 2]) i.e. a(n) ends
+%Y A053317 Cf. A023398, A050621, A050622, A035014, A055880.
+%K A053317 base,nonn
+%O A053317 1,1
+%A A053317 _Henry Bottomley_, Mar 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

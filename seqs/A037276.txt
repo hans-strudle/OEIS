@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037276
+Showing 1-1 of 1
+
+%I A037276
+%S A037276 1,2,3,22,5,23,7,222,33,25,11,223,13,27,35,2222,17,233,19,225,37,211,
+%T A037276 23,2223,55,213,333,227,29,235,31,22222,311,217,57,2233,37,219,313,
+%U A037276 2225,41,237,43,2211,335,223,47,22223,77,255,317,2213,53,2333
+%N A037276 Start with 1; for n>1, replace n by the concatenation of its prime factors in increasing order.
+%H A037276 T. D. Noe, <a href="/A037276/b037276.txt">Table of n, a(n) for n=1..10000</a>
+%H A037276 P. De Geest, <a href="http://www.worldofnumbers.com/topic1.htm">Home Primes</a>
+%H A037276 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HomePrime.html">More info (2)</a>
+%e A037276 If n=2^3*5^5*11^2 = 3025000, a(n) = 222555551111 (n=2*2*2*5*5*5*5*5*11*11, then remove the multiplication signs).
+%p A037276 read("transforms") ;
+%p A037276 A037276 := proc(n)
+%p A037276     local L,p ;
+%p A037276     L := [] ;
+%p A037276     for p in ifactors(n)[2] do
+%p A037276         L := [op(L),seq(op(1,p),i=1..op(2,p))] ;
+%p A037276     end do:
+%p A037276     digcatL(L) ;
+%p A037276 end proc: # _R. J. Mathar_, Oct 29 2012
+%t A037276 co[n_, k_] := Nest[Flatten[IntegerDigits[{#, n}]] &, n, k - 1]; Table[FromDigits[Flatten[IntegerDigits[co @@@ FactorInteger[n]]]], {n, 54}] (* _Jayanta Basu_, Jul 04 2013 *)
+%t A037276 FromDigits@ Flatten@ IntegerDigits[Table[#1, {#2}] & @@@ FactorInteger@ #] & /@ Range@ 54 (* _Michael De Vlieger_, Jul 14 2015 *)
+%o A037276 (PARI) a(n)={ n<4 & return(n); for(i=1,#n=factor(n)~, n[1,i]=concat(vector(n[2,i],j,Str(n[1,i])))); eval(concat(n[1,]))}  \\ _M. F. Hasler_, Jun 19 2011
+%o A037276 (Haskell)
+%o A037276 a037276 = read . concatMap show . a027746_row
+%o A037276 -- _Reinhard Zumkeller_, Apr 03 2012
+%Y A037276 Cf. A037274, A048985, A067599, A080670, A084796. Different from A073646.
+%Y A037276 Cf. A027746.
+%K A037276 nonn,easy,base
+%O A037276 1,2
+%A A037276 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

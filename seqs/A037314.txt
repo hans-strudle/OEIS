@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037314
+Showing 1-1 of 1
+
+%I A037314
+%S A037314 0,1,2,9,10,11,18,19,20,81,82,83,90,91,92,99,100,101,162,163,164,171,
+%T A037314 172,173,180,181,182,729,730,731,738,739,740,747,748,749,810,811,812,
+%U A037314 819,820,821,828,829,830,891,892,893,900,901,902,909,910,911
+%N A037314 Numbers n such that (sum of base 3 digits of n)=(sum of base 9 digits of n).
+%C A037314 a(n) = Sum{d(i)*9^i: i=0,1,...,m}, where Sum{d(i)*3^i: i=0,1,...,m} is the base 3 representation of n.
+%C A037314 Numbers that can be written using only digits 0, 1 and 2 in base 9. Also, write n in base 3, read as base 9: (3) [n] (9) in base change notation. a(3n+k) = 9a(n)+k for k in {0,1,2}. - _Franklin T. Adams-Watters_, Jul 24 2006
+%F A037314 G.f. f(x) = sum(j>=0, 9^j*x^(3^j)*(1+x^(3^j)-2*x^(2*3^j))/((1-x)*(1-x^(3^(j+1))))) satisfies f(x) = 9*(x^2+x+1)*f(x^3) + x*(1+2*x)/(1-x^3). - _Robert Israel_, Apr 13 2015
+%t A037314 Table[FromDigits[RealDigits[n, 3], 9], {n, 1, 100}]
+%t A037314 (* _Clark Kimberling_, Aug 14 2012 *)
+%o A037314 (PARI) a(n) = {my(d = digits(n, 3)); subst(Pol(d), x, 9);} \\ _Michel Marcus_, Apr 09 2015
+%Y A037314 Cf. A007089.
+%K A037314 nonn,base
+%O A037314 0,3
+%A A037314 _Clark Kimberling_
+%E A037314 Edited by _N. J. A. Sloane_ at the suggestion of _Andrew Plewe_, Jun 08 2007
+%E A037314 Offset changed to 0 by _Clark Kimberling_, Aug 14 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

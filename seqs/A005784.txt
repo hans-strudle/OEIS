@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005784
+Showing 1-1 of 1
+
+%I A005784 M3535
+%S A005784 4,17,65,230,736,2197,6093,15864,38960,90837,202005,430577,883057,
+%T A005784 1748909,3355213,6252575,11345602,20089514,34778306,58964020,98053576,
+%U A005784 160151566,257229974,406739271,633795181,974126408,1477999320
+%N A005784 Number of 4-covers of an n-set.
+%D A005784 R. J. Clarke, Covering a set by subsets, Discrete Math., 81 (1990), 147-152.
+%D A005784 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005784 Vladeta Jovovic, <a href="/A005748/a005748.pdf">Binary matrices up to row and column permutations</a>
+%F A005784 G.f.: (x^20 - x^19 + 4*x^18 + 9*x^17 + 23*x^16 + 39*x^15 + 90*x^14 + 131*x^13 + 204*x^12 + 238*x^11 + 252*x^10 + 238*x^9 + 204*x^8 + 131*x^7 + 90*x^6 + 39*x^5 + 23*x^4 + 9*x^3 + 4*x^2 - x + 1)/((1 - x^4)^3*(1 - x^3)^4*(1 - x^2)^3*(1 - x)^5).
+%Y A005784 Cf. A006148, A005783, A005785.
+%K A005784 easy,nonn
+%O A005784 1,1
+%A A005784 _N. J. A. Sloane_.
+%E A005784 More terms from _Vladeta Jovovic_, Jun 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

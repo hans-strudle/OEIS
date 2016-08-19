@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017022
+Showing 1-1 of 1
+
+%I A017022
+%S A017022 729,1000000,24137569,191102976,887503681,3010936384,8303765625,
+%T A017022 19770609664,42180533641,82653950016,151334226289,262144000000,
+%U A017022 433626201009,689869781056,1061520150601,1586874322944
+%N A017022 (7*n+3)^6.
+%H A017022 Vincenzo Librandi, <a href="/A017022/b017022.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017022 (MAGMA) [(7*n+3)^6: n in [0..35]]; // Vincenzo Librandi, Jul 14 2011
+%K A017022 nonn,easy
+%O A017022 0,1
+%A A017022 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

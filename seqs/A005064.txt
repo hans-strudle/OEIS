@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005064
+Showing 1-1 of 1
+
+%I A005064
+%S A005064 0,8,27,8,125,35,343,8,27,133,1331,35,2197,351,152,8,4913,35,6859,133,
+%T A005064 370,1339,12167,35,125,2205,27,351,24389,160,29791,8,1358,4921,468,35,
+%U A005064 50653,6867,2224,133,68921,378
+%N A005064 Sum of cubes of primes dividing n.
+%F A005064 Additive with a(p^e) = p^3.
+%K A005064 nonn
+%O A005064 1,2
+%A A005064 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

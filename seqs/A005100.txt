@@ -1,0 +1,58 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005100
+Showing 1-1 of 1
+
+%I A005100 M0514
+%S A005100 1,2,3,4,5,7,8,9,10,11,13,14,15,16,17,19,21,22,23,25,26,27,29,31,32,
+%T A005100 33,34,35,37,38,39,41,43,44,45,46,47,49,50,51,52,53,55,57,58,59,61,62,
+%U A005100 63,64,65,67,68,69,71,73,74,75,76,77,79,81,82,83,85,86
+%N A005100 Deficient numbers: numbers n such that sigma(n) < 2n.
+%C A005100 A number n is abundant if sigma(n) > 2n (cf. A005101), perfect if sigma(n) = 2n (cf. A000396), deficient if sigma(n) < 2n (this entry), where sigma(n) is the sum of the divisors of n (A000203).
+%C A005100 Also, numbers n such that A033630(n) = 1. - _Reinhard Zumkeller_, Mar 02 2007
+%C A005100 According to Deléglise (1998), the abundant numbers have natural density 0.2474 < A(2) < 0.2480. Since the perfect numbers having density 0, the deficient numbers have density 0.7520 < 1 - A(2) < 0.7526. Thus the n-th deficient number is asymptotic to 1.3287 n < n/(1 - A(2)) < 1.3298 n. - _Daniel Forgues_, Oct 10 2015
+%D A005100 R. K. Guy, Unsolved Problems in Number Theory, B2.
+%D A005100 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005100 T. D. Noe, <a href="/A005100/b005100.txt">Table of n, a(n) for n = 1..10000</a>
+%H A005100 J. Britton, <a href="http://britton.disted.camosun.bc.ca/perfect/jbperfect.htm">Perfect Number Analyser</a>
+%H A005100 Marc Deléglise, <a href="http://projecteuclid.org/euclid.em/1048515661">Bounds for the density of abundant integers</a>, Experiment. Math. Volume 7, Issue 2 (1998), 137-143.
+%H A005100 Walter Nissen, <a href="http://upforthecount.com/math/abundance.html">Abundancy : Some Resources </a>
+%H A005100 P. Pollack, C. Pomerance, <a href="http://alpha.math.uga.edu/~pollack/reversal12.pdf">Some problems of Erdos on the sum-of-divisors function</a>, For Richard Guy on his 99th birthday: May his sequence be unbounded, 2015, to appear.
+%H A005100 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DeficientNumber.html">Deficient Number</a>
+%H A005100 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Abundance.html">Abundance</a>
+%H A005100 Wikipedia, <a href="http://en.wikipedia.org/wiki/Deficient_number">Deficient number</a>
+%H A005100 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%F A005100 A001065(a(n)) < a(n). - _Reinhard Zumkeller_, Oct 31 2015
+%p A005100 with(numtheory); s := proc(n) local i,j,ans; ans := [ ]; j := 0; for i while j<n do if sigma(i)<2*i then ans := [ op(ans),i ]; j := j+1; fi; od; RETURN(ans); end; # s(k) returns terms of sequence through k
+%p A005100 isA005100 := proc(n)
+%p A005100     numtheory[sigma](n) < 2*n ;
+%p A005100 end proc:
+%p A005100 A005100 := proc(n)
+%p A005100     option remember;
+%p A005100     local a;
+%p A005100     if n = 1 then
+%p A005100         1;
+%p A005100     else
+%p A005100         for a from procname(n-1)+1 do
+%p A005100             if isA005100(a) then
+%p A005100                 return a;
+%p A005100             end if;
+%p A005100         end do:
+%p A005100     end if;
+%p A005100 end proc: # _R. J. Mathar_, Jul 08 2015
+%t A005100 Select[Range[100], DivisorSigma[1, # ] < 2*# &] (* _Stefan Steinerberger_, Mar 31 2006 *)
+%o A005100 (PARI) isA005100(n) = (sigma(n) < 2*n) \\ _Michael B. Porter_, Nov 08 2009
+%o A005100 (PARI) for(n=1, 100, if(sigma(n) < 2*n, print1(n", "))) \\  _Altug Alkan_, Oct 15 2015
+%o A005100 (Haskell)
+%o A005100 a005100 n = a005100_list !! (n-1)
+%o A005100 a005100_list = filter (\x -> a001065 x < x) [1..]
+%o A005100 -- _Reinhard Zumkeller_, Oct 31 2015
+%Y A005100 Cf. A005101 (abundant), A125499 (even deficient), A247328 (odd deficient), A023196 (complement).
+%Y A005100 By definition, the weird numbers A006037 are not in this sequence.
+%Y A005100 Cf. A001065.
+%K A005100 nonn,easy,core,nice
+%O A005100 1,2
+%A A005100 _N. J. A. Sloane_
+%E A005100 More terms from _Stefan Steinerberger_, Mar 31 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

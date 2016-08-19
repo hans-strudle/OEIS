@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058267
+Showing 1-1 of 1
+
+%I A058267
+%S A058267 1,2,3,4,3,7,4,7,6,8,4,12,5,9,9,11,5,14,5,14,10,10,6,20,8,11,11,16,6,
+%T A058267 21,7,17,12,12,12,25,7,13,13,23,7,24,8,19,19,14,8,31,11,20,14,20,8,26,
+%U A058267 14,26,15,15,9,39,9,16,21,25,15,28,9,23,16,28,9,42,10
+%N A058267 An approximation to sigma_{1/2}(n): round( sum_{ d divides n } sqrt(d) ).
+%p A058267 with(numtheory); f := proc(n) local d, t1, t2; t2 := 0; t1 := divisors(n); for d in t1 do t2 := t2 + sqrt(d) end do; t2 end proc; # exact value of sigma_{1/2}(n)
+%K A058267 nonn
+%O A058267 1,2
+%A A058267 _N. J. A. Sloane_, Dec 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

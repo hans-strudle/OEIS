@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028044
+Showing 1-1 of 1
+
+%I A028044
+%S A028044 1,25,407,5501,67239,773589,8559679,92246077,975897527,10187458853,
+%T A028044 105306474351,1080536075853,11025196931815,112010922356917,
+%U A028044 1134181907272223,11454404794267229,115444750765761303
+%N A028044 Expansion of 1/((1-3x)(1-4x)(1-8x)(1-10x)).
+%F A028044 a(n)=(10^(n+4)-21*8^(n+3)+35*4^(n+3)-8*3^(n+4))/840. [_Yahia Kahloune_, Jun 07 2013]
+%K A028044 nonn
+%O A028044 0,2
+%A A028044 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032858
+Showing 1-1 of 1
+
+%I A032858
+%S A032858 1,2,3,6,7,10,11,19,20,23,30,33,34,57,60,61,69,70,91,92,100,101,104,
+%T A032858 172,173,181,182,185,208,209,212,273,276,277,300,303,304,312,313,516,
+%U A032858 519,520,543,546,547,555,556,624,627,628,636,637
+%N A032858 Numbers n such that base 3 representation Sum{d(i)*3^i: i=0,1,...,m) has d(m)>d(m-1)<d(m-2)>...
+%K A032858 nonn,base
+%O A032858 1,2
+%A A032858 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

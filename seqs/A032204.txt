@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032204
+Showing 1-1 of 1
+
+%I A032204
+%S A032204 2,3,10,44,208,1109,6118,35237,207934,1253287,7675826,47646436,
+%T A032204 299041848,1894604820,12100426672,77824808724,503607919768,
+%U A032204 3276529572798,21420197993784,140637939255210,926969395669496
+%N A032204 Number of series-reduced planted compound windmills with n leaves of 2 colors.
+%H A032204 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A032204 Doubles (index 2+) under "CIK" (necklace, indistinct, unlabeled) transform.
+%K A032204 nonn
+%O A032204 1,1
+%A A032204 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

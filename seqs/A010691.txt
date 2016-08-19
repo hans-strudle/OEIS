@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010691
+Showing 1-1 of 1
+
+%I A010691
+%S A010691 1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,
+%T A010691 10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,
+%U A010691 1,10,1,10,1,10,1,10,1,10,1,10
+%N A010691 Period 2: repeat (1,10)
+%C A010691 Regular continued fraction of (5+sqrt 35)/10. - R. J. Mathar, Nov 21 2011
+%H A010691 Vincenzo Librandi, <a href="/A010691/b010691.txt">Table of n, a(n) for n = 0..1000</a>
+%F A010691 a(n)=-9/2*(-1)^n+11/2 a(n)=10*(n mod 2)+(n+1) mod 2 - Paolo P. Lava, Oct 20 2006
+%F A010691 G.f.: (1+10*z)/(1-z^2). [From _Zerinvary Lajos_, Feb 25 2009]
+%F A010691 a(n) = 10^n mod 11.  - M. F. Hasler, Mar 10, 2011
+%p A010691 g:=(1+10*z)/((1-z^2)): gser:=series(g, z=0, 66): seq((coeff(gser, z, n)), n=0..65);# [From _Zerinvary Lajos_, Feb 25 2009]
+%t A010691 PadRight[{},100,{1,10}] (* _Harvey P. Dale_, Aug 27 2013 *)
+%o A010691 (MAGMA) [10^n mod 11: n in [0..80]]; // Vincenzo Librandi, Aug 24 2011
+%Y A010691 Cf. A036117, A070341, A168429, A070367, A070392, A070404, A048271, A187466.
+%K A010691 nonn,easy
+%O A010691 0,2
+%A A010691 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

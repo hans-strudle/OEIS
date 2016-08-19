@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046163
+Showing 1-1 of 1
+
+%I A046163
+%S A046163 1,7,13,7,31,43,19,73,91,37,133,157,61,211,241,91,307,343,127,421,463,
+%T A046163 169,553,601,217,703,757,271,871,931,331,1057,1123,397,1261,1333,469,
+%U A046163 1483,1561,547,1723,1807,631,1981,2071,721,2257,2353,817,2551,2653
+%N A046163 Reduced denominators of (n-1)^2/(n^2+n+1). Arises in Routh's theorem.
+%H A046163 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RouthsTheorem.html">Routh's Theorem.</a>
+%F A046163 G.f.: x(x^8+x^7+x^6+4x^5+10x^4+4x^3+13x^2+7x+1)/(1-x^3)^3.
+%Y A046163 Cf. A046162.
+%K A046163 nonn
+%O A046163 1,2
+%A A046163 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

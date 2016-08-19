@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004360
+Showing 1-1 of 1
+
+%I A004360
+%S A004360 1,36,861,17296,316251,5461512,90858768,1473109704,23446881315,
+%T A004360 368136785016,5720645481903,88188515933856,1350990969850340,
+%U A004360 20592957740312160,312629484400483356,4730523156632595024
+%N A004360 Binomial coefficient C(6n,n-5).
+%D A004360 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004360 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%K A004360 nonn,easy
+%O A004360 5,2
+%A A004360 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

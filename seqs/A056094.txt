@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056094
+Showing 1-1 of 1
+
+%I A056094
+%S A056094 1,1963,2066,2786,6816,7825,11855,12575,12678,14640,14642,16604,16707,
+%T A056094 17427,21457,22466,26496,27216,27319,29281,29283,31245,31348,32068,
+%U A056094 36098,37107,41137,41857,41960,43922,43924,45886,45989,46709,50739
+%N A056094 Numbers n such that n^10 = 1 (mod 11^4).
+%t A056094 x=11; Select[ Range[ 100000 ], PowerMod[ #, x-1, x^4 ]==1& ]
+%K A056094 nonn
+%O A056094 1,2
+%A A056094 _Robert G. Wilson v_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

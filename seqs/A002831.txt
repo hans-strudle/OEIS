@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002831
+Showing 1-1 of 1
+
+%I A002831 M3424 N1388
+%S A002831 1,4,11,60,318,2806,29359,396196
+%N A002831 Number of 3-edge-colored connected trivalent graphs with 2n nodes.
+%C A002831 In a letter to N. J. A. Sloane dated Feb 04 1971 (see link), R. C. Read enclosed a table listing 14 sequences, all of which, he says, appeared in his 1958 Ph. D. thesis. The values he gave for terms a(5) and a(6) in the present sequence are apparently incorrect (the terms given here are correct; the incorrect terms are shown in A246598). - _N. J. A. Sloane_, Sep 08 2014
+%C A002831 Comment from _Max Alekseyev_, Sep 09 2014: the relationship between "all graphs" and "connected graphs" is of course a version of the Euler transform - see for example the third formula in the Euler Transform link.
+%D A002831 R. C. Read, Some Enumeration Problems in Graph Theory. Ph.D. Dissertation, Department of Mathematics, Univ. London, 1958.
+%D A002831 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002831 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002831 R. C. Read, <a href="/A002831/a002831.pdf">Letter to N. J. A. Sloane, Feb 04 1971</a>
+%H A002831 Weisstein, Eric W., <a href="http://mathworld.wolfram.com/EulerTransform.html">Euler Transform</a>
+%F A002831 G.f.: sum(mobius(k) * log(G(x^k)) / k, k >= 1) where G(x) is the g.f. for A002830. - _Sean A. Irvine_, Sep 09 2014
+%Y A002831 Cf. A002830 (for not-necessarily connected graphs), A246598 (for the incorrect values). See also A006712, A006713.
+%K A002831 nonn,more
+%O A002831 1,2
+%A A002831 _N. J. A. Sloane_.
+%E A002831 a(5) and a(6) corrected and new terms a(7) and a(8) computed by _Sean A. Irvine_, Sep 09 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

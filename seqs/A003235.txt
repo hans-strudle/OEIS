@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003235
+Showing 1-1 of 1
+
+%I A003235 M4280
+%S A003235 1,1,6,72,1322,32550,1003632,37162384,1605962556,79330914540,
+%T A003235 4409098539560,272297452742304,18499002436677336,1371050716542451672,
+%U A003235 110085169034456183232,9519063815009322326400,881914870734754844035088,87154631117420724492647184
+%N A003235 Sum (-1)^(n-k) C(n,k)*C(k^2,n), k = 0 . . n.
+%D A003235 H. W. Gould, personal communication.
+%D A003235 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003235 Alois P. Heinz, <a href="/A003235/b003235.txt">Table of n, a(n) for n = 0..300</a>
+%K A003235 nonn
+%O A003235 0,3
+%A A003235 _N. J. A. Sloane_
+%E A003235 More terms from _Sean A. Irvine_, Mar 19 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

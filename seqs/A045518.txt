@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045518
+Showing 1-1 of 1
+
+%I A045518
+%S A045518 6,6227020800,6402373705728000,620448401733239439360000,
+%T A045518 60415263063373835637355132068513997507264512000000000,
+%U A045518 608281864034267560872252163321295376887552831379210240000000000
+%N A045518 Factorials with initial digit '6'.
+%C A045518 Benford's law suggests that this sequence will contain about (log 7 - log 6)/log 10 =~ 7% of factorials. [From _Charles R Greathouse IV_, Nov 13 2010]
+%K A045518 nonn,base
+%O A045518 1,1
+%A A045518 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

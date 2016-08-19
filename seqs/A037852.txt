@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037852
+Showing 1-1 of 1
+
+%I A037852
+%S A037852 2,5,3,6,3,7,3,7,4,7,3,9,3,7,5,8,3,9,3,9,5,7,3,11,4,7,5,9,3,11,3,9,5,
+%T A037852 7,5,12,3,7,5,11,3,11,3,9,7,7,3,13,4,9,5,9,3,11,5,11,5,7,3,15,3,7,7,
+%U A037852 10,5,11,3,9,5,11,3,15,3,7,7
+%N A037852 Number of normal subgroups of dihedral group with 2n elements.
+%C A037852 When n is an odd prime a(n) = 3.
+%F A037852 a(n) = d(n) + 2 + (-1)^n. - _Paul Boddington_, Feb 02 2004
+%F A037852 a(n) = A000005(n) + A176040(n). - _Michel Marcus_, Aug 19 2015
+%o A037852 (PARI) a(n) = numdiv(n) + 2 + (-1)^n \\ - _Michel Marcus_, Jul 30 2013
+%Y A037852 Cf. A062249, A007503, A062553.
+%Y A037852 Cf. A000005, A176040.
+%K A037852 nonn
+%O A037852 1,1
+%A A037852 Ahmed Fares (ahmedfares(AT)my-deja.com), Jul 04 2001
+%E A037852 More terms from _Michel Marcus_, Jul 30 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054854
+Showing 1-1 of 1
+
+%I A054854
+%S A054854 1,1,5,11,35,93,269,747,2115,5933,16717,47003,132291,372157,1047181,
+%T A054854 2946251,8289731,23323853,65624397,184640891,519507267,1461688413,
+%U A054854 4112616845,11571284395,32557042499,91602704493,257733967693,725161963867
+%N A054854 Number of ways to tile a 4 X n region with 1 X 1 and 2 X 2 tiles.
+%H A054854 Alois P. Heinz, <a href="/A054854/b054854.txt">Table of n, a(n) for n = 0..1000</a>
+%H A054854 S. Heubach, <a href="http://www.calstatela.edu/faculty/sheubac/papers/CGTC30.PDF">Tiling an m-by-n area with squares of size up to k-by-k (m<=5)</a>, Congressus Numerantium 140 (1999), 43-64.
+%H A054854 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (2,3,-2).
+%F A054854 G.f.: (1-x)/(1-2*x-3*x^2+2*x^3). - _N. J. A. Sloane_, Nov 17 2002
+%F A054854 a(n) = a(n-1)+4*a(n-2)+2*( a(n-3)+a(n-4)+...+a(0) ).
+%F A054854 a(n) = 2*a(n-1)+3*a(n-2)-2*a(n-3). - Keith Schneider (kschneid(AT)bulldog.unca.edu), Apr 02 2006
+%F A054854 a(n) = Term (2,2) of matrix [5,1,1; 1,1,0; 1,0,1/2]*[2,1,0; 3,0,1; -2,0,0]^n. - _Alois P. Heinz_, May 18 2008
+%e A054854 a(2) = 5 as there is one tiling of a 4x2 region with only 1 X 1 tiles, 3 tilings with exactly one 2 X 2 tile and one tiling consisting of two 2 X 2 tiles.
+%p A054854 A:= Matrix([[5,1,1],[1,1,0],[1,0,1/2]]); M:= Matrix([[2,1,0],[3,0,1],[ -2,0,0]]): a:= n->(A.M^n)[2,2]: seq(a(n), n=0..50); # _Alois P. Heinz_, May 18 2008
+%t A054854 f[{A_, B_}] := Module[{til = A, basic = B}, {Flatten[Append[til, ListConvolve[A, B]]], AppendTo[basic, 2]}]; NumOfTilings[n_] := Nest[f, {{1, 1}, {1, 4}}, n - 2][[1]] NumOfTilings[30]
+%Y A054854 Cf. A054855.
+%Y A054854 Column k=4 of A245013. First differences of A046672.
+%K A054854 easy,nonn
+%O A054854 0,3
+%A A054854 Silvia Heubach (silvi(AT)cine.net), Apr 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

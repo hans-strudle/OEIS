@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045192
+Showing 1-1 of 1
+
+%I A045192
+%S A045192 15,28,40,53,65,76,77,79,80,85,95,103,115,133,138,141,142,144,148,153,
+%T A045192 165,178,190,201,202,204,205,210,220,228,240,258,263,266,267,269,273,
+%U A045192 278,290,303,315,326,327,329,330,335,345,353
+%N A045192 Numbers n with property that in base 5 representation the numbers of 0's and 3's are 1 and 1, respectively.
+%C A045192 Subset of A039285. [From _R. J. Mathar_, Oct 20 2008]
+%K A045192 nonn,base
+%O A045192 1,1
+%A A045192 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

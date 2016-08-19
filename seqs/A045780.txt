@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045780
+Showing 1-1 of 1
+
+%I A045780
+%S A045780 1,6,12,64,24,256,48,512,60,96,2048,144,210,120,216,180,384,288,16384,
+%T A045780 240,432,420,65536,1536,360,480,900,864,3072,1152,1296,2310,524288,
+%U A045780 6144,960,720,840,2304,1728,1080,1260,2592,2097152,1800,4608,24576
+%N A045780 Least value with A045779(n) factorizations into distinct factors.
+%Y A045780 Cf. A045778-A045780, A001055.
+%K A045780 nonn
+%O A045780 1,2
+%A A045780 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

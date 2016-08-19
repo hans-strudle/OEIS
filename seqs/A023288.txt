@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023288
+Showing 1-1 of 1
+
+%I A023288
+%S A023288 2,11,13,31,71,83,151,163,193,197,317,347,373,503,577,811,911,919,
+%T A023288 1049,1051,1201,1423,1721,1907,2089,2243,2543,2719,2963,3529,3583,
+%U A023288 3607,3797,4091,4153,4217,4243,4409,4591,4637,4783,5209,5557,5783,5849,5923,6091
+%N A023288 Numbers n such that n remains prime through 3 iterations of function f(x) = 6x + 5.
+%C A023288 n, 6*n+5, 36*n+35 and 216*n+215 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023288 (MAGMA) [n: n in [1..150000] | IsPrime(n) and IsPrime(6*n+5) and IsPrime(36*n+35) and IsPrime(216*n+215)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023288 nonn
+%O A023288 1,1
+%A A023288 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

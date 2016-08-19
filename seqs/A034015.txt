@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034015
+Showing 1-1 of 1
+
+%I A034015
+%S A034015 1,5,33,249,2033,17485,156033,1431281,13412193,127840085,1235575201,
+%T A034015 12080678505,119276490193,1187542872989,11909326179841,
+%U A034015 120191310803937,1219780566014657,12440630635406245,127446349676475425,1310820823328281561,13530833791486094769
+%N A034015 A027307(n+1)/2.
+%C A034015 Series reversion of x(Sum_{k>=0} a(k)(-x^2)^k) is Sum_{k odd} C(k)x^k where C() is Catalan numbers A000108.
+%C A034015 Series reversion of x(Sum_{k>=0} a(k)(-x)^k) is A000337(x). (Michael Somos)
+%H A034015 Alois P. Heinz, <a href="/A034015/b034015.txt">Table of n, a(n) for n = 0..500</a>
+%H A034015 J.-C. Novelli, J.-Y. Thibon, <a href="http://arxiv.org/abs/1403.5962">Hopf Algebras of m-permutations,(m+1)-ary trees, and m-parking functions</a>, arXiv preprint arXiv:1403.5962, 2014
+%p A034015 a:= proc(n) option remember; `if`(n<2, 4*n+1,
+%p A034015       ((110*n^3+66*n^2-17*n-9) *a(n-1)
+%p A034015        +(n-1)*(2*n-1)*(5*n+3) *a(n-2)) /
+%p A034015       ((2*n+3)*(5*n-2)*(n+1)))
+%p A034015     end:
+%p A034015 seq(a(n), n=0..25);  # _Alois P. Heinz_, Jun 22 2014
+%t A034015 a[n_] := If[n<0, 0, Sum[2^i*Binomial[2*n+2, i]*Binomial[n+1, i+1]/(n+1), {i, 0, n}]]; Table[a[n], {n, 0, 25}] (* _Jean-François Alcover_, Oct 13 2014, after PARI *)
+%o A034015 (PARI) a(n)=if(n<0,0,sum(i=0,n,2^i*binomial(2*n+2,i)*binomial(n+1,i+1))/(n+1))
+%Y A034015 Cf. A001003 (part of a family indexed by m: m=1, m=2 this sequence).
+%K A034015 nonn
+%O A034015 0,2
+%A A034015 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023578
+Showing 1-1 of 1
+
+%I A023578
+%S A023578 5,3,1,5,7,1,5,11,13,1,17,5,11,23,5,7,31,1,5,37,19,41,43,23,5,13,53,5,
+%T A023578 7,29,5,67,5,71,19,7,5,83,5,11,7,23,97,7,5,101,107,113,5,29,59,11,61,
+%U A023578 127,5,7,17,137,5,71,11,37,5,157,79,5,167,5,5,11,89,181,5,47,191
+%N A023578 Least odd prime divisor of p(n)+3, or 1 if p(n)+3 is a power of 2.
+%K A023578 nonn
+%O A023578 1,1
+%A A023578 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

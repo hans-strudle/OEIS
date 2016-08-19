@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054627
+Showing 1-1 of 1
+
+%I A054627
+%S A054627 0,8,36,176,1044,6560,43800,299600,2097684,14913200,107377488,
+%T A054627 780903152,5726645688,42288908768,314146329192,2345624810432,
+%U A054627 17592187093524,132458812569728,1000799924679192,7585009898729264,57646075284033552
+%N A054627 Number of n-bead necklaces with 8 colors.
+%H A054627 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Necklace.html">Necklace.</a>
+%H A054627 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A054627 (1/n)*Sum_{d|n} phi(d)*8^(n/d), n>0.
+%p A054627 with(combstruct):A:=[N,{N=Cycle(Union(Z$8))},unlabeled]: seq(count(A,size=n),n=0..20); - _Zerinvary Lajos_, Dec 05 2007
+%Y A054627 Column 8 of A075195.
+%K A054627 nonn
+%O A054627 0,2
+%A A054627 _N. J. A. Sloane_, Apr 16 2000
+%E A054627 Edited by _Christian G. Bower_, Sep 07 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

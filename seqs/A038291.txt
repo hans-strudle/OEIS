@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038291
+Showing 1-1 of 1
+
+%I A038291
+%S A038291 1,9,1,81,18,1,729,243,27,1,6561,2916,486,36,1,59049,32805,7290,810,
+%T A038291 45,1,531441,354294,98415,14580,1215,54,1,4782969,3720087,1240029,
+%U A038291 229635,25515,1701,63,1,43046721,38263752,14880348,3306744,459270,40824,2268,72,1
+%N A038291 Triangle whose (i,j)-th entry is binomial(i,j)*9^(i-j)*1^j.
+%C A038291 T(i,j) is the number of i-permutations of 10 objects a,b,c,d,e,f,g,h,i,j with repetition allowed, containing j a's. - _Zerinvary Lajos_, Dec 21 2007
+%C A038291 Reflected version of A013616. - _R. J. Mathar_, Dec 19 2008
+%D A038291 B. N. Cyvin et al., Isomer enumeration of unbranched catacondensed polygonal systems with pentagons and heptagons, Match, No. 34 (Oct 1996), pp. 109-121.
+%e A038291 1
+%e A038291 9, 1
+%e A038291 81, 18, 1
+%e A038291 729, 243, 27, 1
+%e A038291 6561, 2916, 486, 36, 1
+%e A038291 59049, 32805, 7290, 810, 45, 1
+%e A038291 531441, 354294, 98415, 14580, 1215, 54, 1
+%e A038291 4782969, 3720087, 1240029, 229635, 25515, 1701, 63, 1
+%e A038291 43046721, 38263752, 14880348, 3306744, 459270, 40824, 2268, 72, 1
+%e A038291 387420489, 387420489, 172186884, 44641044, 7440174, 826686, 61236,2916, 81, 1
+%p A038291 for i from 0 to 9 do seq(binomial(i, j)*9^(i-j), j = 0 .. i) od; # _Zerinvary Lajos_, Dec 21 2007
+%K A038291 nonn,tabl,easy
+%O A038291 0,2
+%A A038291 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051502
+Showing 1-1 of 1
+
+%I A051502
+%S A051502 2,1,2,23,3904,134156284,288230371925149328
+%N A051502 Number of asymmetric types of Boolean functions of n variables under action of complementing group C(n,2).
+%H A051502 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%F A051502 1/(2^n)*Sum((-1)^j*2^C(j, 2)*[ n, j ]*2^(2^(n-j)), j=0..n), where [ n, j ] is Gaussian 2-binomial coefficient.
+%K A051502 easy,nonn
+%O A051502 0,1
+%A A051502 _Vladeta Jovovic_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

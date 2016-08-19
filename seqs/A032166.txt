@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032166
+Showing 1-1 of 1
+
+%I A032166
+%S A032166 11,55,440,3630,32208,295020,2783880,26793030,261994040,2593726344,
+%T A032166 25937424600,261535549220,2655593241840,27124986721140,
+%U A032166 278483211283552,2871858103075830,29732178147017280
+%N A032166 Number of aperiodic necklaces of n beads of 11 colors.
+%C A032166 Number of monic irreducible polynomials of degree n over GF(11). # _Robert Israel_, Jan 07 2015
+%H A032166 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032166 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/WARD/short.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%H A032166 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A032166 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
+%F A032166 "CHK" (necklace, identity, unlabeled) transform of 11, 0, 0, 0...
+%F A032166 Sum mu(d)*11^(n/d)/n; d|n.
+%p A032166 f:= (n,p) -> add(numtheory:-mobius(d)*p^(n/d),d=numtheory:-divisors(n))/n:
+%p A032166 seq(f(n,11), n=1..100); # _Robert Israel_, Jan 07 2015
+%o A032166 (PARI) a(n) = sumdiv(n, d, moebius(d)*11^(n/d))/n; \\ _Michel Marcus_, Jan 07 2015
+%K A032166 nonn
+%O A032166 1,1
+%A A032166 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

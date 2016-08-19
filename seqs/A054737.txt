@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054737
+Showing 1-1 of 1
+
+%I A054737
+%S A054737 253,1265,2225,2530,6325,12650,18025,18975,22250,24982,25300
+%N A054737 Numbers n such that n^2 can be split into two nonzero squares (perhaps with leading zeros) in two different ways.
+%e A054737 2225^2=4950625 can be split into 49=7^2 and 50625=225^2 or into 4=2^2 and 950625=975^2; 2530^2=6400900 can be split into 6400=80^2 and 900=30^2 or into 64=8^2 and 00900=30^2
+%Y A054737 Cf. A048375, A054738.
+%K A054737 base,nonn
+%O A054737 1,1
+%A A054737 _Henry Bottomley_, Apr 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

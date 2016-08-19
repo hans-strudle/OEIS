@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056191
+Showing 1-1 of 1
+
+%I A056191
+%S A056191 1,1,1,1,1,1,1,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8,1,1,27,1,1,1,1,8,1,1,
+%T A056191 1,1,1,1,1,8,1,1,1,1,1,1,1,1,1,1,1,1,1,27,1,8,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A056191 1,1,1,8,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,8,1,1,1,1,1,1,1,8,1,1,1,1,1,1,1
+%N A056191 Characteristic cube divisor of n: cube of g=GCD[K,F], where K is the largest square root divisor of n (A000188) and F=n/(K*K)=A007913(n) is its squarefree part; g^2 divides K^2=A008833(n)=g^2*L^2 and g divides F=gf.
+%C A056191 This is not the largest cube which divides n. It is canonical, since the decomposition n=KKgggf is unique (factors are defined above and dependent on n)
+%F A056191 a(n) = A055229(n)^3 = g^3 = ggg; n = (KK)*(ggg)*f = K^2*g^3*f = KK*a(n)^3*f
+%F A056191 Multiplicative with a(p^e)=1 for even e, a(p)=1, a(p^e)=p^3 for odd e>1. - _Vladeta Jovovic_, May 01 2002
+%e A056191 If n=24, largest square divisor is 4, squarefree part is 6, g=2, a(24)=8; n=81, largest square divisor is 81, both F and g is 1, a(81)=1.
+%Y A056191 Cf. A055229, A000188, A008833, A007913, A055231, A056192.
+%K A056191 nonn,mult
+%O A056191 1,8
+%A A056191 _Labos Elemer_, Aug 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

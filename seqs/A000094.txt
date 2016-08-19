@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000094
+Showing 1-1 of 1
+
+%I A000094 M1350 N0518
+%S A000094 0,0,0,0,1,2,5,8,14,21,32,45,65,88,121,161,215,280,367,471,607,771,
+%T A000094 980,1232,1551,1933,2410,2983,3690,4536,5574,6811,8317,10110,12276,
+%U A000094 14848,17941,21600,25977,31146,37298,44542,53132,63218,75131,89089
+%N A000094 Number of trees of diameter 4.
+%C A000094 Number of partitions of n-1 with at least two parts of size 2 or larger. - _Franklin T. Adams-Watters_, Jan 13 2006
+%C A000094 Also equal to the number of partitions p of n-1 such that max(p)-min(p) > 1. Example: a(7)=5 because we have [5,1],[4,2],[4,1,1],[3,2,1] and [3,1,1,1]. - _Giovanni Resta_, Feb 06 2006
+%C A000094 Also number of partitions of n-1 with at least two parts that are smaller than the largest part. Example: a(7)=5 because we have [4,1,1],[3,2,1],[3,1,1,1],[2,2,1,1,1] and [2,1,1,1,1]. - _Emeric Deutsch_, May 01 2006
+%C A000094 Also number of regions of n-1 that do not contain 1 as a part, n >= 2 (Cf. A186114, A206437). - _Omar E. Pol_, Dec 01 2011
+%C A000094 Also rank of the last region of n-1 multiplied by -1, n >= 2 (Cf. A194447). - _Omar E. Pol_, Feb 11 2012
+%C A000094 Also sum of ranks of the regions of n-1 that contain emergent parts, n >= 2 (Cf. A182699). For the definition of "regions of n" see A206437. - _Omar E. Pol_, Feb 21 2012
+%D A000094 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000094 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000094 Christian G. Bower, <a href="/A000094/b000094.txt">Table of n, a(n) for n=1..500</a>
+%H A000094 J. Riordan, <a href="http://dx.doi.org/10.1147/rd.45.0473">Enumeration of trees by height and diameter</a>, IBM J. Res. Dev. 4 (1960), 473-478.
+%H A000094 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A000094 a(n+1) = A000041(n)-n for n>0. - _John W. Layman_
+%F A000094 G.f.: x/product(1-x^j,j=1..infinity)-x-x^2/(1-x)^2. - _Emeric Deutsch_, May 01 2006
+%F A000094 G.f.: sum(sum(x^(i+j+1)/product(1-x^k, k=i..j), i=1..j-2), j=3..infinity). - _Emeric Deutsch_, May 01 2006
+%p A000094 g:=x/product(1-x^j,j=1..70)-x-x^2/(1-x)^2: gser:=series(g,x=0,48): seq(coeff(gser,x,n),n=1..46); # _Emeric Deutsch_, May 01 2006
+%p A000094 A000094 := proc(n)
+%p A000094     combinat[numbpart](n-1)-n+1 ;
+%p A000094 end proc: # _R. J. Mathar_, May 17 2016
+%t A000094 t=Table[PartitionsP[n]-n,{n,0,45}];
+%t A000094 ReplacePart[t,0,1]
+%t A000094 (* _Clark Kimberling_, Mar 05 2012 *)
+%t A000094 CoefficientList[1/QPochhammer[x]-x/(1-x)^2-1+O[x]^50, x] (* _Jean-François Alcover_, Feb 04 2016 *)
+%Y A000094 Cf. A000041, A206437.
+%K A000094 nonn,changed
+%O A000094 1,6
+%A A000094 _N. J. A. Sloane_
+%E A000094 More terms from _Franklin T. Adams-Watters_, Jan 13 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

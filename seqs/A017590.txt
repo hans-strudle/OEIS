@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017590
+Showing 1-1 of 1
+
+%I A017590
+%S A017590 9765625,2015993900449,420707233300201,13422659310152401,
+%T A017590 174887470365513049,1346274334462890625,7326680472586200649,
+%U A017590 31181719929966183601,110462212541120451001,339456738992222314849
+%N A017590 (12n+5)^10.
+%t A017590 (12*Range[0,20]+5)^10 (* _Harvey P. Dale_, Feb 19 2015 *)
+%K A017590 nonn,easy
+%O A017590 0,1
+%A A017590 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

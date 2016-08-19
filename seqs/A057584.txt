@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057584
+Showing 1-1 of 1
+
+%I A057584
+%S A057584 8,16,38,108,288
+%N A057584 Maximal numbers of codewords in mixed code with 6 binary coordinates and n ternary coordinates with Hamming distance 3.
+%H A057584 P. R. J. Ostergard, <a href="http://www.tcs.hut.fi/~pat/23.html">Classification of small binary/ternary one-error-correcting codes (Appendix)</a>, Discrete Mathematics 223 (2000), 253-262.
+%Y A057584 Cf. A057574-A057583, A050142.
+%K A057584 nonn
+%O A057584 0,1
+%A A057584 _N. J. A. Sloane_, Oct 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

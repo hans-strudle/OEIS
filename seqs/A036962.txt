@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036962
+Showing 1-1 of 1
+
+%I A036962
+%S A036962 2,3,5,7,11,13,17,23,31,37,41,43,47,53,61,67,71,73,101,103,107,113,
+%T A036962 127,131,137,151,157,163,167,173,211,223,227,233,241,251,257,263,271,
+%U A036962 277,307,311,313,317,331,337,347,353,367,373,401,421,431,433,443,457,461
+%N A036962 Primes containing only digits from set (0,1,2,3,4,5,6,7).
+%H A036962 James Maynard, <a href="http://arxiv.org/abs/1604.01041">Primes with restricted digits</a>, arXiv:1604.01041 [math.NT], 2016.
+%Y A036962 Cf. A036952-A036964.
+%K A036962 nonn,base
+%O A036962 1,1
+%A A036962 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

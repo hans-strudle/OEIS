@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006471
+Showing 1-1 of 1
+
+%I A006471 M4021
+%S A006471 5,84,650,3324,13020,42240,118998,300300,693693,1490060,3011580
+%N A006471 Number of rooted planar maps.
+%D A006471 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006471 Walsh, T. R. S.; Lehman, A. B.; Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%F A006471 Conjecture: a(n) = (n*(2+n)^2*(3240 +10158*n +11777*n^2 +6400*n^3 +1770*n^4 +242*n^5 +13*n^6))/60480. G.f.: x*(4*x^3+35*x^2+34*x+5) / (x-1)^10. - _Colin Barker_, Apr 09 2013
+%K A006471 nonn,more
+%O A006471 1,1
+%A A006471 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

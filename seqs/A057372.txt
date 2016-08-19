@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057372
+Showing 1-1 of 1
+
+%I A057372
+%S A057372 64,81,96,140,153,162,288,294,561,588,972,1056,1250,1344,1881,2070,
+%T A057372 2205,2880,3125,3168,5073,5100,7500,7776,7840,10206,11466,11481,11840,
+%U A057372 15680,16416,19360
+%N A057372 Numbers n such that n=(a+b)=(x*y) with a*b=(x^3+y^3) (a>0,b>0,x>0,y>0).
+%K A057372 nonn
+%O A057372 1,1
+%A A057372 _Naohiro Nomoto_, Sep 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

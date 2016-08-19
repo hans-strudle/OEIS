@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013395
+Showing 1-1 of 1
+
+%I A013395
+%S A013395 1,0,0,90,3864,326214,45981276,8451765322,2053825164944,
+%T A013395 641663385808078,249042559475513572,117658592297847708338,
+%U A013395 66515862023755958383768,44326271307924691256260470
+%N A013395 sec(sin(x)-arctanh(x))=1+90/6!*x^6+3864/8!*x^8+326214/10!*x^10...
+%K A013395 nonn
+%O A013395 0,4
+%A A013395 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

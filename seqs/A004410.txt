@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004410
+Showing 1-1 of 1
+
+%I A004410
+%S A004410 1,18,180,1320,7902,40824,188232,792000,3088980,11297546,
+%T A004410 39090312,128849976,406865880,1236379320,3629385936,10324840512,
+%U A004410 28542038238,76852151280,201967043260,518957929080,1305848905416
+%V A004410 1,-18,180,-1320,7902,-40824,188232,-792000,3088980,-11297546,
+%W A004410 39090312,-128849976,406865880,-1236379320,3629385936,-10324840512,
+%X A004410 28542038238,-76852151280,201967043260,-518957929080,1305848905416
+%N A004410 Expansion of (Sum x^(n^2), n = -inf .. inf )^(-9).
+%F A004410 a(n) ~ (-1)^n * 243*exp(3*Pi*sqrt(n)) / (32768*n^3). - _Vaclav Kotesovec_, Aug 18 2015
+%t A004410 nmax = 30; CoefficientList[Series[Product[((1 + (-x)^k)/(1 - (-x)^k))^9, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 18 2015 *)
+%K A004410 sign
+%O A004410 0,2
+%A A004410 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

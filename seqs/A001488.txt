@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001488
+Showing 1-1 of 1
+
+%I A001488 M4703 N2010
+%S A001488 1,10,45,120,200,162,160,810,1530,1730,749,1630,4755,7070,
+%T A001488 6700,2450,5295,14070,20010,19350,10157,6290,25515,40660,44940,
+%U A001488 34268,9180,24510,57195,78060,79087,56610,13935,39600,89805,121638,125405
+%V A001488 1,-10,45,-120,200,-162,-160,810,-1530,1730,-749,-1630,4755,-7070,
+%W A001488 6700,-2450,-5295,14070,-20010,19350,-10157,-6290,25515,-40660,44940,
+%X A001488 -34268,9180,24510,-57195,78060,-79087,56610,-13935,-39600,89805,-121638,125405
+%N A001488 Expand {Product_{j=1..inf} (1-x^j) - 1 }^10 in powers of x.
+%D A001488 H. Gupta, On the coefficients of the powers of Dedekind's modular form, J. London Math. Soc., 39 (1964), 433-440.
+%D A001488 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001488 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A001488 sign
+%O A001488 1,2
+%A A001488 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

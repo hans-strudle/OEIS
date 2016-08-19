@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051121
+Showing 1-1 of 1
+
+%I A051121
+%S A051121 1,15,29,12,26,11,25,8,22,6,20,3,17,1,15,29,12,26,9,23,7,21,4,18,2,16,
+%T A051121 30,13,27,10,24,10,24,7,21,5,19,2,16,30,14,28,11,25,8,22,6,20,3,17,1,
+%U A051121 15,29,12,26,9,23,9,23,6,20,4,18,1,15,29,13,27,10,24,7,21,5,19,2,16,30
+%N A051121 Dates at fortnightly intervals starting on Jan 01 of a leap year.
+%H A051121 <a href="/index/Ca#calendar">Index entries for sequences related to calendars</a>
+%t A051121 (* first do *) Needs["Calendar`"] (* then *) Table[ DaysPlus[{4, 1, 1}, 14 n][[3]], {n, 0, 76}] (* _Robert G. Wilson v_, Apr 18 2010 *)
+%Y A051121 Cf. A001356.
+%K A051121 easy,nonn
+%O A051121 1,2
+%A A051121 Karen Richardson (s1149414(AT)cedarville.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024272
+Showing 1-1 of 1
+
+%I A024272
+%S A024272 0,1,6,71,1596,58141,3109986,229395011,22312837176,2767173538681,
+%T A024272 426167405495166,79796244279937151,17851790220732115956,
+%U A024272 4702787739658825158421,1440911869083478804851546,508062238427253843822090491,204262590490127231070131373936,92884219961086104169154295141361
+%N A024272 E.g.f. tan(x)*sinh(x)/2 (even powers only).
+%o A024272 (PARI) x='x+O('x^66); v=Vec(serlaplace(tan(x)*sinh(x)/2)); concat([0],vector(#v\2,n,v[2*n-1])) \\ _Joerg Arndt_, Apr 26 2013
+%Y A024272 A009747.
+%K A024272 nonn
+%O A024272 0,3
+%A A024272 _R. H. Hardin_
+%E A024272 Extended and signs tested 03/97.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

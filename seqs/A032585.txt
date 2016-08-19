@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032585
+Showing 1-1 of 1
+
+%I A032585
+%S A032585 1,21,31,51,111,141,151,171,201,211,231,241,261,321,331,361,391,421,
+%T A032585 451,511,541,591,601,621,631,651,741,781,801,831,841,931,961,981,991,
+%U A032585 1011,1021,1041,1101,1201,1231,1251,1261,1281,1291,1401,1441,1471,1491
+%N A032585 Lucky numbers ending with digit 1.
+%C A032585 Also, lucky numbers (A000959) which are congruent to 1 mod 5. - _R. J. Mathar_, Apr 29 2008
+%Y A032585 Cf. A000959.
+%K A032585 nonn,base
+%O A032585 1,2
+%A A032585 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

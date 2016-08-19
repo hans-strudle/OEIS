@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035604
+Showing 1-1 of 1
+
+%I A035604
+%S A035604 0,2,40,402,2720,14002,58728,209762,658048,1854882,4780008,11414898,
+%T A035604 25534368,53972178,108568488,209070018,387328512,693230658,1202893992,
+%U A035604 2029779538,3339504032,5369283570,8453107432,13053926690,19804348032,29557550050,43450388072
+%N A035604 Number of points of L1 norm 10 in cubic lattice Z^n.
+%D A035604 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035604 T. D. Noe, <a href="/A035604/b035604.txt">Table of n, a(n) for n = 0..1000</a>
+%H A035604 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035604 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550, 2013. - From N. J. A. Sloane, Feb 13 2013
+%F A035604 2n^2/14175 * (2n^8 + 120n^6 + 1806n^4 + 7180n^2 + 5067).
+%F A035604 G.f.: 2*x*(1+x)^9/(1-x)^11. - _Colin Barker_, Apr 15 2012
+%F A035604 a(n)= 2*A099197(n). - _R. J. Mathar_, Dec 10 2013
+%p A035604 f := proc(d,m) local i; sum( 2^i*binomial(d,i)*binomial(m-1,i-1),i=1..min(d,m)); end; # n=dimension, m=norm
+%K A035604 nonn,easy
+%O A035604 0,2
+%A A035604 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032394
+Showing 1-1 of 1
+
+%I A032394
+%S A032394 1,7,9,21,37,61,589,711,1537,1921,3217,4237,26721,31297,58101,155251,
+%T A032394 225111,398359,472099,503479,543049,1272457,1338001,1943337
+%N A032394 Numbers n such that 89*2^n+1 is prime.
+%H A032394 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032394 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032394 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032394 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032394 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032394 nonn
+%O A032394 1,2
+%A A032394 _James R. Buddenhagen_
+%E A032394 More terms from _Hugo Pfoertner_, Jun 20 2003
+%E A032394 More terms (from http://www.prothsearch.net/riesel.html), _Joerg Arndt_, Apr 07 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011537
+Showing 1-1 of 1
+
+%I A011537
+%S A011537 7,17,27,37,47,57,67,70,71,72,73,74,75,76,77,78,79,87,97,107,117,127,
+%T A011537 137,147,157,167,170,171,172,173,174,175,176,177,178,179,187,197,207,
+%U A011537 217,227,237,247,257,267,270,271,272,273,274,275,276,277
+%N A011537 Numbers that contain at least one 7.
+%t A011537 Select[Range[300],DigitCount[#,10,7]>0&] (* _Harvey P. Dale_, Mar 29 2016 *)
+%K A011537 nonn,base
+%O A011537 1,1
+%A A011537 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061852
+Showing 1-1 of 1
+
+%I A061852
+%S A061852 11,22,111,222,1111,2222,11111,22222,110011,111111,220022,222222,
+%T A061852 1100011,1111111,2200022,2222222,11000011,11100111,11111111,22000022,
+%U A061852 22200222,22222222,110000011,111000111,111111111,220000022,222000222
+%N A061852 Digital representation of m contains only either 1's or 2's (but not both 1's and 2's) and 0's, is palindromic and contains no singleton 2's, 1's or 0's.
+%F A061852 a(n) =A008919(n)/99.
+%Y A061852 Union of A061851 and twice A061851. Number of terms with k digits is A006355([n/2]+1).
+%K A061852 base,nonn
+%O A061852 0,1
+%A A061852 _Henry Bottomley_, May 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

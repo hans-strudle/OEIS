@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060396
+Showing 1-1 of 1
+
+%I A060396
+%S A060396 1,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,2,0,1,0,0,
+%T A060396 0,0,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,2,0,1,0,0,0,0,0,1,
+%U A060396 0,0,0,2,0,1,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,2,0,1,0,0,0,0,0,1
+%N A060396 Values of k associated with A060395.
+%C A060396 a(2n) = 0 for n >= 1. a(3n) = 0 for n >= 1. a(6n+1) = 1 for n >= 0. - Nathaniel Johnston, Apr 30 2011
+%H A060396 C. Rivera, <a href="http://www.primepuzzles.net/conjectures/conj_017.htm">www.primepuzzles.net, Conjecture 17</a>
+%K A060396 nonn,easy
+%O A060396 0,30
+%A A060396 _N. J. A. Sloane_, Apr 04 2001
+%E A060396 Name corrected and a(15) - a(97) from _Nathaniel Johnston_, Apr 30 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

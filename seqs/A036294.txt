@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036294
+Showing 1-1 of 1
+
+%I A036294
+%S A036294 0,8,128,1536,16384,163840,1572864,14680064,134217728,1207959552,
+%T A036294 10737418240,94489280512,824633720832,7146825580544,61572651155456,
+%U A036294 527765581332480,4503599627370496,38280596832649216,324259173170675712
+%N A036294 n*8^n.
+%p A036294 with(finance):seq(futurevalue(n,7,n),n=0..18);# [From _Zerinvary Lajos_, Mar 25 2009]
+%K A036294 nonn
+%O A036294 0,2
+%A A036294 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

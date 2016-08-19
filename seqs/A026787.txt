@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026787
+Showing 1-1 of 1
+
+%I A026787
+%S A026787 1,2,5,11,26,58,136,306,717,1625,3813,8697,20451,46909,110563,254855,
+%T A026787 602042,1393746,3299304,7666786,18182976,42391546,100704606,235452416,
+%U A026787 560147414,1312916040,3127406812,7346213746,17518138314,41228281888,98408997716,231990850378,554207752781,1308436686305,3128033585157
+%N A026787 T(n,0) + T(n,1) + ... T(n,n), T given by A026780.
+%F A026787 O.g.f.: F(x^2)*(1/(1-x*S(x^2))+C(x^2)*x/(1-x*C(x^2))), where C(x)=(1-sqrt(1-4x))/(2*x) is o.g.f. for A000108, S(x)=(1-x-sqrt(1-6*x+x^2))/(2*x) is o.g.f. for A006318, and F(x)=S(x)/(1-x*C(x)*S(x)) is o.g.f. for A026781. - _Max Alekseyev_, Jan 13 2015
+%Y A026787 Cf. A026780.
+%K A026787 nonn
+%O A026787 0,2
+%A A026787 _Clark Kimberling_
+%E A026787 More terms from _Max Alekseyev_, Jan 13 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

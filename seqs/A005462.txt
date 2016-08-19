@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005462
+Showing 1-1 of 1
+
+%I A005462 M5225
+%S A005462 1,31,602,10206,166824,2739240,46070640,801496080,14495120640,
+%T A005462 273158645760,5368729766400,110055327782400,2351983118284800
+%N A005462 Number of simplices in barycentric subdivision of n-simplex.
+%D A005462 R. Austin, R. K. Guy, and R. Nowakowski, unpublished notes, circa 1987.
+%D A005462 R. K. Guy, personal communication.
+%D A005462 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A005462 Essentially Stirling numbers of second kind - see A028246.
+%K A005462 nonn,easy
+%O A005462 3,2
+%A A005462 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

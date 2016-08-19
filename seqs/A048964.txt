@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048964
+Showing 1-1 of 1
+
+%I A048964
+%S A048964 2,3,5,6,7,8,10,11,12,14,15,16,17,19,20,21,23,24,25,27,28,29,31,32,33,
+%T A048964 34,36,37,38,40,41,42,44,45,46,47,49,50,51,53,54,55,57,58,59,60,62,63,
+%U A048964 64,66,67,68,70,71,72,73,75,76,77,79,80,81,83,84,85,86,88,89,90,92,93
+%N A048964 a(n) is smallest number k such that k! >= n-th primorial number (A002110(n)).
+%e A048964 10!=3628800 >= Q(7) = 510510 = 2.3.5.7.11.13.17, but 9!=362880 is too small, thus a[7]=10.
+%t A048964 Primorial[n_] := Product[ Prime[i], {i, n}]; f[n_] := Block[{k = 1}, While[(k!) < Primorial[n], k++ ]; k]; Table[ f[n], {n, 71}] (* _Robert G. Wilson v_, Apr 09 2004 *)
+%Y A048964 Cf. A093697.
+%K A048964 nonn
+%O A048964 1,1
+%A A048964 _Labos Elemer_
+%E A048964 Edited by _N. J. A. Sloane_ at the suggestion of _Andrew Plewe_, May 14 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

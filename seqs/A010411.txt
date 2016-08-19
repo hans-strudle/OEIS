@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010411
+Showing 1-1 of 1
+
+%I A010411
+%S A010411 0,1,4,6,9,11,14,16,19,21,24,25,26,29,31,34,36,39,41,44,46,49
+%N A010411 Squares mod 50.
+%o A010411 (Sage) [quadratic_residues(50)]# [From _Zerinvary Lajos_, May 24 2009]
+%K A010411 nonn,fini,full
+%O A010411 1,3
+%A A010411 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

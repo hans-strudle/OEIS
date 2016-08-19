@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052300
+Showing 1-1 of 1
+
+%I A052300
+%S A052300 1,2,6,21,78,313,1306,5653,25088,113685,523522,2443590,11533010,
+%T A052300 54949539,263933658,1276652682,6213207330,30402727854,149486487326,
+%U A052300 738184395770,3659440942282,18205043615467,90856842218506
+%N A052300 Number of rooted Greg trees.
+%C A052300 A rooted Greg tree can be described as a rooted tree with 2-colored nodes where only the black nodes are counted and the white nodes have at least 2 children.
+%H A052300 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%H A052300 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A052300 Satisfies a = EULER(a) + SHIFT_RIGHT(EULER(a)) - a.
+%Y A052300 Cf. A005263, A005264, A048159, A048160, A052301-A052303.
+%K A052300 nonn,eigen
+%O A052300 1,2
+%A A052300 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

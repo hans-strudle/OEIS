@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026001
+Showing 1-1 of 1
+
+%I A026001
+%S A026001 1,7,85,1159,16641,246047,3707509,56610575,872893441,13560999991,
+%T A026001 211939849045,3328419072535,52481589415425,830317511708367,
+%U A026001 13174519143904245,209559710593266719,3340604559333629953,53354776911196959335,853607938952248383829,13677336690921351929767
+%N A026001 a(n) = T(3n,n), where T = Delannoy triangle (A008288).
+%C A026001 If the Delannoy triangle is defined by the Maple code in A008288, this is A008288(n, 3*n-2), n >= 1. - _N. J. A. Sloane_.
+%F A026001 G.f.: F(G^(-1)(x)) where F = (2-t)/(3*t^2-8*t+2) and G = t*(t-1)^3/(t-2). - Mark van Hoeij, Oct 30 2011
+%p A026001 F := (2-t)/(3*t^2-8*t+2);  G := t*(t-1)^3/(t-2);  Ginv := RootOf(numer(G-x),t); ogf := series(eval(F, t=Ginv), x=0, 25); - Mark van Hoeij, Oct 30 2011
+%K A026001 nonn
+%O A026001 0,2
+%A A026001 _Clark Kimberling_
+%E A026001 Corrected and extended by _N. J. A. Sloane_, Oct 29 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

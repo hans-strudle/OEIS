@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010538
+Showing 1-1 of 1
+
+%I A010538
+%S A010538 9,3,2,7,3,7,9,0,5,3,0,8,8,8,1,5,0,4,5,5,5,4,4,7,5,5,4,2,3,2,0,5,5,6,
+%T A010538 9,8,3,2,7,6,2,4,0,6,9,4,1,9,1,6,5,4,6,7,1,0,5,6,1,9,7,2,9,8,4,4,6,7,
+%U A010538 8,4,5,4,8,8,0,7,2,4,9,6,7,8,4,1,4,2,2,0,5,6,2,9,1,1,8,8,2,0,1
+%N A010538 Decimal expansion of square root of 87.
+%C A010538 Continued fraction expansion is 9 followed by {3, 18} repeated. - _Harry J. Smith_, Jun 10 2009
+%H A010538 Harry J. Smith, <a href="/A010538/b010538.txt">Table of n, a(n) for n = 1..20000</a>
+%e A010538 9.327379053088815045554475542320556983276240694191654671056197298446784... - _Harry J. Smith_, Jun 10 2009
+%t A010538 RealDigits[N[87^(1/2),200]][[1]] (* _Vladimir Joseph Stephan Orlovsky_, Jan 23 2012 *)
+%o A010538 (PARI) { default(realprecision, 20080); x=sqrt(87); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b010538.txt", n, " ", d)); } \\ _Harry J. Smith_, Jun 10 2009
+%Y A010538 Cf. A040077 Continued fraction. - _Harry J. Smith_, Jun 10 2009
+%K A010538 nonn,cons
+%O A010538 1,1
+%A A010538 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

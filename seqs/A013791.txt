@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013791
+Showing 1-1 of 1
+
+%I A013791
+%S A013791 729,4782969,31381059609,205891132094649,1350851717672992089,
+%T A013791 8862938119652501095929,58149737003040059690390169,
+%U A013791 381520424476945831628649898809,2503155504993241601315571986085849,16423203268260658146231467800709255289
+%N A013791 9^(4n+3).
+%H A013791 Vincenzo Librandi, <a href="/A013791/b013791.txt">Table of n, a(n) for n = 0..200</a>
+%H A013791 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013791 a(n)=6561*a(n-1), n>0 ; a(0)=729 . G.f.: 729/(1-6561*x). a(n)=81*A013790(n). [From _Philippe Deléham_, Dec 07 2008]
+%o A013791 (MAGMA) [9^(4*n+3): n in [0..15]]; // Vincenzo Librandi, Jun 28 2011
+%K A013791 nonn,easy
+%O A013791 0,1
+%A A013791 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

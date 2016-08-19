@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050552
+Showing 1-1 of 1
+
+%I A050552
+%S A050552 2,6,8,42,50,62,362,488,642,846,2870,3042,5096,10556,12642,17850,
+%T A050552 21710,25230,30392,43122,206970
+%N A050552 Numbers n such that 53*2^n-1 is prime.
+%C A050552 582078 is also a member. - Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+%H A050552 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A050552 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A050552 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%H A050552 Kosmaj, <a href="http://www.15k.org/riesellist.htm">Riesel list k<300</a>.
+%K A050552 hard,nonn
+%O A050552 1,1
+%A A050552 _N. J. A. Sloane_, Dec 29 1999
+%E A050552 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

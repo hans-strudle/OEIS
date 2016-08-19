@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058333
+Showing 1-1 of 1
+
+%I A058333
+%S A058333 1,16,73,208,465,896,1561,2528,3873,5680,8041,11056,14833,19488,25145,
+%T A058333 31936,40001,49488,60553,73360,88081,104896,123993,145568,169825,
+%U A058333 196976,227241,260848,298033,339040
+%N A058333 Number of 3 X 3 matrices with elements from [0,...,(n-1)] satisfying the condition that the middle element of each row or column is the difference of the two end elements (in absolute value).
+%C A058333 If the "middle element" condition in the definition is also placed on the two diagonal lines of three in addition to each row and column, the sequence generated is the sequence of squares {1,4,9,16,...}.
+%F A058333 The terms a(1) through a(30) are given by a(n)=(n^4+8n^3-10n^2+4n)/3.
+%F A058333 Empirical g.f.: x*(x+1)*(7*x^2-10*x-1) / (x-1)^5. - _Colin Barker_, Mar 29 2013
+%K A058333 nonn
+%O A058333 1,2
+%A A058333 _John W. Layman_, Dec 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

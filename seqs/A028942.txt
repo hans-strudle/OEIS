@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028942
+Showing 1-1 of 1
+
+%I A028942
+%S A028942 0,0,1,3,5,14,8,69,435,2065,3612,28888,43355,2616119,28076979,
+%T A028942 332513754,331948240,8280062505,641260644409,18784454671297,
+%U A028942 318128427505160,10663732503571536,66316334575107447,8938035295591025771
+%V A028942 0,0,1,3,5,-14,-8,69,435,2065,3612,-28888,43355,2616119,28076979,
+%W A028942 -332513754,-331948240,8280062505,641260644409,18784454671297,
+%X A028942 318128427505160,-10663732503571536,-66316334575107447,8938035295591025771
+%N A028942 Negative of numerator of y coordinate of n*P where P is generator for rational points on curve y^2+y = x^3-x.
+%D A028942 B. Mazur, Arithmetic on curves, Bull. Amer Math. Soc. 14 (1986), 207-259; see p 225.
+%F A028942 P=(0, 0), 2P=(1, 0), if kP=(a, b) then (k+1)P=(a'=(b^2-a^3)/a^2, b'=1-b*a'/a).
+%e A028942 3P = (-1, -1)
+%K A028942 sign
+%O A028942 1,4
+%A A028942 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

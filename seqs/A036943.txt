@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036943
+Showing 1-1 of 1
+
+%I A036943
+%S A036943 3,83,383,3833,38333,333383,3333383,38383883,333388333,3333333833,
+%T A036943 33333333833,333338838383,3333333333383,33333333888383,
+%U A036943 333333333388883,3333333333838883,33333333333833383,333333333333333833
+%N A036943 Smallest n-digit prime containing only digits 3 and 8, or 0 if no such prime exists.
+%Y A036943 Cf. A036229, A020464, A036317.
+%K A036943 nonn,base
+%O A036943 1,1
+%A A036943 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

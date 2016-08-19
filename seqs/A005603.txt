@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005603
+Showing 1-1 of 1
+
+%I A005603 M4766
+%S A005603 11,7,2,2131,1531,33301,16651,15514861,857095381,205528443121,
+%T A005603 1389122693971,216857744866621,758083947856951,107588900851484911,
+%U A005603 69257563144280941
+%N A005603 Chains of length n of nearly doubled primes.
+%D A005603 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005603 G. Löh, <a href="http://www.jstor.org/stable/2008735">Long chains of nearly doubled primes</a>, Math. Comp., 53 (1989), 751-759.
+%Y A005603 A064812 is a better version.
+%Y A005603 Cf. (A005382 and A005383), A057326, A057327, A057328, A057329, A057330, A005602.
+%K A005603 nonn
+%O A005603 1,1
+%A A005603 _N. J. A. Sloane_.
+%E A005603 6th term corrected from 385591 on Feb 23 1995, at _Robert G. Wilson v_'s suggestion
+%E A005603 a(14) and a(15) found by Paul Jobling (Paul.Jobling(AT)WhiteCross.com) [Oct 23 2000]
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000052
+Showing 1-1 of 1
+
+%I A000052
+%S A000052 8,5,4,9,1,7,6,3,2,0,18,80,88,85,84,89,81,87,86,83,82,11,15,50,58,55,
+%T A000052 54,59,51,57,56,53,52,40,48,45,44,49,41,47,46,43,42,14,19,90,98,95,94,
+%U A000052 99,91,97,96,93,92,17,70,78,75,74,79,71,77,76,73,72
+%N A000052 1-digit numbers arranged in alphabetical order, then the 2-digit numbers arranged in alphabetical order, then the 3-digit numbers, etc.
+%C A000052 This uses standard US English names for numbers. - _Daniel Forgues_, May 11 2016
+%H A000052 Peter Kagey, <a href="/A000052/b000052.txt">Table of n, a(n) for n = 1..10000</a>
+%e A000052 eight, five, four, nine, one, seven, six, three, two, zero, eighteen, etc.
+%e A000052 From _Peter Kagey_, Sep 01 2015: (Start)
+%e A000052 Examples of spelling convention used for values above 99:
+%e A000052 400: "four hundred"
+%e A000052 726: "seven hundred and twenty-six"
+%e A000052 1992: "one thousand nine hundred and ninety-two"
+%e A000052 2202: "two thousand two hundred and two"
+%e A000052 (End)
+%e A000052 From _Daniel Forgues_, May 11 2016: (Start)
+%e A000052 101001: "one hundred and one thousand and one" (OK?)
+%e A000052 726726: "seven hundred and twenty-six thousand seven hundred and twenty-six" (OK?)
+%e A000052 101000001: "one hundred and one million and one" (OK?)
+%e A000052 (End)
+%Y A000052 Cf. A001058.
+%K A000052 nonn,base,word,changed
+%O A000052 1,1
+%A A000052 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

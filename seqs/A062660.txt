@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062660
+Showing 1-1 of 1
+
+%I A062660
+%S A062660 3,79,1367,2741,10937,17599
+%N A062660 Numbers n such that 94^n - 93^n is prime.
+%C A062660 Terms greater than 1000 are often only strong pseudoprimes.
+%C A062660 a(7) > 20000. - _Derek Orr_, Sep 09 2014
+%Y A062660 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062660 nonn,hard,more
+%O A062660 1,1
+%A A062660 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062660 a(5) and a(6) from _Derek Orr_, Sep 09 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

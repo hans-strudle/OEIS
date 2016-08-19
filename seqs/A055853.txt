@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055853
+Showing 1-1 of 1
+
+%I A055853
+%S A055853 0,1,8,43,190,743,2668,8989,28814,88720,264224,765088,2162624,5986304,
+%T A055853 16268800,43499264,114629120,298147840,766361600,1948794880,
+%U A055853 4907171840,12245598208,30305419264,74425892864,181481635840,439603953664
+%N A055853 Convolution of A055852 with A011782.
+%C A055853 Eighth column of triangle A055587. T(n,6) of array T as in A049600.
+%F A055853 a(n)= T(n, 6)= A055587(n+6, 7); G.f.: x*((1-x)^6)/(1-2*x)^7.
+%Y A055853 Cf. A049600, A055587, A055852, A011782.
+%K A055853 nonn,easy
+%O A055853 0,3
+%A A055853 _Wolfdieter Lang_ May 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

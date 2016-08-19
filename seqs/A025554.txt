@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025554
+Showing 1-1 of 1
+
+%I A025554
+%S A025554 1,0,1,1,2,7,17,107,113,329,334,3644,3659,47462,95029,94973,95001,
+%T A025554 1614765,1614891,30681669,30682299,30681969,30682134,705687102,
+%U A025554 705688092,3528437886,3528439173,10585315517,10585316518,306974164007,613948343029
+%N A025554 (Sum{d(i)/C(n,i))*LCM{C(n,i)}, where d(i) = (-1)^i, i = 0,1,...,[ n/2 ].
+%K A025554 nonn
+%O A025554 1,5
+%A A025554 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

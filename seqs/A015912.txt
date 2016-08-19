@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015912
+Showing 1-1 of 1
+
+%I A015912
+%S A015912 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015912 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015912 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015912 Inverse of 1903rd cyclotomic polynomial.
+%p A015912 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015912 sign
+%O A015912 0,1
+%A A015912 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

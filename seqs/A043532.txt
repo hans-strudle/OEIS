@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043532
+Showing 1-1 of 1
+
+%I A043532
+%S A043532 1,1,1,1,2,1,2,2,2,2,2,1,2,2,2,2,2,1,2,2,2,2,2,1,2,2,3,3,3,2,1,2,2,2,
+%T A043532 3,2,2,3,3,3,2,3,2,3,3,2,3,3,2,2,3,2,3,3,3,2,2,3,3,2,2,1,2,2,3,3,2,2,
+%U A043532 3,3,3,2,3,2,2,3,3,2,3,3,2,3,2,3,3,3,2,2,3,2
+%N A043532 Number of distinct base 5 digits of n.
+%t A043532 f[n_]:=Length[Select[DigitCount[n,5],#!=0&]]; Array[f,100] (* _Harvey P. Dale_, May 11 2011 *)
+%K A043532 nonn,base
+%O A043532 1,5
+%A A043532 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

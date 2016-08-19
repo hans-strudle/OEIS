@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036302
+Showing 1-1 of 1
+
+%I A036302
+%S A036302 4,8,16,22,32,44,64,88,121,128,176,242,256,352,422,484,512,704,844,
+%T A036302 968,1024,1331,1408,1688,1936,2048,2321,2662,2816,3376,3872,4096,4222,
+%U A036302 4442,4642,5324,5632,6752,7744,8192,8444,8884,9284,10648,11264,13504,14641
+%N A036302 Composite numbers n such that digits of prime factors of n are either 1 or 2.
+%H A036302 Alois P. Heinz, <a href="/A036302/b036302.txt">Table of n, a(n) for n = 1..1000</a>
+%t A036302 Select[Range[2,14650],!PrimeQ[#] && Complement[Flatten[IntegerDigits[First/@FactorInteger[#]]],{1,2}]=={} &] (* _Jayanta Basu_, May 25 2013 *)
+%Y A036302 Cf. A003596, A036303-A036325.
+%K A036302 nonn,base
+%O A036302 1,1
+%A A036302 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

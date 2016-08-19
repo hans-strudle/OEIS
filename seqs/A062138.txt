@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062138
+Showing 1-1 of 1
+
+%I A062138
+%S A062138 1,6,1,42,14,1,336,168,24,1,3024,2016,432,36,1,30240,25200,
+%T A062138 7200,900,50,1,332640,332640,118800,19800,1650,66,1,3991680,
+%U A062138 4656960,1995840,415800,46200,2772,84,1,51891840,69189120
+%V A062138 1,6,-1,42,-14,1,336,-168,24,-1,3024,-2016,432,-36,1,30240,-25200,
+%W A062138 7200,-900,50,-1,332640,-332640,118800,-19800,1650,-66,1,3991680,
+%X A062138 -4656960,1995840,-415800,46200,-2772,84,-1,51891840,-69189120
+%N A062138 Coefficient triangle of generalized Laguerre polynomials n!*L(n,5,x)(rising powers of x).
+%C A062138 The row polynomials s(n,x) := n!*L(n,5,x)= sum(a(n,m)*x^m,m=0..n) have e.g.f. exp(-z*x/(1-z))/(1-z)^6. They are Sheffer polynomials satisfying the binomial convolution identity s(n,x+y) = sum(binomial(n,k)*s(k,x)*p(n-k,y),k=0..n), with polynomials sum(|A008297(n,m)|*(-x)^m, m=1..n), n >= 1 and p(0,x)=1 (for Sheffer polynomials see A048854 for S. Roman reference).
+%C A062138 These polynomials appear in the radial part of the l=2 (d-wave) eigen functions for the discrete energy levels of the H-atom. See Messiah reference.
+%C A062138 For m=0..5 the (unsigned) column sequences (without leading zeros) are: A001725(n+5), A062148-A062152. Row sums (signed) give A062191; row sums (unsigned) give A062192.
+%C A062138 The unsigned version of this triangle is the triangle of unsigned 3-restricted Lah numbers A143498. [From _Peter Bala_, Aug 25 2008]
+%D A062138 A. Messiah, Quantum mechanics, vol. 1, p. 419, eq.(XI.18a), North Holland, 1969.
+%H A062138 <a href="/index/La#Laguerre">Index entries for sequences related to Laguerre polynomials</a>
+%F A062138 a(n, m)=((-1)^m)*n!*binomial(n+5, n-m)/m!.
+%F A062138 E.g.f. for m-th column sequence: ((-x/(1-x))^m)/(m!*(1-x)^6), m >= 0.
+%e A062138 {1}; {6, -1}; {42, -14, 1}; {336, -168, 24, -1}; ...; 2!*L(2, 5, x) = 42-14*x+x^2.
+%Y A062138 Cf. A021009, A062137-A062140, A066667.
+%Y A062138 For m=0..5 the (unsigned) column sequences (without leading zeros) are: A001725(n+5), A062148-A062152. Row sums (signed) give A062191, row sums (unsigned) give A062192.
+%Y A062138 A143498. [From _Peter Bala_, Aug 25 2008]
+%K A062138 sign,easy,tabl
+%O A062138 0,2
+%A A062138 _Wolfdieter Lang_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

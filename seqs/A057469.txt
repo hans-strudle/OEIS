@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057469
+Showing 1-1 of 1
+
+%I A057469
+%S A057469 3,7,11,83,149,223,599,647,1373,8423,149497,388897
+%N A057469 Prime numbers n such that (2^n + 3^n)/5 is prime.
+%t A057469 Do[ If[ PrimeQ[ n ], If[ PrimeQ[ (3^n + 2^n)/5 ], Print[ n ] ] ], {n, 0, 6270} ]
+%o A057469 (PARI) is(n)=isprime(n) && ispseudoprime((2^n + 3^n)/5) \\ _Charles R Greathouse IV_, Apr 28 2015
+%Y A057469 Primes of form (3^n + 2^n)/5 are listed in A127908.
+%K A057469 nonn
+%O A057469 1,1
+%A A057469 _Robert G. Wilson v_, Sep 09 2000
+%E A057469 More terms from Kamil Duszenko (kdusz(AT)wp.pl), Apr 11 2003
+%E A057469 Definition corrected by Alexander Adamchuk, Feb 06 2007
+%E A057469 New term 149497 found by Jean-Louis Charton on Oct 14 2010 corresponding to a probable prime with 71328 digits. _Jean-Louis Charton_, Oct 18 2010
+%E A057469 New term 388897 found by Jean-Louis Charton in Sep 18 2011 corresponding to a probable prime with 185551 digits.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

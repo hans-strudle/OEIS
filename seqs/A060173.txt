@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060173
+Showing 1-1 of 1
+
+%I A060173
+%S A060173 1,1,1,2,1,6,1,12,10,30,1,139,1,252,231,920,1,3780,1,10250,5601,32076,
+%T A060173 1,149390,2126,400036,173692,1475642,1,6196651,1,19113136,5864915,
+%U A060173 68635494,201405,289525026,1
+%N A060173 Number of orbits of length n under a map whose periodic points are counted by A056045.
+%C A060173 The sequence A056045 records the number of points of period n under a map. The number of orbits of length n for this map gives the sequence above.
+%D A060173 Yash Puri and Thomas Ward, A dynamical property unique to the Lucas sequence, Fibonacci Quarterly, Volume 39, Number 5 (November 2001), pp. 398-402.
+%H A060173 Y. Puri and T. Ward, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Arithmetic and growth of periodic orbits</a>, J. Integer Seqs., Vol. 4 (2001), #01.2.1.
+%F A060173 If a(n) is the n-th term of A056045, then the n-th term is u(n) = (1/n)* Sum_{ d divides n }\mu(d)a(n/d)
+%e A060173 u(7) = 1 since the map whose periodic points are counted by A056045 has 1 fixed point and 8 points of period 7, hence 1 orbits of length 7.
+%Y A060173 Cf. A056045, A060164, A060165, A060166, A060167, A060168, A060169, A060170, A060171, A060172.
+%K A060173 easy,nonn
+%O A060173 1,4
+%A A060173 Thomas Ward (t.ward(AT)uea.ac.uk), Mar 13 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

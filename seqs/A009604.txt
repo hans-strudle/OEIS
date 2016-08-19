@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009604
+Showing 1-1 of 1
+
+%I A009604
+%S A009604 1,0,12,280,11536,703296,59653440,6715007104,967972497664,
+%T A009604 173764741920768,37986612815698944,9929613975171315712,
+%U A009604 3056815269626584895488,1094148286150918628229120
+%N A009604 Expansion of sinh(tan(x))*cos(x).
+%t A009604 Sinh[ Tan[ x ] ]*Cos[ x ] (* Odd Part *)
+%K A009604 nonn
+%O A009604 0,3
+%A A009604 _R. H. Hardin_
+%E A009604 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

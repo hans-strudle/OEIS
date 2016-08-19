@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003246
+Showing 1-1 of 1
+
+%I A003246 M3778
+%S A003246 5,8,12,13,17,21,24,28,29,33,37,41,44,57,73,76
+%N A003246 Discriminants of real quadratic Euclidean fields (a finite sequence).
+%D A003246 W. J. LeVeque, Topics in Number Theory. Addison-Wesley, Reading, MA, 2 vols., 1956, Vol. 2, p. 57.
+%D A003246 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003246 H. M. Stark, An Introduction to Number Theory. Markham, Chicago, 1970, p. 294.
+%H A003246 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/clss.pdf">Class number theory</a>
+%H A003246 P. Samuel, <a href="http://www.maa.org/sites/default/files/pdf/upload_library/22/Ford/PierreSamuel.pdf">Unique factorization</a>, Amer. Math. Monthly 75 (1968), 945-952.
+%H A003246 <a href="/index/Qua#quadfield">Index entries for sequences related to quadratic fields</a>
+%F A003246 A003246 = A037449(A003174) as a set, not composition of functions (values are sorted by size; it turns out that a(n) is different from A037449(A003174(n)) for all n=1,...,16. - _M. F. Hasler_, Jan 26 2014
+%t A003246 A003174 = {2, 3, 5, 6, 7, 11, 13, 17, 19, 21, 29, 33, 37, 41, 57, 73}; Sort[ NumberFieldDiscriminant /@ Sqrt[A003174]] (* _Jean-François Alcover_, Jul 18 2012 *)
+%o A003246 (PARI) for(n=1,99,is_A003174(n) && print1(quaddisc(n)",")) \\ - _M. F. Hasler_, Jan 26 2014
+%Y A003246 Cf. A003174.
+%K A003246 fini,full,nonn,nice
+%O A003246 1,1
+%A A003246 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

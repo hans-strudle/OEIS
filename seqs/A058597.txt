@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058597
+Showing 1-1 of 1
+
+%I A058597
+%S A058597 1,0,3,6,9,14,22,32,46,66,93,128,176,236,315,420,550,718,932,1198,
+%T A058597 1534,1956,2476,3120,3919,4896,6095,7562,9341,11504,14126,17284,21090,
+%U A058597 25666,31140,37692,45515,54818,65878,79000,94523,112872,134522,160004
+%N A058597 McKay-Thompson series of class 26B for Monster.
+%H A058597 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058597 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058597 T26B = 1/q + 3*q + 6*q^2 + 9*q^3 + 14*q^4 + 22*q^5 + 32*q^6 + 46*q^7 + ...
+%Y A058597 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%Y A058597 Cf. A128518 (same sequence except for n=0).
+%K A058597 nonn
+%O A058597 -1,3
+%A A058597 _N. J. A. Sloane_, Nov 27 2000
+%E A058597 More terms from _Michel Marcus_, Feb 18 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

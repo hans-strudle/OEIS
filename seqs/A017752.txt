@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017752
+Showing 1-1 of 1
+
+%I A017752
+%S A017752 1,89,4005,121485,2794155,51971283,814216767,11050084695,132601016340,
+%T A017752 1429144287220,14005614014756,126050526132804,1050421051106700,
+%U A017752 8160963550905900,59458448728028700,408281347932463740
+%N A017752 Binomial coefficients C(n,88).
+%t A017752 Binomial[Range[88,110],88] (* _Harvey P. Dale_, Mar 24 2013 *)
+%o A017752 (Sage) [binomial(n, 88) for n in xrange(88,104)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017752 nonn
+%O A017752 88,2
+%A A017752 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

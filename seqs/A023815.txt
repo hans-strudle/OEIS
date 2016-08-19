@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023815
+Showing 1-1 of 1
+
+%I A023815
+%S A023815 1,1,6,63,1140,30730,1185072,66363206
+%N A023815 Number of binary operations on an n-set that are commutative and associative; labeled commutative semigroups.
+%H A023815 Eric Postpischil <a href="http://groups.google.com/groups?&amp;hl=en&amp;lr=&amp;ie=UTF-8&amp;selm=11802%40shlump.nac.dec.com&amp;rnum=2">Posting to sci.math newsgroup, May 21 1990</a>
+%H A023815 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Semigroup.html">Semigroup.</a>
+%H A023815 <a href="/index/Se#semigroups">Index entries for sequences related to semigroups</a>
+%Y A023815 Cf. A001423, A001426, A023813, A023814, A027851.
+%Y A023815 a(n)+A079192(n)+A079195(n)+A079198(n)=A002489(n)
+%K A023815 nonn
+%O A023815 0,3
+%A A023815 Lyle Ramshaw (ramshaw(AT)pa.dec.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025521
+Showing 1-1 of 1
+
+%I A025521
+%S A025521 2,2,2,15,15,15,15,41,41,41,41,41,41,41,41,41,41,41,41,41,41,123,123,
+%T A025521 123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,123,691,
+%U A025521 691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691,691
+%N A025521 Least k>1 such that complement of first n terms of A022303 repeats beginning at k-th term.
+%K A025521 nonn
+%O A025521 1,1
+%A A025521 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

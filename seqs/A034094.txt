@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034094
+Showing 1-1 of 1
+
+%I A034094
+%S A034094 20,312,9744,29280,53352,1666224,5006880,106798080,980733600,
+%T A034094 133301760,9099742080,22794600960,1556055895680,3577201689600,
+%U A034094 4464942451200,380428773854896765462278360268800000
+%N A034094 (-1)sigma perfect numbers: (-1)sigma(a) = m*a for some integer m, where if a = Product p(i)^r(i) then (-1)sigma(a) = Product (-1+Sum p(i)^s(i), s(i)=1 to r(i)).
+%C A034094 The indices of some terms are 1, so these numbers are fixed points of (-1)sigma.
+%e A034094 Factorizations 2^2*5, 2^3*3*13, 2^4*3*7*29, 2^5*3*5*61, 2^3*3^3*13*19, 2^4*3^3*7*19*29, 2^5*3^3*5*19*61, 2^10*3*5*17*409, 2^5*3^2*5^2*7*11*29*61, 2^9*3*5*17*1021, 2^7*3*5*11^2*13*23*131, 2^9*3^3*5*17*19*1021, 2^7*3^3*5*11^2*13*19*23*131, 2^10*3^2*5^2*7*11*17*29*409, 2^9*3^2*5^2*7*11*17*29*1021, 2^24*3^3*5^5*7^2*11*17*19*29*61*233*239*467*479*70051
+%Y A034094 Cf. A034095, A049060.
+%K A034094 nonn
+%O A034094 1,1
+%A A034094 _Yasutoshi Kohmoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

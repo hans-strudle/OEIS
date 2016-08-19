@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013927
+Showing 1-1 of 1
+
+%I A013927
+%S A013927 0,2,5,10,15,23
+%N A013927 Begin with 2n cards in n piles of 2, the piles being {1,1},{2,2},{3,3},...,{n,n}. How many transpositions of adjacent (single) cards are needed to reverse the order of the piles?
+%D A013927 Graham Brightwell, Michael Littman and Peter Winkler (pw(AT)research.bell-labs.com), unpublished.
+%K A013927 nonn
+%O A013927 1,2
+%A A013927 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

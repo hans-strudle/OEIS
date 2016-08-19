@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023006
+Showing 1-1 of 1
+
+%I A023006
+%S A023006 1,7,35,140,490,1547,4522,12405,32305,80465,192899,447146,1006145,
+%T A023006 2204475,4715510,9869132,20247710,40786690,80782800,157510780,
+%U A023006 302666903,573720808,1073720305,1985506775,3630307835,6567206471,11760658378,20860415590,36665885170,63891010155,110415782785,189320804673,322174588225
+%N A023006 Number of partitions of n into parts of 7 kinds.
+%C A023006 a(n) is Euler transform of A010727. - _Alois P. Heinz_, Oct 17 2008
+%H A023006 Vincenzo Librandi, <a href="/A023006/b023006.txt">Table of n, a(n) for n = 0..200</a>
+%H A023006 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%H A023006 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023006 G.f.: Product_{m>=1} 1/(1-x^m)^7.
+%F A023006 a(n) ~ 49 * exp(Pi * sqrt(14*n/3)) / (576 * sqrt(2) * n^(5/2)). - _Vaclav Kotesovec_, Feb 28 2015
+%p A023006 with(numtheory): a:= proc(n) option remember; `if`(n=0, 1, add(add(d*7, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq(a(n), n=0..40); # _Alois P. Heinz_, Oct 17 2008
+%t A023006 nmax=50; CoefficientList[Series[Product[1/(1-x^k)^7,{k,1,nmax}],{x,0,nmax}],x] (* _Vaclav Kotesovec_, Feb 28 2015 *)
+%o A023006 (PARI) Vec(1/eta('x+O('x^66))^7)  /* Joerg Arndt, Jul 30 2011 */
+%Y A023006 Cf. 7th column of A144064. - _Alois P. Heinz_, Oct 17 2008
+%K A023006 nonn
+%O A023006 0,2
+%A A023006 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

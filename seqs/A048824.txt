@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048824
+Showing 1-1 of 1
+
+%I A048824
+%S A048824 2,3,7,23,347,1439,10780559
+%N A048824 a(n) = least k such that A048823(n) = k.
+%C A048824 a(6) > 1000000.
+%C A048824 a(7) > 10^8, if it exists. - Don Reble (djr(AT)nk.ca), Apr 02 2002
+%K A048824 nonn
+%O A048824 0,1
+%A A048824 _Christian G. Bower_, May 15 1999
+%E A048824 More terms from Don Reble (djr(AT)nk.ca), Apr 02 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

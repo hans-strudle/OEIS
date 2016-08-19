@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017014
+Showing 1-1 of 1
+
+%I A017014
+%S A017014 1024,3486784401,1099511627776,41426511213649,590490000000000,
+%T A017014 4808584372417849,27197360938418176,119042423827613001,
+%U A017014 430804206899405824,1346274334462890625,3743906242624487424
+%N A017014 (7*n+2)^10.
+%H A017014 Vincenzo Librandi, <a href="/A017014/b017014.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017014 (7Range[0,20]+2)^10  (* _Harvey P. Dale_, Mar 30 2011 *)
+%o A017014 (MAGMA) [(7*n+2)^10: n in [0..20]]; // Vincenzo Librandi, Jul 13 2011
+%K A017014 nonn,easy
+%O A017014 0,1
+%A A017014 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044557
+Showing 1-1 of 1
+
+%I A044557
+%S A044557 38,87,136,185,234,272,283,332,381,430,479,528,577,615,626,675,724,
+%T A044557 773,822,871,920,958,969,1018,1067,1116,1165,1214,1263,1301,1312,1361,
+%U A044557 1410,1459,1508,1557,1606,1644,1655,1704,1753,1802
+%N A044557 Numbers n such that string 5,3 occurs in the base 7 representation of n but not of n+1.
+%K A044557 nonn,base
+%O A044557 1,1
+%A A044557 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

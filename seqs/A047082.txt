@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047082
+Showing 1-1 of 1
+
+%I A047082
+%S A047082 1,1,2,3,7,10,22,31,65,94,194,283,575,850,1710,2551,5087,7654,15154,
+%T A047082 22963,45179,68890,134798,206671,402429,620014,1202034,1860043,
+%U A047082 3591931,5580130,10737318,16740391,32106833,50221174,96031746
+%N A047082 Sum{T(n,i): i=0,1,...,[ n/2 ]}, array T as in A047080.
+%K A047082 nonn
+%O A047082 0,3
+%A A047082 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

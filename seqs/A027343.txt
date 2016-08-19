@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027343
+Showing 1-1 of 1
+
+%I A027343
+%S A027343 1,1,2,3,5,7,11,15,22,29,41,54,74,96,128,165,216,275,355,448,571,715,
+%T A027343 901,1120,1399,1727,2139,2625,3228,3938,4812,5840,7094,8568,10352,
+%U A027343 12447,14967,17919,21450,25581,30496,36234,43031,50951,60292
+%N A027343 Number of partitions of n that do not contain 9 as a part.
+%F A027343 G.f.: (1-x^9) Product_{m>0} 1/(1-x^m).
+%F A027343 a(n) = A000041(n)-A000041(n-9).
+%p A027343 A41:= n-> `if` (n<0, 0, combinat[numbpart](n)):
+%p A027343 a:= n-> A41(n) -A41(n-9):
+%p A027343 seq (a(n), n=0..50);
+%Y A027343 9th column of A175788. Cf. A000041, A027336, A027337-A027344.
+%K A027343 nonn
+%O A027343 0,3
+%A A027343 _Clark Kimberling_
+%E A027343 Edited by _Alois P. Heinz_, Dec 04 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

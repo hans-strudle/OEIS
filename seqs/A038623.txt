@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038623
+Showing 1-1 of 1
+
+%I A038623
+%S A038623 2,2,37,127,347,1087,3109,8419,24317,64553,175211,480881,1304707,
+%T A038623 3523901,9558533,25874843,70115473,189961529,514272533,1394193607,
+%U A038623 3779851091,10246935679,27788566133
+%N A038623 Smallest prime p such that p/pi(p)>=n.
+%e A038623 pi(37)=12 and a(3)=37 is the smallest prime >= 3*12.
+%t A038623 Prime[Join[{k = 1}, Table[While[Prime[k]/k < n, k++]; k, {n, 2, 18}]]] (* _Jayanta Basu_, Jul 10 2013 *)
+%Y A038623 Cf. A038623-A038627.
+%Y A038623 Essentially the same as A062743.
+%Y A038623 a(n) = prime(A038624(n)).
+%K A038623 nonn
+%O A038623 1,1
+%A A038623 _Jud McCranie_
+%E A038623 Edited by _N. J. A. Sloane_, Jun 30 2008 at the suggestion of R. J. Mathar.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058228
+Showing 1-1 of 1
+
+%I A058228
+%S A058228 1,24,29,289,499,6424,38974
+%N A058228 Numbers n such that n divides the difference between the sum of the first n partition numbers (A000041) and the sum of the first n unique partition numbers (A000009).
+%t A058228 s = 0; Do[ s = s + PartitionsP[ n ] - PartitionsQ[ n ] If[ Mod[ s, n ] == 0, Print[ n ] ], {n, 1, 53100} ]
+%Y A058228 Cf. A000041 and A000009.
+%K A058228 nonn
+%O A058228 1,2
+%A A058228 _Robert G. Wilson v_, Jan 15 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

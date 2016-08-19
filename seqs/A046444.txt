@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046444
+Showing 1-1 of 1
+
+%I A046444
+%S A046444 2241998,2250886,2264218,2268662,2286394,2290882,2295326,2295458,
+%T A046444 2308658,2309054,2313586,2330878,2335322,2336246,2340778,2354374,
+%U A046444 2357542,2361986,2375186,2375318,2377034,2381566,2384602,2398726
+%N A046444 Composite numbers whose 4 prime factors are distinct in length.
+%e A046444 E.g. 2241998 because 2241998 = 2 * 11 * 101 * 1009 = (1)(2)(3)(4).
+%K A046444 nonn
+%O A046444 0,1
+%A A046444 _Patrick De Geest_, Jul 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

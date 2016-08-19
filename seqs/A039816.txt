@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039816
+Showing 1-1 of 1
+
+%I A039816
+%S A039816 1,4,1,26,12,1,234,152,24,1,2696,2210,500,40,1,37919,36976,
+%T A039816 10710,1240,60,1,630521,704837,245896,36750,2590,84,1,12111114,
+%U A039816 15132932,6120324,1109696,101500,4816,112,1,264051201,362099010
+%V A039816 1,-4,1,26,-12,1,-234,152,-24,1,2696,-2210,500,-40,1,-37919,36976,
+%W A039816 -10710,1240,-60,1,630521,-704837,245896,-36750,2590,-84,1,-12111114,
+%X A039816 15132932,-6120324,1109696,-101500,4816,-112,1,264051201,-362099010
+%N A039816 Matrix 4th power of Stirling-1 Triangle A008275.
+%F A039816 E.g.f. k-th column: ((log(1+log(1+log(1+log(1+x)))))^k)/k!.
+%e A039816 1; -4,1; 26,-12,1; -234,152,-24,1; ...
+%Y A039816 Cf. A039814-A039817. |a(n, 1)| = A000310(n) (first column).
+%K A039816 sign,tabl
+%O A039816 1,2
+%A A039816 _Christian G. Bower_, Feb 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

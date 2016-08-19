@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035276
+Showing 1-1 of 1
+
+%I A035276
+%S A035276 1,17,459,16983,798201,45497457,3048329619,234721380663,
+%T A035276 20420760117681,1980813731415057,211947069261411099,
+%U A035276 24797807103585098583,3149321502155307520041,431457045795277130245617
+%N A035276 One seventh of deca-factorial numbers.
+%C A035276 a(n)= (Pochhammer(7/10,n)*10^n)/7.
+%H A035276 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035276 7*a(n) = (10*n-3)(!^10) := product(10*j-3, j=1..n); E.g.f. (-1+(1-10*x)^(-7/10))/7.
+%Y A035276 Cf. A045757.
+%K A035276 easy,nonn
+%O A035276 1,2
+%A A035276 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

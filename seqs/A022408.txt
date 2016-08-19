@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022408
+Showing 1-1 of 1
+
+%I A022408
+%S A022408 3,9,13,23,37,61,99,161,261,423,685,1109,1795,2905,4701,7607,12309,
+%T A022408 19917,32227,52145,84373,136519,220893,357413,578307,935721,1514029,
+%U A022408 2449751,3963781,6413533,10377315
+%N A022408 a(n)=a(n-1)+a(n-2)+1.
+%H A022408 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-1)
+%F A022408 a(n+1)-a(n) = A022382(n-1). G.f. ( 3+3*x-5*x^2 ) / ( (x-1)*(x^2+x-1) ). - R. J. Mathar, Mar 11 2011
+%K A022408 nonn
+%O A022408 0,1
+%A A022408 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056780
+Showing 1-1 of 1
+
+%I A056780
+%S A056780 1,2,3,9,21,68,208,730,2542,9287,34053,127112,476849,1803636,6851960,
+%T A056780 26157362,100211446,385239872
+%N A056780 Rectangular polyominoes: number of n-celled polyominoes when the cell is a rectangle.
+%H A056780 Ed Pegg, Jr., <a href="http://demonstrations.wolfram.com/PolyformExplorer/">Illustrations of polyforms</a>
+%H A056780 M. Vicher, <a href="http://www.vicher.cz/puzzle/polyforms.htm">Polyforms</a>
+%H A056780 M. Vicher, <a href="http://www.vicher.cz/puzzle/polyform/minio/images/s1.gif">The 21 5-celled rectangular polyominoes</a>
+%H A056780 M. Vicher, <a href="/A056780/a056780.gif">The 21 5-celled rectangular polyominoes</a>
+%H A056780 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Polyrect.html">Polyrect</a> [From _Eric W. Weisstein_, Apr 24 2009]
+%K A056780 nice,nonn,hard,more
+%O A056780 1,2
+%A A056780 _James A. Sellers_, Aug 28 2000
+%E A056780 Edited by _N. J. A. Sloane_, Apr 25, 2001
+%E A056780 Two more terms from _Ed Pegg Jr_, May 13 2009
+%E A056780 a(13)-a(18) from _Joseph Myers_, Nov 15 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

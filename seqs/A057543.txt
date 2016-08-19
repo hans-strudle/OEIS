@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057543
+Showing 1-1 of 1
+
+%I A057543
+%S A057543 1,1,2,3,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,
+%T A057543 48,50,52
+%N A057543 Maximum cycle length (orbit size) in the rotation permutation of 2n non-crossing handshakes.
+%C A057543 I.e. in permutations A057501 and A057502, the longest cycle among all cycles between the A014138[n-2]+1th and A014138[n-1]th terms.
+%F A057543 a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(n)=2n
+%Y A057543 Cf. A057542, A057544, A057545.
+%K A057543 nonn
+%O A057543 0,3
+%A A057543 _Antti Karttunen_, Sep 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

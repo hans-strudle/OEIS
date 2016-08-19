@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033995
+Showing 1-1 of 1
+
+%I A033995
+%S A033995 1,2,3,7,13,35,88,303,1119,5479,32303,251135,2527712,33985853,
+%T A033995 611846940,14864650924,488222721992,21712049275198,1308300679611469,
+%U A033995 106897965189674291
+%N A033995 Number of bipartite graphs with n nodes.
+%C A033995 All bipartite graphs are perfect. - _Falk Hüffner_, Nov 27 2015
+%D A033995 R. C. Read and R. J. Wilson, An Atlas of Graphs, Oxford, 1998.
+%H A033995 P. Hanlon, <a href="http://dx.doi.org/10.1016/0012-365X(79)90184-5">The enumeration of bipartite graphs</a>, Discrete Math. 28 (1979), 49-57.
+%H A033995 S. Hougardy, <a href="http://www.or.uni-bonn.de/~hougardy/">Home Page</a>
+%H A033995 S. Hougardy, <a href="http://dx.doi.org/10.1016/j.disc.2006.05.021">Classes of perfect graphs</a>, Discr. Math. 306 (2006), 2529-2571.
+%H A033995 Sage, <a href="http://www.sagemath.org/doc/reference/graphs/sage/graphs/graph_generators.html">Common Graphs (Graph Generators)</a>
+%H A033995 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BipartiteGraph.html">Bipartite Graph.</a>
+%H A033995 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BicolorableGraph.html">Bicolorable Graph</a>
+%H A033995 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/n-ColorableGraph.html">n-Colorable Graph</a>
+%Y A033995 Cf. A005142.
+%Y A033995 Equals A076278(n) + 1.
+%K A033995 nonn,nice,more
+%O A033995 1,2
+%A A033995 R. C. Read (rcread(AT)math.uwaterloo.ca)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

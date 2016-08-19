@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016880
+Showing 1-1 of 1
+
+%I A016880
+%S A016880 256,5764801,429981696,6975757441,54875873536,282429536481,
+%T A016880 1099511627776,3512479453921,9682651996416,23811286661761,
+%U A016880 53459728531456,111429157112001,218340105584896,406067677556641
+%N A016880 (5n+2)^8.
+%H A016880 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9, -36, 84, -126, 126, -84, 36, -9, 1).
+%F A016880 a(0)=256, a(1)=5764801, a(2)=429981696, a(3)=6975757441, a(4)=54875873536, a(5)=282429536481, a(6)=1099511627776, a(7)=3512479453921, a(8)=9682651996416, a(n)=9*a(n-1)-36*a(n-2)+ 84*a(n-3)- 126*a(n-4)+ 126*a(n-5)- 84*a(n-6)+36*a(n-7)-9*a(n-8)+a(n-9). - _Harvey P. Dale_, Feb 11 2015
+%t A016880 (5*Range[0,20]+2)^8 (* or *) LinearRecurrence[{9,-36,84,-126,126,-84,36,-9,1},{256,5764801,429981696,6975757441,54875873536,282429536481,1099511627776,3512479453921,9682651996416},20] (* _Harvey P. Dale_, Feb 11 2015 *)
+%K A016880 nonn,easy
+%O A016880 0,1
+%A A016880 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

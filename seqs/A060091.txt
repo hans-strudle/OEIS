@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060091
+Showing 1-1 of 1
+
+%I A060091
+%S A060091 0,0,0,16,63,162,341,636,1092,1764,2718,4032,5797,8118,11115,14924,
+%T A060091 19698,25608,32844,41616,52155,64714,79569,97020,117392,141036,168330,
+%U A060091 199680,235521,276318,322567,374796,433566,499472,573144,655248,746487
+%N A060091 Number of 4-block ordered bicoverings of an unlabeled n-set.
+%H A060091 Harry J. Smith, <a href="/A060091/b060091.txt">Table of n, a(n) for n=0,...,1000</a>
+%F A060091 a(n) = binomial(n + 5, 5) - 4*binomial(n + 2, 2) - 3*binomial(n + 1, 1) + 12*binomial(n, 0) - 6*binomial(n - 1, - 1); G.f.: - y^3*( - 24*y^2 - 16 + 33*y + 6*y^3)/( - 1 + y)^6; E.g.f. for ordered k-block bicoverings of an unlabeled n-set is: exp( - x - x^2/2*y/(1 - y))*Sum_{k = 0..inf} 1/(1 - y)^binomial(k, 2)*x^k/k!.
+%o A060091 (PARI) { for (n=0, 1000, a=binomial(n + 5, 5) - 4*binomial(n + 2, 2) - 3*binomial(n + 1, 1) + 12*binomial(n, 0) - 6*binomial(n - 1, - 1); if (n==0, a=0); write("b060091.txt", n, " ", a); ) } [From _Harry J. Smith_, Jul 01 2009]
+%Y A060091 Cf. A060090, A060092-A060095, A060069, A060070, A060051-A060053, A002718, A059443, A003462, A059945-A059951.
+%K A060091 nonn
+%O A060091 0,4
+%A A060091 _Vladeta Jovovic_, Feb 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

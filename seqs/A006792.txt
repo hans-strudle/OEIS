@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006792
+Showing 1-1 of 1
+
+%I A006792 M0009
+%S A006792 2,0,0,0,0,4,8,0,4,0,82,0,0,0,112,0,132,0,66,0,1124,0
+%N A006792 Number of n-node vertex-transitive graphs which are not Cayley graphs.
+%D A006792 McKay, Brendan D.; Praeger, Cheryl E.; Vertex-transitive graphs which are not Cayley graphs. I. J. Austral. Math. Soc. Ser. A 56 (1994), no. 1, 53-63.
+%D A006792 McKay, Brendan D.; Royle, Gordon F.; The transitive graphs with at most 26 vertices. Ars Combin. 30 (1990), 161-176.
+%D A006792 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006792 Steven Skiena, <a href="http://www.cs.sunysb.edu/~skiena/combinatorica/graphs/">A Database of Graphs in Combinatorica Format</a>.
+%H A006792 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/NoncayleyGraph.html">Noncayley Graph</a>
+%K A006792 nonn
+%O A006792 10,1
+%A A006792 _N. J. A. Sloane_.
+%E A006792 More terms from _Vladeta Jovovic_, Jun 30 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

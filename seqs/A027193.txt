@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027193
+Showing 1-1 of 1
+
+%I A027193
+%S A027193 0,1,1,2,2,4,5,8,10,16,20,29,37,52,66,90,113,151,190,248,310,400,497,
+%T A027193 632,782,985,1212,1512,1851,2291,2793,3431,4163,5084,6142,7456,8972,
+%U A027193 10836,12989,15613,18646,22316,26561,31659,37556,44601,52743,62416,73593,86809,102064,120025,140736
+%N A027193 Number of partitions of n into an odd number of parts.
+%C A027193 Number of partitions of n in which greatest part is odd.
+%C A027193 Number of partitions of n+1 into an even number of parts, the least being 1. Example: a(5)=4 because we have [5,1], [3,1,1,1], [2,1,1] and [1,1,1,1,1,1].
+%C A027193 Also number of partitions of n+1 such that the largest part is even and occurs only once. Example: a(5)=4 because we have [6], [4,2], [4,1,1] and [2,1,1,1,1]. - _Emeric Deutsch_, Apr 05 2006
+%C A027193 Also the number of partitions of n such that the number of odd parts has the parity of n.  Example: a(8)=10 because we have 8, 611, 521, 431, 422, 41111, 332, 32111, 22211, 2111111. - _Clark Kimberling_, Feb 01 2014
+%C A027193 In Chaves 2011 see page 38 equation (3.20). - _Michael Somos_, Dec 28 2014
+%D A027193 N. J. Fine, Basic Hypergeometric Series and Applications, Amer. Math. Soc., 1988; p. 39, Example 7.
+%H A027193 T. D. Noe, <a href="/A027193/b027193.txt">Table of n, a(n) for n = 0..999</a>
+%H A027193 D. R. C. Chaves, <a href="http://hdl.handle.net/10183/29250">Um estudo combinatório e comparativo de identidades teta parciais de Andrews e Ramanujan</a> 2011
+%F A027193 a(n) = (A000041(n) - (-1)^n*A000700(n)) / 2.
+%F A027193 For g.f. see under A027187.
+%F A027193 G.f.: Sum(k>=1, x^(2*k-1)/Product(j=1..2*k-1, 1-x^j ) ). - _Emeric Deutsch_, Apr 05 2006
+%F A027193 G.f.: - Sum(k>=1, (-x)^(k^2)) / Product(k>=1, 1-x^k ). - _Joerg Arndt_, Feb 02 2014
+%F A027193 G.f.: Sum(k>=1, x^(k*(2*k-1)) / Product(j=1..2*k, 1-x^j)). - _Michael Somos_, Dec 28 2014
+%F A027193 a(2*n) = A000701(2*n), a(2*n-1) = A046682(2*n-1); a(n) = A000041(n)-A027187(n). - _Reinhard Zumkeller_, Apr 22 2006
+%e A027193 G.f. = x + x^2 + 2*x^3 + 2*x^4 + 4*x^5 + 5*x^6 + 8*x^7 + 10*x^8 + 16*x^9 + 20*x^10 + ...
+%p A027193 g:=sum(x^(2*k)/product(1-x^j,j=1..2*k-1),k=1..40): gser:=series(g,x=0,50): seq(coeff(gser,x,n),n=1..45); # _Emeric Deutsch_, Apr 05 2006
+%t A027193 nn=40;CoefficientList[Series[ Sum[x^(2j+1)Product[1/(1- x^i),{i,1,2j+1}],{j,0,nn}],{x,0,nn}],x]  (* _Geoffrey Critzer_, Dec 01 2012 *)
+%t A027193 a[ n_] := If[ n < 0, 0, Length@Select[ IntegerPartitions[ n], OddQ[ Length@#] &]]; (* _Michael Somos_, Dec 28 2014 *)
+%t A027193 a[ n_] := If[ n < 1, 0, Length@Select[ IntegerPartitions[ n], OddQ[ First@#] &]]; (* _Michael Somos_, Dec 28 2014 *)
+%t A027193 a[ n_] := If[ n < 0, 0, Length@Select[ IntegerPartitions[ n + 1], #[[-1]] == 1 && EvenQ[ Length@#] &]]; (* _Michael Somos_, Dec 28 2014 *)
+%t A027193 a[ n_] := If[ n < 1, 0, Length@Select[ IntegerPartitions[ n + 1], EvenQ[ First@#] && (Length[#] < 2 || #[[1]] != #[[2]]) &]]; (* _Michael Somos_, Dec 28 2014 *)
+%o A027193 (PARI) {a(n) = if( n<1, 0, polcoeff( sum( k=1, n, if( k%2, x^k / prod( j=1, k, 1 - x^j, 1 + x * O(x^(n-k)) ))), n))}; /* _Michael Somos_, Jul 24 2012 */
+%o A027193 (PARI) q='q+O('q^66); concat([0], Vec( (1/eta(q)-eta(q)/eta(q^2))/2 ) ) \\ _Joerg Arndt_, Mar 23 2014
+%Y A027193 Cf. A000041, A000700, A000701, A026837, A027187, A046682.
+%K A027193 nonn
+%O A027193 0,4
+%A A027193 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010911
+Showing 1-1 of 1
+
+%I A010911
+%S A010911 3,11,40,145,526,1908,6921,25105,91065,330326,1198213,4346356,
+%T A010911 15765820,57188385,207443151,752472043,2729490816,9900859685,
+%U A010911 35914032730,130273308376,472548850273,1714107200301,6217692609825
+%N A010911 Pisot sequence E(3,11), a(n)=[ a(n-1)^2/a(n-2)+1/2 ].
+%D A010911 D. W. Boyd, Some integer sequences related to the Pisot sequences, Acta Arithmetica, 34 (1979), 295-305.
+%H A010911 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%F A010911 Is it true that a(n+3)=3*a(n+2)+2*a(n+1)+a(n)? - Claude Lenormand (claude.lenormand(AT)free.fr), Dec 05 2001
+%K A010911 nonn
+%O A010911 0,1
+%A A010911 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058557
+Showing 1-1 of 1
+
+%I A058557
+%S A058557 1,4,3,16,20,48,55,108,141,248,326,516,662
+%N A058557 McKay-Thompson series of class 20b for Monster.
+%D A058557 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058557 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058557 T20b = 1/q + 4*q + 3*q^3 + 16*q^5 + 20*q^7 + 48*q^9 + 55*q^11 + 108*q^13 + ...
+%Y A058557 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058557 nonn
+%O A058557 -1,2
+%A A058557 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

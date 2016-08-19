@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023376
+Showing 1-1 of 1
+
+%I A023376
+%S A023376 4,8,16,64,512,8192,524288,268435456,4398046511104,
+%T A023376 9223372036854775808,19807040628566084398385987584,
+%U A023376 2787593149816327892691964784081045188247552,3291009114642412084309938365114701009965471731267159726697218048
+%N A023376 a(n+1) = a(n) converted to base 8 from base 4 (written in base 10).
+%t A023376 NestList[FromDigits[IntegerDigits[#,4],8]&,4,15] (* _Harvey P. Dale_, Sep 24 2012 *)
+%K A023376 nonn
+%O A023376 1,1
+%A A023376 _David W. Wilson_
+%E A023376 One more term (a(13)) from _Harvey P. Dale_, Sep 24 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

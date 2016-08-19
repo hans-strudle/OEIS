@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034218
+Showing 1-1 of 1
+
+%I A034218
+%S A034218 1,1,6,57,1470,82918,7194272,664545445,57778060974,4570181600483,
+%T A034218 327615878641570,21381615692198496,1278652375557906920,
+%U A034218 70509371505314767968,3605811115784411350607
+%N A034218 Number of ternary codes of length 6 with n words.
+%D A034218 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034218 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034218 Cf. A034188-.
+%K A034218 nonn
+%O A034218 0,3
+%A A034218 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

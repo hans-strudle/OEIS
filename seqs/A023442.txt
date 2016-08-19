@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023442
+Showing 1-1 of 1
+
+%I A023442
+%S A023442 0,1,1,2,3,5,8,13,21,34,55,89,144,232,375,605,977,1577,2546,4110,6635,
+%T A023442 10711,17291,27913,45060,72741,117426,189562,306011,493996,797461,
+%U A023442 1287347,2078173,3354809,5415691,8742587
+%N A023442 Dying rabbits: a(n) = a(n-1) + a(n-2) - a(n-12).
+%D A023442 J. H. E. Cohn, Letter to the editor, Fib. Quart. 2 (1964), 108.
+%D A023442 V. E. Hoggatt, Jr. and D. A. Lind, The dying rabbit problem, Fib. Quart. 7 (1969), 482-487.
+%F A023442 G.f. x/ ( (x-1)*(x^11+x^10+x^9+x^8+x^7+x^6+x^5+x^4+x^3+x^2-1) ). - R. J. Mathar, Nov 29 2011
+%Y A023442 See A000045 for the Fibonacci numbers.
+%K A023442 nonn
+%O A023442 0,4
+%A A023442 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

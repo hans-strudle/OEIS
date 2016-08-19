@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051102
+Showing 1-1 of 1
+
+%I A051102
+%S A051102 7,20,148,1096,59874,442413,24154952,178482300,9744803446,
+%T A051102 3931334297144,29048849665247,11719142372802611,639843493530054949,
+%U A051102 4727839468229346561,258131288619006739623,104137594330290877971834
+%N A051102 Floor of exp(n-th prime).
+%D A051102 Kumanduri and Romero, "Number Theory", Upper Saddle River, NJ, 1998.
+%H A051102 T. D. Noe, <a href="/A051102/b051102.txt">Table of n, a(n) for n=1..100</a>
+%e A051102 e=2.718281828, e^5=148.4131591, [ e^5 ]=148.
+%t A051102 Floor[Exp[#]]&/@Prime[Range[20]] (* _Harvey P. Dale_, Dec 12 2012 *)
+%K A051102 nonn
+%O A051102 1,1
+%A A051102 Joel Patrick Hollins (s1161557(AT)cedarville.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

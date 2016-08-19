@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030983
+Showing 1-1 of 1
+
+%I A030983
+%S A030983 0,3,16,83,442,2420,13566,77539,450340,2650635,15777450,94815732,
+%T A030983 574518536,3506232184,21533144486,132980242755,825304177544,
+%U A030983 5144743785545,32199189658020,202252227085755,1274578959894450,8056409137803600,51063344718826440
+%N A030983 Number of rooted noncrossing trees with n nodes such that root has degree 1 and the child of the root has degree at least 2.
+%H A030983 M. Noy, <a href="http://dx.doi.org/10.1016/S0012-365X(97)00121-0">Enumeration of noncrossing trees on a circle</a>, Discrete Math., 180, 301-313, 1998.
+%H A030983 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A030983 a(n) = (19*n-31)*binomial(3*n-8, n-4)/(n-1)/(2*n-3); G.f.: (1-2*z)*2*sin(arcsin(sqrt(27*z)/2)/3)/sqrt(3*z).
+%F A030983 G.f.: g^3*(3-2*g) where g*(1-g)^2 = x. - _Mark van Hoeij_, Nov 09 2011
+%F A030983 From _Vladimir Kruchinin_, Mar 06 2013: (Start)
+%F A030983 a(n) = binomial(3*n-5,2*n-3)/(n-1)-2*binomial(3*n-8,2*n-5)/(n-2), n>2.
+%F A030983 a(n) = sum(i=1..n-3, (binomial(3*i-2,2*i-1)*binomial(3*(n-i-2),2*(n-i-2)-1))/ (i*(n-i-2))).  (End)
+%o A030983 (PARI) a(n)=(19*n-31)*binomial(3*n-8, n-4)/(n-1)/(2*n-3); /* _Joerg Arndt_, Mar 07 2013 */
+%Y A030983 Row 1 of A102892.
+%K A030983 nonn
+%O A030983 3,2
+%A A030983 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

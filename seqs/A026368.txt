@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026368
+Showing 1-1 of 1
+
+%I A026368
+%S A026368 3,6,11,14,19,22,25,28,33,36,41,44,47,50,55,58,63,66,71,74,79,82,85,
+%T A026368 88,93,96,101,104,107,110,115,118,123,126,131,134,139,142,145,148,153,
+%U A026368 156,161,164,167,170,175,178,183,186,189,192,197
+%N A026368 a(n) = greatest k such that s(k) = n, where s = A026366.
+%C A026368 Complement of the rank transform of the sequence A004526=(1,1,2,2,3,3,4,4,5,5,...).  See A187224.
+%t A026368 (See A026367.)
+%Y A026368 Cf. A026367, A187224, A004526.
+%K A026368 nonn
+%O A026368 1,1
+%A A026368 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

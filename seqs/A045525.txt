@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045525
+Showing 1-1 of 1
+
+%I A045525
+%S A045525 3,13,18,24,43,49,72,120,130,138,174,178,182,193,203,227,263,270,290,
+%T A045525 309,311,313,315,317,319,321,355,364,371,378,390,395,400,405,418,426,
+%U A045525 437,457,460,463,466,469,491,501,511,518,525,536,555,559,563,567,571
+%N A045525 n! has initial digit '6'.
+%H A045525 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A045525 Select[ Range[ 600 ], IntegerDigits[ #! ] [ [1] ] == 6 & ]
+%K A045525 nonn,base
+%O A045525 1,1
+%A A045525 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

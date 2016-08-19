@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062368
+Showing 1-1 of 1
+
+%I A062368
+%S A062368 1,7,7,22,7,49,7,50,22,49,7,154,7,49,49,95,7,154,7,154,49,49,7,350,22,
+%T A062368 49,50,154,7,343,7,161,49,49,49,484,7,49,49,350,7,343,7,154,154,49,7,
+%U A062368 665,22,154,49,154,7,350,49,350,49,49,7,1078,7,49,154,252,49,343,7,154
+%N A062368 Multiplicative with a(p^e) = (e+1)*(e+2)*(4*e+3)/6.
+%C A062368 Conjecture: this is the third inverse Mobius transform of the sequence 4^A001221(n). - _R. J. Mathar_, Aug 09 2012
+%F A062368 a(n) = Sum_{i|n, j|n} tau(i)*tau(j)/tau(gcd(i, j)), where tau(n) = number of divisors of n, cf. A000005.
+%F A062368 Also a(n) = Sum_{i|n, j|n} tau(LCM(i, j)).
+%F A062368 a(n) = Sum_{d|n} tau_3(d^2) = Sum_{d|n} A007425(d^2). - _Enrique Pérez Herrero_, Jan 17 2013
+%Y A062368 Cf. A002412, A060648, A062380.
+%K A062368 nonn,mult
+%O A062368 1,2
+%A A062368 _Vladeta Jovovic_, Jul 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

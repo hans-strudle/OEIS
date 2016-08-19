@@ -1,0 +1,115 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014577
+Showing 1-1 of 1
+
+%I A014577
+%S A014577 1,1,0,1,1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0,1,1,1,
+%T A014577 0,1,1,0,0,1,1,1,0,0,1,0,0,0,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0,1,1,1,0,1,
+%U A014577 1,0,0,1,1,1,0,0,1,0,0,1,1,1,0,1,1,0,0,0,1,1,0,0,1,0,0,0,1,1,0
+%N A014577 The regular paper-folding sequence (or dragon curve sequence).
+%C A014577 a(n) is the complement of the bit to the left of the least significant "1" in the binary expansion of n. E.g., n = 4 = 100, so a(4) = (complement of bit to left of 1) = 1. - _Robert L. Brown_, Nov 28 2001
+%C A014577 To construct the sequence: start from 1,(..),0,(..),1,(..),0,(..),1,(..),0,(..),1,(..),0,... and fill undefined places with the sequence itself. - _Benoit Cloitre_, Jul 08 2007
+%C A014577 A014577 is a generator for A088748: begin A088748 with "1", then add 1 if A014577: (1, 1, 0, 1, 1,...) = 1; subtract 1 otherwise, getting (1, 2, 3, 2,...). - _Gary W. Adamson_, Aug 30 2009
+%C A014577 The characteristic function is A091072 - 1. _Gary W. Adamson_, Apr 11 2010
+%C A014577 Turns (by 90 degrees) of the Heighway dragon which can be rendered as follows: [Init] Set n=0 and direction=0. [Draw] Draw a unit line (in the current direction). Turn left/right if a(n) is zero/nonzero respectively. [Next] Set n=n+1 and goto (draw). See fxtbook link below. - _Joerg Arndt_, Apr 15 2010
+%C A014577 Sequence can be obtained by L-system with rules L->L1R, R->L0R, 1->1, 0->0, starting with L, and dropping all L and R (see example). - _Joerg Arndt_, Aug 28 2011
+%C A014577 From _Gary W. Adamson_, Jun 20 2012: (Start)
+%C A014577 One half of the infinite Farey Tree can be mapped one-to-one onto A014577 since both sequences can be derived directly from the binary. First few terms are
+%C A014577 1,...1,...0,...1,...1,...0,...0,...1,...1,...1,...
+%C A014577 1/2.2/3..1/3..3/4..3/5..2/5..1/4..4/5..5/7..5/8,..
+%C A014577 Infinite Farey Tree fractions can be derived from the binary by appending a repeat of rightmost binary term to the right, then recording the number of runs to obtain the continued fraction representation. Example: 9 = 1001 which becomes 10011 which becomes [1,2,2] = 5/7. (End)
+%C A014577 The sequence can be considered as a binomial transform operator for a target sequence S(n). Replace the first 1 in A014577 with the first term in S(n), then for successive "1" term in A014577, map the next higher term in S(n). If "0" in A014577, map the next lower term in S(n).  Using the sequence S(n) = (1, 3, 5, 7,...), we obtain (1), (3, 1), (3, 5, 3, 1), (3, 5, 7, 5, 3, 5, 3, 1),.... Then parse the terms into subsequences of 2^k terms, adding the terms in each string.  We obtain (1, 4, 12, 32, 80,...), the binomial transform of (1, 3, 5, 7,...). The 8 bit string has one 1, three 5's, three 7's and one 1) as expected, or (1, 3, 3, 1) dot (1, 3, 5, 7). - _Gary W. Adamson_, Jun 24 2012
+%C A014577 From _Gary W. Adamson_, May 29 2013: (Start)
+%C A014577 The sequence can be generated directly from the lengths of continued fraction representations of fractions in one half of the Stern-Brocot tree (fractions between 0 and 1):
+%C A014577 1/2
+%C A014577 1/3 2/3
+%C A014577 1/4 2/5 3/5 3/4
+%C A014577 1/5 2/7 3/8 3/7 4/7 5/8 5/7 4/5
+%C A014577 ...
+%C A014577 and their corresponding continued fraction representations are:
+%C A014577 [2]
+%C A014577 [3] [1,2]
+%C A014577 [4] [2,2] [1,1,2] [1,3]
+%C A014577 [5] [3,2] [2,1,2] [2,3] [1,1,3] [1,1,1,2] [1,2,2] [1,4]
+%C A014577 ... Record the lengths by rows then reverse rows, getting:
+%C A014577 1,
+%C A014577 2, 1,
+%C A014577 2, 3, 2, 1,
+%C A014577 2, 3, 4, 3, 2, 3, 2, 1,
+%C A014577 ... start with "1" and if the next term is greater than the current term, record a 1, else 0; getting A014557, the Harter-Heighway dragon curve: (1, 1, 0, 1, 1, 0, 0, 1, 1,...).  (End)
+%C A014577 The paper-folding word "110110011100100111011000..." can be created by concatenating the terms of a fixed point of the morphism or string substitution rule: 00 -> 1000, 01 -> 1001, 10 -> 1100 & 11 -> 1101, beginning with "11". - _Robert G. Wilson v_, Jun 11 2015
+%D A014577 J.-P. Allouche and J. Shallit, Automatic Sequences, Cambridge Univ. Press, 2003, pp. 155, 182.
+%D A014577 M. Gardner, Mathematical Magic Show. New York: Vintage, pp. 207-209 and 215-220, 1978.
+%D A014577 G. Melancon, Factorizing infinite words using Maple, MapleTech journal, vol. 4, no. 1, 1997, pp. 34-42, esp. p. 36.
+%D A014577 Michel Rigo, Formal Languages, Automata and Numeration Systems, 2 vols., Wiley, 2014. Mentions this sequence - see "List of Sequences" in Vol. 2.
+%D A014577 Luke Schaeffer, Jeffrey Shallit, Closed, Palindromic, Rich, Privileged, Trapezoidal, and Balanced Words in Automatic Sequences, Electronic Journal of Combinatorics 23(1) (2016), #P1.25.
+%H A014577 Ivan Panchenko, <a href="/A014577/b014577.txt">Table of n, a(n) for n = 0..10000</a>
+%H A014577 J.-P. Allouche and M. Mendes France, <a href="http://www.math.jussieu.fr/~allouche/">Automata and Automatic Sequences.</a>
+%H A014577 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, pp. 88-92; image of the dragon curve on p. 89.
+%H A014577 Michael Coons, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Coons/coons3.html">An Irrationality Measure for Regular Paperfolding Numbers</a>, Journal of Integer Sequences, Vol. 15 (2012), Article #12.1.6
+%H A014577 Franz Gahler and Johan Nilsson, <a href="http://arxiv.org/abs/1408.4997">Substitution rules for higher-dimensional paperfolding structures</a>, arXiv:1408.4997, 2014
+%H A014577 A. M. Hinz, S. Klavžar, U. Milutinović, C. Petr, <a href="http://dx.doi.org/10.1007/978-3-0348-0237-6">The Tower of Hanoi - Myths and Maths</a>, Birkhäuser 2013. See page 63. <a href="http://tohbook.info">Book's website</a>
+%H A014577 J. E. S. Socolar and J. M. Taylor, <a href="http://arxiv.org/abs/1003.4279">An aperiodic hexagonal tile</a>
+%H A014577 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DragonCurve.html">Dragon curve.</a>
+%H A014577 <a href="/index/Fo#fold">Index entries for sequences obtained by enumerating foldings</a>
+%H A014577 <a href="/index/Bi#binary">Index entries for sequences related to binary expansion of n</a>
+%F A014577 a(n) = (1+jacobi(-1,n))/2 (cf. A034947). - _N. J. A. Sloane_, Jul 27 2012
+%F A014577 Set a=1, b=0, S(0)=a, S(n+1) = S(n),a,F(S(n)), where F(x) reverses x and then interchanges a and b; sequence is limit S(infinity).
+%F A014577 a(4*n) = 1, a(4*n+2) = 0, a(2*n+1) = a(n). a(n) = 1 - A014707(n) = 2 - A014709(n) = A014710(n) - 1. - _Ralf Stephan_, Jul 03 2003
+%F A014577 Set a=1, b=0, S(0)=a, S(n+1)=S(n), a, M(S(n)), where M(S) is S but the bit in the middle position flipped. (Proof via isomorphism of both formulae to a modified string substitution.) - _Benjamin Heiland_, Dec 11 2011
+%F A014577 Can be generated directly from A005811:
+%F A014577 1,...2,...1,...2,...3,...2,...1,...2,...3,... = A005811.
+%F A014577 1,...1,...0,...1,...1,...0,...0,...1,...1,... = A014577.
+%F A014577 By inspection, A014577 = 1 if the corresponding term in A005811 is greater than the previous A005811 term; else 0. - _Gary W. Adamson_, Jun 20 2012
+%F A014577 a((2*n+1)*2^p-1) = (n+1) mod 2, p >= 0. - _Johannes W. Meijer_, Jan 28 2013
+%F A014577 G.f. g(x) satisfies g(x) = x*g(x^2) + 1/(1-x^4). - _Robert Israel_, Jan 06 2015
+%e A014577 1 + x + x^3 + x^4 + x^7 + x^8 + x^9 + x^12 + x^15 + x^16 + x^17 + x^19 + ...
+%e A014577 From _Joerg Arndt_, Aug 28 2011: (Start)
+%e A014577 Generation via string substitution:
+%e A014577 Start: L
+%e A014577 Rules:
+%e A014577   L --> L1R
+%e A014577   R --> L0R
+%e A014577   0 --> 0
+%e A014577   1 --> 1
+%e A014577 -------------
+%e A014577 0:   (#=1)
+%e A014577   L
+%e A014577 1:   (#=3)
+%e A014577   L1R
+%e A014577 2:   (#=7)
+%e A014577   L1R1L0R
+%e A014577 3:   (#=15)
+%e A014577   L1R1L0R1L1R0L0R
+%e A014577 4:   (#=31)
+%e A014577   L1R1L0R1L1R0L0R1L1R1L0R0L1R0L0R
+%e A014577 5:   (#=63)
+%e A014577   L1R1L0R1L1R0L0R1L1R1L0R0L1R0L0R1L1R1L0R1L1R0L0R0L1R1L0R0L1R0L0R
+%e A014577 Drop all L and R to obtain 1101100111001001110110001100100
+%e A014577 (End)
+%p A014577 nmax:=98: for p from 0 to ceil(simplify(log[2](nmax))) do for n from 0 to ceil(nmax/(p+2))+1 do a((2*n+1)*2^p-1) := (n+1) mod 2 od: od: seq(a(n), n=0..nmax); # _Johannes W. Meijer_, Jan 28 2013
+%t A014577 a[n_] := Boole[EvenQ[((n+1)/2^IntegerExponent[n+1, 2]-1)/2]]; Table[a[n], {n, 0, 98}] (* _Jean-François Alcover_, Feb 16 2012, after _Gary W. Adamson_, updated Nov 21 2014 *)
+%t A014577 Table[1-(((Mod[#1,2^(#2+2)]/2^#2)&[n,IntegerExponent[n,2]])-1)/2,{n,1,100,1}] (* WolframAlpha compatible code; _Robert L. Brown_, Jan 06 2015 *)
+%t A014577 MapThread[(a[x_/;IntegerQ[(x-#1)/4]]:= #2)&,{{1,3},{1,0}}];a[x_/;IntegerQ[x/2]]:=a[x/2];a/@ Range[100] (* _Bradley Klee_, Aug 04 2015 *)
+%o A014577 (C++) /* code from the fxt library, about 5 CPU cycles per computation */
+%o A014577 bool bit_paper_fold(ulong k)
+%o A014577 {
+%o A014577   ulong h = k & -k; /* == lowest_one(k) */
+%o A014577   k &= (h<<1);
+%o A014577   return ( k==0 );
+%o A014577 } /* _Joerg Arndt_, Apr 15 2010 */
+%o A014577 (PARI) {a(n) = if( n%2, a(n\2), 1 - (n/2%2))} /* _Michael Somos_, Feb 05 2012 */
+%o A014577 (PARI) a(n)=1/2*(1+(-1)^(1/2*((n+1)/2^valuation(n+1,2)-1))) /* _Ralf Stephan_, Sep 02 2013 */
+%o A014577 (MAGMA) [(1+KroneckerSymbol(-1,n))/2 : n in [1..100]] /* or */ [Floor(1/2*(1+(-1)^(1/2*((n+1)/2^Valuation(n+1, 2)-1)))): n in [0..100]]; // _Vincenzo Librandi_, Aug 05 2015
+%Y A014577 The following are all essentially the same sequence: A014577, A014707, A014709, A014710, A034947, A038189, A082410. - _N. J. A. Sloane_, Jul 27 2012
+%Y A014577 Cf. A038189, A059125, A065339, A005811, A220466.
+%Y A014577 A082410(n+2)=a(n).
+%Y A014577 Cf. A088748. - _Gary W. Adamson_, Aug 30 2009
+%Y A014577 Cf. A091072. - _Gary W. Adamson_, Apr 11 2010
+%K A014577 nonn,easy,nice
+%O A014577 0,1
+%A A014577 _N. J. A. Sloane_, _Eric W. Weisstein_
+%E A014577 More terms from _Ralf Stephan_, Jul 03 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

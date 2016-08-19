@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005570
+Showing 1-1 of 1
+
+%I A005570 M5038
+%S A005570 17,50,99,164,245,342,455,584,729,890,1067,1260,1469,1694,1935,2192,
+%T A005570 2465,2754,3059,3380,3717,4070,4439,4824,5225,5642,6075,6524,6989,
+%U A005570 7470,7967,8480,9009,9554,10115,10692,11285
+%N A005570 Number of walks on cubic lattice.
+%C A005570 Partial sums of A158057.
+%D A005570 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005570 Jeremy Gardiner, <a href="/A005570/b005570.txt">Table of n, a(n) for n = 1..999</a>
+%H A005570 R. K. Guy, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/GUY/catwalks.html">Catwalks, sandsteps and Pascal pyramids</a>, J. Integer Sequences, Vol. 3 (2000), Article #00.1.6 (see figure 7).
+%H A005570 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005570 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005570 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A005570 a(n) = 8*n^2 + 9*n.
+%F A005570 G.f.: (17-x)/(1-x)^3. _Simon Plouffe_ in his 1992 dissertation.
+%F A005570 a(n) = 16 * A000217(n) + n. - _Jon Perry_, Nov 05 2014
+%t A005570 CoefficientList[Series[(17 - x) / (1 - x)^3, {x, 0, 40}], x] (* _Vincenzo Librandi_, Nov 05 2014 *)
+%o A005570 (PARI) Vec((17-x)/(1-x)^3 + O(x^50)) \\ _Michel Marcus_, Nov 05 2014
+%o A005570 (MAGMA) [8*n^2 + 9*n : n in [1..40]]; // _Vincenzo Librandi_, Nov 05 2014
+%K A005570 nonn,easy
+%O A005570 1,1
+%A A005570 _N. J. A. Sloane_.
+%E A005570 Formula and more terms from _Jeffrey Shallit_, Aug 15 1995
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

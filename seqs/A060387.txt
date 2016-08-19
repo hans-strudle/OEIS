@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060387
+Showing 1-1 of 1
+
+%I A060387
+%S A060387 2,17,32,82,97,162,257,272,337,512,626,641,706,881,1250,1297,1312,
+%T A060387 1377,1552,1921,2402,2417,2482,2592,2657,3026,3697,4097,4112,4177,
+%U A060387 4352,4721,4802,5392,5906
+%N A060387 Numbers n such that x^4 + y^4 = n * z^4 is solvable in nonzero integers x,y,z.
+%C A060387 Numbers n such that n = x^4 + y^4 has a solution in positive rationals x, y.
+%D A060387 A. Bremner and P. Morton, A new characterization of the integer 5906, Manuscripta Math. 44 (1983) 187-229; Math. Rev. 84i:10016.
+%H A060387 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/fermat.pdf">On a generalized Fermat-Wiles equation</a>
+%H A060387 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number</a>
+%t A060387 r[n_, z_] := Reduce[0 < x <= y && x^4 + y^4 == n*z^4, {x, y}, Integers]; zm[_] = 1; zm[5906] = 17; ok[n_] := (tf = False; Do[ If[ r[n, z] =!= False, tf = True; Break[]], {z, 1, zm[n]}]; tf); A060387 = Reap[ Do[ If[ ok[n], Print[n]; Sow[n]], {n, 1, 5906}]][[2, 1]](* _Jean-François Alcover_, Mar 09 2012 *)
+%Y A060387 5906 is the first term not in A003336. Cf. A020897.
+%K A060387 nonn,nice,more
+%O A060387 1,1
+%A A060387 Michel ten Voorde (seqfan(AT)tenvoorde.org) Apr 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

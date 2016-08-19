@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001034
+Showing 1-1 of 1
+
+%I A001034 M5318 N2311
+%S A001034 60,168,360,504,660,1092,2448,2520,3420,4080,5616,6048,6072,7800,7920,
+%T A001034 9828,12180,14880,20160,25308,25920,29120,32736,34440,39732,51888,
+%U A001034 58800,62400,74412,95040,102660,113460,126000,150348,175560,178920
+%N A001034 Orders of non-cyclic simple groups (without repetition).
+%C A001034 This comment is about the four sequences A001034, A060793, A056866, A056868: The Feit-Thompson theorem says that a finite group with odd order is solvable, hence all numbers in this sequence are even. - Ahmed Fares (ahmedfares(AT)my-deja.com), May 08 2001
+%D A001034 J. H. Conway, R. T. Curtis, S. P. Norton, R. A. Parker and R. A. Wilson, ATLAS of Finite Groups. Oxford Univ. Press, 1985.
+%D A001034 Dickson L.E. Linear groups, with an exposition of the Galois field theory (Teubner, 1901), p. 309.
+%D A001034 M. Hall, Jr., A search for simple groups of order less than one million, pp. 137-168 of J. Leech, editor, Computational Problems in Abstract Algebra. Pergamon, Oxford, 1970.
+%D A001034 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001034 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001034 David A. Madore, <a href="/A001034/b001034.txt">Table of n, a(n) for n = 1..491</a> [taken from link below]
+%H A001034 C. Cato, <a href="http://dx.doi.org/10.1090/S0025-5718-1977-0430052-X">The orders of the known simple groups as far as one trillion</a>, Math. Comp., 31 (1977), 574-577.
+%H A001034 L. E. Dickson, <a href="http://cdl.library.cornell.edu/Hunter/hunter.pl?handle=cornell.library.math/05110001&amp;id=5">Linear Groups with an Exposition of the Galois Field Theory</a> (page images), Dover, NY, 1958, p. 309.
+%H A001034 Walter Feit, J. G. Thompson, <a href="http://www.pnas.org/content/48/6/968">A solvability criterion for finite groups and some consequences</a>, Proc. N. A. S. 48 (6) (1962) 968
+%H A001034 David A. Madore, <a href="http://www.madore.org/~david/math/simplegroups.html">More terms</a>
+%H A001034 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%H A001034 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%Y A001034 Cf. A000001, A000679, A005180, A001228, A060793, A056866, A056868, A119630.
+%Y A001034 Cf. A109379 (orders with repetition), A119648 (orders that are repeated).
+%K A001034 nonn,nice,core
+%O A001034 1,1
+%A A001034 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

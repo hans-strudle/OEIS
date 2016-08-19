@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053270
+Showing 1-1 of 1
+
+%I A053270
+%S A053270 1,2,3,4,6,8,11,14,18,24,30,38,47,58,72,88,108,130,156,188,225,268,
+%T A053270 318,376,444,522,612,716,834,972,1129,1308,1512,1744,2010,2310,2652,
+%U A053270 3038,3474,3968,4524,5152,5857,6650,7542,8540,9660,10912,12312,13878
+%N A053270 Coefficients of the '6th order' mock theta function rho(q).
+%D A053270 George E. Andrews and Dean Hickerson, Ramanujan's "lost" notebook VII: The sixth order mock theta functions, Advances in Mathematics, 89 (1991) 60-105
+%D A053270 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, pp. 3, 13
+%F A053270 G.f.: rho(q) = sum for n >= 0 of q^(n(n+1)/2) (1+q)(1+q^2)...(1+q^n)/((1-q)(1-q^3)...(1-q^(2n+1)))
+%t A053270 Series[Sum[q^(n(n+1)/2) Product[1+q^k, {k, 1, n}]/Product[1-q^k, {k, 1, 2n+1, 2}], {n, 0, 13}], {q, 0, 100}]
+%Y A053270 Other '6th order' mock theta functions are at A053268, A053269, A053271, A053272, A053273, A053274.
+%K A053270 nonn,easy
+%O A053270 0,2
+%A A053270 _Dean Hickerson_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

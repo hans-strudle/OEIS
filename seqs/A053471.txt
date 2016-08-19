@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053471
+Showing 1-1 of 1
+
+%I A053471
+%S A053471 0,0,0,0,0,1,0,1,0,2,0,2,0,2,0,2,0,4,0,4,1,4,0,4,0,4,1,4,0,8,0,4,0,8,
+%T A053471 0,8,0,8,1,8,0,12,0,8,3,8,0,8,0,12,0,8,0,16,1,8,3,12,0,16,0,8,3,8,0,
+%U A053471 16,0,16,1,16,0,16,0,12,1,16,0,24,0,16,3,22,0,24,3,16,0,16,0,24,0,16,1,16,0
+%N A053471 Cototient of n (A051953) iterated 3 times.
+%C A053471 Iteration of A051953 behaves similarly to that of Euler Phi. Analogous 3rd iterates for A000005) or A000010) are A036455 and A049099
+%e A053471 n=50, n_1=n-phi(n)=50-20=30, n_2=n_1-Phi[n_1]=30-8=22, n_3=22-Phi[22]=12 so the 50th term is 12.
+%Y A053471 A051953, A000005, A000010, A036455, A049099.
+%K A053471 nonn
+%O A053471 1,10
+%A A053471 _Labos Elemer_, Jan 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

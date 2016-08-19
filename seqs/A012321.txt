@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012321
+Showing 1-1 of 1
+
+%I A012321
+%S A012321 1,2,5,20,125,830,6001,45768,394553,3699418,38758909,433324828,
+%T A012321 5299232757,68428221654,958395448297,14101599762448,223667919165041,
+%U A012321 3706771205012274,65843651814440309,1215858569345385636
+%N A012321 sinh(arcsin(x)*exp(x))=x+2/2!*x^2+5/3!*x^3+20/4!*x^4+125/5!*x^5...
+%K A012321 nonn
+%O A012321 0,2
+%A A012321 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017758
+Showing 1-1 of 1
+
+%I A017758
+%S A017758 1,95,4560,147440,3612280,71523144,1192052400,17199613200,
+%T A017758 219295068300,2509710226100,26100986351440,249145778809200,
+%U A017758 2200787712814600,18114175790089400,139737927523546800,1015428940004440080,6981073962530525550,45582306461228725650
+%N A017758 Binomial coefficients C(n,94).
+%t A017758 Table[Binomial[n, 94], {n, 94, 120}] (* _Vladimir Joseph Stephan Orlovsky_, Jul 15 2011 *)
+%o A017758 (Sage) [binomial(n, 94) for n in xrange(93,110)] # [From _Zerinvary Lajos_, May 23 2009]
+%Y A017758 Cf. A017760, A017761.
+%K A017758 nonn
+%O A017758 94,2
+%A A017758 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

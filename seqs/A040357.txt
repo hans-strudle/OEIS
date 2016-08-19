@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040357
+Showing 1-1 of 1
+
+%I A040357
+%S A040357 19,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,
+%T A040357 2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,
+%U A040357 38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2,38,2,2,2
+%N A040357 Continued fraction for sqrt(377).
+%H A040357 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040357 a(n)=(1/6)*{-43*(n mod 4)+11*[(n+1) mod 4]+11*[(n+2) mod 4]+65*[(n+3) mod 4]}-19*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 28 2009]
+%p A040357 with(numtheory): Digits := 300: convert(evalf(sqrt(377)),confrac);
+%K A040357 nonn,cofr,easy
+%O A040357 0,1
+%A A040357 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

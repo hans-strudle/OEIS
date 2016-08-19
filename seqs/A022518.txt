@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022518
+Showing 1-1 of 1
+
+%I A022518
+%S A022518 7,71,1171,117112,21127112,211271211221,112212211171211221,
+%T A022518 1122122111711322112212,21112212223112711322112212,
+%U A022518 21112212223112712112312311221321
+%N A022518 Describe previous term from the right (method B - initial term is 7).
+%C A022518 Method B = 'digit'-indication followed by 'frequency'.
+%H A022518 Reinhard Zumkeller, <a href="/A022518/b022518.txt">Table of n, a(n) for n = 0..21</a>
+%e A022518 E.g. the term after 1171 is obtained by saying "1 once, 7 once, 1 twice", which gives 117112.
+%o A022518 (Haskell)
+%o A022518 import Data.List (group, transpose)
+%o A022518 a022518 n = a022518_list !! n
+%o A022518 a022518_list = 7 : f [7] :: [Integer] where
+%o A022518    f xs = (read $ concatMap show ys) : f ys where
+%o A022518           ys = concat $ transpose [map head zss, map length zss]
+%o A022518           zss = reverse $ group xs
+%o A022518 -- _Reinhard Zumkeller_, Jan 26 2014
+%Y A022518 Cf. A022481, A022488, A022514-A022520.
+%K A022518 nonn,base,easy,nice
+%O A022518 0,1
+%A A022518 _N. J. A. Sloane_.
+%E A022518 More terms from _Erich Friedman_; corrected from 8th term by _Patrick De Geest_, Jun 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

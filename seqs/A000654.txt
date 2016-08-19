@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000654
+Showing 1-1 of 1
+
+%I A000654 M2173 N0868
+%S A000654 1,2,52,142090700,17844701940501123640681816160,
+%T A000654 59757436204078657410908164193971330396709572693816353610758085074676243846093824
+%N A000654 Invertible Boolean functions of n variables.
+%C A000654 Equivalence classes of invertible maps from {0,1}^n to {0,1}^n, under action of permutation and complementation of variables on domain and range. - _Sean A. Irvine_, Mar 16 2011
+%D A000654 M. A. Harrison, The number of classes of invertible Boolean functions, J. ACM 10 (1963), 25-28.
+%D A000654 C. S. Lorens, Invertible Boolean functions, IEEE Trans. Electron. Computers, EC-13 (1964), 529-541.
+%D A000654 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000654 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000654 M. A. Harrison, <a href="/A000653/a000653.pdf">The number of classes of invertible Boolean functions</a>, J. ACM 10 (1963), 25-28. [Annotated scan of page 27 only]
+%H A000654 M. A. Harrison, <a href="/A000370/a000370.pdf">The number of equivalence classes of Boolean functions under groups containing negation</a>, IEEE Trans. Electron. Comput. 12 (1963), 559-561. [Annotated scanned copy]
+%H A000654 C. S. Lorens, <a href="http://dx.doi.org/10.1109/PGEC.1964.263724">Invertible Boolean functions</a>, IEEE Trans. Electron. Computers, EC-13 (1964), 529-541.
+%H A000654 C. S. Lorens, <a href="/A000722/a000722.pdf">Invertible Boolean functions</a>, IEEE Trans. Electron. Computers, EC-13 (1964), 529-541. [Annotated scan of page 530 only]
+%H A000654 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%K A000654 nonn
+%O A000654 1,2
+%A A000654 _N. J. A. Sloane_
+%E A000654 More terms from _Sean A. Irvine_, Mar 15 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

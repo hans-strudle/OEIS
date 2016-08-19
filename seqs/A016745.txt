@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016745
+Showing 1-1 of 1
+
+%I A016745
+%S A016745 0,32,1024,7776,32768,100000,248832,537824,1048576,1889568,3200000,
+%T A016745 5153632,7962624,11881376,17210368,24300000,33554432,45435424,
+%U A016745 60466176,79235168,102400000,130691232,164916224
+%N A016745 a(n) = (2*n)^5.
+%H A016745 Vincenzo Librandi, <a href="/A016745/b016745.txt">Table of n, a(n) for n = 0..10000</a>
+%H A016745 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A016745 G.f.: 32*x*(1+26*x+66*x^2+26*x^3+x^4)/(1-x)^6. [_Colin Barker_, Sep 17 2012]
+%o A016745 (MAGMA) [(2*n)^5: n in [0..30]]; // _Vincenzo Librandi_, Sep 05 2011
+%Y A016745 Cf. A016757.
+%K A016745 nonn,easy
+%O A016745 0,2
+%A A016745 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

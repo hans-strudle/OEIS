@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057917
+Showing 1-1 of 1
+
+%I A057917
+%S A057917 1,2,3,4,31,34,82,116,120,398,450,566,1216,1478,1776,2379,2816,3492,
+%T A057917 3644
+%N A057917 Numbers n such that 3*5^n - 2 is prime.
+%t A057917 Do[ If[ PrimeQ[ 3*5^n - 2 ], Print[ n ] ], {n, 1, 1500} ]
+%K A057917 nonn
+%O A057917 1,2
+%A A057917 _Robert G. Wilson v_, Nov 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

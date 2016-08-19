@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008529
+Showing 1-1 of 1
+
+%I A008529
+%S A008529 1,14,68,202,456,870,1484,2338,3472,4926,6740,8954,11608,14742,18396,
+%T A008529 22610,27424,32878,39012,45866,53480,61894,71148,81282,92336,104350,
+%U A008529 117364,131418,146552,162806
+%N A008529 Coordination sequence for 4-dimensional face-centered cubic orthogonal lattice.
+%D A008529 M. O'Keeffe, Coordination sequences for lattices, Zeit. f. Krist., 210 (1995), 905-908.
+%H A008529 Vincenzo Librandi, <a href="/A008529/b008529.txt">Table of n, a(n) for n = 0..1000</a>
+%F A008529 G.f.: (1+x)^2*(1+8*x+x^2)/(1-x)^4. [Colin Barker, Apr 14 2012]
+%p A008529 [ seq( (20*k^3+22*k)/3, k=0..40) ];
+%t A008529 CoefficientList[Series[(1+x)^2*(1+8*x+x^2)/(1-x)^4,{x,0,40}],x] (* _Vincenzo Librandi_, Apr 16 2012 *)
+%o A008529 (MAGMA) [1]cat[(20*n^3+22*n)/3: n in [1..40]]; // _Vincenzo Librandi_, Apr 16 2012
+%K A008529 nonn,easy
+%O A008529 0,2
+%A A008529 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

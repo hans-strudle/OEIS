@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040550
+Showing 1-1 of 1
+
+%I A040550
+%S A040550 23,1,22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22,
+%T A040550 1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,
+%U A040550 22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22,1,46,1,22
+%N A040550 Continued fraction for sqrt(574).
+%H A040550 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040550 a(n)=(1/6)*{-50*(n mod 4)+49*[(n+1) mod 4]-14*[(n+2) mod 4]+85*[(n+3) mod 4]}-23*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 14 2009]
+%p A040550 with(numtheory): Digits := 300: convert(evalf(sqrt(574)),confrac);
+%K A040550 nonn,cofr,easy,less
+%O A040550 0,1
+%A A040550 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058676
+Showing 1-1 of 1
+
+%I A058676
+%S A058676 1,2,1,1,5,4,7,10,12,12,22,22,29
+%N A058676 McKay-Thompson series of class 42b for Monster.
+%D A058676 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058676 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058676 T42b = 1/q + 2*q + q^3 + q^5 + 5*q^7 + 4*q^9 + 7*q^11 + 10*q^13 + 12*q^15 + ...
+%Y A058676 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058676 nonn
+%O A058676 -1,2
+%A A058676 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

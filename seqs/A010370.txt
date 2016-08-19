@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010370
+Showing 1-1 of 1
+
+%I A010370
+%S A010370 1,4,12,80,700,7056,77616,906048,11042460,139053200,
+%T A010370 1796567344,23696871744,317933029232,4326899214400,
+%U A010370 59605244280000,829705000377600,11654762427179100,165021757273414800,2353088020380174000
+%V A010370 1,-4,-12,-80,-700,-7056,-77616,-906048,-11042460,-139053200,
+%W A010370 -1796567344,-23696871744,-317933029232,-4326899214400,
+%X A010370 -59605244280000,-829705000377600,-11654762427179100,-165021757273414800,-2353088020380174000
+%N A010370 C(2*n,n)^2 / (1-2*n).
+%C A010370 Expansion of hypergeometric function F(-1/2,1/2;1;16x).
+%C A010370 Expansion of E(m)/(pi/2) in powers of m/16=(k/4)^2, where E(m) is complete elliptic integral of second kind evaluated at m. - _Michael Somos_, Mar 04 2003
+%D A010370 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 591.
+%D A010370 J. M. Borwein and P. B. Borwein, Pi and the AGM, Wiley, 1987, p. 8.
+%H A010370 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%F A010370 a(n) ~ 1/2*pi^-1*n^-2*2^(4*n)
+%F A010370 G.f.: F(-1/2, 1/2;1;16x) = E(16x)/(pi/2). a(n)=C(2*n, n)^2/(1-2*n). - _Michael Somos_, Mar 04 2003
+%F A010370 E.g.f. Sum_{n>=0} a(n)*(x/2)^(2n)/(2n)! = I0^2*(1-2*x^2) +2*x*I0*I1 +2*x^2*I1^2 where I0=BesselI(0, x), I1=BesselI(1, x) . - _Michael Somos_, Jun 22 2005
+%F A010370 n^2*a(n) -4*(2*n-1)*(2*n-3)*a(n-1)=0. - _R. J. Mathar_, Feb 15 2013
+%t A010370 CoefficientList[Series[EllipticE[16x]2/Pi, {x, 0, 20}], x]
+%t A010370 Table[Binomial[2n,n]^2/(1-2n),{n,0,30}] (* _Harvey P. Dale_, Mar 07 2013 *)
+%o A010370 (PARI) a(n)=if(n<0,0,binomial(2*n,n)^2/(1-2*n))
+%Y A010370 Cf. A002894, A002420. a(n)=-4*A000891(n-1), n>0.
+%K A010370 sign,easy
+%O A010370 0,2
+%A A010370 Joe Keane (jgk(AT)jgk.org)
+%E A010370 Additional comments from _Michael Somos_, Dec 13 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

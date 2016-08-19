@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014680
+Showing 1-1 of 1
+
+%I A014680
+%S A014680 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014680 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,
+%U A014680 1,1,1,1,1,1,0,0,0,0,0,0,0,0,0
+%V A014680 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014680 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,
+%X A014680 -1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0
+%N A014680 Inverse of 671st cyclotomic polynomial.
+%p A014680 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014680 sign
+%O A014680 0,1
+%A A014680 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

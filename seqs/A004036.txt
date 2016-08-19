@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004036
+Showing 1-1 of 1
+
+%I A004036 M3438
+%S A004036 1,1,4,12,30,66,132
+%N A004036 The coding-theoretic function A(n,4,6) (the next term is at least 166).
+%D A004036 A. E. Brouwer, J. B. Shearer, N. J. A. Sloane and W. D. Smith, New table of constant weight codes, IEEE Trans. Info. Theory 36 (1990), 1334-1380.
+%D A004036 CRC Handbook of Combinatorial Designs, 1996, p. 411.
+%D A004036 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A004036 E. M. Rains and N. J. A. Sloane, <a href="http://neilsloane.com/codes/Andw/">A(n,d,w) tables</a>
+%H A004036 <a href="/index/Aa#Andw">Index entries for sequences related to A(n,d,w)</a>
+%K A004036 nonn,hard
+%O A004036 6,3
+%A A004036 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

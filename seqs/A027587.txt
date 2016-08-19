@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027587
+Showing 1-1 of 1
+
+%I A027587
+%S A027587 1,2,3,3,5,7,8,12,14,17,23,26,33,40,46
+%N A027587 Sequence satisfies T^2(a)=a, where T is defined below.
+%D A027587 S. Viswanath (student, Dept. Math, Indian Inst. Technology, Kanpur) A Note on Partition Eigensequences, preprint, Nov 15 1996.
+%H A027587 M. Bernstein and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.CO/0205301">Some canonical sequences of integers</a>, Linear Alg. Applications, 226-228 (1995), 57-72; erratum 320 (2000), 210.
+%F A027587 Define T:a->b by: given a1<=a2<=..., let b(n) = number of ways of partitioning n into parts from a1, a2, ... such that even parts do not occur more than once.
+%K A027587 nonn,more,eigen
+%O A027587 0,2
+%A A027587 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007507
+Showing 1-1 of 1
+
+%I A007507 M1560
+%S A007507 2,6,6,5,1,4,4,1,4,2,6,9,0,2,2,5,1,8,8,6,5,0,2,9,7,2,4,9,8,7,3,1,3,9,
+%T A007507 8,4,8,2,7,4,2,1,1,3,1,3,7,1,4,6,5,9,4,9,2,8,3,5,9,7,9,5,9,3,3,6,4,9,
+%U A007507 2,0,4,4,6,1,7,8,7,0,5,9,5,4,8,6,7,6,0,9,1,8,0,0,0,5,1,9,6,4,1,6,9,4,1,9,8
+%N A007507 Decimal expansion of 2^sqrt(2).
+%C A007507 "The 7th of Hilbert's famous 23 problems proposed at the 1900 Mathematical Congress was to prove the irrationality and transcendence of certain numbers. Hilbert gave as examples 2^sqrt(2) and e^Pi. Later in his life he expressed the view that this problem was more difficult than the problems of Riemann's hypothesis or Fermat's Last Theorem. Nevertheless, e^Pi was proved transcendental in 1929 and 2^sqrt(2) in 1930, illustrating the extreme difficulty of anticipating the future progress of mathematics and the real difficulty of any problem - until after it has been solved. - David Wells
+%C A007507 This constant is sometimes called the Gelfond-Schneider constant. - _Paul Muljadi_, Oct 12 2008
+%D A007507 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007507 David Wells, "The Penguin Dictionary of Curious and Interesting Numbers," Revised Edition, Penguin Books, London, England, 1997, page 28.
+%D A007507 Eric W. Weisstein, CRC Concise Encyclopedia of Mathematics, CRC Press, 2002, p. 1171. [From _Paul Muljadi_, Oct 12 2008]
+%H A007507 Harry J. Smith, <a href="/A007507/b007507.txt">Table of n, a(n) for n = 1..20000</a>
+%H A007507 D. Hilbert, <a href="http://www.ams.org/journal-getitem?pii=S0273-0979-00-00881-8">Mathematical Problems</a>, Bull. Amer. Math. Soc. 37 (2000), 407-436. Reprinted from Bull. Amer. Math. Soc. 8 (Jul 1902), 437-479. See Problem 7.
+%H A007507 Simon Plouffe, <a href="http://www.plouffe.fr/simon/constants/gelfond.txt">2**sqrt(2), a transcendental number to 5000 digits</a>
+%H A007507 Simon Plouffe, <a href="http://www.worldwideschool.org/library/books/sci/math/MiscellaneousMathematicalConstants/chap43.html">2**sqrt(2), a transcendental number to 2000 digits</a>
+%H A007507 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Gelfond-SchneiderConstant.html">Gelfond-Schneider Constant</a>
+%e A007507 2.6651441426902251886502972498731398482742113137146594928...
+%t A007507 RealDigits[N[ 2^Sqrt[2], 100]][[1]]
+%o A007507 (PARI) { default(realprecision, 20080); x=2^sqrt(2); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b007507.txt", n, " ", d)); } \\ _Harry J. Smith_, Apr 21 2009
+%K A007507 cons,nonn
+%O A007507 1,1
+%A A007507 _N. J. A. Sloane_
+%E A007507 Additional comments from _Robert G. Wilson v_, Dec 07 2000
+%E A007507 Fixed my PARI program, had -n _Harry J. Smith_, May 19 2009
+%E A007507 Final digits of sequence corrected using the b-file. - _N. J. A. Sloane_, Aug 30 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

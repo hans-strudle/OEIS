@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030011
+Showing 1-1 of 1
+
+%I A030011
+%S A030011 1,1,1,1,1,1,1,2,3,2,4,1,5,3,4,5,9,3,3,15,19,0,6,39,27,22,
+%T A030011 5,57,50,107,49,96,142,213,83,138,468,365,0,327,1215,618,526,
+%U A030011 957,2572,1831,1673,2820,4516,6155,3880,5998,9282
+%V A030011 1,1,1,1,1,1,-1,-2,-3,-2,4,-1,5,3,-4,-5,-9,3,-3,15,19,0,6,-39,-27,-22,
+%W A030011 5,57,50,107,-49,-96,-142,-213,83,138,468,365,0,-327,-1215,-618,-526,
+%X A030011 957,2572,1831,1673,-2820,-4516,-6155,-3880,5998,9282
+%N A030011 Inverse Euler transform of {1, primes}.
+%H A030011 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%K A030011 sign
+%O A030011 0,8
+%A A030011 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

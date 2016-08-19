@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032863
+Showing 1-1 of 1
+
+%I A032863
+%S A032863 1,2,3,4,5,6,7,8,16,17,24,25,26,32,33,34,35,40,41,42,43,44,48,49,50,
+%T A032863 51,52,53,56,57,58,59,60,61,62,65,66,67,68,69,70,71,129,130,131,132,
+%U A032863 133,134,135,138,139,140,141,142,143,193,194,195
+%N A032863 Numbers n such that base 8 representation Sum{d(i)*8^i: i=0,1,...,m) has d(m)>d(m-1)<d(m-2)>...
+%K A032863 nonn,base
+%O A032863 1,2
+%A A032863 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

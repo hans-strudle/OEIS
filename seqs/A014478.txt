@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014478
+Showing 1-1 of 1
+
+%I A014478
+%S A014478 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014478 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%U A014478 1,1,1,1,1,1,0,0,0,0,0,0,0
+%V A014478 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014478 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,
+%X A014478 -1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0
+%N A014478 Inverse of 469th cyclotomic polynomial.
+%p A014478 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014478 sign
+%O A014478 0,1
+%A A014478 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

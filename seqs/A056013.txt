@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056013
+Showing 1-1 of 1
+
+%I A056013
+%S A056013 1,2,27,65120,3332064,21940224,351952896,123346213728
+%N A056013 Numbers n such that n | Sigma(n) - d(n) + Phi(n).
+%t A056013 Do[If[Mod[DivisorSigma[1, n]-DivisorSigma[0, n]+EulerPhi[n], n]==0, Print[n]], {n, 1, 10^7}]
+%K A056013 nonn
+%O A056013 1,2
+%A A056013 _Robert G. Wilson v_, Jul 24 2000
+%E A056013 a(6)-a(8) from _Donovan Johnson_, Nov 12 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

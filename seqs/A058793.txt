@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058793
+Showing 1-1 of 1
+
+%I A058793
+%S A058793 1,6,73,2957,431805
+%N A058793 Number of covers of an unlabeled n-set such that every point of the set is covered by exactly 6 subsets of the cover and that intersection of every 6 subsets of the cover contains at most one point.
+%C A058793 Cover may include multiple occurrences of a subset. Also n-rowed binary matrices with distinct rows and all row sums 6.
+%H A058793 <a href="/A058790/a058790.pdf">Formula</a>
+%Y A058793 Cf. A050535, A050913, A058783-A058785.
+%K A058793 more,nonn
+%O A058793 1,2
+%A A058793 _Vladeta Jovovic_, Nov 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

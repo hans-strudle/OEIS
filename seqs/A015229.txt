@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015229
+Showing 1-1 of 1
+
+%I A015229
+%S A015229 1,0,432,1824,8100,21280,46030,95904,185276,265120,509976,735200
+%N A015229 Theta series of lattice Kappa_11.
+%D A015229 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 161.
+%e A015229 1+432*q^4+1824*q^6+...
+%K A015229 nonn
+%O A015229 0,3
+%A A015229 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

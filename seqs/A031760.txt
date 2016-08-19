@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031760
+Showing 1-1 of 1
+
+%I A031760
+%S A031760 1682,6726,15132,26900,42030,60522,82376,107592,136170,168110,203412,
+%T A031760 242076,284102,329490,378240,430352,485826,544662,606860,672420,
+%U A031760 741342,813626,889272,968280,1050650,1136382,1225476,1317932,1413750,1512930
+%N A031760 Least term in period of continued fraction for sqrt(n) is 82.
+%t A031760 cf82Q[n_]:=Module[{s=Sqrt[n]},If[IntegerQ[s],1,Min[ ContinuedFraction[ s] [[2]]]]==82]; Select[Range[16*10^5], cf82Q] (* _Harvey P. Dale_, Jan 17 2016 *)
+%K A031760 nonn
+%O A031760 1,1
+%A A031760 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

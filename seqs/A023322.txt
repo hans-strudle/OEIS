@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023322
+Showing 1-1 of 1
+
+%I A023322
+%S A023322 7949,25589,55799,61379,69959,70229,74609,174569,188369,204719,220469,
+%T A023322 225629,233759,250919,286619,363659,552749,592139,658349,735419,
+%U A023322 783269,827549,931949,1018889,1065839,1126319,1132739,1187939,1215629,1378529
+%N A023322 Numbers n such that n remains prime through 4 iterations of function f(x) = 8x + 7.
+%C A023322 n, 8*n+7, 64*n+63, 512*n+511 and 4096*n+4095 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023322 (MAGMA) [n: n in [1..5000000] | IsPrime(n) and IsPrime(8*n+7) and IsPrime(64*n+63) and IsPrime(512*n+511) and IsPrime(4096*n+4095)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023322 nonn
+%O A023322 1,1
+%A A023322 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

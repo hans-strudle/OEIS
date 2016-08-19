@@ -1,0 +1,41 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008937
+Showing 1-1 of 1
+
+%I A008937
+%S A008937 0,1,2,4,8,15,28,52,96,177,326,600,1104,2031,3736,6872,12640,23249,
+%T A008937 42762,78652,144664,266079,489396,900140,1655616,3045153,5600910,
+%U A008937 10301680,18947744,34850335,64099760,117897840,216847936,398845537,733591314,1349284788
+%N A008937 a(n) = Sum T(k), k=0,..,n, where T(n) are the tribonacci numbers A000073.
+%C A008937 a(n) = number of n-bit sequences that avoid 1100. - _David Callan_, Jul 19 2004
+%C A008937 Row sums of Riordan array (1/(1-x), x(1+x+x^2)). - _Paul Barry_, Feb 16 2005
+%C A008937 Diagonal sums of Riordan array (1/(1-x)^2,x(1+x)/(1-x)), A104698.
+%C A008937 a(n) = (A000213(n+2) - 1) / 2. - _Reinhard Zumkeller_, Apr 07 2012
+%D A008937 A. T. Benjamin and J. J. Quinn, Proofs that really count: the art of combinatorial proof, M.A.A. 2003, p. 41.
+%H A008937 Vincenzo Librandi, <a href="/A008937/b008937.txt">Table of n, a(n) for n = 0..200</a>
+%H A008937 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,0,-1)
+%F A008937 G.f.: x/((x-1)*(x^3+x^2+x-1)). Recurrence a(n)=2a(n-1)-a(n-4), a(0)=0, a(1)=1, a(2)=2, a(3)=4. - Mario Catalani (mario.catalani(AT)unito.it), Aug 09 2002
+%F A008937 a(n) = 1 + a(n-1) + a(n-2) + a(n-3). E.g., a(11) = 1 +600 + 326 + 177 = 1104. - Philippe LALLOUET (philip.lallouet(AT)orange.fr), Oct 29 2007
+%F A008937 a(n) = term (4,1) in the 4 X 4 matrix [1,1,0,0; 1,0,1,0; 1,0,0,0; 1,0,0,1]^n. - _Alois P. Heinz_, Jul 24 2008
+%F A008937 a(n) = -A077908(-n-3). - _Alois P. Heinz_, Jul 24 2008
+%e A008937 G.f. = x + 2*x^4 - x^5 + 4*x^7 - 4*x^8 + x^9 + 8*x^10 - 12*x^11 + 6*x^12 + ...
+%p A008937 A008937 := proc(n) option remember; if n <= 3 then 2^n else 2*procname(n-1)-procname(n-4) fi; end;
+%p A008937 a:= n-> (Matrix([[1,1,0,0], [1,0,1,0], [1,0,0,0], [1,0,0,1]])^n)[4,1]: seq(a(n), n=0..50); # _Alois P. Heinz_, Jul 24 2008
+%t A008937 CoefficientList[Series[1/(1-2x+x^4), {x, 0, 40}], x]
+%t A008937 a=b=c=0;Table[d=a+b+c+1;a=b;b=c;c=d,{n,0,5!}] (* _Vladimir Joseph Stephan Orlovsky_, May 18 2010 *)
+%o A008937 (MAGMA) [ n eq 1 select 0 else n eq 2 select 1 else n eq 3 select 2 else n eq 4 select 4 else 2*Self(n-1)-Self(n-4): n in [1..40] ]; // _Vincenzo Librandi_, Aug 21 2011
+%o A008937 (Haskell)
+%o A008937 a008937 n = a008937_list !! n
+%o A008937 a008937_list = tail $ scanl1 (+) a000073_list
+%o A008937 -- _Reinhard Zumkeller_, Apr 07 2012
+%o A008937 (PARI) {a(n) = if( n<0, polcoeff( - x^3 / (1 - 2*x^3 + x^4) + x * O(x^-n), -n), polcoeff( x / (1 - 2*x + x^4) + x * O(x^n), n))}; /* _Michael Somos_, Aug 23 2014 */
+%Y A008937 a(n) = A018921(n-2) = A027084(n+1)+1.
+%Y A008937 Equals (1/2) [A000073(n+2) + A000073(n+4) - 1].
+%Y A008937 Row sums of A055216.
+%Y A008937 Cf. A077908.
+%K A008937 nonn,easy
+%O A008937 0,3
+%A A008937 _N. J. A. Sloane_, Alejandro Teruel (teruel(AT)usb.ve)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010677
+Showing 1-1 of 1
+
+%I A010677
+%S A010677 0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,
+%T A010677 0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,0,6,
+%U A010677 0,6,0,6,0,6,0,6,0,6,0,6,0
+%N A010677 Period 2: repeat (0,6).
+%H A010677 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010677 a(n)=3*[1-(-1)^n] =6*(n mod 2) - _Paolo P. Lava_, Oct 20 2006
+%F A010677 G.f. 6x/((1-x)(1+x)). - R. J. Mathar, Nov 21 2011
+%K A010677 nonn
+%O A010677 0,2
+%A A010677 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

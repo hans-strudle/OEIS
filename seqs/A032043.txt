@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032043
+Showing 1-1 of 1
+
+%I A032043
+%S A032043 2,2,6,6,10,34,38,62,90,306,334,574,794,1226,3390,4014,6370,9130,
+%T A032043 13598,18470,48114,55290,88966,123238,184178,245714,358710,771990,
+%U A032043 937210,1427698,1992662,2882894,3895626,5533314,7318270,14935246
+%N A032043 "BFK" (reversible, size, unlabeled) transform of 2,2,2,2...
+%H A032043 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%Y A032043 a(n) = 1/2 * (A032005(n) + 2).
+%K A032043 nonn
+%O A032043 1,1
+%A A032043 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

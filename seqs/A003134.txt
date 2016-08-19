@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003134
+Showing 1-1 of 1
+
+%I A003134
+%S A003134 51840,2903040,696729600
+%N A003134 Orders of Weyl groups of type E_n.
+%D A003134 J. H. Conway, R. T. Curtis, S. P. Norton, R. A. Parker and R. A. Wilson, ATLAS of Finite Groups. Oxford Univ. Press, 1985.
+%D A003134 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 120.
+%D A003134 H. S. M. Coxeter and W. O. J. Moser, Generators and Relations for Discrete Groups, 4th ed., Springer-Verlag, NY, reprinted 1984.
+%o A003134 (MAGMA) [ #CoxeterGroup(Sprintf("E%o",n)) : n in [6..8]]; - from Sergei Haller (sergei(AT)sergei-haller.de), Dec 21 2006
+%K A003134 nonn,fini,full,bref
+%O A003134 6,1
+%A A003134 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

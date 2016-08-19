@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049340
+Showing 1-1 of 1
+
+%I A049340
+%S A049340 1,1,1,0,1,1,0,0,1,2,1,0,0,1,1,0,0,3,1,0,0,1,1,1,1,1,0,0,0,6,1,0,0,1,
+%T A049340 1,1,3,2,2,1,1,1,0,0,0,14,1,0,0,1,1,1,3,4,4,6,5,5,3,2,0,0,0,0,0,0,0,0,
+%U A049340 36,1,1,1,1,3,4,7,9,15,17,22,14,16,5,4,1,0,0,0,0,0,0,0,0,0,0
+%N A049340 Triangle T(n,k) = number of planar graphs with n >= 1 nodes and 0<=k<=C(n,2) edges, all degrees even.
+%e A049340 1; 1,1; 0,1,1,0; 0,1,2,1,0,0,1; 1,0,0,3,1,0,0,1,1,1; 1,1,0,0,0,6,1,0,0...
+%Y A049340 Cf. A049339, A000944, A021103, A003094, A049334.
+%K A049340 nonn,tabf,easy,nice
+%O A049340 1,10
+%A A049340 _Brendan McKay_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

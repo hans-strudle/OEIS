@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033583
+Showing 1-1 of 1
+
+%I A033583
+%S A033583 0,10,40,90,160,250,360,490,640,810,1000,1210,1440,1690,1960,2250,
+%T A033583 2560,2890,3240,3610,4000,4410,4840,5290,5760,6250,6760,7290,7840,
+%U A033583 8410,9000,9610,10240,10890,11560,12250,12960,13690,14440,15210,16000,16810
+%N A033583 a(n) = 10*n^2.
+%C A033583 Number of edges of a complete 5-partite graph of order 5n, K_n,n,n,n,n. - _Roberto E. Martinez II_, Oct 18 2001
+%C A033583 10 times the squares. [From _Omar E. Pol_, Dec 13 2008]
+%C A033583 Sequence found by reading the line from 0, in the direction 0, 10,..., in the square spiral whose vertices are the generalized heptagonal numbers A085787. - Omar E. Pol, Sep 10 2011
+%H A033583 Nathaniel Johnston, <a href="/A033583/b033583.txt">Table of n, a(n) for n = 0..10000</a>
+%F A033583 a(n) = A000290(n)*10 = A001105(n)*5 = A033429(n)*2. [_Omar E. Pol_, Dec 13 2008]
+%F A033583 a(n) = A158187(n) - 1. [_Reinhard Zumkeller_, Mar 13 2009]
+%F A033583 a(n) = 20*n+a(n-1)-10 (with a(0)=0) [_Vincenzo Librandi_, Aug 05 2010]
+%p A033583 seq(10*n^2,n=0..41); # Nathaniel Johnston, Jun 26 2011
+%t A033583 10*Range[0,50]^2  (* _Harvey P. Dale_, Apr 20 2011 *)
+%Y A033583 Cf. A033581, A000217, A000290, A033428.
+%Y A033583 Cf. A001105, A033429. [From _Omar E. Pol_, Dec 13 2008]
+%K A033583 nonn,easy
+%O A033583 0,2
+%A A033583 _N. J. A. Sloane_.
+%E A033583 More terms from Larry Reeves (larryr(AT)acm.org), Nov 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

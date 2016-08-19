@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031950
+Showing 1-1 of 1
+
+%I A031950
+%S A031950 5,7,8,9,10,11,13,14,15,16,17,19,20,21,22,23,25,26,30,32,33,34,36,37,
+%T A031950 41,43,46,49,50,52,56,57,60,61,63,64,67,68,72,74,75,78,81,83,87,88,90,
+%U A031950 91,92,94,98,99,100,104,106,109,112,114,118,119
+%N A031950 Numbers in which the number of distinct base 5 digits is 2.
+%t A031950 Select[Range[150],Length[Union[IntegerDigits[#,5]]]==2&]  (* _Harvey P. Dale_, Apr 13 2011 *)
+%K A031950 nonn,base
+%O A031950 1,1
+%A A031950 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

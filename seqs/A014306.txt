@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014306
+Showing 1-1 of 1
+
+%I A014306
+%S A014306 0,0,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A014306 1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,
+%U A014306 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%N A014306 a(n) = 0 if n of form m(m+1)(m+2)/6, otherwise 1.
+%C A014306 a(A145397(n))=1; a(A000292(n))=0; a(n)=1-A023533(n). [From _Reinhard Zumkeller_, Oct 14 2008]
+%H A014306 <a href="/index/Ch#char_fns">Index entries for characteristic functions</a>
+%K A014306 nonn
+%O A014306 0,1
+%A A014306 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

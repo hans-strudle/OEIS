@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043508
+Showing 1-1 of 1
+
+%I A043508
+%S A043508 4444,14444,24444,34444,40444,41444,42444,43444,44044,44144,44244,
+%T A043508 44344,44404,44414,44424,44434,44440,44441,44442,44443,44445,44446,
+%U A043508 44447,44448,44449,44454,44464,44474,44484,44494,44544
+%N A043508 Numbers n such that number of 4's in base 10 is 4.
+%t A043508 Select[Range[50000], DigitCount[#, 10, 4]==4&] (* _Vincenzo Librandi_, Jul 01 2015 *)
+%K A043508 nonn,base
+%O A043508 1,1
+%A A043508 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054688
+Showing 1-1 of 1
+
+%I A054688
+%S A054688 1,10,165,3876,118755,4496388,202927725,10639125640,635627275767,
+%T A054688 42634215112710,3172596834321200,259398433286078100,
+%U A054688 23116565732981832150,2230164446387219893320,2230164446387219893320
+%N A054688 Number of nonnegative integer n X n matrices with sum of elements equal to n; polynomial symmetric functions of matrix of order n.
+%D A054688 E. R. Cavalcanti and M. A. Spohn, On the applicability of mobility metrics for user movement pattern recognition in MANETs, in Proceeding MobiWac '13 Proceedings of the 11th ACM international symposium on Mobility management and wireless access, Pages 123-130, ACM New York, NY, USA 2013, ISBN: 978-1-4503-2355-0 doi:10.1145/2508222.2508228
+%F A054688 a(n)=C(n^2+n-1, n).
+%Y A054688 Cf. A007716, A001700.
+%K A054688 easy,nonn
+%O A054688 1,2
+%A A054688 _Vladeta Jovovic_, Apr 19 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

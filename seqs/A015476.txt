@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015476
+Showing 1-1 of 1
+
+%I A015476
+%S A015476 0,1,5,126,15755,9847001,30771893880,480810851722001,
+%T A015476 37563347821553222005,14673182743275038197425126,
+%U A015476 28658560045496622327167502440755,279868750444317625596488416061195472001,13665466330288975220888581437110387323801268880
+%N A015476 q-Fibonacci numbers for q=5.
+%H A015476 Vincenzo Librandi, <a href="/A015476/b015476.txt">Table of n, a(n) for n = 0..50</a>
+%F A015476 a(n) = 5^(n-1) a(n-1) + a(n-2).
+%t A015476 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*5^(n-1) + a[n-2]},  a, {n, 20}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%K A015476 nonn,easy
+%O A015476 0,3
+%A A015476 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

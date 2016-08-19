@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049131
+Showing 1-1 of 1
+
+%I A049131
+%S A049131 1,1,2,4,10,24,65,171,482,1338,3868,11110,32707,96137,287001,857577,
+%T A049131 2588794,7830730,23854028,72840384,223557060,687811608,2124300494,
+%U A049131 6576110024,20418808851,63534855143,198178318008,619338524116
+%N A049131 Revert transform of (1 + 2x - x^2)/(1 + 3x + 2x^2 + x^3).
+%H A049131 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%K A049131 nonn
+%O A049131 1,3
+%A A049131 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

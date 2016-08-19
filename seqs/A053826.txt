@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053826
+Showing 1-1 of 1
+
+%I A053826
+%S A053826 1,17,82,16,626,1394,2402,0,81,10642,14642,1312,28562,40834,
+%T A053826 51332,0,83522,1377,130322,10016,196964,248914,279842,0,625,
+%U A053826 485554,0,38432,707282,872644,923522,0,1200644,1419874,1503652,1296,1874162
+%V A053826 1,-17,-82,16,-626,1394,-2402,0,81,10642,-14642,-1312,-28562,40834,
+%W A053826 51332,0,-83522,-1377,-130322,-10016,196964,248914,-279842,0,625,
+%X A053826 485554,0,-38432,-707282,-872644,-923522,0,1200644,1419874,1503652,1296,-1874162
+%N A053826 Dirichlet inverse of sigma_4 function (A001159).
+%C A053826 sigma_4(n) is the sum of the 4th powers of the divisors of n (A001159).
+%D A053826 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 39.
+%F A053826 Dirichlet g.f.: 1/(zeta(x)zeta(x-4))
+%F A053826 Multiplicative with a(p^1) = -1-p^4, a(p^2) = p^4, a(p^e) = 0 for e>=3. _Mitch Harris_ Jun 27, 2005.
+%K A053826 sign,mult
+%O A053826 1,2
+%A A053826 _N. J. A. Sloane_, Apr 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

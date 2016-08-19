@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026702
+Showing 1-1 of 1
+
+%I A026702
+%S A026702 1,1,2,3,5,8,15,26,48,79,137,223,403,689,1251,2088,3647,6028,10775,
+%T A026702 18386,33010,55460,96916,161705,287199,490430,873964,1475256,2575673,
+%U A026702 4325448,7646036,13072664,23169478,39254755,68456542
+%N A026702 a(n) = Sum{T(n-k,k)}, 0<=k<=[ n/2 ], T given by A026692.
+%K A026702 nonn
+%O A026702 0,3
+%A A026702 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

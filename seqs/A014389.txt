@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014389
+Showing 1-1 of 1
+
+%I A014389
+%S A014389 1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014389 0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014389 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014389 1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014389 0,0,0,0,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014389 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014389 Inverse of 380th cyclotomic polynomial.
+%p A014389 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014389 sign
+%O A014389 0,1
+%A A014389 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

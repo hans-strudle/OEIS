@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033798
+Showing 1-1 of 1
+
+%I A033798
+%S A033798 1,1,0,2,1,0,2,0,0,2,2,0,1,2,1,2,2,1,2,4,0,2,2,2,3,1,1,0,4,0,2,4,2,2,
+%T A033798 2,0,2,4,0,4,3,2,4,4,2,8,4,0,6,6,1
+%N A033798 Product t2(q^d); d | 39, where t2 = theta2(q)/(2*q^(1/4)).
+%K A033798 nonn
+%O A033798 0,4
+%A A033798 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

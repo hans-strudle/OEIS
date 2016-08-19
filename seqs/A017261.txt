@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017261
+Showing 1-1 of 1
+
+%I A017261
+%S A017261 32768,1419857,11881376,52521875,164916224,418195493,916132832,
+%T A017261 1804229351,3276800000,5584059449,9039207968,14025517307,21003416576,
+%U A017261 30517578125,43204003424,59797108943,81136812032
+%N A017261 (9*n+8)^5.
+%H A017261 Vincenzo Librandi, <a href="/A017261/b017261.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017261 (MAGMA) [(9*n+8)^5: n in [0..20]]; // Vincenzo Librandi, Jul 28 2011
+%K A017261 nonn,easy
+%O A017261 0,1
+%A A017261 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

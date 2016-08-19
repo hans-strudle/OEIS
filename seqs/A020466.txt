@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020466
+Showing 1-1 of 1
+
+%I A020466
+%S A020466 449,499,4999,9949,44449,49499,49999,94949,94999,444449,994949,999499,
+%T A020466 4444949,4449449,4944949,4949449,4999949,4999999,9444949,9494999,
+%U A020466 9944449,9994499,44444999,44499449,44944499,44994949,49444949,49444999,49494499
+%N A020466 Primes that contain digits 4 and 9 only.
+%H A020466 Vincenzo Librandi, <a href="/A020466/b020466.txt">Table of n, a(n) for n = 1..1000</a>
+%t A020466 Flatten[Table[Select[FromDigits/@Tuples[{4,9},n],PrimeQ],{n,8}]] (* _Vincenzo Librandi_, Jul 27 2012 *)
+%K A020466 nonn,base
+%O A020466 1,1
+%A A020466 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

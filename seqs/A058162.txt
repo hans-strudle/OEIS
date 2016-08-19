@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058162
+Showing 1-1 of 1
+
+%I A058162
+%S A058162 1,1,1,4,6,60,120,1920,7560,90720,362880,13305600,39916800,1037836800,
+%T A058162 10897286400,265547224800,1307674368000,66691392768000,
+%U A058162 355687428096000,20274183401472000,231704953159680000
+%N A058162 Number of labeled Abelian groups with a fixed identity.
+%C A058162 The distinction here between labeled and unlabeled Abelian groups is analogous to the distinction between unlabeled rooted trees (A000081) and labeled rooted trees (A000169).
+%C A058162 That is, the number of Cayley tables. - _Artur Jasinski_, Mar 12 2008
+%C A058162 Number of Latin squares in dimension n with first row and first column 1,2,3 ..., n which are associative and commutative (Abelian). Each of these squares is isomorphic with the Cayley table of one of the existed Abelian group in dimension n. - _Artur Jasinski_, Nov 02 2005. Cf. A111341.
+%H A058162 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%e A058162 The 2 unlabeled Abelian groups of order 4 are C4 and C2^2. The 4 labeled Abelian groups whose identity is "0" consist of 3 of type C4 (where the nongenerator can be "2", "3", or "4") and 1 of type C2^2.
+%Y A058162 a(n)=A034382(n)/n. Cf. A000688, A058160, A058161, A058163.
+%K A058162 nonn
+%O A058162 1,4
+%A A058162 _Christian G. Bower_, Nov 15 2000, Mar 12 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

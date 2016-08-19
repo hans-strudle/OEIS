@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029847
+Showing 1-1 of 1
+
+%I A029847
+%S A029847 1,1,1,1,1,5,1,1,17,17,1,1,49,146,49,1,1,129,922,922,129,1,1,321,4887,
+%T A029847 11234,4887,321,1,1,769,23151,106439,106439,23151,769,1,1,1793,101488,
+%U A029847 856031,1679494,856031,101488,1793,1,1,4097,420512,6137832,21442606
+%N A029847 Triangle of coefficients of polynomials arising in connection with enumeration of intransitive trees by number of nodes and number of right nodes.
+%D A029847 A. Postnikov, Intransitive Trees, J. Combin. Theory Ser A 79 (1997), 360-366.
+%H A029847 A. Postnikov, <a href="http://www-math.mit.edu/~apost/papers/index.html">Home page</a>
+%Y A029847 Cf. A007889.
+%K A029847 nonn,tabl,easy
+%O A029847 0,6
+%A A029847 _N. J. A. Sloane_.
+%E A029847 More terms from Antonio G. Astudillo (afg_astudillo(AT)lycos.com), Mar 23 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

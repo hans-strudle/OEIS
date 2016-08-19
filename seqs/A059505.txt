@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059505
+Showing 1-1 of 1
+
+%I A059505
+%S A059505 2,5,14,40,114,323,910,2551,7120,19796,54852,151525,417434,1147145,
+%T A059505 3145394,8606848,23507190,64093031,174474790,474261691,1287398452,
+%U A059505 3490267820,9451319304,25565098825,69080289074
+%N A059505 Transform of A059502 applied to sequence 2,3,4,...
+%C A059505 The second row of the array A059503.
+%H A059505 <a href="/index/Bo#boustrophedon">Index entries for sequences related to boustrophedon transform</a>
+%F A059505 G.f.: x(-x^3+6x^2-7x+2)/(x^2-3x+1)^2.
+%Y A059505 Cf. A000667, A059216, A059219, A059502.
+%K A059505 easy,nonn
+%O A059505 1,1
+%A A059505 _Floor van Lamoen_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

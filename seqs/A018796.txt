@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018796
+Showing 1-1 of 1
+
+%I A018796
+%S A018796 1,25,36,4,529,64,729,81,9,100,1156,121,1369,144,1521,16,1764,1849,
+%T A018796 196,2025,2116,225,2304,2401,25,2601,2704,289,2916,3025,3136,324,3364,
+%U A018796 3481,35344,36,3721,3844,3969,400,41209,4225,4356,441,45369,4624,4761,484,49
+%N A018796 Smallest square that begins with n.
+%C A018796 If 4*(n+1) < 10^d then a(n) < (n+1)*10^d. - _Robert Israel_, Aug 01 2014
+%p A018796 a:= proc(n) local k,d,x;
+%p A018796   if issqr(n) then return n
+%p A018796   else for d from 1 do
+%p A018796     for k from 0 to 10^d-1 do
+%p A018796     x:= 10^d*n+k;
+%p A018796     if issqr(x) then return x fi
+%p A018796     od
+%p A018796     od
+%p A018796   fi
+%p A018796 end proc:
+%p A018796 seq(a(n),n=1..100); # _Robert Israel_, Jul 31 2014
+%o A018796 (Python)
+%o A018796 n = 1
+%o A018796 while n < 100:
+%o A018796 ..for k in range(10**3):
+%o A018796 ....if str(k**2).startswith(str(n)):
+%o A018796 ......print(k**2,end=', ')
+%o A018796 ......break
+%o A018796 ..n += 1 # _Derek Orr_, Jul 31 2014
+%K A018796 nonn,base,easy
+%O A018796 1,2
+%A A018796 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052337
+Showing 1-1 of 1
+
+%I A052337
+%S A052337 1,1,1,2,2,3,5,6,8,10,13,17,21,27,34,42,53,65,80,98,119,146,177,213,
+%T A052337 258,309,370,443,528,628,746,883,1044,1231,1449,1703,1997,2338,2734,
+%U A052337 3190,3718,4325,5025,5830,6754,7816,9032,10422,12016,13832,15907
+%N A052337 Number of partitions into at most a(1) copies of 1, a(2) copies of 2, ...
+%F A052337 E.g.f. satisfies A(x)=prod( (1-x^(a(i)*(i+1)))/(1-x^i), i=1..infinity ).
+%K A052337 nonn,eigen
+%O A052337 0,4
+%A A052337 _Christian G. Bower_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

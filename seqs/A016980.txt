@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016980
+Showing 1-1 of 1
+
+%I A016980
+%S A016980 244140625,3138428376721,582622237229761,21914624432020321,
+%T A016980 353814783205469041,3379220508056640625,22563490300366186081,
+%U A016980 116191483108948578241,491258904256726154641,1779197418239532716881
+%N A016980 (6n+5)^12.
+%H A016980 Vincenzo Librandi, <a href="/A016980/b016980.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016980 (MAGMA) [(6*n+5)^12: n in [0..40]]; // Vincenzo Librandi, May 19 2011
+%K A016980 nonn,easy
+%O A016980 0,1
+%A A016980 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054397
+Showing 1-1 of 1
+
+%I A054397
+%S A054397 8,12,18,20,27,50,52,68,98,116,125,135,148,164,171,212,242,244,273,
+%T A054397 292,297,333,338,343,356,388,399,404,436,452,459,548,578,596,621,628,
+%U A054397 651,657,692,722,724,741,772,777,783,788,825,855,875,916,932,964,981
+%N A054397 Numbers n such that there are precisely 5 groups of order n.
+%H A054397 H. U. Besche, B. Eick and E. A. O'Brien, <a href="http://www.icm.tu-bs.de/ag_algebra/software/small/">The Small Groups Library</a>
+%H A054397 Gordon Royle, <a href="http://units.maths.uwa.edu.au/~gordon/remote/cubcay/">Numbers of Small Groups</a>
+%H A054397 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%Y A054397 Cf. A000001, A003277, A054395, A054396, A055561, A054397, A135850.
+%K A054397 nonn
+%O A054397 1,1
+%A A054397 _N. J. A. Sloane_, May 21 2000
+%E A054397 More terms from _Christian G. Bower_, May 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

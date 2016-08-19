@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027052
+Showing 1-1 of 1
+
+%I A027052
+%S A027052 1,1,0,1,1,0,1,2,1,1,0,1,2,3,4,1,1,0,1,2,3,6,9,8,1,1,0,1,2,3,6,11,18,
+%T A027052 23,18,1,1,0,1,2,3,6,11,20,35,52,59,42,1,1,0,1,2,3,6,11,20,37,66,107,
+%U A027052 146,153,102,1,1,0,1,2,3,6,11,20,37,68,123,210
+%N A027052 Triangular array T read by rows: T(n,0)=T(n,2n)=1 for n >= 0, T(n,1)=0 for n >= 1, T(n,2)=1 for n >= 2 and for n >= 3, T(n,k)=T(n-1,k-3)+T(n-1, k-2)+T(n-1,k-1) for 3<=k<=2n-1. T(n,k)=0 for k<0 or k>2n.
+%C A027052 The following sequences all have the same parity: A004737, A006590, A027052, A071028, A071797, A078358, A078446. - _Jeremy Gardiner_, Mar 16 2003
+%F A027052 A001590(k+1) = T(n,k) if 0<=k<=n. - _Michael Somos_, Jun 01 2014
+%e A027052 Triangle T(n,k) for 0<=k<=2n:
+%e A027052 1
+%e A027052 1, 0, 1
+%e A027052 1, 0, 1, 2, 1
+%e A027052 1, 0, 1, 2, 3, 4, 1
+%e A027052 1, 0, 1, 2, 3, 6, 9, 8, 1
+%Y A027052 Cf. A001590, a tribonacci sequence.
+%Y A027052 Cf. A160999 (row sums), A005408 (row lengths).
+%K A027052 nonn,tabf
+%O A027052 0,8
+%A A027052 _Clark Kimberling_
+%E A027052 Offset and keyword:tabl corrected by _R. J. Mathar_, Jun 01 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

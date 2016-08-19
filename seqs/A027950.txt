@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027950
+Showing 1-1 of 1
+
+%I A027950
+%S A027950 1,6,63,344,1383,4685,14323,41119,113590,306605,816410,2157046,
+%T A027950 5674578,14893364,39040633,102273950,267839033,701315739,1836198205,
+%U A027950 4807389285,12586103720,32951083211,86267338468,225851160284,591286410708,1548008385490
+%N A027950 T(2n,n+2), T given by A027948.
+%H A027950 Colin Barker, <a href="/A027950/b027950.txt">Table of n, a(n) for n = 2..1000</a>
+%H A027950 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (8,-26,45,-45,26,-8,1).
+%F A027950 G.f.: x^2*(1-2*x+41*x^2-49*x^3+44*x^4-26*x^5+8*x^6-x^7)/((1-3*x+x^2)*(1-x)^5). - _Ralf Stephan_, Apr 24 2004
+%o A027950 (PARI) Vec(x^2*(x^7-8*x^6+26*x^5-44*x^4+49*x^3-41*x^2+2*x-1)/((x-1)^5*(x^2-3*x+1)) + O(x^100)) \\ _Colin Barker_, Nov 19 2014
+%Y A027950 Bisection of A053739.
+%K A027950 nonn,easy
+%O A027950 2,2
+%A A027950 _Clark Kimberling_
+%E A027950 More terms from _Colin Barker_, Nov 19 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

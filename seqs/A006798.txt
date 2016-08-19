@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006798
+Showing 1-1 of 1
+
+%I A006798 M3470
+%S A006798 1,1,4,13,58,279,1406,7525
+%N A006798 A subclass of 2n-node trivalent planar graphs without triangles.
+%D A006798 D. A. Holton and B. D. McKay, The smallest non-hamiltonian 3-connected cubic planar graphs have 38 vertices, J. Combinat. Theory, B 45 (1988), 305-319.
+%D A006798 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006798 P. Flajolet and R. Schott, <a href="http://algo.inria.fr/flajolet/Publications/publist.html">Non-overlapping Partitions, Continued Fractions, Bessel Functions and a Divergent Series</a> In European Journal of Combinatorics, Vol. 11, 1990, pp. 412-432.
+%K A006798 nonn
+%O A006798 8,3
+%A A006798 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

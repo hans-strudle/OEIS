@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027683
+Showing 1-1 of 1
+
+%I A027683
+%S A027683 1,7,34,743,25531,2406862,464483559,213256442503,215560806324388,
+%T A027683 498819827260367617,2590618817013278596997,30496896080418683388380966,
+%U A027683 809724336154415150287031740151,48609694845429192825410114233405807,6589876632329358971395398453738256596574,2018670118781080042934952855192359574137313799
+%N A027683 Number of independent subsets of n X n toroidal grid.
+%H A027683 V. Kotesovec, <a href="https://oeis.org/wiki/User:Vaclav_Kotesovec">Non-attacking chess pieces</a>, 6ed, 2013, p. 73, 405.
+%Y A027683 Cf. A006506 for flat version.
+%K A027683 nonn,nice,hard
+%O A027683 0,2
+%A A027683 _R. H. Hardin_
+%E A027683 Terms a(13)-a(15) from _Vaclav Kotesovec_, Dec 02 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

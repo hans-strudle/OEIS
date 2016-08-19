@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045600
+Showing 1-1 of 1
+
+%I A045600
+%S A045600 1,13,169,2197,28561,371293,2684903,4826809,34903739,62748517,
+%T A045600 257734633,453748607,815730721,3185696137,3350550229,5898731891,
+%U A045600 10604499373,41414049781,42655053961,43557152977,76683514583
+%N A045600 Numbers n such that n | 7^n + 6^n.
+%K A045600 nonn
+%O A045600 1,2
+%A A045600 _David W. Wilson_
+%E A045600 Complete up to 33000000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

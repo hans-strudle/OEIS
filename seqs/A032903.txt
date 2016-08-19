@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032903
+Showing 1-1 of 1
+
+%I A032903
+%S A032903 1,2,3,4,5,6,7,12,13,14,18,19,20,21,24,25,26,27,28,30,31,32,33,34,35,
+%T A032903 42,43,48,49,50,54,55,56,57,60,61,62,63,64,66,67,68,69,70,71,84,85,86,
+%U A032903 90,91,92,93,96,97,98,99,100,102,103,104,105,106
+%N A032903 Numbers n such that base 6 representation Sum{d(i)*6^i: i=0,1,...,m} has d(0)<=d(1)>=d(2)<=...
+%K A032903 nonn,base
+%O A032903 1,2
+%A A032903 _Clark Kimberling_. Corrected Jul 07 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025040
+Showing 1-1 of 1
+
+%I A025040
+%S A025040 1,6435,1577585295,4148378852099625,63805953776276649848625,
+%T A025040 4012852078114749147678149338875,
+%U A025040 814318942973348333484015877548157809375,450538787986875167583433232345723106006796340625
+%N A025040 Number of partitions of { 1, 2, ..., 8n } into sets of size 8.
+%F A025040 (8n)!/(n!(8!)^n). (_Christian G. Bower_, Sep 15 1998).
+%K A025040 nonn
+%O A025040 1,2
+%A A025040 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

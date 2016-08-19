@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050024
+Showing 1-1 of 1
+
+%I A050024
+%S A050024 1,1,1,2,3,4,5,8,13,14,15,18,23,36,51,74,125,126,127,130,135,148,163,
+%T A050024 186,237,362,489,624,787,1024,1513,2300,3813,3814,3815,3818,3823,3836,
+%U A050024 3851,3874,3925,4050,4177,4312,4475,4712,5201
+%N A050024 a(n) = a(n-1)+a(m), where m=2n-3-2^(p+1) and 2^p<n-1<=2^(p+1), for n >= 4.
+%H A050024 Ivan Neretin, <a href="/A050024/b050024.txt">Table of n, a(n) for n = 1..8193</a>
+%t A050024 Fold[Append[#1, #1[[-1]] + #1[[#2]]] &, {1, 1, 1}, Flatten@Table[2 k - 1, {n, 5}, {k, 2^n}]] (* _Ivan Neretin_, Sep 06 2015 *)
+%K A050024 nonn
+%O A050024 1,4
+%A A050024 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

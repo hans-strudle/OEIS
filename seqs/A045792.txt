@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045792
+Showing 1-1 of 1
+
+%I A045792
+%S A045792 81,841,8100,8281,8464,8649,8836,80089,80656,81225,81796,82369,82944,
+%T A045792 83521,84100,84641,85264,85849,86436,87025,87616,88209,88804,89401,
+%U A045792 801025,802816,804609,806404,808201,810000,811801,813604,815409,817216
+%N A045792 Squares with initial digit '8'.
+%F A045792 a[n]=ceil(sqrt(8*10^n))^2 - _Sascha Kurz_, Mar 18 2002
+%K A045792 nonn,base
+%O A045792 0,1
+%A A045792 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

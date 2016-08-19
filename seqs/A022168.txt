@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022168
+Showing 1-1 of 1
+
+%I A022168
+%S A022168 1,1,1,1,5,1,1,21,21,1,1,85,357,85,1,1,341,5797,5797,341,1,1,1365,
+%T A022168 93093,376805,93093,1365,1,1,5461,1490853,24208613,24208613,1490853,
+%U A022168 5461,1,1,21845,23859109,1550842085,6221613541
+%N A022168 Triangle of Gaussian binomial coefficients [ n,k ] for q = 4.
+%C A022168 The coefficients of the matrix inverse are apparently given by T^(-1)(n,k) = (-1)^n*A157784(n,k). - _R. J. Mathar_, Mar 12 2013
+%D A022168 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%D A022168 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%H A022168 T. D. Noe, <a href="/A022168/b022168.txt">Rows n=0..50 of triangle, flattened</a>
+%H A022168 R. Mestrovic, <a href="http://arxiv.org/abs/1409.3820">Lucas' theorem: its generalizations, extensions and applications (1878--2014)</a>, arXiv preprint arXiv:1409.3820, 2014
+%p A022168 A027637 := proc(n)
+%p A022168         mul( 4^i-1,i=1..n) ;
+%p A022168 end proc:
+%p A022168 A022168 := proc(n,m)
+%p A022168         A027637(n)/A027637(n-m)/A027637(m) ;
+%p A022168 end proc: # _R. J. Mathar_, Nov 14 2011
+%t A022168 gaussianBinom[n_, k_, q_] := Product[q^i - 1, {i, n}]/Product[q^j - 1, {j, n - k}]/Product[q^l - 1, {l, k}]; Column[Table[gaussianBinom[n, k, 4], {n, 0, 8}, {k, 0, n}], Center] (* _Alonso del Arte_, Nov 14 2011 *)
+%Y A022168 Cf. A006118 (row sums).
+%K A022168 nonn,tabl
+%O A022168 0,5
+%A A022168 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

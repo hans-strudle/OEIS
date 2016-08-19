@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033181
+Showing 1-1 of 1
+
+%I A033181
+%S A033181 1729,2465,15841,41041,46657,75361,162401,172081,399001,449065,488881,
+%T A033181 530881,656601,670033,838201,997633,1050985,1615681,1773289,1857241,
+%U A033181 2113921,2433601,2455921,2704801,3057601,3224065,3581761,3664585,3828001,4463641,4903921
+%N A033181 Absolute Euler pseudoprimes: composite n such that abs(a^((n-1)/2) mod n) = 1 for all a with (a,n) = 1.
+%C A033181 These numbers c have the property that for each prime divisor p, p-1 divides (c-1)/2. E.g., 2465 = 5*17*29; 1232/4 = 308; 1232/16 = 77; 1232/28 = 44. - _Karsten Meyer_, Nov 08 2005
+%C A033181 All these numbers are Carmichael numbers (A002997). - _Daniel Lignon_, Sep 12 2015
+%H A033181 Dana Jacobsen, <a href="/A033181/b033181.txt">Table of n, a(n) for n = 1..10000</a> (first 124 terms from Daniel Lignon)
+%H A033181 <a href="/index/Ps#pseudoprimes">Index entries for sequences related to pseudoprimes</a>
+%p A033181 filter:=  proc(n)
+%p A033181   local q;
+%p A033181   if isprime(n) then return false fi;
+%p A033181   if 2 &^ (n-1) mod n <> 1 then return false fi;
+%p A033181   if not numtheory:-issqrfree(n) then return false fi;
+%p A033181   for q in numtheory:-factorset(n) do
+%p A033181     if (n-1)/2 mod (q-1) <> 0 then return false fi
+%p A033181   od:
+%p A033181   true;
+%p A033181 end proc:
+%p A033181 select(filter, [seq(i,i=3..10^7,2)]); # _Robert Israel_, Nov 24 2015
+%t A033181 absEulerpspQ[n_Integer?PrimeQ]:=False;
+%t A033181 absEulerpspQ[n_Integer?EvenQ]:=False;
+%t A033181 absEulerpspQ[n_Integer?OddQ]:=Module[{a=2},
+%t A033181 While[a<n&&(GCD[a,n]!=1||!Unequal[PowerMod[a,(n-1)/2,n],1,n-1]),a++];
+%t A033181 (a==n)];
+%t A033181 Select[Range[1,1000000,2],absEulerpspQ] (* _Daniel Lignon_, Sep 09 2015 *)
+%o A033181 (Perl) use ntheory ":all"; my $n; foroddcomposites { say if is_carmichael($_) && vecall { (($n-1)>>1) % ($_-1) == 0 } factor($n=$_); } 1e6; # _Dana Jacobsen_, Dec 27 2015
+%Y A033181 Cf. A002997.
+%K A033181 nonn
+%O A033181 1,1
+%A A033181 _N. J. A. Sloane_, Dec 11 1999
+%E A033181 "Absolute Euler pseudoprimes" added to name by _Daniel Lignon_, Sep 09 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

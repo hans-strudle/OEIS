@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022414
+Showing 1-1 of 1
+
+%I A022414
+%S A022414 2,7,10,4,15,18,20,23,9,28,31,12,36,39,41,44,17,49,52,54,57,22,62,65,
+%T A022414 25,70,73
+%N A022414 Kim-sums: "Kimberling sums" K_n + K_3.
+%C A022414 Let W(i,j) denote the index of that row of the extended Wythoff array (see A035513) that contains the sequence formed by the sum of rows i and j. Then a(n) = W(2,n). - _N. J. A. Sloane_, Mar 07 2016
+%D A022414 J. H. Conway, Posting to Math Fun Mailing List, Dec 02 1996.
+%D A022414 M. LeBrun, Posting to Math Fun Mailing List Jan 10 1997.
+%H A022414 J. H. Conway, Allan Wechsler, Marc LeBrun, Dan Hoey, N. J. A. Sloane, <a href="/A269725/a269725.txt">On Kimberling Sums and Para-Fibonacci Sequences</a>, Correspondence and Postings to Math-Fun Mailing List, Nov 1996 to Jan 1997
+%F A022414 a(n) = 1 if n=0, otherwise a(n) = A000201(n)+n+3. - _N. J. A. Sloane_, Mar 07 2016
+%Y A022414 Cf. A000201, A035513.
+%Y A022414 The "Kim-sums" K_n + K_i for i = 2 through 12 are given in A022413, A022414, A022415, A022416, ..., A022423.
+%K A022414 nonn,easy,more
+%O A022414 0,1
+%A A022414 _Marc LeBrun_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

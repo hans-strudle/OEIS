@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002986
+Showing 1-1 of 1
+
+%I A002986 M2376
+%S A002986 1,3,4,12,27,84,247,826,2777,9868,35579,131847,495671,1893819,7320954,
+%T A002986 28619581,112923053,449343946,1801330288,7269849395,29517342098,
+%U A002986 120507480668,494449558111,2038073860257
+%N A002986 Number of non-cyclic hydrocarbons with n carbon atoms.
+%D A002986 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002986 Sean A. Irvine, <a href="/A002986/a002986.java.txt">A002986.java</a>
+%H A002986 Vesa Linja-aho, <a href="http://www.comlab.hut.fi/users/vesa/">Web site</a>
+%H A002986 R. C. Read, <a href="http://dx.doi.org/10.1007/BFb0067377">Some recent results in chemical enumeration</a>, Lect. Notes Math. 303 (1972), 243-259.
+%e A002986 a(3) = 4 because there are 4 non-cyclic structures that can be drawn with 3 carbons (propane, propene, propyne, and allene). - _David Consiglio, Jr._, May 15 2014
+%o A002986 (nauty/bash) geng -c -D4 ${n} $[${n}-1]:$[${n}-1] -q | multig -m3 -D4 -u
+%Y A002986 Cf. A000602 (restriction to alkanes).
+%K A002986 nonn,hard,more
+%O A002986 1,2
+%A A002986 _N. J. A. Sloane_, Apr 30 1991
+%E A002986 Better definition from _Sergio Pimentel_, Apr 28 2006
+%E A002986 a(11) (computed using Nauty) from Vesa Linja-aho (vesa.linja-aho(AT)tkk.fi), Apr 24 2008
+%E A002986 a(12)-a(13) (computed using Molgen 3.5) from _David Consiglio, Jr._, May 15 2014
+%E A002986 Existing terms verified and a(14)-a(16) from _Sean A. Irvine_, Dec 22 2014
+%E A002986 a(17)-a(19) from _Sean A. Irvine_, Dec 28 2014
+%E A002986 a(18)-a(19) corrected and a(20)-a(24) (computed using nauty) from _Sean A. Irvine_, Jan 02 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

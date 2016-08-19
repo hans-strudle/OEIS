@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039781
+Showing 1-1 of 1
+
+%I A039781
+%S A039781 55,174,183,341,407,1274,5424,6887,18903,22167,27559,53847,66711,
+%T A039781 68237,77957,78155,91524,132791,133574,138471,149435,191575,220759,
+%U A039781 274224,339024
+%N A039781 phi(a(n)) is equal to A008473[ a(n+1) ].
+%e A039781 phi(174)=56, 175=5^2*7^1, (5+2)*(7+1)=56.
+%Y A039781 Cf. A000010, A008473.
+%K A039781 nonn
+%O A039781 1,1
+%A A039781 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

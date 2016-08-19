@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060885
+Showing 1-1 of 1
+
+%I A060885
+%S A060885 1,11,2047,88573,1398101,12207031,72559411,329554457,1227133513,
+%T A060885 3922632451,11111111111,28531167061,67546215517,149346699503,
+%U A060885 311505013051,617839704241,1172812402961,2141993519227,3780494710543,6471681049901
+%N A060885 a(n) = n^10 + n^9 + n^8 + n^7 + n^6 + n^5 + n^4 + n^3 + n^2 + n + 1.
+%C A060885 a(n) = Phi_11(n), where Phi_k is the k-th cyclotomic polynomial.
+%H A060885 Harry J. Smith, <a href="/A060885/b060885.txt">Table of n, a(n) for n = 0..1000</a>
+%H A060885 <a href="/index/Cy#CyclotomicPolynomialsValuesAtX">Index to values of cyclotomic polynomials of integer argument</a>
+%H A060885 <a href="/index/Rec#order_11">Index entries for linear recurrences with constant coefficients</a>, signature (11, -55, 165, -330, 462, -462, 330, -165, 55, -11, 1).
+%F A060885 G.f.: -((1+x^2*(1981+x*(66496+x*(534898+x*(1364848+x*(1233970+ x*(389104+x*(36829+x*(672+x)))))))))/(x-1)^11). - _Harvey P. Dale_, Jun 19 2011
+%p A060885 A060885 := proc(n)
+%p A060885         numtheory[cyclotomic](11,n) ;
+%p A060885 end proc:
+%p A060885 seq(A060885(n),n=0..20) ; # _R. J. Mathar_, Feb 07 2014
+%t A060885 f[a_]:=a^0+a^1+a^2+a^3+a^4+a^5+a^6+a^7+a^8+a^9+a^10; lst={};Do[AppendTo[ lst,f[n]],{n,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jul 14 2009 *)
+%t A060885 Join[{1},Table[Total[n^Range[0,10]],{n,20}]] (* _Harvey P. Dale_, Jun 19 2011 *)
+%o A060885 (PARI) { for (n=0, 1000, write("b060885.txt", n, " ", n^10 + n^9 + n^8 + n^7 + n^6 + n^5 + n^4 + n^3 + n^2 + n + 1); ) } \\ _Harry J. Smith_, Jul 14 2009
+%o A060885 (PARI) a(n) = polcyclo(11, n); \\ _Michel Marcus_, Apr 06 2016
+%K A060885 nonn
+%O A060885 0,2
+%A A060885 _N. J. A. Sloane_, May 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

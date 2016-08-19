@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033477
+Showing 1-1 of 1
+
+%I A033477
+%S A033477 8,12,18,27,45,75,125,175,245,343,539,847,1331,1573,1859,2197,2873,
+%T A033477 3757,4913,5491,6137,6859,8303,10051,12167,15341,19343,24389,26071,
+%U A033477 27869,29791,35557,42439,50653,56129,62197,68921,72283,75809,79507,86903,94987,103823
+%N A033477 Products p^3 or p^2*q, where {p,q} are consecutive primes
+%t A033477 nn=50;With[{prs=Prime[Range[nn]]},Take[Union[Flatten[{prs^3,{#[[1]]^2 #[[2]],#[[2]]^2 #[[1]]}&/@Partition[prs,2,1]}]],nn]] (* _Harvey P. Dale_, Dec 28 2013 *)
+%K A033477 nonn
+%O A033477 0,1
+%A A033477 _Jeff Burch_
+%E A033477 Corrected and extended by _Harvey P. Dale_, Dec 28 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

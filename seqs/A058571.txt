@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058571
+Showing 1-1 of 1
+
+%I A058571
+%S A058571 1,3,3,7,18,21,30,57,75,104,156,207,293
+%N A058571 McKay-Thompson series of class 24A for Monster.
+%D A058571 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058571 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058571 T24A = 1/q + 3*q + 3*q^3 + 7*q^5 + 18*q^7 + 21*q^9 + 30*q^11 + 57*q^13 + ...
+%Y A058571 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058571 nonn,more
+%O A058571 0,2
+%A A058571 _N. J. A. Sloane_, Nov 27 2000
+%E A058571 Offset corrected - _N. J. A. Sloane_, Feb 17 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

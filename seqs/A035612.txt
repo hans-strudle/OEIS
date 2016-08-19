@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035612
+Showing 1-1 of 1
+
+%I A035612
+%S A035612 1,2,3,1,4,1,2,5,1,2,3,1,6,1,2,3,1,4,1,2,7,1,2,3,1,4,1,2,5,1,2,3,1,8,
+%T A035612 1,2,3,1,4,1,2,5,1,2,3,1,6,1,2,3,1,4,1,2,9,1,2,3,1,4,1,2,5,1,2,3,1,6,
+%U A035612 1,2,3,1,4,1,2,7,1,2,3,1,4,1,2,5,1,2,3,1,10,1,2,3,1,4,1,2,5,1,2
+%N A035612 Horizontal para-Fibonacci sequence: says which column of Wythoff array (starting column count at 1) contains n.
+%C A035612 Ordinal transform of A003603. Removing all 1's from this sequence and decrementing the remaining numbers generates the original sequence. - _Franklin T. Adams-Watters_, Aug 10 2012
+%C A035612 a(A022342(n)) > 1; a(A026274(n)+1) = 1. - _Reinhard Zumkeller_, Jul 20 2015
+%H A035612 Reinhard Zumkeller, <a href="/A035612/b035612.txt">Table of n, a(n) for n = 1..10000</a>
+%H A035612 Paul Curtz, <a href="/A035612/a035612.txt">Comments on A035612, Jan 25 2016</a>
+%H A035612 N. J. A. Sloane, <a href="http://neilsloane.com/doc/sg.txt">My favorite integer sequences</a>, in Sequences and their Applications (Proceedings of SETA '98).
+%H A035612 N. J. A. Sloane, <a href="/classic.html#WYTH">Classic Sequences</a>
+%F A035612 The segment between the first M and the first M+1 is given by the segment before the first M-1.
+%F A035612 a(n) = v2(A022340(n)), where v2(n) = A007814(n), the dyadic valuation of n. - _Ralf Stephan_, Jun 20 2004. In other words, a(n) = A007814(A003714(n)) + 1, which is certainly true - Don Reble, Nov 12 2005.
+%e A035612 After the first 6 we see "1 2 3 1 4 1 2" then 7.
+%t A035612 f[1] = {1}; f[2] = {1, 2}; f[n_] := f[n] = Join[f[n-1], Most[f[n-2]], {n}]; f[11](* _Jean-François Alcover_, Feb 22 2012 *)
+%o A035612 (Haskell)
+%o A035612 a035612 = a007814 . a022340
+%o A035612 -- _Reinhard Zumkeller_, Jul 20 2015, Mar 10 2013
+%Y A035612 Cf. A019586, A035513, A035614.
+%Y A035612 Cf. A000045.
+%Y A035612 Cf. A007814, A022340, A022342, A026274.
+%Y A035612 Cf. A000012, A000027, A001045, A001610, A003622, A023548, A035614, A255671, A268034.
+%K A035612 nonn,nice,easy
+%O A035612 1,2
+%A A035612 J. H. Conway, _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

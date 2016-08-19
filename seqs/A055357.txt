@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055357
+Showing 1-1 of 1
+
+%I A055357
+%S A055357 2,18,98,424,1614,5682,19022,61584,194882,607042,1870122,5716680,
+%T A055357 17379206,52628898,158934998,479032912,1441816986,4335412050,
+%U A055357 13027207250,39125661480,117469258622,352600713298,1058204792478
+%N A055357 Number of increasing mobiles (circular rooted trees) with n nodes and 3 leaves.
+%H A055357 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%H A055357 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (10,-40,82,-91,52,-12).
+%F A055357 G.f.: x^4(-2x^2-2*x+2)/[(1-3x)(1-2x)^2(1-x)^3].
+%Y A055357 Column 3 of A055356.
+%K A055357 nonn
+%O A055357 4,1
+%A A055357 _Christian G. Bower_, May 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

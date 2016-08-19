@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034945
+Showing 1-1 of 1
+
+%I A034945
+%S A034945 0,3,10,108,2166,4567,38181,155830,1802916,24862120,266983762,
+%T A034945 1961835256,5916488742,19757775943,116646786350,9611769806236,
+%U A034945 42844700375837,275475214363044,6789129606004840,75182500718243698
+%N A034945 Successive approximations to 7-adic integer sqrt(2).
+%D A034945 K. Mahler, Introduction to p-Adic Numbers and Their Functions, Cambridge, 1973, p. 35.
+%o A034945 (PARI) sqrt(2+O(7^40))
+%K A034945 nonn
+%O A034945 0,2
+%A A034945 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

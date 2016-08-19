@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048500
+Showing 1-1 of 1
+
+%I A048500
+%S A048500 1,2,11,43,135,375,967,2375,5639,13063,29703,66567,147463,323591,
+%T A048500 704519,1523719,3276807,7012359,14942215,31719431,67108871,141557767,
+%U A048500 297795591,624951303,1308622855,2734686215,5704253447,11878268935
+%N A048500 2^(n-1)*(7*n-12)+7.
+%H A048500 Vincenzo Librandi, <a href="/A048500/b048500.txt">Table of n, a(n) for n = 0..1000</a>
+%F A048500 a(0)=1, a(1)=2, a(2)=11, a(n)=5*a(n-1)-8*a(n-2)+4*a(n-3). - Harvey P. Dale and Vincenzo Librandi, Sep 23 2011
+%o A048500 (MAGMA) [2^(n-1)*(7*n-12)+7: n in [0..30]]; // Vincenzo Librandi, Sep 23 2011
+%Y A048500 a(n)=T(6, n), array T given by A048494.
+%K A048500 nonn,easy
+%O A048500 0,2
+%A A048500 _Clark Kimberling_
+%E A048500 Formula from _Ralf Stephan_, Jan 15 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

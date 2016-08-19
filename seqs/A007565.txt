@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007565
+Showing 1-1 of 1
+
+%I A007565 M5447
+%S A007565 1,362,130683,47046243,16889859363,6046709375131
+%N A007565 Number of Go games with n moves.
+%C A007565 No value up to a(5) in this sequence is prime. The semiprimes in the sequence begin: 362 = 2 * 181, 6046709375131 = 19 * 318247861849. [Jonathan Vos Post, Apr 02 2011]
+%D A007565 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007565 H. Taylor, personal communication.
+%D A007565 Cho, Chikun, Go: A Complete Introduction to the Game, Kiseido Publishers, Tokyo, 1997.
+%H A007565 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Go.html">Go</a>.
+%H A007565 Wikipedia, <a href="http://en.wikipedia.org/wiki/Go_%28game%29">Go</a>.
+%Y A007565 Cf. A048289.
+%K A007565 nonn,fini,nice,hard
+%O A007565 0,2
+%A A007565 _N. J. A. Sloane_.
+%E A007565 2 more terms from Arlin Anderson (starship1(AT)gmail.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

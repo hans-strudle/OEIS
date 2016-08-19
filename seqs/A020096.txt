@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020096
+Showing 1-1 of 1
+
+%I A020096
+%S A020096 1,1,2,5,17,78,449,3060,23920,210930,2070941,22403815,264772350,
+%T A020096 3393900116,46897528867,694936109572,10992625733215,184875978240421,
+%U A020096 3294153794102035,61989985034465560,1228528794319408361
+%N A020096 Ceiling of GAMMA(n+9/11)/GAMMA(9/11).
+%p A020096 Digits := 64:f := proc(n,x) ceil(GAMMA(n+x)/GAMMA(x)); end;
+%K A020096 nonn
+%O A020096 0,3
+%A A020096 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059852
+Showing 1-1 of 1
+
+%I A059852
+%S A059852 5,67,70,22,1,43,25,40,4,53,23,49,8,7,26,52,77,16,13,2,14,41,17,68,71,
+%T A059852 76
+%N A059852 Consider the English alphabet in the International Morse radio telegraph code. Map a 'dit' to the digit one and a 'dah' to the digit 2, then express that ternary number in decimal.
+%C A059852 F in Morse is .._. This becomes 1121 in ternary and 43 in decimal, so a(6) = 43.
+%D A059852 "Learning the Radiotelegraph Code," Seventh Edition, published by American Radio Relay League, West Hartford 7, Connecticut, 1955.
+%D A059852 "Morse Code Course," Jeppesen and Company, Denver, Colorado, 1962.
+%D A059852 "International Morse Code," prepared by Lt. Commander F.R.L. Tuthill, USNR and Lt. (J.G.) E.L. Battey, USNR, published by Insuline Corporation of America, Long Island City, NY.
+%K A059852 base,easy,fini,full,nonn,word
+%O A059852 1,1
+%A A059852 _Robert G. Wilson v_, Feb 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

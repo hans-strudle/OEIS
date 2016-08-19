@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016023
+Showing 1-1 of 1
+
+%I A016023
+%S A016023 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,
+%T A016023 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,
+%U A016023 1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0
+%V A016023 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,
+%W A016023 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,
+%X A016023 -1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0
+%N A016023 Inverse of 2014th cyclotomic polynomial.
+%p A016023 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016023 sign
+%O A016023 0,1
+%A A016023 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

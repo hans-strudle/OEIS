@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037433
+Showing 1-1 of 1
+
+%I A037433
+%S A037433 1,2,3,4,213,1003,1030,1420,1421,1422,1423,1424,2013,2130,2203,2243,
+%T A037433 2300,2301,2302,2303,2304,2311,2324,2413,2431,2443,3210,4021,4102,
+%U A037433 4112,4120,4121,4122,4123,4124,4331,4341,10003,10030,10031,10032
+%N A037433 Numbers n such that the set of base 5 digits of n equals the set of base 10 digits of n.
+%t A037433 Select[Range[11000],Union[IntegerDigits[#]]==Union[IntegerDigits[#,5]]&] (* _Harvey P. Dale_, Aug 16 2014 *)
+%K A037433 nonn,base
+%O A037433 1,2
+%A A037433 _Clark Kimberling_
+%E A037433 More terms from Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

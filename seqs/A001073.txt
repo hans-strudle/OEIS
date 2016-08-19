@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001073
+Showing 1-1 of 1
+
+%I A001073
+%S A001073 0,1,2,3,4,5,6,7,8,9,1,0,1,2,1,4,1,6,1,8,2,0,2,2,2,4,2,6,2,8,3,0,3,2,
+%T A001073 3,4,3,6,3,8,4,0,4,2,4,4,4,6,4,8,5,0,5,2,5,4,5,6,5,8,6,0,6,2,6,4,6,6,
+%U A001073 6,8,7,0,7,2,7,4,7,6,7,8,8,0,8,2,8,4,8,6,8,8,9,0,9,2,9,4,9,6,9,8,1,0,0,1,0,3
+%N A001073 Label a 1 cm ruler with digits 1 cm wide.
+%t A001073 nmax = 105; f[0] = 0; f[n_] := f[n] = f[n-1] + Length[IntegerDigits[f[n-1]]]; digits = Table[IntegerDigits[f[n]], {n, 0, nmax}] // Flatten; a[n_] := digits[[n+1]]; Table[a[n], {n, 0, nmax}] (* _Jean-François Alcover_, Nov 26 2013 *)
+%K A001073 nonn,base,nice
+%O A001073 0,3
+%A A001073 R. Lozyniak (11(AT)onna.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

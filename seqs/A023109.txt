@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023109
+Showing 1-1 of 1
+
+%I A023109
+%S A023109 0,10,19,59,69,166,79,188,193,1397,829,167,2069,1797,849,177,1496,739,
+%T A023109 1798,10777,6999,1297,869,187,89,10797,10853,10921,10971,13297,10548,
+%U A023109 13293,17793,20889,700269,106977,108933,80359,13697,10794,15891,1009227,1007619,1009246,1008628,600259,131996,70759,1007377,1001699,600279,141996,70269,10677,10833,10911
+%N A023109 Smallest number that requires exactly n iterations of Reverse and Add to reach a palindrome.
+%H A023109 Chai Wah Wu, <a href="/A023109/b023109.txt">Table of n, a(n) for n = 0..100</a>
+%H A023109 Jason Doucette, <a href="http://www.jasondoucette.com/worldrecords.html#Most">World Records</a>
+%H A023109 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/196-Algorithm.html">196-Algorithm.</a>
+%H A023109 <a href="/index/Res#RAA">Index entries for sequences related to Reverse and Add!</a>
+%o A023109 (PARI)
+%o A023109 rev(n)={d=digits(n);p="";for(i=1,#d,p=concat(Str(d[i]),p));return(eval(p))}
+%o A023109 a(n)=if(n==rev(n),return(0));for(k=1,10^3,i=n+rev(n);if(rev(i)==i,return(k));n=i)
+%o A023109 b(n)=for(k=1,10^8,if(a(k)==n,return(k)))
+%o A023109 n=0;while(n<100,print1(b(n),", ");n++) \\ _Derek Orr_, Jul 28 2014
+%o A023109 (Python)
+%o A023109 def A023109(n):
+%o A023109 ....if n > 0:
+%o A023109 ........k = 0
+%o A023109 ........while True:
+%o A023109 ............m = k
+%o A023109 ............for i in range(n):
+%o A023109 ................if str(m) == str(m)[::-1]:
+%o A023109 ....................break
+%o A023109 ................m += int(str(m)[::-1])
+%o A023109 ............else:
+%o A023109 ................if str(m) == str(m)[::-1]:
+%o A023109 ....................return k
+%o A023109 ............k += 1
+%o A023109 ....else:
+%o A023109 ........return 0
+%o A023109 # _Chai Wah Wu_, Feb 08 2015
+%Y A023109 Cf. A033665, A006960.
+%K A023109 nonn,base,nice
+%O A023109 0,2
+%A A023109 _David W. Wilson_
+%E A023109 Verified and added terms a(41)-a(55) by _Aldo González Lorenzo_, May 15 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058891
+Showing 1-1 of 1
+
+%I A058891
+%S A058891 1,2,8,128,32768,2147483648,9223372036854775808,
+%T A058891 170141183460469231731687303715884105728,
+%U A058891 57896044618658097711785492504343953926634992332820282019728792003956564819968
+%N A058891 a(n) = 2^(2^(n-1) - 1).
+%C A058891 For n>1 a(n) is the only solution >1 to core(x)^(n-1)=tau(x) where core(x) is the squarefree part of x and tau(x) the number of divisors of x. - _Benoit Cloitre_, Apr 18 2002
+%C A058891 a(n) is, for n>1, also the total number of possible outcomes of a knockout tournament starting with 2^(n-1) players, taking account of all matches in the tournament. - _Martin Griffiths_, Mar 26 2009
+%D A058891 F. Harary, Graph Theory, Page 209, Problem 16.11.
+%H A058891 Harry J. Smith, <a href="/A058891/b058891.txt">Table of n, a(n) for n = 1..12</a>
+%F A058891 a(n) = A053287(A000079(n-1)).
+%F A058891 a(1)=1, a(n+1) = 2*a(n)^2.
+%F A058891 a(1)=1, a(n+1) = 2^n*a(1)*a(2)*...*a(n). - _Benoit Cloitre_, Sep 13 2003
+%F A058891 a(n) = (-1/2)*((1 + sqrt(-3))^(2^n) + (1 - Sqrt(-3))^(2^n)). - _Artur Jasinski_, Oct 11 2008
+%F A058891 a(n) = 2*a(n-1)^2 is an example with a(1)=1 and k=2 of a(n)=k*a(n-1)^2; general explicit formula: a(n) = ((a(1)*k)^(2^(n-1)))/k. - Andreas Pfaffel (andreas.pfaffel(AT)gmx.at), Apr 27 2010
+%F A058891 a(n) = A077585(n-1) + 1. - _Maurizio De Leo_, Feb 25 2015
+%p A058891 a[1]:=1: for n from 2 to 20 do a[n]:=2*a[n-1]^2 od: seq(a[n], n=1..9); # _Zerinvary Lajos_, Apr 16 2009
+%t A058891 a = 1; b = -3; Table[Expand[(-1/2) ((a + Sqrt[b])^(2^n) + (a - Sqrt[b])^(2^n))], {n, 1, 10}] (* _Artur Jasinski_, Oct 11 2008 *)
+%o A058891 (PARI) { t=1; for (n = 1, 12, write("b058891.txt", n, " ", 2^(t-1)); t*=2; ) } \\ _Harry J. Smith_, Jun 23 2009
+%Y A058891 Cf. A077585.
+%K A058891 nonn,easy
+%O A058891 1,2
+%A A058891 _N. J. A. Sloane_, Jan 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

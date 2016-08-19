@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014936
+Showing 1-1 of 1
+
+%I A014936
+%S A014936 1,39,1122,28558,680163,15536757,344857924,7495831836,160347899205,
+%T A014936 3387224876995,70828953712806,1468712060491434,30241806008351527,
+%U A014936 618983574479950353,12604083861223212168,255502116339219984952
+%N A014936 a(1)=1, a(n)=n*19^(n-1)+a(n-1).
+%F A014936 a(n)=(1/324)*[1+19^n*(18*n-1)], with n>=0 [From _Paolo P. Lava_, Jan 13 2009]
+%t A014936 RecurrenceTable[{a[1]==1,a[n]==n*19^(n-1)+a[n-1]},a,{n,20}] (* _Harvey P. Dale_, Oct 01 2012 *)
+%K A014936 nonn,easy
+%O A014936 1,2
+%A A014936 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021576
+Showing 1-1 of 1
+
+%I A021576
+%S A021576 0,0,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,
+%T A021576 4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,
+%U A021576 1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1,7,4,8,2,5,1
+%N A021576 Decimal expansion of 1/572.
+%F A021576 a(n)=(1/30)*{39*(n mod 6)-11*[(n+1) mod 6]+24*[(n+2) mod 6]-21*[(n+3) mod 6]+29*[(n+4) mod 6]-6*[(n+5) mod 6]}-2*[C(2*n,n) mod 2]-5*{C[(n+1)^2,n+3] mod 2}, with n>=0 [From _Paolo P. Lava_, Nov 20 2009]
+%K A021576 nonn,cons
+%O A021576 0,4
+%A A021576 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

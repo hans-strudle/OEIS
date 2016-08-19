@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034876
+Showing 1-1 of 1
+
+%I A034876
+%S A034876 0,0,0,1,0,1,0,1,1,2,0,1,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,0,0,
+%T A034876 0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+%U A034876 0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+%N A034876 Number of ways to write n! as a product of smaller factorials each greater than 1.
+%C A034876 By definition, a(n)>0 if and only if n is a member of A034878. If n>2, then a(n!)>max(a(n),a(n!-1)), as (n!)!=n!*(n!-1)!. Similarly, a(A001013(n))>0 for n>2. Clearly a(n)=0 if n is a prime A000040. So a(n+1)=1 if n=2^p-1 is a Mersenne prime A000668, as (n+1)!=(2!)^p*n! and n is prime. - _Jonathan Sondow_, Dec 15 2004
+%D A034876 R. K. Guy, Unsolved Problems in Number Theory, B23.
+%H A034876 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>.
+%H A034876 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/FactorialProducts.html">Factorial Products</a>
+%e A034876 a(10)=2 because 10!=3!*5!*7!=6!*7! are the only two ways to write 10! as a product of smaller factorials > 1.
+%Y A034876 Cf. A034878, A001013, A075082.
+%K A034876 easy,nonn,nice
+%O A034876 1,10
+%A A034876 _Erich Friedman_
+%E A034876 Corrected by _Jonathan Sondow_, Dec 18 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

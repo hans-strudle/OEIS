@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025628
+Showing 1-1 of 1
+
+%I A025628
+%S A025628 1,6,9,36,54,81,216,324,486,729,1296,1944,2916,4374,6561,7776,11664,
+%T A025628 17496,26244,39366,46656,59049,69984,104976,157464,236196,279936,
+%U A025628 354294,419904,531441,629856,944784,1417176,1679616,2125764,2519424,3188646
+%N A025628 Numbers of form 6^i*9^j, with i, j >= 0.
+%K A025628 easy,nonn
+%O A025628 1,2
+%A A025628 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

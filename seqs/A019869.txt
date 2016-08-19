@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019869
+Showing 1-1 of 1
+
+%I A019869
+%S A019869 1,23,367,5075,65551,817643,10013527,121451315,1465540351,17637184763,
+%T A019869 211960186087,2545454874755,30557298487951,366759842503883,
+%U A019869 4401557777453047,52821361851453395,633872505937432351
+%N A019869 Expansion of 1/((1-5x)(1-6x)(1-12x)).
+%H A019869 Vincenzo Librandi, <a href="/A019869/b019869.txt">Table of n, a(n) for n = 0..200</a>
+%H A019869 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (23,-162,360).
+%F A019869 a(n) = 25*5^n/7 -6*6^n +24*12^n/7. - _R. J. Mathar_, Jun 29 2013
+%F A019869 a(0)=1, a(1)=23, a(2)=367; for n>2, a(n) = 23*a(n-1) -162*a(n-2) +360*a(n-3). - _Vincenzo Librandi_, Jul 03 2013
+%F A019869 a(n) = 18*a(n-1) -72*a(n-2) +5^n. - _Vincenzo Librandi_, Jul 03 2013
+%t A019869 CoefficientList[Series[1 / ((1 - 5 x) (1 - 6 x) (1 - 12 x)), {x, 0, 20}], x] (* _Vincenzo Librandi_, Jul 03 2013 *)
+%o A019869 (MAGMA) m:=20; R<x>:=PowerSeriesRing(Integers(), m); Coefficients(R!(1/((1-5*x)*(1-6*x)*(1-12*x)))); /* or */ I:=[1, 23, 367]; [n le 3 select I[n] else 23*Self(n-1)-162*Self(n-2)+360*Self(n-3): n in [1..20]]; // _Vincenzo Librandi_, Jul 03 2013
+%K A019869 nonn,easy
+%O A019869 0,2
+%A A019869 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

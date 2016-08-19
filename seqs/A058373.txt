@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058373
+Showing 1-1 of 1
+
+%I A058373
+%S A058373 0,0,1,1,2,10,25,49,84,132,195,275,374,494,637,805,1000,1224,1479,
+%T A058373 1767,2090,2450,2849,3289,3772,4300,4875,5499,6174,6902,7685,8525,
+%U A058373 9424,10384,11407,12495,13650,14874,16169,17537,18980,20500,22099
+%V A058373 0,0,-1,-1,2,10,25,49,84,132,195,275,374,494,637,805,1000,1224,1479,
+%W A058373 1767,2090,2450,2849,3289,3772,4300,4875,5499,6174,6902,7685,8525,
+%X A058373 9424,10384,11407,12495,13650,14874,16169,17537,18980,20500,22099
+%N A058373 (1/6)*(2*n - 3)*(n + 2)*(n + 1).
+%C A058373 For n>=0, real parts of sum_(k=0)^n (k+i)^2, where i=sqrt(-1). [_Bruno Berselli_, Jan 24 2014]
+%F A058373 a(n) = 2*C(n,3)-C(n,2), n>=0. - _Zerinvary Lajos_, Nov 25 2006
+%p A058373 [seq(2*binomial(n,3)-binomial(n,2),n=0..42)]; - _Zerinvary Lajos_, Nov 25 2006
+%p A058373 a:=n->sum((j-2)*j,j=0..n): seq(a(n),n=-1..41); - _Zerinvary Lajos_, Dec 02 2006
+%p A058373 seq(add (k^2-n, k =0..n), n=-1..41 ); - _Zerinvary Lajos_, Aug 26 2007
+%t A058373 s=0;lst={0, s};Do[s+=n^2-1;AppendTo[lst, s], {n, 0, 6!, 1}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 07 2008 *)
+%t A058373 Table[Sum[i^2 - 2*i, {i, 0, n}], {n, -1, 41}] (* _Zerinvary Lajos_, Jul 10 2009 *)
+%Y A058373 Cf. A236377: real part of sum_(k=0)^n (k + i^k)^2, i=sqrt(-1). [_Bruno Berselli_, Jan 25 2014]
+%K A058373 sign,easy
+%O A058373 -2,5
+%A A058373 _N. J. A. Sloane_, Dec 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

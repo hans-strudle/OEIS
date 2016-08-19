@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039990
+Showing 1-1 of 1
+
+%I A039990
+%S A039990 111,122,212,221,1111,1222,2122,2212,2221,11111,12222,21222,22122,
+%T A039990 22212,22221,111111,122221,212222,221222,222122,222212
+%N A039990 k th digit of a(n) is the number of different digits within 4 of k (not including k).
+%K A039990 base,easy,nonn
+%O A039990 0,1
+%A A039990 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

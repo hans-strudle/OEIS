@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057169
+Showing 1-1 of 1
+
+%I A057169
+%S A057169 10,20,30,40,50,60,70,80,90,100,101,102,103,104,105,106,107,108,109,
+%T A057169 200,102,202,203,204,205,206,207,208,209,300,103,203,303,304,305,306,
+%U A057169 307,308,309,400,104,204,304,404,405,406,407,408,409,500,105
+%N A057169 Next larger integer with same nonzero decimal digits as n.
+%Y A057169 Decimal analog of A057168. Cf. A004185.
+%K A057169 nonn,easy,base
+%O A057169 1,1
+%A A057169 _N. J. A. Sloane_, Sep 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022323
+Showing 1-1 of 1
+
+%I A022323
+%S A022323 1,9,11,21,33,55,89,145,235,381,617,999,1617,2617,4235,6853,11089,
+%T A022323 17943,29033,46977,76011,122989,199001,321991,520993,842985,1363979,
+%U A022323 2206965,3570945,5777911,9348857
+%N A022323 a(n)=a(n-1)+a(n-2)+1.
+%H A022323 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-1).
+%F A022323 G.f. ( 1+7*x-7*x^2 ) / ( (x-1)*(x^2+x-1) ). a(n) = A022367(n)-1. - R. J. Mathar, Apr 07 2011
+%K A022323 nonn
+%O A022323 0,2
+%A A022323 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

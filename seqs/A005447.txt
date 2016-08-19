@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005447
+Showing 1-1 of 1
+
+%I A005447 M5399
+%S A005447 1,1,1,1,1,1,1,139,1,571,281,163879,5221,5246819,5459,534703531,
+%T A005447 91207079,4483131259,2650986803,432261921612371,6171801683,
+%U A005447 6232523202521089,4283933145517,25834629665134204969,11963983648109
+%V A005447 1,1,1,1,-1,1,1,-139,1,-571,-281,163879,-5221,5246819,5459,-534703531,
+%W A005447 91207079,-4483131259,-2650986803,432261921612371,-6171801683,
+%X A005447 6232523202521089,4283933145517,-25834629665134204969,11963983648109
+%N A005447 Numerators of expansion of -W_{-1}(-e^{-1-x^2/2}) where W_{-1} is Lambert W function.
+%D A005447 J. M. Borwein and R. M. Corless, Emerging Tools for Experimental Mathematics, Amer. Math. Monthly, 106 (No. 10, 1999), 889-909.
+%D A005447 E. T. Copson, An Introduction to the Theory of Functions of a Complex Variable, 1935, Oxford University Press, p. 221.
+%D A005447 G. Marsaglia and J. C. W. Marsaglia, A new derivation of Stirling's approximation to n!, Amer. Math. Monthly, 97 (1990), 827-829.
+%D A005447 J. C. W. Marsaglia, The incomplete gamma function and Ramanujan's rational approximation to exp(x), J. Statist. Comput. Simulation, 24 (1986), 163-168. [From _N. J. A. Sloane_, Jun 23 2011]
+%D A005447 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005447 Vincenzo Librandi, <a href="/A005447/b005447.txt">Table of n, a(n) for n = 0..100</a>
+%F A005447 G.f.: A(x)=Sum_{n>=0} A005447(n)/A005446(n)x^n satisfies log(A(x))=A(x)-1-x^2/2.
+%e A005447 1, 1/3, 1/36, -1/270, 1/4320, 1/17010, -139/5443200, 1/204120, -571/2351462400, ...
+%p A005447 h := proc(k) option remember; local j; `if`(k<=0,1,(h(k-1)/k-add((h(k-j)*h(j))/(j+1),j=1..k-1))/(1+1/(k+1))) end:
+%p A005447 A005447 := n -> `if`(n<4,1,`if`(n=4,-1,numer(h(n-1))));
+%p A005447 seq(A005447(i),i=0..24); # Peter Luschny, Feb 08 2011
+%p A005447 Maple program from _N. J. A. Sloane_, Jun 23 2011, based on J. Marsaglia's 1986 paper:
+%p A005447 a[1]:=1;
+%p A005447 M:=25;
+%p A005447 for n from 2 to M do
+%p A005447 t1:=a[n-1]/(n+1)-add(a[k]*a[n+1-k],k=2..floor(n/2));
+%p A005447 if n mod 2 = 1 then t1:=t1-a[(n+1)/2]^2/2; fi;
+%p A005447 a[n]:=t1;
+%p A005447 od:
+%p A005447 s1:=[seq(a[n],n=1..M)];
+%t A005447 $Assumptions = x<0; Series[-ProductLog[-Exp[-1-x^2/2]], {x, 0, 24}] // CoefficientList[#, x]& // Numerator (* _Jean-François Alcover_, Jun 20 2013 *)
+%o A005447 (PARI) a(n)=local(A); if(n<1,n==0,A=vector(n,k,1); for(k=2,n,A[k]=(A[k-1]-sum(i=2,k-1,i*A[i]*A[k+1-i]))/(k+1)); numerator(A[n])) /* _Michael Somos_, Jun 09 2004 */
+%o A005447 (PARI) a(n)=if(n<1,n==0,numerator(polcoeff(serreverse(sqrt(2*(x-log(1+x+x^2*O(x^n))))),n))) /* _Michael Somos_, Jun 09 2004 */
+%Y A005447 Cf. A005446 (denominators), A090804/A065973.
+%K A005447 sign,frac
+%O A005447 0,8
+%A A005447 _N. J. A. Sloane_
+%E A005447 Edited by _Michael Somos_, Jul 21 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

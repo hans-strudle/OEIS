@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025580
+Showing 1-1 of 1
+
+%I A025580
+%S A025580 1,0,1,5,13,1,41,383,901,47,1945,26141,29368,6359,296509,345525,
+%T A025580 756291,197211,10483329,225371001,242537898,3394965,204481239,
+%U A025580 5215763433
+%V A025580 1,0,1,5,13,-1,41,383,901,-47,1945,26141,29368,-6359,296509,345525,
+%W A025580 756291,-197211,10483329,225371001,242537898,-3394965,204481239,
+%X A025580 5215763433
+%N A025580 a(n) = (1/1 - 1/(n-1) + ... + d/binomial(n-[ n/2 ],[ n/2 ]))*L, where L = LCM{1, n-1, ..., binomial(n-[ n/2 ],[ n/2 ])}, d = (-1)^n.
+%K A025580 sign
+%O A025580 0,4
+%A A025580 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030782
+Showing 1-1 of 1
+
+%I A030782
+%S A030782 1,8,13,20,22,29,31,42,55,70,87,106,126,148,172,199,229,264,302,343,
+%T A030782 387,433,482,534,592,653,716,783
+%N A030782 n-th number k such that s(k)>s(j) for j=1,2,...,k-1, where s=A030777 (with s(0)=0).
+%K A030782 nonn
+%O A030782 1,2
+%A A030782 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

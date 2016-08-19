@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056878
+Showing 1-1 of 1
+
+%I A056878
+%S A056878 0,0,0,0,0,0,1,1,0,1,2,3,3,5,6,14,9,20,20,56,32,80,64,224,114,315,217,
+%T A056878 863
+%N A056878 Number of polyominoes with n cells, symmetric about diagonal 2.
+%D A056878 D. H. Redelmeier, Counting polyominoes: yet another attack, Discrete Math., 36 (1981), 191-203.
+%H A056878 Tomás Oliveira e Silva, <a href="http://sweet.ua.pt/tos/animals.html">Enumeration of polyominoes</a>
+%H A056878 D. H. Redelmeier, <a href="/A056877/a056877.png">Table 3</a> of Counting polyominoes...
+%Y A056878 Cf. A000105, A001168, A006746, A056877, A006748, A056878, A006747, A006749.
+%Y A056878 Sequences classifying polyominoes by symmetry group: A000105, A006746, A006747, A006748, A006749, A056877, A056878, A142886, A144553, A144554.
+%K A056878 nonn,more
+%O A056878 1,11
+%A A056878 _N. J. A. Sloane_, Sep 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

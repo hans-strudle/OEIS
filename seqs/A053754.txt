@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053754
+Showing 1-1 of 1
+
+%I A053754
+%S A053754 0,2,3,8,9,10,11,12,13,14,15,32,33,34,35,36,37,38,39,40,41,42,43,44,
+%T A053754 45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,128,129,130,
+%U A053754 131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148
+%N A053754 If n is in the sequence then 2n and 2n+1 are not (and 0 is in the sequence); when written in binary n has an even number of digits (0 has 0 digits).
+%C A053754 Runs of successive digits have length twice powers of 4
+%C A053754 A031443 is a subsequence; A179888 is the intersection of this sequence and A032925. - _Reinhard Zumkeller_, Jul 31 2010
+%H A053754 R. Zumkeller, <a href="/A053754/b053754.txt">Table of n, a(n) for n = 1..10001</a>
+%o A053754 (Haskell)
+%o A053754 a053754 n = a053754_list !! (n-1)
+%o A053754 a053754_list = 0 : filter (even . a070939) [1..]
+%o A053754 -- _Reinhard Zumkeller_, Apr 18 2015
+%Y A053754 Cf. A029837.
+%Y A053754 Cf. A070939.
+%K A053754 base,easy,nonn
+%O A053754 1,2
+%A A053754 _Henry Bottomley_, Apr 06 2000
+%E A053754 Offset corrected by _Reinhard Zumkeller_, Jul 30 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057837
+Showing 1-1 of 1
+
+%I A057837
+%S A057837 1,0,0,0,1,1,1,1,36,127,337,793,7525,48764,238954,997790,6401435,
+%T A057837 49107697,345482807,2150694855,14656830110,116678887407,978172378669,
+%U A057837 7886661080873,63905475745765,553437891603452,5122279358273976
+%N A057837 Number of partitions of a set of n elements where the partitions are of size >3.
+%D A057837 E. A. Enneking and J. C. Ahuja, Generalized Bell numbers, Fib. Quart.,14(1976), 67-73.
+%H A057837 Alois P. Heinz, <a href="/A057837/b057837.txt">Table of n, a(n) for n = 0..250</a>
+%H A057837 I. Mezo, <a href="http://arxiv.org/abs/1308.1637">Periodicity of the last digits of some combinatorial sequences</a>, arXiv preprint arXiv:1308.1637, 2013
+%F A057837 E.g.f.: exp(exp(x)-1-x-x^2/2-x^3/6).
+%p A057837 G:={P=Set(Set(Atom,card>=4))}:combstruct[gfsolve](G,unlabeled,x):seq(combstruct[count]([P,G,labeled],size=i),i=0..26); # _Zerinvary Lajos_, Dec 16 2007
+%t A057837 With[{nn=30},CoefficientList[Series[Exp[Exp[x]-1-x-x^2/2-x^3/6],{x,0,nn}], x]Range[0,nn]!] (* _Harvey P. Dale_, Jun 28 2012 *)
+%Y A057837 Cf. A000110, A000296, A006505, A057814.
+%K A057837 easy,nice,nonn
+%O A057837 0,9
+%A A057837 Steven C. Fairgrieve (fsteven(AT)math.wvu.edu), Nov 06 2000
+%E A057837 Corrected and extended by _Christian G. Bower_ and _James A. Sellers_, Nov 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

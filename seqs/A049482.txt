@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049482
+Showing 1-1 of 1
+
+%I A049482
+%S A049482 13,17,19,23,29,31,41,47,53,59,61,67,71,73,83,97,101,103,107,127,137,
+%T A049482 139,149,157,163,173,179,191,199,211,223,229,233,239,251,257,269,277,
+%U A049482 281,293,311,313,331,337,347,353,359,367,383,389,397,409,421,431,433
+%N A049482 Both p and p+Q(4) are primes, where Q(4)=210 is the 4th primorial number (A002110(4)).
+%C A049482 p and p+210 are not necessarily consecutive primes.
+%e A049482 Both 13 and 13 + 2*3*5*7 = 223 are prime.
+%t A049482 lst={};Do[p=Prime[n];If[PrimeQ[p+210],AppendTo[lst,p]],{n,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 04 2009 *)
+%Y A049482 Cf. A045320, A001359, A023201, A049481.
+%K A049482 nonn
+%O A049482 1,1
+%A A049482 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

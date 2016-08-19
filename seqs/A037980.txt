@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037980
+Showing 1-1 of 1
+
+%I A037980
+%S A037980 0,1,4,109,800,19501,168952,3979830,37566720,862687045,8615396504,
+%T A037980 193710517650,2015475061184,44516469004294,478043160040240,
+%U A037980 10399216983867484,114539008771344384,2459029841101222485
+%N A037980 ( binomial(4*n,2*n)/4-(-1)^n*binomial(2*n,n)/4+(1-(-1)^n)*binomial(2*n,n)^2/4 )/4.
+%D A037980 The right-hand side of a binomial coefficient identity in H. W. Gould, Combinatorial Identities, Morgantown, 1972.
+%p A037980 A037980 := proc(n)
+%p A037980     binomial(4*n,2*n) -(-1)^n*binomial(2*n,n)+(1-(-1)^n)*binomial(2*n,n)^2 ;
+%p A037980     %/16 ;
+%p A037980 end proc: # _R. J. Mathar_, Oct 20 2015
+%K A037980 nonn
+%O A037980 0,3
+%A A037980 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

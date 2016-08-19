@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044523
+Showing 1-1 of 1
+
+%I A044523
+%S A044523 53,102,151,200,249,298,347,377,396,445,494,543,592,641,690,720,739,
+%T A044523 788,837,886,935,984,1033,1063,1082,1131,1180,1229,1278,1327,1376,
+%U A044523 1406,1425,1474,1523,1572,1621,1670,1719,1749,1768,1817
+%N A044523 Numbers n such that string 0,4 occurs in the base 7 representation of n but not of n+1.
+%K A044523 nonn,base
+%O A044523 1,1
+%A A044523 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

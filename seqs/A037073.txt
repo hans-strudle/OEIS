@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037073
+Showing 1-1 of 1
+
+%I A037073
+%S A037073 1,2,7,8,12,14,15,29,34,44,51,62,68,76,79,91,99,100,107,125,142,147,
+%T A037073 156,162,163,173,190,202,212,231,245,252,253,264,295,306,317,330,331,
+%U A037073 355,366,376,377,386,397,442,448,453,462,469,481,491,498,502,516,547
+%N A037073 (6n)^2 is the sum of a twin prime pair.
+%H A037073 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=TwinPrime">Twin primes</a>
+%e A037073 E.g. n=44 -> (6*44)^2 = 69696 = 34847 + 34849 (twin prime pair)
+%t A037073 Select[Sqrt[Plus@@@Select[Partition[Prime[Range[4*10^5]],2,1],Differences[#]=={2} &]/36],IntegerQ] (* _Jayanta Basu_, May 26 2013 *)
+%Y A037073 Cf. A000290, A001359, A006512.
+%Y A037073 A152786 = 6*A037073. - Zak Seidov, Aug 20 2010
+%K A037073 nonn
+%O A037073 1,2
+%A A037073 _G. L. Honaker, Jr._
+%E A037073 More terms from _Jud McCranie_, Dec 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

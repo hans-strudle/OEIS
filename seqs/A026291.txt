@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026291
+Showing 1-1 of 1
+
+%I A026291
+%S A026291 2,14,79,446,2530,14442,82913,478384,2771900,16119808,94038087,
+%T A026291 550083340,3225409094,18951732050,111562247565,657813211278,
+%U A026291 3884461464740,22968812720476,135978792939818
+%N A026291 a(n) = T(2n-1,n), where T is the array in A026268.
+%K A026291 nonn
+%O A026291 2,1
+%A A026291 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

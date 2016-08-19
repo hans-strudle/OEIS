@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007014
+Showing 1-1 of 1
+
+%I A007014 M1546
+%S A007014 2,5,29,199,2309,30029,510481,9699667,223092827,6469693189,
+%T A007014 200560490057,7420738134751,304250263527209,13082761331669941
+%N A007014 Largest prime <= Product p(k).
+%D A007014 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%o A007014 (PARI) lista(n) = {prd = 1; for (i=1, n, prd *= prime(i); print1(precprime(prd), ", "););} \\ _Michel Marcus_, Jun 17 2013
+%o A007014 (PARI) a(n)=precprime(prod(i=1,n,prime(i))) \\ _Charles R Greathouse IV_, Jun 17 2013
+%K A007014 nonn
+%O A007014 1,1
+%A A007014 _N. J. A. Sloane_, _Mira Bernstein_, _Robert G. Wilson v_
+%E A007014 Corrected by _Jud McCranie_, Jan 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

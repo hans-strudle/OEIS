@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053111
+Showing 1-1 of 1
+
+%I A053111
+%S A053111 1,36,960,21120,405504,7028736,112459776,1686896640,23991418880,
+%T A053111 326283296768,4271344975872,54103703027712,665891729571840,
+%U A053111 7990700754862080,93757555523715072,1078211888522723328
+%N A053111 Expansion of (-1+1/(1-8*x)^8)/(64*x); related to A053107.
+%F A053111 a(n) = 8^(n-1)*binomial(n+8, 7); G.f. (-1+(1-8*x)^(-8))/(x*8^2).
+%Y A053111 A053107, A053110-A053113.
+%K A053111 easy,nonn
+%O A053111 0,2
+%A A053111 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

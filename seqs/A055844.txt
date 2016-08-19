@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055844
+Showing 1-1 of 1
+
+%I A055844
+%S A055844 1,14,95,440,1595,4862,13013,31460,70070,145860,286858,537472,965770,
+%T A055844 1673140,2806870,4576264,7272991,11296450,17185025,25654200,37642605,
+%U A055844 54367170,77388675,108689100,150762300,206719656,280412484,376573120
+%N A055844 A second-order recursive sequence.
+%D A055844 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A055844 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (10,-45,120,-210,252,-210,120,-45,10,-1).
+%F A055844 a(n) = (5n+9)*C(n+8, 8)/9.
+%F A055844 G.f.: (1+4x)/(1-x)^10.
+%Y A055844 Cf. A052255.
+%Y A055844 Cf. A093562 ((5, 1) Pascal, column m=9).
+%K A055844 easy,nonn
+%O A055844 0,2
+%A A055844 _Barry E. Williams_, May 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

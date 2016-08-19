@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013768
+Showing 1-1 of 1
+
+%I A013768
+%S A013768 21,194481,1801088541,16679880978201,154472377739119461,
+%T A013768 1430568690241985328321,13248496640331026125580781,
+%U A013768 122694327386105632949003612841,1136272165922724266740722458520501,10523016528610349434285830688358359761
+%N A013768 21^(3n+1).
+%H A013768 Vincenzo Librandi, <a href="/A013768/b013768.txt">Table of n, a(n) for n = 0..200</a>
+%H A013768 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013768 (MAGMA) [21^(3*n+1): n in [0..10]]; // Vincenzo Librandi, Jun 27 2011
+%K A013768 nonn,easy
+%O A013768 0,1
+%A A013768 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

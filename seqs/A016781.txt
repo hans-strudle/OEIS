@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016781
+Showing 1-1 of 1
+
+%I A016781
+%S A016781 1,1024,16807,100000,371293,1048576,2476099,5153632,9765625,17210368,
+%T A016781 28629151,45435424,69343957,102400000,147008443,205962976,282475249,
+%U A016781 380204032,503284375,656356768,844596301
+%N A016781 (3*n+1)^5.
+%H A016781 Vincenzo Librandi, <a href="/A016781/b016781.txt">Table of n, a(n) for n = 0..10000</a>
+%H A016781 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A016781 a(0)=1, a(1)=1024, a(2)=16807, a(3)=100000, a(4)=371293, a(5)=1048576, a(n)=6*a(n-1)-15*a(n-2)+20*a(n-3)-15*a(n-4)+6*a(n-5)-a(n-6) [From Harvey P. Dale, May 13 2012]
+%t A016781 (3Range[0,20]+1)^5 (* or *) LinearRecurrence[{6,-15,20,-15,6,-1},{1,1024,16807,100000,371293,1048576},30] (* _Harvey P. Dale_, May 13 2012 *)
+%o A016781 (MAGMA) [(3*n+1)^5: n in [0..30]]; // Vincenzo Librandi, Sep 21 2011
+%o A016781 (Maxima) A016781(n):=(3*n+1)^5$
+%o A016781 makelist(A016781(n),n,0,20); /* _Martin Ettl_, Nov 12 2012 */
+%K A016781 nonn,easy
+%O A016781 0,2
+%A A016781 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

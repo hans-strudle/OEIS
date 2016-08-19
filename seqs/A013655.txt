@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013655
+Showing 1-1 of 1
+
+%I A013655
+%S A013655 3,2,5,7,12,19,31,50,81,131,212,343,555,898,1453,2351,3804,6155,9959,
+%T A013655 16114,26073,42187,68260,110447,178707,289154,467861,757015,1224876,
+%U A013655 1981891,3206767,5188658,8395425,13584083,21979508,35563591,57543099,93106690,150649789,243756479
+%N A013655 a(n) = F(n+1)+L(n), where F(n) and L(n) are Fibonacci and Lucas numbers respectively.
+%C A013655 Apart from initial term, same as A001060.
+%C A013655 Pisano period lengths same as for A001060. - _R. J. Mathar_, Aug 10 2012
+%C A013655 The beginning of this sequence is the only sequence of four consecutive primes in a Fibonacci-type sequence. - _Franklin T. Adams-Watters_, Mar 21 2015
+%H A013655 Mark W. Coffey, James L. Hindmarsh, Matthew C. Lettington, John Pryce, <a href="http://arxiv.org/abs/1502.03085">On Higher Dimensional Interlacing Fibonacci Sequences, Continued Fractions and Chebyshev Polynomials</a>, arXiv:1502.03085 [math.NT], 2015 (see p. 31).
+%H A013655 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A013655 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1,1)
+%F A013655 a(n) = A000045(n+1) + A000032(n).
+%F A013655 a(n) = a(n-1) + a(n-2).
+%F A013655 For n > 1, a(n) = F(n+3) - F(n-2), where F = A000045. - _Gerald McGarvey_, Jul 10 2004
+%F A013655 a(n) = 2*fibonacci(n-3) + fibonacci(n), n>=2. - _Zerinvary Lajos_, Oct 05 2007
+%F A013655 G.f.: (3-x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%F A013655 a(n) = sum(F(k), k = n-3..n+1). - _Gary Detlefs_, Dec 30 2012
+%F A013655 a(n) = ((3*sqrt(5)+1)*(((1+sqrt(5))/2)^n)+(3*sqrt(5)-1)*(((1-sqrt(5))/2)^n))/(2*sqrt(5)). - _Bogart B. Strauss_, Jul 19 2013
+%p A013655 with(combinat): a:=n->2*fibonacci(n-1)+fibonacci(n+2): seq(a(n), n=0..40); # _Zerinvary Lajos_, Oct 05 2007
+%t A013655 lst={};Do[AppendTo[lst,Fibonacci[n+5]-Fibonacci[n]],{n,-2,4*4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jun 11 2009 *)
+%o A013655 (MAGMA) [2*Fibonacci(n-3)+Fibonacci(n): n in [2..41]]; // _Vincenzo Librandi_, Apr 16 2011
+%o A013655 (MAGMA) [GeneralizedFibonacciNumber(3, 2, n): n in [0..39]]; // _Arkadiusz Wesolowski_, Mar 16 2016
+%o A013655 (PARI) a(n)=([0,1; 1,1]^n*[3;2])[1,1] \\ _Charles R Greathouse IV_, Sep 24 2015
+%o A013655 (PARI) a(n)=2*fibonacci(n-3) + fibonacci(n) \\ _Charles R Greathouse IV_, Sep 24 2015
+%Y A013655 Cf. A001060.
+%K A013655 nonn,easy
+%O A013655 0,1
+%A A013655 _Mohammad K. Azarian_
+%E A013655 Definition corrected by _Gary Detlefs_, Dec 30 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

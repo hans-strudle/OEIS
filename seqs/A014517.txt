@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014517
+Showing 1-1 of 1
+
+%I A014517
+%S A014517 1,1,2,4,15,69,389,2594,19884,172328,1665838,17768938,207304278,
+%T A014517 2625854188,35886673906,526337883959,8245960182038,137432669700633,
+%U A014517 2427977164711192,45322240407942257,891337394689531069
+%N A014517 Nearest integer to GAMMA(n+2/3).
+%D A014517 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 255.
+%H A014517 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A014517 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 255.
+%p A014517 [ seq(round(evalf(GAMMA(n+2/3),100)), n=0..24) ];
+%K A014517 nonn
+%O A014517 0,3
+%A A014517 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022615
+Showing 1-1 of 1
+
+%I A022615
+%S A022615 1,20,190,1160,5245,19324,62150,182040,495750,1269620,3088376,
+%T A022615 7197240,16164595,35136760,74192590,152674048,306968470,604298520,
+%U A022615 1166898210,2213813640,4132159452,7597272900
+%V A022615 1,-20,190,-1160,5245,-19324,62150,-182040,495750,-1269620,3088376,
+%W A022615 -7197240,16164595,-35136760,74192590,-152674048,306968470,-604298520,
+%X A022615 1166898210,-2213813640,4132159452,-7597272900
+%N A022615 Expansion of Product (1+q^m)^-20; m=1..inf.
+%F A022615 a(n) ~ (-1)^n * 5^(1/4) * exp(Pi*sqrt(10*n/3)) / (2 * 6^(1/4) * n^(3/4)). - _Vaclav Kotesovec_, Aug 27 2015
+%t A022615 nmax = 50; CoefficientList[Series[Product[1/(1 + x^k)^20, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 27 2015 *)
+%K A022615 sign
+%O A022615 0,2
+%A A022615 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

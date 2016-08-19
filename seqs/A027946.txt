@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027946
+Showing 1-1 of 1
+
+%I A027946
+%S A027946 0,0,0,4,7,23,42,106,200,456,879,1903,3718,7814,15396,31780,62951,
+%T A027946 128487,255378,517522,1030864,2079440,4147935,8342239,16655822,
+%U A027946 33433038,66791052,133899916,267603415,536038871,1071563514,2145305338
+%N A027946 a(n) = sum of the non-Fibonacci numbers in row n of array T given by A027935, computed as T(n,m) + T(n,m+1) + ... + T(n,n-1), where m=[ (n+2)/2 ].
+%F A027946 G.f.: (2x^6-2x^5-5x^4+4x^3)/[(1-x)(1-2x)(1+x-x^2)(1-x-x^2)].
+%K A027946 nonn
+%O A027946 0,4
+%A A027946 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

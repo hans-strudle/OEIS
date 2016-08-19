@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006042
+Showing 1-1 of 1
+
+%I A006042 M2251
+%S A006042 1,3,2,6,7,5,4,13,12,14,15,11,10,8,9,24,25,27,26,30,31,29,28,21,20,22,
+%T A006042 23,19,18,16,17,52,53,55,54,50,51,49,48,57,56,58,59,63,62,60,61,44,45,
+%U A006042 47,46,42,43,41,40,33,32,34,35,39,38,36,37,103,102,100,101,97,96,98,99
+%N A006042 Nim-squares.
+%D A006042 J. H. Conway, On Numbers and Games. Academic Press, NY, 1976, pp. 51-53.
+%D A006042 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006042 R. J. Mathar, <a href="/A006042/b006042.txt">Table of n, a(n) for n = 1..1000</a>
+%H A006042 G. P. Michon, <a href="http://www.numericana.com/answer/fields.htm#on2">Discussion of Conway's On2</a> [From _John W. Layman_, Nov 05 2010]
+%H A006042 <a href="/index/Ni#Nimmult">Index entries for sequences related to Nim-multiplication</a>
+%F A006042 a(n) = A051775(n,n).
+%p A006042 read("transforms") ;
+%p A006042 # insert source of nimprodP2() and A051775() from the b-file in A051776 here..
+%p A006042 A006042 := proc(n)
+%p A006042      A051775(n,n) ;
+%p A006042 end proc:
+%p A006042 L := [seq( A006042(n),n=1..1000) ]; # _R. J. Mathar_, May 28 2011
+%Y A006042 Cf. A051775, A051776, A212200.
+%K A006042 nonn,nice,easy
+%O A006042 1,2
+%A A006042 _N. J. A. Sloane_
+%E A006042 a(1)-a(49) confirmed, a(50)-a(71) added by _John W. Layman_, Nov 05 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

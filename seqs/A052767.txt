@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052767
+Showing 1-1 of 1
+
+%I A052767
+%S A052767 0,0,0,0,0,120,1800,21000,235200,2693880,32319000,410031600,
+%T A052767 5519487600,78864820320,1194924450720,19166592681600,324817601472000,
+%U A052767 5803921108010880,109115988701293440,2154085473710580480
+%N A052767 E.g.f.: -(log(1-x))^5
+%H A052767 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=724">Encyclopedia of Combinatorial Structures 724</a>
+%F A052767 E.g.f.: log(-1/(-1+x))^5.
+%F A052767 Recurrence: a(1)=0, a(0)=0, a(2)=0, a(4)=0, a(3)=0, (-1-5*n-10*n^2-10*n^3-5*n^4-n^5)*a(n+1) + (31+5*n^4+70*n^2+30*n^3+75*n)*a(n+2) + (-125*n-90-60*n^2-10*n^3)*a(n+3) + (10*n^2+65+50*n)*a(n+4) + (-15-5*n)*a(n+5) + a(n+6)=0, a(5)=120.
+%p A052767 spec := [S,{B=Cycle(Z),S=Prod(B,B,B,B,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052767 easy,nonn
+%O A052767 0,6
+%A A052767 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

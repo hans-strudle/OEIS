@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002679
+Showing 1-1 of 1
+
+%I A002679 M4820 N2062
+%S A002679 1,1,12,4,360,40,20160,12096,259200,604800,239500800,760320,
+%T A002679 43589145600,217945728000,1494484992000,697426329600,3201186852864000
+%N A002679 From generalized Bernoulli numbers.
+%D A002679 H. E. Salzer, Tables of coefficients for differences in terms of their derivatives, Journal of Mathematics and Physics, 23 (1944), 210-212.
+%D A002679 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002679 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002679 T. D. Noe, <a href="/A002679/b002679.txt">Table of n, a(n) for n=2..100</a>
+%H A002679 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%Y A002679 Cf. A002678.
+%K A002679 nonn,frac
+%O A002679 2,3
+%A A002679 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

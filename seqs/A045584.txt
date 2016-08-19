@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045584
+Showing 1-1 of 1
+
+%I A045584
+%S A045584 1,7,49,343,2401,2653,16807,18571,117649,129997,823543,909979,1005487,
+%T A045584 4941601,5764801,6369853,7038409,34591207,40353607,44588971,49268863,
+%U A045584 236474833,242138449,282475249,312122797,344882041,381079573
+%N A045584 Numbers n such that n | 4^n + 3^n.
+%K A045584 nonn
+%O A045584 1,2
+%A A045584 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

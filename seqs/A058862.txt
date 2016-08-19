@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058862
+Showing 1-1 of 1
+
+%I A058862
+%S A058862 1,2,8,61,822,18154,617675,30888596,2192816760,215488096587,
+%T A058862 28791414081916,5165908492061926
+%N A058862 Number of chordal labeled graphs (connected or not) with n nodes.
+%D A058862 N. C. Wormald, Counting labeled chordal graphs. Graphs Combin. 1 (1985), no. 2, 193-200.
+%F A058862 From the relation G(x)=exp(g(x)) between generating functions for connected g(x) and all G(x) labeled structures and considering generating functions for chordal graphs (c_n, A007134), we have a_n = c_n + \frac{1}{n} Sum_{k=1}^{n-1} k {n choose k} c_k a_{n-k}
+%Y A058862 Cf. A007134.
+%K A058862 nonn,nice
+%O A058862 1,2
+%A A058862 Robert Castelo (rcastelo(AT)imim.es), Jan 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

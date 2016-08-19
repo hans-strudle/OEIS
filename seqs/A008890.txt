@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008890
+Showing 1-1 of 1
+
+%I A008890
+%S A008890 168,312,528,960,2088,3762,5598,6570,10746,13254,13830,19434,20886,
+%T A008890 21606,25098,26742,26754,40446,63234,77406,110754,171486,253458,
+%U A008890 295740,647748,1077612,1467588,1956812
+%N A008890 Aliquot sequence starting at 168.
+%D A008890 R. K. Guy, Unsolved Problems in Number Theory, B6.
+%H A008890 T. D. Noe, <a href="/A008890/b008890.txt">Table of n, a(n) for n=0..176</a>
+%H A008890 Christophe CLAVIER, <a href="http://christophe.clavier.free.fr/Aliquot/site/Aliquot.html">Aliquot Sequences</a>
+%p A008890 f := proc(n) option remember; if n = 0 then 168; else sigma(f(n-1))-f(n-1); fi; end:
+%K A008890 nonn
+%O A008890 0,1
+%A A008890 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

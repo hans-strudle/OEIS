@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028062
+Showing 1-1 of 1
+
+%I A028062
+%S A028062 1,26,440,6190,78981,952476,11101000,126669380,1426238561,15923605126,
+%T A028062 176828848560,1956923483970,21609410926741,238289337781976,
+%U A028062 2625298690331120,28907173689169960,318181508654719521
+%N A028062 Expansion of 1/((1-3x)(1-5x)(1-7x)(1-11x)).
+%F A028062 a(n)=(11^(n+3)-6*7^(n+3)+8*5^(n+3)-3^(n+4))/192. [_Yahia Kahloune_, Jun 08 2013]
+%K A028062 nonn
+%O A028062 0,2
+%A A028062 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

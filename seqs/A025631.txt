@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025631
+Showing 1-1 of 1
+
+%I A025631
+%S A025631 1,7,9,49,63,81,343,441,567,729,2401,3087,3969,5103,6561,16807,21609,
+%T A025631 27783,35721,45927,59049,117649,151263,194481,250047,321489,413343,
+%U A025631 531441,823543,1058841,1361367,1750329,2250423,2893401,3720087,4782969
+%N A025631 Numbers of form 7^i*9^j, with i, j >= 0.
+%t A025631 With[{nn=40},Take[Union[7^First[#] 9^Last[#]&/@Tuples[Range[0,nn/4],2]],nn]] (* _Harvey P. Dale_, Mar 06 2014 *)
+%K A025631 easy,nonn
+%O A025631 1,2
+%A A025631 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

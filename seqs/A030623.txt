@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030623
+Showing 1-1 of 1
+
+%I A030623
+%S A030623 12,48,16,32,64,12,82,56,51,21,2,42,4,84,9,68,19,21,63,84,32,76,86,55,
+%T A030623 36,13,10,72,26,21,44,52,42,88,10,48,57,62,9,71,52,41,94,30,48,38,86,
+%U A030623 8,16,77,72,16,33,55,44,32,67,10,88,64,13,42,17,72,82,68,43,54,56,53,68
+%N A030623 Powers of 2 grouped in pairs of 2 digits (version 2).
+%p A030623 sq:=[]: for n from 0 to 100 do s:=convert(2^n,base,10): l:=nops(s): sq:=[op(sq),seq(s[l-i],i=0..l-1)] od: seq(sq[2*i-1]*10+sq[2*i],i=1..100); (C. Ronaldo)
+%Y A030623 Cf. A030622, A030624.
+%K A030623 nonn,base,easy
+%O A030623 1,1
+%A A030623 Alexei Kozlowski (bros(AT)spf.minsk.by)
+%E A030623 More terms from C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

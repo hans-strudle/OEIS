@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007077
+Showing 1-1 of 1
+
+%I A007077 M3379
+%S A007077 1,4,10,19,31,47,68,92,120,153,190,232,279,332,392,454,521,593,670,753
+%N A007077 Optimal cost of search tree.
+%D A007077 Knight, William J.; Search in an ordered array having variable probe cost. SIAM J. Comput. 17 (1988), no. 6, 1203-1214.
+%D A007077 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007077 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%H A007077 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%Y A007077 Cf. A007078.
+%K A007077 nonn
+%O A007077 1,2
+%A A007077 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

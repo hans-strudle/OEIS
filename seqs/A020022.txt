@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020022
+Showing 1-1 of 1
+
+%I A020022
+%S A020022 1,0,1,2,5,24,131,843,6275,52988,500442,5226842,59818300,744405515,
+%T A020022 10008118595,144561713037,2232675345794,36715105686391,
+%U A020022 640474621418148,11813198572823623,229701083360459334,4696111037591613052
+%N A020022 Nearest integer to GAMMA(n+4/9)/GAMMA(4/9).
+%p A020022 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%K A020022 nonn
+%O A020022 0,4
+%A A020022 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

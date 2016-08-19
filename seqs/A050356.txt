@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050356
+Showing 1-1 of 1
+
+%I A050356
+%S A050356 1,1,1,4,1,7,1,16,4,7,1,40,1,7,7,64,1,40,1,40,7,7,1,208,4,7,16,40,1,
+%T A050356 73,1,256,7,7,7,292,1,7,7,208,1,73,1,40,40,7,1,1024,4,40,7,40,1,208,7,
+%U A050356 208,7,7,1,544,1,7,40,1024,7,73,1,40,7,73,1,1840,1,7,40,40,7,73,1
+%N A050356 Number of ordered factorizations of n with 2 levels of parentheses.
+%C A050356 a(n) depends only on prime signature of n (cf. A025487). So a(24) = a(375) since 24 = 2^3*3 and 375 = 3*5^3 both have prime signature (3,1).
+%F A050356 Dirichlet g.f.: (3-2*zeta(s))/(4-3*zeta(s)).
+%e A050356 6 = ((6)) = ((3*2)) = ((2*3)) = ((3)*(2)) = ((2)*(3)) = ((3))*((2)) = ((2))*((3)).
+%Y A050356 Cf. A002033, A050351-A050359. a(p^k)=4^(k-1). a(A002110)=A050352.
+%K A050356 nonn
+%O A050356 1,4
+%A A050356 _Christian G. Bower_, Oct 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062382
+Showing 1-1 of 1
+
+%I A062382
+%S A062382 257,275,345,354,435,453,527,534,543,572,725,752,1258,1285,1528,1582,
+%T A062382 1825,1852,2158,2185,2235,2253,2325,2352,2518,2523,2532,2581,2815,
+%U A062382 2851,3225,3252,3522,5128,5182,5218,5223,5232,5281,5322,5812,5821,8125,8152
+%N A062382 Numbers whose product of digits is 5 times the sum of the digits.
+%H A062382 Harry J. Smith, <a href="/A062382/b062382.txt">Table of n, a(n) for n=0,...,500</a>
+%e A062382 2235 belong to the sequence as (2*2*3*5)/(2+2+3+5) =60/12 = 5.
+%t A062382 Select[Range[9000],Times@@IntegerDigits[#]==5*Total[IntegerDigits[#]]&] (* _Harvey P. Dale_, Mar 01 2012 *)
+%o A062382 (PARI) SumD(x)= { s=0; while (x>9, s+=x-10*(x\10); x\=10); return(s + x) } ProdD(x)= { p=1; while (x>9, p*=(x-10*(x\10)); x\=10); return(p*x) } { n=-1; for (m=1, 10^9, if (ProdD(m)==5*SumD(m), write("b062382.txt", n++, " ", m); if (n==500, break)) ) } [From _Harry J. Smith_, Aug 06 2009]
+%K A062382 nonn,base,easy
+%O A062382 0,1
+%A A062382 _Amarnath Murthy_, Jun 27 2001
+%E A062382 More terms from Larry Reeves (larryr(AT)acm.org), Jul 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019132
+Showing 1-1 of 1
+
+%I A019132
+%S A019132 0,0,6,5,4,32,50,84,266,604,1342,3456,8652,21422,53630,136442,349820,
+%T A019132 893522
+%N A019132 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite FER = Ferrierite Na2Mg2[ Al6Si30O72 ] . 18 H2O.
+%D A019132 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019132 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019132 nonn
+%O A019132 3,3
+%A A019132 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

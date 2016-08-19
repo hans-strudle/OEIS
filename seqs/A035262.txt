@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035262
+Showing 1-1 of 1
+
+%I A035262
+%S A035262 1,2,4,5,8,9,10,11,13,16,17,18,19,20,22,23,25,26,32,34,36,37,38,40,44,
+%T A035262 45,46,49,50,52,55,59,64,65,67,68,72,74,76,79,80,81,83,85,88,90,92,95,
+%U A035262 98,99,100
+%N A035262 Nonzero terms in expansion of Dirichlet series Product_p (1-(Kronecker(m,p)+1)*p^(-s)+Kronecker(m,p)*p^(-2s))^(-1) for m= 26.
+%o A035262 (PARI) direuler(p=2,101,1/(1-(kronecker(m,p)*(X-X^2))-X))
+%K A035262 nonn
+%O A035262 1,2
+%A A035262 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

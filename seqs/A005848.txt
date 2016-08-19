@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005848
+Showing 1-1 of 1
+
+%I A005848 M2304
+%S A005848 1,3,4,5,7,8,9,11,12,13,15,16,17,19,20,21,24,25,27,28,32,33,35,36,40,
+%T A005848 44,45,48,60,84
+%N A005848 Cyclotomic fields with class number 1 (or with unique factorization).
+%C A005848 Note that if n == 2 (mod 4) Q(zeta_n) is the same field as Q(zeta_{n/2}), so this sequence omits numbers that are 2 mod 4. - Yuval Dekel, Jun 07 2003
+%D A005848 F. Le Lionnais, Les Nombres Remarquables. Paris: Hermann, p. 85, 1983.
+%D A005848 J. M. Masley, Where are the number fields with small class number?, pp. 221-242 of Number Theory Carbondale 1979, Lect. Notes Math. 751 (1982).
+%D A005848 P. Ribenboim, The Book of Prime Number Records. Springer-Verlag, NY, 2nd ed., 1989, p. 259.
+%D A005848 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005848 Alf van der Poorten, Notes on Fermat's Last Theorem, Wiley, 1996, p. 14.
+%D A005848 L. C. Washington, Introduction to Cyclotomic Fields, Springer, p. 353.
+%H A005848 M. Baake and U. Grimm, <a href="http://arXiv.org/abs/math.MG/0203025">A note on shelling</a>
+%H A005848 E. Bugarin, M. de las Peñas, D. Frettlöh, <a href="http://arxiv.org/abs/0905.4048">Perfect colourings of cyclotomic integers (2009)</a>.
+%H A005848 J. M. Masley and Hugh L. Montgomery, <a href="http://dx.doi.org/10.1515/crll.1976.286-287.248">Cyclotomic fields with unique factorization</a>, J. Reine Angew. Math. 286/287 (1976), 248-256.
+%Y A005848 Cf. A061653.
+%K A005848 fini,nonn,full,nice
+%O A005848 1,2
+%A A005848 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

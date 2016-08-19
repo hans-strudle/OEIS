@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049848
+Showing 1-1 of 1
+
+%I A049848
+%S A049848 0,0,1,1,1,2,4,3,2,3,2,4,6,5,3,2,5,3,5,5,5,6,3,6,6,7,5,5,6,5,7,4,7,5,
+%T A049848 8,4,8,6,5,4,4,7,6,6,8,7,7,9,10,7,6,4,9,7,8,9,7,7,6
+%N A049848 a(n)=number of primes q less than n-th prime p for which the Euclidean algorithm for p,q has exactly 2 nonzero remainders.
+%e A049848 Example: for p(6)=13, the primes counted are 7 and 11.
+%K A049848 nonn
+%O A049848 1,6
+%A A049848 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

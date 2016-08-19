@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002304
+Showing 1-1 of 1
+
+%I A002304 M2939 N1182
+%S A002304 1,3,13,27,52791,482427,124996631
+%V A002304 1,-3,-13,27,52791,482427,-124996631
+%N A002304 Numerators of coefficients in asymptotic expansion of (2/pi)*Integral_{0..inf} (sin x / x)^n dx.
+%D A002304 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002304 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002304 David H. Bailey and Jonathan M. Borwein, <a href="http://www.carma.newcastle.edu.au/~jb616/oscillatory.pdf">Experimental computation with oscillatory integrals</a>, Comtemp. Math. 517 (2010) page 25 -40. [Added by _N. J. A. Sloane_, Nov 02 2009]
+%H A002304 R. G. Medhurst and J. H. Roberts, <a href="http://dx.doi.org/10.1090/S0025-5718-1965-0172446-8">Evaluation of the integral I_n(b) = (2/pi)*Integral_{0..inf} (sin x / x)^n cos (bx) dx</a>, Math. Comp., 19 (1965), 113-117.
+%Y A002304 Cf. A002305, A002297, A002298.
+%K A002304 sign,frac,more
+%O A002304 0,2
+%A A002304 _N. J. A. Sloane_.
+%E A002304 Signs added by _N. J. A. Sloane_, Nov 02 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

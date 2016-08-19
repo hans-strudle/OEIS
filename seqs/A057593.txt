@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057593
+Showing 1-1 of 1
+
+%I A057593
+%S A057593 1,1,2,1,1,2,1,4,4,2,1,2,1,1,2,1,3,6,3,6,2,1,1,2,1,2,1,2,1,6,1,3,6,1,
+%T A057593 3,2,1,4,4,2,1,1,4,4,2,1,10,5,5,5,10,10,10,5,2,1,2,2,1,2,1,2,2,1,1,2,
+%U A057593 1,12,3,6,4,12,12,4,3,6,12,2,1
+%N A057593 Triangle T(n,k) giving period of sequence k^i (i=0,1,2,...) mod n (n >= 2, 1<=k<n).
+%e A057593 If n=7, k=2, the sequence is 1,2,4,1,2,4,1,2,4,.... of period 3, so T(7,2) = 3.
+%e A057593 1; 1,2; 1,1,2; 1,4,4,2; ...
+%t A057593 period[lst_] := Module[{n, i, j}, n=Length[lst]; For[j=2, j <= n, j++, For[i=1, i<j, i++, If[lst[[i]] == lst[[j]], Return[{i-1, j-i}]]]]; Return[{0, 0}]]; T[n_, k_] := Module[{t, p}, t=Table[PowerMod[k, i, n], {i, 0, 2n}]; p=period[t][[2]]; p]; Table[T[n, k], {n, 2, 14}, {k, 1, n - 1}] // Flatten (* _Jean-François Alcover_, Feb 04 2015 *)
+%Y A057593 Cf. A057594, A057595.
+%Y A057593 Cf. A086145 (prime rows), A216327 (entries with gcd(n,k)=1), A139366
+%K A057593 easy,nonn,tabl,nice
+%O A057593 2,3
+%A A057593 _Gottfried Helms_, Oct 05 2000
+%E A057593 Constraint on k changed from 2<=k<=n to 1<=k<n, based on comment from _Franklin T. Adams-Watters_, Jan 19 2006, by _David Applegate_, Mar 11 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

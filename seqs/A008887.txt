@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008887
+Showing 1-1 of 1
+
+%I A008887
+%S A008887 60,108,172,136,134,70,74,40,50,43,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A008887 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A008887 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A008887 Aliquot sequence starting at 60.
+%D A008887 R. K. Guy, Unsolved Problems in Number Theory, B6.
+%H A008887 Christophe CLAVIER, <a href="http://christophe.clavier.free.fr/Aliquot/site/Aliquot.html">Aliquot Sequences</a>
+%H A008887 <a href="/index/Rec#order_01">Index entries for linear recurrences with constant coefficients</a>, signature (1).
+%p A008887 f := proc(n) option remember; if n = 0 then 60; else sigma(f(n-1))-f(n-1); fi; end:
+%t A008887 NestList[If[#==0,0,DivisorSigma[1,#]-#]&,60,80] (* _Harvey P. Dale_, Nov 29 2013 *)
+%K A008887 nonn
+%O A008887 0,1
+%A A008887 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

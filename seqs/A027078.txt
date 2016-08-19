@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027078
+Showing 1-1 of 1
+
+%I A027078
+%S A027078 1,0,2,8,31,130,590,2798,13541,66724,332708,1673536,8479367,43218034,
+%T A027078 221383712,1138976166,5882112985,30479772624,158413903096,
+%U A027078 825556260636,4312814257059,22580855859166,118468635595680,622698941708890
+%N A027078 a(n) = Sum{T(n,k)*T(n,n+k)}, 0<=k<=n, T given by A027052.
+%K A027078 nonn
+%O A027078 0,3
+%A A027078 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

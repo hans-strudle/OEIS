@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056606
+Showing 1-1 of 1
+
+%I A056606
+%S A056606 1,2,3,6,10,30,105,70,42,210,2310,2310,4290,6006,15015,30030,170170,
+%T A056606 510510,1939938,1385670,881790,9699690,223092870,44618574,17160990,
+%U A056606 74364290,31870410,223092870,6469693230,6469693230,100280245065
+%N A056606 Squarefree kernel of A002944(n), the LCM of binomial coefficients {C(n,0),...,C(n,n)}.
+%C A056606 Also squarefree kernel of A001142; row products in table A256113. - _Reinhard Zumkeller_, Mar 21 2015
+%e A056606 a(7)=105 because LCM[1,7,21,35]=105 is already squarefree.
+%o A056606 (Haskell)
+%o A056606 a056606 = a007947 . a001142  -- _Reinhard Zumkeller_, Mar 21 2015
+%Y A056606 Cf. A002944, A034386, A048633, A003418, A000142, A001405.
+%Y A056606 Cf. A007947, A001142, A256113.
+%K A056606 nonn
+%O A056606 1,2
+%A A056606 _Labos Elemer_, Aug 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

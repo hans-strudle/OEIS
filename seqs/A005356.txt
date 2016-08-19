@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005356
+Showing 1-1 of 1
+
+%I A005356 M2435
+%S A005356 0,0,1,3,5,8,11,14,18,22,26,30,34,38,43,48,53,58,63,68,73,78,83,89,95,
+%T A005356 101,107,113,119,125
+%N A005356 Number of low discrepancy sequences in base 2.
+%D A005356 Harald Niederreiter, Low-discrepancy and low-dispersion sequences, J. Number Theory 30 (1988), no. 1, 51-70.
+%D A005356 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A005356 nonn
+%O A005356 1,4
+%A A005356 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

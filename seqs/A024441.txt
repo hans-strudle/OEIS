@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024441
+Showing 1-1 of 1
+
+%I A024441
+%S A024441 1,27,480,7090,94311,1173417,13944190,160292880,1797313221,
+%T A024441 19769671207,214195117500,2292743705070,24300717989731,
+%U A024441 255479745527397,2667841806196410,27701356042027660,286258773993179841
+%N A024441 Expansion of 1/((1-x)(1-7x)(1-9x)(1-10x)).
+%F A024441 a(n) = (16*10^(n+3) - 27*9^(n+3) + 12*7^(n+3) - 1)/432. [_Yahia Kahloune_, Jun 28 2013]
+%K A024441 nonn,easy
+%O A024441 0,2
+%A A024441 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

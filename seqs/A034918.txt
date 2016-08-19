@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034918
+Showing 1-1 of 1
+
+%I A034918
+%S A034918 1,1,4,16,48,128,576,2560,12288
+%N A034918 Maximal determinant of n X n persymmetric matrix with entries {-1,0,+1}.
+%C A034918 A persymmetric (or Hankel) matrix has M[ i,j ] = M[ i-k,j+k ] for all i and j (matrix is constant along antidiagonals).
+%H A034918 <a href="/index/De#determinants">Index entries for sequences related to maximal determinants</a>
+%e A034918 For n = 1, 2, 3 use:
+%e A034918 [1] [1 0] [ -1 +1 -1]
+%e A034918 ... [0 1] [ +1 -1 -1]
+%e A034918 ......... [ -1 -1 -1]
+%Y A034918 Cf. A034917-A034921.
+%K A034918 nonn,nice,more
+%O A034918 1,3
+%A A034918 _Fred Lunnon_, Dec 11 1999
+%E A034918 More terms from Sam Handler (sam_5_5_5_0(AT)yahoo.com), Aug 08 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

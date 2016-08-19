@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005934
+Showing 1-1 of 1
+
+%I A005934 M3333
+%S A005934 1,4,8,16,32,64,128,144,216,288,432,864,1296,1728,2592,3456,5184,7776,
+%T A005934 10368,15552,20736,31104,41472,62208,86400,108000,129600,194400,
+%U A005934 216000,259200,324000,432000,518400,648000,972000,1296000,1944000,2592000
+%N A005934 Highly powerful numbers.
+%D A005934 G. E. Hardy and M. V. Subbarao, Highly powerful numbers, Congress. Numer. 37 (1983), 277-307.
+%D A005934 C. B. Lacampagne and J. L. Selfridge, Large highly powerful numbers are cubeful, Proc. Amer. Math. Soc., 91 (1984), 173-181.
+%D A005934 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005934 T. D. Noe, <a href="/A005934/b005934.txt">Table of n, a(n) for n=1..300</a>
+%H A005934 <a href="/index/Pow#powerful">Index entries for sequences related to powerful numbers</a>
+%F A005934 For n = Prod p_i^e_i, let b(n) = Prod e_i; then n is highly powerful if b(n) sets a new record.
+%t A005934 a = {1}; b = {1}; f[n_] := Times @@ Last /@ FactorInteger[n]; Do[
+%t A005934 If[f@ n > Max[b], And[AppendTo[b, f@ n], AppendTo[a, n]]], {n, 1000000}]; a (* _Michael De Vlieger_, Aug 28 2015 *)
+%o A005934 (PARI) {prdex(n)=local(s,fac); s=1; fac=factor(n); for(k=1,matsize(fac)[1],s=s*fac[k,2]); return(s)} {hp(m)=local(rec); rec=0; for(n=1,m,if(prdex(n)>rec,rec=prdex(n); print1(n",")))}
+%Y A005934 Cf. A036965, A001694, A007532, A005934, A005188, A003321, A014576, A023052, A046074.
+%Y A005934 Cf. A085629
+%K A005934 nonn,nice,easy
+%O A005934 1,2
+%A A005934 _N. J. A. Sloane_.
+%E A005934 Hardy and Subbarao give an extensive table.
+%E A005934 Corrected and extended by Jason Earls (zevi_35711(AT)yahoo.com), Jul 10 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

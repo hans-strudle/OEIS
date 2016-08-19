@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057991
+Showing 1-1 of 1
+
+%I A057991
+%S A057991 1,1,1,5,35,1411,1130531,12198455835,2697818331680661,
+%T A057991 15224734061438247321497,2750892211809150446995735533513,
+%U A057991 19464657391668924966791023043937578299025
+%N A057991 Number of quasigroups of order n.
+%D A057991 A. Hulpke, P. Kaski and P. R. J. Ostergard, The number of Latin squares of order 11, Preprint, 2009.
+%D A057991 D. S. Stones, The pariy of the number of quasigroups, Discr. Math., 310 (2010), 3033-3039. [From _N. J. A. Sloane_, Sep 25 2010]
+%H A057991 B. D. McKay, A. Meynert and W. Myrvold, <a href="http://cs.anu.edu.au/~bdm/papers/ls_final.pdf">Small Latin Squares, Quasigroups and Loops</a>, J. Combin. Designs 15 (2007), no. 2, 98-119.
+%H A057991 <a href="/index/Qua#quasigroups">Index entries for sequences related to quasigroups</a>
+%Y A057991 Cf. A002860, A057992-A057994, A057771, A057996.
+%K A057991 nonn,more
+%O A057991 0,4
+%A A057991 _Christian G. Bower_, Nov 01 2000
+%E A057991 More terms (from the McKay-Meynert-Myrvold article) from Richard Bean (rwb(AT)eskimo.com), Feb 17 2004
+%E A057991 There are 19464657391668924966791023043937578299025 isomorphism classes of quasigroups of order 11. - Petteri Kaski (petteri.kaski(AT)cs.helsinki.fi), Sep 18 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

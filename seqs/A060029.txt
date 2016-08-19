@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060029
+Showing 1-1 of 1
+
+%I A060029
+%S A060029 1,0,1,1,2,2,4,4,7,8,11,12,18,19,26,29,37,40,51,53,65,68,79,80,92,87,
+%T A060029 94,84,82,58,45,1,36,109,180,297,413,594,780,1042,1325,
+%U A060029 1704,2112,2647,3228,3961,4772,5769,6867,8206,9682,11446,13402,15710
+%V A060029 1,0,1,1,2,2,4,4,7,8,11,12,18,19,26,29,37,40,51,53,65,68,79,80,92,87,
+%W A060029 94,84,82,58,45,-1,-36,-109,-180,-297,-413,-594,-780,-1042,-1325,
+%X A060029 -1704,-2112,-2647,-3228,-3961,-4772,-5769,-6867,-8206,-9682,-11446,-13402,-15710
+%N A060029 Expansion of (1-x-x^N)/((1-x)(1-x^2)(1-x^3)...(1-x^N)) for N = 10.
+%D A060029 P. A. MacMahon, Perpetual reciprocants, Proc. London Math. Soc., 17 (1886), 139-151; Coll. Papers II, pp. 584-596.
+%t A060029 CoefficientList[Series[(1-x-x^10)/Times@@(1-x^Range[10]),{x,0,60}],x] (* _Harvey P. Dale_, May 15 2016 *)
+%K A060029 sign,changed
+%O A060029 0,5
+%A A060029 _N. J. A. Sloane_, Mar 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

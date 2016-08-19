@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058589
+Showing 1-1 of 1
+
+%I A058589
+%S A058589 1,3,1,3,2,9,2,9,1,24,0,27,5
+%V A058589 1,-3,-1,-3,-2,-9,2,-9,-1,-24,0,-27,5
+%N A058589 McKay-Thompson series of class 24f for Monster.
+%D A058589 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058589 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058589 T24f = 1/q - 3*q - q^3 - 3*q^5 - 2*q^7 - 9*q^9 + 2*q^11 - 9*q^13 - q^15 - ...
+%Y A058589 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058589 sign
+%O A058589 -1,2
+%A A058589 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

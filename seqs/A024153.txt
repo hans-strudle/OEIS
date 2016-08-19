@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024153
+Showing 1-1 of 1
+
+%I A024153
+%S A024153 0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,0,
+%T A024153 0,2,0,0,0,1,0,2,0,1,0,0,0,2,0,0,0,0,0,3,0,1,0,0,0,3,0,0,0,2,0,1,0,1,
+%U A024153 0,2,0,3,0,0,0,1,0,1,0,3,0,0,0,8,0,0,0,1,0,4,0,0,0,0,0,4,0,3,0,0
+%N A024153 Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n that have integer area.
+%K A024153 nonn
+%O A024153 1,36
+%A A024153 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

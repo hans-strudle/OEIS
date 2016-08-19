@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015467
+Showing 1-1 of 1
+
+%I A015467
+%S A015467 0,1,1,10,91,7381,604432,436445101,321656391613,2087825044676482,
+%T A015467 13848340772676227455,808880048095782179467153,
+%U A015467 48286987465947852695801396608,25383561292811993463191359951919785,13637696871632801620185917930189837576233
+%N A015467 q-Fibonacci numbers for q=9.
+%H A015467 Vincenzo Librandi, <a href="/A015467/b015467.txt">Table of n, a(n) for n = 0..60</a>
+%F A015467 a(n) = a(n-1) + 9^(n-2) a(n-2).
+%t A015467 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1] + a[n-2]*9^(n-2)},  a, {n, 20}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%o A015467 (MAGMA) [0] cat[n le 2 select 1 else Self(n-1) + Self(n-2)*(9^(n-2)): n in [1..15]]; // _Vincenzo Librandi_, Nov 09 2012
+%K A015467 nonn,easy
+%O A015467 0,4
+%A A015467 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054532
+Showing 1-1 of 1
+
+%I A054532
+%S A054532 1,1,1,1,1,2,1,1,1,2,1,1,1,0,4,1,1,2,2,1,2,1,1,1,0,1,1,6,1,1,
+%T A054532 1,2,1,1,1,4,1,1,2,0,1,2,1,0,6,1,1,1,2,4,1,1,0,0,4,1,1,
+%U A054532 1,0,1,1,1,0,0,1,10,1,1,2,2,1,2,1,4,3,1,1,4,1,1,1,0,1,1,1,0,0,1,1,0,12,1
+%V A054532 1,1,1,1,-1,2,1,1,-1,2,1,-1,-1,0,4,1,1,2,-2,-1,2,1,-1,-1,0,-1,1,6,1,1,
+%W A054532 -1,2,-1,-1,-1,4,1,-1,2,0,-1,-2,-1,0,6,1,1,-1,-2,4,-1,-1,0,0,4,1,-1,
+%X A054532 -1,0,-1,1,-1,0,0,1,10,1,1,2,2,-1,2,-1,-4,-3,-1,-1,4,1,-1,-1,0,-1,1,-1,0,0,1,-1,0,12,1
+%N A054532 Triangular array giving Ramanujan sum T(n,k) = c_k(n) = Sum_{m=1..k, (m,k)=1} exp(2 Pi i m n / k), n >= 1, 1<=k<=n.
+%D A054532 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, page 160.
+%H A054532 T. D. Noe, <a href="/A054532/b054532.txt">Rows n=1..50 of triangle, flattened</a>
+%H A054532 P. Moree and H. Hommerson, <a href="http://arXiv.org/abs/math.NT/0307352">Value distribution of Ramanujan sums and of cyclotomic polynomial coefficients</a>
+%H A054532 H. G. Gadiyar and R. Padma, <a href="http://arXiv.org/abs/math.NT/0601574">Linking the circle and the sieve: Ramanujan-Fourier series</a>
+%H A054532 K. Motose, <a href="http://escholarship.lib.okayama-u.ac.jp/mjou/vol47/iss1/5">Ramanujan's sums and cyclotomic polynomials</a>, Math. J. Okayama U. 47, no 1, (2005), Article 5.
+%e A054532 1;
+%e A054532 1,1;
+%e A054532 1,-1,2;
+%e A054532 1,1,-1,2;
+%e A054532 1,-1,-1,0,4;
+%e A054532 1,1,2,-2,-1,2;
+%e A054532 ...
+%t A054532 t[n_, k_] := Sum[ c = Exp[2*Pi*I*m*(n/k)]; If[ GCD[m, k] == 1, c, 0], {m, 1, k}] // FullSimplify; Flatten[ Table[ t[n, k], {n, 1, 15}, {k, 1, n}]] (* _Jean-François Alcover_, Mar 15 2012 *)
+%Y A054532 Cf. A054533, A054534, A054535.
+%K A054532 sign,easy,nice,tabl
+%O A054532 1,6
+%A A054532 _N. J. A. Sloane_, Apr 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

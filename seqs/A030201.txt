@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030201
+Showing 1-1 of 1
+
+%I A030201
+%S A030201 0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,
+%T A030201 0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,
+%U A030201 0,2,0,0,0,0,0,0,0,0,0,0,0,2,0
+%V A030201 0,1,0,0,-1,0,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,
+%W A030201 0,0,0,0,-2,0,0,0,0,0,-2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,
+%X A030201 0,2,0,0,0,0,0,0,0,0,0,0,0,2,0
+%N A030201 Expansion of eta(q^3)*eta(q^21).
+%D A030201 M. Koike, On McKay's conjecture, Nagoya Math. J., 95 (1984), 85-89.
+%K A030201 sign
+%O A030201 0,38
+%A A030201 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

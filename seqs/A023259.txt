@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023259
+Showing 1-1 of 1
+
+%I A023259
+%S A023259 5,11,31,59,61,71,149,179,269,439,499,541,571,719,761,1049,1091,1181,
+%T A023259 1319,1451,1489,1579,1601,1831,1861,1879,1949,2069,2089,2269,2311,
+%U A023259 2389,2441,2621,2699,2819,2851,2909,3001,3079,3119,3391,3529,3631,3701,3709
+%N A023259 Numbers n such that n remains prime through 2 iterations of function f(x) = 7x + 6.
+%C A023259 n, 7*n+6 and 49*n+48 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023259 (MAGMA) [n: n in [1..100000] | IsPrime(n) and IsPrime(7*n+6) and IsPrime(49*n+48)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023259 nonn
+%O A023259 1,1
+%A A023259 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

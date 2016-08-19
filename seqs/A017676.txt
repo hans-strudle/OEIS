@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017676
+Showing 1-1 of 1
+
+%I A017676
+%S A017676 1,64,729,4096,15625,23328,117649,262144,531441,100000,1771561,497664,
+%T A017676 4826809,3764768,2278125,16777216,24137569,34012224,47045881,32000000,
+%U A017676 85766121,56689952,148035889,95551488,244140625,11881376,387420489,240945152,594823321
+%N A017676 Denominator of sum of -6th powers of divisors of n.
+%C A017676 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%t A017676 A017676[n_Integer] := Denominator[DivisorSigma[-6, n]]; A017676 /@ Range[100] (* _Vladimir Joseph Stephan Orlovsky_, Jul 22 2011 *)
+%Y A017676 Cf. A017675.
+%K A017676 nonn,frac
+%O A017676 1,2
+%A A017676 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

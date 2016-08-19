@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057343
+Showing 1-1 of 1
+
+%I A057343
+%S A057343 1,4,6,24,60,60,60,96,144,360,360,720,720,720,720
+%N A057343 Smallest of the most frequently occurring numbers in 1-to-n 4-dimensional multiplication table.
+%e A057343 M(n) is the array in which m(x,y,z,t)=x*y*z*t for x = 1 to n, y = 1 to n, z = 1 to n and t = 1 to n In M(7), the most frequently occurring numbers are 60, 72, 84, 120 and 168, each occurring 60 times. The smallest of these numbers is 60, so a(7) = 60.
+%Y A057343 Cf. A057144, A057340, A057341, A057346.
+%K A057343 nonn
+%O A057343 1,2
+%A A057343 _Neil Fernandez_, Aug 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

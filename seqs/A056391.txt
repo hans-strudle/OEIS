@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056391
+Showing 1-1 of 1
+
+%I A056391
+%S A056391 1,2,3,6,6,20,14,48,52,140,108,624,352,1400,2172,4464,4116,22112,
+%T A056391 14602,68016,88376,209936,190746,1075200,839128,2797000,3730584,
+%U A056391 11276704,9587580,67195520,35792568
+%N A056391 Number of step shifted (decimated) sequence structures using a maximum of two different symbols.
+%C A056391 See A056371 for an explanation of step shifts. Permuting the symbols will not change the structure.
+%D A056391 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056391 Use de Bruijn's generalization of Polya's enumeration theorem as discussed in reference.
+%Y A056391 Cf. A056371.
+%K A056391 nonn
+%O A056391 1,2
+%A A056391 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

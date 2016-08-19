@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022864
+Showing 1-1 of 1
+
+%I A022864
+%S A022864 1,2,2,3,5,7,10,16,25,41,65,105,169,274,443,720,1169,1898,3082,5007,
+%T A022864 8135,13216,21473,34891,56692,92118,149682,243219,395210,642182,
+%U A022864 1043490,1695582,2755177,4476933,7274641,11820688,19207633,31210810
+%N A022864 a(n) = [ a(n-1)/a(1) ] + [ a(n-2)/a(2) ] + ... + [ a(1)/a(n-1) ], for n >= 3.
+%K A022864 nonn
+%O A022864 1,2
+%A A022864 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

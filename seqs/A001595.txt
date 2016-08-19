@@ -1,0 +1,64 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001595
+Showing 1-1 of 1
+
+%I A001595 M2453 N0974
+%S A001595 1,1,3,5,9,15,25,41,67,109,177,287,465,753,1219,1973,3193,5167,8361,
+%T A001595 13529,21891,35421,57313,92735,150049,242785,392835,635621,1028457,
+%U A001595 1664079,2692537,4356617,7049155,11405773,18454929,29860703,48315633,78176337
+%N A001595 a(n) = a(n-1) + a(n-2) + 1, with a(0) = a(1) = 1.
+%C A001595 2-ranks of difference sets constructed from Segre hyperovals.
+%C A001595 Sometimes called Leonardo numbers. - _George Pollard_, Jan 02 2008
+%C A001595 A001595=Sum of first n Fibonacci numbers minus previous Fibonacci number. - _Vladimir Joseph Stephan Orlovsky_, Oct 13 2009
+%C A001595 a(n) is the number of nodes in the Fibonacci tree of order n. A Fibonacci tree of order n (n>=2) is a complete binary tree whose left subtree is the Fibonacci tree of order n-1 and whose right subtree is the Fibonacci tree of order n-2; each of the Fibonacci trees of order 0 and 1 is defined as a single node (see the Knuth reference, p. 417). - _Emeric Deutsch_, Jun 14 2010
+%C A001595 Also odd numbers whose index is a Fibonacci number: odd(Fib(k)). - _Carmine Suriano_, Oct 21 2010
+%C A001595 This is the sequence A(1,1;1,1;1) of the family of sequences [a,b:c,d:k] considered by _Gary Detlefs_, and treated as A(a,b;c,d;k) in the W. Lang link given below. - _Wolfdieter Lang_, Oct 17 2010
+%D A001595 Dijkstra, E. W., 'Fibonacci numbers and Leonardo numbers', circulated privately, July 1981.
+%D A001595 Dijkstra, E. W., 'Smoothsort, an alternative for sorting in situ', Science of Computer Programming, 1(3): 223-233, 1982.
+%D A001595 R. Evans, H. D. L. Hollmann, C. Krattenthaler, Q. Xiang, Gauss Sums, Jacobi Sums and p-Ranks of Cyclic Difference Sets, J. Combin. Theory Ser. A 87 (1999), 74-119.
+%D A001595 Y. Horibe, An entropy view of Fibonacci trees, Fibonacci Quarterly, 20, No. 2, 1982, 168-178.
+%D A001595 D. E. Knuth, The Art of Computer Programming, Vol. 3, 2nd edition, Addison-Wesley, Reading, MA, 1998, p. 417.
+%D A001595 D. Singmaster, Some counterexamples and problems on linear recurrences, Fib. Quart. 8 (1970), 264-267.
+%D A001595 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001595 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001595 Q. Xiang, On Balanced Binary Sequences with Two-Level Autocorrelation Functions, IEEE Trans. Inform. Theory 44 (1998), 3153-3156.
+%D A001595 J. Ziegenbalg, Algorithmen, Spektrum Akademischer Verlag, 1996, p. 172.
+%H A001595 T. D. Noe, <a href="/A001595/b001595.txt">Table of n, a(n) for n = 0..500</a>
+%H A001595 E. W. Dijkstra, <a href="http://www.cs.utexas.edu/users/EWD/ewd07xx/EWD796a.PDF">Smoothsort, an alternative for sorting in situ (EWD796a)</a>.
+%H A001595 E. W. Dijkstra, <a href="http://www.cs.utexas.edu/users/EWD/ewd07xx/EWD797.PDF">Fibonacci numbers and Leonardo numbers (EWD797)</a>.
+%H A001595 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=1019">Encyclopedia of Combinatorial Structures 1019</a>
+%H A001595 Wolfdieter Lang, <a href="/A001595/a001595.pdf">Notes on certain inhomogeneous three term recurrences.</a>
+%H A001595 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001595 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A001595 <a href="http://radon.mat.univie.ac.at/People/kratt/artikel/glynn.html">Supplement to "Gauss Sums, Jacobi Sums and p-Ranks ..."</a>
+%H A001595 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-1).
+%F A001595 a(n)=2*Fibonacci(n+1)-1. - Richard L. Ollerton (r.ollerton(AT)uws.edu.au), Mar 22 2002
+%F A001595 G.f. (1-x+x^2)/(1-2x+x^3) = 2/(1-x-x^2) - 1/(1-x). [Conjectured by _Simon Plouffe_ in his 1992 dissertation; this is readily verified.]
+%F A001595 a(n) = (2/sqrt(5))*((1+sqrt(5))/2)^(n+1) - 2/sqrt(5)*((1-sqrt(5))/2)^(n+1) - 1.
+%F A001595 a(n+1)/a(n) is asymptotic to Phi = (1+sqrt(5))/2. - _Jonathan Vos Post_, May 26 2005
+%F A001595 For n >= 2, a(n+1) = ceiling(Phi*a(n)). - _Franklin T. Adams-Watters_, Sep 30 2009
+%F A001595 a(n) = Sum[A109754(n-k+1,k),{k,0,n+1}] - Sum[A109754(n-k,k),{k,0,n}] = Sum[A101220(n-k+1,0,k),{k,0,n+1}] - Sum[A101220(n-k,0,k),{k,0,n}]. - _Ross La Haye_, May 31 2006
+%F A001595 a(n)=Fibonacci(n-1)+Fibonacci(n+2)-1. - _Zerinvary Lajos_, Jan 31 2008, corrected by _R. J. Mathar_, Dec 17 2010
+%F A001595 a(0)=1, a(1)=1, a(2)=3, a(n)=2*a(n-1)-a(n-3). - _Harvey P. Dale_, Aug 07 2012
+%e A001595 a(7)=odd(F(7))=odd(8)=15. - _Carmine Suriano_, Oct 21 2010
+%p A001595 L := 1,3: for i from 3 to 100 do l := nops([ L ]): L := L,op(l,[ L ])+op(l-1,[ L ])+1: od: [ L ];
+%p A001595 A001595:=(1-z+z**2)/(z-1)/(z**2+z-1); # _Simon Plouffe_ in his 1992 dissertation
+%p A001595 with(combinat): seq(fibonacci(n-1)+fibonacci(n+2)-1, n=0..32); # _Zerinvary Lajos_, Jan 31 2008
+%t A001595 Join[ {1, 3}, Table[ a[ 1 ]=1; a[ 2 ]=3; a[ i ]=a[ i-1 ]+a[ i-2 ]+1, {i, 3, 100} ] ]
+%t A001595 a=0;lst={};Do[f=Fibonacci[n];a+=f;AppendTo[lst,a-Fibonacci[n-1]],{n,5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 13 2009 *)
+%t A001595 RecurrenceTable[{a[0]==a[1]==1,a[n]==a[n-1]+a[n-2]+1},a,{n,40}] (* or *) LinearRecurrence[{2,0,-1},{1,1,3},40] (* _Harvey P. Dale_, Aug 07 2012 *)
+%o A001595 (PARI) a(n) = 2*fibonacci(n+1)-1. - _Franklin T. Adams-Watters_, Sep 30 2009
+%o A001595 (Haskell)
+%o A001595 a001595 n = a001595_list !! n
+%o A001595 a001595_list =
+%o A001595    1 : 1 : (map (+ 1) $ zipWith (+) a001595_list $ tail a001595_list)
+%o A001595 -- _Reinhard Zumkeller_, Aug 14 2011
+%Y A001595 Cf. A049112, A049114, A000045, A128587, A033538.
+%K A001595 nonn,easy,nice
+%O A001595 0,3
+%A A001595 _N. J. A. Sloane_
+%E A001595 Additional comments from Christian Krattenthaler (kratt(AT)ap.univie.ac.at)
+%E A001595 Further edits from _Franklin T. Adams-Watters_, Sep 30 2009, and _N. J. A. Sloane_, Oct 03 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

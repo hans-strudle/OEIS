@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057191
+Showing 1-1 of 1
+
+%I A057191
+%S A057191 3,7,23,29,59,1249,1709,1823,1931,3433,8863,43201,78707
+%N A057191 Numbers n such that (25^n+1)/26 is a prime.
+%C A057191 Some of the larger terms may only correspond to probable primes.
+%C A057191 a(14) > 10^5. - _Robert Price_, Jun 10 2013
+%H A057191 H. Dubner and T. Granlund, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Primes of the Form (b^n+1)/(b+1)</a>, J. Integer Sequences, 3 (2000), #P00.2.7.
+%K A057191 nonn
+%O A057191 1,1
+%A A057191 _N. J. A. Sloane_, Sep 15 2000
+%E A057191 a(12)-a(13) from _Robert Price_, Jun 10 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013947
+Showing 1-1 of 1
+
+%I A013947
+%S A013947 1,4,5,7,10,13,14,16,17,20,22,23,25,28,29,31,32,34,37,40,41,43,46,48,
+%T A013947 49,51,52,55,58,59,61,64,67,68,70,71,73,76,78,79,82,85,86,88,91,94,95,
+%U A013947 97,98,101,103,104,106,109,112,113,115,116,118,121,122,124,125,128,130,131,133
+%N A013947 Positions of 1's in Kolakoski sequence (A000002).
+%C A013947 a(n) = A022297(n-1)+1 for n>1.
+%K A013947 nonn
+%O A013947 1,2
+%A A013947 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

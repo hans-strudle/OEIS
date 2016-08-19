@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008988
+Showing 1-1 of 1
+
+%I A008988
+%S A008988 1,1,2,6,21,97,579,3812,27328,206410,1625916
+%N A008988 Number of immersions of oriented circle into unoriented sphere with n double points.
+%C A008988 a(10) = 1625916 by sampling method (to be confirmed, cf. ref. arXiv:1507.03163). - _Robert Coquereaux_, Nov 23 2015
+%D A008988 V. I. Arnold, Topological Invariants of Plane Curves..., American Math. Soc., 1994, p. 18.
+%H A008988 R. Coquereaux and J.-B. Zuber, <a href="http://arxiv.org/abs/1507.03163">Maps, immersions and permutations</a>, arXiv:1507.03163 [math.CO], 2015.
+%o A008988 (MAGMA)  // see A260885
+%Y A008988 Cf. A008986, A008987, A008989.First line of triangle A260885.
+%K A008988 nonn,nice,more
+%O A008988 0,3
+%A A008988 _N. J. A. Sloane_
+%E A008988 a(6)-a(7) from Guy H. Valette (guy.valette(AT)skynet.be), Feb 09 2004
+%E A008988 a(8)-a(9) from _Robert Coquereaux_ and Jean-Bernard Zuber, Jul 21 2015
+%E A008988 a(10) from same source added by _N. J. A. Sloane_, Mar 03 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

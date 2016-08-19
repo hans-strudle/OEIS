@@ -1,0 +1,45 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008793
+Showing 1-1 of 1
+
+%I A008793
+%S A008793 1,2,20,980,232848,267227532,1478619421136,39405996318420160,
+%T A008793 5055160684040254910720,3120344782196754906063540800,
+%U A008793 9265037718181937012241727284450000,132307448895406086706107959899799334375000
+%N A008793 Number of ways to tile hexagon of edge n with diamonds of side 1. Also number of plane partitions whose Young diagrams fit inside an n X n X n box.
+%C A008793 The 3-dimensional analog of A000984. - _William Entriken_, Aug 06 2013
+%D A008793 D. M. Bressoud, Proofs and Confirmations, Camb. Univ. Press, 1999; Eq. (6.8), p. 198. The first printing of Eq. (6.8) is wrong (see A049505 and A005157), but if one changes the limits in the formula (before it is corrected) to {1 <= i <= r, 1 <= j <= r}, one obtains the present sequence. - _N. J. A. Sloane_, Jun 30 2013
+%D A008793 Gordon G. Cash and Jerry Ray Dias, Computation, Properties and Resonance Topology of Benzenoid Monoradicals and Polyradicals and the Eigenvectors Belonging to Their Zero Eigenvalues, J. Math. Chem., 30 (2001), 429-444. [See K, p. 442.]
+%D A008793 J. Propp, Enumeration of matchings: problems and progress, pp. 255-291 in L. J. Billera et al., eds, New Perspectives in Algebraic Combinatorics, Cambridge, 1999 (see p. 261).
+%H A008793 T. D. Noe, <a href="/A008793/b008793.txt">Table of n, a(n) for n=0..30</a>
+%H A008793 T. Amdeberhan, V. H. Moll, <a href="http://www.emis.ams.org/journals/EJC/Volume_18/Abstracts/v18i2p1.html">Arithmetic properties of plane partitions</a>, El. J. Comb. 18 (2) (2011) # P1
+%H A008793 P. Di Francesco, P. Zinn-Justin and J.-B. Zuber, <a href="http://arXiv.org/abs/math-ph/0410002">Determinant formulae for some tiling problems...</a>
+%H A008793 I. Fischer, <a href="http://arXiv.org/abs/math.CO/9906102">[math/9906102] Enumeration of rhombus tilings of a hexagon which contain a fixed rhombus in the center</a>
+%H A008793 P. J. Forrester and A. Gamburd, <a href="http://arXiv.org/abs/math.CO/0503002">Counting formulas associated with some random matrix averages</a>
+%H A008793 M. Fulmek and C. Krattenthaler, <a href="http://arXiv.org/abs/math.CO/9909038">[math/9909038] The number of rhombus tilings of a symmetric hexagon which contain a fixed rhombus on the symmetry axis, II</a>
+%H A008793 H. Helfgott and I. M. Gessel, <a href="http://arXiv.org/abs/math.CO/9810143">Enumeration of tilings of diamonds and hexagons with defects</a>
+%H A008793 C. Krattenthaler, <a href="http://arxiv.org/abs/math.CO/0503507">Advanced Determinant Calculus: A Complement</a>, Linear Algebra Appl. 411 (2005), 68-166; arXiv:math/0503507v2 [math.CO].
+%H A008793 P. A. MacMahon, <a href="http://www.archive.org/details/combinatoryanaly02macmuoft">Combinatory Analysis, vol. 2</a>, Cambridge University Press, 1916; reprinted by Chelsea, New York, 1960.
+%H A008793 J. Propp, Enumeration of matchings: problems and progress, in L. J. Billera et al. (eds.), <a href="http://www.msri.org/publications/books/Book38/contents.html">New Perspectives in Algebraic Combinatorics</a>
+%H A008793 J. Propp, <a href="http://faculty.uml.edu/jpropp/update.pdf">Updated article</a>
+%H A008793 N. C. Saldanha and C. Tomei, <a href="http://arXiv.org/abs/math.CO/9801111">[math/9801111] An overview of domino and lozenge tilings</a>
+%H A008793 P. J. Taylor, <a href="http://cheddarmonk.org/papers/distinct-dimer-hex-tilings.pdf">Counting distinct dimer hex tilings</a>, Preprint, 2015.
+%H A008793 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PlanePartition.html">Plane Partition.</a>
+%F A008793 Product_{i=0..n-1} (i^(-i)*(n+i)^(2i-n)*(2n+i)^(n-i)).
+%F A008793 Product_{i=1..n} Product_{j=0..n-1} (3*n-i-j)/(2*n-i-j).
+%F A008793 Product[Gamma[i]Gamma[i+2n]/Gamma[i+n]^2, {i, n}]
+%F A008793 Product[i=0..n-1, i!(i+2n)!/(i+n)!^2 ].
+%F A008793 a(n)=Prod[i=1..n, Prod[j=n..2n-1, i+j]/Prod[j=0..n-1, i+j]]. - _Paul Barry_, Jun 13 2006
+%F A008793 For n >= 1, a(n) = det(binomial(2*n,n+i-j))1<=i,j<=n [Krattenhaller, Theorem 4, with a = b = c = n].
+%F A008793 Let H(n) = product {k = 1..n-1} k!. Then for a,b,c nonnegative integers (H(a)*H(b)*H(c)*H(a+b+c))/(H(a+b)*H(b+c)*H(c+a)) is an integer [MacMahon, Section 4.29 with x -> 1]. Setting a = b = c = n gives the entries for this sequence. - Peter Bala, Dec 22 2011
+%F A008793 a(n) ~ exp(1/12) * 3^(9*n^2/2 - 1/12) / (A * n^(1/12) * 2^(6*n^2 - 1/4)), where A = A074962 = 1.28242712910062263687534256886979... is the Glaisher-Kinkelin constant. - _Vaclav Kotesovec_, Feb 27 2015
+%p A008793 A008793 := proc(n) local i; mul((i - 1)!*(i + 2*n - 1)!/((i + n - 1)!)^2, i = 1 .. n) end proc;
+%t A008793 Table[ Product[ (i+j+k-1)/(i+j+k-2), {i, n}, {j, n}, {k, n} ], {n, 10} ]
+%Y A008793 Cf. A066931. Main diagonal of array A103905.
+%K A008793 nonn,easy,nice
+%O A008793 0,2
+%A A008793 _Jonas Wallgren_
+%E A008793 More terms from _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

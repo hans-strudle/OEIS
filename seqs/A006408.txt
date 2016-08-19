@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006408
+Showing 1-1 of 1
+
+%I A006408 M3672
+%S A006408 4,39,190,651,1792,4242,8988,17490,31812
+%N A006408 Number of rooted nonseparable maps on the torus.
+%D A006408 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006408 T. R. S. Walsh, A. B. Lehman, Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%F A006408 Conjecture: a(n) = (n*(12-28*n-45*n^2+20*n^3+33*n^4+8*n^5))/360. G.f.: -x^2*(x^2+11*x+4) / (x-1)^7. - _Colin Barker_, Apr 08 2013
+%K A006408 nonn,more
+%O A006408 2,1
+%A A006408 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

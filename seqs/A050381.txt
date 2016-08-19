@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050381
+Showing 1-1 of 1
+
+%I A050381
+%S A050381 2,3,10,40,170,785,3770,18805,96180,502381,2667034,14351775,78096654,
+%T A050381 429025553,2376075922,13252492311,74372374366,419651663108,
+%U A050381 2379399524742,13549601275893,77460249369658,444389519874841
+%N A050381 Number of series-reduced planted trees with n leaves of 2 colors.
+%H A050381 F. Chapoton, F. Hivert, J.-C. Novelli, <a href="http://arxiv.org/abs/1307.0092">A set-operad of formal fractions and dendriform-like sub-operads</a>, arXiv preprint arXiv:1307.0092, 2013
+%H A050381 V. P. Johnson, <a href="http://www.math.sc.edu/~czabarka/JohnsonThesis.pdf">Enumeration Results on Leaf Labeled Trees</a>, Ph. D. Dissertation, Univ. Southern Calif., 2012. - From _N. J. A. Sloane_, Dec 22 2012
+%H A050381 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A050381 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A050381 Doubles (index 2+) under EULER transform.
+%Y A050381 Cf. A000669, A001678, A029856, A031148.
+%K A050381 nonn
+%O A050381 1,1
+%A A050381 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

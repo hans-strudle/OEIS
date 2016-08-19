@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040311
+Showing 1-1 of 1
+
+%I A040311
+%S A040311 18,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,
+%T A040311 6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,
+%U A040311 36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36,6,36
+%N A040311 Continued fraction for sqrt(330).
+%H A040311 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040311 a(n)=21+15*(-1)^n-18*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 27 2009]
+%p A040311 with(numtheory): Digits := 300: convert(evalf(sqrt(330)),confrac);
+%K A040311 nonn,cofr,easy
+%O A040311 0,1
+%A A040311 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

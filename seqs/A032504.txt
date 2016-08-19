@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032504
+Showing 1-1 of 1
+
+%I A032504
+%S A032504 2,5,32,36,38,41,57,69,71,72,116,137,156,197,237,336,353,489,545,678,
+%T A032504 1040,1137,1217,1451,1577,1589,1836,3077,4640,4850,5145,7139,7766,
+%U A032504 8051,9662,11159,13433,13763,15998,16862,19002,25412,35558,47916,48509
+%N A032504 Numbers n such that 255*2^n+1 is prime.
+%H A032504 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032504 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032504 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032504 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032504 nonn,hard
+%O A032504 1,1
+%A A032504 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

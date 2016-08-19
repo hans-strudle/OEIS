@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058928
+Showing 1-1 of 1
+
+%I A058928
+%S A058928 1,2,8,48,128,3840,46080,14336,10321920,185794560,6553600,81749606400
+%N A058928 Denominators of series related to triangular cacti.
+%C A058928 Contribution by L. Edson Jeffery, Jan 09 2012 (Start):
+%C A058928 The reference [Bergeron, et al.] lists the first few terms of the relevant series as S(x)=x+(1/2)*x^3+(5/8)*x^5+(49/48)*x^7+(243/128)*x^9+..., from which the denominators were taken for this sequence and the numerators for A058927. This leads to the following
+%C A058928 Conjecture: S(x)=sum[n=0,1,..., ((2*n+1)^(n-1)/(n!*2^n))*x^(2*n+1)] = (A052750(n)/A000165(n))*x^(2*n+1). Letting D_n be the set of divisors of n! and d_n=max(k in D_n : k | (2*n+1)^(n-1)), then a(n)=A000165(n)/d_n, with the next few terms, for n=12,...,20, being:
+%C A058928 {78479622144, 209924915200, 1428329123020800, 42849873690624000, 170993385472000, 7611536747003904, 1678343852714360832000, 747740921331712000, 2551082656125828464640000}. (End)
+%D A058928 F. Bergeron, G. Labelle and P. Leroux, Combinatorial Species and Tree-Like Structures, Camb. 1998, p. 307.
+%Y A058928 Cf. A000165, A052750, A058927.
+%K A058928 nonn,frac,easy,more
+%O A058928 0,2
+%A A058928 _N. J. A. Sloane_, Jan 12 2001
+%E A058928 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 25 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

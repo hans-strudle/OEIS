@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025699
+Showing 1-1 of 1
+
+%I A025699
+%S A025699 1,2,4,6,9,12,16,20,25,30,36,42,49,56,64,72,81,90,100,111,122,134,146,
+%T A025699 159,172,186,200,215,230,246,262,279,296,314,332,351,371,391,412,433,
+%U A025699 455,477,500,523,547,571,596,621,647,673,700,727,755,784,813,843,873,904,935
+%N A025699 Index of 3^n within sequence of numbers of form 3^i*8^j.
+%C A025699 Not same as A002620.
+%K A025699 nonn
+%O A025699 0,2
+%A A025699 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

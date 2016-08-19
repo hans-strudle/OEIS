@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029413
+Showing 1-1 of 1
+
+%I A029413
+%S A029413 1,0,0,0,0,0,1,1,1,1,0,0,1,1,2,2,2,1,2,1,2,3,3,3,4,3,3,4,4,4,6,5,6,6,
+%T A029413 6,6,8,7,8,9,9,9,11,10,11,12,12,12,15,14,15,16,16,16,19,18,20,21,21,
+%U A029413 21,24,23,25,27,27,27,30,29
+%N A029413 Expansion of 1/((1-x^6)(1-x^7)(1-x^8)(1-x^9)).
+%K A029413 nonn
+%O A029413 0,15
+%A A029413 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

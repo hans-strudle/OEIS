@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030056
+Showing 1-1 of 1
+
+%I A030056
+%S A030056 1,15,136,969,5985,33649,177100,888030,4292145,20160075,92561040,
+%T A030056 417225900,1852482996,8122425444,35240152720,151532656696,
+%U A030056 646626422970,2741188875414,11554258485616,48459472266975
+%N A030056 C(2n+1,n-6).
+%H A030056 Chai Wah Wu, <a href="/A030056/b030056.txt">Table of n, a(n) for n = 6..500</a>
+%H A030056 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%F A030056 a(n+1) = a(n)*(2*n+2)*(2*n+3)/((n-5)*(n+8)). - _Chai Wah Wu_, Jan 26 2016
+%o A030056 (Python)
+%o A030056 from __future__ import division
+%o A030056 A030056_list, b = [], 1
+%o A030056 for n in range(6,501):
+%o A030056     A030056_list.append(b)
+%o A030056     b = b*(2*n+2)*(2*n+3)//((n-5)*(n+8)) # _Chai Wah Wu_, Jan 26 2016
+%Y A030056 Diagonal 14 of triangle A100257.
+%K A030056 nonn
+%O A030056 6,2
+%A A030056 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

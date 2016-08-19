@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035674
+Showing 1-1 of 1
+
+%I A035674
+%S A035674 0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,0,3,1,0,3,1,0,3,1,6,3,1,7,3,1,7,3,
+%T A035674 12,7,3,15,7,3,16,7,21,16,7,28,16,7,31,16,36,32,16,50,32,16,57,32,60,
+%U A035674 60,32,85,61,32,100,61,98,107,61,141,110,61,169,111,157,184,111,226
+%N A035674 Number of partitions of n into parts 8k and 8k+3 with at least one part of each type
+%K A035674 nonn
+%O A035674 1,19
+%A A035674 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017912
+Showing 1-1 of 1
+
+%I A017912
+%S A017912 1,2,2,3,4,6,8,12,16,23,32,46,64,91,128,182,256,363,512,725,1024,1449,
+%T A017912 2048,2897,4096,5793,8192,11586,16384,23171,32768,46341,65536,92682,
+%U A017912 131072,185364,262144,370728,524288
+%N A017912 Powers of sqrt(2) rounded up.
+%H A017912 Vincenzo Librandi, <a href="/A017912/b017912.txt">Table of n, a(n) for n = 0..1000</a>
+%t A017912 Ceiling[(Sqrt[2])^Range[0,40]] (* _Vincenzo Librandi_, Nov 20 2011 *)
+%o A017912 (MAGMA) [Ceiling(Sqrt(2^n)): n in [0..40]]; // _Vincenzo Librandi_, Nov 20 2011
+%K A017912 nonn
+%O A017912 0,2
+%A A017912 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034305
+Showing 1-1 of 1
+
+%I A034305
+%S A034305 14,16,18,44,46,48,49,64,66,68,69,81,84,86,88,91,94,96,98,99,122,124,
+%T A034305 125,126,128,142,144,145,146,148,152,154,155,156,158,162,164,165,166,
+%U A034305 168,182,184,185,186,188,212,214,215,216,218,221,222,224,225,226,228
+%N A034305 Nonprime numbers n such that n remains nonprime if any digit deleted (zeros not allowed in n).
+%H A034305 T. D. Noe and Reinhard Zumkeller, <a href="/A034305/b034305.txt">Table of n, a(n) for n = 1..10000</a>, first 1000 terms by T. D. Noe
+%o A034305 (Haskell)
+%o A034305 a034305 n = a034305_list !! (n-1)
+%o A034305 a034305_list = filter f $ drop 9 a052382_list where
+%o A034305   f x = a010051' x == 0 &&
+%o A034305         (all (== 0) $ map (a010051' . read) $
+%o A034305          zipWith (++) (inits $ show x) (tail $ tails $ show x))
+%o A034305 -- _Reinhard Zumkeller_, May 10 2015
+%Y A034305 Cf. A034302-A034304.
+%Y A034305  Cf. A010051, subsequence of A052382.
+%K A034305 base,nonn,nice
+%O A034305 1,1
+%A A034305 _David W. Wilson_
+%E A034305 Definition corrected by T. D. Noe, Apr 02 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

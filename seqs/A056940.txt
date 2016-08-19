@@ -1,0 +1,52 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056940
+Showing 1-1 of 1
+
+%I A056940
+%S A056940 1,1,1,1,5,1,1,15,15,1,1,35,105,35,1,1,70,490,490,70,1,1,126,1764,
+%T A056940 4116,1764,126,1,1,210,5292,24696,24696,5292,210,1,1,330,13860,116424,
+%U A056940 232848,116424,13860,330,1,1,495,32670,457380,1646568,1646568,457380
+%N A056940 Number of antichains (or order ideals) in the poset 4*m*n or plane partitions with rows <= m, columns <= n and entries <= 4
+%C A056940 Determinants of 4 X 4 subarrays of Pascal's triangle A007318 (a matrix entry being set to 0 when not present). - _Gerald McGarvey_, Feb 24 2005
+%C A056940 Row sums are: {1, 2, 7, 32, 177, 1122, 7898, 60398, 494078, 4274228, 38763298,...}. - _Roger L. Bagula_, Mar 08 2010
+%C A056940 Also determinants of 4x4 arrays whose entries come from a single row: T(n,k) = det [C(n,k),C(n,k-1),C(n,k-2),C(n,k-3); C(n,k+1),C(n,k),C(n,k-1),C(n,k-2); C(n,k+2),C(n,k+1),C(n,k),C(n,k-1); C(n,k+3),C(n,k+2),C(n,k+1),C(n,k)]. - _Peter Bala_, May 10 2012
+%D A056940 Paul Barry, On Integer-Sequence-Based Constructions of Generalized Pascal Triangles, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.4.
+%D A056940 Berman and Koehler, Cardinalities of finite distributive lattices, Mitteilungen aus dem Mathematischen Seminar Giessen, 121 (1976), p. 103-124
+%D A056940 P. A. MacMahon, Combinatory Analysis, sect 495, 1916.
+%D A056940 R. P. Stanley, Theory and application of plane partitions. II. Studies in Appl. Math. 50 (1971), p. 259-279. Thm. 18.1
+%H A056940 J. Berman and P. Koehler, <a href="/A006356/a006356.pdf">Cardinalities of finite distributive lattices</a>, Mitteilungen aus dem Mathematischen Seminar Giessen, 121 (1976), 103-124. [Annotated scanned copy]
+%H A056940 P. A. MacMahon, <a href="http://www.hti.umich.edu/cgi/t/text/text-idx?c=umhistmath;idno=ABU9009">Combinatory analysis</a>.
+%H A056940 <a href="/index/Pos#posets">Index entries for sequences related to posets</a>
+%F A056940 Product[ C(n+m+k, m+k)/C(n+k, k), {k, 0, 3} ] gives the array as a square.
+%F A056940 Contribution from _Roger L. Bagula_, Mar 08 2010: (Start)
+%F A056940 q=3;
+%F A056940 c(n,q)=Product[Product[i + j, {j, 0, q}], {i, 1, n}];
+%F A056940 T(n,m,q)=c(n,q)/(c(m,q)*c(n-m,q) (End)
+%F A056940 From Peter Bala, Oct 13 2011: (Start)
+%F A056940 T(n-1,k-1)*T(n,k+1)*T(n+1,k) = T(n-1,k)*T(n,k-1)*T(n+1,k+1).
+%F A056940 Define a(r,n) = n!*(n+1)!*...*(n+r)!. The triangle whose (n,k)-th entry is a(r,0)*a(r,n)/(a(r,k)*a(r,n-k)) is A007318 (r = 0), A001263 (r = 1), A056939 (r = 2), A056940 (r = 3) and A056941 (r = 4). (End)
+%e A056940 Contribution from _Roger L. Bagula_, Mar 08 2010: (Start)
+%e A056940 {1},
+%e A056940 {1, 1},
+%e A056940 {1, 5, 1},
+%e A056940 {1, 15, 15, 1},
+%e A056940 {1, 35, 105, 35, 1},
+%e A056940 {1, 70, 490, 490, 70, 1},
+%e A056940 {1, 126, 1764, 4116, 1764, 126, 1},
+%e A056940 {1, 210, 5292, 24696, 24696, 5292, 210, 1},
+%e A056940 {1, 330, 13860, 116424, 232848, 116424, 13860, 330, 1},
+%e A056940 {1, 495, 32670, 457380, 1646568, 1646568, 457380, 32670, 495, 1},
+%e A056940 {1, 715, 70785, 1557270, 9343620, 16818516, 9343620, 1557270, 70785, 715, 1} (End)
+%t A056940 Contribution from _Roger L. Bagula_, Mar 08 2010: (Start)
+%t A056940 c[n_, q_] = Product[Product[i + j, {j, 0, q}], {i, 1, n}];
+%t A056940 t[n_, m_, q_] = c[n, q]/(c[m, q]*c[n - m, q]);
+%t A056940 Table[Flatten[Table[Table[t[n, m, q], {m, 0, n}], {n, 0, 10}]], {q, 2, 12}] (End)
+%Y A056940 Cf. A000372, A056932, A001263, A056939, A056941.
+%Y A056940 Antidiagonals sum to A005362 (Hoggatt sequence)
+%Y A056940 Cf. q=2: A056939 [From _Roger L. Bagula_, Mar 08 2010]
+%K A056940 nonn,easy,tabl
+%O A056940 0,5
+%A A056940 _Mitch Harris_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

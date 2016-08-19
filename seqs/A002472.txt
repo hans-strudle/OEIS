@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002472
+Showing 1-1 of 1
+
+%I A002472 M0411 N0157
+%S A002472 1,1,1,2,3,1,5,4,3,3,9,2,11,5,3,8,15,3,17,6,5,9,21,4,15,11,9,10,27,3,
+%T A002472 29,16,9,15,15,6,35,17,11,12,39,5,41,18,9,21,45,8,35,15,15,22,51,9,27,
+%U A002472 20,17,27,57,6,59,29,15,32,33,9,65,30,21,15,69,12,71,35,15,34,45,11,77,24,27
+%N A002472 Number of pairs x,y such that y-x=2, (x,n)=1, (y,n)=1 and 1 <= x <= n.
+%D A002472 Golubev, V. A.; Nombres de Mersenne et caracteres du nombre 2. Mathesis 67 1958 257-262.
+%D A002472 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002472 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002472 T. D. Noe, <a href="/A002472/b002472.txt">Table of n, a(n) for n = 1..1000</a>
+%F A002472 Multiplicative with a(p^e) = p^(e-1) if p = 2; (p-2)*p^(e-1) if p > 2. - _David W. Wilson_, Aug 01 2001
+%t A002472 a[n_] := If[ Head[ r=Reduce[ GCD[x, n] == 1 && GCD[x+2, n] == 1 && 1 <= x <= n, x, Integers]] === Or, Length[r], 1]; Table[a[n], {n, 1, 81}] (* _Jean-François Alcover_, Nov 22 2011 *)
+%o A002472 (PARI) a(n)=my(k=valuation(n,2),f=factor(n>>k));prod(i=1,#f[,1],(f[i,1]-2)*f[i,1]^(f[i,2]-1))<<max(0,k-1) \\ _Charles R Greathouse IV_, Nov 22 2011
+%o A002472 (Haskell)
+%o A002472 a002472 n = length [x | x <- [1..n], gcd n x == 1, gcd n (x + 2) == 1]
+%o A002472 -- _Reinhard Zumkeller_, Mar 23 2012
+%K A002472 nonn,nice,easy,mult
+%O A002472 1,4
+%A A002472 _N. J. A. Sloane_
+%E A002472 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

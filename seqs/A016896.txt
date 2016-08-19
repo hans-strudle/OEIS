@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016896
+Showing 1-1 of 1
+
+%I A016896
+%S A016896 531441,68719476736,23298085122481,1156831381426176,21914624432020321,
+%T A016896 232218265089212416,1667889514952984961,9065737908494995456,
+%U A016896 39959630797262576401,149587343098087735296,491258904256726154641
+%N A016896 (5n+3)^12.
+%H A016896 Vincenzo Librandi, <a href="/A016896/b016896.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016896 (MAGMA) [(5*n+3)^12: n in [0..30]]; // Vincenzo Librandi, May 02 2011
+%K A016896 nonn,easy
+%O A016896 0,1
+%A A016896 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053776
+Showing 1-1 of 1
+
+%I A053776
+%S A053776 1,1,1,1,1,1,1,1,1,358201502736997192984166401,
+%T A053776 750836199529096452135514747699201,
+%U A053776 1049488806253789856936937093744033792001
+%N A053776 Number of n X n binary matrices of order dividing 11 (i.e. number of solutions of X^11=I in GL(n,2)).
+%D A053776 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053776 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053776 Cf. A053722, A053725, A053718.
+%K A053776 nonn
+%O A053776 1,10
+%A A053776 _Vladeta Jovovic_, Mar 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

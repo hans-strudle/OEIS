@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058008
+Showing 1-1 of 1
+
+%I A058008
+%S A058008 1,6,15,28,42,45,66,77,91,110,126,140,153,156,170,187,190,204,209,210,
+%T A058008 220,228,231,238,266,276,299,308,312,315,322,325,330,345,378,414,420,
+%U A058008 429,435,440,442,450,459,460,468,476,483,493,496
+%N A058008 (2*n - 1)!/(n!)^2 is an integer.
+%C A058008 Original name was: Numbers n such that gcd(2*n,C(2*n,n))=2*n.
+%C A058008 For n a prime power (see A000961) we have gcd(2*n,C(2*n,n))=2. [Arkadiusz Wesolowski, Jul 01 2012]
+%C A058008 Also, positions where A075055 differs from A000984. - _Ralf Stephan_, Dec 11 2004
+%F A058008 Appears to be A067348(n)/2. - _Benoit Cloitre_, Mar 21 2003
+%t A058008 Select[Range[500], IntegerQ[(2 # - 1)!/#!^2] &] (* _Arkadiusz Wesolowski_, Jul 01 2012 *)
+%Y A058008 Cf. A001405, A000961.
+%K A058008 nonn
+%O A058008 1,2
+%A A058008 _Labos Elemer_, Nov 13 2000
+%E A058008 Name changed by Arkadiusz Wesolowski, Jul 01 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

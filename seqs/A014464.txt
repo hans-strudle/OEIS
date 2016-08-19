@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014464
+Showing 1-1 of 1
+
+%I A014464
+%S A014464 1,1,0,0,0,1,1,1,1,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0,0,0,1,1,
+%T A014464 0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,1,1,0,0,
+%U A014464 0,1,1,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0
+%V A014464 1,-1,0,0,0,1,-1,1,-1,0,1,-1,1,0,0,0,-1,1,0,0,1,-1,0,0,0,1,0,0,0,-1,1,
+%W A014464 0,0,1,-1,0,0,0,1,0,0,0,-1,1,0,0,1,-1,0,0,0,1,0,0,0,-1,1,0,0,1,-1,0,0,
+%X A014464 0,1,-1,1,0,-1,1,-1,1,0,0,0,-1,1,0,0,0,0
+%N A014464 Inverse of 455th cyclotomic polynomial.
+%p A014464 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014464 sign
+%O A014464 0,1
+%A A014464 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

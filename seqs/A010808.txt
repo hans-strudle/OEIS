@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010808
+Showing 1-1 of 1
+
+%I A010808
+%S A010808 0,1,1048576,3486784401,1099511627776,95367431640625,3656158440062976,
+%T A010808 79792266297612001,1152921504606846976,12157665459056928801,
+%U A010808 100000000000000000000,672749994932560009201,3833759992447475122176
+%N A010808 20th powers: a(n) = n^20.
+%C A010808 Totally multiplicative sequence with a(p) = p^20 for prime p. Multiplicative sequence with a(p^e) = p^(20e). [From _Jaroslav Krizek_, Nov 01 2009]
+%H A010808 Vincenzo Librandi, <a href="/A010808/b010808.txt">Table of n, a(n) for n = 0..1000</a>
+%o A010808 (MAGMA) [n^20: n in [0..15]]; // Vincenzo Librandi, Jun 19 2011
+%K A010808 nonn,mult
+%O A010808 0,3
+%A A010808 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

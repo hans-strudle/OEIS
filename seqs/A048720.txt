@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048720
+Showing 1-1 of 1
+
+%I A048720
+%S A048720 0,0,0,0,1,0,0,2,2,0,0,3,4,3,0,0,4,6,6,4,0,0,5,8,5,8,5,0,0,6,10,12,12,
+%T A048720 10,6,0,0,7,12,15,16,15,12,7,0,0,8,14,10,20,20,10,14,8,0,0,9,16,9,24,
+%U A048720 17,24,9,16,9,0,0,10,18,24,28,30,30,28,24,18,10,0,0,11,20,27,32,27,20,27,32,27,20,11,0
+%N A048720 Multiplication table {0..i} X {0..j} of binary polynomials (in GF(2)) interpreted as binary vectors, then written in base 10; or, binary multiplication without carries.
+%C A048720 Essentially same as A091257 but computed starting from offset 0 instead of 1.
+%H A048720 A. Karttunen, <a href="/A091247/a091247.scm.txt">Scheme-program for computing this sequence.</a>
+%H A048720 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>: Maple implementation of binary eXclusive OR (XORnos).
+%H A048720 <a href="/index/Ge#GF2X">Index entries for sequences operating on GF(2)[X]-polynomials</a>
+%F A048720 a(n) = Xmult( (((trinv(n)-1)*(((1/2)*trinv(n))+1))-n), (n-((trinv(n)*(trinv(n)-1))/2)) );
+%F A048720 T(2b, c)=T(c, 2b)=T(b, 2c)=2T(b, c); T(2b+1, c)=T(c, 2b+1)=2T(b, c) XOR c - _Henry Bottomley_, Mar 16 2001
+%e A048720 Top left corner of array:
+%e A048720 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ...
+%e A048720 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 ...
+%e A048720 0 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 ...
+%e A048720 0 3 6 5 12 15 10 9 24 27 30 29 20 23 18 17 ...
+%p A048720 trinv := n -> floor((1+sqrt(1+8*n))/2); # Gives integral inverses of the triangular numbers
+%p A048720 # Binary multiplication of nn and mm, but without carries (use XOR instead of ADD):
+%p A048720 Xmult := proc(nn,mm) local n,m,s; n := nn; m := mm; s := 0; while (n > 0) do if(1 = (n mod 2)) then s := XORnos(s,m); fi; n := floor(n/2); # Shift n right one bit. m := m*2; # Shift m left one bit. od; RETURN(s); end;
+%t A048720 trinv[n_] := Floor[(1 + Sqrt[1 + 8*n])/2];
+%t A048720 Xmult[nn_, mm_] := Module[{n = nn, m = mm, s = 0}, While[n > 0, If[1 == Mod[n, 2], s = BitXor[s, m]]; n = Floor[n/2]; m = m*2]; Return[s]];
+%t A048720 a[n_] := Xmult[(trinv[n] - 1)*((1/2)*trinv[n] + 1) - n, n - (trinv[n]*(trinv[n] - 1))/2];
+%t A048720 Table[a[n], {n, 0, 100}] (* _Jean-François Alcover_, Mar 16 2015, updated Mar 06 2016 after Maple *)
+%Y A048720 Cf. A048631, A051776, A059692.
+%Y A048720 Ordinary {0..i} * {0..j} multiplication table: A004247 and its differences from this: A061858.
+%Y A048720 Binary irreducible polynomials ("X-primes"): A014580, table of "X-powers": A048723. Row/column 3: A048724, 5: A048725, 6: A048726, 7: A048727.
+%K A048720 nonn,tabl
+%O A048720 0,8
+%A A048720 _Antti Karttunen_, Apr 26 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

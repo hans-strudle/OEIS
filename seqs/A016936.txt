@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016936
+Showing 1-1 of 1
+
+%I A016936
+%S A016936 16,4096,38416,160000,456976,1048576,2085136,3748096,6250000,9834496,
+%T A016936 14776336,21381376,29986576,40960000,54700816,71639296,92236816,
+%U A016936 116985856,146410000,181063936,221533456,268435456
+%N A016936 (6n+2)^4.
+%H A016936 Vincenzo Librandi, <a href="/A016936/b016936.txt">Table of n, a(n) for n = 0..2000</a>
+%H A016936 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5, -10, 10, -5, 1).
+%F A016936 a(0)=16, a(1)=4096, a(2)=38416, a(3)=160000, a(4)=456976, a(n)=5*a(n-1)- 10*a(n-2)+10*a(n-3)-5*a(n-4)+a(n-5). - _Harvey P. Dale_, Aug 22 2012
+%t A016936 (6*Range[0,30]+2)^4 (* or *) LinearRecurrence[{5,-10,10,-5,1},{16,4096,38416,160000,456976},30] (* _Harvey P. Dale_, Aug 22 2012 *)
+%o A016936 (MAGMA) [(6*n+2)^4: n in [0..30]]; // Vincenzo Librandi, May 04 2011
+%K A016936 nonn,easy
+%O A016936 0,1
+%A A016936 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

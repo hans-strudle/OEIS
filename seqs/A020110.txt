@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020110
+Showing 1-1 of 1
+
+%I A020110
+%S A020110 1,1,2,4,15,70,401,2715,21116,185346,1812264,19532171,230045569,
+%T A020110 2939471158,40499380397,598490843643,9442855533027,158430131720784,
+%U A020110 2816535675036147,52888281009012093,1046012668844905827
+%N A020110 Ceiling of GAMMA(n+7/9)/GAMMA(7/9).
+%p A020110 Digits := 64:f := proc(n,x) ceil(GAMMA(n+x)/GAMMA(x)); end;
+%K A020110 nonn
+%O A020110 0,3
+%A A020110 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

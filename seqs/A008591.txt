@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008591
+Showing 1-1 of 1
+
+%I A008591
+%S A008591 0,9,18,27,36,45,54,63,72,81,90,99,108,117,126,135,144,153,162,171,
+%T A008591 180,189,198,207,216,225,234,243,252,261,270,279,288,297,306,315,324,
+%U A008591 333,342,351,360,369,378,387,396,405,414,423,432,441,450,459,468,477
+%N A008591 Multiples of 9.
+%C A008591 Complement of A168183; A168182(a(n)) = 0. - _Reinhard Zumkeller_, Nov 30 2009
+%C A008591 a(n) = A007953(A002283(n)). - _Reinhard Zumkeller_, Aug 06 2010
+%H A008591 Ivan Panchenko, <a href="/A008591/b008591.txt">Table of n, a(n) for n = 0..200</a>
+%H A008591 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A008591 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=321">Encyclopedia of Combinatorial Structures 321</a>
+%H A008591 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081, 2014
+%H A008591 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1).
+%F A008591 a(n) = 9*n = 2*a(n-1) - a(n-2). G.f.: 9x/(x-1)^2. - _Vincenzo Librandi_, Dec 24 2010
+%t A008591 Range[0, 1000, 9] (* _Vladimir Joseph Stephan Orlovsky_, May 27 2011 *)
+%o A008591 (PARI) a(n)=9*n \\ _Charles R Greathouse IV_, Jan 30 2012
+%o A008591 (Maxima) makelist(9*n,n,0,20); /* _Martin Ettl_, Dec 17 2012 */
+%Y A008591 Cf. A008588, A008589, A008590.
+%K A008591 nonn,easy
+%O A008591 0,2
+%A A008591 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

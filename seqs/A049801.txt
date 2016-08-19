@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049801
+Showing 1-1 of 1
+
+%I A049801
+%S A049801 0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,
+%T A049801 1,1,0,0,0,1,1,1,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,
+%U A049801 0,0,0,0,2,2,2,2,2,2,0,0,0,1,1,1
+%N A049801 Triangular array T read by rows: T(n,k)=n mod [ k/3 ], k=3,4,...,n, n=3,4,...
+%e A049801 Rows: {0}; {0,0}; {0,0,0}; ...
+%K A049801 nonn,tabl
+%O A049801 1,43
+%A A049801 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

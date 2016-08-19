@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018841
+Showing 1-1 of 1
+
+%I A018841
+%S A018841 0,2,4,6,4,2,4,6,6,6,4,6,6,6,8,6,8,8,8,10,8,10,10,10,12,10,12,12,12,
+%T A018841 14,12,14,14,14,16,14,16,16,16,18,16,18,18,18,20,18,20,20,20,22,20,22,
+%U A018841 22,22,24,22,24,24,24,26,24,26,26,26,28,26,28,28,28,30,28,30,30,30,32,30,32,32
+%N A018841 Number of steps for {2,3} fairy knight to reach (n,n) on infinite chessboard.
+%F A018841 For n >= 14, a(n) = a(n-5) + 2. - _David W. Wilson_
+%K A018841 nonn
+%O A018841 0,2
+%A A018841 _Marc LeBrun_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

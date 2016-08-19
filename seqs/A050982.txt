@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050982
+Showing 1-1 of 1
+
+%I A050982
+%S A050982 1,30,525,7000,78750,787500,7218750,61875000,502734375,3910156250,
+%T A050982 29326171875,213281250000,1510742187500,10458984375000,70971679687500,
+%U A050982 473144531250000,3105010986328125,20091247558593750
+%N A050982 5-idempotent numbers.
+%C A050982 With a different offset, number of n-permutations of 6 objects:t,u,v,z,x, y with repetition allowed, containing exactly five (5) u's. Example: a(1)=30 because we have uuuuut, uuuutu, uuutuu, uutuuu, utuuuu, tuuuuu, uuuuuv, uuuuvu, uuuvuu, uuvuuu, uvuuuu, vuuuuu, uuuuuz, uuuuzu, uuuzuu, uuzuuu, uzuuuu, zuuuuu, uuuuux, uuuuxu, uuuxuu, uuxuuu, uxuuuu, xuuuuu, uuuuuy, uuuuyu, uuuyuu, uuyuuu, uyuuuu, yuuuuu. - _Zerinvary Lajos_, Jun 16 2008
+%D A050982 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 91, #43..
+%H A050982 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/IdempotentNumber.html">Idempotent Number</a>
+%H A050982 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (30,-375,2500,-9375,18750,-15625).
+%F A050982 C(n, 5)*5^(n-5).
+%F A050982 G.f.:1/(1-5*x)^6. [From _Zerinvary Lajos_, Aug 06 2008]
+%F A050982 Expansion of 1/(1-5*x)^6. - _Zerinvary Lajos_, Aug 02 2008
+%p A050982 seq(binomial(n+5,5)*5^n,n=0..17); - _Zerinvary Lajos_, Jun 16 2008
+%o A050982 (Sage) [lucas_number2(n, 5, 0)*binomial(n,5)/5^5 for n in xrange(5, 23)] # [From _Zerinvary Lajos_, Mar 12 2009]
+%o A050982 (PARI) a(n)=binomial(n, 5)*5^(n-5) \\ _Charles R Greathouse IV_, Sep 03 2011
+%Y A050982 Cf. A001788, A036216, A040075, A050988, A050989, A000389, A054849, A036219, A045543, A036084, A140404, A000389, A054849, A036219, A045543, A036084, A140404.
+%K A050982 nonn,easy
+%O A050982 5,2
+%A A050982 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006325
+Showing 1-1 of 1
+
+%I A006325
+%S A006325 0,0,1,7,26,70,155,301,532,876,1365,2035,2926,4082,5551,7385,9640,
+%T A006325 12376,15657,19551,24130,29470,35651,42757,50876,60100,70525,82251,
+%U A006325 95382,110026,126295,144305,164176,186032,210001,236215,264810,295926
+%N A006325 4-dimensional analog of centered polygonal numbers.
+%C A006325 If X is an n-set and Y and Z disjoint 2-subsets of X then a(n-4) is equal to the number of 6-subsets of X intersecting both Y and Z. - _Milan Janjic_, Aug 26 2007
+%C A006325 For n>0, a(n+1) is the n-th antidiagonal sum of A213751. - _Clark Kimberling_, Jun 20 2012
+%C A006325 This sequence is the case m=n-1, k=n+3 of b(m,k) = m*(m+1)*((k-2)*m-(k-5))/6, which is the m-th k-gonal pyramidal number. - _Luciano Ancora_, Apr 11 2015
+%C A006325 Starting (1, 7, 26, ...), this is the binomial transform of (1, 6, 13, 12, 4, 0, 0, 0, ...). - _Gary W. Adamson_, Jul 31 2015
+%D A006325 T. A. Gulliver, Sequences from Arrays of Integers, Int. Math. Journal, Vol. 1, No. 4, pp. 323-332, 2002.
+%H A006325 Vincenzo Librandi, <a href="/A006325/b006325.txt">Table of n, a(n) for n = 0..1000</a>
+%H A006325 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A006325 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550, 2013
+%H A006325 J. K. Merikoski, R. Kumar and  R. A. Rajput, <a href="http://www.math.technion.ac.il/iic/ela/ela-articles/articles/vol26_pp168-176.pdf">Upper bounds for the largest eigenvalue of a bipartite graph</a>, Electronic Journal of Linear Algebra ISSN 1081-3810, A publication of the International Linear Algebra Society, Volume 26, pp. 168-176, April 2013.
+%H A006325 R. P. Stanley, <a href="/A002721/a002721.pdf">Examples of Magic Labelings</a>, Unpublished Notes, 1973 [Cached copy, with permission]
+%H A006325 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1)
+%F A006325 a(n) = n*(n-1)*(n^2-n+1)/6.
+%F A006325 a(n) = [(n^5-(n-1)^5)-(n^1-(n-1)^1)]/30 = (n^5-(n-1)^5-1)/30. - Xavier Acloque, Jan 25 2003
+%F A006325 The partial sums of the octahedral numbers: a(n+1) = sum(i=0..n, A005900(i) ). - _Jonathan Vos Post_, Mar 14 2006
+%F A006325 G.f.: -x^2*(x+1)^2/(x-1)^5 [Maksym Voznyy (voznyy(AT)mail.ru), Aug 10 2009]
+%F A006325 a(n) = sum(i=1..n-1, sum (j=1..n-1, min(i,j)^2)). - _Enrique Pérez Herrero_, Jan 15 2013 [Which is just rephrasing the partial sum formula with the Murthy formula in A005900. - _R. J. Mathar_, Jun 14 2014]
+%F A006325 a(n) = 5*a(n-1) - 10*a(n-2) + 10*a(n-3) - 5*a(n-4) + a(n-5), n > 4. - _Yosu Yurramendi_, Sep 03 2013
+%t A006325 Table[n*(n-1)*(n^2-n+1)/6, {n,0,60}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 22 2011 *)
+%o A006325 (MAGMA) [n*(n-1)*(n^2-n+1)/6: n in [0..40]]; // _Vincenzo Librandi_, May 22 2011
+%o A006325 (PARI) a(n)=n*(n-1)*(n^2-n+1)/6 \\ _Charles R Greathouse IV_, Sep 24 2015
+%K A006325 nonn,easy
+%O A006325 0,4
+%A A006325 Albert Rich (Albert_Rich(AT)msn.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

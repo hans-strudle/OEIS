@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014473
+Showing 1-1 of 1
+
+%I A014473
+%S A014473 0,0,0,0,1,0,0,2,2,0,0,3,5,3,0,0,4,9,9,4,0,0,5,14,19,14,5,0,0,6,20,34,
+%T A014473 34,20,6,0,0,7,27,55,69,55,27,7,0,0,8,35,83,125,125,83,35,8,0,0,9,44,
+%U A014473 119,209,251,209,119,44,9,0,0,10,54,164,329,461,461,329,164,54,10,0,0
+%N A014473 Pascal's triangle - 1.
+%C A014473 T(n,k) = A109128(n,k) - A007318(n,k), 0 <= k <= n. - _Reinhard Zumkeller_, Apr 10 2012
+%C A014473 Indexed as a square array A(n,k): If X is an (n+k)-set and Y a fixed k-subset of X then A(n,k) is equal to the number of n-subsets of X intersecting Y. - _Peter Luschny_, Apr 20 2012
+%H A014473 Reinhard Zumkeller, <a href="/A014473/b014473.txt">Rows n=0..100 of triangle, flattened</a>
+%H A014473 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%F A014473 G.f.: x^2y / [(1-x)*(1-xy)*(1-x(1+y)) ]. - _Ralf Stephan_, Jan 24 2005
+%F A014473 T(n,k) = T(n-1,k-1) + T(n-1,k) + 1, 0 < k < n with T(n,0) = T(n,n) = 0. - _Reinhard Zumkeller_, Jul 18 2015
+%e A014473 0;
+%e A014473 0, 0;
+%e A014473 0, 1, 0;
+%e A014473 0, 2, 2, 0;
+%e A014473 0, 3, 5, 3, 0;
+%e A014473 0, 4, 9, 9, 4, 0;
+%e A014473 0, 5, 14, 19, 14, 5, 0;
+%e A014473 0, 6, 20, 34, 34, 20, 6, 0;
+%p A014473 with(combstruct):for n from 0 to 11 do seq(-1+count(Combination(n), size=m), m = 0 .. n) od; # _Zerinvary Lajos_, Apr 09 2008
+%o A014473 (Haskell)
+%o A014473 a014473 n k = a014473_tabl !! n !! k
+%o A014473 a014473_row n = a014473_tabl !! n
+%o A014473 a014473_tabl = map (map (subtract 1)) a007318_tabl
+%o A014473 -- _Reinhard Zumkeller_, Apr 10 2012
+%Y A014473 A007318(n,k) - 1.
+%Y A014473 Columns include A000096, A062748, A063258, A062988. Row sums are in A000295. Central column is in A030662.
+%Y A014473 Triangle without zeros: A014430.
+%K A014473 nonn,tabl,easy
+%O A014473 0,8
+%A A014473 _N. J. A. Sloane_.
+%E A014473 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019326
+Showing 1-1 of 1
+
+%I A019326
+%S A019326 8,7,9,73,65,4681,57,299593,4097,262657,3641,1227133513,4033,
+%T A019326 78536544841,233017,14709241,16777217,321685687669321,261633,
+%U A019326 20587884010836553,16519105,60247241209,954437177
+%N A019326 Cyclotomic polynomials at x=8.
+%H A019326 <a href="/index/Cy#CyclotomicPolynomialsValuesAtX">Index entries for cyclotomic polynomials, values at X</a>
+%p A019326 with(numtheory,cyclotomic); f := n->subs(x=8,cyclotomic(n,x)); seq(f(i),i=0..64);
+%K A019326 nonn
+%O A019326 0,1
+%A A019326 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

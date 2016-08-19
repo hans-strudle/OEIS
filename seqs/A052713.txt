@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052713
+Showing 1-1 of 1
+
+%I A052713
+%S A052713 0,2,8,96,1920,53760,1935360,85155840,4428103680,265686220800,
+%T A052713 18066663014400,1373066389094400,115337576683929600,
+%U A052713 10611057054921523200,1061105705492152320000,114599416193152450560000
+%N A052713 E.g.f. (1-sqrt(1-8*x))/2.
+%C A052713 Has a square root singularity.
+%H A052713 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=669">Encyclopedia of Combinatorial Structures 669</a>
+%F A052713 Recurrence: a(1)=2; (4-8*n)*a(n)+a(n+1) =0.
+%F A052713 a(n+1) = 1/4*8^(n+1)*GAMMA(n+1/2)/Pi^(1/2)
+%F A052713 a(n+1) = ((2*n)!/n!)*2^(n+1). - _Zerinvary Lajos_, Sep 25 2006
+%F A052713 a(n) = n!*A025225(n). - _R. J. Mathar_, Oct 18 2013
+%p A052713 spec := [S,{C=Union(B,Z),B=Prod(S,S),S=Union(Z,C)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052713 easy,nonn
+%O A052713 0,2
+%A A052713 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

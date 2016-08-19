@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053655
+Showing 1-1 of 1
+
+%I A053655
+%S A053655 1,1221,1233321,1234444321,1234555554321,1234566666654321,
+%T A053655 1234567777777654321,1234567888888887654321,1234567899999999987654321,
+%U A053655 1234567901111111110987654321,1234567901222222222220987654321,1234567901233333333333320987654321
+%N A053655 a(n) = (10^n-1)*(10^(2*n-1)-1)/81.
+%D A053655 W. Lietzmann, Sonderlinge im Reich der Zahlen, Ferd. Duemmlers Verlag Bonn, 1948, p. 30.
+%H A053655 Colin Barker, <a href="/A053655/b053655.txt">Table of n, a(n) for n = 1..334</a>
+%H A053655 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (1111,-112110,1111000,-1000000).
+%F A053655 G.f.: -x*(11100*x^2-110*x-1) / ((x-1)*(10*x-1)*(100*x-1)*(1000*x-1)). - _Colin Barker_, Mar 19 2015
+%e A053655 a(2)=11*111=1221; a(3)=111*11111=1233321; a(4)=1111*1111111=1234444321.
+%o A053655 (PARI) a(n)=(10^n-1)*(10^(2*n-1)-1)/81 \\ _Charles R Greathouse IV_, Jun 10 2013
+%o A053655 (PARI) Vec(-x*(11100*x^2-110*x-1)/((x-1)*(10*x-1)*(100*x-1)*(1000*x-1)) + O(x^100)) \\ _Colin Barker_, Mar 19 2015
+%K A053655 easy,nonn
+%O A053655 1,2
+%A A053655 Klaus Strassburger (strass(AT)ddfi.uni-duesseldorf.de), Feb 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

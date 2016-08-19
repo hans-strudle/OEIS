@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025463
+Showing 1-1 of 1
+
+%I A025463
+%S A025463 0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,
+%T A025463 0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,
+%U A025463 0,1,0,1,0,2,0,0,1,0,1,0,2,0,0,1,0,1,0,1,1,0,1,0,1,0,1,1,0,1,0,2,0,1,1,0,1,0,1,0
+%N A025463 Number of partitions of n into 10 positive cubes.
+%K A025463 nonn
+%O A025463 0,74
+%A A025463 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057350
+Showing 1-1 of 1
+
+%I A057350
+%S A057350 30,29,30,29,30,29,30,30,30,29,30,30,29,30,29,30,29,30,29,30,29,29,29,
+%T A057350 30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,30,30,
+%U A057350 29,30,30,29,30,29,30,29,30,29,30,30,30,29,30,29,30,29,30,29,30,29,30
+%N A057350 Days in months in the Hebrew calendar starting from Nisan 5760 (Spring 2000 CE). A generic year has the pattern 30,29,30,29,30,29,30,29,29,29,30,29.
+%C A057350 The months are Nisan, Iyyar, Sivan, Tammuz, Av, Elul, Tishri, Heshvan, Kislev, Teveth, Shevat, Adar. A leap month of 30 days, added between Shevat and Adar, is called Adar I, where the final month is then called Adar II. Heshvan and Kislev (the 8th and 9th months) may each have 30 days, depending on astronomical rules.
+%D A057350 N. Dershowitz and E. M. Reingold, Calendrical Calculations, Cambridge University Press, 1997.
+%H A057350 N. Dershowitz and E. M. Reingold, <a href="http://emr.cs.iit.edu/home/reingold/calendar-book/first-edition/">Calendrical Calculations Web Site</a>
+%Y A057350 Hebrew leap years A057349.
+%K A057350 nonn,easy
+%O A057350 0,1
+%A A057350 _Mitch Harris_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

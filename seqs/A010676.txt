@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010676
+Showing 1-1 of 1
+
+%I A010676
+%S A010676 0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,
+%T A010676 0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,0,5,
+%U A010676 0,5,0,5,0,5,0,5,0,5,0,5,0
+%N A010676 Period 2: repeat (0,5).
+%H A010676 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010676 a(n) = 5/2*(1-(-1)^n) = 5*(n mod 2). - _Paolo P. Lava_, Oct 20 2006
+%F A010676 G.f. 5*x/((1-x)*(1+x)). - _R. J. Mathar_, Nov 21 2011
+%t A010676 PadRight[{},120,{0,5}] (* _Harvey P. Dale_, Feb 18 2013 *)
+%o A010676 (MAGMA) &cat [[0,5]^^50]; // _Bruno Berselli_, Dec 10 2015
+%K A010676 nonn,easy
+%O A010676 0,2
+%A A010676 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

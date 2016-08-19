@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054125
+Showing 1-1 of 1
+
+%I A054125
+%S A054125 2,2,2,2,2,2,2,3,3,2,2,4,4,4,2,2,5,6,6,5,2,2,6,9,8,9,6,2,2,7,13,12,12,
+%T A054125 13,7,2,2,8,18,19,16,19,18,8,2,2,9,24,30,24,24,30,24,9,2,2,10,31,46,
+%U A054125 39,32,39,46,31,10,2,2,11,39,68,65,48,48,65
+%N A054125 Sum of the arrays in A054123 and A054124.
+%C A054125 Row sums are twice Fibonacci numbers, A006355(n+2).
+%e A054125 Rows:
+%e A054125 2;
+%e A054125 2,2;
+%e A054125 2,2,2;
+%e A054125 2,3,3,2;
+%e A054125 ...
+%K A054125 nonn,tabl,eigen
+%O A054125 0,1
+%A A054125 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

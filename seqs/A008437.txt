@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008437
+Showing 1-1 of 1
+
+%I A008437
+%S A008437 0,0,0,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,4,0,0,0,0,0,0,
+%T A008437 0,6,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,3,
+%U A008437 0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,9,0,0,0,0,0
+%N A008437 Expansion of Jacobi theta constant theta_2^3 /8.
+%C A008437 Number of ways of writing n as the sum of three odd positive squares.
+%D A008437 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 102.
+%D A008437 J. E. Jones [Lennard-Jones] and A. E. Ingham, On the calculation of certain crystal potential constants and on the cubic crystal of least energy, Proc. Royal Soc., A 107 (1925), 636-653 (see p. 650).
+%Y A008437 Equals A085121/8.
+%K A008437 nonn
+%O A008437 0,12
+%A A008437 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

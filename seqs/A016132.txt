@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016132
+Showing 1-1 of 1
+
+%I A016132
+%S A016132 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A016132 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A016132 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A016132 Inverse of 2123rd cyclotomic polynomial.
+%p A016132 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016132 sign
+%O A016132 0,1
+%A A016132 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

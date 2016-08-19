@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037138
+Showing 1-1 of 1
+
+%I A037138
+%S A037138 26,1114,11832,96288,290544
+%N A037138 a(n) = n-phi(n)-s(n-phi(n))=s(phi(n))-phi(n) or s(n-phi(n))-n+phi(n)=phi(n)-s(phi(n)).
+%C A037138 Here s(n)=sigma(n)-n.
+%o A037138 (PARI) s(n) = sigma(n) - n;
+%o A037138 isok(n) = (n - eulerphi(n) - s(n-eulerphi(n))) == (s(eulerphi(n)) - eulerphi(n)); \\ _Michel Marcus_, Feb 03 2014
+%K A037138 more,nonn
+%O A037138 1,1
+%A A037138 _Naohiro Nomoto_
+%E A037138 Offset set to 1 by _Michel Marcus_, Feb 03 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

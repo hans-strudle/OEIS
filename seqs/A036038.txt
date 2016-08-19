@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036038
+Showing 1-1 of 1
+
+%I A036038
+%S A036038 1,1,2,1,3,6,1,4,6,12,24,1,5,10,20,30,60,120,1,6,15,20,30,60,90,120,
+%T A036038 180,360,720,1,7,21,35,42,105,140,210,210,420,630,840,1260,2520,5040,
+%U A036038 1,8,28,56,70,56,168,280,420,560,336,840,1120,1680,2520,1680,3360,5040,6720
+%N A036038 Triangle of multinomial coefficients.
+%C A036038 The number of terms in the n-th row is the number of partition of n, A000041(n). - _Amarnath Murthy_, Sep 21 2002
+%C A036038 For each n, the partitions are ordered by length and then lexicographically, which is different from the usual practice of ordering all partitions lexicographically. - _T. D. Noe_, Nov 03 2006
+%C A036038 For this ordering of the partitions, for n>=1, see the remarks and the C. F. Hindenburg link given in A036036. - _Wolfdieter Lang_, Jun 15 2012
+%C A036038 The relation (n+1) * A134264(n+1) = A248120(n+1) / a(n) where the arithmetic is performed for matching partitions in each row n connects the combinatorial interpretations of this array to some topological and algebraic constructs of the two other entries. Also, these seem to be the coefficients of the Jack polynomial J(x;k,alpha=0). - _Tom Copeland_, Nov 24 2014
+%D A036038 Abramowitz and Stegun, Handbook, p. 831, column labeled "M_1".
+%H A036038 T. D. Noe, <a href="/A036038/b036038.txt">Rows n=1..25 of triangle, flattened</a>
+%H A036038 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A036038 Wolfdieter Lang, <a href="/A036038/a036038.pdf">First 10 rows and more.</a>
+%e A036038 1;
+%e A036038 1, 2;
+%e A036038 1, 3,  6;
+%e A036038 1, 4,  6, 12, 24;
+%e A036038 1, 5, 10, 20, 30, 60, 120;
+%t A036038 Flatten[Table[Apply[Multinomial, Reverse[Sort[IntegerPartitions[i],  Length[ #1]>Length[ #2]&]], {1}], {i,9}]] (* _T. D. Noe_, Nov 03 2006 *)
+%Y A036038 Cf. A036036-A036040. Different from A078760. Row sums give A005651.
+%Y A036038 Cf. A183610 is a table of sums of powers of terms in rows.
+%Y A036038 Cf. A134264 and A248120.
+%K A036038 nonn,easy,nice,tabf
+%O A036038 1,3
+%A A036038 _N. J. A. Sloane_
+%E A036038 More terms from _David W. Wilson_ and _Wouter Meeussen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

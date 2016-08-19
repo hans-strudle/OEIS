@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010821
+Showing 1-1 of 1
+
+%I A010821
+%S A010821 1,14,77,182,0,924,1547,506,3003,0,1729,8372,9177,13090,15625,
+%T A010821 0,17017,10556,30107,0,7084,89206,11571,69160,0,27132,0,19096,
+%U A010821 153502,0,93093,165242,0,38962,0,420838,257439
+%V A010821 1,-14,77,-182,0,924,-1547,-506,3003,0,-1729,-8372,9177,13090,-15625,
+%W A010821 0,-17017,10556,30107,0,7084,-89206,11571,69160,0,27132,0,-19096,
+%X A010821 -153502,0,93093,165242,0,-38962,0,-420838,257439
+%N A010821 Expansion of Product (1-x^k )^14.
+%D A010821 M. Boylan, Exceptional congruences for the coefficients of certain eta-product newforms, J. Number Theory 98 (2003), no. 2, 377-389.
+%D A010821 Newman, Morris; A table of the coefficients of the powers of $\eta(\tau)$. Nederl. Akad. Wetensch. Proc. Ser. A. 59 = Indag. Math. 18 (1956), 204-216.
+%H A010821 S. R. Finch, <a href="http://arXiv.org/abs/math.NT/0701251">Powers of Euler's q-Series</a>, (arXiv:math.NT/0701251).
+%H A010821 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%K A010821 sign
+%O A010821 0,2
+%A A010821 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032145
+Showing 1-1 of 1
+
+%I A032145
+%S A032145 1,0,1,4,1,6,1,64,1009,130,2641,1024,26313,2380,791701,34610944,
+%T A032145 3279233,147068106,32201809,1838416384,584037049,37820533300,
+%U A032145 3098105429,3047796018304,282732773053601,18988926779316
+%N A032145 Number of ways to partition n labeled elements into pie slices of different odd sizes.
+%H A032145 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032145 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
+%F A032145 "CGJ" (necklace, element, labeled) transform of 1, 0, 1, 0... (odds)
+%K A032145 nonn
+%O A032145 1,4
+%A A032145 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

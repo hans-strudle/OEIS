@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008770
+Showing 1-1 of 1
+
+%I A008770
+%S A008770 1,1,2,3,5,6,9,11,15,19,24,29,37,44,53,63,75,87,102,117,135,154,175,
+%T A008770 197,223,249,278,309,343,378,417,457,501,547,596,647,703,760,821,885,
+%U A008770 953,1023,1098,1175,1257
+%N A008770 Expansion of (x^9+1)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4).
+%H A008770 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (2, -1, 1, -1, -1, 1, -1, 2, -1).
+%F A008770 a(0)=1, a(1)=1, a(2)=2, a(3)=3, a(4)=5, a(5)=6, a(6)=9, a(7)=11, a(8)=15, a(n)=2*a(n-1)-a(n-2)+a(n-3)-a(n-4)-a(n-5)+a(n-6)-a(n-7)+2*a(n-8)-a(n-9). - _Harvey P. Dale_, Oct 02 2012
+%t A008770 CoefficientList[Series[(x^9+1)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4),{x,0,60}],x] (* or *) LinearRecurrence[{2,-1,1,-1,-1,1,-1,2,-1},{1,1,2,3,5,6,9,11,15},60] (* _Harvey P. Dale_, Oct 02 2012 *)
+%K A008770 nonn
+%O A008770 0,3
+%A A008770 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

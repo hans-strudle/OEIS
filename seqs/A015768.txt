@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015768
+Showing 1-1 of 1
+
+%I A015768
+%S A015768 1,2,3,6,22,33,66,166,250,375,498,750,1506,1826,5478,8250,10375,10873,
+%T A015768 16566,17762,20750,21746,31125,32619,41666,53286,62250,62499,65238,
+%U A015768 98250,110066,119603,124998,177153,195382,228250,239206
+%N A015768 Numbers n such that phi(n) | sigma_10(n).
+%C A015768 sigma_10(n) is the sum of the 10th powers of the divisors of n.
+%K A015768 nonn
+%O A015768 1,2
+%A A015768 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

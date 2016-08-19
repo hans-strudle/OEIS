@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050986
+Showing 1-1 of 1
+
+%I A050986
+%S A050986 4,9,14,16,15,12,8,5
+%N A050986 Number of n-digit right-truncatable primes.
+%D A050986 Angell, I. O. and Godwin, H. J. "On Truncatable Primes." Math. Comput. 31, 265-267, 1977.
+%H A050986 Jens Kruse Andersen, <a href="http://primerecords.dk/right-truncatable.txt">Right-truncatable primes</a>
+%H A050986 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TruncatablePrime.html">Truncatable Prime.</a>
+%H A050986 <a href="/index/Tri#tprime">Index entries for sequences related to truncatable primes</a>
+%H A050986 <a href="/index/Pri#primepop">Index entries for sequences related to numbers of primes in various ranges</a>
+%Y A050986 Cf. A033664, A024785, A032437, A020994, A024770, A052023, A052024, A052025, A050987.
+%K A050986 base,nonn,easy,fini,full
+%O A050986 1,1
+%A A050986 _Eric W. Weisstein_
+%E A050986 Edited by _Ray Chandler_, Mar 13 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

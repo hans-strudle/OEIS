@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059492
+Showing 1-1 of 1
+
+%I A059492
+%S A059492 1,1,9,676,417316,2105433225,86576511622500,28972583638980195600,
+%T A059492 78831929114313969179740176,1742936131827576565608759271801924,
+%U A059492 312998895971128640129284150531179425539849,456409483679643917229799018559460369930900420149904
+%N A059492 Expansion of generating function A_{UO}^(1)(8n).
+%H A059492 G. Kuperberg, <a href="http://arXiv.org/abs/math.CO/0008184">Symmetry classes of alternating-sign matrices under one roof, arXiv math.CO/0008184</a> [Th. 5]
+%F A059492 A005156(n)^2.
+%K A059492 nonn,easy
+%O A059492 0,3
+%A A059492 _N. J. A. Sloane_, Feb 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

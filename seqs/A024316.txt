@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024316
+Showing 1-1 of 1
+
+%I A024316
+%S A024316 0,0,1,0,0,1,0,0,1,1,0,0,1,0,1,0,1,1,0,0,1,1,0,1,0,0,1,2,0,0,1,0,1,0,
+%T A024316 1,1,0,0,2,1,0,0,1,0,1,1,0,2,0,0,0,1,1,1,1,0,1,1,0,0,1,1,1,0,0,1,1,0,
+%U A024316 2,1,0,0,2,0,0,0,0,3,0,1,1,0,0,1,1,0,1,1,0,1
+%N A024316 a(n) = s(1)s(n) + s(2)s(n-1) + ... + s(k)s(n+1-k), where k=[ (n+1)/2) ], s = A023531.
+%H A024316 Reinhard Zumkeller, <a href="/A024316/b024316.txt">Table of n, a(n) for n = 1..10000</a>
+%o A024316 (Haskell)
+%o A024316 a024316 n = sum $ take (div (n + 1) 2) $ zipWith (*) zs $ reverse zs
+%o A024316             where zs = take n $ tail a023531_list
+%o A024316 -- _Reinhard Zumkeller_, Feb 14 2015
+%K A024316 nonn
+%O A024316 1,28
+%A A024316 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

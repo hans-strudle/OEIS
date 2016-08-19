@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002071
+Showing 1-1 of 1
+
+%I A002071 M3386 N1366
+%S A002071 1,4,10,23,40,68,108,167,241,345,482,653,869,1153,1502
+%N A002071 Number of pairs of consecutive integers x, x+1 such that all prime factors of both x and x+1 are at most the n-th prime.
+%C A002071 Størmer's theorem proves that a(n) is finite. - _Charles R Greathouse IV_, Feb 19 2013
+%C A002071 Also: Number of positive integers x such that x(x+1) is prime(n)-smooth. - _M. F. Hasler_, Jan 16 2015
+%C A002071 Also: Row lengths of A138180; partial sums of A145604. - _M. F. Hasler_, Jan 16 2015
+%D A002071 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002071 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002071 Stormer, Carl (1897). "Quelques theoremes sur l'equation de Pell x^2 - Dy^2 = +-1 et leurs applications". Skrifter Videnskabs-selskabet (Christiania), Mat.-Naturv. Kl. I (2).
+%H A002071 E. F. Ecklund and R. B. Eggleton, <a href="http://www.jstor.org/stable/2317422">Prime factors of consecutive integers</a>, Amer. Math. Monthly, 79 (1972), 1082-1089.
+%H A002071 D. Eppstein, <a href="http://11011110.livejournal.com/97325.html">Smooth pairs</a>.
+%H A002071 D. Eppstein, <a href="http://11011110.livejournal.com/96470.html">Python program</a>
+%H A002071 D. H. Lehmer, <a href="http://projecteuclid.org/euclid.ijm/1256067456">On a problem of Størmer</a>, Ill. J. Math., 8 (1964), 57-69.
+%H A002071 Wikipedia, <a href="http://en.wikipedia.org/wiki/St%C3%B8rmer%27s_theorem">Størmer's theorem</a>
+%H A002071 <a href="/index/Ab#abc">OEIS Index entries for sequences related to the abc conjecture</a>
+%F A002071 a(n) <= (2^n-1)*(prime(n)+1)/2 is implicit in Lehmer 1964. - _Charles R Greathouse IV_, Feb 19 2013
+%o A002071 (PARI) A002071(n)=[1,4,10,23,40,68,108,167,241,345,482,653,869,1153,1502][n] \\ "practical" solution. - _M. F. Hasler_, Jan 16 2015
+%o A002071 (PARI) A002071(n,b=A002072,c=1,p=prime(n))={for(k=2,b(n),vecmax(factor(k++,p)[,1])<=p && vecmax(factor(k--+(k<2),p)[,1])<=p && c++); c} \\ b can be any upper bound for A002072, e.g., n->10^n should work, too. - _M. F. Hasler_, Jan 16 2015
+%Y A002071 Cf. A002072, A145604, A145605, A145606.
+%Y A002071 Cf. A138180 (triangle of x values for each n).
+%Y A002071 Cf. A085152, A085153.
+%K A002071 nonn,nice,hard,more
+%O A002071 1,2
+%A A002071 _N. J. A. Sloane_.
+%E A002071 Better description and more terms from _David Eppstein_, Mar 23 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

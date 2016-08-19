@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048208
+Showing 1-1 of 1
+
+%I A048208
+%S A048208 1,6,17,37,63,98,139,186,240,298,359,431,505,589,683,779,892,1018,
+%T A048208 1150,1288,1431,1593,1762,1949,2151,2366,2591,2823,3061,3304,3557,
+%U A048208 3820,4095
+%N A048208 a(n)=T(2n-1,n), array T given by A048201.
+%K A048208 nonn
+%O A048208 1,2
+%A A048208 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

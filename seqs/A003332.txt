@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003332
+Showing 1-1 of 1
+
+%I A003332
+%S A003332 9,16,23,30,35,37,42,44,49,51,56,58,61,63,65,68,70,72,75,77,79,82,84,
+%T A003332 86,87,89,91,93,94,96,98,100,101,103,105,107,108,110,112,113,114,115,
+%U A003332 119,120,121,122,124,126,127,128
+%N A003332 Numbers that are the sum of 9 positive cubes.
+%H A003332 T. D. Noe, <a href="/A003332/b003332.txt">Table of n, a(n) for n=1..1000</a>
+%t A003332 With[{upto=150},Select[Union[Total/@Tuples[Range[Floor[Surd[upto-8,3]]]^3, 9]],#<=upto&]](* _Harvey P. Dale_, Jan 04 2015 *)
+%K A003332 nonn
+%O A003332 1,1
+%A A003332 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027830
+Showing 1-1 of 1
+
+%I A027830
+%S A027830 1,7,11,25,35,43,45,47,51,53,57,63,65,81,91,103,113,117,121,143,149,
+%T A027830 169,173,191,193,199,201,211,213,225,235,247,253,255,263,269,299,331,
+%U A027830 333,355,357,359,373,385,387,395,399,403,411,445,453,495,519,537,579,599
+%N A027830 Numbers n such that n + (n+1)^2 + (n+2)^3 + (n+3)^4 + (n+4)^5 is prime.
+%C A027830 Numbers n such that A027622(n) is prime.
+%H A027830 P. De Geest, <a href="http://www.worldofnumbers.com/sumpower.htm">Palindromic Quasi_Under_Squares of the form n+(n+1)^2</a>
+%e A027830 n=1: n + (n+1)^2 + (n+2)^3 + (n+3)^4 + (n+4)^5=3413=A027886(1),
+%e A027830 n=7: n + (n+1)^2 + (n+2)^3 + (n+3)^4 + (n+4)^5=171851=A027886(2),
+%e A027830 n=11: n + (n+1)^2 + (n+2)^3 + (n+3)^4 + (n+4)^5=800143=A027886(3).
+%t A027830 With[{c=Total[Table[(#+i)^(i+1),{i,0,4}]]},Select[Range[600],PrimeQ[c]&]] (* _Harvey P. Dale_, May 07 2012 *)
+%o A027830 (MAGMA) [n: n in [0..1000] |IsPrime(n+(n+1)^2+(n+2)^3+(n+3)^4+(n+4)^5)] [From Vincenzo Librandi, Nov 20 2010]
+%Y A027830 Cf. A027622, A027886.
+%K A027830 nonn
+%O A027830 1,2
+%A A027830 _Patrick De Geest_
+%E A027830 Edited by _N. J. A. Sloane_, May 21 2008 at the suggestion of R. J. Mathar
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

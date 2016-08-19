@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016746
+Showing 1-1 of 1
+
+%I A016746
+%S A016746 0,64,4096,46656,262144,1000000,2985984,7529536,16777216,34012224,
+%T A016746 64000000,113379904,191102976,308915776,481890304,729000000,
+%U A016746 1073741824,1544804416,2176782336,3010936384
+%N A016746 a(n) = (2*n)^6.
+%H A016746 Vincenzo Librandi, <a href="/A016746/b016746.txt">Table of n, a(n) for n = 0..10000</a>
+%H A016746 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A016746 G.f.: -64*x*(1+x)*(x^4+56*x^3+246*x^2+56*x+1) / (x-1)^7 . - _R. J. Mathar_, May 01 2015
+%o A016746 (MAGMA) [(2*n)^6: n in [0..30]]; // _Vincenzo Librandi_, Sep 05 2011
+%Y A016746 Cf. A016758.
+%K A016746 nonn,easy
+%O A016746 0,2
+%A A016746 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

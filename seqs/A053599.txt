@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053599
+Showing 1-1 of 1
+
+%I A053599
+%S A053599 1,3,7,13,23,37,59,89,135,197,291,417,607,861,1243,1753,2519,3541,
+%T A053599 5075,7121,10191,14285,20427,28617,40903,57285,81859,114625,163775,
+%U A053599 229309,327611,458681,655287,917429,1310643,1834929,2621359,3669933,5242795,7339945
+%N A053599 Number of nonempty subsequences {s(k)} of 1...n such that the difference sequence is palindromic.
+%C A053599 Equals (n-1)-th row terms of triangle A152202 [From _Gary W. Adamson_, Nov 29 2008]
+%C A053599 Number of positive integers < 2^n such that the binary representation of the odd part is palindromic; i.e. palindromic without the final 0s. [Andrew Woods, May 19 2012]
+%H A053599 Andrew Woods, <a href="/A053599/b053599.txt">Table of n, a(n) for n = 1..1000</a>
+%H A053599 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (2,1,-4,2).
+%F A053599 a(1)=1, a(2)=3 and, for n>2, a(n)=2a(n-2)+2n-1.
+%F A053599 G.f.: x*(1+x)/((1-x)^2*(1-2*x^2)). [_Colin Barker_, Mar 28 2012]
+%F A053599 a(n)= 5*2^((n+1)/2)-2*n-7 for odd n, 7*2^(n/2)-2*n-7 for even n. [Andrew Woods, May 19 2012]
+%e A053599 For n=4 the 13 sequences are 1,2,3,4,12,13,14,23,24,34,123,234,1234.
+%t A053599 t={1,1};Do[AppendTo[t,t[[-2]]+t[[-1]]];AppendTo[t,2*t[[-2]]],{n,40}];Nest[Accumulate,t,2] (* _Vladimir Joseph Stephan Orlovsky_, Jan 29 2012 *)
+%Y A053599 The first differences of A053599 gives A027383, the second differences give A016116.
+%Y A053599 A152202 [From _Gary W. Adamson_, Nov 29 2008]
+%K A053599 nonn
+%O A053599 1,2
+%A A053599 _John W. Layman_, Jan 19 2000
+%E A053599 Corrected by _T. D. Noe_, Nov 08 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

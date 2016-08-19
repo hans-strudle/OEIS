@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055639
+Showing 1-1 of 1
+
+%I A055639
+%S A055639 0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,1,1,0,1,0,2,0,1,1,2,1,2,0,1,1,0,2,
+%T A055639 1,0,2,2,1,0,1,1,2,0,1,2,2,0,2,0,1,1,2,2,0,2,2,2,2,0,1,1,1,1,1,0,2,2,
+%U A055639 2,0,1,1,2,2,1,2,0,2,2,0,1,1,2,1,1,2,2,0,2,0,1,1,1,2,1,1,2,2,0,0,0,0,1,0,0
+%N A055639 Number of nonzero digits of n which are not factors of n.
+%Y A055639 Cf. A002796, A038769.
+%K A055639 nonn,base,easy
+%O A055639 1,23
+%A A055639 _Henry Bottomley_, Jun 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008705
+Showing 1-1 of 1
+
+%I A008705
+%S A008705 1,1,1,5,5,6,11,41,125,85,1054,2069,209,8605,15625,3990,
+%T A008705 14035,36685,130525,254525,1899830,3603805,134905,13479425,
+%U A008705 25499225,23579969,64447293,237487433,133867445,1795846200,6309965146,6788705842,11762712973
+%V A008705 1,-1,-1,5,-5,-6,11,41,-125,-85,1054,-2069,-209,8605,-15625,3990,
+%W A008705 14035,36685,-130525,-254525,1899830,-3603805,-134905,13479425,
+%X A008705 -25499225,23579969,-64447293,237487433,-133867445,-1795846200,6309965146,-6788705842,-11762712973
+%N A008705 Coefficient of x^n in (Product_{m=1..n}(1-x^m))^n.
+%C A008705 Degree of resulting polynomial is A002411(n). - _Michel Marcus_, Sep 05 2013
+%H A008705 N. J. A. Sloane, <a href="/A008705/b008705.txt">Table of n, a(n) for n = 0..256</a>
+%H A008705 Moris Newman, <a href="http://dx.doi.org/10.4153/CJM-1958-058-4">Further identities and congruences for the coefficients of modular forms</a>, Canadian J. Math 10 (1958): 577-586. See Table 1, column p=5.
+%H A008705 Morris Newman, <a href="/A262308/a262308.pdf">Further identities and congruences for the coefficients of modular forms</a> [annotated scanned copy], Canadian J. Math 10 (1958): 577-586. See Table 1, column p=5.
+%e A008705 (1-x)^1 = -x + 1, hence a(1) = -1.
+%e A008705 (1-x^2)^2*(1-x)^2 = x^6 - 2*x^5 - x^4 + 4*x^3 - x^2 - 2*x + 1, hence a(2) = -1.
+%p A008705 C5:=proc(r) local t1,n; t1:=mul((1-x^n)^r,n=1..r+2); series(t1,x,r+1); coeff(%,x,r); end;
+%p A008705 [seq(C5(i),i=0..30)]; # _N. J. A. Sloane_, Oct 04 2015
+%o A008705 (PARI) a(n) = polcoeff(prod(m = 1, n, (1-x^m)^n), n); \\ _Michel Marcus_, Sep 05 2013
+%Y A008705 Bisections: A262308, A262309.
+%K A008705 sign
+%O A008705 0,4
+%A A008705 T. Forbes (anthony.d.forbes(AT)googlemail.com)
+%E A008705 More terms from _Michel Marcus_, Sep 05 2013
+%E A008705 Added a(0)=1. - _N. J. A. Sloane_, Oct 04 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

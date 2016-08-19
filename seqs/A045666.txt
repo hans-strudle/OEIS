@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045666
+Showing 1-1 of 1
+
+%I A045666
+%S A045666 0,0,0,0,0,80,384,2352,9856,42840,169280,676720,2630688,10265216,
+%T A045666 39777248,154498200,599556096,2330826752,9068386320,35332969392,
+%U A045666 137817005440,538204062984,2103970896544,8233197139552,32247052083840
+%N A045666 2n-bead balanced binary strings of fundamental period 2n, rotationally inequivalent to reverse, complement and reversed complement.
+%Y A045666 Equals 2*n*A045684(n).
+%K A045666 nonn
+%O A045666 0,6
+%A A045666 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

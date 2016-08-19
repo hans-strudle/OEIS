@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058238
+Showing 1-1 of 1
+
+%I A058238
+%S A058238 4,6,8,20,22,32,46,56,104,200,238,284,764,958
+%N A058238 Numbers n such that x^n + x^5 + 2 is irreducible over GF(3).
+%t A058238 Do[ If[ ToString[ Factor[ x^n + x^5 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^5 + 2 ], Print[ n ] ], {n, 0, 1000} ]
+%K A058238 nonn
+%O A058238 1,1
+%A A058238 _Robert G. Wilson v_, Dec 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

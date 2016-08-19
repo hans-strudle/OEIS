@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032200
+Showing 1-1 of 1
+
+%I A032200
+%S A032200 1,1,2,4,9,20,51,128,345,940,2632,7450,21434,62174,182146,537369,
+%T A032200 1596133,4767379,14312919,43162856,130695821,397184252,1211057426,
+%U A032200 3703794849,11358759346,34923477315,107627138308,332404636811
+%N A032200 Number of rooted compound windmills (mobiles) of n nodes.
+%D A032200 F. Bergeron, G. Labelle and P. Leroux, Combinatorial Species and Tree-Like Structures, Camb. 1998, p. 241 (3.3.84).
+%H A032200 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032200 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A032200 Shifts left under "CIK" (necklace, indistinct, unlabeled) transform.
+%Y A032200 Cf. A029768, A038037, A055340.
+%K A032200 nonn,eigen
+%O A032200 1,3
+%A A032200 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015973
+Showing 1-1 of 1
+
+%I A015973
+%S A015973 1,5,77,278377,3697489,219596687717,56865169816619
+%N A015973 Positive integers n such that n | (3^n + 2).
+%C A015973 3142423971953435020522506484187 also belongs to this sequence. [From Max Alekseyev]
+%Y A015973 Cf. A015940, A050259, A123062
+%K A015973 nonn,more
+%O A015973 1,2
+%A A015973 _Robert G. Wilson v_
+%E A015973 a(1)=1 is prepended and a(6), a(7) are added by _Max Alekseyev_, Aug 04 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

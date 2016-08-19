@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055649
+Showing 1-1 of 1
+
+%I A055649
+%S A055649 0,1,2,3,4,5,6,7,8,9,10,100,101,102,103,104,105,106,107,108,109,110,
+%T A055649 200,201,202,203,204,205,206,207,208,209,210,300,301,302,303,304,305,
+%U A055649 306,307,308,309,310,400,401,402,403,404,405,406,407,408,409,410,500
+%N A055649 Integers in base 11 with each base 11 digit represented by 2 decimal digits.
+%Y A055649 Cf. A049872.
+%K A055649 base,easy,nonn
+%O A055649 0,3
+%A A055649 _Henry Bottomley_, Jun 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

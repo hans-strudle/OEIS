@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052188
+Showing 1-1 of 1
+
+%I A052188
+%S A052188 199,1499,4397,4679,7829,9859,11287,11399,11719,12829,15149,16607,
+%T A052188 17419,17839,18329,18719,19727,19937,20149,20509,20719,21649,22039,
+%U A052188 22247,23789,25609,26029,28057,29587,30047,31039,32467,34159,35117
+%N A052188 Primes prime(k) such that prime(k+2)-prime(k+1)=prime(k+1)-prime(k)=12.
+%C A052188 Lower prime prior to XddY or XdddY difference patterns of A001223, where d=12.
+%H A052188 Zak Seidov, <a href="/A052188/b052188.txt">Table of n, a(n) for n = 1..1000</a>
+%e A052188 a(1)=199, followed by 199+12=211, 199+12+12=223 consecutive primes.
+%t A052188 Transpose[Select[Partition[Prime[Range[3800]],3,1], Union[Differences[#]] =={12}&]][[1]]  (* _Harvey P. Dale_, Apr 26 2011 *)
+%o A052188 (PARI) lista(nn) = {forprime(p=1, nn, q = nextprime(p+1); r = nextprime(q+1); if ((r-q==12) && (q-p==12), print1(p, ", ")););} \\ _Michel Marcus_, Jun 27 2015
+%Y A052188 Generalization of A047948 and A033451 if 6 replaced by 12. Cf. A033447.
+%K A052188 nonn
+%O A052188 1,1
+%A A052188 _Labos Elemer_, Jan 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

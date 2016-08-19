@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023691
+Showing 1-1 of 1
+
+%I A023691
+%S A023691 511,767,895,959,991,1007,1015,1019,1021,1022,1279,1407,1471,1503,
+%T A023691 1519,1527,1531,1533,1534,1663,1727,1759,1775,1783,1787,1789,1790,
+%U A023691 1855,1887,1903,1911,1915,1917,1918,1951,1967,1975
+%N A023691 Numbers with exactly 9 ones in binary expansion.
+%H A023691 Ivan Neretin, <a href="/A023691/b023691.txt">Table of n, a(n) for n = 1..10000</a>
+%F A023691 a(n+1)=A057168(a(n)). - _M. F. Hasler_, Aug 27 2014
+%t A023691 Select[ Range[ 511, 2048 ], (Count[ IntegerDigits[ #, 2 ], 1 ]==9)& ]
+%o A023691 (PARI) is_A023691(n)=hammingweight(n)==9 \\ _M. F. Hasler_, Aug 27 2014
+%o A023691 (PARI) print1(t=2^9-1); for(i=2, 50, print1(", "t=A057168(t))) \\ _M. F. Hasler_, Aug 27 2014
+%Y A023691 Cf. A000079, A018900, A014311, A014312, A014313, A023688, A023689, A023690 (Hamming weight = 1, 2, ..., 8), A057168.
+%K A023691 nonn,base,easy
+%O A023691 1,1
+%A A023691 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

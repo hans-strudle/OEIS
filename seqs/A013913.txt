@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013913
+Showing 1-1 of 1
+
+%I A013913
+%S A013913 331776,2641807540224,21035720123168587776,
+%T A013913 167499529910025153071284224,1333735776850284124449081472843776,
+%U A013913 10620036506406716776157242913621199028224,84563357566790276763032290197830086290913099776,673346220481905860719963226704206593022095630190772224
+%N A013913 24^(5n+4).
+%H A013913 Vincenzo Librandi, <a href="/A013913/b013913.txt">Table of n, a(n) for n = 0..50</a>
+%H A013913 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A013913 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (7962624).
+%F A013913 a(n) = 7962624*a(n-1), a(0)=331776; [From Vincenzo Librandi, May 30 2011]
+%t A013913 24^(5Range[0,10]+4) (* _Harvey P. Dale_, Apr 26 2011 *)
+%o A013913 (MAGMA) [24^(5*n+4): n in [0..10]]; // Vincenzo Librandi, May 30 2011
+%o A013913 (PARI) a(n)=24^(5*n+4) \\ _Charles R Greathouse IV_, May 30 2011
+%K A013913 nonn,easy
+%O A013913 0,1
+%A A013913 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

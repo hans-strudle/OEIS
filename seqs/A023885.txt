@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023885
+Showing 1-1 of 1
+
+%I A023885
+%S A023885 6,9,15,25,30,33,44,49,51,69,81,87,91,114,117,120,121,123,124,133,135,
+%T A023885 141,159,164,169,170,177,182,207,213,217,244,247,249,252,259,267,270,
+%U A023885 273,276,282,284,289,301,303,306,310,320,321,339,343,345
+%N A023885 Not a prime and average of divisors except itself is an integer.
+%H A023885 Vincenzo Librandi, <a href="/A023885/b023885.txt">Table of n, a(n) for n = 1..1000</a>
+%t A023885 Select[Range[400],!PrimeQ[#]&&IntegerQ[Mean[Most[ Divisors[ #]]]]&] (* _Harvey P. Dale_, Jun 28 2011 *)
+%K A023885 nonn
+%O A023885 1,1
+%A A023885 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

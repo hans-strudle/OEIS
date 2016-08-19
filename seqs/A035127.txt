@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035127
+Showing 1-1 of 1
+
+%I A035127
+%S A035127 1,4,9,144,196,625,11664,14884,46656,96100,1493284,4112784,6385729,
+%T A035127 9253764,139287204,149377284,187799616,618268225,634284225,678758809,
+%U A035127 929884036,14938217284,43325589904,61076696769,97482577284
+%N A035127 Squares which when digits are rotated left once remain square.
+%C A035127 Those resulting in leading zeros are excluded.
+%H A035127 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Square Number</a>
+%e A035127 E.g. 2527^2 = 6385729 -> 3857296 = 1964^2.
+%t A035127 okQ[n_]:=Module[{idn=IntegerDigits[n]},idn[[2]]!=0&&IntegerQ[Sqrt[ FromDigits[RotateLeft[idn]]]]]; Join[{1,4,9},Select[Range[4,320000]^2, okQ]] (* _Harvey P. Dale_, Apr 30 2011 *)
+%Y A035127 Cf. A045878, A035131.
+%K A035127 nonn,base
+%O A035127 1,2
+%A A035127 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

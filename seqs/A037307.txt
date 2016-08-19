@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037307
+Showing 1-1 of 1
+
+%I A037307
+%S A037307 1,10,11,18,19,92,93,108,109,117,126,127,172,173,180,181,190,191,246,
+%T A037307 247,333,351,405,414,415,486,487,742,743,814,815,822,823,837,846,847,
+%U A037307 855,900,901,910,911,918,919,1053,1134,1135,1143
+%N A037307 (sum of base 2 digits of n)=(sum of base 9 digits of n).
+%K A037307 nonn,base
+%O A037307 1,2
+%A A037307 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

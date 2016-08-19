@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005399
+Showing 1-1 of 1
+
+%I A005399 M4256
+%S A005399 6,48,408,3600,42336,781728,13646016,90893568,1798204416
+%V A005399 6,48,408,3600,42336,781728,13646016,90893568,-1798204416
+%N A005399 Susceptibility series for hexagonal lattice.
+%C A005399 The hexagonal lattice is the familiar 2-dimensional lattice in which each point has 6 neighbors. This is sometimes called the triangular lattice.
+%D A005399 G. A. Baker et al., On the two-dimensional, spin-1/2 Heisenberg ferromagnetic models, Phys. Lett., 25A (1967), 207-209.
+%D A005399 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005399 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>
+%K A005399 sign
+%O A005399 1,1
+%A A005399 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049771
+Showing 1-1 of 1
+
+%I A049771
+%S A049771 0,1,0,1,2,0,1,0,2,0,1,2,2,2,0,1,4,3,4,2,0,1,3,5,5,3,2,0,1,0,2,0,2,4,
+%T A049771 2,0,1,8,0,5,5,3,9,2,0,1,6,2,6,5,10,5,6,2,0,1,6,5,4,10,10,7,5,12,2,0,
+%U A049771 1,4,9,4,2,0,3,4,9,10,2,0,1,4,4,10
+%N A049771 Triangular array T read by rows: T(n,k)=(k^4 mod n)+(n^4 mod k), for k=1,2,...,n, n=1,2,....
+%e A049771 Rows: {0}; {1,0}; {1,2,0}; ...
+%K A049771 nonn,tabl
+%O A049771 1,5
+%A A049771 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

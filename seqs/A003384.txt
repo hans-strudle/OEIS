@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003384
+Showing 1-1 of 1
+
+%I A003384
+%S A003384 6,261,516,771,1026,1281,1536,6566,6821,7076,7331,7586,7841,13126,
+%T A003384 13381,13636,13891,14146,19686,19941,20196,20451,26246,26501,26756,
+%U A003384 32806,33061,39366,65541,65796,66051,66306,66561,66816,72101,72356,72611,72866,73121
+%N A003384 Numbers that are the sum of 6 nonzero 8th powers.
+%F A003384 Row sums of A133093(n+1). - _Gary W. Adamson_, Sep 09 2007
+%t A003384 Union[Total[#^8]&/@Tuples[Range[10],6]] (* _Harvey P. Dale_, Nov 21 2010 *)
+%Y A003384 Cf. A133093.
+%K A003384 nonn
+%O A003384 1,1
+%A A003384 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

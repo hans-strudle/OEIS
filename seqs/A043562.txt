@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043562
+Showing 1-1 of 1
+
+%I A043562
+%S A043562 1,1,1,1,1,1,1,1,1,1,2,1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,1,
+%T A043562 2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,1,2,
+%U A043562 2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,1,2
+%N A043562 Number of runs in base 10 representation of n.
+%C A043562 Blecksmith, Filaseta, & Nicol show that lim a(k^n) = infinity whenever k is not a power of 10. More generally, in base b, the limit is infinity exactly when log k/log b is irrational. - _Charles R Greathouse IV_, Jan 29 2014
+%H A043562 Richard Blecksmith, Michael Filaseta, and Charles Nicol, <a href="http://www.math.sc.edu/~filaseta/papers/blockpaper.pdf">A result on the digits of a^n</a>, Acta Arithmetica 64 (1993), pp. 331-339.
+%o A043562 (PARI) a(n)=my(d=digits(n)); #d-sum(i=2,#d,d[i]==d[i-1]) \\ _Charles R Greathouse IV_, Jan 29 2014
+%K A043562 nonn,base,easy
+%O A043562 0,11
+%A A043562 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

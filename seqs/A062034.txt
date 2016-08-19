@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062034
+Showing 1-1 of 1
+
+%I A062034
+%S A062034 36,44,63,138,145,154,183,224,242,318,381,415,422,451,514,541,813,831,
+%T A062034 1146,1164,1225,1233,1252,1323,1332,1416,1461,1522,1614,1641,2125,
+%U A062034 2133,2152,2215,2222,2251,2313,2331,2512,2521,3123,3132,3213,3231,3312,3321
+%N A062034 Numbers whose product of digits is twice the sum of the digits.
+%H A062034 Harry J. Smith, <a href="/A062034/b062034.txt">Table of n, a(n) for n=0,...,500</a>
+%e A062034 1225 belong to the sequence as (1*2*2*5)/(1+2+2+5) =20/10 = 2.
+%o A062034 (PARI) SumD(x)= { s=0; while (x>9, s=s+x-10*(x\10); x=x\10); return(s + x) } ProdD(x)= { p=1; while (x>9, p=p*(x-10*(x\10)); x=x\10); return(p*x) } { n=-1; for (m=1, 2111281, if (ProdD(m)==2*SumD(m), write("b062034.txt", n++, " ", m)) ) } [From _Harry J. Smith_, Jul 30 2009]
+%K A062034 nonn,base,easy
+%O A062034 0,1
+%A A062034 _Amarnath Murthy_, Jun 27 2001
+%E A062034 Corrected and extended by Larry Reeves (larryr(AT)acm.org), Jul 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

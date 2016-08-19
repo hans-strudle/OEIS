@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052790
+Showing 1-1 of 1
+
+%I A052790
+%S A052790 0,0,0,0,0,0,720,10080,114240,1270080,14621040,177629760,2292618240,
+%T A052790 31485168000,459767275968,7126635035520,117007217832960,
+%U A052790 2030137891891200,37138576448883456,714734162773420032
+%N A052790 A simple grammar.
+%H A052790 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=747">Encyclopedia of Combinatorial Structures 747</a>
+%F A052790 E.g.f.: x^2*log(-1/(-1+x))^4.
+%F A052790 Recurrence: {a(1)=0, a(2)=0, a(4)=0, a(3)=0, a(5)=0, a(6)=720, (32*n-464*n^2-21*n^6-22*n^5+48*n^3+n^8+2*n^7+384+160*n^4)*a(n) + (105*n^4-360-14*n^6-121*n^2-4*n^7+642*n-296*n^3+48*n^5)*a(n+1) + (-84*n+24*n^5+179*n^2+6*n^6-35*n^4-90*n^3)*a(n+2) + (14*n^2+12*n^3-8*n-14*n^4-4*n^5)*a(n+3) + (-n^2+n^4-2*n+2*n^3)*a(n+4)}.
+%p A052790 spec := [S,{B=Cycle(Z),S=Prod(Z,Z,B,B,B,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052790 easy,nonn
+%O A052790 0,7
+%A A052790 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

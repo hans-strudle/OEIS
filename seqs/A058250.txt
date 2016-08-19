@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058250
+Showing 1-1 of 1
+
+%I A058250
+%S A058250 1,2,2,6,30,30,30,30,330,2310,2310,2310,2310,2310,53130,690690,
+%T A058250 20030010,20030010,20030010,20030010,20030010,20030010,821230410,
+%U A058250 821230410,821230410,821230410,13960916970,739928599410,739928599410
+%N A058250 GCD of n-th primorial number and its totient.
+%F A058250 a(n) = GCD[A002110(n), A000010(A002110(n)] = GCD[A002110(n), A005867(n)].
+%e A058250 a(6)=GCD(30030,5760)=30
+%p A058250 [seq(igcd(product(ithprime(k), k=1..m), product(ithprime(k)-1, k=1..m)), m=1..50)];
+%t A058250 GCD[#,EulerPhi[#]]&/@Rest[FoldList[Times,1,Prime[Range[30]]]] (* _Harvey P. Dale_, Dec 19 2012 *)
+%Y A058250 A002110, A000010, A005867.
+%K A058250 nonn
+%O A058250 0,2
+%A A058250 _Labos Elemer_, Dec 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

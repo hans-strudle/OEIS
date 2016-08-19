@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059401
+Showing 1-1 of 1
+
+%I A059401
+%S A059401 1197,2510,2570,5210,5230,5290,12590,14673,15230,20530,21530,22510,
+%T A059401 23510,23570,24590,25030,25210,25310,25390,25430,25490,25510,25570,
+%U A059401 25790,25910,25930,26570,26590,27530,28510,28570,29530,29570,32510
+%N A059401 Numbers that contains as proper substrings every maximal prime power dividing them.
+%C A059401 Most end in 0, since 2*5*prime will work if prime contains 2 and 5 as substrings
+%H A059401 Reinhard Zumkeller, <a href="/A059401/b059401.txt">Table of n, a(n) for n = 1..10000</a>
+%e A059401 1197 = 9 * 7 * 19 and all of these are substrings.
+%o A059401 (Haskell)
+%o A059401 import Data.List (isInfixOf)
+%o A059401 a059401 n = a059401_list !! (n-1)
+%o A059401 a059401_list = filter (\x -> a010055 x == 0 &&
+%o A059401                all (`isInfixOf` show x) (map show $ a141809_row x)) [1..]
+%o A059401 -- _Reinhard Zumkeller_, Dec 16 2013
+%Y A059401 Cf. A141809, A010055, subsequence of A024619.
+%K A059401 base,nice,nonn
+%O A059401 1,1
+%A A059401 _Erich Friedman_, Jan 29 2001
+%E A059401 Offset corrected by _Reinhard Zumkeller_, Dec 16 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

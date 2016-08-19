@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052566
+Showing 1-1 of 1
+
+%I A052566
+%S A052566 2,1,4,6,48,120,1440,5040,80640,362880,7257600,39916800,958003200,
+%T A052566 6227020800,174356582400,1307674368000,41845579776000,355687428096000,
+%U A052566 12804747411456000,121645100408832000
+%N A052566 E.g.f.: (2+x)/(1-x^2).
+%H A052566 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=508">Encyclopedia of Combinatorial Structures 508</a>
+%F A052566 Recurrence: {a(1)=1, a(0)=2, (-2-n^2-3*n)*a(n)+a(n+2)=0}
+%F A052566 Sum(1/2*(1+2*_alpha)*_alpha^(-1-n), _alpha=RootOf(-1+_Z^2))*n!
+%F A052566 E.g.f.: (x+2)/(1-x^2).
+%F A052566 2n! if n is even, n! if odd.
+%p A052566 spec := [S,{S=Union(Sequence(Z), Sequence(Prod(Z,Z)))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%p A052566 a:=n->n!+sum((-1)^k*n!, k=0..n): seq(a(n), n=0..19); - _Zerinvary Lajos_, Mar 25 2008
+%o A052566 (PARI) a(n)=if(n<0,0,n!*polcoeff((x+2)/(1-x^2)+x*O(x^n),n))
+%K A052566 easy,nonn
+%O A052566 0,1
+%A A052566 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

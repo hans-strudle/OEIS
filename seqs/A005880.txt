@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005880
+Showing 1-1 of 1
+
+%I A005880 M1827
+%S A005880 2,8,12,16,26,24,28,48,36,40,64,48,62,80,60,64,96,96,76,112,84,88,156,
+%T A005880 96,114,144,108,144,160,120,124,208,168,136,192,144,148,248,192,160,
+%U A005880 242,168,216,240
+%N A005880 Theta series of D_4 lattice with respect to edge.
+%D A005880 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005880 <a href="/index/Da#D4">Index entries for sequences related to D_4 lattice</a>
+%Y A005880 Equals 2 * A008438.
+%K A005880 nonn
+%O A005880 0,1
+%A A005880 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

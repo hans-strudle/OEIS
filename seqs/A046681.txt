@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046681
+Showing 1-1 of 1
+
+%I A046681
+%S A046681 1,2,8,9,18,64,72,128,625,729,1024,1152,1250,1458,4096,5000,5625,5832,
+%T A046681 6561,8192,9216,11250,13122,15625,31250,32768,40000,45000,46656,52488,
+%U A046681 59049,65536,80000,93312,117649,118098,125000,235298,262144,294912
+%N A046681 Number of divisors of n and sum of 4th powers of divisors of n are relatively prime.
+%C A046681 It can be shown that this is a subset of A028982.
+%t A046681 Select[Range[300000],CoprimeQ[DivisorSigma[0,#],DivisorSigma[4,#]]&] (* _Harvey P. Dale_, May 30 2012 *)
+%Y A046681 Cf. A028982, A046678 - A046981, A046983, A046985.
+%K A046681 nonn
+%O A046681 1,2
+%A A046681 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

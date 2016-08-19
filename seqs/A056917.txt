@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056917
+Showing 1-1 of 1
+
+%I A056917
+%S A056917 1,15,30,44,65,77,78,87,105,141,147,186,242,247,282,301,330,335,345,
+%T A056917 450,481,560,570,589,591,606,671,705,717,767,777,785,819,820,870
+%N A056917 Numbers n such that sigma(n)-phi(n) is a perfect square.
+%e A056917 sigma(44)-phi(44) = 84 - 20 = 8^2, so 44 is a term of the sequence.
+%t A056917 Select[Range[10^3], IntegerQ[Sqrt[DivisorSigma[1, # ] - EulerPhi[ # ]]] &]
+%K A056917 easy,nonn
+%O A056917 1,2
+%A A056917 _Joseph L. Pe_, Feb 12 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

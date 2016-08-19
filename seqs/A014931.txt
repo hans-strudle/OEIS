@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014931
+Showing 1-1 of 1
+
+%I A014931
+%S A014931 1,33,801,17185,344865,6636321,124076833,2271560481,40926266145,
+%T A014931 728121033505,12822748939041,223928981472033,3883103678710561,
+%U A014931 66933498461897505,1147797409030816545,19594541482740368161
+%N A014931 a(1)=1, a(n)=n*16^(n-1)+a(n-1).
+%F A014931 a(n) = (1+16^n*(15*n-1))/225 [From _Paolo P. Lava_, Jan 13 2009]
+%K A014931 nonn,easy
+%O A014931 1,2
+%A A014931 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

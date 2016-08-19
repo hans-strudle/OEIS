@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005523
+Showing 1-1 of 1
+
+%I A005523 M3757
+%S A005523 5,7,9,10,13,14,16,18,21,25,26,28,33,36,38,40,43,44,50,54,57,61,64,68,
+%T A005523 75,77,81,84,88,91,97,100,102,108,117,122,124,128,130,135,144,148,150,
+%U A005523 150
+%N A005523 Maximal number of rational points on elliptic curve over GF(q), q=2,3,4,5,7,...
+%D A005523 J. W. P. Hirschfeld, Linear codes and algebraic codes, pp. 35-53 of F. C. Holroyd and R. J. Wilson, editors, Geometrical Combinatorics. Pitman, Boston, 1984. See N_q(1) on page 51.
+%D A005523 J.-P. Serre, Oeuvres, vol. 3, pp. 658-663 and 664-669.
+%D A005523 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005523 W. C. Waterhouse, Abelian varieties over finite fields, Ann Sci. E.N.S., (4) 2 (1969), 521-560.
+%H A005523 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RationalPoint.html">Rational Point.</a>
+%Y A005523 Cf. A000961.
+%K A005523 nonn,easy
+%O A005523 2,1
+%A A005523 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

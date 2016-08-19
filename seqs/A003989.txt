@@ -1,0 +1,42 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003989
+Showing 1-1 of 1
+
+%I A003989
+%S A003989 1,1,1,1,2,1,1,1,1,1,1,2,3,2,1,1,1,1,1,1,1,1,2,1,4,1,2,1,1,1,3,1,1,3,
+%T A003989 1,1,1,2,1,2,5,2,1,2,1,1,1,1,1,1,1,1,1,1,1,1,2,3,4,1,6,1,4,3,2,1,1,1,
+%U A003989 1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,7,2,1,2,1,2,1,1,1,3,1,5,3,1,1,3,5,1,3,1,1,1,2,1
+%N A003989 Table of GCD(x,y) read by antidiagonals, where (x,y) = (1,1),(1,2),(2,1),(1,3),(2,2),(3,1),...
+%C A003989 For m<n, the maximal number of nonattacking queens that can be placed on the n by m rectangular toroidal chessboard is GCD(m,n), except in the case m=3, n=6.
+%C A003989 The determinant of the matrix of the first n rows and columns is A001088(n). [Smith, Mansion] - _Michael Somos_, Jun 25 2012
+%C A003989 Imagine a torus having regular polygonal cross-section of m sides. Now, break the torus and twist the free ends, preserving rotational symmetry, then reattach the ends. Let n be the number of faces passed in twisting the torus before reattaching it. For example, if n = m, then the torus has exactly one full twist. Do this for arbitrary m and n (m > 1, n > 0). Now, count the number of independent, closed paths on the surface of the resulting torus, where a path is "closed" if and only if it returns to its starting point after a finite number of times around the surface of the torus. Conjecture: this number is always GCD (m,n). NOTE: This figure constitutes a group with m and n the binary arguments and GCD (m,n) the resulting value. Twisting in the reverse direction is the inverse operation, and breaking & reattaching in place is the identity operation. - _Jason Richardson-White_, May 06 2013
+%C A003989 Regarded as a triangle, table of gcd(n,k) for 0 < k < n. - _Franklin T. Adams-Watters_, Oct 09 2014
+%D A003989 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics, Addison-Wesley, 2nd ed., 1994, ch. 4.
+%D A003989 D. E. Knuth, The Art of Computer Programming, Addison-Wesley, section 4.5.2.
+%H A003989 T. D. Noe, <a href="/A003989/b003989.txt">First 100 antidiagonals of array, flattened</a>
+%H A003989 Grant Cairns, <a href="http://www.combinatorics.org/Volume_8/Abstracts/v8i1n6.html">Queens on Non-square Tori</a>, El. J. Combinatorics, N6, 2001.
+%H A003989 P. Mansion, <a href="https://archive.org/stream/messengermathem01glaigoog#page/n94/mode/2up">On an Arithmetical Theorem of Professor Smith's</a>, Messenger of Mathematics, (1878), pp. 81-82.
+%H A003989 Kival Ngaokrajang, <a href="/A003989/a003989_1.jpg">Pattern of GCD(x,y) > 1 for x and y = 1..60</a>. Non-isolated values larger than 1 (polyomino shapes) are colored.
+%H A003989 H. J. S. Smith, <a href="http://plms.oxfordjournals.org/content/s1-7/1/208.extract">On the value of a certain arithmetical determinant</a>, Proc. London Math. Soc. 7 (1875-1876), pp. 208-212.
+%H A003989 <a href="/index/Lc#lcm">Index entries for sequences related to lcm's</a>
+%F A003989 Multiplicative in both parameters with a(p^e, m) = GCD(p^e, m). - _David W. Wilson_, Jun 12 2005
+%e A003989 Table begins:
+%e A003989 1 1 1 1 1 1 ...
+%e A003989 1 2 1 2 1 2 ...
+%e A003989 1 1 3 1 1 3 ...
+%e A003989 1 2 1 4 1 2 ...
+%e A003989 1 1 1 1 5 1 ...
+%t A003989 Table[ GCD[x - y + 1, y], {x, 1, 15}, {y, 1, x}] // Flatten (* _Jean-François Alcover_, Dec 12 2012 *)
+%o A003989 (PARI) {A(n, m) = gcd(n, m)}; /* _Michael Somos_, Jun 25 2012 */
+%Y A003989 Rows, columns and diagonals: A089128, A109007, A109008, A109009, A109010, A109011, A109012, A109013, A109014, A109015.
+%Y A003989 A109004 is (0, 0) based.
+%Y A003989 Cf. A003990, A003991, A050873, A054431, A001088.
+%Y A003989 Cf. also A091255 for GF(2)[X] polynomial analog.
+%Y A003989 A(x, y) = A075174(A004198(A075173(x), A075173(y))) = A075176(A004198(A075175(x), A075175(y))).
+%Y A003989 Antidiagonal sums are in A006579.
+%K A003989 tabl,nonn,easy,nice,mult
+%O A003989 1,5
+%A A003989 _Marc LeBrun_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

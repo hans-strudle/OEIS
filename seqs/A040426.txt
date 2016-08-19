@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040426
+Showing 1-1 of 1
+
+%I A040426
+%S A040426 21,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,
+%T A040426 6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,
+%U A040426 42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42,6,42
+%N A040426 Continued fraction for sqrt(448).
+%H A040426 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040426 a(n)=24+18*(-1)^n-21*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 30 2009]
+%p A040426 with(numtheory): Digits := 300: convert(evalf(sqrt(448)),confrac);
+%K A040426 nonn,cofr,easy,less
+%O A040426 0,1
+%A A040426 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

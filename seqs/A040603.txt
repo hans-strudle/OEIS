@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040603
+Showing 1-1 of 1
+
+%I A040603
+%S A040603 25,12,1,1,12,50,12,1,1,12,50,12,1,1,12,50,12,1,1,12,50,12,1,1,12,50,
+%T A040603 12,1,1,12,50,12,1,1,12,50,12,1,1,12,50,12,1,1,12,50,12,1,1,12,50,12,
+%U A040603 1,1,12,50,12,1,1,12,50,12,1,1,12,50,12,1,1,12,50,12
+%N A040603 Continued fraction for sqrt(629).
+%H A040603 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040603 a(n)=(1/25)*{-152*(n mod 5)-17*[(n+1) mod 5]+38*[(n+2) mod 5]+93*[(n+3) mod 5]+228*[(n+4) mod 5]}-25*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 15 2009]
+%p A040603 with(numtheory): Digits := 300: convert(evalf(sqrt(629)),confrac);
+%K A040603 nonn,cofr,easy
+%O A040603 0,1
+%A A040603 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

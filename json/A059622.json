@@ -1,0 +1,1 @@
+{"formerly":"","seq":"2,4,16,24,32,40,120,124,144,172,186,376,700,1232,1264,2894,5054","description":"Numbers n such that (5*3^n - 7)/2 is prime.","mathematica":"Do[ If[ PrimeQ[ (5*3^n - 7)/2 ], Print[n] ], {n, 0, 10000} ]","keyword":"nonn","offset":"1,1","author":"_Robert G. Wilson v_, Feb 19 2001"}

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029043
+Showing 1-1 of 1
+
+%I A029043
+%S A029043 1,1,1,2,2,3,4,4,5,6,7,9,10,11,13,15,17,19,21,23,26,29,32,35,38,42,46,
+%T A029043 50,54,58,63,68,73,79,84,90,97,103,110,117,124,132,140,148,157,166,
+%U A029043 175,185,195,205,216,227,238,250
+%N A029043 Expansion of 1/((1-x)(1-x^3)(1-x^5)(1-x^11)).
+%H A029043 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1,1,-1,0,-1,1,0,1,-1,0,-1,1,-1,1,0,1,-1).
+%F A029043 a(n) = floor((n^3+30*n^2+371*n+1188-330*floor((n+2)/3))/990). - _Tani Akinari_, Jun 28 2013
+%o A029043 (PARI) a(n)=(n^3+30*n^2+371*n+1188-(n+2)\3*330)\990
+%K A029043 nonn,easy
+%O A029043 0,4
+%A A029043 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

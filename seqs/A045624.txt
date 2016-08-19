@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045624
+Showing 1-1 of 1
+
+%I A045624
+%S A045624 1,11,101,851,6885,54723,432021,3403859,26811397,211225187,1664405621,
+%T A045624 13116776819,103376383461,814752361347,6421443995733,50610420076691,
+%U A045624 398884119723973,3143787312038051,24777605586822197,195283435452156851
+%N A045624 Row sums of convolution triangle A030526.
+%H A045624 W. Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), #00.2.4.
+%F A045624 G.f. x*(1-6*x+16*x^2-16*x^3)/(1-17*x+102*x^2-272*x^3+272*x^4)= g1(5, x)/(1-g1(5, x)), g1(5, x) := x*(1-6*x+16*x^2-16*x^3)/(1-4*x)^4 (G.f. first column of A030526).
+%K A045624 easy,nonn
+%O A045624 1,2
+%A A045624 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

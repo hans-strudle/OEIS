@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037124
+Showing 1-1 of 1
+
+%I A037124
+%S A037124 1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70,80,90,100,200,300,400,500,600,
+%T A037124 700,800,900,1000,2000,3000,4000,5000,6000,7000,8000,9000,10000,20000,
+%U A037124 30000,40000,50000,60000,70000,80000,90000,100000
+%N A037124 Numbers that contain only one nonzero digit.
+%C A037124 Starting with 1: next greater number not containing the highest digit (see also A098395). - _Reinhard Zumkeller_, Oct 31 2004
+%C A037124 a(n) = A140740(n+9,9). - _Reinhard Zumkeller_, May 26 2008
+%C A037124 A055640(a(n)) = 1. [_Reinhard Zumkeller_, May 03 2011]
+%C A037124 A193459(a(n)) = A000005(a(n)), subsequence of A193460.
+%C A037124 Sum_{n>0} 1/a(n)^s = (10^s)*(Zeta(s) - Zeta(s,10))/(10^s-1), with (s>1). - _Enrique Pérez Herrero_, Feb 05 2013
+%H A037124 Reinhard Zumkeller, <a href="/A037124/b037124.txt">Table of n, a(n) for n = 1..1000</a>
+%F A037124 a(n) = [(n mod 9)+1] * 10^floor(n/9). E.g. a(39) = [(39 mod 9)+1] * 10^floor(39/9) = [3+1] * 10^4 = 40000 - _Carl R. White_, Jan 08 2004
+%F A037124 a(n) = A051885(n-1) + 1. - _Reinhard Zumkeller_, Jan 03 2008, Jul 10 2011
+%F A037124 A138707(a(n)) = A000005(a(n)); A061116 is a subsequence. - _Reinhard Zumkeller_, Mar 26 2008
+%F A037124 a(n+1) = a(n) + a(n - n mod 9). - _Reinhard Zumkeller_, May 26 2008
+%F A037124 a(n) = (10^floor((n - 1)/9))*(n - 9*floor((n - 1)/9)). - _José de Jesús Camacho Medina_, Nov 10 2014
+%t A037124 Table[(10^Floor[(n - 1)/9])*(n - 9*Floor[(n - 1)/9]), {n, 1, 50}](* _José de Jesús Camacho Medina_, Nov 10 2014 *)
+%o A037124 (Haskell)
+%o A037124 a037124 n = a037124_list !! (n-1)
+%o A037124 a037124_list = f [1..9] where f (x:xs) = x : f (xs ++ [10*x])
+%o A037124 -- _Reinhard Zumkeller_, May 03 2011
+%o A037124 (MAGMA) [((n mod 9)+1) * 10^Floor(n/9): n in [0..50]]; // _Vincenzo Librandi_, Nov 11 2014
+%Y A037124 Cf. A000079, A038754, A133464, A140730.
+%K A037124 nonn,base
+%O A037124 1,2
+%A A037124 Vasiliy Danilov (danilovv(AT)usa.net), Jun 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

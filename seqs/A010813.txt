@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010813
+Showing 1-1 of 1
+
+%I A010813
+%S A010813 0,1,33554432,847288609443,1125899906842624,298023223876953125,
+%T A010813 28430288029929701376,1341068619663964900807,37778931862957161709568,
+%U A010813 717897987691852588770249,10000000000000000000000000
+%N A010813 25th powers: a(n) = n^25.
+%C A010813 Completely multiplicative sequence with a(p) = p^25 for prime p. Multiplicative sequence with a(p^e) = p^(25e). - _Jaroslav Krizek_, Nov 01 2009
+%H A010813 Vincenzo Librandi, <a href="/A010813/b010813.txt">Table of n, a(n) for n = 1..1000</a>
+%H A010813 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%t A010813 Range[0, 9]^25 (* _Alonso del Arte_, Apr 04 2015 *)
+%o A010813 (MAGMA) [n^25: n in [0..15]]; // _Vincenzo Librandi_, Jun 19 2011
+%o A010813 (PARI) a(n)=n^25 \\ _Charles R Greathouse IV_, Jun 28 2015
+%K A010813 nonn,mult,easy
+%O A010813 0,3
+%A A010813 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

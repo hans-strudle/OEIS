@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020549
+Showing 1-1 of 1
+
+%I A020549
+%S A020549 2,2,5,37,577,14401,518401,25401601,1625702401,131681894401,
+%T A020549 13168189440001,1593350922240001,229442532802560001,
+%U A020549 38775788043632640001,7600054456551997440001,1710012252724199424000001,437763136697395052544000001
+%N A020549 a(n) = (n!)^2 + 1.
+%D A020549 H. Ibstedt, A Few Smarandache Sequences, Smarandache Notions Journal, Vol. 8, No. 1-2-3, 1997, 170-183.
+%D A020549 M. Le, On the Interesting Smarandache Product Sequences, Smarandache Notions Journal, Vol. 9, No. 1-2, 1998, 133-134.
+%D A020549 M. Le, The Primes in Smarandache Power Product Sequences, Smarandache Notions Journal, Vol. 9, No. 1-2, 1998, 96-97.
+%D A020549 F. Iacobescu, Smarandache Partition Type and Other Sequences, Bull. Pure Appl. Sciences, Vol. 16E, No. 2 (1997), pp. 237-240.
+%H A020549 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/SmSquProd.txt">Smarandache Square Products</a>.
+%H A020549 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/Sequences-book.pdf">Sequences of Numbers Involved in Unsolved Problems</a>.
+%H A020549 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Factorial.html">Factorial</a>
+%H A020549 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmarandacheSequences.html">Smarandache Sequences</a>
+%p A020549 with(combinat):seq(fibonacci(3,n!), n=0..16); # _Zerinvary Lajos_, Apr 21 2008
+%t A020549 Table[(n!)^2 + 1, {n, 0, 20}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 08 2011 *)
+%Y A020549 Cf. A001044.
+%K A020549 nonn
+%O A020549 0,1
+%A A020549 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

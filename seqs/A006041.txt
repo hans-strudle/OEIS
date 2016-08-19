@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006041
+Showing 1-1 of 1
+
+%I A006041 M1949
+%S A006041 0,2,9,76,1145,27486,962017,46176824,2909139921,232731193690,
+%T A006041 23040388175321,2764846581038532,395373061088510089,
+%U A006041 66422674262869694966,12952421481259590518385
+%N A006041 a(n+1) = (n^2 - 1) a(n) + n + 1.
+%D A006041 R. K. Guy, personal communication.
+%D A006041 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006041 <a href="/index/Be#Bessel">Index entries for sequences related to Bessel functions or polynomials</a>
+%F A006041 Nearest integer to BesselI(1, 2)*(n-1)!*(n-1)!*n/(n-1), n>2.
+%K A006041 nonn,easy
+%O A006041 1,2
+%A A006041 _N. J. A. Sloane_, _Simon Plouffe_
+%E A006041 More terms from _James A. Sellers_, May 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

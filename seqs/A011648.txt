@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011648
+Showing 1-1 of 1
+
+%I A011648
+%S A011648 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,
+%T A011648 0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1
+%V A011648 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,
+%W A011648 0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1
+%N A011648 99th cyclotomic polynomial.
+%t A011648 CoefficientList[Series[Cyclotomic[99,x],{x,0,100}],x] (* _Harvey P. Dale_, Jul 09 2015 *)
+%K A011648 sign,fini,full
+%O A011648 0,1
+%A A011648 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

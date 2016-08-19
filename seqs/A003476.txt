@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003476
+Showing 1-1 of 1
+
+%I A003476 M0705
+%S A003476 1,2,3,5,9,15,25,43,73,123,209,355,601,1019,1729,2931,4969,8427,14289,
+%T A003476 24227,41081,69659,118113,200275,339593,575819,976369,1655555
+%N A003476 a(n) = a(n-1) + 2a(n-3).
+%D A003476 D. E. Daykin and S. J. Tucker, Introduction to Dragon Curves. Unpublished, 1976. See links in A003229 for an earlier version.
+%D A003476 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003476 T. D. Noe, <a href="/A003476/b003476.txt">Table of n, a(n) for n=1..500</a>
+%H A003476 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A003476 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%p A003476 A003476:=-(1+z+z**2)/(-1+z+2*z**3); [_Simon Plouffe_ in his 1992 dissertation.]
+%Y A003476 Equals A003229(n) + A052537(n+1) and (1/4) |A078044(n+2)|.
+%K A003476 nonn
+%O A003476 1,2
+%A A003476 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

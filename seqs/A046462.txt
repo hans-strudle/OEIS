@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046462
+Showing 1-1 of 1
+
+%I A046462
+%S A046462 2,5,10,13,14,15,31,51,61
+%N A046462 Concatenation of numbers from 1 to a(n) has exactly 3 prime factors, with multiplicity.
+%H A046462 P. De Geest, <a href="http://www.worldofnumbers.com/factorlist.htm">Normal Smarandache Concatenated Numbers, Prime factors from 1 up to n</a>
+%H A046462 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A046462 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/michafleuren.htm">Factors and primes of Smarandache sequences</a>.
+%Y A046462 Cf. A046460.
+%K A046462 nonn,hard,base
+%O A046462 0,1
+%A A046462 _Patrick De Geest_, Aug 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

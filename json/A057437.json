@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,2,5,7,9,11,14,22,45,54,67,74,321,706,902,962","description":"Numbers n such that 10*7^n + 1 is prime.","mathematica":"Do[ If[ PrimeQ[ 10*7^n + 1], Print[n]], {n, 1, 1000}]","keyword":"nonn","offset":"1,2","author":"_Robert G. Wilson v_, Sep 08 2000"}

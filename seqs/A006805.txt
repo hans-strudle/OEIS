@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006805
+Showing 1-1 of 1
+
+%I A006805 M3219
+%S A006805 4,4,0,22,44,32,100,352,492,166,2268,4914,3212,11083
+%V A006805 4,-4,0,22,-44,32,100,-352,492,166,-2268,4914,-3212,-11083
+%N A006805 Percolation series for b.c.c. lattice.
+%D A006805 J. Blease, Series expansions for the directed-bond percolation problem, J. Phys. C 10 (1977), 917-924.
+%D A006805 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006805 <a href="/index/Ba#bcc">Index entries for sequences related to b.c.c. lattice</a>
+%K A006805 sign
+%O A006805 0,1
+%A A006805 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020990
+Showing 1-1 of 1
+
+%I A020990
+%S A020990 1,0,1,2,3,2,1,0,1,0,1,2,1,2,3,4,5,4,5,6,7,6,5,4,3,4,3,2,3,2,1,0,1,0,
+%T A020990 1,2,3,2,1,0,1,0,1,2,1,2,3,4,3,4,3,2,1,2,3,4,5,4,5,6,5,6,7,8,9,8,9,10,
+%U A020990 11,10,9,8,9,8,9,10,9,10,11
+%N A020990 a(n) = Sum_{k=0..n} (-1)^k*A020985(k).
+%D A020990 Brillhart, John; Morton, Patrick. Über Summen von Rudin-Shapiroschen Koeffizienten. (German) Illinois J. Math. 22 (1978), no. 1, 126--148. MR0476686 (57 #16245) - From _N. J. A. Sloane_, Jun 06 2012
+%D A020990 J. Brillhart and P. Morton, A case study in mathematical research: the Golay-Rudin-Shapiro sequence, Amer. Math. Monthly, 103 (1996) 854-869.
+%H A020990 Reinhard Zumkeller, <a href="/A020990/b020990.txt">Table of n, a(n) for n = 0..10000</a>
+%F A020990 Brillhart and Morton (1978) list many properties.
+%o A020990 (Haskell)
+%o A020990 a020990 n = a020990_list !! n
+%o A020990 a020990_list = scanl1 (+) $ zipWith (*) a033999_list a020985_list
+%o A020990 -- _Reinhard Zumkeller_, Jun 06 2012
+%Y A020990 Cf. A033999.
+%K A020990 nonn
+%O A020990 0,4
+%A A020990 _N. J. A. Sloane_. Edited by _N. J. A. Sloane_, Jun 06 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

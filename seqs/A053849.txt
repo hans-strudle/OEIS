@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053849
+Showing 1-1 of 1
+
+%I A053849
+%S A053849 1,1,1,303265,2972290465,21908753010145,149203663865159905,
+%T A053849 46239110653796245209025,2921531591617287960635324005825
+%N A053849 Number of n X n matrices over GF(3) of order dividing 5 (i.e. number of solutions of X^5=I in GL(n,3)).
+%D A053849 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053849 Cf. A053770.
+%K A053849 more,nonn
+%O A053849 1,4
+%A A053849 _Vladeta Jovovic_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

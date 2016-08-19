@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010741
+Showing 1-1 of 1
+
+%I A010741
+%S A010741 1,2,4,1,1,1,6,14,25,32,6,250,1222,4380,13059,31705,48464,76354,
+%T A010741 1159911,7041015,33400183,135931668,473704510,1277600695,
+%U A010741 1233828142,16196871172,169736941512,1156974034428,6577630531262
+%V A010741 1,2,4,1,1,1,-6,14,-25,32,6,-250,1222,-4380,13059,-31705,48464,76354,
+%W A010741 -1159911,7041015,-33400183,135931668,-473704510,1277600695,
+%X A010741 -1233828142,-16196871172,169736941512,-1156974034428,6577630531262
+%N A010741 Shifts 3 places left under inverse binomial transform.
+%H A010741 M. Bernstein and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.CO/0205301">Some canonical sequences of integers</a>, Linear Alg. Applications, 226-228 (1995), 57-72; erratum 320 (2000), 210.
+%H A010741 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%K A010741 sign
+%O A010741 0,2
+%A A010741 _N. J. A. Sloane_, _Jonas Wallgren_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

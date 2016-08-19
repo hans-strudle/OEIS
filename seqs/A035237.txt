@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035237
+Showing 1-1 of 1
+
+%I A035237
+%S A035237 0,10,49,100,1000,1441,4900
+%N A035237 Smallest number that has n substrings which are square.
+%C A035237 no leading 0's allowed in substrings, except for the number 0.
+%e A035237 a(3)=49 since 4, 9 and 49 are squares and no smaller number works.
+%Y A035237 Cf. A035222.
+%K A035237 easy,nonn
+%O A035237 1,2
+%A A035237 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

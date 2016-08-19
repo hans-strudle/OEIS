@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053622
+Showing 1-1 of 1
+
+%I A053622
+%S A053622 2,1,1,0,0,0,0,0,0,0,0,1,1,0,0,1,1,2,1,1,1,2,1,1,1,1,1,
+%T A053622 1,1,2,2,2,1,1,1,2,2,1,1,2,2,3,2,2,2,3,3,2,2,2,
+%U A053622 2,3,2,2,2,2,2,3,2,3,3,3,3,2,2,3,3,3,3,3,3
+%V A053622 2,1,1,0,0,0,0,0,0,0,0,-1,-1,0,0,-1,-1,-2,-1,-1,-1,-2,-1,-1,-1,-1,-1,
+%W A053622 -1,-1,-2,-2,-2,-1,-1,-1,-2,-2,-1,-1,-2,-2,-3,-2,-2,-2,-3,-3,-2,-2,-2,
+%X A053622 -2,-3,-2,-2,-2,-2,-2,-3,-2,-3,-3,-3,-3,-2,-2,-3,-3,-3,-3,-3,-3
+%N A053622 Round[ n/log(n) - pi(n) ].
+%H A053622 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/howmany.shtml">How Many Primes Are There?</a>
+%F A053622 a(n) = A050499(n)-A000720(n)
+%Y A053622 Cf. A000720, A050499, A052434, A052435.
+%K A053622 sign
+%O A053622 2,1
+%A A053622 _Henry Bottomley_, Mar 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

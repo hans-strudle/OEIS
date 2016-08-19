@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005082
+Showing 1-1 of 1
+
+%I A005082
+%S A005082 0,0,3,0,0,3,7,0,3,0,11,3,0,7,3,0,0,3,19,0,10,11,23,3,0,0,3,7,0,3,31,
+%T A005082 0,14,0,7,3,0,19,3,0,0,10,43,11,3,23,47,3,7,0,3,0,0,3,11,7,22,0,59,3,
+%U A005082 0,31,10,0,0,14,67,0,26,7,71
+%N A005082 Sum of primes = 3 mod 4 dividing n.
+%F A005082 Additive with a(p^e) = p if p = 3 (mod 4), 0 otherwise.
+%t A005082 Table[Total[Select[Transpose[FactorInteger[n]][[1]],Mod[#,4] == 3&]],{n,80}] (* _Harvey P. Dale_, Jan 18 2015 *)
+%K A005082 nonn
+%O A005082 1,3
+%A A005082 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

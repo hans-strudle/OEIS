@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014298
+Showing 1-1 of 1
+
+%I A014298
+%S A014298 1,2,24,576,21120,1048320,65802240,5000970240,446557224960,
+%T A014298 45830873088000,5316381278208000,687893507997696000,
+%U A014298 98231192942070988800,15345895252950201139200,2603510504983275503616000
+%N A014298 2^n * (3n)! / (2n+1)!.
+%t A014298 Table[2^n (3n)!/(2n+1)!,{n,0,20}] (* _Harvey P. Dale_, Mar 19 2016 *)
+%o A014298 (PARI) a(n) = 2^n * (3*n)! / (2*n+1)! \\ _Michel Marcus_, Jun 24 2013
+%K A014298 nonn,easy
+%O A014298 0,2
+%A A014298 Igor Pak (pak(AT)MATH.HARVARD.EDU)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

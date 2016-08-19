@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032177
+Showing 1-1 of 1
+
+%I A032177
+%S A032177 0,0,1,2,6,12,30,66,156,357,842,1961,4643,10960,26072,62084,148499,
+%T A032177 355784,855038,2058536,4967099,12005308,29067646,70483478,171158311,
+%U A032177 416168250,1013156687,2469301316,6024696764
+%N A032177 Number of connected functions of n points with no fixed points and with no symmetries.
+%F A032177 Difference between A015183 and A004111.
+%Y A032177 Cf. A002862.
+%K A032177 nonn
+%O A032177 1,4
+%A A032177 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

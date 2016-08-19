@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048124
+Showing 1-1 of 1
+
+%I A048124
+%S A048124 8,9,21,25,30,32,35,36,42,50,57,60,64,72,81,85,86,93,102,111,115,121,
+%T A048124 122,138,145,146,159,164,174,182,187,194,215,219,235,236,237,253,258,
+%U A048124 260,265,266,282,284,287,289,302,303,308,312,318,319,326,329,338,346
+%N A048124 Becomes prime or 4 after exactly 2 iterations of f(x) = sum of prime factors of x.
+%C A048124 f(x) = sum of prime factors with multiplicity, so that f(1500) = 2+2+3+5+5+5 = 22.
+%t A048124 okQ[n_]:=Module[{lst=NestList[Total[Times@@@FactorInteger[#]]&,n,2]}, !PrimeQ[First[lst]] &&!PrimeQ[lst[[2]]]&&First[lst]!=4&&lst[[2]]!=4&&(PrimeQ[Last[lst]]||Last[lst]==4)]; Select[Range[400], okQ] (* _Harvey P. Dale_, Mar 23 2011 *)
+%K A048124 nonn
+%O A048124 1,1
+%A A048124 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

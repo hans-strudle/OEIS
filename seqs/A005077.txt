@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005077
+Showing 1-1 of 1
+
+%I A005077
+%S A005077 0,16,0,16,625,16,0,16,0,641,14641,16,0,16,625,16,83521,16,0,641,0,
+%T A005077 14657,279841,16,625,16,0,16,707281,641,0,16,14641,83537,625,16,0,16,
+%U A005077 0,641,2825761,16,0,14657,625,279857
+%N A005077 Sum of 4th powers of primes = 2 mod 3 dividing n.
+%F A005077 Additive with a(p^e) = p^4 if p = 2 (mod 3), 0 otherwise.
+%K A005077 nonn
+%O A005077 1,2
+%A A005077 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

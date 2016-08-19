@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016066
+Showing 1-1 of 1
+
+%I A016066
+%S A016066 3,15,1618,528491311,514843556263457213182266,
+%T A016066 28511235679461510605581038657982805983853648817939444953417128837
+%N A016066 Round(e^(e^n)).
+%Y A016066 Cf. A096232, A096404.
+%K A016066 nonn
+%O A016066 0,1
+%A A016066 _Robert G. Wilson v_
+%E A016066 Corrected by _N. J. A. Sloane_, Aug 16 2004. The next term is too large to include.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

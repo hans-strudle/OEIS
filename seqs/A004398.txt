@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004398
+Showing 1-1 of 1
+
+%I A004398
+%S A004398 3,5,8,12,19,26,38,53,78,118,175,270,418,653,1034,1650,2643,4242,6832,
+%T A004398 11017,17784,28736,46451,75114,121490,196519,317914,514336,832149,
+%U A004398 1346382,2178436,3524709,5703024,9227604,14930501,24157968,39088326
+%N A004398 Fibonacci(n+1) plus n-th prime.
+%H A004398 Harvey P. Dale, <a href="/A004398/b004398.txt">Table of n, a(n) for n = 1..1000</a>
+%e A004398 a(5) = sixth fibonacci number + fifth prime = 8 + 11 = 19
+%p A004398 f := n -> fibonacci(n+1) + ithprime(n);
+%t A004398 With[{nn=40},Total/@Thread[{Prime[Range[nn]],Fibonacci[Range[2,nn+1]]}]] (* _Harvey P. Dale_, Dec 18 2011 *)
+%o A004398 (PARI) A004398(n) = fibonacci(n+1) + prime(n)
+%o A004398 (MAGMA) [Fibonacci(n+1) + NthPrime(n): n in [1..50]]; // Vincenzo Librandi, Apr 20 2011
+%K A004398 nonn
+%O A004398 1,1
+%A A004398 Hegermann, Frank (hegermann(AT)oi.dbv.commerzbank.dbp.de)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

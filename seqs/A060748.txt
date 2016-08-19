@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060748
+Showing 1-1 of 1
+
+%I A060748
+%S A060748 1,6,19,657,21691,489489,9902523,1144421889,1683200989470,
+%T A060748 349043376293530
+%N A060748 Smallest m such that x^3+y^3=m has rank n, if m exists.
+%C A060748 Nick Rogers (rogers(AT)fas.harvard.edu), Jul 03 2003: I have verified that the first 5 entries are correct; the first two are basically trivial and the third is due to Selmer. I'm not sure who first discovered entries 4 and 5 and I expect that they had been previously proved to be the smallest values, (cont.)
+%C A060748 but I have rechecked that they are minimal for their respective rank using a combination of 3-descent, MAGMA and John Cremona's program mwrank. (cont.)
+%C A060748 There are new smaller values for ranks 6 and 7, namely k = 9902523 has rank 6 and k = 1144421889 has rank 7. 3-descent combined with Ian Connell's package apecs for Maple verifies that these are minimal subject to the Birch and Swinnerton-Dyer conjecture and the Generalized Riemann Hypothesis for L-functions associated to elliptic curves. (cont.)
+%C A060748 Finally, there are new entries for ranks 8 and 9: k = 1683200989470 has rank 8 and k = 148975046052222390 has rank 9. It seems somewhat likely that the rank 8 example is minimal. (end.)
+%C A060748 The sequence might be finite, even if it is redefined as smallest m such that x^3+y^3=m has rank >= n. - _Jonathan Sondow_, Oct 27 2013
+%D A060748 Noam D. Elkies, Posting to Number Theory List (NMBRTHRY(AT)LISTSERV.NODAK.EDU), Oct 19 2003, for a(9)
+%D A060748 Noam D. Elkies and Nicholas F. Rogers, Posting to Number Theory List (NMBRTHRY(AT)LISTSERV.NODAK.EDU), Jul 18 2003, for a(8) and a(9).
+%D A060748 Troy Kessler (kesslert(AT)surfree.com), Posting to Number Theory List (NMBRTHRY(AT)LISTSERV.NODAK.EDU), Apr 22, 2001.
+%D A060748 Nick Rogers, Rank computations for the congruent number elliptic curves. Experimental Mathematics 9 (2000), no. 4, 591-594
+%Y A060748 Cf. A060838, A230564.
+%K A060748 nonn,nice
+%O A060748 0,2
+%A A060748 _N. J. A. Sloane_, Apr 23 2001
+%E A060748 Definition clarified by _Jonathan Sondow_, Oct 27 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

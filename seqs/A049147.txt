@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049147
+Showing 1-1 of 1
+
+%I A049147
+%S A049147 1,1,0,0,2,2,4,27,78,222,816,2736,8784,29704,100408,334889,1128036,
+%T A049147 3819368,12912484,43771606,148863396,506943540,1729339848,5911769970,
+%U A049147 20242876176,69422168880,238465602096,820352668488,2826032713656
+%N A049147 Revert transform of (1 - x - 4x^2 + x^3)/(1 - 6x^2).
+%H A049147 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%K A049147 nonn
+%O A049147 1,5
+%A A049147 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

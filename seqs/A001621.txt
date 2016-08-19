@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001621
+Showing 1-1 of 1
+
+%I A001621
+%S A001621 0,2,12,42,110,240,462,812,1332,2070,3080,4422,6162,8372,11130,14520,
+%T A001621 18632,23562,29412,36290,44310,53592,64262,76452,90300,105950,123552,
+%U A001621 143262,165242,189660,216690,246512,279312,315282,354620,397530,444222,494912,549822
+%N A001621 a(n) = n*(n + 1)*(n^2 + n + 2)/4.
+%C A001621 Number of integer sequences of length n+1 with sum zero and sum of absolute values 4. - _R. H. Hardin_, Feb 22 2009
+%C A001621 Partial sums of A034262. - _Jeremy Gardiner_, Jun 23 2013
+%H A001621 T. D. Noe, <a href="/A001621/b001621.txt">Table of n, a(n) for n = 0..1000</a>
+%F A001621 Equals 2 * A002817 and (A058919(n-1) - 1)/2.
+%F A001621 G.f.: (-2*x*(x^2+x+1))/(x-1)^5. - Maksym Voznyy (voznyy(AT)mail.ru), Jul 27 2009
+%t A001621 a[n_]:=Sum[i+i^3, {i, 1, n}]; (* _Vladimir Joseph Stephan Orlovsky_, Dec 05 2008 *)
+%Y A001621 Cf. A002817, A058919, A092365.
+%K A001621 nonn
+%O A001621 0,2
+%A A001621 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

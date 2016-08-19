@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023020
+Showing 1-1 of 1
+
+%I A023020
+%S A023020 1,22,275,2530,18975,122430,702328,3661900,17627775,79264900,
+%T A023020 335937954,1351507830,5191041625,19125838600,67862904725,232671319474,
+%U A023020 773027485065,2494957906100,7839428942950,24025993453000,71941861591215
+%N A023020 Number of partitions of n into parts of 22 kinds.
+%C A023020 a(n) is Euler transform of A010861. - _Alois P. Heinz_, Oct 17 2008
+%H A023020 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a> [_Alois P. Heinz_, Oct 17 2008]
+%H A023020 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%F A023020 G.f.: Product_{m>=1} 1/(1-x^m)^22.
+%p A023020 with (numtheory): a:= proc(n) option remember; `if`(n=0, 1, add (add (d*22, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq (a(n), n=0..40); # _Alois P. Heinz_, Oct 17 2008
+%Y A023020 Cf. 22nd column of A144064. - _Alois P. Heinz_, Oct 17 2008
+%K A023020 nonn
+%O A023020 0,2
+%A A023020 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034681
+Showing 1-1 of 1
+
+%I A034681
+%S A034681 1,129,2188,16385,78126,282252,823544,2097153,4782970,10078254,
+%T A034681 19487172,35850380,62748518,106237176,170939688,268435457,410338674,
+%U A034681 617003130,893871740,1280094510,1801914272,2513845188,3404825448
+%N A034681 Sum of seventh powers of unitary divisors.
+%F A034681 Dirichlet g.f. zeta(s)*zeta(s-7)/zeta(2s-7). - R. J. Mathar, Apr 12 2011
+%Y A034681 Cf. A034444, A034448.
+%K A034681 nonn,mult
+%O A034681 1,2
+%A A034681 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

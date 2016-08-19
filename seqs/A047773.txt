@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047773
+Showing 1-1 of 1
+
+%I A047773
+%S A047773 0,0,0,1,0,0,1,1,0,2,3,0,3,5,0,7,11,0,12,23,0,30,55,0,55,114,0,143,
+%T A047773 272,0,273,588,0,728,1428,0,1428,3156,0,3876,7750,0,7752,17427,0,
+%U A047773 21318,43263,0,43263,98516,0,120175,246672,0,246675,567281,0
+%N A047773 Number of dissectable polyhedra with symmetry of type D.
+%D A047773 L. W. Beineke and R. E. Pippert, Enumerating dissectable polyhedra by their automorphism groups, Canad. J. Math., 26 (1974), 50-67.
+%F A047773 If n=3m+2 then (1/2)*(A047750(m)-2*A047751(n)-A047764(n)), if n=3m+2 then A047749(m), else 0.
+%Y A047773 Cf. A027610.
+%K A047773 nonn
+%O A047773 1,10
+%A A047773 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029573
+Showing 1-1 of 1
+
+%I A029573
+%S A029573 0,0,0,0,0,0,120,840,6720,60480,604800,6652800,73180800,951350400,
+%T A029573 13318905600,199783584000,3196537344000,54341134848000,
+%U A029573 983080530432000,18678530078208000,373570601564160000
+%N A029573 Number of permutations of an n-set containing a 6-cycle.
+%F A029573 a(n) = n! * (1 - sum_{k=0..floor(n/6)} (-1)^k/(k!*6^k)).
+%F A029573 a(n)/n! is asymptotic to 1-e^(-1/6) = 1 - A092727.
+%o A029573 (PARI) a(n) = n! * (1 - sum(k=0, floor(n/6), (-1)^k/(k!*6^k) ) ); \\ _Michel Marcus_, Aug 08 2013
+%K A029573 nonn
+%O A029573 0,7
+%A A029573 _Rob Pratt_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

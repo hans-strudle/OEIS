@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052447
+Showing 1-1 of 1
+
+%I A052447
+%S A052447 0,0,1,2,8,41,352,4820,113256,4602039
+%N A052447 Number of simple 2-edge-connected unlabeled n-node graphs.
+%H A052447 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/k-Edge-ConnectedGraph.html">k-Edge-Connected Graph.</a>
+%H A052447 Travis Hoppe and Anna Petrone, <a href="https://github.com/thoppe/Encyclopedia-of-Finite-Graphs">Encyclopedia of Finite Graphs</a>
+%H A052447 T. Hoppe and A. Petrone, <a href="http://arxiv.org/abs/1408.3644">Integer sequence discovery from small graphs</a>, arXiv preprint arXiv:1408.3644, 2014
+%Y A052447 Cf. other k-edge-connected unlabeled graph sequences A052446, A052447, A052448, A241703, A241704, A241705.
+%K A052447 nonn,hard,more
+%O A052447 1,4
+%A A052447 _Eric W. Weisstein_, May 08 2000
+%E A052447 a(8), a(9), a(10) from the Encyclopedia of Finite Graphs by _Travis Hoppe_ and _Anna Petrone_, Apr 22 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

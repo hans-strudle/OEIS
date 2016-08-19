@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037149
+Showing 1-1 of 1
+
+%I A037149
+%S A037149 1,1,691,53678953,53678953,53678953,53678953
+%N A037149 Denominators of Fourier coefficients of Eisenstein series of degree 2 and weight 12 when evaluated at Gram(A_2)*z.
+%D A037149 Klingen, Intro. Lectures on Siegel Modular Forms, p. 123.
+%H A037149 <a href="/index/Ed#Eisen">Index entries for sequences related to Eisenstein series</a>
+%F A037149 x^24-144*x^18*y+3480192/691*x^12*y^2-2037901234176/53678953*x^6*y^3+21009383424000/53678953*y^4, x = phi_0(z), y = Delta_12(z);
+%Y A037149 Cf. A037148.
+%K A037149 nonn,more
+%O A037149 0,3
+%A A037149 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

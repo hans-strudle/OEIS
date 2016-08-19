@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031685
+Showing 1-1 of 1
+
+%I A031685
+%S A031685 59561,191050,193681,530209,537514,680914,685873,692513,857837,865261,
+%T A031685 1248218,1250453,1259413,1471994,1474421,1479281,1481714,1484149,
+%U A031685 1486586,1491466,1496354,1498801,1722073,1737853,1748413,1988941,1994585
+%N A031685 Numbers n such that continued fraction for sqrt(n) has odd period and central term 97.
+%t A031685 cfop97Q[n_]:=Module[{s=Sqrt[n],cf,len},If[IntegerQ[s],cf={1,1}, cf = ContinuedFraction[s][[2]]];len=Length[cf];OddQ[len]&&cf[[ (len+1)/2]] ==97]; Select[Range[2*10^6],cfop97Q] (* _Harvey P. Dale_, Dec 16 2014 *)
+%K A031685 nonn
+%O A031685 1,1
+%A A031685 _David W. Wilson_
+%E A031685 Corrected by _Harvey P. Dale_, Dec 16 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

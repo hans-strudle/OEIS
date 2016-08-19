@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048367
+Showing 1-1 of 1
+
+%I A048367
+%S A048367 3,28,138,587,612,2824,27654,29603,131468,1312748,1616488,2811574,
+%T A048367 49629974,139796852,281986403,1264554822,6146857824,16162692208,
+%U A048367 60598584603,229717543765
+%N A048367 a(n)^3 is smallest cube containing exactly n 2's.
+%C A048367 Next term is >1000000000. - Sam Handler (sam_5_5_5_0(AT)yahoo.com), Aug 23 2006
+%H A048367 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html">Cubic Number</a>
+%t A048367 a[n_] := Module[{i}, i = 1; While[DigitCount[i^3][[2]] != n, i++ ]; i]; - Sam Handler (sam_5_5_5_0(AT)yahoo.com), Aug 23 2006
+%Y A048367 Cf. A036529.
+%K A048367 nonn,base,more
+%O A048367 1,1
+%A A048367 _Patrick De Geest_, Mar 15 1999.
+%E A048367 One more term from Sam Handler (sam_5_5_5_0(AT)yahoo.com), Aug 23 2006
+%E A048367 a(15)-a(20) from _Lars Blomberg_, Jun 12 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

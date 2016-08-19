@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059442
+Showing 1-1 of 1
+
+%I A059442
+%S A059442 2,3,3,4,6,4,5,9,9,5,6,14,18,14,6,7,18,25,25,18,7,8,23
+%N A059442 Array of Ramsey numbers R(n,k) read by antidiagonals.
+%D A059442 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 288.
+%D A059442 J. G. Kalbfleisch, Construction of special edge-chromatic graphs, Canad. Math. Bull., 8 (1965), 575-584.
+%D A059442 H. J. Ryser, Combinatorial Mathematics. Mathematical Association of America, Carus Mathematical Monograph 14, 1963, p. 42.
+%D A059442 Jin Xu and C. K. Wong, Self-complementary graphs and Ramsey numbers I, Discrete Math., 223 (2000), 309-326.
+%H A059442 Stanislaw Radziszowski, <a href="http://www.combinatorics.org/issue/view/Surveys">Small Ramsey Numbers</a> (survey).
+%H A059442 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RamseyNumber.html">Ramsey Number</a>
+%H A059442 Wikipedia, <a href="http://en.wikipedia.org/wiki/Ramsey_theorem">Ramsey's theorem</a>
+%e A059442 Array R(n,k), n >= 2, k >= 2, begins:
+%e A059442    2,  3,  4,  5,  6,  7,  8,  9, 10,
+%e A059442    3,  6,  9, 14, 18, 23, 28, 36,
+%e A059442    4,  9, 18, 25,  ?,  ?,  ?,
+%e A059442    5, 14, 25,  ?,  ?,  ?,
+%e A059442    6, 18,  ?,  ?,  ?,
+%e A059442    7, 23,  ?,  ?,
+%e A059442    8, 28,  ?,
+%e A059442    9, 36,
+%e A059442   10,
+%Y A059442 Second row gives A000791.
+%K A059442 nonn,tabl,nice,hard
+%O A059442 0,1
+%A A059442 _N. J. A. Sloane_, Feb 01 2001
+%E A059442 Next entry is in range 35-41.
+%E A059442 More terms in example section (antidiagonals 6-10. Cf. A000791) from _Omar E. Pol_, Jun 11 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051602
+Showing 1-1 of 1
+
+%I A051602
+%S A051602 0,0,0,1,1,2,3,4,6,7,8,11
+%N A051602 Maximal number of squares that can be formed from n points in the plane.
+%C A051602 For n >= 7 these are just lower bounds.
+%H A051602 E. Friedman, <a href="http://www.stetson.edu/~efriedma/maxsqu/">Maximizing Squares</a>
+%K A051602 nonn,nice
+%O A051602 1,6
+%A A051602 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054931
+Showing 1-1 of 1
+
+%I A054931
+%S A054931 1,0,0,1,5,34,331,4949,123764,5713987,497201633,81514244540,
+%T A054931 25084892188043,14476409634230317,15684138157859087576,
+%U A054931 31969052260961397580693,122903899605317560183278680
+%N A054931 Number of unlabeled connected graphs up to complementarity.
+%H A054931 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054931 a(n) = A001349(n) - (1/2)A000088(n) + (1/2)A000171(n-1) (see Eq. (4) in Liskovets) - _Emeric Deutsch_, Nov 18 2004
+%Y A054931 Cf. A001349, A000088, A000171.
+%K A054931 nonn,easy
+%O A054931 1,5
+%A A054931 _N. J. A. Sloane_, May 24 2000
+%E A054931 More terms from _Emeric Deutsch_, Nov 18 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

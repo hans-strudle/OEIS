@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005114
+Showing 1-1 of 1
+
+%I A005114 M1552
+%S A005114 2,5,52,88,96,120,124,146,162,188,206,210,216,238,246,248,262,268,276,
+%T A005114 288,290,292,304,306,322,324,326,336,342,372,406,408,426,430,448,472,
+%U A005114 474,498,516,518,520,530,540,552,556,562,576,584,612,624,626,628,658
+%N A005114 Untouchable numbers, also called nonaliquot numbers: impossible values for sum of aliquot parts of n (A001065).
+%C A005114 Chen & Zhao show that the lower density of this sequence is at least 0.06, improving on te Riele. - _Charles R Greathouse IV_, Dec 28 2013
+%D A005114 Yong-Gao Chen and Qing-Qing Zhao, Nonaliquot numbers, Publ. Math. Debrecen 78:2 (2011), pp. 439-442.
+%D A005114 R. K. Guy, Unsolved Problems in Number Theory, B10.
+%D A005114 Clifford A. Pickover, A Passion for Mathematics, Wiley, 2005; see p. 65.
+%D A005114 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005114 Klaus Brockhaus, <a href="/A005114/b005114.txt">Table of n, a(n) for n = 1..8153</a>
+%H A005114 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy], p. 840.
+%H A005114 Jack David Alanen, <a href="http://oai.cwi.nl/oai/asset/9143/9143A.pdf">Empirical study of aliquot series</a>, Ph.D Thesis, Yale University, 1972 (scanned copy 11MB).
+%H A005114 P. Erdős, <a href="http://www.renyi.hu/~p_erdos/1973-27.pdf">Über die Zahlen der Form sigma(n)-n und n-phi(n)</a>, Elemente der Math. 28 (1973), pp. 83-86.
+%H A005114 P. Pollack, C. Pomerance, <a href="http://alpha.math.uga.edu/~pollack/reversal12.pdf">Some problems of Erdos on the sum-of-divisors function</a>, For Richard Guy on his 99th birthday: May his sequence be unbounded, 2015, to appear.
+%H A005114 C. Pomerance and H.-S. Yang, <a href="http://www.math.dartmouth.edu/~carlp/uupaper3.pdf">On untouchable numbers and related problems</a>, 2012.
+%H A005114 C. Pomerance and H.-S. Yang, <a href="https://www.math.dartmouth.edu/~carlp/uupaper6.pdf">Variant of a theorem of Erdos on the sum-of-proper-divisors function</a>, 2012.
+%H A005114 Giovanni Resta, <a href="http://www.numbersaplenty.com/set/untouchable_number/">Untouchable numbers</a> the 150232 terms up to 10^6
+%H A005114 H. J. J. te Riele, <a href="http://oai.cwi.nl/oai/asset/13093/13093A.pdf">A Theoretical and Computational Study of Generalized Aliquot Sequences (Dissertation)</a>, Mathematisch Centrum, Amsterdam, 1975 (scanned copy 13MB).
+%H A005114 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/UntouchableNumber.html">Untouchable Number.</a>
+%H A005114 Wikipedia, <a href="http://en.wikipedia.org/wiki/Untouchable_number">Untouchable number</a>
+%F A005114 Complement of A078923. - _Lekraj Beedassy_, Jul 19 2005
+%t A005114 untouchableQ[n_] := Catch[ Do[ If[n == DivisorSigma[1, k]-k, Throw[True]], {k, 0, (n-1)^2}]] === Null; Reap[ Table[ If[ untouchableQ[n], Print[n]; Sow[n]], {n, 2, 700}]][[2, 1]] (* _Jean-François Alcover_, Jun 29 2012, after _Benoit Cloitre_ *)
+%o A005114 (PARI) isA078923(n)=if(n==0 || n==1, return(1)); for(m=1,(n-1)^2, if( sigma(m)-m == n, return(1))); 0
+%o A005114 isA005114(n)=!isA078923(n)
+%o A005114 for(n=1,700, if (isA005114(n), print(n))) \\ _R. J. Mathar_, Aug 10 2006
+%Y A005114 Cf. A001065, A001065, A064000, A078923.
+%K A005114 nonn,nice
+%O A005114 1,1
+%A A005114 _N. J. A. Sloane_
+%E A005114 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055022
+Showing 1-1 of 1
+
+%I A055022
+%S A055022 0,0,0,0,0,0,0,0,1,12,92,576,3214,16664,82160,390656,1807781,8192524,
+%T A055022 36519556,160645504,699030226,3014470024,12901501696,54863119744,
+%U A055022 232022899306,976598630968,4093581923320,17096805375360,71176501409756
+%N A055022 Number of 1-punctured staircase polygons (by perimeter) with a hole of perimeter 4.
+%D A055022 Guttmann, A. J. et al., Punctured polygons and polyominoes on the square lattice, J. Physics A: Math. and Gen, 33 (9) (2000), 1735-1764.
+%F A055022 Conjecture: n*(n-8)*a(n) +2*(-4*n^2+35*n-45)*a(n-1) +8*(2*n-9)*(n-5)*a(n-2)=0.- _R. J. Mathar_, Aug 14 2012
+%p A055022 gf := (2*x^4 - 16*x^3 + 20*x^2 - 8*x + 1)/(2*(1 - 4*x)) - (1 - 6*x + 10*x^2 - 4*x^3)/(2*sqrt(1 - 4*x)): s := series(gf, x, 50): for i from 0 to 50 do printf(`%d,`,coeff(s,x,i)) od:
+%K A055022 easy,nonn
+%O A055022 0,10
+%A A055022 _James A. Sellers_, May 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

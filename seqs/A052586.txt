@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052586
+Showing 1-1 of 1
+
+%I A052586
+%S A052586 1,1,2,6,48,360,2880,30240,362880,4717440,68947200,1117670400,
+%T A052586 19639065600,373621248000,7671689625600,168689993472000,
+%U A052586 3954407288832000,98525417582592000,2599363724525568000
+%N A052586 E.g.f. (1-x^3)/(1-x-x^3).
+%H A052586 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=531">Encyclopedia of Combinatorial Structures 531</a>
+%F A052586 E.g.f.: (-1+x^3)/(-1+x+x^3)
+%F A052586 Recurrence: {a(1)=1, a(0)=1, a(3)=6, a(2)=2, (-11*n-6-n^3-6*n^2)*a(n) +(-n-3)*a(n+2) +a(n+3)=0}
+%F A052586 Sum(1/31*(-2*_alpha+9*_alpha^2+6)*_alpha^(-1-n), _alpha=RootOf(-1+_Z+_Z^3))*n!
+%p A052586 spec := [S,{S=Sequence(Prod(Z,Sequence(Prod(Z,Z,Z))))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052586 easy,nonn
+%O A052586 0,3
+%A A052586 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

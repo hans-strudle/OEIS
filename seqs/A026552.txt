@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026552
+Showing 1-1 of 1
+
+%I A026552
+%S A026552 1,1,1,1,1,2,3,2,1,1,2,4,4,4,2,1,1,3,7,10,12,10,7,3,1,1,3,8,13,19,20,
+%T A026552 19,13,8,3,1,1,4,12,24,40,52,58,52,40,24,12,4,1,1,4,13,28,52,76,98,
+%U A026552 104,98,76,52,28,13,4,1,1,5,18,45,93,156,226,278
+%N A026552 Irregular triangular array T read by rows: T(i,0) = T(i,2i) = 1 for i >= 0; T(i,1) = T(i,2i-1) = floor(i/2 + 1) for i >= 1; for even n >= 2, T(i,j) = T(i-1,j-2) + T(i-1,j-1) + T(i-1,j) for j = 2..2i-2; for odd n >= 3, T(i,j) = T(i-1,j-2) + T(i-1,j) for j=2..2i-2.
+%C A026552 T(n, k) = number of integer strings s(0)..s(n) such that s(0) = 0, s(n) = n-k, |s(i)-s(i-1)|<=1 if i is even or i = 1, |s(i)-s(i-1)| = 1 if i is odd and i >= 3.
+%H A026552 Clark Kimberling, <a href="/A026552/b026552.txt">Rows 0..100, flattened</a>
+%H A026552 <a href="/index/Pas#Pascal">Index entries for triangles and arrays related to Pascal's triangle</a>
+%e A026552 First 5 rows:
+%e A026552   1
+%e A026552   1  1  1
+%e A026552   1  2  3  2  1
+%e A026552   1  2  4  4  4  2  1
+%e A026552   1  3  7 10 12 10  7  3  1
+%t A026552 z = 12; t[n_, 0] := 1; t[n_, k_] := 1 /; k == 2 n; t[n_, 1] := Floor[n/2 + 1]; t[n_, k_] := Floor[n/2 + 1] /; k == 2 n - 1; t[n_, k_] := t[n, k] = If[EvenQ[n], t[n - 1, k - 2] + t[n - 1, k - 1] + t[n - 1, k], t[n - 1, k - 2] + t[n - 1, k]]; u = Table[t[n, k], {n, 0, z}, {k, 0, 2 n}];
+%t A026552 TableForm[u] (* A026552 array *)
+%t A026552 v = Flatten[u] (* A026552 sequence *)
+%Y A026552 Cf. A026519, A026536, A026568, A026584, A027926.
+%K A026552 nonn,tabf
+%O A026552 1,6
+%A A026552 _Clark Kimberling_
+%E A026552 Updated by _Clark Kimberling_, Aug 28 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

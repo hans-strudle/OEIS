@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026220
+Showing 1-1 of 1
+
+%I A026220
+%S A026220 2,1,6,8,3,4,14,5,18,20,7,24,26,9,10,32,11,12,38,13,42,44,15,16,50,17,
+%T A026220 54,56,19,60,62,21,22,68,23,72,74,25,78,80,27,28,86,29,30,92,31,96,98,
+%U A026220 33,34,104,35,36,110,37,114,116,39,40,122,41
+%N A026220 a(n) = (1/5)*s(n), where s(n) is the n-th multiple of 5 in A026177.
+%C A026220 Is this the same as A026215? [From _R. J. Mathar_, Oct 23 2008]
+%K A026220 nonn
+%O A026220 1,1
+%A A026220 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

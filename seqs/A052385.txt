@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052385
+Showing 1-1 of 1
+
+%I A052385
+%S A052385 7,79,7498,5830114,8652011824287
+%N A052385 The best integers n to use in the expansion Pi=3+sum((-1)^k/(10^k*n), k=0..infinity).
+%F A052385 Un=Pi-3-sum((-1)^k/10^k/Ak, k=0..n-1)-(-1)^n/10^n/a, An=argmin(Un), with a integer and Un*(-1)^n<0
+%Y A052385 Cf. A014013.
+%K A052385 easy,frac,more,nonn
+%O A052385 0,1
+%A A052385 Boris Gourevitch (sai1042(AT)ensai.fr), Mar 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

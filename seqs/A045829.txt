@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045829
+Showing 1-1 of 1
+
+%I A045829
+%S A045829 0,0,0,1,12,94,612,3605,19992,106644,554184,2827902,14244120,71073860,
+%T A045829 352180920,1736103460,8525167680,41741310400,203929367040,
+%U A045829 994680578505,4845761001756,23586190895078,114731538098100,557859491227841
+%N A045829 Catafusenes (see reference for precise definition).
+%C A045829 The sequence without the initial 0's is the 4-fold convolution of A002212(n), (n=1,2,...). - _Emeric Deutsch_, Mar 13 2004
+%D A045829 S. J. Cyvin et al., Enumeration and classification of certain polygonal systems...: annelated catafusenes, J. Chem. Inform. Comput. Sci., 34 (1994), 1174-1180.
+%D A045829 A. Nkwanta, Lattice paths and RNA secondary structures, DIMACS Series in Discrete Math. and Theoretical Computer Science, 34, 1997, 137-147.
+%F A045829 G.f. = (zM)^4, where M=[1-3z-sqrt(1-6z+5z^2)]/(2z^2). - _Emeric Deutsch_, Mar 13 2004
+%Y A045829 Cf. A002212.
+%K A045829 nonn
+%O A045829 1,5
+%A A045829 _N. J. A. Sloane_.
+%E A045829 More terms from _Emeric Deutsch_, Mar 13 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032548
+Showing 1-1 of 1
+
+%I A032548
+%S A032548 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A032548 1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A032548 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2
+%N A032548 Integer part of decimal 'base 7 looking' numbers divided by their actual base 7 values.
+%Y A032548 Cf. A032549, A032550. See also A032532 for explanation.
+%K A032548 nonn,easy,base
+%O A032548 0,49
+%A A032548 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

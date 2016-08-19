@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046912
+Showing 1-1 of 1
+
+%I A046912
+%S A046912 1,1,2,11,147,3412,121553,6353629,476850636,50811255045,7636459252135,
+%T A046912 1610584897516674,474333338553730879,194055026319667963777,
+%U A046912 109692570582311591696890,85221064877720762475072503
+%N A046912 Number of irreducible quasiorders with n labeled points.
+%D A046912 J. A. Wright, There are 718 6-point topologies, quasi-orderings and transgraphs, Notices Amer. Math. Soc., 17 (1970), p. 646, Abstract #70T-A106.
+%H A046912 J. A. Wright, <a href="/A000798/a000798_4.pdf">Letter to N. J. A. Sloane, Apr 06 1972, listing 18 sequences</a>
+%F A046912 E.g.f.: A(x) = 2-1/B(x), where B(x) is e.g.f. of A000798. - _Vladeta Jovovic_, Jan 10 2006
+%Y A046912 Cf. A046911.
+%K A046912 nonn,more
+%O A046912 0,3
+%A A046912 John A. Wright.
+%E A046912 Corrected and extended by _Vladeta Jovovic_, Jan 10 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

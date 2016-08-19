@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014244
+Showing 1-1 of 1
+
+%I A014244
+%S A014244 2,2,2,5,10,20,37,64,110,185,307,505,826,1345,2187,3550,5756,9326,
+%T A014244 15103,24451,39577,64052,103654,167731,271412,439172,710614,1149817,
+%U A014244 1860463,3010313,4870810,7881158
+%N A014244 (n-th Lucas number that is not 1) - (n-th number that is 1 or not a Lucas number).
+%K A014244 nonn
+%O A014244 1,1
+%A A014244 _Clark Kimberling_
+%E A014244 Corrected by _T. D. Noe_, Oct 31 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

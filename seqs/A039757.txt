@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039757
+Showing 1-1 of 1
+
+%I A039757
+%S A039757 1,1,1,3,4,1,15,23,9,1,105,176,86,16,1,945,1689,950,230,25,1,
+%T A039757 10395,19524,12139,3480,505,36,1,135135,264207,177331,57379,
+%U A039757 10045,973,49,1,2027025,4098240,2924172,1038016,208054,24640,1708,64,1,34459425
+%V A039757 1,-1,1,3,-4,1,-15,23,-9,1,105,-176,86,-16,1,-945,1689,-950,230,-25,1,
+%W A039757 10395,-19524,12139,-3480,505,-36,1,-135135,264207,-177331,57379,
+%X A039757 -10045,973,-49,1,2027025,-4098240,2924172,-1038016,208054,-24640,1708,-64,1,-34459425
+%N A039757 Triangle of coefficients in expansion of (x-1)(x-3)(x-5)...(x-(2n-1)).
+%C A039757 Triangle of B-analogs of Stirling numbers of first kind.
+%H A039757 R. Suter, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/SUTER/sut1.html">Two analogues of a classical sequence</a>, J. Integer Sequences, Vol. 3 (2000), #P00.1.8.
+%F A039757 Triangle T(n, k), read by rows, given by [ -1, -2, -3, -4, -5, -6, -7, ...] DELTA [1, 0, 1, 0, 1, 0, 1, 0, ...] where DELTA is the operator defined in A084938 . - _Philippe Deléham_, Feb 20 2005
+%F A039757 a(n,m) = a(n-1,m-1)-(2*n-1)*a(n-1,m) with a(n,0) = (-1)^n*(2*n-1)!! and a(n,n) = 1. - _Johannes W. Meijer_, Jun 08 2009
+%F A039757 Exponential Riordan array [1/sqrt(1+2*x),1/2*log(1+2*x)] with e.g.f. (1+2*x)^((t-1)/2) = 1 + (t-1)*x + (t-1)*(t-3)*x^2/2! + .... - _Peter Bala_, Jun 23 2014
+%e A039757 1;
+%e A039757 -1,1;
+%e A039757 3,-4,1;
+%e A039757 -15,23,-9,1;
+%e A039757 105,-176,86,-16,1;
+%e A039757 ...
+%p A039757 nmax:=8; mmax:=nmax: for n from 0 to nmax do a(n, 0) := (-1)^n*doublefactorial(2*n-1) od: for n from 0 to nmax do a(n, n) := 1 od: for n from 2 to nmax do for m from 1 to n-1 do a(n, m) := a(n-1, m-1)-(2*n-1)*a(n-1, m) od; od: seq(seq(a(n, m), m=0..n), n=0..nmax); # [_Johannes W. Meijer_, Jun 08 2009, revised Nov 29 2012]
+%t A039757 a[n_, m_] := a[n, m] = a[n-1, m-1] - (2*n-1)*a[n-1, m]; a[n_, 0] := (-1)^n*(2*n-1)!!; a[n_, n_] = 1; Table[a[n, m], {n, 0, 9}, {m, 0, n}] // Flatten (* _Jean-François Alcover_, Oct 16 2012, after _Johannes W. Meijer_ *)
+%Y A039757 A028338 is unsigned version.
+%Y A039757 From _Johannes W. Meijer_, Jun 08 2009: (Start)
+%Y A039757 A161198 is an unsigned scaled triangle version.
+%Y A039757 A109692 is an unsigned transposed triangle version.
+%Y A039757 A000007 equals the row sums. (End)
+%K A039757 tabl,sign,easy,nice
+%O A039757 0,4
+%A A039757 Ruedi Suter (suter(AT)math.ethz.ch)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

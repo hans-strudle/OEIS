@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027040
+Showing 1-1 of 1
+
+%I A027040
+%S A027040 1,3,9,31,129,531,2129,8351,32177,122211,458801,1706015,6293169,
+%T A027040 23057651,83992313,304424639,1098525761,3948727555,14145206209,
+%U A027040 50515602111,179904080257,639103899411,2265253438745,8012421964063
+%N A027040 a(n) = self-convolution of row n of array T given by A027023.
+%K A027040 nonn
+%O A027040 0,2
+%A A027040 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

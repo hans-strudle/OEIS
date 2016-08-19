@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061154
+Showing 1-1 of 1
+
+%I A061154
+%S A061154 148,191,296,592,659,1103,1184,1211,1318,1348,2206,2293,2368,2422,
+%T A061154 2636,2696,3817,4207
+%N A061154 n.2^m-1 are composites for all exponents m in the range 0<=m<=n.
+%Y A061154 Cf. A061153-A061158.
+%K A061154 nonn
+%O A061154 0,1
+%A A061154 _Patrick De Geest_, Apr 15 2001.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

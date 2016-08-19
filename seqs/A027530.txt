@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027530
+Showing 1-1 of 1
+
+%I A027530
+%S A027530 2,8,121,1508,7032,10541,15648,21965,121510,167546,11264974,270029270,
+%T A027530 708365875
+%N A027530 Third column of A027516.
+%F A027530 Numerators of sequence a[ 3, n ] in (a[ i, j ])^2 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i
+%K A027530 nonn
+%O A027530 3,1
+%A A027530 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

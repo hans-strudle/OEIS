@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045708
+Showing 1-1 of 1
+
+%I A045708
+%S A045708 2,23,29,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,
+%T A045708 293,2003,2011,2017,2027,2029,2039,2053,2063,2069,2081,2083,2087,2089,
+%U A045708 2099,2111,2113,2129,2131,2137,2141,2143,2153,2161,2179,2203,2207,2213
+%N A045708 Primes with first digit 2.
+%H A045708 Reinhard Zumkeller, <a href="/A045708/b045708.txt">Table of n, a(n) for n = 1..10000</a>
+%F A045708 See A045707 for comments on density of these sequences.
+%t A045708 Select[Table[Prime[n], {n, 3000}], First[IntegerDigits[#]]==2 &] (* _Vincenzo Librandi_, Aug 08 2014 *)
+%o A045708 (Haskell)
+%o A045708 a045708 n = a045708_list !! (n-1)
+%o A045708 a045708_list = filter ((== 2) . a000030) a000040_list
+%o A045708 -- _Reinhard Zumkeller_, Mar 16 2012
+%o A045708 (MAGMA) [p: p in PrimesUpTo(2300) | Intseq(p)[#Intseq(p)] eq 2]; // _Vincenzo Librandi_, Aug 08 2014
+%Y A045708 Cf. A000040, A045707, A045709, etc.
+%Y A045708 Cf. A000030, subsequence of A208272.
+%Y A045708 Column k=2 of A262369.
+%K A045708 nonn,base,easy
+%O A045708 1,1
+%A A045708 _Felice Russo_
+%E A045708 More terms from _Erich Friedman_.
+%E A045708 Offset fixed by _Reinhard Zumkeller_, Mar 15 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

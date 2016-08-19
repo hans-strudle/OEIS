@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058248
+Showing 1-1 of 1
+
+%I A058248
+%S A058248 0,5,34,269,2334,21950,215880,2194607,22847147,242104347,2601245287,
+%T A058248 28259222007,309787170203,3421648542571,38034025346108,
+%U A058248 425087937349054,4773520663632666,53826449764030293,609169697312869287,6916564779879112525
+%N A058248 Number of primes <= 12^n.
+%H A058248 <a href="/index/Pri#primepop">Index entries for sequences related to numbers of primes in various ranges</a>
+%t A058248 Table[ PrimePi[ 12^n ], {n, 0, 12} ]
+%K A058248 nonn
+%O A058248 0,2
+%A A058248 _Robert G. Wilson v_, Dec 04 2000
+%E A058248 a(13)-a(19) from _Henri Lifchitz_, Aug 25 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

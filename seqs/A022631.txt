@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022631
+Showing 1-1 of 1
+
+%I A022631
+%S A022631 1,3,9,28,69,174,413,933,2046,4391,9168,18675,37522,73725,142893,
+%T A022631 273159,514512,957666,1762837,3208884,5783727,10330732,18280590,
+%U A022631 32086827,55880614,96579240,165733335,282513246
+%N A022631 Expansion of Product (1+m*q^m)^3; m=1..inf.
+%K A022631 nonn
+%O A022631 0,2
+%A A022631 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045635
+Showing 1-1 of 1
+
+%I A045635
+%S A045635 0,0,1,9,57,315,1629,8127,39718,191754,919035,4385799,20879100,
+%T A045635 99276840,471848195,2242864575,10665998760,50757180840,241743946635,
+%U A045635 1152434818755,5499250360025,26268118117731,125602004765391
+%N A045635 Catafusenes (see references for precise definition).
+%C A045635 The sequence without the initial 0's is the 3-fold convolution of A002212(n), (n=1,2,...). - _Emeric Deutsch_, Mar 13 2004
+%D A045635 B. N. Cyvin et al., A class of polygonal systems representing polycyclic conjugated hydrocarbons ..., Monat. f. Chemie, 125 (1994), 1327-1337.
+%D A045635 S. J. Cyvin et al., Enumeration and classification of certain polygonal systems...: annelated catafusenes, J. Chem. Inform. Comput. Sci., 34 (1994), 1174-1180.
+%F A045635 G.f. = (zM)^3, where M=[1-3z-sqrt(1-6z+5z^2)]/(2z^2). - _Emeric Deutsch_, Mar 13 2004
+%p A045635 Z:=(1-8*z+24*z^2-16*z^3-(1-6*z+8*z^2)*sqrt(1-6*z+5*z^2))/2: Zser:=series(Z, z=0, 32): seq(coeff(Zser, z, n), n=4..26); - _Zerinvary Lajos_, Jan 01 2007
+%Y A045635 Cf. A002212.
+%K A045635 nonn
+%O A045635 1,4
+%A A045635 _N. J. A. Sloane_.
+%E A045635 More terms from _Emeric Deutsch_, Mar 13 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

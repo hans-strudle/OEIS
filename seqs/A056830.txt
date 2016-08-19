@@ -1,0 +1,51 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056830
+Showing 1-1 of 1
+
+%I A056830
+%S A056830 0,1,10,101,1010,10101,101010,1010101,10101010,101010101,1010101010,
+%T A056830 10101010101,101010101010,1010101010101,10101010101010,
+%U A056830 101010101010101,1010101010101010,10101010101010101,101010101010101010
+%N A056830 Alternate digits 1 and 0.
+%C A056830 a(n) = A007088(A107909(A104161(n))) = A007088(A000975(n)). - _Reinhard Zumkeller_, May 28 2005
+%C A056830 Fibonacci bit-representations of numbers for which there is only one possible representation and for which the maximal and minimal bit-representations (A104326 and A014417) are equal. The numbers represented are equal to the numbers in A000071 (subtract the first term of that sequence). For example, 10101 = 12 because 8+5+1. - _Casey Mongoven_, Mar 19 2006
+%C A056830 Sequence A000975 written in base 2. - _Jaroslav Krizek_, Aug 05 2009
+%C A056830 The absolute value of alternating sum of the first n repunits: a(n) = abs(Sum_{k=0..n} (-1)^k*A002275(n)). - _Ilya Gutkovskiy_, Dec 02 2015
+%H A056830 Vincenzo Librandi, <a href="/A056830/b056830.txt">Table of n, a(n) for n = 0..800</a>
+%H A056830 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (10,1,-10)
+%F A056830 a(n) = +10*a(n-1) + a(n-2) - 10*a(n-3).
+%F A056830 a(n) = floor(10^(n+1)/(10^2-1)) = a(n-2)+10^(n-1) = 10*a(n-1)-((-1)^n-1)/2.
+%F A056830 From _Paul Barry_, Nov 12 2003: (Start)
+%F A056830 a(n+1) = Sum_{k=0..floor(n/2)} 10^(n-2*k).
+%F A056830 a(n+1) = Sum_{k=0..n} Sum_{j=0..k} (-1)^(j+k)*10^j.
+%F A056830 G.f.: x/((1-x)*(1+x)*(1-10*x)).
+%F A056830 a(n) = 9*a(n-1)+10*a(n-2)+1.
+%F A056830 a(n) = 10^(n+1)/99-(-1)^n/22-1/18. (End)
+%F A056830 a(n) = round((20*10^n-11)/198)) = floor((10*10^n-1)/99) = ceiling((10*10^n-10)/99) = round((10*10^n-10)/99). [_Mircea Merca_, Dec 27 2010]
+%e A056830 n  a(n)             A000975(n)
+%e A056830 ------------------------------
+%e A056830 0  0 ....................... 0
+%e A056830 1  1 ....................... 1
+%e A056830 2  10 ...................... 2
+%e A056830 3  101 ..................... 5
+%e A056830 4  1010 ................... 10
+%e A056830 5  10101 .................. 21
+%e A056830 6  101010 ................. 42
+%e A056830 7  1010101 ................ 85
+%e A056830 8  10101010 .............. 170
+%e A056830 9  101010101 ............. 341
+%e A056830 10 1010101010 ............ 682
+%e A056830 11 10101010101 .......... 1365
+%e A056830 12 101010101010 ......... 2730, etc.
+%e A056830 [_Bruno Berselli_, Dec 02 2015]
+%p A056830 A056830 := proc(n) floor(10^(n+1)/99) ; end proc:
+%o A056830 (MAGMA) [Round((20*10^n-11)/198) : n in [0..20]]; // _Vincenzo Librandi_, Jun 25 2011
+%Y A056830 Partial sums of A015585.
+%Y A056830 Cf. A000975, A033113-A033119, A059848, A062864.
+%K A056830 nonn,base,easy
+%O A056830 0,3
+%A A056830 _Henry Bottomley_, Aug 30 2000
+%E A056830 More terms from _Casey Mongoven_, Mar 19 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

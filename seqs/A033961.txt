@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033961
+Showing 1-1 of 1
+
+%I A033961
+%S A033961 1,1,2,2,4,6,11,17,35,57,115,203,412,745,1546,2838,5901,11154
+%N A033961 Number of different sets ("cut sets") of triangles a regular (n+2)-gon can be dissected into; two triangulations of an (n+2)-gon are equal if all numbers of congruent triangles coincide.
+%D A033961 J. Dochkowa, H. Harborth and I. Mengersen, Cut set Catalan numbers, Congressus Numerantium, Proceedings of the Twenty-ninth Southeastern International Conference on Combinatorics, Graph Theory and Computing (Boca Raton, FL, 1998). Congr. Numer. 130 (1998), 133-139.
+%K A033961 nonn
+%O A033961 2,3
+%A A033961 Heiko Harborth (i1031901(AT)ws.rz.tu-bs.de)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

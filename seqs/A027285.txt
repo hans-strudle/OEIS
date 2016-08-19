@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027285
+Showing 1-1 of 1
+
+%I A027285
+%S A027285 12,116,682,4908,30272,201648,1273286,8275894,52783298,340392020,
+%T A027285 2180905198,14035736838,90149817980,580197442656
+%N A027285 a(n) = Sum{T(n,k)*T(n,k+3)}, 0<=k<=2n-3, T given by A026584.
+%K A027285 nonn
+%O A027285 3,1
+%A A027285 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028503
+Showing 1-1 of 1
+
+%I A028503
+%S A028503 1,2,9,17,23,64,75,99,191,204,999,1747,1907,2365,2966,5731,9999,18991,
+%T A028503 20564,99999,174601,174747,179317,243063,293786,552101,999999,1868287,
+%U A028503 2967032,9200156,9999999,22765895,31552659,93809716
+%N A028503 Numbers n such that n(n+2) is a palindrome.
+%H A028503 P. De Geest, <a href="http://www.worldofnumbers.com/quapron.htm">Palindromic quasipronic numbers of the form n(n+2)</a>
+%Y A028503 Cf. A005563, A028504.
+%K A028503 nonn,base
+%O A028503 1,2
+%A A028503 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016959
+Showing 1-1 of 1
+
+%I A016959
+%S A016959 64,1000,4096,10648,21952,39304,64000,97336,140608,195112,262144,
+%T A016959 343000,438976,551368,681472,830584,1000000,1191016,1404928,1643032,
+%U A016959 1906624,2197000,2515456,2863288,3241792
+%N A016959 (6n+4)^3.
+%H A016959 Vincenzo Librandi, <a href="/A016959/b016959.txt">Table of n, a(n) for n = 0..3000</a>
+%F A016959 G.f.: 8*(x^3+60*x^2+93*x+8)/(1-x)^4. - _Vincenzo Librandi_, Jan 27 2013
+%t A016959 CoefficientList[Series[8*(x^3 + 60*x^2 + 93*x + 8)/(1 - x)^4, {x, 0, 40}], x] (* _Vincenzo Librandi_, Jan 27 2013 *)
+%o A016959 (MAGMA) [(6*n+4)^3: n in [0..40]]; // Vincenzo Librandi, May 06 2011
+%K A016959 nonn,easy
+%O A016959 0,1
+%A A016959 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

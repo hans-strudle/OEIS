@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008411
+Showing 1-1 of 1
+
+%I A008411
+%S A008411 1,720,179280,16954560,396974160,4632858720,34413301440,187477879680,
+%T A008411 814940600400,2975469665040,9486467837280,27053330840640,
+%U A008411 70485969919680,169930679355360,384163875688320
+%N A008411 Theta series of direct sum of 3 copies of E_8 lattice (the Niemeier lattice of type E_8^3).
+%D A008411 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 123, 407.
+%F A008411 This series is the q-expansion of E_4(z)^3. Cf. A004009. - Daniel Briggs, Nov 25 2011
+%K A008411 nonn,easy
+%O A008411 0,2
+%A A008411 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

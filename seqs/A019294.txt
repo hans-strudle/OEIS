@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019294
+Showing 1-1 of 1
+
+%I A019294
+%S A019294 1,2,4,2,5,1,5,2,7,4,15,3,13,3,2,2,13,4,12,5,2,13,16,2,17,4,9,1,78,7,
+%T A019294 10,4,17,11,6,5,28,22,4,7,39,2,16,16,16,10,32,5,13,17,9,3,58,11,19,5,
+%U A019294 13,67,97,2,23,5,16,2,4,8,101,21,19,11,50,4,20,20,23,14,21,10,36,5,15
+%N A019294 Number (>0) of iteration of sigma (A000203) required to reach a value divisible by n when starting with n.
+%C A019294 Let sigma_m(n) be result of applying sum-of-divisors function m times to n; let m(n) = min m such that n divides sigma_m(n); let k(n) = sigma_{m(n)}(n)/n; sequence gives m(n).
+%C A019294 Perfect numbers require one iteration.
+%C A019294 It is conjectured that the sequence is finite for all n.
+%C A019294 See also the Cohen-te Reile links under A019276.
+%C A019294 a(A111227(n)) > A111227(n). - _Reinhard Zumkeller_, Aug 02 2012
+%D A019294 Graeme L. Cohen and Herman J. J. te Riele, Iterating the sum-of-divisors function, Experimental Mathematics, 5 (1996), pp. 93-100.
+%H A019294 T. D. Noe, <a href="/A019294/b019294.txt">Table of n, a(n) for n=1..400</a>
+%F A019294 Conjecture : lim n -> infinity Log(sum(k = 1, n, a(k)))/Log(n) = C = 1.6... - Benoit Cloitre, Aug 24 2002
+%e A019294 If n = 9 the iteration sequence is s(9) = {9, 13, 14, 24, 60, 168, 480, 1512, 4800, 15748, 28672} and Mod[s(9), 9] = {0, 4, 5, 6, 6, 6, 3, 0, 3, 7, 7}. The first iterate which is a multiple of 9 is the 7th = 1512, so a(9) = 7. For n = 67, the 101st iterate is the first, so a(67) = 101. Usually several iterates are divisible by the initial value. E.g., if n = 6, then 91 of the first 100 iterates are divisible by 6.
+%e A019294 A difficult term to compute: a(461) = 557. - Dan Reble, Jun 23 2005
+%t A019294 f[n_, m_] := Block[{d = DivisorSigma[1, n]}, If[ Mod[d, m] == 0, 0, d]]; Table[ Length[ NestWhileList[ f[ #, n] &, n, # != 0 &]] - 1, {n, 84}] (* _Robert G. Wilson v_, Jun 24 2005 *)
+%t A019294 Table[Length[NestWhileList[DivisorSigma[1,#]&,DivisorSigma[1,n], !Divisible[ #,n]&]],{n,90}] (* _Harvey P. Dale_, Mar 04 2015 *)
+%o A019294 (PARI) a(n)=if(n<0,0,c=1; s=n; while(sigma(s)%n>0,s=sigma(s); c++); c)
+%o A019294 (Haskell)
+%o A019294 a019294 n = snd $ until ((== 0) . (`mod` n) . fst)
+%o A019294                         (\(x, i) -> (a000203 x, i + 1)) (a000203 n, 1)
+%o A019294 -- _Reinhard Zumkeller_, Aug 02 2012
+%Y A019294 Cf. A019295, A000396, records in A019276.
+%K A019294 nonn,nice
+%O A019294 1,2
+%A A019294 _N. J. A. Sloane_
+%E A019294 Additional comments from _Labos Elemer_, Jun 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

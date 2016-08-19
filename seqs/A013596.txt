@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013596
+Showing 1-1 of 1
+
+%I A013596
+%S A013596 1,0,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,
+%T A013596 0,0,1,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,0,1,1,1,1,1,1,1,
+%U A013596 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,0,1,1,1,0,0,0,0
+%V A013596 1,0,1,-1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,-1,1,1,1,1,1,1,1,1,1,0,0,0,1,1,
+%W A013596 0,0,1,0,0,1,1,-1,1,-1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,-1,0,1,1,1,1,1,1,1,
+%X A013596 1,1,1,1,1,1,1,1,-1,1,-1,1,-1,1,1,-1,0,1,-1,1,0,-1,1,1,0,0,0,0
+%N A013596 Triangle of coefficients of cyclotomic polynomial Phi_n(x) (exponents in decreasing order).
+%C A013596 We follow Maple in defining Phi_0 to be x; it could equally well be taken to be 1.
+%D A013596 E. R. Berlekamp, Algebraic Coding Theory, McGraw-Hill, 1968; see p. 90.
+%D A013596 K. Ireland and M. Rosen, A Classical Introduction to Modern Number Theory, Springer, 1982, p. 194.
+%D A013596 Z. I. Borevich and I. R. Shafarevich, Number Theory. Academic Press, NY, 1966, p. 325.
+%e A013596 Phi_0 = x; Phi_1 = x-1; Phi_2 = x+1; Phi_3 = x^2+x+1; Phi_4 = x^2+1; ...
+%p A013596 with(numtheory): [ seq(cyclotomic(n,x), n=0..48) ];
+%t A013596 Join[{1, 0}, Table[ CoefficientList[ Cyclotomic[n, x], x] // Reverse, {n, 1, 16}] // Flatten] (* _Jean-François Alcover_, Dec 11 2012 *)
+%Y A013596 Cf. A013595.
+%Y A013596 A013595 is the "increasing" version of this sequence.
+%K A013596 sign,easy,nice,tabf
+%O A013596 0,1
+%A A013596 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

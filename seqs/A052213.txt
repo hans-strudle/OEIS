@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052213
+Showing 1-1 of 1
+
+%I A052213
+%S A052213 2,14,21,33,34,38,44,57,75,85,86,93,94,98,116,118,122,133,135,141,142,
+%T A052213 145,147,158,171,177,201,202,205,213,214,217,218,230,244,253,285,296,
+%U A052213 298,301,302,326,332,334,375,381,387,393,394,429,434,445,446,453,481
+%N A052213 Numbers n with prime signature(n) = prime signature(n+1).
+%C A052213 This sequence is infinite, see A189982 and Theorem 4 in Goldston-Graham-Pintz-Yıldırım. - _Charles R Greathouse IV_, Jul 17 2015
+%C A052213 This is a subsequence of A005237, hence a(n) >> n sqrt(log log n) by the Erdős-Pomerance-Sárközy result cited there. - _Charles R Greathouse IV_, Jul 17 2015
+%H A052213 T. D. Noe, <a href="/A052213/b052213.txt">Table of n, a(n) for n = 1..10000</a>
+%H A052213 D. A. Goldston, S. W. Graham, J. Pintz, and C. Y. Yıldırım, <a href="http://arxiv.org/abs/0803.2636">Small gaps between almost primes, the parity problem, and some conjectures of Erdos on consecutive integers</a> (2008)
+%H A052213 MathOverflow, <a href="http://mathoverflow.net/questions/32412">Question on consecutive integers with similar prime factorizations</a>
+%e A052213 14 = 2^1*7^1 and 15 = 3^1*5^1, so both have prime signature {1,1}.
+%t A052213 pri[n_] := Sort[ Transpose[ FactorInteger[n]] [[2]]]; Select[ Range[ 2, 1000], pri[#] == pri[#+1] &]
+%o A052213 (PARI) lista(nn) = for (n=1, nn-1, if (vecsort(factor(n)[,2]) == vecsort(factor(n+1)[,2]), print1(n, ", "));); \\ _Michel Marcus_, Jun 10 2015
+%Y A052213 Cf. A005237, A189982.
+%K A052213 easy,nonn
+%O A052213 1,1
+%A A052213 _Erich Friedman_, Jan 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

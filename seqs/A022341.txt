@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022341
+Showing 1-1 of 1
+
+%I A022341
+%S A022341 1,5,9,17,21,33,37,41,65,69,73,81,85,129,133,137,145,149,161,165,169,
+%T A022341 257,261,265,273,277,289,293,297,321,325,329,337,341,513,517,521,529,
+%U A022341 533,545,549,553,577,581,585,593,597,641,645,649,657,661,673,677,681
+%N A022341 Odd Fibbinary numbers; also 4*Fibbinary(n) + 1.
+%C A022341 Numbers n such that (n+1) does not divide C(3n,n)-C(2n,n) - _Benoit Cloitre_, May 23 2004
+%D A022341 L. Lindroos, A. Sills and H. Wang, Odd fibbinary numbers and the golden ration, Fib. Q., 52 (2014), 61-65.
+%H A022341 Alois P. Heinz, <a href="/A022341/b022341.txt">Table of n, a(n) for n = 0..10000</a>
+%p A022341 F:= combinat[fibonacci]:
+%p A022341 b:= proc(n) local j;
+%p A022341       if n=0 then 0
+%p A022341     else for j from 2 while F(j+1)<=n do od;
+%p A022341          b(n-F(j))+2^(j-2)
+%p A022341       fi
+%p A022341     end:
+%p A022341 a:= n-> 4*b(n)+1:
+%p A022341 seq(a(n), n=0..70);  # _Alois P. Heinz_, May 15 2016
+%t A022341 Select[Range[1, 511, 2], BitAnd[#, 2#] == 0 &] (* _Alonso del Arte_, Jun 18 2012 *)
+%o A022341 (Python)
+%o A022341 for n in range(1, 700, 2):
+%o A022341     if n*2 & n == 0:
+%o A022341         print str(n)+',',
+%Y A022341 Cf. A003714, A000846, A022340.
+%K A022341 nonn,changed
+%O A022341 0,2
+%A A022341 _Marc LeBrun_
+%E A022341 More terms from _Benoit Cloitre_, May 23 2004 and _Alonso del Arte_, Jun 18 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

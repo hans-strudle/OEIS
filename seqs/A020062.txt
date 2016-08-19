@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020062
+Showing 1-1 of 1
+
+%I A020062
+%S A020062 1,0,0,0,2,12,67,425,3102,25750,239483,2466677,27873456,342843514,
+%T A020062 4559818740,65205407994,997642742321,16261576699844,281325276907303,
+%U A020062 5148252567403658,99361274550890613,2017033873383079453
+%N A020062 Integer part of GAMMA(n+3/10)/GAMMA(3/10).
+%p A020062 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020062 nonn
+%O A020062 0,5
+%A A020062 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

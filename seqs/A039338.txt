@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039338
+Showing 1-1 of 1
+
+%I A039338
+%S A039338 12,33,68,84,92,96,98,99,101,102,103,108,116,124,140,161,204,225,257,
+%T A039338 264,266,267,269,270,271,273,281,297,305,313,332,353,396,417,460,481,
+%U A039338 516,532,540,544,546,547,549,550,551,556,564,572,612,644,660,668,672
+%N A039338 Numbers n such that representation in base 8 has same nonzero number of 1's and 4's.
+%t A039338 Select[Range[700],DigitCount[#,8,1]==DigitCount[#,8,4]>0&] (* _Harvey P. Dale_, May 23 2015 *)
+%K A039338 nonn,base,easy
+%O A039338 1,1
+%A A039338 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

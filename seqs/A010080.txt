@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010080
+Showing 1-1 of 1
+
+%I A010080
+%S A010080 1,0,140,448,870,448,140,0,1
+%N A010080 Weight distribution of [16,11,4] extended Hamming code of length 16.
+%D A010080 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 129.
+%H A010080 N. Heninger, E. M. Rains and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.NT/0509316">On the Integrality of n-th Roots of Generating Functions</a>, J. Combinatorial Theory, Series A, 113 (2006), 1732-1745.
+%H A010080 M. Terada, J. Asatani and T. Koumoto, <a href="http://www.infsys.cne.okayama-u.ac.jp/~koumoto/wd/index.html">Weight Distribution</a>
+%e A010080 W(x,y) = y^16 + 140*y^12*x^4 + 448*y^10*x^6 + 870*y^8*x^8 + 448*y^6*x^10 + 140*y^4*x^12 + x^16.
+%Y A010080 Cf. A110832.
+%K A010080 nonn,fini,full
+%O A010080 0,3
+%A A010080 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

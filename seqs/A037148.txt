@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037148
+Showing 1-1 of 1
+
+%I A037148
+%S A037148 1,0,196560,22266840960,32657336384400,488671648133760,
+%T A037148 53439465983183280
+%N A037148 Numerators of Fourier coefficients of Eisenstein series of degree 2 and weight 12 when evaluated at Gram(A_2)*z.
+%D A037148 Klingen, Intro. Lectures on Siegel Modular Forms, p. 123.
+%H A037148 <a href="/index/Ed#Eisen">Index entries for sequences related to Eisenstein series</a>
+%F A037148 x^24-144*x^18*y+3480192/691*x^12*y^2-2037901234176/53678953*x^6*y^3+21009383424000/53678953*y^4, x = phi_0(z), y = Delta_12(z);
+%Y A037148 Cf. A037149.
+%K A037148 nonn,easy,more,frac
+%O A037148 0,3
+%A A037148 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048699
+Showing 1-1 of 1
+
+%I A048699
+%S A048699 1,9,12,15,24,26,56,75,76,90,95,119,122,124,140,143,147,153,176,194,
+%T A048699 215,243,287,332,363,386,407,477,495,507,511,524,527,536,551,575,688,
+%U A048699 738,791,794,815,867,871,892,924,935,963,992,1075,1083,1159,1196,1199,1295,1304
+%N A048699 Nonprime numbers n such that sum of divisors of n, sigma (n), minus n is a perfect square.
+%C A048699 Numbers n such that sum of aliquot divisors is a square.
+%C A048699 For prime numbers, the sum of their aliquot divisors is precisely 1.
+%e A048699 a(3)=15; aliquot divisors are 1,3,5; sum of aliquot divisors = 9 and 3^2=9.
+%p A048699 a := []; for n from 1 to 2000 do if sigma(n) <> n+1 and issqr(sigma(n)-n) then a := [op(a), n]; fi; od: a;
+%t A048699 nn=1400;Select[Complement[Range[nn],Prime[Range[PrimePi[nn]]]],IntegerQ[ Sqrt[DivisorSigma[1,#]-#]]&] (* _Harvey P. Dale_, Apr 25 2011 *)
+%Y A048699 Complement gives A006532. Cf. A020477, A048698.
+%Y A048699 Cf. A073040, which includes primes.
+%K A048699 easy,nonn
+%O A048699 1,2
+%A A048699 _Enoch Haga_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035470
+Showing 1-1 of 1
+
+%I A035470
+%S A035470 1,1,2,2,2,2,6,12,11,2,80,166,2,665,2918,3309,9296,23730,31875,301030,
+%T A035470 422897,2,13716867,71504980,100664385,54148591,880696662,498017759,
+%U A035470 27450476787,111911522819,179459955554,2144502175214,59115423983,45837019664552
+%N A035470 Number of ways to break {1,2,3,...n} into sets with equal sums.
+%C A035470 a(n) = 2 <=> |{d|n*(n+1)/2 : d>=n}| = 2. - _Alois P. Heinz_, Sep 03 2009
+%e A035470 a(7) = 6 since we have 1234567, 16/25/34/7, 167/2345, 257/1346, 347/1256, 356/1247.
+%p A035470 with(numtheory): b:= proc() option remember; local i, j, t; `if`(args[1]=0, `if`(nargs=2, 1, b(args[t] $t=2..nargs)), add(`if`(args[j] -args[nargs] <0, 0, b(sort([seq(args[i] -`if`(i=j, args[nargs], 0), i=1..nargs-1)])[], args[nargs]-1)), j=1..nargs-1)) end: a:= proc(n) local i, m, x; m:= n*(n+1)/2; 1+ add(b(i$(m/i), n)/(m/i)!, i=[select(x-> x>=n, divisors(m) minus {m})[]]) end: seq(a(n), n=1..25);  # _Alois P. Heinz_, Sep 03 2009
+%Y A035470 Cf. A164977, A164978. - _Alois P. Heinz_, Sep 03 2009
+%K A035470 nonn
+%O A035470 1,3
+%A A035470 _Erich Friedman_
+%E A035470 More terms from _John W. Layman_, Mar 18 2002
+%E A035470 a(19)-a(33) from _Alois P. Heinz_, Sep 03 2009
+%E A035470 a(34) from _Alois P. Heinz_, May 24 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

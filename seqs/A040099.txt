@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040099
+Showing 1-1 of 1
+
+%I A040099
+%S A040099 10,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,
+%T A040099 2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,20,2,
+%U A040099 20,2,20,2,20,2,20,2,20,2,20,2
+%N A040099 Continued fraction for sqrt(110).
+%H A040099 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040099 a(n)=11+9*(-1)^n]-10*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 10 2009]
+%p A040099 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040099 ContinuedFraction[Sqrt[110],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 11 2011*)
+%K A040099 nonn,cofr,easy
+%O A040099 0,1
+%A A040099 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

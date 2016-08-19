@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062206
+Showing 1-1 of 1
+
+%I A062206
+%S A062206 1,1,16,729,65536,9765625,2176782336,678223072849,281474976710656,
+%T A062206 150094635296999121,100000000000000000000,81402749386839761113321,
+%U A062206 79496847203390844133441536,91733330193268616658399616009
+%N A062206 a(n) = n^(2n).
+%C A062206 a(n) is also the number of sequences of length 2n on n symbols. - _Washington Bomfim_, Oct 06 2009
+%H A062206 Harry J. Smith, <a href="/A062206/b062206.txt">Table of n, a(n) for n = 0..100</a>
+%F A062206 a(n) = n^(2n).
+%F A062206 (-1)^n*determinant of the 2n X 2n matrix M_(i, j) = i+j if (i + j) is a multiple of n, M_(i, j) = 1 otherwise. - _Benoit Cloitre_, Aug 06 2003
+%F A062206 a(n) = A155955(n,n) = A000290(A000312(n)). - _Reinhard Zumkeller_, Jan 31 2009
+%p A062206 seq(mul(n^2, k=1..n), n=0..13); # _Zerinvary Lajos_, Feb 15 2008
+%t A062206 f[n_]:=n^(2*n); Join[{1},f[Range[20]]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 19 2011 *)
+%o A062206 (PARI) { for (n=0, 100, write("b062206.txt", n, " ", n^(2*n)) ) } \\ _Harry J. Smith_, Aug 02 2009
+%Y A062206 Cf. A062207.
+%Y A062206 Cf. A155957.
+%Y A062206 Cf. A000312, A085741, A212333.
+%Y A062206 Column k=0 of A245910 and A245980.
+%K A062206 easy,nonn
+%O A062206 0,3
+%A A062206 Jason Earls (zevi_35711(AT)yahoo.com), Jun 13 2001
+%E A062206 More terms from Larry Reeves (larryr(AT)acm.org), Jun 15 2001
+%E A062206 Initial term corrected by _Reinhard Zumkeller_, Jan 30 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049148
+Showing 1-1 of 1
+
+%I A049148
+%S A049148 1,1,0,0,2,2,2,13,24,32,118,286,482,1328,3540,7091,17244,46138,103468,
+%T A049148 243164,633618,1515992,3582432,9101608,22481022,54065300,135345444,
+%U A049148 338668916,828680300,2063798632,5185819200,12855728210,32040478058
+%N A049148 Revert transform of (-1 - x + 2*x^2 + x^3)/(-1 - 2*x + 2*x^2 + 2*x^3).
+%H A049148 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%K A049148 nonn
+%O A049148 1,5
+%A A049148 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

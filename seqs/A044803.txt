@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044803
+Showing 1-1 of 1
+
+%I A044803
+%S A044803 90,190,290,390,490,590,690,790,890,909,990,1090,1190,1290,1390,1490,
+%T A044803 1590,1690,1790,1890,1909,1990,2090,2190,2290,2390,2490,2590,2690,
+%U A044803 2790,2890,2909,2990,3090,3190,3290,3390,3490,3590
+%N A044803 Numbers n such that string 9,0 occurs in the base 10 representation of n but not of n+1.
+%K A044803 nonn,base
+%O A044803 1,1
+%A A044803 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

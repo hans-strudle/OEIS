@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054747
+Showing 1-1 of 1
+
+%I A054747
+%S A054747 3,76,4003,352744,41876694,6217447912,1106509486839,229553329028386,
+%T A054747 54393886281136386,14493994916221695566,4289933406949379595583,
+%U A054747 1396384878753272032544946,495758886710258565409900342
+%N A054747 Number of inequivalent n-state 2-input 2-output automata with respect to an input permutation.
+%C A054747 Inverse Euler transform of A000282.
+%D A054747 M. A. Harrison, A census of finite automata, Canad. J. Math., 17, No. 1, 1965, p. 112.
+%D A054747 F. Harary and E. Palmer, Graphical Enumeration, 1973.
+%Y A054747 Cf. A054732.
+%K A054747 nonn
+%O A054747 1,1
+%A A054747 _Vladeta Jovovic_, Apr 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

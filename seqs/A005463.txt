@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005463
+Showing 1-1 of 1
+
+%I A005463 M5326
+%S A005463 1,63,1932,46620,1020600,21538440,451725120,9574044480,207048441600,
+%T A005463 4595022432000,105006251750400,2475732702643200
+%N A005463 Number of simplices in barycentric subdivision of n-simplex.
+%D A005463 R. Austin, R. K. Guy, and R. Nowakowski, unpublished notes, circa 1987.
+%D A005463 R. K. Guy, personal communication.
+%D A005463 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005463 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Enumerative Formulas for Some Functions on Finite Sets</a>
+%F A005463 Essentially Stirling numbers of second kind - see A028246.
+%K A005463 nonn
+%O A005463 4,2
+%A A005463 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

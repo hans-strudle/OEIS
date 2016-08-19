@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006126
+Showing 1-1 of 1
+
+%I A006126 M1954
+%S A006126 1,2,9,114,6894,7785062,2414627396434,56130437209370320359966
+%N A006126 Number of hierarchical models with linear terms forced. Also number of antichain covers of a labeled n-set.
+%C A006126 An antichain cover is a cover such that no element of the cover is a subset of another element of the cover.
+%C A006126 Also, the number of nondegenerate monotone boolean functions of n variables in an n-variable boolean algebra. - Rodrigo A. Obando (R.Obando(AT)computer.org), Jul 26 2004
+%D A006126 Y. M. M. Bishop, S. E. Fienberg and P. W. Holland, Discrete Multivariate Analysis. MIT Press, 1975, p. 34.
+%D A006126 V. Jovovic and G. Kilibarda, On enumeration of the class of all monotone Boolean functions, in preparation.
+%D A006126 C. L. Mallows, personal communication.
+%D A006126 A. A. Mcintosh, personal communication.
+%D A006126 R. A. Obando, On the number of nondegenerate monotone boolean functions of n variables, In Preparation.
+%D A006126 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006126 R. Baumann and H. Strass, <a href="http://www.informatik.uni-leipzig.de/~baumann/papers/bipolar.pdf ">On the number of bipolar Boolean functions</a>, to appear (2014).
+%H A006126 K. S. Brown, <a href="http://www.mathpages.com/home/kmath515.htm">Dedekind's problem</a>
+%H A006126 Patrick De Causmaecker, Stefan De Wannemacker, <a href="http://arxiv.org/abs/1407.4288">On the number of antichains of sets in a finite universe</a>, arXiv:1407.4288 [math.CO], 2014
+%H A006126 V. Jovovic, G. Kilibarda, <a href="http://www.mathnet.ru/php/archive.phtml?wshow=paper&amp;jrnid=dm&amp;paperid=398&amp;option_lang=eng">On the number of Boolean functions in the Post classes F^{mu}_8</a>, Diskretnaya Matematika, 11 (1999), no. 4, 127-138 (translated in Discrete Mathematics and Applications, 9, (1999), no. 6).
+%H A006126 R. A. Obando, <a href="http://www.wolframscience.com/summerschool/2004/">Project: A Map of a Rule Space (To be posted)</a>
+%H A006126 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Antichain.html">Antichain</a>
+%H A006126 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Cover.html">Cover</a>
+%H A006126 D. H. Wiedemann, <a href="/A000372/a000372.pdf">Letter to N. J. A. Sloane, Nov 03, 1990</a>
+%H A006126 D. H. Wiedermann, <a href="/A006126/a006126.pdf">Email to N. J. A. Sloane, May 28 1991</a>
+%F A006126 a(n)=Sum_{k=1..C(n, floor(n/2))}b(k, n) where b(k, n) is the number of k-antichain covers of a labeled n-set.
+%e A006126 a(5) = 1+90+790+1895+2116+1375+490+115+20+2 = 6894.
+%e A006126 There are 9 antichain covers of a labeled 3-set: {{1,2,3}}, {{1},{2,3}}, {{2},{1,3}}, {{3},{1,2}}, {{1,2},{1,3}}, {{1,2},{2,3}}, {{1,3},{2,3}}, {{1},{2},{3}}, {{1,2},{1,3},{2,3}}.
+%Y A006126 Cf. A000372, A056046-A056049, A056052, A056101, A056104, A051112-A051118.
+%K A006126 nonn,nice,hard,more
+%O A006126 1,2
+%A A006126 _N. J. A. Sloane_
+%E A006126 Last 3 terms from Michael Bulmer (mrb(AT)maths.uq.edu.au)
+%E A006126 Antichain interpretation from _Vladeta Jovovic_ and Goran Kilibarda, Jul 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

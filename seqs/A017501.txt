@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017501
+Showing 1-1 of 1
+
+%I A017501
+%S A017501 59049,3200000,28629151,130691232,418195493,1073741824,2373046875,
+%T A017501 4704270176,8587340257,14693280768,23863536599,37129300000,
+%U A017501 55730836701,81136812032,115063617043,159494694624
+%N A017501 (11n+9)^5.
+%H A017501 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A017501 a(0)=59049, a(1)=3200000, a(2)=28629151, a(3)=130691232, a(4)=418195493, a(5)=1073741824, a(n)=6*a(n-1)-15*a(n-2)+20*a(n-3)-15*a(n-4)+ 6*a(n-5)- a(n-6). - _Harvey P. Dale_, Jan 25 2013
+%F A017501 G.f.: (32*x^5+371101*x^4+5735346*x^3+10314886*x^2+2845706*x+59049)/(x-1)^6. - _Harvey P. Dale_, Jan 25 2013
+%t A017501 (11*Range[0,20]+9)^5 (* or *) LinearRecurrence[{6,-15,20,-15,6,-1},{59049,3200000,28629151,130691232,418195493,1073741824},20] (* _Harvey P. Dale_, Jan 25 2013 *)
+%K A017501 nonn,easy
+%O A017501 0,1
+%A A017501 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

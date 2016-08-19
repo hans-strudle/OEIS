@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013480
+Showing 1-1 of 1
+
+%I A013480
+%S A013480 1,12,8512,41692992,748457181952,35753146158600192,
+%T A013480 3745546830245915840512,756079630242293501892083712
+%N A013480 sec(cos(x)-cosh(x)) = 1+12/4!*x^4+8512/8!*x^8+41692992/12!*x^12...
+%K A013480 nonn
+%O A013480 0,2
+%A A013480 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

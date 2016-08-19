@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014973
+Showing 1-1 of 1
+
+%I A014973
+%S A014973 1,2,3,2,5,1,7,1,1,1,11,1,13,1,1,1,17,1,19,1,1,1,23,1,1,1,1,1,29,1,31,
+%T A014973 1,1,1,1,1,37,1,1,1,41,1,43,1,1,1,47,1,1,1,1,1,53,1,1,1,1,1,59,1,61,1,
+%U A014973 1,1,1,1,67,1,1,1,71,1,73,1,1,1,1,1,79,1,1,1,83,1,1,1,1
+%N A014973 a(n) = n/gcd(n,(n-1)!).
+%C A014973 Denominator in n!/n^2. Also denominator in Taylor series expansion of dilog function (also called Li_2). - _Ralf Stephan_, Mar 28 2004
+%H A014973 Vincenzo Librandi, <a href="/A014973/b014973.txt">Table of n, a(n) for n = 1..10000</a>
+%F A014973 a(4) = 2; otherwise a(n) = 1 unless n is a prime in which case a(n) = n. - Ola Veshta (olaveshta(AT)my-deja.com), May 30 2001
+%F A014973 a(n) = denominator((i-1)! * Sum_{i=1..n} (1 - 1/i). - Mohammed Bouayoun (bouyao(AT)wanadoo.fr), Mar 16 2004
+%t A014973 Table[n/GCD[n,(n-1)!],{n,90}] (* _Harvey P. Dale_, Mar 16 2012 *)
+%t A014973 Table[Denominator[n!/n^2], {n, 1, 100}] (* _Vincenzo Librandi_, Apr 15 2014 *)
+%o A014973 (MAGMA) [Denominator(Factorial(n)/n^2): n in [1..80]]; // _Vincenzo Librandi_, Apr 15 2014
+%o A014973 (PARI) a(n)=numerator(polcoeff((x+1)*exp(x+x*O(x^(n-1))), n-1)); \\ _Gerry Martens_, Aug 12 2015
+%Y A014973 Cf. A092043 (numerator of series).
+%K A014973 nonn,easy,frac
+%O A014973 1,2
+%A A014973 _Marc LeBrun_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

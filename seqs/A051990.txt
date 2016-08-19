@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051990
+Showing 1-1 of 1
+
+%I A051990
+%S A051990 10,15,26,30,35,39,42,65,78,95,105,110,122,143,170,182,195,203,210,
+%T A051990 222,230,255,290,327,362,395,462,483,485,530,663,885,903,915,930,962,
+%U A051990 1155,1157,1173,1190,1218,1230,1295,1370,1463,1482,1518,1595
+%N A051990 Discriminants of real quadratic fields of ERD-type with class groups of exponent 2 and discriminants of the form D = r^2*k^2+k, k odd.
+%D A051990 R. A. Mollin, Quadratics, CRC Press, 1996, Appendix A, Table A4.
+%Y A051990 Cf. A051990-A051998.
+%K A051990 nonn,fini
+%O A051990 1,1
+%A A051990 _N. J. A. Sloane_, Jan 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

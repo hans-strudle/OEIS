@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053161
+Showing 1-1 of 1
+
+%I A053161
+%S A053161 2,23,523,7523,751321,75331211,7753211113,977533111211,97753332211111,
+%T A053161 0,997753333211111221,99777533333211211211,9977754333332221111111,
+%U A053161 997775443333332211121111,99777754443333332111212111,0
+%N A053161 Largest prime associated with A053095(n), or zero if no such prime exists.
+%e A053161 a(7)=7753211113 because it is the largest prime consisting of the digits 2+3+5+7+11+13+17.
+%Y A053161 Cf. A053095, A053160.
+%K A053161 base,nonn
+%O A053161 1,1
+%A A053161 _Enoch Haga_, Mar 19 2000
+%E A053161 Edited and extended by _Ray Chandler_, Apr 08 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

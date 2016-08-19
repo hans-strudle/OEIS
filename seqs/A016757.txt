@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016757
+Showing 1-1 of 1
+
+%I A016757
+%S A016757 1,243,3125,16807,59049,161051,371293,759375,1419857,2476099,4084101,
+%T A016757 6436343,9765625,14348907,20511149,28629151,39135393,52521875,
+%U A016757 69343957,90224199,115856201,147008443,184528125
+%N A016757 a(n) = (2*n+1)^5.
+%H A016757 Vincenzo Librandi, <a href="/A016757/b016757.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016757 (MAGMA) [(2*n+1)^5: n in [0..30]]; // _Vincenzo Librandi_, Sep 07 2011
+%o A016757 (Maxima) makelist((2*n+1)^5, n, 0, 20); /* _Martin Ettl_, Nov 12 2012 */
+%K A016757 nonn,easy
+%O A016757 0,2
+%A A016757 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

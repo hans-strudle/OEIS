@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037060
+Showing 1-1 of 1
+
+%I A037060
+%S A037060 13,86,603,4620,37299,1533327,22568442,23574105,210014510,1893613727,
+%T A037060 17241353173,493582559244
+%N A037060 a(n)-th prime is the smallest prime containing exactly n 4's.
+%H A037060 Andrew R. Booker, <a href="http://primes.utm.edu/nthprime/">The Nth Prime Page</a>
+%t A037060 (* see A037061 for f *) PrimePi[ Table[ f[n, 4], {n, 1, 12}]]
+%Y A037060 Cf. A037061, A034388.
+%K A037060 nonn,base,hard
+%O A037060 1,1
+%A A037060 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

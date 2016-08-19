@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035777
+Showing 1-1 of 1
+
+%I A035777
+%S A035777 1,3200,1708800,366366080,42340840960,3070951360128,153524473002240,
+%T A035777 5639746542798720,159505036253752320,3599066875202445440,
+%U A035777 66639047280436354816,1035866362657624498560,13775860435151438471680
+%N A035777 Coordination sequence for C_40 lattice.
+%D A035777 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A035777 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035777 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A035777 ((1+x)/(1-x))^40 if norm is even; otherwise 0.
+%K A035777 nonn,easy
+%O A035777 0,2
+%A A035777 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035777 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

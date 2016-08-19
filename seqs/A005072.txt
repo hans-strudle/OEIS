@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005072
+Showing 1-1 of 1
+
+%I A005072
+%S A005072 0,0,0,0,0,0,343,0,0,0,0,0,2197,343,0,0,0,0,6859,0,343,0,0,0,0,2197,0,
+%T A005072 343,0,0,29791,0,0,0,343,0,50653,6859,2197,0,0,343,79507,0,0,0,0,0,
+%U A005072 343,0,0,2197,0,0,0,343,6859,0
+%N A005072 Sum of cubes of primes = 1 mod 3 dividing n.
+%F A005072 Additive with a(p^e) = p^3 if p = 1 (mod 3), 0 otherwise.
+%K A005072 nonn
+%O A005072 1,7
+%A A005072 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

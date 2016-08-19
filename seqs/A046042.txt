@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046042
+Showing 1-1 of 1
+
+%I A046042
+%S A046042 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,
+%T A046042 3,3,3,3,3,3,3,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,5,5,
+%U A046042 5,5,5,5,5,5,5,5,5,5,5,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,9,9,9,9,9,9
+%N A046042 Number of partitions of n into fourth powers.
+%D A046042 H. P. Robinson, Letter to N. J. A. Sloane, Jan 04 1974.
+%H A046042 Alois P. Heinz, <a href="/A046042/b046042.txt">Table of n, a(n) for n = 1..10000</a>
+%H A046042 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Partition.html">Partition</a>
+%F A046042 G.f.: -1+1/product(1-x^(j^4),j=1..infinity). - _Emeric Deutsch_, Apr 06 2006
+%e A046042 a(33) = 3 because we have [16,16,1], [16,1,1,...,1] (17 1's) and [1,1,...,1] (33 1's)).
+%p A046042 g:=-1+1/product(1-x^(j^4),j=1..10): gser:=series(g,x=0,105): seq(coeff(gser,x,n),n=1..102); # _Emeric Deutsch_, Apr 06 2006
+%t A046042 g = -1 + 1/Product[1 - x^(j^4), {j, 1, 10}]; gser =
+%t A046042 Series[g, {x, 0, 105}]; Table[Coefficient[gser, x, n], {n, 1, 102}] (* _Jean-François Alcover_, Oct 29 2012, after _Emeric Deutsch_ *)
+%o A046042 (Haskell)
+%o A046042 a046042 = p $ tail a000583_list where
+%o A046042    p _          0 = 1
+%o A046042    p ks'@(k:ks) m = if m < k then 0 else p ks' (m - k) + p ks m
+%o A046042 -- _Reinhard Zumkeller_, May 18 2015   ~
+%Y A046042 Cf. A000583, A002377, A003105, A259793.
+%Y A046042 Cf. A001156, A003108.
+%K A046042 nonn
+%O A046042 1,16
+%A A046042 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

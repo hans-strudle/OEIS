@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027045
+Showing 1-1 of 1
+
+%I A027045
+%S A027045 1,4,11,34,103,306,901,2636,7685,22372,65111,189590,552547,1612154,
+%T A027045 4709369,13773368,40329465,118217992,346891115,1018872626,2995250535,
+%U A027045 8812601062,25948130525,76456539156,225427875325,665066293480
+%N A027045 a(n) = T(n,n+1) + T(n,n+2) + ... + T(n,2n), T given by A027023.
+%K A027045 nonn
+%O A027045 0,2
+%A A027045 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

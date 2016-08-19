@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048531
+Showing 1-1 of 1
+
+%I A048531
+%S A048531 3,10,105,1010,10203,33928,105551,335128,1054130,12313046,100573943,
+%T A048531 333192303,1054092885,4261585525,30184681729,133083117303
+%N A048531 a(n)*(a(n)+1) is smallest pronic number containing exactly n 1's.
+%H A048531 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PronicNumber.html">Pronic Number</a>
+%Y A048531 Cf. A048532, A002378.
+%K A048531 nonn,base,more
+%O A048531 1,1
+%A A048531 _Patrick De Geest_, May 15 1999.
+%E A048531 a(13)-a(16) from _Lars Blomberg_, Jun 10 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

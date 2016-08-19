@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017160
+Showing 1-1 of 1
+
+%I A017160
+%S A017160 13841287201,129746337890625,21914624432020321,787662783788549761,
+%T A017160 12381557655576425121,116191483108948578241,766217865410400390625,
+%U A017160 3909188328478827879681,16409682740640811134241,59091511031674153381441
+%N A017160 (8*n+7)^12.
+%H A017160 Vincenzo Librandi, <a href="/A017160/b017160.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017160 (MAGMA) [(8*n+7)^12: n in [0..15]]; // Vincenzo Librandi, Jul 22 2011
+%K A017160 nonn,easy
+%O A017160 0,1
+%A A017160 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033621
+Showing 1-1 of 1
+
+%I A033621
+%S A033621 1,2,3,4,5,6,7,8,9,10,12,89,233,374,425,596,647,869,920,3444,4775,
+%T A033621 23633,45755,62027,180082,231133,310014,487785,566666,645547,724428,
+%U A033621 803309,1027202,1064602,1215122,1252522,1403042,1479742,1673762
+%N A033621 n-1 is a palindrome in base 10, n+1 is a palindrome in base 17.
+%K A033621 nonn,base
+%O A033621 1,2
+%A A033621 _Olivier Gérard_
+%E A033621 More terms from Michel ten Voorde (seqfan(AT)tenvoorde.org)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

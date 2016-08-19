@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057708
+Showing 1-1 of 1
+
+%I A057708
+%S A057708 1,4,5,7,10,17,24,37,45,55,70,77,107,137,150,271,364,1157,1656,2004,
+%T A057708 2126,3033,3489,3645,4336,6597,7279,12690,13840,20108,21693,28888,
+%U A057708 84155,102930
+%N A057708 Numbers n such that 2^n reversed is prime.
+%C A057708 a(35) > 105000. - _Giovanni Resta_, Feb 22 2013
+%e A057708 4 is a member because 2^4 reversed is 61 and prime.
+%p A057708 with(numtheory): myarray := []: for n from 1 to 4000 do it1 := convert(2^n, base, 10): it2 := sum(10^(nops(it1)-i)*it1[i], i=1..nops(it1)): if isprime(it2) then printf(`%d,`,n) fi: od:
+%t A057708 Do[ If[ PrimeQ[ FromDigits[ Reverse[ IntegerDigits[2^n]] ]], Print[ n]], {n, 20000}] (* _Robert G. Wilson v_, Jan 29 2005 *)
+%K A057708 base,nonn,more
+%O A057708 1,2
+%A A057708 _G. L. Honaker, Jr._, Oct 23 2000
+%E A057708 More terms from Chris Nash (chris_nash(AT)prodigy.net), Oct 25 2000
+%E A057708 Two more terms from _Robert G. Wilson v_, Jan 29 2001
+%E A057708 3 more terms from _Farideh Firoozbakht_, Aug 05 2004
+%E A057708 a(33)-a(34) from _Giovanni Resta_, Feb 22 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

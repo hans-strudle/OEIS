@@ -1,0 +1,53 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006232
+Showing 1-1 of 1
+
+%I A006232 M5067
+%S A006232 1,1,1,1,19,9,863,1375,33953,57281,3250433,1891755,13695779093,
+%T A006232 24466579093,132282840127,240208245823,111956703448001,
+%U A006232 4573423873125,30342376302478019,56310194579604163
+%V A006232 1,1,-1,1,-19,9,-863,1375,-33953,57281,-3250433,1891755,-13695779093,
+%W A006232 24466579093,-132282840127,240208245823,-111956703448001,
+%X A006232 4573423873125,-30342376302478019,56310194579604163
+%N A006232 Numerators of Cauchy numbers of first type.
+%C A006232 -a(n+1), n>=0, also numerators from e.g.f. 1/x-1/log(1+x), with denominators A075178(n). |a(n+1)|, n>=0, numerators from e.g.f. 1/x+1/log(1-x) with denominators A075178(n). For formula of unsigned a(n) see A075178.
+%C A006232 The signed rationals a(n)/A006233(n) provide the a-sequence for the Stirling2 Sheffer matrix A048993. See the W. Lang link concerning Sheffer a- and z-sequences.
+%C A006232 Cauchy numbers of the first type are also called Bernoulli numbers of the second kind.
+%D A006232 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 294.
+%D A006232 H. Jeffreys and B. S. Jeffreys, Methods of Mathematical Physics, Cambridge, 1946, p. 259.
+%D A006232 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006232 T. D. Noe, <a href="/A006232/b006232.txt">Table of n, a(n) for n=0..100</a>
+%H A006232 A. Adelberg, <a href="http://dx.doi.org/10.1006/jnth.1998.2278">2-adic congruences of Norland numbers and of Bernoulli numbers of the second kind</a>, J. Number Theory, 73 (1998), 47-58.
+%H A006232 Wolfdieter Lang, <a href="/A006232/a006232.pdf"> Sheffer a- and z-sequences.</a>
+%H A006232 Donatella Merlini, Renzo Sprugnoli and M. Cecilia Verri, <a href="http://dx.doi.org/10.1016/j.disc.2006.03.065">The Cauchy numbers</a>, Discrete Math. 306 (2006), no. 16, 1906-1920.
+%H A006232 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BernoulliNumberoftheSecondKind.html">Bernoulli Numbers of the Second Kind.</a>
+%H A006232 Ming Wu and Hao Pan, <a href="http://www.fq.math.ca/Papers1/45-2/quartpan02_2007.pdf">Sums of products of Bernoulli numbers of the second kind</a>, Fib. Quart., 45 (2007), 146-150.
+%H A006232 Feng-Zhen Zhao, <a href="http://dx.doi.org/10.1016/j.disc.2008.10.013">Sums of products of Cauchy numbers</a>, Discrete Math., 309 (2009), 3830-3842.
+%F A006232 Numerator of integral of x(x-1)...(x-n+1) from 0 to 1.
+%F A006232 E.g.f.: x/log(1+x). (Note: the numerator of the coefficient of x^n/n! is a(n) - _Michael Somos_, Jul 12 2014)
+%F A006232 Numerator of Sum_{k=0..n} A048994(n,k)/(k+1). - _Peter Luschny_, Apr 28 2009
+%F A006232 Sum_{k=1..n} 1/k = C + log(n) + 1/(2n) + Sum_{k=2..inf} |a(n)|/A075178(n-1) * 1/(n*(n+1)*...*(n+k-1)) (section 0.131 in Gradshteyn and Ryzhik tables). - _Ralf Stephan_, Jul 12 2014
+%e A006232 1, 1/2, -1/6, 1/4, -19/30, 9/4, -863/84, 1375/24, -33953/90, ...
+%p A006232 seq(numer(add(stirling1(n,k)/(k+1),k=0..n)),n=0..20); # _Peter Luschny_, Apr 28 2009
+%t A006232 a[n_] := Numerator[ Sum[ StirlingS1[n, k]/(k + 1), {k, 0, n}]]; Table[a[n], {n, 0, 19}] (* _Jean-François Alcover_, Nov 03 2011, after Maple *)
+%t A006232 a[n_] := Numerator[ Integrate[ Gamma[x+1]/Gamma[x-n+1], {x, 0, 1}]]; Table[a[n], {n, 0, 19}] (* _Jean-François Alcover_, Jul 29 2013 *)
+%t A006232 a[ n_] := If[ n < 0, 0, (-1)^n Numerator @ Integrate[ Pochhammer[ -x, n], {x, 0, 1}]]; (* _Michael Somos_, Jul 12 2014 *)
+%t A006232 a[ n_] := If[ n < 0, 0, Numerator [ n! SeriesCoefficient[ x / Log[ 1 + x], {x, 0, n}]]]; (* _Michael Somos_, Jul 12 2014 *)
+%o A006232 (Sage)
+%o A006232 def A006232_list(len):
+%o A006232     f, R, C = 1, [1], [1]+[0]*(len-1)
+%o A006232     for n in (1..len-1):
+%o A006232         for k in range(n, 0, -1):
+%o A006232             C[k] = -C[k-1] * k / (k + 1)
+%o A006232         C[0] = -sum(C[k] for k in (1..n))
+%o A006232         R.append((C[0]*f).numerator())
+%o A006232         f *= n
+%o A006232     return R
+%o A006232 print A006232_list(20) # _Peter Luschny_, Feb 19 2016
+%Y A006232 Cf. A006233, A002206, A002207, A002208, A002209, A002657, A002790.
+%K A006232 sign,frac,nice
+%O A006232 0,5
+%A A006232 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

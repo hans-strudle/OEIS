@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019214
+Showing 1-1 of 1
+
+%I A019214
+%S A019214 0,2,0,2,0,20,0,98,16,449,156,2150,1044,10733,7456,55044,51376,285758
+%N A019214 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite RON = Roggianite Ca16[ Be8Al16Si32O104(OH)16 ] . 19 H2O.
+%D A019214 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019214 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019214 nonn
+%O A019214 3,2
+%A A019214 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

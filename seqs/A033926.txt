@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033926
+Showing 1-1 of 1
+
+%I A033926
+%S A033926 1,1,2,3,4,5,1,2,3,4,5,6,2,3,4,5,6,7,3,4,5,6,7,8,4,5,6,7,8,9,5,6,7,8,
+%T A033926 9,10,2,3,4,5,6,7,3,4,5,6,7,8,4,5,6,7,8,9,5,6,7,8,9,10,6,7,8,9,10,11,
+%U A033926 7,8,9,10,11,12,4,5,6,7,8,9,5,6,7,8,9,10,6,7,8,9,10,11,7,8,9,10,11,12,8,9
+%N A033926 Base 6 digital convolution sequence.
+%F A033926 For example, 181 = 501 in base 6, so a(181) = 5a(2)+0a(1)+1a(0).
+%K A033926 nonn,base
+%O A033926 1,3
+%A A033926 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

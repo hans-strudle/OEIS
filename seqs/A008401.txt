@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008401
+Showing 1-1 of 1
+
+%I A008401
+%S A008401 1,54,828,5202,20376,60030,146484,312858,605232,1084806,1830060,
+%T A008401 2938914,4530888,6749262,9763236,13770090,18997344,25704918,34187292,
+%U A008401 44775666,57840120,73791774,93084948
+%N A008401 Coordination sequence for {E_6}* lattice.
+%D A008401 M. O'Keeffe, Coordination sequences for lattices, Zeit. f. Krist., 210 (1995), 905-908.
+%H A008401 T. D. Noe, <a href="/A008401/b008401.txt">Table of n, a(n) for n=0..1000</a>
+%H A008401 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A008401 a(n) = 6*n*(3*n^4+5*n^2+1), n>0.
+%p A008401 G.f.: (1+48*x+519*x^2+1024*x^3+519*x^4+48*x^5+x^6)/(1-x)^6;
+%t A008401 Join[{1},Table[18 n^5+30 n^3+6 n,{n,30}]] _Harvey P. Dale_, May 16 2012
+%K A008401 nonn,nice
+%O A008401 0,2
+%A A008401 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

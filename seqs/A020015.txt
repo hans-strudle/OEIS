@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020015
+Showing 1-1 of 1
+
+%I A020015
+%S A020015 1,1,2,5,19,95,559,3858,30478,271252,2685395,29270806,348322597,
+%T A020015 4493361500,62457724854,930620100318,14796859595058,250066927156482,
+%U A020015 4476197996101023,84600142126309335,1683542828313555775,35186045111753315688
+%N A020015 Nearest integer to GAMMA(n+9/10)/GAMMA(9/10).
+%p A020015 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end; seq(f(n, 9/10), n=0..25);
+%t A020015 f[n_] := Round[Gamma[n + 9/10]/Gamma[9/10]]; Array[f, 22, 0] (* _Robert G. Wilson v_, Sep 13 2013 *)
+%K A020015 nonn
+%O A020015 0,3
+%A A020015 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

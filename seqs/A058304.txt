@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058304
+Showing 1-1 of 1
+
+%I A058304
+%S A058304 0,9,11,99,1,10,9,999999999999,1,8,10,1,99,11,9,
+%T A058304 999999999999999999999999999999999999999999999999999999999999999999999999,
+%U A058304 1,8,11,99,1,10,8,1,999999999999,9,10,1,99,11,9
+%N A058304 Continued fraction for Liouville's number (A012245).
+%D A058304 Harold M. Stark, "An Introduction to Number Theory," The MIT Press, Cambridge, MA and London, England, Eighth Printing, 1994, pages 172 - 177.
+%H A058304 Harry J. Smith, <a href="/A058304/b058304.txt">Table of n, a(n) for n = 1..63</a>
+%H A058304 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%H A058304 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%H A058304 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/LiouvillesConstant.html">Liouville's Constant</a>
+%e A058304 0.1100010000000000000000010... = 0 + 1/(9 + 1/(11 + 1/(99 + 1/(1 + ...)))). - _Harry J. Smith_, May 15 2009
+%t A058304 ContinuedFraction[ Sum[ 1 /10^(n!), {n, 1, 7} ], 40 ]
+%o A058304 (PARI) { allocatemem(932245000); default(realprecision, 200000); x=contfrac(suminf(n=1, 1.0/10^n!)); for (n=1, 255, write("b058304.txt", n, " ", x[n])); } \\ _Harry J. Smith_, May 15 2009
+%Y A058304 Cf. A012245.
+%K A058304 cofr,nonn
+%O A058304 1,2
+%A A058304 _Robert G. Wilson v_, Dec 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013916
+Showing 1-1 of 1
+
+%I A013916
+%S A013916 1,2,4,6,12,14,60,64,96,100,102,108,114,122,124,130,132,146,152,158,
+%T A013916 162,178,192,198,204,206,208,214,216,296,308,326,328,330,332,334,342,
+%U A013916 350,356,358,426,446,458,460,464,480,484,488,512,530,536,548,568,620,630,676,680
+%N A013916 Numbers n such that the sum of the first n primes is prime.
+%H A013916 David W. Wilson, <a href="/A013916/b013916.txt">Table of n, a(n) for n = 1..10000</a>
+%F A013916 a(n) = A000720(A013917(n))
+%p A013916 p:=proc(n) if isprime(sum(ithprime(k),k=1..n))=true then n else fi end: seq(p(n),n=1..690); # _Emeric Deutsch_
+%t A013916 s = 0; Do[s = s + Prime[n]; If[PrimeQ[s], Print[n]], {n, 1, 1000}]
+%t A013916 Flatten[Position[Accumulate[Prime[Range[2000]]], _?(PrimeQ[#] &)]] (* _Harvey P. Dale_, Dec 16 2010 *)
+%o A013916 (PARI) isA013916(n) = isprime(sum(i=1,n,prime(i))) \\ _Michael B. Porter_, Jan 29 2010
+%Y A013916 Cf. A007504, A013917, A013918.
+%K A013916 nonn,nice
+%O A013916 1,2
+%A A013916 _N. J. A. Sloane_, Renaud Lifchitz (100637.64(AT)CompuServe.COM)
+%E A013916 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046014
+Showing 1-1 of 1
+
+%I A046014
+%S A046014 383,991,1091,1571,1663,1783,2531,3323,3947,4339,4447,4547,4651,5483,
+%T A046014 6203,6379,6451,6827,6907,7883,8539,8731,9883,11251,11443,12907,13627,
+%U A046014 14083,14779,14947,16699,17827,18307,19963,21067,23563,24907,25243,26083,26107,27763,31627,33427,36523,37123
+%N A046014 Discriminants of imaginary quadratic fields with class number 17 (negated).
+%D A046014 Steven Arno, M. L. Robinson, Ferrell S. Wheeler, Imaginary quadratic fields with small odd class number, Acta Arith. 83 (1998) 295-330
+%D A046014 Buell, D. A. ``Small Class Numbers and Extreme Values of L-Functions of Quadratic Fields.'' Math. Comput. 139, 786-796, 1977.
+%D A046014 Wagner, C. ``Class Number 5, 6 and 7.'' Math. Comput. 65, 785-800, 1996.
+%H A046014 Keith Matthews, <a href="http://www.numbertheory.org/classnos/">Tables of imaginary quadratic fields with small class numbers</a>
+%H A046014 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ClassNumber.html">Class Number.</a>
+%H A046014 <a href="/index/Qua#quadfield">Index entries for sequences related to quadratic fields</a>
+%t A046014 Reap[ For[n = 1, n < 40000, n++, s = Sqrt[-n]; If[ NumberFieldClassNumber[s] == 17, d = -NumberFieldDiscriminant[s]; Print[d]; Sow[d]]]][[2, 1]] // Union (* _Jean-François Alcover_, Oct 05 2012 *)
+%Y A046014 Cf. A006203, A013658, A014602, A014603, A046002-A046020.
+%K A046014 nonn,fini,full
+%O A046014 1,1
+%A A046014 _Eric W. Weisstein_
+%E A046014 45 discriminants in this sequence (proved).
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

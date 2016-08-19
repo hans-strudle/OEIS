@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016019
+Showing 1-1 of 1
+
+%I A016019
+%S A016019 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A016019 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A016019 1,1,0,1,1,1,0,1,1,0,0,0,0,0
+%V A016019 1,1,0,-1,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A016019 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A016019 -1,-1,0,1,1,1,0,-1,-1,0,0,0,0,0
+%N A016019 Inverse of 2010th cyclotomic polynomial.
+%p A016019 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016019 sign
+%O A016019 0,1
+%A A016019 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

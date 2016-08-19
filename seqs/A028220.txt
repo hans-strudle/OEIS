@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028220
+Showing 1-1 of 1
+
+%I A028220
+%S A028220 1,35,770,13630,212331,3041745,41087740,531634460,6658867061,
+%T A028220 81336796255,974120693910,11484949238490,133713902876191,
+%U A028220 1540987906351565,17612518552867280,199940810374681720
+%N A028220 Expansion of 1/((1-7x)(1-8x)(1-9x)(1-11x)).
+%F A028220 a(n)=(11^(n+3)-6*9^(n+3)+8^(n+4)-3*7^(n+3))/24. [_Yahia Kahloune_, Jun 12 2013]
+%K A028220 nonn
+%O A028220 0,2
+%A A028220 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

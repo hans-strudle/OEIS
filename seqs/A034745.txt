@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034745
+Showing 1-1 of 1
+
+%I A034745
+%S A034745 1,4,11,33,86,266,742,2244,6613,19834,59138,177639,531674,1595468,
+%T A034745 4783786,14352225,43048318,129149968,387424670,1162288458,3486796922,
+%U A034745 10460430230,31381088266,94143408282,282429611911,847289262976
+%N A034745 Dirichlet convolution of Fibonacci numbers with 3^(n-1).
+%K A034745 nonn
+%O A034745 1,2
+%A A034745 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

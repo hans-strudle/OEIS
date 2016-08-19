@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057348
+Showing 1-1 of 1
+
+%I A057348
+%S A057348 30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,
+%T A057348 30,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,30,29,
+%U A057348 30,29,30,29,30,29,30,29,30,29,30,29,30,30,30,29,30,29,30,29,30,29,30
+%N A057348 Days in months in the Islamic calendar starting from Muharram, 1 AH. The twelfth month has 30 days in a leap year.
+%C A057348 The months' names are Muharram, Safar, Rabi I, Rabi II, Jumada I, Jumada II, Rajab, Shaban, Ramadan, Shawwal, Dhu al-Qada, Dhu al-Hijja. The year, 354 11/30 days long, is defined as 12 lunar months and so travels around the solar year.
+%C A057348 Periodic with period 360; the average month length is 29 + 191/360 = 29.530555... days. This is about 0.000032425 days shorter than the synodic month. - _Charles R Greathouse IV_, Mar 28 2016
+%D A057348 N. Dershowitz and E. M. Reingold, Calendrical Calculations, Cambridge University Press, 1997.
+%H A057348 N. Dershowitz and E. M. Reingold, <a href="http://emr.cs.iit.edu/home/reingold/calendar-book/first-edition/">Calendrical Calculations Web Site</a>
+%H A057348 <a href="/index/Rec#order_360">Index entries for linear recurrences with constant coefficients</a>, order 360.
+%t A057348 If[Mod[n, 2]==1, 30, If[Mod[n, 12]!=0, 29, If[Mod[14+11(Floor[(n-1)/12]+1), 30]<11, 30, 29]]]
+%o A057348 (PARI) a(n)=if(n%2,30,n%12,29,(n/12*11+14)%30<11,30,29) \\ _Charles R Greathouse IV_, Mar 28 2016
+%Y A057348 Islamic leap years A057347.
+%K A057348 nonn,easy
+%O A057348 1,1
+%A A057348 _Mitch Harris_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

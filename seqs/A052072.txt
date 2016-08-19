@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052072
+Showing 1-1 of 1
+
+%I A052072
+%S A052072 0,1331,700227072,22676697737363992239,1728999927211172788179288,
+%T A052072 256263633328535368685258882625
+%N A052072 Smallest cubes whose digits occur with the same frequency n.
+%H A052072 P. De Geest, <a href="http://www.worldofnumbers.com/samedigits.htm">Numbers whose digits occur with same frequency</a>
+%e A052072 22676697737363992239 (= 2830479^3) and its digits 2, 3, 6, 7 and 9 each occur four times.
+%o A052072 (Python)
+%o A052072 def A052072(n):
+%o A052072     a, b, c = 0, 0, 0
+%o A052072     for i in range(10**9):
+%o A052072         s = str(c)
+%o A052072         for d in set(s):
+%o A052072             if s.count(d) != n:
+%o A052072                 break
+%o A052072         else:
+%o A052072             return c
+%o A052072         c += a + b + 1
+%o A052072         b += 2*a + 3
+%o A052072         a += 3
+%o A052072 return 'search limit reached.'  # _Chai Wah Wu_, Aug 11 2015
+%Y A052072 Cf. A052071, A052047, A052048, A052051, A052052, A052070.
+%K A052072 nonn,base,more,nice
+%O A052072 1,2
+%A A052072 _Patrick De Geest_, Jan 15 2000
+%E A052072 Offset corrected by _Michel Marcus_, Aug 12 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

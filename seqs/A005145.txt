@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005145
+Showing 1-1 of 1
+
+%I A005145
+%S A005145 2,3,3,5,5,5,7,7,7,7,11,11,11,11,11,13,13,13,13,13,13,17,17,17,17,17,
+%T A005145 17,17,19,19,19,19,19,19,19,19,23,23,23,23,23,23,23,23,23,29,29,29,29,
+%U A005145 29,29,29,29,29,29,31,31,31,31,31,31,31,31,31,31,31
+%N A005145 n copies of n-th prime.
+%C A005145 a = A000040(A002024) - Joseph Biberstine (jrbibers(AT)indiana.edu), Aug 14 2006
+%C A005145 Seen as a triangle read by rows: T(n,k) = A000040(n), 1<=k<=n; row sums = A033286; central terms = A031368. - _Reinhard Zumkeller_, Aug 05 2009
+%D A005145 Douglas Hofstadter, "Fluid Concepts and Creative Analogies: Computer Models of the Fundamental Mechanisms of Thought".
+%H A005145 Reinhard Zumkeller, <a href="/A005145/b005145.txt">Rows n = 1..125 of triangle, flattened</a>
+%F A005145 a(n) = Prime[Floor[1/2 + Sqrt[2*n]]] (* Joseph Biberstine (jrbibers(AT)indiana.edu), Aug 14 2006 *)
+%F A005145 Flatten[Table[Table[Prime[n], {n}], {n, 12}]] (* _Alonso del Arte_, Jan 18 2012 *)
+%t A005145 Table[Prime[Floor[1/2 + Sqrt[2*n]]], {n, 1, 80}] - Joseph Biberstine (jrbibers(AT)indiana.edu), Aug 14 2006
+%t A005145 Flatten[Table[Table[Prime[n],{n}],{n,20}]] (* _Harvey P. Dale_, Dec 29 2012 *)
+%o A005145 (Haskell)
+%o A005145 a005145 n k = a005145_tabl !! (n-1) !! (k-1)
+%o A005145 a005145_row n = a005145_tabl !! (n-1)
+%o A005145 a005145_tabl = zipWith ($) (map replicate [1..]) a000040_list
+%o A005145 a005145_list = concat a005145_tabl
+%o A005145 -- _Reinhard Zumkeller_, Jul 12 2014, Mar 18 2011, Oct 17 2010
+%o A005145 (PARI) a(n) = prime(round(sqrt(2*n))) \\ _Charles R Greathouse IV_, Oct 23 2015
+%Y A005145 Cf. A002024, A175944.
+%K A005145 nonn,nice,tabl
+%O A005145 1,1
+%A A005145 _Russ Cox_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

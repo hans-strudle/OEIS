@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010108
+Showing 1-1 of 1
+
+%I A010108
+%S A010108 1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,1,0,0,0,0,0,10,14,5,0,0,0,9,34,
+%T A010108 105,84,21,0,30,36,36,594,911,502,174,102,86,272,2494,7498,
+%U A010108 7331,3416,679,1044,1766,7042,48799,79886,59347
+%V A010108 1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,2,-1,0,0,0,0,0,10,-14,5,0,0,0,9,34,
+%W A010108 -105,84,-21,0,30,36,36,-594,911,-502,174,102,-86,-272,-2494,7498,
+%X A010108 -7331,3416,-679,-1044,-1766,-7042,48799,-79886,59347
+%N A010108 Free energy coefficients for square lattice spin 2 Ising model.
+%D A010108 Jensen, Iwan; Guttmann, Anthony J.; Series expansions of the percolation probability for directed square and honeycomb lattices. J. Phys. A 28 (1995), no. 17, 4813-4833.
+%H A010108 I. Jensen, <a href="/A010108/b010108.txt">Table of n, a(n) for n = 0..119</a> (from link below)
+%H A010108 I. G. Enting, A, J. Guttmann and I. Jensen, <a href="http://arXiv.org/abs/hep-lat/?9410005">Low-Temperature Series Expansions for the Spin-1 Ising Model</a>, J. Phys. A. 27 (1994) 6987-7006.
+%H A010108 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/ising/series/pf2.ser">More terms</a>
+%K A010108 sign
+%O A010108 0,16
+%A A010108 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

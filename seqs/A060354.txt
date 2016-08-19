@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060354
+Showing 1-1 of 1
+
+%I A060354
+%S A060354 0,1,2,6,16,35,66,112,176,261,370,506,672,871,1106,1380,1696,2057,
+%T A060354 2466,2926,3440,4011,4642,5336,6096,6925,7826,8802,9856,10991,12210,
+%U A060354 13516,14912,16401,17986,19670,21456,23347,25346,27456,29680,32021
+%N A060354 The n-th n-gonal number.
+%C A060354 Binomial transform of (0,1,0,3,0,0,0,....). - _Paul Barry_, Sep 14 2006
+%C A060354 Also the number of permutations of length n which can be sorted by a single cut-and-paste move (in the sense of Cranston, Sudborough, and West). - _Vincent Vatter_, Aug 21 2013
+%H A060354 Harry J. Smith, <a href="/A060354/b060354.txt">Table of n, a(n) for n=0..1000</a>
+%H A060354 D. W. Cranston, I. H. Sudborough, and D. B. West, <a href="http://dx.doi.org/10.1016/j.disc.2007.01.011">Short proofs for cut-and-paste sorting of permutations</a>, Discrete Math. 307, 22 (2007), 2866-2870.
+%H A060354 Cheyne Homberger, <a href="http://arxiv.org/abs/1410.2657">Patterns in Permutations and Involutions: A Structural and Enumerative Approach</a>, arXiv preprint 1410.2657, 2014
+%H A060354 Homberger and Vatter, <a href="http://www.math.ufl.edu/~vatter/publications/poly-classes/">On the effective and automatic enumeration of polynomial permutation classes</a>.
+%H A060354 C. Homberger, V. Vatter, <a href="http://arxiv.org/abs/1308.4946">On the effective and automatic enumeration of polynomial permutation classes</a>, arXiv preprint arXiv:1308.4946, 2013
+%H A060354 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A060354 a(n) = (n*(n-2)^2+n^2)/2.
+%F A060354 E.g.f.: exp(x)*x*(1+x^2/2). - _Paul Barry_, Sep 14 2006
+%F A060354 a(n) = sum((binomial(0,0*j)+binomial(n,2)),j=0..n). - _Zerinvary Lajos_, Sep 04 2006
+%F A060354 G.f.: x*(1-2x+4*x^2)/(1-x)^4. - _R. J. Mathar_, Sep 02 2008
+%p A060354 restart: G(x):=exp(x)*(x+x^3/2): f[0]:=G(x): for n from 1 to 45 do f[n]:=diff(f[n-1],x) od: x:=0: seq(f[n],n=0..41); # _Zerinvary Lajos_, Apr 05 2009
+%t A060354 Table[(n (n-2)^2+n^2)/2,{n,0,50}] (* _Harvey P. Dale_, Aug 05 2011 *)
+%t A060354 CoefficientList[Series[x (1 - 2 x + 4 x^2) / (1 - x)^4, {x, 0, 50}], x] (* _Vincenzo Librandi_, Feb 16 2015 *)
+%t A060354 Table[PolygonalNumber[n,n],{n,0,50}] (* The program uses the PolygonalNumber function from Mathematica version 10 *) (* _Harvey P. Dale_, Mar 07 2016 *)
+%t A060354 LinearRecurrence[{4,-6,4,-1},{0,1,2,6},50] (* _Harvey P. Dale_, Mar 07 2016 *)
+%o A060354 (PARI) { for (n=0, 1000, write("b060354.txt", n, " ", (n*(n - 2)^2 + n^2)/2); ) } \\ _Harry J. Smith_, Jul 04 2009
+%o A060354 (MAGMA) [(n*(n-2)^2+n^2)/2: n in [0..50]]; // _Vincenzo Librandi_, Feb 16 2015
+%Y A060354 First differences of A004255.
+%K A060354 easy,nice,nonn
+%O A060354 0,3
+%A A060354 Hareendra Yalamanchili (hyalaman(AT)mit.edu), Apr 01 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022376
+Showing 1-1 of 1
+
+%I A022376
+%S A022376 2,28,30,58,88,146,234,380,614,994,1608,2602,4210,6812,11022,17834,
+%T A022376 28856,46690,75546,122236,197782,320018,517800,837818,1355618,2193436,
+%U A022376 3549054,5742490,9291544,15034034
+%N A022376 Fibonacci sequence beginning 2, 28.
+%H A022376 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022376 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022376 G.f.: (2+26x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%t A022376 a={};b=2;c=28;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%Y A022376 Equals 2 * A022104.
+%K A022376 nonn
+%O A022376 0,1
+%A A022376 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

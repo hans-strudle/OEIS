@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006533
+Showing 1-1 of 1
+
+%I A006533 M1118
+%S A006533 1,2,4,8,16,30,57,88,163,230,386,456,794,966,1471,1712,2517,2484,4048,
+%T A006533 4520,6196,6842,9109,9048,12951,14014,17902,19208,24158,21510,31931,
+%U A006533 33888
+%N A006533 Join n equal points around circle in all ways, count regions.
+%D A006533 Jean Meeus, Wiskunde Post (Belgium), Vol. 10, 1972, pp. 62-63.
+%D A006533 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006533 T. D. Noe, <a href="/A006533/b006533.txt">Table of n, a(n) for n=1..1000</a>
+%H A006533 Sascha Kurz, <a href="http://www.mathe2.uni-bayreuth.de/sascha/oeis/drawing/drawing.html">m-gons in regular n-gons</a>
+%H A006533 B. Poonen and M. Rubinstein, <a href="http://epubs.siam.org:80/sam-bin/dbq/article/28124">Number of Intersection Points Made by the Diagonals of a Regular Polygon</a>, SIAM J. Discrete Mathematics, Vol. 11, pp. 135-156.
+%H A006533 B. Poonen and M. Rubinstein, <a href="http://math.mit.edu/~poonen/">The number of intersection points made by the diagonals of a regular polygon</a>, SIAM J. on Discrete Mathematics, Vol. 11, No. 1, 135-156 (1998).
+%H A006533 B. Poonen and M. Rubinstein, <a href="http://arXiv.org/abs/math.MG/9508209">The number of intersection points made by the diagonals of a regular polygon</a>, arXiv version, which has fewer typos than the SIAM version.
+%H A006533 B. Poonen and M. Rubinstein, <a href="http://math.mit.edu/~poonen/papers/ngon.m">Mathematica programs for these sequences</a>
+%H A006533 <a href="/index/Pol#Poonen">Sequences formed by drawing all diagonals in regular polygon</a>
+%F A006533 a(n)=A007678(n)+n. - T. D. Noe, Dec 23 2006
+%t A006533 del[m_,n_]:=If[Mod[n,m]==0,1,0]; R[n_]:=(n^4-6n^3+23n^2-18n+24)/24 + del[2,n](-5n^3+42n^2-40n-48)/48 - del[4,n](3n/4) + del[6,n](-53n^2+310n)/12 + del[12,n](49n/2) + del[18,n]*32n + del[24,n]*19n - del[30,n]*36n - del[42,n]*50n - del[60,n]*190n - del[84,n]*78n - del[90,n]*48n - del[120,n]*78n - del[210,n]*48n; Table[R[n], {n,1,1000}] - _T. D. Noe_, Dec 21 2006
+%Y A006533 Sequences related to chords in a circle: A001006, A054726, A006533, A006561, A006600, A007569, A007678. See also entries for chord diagrams in Index file.
+%K A006533 nonn,easy,nice
+%O A006533 1,2
+%A A006533 _N. J. A. Sloane_, Bjorn Poonen (poonen(AT)math.princeton.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

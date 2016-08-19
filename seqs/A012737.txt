@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012737
+Showing 1-1 of 1
+
+%I A012737
+%S A012737 1,12,3248,25240512,722745554688,61363036297915392,
+%T A012737 12105663188188359045120,4791193110632356981925068800
+%V A012737 1,-12,-3248,-25240512,-722745554688,-61363036297915392,
+%W A012737 -12105663188188359045120,-4791193110632356981925068800
+%N A012737 sech(arctanh(x)*atan(x))=1-12/4!*x^4-3248/8!*x^8-25240512/12!*x^12...
+%K A012737 sign
+%O A012737 0,2
+%A A012737 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

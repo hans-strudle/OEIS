@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016413
+Showing 1-1 of 1
+
+%I A016413
+%S A016413 1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,
+%T A016413 1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,0,0,1,
+%U A016413 1,0,1,1,0,0,0,0,0,0,1,1,0,1,1,0,0
+%V A016413 1,-1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,0,
+%W A016413 1,-1,0,0,0,0,0,0,1,-1,0,1,-1,0,0,0,0,0,0,1,-1,0,1,-1,0,0,0,0,0,0,1,
+%X A016413 -1,0,1,-1,0,0,0,0,0,0,1,-1,0,1,-1,0,0
+%N A016413 451st cyclotomic polynomial.
+%t A016413 CoefficientList[Cyclotomic[451,x],x] (* _Harvey P. Dale_, May 09 2013 *)
+%K A016413 sign,fini
+%O A016413 0,1
+%A A016413 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058927
+Showing 1-1 of 1
+
+%I A058927
+%S A058927 1,1,5,49,243,14641,371293,253125,410338673,16983563041,1400846643,
+%T A058927 41426511213649
+%N A058927 Numerators of series related to triangular cacti.
+%C A058927 Contribution by L. Edson Jeffery, Jan 09 2012 (Start):
+%C A058927 The reference [Bergeron, et al.] lists the first few terms of the relevant series as S(x)=x+(1/2)*x^3+(5/8)*x^5+(49/48)*x^7+(243/128)*x^9+..., from which the numerators were taken for this sequence and the denominators for A058928. This leads to the following
+%C A058927 Conjecture: S(x)=sum[n=0,1,..., ((2*n+1)^(n-1)/(n!*2^n))*x^(2*n+1)] = (A052750(n)/A000165(n))*x^(2*n+1). Letting D_n be the set of divisors of n! and d_n=max(k in D_n : k | (2*n+1)^(n-1)), then a(n)=A052750(n)/d_n, with the next few terms, for n=12,...,20, being:
+%C A058927 {95367431640625, 617673396283947, 10260628712958602189, 756943935220796320321, 7474615974418932603, 827909024473876953125, 456487940826035155404146917, 510798409623548623605717, 4394336169668803158610484050361}. (End)
+%D A058927 F. Bergeron, G. Labelle and P. Leroux, Combinatorial Species and Tree-Like Structures, Camb. 1998, p. 307.
+%F A058927 G.f. A(x) satisfies A(x)=exp(x*A(x)^2). [_Vladimir Kruchinin_, Feb 09 2013]
+%Y A058927 Cf. A000165, A052750, A058928.
+%K A058927 nonn,frac,easy,more
+%O A058927 0,3
+%A A058927 _N. J. A. Sloane_, Jan 12 2001
+%E A058927 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 25 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

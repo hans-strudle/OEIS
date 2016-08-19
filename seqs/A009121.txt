@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009121
+Showing 1-1 of 1
+
+%I A009121
+%S A009121 1,0,1,6,25,100,481,2954,20721,151848,1146721,9111982,77652169,
+%T A009121 710421452,6891125697,69961213170,738718169569,8108554524112,
+%U A009121 92647353941569,1101958783026134,13616813607795321,174287243264606388
+%N A009121 Expansion of e.g.f: cosh(exp(x).x).
+%t A009121 With[{nn=30},CoefficientList[Series[Cosh[Exp[x]*x],{x,0,nn}],x] Range[ 0,nn]!] (* _Harvey P. Dale_, Dec 28 2015 *)
+%K A009121 nonn,easy
+%O A009121 0,4
+%A A009121 _R. H. Hardin_
+%E A009121 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+%E A009121 Definition clarified and prior Mathematica program replaced by _Harvey P. Dale_, Dec 28 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016926
+Showing 1-1 of 1
+
+%I A016926
+%S A016926 1,117649,4826809,47045881,244140625,887503681,2565726409,6321363049,
+%T A016926 13841287201,27680640625,51520374361,90458382169,151334226289,
+%U A016926 243087455521,377149515625,567869252041,832972004929
+%N A016926 (6n+1)^6.
+%H A016926 Vincenzo Librandi, <a href="/A016926/b016926.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016926 (MAGMA) [(6*n+1)^6: n in [0..40]]; // Vincenzo Librandi, May 04 2011
+%K A016926 nonn,easy
+%O A016926 0,2
+%A A016926 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

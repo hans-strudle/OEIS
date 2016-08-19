@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055561
+Showing 1-1 of 1
+
+%I A055561
+%S A055561 75,363,609,867,1183,1265,1275,1491,1587,1725,1805,2067,2175,2373,
+%T A055561 2523,3045,3525,3685,3795,3975,4137,4205,4335,4425,4895,5019,5043,
+%U A055561 5109,5901,5915,6171,6225,6627,6675,6699,7935,8025,8427,8475,8855,9429,9537,10275
+%N A055561 Numbers n such that there are precisely 3 groups of order n.
+%D A055561 Hans Ulrich Besche, Bettina Eick, E. A. O'Brien, A Millennium Project: Constructing Small Groups, International Journal of Algebra and Computation, Vol. 12, No 5 (2002), 623-644.
+%H A055561 H. U. Besche, B. Eick and E. A. O'Brien, <a href="http://www.icm.tu-bs.de/ag_algebra/software/small/">The Small Groups Library</a>
+%H A055561 Gordon Royle, <a href="http://units.maths.uwa.edu.au/~gordon/remote/cubcay/">Numbers of Small Groups</a>
+%H A055561 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%Y A055561 Cf. A000001, A003277, A054395, A054396, A054397.
+%K A055561 nonn
+%O A055561 1,1
+%A A055561 _Christian G. Bower_, May 25 2000; Nov 12 2003; Feb 17 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

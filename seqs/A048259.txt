@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048259
+Showing 1-1 of 1
+
+%I A048259
+%S A048259 1,1,2,3,4,3,7,4,8,6,8,4,15,5,10,11,14,5,17,6,18,14,12,6,31,9,14,13,
+%T A048259 22,7,33,8,24,16,16,16,39,9,18,19,38,9,42,10,28,29,20,10,58,15,30,22,
+%U A048259 32,11,44,20,47,25,24,12,79,13,26,36,43,23,54,14,39,27,55,14,85
+%N A048259 Distinct solutions to x+y+z=0 mod n, where two solutions are equivalent if one can be obtained from the other by multiplying by units in Z/nZ and permuting x,y,z.
+%e A048259 For n=6 the 7 solutions are xyz = 000 510 420 411 330 321 222.
+%Y A048259 Cf. A007997, A003050, A003051.
+%K A048259 nonn
+%O A048259 0,3
+%A A048259 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

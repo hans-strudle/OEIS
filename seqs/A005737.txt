@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005737
+Showing 1-1 of 1
+
+%I A005737 M1284
+%S A005737 2,4,14,96,1146,19996,456774,12851768,429005426
+%N A005737 Number of fanout-free Boolean functions of n variables.
+%D A005737 J. P. Hayes, Enumeration of fanout-free Boolean functions, J. ACM, 23 (1976), 700-709.
+%D A005737 K. L. Kodandapani and S. C. Seth, On combinational networks with restricted fan-out, IEEE Trans. Computers, 27 (1978), 309-318.
+%D A005737 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005737 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%Y A005737 Cf. A005736, A005640.
+%K A005737 nonn,more
+%O A005737 0,1
+%A A005737 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

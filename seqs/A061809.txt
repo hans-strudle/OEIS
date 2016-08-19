@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061809
+Showing 1-1 of 1
+
+%I A061809
+%S A061809 1,7,11,68,1039247
+%N A061809 When cubed gives number composed just of the digits 1, 2, 3, 4.
+%C A061809 No more terms through 10^13. [From _Jon E. Schoenfield_, Jul 03 2010]
+%t A061809 Do[ If[ Union[ Join[ {1, 2, 3, 4}, IntegerDigits[n^3] ]] == {1, 2, 3, 4}, Print[n]], {n, 0, 10^8} ]
+%K A061809 base,more,nonn
+%O A061809 1,2
+%A A061809 _Robert G. Wilson v_, Jun 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

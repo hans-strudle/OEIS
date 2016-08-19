@@ -1,0 +1,71 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059481
+Showing 1-1 of 1
+
+%I A059481
+%S A059481 1,1,1,1,2,3,1,3,6,10,1,4,10,20,35,1,5,15,35,70,126,1,6,21,56,126,252,
+%T A059481 462,1,7,28,84,210,462,924,1716,1,8,36,120,330,792,1716,3432,6435,1,9,
+%U A059481 45,165,495,1287,3003,6435,12870,24310,1,10,55,220,715,2002,5005,11440
+%N A059481 Triangle T(n,k) = binomial(n+k-1,k), 0 <= k <= n, read by rows.
+%C A059481 T(n,k) = number of ways to distribute k identical objects in n distinct containers; containers may be left empty.
+%C A059481 T(n,k)= number of nondecreasing functions f from {1,...,k} to {1,...,n}. - _Dennis P. Walsh_, Apr 07 2011
+%C A059481 Coefficients of Faber polynomials for function x^2/(x-1). - _Michael Somos_, Sep 09 2003
+%C A059481 Consider k-fold Cartesian products CP(n,k) of the vector A(n)=[1,2,3,...,n].
+%C A059481 An element of CP(n,k) is a n-tuple T_t of the form T_t=[i_1,i_2,i_3, ...,i_k] with t=1,..,n^k.
+%C A059481 We count members T of CP(n,k) which satisfy some condition delta(T_t), so delta(.) is an indicator function which attains values of 1 or 0 depending on whether T_t is to be counted or not; the summation sum_{CP(n,k)} delta(T_t) over all elements T_t of CP produces the count.
+%C A059481 For the triangle here we have delta(T_t) = 0 if for any two i_j, i_(j+1) in T_t one has i_j > i_(j+1), T(n,k) = Sum_{CP(n,k)} delta(T_t) = Sum_{CP(n,k)} delta(i_j > i_(j+1)).
+%C A059481 The indicator function which tests on i_j = i_(j+1) generates A158497, which contains further examples of this type of counting.
+%C A059481 Triangle of the numbers of combinations of k elements with repetitions from n elements {1,2,...,n} (when every element i, i=1,...,n, appears in a k-combination either 0, or 1, or 2,..., or k times). - _Vladimir Shevelev_, Jun 19 2012
+%C A059481 G.f. for Faber polynomials is -log(-t*x-(1-sqrt(1-4*t))/2+1)=sum(n>0, T(n,k)*t^k/n). - _Vladimir Kruchinin_, Jul 04 2013
+%C A059481 Values of complete homogeneous symmetric polynomials with all arguments equal to 1, or, equivalently, the number of monomials of degree k in n variables. - _Tom Copeland_, Apr 07 2014
+%D A059481 R. Grimaldi, Discrete and Combinatorial Mathematics, Addison-Wesley, 4th edition, chapter 1.4.
+%H A059481 Reinhard Zumkeller, <a href="/A059481/b059481.txt">Rows n = 0..125 of triangle, flattened</a>
+%H A059481 M. A. A. Obaid, S. K. Nauman, W. M. Fakieh, C. M. Ringel, <a href="http://www.math.uni-bielefeld.de/~ringel/opus/jeddah.pdf">The numbers of support-tilting modules for a Dynkin algebra</a>, 2014.
+%H A059481 C. M. Ringel, <a href="http://arxiv.org/abs/1502.06553">The Catalan combinatorics of the hereditary artin algebras</a>, arXiv preprint arXiv:1502.06553 [math.RT], 2015.
+%H A059481 Dennis Walsh, <a href="http://frank.mtsu.edu/~dwalsh/miscnotes.html">Notes on finite monotonic and non-monotonic functions</a>
+%F A059481 Columns: T(n,2) = A000217(n). T(n,3) = A000292(n). T(n,4) = A001405(n+3). T(n,5) = A000389(n+4).
+%F A059481 Rows: T(5,k) = A000332(k+4). T(6,k) = A000389(k+5). T(7,k) = A000579(k+6).
+%F A059481 Diagonals: T(n,n) = A001700(n-1). T(n,n-1) = A000984(n-1).
+%F A059481 T(n,k) = A046899(n-1,k). - _R. J. Mathar_, Mar 26 2009
+%F A059481 T(n,0) + T(n,1) + . . . + T(n,n-1) = T(n,n). - _Jonathan Sondow_, Jun 28 2014
+%F A059481 From _Peter Bala_, Jul 21 2015: (Start)
+%F A059481 T(n,k) = Sum_{j = k..n} (-1)^(k+j)*binomial(2*n,n+j) *binomial(n+j-1,j)*binomial(j,k) (gives the correct value T(n,k) = 0 for k > n).
+%F A059481 O.g.f.: 1/2*( x*(2*x - 1)/(sqrt(1 - 4*t*x)*(1 - x - t)) + (1 + 2*x)/sqrt(1 - 4*t*x) + (1 - t)/(1 - x - t) ) = 1 + (1 + t)*x + (1 + 2*t + 3*t^2)*x^2 + (1 + 3*t + 6*t^2 + 10*t^3)*x^3 + ....
+%F A059481 n-th row polynomial R(n,t) = [x^n] ( (1 + x)^2/(1 + x(1 - t)) )^n.
+%F A059481 exp( Sum_{n >= 1} R(n,t)*x^n/n ) = 1 + (1 + t)*x + (1 + 2*t + 2*t^2)*x^2 + (1 + 3*t + 5*t^2 + 5*t^3)*x^3 + ... is the o.g.f for A009766. (End)
+%e A059481 The triangle T(n,k), n>=0, 0<=k<=n, begins
+%e A059481   1
+%e A059481   1 1
+%e A059481   1 2  3
+%e A059481   1 3  6  10
+%e A059481   1 4 10  20  35
+%e A059481   1 5 15  35  70 126
+%e A059481   1 6 21  56 126 252  462
+%e A059481   1 7 28  84 210 462  924 1716
+%e A059481   1 8 36 120 330 792 1716 3432 6435
+%e A059481 T(3,2)=6 considers the CP with the 3^2=9 elements (1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3), and does not count the 3 of them which are (2,1),(3,1) and (3,2).
+%e A059481 T(3,3) = 10 because the ways to distribute the 3 objects into the three containers are: (3,0,0) (0,3,0) (0,0,3) (2,1,0) (1,2,0) (2,0,1) (1,0,2) (0,1,2) (0,2,1) (1,1,1), for a total of 10 possibilities.
+%e A059481 T(3,3)=10 since (x^2/(x-1))^3 = (x+1+1/x+O(1/x^2))^3 = x^3+3x^2+6x+10+O(x).
+%e A059481 T(4,2)=10 since there are 10 nondecreasing functions f from {1,2} to {1,2,3,4}. Using <f(1),f(2)> to denote such a function, the ten functions are <1,1>, <1,2>, <1,3>, <1,4>, <2,2>, <2,3>, <2,4>, <3,3>, <3,4>, and <4,4>. - _Dennis P. Walsh_, Apr 07 2011
+%e A059481 T(4,0) + T(4,1) + T(4,2) + T(4,3) = 1 + 4 + 10 + 20 = 35 = T(4,4). - _Jonathan Sondow_, Jun 28 2014
+%p A059481 for n from 0 to 10 do for k from 0 to n do printf("%d,",binomial(n+k-1,k)) ; od: od: # _R. J. Mathar_, Mar 31 2009
+%t A059481 t[n_, k_] := Binomial[n+k-1, k]; Table[t[n, k], {n, 0, 10}, {k, 0, n}] // Flatten (* _Jean-François Alcover_, Sep 09 2013 *)
+%o A059481 (PARI) {T(n, k) = if( k<0 || k>n, 0, binomial( n+k-1, k))}; /* _Michael Somos_, Sep 09 2003 */
+%o A059481 (PARI) {T(n, k) = if( n<0, 0, polcoeff( Pol(((1 / (x - x^2) + x * O(x^n))^n + O(x)) * x^n), k))}; /* _Michael Somos_, Sep 09 2003 */
+%o A059481 (MAGMA) &cat [[&*[ Binomial(n+k-1,k)]: k in [0..n]]: n in [0..30] ]; // _Vincenzo Librandi_, Apr 08 2011
+%o A059481 (Haskell)
+%o A059481 a059481 n k = a059481_tabl !! n !! n
+%o A059481 a059481_row n = a059481_tabl !! n
+%o A059481 a059481_tabl = map reverse a100100_tabl
+%o A059481 -- _Reinhard Zumkeller_, Jan 15 2014
+%Y A059481 Take Pascal's triangle A007318, delete entries to the right of a vertical line just right of center, then scan the diagonals.
+%Y A059481 For a signed version of this triangle see A027555.
+%Y A059481 Row sums give A000984. Cf. A007318, A158497, A100100 (mirrored), A009766.
+%K A059481 easy,nice,nonn,tabl
+%O A059481 0,5
+%A A059481 _Fabian Rothelius_, Feb 04 2001
+%E A059481 More terms from _James A. Sellers_, Feb 07 2001
+%E A059481 Offset changed from 1 to 0 by _R. J. Mathar_, Jan 15 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060231
+Showing 1-1 of 1
+
+%I A060231
+%S A060231 2309,9239,11549,25409,34649,43889,55439,78539,92399,110879,117809,
+%T A060231 133979,152459,168629,180179,224069,226379,230999,244859,251789,
+%U A060231 267959,270269,284129,297989,300299,309539,314159,316469,330329,376529,390389
+%N A060231 Smaller of twin primes whose middle term is a multiple of A002110(5)=2310.
+%e A060231 For the pair {9239,9241} (9239+9241)/2 = 4*2310.
+%t A060231 Select[2310*Range[200],And@@PrimeQ[#+{1,-1}]&]-1 (* _Harvey P. Dale_, Aug 23 2013 *)
+%Y A060231 A001359, A002110, A060229, A060230.
+%K A060231 nonn
+%O A060231 1,1
+%A A060231 _Labos Elemer_, Mar 21 2001
+%E A060231 Minor edits by _Ray Chandler_, Apr 02 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049803
+Showing 1-1 of 1
+
+%I A049803
+%S A049803 0,0,0,1,2,0,1,2,0,2,4,3,5,7,6,8,10,0,2,4,3,5,7,6,8,10,0,3,6,6,9,12,
+%T A049803 12,15,18,9,12,15,15,18,21,21,24,27,18,21,24,24,27,30,30,33,36,0,3,6,
+%U A049803 6,9,12,12,15,18,9,12,15,15,18,21,21,24,27,18
+%N A049803 a(n)=n mod 3 + n mod 9 + ... + n mod 3^k, where 3^k<=n<3^(k+1).
+%K A049803 nonn
+%O A049803 1,5
+%A A049803 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

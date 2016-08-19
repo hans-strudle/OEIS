@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015999
+Showing 1-1 of 1
+
+%I A015999
+%S A015999 1,2,2,3,2,8,2,4,3,8,2,14,2,8,8,5,2,14,2,14,8,8,2,20,3,8,4,14,2,44,2,
+%T A015999 6,8,8,8,25,2,8,8,20,2,44,2,14,14,8,2,26,3,14,8,14,2,20,8,20,8,8,2,80,
+%U A015999 2,8,14,7,8,44,2,14,8,44,2,36,2,8,14,14,8,44,2,26,5,8,2,80,8,8
+%N A015999 a(n) = (tau(n^5) + 4)/5.
+%p A015999 with(numtheory): A015999:=n->(tau(n^5)+4)/5: seq(A015999(n), n=1..80); # _Wesley Ivan Hurt_, Apr 10 2015
+%t A015999 (DivisorSigma[0, Range[80]^5]+4)/5 (* _Wesley Ivan Hurt_, Apr 10 2015 *)
+%K A015999 nonn,easy
+%O A015999 1,2
+%A A015999 _Robert G. Wilson v_
+%E A015999 Definition corrected by _Vladeta Jovovic_, Sep 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

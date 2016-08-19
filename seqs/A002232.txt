@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002232
+Showing 1-1 of 1
+
+%I A002232
+%S A002232 0,1,652,1656,63556,526093,6169761,1084675,61277761,12764034,1,
+%T A002232 188853412,696189924,127037518,6509875741,5260982652,6927694924,
+%U A002232 1447575796,67506991011,14036538961,652,16395822873,63537857845,18258901387,671413570011,526098785251
+%N A002232 8th powers written backwards.
+%H A002232 Alois P. Heinz, <a href="/A002232/b002232.txt">Table of n, a(n) for n = 0..10000</a>
+%p A002232 a:= n-> (s-> parse(cat(s[-i]$i=1..length(s))))(""||(n^8)):
+%p A002232 seq(a(n), n=0..50);  # _Alois P. Heinz_, Apr 09 2015
+%K A002232 nonn,base
+%O A002232 0,3
+%A A002232 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

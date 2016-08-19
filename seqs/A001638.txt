@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001638
+Showing 1-1 of 1
+
+%I A001638 M3351 N1348
+%S A001638 4,1,1,4,9,11,16,29,49,76,121,199,324,521,841,1364,2209,3571,5776,
+%T A001638 9349,15129,24476,39601,64079,103684,167761,271441,439204,710649,
+%U A001638 1149851,1860496,3010349,4870849,7881196,12752041,20633239,33385284,54018521,87403801
+%N A001638 A Fielder sequence: a(n) = a(n-1) + a(n-3) + a(n-4), n >= 4.
+%C A001638 For n > 1, a(n) is the number of ways of choosing a subset of vertices of an n-cycle so that every vertex of the n-cycle is adjacent to one of the chosen vertices. (Note that this is not the same as the number of dominating sets of the n-cycle, which is given by A001644.) [From _Joel B. Lewis_, Sep 12 2010]
+%D A001638 Fielder, Daniel C.; Special integer sequences controlled by three parameters. Fibonacci Quart 6 1968 64-70.
+%D A001638 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001638 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001638 T. D. Noe, <a href="/A001638/b001638.txt">Table of n, a(n) for n = 0..1000</a>
+%H A001638 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001638 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A001638 Middle European Math Olympiad 2010, Team Problem 3. Available online at <a href="http://www.artofproblemsolving.com/Forum/viewtopic.php?t=366470">the Art of Problem Solving</a>. [From _Joel B. Lewis_, Sep 12 2010]
+%H A001638 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (1, 0, 1, 1).
+%F A001638 G.f.: (1-x)(4+x+x^2)/((1+x^2)(1-x-x^2)). a(n)=L(n)+i^n+(-i)^n, a(2n)=L(n)^2, a(2n+1)=L(2n+1) where L() is Lucas sequence.
+%p A001638 A001638:=-(z+1)*(4*z**2-z+1)/(z**2+z-1)/(z**2+1); [Conjectured by _Simon Plouffe_ in his 1992 dissertation. Gives sequence except for the initial 4.]
+%t A001638 LinearRecurrence[{1, 0, 1, 1}, {4, 1, 1, 4}, 50] (* _T. D. Noe_, Aug 09 2012 *)
+%o A001638 (PARI) a(n)=if(n<0,0,fibonacci(n+1)+fibonacci(n-1)+simplify(I^n+(-I)^n))
+%o A001638 (PARI) a(n)=if(n<0,0,polsym((1+x-x^2)*(1+x^2),n)[n+1])
+%K A001638 nonn
+%O A001638 0,1
+%A A001638 _N. J. A. Sloane_.
+%E A001638 Edited by _Michael Somos_, Feb 17 2002 and Nov 02 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

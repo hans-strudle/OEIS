@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051862
+Showing 1-1 of 1
+
+%I A051862
+%S A051862 1,11,376,20241,1427156,121639250,12007003824,1337583507153,
+%T A051862 165328009728652,22404009743110566,3299256277254713760,
+%U A051862 524366465815117346250,89448728780073829991976
+%N A051862 Perturbation expansion in quantum field theory: scalar case in 6 spacetime dimensions.
+%D A051862 D. J. Broadhurst and D. Kreimer, Combinatoric explosion of renormalization tamed by Hopf algebra: 30-loop Pad-Borel resummation. Phys. Lett. B 475 (2000), 63-70.
+%H A051862 D. J. Broadhurst and D. Kreimer, <a href="http://arXiv.org/abs/hep-th/9912093">Combinatoric explosion of renormalization ...</a>
+%F A051862 The generating procedure is described by Broadhurst and Kreimer.
+%e A051862 a(31) =7632236320181399967333968684399053053157812979126909028545984868160 was computed using Kreimer's Hopf algebra of rooted trees. It subsumes 2.6*10^21 terms in quantum field theory.
+%Y A051862 Cf. A000699.
+%K A051862 hard,nonn
+%O A051862 1,2
+%A A051862 _David Broadhurst_, Dec 14 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

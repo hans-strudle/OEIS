@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036947
+Showing 1-1 of 1
+
+%I A036947
+%S A036947 5,59,599,0,59999,599959,5595559,55555559,555555599,5555555959,
+%T A036947 55555595999,555555555559,5555555599999,55555555595599,
+%U A036947 555555555995959,5555555555559959,55555555555555999,555555555555555559
+%N A036947 Smallest n-digit prime containing only digits 5 and 9, or 0 if no such prime exists.
+%Y A036947 Cf. A036229, A020468, A036321.
+%K A036947 nonn,base
+%O A036947 1,1
+%A A036947 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

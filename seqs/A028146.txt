@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028146
+Showing 1-1 of 1
+
+%I A028146
+%S A028146 1,29,535,8025,106911,1320249,15480655,174931625,1923680671,
+%T A028146 20725530969,219822814575,2303376354825,23907223188031,
+%U A028146 246285893877689,2522150397345295,25706911853867625,261029919360032991
+%N A028146 Expansion of 1/((1-4x)(1-7x)(1-8x)(1-10x)).
+%F A028146 a(n)=(2*10^(n+3)-9*8^(n+3)+8*7^(n+3)-4^(n+3))/72. [_Yahia Kahloune_, May 31 2013]
+%K A028146 nonn,easy
+%O A028146 0,2
+%A A028146 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

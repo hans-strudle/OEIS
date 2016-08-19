@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045926
+Showing 1-1 of 1
+
+%I A045926
+%S A045926 2,4,6,8,22,24,26,28,42,44,46,48,62,64,66,68,82,84,86,88,222,224,226,
+%T A045926 228,242,244,246,248,262,264,266,268,282,284,286,288,422,424,426,428,
+%U A045926 442,444,446,448,462,464,466,468,482,484,486,488,622,624,626,628,642
+%N A045926 All digits even and nonzero.
+%H A045926 Reinhard Zumkeller, <a href="/A045926/b045926.txt">Table of n, a(n) for n = 1..10000</a>
+%F A045926 a(n) = 2 * A084544(n). - _Reinhard Zumkeller_, Jan 01 2013
+%o A045926 (Haskell)
+%o A045926 a045926 n = a045926_list !! (n-1)
+%o A045926 a045926_list = filter (all (`elem` "2468") . show) [2, 4..]
+%o A045926 -- _Reinhard Zumkeller_, Jan 01 2013
+%Y A045926 Cf. A045927, A014261, A014263.
+%Y A045926 Cf. A192370.
+%K A045926 nonn,easy,base
+%O A045926 1,1
+%A A045926 _Felice Russo_
+%E A045926 More terms from _Patrick De Geest_, Jun 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

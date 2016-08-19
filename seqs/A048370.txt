@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048370
+Showing 1-1 of 1
+
+%I A048370
+%S A048370 5,25,136,715,1526,11828,8121,115798,319405,1771087,2179693,11665419,
+%T A048370 38160335,176024528,1367063798,3257101805,9109186828,38598478444,
+%U A048370 136736651535,380814792667
+%N A048370 a(n)^3 is smallest cube containing exactly n 5's.
+%H A048370 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html">Cubic Number</a>
+%Y A048370 Cf. A036532.
+%K A048370 nonn,base
+%O A048370 1,1
+%A A048370 _Patrick De Geest_, Mar 15 1999.
+%E A048370 One more term from Michel ten Voorde (seqfan(AT)tenvoorde.org) Jun 13 2003
+%E A048370 a(15)-a(20) from _Lars Blomberg_, Jun 12 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

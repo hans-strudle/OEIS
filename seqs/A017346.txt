@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017346
+Showing 1-1 of 1
+
+%I A017346
+%S A017346 46656,16777216,308915776,2176782336,9474296896,30840979456,
+%T A017346 82653950016,192699928576,404567235136,782757789696,1418519112256,
+%U A017346 2436396322816,4001504141376,6327518887936,9685390482496
+%N A017346 (10*n+6)^6.
+%H A017346 Vincenzo Librandi, <a href="/A017346/b017346.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017346 (MAGMA) [(10*n+6)^6: n in [0..20]]; // Vincenzo Librandi, Aug 03 2011
+%K A017346 nonn,easy
+%O A017346 0,1
+%A A017346 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

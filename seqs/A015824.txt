@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015824
+Showing 1-1 of 1
+
+%I A015824
+%S A015824 1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%T A015824 0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015824 0,0,0,0,0,0,0,0,0,1,0,0,0
+%V A015824 1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%W A015824 0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015824 0,0,0,0,0,0,0,0,0,-1,0,0,0
+%N A015824 Inverse of 1815th cyclotomic polynomial.
+%p A015824 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n, x), x,80); c(1815);
+%K A015824 sign
+%O A015824 0,1
+%A A015824 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

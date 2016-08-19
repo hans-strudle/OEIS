@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011919
+Showing 1-1 of 1
+
+%I A011919
+%S A011919 0,0,0,0,2,13,40,93,186,336,560,880,1320,1906,2669,3640,4853,6346,
+%T A011919 8160,10336,12920,15960,19506,23613,28336,33733,39866,46800,54600,
+%U A011919 63336,73080,83906,95893,109120,123669
+%N A011919 [ n(n-1)(n-2)(n-3)/9 ].
+%F A011919 a(n) = +4*a(n-1) -6*a(n-2) +4*a(n-3) -a(n-4) +a(n-9) -4*a(n-10) +6*a(n-11) -4*a(n-12) +a(n-13). G.f.: x^4*(2+5*x+3*x^3+4*x^4+3*x^5+5*x^7+2*x^8) / ( (1-x)^5*(1+x+x^2)*(x^6+x^3+1) ). [From _R. J. Mathar_, Apr 15 2010]
+%K A011919 nonn
+%O A011919 0,5
+%A A011919 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

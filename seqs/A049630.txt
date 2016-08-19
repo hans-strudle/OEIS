@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049630
+Showing 1-1 of 1
+
+%I A049630
+%S A049630 1,2,4,7,10,17,22,34,42,61,72,100,116,154,176,224,250,314,348,427,470,
+%T A049630 563,612,726,786,918,988,1141,1220,1399,1492,1694,1802,2030,2148,2404,
+%U A049630 2534,2820,2968,3284,3444
+%N A049630 a(n)=Sum{T(2i,n-2i): i=0,1,...,[ n/2 ]}, array T as in A049627.
+%K A049630 nonn
+%O A049630 0,2
+%A A049630 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

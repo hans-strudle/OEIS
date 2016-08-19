@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003680
+Showing 1-1 of 1
+
+%I A003680 M1586
+%S A003680 2,6,12,24,48,60,192,120,180,240,3072,360,12288,960,720,840,196608,
+%T A003680 1260,786432,1680,2880,15360,12582912,2520,6480,61440,6300,6720,
+%U A003680 805306368,5040,3221225472,7560,46080,983040,25920,10080,206158430208,3932160
+%N A003680 Smallest number with 2n divisors.
+%C A003680 Refers to the least number which is multiplicatively n-perfect, i.e. least number m the product of whose divisors equals m^n. - _Lekraj Beedassy_, Sep 18 2004
+%C A003680 For n=1 to 5, a(n) equals second term of A008578, A007422, A162947, A048945, A030628. - _Michel Marcus_, Feb 04 2014
+%D A003680 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 840.
+%D A003680 A. H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 1964, p. 23.
+%D A003680 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003680 T. D. Noe, <a href="/A003680/b003680.txt">Table of n, a(n) for n=1..1000</a> (using A005179)
+%H A003680 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%F A003680 Bisection of A005179(n). - _Lekraj Beedassy_, Sep 21 2004
+%Y A003680 Cf. A061283
+%K A003680 nonn,easy,nice
+%O A003680 1,1
+%A A003680 _N. J. A. Sloane_, _Mira Bernstein_
+%E A003680 More terms from _Jud McCranie_ Oct 15 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

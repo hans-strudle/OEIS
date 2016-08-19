@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034893
+Showing 1-1 of 1
+
+%I A034893
+%S A034893 1,2,3,4,6,8,12,15,24,30,40,60,72,120,144,180,240,360,420,720,840,
+%T A034893 1008,1260,1680,2520,2880,5040,5760,6720,8064,10080,13440,20160,22680,
+%U A034893 40320,45360,51840,60480,72576,90720,120960,181440,201600,362880,403200
+%N A034893 Maximum of different products of partitions of n into distinct parts.
+%D A034893 Tomislav Doslic, Maximum Product Over Partitions Into Distinct Parts, Journal of Integer Sequences, Vol. 8 (2005), Article 05.5.8.
+%H A034893 T. D. Noe, <a href="/A034893/b034893.txt">Table of n, a(n) for n=1..1000</a>
+%H A034893 Tomislav Doslic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL8/Doslic/doslic15.pdf">Maximum product over partitions into distinct parts,</a> J. of Integer Sequences, Vol. 8 (2005), Article 05.5.8.
+%Y A034893 Cf. A000792.
+%K A034893 nonn,nice
+%O A034893 1,2
+%A A034893 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

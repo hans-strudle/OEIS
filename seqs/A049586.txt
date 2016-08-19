@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049586
+Showing 1-1 of 1
+
+%I A049586
+%S A049586 1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,1,1,3,3,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A049586 1,1,1,5,3,1,1,1,1,3,3,1,1,1,1,1,1,1,1,3,1,1,3,1,1,1,1,1,1,1,1,1,1,1,
+%U A049586 1,1,1,1,1,1,5,1,1,1,1,3,3,1,1,3,1,1,1,1,1,1,1,3,3,1,1,1,1,1,3,1,1,1,1,1,3
+%N A049586 GCD of cototients(A051953) of pairs of consecutive integers.
+%F A049586 a(n) = GCD[w+1-Phi[w+1], w-Phi[w]] = GCD[A051953(w+1), A051953(w)] Most of the terms are 1.
+%e A049586 n = 9: a(9) = GCD[10-Phi(10), 9-Phi(9)] = GCD[6, 3] = 3. n = 10: a(10) = GCD[11-Phi(11), 10-Phi(10)] = GCD[1, 6] = 1
+%Y A049586 Cf. A000010, A051953, A058515.
+%K A049586 nonn
+%O A049586 0,9
+%A A049586 _Labos Elemer_, Dec 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002803
+Showing 1-1 of 1
+
+%I A002803 M4980 N2140
+%S A002803 1,15,140,1050,6930,42042,240240,1312740,6928350,35565530,178474296,
+%T A002803 878850700,4259045700,20359174500,96172862400,449608131720,
+%U A002803 2082743551350,9569730173850,43651400793000,197809768856700
+%N A002803 (2n+4)!/(4!n!(n+1)!).
+%D A002803 C. Jordan, Calculus of Finite Differences. Budapest, 1939, p. 449.
+%D A002803 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002803 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002803 Walsh, T. R. S.; Lehman, A. B.; Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%H A002803 T. D. Noe, <a href="/A002803/b002803.txt">Table of n, a(n) for n = 0..200</a>
+%F A002803 G.f.: 2F1(5/2,3;2;4x) =(1+x)/(1-4x)^(7/2). - _R. J. Mathar_, Aug 09 2015
+%F A002803 a(n) = A020918(n)+A020918(n-1). - _R. J. Mathar_, Aug 09 2015
+%p A002803 seq(binomial(2*i,i)*binomial(i,i-2)*i/12, i=2..21); # _Zerinvary Lajos_, Jan 06 2007
+%t A002803 Table[(2*n+4)!/(4!*n!*(n+1)!), {n, 0, 20}] (* _Vladimir Joseph Stephan Orlovsky_, Dec 13 2008 *)
+%Y A002803 Cf. A020918.
+%K A002803 nonn,easy
+%O A002803 0,2
+%A A002803 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

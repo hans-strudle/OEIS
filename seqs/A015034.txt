@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015034
+Showing 1-1 of 1
+
+%I A015034
+%S A015034 1,1,17,4433,18245201,1197172898385,1255709588423576145,
+%T A015034 21068918017101222558779985,5655752483351603939678821837720145,
+%U A015034 24291387778773301588924456932322615789898321
+%N A015034 q-Catalan numbers (binomial version) for q=4.
+%F A015034 {1 / (n+1)_q} {2 n choose n}_q.
+%K A015034 nonn,easy
+%O A015034 0,3
+%A A015034 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

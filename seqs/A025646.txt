@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025646
+Showing 1-1 of 1
+
+%I A025646
+%S A025646 0,1,0,2,1,0,3,2,1,0,4,3,2,1,0,5,4,3,2,1,0,6,5,4,3,2,1,0,7,6,5,4,3,2,
+%T A025646 1,8,0,7,6,5,4,3,2,9,1,8,0,7,6,5,4,3,10,2,9,1,8,0,7,6,5,4,11,3,10,2,9,
+%U A025646 1,8,0,7,6,5,12,4,11,3,10,2,9,1,8,0,7,6,13,5,12,4,11,3,10,2,9,1,8,0,7,14,6,13
+%N A025646 Exponent of 4 (value of i) in n-th number of form 4^i*5^j.
+%Y A025646 Differs from A025661 at a(1881).
+%K A025646 nonn
+%O A025646 1,4
+%A A025646 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

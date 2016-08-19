@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022223
+Showing 1-1 of 1
+
+%I A022223
+%S A022223 1,9331,74630671,583026951031,4537117983992551,35285166561510069127,
+%T A022223 274383335413146060060487,2133612436978999661759040967,
+%U A022223 16590980186519640252690843276487,129011474730413928552335877184470727
+%N A022223 Gaussian binomial coefficients [ n,5 ] for q = 6.
+%D A022223 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%o A022223 (Sage) [gaussian_binomial(n,5,6) for n in xrange(5,15)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A022223 nonn
+%O A022223 0,2
+%A A022223 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

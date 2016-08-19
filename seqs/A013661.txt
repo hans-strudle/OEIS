@@ -1,0 +1,79 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013661
+Showing 1-1 of 1
+
+%I A013661
+%S A013661 1,6,4,4,9,3,4,0,6,6,8,4,8,2,2,6,4,3,6,4,7,2,4,1,5,1,6,6,6,4,6,0,2,5,
+%T A013661 1,8,9,2,1,8,9,4,9,9,0,1,2,0,6,7,9,8,4,3,7,7,3,5,5,5,8,2,2,9,3,7,0,0,
+%U A013661 0,7,4,7,0,4,0,3,2,0,0,8,7,3,8,3,3,6,2,8,9,0,0,6,1,9,7,5,8,7,0
+%N A013661 Decimal expansion of zeta(2) = Pi^2/6.
+%C A013661 Sum_{m = 1..inf } 1/m^2.
+%C A013661 "In 1736 he [Leonard Euler, 1707-1783] discovered the limit to the infinite series, Sum 1/n^2. He did it by doing some rather ingenious mathematics using trigonometric functions that proved the series summed to exactly Pi^2/6. How can this be? ... This demonstrates one of the most startling characteristics of mathematics - the interconnectedness of, seemingly, unrelated ideas." - Clawson
+%C A013661 Also dilogarithm(1). - _Rick L. Shepherd_, Jul 21 2004
+%C A013661 Also Integral_{x=0..inf} x/(exp(x)-1).
+%C A013661 For the partial sums see the fractional sequence A007406/A007407.
+%C A013661 Pi^2/6 is also the length of the circumference of a circle whose diameter equals the ratio of volume of an ellipsoid to the circumscribed cuboid. Pi^2/6 is also the length of the circumference of a circle whose diameter equals the ratio of surface area of a sphere to the circumscribed cube. - _Omar E. Pol_, Oct 07 2011
+%C A013661 1 < n^2/(eulerphi(n)*sigma(n)) < zeta(2) for n > 1. - _Arkadiusz Wesolowski_, Sep 04 2012
+%C A013661 Volume of a sphere inscribed in a cube of volume Pi. More generally Pi^x/6 is the volume of an ellipsoid inscribed in a cuboid of volume Pi^(x-1). - _Omar E. Pol_, Feb 17 2016
+%C A013661 Surface area of a sphere inscribed in a cube of surface area Pi. More generally Pi^x/6 is the surface area of a sphere inscribed in a cube of surface area Pi^(x-1). - _Omar E. Pol_, Feb 19 2016
+%D A013661 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 811.
+%D A013661 Calvin C. Clawson, Mathematical Mysteries, The Beauty and Magic of Numbers, Perseus Books, 1996, p. 97.
+%D A013661 W. Dunham, Euler: The Master of Us All, The Mathematical Association of America, Washington, D.C., 1999, p. xxii.
+%D A013661 G. F. Simmons, Calculus Gems, Section B.15,B.24 pp. 270-1,323-5 McGraw Hill 1992.
+%D A013661 A. Weil, Number theory: an approach through history; from Hammurapi to Legendre, Birkhaeuser, Boston, 1984; see p. 261.
+%D A013661 David Wells, The Penguin Dictionary of Curious and Interesting Numbers, Revised Edition, Penguin Books, London, England, 1997, page 23.
+%H A013661 Harry J. Smith, <a href="/A013661/b013661.txt">Table of n, a(n) for n = 1..20000</a>
+%H A013661 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A013661 D. H. Bailey, J. M. Borwein and D. M. Bradley, <a href="http://arXiv.org/abs/math.CA/0505270">Experimental determination of Ap'ery-like identities for zeta(4n+2)</a>, arXiv:math/0505270 [math.NT], 2005-2006.
+%H A013661 P. Bala, <a href="/A002117/a002117.pdf">New series for old functions</a>
+%H A013661 David Benko and John Molokach, <a href="http://www.jstor.org/stable/10.4169/college.math.j.44.3.171">The Basel Problem as a Rearrangement of Series</a>, The College Mathematics Journal, Vol. 44, No. 3 (May 2013), pp. 171-176.
+%H A013661 R. Calinger, <a href="http://dx.doi.org/10.1006/hmat.1996.0015">Leonard Euler: The First St. Petersburg Years (1727-1741)</a>, Historia Mathematica, Vol. 23, 1996, pp. 121-166.
+%H A013661 R. Chapman, <a href="http://www.maths.ex.ac.uk/~rjc/etc/zeta2.pdf">Evaluating Zeta(2):14 Proofs to Zeta(2)= (pi)^2/6</a>
+%H A013661 R. W. Clickery, <a href="http://www.cacr.caltech.edu/~roy/upi/coprime.html">Probability of two numbers being coprime</a> [Broken link]
+%H A013661 L. Euler, <a href="http://arXiv.org/abs/math.HO/0506415">On the sums of series of reciprocals</a>, arXiv:math/0506415 [math.HO], 2005-2008.
+%H A013661 L. Euler, <a href="http://www.eulerarchive.org">De summis serierum reciprocarum</a>, E41.
+%H A013661 Michael D. Hirschhorn, <a href="http://dx.doi.org/10.1007/s00283-011-9217-4">A simple proof that zeta(2) = Pi^2/6</a>, The Mathematical Intelligencer 33:3 (2011), pp 81-82.
+%H A013661 Math. Reference Project, <a href="http://www.mathreference.com/lc-z,zeta2.html">The Zeta Function, Zeta(2)</a>
+%H A013661 Math. Reference Project, <a href="http://www.mathreference.com/lc-z,cop.html">The Zeta Function, Odds That Two Numbers Are Coprime"</a>
+%H A013661 R. Mestrovic, <a href="http://arxiv.org/abs/1202.3670">Euclid's theorem on the infinitude of primes: a historical survey of its proofs (300 BC--2012) and another new proof</a>, arXiv preprint arXiv:1202.3670, 2012.
+%H A013661 J. Perry, <a href="http://www.users.globalnet.co.uk/~perry/maths/paradox/paradox.htm">Prime Product Paradox</a> [White page?]
+%H A013661 Simon Plouffe, Plouffe's Inverter, <a href="http://www.plouffe.fr/simon/constants/zeta2.txt">Zeta(2) or Pi**2/6 to 100000 digits</a>
+%H A013661 Simon Plouffe, <a href="http://www.worldwideschool.org/library/books/sci/math/MiscellaneousMathematicalConstants/chap96.html">Zeta(2) or Pi**2/6 to 10000 places</a>
+%H A013661 A. L. Robledo, PlanetMath.org, <a href="http://planetmath.org/encyclopedia/ValueOfTheRiemannZetaFunctionAtS2.html">value of the Riemann zeta function at s=2</a>
+%H A013661 E. Sandifer, How Euler Did It, <a href="http://www.maa.org/editorial/euler/How%20Euler%20Did%20It%2002%20Estimating%20the%20Basel%20Problem.pdf">Estimating the Basel Problem</a>
+%H A013661 E. Sandifer, How Euler Did It, <a href="http://www.maa.org/editorial/euler/How%20Euler%20Did%20It%2005%20Basel%20with%20integrals.pdf">Basel Problem with Integrals</a>
+%H A013661 C. Tooth, <a href="http://www.pisquaredoversix.force9.co.uk">Pi squared over six</a>
+%H A013661 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RiemannZetaFunctionZeta2.html">Riemann Zeta Function 2</a>
+%H A013661 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Dilogarithm.html">Dilogarithm MathWorld page</a>
+%H A013661 H. Wilf, <a href="http://www.dmtcs.org/volumes/abstracts/dm030406.abs.html">Accelerated series for universal constants, by the WZ method</a>
+%H A013661 <a href="/index/Z#zeta_function">Index entries for zeta function</a>.
+%F A013661 Lim_(n->inf) of (1/n)*(Sum_{k=1..n} frac((n/k)^(1/2))) = zeta(2) and in general we have Lim_{n->infinity} (1/n)*(Sum_{k=1..n} frac((n/k)^(1/m))) = zeta(m), m >= 2. - _Yalcin Aktar_, Jul 14 2005
+%F A013661 Equals Integral_{x=0..1} (log(x)/(x-1)) dx or Integral_{x>=1} (log(x/(x-1))/x) dx. - _Jean-François Alcover_, May 30 2013
+%F A013661 From _Peter Bala_, Dec 01 2013: (Start)
+%F A013661 Lim_{n->inf} Sum_{k=1..n-1} (log(n) - log(k))/(n - k).
+%F A013661 Also integral_{x=0..1} z^(z^(z^(...))) dx, where z = x^(-x). (End)
+%F A013661 From _Peter Bala_, Dec 10 2013: (Start)
+%F A013661 zeta(2) = (16/9)*Sum_{n even} n^2*(n^2 + 1)/(n^2 - 1)^3.
+%F A013661 zeta(2) = 3*Sum_{n >= 1} (20*n^2 - 8*n + 1)/( ((2*n)*(2*n - 1))^2*C(4*n,2*n) ).
+%F A013661 zeta(2) = 3*Sum_{n >= 1} (1701*n^4 - 1944*n^3 + 729*n^2 - 96*n + 4)/( ((3*n)*(3*n - 1)*(3*n - 2))^2*C(6*n,3*n) ) (Bala, Section 6).
+%F A013661 See A108625 for series and continued fraction expansions for zeta(2) associated with the crystal ball sequences for the A_n lattice. See also A142995 and A142999. (End)
+%F A013661 For s >= 2 (including Complex), zeta(s) = product {n >= 1} prime(n)^s/(prime(n)^s - 1). - _Fred Daniel Kline_, Apr 10 2014
+%F A013661 Also equals 1 + Sum_{n>=0} (-1)^n*StieltjesGamma(n)/n!. - _Jean-François Alcover_, May 07 2014
+%F A013661 zeta(2) = Sum_{n>=1} ((floor(sqrt(n)) - floor(sqrt(n-1)))/n). - _Mikael Aaltonen_, Jan 10 2015
+%F A013661 zeta(2) = Sum_{n>=1} (((sqrt(5)-1)/2/sqrt(5))^n/n^2)+ Sum_{n>=1} (((sqrt(5)+1)/2/sqrt(5))^n/ n^2) + log((sqrt(5)-1)/2/sqrt(5))log((sqrt(5)+1)/2/sqrt(5)). - _Seiichi Kirikami_, Oct 14 2015
+%F A013661 The above formula can also be written zeta(2) = dilog(x) + dilog(y) + log(x)*log(y) where x = (1-1/sqrt(5))/2 and y=(1+1/sqrt(5))/2. - _Peter Luschny_, Oct 16 2015
+%e A013661 1.6449340668482264364724151666460251892189499012067984377355582293700074704032...
+%t A013661 RealDigits[N[Pi^2/6, 100]][[1]]
+%o A013661 (PARI) \p 200; Pi^2/6
+%o A013661 (PARI) \p 200 dilog(1) \p 200 zeta(2)
+%o A013661 (PARI) a(n)=if(n<1,0,default(realprecision,n+2); floor(Pi^2/6*10^(n-1))%10)
+%o A013661 (PARI) { default(realprecision, 20080); x=Pi^2/6; for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b013661.txt", n, " ", d)); } \\ _Harry J. Smith_, Apr 29 2009
+%o A013661 (Maxima) fpprec : 100$ ev(bfloat(zeta(2)))$ bfloat(%); /* _Martin Ettl_, Oct 21 2012 */
+%o A013661 (MAGMA) pi:=Pi(RealField(110)); Reverse(Intseq(Floor(10^105*pi^2/6))); // _Vincenzo Librandi_, Oct 13 2015
+%Y A013661 Cf. A013679, A013631, A013680, 1/A059956, A108625, A142995, A142999.
+%K A013661 cons,nonn,nice
+%O A013661 1,2
+%A A013661 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

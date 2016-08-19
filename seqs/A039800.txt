@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039800
+Showing 1-1 of 1
+
+%I A039800
+%S A039800 1,1,0,1,0,0,1,1,0,0,1,1,2,2,1,0,1,2,3,4,5,5,5,4,3,1,2,5,
+%T A039800 8,11,14,17,18,20,20,20,18,16,11,8,0,6,15,23,34,43,54,63,73,
+%U A039800 81,88,95,98,101,99,99,89,86,70,59,39,26,8,26,65
+%V A039800 1,-1,0,1,0,0,-1,-1,0,0,1,1,2,2,1,0,-1,-2,-3,-4,-5,-5,-5,-4,-3,-1,2,5,
+%W A039800 8,11,14,17,18,20,20,20,18,16,11,8,0,-6,-15,-23,-34,-43,-54,-63,-73,
+%X A039800 -81,-88,-95,-98,-101,-99,-99,-89,-86,-70,-59,-39,-26,8,26,65
+%N A039800 Column 1 of Inverse partition triangle A038498.
+%Y A039800 A039801-A039804.
+%K A039800 sign
+%O A039800 1,13
+%A A039800 _Christian G. Bower_, Feb 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

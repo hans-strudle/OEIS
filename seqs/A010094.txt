@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010094
+Showing 1-1 of 1
+
+%I A010094
+%S A010094 1,1,1,1,2,2,1,5,5,4,2,16,16,14,10,5,61,61,56,46,32,16,272,272,256,
+%T A010094 224,178,122,61,1385,1385,1324,1202,1024,800,544,272,7936,7936,7664,
+%U A010094 7120,6320,5296,4094,2770,1385,50521,50521,49136,46366,42272,36976,30656,23536,15872,7936,353792
+%N A010094 Triangle of Euler-Bernoulli or Entringer numbers.
+%D A010094 B. Bauslaugh and F. Ruskey, Generating alternating permutations lexicographically, Nordisk Tidskr. Informationsbehandling (BIT) 30 16-26 1990.
+%D A010094 R. C. Entringer, A combinatorial interpretation of the Euler and Bernoulli numbers, Nieuw Archief voor Wiskunde, 14 (1966), 241-246.
+%D A010094 C. Poupard, De nouvelles significations enumeratives des nombres d'Entringer, Discrete Math., 38 (1982), 265-271.
+%H A010094 Vincenzo Librandi, <a href="/A010094/b010094.txt">Rows n = 0..100, flattened</a>
+%H A010094 D. Foata and G.-N. Han, <a href="http://arxiv.org/abs/1304.2485">Secant Tree Calculus</a>, arXiv preprint arXiv:1304.2485, 2013
+%H A010094 Dominique Foata and Guo-Niu Han, <a href="http://www-irma.u-strasbg.fr/~foata/paper/pub123Seidel.pdf">Seidel Triangle Sequences and Bi-Entringer Numbers</a>, November 20, 2013.
+%H A010094 M. Josuat-Verges, J.-C. Novelli and J.-Y. Thibon, <a href="http://arxiv.org/abs/1110.5272">The algebraic combinatorics of snakes</a>, arXiv preprint arXiv:1110.5272, 2011
+%H A010094 J. Millar, N. J. A. Sloane and N. E. Young, A new operation on sequences: the Boustrophedon on transform, J. Combin. Theory, 17A 44-54 1996 (<a href="http://neilsloane.com/doc/bous.txt">Abstract</a>, <a href="http://neilsloane.com/doc/bous.pdf">pdf</a>, <a href="http://neilsloane.com/doc/bous.ps">ps</a>).
+%e A010094 Triangle begins:
+%e A010094     1;
+%e A010094     1,    1;
+%e A010094     1,    2,    2;
+%e A010094     1,    5,    5,    4;
+%e A010094     2,   16,   16,   14,   10;
+%e A010094     5,   61,   61,   56,   46,   32;
+%e A010094    16,  272,  272,  256,  224,  178,  122;
+%e A010094    61, 1385, 1385, 1324, 1202, 1024,  800,  544;
+%e A010094   272, 7936, 7936, 7664, 7120, 6320, 5296, 4094, 2770; etc.
+%e A010094   - _Vincenzo Librandi_, Aug 13 2013
+%t A010094 e[0, 0] = 1; e[_, 0] = 0; e[n_, k_] := e[n, k] = e[n, k-1] + e[n-1, n-k]; Join[{1}, Table[e[n, k], {n, 0, 11}, {k, n, 1, -1}] // Flatten] (* _Jean-François Alcover_, Aug 13 2013 *)
+%Y A010094 Cf. A008282.
+%K A010094 nonn,tabl,easy,nice
+%O A010094 0,5
+%A A010094 _N. J. A. Sloane_
+%E A010094 More terms from Will Root (crosswind(AT)bright.net), Oct 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

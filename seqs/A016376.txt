@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016376
+Showing 1-1 of 1
+
+%I A016376
+%S A016376 1,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,0,0,
+%T A016376 0,0,0,0,1,1,0,1,1,0,0,0,0,0,1,1,0,1,1,0,1,1,0,0,0,0,0,1,1,0,1,
+%U A016376 1,0,1,1,0,0,1,1,0,1,1,0,1,1,0,1,1,0
+%V A016376 1,-1,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,0,0,0,
+%W A016376 0,0,0,0,1,-1,0,1,-1,0,0,0,0,0,1,-1,0,1,-1,0,1,-1,0,0,0,0,0,1,-1,0,1,
+%X A016376 -1,0,1,-1,0,0,1,-1,0,1,-1,0,1,-1,0,1,-1,0
+%N A016376 299th cyclotomic polynomial.
+%H A016376 Harvey P. Dale, <a href="/A016376/b016376.txt">Table of n, a(n) for n = 0..264</a>
+%t A016376 CoefficientList[Cyclotomic[299,x],x] (* _Harvey P. Dale_, Apr 11 2013 *)
+%K A016376 sign,fini
+%O A016376 0,1
+%A A016376 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

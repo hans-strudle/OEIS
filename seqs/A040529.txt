@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040529
+Showing 1-1 of 1
+
+%I A040529
+%S A040529 23,1,1,15,5,1,4,2,1,1,3,1,2,6,2,1,3,1,1,2,4,1,5,15,1,1,46,1,1,15,5,1,
+%T A040529 4,2,1,1,3,1,2,6,2,1,3,1,1,2,4,1,5,15,1,1,46,1,1,15,5,1,4,2,1,1,3,1,2,
+%U A040529 6,2,1,3,1,1,2,4,1,5,15,1,1,46,1,1,15,5,1,4,2,1,1
+%N A040529 Continued fraction for sqrt(553).
+%H A040529 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040529 with(numtheory): Digits := 300: convert(evalf(sqrt(553)),confrac);
+%K A040529 nonn,cofr,easy,less
+%O A040529 0,1
+%A A040529 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

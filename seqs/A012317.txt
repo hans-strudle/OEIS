@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012317
+Showing 1-1 of 1
+
+%I A012317
+%S A012317 1,2,5,20,133,1070,10705,125512,1717321,26518138,459336605,8787628060,
+%T A012317 184388779469,4205082557286,103631769297641,2743399950572304,
+%U A012317 77654985344871313,2340183966373322610
+%N A012317 arcsin(arcsin(x)*exp(x))=x+2/2!*x^2+5/3!*x^3+20/4!*x^4+133/5!*x^5...
+%K A012317 nonn
+%O A012317 0,2
+%A A012317 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015767
+Showing 1-1 of 1
+
+%I A015767
+%S A015767 1,2,3,6,12,14,15,30,35,38,42,54,56,70,78,87,95,105,114,126,135,140,
+%T A015767 147,168,174,182,190,209,210,215,216,222,248,258,264,266,270,285,294,
+%U A015767 297,315,342,357,378,418,420,430,447,455,456,494,518,540,546
+%N A015767 Phi(n) | Sigma_9(n).
+%C A015767 sigma_9(n) is the sum of the 9th powers of the divisors of n.
+%K A015767 nonn
+%O A015767 0,2
+%A A015767 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

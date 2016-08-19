@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005828
+Showing 1-1 of 1
+
+%I A005828 M3642
+%S A005828 4,31,1921,7380481,108942999582721,23737154316161495960243527681,
+%T A005828 1126904990058528673830897031906808442930637286502826475521
+%N A005828 a(n) = 2 a(n-1)^2 - 1.
+%C A005828 An infinite coprime sequence defined by recursion. - _Michael Somos_, Mar 14 2004
+%D A005828 Jeffrey Shallit, personal communication.
+%D A005828 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005828 Anonymous, <a href="http://www-maths.swan.ac.uk/pgrads/bb/project/node28.html">Fermat's rule for 3-fold perfect numbers</a>
+%F A005828 From _Peter Bala_, Nov 11 2012, (Start)
+%F A005828 a(n) = 1/2*{(4 + sqrt(15))^(2^n) + (4 - sqrt(15))^(2^n)}.
+%F A005828 2*sqrt(15)/9 = product {n = 0..inf} (1 - 1/(2*a(n))).
+%F A005828 sqrt(5/3) = product {n = 0..inf} (1 + 1/a(n)).
+%F A005828 See A002812 for general properties of the recurrence a(n+1) = 2*a(n)^2 - 1.
+%F A005828 (end)
+%o A005828 (PARI) a(n)=if(n<1,4*(n==0),2*a(n-1)^2-1)
+%o A005828 (PARI) a(n)=if(n<0,0,subst(poltchebi(2^n),x,4))
+%Y A005828 A001091(2^n)=a(n). A002812.
+%K A005828 nonn,easy
+%O A005828 0,1
+%A A005828 _Jeffrey Shallit_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

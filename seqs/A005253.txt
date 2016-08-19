@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005253
+Showing 1-1 of 1
+
+%I A005253 M1044
+%S A005253 1,1,1,1,2,4,7,11,16,23,34,52,81,126,194,296,450,685,1046,1601,2452,
+%T A005253 3753,5739,8771,13404,20489,31327,47904,73252,112004,171245,261813,
+%U A005253 400285
+%N A005253 Number of binary words not containing ..01110...
+%D A005253 R. Austin and R. K. Guy, Binary sequences without isolated ones, Fib. Quart., 16 (1978), 84-86.
+%D A005253 V. C. Harris, C. C. Styles, A generalization of Fibonacci numbers, Fib. Quart. 2 (1964) 277-289, sequence u(n,3,2).
+%D A005253 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005253 Russ Chamberlain, Sam Ginsburg and Chi Zhang, <a href="http://digital.library.wisc.edu/1793/61870">Generating Functions and Wilf-equivalence on Theta_k-embeddings</a>, University of Wisconsin, April 2012.
+%H A005253 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005253 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005253 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=425">Encyclopedia of Combinatorial Structures 425</a>
+%H A005253 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1,0,0,1).
+%F A005253 G.f. : (1-x+x^4)/(1-2x+x^2-x^5). _Simon Plouffe_ in his 1992 dissertation.
+%F A005253 a(n-1)=sum{k=0..floor(n/5), binomial(n-3k, 2k)}. - _Paul Barry_, Sep 16 2004
+%K A005253 nonn,easy
+%O A005253 0,5
+%A A005253 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

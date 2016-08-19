@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033153
+Showing 1-1 of 1
+
+%I A033153
+%S A033153 1,2,4,8,11,14,29,372,559,1671
+%N A033153 Incrementally largest terms in the continued fraction for Niven's constant.
+%D A033153 Niven, I. ``Averages of Exponents in Factoring Integers.'' Proc. Amer. Math. Soc. 22, 356-360, 1969
+%H A033153 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/NivensConstant.html">Niven's Constant.</a>
+%Y A033153 Cf. A033150, A033151, A033152, A000010.
+%K A033153 nonn,cofr
+%O A033153 1,2
+%A A033153 _Eric W. Weisstein_
+%E A033153 One more term from Michel ten Voorde (seqfan(AT)tenvoorde.org) Jun 14 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

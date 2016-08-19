@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000642
+Showing 1-1 of 1
+
+%I A000642 M0839 N0318
+%S A000642 0,1,1,2,3,7,14,32,72,171,405,989,2426,6045,15167,38422,97925,251275,
+%T A000642 648061,1679869,4372872,11428365,29972078,78859809,208094977,
+%U A000642 550603722,1460457242,3882682803,10344102122,27612603765,73844151259,197818389539
+%N A000642 Number of alkyl derivatives of acetylene X^{II} C_n H_{2n+2} with n carbon atoms.
+%C A000642 Number of structural isomers of alkynes C_n H_{2n-2} with n carbon atoms.
+%D A000642 D. D. Coffman, C. M. Blair and H. R. Henze, The number of structurally isomeric hydrocarbons of the acetylene series, J. Amer. Chem. Soc., 55 (1933), 252-253.
+%D A000642 J. L. Faulon, D. Visco and D. Roe, Enumerating Molecules, In: Reviews in Computational Chemistry Vol. 21, Ed. K. Lipkowitz, Wiley-VCH, 2005.
+%D A000642 G. Polya, Algebraische Berechnung der Anzahl der Isomeren einiger organischer Verbindungen, Zeit. f. Kristall., 93 (1936), 415-443; line 8 of Table I, "R" of Table IV.
+%D A000642 R. C. Read, Some recent results in chemical enumeration, Lect. Notes Math. 303 (1972), 243-259.
+%D A000642 R. C. Read, The Enumeration of Acyclic Chemical Compounds, pp. 25-61 of A. T. Balaban, ed., Chemical Applications of Graph Theory, Ac. Press, 1976; see p. 28.
+%D A000642 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000642 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000642 N. Trinajstich, Z. Jerievi, J. V. Knop, W. R. Muller and K. Szymanski, COMPUTER GENERATION OF ISOMERIC STRUCTURES, Pure & Appl. Chem., Vol. 55, No. 2, pp. 379-39O, 1983.
+%H A000642 T. D. Noe, <a href="/A000642/b000642.txt">Table of n, a(n) for n=0..200</a>
+%F A000642 G.f.: A(x)=(1/2)*x*(B(x^2)+B(x)^2), where B(x) = g.f. for A000598.
+%t A000642 max = 31; B[x_] := Sum[b[k]*x^k, {k, 0, max}]; b[0] = b[1] = b[2] = 1; fb[x_] := B[x] - (1 + (1/6)*x*(B[x]^3 + 3*B[x]*B[x^2] + 2*B[x^3])); A[x_] := Sum[a[k]*x^k, {k, 0, max}]; a[0] = 0; a[1] = a[2] = 1; fa[x_] := A[x] - (1/2)*x*(B[x^2] + B[x]^2); solb = SolveAlways[ Normal[ Series[ fb[x], {x, 0, max}]] == 0, x]; sola = SolveAlways[ Normal[ Series[ fa[x] /. First[solb], {x, 0, max}]] == 0, x]; Table[a[k], {k, 0, max}] /. First[sola] (* _Jean-François Alcover_, Jun 28 2012, from g.f. *)
+%K A000642 nonn,easy,nice
+%O A000642 0,4
+%A A000642 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

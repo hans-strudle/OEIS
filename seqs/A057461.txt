@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057461
+Showing 1-1 of 1
+
+%I A057461
+%S A057461 1,2,4,5,6,7,10,12,17,18,20,25,28,31,41,52,66,130,151,180,196,503,650,
+%T A057461 761,986,1391,1596,2047,2700,4098,6172,6431,6730,8425,10162,11410,
+%U A057461 12071,13151,14636,17377,18023,30594,32770,65538,77047,81858
+%N A057461 Numbers n such that x^n + x^3 + 1 is irreducible over GF(2).
+%C A057461 Next term is > 10^5. [_Joerg Arndt_, Apr 28 2012]
+%H A057461 Joerg Arndt, <a href="http://www.jjj.de/fxt/#fxtbook">Matters Computational (The Fxtbook)</a>, section 40.9.3 "Irreducible trinomials of the form 1 + x^k + x^d", p.850
+%t A057461 Do[ If[ ToString[ Factor[ x^n + x^3 + 1, Modulus -> 2 ] ] == ToString[ x^n + x^3 + 1 ], Print[ n ] ], {n, 0, 750} ]
+%o A057461 (PARI)
+%o A057461 for (n=1,5000, if ( polisirreducible(Mod(1,2)*(x^n+x^3+1)), print1(n,", ") ) );
+%o A057461 /* Joerg Arndt, Apr 28 2012 */
+%o A057461 (Sage)
+%o A057461 P.<x> = GF(2)[]
+%o A057461 for n in range(10^4):
+%o A057461     if (x^n+x^3+1).is_irreducible():
+%o A057461         print(n) # _Joerg Arndt_, Apr 28 2012
+%Y A057461 Cf. A002475.
+%K A057461 nonn,hard
+%O A057461 1,2
+%A A057461 _Robert G. Wilson v_, Sep 27 2000
+%E A057461 a(24) - a(29) from _Robert G. Wilson v_, Aug 06 2010
+%E A057461 Terms >= 4098 by _Joerg Arndt_, Apr 28 2012.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

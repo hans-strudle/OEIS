@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045660
+Showing 1-1 of 1
+
+%I A045660
+%S A045660 0,0,0,12,32,120,300,784,1824,4296,9720,21824,47852,104832,226576,
+%T A045660 487392,1042208,2219520,4703880,9942016,20940152,43995544,92206400,
+%U A045660 192843776,402500844,838655520,1744509312,3623427624,7515501648
+%N A045660 2n-bead balanced binary strings, rotationally equivalent to reversed complement, inequivalent to reverse and complement.
+%K A045660 nonn
+%O A045660 0,4
+%A A045660 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

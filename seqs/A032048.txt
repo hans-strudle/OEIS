@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032048
+Showing 1-1 of 1
+
+%I A032048
+%S A032048 1,1,1,2,3,6,13,29,64,148,355,857,2100,5198,12960,32701,82826,211352,
+%T A032048 541832,1397654,3614607,9402256,24500619,64134061,168178732,442710004,
+%U A032048 1166705391,3085691999,8168951368,21689446136
+%N A032048 Number of dyslexic rooted planar trees with n nodes where any 2 subtrees extending from a node are of different sizes.
+%H A032048 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032048 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032048 "CFK" (necklace, size, unlabeled) transform of A032048 (shifted right one place).
+%K A032048 nonn
+%O A032048 1,4
+%A A032048 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

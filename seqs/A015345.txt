@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015345
+Showing 1-1 of 1
+
+%I A015345
+%S A015345 1,239945,69088371619,19251196169490725,5393264335151280477835,
+%T A015345 1509574711680960125598763925,422593364163884169440003098013995,
+%U A015345 118298673397216914972187267242547690325,33116077152651051199781730118147946460139435
+%V A015345 1,-239945,69088371619,-19251196169490725,5393264335151280477835,
+%W A015345 -1509574711680960125598763925,422593364163884169440003098013995,
+%X A015345 -118298673397216914972187267242547690325,33116077152651051199781730118147946460139435
+%N A015345 Gaussian binomial coefficient [ n,7 ] for q=-6.
+%D A015345 J. Goldman and G.-C. Rota, The number of subspaces of a vector space, pp. 75-83 of W. T. Tutte, editor, Recent Progress in Combinatorics. Academic Press, NY, 1969.
+%D A015345 I. P. Goulden and D. M. Jackson, Combinatorial Enumeration. Wiley, NY, 1983, p, 99.
+%D A015345 M. Sved, Gaussians and binomials, Ars. Combinatoria, 17A (1984), 325-351.
+%H A015345 Vincenzo Librandi, <a href="/A015345/b015345.txt">Table of n, a(n) for n = 7..190</a>
+%t A015345 Table[QBinomial[n, 7, -6], {n, 7, 20}] (* _Vincenzo Librandi_, Nov 02 2012 *)
+%o A015345 (Sage) [gaussian_binomial(n,7,-6) for n in xrange(7,15)] # [From _Zerinvary Lajos_, May 27 2009]
+%o A015345 (MAGMA) r:=7; q:=-6; [&*[(1-q^(n-i+1))/(1-q^i): i in [1..r]]: n in [r..15]]; // _Vincenzo Librandi_, Nov 02 2012
+%K A015345 sign,easy
+%O A015345 7,2
+%A A015345 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

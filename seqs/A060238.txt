@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060238
+Showing 1-1 of 1
+
+%I A060238
+%S A060238 1,2,12,48,960,11520,483840,3870720,69672960,2786918400,
+%T A060238 306561024000,7357464576000,1147764473856000,96412215803904000,
+%U A060238 11569465896468480000,185111454343495680000,50350315581430824960000,1812611360931509698560000
+%V A060238 1,-2,12,-48,960,11520,-483840,3870720,-69672960,-2786918400,
+%W A060238 306561024000,7357464576000,-1147764473856000,-96412215803904000,
+%X A060238 -11569465896468480000,185111454343495680000,-50350315581430824960000,-1812611360931509698560000
+%N A060238 det(M) where M is an n X n matrix with M[i,j]=lcm(i,j).
+%H A060238 Enrique Pérez Herrero, <a href="/A060238/b060238.txt">Table of n, a(n) for n = 1..200</a>
+%F A060238 For n >= 2 a(n) = n! * product(j=2, ..., n)(product(p|j)(1-p)) (where the second product is over all primes p that divide j) [Cf. A023900] - Avi Peretz (njk(AT)netvision.net.il), Mar 22 2001
+%F A060238 a(n)=n!*prod(p<n,(1-p)^floor(n/p)) where the product runs through the primes. - _Benoit Cloitre_, Jan 31 2008
+%F A060238 a(n)=A000142(n)*A085542(n) [From _Enrique Pérez Herrero_, Jun 08 2010]
+%t A060238 A060238 [n_]:=n!*Product[(1 - Prime[i])^Floor[n/Prime[i]], {i, 1, PrimePi[n]}]; [From _Enrique Pérez Herrero_, Jun 08 2010]
+%o A060238 (PARI) a(n)=n!*prod(p=1,sqrtint(n),if(isprime(p),(1-p)^floor(n/p),1)) - _Benoit Cloitre_, Jan 31 2008
+%Y A060238 Cf. A001088, A060239.
+%K A060238 sign
+%O A060238 1,2
+%A A060238 MCKAY john (mckay(AT)cs.concordia.ca), Mar 21 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

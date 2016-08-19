@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036060
+Showing 1-1 of 1
+
+%I A036060
+%S A036060 0,1,1,2,2,3,7,10,16,27,45,77,133,234,415,746,1354,2480,4580,8519,
+%T A036060 15956,30069,56988,108570,207836,399638,771621,1495580,2909178,
+%U A036060 5677865,11116339,21828157,42670184,84144873,166369603,318733896
+%N A036060 Number of 3-component Carmichael numbers C = (6M+1)(12M+1)(18M+1) < 10^n.
+%C A036060 Note that this is different from the count of 3-Carmichael numbers, A132195. The numbers counted here are neither those listed in A087788 (3 arbitrary prime factors) nor those listed in A033502 (where 6m+1, 12m+1 and 18m+1 are all prime). - _M. F. Hasler_, Apr 14 2015
+%D A036060 Posting by Harvey Dubner (harvey(AT)dubner.com) to Number Theory List (NMBRTHRY(AT)LISTSERV.NODAK.EDU), Nov 23 1998.
+%H A036060 H. Dubner, <a href="http://www.albany.edu/~mark/classes/326/dubner2.html">3-Component Carmichael Numbers-correction</a>
+%H A036060 <a href="/index/Ca#Carmichael">Index entries for sequences related to Carmichael numbers.</a>
+%Y A036060 Cf. A002997, A132195, A087788, A055553, A033502.
+%K A036060 nonn
+%O A036060 3,4
+%A A036060 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

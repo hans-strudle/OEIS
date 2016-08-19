@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020045
+Showing 1-1 of 1
+
+%I A020045
+%S A020045 1,1,1,2,7,30,162,1056,7918,67304,639384,6713531,77205601,965070017,
+%T A020045 13028445232,188912455860,2928143065834,48314360586264,
+%U A020045 845501310259627,15641774239803107,305014597676160594,6252799252361292173
+%N A020045 Nearest integer to GAMMA(n+1/2)/GAMMA(1/2).
+%F A020045 Also nearest integer (where .5 is rounded up) to (2n)!/(n!*2^(2n)) or A001813(n)/A000302(n). - _Gerald McGarvey_, Jan 20 2005
+%p A020045 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%Y A020045 Cf. A001813 A000302.
+%K A020045 nonn
+%O A020045 0,4
+%A A020045 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

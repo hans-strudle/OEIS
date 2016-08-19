@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048730
+Showing 1-1 of 1
+
+%I A048730
+%S A048730 0,0,0,12,0,8,24,28,0,0,16,28,48,56,56,60,0,0,0,12,32,40,56,60,96,96,
+%T A048730 112,124,112,120,120,124,0,0,0,12,0,8,24,28,64,64,80,92,112,120,120,
+%U A048730 124,192,192,192,204,224,232,248
+%N A048730 Differences between A008589 (multiples of 7) and A048727, a(n) = ((n*7)-Xmult(n,7))
+%Y A048730 Positions of zeros are given by A048715. Cf. A048733.
+%Y A048730 Diagonal 7 of A061858.
+%K A048730 nonn
+%O A048730 0,4
+%A A048730 Antti Karttunen, Apr 26 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

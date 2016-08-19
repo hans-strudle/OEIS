@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022640
+Showing 1-1 of 1
+
+%I A022640
+%S A022640 1,12,90,544,2823,13116,55982,222936,838011,2998896,10282986,33959016,
+%T A022640 108458924,336141084,1013801700,2982628712,8577246237,24152726184,
+%U A022640 66699488360,180885417408,482312100000,1265779076680
+%N A022640 Expansion of Product (1+m*q^m)^12; m=1..inf.
+%K A022640 nonn
+%O A022640 0,2
+%A A022640 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

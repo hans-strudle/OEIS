@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020053
+Showing 1-1 of 1
+
+%I A020053
+%S A020053 1,0,1,2,9,46,260,1731,13220,114177,1100259,11702761,136177584,
+%T A020053 1720789475,23465311032,343446825119,5370259447316,89341588987179,
+%U A020053 1575660751228445,29364586727439203,576613703011533457
+%N A020053 Integer part of GAMMA(n+7/11)/GAMMA(7/11).
+%p A020053 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020053 nonn
+%O A020053 0,4
+%A A020053 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

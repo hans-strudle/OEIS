@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057931
+Showing 1-1 of 1
+
+%I A057931
+%S A057931 1,0,1,2,5,11,23,32,47,83,131,239,311,527,731,965
+%V A057931 -1,0,-1,2,5,11,23,32,47,83,131,239,311,527,731,965
+%N A057931 Positions at which powers of 2 occur in A057929. (Or -1 if it does not occur.)
+%Y A057931 Cf. A057929, A057930.
+%K A057931 easy,sign
+%O A057931 0,4
+%A A057931 Larry Reeves (larryr(AT)acm.org), Oct 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

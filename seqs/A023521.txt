@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023521
+Showing 1-1 of 1
+
+%I A023521
+%S A023521 5,9,19,21,73,18,32,111,42,451,196,381,883,108,93,526,266,232,72,2593,
+%T A023521 36,162,1236,98,112,752,55,26,3081,55,4161,1002,9523,135,1616,444,863,
+%U A023521 1368,117,415,266,3464,2642,1908,1172,3504,1312,2538,135
+%N A023521 Sum of distinct prime divisors of p(n)*p(n-1) - 1.
+%F A023521 a(n) = A008472(A023515(n)). - _Michel Marcus_, Sep 30 2013
+%o A023521 (PARI) sopf(n) = my(fac=factor(n)); sum(i=1, matsize(fac)[1], fac[i, 1]) ;
+%o A023521 a(n) = sopf(prime(n)*prime(n-1) - 1); \\ _Michel Marcus_, Sep 30 2013
+%K A023521 nonn
+%O A023521 2,1
+%A A023521 _Clark Kimberling_
+%E A023521 Offset set to 2 and a(1) removed by _Michel Marcus_, Sep 30 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

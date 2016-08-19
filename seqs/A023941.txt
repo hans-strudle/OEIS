@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023941
+Showing 1-1 of 1
+
+%I A023941
+%S A023941 1,0,10668,317952,3747430,24569856,117503960
+%N A023941 Theta series of laminated lattice LAMBDA_19.
+%D A023941 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 174.
+%e A023941 1 + 10668*q^4 + 317952*q^6 + 3747430*q^8 + 24569856*q^10 + 117503960*q^12 + O(q^13)
+%o A023941 (MAGMA) L:=Lattice("Lambda",19); T<q> := ThetaSeries(L,12); T;
+%K A023941 nonn
+%O A023941 0,3
+%A A023941 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

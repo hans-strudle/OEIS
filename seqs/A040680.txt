@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040680
+Showing 1-1 of 1
+
+%I A040680
+%S A040680 26,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1,
+%T A040680 52,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1,
+%U A040680 52,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1,52,1,1,2,3,2,1,1
+%N A040680 Continued fraction for sqrt(707).
+%H A040680 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040680 a(n)=(1/32)*{-195*(n mod 8)+9*[(n+1) mod 8]+13*[(n+2) mod 8]+13*[(n+3) mod 8]+5*[(n+4) mod 8]+5*[(n+5) mod 8]+9*[(n+6) mod 8]+213*[(n+7) mod 8]}-26*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 19 2009]
+%p A040680 with(numtheory): Digits := 300: convert(evalf(sqrt(707)),confrac);
+%K A040680 nonn,cofr,easy
+%O A040680 0,1
+%A A040680 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

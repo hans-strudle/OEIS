@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015583
+Showing 1-1 of 1
+
+%I A015583
+%S A015583 0,1,9,88,855,8311,80784,785233,7632585,74189896,721137159,7009563703,
+%T A015583 68134033440,662273246881,6437397456009,62572489832248,
+%U A015583 608214190682295,5911935144966391,57464915639473584,558567786770026993,5429364490406558025,52774254921049211176
+%N A015583 a(n) = 9 a(n-1) + 7 a(n-2).
+%H A015583 Vincenzo Librandi, <a href="/A015583/b015583.txt">Table of n, a(n) for n = 0..1000</a>
+%H A015583 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (9,7).
+%F A015583 G.f.:1/(1-9*x-7*x^2) . [From _Zerinvary Lajos_, Dec 20 2008]
+%F A015583 a(n)=(1/109)*sqrt(109)*[(9/2)+(1/2)*sqrt(109)]^n-[(9/2)-(1/2)*sqrt(109)]^n, with n>=0 [From _Paolo P. Lava_, Jan 13 2009]
+%t A015583 Join[{a=0,b=1},Table[c=9*b+7*a;a=b;b=c,{n,60}]] (* _Vladimir Joseph Stephan Orlovsky_, Jan 27 2011*)
+%t A015583 LinearRecurrence[{9, 7}, {0, 1}, 30] (* _Vincenzo Librandi_, Nov 15 2012 *)
+%o A015583 (Sage) [lucas_number1(n,9,-7) for n in xrange(0, 19)]# [From _Zerinvary Lajos_, Apr 26 2009]
+%o A015583 (MAGMA) [n le 2 select n-1 else 9*Self(n-1) + 7*Self(n-2): n in [1..30]]; // _Vincenzo Librandi_, Nov 15 2012
+%Y A015583 Cf. A015579, A099371.
+%K A015583 nonn,easy
+%O A015583 0,3
+%A A015583 _Olivier Gérard_
+%E A015583 Extended by _T. D. Noe_, May 23 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

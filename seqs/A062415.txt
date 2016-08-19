@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062415
+Showing 1-1 of 1
+
+%I A062415
+%S A062415 1,0,1,2,6,18,54,168,543,1819,6284,22305,81085,301185,1140759,4398268,
+%T A062415 17237268,68582448,276723505,1131245762,4681484414,19597666672,
+%U A062415 82933899715,354575503930,1530739734801,6669583434025,29316248173094
+%N A062415 Integer part of log(n)^(n - 1).
+%t A062415 Floor[Log[n]^((1 - 1/n)*n)]
+%Y A062415 Cf. A062416.
+%K A062415 nonn,easy
+%O A062415 1,4
+%A A062415 _Olivier Gérard_, Jun 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

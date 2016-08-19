@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059201
+Showing 1-1 of 1
+
+%I A059201
+%S A059201 1,1,4,96,31692,2147001636,9223371991763269704,
+%T A059201 170141183460469231473432887375376674952,
+%U A059201 57896044618658097711785492504343953920509909728243389682424010192567186540224
+%N A059201 Number of T_0-covers of a labeled n-set.
+%C A059201 A cover of a set is a T_0-cover if for every two distinct points of the set there exists a member (block) of the cover containing one but not the other point.
+%H A059201 Vladeta Jovovic, <a href="/A059201/a059201.pdf">T_0-covers of a labeled 3-set</a>
+%F A059201 a(n)=Sum_{i=0..n+1} stirling1(n+1, i)*2^(2^(i-1)-1).
+%Y A059201 Cf. A003465, row sums of A059202, A059203, A059084-A059089.
+%K A059201 easy,nonn
+%O A059201 0,3
+%A A059201 _Vladeta Jovovic_, Goran Kilibarda, Jan 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

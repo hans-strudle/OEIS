@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018853
+Showing 1-1 of 1
+
+%I A018853
+%S A018853 1,4,14,8,15,5,29,3,31,10,33,6,19,11,35,2,65,37,21,12,68,69,22,7,4,72,
+%T A018853 23,13,74,132,42,134,24,43,77,138,44,14,25,8,45,144,81,46,26,147,83,
+%U A018853 47,84,15,151,85,27,86,273,154,49,276,88,157,28,5,159,283,9,286,51,91,289,29
+%N A018853 a(n)^4 is smallest fourth power beginning with n.
+%o A018853 (PARI) v=[]; k=1; while(#v<100, d=digits(k^4); D=digits(#v+1); if(#D<=#d, c=1; for(i=1, #D, if(D[i]!=d[i], c=0; break)); if(c, v=concat(v, k); k=0)); k++); v \\ _Derek Orr_, Aug 12 2015
+%Y A018853 Cf. A018798 (a(n)^4).
+%K A018853 nonn,base
+%O A018853 1,2
+%A A018853 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

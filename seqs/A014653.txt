@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014653
+Showing 1-1 of 1
+
+%I A014653
+%S A014653 1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014653 0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,
+%U A014653 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014653 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014653 0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,
+%X A014653 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014653 Inverse of 644th cyclotomic polynomial.
+%p A014653 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014653 sign
+%O A014653 0,1
+%A A014653 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

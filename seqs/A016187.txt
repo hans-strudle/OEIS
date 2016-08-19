@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016187
+Showing 1-1 of 1
+
+%I A016187
+%S A016187 1,19,273,3515,42761,503139,5796673,65860555,741243321,8287894259,
+%T A016187 92240578673,1023236299995,11324318776681,125117262357379,
+%U A016187 1380687932442273,15222751628953835,167731742895202841
+%N A016187 Expansion of 1/((1-8x)(1-11x)).
+%F A016187 (11^(n+1)-8^(n+1))/3 - Lambert Klasen (lambert.klasen(AT)gmx.net), Feb 05 2005
+%F A016187 a(0)=1, a(n)=11*a(n-1)+8^n. [From Vincenzo Librandi, Feb 09 2011]
+%F A016187 a(0)=1, a(1)=19, a(n)=19*a(n-1)-88*a(n-2). [From Vincenzo Librandi, Feb 09 2011]
+%t A016187 Join[{a=1,b=19},Table[c=19*b-88*a;a=b;b=c,{n,40}]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 14 2011*)
+%o A016187 (PARI) for(n=1,10,print1((11^n-8^n)/3,",")) MM(n, N) = local(M); M=matrix(n,n);for(i=1,n, for(j=1,n,if(i==j,M[i,j]=N,M[i,j]=1)));M for(i=1,10,print1((MM(3,9)^i)[1,2],","))
+%K A016187 nonn,easy
+%O A016187 0,2
+%A A016187 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

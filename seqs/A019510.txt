@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019510
+Showing 1-1 of 1
+
+%I A019510
+%S A019510 2,5,1,7,20,3,5,11,2,65,7,5,8,17,15,19,10,7,11,115,4,25,13,9,70,29,5,
+%T A019510 31,16,55,17,35,6,37,95,13,20,41,7,215,22,15,23,47,40,49,25,17,26,265
+%N A019510 GCD( binomial[ n + 3, n ] + binomial[ n + 4, n + 1 ], binomial[ n + 5, n + 2 ] ].
+%t A019510 Table[GCD[Binomial[n+3,n]+Binomial[n+4,n+1],Binomial[n+5,n+2]],{n,70}] (* _Harvey P. Dale_, Nov 16 2014 *)
+%K A019510 nonn
+%O A019510 1,1
+%A A019510 David Penney (david(AT)alpha.math.uga.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

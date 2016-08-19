@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008888
+Showing 1-1 of 1
+
+%I A008888
+%S A008888 138,150,222,234,312,528,960,2088,3762,5598,6570,10746,13254,13830,
+%T A008888 19434,20886,21606,25098,26742,26754,40446,63234,77406,110754,171486,
+%U A008888 253458,295740,647748,1077612
+%N A008888 Aliquot sequence starting at 138.
+%C A008888 The function sigma = A000203 (and thus A001065 = sigma - id) is defined only on the positive integers and not for 0, so the trajectory ends when 0 is reached. - _M. F. Hasler_, Nov 16 2013
+%D A008888 R. K. Guy, Unsolved Problems in Number Theory, B6.
+%D A008888 Enoch Haga, Exploring Prime Numbers on Your PC, 2nd ed., 1998, pages 83-84 and Table 8, page 46. ISBN 1-885794-16-9.
+%H A008888 T. D. Noe, <a href="/A008888/b008888.txt">Table of n, a(n) for n = 0..178</a>
+%H A008888 Christophe CLAVIER, <a href="http://christophe.clavier.free.fr/Aliquot/site/Aliquot.html">Aliquot Sequences</a>
+%F A008888 a(n) = A001065(a(n-1)) for n>0, thus a(n) = A001065^n(138) for all n<179. - _M. F. Hasler_, Nov 16 2013
+%p A008888 f := proc(n) option remember; if n = 0 then 138; else sigma(f(n-1))-f(n-1); fi; end:
+%K A008888 nonn,fini
+%O A008888 0,1
+%A A008888 _N. J. A. Sloane_.
+%E A008888 Term 179 removed from b-file by _Ivan Panchenko_, Nov 16 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

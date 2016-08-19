@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005562
+Showing 1-1 of 1
+
+%I A005562 M3974
+%S A005562 1,5,35,140,720,2700,12375,45375,196625,715715,3006003,10930920,
+%T A005562 45048640,164105760,668144880,2441298600,9859090500,36149998500
+%N A005562 Number of walks on square lattice.
+%D A005562 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005562 R. K. Guy, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/GUY/catwalks.html">Catwalks, sandsteps and Pascal pyramids</a>, J. Integer Sequences, Vol. 3 (2000), Article #00.1.6
+%F A005562 a(n) = C(n+5, ceil(n/2))*C(n+4, floor(n/2)) - C(n+5, ceil((n-1)/2))*C(n+4, floor((n-1)/2)). - _Paul D. Hanna_, Apr 16 2004
+%o A005562 (PARI) {a(n)=binomial(n+5,ceil(n/2))*binomial(n+4,floor(n/2)) - binomial(n+5,ceil((n-1)/2))*binomial(n+4,floor((n-1)/2))}
+%Y A005562 Cf. A005558-A005561, A093768.
+%K A005562 nonn
+%O A005562 4,2
+%A A005562 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

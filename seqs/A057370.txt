@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057370
+Showing 1-1 of 1
+
+%I A057370
+%S A057370 1024,1296,1458,2240,2500,2592,3072,3744,3750,5642,5796,6480,6561,
+%T A057370 8526,9900,10400,11250,11340,12005,14580,15552
+%N A057370 Numbers n such that n=(a+b)=(x*y) with a*b=(x+y)^3 (a>0,b>0,x>0,y>0).
+%e A057370 E.g. a(1)=1024=(512+512)=(32*32). (512*512)=(32+32)^3
+%K A057370 nonn
+%O A057370 1,1
+%A A057370 _Naohiro Nomoto_, Sep 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

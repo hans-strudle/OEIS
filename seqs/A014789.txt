@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014789
+Showing 1-1 of 1
+
+%I A014789
+%S A014789 1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,
+%T A014789 1,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,1,0,
+%U A014789 0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014789 1,0,1,0,0,0,-1,0,-1,0,-1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,
+%W A014789 1,0,1,0,1,0,0,0,-1,0,-1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,-1,0,-1,0,-1,0,
+%X A014789 0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014789 Inverse of 780th cyclotomic polynomial.
+%p A014789 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014789 sign
+%O A014789 0,1
+%A A014789 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

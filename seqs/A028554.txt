@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028554
+Showing 1-1 of 1
+
+%I A028554
+%S A028554 0,4,88,868,4554,8008,45154,89698,452254,4526254,8996998,830333038,
+%T A028554 862626268,899969998,4058008504,45032023054,45229592254,89999699998,
+%U A028554 405485584504,4503764673054,8187727277818,8999996999998,89178266287198
+%N A028554 Palindromes of form n(n+3).
+%C A028554 Also: Palindromes that are the sum of consecutive initial even composites. Sequence 4 + 6 + 8 + 10 + 12 + 14 + ... + z = n. For values of z see A058851. (Comment added by author 12/2000).
+%H A028554 P. De Geest, <a href="http://www.worldofnumbers.com/consemor.htm">Palindromic Quasipronics</a>
+%H A028554 P. De Geest, <a href="http://www.worldofnumbers.com/firstpal.htm#sfn5">Palindromic Sums 2</a>
+%Y A028554 Cf. A028553, A058851.
+%K A028554 nonn,base
+%O A028554 1,2
+%A A028554 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

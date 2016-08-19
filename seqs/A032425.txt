@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032425
+Showing 1-1 of 1
+
+%I A032425
+%S A032425 4,20,24,76,96,544,560,1124,1760,5056,6104,9680,31416,84640
+%N A032425 Numbers n such that 151*2^n+1 is prime.
+%H A032425 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032425 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032425 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032425 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032425 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032425 nonn
+%O A032425 1,1
+%A A032425 _James R. Buddenhagen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

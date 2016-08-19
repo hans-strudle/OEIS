@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052879
+Showing 1-1 of 1
+
+%I A052879
+%S A052879 1,1,2,7,22,81,303,1178,4675,18951,77925,324642,1366718,5806575,
+%T A052879 24861979,107178994,464805955,2026418389,8876266930,39045009419,
+%U A052879 172406753611
+%N A052879 A simple grammar.
+%H A052879 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=850">Encyclopedia of Combinatorial Structures 850</a>
+%p A052879 spec := [S,{B=Sequence(C,1 <= card),C=Prod(Z,S),S= PowerSet(B)},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052879 easy,nonn
+%O A052879 0,3
+%A A052879 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

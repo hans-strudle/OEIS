@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005607
+Showing 1-1 of 1
+
+%I A005607
+%S A005607 1,1,2,6,40320
+%N A005607 a(n) = (a(n-1) + a(n-2))!.
+%C A005607 The next term has 168215 digits and is too large to include.
+%K A005607 nonn,easy
+%O A005607 0,3
+%A A005607 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

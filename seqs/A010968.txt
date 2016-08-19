@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010968
+Showing 1-1 of 1
+
+%I A010968
+%S A010968 1,16,136,816,3876,15504,54264,170544,490314,1307504,3268760,7726160,
+%T A010968 17383860,37442160,77558760,155117520,300540195,565722720,1037158320,
+%U A010968 1855967520,3247943160,5567902560,9364199760,15471286560,25140840660,40225345056,63432274896
+%N A010968 Binomial coefficient C(n,15).
+%C A010968 a(n) = -A110555(n+1,15). - _Reinhard Zumkeller_, Jul 27 2005
+%C A010968 In this sequence there are no primes - _Artur Jasinski_, Dec 02 2007
+%H A010968 T. D. Noe, <a href="/A010968/b010968.txt">Table of n, a(n) for n = 15..1000</a>
+%H A010968 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%F A010968 a(n+14)=n(n+1)(n+2)(n+3)(n+4)(n+5)(n+6)(n+7)(n+8)(n+9)(n+10)(n+11)(n+12)(n+13)(n+14)/15! - _Artur Jasinski_, Dec 02 2007, R. J. Mathar, Jul 07 2009
+%F A010968 Gf.: x^15/(1-x)^16. [From _Zerinvary Lajos_, Aug 06 2008, R. J. Mathar, Jul 07 2009]
+%F A010968 a(n) = n/(n-15) * a(n-1), n>15. - Vincenzo Librandi, Mar 26 2011
+%p A010968 seq(binomial(n,15),n=15..37); [From _Zerinvary Lajos_, Aug 06 2008]
+%t A010968 Table[Binomial[n,15],{n,15,50}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 22 2011 *)
+%o A010968 (MAGMA) [ Binomial(n,15): n in [15..70]]; - Vincenzo Librandi, Mar 26 2011
+%Y A010968 Cf. A000581.
+%K A010968 nonn
+%O A010968 15,2
+%A A010968 _N. J. A. Sloane_.
+%E A010968 Some formulas adjusted to the offset by _R. J. Mathar_, Jul 07 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

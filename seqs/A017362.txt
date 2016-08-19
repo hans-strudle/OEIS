@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017362
+Showing 1-1 of 1
+
+%I A017362
+%S A017362 282475249,2015993900449,205891132094649,4808584372417849,
+%T A017362 52599132235830049,362033331456891249,1822837804551761449,
+%U A017362 7326680472586200649,24842341419143568849,73742412689492826049
+%N A017362 (10*n+7)^10.
+%H A017362 Vincenzo Librandi, <a href="/A017362/b017362.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017362 (10*Range[0,10]+7)^10 (* _Harvey P. Dale_, Nov 12 2015 *)
+%o A017362 (MAGMA) [(10*n+7)^10: n in [0..20]]; // Vincenzo Librandi, Aug 30 2011
+%K A017362 nonn,easy
+%O A017362 0,1
+%A A017362 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

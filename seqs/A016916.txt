@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016916
+Showing 1-1 of 1
+
+%I A016916
+%S A016916 0,1679616,429981696,11019960576,110075314176,656100000000,
+%T A016916 2821109907456,9682651996416,28179280429056,72301961339136,
+%U A016916 167961600000000,360040606269696,722204136308736,1370114370683136
+%N A016916 (6n)^8.
+%H A016916 Vincenzo Librandi, <a href="/A016916/b016916.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016916 (MAGMA) [(6*n)^8: n in [0..30]]; // Vincenzo Librandi, May 2011
+%K A016916 nonn,easy
+%O A016916 0,2
+%A A016916 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

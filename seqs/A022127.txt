@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022127
+Showing 1-1 of 1
+
+%I A022127
+%S A022127 3,17,20,37,57,94,151,245,396,641,1037,1678,2715,4393,7108,11501,
+%T A022127 18609,30110,48719,78829,127548,206377,333925,540302,874227,1414529,
+%U A022127 2288756,3703285,5992041,9695326,15687367
+%N A022127 Fibonacci sequence beginning 3, 17.
+%H A022127 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022127 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022127 G.f.: (3+14x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%t A022127 a={};b=3;c=17;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 17 2008 *)
+%K A022127 nonn
+%O A022127 0,1
+%A A022127 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

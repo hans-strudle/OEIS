@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046806
+Showing 1-1 of 1
+
+%I A046806
+%S A046806 11,26,47,69,107,138,183,223,267,318,395,453
+%N A046806 Largest number m with A046805(m) = n.
+%e A046806 a(1)=11 since n>11 implies there is a collection of integer sided rectangles with dimensions at least 2 with total area n.
+%K A046806 easy,nonn
+%O A046806 1,1
+%A A046806 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013909
+Showing 1-1 of 1
+
+%I A013909
+%S A013909 279841,1801152661463,11592836324538749809,74615470927590710561908487,
+%T A013909 480250763996501976790165756943041,
+%U A013909 3091058643093537522799545838540043339063,19895113660064588580108197261066338165074766609,128051775540161094255459334683883498184411818540470887
+%N A013909 23^(5n+4).
+%H A013909 Vincenzo Librandi, <a href="/A013909/b013909.txt">Table of n, a(n) for n = 0..50</a>
+%H A013909 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013909 a(n) = 6436343*a(n-1), a(0)=279841; [From Vincenzo Librandi, May 29 2011]
+%t A013909 23^(5*Range[0,10]+4) (* or *) NestList[6436343#&,279841,10] (* _Harvey P. Dale_, Jan 15 2016 *)
+%o A013909 (MAGMA) [23^(5*n+4): n in [0..10]]; // Vincenzo Librandi, May 29 2011
+%K A013909 nonn
+%O A013909 0,1
+%A A013909 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

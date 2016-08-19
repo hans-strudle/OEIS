@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036602
+Showing 1-1 of 1
+
+%I A036602
+%S A036602 1,1,1,1,1,1,1,1,1,1,2,2,2,1,1,1,1,1,2,3,5,6,8,8,9,7,7,4,3,1,1,1,1,1,
+%T A036602 2,3,6,10,17,25,38,52,73,93,121,143,172,187,205,202,201,177,158,123,
+%U A036602 99,66,47,26,17,7,4,1,1,1,1,1,2,3,6,11,22,39,70,118,200,324,526
+%N A036602 Triangle of coefficients of generating function of binary rooted trees of height at most n.
+%H A036602 E. M. Rains and N. J. A. Sloane, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On Cayley's Enumeration of Alkanes (or 4-Valent Trees).</a>, J. Integer Sequences, Vol. 2 (1999), Article 99.1.1.
+%H A036602 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%e A036602 1; 1,1; 1,1,1,1; 1,1,1,2,2,2,1,1;...
+%K A036602 nonn,tabf,nice,easy
+%O A036602 0,11
+%A A036602 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

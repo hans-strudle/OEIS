@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019502
+Showing 1-1 of 1
+
+%I A019502
+%S A019502 1,2,5,16,67
+%N A019502 Number of simplices in minimal decomposition of n-cube.
+%D A019502 A. Bliss, F. E. Su. Lower bounds for simplicial covers and triangulations of cubes, Discrete Comput. Geom. 33 (2005), 669-686.
+%D A019502 H. T. Croft, K. J. Falconer and R. K. Guy, Unsolved Problems in Geometry, Section C9.
+%D A019502 R. B. Hughes and M. R. Anderson, Simplexity of the cube, Discr. Math., 158 (1996), 99-150.
+%D A019502 Sallee, John F. A note on minimal triangulations of an n-cube.  Discrete Appl. Math. 4 (1982), no. 3, 211--215. MR0675850 (84g:52019)
+%D A019502 Sallee, John F. A triangulation of the n-cube. Discrete Math. 40 (1982), no. 1, 81--86. MR0676714 (84d:05065b)
+%D A019502 Sallee, John F. The middle-cut triangulations of the n-cube. SIAM J. Algebraic Discrete Methods 5 (1984), no. 3, 407--419. MR0752044 (86c:05054).
+%Y A019502 Other sequences dealing with different ways to attack this problem. They give further references: A019503, A019504, A166932, A166932, A239911, A239912.
+%Y A019502 See also A094294, A238820, A238821.
+%K A019502 nonn,hard,nice,more
+%O A019502 1,2
+%A A019502 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

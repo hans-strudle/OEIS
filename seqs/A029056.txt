@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029056
+Showing 1-1 of 1
+
+%I A029056
+%S A029056 1,1,1,2,2,2,3,3,4,5,5,7,8,8,10,11,12,14,15,17,19,20,23,25,27,30,32,
+%T A029056 35,38,40,44,47,50,55,58,62,67,70,75,80,84,90,95,100,107,112,118,125,
+%U A029056 131,138,145,152,160,167,175
+%N A029056 Expansion of 1/((1-x)(1-x^3)(1-x^8)(1-x^11)).
+%H A029056 <a href="/index/Rec#order_23">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1,0,0,0,1,-1,0,0,0,0,-1,1,0,0,0,-1,1,0,1,-1).
+%o A029056 (PARI) a(n)=floor((2*n^3+69*n^2+696*n+3312)/3168+[5,1,-1,4,-1,0,1,-4,1,-1,-5][n%11+1]/11) \\ _Tani Akinari_, May 13 2014
+%o A029056 (PARI) Vec(1/((1-x)*(1-x^3)*(1-x^8)*(1-x^11)) + O(x^100)) \\ _Michel Marcus_, May 13 2014
+%K A029056 nonn,easy
+%O A029056 0,4
+%A A029056 _N. J. A. Sloane_, Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

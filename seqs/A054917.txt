@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054917
+Showing 1-1 of 1
+
+%I A054917
+%S A054917 0,0,0,1,2,2,6,5,14,6,54,12,46,40,258,34,350,58,1166,230,798,186,
+%T A054917 15338,458,4206,1416,25734,1180,46164,2190
+%N A054917 Number of connected unlabeled vertex-transitive graphs with n nodes such that complement is also connected.
+%H A054917 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054917 2*A006800(n)-A006799(n).
+%K A054917 nonn,more
+%O A054917 1,5
+%A A054917 _N. J. A. Sloane_, May 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

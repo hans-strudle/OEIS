@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008427
+Showing 1-1 of 1
+
+%I A008427
+%S A008427 1,16,368,448,3184,2016,10304,5504,25712,12112,46368,21312,89152,
+%T A008427 35168,126592,56448,205936,78624,278576,109760,401184,154112,490176,
+%U A008427 194688,719936,252016,808864,327040
+%N A008427 Theta series of {D_8}* lattice.
+%D A008427 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 120.
+%H A008427 N. Heninger, E. M. Rains and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.NT/0509316">On the Integrality of n-th Roots of Generating Functions</a>, J. Combinatorial Theory, Series A, 113 (2006), 1732-1745.
+%H A008427 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/Ds8.html">Home page for this lattice</a>
+%F A008427 G.f.: (theta_3)^8 + (theta_2)^8.
+%Y A008427 Cf. A008430, A109772.
+%K A008427 nonn,easy
+%O A008427 0,2
+%A A008427 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

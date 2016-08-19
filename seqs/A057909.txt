@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057909
+Showing 1-1 of 1
+
+%I A057909
+%S A057909 1,3,9,15,37,85,133,225,1233
+%N A057909 Numbers n such that 4^n + n is prime.
+%t A057909 Do[ If[ PrimeQ[ 4^n + n ], Print[ n ] ], {n, 0, 3000} ]
+%K A057909 nonn
+%O A057909 1,2
+%A A057909 _Robert G. Wilson v_, Nov 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

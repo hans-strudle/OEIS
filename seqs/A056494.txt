@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056494
+Showing 1-1 of 1
+
+%I A056494
+%S A056494 3,3,6,12,24,42,78,144,234,456,726,1392,2184,4290,6528,12960,19680,
+%T A056494 39078,59046,117600,177060,353562,531438,1061280,1594296,3186456,
+%U A056494 4782726,9561552,14348904,28690752,43046718
+%N A056494 Number of primitive (period n) periodic palindromes using a maximum of three different symbols.
+%C A056494 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome.
+%D A056494 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056494 Sum mu(d)*A038754(n/d+1) where d|n.
+%Y A056494 Cf. A056459.
+%K A056494 nonn
+%O A056494 1,1
+%A A056494 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

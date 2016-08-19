@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023401
+Showing 1-1 of 1
+
+%I A023401
+%S A023401 4,4,1,4,1,4,1,4,4,1,1,4,4,4,4,1,4,4,1,4,1,1,1,4,1,1,1,4,4,4,1,1,4,1,
+%T A023401 1,1,1,1,1,4,4,4,1,1,1,4,4,4,4,4,4,1,4,4,4,4,1,1,4,1,4,4,1,4,1,4,4,4,
+%U A023401 1,1,1,4,4,4,4,4,1,1,4,4,1,4,4,1,1,4,1,1,1,1,4,4,4,1,4,4,4,1,1,1,4,1,4,4,4,1,1,4
+%N A023401 If any even power of 2 ends with k 1's and 4's, they must be the first k elements of this sequence in reverse order.
+%K A023401 nonn
+%O A023401 0,1
+%A A023401 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

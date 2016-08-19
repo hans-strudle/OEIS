@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007870
+Showing 1-1 of 1
+
+%I A007870
+%S A007870 1,1,2,6,96,2880,9953280,100329062400,10651768002183168000,
+%T A007870 150283391703941024789299200000,
+%U A007870 9263795272057860957392207640004657152000000000,16027108137650009941734148595388542471170145479274004480000000000000
+%N A007870 Determinant of character table of symmetric group S_n.
+%H A007870 Alois P. Heinz, <a href="/A007870/b007870.txt">Table of n, a(n) for n = 0..18</a>
+%H A007870 F. W. Schmidt and R. Simion, <a href="http://dx.doi.org/10.1016/0097-3165(84)90012-8">On a partition identity</a>, J. Combin. Theory, A 36 (1984), 249-252.
+%H A007870 D. Vaintrob, <a href="http://mathoverflow.net/questions/99271/">A product identity for partitions</a>
+%F A007870 Product of all parts of all partitions of n.
+%e A007870 1 + x + 2*x^2 + 6*x^3 + 96*x^4 + 2880*x^5 + 9953280*x^6 + 100329062400*x^7 + ...
+%p A007870 b:= proc(n, i) option remember; `if`(n=0, [1$2], ((f, g)->
+%p A007870        [f[1]+g[1], f[2]*g[2]*i^g[1]])(`if`(i<2, [0, 1],
+%p A007870        b(n, i-1)), `if`(i>n, [0, 1], b(n-i, i))))
+%p A007870     end:
+%p A007870 a:= n-> b(n, n)[2]:
+%p A007870 seq(a(n), n=0..12);  # _Alois P. Heinz_, Jul 30 2013
+%t A007870 Needs["Combinatorica`"]; Table[Times@@Flatten[Partitions[n]], {n, 10}]
+%t A007870 a[ n_] := If[n < 0, 0, Times @@ Flatten @ IntegerPartitions @ n] (* _Michael Somos_, Jun 11 2012 *)
+%t A007870 Table[Exp[Total[Map[Log, IntegerPartitions [n]], 2]], {n, 1, 25}] (* _Richard R. Forberg_, Dec 08 2014 *)
+%Y A007870 Cf. A086644, A006906.
+%K A007870 nonn
+%O A007870 0,3
+%A A007870 _Peter J. Cameron_, Götz Pfeiffer [ goetz(AT)dcs.st-and.ac.uk ]
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

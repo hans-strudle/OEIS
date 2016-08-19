@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058994
+Showing 1-1 of 1
+
+%I A058994
+%S A058994 1,12,24,225,392,819,1201,1645,1775
+%N A058994 Numbers n such that 7^n reversed is prime.
+%t A058994 Do[ If[ PrimeQ[ ToExpression[ StringReverse[ ToString[7^n] ] ] ], Print[n] ], {n, 1, 2500} ]
+%Y A058994 Cf. A057708.
+%K A058994 nonn,base
+%O A058994 1,2
+%A A058994 _Robert G. Wilson v_, Jan 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

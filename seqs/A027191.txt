@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027191
+Showing 1-1 of 1
+
+%I A027191
+%S A027191 0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,2,2,3,3,4,4,5,5,7,7,9,10,13,14,18,20,
+%T A027191 25,28,35,39,48,54,65,74,89,100,119,135,160,181,213,241,282,320,372,
+%U A027191 422,490,554,641
+%N A027191 Number of partitions of n into an odd number of parts, the least being 5; also, a(n+5) = number of partitions of n into an even number of parts, each >=5.
+%K A027191 nonn
+%O A027191 1,17
+%A A027191 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

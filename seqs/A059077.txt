@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059077
+Showing 1-1 of 1
+
+%I A059077
+%S A059077 1,3,4,7,132,253
+%N A059077 Numbers n such that 2*7^n - 3 is prime.
+%t A059077 Do[ If[ PrimeQ[ 2*7^n - 3 ], Print[n] ], {n, 1, 6000} ]
+%K A059077 nonn
+%O A059077 1,2
+%A A059077 _Robert G. Wilson v_, Feb 12 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

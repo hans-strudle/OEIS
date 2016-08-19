@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048738
+Showing 1-1 of 1
+
+%I A048738
+%S A048738 1,3,5,15,29,83,179,495,1125,7179,19401,46363,124673,302271,809921,
+%T A048738 1984959,5304947,13110907,34972559,87014349,231756983,579803757,
+%U A048738 1542417375
+%N A048738 Number of self-avoiding walks on square lattice rotated by pi/4, with wedge angle pi/2.
+%D A048738 A. J. Guttmann and G. M. Torrie, Critical behavior at an edge for the SAW and Ising model, J. Phys. A 17 (1984), 3539-3552.
+%K A048738 nonn,walk
+%O A048738 1,2
+%A A048738 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

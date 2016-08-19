@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055206
+Showing 1-1 of 1
+
+%I A055206
+%S A055206 1,2,15,65,434,2994,21837,167032,1328401,10801518,89648445,756279950
+%N A055206 Number of balanced, adequate or average primes < 10^n.
+%H A055206 <a href="/index/Pri#primepop">Index entries for sequences related to numbers of primes in various ranges</a>
+%Y A055206 Cf. A006562.
+%K A055206 nonn
+%O A055206 1,2
+%A A055206 _Robert G. Wilson v_, Jul 04 2000
+%E A055206 a(8)-a(12) from _Donovan Johnson_, Aug 24 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

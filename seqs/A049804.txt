@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049804
+Showing 1-1 of 1
+
+%I A049804
+%S A049804 0,0,0,0,1,2,3,0,1,2,3,0,1,2,3,0,2,4,6,4,6,8,10,8,10,12,14,12,14,16,
+%T A049804 18,0,2,4,6,4,6,8,10,8,10,12,14,12,14,16,18,0,2,4,6,4,6,8,10,8,10,12,
+%U A049804 14,12,14,16,18,0,3,6,9,8,11,14,17,16,19,22
+%N A049804 a(n)=n mod 4 + n mod 16 + ... + n mod 4^k, where 4^k<=n<4^(k+1).
+%K A049804 nonn
+%O A049804 1,6
+%A A049804 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

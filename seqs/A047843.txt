@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047843
+Showing 1-1 of 1
+
+%I A047843
+%S A047843 10,11,12,13,14,15,16,17,18,19,1011,21,1112,110213,11020314,
+%T A047843 1102030415,110203040516,11020304050617,1102030405060718,
+%U A047843 110203040506070819,100112,1112,22,1213,120314,12030415,1203040516
+%N A047843 Describe n (mentioning missing digits that exceed the smallest digit).
+%e A047843 101 contains one 0 and two 1's, so a(101)=1021. a(131)=210213.
+%Y A047843 Cf. A005151, A047841, A047842.
+%K A047843 nonn,easy,base,nice
+%O A047843 0,1
+%A A047843 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

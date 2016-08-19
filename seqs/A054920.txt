@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054920
+Showing 1-1 of 1
+
+%I A054920
+%S A054920 2,4,68,2592,278796,95720106,111891292036,457846756500066,
+%T A054920 6664787020904248568,349363873490889302878250,
+%U A054920 66602024342830108271942323060,46557190064705399729526041154647820
+%N A054920 Number of connected unlabeled reflexive relations with n nodes such that complement is also connected.
+%H A054920 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054920 a(n) = 2*A054919(n) - A000595(n).
+%K A054920 nonn,easy
+%O A054920 1,1
+%A A054920 _N. J. A. Sloane_, May 24 2000
+%E A054920 More terms from _Vladeta Jovovic_, Jul 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

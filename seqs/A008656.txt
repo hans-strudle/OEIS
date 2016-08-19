@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008656
+Showing 1-1 of 1
+
+%I A008656
+%S A008656 1,30,360,2190,7230,14976,32760,72060,92520,177150,280800,351360,
+%T A008656 527790,856860,864720,1362816,1850430,2004480,2657160,3909660,3609216,
+%U A008656 5260380,6588000,6716160,8419320
+%N A008656 Theta series of direct sum of 5 copies of hexagonal lattice.
+%C A008656 The hexagonal lattice is the familiar 2-dimensional lattice in which each point has 6 neighbors. This is sometimes called the triangular lattice.
+%D A008656 J. H. Conway and N. J. A. Sloane, Sphere Packings, Lattices and Groups, Springer-Verlag, p. 110.
+%H A008656 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>
+%K A008656 nonn,easy
+%O A008656 0,2
+%A A008656 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

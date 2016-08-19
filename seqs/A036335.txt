@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036335
+Showing 1-1 of 1
+
+%I A036335
+%S A036335 0,31,225,1563,10222,63030,374264,2160300,12196405,67724342,371233523,
+%T A036335 2014305995
+%N A036335 Total number of composite numbers with n digits and n prime factors (counted with multiplicity).
+%C A036335 Essentially the same as A124033.
+%H A036335 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_025.htm">Related puzzle</a>
+%e A036335 a(1) = 0, since any single digit number with 1 prime factor is a prime!
+%Y A036335 Cf. A036336-A036338.
+%K A036335 nonn,base
+%O A036335 1,2
+%A A036335 _Patrick De Geest_, Dec 15 1998.
+%E A036335 One more term from _Naohiro Nomoto_, Jul 31 2001
+%E A036335 a(9)-a(12) from _Ray Chandler_, Apr 12 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

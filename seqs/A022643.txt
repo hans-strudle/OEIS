@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022643
+Showing 1-1 of 1
+
+%I A022643
+%S A022643 1,15,135,950,5670,30003,144680,647055,2717760,10820640,41128374,
+%T A022643 150073470,528074655,1798537380,5947216050,19142919543,60113026305,
+%U A022643 184513760775,554517086825,1634047143090,4727605374594
+%N A022643 Expansion of Product (1+m*q^m)^15; m=1..inf.
+%K A022643 nonn
+%O A022643 0,2
+%A A022643 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

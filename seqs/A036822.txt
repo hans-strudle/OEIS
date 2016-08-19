@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036822
+Showing 1-1 of 1
+
+%I A036822
+%S A036822 0,1,1,1,2,2,3,4,4,7,6,10,11,13,18,19,25,30,33,45,47,61,70,81,100,111,
+%T A036822 135,157,177,218,238,288,328,374,443,495,579,663,747,878,973,1134,
+%U A036822 1281,1448,1670,1863,2135,2414,2705,3103
+%N A036822 Number of partitions satisfying (cn(1,5) = cn(4,5) = 0).
+%C A036822 For a given partition cn(i,n) means the number of its parts equal to i modulo n.
+%C A036822 Short: (1=4 := 0).
+%p A036822 c := proc(L,i,n)
+%p A036822     local a,p;
+%p A036822     a := 0 ;
+%p A036822     for p in L do
+%p A036822         if modp(p,n) = i then
+%p A036822             a := a+1 ;
+%p A036822         end if;
+%p A036822     end do:
+%p A036822     a ;
+%p A036822 end proc:
+%p A036822 A036822 := proc(n)
+%p A036822     local a ,p;
+%p A036822     a := 0 ;
+%p A036822     for p in combinat[partition](n) do
+%p A036822         if c(p,1,5) = 0 then
+%p A036822             if c(p,4,5) = 0 then
+%p A036822                 a := a+1 ;
+%p A036822             end if;
+%p A036822         end if;
+%p A036822     end do:
+%p A036822     a ;
+%p A036822 end proc: # _R. J. Mathar_, Oct 19 2014
+%K A036822 nonn
+%O A036822 1,5
+%A A036822 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

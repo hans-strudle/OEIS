@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038844
+Showing 1-1 of 1
+
+%I A038844
+%S A038844 5,21,37,72,73,76,100,121,153,221,233,237,245,276,288,292,296,300,305,
+%T A038844 333,336,341,348,352,357,380,381,397,445,448,461,465,472,492,545,557,
+%U A038844 565,576,577,601,605,637,648,657,676,688,692,696,737,752,753,761,776
+%N A038844 n for which 6n+1 | 2^n-1.
+%C A038844 Apart from 5, all terms are in A045762, numbers such that 2^n-1 is not prime. - _Michel Marcus_, Nov 12 2014
+%e A038844 For n=5, 2^5-1=31 is divisible by 6*5+1=31.
+%o A038844 (PARI) isok(n) = (2^n-1) % (6*n+1) == 0; \\ _Michel Marcus_, Nov 12 2014
+%K A038844 nonn
+%O A038844 1,1
+%A A038844 _Bill Gosper_
+%E A038844 More terms from _Michel Marcus_, Nov 12 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

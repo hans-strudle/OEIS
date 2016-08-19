@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056849
+Showing 1-1 of 1
+
+%I A056849
+%S A056849 1,4,7,6,5,6,3,6,9,0,1,6,3,6,5,6,7,4,9,0,1,4,7,6,5,6,3,6,9,0,1,6,3,6,
+%T A056849 5,6,7,4,9,0,1,4,7,6,5,6,3,6,9,0,1,6,3,6,5,6,7,4,9,0,1,4,7,6,5,6,3,6,
+%U A056849 9,0,1,6,3,6,5,6,7,4,9,0,1
+%N A056849 Final digit of n^n.
+%C A056849 Cyclic with a period of 20.
+%D A056849 R. Euler and J. Sadek, "A Number That Gives The Units Of n^n", Journal of Recreational Mathematics, vol. 29(3), 1998, pp. 203-4.
+%H A056849 Gregory P. Dresden, <a href="http://www.jstor.org/stable/27643091">Three transcendental numbers from the last non-zero digits of n^n, F_n and n!</a>, Mathematics Magazine, vol. 81, 2008, pp. 96-105.
+%H A056849 Jose María Grau and A. M. Oller-Marcen  <a href="http://arxiv.org/abs/1203.4066">On the last digit and the last non-zero digit of n^n in base b</a>, arXiv:1203.4066 [math.NT], 2012.
+%H A056849 Jose María Grau and A. M. Oller-Marcen, <a href="http://pdf.medrang.co.kr/kms01/BKMS/51/BKMS-51-5-1325-1337.pdf">On the last digit and the last non-zero digit of n^n in base b</a>, Bull. Korean Math. Soc. 51 (2014), No. 5, pp. 1325-1337.
+%H A056849 <a href="/index/Fi#final">Index entries for sequences related to final digits of numbers</a>
+%p A056849 [seq(n^n mod 10, n=1..120)];
+%t A056849 Table[PowerMod[n, n, 10], {n, 1, 100}]
+%o A056849 (MAGMA) [n^n mod 10: n in [1..150]]; // _Vincenzo Librandi_, Apr 12 2011
+%o A056849 (PARI) a(n)=lift(Mod(n,10)^n) \\ _Charles R Greathouse IV_, Dec 29 2012
+%Y A056849 Cf. A000312, A116081.
+%K A056849 nonn,base,easy
+%O A056849 1,2
+%A A056849 _Robert G. Wilson v_, Aug 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

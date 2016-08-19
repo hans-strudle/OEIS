@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044468
+Showing 1-1 of 1
+
+%I A044468
+%S A044468 10,35,54,60,85,110,135,160,179,185,210,235,274,285,304,310,335,360,
+%T A044468 385,410,429,435,460,485,510,535,554,560,585,610,635,660,679,685,710,
+%U A044468 735,760,785,804,810,835,860,899,910,929,935,960
+%N A044468 Numbers n such that string 2,0 occurs in the base 5 representation of n but not of n+1.
+%K A044468 nonn,base
+%O A044468 1,1
+%A A044468 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

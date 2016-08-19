@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044293
+Showing 1-1 of 1
+
+%I A044293
+%S A044293 42,123,204,285,366,378,447,528,609,690,771,852,933,1014,1095,1107,
+%T A044293 1176,1257,1338,1419,1500,1581,1662,1743,1824,1836,1905,1986,2067,
+%U A044293 2148,2229,2310,2391,2472,2553,2565,2634,2715,2796
+%N A044293 Numbers n such that string 4,6 occurs in the base 9 representation of n but not of n-1.
+%K A044293 nonn,base
+%O A044293 1,1
+%A A044293 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051899
+Showing 1-1 of 1
+
+%I A051899
+%S A051899 5,13,13,17,31,37,29,113,37,41,67,73,53,197,61,97,103,73,191,281,127,
+%T A051899 89,139,97,101,157,109,113,1103,181,311,193,199,137,211,937,149,229,
+%U A051899 157,241,1559,421,173,617,181,277,283,193,197,701,307,313,743,541,331
+%N A051899 Smallest prime p such that (p-1)/(2n) is also a prime.
+%F A051899 (a[n]-1)/2n = A051686[n], the smallest 2k-Germain primes
+%e A051899 a[2]=13 because 13-1/4=3=A051686[2] and also a[3]=13, but because 13-1/6=2=A051686[3]
+%e A051899 a(8) = 113 as (113-1)/16 = 7 is a prime.
+%Y A051899 Cf. A005385, A051686.
+%K A051899 nonn
+%O A051899 1,1
+%A A051899 _Labos Elemer_, Dec 16 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

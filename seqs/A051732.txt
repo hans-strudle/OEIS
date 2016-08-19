@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051732
+Showing 1-1 of 1
+
+%I A051732
+%S A051732 1,1,2,2,3,5,6,6,4,9,4,28,10,9,14,12,5,70,18,24,10,7,210,126,110,60,
+%T A051732 26,120,9,29,30,60,6,33,308,42,60,990,30,374,27,41,60,2618,840,840,
+%U A051732 420,1386,24,15,50,644,840,53,18,1386,14,13300,2520,1260,55,6930,50,60,7
+%N A051732 Number of interlacings (or riffle shuffles) required to restore deck of n cards to original order: interlacing is done by keeping first card, putting second at end of deck, keeping next, putting next at end and so on.
+%C A051732 See A217948 for more about the riffle shuffle.
+%H A051732 Gary Antonick, <a href="http://wordplay.blogs.nytimes.com/2016/04/25/finkel-polka-dot/">The Polka Dot Puzzle</a>, NY Times Wordplay blog.
+%F A051732 a(2^n+1) = n+1. [Ripatti A. (ripatti(AT)inbox.ru), Feb 04 2010]
+%Y A051732 Cf. A051733, A217948.
+%K A051732 easy,nonn,nice
+%O A051732 1,3
+%A A051732 Marie-Christine Haton (Marie-Christine.Haton(AT)loria.fr)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

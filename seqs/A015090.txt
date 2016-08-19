@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015090
+Showing 1-1 of 1
+
+%I A015090
+%S A015090 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,
+%T A015090 0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A015090 1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0
+%V A015090 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,
+%W A015090 0,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+%X A015090 -1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0
+%N A015090 Inverse of 1081st cyclotomic polynomial.
+%p A015090 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A015090 CoefficientList[Series[1/Cyclotomic[1081,x],{x,0,1100}],x] (* _Harvey P. Dale_, Dec 21 2015 *)
+%K A015090 sign
+%O A015090 0,1
+%A A015090 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

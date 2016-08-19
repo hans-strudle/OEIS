@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014512
+Showing 1-1 of 1
+
+%I A014512
+%S A014512 1,0,1,4,14,68,389,2593,19884,172328,1665837,17768938,207304278,
+%T A014512 2625854188,35886673906,526337883959,8245960182038,137432669700633,
+%U A014512 2427977164711192,45322240407942257,891337394689531069
+%N A014512 [ GAMMA(n+2/3) ].
+%D A014512 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 255.
+%H A014512 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A014512 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 255.
+%p A014512 seq(floor(evalf(GAMMA(n+2/3),100)), n=0..24);
+%K A014512 nonn
+%O A014512 0,4
+%A A014512 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

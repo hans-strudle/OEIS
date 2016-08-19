@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062269
+Showing 1-1 of 1
+
+%I A062269
+%S A062269 0,1,2,3,7,8,16,17,28,29,44,45,63,64,85,86,111,112,141,142,174,210,
+%T A062269 211,250,251,293,294,340,341,390,391,444,445,501,502,562,563,626,627,
+%U A062269 693,694,765,839,840,917,918,998,999,1083,1084,1172,1263,1264,1359,1457
+%N A062269 Floor(Euler's constant gamma * n) is a square.
+%H A062269 Harry J. Smith, <a href="/A062269/b062269.txt">Table of n, a(n) for n=0,...,1000</a>
+%p A062269 readlib(issqr): for n from 0 to 2000 do if issqr(floor(gamma*n)) then printf(`%d, `,n) fi od:
+%o A062269 (PARI) for(n=0,200, if(issquare(floor(Euler*n)),print(n)))
+%o A062269 (PARI) { default(realprecision, 30); n=-1; for (m=0, 10^9, if (issquare(floor(Euler*m)), write("b062269.txt", n++, " ", m); if (n==1000, break)) ) } [From _Harry J. Smith_, Aug 03 2009]
+%K A062269 easy,nonn
+%O A062269 0,3
+%A A062269 Jason Earls (zevi_35711(AT)yahoo.com), Jul 01 2001
+%E A062269 More terms from Francisco Salinas (franciscodesalinas(AT)hotmail.com), Jan 05 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

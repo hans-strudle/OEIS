@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017105
+Showing 1-1 of 1
+
+%I A017105
+%S A017105 243,161051,2476099,14348907,52521875,147008443,345025251,714924299,
+%T A017105 1350125107,2373046875,3939040643,6240321451,9509900499,14025517307,
+%U A017105 20113571875,28153056843,38579489651,51888844699,68641485507,89466096875
+%N A017105 a(n) = (8*n+3)^5.
+%H A017105 Vincenzo Librandi, <a href="/A017105/b017105.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017105 Table[(8 n + 3)^5, {n, 0, 40}] (* _Bruno Berselli_, Sep 17 2015 *)
+%o A017105 (MAGMA) [(8*n+3)^5: n in [0..30]]; // _Vincenzo Librandi_, Jul 12 2011
+%K A017105 nonn,easy
+%O A017105 0,1
+%A A017105 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

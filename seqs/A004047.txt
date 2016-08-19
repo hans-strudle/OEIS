@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004047
+Showing 1-1 of 1
+
+%I A004047
+%S A004047 1,1,1,1,1,2,3,4,6,10,19
+%N A004047 The coding-theoretic function A(n,10,9).
+%D A004047 A. E. Brouwer, J. B. Shearer, N. J. A. Sloane and W. D. Smith, New table of constant weight codes, IEEE Trans. Info. Theory 36 (1990), 1334-1380.
+%D A004047 CRC Handbook of Combinatorial Designs, 1996, p. 411.
+%H A004047 E. M. Rains and N. J. A. Sloane, <a href="http://neilsloane.com/codes/Andw/">A(n,d,w) tables</a>
+%H A004047 <a href="/index/Aa#Andw">Index entries for sequences related to A(n,d,w)</a>
+%K A004047 nonn,hard
+%O A004047 9,6
+%A A004047 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

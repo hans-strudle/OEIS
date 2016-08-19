@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011643
+Showing 1-1 of 1
+
+%I A011643
+%S A011643 1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,1
+%V A011643 1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1
+%N A011643 84th cyclotomic polynomial.
+%t A011643 CoefficientList[Cyclotomic[84,x],x] (* _Harvey P. Dale_, Mar 19 2013 *)
+%K A011643 sign,fini,full
+%O A011643 0,1
+%A A011643 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

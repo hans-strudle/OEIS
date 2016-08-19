@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002890
+Showing 1-1 of 1
+
+%I A002890 M1463 N0578
+%S A002890 1,0,1,2,5,14,44,152,566,2234,9228,39520,174271,787246,3628992,
+%T A002890 17019374,81011889,390633382,1905134695,9385453576,46653815395,
+%U A002890 233788460256,1180111379105,5996452414310,30653752894948
+%N A002890 Low temperature series for spin-1/2 Ising free energy on 2D square lattice.
+%D A002890 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 391-406.
+%D A002890 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002890 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002890 P. D. Beale, <a href="http://dx.doi.org/10.1103/PhysRevLett.76.78">Exact distribution of energies in the two-dimensional Ising model</a>, Phys. Rev. Lett. 76 (1996) 78-81
+%H A002890 C. Domb, <a href="http://dx.doi.org/10.1080/00018736000101199">On the theory of cooperative phenomena in crystals</a>, Advances in Phys., 9 (1960), 149-361.
+%H A002890 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/ising/ising.html">Lenz-Ising Constants</a>
+%H A002890 G. Siudem, A. Fronczak, P. Fronczak, <a href="http://arxiv.org/abs/1410.7963">Exact low-temperature series expansion for the partition function of the two-dimensional zero-field s= 1/2 Ising model on the infinite square lattice</a>, arXiv preprint arXiv:1410.7963 [math-ph], 2014-2015.
+%H A002890 Gandhimohan M. Viswanathan, <a href="http://arxiv.org/abs/1411.2495">The hypergeometric series for the partition function of the 2-D Ising model</a> arXiv:1411.2495 [cond-mat.stat-mech], 2014-2015.
+%t A002890 (* For 25 terms, a PC computation lasts less than half an hour *) m = 48 (* max y exponent *); coes = CoefficientList[ Series[ Log[(1 + y^2)^2 - 2*y*(1 - y^2)*(Cos[2*Pi*u] + Cos[2*Pi*v])], {y, 0, m}], y] // Rest; nint[f_, {n_}] := If[n == 2 || OddQ[n], 0, Print[n]; Integrate[ Integrate[f, {u, 0, 1}], {v, 0, 1}]]; fy = MapIndexed[nint, coes].Table[y^k, {k, 1, m}]; CoefficientList[ Series[ Exp[fy/2], {y, 0, m}] , y^2] (* _Jean-François Alcover_, Mar 19 2013 *)
+%K A002890 nonn
+%O A002890 0,4
+%A A002890 _N. J. A. Sloane_
+%E A002890 Corrections and updates from _Steven Finch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

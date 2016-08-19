@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049297
+Showing 1-1 of 1
+
+%I A049297
+%S A049297 1,2,3,6,6,20,14,46,51,140,108,624,352,1440,2172
+%N A049297 Number of nonisomorphic circulant digraphs (i.e. Cayley digraphs for the cyclic group) of order n.
+%H A049297 V. A. Liskovets, <a href="http://front.math.ucdavis.edu/math.CO/0104131">Some identities for enumerators of circulant graphs</a>.
+%H A049297 V. A. Liskovets and R. Poeschel, <a href="ftp://ftp.math.tu-dresden.de/pub/reports/alg/poeschel/lispoepp.ps">On the enumeration of circulant graphs of prime-power and squarefree orders</a>
+%H A049297 R. Poeschel, <a href="http://www.math.tu-dresden.de/~poeschel/Publikationen.html">Publications</a>
+%F A049297 There is an easy formula for prime orders. Formulae are also known for squarefree and prime-squared orders. The subsequent values for n=13, 14, 15 are 352, 1440, 2172.
+%Y A049297 Cf. A049287-A049289.
+%K A049297 nonn,nice
+%O A049297 1,2
+%A A049297 _Valery A. Liskovets_
+%E A049297 Further values for (twice) squarefree and (twice) prime-squared orders can be found in the Liskovets reference.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014737
+Showing 1-1 of 1
+
+%I A014737
+%S A014737 1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,
+%T A014737 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1,0,
+%U A014737 0,0,1,0,0,0,1,0,0,0,1,0,0,0,0
+%V A014737 1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,0,0,0,0,0,
+%W A014737 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,1,0,0,0,-1,0,
+%X A014737 0,0,1,0,0,0,-1,0,0,0,1,0,0,0,0
+%N A014737 Inverse of 728th cyclotomic polynomial.
+%p A014737 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014737 sign
+%O A014737 0,1
+%A A014737 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

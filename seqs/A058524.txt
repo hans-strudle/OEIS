@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058524
+Showing 1-1 of 1
+
+%I A058524
+%S A058524 1,1,1,2,2,8,8,13,21,77,77,128,128,354,641,1232,1232,2677,2677,7220,
+%T A058524 8951,25378,25378,63680,113335,323151,532358,1442702,1442702,2963955
+%N A058524 Each c(i) is "multiply" (*) or "divide" (/). a(n) is number of choices for c(1), ..., c(n-1) so that 1 c(1) 2 c(2) 3,.., c(n-1) n is an integer.
+%e A058524 For n = 4 there are 2 possibilities: 1*2*3*4=24 and 1/2*3*4=6. For n = 9 there are 13 possibilities: 1*2*3*4*5*6*7*8 1/2*3*4*5*6*7*8 1/2/3*4*5*6*7*8 1*2/3*4*5*6*7*8 1*2*3*4*5/6*7*8 1*2*3/4*5*6*7*8 1*2/3/4*5*6*7*8 1/2*3*4*5/6*7*8 1/2*3/4*5*6*7*8 1/2/3/4*5*6*7*8 1*2*3*4*5*6*7/8 1*2/3*4*5*6*7/8 1*2*3/4*5/6*7*8.
+%K A058524 nonn,easy,nice
+%O A058524 1,4
+%A A058524 _Naohiro Nomoto_, Dec 22 2000
+%E A058524 More terms from _Sascha Kurz_, Oct 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

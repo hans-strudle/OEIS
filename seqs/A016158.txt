@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016158
+Showing 1-1 of 1
+
+%I A016158
+%S A016158 1,15,181,2055,22861,252495,2781541,30613335,336812221,3705196575,
+%T A016158 40758210901,448344514215,4931806433581,54249937878255,
+%U A016158 596749585096261,6564246509800695,72206715902774941,794273892110393535
+%N A016158 Expansion of 1/((1-4x)(1-11x)).
+%H A016158 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (15,-44).
+%F A016158 a(n) = 15*a(n-1) -44*a(n-2), n>=2. - Vincenzo Librandi, Mar 18 2011
+%F A016158 a(n) = 11*a(n-1) +4^n, n>=1. - Vincenzo Librandi, Mar 18 2011
+%F A016158 a(n) = (11^(n+1)-2^(2*n+2))/7. - R. J. Mathar, Mar 20 2011
+%t A016158 Join[{a=1,b=15},Table[c=15*b-44*a;a=b;b=c,{n,60}]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 01 2011*)
+%K A016158 nonn
+%O A016158 0,2
+%A A016158 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

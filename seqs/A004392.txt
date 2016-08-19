@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004392
+Showing 1-1 of 1
+
+%I A004392
+%S A004392 1,96,5356,227920,8214570,264566400,7858539612,219683466288,
+%T A004392 5859727868575,150599264060960,3756161027103408,91408035226209520,
+%U A004392 2179449368215754180,51079330206309343680,1179791641436990551200
+%N A004392 Binomial coefficient C(8n,n-11).
+%D A004392 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004392 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%t A004392 Table[Binomial[8n,n-11],{n,11,30}]  (* _Harvey P. Dale_, Apr 13 2011 *)
+%K A004392 nonn,easy
+%O A004392 11,2
+%A A004392 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

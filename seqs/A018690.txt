@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018690
+Showing 1-1 of 1
+
+%I A018690
+%S A018690 1,2,3,4,6,8,9,12,16,18,24,27,32,36,48,54,72,96,108,144,216,288,432,
+%T A018690 864
+%N A018690 Divisors of 864.
+%H A018690 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
+%o A018690 (Sage) divisors(864);# [From _Zerinvary Lajos_, Jun 13 2009]
+%K A018690 nonn,fini,full
+%O A018690 1,2
+%A A018690 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

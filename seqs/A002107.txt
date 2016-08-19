@@ -1,0 +1,54 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002107
+Showing 1-1 of 1
+
+%I A002107 M0091 N0028
+%S A002107 1,2,1,2,1,2,2,0,2,2,1,0,0,2,3,2,2,0,0,2,2,0,0,2,1,0,2,2,2,
+%T A002107 2,1,2,0,2,2,2,2,0,2,0,4,0,0,0,1,2,0,0,2,0,2,2,1,2,0,2,2,0,0,2,
+%U A002107 0,2,0,2,2,0,4,0,0,2,1,2,0,2,0,0,0,2
+%V A002107 1,-2,-1,2,1,2,-2,0,-2,-2,1,0,0,2,3,-2,2,0,0,-2,-2,0,0,-2,-1,0,2,2,-2,
+%W A002107 2,1,2,0,2,-2,-2,2,0,-2,0,-4,0,0,0,1,-2,0,0,2,0,2,2,1,-2,0,2,2,0,0,-2,
+%X A002107 0,-2,0,-2,2,0,-4,0,0,-2,-1,2,0,2,0,0,0,-2
+%N A002107 Expansion of Product (1-x^k)^2, k=1..inf.
+%C A002107 Number of partitions of n into an even number of distinct parts minus number of partitions of n into an odd number of distinct parts, with 2 types of each part. E.g., for n=4, we consider k and k* to be different versions of k and so we have 4, 4*, 31, 31*, 3*1, 3*1*, 22*, 211*, 2*11*. The even partitions number 5 and the odd partitions number 4, so a(4)=5-4=1. - _Jon Perry_, Apr 04 2004
+%C A002107 Also, number of partitions of n into parts of -2 different kinds (based upon formal analogy). - Michele Dondi (blazar(AT)lcm.mi.infn.it), Jun 29 2004
+%C A002107 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
+%C A002107 Number 68 of the 74 eta-quotients listed in Table I of Martin 1996.
+%D A002107 G. E. Andrews, Advanced problems 6562, Amer. Math. Monthly 94, 1987.
+%D A002107 M. Boylan, Exceptional congruences for the coefficients of certain eta-product newforms, J. Number Theory 98 (2003), no. 2, 377-389.
+%D A002107 J. W. L. Glaisher, On the square of Euler's series, Proc. London Math. Soc., 21 (1889), 182-194.
+%D A002107 M. Koike, On McKay's conjecture, Nagoya Math. J., 95 (1984), 85-89.
+%D A002107 Y. Martin, Multiplicative eta-quotients, Trans. Amer. Math. Soc. 348 (1996), no. 12, 4825-4856, see page 4852 Table I.
+%D A002107 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002107 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002107 T. D. Noe, <a href="/A002107/b002107.txt">Table of n, a(n) for n = 0..1000</a>
+%H A002107 S. R. Finch, <a href="http://arXiv.org/abs/math.NT/0701251">Powers of Euler's q-Series</a>, (arXiv:math.NT/0701251).
+%H A002107 J. T. Joichi, <a href="http://dx.doi.org/10.1016/0012-365X(90)90131-Z">Hecke-Rogers, Andrews identities; combinatorial proofs</a>, Discrete Mathematics, Vol. 84, Issue 3, 1990, pp. 255-259.
+%H A002107 V. Kotesovec, <a href="http://oeis.org/A258232/a258232_2.pdf">The integration of q-series</a>
+%H A002107 Michael Somos, <a href="/A030203/a030203.txt">Index to Yves Martin's list of 74 multiplicative eta-quotients and their A-numbers</a>
+%H A002107 M. Somos, <a href="http://somos.crg4.com/multiq.html">Introduction to Ramanujan theta functions</a>
+%H A002107 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
+%H A002107 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%F A002107 Expansion of q^(-1/12) * eta(q)^2 in powers of q. - _Michael Somos_, Mar 06 2012
+%F A002107 Euler transform of period 1 sequence [ -2, ...]. - _Michael Somos_, Mar 06 2012
+%F A002107 a(n) = b(12*n + 1) where b(n) is multiplicative and b(2^e) = b(3^e) = 0^e, b(p^e) = (1 + (-1)^e) / 2 if p == 7, 11 (mod 12), b(p^e) = (-1)^(e/2) * (1 + (-1)^e) / 2 if p == 5 (mod 12), b(p^e) = (e + 1) * (-1)^(e*x) if p == 1 (mod 12) where p = x^2 + 9*y^2. - _Michael Somos_, Sep 16 2006
+%F A002107 Convolution inverse of A000712.
+%F A002107 a(0)=1, a(n)=1/n*sum(k=0,n-1, -2*a(k)*sigma_1(n-k)). - _Joerg Arndt_, Feb 05 2011
+%F A002107 Expansion of f(-x)^2 in powers of x where f() is a Ramanujan theta function. - _Michael Somos_, May 17 2015
+%F A002107 G.f. is a period 1 Fourier series which satisfies f(-1 / (144 t)) = 12 (t/i) f(t) where q = exp(2 Pi i t). - _Michael Somos_, May 17 2015
+%e A002107 G.f. = 1 - 2*x - x^2 + 2*x^3 + x^4 + 2*x^5 - 2*x^6 - 2*x^8 - 2*x^9 + x^10 + ...
+%e A002107 G.f. = q - 2*q^13 - q^25 + 2*q^37 + q^49 + 2*q^61 - 2*q^73 - 2*q^97 - 2*q^109 + ...
+%t A002107 terms = 78; Clear[s]; s[n_] := s[n] = Product[(1 - x^k)^2, {k, 1, n}] // Expand // CoefficientList[#, x]& // Take[#, terms]&; s[n = 10]; s[n = 2*n]; While[s[n] != s[n - 1], n = 2*n]; A002107 = s[n] (* _Jean-François Alcover_, Jan 17 2013 *)
+%t A002107 a[ n_] := SeriesCoefficient[ QPochhammer[ x]^2, {x, 0, n}]; (* _Michael Somos_, Jan 31 2015 *)
+%t A002107 a[ n_] := SeriesCoefficient[ Product[ 1 - x^k, {k, n}]^2, {x, 0, n}]; (* _Michael Somos_, Jan 31 2015 *)
+%o A002107 (PARI) {a(n) = my(A, p, e, x); if( n<0, 0, n = 12*n + 1; A = factor(n); prod( k=1, matsize(A)[1], [p, e] = A[k,]; if( p<5, 0, p%12>1, if( e%2, 0, (-1)^((p%12==5) * e/2)), for( i=1, sqrtint(p\9), if( issquare(p - 9*i^2), x=i; break)); (e + 1) * (-1)^(e*x))))}; /* _Michael Somos_, Aug 30 2006 */
+%o A002107 (PARI) {a(n) = if( n<0, 0, polcoeff( eta(x + x * O(x^n))^2, n))}; /* _Michael Somos_, Aug 30 2006 */
+%o A002107 (PARI) Vec(eta(x)^2) \\ _Charles R Greathouse IV_, Apr 22 2016
+%o A002107 (MAGMA) Basis( CuspForms( Gamma1(144), 1), 926) [1]; /* _Michael Somos_, May 17 2015 */
+%Y A002107 Cf. A000712 (reciprocal of g.f.), A258406.
+%K A002107 sign,nice
+%O A002107 0,2
+%A A002107 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

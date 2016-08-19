@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027199
+Showing 1-1 of 1
+
+%I A027199
+%S A027199 1,1,1,2,1,1,2,1,1,1,4,1,1,1,1,5,2,1,1,1,1,8,2,1,1,1,1,1,10,3,1,1,1,1,
+%T A027199 1,1,16,4,2,1,1,1,1,1,1,20,6,2,1,1,1,1,1,1,1,29,7,3,1,1,1,1,1,1,1,1,
+%U A027199 37,10,4,2,1,1,1,1,1,1,1,1,52,12,5,2,1,1,1,1,1
+%N A027199 Triangular array T read by rows: T(n,k) = number of partitions of n into an odd number of parts, each >=k.
+%Y A027199 T(n, k) = Sum{O(n, i)}, k<=i<=n, O given by A027185.
+%K A027199 nonn,tabl
+%O A027199 1,4
+%A A027199 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

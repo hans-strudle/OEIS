@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051025
+Showing 1-1 of 1
+
+%I A051025
+%S A051025 26861,616841,616849,616877,617011,617269,617327,617339,617359,617369,
+%T A051025 617401,617429,617453,617521,617537,617689,617699,617717,622813,
+%U A051025 622987,623003,623107,623209,623299,623321,623341,623353,623401,623423,623437
+%N A051025 Primes p for which pi_{4,3}(p)-pi_{4,1}(p)=-1, where pi_{m,a}(x) is the number of primes <= x which are congruent to a (mod m).
+%H A051025 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PrimeQuadraticEffect.html">Prime Quadratic Effect.</a>
+%H A051025 A. Granville and G. Martin, <a href="http://www.arXiv.org/abs/math.NT/0408319">Prime number races</a>, arXiv:0408319 [math.NT]
+%t A051025 For[i=2; d=0, True, i++, d+=Mod[p=Prime[i], 4]-2; If[d==-1, Print[p]]]
+%Y A051025 Cf. A051024, A007350, A066520.
+%Y A051025 Cf. A156749 Sequence showing Chebyshev bias in prime races (mod 4). [From _Daniel Forgues_, Mar 26 2009]
+%K A051025 nonn
+%O A051025 1,1
+%A A051025 _Eric W. Weisstein_
+%E A051025 Edited by _Dean Hickerson_, Mar 10 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

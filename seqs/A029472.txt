@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029472
+Showing 1-1 of 1
+
+%I A029472
+%S A029472 1,8,127,287,929,5216,10912,11104,208493,3404744
+%N A029472 Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 3 (most significant digit on left).
+%C A029472 No other terms below 10^8.
+%H A029472 <a href="/index/N#concat">Index entries for related sequences</a>
+%Y A029472 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029472 nonn,base,more
+%O A029472 1,2
+%A A029472 _Olivier Gérard_
+%E A029472 More terms from Larry Reeves (larryr(AT)acm.org), May 24 2001
+%E A029472 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A029472 a(10) from _Max Alekseyev_, May 12 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

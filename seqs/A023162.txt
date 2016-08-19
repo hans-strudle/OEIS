@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023162
+Showing 1-1 of 1
+
+%I A023162
+%S A023162 1,2,3,4,7,13,14,17,23,26,34,37,43,46,47,53,67,73,74,83,86,94,97,103,
+%T A023162 106,107,113,127,134,137,146,157,163,166,167,173,193,194,197,206,214,
+%U A023162 223,226,227,233,254,257,263,274,277,283,293,307,313,314,317,326,334
+%N A023162 F(n) == -1 (mod n), where F(n) = A000045(n) is the n-th Fibonacci number.
+%C A023162 If n is prime then n is in the sequence iff n == 2 or 3 (mod 5).
+%F A023162 a(n) seems to be asymptotic to c*n*log(n) where c=1.5... - _Benoit Cloitre_, Jan 10 2003
+%t A023162 Module[{nn=500,fib},fib=Thread[{Range[nn],Fibonacci[Range[nn]]}];Transpose[ Select[fib,Mod[Last[#],First[#]]==First[#]-1&]][[1]]] (* _Harvey P. Dale_, May 21 2014 *)
+%K A023162 nonn
+%O A023162 1,2
+%A A023162 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

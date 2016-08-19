@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017643
+Showing 1-1 of 1
+
+%I A017643
+%S A017643 1000,10648,39304,97336,195112,343000,551368,830584,1191016,1643032,
+%T A017643 2197000,2863288,3652264,4574296,5639752,6859000,8242408,9800344,
+%U A017643 11543176,13481272,15625000,17984728,20570824,23393656,26463592,29791000,33386248,37259704
+%N A017643 (12n+10)^3.
+%H A017643 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4, -6, 4, -1).
+%F A017643 a(n) = 4*a(n-1) - 6*a(n-2) + 4*a(n-3) - a(n-4) with a(0)=1000, a(1)=10648, a(2)=39304, a(3)=97336. [_Harvey P. Dale_, Sep 30 2011]
+%F A017643 a(n) = A017641(n)^3 = A000578(A017641(n)). - _Michel Marcus_, Nov 25 2013
+%p A017643 A017643:=(12*n+10)^3; seq(A017643(n), n=0..100); # _Wesley Ivan Hurt_, Nov 25 2013
+%t A017643 (12Range[0,30]+10)^3 (* or *) LinearRecurrence[{4,-6,4,-1},{1000,10648,39304,97336},30] (* _Harvey P. Dale_, Sep 30 2011 *)
+%K A017643 nonn,easy
+%O A017643 0,1
+%A A017643 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

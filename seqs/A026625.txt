@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026625
+Showing 1-1 of 1
+
+%I A026625
+%S A026625 1,1,2,4,7,13,21,36,58,96,155,253,409,664,1074,1740,2815,4557,7373,
+%T A026625 11932,19306,31240,50547,81789,132337,214128,346466,560596,907063,
+%U A026625 1467661,2374725,3842388,6217114,10059504,16276619,26336125
+%N A026625 Sum{T(n-k,k)}, 0<=k<=[ n/2 ], T given by A026615.
+%H A026625 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (1,2,-1,-1)
+%F A026625 For n>1, a(n) = Fibonacci(n-1) + Lucas(n) - [3+(-1)^n]/2. - _Ralf Stephan_, May 13 2004
+%t A026625 Join[{1,1},Table[Fibonacci[n-1]+LucasL[n]-(3+(-1)^n)/2,{n,2,40}]] (* or *) Join[{1,1},LinearRecurrence[{1,2,-1,-1},{2,4,7,13},40]] (* _Harvey P. Dale_, Sep 27 2011 *)
+%K A026625 nonn
+%O A026625 0,3
+%A A026625 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

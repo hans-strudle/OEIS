@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008815
+Showing 1-1 of 1
+
+%I A008815
+%S A008815 1,2,3,4,5,6,7,8,11,14,17,20,23,26,29,32,37,42,47,52,57,62,67,72,79,
+%T A008815 86,93,100,107,114,121,128,137,146,155,164,173,182,191,200,211,222,
+%U A008815 233,244,255,266,277,288,301,314
+%N A008815 Expansion of (1+x^8)/(1-x)^2/(1-x^8).
+%o A008815 (PARI) a(n)=(n*(n+2)+14+4*(n%4-1)*(-1)^(n\4))\8  \\ _Tani Akinari_, Jul 25 2013
+%K A008815 nonn,easy
+%O A008815 0,2
+%A A008815 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

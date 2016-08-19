@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011647
+Showing 1-1 of 1
+
+%I A011647
+%S A011647 1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,
+%T A011647 1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,0,1,1,0,0,0,1,
+%U A011647 1,0,0,0,1,1,0,0,0,1,1
+%V A011647 1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,1,0,-1,0,0,1,0,-1,0,0,1,0,
+%W A011647 -1,0,0,1,0,-1,0,1,0,0,-1,0,1,0,0,-1,0,1,0,0,-1,0,1,0,0,-1,1,0,0,0,-1,
+%X A011647 1,0,0,0,-1,1,0,0,0,-1,1
+%N A011647 95th cyclotomic polynomial.
+%K A011647 sign,fini,full
+%O A011647 0,1
+%A A011647 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

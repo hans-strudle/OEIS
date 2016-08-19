@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038543
+Showing 1-1 of 1
+
+%I A038543
+%S A038543 7,11,157,179,229,281,461,563,617,757,839,911,1049,1129,1237,1259,
+%T A038543 1489,1741,2129,2239,2281,2423,2477,2699,2843,2963,3307,3347,3527,
+%U A038543 3643,3659,3701,3943,4057,4079,4099,4129,4523,4789,4799,5179,5347
+%N A038543 Primes p such that Ramanujan function tau(p) is divisible by 13.
+%D A038543 R. Rankin, Ramanujan's tau-function and its generalizations, pp. 245-268 of Ramanujan Revisited, Academic Press.
+%o A038543 (Perl) use ntheory ":all"; forprimes { say unless ramanujan_tau($_) % 13; } 1e4; # _Dana Jacobsen_, Sep 05 2015
+%Y A038543 Cf. A038542, A076847.
+%K A038543 nonn
+%O A038543 1,1
+%A A038543 Paolo Dominici (pl.dm(AT)libero.it)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

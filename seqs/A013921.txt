@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013921
+Showing 1-1 of 1
+
+%I A013921
+%S A013921 4,10,18,27,49,63,78,94,112,132,153,175,224,250,305,335,400,434,469,
+%T A013921 505,543,582,622,664,708,753,799,847,896,946,1158,1214,1271,1329,1389,
+%U A013921 1514,1578,1643,1846,1916,1988,2062,2290,2368,2448,2529,2611,2695,2780,2866
+%N A013921 a(n) is composite and is sum of first k composites for some k.
+%H A013921 Harvey P. Dale, <a href="/A013921/b013921.txt">Table of n, a(n) for n = 1..10000</a>
+%t A013921 Module[{nn=100,comps},comps=Complement[Range[4,nn],Prime[ Range[ PrimePi[ nn]]]]; Select[Accumulate[comps],!PrimeQ[#]&]] (* _Harvey P. Dale_, May 21 2014 *)
+%Y A013921 Cf. A013919, A013920.
+%K A013921 nonn
+%O A013921 1,1
+%A A013921 _N. J. A. Sloane_, _Henri Lifchitz_
+%E A013921 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

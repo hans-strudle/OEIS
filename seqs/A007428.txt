@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007428
+Showing 1-1 of 1
+
+%I A007428 M2271
+%S A007428 1,3,3,3,3,9,3,1,3,9,3,9,3,9,9,0,3,9,3,9,9,9,3,3,3,9,1,
+%T A007428 9,3,27,3,0,9,9,9,9,3,9,9,3,3,27,3,9,9,9,3,0,3,9,9,9,3,
+%U A007428 3,9,3,9,9,3,27,3,9,9,0,9,27,3,9,9,27,3,3,3,9,9,9,9,27
+%V A007428 1,-3,-3,3,-3,9,-3,-1,3,9,-3,-9,-3,9,9,0,-3,-9,-3,-9,9,9,-3,3,3,9,-1,
+%W A007428 -9,-3,-27,-3,0,9,9,9,9,-3,9,9,3,-3,-27,-3,-9,-9,9,-3,0,3,-9,9,-9,-3,
+%X A007428 3,9,3,9,9,-3,27,-3,9,-9,0,9,-27,-3,-9,9,-27,-3,-3,-3,9,-9,-9,9,-27
+%N A007428 Moebius transform applied thrice to sequence 1,0,0,0,....
+%C A007428 Dirichlet inverse of A007425. [From _R. J. Mathar_, Jul 15 2010]
+%D A007428 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007428 Enrique Pérez Herrero, <a href="/A007428/b007428.txt">Table of n, a(n) for n = 1..10000</a>
+%H A007428 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A007428 Multiplicative with a(p^e) = (3 choose e) (-1)^e
+%F A007428 Dirichlet g.f.: 1/zeta(s)^3
+%F A007428 Contribution from _Enrique Pérez Herrero_, Jul 12 2010: (Start)
+%F A007428 a(n^3)=A008683(n)
+%F A007428 a(s)=(-3)^A001221(s), being s an squarefree number: A005117 (End)
+%t A007428 Contribution from _Enrique Pérez Herrero_, Jul 12 2010: (Start)
+%t A007428 tau[1,n_Integer]:=1; SetAttributes[tau, Listable];
+%t A007428 tau[k_Integer,n_Integer]:=Plus@@(tau[k-1,Divisors[n]])/; k > 1;
+%t A007428 tau[k_Integer,n_Integer]:=Plus@@(tau[k+1,Divisors[n]]*MoebiusMu[n/Divisors[n]]); k<1;
+%t A007428 A007428[n_]:=tau[ -3,n]; (End)
+%o A007428 (Haskell)
+%o A007428 a007428 n = product
+%o A007428    [a007318' 3 e * cycle [1,-1] !! fromIntegral e | e <- a124010_row n]
+%o A007428 -- _Reinhard Zumkeller_, Oct 09 2013
+%Y A007428 Consecutive nested Dirichlet convolution: A063524, A008683 or A007427 [From _Enrique Pérez Herrero_, Jul 12 2010]
+%Y A007428 Cf. A124010.
+%K A007428 sign,easy,nice,mult
+%O A007428 1,2
+%A A007428 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

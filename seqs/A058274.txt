@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058274
+Showing 1-1 of 1
+
+%I A058274
+%S A058274 1,7,17,39,57,111,131,220,260,379,403,642,611,870,944,1244,1193,1729,
+%T A058274 1575,2200,2168,2679,2538,3645,3182,4063,4048,5051,4530,6284,5352,
+%U A058274 7037,6674,7939,7434,10035,8329,10482,10125,12500,10765,14427
+%N A058274 An approximation to sigma_{5/2}(n): ceiling( sum_{d|n} d^(5/2) ).
+%p A058274 f := proc(n) local d, t1, t2; t2 := 0; t1 := divisors(n); for d in t1 do t2 := t2 + d^(5/2) end do; t2; end proc; # exact value of sigma_{5/2}(n)
+%K A058274 nonn
+%O A058274 1,2
+%A A058274 _N. J. A. Sloane_, Dec 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

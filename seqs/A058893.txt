@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058893
+Showing 1-1 of 1
+
+%I A058893
+%S A058893 1,5,9,22,112,118,93,899,2346,1773,386,5940,27446,48426,28650,1586,
+%T A058893 35138,247752,745180,995290,484578
+%N A058893 Triangle arising in enumeration of maps on projective plane.
+%D A058893 E. A. Bender, E. R. Canfield and R. W. Robinson, The enumeration of maps on the torus and the projective plane, Canad. Math. Bull., 31 (1988), 257-271; see p. 270.
+%e A058893 1; 5,9; 22,112,118; 93,899,2346,1773; ...
+%Y A058893 A000346 is first column.
+%K A058893 nonn,tabl
+%O A058893 1,2
+%A A058893 _N. J. A. Sloane_, Jan 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009565
+Showing 1-1 of 1
+
+%I A009565
+%S A009565 0,1,2,4,16,96,576,3368,20672,141760,1091200,9098112,79676928,
+%T A009565 726208640,6919738112,69344336896,731241201664,8076031881216,
+%U A009565 92856867250176,1106883171037184,13655807547883520,174298975125127168
+%N A009565 Expansion of sinh(exp(x).x).
+%t A009565 Sinh[ Exp[ x ]*x ]
+%K A009565 nonn,easy
+%O A009565 0,3
+%A A009565 _R. H. Hardin_
+%E A009565 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

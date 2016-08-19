@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023091
+Showing 1-1 of 1
+
+%I A023091
+%S A023091 0,1359,11688,11883,12903,13029,13359,13449,13590,13599,13659,107583,
+%T A023091 108726,111873,116688,116880,116988,118731,118830,118833,119883,
+%U A023091 123876,124875,126888,127389,129003,129030,129033,129903,130029,130149,130290
+%N A023091 Numbers n such that n and 7*n are anagrams.
+%C A023091 All terms are divisible by 3. _Eric M. Schmidt_, Jul 12 2014
+%H A023091 David W. Wilson, <a href="/A023091/b023091.txt">Table of n, a(n) for n = 1..10001</a>
+%K A023091 nonn,base
+%O A023091 1,2
+%A A023091 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

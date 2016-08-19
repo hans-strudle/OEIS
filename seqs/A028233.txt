@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028233
+Showing 1-1 of 1
+
+%I A028233
+%S A028233 1,2,3,4,5,2,7,8,9,2,11,4,13,2,3,16,17,2,19,4,3,2,23,8,25,2,27,4,29,2,
+%T A028233 31,32,3,2,5,4,37,2,3,8,41,2,43,4,9,2,47,16,49,2,3,4,53,2,5,8,3,2,59,
+%U A028233 4,61,2,9,64,5,2,67,4,3,2,71,8,73,2,3,4,7,2,79,16,81,2,83,4,5,2
+%N A028233 If n = p_1^e_1 * ... * p_k^e_k, p_1 < ... < p_k primes, then a(n) = p_1^e_1.
+%C A028233 Highest power of smallest prime dividing n. - _Reinhard Zumkeller_, Apr 09 2015
+%H A028233 T. D. Noe and Reinhard Zumkeller, <a href="/A028233/b028233.txt">Table of n, a(n) for n = 1..10000</a>, first 1000 terms by T. D. Noe
+%F A028233 a(n) = A020639(n)^A067029(n). - _Reinhard Zumkeller_, May 13 2006
+%F A028233 a(n) = A141809(n,1). - _Reinhard Zumkeller_, Jun 04 2012
+%t A028233 a[n_] := Power @@ First[ FactorInteger[n]]; Table[a[n], {n, 1, 86}] (* _Jean-François Alcover_, Dec 01 2011 *)
+%o A028233 (Haskell)
+%o A028233 a028233 = head . a141809_row
+%o A028233 -- _Reinhard Zumkeller_, Jun 04 2012, Aug 17 2011
+%o A028233 (PARI) a(n)=if(n>1,n=factor(n);n[1,1]^n[1,2],1) \\ _Charles R Greathouse IV_, Apr 26 2012
+%Y A028233 Cf. A020639, A006530, A034684, A034699, A053585.
+%Y A028233 See also A028234.
+%Y A028233 Cf. A008475.
+%Y A028233 Cf. A141809.
+%K A028233 nonn,nice,easy
+%O A028233 1,2
+%A A028233 _Marc LeBrun_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

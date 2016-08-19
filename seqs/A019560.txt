@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019560
+Showing 1-1 of 1
+
+%I A019560
+%S A019560 1,32,192,608,1408,2720,4672,7392,11008,15648,21440,28512,36992,47008,
+%T A019560 58688,72160,87552,104992,124608,146528,170880,197792,227392,259808,
+%U A019560 295168,333600,375232,420192,468608
+%N A019560 Coordination sequence for C_4 lattice.
+%D A019560 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A019560 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%F A019560 (32/3)*n*(1+2*n^2), n >= 1; G.f.: (1+28*x+70*x^2+28*x^3+x^4)/(1-x)^4.
+%K A019560 nonn
+%O A019560 0,2
+%A A019560 mbaake(AT)sunelc3.tphys.physik.uni-tuebingen.de (Michael Baake)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

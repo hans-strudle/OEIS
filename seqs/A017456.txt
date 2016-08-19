@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017456
+Showing 1-1 of 1
+
+%I A017456
+%S A017456 390625,4294967296,282429536481,4347792138496,33232930569601,
+%T A017456 167961600000000,645753531245761,2044140858654976,5595818096650401,
+%U A017456 13685690504052736,30590228625390625,63527879748485376
+%N A017456 (11*n+5)^8.
+%H A017456 Vincenzo Librandi, <a href="/A017456/b017456.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017456 (11Range[0,20]+5)^8  (* _Harvey P. Dale_, Apr 23 2011 *)
+%o A017456 (MAGMA) [(11*n+5)^8: n in [0..20]]; // Vincenzo Librandi, Sep 03 2011
+%K A017456 nonn,easy
+%O A017456 0,1
+%A A017456 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

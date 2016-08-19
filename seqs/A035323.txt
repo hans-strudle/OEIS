@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035323
+Showing 1-1 of 1
+
+%I A035323
+%S A035323 1,55,3850,298375,24466750,2079673750,181228712500,16084048234375,
+%T A035323 1447564341093750,131728355039531250,12095058053629687500,
+%U A035323 1118792869960746093750,104133797896346367187500
+%N A035323 Related to deca-factorial numbers A045757.
+%C A035323 Convolution of A035308(n-1) with A025755(n), n >= 1.
+%H A035323 W. Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), #00.2.4.
+%H A035323 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035323 a(n) = 10^(n-1)*A045757(n)/n!, A045757(n)= (10*n-9)(!^10) := product(10*j-9, j=1..n); G.f. (-1+(1-100*x)^(-1/10))/10.
+%Y A035323 Cf. A045757, A035308, A025755.
+%K A035323 easy,nonn
+%O A035323 1,2
+%A A035323 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

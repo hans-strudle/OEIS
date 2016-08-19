@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031904
+Showing 1-1 of 1
+
+%I A031904
+%S A031904 11,43,83,131,179,229,277,337,389,443,499,569,617,673,739,809,859,929,
+%T A031904 991,1049,1103,1181,1237,1301,1381,1451,1499,1571,1621,1699,1777,1861,
+%U A031904 1913,1997,2063,2129,2207,2273,2341,2393,2467,2551,2647
+%N A031904 Primes p(9n-4).
+%o A031904 (MAGMA)  [ NthPrime(9*n-4): n in [1..1000] ]; // Vincenzo Librandi, Apr 09 2011
+%K A031904 nonn
+%O A031904 1,1
+%A A031904 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020085
+Showing 1-1 of 1
+
+%I A020085
+%S A020085 1,0,0,0,1,7,36,228,1647,13507,124268,1267542,14196477,173197024,
+%T A020085 2286200718,32464050199,493453563029,7993947721071,137495900802423,
+%U A020085 2502425394604113,48046567576398986,970540665043259525
+%N A020085 Integer part of GAMMA(n+1/5)/GAMMA(1/5).
+%p A020085 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020085 nonn
+%O A020085 0,6
+%A A020085 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

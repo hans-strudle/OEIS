@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052180
+Showing 1-1 of 1
+
+%I A052180
+%S A052180 2,2,3,2,3,2,3,5,2,5,3,2,3,7,5,2,5,3,2,7,3,5,7,3,2,3,2,3,11,3,7,2,11,
+%T A052180 2,5,7,3,13,5,2,11,2,3,2,11,13,3,2,3,5,2,13,11,7,5,2,5,3,2,17,13,3,2,
+%U A052180 3,17,5,11,2,3,5,19,7,13,3,5,17,3,13,7,2,7,2,19,3,5,11,3,2,3,11,13,3,17
+%N A052180 Last filtering prime for n-th prime p: find smallest prime factor of each of the composite numbers between p and next prime; take maximal value.
+%H A052180 T. D. Noe, <a href="/A052180/b052180.txt">Table of n, a(n) for n=2..10000</a>
+%F A052180 a(n)=Max[{A020639[j], j=1+p[n], ..., p[n+1]-1}= Max[{Min{p|p divides j}, j=1+p[n], ..., p[n+1]-1}.
+%e A052180 For n=9, n-th prime is 23, composites between 23 and next prime are 24 25 26 27 28, smallest prime divisors are 2 5 2 3 2; maximal value is 5, so a(9)=5.
+%t A052180 ffi[x_] := Flatten[FactorInteger[x]] lf[x_] := Length[FactorInteger[x]] ba[x_] := Table[Part[ffi[x], 2*w-1], {w, 1, lf[x]}] mi[x_] := Min[ba[x]] Table[Max[Table[mi[ba[w]], {w, Prime[j]+1, -1+Prime[j+1]}]], {j, 1, 256}]
+%t A052180 mpf[{a_,b_}]:=Max[FactorInteger[#][[1,1]]&/@Range[a+1,b-1]]; mpf/@ Partition[ Prime[Range[2,100]],2,1] (* _Harvey P. Dale_, Apr 30 2013 *)
+%o A052180 (Haskell)
+%o A052180 a052180 n = a052180_list !! (n-2)
+%o A052180 a052180_list = f [4..] where
+%o A052180    f ws = (maximum $ map a020639 us) : f vs where
+%o A052180      (us, _:vs) = span  ((== 0) . a010051) ws
+%o A052180 -- _Reinhard Zumkeller_, Dec 27 2012
+%Y A052180 Cf. A052248, A020639, A000720, A083269, A000879.
+%Y A052180 Cf. A010051.
+%K A052180 nonn,easy,nice
+%O A052180 2,1
+%A A052180 _Labos Elemer_, Feb 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

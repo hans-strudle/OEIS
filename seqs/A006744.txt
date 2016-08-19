@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006744
+Showing 1-1 of 1
+
+%I A006744 M1073
+%S A006744 1,2,4,7,13,24,44,77,139,250,450,788,1403,2498,4447,7782,13769,24363,
+%T A006744 43106,75396,132865,234171,412731,721433,1267901,2228666,3917654,
+%U A006744 6843596,12004150,21059478
+%N A006744 Number of n-step self-avoiding walks on Manhattan lattice.
+%D A006744 S. S. Manna and A. J. Guttmann, Kinetic growth walks..., J. Phys. A 22 (1989), 3113-3122.
+%D A006744 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006744 H. Jamke, <a href="/A006744/b006744.txt">Table of n, a(n) for n=1..53</a> [From Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 13 2010]
+%H A006744 D. Bennett-wood, J. L. Cardy, I. Enting , A. J. Guttmann and A. L. Owczarek, <a href="http://www.ms.unimelb.edu.au/publications/pub-37-41.pdf">On the Non-Universality of a Critical Exponent for Self-Avoiding~Walks</a>, Nuc. Phys. B, 528, 533--552, 1998. [From Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 13 2010]
+%K A006744 nonn,walk
+%O A006744 1,2
+%A A006744 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

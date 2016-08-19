@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005988
+Showing 1-1 of 1
+
+%I A005988 M1732
+%S A005988 2,7,9,17,19,20,26,28,37,43,63,65,91,124,126,182,215,217,254,342,344,
+%T A005988 422,511,513,614,635,651,728,730,813,999,1001,1330,1332,1521,1588,
+%U A005988 1657,1727
+%N A005988 x^3 + n*y^3 = 1 is solvable.
+%D A005988 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005988 H. C. Williams and R. Holte, Computation of the solution of x^3 + D y^3 = 1, Mathematics of Computation, Vol. 31, No. 139. (Jul., 1977), pp. 778-785.
+%D A005988 H. C. Williams and C. R. Zarnke, Computation of the solutions of the Diophantine equation x^3+dy^3=1, Proc. Conf. Numerical Maths., Winnipeg (1971), 671-676.
+%t A005988 m = 400; s = {}; Do[If[x*y < 0, r = Reduce[ n > 0 && x^3 + n*y^3 == 1, n, Integers]; If[r =!= False, AppendTo[s, n /. ToRules[r]]]], {x, -m, m}, {y, -m, m}]; Union[s] [[1 ;; 38]] (* _Jean-François Alcover_, Jun 08 2011 *)
+%Y A005988 Cf. A055735, A259453.
+%K A005988 nonn
+%O A005988 1,1
+%A A005988 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027804
+Showing 1-1 of 1
+
+%I A027804
+%S A027804 70,756,4410,18480,62370,180180,462462,1081080,2342340,4764760,
+%T A027804 9189180,16930368,29980860,51279480,85058820,137287920,216228474,
+%U A027804 333125100,503052550,745945200,1087836750,1562340780,2212405650
+%N A027804 a(n) = 14*(n+1)*C(n+4,8).
+%H A027804 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (10,-45,120,-210,252,-210,120,-45,10,-1).
+%F A027804 Number of 13-subsequences of [ 1, n ] with just 4 contiguous pairs; g.f. 14*(5+4x)*x^4/(1-x)^10.
+%F A027804 a(n) = C(n+1, 5)*C(n+4, 4). - _Zerinvary Lajos_, May 10 2005, corrected by _R. J. Mathar_, Feb 10 2016
+%K A027804 nonn,easy
+%O A027804 4,1
+%A A027804 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

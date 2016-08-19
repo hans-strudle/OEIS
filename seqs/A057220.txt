@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057220
+Showing 1-1 of 1
+
+%I A057220
+%S A057220 2,4,6,8,12,14,18,36,68,152,212,324,1434,1592,1668,3338,7908,9662
+%N A057220 Numbers n such that 2^n - 23 is prime.
+%C A057220 Note that for the values 2 and 4 the primes are negative.
+%t A057220 Do[ If[ PrimeQ[ 2^n - 23 ], Print[ n ] ], { n, 1, 15000} ]
+%K A057220 nonn
+%O A057220 1,1
+%A A057220 _Robert G. Wilson v_, Sep 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

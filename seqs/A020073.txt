@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020073
+Showing 1-1 of 1
+
+%I A020073
+%S A020073 1,0,0,0,0,3,19,120,861,7000,63875,646742,7195012,87239530,1145018831,
+%T A020073 16173391001,244622538902,3944538439805,67550220781671,
+%U A020073 1224347751667801,23415650750646695,471239971356764753
+%N A020073 Integer part of GAMMA(n+1/8)/GAMMA(1/8).
+%p A020073 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%o A020073 (PARI) A020073(n)={ if(n==0, 1, truncate(prod(i=1,n,n-i+1/8)) ) ; } { for(n=0,30, print(A020073(n)" ") ; ) ; } - _R. J. Mathar_, Feb 07 2008
+%K A020073 nonn
+%O A020073 0,6
+%A A020073 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

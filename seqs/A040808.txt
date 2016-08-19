@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040808
+Showing 1-1 of 1
+
+%I A040808
+%S A040808 28,1,13,2,13,1,56,1,13,2,13,1,56,1,13,2,13,1,56,1,13,2,13,1,56,1,13,
+%T A040808 2,13,1,56,1,13,2,13,1,56,1,13,2,13,1,56,1,13,2,13,1,56,1,13,2,13,1,
+%U A040808 56,1,13,2,13,1,56,1,13,2,13,1,56,1,13,2,13,1,56,1,13
+%N A040808 Continued fraction for sqrt(837).
+%H A040808 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040808 a(n)=(1/90)*{-79*(n mod 6)+266*[(n+1) mod 6]-79*[(n+2) mod 6]+251*[(n+3) mod 6]-94*[(n+4) mod 6]+911*[(n+5) mod 6]}-28*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 29 2009]
+%p A040808 with(numtheory): Digits := 300: convert(evalf(sqrt(837)),confrac);
+%K A040808 nonn,cofr,easy
+%O A040808 0,1
+%A A040808 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025618
+Showing 1-1 of 1
+
+%I A025618
+%S A025618 1,4,6,16,24,36,64,96,144,216,256,384,576,864,1024,1296,1536,2304,
+%T A025618 3456,4096,5184,6144,7776,9216,13824,16384,20736,24576,31104,36864,
+%U A025618 46656,55296,65536,82944,98304,124416,147456,186624,221184,262144,279936
+%N A025618 Numbers of form 4^i*6^j, with i, j >= 0.
+%t A025618 f[upto_]:=Module[{max4=Floor[Log[upto]/Log[4]],max6=Floor[Log[upto]/Log[6]],seq},seq=Union[4^First[#] 6^Last[#]&/@Tuples[{Range[0,max4],Range[0,max6]}]];Select[seq,#<=upto&]];f[300000]  (* _Harvey P. Dale_, Mar 05 2011 *)
+%K A025618 easy,nonn
+%O A025618 1,2
+%A A025618 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007333
+Showing 1-1 of 1
+
+%I A007333 M3306
+%S A007333 0,0,0,0,0,0,0,0,4,7,12,18,37,53,75,100,152
+%N A007333 Biplanar crossing number of complete graph on n nodes.
+%D A007333 A. Owens, On the biplanar crossing number, IEEE Trans. Circuit Theory, 18 (1971), 277-280.
+%D A007333 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A007333 Cf. A000241.
+%K A007333 nonn,nice
+%O A007333 1,9
+%A A007333 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

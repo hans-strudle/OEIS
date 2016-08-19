@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052794
+Showing 1-1 of 1
+
+%I A052794
+%S A052794 0,0,0,0,0,0,720,2520,13440,90720,725760,6652800,68428800,778377600,
+%T A052794 9686476800,130767436800,1902071808000,29640619008000,492490285056000,
+%U A052794 8688935743488000,162193467211776000
+%N A052794 E.g.f.: -x^5*log(1-x).
+%H A052794 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=751">Encyclopedia of Combinatorial Structures 751</a>
+%F A052794 E.g.f.: x^5*log(-1/(-1+x)).
+%F A052794 Recurrence: a(1)=0, a(2)=0, a(4)=0, a(3)=0, a(5)=0, a(6)=720, (-n^2+4*n+5)*a(n) + (-4+n)*a(n+1)=0.
+%p A052794 spec := [S,{B=Cycle(Z),S=Prod(Z,Z,Z,Z,Z,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052794 easy,nonn
+%O A052794 0,7
+%A A052794 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

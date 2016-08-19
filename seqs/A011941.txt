@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011941
+Showing 1-1 of 1
+
+%I A011941
+%S A011941 0,0,0,0,0,3,11,27,54,97,162,255,383,553,774,1056,1409,1842,2369,3000,
+%T A011941 3750,4633,5663,6855,8226,9793,11574,13587,15851,18387,21216,24360,
+%U A011941 27840,31680,35904,40536,45603
+%N A011941 [ n(n-1)(n-2)(n-3)/31 ].
+%K A011941 nonn
+%O A011941 0,6
+%A A011941 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

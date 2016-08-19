@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056159
+Showing 1-1 of 1
+
+%I A056159
+%S A056159 1,5,33,250,2000,16666,142857,1250000,11111111,100000000,909090909,
+%T A056159 8333333333,76923076923,714285714285,6666666666666,62500000000000
+%N A056159 a(n)=floor[10^(n-1)/n].
+%H A056159 <a href="/index/1#1overn">Index entries for sequences related to decimal expansion of 1/n</a>
+%Y A056159 Cf. A057072.
+%K A056159 nonn
+%O A056159 1,2
+%A A056159 _Henry Bottomley_, Jul 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006781
+Showing 1-1 of 1
+
+%I A006781 M1788
+%S A006781 1,2,7,32,168,970,5984,38786,261160,1812630,12895360,93638634,
+%T A006781 691793872,5186869122,39388514522,302457399674,2345362579172,
+%U A006781 18345337742960,144612959167806,1147920496989270,9169516892088470
+%N A006781 Number of polygons of length 4n on Manhattan lattice.
+%D A006781 I. G. Enting and A. J. Guttmann, Self-avoiding polygons on the square, L and Manhattan lattices, J. Phys. A 18 (1985), 1007-1017.
+%D A006781 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006781 D. Bennett-wood, J. L. Cardy, I. Enting, A. J. Guttmann and A. L. Owczarek, <a href="http://www.ms.unimelb.edu.au/publications/pub-37-41.pdf">On the Non-Universality of a Critical Exponent for Self-Avoiding~Walks</a>, Nuc. Phys. B, 528, 533--552, 1998. [From Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 13 2010]
+%K A006781 nonn,walk,nice
+%O A006781 1,2
+%A A006781 _N. J. A. Sloane_
+%E A006781 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 13 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

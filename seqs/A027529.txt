@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027529
+Showing 1-1 of 1
+
+%I A027529
+%S A027529 1,5,26,247,2971,11729,17212,22396,30830,157265,210937,13364063,
+%T A027529 311800655,779670085
+%N A027529 Second column of A027516.
+%F A027529 Numerators of sequence a[ 2, n ] in (a[ i, j ])^2 where a[ i, j ] = T(i, j)/Partitions(i) if j<=i, 0 if j>i
+%K A027529 nonn
+%O A027529 2,2
+%A A027529 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

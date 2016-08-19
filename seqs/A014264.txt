@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014264
+Showing 1-1 of 1
+
+%I A014264
+%S A014264 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,0,0,
+%T A014264 0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014264 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014264 1,-1,0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,1,-1,0,1,-1,1,0,-1,1,0,0,0,0,0,
+%W A014264 0,0,0,1,-1,0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014264 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014264 Inverse of 255th cyclotomic polynomial.
+%H A014264 Vincenzo Librandi, <a href="/A014264/b014264.txt">Table of n, a(n) for n = 0..1000</a>
+%p A014264 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014264 CoefficientList[Series[1/Cyclotomic[255, x], {x, 0, 200}], x] (* _Vincenzo Librandi_, Sep 08 2013 *)
+%o A014264 (MAGMA) t:=255; u:=2; m:=u*t+2; R<x>:=PowerSeriesRing(Integers(), m); Coefficients(R!(1/CyclotomicPolynomial(t))); // _Vincenzo Librandi_, Apr 08 2014
+%K A014264 sign,easy
+%O A014264 0,1
+%A A014264 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

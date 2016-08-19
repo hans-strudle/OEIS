@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061973
+Showing 1-1 of 1
+
+%I A061973
+%S A061973 1,19,57,741,1653,44707,1434853,4392463
+%N A061973 Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 20 (most significant digit on right).
+%C A061973 This sequence differs from A029537 in that all least significant zeros are kept during concatenation.
+%C A061973 No more terms < 8*10^6. [Lars Blomberg, Jul 29 2011]
+%H A061973 <a href="/index/N#concat">Index entries for related sequences</a>
+%e A061973 See A061955 for example.
+%Y A061973 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A061973 nonn,base,more
+%O A061973 1,2
+%A A061973 Larry Reeves (larryr(AT)acm.org), May 24 2001
+%E A061973 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A061973 a(7)-a(8) from _Lars Blomberg_, Jul 29 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

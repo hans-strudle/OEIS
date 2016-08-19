@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050815
+Showing 1-1 of 1
+
+%I A050815
+%S A050815 6,5,5,4,5,5,5,4,5,5,5,5,4,5,5,5,5,4,5,5,5,4,5,5,5,5,4,5,5,5,5,4,5,5,
+%T A050815 5,4,5,5,5,5,4,5,5,5,4,5,5,5,5,4,5,5,5,5,4,5,5,5,4,5,5,5,5,4,5,5,5,5,
+%U A050815 4,5,5,5,4,5,5,5,5,4,5,5,5,5,4,5,5,5,4,5,5,5,5,4,5,5,5,5,4,5,5,5,4,5,5,5,5
+%N A050815 Number of nonzero Fibonacci numbers of length n.
+%C A050815 If n>1 then a(n) = 4 or 5. - _Robert Gerbicz_, Sep 05 2002
+%C A050815 The sequence is almost periodic, see also A072353. - _Reinhard Zumkeller_, Apr 14 2005
+%H A050815 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fibtable.html">The Fibonacci Numbers</a>.
+%H A050815 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fib.html">Fibonacci Numbers and the Golden Section</a>
+%H A050815 Ron Knott, <a href="http://www.mcs.surrey.ac.uk/Personal/R.Knott/Fibonacci/fibFormula.html">[Number of digits in Fib(i)] : Calculator</a>.
+%H A050815 Jürgen Spilker, <a href="http://dx.doi.org/10.5169/seals-8480">Die Ziffern der Fibonacci-Zahlen</a>, Elemente der Mathematik 58 (Birkhäuser 2003).
+%H A050815 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/FibonacciNumber.html">Fibonacci Number</a>
+%H A050815 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/AlmostPeriodicFunction.html">Almost Periodic Function</a>
+%e A050815 At length 1 there are 6 such numbers -> 1, 1, 2, 3, 5 and 8.
+%t A050815 Drop[Last/@Tally[Table[IntegerLength[Fibonacci[n]],{n,505}]],-1] (* _Jayanta Basu_, Jun 01 2013 *)
+%Y A050815 Cf. A000045. See A098842 for another version.
+%Y A050815 Cf. A105563, A105565, A060384.
+%K A050815 nonn,base
+%O A050815 1,1
+%A A050815 _Patrick De Geest_, Oct 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

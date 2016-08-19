@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027963
+Showing 1-1 of 1
+
+%I A027963
+%S A027963 1,6,19,47,101,199,370,661,1148,1954,3278,5442,8967,14696,23993,39065,
+%T A027963 63483,103025,167040,270655,438346,709716,1148844,1859412,3009181,
+%U A027963 4869594,7879855,12750611,20631713,33383659,54016798
+%N A027963 T(n,n+3), T given by A027960.
+%F A027963 G.f.: x^3(1+2x)/[(1-x)^3*(1-x-x^2)]. Differences of A027964. - _Ralf Stephan_, Feb 07 2004
+%F A027963 Lucas(n+4) - (3n^2+5n+14).
+%t A027963 t[_, 0] = 1; t[_, 1] = 3; t[n_, k_] /; (k == 2*n) = 1; t[n_, k_] := t[n, k] = t[n-1, k-2] + t[n-1, k-1]; Table[t[n, n+3], {n, 3, 33}]  (* _Jean-François Alcover_, Dec 27 2013 *)
+%K A027963 nonn
+%O A027963 3,2
+%A A027963 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

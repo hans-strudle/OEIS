@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057771
+Showing 1-1 of 1
+
+%I A057771
+%S A057771 1,1,1,2,6,109,23746,106228849,9365022303540,20890436195945769617,
+%T A057771 1478157455158044452849321016
+%N A057771 Number of loops (quasigroups with an identity element) of order n.
+%D A057771 A. Hulpke, P. Kaski and P. R. J. Ostergard, The number of Latin squares of order 11, Preprint, 2009.
+%H A057771 <a href="/index/Qua#quasigroups">Index entries for sequences related to quasigroups</a>
+%H A057771 B. D. McKay, A. Meynert and W. Myrvold, <a href="http://cs.anu.edu.au/~bdm/papers/ls_final.pdf">Small Latin Squares, Quasigroups and Loops</a>, J. Combin. Designs 15 (2007), no. 2, 98-119.
+%Y A057771 Cf. A000315, A057991-A057994, A057996, A057995, A089925.
+%K A057771 nonn,more,nice
+%O A057771 1,4
+%A A057771 _Christian G. Bower_, Nov 01 2000
+%E A057771 a(8) from Juergen Buntrock (jubu(AT)jubu.com), Nov 03 2003.
+%E A057771 Two more terms (from the McKay-Meynert-Myrvold article) from Richard Bean (rwb(AT)eskimo.com), Feb 17 2004
+%E A057771 There are 1478157455158044452849321016 isomorphism classes of loops of order 11. - Petteri Kaski (petteri.kaski(AT)cs.helsinki.fi), Sep 18 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

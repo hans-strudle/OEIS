@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024003
+Showing 1-1 of 1
+
+%I A024003
+%S A024003 1,0,31,242,1023,3124,7775,16806,32767,59048,99999,161050,
+%T A024003 248831,371292,537823,759374,1048575,1419856,1889567,2476098,
+%U A024003 3199999,4084100,5153631,6436342,7962623,9765624,11881375,14348906,17210367,20511148
+%V A024003 1,0,-31,-242,-1023,-3124,-7775,-16806,-32767,-59048,-99999,-161050,
+%W A024003 -248831,-371292,-537823,-759374,-1048575,-1419856,-1889567,-2476098,
+%X A024003 -3199999,-4084100,-5153631,-6436342,-7962623,-9765624,-11881375,-14348906,-17210367,-20511148
+%N A024003 a(n) = 1 - n^5.
+%H A024003 Vincenzo Librandi, <a href="/A024003/b024003.txt">Table of n, a(n) for n = 0..555</a>
+%t A024003 1-Range[0,50]^5 (* _Vladimir Joseph Stephan Orlovsky_, Feb 20 2011 *)
+%o A024003 (MAGMA) [1-n^5: n in [0..50]]; // _Vincenzo Librandi_, Apr 29 2011
+%Y A024003 Cf. A024049.
+%K A024003 sign,easy
+%O A024003 0,3
+%A A024003 _N. J. A. Sloane_.
+%E A024003 More terms from _Harvey P. Dale_, Feb 22 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

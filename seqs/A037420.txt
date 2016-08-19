@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037420
+Showing 1-1 of 1
+
+%I A037420
+%S A037420 1,2,17,66,129,136,514,522,528,529,530,578,592,640,641,642,1025,1032,
+%T A037420 1033,1034,1041,1088,1097,1104,1105,1106,1153,1160,4098,4106,4112,
+%U A037420 4113,4114,4162,4170,4176,4177,4178,4224,4225,4226,4232,4233,4234
+%N A037420 Numbers n such that the set of base 3 digits of n equals the set of base 8 digits of n.
+%K A037420 nonn,base
+%O A037420 1,2
+%A A037420 _Clark Kimberling_
+%E A037420 Corrected by Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

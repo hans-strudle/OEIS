@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053568
+Showing 1-1 of 1
+
+%I A053568
+%S A053568 2,4,6,6,10,12,6,8,16,18,12,22,20,12,18,28,30,20,16,24,36,18,24,40,42,
+%T A053568 24,46,42,20,32,52,40,36,58,60,30,36,48,66,32,44,70,72,36,40,36,60,78,
+%U A053568 54,82,64,42,56,88,24,72,60,46,72,96,42,60,100,102,48,106
+%N A053568 Totients of nontotient numbers.
+%C A053568 See comment at analogous A053474.
+%F A053568 a(n) = A000010(A007617(n)).
+%e A053568 If n=19 then no number x so that phi(x) = 19,however phi(19) = 18; n=27 is also a nontotient number of which totient is also 18.
+%Y A053568 Cf. A000010, A007617.
+%K A053568 nonn
+%O A053568 1,1
+%A A053568 _Labos Elemer_, Jan 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

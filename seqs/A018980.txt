@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018980
+Showing 1-1 of 1
+
+%I A018980
+%S A018980 2,7,25,155,1109,6599,41916,268294,1804922
+%N A018980 Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite APD = AlPO4-D [ Al16P16O64 ].
+%D A018980 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A018980 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A018980 nonn
+%O A018980 2,1
+%A A018980 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

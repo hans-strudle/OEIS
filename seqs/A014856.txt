@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014856
+Showing 1-1 of 1
+
+%I A014856
+%S A014856 1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,
+%T A014856 0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,
+%U A014856 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014856 Inverse of 847th cyclotomic polynomial.
+%p A014856 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n, x), x,80); c(847);
+%K A014856 sign
+%O A014856 0,1
+%A A014856 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

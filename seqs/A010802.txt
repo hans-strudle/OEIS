@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010802
+Showing 1-1 of 1
+
+%I A010802
+%S A010802 0,1,16384,4782969,268435456,6103515625,78364164096,678223072849,
+%T A010802 4398046511104,22876792454961,100000000000000,379749833583241,
+%U A010802 1283918464548864,3937376385699289,11112006825558016,29192926025390625
+%N A010802 14th powers: a(n) = n^14.
+%C A010802 Totally multiplicative sequence with a(p) = p^14 for prime p. Multiplicative sequence with a(p^e) = p^(14e). [From _Jaroslav Krizek_, Nov 01 2009]
+%H A010802 Vincenzo Librandi, <a href="/A010802/b010802.txt">Table of n, a(n) for n = 0..1000</a>
+%t A010802 Range[0,20]^14 (* _Harvey P. Dale_, Nov 08 2011 *)
+%o A010802 (MAGMA) [n^14: n in [0..15]]; // Vincenzo Librandi, Jun 19 2011
+%K A010802 nonn,mult
+%O A010802 0,3
+%A A010802 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038461
+Showing 1-1 of 1
+
+%I A038461
+%S A038461 1023,1535,1791,1919,1983,2015,2031,2039,2043,2045,2046,2559,2815,
+%T A038461 2943,3007,3039,3055,3063,3067,3069,3070,3327,3455,3519,3551,3567,
+%U A038461 3575,3579,3581,3582,3711,3775,3807,3823,3831,3835,3837,3838,3903
+%N A038461 Sums of 10 distinct powers of 2.
+%H A038461 Ivan Neretin, <a href="/A038461/b038461.txt">Table of n, a(n) for n = 1..10000</a>
+%o A038461 (PARI) isok(n) = hammingweight(n) == 10; \\ _Michel Marcus_, Feb 29 2016
+%Y A038461 Base 2 interpretation of A038452.
+%K A038461 nonn,easy
+%O A038461 1,1
+%A A038461 _Olivier Gérard_
+%E A038461 Offset changed to 1 by _Ivan Neretin_, Feb 28 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

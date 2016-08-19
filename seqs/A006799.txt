@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006799
+Showing 1-1 of 1
+
+%I A006799 M0302
+%S A006799 1,2,2,4,3,8,4,14,9,22,8,74,14,56,48,286,36,380,60,1214,240,816,188,
+%T A006799 15506,464,4236,1434,25850,1182,46308,2192
+%N A006799 Number of vertex-transitive graphs with n nodes.
+%D A006799 CRC Handbook of Combinatorial Designs, 1996, p. 649.
+%D A006799 Brendan McKay, personal communication.
+%D A006799 McKay, Brendan D.; Royle, Gordon F.; The transitive graphs with at most $26$ vertices. Ars Combin. 30 (1990), 161-176.
+%D A006799 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006799 Steven Skiena, <a href="http://www.cs.sunysb.edu/~skiena/combinatorica/graphs/">A Database of Graphs in Combinatorica Format</a>.
+%H A006799 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Vertex-TransitiveGraph.html">Vertex-Transitive Graph</a>
+%H A006799 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CayleyGraph.html">Cayley Graph</a>
+%K A006799 nonn,nice,more,hard
+%O A006799 1,2
+%A A006799 _N. J. A. Sloane_.
+%E A006799 More terms from _Vladeta Jovovic_, Jun 30 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

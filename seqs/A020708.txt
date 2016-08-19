@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020708
+Showing 1-1 of 1
+
+%I A020708
+%S A020708 4,9,20,44,97,214,472,1041,2296,5064,11169,24634,54332,119833,264300,
+%T A020708 582932,1285697,2835694,6254320,13794337,30424368,67103056,148000449,
+%U A020708 326425266,719953588,1587907625,3502240516,7724434620,17036776865,37575794246,82876023112
+%N A020708 Pisot sequences E(4,9), P(4,9).
+%F A020708 a(n) = 2*a(n-1) + a(n-3) (holds at least up to n = 1000 but is not known to hold in general).
+%t A020708 RecurrenceTable[{a[0] == 4, a[1] == 9, a[n] == Floor[a[n - 1]^2/a[n - 2] + 1/2]}, a, {n, 0, 30}] (* _Bruno Berselli_, Feb 05 2016 *)
+%o A020708 (MAGMA) Exy:=[4,9]; [n le 2 select Exy[n] else Floor(Self(n-1)^2/Self(n-2) + 1/2): n in [1..40]]; // _Bruno Berselli_, Feb 05 2016
+%Y A020708 It appears that this is a subsequence of A008998.
+%Y A020708 See A008776 for definitions of Pisot sequences.
+%K A020708 nonn
+%O A020708 0,1
+%A A020708 _David W. Wilson_
+%E A020708 Deleted program based on unproved recurrence from _Bruno Berselli_, Feb 05 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035265
+Showing 1-1 of 1
+
+%I A035265
+%S A035265 1,12,264,8448,354816,18450432,1143926784,82362728448,6753743732736,
+%T A035265 621344423411712,63377131187994624,7098238693055397888,
+%U A035265 865985120552758542336,114310035912964127588352
+%N A035265 One half of deca-factorial numbers.
+%C A035265 a(n)= (Pochhammer(2/10,n)*10^n)/2.
+%H A035265 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035265 2*a(n) = (10*n-8)(!^10) := product(10*j-8, j=1..n)= 2^n*A008548(n), A008548(n)=(5*n-4)(!^5) := product(5*j-4, j=1..n); E.g.f. (-1+(1-10*x)^(-1/5))/2.
+%Y A035265 Cf. A008548, A045757, A035272-A035279.
+%K A035265 easy,nonn
+%O A035265 1,2
+%A A035265 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

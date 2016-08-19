@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040499
+Showing 1-1 of 1
+
+%I A040499
+%S A040499 22,1,5,1,1,4,1,1,5,1,44,1,5,1,1,4,1,1,5,1,44,1,5,1,1,4,1,1,5,1,44,1,
+%T A040499 5,1,1,4,1,1,5,1,44,1,5,1,1,4,1,1,5,1,44,1,5,1,1,4,1,1,5,1,44,1,5,1,1,
+%U A040499 4,1,1,5,1,44,1,5,1,1,4,1,1,5,1,44,1,5,1,1,4,1,1,5,1
+%N A040499 Continued fraction for sqrt(522).
+%H A040499 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040499 a(n)=(1/450)*{-1871*(n mod 10)+244*[(n+1) mod 10]-116*[(n+2) mod 10]+64*[(n+3) mod 10]+199*[(n+4) mod 10]-71*[(n+5) mod 10]+64*[(n+6) mod 10]+244*[(n+7) mod 10]-116*[(n+8) mod 10]+1999*[(n+9) mod 10]}-22*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 13 2009]
+%p A040499 with(numtheory): Digits := 300: convert(evalf(sqrt(522)),confrac);
+%K A040499 nonn,cofr,easy,less
+%O A040499 0,1
+%A A040499 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

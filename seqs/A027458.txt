@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027458
+Showing 1-1 of 1
+
+%I A027458
+%S A027458 2,7,47,57,459,1023,3349,3601,42131,44441,605453,631193,655217,
+%T A027458 1355479,23763863,24444543,476698557,488338185
+%N A027458 Third column of A027446.
+%F A027458 Numerators of sequence a[ 3, n ] in (a[ i, j ])^2 where a[ i, j ] = 1/i if j<=i, 0 if j>i
+%K A027458 nonn
+%O A027458 3,1
+%A A027458 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

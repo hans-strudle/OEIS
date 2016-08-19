@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053257
+Showing 1-1 of 1
+
+%I A053257
+%S A053257 1,0,1,1,1,1,2,2,1,1,2,2,2,2,2,3,3,2,3,4,4,4,4,5,5,4,5,6,
+%T A053257 6,6,7,8,7,7,8,9,10,9,10,12,11,11,13,14,14,15,16,17,17,16,
+%U A053257 19,21,20,21,23,25,25,25,27,29,30,30,32,35,35,35,39,41,41,43,45,49,50,49,53,57,58,59,63,67,68
+%V A053257 1,0,1,-1,1,-1,2,-2,1,-1,2,-2,2,-2,2,-3,3,-2,3,-4,4,-4,4,-5,5,-4,5,-6,
+%W A053257 6,-6,7,-8,7,-7,8,-9,10,-9,10,-12,11,-11,13,-14,14,-15,16,-17,17,-16,
+%X A053257 19,-21,20,-21,23,-25,25,-25,27,-29,30,-30,32,-35,35,-35,39,-41,41,-43,45,-49,50,-49,53,-57,58,-59,63,-67,68
+%N A053257 Coefficients of the '5th order' mock theta function f_1(q)
+%D A053257 George E. Andrews, The fifth and seventh order mock theta functions, Trans. Amer. Math. Soc., 293 (1986) 113-134
+%D A053257 George E. Andrews and Frank G. Garvan, Ramanujan's "lost" notebook VI: The mock theta conjectures, Advances in Mathematics, 73 (1989) 242-255
+%D A053257 Dean Hickerson, A proof of the mock theta conjectures, Inventiones Mathematicae, 94 (1988) 639-660
+%D A053257 Srinivasa Ramanujan, Collected Papers, Chelsea, New York, 1962, pp. 354-355
+%D A053257 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, pp. 19, 22
+%D A053257 George N. Watson, The mock theta functions (2), Proc. London Math. Soc., series 2, 42 (1937) 274-304
+%F A053257 G.f.: f_1(q) = sum for n >= 0 of q^(n^2+n)/((1+q)(1+q^2)...(1+q^n))
+%F A053257 Consider partitions of n into parts differing by at least 2 and with smallest part at least 2. a(n) = number of them with largest part even minus number with largest part odd
+%t A053257 Series[Sum[q^(n^2+n)/Product[1+q^k, {k, 1, n}], {n, 0, 9}], {q, 0, 100}]
+%Y A053257 Other '5th order' mock theta functions are at A053256, A053258, A053259, A053260, A053261, A053262, A053263, A053264, A053265, A053266, A053267.
+%K A053257 sign,easy
+%O A053257 0,7
+%A A053257 _Dean Hickerson_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

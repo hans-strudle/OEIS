@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042534
+Showing 1-1 of 1
+
+%I A042534
+%S A042534 28,113,141,395,2116,2511,27226,56963,198115,255078,1728583,5440827,
+%T A042534 7169410,12610237,19779647,32389884,84559415,370627544,455186959,
+%U A042534 1281001462,1736188421,32532393040,457189690981
+%N A042534 Numerators of continued fraction convergents to sqrt(796).
+%H A042534 Vincenzo Librandi, <a href="/A042534/b042534.txt">Table of n, a(n) for n = 0..200</a>
+%t A042534 Numerator[Convergents[Sqrt[796], 30]] (* _Vincenzo Librandi_, Nov 27 2013 *)
+%Y A042534 Cf. A042535.
+%K A042534 nonn,cofr,frac,easy
+%O A042534 0,1
+%A A042534 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022314
+Showing 1-1 of 1
+
+%I A022314
+%S A022314 0,9,10,20,31,52,84,137,222,360,583,944,1528,2473,4002,6476,10479,
+%T A022314 16956,27436,44393,71830,116224,188055,304280,492336,796617,1288954,
+%U A022314 2085572,3374527,5460100,8834628,14294729,23129358,37424088,60553447,97977536,158530984
+%N A022314 a(n)=a(n-1)+a(n-2)+1.
+%H A022314 Vincenzo Librandi, <a href="/A022314/b022314.txt">Table of n, a(n) for n = 0..1000</a>
+%H A022314 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,-1).
+%F A022314 a(n) = -1+1/2*(1/2+1/2*sqrt(5))^n+19/10*(1/2+1/2*sqrt(5))^n*sqrt(5)-19/10*sqrt(5)*(1/2 -1/2*sqrt(5))^n+1/2*(1/2-1/2*sqrt(5))^n, obtained using PURRS. - _Alexander R. Povolotsky_, Apr 22 2008
+%F A022314 G.f. -x*(-9+8*x) / ( (x-1)*(x^2+x-1) ). a(n) = A022100(n)-1. - R. J. Mathar, Apr 07 2011
+%t A022314 LinearRecurrence[{2, 0, -1}, {0, 9, 10}, 60] (* _Vladimir Joseph Stephan Orlovsky_, Feb 11 2012 *)
+%K A022314 nonn
+%O A022314 0,2
+%A A022314 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

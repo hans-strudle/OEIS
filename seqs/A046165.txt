@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046165
+Showing 1-1 of 1
+
+%I A046165
+%S A046165 1,2,8,49,462,6424,129425,3731508,152424420,8780782707,710389021036,
+%T A046165 80610570275140,12815915627480695,2855758994821922882,
+%U A046165 892194474524889501292,391202163933291014701953,240943718535427829240708786,208683398342300491409959279244
+%N A046165 Number of minimal covers of n objects.
+%D A046165 Damian Bursztyn, Fran¸cois Goasdou´e, Ioana Manolescu. Optimizing Reformulation-based Query Answering in RDF. [Research Report] RR-8646, INRIA Saclay. 2014. <hal-01091214>
+%H A046165 Alois P. Heinz, <a href="/A046165/b046165.txt">Table of n, a(n) for n = 1..100</a>
+%H A046165 Giovanni Resta, <a href="/A046165/a046165.png">Illustration of a(4)=49.</a>
+%H A046165 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MinimalCover.html">Minimal Cover</a>
+%F A046165 E.g.f.: Sum((exp(x)-1)^n*exp(x*(2^n-n-1))/n!, n=0..infinity). - _Vladeta Jovovic_, May 08 2004
+%F A046165 a(n) = Sum{k=1..n} Sum{i=k..n} C(n,i)*stirling2(i,k)*(2^k - k - 1)^(n - i). - _Geoffrey Critzer_, Jun 27 2013
+%F A046165 a(n) ~ c * 2^(n^2/4 + n + 1/2) / sqrt(Pi*n), where c = JacobiTheta3(0,1/2) = EllipticTheta[3, 0, 1/2] = 2.1289368272118771586694585485449... if n is even, and c = JacobiTheta2(0,1/2) = EllipticTheta[2, 0, 1/2] = 2.1289312505130275585916134025753... if n is odd. - _Vaclav Kotesovec_, Mar 10 2014
+%p A046165 a:= n-> add(add((-1)^i* binomial(k,i) *(2^k-1-i)^n, i=0..k)/k!, k=0..n):
+%p A046165 seq(a(n), n=1..20);  # _Alois P. Heinz_, Aug 19 2008
+%t A046165 Table[Sum[Sum[Binomial[n,i]StirlingS2[i,k](2^k-k-1)^(n-i),{i,k,n}],{k,2,n}]+1,{n,1,20}] (* _Geoffrey Critzer_, Jun 27 2013 *)
+%Y A046165 Cf. A035348, A000371, A003465.
+%K A046165 nonn
+%O A046165 1,2
+%A A046165 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027247
+Showing 1-1 of 1
+
+%I A027247
+%S A027247 1,2,11,42,216,926,4805,21594,113176,523158,2766030,13043426,69508528,
+%T A027247 332880898,1786840975,8666578226,46835595908,229627064562
+%N A027247 a(n) = self-convolution of row n of array T given by A026780.
+%K A027247 nonn
+%O A027247 0,2
+%A A027247 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

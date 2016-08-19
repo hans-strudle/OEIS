@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038126
+Showing 1-1 of 1
+
+%I A038126
+%S A038126 0,2,5,7,10,12,15,17,20,22,25,27,30,32,35,37,40,42,45,47,50,52,55,57,
+%T A038126 60,62,65,67,70,72,75,77,80,82,85,87,90,92,95,97,100,102,105,107,110,
+%U A038126 112,115,117,120,122,125,127,130,132,135,137,140,142,145,147,150,152,155,157
+%N A038126 a(n) = [ sqrt(2 pi) n ] (a Beatty sequence).
+%C A038126 Of course this is different from  A047215 (they first differ at n=77).
+%H A038126 <a href="/index/Be#Beatty">Index entries for sequences related to Beatty sequences</a>
+%t A038126 With[{c=Sqrt[2*Pi]},Floor[c*#]&/@Range[0,70]] (* _Harvey P. Dale_, Nov 14 2014 *)
+%Y A038126 Cf. A019727.
+%K A038126 nonn
+%O A038126 0,2
+%A A038126 _N. J. A. Sloane_, _Felice Russo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

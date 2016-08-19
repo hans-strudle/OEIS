@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052818
+Showing 1-1 of 1
+
+%I A052818
+%S A052818 0,1,1,3,10,37,144,593,2515,10975,48847,221071,1013886,4702530,
+%T A052818 22017327,103925505,494000139,2362666375,11361442399,54898445359,
+%U A052818 266417109839
+%N A052818 A simple grammar.
+%H A052818 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=783">Encyclopedia of Combinatorial Structures 783</a>
+%p A052818 spec := [S,{C=Sequence(B),B=Cycle(S),S=Prod(C,Z)},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052818 easy,nonn
+%O A052818 0,4
+%A A052818 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046877
+Showing 1-1 of 1
+
+%I A046877
+%S A046877 3,2,6,5,8,11,13,19,24,32,43,56,75,99,131,174,230,305,404,535,709,939,
+%T A046877 1244,1648,2183,2892,3831,5075,6723,8906,11798,15629,20704,27427,
+%U A046877 36333,48131,63760,84464,111891,148224,196355,260115,344579
+%N A046877 a(n)=a(n-2)+a(n-3).
+%F A046877 G.f.: (3+2*x+3*x^2)/(1-x^2-x^3).
+%Y A046877 Cf. A001608.
+%K A046877 nonn
+%O A046877 0,1
+%A A046877 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

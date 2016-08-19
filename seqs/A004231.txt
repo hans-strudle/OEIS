@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004231
+Showing 1-1 of 1
+
+%I A004231
+%S A004231 1,1,4,7625597484987
+%N A004231 Ackermann's sequence: n^^n := n^n^n^...^n (with n n's).
+%C A004231 Using Knuth's arrow notation, this is n^^^2 (n-penta-2) or n^^n (n-tetra-n). - Andrew Robbins, Apr 16 2009
+%C A004231 Comment from Trevor Green (green(AT)dlcwest.com): The fourth term in this sequence has about as many digits - 8.07 * 10^153 - as the *square* of the number of protons in the universe.
+%C A004231 We could prepend a(0) = 1 (since 0^^0 = 1, that is, the "empty power tower" gives the "empty product"). - _Daniel Forgues_, May 17 2013
+%H A004231 W. Ackermann, <a href="http://eretrandre.org/rb/files/Ackermann1928_126.pdf">Zum Hilbertschen Aufbau der reellen Zahlen</a>, Math. Ann. 99 (1928), 118-133, DOI:10.1007/BF01459088.
+%H A004231 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/AckermannNumber.html">Ackermann Number</a>
+%H A004231 Wikipedia, <a href="http://en.wikipedia.org/wiki/Knuth&#39;s_up-arrow_notation">Knuth's up-arrow notation</a>
+%Y A004231 Cf. A027747, A008868 (which mentions an older estimate for the same number).
+%K A004231 nonn
+%O A004231 0,3
+%A A004231 Daniel Wild (wild(AT)edumath.u-strasbg.fr)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

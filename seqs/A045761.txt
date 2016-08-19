@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045761
+Showing 1-1 of 1
+
+%I A045761
+%S A045761 0,1,1,1,2,3,6,12,24,50,107,232,508,1124,2513,5665,12858,29356,67371,
+%T A045761 155345,359733,836261,1950829,4565305,10714501,25212843,59474318,
+%U A045761 140609809,333126672,790764280,1880489541,4479494059,10687448937
+%N A045761 Define polynomials Pn by P0 = 0, P1 = x, P2 = P1 + P0, P3 = P2 * P1, P4 = P3 + P2, etc. alternately adding or multiplying. For even n>2k, then first k coefficients of Pn remain unchanged and their values are the first k terms of the sequence.
+%Y A045761 Cf. A039941, A001696.
+%K A045761 nonn
+%O A045761 0,5
+%A A045761 James Boudinot (jboudinot(AT)yahoo.com)
+%E A045761 More terms from _Michael Somos_, May 19 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

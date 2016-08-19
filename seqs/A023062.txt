@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023062
+Showing 1-1 of 1
+
+%I A023062
+%S A023062 1032,1234,10032,10320,10322,10432,11402,12014,12234,12340,12344,
+%T A023062 12434,100032,100320,100322,100432,101343,103200,103220,103222,103321,
+%U A023062 104320,104322,104432,110332,112334,114002,114020,114022,114402,120014,120140
+%N A023062 Numbers n such that n and 3*n are anagrams in base 5 (written in base 5).
+%K A023062 nonn,base
+%O A023062 1,1
+%A A023062 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

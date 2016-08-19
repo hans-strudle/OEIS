@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056546
+Showing 1-1 of 1
+
+%I A056546
+%S A056546 1,6,61,916,18321,458026,13740781,480927336,19237093441,865669204846,
+%T A056546 43283460242301,2380590313326556,142835418799593361,
+%U A056546 9284302221973568466,649901155538149792621,48742586665361234446576
+%N A056546 a(n) = 5n * a(n-1) + 1 with a(0)=1.
+%D A056546 Michael Z. Spivey and Laura L. Steil, The k-Binomial Transforms and the Hankel Transform, Journal of Integer Sequences, Vol. 9 (2006), Article 06.1.1.
+%F A056546 a(n) = floor[ e^(1/5)*5^n*n! ].
+%F A056546 a(n) = n!*sum(5^(n-k)/k!, k=0..n). - _Philippe Deléham_, Mar 14 2004
+%F A056546 E.g.f.: exp(x) / (1-5x). - _Philippe Deléham_, Mar 14 2004
+%F A056546 a(n) = Sum[P(n, k)5^k, {k, 0, n}]. - _Ross La Haye_, Aug 29 2005
+%F A056546 a(n) = hypergeometric_U(1, n+2 , 1/5)/5. - _Peter Luschny_, Nov 26 2014
+%e A056546 a(2) = 5*2*a(1) + 1 = 10*6 + 1 = 61.
+%Y A056546 Cf. A000522, A010844, A010845, A056545, A056547 for analogs. A056546/(A000142*A000351) is an increasingly good approximation to 5th root of e.
+%K A056546 easy,nonn
+%O A056546 0,2
+%A A056546 _Henry Bottomley_, Jun 20 2000
+%E A056546 More terms from _James A. Sellers_, Jul 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044712
+Showing 1-1 of 1
+
+%I A044712
+%S A044712 80,161,242,323,404,485,566,647,728,809,890,971,1052,1133,1214,1295,
+%T A044712 1376,1457,1538,1619,1700,1781,1862,1943,2024,2105,2186,2267,2348,
+%U A044712 2429,2510,2591,2672,2753,2834,2915,2996,3077,3158
+%N A044712 Numbers n such that string 8,8 occurs in the base 9 representation of n but not of n+1.
+%H A044712 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/NonRecursions.html">Non Recursions</a>
+%Y A044712 Cf. A157597, A010734 [From _Vincenzo Librandi_, Mar 13 2009]
+%K A044712 nonn,base
+%O A044712 1,1
+%A A044712 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

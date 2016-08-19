@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022616
+Showing 1-1 of 1
+
+%I A022616
+%S A022616 1,21,210,1351,6426,24780,82845,250806,703731,1853481,4628337,
+%T A022616 11052867,25403952,56451192,121738767,255623851,524037507,
+%U A022616 1051143723,2066899387,3990768663,7577013360,14163858895
+%V A022616 1,-21,210,-1351,6426,-24780,82845,-250806,703731,-1853481,4628337,
+%W A022616 -11052867,25403952,-56451192,121738767,-255623851,524037507,
+%X A022616 -1051143723,2066899387,-3990768663,7577013360,-14163858895
+%N A022616 Expansion of Product (1+q^m)^-21; m=1..inf.
+%F A022616 a(n) ~ (-1)^n * 7^(1/4) * exp(Pi*sqrt(7*n/2)) / (2^(7/4) * n^(3/4)). - _Vaclav Kotesovec_, Aug 27 2015
+%t A022616 nmax = 50; CoefficientList[Series[Product[1/(1 + x^k)^21, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 27 2015 *)
+%K A022616 sign
+%O A022616 0,2
+%A A022616 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

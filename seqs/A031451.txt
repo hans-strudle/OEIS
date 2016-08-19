@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031451
+Showing 1-1 of 1
+
+%I A031451
+%S A031451 15,47,55,59,61,62,159,175,183,187,189,190,207,215,219,221,222,231,
+%T A031451 235,237,238,243,245,246,249,250,252,575,607,623,631,635,637,638,671,
+%U A031451 687,695,699,701,702,719,727,731,733,734,743,747
+%N A031451 n-th number k which in base 2 has 4 fewer 0's than 1's.
+%t A031451 Select[Range[750],DigitCount[#,2,1]-DigitCount[#,2,0]==4&] (* _Harvey P. Dale_, Jan 28 2012 *)
+%K A031451 nonn
+%O A031451 1,1
+%A A031451 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

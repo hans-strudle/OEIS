@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034688
+Showing 1-1 of 1
+
+%I A034688
+%S A034688 1,5,75,1375,27500,577500,12512500,277062500,6233906250,141994531250,
+%T A034688 3265874218750,75708902343750,1766541054687500,41445770898437500,
+%U A034688 976936028320312500,23120819336914062500,549119459251708984375
+%N A034688 Expansion of (1-25*x)^(-1/5), related to quintic factorial numbers A008548.
+%H A034688 A. Straub, V. H. Moll, T. Amdeberhan, <a href="http://dx.doi.org/10.4064/aa140-1-2">The p-adic valuation of k-central binomial coefficients</a>, Acta Arith. 140 (1) (2009) 31-41, eq (1.10)
+%F A034688 a(n) = (5^n/n!)*A008548(n), n >= 1, a(0) := 1, where A008548(n)=(5*n-4)(!^5) := product(5*j-4, j=1..n).
+%F A034688 G.f.: (1-25*x)^(-1/5).
+%F A034688 a(n) ~ Gamma(1/5)^-1*n^(-4/5)*5^(2*n)*{1 - 2/25*n^-1 - ...}. - Joe Keane (jgk(AT)jgk.org), Nov 24 2001
+%Y A034688 Cf. A008548, A034385, A034687.
+%K A034688 easy,nonn
+%O A034688 0,2
+%A A034688 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

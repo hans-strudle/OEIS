@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000445
+Showing 1-1 of 1
+
+%I A000445 M4652 N1991
+%S A000445 9,77,1224,7888,202124,1649375
+%N A000445 First occurrences of 2 consecutive n-th power residues.
+%D A000445 P. Erdős and R. L. Graham, Old and New Problems and Results in Combinatorial Number Theory. L'Enseignement Math., Geneva, 1980, p. 87.
+%D A000445 W. H. Mills, Bounded consecutive residues and related problems, pp. 170-174 of A. L. Whiteman, ed., Theory of Numbers, Proc. Sympos. Pure Math., 8 (1965). Amer. Math. Soc.
+%D A000445 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000445 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000445 J. Brillhart, D. H. Lehmer and E. Lehmer, <a href="http://dx.doi.org/10.1090/S0025-5718-1964-0164923-X">Bounds for pairs of consecutive seventh and higher power residues</a>, Math. Comp. 18 (1964), 397-407.
+%H A000445 J. H. Jordan, <a href="http://dx.doi.org/10.4153/CJM-1964-030-6">Pairs of consecutive power residues or non-residues</a>, Canad. J. Math., 16 (1964), 310-314.
+%e A000445 Every large prime has a pair of consecutive quadratic (n=2) residues which appear not later than 9,10, so a(2)=9. - _Len Smiley_
+%Y A000445 Cf. A000236.
+%K A000445 nonn,nice,more
+%O A000445 2,1
+%A A000445 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

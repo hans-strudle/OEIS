@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048210
+Showing 1-1 of 1
+
+%I A048210
+%S A048210 2,5,11,17,28,40,58,74,91,117,140,168,195,225,263,298,334,371,411,453,
+%T A048210 497,547,597,647,698,754,815,878,942,1008,1074,1149,1233,1316,1398,
+%U A048210 1483,1570,1657,1751,1843,1936,2044,2152,2262,2371
+%N A048210 T(n,1)+T(n,n), array T given by A048201.
+%K A048210 nonn
+%O A048210 1,1
+%A A048210 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

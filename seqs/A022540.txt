@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022540
+Showing 1-1 of 1
+
+%I A022540
+%S A022540 1,16777215,282412759265,281192547174175,59323169798679969,
+%T A022540 4678776693546226271,186842850042244797505,4530785251489078799295,
+%U A022540 75044076594002864649665,920233556923127490136639
+%N A022540 Nexus numbers (n+1)^24 - n^24.
+%D A022540 J. H. Conway and R. K. Guy, The Book of Numbers, Copernicus Press, NY, 1996, p. 54.
+%H A022540 Harvey P. Dale, <a href="/A022540/b022540.txt">Table of n, a(n) for n = 0..1000</a>
+%t A022540 lst={};Do[a=n^12;b=(n+1)^12;s=(a+b)*(b-a);AppendTo[lst,s],{n,0,4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 23 2009 *)
+%t A022540 Last[#]-First[#]&/@Partition[Range[0,10]^24,2,1] (* _Harvey P. Dale_, Apr 19 2014 *)
+%K A022540 nonn
+%O A022540 0,2
+%A A022540 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

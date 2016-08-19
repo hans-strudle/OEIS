@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054570
+Showing 1-1 of 1
+
+%I A054570
+%S A054570 2,19,83,199,389,641,967,1361,1823,2377,3001,3709,4517,5419,6353,7477,
+%T A054570 8623,9791,11159,12577,14083,15667,17417,19273,21149,23063,25229,
+%U A054570 27431,29683,32183,34543,37171,39877,42641,45599,48673,51719,54973,58171
+%N A054570 Prime number spiral (clockwise, West spoke).
+%H A054570 Ivan Panchenko, <a href="/A054570/b054570.txt">Table of n, a(n) for n = 0..1000</a>
+%F A054570 8-spoke wheel overlays prime number spiral; hub is 2 in shell 0; 8 spokes radiate from this hub; this is West, clockwise.
+%e A054570 Begin a prime number spiral at shell 0 (prime 2), proceed clockwise, West.
+%t A054570 Table[ Prime[4n^2 + 3n + 1], {n, 0, 40} ]
+%Y A054570 Cf. A033951, A054551, A054553, A054555, A054564, A054566, A054570, A053999.
+%K A054570 easy,nonn
+%O A054570 0,1
+%A A054570 _Enoch Haga_ and _G. L. Honaker, Jr._, Apr 10 2000
+%E A054570 Edited by _Frank Ellermann_, Feb 24 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053128
+Showing 1-1 of 1
+
+%I A053128
+%S A053128 7,84,462,1716,5005,12376,27132,54264,100947,177100,296010,475020,
+%T A053128 736281,1107568,1623160,2324784,3262623,4496388,6096454,8145060,
+%U A053128 10737573,13983816,18009460,22957480,28989675,36288252,45057474,55525372,67945521,82598880,99795696
+%N A053128 Binomial coefficients C(2*n-5,6).
+%C A053128 a(n) = A053123(n,6), n >= 6; a(n) = 0, n=0..5, (seventh column of shifted Chebyshev's S-triangle, decreasing order).
+%D A053128 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings).
+%H A053128 Vincenzo Librandi, <a href="/A053128/b053128.txt">Table of n, a(n) for n = 6..200</a>
+%H A053128 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A053128 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A053128 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%F A053128 a(n) = binomial(2*n-5, 6) if n >= 6 else 0.
+%F A053128 G.f.: (7+35*x+21*x^2+x^3)/(1-x)^7.
+%o A053128 (MAGMA)[Binomial(2*n-5,6): n in [6..40]]; // Vincenzo Librandi, Oct 07 2011
+%Y A053128 Cf. A053123, A053127.
+%K A053128 nonn,easy
+%O A053128 6,1
+%A A053128 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

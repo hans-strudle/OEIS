@@ -1,0 +1,48 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060295
+Showing 1-1 of 1
+
+%I A060295
+%S A060295 2,6,2,5,3,7,4,1,2,6,4,0,7,6,8,7,4,3,9,9,9,9,9,9,9,9,9,9,9,9,2,5,0,0,
+%T A060295 7,2,5,9,7,1,9,8,1,8,5,6,8,8,8,7,9,3,5,3,8,5,6,3,3,7,3,3,6,9,9,0,8,6,
+%U A060295 2,7,0,7,5,3,7,4,1,0,3,7,8,2,1,0,6,4,7,9,1,0,1,1,8,6,0,7,3,1,2,9,5,1,1,8,1
+%N A060295 Decimal expansion of e^(Pi*sqrt(163)).
+%C A060295 From _Alexander R. Povolotsky_, Jun 23 2009, Apr 04 2012: (Start)
+%C A060295 One could observe that the last four of Class Number 1 expressions in T. Piezas "Ramanujan Pages" could be expressed as the following approximation:
+%C A060295 exp(Pi*sqrt(19+24*n)) =~ (24*k)^3 + 31*24
+%C A060295 which gives 4 (four) "almost integer" solutions:
+%C A060295 1) n = 0, 19+24*0 = 19, k = 4;
+%C A060295 2) n = 1, 19+24*1 = 43, k = 40;
+%C A060295 3) n = 2, 19+24*2 = 67, k = 220;
+%C A060295 4) n = 6, 19+24*6 = 163, k = 26680; this of course is the case for Ramanujan constant vs its integer counterpart approximation. (End)
+%C A060295 From _Alexander R. Povolotsky_, Oct 16 2010, Apr 04 2012: (Start)
+%C A060295 Also if to expand left part above to
+%C A060295 exp(Pi*sqrt(b(n)))
+%C A060295 where b(n) = {19, 25, 43, 58, 67, 163, 232, ...}
+%C A060295 then the expression
+%C A060295 (exp(Pi*sqrt(b(n))))/m
+%C A060295 (where m is either integer 1 or 8 )
+%C A060295 yields values being very close to whole integer value:
+%C A060295 Note, that the first differences of b(n) are all dividable by 3, giving after the division:
+%C A060295 {2, 6, 5, 3, 32, 33,...}. (End)
+%D A060295 C. Stanley Ogilvy and John T. Anderson, Excursions in Number Theory, Oxford University Press, NY, 1966, p. 106.
+%D A060295 H. M. Stark, An Introduction to Number Theory. Markham, Chicago, 1970, p. 179.
+%D A060295 Dimitris Vathis, Letter to _N. J. A. Sloane_, Apr 22 1985.
+%H A060295 Harry J. Smith, <a href="/A060295/b060295.txt">Table of n, a(n) for n = 18..20000</a>
+%H A060295 J. Blanck, <a href="http://dx.doi.org/10.1007/3-540-45335-0_24">Exact real arithmetic systems: results of competition</a>, pp. 389-393 of J. Blanck et al., eds., Computability and Complexity in Analysis (CCA 2000), Lect. Notes Computer Science 2064/2001.
+%H A060295 Simon Plouffe, <a href="http://www.plouffe.fr/simon/constants/ramanujan.txt">exp(pi*sqrt(163)) to 5000 digits</a>
+%H A060295 Simon Plouffe, <a href="http://www.worldwideschool.org/library/books/sci/math/MiscellaneousMathematicalConstants/chap79.html">exp(Pi*sqrt(163)), the Ramanujan number,to a precision of 2000 digits</a>
+%H A060295 C. Radoux, <a href="http://translate.google.com/translate?hl=en&amp;sl=fr&amp;u=http://users.skynet.be/radoux/163.htm">A Formula of Ramanujan(Text in French)</a>
+%H A060295 C. Radoux, <a href="http://translate.google.com/translate?hl=en&amp;sl=fr&amp;u=http://users.skynet.be/radoux/163-2.htm">A Formula of Ramanujan(Continued) (Text in French)</a>
+%H A060295 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RamanujanConstant.html">Ramanujan Constant</a>
+%H A060295 Tito Piezas III <a href="http://sites.google.com/site/tpiezas/ramanujan">The Ramanujan pages</a>, see section 05.
+%e A060295 The Ramanujan number = 262537412640768743.99999999999925007259719818568887935...
+%t A060295 RealDigits[N[E^(Pi*Sqrt[163]), 110]][[1]]
+%o A060295 (PARI) { default(realprecision, 20080); x=exp(Pi*sqrt(163))/10^17; for (n=18, 20000, d=floor(x); x=(x-d)*10; write("b060295.txt", n, " ", d)); } \\ _Harry J. Smith_, Jul 03 2009
+%Y A060295 Cf. A058292, A019297, A093436, A102912, A181045, A181165, A181166.
+%K A060295 nonn,easy,cons
+%O A060295 18,1
+%A A060295 Jason Earls (zevi_35711(AT)yahoo.com), Mar 24 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

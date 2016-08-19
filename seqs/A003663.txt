@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003663
+Showing 1-1 of 1
+
+%I A003663 M4066
+%S A003663 1,6,8,10,12,15,17,19,24,26,28,33,35,37,42,44,46,51,53,55,60,62,64,69,
+%T A003663 71,73,78,80,82,87,89,91,96,98,100,105,107,109,114,116,118,123,125,
+%U A003663 127,132,134,136,141,143,145,150,152,154,159,161
+%N A003663 a(n) is smallest number != a(j)+a(k), j<k.
+%D A003663 R. K. Guy, ``s-Additive sequences,'' preprint, 1994.
+%D A003663 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003663 S. R. Finch, <a href="http://www.jstor.org/stable/2325001">Are 0-additive sequences always regular?</a>, Amer. Math. Monthly, 99 (1992), 671-673.
+%F A003663 Numbers congruent to {1, 6, 8} mod 9 plus the number 12.
+%t A003663 f[s_List, j_Integer] := Block[{k = s[[-1]] + 1, ss = Union[Plus @@@ Subsets[s, {j}]]}, While[ MemberQ[ss, k], k++]; Append[s, k]]; Nest[ f[#, 2] &, {1, 6}, 65] (* _Robert G. Wilson v_, Jul 05 2014 *)
+%Y A003663 Cf. A199162, A060469, A060470, A060471, A060472.
+%Y A003663 Cf. A003662, A005408, A026471, A026474, A033627, A051039, A051040, A244151.
+%K A003663 nonn
+%O A003663 1,2
+%A A003663 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

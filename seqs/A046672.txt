@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046672
+Showing 1-1 of 1
+
+%I A046672
+%S A046672 1,2,7,18,53,146,415,1162,3277,9210,25927,72930,205221,577378,1624559,
+%T A046672 4570810,12860541,36184394,101808791,286449682,805956949,2267645362,
+%U A046672 6380262207,17951546602,50508589101,142111293594,399845261287,1125007225154
+%N A046672 G.f.: 1/(1-2*x-3*x^2+2*x^3).
+%H A046672 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (2,3,-2).
+%Y A046672 Partial sums of A054854.
+%Y A046672 Cf. A101197.
+%K A046672 nonn,easy
+%O A046672 0,2
+%A A046672 _N. J. A. Sloane_, Nov 17 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

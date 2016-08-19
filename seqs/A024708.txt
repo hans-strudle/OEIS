@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024708
+Showing 1-1 of 1
+
+%I A024708
+%S A024708 0,1,1,1,2,2,2,2,2,2,3,2,2,2,2,2,2,4,3,3,2,4,2,2,3,2,3,3,3,3,3,3,2,3,
+%T A024708 2,2,3,2,3,4,3,2,3,4,3,3,2,3,4,4,3,3,2,3,3,4,2,4,2,2,4,4,3,2,3,3,2,3,
+%U A024708 3,4,3,3,4,2,3,3,3,4,4,3,4,4,4,3,4,3,4,4,3,3,3,3,2,4,3,5,3,3,3,3
+%N A024708 Number of distinct prime divisors of n-th term of A024702.
+%H A024708 Charles R Greathouse IV, <a href="/A024708/b024708.txt">Table of n, a(n) for n = 3..10000</a>
+%o A024708 (PARI) a(n)=omega(prime(n)^2\24) \\ _Charles R Greathouse IV_, May 30 2013
+%K A024708 nonn
+%O A024708 3,5
+%A A024708 _Clark Kimberling_
+%E A024708 a(25) and other terms corrected by _Charles R Greathouse IV_, May 30 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

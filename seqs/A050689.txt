@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050689
+Showing 1-1 of 1
+
+%I A050689
+%S A050689 12,30,32,40,102,220,240,500,600,1002,1012,1104,1152,1210,1320,1500,
+%T A050689 2001,2002,2020,2040,2120,2240,2300,3010,3040,3300,4032,4100,4320,
+%U A050689 5100,5200,6400,7000,7200,10001,10002,10011,10030,10040,10080,10140,10220
+%N A050689 Sum of digits of composite a(n) equals number of its prime factors, with multiplicity.
+%e A050689 E.g. 2002 = 2+0+0+2 = 4 prime factors namely 2.7.11.13.
+%t A050689 Select[Range[10300],!PrimeQ[#]&&PrimeOmega[#]==Total[IntegerDigits[#]]&] (* _Jayanta Basu_, May 30 2013 *)
+%Y A050689 Cf. A050690.
+%K A050689 nonn,base
+%O A050689 1,1
+%A A050689 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

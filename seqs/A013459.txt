@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013459
+Showing 1-1 of 1
+
+%I A013459
+%S A013459 1,0,1,4,9,40,385,2700,15505,145360,1886625,19796500,190881625,
+%T A013459 2654379000,44269902625,625468889500,8553276590625,156119043652000,
+%U A013459 3194978818578625,57041478987070500
+%V A013459 1,0,1,-4,9,-40,385,-2700,15505,-145360,1886625,-19796500,190881625,
+%W A013459 -2654379000,44269902625,-625468889500,8553276590625,-156119043652000,
+%X A013459 3194978818578625,-57041478987070500
+%N A013459 exp(arctan(x)-log(x+1))=1+1/2!*x^2-4/3!*x^3+9/4!*x^4-40/5!*x^5...
+%t A013459 With[{nn=20},CoefficientList[Series[Exp[ArcTan[x]-Log[x+1]],{x,0,nn}], x] Range[0,nn]!] (* _Harvey P. Dale_, Dec 03 2011 *)
+%o A013459 (PARI) a(n)=polcoeff(exp(atan(x))/(1+x),n)*n! [From _Jaume Oliver Lafont_, Oct 24 2009]
+%K A013459 sign
+%O A013459 0,4
+%A A013459 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

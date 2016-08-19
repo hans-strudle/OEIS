@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045683
+Showing 1-1 of 1
+
+%I A045683
+%S A045683 1,1,1,1,2,3,3,7,8,14,15,31,30,63,63,123,128,255,252,511,510,1015,
+%T A045683 1023,2047,2040,4092,4095,8176,8190,16383,16365,32767,32768,65503,
+%U A045683 65535,131061,131040,262143,262143,524223,524280,1048575,1048509,2097151
+%N A045683 2n-bead balanced binary necklaces of fundamental period 2n, equivalent to reverse, complement and reversed complement.
+%H A045683 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
+%K A045683 nonn
+%O A045683 0,5
+%A A045683 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009757
+Showing 1-1 of 1
+
+%I A009757
+%S A009757 1,5,101,4297,311017,34201485,5316286925,1110355789329,
+%T A009757 300067100236625,101902284312853013,42484968788050104757,
+%U A009757 21335944225303831614809,12704193401200858575308601
+%N A009757 Expansion of tan(x)/cos(tan(x)).
+%t A009757 Tan[ x ]/Cos[ Tan[ x ] ] (* Odd Part *)
+%K A009757 nonn
+%O A009757 0,2
+%A A009757 _R. H. Hardin_
+%E A009757 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

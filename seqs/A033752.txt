@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033752
+Showing 1-1 of 1
+
+%I A033752
+%S A033752 1,2,2,4,4,6,12,12,16,18,22,32,36,44,44,60,72,76,98,88,116,144,136,
+%T A033752 164,160,194,228,232,260,244,324,344,344,408,356,484,524,484,576,552,
+%U A033752 688,732,728,804,760,1014,996,972
+%N A033752 Product theta3(q^d); d | 40.
+%D A033752 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p 102 eq 9.
+%K A033752 nonn
+%O A033752 0,2
+%A A033752 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

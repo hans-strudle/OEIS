@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060481
+Showing 1-1 of 1
+
+%I A060481
+%S A060481 1,0,1,0,3,2,9,0,28,24,93,20,315,288,1091,0,3855
+%N A060481 Number of orbits of length n in map whose periodic points come from A059991.
+%D A060481 V. Chothi, G. Everest, T. Ward. S-integer dynamical systems: periodic points. J. Reine Angew. Math., 489 (1997), 99-132.
+%D A060481 T. Ward. Almost all S-integer dynamical systems have many periodic points. Erg. Th. Dynam. Sys. 18 (1998), 471-486.
+%F A060481 If b(n) is the n-th term of A059991, then a(n)=(1/n)* Sum_{d|n}\mu(d)a(n/d)
+%Y A060481 A059991.
+%K A060481 easy,nonn
+%O A060481 1,5
+%A A060481 Thomas Ward (t.ward(AT)uea.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

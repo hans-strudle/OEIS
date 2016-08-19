@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056297
+Showing 1-1 of 1
+
+%I A056297
+%S A056297 0,0,0,1,2,13,50,221,866,3437,13250,51075,194810,742651,2823766,
+%T A056297 10738881,40843370,155494751,592614050,2261625725,8643289534,
+%U A056297 33080920607,126797503250,486710971595,1870851589554
+%N A056297 n-bead necklace structures using exactly four different colored beads.
+%C A056297 Turning over the necklace is not allowed. Colors may be permuted without changing the necklace structure.
+%D A056297 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056297 A056292(n)-A002076(n).
+%Y A056297 Cf. A056284.
+%K A056297 nonn
+%O A056297 1,5
+%A A056297 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

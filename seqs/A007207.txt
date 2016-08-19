@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007207
+Showing 1-1 of 1
+
+%I A007207 M4818
+%S A007207 12,2,78,24,548,228,4050,2030,30960,17670,242402,152520,1932000,
+%T A007207 1312844,15612150,11297052
+%V A007207 12,-2,78,-24,548,-228,4050,-2030,30960,-17670,242402,-152520,1932000,
+%W A007207 -1312844,15612150,-11297052
+%N A007207 Magnetization for hexagonal lattice.
+%C A007207 The hexagonal lattice is the familiar 2-dimensional lattice in which each point has 6 neighbors. This is sometimes called the triangular lattice.
+%D A007207 C. Domb, Ising model, in Phase Transitions and Critical Phenomena, vol. 3, ed. C. Domb and M. S. Green, Academic Press, 1974; p. 421.
+%D A007207 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007207 G. Nebe and N. J. A. Sloane, <a href="http://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/A2.html">Home page for hexagonal (or triangular) lattice A2</a>
+%K A007207 sign
+%O A007207 1,1
+%A A007207 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

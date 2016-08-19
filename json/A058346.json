@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,1,2,20,408,2249424,1098000299233152,1361974282591521291068503774196960256","description":"a(1) = 1; a(n+1) = LCM( sum{k=1 to n}[a(k)], (product{k=1 to n}[a(k)])*(sum{k=1 to n}[1/a(k)]) ).","example":"a(4) = LCM(1 +1 +2, 1 *1 *2 *(1 +1 +1/2)) = LCM(4, 5) = 20.","keyword":"nonn","offset":"1,3","author":"_Leroy Quet_, Dec 14 2000"}

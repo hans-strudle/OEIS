@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030642
+Showing 1-1 of 1
+
+%I A030642
+%S A030642 2,15,323,111547,12449873237,154999344563559225589,
+%T A030642 24024796815132956872884975543558130445497
+%N A030642 Product of next 2 primes.
+%p A030642 f := n->nextprime(n)*nextprime(nextprime(n));
+%Y A030642 Cf. A000040, A030641.
+%K A030642 nonn
+%O A030642 1,1
+%A A030642 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

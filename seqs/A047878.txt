@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047878
+Showing 1-1 of 1
+
+%I A047878
+%S A047878 0,3,2,1,2,3,2,3,4,3,4,5,4,5,6,5,6,7,6,7,8,7,8,9,8,9,10,9,10,11,10,11,
+%T A047878 12,11,12,13,12,13,14,13,14,15,14,15,16,15,16,17,16,17,18,17,18,19,18,
+%U A047878 19,20,19,20,21,20,21,22,21,22,23,22,23,24,23,24,25
+%N A047878 a(n)=least number of knight's moves from corner (0,0) to n-th diagonal of unbounded chessboard.
+%C A047878 a(n)=MIN{T(i,n-i): i=0,1,...,n}, array T as in A049604.
+%C A047878 Apart from initial terms, same as A008611. - Anton Chupin, Oct 24 2009
+%H A047878 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047878 a(3n)=n, a(3n+1)=n+1, a(3n+2)=n+2 for n >= 1.
+%F A047878 a(n)=a(n-1)+a(n-3)-a(n-4) for n>5. G.f.: x*(2*x^4-2*x^3-x^2-x+3) / ((x-1)^2*(x^2+x+1)). - _Colin Barker_, May 04 2014
+%o A047878 (PARI) concat(0, Vec(x*(2*x^4-2*x^3-x^2-x+3)/((x-1)^2*(x^2+x+1)) + O(x^100))) \\ _Colin Barker_, May 04 2014
+%K A047878 nonn,easy
+%O A047878 0,2
+%A A047878 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

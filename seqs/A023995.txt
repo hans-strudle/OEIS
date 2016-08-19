@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023995
+Showing 1-1 of 1
+
+%I A023995
+%S A023995 1,2,4,6,12,16,32,44,64,86,172,204,408,544,660,860,1720,2080,4160,
+%T A023995 4800,5792,7784,15568,17440,23648,31616,40976,46584,93168,102768,
+%U A023995 205536,261600
+%N A023995 Number of sets S = {a_1, a_2, ..., a_k}, with 1 < a_i < a_j <= n such that no a_j divides the product of all the others.
+%e A023995 f(4)=6: {}, {2}, {3}, {4}, {2,3}, {3,4}.
+%Y A023995 Cf. A038199.
+%K A023995 nonn
+%O A023995 1,2
+%A A023995 Lionel Levine (levine(AT)ultranet.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050291
+Showing 1-1 of 1
+
+%I A050291
+%S A050291 2,3,6,10,20,30,60,96,192,288,576,960,1920,2880,5760,9360,18720,28080,
+%T A050291 56160,93600,187200,280800,561600,898560,1797120,2695680,5391360,
+%U A050291 8985600,17971200,26956800,53913600,87091200,174182400,261273600
+%N A050291 Number of double-free subsets of {1, 2, ..., n}.
+%C A050291 A set is double-free if it does not contain both x and 2x.
+%D A050291 Wang, E. T. H. ``On Double-Free Sets of Integers.'' Ars Combin. 28, 97-100, 1989.
+%H A050291 T. D. Noe, <a href="/A050291/b050291.txt">Table of n, a(n) for n=1..400</a>
+%H A050291 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/triple/">Triple-Free Sets of Integers</a>
+%H A050291 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Double-FreeSet.html">Double-Free Set.</a>
+%F A050291 a(n+1)=a(n)*Fib(b(2n)+2)/Fib(b(2n)+1), Fib = A000045, b = A007814.
+%F A050291 a(n) = 2^n - A088808(n). - _Reinhard Zumkeller_, Oct 19 2003
+%t A050291 a[n_] := a[n] = (b = IntegerExponent[2n, 2]; a[n-1]*Fibonacci[b+2]/Fibonacci[b+1]); a[1]=2; Table[a[n], {n, 1, 34}] (* _Jean-François Alcover_, Oct 10 2012, from first formula *)
+%Y A050291 Cf. A050292-A050296.
+%K A050291 nonn,easy,nice
+%O A050291 1,1
+%A A050291 _Eric W. Weisstein_
+%E A050291 Extended with formula by _Christian G. Bower_, Sep 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

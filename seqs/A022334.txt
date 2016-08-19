@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022334
+Showing 1-1 of 1
+
+%I A022334
+%S A022334 1,4,9,16,26,38,52,69,88,109,133,159,187,218,251,286,324,364,406,451,
+%T A022334 498,547,599,653,709,768,829,892,958,1026,1096,1168,1243,1320,1399,
+%U A022334 1481,1565,1651,1740,1831,1924,2020,2118,2218,2321,2426,2533,2643,2755,2869,2986
+%N A022334 Index of 5^n within sequence of numbers of form 2^i * 5^j.
+%F A022334 a(n) = sum(i=0..n, 1 + floor(log(5^i)/log(2)) ). - _Michel Marcus_, Oct 02 2013
+%o A022334 (PARI) a(n) = sum(i=0, n, 1 + floor(log(5^i)/log(2))); \\ _Michel Marcus_, Oct 02 2013
+%Y A022334 Cf. A003592, A022335.
+%K A022334 nonn
+%O A022334 1,2
+%A A022334 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

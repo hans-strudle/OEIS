@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024326
+Showing 1-1 of 1
+
+%I A024326
+%S A024326 0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,
+%T A024326 0,1,0,0,2,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,1,0,0,1,0,0,0,0,
+%U A024326 2,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1
+%N A024326 a(n) = s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k=[ (n+1)/2) ], s = A023531, t = A023533.
+%K A024326 nonn
+%O A024326 1,39
+%A A024326 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

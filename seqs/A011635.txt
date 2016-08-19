@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011635
+Showing 1-1 of 1
+
+%I A011635
+%S A011635 1,1,0,1,1,0,1,0,1,1,0,1,1
+%V A011635 1,1,0,-1,-1,0,1,0,-1,-1,0,1,1
+%N A011635 42nd cyclotomic polynomial.
+%t A011635 CoefficientList[Series[Cyclotomic[42,x],{x,0,20}],x] (* _Harvey P. Dale_, Jun 15 2015 *)
+%K A011635 sign,fini,full
+%O A011635 0,1
+%A A011635 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

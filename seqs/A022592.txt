@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022592
+Showing 1-1 of 1
+
+%I A022592
+%S A022592 1,28,406,4088,32249,212772,1222438,6283400,29454432,127721972,
+%T A022592 517920340,1980864312,7194850761,24957519216,83064794746,266299577040,
+%U A022592 825106028411,2477872472348,7230302637376
+%N A022592 Expansion of Product (1+q^m)^28; m=1..inf.
+%F A022592 a(n) ~ (7/3)^(1/4) * exp(2 * Pi * sqrt(7*n/3)) / (32768 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022592 nmax=50; CoefficientList[Series[Product[(1+q^m)^28,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022592 nonn
+%O A022592 0,2
+%A A022592 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

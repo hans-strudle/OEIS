@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024420
+Showing 1-1 of 1
+
+%I A024420
+%S A024420 1,1,1,4,22,108,612,4416,36576,331200,3319200,36806400,445046400,
+%T A024420 5813579520,81716947200,1230656716800,19761225523200,336973967769600
+%N A024420 n!(1/binomial(n,0) - 1/binomial(n,1) + ... + d/binomial(n,[ n/2 ])), where d = (-1)^[ n/2 ].
+%K A024420 nonn
+%O A024420 0,4
+%A A024420 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

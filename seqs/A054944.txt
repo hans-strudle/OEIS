@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054944
+Showing 1-1 of 1
+
+%I A054944
+%S A054944 1,1,10,806,282552,367387448,1761545808144,31759604694834608,
+%T A054944 2200205489188051324800,595216852658907342647881088,
+%U A054944 635231932478914399659212340198144
+%N A054944 Number of strongly connected labeled digraphs on n nodes with an even number of edges.
+%H A054944 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054944 a(n) = (A003030(n)+(n-1)!)/2.
+%Y A054944 Cf. A054945.
+%K A054944 nonn,easy
+%O A054944 1,3
+%A A054944 _N. J. A. Sloane_, May 24 2000
+%E A054944 More terms from _Vladeta Jovovic_, Jul 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

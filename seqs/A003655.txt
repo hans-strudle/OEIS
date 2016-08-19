@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003655
+Showing 1-1 of 1
+
+%I A003655 M3782
+%S A003655 5,8,13,17,29,37,41,53,61,73,89,97,101,109,113,137,149,157,173,181,
+%T A003655 193,197,233,241,269,277,281,293,313,317,337,349,353,373,389,397,409,
+%U A003655 421,433,449,457,461,509,521,541,557,569,593,601,613,617,641,653,661,673
+%N A003655 Discriminants of real quadratic fields with narrow class number 1.
+%C A003655 Or, positive fundamental discriminants with form class number 1.
+%D A003655 D. A. Buell, Binary Quadratic Forms. Springer-Verlag, NY, 1989, pp. 224-241.
+%D A003655 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003655 Charles Delorme and Guillermo Pineda-Villavicencio, <a href="http://www.emis.de/journals/JIS/VOL18/Pineda/pin2.pdf">Quadratic Form Representations via Generalized Continuants</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.6.4.
+%K A003655 nonn
+%O A003655 1,1
+%A A003655 _N. J. A. Sloane_, _Mira Bernstein_
+%E A003655 Better definition from _David Brink_, Dec 30 2007, Jan 01 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

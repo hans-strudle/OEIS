@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059108
+Showing 1-1 of 1
+
+%I A059108
+%S A059108 1,0,0,0,0,0,0,0,9,20,33,0,0,0,0,0,0,200343,869006,4247790
+%N A059108 Number of solutions to variant of triples version of Langford (or Langford-Skolem) problem.
+%C A059108 How many ways are of arranging the numbers 1,1,1,2,2,2,3,3,3,...,n,n,n so that there are zero numbers between the first and second 1's and zero numbers between the second and third 1's; one number between the first and second 2's and one number between the second and third 2's; ... n-1 numbers between the first and second n's and n-1 numbers between the second and third n's?
+%H A059108 J. E. Miller, <a href="http://dialectrix.com/langford.html">Langford's Problem</a>
+%Y A059108 Cf. A014552, A050998, A059106, A059107.
+%K A059108 nonn,nice,hard
+%O A059108 1,9
+%A A059108 _N. J. A. Sloane_, Feb 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

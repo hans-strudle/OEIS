@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015057
+Showing 1-1 of 1
+
+%I A015057
+%S A015057 1,1,10,793,583102,3815415802,225503698948660,119805449249886397129,
+%T A015057 573084012222813752884459126,24668552204097304242240261360949726,
+%U A015057 9557210465694593089306513607806406698372300
+%N A015057 q-Catalan numbers (binomial version) for q=-3.
+%F A015057 {1 / (n+1)_q} {2 n choose n}_q.
+%K A015057 nonn,easy
+%O A015057 0,3
+%A A015057 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

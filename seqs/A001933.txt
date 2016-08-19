@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001933
+Showing 1-1 of 1
+
+%I A001933 M0171 N0066
+%S A001933 2,1,4,7,24,62,216,710,2570,9215,34146,126853,477182,1802673,6853152,
+%T A001933 26153758,100215818,385226201,1485248464,5741275753,22246121356,
+%U A001933 86383454582,336094015456
+%N A001933 Chessboard polyominoes with n squares.
+%C A001933 Chessboard-colored polyominoes, considering to be distinct two shapes that cannot be mapped onto each other by any form of symmetry. For example, there are two distinct monominoes, one black, one white. There is only one domino, with one black square, and one white. - _John Mason_, Nov 25 2013
+%D A001933 W. F. Lunnon, personal communication.
+%D A001933 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001933 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001933 Joseph Myers, <a href="http://list.seqfan.eu/pipermail/seqfan/2010-November/013893.html">Chessboard polyominoes</a>
+%F A001933 For odd n, a(n) = 2*A000105(n). - _John Mason_, Nov 27 2013
+%F A001933 For even n, a(n) = 2*A000105(n) - (M(n) + R90(n) + R180(n))
+%F A001933 Where:
+%F A001933 M(n) is the number of free polyominoes of size n that have reflectional symmetry on a horizontal or vertical axis that coincides with the edges of some of the squares. (Note for example that the 3 X 3 square nonomino is not included, as the axes of symmetry do not coincide with the edges of any squares.) M(n) = 0 for all n not multiples of 2.
+%F A001933 R90(n) is the number of free polyominoes of size n that have 90-degree rotational symmetry about a point that coincides with the corner of a square. Note that for polyominoes which have a hole in the center, the center of rotation will be the corner of a square within the hole, rather than being the corner of a square of the polyomino itself. R90(n) = 0 for all n not multiples of 4. Exclude from R90(n) any polyominoes already in M(n).
+%F A001933 R180 (n) is the number of free polyominoes of size n that have 180-degree rotational symmetry about a point that coincides with the mid-side of a square. Note that for polyominoes which have a hole in the center, the center of rotation will be the mid-side of a square within the hole, rather than being within a square of the polyomino itself. R180 (n) = 0 for all n not multiples of 2. Exclude from R180 (n) any polyominoes already in M(n).
+%F A001933 - _John Mason_, Dec 05 2013
+%Y A001933 Cf. A001071, A000105, A121198.
+%K A001933 hard,nonn
+%O A001933 1,1
+%A A001933 _N. J. A. Sloane_
+%E A001933 a(14)-a(17) from _Joseph Myers_, Oct 01 2011
+%E A001933 a(18)-a(23) from _John Mason_, Dec 05 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

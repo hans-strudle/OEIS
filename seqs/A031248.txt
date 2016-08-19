@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031248
+Showing 1-1 of 1
+
+%I A031248
+%S A031248 1,0,0,0,0,1,2,3,2,3,3,4,4,5,5,4,5,4,3,2,2,1,1,0,0,0,1,1,0,0,0,0,0,0,
+%T A031248 0,0,1,1,0,0,0,0,0,0,0,0,1,2,2,3,2,2,3,3,3,4,4,4,5,5,6,7,8,9,10,9,10,
+%U A031248 11,11,12,13,13,14,15,15,14,15,16,15,16,15,14
+%N A031248 a(n)=(# 1's)-(# 2's) in first n terms of A031235.
+%K A031248 nonn
+%O A031248 1,7
+%A A031248 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

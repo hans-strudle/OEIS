@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060257
+Showing 1-1 of 1
+
+%I A060257
+%S A060257 4,7,8,9,10,15,17,18,25,29,30,32,35,39,41,42,44,48,50,51,55,56,57,65,
+%T A060257 68,73,75,76,77,81,84,89,93,94,95,96,97,100,105,106,108,114,118,120,
+%U A060257 126,127,129,132,141,142,143,148,150,154,159,160,162,164,165,166,171
+%N A060257 Numbers n such that 1/prime(n) has period prime(n) - 1.
+%F A060257 a(n) = PrimePi[ A001913(n+1) ]. - _Alexander Adamchuk_, Jan 28 2007
+%Y A060257 Cf. A060258.
+%Y A060257 Cf. A001913 = Cyclic numbers: primes with primitive root 10.
+%K A060257 nonn
+%O A060257 1,1
+%A A060257 _Jeff Burch_, Mar 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

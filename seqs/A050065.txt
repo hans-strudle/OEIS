@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050065
+Showing 1-1 of 1
+
+%I A050065
+%S A050065 1,3,3,6,7,13,16,19,20,39,55,68,75,81,84,87,88,175,259,340,415,483,
+%T A050065 538,577,597,616,632,645,652,658,661,664,665,1329,1990,2648,3300,3945,
+%U A050065 4577,5193,5790,6367,6905,7388,7803,8143,8402,8577
+%N A050065 a(n) = a(n-1)+a(m), where m=2^(p+1)+2-n and 2^p<n-1<=2^(p+1), for n >= 4.
+%H A050065 Ivan Neretin, <a href="/A050065/b050065.txt">Table of n, a(n) for n = 1..8193</a>
+%t A050065 Fold[Append[#1, #1[[-1]] + #1[[#2]]] &, {1, 3, 3}, Flatten@Table[k, {n, 5}, {k, 2^n, 1, -1}]] (* _Ivan Neretin_, Sep 08 2015 *)
+%Y A050065 Cf. similar sequences with different initial conditions: A050025 (1,1,1), A050029 (1,1,2), A050033 (1,1,3), A050037 (1,1,4), A050041 (1,2,1), A050045 (1,2,2), A050049 (1,2,3), A050053 (1,2,4), A050057 (1,3,1), A050061 (1,3,2), A050069 (1,3,4).
+%K A050065 nonn
+%O A050065 1,2
+%A A050065 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

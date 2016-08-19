@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052837
+Showing 1-1 of 1
+
+%I A052837
+%S A052837 0,0,1,4,10,22,43,80,141,240,397,640,1011,1568,2395,3604,5360,7876,
+%T A052837 11460,16510,23588,33418,47006,65640,91085,125596,172215,234820,
+%U A052837 318579,430060,577920,773130,1030007,1366644,1806445,2378892,3121835,4082796
+%N A052837 A simple grammar.
+%H A052837 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=804">Encyclopedia of Combinatorial Structures 804</a>
+%F A052837 G.f.: (exp(Sum(-x^j[1]/(x^j[1]-1)/j[1], j[1]=1 .. infinity))-1)^2
+%p A052837 spec := [S,{C=Sequence(Z,1 <= card),B=Set(C,1 <= card),S=Prod(B,B)},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%Y A052837 Essentially the same as A048574.
+%K A052837 easy,nonn
+%O A052837 0,4
+%A A052837 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+%E A052837 More terms from _Franklin T. Adams-Watters_, Feb 08 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

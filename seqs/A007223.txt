@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007223
+Showing 1-1 of 1
+
+%I A007223 M1843
+%S A007223 2,8,24,85,286,1008,3536,12618,45220,163504,594320,2173197,7983990,
+%T A007223 29465440,109174560,405995326,1514797020,5669021488,21275014800,
+%U A007223 80047272578,301892460012,1141069157408,4321730134624,16399422757300
+%N A007223 Number of distinct perforation patterns for deriving (v,b)=(n+2,n) punctured convolutional codes from (2,1).
+%D A007223 G. Begin, On the enumeration of perforation patterns for punctured convolutional codes, Séries Formelles et Combinatoire Algébrique, 4th colloquium, 15-19 Juin 1992, Montréal, Université du Québec à Montréal, pp. 1-10.
+%D A007223 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%p A007223 with(numtheory):P:=proc(b,v0) local k: RETURN(add(phi(k)*(1+z^k)^(v0*(b/k)),k=divisors(b))/b): end; seq(coeff(P(b,2),z,b+2),b=3..40); (Pab Ter)
+%K A007223 nonn
+%O A007223 3,1
+%A A007223 _Simon Plouffe_
+%E A007223 More terms from Pab Ter (pabrlos2(AT)yahoo.com), Nov 13 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

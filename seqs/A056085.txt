@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056085
+Showing 1-1 of 1
+
+%I A056085
+%S A056085 1,124,161,596,632,699,735,1170,1207,1330,1332,1455,1492,1927,1963,
+%T A056085 2030,2066,2501,2538,2661,2663,2786,2823,3258,3294,3361,3397,3832,
+%U A056085 3869,3992,3994,4117,4154,4589,4625,4692,4728,5163,5200,5323,5325,5448,5485
+%N A056085 n^10 = 1 (mod 11^3).
+%t A056085 x=11; Select[ Range[ 10000 ], PowerMod[ #, x-1, x^3 ]==1& ]
+%K A056085 nonn
+%O A056085 1,2
+%A A056085 _Robert G. Wilson v_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

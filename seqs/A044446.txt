@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044446
+Showing 1-1 of 1
+
+%I A044446
+%S A044446 4,20,36,52,68,84,100,116,132,148,164,180,196,212,228,244,340,356,372,
+%T A044446 388,404,420,436,452,468,484,500,516,532,548,564,596,612,628,644,660,
+%U A044446 676,692,708,724,740,756,772,788,804,820,852,868
+%N A044446 Numbers n such that string 1,0 occurs in the base 4 representation of n but not of n+1.
+%Y A044446 Cf. A097357, A085805.
+%K A044446 nonn,base
+%O A044446 1,1
+%A A044446 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

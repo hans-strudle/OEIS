@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053132
+Showing 1-1 of 1
+
+%I A053132
+%S A053132 3,28,126,396,1001,2184,4284,7752,13167,21252,32890,49140,71253,
+%T A053132 100688,139128,188496,250971,329004,425334,543004,685377,856152,
+%U A053132 1059380,1299480,1581255,1909908,2291058,2730756,3235501,3812256,4468464
+%N A053132 One half of binomial coefficients C(2*n-4,5).
+%C A053132 a(n)= A053127(n)/2
+%H A053132 Vincenzo Librandi, <a href="/A053132/b053132.txt">Table of n, a(n) for n = 5..200</a>
+%H A053132 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A053132 a(n)= binomial(2*n-4, 5)/2 if n >= 5 else 0;
+%F A053132 G.f.: (x^5)*(3+10*x+3*x^2)/(1-x)^6.
+%F A053132 a(n) = sum(A000217(k)*A000217(2*n-k-7): k = 1..n-4). - _Reinhard Zumkeller_, Mar 03 2015
+%t A053132 Binomial[2*Range[5,40]-4,5]/2 (* or *) LinearRecurrence[{6,-15,20,-15,6,-1},{3,28,126,396,1001,2184},40] (* _Harvey P. Dale_, Oct 25 2015 *)
+%o A053132 (MAGMA) [Binomial(2*n-4,5)/2: n in [5..40]]; // Vincenzo Librandi, Oct 07 2011
+%o A053132 (Haskell)
+%o A053132 a053132 n = a053132_list !! (n-5)
+%o A053132 a053132_list = f [1] $ drop 2 a000217_list where
+%o A053132    f xs ts'@(t:ts) = (sum $ zipWith (*) xs ts') : f (t:xs) ts
+%o A053132 -- _Reinhard Zumkeller_, Mar 03 2015
+%Y A053132 Cf. A053127.
+%Y A053132 Cf. A000217.
+%K A053132 nonn,easy
+%O A053132 5,1
+%A A053132 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

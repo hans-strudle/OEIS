@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051026
+Showing 1-1 of 1
+
+%I A051026
+%S A051026 1,2,3,5,7,13,17,33,45,73,103,205,253,505,733,1133,1529,3057,3897,
+%T A051026 7793,10241,16513,24593,49185,59265,109297,163369,262489,355729,
+%U A051026 711457,879937,1759873,2360641,3908545,5858113,10534337,12701537,25403073,38090337,63299265
+%N A051026 Number of primitive subsequences of {1, 2, ..., n}.
+%C A051026 a(n) counts all subsequences of {1, ..., n} in which no term divides any other.  If n is a prime a(n) = 2*a(n-1)-1 because for each subsequence s counted by a(n-1) two different subsequences are counted by a(n): s and s,n.  There is only one exception: 1,n is not a primitive subsequence because 1 divides n.  For all n>1: a(n) < 2*a(n-1). - _Alois P. Heinz_, Mar 07 2011
+%D A051026 Blanchet-Sadri, Francine. Algorithmic combinatorics on partial words. Chapman & Hall/CRC, Boca Raton, FL, 2008. ii+385 pp. ISBN: 978-1-4200-6092-8; 1-4200-6092-9 MR2384993 (2009f:68142). See p. 320. - _N. J. A. Sloane_, Apr 06 2012
+%H A051026 Alois P. Heinz, <a href="/A051026/b051026.txt">Table of n, a(n) for n = 0..80</a>
+%H A051026 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PrimitiveSequence.html">Primitive Sequence</a>
+%e A051026 a(4) = 7, the primitive subsequences (including the empty sequence) are: (), (1), (2), (3), (4), (2,3), (3,4).
+%e A051026 a(5) = 13 = 2*7-1, the primitive subsequences are: (), (5), (1), (2), (2,5), (3), (3,5), (4), (4,5), (2,3), (2,3,5), (3,4), (3,4,5).
+%p A051026 with(numtheory):
+%p A051026 b:= proc(s) option remember; local n;
+%p A051026       n:= max(s[]);
+%p A051026       `if`(n<0, 1, b(s minus {n}) + b(s minus divisors(n)))
+%p A051026     end:
+%p A051026 bb:= n-> b({$2..n} minus divisors(n)):
+%p A051026 sb:= proc(n) option remember; `if`(n<2, 0, bb(n) + sb(n-1)) end:
+%p A051026 a:= n-> `if`(n=0, 1, `if`(isprime(n), 2*a(n-1)-1, 2+sb(n))):
+%p A051026 seq(a(n), n=0..40);  # _Alois P. Heinz_, Mar 07 2011
+%t A051026 b[s_] := b[s] = With[{n=Max[s]}, If[n < 0, 1, b[Complement[s, {n}]] + b[Complement[s, Divisors[n]]]]];
+%t A051026 bb[n_] := b[Complement[Range[2, n], Divisors[n]]];
+%t A051026 sb[n_] := sb[n] = If[n < 2, 0, bb[n] + sb[n-1]];
+%t A051026 a[n_] := If[n == 0, 1, If[PrimeQ[n], 2a[n-1] - 1, 2 + sb[n]]]; Table[a[n], {n, 0, 37}]
+%t A051026 (* _Jean-François Alcover_, Jul 27 2011, converted from Maple *)
+%K A051026 nonn,nice
+%O A051026 0,2
+%A A051026 _Eric W. Weisstein_
+%E A051026 More terms from _David Wasserman_, May 02 2002
+%E A051026 a(32)-a(37) from _Donovan Johnson_, Aug 11 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026806
+Showing 1-1 of 1
+
+%I A026806
+%S A026806 1,2,1,2,2,2,2,3,2,3,3,3,3,4,3,4,4,4,4,5,4,5,5,5,5,6,5,6,6,6,6,7,6,7,
+%T A026806 7,7,7,8,7,8,8,8,8,9,8,9,9,9,9,10,9,10,10,10,10,11,10,11,11,11,11,12,
+%U A026806 11,12,12,12,12,13,12,13,13,13,13,14,13,14,14,14,14,15,14,15,15,15,15
+%N A026806 a(n) = number of numbers k such that only one partition of n has least part k.
+%F A026806 G.f.: x(1+2x-x^3-x^4)/((1-x^2)(1-x^3)).
+%t A026806 Rest[CoefficientList[Series[x (1+2x-x^3-x^4)/((1-x^2) (1-x^3)), {x,0,90}],x]]  (* _Harvey P. Dale_, Apr 22 2011 *)
+%o A026806 (PARI) a(n)=if(n<1,0,1+(n\2)-(n\3))
+%Y A026806 a(n)=A008615(n+6)=1+A008615(n), n>0.
+%K A026806 nonn
+%O A026806 1,2
+%A A026806 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

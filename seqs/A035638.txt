@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035638
+Showing 1-1 of 1
+
+%I A035638
+%S A035638 0,0,0,0,0,0,0,1,0,1,0,1,0,4,0,4,0,4,0,10,0,11,0,11,0,22,0,25,0,26,0,
+%T A035638 44,0,51,0,54,0,84,0,98,0,105,0,152,0,178,0,193,0,266,0,312,0,341,0,
+%U A035638 452,0,528,0,581,0,749,0,873,0,964,0,1214,0,1409,0,1561,0,1930,0,2234
+%N A035638 Number of partitions of n into parts 6k and 6k+2 with at least one part of each type
+%K A035638 nonn
+%O A035638 1,14
+%A A035638 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

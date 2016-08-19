@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049680
+Showing 1-1 of 1
+
+%I A049680
+%S A049680 2,2,5,11,27,67,170,436,1127,2927,7625,19901,52002,135982,355745,
+%T A049680 930931,2436527,6377807,16695530,43706576,114420627,299549527,
+%U A049680 784218605,2053091161,5375030402,14071960442,36840786845,96450296411
+%N A049680 a(n) = (L(n) + L(2n))/2, where L = A000032 (the Lucas sequence).
+%H A049680 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-3,-2,1).
+%F A049680 Binomial transform of trace(A^n)/4, where A is the adjacency matrix of path graph P_4 (A005248 with interpolated zeros). - _Paul Barry_, Apr 24 2004
+%F A049680 G.f.: (1-x)*(2-4*x-x^2)/ ( (1-x-x^2)*(1-3*x+x^2) ). - _George F. Johnson_, Feb 04 2013
+%F A049680 a(n) = 4*a(n-1) - 3*a(n-2) - 2*a(n-3)+a(n-4) for n>3. - _George F. Johnson_, Feb 04 2013
+%t A049680 LinearRecurrence[{4,-3,-2,1},{2,2,5,11},30] (* _Harvey P. Dale_, Nov 22 2015 *)
+%K A049680 nonn,easy
+%O A049680 0,1
+%A A049680 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

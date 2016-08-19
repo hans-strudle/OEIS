@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055514
+Showing 1-1 of 1
+
+%I A055514
+%S A055514 10,39,155,371,10225245560,2935561623745,454539357304421,
+%T A055514 7228559051256366318,1390718713078158117206
+%N A055514 Composite numbers that are the sum of a string of consecutive prime numbers and are divisible by the first and last primes.
+%C A055514 Composite n such that n = p_1 + p_2 + ... + p_k where the p_i are consecutive primes and n is divisible by p_1 and p_k.
+%C A055514 No more terms below 10^22. - _Michael Beight_, Jul 22 2012
+%D A055514 Problem proposed by Carlos Rivera, who found first 4 terms.
+%H A055514 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_098.htm">Puzzle</a>
+%e A055514 503 + 509 + 521+ ... + 508213 = 10225245560, which is divisible by 503 and 508213. - Manuel Valdivia, Nov 17 2011
+%e A055514 a(8) = 7228559051256366318 = 73+ ... +18281691653; a(9) = 1390718713078158117206 = 370794889+ ... +267902967061. - _Michael Beight_, Jul 22 2012
+%Y A055514 Cf. A055233.
+%K A055514 nice,nonn
+%O A055514 1,1
+%A A055514 _Jud McCranie_, Jul 03 2000
+%E A055514 7228559051256366318 = 73+79+83+ ... +18281691653 is also in the sequence but may not be the next term.
+%E A055514 a(7) from _Donovan Johnson_, Jun 19 2008
+%E A055514 a(8) and a(9) from _Michael Beight_, Jul 22 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

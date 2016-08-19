@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016764
+Showing 1-1 of 1
+
+%I A016764
+%S A016764 1,531441,244140625,13841287201,282429536481,3138428376721,
+%T A016764 23298085122481,129746337890625,582622237229761,2213314919066161,
+%U A016764 7355827511386641,21914624432020321,59604644775390625,150094635296999121
+%N A016764 a(n) = (2*n+1)^12.
+%H A016764 Vincenzo Librandi, <a href="/A016764/b016764.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016764 (MAGMA) [(2*n+1)^12: n in [0..20]]; // _Vincenzo Librandi_, Sep 07 2011
+%K A016764 nonn,easy
+%O A016764 0,2
+%A A016764 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

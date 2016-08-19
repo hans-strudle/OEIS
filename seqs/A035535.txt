@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035535
+Showing 1-1 of 1
+
+%I A035535
+%S A035535 1,1,1,1,2,3,3,4,7,8,10,14,18,22,29,37,47,58,73,91,113,140,174,211,
+%T A035535 260,319,386,468,572,687,828,998,1197,1431,1714,2041,2430,2887,3424,
+%U A035535 4051,4792,5651,6659,7829,9199,10786,12631,14770,17258,20120,23444,27278
+%N A035535 Number of partitions of n with equal number of parts congruent to each of 0 and 2 (mod 3)
+%K A035535 nonn
+%O A035535 0,5
+%A A035535 _Olivier Gérard_
+%E A035535 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

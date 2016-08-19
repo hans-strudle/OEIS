@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006340
+Showing 1-1 of 1
+
+%I A006340 M0100
+%S A006340 2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,
+%T A006340 2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,
+%U A006340 2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1
+%N A006340 An "eta-sequence": [ (n+1)*tau + 1/2 ] - [ n*tau + 1/2 ], tau =(1+ sqrt 5)/2.
+%C A006340 Equals its own "derivative", which is formed by counting the strings of 1's that lie between 2's.
+%C A006340 Conjecture: A006340 = continued fraction expansion of (2.729967741... = sup{f(n,1)}), where f(1,x) = x + 1 and thereafter f(n,x) = x + 1 if n is in the lower Wythoff sequence (A000201), else f(n,x) = 1/x.  The first 12 values of f(n,1) are given in Example at A245216. - _Clark Kimberling_, Jul 14 2014
+%D A006340 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006340 T. D. Noe, <a href="/A006340/b006340.txt">Table of n, a(n) for n=0..1000</a>
+%H A006340 D. R. Hofstadter, <a href="/A006336/a006336_1.pdf">Eta-Lore</a> [Cached copy, with permission]
+%H A006340 D. R. Hofstadter, <a href="/A006336/a006336_2.pdf">Pi-Mu Sequences</a> [Cached copy, with permission]
+%H A006340 D. R. Hofstadter and N. J. A. Sloane, <a href="/A006336/a006336.pdf">Correspondence, 1977 and 1991</a>
+%t A006340 Differences[ Table[ Round[ GoldenRatio*n], {n, 0, 93}]] (* _Jean-François Alcover_, Aug 13 2012 *)
+%Y A006340 Differs from A014675 in many places.  Cf. A245216.
+%K A006340 nonn,easy,nice
+%O A006340 0,1
+%A A006340 D. R. Hofstadter, Jul 15 1977
+%E A006340 Extended by _N. J. A. Sloane_, Nov 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034864
+Showing 1-1 of 1
+
+%I A034864
+%S A034864 5,1170,38850,757680,12836880,212133600,3554258400,61372080000,
+%T A034864 1100366467200,20555914579200,400638734496000,8148554878464000,
+%U A034864 172878910364160000,3823017399032832000
+%N A034864 a(5) = 5, a(6) = 1170, for n >= 7, a(n) = n!*(4*n^3-30*n^2+40*n+3)/24.
+%D A034864 J. Riordan, Enumeration of trees by height and diameter, IBM J. Res. Dev. 4 (1960), 473-478.
+%F A034864 a(n) = A034863(n), n>6. - _R. J. Mathar_, Feb 26 2008
+%K A034864 nonn,easy
+%O A034864 5,1
+%A A034864 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

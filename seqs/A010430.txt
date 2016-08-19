@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010430
+Showing 1-1 of 1
+
+%I A010430
+%S A010430 0,1,3,4,6,9,12,13,16,18,24,25,27,31,36,39,46,48,49,52,54,55,58,64
+%N A010430 Squares mod 69.
+%o A010430 (Sage) [quadratic_residues(69)]# [From _Zerinvary Lajos_, May 24 2009]
+%K A010430 nonn,fini,full
+%O A010430 1,3
+%A A010430 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

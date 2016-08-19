@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027295
+Showing 1-1 of 1
+
+%I A027295
+%S A027295 1,4,15,52,195,676,2555,8976,34098,121448,463067,1669340,6384287,
+%T A027295 23251620,89157557,327523680,1258803182,4658150520,17940605163,
+%U A027295 66803546472,257777882894,965023761064
+%N A027295 a(n) = Sum{T(n,k)*T(n,k+1)}, 0<=k<=m-1, where m=n for n=0,1 and m=[ (n+3)/2 ] for n >= 2, T given by A026022.
+%K A027295 nonn
+%O A027295 1,2
+%A A027295 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

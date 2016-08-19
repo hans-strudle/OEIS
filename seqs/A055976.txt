@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055976
+Showing 1-1 of 1
+
+%I A055976
+%S A055976 0,0,0,3,0,1,0,1,1,1,0,1,0,1,1,1,0,1,0,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,
+%T A055976 1,1,0,1,1,1,0,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,0,1,0,1,1,1,1,1,0,1,
+%U A055976 1,1,0,1,0,1,1,1,1,1,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,0,1,1,1
+%N A055976 Remainder when (n-1)! + 1 is divided by n.
+%C A055976 Related to Wilson's theorem. a(n) = 0 iff n = 1 or a prime; a(n) = 1 iff n 4 is composite > 4; a(n) = 3 iff n = 4.
+%D A055976 Albert H. Beiler, Recreations in The Theory of Numbers, The Queen of Mathematics Entertains, Second Edition, Dover Publications, Inc., New York, 1966, Page 50.
+%p A055976 P:=proc(q) local n; for n from 0 to q do print((n!+1) mod (n+1));
+%p A055976 od; end: P(100); # _Paolo P. Lava_, Jun 16 2014
+%t A055976 Do[Print[Mod[(n-1)!+1, n]], {n, 1, 100}]
+%K A055976 easy,nonn
+%O A055976 1,4
+%A A055976 _Robert G. Wilson v_, Jul 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

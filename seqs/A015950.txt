@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015950
+Showing 1-1 of 1
+
+%I A015950
+%S A015950 1,5,25,125,205,625,1025,2525,3125,5125,8405,12625,15625,25625,42025,
+%T A015950 63125,78125,103525,128125,168305,202525,210125,255025,315625,344605,
+%U A015950 390625,517625,640625,841525,875125,1012625,1050625,1275125
+%N A015950 Numbers n such that n | 4^n + 1.
+%Y A015950 Cf. A015945.
+%K A015950 nonn
+%O A015950 1,2
+%A A015950 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

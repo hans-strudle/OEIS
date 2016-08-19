@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040190
+Showing 1-1 of 1
+
+%I A040190
+%S A040190 14,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3,
+%T A040190 28,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3,
+%U A040190 28,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3,28,3,6,1,4,1,6,3
+%N A040190 Continued fraction for sqrt(205).
+%H A040190 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040190 a(n)=(1/28)*{-81*(n mod 8)+17*[(n+1) mod 8]-11*[(n+2) mod 8]+17*[(n+3) mod 8]-4*[(n+4) mod 8]+24*[(n+5) mod 8]-4*[(n+6) mod 8]+94*[(n+7) mod 8]}-14*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 24 2009]
+%p A040190 with(numtheory): Digits := 300: convert(evalf(sqrt(205)),confrac);
+%K A040190 nonn,cofr,easy
+%O A040190 0,1
+%A A040190 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016903
+Showing 1-1 of 1
+
+%I A016903
+%S A016903 16384,4782969,105413504,893871739,4586471424,17249876309,52523350144,
+%T A016903 137231006679,319277809664,678223072849,1338925209984,2488651484819,
+%U A016903 4398046511104,7446353252589,12151280273024
+%N A016903 (5n+4)^7.
+%H A016903 Vincenzo Librandi, <a href="/A016903/b016903.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016903 (MAGMA) [(5*n+4)^7: n in [0..50]]; // Vincenzo Librandi, May 02 2011
+%K A016903 nonn,easy
+%O A016903 0,1
+%A A016903 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

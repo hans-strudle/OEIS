@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007228
+Showing 1-1 of 1
+
+%I A007228 M5200
+%S A007228 3,6,28,165,1092,7752,57684,444015,3506100,28242984,231180144,
+%T A007228 1917334783,16077354108,136074334200,1160946392760,9973891723635,
+%U A007228 86210635955220,749191930237608,6541908910355280,57369142749576660,505045163173167760,4461713825057817120
+%N A007228 a(n) = (3/(n+1)) * C(4n,n).
+%C A007228 Perforation patterns for punctured convolutional codes (4,1).
+%C A007228 Apparently Begin's paper was presented at a poster session at the conference and was never published.
+%D A007228 G. Begin, On the enumeration of perforation patterns for punctured convolutional codes, Séries Formelles et Combinatoire Algébrique, 4th colloquium, 15-19 Juin 1992, Montréal, Université du Québec à Montréal, pp. 1-10.
+%D A007228 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A007228 a(n) = C(4n,n)/(3n+1) + 2*C(4n+1,n)/(3n+2) + 3*C(4n+2,n)/(3n+3). - _Paul Barry_, Nov 05 2006
+%F A007228 G.f.: g + g^2 + g^3 where g = 1 + x*g^4 is the g.f. of A002293. - _Mark van Hoeij_, Nov 11 2011
+%F A007228 3*(3*n-1)*(3*n-2)*(n+1)*a(n) - 8*(4*n-3)*(2*n-1)*(4*n-1)*a(n-1) = 0. - _R. J. Mathar_, Nov 24 2012
+%t A007228 Table[3/(n+1) Binomial[4n,n],{n,0,30}] (* _Harvey P. Dale_, Nov 14 2013 *)
+%Y A007228 Cf. A007226.
+%K A007228 nonn
+%O A007228 0,1
+%A A007228 _Simon Plouffe_
+%E A007228 Edited by _N. J. A. Sloane_, Feb 07 2004 following a suggestion of _Ralf Stephan_
+%E A007228 Reedited by _N. J. A. Sloane_, May 31 2008 following a suggestion of _R. J. Mathar_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

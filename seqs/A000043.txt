@@ -1,0 +1,120 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000043
+Showing 1-1 of 1
+
+%I A000043 M0672 N0248
+%S A000043 2,3,5,7,13,17,19,31,61,89,107,127,521,607,1279,2203,2281,3217,4253,
+%T A000043 4423,9689,9941,11213,19937,21701,23209,44497,86243,110503,132049,
+%U A000043 216091,756839,859433,1257787,1398269,2976221,3021377,6972593,13466917,20996011,24036583,25964951,30402457,32582657
+%N A000043 Mersenne exponents: primes p such that 2^p - 1 is prime. Then 2^p - 1 is called a Mersenne prime.
+%C A000043 Equivalently, integers n such that 2^n - 1 is prime.
+%C A000043 It is believed (but unproved) that this sequence is infinite. The data suggest that the number of terms up to exponent N is roughly K log N for some constant K.
+%C A000043 Length of prime repunits in base 2.
+%C A000043 The associated perfect number N=2^(p-1)*M(p) (=A019279*A000668=A000396), has 2p (=A061645) divisors with harmonic mean p (and geometric mean sqrt(N)). - _Lekraj Beedassy_, Aug 21 2004
+%C A000043 In one of his first publications Euler found the numbers up to 31 but erroneously included 41 and 47.
+%C A000043 Equals number of bits in binary expansion of n-th Mersenne prime (A117293). - _Artur Jasinski_, Feb 09 2007
+%C A000043 Number of divisors of n-th even perfect number, divided by 2. Number of divisors of n-th even perfect number that are powers of 2. Number of divisors of n-th even perfect number that are multiples of n-th Mersenne prime A000668(n). - _Omar E. Pol_, Feb 24 2008
+%C A000043 Number of divisors of n-th even superperfect number A061652(n). Numbers of divisors of n-th superperfect number A019279(n), assuming there are no odd superperfect numbers. - _Omar E. Pol_, Mar 01 2008
+%C A000043 Differences between exponents when the even perfect numbers are represented as differences of powers of 2, for example: The 5th even perfect number is 33550336 = 2^25 - 2^12 then a(5)=25-12=13 (see A135655, A133033, A090748). - _Omar E. Pol_, Mar 01 2008
+%C A000043 Number of 1's in binary expansion of n-th even perfect number (see A135650). Number of 1's in binary expansion of divisors of n-th even perfect number that are multiples of n-th Mersenne prime A000668(n) (see A135652, A135653, A135654, A135655). - _Omar E. Pol_, May 04 2008
+%C A000043 Indices of the numbers A006516 that are also even perfect numbers. - _Omar E. Pol_, Aug 30 2008
+%C A000043 Indices of Mersenne numbers A000225 that are also Mersenne primes A000668. - _Omar E. Pol_, Aug 31 2008
+%C A000043 A modification of the Eberhart's conjecture proposed by Wagstaff (1983) which proposes that if q_n is the n-th prime such that M_(q_n) is a Mersenne prime, then q_n is approximately (2^(e^(-gamma)))^n, where gamma is the Euler-Mascheroni constant. [Weisstein, Wagstaff's Conjecture, see link below] - _Jonathan Vos Post_, Sep 10 2010
+%C A000043 The (prime) number p appears in this sequence if and only if there is no prime q<2^p-1 such that the order of 2 modulo q equals p; a special case is that if p=4k+3 is prime and also q=2p+1 is prime then the order of 2 modulo q is p so p is not a term of this sequence. - _Joerg Arndt_, Jan 16 2011
+%C A000043 Primes p such that sigma(2^p) - sigma(2^p-1) = 2^p-1. - _Jaroslav Krizek_, Aug 02 2013
+%D A000043 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 4.
+%D A000043 Bateman, P. T.; Selfridge, J. L.; Wagstaff, S. S., Jr. The new Mersenne conjecture. Amer. Math. Monthly 96 (1989), no. 2, 125--128. MR0992073 (90c:11009)
+%D A000043 J. Brillhart et al., Factorizations of b^n +- 1. Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 2nd edition, 1985; and later supplements.
+%D A000043 Gillies, Donald B. Three new Mersenne primes and a statistical theory. Mathematics of Computation 18.85 (1964): 93-97.
+%D A000043 F. Lemmermeyer, Reciprocity Laws From Euler to Eisenstein, Springer-Verlag, 2000, p. 57.
+%D A000043 Mullin, Albert A. Letter to the editor: "The new Mersenne conjecture'' [Amer. Math. Monthly 96 (1989), no. 2, 125-128; MR0992073 (90c:11009)] by P. T. Bateman, J. L. Selfridge and S. S. Wagstaff, Jr., Amer. Math. Monthly 96 (1989), no. 6, 511. MR0999415 (90f:11008)
+%D A000043 Clifford A. Pickover, A Passion for Mathematics, Wiley, 2005; see p. 19.
+%D A000043 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000043 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000043 B. Tuckerman, The 24th Mersenne prime, Notices Amer. Math. Soc., 18 (Jun, 1971), Abstract 684-A15, p. 608.
+%D A000043 K. Zsigmondy, Zur Theorie der Potenreste, Monatsh. Math., 3 (1892), 265-284.
+%H A000043 David Wasserman, <a href="/A000043/b000043.txt">Table of n, a(n) for n = 1..44</a> [Updated by _N. J. A. Sloane_, Feb 06 2013, _Alois P. Heinz_, May 01 2014, Jan 11 2015]
+%H A000043 J. Bernheiden, <a href="http://www.mathe-schule.de/download/pdf/Primzahl/Mersenne.pdf">Mersenne Numbers (Text in German)</a>
+%H A000043 Andrew R. Booker, <a href="http://primes.utm.edu/nthprime/">The Nth Prime Page</a>
+%H A000043 J. Brillhart et al., <a href="http://dx.doi.org/10.1090/conm/022">Factorizations of b^n +- 1</a>, Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 3rd edition, 2002.
+%H A000043 P. G. Brown, <a href="http://www.austms.org.au/Publ/Gazette/1997/Nov97/brown.html">A Note on Ramanujan's (FALSE) Conjectures Regarding 'Mersenne Primes'</a>
+%H A000043 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/mersenne/index.html">Mersenne Primes</a>
+%H A000043 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/largest.html#largest">Recent Mersenne primes</a>
+%H A000043 L. Euler, <a href="http://arXiv.org/abs/math.HO/0501118">Observations on a theorem of Fermat and others on looking at prime numbers</a>, arXiv:math/0501118 [math.HO], 2005-2008.
+%H A000043 L. Euler, <a href="http://math.dartmouth.edu/~euler/pages/E026.html">Observationes de theoremate quodam Fermatiano aliisque ad numeros primos spectantibus</a>
+%H A000043 G. Everest et al., <a href="http://arxiv.org/abs/math/0412079">Primes generated by recurrence sequences</a>, arXiv:math/0412079 [math.NT], 2006.
+%H A000043 G. Everest et al., <a href="http://www.jstor.org/stable/27642221">Primes generated by recurrence sequences</a>, Amer. Math. Monthly, 114 (No. 5, 2007), 417-431.
+%H A000043 GIMPS (Great Internet Mersenne Prime Search), <a href="http://www.mersenne.org/">Distributed Computing Projects</a>
+%H A000043 GIMPS, <a href="http://www.mersenne.org/report_milestones/">Milestones Report</a>
+%H A000043 GIMPS, 48th Known Mersenne Prime Discovered, <a href="http://mersenne.org/various/57885161.htm">GIMPS Project Discovers Largest Known Prime Number, 2^57885161 - 1</a>
+%H A000043 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A000043 H. Lifchitz, <a href="http://www.primenumbers.net/Henri/us/MersFermus.htm">Mersenne and Fermat primes field</a>
+%H A000043 A. J. Menezes, P. C. van Oorschot and S. A. Vanstone, <a href="http://www.cacr.math.uwaterloo.ca/hac/">Handbook of Applied Cryptography</a>, CRC Press, 1996; see p. 143.
+%H A000043 R. Mestrovic, <a href="http://arxiv.org/abs/1202.3670">Euclid's theorem on the infinitude of primes: a historical survey of its proofs (300 BC--2012) and another new proof</a>, arXiv preprint arXiv:1202.3670 [math.HO], 2012. - From _N. J. A. Sloane_, Jun 13 2012
+%H A000043 G. P. Michon, <a href="http://www.numericana.com/answer/numbers.htm#perfect">Perfect Numbers, Mersenne Primes</a>
+%H A000043 M. Oakes, <a href="http://www.mail-archive.com/mersenne@base.com/msg05162.html">A new series of Mersenne-like Gaussian primes</a>
+%H A000043 Omar E. Pol, <a href="http://www.polprimos.com">Determinacion geometrica de los numeros primos y perfectos</a>.
+%H A000043 K. Schneider, PlanetMath.org, <a href="http://planetmath.org/encyclopedia/MersenneNumbers.html">Mersenne numbers</a>
+%H A000043 H. J. Smith, <a href="http://www.oocities.org/hjsmithh/Perfect/Mersenne.html">Mersenne Primes</a>
+%H A000043 B. Tuckerman, <a href="http://www.pnas.org/content/68/10/2319.abstract">The 24th Mersenne prime</a>, Proc. Nat. Acad. Sci. USA, 68 (1971), 2319-2320.
+%H A000043 H. S. Uhler, <a href="http://www.pnas.org/cgi/reprint/34/3/102.pdf">On All Of Mersenne's Numbers Particularly M_193</a>
+%H A000043 H. S. Uhler, <a href="http://www.pnas.org/cgi/reprint/30/10/314.pdf">First Proof That The Mersenne Number M_157 Is Composite</a>
+%H A000043 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>
+%H A000043 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MersennePrime.html">Mersenne Prime</a>
+%H A000043 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CunninghamNumber.html">Cunningham Number</a>
+%H A000043 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/IntegerSequencePrimes.html">Integer Sequence Primes</a>
+%H A000043 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repunit.html">Repunit</a>
+%H A000043 Eric Weisstein's World of Mathematics, Mathworld Headline News, <a href="http://mathworld.wolfram.com/news/2003-12-02/mersenne">40th Mersenne Prime Announced</a>
+%H A000043 Eric Weisstein's World of Mathematics, Mathworld Headline News, <a href="http://mathworld.wolfram.com/news/2004-06-01/mersenne">41st Mersenne Prime Announced</a>
+%H A000043 Eric Weisstein, MathWorld Headline News, <a href="http://mathworld.wolfram.com/news/2005-02-26/mersenne">42nd Mersenne Prime Found</a>
+%H A000043 Eric Weisstein, MathWorld Headline News, <a href="http://mathworld.wolfram.com/news/2005-12-25/mersenne-43">43rd Mersenne Prime Found</a>
+%H A000043 Eric Weisstein, MathWorld Headline News, <a href="http://mathworld.wolfram.com/news/2006-09-11/mersenne-44">44th Mersenne Prime Found</a>
+%H A000043 Eric Weisstein, MathWorld Headline News, <a href="http://mathworld.wolfram.com/news/2008-09-16/mersenne-45-46/">45th and 46th Mersenne Primes Found</a> - _Lekraj Beedassy_, Sep 18 2008
+%H A000043 Eric Weisstein, MathWorld Headline News, <a href="http://mathworld.wolfram.com/news/2009-06-07/mersenne-47/">47th Known Mersenne Prime Apparently Discovered</a> - _Lekraj Beedassy_, Aug 03 2009
+%H A000043 Eric W. Weisstein, <a href="http://mathworld.wolfram.com/WagstaffsConjecture.html"> Wagstaff's Conjecture</a>, - _Jonathan Vos Post_, Sep 10 2010
+%H A000043 David Whitehouse, <a href="http://news.bbc.co.uk/hi/english/sci/tech/newsid_1693000/1693364.stm">Number takes prime position</a> (2^13466917 - 1 found after 13000 years of computer time)
+%H A000043 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%F A000043 a(n) = log((1/2)*(1+sqrt(1+8*A000396(n))))/log(2). - _Artur Jasinski_, Sep 23 2008 (under the assumption there are no odd perfect numbers, _Joerg Arndt_, Feb 23 2014)
+%F A000043 a(n) = A000005(A061652(n)). - _Omar E. Pol_, Aug 26 2009
+%F A000043 a(n) = A000120(A000396(n)), assuming there are no odd perfect numbers. - _Omar E. Pol_, Oct 30 2013
+%F A000043 a(n) = 1 + Sum_{m=1..L(n)}(abs(n-S(m))-abs(n-S(m)-1/2)+1/2), where S(m) = Sum_{k=1..m}(A010051(k)*A010051(2^k-1)) and L(n) >= a(n)-1.  L(n) can be any function of n which satisfies the inequality. - _Timothy Hopper_, Jun 11 2015.
+%F A000043 a(n) = A260073(A000396(n)) + 1, again assuming there are no odd perfect numbers. - _Juri-Stepan Gerasimov_, Aug 29 2015
+%F A000043 a(n) = A050475(n) - 1. - _Mohammed Bouayoun_, Mar 19 2004
+%e A000043 Corresponding to the initial terms 2, 3, 5, 7, 13, 17, 19, 31 ... we get the Mersenne primes 2^2 - 1 = 3, 2^3 - 1 = 7, 2^5 - 1 = 31, 127, 8191, 131071, 524287, 2147483647 ... (see A000668).
+%t A000043 Select[ Prime@ Range@ 1000, PrimeQ[2^# - 1] &] (* _Vladimir Joseph Stephan Orlovsky_, Apr 29 2008 and modified by _Robert G. Wilson v_, Jan 20 2014 *)
+%t A000043 Flatten[Position[EulerPhi[2^# - 2] + 2 == EulerPhi[2^#]&/@Range[1, 5000], True] - 1] (* _Vincenzo Librandi_, Aug 31 2015 *)
+%o A000043 (PARI) isA000043(n) = isprime(2^n-1) \\ _Michael B. Porter_, Oct 28 2009
+%o A000043 (PARI)
+%o A000043 LL(e)=
+%o A000043 { /* Lucas-Lehmer test for exponent e */
+%o A000043     local(n, h);
+%o A000043     n = 2^e-1;
+%o A000043     h = Mod(2,n);
+%o A000043     for (k=1, e-2, h=2*h*h-1);
+%o A000043     return( 0==h );
+%o A000043 }
+%o A000043 forprime(e=2,5000,if(LL(e),print1(e,", "))); /* terms<5000, takes 10 secs */
+%o A000043 /* _Joerg Arndt_, Jan 16 2011 */
+%o A000043 (PARI) is(n)=my(h=Mod(2,2^n-1)); for(i=1, n-2, h=2*h^2-1); h==0||n==2 \\ _Charles R Greathouse IV_, Jun 05 2013
+%Y A000043 See A000668 for the actual primes, A028335 for their lengths.
+%Y A000043 Cf. A001348, A016027, A046051, A057429, A057951-A057958, A066408, A117293, A127962, A127963, A127964, A127965, A127961, A000979, A000978, A124400, A124401, A127955, A127956, A127957, A127958, A127936, A134458, A000225, A000396, A090748, A133033, A135655, A006516, A019279, A061652, A133033, A135650, A135652, A135653, A135654, A260073, A050475.
+%K A000043 hard,nonn,nice,core,changed
+%O A000043 1,1
+%A A000043 _N. J. A. Sloane_
+%E A000043 2^6972593 - 1 is known to be the 38th Mersenne prime. - _Harry J. Smith_, Apr 17 2003
+%E A000043 2^13466917 - 1 is known to be the 39th Mersenne prime.
+%E A000043 Also in the sequence: p=20996011, for which M(p) is a 6.3 million digit number [Nov 17 2003]. Known to be the 40th Mersenne prime since July 2010. See the GIMPS link for details.
+%E A000043 Also in the sequence: p=24036583 (for which M(p) is a 7.2 million digit number) [Jun 01 2004]. Known (double-checked) to be the 41st Mersenne prime since Dec 01 2011. - _Jason Kimberley_, Jan 05 2012
+%E A000043 Also in the sequence: p=25964951 (for which M(p) is a 7.8 million digit number). - Feb 26 2005
+%E A000043 Also in the sequence: p=30402457 (for which M(p) is a 9.2 million digit number). - Dec 29 2005
+%E A000043 Also in the sequence: p=32582657. - Sep 21 2006
+%E A000043 Also in the sequence: p=37156667 and p=43112609. - Sep 15 2008
+%E A000043 As of Dec 30 2005 the exhaustive search been run through 16693000, according to the GIMPS status page (thanks to _R. K. Guy_ for this information). - _N. J. A. Sloane_, Dec 30 2005
+%E A000043 Also in the sequence: p=42643801 (April 2009).
+%E A000043 Also in the sequence: p=57885161 (Jan 25 2013).
+%E A000043 Added 30402457, now known to be a(43), _Joerg Arndt_, Mar 04 2014
+%E A000043 Added a(44), verified by GIMPS [via Tony Noe], by _Charles R Greathouse IV_, Nov 10 2014
+%E A000043 Also in the sequence: p=74207281. - _Charles R Greathouse IV_, Jan 19 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

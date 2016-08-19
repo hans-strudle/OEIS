@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009817
+Showing 1-1 of 1
+
+%I A009817
+%S A009817 0,2,8,144,11264,323840,36347904,8388294656,620426657792,
+%T A009817 168731721990144,79627879039631360,11099857853570613248,
+%U A009817 5627175549005859913728,4469405304978356270268416
+%V A009817 0,2,8,-144,-11264,-323840,36347904,8388294656,620426657792,
+%W A009817 -168731721990144,-79627879039631360,-11099857853570613248,
+%X A009817 5627175549005859913728,4469405304978356270268416
+%N A009817 Expansion of tanh(tan(x).x).
+%H A009817 Vincenzo Librandi, <a href="/A009817/b009817.txt">Table of n, a(n) for n = 0..100</a>
+%t A009817 With[{nn=30},Take[CoefficientList[Series[Tanh[Tan[x]*x],{x,0,nn}],x] Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Oct 28 2013 *)
+%K A009817 sign
+%O A009817 0,2
+%A A009817 _R. H. Hardin_, Mar 15 1996
+%E A009817 Extended with signs by _Olivier Gérard_, Mar 15 1997
+%E A009817 Prior Mathematica program replaced by _Harvey P. Dale_, Oct 28 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

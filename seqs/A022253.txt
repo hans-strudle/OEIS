@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022253
+Showing 1-1 of 1
+
+%I A022253
+%S A022253 1,91,7462,605242,49031983,3971657053,321704819164,26058095733124,
+%T A022253 2110705802810605,170967170463507055,13848340811466703906,
+%U A022253 1121715605764106708446,90858964067210376612667,7359576089446900104682897
+%N A022253 Gaussian binomial coefficients [ n,2 ] for q = 9.
+%F A022253 G.f.: 1/[(1-x)(1-9x)(1-81x)].
+%o A022253 (Sage) [gaussian_binomial(n,2,9) for n in xrange(2,16)] # [From _Zerinvary Lajos_, May 28 2009]
+%K A022253 nonn
+%O A022253 0,2
+%A A022253 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

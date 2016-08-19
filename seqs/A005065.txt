@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005065
+Showing 1-1 of 1
+
+%I A005065
+%S A005065 0,16,81,16,625,97,2401,16,81,641,14641,97,28561,2417,706,16,83521,97,
+%T A005065 130321,641,2482,14657,279841,97,625,28577,81,2417,707281,722,923521,
+%U A005065 16,14722,83537,3026,97,1874161
+%N A005065 Sum of 4th powers of primes dividing n.
+%C A005065 Primes taken without multiplicity, e.g., 12 = 2*2*3, and a(12) = 2^4+3^4 = 97. - _Harvey P. Dale_, Jul 16 2014
+%F A005065 Additive with a(p^e) = p^4.
+%p A005065 A005065 := proc(n)
+%p A005065         add(d^4, d= numtheory[factorset](n)) ;
+%p A005065 end proc;
+%p A005065 seq(A005065(n),n=1..40) ; # _R. J. Mathar_, Nov 08 2011
+%t A005065 Join[{0},Table[Total[Transpose[FactorInteger[n]][[1]]^4],{n,2,40}]] (* _Harvey P. Dale_, Jul 16 2014 *)
+%K A005065 nonn
+%O A005065 1,2
+%A A005065 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

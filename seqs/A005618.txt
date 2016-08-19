@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005618
+Showing 1-1 of 1
+
+%I A005618 M3528
+%S A005618 4,16,88,520,3112,18664,111976,671848,4031080,24186472,145118824,
+%T A005618 870712936,5224277608,31345665640,188073993832,1128443962984,
+%U A005618 6770663777896,40623982667368,243743896004200,1462463376025192
+%N A005618 a(n)=6*a(n-1) - 8.
+%D A005618 J. T. Butler, Tandem networks of universal cells, IEEE Trans. Computers, C-27 (1978), 681-690.
+%D A005618 K. K. Maitra, Cascaded switching networks of two-input flexible cells, IEEE Trans. Electron. Computers, C-11 (1962), 136-143.
+%D A005618 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005618 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005618 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005618 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (7,-6).
+%F A005618 a(n)=(4/5)*(2+3*6^n), with n>=0. - _Paolo P. Lava_, Jun 25 2008
+%F A005618 G.f.: ( 4-12*x ) / ( (6*x-1)*(x-1) ). - _Simon Plouffe_ in his 1992 dissertation.
+%K A005618 nonn,easy
+%O A005618 0,1
+%A A005618 _N. J. A. Sloane_.
+%E A005618 More terms from _Jon E. Schoenfield_, Mar 27 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

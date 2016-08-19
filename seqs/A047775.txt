@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047775
+Showing 1-1 of 1
+
+%I A047775
+%S A047775 0,0,0,0,2,5,11,25,66,131,349,708,1911,3856,10604,21597,59961,123266,
+%T A047775 345060,715198,2015416,4206926,11919257,25032840,71246129,150413234,
+%U A047775 429750208,911379241,2612614298,5562367173,15991792731,34164355260
+%N A047775 Number of dissectable polyhedra with symmetry of type B.
+%D A047775 L. W. Beineke and R. E. Pippert, Enumerating dissectable polyhedra by their automorphism groups, Canad. J. Math., 26 (1974), 50-67.
+%D A047775 S. J. Cyvin et al., Enumeration of staggered conformers of alkanes: complete solution ..., J. Molec. Struct., 413 (1997), 237-239.
+%F A047775 (1/2)*(A047749(n)-2*A047773(n)-2*A047760(n)-A047753(n)-A047751(n)-A047764(n)-A047765(n)).
+%Y A047775 Cf. A027610, A047772, A007173.
+%K A047775 nonn
+%O A047775 1,5
+%A A047775 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

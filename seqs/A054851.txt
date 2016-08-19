@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054851
+Showing 1-1 of 1
+
+%I A054851
+%S A054851 1,16,144,960,5280,25344,109824,439296,1647360,5857280,19914752,
+%T A054851 65175552,206389248,635043840,1905131520,5588385792,16066609152,
+%U A054851 45364543488,126012620800,344876646400,931166945280,2483111854080
+%N A054851 2^(n-7)*C(n,7). Number of 7D hypercubes in an n-dimensional hypercube.
+%C A054851 If X_1,X_2,...,X_n is a partition of a 2n-set X into 2-blocks then, for n>6, a(n) is equal to the number of (n+7)-subsets of X intersecting each X_i (i=1,2,...,n). - _Milan Janjic_, Jul 21 2007
+%C A054851 With a different offset, number of n-permutations (n>=7) of 3 objects: u,v,z with repetition allowed, containing exactly seven (7) u's. Example: a(1)=16 because we have uuuuuuuv, uuuuuuvu, uuuuuvuu, uuuuvuuu, uuuvuuuu, uuvuuuuu, uvuuuuuu, vuuuuuuu, uuuuuuuz, uuuuuuzu, uuuuuzuu, uuuuzuuu, uuuzuuuu, uuzuuuuu, uzuuuuuu and zuuuuuuu. - _Zerinvary Lajos_, Jun 23 2008
+%H A054851 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A054851 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv 1301.4550, 2013
+%H A054851 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (16,-112,448,-1120,1792,-1792,1024,-256).
+%F A054851 a(n)=2*a(n-1)+A002409(n-1).
+%F A054851 G.f.: x^7/(1-2*x)^8. [_Colin Barker_, Sep 04 2012]
+%p A054851 seq(binomial(n+7,7)*2^n,n=0..21); - _Zerinvary Lajos_, Jun 23 2008
+%o A054851 (Sage) [lucas_number2(n, 2, 0)*binomial(n,7)/128 for n in xrange(7, 29)] [_Zerinvary Lajos_, Mar 10 2009]
+%Y A054851 Cf. A000079, A001787, A001788, A001789, A003472, A054849, A002409, A038207.
+%Y A054851 a(n+8) = A082141(n+1)/2.
+%K A054851 easy,nonn
+%O A054851 7,2
+%A A054851 _Henry Bottomley_, Apr 14 2000
+%E A054851 More terms from _James A. Sellers_, Apr 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

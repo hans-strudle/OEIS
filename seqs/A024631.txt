@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024631
+Showing 1-1 of 1
+
+%I A024631
+%S A024631 0,1,2,3,30,31,32,33,320,321,322,323,3210,3211,3212,3213,32100,32101,
+%T A024631 32102,32103,32130,32131,32132,32133,321020,321021,321022,321023,
+%U A024631 321310,321311,321312,321313,3210200,3210201,3210202,3210203,3210230,3210231
+%N A024631 n written in fractional base 4/3.
+%F A024631 To represent a number in base b, if a digit exceeds b, subtract b and carry 1. In fractional base a/b, subtract a and carry b.
+%K A024631 nonn,base
+%O A024631 0,3
+%A A024631 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

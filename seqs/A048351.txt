@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048351
+Showing 1-1 of 1
+
+%I A048351
+%S A048351 4,26,216,1291,5164,68313,163284,785294,3559026,26393686,129099069,
+%T A048351 254296413,816435342,4081257976,80413106314,215329205326
+%N A048351 a(n)^2 is the smallest square containing exactly n 6's.
+%H A048351 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Square Number</a>
+%t A048351 a[n_] := Module[{i = 1}, While[DigitCount[i^2][[6]] != n, i++;]; i]; - Sam Handler (sam_5_5_5_0(AT)yahoo.com), Aug 20 2006
+%Y A048351 Cf. A036513, A034988.
+%K A048351 nonn,base
+%O A048351 1,1
+%A A048351 _Patrick De Geest_, Mar 15 1999.
+%E A048351 816435342 from Sam Handler (sam_5_5_5_0(AT)yahoo.com), Aug 20 2006
+%E A048351 a(14), a(15) from Jon E. Schoenfield, Jan 14 2009
+%E A048351 a(16) from _Jon E. Schoenfield_, Jan 24 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

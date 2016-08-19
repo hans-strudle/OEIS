@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059620
+Showing 1-1 of 1
+
+%I A059620
+%S A059620 0,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,1,
+%T A059620 0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,
+%U A059620 0,1,0,1,0,1,0,0,1,0,1,0,0,1,0,1,0,1,0,0
+%N A059620 Colors of the 88 keys of the standard piano: white keys = 0, black keys = 1.
+%F A059620 a(n) = floor((5n+7)/12) - floor((5n+2)/12). - _David W. Wilson_, Mar 02 2003
+%e A059620 .1..1.1..1.1.1..1.1..1.1.1..1.1..1.1.1..1.1..1.1.1..1.1..1.1.1..1.1..1.1.1..1.1..1.1.1
+%e A059620 0.00.0.00.0.0.00.0.00.0.0.00.0.00.0.0.00.0.00.0.0.00.0.00.0.0.00.0.00.0.0.00.0.00.0.0.00
+%Y A059620 Cf. A081031, A081032.
+%K A059620 easy,fini,full,nonn,nice
+%O A059620 0,1
+%A A059620 _Naohiro Nomoto_, Feb 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

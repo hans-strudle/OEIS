@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003214
+Showing 1-1 of 1
+
+%I A003214 M0775
+%S A003214 1,1,2,3,6,10,20,37,76,152,320,672,1454,3154,6959,15439,34608,77988,
+%T A003214 176985,403510,924683,2127335,4913452,11385955,26468231,61700232,
+%U A003214 144206269,337837221,793213550,1866181155,4398867672,10387045476,24567374217,58196129468,138056734916
+%N A003214 Number of binary forests with n nodes.
+%C A003214 From Piet Hut, Nov 07 2003: "Number of ways to place n stars in stable hierarchical multiple star systems (where each stable multiple is a binary tree: around its center of mass two multiple star systems revolve, each of which can be a singleton or a nontrivial multiple star system).
+%C A003214 "For example, a(1) = 1 : *; a(2) = 2 : (**), * *; a(3) = 3 : ((**)*), (**) *, * * *; a(4) = 6 : (((**)*)*), ((**)(**)), ((**)*) *, (**) (**), (**) * *, * * * * ."
+%D A003214 L. F. Meyers, Corrections and additions to Tree Representations in Linguistics. Report 3, 1966, p. 138. Project on Linguistic Analysis, Ohio State University Research Foundation, Columbus, Ohio.
+%D A003214 L. F. Meyers and W. S.-Y. Wang, Tree Representations in Linguistics. Report 3, 1963, pp. 107-108. Project on Linguistic Analysis, Ohio State University Research Foundation, Columbus, Ohio.
+%D A003214 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003214 T. D. Noe, <a href="/A003214/b003214.txt">Table of n, a(n) for n=0..200</a>
+%H A003214 Piet Hut, <a href="http://www.sns.ias.edu/~piet/">Home Page</a>
+%F A003214 Euler transform of A001190. - _Michael Somos_, Nov 10 2003
+%F A003214 G.f.: exp( sum G001190(x^i)/i, i=1..infinity ), where G001190 = g.f. for A001190.
+%F A003214 a(n) ~ c * d^n / n^(3/2), where d = A086317 = 2.4832535361726368585622885181... and c = 0.9874010699028009804... . - _Vaclav Kotesovec_, Apr 19 2016
+%t A003214 max = 34; c[0] = 0; g[x_] = Sum[c[k]*x^k, {k, 0, max}]; eq[0] = Rest[ Thread[ CoefficientList[ (-2*x + 2*g[x] - g[x]^2 - g[x^2])/2, x] == 0]]; s[1] = First[ Solve[ First[eq[0]], c[1]]]; Do[ eq[k-1] = Rest[ eq[k-2]] /. s[k-1]; s[k] = First[ Solve[ First[eq[k-1]], c[k]]], {k, 2, max}]; sol = Flatten[ Table[ s[k], {k, 1*max}], 1]; f[x_] = Exp[ Sum[ g[x^i]/i, {i, 1, max}]] /. sol; CoefficientList[ Series[ f[x], {x, 0, max}], x](* _Jean-François Alcover_, Nov 18 2011 *)
+%t A003214 (* b = A001190 *) b[n_] := b[n] = If[OddQ[n], Sum[b[k] b[n-k], {k, 1, (n-1)/2}], Sum[b[k] b[n-k], {k, 1, n/2 - 1}] + (1/2) b[n/2] (1+b[n/2])]; b[0] = 0; b[1] = 1;
+%t A003214 etr[p_] := Module[{b}, b[n_] := b[n] = If[n == 0, 1, Sum[ Sum[d p[d], {d, Divisors[j]}] b[n-j], {j, 1, n}]/n]; b];
+%t A003214 a[n_] := etr[b][n]; Table[a[n], {n, 0, 34}] (* _Jean-François Alcover_, Mar 14 2016 *)
+%Y A003214 Cf. A001190.
+%K A003214 nonn,easy,nice
+%O A003214 0,3
+%A A003214 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

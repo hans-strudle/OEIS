@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008824
+Showing 1-1 of 1
+
+%I A008824
+%S A008824 1,2,3,4,7,10,13,18,23,28,33,40,47,54,63,72,81,90,101,112,123,136,149,
+%T A008824 162,175,190,205,220,237,254,271,288,307,326,345,366,387,408,429,452,
+%U A008824 475,498,523,548,573,598,625,652
+%N A008824 Expansion of (1+2*x^4+x^7)/(1-x)^2/(1-x^7).
+%H A008824 Vincenzo Librandi, <a href="/A008824/b008824.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008824 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (2, -1, 0, 0, 0, 0, 1, -2, 1).
+%F A008824 a(0)=1, a(1)=2, a(2)=3, a(3)=4, a(4)=7, a(5)=10, a(6)=13, a(7)=18, a(8)=23, a(n)=2*a(n-1)-a(n-2)+a(n-7)-2*a(n-8)+a(n-9). - _Harvey P. Dale_, Apr 26 2014
+%t A008824 CoefficientList[Series[(1+2x^4+x^7)/(1-x)^2/(1-x^7),{x,0,50}],x] (* or *) LinearRecurrence[{2,-1,0,0,0,0,1,-2,1},{1,2,3,4,7,10,13,18,23},50] (* _Harvey P. Dale_, Apr 26 2014 *)
+%o A008824 (PARI) a(n)=floor((2*n^2+3*n+7+2*(n%7==1))/7) \\ _Tani Akinari_, Jun 01 2014
+%K A008824 nonn
+%O A008824 0,2
+%A A008824 _N. J. A. Sloane_, Mar 15 1996
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

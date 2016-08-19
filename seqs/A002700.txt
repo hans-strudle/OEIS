@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002700
+Showing 1-1 of 1
+
+%I A002700 M3147 N1275
+%S A002700 3,40,336,2304,14080,79872,430080,2228224,11206656,55050240,265289728,
+%T A002700 1258291200,5888802816,27246198784,124822487040,566935683072,
+%U A002700 2555505541120,11441792876544,50921132261376,225399883694080,992858999881728,4354066045992960
+%N A002700 Coefficients of Chebyshev polynomials: n(2n+1)2^(2n-2).
+%D A002700 C. Lanczos, Applied Analysis. Prentice-Hall, Englewood Cliffs, NJ, 1956, p. 518.
+%D A002700 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002700 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002700 Colin Barker, <a href="/A002700/b002700.txt">Table of n, a(n) for n = 1..1000</a>
+%H A002700 C. Lanczos, <a href="/A002457/a002457.pdf">Applied Analysis</a> (Annotated scans of selected pages)
+%H A002700 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A002700 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A002700 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%H A002700 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (12,-48,64).
+%F A002700 a(n) = 12*a(n-1)-48*a(n-2)+64*a(n-3). - _Colin Barker_, Jun 15 2015
+%p A002700 A002700:=-(3+4*z)/(4*z-1)**3; # [_Simon Plouffe_ in his 1992 dissertation.]
+%t A002700 Table[n*(2*n+1)*2^(2*n-2),{n,1,20}] (* _Vaclav Kotesovec_, Jun 03 2014 *)
+%o A002700 (PARI) Vec(-x*(4*x+3)/(4*x-1)^3 + O(x^100)) \\ _Colin Barker_, Jun 15 2015
+%K A002700 nonn,easy
+%O A002700 1,1
+%A A002700 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

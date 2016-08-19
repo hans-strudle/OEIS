@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017260
+Showing 1-1 of 1
+
+%I A017260
+%S A017260 4096,83521,456976,1500625,3748096,7890481,14776336,25411681,40960000,
+%T A017260 62742241,92236816,131079601,181063936,244140625,322417936,418161601,
+%U A017260 533794816,671898241,835210000,1026625681
+%N A017260 (9*n+8)^4.
+%H A017260 Vincenzo Librandi, <a href="/A017260/b017260.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017260 (MAGMA) [(9*n+8)^4: n in [0..30]]; // Vincenzo Librandi, Jul 28 2011
+%K A017260 nonn,easy
+%O A017260 0,1
+%A A017260 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

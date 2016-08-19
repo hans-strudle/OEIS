@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028338
+Showing 1-1 of 1
+
+%I A028338
+%S A028338 1,1,1,3,4,1,15,23,9,1,105,176,86,16,1,945,1689,950,230,25,1,10395,
+%T A028338 19524,12139,3480,505,36,1,135135,264207,177331,57379,10045,973,49,1,
+%U A028338 2027025,4098240,2924172,1038016,208054,24640,1708,64,1,34459425
+%N A028338 Triangle of coefficients in expansion of (x+1)*(x+3)*...*(x+2*n-1).
+%C A028338 Exponential Riordan array (1/sqrt(1-2*x), log(1/sqrt(1-2*x))). - _Paul Barry_, May 09 2011
+%H A028338 T. D. Noe, <a href="/A028338/b028338.txt">Rows n=0..50 of triangle, flattened</a>
+%F A028338 Triangle T(n, k), read by rows, given by [1, 2, 3, 4, 5, 6, 7, ...] DELTA [1, 0, 1, 0, 1, 0, 1, 0, ...] where DELTA is the operator defined in A084938. - _Philippe Deléham_, Feb 20 2005
+%F A028338 T(n, k) = sum(i=k..n, (-2)^(n-i) * binomial(i, k) * s(n, i)) where s(n, k) are signed Stirling numbers of the first kind. - Francis Woodhouse (fwoodhouse(AT)gmail.com), Nov 18 2005
+%F A028338 G.f.: G.f.: 1/(1-(x+x*y)/(1-2*x/(1-(3*x+x*y)/(1-4*x/(1-(5*x+x*y)/(1-6*x*y/(1-... (continued fraction). - _Paul Barry_, Feb 07 2009
+%F A028338 a(n, m) = (2*n-1)*a(n-1,m) + a(n-1,m-1) with a(n, 0) = (2*n-1)!! and a(n, n) = 1. - _Johannes W. Meijer_, Jun 08 2009
+%e A028338 E.g. For n=4, (x + 1)*(x + 3)*(x + 5)*(x + 7) = x^4+16*x^3+86*x^2+176*x+105
+%e A028338 1;
+%e A028338 1,1;
+%e A028338 3,4,1;
+%e A028338 15,23,9,1;
+%e A028338 105,176,86,16,1;
+%e A028338 ...
+%p A028338 nmax:=8; for n from 0 to nmax do a(n, 0) := doublefactorial(2*n-1) od: for n from 0 to nmax do a(n, n) := 1 od: for n from 2 to nmax do for m from 1 to n-1 do a(n, m) := (2*n-1)*a(n-1, m) + a(n-1, m-1) od; od: seq(seq(a(n, m), m=0..n), n=0..nmax); # _Johannes W. Meijer_, Jun 08 2009, revised Nov 25 2012
+%t A028338 T[n_, k_] := Sum[(-2)^(n-i) Binomial[i, k] StirlingS1[n, i], {i, k, n}] (Woodhouse)
+%t A028338 Join[{1},Flatten[Table[CoefficientList[Expand[Times@@Table[x+i,{i,1,2n+1,2}]],x],{n,0,10}]]] (* _Harvey P. Dale_, Jan 29 2013 *)
+%Y A028338 A039757 is signed version.
+%Y A028338 Row sums: A000165.
+%Y A028338 Diagonals: A001147, A004041, A028339, A028340, A028341; A000012, A000290, A024196, A024197, A024198.
+%Y A028338 A161198 is a scaled triangle version and A109692 is a transposed triangle version.
+%K A028338 tabl,nonn,easy,nice
+%O A028338 0,4
+%A A028338 _Bill Gosper_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

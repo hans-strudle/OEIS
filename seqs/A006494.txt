@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006494
+Showing 1-1 of 1
+
+%I A006494
+%S A006494 1,20,400,8902,197281,4865617,119060679,3195913043,84999425906,
+%T A006494 2439540533153,69353270203366,2097660204806910,62855340727822758
+%N A006494 Number of possible chess games at the end of the n-th ply plus number of games that terminate (i.e., mate) in fewer than n plies.
+%C A006494 This sequence is A048987 plus the cumulative sum of A079485. - Richard Bean (rwb(AT)eskimo.com), Jun 18 2003
+%D A006494 James Gleick, Faster, Vintage Books, NY, 2000 (see pp. 259-261).
+%H A006494 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Chess.html">Chess</a>
+%H A006494 <a href="/index/Ch#chess">Index entries for sequences related to number of chess games</a>
+%Y A006494 Cf. A048987, A079485.
+%K A006494 nonn,hard,nice,fini
+%O A006494 0,2
+%A A006494 Ken Thompson (ken(AT)google.com)
+%E A006494 Three more terms from _François Labelle_, Jan 22 2004
+%E A006494 a(11) from _François Labelle_, Jul 25 2004, who thanks Joost de Heer for providing computer time
+%E A006494 a(12) from _François Labelle_, Mar 04 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

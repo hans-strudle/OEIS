@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049107
+Showing 1-1 of 1
+
+%I A049107
+%S A049107 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A049107 1,1,1,1,1,1,2,1,1,1,1,1,2,1,1,1,2,1,2,1,2,1,1,1,2,1,2,1,1,2,2,1,2,2,
+%U A049107 2,1,2,1,2,1,2,1,2,1,2,2,1,2,4,1,4,1,2,2,4,1,2,2,2,2,2,2,4,1,2,2,4,2,4,2,2
+%N A049107 Euler phi function applied 5 times.
+%e A049107 n=163, the successive iterates applying Euler totient function are as follows: 163,162,54,18,6,2,1. The 6th term is 2, when Phi was applied 5 times. So a(163)=2, already a power of 2.
+%t A049107 a(n)=Nest[ EulerPhi, n, 5 ]
+%Y A049107 A000010, A010554.
+%K A049107 nonn
+%O A049107 1,41
+%A A049107 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

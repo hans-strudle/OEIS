@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022560
+Showing 1-1 of 1
+
+%I A022560
+%S A022560 0,1,4,8,16,25,36,48,68,89,112,136,164,193,224,256,304,353,404,456,
+%T A022560 512,569,628,688,756,825,896,968,1044,1121,1200,1280,1392,1505,1620,
+%U A022560 1736,1856,1977,2100,2224,2356,2489,2624,2760,2900,3041
+%N A022560 a(0)=0, a(2n) = 2a(n)+2a(n-1)+n^2+n, a(2n+1) = 4a(n)+(n+1)^2.
+%H A022560 R. Stephan, <a href="/somedcgf.html">Some divide-and-conquer sequences ...</a>
+%H A022560 R. Stephan, <a href="/A079944/a079944.ps">Table of generating functions</a>
+%F A022560 Let a(i, n)=2^(i-1)*floor(1/2+n/2^i); sequence is a_n=sum_{i=1}a(i, n)(n-a(i, n)).
+%F A022560 Second differences give A006519.
+%F A022560 Also a_1=0 and a_n=floor(n^2/4) + a_floor(n/2) + a_ceil(n/2).
+%F A022560 G.f.: 1/(1-x)^2 * (x/(1-x) + Sum(k>=1, 2^(k-1)*x^2^k/(1-x^2^k))). - _Ralf Stephan_, Apr 17 2003
+%F A022560 a(0)=0, a(2n) = 2a(n)+2a(n-1)+n^2+n, a(2n+1) = 4a(n)+(n+1)^2. - _Ralf Stephan_, Sep 13 2003
+%o A022560 (PARI) a(n) = if (n==0, 0, if (n % 2, my(nn = (n-1)/2); 4*a(nn)+(nn+1)^2, my(nn = n/2); 2*a(nn)+2*a(nn-1)+nn^2+nn)) \\ _Michel Marcus_, Jun 27 2013
+%Y A022560 First differences are in A006520.
+%Y A022560 Cf. A070263.
+%K A022560 nonn
+%O A022560 0,3
+%A A022560 Andre Kundgen (kundgen(AT)math.uiuc.edu)
+%E A022560 More terms from _Ralf Stephan_, Sep 13 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

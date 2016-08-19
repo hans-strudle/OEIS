@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014250
+Showing 1-1 of 1
+
+%I A014250
+%S A014250 3,4,5,4,3,1,4,11,23,41,68,110,174,270,415,633,961,1451,2189,
+%T A014250 3297,4958,7451,11191,16802,25218,37842,56780,85186,127797,191712,
+%U A014250 287586,431398,647117,970696,1456065,2184119,3276200,4914323
+%V A014250 -3,-4,-5,-4,-3,-1,4,11,23,41,68,110,174,270,415,633,961,1451,2189,
+%W A014250 3297,4958,7451,11191,16802,25218,37842,56780,85186,127797,191712,
+%X A014250 287586,431398,647117,970696,1456065,2184119,3276200,4914323
+%N A014250 b(n) - c(n) where b(n) = [ (3/2)^n ] and c(n) is the n-th number not in sequence b( ).
+%K A014250 sign
+%O A014250 1,1
+%A A014250 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

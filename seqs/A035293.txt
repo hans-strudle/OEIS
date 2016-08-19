@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035293
+Showing 1-1 of 1
+
+%I A035293
+%S A035293 1,504,73764,2695040,54755730,778640256,8638286840,79534711296,
+%T A035293 632179869615,4456706505600,28415446027380,166276832866560,
+%U A035293 903193785328974,4595374951395840,22061107725128280,100534965940777984
+%N A035293 Fourier coefficients of T_6.
+%C A035293 T_6 is the unique weight = -4 normalized meromorphic modular form for SL(2,Z) with all poles at infinity.
+%D A035293 C.L. Siegel, Advanced Analytic Number Theory,Tata Institute of Fundamental Research, Bombay, 1980, pp. 249-268.
+%F A035293 G.f.: G_8/Delta (in Siegel's notation.)
+%e A035293 T_6 = 1/q + 504 + 73764 q + ....
+%Y A035293 Cf. A035281.
+%K A035293 easy,nonn
+%O A035293 -1,2
+%A A035293 Barry Brent (barryb(AT)primenet.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

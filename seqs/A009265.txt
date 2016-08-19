@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009265
+Showing 1-1 of 1
+
+%I A009265
+%S A009265 1,1,0,4,8,32,216,264,7552,9216,349568,1548032,20281216,
+%T A009265 190744448,1350879232,25395878400,84211707904,3862395551744,
+%U A009265 286327484416,674521189158912,2529465981566976,133945803441307648
+%V A009265 1,1,0,-4,-8,32,216,-264,-7552,-9216,349568,1548032,-20281216,
+%W A009265 -190744448,1350879232,25395878400,-84211707904,-3862395551744,
+%X A009265 -286327484416,674521189158912,2529465981566976,-133945803441307648
+%N A009265 Expansion of exp(tanh(x))/cosh(x).
+%t A009265 With[{nn=30},CoefficientList[Series[Exp[Tanh[x]]/Cosh[x],{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Nov 13 2014 *)
+%K A009265 sign,easy
+%O A009265 0,4
+%A A009265 _R. H. Hardin_
+%E A009265 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+%E A009265 Prior Mathematica program replaced by _Harvey P. Dale_, Nov 13 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

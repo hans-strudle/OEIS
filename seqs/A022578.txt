@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022578
+Showing 1-1 of 1
+
+%I A022578
+%S A022578 1,13,91,468,1989,7384,24739,76427,220948,604175,1575392,3941847,
+%T A022578 9511944,22226049,50458447,111609537,241099027,509680951,1056262792,
+%U A022578 2149214288,4299359012,8465605408
+%N A022578 Expansion of Product (1+q^m)^13; m=1..inf.
+%F A022578 a(n) ~ (13/3)^(1/4) * exp(Pi * sqrt(13*n/3)) / (256 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022578 nmax=50; CoefficientList[Series[Product[(1+q^m)^13,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022578 nonn
+%O A022578 0,2
+%A A022578 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

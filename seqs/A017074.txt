@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017074
+Showing 1-1 of 1
+
+%I A017074
+%S A017074 0,1073741824,1099511627776,63403380965376,1125899906842624,
+%T A017074 10485760000000000,64925062108545024,303305489096114176,
+%U A017074 1152921504606846976,3743906242624487424,10737418240000000000
+%N A017074 (8*n)^10.
+%H A017074 Vincenzo Librandi, <a href="/A017074/b017074.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017074 (MAGMA) [(8*n)^10: n in [0..20]]; // Vincenzo Librandi, Jul 11 2011
+%K A017074 nonn,easy
+%O A017074 0,2
+%A A017074 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

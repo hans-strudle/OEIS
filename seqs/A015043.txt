@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015043
+Showing 1-1 of 1
+
+%I A015043
+%S A015043 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015043 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,
+%U A015043 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015043 1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015043 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,
+%X A015043 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015043 Inverse of 1034th cyclotomic polynomial.
+%H A015043 Matthew House, <a href="/A015043/b015043.txt">Table of n, a(n) for n = 0..10000</a>
+%p A015043 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%o A015043 (PARI) Vec(1/polcyclo(1034) + O(x^100)) \\ _Michel Marcus_, Jul 29 2015
+%K A015043 sign
+%O A015043 0,1
+%A A015043 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

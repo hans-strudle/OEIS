@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034754
+Showing 1-1 of 1
+
+%I A034754
+%S A034754 1,4,11,32,85,260,735,2224,6585,19780,59059,177472,531453,1595076,
+%T A034754 4783175,14351168,43046737,129147252,387420507,1162281440,3486785925,
+%U A034754 10460412292,31381059631,94143360944,282429536825,847289140932
+%N A034754 Dirichlet convolution of 3^(n-1) with phi(n).
+%Y A034754 Cf. A034738.
+%K A034754 nonn
+%O A034754 1,2
+%A A034754 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

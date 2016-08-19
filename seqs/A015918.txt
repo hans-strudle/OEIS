@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015918
+Showing 1-1 of 1
+
+%I A015918
+%S A015918 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,
+%T A015918 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015918 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015918 Inverse of 1909th cyclotomic polynomial.
+%p A015918 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%o A015918 (PARI) Vec(1/polcyclo(1909)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%K A015918 sign
+%O A015918 0,1
+%A A015918 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

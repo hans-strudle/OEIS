@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052715
+Showing 1-1 of 1
+
+%I A052715
+%S A052715 0,0,0,0,24,480,10080,241920,6652800,207567360,7264857600,
+%T A052715 282291609600,12067966310400,563171761152000,28496491114291200,
+%U A052715 1554354060779520000,90929712555601920000,5679609738088366080000
+%N A052715 E.g.f. (1-2*x-sqrt(1-4*x))/2 -x*(1-2*x-sqrt(1-4*x)) -x^2.
+%H A052715 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=671">Encyclopedia of Combinatorial Structures 671</a>
+%F A052715 Recurrence: a(1)=0; a(2)=0; a(3)=0; a(4)=24; (-4*n-12+8*n^2)*a(n) +(-2-6*n)*a(n+1) +a(n+2) =0.
+%F A052715 a(n) = n!*A002057(n-4). - _R. J. Mathar_, Oct 18 2013
+%p A052715 spec := [S,{B=Union(Z,C),C=Prod(B,B),S=Prod(C,C)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052715 easy,nonn
+%O A052715 0,5
+%A A052715 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

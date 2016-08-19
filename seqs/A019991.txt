@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019991
+Showing 1-1 of 1
+
+%I A019991
+%S A019991 10,17,28,30,31,37,44,50,51,53,64,71,82,84,85,88,90,92,93,94,100,109,
+%T A019991 111,112,118,125,131,132,134,143,149,150,151,153,155,158,159,161,172,
+%U A019991 179
+%N A019991 A threequence, a 3-way partitioning of the integers: define a,b,c,A,B,C by a(0)=true, b(0)=c(0)=A(0)=B(0)=C(0)=false, a(n)=a(m) OR C(m) OR B(m), b(n)= b(m) OR A(m) OR C(m), c(n)= c(m) OR B(m) OR A(m), A(n)= A(m) OR b(m) OR c(m), B(n)= B(m) OR c(m) OR a(m), C(n)= C(m) OR a(m) OR b(m), where m = [ (n+1)/3 ]; sequence gives n such that c(2n) is true.
+%Y A019991 Cf. A019989, A019990.
+%K A019991 nonn
+%O A019991 0,1
+%A A019991 _Bill Gosper_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

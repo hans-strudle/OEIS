@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028368
+Showing 1-1 of 1
+
+%I A028368
+%S A028368 1,2,8,192,21504,10321920,20478689280,165140150353920,
+%T A028368 5369036568306647040,700981414358115837542400,
+%U A028368 366798338802685125615786393600,768480666818860817418136536376934400
+%N A028368 Product(2^j-1,j=1..n-1)*2^binomial(n+1,2).
+%D A028368 I. Strazdins, Universal affine classification of Boolean functions, Acta Applic. Math. 46 (1997), 147-167.
+%K A028368 nonn
+%O A028368 0,2
+%A A028368 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

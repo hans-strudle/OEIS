@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040094
+Showing 1-1 of 1
+
+%I A040094
+%S A040094 10,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,
+%T A040094 4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,20,4,
+%U A040094 20,4,20,4,20,4,20,4,20,4,20,4
+%N A040094 Continued fraction for sqrt(105).
+%H A040094 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040094 a(n)=12+8*(-1)^n]-10*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 10 2009]
+%p A040094 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040094 ContinuedFraction[Sqrt[105],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 11 2011*)
+%K A040094 nonn,cofr,easy
+%O A040094 0,1
+%A A040094 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

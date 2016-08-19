@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007345
+Showing 1-1 of 1
+
+%I A007345 M3575
+%S A007345 4,21,127,831,5722,40879,300440,2258455,17291704,134417955,1058279251,
+%T A007345 8422155293
+%N A007345 Number of Havender tableaux of height 2 with n columns.
+%D A007345 D. Gouyou-Beauchamps, "Tableaux de Havender standards," in S. Brlek, editor, Parallélisme: Modèles et Complexité. LACIM, Université du Québec à Montréal, 1989.
+%D A007345 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A007345 Row sums of A259992.
+%K A007345 nonn,more
+%O A007345 1,1
+%A A007345 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

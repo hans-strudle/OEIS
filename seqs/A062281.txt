@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062281
+Showing 1-1 of 1
+
+%I A062281
+%S A062281 2,6,20,28,22,26,68,228,46,406,62,222,82,86,282,424,826,244,268,284,
+%T A062281 2044,2686,664,2848,4268,202,206,428,8066,226,2286,262,822,2224,2086,
+%U A062281 604,628,2282,668,2422,2864,8688,4202,4246,8668,22288,422,446,4086
+%N A062281 Smallest multiple of n-th prime with all even digits.
+%e A062281 a(8) = 228 as the eighth prime is 19. 228 = 19*12
+%Y A062281 Cf. A062280.
+%K A062281 nonn,base,easy
+%O A062281 1,1
+%A A062281 _Amarnath Murthy_, Jun 18 2001
+%E A062281 More terms from Larry Reeves (larryr(AT)acm.org), Jun 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

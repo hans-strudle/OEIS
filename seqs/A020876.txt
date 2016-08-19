@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020876
+Showing 1-1 of 1
+
+%I A020876
+%S A020876 2,5,15,50,175,625,2250,8125,29375,106250,384375,1390625,5031250,
+%T A020876 18203125,65859375,238281250,862109375,3119140625,11285156250,
+%U A020876 40830078125,147724609375,534472656250,1933740234375,6996337890625,25312988281250,91583251953125
+%N A020876 a(n) = ((5+sqrt(5))/2)^n+((5-sqrt(5))/2)^n.
+%C A020876 Number of no-leaf edge-subgraphs in Moebius ladder M_n.
+%H A020876 Vincenzo Librandi, <a href="/A020876/b020876.txt">Table of n, a(n) for n = 0..1000</a>
+%H A020876 J. P. McSorley, <a href="http://dx.doi.org/10.1016/S0012-365X(97)00086-1">Counting structures in the Moebius ladder</a>, Discrete Math., 184 (1998), 137-164.
+%H A020876 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (5,-5).
+%F A020876 Also, a(n) = (sqrt(5)*phi)^n + (sqrt(5)/phi)^n, where phi = golden ratio. - _N. J. A. Sloane_, Aug 08 2014
+%F A020876 Let S(n, m)=sum(k=0, n, binomial(n, k)*fibonacci(m*k)), then for n>0 a(n)= S(2*n, 2)/S(n, 2). - _Benoit Cloitre_, Oct 22 2003
+%F A020876 a(n)= 5*a(n-1) -5*a(n-2). G.f.: (2-5*x)/(1-5*x+5*x^2). - _R. J. Mathar_, Feb 06 2010
+%F A020876 From _Johannes W. Meijer_, Jul 01 2010: (Start)
+%F A020876 Limit(a(n+k)/a(k), k=infinity) = (A020876(n) + A093131(n)*sqrt(5))/2.
+%F A020876 Limit(A020876(n)/A093131(n), n=infinity) = sqrt(5).
+%F A020876 (End)
+%F A020876 Binomial transform of A005248. - _Carl Najafi_, Sep 10 2011
+%F A020876 a(n) = 2*A030191(n)-5*A030191(n-1). - _R. J. Mathar_, Mar 02 2012
+%e A020876 G.f. = 2 + 5*x + 15*x^2 + 50*x^3 + 175*x^4 + 625*x^5 + 2250*x^6 + ...
+%p A020876 G:=(x,n)-> cos(x)^n+cos(3*x)^n:
+%p A020876 seq(simplify(4^n*G(Pi/10,2*n)), n=0..22); # _Gary Detlefs_, Dec 05 2010
+%t A020876 Table[Sum[LucasL[2*i] Binomial[n, i], {i, 0, n}], {n, 0, 50}] (* _T. D. Noe_, Sep 10 2011 *)
+%t A020876 CoefficientList[Series[(2 - 5 x)/(1 - 5 x + 5 x^2), {x, 0, 40}], x] (* _Vincenzo Librandi_, Aug 08 2014 *)
+%t A020876 LinearRecurrence[{5,-5},{2,5},30] (* _Harvey P. Dale_, Mar 13 2016 *)
+%o A020876 (Sage) [lucas_number2(n,5,5) for n in xrange(0,24)] # _Zerinvary Lajos_, Jul 08 2008
+%o A020876 (MAGMA) [Floor(((5+Sqrt(5))/2)^n+((5-Sqrt(5))/2)^n): n in [0..30]]; // _Vincenzo Librandi_, Aug 08 2014
+%Y A020876 Cf. A020876, A093131, A005248.
+%Y A020876 Appears in A109106. - _Johannes W. Meijer_, Jul 01 2010
+%K A020876 nonn,easy
+%O A020876 0,1
+%A A020876 _N. J. A. Sloane_.
+%E A020876 Simplified definition. - _N. J. A. Sloane_, Aug 08 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

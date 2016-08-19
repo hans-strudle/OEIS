@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017207
+Showing 1-1 of 1
+
+%I A017207
+%S A017207 177147,743008370688,350277500542221,17714700000000000,
+%T A017207 317475837322472439,3116402981210161152,20635899893042801193,
+%U A017207 103510234140112521216,422351360321044921875,1469170321634239709184
+%N A017207 (9*n+3)^11.
+%H A017207 Vincenzo Librandi, <a href="/A017207/b017207.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017207 (MAGMA) [(9*n+3)^11: n in [0..15]]; // Vincenzo Librandi, Jul 23 2011
+%K A017207 nonn,easy
+%O A017207 0,1
+%A A017207 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

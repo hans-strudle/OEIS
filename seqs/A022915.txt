@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022915
+Showing 1-1 of 1
+
+%I A022915
+%S A022915 1,1,3,60,12600,37837800,2053230379200,2431106898187968000,
+%T A022915 73566121315513295589120000,65191584694745586153436251091200000,
+%U A022915 1906765806522767212441719098019963758016000000,2048024348726152339387799085049745725891853852479488000000
+%N A022915 Multinomial coefficients (0, 1, ..., n)! = C(n+1,2)!/(0!*1!*2!*...*n!).
+%C A022915 Number of ways to put numbers 1, 2, ..., n*(n+1)/2 in a triangular array of n rows in such a way that each row is increasing. Also number of ways to choose groups of 1, 2, 3, ..., n-1 and n objects out of n*(n+1)/2 objects. - _Floor van Lamoen_, Jul 16 2001
+%C A022915 a(n) is the number of ways to linearly order the multiset {1,2,2,3,3,3,...n,n,...n}. - _Geoffrey Critzer_, Mar 08 2009
+%H A022915 Alois P. Heinz, <a href="/A022915/b022915.txt">Table of n, a(n) for n = 0..35</a>
+%H A022915 E. W. Weisstein, in MathWorld: <a href="http://mathworld.wolfram.com/MultinomialCoefficient.html">Multinomial Coefficient</a>.
+%F A022915 a(n) = (n*(n+1)/2)!/(0!*1!*2!*...*n!).
+%F A022915 a(n) = a(n-1) * A014068(n). - Dan Fux (dan.fux(AT)OpenGaia.com or danfux(AT)OpenGaia.com), Apr 08 2001.
+%F A022915 a(n) = A052295(n)/A000178(n). - _Lekraj Beedassy_, Feb 19 2004
+%F A022915 a(n) = A208437(n*(n+1)/2,n). - _Alois P. Heinz_, Apr 08 2016
+%p A022915 with(combinat):
+%p A022915 a:= n-> multinomial(binomial(n+1, 2), $0..n):
+%p A022915 seq(a(n), n=0..12);  # _Alois P. Heinz_, May 18 2013
+%t A022915 Table[Apply[Multinomial,Range[n]],{n,0,20}]  (* _Geoffrey Critzer_, Dec 09 2012 *)
+%Y A022915 Cf. A014068, A022919, A208437.
+%K A022915 nonn,easy
+%O A022915 0,3
+%A A022915 _Clark Kimberling_
+%E A022915 More terms from Larry Reeves (larryr(AT)acm.org), Apr 11 2001 and from Michel ten Voorde (seqfan(AT)tenvoorde.org) Apr 12 2001
+%E A022915 Better definition from _L. Edson Jeffery_, May 18 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

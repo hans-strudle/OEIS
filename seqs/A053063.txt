@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053063
+Showing 1-1 of 1
+
+%I A053063
+%S A053063 1,21,213,4213,42135,642135,6421357,86421357,864213579,10864213579,
+%T A053063 1086421357911,121086421357911,12108642135791113
+%N A053063 Alternately append n to beginning or end of previous term.
+%D A053063 Felice Russo, A set of new Smarandache functions, sequences and conjectures in number theory, American Research Press 2000
+%F A053063 a(n)=(1/2)*(1+(-1)^n)*(n*10^(floor(1+log10(a(n-1))))+a(n-1))+(1/2)*(1-(-1)^n)*(a(n-1)*10^(floor(1+log10(n)))+n), with a(0)=1 [From _Paolo P. Lava_, Oct 29 2008]
+%p A053063 P:=proc(i) local a,n; a:=1; print(a); for n from 2 by 1 to i do a:=1/2*(1+(-1)^n)*(n*10^trunc(evalf(floor(1+log10(a)),100))+a)+1/2*(1-(-1)^n)*(a*10^trunc(evalf(floor(1+log10(n)),100))+n); print(a); od; end: P(100); [From _Paolo P. Lava_, Oct 29 2008]
+%K A053063 easy,nonn,base,less
+%O A053063 1,2
+%A A053063 _Felice Russo_, Feb 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

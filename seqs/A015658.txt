@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015658
+Showing 1-1 of 1
+
+%I A015658
+%S A015658 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015658 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015658 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015658 Inverse of 1649th cyclotomic polynomial.
+%p A015658 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015658 sign
+%O A015658 0,1
+%A A015658 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

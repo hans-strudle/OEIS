@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022445
+Showing 1-1 of 1
+
+%I A022445
+%S A022445 1,0,4,10,34,94,222,516,1202,2738,6110,13496,29586,64350,139006,298636
+%N A022445 Number of self-avoiding closed walks (from 0 to 0) of length 2n in the strip {0, 1, 2} X Z of the square lattice Z X Z.
+%D A022445 J. Labelle, Self-avoiding walks and polyominoes in strips, Bull. ICA, 23 (1998), 88-98.
+%F A022445 G.f.: [ -6x^7+10x^6-18x^5+27x^4-14x^3+10x^2-4x+1]/[(1+x^2)^2(1-2x)^2] (conjectured). - _Ralf Stephan_, Apr 28 2004
+%K A022445 nonn,walk,easy
+%O A022445 0,3
+%A A022445 Jacques Labelle (labelle.jacques(AT)uqam.ca)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

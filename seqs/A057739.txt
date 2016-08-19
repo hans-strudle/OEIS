@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057739
+Showing 1-1 of 1
+
+%I A057739
+%S A057739 11,29,
+%T A057739 2088595827392656793085408064780643444068898148936888424953199350269
+%N A057739 Primes of the form 3^p + 2, where p is prime.
+%e A057739 a(2) = 3^3 + 2 = 29, a(3) = 3^139 + 2
+%Y A057739 Cf. A057738.
+%K A057739 nonn,bref
+%O A057739 1,1
+%A A057739 _G. L. Honaker, Jr._, Oct 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

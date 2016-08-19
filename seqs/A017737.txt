@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017737
+Showing 1-1 of 1
+
+%I A017737
+%S A017737 1,74,2775,70300,1353275,21111090,277962685,3176716400,32164253550,
+%T A017737 293052087900,2432332329570,18574174153080,131567066917650,
+%U A017737 870366750378300,5408707663065150,31731084956648880
+%N A017737 Binomial coefficients C(n,73).
+%o A017737 (Sage) [binomial(n, 73) for n in xrange(73,89)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017737 nonn
+%O A017737 73,2
+%A A017737 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

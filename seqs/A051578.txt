@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051578
+Showing 1-1 of 1
+
+%I A051578
+%S A051578 1,6,48,480,5760,80640,1290240,23224320,464486400,10218700800,
+%T A051578 245248819200,6376469299200,178541140377600,5356234211328000,
+%U A051578 171399494762496000,5827582821924864000,209792981589295104000
+%N A051578 (2*n+4)!!/4!!, related to A000165 (even double factorials).
+%C A051578 Row m=4 of the array A(3; m,n) := (2*n+m)!!/m!!, m >= 0, n >= 0.
+%H A051578 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=521">Encyclopedia of Combinatorial Structures 521</a>
+%F A051578 a(n) = (2*n+4)!!/4!!; e.g.f.: 1/(1-2*x)^3.
+%F A051578 a(n) ~ 2^(-1/2)*Pi^(1/2)*n^(5/2)*2^n*e^-n*n^n*{1 + 37/12*n^-1 + ...}. - Joe Keane (jgk(AT)jgk.org), Nov 23 2001
+%F A051578 a(n)=n!*2^(n-3), n>=2 - _Zerinvary Lajos_, Sep 23 2006
+%F A051578 a(n)=2^n*A001710(n+2). - _R. J. Mathar_, Feb 22 2008
+%p A051578 seq(count(Permutation(n))*count(Composition(n))/4,n=2..18); - _Zerinvary Lajos_, Oct 16 2006
+%t A051578 s=1;lst={s};Do[s+=(s*=n);AppendTo[lst, s], {n, 3, 5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 15 2008 *)
+%Y A051578 Cf. A000165, A001147(n+1), A002866(n+1), A051577 (rows m=0..3).
+%K A051578 easy,nonn
+%O A051578 0,2
+%A A051578 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

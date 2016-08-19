@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014655
+Showing 1-1 of 1
+
+%I A014655
+%S A014655 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,
+%T A014655 1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014655 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014655 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,1,-1,1,-1,1,-1,1,-1,1,
+%W A014655 -1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014655 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014655 Inverse of 646th cyclotomic polynomial.
+%p A014655 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014655 sign
+%O A014655 0,1
+%A A014655 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040533
+Showing 1-1 of 1
+
+%I A040533
+%S A040533 23,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,
+%T A040533 1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,
+%U A040533 1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1,46,1,1,1,1
+%N A040533 Continued fraction for sqrt(557).
+%H A040533 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040533 a(n)=-8*(n mod 5)+[(n+1) mod 5]+[(n+2) mod 5]+[(n+3) mod 5]+10*[(n+4) mod 5]-23*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 14 2009]
+%p A040533 with(numtheory): Digits := 300: convert(evalf(sqrt(557)),confrac);
+%K A040533 nonn,cofr,easy,less
+%O A040533 0,1
+%A A040533 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053972
+Showing 1-1 of 1
+
+%I A053972
+%S A053972 3,26,264,313,3114,3114113,278922387,881361264,2603208937,3125343176,
+%T A053972 312518799063,2770739969214,8366461419063
+%N A053972 Numbers n such that n^2 contains only digits {6,7,9}.
+%H A053972 P. De Geest, <a href="http://www.worldofnumbers.com/threedigits.htm">Squares containing at most three distinct digits, Index entries for related sequences</a>
+%H A053972 Author?, <a href="http://blue.kakiko.com/mmrmmr/htm/eqtn06.html">Source</a>, (<a href="http://blue.kakiko.com/mmrmmr/txt/eqtn06.txt">txt</a>)
+%Y A053972 Cf. A053973.
+%K A053972 nonn,base,more
+%O A053972 1,1
+%A A053972 _Patrick De Geest_, Mar 15 2000.
+%E A053972 More terms from C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 14 2005
+%E A053972 Two more terms from _Jon E. Schoenfield_, Sep 04 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

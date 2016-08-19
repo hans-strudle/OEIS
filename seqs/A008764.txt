@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008764
+Showing 1-1 of 1
+
+%I A008764
+%S A008764 1,1,2,4,6,8,12,16,21,27,34,42,52,62,74,88,103,119,138,158,180,204,
+%T A008764 230,258,289,321,356,394,434,476,522,570,621,675,732,792,856,922,992,
+%U A008764 1066,1143,1223,1308,1396,1488,1584,1684,1788,1897,2009,2126,2248,2374,2504
+%N A008764 Number of 3 X 3 symmetric stochastic matrices under row and column permutations.
+%H A008764 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1,1,-1,-1,1,-1,2,-1).
+%F A008764 Expansion of (1+x^3)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4) = (1-x+x^2)/( (1+x)*(1+x+x^2)*(1+x^2)*(1-x)^4).
+%F A008764 a(n) = A008762(n) - A008762(n-1) + A008762(n-2). - _R. J. Mathar_, Aug 06 2013
+%e A008764 There are 6 nonisomorphic symmetric 3 X 3 matrices with row and column sums 4:
+%e A008764 [0 0 4] [0 1 3] [0 1 3] [0 2 2] [0 2 2] [1 1 2]
+%e A008764 [0 4 0] [1 2 1] [1 3 0] [2 0 2] [2 1 1] [1 2 1]
+%e A008764 [4 0 0] [3 1 0] [3 0 1] [2 2 0] [2 1 1] [2 1 1]
+%Y A008764 Cf. A019298.
+%K A008764 nonn
+%O A008764 0,3
+%A A008764 _N. J. A. Sloane_.
+%E A008764 Better description and more terms from _Vladeta Jovovic_, Feb 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

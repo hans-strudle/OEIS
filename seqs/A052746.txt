@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052746
+Showing 1-1 of 1
+
+%I A052746
+%S A052746 0,1,4,36,512,10000,248832,7529536,268435456,11019960576,512000000000,
+%T A052746 26559922791424,1521681143169024,95428956661682176,
+%U A052746 6502111422497947648,478296900000000000000,37778931862957161709568
+%N A052746 a(0) = 0; a(n) = (2*n)^(n-1), n>0.
+%C A052746 Expansion of inverse of x*exp(2x).
+%C A052746 Number of well-colored directed trees on n nodes. Well-colored means, each green vertex has at least a red child, each red vertex has no red child.
+%H A052746 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=702">Encyclopedia of Combinatorial Structures 702</a>
+%H A052746 C. Banderier, J.-M. Le Bars and V. Ravelomanana, <a href="http://arxiv.org/abs/math.CO/0411138">Generating functions for kernels of digraphs</a>
+%F A052746 E.g.f.: -1/2*W(-2*x), where W is Lambert's W function.
+%p A052746 spec := [S,{B=Set(S),S=Prod(Z,B,B)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%o A052746 (Sage)[lucas_number1(n, 2*n, 0) for n in xrange(0, 17)] [From _Zerinvary Lajos_, Mar 09 2009]
+%o A052746 (PARI) a(n)=if(n,(2*n)^(n-1),0) \\ _Charles R Greathouse IV_, Nov 20 2011
+%Y A052746 Cf. A038057, A097627.
+%K A052746 easy,nonn
+%O A052746 0,3
+%A A052746 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+%E A052746 New description from _Vladeta Jovovic_, Mar 08 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

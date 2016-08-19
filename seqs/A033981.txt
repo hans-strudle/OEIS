@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033981
+Showing 1-1 of 1
+
+%I A033981
+%S A033981 1,5,25,1727,3830879,33554425,19584403931,25086500333,23476467919565,
+%T A033981 4463061944990945
+%N A033981 Integers n such that 2^n == 7 (mod n).
+%C A033981 Some larger terms: 15237454403219419167053498809
+%K A033981 nonn,more
+%O A033981 1,2
+%A A033981 Joe K. Crump (joecr(AT)carolina.rr.com)
+%E A033981 Terms 1, 5 prepended by _Max Alekseyev_, May 18 2011
+%E A033981 a(9) added by _Max Alekseyev_, May 21 2011
+%E A033981 a(10) from _Max Alekseyev_, Jun 17 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

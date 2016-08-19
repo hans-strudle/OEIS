@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057428
+Showing 1-1 of 1
+
+%I A057428
+%S A057428 0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A057428 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A057428 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%V A057428 0,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+%W A057428 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,
+%X A057428 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1
+%N A057428 Sign(-n): a(n) = 1 if -n > 0, = -1 if -n < 0, = 0 if n = 0.
+%F A057428 G.f.: -x/(1-x). a(n) = -A057427(n).
+%F A057428 a(n)=-[(n+2) mod (n+1)], with n>=0. - _Paolo P. Lava_, Aug 28 2007
+%t A057428 Table[Sign[-n], {n, 0, 80}] (* _Arkadiusz Wesolowski_, Sep 16 2012 *)
+%Y A057428 First differences of A001489.
+%K A057428 easy,sign
+%O A057428 0,1
+%A A057428 _Henry Bottomley_, Sep 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013888
+Showing 1-1 of 1
+
+%I A013888
+%S A013888 5832,11019960576,20822964865671168,39346408075296537575424,
+%T A013888 74347713614021927913318776832,140485060518220186283313934500888576,
+%U A013888 265456074833292280954988944586975024775168,501597304410594428739556550045321223614364647424
+%N A013888 18^(5n+3).
+%H A013888 Vincenzo Librandi, <a href="/A013888/b013888.txt">Table of n, a(n) for n = 0..50</a>
+%H A013888 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013888 a(n) = 1889568*a(n-1), a(0)=5832. // Vincenzo Librandi, May 27 2011
+%o A013888 (MAGMA) [18^(5*n+3): n in [0..10]]; // Vincenzo Librandi, May 27 2011
+%K A013888 nonn
+%O A013888 0,1
+%A A013888 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

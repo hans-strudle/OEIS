@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020054
+Showing 1-1 of 1
+
+%I A020054
+%S A020054 1,0,0,2,7,34,191,1255,9470,80933,772544,8146833,94058896,1180011610,
+%T A020054 15983793633,232491543752,3614186725611,59798362187391,
+%U A020054 1049189445651506,19457695173900667,380309496580785766
+%N A020054 Integer part of GAMMA(n+6/11)/GAMMA(6/11).
+%p A020054 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020054 nonn
+%O A020054 0,4
+%A A020054 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

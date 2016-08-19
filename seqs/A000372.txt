@@ -1,0 +1,70 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000372
+Showing 1-1 of 1
+
+%I A000372 M0817 N0309
+%S A000372 2,3,6,20,168,7581,7828354,2414682040998,56130437228687557907788
+%N A000372 Dedekind numbers or Dedekind's problem: number of monotone Boolean functions of n variables, number of antichains of subsets of an n-set, number of elements in a free distributive lattice on n generators, number of Sperner families.
+%C A000372 A monotone Boolean function is an increasing functions from P(S), the set of subsets of S, to {0,1}.
+%C A000372 The count of antichains includes the empty antichain which contains no subsets and the antichain consisting of only the empty set.
+%C A000372 a(n) is also equal to the number of upsets of an n-set S. A set U of subsets of S is an upset if whenever A is in U and B is a superset of A then B is in U. - _W. Edwin Clark_, Nov 06 2003
+%C A000372 Also the number of simple games with n players in minimal winning form. - _Fabián Riquelme_, May 29 2011
+%D A000372 I. Anderson, Combinatorics of Finite Sets. Oxford Univ. Press, 1987, p. 38.
+%D A000372 J. L. Arocha, Antichains in ordered sets [in Spanish], Anales del Instituto de Matematicas de la Universidad Nacional Autonoma de Mexico, 27 (1987), 1-21.
+%D A000372 J. Berman, "Free spectra of 3-element algebras," in R. S. Freese and O. C. Garcia, editors, Universal Algebra and Lattice Theory (Puebla, 1982), Lect. Notes Math. Vol. 1004, 1983.
+%D A000372 J. Berman and P. Koehler, Cardinalities of finite distributive lattices, Mitteilungen aus dem Mathematischen Seminar Giessen, 121 (1976), 103-124.
+%D A000372 G. Birkhoff, Lattice Theory. American Mathematical Society, Colloquium Publications, Vol. 25, 3rd ed., Providence, RI, 1967, p. 63.
+%D A000372 Donald E. Campbell, Jack Graver and Jerry S. Kelly, There are more strategy-proof procedures than you think, Mathematical Social Sciences 64 (2012) 263-265. - From _N. J. A. Sloane_, Oct 23 2012
+%D A000372 Church, Randolph. Numerical analysis of certain free distributive structures. Duke Math. J. 6 (1940). 732--734. MR0002842 (2,120c) [According to Math Reviews, gives a(5) incorrectly as 7579]. - _N. J. A. Sloane_, Mar 19 2012
+%D A000372 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 273.
+%D A000372 R. Dedekind, Über Zerlegungen von Zahlen durch ihre grössten gemeinsamen Teiler, Festschrift Hoch. Braunschweig u. ges. Werke(II), 1897, pp. 103-148.
+%D A000372 E. N. Gilbert, Lattice theoretic properties of frontal switching functions, J. Math. Phys., 33 (1954), 57-67, see Table III.
+%D A000372 M. A. Harrison, Introduction to Switching and Automata Theory. McGraw Hill, NY, 1965, p. 188.
+%D A000372 D. E. Knuth, The Art of Computer Programming, Vol. 4A, Section 7.1.1, p. 79.
+%D A000372 A. D. Korshunov, The number of monotone Boolean functions, Problemy Kibernet. No. 38, (1981), 5-108, 272. MR0640855 (83h:06013)
+%D A000372 W. F. Lunnon, The IU function: the size of a free distributive lattice, pp. 173-181 of D. J. A. Welsh, editor, Combinatorial Mathematics and Its Applications. Academic Press, NY, 1971.
+%D A000372 S. Muroga, Threshold Logic and Its Applications. Wiley, NY, 1971, p. 38 and 214.
+%D A000372 R. A. Obando, On the number of nondegenerate monotone boolean functions of n variables in an n-variable boolean algebra. In preparation.
+%D A000372 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000372 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000372 Terry Speed, Letter to N. J. A. Sloane, Sep 20 1981.
+%D A000372 D. B. West, Introduction to Graph Theory, 2nd ed., Prentice-Hall, NJ, 2001, p. 349.
+%D A000372 D. H. Wiedemann, A computation of the eighth Dedekind number, Order 8 (1991) 5-6.
+%H A000372 Raymond Balbes, <a href="http://dx.doi.org/10.1016/0097-3165(79)90002-5">On counting Sperner families</a>, J. Combin. Theory Ser. A 27 (1979), no. 1, 1--9. MR0541338 (81b:05010) [From _N. J. A. Sloane_, Mar 19 2012]
+%H A000372 R. Baumann and H. Strass, <a href="http://www.informatik.uni-leipzig.de/~baumann/papers/bipolar.pdf ">On the number of bipolar Boolean functions</a>, to appear (2014).
+%H A000372 J. Berman and P. Koehler, <a href="/A006356/a006356.pdf">Cardinalities of finite distributive lattices</a>, Mitteilungen aus dem Mathematischen Seminar Giessen, 121 (1976), 103-124. [Annotated scanned copy]
+%H A000372 S. Bolus, <a href="http://macau.uni-kiel.de/receive/dissertation_diss_00009114">A QOBDD-based Approach to Simple Games</a>, Dissertation, Doktor der Ingenieurwissenschaften der Technischen Fakultät der Christian-Albrechts-Universität zu Kiel, 2012. - From _N. J. A. Sloane_, Dec 22 2012
+%H A000372 K. S. Brown, <a href="http://www.mathpages.com/home/kmath030.htm">Dedekind's problem</a>
+%H A000372 K. S. Brown, <a href="http://www.mathpages.com/home/kmath094.htm">Asymptotic upper and lower bounds</a>
+%H A000372 R. Church, <a href="/A000372/a000372_3.pdf">Numerical analysis of certain free distributive structures</a>, Duke Math. J. 6 (1940). 732--734. [Scanned annotated copy]
+%H A000372 Ori DAVIDOV and Shyamal PEDDADA, Order-Restricted Inference for Multivariate Binary Data With Application to Toxicology, Journal of the American Statistical Association, December 1, 2011, 106(496): 1394-1404, doi:<a href="http://dx.doi.org/10.1198/jasa.2011.tm10322">10.1198/jasa.2011.tm10322</a>
+%H A000372 Patrick De Causmaecker and Stefan De Wannemacker, <a href="http://arxiv.org/abs/1103.2877">Partitioning in the space of anti-monotonic functions</a>, arXiv:1103.2877 [math.NT], 2011.
+%H A000372 Patrick De Causmaecker, Stefan De Wannemacker, <a href="http://arxiv.org/abs/1407.4288">On the number of antichains of sets in a finite universe</a>, arXiv:1407.4288 [math.CO], 2014 (see Table 1).
+%H A000372 Sylvain Guilley, Laurent Sauvage, Jean-Luc Danger, Tarik Graba, and Yves Mathieu, <a href="http://hal.archives-ouvertes.fr/hal-00259153/en/">"Evaluation of Power-Constant Dual-Rail Logic as a Protection of Cryptographic Applications in FPGAs"</a>, SSIRI - Secure System Integration and Reliability Improvement, Yokohama: Japan (2008), pp 16-23, doi:<a href="http://dx.doi.org/10.1109/SSIRI.2008.31">10.1109/SSIRI.2008.31</a> [From Sylvain GUILLEY (Sylvain.Guilley(AT)TELECOM-ParisTech.fr), Aug 20 2009]
+%H A000372 Pieter-Jan Hoedt, <a href="http://people.cs.kuleuven.be/~bart.demoen/WVKULAK/firstdraftofPaper_Hoedt.pdf">Parallelizing with MPI in Java to Find the ninth Dedekind Number</a>, preprint, 2015.
+%H A000372 J. Kahn, <a href="http://dx.doi.org/10.1090/S0002-9939-01-06058-0">Entropy, independent sets and antichains: a new approach to Dedekind's problem</a>, Proc. Amer. Math. Soc. 130 (2002), no. 2, 371-378.
+%H A000372 J. L. King, <a href="http://www.math.ufl.edu/~squash/">Brick tiling and monotone Boolean functions</a>
+%H A000372 D. J. Kleitman, <a href="http://dx.doi.org/10.1090/S0002-9939-1969-0241334-6">On Dedekind's problem: The number of monotone Boolean functions</a>, Proc. Amer. Math. Soc. 21 1969 677-682.
+%H A000372 D. J. Kleitman and G. Markowsky, <a href="http://dx.doi.org/10.1090/S0002-9947-1975-0382107-0">On Dedekind's problem: the number of isotone Boolean functions. II</a>, Trans. Amer. Math. Soc. 213 (1975), 373-390.
+%H A000372 M. M. Krieger, <a href="/A000372/a000372_1.pdf">Letter to N. J. A. Sloane, Jul 31 1975</a>, confirming that a(7) = 2414682040998, using W. F. Lunnon's method but getting a different answer.
+%H A000372 Muroga, Saburo, Iwao Toda, and Satoru Takasu, <a href="/A002079/a002079.pdf">Theory of majority decision elements</a>, Journal of the Franklin Institute 271.5 (1961): 376-418. [Annotated scans of pages 413 and 414 only]
+%H A000372 R. A. Obando, <a href="http://www.wolframscience.com/summerschool/2004/participants/obando.html">Project: A map of a rule space</a>.
+%H A000372 Tamon Stephen and Timothy Yusun, <a href="http://arxiv.org/abs/1209.4623">Counting inequivalent monotone Boolean functions</a>, arXiv preprint arXiv:1209.4623 [cs.DS], 2012.
+%H A000372 Tom Trotter, <a href="http://people.math.gatech.edu/~trotter/slides/newhak.pdf">An Application of the Erdos/Stone Theorem</a>, Sept. 13, 2001.
+%H A000372 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Antichain.html">Antichain</a>
+%H A000372 D. H. Wiedemann, <a href="/A000372/a000372.pdf">Letter to N. J. A. Sloane, Nov 03, 1990</a>
+%H A000372 R. Zeno, <a href="http://mam2000.mathforum.org/epigone/sci.math/plebrungchoo">A007501 is an upper bound</a>
+%H A000372 V. D. Zolotarev, <a href="/A000372/a000372_2.pdf">Enumeration of Boolean functions (Russian)</a>, Izvest. Vyssh. Uchebnykh Zavedenii Elektro. Novocherkassk, #3, 1970, 309-313; Math. Rev., 45#83, Jan. 1973.
+%H A000372 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%F A000372 The asymptotics can be found in the Korshunov paper. - _Boris Bukh_, Nov 07 2003
+%F A000372 a(n) = Sum_{k=1..n} binomial(n,k)*A006126(k) + 2, i.e., this sequence is the inverse binomial transform of A006126, plus 2. E.g. a(3) = 3*1 + 3*2 + 1*9 + 2 = 20. - Rodrigo A. Obando (R.Obando(AT)computer.org), Jul 26 2004
+%e A000372 a(2)=6 from the antichains {}, {{}}, {{1}}, {{2}}, {{1,2}}, {{1},{2}}.
+%Y A000372 Equals A014466 + 1, also A007153 + 2. Cf. A003182, A059119.
+%K A000372 nonn,hard,more,nice
+%O A000372 0,1
+%A A000372 _N. J. A. Sloane_
+%E A000372 a(8) from D. H. Wiedemann, personal communication, circa 1990
+%E A000372 Additional comments from _Michael Somos_, Jun 10 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

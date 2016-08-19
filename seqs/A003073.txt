@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003073
+Showing 1-1 of 1
+
+%I A003073 M0282
+%S A003073 1,1,2,2,3,4,5,7,9,11,14,18,23,29,38,47,59,76,95,120,154,191,241,310,
+%T A003073 383,483,620,767,968,1242,1535,1937,2486,3071,3875,4972,6143,7752,
+%U A003073 9946,12287,15505,19894,24575,31011,39788,49151,62024,79578,98303
+%N A003073 A nonlinear recurrence.
+%D A003073 D. E. Knuth, The Art of Computer Programming. Addison-Wesley, Reading, MA, Vol. 3, p. 208.
+%D A003073 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%o A003073 (PARI) a(n)=local(k); k=n\3; if(n%3==0,3*2^k\2-(k>0), if(n%3==2, 2*(17*2^k\14)+(k==2),53*2^k\28-(k>2))) /* _Michael Somos_, May 04 2000 */
+%K A003073 nonn
+%O A003073 0,3
+%A A003073 _N. J. A. Sloane_
+%E A003073 More terms from _Michael Somos_, May 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056969
+Showing 1-1 of 1
+
+%I A056969
+%S A056969 0,0,1,0,0,4,3,0,1,0,10,4,10,2,10,0,10,10,10,0,13,12,10,16,0,22,1,4,
+%T A056969 10,10,10,0,10,32,5,28,10,24,25,0,10,22,10,12,10,8,10,16,31,0,31,16,
+%U A056969 10,28,10,16,31,42,10,40,10,38,55,0,30,34,10,4,34,60,10,64,10,26,25,44,54,40
+%N A056969 10^n modulo n.
+%F A056969 a(n) = 10*A056968(n) mod n = A011557(n) mod n
+%e A056969 a(7) = 3 since 10000000 = 7*1428571+3
+%p A056969 seq(irem(10^n,n),n=1..78); - _Zerinvary Lajos_, Apr 20 2008
+%t A056969 Table[PowerMod[10, n, n], {n, 80} ]
+%K A056969 nonn
+%O A056969 1,6
+%A A056969 _Henry Bottomley_, Jul 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

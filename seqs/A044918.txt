@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044918
+Showing 1-1 of 1
+
+%I A044918
+%S A044918 1,2,3,5,7,9,10,12,15,17,21,27,31,33,38,42,45,51,52,56,63,65,73,85,93,
+%T A044918 99,107,119,127,129,142,150,153,165,170,178,189,195,204,212,219,231,
+%U A044918 232,240,255,257,273,297,313,325,341,365,381
+%N A044918 n-th positive integer whose base 2 run lengths form a palindrome.
+%C A044918 This sequence exactly contains those positive integers in A006995 (positive binary palindromes) together with the terms of A035928 (those positive integers n where reversing the order of the binary digits produces the binary complement of n). [From _Leroy Quet_, Sep 14 2009]
+%o A044918 (PARI) ispal(v) = {for(i=1, #v\2, if (v[i] != v[#v-i+1], return(0));); return(1);}
+%o A044918 isok(n) = {b = binary(n); lastb = b[1]; vrun = vector(1); vrun[1] = 1; for (i=2, #b, if (b[i] != lastb, vrun = concat(vrun, 1); lastb = b[i];, vrun[#vrun]++;)); return (ispal(vrun));} \\ _Michel Marcus_, Jul 10 2013
+%Y A044918 A006995, A035928 [From _Leroy Quet_, Sep 14 2009]
+%K A044918 nonn,base
+%O A044918 1,2
+%A A044918 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

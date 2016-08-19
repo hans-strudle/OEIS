@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058783
+Showing 1-1 of 1
+
+%I A058783
+%S A058783 1,1,5,30,332,6414,226041,12848128
+%N A058783 Number of n-rowed binary matrices with all row sums 4, up to row and column permutation; bipartite graphs with all nodes of degree 4 in a distinguished bipartite n-block, up to isomorphism.
+%H A058783 <a href="/A050535/a050535.pdf">Number of m-rowed binary matrices with all row sums equal to n, up to row and column permutation</a>
+%Y A058783 Cf. A050535, A050913, A058784, A058785.
+%K A058783 more,nonn
+%O A058783 0,3
+%A A058783 _Vladeta Jovovic_, Nov 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

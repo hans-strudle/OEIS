@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015234
+Showing 1-1 of 1
+
+%I A015234
+%S A015234 0,15,52,99,144,175,180,147,64,81,300,605,1008,1521,2156,2925,
+%T A015234 3840,4913,6156,7581,9200,11025,13068,15341,17856,20625,
+%U A015234 23660,26973,30576,34481,38700,43245,48128,53361
+%V A015234 0,15,52,99,144,175,180,147,64,-81,-300,-605,-1008,-1521,-2156,-2925,
+%W A015234 -3840,-4913,-6156,-7581,-9200,-11025,-13068,-15341,-17856,-20625,
+%X A015234 -23660,-26973,-30576,-34481,-38700,-43245,-48128,-53361
+%N A015234 (17-2n)*n^2.
+%H A015234 Ivan Panchenko, <a href="/A015234/b015234.txt">Table of n, a(n) for n = 0..1000</a>
+%H A015234 R. K. Hoeflin, <a href="http://www.eskimo.com/~miyaguch/mega.html">Mega Test</a>
+%F A015234 G.f.: x*(15-8*x-19*x^2)/(1-x)^4. - _Ivan Panchenko_, Nov 09 2013
+%K A015234 sign
+%O A015234 0,2
+%A A015234 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

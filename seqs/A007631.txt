@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007631
+Showing 1-1 of 1
+
+%I A007631 M0929
+%S A007631 2,4,0,2,10,32,38,140,496,1186,3178,16792,82038,289566
+%N A007631 Number of solutions to non-attacking reflecting queens problem.
+%D A007631 M. Gardner, Fractal Music, Hypercards and More, Freeman, NY, 1991, p. 240.
+%D A007631 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A007631 Cf. A051224, A051223.
+%K A007631 nonn,nice
+%O A007631 4,1
+%A A007631 _N. J. A. Sloane_, _Mira Bernstein_, _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

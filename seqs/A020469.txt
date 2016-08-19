@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020469
+Showing 1-1 of 1
+
+%I A020469
+%S A020469 7,67,677,67777,76667,76777,666667,677767,767677,777677,6676667,
+%T A020469 6676777,6677677,6677767,6677777,6766667,6766777,6776677,7666667,
+%U A020469 7667677,7667767,7766767,7766777,7777667,66666667,66677777,66776777,67667777,67766767
+%N A020469 Primes that contain digits 6 and 7 only.
+%H A020469 Vincenzo Librandi, <a href="/A020469/b020469.txt">Table of n, a(n) for n = 1..1000</a>
+%t A020469  Flatten[Table[Select[FromDigits/@Tuples[{6,7},n],PrimeQ],{n,8}]] (* _Vincenzo Librandi_, Jul 27 2012 *)
+%K A020469 nonn,base
+%O A020469 1,1
+%A A020469 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

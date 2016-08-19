@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016933
+Showing 1-1 of 1
+
+%I A016933
+%S A016933 2,8,14,20,26,32,38,44,50,56,62,68,74,80,86,92,98,104,110,116,122,128,
+%T A016933 134,140,146,152,158,164,170,176,182,188,194,200,206,212,218,224,230,
+%U A016933 236,242,248,254,260,266,272,278,284,290,296,302,308,314,320,326
+%N A016933 6n+2.
+%C A016933 Number of 3 X n binary matrices avoiding simultaneously the right angled numbered polyomino patterns (ranpp) (00;1), (01;0), (10;0) and (11;0). An occurrence of a ranpp (xy;z) in a matrix A=(a(i,j)) is a triple (a(i1,j1), a(i1,j2), a(i2,j1)) where i1<i2, j1<j2 and these elements are in same relative order as those in the triple (x,y,z). - Sergey Kitaev (kitaev(AT)ms.uky.edu), Nov 11 2004
+%C A016933 A008615(a(n)) = n+1. - _Reinhard Zumkeller_, Feb 27 2008
+%C A016933 A157176(a(n)) = A013730(n). - _Reinhard Zumkeller_, Feb 24 2009
+%C A016933 A089911(2*a(n)) = 3. - _Reinhard Zumkeller_, Jul 05 2013
+%H A016933 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A016933 S. Kitaev, <a href="http://www.emis.de/journals/INTEGERS/papers/e21/e21.Abstract.html">On multi-avoidance of right angled numbered polyomino patterns</a>, Integers: Electronic Journal of Combinatorial Number Theory 4 (2004), A21, 20pp.
+%H A016933 S. Kitaev, <a href="http://www.ms.uky.edu/%7Emath/MAreport/4-ser.ps">On multi-avoidance of right angled numbered polyomino patterns</a>, University of Kentucky Research Reports (2004).
+%H A016933 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081, 2014
+%F A016933 a(n) = 2*(6*n-1)-a(n-1) (with a(0)=2). [_Vincenzo Librandi_, Nov 20 2010]
+%F A016933 G.f.: 2*(1+2*x)/(1-x)^2. [_Colin Barker_, Jan 08 2012]
+%p A016933 a[1]:=2:for n from 2 to 100 do a[n]:=a[n-1]+6 od: seq(a[n], n=1..47); # _Zerinvary Lajos_, Mar 16 2008
+%t A016933 Range[2, 500, 6] (* _Vladimir Joseph Stephan Orlovsky_, May 26 2011 *)
+%o A016933 (Sage) [i+2 for i in range(280) if gcd(i,6) == 6] # _Zerinvary Lajos_, May 20 2009
+%o A016933 (Haskell)
+%o A016933 a016933 = (+ 2) . (* 6)  -- _Reinhard Zumkeller_, Jul 05 2013
+%Y A016933 Cf. A008588, A016921, A016945, A016957, A016969.
+%Y A016933 Cf. A017569, A016777.
+%K A016933 nonn,easy
+%O A016933 0,1
+%A A016933 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

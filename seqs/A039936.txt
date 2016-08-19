@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039936
+Showing 1-1 of 1
+
+%I A039936
+%S A039936 5,25,25,125,125,125,125,625,625,625,625,625,625,625,625,3125,3125,
+%T A039936 3125,3125,3125,3125,3125,3125,3125,3125,3125,3125,3125,3125,3125,
+%U A039936 3125,15625,15625,15625,15625,15625,15625,15625,15625,15625,15625,15625
+%N A039936 Smallest k for which k, 2k, ... nk all contain the digit 5.
+%e A039936 a(3)=25 since 25,50,75 all contain a 5.
+%K A039936 base,nonn
+%O A039936 1,1
+%A A039936 _Erich Friedman_
+%E A039936 More terms from _Patrick De Geest_, Oct 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

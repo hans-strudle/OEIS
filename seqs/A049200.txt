@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049200
+Showing 1-1 of 1
+
+%I A049200
+%S A049200 1,1,2,4,2,6,4,10,12,6,8,16,18,12,10,22,12,28,8,30,20,16,24,36,18,24,
+%T A049200 40,12,42,22,46,32,52,40,36,28,58,60,30,48,20,66,44,24,70,72,36,60,24,
+%U A049200 78,40,82,64,42,56,88,72,60,46,72,96,100,32,102,48,52,106,108,40,72
+%N A049200 Euler totient function phi applied to the n-th squarefree number.
+%C A049200 a(n) = product(A265668(n,k) + 1: k = 1..A001221(n)). -- _Reinhard Zumkeller_, Dec 13 2015
+%H A049200 Robert Israel, <a href="/A049200/b049200.txt">Table of n, a(n) for n = 1..10000</a>
+%F A049200 a(n) = A000010(A005117(n)).
+%e A049200 The 12th squarefree number is 17 and phi(17) is 16, so a(12)=16.
+%p A049200 map(numtheory:-phi,select(numtheory:-issqrfree, [$1..1000])); # _Robert Israel_, Jul 12 2015
+%t A049200 EulerPhi[ x ] if Abs[ MoebiusMu[ x ] ]=1
+%t A049200 EulerPhi/@Select[Range[200],SquareFreeQ] (* _Harvey P. Dale_, Jan 13 2015 *)
+%o A049200 (PARI) lista(nn) = {for(n=1, nn, if (issquarefree(n), print1(eulerphi(n), ", ")));} \\ _Michel Marcus_, Jul 12 2015
+%o A049200 (MAGMA) [EulerPhi(n): n in [1..300] | IsSquarefree(n)]; // _Vincenzo Librandi_, Jul 13 2015
+%o A049200 (Haskell)
+%o A049200 a049200 1 = 1
+%o A049200 a049200 n = product $ map (subtract 1) $ a265668_row n
+%o A049200 -- _Reinhard Zumkeller_, Dec 13 2015
+%Y A049200 Cf. A000010, A005117, A013929.
+%Y A049200  Cf. A265668, A001221.
+%K A049200 nonn
+%O A049200 1,3
+%A A049200 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

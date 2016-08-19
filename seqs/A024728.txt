@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024728
+Showing 1-1 of 1
+
+%I A024728
+%S A024728 1,1,1,5,9,13,33,73,145,313,657,1549,3353,7221,16129,36785,81921,
+%T A024728 180529,403809,939573,2125193,4756893,10800801,25195577,57552721,
+%U A024728 130500393,298271153,700076797,1610366937,3680601093,8482477313,19929303521
+%N A024728 a(n) = s(n+3)/4, where s is A024727.
+%K A024728 nonn
+%O A024728 1,4
+%A A024728 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

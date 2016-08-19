@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016931
+Showing 1-1 of 1
+
+%I A016931
+%S A016931 1,1977326743,1792160394037,116490258898219,2384185791015625,
+%T A016931 25408476896404831,177917621779460413,929293739471222707,
+%U A016931 3909821048582988049,13931233916552734375,43513917611435838661
+%N A016931 (6n+1)^11.
+%H A016931 Vincenzo Librandi, <a href="/A016931/b016931.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016931 (MAGMA) [(6*n+1)^11: n in [0..25]]; // Vincenzo Librandi, May 04 2011
+%K A016931 nonn,easy
+%O A016931 0,2
+%A A016931 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

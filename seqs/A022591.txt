@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022591
+Showing 1-1 of 1
+
+%I A022591
+%S A022591 1,27,378,3681,28134,180144,1005957,5032422,22986801,97229361,
+%T A022591 384953553,1438738443,5110502256,17348445108,56541857409,177611637141,
+%U A022591 539501563962,1589134470966,4550281700055
+%N A022591 Expansion of Product (1+q^m)^27; m=1..inf.
+%F A022591 a(n) ~ sqrt(3) * exp(3 * Pi * sqrt(n)) / (32768 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022591 nmax=50; CoefficientList[Series[Product[(1+q^m)^27,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022591 nonn
+%O A022591 0,2
+%A A022591 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

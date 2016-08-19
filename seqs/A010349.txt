@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010349
+Showing 1-1 of 1
+
+%I A010349
+%S A010349 1,2,3,4,5,6,13,34,44,63,250,251,305,505,12205,12252,13350,13351,
+%T A010349 15124,36034,205145,1424553,1433554,3126542,4355653,6515652,125543055,
+%U A010349 161340144,254603255,336133614,542662326
+%N A010349 Base 7 Armstrong or narcissistic numbers.
+%H A010349 Joseph Myers, <a href="/A010349/b010349.txt">Table of n, a(n) for n=1..59</a> (the full list of terms, from Winter)
+%H A010349 D. T. Winter, <a href="http://ftp.cwi.nl/dik/Armstrong">Table of Armstrong Numbers</a>
+%H A010349 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/NarcissisticNumber.html">Narcissistic Number</a>
+%Y A010349 Cf. A010350.
+%Y A010349 In other bases: A010343 (base 4), A010345 (base 5), A010347 (base 6), A010351 (base 8), A010352 (base 9), A005188 (base 10).
+%K A010349 base,fini,full,nonn
+%O A010349 1,2
+%A A010349 _N. J. A. Sloane_.
+%E A010349 Edited by _Joseph Myers_, Jun 28 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036948
+Showing 1-1 of 1
+
+%I A036948
+%S A036948 7,67,677,0,67777,666667,6676667,66666667,666666667,6666666767,
+%T A036948 66666666667,666666676667,6666666667777,66666667677767,
+%U A036948 666666666667777,6666666666767777,66666666666667667,666666666666676667
+%N A036948 Smallest n-digit prime containing only digits 6 and 7, or 0 if no such prime exists.
+%Y A036948 Cf. A036229, A020469, A036322.
+%K A036948 nonn,base
+%O A036948 1,1
+%A A036948 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

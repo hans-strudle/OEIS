@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027628
+Showing 1-1 of 1
+
+%I A027628
+%S A027628 1,96,944,4057,11811,27446,55066,99639,166997,263836,397716,577061,
+%T A027628 811159,1110162,1485086,1947811,2511081,3188504,3994552,4944561,
+%U A027628 6054731,7342126,8824674,10521167,12451261
+%N A027628 Expansion of Molien series for 5-dimensional group G_3 acting on Jacobi polynomials of ternary self-dual codes.
+%D A027628 Michio Ozeki (ozeki(AT)sci.kj.yamagata-u.ac.jp), paper in preparation.
+%H A027628 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A027628 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (5,-10,10,-5,1).
+%F A027628 Expansion of (1+91*x+474*x^2+287*x^3+11*x^4)/(1-x)^5.
+%K A027628 nonn
+%O A027628 0,2
+%A A027628 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

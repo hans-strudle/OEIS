@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026935
+Showing 1-1 of 1
+
+%I A026935
+%S A026935 1,10,75,500,3149,19214,115031,680424,3992921,23305234,135514019,
+%T A026935 785892316,4549048229,26295995926,151857925039,876366840784
+%N A026935 a(n) = Sum{T(n,k)*T(n,k+2)}, 0<=k<=n-2, T given by A008288.
+%K A026935 nonn
+%O A026935 2,2
+%A A026935 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

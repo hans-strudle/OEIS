@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022113
+Showing 1-1 of 1
+
+%I A022113
+%S A022113 2,7,9,16,25,41,66,107,173,280,453,733,1186,1919,3105,5024,8129,13153,
+%T A022113 21282,34435,55717,90152,145869,236021,381890,617911,999801,1617712,
+%U A022113 2617513,4235225,6852738,11087963,17940701,29028664,46969365,75998029,122967394
+%N A022113 Fibonacci sequence beginning 2, 7.
+%D A022113 H. S. M. Coxeter, Introduction to Geometry, Second Edition, Wiley Classics Library Edition Published 1989, p. 172.
+%H A022113 Ivan Panchenko, <a href="/A022113/b022113.txt">Table of n, a(n) for n = 0..1000</a>
+%H A022113 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022113 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022113 a(n) = a(n-1) + a(n-2). G.f.: -(5*x+2) / (x^2+x-1). - _Colin Barker_, Oct 18 2013
+%F A022113 a(n) = ((5+6*sqrt(5))/5)*((1+sqrt(5))/2)^n + ((5-6*sqrt(5))/5)*((1-sqrt(5))/2)^n starting at n=0. [_Bogart B. Strauss_, Oct 27 2013]
+%t A022113 RecurrenceTable[{a[0] == 2, a[1] == 7, a[n] == a[n - 1] + a[n - 2]}, a, {n, 0, 40}] (* _Bruno Berselli_, Mar 12 2015 *)
+%o A022113 (MAGMA) a0:=2; a1:=7; [GeneralizedFibonacciNumber(a0, a1, n): n in [0..40]]; // _Bruno Berselli_, Feb 12 2013
+%Y A022113 Cf. A000032.
+%K A022113 nonn,easy
+%O A022113 0,1
+%A A022113 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

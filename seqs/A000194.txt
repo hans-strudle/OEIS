@@ -1,0 +1,46 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000194
+Showing 1-1 of 1
+
+%I A000194
+%S A000194 1,1,2,2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,6,6,6,6,
+%T A000194 6,6,6,6,6,6,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8,8,8,8,8,
+%U A000194 8,8,8,8,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,10,10,10,10,10,10,10,10
+%N A000194 n appears 2n times; also nearest integer to square root of n.
+%C A000194 a(n) = inverse (frequency distribution) sequence of A002378(n-1). - _Jaroslav Krizek_, Jun 14 2009
+%C A000194 Define the oblong root obrt(x) to be the (larger) solution of y * (y+1) = x; i.e., obrt(x) = sqrt(x+1/4) - 1/2. So obrt(x) is an integer iff x is an oblong number (A002378). Then a(n) = ceiling(obrt(n)). - _Franklin T. Adams-Watters_, Jun 24 2015
+%D A000194 B. C. Berndt, Ramanujan's Notebooks Part IV, Springer-Verlag, see p. 78, Entry 24.
+%H A000194 T. D. Noe, <a href="/A000194/b000194.txt">Table of n, a(n) for n=1..1000</a>
+%H A000194 G. Gutin, <a href="http://dx.doi.org/10.1016/j.disc.2007.07.021">Problem 913 (BCC20.5)</a>, Mediated digraphs, in Research Problems from the 20th British Combinatorial Conference, Discrete Math., 308 (2008), 621-630.
+%H A000194 M. A. Nyblom, <a href="http://www.jstor.org/stable/2695446">Some curious sequences involving floor and ceiling functions</a>, Am. Math. Monthly 109 (#6, 2002), 559-564.
+%H A000194 M. Somos, <a href="/A073189/a073189.txt">Sequences used for indexing triangular or square arrays</a>
+%H A000194 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
+%F A000194 G.f.: f(x^2, x^6) * x / (1 - x) where f(,) is Ramanujan's two variable theta function. - _Michael Somos_, May 31 2000
+%F A000194 a(n) = a(n-2*a(n-a(n-1)))+1. - _Benoit Cloitre_, Oct 27 2002
+%F A000194 a(n+1) = a(n)+A005369(n).
+%F A000194 a(n) = floor((1/2)*(1 + sqrt(4*n - 3))). - _Zak Seidov_, Jan 18 2006
+%F A000194 a(n) = A000037(n) - n. - _Jaroslav Krizek_, Jun 14 2009
+%F A000194 a(n) = floor(A027434(n)/2). - _Gregory R. Bryant_, Apr 17 2013
+%F A000194 From _Mikael Aaltonen_, Jan 17 2015: (Start)
+%F A000194 a(n) = floor(sqrt(n)+1/2).
+%F A000194 a(n) = sqrt(A053187(n)). (End)
+%e A000194 G.f. = x + x^2 + 2*x^3 + 2*x^4 + 2*x^5 + 2*x^6 + 3*x^7 + 3*x^8 + 3*x^9 + 3*x^10 + ...
+%p A000194 Digits := 100; f := n->round(evalf(sqrt(n))); [ seq(f(n), n=1..100) ];
+%t A000194 A000194[n_] := Floor[(1 + Sqrt[4 n - 3])/2]; (* _Enrique Pérez Herrero_, Apr 14 2010 *)
+%t A000194 Flatten[Table[PadRight[{},2n,n],{n,10}]] (* _Harvey P. Dale_, Nov 16 2011 *)
+%o A000194 (PARI) {a(n) = ceil( sqrtint(4*n) / 2)}; /* _Michael Somos_, Feb 11 2004 */
+%o A000194 (Haskell)
+%o A000194 a000194 n = a000194_list !! (n-1)
+%o A000194 a000194_list = concat $ zipWith ($) (map replicate [2,4..]) [1..]
+%o A000194 -- _Reinhard Zumkeller_, Mar 18 2011
+%Y A000194 Partial sums of A005369.
+%Y A000194 A000037(n) - n.
+%Y A000194 Cf. A002024, A259351, A002378.
+%K A000194 nonn,easy,nice
+%O A000194 1,3
+%A A000194 _N. J. A. Sloane_
+%E A000194 Additional comments from _Michael Somos_, May 31 2000
+%E A000194 Edited by _M. F. Hasler_, Mar 01 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

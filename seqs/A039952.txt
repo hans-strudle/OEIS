@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039952
+Showing 1-1 of 1
+
+%I A039952
+%S A039952 2,3,4,5,6,7,12,15,20,30,31,60,61,84,105,140,210,211,420,421,422,423,
+%T A039952 840,841,1260,1261,1540,2310,2520,4620,4621,5460,5461,9240
+%N A039952 Maximum cardinality of finite D0L sequence over an alphabet with n symbols.
+%C A039952 Note that a(n) is prime for n = 1, 2, 4, 6, 11, 13, 18, 20, 31. - _Jonathan Vos Post_, Oct 01 2005
+%D A039952 O. Osterby, Prime decompositions with minimum sum, Matematisk Institut, Aarhus Universitet, Technical Report DAIMI PB-19, November 1973;
+%D A039952 O. Osterby, Prime decompositions with minimum sum, Nordisk Tidskr. Informationsbehandling (BIT) 16 (1976), 451-458;
+%D A039952 P. M. B. Vitanyi, Lindenmayer Systems: Structure, Languages and Growth Functions, Mathematisch Centrum, Math. Centre Tracts #96, 1980, p. 25.
+%F A039952 Max { Prod p^a + d : Sum p^a + d = n }, p prime
+%e A039952 a(11) = 31 because we can write 11 = 1 + 2 + 3 + 5 and 31 = 1+2*3*5
+%K A039952 nonn
+%O A039952 1,1
+%A A039952 _Jeffrey Shallit_
+%E A039952 First 4 values appear incorrectly in cited references; corrected by JOS
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

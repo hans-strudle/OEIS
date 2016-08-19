@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055690
+Showing 1-1 of 1
+
+%I A055690
+%S A055690 2,3,5,6,9,26,45,66,87,345,765,906,3926,8405,11766,23805,35145,42966,
+%T A055690 59685,95289,317250,413325,416757,722745,770066,890825,938457,1325826,
+%U A055690 1921986,3315378,3675555,5299250,6791445,6899685,9371826,10892313
+%N A055690 Numbers n such that 7^n == -1 (mod n-1).
+%t A055690 Do[If[PowerMod[7, n, n-1]==n-2, Print[n]], {n, 2, 2*10^7}]
+%K A055690 nonn
+%O A055690 1,1
+%A A055690 _Robert G. Wilson v_, Jun 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

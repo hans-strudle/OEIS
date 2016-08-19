@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038303
+Showing 1-1 of 1
+
+%I A038303
+%S A038303 1,10,1,100,20,1,1000,300,30,1,10000,4000,600,40,1,100000,50000,10000,
+%T A038303 1000,50,1,1000000,600000,150000,20000,1500,60,1,10000000,7000000,
+%U A038303 2100000,350000,35000,2100,70,1,100000000,80000000,28000000
+%N A038303 Triangle whose (i,j)-th entry is binomial(i,j)*10^(i-j)*1^j.
+%C A038303 T(i,j) is the number of i-permutations of 11 objects a,b,c,d,e,f,g,h,i,j,k, with repetition allowed, containing j a's. - _Zerinvary Lajos_, Dec 21 2007
+%C A038303 Triangle T(n,k), read by rows, given by [10,0,0,0,0,0,0,0,...] DELTA [1,0,0,0,0,0,0,0,...] where DELTA is the operator defined in A084938. [From _Philippe Deléham_, Dec 15 2009]
+%D A038303 B. N. Cyvin et al., Isomer enumeration of unbranched catacondensed polygonal systems with pentagons and heptagons, Match, No. 34 (Oct 1996), pp. 109-121.
+%F A038303 Sum_{k, 0<=k<=n} T(n,k)*x^k = (10+x)^n. [From _Philippe Deléham_, Dec 15 2009]
+%F A038303 G.f.: -1/(-1+10*x+x*y). - _R. J. Mathar_, Aug 11 2015
+%e A038303 1
+%e A038303 10, 1
+%e A038303 100, 20, 1
+%e A038303 1000, 300, 30, 1
+%e A038303 10000, 4000, 600, 40, 1
+%e A038303 100000, 50000, 10000, 1000, 50, 1
+%e A038303 1000000, 600000, 150000, 20000, 1500, 60, 1
+%e A038303 10000000, 7000000, 2100000, 350000, 35000, 2100, 70, 1
+%e A038303 100000000, 80000000, 28000000, 5600000, 700000, 56000, 2800, 80, 1
+%p A038303 for i from 0 to 8 do seq(binomial(i, j)*10^(i-j), j = 0 .. i) od; - _Zerinvary Lajos_, Dec 21 2007
+%K A038303 nonn,tabl,easy
+%O A038303 0,2
+%A A038303 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

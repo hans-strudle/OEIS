@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036936
+Showing 1-1 of 1
+
+%I A036936
+%S A036936 0,11,191,1999,11119,111119,1111991,11111119,111111199,1111111919,
+%T A036936 11111111911,111111199919,1111111119919,11111111119111,
+%U A036936 111111111119119,1111111111111999,11111111111111119,111111111111191111
+%N A036936 Smallest n-digit prime containing only digits 1 and 9, or 0 if no such prime exists.
+%Y A036936 Cf. A036229, A020457, A036309.
+%K A036936 nonn,base
+%O A036936 1,2
+%A A036936 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

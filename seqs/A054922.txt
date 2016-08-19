@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054922
+Showing 1-1 of 1
+
+%I A054922
+%S A054922 2,0,0,10,164,2670,56724,1867860,104538928,10461483366,1912179618740,
+%T A054922 644464839239880,402785011941549964,468944407349226545614,
+%U A054922 1021179521951204217530900,4174755063830188009750183026
+%N A054922 Number of connected unlabeled symmetric relations (graphs with loops) having n nodes such that complement is also connected.
+%H A054922 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054922 a(n) = 2*A054921(n) - A000666(n).
+%K A054922 nonn,easy
+%O A054922 1,1
+%A A054922 _N. J. A. Sloane_, May 24 2000
+%E A054922 More terms from _Vladeta Jovovic_, Jul 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049216
+Showing 1-1 of 1
+
+%I A049216
+%S A049216 1,70,6384,804320,136804096,30459752960,8632830664704,
+%T A049216 3041109959196672,1305140879116763136,670935549630120394752,
+%U A049216 407240889859179425562624,288272814806050917816729600
+%N A049216 Scaled coefficients of (arctanh x)^5.
+%F A049216 e.g.f. (arctanh x)^5 or (1-x^2)^-1 * (arctanh x)^4
+%F A049216 a(n) is coefficient of x^(2*n+5) in (arctanh x)^5, multiplied by (2*n+5)!/5!
+%e A049216 (arctanh x)^5 = x^5 + 5/3*x^7 + 19/9*x^9 + 457/189*x^11 + ...
+%K A049216 nonn
+%O A049216 0,2
+%A A049216 Joe Keane (jgk(AT)jgk.org)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

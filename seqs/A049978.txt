@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049978
+Showing 1-1 of 1
+
+%I A049978
+%S A049978 1,3,4,9,20,38,78,157,319,630,1262,2525,5055,10121,20260,40560,81199,
+%T A049978 162242,324486,648973,1297951,2595913,5191844,10383728,20767535,
+%U A049978 41535232,83070775,166142182,332285627,664573784,1329152634
+%N A049978 a(n)=a(1)+a(2)+...+a(n-1)+a(m), where m=n-1-2^p and 2^p<n-1<=2^(p+1).
+%K A049978 nonn
+%O A049978 1,2
+%A A049978 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

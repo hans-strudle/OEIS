@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056111
+Showing 1-1 of 1
+
+%I A056111
+%S A056111 1,1,1,1,5,11,103,71,661,19099,329891,1,36846277,75024347,3790360487,
+%T A056111 22163972339,1230752346353,538105034941,336967037143579,
+%U A056111 1713311273363831,117876683047,1188161445853707907
+%N A056111 Highest proper factor of n!+1.
+%H A056111 Hisanori Mishima, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/matha1/matha104.htm">Factorizations of many number sequences</a>
+%H A056111 Hisanori Mishima, <a href="http://www.asahi-net.or.jp/~KC2H-MSM/mathland/matha1/matha103.htm">Factorizations of many number sequences</a>
+%H A056111 R. G. Wilson v, <a href="/A038507/a038507.txt">Explicit factorizations</a>
+%F A056111 a(n) = A038507(n)/A051301(n)
+%t A056111 a[n_] := Divisors[n!+1][[ -2]]
+%Y A056111 Cf. A002583, A038507, A051301, A056110.
+%Y A056111 Corrected and extended by _Dean Hickerson_, Aug 30, 2001
+%K A056111 nonn
+%O A056111 0,5
+%A A056111 _Henry Bottomley_, Jun 12 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

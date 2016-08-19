@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008690
+Showing 1-1 of 1
+
+%I A008690
+%S A008690 1,528,183888,16906176,397256784,4631931360,34414462656,187481094528,
+%T A008690 814924380240,2975491484496,9486490093920,27053228195136,
+%U A008690 70486041140928,169930790281056,384163798531968
+%N A008690 Theta series of Niemeier lattice of type D_12^2.
+%D A008690 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 407.
+%F A008690 This series is the q-expansion of 8/9 E_4(z)^3 + 1/9 E_6(z)^2. Cf. A004009, A013973. - Daniel D. Briggs, Nov 25 2011
+%K A008690 nonn
+%O A008690 0,2
+%A A008690 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

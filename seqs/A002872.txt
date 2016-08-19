@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002872
+Showing 1-1 of 1
+
+%I A002872 M1786 N0705
+%S A002872 1,2,7,31,164,999,6841,51790,428131,3827967,36738144,376118747,
+%T A002872 4086419601,46910207114,566845074703,7186474088735,95318816501420,
+%U A002872 1319330556537631,19013488408858761,284724852032757686,4422344774431494155,71125541977466879231
+%N A002872 Number of partitions of {1..2n} that are invariant under a permutation consisting of n 2-cycles.
+%C A002872 Previous name was: Sorting numbers.
+%C A002872 a(n) = number of symmetric partitions of the set {-n,...,-1,1,...,n}. A partition of {-n,...,-1,1,...,n} into nonempty subsets X_1,...,X_k is 'symmetric' if for each i, -X_i=X_j for some j. a(n) = S_B(n,1)+...+S_B(n,n) where S_B(n,k) is as in A085483. a(n) is the n-th Bell number of 'type B'. - _James East_, Aug 18 2003
+%C A002872 Column 2 of A162663. - _Franklin T. Adams-Watters_, Jul 09 2009
+%D A002872 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002872 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002872 T. D. Noe, <a href="/A002872/b002872.txt">Table of n, a(n) for n=0..100</a>
+%H A002872 T. Halverson and M. Reeks, <a href="http://arxiv.org/abs/1302.6150">Gelfand Models for Diagram Algebras</a>, arXiv preprint arXiv:1302.6150 [math.RT], 2013
+%H A002872 T. S. Motzkin, <a href="/A000262/a000262.pdf">Sorting numbers for cylinders and other classification numbers</a>, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176. [Annotated, scanned copy]
+%H A002872 OEIS Wiki, <a href="http://oeis.org/wiki/Sorting_numbers">Sorting numbers</a>
+%H A002872 J. Quaintance, <a href="http://arXiv.org/abs/math.CO/0412244">Letter representations of rectangular m x n x p proper arrays</a>, arXiv:math/0412244 [math.CO], 2004-2006.
+%H A002872 <a href="/index/So#sorting">Index entries for sequences related to sorting</a>
+%F A002872 E.g.f.: e^( (e^(2x) - 3)/2 + e^x ).
+%F A002872 a(n) = A080107(2n) for all n. - _Jörgen Backelin_, Jan 13 2016
+%p A002872 a:= proc(n) option remember; `if`(n=0, 1, add((1+
+%p A002872       2^(j-1))*binomial(n-1, j-1)*a(n-j), j=1..n))
+%p A002872     end:
+%p A002872 seq(a(n), n=0..30);  # _Alois P. Heinz_, Oct 29 2015
+%t A002872 u[0,j_]:=1;u[k_,j_]:=u[k,j]=Sum[Binomial[k-1,i-1]Plus@@(u[k-i,j]#^(i-1)&/@Divisors[j]),{i,k}]; Table[u[n,2],{n,0,12}] (* _Wouter Meeussen_, Dec 06 2008 *)
+%t A002872 mx = 16; p = 2; Range[0, mx]! CoefficientList[ Series[ Exp[ (Exp[p*x] - p - 1)/p + Exp[x]], {x, 0, mx}], x] (* _Robert G. Wilson v_, Dec 12 2012 *)
+%Y A002872 Cf. A002873, A002874, A080107, A085483.
+%Y A002872 u[n,j] is A162663.
+%K A002872 nonn,easy,nice
+%O A002872 0,2
+%A A002872 _N. J. A. Sloane_, _Simon Plouffe_
+%E A002872 Edited by _Franklin T. Adams-Watters_, Jul 09 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032544
+Showing 1-1 of 1
+
+%I A032544
+%S A032544 1,1,1,1,2,2,2,2,4,4,4,4,8,7,6,6,8,7,7,8,7,8,16,14,13,12,12,16,14,14,
+%T A032544 16,14,16,32,29,28,26,26,24,24,32,29,28,28,32,31,28,32,64,58,56,52,52,
+%U A032544 48,48,64,58,56,56,64,62,59,56,64,128,119,116,112,104,101,104
+%N A032544 Quotient of 'base 5' division described in A032543.
+%Y A032544 Cf. A032542, A032543. See also A032532 for explanation.
+%K A032544 nonn
+%O A032544 0,5
+%A A032544 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

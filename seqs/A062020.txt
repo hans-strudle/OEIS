@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062020
+Showing 1-1 of 1
+
+%I A062020
+%S A062020 0,1,6,17,44,81,142,217,324,485,666,913,1208,1529,1906,2373,2936,3533,
+%T A062020 4238,5019,5840,6787,7822,8995,10360,11825,13342,14967,16648,18445,
+%U A062020 20662,23003,25536,28135,31074,34083,37308,40755,44354,48187,52260
+%N A062020 Let P(n) = { 2,3,5,7,...,p(n) } where p(n) is n-th prime; then a(1) =0 and a(n) = Sum [mod{p(i) - p(j)}], for all i and j from 1 to n.
+%F A062020 a(n) = a(n-1) + n*p(n) - Sum_{i = 1..n} p(i). a(n) = 2a(n-1) + (n-1)*(p(n)-p(n-1)) - a(n-2).
+%e A062020 a(3) = (5-2) + (5-3) + (3-2) = 6, P(3) = {2,3,5}.
+%K A062020 nonn
+%O A062020 1,3
+%A A062020 _Amarnath Murthy_, Jun 02 2001
+%E A062020 More terms from Larry Reeves (larryr(AT)acm.org), Jun 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

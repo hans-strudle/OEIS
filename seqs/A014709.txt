@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014709
+Showing 1-1 of 1
+
+%I A014709
+%S A014709 1,1,2,1,1,2,2,1,1,1,2,2,1,2,2,1,1,1,2,1,1,2,2,2,1,1,2,2,1,2,2,1,1,1,
+%T A014709 2,1,1,2,2,1,1,1,2,2,1,2,2,2,1,1,2,1,1,2,2,2,1,1,2,2,1,2,2,1,1,1,2,1,
+%U A014709 1,2,2,1,1,1,2,2,1,2,2,1,1,1
+%N A014709 The regular paper-folding (or dragon curve) sequence.
+%D A014709 J.-P. Allouche and J. Shallit, Automatic Sequences, Cambridge Univ. Press, 2003, pp. 155, 182.
+%D A014709 G. Melancon, Factorizing infinite words using Maple, MapleTech journal, vol. 4, no. 1, 1997, pp. 34-42, esp. p. 36.
+%H A014709 Ivan Panchenko, <a href="/A014709/b014709.txt">Table of n, a(n) for n = 0..10000</a>
+%H A014709 <a href="/index/Fo#fold">Index entries for sequences obtained by enumerating foldings</a>
+%F A014709 Set a=1, b=2, S(0)=a, S(n+1) = S(n)aF(S(n)), where F(x) reverses x and then interchanges a and b; sequence is limit S(infinity).
+%F A014709 a(4n) = 1, a(4n+2) = 2, a(2n+1) = a(n).
+%F A014709 a(n) = (3-jacobi(-1,n))/2 (cf. A034947). - _N. J. A. Sloane_, Jul 27 2012
+%o A014709 (PARI) a(n)=if(n%2==0, 1+bitand(1,n\2), a(n\2) );
+%o A014709 for(n=0,122,print1(a(n),", "))
+%Y A014709 See A014577 for more references and more terms.
+%Y A014709 The following are all essentially the same sequence: A014577, A014707, A014709, A014710, A034947, A038189, A082410. - _N. J. A. Sloane_, Jul 27 2012
+%K A014709 nonn
+%O A014709 0,3
+%A A014709 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

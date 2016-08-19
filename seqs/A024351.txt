@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024351
+Showing 1-1 of 1
+
+%I A024351
+%S A024351 5,17,29,47,59,71,89,101,113
+%N A024351 Primes forming magic square with prime entries and minimal constant (177).
+%H A024351 Harvey Heinz, <a href="http://www.magic-squares.net/primesqr.htm">Prime Magic Squares</a>
+%H A024351 <a href="/index/Mag#magic">Index entries for sequences related to magic squares</a>
+%e A024351 The square is [ 101 5 71 / 29 59 89 / 47 113 17 ].
+%Y A024351 Cf. A073350, A073502.
+%K A024351 fini,full,nonn
+%O A024351 1,1
+%A A024351 Karl Schmerbauch (karl.j.schmerbauch(AT)boeing.com)
+%E A024351 Offset corrected by Arkadiusz Wesolowski, Nov 26 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

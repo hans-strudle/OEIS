@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037518
+Showing 1-1 of 1
+
+%I A037518
+%S A037518 2,18,163,1469,13221,118990,1070912,9638208,86743873,780694859,
+%T A037518 7026253731,63236283580,569126552222,5122138969998,46099250729983,
+%U A037518 414893256569849,3734039309128641
+%N A037518 Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 2,0,1.
+%H A037518 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (9,0,1,-9).
+%F A037518 G.f. x*(2+x^2) / ( (x-1)*(9*x-1)*(1+x+x^2) ). - R. J. Mathar, Nov 21 2011
+%K A037518 nonn,base
+%O A037518 1,1
+%A A037518 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

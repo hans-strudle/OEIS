@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009949
+Showing 1-1 of 1
+
+%I A009949
+%S A009949 1,0,2,1,4,4,1,5,0,8,1,11,1,7,8,4,4,4,11,13,1,6,15,13,8,12,22,25,14,9,
+%T A009949 13,11,30,9,16,25,3,12,11,2,35,41,29,29,11,27,43,32,1,16,2,5,29,3,2,
+%U A009949 30,18,30,32,56,44,38,44,27,4
+%N A009949 Coefficients in expansion of sqrt(2) = Sum a(n)/n!, n=1..inf, using greedy algorithm.
+%p A009949 A009949 := proc(a,n) local i,b,c; b := a; c := [ floor(b) ]; for i from 1 to n-1 do b := b-c[ i ]/i!; c := [ op(c), floor(b*(i+1)!) ]; od; c; end:
+%K A009949 nonn
+%O A009949 0,3
+%A A009949 _N. J. A. Sloane_, _Bill Gosper_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

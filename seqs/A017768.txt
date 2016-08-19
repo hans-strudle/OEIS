@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017768
+Showing 1-1 of 1
+
+%I A017768
+%S A017768 1,52,1326,22100,270725,2598960,20358520,133784560,752538150,
+%T A017768 3679075400,15820024220,60403728840,206379406870,635013559600,
+%U A017768 1768966344600,4481381406320,10363194502115,21945588357420,42671977361650,76360380541900,125994627894135
+%N A017768 Binomial coefficients C(52,n).
+%C A017768 Row 52 of A007318.
+%H A017768 Nathaniel Johnston, <a href="/A017768/b017768.txt">Table of n, a(n) for n = 0..52</a> (full sequence)
+%p A017768 seq(binomial(52,n), n=0..52); # Nathaniel Johnston, Jun 24 2011
+%o A017768 (Sage) [binomial(52, n) for n in range(53)] # [From _Zerinvary Lajos_, May 23 2009]
+%Y A017768 Cf. A010926-A011001, A017765-A017816.
+%K A017768 nonn,fini,full,easy
+%O A017768 0,2
+%A A017768 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

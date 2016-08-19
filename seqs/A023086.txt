@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023086
+Showing 1-1 of 1
+
+%I A023086
+%S A023086 0,125874,128574,142587,142857,258714,258741,285714,285741,412587,
+%T A023086 412857,425871,428571,1025874,1028574,1042587,1042857,1052874,1054287,
+%U A023086 1072854,1074285,1078524,1078542,1085274,1085427,1087254,1087425,1087524,1087542
+%N A023086 Numbers n such that n and 2*n are anagrams.
+%C A023086 All terms are divisible by 9. - _Eric M. Schmidt_, Jul 12 2014
+%H A023086 David W. Wilson, <a href="/A023086/b023086.txt">Table of n, a(n) for n = 1..10001</a>
+%H A023086 Mark Dominus, <a href="http://blog.plover.com/math/dd.html">When do n and 2n have the same digits?</a>
+%K A023086 nonn,base
+%O A023086 1,2
+%A A023086 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

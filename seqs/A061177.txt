@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061177
+Showing 1-1 of 1
+
+%I A061177
+%S A061177 1,2,2,3,5,3,4,8,8,4,5,10,11,10,5,6,10,6,6,10,6,7,7,14,29,
+%T A061177 14,7,7,8,0,56,120,120,56,0,8,9,12,126,288,365,288,126,12,9,
+%U A061177 10,30,228,540,770,770,540,228,30,10,11,55,363,858
+%V A061177 1,2,-2,3,-5,3,4,-8,8,-4,5,-10,11,-10,5,6,-10,6,-6,10,-6,7,-7,-14,29,
+%W A061177 -14,-7,7,8,0,-56,120,-120,56,0,-8,9,12,-126,288,-365,288,-126,12,9,
+%X A061177 10,30,-228,540,-770,770,-540,228,-30,-10,11,55,-363,858
+%N A061177 Coefficients of polynomials ((1-x+sqrt(x))^(n+1) - (1-x-sqrt(x))^(n+1))/(2*sqrt(x)).
+%C A061177 The row polynomial pFo(m,x) := sum(a(m,k)*x^k,k=0..m) is the numerator of the g.f. for the m-th column sequence of A060921, the odd part of the bisected Fibonacci triangle.
+%F A061177 a(n, m)= coefficient of x^m of ((1-x+sqrt(x))^(n+1) - (1-x-sqrt(x))^(n+1))/(2*sqrt(x)).
+%F A061177 a(n, m)= sum(((-1)^(m-j))*binomial(n+1, 2*j+1)*binomial(n-2*j, m-j), j=0..m), if 0<= m <= floor(n/2); a(n, m) := ((-1)^n)*a(n, n-m) if floor(n/2) < m <= n; else 0.
+%e A061177 {1}; {2,-2}; {3,-5,3}; {4,-8,8,-4}; ...; pFo(2,x)=3-5*x+3*x^2.
+%Y A061177 A060921, A061176 (companion triangle).
+%K A061177 sign,easy,tabl
+%O A061177 0,2
+%A A061177 _Wolfdieter Lang_, Apr 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

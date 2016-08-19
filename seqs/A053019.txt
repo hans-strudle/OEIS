@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053019
+Showing 1-1 of 1
+
+%I A053019
+%S A053019 46,142,290,1536,6126,894,6106,14539,9886,2020,21179,21502,13052,
+%T A053019 15751,3830,42370,62580,6486,10150,56214,14984,21150,368668,354310,
+%U A053019 558467,28810,38126,419690,1237147,49260,1056710,652670
+%N A053019 Let Do(n)=A006566(n)=n-th dodecahedral number. Consider all integer triples (i,j,k), j >= k>0, with Do(i)=Do(j)+Do(k), ordered by increasing i; sequence gives k values.
+%C A053019 i values are A053017 and j values are A053018.
+%e A053019 Do(179) = 25665020 = 25236484 + 428536 = Do(178) + Do(46);
+%e A053019 Do(184) = 27880600 = 15086400 + 12794200 = Do(150) + Do(142).
+%t A053019 (* This is just a recomputation of k values, given i values. *) A053017 = {179, 184, 2014, 4891, 8877, 8907, 17650, 24248, 25216, 26204, 27156, 27570, 37555, 40052, 61195, 68747, 109707, 123114, 223139, 270776, 374392, 591939, 604344, 670751, 836587, 892790, 1295899, 1479632, 1664436, 1822164, 1966614, 1981707} ; do[n_] := n*(3*n-1)*(3*n-2)/2; k0[i_, j_] := k /. FindRoot[do[i] == do[j] + do[k], {k, j/2}][[1]] // Quiet; sols = Reap[Do[i = A053017[[m]]; doi = do[i]; Print["i = ", i]; Do[k1 = Floor[k0[i, j]]; k2 = k1+1; If[k1 <= j, If[doi == do[j] + do[k1], Print[ijk = {i, j, k1}]; Sow[ijk]; Break[], If[doi == do[j] + do[k2], Print[ijk = {i, j, k2}]; Sow[ijk]; Break[]]]], {j, i-1, 1, -1}], {m, 1, Length[A053017]}]][[2, 1]]; A053019 = sols[[All, 3]] (* _Jean-François Alcover_, Feb 17 2015 *)
+%K A053019 nice,nonn
+%O A053019 1,1
+%A A053019 Klaus Strassburger (strass(AT)ddfi.uni-duesseldorf.de), Feb 24 2000
+%E A053019 More terms from _Jon E. Schoenfield_, Aug 13 2007
+%E A053019 a(27)-a(32) from _Donovan Johnson_, Aug 15 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

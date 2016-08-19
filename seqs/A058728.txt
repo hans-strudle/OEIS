@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058728
+Showing 1-1 of 1
+
+%I A058728
+%S A058728 1,0,1,1,0,0,0,1,1,1,1,1,1,0,1,2,0,2,2,1,0,2,4,0,5,1,4,2,1,
+%T A058728 2,3,3,2,7,5,2,8,6,5,8,1,5,2,2,1,12,11,10,21,6,10,13,7,
+%U A058728 4,11,7,4,14,13,10,33,14,28,32,3,12,18,24,1,36,27,22,44,13,35,50,13,36,46,26,6,56,63,22,89,30
+%V A058728 1,0,-1,1,0,0,0,-1,1,1,-1,-1,1,0,-1,2,0,-2,2,-1,0,2,-4,0,5,-1,-4,2,1,
+%W A058728 -2,3,-3,-2,7,-5,-2,8,-6,-5,8,1,-5,2,-2,-1,12,-11,-10,21,-6,-10,13,-7,
+%X A058728 -4,11,-7,-4,14,-13,-10,33,-14,-28,32,-3,-12,18,-24,1,36,-27,-22,44,-13,-35,50,-13,-36,46,-26,-6,56,-63,-22,89,-30
+%N A058728 McKay-Thompson series of class 60D for Monster.
+%H A058728 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058728 M. Somos, <a href="http://grail.cba.csuohio.edu/~somos/retaprod.html">A Remarkable eta-product Identity </a>
+%H A058728 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058728 T60D = 1/q - q + q^2 - q^6 + q^7 + q^8 - q^9 - q^10 + q^11 - q^13 + 2*q^14 - ...
+%t A058728 QP = QPochhammer; s = q + QP[q]*QP[q^12]*QP[q^15]*(QP[q^20]/(QP[q^3]* QP[q^4]*QP[q^5]*QP[q^60])) + O[q]^90; CoefficientList[s, q] (* _Jean-François Alcover_, Nov 15 2015, adapted from A143751 *)
+%Y A058728 Cf. A143751, A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058728 sign
+%O A058728 -1,16
+%A A058728 _N. J. A. Sloane_, Nov 27 2000
+%E A058728 More terms from _N. J. A. Sloane_, Sep 23 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

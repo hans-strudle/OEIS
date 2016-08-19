@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015946
+Showing 1-1 of 1
+
+%I A015946
+%S A015946 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015946 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015946 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015946 Inverse of 1937th cyclotomic polynomial.
+%p A015946 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015946 sign
+%O A015946 0,1
+%A A015946 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

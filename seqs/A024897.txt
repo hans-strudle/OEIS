@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024897
+Showing 1-1 of 1
+
+%I A024897
+%S A024897 3,5,11,15,17,21,27,29,35,39,45,47,53,69,71,75,77,81,83,87,89,95,99,
+%T A024897 101,113,119,123,131,141,143,147,153,161,165,167,171,183,185,201,203,
+%U A024897 207,209,213,221,225,245,249,251,255,257,263,279,281,285,287,291,297,299,309,311,315
+%N A024897 Numbers n such that 5*n+4 is prime.
+%H A024897 Vincenzo Librandi, <a href="/A024897/b024897.txt">Table of n, a(n) for n = 1..1000</a>
+%t A024897 Select[Range[400], PrimeQ[5 # + 4]&] (* _Vincenzo Librandi_, Sep 25 2012 *)
+%o A024897 (MAGMA) [n: n in [1..1000] | IsPrime(5*n+4)] [From Vincenzo Librandi, Nov 20 2010]
+%K A024897 nonn,easy
+%O A024897 1,1
+%A A024897 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

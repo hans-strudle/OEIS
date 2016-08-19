@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007522
+Showing 1-1 of 1
+
+%I A007522 M4376
+%S A007522 7,23,31,47,71,79,103,127,151,167,191,199,223,239,263,271,311,359,367,
+%T A007522 383,431,439,463,479,487,503,599,607,631,647,719,727,743,751,823,839,
+%U A007522 863,887,911,919,967,983,991,1031,1039,1063,1087,1103,1151
+%N A007522 Primes of the form 8n+7, that is, primes congruent to -1 mod 8.
+%C A007522 Primes p such that x^4 = 2 has just two solutions mod p. Subsequence of A040098. Solutions mod p are represented by integers from 0 to p - 1. For p > 2, i is a solution mod p of x^4 = 2 iff p - i is a solution mod p of x^4 = 2, so the sum of the two solutions is p. The solutions are given in A065907 and A065908. - _Klaus Brockhaus_, Nov 28 2001
+%C A007522 Is this the same sequence as A141175?
+%C A007522 As this is a subset of A001132, this is also a subset of the primes of form x^2-2y^2. - _Tito Piezas III_, Dec 28 2008
+%C A007522 Primes that are the sum of no fewer than four positive squares.
+%C A007522 Subsequence of A141164. - _Reinhard Zumkeller_, Mar 26 2011
+%C A007522 Also a subsequence of primes of the form x^2 + y^2 + z^2 + 1. - _Arkadiusz Wesolowski_, Apr 05 2012
+%C A007522 Primes p such that p XOR 6 = p - 6. - _Brad Clardy_, Jul 22 2012
+%D A007522 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 870.
+%D A007522 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007522 T. D. Noe, <a href="/A007522/b007522.txt">Table of n, a(n) for n = 1..1000</a>
+%H A007522 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].N. J. A. Sloane et al., <a href="https://oeis.org/wiki/Binary_Quadratic_Forms_and_OEIS">Binary Quadratic Forms and OEIS</a> (Index to related sequences, programs, references)
+%F A007522 Equals A000040 INTERSECT A004215. - _R. J. Mathar_, Nov 22 2006
+%F A007522 a(n) = 7 + A139487(n)*8, n >= 1. - _Wolfdieter Lang_, Feb 18 2015
+%t A007522 a={};Do[x=8*n-1;If[PrimeQ[x],AppendTo[a,x]],{n,10^2}];a - _Vladimir Joseph Stephan Orlovsky_, Apr 29 2008
+%o A007522 (PARI) A007522(m) = local(p, s, x, z); forprime(p = 3, m, s = []; for(x = 0, p-1, if(x^4%p == 2%p, s = concat(s, [x]))); z = matsize(s)[2]; if(z == 2, print1(p, ", "))) A007522(1400)
+%o A007522 (Haskell)
+%o A007522 a007522 n = a007522_list !! (n-1)
+%o A007522 a007522_list = filter ((== 1) . a010051) a004771_list
+%o A007522 -- _Reinhard Zumkeller_, Jan 29 2013
+%o A007522 (MAGMA) [p: p in PrimesUpTo(2000) | p mod 8 eq 7]; // _Vincenzo Librandi_, Jun 26 2014
+%Y A007522 Subsequence of A004771.
+%Y A007522 Cf. A040098, A014754, A065907, A065908, A010051.
+%K A007522 nonn,easy
+%O A007522 1,1
+%A A007522 _N. J. A. Sloane_, _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

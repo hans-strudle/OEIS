@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031125
+Showing 1-1 of 1
+
+%I A031125
+%S A031125 8,15,28,46,76,117,180,266,391,559,796,1110,1540,2105,2862,3845,5141,
+%T A031125 6807,8972,11732,15274,19752,25442,32581,41568,52769
+%N A031125 Number of proper factorizations of p1^n*p2^2, where p1 and p2 are distinct primes.
+%Y A031125 Cf. A028422.
+%K A031125 nonn
+%O A031125 2,1
+%A A031125 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

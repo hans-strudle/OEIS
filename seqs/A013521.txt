@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013521
+Showing 1-1 of 1
+
+%I A013521
+%S A013521 1,1,7,97,2063,17803,250781,166831871,43685848289,447550424579,
+%T A013521 84677077231169,11657476758734011,28924058075775365981,
+%U A013521 44287070229737735633567,305190813989360271816409
+%V A013521 1,-1,-7,-97,-2063,-17803,-250781,166831871,43685848289,447550424579,
+%W A013521 84677077231169,11657476758734011,28924058075775365981,
+%X A013521 44287070229737735633567,305190813989360271816409
+%N A013521 Numerator of [x^(2n)] in the Taylor expansion cos(cosec(x)-cot(x))= 1-x^2/8 -7*x^4/384 -97*x^6/46080 -2063*x^8/10321920 -17803*x^10/1238630400 -....
+%C A013521 The e.g.f of x/2, cos(cosec(x)-cot(x)) = 1 -1*x^2/(2^2*2!) -7*x^4/(2^4*4!) -97*x^6/(2^6*6!) -2063*x^8/(2^8*8!) -..., is apparently covered by A003710.
+%K A013521 sign,frac
+%O A013521 0,3
+%A A013521 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013521 Values replaced by numerators. - R. J. Mathar, Dec 19 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

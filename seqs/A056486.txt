@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056486
+Showing 1-1 of 1
+
+%I A056486
+%S A056486 4,10,16,40,64,160,256,640,1024,2560,4096,10240,16384,40960,65536,
+%T A056486 163840,262144,655360,1048576,2621440,4194304,10485760,16777216,
+%U A056486 41943040,67108864,167772160,268435456,671088640
+%N A056486 (9*2^n + (-2)^n)/4.
+%C A056486 Old name was: "Number of periodic palindromes using a maximum of four different symbols".
+%D A056486 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056486 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,4).
+%F A056486 a(n) = 4^((n+1)/2) for n odd, a(n) = 4^(n/2)*5/2 for n even.
+%F A056486 a(n) = 4*a(n-2). G.f.: 2*x*(2+5*x)/((1-2*x)*(1+2*x)). [_Colin Barker_, Jul 08 2012]
+%e A056486 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome.
+%Y A056486 Cf. A029744, A038754, A056450.
+%K A056486 nonn,easy
+%O A056486 1,1
+%A A056486 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+%E A056486 Better name from _Ralf Stephan_, Jul 18 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

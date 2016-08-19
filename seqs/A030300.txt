@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030300
+Showing 1-1 of 1
+
+%I A030300
+%S A030300 1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,
+%T A030300 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,
+%U A030300 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%N A030300 Runs have lengths 2^n, n >= 0.
+%C A030300 An example of a sequence with property that the fraction of 1's in the first n terms does not converge to a limit. - _N. J. A. Sloane_, Sep 24 2007
+%C A030300 Image, under the coding sending a,d,e -> 1 and b,c -> 0, of the fixed point, starting with a, of the morphism a -> ab, b -> cd, c -> ee, d -> eb, e -> cc. - _Jeffrey Shallit_, May 14 2016
+%H A030300 R. Stephan, <a href="/somedcgf.html">Some divide-and-conquer sequences ...</a>
+%H A030300 R. Stephan, <a href="/A079944/a079944.ps">Table of generating functions</a>
+%H A030300 R. Stephan, <a href="http://arXiv.org/abs/math.CO/0307027">Divide-and-conquer generating functions. I. Elementary sequences</a>, arXiv:math/0307027 [math.CO], 2003.
+%F A030300 a(n) = (1/2)*(1+(-1)^floor(log_2(n))). - Benoit Cloitre, Feb 22 2003
+%F A030300 G.f.: 1/(1-x) * sum(k>=0, (-1)^k*x^2^k). - _Ralf Stephan_, Jul 12 2003
+%F A030300 a(n) = 1 - a(floor(n/2)). - _Vladeta Jovovic_, Aug 04 2003
+%F A030300 a(n) = A115253(2n, n) mod 2. - _Paul Barry_, Jan 18 2006
+%p A030300 f0 := n->[seq(0,i=1..2^n)]; f1 := n->[seq(1,i=1..2^n)]; s := []; for i from 0 to 4 do s := [op(s), op(f1(2*i)), op(f0(2*i+1))]; od: A030300 := s;
+%Y A030300 Cf. A030301. Partial sums give A079947.
+%Y A030300 a(n) = A065359(n) + A083905(n).
+%K A030300 nonn,easy,changed
+%O A030300 1,1
+%A A030300 Jean-Paul Delahaye (Jean-Paul.Delahaye(AT)lifl.fr)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

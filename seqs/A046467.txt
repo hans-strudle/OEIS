@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046467
+Showing 1-1 of 1
+
+%I A046467
+%S A046467 6,21,27,35,48,53,60,62
+%N A046467 Concatenation of numbers from 1 to a(n) has exactly 8 prime factors, with multiplicity.
+%H A046467 P. De Geest, <a href="http://www.worldofnumbers.com/factorlist.htm">Normal Smarandache Concatenated Numbers, Prime factors from 1 up to n</a>
+%H A046467 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A046467 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%Y A046467 Cf. A046460.
+%K A046467 nonn,hard,base
+%O A046467 0,1
+%A A046467 _Patrick De Geest_, Aug 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

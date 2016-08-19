@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017757
+Showing 1-1 of 1
+
+%I A017757
+%S A017757 1,94,4465,142880,3464840,67910864,1120529256,16007560800,
+%T A017757 202095455100,2290415157800,23591276125340,223044792457760,
+%U A017757 1951641934005400,15913388077274800,121623751733457400,875691012480893280,5965645022526085470,38601232498698200100
+%N A017757 Binomial coefficients C(n,93).
+%t A017757 Table[Binomial[n, 93], {n, 93, 120}] (* _Vladimir Joseph Stephan Orlovsky_, Jul 15 2011 *)
+%o A017757 (Sage) [binomial(n, 93) for n in xrange(93,108)] # [From _Zerinvary Lajos_, May 23 2009]
+%Y A017757 Cf. A017758, A017759, A017760.
+%K A017757 nonn
+%O A017757 93,2
+%A A017757 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

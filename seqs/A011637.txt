@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011637
+Showing 1-1 of 1
+
+%I A011637
+%S A011637 1,0,1,0,0,0,1,0,1,0,1,0,0,0,1,0,1
+%V A011637 1,0,1,0,0,0,-1,0,-1,0,-1,0,0,0,1,0,1
+%N A011637 60th cyclotomic polynomial.
+%t A011637 CoefficientList[Cyclotomic[60,x],x] (* _Harvey P. Dale_, Feb 18 2013 *)
+%K A011637 sign,fini,full
+%O A011637 0,1
+%A A011637 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

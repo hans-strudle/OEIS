@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061120
+Showing 1-1 of 1
+
+%I A061120
+%S A061120 7,12,13,28,24,39,32,31,72,48,56,96,72,57,72,168,84,96,195,96,121,108,
+%T A061120 112,156,216,162,280,152,133,176,160,288,168,372,192,192,252,183,240,
+%U A061120 546,216,508,294,468,240,252,342,560,384,288,744,280,288,304,324,720
+%N A061120 Compute sum of divisors of the p(n+1)-p(n)-1 composite numbers between two consecutive primes; choose the smallest.
+%H A061120 Harry J. Smith, <a href="/A061120/b061120.txt">Table of n, a(n) for n=0,...,1000</a>
+%F A061120 a(n)=Min{sigma(c); p(n+1)>c>p(n)}, c is composite, p(n) is the n-th prime and sigma=A000203()
+%o A061120 (PARI) { n=-1; q=3; m=10^6; forprime (p=5, prime(1003), a=m; for (i=q + 1, p - 1, a=min(sigma(i), a)); q=p; write("b061120.txt", n++, " ", a) ) } [From _Harry J. Smith_, Jul 18 2009]
+%Y A061120 A000203, A061141.
+%K A061120 nonn
+%O A061120 0,1
+%A A061120 _Labos Elemer_, May 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

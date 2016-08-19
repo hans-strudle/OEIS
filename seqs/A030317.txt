@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030317
+Showing 1-1 of 1
+
+%I A030317
+%S A030317 1,1,1,1,0,1,1,1,1,1,0,0,1,1,0,1,1,1,1,0,1,1,1,1,1,1,0,0,0,1,1,0,0,1,
+%T A030317 1,1,0,1,0,1,1,0,1,1,1,1,1,0,0,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,0,0,
+%U A030317 0,0,1,1,0,0,0,1,1,1,0,0,1,0,1,1,0,0,1,1,1,1
+%N A030317 Write 2n-1 in base 2 and juxtapose.
+%t A030317 Flatten[Table[IntegerDigits[2n-1,2],{n,50}]] (* _Harvey P. Dale_, Aug 06 2013 *)
+%K A030317 nonn
+%O A030317 1,1
+%A A030317 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024693
+Showing 1-1 of 1
+
+%I A024693
+%S A024693 0,1,1,0,1,1,1,2,2,1,2,2,1,2,2,2,2,2,2,2,3,3,2,3,3,3,3,3,2,3,3,3,3,3,
+%T A024693 2,3,3,2,3,4,4,4,4,3,4,4,4,4,4,4,4,4,4,3,4,3,4,4,3,4,4,4,4,4,3,4,4,4,
+%U A024693 4,5,5,5,5,5,4,5,5,5,5,5,5,5,5,4,5,5,4,5,5,4
+%N A024693 s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k = [ (n+1)/2 ], s = A023533, t = A014306.
+%K A024693 nonn
+%O A024693 1,8
+%A A024693 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

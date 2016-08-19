@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062238
+Showing 1-1 of 1
+
+%I A062238
+%S A062238 15,25,125,1537,3977,11371,38117,110317,117197,123679,143323,146137,
+%T A062238 179297,197513,316619,390913,397139,399797,485357,779917,797191,
+%U A062238 990919,1110691,1178951,1483117,1723717,1813733,2165299,2273099,2369777
+%N A062238 Composite numbers which contain their largest proper factor as a substring.
+%e A062238 3{97}7 = 97*41
+%t A062238 Do[ If[ !PrimeQ[ n ] && StringPosition[ ToString[ n ], ToString[ Divisors[ n ] [ [ -2 ] ] ] ] != {}, Print[ n ] ], {n, 2, 10^7} ]
+%K A062238 base,nonn
+%O A062238 1,1
+%A A062238 _Erich Friedman_, Jun 30 2001
+%E A062238 More terms from _Robert G. Wilson v_, Aug 08 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

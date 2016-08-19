@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022017
+Showing 1-1 of 1
+
+%I A022017
+%S A022017 1,3,8,29,103
+%N A022017 Number of connected partially ordered sets with n "lines": pairs (a,b) where a < b and there is no c with a < c < b. The lines form the minimal basis for the partial ordering.
+%C A022017 The points are unlabeled.
+%D A022017 See A000112 for references and links about partially ordered sets.
+%H A022017 N. J. A. Sloane, <a href="/A022016/a022016.jpg">Illustration of initial terms of A022016 and A022017.</a>
+%e A022017 See Sloane's link.
+%Y A022017 Cf. A000112, A000608, A022016.
+%K A022017 nonn,more
+%O A022017 1,2
+%A A022017 _Franklin T. Adams-Watters_, Mar 30 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

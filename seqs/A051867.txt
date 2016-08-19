@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051867
+Showing 1-1 of 1
+
+%I A051867
+%S A051867 0,1,15,42,82,135,201,280,372,477,595,726,870,1027,1197,1380,1576,
+%T A051867 1785,2007,2242,2490,2751,3025,3312,3612,3925,4251,4590,4942,5307,
+%U A051867 5685,6076,6480,6897,7327,7770,8226,8695,9177,9672,10180,10701
+%N A051867 15-gonal (or pentadecagonal) numbers: n(13n-11)/2.
+%C A051867 Sequence found by reading the line from 0, in the direction 0, 15,... and the parallel line from 1, in the direction 1, 42,..., in the square spiral whose vertices are the generalized 15-gonal numbers. - _Omar E. Pol_, Jul 18 2012
+%D A051867 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, p. 189.
+%D A051867 E. Deza and M. M. Deza, Figurate numbers, World Scientific Publishing (2012), page 6.
+%H A051867 Harvey P. Dale, <a href="/A051867/b051867.txt">Table of n, a(n) for n = 0..1000</a>
+%H A051867 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A051867 G.f.: x*(1+12*x)/(1-x)^3. - Bruno Berselli, Feb 04 2011
+%F A051867 a(n) = 13*n+a(n-1)-12 (with a(0)=0) - _Vincenzo Librandi_, Aug 06 2010
+%F A051867 a(0)=0, a(1)=1, a(2)=15, a(n)=3*a(n-1)-3*a(n-2)+a(n-3). - _Harvey P. Dale_, Feb 29 2012
+%F A051867 a(13*a(n)+79*n+1) = a(13*a(n)+79*n) + a(13*n+1). - Vladimir Shevelev, Jan 24 2014
+%p A051867 a[0]:=0:a[1]:=1:for n from 2 to 50 do a[n]:=2*a[n-1]-a[n-2]+13 od: seq(a[n], n=0..41); - _Zerinvary Lajos_, Feb 18 2008
+%t A051867 s=0;lst={s};Do[s+=n++ +1;AppendTo[lst, s], {n, 0, 6!, 13}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 15 2008 *)
+%t A051867 Table[n (13n-11)/2,{n,0,50}] (* or *) LinearRecurrence[{3,-3,1},{0,1,15},50] (* _Harvey P. Dale_, Feb 29 2012 *)
+%o A051867 (PARI) a(n)=n*(13*n-11)/2 \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A051867 Cf. n-gonal numbers: A000217, A000290, A000326, A000384, A000566, A000567, A001106, A001107, A051682, A051624, A051865, A051866, this sequence, A051868-A051876.
+%K A051867 nonn,easy
+%O A051867 0,3
+%A A051867 _N. J. A. Sloane_, Dec 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

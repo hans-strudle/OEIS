@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033510
+Showing 1-1 of 1
+
+%I A033510
+%S A033510 1,21,2356,196785,17525619,1539222016,135658637925,11945257052321,
+%T A033510 1052091957273408,92657526436631289,8160498611028648795,
+%U A033510 718704019165239462736,63297158846544276862187
+%N A033510 Number of matchings in graph P_{7} X P_{n}.
+%H A033510 Per Hakan Lundow, <a href="http://www.theophys.kth.se/~phl/Text/1factors.pdf">Computation of matching polynomials and the number of 1-factors in polygraphs</a>, Research report, No 12, 1996, Department of Math., Umea University, Sweden.
+%H A033510 Per Hakan Lundow, <a href="http://www.theophys.kth.se/~phl/Text/1factors2.ps.gz">Enumeration of matchings in polygraphs</a>, 1998.
+%H A033510 Sergey Perepechko, <a href="/A033510/a033510.pdf">Generating function</a>, May 07 2013
+%H A033510 Sergey Perepechko, <a href="/A033510/a033510.txt">Text version of generating function</a>
+%Y A033510 Column 7 of triangle A210662.
+%K A033510 nonn
+%O A033510 0,2
+%A A033510 _Per H. Lundow_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

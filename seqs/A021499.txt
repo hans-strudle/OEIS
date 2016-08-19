@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021499
+Showing 1-1 of 1
+
+%I A021499
+%S A021499 0,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,
+%T A021499 2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,
+%U A021499 2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0,2,0
+%N A021499 Decimal expansion of 1/495.
+%C A021499 0, then repeat 0, 2. [Arkadiusz Wesolowski, Jul 22 2011]
+%F A021499 a(n) = 1 + (-1)^n - 2*(C(2*n,n) mod 2), with n>=0.  - Paolo P. Lava, Nov 18 2009
+%F A021499 a(n) = 1 + (-1)^n - 2*0^n = (-1 - A033999(n))*A062157(n). [From Arkadiusz Wesolowski, Jul 22 2011]
+%F A021499 G.f.: 2*x^2/(1-x^2).  - Bruno Berselli, Jul 22 2011
+%K A021499 nonn,cons
+%O A021499 0,3
+%A A021499 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000802
+Showing 1-1 of 1
+
+%I A000802
+%S A000802 1,2,4,7,11,19,34,50,82,146,274,529,785,1297,2321,4369,8465,16657,
+%T A000802 33041,65809,131344,196880,327952,590096,1114384,2162960,4260112,
+%U A000802 8454416,16843024,33620240,67174672,134283536,268501264,536936720,1073807632,2147549456,4295033104
+%N A000802 Maximal number of states in deterministic finite automaton accepting a language consisting of some words of length n.
+%D A000802 Champarnaud, J.-M.; Pin, J.-E.; A maxmin problem on finite automata. Discrete Appl. Math. 23 (1989), no. 1, 91-96.
+%F A000802 a(n) = sum(min(2^k,2^(2^(n-k))-1),k=0..n). - _Sean A. Irvine_, Jun 24, 2011
+%o A000802 (PARI) a(n) = sum(k=0, n, min(2^k,2^(2^(n-k))-1)) \\ (works while n<29) _Michel Marcus_, May 25 2013
+%K A000802 nonn
+%O A000802 0,2
+%A A000802 _Jeffrey Shallit_
+%E A000802 a(34)-a(36) from _Sean A. Irvine_, Jun 23 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

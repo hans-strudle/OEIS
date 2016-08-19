@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047649
+Showing 1-1 of 1
+
+%I A047649
+%S A047649 1,11,55,165,319,352,44,1100,2585,3542,2519,1530,8085,14410,
+%T A047649 16170,9460,6644,28105,46145,50248,32802,6193,57200,102575,
+%U A047649 121968,100397,35123,60390,158840,226413,234344,168773,37070,131175,290851,391402
+%V A047649 1,-11,55,-165,319,-352,-44,1100,-2585,3542,-2519,-1530,8085,-14410,
+%W A047649 16170,-9460,-6644,28105,-46145,50248,-32802,-6193,57200,-102575,
+%X A047649 121968,-100397,35123,60390,-158840,226413,-234344,168773,-37070,-131175,290851,-391402
+%N A047649 Expand {Product_{j=1..inf} (1-x^j) - 1 }^11 in powers of x.
+%D A047649 H. Gupta, On the coefficients of the powers of Dedekind's modular form, J. London Math. Soc., 39 (1964), 433-440.
+%H A047649 H. Gupta, <a href="/A001482/a001482.pdf">On the coefficients of the powers of Dedekind's modular form</a> (annotated and scanned copy)
+%K A047649 sign
+%O A047649 1,2
+%A A047649 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

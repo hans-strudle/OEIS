@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020028
+Showing 1-1 of 1
+
+%I A020028
+%S A020028 1,0,0,0,1,4,20,121,862,7000,63876,646743,7195013,87239530,1145018832,
+%T A020028 16173391002,244622538903,3944538439806,67550220781672,
+%U A020028 1224347751667801,23415650750646696,471239971356764754
+%N A020028 Nearest integer to GAMMA(n+1/8)/GAMMA(1/8).
+%p A020028 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%K A020028 nonn
+%O A020028 0,6
+%A A020028 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

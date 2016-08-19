@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043568
+Showing 1-1 of 1
+
+%I A043568
+%S A043568 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+%T A043568 1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+%U A043568 1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,1,2,2,2,2
+%N A043568 Number of runs in base 16 representation of n.
+%C A043568 Differs from A043543 if we consider for example numbers which are palindromic in base 16 with 3 (2 distinct) digits. [From _R. J. Mathar_, Oct 20 2008]
+%K A043568 nonn,base
+%O A043568 0,17
+%A A043568 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

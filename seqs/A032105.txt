@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032105
+Showing 1-1 of 1
+
+%I A032105
+%S A032105 2,1,4,19,92,468,2470,13394,74296,419463,2403502,13941202,81707264,
+%T A032105 483131437,2878697568,17267416917,104186446502,631913206482,
+%U A032105 3850548301808,23561351983192,144715120126370
+%N A032105 Number of series-reduced dyslexic identity planted planar trees with n leaves of 2 colors.
+%H A032105 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032105 Doubles (index 2+) under "BHK" (reversible, identity, unlabeled) transform.
+%K A032105 nonn
+%O A032105 1,1
+%A A032105 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

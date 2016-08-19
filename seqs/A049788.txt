@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049788
+Showing 1-1 of 1
+
+%I A049788
+%S A049788 0,0,0,0,1,0,4,3,4,4,8,3,9,9,11,8,12,10,17,9,13,15,23,14,17,19,22,20,
+%T A049788 30,12,27,22,26,30,35,15,29,35,35,27,43,22,39,36,34,40,56,29,42,38,45,
+%U A049788 39,58,43,54,34,45,49,69,33,59,67,56,45,63
+%N A049788 a(n)=T(n,n-3), array T as in A049783.
+%K A049788 nonn
+%O A049788 4,7
+%A A049788 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

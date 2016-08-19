@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050170
+Showing 1-1 of 1
+
+%I A050170
+%S A050170 1,2,4,8,3,6,13,5,11,24,10,22,9,20,44,19,42,18,40,17,7,15,33,14,31,69,
+%T A050170 30,67,29,12,26,58,25,55,122,54,120,53,23,51,114,50,111,49,21,46,102,
+%U A050170 45,100,223,99,221,98,43,96,214,95,212,94,210
+%N A050170 a(n)=[ A/sqrt(5) ] if this is not in {0,a(1),...,a(n-1)}, else a(n)=[ A*sqrt(5) ], where A=a(n-1).
+%C A050170 Does every positive integer occur exactly once?
+%K A050170 nonn
+%O A050170 1,2
+%A A050170 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

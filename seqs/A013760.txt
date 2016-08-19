@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013760
+Showing 1-1 of 1
+
+%I A013760
+%S A013760 17,83521,410338673,2015993900449,9904578032905937,
+%T A013760 48661191875666868481,239072435685151324847153,
+%U A013760 1174562876521148458974062689
+%N A013760 17^(3n+1).
+%H A013760 Vincenzo Librandi, <a href="/A013760/b013760.txt">Table of n, a(n) for n = 0..100</a>
+%H A013760 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013760 a(n)=4913*a(n-1), n>0 ; a(0)=17 . G.f.: 17/(1-4913*x). a(n)=A013761(n)/17 . [From _Philippe Deléham_, Dec 03 2008]
+%o A013760 (MAGMA) [17^(3*n+1): n in [0..15]]; // Vincenzo Librandi, May 24 2011
+%o A013760 (Maxima) makelist(17^(3*n+1),n,0,20); /* _Martin Ettl_, Oct 21 2012 */
+%K A013760 nonn
+%O A013760 0,1
+%A A013760 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

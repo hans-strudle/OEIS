@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026102
+Showing 1-1 of 1
+
+%I A026102
+%S A026102 1,6,15,28,55,78,119,152,207,290,341,444,533
+%N A026102 a(n) = T(2n-1,n), where T is the array in A026098.
+%Y A026102 Cf. A033286. [From _R. J. Mathar_, Oct 22 2008]
+%K A026102 nonn
+%O A026102 1,2
+%A A026102 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

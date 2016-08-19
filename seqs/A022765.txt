@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022765
+Showing 1-1 of 1
+
+%I A022765
+%S A022765 1,2,5,7,14,19,20,40,51,54,109,140,146,147,148,296,382,399,401,402,
+%T A022765 403,806,1038,1084,1091,1093,1095,1096,2193,2824,2948,2968,2972,2977,
+%U A022765 2979,2980,5961,7676,8014,8068,8080,8094,8098,8100,16206,20866
+%N A022765 Ordered sequence of distinct terms of form [ (x^i)[ x^j ] ], i,j >= 0, where x = e.
+%K A022765 nonn
+%O A022765 0,2
+%A A022765 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049683
+Showing 1-1 of 1
+
+%I A049683
+%S A049683 0,1,20,361,6480,116281,2086580,37442161,671872320,12056259601,
+%T A049683 216340800500,3882078149401,69661065888720
+%N A049683 a(n)=(L(6n)-2)/16, where L=A000032 (the Lucas sequence).
+%C A049683 This is the r=20 member of the r-family of sequences S_r(n), n>=1, defined in A092184 where more information can be found.
+%H A049683 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%H A049683 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (19,-19,1).
+%F A049683 a(n) = 1/16*{-2+[9+4*sqrt(5)]^n+[9-4*sqrt(5)]^n}. - _Ralf Stephan_, Apr 14 2004
+%F A049683 a(n)=(T(n, 9)-1)/8 with Chebyshev's polynomials of the first kind evaluated at x=9: T(n, 9)=A023039(n). _Wolfdieter Lang_, Oct 18 2004
+%F A049683 G.f.: x*(1+x)/((1-x)*(1-18*x+x^2)) = x*(1+x)/(1-19*x+19*x^2-x^3) (from the Stephan link, see A092184).
+%K A049683 nonn
+%O A049683 0,3
+%A A049683 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

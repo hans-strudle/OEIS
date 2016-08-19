@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037419
+Showing 1-1 of 1
+
+%I A037419
+%S A037419 1,2,51,63,99,105,345,351,357,358,359,401,406,441,442,443,449,457,687,
+%T A037419 693,694,695,702,735,736,737,749,785,791,2403,2410,2415,2416,2417,
+%U A037419 2452,2457,2458,2459,2464,2465,2499,2500,2501,2506,2507,2508,2513
+%N A037419 Numbers n such that the set of base 3 digits of n equals the set of base 7 digits of n.
+%t A037419 Select[Range[2600],Union[IntegerDigits[#,3]]==Union[IntegerDigits[#,7]]&]  (* _Harvey P. Dale_, Mar 11 2011 *)
+%K A037419 nonn,base
+%O A037419 1,2
+%A A037419 _Clark Kimberling_
+%E A037419 Corrected by Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

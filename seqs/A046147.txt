@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046147
+Showing 1-1 of 1
+
+%I A046147
+%S A046147 1,2,3,2,3,5,3,5,2,5,3,7,2,6,7,8,2,6,7,11,3,5,3,5,6,7,10,11,12,14,5,
+%T A046147 11,2,3,10,13,14,15,7,13,17,19,5,7,10,11,14,15,17,19,20,21,2,3,8,12,
+%U A046147 13,17,22,23,7,11,15,19,2,5,11,14,20,23,2,3,8,10,11,14,15,18,19,21,26
+%N A046147 Triangle read by rows in which row n lists the primitive roots mod n (omitting numbers n without a primitive root).
+%H A046147 T. D. Noe, <a href="/A046147/b046147.txt">First 100 rows of triangle, flattened</a>
+%H A046147 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PrimitiveRoot.html">Primitive Root.</a>
+%e A046147 n followed by primitive roots, in any:
+%e A046147 1 -
+%e A046147 2 1
+%e A046147 3 2
+%e A046147 4 3
+%e A046147 5 2 3
+%e A046147 6 5
+%e A046147 7 3 5
+%e A046147 8 -
+%e A046147 9 2 5
+%e A046147 10 3 7
+%e A046147 11 2 6 7 8
+%e A046147 12 -
+%e A046147 13 2 6 7 11
+%e A046147 ...
+%t A046147 a[n_] := Select[Range[n-1], GCD[#, n] == 1 && MultiplicativeOrder[#, n] == EulerPhi[n]& ]; Table[a[n], {n, 1, 30}] // Flatten (* _Jean-François Alcover_, Oct 23 2012 *)
+%Y A046147 Cf. A001918, A046144, A046145, A046146.
+%Y A046147 Cf. A060749
+%K A046147 nonn,tabf
+%O A046147 2,2
+%A A046147 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

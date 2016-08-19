@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046851
+Showing 1-1 of 1
+
+%I A046851
+%S A046851 0,1,10,11,95,96,100,101,105,110,125,950,960,976,995,996,1000,1001,
+%T A046851 1005,1006,1010,1011,1021,1025,1026,1036,1046,1050,1100,1101,1105,
+%U A046851 1201,1205,1250,1276,1305,1316,1376,1405,9500,9505,9511,9525,9600,9605,9625
+%N A046851 Numbers n such that n^2 can be obtained from n by inserting internal (but not necessarily contiguous) digits.
+%H A046851 Reinhard Zumkeller, <a href="/A046851/b046851.txt">Table of n, a(n) for n = 1..10000</a>
+%e A046851 110^2 = 12100 (insert "2" and "0" into "1_1_0").
+%o A046851 (Haskell)
+%o A046851 import Data.List (isInfixOf)
+%o A046851 a046851 n = a046851_list !! (n-1)
+%o A046851 a046851_list = filter chi a008851_list where
+%o A046851    chi n = (x == y && xs `isSub` ys) where
+%o A046851       x:xs = show $ div n 10
+%o A046851       y:ys = show $ div (n^2) 10
+%o A046851    isSub [] ys       = True
+%o A046851    isSub _  []       = False
+%o A046851    isSub us'@(u:us) (v:vs)
+%o A046851          | u == v    = isSub us vs
+%o A046851          | otherwise = isSub us' vs
+%o A046851 -- _Reinhard Zumkeller_, Jul 27 2011
+%Y A046851 Cf. A045953, A008851, A018834, A086457 (subsequence).
+%K A046851 nonn,base,easy,nice
+%O A046851 1,3
+%A A046851 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

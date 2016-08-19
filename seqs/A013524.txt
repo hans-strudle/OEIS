@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013524
+Showing 1-1 of 1
+
+%I A013524
+%S A013524 1,0,1,1,1,13,7951,21599,294997,275833,60527057,6338125867,
+%T A013524 37620769159,10425684579701
+%V A013524 1,0,-1,-1,-1,13,7951,21599,-294997,-275833,-60527057,-6338125867,
+%W A013524 37620769159,10425684579701
+%N A013524 Numerator of [x^(2n+1)] of the Taylor expansion tanh(cosec(x)-cot(x))= x/2 -x^5/480 -x^7/5760 -x^9/1451520 +13*x^11/9676800 +7951*x^13/49816166400 +...
+%C A013524 The e.g.f. of x/2, tanh(cosec(x)-cot(x)) = x/(2^1*1!) -8*x^5/(2^5*5!) -112*x^7/(2^7*7!) -128*x^9/(2^9*9!) +109824*x^11/(2^11*11!) +... is (up to signs) apparently provided by A003721.
+%K A013524 sign,frac
+%O A013524 0,6
+%A A013524 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013524 Values replaced by numerators. - R. J. Mathar, Dec 19 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

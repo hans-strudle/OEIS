@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048786
+Showing 1-1 of 1
+
+%I A048786
+%S A048786 1,8,1,96,24,1,1536,576,48,1,30720,15360,1920,80,1,737280,460800,
+%T A048786 76800,4800,120,1,20643840,15482880,3225600,268800,10080,168,1,
+%U A048786 660602880,578027520,144506880,150552800,752640,18816,224,1
+%N A048786 Triangle of coefficients of certain exponential convolution polynomials.
+%C A048786 i) p(n,x) := sum(a(n,m)*x^m,m=1..n), p(0,x) := 1, are monic polynomials satisfying p(n,x+y)= sum(binomial(n,k)*p(k,x)*p(n-k,y),k=0..n), (exponential convolution polynomials). ii) In the terminology of the umbral calculus (see reference) p(n,x) are called associated to f(t)= t/(1+4*t). iii) a(n,1)= A034177(n).
+%C A048786 Also the Bell transform of A034177. For the definition of the Bell transform see A264428. - _Peter Luschny_, Jan 28 2016
+%D A048786 S. Roman, The Umbral Calculus, Academic Press, New York, 1984
+%F A048786 a(n, m) = n!*4^(n-m)*binomial(n-1, m-1)/m!, n >= m >= 1; a(n, m) := 0, m>n; a(n, m) = (n!/m!)*A038231(n-1, m-1) = 4^(n-m)*A008297(n, m) (Lah-triangle).
+%p A048786 # The function BellMatrix is defined in A264428.
+%p A048786 # Adds (1,0,0,0, ..) as column 0.
+%p A048786 BellMatrix(n -> 4^n*(n+1)!, 9); # _Peter Luschny_, Jan 28 2016
+%Y A048786 Cf. A034177, A038231, A008297.
+%K A048786 easy,nonn,tabl
+%O A048786 1,2
+%A A048786 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

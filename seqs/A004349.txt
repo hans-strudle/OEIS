@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004349
+Showing 1-1 of 1
+
+%I A004349
+%S A004349 1,40,990,19600,341055,5461512,82598880,1198774720,16871053725,
+%T A004349 231900297200,3129162672636,41604694413840,546585072715045,
+%U A004349 7110542499799200,91748617512913200,1175759825268299040
+%N A004349 Binomial coefficient C(5n,n-7).
+%D A004349 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004349 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%K A004349 nonn,easy
+%O A004349 7,2
+%A A004349 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

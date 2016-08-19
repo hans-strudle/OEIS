@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005089
+Showing 1-1 of 1
+
+%I A005089
+%S A005089 0,0,0,0,1,0,0,0,0,1,0,0,1,0,1,0,1,0,0,1,0,0,0,0,1,1,0,0,1,1,0,0,0,1,
+%T A005089 1,0,1,0,1,1,1,0,0,0,1,0,0,0,0,1,1,1,1,0,1,0,0,1,0,1,1,0,0,0,2,0,0,1,
+%U A005089 0,1,0,0,1,1,1,0,0,1,0,1,0,1,0,0,2,0,1,0,1,1,1,0,0,0,1,0,1,0,0,1,1,1
+%N A005089 Number of distinct primes = 1 mod 4 dividing n.
+%C A005089 a(n) = Sum(A079260(A027748(n,k)): k=1..A001221(n)); a(A004144(n)) = 0; a(A009003(n)) > 0. - _Reinhard Zumkeller_, Jan 07 2013
+%H A005089 Reinhard Zumkeller, <a href="/A005089/b005089.txt">Table of n, a(n) for n = 1..10000</a>
+%F A005089 Additive with a(p^e) = 1 if p = 1 (mod 4), 0 otherwise.
+%t A005089 f[n_]:=Length@Select[If[n==1,{},FactorInteger[n]],Mod[#[[1]],4]==1&]; Table[f[n],{n,102}] (* _Ray Chandler_, Dec 18 2011 *)
+%t A005089 a[n_] := DivisorSum[n, Boole[PrimeQ[#] && Mod[#, 4] == 1]&]; Array[a, 100] (* _Jean-François Alcover_, Dec 01 2015 *)
+%o A005089 (PARI) for(n=1,100,print1(sumdiv(n,d,isprime(d)*if((d-1)%4,0,1)),","))
+%o A005089 (Haskell)
+%o A005089 a005089 = sum . map a079260 . a027748_row
+%o A005089 -- _Reinhard Zumkeller_, Jan 07 2013
+%Y A005089 Cf. A001221, A005091, A005094.
+%K A005089 nonn
+%O A005089 1,65
+%A A005089 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

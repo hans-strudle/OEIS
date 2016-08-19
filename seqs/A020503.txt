@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020503
+Showing 1-1 of 1
+
+%I A020503
+%S A020503 4,5,3,13,17,205,21,3277,257,4033,341,838861,241,13421773,5461,
+%T A020503 80581,65537,3435973837,4161,54975581389,61681,20647621,1398101,
+%U A020503 14073748835533,65281,1098438933505,22369621,68719214593
+%V A020503 -4,-5,-3,13,17,205,21,3277,257,4033,341,838861,241,13421773,5461,
+%W A020503 80581,65537,3435973837,4161,54975581389,61681,20647621,1398101,
+%X A020503 14073748835533,65281,1098438933505,22369621,68719214593
+%N A020503 Cyclotomic polynomials at x=-4.
+%H A020503 <a href="/index/Cy#CyclotomicPolynomialsValuesAtX">Index entries for cyclotomic polynomials, values at X</a>
+%p A020503 with(numtheory,cyclotomic); f := n->subs(x=-4,cyclotomic(n,x)); seq(f(i),i=0..64);
+%K A020503 sign
+%O A020503 0,1
+%A A020503 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

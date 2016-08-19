@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009749
+Showing 1-1 of 1
+
+%I A009749
+%S A009749 0,2,20,438,17128,1048874,92901500,11253292638,1788824156368,
+%T A009749 361485870772562,90552477245862884,27548125826770266630,
+%U A009749 10006652421435397898680,4278388540712731489923194
+%N A009749 Expansion of tan(x)*tan(sinh(x)).
+%F A009749 a(n) ~ (2*n)! * 4 * tan(arcsinh(Pi/2)) / (sqrt(4+Pi^2) * arcsinh(Pi/2)^(2*n+1)). - _Vaclav Kotesovec_, Jan 24 2015
+%t A009749 With[{nn=30},Take[CoefficientList[Series[Tan[x]*Tan[Sinh[x]],{x,0,nn}], x]Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Nov 30 2011 *)
+%K A009749 nonn
+%O A009749 0,2
+%A A009749 _R. H. Hardin_
+%E A009749 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

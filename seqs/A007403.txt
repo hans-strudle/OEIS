@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007403
+Showing 1-1 of 1
+
+%I A007403 M4656
+%S A007403 1,9,92,920,8928,84448,782464,7130880,64117760,570166784,5023524864,
+%T A007403 43915595776,381350330368,3292451880960,28283033157632,
+%U A007403 241884640182272,2060565937127424,17492250190544896,148027589475696640
+%N A007403 a(n) = Sum_{m=0..n} (Sum_{k=0..m} C(n,k))^3 = (n+2)*2^(3*n-1)-3*2^(n-2)*n*binomial(2*n,n).
+%D A007403 G. E. Andrews and P. Paule, MacMahon's partition analysis. IV. Hypergeometric multisums. In The Andrews Festschrift (Maratea, 1998). Sem. Lothar. Combin. 42 (1999), Art. B42i, 24 pp.
+%D A007403 N. J. Calkin, A curious binomial identity, Discr. Math., 131 (194), 335-337.
+%D A007403 Bing He, Some identities involving the partial sum of q-binomial coefficients, Electronic J. Combin,, 21 (2014), #P3.17. Gives generalizations. - _N. J. A. Sloane_, Jul 26 2014
+%D A007403 M. Hirschhorn, Calkin's binomial identity, Discr. Math., 159 (1996), 273-278.
+%D A007403 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007403 Jun Wang and Zhizheng Zhang, On extensions of Calkin's binomial identities, Discrete Math., 274 (2004), 331-342.
+%H A007403 Vincenzo Librandi, <a href="/A007403/b007403.txt">Table of n, a(n) for n = 0..200</a>
+%F A007403 G.f.: (1-(4+3*Sqrt[1-8*x])*x)/(1-8*x)^2. - _Harvey P. Dale_, Jun 30 2011
+%p A007403 f:=n->n*8^n/2+8^n-(3*n/4)*2^n*binomial(2*n,n);
+%p A007403 [seq(f(n),n=0..50)];
+%t A007403 Table[(n+2)2^(3n-1)-3 2^(n-2)n Binomial[2n,n],{n,0,20}] (* _Harvey P. Dale_, Jun 30 2011 *)
+%t A007403 CoefficientList[Series[(1 - (4 + 3 Sqrt[1 - 8 x]) x)/(1 - 8 x)^2, {x, 0, 30}], x] (* _Vincenzo Librandi_, Jul 27 2014 *)
+%o A007403 (MAGMA) [(n+2)*2^(3*n-1)-3*2^(n-2)*n*Binomial(2*n,n): n in [0..20]]; // _Vincenzo Librandi_, Jul 27 2014
+%K A007403 nonn,easy,nice
+%O A007403 0,2
+%A A007403 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

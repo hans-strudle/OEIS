@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014847
+Showing 1-1 of 1
+
+%I A014847
+%S A014847 1,2,6,15,20,28,42,45,66,77,88,91,104,110,126,140,153,156,170,187,190,
+%T A014847 204,209,210,220,228,231,238,240,266,276,299,308,312,315,322,325,330,
+%U A014847 345,368,378,414,420,429,435,440,442,450,459,460,464,468,476,483,493
+%N A014847 Numbers n such that n-th Catalan number C(2n,n)/(n+1) is divisible by n.
+%C A014847 The sequence does not contain any odd primes p (follows by quadratic reciprocity and field structure of Z/pZ). Aside from the first 2 terms, all other terms are composite integers. - _Thomas M. Bridge_, Nov 03 2013
+%C A014847 Equivalently, numbers such that binomial(2n, n) = 0 (mod n). Indices of zeros in A059288. See A260640 (and A260636) for the analogs for 3n. - _M. F. Hasler_, Nov 11 2015
+%H A014847 Franklin T. Adams-Watters and Chai Wah Wu, <a href="/A014847/b014847.txt">Table of n, a(n) for n = 1..10000</a> n=1..1069 (a(n) <= 10000) from Franklin T. Adams-Watters
+%H A014847 M. Alekseyev, <a href="http://home.gwu.edu/~maxal/gpscripts/">PARI/GP Scripts for Miscellaneous Math Problems</a>, sect. III: Binomial coefficients modulo integers, binomod.gp (V. 1.4, 11/2015).
+%H A014847 C. Pomerance, <a href="https://math.dartmouth.edu/~carlp/catalan5.pdf">Divisors of the middle binomial coefficient</a>, Amer. Math. Monthly, 112 (2015), 636-644.
+%H A014847 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DiskLinePicking.html">Disk Line Picking</a>
+%F A014847 It seems that a(n)/n is bounded and more precisely that lim n -> infinity a(n)/n = C exists with 9<=c<10 - _Benoit Cloitre_, Aug 13 2002
+%F A014847 a(n) = A004782(n) - 1. - _Enrique Pérez Herrero_, Feb 03 2013
+%t A014847 fQ[n_] := IntegerQ[Binomial[2n, n]/ n]; Select[ Range@495, fQ@# &] (* _Robert G. Wilson v_, Jun 19 2006 *)
+%o A014847 (PARI) is_A014847(n)=!binomod(2*n,n,n) \\ Suitable for large n. Using binomod.gp by M. Alekseyev, cf. links. - _M. F. Hasler_, Nov 11 2015
+%o A014847 (PARI) for(n=1, 1e3, if(binomial(2*n, n)/(n+1) % n==0, print1(n", "))) \\ _Altug Alkan_, Nov 11 2015
+%o A014847 (Python)
+%o A014847 from __future__ import division
+%o A014847 A014847_list, b = [], 1
+%o A014847 for n in range(1,10**3):
+%o A014847     if not b % n:
+%o A014847         A014847_list.append(n)
+%o A014847     b = b*(4*n+2)//(n+2) # _Chai Wah Wu_, Jan 27 2016
+%o A014847 (MAGMA) [n: n in [1..500] | IsZero((Binomial(2*n, n) div (n+1)) mod n)]; // _Vincenzo Librandi_, Jan 29 2016
+%Y A014847 Cf. A000108, A000984, A120622, A120623, A120624, A120625, A120626.
+%K A014847 nonn
+%O A014847 1,2
+%A A014847 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

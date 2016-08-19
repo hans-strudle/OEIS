@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000636
+Showing 1-1 of 1
+
+%I A000636 M1185 N0457
+%S A000636 1,2,4,9,21,52,129,332,859,2261,5983,15976,42836,115469,312246,847241,
+%T A000636 2304522,6283327,17164401,46972357,128741107,353345434,970999198,
+%U A000636 2671347292,7356752678
+%N A000636 Number of paraffins C_n H_{2n} X_2 with n carbon atoms.
+%D A000636 H. R. Henze and C. M. Blair, The number of structural isomers of the more important types of aliphatic compounds, J. Amer. Chem. Soc., 56 (1934), 157.
+%D A000636 G. Polya, Algebraische Berechnung der Anzahl der Isomeren einiger organischer Verbindungen, Zeit. f. Kristall., 93 (1936), 415-443; line 4 of Table I.
+%D A000636 R. C. Read, The Enumeration of Acyclic Chemical Compounds, pp. 25-61 of A. T. Balaban, ed., Chemical Applications of Graph Theory, Ac. Press, 1976; see p. 28.
+%D A000636 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000636 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A000636 nonn,easy,nice
+%O A000636 1,2
+%A A000636 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

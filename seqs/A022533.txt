@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022533
+Showing 1-1 of 1
+
+%I A022533
+%S A022533 1,131071,129009091,17050729021,745759583941,16163719991611,
+%T A022533 215703854542471,2019169299698041,14425381885981321,83322818300333431,
+%U A022533 405447028499293771,1713164078241143221,6431804812640900941
+%N A022533 Nexus numbers (n+1)^17-n^17.
+%D A022533 J. H. Conway and R. K. Guy, The Book of Numbers, Copernicus Press, NY, 1996, p. 54.
+%H A022533 Vincenzo Librandi, <a href="/A022533/b022533.txt">Table of n, a(n) for n = 0..10000</a>
+%t A022533 q=17;lst={};Do[AppendTo[lst,(n+1)^q-n^q],{n,0,4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 23 2009 *)
+%t A022533 Table[(n+1)^17-n^17,{n,0,20}] (* _Vincenzo Librandi_, Nov 22 2011 *)
+%o A022533 (MAGMA) [(n+1)^17-n^17: n in [0..20]]; // _Vincenzo Librandi_, Nov 22 2011
+%K A022533 nonn,easy
+%O A022533 0,2
+%A A022533 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

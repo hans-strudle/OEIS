@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061445
+Showing 1-1 of 1
+
+%I A061445
+%S A061445 9,10,14,15,20,21,26,27,30,33,36,38,49,56,62,66,68,70,72,76,78,80,86,
+%T A061445 90,91,110,117,120,121,136,140,144,164,168,172,178,202,207,220,261,
+%U A061445 284,328,354,357,420,423,458,459,468,480,504,513,530,586,606
+%N A061445 Composite numbers n such that primitive part of Lucas(n) (see A061447) is prime.
+%D A061445 Brillhart, John; Montgomery, Peter L.; Silverman, Robert D.; Tables of Fibonacci and Lucas factorizations. Math. Comp. 50 (1988), no. 181, 251-260, S1-S15. Math. Rev. 89h:11002.
+%H A061445 David Broadhurst, <a href="/A061445/b061445.txt">Table of n, a(n) for n=1..257 yielding primes or probable primes</a>
+%H A061445 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/lists/top20/LucasA.html">Lucas Aurifeuillian primitive part</a>
+%Y A061445 Cf. A061446, A061447, A061254, A061442, A061443.
+%K A061445 nonn
+%O A061445 1,1
+%A A061445 _David Broadhurst_, Jun 10 2001
+%E A061445 Definition corrected by _T. D. Noe_, Dec 14 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

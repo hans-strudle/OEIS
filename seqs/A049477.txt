@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049477
+Showing 1-1 of 1
+
+%I A049477
+%S A049477 1,1,1,7,2,4,34,1,47,47,47,47,47,47,47,153,212,212,212,212,212,212,
+%T A049477 212,334,334,785,785,720,785,785,785,785,785,1144,1144,1144,1167,2105,
+%U A049477 2105,2105,2105,2105,2105,2105,2105,2105,2105,2105,2105,2105
+%N A049477 Values of n-g associated with sequences A070862 and A088859.
+%D A049477 F. W. Roush and D. G. Rogers, A prime algorithm?, preprint, 1999.
+%Y A049477 Equals A070862(n) - A088859(n). Cf. A088643.
+%K A049477 nonn,easy,nice
+%O A049477 0,4
+%A A049477 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

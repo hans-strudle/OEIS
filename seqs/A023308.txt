@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023308
+Showing 1-1 of 1
+
+%I A023308
+%S A023308 3203,21683,34613,52813,103843,116933,117443,165443,172933,193603,
+%T A023308 195053,213973,226783,321053,322193,357613,360323,362233,363403,
+%U A023308 368743,472393,474143,496333,518543,528673,569083,571303,631853,654623,714893,758503
+%N A023308 Numbers n such that n remains prime through 4 iterations of function f(x) = 3x + 4.
+%C A023308 n, 3*n+4, 9*n+16, 27*n+52 and 81*n+160 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023308 (MAGMA) [n: n in [1..1000000] | IsPrime(n) and IsPrime(3*n+4) and IsPrime(9*n+16) and IsPrime(27*n+52) and IsPrime(81*n+160)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023308 nonn
+%O A023308 1,1
+%A A023308 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

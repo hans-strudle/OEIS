@@ -1,0 +1,53 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014781
+Showing 1-1 of 1
+
+%I A014781
+%S A014781 1,1,1,1,2,1,2,3,3,8,6,3,8,14,17,17,56,48,34,17,56,104,138,155,155,
+%T A014781 608,552,448,310,155,608,1160,1608,1918,2073,2073,9440,8832,7672,6064,
+%U A014781 4146,2073,9440,18272,25944,32008,36154,38227
+%N A014781 Seidel's triangle, read by rows.
+%D A014781 D. Dumont and A. Randrianarivony, Derangements et nombres de Genocchi, Discrete Mathematics, vol. 132, pp. 37-49, 1994.
+%D A014781 R. Ehrenborg and E. Steingrimsson, Yet another triangle for the Genocchi numbers, Europ. J. Combin., 21 (2000), 593-600.
+%D A014781 G. Kreweras, Sur les permutations compte'es par les nombres de Genocchi..., Europ. J. Comb., vol. 18, pp. 49-58, 1997.
+%D A014781 L. Seidel, Über eine einfache Entstehungsweise der Bernoulli'schen Zahlen und einiger verwandten Reihen, Sitzungsberichte der mathematisch-physikalischen Classe der königlich bayerischen Akademie der Wissenschaften zu München, volume 7 (1877), 157-187.
+%H A014781 D. Dumont and J. Zeng, <a href="http://igd.univ-lyon1.fr/home/zeng/public_html/paper/publication.html">Polynomes d'Euler et les fractions continues de Stieltjes-Rogers</a>, Ramanujan J. 2 (1998) 3, 387-410.
+%H A014781 E. Feigin, <a href="http://arxiv.org/abs/1111.0740">The median Genocchi numbers, Q-analogues and continued fractions</a>, arXiv preprint arXiv:1111.0740, 2011
+%H A014781 P. Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/SeidelTransform">An old operation on sequences: the Seidel transform</a>
+%e A014781 Triangle begins:
+%e A014781 1,
+%e A014781 1,
+%e A014781 1, 1,
+%e A014781 2, 1,
+%e A014781 2, 3, 3,
+%e A014781 8, 6, 3,
+%e A014781 8, 14, 17, 17,
+%e A014781 56, 48, 34, 17,
+%e A014781 56, 104, 138, 155, 155,
+%e A014781 608, 552, 448, 310, 155,
+%e A014781 608, 1160, 1608, 1918, 2073, 2073,
+%e A014781 9440, 8832, 7672, 6064, 4146, 2073,
+%e A014781 ...
+%o A014781 # (Sage) Algorithm of L. Seidel (1877)
+%o A014781 # n -> Prints first n rows of the triangle
+%o A014781 def A014781_triangle(n) :
+%o A014781     D = []; [D.append(0) for i in (0..n)]; D[1] = 1
+%o A014781     b = True
+%o A014781     for i in(0..n) :
+%o A014781         h = (i-1)//2 + 1
+%o A014781         if b :
+%o A014781             for k in range(h-1,0,-1) : D[k] += D[k+1]
+%o A014781         else :
+%o A014781             for k in range(1,h+1,1) :  D[k] += D[k-1]
+%o A014781         b = not b
+%o A014781         if i>0 : print [D[z] for z in (1..h)]
+%o A014781 A014781_triangle(12) # _Peter Luschny_, Apr 01 2012
+%Y A014781 Even terms of first column give A005439. Diagonal gives A001469.
+%Y A014781 Cf. A005439, A001469.
+%K A014781 tabf,nonn
+%O A014781 1,5
+%A A014781 _N. J. A. Sloane_
+%E A014781 More terms from Mike Domaratzki (mdomaratzki(AT)alumni.uwaterloo.ca), Nov 18 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

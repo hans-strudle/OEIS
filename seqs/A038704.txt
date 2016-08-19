@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038704
+Showing 1-1 of 1
+
+%I A038704
+%S A038704 8,9,149083
+%N A038704 Incrementally largest term in continued fraction for Champernowne constant (A030167).
+%H A038704 H. Havermann, <a href="http://chesswanks.com/pxp/cfcd.html">Number of Digits in Some Champernowne-Continued-Fraction Terms</a>
+%Y A038704 Cf. A030167, A038705, A038706.
+%K A038704 hard,nice,nonn,bref
+%O A038704 1,1
+%A A038704 _Hans Havermann_, May 01 2000
+%E A038704 The next term has 166 digits.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

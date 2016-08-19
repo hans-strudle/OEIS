@@ -1,0 +1,67 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000112
+Showing 1-1 of 1
+
+%I A000112 M1495 N0588
+%S A000112 1,1,2,5,16,63,318,2045,16999,183231,2567284,46749427,1104891746,
+%T A000112 33823827452,1338193159771,68275077901156,4483130665195087
+%N A000112 Number of partially ordered sets ("posets") with n unlabeled elements.
+%C A000112 Also number of fixed effects ANOVA models with n factors, which may be both crossed and nested.
+%D A000112 G. Birkhoff, Lattice Theory, 1961, p. 4.
+%D A000112 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 60.
+%D A000112 E. D. Cooper, Representation and generation of finite partially ordered sets, Manuscript, no date.
+%D A000112 Davison, J. L. Asymptotic enumeration of partial orders. Proceedings of the seventeenth Southeastern international conference on combinatorics, graph theory, and computing (Boca Raton, Fla., 1986). Congr. Numer. 53 (1986), 277--286. MR0885256 (88c:06001)
+%D A000112 E. N. Gilbert, A catalog of partially ordered systems, unpublished memorandum, Aug 08, 1961.
+%D A000112 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000112 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000112 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 1, Chap. 3, pages 96ff; Vol. I, 2nd. ed., Chap. 3, pp. 241ff; Vol. 2, Problem 5.39, p. 88.
+%D A000112 For further references concerning the enumeration of topologies and posets see under A001035.
+%H A000112 David Wasserman, <a href="/A000112/b000112.txt">Table of n, a(n) for n = 0..16</a>
+%H A000112 R. Bayon, N. Lygeros and J.-S. Sereni, <a href="http://www.math.nthu.edu.tw/~amen/2005/040909-2.pdf">New progress in enumeration of mixed models</a>, Applied Mathematics E-Notes, 5 (2005), 60-65.
+%H A000112 R. Bayon, N. Lygeros and J.-S. Sereni, <a href="http://www-sop.inria.fr/mascotte/personnel/Jean-Sebastien.Sereni/Articles/BLS03.pdf">Nouveaux progrès dans l'énumération des modèles mixtes</a>, in Knowledge discovery and discrete mathematics : JIM'2003, INRIA, Université de Metz, France, 2003, pp. 243-246.
+%H A000112 Gunnar Brinkmann and Brendan D. McKay, <a href="http://cs.anu.edu.au/~bdm/papers/topologies.pdf">Counting unlabeled topologies and transitive relations</a>.
+%H A000112 G. Brinkmann and B. D. McKay, <a href="http://cs.anu.edu.au/~bdm/papers/posets.pdf">Posets on up to 16 Points</a> [On Brendan McKay's home page]
+%H A000112 G. Brinkmann and B. D. McKay, <a href="http://dx.doi.org/10.1023/A:1016543307592">Posets on up to 16 Points</a>, Order 19 (2) (2002) 147-179.
+%H A000112 K. K.-H. Butler and G. Markowsky, <a href="http://www.laptop.maine.edu/Enumeration.pdf">Enumeration of finite topologies</a>, Proc. 4th S-E Conf. Combin., Graph Theory, Computing, Congress. Numer. 8 (1973), 169-184
+%H A000112 K. K.-H. Butler and G. Markowsky, <a href="/A000798/a000798_1.pdf">Enumeration of finite topologies</a>, Proc. 4th S-E Conf. Combin., Graph Theory, Computing, Congress. Numer. 8 (1973), 169-184. [Annotated scan of pages 180 and 183 only]
+%H A000112 P. J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/groups.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seqs. Vol. 3 (2000), #00.1.5.
+%H A000112 C. Chaunier, <a href="/A000112/a000112.pdf">Letter to N. J. A. Sloane, Jun 22 1993, with several attachments</a>
+%H A000112 C. Chaunier and N. Lygeros, <a href="http://www.lygeros.org/0052-fr.html">The Number of Orders with Thirteen Elements</a>, Order 9:3 (1992) 203-204. [See Chaunier letter]
+%H A000112 C. Chaunier and N. Lygeros, <a href="http://dx.doi.org/10.1016/0304-3975(94)90070-1">Le nombre de posets à isomorphie près ayant 12 éléments</a> Theoretical Computer Science, 123 p. 89-94, 1994.
+%H A000112 C. Chaunier and N. Lygeros, <a href="http://www.lygeros.org/0049-fr.html">Progrès dans l'énumeration des posets</a>, C. R. Acad. Sci. Paris 314 serie I (1992) 691-694. [See Chaunier letter]
+%H A000112 E. D. Cooper, <a href="/A000798/a000798.pdf">Representation and generation of finite partially ordered sets</a>, Manuscript, no date [Annotated scanned copy]
+%H A000112 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/posets.pdf">Transitive relations, topologies and partial orders</a>
+%H A000112 FindStat - Combinatorial Statistic Finder, <a href="http://www.findstat.org/Posets">Posets</a>
+%H A000112 R. Fraisse and N. Lygeros, <a href="http://www.lygeros.org/0033-fr.html">Petits posets: dénombrement, représentabilité par cercles et compenseurs</a> C. R. Acad. Sci. Paris, 313, I, 417-420, 1991.
+%H A000112 E. N. Gilbert, <a href="/A000798/a000798_9.pdf">A catalog of partially ordered systems</a>, unpublished memorandum, Aug 08, 1961. [Annotated scanned copy]
+%H A000112 G. Grekos, <a href="/A000112/a000112_1.pdf">Letter to N. J. A. Sloane, Oct 31 1994, with attachments</a>
+%H A000112 M. Guay-Paquet, <a href="http://arxiv.org/abs/1306.2400">A modular relation for the chromatic symmetric functions of (3+1)-free posets</a>, arXiv preprint arXiv:1306.2400, 2013
+%H A000112 Ann Marie Hess, <a href="http://www.stat.colostate.edu/~hess/MixedModels.htm">Mixed Models Site</a>
+%H A000112 C. Joslyn, E. Hogan, A. Pogel, <a href="http://arxiv.org/abs/1409.6684">Conjugacy and Iteration of Standard Interval Rank in Finite Ordered Sets</a>, arXiv preprint arXiv:1409.6684, 2014
+%H A000112 Dongseok Kim, Young Soo Kwon and Jaeun Lee, <a href="http://arxiv.org/abs/1206.0550">Enumerations of finite topologies associated with a finite graph</a>, arXiv preprint arXiv:1206.0550, 2012. - From _N. J. A. Sloane_, Nov 09 2012
+%H A000112 D. J. Kleitman and B. L. Rothschild, <a href="http://dx.doi.org/10.1090/S0002-9947-1975-0369090-9">Asymptotic enumeration of partial orders on a finite set</a>, Trans. Amer. Math. Soc., 205 (1975) 205-220.
+%H A000112 N. Lygeros, <a href="http://www.lygeros.org/0026-fr.html">Calculs exhaustifs sur les posets d'au plus 7 elements</a>, SINGULARITE, vol. 2 n4 p. 10-24, avril 1991.
+%H A000112 N. Lygeros and P. Zimmermann, <a href="http://www.lygeros.org/Math/poset.html">Computation of P(14), the number of posets with 14 elements: 1.338.193.159.771</a>
+%H A000112 G. Pfeiffer, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL7/Pfeiffer/pfeiffer6.html">Counting Transitive Relations</a>, Journal of Integer Sequences, Vol. 7 (2004), Article 04.3.2.
+%H A000112 Bob Proctor, <a href="http://www.unc.edu/~rap/Posets/">Chapel Hill Poset Atlas</a>
+%H A000112 D. Rusin, <a href="http://www.math.niu.edu/~rusin/known-math/97/finite.top">Further information and references</a> [Broken link]
+%H A000112 D. Rusin, <a href="/A000112/a000112.top.txt">Further information and references</a> [Cached copy]
+%H A000112 Henry Sharp, Jr., <a href="/A001930/a001930_1.pdf">Quasi-orderings and topologies on finite sets</a>, Proceedings of the American Mathematical Society 17.6 (1966): 1344-1349. [Annotated scanned copy]
+%H A000112 N. J. A. Sloane, <a href="/A000112/a000112_2.pdf">List of sequences related to partial orders, circa 1972</a>
+%H A000112 N. J. A. Sloane, <a href="/classic.html#POSETS">Classic Sequences</a>
+%H A000112 N. L. White, <a href="/A000798/a000798_6.pdf">Two letters to N. J. A. Sloane, 1970, with hand-drawn enclosure</a>
+%H A000112 J. A. Wright, <a href="/A000798/a000798_3.pdf">There are 718 6-point topologies, quasiorderings and transgraphs</a>, Preprint, 1970 [Annotated scanned copy]
+%H A000112 J. A. Wright, <a href="/A000798/a000798_5.pdf">Two related abstracts, 1970 and 1972</a> [Annotated scanned copies]
+%H A000112 J. A. Wright, <a href="/A000798/a000798_4.pdf">Letter to N. J. A. Sloane, Apr 06 1972, listing 18 sequences</a>
+%H A000112 <a href="/index/Pos#posets">Index entries for sequences related to posets</a>
+%H A000112 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%e A000112 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 1, Chap. 3, page 98, Fig. 3-1 (or 2nd. ed., Fig. 3.1, p. 243) shows the unlabeled posets with <= 4 points.
+%Y A000112 Cf. A000798 (labeled topologies), A001035 (labeled posets), A001930 (unlabeled topologies), A006057.
+%Y A000112 Cf. A079263, A079265.
+%K A000112 nonn,hard,more,core,nice,changed
+%O A000112 0,3
+%A A000112 _N. J. A. Sloane_
+%E A000112 a(15)-a(16) are from Brinkmann's and McKay's paper. - _Vladeta Jovovic_, Jan 04 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

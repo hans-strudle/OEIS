@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014251
+Showing 1-1 of 1
+
+%I A014251
+%S A014251 2,3,4,7,14,25,45,78,132,219,362,594,970,1579,2565,4161,6743,10923,
+%T A014251 17687,28632,46342,74998,121365,196389,317781,514198,832008,1346236,
+%U A014251 2178274,3524542,5702850,9227427
+%N A014251 b(n) - c(n) where b(n) is the n-th Fibonacci number greater than 2 and c(n) is the n-th number not in sequence b( ).
+%K A014251 nonn
+%O A014251 1,1
+%A A014251 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

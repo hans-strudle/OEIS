@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006606
+Showing 1-1 of 1
+
+%I A006606 M0770
+%S A006606 1,2,3,6,10,20,36,72,135,272,528,1048,2080,4160,8242,16500,32895,
+%T A006606 65750,131328,262612,524733
+%N A006606 Nonperiodic autocorrelation functions of length n.
+%D A006606 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006606 E. G. Whitehead, Jr., Autocorrelation of (+1,-1) matrices, pp. 329-336 of Combinatorial Mathematics (Canberra, 1977), Lect. Notes Math. 686, 1978. [From Jayadev Acharya (jayadev(AT)ucsd.edu), Aug 20 2009]
+%H A006606 E. G. Whitehead, Jr., <a href="http://www.springerlink.com/content/63k1v22n1k2036k6/fulltext.pdf">Autocorrelation of (+1,-1) sequences.</a> [From Jayadev Acharya (jayadev(AT)ucsd.edu), Aug 20 2009]
+%K A006606 nonn
+%O A006606 1,2
+%A A006606 _N. J. A. Sloane_.
+%E A006606 More terms from a(16) Jayadev Acharya (jayadev(AT)ucsd.edu), Aug 20 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

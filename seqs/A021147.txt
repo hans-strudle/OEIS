@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021147
+Showing 1-1 of 1
+
+%I A021147
+%S A021147 0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,
+%T A021147 9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,
+%U A021147 6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6,9,9,3,0,0,6
+%N A021147 Decimal expansion of 1/143.
+%F A021147 a(n)=(1/10)*{8*(n mod 6)+13*[(n+1) mod 6]+3*[(n+2) mod 6]-2*[(n+3) mod 6]-7*[(n+4) mod 6]+3*[(n+5) mod 6]}, with n>=0 [From _Paolo P. Lava_, Sep 21 2009]
+%K A021147 nonn,cons
+%O A021147 0,3
+%A A021147 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

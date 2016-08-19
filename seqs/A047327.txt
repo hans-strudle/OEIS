@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047327
+Showing 1-1 of 1
+
+%I A047327
+%S A047327 3,5,6,10,12,13,17,19,20,24,26,27,31,33,34,38,40,41,45,47,48,52,54,55,
+%T A047327 59,61,62,66,68,69,73,75,76,80,82,83,87,89,90,94,96,97,101,103,104,
+%U A047327 108,110,111,115,117,118,122
+%N A047327 Numbers that are congruent to {3, 5, 6} mod 7.
+%C A047327 Also, numbers n such that (n^3+1)/7 is a nonnegative integer. [_Bruno Berselli_, Jan 16 2016]
+%H A047327 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047327 G.f. x*(3+2*x+x^2+x^3) / ( (1+x+x^2)*(x-1)^2 ). - _R. J. Mathar_, Dec 04 2011
+%K A047327 nonn,easy
+%O A047327 1,1
+%A A047327 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

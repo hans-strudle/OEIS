@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011937
+Showing 1-1 of 1
+
+%I A011937
+%S A011937 0,0,0,0,0,4,13,31,62,112,186,293,440,635,889,1213,1617,2115,2720,
+%T A011937 3445,4306,5320,6502,7871,9445,11244,13288,15600,18200,21112,24360,
+%U A011937 27968,31964,36373,41223,46542,52360
+%N A011937 [ n(n-1)(n-2)(n-3)/27 ].
+%K A011937 nonn
+%O A011937 0,6
+%A A011937 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016404
+Showing 1-1 of 1
+
+%I A016404
+%S A016404 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,
+%T A016404 0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,1,1,0,0,1,
+%U A016404 1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,1
+%V A016404 1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,
+%W A016404 0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,1,-1,0,0,1,
+%X A016404 -1,0,1,-1,0,0,1,-1,0,1,-1,0,0,1,-1,0,1
+%N A016404 413th cyclotomic polynomial.
+%t A016404 CoefficientList[Cyclotomic[413,x],x] (* _Harvey P. Dale_, Aug 15 2012 *)
+%K A016404 sign,fini
+%O A016404 0,1
+%A A016404 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

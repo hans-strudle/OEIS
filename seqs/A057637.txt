@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057637
+Showing 1-1 of 1
+
+%I A057637
+%S A057637 1,0,2,3,0,5,4,7,0,0,0,11,9,13,8,0,0,17,0,19,0,0,0,23,0,0,0,12,0,29,
+%T A057637 25,31,0,0,0,22,0,37,18,27,0,41,0,43,0,0,0,47,0,0,0,0,0,53,0,39,49,0,
+%U A057637 0,59,0,61,32,0,0,0,0,67,0,0,0,71,0,73,0,0,0,45,0,79,0,0,0,83,0,0,0,0,0,89
+%N A057637 a(n) is the largest number such that sigma(a(n))=n, where sigma is the sum of divisors function (A000203).
+%e A057637 x=11 is the largest x such that sigma(x)=12, so a(12)=11.
+%Y A057637 Cf. A000203, A051444, A054973.
+%K A057637 nonn
+%O A057637 1,3
+%A A057637 _Jud McCranie_, Oct 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

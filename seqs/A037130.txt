@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037130
+Showing 1-1 of 1
+
+%I A037130
+%S A037130 0,2,12,56,240,994,4032,16280,65280,261626,1047552,4192266,16773160,
+%T A037130 67100670,268419048,1073709056,4294901774,17179738108,68719214620,
+%U A037130 274877382642,1099510579208,4398044413950,17592181850104
+%N A037130 Nextprime(4^n)-nextprime(2^n).
+%K A037130 nonn
+%O A037130 0,2
+%A A037130 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

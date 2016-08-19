@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046630
+Showing 1-1 of 1
+
+%I A046630
+%S A046630 1,2,3,5,10,19,37,74,147,293,586,1171,2341,4682,9363,18725,37450,
+%T A046630 74899,149797,299594,599187,1198373,2396746,4793491,9586981,19173962,
+%U A046630 38347923,76695845,153391690,306783379,613566757,1227133514,2454267027
+%N A046630 Number of cubic residues mod 2^n.
+%H A046630 S. R. Finch and Pascal Sebah, <a href="http://arXiv.org/abs/math.NT/0604465">Squares and Cubes Modulo n</a> (arXiv:math.NT/0604465).
+%H A046630 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (2,0,1,-2)
+%F A046630 G.f.: (-2x^3-x^2+1)/[(1-2x)(1-x^3)].
+%F A046630 a(n) = A046530(2^n) = 2^(n+2)/7 + 2/3 - (5*A049347(n)+A049347(n-1))/21. - _R. J. Mathar_, Feb 27 2011
+%p A046630 A049347 := proc(n) op( (n mod 3)+1,[1,-1,0]) ;end proc:
+%p A046630 A046630 := proc(n) 2^(n+2)/7+2/3-(5*A049347(n)+A049347(n-1))/21 ; end proc: # _R. J. Mathar_, Feb 27 2011
+%o A046630 (PARI) a(n)=(4<<n+6)\7 \\ _Charles R Greathouse IV_, Jan 03 2013
+%K A046630 nonn,easy
+%O A046630 0,2
+%A A046630 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

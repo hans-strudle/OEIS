@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004923
+Showing 1-1 of 1
+
+%I A004923
+%S A004923 0,46,93,140,187,234,281,328,375,422,469,516,563,610,657,704,751,798,
+%T A004923 845,892,939,986,1033,1080,1127,1174,1221,1268,1315,1362,1409,1456,
+%U A004923 1503,1550,1597,1644,1691,1738,1785
+%N A004923 Floor of n*phi^8, where phi is the golden ratio, A001622.
+%K A004923 nonn
+%O A004923 0,2
+%A A004923 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

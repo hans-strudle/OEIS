@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040016
+Showing 1-1 of 1
+
+%I A040016
+%S A040016 2,7,19,53,139,401,1093,2971,8101,22013,59863,162751,442399,1202603,
+%T A040016 3269011,8886109,24154939,65659969,178482289,485165141,1318815713,
+%U A040016 3584912833,9744803443,26489122081,72004899319,195729609407
+%N A040016 Largest prime < e^n.
+%C A040016 A subset of this is A050809 = primes of the form floor(e^n). Obverse of A117811 = first prime after e^n. Lim_[n approaches infinity] a(n+1)/a(n) = e. - _Jonathan Vos Post_, May 02 2006
+%H A040016 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/e-Prime.html">e-Prime.</a>
+%e A040016 a(20) = floor(e^20) - 54 = 485165195 - 54 = 485165141 as there are no primes p such that 485165141 < p < 485165195.
+%o A040016 (PARI) a(n)=precprime(exp(n)) \\ _Charles R Greathouse IV_, Mar 26 2013
+%Y A040016 Cf. A000040, A000149, A007512, A014210, A050808, A050809, A059303, A064118, A095935, A115019, A074496, A118840.
+%K A040016 nonn
+%O A040016 1,1
+%A A040016 _Jud McCranie_
+%E A040016 Edited by _N. J. A. Sloane_, Dec 22 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

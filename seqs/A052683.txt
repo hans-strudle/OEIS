@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052683
+Showing 1-1 of 1
+
+%I A052683
+%S A052683 0,0,0,0,48,240,1440,10080,80640,725760,7257600,79833600,958003200,
+%T A052683 12454041600,174356582400,2615348736000,41845579776000,
+%U A052683 711374856192000,12804747411456000,243290200817664000
+%N A052683 E.g.f. 2x^4/(1-x).
+%H A052683 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=631">Encyclopedia of Combinatorial Structures 631</a>
+%F A052683 E.g.f.: -2*x^4/(-1+x)
+%F A052683 Recurrence: {a(1)=0, a(0)=0, a(2)=0, (-1-n)*a(n)+a(n+1)=0, a(3)=0, a(4)=48}
+%F A052683 2*n!, n>3.
+%p A052683 spec := [S,{S=Prod(Z,Z,Z,Sequence(Z),Union(Z,Z))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052683 With[{nn=20},CoefficientList[Series[(2x^4)/(1-x),{x,0,nn}],x] Range[ 0,nn]!]  (* _Harvey P. Dale_, May 22 2012 *)
+%K A052683 easy,nonn
+%O A052683 0,5
+%A A052683 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

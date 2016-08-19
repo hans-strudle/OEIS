@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062515
+Showing 1-1 of 1
+
+%I A062515
+%S A062515 1,6,30,36,210,180,216,2310,1260,900,1080,1296,30030,13860,6300,7560,
+%T A062515 5400,6480,7776,510510,180180,69300,83160,44100,37800,45360,27000,
+%U A062515 32400,38880,46656
+%N A062515 Leading least prime signatures ordered as in A063008 with [1] associated with 6 [2] associated with 30, [3] associated with 210 etc. (cf. A002110).
+%C A062515 A056153 defines the canonical partition sequence encoded by prime factorization.
+%e A062515 Values in A025487 can be generated via powers of two as follows:
+%e A062515 1
+%e A062515 2
+%e A062515 4,6
+%e A062515 8,12
+%e A062515 16,24,30
+%e A062515 32,48,60,36
+%e A062515 64,96,120,72
+%e A062515 128,192,240,144,210,180,216
+%e A062515 a(3) = 36 because we can write [1,1] and associate this exponent vector with 6*6
+%Y A062515 Cf. A025487, A056153 and A063008.
+%K A062515 easy,more,nice,nonn,changed
+%O A062515 0,2
+%A A062515 _Alford Arnold_, Jul 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

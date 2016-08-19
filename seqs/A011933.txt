@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011933
+Showing 1-1 of 1
+
+%I A011933
+%S A011933 0,0,0,0,1,5,15,36,73,131,219,344,516,746,1044,1424,1899,2483,3193,
+%T A011933 4044,5055,6245,7633,9240,11088,13200,15600,18313,21365,24783,28596,
+%U A011933 32833,37523,42699,48392,54636,61466
+%N A011933 [ n(n-1)(n-2)(n-3)/23 ].
+%t A011933 Table[Floor[(n(n-1)(n-2)(n-3))/23],{n,0,40}] (* _Harvey P. Dale_, Jun 22 2011 *)
+%K A011933 nonn
+%O A011933 0,6
+%A A011933 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

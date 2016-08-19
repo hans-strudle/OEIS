@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014774
+Showing 1-1 of 1
+
+%I A014774
+%S A014774 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,
+%T A014774 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,
+%U A014774 1,0,0,0,0,0,1,0,0,1,0,0,0,0,0
+%V A014774 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,0,0,0,
+%W A014774 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,
+%X A014774 1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0
+%N A014774 Inverse of 765th cyclotomic polynomial.
+%p A014774 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014774 sign
+%O A014774 0,1
+%A A014774 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

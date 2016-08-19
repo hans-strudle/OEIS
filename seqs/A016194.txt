@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016194
+Showing 1-1 of 1
+
+%I A016194
+%S A016194 1,1,0,0,0,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,
+%T A016194 1,0,1,0,0,1,0,2,1,0,1,1,1,1,0,0,0,1,1,0,0,0,1,1,0,0,1,0,1,0,
+%U A016194 1,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,1
+%V A016194 1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,1,0,-1,0,1,0,0,-1,0,1,0,0,
+%W A016194 -1,0,1,0,0,-1,0,2,-1,0,-1,1,1,-1,0,0,0,1,-1,0,0,0,1,-1,0,0,1,0,-1,0,
+%X A016194 1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,1
+%N A016194 Inverse of 2185th cyclotomic polynomial.
+%p A016194 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A016194 sign
+%O A016194 0,39
+%A A016194 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

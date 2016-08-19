@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050327
+Showing 1-1 of 1
+
+%I A050327
+%S A050327 1,1,0,2,0,1,0,0,5,0,1,0,4,0,0,0,1,0,0,5,0,15,0,0,0,0,2,0,16,0,0,0,0,
+%T A050327 0,0,7,0,8,0,0,1,0,23,0,0,0,1,0,5,0,0,0,0,52,14,0,0,0,0,0,1,0,0,0,0,
+%U A050327 68,3,0,4,0,0,40,0,0,0,0,11,0,0,0,0,0,41
+%N A050327 Number of factorizations into distinct squarefree factors indexed by prime signatures. A050326(A025487).
+%K A050327 nonn
+%O A050327 1,4
+%A A050327 _Christian G. Bower_, Oct 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

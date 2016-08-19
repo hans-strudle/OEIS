@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046492
+Showing 1-1 of 1
+
+%I A046492
+%S A046492 383,90709,94849,3698963,308898803,330595033,333080333,399191993,
+%T A046492 906989609,969787969,33064846033,36907970963,39008680093,39301810393
+%N A046492 Palindromic primes expressible as the sum of 3 consecutive palindromic primes.
+%H A046492 P. De Geest, <a href="http://www.worldofnumbers.com/palpri.htm">World!Of Palindromic Primes</a>
+%e A046492 E.g. 969787969 = 323222323 + 323232323 + 323333323.
+%Y A046492 Cf. A002385.
+%K A046492 nonn,more,base
+%O A046492 1,1
+%A A046492 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

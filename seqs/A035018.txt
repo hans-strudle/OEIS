@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035018
+Showing 1-1 of 1
+
+%I A035018
+%S A035018 1,14,322,10304,422464,21123200,1246268800,84746278400,6525463436800,
+%T A035018 561189855564800,53313036278656000,5544555772980224000,
+%U A035018 626534802346765312000,76437245886305368064000
+%N A035018 One fifth of 9-factorial numbers.
+%H A035018 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A035018 5*a(n) = (9*n-4)(!^9) := product(9*j-4, j=1..n).
+%F A035018 E.g.f.: (-1+(1-9*x)^(-5/9))/5.
+%t A035018 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 13, 2*5!, 9}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%t A035018 Rest[FoldList[Times,1,9*Range[20]-4]/5] (* _Harvey P. Dale_, May 22 2013 *)
+%Y A035018 Cf. A007559, A034171, A045756, A035012, A035013, A035017, A035018, A035020-A035023.
+%K A035018 easy,nonn
+%O A035018 1,2
+%A A035018 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

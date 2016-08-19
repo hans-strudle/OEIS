@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004678
+Showing 1-1 of 1
+
+%I A004678
+%S A004678 2,3,11,13,23,31,101,103,113,131,133,211,221,223,233,311,323,331,1003,
+%T A004678 1013,1021,1033,1103,1121,1201,1211,1213,1223,1231,1301,1333,2003,
+%U A004678 2021,2023,2111,2113,2131,2203,2213
+%N A004678 Primes written in base 4.
+%F A004678 a(n) = A007090(A000040(n)). - _Jonathan Vos Post_, Sep 09 2006
+%o A004678 (PARI) a(n)=subst(Pol(digits(prime(n),4)),'x,10) \\ _Charles R Greathouse IV_, Nov 06 2013
+%Y A004678 Analogs in other bases: A004676 (base 2), A001363 (base 3), A004679 (base 5), A004680 (base 6), A004681 (base 7), A004682 (base 8), A004683 (base 9), A000040 (base 10), A004684 (base 11).
+%Y A004678 Cf. A072805 = Primes of form 4k+3 written in base 3.
+%K A004678 nonn,easy,base
+%O A004678 1,1
+%A A004678 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

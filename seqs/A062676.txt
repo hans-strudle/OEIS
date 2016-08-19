@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062676
+Showing 1-1 of 1
+
+%I A062676
+%S A062676 497,679,749,799,1207,1379,1739,1799,1897,2479,2627,2701,2779,3337,
+%T A062676 3713,3997,4607,4709,4711,4739,4757,4907,5173,5257,5327,5579,5729,
+%U A062676 5767,5789,6179,6749,6769,6797,6887,6979,7081,7169,7289,7379,7597,7609,7663
+%N A062676 Composite and every divisor (except 1) contains the digit 7.
+%e A062676 799 has divisors 17, 47 and 799, all of which contain the digit 7
+%t A062676 fQ[n_, dgt_] := Union[ MemberQ[#, dgt] & /@ IntegerDigits@ Rest@ Divisors@ n][[1]]; Select[ Range[2, 7670], !PrimeQ[#] && fQ[#, 7] &] (* _Robert G. Wilson v_, Jun 11 2014 *)
+%K A062676 base,easy,nonn
+%O A062676 0,1
+%A A062676 _Erich Friedman_, Jul 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

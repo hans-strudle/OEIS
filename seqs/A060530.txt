@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060530
+Showing 1-1 of 1
+
+%I A060530
+%S A060530 0,1,218,22815,703760,10194250,90775566,576941778,2863870080,
+%T A060530 11769161895,41669295250,130772947481,371513523888,970769847320,
+%U A060530 2362273657030,5406141568500,11728193258496,24276032182173,48201464902410,92221684354915
+%N A060530 Number of inequivalent ways to color edges of a cube using at most n colors.
+%C A060530 Here inequivalent means under the action of the rotation group of the cube, of order 24, which in its action on the edges has cycle index (x1^12 + 3*x2^6 + 6*x4^3 + 6*x1^2*x2^5 + 8*x3^4)/24.
+%C A060530 Also, number of inequivalent colorings of the edges of a regular octahedron using at most n colors. - _José H. Nieto S._, Jan 19 2012
+%D A060530 N. G. De Bruijn, Polya's theory of counting, in E. F. Beckenbach, ed., Applied Combinatorial Mathematics, Wiley, 1964, pp. 144-184 (see p. 147).
+%H A060530 Harry J. Smith, <a href="/A060530/b060530.txt">Table of n, a(n) for n=0..200</a>
+%H A060530 <a href="/index/Rec#order_13">Index entries for linear recurrences with constant coefficients</a>, signature (13,-78,286,-715,1287,-1716,1716,-1287,715,-286,78,-13,1).
+%F A060530 a(n) = (n^12 + 6*n^7 + 3*n^6 + 8*n^4 + 6*n^3)/24. (Replace all x_i's in the cycle index by n.)
+%F A060530 G.f.: -x*(150*x^10 +19758*x^9 +425032*x^8 +2763481*x^7 +6769435*x^6 +6773089*x^5 +2763307*x^4 +423883*x^3 +20059*x^2 +205*x +1)/(x -1)^13. - _Colin Barker_, Aug 13 2012
+%t A060530 Table[(n^12+6n^7+3n^6+8n^4+6n^3)/24,{n,0,20}] (* _Harvey P. Dale_, Feb 13 2013 *)
+%o A060530 (PARI) { for (n=0, 200, write("b060530.txt", n, " ", (n^12 + 6*n^7 + 3*n^6 + 8*n^4 + 6*n^3)/24); ) } \\ _Harry J. Smith_, Jul 06 2009
+%Y A060530 Cf. A000543 (vertices), A047780 (faces).
+%Y A060530 See A199406 for number of orbits under a different symmetry group. - _N. J. A. Sloane_, Aug 14 2012
+%K A060530 nonn,easy
+%O A060530 0,3
+%A A060530 _N. J. A. Sloane_, Apr 11 2001
+%E A060530 Entry revised by _N. J. A. Sloane_, Jan 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023893
+Showing 1-1 of 1
+
+%I A023893
+%S A023893 1,1,2,3,5,7,10,14,20,27,36,48,63,82,105,134,171,215,269,335,415,511,
+%T A023893 626,764,929,1125,1356,1631,1953,2333,2776,3296,3903,4608,5427,6377,
+%U A023893 7476,8744,10205,11886,13818,16032,18565,21463,24768,28536
+%N A023893 Number of partitions of n into prime power parts (1 included); number of nonisomorphic Abelian subgroups of symmetric group S_n.
+%H A023893 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%F A023893 G.f.: Prod(p prime, Prod(k >= 1, 1/(1-x^(p^k)))) / (1-x)
+%t A023893 Table[Length[Select[IntegerPartitions[n],Count[Map[Length,FactorInteger[#]], 1] == Length[#] &]], {n, 0, 35}] (* _Geoffrey Critzer_, Oct 25 2015 *)
+%o A023893 (PARI) lista(m) = {x = t + t*O(t^m); gf = prod(k=1, m, if (isprimepower(k), 1/(1-x^k), 1))/(1-x); for (n=0, m, print1(polcoeff(gf, n, t), ", "));} \\ _Michel Marcus_, Mar 09 2013
+%Y A023893 Cf. A009490, A023894 (first differences), A062297 (number of Abelian subgroups).
+%Y A023893 Cf. A018819, A062051, A131995.
+%K A023893 nonn
+%O A023893 0,3
+%A A023893 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

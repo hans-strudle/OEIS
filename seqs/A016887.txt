@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016887
+Showing 1-1 of 1
+
+%I A016887
+%S A016887 27,512,2197,5832,12167,21952,35937,54872,79507,110592,148877,195112,
+%T A016887 250047,314432,389017,474552,571787,681472,804357,941192,1092727,
+%U A016887 1259712,1442897,1643032,1860867
+%N A016887 (5n+3)^3.
+%H A016887 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4, -6, 4, -1).
+%t A016887 (5*Range[0,30]+3)^3 (* or *) LinearRecurrence[{4,-6,4,-1},{27,512,2197,5832},30] (* _Harvey P. Dale_, Nov 26 2014 *)
+%K A016887 nonn,easy
+%O A016887 0,1
+%A A016887 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

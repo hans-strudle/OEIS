@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056740
+Showing 1-1 of 1
+
+%I A056740
+%S A056740 135,1423249,31491395,55519333,1065373685
+%N A056740 Odd solutions x to 2^x mod x = 2^(x+2) mod (x-2).
+%H A056740 Joe K. Crump, <a href="http://web.archive.org/web/20070614175509/http://www.immortaltheory.com/NumberTheory/2nmodn.htm">2^n mod n</a>
+%e A056740 a(1) = 135 because 2^135 mod 135 = 53 and 2^137 mod 133 = 53.
+%o A056740 (PARI) isok(n) = {va = Mod(2,n)^n; (lift(va) % 2) && (lift(va) == lift(Mod(2, n-2)^(n+2)));} \\ _Michel Marcus_, Sep 02 2013
+%Y A056740 Cf. A015911.
+%K A056740 nonn
+%O A056740 1,1
+%A A056740 Joe K. Crump (joecr(AT)carolina.rr.com), Aug 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

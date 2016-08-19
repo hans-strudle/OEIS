@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055843
+Showing 1-1 of 1
+
+%I A055843
+%S A055843 1,13,85,385,1375,4147,11011,26455,58630,121550,238238,445094,797810,
+%T A055843 1379210,2309450,3759074,5965487,9253475,14060475,20967375,30735705,
+%U A055843 44352165,63081525,88529025,122713500,168152556,227961228,305965660
+%N A055843 Expansion of (1+3x)/(1-x)^10.
+%C A055843 Partial sums of A052181.
+%D A055843 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A055843 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (10,-45,120,-210,252,-210,120,-45,10,-1).
+%F A055843 a(n) = (4n+9)*C(n+8, 8)/9.
+%F A055843 G.f.: (1+3x)/(1-x)^10.
+%Y A055843 Cf. A052181.
+%Y A055843 Cf. A093561 ((4, 1) Pascal, column m=9).
+%K A055843 easy,nonn
+%O A055843 0,2
+%A A055843 _Barry E. Williams_, May 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

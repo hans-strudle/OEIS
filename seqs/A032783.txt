@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032783
+Showing 1-1 of 1
+
+%I A032783
+%S A032783 0,3193344,103783680,1176215040,13408851456,136060404480,296673062400,
+%T A032783 2928232581120,28584078082560,298481033410560,2882675347808256,
+%U A032783 6212485673222400,59824429481456640,575403307935456000
+%N A032783 Integer quotients of n(n+1)(n+2)...(n+9) / n+(n+1)+(n+2)+...+(n+9).
+%Y A032783 Cf. A032781, A032782.
+%K A032783 nonn
+%O A032783 0,2
+%A A032783 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

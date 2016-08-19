@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038678
+Showing 1-1 of 1
+
+%I A038678
+%S A038678 49,64,81,121,144,169,225,289,324,361,441,484,529,625,729,784,841,961,
+%T A038678 1024,1089,1225,1369,1444,1521,1681,1764,1849,1936,2025,2116,2209,
+%U A038678 2304,2401,2601,2704,2809,2916,3025,3136,3249,3364,3481,3721,3844,3969,4225
+%N A038678 Squares ending in a (different) square.
+%C A038678 Subsequence of A065807 - Zak Seidov, Mar 23 2012
+%e A038678 15^2=225 ends with 25=5^2.
+%t A038678 ds[n_] := DeleteCases[NestWhileList[FromDigits[Rest[IntegerDigits[#]]] &, n, # > 9 &], 0]; Select[Range[4, 65]^2, Or @@ IntegerQ /@ Sqrt[Rest[ds[#]]] &] (* _Jayanta Basu_, Jul 10 2013 *)
+%K A038678 nonn,base,easy
+%O A038678 1,1
+%A A038678 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

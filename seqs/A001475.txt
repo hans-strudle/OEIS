@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001475
+Showing 1-1 of 1
+
+%I A001475 M1449 N0573
+%S A001475 1,2,5,13,38,116,382,1310,4748,17848,70076,284252,1195240,5174768,
+%T A001475 23103368,105899656,498656912,2404850720,11879332048,59976346448,
+%U A001475 309442319456,1628921941312,8746095288800,47840221880288,266492604100288,1510338372987776
+%N A001475 a(n) = a(n-1) + n a(n-2).
+%C A001475 a(n) = number of partitions of [n] in which the block containing 1 is of length <= 3 and all other blocks are of length <= 2. Example: a(4)=13 counts all 15 partitions of [4] except 1234 and 1/234. - _David Callan_, Jul 22 2008
+%D A001475 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 86 (divided by 2).
+%D A001475 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001475 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A001475 E.g.f.: 1/2*(1+x)*exp(x+1/2*x^2)-1/2. - _Vladeta Jovovic_, Nov 04 2003
+%t A001475 RecurrenceTable[{a[1]==1,a[2]==2,a[n]==a[n-1]+n a[n-2]},a,{n,30}] (* _Harvey P. Dale_, Apr 21 2012 *)
+%Y A001475 Equals (1/2) A000085(n+1). Cf. A001189, A013989.
+%K A001475 nonn
+%O A001475 1,2
+%A A001475 _N. J. A. Sloane_.
+%E A001475 More terms from Harvey P. Dale, Apr 21 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

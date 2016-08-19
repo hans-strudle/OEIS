@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052712
+Showing 1-1 of 1
+
+%I A052712
+%S A052712 0,1,2,24,480,13440,483840,21288960,1107025920,66421555200,
+%T A052712 4516665753600,343266597273600,28834394170982400,2652764263730380800,
+%U A052712 265276426373038080000,28649854048288112640000
+%N A052712 E.g.f. (1+4*x-sqrt(1-8*x))/8.
+%H A052712 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=668">Encyclopedia of Combinatorial Structures 668</a>
+%F A052712 Recurrence: a(1)=1; a(2)=2; (4-8*n)*a(n)+a(n+1) =0.
+%F A052712 8^(n+1)*GAMMA(n+3/2)/Pi^(1/2)
+%F A052712 a(n) = n!*A003645(n-2), n>1. - _R. J. Mathar_, Oct 18 2013
+%p A052712 spec := [S,{B=Prod(C,C),C=Union(B,S),S=Union(B,Z)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052712 easy,nonn
+%O A052712 0,3
+%A A052712 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

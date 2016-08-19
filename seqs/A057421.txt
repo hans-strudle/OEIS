@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057421
+Showing 1-1 of 1
+
+%I A057421
+%S A057421 1024,1296,1458,2500,2592,3750,3072,6480,11250,15552,14580,52500,
+%T A057421 22500,46080,57024,163296,78750,101376,306250,291600,473850,453600,
+%U A057421 1968750,1305600,2095632,652500,1632960,13162500,3442500,2114100
+%N A057421 Numbers n such that n=(a+b)=(x*y) with a*b=n*(x+y) (a>0,b>0,x>0,y>0): sequence gives values of (a*b).
+%K A057421 nonn
+%O A057421 1,1
+%A A057421 _Naohiro Nomoto_, Sep 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

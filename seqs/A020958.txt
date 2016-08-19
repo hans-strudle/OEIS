@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020958
+Showing 1-1 of 1
+
+%I A020958
+%S A020958 5,9,16,28,48,81,134,221,361,589,957,1554,2519,4082,6610,10702,17322,
+%T A020958 28035,45368,73415,118795,192223,311031,503268,814313,1317596
+%N A020958 Sum of [ 3*tau^(n-k) ] for k from 1 to infinity.
+%D A020958 C. Kimberling, Problem 10520 in Amer. Math. Mon. 103 (1996) p. 347.
+%K A020958 nonn
+%O A020958 1,1
+%A A020958 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

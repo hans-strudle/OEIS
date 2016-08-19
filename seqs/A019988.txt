@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019988
+Showing 1-1 of 1
+
+%I A019988
+%S A019988 1,2,5,16,55,222,950,4265,19591,91678,434005,2073783,9979772,48315186,
+%T A019988 235088794,1148891118,5636168859
+%N A019988 Number of ways of embedding a connected graph with n edges in the square lattice.
+%H A019988 Ed Pegg, Jr., <a href="http://demonstrations.wolfram.com/PolyformExplorer/">Illustrations of polyforms</a>
+%H A019988 M. Keller, <a href="http://www.solitairelaboratory.com/polyenum.html">Counting polyforms</a>
+%H A019988 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Polyedge.html">Polyedge</a> [From _Eric W. Weisstein_, Apr 24 2009]
+%K A019988 nonn,nice,hard,more
+%O A019988 1,2
+%A A019988 _Russ Cox_
+%E A019988 More terms from Brendan Owen (brendan_owen(AT)yahoo.com), Feb 20 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

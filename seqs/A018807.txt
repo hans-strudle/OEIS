@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018807
+Showing 1-1 of 1
+
+%I A018807
+%S A018807 1,4,79,3600,281571,32572756,5109144543,1027533353168,254977173389319,
+%T A018807 75925129079783308,26568150968269086211,10749154284380665611224,
+%U A018807 4963704194366362387891227,2588716234142991968960920692,1511548995678989691821551648635
+%N A018807 Number of ways to place n^2 nonattacking kings on 2n X 2n chessboard.
+%C A018807 Rotations and reflections are considered distinct.
+%C A018807 Also, number of ways to tile a (2n+1) X (2n+1) board with n^2 2 X 2 tiles and 4n+1 1 X 1 tiles, rotations and reflections counted as distinct. - _David W. Wilson_, Aug 18 2011
+%D A018807 Michael Larsen, The Problem of Kings, The Electronic Journal of Combinatorics 2, 1995.
+%H A018807 David W. Wilson, <a href="/A018807/b018807.txt">Table of n, a(n) for n = 0..26</a>
+%H A018807 Zealint Blog (Russian) <a href="http://zealint.ru/maxflow-kings-1dwalks-comp.html">Source for a(12) through a(20)</a>, March 14 2011. a(21) through a(26) from same source, July 9 2011.
+%H A018807 V. Kotesovec, <a href="https://oeis.org/wiki/User:Vaclav_Kotesovec">Non-attacking chess pieces</a>, 6ed, 2013, pp. 160-162.
+%H A018807 Michael Larsen, <a href="http://www.combinatorics.org/Volume_2/Abstracts/v2i1r18.html">The Problem of Kings</a>, The Electronic Journal of Combinatorics 2, 1995
+%F A018807 Asymptotic (M. Larsen, 1995): log(a(n)) = 2n*log(n) - 2n*log(2) + O(n^(4/5)*log(n)).
+%Y A018807 Cf. A174558, A174155, A174154, A173782, A173783, A061594, A061593.
+%K A018807 nonn,nice
+%O A018807 0,2
+%A A018807 _David W. Wilson_
+%E A018807 a(0) added by _Geoffrey H. Morley_, Feb 06 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

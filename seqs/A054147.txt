@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054147
+Showing 1-1 of 1
+
+%I A054147
+%S A054147 0,3,21,108,492,2100,8604,34272,133728,513648,1948560,7318080,
+%T A054147 27256896,100815936,370684608,1355996160,4938304512,17914202880,
+%U A054147 64760732928,233390693376,838784916480,3006980379648,10755352869888
+%N A054147 T(2n,n), array T as in A054144.
+%F A054147 G.f.: (-3x^2+3x)/(1-4x+2x^2)^2.
+%K A054147 nonn
+%O A054147 0,2
+%A A054147 _Clark Kimberling_, Mar 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

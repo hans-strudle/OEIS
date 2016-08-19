@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015712
+Showing 1-1 of 1
+
+%I A015712
+%S A015712 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015712 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015712 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015712 Inverse of 1703rd cyclotomic polynomial.
+%p A015712 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A015712 CoefficientList[Series[1/Cyclotomic[1703,x],{x,0,200}],x] (* _Harvey P. Dale_, Mar 27 2016 *)
+%K A015712 sign
+%O A015712 0,1
+%A A015712 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

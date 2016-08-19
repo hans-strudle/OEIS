@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051384
+Showing 1-1 of 1
+
+%I A051384
+%S A051384 2741256,4118877,6017193,6742008,9016488,16776487,21930048,28699272,
+%T A051384 32951016,36875384,48137544,52324993,53936064,70957971,72131904,
+%U A051384 74013912,87539319,102977784,105651000,119824488,122262264,134211896
+%N A051384 Sum of two (possibly negative) cubes in at least 4 ways.
+%C A051384 This sequence is infinite, since if n is in the sequence so is n*k^3 for all k > 0; thus a(n) << n^3. - _Charles R Greathouse IV_, Nov 29 2014
+%o A051384 (PARI) T=thueinit('z^3+1);is(n)=my(v=thue(T, n)); #v>6 && #select(u->u[1]<=u[2],v)>3 \\ _Charles R Greathouse IV_, Nov 29 2014
+%Y A051384 Cf. A051347, A051383.
+%K A051384 nonn
+%O A051384 1,1
+%A A051384 _Colin Mallows_
+%E A051384 a(6)-a(22) from _Donovan Johnson_, Apr 17 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

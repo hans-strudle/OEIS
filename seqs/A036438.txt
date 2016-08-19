@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036438
+Showing 1-1 of 1
+
+%I A036438
+%S A036438 1,4,6,10,12,14,22,24,26,27,32,34,38,40,46,56,58,60,62,72,74,75,80,82,
+%T A036438 84,86,88,94,104,106,108,118,120,122,132,134,136,140,142,146,147,152,
+%U A036438 156,158,166,168,178,184,192,194,202,204,206,214,218,220,226,228,232
+%N A036438 Integers which can be written as m*tau(m) for some m, where tau = A000005.
+%C A036438 Invented by the HR concept formation program.
+%H A036438 S. Colton, <a href="http://www.cs.uwaterloo.ca/journals/JIS/colton/joisol.html">Refactorable Numbers - A Machine Invention</a>, J. Integer Sequences, Vol. 2, 1999, #2.
+%H A036438 S. Colton, <a href="http://web.archive.org/web/20070831060523/http://www.dai.ed.ac.uk/homes/simonco/research/hr/">HR - Automatic Theory Formation in Pure Mathematics</a>
+%e A036438 10 = 5 * tau(5).
+%o A036438 (PARI) isok(n) = {for (k=1, n, if (k*numdiv(k) == n, return (1));); return (0);} \\ _Michel Marcus_, Dec 09 2014
+%Y A036438 Cf. A000005, A001747, A036434.
+%K A036438 easy,nonn
+%O A036438 1,2
+%A A036438 Simon Colton (simonco(AT)cs.york.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

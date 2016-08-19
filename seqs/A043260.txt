@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043260
+Showing 1-1 of 1
+
+%I A043260
+%S A043260 89,98,189,198,289,298,389,398,489,498,589,598,689,698,789,798,889,
+%T A043260 980,998,1089,1098,1189,1198,1289,1298,1389,1398,1489,1498,1589,1598,
+%U A043260 1689,1698,1789,1798,1889,1980,1998,2089,2098,2189
+%N A043260 Numbers n such that 8 and 9 occur juxtaposed in the base 10 representation of n but not of n-1.
+%K A043260 nonn,base
+%O A043260 1,1
+%A A043260 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

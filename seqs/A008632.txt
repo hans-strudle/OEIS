@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008632
+Showing 1-1 of 1
+
+%I A008632
+%S A008632 1,1,2,3,5,7,11,15,22,30,41,54,73,94,123,157,201,252,318,393,488,598,
+%T A008632 732,887,1076,1291,1549,1845,2194,2592,3060,3589,4206,4904,5708,6615,
+%U A008632 7658,8825,10158,11651
+%N A008632 Molien series for A_9.
+%D A008632 D. J. Benson, Polynomial Invariants of Finite Groups, Cambridge, 1993, p. 105.
+%H A008632 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%p A008632 (1+x^36)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4)/(1-x^5)/(1-x^6)/(1-x^7)/(1-x^8)/(1-x^9)
+%K A008632 nonn,easy
+%O A008632 0,3
+%A A008632 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

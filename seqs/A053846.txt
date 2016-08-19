@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053846
+Showing 1-1 of 1
+
+%I A053846
+%S A053846 2,14,236,12692,1783784,811523288,995733306992,3988947598331024,
+%T A053846 43581058503809001248
+%N A053846 Number of n X n matrices over GF(3) of order dividing 2 (i.e. number of solutions of X^2=I in GL(n,3)).
+%D A053846 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053846 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053846 Cf. A053722.
+%K A053846 more,nonn
+%O A053846 1,1
+%A A053846 _Vladeta Jovovic_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002922
+Showing 1-1 of 1
+
+%I A002922 M4103 N1702
+%S A002922 0,6,12,156,1680,21264,592032,5712096,390388992
+%V A002922 0,6,-12,-156,1680,21264,-592032,-5712096,390388992
+%N A002922 Specific heat for diamond.
+%D A002922 C. Domb and D. Wood, On high-temperature expansions for the Heisenberg model, Proc. Physical Soc., 86 (1965), 1-16.
+%D A002922 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002922 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002922 <a href="/index/Sp#specific_heat">Index entries for sequences related to specific heat</a>
+%K A002922 sign
+%O A002922 1,2
+%A A002922 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

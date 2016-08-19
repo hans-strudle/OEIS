@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027449
+Showing 1-1 of 1
+
+%I A027449
+%S A027449 3,5,7,27,22,130,225,595,532,5292,4830,57750,53460,49764,93093,
+%T A027449 1486485,1401400,25185160,23891868
+%N A027449 Second diagonal of A027446.
+%F A027449 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^2 where a[ i, j ] = 1/i if j<=i, 0 if j>i
+%K A027449 nonn
+%O A027449 2,1
+%A A027449 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005442
+Showing 1-1 of 1
+
+%I A005442 M3549
+%S A005442 1,1,4,18,120,960,9360,105840,1370880,19958400,322963200,5748019200,
+%T A005442 111607372800,2347586841600,53178757632000,1290674601216000,
+%U A005442 33413695451136000,919096314200064000,26768324463648768000
+%N A005442 a(n) = n!*Fibonacci(n+1) (cf. A000045).
+%C A005442 Number of ways to use the elements of {1,...,n} once each to form a sequence of lists, each having length 1 or 2. - Bob Proctor, Apr 18 2005
+%C A005442 Number of pairs (p,S) where p is a permutation of {1,2,...,n} and S is a subset of {1,2,...,n} such that if s is in S then p(s) is not in S.  For example a(2) = 4 because we have (p=(1)(2), s={}); (p=(1,2), s={}); (p=(1,2), s={1}); (p=(1,2), s={2}) where p is given in cycle notation. - _Geoffrey Critzer_, Jul 01 2013
+%D A005442 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005442 P. R. J. Asveld, <a href="http://www.fq.math.ca/Scanned/25-4/asveld.pdf">A family of Fibonacci-like sequences</a>, Fib. Quart., 25 (1987), 81-83.
+%H A005442 P. R. J. Asveld, <a href="http://www.fq.math.ca/Scanned/25-4/asveld.pdf">Another family of Fibonacci-like sequences</a>, Fib. Quart., 25 (1987), 361-364.
+%H A005442 P. R. J. Asveld, <a href="http://www.fq.math.ca/Scanned/27-4/asveld.pdf">Fibonacci-like differential equations with a polynomial nonhomogeneous term</a>, Fib. Quart. 27 (1989), 303-309.
+%H A005442 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=494">Encyclopedia of Combinatorial Structures 494</a>
+%H A005442 Robert A. Proctor, <a href="http://arxiv.org/abs/math/0606404">Let's Expand Rota's Twelvefold Way For Counting Partitions!</a>, arXiv:math.CO/0606404, Jan 05, 2007
+%H A005442 <a href="/index/Par#partN">Index entries for related partition-counting sequences</a>
+%F A005442 a(n) = A039948(n,0). E.g.f.: 1/(1-x-x^2).
+%F A005442 a(n) = n*a(n-1)+n*(n-1)*a(n-2). - Detlef Pauly (dettodet(AT)yahoo.de), Sep 22 2003
+%F A005442 a(n) = D^n(1/(1-x)) evaluated at x = 0, where D is the operator sqrt(1+4*x)*d/dx. Cf. A080599 and A052585. - _Peter Bala_, Dec 07 2011
+%t A005442 Table[Fibonacci[n + 1]*n!, {n, 0, 20}] [_Zerinvary Lajos_, Jul 09 2009]
+%Y A005442 Row sums of Fibonacci Jabotinsky-triangle A039692. A080599 and A052585.
+%K A005442 nonn
+%O A005442 0,3
+%A A005442 _Simon Plouffe_
+%E A005442 Comments from _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061302
+Showing 1-1 of 1
+
+%I A061302
+%S A061302 0,2,6,36,320,3750,54432,941192,18874368,430467210,11000000000,
+%T A061302 311249095212,9659108818944,326173191714734,11905721598812160,
+%U A061302 467086816406250000,19599665578316398592,875901453762003632658
+%N A061302 n*(n-1)^(n-2).
+%D A061302 Stephan Wolfram, The Mathematica Book, 4th Edition, Cambridge University Press, section 3.2.10 'Special Functions', page 772, 1999.
+%e A061302 2*x + 6*x^2 +36*x^3 + 320*x^4 + 3750*x^5 + 54432*x^6 + 941192*x^7 + ...
+%t A061302 Range[18]!CoefficientList[ Series[ -ProductLog[ -x], {x, 0, 17}], x] (* _Robert G. Wilson v_, Mar 23 2005 *)
+%t A061302 a[ n_] := If[ n < 0, 0, (n + 1)! SeriesCoefficient[ -ProductLog[-x], {x, 0, n}]] (* _Michael Somos_, Jun 07 2012 *)
+%Y A061302 Cf. A061250.
+%Y A061302 Essentially the same as A055541.
+%K A061302 nonn,easy
+%O A061302 0,2
+%A A061302 Gero Burghardt (gerogoestohollywood(AT)yahoo.de), Jun 05 2001
+%E A061302 Corrected and extended by Jason Earls (zevi_35711(AT)yahoo.com), Jun 09 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040734
+Showing 1-1 of 1
+
+%I A040734
+%S A040734 27,1,1,1,1,8,1,1,1,1,54,1,1,1,1,8,1,1,1,1,54,1,1,1,1,8,1,1,1,1,54,1,
+%T A040734 1,1,1,8,1,1,1,1,54,1,1,1,1,8,1,1,1,1,54,1,1,1,1,8,1,1,1,1,54,1,1,1,1,
+%U A040734 8,1,1,1,1,54,1,1,1,1,8,1,1,1,1,54,1,1,1,1,8,1,1,1,1
+%N A040734 Continued fraction for sqrt(762).
+%H A040734 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040734 a(n)=(1/90)*{-463*(n mod 10)+14*[(n+1) mod 10]+14*[(n+2) mod 10]+14*[(n+3) mod 10]+77*[(n+4) mod 10]-49*[(n+5) mod 10]+14*[(n+6) mod 10]+14*[(n+7) mod 10]+14*[(n+8) mod 10]+491*[(n+9) mod 10]}-27*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 20 2009]
+%p A040734 with(numtheory): Digits := 300: convert(evalf(sqrt(762)),confrac);
+%K A040734 nonn,cofr,easy
+%O A040734 0,1
+%A A040734 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

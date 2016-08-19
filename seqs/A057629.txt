@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057629
+Showing 1-1 of 1
+
+%I A057629
+%S A057629 2,8,52,568,10436,323144,16866856
+%N A057629 Number of alternating sign 2n X 2n matrices invariant under flips in both diagonals.
+%H A057629 D. P. Robbins, <a href="http://arXiv.org/abs/math.CO/0008045">Symmetry classes of alternating sign matrices</a>, arXiv:math/0008045 [math.CO], 2000.
+%F A057629 a(n) = A005162(2n).
+%Y A057629 Even numbered terms of A005162.
+%Y A057629 Cf. A059475
+%K A057629 nonn,nice,more
+%O A057629 1,1
+%A A057629 _N. J. A. Sloane_, Oct 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

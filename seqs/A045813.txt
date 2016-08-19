@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045813
+Showing 1-1 of 1
+
+%I A045813
+%S A045813 320,20132,21320,22033,23201,30023,30203,30320,32320,321202,1002233,
+%T A045813 1002323,1022033,1022303,1032023,1200323,1202033,1202303,1230203,
+%U A045813 1232003,1300223,1302023,1302203,1320023,2003201,2003213,2003231
+%N A045813 In the list of divisors of n (in base 4), each digit 0-3 appears equally often.
+%H A045813 N. Nomoto, <a href="http://www.geocities.co.jp/Technopolis/1793/09digit.htm">In the list of divisors of n,... </a>
+%e A045813 Divisors of 32320 are {1,2,10,13,20,32,101,130,202,320,1010,1313,2020,3232,13130,32320}; each digit appears 12 times.
+%Y A045813 Cf. A038564, A038565, A045814.
+%K A045813 nonn,base,easy
+%O A045813 1,1
+%A A045813 _Naohiro Nomoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

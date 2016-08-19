@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052720
+Showing 1-1 of 1
+
+%I A052720
+%S A052720 0,0,0,0,0,0,720,30240,1088640,39916800,1556755200,65383718400,
+%T A052720 2964061900800,144815595724800,7602818775552000,427447366714368000,
+%U A052720 25646842002862080000,1636734826000834560000,110752389892723138560000
+%N A052720 E.g.f. 3*x^2*(1-2*x-sqrt(1-4*x))/2 +(1-2*x-sqrt(1-4*x))/2 -2*x*(1-2*x-sqrt(1-4*x)) -x^2 +2*x^3.
+%H A052720 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=676">Encyclopedia of Combinatorial Structures 676</a>
+%F A052720 Recurrence: a(1)=0; a(2)=0; a(4)=0; a(3)=0; a(5)=0; a(6)=720; (60-12*n^3-6*n^2+66*n)*a(n) +(27*n-22+19*n^2)*a(n+1) +(-10-8*n)*a(n+2) +a(n+3) =0.
+%F A052720 a(n) = n!*A003517(n-4). - _R. J. Mathar_, Oct 18 2013
+%p A052720 spec := [S,{B=Union(Z,C),C=Prod(B,B),S=Prod(C,C,C)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052720 easy,nonn
+%O A052720 0,7
+%A A052720 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

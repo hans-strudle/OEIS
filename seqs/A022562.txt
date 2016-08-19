@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022562
+Showing 1-1 of 1
+
+%I A022562
+%S A022562 1,1,2,5,14,50,191,881,4494,26389,184749,1728404,23805256,491544474,
+%T A022562 14491876320
+%N A022562 Number of connected claw-free unlabeled graphs on n nodes.
+%H A022562 R. Faudree, E. Flandrin and Z. Ryjacek, <a href="http://dx.doi.org/10.1016/S0012-365X(96)00045-3">Claw-free graphs - a survey</a>, Discr. Math., 164 (1997), 87-147.
+%H A022562 F. Hüffner, <a href="https://github.com/falk-hueffner/tinygraph">tinygraph</a>, software for generating integer sequences based on graph properties, version 8489dde.
+%H A022562 Gordon Royle, <a href="http://www.csse.uwa.edu.au/~gordon/cf.zip">1728404 distinct 12-vertex connected clawfree graphs</a>
+%H A022562 Gordon Royle, <a href="http://www.csse.uwa.edu.au/~gordon/g6.html">g6 format</a>
+%H A022562 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Claw-FreeGraph.html">Claw-Free Graph</a>
+%Y A022562 Cf. A022563, A022564, A058929.
+%K A022562 nonn,nice
+%O A022562 1,3
+%A A022562 _N. J. A. Sloane_.
+%E A022562 Corrected and extended by Gordon Royle, May 16 2003
+%E A022562 Term a(14) added by _Gordon F. Royle_, Aug 06 2008
+%E A022562 Term a(15) added using tinygraph by _Falk Hüffner_, Jan 12 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

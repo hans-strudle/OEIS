@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035130
+Showing 1-1 of 1
+
+%I A035130
+%S A035130 1,8,125,54439939
+%N A035130 Cubes when digits rotated right once remain cubic.
+%C A035130 Those resulting in leading zeros excluded.
+%H A035130 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html">Cubic Number</a>
+%e A035130 E.g. 5^3 = 125 -> 512 = 8^3.
+%t A035130 Select[Range[10000]^3,IntegerQ[Surd[FromDigits[RotateRight[ IntegerDigits[#]]], 3]]&] (* _Harvey P. Dale_, May 25 2015 *)
+%Y A035130 Cf. A035128, A035126.
+%K A035130 nonn,base,hard
+%O A035130 1,2
+%A A035130 _Patrick De Geest_, Nov 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

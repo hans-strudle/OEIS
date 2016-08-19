@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016422
+Showing 1-1 of 1
+
+%I A016422
+%S A016422 1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,
+%T A016422 0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,1,
+%U A016422 0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,1
+%V A016422 1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,
+%W A016422 0,1,-1,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,1,-1,
+%X A016422 0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,1
+%N A016422 493rd cyclotomic polynomial.
+%K A016422 sign,fini
+%O A016422 0,1
+%A A016422 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

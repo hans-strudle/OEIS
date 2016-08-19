@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058510
+Showing 1-1 of 1
+
+%I A058510
+%S A058510 1,0,9,19,42,78,146,249,429,695,1125,1749,2713,4086,6123,8986,13122,
+%T A058510 18852,26934,38001,53328,74068,102336,140208,191153,258741,348606,
+%U A058510 466806,622383,825342,1090087,1432923,1876542,2447029,3179859,4116282,5311204,6829008
+%N A058510 McKay-Thompson series of class 15C for Monster.
+%H A058510 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058510 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058510 T15C = 1/q + 9*q + 19*q^2 + 42*q^3 + 78*q^4 + 146*q^5 + 249*q^6 + 429*q^7 + ...
+%Y A058510 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%Y A058510 Cf. A153084 (same sequence except for n=0).
+%K A058510 nonn
+%O A058510 -1,3
+%A A058510 _N. J. A. Sloane_, Nov 27 2000
+%E A058510 More terms from _Michel Marcus_, Feb 19 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

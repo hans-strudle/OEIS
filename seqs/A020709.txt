@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020709
+Showing 1-1 of 1
+
+%I A020709
+%S A020709 4,10,25,63,159,401,1011,2549,6427,16205,40859,103021,259755,654941,
+%T A020709 1651355,4163693,10498251,26470077,66741115,168279693,424297003,
+%U A020709 1069813853,2697406939,6801187117,17148375179,43237565181,109018319419,274876578253,693068226283
+%N A020709 Pisot sequence E(4,10).
+%F A020709 a(n) = 3*a(n-1) - 2*a(n-2) + 2*a(n-3) (holds at least up to n = 1000 but is not known to hold in general).
+%t A020709 RecurrenceTable[{a[0] == 4, a[1] == 10, a[n] == Floor[a[n - 1]^2/a[n - 2] + 1/2]}, a, {n, 0, 40}] (* _Bruno Berselli_, Feb 05 2016 *)
+%o A020709 (MAGMA) Exy:=[4,10]; [n le 2 select Exy[n] else Floor(Self(n-1)^2/Self(n-2) + 1/2): n in [1..40]]; // _Bruno Berselli_, Feb 05 2016
+%Y A020709 See A008776 for definitions of Pisot sequences.
+%K A020709 nonn
+%O A020709 0,1
+%A A020709 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

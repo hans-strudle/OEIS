@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026790
+Showing 1-1 of 1
+
+%I A026790
+%S A026790 1,1,2,4,7,12,23,41,72,135,243,432,804,1455,2608,4836,8785,15838,
+%T A026790 29306,53385,96654,178600,326019,592140,1093135,1998537,3638700,
+%U A026790 6712659,12287071,22412784,41325279,75712253,138308808,254912873
+%N A026790 Sum{T(n-k,k)}, 0<=k<=[ n/2 ], T given by A026780.
+%K A026790 nonn
+%O A026790 0,3
+%A A026790 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

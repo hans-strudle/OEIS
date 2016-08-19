@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055028
+Showing 1-1 of 1
+
+%I A055028
+%S A055028 0,0,4,0,0,8,0,0,0,4,0,0,0,8,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,
+%T A055028 0,0,0,8,0,0,0,8,0,0,0,0,0,0,0,4,0,0,0,8,0,0,0,0,0,0,0,8,0,0,0,0,0,0,
+%U A055028 0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,8,0,0,0
+%N A055028 Number of Gaussian primes of norm n.
+%C A055028 These are the primes in the ring of integers a+bi, a and b rational integers, i = sqrt(-1).
+%D A055028 R. K. Guy, Unsolved Problems in Number Theory, A16.
+%D A055028 L. W. Reid, The Elements of the Theory of Algebraic Numbers, MacMillan, NY, 1910, see Chap. V.
+%H A055028 <a href="/index/Ga#gaussians">Index entries for Gaussian integers and primes</a>
+%F A055028 a(n) = 4 * A055029(n). - _Franklin T. Adams-Watters_, May 05 2006
+%e A055028 There are 8 Gaussian primes of norm 5, +-1+-2i and +-2+-i, but only two inequivalent ones (2+-i).
+%t A055028 a[n_ /; PrimeQ[n] && Mod[n, 4] == 1] = 8; a[2] = 4; a[n_ /; (p = Sqrt[n]; PrimeQ[p] && Mod[p, 4] == 3)] = 4; a[_] = 0; Table[ a[n], {n, 0, 100}] (* _Jean-François Alcover_, Jul 30 2013, after Frank Adams-Watters *)
+%Y A055028 Cf. A055025-A055029, A055664-...
+%K A055028 nonn,easy,nice
+%O A055028 0,3
+%A A055028 _N. J. A. Sloane_, Jun 09 2000
+%E A055028 More terms from Reiner Martin (reinermartin(AT)hotmail.com), Jul 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

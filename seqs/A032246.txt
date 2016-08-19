@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032246
+Showing 1-1 of 1
+
+%I A032246
+%S A032246 2,4,10,16,28,42,64,90,126,168,224,288,370,462,576,704,858,1030,1232,
+%T A032246 1456,1716,2002,2330,2688,3094,3536,4032,4570,5168,5814,6528,7296,
+%U A032246 8140,9044,10032,11088,12236,13460,14784,16192,17710,19320
+%N A032246 "DHK[ 5 ]" (bracelet, identity, unlabeled, 5 parts) transform of 1,1,1,1...
+%H A032246 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032246 G.f.: 2/[(1-x^2)(1-x^5)(1-x)^3].
+%K A032246 nonn
+%O A032246 8,1
+%A A032246 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

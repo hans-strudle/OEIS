@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033047
+Showing 1-1 of 1
+
+%I A033047
+%S A033047 0,1,11,12,121,122,132,133,1331,1332,1342,1343,1452,1453,1463,1464,
+%T A033047 14641,14642,14652,14653,14762,14763,14773,14774,15972,15973,15983,
+%U A033047 15984,16093,16094,16104,16105,161051,161052,161062,161063,161172
+%N A033047 Numbers whose set of base 11 digits is {0,1}.
+%C A033047 Sums of distinct powers of 11.
+%C A033047 a(n) modulo 2 is the Prouhet-Thue-Morse sequence A010060. - _Philippe Deléham_, Oct 17 2011
+%H A033047 T. D. Noe, <a href="/A033047/b033047.txt">Table of n, a(n) for n=0..1023</a>
+%F A033047 a(n)=Sum{d(i)*11^i: i=0, 1, ..., m}, where Sum{d(i)*2^i: i=0, 1, ..., m} is the base 2 representation of n.
+%F A033047 a(n) = A097257(n)/10.
+%F A033047 a(2n) = 11*a(n), a(2n+1) = a(2n)+1.
+%F A033047 a(n)=Sum_k>=0 {A030308(n,k)*11^k}. - _Philippe Deléham_, Oct 17 2011
+%o A033047 (PARI) {for(vv=0,35,
+%o A033047 bvv=binary(vv);
+%o A033047 texp=0;btb=0;
+%o A033047 forstep(i=length(bvv),1,-1,btb=btb+bvv[i]*11^texp;texp++);
+%o A033047 print1(btb,", "))} \\\ _Douglas Latimer_, May 12 2012
+%Y A033047 Cf. A000695, A005836, A033042-A033052.
+%Y A033047 Row 10 of array A104257.
+%K A033047 nonn,base
+%O A033047 0,3
+%A A033047 _Clark Kimberling_
+%E A033047 Extended by _Ray Chandler_, Aug 03 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

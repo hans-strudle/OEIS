@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023032
+Showing 1-1 of 1
+
+%I A023032
+%S A023032 1,7,28,84,210,462,924,1715,3003,4998,8008,12348,18564,27048,38759,
+%T A023032 54054,74613,100478,134596,176176,230202,294294,376740,471933,593775,
+%U A023032 731276,905982,1099560,1344903,1610322,1947792,2306220,2759757,3235484,3838380
+%N A023032 Number of compositions of n into 7 ordered relatively prime parts.
+%H A023032 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023032 Moebius transform of C(n-1, 6)
+%K A023032 nonn
+%O A023032 7,2
+%A A023032 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

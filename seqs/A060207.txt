@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060207
+Showing 1-1 of 1
+
+%I A060207
+%S A060207 2,3,4,5,6,7,7,8,8,8,9,9,9,10,10,10,11,11,11,11,12,12,12,12,13,13,13,
+%T A060207 13,14,14,14,14,15,15,15,15,15,16,16,16,16,16,17,17,17,17,17,18,18,18,
+%U A060207 18,18,19,19,19,19,19,20,20,20,20,20,21,21,21,21,21,21,22,22,22,22,22
+%N A060207 Start at 2^n, iterate function PrimePi (A000720) until fixed point is reached; sequence gives number of steps.
+%C A060207 A007097(a(n) - 2) <= 2^n < A007097(a(n) - 1). - _David Wasserman_, May 31 2002
+%D A060207 S. Segal, On Pi(x+y)<=Pi(x)+Pi(y). Transactions American Mathematical Society, 104 (1962), 523-527.
+%F A060207 Table[Length[FixedPointList[PrimePi, 2^w]]-1, {w, 1, 32}]
+%e A060207 n=24, the relevant list is: {16777216,1077871,84115,8198,1028,172,39,12,5,3,2,1,0}, its length a(24)=13.
+%t A060207 f[n_] := Length@ NestWhileList[ PrimePi, 2^n, # > 0 &]; Array[f, 48, 0] (* _Robert G. Wilson v_, Aug 12 2011 *)
+%Y A060207 Cf. A060208, A007097, A000720, A033844, A071682.
+%K A060207 nonn
+%O A060207 0,1
+%A A060207 _Labos Elemer_, Mar 19 2001
+%E A060207 More terms from _David Wasserman_, May 31 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

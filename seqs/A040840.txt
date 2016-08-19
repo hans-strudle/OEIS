@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040840
+Showing 1-1 of 1
+
+%I A040840
+%S A040840 29,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,
+%T A040840 2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,
+%U A040840 58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58,2,58
+%N A040840 Continued fraction for sqrt(870).
+%H A040840 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040840 a(n)=30+28*(-1)^n-29*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 29 2009]
+%p A040840 with(numtheory): Digits := 300: convert(evalf(sqrt(870)),confrac);
+%K A040840 nonn,cofr,easy
+%O A040840 0,1
+%A A040840 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

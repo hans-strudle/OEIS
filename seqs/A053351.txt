@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053351
+Showing 1-1 of 1
+
+%I A053351
+%S A053351 3,5,15,27,53,137,153,155,185,239,717,735,789,1343,3485,5109,6195,
+%T A053351 14927
+%N A053351 Numbers n such that 269*2^n+1 is prime.
+%H A053351 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A053351 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A053351 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A053351 hard,nonn
+%O A053351 1,1
+%A A053351 _N. J. A. Sloane_, Dec 29 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

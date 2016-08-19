@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040741
+Showing 1-1 of 1
+
+%I A040741
+%S A040741 27,1,2,1,2,1,1,17,1,10,6,1,5,3,3,2,1,1,1,1,1,1,2,3,3,5,1,6,10,1,17,1,
+%T A040741 1,2,1,2,1,54,1,2,1,2,1,1,17,1,10,6,1,5,3,3,2,1,1,1,1,1,1,2,3,3,5,1,6,
+%U A040741 10,1,17,1,1,2,1,2,1,54,1,2,1,2,1,1,17,1,10,6,1,5
+%N A040741 Continued fraction for sqrt(769).
+%H A040741 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040741 with(numtheory): Digits := 300: convert(evalf(sqrt(769)),confrac);
+%K A040741 nonn,cofr,easy
+%O A040741 0,1
+%A A040741 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

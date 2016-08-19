@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037291
+Showing 1-1 of 1
+
+%I A037291
+%S A037291 1,1,1,4,1,1,1,11,4,1,1,4,1,1,1,50,1,4,1,4,1,1,1,11,4,1,12,4,1,1,1,
+%T A037291 208,1,1,1,16,1,1,1,11,1,1,1,4,4,1,1,50,4,4,1,4,1,11,1,11,1,1,1,4,1,1,
+%U A037291 4
+%N A037291 Number of rings with 1 containing n elements.
+%C A037291 Many authors simply call these "rings". They are also known as unital rings, rings with unity, or rings with identity. - _Charles R Greathouse IV_, Aug 12 2015
+%H A037291 C. Noebauer, <a href="https://web.archive.org/web/20080111141811/http://www.algebra.uni-linz.ac.at/~noebsi/">Home page</a> [Archived copy as of 2008 from web.archive.org]
+%Y A037291 Cf. A027623, A037221.
+%K A037291 nonn,nice,hard
+%O A037291 1,4
+%A A037291 _Christian G. Bower_, Jun 15 1998.
+%E A037291 a(16) and a(32)-a(63) from Christof Noebauer (christof.noebauer(AT)algebra.uni-linz.ac.at), Sep 29, 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

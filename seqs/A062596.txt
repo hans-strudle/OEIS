@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062596
+Showing 1-1 of 1
+
+%I A062596
+%S A062596 2,149,283,853,1741,4831,8867
+%N A062596 Numbers n such that 30^n - 29^n is prime.
+%C A062596 Terms > 1000 are often only strong pseudoprimes.
+%C A062596 a(8) > 10^5. - _Robert Price_, Oct 23 2012
+%Y A062596 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062596 nonn,hard
+%O A062596 1,1
+%A A062596 _Mike Oakes_, May 18 2001, May 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

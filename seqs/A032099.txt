@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032099
+Showing 1-1 of 1
+
+%I A032099
+%S A032099 1,2,5,10,27,66,181,470,1263,3310,8767,22980,60449,158354,415353,
+%T A032099 1087690,2849675,7461318,19539429,51156950,133944931,350677822,
+%U A032099 918123935,2403693960,6293050657,16475457986,43133566061
+%N A032099 "BHK" (reversible, identity, unlabeled) transform of 1,2,3,4...
+%H A032099 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032099 G.f.: x[1-3x+5x^3-3x^5+x^6]/[(1-x)^2(1-x-x^2)(1+x-x^2)(1-3x+x^2)].
+%K A032099 nonn
+%O A032099 1,2
+%A A032099 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

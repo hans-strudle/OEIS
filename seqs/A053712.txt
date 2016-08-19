@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053712
+Showing 1-1 of 1
+
+%I A053712
+%S A053712 5,113,3628789,51090942171709439969
+%N A053712 Lower balancing primes to prime-balanced factorials.
+%e A053712 113 is balancing 5!=120 from below, where 5!=120 is a balanced factorial
+%Y A053712 Cf. A033392, A033393, A037151, A006990, A006562, A053709, A053710, A053711, A053713.
+%K A053712 nonn
+%O A053712 1,1
+%A A053712 _Labos Elemer_ Feb 10 2000
+%E A053712 The next two terms are 171!-397 and 190!-409 - _Jud McCranie_, Jul 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

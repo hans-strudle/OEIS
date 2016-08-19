@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002013
+Showing 1-1 of 1
+
+%I A002013 M0835 N0317
+%S A002013 1,1,1,2,3,7,13,31,65,154,347,824,1905,4512,10546,24935,58476,138002,
+%T A002013 323894,763172,1790585,4213061,9878541,23214728,54393063,127687369,
+%U A002013 298969219
+%N A002013 Filaments with n square cells.
+%C A002013 Or, number of 2-sided strip polyominoes with n cells. - _Ed Pegg Jr_, May 13 2009
+%D A002013 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002013 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002013 R. C. Tilley, R. G. Stanton and D. D. Cowan, The cell growth problem for filaments, pp. 310-339 in Proceedings of the Louisiana Conference on Combinatorics, Graph Theory and Computer Science. Vol. 1, edited R. C. Mullin et al., 1970.
+%H A002013 Ed Pegg, Jr., <a href="http://demonstrations.wolfram.com/PolyformExplorer/">Illustrations of polyforms</a>
+%H A002013 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Polyomino.html">Polyomino</a>
+%K A002013 nonn
+%O A002013 0,4
+%A A002013 _N. J. A. Sloane_
+%E A002013 a(23) from _Joseph Myers_, Nov 22 2010
+%E A002013 a(24)-a(26) from _Sean A. Irvine_, May 21 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

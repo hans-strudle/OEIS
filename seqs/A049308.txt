@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049308
+Showing 1-1 of 1
+
+%I A049308
+%S A049308 1,4,40,640,14080,394240,13404160,536166400,24663654400,1282510028800,
+%T A049308 74385581670400,4760677226905600,333247405883392000,
+%U A049308 25326802847137792000,2076797833465298944000,182758209344946307072000
+%N A049308 Sextuple factorial numbers: product_{k=0..n-1} (6*k+4).
+%F A049308 E.g.f.: (1-6*x)^(-2/3).
+%F A049308 a(n) = 2^n*A008544(n).
+%F A049308 G.f.: 1/(1-4x/(1-6x/(1-10x/(1-12x/(1-16x/(1-18x/(1-22x/(1-24x/(1-28x/(1-... (continued fraction). - _Philippe Deléham_, Jan 08 2012
+%F A049308 a(n) = (-2)^n*sum_{k=0..n} 3^k*s(n+1,n+1-k), where s(n,k) are the Stirling numbers of the first kind, A048994. - _Mircea Merca_, May 03 2012
+%F A049308 G.f.: ( 1 - 1/Q(0) )/x/2 where Q(k) =1 - x*(6*k-2)/(1 - x*(6*k+6)/Q(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Mar 20 2013
+%t A049308 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 3, 5!, 6}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A049308 Cf. A008544, A011781, A008543.
+%K A049308 nonn,easy
+%O A049308 0,2
+%A A049308 Joe Keane (jgk(AT)jgk.org)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

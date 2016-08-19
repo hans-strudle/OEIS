@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037414
+Showing 1-1 of 1
+
+%I A037414
+%S A037414 1,9,81,82,90,729,730,738,739,810,811,819,6561,6562,6570,6571,6642,
+%T A037414 6643,6651,6652,7290,7291,7299,7300,7371,7372,7380
+%N A037414 n-th number k such that the set of base 2 digits of k equals the set of base 9 digits of k.
+%K A037414 nonn,base
+%O A037414 1,2
+%A A037414 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

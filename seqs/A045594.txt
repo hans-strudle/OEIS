@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045594
+Showing 1-1 of 1
+
+%I A045594
+%S A045594 1,2,4,7,8,16,32,49,58,64,128,136,256,343,512,1024,1552,1682,2048,
+%T A045594 2312,2401,2564,4096,6176,8192,11179,16384,16807,24059,32768,32896,
+%U A045594 39304,48778,65536,78253,117649,131072,150544,168413,183944,262144,524288
+%N A045594 Numbers n such that n | 10^n + 4^n.
+%K A045594 nonn
+%O A045594 1,2
+%A A045594 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

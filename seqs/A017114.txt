@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017114
+Showing 1-1 of 1
+
+%I A017114
+%S A017114 16,144,400,784,1296,1936,2704,3600,4624,5776,7056,8464,10000,11664,
+%T A017114 13456,15376,17424,19600,21904,24336,26896,29584,32400,35344,38416,
+%U A017114 41616,44944,48400,51984,55696
+%N A017114 (8*n+4)^2.
+%C A017114 a(n)=16*A016754; a(n+2)=A061042(2n+1), from Brackett spectrum of hydrogen. [From _Paul Curtz_, Nov 07 2008]
+%H A017114 Vincenzo Librandi, <a href="/A017114/b017114.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017114 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3, -3, 1).
+%t A017114 LinearRecurrence[{3, -3, 1},{16, 144, 400},30] (* _Ray Chandler_, Aug 04 2015 *)
+%o A017114 (MAGMA) [(8*n+4)^2: n in [0..35] ]; // Vincenzo Librandi, Jul 21 2011
+%K A017114 nonn,easy
+%O A017114 0,1
+%A A017114 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061336
+Showing 1-1 of 1
+
+%I A061336
+%S A061336 0,1,2,1,2,3,1,2,3,2,1,2,2,2,3,1,2,3,2,3,2,1,2,3,2,2,3,2,1,2,2,2,3,3,
+%T A061336 2,3,1,2,2,2,3,3,2,2,3,1,2,3,2,2,3,2,3,3,3,1,2,2,2,3,2,2,3,3,2,2,1,2,
+%U A061336 3,2,2,3,2,2,3,3,2,3,1,2,3,2,3,2,2,3,3,2,2,3,2,1,2,2,2,3,3,2,3,2,2,2,2,3,3
+%N A061336 Smallest number of triangular numbers which sum to n.
+%C A061336 a(n)=3 if n=5 or 8 mod 9, since triangular numbers are {0,1,3,6} mod 9.
+%H A061336 Giovanni Resta, <a href="/A061336/b061336.txt">Table of n, a(n) for n = 0..10000</a>
+%e A061336 a(3)=1 since 3=3, a(4)=2 since 4=1+3, a(5)=3 since 5=1+1+3, with 1 and 3 being triangular.
+%t A061336 t[n_]:=n*(n+1)/2; a[0]=0; a[n_]:=Block[ {k=1, tt= t/@ Range[Sqrt[2*n]]}, Off[IntegerPartitions::take]; While[{} == IntegerPartitions[n, {k}, tt, 1], k++]; k]; a/@ Range[0, 104] (* _Giovanni Resta_, Jun 09 2015 *)
+%Y A061336 0 if n=0, otherwise 1 if n is in A000217, otherwise 2 if n is in A051533, otherwise 3 in which case n is in A020757. Cf. A000217, A007294, A057945, A061337.
+%K A061336 nonn
+%O A061336 0,3
+%A A061336 _Henry Bottomley_, Apr 25 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

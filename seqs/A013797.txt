@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013797
+Showing 1-1 of 1
+
+%I A013797
+%S A013797 1728,35831808,743008370688,15407021574586368,319479999370622926848,
+%T A013797 6624737266949237011120128,137370551967459378662586974208,
+%U A013797 2848515765597237675947403497177088,59066822915424320448445358917464096768
+%N A013797 12^(4n+3).
+%H A013797 Vincenzo Librandi, <a href="/A013797/b013797.txt">Table of n, a(n) for n = 0..200</a>
+%H A013797 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013797 a(0) = 1728, a(n) = 20736*a(n-1) [From Harvey P. Dale, Apr 29 2012]
+%t A013797 12^(4*Range[0,20]+3) (* or *) NestList[20736#&,1728,20] (* _Harvey P. Dale_, Apr 29 2012 *)
+%o A013797 (MAGMA) [12^(4*n+3): n in [0..10]]; // Vincenzo Librandi, Jun 28 2011
+%K A013797 nonn,easy
+%O A013797 0,1
+%A A013797 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

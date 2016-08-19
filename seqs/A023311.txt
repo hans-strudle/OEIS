@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023311
+Showing 1-1 of 1
+
+%I A023311
+%S A023311 1447,2207,6211,6607,8369,9769,11821,13537,13729,13781,15581,17231,
+%T A023311 17497,27817,32059,32569,32611,33647,36251,39079,46381,47417,55127,
+%U A023311 55171,57077,60869,63361,64327,68927,77951,81619,85469,86767,88001,94099,94477,96149
+%N A023311 Numbers n such that n remains prime through 4 iterations of function f(x) = 4x + 3.
+%C A023311 n, 4*n+3, 16*n+15, 64*n+63 and 256*n+255 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023311 (MAGMA) [n: n in [1..1000000] | IsPrime(n) and IsPrime(4*n+3) and IsPrime(16*n+15) and IsPrime(64*n+63) and IsPrime(256*n+255)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023311 nonn
+%O A023311 1,1
+%A A023311 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

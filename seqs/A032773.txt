@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032773
+Showing 1-1 of 1
+
+%I A032773
+%S A032773 0,3360,48048,12282816
+%N A032773 Integer quotients of n(n+1)(n+2)...(n+5) / n+(n+1)+(n+2)+...+(n+5).
+%Y A032773 Cf. A032771, A032772.
+%K A032773 nonn
+%O A032773 0,2
+%A A032773 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

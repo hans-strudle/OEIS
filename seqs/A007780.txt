@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007780
+Showing 1-1 of 1
+
+%I A007780
+%S A007780 1,2,3,6,9,11,18,20,27,30,54,81,162,168,243,486,729,1458,2187,4374,
+%T A007780 6561,13122,19683,39366,59049
+%N A007780 Losing initial configurations in 2-hole Tchuka Ruma.
+%C A007780 The 2-hole Tchuka Ruma game cannot be won for the initial seeds 3^i (i>=1) or 2*3^i (i>=0). Though a sufficient condition, this is not necessary, as can be seen from the terms a(6)=11, a(8)=20, a(10)=30 and a(14)=168 - Pab Ter (pabrlos2(AT)yahoo.com), Nov 08 2005
+%D A007780 Campbell, Paul J. and Darrah P. Chavey, Tchuka Ruma Solitaire, J. Undergrad. Math. Applic., 16 (4) (1995) 343-365.
+%H A007780 Campbell, Paul J. and Darrah P. Chavey, <a href="http://cs.beloit.edu/campbell/tchuka.pdf">Tchuka Ruma Solitaire</a>, The UMAP Journal 16(4) (1995), 343-365.
+%K A007780 nonn,more
+%O A007780 1,2
+%A A007780 chavey(AT)beloit.edu (Darrah Chavey)
+%E A007780 More terms from Pab Ter (pabrlos2(AT)yahoo.com), Nov 08 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034860
+Showing 1-1 of 1
+
+%I A034860
+%S A034860 3,36,300,2520,22680,221760,2358720,27216000,339292800,4550515200,
+%T A034860 65383718400,1002550348800,16345929600000,282457663488000,
+%U A034860 5157467707392000,99236792438784000,2007144156745728000
+%N A034860 n!*(2*n-5)/2.
+%D A034860 J. Riordan, Enumeration of trees by height and diameter, IBM J. Res. Dev. 4 (1960), 473-478.
+%H A034860 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A034860 Table[n!*(2*n-5)/2,{n,3,20}] (* _Harvey P. Dale_, Oct 10 2012 *)
+%K A034860 nonn
+%O A034860 3,1
+%A A034860 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

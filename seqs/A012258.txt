@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012258
+Showing 1-1 of 1
+
+%I A012258
+%S A012258 1,1,1,4,13,84,469,4152,32985,370128,3818601,51861888,658371429,
+%T A012258 10494283968,158197312701,2894815734912,50529852678321,
+%U A012258 1043916757274880,20707179214389201,476720372375608320
+%N A012258 exp(arctanh(arcsin(x)))=1+x+1/2!*x^2+4/3!*x^3+13/4!*x^4+84/5!*x^5...
+%K A012258 nonn
+%O A012258 0,4
+%A A012258 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

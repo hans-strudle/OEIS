@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017172
+Showing 1-1 of 1
+
+%I A017172
+%S A017172 0,282429536481,1156831381426176,150094635296999121,
+%T A017172 4738381338321616896,68952523554931640625,614787626176508399616,
+%U A017172 3909188328478827879681,19408409961765342806016,79766443076872509863361,282429536481000000000000
+%N A017172 (9*n)^12.
+%H A017172 Vincenzo Librandi, <a href="/A017172/b017172.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017172 (9Range[0,20])^12  (* _Harvey P. Dale_, Mar 04 2011 *)
+%o A017172 (MAGMA) [(9*n)^12: n in [0..15]]; // _Vincenzo Librandi_, Jul 22 2011
+%K A017172 nonn,easy
+%O A017172 0,2
+%A A017172 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

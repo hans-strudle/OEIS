@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049628
+Showing 1-1 of 1
+
+%I A049628
+%S A049628 1,4,8,14,22,34,48,68,92,122,156,200,248,308,374,448,530,628,732,854,
+%T A049628 984,1126,1278,1452,1634,1836,2050,2282,2526,2798,3078,3388,3714,4060,
+%U A049628 4422,4808,5206,5640,6092,6568,7060
+%N A049628 a(n)=Sum{T(i,n-i): i=0,1,...,n}, array T as in A049627.
+%K A049628 nonn
+%O A049628 0,2
+%A A049628 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

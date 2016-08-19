@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035688
+Showing 1-1 of 1
+
+%I A035688
+%S A035688 0,0,0,0,0,0,0,1,0,1,0,1,0,2,0,4,0,4,0,5,0,7,0,10,0,12,0,14,0,18,0,24,
+%T A035688 0,28,0,33,0,41,0,50,0,59,0,70,0,84,0,100,0,117,0,137,0,161,0,188,0,
+%U A035688 219,0,254,0,295,0,341,0,393,0,453,0,520,0,595,0,682,0,780,0,889,0
+%N A035688 Number of partitions of n into parts 8k+2 and 8k+6 with at least one part of each type.
+%K A035688 nonn
+%O A035688 1,14
+%A A035688 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044031
+Showing 1-1 of 1
+
+%I A044031
+%S A044031 56,65,156,165,256,265,356,365,456,465,556,569,659,665,756,765,856,
+%T A044031 865,956,965,1056,1065,1156,1165,1256,1265,1356,1365,1456,1465,1556,
+%U A044031 1569,1659,1665,1756,1765,1856,1865,1956,1965,2056
+%N A044031 Numbers n such that 5 and 6 occur juxtaposed in the base 10 representation of n but not of n+1.
+%K A044031 nonn,base
+%O A044031 1,1
+%A A044031 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

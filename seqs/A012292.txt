@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012292
+Showing 1-1 of 1
+
+%I A012292
+%S A012292 0,1,2,4,24,180,1432,14544,176064,2382800,36330272,618520384,
+%T A012292 11562021504,235623136320,5205288291712,123834383495424,
+%U A012292 3155999144761344,85799392788650240,2478387574846218752
+%N A012292 arctanh(sin(x)*exp(x)) = x+2/2!*x^2+4/3!*x^3+24/4!*x^4+180/5!*x^5...
+%F A012292 a(n) ~ 1/2 * (n-1)! / r^n, where r = 0.588532743981861... is the real root of the equation sin(r) = exp(-r). - _Vaclav Kotesovec_, Oct 25 2013
+%t A012292 CoefficientList[Series[ArcTanh[Sin[x]*Exp[x]], {x, 0, 20}], x]* Range[0, 20]! (* _Vaclav Kotesovec_, Oct 24 2013 *)
+%K A012292 nonn
+%O A012292 0,3
+%A A012292 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A012292 Prepended missing a(0)=0, _Vaclav Kotesovec_, Oct 24 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005476
+Showing 1-1 of 1
+
+%I A005476
+%S A005476 0,2,9,21,38,60,87,119,156,198,245,297,354,416,483,555,632,714,801,
+%T A005476 893,990,1092,1199,1311,1428,1550,1677,1809,1946,2088,2235,2387,2544,
+%U A005476 2706,2873,3045,3222,3404,3591
+%N A005476 n*(5*n-1)/2.
+%H A005476 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A005476 a(n) = C(5*n,2)/5, n>=0. - _Zerinvary Lajos_, Jan 02 2007
+%F A005476 a(n) = A033991(n) - A000326(n). - _Zerinvary Lajos_, Jun 11 2007
+%F A005476 a(n) = a(n-1)+5*n-3 (with a(0)=0). - _Vincenzo Librandi_, Nov 18 2010
+%F A005476 a(n) = A000217(n) + A000384(n) = A000290(n) + A000326(n). - _Omar E. Pol_, Jan 11 2013
+%F A005476 a(n) = A130520(5*n+1). - _Philippe Deléham_, Mar 26 2013
+%F A005476 a(n) = A033994(n) - A033994(n-1). - _J. M. Bergot_, Jun 12 2013
+%p A005476 [seq(binomial(5*n,2)/5,n=0..38)]; # _Zerinvary Lajos_, Jan 02 2007
+%t A005476 lst={};Do[AppendTo[lst, n*(5*n-1)/2], {n, 0, 5!}];lst ...and/or... s=0;lst={s};Do[s+=n+1;AppendTo[lst, s], {n, 1, 6!, 5}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 25 2008 *)
+%t A005476 Table[Sum[i + 2*n - 1, {i, 1, n}], {n, 0, 42}] (* _Zerinvary Lajos_, Jul 11 2009 *)
+%o A005476 (PARI) a(n)=n*(5*n-1)/2 \\ _Charles R Greathouse IV_, Sep 24 2015
+%Y A005476 Cf. numbers of the form n*(n*k-k+4))/2 listed in A226488. - _Bruno Berselli_, Jun 10 2013
+%K A005476 nonn,easy
+%O A005476 0,2
+%A A005476 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

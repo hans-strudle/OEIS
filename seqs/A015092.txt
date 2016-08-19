@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015092
+Showing 1-1 of 1
+
+%I A015092
+%S A015092 1,1,9,593,304857,1249312673,40939981188777,10732252327798007281,
+%T A015092 22507185898866512901924729,377607964391970470904956530918721,
+%U A015092 50681683810611444451901001718927186370889
+%N A015092 q-Catalan numbers (recurrence version) for q=8.
+%F A015092 a(n) = sum_{i=1}^{n-1} q^{(i-1)} a(i) a(n-i).
+%K A015092 nonn
+%O A015092 1,3
+%A A015092 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

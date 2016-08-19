@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026497
+Showing 1-1 of 1
+
+%I A026497
+%S A026497 7,1,6,1,8,1,3,3,1,1,7,1,6,1,7,1,1,3,3,1,8,1,6,1,8,1,3,3,1,1,7,1,3,3,
+%T A026497 1,7,1,1,3,3,1,1,7,1,6,1,8,1,3,3,1,1,7,1,3,3,2,1,2,1,2,3,2,1,2,1,2,3,
+%U A026497 2,1,2,1,2,3,2,3,2,3,2,1,2,1,2,3,2,1,2,1,2,3
+%N A026497 a(n) = length of n-th run of identical symbols in A026492.
+%K A026497 nonn
+%O A026497 1,1
+%A A026497 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

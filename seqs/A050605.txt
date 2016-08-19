@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050605
+Showing 1-1 of 1
+
+%I A050605
+%S A050605 0,0,1,1,0,0,2,2,0,0,1,1,0,0,3,3,0,0,1,1,0,0,2,2,0,0,1,1,0,0,4,4,0,0,
+%T A050605 1,1,0,0,2,2,0,0,1,1,0,0,3,3,0,0,1,1,0,0,2,2,0,0,1,1,0,0,5,5,0,0,1,1,
+%U A050605 0,0,2,2,0,0,1,1,0,0,3,3,0
+%N A050605 Column/row 2 of A050602: a(n) = add3c(n,2).
+%C A050605 It seems that (n-sum(k=1,n,a(k))/log(n) is bounded - _Benoit Cloitre_, Oct 03 2002
+%C A050605 2^a(n) is the highest power of 2 dividing the n-th triangular number n*(n+1)/2 - _Benoit Cloitre_, Oct 03 2002
+%p A050605 nmax:=80; with(Bits): add3c := proc(a, b) option remember; if(0 = And(a, b)) then RETURN(0); else RETURN(1+add3c(Xor(a, b), 2*And(a, b))); fi; end: for n from 0 to nmax do a(n):=add3c(n,2) od: seq(a(n),n=0..nmax); [From _Johannes W. Meijer_, Jun 18 2009]
+%t A050605 Table[IntegerExponent[(n + 1)(n + 2)/2, 2], {n, 0, 100}] (* _Jean-François Alcover_, Mar 04 2016 *)
+%o A050605 (PARI) a(n)=valuation(n*(n+1)/2,2)
+%Y A050605 Bisection gives column/row 1 of A050602: A007814.
+%Y A050605 Contribution from _Johannes W. Meijer_, Jun 18 2009: (Start)
+%Y A050605 A050605(4*n+2) equals A001511(n).
+%Y A050605 Cf. A161737 and A069834.
+%Y A050605 (End)
+%K A050605 nonn
+%O A050605 0,7
+%A A050605 _Antti Karttunen_, Jun 22 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

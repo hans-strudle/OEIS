@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027150
+Showing 1-1 of 1
+
+%I A027150
+%S A027150 1,1,4,6,12,20,80,152,304,528,2176,4416,8832,15488,64768,135552,
+%T A027150 271104,477440,2013184,4289536,8579072,15144960,64200704,138407936,
+%U A027150 276815872,489431040,2082406400,4526702592,9053405184,16024403968
+%N A027150 T(n,[ n/2 ]), T given by A027144.
+%K A027150 nonn
+%O A027150 0,3
+%A A027150 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

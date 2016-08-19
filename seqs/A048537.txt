@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048537
+Showing 1-1 of 1
+
+%I A048537
+%S A048537 6,66,215,681,6681,12018,201115,1531159,6541784,21058215,156340764,
+%T A048537 675098840,5868938806,6666461193,120186956049,586862372693
+%N A048537 a(n)*(a(n)+1) is smallest pronic number containing exactly n 4's.
+%H A048537 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PronicNumber.html">Pronic Number</a>
+%Y A048537 Cf. A048538, A002378.
+%K A048537 nonn,base,more
+%O A048537 1,1
+%A A048537 _Patrick De Geest_, May 15 1999.
+%E A048537 a(13)-a(16) from _Lars Blomberg_, Jun 10 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

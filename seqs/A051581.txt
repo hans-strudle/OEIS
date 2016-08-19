@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051581
+Showing 1-1 of 1
+
+%I A051581
+%S A051581 1,9,99,1287,19305,328185,6235515,130945815,3011753745,75293843625,
+%T A051581 2032933777875,58955079558375,1827607466309625,60311046388217625,
+%U A051581 2110886623587616875,78102805072741824375,3046009397836931150625
+%N A051581 (2*n+7)!!/7!!, related to A001147 (odd double factorials).
+%C A051581 Row m=7 of the array A(3; m,n) := (2*n+m)!!/m!!, m >= 0, n >= 0.
+%F A051581 a(n) = (2*n+7)!!/7!!; e.g.f.: 1/(1-2*x)^(9/2).
+%F A051581 G.f.: G(0)/2, where G(k)= 1 + 1/(1 - x/(x + 1/(2*k+9)/G(k+1))); (continued fraction). - _Sergei N. Gladkovskii_, Jun 02 2013
+%p A051581 with(finance):seq(mul(cashflows([k,k,1],0), k=4..n), n=3..22);# [From _Zerinvary Lajos_, Dec 22 2008]
+%Y A051581 Cf. A000165, A001147(n+1), A002866(n+1), A051577-A051580 (rows m=0..6).
+%K A051581 easy,nonn
+%O A051581 0,2
+%A A051581 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

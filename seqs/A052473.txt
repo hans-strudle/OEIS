@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052473
+Showing 1-1 of 1
+
+%I A052473
+%S A052473 2,2,3,3,5,12,37,128,464,1718,6437,24312,92380,352718,1352080,5200302,
+%T A052473 20058302,77558762,300540197,1166803112,4537567652,17672631902,
+%U A052473 68923264412,269128937222,1052049481862,4116715363802,16123801841552
+%N A052473 Binomial(2n-5,n-2)+2.
+%C A052473 The best upper bound known for the Erdős-Szekeres problem for n >= 6.
+%H A052473 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HappyEndProblem.html">Happy End Problem</a>
+%F A052473 a(n) = 2 + (2^(-5 + 2*n) gamma(-(3/2) + n))/(sqrt(pi) gamma(-1 + n))
+%F A052473 G.f.: (4 - ((1 + sqrt(1 - 4*x)) (-1 + x)*x^2)/sqrt(1 - 4*x))/(2 - 2 x) - Eric Weisstein, Jul 29 2011
+%t A052473 Table[Binomial[2 n - 5, n - 2] + 2, {n, 0, 20}]
+%o A052473 (PARI) a(n)=binomial(2*n-5,n-2)+2 \\ _Charles R Greathouse IV_, Jul 29 2011
+%K A052473 nonn,easy
+%O A052473 0,1
+%A A052473 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

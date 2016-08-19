@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029946
+Showing 1-1 of 1
+
+%I A029946
+%S A029946 3,7,5,3,45,11,12,13,47,9,11,15,81,7,63,37,19,21,23,83,46,31,18,29,13,
+%T A029946 106,47,221,103,225,238,236,255,225,285,205,54,168,23,161,148,122,106,
+%U A029946 57,13,271,171,247,497,132,177,198,148,136,137,133,61,358
+%N A029946 a(n)^3 contains n-th prime as a substring.
+%K A029946 nonn,base
+%O A029946 0,1
+%A A029946 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

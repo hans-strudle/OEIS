@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010902
+Showing 1-1 of 1
+
+%I A010902
+%S A010902 14,23,38,63,104,172,284,469,775,1281,2117,3499,5783,9558,15797,26109,
+%T A010902 43152,71320,117875,194819,321989,532170,879548,1453680,2402581,
+%U A010902 3970885,6562912,10846905,17927308,29629500
+%N A010902 Pisot sequence E(14,23), a(n)=[ a(n-1)^2/a(n-2)+1/2 ].
+%H A010902 D. W. Boyd, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa34/aa3444.pdf">Some integer sequences related to the Pisot sequences</a>, Acta Arithmetica, 34 (1979), 295-305
+%H A010902 D. W. Boyd, <a href="https://www.researchgate.net/profile/David_Boyd7/publication/262181133_Linear_recurrence_relations_for_some_generalized_Pisot_sequences_-_annotated_with_corrections_and_additions/links/00b7d536d49781037f000000.pdf">Linear recurrence relations for some generalized Pisot sequences</a>, Advances in Number Theory ( Kingston ON, 1991) 333-340, Oxford Sci. Publ., Oxford Univ. Press, New York, 1993.
+%K A010902 nonn
+%O A010902 0,1
+%A A010902 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

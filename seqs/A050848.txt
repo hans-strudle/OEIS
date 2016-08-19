@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050848
+Showing 1-1 of 1
+
+%I A050848
+%S A050848 3,15,27,63,87,135,543,1383,1455,7767,18543,22143,40967,198719,405483,
+%T A050848 439107
+%N A050848 Numbers n such that 193*2^n-1 is prime.
+%H A050848 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A050848 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A050848 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%H A050848 Kosmaj, <a href="http://www.15k.org/riesellist.htm">Riesel list k<300</a>.
+%K A050848 hard,nonn
+%O A050848 1,1
+%A A050848 _N. J. A. Sloane_, Dec 29 1999
+%E A050848 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

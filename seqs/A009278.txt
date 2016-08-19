@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009278
+Showing 1-1 of 1
+
+%I A009278
+%S A009278 1,6,4,21,6,12,8,60,39,36,12,84,14,24,24,155,18,78,20,42,32,36,24,120,
+%T A009278 93,84,40,168,30,72,32,126,48,108,48,819,38,60,56,360,42,96,44,84,78,
+%U A009278 72,48,620,57,186,72,294,54,120,72,120,80,180,60,168,62,96,312,889,84,144,68
+%N A009278 a(n) = lcm(d(n), sigma(n)).
+%t A009278 Table[LCM[Length[Divisors[n]], DivisorSigma[1, n]], {n, 1, 100}] (* _Stefan Steinerberger_, Apr 13 2006 *)
+%K A009278 nonn
+%O A009278 1,2
+%A A009278 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

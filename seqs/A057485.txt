@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057485
+Showing 1-1 of 1
+
+%I A057485
+%S A057485 10,12,15,18,25,31,34,52,55,57,127,172,220,300,393,492
+%N A057485 Numbers n such that x^n + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1 is irreducible over GF(2).
+%t A057485 Do[ If[ ToString[ Factor[ x^n + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1, Modulus -> 2 ] ] == ToString[ x^n + x^7 + x^6 + x^5 + x^4 + x^3 + x^2 + x + 1 ], Print[ n ] ], {n, 0, 700} ]
+%K A057485 nonn
+%O A057485 1,1
+%A A057485 _Robert G. Wilson v_, Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

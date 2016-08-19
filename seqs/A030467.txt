@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030467
+Showing 1-1 of 1
+
+%I A030467
+%S A030467 428,573,727,846,7810,36365,63636,326734,673267,4545454,5454547,
+%T A030467 47058823,52941178,331983807,332667334,384615386,422892898,475524477,
+%U A030467 524475524,577107103,615384615,667332667,668016194,719964246,758241758,804511280,810873337,857142859
+%N A030467 Numbers n such that n^2 is a concatenation of two successive numbers.
+%H A030467 Donovan Johnson and Giovanni Resta, <a href="/A030467/b030467.txt">Table of n, a(n) for n = 1..1000</a>  (first 53 terms from _Donovan Johnson_)
+%e A030467 428^2 = 183184, the concatenation of 183 and 184.
+%t A030467 t={}; Do[If[EvenQ[y=Length[x=IntegerDigits[n^2]]] && Differences[FromDigits/@Partition[x,y/2]]=={1},AppendTo[t,n]],{n, 5.5*10^6}]; t (* _Jayanta Basu_, May 25 2013 *)
+%o A030467 (PARI) for(n=1, 10^9, t=eval(concat(Str(n),Str(n+1))); if(issquare(t,&s), print1(s,", "))); /* _Antonio Roldán_ and _Joerg Arndt_, Dec 31 2012 */
+%Y A030467 Cf. A030465, A030466, A054214, A054215, A054216, A020339, A020340.
+%K A030467 nonn,base,nice
+%O A030467 1,1
+%A A030467 _Patrick De Geest_
+%E A030467 a(17) corrected by _Donovan Johnson_, Jan 03 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

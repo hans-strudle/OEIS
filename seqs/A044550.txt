@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044550
+Showing 1-1 of 1
+
+%I A044550
+%S A044550 31,80,129,178,223,227,276,325,374,423,472,521,566,570,619,668,717,
+%T A044550 766,815,864,909,913,962,1011,1060,1109,1158,1207,1252,1256,1305,1354,
+%U A044550 1403,1452,1501,1567,1595,1599,1648,1697,1746,1795
+%N A044550 Numbers n such that string 4,3 occurs in the base 7 representation of n but not of n+1.
+%K A044550 nonn,base
+%O A044550 1,1
+%A A044550 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

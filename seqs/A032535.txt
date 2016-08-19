@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032535
+Showing 1-1 of 1
+
+%I A032535
+%S A032535 1,21,273,2231,10101,28261,611123,1200341,3427673,8108919,38636301,
+%T A032535 51484647
+%N A032535 Odd decimal 'base 2 looking' numbers divided by their actual base 2 values (n) is an integer.
+%Y A032535 = odd(A032533). See also A032532 for explanation.
+%K A032535 nonn,base
+%O A032535 1,2
+%A A032535 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

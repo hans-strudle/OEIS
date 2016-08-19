@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000113
+Showing 1-1 of 1
+
+%I A000113
+%S A000113 1,3,4,3,6,12,8,6,4,18,12,12,14,24,24,6,18,12,20,18,32,36,24,24,30,42,
+%T A000113 12,24,30,72,32,12,48,54,48,12,38,60,56,36,42,96,44,36,24,72,48,24,56,
+%U A000113 90,72,42,54,36,72,48,80,90,60,72
+%N A000113 Number of transformation groups of order n.
+%D A000113 B. Schoeneberg, Elliptic Modular Functions, Springer-Verlag, NY, 1974, p. 139.
+%H A000113 T. D. Noe, <a href="/A000113/b000113.txt">Table of n, a(n) for n = 1..10000</a>
+%H A000113 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%F A000113 Let psi(m) = A001615(m) (Dedekind's psi function). Write n = 2^i*3^j*k, where (6,k) = 1 and let i' = floor(i/2) for i < 6, i' = 3 for i >= 6; let j' = 0 for j = 0 or 1, j' = 1 for j >= 2. Then a(n) = psi(n/(2^i'*3^j')) = psi(n)/(2^i'*3^j').
+%F A000113 Multiplicative with a(2^e)=3*2^Floor[(e-1)/2] for 0<e<7, a(2^e)=3*2^(e-4) for e>=7, a(3^e)=4 for 0<e<3, a(3^e)=4*3^(e-2) for e>=3 and a(p^e)=(p+1)*p^(e-1) for p>3. - _T. D. Noe_, Nov 14 2006
+%t A000113 psi[n_] := n*DivisorSum[n, MoebiusMu[#]^2/#&]; a[n_] := (i=IntegerExponent[ n, 2]; j=IntegerExponent[n, 3]; ip = If[i<6, Floor[i/2], 3]; jp = If[j<2, 0, 1]; psi[n]/(2^ip*3^jp)); Array[a, 60] (* _Jean-François Alcover_, Feb 04 2016 *)
+%K A000113 nonn,easy,mult
+%O A000113 1,2
+%A A000113 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

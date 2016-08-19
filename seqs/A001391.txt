@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001391
+Showing 1-1 of 1
+
+%I A001391
+%S A001391 10,1110,11110,100110,1110010110,111100111010110,
+%T A001391 100110011110111010110,1110010110010011011110111010110,
+%U A001391 1111001110101100111001011010011011110111010110
+%N A001391 To get the 3rd term, for example, note that 2nd term has three (11 in binary!) 1's and one (1) 0, giving 11 1 1 0.
+%K A001391 nonn,base
+%O A001391 1,1
+%A A001391 _N. J. A. Sloane_, _Thomas L. York_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

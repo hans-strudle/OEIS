@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a041004
+Showing 1-1 of 1
+
+%I A041004
+%S A041004 1,1,0,1,1,0,0,1,0,0,0,0,0,0,1,0,0,0,1,1,1,0,1,1,0,1,1,0,1,1,1,1,0,0,
+%T A041004 0,1,1,1,1,0,1,1,1,0,0,1,0,0,1,1,1,0,1
+%N A041004 The sequence b, given that c is a left shift by one place of b.
+%C A041004 Map a binary sequence b=[ b_1,... ] to a binary sequence c=[ c_1,... ] so that C=1/Product((1-x^i)^c_i == 1+Sum b_i*x^i mod 2.
+%C A041004 This produces 2 new sequences: d={i:c_i=1} and e=[ 1,e_1,... ] where C=1+Sum e_i*x^i.
+%Y A041004 Cf. A041002-A041004.
+%K A041004 nonn,easy,eigen
+%O A041004 0,1
+%A A041004 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

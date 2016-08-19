@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021199
+Showing 1-1 of 1
+
+%I A021199
+%S A021199 0,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,
+%T A021199 2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,
+%U A021199 5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5
+%N A021199 Decimal expansion of 1/195.
+%F A021199 a(n)=(1/30)*{36*(n mod 6)-24*[(n+1) mod 6]+[(n+2) mod 6]+26*[(n+3) mod 6]-19*[(n+4) mod 6]+16*[(n+5) mod 6]}-2*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Sep 24 2009]
+%K A021199 nonn,cons
+%O A021199 0,3
+%A A021199 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

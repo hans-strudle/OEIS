@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,379,467,479,1325","description":"Numbers n such that 13^n reversed is prime.","mathematica":"Do[ If[ PrimeQ[ ToExpression[ StringReverse[ ToString[13^n] ] ] ], Print[n] ], {n, 1, 2300} ]","crossrefs":["Cf. A057708."],"keyword":"nonn,base","offset":"1,2","author":"_Robert G. Wilson v_, Jan 17 2001"}

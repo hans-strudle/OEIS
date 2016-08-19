@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027153
+Showing 1-1 of 1
+
+%I A027153
+%S A027153 1,4,11,32,77,212,503,1376,3257,8900,21059,57536,136133,371924,879983,
+%T A027153 2404160,5688305,15540740,36769787,100456928,237683645,649363796,
+%U A027153 1536411239,4197553568,9931518377,27133412804,64198343987
+%N A027153 a(n) = Sum{T(i,j)}, 0<=j<=i, 0<=i<=n, T given by A027144.
+%K A027153 nonn
+%O A027153 0,2
+%A A027153 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

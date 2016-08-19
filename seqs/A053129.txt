@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053129
+Showing 1-1 of 1
+
+%I A053129
+%S A053129 8,120,792,3432,11440,31824,77520,170544,346104,657800,1184040,
+%T A053129 2035800,3365856,5379616,8347680,12620256,18643560,26978328,38320568,
+%U A053129 53524680,73629072,99884400,133784560,177100560,231917400,300674088,386206920
+%N A053129 Binomial coefficients C(2n-6,7).
+%D A053129 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings).
+%H A053129 Vincenzo Librandi, <a href="/A053129/b053129.txt">Table of n, a(n) for n = 7..200</a>
+%H A053129 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A053129 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A053129 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%F A053129 a(n) = binomial(2*n-6, 7) if n >= 7 else 0.
+%F A053129 a(n) = -A053123(n,7), n >= 7; a(n) := 0, n=0..6, (eighth column of shifted Chebyshev's S-triangle, decreasing order).
+%F A053129 a(n) = 8*A000973(n).
+%F A053129 G.f.: (8+56*x+56*x^2+8*x^3)/(1-x)^8.
+%p A053129 A053129:=n->binomial(2*n-6,7); seq(A053129(n), n=7..50); # _Wesley Ivan Hurt_, Nov 14 2013
+%t A053129 Table[Binomial[2 n - 6, 7], {n, 7, 50}] (* _Wesley Ivan Hurt_, Nov 14 2013 *)
+%o A053129 (MAGMA)[Binomial(2*n-6,7): n in [7..40]]; // Vincenzo Librandi, Oct 07 2011
+%Y A053129 Cf. A053123, A053128, A000973.
+%K A053129 nonn,easy
+%O A053129 7,1
+%A A053129 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002830
+Showing 1-1 of 1
+
+%I A002830 M3871 N1586
+%S A002830 1,5,16,86,448,3580,34981,448628
+%N A002830 Number of 3-edge-colored trivalent graphs with 2n nodes.
+%D A002830 R. C. Read, Some Enumeration Problems in Graph Theory. Ph.D. Dissertation, Department of Mathematics, Univ. London, 1958.
+%D A002830 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002830 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002830 Sean A. Irvine, <a href="/A002830/a002830.gif">Illustration of initial terms</a>
+%H A002830 R. C. Read, <a href="/A002831/a002831.pdf">Letter to N. J. A. Sloane, Feb 04 1971</a> (gives initial terms of this sequence)
+%F A002830 G.f.: exp(sum(F(x^k) / k, k >= 1) where F(x) is the g.f. for A002831. - _Sean A. Irvine_, Sep 09 2014
+%Y A002830 Cf. A002831, A006712, A006713.
+%K A002830 nonn,more
+%O A002830 1,2
+%A A002830 _N. J. A. Sloane_.
+%E A002830 a(7)-a(8) from _Sean A. Irvine_, Sep 08 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

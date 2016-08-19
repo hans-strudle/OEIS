@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016002
+Showing 1-1 of 1
+
+%I A016002
+%S A016002 1,2,2,3,2,10,2,4,3,10,2,18,2,10,10,5,2,18,2,18,10,10,2,26,3,10,4,18,
+%T A016002 2,74,2,6,10,10,10,33,2,10,10,26,2,74,2,18,18,10,2,34,3,18,10,18,2,26,
+%U A016002 10,26,10,10,2,138,2,10,18,7,10,74,2,18,10,74,2,48,2,10,18,18
+%N A016002 a(n) = (tau(n^7)+6)/7.
+%t A016002 (DivisorSigma[0,Range[80]^7]+6)/7 (* _Harvey P. Dale_, Jul 27 2012 *)
+%K A016002 nonn
+%O A016002 1,2
+%A A016002 _Robert G. Wilson v_
+%E A016002 Definition corrected by Vladeta Jovovic, Sep 03 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

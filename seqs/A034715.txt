@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034715
+Showing 1-1 of 1
+
+%I A034715
+%S A034715 1,6,12,29,30,78,56,132,126,200,132,402,182,378,420,588,306,864,380,
+%T A034715 1050,798,902,552,1920,875,1248,1296,2002,870,2940,992,2592,1914,2108,
+%U A034715 2100,4635,1406,2622,2652,5080,1722,5628,1892,4818,4860,3818,2256,8856
+%N A034715 Dirichlet convolution of triangular numbers with themselves.
+%H A034715 Bruno Berselli, <a href="/A034715/b034715.txt">Table of n, a(n) for n = 1..1000</a>
+%o A034715 (MAGMA) A000217:=func<i | i*(i+1)/2>; [&+[A000217(d)*A000217(n div d): d in Divisors(n)]: n in [1..50]]; // Bruno Berselli, Feb 11 2014
+%K A034715 nonn
+%O A034715 1,2
+%A A034715 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

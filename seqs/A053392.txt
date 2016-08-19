@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053392
+Showing 1-1 of 1
+
+%I A053392
+%S A053392 0,0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,7,8,9,10,2,3,4,5,6,7,8,9,10,11,3,4,5,
+%T A053392 6,7,8,9,10,11,12,4,5,6,7,8,9,10,11,12,13,5,6,7,8,9,10,11,12,13,14,6,
+%U A053392 7,8,9,10,11,12,13,14,15,7,8,9,10,11,12,13,14,15,16,8,9,10,11,12,13,14,15,16,17,9,10,11,12,13,14,15,16,17,18,10,11,12,13,14,15,16,17,18,19,21,22,23,24,25,26,27,28,29,210
+%N A053392 a(n) is the concatenation of the sums of every pair of consecutive digits of n (with a(n) = 0 for 0 <= n <= 9).
+%H A053392 Reinhard Zumkeller, <a href="/A053392/b053392.txt">Table of n, a(n) for n = 0..10000</a>
+%H A053392 Erich Friedman, <a href="http://www2.stetson.edu/~efriedma/mathmagic/0200.html">Problem of the Month (February 2000).
+%e A053392 For n=10 we have 10 -> 1+0 = 1, hence a(10)=1;
+%e A053392 987 -> 9+8.8+7 -> 17.15 -> 1715, so a(987)=1715.
+%t A053392 a[n_] := Total /@ Transpose[{Most[id = IntegerDigits[n]], Rest[id]}] // IntegerDigits // Flatten // FromDigits; Table[a[n], {n, 0, 119}] (* _Jean-François Alcover_, Apr 05 2013 *)
+%o A053392 (Haskell)
+%o A053392 a053392 :: Integer -> Integer
+%o A053392 a053392 n = if ys == "" then 0 else read ys where
+%o A053392    ys = foldl (++) "" $ map show $ zipWith (+) (tail ds) ds
+%o A053392    ds = (map (read . return) . show) n
+%o A053392 -- _Reinhard Zumkeller_, Nov 26 2013
+%Y A053392 Cf. A053393, A060630, A1003117, A194429.
+%K A053392 nonn,easy,nice,base,look
+%O A053392 0,12
+%A A053392 _N. J. A. Sloane_, Jan 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

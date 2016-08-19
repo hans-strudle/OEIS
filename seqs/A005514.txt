@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005514
+Showing 1-1 of 1
+
+%I A005514 M3801
+%S A005514 1,1,5,10,29,57,126,232,440,750,1282,2052,3260,4950,7440,10824,15581,
+%T A005514 21879,30415,41470,56021,74503,98254,127920,165288,211276,268228,
+%U A005514 337416,421856,523260,645456,790704,963793,1167645,1408185
+%N A005514 Number of n-bead bracelets (turn over necklaces) with 8 red beads.
+%C A005514 From Vladimir Shevelev, Apr 23 2011 (Start)
+%C A005514 Also number of non-equivalent necklaces of 8 beads each of them painted by one of n colors.
+%C A005514 The sequence solves the so-called Reis problem about convex k-gons in case k=8 (see our comment to A032279).
+%C A005514 (End)
+%D A005514 S. J. Cyvin et al., Polygonal systems including the corannulene and coronene homologs: novel applications of Pólya's theorem, Z. Naturforsch., 52a (1997), 867-873.
+%D A005514 H. Gupta, Enumeration of incongruent cyclic k-gons, Indian J. Pure and Appl. Math., 10 (1979), no.8, 964-999.
+%D A005514 W. D. Hoskins; Anne Penfold Street, Twills on a given number of harnesses, J. Austral. Math. Soc. Ser. A 33 (1982), no. 1, 1-15.
+%D A005514 V. Shevelev, Necklaces and convex k-gons, Indian J. Pure and Appl. Math., 35 (2004), no. 5, 629-638.
+%D A005514 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005514 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A005514 V. Shevelev,<a href="http://arxiv.org./abs/1104.4051">Spectrum of permanent's values and its extremal magnitudes in Lambda_n^3 and Lambda_n(alpha,beta,gamma)</a>(Cf. Section 5)
+%H A005514 <a href="/index/Br#bracelets">Index entries for sequences related to bracelets</a>
+%F A005514 S. J. Cyvin et al. give a g.f.
+%F A005514 G.f.: x^8/16*(1/(1 - x)^8 + 4/(1 - x^8) + 5/(1 - x^2)^4 + 2/(1 - x^4)^2 + 4/(1 - x)^2/(1 - x^2)^3) = x^8*(2*x^10 - 3*x^9 + 7*x^8 - 6*x^7 + 7*x^6 - 2*x^5 + 2*x^4 - 2*x^3 + 5*x^2 - 3*x + 1)/(1 - x)^8/(1 + x)^4/(1 + x^2)^2/(1 + x^4). - _Vladeta Jovovic_, Jul 17 2002
+%F A005514 Contribution by Vladimir Shevelev, Apr 23 2011: (Start)
+%F A005514 Let s(n,k,d)=1, if n==k(mod d), 0, otherwise. Then
+%F A005514 a(n)=((n+4)/32)*s(n,0,8)+((n-4)/32)*s(n,4,8)+(48*C(n-1,7)+(n+1)*(n-2)*(n-4)*(n-6))/768, if n is even; a(n)=(48*C(n-1,7)+(n-1)*(n-3)*(n-5)*(n-7))/768, if n odd.
+%F A005514 (End)
+%t A005514 k = 8; Table[(Apply[Plus, Map[EulerPhi[ # ]Binomial[n/#, k/# ] &, Divisors[GCD[n, k]]]]/n + Binomial[If[OddQ[n], n - 1, n - If[OddQ[k], 2, 0]]/2, If[OddQ[k], k - 1, k]/2])/2, {n, k, 50}] - _Robert A. Russell_, Sep 27 2004
+%K A005514 nonn,easy,nice
+%O A005514 8,3
+%A A005514 _N. J. A. Sloane_.
+%E A005514 Sequence extended and description corrected by _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

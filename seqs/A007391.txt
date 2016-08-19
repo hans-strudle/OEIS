@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007391
+Showing 1-1 of 1
+
+%I A007391 M2205
+%S A007391 0,0,0,0,0,3,0,8,3,15,11,27,26,49,53,88,102,156,190,275,346,484,621,
+%T A007391 851,1105,1495,1956,2625,3451,4608,6076,8088,10684,14195,18772,24912,
+%U A007391 32967
+%N A007391 Number of strict first-order maximal independent sets in cycle graph.
+%D A007391 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007391 R. Yanco and A. Bagchi, K-th order maximal independent sets in path and cycle graphs, J. Graph Theory, submitted, 1994.
+%F A007391 Empirical g.f.: x^6*(x^2-3) / ((x-1)^2*(x+1)^2*(x^3+x^2-1)). - _Colin Barker_, Mar 29 2014
+%K A007391 nonn
+%O A007391 1,6
+%A A007391 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

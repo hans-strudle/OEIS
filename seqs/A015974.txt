@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015974
+Showing 1-1 of 1
+
+%I A015974
+%S A015974 205,1025,2525,5125,8405,12625,25625,42025,63125,103525,128125,168305,
+%T A015974 202525,210125,255025,315625,344605,517625,640625,841525,875125,
+%U A015974 1012625,1050625,1275125,1578125,1723025,2042725,2084645
+%N A015974 Numbers n such that n | 4^n + 1, n not a power of 5.
+%Y A015974 Cf. A015950.
+%K A015974 nonn
+%O A015974 1,1
+%A A015974 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

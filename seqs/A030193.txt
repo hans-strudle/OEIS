@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030193
+Showing 1-1 of 1
+
+%I A030193
+%S A030193 0,2,5,7,10,12,15,17,20,22,34,39,44,52,57,62,65,67,72,85,95,109,119,
+%T A030193 124,127,130,132,137,142,147,150,170,177,180,182,187,192,197,204,210,
+%U A030193 215,238,243,249,255,257,260,262,267
+%N A030193 Let S = squares; a(0)=0; a(n) = smallest m such that m - a(i) is not in S for any i < n.
+%C A030193 Consider the following game: two players make moves in turn, initially the number on the board is n, each move consists of subtracting a perfect square from the number on the board, the player who faces 0 loses. This sequence is the set of losing positions in this game. - Mikhail Dvorkin (mikhail.dvorkin(AT)gmail.com), Jan 27 2008
+%D A030193 I. Z. Rusza. Difference sets without squares, Periodica Math. Hugarica 15(1984), 205-209.
+%D A030193 A. Sárközy. On the difference sets of sequences of integers, Acta. Math. Acad. Sci. Hungar. 31(1978), no. 1-2, 125-149; no. 3-4, 355-386; Ann. Univ. Sci. Budapest. Eotvos Sect. Math. 21(1978), 45-53. [Related papers]
+%H A030193 Karl W. Heuer, <a href="/A030193/b030193.txt">Table of n, a(n) for n = 0..61299</a>
+%t A030193 moves[n_] := Table[n - i^2, {i, 1, Sqrt[n]}]; gana[n_] := Which[n == 0, False, True,!Select[moves[n], !gana[#] &] =={}]; Select[Range[155] - 1, ! gana[#] &] (* _José María grau Ribas_, Jul 19 2013 *)
+%K A030193 nonn
+%O A030193 0,2
+%A A030193 Jan Kristian Haugland (jankrihau(AT)hotmail.com)
+%E A030193 More terms from _Karl W. Heuer_, Jun 13 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

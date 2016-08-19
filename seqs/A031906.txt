@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031906
+Showing 1-1 of 1
+
+%I A031906
+%S A031906 2,17,41,67,97,127,157,191,227,257,283,331,367,401,439,467,509,563,
+%T A031906 599,631,661,709,751,797,829,877,919,967,1009,1039,1087,1117,1171,
+%U A031906 1217,1259,1297,1327,1409,1447,1483,1523,1567,1607,1637,1697,1741
+%N A031906 Primes p(6n-5).
+%o A031906 (MAGMA) [ NthPrime(6*n-5): n in [1..1000] ]; // Vincenzo Librandi, Apr 10 2011
+%K A031906 nonn
+%O A031906 1,1
+%A A031906 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040488
+Showing 1-1 of 1
+
+%I A040488
+%S A040488 22,1,1,1,1,6,1,14,4,1,21,1,4,14,1,6,1,1,1,1,44,1,1,1,1,6,1,14,4,1,21,
+%T A040488 1,4,14,1,6,1,1,1,1,44,1,1,1,1,6,1,14,4,1,21,1,4,14,1,6,1,1,1,1,44,1,
+%U A040488 1,1,1,6,1,14,4,1,21,1,4,14,1,6,1,1,1,1,44,1,1,1,1
+%N A040488 Continued fraction for sqrt(511).
+%H A040488 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040488 with(numtheory): Digits := 300: convert(evalf(sqrt(511)),confrac);
+%K A040488 nonn,cofr,easy,less
+%O A040488 0,1
+%A A040488 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

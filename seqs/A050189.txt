@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050189
+Showing 1-1 of 1
+
+%I A050189
+%S A050189 0,5,12,35,64,126,200,330,480,715,980,1365,1792,2380,3024,3876,4800,
+%T A050189 5985,7260,8855,10560,12650,14872,17550,20384,23751,27300,31465,35840,
+%U A050189 40920,46240,52360,58752,66045,73644,82251,91200
+%N A050189 T(n,4), array T as in A050186; a count of aperiodic binary words.
+%F A050189 Seems to be n*A006918.
+%K A050189 nonn
+%O A050189 4,2
+%A A050189 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

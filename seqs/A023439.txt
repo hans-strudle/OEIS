@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023439
+Showing 1-1 of 1
+
+%I A023439
+%S A023439 0,1,1,2,3,5,8,13,21,34,54,87,139,223,357,572,916,1467,2349,3762,6024,
+%T A023439 9647,15448,24738,39614,63436,101583,162670,260491,417137,667981,
+%U A023439 1069670,1712913,2742969,4392446,7033832
+%N A023439 Dying rabbits: a(n) = a(n-1) + a(n-2) - a(n-9).
+%D A023439 J. H. E. Cohn, Letter to the editor, Fib. Quart. 2 (1964), 108.
+%D A023439 V. E. Hoggatt, Jr. and D. A. Lind, The dying rabbit problem, Fib. Quart. 7 (1969), 482-487.
+%H A023439 Floris P. van Doorn and Jasper Mulder, <a href="/A023439/b023439.txt">Table of n, a(n) for n=0,...,5000</a>.
+%H A023439 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,0,0,0,0,0,0,-1).
+%F A023439 G.f. x / ( (x-1)*(1+x)*(x^7+x^5+x^3+x-1) ). - R. J. Mathar, Nov 29 2011
+%Y A023439 See A000045 for the Fibonacci numbers.
+%K A023439 nonn
+%O A023439 0,4
+%A A023439 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029873
+Showing 1-1 of 1
+
+%I A029873
+%S A029873 64,288,1152,4800,21504,101920,502016,2538432,13078720,68344672,
+%T A029873 361128960,1925388608,10341942016,55899303840,303764754944,
+%U A029873 1658373055808,9090505778112,50008894293216
+%N A029873 Low temperature series for spin-1/2 Ising specific heat on 2D square lattice, multiplied by 4.
+%D A029873 G. A. Baker, Further application of the Pade approximant method to the Ising and Heisenberg models, Phys. Rev. 129 (1963) 99-102.
+%D A029873 I. G. Enting, A. J. Guttmann and I. Jensen, Low temperature series expansions for the spin-1 Ising model, J. Phys. A 27 (1994) 6987-7005.
+%D A029873 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 391-406.
+%H A029873 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/ising/ising.html">Lenz-Ising Constants</a>
+%H A029873 <a href="/index/Sp#specific_heat">Index entries for sequences related to specific heat</a>
+%K A029873 nonn
+%O A029873 0,1
+%A A029873 _Steven Finch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

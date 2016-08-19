@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043522
+Showing 1-1 of 1
+
+%I A043522
+%S A043522 88,188,288,388,488,588,688,788,808,818,828,838,848,858,868,878,880,
+%T A043522 881,882,883,884,885,886,887,889,898,988,1088,1188,1288,1388,1488,
+%U A043522 1588,1688,1788,1808,1818,1828,1838,1848,1858,1868,1878
+%N A043522 Numbers n such that number of 8's in base 10 is 2.
+%t A043522 Select[Range[2000],DigitCount[#,10,8]==2&]  (* _Harvey P. Dale_, Mar 20 2011 *)
+%K A043522 nonn,base
+%O A043522 1,1
+%A A043522 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

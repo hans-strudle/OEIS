@@ -1,0 +1,70 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003499
+Showing 1-1 of 1
+
+%I A003499 M1701
+%S A003499 2,6,34,198,1154,6726,39202,228486,1331714,7761798,45239074,263672646,
+%T A003499 1536796802,8957108166,52205852194,304278004998,1773462177794,
+%U A003499 10336495061766,60245508192802,351136554095046,2046573816377474,11928306344169798,69523264248641314
+%N A003499 a(0) = 2, a(1) = 6; for n >= 2, a(n) = 6*a(n-1) - a(n-2).
+%C A003499 Two times Chebyshev polynomials of the first kind evaluated at 3.
+%C A003499 Also 2(a(2n)-2) and a(2n+1)-2 are perfect squares. - Mario Catalani (mario.catalani(AT)unito.it), Mar 31 2003
+%C A003499 Chebyshev polynomials of the first kind evaluated at 3, then multiplied by 2. - _Michael Somos_, Apr 07 2003
+%C A003499 Also gives solutions >2 to the equation x^2-3 = floor(x*r*floor(x/r)) where r=sqrt(2). - _Benoit Cloitre_, Feb 14 2004
+%C A003499 Output of Lu and Wu's formula for the number of perfect matchings of an m X n Klein bottle where m and n are both even specializes to this sequence for m=2. - Sarah-Marie Belcastro (smbelcas(AT)toroidalsnark.net), Jul 04 2009
+%C A003499 It appears that for prime P = 8*n +/- 3, that a((P-1)/2) equals -6 Mod P and for all composites C = 8*n +/- 3, there is at least one i < (C-1)/2 such that a(i) is equal to - 6 mod P.  Only a few of the primes P of the form 8*n +/-3, e.g., 29, had such an i less than (P-1)/2. As for primes P = 8*n +/- 1, it seems that the sum of the two adjacent terms, a((P-1)/2) and a((P+1)/2), is equal to 8 mod P. - _Kenneth J Ramsey_, Feb 14 2012 and Mar 05 2012
+%C A003499 For n >= 1, a(n) is also the curvature of circles (rounded to nearest integer) successively inscribed toward angle 90 degree of tangent lines, starting with a unit circle. The expansion factor is 5.828427.. or 1/(3 - 2*sqrt(2)), which is also 3 + 2*sqrt(2) or A156035. See illustration in links. - _Kival Ngaokrajang_, Sep 04 2013
+%C A003499 Except for the first term, positive values of x (or y) satisfying x^2 - 6xy + y^2 + 32 = 0. - _Colin Barker_, Feb 08 2014
+%D A003499 A. H. Beiler, Recreations in the Theory of Numbers, Dover, NY, 1964, p. 198.
+%D A003499 S. Falcon, Relationships between Some k-Fibonacci Sequences, Applied Mathematics, 2014, 5, 2226-2234; http://www.scirp.org/journal/am; http://dx.doi.org/10.4236/am.2014.515216
+%D A003499 Jay Kappraff, Beyond Measure, A Guided Tour Through Nature, Myth and Number, World Scientific, 2002; p. 480-481.
+%D A003499 Refik Keskin and Olcay Karaatli, Some New Properties of Balancing Numbers and Square Triangular Numbers, Journal of Integer Sequences, Vol. 15 (2012), Article #12.1.4
+%D A003499 Thomas Koshy, Fibonacci and Lucas Numbers with Applications, 2001, Wiley, p. 77-79.
+%D A003499 W. Lu and F. Y. Wu, Close-packed dimers on nonorientable surfaces, Physics Letters A, 293(2002), 235-246. [From Sarah-Marie Belcastro (smbelcas(AT)toroidalsnark.net), Jul 04 2009]
+%D A003499 Jeffrey Shallit, An interesting continued fraction, Math. Mag., 48 (1975), 207-211.
+%D A003499 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003499 Vincenzo Librandi, <a href="/A003499/b003499.txt">Table of n, a(n) for n = 0..300</a>
+%H A003499 P. Bala, <a href="/A174500/a174500_2.pdf">Some simple continued fraction expansions for an infinite product, Part 1</a>
+%H A003499 P. Bhadouria, D. Jhala, B. Singh, <a href="http://www.tjmcs.com/includes/files/articles/Vol8_Iss1_81 - 92_Binomial_Transforms_of_the_k-Lucas.pdf">Binomial Transforms of the k-Lucas Sequences and its Properties</a>, The Journal of Mathematics and Computer Science (JMCS), Volume 8, Issue 1, Pages 81-92; sequence K_3.
+%H A003499 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A003499 Kival Ngaokrajang, <a href="/A003499/a003499.pdf">Illustration of initial terms</a>
+%H A003499 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A003499 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A003499 <a href="/index/Rea#recur1">Index entries for recurrences a(n) = k*a(n - 1) +/- a(n - 2)</a>
+%H A003499 <a href="/index/Tu#2wis">Index entries for two-way infinite sequences</a>
+%H A003499 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-1).
+%F A003499 G.f.: (2-6*x)/(1-6*x+x^2).
+%F A003499 a(n) = (3+2*sqrt(2))^n+(3-2*sqrt(2))^n = 2*A001541(n).
+%F A003499 For all sequence elements n, 2*n^2 - 8 is a perfect square. Lim a(n)/a(n-1) = 3 + 2*sqrt(2). - _Gregory V. Richardson_, Oct 06 2002
+%F A003499 a(2n)+2 is a perfect square, 2(a(2n+1)+2) is a perfect square. a(n), a(n-1) and A077445(n), n>0, satisfy the Diophantine equation x^2+y^2-3z^2=-8. - Mario Catalani (mario.catalani(AT)unito.it), Mar 24 2003
+%F A003499 a(n+1)=Trace of n-th power of matrix {{6, -1}, {1, 0}}. - _Artur Jasinski_, Apr 22 2008
+%F A003499 \prod_{r=1}^{n}(4\sin^2((4r-1)\pi/(4n))+4) (Lu/Wu). - Sarah-Marie Belcastro (smbelcas(AT)toroidalsnark.net), Jul 04 2009
+%F A003499 a(n)=(1+sqrt(2))^(2*n)+(1+sqrt(2))^(-2*n). - _Gerson Washiski Barbosa_, Sep 19 2010
+%F A003499 For n>0, a(n) = A001653(n)+A001653(n+1). - _Charlie Marion_, Dec 27 2011
+%F A003499 For n>0, a(n) = b(4n)/b(2n) where b(n) is the Pell sequence, A000129. - _Kenneth J Ramsey_, Feb 14 2012
+%F A003499 From _Peter Bala_, Jan 06 2013: (Start)
+%F A003499 Let F(x) = product {n = 0..inf} (1 + x^(4*n+1))/(1 + x^(4*n+3)). Let alpha = 3 - 2*sqrt(2). This sequence gives the simple continued fraction expansion of 1 + F(alpha) = 2.16585 37786 96882 80543 ... = 2 + 1/(6 + 1/(34 + 1/(198 + ...))). Cf. A174501.
+%F A003499 Also F(-alpha) = 0.83251 21926 93800 07634 ... has the continued fraction representation 1 - 1/(6 - 1/(34 - 1/(198 - ...))) and the simple continued fraction expansion 1/(1 + 1/((6-2) + 1/(1 + 1/((34-2) + 1/(1 + 1/((198-2) + 1/(1 + ...))))))). Cf. A174501 and A003500.
+%F A003499 F(alpha)*F(-alpha) has the simple continued fraction expansion 1/(1 + 1/((6^2-4) + 1/(1 + 1/((34^2-4) + 1/(1 + 1/((198^2-4) + 1/(1 + ...))))))).
+%F A003499 (End)
+%F A003499 G.f.: G(0), where G(k)= 1 + 1/(1 - x*(8*k-9)/( x*(8*k-1) - 3/G(k+1) )); (continued fraction). - _Sergei N. Gladkovskii_, Aug 12 2013
+%F A003499 Inverse Binomial transform of A228568 [Bhadoura].
+%p A003499 A003499:=-2*(-1+3*z)/(1-6*z+z**2); [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%t A003499 a[0] = 2; a[1] = 6; a[n_] := 6a[n - 1] - a[n - 2]; Table[ a[n], {n, 0, 19}] (* _Robert G. Wilson v_, Jan 30 2004 *)
+%t A003499 Table[Tr[MatrixPower[{{6, -1}, {1, 0}}, n]], {n, 1, 100}] (* _Artur Jasinski_, Apr 22 2008 *)
+%t A003499 LinearRecurrence[{6, -1}, {2, 6}, 70] (* _Vladimir Joseph Stephan Orlovsky_, Feb 26 2012 *)
+%t A003499 CoefficientList[Series[(2 - 6 x) / (1 - 6 x + x^2), {x, 0, 30}], x] (* _Vincenzo Librandi_, Jun 07 2013 *)
+%o A003499 (PARI) a(n)=2*real((3+quadgen(32))^n)
+%o A003499 (PARI) a(n)=2*subst(poltchebi(abs(n)),x,3)
+%o A003499 (PARI) a(n)=if(n<0,a(-n),polsym(1-6*x+x^2,n)[n+1])
+%o A003499 (Sage) [lucas_number2(n,6,1) for n in range(37)] # _Zerinvary Lajos_, Jun 25 2008
+%Y A003499 A081555(n)=1+a(n).
+%Y A003499 Bisection of A002203.
+%Y A003499 First row of array A103999.
+%Y A003499 Row 1 * 2 of array A188645. A174501.
+%K A003499 nonn,easy
+%O A003499 0,1
+%A A003499 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

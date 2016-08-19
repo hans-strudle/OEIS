@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017204
+Showing 1-1 of 1
+
+%I A017204
+%S A017204 6561,429981696,37822859361,656100000000,5352009260481,28179280429056,
+%T A017204 111429157112001,360040606269696,1001129150390625,2478758911082496,
+%U A017204 5595818096650401,11716593810022656,23045377697175681
+%N A017204 (9*n+3)^8.
+%H A017204 Vincenzo Librandi, <a href="/A017204/b017204.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017204 (MAGMA) [(9*n+3)^8: n in [0..20]]; // Vincenzo Librandi, Jul 23 2011
+%K A017204 nonn,easy
+%O A017204 0,1
+%A A017204 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

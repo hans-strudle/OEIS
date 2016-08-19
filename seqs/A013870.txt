@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013870
+Showing 1-1 of 1
+
+%I A013870
+%S A013870 14,7529536,4049565169664,2177953337809371136,
+%T A013870 1171355575953987221848064,629983141281877223603213172736,
+%U A013870 338820052976784335907174521413566464,182225556172186058674940229804729969934336,98005277522749794820791054154499091349964324864
+%N A013870 14^(5*n+1).
+%H A013870 Vincenzo Librandi, <a href="/A013870/b013870.txt">Table of n, a(n) for n = 0..100</a>
+%H A013870 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013870 (MAGMA) [14^(5*n+1): n in [0..10]]; // Vincenzo Librandi, Jul 09 2011
+%K A013870 nonn,easy
+%O A013870 0,1
+%A A013870 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

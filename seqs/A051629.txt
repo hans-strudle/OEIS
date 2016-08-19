@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051629
+Showing 1-1 of 1
+
+%I A051629
+%S A051629 1,0,0,0,2,0,2,0,4,0,5,0,9,0,9,0,15,0,17,1,23,1,27,3,36,3,39,6,51,7,
+%T A051629 57,11,69,13,78,19,94,21,102,29,122,33,134,42,154,48,170,60,195,66,
+%U A051629 210,81,240,90,260,106,290,118,315,138,351,150,375,174,417
+%N A051629 Poincaré series for Gamma_2(1,2).
+%D A051629 Kogiso, T. and Tsushima, K., On an algebra of Siegel modular forms associated with the theta group Gamma_2(1,2), Tsukuba J. Math. 22 (1998), 645-656.
+%D A051629 B. Runge, Codes and Siegel modular forms, Discrete Math. 148 (1996), 175-204, p. 203, first displayed formula.
+%p A051629 (1+x^6+x^8+x^10+x^19+x^21+x^23+x^29)/((1-x^4)^2*(1-x^6)*(1-x^12));
+%K A051629 nonn,nice,easy
+%O A051629 0,5
+%A A051629 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

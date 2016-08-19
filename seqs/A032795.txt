@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032795
+Showing 1-1 of 1
+
+%I A032795
+%S A032795 8,18,56,126,176,312,504,624,918,1292,1512,2024,2640,2990,3780,4698,
+%T A032795 5208,6336,7616,8316,9842,11544,12464,14448,16632,17802,20304,23030,
+%U A032795 24480,27560,30888,32648,36366,40356,42456,46872,51584,54054,59228
+%N A032795 (n+1)(n+2)...(n+4) / n+(n+1)+(n+2)+...+(n+4) is an integer.
+%C A032795 = (A032794 / A032793).
+%F A032795 G.f.: (6x^6+22x^5+20x^4+46x^3+38x^2+10x+8)/[(1-x^3)(1-x)^3].
+%K A032795 nonn
+%O A032795 0,1
+%A A032795 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

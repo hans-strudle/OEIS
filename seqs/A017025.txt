@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017025
+Showing 1-1 of 1
+
+%I A017025
+%S A017025 19683,1000000000,118587876497,2641807540224,26439622160671,
+%T A017025 165216101262848,756680642578125,2779905883635712,8662995818654939,
+%U A017025 23762680013799936,58871586708267913,134217728000000000
+%N A017025 (7*n+3)^9.
+%H A017025 Vincenzo Librandi, <a href="/A017025/b017025.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017025 (MAGMA) [(7*n+3)^9: n in [0..20]]; // Vincenzo Librandi, Jul 14 2011
+%K A017025 nonn,easy
+%O A017025 0,1
+%A A017025 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

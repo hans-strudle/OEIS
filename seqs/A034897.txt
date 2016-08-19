@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034897
+Showing 1-1 of 1
+
+%I A034897
+%S A034897 6,21,28,301,325,496,697,1333,1909,2041,2133,3901,8128,10693,16513,
+%T A034897 19521,24601,26977,51301,96361,130153,159841,163201,176661,214273,
+%U A034897 250321,275833,296341,306181,389593,486877,495529,542413,808861,1005421,1005649,1055833
+%N A034897 Hyperperfect numbers.
+%D A034897 R. K. Guy, Unsolved Problems in Number Theory, Sect. B2.
+%D A034897 J. Roberts, Lure of the Integers, see Integer 28, p. 177.
+%H A034897 Jud McCranie and Donovan Johnson, <a href="/A034897/b034897.txt">Table of n, a(n) for n = 1..10000</a> (first 2190 terms from Jud McCranie)
+%H A034897 J. S. McCranie, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL3/mccranie.html">A study of hyperperfect numbers</a>, J. Int. Seqs. Vol. 3 (2000) #P00.1.3.
+%H A034897 Jud McCranie, <a href="http://j.mccranie.home.comcast.net">List of hyperfect numbers</a>.
+%H A034897 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HyperperfectNumber.html">Hyperperfect Number.</a>
+%H A034897 Wikipedia, <a href="http://en.wikipedia.org/wiki/Hyperperfect_number">Hyperperfect number</a>
+%t A034897 hpnQ[n_]:=Module[{c=DivisorSigma[1,n]-n-1},c>0&&IntegerQ[(n-1)/c]]; Select[Range[2,809000],hpnQ] (* _Harvey P. Dale_, Jan 17 2012 *)
+%Y A034897 Cf. A034898, A007592, A019279.
+%K A034897 nonn,nice
+%O A034897 1,1
+%A A034897 _Jud McCranie_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005822
+Showing 1-1 of 1
+
+%I A005822 M1243
+%S A005822 1,1,2,4,11,16,49,72,214,319,947,1408,4187,6223,18502,27504,81769,
+%T A005822 121552,361379,537196,1597106,2374129,7058377,10492416,31194361,
+%U A005822 46371025,137862866,204935836,609282227,905709904,2692710841,4002767136,11900382694,17690150767
+%N A005822 Number of spanning trees in third power of cycle.
+%D A005822 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005822 Colin Barker, <a href="/A005822/b005822.txt">Table of n, a(n) for n = 1..1000</a>
+%H A005822 G. Baron et al., <a href="http://www.fq.math.ca/Scanned/23-3/baron.pdf">The number of spanning trees in the square of a cycle</a>, Fib. Quart., 23 (1985), 258-264.
+%H A005822 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005822 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005822 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%H A005822 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (0,4,0,1,0,4,0,-1).
+%F A005822 G.f.: x*(1-x^2)*(x^4+x^3-x^2+x+1) / (x^8-4*x^6-x^4-4*x^2+1).
+%p A005822 A005822:=-(z-1)*(1+z)*(z**4+z**3-z**2+z+1)/(-4*z**6-z**4-4*z**2+1+z**8); # [Conjectured (correctly) by _Simon Plouffe_ in his 1992 dissertation.]
+%o A005822 (PARI) Vec(-x*(x-1)*(x+1)*(x^4+x^3-x^2+x+1)/(x^8-4*x^6-x^4-4*x^2+1) + O(x^50)) \\ _Colin Barker_, Jul 09 2015
+%K A005822 nonn,easy
+%O A005822 1,3
+%A A005822 _N. J. A. Sloane_
+%E A005822 G.f. adapted to the offset from _Colin Barker_, Jul 09 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030145
+Showing 1-1 of 1
+
+%I A030145
+%S A030145 2,3,5,7,11,13,19,23,31,113,127,137,181,269,277,281,311,461,463,661,
+%T A030145 673,677,1019,1277,1361,1973,2287,2339,2377,2411,2423,2689,2731,4673,
+%U A030145 5023,5081,5261,6563,6577,8311,9013,9437,9439,10181,10463
+%N A030145 Primes such that in p^2 the parity of digits alternates.
+%t A030145 id[n_]:=IntegerDigits[n]; t={}; Do[p=Prime[n]; If[Length[id[p]]==1,AppendTo[t,p], If[Union[Abs[Differences[Boole/@EvenQ[id[p^2]]]]]=={1}, AppendTo[t,p]]], {n,1300}]; t (* _Jayanta Basu_, May 07 2013 *)
+%K A030145 nonn,base
+%O A030145 0,1
+%A A030145 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

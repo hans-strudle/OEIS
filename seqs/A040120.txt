@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040120
+Showing 1-1 of 1
+
+%I A040120
+%S A040120 11,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,
+%T A040120 2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,22,2,
+%U A040120 22,2,22,2,22,2,22,2,22,2,22,2
+%N A040120 Continued fraction for sqrt(132).
+%H A040120 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040120 a(n)=12+10*(-1)^n-11*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 10 2009]
+%p A040120 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040120 ContinuedFraction[Sqrt[132],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 12 2011*)
+%K A040120 nonn,cofr,easy
+%O A040120 0,1
+%A A040120 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

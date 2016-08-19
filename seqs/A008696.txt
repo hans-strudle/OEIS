@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008696
+Showing 1-1 of 1
+
+%I A008696
+%S A008696 1,240,190800,16833600,397680720,4630540320,34416204480,187485916800,
+%T A008696 814900050000,2975524213680,9486523478880,27053074226880,
+%U A008696 70486147972800,169930956669600,384163682797440
+%N A008696 Theta series of Niemeier lattice of type D_6^4.
+%D A008696 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 407.
+%F A008696 This series is the q-expansion of 13/18 E_4(z)^3 + 5/18 E_6(z)^2. Cf. A004009, A013973. - Daniel D. Briggs, Nov 25 2011
+%Y A008696 Equal to the theta series for A_9^2*D_6, Cf. A047806.
+%K A008696 nonn
+%O A008696 0,2
+%A A008696 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

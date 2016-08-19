@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051459
+Showing 1-1 of 1
+
+%I A051459
+%S A051459 1,2,36,414720,189621927936000000,
+%T A051459 2156695499113014719143826715127578624000000000000
+%N A051459 Number of orderings of the subsets of a set with n elements that are compatible with the subsets' sizes; i.e. if A, B are two subsets with A<=B then Card(A)<=Card(B).
+%C A051459 a(7) has 127 digits and too large to include in sequence. - _Ray Chandler_, Nov 22 2003
+%F A051459 a(n) = C(n, 0)! * C(n, 1)! * C(n, 2)! * ... * C(n, n)! = A000722(n) / A022914(n).
+%Y A051459 Cf. A000722, A022914, A001142.
+%K A051459 nonn
+%O A051459 1,2
+%A A051459 Yuval Dekel (dekelyuval(AT)hotmail.com), Nov 15 2003
+%E A051459 More terms from _Ray Chandler_, Nov 22 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

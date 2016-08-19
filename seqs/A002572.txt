@@ -1,0 +1,91 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002572
+Showing 1-1 of 1
+
+%I A002572 M0710 N0261
+%S A002572 1,1,1,2,3,5,9,16,28,50,89,159,285,510,914,1639,2938,5269,9451,16952,
+%T A002572 30410,54555,97871,175586,315016,565168,1013976,1819198,3263875,
+%U A002572 5855833,10506175,18849555,33818794,60675786,108861148,195312750,350419594,628704034,1127987211,2023774607,3630948907
+%N A002572 Number of partitions of 1 into n powers of 1/2; or (according to one definition of "binary") the number of binary rooted trees.
+%C A002572 Top row of Table 1 of Elsholtz.  [_Jonathan Vos Post_, Aug 30 2011]
+%C A002572 a(n+1) is the number of compositions n=p(1)+p(2)+...+p(m) with p(1)=1 and p(k) <= 2*p(k+1), see example.  [_Joerg Arndt_, Dec 18 2012]
+%C A002572 Over an algebraically closed field of characteristic 2, a(n) gives dimensions of the generic cohomology groups H^i_gen(SL_2,L(1)) which are isomorphic to algebraic group cohomology groups H^i(SL_2,L(1)^[i]), where ^[i] denotes i-th Frobenius twist. [_David I. Stewart_, Oct 22 2013]
+%D A002572 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002572 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002572 T. D. Noe and Alois P. Heinz, <a href="/A002572/b002572.txt">Table of n, a(n) for n = 1..1000</a> (first 201 terms from T. D. Noe)
+%H A002572 Christian Elsholtz, Clemens Heuberger, Helmut Prodinger, <a href="http://arxiv.org/abs/1108.5964">The number of Huffman codes, compact trees, and sums of unit fractions</a>, arXiv:1108.5964v1 [math.CO], Aug 30, 2011
+%H A002572 Shimon Even & Abraham Lempel, <a href="http://dx.doi.org/10.1016/S0019-9958(72)90149-0">Generation and enumeration of all solutions of the characteristic sum condition</a>, Information and Control 21 (1972), 476-482.
+%H A002572 P. Flajolet and H. Prodinger, <a href="http://dx.doi.org/10.1016/0012-365X(87)90137-3">Level number sequences for trees</a>, Discrete Math., 65 (1987), 149-156.
+%H A002572 P. Flajolet and R. Sedgewick, <a href="http://algo.inria.fr/flajolet/Publications/books.html">Analytic Combinatorics</a>, 2009; see page 200
+%H A002572 E. N. Gilbert, <a href="http://dx.doi.org/10.1109/TIT.1971.1054638">Codes based on inaccurate source probabilities</a>, IEEE Trans. Inform. Theory, 17 (1971), 304-315.
+%H A002572 H. Minc, <a href="http://dx.doi.org/10.1017/S0013091500021945">A problem in partitions: Enumeration of elements of a given degree in the free commutative entropic cyclic groupoid</a>, Proc. Edinburgh Math. Soc. (2) 11 1958/1959 223-224.
+%H A002572 E. Norwood, <a href="http://dx.doi.org/10.1109/TIT.1967.1054058">The Number of Different Possible Compact Codes</a>, IEEE Transactions on Information Theory, Vol. 13, P. 614, 1967.
+%H A002572 J. Paschke et al., <a href="http://dx.doi.org/10.1016/j.disc.2010.08.017">Computing and estimating the number of n-ary Huffman sequences of a specified length</a>, Discrete Math., 311 (2011), 1-7. (See p. 3.)
+%H A002572 D. I. Stewart, <a href="http://dx.doi.org/10.1016/j.jalgebra.2012.04.026">Unbounding Ext</a>, J. Algebra, 365 (2012), 1-11. (See p. 7)
+%H A002572 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%H A002572 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%H A002572 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%H A002572 Paul R. Stein, <a href="/A002572/a002572.pdf">Letter to N. J. A. Sloane, Jul 20 1971</a>
+%H A002572 Paul R. Stein, <a href="/A002572/a002572_1.pdf">Table of first 127 terms</a>
+%F A002572 Math. Rev. 22 #11020, Minc, H. A problem in partitions ... 1959: v(c, d) is the number of partitions of d into positive integers of the form d = c + c_1 + c_2 + ... + c_n, where c_1 <= 2*c, c_{i+1} <= 2*c_i.
+%e A002572 {1}; {1/2 + 1/2}; { 1/2 + 1/4 + 1/4 }; { 1/2 + 1/4 + 1/8 + 1/8, 1/4 + 1/4 + 1/4 + 1/4 }; ...
+%e A002572 From _Joerg Arndt_, Dec 18 2012: (Start)
+%e A002572 There are a(7+1)=16 compositions 7=p(1)+p(2)+...+p(m) with p(1)=1 and p(k) <= 2*p(k+1):
+%e A002572 [ 1]  [ 1 1 1 1 1 1 1 ]
+%e A002572 [ 2]  [ 1 1 1 1 1 2 ]
+%e A002572 [ 3]  [ 1 1 1 1 2 1 ]
+%e A002572 [ 4]  [ 1 1 1 2 1 1 ]
+%e A002572 [ 5]  [ 1 1 1 2 2 ]
+%e A002572 [ 6]  [ 1 1 2 1 1 1 ]
+%e A002572 [ 7]  [ 1 1 2 1 2 ]
+%e A002572 [ 8]  [ 1 1 2 2 1 ]
+%e A002572 [ 9]  [ 1 1 2 3 ]
+%e A002572 [10]  [ 1 2 1 1 1 1 ]
+%e A002572 [11]  [ 1 2 1 1 2 ]
+%e A002572 [12]  [ 1 2 1 2 1 ]
+%e A002572 [13]  [ 1 2 2 1 1 ]
+%e A002572 [14]  [ 1 2 2 2 ]
+%e A002572 [15]  [ 1 2 3 1 ]
+%e A002572 [16]  [ 1 2 4 ]
+%e A002572 (End)
+%e A002572 From _Joerg Arndt_, Dec 26 2012: (Start)
+%e A002572 There are a(8)=16 partitions of 1 into 8 powers of 1/2 (dots denote zeros in the tables of multiplicities in the left column)
+%e A002572 [ 1]  [ . 1 1 1 1 1 1 2 ]     + 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64 + 2/128
+%e A002572 [ 2]  [ . 1 1 1 1 . 4 . ]     + 1/2 + 1/4 + 1/8 + 1/16 + 4/64
+%e A002572 [ 3]  [ . 1 1 1 . 3 2 . ]     + 1/2 + 1/4 + 1/8 + 3/32 + 2/64
+%e A002572 [ 4]  [ . 1 1 . 3 1 2 . ]     + 1/2 + 1/4 + 3/16 + 1/32 + 2/64
+%e A002572 [ 5]  [ . 1 1 . 2 4 . . ]     + 1/2 + 1/4 + 2/16 + 4/32
+%e A002572 [ 6]  [ . 1 . 3 1 1 2 . ]     + 1/2 + 3/8 + 1/16 + 1/32 + 2/64
+%e A002572 [ 7]  [ . 1 . 3 . 4 . . ]     + 1/2 + 3/8 + 4/32
+%e A002572 [ 8]  [ . 1 . 2 3 2 . . ]     + 1/2 + 2/8 + 3/16 + 2/32
+%e A002572 [ 9]  [ . 1 . 1 6 . . . ]     + 1/2 + 1/8 + 6/16
+%e A002572 [10]  [ . . 3 1 1 1 2 . ]     + 3/4 + 1/8 + 1/16 + 1/32 + 2/64
+%e A002572 [11]  [ . . 3 1 . 4 . . ]     + 3/4 + 1/8 + 4/32
+%e A002572 [12]  [ . . 3 . 3 2 . . ]     + 3/4 + 3/16 + 2/32
+%e A002572 [13]  [ . . 2 3 1 2 . . ]     + 2/4 + 3/8 + 1/16 + 2/32
+%e A002572 [14]  [ . . 2 2 4 . . . ]     + 2/4 + 2/8 + 4/16
+%e A002572 [15]  [ . . 1 5 2 . . . ]     + 1/4 + 5/8 + 2/16
+%e A002572 [16]  [ . . . 8 . . . . ]     + 8/8
+%e A002572 (End)
+%p A002572 v := proc(c,d) option remember; local i; if d < 0 or c < 0 then 0 elif d = c then 1 else add(v(i,d-c),i=1..2*c); fi; end; [ seq(v(1,n), n=1..50) ];
+%t A002572 v[c_, d_] := v[c, d] = If[d < 0 || c < 0, 0, If[d == c, 1, Sum[v[i, d - c], {i, 1, 2*c}]]]; a[n_] := v[1, n-1]; a[1] = 1; Table[a[n], {n, 1, 36}] (* _Jean-François Alcover_, Oct 19 2011, after Maple *)
+%o A002572 (PARI) v(c,d) = if ( d<0 | c<0, 0, if ( d==c, 1, sum(i=1,2*c, v(i,d-c) ) ) )
+%o A002572 (PARI)
+%o A002572 /* g.f. as given in the Elsholtz/Heuberger/Prodinger reference */
+%o A002572 N=66;  q='q+O('q^N);
+%o A002572 t=2;  /* t-ary: t=2 for A002572, t=3 for A176485, t=4 for A176503  */
+%o A002572 L=2 + 2*ceil( log(N) / log(t) );
+%o A002572 f(k)=(1-t^k)/(1-t);
+%o A002572 la(j)=prod(i=1, j, q^f(i) / ( 1 - q^f(i) ) );
+%o A002572 nm=sum(j=0, L, (-1)^j * q^f(j) * la(j) );
+%o A002572 dn=sum(j=0, L, (-1)^j * la(j) );
+%o A002572 gf=nm / dn;
+%o A002572 Vec( gf )
+%o A002572 /* _Joerg Arndt_, Dec 27 2012 */
+%Y A002572 Cf. A002573, A047913, A002574, A049284, A049285, A007178.
+%K A002572 core,nonn,nice,easy
+%O A002572 1,4
+%A A002572 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

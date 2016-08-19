@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014194
+Showing 1-1 of 1
+
+%I A014194
+%S A014194 1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014194 0,0,0,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014194 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014194 1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014194 0,0,0,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014194 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014194 Inverse of 185th cyclotomic polynomial.
+%H A014194 Vincenzo Librandi, <a href="/A014194/b014194.txt">Table of n, a(n) for n = 0..1000</a>
+%p A014194 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014194 CoefficientList[Series[1/Cyclotomic[185, x], {x, 0, 200}], x] (* _Vincenzo Librandi_, Apr 06 2014 *)
+%o A014194 (PARI) Vec(1/polcyclo(185)+O(x^99)) \\ _Charles R Greathouse IV_, Jun 28 2012
+%Y A014194 Cf. similar sequences listed in A240328, A240467.
+%K A014194 sign,easy
+%O A014194 0,1
+%A A014194 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

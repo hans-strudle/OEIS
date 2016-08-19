@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014747
+Showing 1-1 of 1
+
+%I A014747
+%S A014747 1,0,760,0,77560,524288,2508000,10485760,34729720,99614720,259114704,
+%T A014747 608174080,1327461600,2739404800,5341699520,9921626112,17701924600,
+%U A014747 30592204800,51294999960,83277905920,131880275664
+%N A014747 Theta series of lattice D20+.
+%D A014747 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 120.
+%F A014747 (theta2^20+theta3^20+theta4^20)/2.
+%K A014747 nonn
+%O A014747 0,3
+%A A014747 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008820
+Showing 1-1 of 1
+
+%I A008820
+%S A008820 1,0,2,0,3,0,4,2,5,4,6,6,9,8,12,10,15,12,18,16,21,20,24,24,29,28,34,
+%T A008820 32,39,36,44,42,49,48,54,54,61,60,68,66,75,72,82,80,89,88,96,96,105,
+%U A008820 104,114,112,123,120,132,130,141
+%N A008820 Expansion of (1+2*x^7+x^12)/(1-x^2)^2/(1-x^12).
+%K A008820 nonn
+%O A008820 0,3
+%A A008820 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

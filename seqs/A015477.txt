@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015477
+Showing 1-1 of 1
+
+%I A015477
+%S A015477 0,1,6,217,46878,60754105,472423967358,22041412681808953,
+%T A015477 6170184900967295034366,10363541282645125629123492409,
+%U A015477 104440618529953822157016270251244030,6315124821581059445960128077000914860421689
+%N A015477 q-Fibonacci numbers for q=6.
+%H A015477 Vincenzo Librandi, <a href="/A015477/b015477.txt">Table of n, a(n) for n = 0..50</a>
+%F A015477 a(n) = 6^(n-1) a(n-1) + a(n-2).
+%t A015477 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*6^(n-1) + a[n-2]},  a, {n, 20}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%K A015477 nonn,easy
+%O A015477 0,3
+%A A015477 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

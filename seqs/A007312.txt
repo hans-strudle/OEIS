@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007312
+Showing 1-1 of 1
+
+%I A007312 M1482
+%S A007312 1,2,5,15,52,200,825,3565,15900,72532,336539,1582593,7524705,
+%T A007312 36111810,174695712,851020367,4171156249,20555470155,101787990805,
+%U A007312 506227992092,2527493643612,12663916942984,63656297034920,320914409885850,1622205233276889
+%V A007312 1,-2,5,-15,52,-200,825,-3565,15900,-72532,336539,-1582593,7524705,
+%W A007312 -36111810,174695712,-851020367,4171156249,-20555470155,101787990805,
+%X A007312 -506227992092,2527493643612,-12663916942984,63656297034920,-320914409885850,1622205233276889
+%N A007312 Reversion of g.f. (with constant term omitted) for partition numbers.
+%D A007312 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007312 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%Y A007312 Cf. A000041, A066398.
+%K A007312 sign,easy
+%O A007312 1,2
+%A A007312 _N. J. A. Sloane_, _Mira Bernstein_
+%E A007312 Signs corrected Dec 24 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

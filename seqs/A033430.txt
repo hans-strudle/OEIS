@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033430
+Showing 1-1 of 1
+
+%I A033430
+%S A033430 0,4,32,108,256,500,864,1372,2048,2916,4000,5324,6912,8788,10976,
+%T A033430 13500,16384,19652,23328,27436,32000,37044,42592,48668,55296,62500,
+%U A033430 70304,78732,87808,97556,108000,119164,131072,143748,157216,171500,186624,202612,219488
+%N A033430 4*n^3.
+%C A033430 2*a(n) = (2*n)^3 is a perfect cube.
+%C A033430 Number of edges of the product of two complete bipartite graphs, each of order 2n, K_n,n x K_n,n - _Roberto E. Martinez II_, Jan 07 2002
+%C A033430 This sequence is related to A049451 by a(n) = n*A049451(n) + sum( A049451(i), i=0..n-1 ) for n>0. - _Bruno Berselli_, Dec 19 2013
+%H A033430 Vincenzo Librandi, <a href="/A033430/b033430.txt">Table of n, a(n) for n = 0..750</a>
+%H A033430 F. Ellermann, <a href="/A001792/a001792.txt">Illustration of binomial transforms</a>
+%H A033430 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1)
+%F A033430 G.f. 4*x*(1+4*x+x^2)/ (x-1)^4. - _R. J. Mathar_, Feb 01 2011
+%o A033430 (MAGMA) [4*n^3: n in [0..40]]; // _Vincenzo Librandi_, Apr 27 2011
+%o A033430 (PARI) a(n)=4*n^3 \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A033430 Cf. A049451.
+%K A033430 nonn,easy
+%O A033430 0,2
+%A A033430 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028451
+Showing 1-1 of 1
+
+%I A028451
+%S A028451 1,21,6272,880163,152526845,24972353440,4161756233501,690427159718433,
+%T A028451 114725843769441312,19056798015394695543,3165986817537284900809,
+%U A028451 525966380704787334395776,87380576637559587656345353,14516824056706613915897809761,2411733911295546238838103099168
+%N A028451 Number of perfect matchings in graph P_{2} X P_{7} X P_{n}.
+%H A028451 Alois P. Heinz, <a href="/A028451/b028451.txt">Table of n, a(n) for n = 0..150</a>
+%H A028451 Per Hakan Lundow, <a href="http://www.theophys.kth.se/~phl/Text/1factors.pdf">Computation of matching polynomials and the number of 1-factors in polygraphs</a>, Research report, No 12, 1996, Department of Math., Umea University, Sweden.
+%H A028451 Per Hakan Lundow, <a href="http://www.theophys.kth.se/~phl/Text/1factors2.ps.gz">Enumeration of matchings in polygraphs</a>, 1998.
+%Y A028451 Column k=7 of A181206.
+%K A028451 nonn
+%O A028451 0,2
+%A A028451 _Per H. Lundow_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

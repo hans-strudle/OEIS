@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002579
+Showing 1-1 of 1
+
+%I A002579 M2440 N0967
+%S A002579 3,5,8,12,17,23,30,37,45,54,64
+%N A002579 Number of integral points in a certain sequence of closed quadrilaterals.
+%D A002579 Ehrhart, Eugene; Deux corollaires de la loi de reciprocite du polyedre rationnel. C. R. Acad. Sci. Paris Ser. A-B 265 1967 A160-A162.
+%D A002579 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002579 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002579 E. Ehrhart, <a href="/A002578/a002578.pdf">Deux corollaires de la loi de reciprocite du polyedre rationnel</a>, C. R. Acad. Sci. Paris Ser. A-B 265 1967 A160-A162. [Annotated scanned copy]
+%F A002579 Ehrhart (1967) gives a g.f. on page 161.
+%Y A002579 Cf. A002578.
+%K A002579 nonn,more,easy
+%O A002579 1,1
+%A A002579 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

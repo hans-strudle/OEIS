@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035083
+Showing 1-1 of 1
+
+%I A035083
+%S A035083 0,0,0,1,1,2,3,7,14,33,74,180,438,1090,2741,6994,17966,46565,121440,
+%T A035083 318597,839953,2224486,5914248,15780662,42241422,113402369,305254039,
+%U A035083 823690961,2227640597,6037142355,16392945284,44592703836
+%N A035083 DIK(b)-DIK[ 2 ](b)-b where b is A035082.
+%H A035083 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%K A035083 nonn
+%O A035083 0,6
+%A A035083 _Christian G. Bower_, Nov 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

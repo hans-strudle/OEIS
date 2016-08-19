@@ -1,0 +1,45 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026769
+Showing 1-1 of 1
+
+%I A026769
+%S A026769 1,1,1,1,2,1,1,4,3,1,1,6,7,4,1,1,8,17,11,5,1,1,10,31,28,16,6,1,1,12,
+%T A026769 49,76,44,22,7,1,1,14,71,156,120,66,29,8,1,1,16,97,276,352,186,95,37,
+%U A026769 9,1,1,18,127,444,784,538,281,132,46,10,1,1,20
+%N A026769 Triangular array T read by rows: T(n,0)=T(n,n)=1 for n >= 0; T(2,1)=2; for n >= 3 and 1<=k<=n-1, T(n,k)=T(n-1,k-1)+T(n-2,k-1)+T(n-1,k) if 1<=k<=(n-1)/2, else T(n,k)=T(n-1,k-1)+T(n-1,k).
+%C A026769 T(n, k) is the number of paths from (0, 0) to (k,n-k) in the directed graph having vertices (i, j (i and j in range [0,n]) and edges (i,j)-to-(i+1,j) and (i,j)-to-(i,j+1) for i,j>=0 and edges (i,i+h)-to-(i+1,i+h+1) for i>=0, h>=1.
+%C A026769 Also, square array R read by antidiagonals where R(i,j) = T(i+j,i), which is equal to the number of paths from (0,0) to (i,j) in the above graph. - _Max Alekseyev_, Dec 02 2015
+%D A026769 Max A. Alekseyev, On Enumeration of Paths in the Catalan-Schroeder Lattices, Preprint, December 2015.
+%F A026769 For n>=2*k, T(n,k) = coefficient of x^k in G(x)*S(x)^(n-2*k). For n<=2*k, T(n,k) = coefficient of x^(n-k) in G(x)*C(x)^(2*k-n). Here C(x)=(1-sqrt(1-4x))/(2*x) is o.g.f. for A000108, S(x)=(1-x-sqrt(1-6*x+x^2))/(2*x) is o.g.f. for A006318, and G(x)=1/(1-x*(C(x)+S(x))) is o.g.f. for A026770. - _Max Alekseyev_, Dec 02 2015
+%e A026769 1;
+%e A026769 1,1;
+%e A026769 1,2,1;
+%e A026769 1,4,3,1;
+%e A026769 1,6,7,4,1;
+%e A026769 1,8,17,11,5,1;
+%e A026769 1,10,31,28,16,6,1;
+%e A026769 1,12,49,76,44,22,7,1;
+%e A026769 1,14,71,156,120,66,29,8,1;
+%e A026769 1,16,97,276,352,186,95,37,9,1;
+%e A026769 1,18,127,444,784,538,281,132,46,10,1;
+%p A026769 A026769 := proc(n,k)
+%p A026769     option remember;
+%p A026769     if k= 0 or k =n then
+%p A026769         1;
+%p A026769     elif n= 2 and k= 1 then
+%p A026769         2;
+%p A026769     elif k <= (n-1)/2 then
+%p A026769         procname(n-1,k-1)+procname(n-2,k-1)+procname(n-1,k) ;
+%p A026769     else
+%p A026769         procname(n-1,k-1)+procname(n-1,k) ;
+%p A026769     fi ;
+%p A026769 end proc: # _R. J. Mathar_, Jun 15 2014
+%Y A026769 Cf. A026770, A026771, A026772, A026773, A026774, A026775, A026776, A026777, A026779, A026779
+%Y A026769 Cf. A026780 (a variant with h>=0)
+%K A026769 nonn,tabl
+%O A026769 0,5
+%A A026769 _Clark Kimberling_
+%E A026769 Offset corrected. - _R. J. Mathar_, Jun 15 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

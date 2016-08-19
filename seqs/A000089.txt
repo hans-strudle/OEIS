@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000089
+Showing 1-1 of 1
+
+%I A000089
+%S A000089 1,1,0,0,2,0,0,0,0,2,0,0,2,0,0,0,2,0,0,0,0,0,0,0,2,2,0,0,2,0,0,0,0,2,
+%T A000089 0,0,2,0,0,0,2,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0,2,0,0,0,4,0,0,0,
+%U A000089 0,0,0,0,2,2,0,0,0,0,0,0,0,2,0,0,4,0,0,0,2,0,0,0,0,0,0,0,2,0,0,0,2,0,0,0,0
+%N A000089 Number of solutions to x^2 + 1 == 0 (mod n).
+%C A000089 Number of elliptic points of order 2 for GAMMA_0(n).
+%C A000089 The Dirichlet inverse, 1, -1, 0, 1, -2, 0, 0, -1, 0, 2, 0, 0, -2, 0,.. seems to equal A091400, apart from signs. - _R. J. Mathar_, Jul 15 2010
+%C A000089 Shadow transform of A002522. - _Michel Marcus_, Jun 06 2013
+%C A000089 a(n) != 0 iff n in A008784. - _Joerg Arndt_, Mar 26 2014
+%D A000089 M. Baake, "Solution of coincidence problem...", in R. V. Moody, ed., Math. of Long-Range Aperiodic Order, Kluwer 1997, pp. 9-44.
+%D A000089 G. Shimura, Introduction to the Arithmetic Theory of Automorphic Functions, Princeton, 1971, see p. 25, Eq. (2).
+%H A000089 T. D. Noe, <a href="/A000089/b000089.txt">Table of n, a(n) for n = 1..2000</a>
+%H A000089 M. Baake and U. Grimm, <a href="http://www.ma.utexas.edu/mp_arc-bin/mpa?yn=02-392">Quasicrystalline combinatorics</a>
+%H A000089 Fell, Harriet; Newman, Morris; Ordman, Edward; <a href="http://archive.org/details/jresv67Bn1p61">Tables of genera of groups of linear fractional transformations</a>, J. Res. Nat. Bur. Standards Sect. B 67B 1963 61-68.
+%H A000089 S. R. Finch and Pascal Sebah, <a href="http://arXiv.org/abs/math.NT/0604465">Squares and Cubes Modulo n</a> (arXiv:math.NT/0604465).
+%H A000089 John S. Rutherford, <a href="http://dx.doi.org/10.1107/S010876730804333X">Sublattice enumeration. IV. Equivalence classes of plane sublattices by parent Patterson symmetry and colour lattice group type</a>, Acta Cryst. (2009). A65, 156-163. [See Table 4].
+%H A000089 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A000089 a(n) = 0 if 4|n, else a(n) = Product_{ p | N } (1 + Legendre(-1, p) ), where we use the definition that Legendre(-1, 2) = 0, Legendre(-1, p) = 1 if p == 1 mod 4, = -1 if p == 3 mod 4. This is Shimura's definition, which is different from Maple's.
+%F A000089 Dirichlet series: (1+2^(-s))*Product (1+p^(-s))/(1-p^(-s)) (p=1 mod 4).
+%F A000089 Multiplicative with a(p^e) = 1 if p = 2 and e = 1; 0 if p = 2 and e > 1; 2 if p == 1 (mod 4); 0 if p == 3 (mod 4). - _David W. Wilson_, Aug 01 2001
+%F A000089 a(3*n) = a(4*n) = a(4*n + 3) = 0. a(4*n + 1) = A031358(n). - _Michael Somos_, Mar 24 2012
+%e A000089 G.f. = x + x^2 + 2*x^5 + 2*x^10 + 2*x^13 + 2*x^17 + 2*x^25 + 2*x^26 + 2*x^29 + ...
+%p A000089 with(numtheory); A000089 := proc (n) local i, s; if modp(n,4) = 0 then RETURN(0) fi; s := 1; for i in divisors(n) do if isprime(i) and i > 2 then s := s*(1+eval(legendre(-1,i))) fi od; s end: # _Gene Ward Smith_, May 22 2006
+%t A000089 Array[ Function[ n, If[ EvenQ[ n ] || Mod[ n, 3 ]==2, 0, Count[ Array[ Mod[ #^2+1, n ]&, n, 0 ], 0 ] ] ], 84 ]
+%t A000089 a[ n_] := If[ n < 1, 0, Length @ Select[ (#^2 + 1)/n & /@ Range[n], IntegerQ]]; (* _Michael Somos_, Aug 15 2015 *)
+%o A000089 (PARI) {a(n) = if( n<1, 0, sum( x=0, n-1, (x^2 + 1)%n==0))}; /* _Michael Somos_, Mar 24 2012 */
+%o A000089 (PARI) a(n)=my(o=valuation(n,2),f);if(o>1,0,n>>=o;f=factor(n)[,1]; prod(i=1,#f,kronecker(-1,f[i])+1)) \\ _Charles R Greathouse IV_, Jul 08 2013
+%o A000089 (Haskell)
+%o A000089 a000089 n = product $ zipWith f (a027748_row n) (a124010_row n) where
+%o A000089    f 2 e = if e == 1 then 1 else 0
+%o A000089    f p _ = if p `mod` 4 == 1 then 2 else 0
+%o A000089 -- _Reinhard Zumkeller_, Mar 24 2012
+%Y A000089 Cf. A031358, A027748, A124010, A000095.
+%K A000089 nonn,nice,mult
+%O A000089 1,5
+%A A000089 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

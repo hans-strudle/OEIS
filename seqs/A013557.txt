@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013557
+Showing 1-1 of 1
+
+%I A013557
+%S A013557 1,2,10,2356,986,36236852,45967324,6310668536,55999847998,
+%T A013557 13505508015664052,73561146096203972,1018280445612115249048,
+%U A013557 184320514834002228148,30993244629183109104307016
+%N A013557 Numerator of [x^(2n)] of the Taylor series sec(cot(x)-coth(x))= 1 +2*x^2/9 +10*x^4/243 +2356*x^6/229635 +986*x^8/413343+...
+%K A013557 nonn,frac
+%O A013557 0,2
+%A A013557 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013557 Values replaced by numerators. - R. J. Mathar, Dec 22 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

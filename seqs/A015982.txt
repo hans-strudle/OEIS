@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015982
+Showing 1-1 of 1
+
+%I A015982
+%S A015982 166,176,198,265,275,297,364,374,396,463,473,495,549,562,572,594,639,
+%T A015982 648,661,671,693,738,747,760,770,792,837,846,891,921,936,945,990,1396,
+%U A015982 1486,1576,1666,1697,1756,1787,1791,1793,1796,1846,1877
+%N A015982 Five iterations of Reverse and Add are needed to reach a palindrome.
+%C A015982 The number of iterations starts at 1, so palindromes (cf. A002113) are not excluded. The corresponding sequence excluding palindromes is A065210.
+%H A015982 <a href="/index/Res#RAA">Index entries for sequences related to Reverse and Add!</a>
+%Y A015982 A002113, A065210.
+%K A015982 nonn,base
+%O A015982 0,1
+%A A015982 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

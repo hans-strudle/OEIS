@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017271
+Showing 1-1 of 1
+
+%I A017271
+%S A017271 0,1000,8000,27000,64000,125000,216000,343000,512000,729000,1000000,
+%T A017271 1331000,1728000,2197000,2744000,3375000,4096000,4913000,5832000,
+%U A017271 6859000,8000000,9261000,10648000,12167000
+%N A017271 (10*n)^3.
+%H A017271 Vincenzo Librandi, <a href="/A017271/b017271.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017271 (MAGMA) [(10*n)^3: n in [0..40]]; // Vincenzo Librandi, Jul 28 2011
+%K A017271 nonn,easy
+%O A017271 0,2
+%A A017271 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

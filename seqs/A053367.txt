@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053367
+Showing 1-1 of 1
+
+%I A053367
+%S A053367 1,11,63,255,825,2277,5577,12441,25740,50050,92378,163098,277134,
+%T A053367 455430,726750,1129854,1716099,2552517,3725425,5344625,7548255,
+%U A053367 10508355,14437215,19594575
+%N A053367 Partial sums of A050494.
+%D A053367 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A053367 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9,-36,84,-126,126,-84,36,-9,1).
+%F A053367 a(n) = C(n+7, 7)*(3n+8)/8.
+%F A053367 G.f.: (1+2*x)/(1-x)^9.
+%o A053367 (PARI) a(n)=binomial(n+7, 7)*(3*n+8)/8 \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A053367 Cf. A050494.
+%Y A053367 Cf. A093560 ((3, 1) Pascal, column m=8).
+%K A053367 easy,nonn
+%O A053367 0,2
+%A A053367 _Barry E. Williams_, Jan 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

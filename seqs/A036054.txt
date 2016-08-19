@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036054
+Showing 1-1 of 1
+
+%I A036054
+%S A036054 1,1,1,2,2,2,2,3,4,4,5,5,6,5,4,6,8,7,7,6,12,9,7,8,10,6,11,12,10,8
+%N A036054 Number of different cycle lengths of the permutation created by length sorting on the partitions of n.
+%Y A036054 Cf. A036045-A036056.
+%K A036054 nonn,more
+%O A036054 1,4
+%A A036054 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

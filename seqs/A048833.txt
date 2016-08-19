@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048833
+Showing 1-1 of 1
+
+%I A048833
+%S A048833 1,1,2,4,6,10,16,31,43,68,98,153,213,317,443,704,971,1415,1975,2818,
+%T A048833 3865,5401,7366,10142,13639,18438,24583,32861,43345,57268,75175,99119,
+%U A048833 129278,168796,219614,284887,368546,475919,614379,788845,1012117
+%N A048833 Number of starting positions of Nim with 2n pieces such that 2nd player wins. Partitions of 2n such that xor-sum of partitions is 0.
+%D A048833 R. J. Nowakowski, G. Renault, E. Lamoureux, S. Mellon and T. Miller, The Game of timber!, http://www.labri.fr/perso/grenault/NRLMM.pdf, 2013. - From _N. J. A. Sloane_, Feb 11 2013
+%Y A048833 a(n)=A050314(2n, 0): column 0 of triangle.
+%K A048833 nonn
+%O A048833 0,3
+%A A048833 _Christian G. Bower_, Jun 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

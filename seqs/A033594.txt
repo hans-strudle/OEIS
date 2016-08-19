@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033594
+Showing 1-1 of 1
+
+%I A033594
+%S A033594 1,0,15,80,231,504,935,1560,2415,3536,4959,6720,8855,11400,14391,
+%T A033594 17864,21855,26400,31535,37296,43719,50840,58695,67320,76751,87024,
+%U A033594 98175,110240,123255,137256,152279,168360
+%V A033594 -1,0,15,80,231,504,935,1560,2415,3536,4959,6720,8855,11400,14391,
+%W A033594 17864,21855,26400,31535,37296,43719,50840,58695,67320,76751,87024,
+%X A033594 98175,110240,123255,137256,152279,168360
+%N A033594 (n-1)*(2*n-1)*(3*n-1).
+%C A033594 The sequence of n such that n is prime and (2*n+1) is prime is the sequence of Sophie Germain primes A005384 and the subsequence of those for which in addition (3*n+2) is prime is A067256. - _Jonathan Vos Post_, Dec 15 2004
+%C A033594 a(n)*A016921(n)+1 = A051866(n)^2.  - _Bruno Berselli_, May 23 2011
+%H A033594 Vincenzo Librandi, <a href="/A033594/b033594.txt">Table of n, a(n) for n = 0..1000</a>
+%H A033594 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4, -6, 4, -1).
+%F A033594 a(0)=-1, a(1)=0, a(2)=15, a(3)=80, a(n)=4*a(n-1)-6*a(n-2)+4*a(n-3)-a(n-4). - _Harvey P. Dale_, Aug 23 2012
+%p A033594 A033594:=n->(n-1)*(2*n-1)*(3*n-1); seq(A033594(n), n=0..40); # _Wesley Ivan Hurt_, Feb 24 2014
+%t A033594 Table[(n-1)*(2*n-1)*(3*n-1),{n,0,5!}] (* _Vladimir Joseph Stephan Orlovsky_, Apr 28 2010 *)
+%t A033594 LinearRecurrence[{4,-6,4,-1},{-1,0,15,80},40] (* _Harvey P. Dale_, Aug 23 2012 *)
+%o A033594 (MAGMA) [(n-1)*(2*n-1)*(3*n-1): n in [0..40]]; // Vincenzo Librandi, May 24 2011
+%Y A033594 Cf. A005384, A067256.
+%K A033594 sign
+%O A033594 0,3
+%A A033594 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

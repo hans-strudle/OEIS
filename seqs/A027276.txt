@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027276
+Showing 1-1 of 1
+
+%I A027276
+%S A027276 1,6,27,72,270,648,2268,5184,17496,38880,128304,279936,909792,1959552,
+%T A027276 6298560,13436928,42830208,90699264,287214336,604661760,1904684544,
+%U A027276 3990767616,12516498432,26121388032,81629337600,169789022208
+%N A027276 a(n) = Sum{(k+1)*T(n,k)}, 0<=k<=2n, T given by A026552.
+%F A027276 G.f.: (1+6x+15x^2-18x^3)/(1-6x^2)^2.
+%K A027276 nonn
+%O A027276 0,2
+%A A027276 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

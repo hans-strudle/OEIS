@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046350
+Showing 1-1 of 1
+
+%I A046350
+%S A046350 9,15,21,25,27,33,35,45,49,55,63,75,77,81,99,105,121,125,135,147,165,
+%T A046350 175,189,225,231,243,245,275,297,303,315,343,363,375,385,393,405,441,
+%U A046350 453,495,505,525,539,543,567,573,605,625,655,675,693,707,729,735,755
+%N A046350 Odd composite numbers with only palindromic prime factors.
+%t A046350 palQ[n_]:=Reverse[x=IntegerDigits[n]]==x; Select[Range[9,755,2],!PrimeQ[#]&&And@@palQ/@First/@FactorInteger[#]&] (* _Jayanta Basu_, Jun 05 2013 *)
+%Y A046350 Cf. A033620, A046349, A046351.
+%K A046350 nonn,base
+%O A046350 1,1
+%A A046350 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

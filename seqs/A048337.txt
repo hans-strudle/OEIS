@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048337
+Showing 1-1 of 1
+
+%I A048337
+%S A048337 0,1,2,3,4,5,6,7,8,9,10,11,12,14,28,42,56,70,84,98,112,126,140,154,
+%T A048337 168,183,366,549,732,915,1098,1281,1464,1647,1830,2013,2196,2380,4760,
+%U A048337 7140,9520,11900,14280,16660,19040,21420,23800,26180,28560,30941,61882
+%N A048337 a(n) in base 13 is a repdigit.
+%C A048337 Integers n such that A043540(n)=1. - _Michel Marcus_, Aug 19 2015
+%H A048337 Vincenzo Librandi, <a href="/A048337/b048337.txt">Table of n, a(n) for n = 0..1200</a>
+%H A048337 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repdigit.html">Repdigit</a>
+%t A048337 Union[Flatten[Table[FromDigits[PadRight[{}, n, d], 13], {n, 0, 50}, {d, 12}]]] (* _Vincenzo Librandi_, Feb 06 2014 *)
+%o A048337 (PARI) isok(n) = !n || (#vecsort(digits(n,13),,8) == 1) \\ _Michel Marcus_, Aug 19 2015
+%Y A048337 Cf. A010785, A033026, A028987, A028988, A043540.
+%K A048337 nonn,base
+%O A048337 0,3
+%A A048337 _Patrick De Geest_, Feb 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

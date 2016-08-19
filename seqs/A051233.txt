@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051233
+Showing 1-1 of 1
+
+%I A051233
+%S A051233 1,4,9,12,21,32,37,52,65,80,97,112,137,152,177,208,225,256,289,316,
+%T A051233 349,384,421,448,489,536,577,612,665,716,749,812,857,912,965,1020,
+%U A051233 1085,1124,1201,1264,1313
+%N A051233 Number of unit squares at least 50% covered by a circle inscribed in an integer square of size n X n.
+%e A051233 a(2)=4 because an inscribed circle in a 2 X 2 grid covers 50% of all the unit squares within it.
+%K A051233 easy,nonn
+%O A051233 1,2
+%A A051233 Joe K. Crump (joecr(AT)carolina.rr.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

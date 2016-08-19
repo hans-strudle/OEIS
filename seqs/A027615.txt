@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027615
+Showing 1-1 of 1
+
+%I A027615
+%S A027615 0,1,2,3,1,2,3,4,2,3,4,5,3,4,2,3,1,2,3,4,2,3,4,5,3,4,5,6,4,5,3,4,2,3,
+%T A027615 4,5,3,4,5,6,4,5,6,7,5,6,4,5,3,4,5,6,4,5,3,4,2,3,4,5,3,4,2,3,1,2,3,4,
+%U A027615 2,3,4,5,3,4,5,6,4,5,3,4,2
+%N A027615 Number of 1's when n is written in base -2.
+%C A027615 Base -2 is also called "negabinary".
+%D A027615 J.-P. Allouche and J. Shallit, Automatic Sequences, Cambridge Univ. Press, 2003, p. 164.
+%H A027615 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Negabinary.html">Negabinary.</a>
+%F A027615 a(n) = 3 * A072894(n+1) - 2n - 3. Proof by Nikolaus Meyberg, following a conjecture by _Ralf Stephan_. - _R. J. Mathar_, Jan 11 2013
+%Y A027615 Cf. A072894.
+%K A027615 nonn
+%O A027615 0,3
+%A A027615 _Pontus von Brömssen_, Nov 14 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

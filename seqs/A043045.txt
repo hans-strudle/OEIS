@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043045
+Showing 1-1 of 1
+
+%I A043045
+%S A043045 1,2,4,5,6,10,14,18,28,31,34,38,41,44,48,51,54,82,94,106,110,122,134,
+%T A043045 138,150,162,244,253,262,274,283,292,304,313,322,326,335,344,356,365,
+%U A043045 374,386,395,404,408,417,426,438,447,456,468
+%N A043045 a(n)=(s(n)+2)/3, where s(n)=n-th base 3 palindrome that starts with 1.
+%K A043045 nonn,base
+%O A043045 1,2
+%A A043045 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

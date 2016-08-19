@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056061
+Showing 1-1 of 1
+
+%I A056061
+%S A056061 1,1,1,1,1,2,1,1,2,4,1,2,2,2,2,2,1,2,1,2,2,2,1,2,4,4,8,8,4,6,2,2,2,4,
+%T A056061 2,4,4,4,2,4,2,2,2,2,8,12,4,8,8,8,8,8,4,6,2,2,2,3,2,3,3,3,4,4,2,4,2,4,
+%U A056061 4,4,1,2,2,2,4,4,8,12,2,4,12,12,4,4,8,12,12,12,4,6,8,12,12,12,8,16,8,8,6
+%N A056061 Number of square divisors of central binomial coefficients.
+%F A056061 a(n)=A046951[A001405(n)]=A000005[A000188(A001405(n)]
+%e A056061 n=27: binomial[27,13]=20058300, its largest square-divisor is 900=30^2 so a(27)=tau[30]=8.
+%Y A056061 Cf. A001405, A046951, A000005, A000188, A056056-A056060.
+%K A056061 nonn
+%O A056061 1,6
+%A A056061 _Labos Elemer_ Jul 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

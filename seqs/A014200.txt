@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014200
+Showing 1-1 of 1
+
+%I A014200
+%S A014200 0,1,2,2,3,5,5,5,6,7,9,9,9,11,11,11,12,14,15,15,17,17,17,17,17,20,22,
+%T A014200 22,22,24,24,24,25,25,27,27,28,30,30,30,32,34,34,34,34,36,36,36,36,37,
+%U A014200 40,40,42,44,44,44,44,44,46
+%N A014200 Number of solutions to x^2+y^2 <= n, excluding (0,0), divided by 4.
+%C A014200 From _Ant King_, Mar 15 2013: (Start)
+%C A014200 The terms of this sequence give a running total of the excess of the 4k + 1 divisors of the natural numbers (from 1 through to n) over their 4k + 3 divisors.
+%C A014200 To see how good the approximation n * pi/4 is to a(n), note that a(10^6) = 785387 whereas 10^6 * pi/4 rounds to 785398. (End)
+%F A014200 lim a(n)/n = pi/4
+%F A014200 a(n) = n - [n/3] + [n/5] - [n/7] + [n/9] - [n/11] + ... - Yuval Dekel (dekelyuval(AT)hotmail.com), Aug 28 2003
+%t A014200 1/4*Prepend[SquaresR[2,#]&/@Range[58],0]//Accumulate (*_Ant King_ Mar 15 2013*)
+%Y A014200 Cf. A014198/4, A059851.
+%K A014200 nonn
+%O A014200 0,3
+%A A014200 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

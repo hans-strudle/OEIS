@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049328
+Showing 1-1 of 1
+
+%I A049328
+%S A049328 51,91,130,154,156,220,297,441,525,560,625,630,672,750,756,800,900,
+%T A049328 960,1024
+%N A049328 Numbers whose prime factors sum to 20.
+%e A049328 E.g. 51 = 3 * 17 and 3 + 17 = 20. 1024 = 2^10 and 10*2 = 20.
+%K A049328 fini,full,nonn
+%O A049328 0,1
+%A A049328 Rawlyn Watson (rawlyn(AT)chplayers.freeserve.co.uk)
+%E A049328 Corrected by _Frank Ellermann_, Jun 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

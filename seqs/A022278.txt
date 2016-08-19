@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022278
+Showing 1-1 of 1
+
+%I A022278
+%S A022278 0,10,41,93,166,260,375,511,668,846,1045,1265,1506,1768,2051,2355,
+%T A022278 2680,3026,3393,3781,4190,4620,5071,5543,6036,6550,7085,7641,8218,
+%U A022278 8816,9435,10075,10736,11418,12121
+%N A022278 a(n) = n*(21*n-1)/2.
+%F A022278 a(n) = 21*n+a(n-1)-11 for n>0, a(0)=0. [From _Vincenzo Librandi_, Aug 04 2010]
+%t A022278 Table[n (21 n - 1)/2, {n, 0, 100}] (* _Vladimir Joseph Stephan Orlovsky_, Mar 07 2011*)
+%K A022278 nonn,easy
+%O A022278 0,2
+%A A022278 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

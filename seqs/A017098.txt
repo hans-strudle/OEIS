@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017098
+Showing 1-1 of 1
+
+%I A017098
+%S A017098 1024,10000000000,3570467226624,141167095653376,2064377754059776,
+%T A017098 17080198121677824,97656250000000000,430804206899405824,
+%U A017098 1568336880910795776,4923990397355877376,13744803133596058624
+%N A017098 (8*n+2)^10.
+%H A017098 Vincenzo Librandi, <a href="/A017098/b017098.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017098 (MAGMA) [(8*n+2)^10: n in [0..20]]; // Vincenzo Librandi, Jul 12 2011
+%K A017098 nonn,easy
+%O A017098 0,1
+%A A017098 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

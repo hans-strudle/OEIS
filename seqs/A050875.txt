@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050875
+Showing 1-1 of 1
+
+%I A050875
+%S A050875 33,45,51,63,128,131,133,137,145,152,155,157,161,164,167,173,181,185,
+%T A050875 188,191,193,194,199,203,211,217,218,223,227,229,230,239,247,251,253,
+%U A050875 254,514,516,519,520,523,525,528,531,533,537
+%N A050875 Binary numbers d(1)...d(j) such that d(i)=d(j+1-i) for all but 6 i.
+%K A050875 nonn,base
+%O A050875 1,1
+%A A050875 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

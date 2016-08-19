@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057715
+Showing 1-1 of 1
+
+%I A057715
+%S A057715 12,24,40,45,48,56,63,80,96,112,135,144,160,175,176,189,192,208,224,
+%T A057715 275,288,297,320,325,351,352,384,405,416,425,448,459,475,513,539,544,
+%U A057715 567,575,576,608,621,637,640,675,704,720,736,768,800,832,833,864,875
+%N A057715 If (p_k)^(c_k) is highest power of p_k dividing n (where p_k is a prime dividing n and p_k > p_j for all k > j), then (p_k)^(c_k) < (p_j)^(c_j) for all k > j.
+%H A057715 Lei Zhou, <a href="/A057715/b057715.txt">Table of n, a(n) for n = 1..10000</a>
+%e A057715 720 is included because 720 = 2^4 * 3^2 * 5^1 and 2^4 > 3^2 > 5^1.
+%t A057715 Select[Range[575], Greater @@ Power @@@ (fi = FactorInteger[#]) && Length[fi] > 1 &] (* _Ray Chandler_, Nov 06 2008 *)
+%K A057715 nonn,easy
+%O A057715 1,1
+%A A057715 _Leroy Quet_, Oct 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013467
+Showing 1-1 of 1
+
+%I A013467
+%S A013467 1,4,7,53,215,1895,12122,132205,1144627,14912291,164213696,2477432371,
+%T A013467 33228911417,569758644845,9014907260096,173288317530505,
+%U A013467 3159048447572983,67337939660404735,1389152842003647000
+%N A013467 -log(cos(x)-log(x+1))=1/2!*x^2+4/3!*x^3+7/4!*x^4+53/5!*x^5...
+%K A013467 nonn
+%O A013467 0,2
+%A A013467 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

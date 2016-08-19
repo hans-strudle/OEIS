@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028395
+Showing 1-1 of 1
+
+%I A028395
+%S A028395 14,21,16,24,36,54,81,61,46,69,52,78,117,88,132,198,297,223,167,125,
+%T A028395 94,141,106,159,119,89,67,50,75,56,84,126,189,142,213,160,240,360,540,
+%U A028395 810,1215,911,683,512,768,1152,1728,2592,3888,5832,8748,13122,19683
+%N A028395 Iterate the map in A006368 starting at 14.
+%D A028395 J. H. Conway, On unsettleable arithmetical problems, Amer. Math. Monthly, 120 (2013), 192-198.
+%D A028395 D. Gale, Tracking the Automatic Ant and Other Mathematical Explorations, A Collection of Mathematical Entertainments Columns from The Mathematical Intelligencer, Springer, 1998; see p. 16.
+%H A028395 T. D. Noe, <a href="/A028395/b028395.txt">Table of n, a(n) for n=0..1000</a>
+%H A028395 <a href="/index/3#3x1">Index entries for sequences related to 3x+1 (or Collatz) problem</a>
+%F A028395 a(n+1) = A006368(a(n)).
+%o A028395 (Haskell)
+%o A028395 a028395 n = a028395_list !! n
+%o A028395 a028395_list = iterate a006368 14  -- _Reinhard Zumkeller_, Apr 18 2012
+%Y A028395 Cf. A028393.
+%Y A028395 Cf. A180853, A180864, A182205; A028398(5) = 14.
+%K A028395 nonn
+%O A028395 0,1
+%A A028395 _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

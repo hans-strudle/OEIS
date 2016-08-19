@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045650
+Showing 1-1 of 1
+
+%I A045650
+%S A045650 3,9,23,58,153,409,1103,2988,8112,22036,59885,162766,442426,1202618,
+%T A045650 3269032,8886126,24154969,65659986,178482317,485165200,1318815598,
+%U A045650 3584912013,9744794175,26489071629,72004350010,195726622880
+%N A045650 Numbers that cannot be expressed as k + floor(log(k)) where k is an integer.
+%C A045650 Complement of A212445. - _Michel Marcus_, Jun 30 2015
+%F A045650 Conjecture: lim n->infinity a(n) = e^n. - _Ron R. King_, Nov 10 2006
+%F A045650 a(n) = floor(e^n) + n. - Nurdin N. Takenov (greanvert(AT)gmail.com), Mar 10 2007
+%o A045650 (PARI) a(n)=floor(exp(n))+n \\ _Charles R Greathouse IV_, Jul 02 2015
+%Y A045650 Cf. A212445.
+%K A045650 nonn
+%O A045650 1,1
+%A A045650 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

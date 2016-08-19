@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021068
+Showing 1-1 of 1
+
+%I A021068
+%S A021068 0,1,5,6,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A021068 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A021068 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A021068 Decimal expansion of 1/64.
+%C A021068 Also, decimal expansion of 1/10 * integral_0^infinity x^4/(cosh(pi x)) dx. [_Bruno Berselli_, Mar 20 2013]
+%K A021068 nonn,cons
+%O A021068 0,3
+%A A021068 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045210
+Showing 1-1 of 1
+
+%I A045210
+%S A045210 25,50,75,126,127,128,130,135,140,150,175,200,251,252,253,255,260,265,
+%T A045210 275,300,325,376,377,378,380,385,390,400,425,450,631,632,633,636,637,
+%U A045210 638,641,642,643,651,652,653,655,660,665,676
+%N A045210 Numbers n with property that in base 5 representation the numbers of 0's and 4's are 2 and 0, respectively.
+%t A045210 Select[Range[700],DigitCount[#,5,0]==2&&DigitCount[#,5,4]==0&] (* _Harvey P. Dale_, Apr 04 2015 *)
+%K A045210 nonn,base
+%O A045210 1,1
+%A A045210 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

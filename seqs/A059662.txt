@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059662
+Showing 1-1 of 1
+
+%I A059662
+%S A059662 0,2,4,3,12,5,14,27,8,25,30,31,36,13,18,131,60,133,458,247
+%N A059662 Positions of the flipped bits (here they are always set from 0 to 1) in the sequence A059661.
+%C A059662 E.g. starting from A059661[1] = 2, flip (set) bit 0, gives A059661[2] = 3 (= 2+2^0), set bit 2, gives A059661[3] = 7 (3+2^2), set bit 4, gives A059661[4] = 23 (7+2^4), etc.
+%C A059662 Question: If A059661 could be extended infinitely, would all the natural numbers > 1 eventually appear here once?
+%p A059662 map(floor_log_2,map(abs,DIFF(A059661))); # For floor_log_2, which essentially computes log[2](x) here, see A054429
+%K A059662 nonn,more,base
+%O A059662 1,2
+%A A059662 _Antti Karttunen_, Feb 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

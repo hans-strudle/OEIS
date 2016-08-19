@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012361
+Showing 1-1 of 1
+
+%I A012361
+%S A012361 1,2,6,24,160,1312,13496,162624,2282880,36300032,646542336,
+%T A012361 12732724224,274854736000,6451455453952,163604692933376,
+%U A012361 4457345570893824,129841475781611520,4026939664026755072
+%N A012361 arcsin(tan(x)*exp(x))=x+2/2!*x^2+6/3!*x^3+24/4!*x^4+160/5!*x^5...
+%K A012361 nonn
+%O A012361 0,2
+%A A012361 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

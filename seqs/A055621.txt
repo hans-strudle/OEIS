@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055621
+Showing 1-1 of 1
+
+%I A055621
+%S A055621 1,4,34,1952,18664632,12813206150470528,
+%T A055621 33758171486592987151274638874693632,
+%U A055621 1435913805026242504952006868879460423801146743462225386100617731367239680
+%N A055621 Number of covers of an unlabeled n-set.
+%D A055621 F. Bergeron, G. Labelle and P. Leroux, Combinatorial Species and Tree-Like Structures, Cambridge, 1998, pg 78 (2.3.39)
+%H A055621 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Cover.html">Cover</a>
+%F A055621 a(n)=(A003180(n)-A003180(n-1))/2.
+%e A055621 There are 4 nonisomorphic covers of {1,2}, namely {{1},{2}}, {{1,2}}, {{1},{1,2}} and {{1},{2},{1,2}}.
+%Y A055621 Cf. A003465 (labeled case). Differences of A000612.
+%K A055621 easy,nonn
+%O A055621 1,2
+%A A055621 _Vladeta Jovovic_, Jun 04 2000
+%E A055621 More terms from David Moews (dmoews(AT)xraysgi.ims.uconn.edu) Jul 04 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

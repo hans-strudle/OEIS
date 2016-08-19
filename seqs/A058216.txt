@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058216
+Showing 1-1 of 1
+
+%I A058216
+%S A058216 2,10,13,16,32,37,97,155,160,176,193,224,253,256,275,592
+%N A058216 Numbers n such that x^n + x^12 + 2 is irreducible over GF(3).
+%t A058216 Do[ If[ ToString[ Factor[ x^n + x^12 + 2, Modulus -> 3] ] == ToString[ x^n + x^12 + 2 ], Print[ n ] ], {n, 0, 760} ]
+%Y A058216 Cf. A057482.
+%K A058216 nonn
+%O A058216 1,1
+%A A058216 _Robert G. Wilson v_, Nov 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053439
+Showing 1-1 of 1
+
+%I A053439
+%S A053439 1,2,4,8,11,18,22,32,37,50,56,72,79,98,106,128,137,162,172,200,211,
+%T A053439 242,254,288,301,338,352,392,407,450,466,512,529,578,596,648,667,722,
+%U A053439 742,800,821,882,904,968,991,1058,1082,1152,1177,1250,1276
+%N A053439 Expansion of (1+x+2*x^3)/((1-x)*(1-x^2)^2).
+%H A053439 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (1, 2, -2, -1, 1).
+%F A053439 Even: a(2*n)= 2* n^2 +n +1, odd: a(2*n-1)= 2* n^2. - Frank Ellermann, Feb 11, 2002
+%F A053439 a(n)=sum{k=0..n, C(n, mod(k, 2)) } - _Paul Barry_, Jul 24 2003
+%t A053439 CoefficientList[Series[(1+x+2x^3)/((1-x)(1-x^2)^2),{x,0,50}],x] (* or *)
+%t A053439 LinearRecurrence[{1,2,-2,-1,1},{1,2,4,8,11},50] (* _Harvey P. Dale_, Apr 26 2011 *)
+%K A053439 nonn
+%O A053439 0,2
+%A A053439 _N. J. A. Sloane_, Jan 12 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

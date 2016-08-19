@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023592
+Showing 1-1 of 1
+
+%I A023592
+%S A023592 5,7,11,3,23,3,5,3,47,59,3,3,83,3,5,107,7,3,3,11,3,3,167,179,3,7,3,5,
+%T A023592 3,227,3,263,5,3,13,3,3,3,5,347,359,3,383,3,5,3,3,3,5,3,467,479,3,503,
+%U A023592 5,17,7,3,3,563,3,587,3,7,3,5,3,3,5,3,7,719,3,3,3,13,19,3,11,3
+%N A023592 Least odd prime divisor of 2*p(n)+1.
+%o A023592 (PARI) a(n) = factor(2*prime(n)+1)[1, 1]; \\ _Michel Marcus_, Oct 02 2013
+%Y A023592 Except for first term, same as A094460.
+%K A023592 nonn
+%O A023592 1,1
+%A A023592 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

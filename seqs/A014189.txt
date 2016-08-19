@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014189
+Showing 1-1 of 1
+
+%I A014189
+%S A014189 1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+%T A014189 0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014189 0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014189 1,0,0,0,0,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
+%W A014189 0,0,-1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014189 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014189 Inverse of 180th cyclotomic polynomial.
+%H A014189 Vincenzo Librandi, <a href="/A014189/b014189.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014189 <a href="/index/Rec#order_48">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 0, 0, 0, -1).
+%p A014189 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014189 CoefficientList[Series[1/Cyclotomic[180, x], {x, 0, 200}], x] (* _Vincenzo Librandi_, Apr 06 2014 *)
+%Y A014189 Cf. similar sequences listed in A240328, A240467.
+%K A014189 sign,easy
+%O A014189 0,1
+%A A014189 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

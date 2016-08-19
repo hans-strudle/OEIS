@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016385
+Showing 1-1 of 1
+
+%I A016385
+%S A016385 1,1,1,0,0,1,1,1,0,0,0,1,1,1,0,1,2,2,1,0,1,1,1,0,0,0,1,1,1,0,
+%T A016385 1,2,2,2,1,0,1,1,1,1,1,1,1,1,1,0,1,2,2,2,1,0,1,1,1,0,0,0,
+%U A016385 1,1,1,0,1,2,2,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1,1
+%V A016385 1,-1,1,0,0,1,-1,1,0,0,0,1,-1,1,0,-1,2,-2,1,0,-1,1,-1,0,0,0,-1,1,-1,0,
+%W A016385 1,-2,2,-2,1,0,-1,1,-1,1,-1,1,-1,1,-1,0,1,-2,2,-2,1,0,-1,1,-1,0,0,0,
+%X A016385 -1,1,-1,0,1,-2,2,-1,0,1,-1,1,0,0,0,1,-1,1,0,0,1,-1,1
+%N A016385 330th cyclotomic polynomial.
+%t A016385 CoefficientList[Cyclotomic[330,x],x] (* _Harvey P. Dale_, Feb 21 2012 *)
+%K A016385 sign,fini
+%O A016385 0,17
+%A A016385 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

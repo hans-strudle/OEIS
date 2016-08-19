@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023051
+Showing 1-1 of 1
+
+%I A023051
+%S A023051 6963472309248,12625136269928,21131226514944,26059452841000,
+%T A023051 55707778473984,74213505639000,95773976104625,101001090159424,
+%U A023051 159380205560856,169049812119552,174396242861568,188013752349696
+%N A023051 Numbers that are the sum of two positive cubes in at least four ways (all solutions).
+%D A023051 R. K. Guy, Unsolved Problems in Number Theory, D1.
+%H A023051 Uwe Hollerbach, <a href="/A023051/b023051.txt">Table of n, a(n) for n=1..16939</a>
+%H A023051 Uwe Hollerbach, <a href="http://web.archive.org/web/20120203221114/http://www.korgwal.com/ramanujan">Taxi, Taxi!</a>
+%H A023051 D. W. Wilson, <a href="https://cs.uwaterloo.ca/journals/JIS/wilson10.html">The Fifth Taxicab Number is 48988659276962496</a>, J. Integer Sequences, Vol. 2, 1999, #99.1.9.
+%Y A023051 Cf. A023050, A011541, A003826, A001235.
+%K A023051 nonn
+%O A023051 1,1
+%A A023051 _David W. Wilson_ (revised Oct 15 1997)
+%E A023051 b-file extended by _Ray Chandler_, Jan 19 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

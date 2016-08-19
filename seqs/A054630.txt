@@ -1,0 +1,51 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054630
+Showing 1-1 of 1
+
+%I A054630
+%S A054630 1,2,3,3,6,11,4,10,24,70,5,15,45,165,629,6,21,76,336,1560,7826,7,28,
+%T A054630 119,616,3367,19684,117655,8,36,176,1044,6560,43800,299600,2097684,9,
+%U A054630 45,249,1665,11817,88725,683289,5381685,43046889,10,55
+%N A054630 Triangle read by rows: row n (n>=1) contains the numbers T(n,k) = sum_{ d divides k } phi(d)*n^(k/d)/k for k = 1..n.
+%C A054630 Let S_k = {0,..,k-1}. Then Sigma(n,k) is the set of all length-n strings over S_k and Sigma(*,k) is the set of all strings over S_k. A string a in Sigma(n,k) is a pre-necklace if ab is a necklace for some b in Sigma(*,k). Then T(n,k) are the number of pre-necklaces in Sigma(n,k) (see Ruskey, Savage and Wang). - _Peter Luschny_, Aug 12 2012
+%D A054630 F. Ruskey, C. Savage, and T. M. Y. Wang. Generating necklaces. Journal of Algorithms, 13(3), 414 - 430, 1992.
+%H A054630 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A054630 T(n,n) = A056665(n). - _Peter Luschny_, Aug 12 2012
+%e A054630 Triangle starts:
+%e A054630 1;
+%e A054630 2,  3;
+%e A054630 3,  6, 11;
+%e A054630 4, 10, 24, 70;
+%e A054630 5, 15, 45, 165,  629;
+%e A054630 6, 21, 76, 336, 1560, 7826;
+%e A054630 For example the 24 pre-necklaces over {0,1,2} of length 4 are:
+%e A054630 0000,0001,0002,0011,0012,0021,0022,0101,0102,0111,0112,0121,
+%e A054630 0122,0202,0211,0212,0221,0222,1111,1112,1122,1212,1222,2222.
+%o A054630 (Sage)
+%o A054630 # Generates and counts the pre-necklaces in Sigma(n,k).
+%o A054630 # This is algorithm FKM in Ruskey, Savage and Wang.
+%o A054630 def A054630_count(n, k):
+%o A054630     a = [0]*(n+1)
+%o A054630     #print "".join(map(str,a[1:]))
+%o A054630     count = 1; i = n
+%o A054630     if n == 1: return 1
+%o A054630     while true :
+%o A054630         a[i] += 1
+%o A054630         for j in (1..n-i): a[j+i] = a[j]
+%o A054630         if n%i == 0:
+%o A054630             count += 1
+%o A054630             #print "".join(map(str,a[1:]))
+%o A054630         i = n
+%o A054630         while a[i] == k-1: i -= 1
+%o A054630         if i == 0: break
+%o A054630     return count
+%o A054630 def A054630(n,k):
+%o A054630     return  (1/k)*add(euler_phi(d)*n^(k/d) for d in divisors(k))for n in (1..9):
+%o A054630 A054630(n,k) for k in (1..n)]  # _Peter Luschny_, Aug 12 2012
+%Y A054630 Cf. A054631, A054618, A054619, A056665, A215474. Upper triangle of A075195.
+%K A054630 nonn,tabl
+%O A054630 1,2
+%A A054630 _N. J. A. Sloane_, Apr 16 2000, revised Mar 21 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

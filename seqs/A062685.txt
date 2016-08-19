@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062685
+Showing 1-1 of 1
+
+%I A062685
+%S A062685 1,0,0,4,0,0,16,0,9,64,0,0,49,0,0,169,0,576,289,0,0,1849,0,0,4489,0,
+%T A062685 3969,17956,0,0,6889,0,0,27889,0,69696,98596,0,0,97969,0,0,499849,0,
+%U A062685 1887876,698896,0,0,2778889,0,0,4999696,0,9696996,19998784,0,0
+%N A062685 Smallest square with digit sum n (or 0 if no such square exists).
+%e A062685 16 is the smallest square with digit sum 7
+%K A062685 base,easy,nonn
+%O A062685 1,4
+%A A062685 _Erich Friedman_, Jul 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

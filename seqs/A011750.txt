@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011750
+Showing 1-1 of 1
+
+%I A011750
+%S A011750 1,1,1,1,1,0,1,1,1,0,0,0,1,0,1,0,1,1,0,1,0,0,0,0,1,1,0,0,1,0,0,1,1,1,
+%T A011750 1,1,0,1,1,1,0,0,0,1,0,1,0,1,1,0,1,0,0,0,0,1,1,0,0,1,0,0,1,1,1,1,1,0,
+%U A011750 1,1,1,0,0,0,1,0,1,0,1,1,0
+%N A011750 Expansion of (1+x^2)/(1+x+x^2+x^3+x^5) mod 2.
+%D A011750 R. Gold, Characteristic linear sequences and their coset functions, J. SIAM Applied. Math., 14 (1966), 980-985.
+%H A011750 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>
+%p A011750 series((1+x^2)/(1+x+x^2+x^3+x^5),x,100) mod 2;
+%K A011750 nonn
+%O A011750 0,1
+%A A011750 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

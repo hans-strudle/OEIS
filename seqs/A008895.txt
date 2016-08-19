@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008895
+Showing 1-1 of 1
+
+%I A008895
+%S A008895 63,188,94,47,140,70,35,104,52,26,13,38,19,56,28,14,7,20,10,5,14,7,20,
+%T A008895 10,5,14,7,20,10,5,14,7,20,10,5,14,7,20,10,5,14,7,20,10,5,14,7,20,10,
+%U A008895 5,14,7,20,10,5,14,7,20,10,5
+%N A008895 x->x/2 if x even, x->3x-1 if x odd.
+%D A008895 R. K. Guy, Unsolved Problems in Number Theory, E16.
+%K A008895 nonn
+%O A008895 0,1
+%A A008895 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

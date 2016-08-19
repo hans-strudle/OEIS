@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059386
+Showing 1-1 of 1
+
+%I A059386
+%S A059386 1,0,3,15,168,3405,77253,2151240,77493783,3369709995,169438618608,
+%T A059386 9847267355145,658888820876553,49985438650733040,4245160431876404043,
+%U A059386 401030532597501719655,41924382309752516224728,4820179120197824593864965
+%N A059386 E.g.f. cosh(cosh(x)-1) (even powers only).
+%C A059386 a(n) is the number of partitions of the set {1, 2, ..., 2n} into an even number of blocks, each containing an even number of elements. - Isabel C. Lugo (izzycat(AT)gmail.com), Aug 23 2004
+%D A059386 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 226, 9th line of table.
+%t A059386 nn = 30; Insert[Select[Range[0, nn]! CoefficientList[Series[Cosh[Cosh[x] - 1], {x, 0, nn}], x], # > 0 &], 0, 2] (* _Geoffrey Critzer_, Mar 31 2012 *)
+%K A059386 nonn
+%O A059386 0,3
+%A A059386 _N. J. A. Sloane_, Jan 28 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

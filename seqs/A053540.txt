@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053540
+Showing 1-1 of 1
+
+%I A053540
+%S A053540 1,18,243,2916,32805,354294,3720087,38263752,387420489,3874204890,
+%T A053540 38354628411,376572715308,3671583974253,35586121596606,
+%U A053540 343151886824415,3294258113514384,31501343210481297,300189270593998242,2851798070642983299,27017034353459841780
+%N A053540 a(n) = n*9^(n-1).
+%H A053540 Vincenzo Librandi, <a href="/A053540/b053540.txt">Table of n, a(n) for n = 1..300</a>
+%H A053540 F. Ellermann, <a href="/A001792/a001792.txt">Illustration of binomial transforms</a>
+%H A053540 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (18,-81).
+%F A053540 From _Colin Barker_, Oct 17 2012: Start
+%F A053540 a(n) = 18*a(n-1) - 81*a(n-2).
+%F A053540 G.f.: x/(81*x^2-18*x+1).  (End)
+%t A053540 f[n_]:=n*9^(n-1); f[Range[40]] (* _Vladimir Joseph Stephan Orlovsky_, Feb 09 2011*)
+%o A053540 (MAGMA) [n*9^(n-1): n in [1..20]]; // _Vincenzo Librandi_, Jun 11 2011
+%o A053540 (PARI) a(n)=n*9^(n-1) \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A053540 Related to computing A023052.
+%Y A053540 Cf. A001787, A053464, A053469.
+%K A053540 nonn,easy
+%O A053540 1,2
+%A A053540 _Barry E. Williams_, Jan 15 2000
+%E A053540 More terms from Larry Reeves (larryr(AT)acm.org), May 29 2001
+%E A053540 Edited by _N. J. A. Sloane_ at the suggestion of _Reinhard Zumkeller_, Sep 16 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

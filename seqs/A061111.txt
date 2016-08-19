@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061111
+Showing 1-1 of 1
+
+%I A061111
+%S A061111 1,25,9712,4500526591296
+%N A061111 a(1) = 1; a(n) = smallest number such that the concatenation a(1).0^*.a(2).0^*....0^*.a(n) is a perfect cube (where any number of 0's can be inserted between the terms).
+%C A061111 The implication is that 10...01, 10...02, 10...03, ..., 10...024 are never cubes for any number of internal zeros, while 125 IS a cube, so a(2) = 25. - _N. J. A. Sloane_, Jul 21 2001
+%D A061111 Amarnath Murthy, Exploring some new ideas on Smarandache type sets, functions and sequences, Smarandache Notions Journal Vol. 11, No. 1-2-3, Spring 2000.
+%e A061111 a(1) = 1, a(1)a(2) = 125 = 5^3, a(1)a(2)a(3) = 1259712 = 108^3, a(1)a(2)a(3)0a(4) = 5012916^3.
+%Y A061111 Cf. A061109, A051671, A061110.
+%K A061111 base,nonn
+%O A061111 0,2
+%A A061111 _Amarnath Murthy_, Apr 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

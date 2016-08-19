@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007040
+Showing 1-1 of 1
+
+%I A007040 M0354
+%S A007040 2,2,6,6,10,20,28,46,78,122,198,324,520,842,1366,2206,3570,5780,9348,
+%T A007040 15126,24478,39602,64078,103684,167760,271442,439206,710646,1149850,
+%U A007040 1860500,3010348,4870846,7881198,12752042,20633238,33385284,54018520
+%N A007040 Number of cyclic n-bit binary strings containing no runs of length >2.
+%D A007040 Z. Agur et al., The number of fixed points of the majority rule, Discr. Math., 70 (1988), 295-302.
+%D A007040 Moser, W. O. J.; Cyclic binary strings without long runs of like (alternating) bits. Fibonacci Quart. 31 (1993), no. 1, 2-6.
+%D A007040 A. McLeod and W. O. J. Moser, Counting cyclic binary strings, Math. Mag., 80 (No. 1, 2007), 29-37.
+%D A007040 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007040 Vincenzo Librandi, <a href="/A007040/b007040.txt">Table of n, a(n) for n = 1..1000</a>
+%H A007040 Matthew Macauley , Jon McCammond, Henning S. Mortveit, <a href="http://www.emis.de/journals/JACO/Volume33_1/hgv665924j44t770.html">Dynamics groups of asynchronous cellular automata</a>, Journal of Algebraic Combinatorics, Vol 33, No 1 (2011), p 11-35.
+%H A007040 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (0, 1, 2, 1).
+%F A007040 a(n) = a(n-2) + 2*a(n-3) + a(n-4), n >= 7. - _David W. Wilson_
+%F A007040 a(n) = n*sum(k=1..n, binomial(2*k,n-2*k)/k), n>1, a(0)=0, a(1)=2. [From Vladimir Kruchinin, Oct 12 2011]
+%F A007040 G.f.: 2*x*(1+x+2*x^2-x^4)/((1-x-x^2)*(1+x+x^2)). [Colin Barker, Mar 15 2012]
+%t A007040 Join[{2},LinearRecurrence[{0,1,2,1},{2,6,6,10},40]](* or *) Join[{2}, Table[n Sum[Binomial[2k,n-2k]/k,{k,n}],{n,2,40}]] (* _Harvey P. Dale_, Nov 09 2011 *)
+%o A007040 (PARI) a(n)=if(n<3,2,([0,1,0,0; 0,0,1,0; 0,0,0,1; 1,2,1,0]^(n-2)*[2;6;6;10])[1,1]) \\ _Charles R Greathouse IV_, Jun 15 2015
+%Y A007040 Cf. A007039.
+%K A007040 nonn,nice,easy
+%O A007040 1,1
+%A A007040 _N. J. A. Sloane_.
+%E A007040 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

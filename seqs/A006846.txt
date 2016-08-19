@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006846
+Showing 1-1 of 1
+
+%I A006846 M1807
+%S A006846 1,1,2,7,41,376,5033,92821,2257166,69981919,2694447797,126128146156,
+%T A006846 7054258103921,464584757637001,35586641825705882,3136942184333040727
+%N A006846 Hammersley's polynomial p_n(1).
+%C A006846 Equals column 0 of triangle A104027. Also equals column 0 of triangle A104030 (offset 1). Both A104027 and A104030 involve the trinomial coefficients. - _Paul D. Hanna_, Mar 06 2005
+%D A006846 J. M. Hammersley, An undergraduate exercise in manipulation, Math. Scientist, 14 (1989), 1-23.
+%D A006846 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A006846 a(n) = sum_{k>=0} (-1)^(n+k)*A065547(n, k) = sum_{k>=0} A085707(n, k) . - _Philippe Deléham_, Feb 26 2004
+%F A006846 E.g.f.: cosh(sqrt(3)*x/2)/cos(x/2) = Sum_{n>=0} a(n)*x^(2n)/(2n)!. - _Paul D. Hanna_, Feb 27 2005
+%F A006846 a(n) = (-1)^n*A104027(n, 0). a(n+1) = (-1)^(n+1)*A104030(n, 0). - _Paul D. Hanna_, Mar 06 2005
+%F A006846 G.f.: 1/(1-x/(1-x/(1-3x/(1-4x/(1-7x/(1-.../(1-ceiling((n+1)^2/4)*x/(1-... (continued fraction). [From _Paul Barry_, Feb 24 2010]
+%p A006846 {a(n)=local(X=x+x*O(x^(2*n))); round((2*n)!*polcoeff(cosh(sqrt(3)*X/2)/cos(X/2),2*n))} (Hanna)
+%t A006846 h[n_, x_] := Sum[c[k] x^k, {k, 0, n}]; eq[n_] := SolveAlways[h[n, x*(x-1)] == EulerE[2*n, x], x]; a[n_] := Sum[(-1)^(n+k)*c[k], {k, 0, n}] /. eq[n] // First; Table[a[n], {n, 0, 15}]   (* _Jean-François Alcover_, Oct 02 2013, after _Philippe Deléham_ *)
+%Y A006846 Cf. A104027, A104030.
+%K A006846 nonn
+%O A006846 0,3
+%A A006846 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053104
+Showing 1-1 of 1
+
+%I A053104
+%S A053104 1,15,330,9570,344520,14814360,740718000,42220926000,2702139264000,
+%T A053104 191851887744000,14964447244032000,1271978015742720000,
+%U A053104 117021977448330240000,11585175767384693760000
+%N A053104 ((7*n+8)(!^7))/8, related to A045754 ((7*n+1)(!^7) sept-, or 7-factorials).
+%C A053104 Row m=8 of the array A(8; m,n) := ((7*n+m)(!^7))/m(!^7), m >= 0, n >= 0.
+%F A053104 a(n) = ((7*n+8)(!^7))/8(!^7) = A045754(n+2)/8.
+%F A053104 E.g.f.: 1/(1-7*x)^(15/7).
+%t A053104 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 14, 5!, 7}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A053104 Cf. A051188, A045754(n+1), A034829-34(n+1), A053104-A053106 (rows m=0..10).
+%K A053104 easy,nonn
+%O A053104 0,2
+%A A053104 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

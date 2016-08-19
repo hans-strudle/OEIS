@@ -1,0 +1,68 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048896
+Showing 1-1 of 1
+
+%I A048896
+%S A048896 1,1,2,1,2,2,4,1,2,2,4,2,4,4,8,1,2,2,4,2,4,4,8,2,4,4,8,4,8,8,16,1,2,2,
+%T A048896 4,2,4,4,8,2,4,4,8,4,8,8,16,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,1,2,
+%U A048896 2,4,2,4,4,8,2,4,4,8,4,8,8,16,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32,2,4,4
+%N A048896 2^(A000120(n+1)-1), n >= 0.
+%C A048896 Maximal power of 2 dividing the n-th Catalan number (A000108).
+%C A048896 Row sums of triangle A128937. - _Philippe Deléham_, May 02 2007
+%C A048896 a(n) = sum of (n+1)-th row terms of triangle A167364. - _Gary W. Adamson_, Nov 01 2009
+%C A048896 a(n), n >= 1: Numerators of Maclaurin series for 1 - ((sin x)/x)^2,
+%C A048896   A117972(n), n >= 2: Denominators of Maclaurin series for 1 - ((sin x)/x)^2, the correlation function in Montgomery's pair correlation conjecture. - _Daniel Forgues_, Oct 16 2011
+%C A048896 For n > 0: a(n) = A007954(A007931(n)). - _Reinhard Zumkeller_, Oct 26 2012
+%C A048896 a(n) = A261363(2*(n+1),n+1). - _Reinhard Zumkeller_, Aug 16 2015
+%H A048896 Reinhard Zumkeller, <a href="/A048896/b048896.txt">Table of n, a(n) for n = 0..10000</a>
+%H A048896 OEIS Wiki, <a href="/wiki/Montgomery%27s_pair_correlation_conjecture">Montgomery's pair correlation conjecture</a>
+%F A048896 a(n) = 2^A048881(n).
+%F A048896 a(n) = 2^k if 2^k divides A000108(n) but 2^(k+1) does not divide A000108(n).
+%F A048896 It appears that a(n) = sum( binomial(2*(n+1), k) mod 2, k=0..n ). - Christopher Lenard (c.lenard(AT)bendigo.latrobe.edu.au), Aug 20 2001
+%F A048896 a(0) = 1; a(2*n) = 2*a(2*n-1); a(2*n+1) = a(n).
+%F A048896 a(n) = (1/2) * A001316(n+1). - Mohammed Bouayoun (bouyao(AT)wanadoo.fr), Mar 26 2004
+%F A048896 It appears that a(n) = sum{k=0..2n, floor(binomial(2n+2, k+1)/2)(-1)^k} = 2^n-sum{k=0..n+1, floor(binomial(n+1, k)/2}. - _Paul Barry_, Dec 24 2004
+%F A048896 a(n) = sum_(T(n,k) mod 2, k=0..n) where T = A039598, A053121, A052179, A124575, A126075, A126093. - _Philippe Deléham_, May 02 2007
+%F A048896 a(n) = numerator(b(n)), where sin(x)^2/x = sum_(n>0, b(n)*(-1)^n x^(2*n-1)). - _Vladimir Kruchinin_, Feb 06 2013
+%F A048896 a((2*n+1)*2^p-1) = A001316(n), p >= 0 and n >= 0. - _Johannes W. Meijer_, Feb 12 2013
+%F A048896 a(n) = Numerator(2^n / (n+1)!). - _Vincenzo Librandi_, Apr 12 2014
+%e A048896 From _Omar E. Pol_, Jul 21 2009: (Start)
+%e A048896 If written as a triangle:
+%e A048896 1;
+%e A048896 1,2;
+%e A048896 1,2,2,4;
+%e A048896 1,2,2,4,2,4,4,8;
+%e A048896 1,2,2,4,2,4,4,8,2,4,4,8,4,8,8,16;
+%e A048896 1,2,2,4,2,4,4,8,2,4,4,8,4,8,8,16,2,4,4,8,4,8,8,16,4,8,8,16,8,16,16,32;
+%e A048896 ...,
+%e A048896 the first half-rows converge to Gould's sequence A001316.
+%e A048896 (End)
+%p A048896 a := n -> 2^(add(i,i=convert(n+1,base,2))-1): seq(a(n), n=0..97); # _Peter Luschny_, May 01 2009
+%t A048896 NestList[Flatten[#1 /. a_Integer -> {a, 2 a}] &, {1}, 4] // Flatten (* _Robert G. Wilson v_, Aug 01 2012 *)
+%t A048896 Table[Numerator[2^n / (n + 1)!], {n, 0, 200}] (* _Vincenzo Librandi_, Apr 12 2014 *)
+%o A048896 (PARI) a(n)=if(n<1,1,if(n%2,a(n/2-1/2),2*a(n-1)))
+%o A048896 (Haskell)
+%o A048896 a048896 n = a048896_list !! n
+%o A048896 a048896_list = f [1] where f (x:xs) = x : f (xs ++ [x,2*x])
+%o A048896 -- _Reinhard Zumkeller_, Mar 07 2011
+%o A048896 (Haskell)
+%o A048896 import Data.List (transpose)
+%o A048896 a048896 = a000079 . a000120
+%o A048896 a048896_list = 1 : concat (transpose
+%o A048896    [zipWith (-) (map (* 2) a048896_list) a048896_list,
+%o A048896     map (* 2) a048896_list])
+%o A048896 -- _Reinhard Zumkeller_, Jun 16 2013
+%o A048896 (MAGMA) [Numerator(2^n / Factorial(n+1)): n in [0..100]]; // _Vincenzo Librandi_, Apr 12 2014
+%Y A048896 This is Guy Steele's sequence GS(3, 5) (see A135416).
+%Y A048896 Equals first right hand column of triangle A160468.
+%Y A048896 Equals A160469(n+1)/A002425(n+1).
+%Y A048896 Cf. A160476, A000079, A001316, A167364, A220466, A001316.
+%Y A048896 Cf. A080100.
+%Y A048896  Cf. A261363.
+%K A048896 nonn
+%O A048896 0,3
+%A A048896 _Wolfdieter Lang_
+%E A048896 New definition from _N. J. A. Sloane_, Mar 01 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

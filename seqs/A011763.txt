@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011763
+Showing 1-1 of 1
+
+%I A011763
+%S A011763 365,365,365,366,365,365,365,366,365,365,365,366,365,365,365,366,365,
+%T A011763 365,365,366,365,365,365,366,365,365,365,366,365,365,365,366,365,365,
+%U A011763 365,366,365,365,365,366,365,365,365,366,365,365,365,366
+%N A011763 Days in year in Gregorian calendar.
+%C A011763 This sequence is periodic with period 400. The exceptions to the apparent period 4 are a(100) = a(200) = a(300) = 365. - _Franklin T. Adams-Watters_, Jul 10 2009
+%H A011763 <a href="/index/Ca#calendar">Index entries for sequences related to calendars</a>
+%t A011763 (* first do *) Needs["Calendar`"] (* then *) Table[ DaysBetween[{y, 1, 1}, {y + 1, 1, 1}], {y, 48}] (* _Robert G. Wilson v_, Apr 18 2010 *)
+%K A011763 nonn,easy
+%O A011763 1,1
+%A A011763 Juan-Carlos Lerman (jclerm(AT)aztec.asu.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

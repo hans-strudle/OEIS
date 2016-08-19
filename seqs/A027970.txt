@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027970
+Showing 1-1 of 1
+
+%I A027970
+%S A027970 1,4,11,29,76,196,487,1148,2552,5353,10636,20120,36425,63415,106630,
+%T A027970 173821,275603,426242,644593,955207,1389626,1987886,2800249,3889186,
+%U A027970 5331634,7221551,9672794,12822346,16833919,21901961,28256096
+%N A027970 T(n,2n-8), T given by A027960.
+%H A027970 Colin Barker, <a href="/A027970/b027970.txt">Table of n, a(n) for n = 4..1000</a>
+%H A027970 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (9,-36,84,-126,126,-84,36,-9,1).
+%F A027970 Sequence satisfies an 8-degree polynomial approximating A002878.
+%F A027970 a(n) = (-1169280 +1119312*n -517700*n^2 +148092*n^3 -26551*n^4 +2688*n^5 -70*n^6 -12*n^7 +n^8)/40320. - _Colin Barker_, Nov 25 2014
+%F A027970 G.f.: x^4*(x^8-5*x^7+11*x^6-10*x^5-x^4+10*x^3-11*x^2+5*x-1) / (x-1)^9. - _Colin Barker_, Nov 25 2014
+%o A027970 (PARI) Vec(x^4*(x^8-5*x^7+11*x^6-10*x^5-x^4+10*x^3-11*x^2+5*x-1)/(x-1)^9 + O(x^100)) \\ _Colin Barker_, Nov 25 2014
+%Y A027970 A column of triangle A026998.
+%K A027970 nonn,easy
+%O A027970 4,2
+%A A027970 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

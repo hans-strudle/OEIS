@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036490
+Showing 1-1 of 1
+
+%I A036490
+%S A036490 5,7,11,25,35,49,55,77,121,125,175,245,275,343,385,539,605,625,847,
+%T A036490 875,1225,1331,1375,1715,1925,2401,2695,3025,3125,3773,4235,4375,5929,
+%U A036490 6125,6655,6875,8575,9317,9625,12005,13475,14641,15125,15625,16807
+%N A036490 Numbers whose prime factors are in {5, 7, 11}.
+%D A036490 G. E. Andrews, The Theory of Partitions, Addison-Wesley, 1976, p. 160.
+%H A036490 Reinhard Zumkeller, <a href="/A036490/b036490.txt">Table of n, a(n) for n = 1..1000</a>
+%t A036490 Select[ Range[20000], (f = FactorInteger[#][[All, 1]]; Intersection[f, {5, 7, 11}] == f)& ] (* _Jean-François Alcover_, Sep 19 2012 *)
+%o A036490 (Haskell)
+%o A036490 import Data.Set (Set, fromList, insert, deleteFindMin)
+%o A036490 a036490 n = a036490_list !! (n-1)
+%o A036490 a036490_list = f $ fromList [5,7,11] where
+%o A036490    f s = m : (f $ insert (5 * m) $ insert (7 * m) $ insert (11 * m) s')
+%o A036490          where (m, s') = deleteFindMin s
+%o A036490 -- _Reinhard Zumkeller_, Feb 19 2013
+%Y A036490 Cf. A036491, A036492.
+%K A036490 nonn,easy
+%O A036490 1,1
+%A A036490 _Olivier Gérard_
+%E A036490 Offset corrected by _Reinhard Zumkeller_, Feb 19 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

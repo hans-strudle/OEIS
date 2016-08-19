@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003286
+Showing 1-1 of 1
+
+%I A003286 M4441
+%S A003286 1,7,66,916,16816,373630,9727010,289374391
+%N A003286 Number of semi-regular digraphs on n nodes.
+%C A003286 The directed graphs in this sequence need not be connected, but each node must have out-degree 2. - _Sean A. Irvine_, Apr 09 2015
+%D A003286 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003286 S. A. Choudum, K. R. Parthasarathy, <a href="http://dx.doi.org/10.1016/1385-7258(72)90047-9">Semi-regular relations and digraphs</a>, Nederl. Akad. Wetensch. Proc. Ser. A. {75}=Indag. Math. 34 (1972), 326-334.
+%H A003286 Sean A. Irvine, <a href="/A003286/a003286.png">Illustration of A003286(3)</a>.
+%K A003286 nonn,nice,more
+%O A003286 2,2
+%A A003286 _N. J. A. Sloane_.
+%E A003286 a(7)-a(9) from _Sean A. Irvine_, Apr 11 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

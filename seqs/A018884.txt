@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018884
+Showing 1-1 of 1
+
+%I A018884
+%S A018884 1,4,9,16,25,36,49,64,81,121,144,225,441,484,676,1444,7744,11881,
+%T A018884 29929,44944,55225,69696,9696996,6661661161
+%N A018884 Squares using at most two distinct digits, not ending in 0.
+%C A018884 No other terms below 10^41.
+%C A018884 The sequence is probably finite.
+%H A018884 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareNumber.html">Square Number.</a>
+%Y A018884 Cf. A016069, A016070, A018885.
+%K A018884 nonn,base,more,hard
+%O A018884 1,2
+%A A018884 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

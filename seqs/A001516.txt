@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001516
+Showing 1-1 of 1
+
+%I A001516 M4295 N1795
+%S A001516 0,0,6,120,1980,32970,584430,11204676,233098740,5254404210,
+%T A001516 127921380840,3350718545460,94062457204716,2819367702529560,
+%U A001516 89912640142178490,3040986592542420060,108752084073199561140,4101112025363285051526
+%N A001516 Bessel polynomial {y_n}''(1).
+%D A001516 J. Riordan, Combinatorial Identities, Wiley, 1968, p. 77.
+%D A001516 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001516 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001516 <a href="/index/Be#Bessel">Index entries for sequences related to Bessel functions or polynomials</a>
+%F A001516 G.f.: 6*x^2*(1-x)^(-5)*hypergeom([5/2,3],[],2*x/(x-1)^2). - Mark van Hoeij, Nov 07 2011
+%F A001516 Recurrence: (n-2)*(n-1)*a(n) = (2*n - 1)*(n^2 - n + 2)*a(n-1) + n*(n+1)*a(n-2). - _Vaclav Kotesovec_, Jul 22 2015
+%F A001516 a(n) ~ 2^(n+1/2) * n^(n+2) / exp(n-1). - _Vaclav Kotesovec_, Jul 22 2015
+%p A001516 (As in A001497 define:) f := proc(n) option remember; if n <=1 then (1+x)^n else expand((2*n-1)*x*f(n-1)+f(n-2)); fi; end;
+%p A001516 [seq( subs(x=1,diff(f(n),x$2)),n=0..60)];
+%t A001516 Table[Sum[(n+k+2)!/(2^(k+2)*(n-k-2)!*k!), {k,0,n-2}], {n,0,20}] (* _Vaclav Kotesovec_, Jul 22 2015 *)
+%Y A001516 Cf. A001497, A001498, A001514, A001515, A001518, A065944, A144505.
+%K A001516 nonn,easy
+%O A001516 0,3
+%A A001516 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

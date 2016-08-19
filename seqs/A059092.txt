@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059092
+Showing 1-1 of 1
+
+%I A059092
+%S A059092 129473856,138729456,162378594,164597832,167495328,169857324,
+%T A059092 172349856,173429568,175349286
+%N A059092 Zeroless pandigitals expressible as a product of five factors that concatenate to another zeroless pandigital.
+%D A059092 J. S. Madachy, Madachy's Mathematical Recreations, pp. 161, Dover NY 1979
+%e A059092 We have, for instance, the five-factor pandigital decomposition for 172349856 = 6*7*84*92*531
+%e A059092 a(1) = 129473856 = 4*6*8*93*7251
+%e A059092 a(2) = 138729456 = 6*8*9*71*4523
+%e A059092 a(3) = 162378594 = 6*7*9*51*8423
+%e A059092 a(4) = 164597832 = 6*7*9*524*831
+%e A059092 a(5) = 167495328 = 6*7*52*84*913
+%e A059092 a(6) = 169857324 = 6*7*54*91*823
+%e A059092 a(7) = 172349856 = 6*7*84*92*531
+%e A059092 a(8) = 173429568 = 6*8*53*92*741
+%e A059092 a(9) = 175349286 = 7*9*54*83*621
+%K A059092 fini,base,nonn
+%O A059092 1,1
+%A A059092 _Lekraj Beedassy_, Jun 13 2002, Dec 18 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

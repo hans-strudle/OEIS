@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052396
+Showing 1-1 of 1
+
+%I A052396
+%S A052396 2,4,8,16,32,63,64,128,256,512,1024,2048,4096,8192,16384,32768,34587,
+%T A052396 65536,131072,262144,524288,1048576,2097152,4194304,8388608,16777216,
+%U A052396 33554432,67108864,134217728,170271081
+%N A052396 (+2)-sigma perfect numbers: numbers such that (+2)sigma(n)=2*n, where if n=Product p(i)^r(i) then (+2)sigma(n)=Product (2+Sum p(i)^s(i), s(i)=1 to r(i)), e.g. (+2)sigma(6)=(2+2)*(2+3)=20.
+%e A052396 Factorizations: even examples 2,2^2,2^3,2^4,...; odd examples 3^2*7 a(6), 3^4*7*61 a(17), 3^6*7*61*547 a(30).
+%K A052396 nonn
+%O A052396 1,1
+%A A052396 _Yasutoshi Kohmoto_ Mar 13 2000
+%E A052396 Corrected by Franklin T. Adams-Watters, Oct 25 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

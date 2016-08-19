@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047528
+Showing 1-1 of 1
+
+%I A047528
+%S A047528 0,3,7,8,11,15,16,19,23,24,27,31,32,35,39,40,43,47,48,51,55,56,59,63,
+%T A047528 64,67,71,72,75,79,80,83,87,88,91,95,96,99,103,104,107,111,112,115,
+%U A047528 119,120,123,127,128,131,135,136
+%N A047528 Numbers that are congruent to {0, 3, 7} mod 8.
+%H A047528 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047528 G.f.: x^2*(x+3)*(1+x) / ( (1+x+x^2)*(x-1)^2 ). - _R. J. Mathar_, Jul 10 2015
+%K A047528 nonn,easy
+%O A047528 1,2
+%A A047528 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

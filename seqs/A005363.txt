@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005363
+Showing 1-1 of 1
+
+%I A005363 M1867
+%S A005363 1,2,8,44,310,2606,25202,272582,3233738,41454272,567709144,8230728508,
+%T A005363 125413517530,1996446632130,33039704641922,566087847780250,
+%U A005363 10006446665899330
+%N A005363 Hoggatt sequence.
+%D A005363 D. C. Fielder and C. O. Alford, On a conjecture by Hoggatt with extensions to Hoggatt sums and Hoggatt triangles, Fib. Quart., 27 (1989), 160-168.
+%D A005363 D. C. Fielder and C. O. Alford, ``An investigation of sequences derived from Hoggatt sums and Hoggatt triangles,'' in G. E. Bergum et al., editors, Applications of Fibonacci Numbers: Proc. Third Internat. Conf. on Fibonacci Numbers and Their Applications, Pisa, Jul 25-29, 1988. Kluwer, Dordrecht, Vol. 3, 1990, pp. 77-88.
+%D A005363 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A005363 (n+4)(n+5)^2(n+6)(n+7)(n+8)(252+253n+55n^2)a(n) = 3(n+4)(n+5)(141120+362152n+373054n^2+192647n^3+52441n^4+7161n^5+385n^6)a(n-1) + n(n-1)(5738880+14311976n+14466242n^2+7579175n^3+2170343n^4+322289n^5+19415n^6)a(n-2) - 32(n-1)^2 n^2(n-2)(n+1)(560 + 363n + 55n^2)a(n-3); a(-1)=a(0)=1, a(1)=2 - Richard L. Ollerton (r.ollerton(AT)uws.edu.au), Sep 12 2006
+%t A005363 A005363[n_]:=HypergeometricPFQ[{-4-n,-3-n,-2-n,-1-n,-n},{2,3,4,5},-1] - Richard L. Ollerton (r.ollerton(AT)uws.edu.au), Sep 12 2006
+%K A005363 nonn
+%O A005363 0,2
+%A A005363 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

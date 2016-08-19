@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058690
+Showing 1-1 of 1
+
+%I A058690
+%S A058690 1,0,1,2,3,3,5,5,8,9,12,14,19,22,28,33,41,48,60,69,84,98,117,136,164,
+%T A058690 188,222,256,301,345,404,462,537,614,709,807,931,1056,1211,1374,1569,
+%U A058690 1774,2021,2280,2588,2916,3299,3708,4189,4697,5290,5926,6656,7442,8344
+%N A058690 McKay-Thompson series of class 47A for Monster.
+%C A058690 Also McKay-Thompson series of class 47B for Monster. - _Michel Marcus_, Feb 24 2014
+%H A058690 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058690 David A. Madore, <a href="http://mathforum.org/kb/thread.jspa?forumID=253&amp;threadID=1602206&amp;messageID=5836094">Coefficients of Moonshine (McKay-Thompson) series</a>, The Math Forum
+%H A058690 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058690 T47A = 1/q + q + 2*q^2 + 3*q^3 + 3*q^4 + 5*q^5 + 5*q^6 + 8*q^7 + 9*q^8 + ...
+%Y A058690 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058690 nonn
+%O A058690 -1,4
+%A A058690 _N. J. A. Sloane_, Nov 27 2000
+%E A058690 More terms from _Michel Marcus_, Feb 24 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056021
+Showing 1-1 of 1
+
+%I A056021
+%S A056021 1,7,18,24,26,32,43,49,51,57,68,74,76,82,93,99,101,107,118,124,126,
+%T A056021 132,143,149,151,157,168,174,176,182,193,199,201,207,218,224,226,232,
+%U A056021 243,249,251,257,268,274,276,282,293,299,301,307,318,324,326,332,343,349
+%N A056021 Numbers n such that n^4 == 1 (mod 5^2).
+%C A056021 Numbers congruent to {1, 7, 18, 24} mod 25.
+%H A056021 Colin Barker, <a href="/A056021/b056021.txt">Table of n, a(n) for n = 1..1000</a>
+%H A056021 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,1,-1).
+%F A056021 G.f.: x*(x^2+3*x+1)^2 / ((1+x)*(x^2+1)*(x-1)^2). - _R. J. Mathar_, Oct 25 2011
+%F A056021 a(n) = (-25 - (-1)^n + (9-9*I)*(-I)^n + (9+9*I)*I^n + 50*n) / 8. - _Colin Barker_, Oct 16 2015
+%t A056021 Select[ Range[ 400 ], PowerMod[ #, 4, 25 ]==1& ]
+%o A056021 (PARI) a(n) = (-25 - (-1)^n + (9-9*I)*(-I)^n + (9+9*I)*I^n + 50*n) / 8 \\ _Colin Barker_, Oct 16 2015
+%o A056021 (PARI) Vec(x*(x^2+3*x+1)^2/((1+x)*(x^2+1)*(x-1)^2) + O(x^100)) \\ _Colin Barker_, Oct 16 2015
+%o A056021 (PARI) for(n=0, 1e3, if(n^4 % 5^2 == 1, print1(n", "))) \\ _Altug Alkan_, Oct 16 2015
+%K A056021 nonn,easy
+%O A056021 1,2
+%A A056021 _Robert G. Wilson v_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

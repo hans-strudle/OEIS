@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028413
+Showing 1-1 of 1
+
+%I A028413
+%S A028413 0,1,2,10,18,27,100,125,173,1000,1120,1184,1355,1836,1876,1961,10000,
+%T A028413 11915,100000,119084,126935,187876,188348,192383,196813,1000000,
+%U A028413 1010200,1190915,1228425,1780728,1821636,1975356,10000000
+%N A028413 Numbers n such that n^2+(n+1) is a palindrome.
+%H A028413 P. De Geest, <a href="http://www.worldofnumbers.com/quasisq.htm">Palindromic quasi_over_squares of the form n^2+(n+1)</a>
+%Y A028413 A028414.
+%K A028413 nonn,base
+%O A028413 1,3
+%A A028413 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

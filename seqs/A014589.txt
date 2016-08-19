@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014589
+Showing 1-1 of 1
+
+%I A014589
+%S A014589 0,0,1,1,2,2,3,3,4,0,0,1,1,2,2,3,3,4,4,5,5,6,6,7,7,0,4,1,5,2,6,3,4,7,
+%T A014589 0,0,1,1,2,2,3,3,4,8,5,7,6,8,9,0,4,1,5,2,6,0,4,1,5,2,6,3,4,7,5,8,4,10,
+%U A014589 5,7,6,8,4,7,5,8,6,10,9,7,4,8,5,10,6,0,4,1,5,2,6,0,4,1,5,2,6,3
+%N A014589 Nim function for Take-a-Prime (or Subtract-a-Prime) Game.
+%C A014589 The zero positions are given by A025043. - _Nathan Fox_, May 21 2013
+%D A014589 R. K. Guy, Unsolved Problems in Number Theory, E26.
+%H A014589 Eric M. Schmidt, <a href="/A014589/b014589.txt">Table of n, a(n) for n = 0..10000</a>
+%H A014589 Achim Flammenkamp, <a href="http://www.uni-bielefeld.de/~achim/diss.ps.gz">Lange Perioden in Subtraktions-Spielen</a>, Dissertation, Dept. Math., University of Bielefeld, Germany.
+%o A014589 (Sage)
+%o A014589 def A014589(max) :
+%o A014589 ....res = []
+%o A014589 ....for i in xrange(max+1) :
+%o A014589 ........moves = list({res[i-p] for p in prime_range(i+1)})
+%o A014589 ........k = len(moves)
+%o A014589 ........mex = next((j for j in xrange(k) if moves[j] != j), k)
+%o A014589 ........res.append(mex)
+%o A014589 ....return res
+%o A014589 end # _Eric M. Schmidt_, Jul 20 2013
+%K A014589 nonn
+%O A014589 0,5
+%A A014589 Achim Flammenkamp (achim(AT)HRZ.Uni-Bielefeld.DE)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

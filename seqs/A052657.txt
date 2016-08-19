@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052657
+Showing 1-1 of 1
+
+%I A052657
+%S A052657 0,0,2,6,48,240,2160,15120,161280,1451520,18144000,199584000,
+%T A052657 2874009600,37362124800,610248038400,9153720576000,167382319104000,
+%U A052657 2845499424768000,57621363351552000,1094805903679488000
+%N A052657 E.g.f. x^2/((1-x)^2*(1+x)).
+%C A052657 Stirling transform of -(-1)^n*a(n-1) = [0, 0, 2, -6, 48, -240, ...] is A052841(n-1) = [0, 0, 2, 6, 38, 270, ...]. - _Michael Somos_, Mar 04 2004
+%H A052657 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=604">Encyclopedia of Combinatorial Structures 604</a>
+%F A052657 a(0)=0, a(1)=0, a(2)=2, n*a(n+2) = (n+2)*a(n+1) + (n^3 + 4*n^2 + 5*n + 2)*a(n).
+%F A052657 a(n) = (2n-1+(-1)^n)*n!/4 = n!*A004526(n).
+%F A052657 E.g.f.: x^2/((1-x)*(1-x^2)).
+%p A052657 spec := [S,{S=Prod(Z,Z,Sequence(Z),Sequence(Prod(Z,Z)))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%p A052657 a:=n->sum((-1)^k * (n-k+1) * n!, k=2..n) : seq(a(n), n=0..19); # _Zerinvary Lajos_, Jun 18 2007
+%o A052657 (PARI) a(n)=if(n<0,0,n!*polcoeff(x^2/(1-x)/(1-x^2)+x*O(x^n),n))
+%K A052657 easy,nonn
+%O A052657 0,3
+%A A052657 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

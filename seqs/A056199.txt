@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056199
+Showing 1-1 of 1
+
+%I A056199
+%S A056199 0,1,3,11,51,291,1971,15411,136371,1345971,14651571,174318771,
+%T A056199 2249992371,31309422771,467200878771,7441464174771,126003940206771,
+%U A056199 2260128508782771,42808495311726771,853775831370606771,17884089888607086771,392550999147809646771
+%N A056199 A simple recurrence.
+%F A056199 a(1)=0, a(2)=1, a(n) = n * a(n-1) - Sum_{k=1..n-2} a(k).
+%F A056199 a(1)=0, n>1 a(n)=(1/3)*(-1+sum(k=0, n, k!)) - _Benoit Cloitre_, Nov 12 2005
+%F A056199 a(n)=A007489(n)/3 for n>=2 . - _Philippe Deléham_, Feb 10 2007
+%F A056199 G.f.: x*(W(0)/(2-2*x)/3 -1/3), where W(k) = 1 + 1/( 1 - x*(k+2)/( x*(k+2) + 1/W(k+1) )); (continued fraction). - _Sergei N. Gladkovskii_, Aug 20 2013
+%F A056199 G.f.: 1/(3*(1-x)*Q(0)) - 1/3,m=+2, where Q(k) = 1 - 2*x*(2*k+1) - m*x^2*(k+1)*(2*k+1)/( 1 - 2*x*(2*k+2) - m*x^2*(k+1)*(2*k+3)/Q(k+1) ) ; (continued fraction). - _Sergei N. Gladkovskii_, Sep 24 2013
+%t A056199 a[1]=0; a[2]=1; a[n_Integer] := n*a[n-1]-Sum[a[k], {k, 1, n-2}]; Table[a[n], {n, 1, 22}]
+%Y A056199 Cf. A003422.
+%K A056199 easy,nonn
+%O A056199 1,3
+%A A056199 _Robert G. Wilson v_, Sep 26 1996.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

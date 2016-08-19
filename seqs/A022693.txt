@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022693
+Showing 1-1 of 1
+
+%I A022693
+%S A022693 1,1,1,2,2,1,4,1,18,22,12,26,67,86,42,235,432,364,506,868,
+%T A022693 1434,2396,2225,3348,10842,11822,8049,24468,36662,40024,69766,
+%U A022693 96052,171976,278242,251886,419723,885806,998468
+%V A022693 1,-1,-1,-2,2,-1,4,-1,18,-22,12,-26,67,-86,42,-235,432,-364,506,-868,
+%W A022693 1434,-2396,2225,-3348,10842,-11822,8049,-24468,36662,-40024,69766,
+%X A022693 -96052,171976,-278242,251886,-419723,885806,-998468
+%N A022693 Expansion of Product_{m>=1} 1/(1+m*q^m).
+%H A022693 Vaclav Kotesovec, <a href="/A022693/b022693.txt">Table of n, a(n) for n = 0..5000</a>
+%F A022693 From _Vaclav Kotesovec_, Dec 15 2015: (Start)
+%F A022693 a(n) ~ (-1)^n * c * 3^(n/3), where
+%F A022693 c = 2.0319526534291644237634198503666896166412... if mod(n,3) = 0
+%F A022693 c = 1.8420902462379331740718256785549611496880... if mod(n,3) = 1
+%F A022693 c = 1.6677871810486313099783673373643842640151... if mod(n,3) = 2.
+%F A022693 (End)
+%t A022693 nmax = 40; CoefficientList[Series[Product[1/(1 + k*x^k), {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Dec 15 2015 *)
+%t A022693 nmax = 40; CoefficientList[Series[Exp[-Sum[(-1)^(j+1)*PolyLog[-j, x^j]/j, {j, 1, nmax}]], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Dec 15 2015 *)
+%Y A022693 Cf. A006906, A022629, A022661, A266971.
+%K A022693 sign
+%O A022693 0,4
+%A A022693 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

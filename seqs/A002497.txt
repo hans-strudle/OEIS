@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002497
+Showing 1-1 of 1
+
+%I A002497 M2934 N1180
+%S A002497 3,12,60,420,4620,60060,180180,360360,6126120,116396280,2677114440,
+%T A002497 77636318760,2406725881560,89048857617720,3651003162326520
+%N A002497 Numbers N in A002809 such that there is rho > 0 such that for all A > 0, A008475(A)-A008475(N) >= rho*log(A/N).
+%C A002497 What is the definition of this sequence? - _Charles R Greathouse IV_, Jan 12 2012
+%C A002497 Note that A002182 is the sequence of highly composite numbers. - _T. D. Noe_, Jan 12 2012
+%C A002497 The numbers contain the starred entries on pp. 187-190 of Nicolas. It is a subsequence of A002809 by selecting only elements of a set/property "G" (page 150). G contains all N such that a real, strictly positive rho exists such that for all strictly positive integers A we have l(A)-l(N) >= rho*log(A/N). The function l()=A008475() is defined on page 139. - _R. J. Mathar_, Mar 23 2012
+%D A002497 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002497 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002497 J.-L. Nicolas, <a href="http://smf4.emath.fr/Publications/Bulletin/97/html/">Ordre maximum d'un élément du groupe S(n) des permutations et "highly composite numbers"</a>, Bull. Soc. Math. Française 97 (1969), 129-191.
+%K A002497 nonn,easy,nice,more
+%O A002497 1,1
+%A A002497 _N. J. A. Sloane_.
+%E A002497 Edited by _M. F. Hasler_, Mar 29 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

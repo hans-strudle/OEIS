@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036003
+Showing 1-1 of 1
+
+%I A036003
+%S A036003 1,2,3,4,6,9,12,17,23,31,41,55,71,93,120,154,196,250,314,396,494,616,
+%T A036003 763,945,1161,1427,1744,2128,2585,3138,3790,4575,5502,6606,7908,9455,
+%U A036003 11268,13415,15928,18886,22341,26397,31116,36638,43053,50527,59192
+%N A036003 Number of partitions of n into parts not of the form 25k, 25k+4 or 25k-4. Also number of partitions with at most 3 parts of size 1 and differences between parts at distance 11 are greater than 1.
+%C A036003 Case k=12,i=4 of Gordon Theorem.
+%D A036003 G. E. Andrews, The Theory of Partitions, Addison-Wesley, 1976, p. 109.
+%K A036003 nonn,easy
+%O A036003 1,2
+%A A036003 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

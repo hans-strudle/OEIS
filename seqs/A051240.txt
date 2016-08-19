@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051240
+Showing 1-1 of 1
+
+%I A051240 M1723
+%S A051240 1,1,1,2,6,156,7013320,29281354514767168,
+%T A051240 234431745534048922731115555415680,
+%U A051240 453456943706240925312368435237969462391555337386758635520
+%N A051240 Number of 4-uniform hypergraphs on n unlabeled nodes, or equivalently pure 3-dimensional simplicial complexes on n unlabeled nodes.
+%D A051240 V. Jovovic, On the number of m-place relations (in Russian), Logiko-algebraicheskie konstruktsii, Tver, 1992, 59-66.
+%D A051240 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A051240 E. M. Palmer, <a href="http://dx.doi.org/10.1016/0012-365X(73)90069-1">On the number of n-plexes</a>, Discrete Math., 6 (1973), 377-390. [The numbers are incorrect]
+%Y A051240 Cf. A000665, A092337.
+%K A051240 nonn,nice
+%O A051240 1,4
+%A A051240 _Vladeta Jovovic_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054762
+Showing 1-1 of 1
+
+%I A054762
+%S A054762 1,2,3,4,5,7,8,13,21,27,64,91,125,161,181,216,287,307,343,351,377,469,
+%T A054762 512
+%N A054762 a(n) is a cube mod a(i) for all i < n.
+%Y A054762 Cf. A034793.
+%K A054762 nonn
+%O A054762 1,2
+%A A054762 _Henry Bottomley_, May 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

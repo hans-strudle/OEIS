@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055086
+Showing 1-1 of 1
+
+%I A055086
+%S A055086 0,1,2,2,3,3,4,4,4,5,5,5,6,6,6,6,7,7,7,7,8,8,8,8,8,9,9,9,9,9,10,10,10,
+%T A055086 10,10,10,11,11,11,11,11,11,12,12,12,12,12,12,12,13,13,13,13,13,13,13,
+%U A055086 14,14,14,14,14,14,14,14,15,15,15,15,15,15,15,15,16,16,16,16,16,16,16
+%N A055086 n appears 1+[n/2] times.
+%C A055086 The PARI functions t1, t2 can be used to read a triangular array T(n,k) (n >= 0, 0 <= k <= floor(n/2)) by rows from left to right: n -> T(t1(n), t2(n)).
+%C A055086 a(n) gives the number of distinct positive values taken by [n/k]. E.g., a(5)=3: [5/{1,2,3,4,5}]={5,2,1,1,1}. - _Marc LeBrun_, May 17 2001
+%C A055086 This sequence gives the elements ranged in increasing order of the set {i+2j} when (i>=0, j>=0). - _Benoit Cloitre_, Sep 22 2012
+%H A055086 Vincenzo Librandi, <a href="/A055086/b055086.txt">Table of n, a(n) for n = 0..1000</a>
+%H A055086 M. Somos, <a href="/A073189/a073189.txt">Sequences used for indexing triangular or square arrays</a>
+%F A055086 a(n) = [sqrt(4*n + 1)] - 1. 1 + a(n) = A000267(n).
+%F A055086 a(n) = Sum{ A063524(A075993(n, k)): 1<=k<=n} for n>0. - _Reinhard Zumkeller_, Apr 06 2006
+%F A055086 a(n) = ceil(2*sqrt(n+1)) - 2. - _Mircea Merca_, Feb 05 2012
+%t A055086 Flatten[Table[Table[n,{Floor[n/2]+1}],{n,0,20}]] (* _Harvey P. Dale_, Mar 07 2014 *)
+%o A055086 (PARI) {a(n) = floor(sqrt(4*n + 1)) - 1}
+%o A055086 (PARI) t1(n)=floor(sqrt(1+4*n)-1) /* A055086 */
+%o A055086 (PARI) t2(n)=(1+4*n-sqr(floor(sqrt(1+4*n))))\4 /* A055087 */
+%Y A055086 Cf. A000267, A055087.
+%K A055086 nonn,easy
+%O A055086 0,3
+%A A055086 _Michael Somos_, Jun 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

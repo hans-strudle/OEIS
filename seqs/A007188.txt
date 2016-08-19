@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007188
+Showing 1-1 of 1
+
+%I A007188 M1722
+%S A007188 2,6,90,47250,66852843750,2806877704512541816406250,
+%T A007188 1216935896582703898519354781702537118597533386230468750
+%N A007188 Multiplicative encoding of Pascal triangle: Product p(i+1)^C(n,i).
+%D A007188 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%D A007188 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007188 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A007188 N. J. A. Sloane, An on-line version of the Encyclopedia of Integer Sequences, <a href="http://www.combinatorics.org/Volume_1/volume1.html#F1">Electronic J. Combinatorics</a>, Vol. 1, no. 1, 1994.
+%t A007188 c[n_] := CoefficientList[(1 + x)^n, x]; f[n_] := Product[Prime[k]^c[n][[k]], {k, 1, Length[c[n]]}]; Table[f[n], {n, 1, 7}] (* _Clark Kimberling_, Feb 05 2012 *)
+%Y A007188 Cf. A206295, A206284.
+%K A007188 nonn
+%O A007188 0,1
+%A A007188 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

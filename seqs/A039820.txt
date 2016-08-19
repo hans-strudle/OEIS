@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039820
+Showing 1-1 of 1
+
+%I A039820
+%S A039820 1,2,3,38,212,2538,6888,66592,100001,100002,100003,200001,200002,
+%T A039820 210771,300001,1000001,1000002,1000003,1000004,1000005,1055041,
+%U A039820 2000001,2000002,2000003,2000005,2059962,2131888,2356384,3000001,3000002
+%N A039820 Numbers whose square contains the same digit more than 2/3 of the time and does not end in 0.
+%e A039820 3082207^2= 9499999990849
+%K A039820 base,hard,nonn
+%O A039820 1,2
+%A A039820 _Erich Friedman_, Apr 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

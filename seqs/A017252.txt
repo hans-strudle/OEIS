@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017252
+Showing 1-1 of 1
+
+%I A017252
+%S A017252 5764801,4294967296,152587890625,1785793904896,11688200277601,
+%T A017252 53459728531456,191707312997281,576480100000000,1517108809906561,
+%U A017252 3596345248055296,7837433594376961,15938480745308416,30590228625390625
+%N A017252 (9*n+7)^8.
+%H A017252 Vincenzo Librandi, <a href="/A017252/b017252.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017252 (9Range[0,20]+7)^8  (* _Harvey P. Dale_, Mar 16 2011 *)
+%o A017252 (MAGMA) [(9*n+7)^8: n in [0..30]]; // Vincenzo Librandi, Jul 27 2011
+%K A017252 nonn,easy
+%O A017252 0,1
+%A A017252 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

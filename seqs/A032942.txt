@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032942
+Showing 1-1 of 1
+
+%I A032942
+%S A032942 1,2,3,4,5,6,7,14,21,28,35,42,49,50,51,52,53,54,55,98,99,100,101,102,
+%T A032942 103,104,147,148,149,150,151,152,153,196,197,198,199,200,201,202,245,
+%U A032942 246,247,248,249,250,251,294,295,296,297,298
+%N A032942 Numbers n such that base 7 representation Sum{d(i)*7^i: i=0,1,...,m} has d(i)=0 for all odd i.
+%K A032942 nonn,base
+%O A032942 1,2
+%A A032942 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

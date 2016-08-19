@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033992
+Showing 1-1 of 1
+
+%I A033992
+%S A033992 30,42,60,66,70,78,84,90,102,105,110,114,120,126,130,132,138,140,150,
+%T A033992 154,156,165,168,170,174,180,182,186,190,195,198,204,220,222,228,230,
+%U A033992 231,234,238,240,246,252,255,258,260,264,266,270,273,276,280,282,285
+%N A033992 Numbers that are divisible by exactly three different primes.
+%C A033992 This sequence and A000977 are identical through their first 32 terms, but A000977(33) = 210. [Commented edited by _Jon E. Schoenfield_, Dec 30 2014]
+%H A033992 T. D. Noe, <a href="/A033992/b033992.txt">Table of n, a(n) for n = 1..1000</a>
+%F A033992 omega(a(n)) = A001221(a(n)) = 3. - _Jonathan Vos Post_, Sep 20 2005
+%e A033992 220=2*2*5*11 is here but 210 is not; compare A000977.
+%p A033992 A033992 := proc(n)
+%p A033992 if (nops(numtheory[factorset](n)) = 3) then
+%p A033992    RETURN(n)
+%p A033992 fi: end:  seq(A033992(n), n=1..500); # _Jani Melik_, Feb 24 2011
+%t A033992 Select[Range[0,6! ],Length[FactorInteger[ # ]]==3&] (* _Vladimir Joseph Stephan Orlovsky_, Apr 22 2010 *)
+%t A033992 Select[Range[300],PrimeNu[#]==3&] (* _Harvey P. Dale_, May 01 2013 *)
+%o A033992 (Haskell)
+%o A033992 a033992 n = a033992_list !! (n-1)
+%o A033992 a033992_list = filter ((== 3) . a001221) [1..]
+%o A033992 -- _Reinhard Zumkeller_, May 03 2013
+%o A033992 (PARI) is(n)=omega(n)==3 \\ _Charles R Greathouse IV_, Apr 28 2015
+%Y A033992 Cf. A000977, A007774, A000961, A033993, A051270, A112802.
+%Y A033992 Cf. A225228 (subsequence).
+%K A033992 nonn
+%O A033992 1,1
+%A A033992 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

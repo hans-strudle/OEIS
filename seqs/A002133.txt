@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002133
+Showing 1-1 of 1
+
+%I A002133 M1324 N0507
+%S A002133 0,0,1,2,5,6,11,13,17,22,27,29,37,44,44,55,59,68,71,81,82,102,97,112,
+%T A002133 109,136,126,149,141,168,157,188,176,212,182,231,207,254,230,266,241,
+%U A002133 300,259,319,283,344,295,373,311,386,352,417,353,452,368,460,418,492,413
+%N A002133 Number of partitions of n using only 2 types of parts.
+%C A002133 Also number of solutions to the Diophantine equation ab + bc + cd = n, with a,b,c >= 1. - _N. J. A. Sloane_, Jun 17 2011
+%C A002133 A generalized sum of divisors function.
+%D A002133 Andrews, George E., Stacked lattice boxes, Ann. Comb. 3 (1999), 115-130. See L_3(n).
+%D A002133 E. T. Bell, The form wx+xy+yz+zu, Bull. Amer. Math. Soc., 42 (1936), 377-380.
+%D A002133 P. A. MacMahon, Divisors of numbers and their continuations in the theory of partitions, Proc. London Math. Soc., (2) 19 (1919), 75-113; Coll. Papers II, pp. 303-341.
+%D A002133 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002133 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002133 Alois P. Heinz, <a href="/A002133/b002133.txt">Table of n, a(n) for n = 1..1000</a>
+%H A002133 N. B. Tani and S. Bouroubi, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL14/Tani/tani7.pdf">Enumeration of the Partitions of an Integer into Parts of a Specified Number of Different Sizes and Especially Two Sizes</a>, J. Integer Seqs., Vol. 14 (2011), #11.3.6. (This sequence appears as the rightmost column of Table 1 on p. 10).
+%F A002133 G.f.: sum(sum(x^(i+j)/[(1-x^i)(1-x^j)], j=1..i-1), i=1..infinity). - _Emeric Deutsch_, Mar 30 2006
+%F A002133 Andrews gives a formula which programmed up in the Maple code below. - _N. J. A. Sloane_, Jun 17 2011
+%F A002133 G.f.: (G(x)^2-H(x))/2 where G(x) = Sum {k>0} x^k/(1-x^k) and H(x) = Sum {k>0} x^(2*k)/(1-x^k)^2. More generally, we obtain g.f. for number of partitions of n with m types of parts if we substitute x(i) with -Sum_{k>0}(x^n/(x^n-1))^i in cycle index Z(S(m); x(1),x(2),..,x(m)) of symmetric group S(m) of degree m. - _Vladeta Jovovic_, Sep 18 2007
+%e A002133 a(8) = 13 because we have 71, 62, 611, 53, 5111, 422, 41111, 332, 3311, 311111, 22211, 221111, 2111111.
+%p A002133 g:=sum(sum(x^(i+j)/(1-x^i)/(1-x^j),j=1..i-1),i=1..80): gser:=series(g,x=0,65): seq(coeff(gser,x^n),n=1..60); - _Emeric Deutsch_, Mar 30 2006
+%p A002133 with(numtheory); D00:=n->add(tau(j)*tau(n-j),j=1..n-1); L3:=n->(D00(n)+tau(n)-sigma(n))/2; [seq(L3(n),n=1..60)]; - _N. J. A. Sloane_, Jun 17 2011
+%t A002133 nn=50;ss=Sum[Sum[x^(i+j)/(1-x^i)/(1-x^j),{j,1,i-1}],{i,1,nn}];Drop[CoefficientList[Series[ss,{x,0,nn}],x],1]  (* _Geoffrey Critzer_, Sep 13 2012 *)
+%Y A002133 A diagonal of A060177.
+%Y A002133 Cf. A002134.
+%K A002133 nonn,easy
+%O A002133 1,4
+%A A002133 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

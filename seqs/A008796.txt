@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008796
+Showing 1-1 of 1
+
+%I A008796
+%S A008796 1,0,2,1,4,2,7,4,10,7,14,10,19,14,24,19,30,24,37,30,44,37,52,44,61,52,
+%T A008796 70,61,80,70,91,80,102,91,114,102,127,114,140,127,154,140,169,154,184,
+%U A008796 169,200,184,217,200,234,217
+%N A008796 Molien series for 3-dimensional group [2,n ]+ = 22n; also for group H_{1,2} of order 384.
+%H A008796 Vincenzo Librandi, <a href="/A008796/b008796.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008796 E. Bannai, S. T. Dougherty, M. Harada and M. Oura, <a href="https://sites.google.com/site/professorstevendougherty/publications">Type II Codes, Even Unimodular Lattices and Invariant Rings</a>, IEEE Trans. Information Theory, Volume 45, Number 4, 1999, 1194-1205.
+%H A008796 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,2,1,-1,-2,0,1).
+%H A008796 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%F A008796 G.f.: (1+x^4)/((1-x^2)^2*(1-x^3)).
+%F A008796 a(n) = (1/72) * (9*(-1)^n*(2*n + 3) + 6*n^2 + 18*n + 29 - 8*A061347[n]). - _Ralf Stephan_, Apr 28 2014
+%t A008796 LinearRecurrence[{0,2,1,-1,-2,0,1},{1,0,2,1,4,2,7},60] (* _Harvey P. Dale_, Apr 27 2014 *)
+%t A008796 CoefficientList[Series[(1 + x^4)/((1 - x^2)^2 (1 - x^3)), {x, 0, 100}], x] (* _Vincenzo Librandi_, Apr 28 2014 *)
+%K A008796 nonn,nice,easy
+%O A008796 0,3
+%A A008796 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

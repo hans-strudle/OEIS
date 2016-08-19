@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053866
+Showing 1-1 of 1
+
+%I A053866
+%S A053866 1,1,0,1,0,0,0,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,
+%T A053866 0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
+%U A053866 0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+%N A053866 Parity of A000203(n), the sum of the divisors of n.
+%C A053866 Also parity of A001227, the number of odd divisors of n. - _Omar E. Pol_, Apr 04 2016
+%C A053866 Also parity of A000593, the sum of odd divisors of n. - _Omar E. Pol_, Apr 05 2016
+%H A053866 J. N. Cooper and A. W. N. Riasanovsky, <a href="http://www.math.sc.edu/~cooper/Sigma.pdf">On the Reciprocal of the Binary Generating Function for the Sum of Divisors</a>, 2012
+%H A053866 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>
+%F A053866 a(n) = A000203(n) mod 2. a(n)=1 iff n>0 is a square or twice a square.
+%F A053866 Multiplicative with a(2^e)=1, a(p^e)=1 if e even, 0 otherwise.
+%F A053866 a(n) = A093709(n) if n>0.
+%F A053866 Dirichlet g.f.: zeta(2s)(1+2^-s). - _Michael Somos_, Apr 12 2004
+%F A053866 a(n) = A001157(n) mod 2. - _R. J. Mathar_, Apr 02 2011
+%F A053866 a(n) = floor(sqrt(n)) + floor(sqrt(n/2)) - floor(sqrt(n-1))-floor(sqrt((n-1)/2)). - _Enrique Pérez Herrero_, Oct 15 2013
+%F A053866 a(n) = A000035(A000203(n)). - _Omar E. Pol_, Oct 26 2013
+%p A053866 A053866:= (n -> numtheory[sigma](n) mod 2):
+%p A053866 seq (A053866(n), n=0..104); # _Jani Melik_, Jan 28 2011
+%o A053866 (PARI) {a(n) = if( n<1, 0, issquare(n) || issquare(2*n))} /* _Michael Somos_, Apr 12 2004 */
+%Y A053866 Cf. A000203, A000593, A001227, A028982, A093709.
+%K A053866 nonn,mult
+%O A053866 1,1
+%A A053866 _Henry Bottomley_, Mar 29 2000
+%E A053866 More terms from _James A. Sellers_, Apr 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

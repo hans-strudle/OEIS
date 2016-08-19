@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026364
+Showing 1-1 of 1
+
+%I A026364
+%S A026364 2,7,10,13,16,21,24,29,32,37,40,45,48,51,54,59,62,67,70,73,76,81,84,
+%T A026364 89,92,95,98,103,106,111,114,117,120,125,128,133,136,141,144,149,152,
+%U A026364 155,158,163,166,171,174,177,180,185,188,193,196
+%N A026364 a(n) = greatest k such that s(k) = n, where s = A026362.
+%C A026364 Complement of A026364.
+%t A026364 (See A026363.)
+%Y A026364 Cf. A026363.
+%K A026364 nonn
+%O A026364 1,1
+%A A026364 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

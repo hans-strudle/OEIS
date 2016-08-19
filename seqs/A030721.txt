@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030721
+Showing 1-1 of 1
+
+%I A030721
+%S A030721 1,2,3,4,5,6,7,8,9,11,15,18,20,23,25,30,38,49,62,77,94,110,129,149,
+%T A030721 172,195,218,241,266,293
+%N A030721 n-th term s(k) such that s(k)>s(j) for j=1,2,...,k-1, where s=A030717 (with s(0)=0).
+%K A030721 nonn
+%O A030721 1,2
+%A A030721 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

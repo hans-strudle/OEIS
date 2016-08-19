@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032938
+Showing 1-1 of 1
+
+%I A032938
+%S A032938 1,2,3,6,9,10,11,18,19,20,27,30,33,54,57,60,81,82,83,90,91,92,99,100,
+%T A032938 101,162,163,164,171,172,173,180,181,182,243,246,249,270,273,276,297,
+%U A032938 300,303,486,489,492,513,516,519,540,543,546,729
+%N A032938 Numbers n such that base 3 representation Sum{d(i)*3^i: i=0,1,...,m} has d(i)=0 for all odd i.
+%K A032938 nonn,base
+%O A032938 1,2
+%A A032938 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

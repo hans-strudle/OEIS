@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009277
+Showing 1-1 of 1
+
+%I A009277
+%S A009277 1,2,4,88,4496,155488,675776,903834752,178181918464,
+%T A009277 26154843525632,2632795710260224,207121926659381248,
+%U A009277 274561534481040183296,132684091405061956722688,50873850498309673207709696
+%V A009277 1,2,-4,-88,4496,-155488,675776,903834752,-178181918464,
+%W A009277 26154843525632,-2632795710260224,-207121926659381248,
+%X A009277 274561534481040183296,-132684091405061956722688,50873850498309673207709696
+%N A009277 E.g.f. exp(tanh(x)^2) (even powers only).
+%F A009277 a(n)=sum(m=1..n, sum(k=0..2*n-2*m, binomial(k+2*m-1,2*m-1)*(k+2*m)!*(-1)^(k)*2^(2*n-2*m-k)*stirling2(2*n,k+2*m))/m!); [From Vladimir Kruchinin, Jun 06 2011]
+%t A009277 Exp[ Tanh[ x ]^2 ] (* Even Part *)
+%o A009277 (Maxima)
+%o A009277 a(n):=sum(sum(binomial(k+2*m-1,2*m-1)*(k+2*m)!*(-1)^(k)*2^(2*n-2*m-k)*stirling2(2*n,k+2*m),k,0,2*n-2*m)/m!,m,1,n); [From Vladimir Kruchinin, Jun 06 2011]
+%K A009277 sign
+%O A009277 0,2
+%A A009277 _R. H. Hardin_
+%E A009277 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

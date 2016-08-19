@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015171
+Showing 1-1 of 1
+
+%I A015171
+%S A015171 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015171 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015171 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015171 1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015171 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015171 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015171 Inverse of 1162nd cyclotomic polynomial.
+%p A015171 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A015171 PadRight[CoefficientList[Series[1/Cyclotomic[1162,x],{x,0,7}],x],90,0] (* _Harvey P. Dale_, May 31 2015 *)
+%K A015171 sign
+%O A015171 0,1
+%A A015171 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

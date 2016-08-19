@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058104
+Showing 1-1 of 1
+
+%I A058104
+%S A058104 1,1,3,15,112,1221,19684,1458882
+%N A058104 Number of asymmetric semigroups of order n.
+%H A058104 <a href="/index/Se#semigroups">Index entries for sequences related to semigroups</a>
+%Y A058104 Cf. A027851, A058113. a(n) = A079175(n, A027423(n)).
+%K A058104 nonn,hard
+%O A058104 0,3
+%A A058104 _Christian G. Bower_, Nov 09 2000. Updated Feb 19 2001.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

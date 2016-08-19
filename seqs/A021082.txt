@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021082
+Showing 1-1 of 1
+
+%I A021082
+%S A021082 0,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,
+%T A021082 2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,
+%U A021082 2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2,8,2,0,5,1,2
+%N A021082 Decimal expansion of 1/78.
+%t A021082 Join[{0},RealDigits[1/78,10,120][[1]]] (* or *) PadRight[{0},120,{5,1,2,8,2,0}] (* _Harvey P. Dale_, May 12 2016 *)
+%K A021082 nonn,cons,changed
+%O A021082 0,3
+%A A021082 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

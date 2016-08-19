@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006946
+Showing 1-1 of 1
+
+%I A006946 M0834
+%S A006946 1,2,3,7,13,28,55
+%N A006946 Independence number of De Bruijn graph of order n.
+%D A006946 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006946 N. Lichiardopol, Independence number of de Bruijn graphs, Discrete Math., 306 (2006),no.12, 1145-1160. [From Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 07 2010]
+%H A006946 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/IndependenceNumber.html">Independence Number.</a>
+%K A006946 nonn,more
+%O A006946 1,2
+%A A006946 _N. J. A. Sloane_, Herb Taylor
+%E A006946 a(7) from Herman Jamke (hermanjamke(AT)fastmail.fm), Sep 07 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057216
+Showing 1-1 of 1
+
+%I A057216
+%S A057216 61,173,1471,521,4429,4183,2963,257,437,743,1579,2237,3803,2309,19627,
+%T A057216 5561,47269,14881,3833,32581,263,43,61,173,1471,521,4429,4183,2963,
+%U A057216 257,437,743,1579,2237,3803,2309,19627,5561,47269,14881,3833,32581,263,43
+%N A057216 To get next term, multiply by 17, add 1 and discard any prime factors < 17.
+%C A057216 This is the `17x+1' map. The `Px+1 map': if x is divisible by any prime < P then divide out these primes one at a time starting with the smallest; otherwise multiply x by P and add 1.
+%D A057216 Murad A. AlDamen, Smarandache Notion Journal, "Murad iterating function" [details?].
+%D A057216 Murad A. AlDamen, Murad iterating function, Journal of University of Jerash, 2001, to appear.
+%H A057216 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CollatzProblem.html">Collatz problem</a>
+%e A057216 61 -> 17*61+1 = 1038 = 2*3*173 -> 173, so second term is 173.
+%Y A057216 Cf. A057446, A057522, A057534 (long version), A057614.
+%K A057216 nonn,easy
+%O A057216 0,1
+%A A057216 Murad A. AlDamen (Divisibility(AT)yahoo.com), Oct 17 2000
+%E A057216 More terms from _James A. Sellers_ and Larry Reeves (larryr(AT)acm.org), Oct 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

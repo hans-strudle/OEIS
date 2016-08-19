@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019478
+Showing 1-1 of 1
+
+%I A019478
+%S A019478 3,15,76,386,1961,9963,50618,257170,1306579,6638211,33726124,
+%T A019478 171349094,870556961,4422955527,22471287314,114167721214,580041026803,
+%U A019478 2946958993287,14972332829596,76068500060858
+%N A019478 a(n) = 5*a(n-1) + a(n-2) - 3*a(n-3) (agrees with A019477 only for n <= 23).
+%D A019478 R. K. Guy, personal communication.
+%F A019478 O.g.f.: (3-2x^2)/(1-5x-x^2+3x^3). _R. J. Mathar_, May 09 2008
+%K A019478 nonn
+%O A019478 0,1
+%A A019478 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

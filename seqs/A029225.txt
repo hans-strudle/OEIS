@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029225
+Showing 1-1 of 1
+
+%I A029225
+%S A029225 1,0,1,0,1,0,2,0,2,0,2,1,4,1,4,1,4,2,6,2,6,2,7,4,10,4,10,4,11,6,14,6,
+%T A029225 14,7,16,10,20,10,20,11,22,14,26,14,27,16,30,20,35,20,36,22,39,26,44,
+%U A029225 27,46,30,50,35,56,36,58,39,62
+%N A029225 Expansion of 1/((1-x^2)(1-x^6)(1-x^11)(1-x^12)).
+%C A029225 Number of partitions of n into parts 2, 6, 11, and 12. - _Vincenzo Librandi_, Jun 02 2014
+%H A029225 Vincenzo Librandi, <a href="/A029225/b029225.txt">Table of n, a(n) for n = 0..1000</a>
+%t A029225 CoefficientList[Series[1/((1 - x^2) (1 - x^6) (1 - x^11) (1 - x^12)), {x, 0, 100}], x] (* _Vincenzo Librandi_, Jun 02 2014 *)
+%K A029225 nonn,easy
+%O A029225 0,7
+%A A029225 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

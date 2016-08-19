@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052687
+Showing 1-1 of 1
+
+%I A052687
+%S A052687 1,2,6,18,96,480,3600,25200,241920,2177280,25401600,279417600,
+%T A052687 3832012800,49816166400,784604620800,11769069312000,209227898880000,
+%U A052687 3556874280960000,70426110763008000,1338096104497152000
+%N A052687 E.g.f. (1+x-x^3)/((1-x)(1-x^2)).
+%H A052687 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=635">Encyclopedia of Combinatorial Structures 635</a>
+%F A052687 E.g.f.: -(-x+x^3-1)/(-1+x)/(-1+x^2)
+%F A052687 Recurrence: {a(0)=1, a(1)=2, a(2)=6, (-n^3-8*n^2-17*n-10)*a(n)+(-2-n)*a(n+1)+(n+4)*a(n+2)=0, a(3)=18}
+%F A052687 (7/4+1/4*(-1)^(-n)+1/2*n)*n!.
+%F A052687 a(n) = n!*A004526(n+4), n>0. - R. J. Mathar, Nov 27 2011
+%p A052687 spec := [S,{S=Prod(Sequence(Z),Union(Z,Sequence(Prod(Z,Z))))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052687 easy,nonn
+%O A052687 0,2
+%A A052687 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

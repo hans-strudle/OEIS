@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047638
+Showing 1-1 of 1
+
+%I A047638
+%S A047638 1,13,78,286,702,1131,845,1300,5928,11583,13715,5915,15834,
+%T A047638 47477,73658,71201,20436,79391,198796,280345,258557,92807,200850,
+%U A047638 536341,773916,768222,432705,204477,979628,1626196,1856569,1471184,452192
+%V A047638 1,-13,78,-286,702,-1131,845,1300,-5928,11583,-13715,5915,15834,
+%W A047638 -47477,73658,-71201,20436,79391,-198796,280345,-258557,92807,200850,
+%X A047638 -536341,773916,-768222,432705,204477,-979628,1626196,-1856569,1471184,-452192
+%N A047638 Expand {Product_{j=1..inf} (1-x^j) - 1 }^13 in powers of x.
+%D A047638 H. Gupta, On the coefficients of the powers of Dedekind's modular form, J. London Math. Soc., 39 (1964), 433-440.
+%H A047638 H. Gupta, <a href="/A001482/a001482.pdf">On the coefficients of the powers of Dedekind's modular form</a> (annotated and scanned copy)
+%K A047638 sign
+%O A047638 1,2
+%A A047638 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016966
+Showing 1-1 of 1
+
+%I A016966
+%S A016966 1048576,10000000000,1099511627776,26559922791424,296196766695424,
+%T A016966 2064377754059776,10485760000000000,42420747482776576,
+%U A016966 144555105949057024,430804206899405824,1152921504606846976,2824752490000000000
+%N A016966 (6n+4)^10.
+%H A016966 Vincenzo Librandi, <a href="/A016966/b016966.txt">Table of n, a(n) for n = 0..1000</a>
+%t A016966 (6Range[0,20]+4)^10  (* _Harvey P. Dale_, Feb 23 2011 *)
+%o A016966 (MAGMA) [(6*n+4)^10: n in [0..20]]; // Vincenzo Librandi, May 07 2011
+%K A016966 nonn,easy
+%O A016966 0,1
+%A A016966 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

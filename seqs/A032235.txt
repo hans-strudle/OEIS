@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032235
+Showing 1-1 of 1
+
+%I A032235
+%S A032235 1,1,1,2,3,6,12,25,52,113,251,560,1268,2896,6680,15527,36301,85364,
+%T A032235 201747,479040,1141953,2732737,6560655,15799567,38154309,92378578,
+%U A032235 224192754,545292987,1328985026,3245140686,7938052589
+%N A032235 Number of dyslexic rooted compound windmills with n nodes where any 2 submills extending from the same node are different.
+%H A032235 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A032235 Shifts left under "DGK" (bracelet, element, unlabeled) transform.
+%K A032235 nonn
+%O A032235 1,4
+%A A032235 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

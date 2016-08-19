@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046057
+Showing 1-1 of 1
+
+%I A046057
+%S A046057 1,4,75,28,8,42,375,510,308,90,140,88,56,16,24,100,675,156,1029,820,
+%T A046057 1875,6321,294,546,2450,2550,1210,2156,1380,270
+%N A046057 Smallest order for which there are n nonisomorphic finite groups, or 0 if no such order exists.
+%C A046057 R. Keith Dennis conjectures that there are no 0's in this sequence. See A053403 for details.
+%D A046057 H.-U. Besche and B. Eick, Construction of Finite Groups, Journal of Symbolic Computation, Vol. 27, No. 4, Apr 15 1999, pp. 387-404.
+%D A046057 H.-U. Besche and B. Eick, The Groups of Order at Most 1000 Except 512 and 768, Journal of Symbolic Computation, Vol. 27, No. 4, Apr 15 1999, pp. 405-413.
+%D A046057 J. H. Conway et al., The Symmetries of Things, Peters, 2008, p. 209.
+%H A046057 H.-U. Besche, <a href="http://www.math.rwth-aachen.de/~Hans-Ulrich.Besche/small.html">The Small Groups library</a>
+%H A046057 John H. Conway, Heiko Dietrich and E. A. O'Brien, <a href="http://www.math.auckland.ac.nz/~obrien/research/gnu.pdf">Counting groups: gnus, moas and other exotica</a>, The Mathematical Intelligencer, March 2008, Volume 30, Issue 2, pp 6-15.
+%H A046057 John H. Conway, Heiko Dietrich and E. A. O'Brien, <a href="/A046057/a046057.txt">Table of n, a(n) for n = 1..100 (with some question marks)</a>
+%H A046057 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/FiniteGroup.html">Finite Group.</a>
+%H A046057 <a href="/index/Gre#groups">Index entries for groups</a>
+%Y A046057 Cf. A000001, A046056, A046058, A046059, A053403.
+%K A046057 nonn,more,changed
+%O A046057 1,2
+%A A046057 _Eric W. Weisstein_
+%E A046057 More terms from Victoria A. Sapko (vsapko(AT)canes.gsw.edu), Nov 04 2003
+%E A046057 a(20) corrected by _N. J. A. Sloane_, Jan 21 2004
+%E A046057 More terms from _N. J. A. Sloane_, Oct 03 2008, from the John H. Conway, Heiko Dietrich and E. A. O'Brien article.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

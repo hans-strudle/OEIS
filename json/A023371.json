@@ -1,0 +1,1 @@
+{"formerly":"","seq":"3,8,18,128,4738,4231753,1187731018833,42594869705663096099408,3228772089507297652799675584374257094299778","description":"a(n+1) = a(n) converted to base 8 from base 3 (written in base 10).","mathematica":"NestList[FromDigits[IntegerDigits[#,3],8]&,3,10] (* _Harvey P. Dale_, Jan 29 2012 *)","keyword":"nonn,base","offset":"1,1","author":"_David W. Wilson_"}

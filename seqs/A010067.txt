@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010067
+Showing 1-1 of 1
+
+%I A010067
+%S A010067 1,3,5,12,19,26,33,40,42,49,56,63,70,77,79,86,93,100,107,114,116,123,
+%T A010067 130,137,144,151,153,160,167,174,181,188,190,197,204,211,218,229,236,
+%U A010067 243,250,257,259
+%N A010067 Base 6 self or Colombian numbers (not of form n + sum of base 6 digits of n).
+%D A010067 S. R. Finch, Mathematical Constants, Cambridge, 2003, Section 2.24.
+%H A010067 <a href="/index/Coi#Colombian">Index entries for Colombian or self numbers and related sequences</a>
+%K A010067 nonn,base
+%O A010067 1,2
+%A A010067 _Leonid Broukhis_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

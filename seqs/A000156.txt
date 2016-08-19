@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000156
+Showing 1-1 of 1
+
+%I A000156
+%S A000156 1,48,1104,16192,170064,1362336,8662720,44981376,195082320,721175536,
+%T A000156 2319457632,6631997376,17231109824,41469483552,93703589760,
+%U A000156 200343312768,407488018512,793229226336,1487286966928,2697825744960,4744779429216
+%N A000156 Number of ways of writing n as a sum of 24 squares.
+%D A000156 E. Grosswald, Representations of Integers as Sums of Squares. Springer-Verlag, NY, 1985, p. 107.
+%D A000156 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers. 3rd ed., Oxford Univ. Press, 1954, p. 314.
+%H A000156 T. D. Noe, <a href="/A000156/b000156.txt">Table of n, a(n) for n=0..10000</a>
+%H A000156 H. H. Chan and C. Krattenthaler, <a href="http://arXiv.org/abs/math.NT/0407061">Recent progress in the study of representations of integers as sums of squares</a>, arXiv:math/0407061 [math.NT], 2004.
+%H A000156 Shi-Chao Chen, <a href="http://dx.doi.org/10.1016/j.jnt.2010.01.011">Congruences for rs(n)</a>, Journal of Number Theory, Volume 130, Issue 9, September 2010, Pages 2028-2032.
+%H A000156 S. C. Milne, <a href="http://dx.doi.org/10.1023/A:1014865816981">Infinite families of exact sums of squares formulas, Jacobi elliptic functions, continued fractions and Schur functions</a>, Ramanujan J., 6 (2002), 7-149.
+%H A000156 <a href="/index/Su#ssq">Index entries for sequences related to sums of squares</a>
+%p A000156 (sum(x^(m^2),m=-10..10))^24; seq(coeff(%,x,n), n=0..30);
+%t A000156 Table[SquaresR[24, n], {n, 0, 20}] (* _Ray Chandler_, Nov 28 2006 *)
+%K A000156 nonn,easy
+%O A000156 0,2
+%A A000156 _N. J. A. Sloane_
+%E A000156 Extended by _Ray Chandler_, Nov 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

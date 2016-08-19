@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028921
+Showing 1-1 of 1
+
+%I A028921
+%S A028921 1,4,12,32,64,128,192,256,256,512,768,1024,1024,1024,768,512,256,256,
+%T A028921 192,128,64,32,12,4,1,2,3,4,4,4,3,2,1,1
+%N A028921 Determinant of n-dimensional laminated lattice Lambda(n) (non-integral beyond the entries shown).
+%D A028921 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 158.
+%K A028921 nonn
+%O A028921 0,2
+%A A028921 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

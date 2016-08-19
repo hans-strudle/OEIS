@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024935
+Showing 1-1 of 1
+
+%I A024935
+%S A024935 1,2,2,2,1,2,1,2,2,2,1,2,1,2,2,2,1,2,2,2,3,2,1,2,1,2,2,2,3,2,1,2,2,2,
+%T A024935 1,2,1,2,2,2,1,2,2,2,3,2,1,2,2,2,3,2,1,2,1,2,2,2,3,2,1,2,2,2,1,2,1,2,
+%U A024935 2,2,3,2,1,2,2,2,1,2,2,2,3,2,1,2,2,2,3,2,3,2,1,2,2,2,1,2,1,2,2,2,1,2,1,2,2,2,1,2,2,2,3
+%N A024935 a(n) = minimal length of any partition of n into distinct primes.
+%K A024935 nonn
+%O A024935 7,2
+%A A024935 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

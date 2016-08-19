@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032606
+Showing 1-1 of 1
+
+%I A032606
+%S A032606 3,7,13,21,37,49,69,75,99,133,141,189,205,219,237,283,319,327,367,399,
+%T A032606 415,463,487,529,583,615,621,645,655,693,801,831,885,897,979,991,1023,
+%U A032606 1087,1105,1167,1203,1219,1285,1303,1339,1365,1471,1563
+%N A032606 Lucky numbers indexed by prime numbers.
+%t A032606 lst = Range[1, 2000, 2]; i = 2; While[ i <= (len = Length@lst) && (k = lst[[i]]) <= len, lst = Drop[lst, {k, len, k}]; i++ ]; lst[[Prime@ Range@51]] (* _Robert G. Wilson v_, May 12 2006 *)
+%Y A032606 Cf. A032605, A000959.
+%K A032606 nonn
+%O A032606 1,1
+%A A032606 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

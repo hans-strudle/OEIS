@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036501
+Showing 1-1 of 1
+
+%I A036501
+%S A036501 1,1,1,2,4,5,1,1,1,2,1,1,1,1,1,1,1,1
+%N A036501 Number of inequivalent Golomb rulers with n marks and shortest length.
+%H A036501 Anonymous, <a href="http://members.aol.com/golomb20">In Search Of The Optimal 20, 21 and 22 Mark Golomb Rulers</a>
+%H A036501 Distributed.Net, <a href="http://www.distributed.net/ogr">Project OGR</a>
+%H A036501 J. B. Shearer, <a href="http://www.research.ibm.com/people/s/shearer/gropt.html">Table of known optimal Golomb rulers </a>
+%H A036501 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/GolombRuler.html">Golomb Ruler.</a>
+%H A036501 <a href="/index/Go#Golomb">Index entries for sequences related to Golomb rulers</a>
+%Y A036501 Cf. A003022, A039953, A054578.
+%K A036501 nonn,hard,nice,more
+%O A036501 2,4
+%A A036501 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035117
+Showing 1-1 of 1
+
+%I A035117
+%S A035117 1,94,153,12700,32788,255945,4657555,159090113,812432526,3961184001
+%N A035117 a(n) is the starting position of the first occurrence of a string of exactly n 1's in the decimal expansion of Pi.
+%H A035117 David G. Andersen, <a href="http://www.angio.net/pi/piquery">The Pi-Search Page</a>.
+%H A035117 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiDigits.html">Pi Digits.</a>
+%Y A035117 Cf. A050281, A050282, A050283, A050284, A050286, A050287, A048940.
+%Y A035117 Cf. A035117, A096756, A096757, A096758, A096759, A096760, A096761, A096762, A096763, A050279.
+%K A035117 nonn,base
+%O A035117 1,2
+%A A035117 Leonardo Bitran (lbitran(AT)reuna.cl)
+%E A035117 More terms from Colin Martin (cbmartin(AT)tpg.com.au), Mar 03 2002
+%E A035117 Edited by _N. J. A. Sloane_ at the suggestion of _Andrew Plewe_, May 27 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

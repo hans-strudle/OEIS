@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025126
+Showing 1-1 of 1
+
+%I A025126
+%S A025126 1,1,0,1,1,1,2,2,1,2,2,1,2,2,2,2,2,2,2,3,3,2,3,3,3,3,3,2,3,3,3,3,3,2,
+%T A025126 3,3,2,3,4,4,4,4,3,4,4,4,4,4,4,4,4,4,3,4,3,4,4,3,4,4,4,4,4,3,4,4,4,4,
+%U A025126 5,5,5,5,5,4,5,5,5,5,5,5,5,5,4,5,5,4,5,5,4,5,5,4,5,5,5,5,5,5,5,5,5,4,5,5,5,5,5,5,5,5,6
+%N A025126 s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n-k+1), where k = [ n/2 ], s = A023533, t = A014306.
+%Y A025126 Cf. A024693. [From _R. J. Mathar_, Oct 23 2008]
+%K A025126 nonn
+%O A025126 1,7
+%A A025126 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

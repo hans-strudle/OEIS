@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002000
+Showing 1-1 of 1
+
+%I A002000 M4463 N1892
+%S A002000 7,322,33385282,37210469265847998489922,
+%T A002000 51522323599677629496737990329528638956583548304378053615581043535682
+%N A002000 a(n+1) = a(n)(a(n)^2 - 3).
+%D A002000 E. B. Escott, Rapid method for extracting a square root, Amer. Math. Monthly, 44 (1937), 644-646.
+%D A002000 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002000 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A002000 nonn,easy
+%O A002000 0,1
+%A A002000 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

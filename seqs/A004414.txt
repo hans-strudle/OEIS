@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004414
+Showing 1-1 of 1
+
+%I A004414
+%S A004414 1,26,364,3640,29094,197288,1177176,6333184,31258604,143374530,
+%T A004414 617193304,2513060264,9739727816,36115518376,128680223152,
+%U A004414 442158402816,1469734751654,4738671343952,14853923411652
+%V A004414 1,-26,364,-3640,29094,-197288,1177176,-6333184,31258604,-143374530,
+%W A004414 617193304,-2513060264,9739727816,-36115518376,128680223152,
+%X A004414 -442158402816,1469734751654,-4738671343952,14853923411652
+%N A004414 Expansion of (Sum x^(n^2), n = -inf .. inf )^(-13).
+%F A004414 a(n) ~ (-1)^n * exp(Pi*sqrt(m*n)) * m^((m+1)/4) / (2^(3*(m+1)/2) * n^((m+3)/4)), set m = 13 for this sequence. - _Vaclav Kotesovec_, Aug 18 2015
+%t A004414 nmax = 30; CoefficientList[Series[Product[((1 + (-x)^k)/(1 - (-x)^k))^13, {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Aug 18 2015 *)
+%K A004414 sign
+%O A004414 0,2
+%A A004414 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

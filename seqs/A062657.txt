@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062657
+Showing 1-1 of 1
+
+%I A062657
+%S A062657 2,3,101,1117,3109,44959,55259
+%N A062657 Numbers n such that 91^n - 90^n is prime.
+%C A062657 Terms greater than 1000 are often only strong pseudoprimes.
+%C A062657 a(8) > 10^5. - _Robert Price, Jul 21 2015
+%t A062657 Select[Range[0, 100000], PrimeQ[91^# - 90^#] &] (* _Robert Price_, Ju1 21 2015 *)
+%Y A062657 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062657 nonn,hard
+%O A062657 1,1
+%A A062657 _Mike Oakes_, May 18 2001, May 19 2001
+%E A062657 a(6)-a(7) from _Robert Price_, Jul 21 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

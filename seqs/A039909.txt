@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039909
+Showing 1-1 of 1
+
+%I A039909
+%S A039909 1,2,5,20,101,573,3836,29228,250749,2409581,25380120,294625748,
+%T A039909 3727542188,50626553988,738680521142,11501573822788,190418421447330,
+%U A039909 3344822488498265,61995904304519920,1212867413232346644
+%N A039909 Largest coefficient in expansion of Product (1-q^1+q^2-..+(-q)^i), i=1 to n.
+%o A039909 (MAGMA) PS<q>:=PowerSeriesRing(Integers()); [ Max(Coefficients(&*[&+[ (-q)^i: i in [0..j] ]: j in [0..n] ])): n in [1..20] ]; - Klaus Brockhaus, Jan 18 2011
+%Y A039909 Cf. A039830.
+%K A039909 nonn
+%O A039909 1,2
+%A A039909 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

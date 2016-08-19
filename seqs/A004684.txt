@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004684
+Showing 1-1 of 1
+
+%I A004684
+%S A004684 2,3,5,7,10,12,16,18,21,27,29,34,38
+%N A004684 Primes written in base 11. (Next term contains a non-decimal character).
+%o A004684 (PARI) a(n)=subst(Pol(digits(prime(n),11)),'x,10) \\ _Charles R Greathouse IV_, Nov 06 2013
+%K A004684 nonn,easy,base
+%O A004684 1,1
+%A A004684 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

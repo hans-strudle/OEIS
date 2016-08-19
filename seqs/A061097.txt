@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061097
+Showing 1-1 of 1
+
+%I A061097
+%S A061097 1,1,12,13,1234,15,123456,1357,124578,1379,12345678910,15711,
+%T A061097 123456789101112,13591113,12478111314,13579111315,
+%U A061097 12345678910111213141516,157111317,123456789101112131415161718
+%N A061097 a(n) = concatenation of the phi(n) numbers relatively prime to n.
+%e A061097 a(6) =15, 1 and 5 are the two coprime numbers less than 6. a(7)= 123456. 7 is a prime. phi(7) =6 hence all the numbers less than 7 are concatenated.
+%Y A061097 Cf. A000010.
+%K A061097 nonn,base
+%O A061097 0,3
+%A A061097 _Amarnath Murthy_, Apr 19 2001
+%E A061097 a(11)-a(19) from _Carl Najafi_, Apr 30 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

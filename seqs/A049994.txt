@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049994
+Showing 1-1 of 1
+
+%I A049994
+%S A049994 0,0,0,1,1,1,1,2,1,3,1,3,1,3,3,4,1,4,1,6,3,4,1,6,4,4,3,7,1,9,1,6,3,5,
+%T A049994 7,10,1,5,3,12,1,10,1,8,10,6,1,11,4,12,4,9,1,11,9,12,4,7,1,20,1,7,9,
+%U A049994 11,10,13,1,10,4,21,1,18,1,8,14,11,7,14,1,22,8
+%N A049994 a(n) = number of arithmetic progressions of 4 or more positive integers, nondecreasing with sum n.
+%K A049994 nonn
+%O A049994 1,8
+%A A049994 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054724
+Showing 1-1 of 1
+
+%I A054724
+%S A054724 1,1,1,1,1,3,1,1,1,1,7,7,14,7,7,1,1,1,1,15,35,140,273,553,715,870,715,
+%T A054724 553,273,140,35,15,1,1,1,1,31,155,1240,6293,28861,105183,330460,
+%U A054724 876525,2020239,4032015,7063784,10855425,14743445,17678835,18796230
+%N A054724 Triangle of numbers of inequivalent Boolean functions of n variables with exactly k nonzero values (atoms) under action of complementing group.
+%D A054724 M. A. Harrison, Introduction to Switching and Automata Theory. McGraw Hill, NY, 1965, p. 143.
+%H A054724 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%F A054724 2^(-n)*C(2^n, k) if k is odd and 2^(-n)*(C(2^n, k)+(2^n-1)*C(2^(n-1), k/2)) if k is even.
+%e A054724 [1, 1, 1], [1, 1, 3, 1, 1], [1, 1, 7, 7, 14, 7, 7, 1, 1], ...
+%t A054724 rows = 5; t[n_, k_?OddQ] := 2^-n*Binomial[2^n, k]; t[n_, k_?EvenQ] := 2^-n*(Binomial[2^n, k] + (2^n-1)*Binomial[2^(n-1), k/2]); Flatten[ Table[ t[n, k], {n, 1, rows}, {k, 0, 2^n}]] (* _Jean-François Alcover_, Nov 21 2011, after Vladeta Jovovic *)
+%Y A054724 Row sums give A000231. Cf. A052265.
+%K A054724 easy,nonn,nice,tabf
+%O A054724 1,6
+%A A054724 _Vladeta Jovovic_, Apr 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032454
+Showing 1-1 of 1
+
+%I A032454
+%S A032454 1,7,17,23,29,31,41,261,353,437,447,591,649,677,1253,1301,2449,9313,
+%T A032454 11749,16661,25173,32887,38761,67973,79557,149423
+%N A032454 Numbers n such that 155*2^n+1 is prime.
+%H A032454 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032454 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032454 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032454 nonn,hard
+%O A032454 1,2
+%A A032454 _N. J. A. Sloane_
+%E A032454 Extended by _Hugo Pfoertner_, Jul 02 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

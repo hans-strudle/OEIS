@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040599
+Showing 1-1 of 1
+
+%I A040599
+%S A040599 24,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,
+%T A040599 1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,
+%U A040599 48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48,1,48
+%N A040599 Continued fraction for sqrt(624).
+%H A040599 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040599 a(n)=(1/2)*[49+47*(-1)^n]-24*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 15 2009]
+%p A040599 with(numtheory): Digits := 300: convert(evalf(sqrt(624)),confrac);
+%K A040599 nonn,cofr,easy,less
+%O A040599 0,1
+%A A040599 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

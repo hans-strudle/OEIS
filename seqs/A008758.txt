@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008758
+Showing 1-1 of 1
+
+%I A008758
+%S A008758 1,1,2,3,4,5,7,8,10,12,14,16,19,21,24,28,31,35,40,44,49,55,60,66,73,
+%T A008758 79,86,94,101,109,118,126,135,145,154,164,175,185,196,208,219,231,244,
+%U A008758 256,269,283,296,310
+%N A008758 Expansion of (1+x^15)/(1-x)/(1-x^2)/(1-x^3).
+%t A008758 CoefficientList[Series[(1+x^15)/(1-x)/(1-x^2)/(1-x^3),{x,0,60}],x] (* _Harvey P. Dale_, Dec 28 2013 *)
+%K A008758 nonn
+%O A008758 0,3
+%A A008758 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

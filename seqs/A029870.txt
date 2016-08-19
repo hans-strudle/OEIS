@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029870
+Showing 1-1 of 1
+
+%I A029870
+%S A029870 1,1,5,21,80,285,970,3192,10236,32197,99743,305276,925342,2783012,
+%T A029870 8316994,24726109,73195582,215911767,635028054,1863156727,5455350409,
+%U A029870 15946267328,46545783253,135702643984,395246786050
+%N A029870 Number of connected functions on n points with a loop of length 7.
+%H A029870 C. G. Bower, <a href="/transforms2.html">Transforms</a>
+%F A029870 "CIK[ 7 ]" (necklace, indistinct, unlabeled, 7 parts) transform of A000081.
+%K A029870 nonn
+%O A029870 7,3
+%A A029870 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014474
+Showing 1-1 of 1
+
+%I A014474
+%S A014474 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%T A014474 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+%U A014474 0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+%V A014474 1,-1,0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%W A014474 -1,0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,
+%X A014474 0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0
+%N A014474 Inverse of 465th cyclotomic polynomial.
+%p A014474 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014474 sign
+%O A014474 0,1
+%A A014474 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

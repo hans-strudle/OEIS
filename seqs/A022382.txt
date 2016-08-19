@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022382
+Showing 1-1 of 1
+
+%I A022382
+%S A022382 4,10,14,24,38,62,100,162,262,424,686,1110,1796,2906,4702,7608,12310,
+%T A022382 19918,32228,52146,84374,136520,220894,357414,578308,935722,1514030,
+%U A022382 2449752,3963782,6413534,10377316
+%N A022382 Fibonacci sequence beginning 4, 10.
+%H A022382 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022382 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022382 G.f.: (4+6x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%F A022382 a(n) = 2*A001060(n). - _R. J. Mathar_, Mar 11 2011
+%t A022382 a={};b=4;c=10;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022382 nonn
+%O A022382 0,1
+%A A022382 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

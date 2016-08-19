@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029149
+Showing 1-1 of 1
+
+%I A029149
+%S A029149 1,0,1,1,1,2,2,2,3,3,4,4,6,5,7,8,8,10,11,11,14,14,16,17,20,20,23,25,
+%T A029149 26,29,32,32,37,38,41,44,48,49,54,57,60,64,69,70,77,80,84,89,95,97,
+%U A029149 105,109,114,120,127,130,139,144
+%N A029149 Expansion of 1/((1-x^2)(1-x^3)(1-x^5)(1-x^12)).
+%K A029149 nonn
+%O A029149 0,6
+%A A029149 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

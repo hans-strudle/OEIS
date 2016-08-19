@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059138
+Showing 1-1 of 1
+
+%I A059138
+%S A059138 18,90,270,666,1494,3186,6606,13482,27270,54882,110142,220698,441846,
+%T A059138 884178,1768878
+%N A059138 A hierarchical sequence (S(W3{2,2}cc) - see A059126).
+%H A059138 J. Wallgren, <a href="/A059126/a059126.txt">Hierarchical sequences</a>
+%F A059138 Conjectures from _Colin Barker_, Oct 07 2015: (Start)
+%F A059138 a(n) = 18*(-5+3*2^(1+n)-2*n).
+%F A059138 a(n) = 4*a(n-1)-5*a(n-2)+2*a(n-3) for n>2.
+%F A059138 G.f.: -18*(x+1) / ((x-1)^2*(2*x-1)).
+%F A059138 (End)
+%K A059138 easy,nonn,more
+%O A059138 0,1
+%A A059138 _Jonas Wallgren_, Jan 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

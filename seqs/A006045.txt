@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006045
+Showing 1-1 of 1
+
+%I A006045 M3946
+%S A006045 1,26,272,722,5270,5260,37358,18414,56216,95668,487714,99796,1304262,
+%T A006045 627046,593398,481982,7044222,931396,11570384,1602940
+%N A006045 Sum of orders of all 2 X 2 matrices with entries mod n.
+%C A006045 The order of a matrix M over Z/(nZ) is the smallest k such that M^k is idempotent.
+%D A006045 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006045 A. Wilansky, <a href="http://mathdl.maa.org/images/upload_library/22/Ford/AlbertWilansky.pdf">Spectral decomposition of matrices for high school students</a>, Math. Mag. 41 1968 51-59.
+%o A006045 (PARI) order(m) = {kk = 1; ok = 0; while (! ok, mk = m^kk; if (mk^2 == mk, ok = 1, kk++);); return(kk);}
+%o A006045 a(n) = {ret = 0; m = matrix(2, 2); for (i=0, n-1, m[1, 1] = Mod(i, n); for (j=0, n-1, m[1, 2] = Mod(j, n); for (k=0, n-1, m[2, 1] = Mod(k, n); for (l=0, n-1, m[2, 2] = Mod(l, n); ret += order(m););););); return (ret);}
+%K A006045 nonn
+%O A006045 1,2
+%A A006045 _N. J. A. Sloane_, Albert Wilansky
+%E A006045 The article gives an incorrect value for a(5).
+%E A006045 More terms from _Michel Marcus_, Jun 07 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

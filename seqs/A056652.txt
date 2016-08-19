@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056652
+Showing 1-1 of 1
+
+%I A056652
+%S A056652 3,7,9,21,27,31,49,63,81,93,127,147,189,217,243,279,343,381,441,567,
+%T A056652 651,729,837,889,961,1029,1143,1323,1519,1701,1953,2187,2401,2511,
+%U A056652 2667,2883,3087,3429,3937,3969,4557,5103,5859,6223,6561,6727,7203,7533,8001,8191,8649,9261
+%N A056652 Integers > 1 whose prime divisors are all Mersenne primes (i.e. of the form (2^p -1)).
+%e A056652 63 is included because the prime factorization of 63 is 3^2 * 7 = (2^2 -1)^2 *(2^3 -1).
+%o A056652 (PARI) isok(n) = {if (n==1, return (0)); my(f = factor(n)); for (k=1, #f~, if (! ((q=ispower(f[k, 1]+1,,&e)) && isprime(q) && (e==2)), return(0));); 1;} \\ _Michel Marcus_, Apr 25 2016
+%Y A056652 Cf. A000668
+%K A056652 nonn
+%O A056652 1,1
+%A A056652 _Leroy Quet_, Aug 09 2000
+%E A056652 Offset corrected and more terms by _Michel Marcus_, Apr 25 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

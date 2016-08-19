@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034955
+Showing 1-1 of 1
+
+%I A034955
+%S A034955 6,28,66,190,276,496,946,1128,1770,2278,2556,3160,3486,5356,5778,8128,
+%T A034955 8646,9730,11476,13366,14028,16110,18336,19900,22366,24976,25878,
+%U A034955 28680,31626,34716,36856,40186,47278,48516,54946,60378,64620,67528,72010
+%N A034955 Even triangular numbers with prime indices.
+%C A034955 Prime indices p so that p(p+1)/2 is 'even' see A002145 (Primes of form 4n+3).
+%H A034955 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TriangularNumber.html">Triangular Number</a>
+%Y A034955 Cf. A014493, A034953, A034954.
+%K A034955 nonn
+%O A034955 1,1
+%A A034955 _Patrick De Geest_, Oct 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

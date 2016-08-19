@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058853
+Showing 1-1 of 1
+
+%I A058853
+%S A058853 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,
+%T A058853 97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,179,181,
+%U A058853 191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277
+%N A058853 Primes p such that x^43 = 2 has a solution mod p.
+%C A058853 Primes not of the form 43n + 1. - _Charles R Greathouse IV_, Aug 22 2011
+%C A058853 Differs from A000040 - the prime 173 does not appear.
+%C A058853 For case x^31 = 2 the first missing prime is 311 (64th term).
+%C A058853 For case x^47 = 2 the first missing prime is 283 (61st term).
+%C A058853 For case x^59 = 2 the first missing prime is 709 (127th term).
+%C A058853 For case x^61 = 2 the first missing prime is 367 (73rd term).
+%C A058853 Complement of A059243 relative to A000040. - _Vincenzo Librandi_, Sep 14 2012
+%H A058853 R. J. Mathar, <a href="/A058853/b058853.txt">Table of n, a(n) for n = 1..1000</a>
+%H A058853 <a href="/index/Pri#smp">Index entries for related sequences</a>
+%F A058853 a(n) ~ 42/41 * n log n. - _Charles R Greathouse IV_, Aug 22 2011
+%t A058853 ok[p_]:= Reduce[Mod[x^43 - 2, p] == 0, x, Integers] =!= False; Select[Prime[Range[1000]], ok]  (* _Vincenzo Librandi_ Sep 14 2012 *)
+%o A058853 (PARI) forprime(p=2,1e3,if(p%43!=1,print1(p", "))) \\ _Charles R Greathouse IV_, Aug 22 2011
+%o A058853 (MAGMA) [p: p in PrimesUpTo(400) | exists(t){x : x in ResidueClassRing(p) | x^43 eq 2}]; // _Vincenzo Librandi_ Sep 14 2012
+%K A058853 nonn,easy
+%O A058853 1,1
+%A A058853 _Patrick De Geest_, Dec 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022582
+Showing 1-1 of 1
+
+%I A022582
+%S A022582 1,17,153,986,5134,22967,91528,332741,1121864,3550518,10644516,
+%T A022582 30446116,83554915,221028152,565733446,1405559677,3398860779,
+%U A022582 8018057345,18489507853,41750241112,92455892640,201066321781
+%N A022582 Expansion of Product (1+q^m)^17; m=1..inf.
+%F A022582 a(n) ~ (17/3)^(1/4) * exp(Pi * sqrt(17*n/3)) / (1024 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022582 nmax=50; CoefficientList[Series[Product[(1+q^m)^17,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022582 nonn
+%O A022582 0,2
+%A A022582 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

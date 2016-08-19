@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054467
+Showing 1-1 of 1
+
+%I A054467
+%S A054467 348,5388,17628,46620,129564,211356,342012,518892,736668,1198044
+%N A054467 Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which generate a group of order four under binary matrix multiplication.
+%Y A054467 a(n) = 2*A053173(n).
+%K A054467 nonn
+%O A054467 1,1
+%A A054467 Ralf W. Grosse-Kunstleve (rwgk(AT)cci.lbl.gov), Mar 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

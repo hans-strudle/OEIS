@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049781
+Showing 1-1 of 1
+
+%I A049781
+%S A049781 1,2,4,5,7,8,11,13,16,17,19,22,25,26,32,34,35,37,38,40,44,47,50,53,56,
+%T A049781 58,64,65,67,68,71,76,80,82,85,86,95,97,98,101,103,106,110,112,116,
+%U A049781 118,119,121,130,131,134,137,142,143,145,149,152
+%N A049781 a(n)=(b(n)+1)/2, where b=A000959 (the lucky numbers).
+%D A049781 R. K. Guy, Unsolved Problems in Number Theory, C3.
+%K A049781 nonn
+%O A049781 1,2
+%A A049781 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

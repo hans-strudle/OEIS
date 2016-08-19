@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040403
+Showing 1-1 of 1
+
+%I A040403
+%S A040403 20,1,1,2,4,5,1,1,1,9,1,1,1,5,4,2,1,1,40,1,1,2,4,5,1,1,1,9,1,1,1,5,4,
+%T A040403 2,1,1,40,1,1,2,4,5,1,1,1,9,1,1,1,5,4,2,1,1,40,1,1,2,4,5,1,1,1,9,1,1,
+%U A040403 1,5,4,2,1,1,40,1,1,2,4,5,1,1,1,9,1,1,1,5,4,2,1,1,40
+%N A040403 Continued fraction for sqrt(424).
+%H A040403 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040403 with(numtheory): Digits := 300: convert(evalf(sqrt(424)),confrac);
+%K A040403 nonn,cofr,easy
+%O A040403 0,1
+%A A040403 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

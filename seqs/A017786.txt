@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017786
+Showing 1-1 of 1
+
+%I A017786
+%S A017786 1,70,2415,54740,916895,12103014,131115985,1198774720,9440350920,
+%T A017786 65033528560,396704524216,2163842859360,10638894058520,47465835030320,
+%U A017786 193253756909160,721480692460864,2480089880334220,7877932561061640,23196134763125940
+%N A017786 Binomial coefficients C(70,n).
+%C A017786 Row 70 of A007318.
+%H A017786 Nathaniel Johnston, <a href="/A017786/b017786.txt">Table of n, a(n) for n = 0..70</a> (full sequence)
+%p A017786 seq(binomial(70,n), n=0..70); # Nathaniel Johnston, Jun 24 2011
+%o A017786 (Sage) [binomial(70, n) for n in range(17)] # [From _Zerinvary Lajos_, May 28 2009]
+%Y A017786 Cf. A010926-A011001, A017765-A017785, A017787-A017816.
+%K A017786 nonn,fini,full,easy
+%O A017786 0,2
+%A A017786 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

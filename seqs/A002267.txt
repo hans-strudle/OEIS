@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002267
+Showing 1-1 of 1
+
+%I A002267
+%S A002267 2,3,5,7,11,13,17,19,23,29,31,41,47,59,71
+%N A002267 The 15 supersingular primes: primes dividing order of Monster simple group.
+%C A002267 The supersingular primes are a subset of the Chen primes (A109611). - _Paul Muljadi_, Oct 12 2005
+%C A002267 PROD(a(k): 1<=k<=15) = 1618964990108856390 = A174848(26). - _Reinhard Zumkeller_, Apr 02 2010
+%D A002267 J. H. Conway, R. T. Curtis, S. P. Norton, R. A. Parker and R. A. Wilson, ATLAS of Finite Groups. Oxford Univ. Press, 1985.
+%D A002267 J. H. Conway and S. P. Norton, Monstrous Moonshine, Bull. Lond. Math. Soc. 11 (1979) 308-339.
+%D A002267 A. P. Ogg, Modular functions, in The Santa Cruz Conference on Finite Groups (Univ. California, Santa Cruz, Calif., 1979), pp. 521-532, Proc. Sympos. Pure Math., 37, Amer. Math. Soc., Providence, R.I., 1980.
+%H A002267 T. Gannon, <a href="http://arxiv.org/abs/math/0109067">Postcards from the edge, or Snapshots of the theory of generalised Moonshine</a>, arXiv:math/0109067.
+%H A002267 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SupersingularPrime.html">Supersingular Prime</a>
+%H A002267 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%Y A002267 Cf. A003131, A001379, A051161, A109611.
+%K A002267 nonn,fini,full,nice
+%O A002267 1,1
+%A A002267 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

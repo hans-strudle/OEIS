@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027038
+Showing 1-1 of 1
+
+%I A027038
+%S A027038 1,1,2,5,7,18,43,103,264,687,1809,4836,13049,35493,97218,267857,
+%T A027038 741791,2063574,5763595,16155403,45429488,128121191,362287433,
+%U A027038 1026918632,2917313257,8304598593,23685134746,67669857661,193652803391
+%N A027038 a(n) = diagonal sum of right-justified array T given by A027023.
+%K A027038 nonn
+%O A027038 0,3
+%A A027038 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

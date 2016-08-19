@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007016
+Showing 1-1 of 1
+
+%I A007016 M4491
+%S A007016 0,1,0,0,8,20,96,656,5568,48912,494080,5383552,65097600,840566080,
+%T A007016 11833898496,176621049600,2838024476672,48060623405312,
+%U A007016 868000333234176,16441638519762944,329723762151352320,6907027877807330304
+%N A007016 Number of permutations of length n with 1 fixed and 1 reflected point.
+%C A007016 Number of distinct solutions to the order n checkerboard problem, including symmetrical solutions: place n pieces on an n X n board so there is exactly one piece in each row, column and main diagonal. Compare A064280.
+%D A007016 Simpson, Todd; Permutations with unique fixed and reflected points. Ars Combin. 39 (1995), 97-108.
+%D A007016 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A007016 a(2*m) = m*(x(2*m) - (2*m-3)*x(2*m-1)), a(2*m+1) = (2*m+1)*x(2*m) + 3*m*x(2*m-1) - 2*m*(m-1)*x(2*m-2), where x(n) = A003471(n).
+%K A007016 nonn,easy
+%O A007016 0,5
+%A A007016 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

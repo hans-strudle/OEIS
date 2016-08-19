@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048332
+Showing 1-1 of 1
+
+%I A048332
+%S A048332 0,1,2,3,4,5,6,8,16,24,32,40,48,57,114,171,228,285,342,400,800,1200,
+%T A048332 1600,2000,2400,2801,5602,8403,11204,14005,16806,19608,39216,58824,
+%U A048332 78432,98040,117648,137257,274514,411771,549028,686285,823542,960800
+%N A048332 a(n) in base 7 is a repdigit.
+%H A048332 Vincenzo Librandi, <a href="/A048332/b048332.txt">Table of n, a(n) for n = 0..600</a>
+%H A048332 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repdigit.html">Repdigit</a>
+%t A048332 Union[Flatten[Table[FromDigits[PadRight[{}, n, d], 7], {n, 0, 40}, {d, 6}]]] (* _Vincenzo Librandi_, Feb 06 2014 *)
+%Y A048332 Cf. A010785, A033020, A028987, A028988.
+%K A048332 nonn,base
+%O A048332 0,3
+%A A048332 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

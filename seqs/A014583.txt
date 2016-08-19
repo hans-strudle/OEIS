@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014583
+Showing 1-1 of 1
+
+%I A014583
+%S A014583 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014583 0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014583 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014583 1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014583 0,0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014583 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014583 Inverse of 574th cyclotomic polynomial.
+%p A014583 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014583 sign
+%O A014583 0,1
+%A A014583 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

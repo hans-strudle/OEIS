@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001509
+Showing 1-1 of 1
+
+%I A001509
+%S A001509 6,336,1716,4896,10626,19656,32736,50616,74046,103776,140556,185136,
+%T A001509 238266,300696,373176,456456,551286,658416,778596,912576,1061106,
+%U A001509 1224936,1404816,1601496,1815726,2048256,2299836,2571216,2863146,3176376,3511656,3869736,4251366
+%N A001509 (5*n+1)*(5*n+2)*(5*n+3).
+%H A001509 T. D. Noe, <a href="/A001509/b001509.txt">Table of n, a(n) for n = 0..1000</a>
+%F A001509 a(n) = A016861(n) * A016873(n) * A016885(n). - _Wesley Ivan Hurt_, May 07 2014
+%p A001509 A001509:=n->(5*n+1)*(5*n+2)*(5*n+3); seq(A001509(n), n=0..50); # _Wesley Ivan Hurt_, May 07 2014
+%t A001509 Table[(5*n + 1)*(5*n + 2)*(5*n + 3), {n, 0, 100}] (* _Harvey P. Dale_, Apr 21 2011 *)
+%K A001509 nonn,easy
+%O A001509 0,1
+%A A001509 _N. J. A. Sloane_, Dec 11 1996
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

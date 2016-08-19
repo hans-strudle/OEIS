@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034202
+Showing 1-1 of 1
+
+%I A034202
+%S A034202 0,0,1,56,1326,19735,221778,2074059,16957301,124727148,840130123,
+%T A034202 5244256701,30596969639,167941891447
+%N A034202 Number of binary codes (not necessarily linear) of length n with 7 words.
+%D A034202 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034202 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034202 Cf. A034188-.
+%K A034202 nonn
+%O A034202 1,4
+%A A034202 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

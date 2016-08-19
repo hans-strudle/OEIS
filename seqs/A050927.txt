@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050927
+Showing 1-1 of 1
+
+%I A050927
+%S A050927 1,2,10,31,90,222,520,1090,2180,4090,7356,12660,21105,34020,53460,
+%T A050927 81891,122826,180510,260746,370370,518518,715870,976170,1315470,
+%U A050927 1753975,2314936,3027224,3923845,5044920,6436200,8152542,10255896
+%N A050927 Number of directed multigraphs with loops on 3 nodes with n arcs.
+%F A050927 G.f.: (x^10+3*x^8+10*x^7+16*x^6+12*x^5+16*x^4+10*x^3+3*x^2+1) / ((1-x^3)^3*(1-x^2)^4*(1-x)^2).
+%t A050927 <<Combinatorica`
+%t A050927 nn=30;n=3;CoefficientList[Series[CycleIndex[Join[PairGroup[SymmetricGroup[n],Ordered],Permutations[Range[n*(n - 1) + 1, n*(n - 1) + n]], 2], s] /.Table[s[i] -> 1/(1 - x^i), {i, 1, n^2 - n}], {x, 0, nn}], x] (* _Geoffrey Critzer_, Aug 07 2015 *)
+%t A050927 CoefficientList[Series[(x^10 + 3 x^8 + 10 x^7 + 16 x^6 + 12 x^5 + 16 x^4 + 10 x^3 + 3 x^2 + 1)/((1 - x^3)^3 (1 - x^2)^4 (1 - x)^2), {x, 0, 33}], x] (* _Vincenzo Librandi_, Aug 08 2015 *)
+%Y A050927 Cf. A005993.
+%K A050927 easy,nonn
+%O A050927 0,2
+%A A050927 _Vladeta Jovovic_, Dec 30 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

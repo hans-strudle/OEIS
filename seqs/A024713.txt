@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024713
+Showing 1-1 of 1
+
+%I A024713
+%S A024713 1,2,0,2,2,0,2,0,0,2,0,2,2,2,0,0,2,0,2,0,2,0,2,0,2,2,0,2,2,0,2,0,0,0,
+%T A024713 2,2,2,2,0,0,0,2,2,0,0,2,2,0,2,0,0,0,2,2,0,0,2,0,2,2,2,0,2,2,0,2,2,0,
+%U A024713 2,0,2,2,0,2,0,2,0,0,0,0,0,2,0,2,0,2,0,2,2,0,2,0,0,2,0,0,2,0,2,2,2,0,0,2,2,2,0,0,2,2,2
+%N A024713 a(n) = residue mod 5 of n-th term of A024702.
+%H A024713 Charles R Greathouse IV, <a href="/A024713/b024713.txt">Table of n, a(n) for n = 3..10000</a>
+%o A024713 (PARI) a(n)=prime(n)^2\24%5 \\ _Charles R Greathouse IV_, May 31 2013
+%K A024713 nonn
+%O A024713 3,2
+%A A024713 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

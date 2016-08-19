@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017243
+Showing 1-1 of 1
+
+%I A017243
+%S A017243 362797056,8649755859375,1521681143169024,50542106513726817,
+%T A017243 717368321110468608,6071163615208263051,36279705600000000000,
+%U A017243 168787390185178426269,650190514836423555072,2161283703465490489863
+%N A017243 (9*n+6)^11.
+%H A017243 Vincenzo Librandi, <a href="/A017243/b017243.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017243 (MAGMA) [(9*n+6)^11: n in [0..15]]; // Vincenzo Librandi, Jul 25 2011
+%K A017243 nonn,easy
+%O A017243 0,1
+%A A017243 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

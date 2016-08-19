@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026540
+Showing 1-1 of 1
+
+%I A026540
+%S A026540 1,2,6,16,36,104,215,635,1275,3786,7518,22344,44170,131264,259002,
+%T A026540 769578,1517418,4508580,8888495,26412001,52077234,154773696,305257251,
+%U A026540 907432695,1790353357,5323519838,10507386918,31251588060
+%N A026540 T(n,n-3), T given by A026536. Also number of integer strings s(0),...,s(n), counted by T, such that s(n)=3.
+%K A026540 nonn
+%O A026540 3,2
+%A A026540 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

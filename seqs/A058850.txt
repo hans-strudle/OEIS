@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058850
+Showing 1-1 of 1
+
+%I A058850
+%S A058850 9,404,1441,7227,20802,73337,2576752,7576757,144666441,7584554857,
+%T A058850 96520502569,3584243424853,3776886886773,6651010101566,9260919190629,
+%U A058850 36028948184982063,4095836722276385904,8806146443446416088,66832347055074323866,331143864040468341133
+%N A058850 Palindromes that are the sum of consecutive initial odd composites.
+%C A058850 9 + 15 + 21 + 25 + 27 + 33 + ... + z = n. For values of z see A058849.
+%H A058850 P. De Geest, <a href="http://www.worldofnumbers.com/firstpal.htm#sfn4">Palindromic Sums</a>
+%t A058850 Module[{nn=35000001,c},c=Complement[Range[9,nn,2],Prime[Range[ PrimePi[ nn]]]]; Select[ Accumulate[c],IntegerDigits[#] == Reverse[ IntegerDigits[ #]]&]] (* This program generates the first 15 terms of the sequence.  To generate more, increase the value of nn. *) (* _Harvey P. Dale_, Sep 02 2012 *)
+%Y A058850 Cf. A058848, A058849.
+%K A058850 nonn,base
+%O A058850 1,1
+%A A058850 _Patrick De Geest_, Dec 15 2000.
+%E A058850 a(19)-a(20) from _Donovan Johnson_, Sep 01 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

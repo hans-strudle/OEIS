@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053134
+Showing 1-1 of 1
+
+%I A053134
+%S A053134 1,15,70,210,495,1001,1820,3060,4845,7315,10626,14950,20475,27405,
+%T A053134 35960,46376,58905,73815,91390,111930,135751,163185,194580,230300,
+%U A053134 270725,316251,367290,424270,487635,557845,635376,720720,814385,916895,1028790,1150626,1282975
+%N A053134 Binomial coefficients C(2n+4,4).
+%C A053134 Even indexed members of fifth column of Pascal's triangle A007318.
+%C A053134 Number of standard tableaux of shape (2n+1,1^4). - Emeric Deutsch, May 30 2004
+%C A053134 Number of integer solutions to -n <= x <= y <= z <= w <= n. - _Michael Somos_, Dec 28 2011
+%H A053134 Vincenzo Librandi, <a href="/A053134/b053134.txt">Table of n, a(n) for n = 0..200</a>
+%H A053134 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%F A053134 a(n) = binomial(2*n+4, 4) = A000332(2*n+4).
+%F A053134 G.f.: (1+10*x+5*x^2)/(1-x)^5.
+%F A053134 a(1 - n) = A053126(n). - _Michael Somos_, Dec 28 2011
+%e A053134 1 + 15*x + 70*x^2 + 210*x^3 + 495*x^4 + 1001*x^5 + 1820*x^6 + 3060*x^7 + ...
+%o A053134 (MAGMA) [Binomial(2*n+4,4): n in [0..30]]; // Vincenzo Librandi, Oct 07 2011
+%Y A053134 Cf. A000447, A002299, A053126, A000332.
+%K A053134 nonn,easy
+%O A053134 0,2
+%A A053134 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

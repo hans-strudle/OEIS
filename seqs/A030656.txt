@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030656
+Showing 1-1 of 1
+
+%I A030656
+%S A030656 1,23,45,67,89,1011,1213,1415,1617,1819,2021,2223,2425,2627,2829,3031,
+%T A030656 3233,3435,3637,3839,4041,4243,4445,4647,4849,5051,5253,5455,5657,
+%U A030656 5859,6061,6263,6465,6667,6869,7071,7273,7475,7677,7879,8081,8283,8485,8687
+%N A030656 Pair up the numbers.
+%t A030656 FromDigits[Flatten[IntegerDigits/@#]]&/@Partition[Range[0,87],2] (* _Harvey P. Dale_, Jan 24 2012 *)
+%o A030656 (MAGMA) [Seqint(Intseq(n+1) cat Intseq(n)): n in [0..86 by 2]];  // Bruno Berselli, Jun 18 2011
+%Y A030656 Cf. A030655.
+%K A030656 base,nonn,easy
+%O A030656 0,2
+%A A030656 _Maghraoui Abdelkader_
+%E A030656 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

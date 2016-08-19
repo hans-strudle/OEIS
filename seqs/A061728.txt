@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061728
+Showing 1-1 of 1
+
+%I A061728
+%S A061728 2,4,5,3,4,6,7,5,6,8,9,7,8,0,1,9,0,2,3,1,2,4,5,3,4,6,7,5,6,8,9,7,8,0,
+%T A061728 1,9,0,2,3,1,2,4,5,3,4,6,7,5,6,8,9,7,8,0,1,9,0,2,3,1,2,4,5,3,4,6,7,5,
+%U A061728 6,8,9,7,8,0,1,9,0,2,3,1,2,4,5,3,4,6,7,5,6,8,9,7,8,0,1,9,0,2,3,1,2,4,5,3,4
+%N A061728 Start with 2 and 4. To get next two terms, reverse previous pair and add 1 mod 10 to them.
+%C A061728 Has period 20.
+%D A061728 Norman Sullivan, Test Your Own IQ, Workman Publishing Co. New York, NY, 1994, pp. 49, 51.
+%H A061728 Harry J. Smith, <a href="/A061728/b061728.txt">Table of n, a(n) for n=1,...,1000</a>
+%F A061728 a(n)=(1/380)*{-10*(n mod 20)+47*[(n+1) mod 20]-10*[(n+2) mod 20]-29*[(n+3) mod 20]+180*[(n+4) mod 20]-143*[(n+5) mod 20]-10*[(n+6) mod 20]+161*[(n+7) mod 20]-10*[(n+8) mod 20]+47*[(n+9) mod 20]-10*[(n+10) mod 20]-29*[(n+11) mod 20]-10*[(n+12) mod 20]+47*[(n+13) mod 20]-10*[(n+14) mod 20]-29*[(n+15) mod 20]-10*[(n+16) mod 20]+47*[(n+17) mod 20]-10*[(n+18) mod 20]-29*[(n+19) mod 20]}, with n>=0 [From _Paolo P. Lava_, Oct 23 2008]
+%e A061728 24 (42)-> 53, (35)-> 46, (64)-> 75.
+%o A061728 (PARI) { f="b061728.txt"; for (n=1, 500, if (n==1, a=2; b=4, s=a; a=(b + 1)%10; b=(s + 1)%10); write(f, 2*n - 1, " ", a); write(f, 2*n, " ", b) ) } [From _Harry J. Smith_, Jul 27 2009]
+%Y A061728 Cf. A061729.
+%K A061728 nonn,easy,base
+%O A061728 1,1
+%A A061728 Jason Earls (zevi_35711(AT)yahoo.com), May 06 2001
+%E A061728 More terms from Larry Reeves (larryr(AT)acm.org), May 07 2001
+%E A061728 OFFSET changed from 24,1 to 1,1 by _Harry J. Smith_, Jul 27 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

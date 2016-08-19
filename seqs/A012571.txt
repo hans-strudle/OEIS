@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012571
+Showing 1-1 of 1
+
+%I A012571
+%S A012571 0,2,8,152,6848,554912,70690688,13009484672,3265063958528,
+%T A012571 1071643508306432,445538702940858368,228823524775428872192,
+%U A012571 142264706412727018078208,105297877340452669962493952
+%N A012571 arcsin(sinh(x)*sinh(x))=2/2!*x^2+8/4!*x^4+152/6!*x^6+6848/8!*x^8...
+%F A012571 a(n) ~ (2*n)! / (2^(1/4) * sqrt(Pi) * n^(3/2) * (log(1+sqrt(2)))^(2*n-1/2)). - _Vaclav Kotesovec_, Feb 06 2015
+%t A012571 With[{nn=30},Take[CoefficientList[Series[ArcSin[Sinh[x]^2],{x,0,nn}],x] Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Dec 11 2013 *)
+%Y A012571 Appears to equal 2 * A012101.
+%K A012571 nonn
+%O A012571 0,2
+%A A012571 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A012571 a(0)=0 prepended by _Vaclav Kotesovec_, Feb 06 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

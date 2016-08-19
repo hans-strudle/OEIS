@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022401
+Showing 1-1 of 1
+
+%I A022401
+%S A022401 1,31,32,63,95,158,253,411,664,1075,1739,2814,4553,7367,11920,19287,
+%T A022401 31207,50494,81701,132195,213896,346091,559987,906078,1466065,2372143,
+%U A022401 3838208,6210351,10048559,16258910
+%N A022401 Fibonacci sequence beginning 1, 31.
+%H A022401 Vincenzo Librandi, <a href="/A022401/b022401.txt">Table of n, a(n) for n = 0..1000</a>
+%H A022401 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022401 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022401 G.f.: (1+30*x)/(1-x-x^2). - _Philippe Deléham_, Nov 20 2008
+%F A022401 a(n) = 31*A000045(n) + A000045(n-1). [_Paolo P. Lava_, May 19 2015]
+%p A022401 with(numtheory): with(combinat): P:=proc(q) local n;
+%p A022401 for n from 0 to q do print(31*fibonacci(n)+fibonacci(n-1));
+%p A022401 od; end: P(30); # _Paolo P. Lava_, May 19 2015
+%t A022401 a={};b=1;c=31;AppendTo[a,b];AppendTo[a,c];Do[b=b+c;AppendTo[a,b];c=b+c;AppendTo[a,c],{n,1,40,1}];a (* _Vladimir Joseph Stephan Orlovsky_, Jul 23 2008 *)
+%t A022401 CoefficientList[Series[(1 + 30 x)/(1 - x - x^2), {x, 0, 40}], x] (* _Vincenzo Librandi_, Oct 30 2014 *)
+%o A022401 (MAGMA) I:=[1, 31]; [n le 2 select I[n] else Self(n-1)+Self(n-2): n in [1..40]]; // _Vincenzo Librandi_, Oct 30 2014
+%Y A022401 a(k) = A118654(5, k).
+%K A022401 nonn
+%O A022401 0,2
+%A A022401 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

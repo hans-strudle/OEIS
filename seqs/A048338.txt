@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048338
+Showing 1-1 of 1
+
+%I A048338
+%S A048338 0,1,2,3,4,5,6,7,8,9,10,11,12,13,15,30,45,60,75,90,105,120,135,150,
+%T A048338 165,180,195,211,422,633,844,1055,1266,1477,1688,1899,2110,2321,2532,
+%U A048338 2743,2955,5910,8865,11820,14775,17730,20685,23640,26595,29550,32505,35460
+%N A048338 a(n) in base 14 is a repdigit.
+%H A048338 Vincenzo Librandi, <a href="/A048338/b048338.txt">Table of n, a(n) for n = 0..1300</a>
+%H A048338 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repdigit.html">Repdigit</a>
+%t A048338 Union[Flatten[Table[FromDigits[PadRight[{}, n, d], 14], {n, 0, 50}, {d, 13}]]] (* _Vincenzo Librandi_, Feb 06 2014 *)
+%Y A048338 Cf. A010785, A033027, A028987, A028988.
+%K A048338 nonn,base
+%O A048338 0,3
+%A A048338 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

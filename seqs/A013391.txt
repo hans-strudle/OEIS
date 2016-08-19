@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013391
+Showing 1-1 of 1
+
+%I A013391
+%S A013391 3,23,721,25199,1716121,141920855,20103619537,4016386229855,
+%T A013391 1241116799607721,494609567396520071,244232906612554953633,
+%U A013391 140315440295583485315151,92810530303082004433849401
+%N A013391 arctan(sin(x)-atanh(x))=-3/3!*x^3-23/5!*x^5-721/7!*x^7-25199/9!*x^9...
+%K A013391 nonn
+%O A013391 0,1
+%A A013391 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017203
+Showing 1-1 of 1
+
+%I A017203
+%S A017203 2187,35831808,1801088541,21870000000,137231006679,587068342272,
+%T A017203 1954897493193,5455160701056,13348388671875,29509034655744,
+%U A017203 60170087060757,114868566764928,207616015289871,358318080000000
+%N A017203 (9*n+3)^7.
+%H A017203 Vincenzo Librandi, <a href="/A017203/b017203.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017203 (MAGMA) [(9*n+3)^7: n in [0..20]]; // Vincenzo Librandi, Jul 23 2011
+%K A017203 nonn,easy
+%O A017203 0,1
+%A A017203 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

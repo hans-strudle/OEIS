@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002891
+Showing 1-1 of 1
+
+%I A002891 M2293 N0906
+%S A002891 1,0,0,1,0,3,3,15,30,101,261,807,2308,7065,21171,65337,200934,
+%T A002891 627249,1962034,6192066,19610346,62482527,199807110,641837193,
+%U A002891 2068695927,6691611633,21710041944,70645706963
+%V A002891 1,0,0,1,0,3,-3,15,-30,101,-261,807,-2308,7065,-21171,65337,-200934,
+%W A002891 627249,-1962034,6192066,-19610346,62482527,-199807110,641837193,
+%X A002891 -2068695927,6691611633,-21710041944,70645706963
+%N A002891 Low temperature series for spin-1/2 Ising free energy on 3-dimensional simple cubic lattice.
+%D A002891 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 391-406.
+%D A002891 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002891 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002891 A. J. Guttmann and I. G. Enting, Series studies of the Potts model: I. The simple cubic Ising model, J. Phys. A 26 (1993) 807-821.
+%D A002891 A. J. Wakefield, Statistics of the simple cubic lattice, Proc. Cambridge Philos. Soc. 47 (1951) 419-429 and 719-810.
+%H A002891 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/ising/ising.html">Lenz-Ising Constants</a>
+%K A002891 sign
+%O A002891 0,6
+%A A002891 _N. J. A. Sloane_, C. Vohwinkel
+%E A002891 Corrections and updates from _Steven Finch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

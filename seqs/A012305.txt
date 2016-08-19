@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012305
+Showing 1-1 of 1
+
+%I A012305
+%S A012305 2,3,12,40,358,2499,25032,229104,2865402,36173115,550240020,
+%T A012305 8500522680,149846317710,2762418635235,56365118364240,
+%U A012305 1205267403147360,27829436319559410,674568212738977395
+%V A012305 2,-3,12,-40,358,-2499,25032,-229104,2865402,-36173115,550240020,
+%W A012305 -8500522680,149846317710,-2762418635235,56365118364240,
+%X A012305 -1205267403147360,27829436319559410,-674568212738977395
+%N A012305 arcsin(arcsin(x)*log(x+1))=2/2!*x^2-3/3!*x^3+12/4!*x^4-40/5!*x^5...
+%t A012305 With[{nn=20},Drop[CoefficientList[Series[ArcSin[ArcSin[x]Log[x+1]],{x,0,nn}],x] Range[0,nn]!,2]] (* _Harvey P. Dale_, Oct 18 2013 *)
+%K A012305 sign
+%O A012305 0,1
+%A A012305 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019099
+Showing 1-1 of 1
+
+%I A019099
+%S A019099 0,2,2,5,18,20,34,148,243,673,1248,3321,6864,17337,39632,99576,243766
+%N A019099 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite CON = CIT-1 H2[ B2Si54O112 ].
+%D A019099 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019099 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019099 nonn
+%O A019099 3,2
+%A A019099 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047131
+Showing 1-1 of 1
+
+%I A047131
+%S A047131 1,2,3,6,10,20,35,70,140,252,504,932,1864,3493,6986,13972,26265,52530,
+%T A047131 100168,200336,384573,769146,1538292,2950530,5901060,11422700,
+%U A047131 22845400,44403564,88807128,177614256,344644881,689289762,1346117062
+%N A047131 Sum{T(i,n-i): i=0,1,...,n}, array T as in A047131.
+%K A047131 nonn
+%O A047131 0,2
+%A A047131 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

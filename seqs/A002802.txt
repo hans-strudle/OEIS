@@ -1,0 +1,39 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002802
+Showing 1-1 of 1
+
+%I A002802 M4724 N2019
+%S A002802 1,10,70,420,2310,12012,60060,291720,1385670,6466460,29745716,
+%T A002802 135207800,608435100,2714556600,12021607800,52895074320,231415950150,
+%U A002802 1007340018300,4365140079300,18839025605400,81007810103220,347176329013800,1483389769422600
+%N A002802 (2*n+3)!/(6*n!*(n+1)!).
+%C A002802 For n >= 1 a(n) is also the number of rooted bicolored unicellular maps of genus 1 on n+2 edges. - Ahmed Fares (ahmedfares(AT)my-deja.com), Aug 20 2001
+%C A002802 a(n)=A051133(n+1)/3 =A000911(n)/6. - _Zerinvary Lajos_, Jun 02 2007
+%D A002802 R. Cori, G. Hetyei, How to count genus one partitions, FPSAC 2014, Chicago, Discrete Mathematics and Theoretical Computer Science (DMTCS), Nancy, France, 2014, 333-344; http://www.dmtcs.org/dmtcs-ojs/index.php/proceedings/article/viewFile/dmAT0130/4488
+%D A002802 Alain Goupil and Gilles Schaeffer, Factoring N-Cycles and Counting Maps of Given Genus. Europ. J. Combinatorics (1998) 19 819-834.
+%D A002802 C. Jordan, Calculus of Finite Differences. Budapest, 1939, p. 449.
+%D A002802 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002802 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A002802 T. R. S. Walsh and A. B. Lehman, Counting rooted maps by genus. I, J. Comb. Theory, B, 13, No. 3 (1972), 192-218 (Tab. 1).
+%H A002802 T. D. Noe, <a href="/A002802/b002802.txt">Table of n, a(n) for n = 0..200</a>
+%H A002802 R. Cori, G. Hetyei, <a href="http://arxiv.org/abs/1306.4628">Counting genus one partitions and permutations</a>, arXiv preprint arXiv:1306.4628, 2013
+%F A002802 G.f.: (1 - 4*x)^(-5/2) = 1F0(5/2;;4x).
+%F A002802 Asymptotic expression for a(n) is a(n) ~ (n+2)^(3/2) * 4^(n+2) / (sqrt(Pi) * 48).
+%F A002802 a(n) = Sum (a+b+c+d+e=n, f(a)*f(b)*f(c)*f(d)*f(e)) with f(n)=binomial(2n, n)=A000984(n). - _Philippe Deléham_, Jan 22 2004
+%F A002802 a(n-1)=1/4*sum(k=1, n, k*(k+1)*binomial(2*k, k)). - _Benoit Cloitre_, Mar 20 2004
+%F A002802 Also convolution of A000984 with A002697, also convolution of A000302 with A002457. a(n) = ((2n+3)(2n+1)/(3*1)) * binomial(2n, n) a(n) = binomial(2n+4, 4) * binomial(2n, n) / binomial(n+2, 2) a(n) = binomial(n+2, 2) * binomial(2n+4, n+2) / binomial(4, 2) = binomial(2n+4, n+2) * (n+2)*(n+1) / 12. - _Rui Duarte_, Oct 08 2011
+%F A002802 n*a(n) +2*(-2*n-3)*a(n-1)=0. - _R. J. Mathar_, Jan 31 2014
+%F A002802 a(n) = 4^n*hypergeom([-n,-3/2], [1], 1). - _Peter Luschny_, Apr 26 2016
+%e A002802 G.f. = 1 + 10*x + 70*x^2 + 420*x^3 + 2310*x^4 + 12012*x^5 + 60060*x^6 + ...
+%p A002802 for n from 2 to 24 do n*add(binomial(2*n, n)/12, k=2..n) od; # Zerinvary Lajos, Mar 13 2007
+%p A002802 seq(simplify(4^n*hypergeom([-n,-3/2], [1], 1)),n=0..22); # _Peter Luschny_, Apr 26 2016
+%t A002802 Table[(2*n+3)!/(6*n!*(n+1)!), {n, 0, 20}] (* _Vladimir Joseph Stephan Orlovsky_, Dec 13 2008 *)
+%o A002802 (PARI) {a(n) = if( n<0, 0, (2*n + 3)! / (6 * n! * (n+1)!)}; /* _Michael Somos_, Sep 16 2013 */
+%o A002802 (PARI) {a(n) = 2^(n+3) * polcoeff( pollegendre(n+4), n) / 3}; /* _Michael Somos_, Sep 16 2013 */
+%Y A002802 Cf. A035309, A000108 (for genus 0 maps).
+%K A002802 nonn,easy
+%O A002802 0,2
+%A A002802 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

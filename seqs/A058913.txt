@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058913
+Showing 1-1 of 1
+
+%I A058913
+%S A058913 62,2,26,13,4,157,187,64,73,1,82,19,28,46,172,37,1702,10234,16687
+%N A058913 Smallest number k such that x/(sum of digits of x) = n has exactly n solutions.
+%Y A058913 Smallest inverse of A059124.
+%K A058913 base,nonn
+%O A058913 1,1
+%A A058913 _David W. Wilson_, Jan 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038052
+Showing 1-1 of 1
+
+%I A038052
+%S A038052 1,1,2,7,42,376,4513,68090,1238968,26416729,646140364,17837852044,
+%T A038052 548713088399,18612963873492,690271321314292,27785827303491579,
+%U A038052 1206582732097720126,56224025231569020724,2798445211000659147033
+%N A038052 Number of labeled trees of nonempty sets with n points. (Each node is a set of 1 or more points.)
+%H A038052 T. D. Noe, <a href="/A038052/b038052.txt">Table of n, a(n) for n=0..100</a>
+%H A038052 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A038052 E.g.f.: B(e^x-1) where B is e.g.f. of A000272.
+%F A038052 a(n) = Sum_{k=1..n} Stirling2(n, k)*k^(k-2). - _Vladeta Jovovic_, Sep 20 2003
+%t A038052 a[0] = 1; a[n_] := Sum[StirlingS2[n, k]*k^(k - 2), {k, 1, n}]; Table[a[n], {n, 0, 18}] (* _Jean-François Alcover_, Sep 09 2013, after Vladeta Jovovic *)
+%Y A038052 Cf. A036250, A048802.
+%K A038052 nonn,nice,easy
+%O A038052 0,3
+%A A038052 _Christian G. Bower_, Jan 04 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

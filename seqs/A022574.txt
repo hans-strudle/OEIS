@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022574
+Showing 1-1 of 1
+
+%I A022574
+%S A022574 1,9,45,174,576,1701,4614,11709,28125,64525,142353,303552,628251,
+%T A022574 1266273,2492352,4801578,9071973,16837893,30744649,55296000,98070633,
+%U A022574 171683463,296919081,507695670,858866880
+%N A022574 Expansion of Product (1+q^m)^9; m=1..inf.
+%F A022574 a(n) ~ 3^(1/4) * exp(Pi * sqrt(3*n)) / (64 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022574 nmax=50; CoefficientList[Series[Product[(1+q^m)^9,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022574 nonn
+%O A022574 0,2
+%A A022574 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

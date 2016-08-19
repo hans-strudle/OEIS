@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049136
+Showing 1-1 of 1
+
+%I A049136
+%S A049136 1,1,2,6,22,90,392,1775,8252,39114,188220,916920,4512880,22406488,
+%T A049136 112092264,564474555,2859167178,14557198500,74459570756,382441401734,
+%U A049136 1971683051152,10199692593804,52927874586704,275432533945182
+%N A049136 Revert transform of (1 - 3x + x^3)/(1 - 2x - 2x^2).
+%H A049136 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%K A049136 nonn
+%O A049136 1,3
+%A A049136 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

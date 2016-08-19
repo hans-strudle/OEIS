@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047462
+Showing 1-1 of 1
+
+%I A047462
+%S A047462 0,1,4,8,9,12,16,17,20,24,25,28,32,33,36,40,41,44,48,49,52,56,57,60,
+%T A047462 64,65,68,72,73,76,80,81,84,88,89,92,96,97,100,104,105,108,112,113,
+%U A047462 116,120,121,124,128,129,132,136
+%N A047462 Numbers that are congruent to {0, 1, 4} mod 8.
+%H A047462 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047462 G.f.: x^2*(1+3*x+4*x^2)/((1-x)^2*(1+x+x^2)). [_Colin Barker_, May 13 2012]
+%K A047462 nonn,easy
+%O A047462 1,3
+%A A047462 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

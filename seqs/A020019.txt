@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020019
+Showing 1-1 of 1
+
+%I A020019
+%S A020019 1,1,2,5,19,92,543,3741,29513,262341,2594262,28248627,335844793,
+%T A020019 4328666215,60120364101,895125421053,14222548356739,240203038913808,
+%U A020019 4296965473902563,81164903395937306,1614279745319197539,33720510235556570814
+%N A020019 Nearest integer to GAMMA(n+8/9)/GAMMA(8/9).
+%p A020019 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%t A020019 f[n_] := Round[Gamma[n + 8/9]/Gamma[8/9]]; Array[f, 22, 0] (* _Robert G. Wilson v_, Sep 13 2013 *)
+%K A020019 nonn
+%O A020019 0,3
+%A A020019 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

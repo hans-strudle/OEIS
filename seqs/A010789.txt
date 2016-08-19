@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010789
+Showing 1-1 of 1
+
+%I A010789
+%S A010789 1,2,31,692,32821,2182982,220761451,29587628072,5271224958121,
+%T A010789 1181874030353162,329170919623534231,110868894348113861852,
+%U A010789 44548277847630426340381,21016319125189602127144142
+%N A010789 arcsin(log(cos(x)))=-1/2!*x^2-2/4!*x^4-31/6!*x^6-692/8!*x^8+...
+%K A010789 nonn
+%O A010789 0,2
+%A A010789 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

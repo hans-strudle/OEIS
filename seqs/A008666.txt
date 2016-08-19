@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008666
+Showing 1-1 of 1
+
+%I A008666
+%S A008666 1,0,1,1,1,2,3,2,4,5,5,7,9,8,12,14,14,18,22,21,28,31,32,39,45,45,55,
+%T A008666 61,63,74,83,84,99,108,112,128,141,144,165,178,185,207,225,231,259,
+%U A008666 278,288,318,342,352,389
+%N A008666 G.f.: 1/((1-x^2)(1-x^3)(1-x^5)(1-x^6)(1-x^9)).
+%C A008666 Molien series for 5-dimensional complex reflection group of order 2^7.3^4.5 is 1/((1-x^4)(1-x^6)(1-x^10)(1-x^12)(1-x^18)).
+%D A008666 L. Smith, Polynomial Invariants of Finite Groups, Peters, 1995, p. 199 (No. 33).
+%H A008666 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=247">Encyclopedia of Combinatorial Structures 247</a>
+%H A008666 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%F A008666 a(n) ~ 1/38880*n^4 + 1/3888*n^3. - _Ralf Stephan_, Apr 29 2014
+%t A008666 CoefficientList[Series[1/((1-x^2)(1-x^3)(1-x^5)(1-x^6)(1-x^9)),{x,0,60}],x] (* _Harvey P. Dale_, Jul 28 2012 *)
+%o A008666 (PARI) a(n)=polcoeff(1/((1-x^2)*(1-x^3)*(1-x^5)*(1-x^6)*(1-x^9))+x*O(x^n),n)
+%K A008666 nonn
+%O A008666 0,6
+%A A008666 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

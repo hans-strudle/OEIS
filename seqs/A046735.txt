@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046735
+Showing 1-1 of 1
+
+%I A046735
+%S A046735 2,27,91,103,163,199,203,221,247,305,371,377,397,421,551,559,757,779,
+%T A046735 883,991,1021,1079,1087,1123,1189,1199,1237,1351,1521,1543,1567,1609,
+%U A046735 1651,1753,1769,1799,1807,1873,1883,1919,2009,2071,2261,2539
+%N A046735 Nontrivial (i.e. having no nontrivial factors with this property) integers which do not divide any terms of A000213.
+%o A046735 (PARI) nondivisor(n)=my(a=1,b=1,c=1,t);for(i=1,n^2,t=(a+b+c)%n;if(t,a=b;b=c;c=t,return(0));if(c==1&&b==1&&a==1,return(1)))
+%o A046735 is(n)=fordiv(n,d,if(nondivisor(d),return(n==d)));0 \\ _Charles R Greathouse IV_, Aug 29 2012
+%K A046735 nonn
+%O A046735 1,1
+%A A046735 _David W. Wilson_
+%E A046735 Definition corrected by Henry Ayoola (henry.ayoola(AT)googlemail.com), Feb 03 2009
+%E A046735 a(1) added by _Charles R Greathouse IV_, Aug 29 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023313
+Showing 1-1 of 1
+
+%I A023313
+%S A023313 373,1171,13687,21997,25657,61603,74413,76471,84199,87181,93487,
+%T A023313 114691,135859,170761,174877,184333,192979,196177,207931,209743,
+%U A023313 244219,276229,286687,292561,297811,334603,338893,405037,408361,417097,439141,446323
+%N A023313 Numbers n such that n remains prime through 4 iterations of function f(x) = 5x + 2.
+%C A023313 n, 5*n+2, 25*n+12, 125*n+62 and 625*n+312 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023313 (MAGMA) [n: n in [1..1000000] | IsPrime(n) and IsPrime(5*n+2) and IsPrime(25*n+12) and IsPrime(125*n+62) and IsPrime(625*n+312)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023313 nonn
+%O A023313 1,1
+%A A023313 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

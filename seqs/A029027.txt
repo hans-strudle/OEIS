@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029027
+Showing 1-1 of 1
+
+%I A029027
+%S A029027 1,1,2,2,3,3,4,4,5,6,8,9,11,12,14,15,17,18,21,23,27,29,33,35,39,41,45,
+%T A029027 48,53,57,63,67,73,77,83,87,94,99,107,113,122,128,137,143,152,159,169,
+%U A029027 177,188,197,209,218,230,239
+%N A029027 Expansion of 1/((1-x)(1-x^2)(1-x^9)(1-x^10)).
+%K A029027 nonn
+%O A029027 0,3
+%A A029027 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

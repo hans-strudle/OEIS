@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052902
+Showing 1-1 of 1
+
+%I A052902
+%S A052902 0,0,0,0,0,18,54,0,0,0,18,36,0,0,0,0,0,0,0,54,36,18,0,0,18,90,72,36,
+%T A052902 90,18,144,18,36,54,270,0,414,450,450,36,18,630,720,54,18,720,0,0,0,0,
+%U A052902 0,54,180,270,0,0,0,144,450,540,540,54,234,180,18,144,18,36,396,90,0,234,306
+%N A052902 Take n-th prime p, let P = all primes that can be obtained by permuting the digits of p and possibly omitting zeros; a(n) = |p-q| where q in P is the closest to p but different from p (a(n)=0 if no such q exists).
+%e A052902 a(6)=18 since 6th prime is 13 and 31-13=18. a(25)=90 since 23rd prime is 101 and 101-11=90.
+%Y A052902 Cf. A052998, A052999, A053544, A052495.
+%K A052902 base,easy,nonn
+%O A052902 1,6
+%A A052902 _N. J. A. Sloane_, Mar 16 2000
+%E A052902 More terms from Asher Natan Auel (auela(AT)reed.edu), May 12, 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

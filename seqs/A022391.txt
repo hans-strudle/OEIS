@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022391
+Showing 1-1 of 1
+
+%I A022391
+%S A022391 1,21,22,43,65,108,173,281,454,735,1189,1924,3113,5037,8150,13187,
+%T A022391 21337,34524,55861,90385,146246,236631,382877,619508,1002385,1621893,
+%U A022391 2624278,4246171,6870449,11116620
+%N A022391 Fibonacci sequence beginning 1, 21.
+%C A022391 a(n-1) = sum_{k=0..ceiling((n-1)/2)} P(21;n-1-k,k), n>=1, with a(-1)=20. These are the SW-NE diagonals in P(21;n,k), the (21,1) Pascal triangle. Cf. A093645 for the (10,1) Pascal triangle. Observation by _Paul Barry_, Apr 29 2004. Proof via recursion relations and comparison of inputs.
+%H A022391 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022391 S. Kak, <a href="http://uk.arXiv.org/abs/physics/0411195">The Golden Mean and the Physics of Aesthetics</a>
+%H A022391 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022391 a(n) = a(n-1) + a(n-2), n>=2, a(0)=1, a(1)=21. a(-1):=20.
+%F A022391 G.f.: (1+20*x)/(1-x-x^2).
+%F A022391 a(n) = 21*A000045(n) + A000045(n-1). [_Paolo P. Lava_, May 19 2015]
+%p A022391 with(numtheory): with(combinat): P:=proc(q) local n;
+%p A022391 for n from 0 to q do print(21*fibonacci(n)+fibonacci(n-1));
+%p A022391 od; end: P(30); # _Paolo P. Lava_, May 19 2015
+%t A022391 a={};b=1;c=21;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022391 nonn
+%O A022391 0,2
+%A A022391 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

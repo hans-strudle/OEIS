@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035794
+Showing 1-1 of 1
+
+%I A035794
+%S A035794 325267931,412984667,2227604747,2409360557,4014288869,4363839617,
+%T A035794 6988064579,8402566787,9497780417,10099096127,12347083739,12429980741,
+%U A035794 13022601257,14198015129,14845029299,15330685079,16810761029,17049454841,18266059421,18864084791
+%N A035794 Start of a string of exactly 6 consecutive (but disjoint) pairs of twin primes.
+%H A035794 Vasily Danilov, <a href="/A035794/b035794.txt">Table of n, a(n) for n = 1..1993</a> (for details see extensions)
+%H A035794 Randall Rathbun, <a href="https://listserv.nodak.edu/cgi-bin/wa.exe?A2=NMBRTHRY;6a849ab3.9811">A study of n-twin_prime clusters among prime numbers</a>, Posting to Number Theory List, Nov 19 1998.
+%t A035794 fQ[n_] := Block[{k = 6}, And[NextPrime[n, -1] - NextPrime[n, -2] != 2, NextPrime[n, 2 k + 1] - NextPrime[n, 2 k] != 2, AllTrue[NextPrime[n, # + 1] - NextPrime[n, #] & /@ (Range[0, 2 k - 1, 2]), # == 2 &]]]; Select[Prime@ Range[10^9], fQ] (* _Michael De Vlieger_, May 09 2015, Version 10 *)
+%Y A035794 Cf. A001359, A035789, A035790, A035791, A035792, A035793, A035794, A035795, A087641.
+%K A035794 nonn
+%O A035794 1,1
+%A A035794 Randall Rathbun
+%E A035794 a(11)-a(17) from _Jud McCranie_, Sep 16 2003
+%E A035794 Offset corrected by _Arkadiusz Wesolowski_, May 06 2012
+%E A035794 Data corrected from _Sebastian Petzelberger_, May 04 2015
+%E A035794 a(27)-a(41) added by _Natalia Makarova_, Oct 05 2015
+%E A035794 a(42)-a(111) added by _Vasily Danilov_, Oct 10 2015
+%E A035794 a(112) added by _Natalia Makarova_, Oct 10 2015
+%E A035794 a(113)-a(311) added by _Vasily Danilov_, Oct 10 2015, Oct 14 2015
+%E A035794 a(227)-a(253) added by _Natalia Makarova_, Oct 14 2015
+%E A035794 a(312)-a(1993) added by _Vasily Danilov_, Oct 14 2015, Oct 15 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

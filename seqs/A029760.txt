@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029760
+Showing 1-1 of 1
+
+%I A029760
+%S A029760 1,8,47,244,1186,5536,25147,112028,491870,2135440,9188406,39249768,
+%T A029760 166656772,704069248,2961699667,12412521388,51854046982,216013684528,
+%U A029760 897632738722,3721813363288,15401045060572
+%N A029760 A sum with next-to-central binomial coefficients of even order, Catalan related.
+%C A029760 Proof by induction.
+%C A029760 a(n) = total area below paths consisting of steps east (1,0) and north (0,1) from (0,0) to (n+2,n+2) that stay weakly below y=x. For example, the two paths with n=0 are
+%C A029760 . _|.....|
+%C A029760 _|.....__|
+%C A029760 The first has area 1 below it, the second area 0 and so a(0)=1. - _David Callan_, Dec 09 2004
+%C A029760 Convolution of A000346 with A001700 . [From _Philippe Deléham_, May 19 2009]
+%F A029760 a(n) = 4^(n+1)*sum(binomial(2k, k-1)/4^k, k=1..n+1) = ((n+3)^2)*C(n+2)/2-2^(2*n+3), C = Catalan. Also a(n+1)=4*a(n)+binomial(2(n+2), n+1).
+%F A029760 G.f.: diff(c(x), x)/(1-4*x), where c(x) = g.f. for Catalan numbers; convolution of A001791 and powers of 4. G.f. also c(x)^2/(1-4*x)^(3/2); convolution of Catalan numbers A000108 C(n), n >= 1, with A002457; convolution of A008549(n), n >= 1, with A000984 (central binomial coefficients).
+%F A029760 a(n) = Sum_{k, 0<=k<=n+1}A039598(n+1,k)*k^2. - _Philippe Deléham_, Dec 16 2007
+%Y A029760 Cf. A000108, A002457, A008549, A000984.
+%K A029760 nonn
+%O A029760 0,2
+%A A029760 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

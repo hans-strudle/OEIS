@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022130
+Showing 1-1 of 1
+
+%I A022130
+%S A022130 4,9,13,22,35,57,92,149,241,390,631,1021,1652,2673,4325,6998,11323,
+%T A022130 18321,29644,47965,77609,125574,203183,328757,531940,860697,1392637,
+%U A022130 2253334,3645971,5899305,9545276,15444581,24989857,40434438,65424295,105858733,171283028
+%N A022130 Fibonacci sequence beginning 4,9.
+%C A022130 The associated Pisano series starts as in A001175, but differs for example for modulus 29 where it is 7, not 14. - _R. J. Mathar_, Nov 02 2011
+%H A022130 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022130 H. Zhao and X. Li, <a href="http://www.fq.math.ca/Papers1/44-1/quarthzhoa01_2006.pdf">On the Fibonacci numbers of trees</a>, Fib. Quart., 44 (2006), 32-38.
+%H A022130 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022130 a(n) = 4*F(n)+F(n-2).
+%F A022130 G.f.: (4+5x)/(1-x-x^2). - _Philippe Deléham_, Nov 19 2008
+%F A022130 a(n)= Fibonacci(n-2)+Fibonacci(n+5). - _Gary Detlefs_, Mar 31 2012
+%t A022130 a={};b=4;c=9;AppendTo[a,b];AppendTo[a,c];Do[b=b+c;AppendTo[a,b];c=b+c;AppendTo[a,c],{n,1,40,1}];a (* _Vladimir Joseph Stephan Orlovsky_, Jul 23 2008 *)
+%t A022130 LinearRecurrence[{1,1},{4,9},40] (* _Harvey P. Dale_, Dec 15 2011 *)
+%o A022130 (PARI) a(n)=4*fibonacci(n-1)+9*fibonacci(n) \\ _Charles R Greathouse IV_, Jun 05 2011
+%Y A022130 Cf. A000032.
+%K A022130 nonn,easy
+%O A022130 0,1
+%A A022130 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

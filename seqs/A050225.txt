@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050225
+Showing 1-1 of 1
+
+%I A050225
+%S A050225 6969,19998,36399,39693,66099,69663,69897,89769,99363,99759,109989,
+%T A050225 118899,181998,191799,199089,297099,306939,333399,336963,339933,
+%U A050225 363099,396363,397998,399333,399729,588969,606666,606909,639633,660693,666633
+%N A050225 1/3-Smith Numbers.
+%D A050225 McDaniel, W. L., "The existence of infinitely many k- Smith numbers", Fibonacci Quarterly, 25(1987), pp. 76-80.
+%H A050225 S. S. Gupta, <a href="http://www.shyamsundergupta.com/smith.htm">Smith Numbers</a>.
+%H A050225 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmithNumber.html">Smith Numbers</a>
+%e A050225 6969 is a 3^(-1) Smith number because digit sum of 6969 i.e. S(6969) = 6 + 9+ 6 + 9=30, which is equal to 3 times the sum of the digits of its prime factors i.e. 3* Sp (6969) =3 * Sp (3 * 23 * 101) = 3 *( 3 + 2 + 3 + 1 + 0 + 1) = 30.
+%Y A050225 Cf. A006753, A050224, A006753.
+%K A050225 nonn,base
+%O A050225 1,1
+%A A050225 _Eric W. Weisstein_
+%E A050225 More terms from _Shyam Sunder Gupta_, Mar 11 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

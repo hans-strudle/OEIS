@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054007
+Showing 1-1 of 1
+
+%I A054007
+%S A054007 206,957,1364,2974,4364,14841,18873,19358,20145,24957,36566,56564,
+%T A054007 74918,79826,79833,92685,111506,116937,138237,147454,161001,162602,
+%U A054007 174717,190773,193893,201597,230390,274533,347738,416577,422073,430137
+%N A054007 Numbers n such that n and n+1 have the same sum but an unequal number of divisors.
+%F A054007 Members of A002961 which are not members of A054004
+%t A054007 Select[Range[100000], DivisorSigma[0, #] != DivisorSigma[0, # + 1] && DivisorSigma[1, #] == DivisorSigma[1, # + 1] &] (* Jayanta Basu, Mar 20 2013 *)
+%Y A054007 Cf. A000005, A000203, A002961, A005237, A053249, A054004, A054005, A054006.
+%K A054007 nonn
+%O A054007 1,1
+%A A054007 Asher Auel (asher.auel(AT)reed.edu) Jan 12, 2000
+%E A054007 More terms from _Jud McCranie_, Oct 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

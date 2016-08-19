@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047205
+Showing 1-1 of 1
+
+%I A047205
+%S A047205 0,3,4,5,8,9,10,13,14,15,18,19,20,23,24,25,28,29,30,33,34,35,38,39,40,
+%T A047205 43,44,45,48,49,50,53,54,55,58,59,60,63,64,65,68,69,70,73,74,75,78,79,
+%U A047205 80,83,84,85,88,89,90,93,94,95,98,99,100,103,104,105,108
+%N A047205 Numbers that are congruent to {0, 3, 4} mod 5.
+%H A047205 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047205 G.f. x^2*(3+x+x^2) / ( (1+x+x^2)*(x-1)^2 ). - R. J. Mathar, Oct 08 201
+%t A047205 Select[Range[0, 200], MemberQ[{0, 3, 4}, Mod[#, 5]] &] (* _Vladimir Joseph Stephan Orlovsky_, Feb 12 2012 *)
+%o A047205 (MAGMA) [ n : n in [0..150] | n mod 5 in [0, 3, 4] ]; - Vincenzo Librandi, Mar 31 2011
+%o A047205 (PARI) a(n)=n\3*5+[-1,0,3][n%3+1] \\ _Charles R Greathouse IV_, Dec 22 2011
+%K A047205 nonn,easy
+%O A047205 1,2
+%A A047205 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

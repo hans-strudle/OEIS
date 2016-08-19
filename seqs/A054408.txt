@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054408
+Showing 1-1 of 1
+
+%I A054408
+%S A054408 2,1,4,6,10,8,12,16,14,24,30,22,18,26,34,36,20,28,38,40,32,42,46,48,
+%T A054408 44,52,56,60,54,58,66,50,64,62,70,84,90,72,92,76,86,94,74,88,68,82,80,
+%U A054408 102,96,100,114,98,78,112,120,110,108,106,126,122,130,132,134,124,128,118
+%N A054408 a(n) = smallest positive integer not already in sequence such that the partial sum a(1)+...+a(n) is prime.
+%C A054408 1 is the only odd number in this sequence. - _Derek Orr_, Feb 07 2015
+%t A054408 t = {2}; Do[i = 1; While[! PrimeQ[Total[t] + i] || MemberQ[t, i], i++]; AppendTo[t, i], {65}]; t (* _Jayanta Basu_, Jul 04 2013 *)
+%o A054408 (PARI) v=[2];n=1;while(n<100,if(isprime(vecsum(v)+n)&&!vecsearch(vecsort(v),n),v=concat(v,n);n=0);n++);v \\ _Derek Orr_, Feb 07 2015
+%Y A054408 Cf. A254337.
+%K A054408 nonn,easy
+%O A054408 1,1
+%A A054408 _Henry Bottomley_, May 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

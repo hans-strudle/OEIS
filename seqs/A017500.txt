@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017500
+Showing 1-1 of 1
+
+%I A017500
+%S A017500 6561,160000,923521,3111696,7890481,16777216,31640625,54700816,
+%T A017500 88529281,136048896,200533921,285610000,395254161,533794816,705911761,
+%U A017500 916636176,1171350625,1475789056,1836036801,2258530576
+%N A017500 (11n+9)^4.
+%t A017500 (11Range[0,20]+9)^4  (* _Harvey P. Dale_, Mar 27 2011 *)
+%K A017500 nonn,easy
+%O A017500 0,1
+%A A017500 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

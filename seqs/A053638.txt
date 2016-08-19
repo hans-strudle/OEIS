@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053638
+Showing 1-1 of 1
+
+%I A053638
+%S A053638 2,2,3,4,7,11,19,32,57,103,187,342,631,1171,2185,4096,7711,14564,
+%T A053638 27595,52429,99865,190651,364723,699051,1342178,2581111,4971027,
+%U A053638 9586981,18512791,35791395,69273667,134217728,260301049,505290271
+%N A053638 Ceiling(2^n/n).
+%H A053638 Vincenzo Librandi, <a href="/A053638/b053638.txt">Table of n, a(n) for n = 1..1000</a>
+%F A053638 a(n) = A082482(n) + 1.
+%t A053638 Table[Ceiling[2^n/n],{n,1,50}] (* _Vincenzo Librandi_, Dec 19 2011 *)
+%o A053638 (MAGMA) [Ceiling(2^n/n): n in [1..40]]; // Vincenzo Librandi, Dec 19 2011
+%o A053638 (PARI) a(n)=ceil(2^n/n) \\ _Charles R Greathouse IV_, Apr 17 2012
+%Y A053638 Cf. A082482.
+%K A053638 nonn,easy
+%O A053638 1,1
+%A A053638 _N. J. A. Sloane_, Mar 23 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

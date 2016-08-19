@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007759
+Showing 1-1 of 1
+
+%I A007759
+%S A007759 2,17,576,665857,886731088896,1572584048032918633353217,
+%T A007759 4946041176255201878775086487573351061418968498176,
+%U A007759 48926646634423881954586808839856694558492182258668537145547700898547222910968507268117381704646657
+%N A007759 Knopfmacher expansion of sqrt(2): a(2n)=2(a(2n-1)+1)^2 - 1, a(2n+1)=2a(2n)^2 - 2.
+%D A007759 A. Knopfmacher and J. Knopfmacher, "An alternating product representation for real numbers", in Applications of Fibonacci numbers, Vol. 3 (Kluwer 1990), pp. 209-216.
+%Y A007759 Cf. A001601.
+%K A007759 nonn
+%O A007759 1,1
+%A A007759 Arnold Knopfmacher [ ARNOLDK(AT)gauss.cam.wits.ac.za ]
+%E A007759 More terms from _Christian G. Bower_, Jan 06 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

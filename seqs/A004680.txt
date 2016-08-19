@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004680
+Showing 1-1 of 1
+
+%I A004680
+%S A004680 2,3,5,11,15,21,25,31,35,45,51,101,105,111,115,125,135,141,151,155,
+%T A004680 201,211,215,225,241,245,251,255,301,305,331,335,345,351,405,411,421,
+%U A004680 431,435,445,455,501,515,521,525
+%N A004680 Primes written in base 6.
+%o A004680 (PARI) a(n)=subst(Pol(digits(prime(n),6)),'x,10) \\ _Charles R Greathouse IV_, Nov 06 2013
+%Y A004680 Analogs in other bases: A004676 (base 2), A001363 (base 3), A004678 (base 4), A004679 (base 5), A004681 (base 7), A004682 (base 8), A004683 (base 9), A000040 (base 10), A004684 (base 11).
+%K A004680 nonn,easy,base
+%O A004680 1,1
+%A A004680 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

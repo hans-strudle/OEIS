@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033029
+Showing 1-1 of 1
+
+%I A033029
+%S A033029 17,34,51,68,85,102,119,136,153,170,187,204,221,238,255,273,546,819,
+%T A033029 1092,1365,1638,1911,2184,2457,2730,3003,3276,3549,3822,4095,4352,
+%U A033029 4369,4386,4403,4420,4437,4454,4471,4488,4505,4522,4539
+%N A033029 Every run of digits of n in base 16 has length >=2.
+%H A033029 Vincenzo Librandi, <a href="/A033029/b033029.txt">Table of n, a(n) for n = 1..1000</a>
+%t A033029 Select[Range[10000], Min[Length/@Split[IntegerDigits[#, 16]]]>1&] (* _Vincenzo Librandi_, Feb 05 2014 *)
+%K A033029 nonn,base
+%O A033029 1,1
+%A A033029 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

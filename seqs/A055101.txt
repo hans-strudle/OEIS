@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055101
+Showing 1-1 of 1
+
+%I A055101
+%S A055101 1,2,3,2,1,4,6,6,3,2,9,16,17,10,5,24,36,36,21,10,46,74,
+%T A055101 77,42,22,94,144,142,78,38,172,266,266,146,73,312,471,464,
+%U A055101 251,122,534,814,801,432,213,910,1364,1328,713,344,1485,2234,2178
+%V A055101 1,-2,3,-2,-1,4,-6,6,-3,-2,9,-16,17,-10,-5,24,-36,36,-21,-10,46,-74,
+%W A055101 77,-42,-22,94,-144,142,-78,-38,172,-266,266,-146,-73,312,-471,464,
+%X A055101 -251,-122,534,-814,801,-432,-213,910,-1364,1328,-713,-344,1485,-2234,2178
+%N A055101 Expansion of square of continued fraction 1/ ( 1+q/ ( 1+q^2/ ( 1+q^3/ ( 1+q^4/... )))).
+%D A055101 For the third power see G. E. Andrews, Simplicity and surprise in Ramanujan's "Lost" Notebook, Amer. Math. Monthly, 104 (No. 10, Dec. 1997), 918-925.
+%Y A055101 See A007325 for first power (which has an alternative g.f.), A055102 for cube, A055103 for 4th power.
+%K A055101 sign,easy
+%O A055101 0,2
+%A A055101 _N. J. A. Sloane_, Jun 14 2000
+%E A055101 More terms from Kok Seng Chua (chuaks(AT)ihpc.nus.edu.sg), Jun 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

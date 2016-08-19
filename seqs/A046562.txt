@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046562
+Showing 1-1 of 1
+
+%I A046562
+%S A046562 4,10,38,16,18,350,220
+%N A046562 Distinct even numbers in writing first numerator and then denominator of each element to the right of the central elements of the 1/3-Pascal triangle (by row).
+%e A046562 1/1; -->
+%e A046562 1/1 1/1; -->
+%e A046562 1/1 1/3 1/1; -->
+%e A046562 1/1 4/3 4/3 1/1; --> 4
+%e A046562 1/1 7/3 8/3 7/3 1/1; -->
+%e A046562 1/1 10/3 5/1 5/1 10/3 1/1; --> 10
+%e A046562 1/1 13/3 25/3 10/1 25/3 13/3 1/1;
+%e A046562 1/1 16/3 38/3 55/3 55/3 38/3 16/3 1/1; ...
+%Y A046562 Cf. A046534.
+%K A046562 tabf,nonn,frac,less
+%O A046562 1,1
+%A A046562 _Mohammad K. Azarian_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

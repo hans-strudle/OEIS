@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025586
+Showing 1-1 of 1
+
+%I A025586
+%S A025586 1,2,16,4,16,16,52,8,52,16,52,16,40,52,160,16,52,52,88,20,64,52,160,
+%T A025586 24,88,40,9232,52,88,160,9232,32,100,52,160,52,112,88,304,40,9232,64,
+%U A025586 196,52,136,160,9232,48,148,88,232,52,160,9232,9232,56,196,88,304,160,184,9232
+%N A025586 Largest value in `3x+1' trajectory of n.
+%C A025586 a(n) = A220237(n,A006577(n)). - _Reinhard Zumkeller_, Jan 03 2013
+%C A025586 A006885 and A006884 give record values and where they occur. - _Reinhard Zumkeller_, May 11 2013
+%H A025586 T. D. Noe, <a href="/A025586/b025586.txt">Table of n, a(n) for n=1..10000</a>
+%H A025586 <a href="/index/3#3x1">Index entries for sequences related to 3x+1 (or Collatz) problem</a>
+%H A025586 P. Picart, <a href="http://trucsmaths.free.fr/js_syracuse.htm">Algorithme de Collatz et conjecture de Syracuse</a>
+%t A025586 Collatz[a0_Integer, maxits_:1000] := NestWhileList[If[EvenQ[ # ], #/2, 3# + 1] &, a0, Unequal[ #, 1, -1, -10, -34] &, 1, maxits]; (* Collatz[n] function definition by Eric Weisstein *) Flatten[Table[Take[Sort[Collatz[n], Greater], 1], {n, 60}]] - _Alonso del Arte_, Nov 14 2007
+%t A025586 a[n_] := Module[{r=m=n}, While[m>2, If[OddQ[m], m=3*m+1; If[m>r, r=m], m=m/2]]; r]; Table[a[n], {n, 1, 100}] (* _Jean-François Alcover_, Jan 28 2015, after _Charles R Greathouse IV_ *)
+%o A025586 (PARI) a(n)=my(r=n);while(n>2,if(n%2,n=3*n+1;if(n>r,r=n),n/=2));r \\ _Charles R Greathouse IV_, Jul 19 2011
+%o A025586 (Haskell)
+%o A025586 a025586 = last . a220237_row
+%o A025586 -- _Reinhard Zumkeller_, Jan 03 2013, Aug 29 2012
+%Y A025586 Essentially the same as A056959.
+%Y A025586 Cf. A006370.
+%K A025586 nonn,nice,look
+%O A025586 1,2
+%A A025586 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

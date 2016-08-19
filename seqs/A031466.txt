@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031466
+Showing 1-1 of 1
+
+%I A031466
+%S A031466 3,7,11,13,14,23,27,29,30,39,43,45,46,51,53,54,57,58,60,79,87,91,93,
+%T A031466 94,103,107,109,110,115,117,118,121,122,124,143,151,155,157,158,167,
+%U A031466 171,173,174,179,181,182,185,186,188,199,203,205
+%N A031466 Numbers n which in base 4 has one fewer 0's than 3's.
+%t A031466 Select[Range[210],DigitCount[#,4,0]==DigitCount[#,4,3]-1&] (* _Harvey P. Dale_, Dec 16 2011 *)
+%K A031466 nonn
+%O A031466 1,1
+%A A031466 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

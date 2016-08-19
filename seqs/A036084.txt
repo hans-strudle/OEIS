@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036084
+Showing 1-1 of 1
+
+%I A036084
+%S A036084 1,36,756,12096,163296,1959552,21555072,221709312,2161665792,
+%T A036084 20175547392,181579926528,1584697540608,13469929095168,
+%U A036084 111904026329088,911218500108288,7289748000866304,57406765506822144,445746649817677824
+%N A036084 Expansion of 1/(1-6*x)^6.
+%C A036084 With a different offset, number of n-permutations of 7 objects:s,t,u,v,z,x, y with repetition allowed, containing exactly five (5) u's. Example: a(1)=36 because we have uuuuus, uuuusu, uuusuu, uusuuu, usuuuu, suuuuu, uuuuut, uuuutu, uuutuu, uutuuu, utuuuu, tuuuuu, uuuuuv, uuuuvu, uuuvuu, uuvuuu, uvuuuu, vuuuuu, uuuuuz, uuuuzu, uuuzuu, uuzuuu, uzuuuu, zuuuuu, uuuuux, uuuuxu, uuuxuu, uuxuuu, uxuuuu, xuuuuu, uuuuuy, uuuuyu, uuuyuu, uuyuuu, uyuuuu, yuuuuu. - _Zerinvary Lajos_, Jun 16 2008
+%H A036084 Vincenzo Librandi, <a href="/A036084/b036084.txt">Table of n, a(n) for n = 0..400</a>
+%F A036084 a(n) = 6^n*binomial(n+5, 5). G.f.: 1/(1-6*x)^6.
+%p A036084 seq(binomial(n+5,5)*6^n,n=0..17); - _Zerinvary Lajos_, Jun 16 2008
+%o A036084 (Sage)[lucas_number2(n, 6, 0)*binomial(n,5)/6^5for n in xrange(5, 23)] # [From _Zerinvary Lajos_, Mar 13 2009]
+%o A036084 (MAGMA) [6^n* Binomial(n+5, 5): n in [0..20]]; // Vincenzo Librandi, Oct 12 2011
+%Y A036084 Cf. A001787, A036071.
+%K A036084 nonn,easy
+%O A036084 0,2
+%A A036084 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

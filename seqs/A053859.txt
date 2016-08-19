@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053859
+Showing 1-1 of 1
+
+%I A053859
+%S A053859 1,16,4096,16777216,89776254976,6185236425342976,
+%T A053859 6289573107016627388416
+%N A053859 Number of n X n matrices over GF(4) of order dividing 4 (i.e. number of solutions of X^4=I in GL(n,4)).
+%D A053859 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053859 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053859 Cf. A053718.
+%K A053859 more,nonn
+%O A053859 1,2
+%A A053859 _Vladeta Jovovic_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009416
+Showing 1-1 of 1
+
+%I A009416
+%S A009416 0,1,1,5,12,49,225,1301,8848,69441,616185,6095429,66475596,
+%T A009416 792143793,10238194057,142633278997,2130537219840,33964965659649,
+%U A009416 575573407212753,10331348137881349,195807849389362540
+%V A009416 0,1,-1,5,-12,49,-225,1301,-8848,69441,-616185,6095429,-66475596,
+%W A009416 792143793,-10238194057,142633278997,-2130537219840,33964965659649,
+%X A009416 -575573407212753,10331348137881349,-195807849389362540
+%N A009416 Expansion of log(1+x)*cosh(x).
+%F A009416 a(n) ~ (n-1)! * (-1)^(n+1) * cosh(1). - _Vaclav Kotesovec_, Jan 23 2015
+%t A009416 Log[ 1+x ]*Cosh[ x ]
+%t A009416 CoefficientList[Series[Cosh[x]*Log[1 + x], {x, 0, 20}], x] * Range[0, 20]! (* _Vaclav Kotesovec_, Jan 23 2015 *)
+%K A009416 sign,easy
+%O A009416 0,4
+%A A009416 _R. H. Hardin_
+%E A009416 Extended with signs by _Olivier Gérard_, Mar 15 1997
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

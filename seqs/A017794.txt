@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017794
+Showing 1-1 of 1
+
+%I A017794
+%S A017794 1,78,3003,76076,1426425,21111090,256851595,2641902120,23446881315,
+%T A017794 182364632450,1258315963905,7778680504140,43430966148115,
+%U A017794 220495674290430,1023729916348425,4367914309753280,17198662594653540,62724534168736440,212566476905162380
+%N A017794 Binomial coefficients C(78,n).
+%C A017794 Row 78 of A007318.
+%H A017794 Nathaniel Johnston, <a href="/A017794/b017794.txt">Table of n, a(n) for n = 0..78</a> (full sequence)
+%p A017794 seq(binomial(78,n), n=0..78); # Nathaniel Johnston, Jun 24 2011
+%t A017794 Binomial[78,Range[0,30]] (* _Harvey P. Dale_, Feb 01 2013 *)
+%o A017794 (Sage) [binomial(78, n) for n in range(17)] # [From _Zerinvary Lajos_, May 29 2009]
+%Y A017794 Cf. A010926-A011001, A017765-A017793, A017795-A017816.
+%K A017794 nonn,fini,full,easy
+%O A017794 0,2
+%A A017794 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

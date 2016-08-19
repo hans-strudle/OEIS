@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001991
+Showing 1-1 of 1
+
+%I A001991 M0212 N0863
+%S A001991 2,2,2,2,2,2,2,2,46,46,46,46,46,46,406,718,950,950,950,1698,1698,1698,
+%T A001991 1698,1698,3990,3990,3990,53510,77970,89478,89478,89478,89478,89478,
+%U A001991 89478
+%N A001991 Class numbers associated with entries of A001990.
+%D A001991 D. H. Lehmer, E. Lehmer and D. Shanks, Integer sequences having prescribed quadratic character, Math. Comp., 24 (1970), 433-451.
+%D A001991 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001991 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001991 D. H. Lehmer, E. Lehmer and D. Shanks, <a href="/A002189/a002189.pdf">Integer sequences having prescribed quadratic character</a>, Math. Comp., 24 (1970), 433-451 [Annotated scanned copy]
+%H A001991 <a href="/index/Qua#quadfield">Index entries for sequences related to quadratic fields</a>
+%F A001991 a(n) = ClassNumber(-8*A001990(n)). - _Sean A. Irvine_, Mar 06 2013
+%Y A001991 Cf. A001990.
+%K A001991 nonn,more
+%O A001991 3,1
+%A A001991 _N. J. A. Sloane_.
+%E A001991 Better name from _Sean A. Irvine_, Mar 06 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

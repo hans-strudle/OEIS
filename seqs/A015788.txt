@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015788
+Showing 1-1 of 1
+
+%I A015788
+%S A015788 1,65,88,104,127,184,189,232,248,328,344,424,568,584,632,664,872,1192,
+%T A015788 1208,1247,1544,1592,1688,1864,2008,2104,2152,2264,2648,2792,2824,
+%U A015788 3032,3112,3208,3352,3448,3681,3688,3992,4168,4328,4504,4552
+%N A015788 Numbers n such that phi(n) + 10 | sigma(n + 10).
+%K A015788 nonn
+%O A015788 1,2
+%A A015788 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

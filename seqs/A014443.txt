@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014443
+Showing 1-1 of 1
+
+%I A014443
+%S A014443 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%T A014443 1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014443 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014443 1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%W A014443 -1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014443 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014443 Inverse of 434th cyclotomic polynomial.
+%p A014443 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014443 sign
+%O A014443 0,1
+%A A014443 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

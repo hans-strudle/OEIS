@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036220
+Showing 1-1 of 1
+
+%I A036220
+%S A036220 1,21,252,2268,17010,112266,673596,3752892,19702683,98513415,
+%T A036220 472864392,2192371272,9865670724,43257171636,185387878440,
+%U A036220 778629089448,3211844993973,13036312034361,52145248137444,205836505805700
+%N A036220 Expansion of 1/(1-3*x)^7; 7-fold convolution of A000244 (powers of 3).
+%C A036220 a(n)=A027465(n+7,7) (O. Gerard's triangle).
+%C A036220 With a different offset, number of n-permutations (n>=6) of 4 objects: u,v, z, x with repetition allowed, containing exactly six (6) u's. Example: a(1)=21 because we have uuuuuuv, uuuuuvu, uuuuvuu, uuuvuuu, uuvuuuu, uvuuuuu, vuuuuuu, uuuuuuz, uuuuuzu, uuuuzuu, uuuzuuu, uuzuuuu, uzuuuuu, zuuuuuu, uuuuuux, uuuuuxu, uuuuxuu, uuuxuuu, uuxuuuu, uxuuuuu, xuuuuuu. - _Zerinvary Lajos_, Jun 16 2008
+%H A036220 Vincenzo Librandi, <a href="/A036220/b036220.txt">Table of n, a(n) for n = 0..400</a>
+%F A036220 a(n) = 3^n*binomial(n+6, 6); G.f. 1/(1-3*x)^7.
+%p A036220 seq(binomial(n+6,6)*3^n,n=0..19); - _Zerinvary Lajos_, Jun 16 2008
+%o A036220 (Sage) lucas_number2(n, 3, 0)*binomial(n,6)/729 for n in xrange(6, 26)] [From _Zerinvary Lajos_, Mar 10 2009]
+%o A036220 (MAGMA) [3^n*Binomial(n+6, 6): n in [0..30]]; // Vincenzo Librandi, Oct 15 2011
+%Y A036220 A000244, A027465.
+%K A036220 easy,nonn
+%O A036220 0,2
+%A A036220 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

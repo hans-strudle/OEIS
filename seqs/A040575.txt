@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040575
+Showing 1-1 of 1
+
+%I A040575
+%S A040575 24,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,
+%T A040575 2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,
+%U A040575 48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48,2,48
+%N A040575 Continued fraction for sqrt(600).
+%H A040575 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040575 a(n)=25+23*(-1)^n-24*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 15 2009]
+%p A040575 with(numtheory): Digits := 300: convert(evalf(sqrt(600)),confrac);
+%K A040575 nonn,cofr,easy,less
+%O A040575 0,1
+%A A040575 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

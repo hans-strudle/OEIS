@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016939
+Showing 1-1 of 1
+
+%I A016939
+%S A016939 128,2097152,105413504,1280000000,8031810176,34359738368,114415582592,
+%T A016939 319277809664,781250000000,1727094849536,3521614606208,6722988818432,
+%U A016939 12151280273024,20971520000000,34792782221696
+%N A016939 (6n+2)^7.
+%H A016939 Vincenzo Librandi, <a href="/A016939/b016939.txt">Table of n, a(n) for n = 0..2000</a>
+%F A016939 a(n)=128*A016783(n). - _R. J. Mathar_, May 07 2008
+%o A016939 (MAGMA) [(6*n+2)^7: n in [0..30]]; // Vincenzo Librandi, May 04 2011
+%K A016939 nonn,easy
+%O A016939 0,1
+%A A016939 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

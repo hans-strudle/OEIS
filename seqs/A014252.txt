@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014252
+Showing 1-1 of 1
+
+%I A014252
+%S A014252 3,5,8,13,23,39,67,113,187,309,507,828,1348,2190,3552,5758,9328,15105,
+%T A014252 24453,39579,64054,103656,167734,271415,439174,710616,1149819,1860465,
+%U A014252 3010315,7881160
+%N A014252 b(n) - c(n) where b(n) is the n-th Lucas number greater than 3 and c(n) is the n-th number not in sequence b( ).
+%K A014252 nonn
+%O A014252 1,1
+%A A014252 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

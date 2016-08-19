@@ -1,0 +1,47 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050446
+Showing 1-1 of 1
+
+%I A050446
+%S A050446 1,1,1,1,2,1,1,3,3,1,1,5,6,4,1,1,8,14,10,5,1,1,13,31,30,15,6,1,1,21,
+%T A050446 70,85,55,21,7,1,1,34,157,246,190,91,28,8,1,1,55,353,707,671,371,140,
+%U A050446 36,9,1,1,89,793,2037,2353,1547,658,204,45,10,1,1,144,1782,5864,8272
+%N A050446 Table T(n,m) giving total degree of n-th-order elementary symmetric polynomials in m variables, -1 <= n, 1 <= m, read by antidiagonals.
+%C A050446 T(n,m) is a polynomial of degree n in m. For example, T(2,m)=(m+1)(m+2)/2. For the polynomials corresponding to n=1,2,...,10, see the Cyvin-Gutman reference (p. 143). Kekulé numbers for certain benzenoids. - _Emeric Deutsch_, Jun 12 2005
+%C A050446 For the rows and columns of the table in the example below, see the comment by Jeffery in A050447. - _L. Edson Jeffery_, Dec 15 2011
+%D A050446 J. Berman and P. Koehler, Cardinalities of finite distributive lattices, Mitteilungen aus dem Mathematischen Seminar Giessen, 121 (1976), 103-124.
+%D A050446 S. J. Cyvin and I. Gutman, Kekulé structures in benzenoid hydrocarbons, Lecture Notes in Chemistry, No. 46, Springer, New York, 1988 (pp. 142-144).
+%D A050446 Daeseok Lee and H.-K. Ju, An Extension of Hibi's palindromic theorem, arXiv preprint arXiv:1503.05658, 2015
+%H A050446 J. Berman and P. Koehler, <a href="/A006356/a006356.pdf">Cardinalities of finite distributive lattices</a>, Mitteilungen aus dem Mathematischen Seminar Giessen, 121 (1976), 103-124. [Annotated scanned copy]
+%H A050446 Manfred Goebel, <a href="http://dx.doi.org/10.1007/s002000050118">Rewriting Techniques and Degree Bounds for Higher Order Symmetric Polynomials</a>, Applicable Algebra in Engineering, Communication and Computing (AAECC), Volume 9, Issue 6 (1999), 559-573.
+%F A050446 T(n, m) = T(n, m-1) + Sum( T(2k, m-1)*T(n-1-2k, m), {k, 0, (n-1)/2}).
+%e A050446 Table begins
+%e A050446 1 1 1 1 1 1 1 ...
+%e A050446 1 2 3 4 5 6 7 ...
+%e A050446 1 3 6 10 15 21 28 ...
+%e A050446 1 5 14 30 55 91 140 ...
+%e A050446 1 8 31 85 190 371 658 ...
+%p A050446 A050446 := proc(n,m)
+%p A050446     option remember;
+%p A050446     if m=0 then
+%p A050446         1;
+%p A050446     else
+%p A050446         procname(n,m-1)+add( procname(2*k,m-1) *procname(n-1-2*k,m), k=0..floor((n-1)/2) );
+%p A050446     end if;
+%p A050446 end proc:
+%p A050446 for d from 0 to 12 do
+%p A050446     for m from 0 to d do
+%p A050446         printf("%d,",A050446(d-m,m)) ;
+%p A050446     end do:
+%p A050446 end do: # _R. J. Mathar_, Dec 14 2011
+%t A050446 t[n_, m_?Positive] := t[n, m] = t[n, m-1] + Sum[t[2k, m-1]*t[n-1 - 2k, m], {k, 0, (n-1)/2}]; t[n_, 0] = 1; Flatten[Table[t[i-k , k-1], {i, 1, 12}, {k, 1, i}]] (* _Jean-François Alcover_, Jul 25 2011, after formula *)
+%Y A050446 Rows give A000217, A000330, A006322, ...
+%Y A050446 Columns give A000045, A006356, A006357, A006358, ...
+%Y A050446 Cf. A050447.
+%K A050446 nonn,easy,nice,tabl
+%O A050446 0,5
+%A A050446 _N. J. A. Sloane_, Dec 23 1999
+%E A050446 More terms from _Naohiro Nomoto_, Jul 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

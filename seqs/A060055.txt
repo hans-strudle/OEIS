@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060055
+Showing 1-1 of 1
+
+%I A060055
+%S A060055 2,12,720,30240,1209600,47900160,1307674368000,74724249600,
+%T A060055 10670622842880000,5109094217170944000,802857662698291200000,
+%U A060055 14101100039391805440000,1693824136731743669452800000
+%N A060055 Denominators of nonzero numbers appearing in the Euler-Maclaurin summation formula. (See A060054 for the definition of these numbers).
+%D A060055 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 16 (3.6.28), p. 806 (23.1.30), p. 886 (25.4.7).
+%H A060055 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A060055 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 16 (3.6.28), p. 806 (23.1.30), p. 886 (25.4.7).
+%F A060055 Denominators of nonzero coefficients in the series expansion around zero of cot(x/2)/2, disregarding the first term. - _Fredrik Johansson_, Aug 20 2006
+%t A060055 f[n_] := Denominator[ -(-1)^n*BernoulliB[2n]/(2n)! ]; Table[ f[n], {n, 12}] (* _Robert G. Wilson v_, Sep 02 2004 *)
+%Y A060055 Numerators give A060054.
+%K A060055 nonn,frac,easy
+%O A060055 1,1
+%A A060055 _Wolfdieter Lang_, Feb 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

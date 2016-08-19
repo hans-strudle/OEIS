@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054006
+Showing 1-1 of 1
+
+%I A054006
+%S A054006 4,8,8,8,8,8,16,16,16,8,16,16,16,16,16,16,16,16,32,16,16,16,16,32,16,
+%T A054006 16,16,24,16,16,16,32,32,32,16,16,32,16,32,16,16,32,32,16,32,16,16,16,
+%U A054006 16,16,32,32,16,32,16,16,64,32,16,32,16,32,16,64,32,32,16,32,32,32,32
+%N A054006 Number of divisors of n and n+1 which have the same number and sum of divisors.
+%F A054006 a(n) = tau(A054004(n))
+%e A054006 See example in A054004.
+%Y A054006 Cf. A000005, A000203, A002961, A005237, A053249, A054004, A054005, A054007.
+%K A054006 nonn
+%O A054006 1,1
+%A A054006 Asher Auel (asher.auel(AT)reed.edu) Jan 12, 2000
+%E A054006 More terms from _Jud McCranie_, Oct 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

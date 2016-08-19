@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046531
+Showing 1-1 of 1
+
+%I A046531
+%S A046531 1,1,3,1,5,1,11,7,1,9,9,1,20,27,11,1,67,19,13,1,147,105,51,15,1,126,
+%T A046531 78,33,17,1
+%N A046531 Numerators of elements to right of central elements of 1/2-Pascal triangle (by row).
+%e A046531 1/1;
+%e A046531 1/1 1/1;                               -->  1
+%e A046531 1/1 1/2 1/1;                           -->  1
+%e A046531 1/1 3/2 3/2 1/1;                       -->  3  1
+%e A046531 1/1 5/2 3/1 5/2 1/1;                   -->  5  1
+%e A046531 1/1 7/2 11/2 11/2 7/2 1/1;             --> 11  7 1
+%e A046531 1/1 9/2 9/1 11/1 9/1 9/2 1/1;          -->  9  9 1
+%e A046531 1/1 11/2 27/2 20/1 20/1 27/2 11/2 1/1; --> 20 27 11 1
+%Y A046531 Cf. A046213.
+%K A046531 tabf,nonn,more
+%O A046531 1,3
+%A A046531 _Mohammad K. Azarian_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

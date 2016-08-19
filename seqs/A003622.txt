@@ -1,0 +1,67 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003622
+Showing 1-1 of 1
+
+%I A003622 M3278
+%S A003622 1,4,6,9,12,14,17,19,22,25,27,30,33,35,38,40,43,46,48,51,53,56,59,61,
+%T A003622 64,67,69,72,74,77,80,82,85,88,90,93,95,98,101,103,106,108,111,114,
+%U A003622 116,119,122,124,127,129,132,135,137,140,142,145,148,150,153,156,158,161,163,166
+%N A003622 The Wythoff compound sequence AA: [n*phi^2] - 1, where phi = (1+sqrt(5))/2.
+%C A003622 Also, integers with "odd" Zeckendorf expansions (end with ...+F1 = ...+1) (Fibonacci-odd numbers); first column of Wythoff array A035513; from a 3-way splitting of positive integers.
+%C A003622 Also, numbers n such that A005206(n) = A005206(n+1). Also n such that A022342(A005206(n)) = n+1 (for all other n's this is n). - Michele Dondi (bik.mido(AT)tiscalenet.it), Dec 30 2001
+%C A003622 Also, positions of 1's in A139764, the smallest term in Zeckendorf representation of n. - _John W. Layman_, Aug 25 2011
+%D A003622 A. Brousseau, Fibonacci and Related Number Theoretic Tables. Fibonacci Association, San Jose, CA, 1972, p. 62.
+%D A003622 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 307-308 of 2nd edition.
+%D A003622 C. Kimberling, "Stolarsky interspersions," Ars Combinatoria 39 (1995) 129-138.
+%D A003622 C. Kimberling and K. B. Stolarsky, Slow Beatty sequences, devious convergence, and partitional divergence, Amer. Math. Monthly, 123 (No. 2, 2016), 267-273.
+%D A003622 D. R. Morrison, ``A Stolarsky array of Wythoff pairs,'' in A Collection of Manuscripts Related to the Fibonacci Sequence. Fibonacci Assoc., Santa Clara, CA, 1980, pp. 134-136.
+%D A003622 J. Roberts, Lure of the Integers, Math. Assoc. America, 1992, p. 10.
+%D A003622 N. J. A. Sloane and Simon Plouffe, Encyclopedia of Integer Sequences, Academic Press, 1995: this sequence appears twice, as both M3277 and M3278.
+%H A003622 T. D. Noe, <a href="/A003622/b003622.txt">Table of n, a(n) for n = 1..1000</a>
+%H A003622 Larry Ericksen and Peter G. Anderson, <a href="http://www.cs.rit.edu/~pga/k-zeck.pdf">Patterns in differences between rows in k-Zeckendorf arrays</a>, The Fibonacci Quarterly, Vol. 50, February 2012. - _N. J. A. Sloane_, Jun 10 2012
+%H A003622 C. Kimberling, <a href="http://faculty.evansville.edu/ck6/integer/intersp.html">Interspersions</a>
+%H A003622 C. Kimberling, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL11/Kimberling/kimberling719a.html">Complementary equations and Wythoff Sequences</a>, JIS 11 (2008) 08.3.3.
+%H A003622 L. Lindroos, A. Sills and H. Wang, <a href="http://digitalcommons.georgiasouthern.edu/math-sci-facpubs/182/">Odd fibbinary numbers and the golden ratio</a>, Fib. Q., 52 (2014), 61-65.
+%H A003622 M. Rigo, P. Salimov, and E. Vandomme, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL16/Rigo/rigo3.html">Some Properties of Abelian Return Words</a>, Journal of Integer Sequences, Vol. 16 (2013), #13.2.5.
+%H A003622 N. J. A. Sloane, <a href="/classic.html#WYTH">Classic Sequences</a>
+%F A003622 a(n) = [(n+1)*phi] + n; a(n) = [[n*phi]*phi] = A000201(A000201(n)).
+%F A003622 a(n) = 1 + A022342(1+A022342(n)).
+%F A003622 G.f.: 1 - (1-x)*sum_{n=1..inf} x^a(n) = 1/1 + x/1 + x^2/1 + x^3/1 + x^5/1 + x^8/1 +...+ x^F(n)/1 +... (continued fraction where F(n)=n-th Fibonacci number). - _Paul D. Hanna_, Aug 16 2002
+%F A003622 a(n) = A001950(n) - 1. - _Philippe Deléham_, Apr 30 2004
+%F A003622 a(n) = A022342(n) + n. - _Philippe Deléham_, May 03 2004
+%p A003622 A003622 := proc(n)
+%p A003622     n+floor(n*(1+sqrt(5))/2)-1 ;
+%p A003622 end proc: # _R. J. Mathar_, Jan 25 2015
+%p A003622 # Maple code for the Wythoff compound sequences, from _N. J. A. Sloane_, Mar 30 2016
+%p A003622 # The Wythoff compound sequences: Let A = A000201, B = A001950. Then AA = A003622, AB = A003623, BA = A035336, BB = A101864. The eight triples AAA, AAB, ..., BBB are A134859, A134860, A035337, A134862, A134861, A134863, A035338, A134864, resp.
+%p A003622 # Assume files out1, out2 contain lists of the terms in the base sequences A and B from their b-files
+%p A003622 read out1; read out2; b[0]:=b1: b[1]:=b2:
+%p A003622 w2:=(i,j,n)->b[i][b[j][n]];
+%p A003622 w3:=(i,j,k,n)->b[i][b[j][b[k][n]]];
+%p A003622 for i from 0 to 1 do
+%p A003622 lprint("name=",i);
+%p A003622 lprint([seq(b[i][n],n=1..100)]):
+%p A003622 od:
+%p A003622 for i from 0 to 1 do for j from 0 to 1 do
+%p A003622 lprint("name=",i,j);
+%p A003622 lprint([seq(w2(i,j,n),n=1..100)]);
+%p A003622 od: od:
+%p A003622 for i from 0 to 1 do for j from 0 to 1 do for k from 0 to 1 do
+%p A003622 lprint("name=",i,j,k);
+%p A003622 lprint([seq(w3(i,j,k,n),n=1..100)]);
+%p A003622 od: od: od:
+%t A003622 With[{c=GoldenRatio^2},Table[Floor[n c]-1,{n,70}]] (* _Harvey P. Dale_, Jun 11 2011 *)
+%o A003622 (PARI) a(n)=floor(n*(sqrt(5)+3)/2)-1
+%o A003622 (Haskell)
+%o A003622 a003622 n = a003622_list !! (n-1)
+%o A003622 a003622_list = filter ((elem 1) . a035516_row) [1..]
+%o A003622 -- _Reinhard Zumkeller_, Mar 10 2013
+%Y A003622 Positions of 1's in A003849.
+%Y A003622 Cf. A003623, A022342, A000201, A035336, A066094-A066097, A139764, A035516, A026273.
+%Y A003622 The Wythoff compound sequences: Let A = A000201, B = A001950. Then AA = A003622, AB = A003623, BA = A035336, BB = A101864. The eight triples AAA, AAB, ..., BBB are A134859, A134860, A035337, A134862, A134861, A134863, A035338, A134864, resp.
+%K A003622 nonn,easy,nice
+%O A003622 1,2
+%A A003622 _N. J. A. Sloane_, _Mira Bernstein_, _Marc LeBrun_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

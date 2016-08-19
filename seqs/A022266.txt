@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022266
+Showing 1-1 of 1
+
+%I A022266
+%S A022266 0,4,17,39,70,110,159,217,284,360,445,539,642,754,875,1005,1144,1292,
+%T A022266 1449,1615,1790,1974,2167,2369,2580,2800,3029,3267,3514,3770,4035,
+%U A022266 4309,4592,4884,5185,5495,5814,6142
+%N A022266 n*(9n-1)/2.
+%C A022266 Write 0,1,2,3,4,... in a triangular spiral, then a(n) is the sequence found by reading the line from 0 in the direction 0,4,... - _Floor van Lamoen_, Jul 21 2001. The spiral begins:
+%C A022266 ..........15
+%C A022266 ........16..14
+%C A022266 ......17..3...13
+%C A022266 ....18..4...2...12
+%C A022266 ..19..5...0...1...11
+%C A022266 20..6...7...8...9...10
+%C A022266 The sequence can be determined by dividing the members of the set of pentagonal numbers (A000326) by 3. Those divisible by 3 result in this sequence. - _Richard Torres_, Dec 27 2010
+%H A022266 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A022266 a(n) = C(9*n,2)/9, n>=0 - _Zerinvary Lajos_, Jan 02 2007
+%F A022266 a(n) = A049452(n)-A000326(n). - _Zerinvary Lajos_, Jun 12 2007
+%F A022266 a(n) = 9*n+a(n-1)-5 with n>0, a(0)=0. - _Vincenzo Librandi_, Aug 04 2010
+%F A022266 G.f.: x*(4+5*x)/(1-x)^3. - _Colin Barker_, Feb 14 2012
+%F A022266 a(n) = A218470(9n+3). - _Philippe Deléham_, Mar 27 2013
+%p A022266 [seq(binomial(9*n,2)/9,n=0..37)]; - _Zerinvary Lajos_, Jan 02 2007
+%p A022266 seq(n*(6*n-1)-n*(3*n-1)/2,n=0..37); - _Zerinvary Lajos_, Jun 12 2007
+%t A022266 s=0;lst={s};Do[s+=n++ +4;AppendTo[lst, s], {n, 0, 7!, 9}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 16 2008 *)
+%o A022266 (PARI) a(n)=n*(9*n-1)/2 \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A022266 Cf. A051682, A235332.
+%K A022266 nonn,easy
+%O A022266 0,2
+%A A022266 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

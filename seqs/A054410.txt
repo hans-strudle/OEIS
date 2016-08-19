@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054410
+Showing 1-1 of 1
+
+%I A054410
+%S A054410 1,12,52,148,328,620,1052,1652,2448,3468,4740,6292,8152,10348,12908,
+%T A054410 15860,19232,23052,27348,32148,37480,43372,49852,56948,64688,73100,
+%U A054410 82212,92052,102648,114028,126220,139252,153152,167948,183668,200340
+%N A054410 Susceptibility series H_3 for 2-dimensional Ising model (divided by 2).
+%D A054410 D. Hansel et al., Analytical properties of the anisotropic cubic Ising model, J. Stat. Phys., 48 (1987), 69-80.
+%H A054410 A. J. Guttmann, <a href="http://www.ms.unimelb.edu.au/~tonyg/articles/viennafinal.pdf">Indicators of solvability for lattice models</a>, Discrete Math., 217 (2000), 167-189.
+%F A054410 Expansion of (1+8*x+10*x^2+8*x^3+x^4)/(1-x)^4.
+%Y A054410 Cf. A008574, A054275, A054389, A054764.
+%K A054410 nonn
+%O A054410 0,2
+%A A054410 _N. J. A. Sloane_, May 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

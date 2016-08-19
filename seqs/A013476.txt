@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013476
+Showing 1-1 of 1
+
+%I A013476
+%S A013476 118,267122,3801437638,188997287445602,24300893634392843158,
+%T A013476 6725983870126469414416082
+%V A013476 118,-267122,3801437638,-188997287445602,24300893634392843158,
+%W A013476 -6725983870126469414416082
+%N A013476 arcsinh(cos(x)-cosh(x))=118/6!*x^6-267122/10!*x^10+3801437638/14!*x^14...
+%K A013476 sign
+%O A013476 0,1
+%A A013476 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

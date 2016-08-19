@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002591
+Showing 1-1 of 1
+
+%I A002591 M4886 N2095
+%S A002591 13,11,1093,757,3851,797161,4561,34511,363889,368089,1001523179,
+%T A002591 391151,8209,20381027,4404047,2413941289,2664097031,17189128703,
+%U A002591 797161,86950696619,380808546861411923,927001,96656723,131713,99810171997
+%N A002591 Largest factor of 3^(2n+1) - 1.
+%D A002591 J. Brillhart et al., Factorizations of b^n +- 1. Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 2nd edition, 1985; and later supplements.
+%D A002591 M. Kraitchik, Recherches sur la Théorie des Nombres. Gauthiers-Villars, Paris, Vol. 1, 1924, Vol. 2, 1929, see Vol. 2, p. 28.
+%D A002591 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002591 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002591 Sean A. Irvine, <a href="/A002591/b002591.txt">Table of n, a(n) for n = 1..307</a>
+%H A002591 J. Brillhart et al., <a href="http://dx.doi.org/10.1090/conm/022">Factorizations of b^n +- 1</a>, Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 3rd edition, 2002.
+%H A002591 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>
+%K A002591 nonn
+%O A002591 1,1
+%A A002591 _N. J. A. Sloane_
+%E A002591 Corrected and extended by _Jud McCranie_, Jan 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

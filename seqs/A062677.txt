@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062677
+Showing 1-1 of 1
+
+%I A062677
+%S A062677 83,89,181,281,283,383,389,487,587,683,787,809,811,821,823,827,829,
+%T A062677 839,853,857,859,863,877,881,883,887,983,1087,1181,1187,1283,1289,
+%U A062677 1381,1481,1483,1487,1489,1583,1783,1787,1789,1801,1811,1823,1831,1847,1861
+%N A062677 Numbers with property that every divisor (except 1) contains the digit 8.
+%C A062677 Subsequence of A011538, numbers with an 8. - _Michel Marcus_, Nov 21 2015
+%e A062677 7387 has divisors 83, 89 and 7387, all of which contain the digit 8
+%t A062677 fQ[n_, dgt_] := Union[ MemberQ[#, dgt] & /@ IntegerDigits@ Rest@ Divisors@ n][[1]]; Select[ Range[2, 1900], fQ[#, 8] &] (* _Robert G. Wilson v_, Jun 11 2014 *)
+%t A062677 Select[Prime[Range[350]], !StringFreeQ[ToString[#], "8"] &] (* _Vincenzo Librandi_, Nov 21 2015 *)
+%o A062677 (MAGMA) [p: p in PrimesUpTo(2000) |  8 in Intseq(p)]; // _Vincenzo Librandi_, Nov 21 2015
+%K A062677 base,easy,nonn
+%O A062677 1,1
+%A A062677 _Erich Friedman_, Jul 04 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004317
+Showing 1-1 of 1
+
+%I A004317
+%S A004317 1,24,325,3276,27405,201376,1344904,8347680,48903492,273438880,
+%T A004317 1471442973,7669339132,38910617655,192928249296,937845656300,
+%U A004317 4481381406320,21094923659355,97997533741800,449972009097765
+%N A004317 Binomial coefficient C(2n,n-11).
+%D A004317 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 828.
+%H A004317 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A004317 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A004317 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550, 2013. - From N. J. A. Sloane, Feb 13 2013
+%t A004317 Table[Binomial[2n,n-11],{n,11,30}] (* _Harvey P. Dale_, Aug 02 2015 *)
+%K A004317 nonn,easy
+%O A004317 11,2
+%A A004317 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

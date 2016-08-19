@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049667
+Showing 1-1 of 1
+
+%I A049667
+%S A049667 0,1,29,842,24447,709805,20608792,598364773,17373187209,504420793834,
+%T A049667 14645576208395,425226130837289,12346203370489776,358465123875040793,
+%U A049667 10407834795746672773,302185674200528551210,8773792386611074657863
+%N A049667 a(n) = F(7n)/13, where F=A000045 (the Fibonacci sequence).
+%H A049667 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A049667 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (29, 1).
+%F A049667 G.f. x/(1 - 29*x - x^2).
+%F A049667 a(n) = F(n, 29), the n-th Fibonacci polynomial evaluated at x=29. - _T. D. Noe_, Jan 19 2006
+%F A049667 a(n) = 29*a(n-1) + a(n-2), n>1; a(0)=0, a(1)=1. - _Philippe Deléham_, Nov 22 2008
+%F A049667 a(n) = ((-1)^n*7*F(n) + 14*5*F(n)^3 + (-1)^n*7*5^2*F(n)^5 + 5^3*F(n)^7)/13, n >= 0. See the general D. Jennings formula given in comment on triangle A111125, where also the reference is given. Here the fourth row (k=3) applies. - _Wolfdieter Lang_, Sep 01 2012
+%F A049667 G.f.: G(0)*x/(2-29*x), where G(k)= 1 + 1/(1 - (x*(845*k-841))/((x*(845*k+4)) - 58/G(k+1))); (continued fraction). - _Sergei N. Gladkovskii_, Jun 15 2013
+%t A049667 a=0;lst={a};s=0;Do[a=s-(a-1);AppendTo[lst,a];s+=a*29,{n,3*4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 27 2009 *)
+%o A049667 (Mupad) numlib::fibonacci(7*n)/13 $ n = 0..25; # _Zerinvary Lajos_, May 09 2008
+%o A049667 (Sage) [fibonacci(7*n)/13 for n in xrange(0, 17)] # _Zerinvary Lajos_, May 15 2009
+%Y A049667 A column of array A028412.
+%Y A049667 Cf. A134498.
+%K A049667 nonn
+%O A049667 0,3
+%A A049667 _Clark Kimberling_
+%E A049667 More terms from _James A. Sellers_, Jan 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

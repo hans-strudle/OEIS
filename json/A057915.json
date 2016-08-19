@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,2,5,6,8,9,17,76,154,188,329,497,609,1401,2320,3250,3281","description":"Numbers n such that 2*5^n - 3 is prime.","mathematica":"Do[ If[ PrimeQ[ 2*5^n - 3 ], Print[ n ] ], {n, 1, 2000} ]","keyword":"nonn","offset":"1,2","author":"_Robert G. Wilson v_, Nov 16 2000"}

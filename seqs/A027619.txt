@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027619
+Showing 1-1 of 1
+
+%I A027619
+%S A027619 2,50,56,128,156,166,208,238,272,308,336,392,474,476,512,618,658,666,
+%T A027619 710,734,836,868,1016,1064,1376,1386,1424,1432,1832,2216,2280,2334,
+%U A027619 2606,2638,2676,2700,2740,2782,2786,2912,2922,2948,2954,3758
+%N A027619 Numbers n such that Hofstadter Q-sequence Q(n) (A005185) satisfies Q(n)=n/2.
+%F A027619 Conjecture : a(n)/n^2 is bounded. - _Benoit Cloitre_, Oct 26 2002
+%K A027619 nonn
+%O A027619 1,1
+%A A027619 G. R. Bower (fsgrb(AT)aurora.alaska.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

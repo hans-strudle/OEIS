@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061132
+Showing 1-1 of 1
+
+%I A061132
+%S A061132 1,1,1,1,4,40,190,610,1660,13420,174700,1326700,30818800,342140800,
+%T A061132 2534931400,16519411000,143752426000,4842417082000,73620307162000,
+%U A061132 687934401562000,17165461784680000,308493094924720000
+%N A061132 Number of degree-n even permutations of order dividing 10.
+%F A061132 E.g.f.: 1/2*exp(x + 1/2*x^2 + 1/5*x^5 + 1/10*x^10) + 1/2*exp(x - 1/2*x^2 + 1/5*x^5 - 1/10*x^10).
+%Y A061132 Cf. A000085, A001470, A001472, A052501, A053496 - A053505, A001189, A001471, A001473, A061121 - A061128, A000704, A061129 - A061132, A048099, A051695, A061133 - A061135.
+%K A061132 easy,nonn
+%O A061132 0,5
+%A A061132 _Vladeta Jovovic_, Apr 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

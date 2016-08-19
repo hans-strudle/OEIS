@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056839
+Showing 1-1 of 1
+
+%I A056839
+%S A056839 1,1,2,6,3,15,15,105,210,70,70,770,770,10010,10010,10010,5005,85085,
+%T A056839 85085,1616615,1616615,1616615,1616615,37182145,37182145,7436429,
+%U A056839 7436429,22309287,22309287,646969323,646969323,20056049013,40112098026,40112098026,40112098026
+%N A056839 Squarefree part of LCM[1,...,n].
+%H A056839 Alois P. Heinz, <a href="/A056839/b056839.txt">Table of n, a(n) for n = 0..2000</a>
+%F A056839 a(n) = A007913(A003418(n)) = LCM[n]/LCM[q]^2, where LCM[n]=LCM[1, ..., n]=A003418(n), q=Floor[Sqrt[n]]=A000196(n)
+%e A056839 n=65, LCM[1,..,65]=1182266884102822267511361600, Floor(Sqrt(65))=8, LCM[8]=8.3.5.7]=840, a(65)=LCM(65)/LCM(8)^2=1675548305134385299761 is squarefree.
+%p A056839 b:= proc(n) b(n):= `if`(n=0, 1, ilcm(b(n-1), n)) end:
+%p A056839 a:= n-> mul(i[1]^irem(i[2], 2), i=ifactors(b(n))[2]):
+%p A056839 seq(a(n), n=0..40);  # _Alois P. Heinz_, Apr 01 2016
+%Y A056839 Cf. A007913, A003418, A000196.
+%K A056839 nonn
+%O A056839 0,3
+%A A056839 _Labos Elemer_, Aug 29 2000
+%E A056839 a(0)=1 inserted by _Alois P. Heinz_, Apr 01 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

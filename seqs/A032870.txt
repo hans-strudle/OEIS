@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032870
+Showing 1-1 of 1
+
+%I A032870
+%S A032870 1,2,3,4,5,6,7,8,14,15,16,21,22,23,24,28,29,30,31,32,35,36,37,38,39,
+%T A032870 40,42,43,44,45,46,47,48,49,50,51,52,53,54,55,57,58,59,60,61,62,98,99,
+%U A032870 100,101,102,103,104,106,107,108,109,110,111,114
+%N A032870 Numbers n such that base 7 representation Sum{d(i)*7^i: i=0,1,...,m) has d(m)>=d(m-1)<=d(m-2)>=...
+%K A032870 nonn,base
+%O A032870 1,2
+%A A032870 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

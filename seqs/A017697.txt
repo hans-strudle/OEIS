@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017697
+Showing 1-1 of 1
+
+%I A017697
+%S A017697 1,131073,129140164,17180000257,762939453126,1410565726331,
+%T A017697 232630513987208,2251816993685505,16677181828806733,50000381469792099,
+%U A017697 505447028499293772,554657012677255537,8650415919381337934
+%N A017697 Numerator of sum of -17th powers of divisors of n.
+%C A017697 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%Y A017697 Cf. A017698.
+%K A017697 nonn,frac
+%O A017697 1,2
+%A A017697 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

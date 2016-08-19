@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030239
+Showing 1-1 of 1
+
+%I A030239
+%S A030239 1,1,1,1,1,18,12,21,102,202,826,708,502,1522,6223,3493,1063,50655,
+%T A030239 10051,328426
+%N A030239 Smallest number such that a(n)*2^(2^n) +1 is prime.
+%F A030239 a(n) = min{a : a > 0 and (a*2^2^n)! = -1 (mod a*2^2^n +1)}
+%K A030239 nonn
+%O A030239 0,6
+%A A030239 Alar Leibak (aleibak(AT)cyber.ee)
+%E A030239 a(11)-a(17) from _Donovan Johnson_, Mar 26 2010
+%E A030239 a(18)-a(19) from _Donovan Johnson_, Jan 14 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

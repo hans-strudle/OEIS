@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033861
+Showing 1-1 of 1
+
+%I A033861
+%S A033861 316,452,697,1376,2743,5090,5149,6608,7276,9953,13552,25907,28486,
+%T A033861 53174,66631,80297,83086,86774,133552,256907,282586,508274,532852,
+%U A033861 756410,770977,848756,1305544,1439999,2789998,5578997,11156896
+%N A033861 Sort-then-add sequence: a(n+1) = a(n) + sort(a(n)).
+%H A033861 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Sort-Then-AddSequence.html">Sort-Then-Add Sequence.</a>
+%t A033861 NestList[#+FromDigits[Sort[IntegerDigits[#]]]&,316,40] (* _Harvey P. Dale_, Jan 28 2013 *)
+%K A033861 nonn,base
+%O A033861 1,1
+%A A033861 _David W. Wilson_
+%E A033861 316 is almost certainly the least starter not leading to a sorted element.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

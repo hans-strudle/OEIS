@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034901
+Showing 1-1 of 1
+
+%I A034901
+%S A034901 2,3,6,7,15,21,30,39,51,120,204,480,816,849,2041,2185,4785,19140,
+%T A034901 21505,43065,44080,49504,59185,172260,176320,178465,236740,387585,
+%U A034901 443521,552601,1774084,2210404,2310385,3991689,4973409,5371081,7096336
+%N A034901 a(n) is square mod a(i), i < n; a(n) nonsquare.
+%K A034901 nonn
+%O A034901 1,1
+%A A034901 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

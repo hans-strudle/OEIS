@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030741
+Showing 1-1 of 1
+
+%I A030741
+%S A030741 2,3,4,5,7,9,12,15,18,21,24,28,31,34,36,38,45,48,52,56,61,65,69,74,76,
+%T A030741 79,83,88,95
+%N A030741 n-th term s(k)>s(j) for j=1,2,...,k-1, where s=A030737 (with s(0)=0).
+%K A030741 nonn
+%O A030741 1,1
+%A A030741 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

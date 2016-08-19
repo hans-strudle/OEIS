@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013466
+Showing 1-1 of 1
+
+%I A013466
+%S A013466 1,0,0,160,0,691200,19712000,14125363200,1476034560000,
+%T A013466 949310881792000,219556882022400000,161772486589808640000,
+%U A013466 65109683806263050240000,58457850571785240576000000
+%N A013466 sec(arctan(x)-atanh(x))=1+160/6!*x^6+691200/10!*x^10+19712000/12!*x^12...
+%K A013466 nonn
+%O A013466 0,4
+%A A013466 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

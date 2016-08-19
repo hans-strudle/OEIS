@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027577
+Showing 1-1 of 1
+
+%I A027577
+%S A027577 41214,414000414,437657989756734,606104959401606,41404251615240414,
+%T A027577 41636648584663614,4716406792976046174,4719488979798849174
+%N A027577 Palindromes of form n^2 + (n+1)^2 + (n+2)^2 + (n+3)^2.
+%H A027577 P. De Geest, <a href="http://www.worldofnumbers.com/sumsquare.htm">Palindromic Sums of Squares of Consecutive Integers</a>
+%Y A027577 Cf. A027576.
+%K A027577 nonn,base
+%O A027577 1,1
+%A A027577 _Patrick De Geest_
+%E A027577 a(6)-a(8) from _Donovan Johnson_, Aug 26 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

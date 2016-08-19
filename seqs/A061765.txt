@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061765
+Showing 1-1 of 1
+
+%I A061765
+%S A061765 1,4,5,8,12,20,9,24,14,30,20,40,24,36,36,32,30,56,30,96,33,50,36,120,
+%T A061765 32,96,54,72,72,90,33,80,68,84,68,112,60,120,72,180,96,132,60,160,168,
+%U A061765 90,68,160,80,128,90,150,84,216,90,216,102,180,120,288
+%N A061765 usigma(sigma(n)), where usigma(n) is the sum of unitary divisors of n (A034448) and sigma(n) is the sum of the divisors (A000203).
+%H A061765 Nathaniel Johnston, <a href="/A061765/b061765.txt">Table of n, a(n) for n = 1..10000</a>
+%K A061765 nonn
+%O A061765 1,2
+%A A061765 _N. J. A. Sloane_, Oct 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

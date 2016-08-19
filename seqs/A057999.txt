@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057999
+Showing 1-1 of 1
+
+%I A057999
+%S A057999 2,3,5,13,37,73,433,1297,2593,10369,72577,508033,1524097,12192769,
+%T A057999 73156609,146313217,438939649,2633637889,23702740993,142216445953,
+%U A057999 1991030243329,37829574623233,416125320855553
+%N A057999 a(n) is smallest prime such that a(n)-1 is a proper multiple of a(n-1)-1 [with a(0)=2].
+%F A057999 a(n)= Product{i=1_n}[A036012(i)]+1 =a(n-1)*A036012(n)+1-A036012(n)
+%Y A057999 Cf. A036012, A046966, A046972, A058000.
+%K A057999 nonn
+%O A057999 0,1
+%A A057999 _Henry Bottomley_, Nov 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048568
+Showing 1-1 of 1
+
+%I A048568
+%S A048568 3,14,6499,1400167105052,3016568582965545592273993533410007175
+%N A048568 a(n+1)^3 is next smallest nontrivial cube beginning with a(n)^3, initial cube is 27.
+%Y A048568 Cf. A048567.
+%K A048568 nonn,base
+%O A048568 0,1
+%A A048568 _Patrick De Geest_, May 15 1999.
+%E A048568 Next terms are 110 and 329 digits long.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

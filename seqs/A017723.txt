@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017723
+Showing 1-1 of 1
+
+%I A017723
+%S A017723 1,60,1830,37820,595665,7624512,82598880,778789440,6522361560,
+%T A017723 49280065120,340032449328,2163842859360,12802736917880,70907466006720,
+%U A017723 369731787035040,1824010149372864,8550047575185300
+%N A017723 Binomial coefficients C(n,59).
+%o A017723 (Sage) [binomial(n, 59) for n in xrange(59,76)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017723 nonn
+%O A017723 59,2
+%A A017723 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

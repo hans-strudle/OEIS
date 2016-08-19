@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002434
+Showing 1-1 of 1
+
+%I A002434
+%S A002434 1,0,0,1640,119574,1497600,16733184,108081792,588805308,2544826368,
+%T A002434 9516533760,31328289720,92876121704,252846217728,638250227712,
+%U A002434 1511780699520,3387237774102,7228330481664
+%N A002434 Theta series of Borcherds' 27-dimensional unimodular lattice T_27.
+%D A002434 R. Bacher and B. B. Venkov, Reseaux entiers unimodulaires sans racine en dimension 27 et 28, in Reseaux euclidiens, designs spheriques et formes modulaires, pp. 212-267, Enseignement Math., Geneva, 2001.
+%D A002434 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, Preface to 3rd ed.
+%H A002434 R. Bacher and B. B. Venkov, Reseaux entiers unimodulaires sans racine en dimension 27 et 28 (<a href="http://www-fourier.ujf-grenoble.fr/PREP/html/a332/a332.html">html</a>, <a href="http://www-fourier.ujf-grenoble.fr/cgi-bin/envoips.pl?PS=PREP/ps/t332">ps</a>).
+%p A002434 th3^27-54*th3^19*delta8+216*th3^11*delta8^2-1024*th3^3*delta8^3 (th3= A000122, delta8= A002408).
+%K A002434 nonn
+%O A002434 0,4
+%A A002434 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

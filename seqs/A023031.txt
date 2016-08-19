@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023031
+Showing 1-1 of 1
+
+%I A023031
+%S A023031 1,6,21,56,126,252,461,792,1281,2002,2982,4368,6131,8568,11502,15498,
+%T A023031 20097,26334,33166,42504,52338,65724,79443,98280,116626,142506,166908,
+%U A023031 201124,232968,278250,317983,376992,427329,501150,564108,658008,732612
+%N A023031 Number of compositions of n into 6 ordered relatively prime parts.
+%H A023031 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023031 Moebius transform of C(n-1, 5)
+%K A023031 nonn
+%O A023031 6,2
+%A A023031 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

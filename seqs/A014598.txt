@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014598
+Showing 1-1 of 1
+
+%I A014598
+%S A014598 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,
+%T A014598 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,
+%U A014598 0,0,0,0,0,0,0,0,0,0,0,0
+%V A014598 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,-1,-1,
+%W A014598 -1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,0,0,0,0,0,0,0,0,0,
+%X A014598 0,0,0,0,0,0,0,0,0,0,0,0
+%N A014598 Inverse of 589th cyclotomic polynomial.
+%p A014598 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014598 sign
+%O A014598 0,1
+%A A014598 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

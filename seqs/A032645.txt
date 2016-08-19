@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032645
+Showing 1-1 of 1
+
+%I A032645
+%S A032645 4,14,34,38,40,56,80,110,128,134,164,170,182,188,200,218,224,308,332,
+%T A032645 362,368,416,422,452,506,578,584,602,686,740,758,764,776,782,800,848,
+%U A032645 854,866,872,890,902,908,938,974,1004,1018,1022,1028,1034,1054,1064
+%N A032645 Numbers n such that n concatenated with n + 5 is a lucky number.
+%Y A032645 Cf. A000959, A032655.
+%K A032645 nonn,base
+%O A032645 1,1
+%A A032645 _Patrick De Geest_, May 15 1998
+%E A032645 More terms from _Sascha Kurz_, Mar 24 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

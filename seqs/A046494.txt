@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046494
+Showing 1-1 of 1
+
+%I A046494
+%S A046494 3,5,7,11,13,17,797,1201,79997,180007,14000000000003,
+%T A046494 140000000000000000000003,18000000000000000000000007,
+%U A046494 79999999999999999999999999997,140000000000000000000000000003
+%N A046494 Primes expressible as the sum of 2 consecutive palindromes.
+%H A046494 P. De Geest, <a href="http://www.worldofnumbers.com/index.html">World!Of Numbers</a>
+%e A046494 E.g. 180007 = 89998 + 90009.
+%Y A046494 Cf. A000040, A002113.
+%K A046494 nonn,base
+%O A046494 0,1
+%A A046494 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

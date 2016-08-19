@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027297
+Showing 1-1 of 1
+
+%I A027297
+%S A027297 1,4,30,104,567,1952,9453,32900,150029,528956,2327156,8303216,
+%T A027297 35679835,128633440,543723257,1977821700,8260172309,30278441400,
+%U A027297 125314192728,462409521376
+%N A027297 a(n) = Sum{T(n,k)*T(n,k+3)}, 0<=k<=[ (n-3)/2 ], T given by A026022.
+%K A027297 nonn
+%O A027297 3,2
+%A A027297 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

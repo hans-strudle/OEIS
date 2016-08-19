@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011868
+Showing 1-1 of 1
+
+%I A011868
+%S A011868 0,0,0,0,0,1,2,2,3,4,6,7,8,10,12,14,16,18,20,22,25,28,30,33,36,40,43,
+%T A011868 46,50,54,58,62,66,70,74,79,84,88,93,98,104,109,114,120,126,132,138,
+%U A011868 144,150,156,163,170,176,183,190
+%N A011868 [ n(n-1)/15 ].
+%F A011868 a(n) = +2*a(n-1) -a(n-2) +a(n-15) -2*a(n-16) +a(n-17). [From _R. J. Mathar_, Apr 15 2010]
+%F A011868 G.f.: x^5 (1+x^2 (-1+x (1+x^2 (1+x (-1+x^2))))))/(1+x (-2+x (1+x^13 (-1+(2-x) x)))
+%K A011868 nonn
+%O A011868 0,7
+%A A011868 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016161
+Showing 1-1 of 1
+
+%I A016161
+%S A016161 1,12,109,888,6841,51012,372709,2687088,19200241,136354812,964249309,
+%T A016161 6798573288,47834153641,336059778612,2358521965909,16540171339488,
+%U A016161 115933787267041,812299450322412,5689910849522509
+%N A016161 Expansion of 1/((1-5x)(1-7x)).
+%C A016161 Also, this is the number of incongruent integer-edged Heron triangles whose circumdiameter is the product of n distinct primes each of shape 4k + 1. Cf. A003462, A109021. - R. K. Guy, Jan 31 2007
+%H A016161 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (12,-35).
+%F A016161 a(n) = (7^(n+1)-5^(n+1))/2 = A081200(n+1). Binomial transform of A080962. - R. J. Mathar, Sep 18 2008
+%F A016161 a(n)=7*a(n-1)+5^n. [From Vincenzo Librandi, Feb 09 2011]
+%o A016161 (PARI) Vec(1/((1-5*x)*(1-7*x))+O(x^99)) \\ _Charles R Greathouse IV_, Sep 24 2012
+%K A016161 nonn,easy
+%O A016161 0,2
+%A A016161 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

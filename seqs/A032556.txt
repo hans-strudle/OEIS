@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032556
+Showing 1-1 of 1
+
+%I A032556
+%S A032556 1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,4,4,5,
+%T A032556 5,5,5,5,5,5,5,6,6,6,6,6,6,6,6,6,7,7,7
+%N A032556 Quotient of 'base 12' division described in A032555.
+%Y A032556 Cf. A032555. See also A032563 for explanation.
+%K A032556 nonn,hard,base
+%O A032556 0,10
+%A A032556 _Patrick De Geest_, april 1998.
+%E A032556 More terms from Larry Reeves (larryr(AT)acm.org), Sep 27 2000
+%E A032556 The next term has an A032555 term > 2.4*10^11
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

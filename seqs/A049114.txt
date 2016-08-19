@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049114
+Showing 1-1 of 1
+
+%I A049114
+%S A049114 1,1,5,7,21,37,89,173,383,777,1665,3441,7277,15159,31885,66645,139865,
+%T A049114 292757,613823,1285585,2694433,5644609,11828501,24782311,51928773,
+%U A049114 108802597,227978105,477674813,1000877759,2097121497,4394101857
+%N A049114 2-ranks of difference sets constructed from Glynn type II hyperovals.
+%D A049114 R. Evans, H. D. L. Hollmann, C. Krattenthaler, Q. Xiang, Gauss Sums, Jacobi Sums and p-Ranks of Cyclic Difference Sets, J. Combin. Theory Ser. A 87 (1999), 74-119.
+%D A049114 Q. Xiang, On Balanced Binary Sequences with Two-Level Autocorrelation Functions, IEEE Trans. Inform. Theory 44 (1998), 3153-3156.
+%H A049114 <a href="http://radon.mat.univie.ac.at/People/kratt/artikel/glynn.html">Supplement to "Gauss Sums, Jacobi Sums and p-ranks ..."</a>
+%F A049114 G.f.: (1-x+x^2-x^3+x^4)/(1-2*x-2*x^2+4*x^3-x^5).
+%F A049114 a(n+1) = a(n) + 3*a(n-1) - a(n-2) - a(n-3) + 1.
+%p A049114 L := 1,1,5,7: for i from 5 to 100 do l := nops([ L ]): L := L,op(l,[ L ])+3*op(l-1,[ L ])-op(l-2,[ L ])-op(l-3,[ L ])+1: od: [ L ];
+%t A049114 Join[ {1, 1, 5, 7}, Table[ a[ 1 ]=1; a[ 2 ]=1; a[ 3 ]=5; a[ 4 ]=7; a[ i ]=a[ i-1 ]+3*a[ i-2 ]-a[ i-3 ]-a[ i-4 ]+1, {i, 5, 100} ] ]
+%Y A049114 Cf. A001595, A049112.
+%K A049114 nonn,easy
+%O A049114 1,3
+%A A049114 Christian Krattenthaler (kratt(AT)ap.univie.ac.at)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

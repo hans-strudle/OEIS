@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017094
+Showing 1-1 of 1
+
+%I A017094
+%S A017094 64,1000000,34012224,308915776,1544804416,5489031744,15625000000,
+%T A017094 38068692544,82653950016,164206490176,304006671424,531441000000,
+%U A017094 885842380864,1418519112256,2194972623936,3297303959104
+%N A017094 (8*n+2)^6.
+%H A017094 Vincenzo Librandi, <a href="/A017094/b017094.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017094 (MAGMA) [(8*n+2)^6: n in [0..30]]; // Vincenzo Librandi, Jul 12 2011
+%K A017094 nonn,easy
+%O A017094 0,1
+%A A017094 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

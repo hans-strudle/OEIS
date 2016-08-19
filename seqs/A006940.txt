@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006940
+Showing 1-1 of 1
+
+%I A006940 M4806
+%S A006940 1,11,121,1001,11011,121121,1002001,11022011,121212121,1000000001,
+%T A006940 11000000011,121000000121,1001000001001,11011000011011,121121000121121
+%N A006940 Rows of Pascal's triangle mod 3.
+%D A006940 C. Pickover, Mazes for the Mind, St. Martin's Press, NY, 1992, p. 353.
+%D A006940 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A006940 Cf. A007318.
+%K A006940 nonn
+%O A006940 0,2
+%A A006940 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

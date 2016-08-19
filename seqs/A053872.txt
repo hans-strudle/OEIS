@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053872
+Showing 1-1 of 1
+
+%I A053872
+%S A053872 37,199,277,367,997,1049,1103,1451,1709,1777,2137,2213,2953,3041,3407,
+%T A053872 3889,3989,4091,5309,7193,7883,11113,13757,15083,16073,17093,28643,
+%U A053872 28909,30259,32203,35089,35977,40879,42157,43451,43777,48119,51949
+%N A053872 Primes arising in A053782.
+%t A053872 s=0;lst={};Do[If[PrimeQ[n],NULL,s+=n;If[PrimeQ[s],AppendTo[lst,s]]],{n,2,7!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Feb 01 2009 *)
+%Y A053872 Cf. A000040, A002808, A053782.
+%K A053872 nonn
+%O A053872 1,1
+%A A053872 _G. L. Honaker, Jr._, Mar 30 2000
+%E A053872 More terms from Reiner Martin (reinermartin(AT)hotmail.com), Jul 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

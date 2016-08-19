@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013756
+Showing 1-1 of 1
+
+%I A013756
+%S A013756 15,50625,170859375,576650390625,1946195068359375,6568408355712890625,
+%T A013756 22168378200531005859375,74818276426792144775390625,
+%U A013756 252511682940423488616943359375,852226929923929274082183837890625,2876265888493261300027370452880859375
+%N A013756 15^(3n+1).
+%H A013756 Vincenzo Librandi, <a href="/A013756/b013756.txt">Table of n, a(n) for n = 0..200</a>
+%H A013756 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013756 a(n)=3375*a(n-1), n>0 ; a(0)=15 . G.f.: 15/(1-3375*x). [From _Philippe Deléham_, Dec 03 2008]
+%o A013756 (MAGMA) [15^(3*n+1): n in [0..15]]; // Vincenzo Librandi, Jun 27 2011
+%K A013756 nonn,easy
+%O A013756 0,1
+%A A013756 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

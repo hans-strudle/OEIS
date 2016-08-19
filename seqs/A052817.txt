@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052817
+Showing 1-1 of 1
+
+%I A052817
+%S A052817 0,1,2,3,6,10,22,43,97,211,481,1090,2535,5870,13774,32383,76607,
+%T A052817 181709,432865,1033657,2475869,5943440,14300623,34475031,83266498,
+%U A052817 201441441,488098768,1184353854,2877625762,7000359245,17049321176
+%N A052817 Cycles of rooted trees t where for each t all subtrees at root are distinct. n is total number of nodes.
+%H A052817 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=782">Encyclopedia of Combinatorial Structures 782</a>
+%p A052817 spec := [S,{C=Prod(B,Z),B=PowerSet(C),S=Cycle(C)},unlabeled]: seq(combstruct[count](spec, size=n), n=0..20);
+%K A052817 easy,nonn
+%O A052817 0,3
+%A A052817 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

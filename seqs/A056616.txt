@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056616
+Showing 1-1 of 1
+
+%I A056616
+%S A056616 1,2,6,20,70,252,924,1144,12870,48620,184756,705432,2704156,10400600,
+%T A056616 40116600,155117520,200360130,466721244,9075135300,11781754600,
+%U A056616 137846528820,538257874440,140273264248,8233430727600,32247603683100
+%N A056616 Numerator of binomial(2n,n)/(2n+1).
+%C A056616 It is easy to type binomial(2n,n)/(2n+1) by mistake, when one really wants the Catalan numbers binomial(2n,n)/(n+1), A000108.
+%C A056616 Differs from A000984 at positions in A101681.
+%F A056616 Numerators in the G.f.: 1/(2*sqrt(x))*arcsin(2*sqrt(x)). [_Vladimir Kruchinin_, May 31 2013]
+%e A056616 1, 2/3, 6/5, 20/7, 70/9, 252/11, 924/13, 1144/5, 12870/17, ...
+%t A056616 Numerator[Table[Binomial[2n,n]/(2n+1),{n,0,30}]] (* _Harvey P. Dale_, Jul 25 2013 *)
+%Y A056616 Cf. A056617, A000108.
+%K A056616 nonn,frac
+%O A056616 0,2
+%A A056616 _N. J. A. Sloane_, Aug 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

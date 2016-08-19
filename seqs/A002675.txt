@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002675
+Showing 1-1 of 1
+
+%I A002675 M5035 N2173
+%S A002675 1,1,1,17,31,1,5461,257,73,1271,60787,241,22369621,617093,49981
+%N A002675 Numerators of coefficients for central differences.
+%D A002675 H. E. Salzer, Tables of coefficients for obtaining central differences from their derivatives, Journal of Mathematics and Physics, 42 (1963), 162-165.
+%D A002675 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002675 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A002675 Cf. A002676. Equals A002430/A002431.
+%K A002675 nonn,frac
+%O A002675 2,4
+%A A002675 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037849
+Showing 1-1 of 1
+
+%I A037849
+%S A037849 0,0,0,0,0,0,0,0,0,1,2,3,4,5,6,0,0,0,1,2,3,4,5,0,0,0,0,1,2,3,4,0,0,0,
+%T A037849 0,0,1,2,3,0,0,0,0,0,0,1,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,2,3,4,
+%U A037849 5,6,7,0,0,1,2,3,4,5,6,1,1,1,2,3,4,5,6,2,2,2
+%N A037849 a(n)=Sum{d(i-1)-d(i): d(i)<d(i-1), i=1,...,m}, where Sum{d(i)*8^i: i=0,1,...,m} is the base 8 representation of n.
+%p A037849 A037849 := proc(n)
+%p A037849     a := 0 ;
+%p A037849     dgs := convert(n,base,8);
+%p A037849     for i from 2 to nops(dgs) do
+%p A037849         if op(i,dgs)<op(i-1,dgs) then
+%p A037849             a := a-op(i,dgs)+op(i-1,dgs) ;
+%p A037849         end if;
+%p A037849     end do:
+%p A037849     a ;
+%p A037849 end proc: 3 _R. J. Mathar_, Oct 19 2015
+%K A037849 nonn,base
+%O A037849 1,11
+%A A037849 _Clark Kimberling_
+%E A037849 Definition swapped with A037858. - _R. J. Mathar_, Oct 19 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

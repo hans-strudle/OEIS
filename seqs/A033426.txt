@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033426
+Showing 1-1 of 1
+
+%I A033426
+%S A033426 1000000,500000,333333,250000,200000,166666,142857,125000,111111,
+%T A033426 100000,90909,83333,76923,71428,66666,62500,58823,55555,52631,50000,
+%U A033426 47619,45454,43478,41666,40000,38461,37037,35714,34482,33333,32258
+%N A033426 floor( 10^6/n ).
+%K A033426 easy,nonn,fini,less
+%O A033426 1,1
+%A A033426 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

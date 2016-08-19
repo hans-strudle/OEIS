@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000664
+Showing 1-1 of 1
+
+%I A000664 M1400 N0545
+%S A000664 1,1,2,5,11,26,68,177,497,1476,4613,15216,52944,193367,740226,2960520,
+%T A000664 12334829,53394755,239544624,1111261697,5320103252,26237509076,
+%U A000664 133087001869,693339241737,3705135967663,20286965943329,113694201046379
+%N A000664 Number of graphs with n edges.
+%C A000664 These are simple graphs, unlabeled, with no isolated nodes, but are not necessarily connected.
+%D A000664 W. Oberschelp, Kombinatorische Anzahlbestimmungen in Relationen, Math. Ann., 174 (1967), 53-78.
+%D A000664 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 146.
+%D A000664 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000664 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000664 M. L. Stein and P. R. Stein, Enumeration of Linear Graphs and Connected Linear Graphs up to $p = 18$ Points. Report LA-3775, Los Alamos Scientific Laboratory of the University of California, Los Alamos, NM, Oct 1967.
+%H A000664 P. J. Cameron, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Sequences realized by oligomorphic permutation groups</a>, J. Integ. Seqs. Vol. 3 (2000), #00.1.5.
+%F A000664 Euler transform of A002905 (ignoring A002905(0)). - _Franklin T. Adams-Watters_ Jul 03 2009
+%e A000664 n=1: o-o (1)
+%e A000664 n=2: o-o o-o, o-o-o (2)
+%e A000664 n=3: o-o o-o o-o, o-o-o o-o, o-o-o-o, Y, triangle (5)
+%e A000664 n=4: o-o o-o o-o o-o, o-o-o o-o o-o, o-o-o o-o-o, o-o o-o-o-o, o-o Y, o-o triangle,
+%e A000664 o-o-o-o-o, >o-o-o, ><, square, triangle with tail (11)
+%Y A000664 Cf. A008406.
+%K A000664 nonn,nice
+%O A000664 0,3
+%A A000664 _N. J. A. Sloane_.
+%E A000664 More terms from _Vladeta Jovovic_, Jan 08 2000, Aug 14 2007
+%E A000664 Edited by _N. J. A. Sloane_, Feb 26 2008
+%E A000664 Example for n=2 corrected by Adrian Falcone (falcone(AT)gmail.com), Jan 28 2009
+%E A000664 Zero term inserted by _Franklin T. Adams-Watters_, Jul 03 2009
+%E A000664 a(25)-a(26) from _Max Alekseyev_, Sep 19 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

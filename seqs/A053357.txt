@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053357
+Showing 1-1 of 1
+
+%I A053357
+%S A053357 1,7,9,11,33,81,113,143,185,227,359,393,631,1123,1273,1351,3721,4753,
+%T A053357 6617,9281,12539,12961,19513,23497,29695,33361,88153
+%N A053357 Numbers n such that 281*2^n+1 is prime.
+%H A053357 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A053357 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A053357 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A053357 hard,nonn
+%O A053357 1,2
+%A A053357 _N. J. A. Sloane_, Dec 29 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

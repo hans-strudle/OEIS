@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056082
+Showing 1-1 of 1
+
+%I A056082
+%S A056082 1,57,68,124,126,182,193,249,251,307,318,374,376,432,443,499,501,557,
+%T A056082 568,624,626,682,693,749,751,807,818,874,876,932,943,999,1001,1057,
+%U A056082 1068,1124,1126,1182,1193,1249,1251,1307,1318,1374,1376,1432,1443,1499
+%N A056082 n^4 = 1 (mod 5^3).
+%C A056082 Numbers congruent to {1, 57, 68, 124} mod 125.
+%t A056082 x=5; Select[ Range[ 1000 ], PowerMod[ #, x-1, x^3 ]==1& ]
+%K A056082 nonn
+%O A056082 1,2
+%A A056082 _Robert G. Wilson v_, Jun 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046158
+Showing 1-1 of 1
+
+%I A046158
+%S A046158 1,2,3,5,6,7,12,19,26,97,123,149,272,395,5258,5653,26685,31943
+%N A046158 Values of n for which there are no empty intervals when frac(m gamma) for m = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions.
+%H A046158 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/EquidistributedSequence.html">Equidistributed Sequence</a>
+%Y A046158 Cf. A046157.
+%K A046158 nonn
+%O A046158 1,2
+%A A046158 _Eric W. Weisstein_
+%E A046158 No others with n<=50000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

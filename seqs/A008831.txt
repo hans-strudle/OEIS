@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008831
+Showing 1-1 of 1
+
+%I A008831
+%S A008831 0,1,4,2,9,5,11,3,8,10,7,6
+%N A008831 Log_2 (n) mod 13.
+%C A008831 This is also a (12,1)-sequence.
+%D A008831 H. Y. Song and S. W. Golomb, Generalized Welch-Costas sequences and their application to Vatican arrays, in Proc. 2nd International Conference on Finite Fields: Theory, Algorithms and Applications (Las Vegas 1993) Contemp. Math. vol. 168 344 1994.
+%D A008831 I. M. Vinogradov, Elements of Number Theory, p. 220.
+%p A008831 [ seq(mlog(n,2,13), n=1..12) ];
+%K A008831 nonn,base,fini,full
+%O A008831 1,3
+%A A008831 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

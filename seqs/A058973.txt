@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058973
+Showing 1-1 of 1
+
+%I A058973
+%S A058973 1,2,3,2,4,2,5,9,2,4,8,8,9,9,10,8,8,11,2,2,12,2,13,13,14,15,4,16,2,17,
+%T A058973 4,35,19,8,23,9,8,22,25,2,26,25,2,2,24,28,8,10,4,29,2,26,29,2,2,35,33,
+%U A058973 6,2,38,33,33,40,2,68,4,8,44,41,8,4,46,35,43,49,50,2,42,8,40,58,4,59,43,61
+%N A058973 First integer reached in A058972.
+%H A058973 P. Schogt, <a href="http://arxiv.org/abs/1211.6583">The Wild Number Problem: math or fiction?</a>, arXiv preprint arXiv:1211.6583, 2012. - From _N. J. A. Sloane_, Jan 03 2013
+%e A058973 A058972(1) = 3: f(3/1) = 3/3 = 1 = a(1); A058972(2) = 9: f(9/1) = 8/4 = 2 = a(2); A058972(3) = 15: f(15/1) = 15/5 = 3 = a(3); A058972(4) = 24: f(24/1) = 6/3 = 2 = a(4);...
+%K A058973 nonn,easy
+%O A058973 1,2
+%A A058973 _N. J. A. Sloane_, Jan 14 2001
+%E A058973 Corrected and extended by Antonio G. Astudillo (afg_astudillo(AT)lycos.com), Mar 22 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

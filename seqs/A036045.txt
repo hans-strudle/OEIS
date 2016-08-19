@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036045
+Showing 1-1 of 1
+
+%I A036045
+%S A036045 0,2,4,12,24,60,110,238,436,860,1516,2848,4874,8666,14664,25120,41342,
+%T A036045 69178,111596,181890,289170,461086,720944,1131358,1743016,2689332,
+%U A036045 4094090,6228298,9364440,14072828
+%N A036045 Sum of distances between dual pairs of partitions of n for the canonical order.
+%e A036045 a(4) = 12 = sum of dist. of {{1,5},{2,4},{3,3},{4,2},{5,1}}=4+2+0+2+4
+%Y A036045 Cf. A036045-A036056.
+%K A036045 nonn,nice
+%O A036045 1,2
+%A A036045 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

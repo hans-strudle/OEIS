@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045814
+Showing 1-1 of 1
+
+%I A045814
+%S A045814 4,3,6,3,3,3,3,6,12,7,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,2,2,4,2,4,4,2,2,6,
+%T A045814 2,2,2,2,4,6,4,2,2,6,8,2,4,4,6,2,2,4,6,2,4,16,2,2,4,4,4,2,8,2,2,4,2,
+%U A045814 12,2,2,12,10,2,4,2,4,12,2,6,12,10,4,4,4,4,2,4,4,4,4,8,4,8,4,4,2,2,2,6,4
+%N A045814 Number of times the digits are repeated in A045813.
+%C A045814 e.g. 320[ 0(4),1(4),2(4),3(4) ],20132[ 0(3),1(3),2(3),3(3) ],21320[ 0(6),1(6),2(6),3(6) ].
+%H A045814 N. Nomoto, <a href="http://www.geocities.co.jp/Technopolis/1793/09digit.htm">In the list of divisors of n,... </a> [broken link]
+%Y A045814 Cf. A038564, A038565.
+%K A045814 easy,nonn,base
+%O A045814 1,1
+%A A045814 _Naohiro Nomoto_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

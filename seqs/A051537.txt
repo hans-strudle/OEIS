@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051537
+Showing 1-1 of 1
+
+%I A051537
+%S A051537 1,2,1,3,6,1,4,2,12,1,5,10,15,20,1,6,3,2,6,30,1,7,14,21,28,35,42,1,8,
+%T A051537 4,24,2,40,12,56,1,9,18,3,36,45,6,63,72,1,10,5,30,10,2,15,70,20,90,1,
+%U A051537 11,22,33,44,55,66,77,88,99,110,1,12,6,4,3,60,2,84,6,12,30,132,1,13,26,39
+%N A051537 Triangle T(i,j) read by rows: the j-th term of the i-th row is LCM(i,j)/GCD(i,j).
+%C A051537 The first term of the k-th row is k. The first leading diagonal contains all 1's. The second leading diagonal contains twice triangular numbers = n*(n-1). a(p) = (p^3 - p^2 + 2)/2, where p is a prime. Proof: The p-th row is p, 2p, 3p, ..., (p-2)*p, (p-1)*p, 1 The sum = p*( 1+2+3+...+ (p-2) + (p-1)) + 1 = p*(p-1)*(p)/2 + 1 etc. - _Robert G. Wilson v_, May 10 2002
+%C A051537 In the array T(i,j)=T(j,i), the natural extension of the triangle, each set of rows and columns with common indices [d1,d2,...,ds] define a group multiplication table on their grid, if the d1,d2,..., ds are the set of divisors of a squarefree number [A. Jorza]. - _R. J. Mathar_, May 03 2007
+%C A051537 T(n,k) = A054531(n,k)*A164306(n,k). - _Reinhard Zumkeller_, Oct 30 2009
+%D A051537 A. Jorza, Groups of Divisors, Solution to problem 10893, Amer. Math. Monthly, 2003, 441-443.
+%H A051537 Reinhard Zumkeller, <a href="/A051537/b051537.txt">Rows n = 1..120 of triangle, flattened</a>
+%F A051537 T(n,k) = A051173(n,k) / A050873(n,k). - _Reinhard Zumkeller_, Jul 07 2013
+%e A051537 1;
+%e A051537 2,  1;
+%e A051537 3,  6,  1;
+%e A051537 4,  2, 12,  1;
+%e A051537 5, 10, 15, 20,  1;
+%e A051537 6,  3,  2,  6, 30,  1;
+%e A051537 7, 14, 21, 28, 35, 42,  1;
+%e A051537 8,  4, 24,  2, 40, 12, 56,  1; .....
+%t A051537 Flatten[ Table[ LCM[i, j] / GCD[i, j], {i, 1, 13}, {j, 1, i}]]
+%o A051537 (Haskell)
+%o A051537 a051537 n k = a051537_tabl !! (n-1) !! (k-1)
+%o A051537 a051537_row n = a051537_tabl !! (n-1)
+%o A051537 a051537_tabl = zipWith (zipWith div) a051173_tabl a050873_tabl
+%o A051537 -- _Reinhard Zumkeller_, Jul 07 2013
+%Y A051537 Diagonals give A002378, A070260, A070261, A070262. Row sums give A056789.
+%K A051537 nonn,tabl
+%O A051537 1,2
+%A A051537 _N. J. A. Sloane_ and _Amarnath Murthy_, May 10 2002
+%E A051537 More terms from _Robert G. Wilson v_, May 10 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

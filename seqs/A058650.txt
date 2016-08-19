@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058650
+Showing 1-1 of 1
+
+%I A058650
+%S A058650 1,2,0,1,2,0,0,2,0,2,6,0,2
+%V A058650 1,2,0,-1,2,0,0,2,0,-2,6,0,2
+%N A058650 McKay-Thompson series of class 36c for Monster.
+%D A058650 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058650 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058650 T36c = 1/q + 2*q - q^5 + 2*q^7 + 2*q^13 - 2*q^17 + 6*q^19 + 2*q^23 + 6*q^25 + ...
+%Y A058650 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058650 sign
+%O A058650 -1,2
+%A A058650 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

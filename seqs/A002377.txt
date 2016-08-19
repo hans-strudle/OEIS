@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002377
+Showing 1-1 of 1
+
+%I A002377 M0471 N0172
+%S A002377 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,1,2,3,4,5,6,7,8,9,10,11,12,13,14,
+%T A002377 15,16,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,3,4,5,6,7,8,9,10,11,12,
+%U A002377 13,14,15,16,17,18,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,5,1,2,3
+%N A002377 Least number of 4th powers needed to represent n.
+%C A002377 No terms are greater than 19, see A002804. - _Charles R Greathouse IV_, Aug 01 2013
+%D A002377 D. H. Lehmer, Guide to Tables in the Theory of Numbers. Bulletin No. 105, National Research Council, Washington, DC, 1941, p. 82.
+%D A002377 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002377 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002377 T. D. Noe, <a href="/A002377/b002377.txt">Table of n, a(n) for n = 1..14000</a>
+%H A002377 C. A. Bretschneider, <a href="http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=PPN243919689_0046&amp;IDDOC=266941">Zerlegung der Zahlen bis 4100 in Biquadrate</a>, J. Reine Angew. Math., 46 (1853), 1-28.
+%H A002377 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number</a>
+%t A002377 Cnt4[n_] := Module[{k = 1}, While[Length[PowersRepresentations[n, k, 4]] == 0, k++]; k]; Array[Cnt4, 100] (* _T. D. Noe_, Apr 01 2011 *)
+%Y A002377 Cf. A099591.
+%K A002377 nonn,nice
+%O A002377 1,2
+%A A002377 _N. J. A. Sloane_
+%E A002377 More terms from Arlin Anderson (starship1(AT)gmail.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

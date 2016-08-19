@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059759
+Showing 1-1 of 1
+
+%I A059759
+%S A059759 1,2,3,4,5,6,7,9,12,13,16,24,29,31,45,50,56,64,66,77,79,92,115,124,
+%T A059759 137,182,339,356,410,471,679,759,1489,1706,1896,2277,3206,4065,4539,
+%U A059759 4686,4777,5664,7303,7773,7785,7831,9327
+%N A059759 Numbers n such that 3*2^n + 35 is prime.
+%t A059759 Do[ If[ PrimeQ[ 3*2^n + 35 ], Print[n] ], {n, 1, 13000} ]
+%K A059759 nonn
+%O A059759 1,2
+%A A059759 _Robert G. Wilson v_, Feb 20 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

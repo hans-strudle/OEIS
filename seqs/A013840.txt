@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013840
+Showing 1-1 of 1
+
+%I A013840
+%S A013840 216,1679616,13060694016,101559956668416,789730223053602816,
+%T A013840 6140942214464815497216,47751966659678405306351616,
+%U A013840 371319292745659279662190166016,2887378820390246558653190730940416,22452257707354557240087211123792674816
+%N A013840 6^(5*n+3).
+%H A013840 Vincenzo Librandi, <a href="/A013840/b013840.txt">Table of n, a(n) for n = 0..100</a>
+%H A013840 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013840 (MAGMA) [6^(5*n+3): n in [0..15]]; // Vincenzo Librandi, Jul 08 2011
+%K A013840 nonn,easy
+%O A013840 0,1
+%A A013840 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

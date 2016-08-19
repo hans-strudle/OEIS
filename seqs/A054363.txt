@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054363
+Showing 1-1 of 1
+
+%I A054363
+%S A054363 1,1,5,15,85,510,4051,33130,291925,2661255,25059670,241724380,
+%T A054363 2379912355
+%N A054363 Number of unlabeled 5-ary cacti having n polygons.
+%H A054363 Miklos Bona, Michel Bousquet, Gilbert Labelle and Pierre Leroux, Enumeration of m-ary cacti, Advances in Applied Mathematics, 24 (2000), 22-56 (<a href="http://www.lacim.uqam.ca/~leroux/articles/cactus.pdf">pdf</a>, <a href="http://www.math.ufl.edu/~bona/cactusJCTA.dvi">dvi</a>).
+%H A054363 <a href="/index/Ca#cacti">Index entries for sequences related to cacti</a>
+%K A054363 nonn
+%O A054363 0,3
+%A A054363 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

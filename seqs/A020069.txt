@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020069
+Showing 1-1 of 1
+
+%I A020069
+%S A020069 1,0,0,0,0,3,17,104,740,6005,54717,553253,6147263,74450193,976124760,
+%T A020069 13774204958,208143541601,3353423725801,57380805974819,
+%U A020069 1039230152655057,19860842917407765,399423618672311729
+%N A020069 Integer part of GAMMA(n+1/9)/GAMMA(1/9).
+%p A020069 Digits := 64:f := proc(n,x) trunc(GAMMA(n+x)/GAMMA(x)); end;
+%K A020069 nonn
+%O A020069 0,6
+%A A020069 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

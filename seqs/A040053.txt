@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040053
+Showing 1-1 of 1
+
+%I A040053
+%S A040053 1,0,1,0,1,0,0,1,0,0,1,0,0,1,1,1,0,1,1,0,0,0,1,1,0,1,0,1,1,0,0,0,1,1,
+%T A040053 0,1,0,0,0,1,1,1,0,0,0,0,1,1,0,1
+%N A040053 1 iff tau(n) > 0.
+%Y A040053 Cf. A000594.
+%K A040053 nonn
+%O A040053 1,1
+%A A040053 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

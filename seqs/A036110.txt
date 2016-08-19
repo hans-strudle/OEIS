@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036110
+Showing 1-1 of 1
+
+%I A036110
+%S A036110 2,2,22,32,1332,332211,433231,14533231,1524632231,162524534241,
+%T A036110 263544336241,363564435231,463554733221,17364544733221,37263554634231,
+%U A036110 37363554734231,37364544933221,1937263554933221,3927263544835231
+%N A036110 A summarize Fibonacci sequence: summarize the previous two terms!.
+%C A036110 From the 26th term the sequence gets into a cycle of 46.
+%Y A036110 Cf. A036059.
+%K A036110 base,easy,nonn
+%O A036110 0,1
+%A A036110 _Floor van Lamoen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

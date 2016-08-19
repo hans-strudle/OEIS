@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062558
+Showing 1-1 of 1
+
+%I A062558
+%S A062558 2,2,3,3,3,4,3,4,4,4,3,6,3,4,5,5,3,6,3,6,5,4,3,8,4,4,5,6,3,8,3,6,5,4,
+%T A062558 5,9,3,4,5,8,3,8,3,6,7,4,3,10,4,6,5,6,3,8,5,8,5,4,3,12,3,4,7,7,5,8,3,
+%U A062558 6,5,8,3,12,3,4,7,6,5,8,3,10,6,4,3,12,5,4,5,8,3,12,5,6,5,4,5,12,3,6,7,9,3
+%N A062558 Number of nonisomorphic cyclic subgroups of dihedral group with 2n elements.
+%F A062558 a(n)=tau(n)+(n mod 2), tau(n)=the number of divisors of n, cf. A000005.
+%o A062558 (PARI) a(n) = numdiv(n) + (n % 2) \\ _Michel Marcus_, Jun 17 2013
+%Y A062558 Cf. A062249 (labeled case).
+%K A062558 nonn
+%O A062558 1,1
+%A A062558 _Vladeta Jovovic_, Jul 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

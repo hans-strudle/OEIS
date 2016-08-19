@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057985
+Showing 1-1 of 1
+
+%I A057985
+%S A057985 0,1,1,2,1,2,0,1,2,0,0,1,1,2,0,0,1,0,1,1,2,1,2,0,0,1,0,1,1,2,0,1,1,2,
+%T A057985 1,2,0,1,2,0,0,1,0,1,1,2,0,1,1,2,1,2,0,0,1,1,2,1,2,0,1,2,0,0,1,1,2,0,
+%U A057985 0,1,0,1,1,2,0,1,1,2,1,2,0,0,1,1,2,1,2,0,1,2,0,0,1,0,1,1
+%N A057985 Start with 0 and repeatedly substitute: 0->01, 1->12, 2->0.
+%t A057985 t = Nest[Flatten[# /. {0 -> {0, 1}, 1 -> {1, 2}, 2 -> {0}}] &, {0},
+%t A057985   10] (*A057985*)
+%t A057985 Flatten[Position[t, 0]] (*A057986*)
+%t A057985 Flatten[Position[t, 1]] (*A057987*)
+%t A057985 Flatten[Position[t, 2]] (*A057988*)
+%t A057985 (* _Clark Kimberling_, May 13 2013 *)
+%K A057985 nonn
+%O A057985 1,4
+%A A057985 _Clark Kimberling_, Oct 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

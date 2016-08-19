@@ -1,0 +1,63 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003881
+Showing 1-1 of 1
+
+%I A003881
+%S A003881 7,8,5,3,9,8,1,6,3,3,9,7,4,4,8,3,0,9,6,1,5,6,6,0,8,4,5,8,1,9,8,7,5,7,
+%T A003881 2,1,0,4,9,2,9,2,3,4,9,8,4,3,7,7,6,4,5,5,2,4,3,7,3,6,1,4,8,0,7,6,9,5,
+%U A003881 4,1,0,1,5,7,1,5,5,2,2,4,9,6,5,7,0,0,8,7,0,6,3,3,5,5,2,9,2,6,6,9,9,5,5,3,7
+%N A003881 Decimal expansion of Pi/4.
+%C A003881 Equals integral_{x=0..infinity} sin(2x)/(2x) dx.
+%C A003881 Also equals integral_{x=0..Pi/2} sin(x)^2 dx, or integral_{x=0..Pi/2} cos(x)^2 dx. - _Jean-François Alcover_, Mar 26 2013
+%C A003881 Equals sum(sin(x)*cos(x)/x, x=0..infinity)-1/2. - _Bruno Berselli_, May 13 2013
+%C A003881 Also ratio of area of a circle to the circumscribed square. More generally, ratio of area of an ellipse to the circumscribed rectangle. Also ratio of volume of a cylinder to the circumscribed cube. - _Omar E. Pol_, Sep 25 2013
+%C A003881 Also surface area of a quarter of sphere of diameter 1. - _Omar E. Pol_, Oct 03 2013
+%C A003881 Equals Sum_{n>=0} (-1)^n/(2*n+1). - _Geoffrey Critzer_, Nov 03 2013
+%C A003881 Least positive solution to sin(x) = cos(x). - _Franklin T. Adams-Watters_, Jun 17 2014
+%C A003881 Equals Integral_{x=0..1} Product_{k>=1} (1-x^(8*k))^3 dx [Cf. A258414]. - _Vaclav Kotesovec_, May 30 2015
+%D A003881 J. Arndt, Ch. Haenel, "Pi. Algorithmen, Computer, Arithmetik", Springer 2000, p. 150.
+%D A003881 D. Hofstadter, "Goedel, Escher, Bach", p. 408.
+%H A003881 Reinhard Zumkeller, <a href="/A003881/b003881.txt">Table of n, a(n) for n = 0..1000</a>
+%H A003881 R. K. Hoeflin, <a href="http://www.eskimo.com/~miyaguch/titan.html">Titan Test</a>
+%H A003881 Literate Programs, <a href="http://en.literateprograms.org/Pi_with_Machin&#39;s_formula_(Haskell)">Pi with Machin's formula (Haskell)</a>
+%H A003881 S. Ramanujan, <a href="http://www.imsc.res.in/~rao/ramanujan/CamUnivCpapers/question/q353.htm">Question 353</a>, J. Ind. Math. Soc.
+%H A003881 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PrimeProducts.html">Prime Products</a>
+%H A003881 <a href="/index/Go#GEB">Index entries for sequences from "Goedel, Escher, Bach"</a>
+%F A003881 Pi/4 = n*A001586(n-1)/A001586(n) as n-->infinity, (conjecture). - Mats Granvik, Feb 23 2011
+%F A003881 Pi/4 = integral_{x=0..1} dx/(1+x^2). - _Gary W. Adamson_, Jun 22 2003
+%F A003881 Pi/4 = (-digamma(1/4)+digamma(3/4))/4. [_Jean-François Alcover_, May 31 2013]
+%e A003881 0.785398163397448309615660845819875721049292349843776455243736148...
+%p A003881 evalf(Pi/4) ;
+%t A003881 RealDigits[N[Pi/4,6! ]] [_Vladimir Joseph Stephan Orlovsky_, Dec 02 2009]
+%o A003881 (Haskell) see link: Literate Programs
+%o A003881 import Data.Char (digitToInt)
+%o A003881 a003881_list len = map digitToInt $ show $ machin `div` (10 ^ 10) where
+%o A003881    machin = 4 * arccot 5 unity - arccot 239 unity
+%o A003881    unity = 10 ^ (len + 10)
+%o A003881    arccot x unity = arccot' x unity 0 (unity `div` x) 1 1 where
+%o A003881      arccot' x unity summa xpow n sign
+%o A003881     | term == 0 = summa
+%o A003881     | otherwise = arccot'
+%o A003881       x unity (summa + sign * term) (xpow `div` x ^ 2) (n + 2) (- sign)
+%o A003881     where term = xpow `div` n
+%o A003881 -- _Reinhard Zumkeller_, Nov 20 2012
+%o A003881 (Sage) # Leibniz/Cohen/Villegas/Zagier/Arndt/Haenel
+%o A003881 def FastLeibniz(n):
+%o A003881     b = 2^(2*n-1); c = b; s = 0
+%o A003881     for k in range(n-1,-1,-1):
+%o A003881         t = 2*k+1
+%o A003881         s = s + c/t if is_even(k) else s - c/t
+%o A003881         b *= (t*(k+1))/(2*(n-k)*(n+k))
+%o A003881         c += b
+%o A003881     return s/c
+%o A003881 A003881 = RealField(3333)(FastLeibniz(1330))
+%o A003881 print A003881  # _Peter Luschny_, Nov 20 2012
+%o A003881 (PARI) Pi/4 \\ _Charles R Greathouse IV_, Jul 07 2014
+%Y A003881 Cf. A000796.
+%K A003881 nonn,cons,easy
+%O A003881 0,1
+%A A003881 _N. J. A. Sloane_, _Simon Plouffe_
+%E A003881 a(98) and a(99) corrected. - _Reinhard Zumkeller_, Nov 20 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047387
+Showing 1-1 of 1
+
+%I A047387
+%S A047387 1,2,5,8,9,12,15,16,19,22,23,26,29,30,33,36,37,40,43,44,47,50,51,54,
+%T A047387 57,58,61,64,65,68,71,72,75,78,79,82,85,86,89,92,93,96,99,100,103,106,
+%U A047387 107,110,113,114,117,120,121
+%N A047387 Numbers that are congruent to {1, 2, 5} mod 7.
+%H A047387 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1)
+%F A047387 G.f.  x*(1+x+3*x^2+2*x^3) / ( (1+x+x^2)*(x-1)^2 ). - R. J. Mathar, Dec 05 2011
+%t A047387 Select[Range[200],MemberQ[{1,2,5},Mod[#,7]]&] (* or *) LinearRecurrence[ {1,0,1,-1},{1,2,5,8},90] (* _Harvey P. Dale_, Jun 05 2014 *)
+%K A047387 nonn
+%O A047387 1,2
+%A A047387 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

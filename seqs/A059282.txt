@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059282
+Showing 1-1 of 1
+
+%I A059282
+%S A059282 0,1,1,1,1,0,1,1,1,2,0,1,1,1,1,1,0,0,1,1,1,0,0,1,1,0,1,3,0,1,1,1,0,0,
+%T A059282 0,1,1,0,1,1,0,1,1,0,1,0,0,2,2,0,1,1,0,1,1,3,1,0,0,2,1,0,1,2,0,0,1,0,
+%U A059282 0,0,0,2,1,0,1,1,0,0,1,0,3,0,0,6,0,0,0,0,0,0,4,0,1,0,0,3,1,0,0,1,0,1,1,1,0,0,0,3,1,3,1,3,0,0,0,0,2,0,0,3,1,0,0,1,1,0,1,4,1,0,0,0,2,0,0,0,0,0,1,0,0,0,0,2,0,0,2,1,0,0,1
+%N A059282 Number of symmetric trivalent (or cubic) connected graphs on 2n nodes (the Foster census).
+%C A059282 Potočnik et al. refer to these as arc-transitive connected cubic vertex-transitive graphs.
+%D A059282 I. Z. Bouwer, W. W. Chernoff, B. Monson and Z. Star, The Foster Census (Charles Babbage Research Centre, 1988), ISBN 0-919611-19-2.
+%H A059282 N. J. A. Sloane, <a href="/A059282/b059282.txt">Table of n, a(n) for n = 1..640</a>, based on the work of Primož Potočnik, Pablo Spiga and Gabriel Verret
+%H A059282 Primož Potočnik, Pablo Spiga and Gabriel Verret, <a href="http://www.matapp.unimib.it/~spiga/census.html">A census of small connected cubic vertex-transitive graphs</a> (See the sub-page Table.html)
+%H A059282 Gordon Royle et al., <a href="http://school.maths.uwa.edu.au/~gordon/remote/foster/#census">Cubic symmetric graphs (The Foster Census)</a>
+%H A059282 Gordon Royle et al., <a href="http://school.maths.uwa.edu.au/~gordon/remote/foster/tables.html">Browse the Graphs</a>
+%H A059282 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicSymmetricGraph.html">Cubic Symmetric Graph</a>
+%e A059282 The first example is K_4 with 4 nodes, thus a(2) = 1.
+%Y A059282 Cf. A005638, A002851, A032355.
+%K A059282 nonn,nice
+%O A059282 1,10
+%A A059282 _N. J. A. Sloane_, Jan 24 2001
+%E A059282 Updated all links. Corrected entries based on the Potočnik et al. table. - _N. J. A. Sloane_, Apr 19 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

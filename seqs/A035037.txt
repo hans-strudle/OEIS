@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035037
+Showing 1-1 of 1
+
+%I A035037
+%S A035037 1,32,32,3712,33248,154176,519808,1515776,3961312,9076576,
+%T A035037 18733632,36644736,68028032,118068032,196600064,321854208,
+%U A035037 509407712,771903936,1144487776,1683935360,2427663936,3391425536,4658284416,6406755072
+%V A035037 1,32,-32,-3712,33248,-154176,519808,-1515776,3961312,-9076576,
+%W A035037 18733632,-36644736,68028032,-118068032,196600064,-321854208,
+%X A035037 509407712,-771903936,1144487776,-1683935360,2427663936,-3391425536,4658284416,-6406755072
+%N A035037 Fourier coefficients of E_{gamma,2}^2*E_{0,4}.
+%C A035037 E_{gamma,2}^2*E_{0,4} is the unique normalized weight-8 modular form for \Gamma_0(2) with simple zeros at \gamma = -1/2+i/2 and 0.
+%H A035037 B. Brent, <a href="http://www.emis.de/journals/EM/expmath/volumes/7/7.html">Quadratic Minima and Modular Forms, Experimental Mathematics, v.7 no.3, 257-274.</a>
+%e A035037 E_{gamma,2}^2*E_{0,4}=1+32q-32q^2+....
+%K A035037 sign
+%O A035037 0,2
+%A A035037 Barry Brent (barryb(AT)primenet.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

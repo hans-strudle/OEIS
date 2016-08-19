@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023341
+Showing 1-1 of 1
+
+%I A023341
+%S A023341 135859,174877,192979,244219,292561,679297,842341,964897,1076029,
+%T A023341 1470241,1990579,2004943,2339263,2615707,2625577,2633557,2892277,
+%U A023341 3003787,3201901,3758233,4406797,5065861,5157547,5390857,5424961,5546173,5875369,7746217
+%N A023341 Numbers n such that n remains prime through 5 iterations of function f(x) = 5x + 2.
+%C A023341 n, 5*n+2, 25*n+12, 125*n+62, 625*n+312 and 3125*n+1562 are primes. [From _Vincenzo Librandi_, Aug 05 2010]
+%t A023341 p5Q[n_]:=And@@PrimeQ/@NestList[5#+2&,n,5]
+%t A023341 Select[Prime[Range[550000]],p5Q]  (* _Harvey P. Dale_, Feb 17 2011 *)
+%o A023341 (MAGMA) [n: n in [1..10000000] | IsPrime(n) and IsPrime(5*n+2) and IsPrime(25*n+12) and IsPrime(125*n+62) and IsPrime(625*n+312) and IsPrime(3125*n+1562)] [From _Vincenzo Librandi_, Aug 05 2010]
+%K A023341 nonn
+%O A023341 1,1
+%A A023341 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

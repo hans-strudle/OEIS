@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008881
+Showing 1-1 of 1
+
+%I A008881
+%S A008881 0,0,0,0,0,0,1,2,4,8,16,32,64,96,144,216,324,486,729,972,1296,1728,
+%T A008881 2304,3072,4096,5120,6400,8000,10000,12500,15625,18750,22500,27000,
+%U A008881 32400,38880,46656,54432,63504,74088
+%N A008881 Product( [ (n+i)/6 ] ), i=0..5.
+%p A008881 [ seq( product( 'floor((n+i)/6)', 'i'=0..5 ), n=0..80) ];
+%K A008881 nonn
+%O A008881 0,8
+%A A008881 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

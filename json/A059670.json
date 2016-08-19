@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,2,3,13,16,20,28,83,136,300,765,1005,1395","description":"F(n)*2^n + 1 (A006483) is prime, where F(n) is the n-th Fibonacci number.","mathematica":"Do[ If[ PrimeQ[ Fibonacci[ n ]*2^n + 1 ], Print[ n ] ], {n, 1, 3000} ]","crossrefs":["Cf. A006483."],"keyword":"nonn","offset":"1,2","author":"_Robert G. Wilson v_, Feb 05 2001"}

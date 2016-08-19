@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029884
+Showing 1-1 of 1
+
+%I A029884
+%S A029884 1,1,2,2,1,1,1,1,1,1,2,2,1,1,2,2,1,1,2,2,1,1,1,1,1,1,2,
+%T A029884 2,1,1,1,1,1,1,2,2,1,1,1,1,1,1,2,2,1,1,2,2,1,1,2,2,1,1,
+%U A029884 1,1,1,1,2,2,1,1,2,2,1,1,2,2,1,1,1,1,1,1,2,2,1,1,2,2,1
+%V A029884 -1,-1,2,-2,1,1,-1,-1,1,1,-2,2,-1,-1,2,-2,1,1,-2,2,-1,-1,1,1,-1,-1,2,
+%W A029884 -2,1,1,-1,-1,1,1,-2,2,-1,-1,1,1,-1,-1,2,-2,1,1,-2,2,-1,-1,2,-2,1,1,
+%X A029884 -1,-1,1,1,-2,2,-1,-1,2,-2,1,1,-2,2,-1,-1,1,1,-1,-1,2,-2,1,1,-2,2,-1
+%N A029884 Second differences of Thue-Morse sequence A001285.
+%K A029884 sign
+%O A029884 0,3
+%A A029884 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006635
+Showing 1-1 of 1
+
+%I A006635 M4860
+%S A006635 1,12,114,1012,8775,75516,649264,5593068,48336171,419276660,
+%T A006635 3650774820,31907617560,279871768995,2463161027292,21747225841440,
+%U A006635 192575673551584
+%N A006635 From generalized Catalan numbers.
+%D A006635 H. M. Finucan, Some decompositions of generalized Catalan numbers, pp. 275-293 of Combinatorial Mathematics IX. Proc. Ninth Australian Conference (Brisbane, August 1981). Ed. E. J. Billington, S. Oates-Williams and A. P. Street. Lecture Notes Math., 952. Springer-Verlag, 1982.
+%D A006635 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006635 Plouffe, Simon, <a href="http://arxiv.org/abs/0911.4975">Master Thesis, UQAM 1992.
+%F A006635 4F3([3,7/2,15/4,13/4],[5,14/3,13/3],256*x/27), Simon Plouffe, master thesis, UQAM 1992.
+%K A006635 nonn
+%O A006635 0,2
+%A A006635 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

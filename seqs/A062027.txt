@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062027
+Showing 1-1 of 1
+
+%I A062027
+%S A062027 1,1,1,96,274,720,1680,3520,6750,12048,20284,32544,50154,74704,108072,
+%T A062027 152448,210358,284688,378708,496096,640962,817872,1031872,1288512,
+%U A062027 1593870,1954576,2377836,2871456,3443866,4104144,4862040,5728000
+%N A062027 a(1) = a(2) = a(3) = 1; and for n>3 a(n) = 1*2*3*4 + 2*3*4*5 + 3*4*5*6 + ... + (n-1)*n*1*2 + n*1*2*3, the sum of the cyclic product of terms taken four at a time, final term being n*1*2*3 = 6n.
+%H A062027 Harry J. Smith, <a href="/A062027/b062027.txt">Table of n, a(n) for n=1,...,1000</a>
+%F A062027 a(n) = (n+1)(n)(n-1)(n-2)(n-3)/5 + n(n^2 -n +6).
+%e A062027 a(5) = 1*2*3*4 + 2*3*4*5 + 3*4*5*1 + 4*5*1*2 + 5*1*2*3 = 274.
+%o A062027 (PARI) { a=1; for (n=1, 1000, if (n>3, a=(n + 1)*n*(n - 1)*(n - 2)*(n - 3)/5 + n*(n^2 - n + 6)); write("b062027.txt", n, " ", a) ) } [From _Harry J. Smith_, Jul 30 2009]
+%K A062027 nonn
+%O A062027 1,4
+%A A062027 _Amarnath Murthy_, Jun 02 2001
+%E A062027 More terms from Jason Earls (zevi_35711(AT)yahoo.com), Jun 07 2001
+%E A062027 Term a(4) corrected by _Harry J. Smith_, Jul 30 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

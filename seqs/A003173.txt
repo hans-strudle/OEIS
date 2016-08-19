@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003173
+Showing 1-1 of 1
+
+%I A003173 M0827
+%S A003173 1,2,3,7,11,19,43,67,163
+%N A003173 Heegner numbers: imaginary quadratic fields with unique factorization (or class number 1).
+%C A003173 Could also be called Gauss numbers, since he discovered them. Heegner proved list is complete. - _Artur Jasinski_, Mar 21 2003
+%C A003173 Numbers n such that Q(sqrt(-n)) has unique factorization into primes.
+%C A003173 These are the squarefree values of n for which if some positive integer N can be written in the form (a/2)^2+n*(b/2)^2 for integers a and b, then every prime factor P of N which occurs to an odd power can also be written in the form (c/2)^2+n*(d/2)^2 for integers c and d. - _V. Raman_, Sep 17 2012, May 01 2013
+%C A003173 For n = 1 and n = 2, the rings Z[i] (Gaussian Integers), and Z(sqrt(-2)) = numbers of the form a + b*sqrt(-2), where a and b are integers, admit unique factorization. - _V. Raman_, Sep 17 2012
+%C A003173 For the values of n congruent to 3 (mod 4), the set of numbers of the form (a/2) + (b/2)*sqrt(-n), for integers a and b of the same parity, admit unique factorization. - _V. Raman_, Sep 17 2012, corrected by _Eric M. Schmidt_, Feb 17 2013
+%D A003173 J. H. Conway and R. K. Guy, The Book of Numbers, Copernicus Press, NY, 1996, p. 224.
+%D A003173 N. Elkies, The Klein quartic in number theory, pp. 51-101 of S. Levy, ed., The Eightfold Way, Cambridge Univ. Press, 1999. MR1722413 (2001a:11103). See page 93.
+%D A003173 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers, 5th ed., Oxford Univ. Press, 1979, p. 213.
+%D A003173 W. W. J. Hulsbergen, Conjectures in Arithmetic Algebraic Geometry, Vieweg, 1994, p. 8.
+%D A003173 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003173 H. M. Stark, An Introduction to Number Theory. Markham, Chicago, 1970, p. 295.
+%H A003173 Yang-Hui He, John McKay, <a href="http://arxiv.org/abs/1505.06742">Sporadic and Exceptional</a>, arXiv:1505.06742 [math.AG], 2015.
+%H A003173 Kurt Heegner, <a href="http://dx.doi.org/10.1007/BF01174749">Diophantische Analysis und Modulfunktionen</a>, Matematische Zaitschrift, 1952, Vol. 56. pp. 227-253.
+%H A003173 J. M. Masley, <a href="http://dx.doi.org/10.1007/BFb0062711">Where are the number fields with small class number?</a>, pp. 221-242 of Number Theory Carbondale 1979, Lect. Notes Math. 751 (1982).
+%H A003173 Rick L. Shepherd, <a href="http://libres.uncg.edu/ir/uncg/f/Shepherd_uncg_0154M_11099.pdf">Binary quadratic forms and genus theory</a>, Master of Arts Thesis, University of North Carolina at Greensboro, 2013.
+%H A003173 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/GausssClassNumberProblem.html">Gauss's Class Number Problem</a> and <a href="http://mathworld.wolfram.com/HeegnerNumber.html">Heegner Number</a>
+%H A003173 Wikipedia, <a href="http://en.wikipedia.org/wiki/Heegner_number">Heegner number</a>
+%H A003173 <a href="/index/Qua#quadfield">Index entries for sequences related to quadratic fields</a>
+%t A003173 Union[ Select[ -NumberFieldDiscriminant[ Sqrt[-#]]& /@ Range[200], NumberFieldClassNumber[ Sqrt[-#]] == 1 & ] /. {4 -> 1, 8 -> 2}] (* _Jean-François Alcover_, Jan 04 2012 *)
+%o A003173 (PARI) select(n->qfbclassno(-n*if(n%4==3,1,4))==1, vector(200,i,i)) \\ _Charles R Greathouse IV_, Nov 20 2012
+%Y A003173 Cf. A003174, A005847 (for class number 2), A014602 (for discriminants of these fields), A048981, A263465.
+%K A003173 fini,nonn,full,nice
+%O A003173 1,2
+%A A003173 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

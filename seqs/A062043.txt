@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062043
+Showing 1-1 of 1
+
+%I A062043
+%S A062043 459,495,549,594,945,954,1566,1656,1665,2259,2295,2355,2529,2535,2553,
+%T A062043 2592,2925,2952,3255,3525,3552,5166,5229,5235,5253,5292,5325,5352,
+%U A062043 5523,5532,5616,5661,5922,6156,6165,6516,6561,6615,6651,9225,9252,9522
+%N A062043 Numbers for which the product of the digits is 10 times their sum.
+%C A062043 A subsequence of A011535 as each term must include the digit 5. - _Chai Wah Wu_, Dec 09 2015
+%H A062043 Harry J. Smith, <a href="/A062043/b062043.txt">Table of n, a(n) for n = 1..500</a>
+%e A062043 594 belongs to the sequence as (5*9*4)/(5+9+4) = 180/18 = 10.
+%t A062043 Select[Range[10000], Times @@ IntegerDigits[ # ] == 10 Plus @@ IntegerDigits[ # ] &] - _Tanya Khovanova_, Dec 25 2006
+%o A062043 (PARI) SumD(x)= { s=0; while (x>9, s=s+x-10*(x\10); x\=10); return(s + x) } ProdD(x)= { p=1; while (x>9, p=p*(x-10*(x\10)); x\=10); return(p*x) } { n=0; for (m=1, 10^7, if (ProdD(m)==10*SumD(m), write("b062043.txt", n++, " ", m); if (n==500, break)) ) } [From _Harry J. Smith_, Jul 30 2009]
+%Y A062043 Cf. A011535, A124694.
+%K A062043 nonn,base,easy
+%O A062043 1,1
+%A A062043 _Amarnath Murthy_, Jun 28 2001
+%E A062043 More terms from _Harvey P. Dale_ and Larry Reeves (larryr(AT)acm.org), Jul 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

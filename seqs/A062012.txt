@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062012
+Showing 1-1 of 1
+
+%I A062012
+%S A062012 21,1066338805156287287067,1124161332414632881704,
+%T A062012 2305867155177711644802,2306166776784312535170,5744341611556736174883
+%N A062012 Digit strings N for which there is some base b so that (N in base b) = 1/k (N in base 10).
+%e A062012 21 in base 3 is 21/3
+%K A062012 base,fini,full,nice,nonn
+%O A062012 1,1
+%A A062012 _Erich Friedman_, Jun 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

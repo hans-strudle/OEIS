@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009283
+Showing 1-1 of 1
+
+%I A009283
+%S A009283 1,2,4,9,24,73,246,913,3688,16057,74954,372749,1965156,10942285,
+%T A009283 64103006,393902353,2532010800,16982676561,118600412626,860680689429,
+%U A009283 6478753957948,50505684285301,407133297257542,3389160344023385,29098108436107592,257364794368638009
+%N A009283 E.g.f.: exp(x + sinh(x)).
+%o A009283 (PARI)
+%o A009283 x='x+O('x^66);
+%o A009283 Vec(serlaplace(exp(x + sinh(x))))
+%o A009283 /* Joerg Arndt_, Sep 01 2012 */
+%K A009283 nonn,easy
+%O A009283 0,2
+%A A009283 _R. H. Hardin_
+%E A009283 Extended and signs tested Mar 15 1997 by _Olivier Gérard_
+%E A009283 Name corrected by _Arkadiusz Wesolowski_, Sep 01 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053640
+Showing 1-1 of 1
+
+%I A053640
+%S A053640 1,2,3,4,6,8,9,12,16,18,20,24,32,36,40,48,54,64,72,80,96,108,120,128,
+%T A053640 144,160,192,216,240,256,288,320,384,432,480,512,576,640,720,768,864,
+%U A053640 960,1024,1152,1280,1440,1536,1728,1920,2048,2304,2560,2880,3072,3456
+%N A053640 Number of divisors of highly composite odd numbers (A053624).
+%H A053640 Ray Chandler, <a href="/A053640/b053640.txt">Table of n, a(n) for n = 1..170</a>
+%F A053640 a(n) = A000005(A053624(n)).
+%Y A053640 Cf. A000005, A053624.
+%K A053640 nonn
+%O A053640 1,2
+%A A053640 Stefano Lanfranco (lastefano(AT)yahoo.it), Mar 22 2000
+%E A053640 Extended by _Ray Chandler_, Jan 12 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

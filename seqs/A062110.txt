@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062110
+Showing 1-1 of 1
+
+%I A062110
+%S A062110 1,0,1,0,1,1,0,2,2,1,0,4,5,3,1,0,8,12,9,4,1,0,16,28,25,14,5,1,0,32,64,
+%T A062110 66,44,20,6,1,0,64,144,168,129,70,27,7,1,0,128,320,416,360,225,104,35,
+%U A062110 8,1,0,256,704,1008,968,681,363,147,44,9,1,0,512,1536,2400,2528,1970
+%N A062110 Table read by antidiagonals where T(n,k) is coefficient of x^k in (1-x)^n/(1-2x)^n.
+%C A062110 Contribution from _Paul Barry_, Nov 10 2008: (Start)
+%C A062110 As number triangle, Riordan array (1, x(1-x)/(1-2x)). A062110*A007318 is A147703.
+%C A062110 [0,1,1,0,0,0,....] DELTA [1,0,0,0,.....] (Deleham DELTA defined in A084938). (End)
+%C A062110 Modulo 2, this sequence becomes A106344 . [From _Philippe Deléham_, Dec 18 2008]
+%F A062110 T(n, k)=T(n-1, k)+sum{j<k}[T(n, j)] with T(0, k)=0^k.
+%F A062110 G.f.: 1/(1-x(1-y)/(1-2y)) = Sum_{i, j} a(i, j)x^i*y^j.
+%F A062110 T(n,k)=A121462(n+1,k+1)*2^(n-2*k) . - _Philippe Deléham_, Aug 01 2006
+%F A062110 Sum_{k, 0<=k<=n}T(n,k)*x^k = A152239(n), A152223(n), A152185(n), A152174(n), A152167(n), A152166(n), A152163(n), A000007(n), A001519(n), A006012(n), A081704(n), A082761(n), A147837(n), A147838(n), A147839(n), A147840(n), A147841(n), for x = -7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9 respectively. [From _Philippe Deléham_, Dec 09 2008]
+%F A062110 As number triangle: T(n,k) = 2*T(n-1,k) + T(n-1,k-1) - T(n-2,k-1), T(0,0) = T(1,1) = T(2,1) = T(2,2) = 1, T(1,0) = T(2,0) = 0, T(n,k) = 0 if k>n or if k<0. - _Philippe Deléham_, Oct 30 2013
+%e A062110 Rows start (1,0,0,0,0,...), (1,1,2,4,8,...), (1,2,5,12,28,...), etc.
+%e A062110 Triangle begins : 1 ; 0, 1 ; 0, 1, 1 ; 0, 2, 2, 1 ; 0, 4, 5, 3, 1 ; 0, 8, 12, 9, 4, 1 ; 0, 16, 28, 25, 14, 5, 1 ; 0, 32, 64, 66, 44, 20, 6, 1 ; 0, 64, 144, 168, 129, 70, 27, 7, 1 ; 0, 128, 320, 416, 360, 225, 104, 35, 8, 1 ;... [From _Philippe Deléham_, Nov 30 2008]
+%t A062110 t[n_, n_] = 1; t[n_, k_] := 2^(n-2*k)*k*Hypergeometric2F1[1-k, n-k+1, 2, -1]; Table[t[n, k], {n, 0, 11}, {k, 0, n}] // Flatten (* _Jean-François Alcover_, Oct 30 2013, after Philippe Deléham + symbolic sum *)
+%o A062110 (PARI) a(i,j)=if(i<0|j<0,0,polcoeff(((1-x)/(1-2*x)+x*O(x^j))^i,j))
+%Y A062110 Rows include A000007, A011782, A045623, A058396, A062109, A169792, A169793, A169794, A169795, A169796, A169797.
+%Y A062110 Columns include A000012, A001477, A000096, A000297. Main diagonal is A002002. T(n, k) is a multiple of 2^(k-n), dividing by this gives a table similar to A050143 except at the edges.
+%Y A062110 Essentially the same array as A105306, A160232.
+%K A062110 nonn,tabl
+%O A062110 0,8
+%A A062110 _Henry Bottomley_, May 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

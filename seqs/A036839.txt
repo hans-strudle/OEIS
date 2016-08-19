@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036839
+Showing 1-1 of 1
+
+%I A036839
+%S A036839 0,2,4,6,8,1,12,14,16,18,11,22,33,44,55,66,77,88,99,11,22,33,44,55,66,
+%T A036839 77,88,99,11,112,33,44,55,66,77,88,99,11,112,123,44,55,66,77,88,99,11,
+%U A036839 112,123,134,55,66,77,88,99,11,112,123,134,145,66,77
+%N A036839 RATS(n): Reverse Add Then Sort the digits.
+%C A036839 a(n) = RATS(n), not RATS(a(n-1)).
+%D A036839 R. K. Guy, Conway's RATS and other reversals, Amer. Math. Monthly, 96 (1989), 425-428.
+%H A036839 T. D. Noe, <a href="/A036839/b036839.txt">Table of n, a(n) for n=0..1000</a>
+%H A036839 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RATSSequence.html">RATS Sequence</a>
+%F A036839 Form m by Reversing the digits of n, Add m to n Then Sort the digits of the sum into increasing order to get a(n).
+%F A036839 a(n) = A004185(A056964(n)). [_Reinhard Zumkeller_, Mar 14 2012]
+%e A036839 1 -> 1+1 = 2, so a(1) = 2; 3 -> 3 + 3 = 6, so a(3) = 6.
+%p A036839 read transforms; RATS := n -> digsort(n + digrev(n));
+%t A036839 FromDigits[Sort[IntegerDigits[#+FromDigits[Reverse [IntegerDigits[#]]]]]] & /@Range[0,80]  (* _Harvey P. Dale_, Mar 26 2011 *)
+%o A036839 (Haskell)
+%o A036839 a036839 = a004185 . a056964  -- _Reinhard Zumkeller_, Mar 14 2012
+%Y A036839 Cf. A004000.
+%Y A036839 Cf. A161593, A114611, A009994, a004086.
+%K A036839 base,nonn,nice,easy,look
+%O A036839 0,2
+%A A036839 _N. J. A. Sloane_, Jan 19, 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

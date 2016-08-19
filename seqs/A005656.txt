@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005656
+Showing 1-1 of 1
+
+%I A005656 M2920
+%S A005656 0,0,1,3,12,44,170,651,2520,9752,37854,147070,572264,2229096,8692788,
+%T A005656 33933459,132594480,518584880,2029976630,7952706234,31179618184,
+%U A005656 122331419080,480283635468,1886828198398
+%N A005656 Number of bracelets (turn over necklaces) with n red, 1 pink and n-3 blue beads; also reversible strings with n red and n-3 blue beads.
+%D A005656 Ascher, Marcia; Mu torere: an analysis of a Maori game. Math. Mag. 60 (1987), no. 2, 90-100.
+%D A005656 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005656 <a href="/index/Br#bracelets">Index entries for sequences related to bracelets</a>
+%H A005656 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%F A005656 a(n)= (1/2) (C(2n-3, n-3)+C(n-2, [ (n-3)/2 ])).
+%o A005656 (PARI) a(n)= (1/2) *(C(2*n-3,n-3)+C(n-2,(n-3)\2)) where C(n,k)= if(k<0|k>n,0,n!/k!/(n-k)!)
+%Y A005656 A005656(n)=A034851(2n-3, n-3)
+%K A005656 nonn
+%O A005656 1,4
+%A A005656 _N. J. A. Sloane_.
+%E A005656 Sequence corrected, extended and description corrected by _Christian G. Bower_. Formula from Michael Somos.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

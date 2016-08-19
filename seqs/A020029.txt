@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020029
+Showing 1-1 of 1
+
+%I A020029
+%S A020029 1,1,2,5,18,85,499,3422,26889,238158,2347553,25487720,302211543,
+%T A020029 3885576978,53842995268,799953072548,12684970150411,213832353964067,
+%U A020029 3818434892215474,72004772253206073,1429809049027949160
+%N A020029 Nearest integer to GAMMA(n+6/7)/GAMMA(6/7).
+%p A020029 Digits := 64:f := proc(n,x) round(GAMMA(n+x)/GAMMA(x)); end;
+%Y A020029 Cf. A220607.
+%K A020029 nonn
+%O A020029 0,3
+%A A020029 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

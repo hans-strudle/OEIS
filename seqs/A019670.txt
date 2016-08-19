@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019670
+Showing 1-1 of 1
+
+%I A019670
+%S A019670 1,0,4,7,1,9,7,5,5,1,1,9,6,5,9,7,7,4,6,1,5,4,2,1,4,4,6,1,0,9,3,1,6,7,
+%T A019670 6,2,8,0,6,5,7,2,3,1,3,3,1,2,5,0,3,5,2,7,3,6,5,8,3,1,4,8,6,4,1,0,2,6,
+%U A019670 0,5,4,6,8,7,6,2,0,6,9,6,6,6,2,0,9,3,4,4,9,4,1,7,8,0,7,0,5,6,8
+%N A019670 Decimal expansion of Pi/3.
+%C A019670 With an offset of zero, also the decimal expansion of Pi/30 ~ 0.104719... which is the average arithmetic area <S_0> of the 0-winding sectors enclosed by a closed Brownian planar path, of a given length t, according to Desbois, p.1. - _Jonathan Vos Post_, Jan 23 2011
+%C A019670 Polar angle (or apex angle) of the cone that subtends exactly one quarter of the full solid angle. See comments in A238238. - _Stanislav Sykora_, Jun 07 2014
+%H A019670 Ivan Panchenko, <a href="/A019670/b019670.txt">Table of n, a(n) for n = 1..1000</a>
+%H A019670 Kunle Adegoke, <a href="http://arxiv.org/abs/1603.08097">Infinite arctangent sums involving Fibonacci and Lucas numbers</a>, arXiv:1603.08097 [math.NT], 2016.
+%H A019670 Jean Desbois, Stephane Ouvry, <a href="http://arxiv.org/abs/1101.4135">Algebraic and arithmetic area for m planar Brownian paths</a>, arXiv:1101.4135 [math-ph], Jan 21, 2011.
+%F A019670 A third of A000796, a sixth of A019692, the square root of A100044.
+%F A019670 Sum_{k >= 0} (-1)^k/(6k+1) + (-1)^k/(6k+5). - _Charles R Greathouse IV_, Sep 08 2011
+%F A019670 Product_{k >= 1}(1-(6k)^{-2})^{-1}. - _Fred Daniel Kline_, May 30 2013
+%F A019670 From _Peter Bala_, Feb 05 2015: (Start)
+%F A019670 Pi/3 = Sum {k >= 0} binomial(2*k,k)*1/(2*k + 1)*(1/16)^k = 2F1(1/2,1/2;3/2;1/4). Similar series expansions hold for Pi^2 (A002388), Pi^3 (A091925) and Pi/(2*sqrt(2)) (A093954.)
+%F A019670 The integer sequences A(n) := 4^n*(2*n + 1)! and B(n) := A(n)*( Sum {k = 0..n} binomial(2*k,k)*1/(2*k + 1)*(1/16)^k ) both satisfy the second order recurrence equation u(n) = (20*n^2 + 4*n + 1)*u(n-1) - 8*(n - 1)*(2*n - 1)^3*u(n-2). From this observation we can obtain the continued fraction expansion Pi/3 = 1 + 1/(24 - 8*3^3/(89 - 8*2*5^3/(193 - 8*3*7^3/(337 - ... - 8*(n - 1)*(2*n - 1)^3/((20*n^2 + 4*n + 1) - ... ))))). Cf. A002388 and A093954. (End)
+%F A019670 Equals Sum_{k >= 1} arctan(sqrt(3)*L(2k)/L(4k)) where L=A000032. See also A005248 and A056854. - _Michel Marcus_, Mar 29 2016
+%e A019670 Pi/3 = 1.04719755119659774615421446109316762806572313312503527365831486...
+%t A019670 RealDigits[N[Pi/3,6! ]] (* _Vladimir Joseph Stephan Orlovsky_, Dec 02 2009 *)
+%o A019670 (PARI) Pi/3 \\ _Charles R Greathouse IV_, Sep 08 2011
+%Y A019670 Cf. A000796 (Pi), A137914, A238238, A002388, A091925, A093954.
+%K A019670 nonn,cons
+%O A019670 1,3
+%A A019670 _N. J. A. Sloane_, Dec 11 1996
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057839
+Showing 1-1 of 1
+
+%I A057839
+%S A057839 1,31,198089
+%N A057839 Numbers n such that n | 10^n + 8^n + 6^n + 4^n + 2^n.
+%t A057839 Select[ Range[ 10^6 ], Mod[ PowerMod[ 10, #, # ] + PowerMod[ 8, #, # ] + PowerMod[ 6, #, # ] + PowerMod[ 4, #, # ] + PowerMod[ 2, #, # ] + 1, # ] == 0 & ]
+%K A057839 nonn,bref
+%O A057839 1,2
+%A A057839 _Robert G. Wilson v_, Nov 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008495
+Showing 1-1 of 1
+
+%I A008495
+%S A008495 1,13,91,455,1820,6188,18564,50388,125970,293930,646646,1352078,
+%T A008495 2704156,5200299,9657687,17383769,30421300,51894115,86487037,
+%U A008495 141101961,225742452,354691350,548060110,833805154
+%N A008495 Expansion of (1-x^13 )/(1-x)^13.
+%C A008495 Coordination sequence for 12-dimensional cyclotomic lattice Z[zeta_13].
+%H A008495 M. Beck and S. Hosten, <a href="http://arxiv.org/abs/math/0508136">Cyclotomic polytopes and growth series of cyclotomic lattices</a>, arXiv math.CO/0508136
+%H A008495 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%K A008495 nonn
+%O A008495 0,2
+%A A008495 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036767
+Showing 1-1 of 1
+
+%I A036767
+%S A036767 1,1,2,5,14,42,131,421,1385,4642,15795,54418,189454,665471,2355510,
+%T A036767 8393461,30084695,108394449,392356788,1426137550,5203211200,
+%U A036767 19048447855,69951072700,257609070810,951172531880,3520465229446,13058843476526
+%N A036767 Number of rooted trees with a degree constraint.
+%C A036767 Empirical: number of Dyck n-paths avoiding UUUUUU (or DDDDDD).  e.g. of the 132 Dyck 6-paths U^6D^6 contains UUUUUU so a(6)=131. [From David Scambler, Mar 24 2011]
+%C A036767 a(n) is the number of ordered unlabeled rooted trees on n+1 nodes where each node has no more than 5 children. - _Geoffrey Critzer_, Jan 05 2013
+%D A036767 L. Takacs, Enumeration of rooted trees and forests, Math. Scientist 18 (1993), 1-10, esp. Eq. (6).
+%H A036767 Vladimir Kruchinin, D. V. Kruchinin, <a href="http://arxiv.org/abs/1103.2582">Composita and their properties </a>, arXiv:1103.2582 [math.CO], 2011-2013.
+%H A036767 Nickolas Hein and Jia Huang, <a href="http://arxiv.org/abs/1508.01688">Modular Catalan Numbers</a>, arXiv:1508.01688 [math.CO], 2015.
+%H A036767 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A036767 G.f. A(x) satisfies A(x)=1+sum(n=1..5, (x*A(x))^n). [_Vladimir Kruchinin_, Feb 22 2011]
+%p A036767 r := 5; [ seq((1/n)*add( (-1)^j*binomial(n,j)*binomial(2*n-2-j*(r+1), n-1),j=0..floor((n-1)/(r+1))), n=1..30) ]; end;
+%t A036767 nn=12;f[x_]:=Sum[a[n]x^n,{n,0,nn}];sol=SolveAlways[Series[0==f[x]-x -x f[x]-x f[x]^2-x f[x]^3-x f[x]^4- x f[x]^5,{x,0,nn}],x];Table[a[n],{n,0,nn}]/.sol  (* _Geoffrey Critzer_, Jan 05 2013 *)
+%o A036767 (PARI) a(n)=if(n<0,0,polcoeff(serreverse(x/sum(k=0,5,x^k)+O(x^(n+2))),n+1)) \\ _Ralf Stephan_
+%K A036767 nonn
+%O A036767 0,3
+%A A036767 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

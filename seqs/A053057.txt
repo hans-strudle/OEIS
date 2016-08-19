@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053057
+Showing 1-1 of 1
+
+%I A053057
+%S A053057 0,1,4,9,36,81,100,121,144,169,196,225,324,400,441,484,529,900,961,
+%T A053057 1521,1681,2025,2304,2601,3364,3481,3600,4489,4624,5776,5929,7225,
+%U A053057 7396,8100,8836,9025,10000,10201,10404,10609,10816,11025,12100,12321,12544,12769
+%N A053057 Squares whose digit sum is also a square.
+%D A053057 Felice Russo, A set of new Smarandache functions, sequences and conjectures in number theory, American Research Press 2000
+%H A053057 Daniel Mondot, <a href="/A053057/b053057.txt">Table of n, a(n) for n = 1..1192</a>
+%o A053057 (MAGMA) [n^2: n in [0..120] | IsSquare(&+Intseq(n^2))];  // _Bruno Berselli_, May 26 2011
+%Y A053057 Subsequence of A028839.
+%Y A053057 Cf. A000290.
+%K A053057 nonn,easy,base
+%O A053057 0,3
+%A A053057 _Felice Russo_, Feb 25 2000
+%E A053057 More terms from _James A. Sellers_, Feb 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

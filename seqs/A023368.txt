@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023368
+Showing 1-1 of 1
+
+%I A023368
+%S A023368 3,5,7,11,27,125,787,15881,866257,316407661,1709279397011,
+%T A023368 596624337503913427,79988892390869207881820311,
+%U A023368 67076800178332054328155717047365266401
+%N A023368 a(n+1) = a(n) converted to base 5 from base 3 (written in base 10).
+%K A023368 nonn
+%O A023368 1,1
+%A A023368 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

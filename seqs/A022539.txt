@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022539
+Showing 1-1 of 1
+
+%I A022539
+%S A022539 1,8388607,94134790219,70274600998837,11850560210900461,
+%T A022539 777809294098524691,26579017117027313527,562927063018624735369,
+%U A022539 8272642309293795444217,91137061880347498904071
+%N A022539 Nexus numbers (n+1)^23 - n^23.
+%D A022539 J. H. Conway and R. K. Guy, The Book of Numbers, Copernicus Press, NY, 1996, p. 54.
+%t A022539 q=23;lst={};Do[AppendTo[lst,(n+1)^q-n^q],{n,0,4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jan 23 2009 *)
+%t A022539 Differences/@Partition[Range[0,20]^23,2,1]//Flatten (* _Harvey P. Dale_, Apr 20 2016 *)
+%K A022539 nonn
+%O A022539 0,2
+%A A022539 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

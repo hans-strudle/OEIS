@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016380
+Showing 1-1 of 1
+
+%I A016380
+%S A016380 1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,0,2,0,0,1,0,0,1,0,0,0,0,
+%T A016380 0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
+%U A016380 1,0,0,0,0,0,1,0,0,0,0,0,1,0,0
+%V A016380 1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,-1,0,0,-2,0,0,-1,0,0,-1,0,0,0,0,
+%W A016380 0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,
+%X A016380 -1,0,0,0,0,0,-1,0,0,0,0,0,-1,0,0
+%N A016380 315th cyclotomic polynomial.
+%K A016380 sign,fini
+%O A016380 0,22
+%A A016380 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

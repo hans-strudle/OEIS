@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036131
+Showing 1-1 of 1
+
+%I A036131
+%S A036131 1,2,4,8,16,32,64,61,55,43,19,38,9,18,36,5,10,20,40,13,26,52,37,7,14,
+%T A036131 28,56,45,23,46,25,50,33,66,65,63,59,51,35,3,6,12,24,48,29,58,49,31,
+%U A036131 62,57,47,27,54,41,15,30,60,53
+%N A036131 a(n) = 2^n mod 67.
+%D A036131 I. M. Vinogradov, Elements of Number Theory, pp. 220 ff.
+%H A036131 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,1).
+%p A036131 [ seq(primroot(ithprime(i))^j mod ithprime(i),j=0..100) ];
+%o A036131 (PARI) a(n)=lift(Mod(2,67)^n) \\ _Charles R Greathouse IV_, Mar 22 2016
+%K A036131 nonn,easy
+%O A036131 0,2
+%A A036131 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010817
+Showing 1-1 of 1
+
+%I A010817
+%S A010817 1,9,27,12,90,135,54,99,189,85,657,162,135,171,810,702,495,
+%T A010817 837,673,900,243,1053,297,1566,2700,1764,81,1188,1377,270,
+%U A010817 2043,3321,756,3726,3015,4563,3348,504,351,1350,468
+%V A010817 1,-9,27,-12,-90,135,54,-99,-189,-85,657,-162,-135,-171,-810,702,495,
+%W A010817 837,-673,-900,243,-1053,-297,1566,2700,-1764,81,-1188,-1377,270,
+%X A010817 -2043,3321,-756,3726,3015,-4563,-3348,504,-351,-1350,-468
+%N A010817 Expansion of Product (1-x^k )^9.
+%D A010817 M. Boylan, Exceptional congruences for the coefficients of certain eta-product newforms, J. Number Theory 98 (2003), no. 2, 377-389.
+%D A010817 Newman, Morris; A table of the coefficients of the powers of $\eta(\tau)$. Nederl. Akad. Wetensch. Proc. Ser. A. 59 = Indag. Math. 18 (1956), 204-216.
+%H A010817 M. Newman, <a href="/A000727/a000727.pdf">A table of the coefficients of the powers of eta(tau)</a>, Nederl. Akad. Wetensch. Proc. Ser. A. 59 = Indag. Math. 18 (1956), 204-216. [Annotated scanned copy]
+%H A010817 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%K A010817 sign
+%O A010817 0,2
+%A A010817 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

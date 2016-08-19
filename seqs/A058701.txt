@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058701
+Showing 1-1 of 1
+
+%I A058701
+%S A058701 1,0,2,1,2,2,5,4,7,7,12,10,17,16,25,24,35,34,51,49,69,70,96,96,130,
+%T A058701 132,175,180,231,240,308,320,402,423,526,552,680,718,877,928,1120,
+%U A058701 1190,1430,1520,1809,1932,2285,2440,2870,3072,3594,3850,4477,4802,5565
+%N A058701 McKay-Thompson series of class 50A for Monster.
+%H A058701 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058701 David A. Madore, <a href="http://mathforum.org/kb/thread.jspa?forumID=253&amp;threadID=1602206&amp;messageID=5836094">Coefficients of Moonshine (McKay-Thompson) series</a>, The Math Forum
+%H A058701 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058701 T50A = 1/q + 2*q + q^2 + 2*q^3 + 2*q^4 + 5*q^5 + 4*q^6 + 7*q^7 + 7*q^8 + ...
+%Y A058701 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058701 nonn
+%O A058701 -1,3
+%A A058701 _N. J. A. Sloane_, Nov 27 2000
+%E A058701 More terms from _Michel Marcus_, Feb 24 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

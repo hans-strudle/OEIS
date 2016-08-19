@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017392
+Showing 1-1 of 1
+
+%I A017392
+%S A017392 0,14641,234256,1185921,3748096,9150625,18974736,35153041,59969536,
+%T A017392 96059601,146410000,214358881,303595776,418161601,562448656,741200625,
+%U A017392 959512576,1222830961,1536953616,1908029761
+%N A017392 (11*n)^4.
+%H A017392 Vincenzo Librandi, <a href="/A017392/b017392.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017392 (MAGMA) [(11*n)^4: n in [0..30]]; // Vincenzo Librandi, Sep 02 2011
+%K A017392 nonn,easy
+%O A017392 0,2
+%A A017392 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

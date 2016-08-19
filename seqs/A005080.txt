@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005080
+Showing 1-1 of 1
+
+%I A005080
+%S A005080 0,0,0,0,125,0,0,0,0,125,0,0,2197,0,125,0,4913,0,0,125,0,0,0,0,125,
+%T A005080 2197,0,0,24389,125,0,0,0,4913,125,0,50653,0,2197,125,68921,0,0,0,125,
+%U A005080 0,0,0,0,125,4913,2197,148877
+%N A005080 Sum of cubes of primes = 1 mod 4 dividing n.
+%F A005080 Additive with a(p^e) = p^3 if p = 1 (mod 4), 0 otherwise.
+%K A005080 nonn
+%O A005080 1,5
+%A A005080 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

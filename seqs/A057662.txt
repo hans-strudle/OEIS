@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057662
+Showing 1-1 of 1
+
+%I A057662
+%S A057662 3,3,5,3,5,17,29,53,11,11,11,29,71,29,5,5,131,197,3,11,29,23,89,29,
+%T A057662 359,149,239,239,881,281,29,3449,197,683,389,683,101,1283,83,191,1181,
+%U A057662 197,5,71,107,101,71,4001,1433,251,431,29,1361,89,509,83,2459,941,101,197
+%N A057662 Smallest prime q(n) such that q(n)+2^p(n) is a prime, where p(n) is the n-th prime.
+%C A057662 n=6, p(6)=13, 8192+17=8209 is a prime but 8192+2,8182+3,...,8192+13 are not, so a(6)=17
+%F A057662 a(n)=A056206[A000040(n)]
+%Y A057662 A056206, A056208.
+%K A057662 nonn
+%O A057662 0,1
+%A A057662 _Labos Elemer_, Oct 16 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

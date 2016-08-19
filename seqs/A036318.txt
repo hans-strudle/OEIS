@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036318
+Showing 1-1 of 1
+
+%I A036318
+%S A036318 49,329,343,2209,2303,2401,15463,16121,16807,31129,52339,103823,
+%T A036318 108241,112847,117649,209009,217903,313439,334439,351419,366373,
+%U A036318 523229,542129,542339,544229,726761,757687,789929,823543,1463063,1525321,2104519
+%N A036318 Composite numbers n such that digits of prime factors of n are either 4 or 7.
+%t A036318 pf47Q[n_]:=Module[{u=Union[Flatten[IntegerDigits/@Transpose[ FactorInteger[ n]][[1]]]]},!PrimeQ[n]&&(u=={4}||u=={7}||u=={4,7})];Select[ Range[ 2200000],pf47Q] (* _Harvey P. Dale_, Jun 05 2013 *)
+%Y A036318 Cf. A036302-A036325.
+%K A036318 nonn,base
+%O A036318 1,1
+%A A036318 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058206
+Showing 1-1 of 1
+
+%I A058206
+%S A058206 1,7,15,71,106,273,486,961,1563,3040,4692,8199,12773
+%N A058206 McKay-Thompson series of class 12C for Monster.
+%D A058206 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058206 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058206 T12C = 1/q + 7*q + 15*q^3 + 71*q^5 + 106*q^7 + 273*q^9 + 486*q^11 + ...
+%Y A058206 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058206 nonn
+%O A058206 -1,2
+%A A058206 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050495
+Showing 1-1 of 1
+
+%I A050495
+%S A050495 72,144,216,216,288,432,432,576,648,648,792,864,864,1080,1152,1224,
+%T A050495 1296,1296,1368,1446,1512,1584,1656,1728,1728,1944,1944,2088,2160,
+%U A050495 2232,2304,2376,2376,2448,2592,2592,2664,2736,2892,2952,3024,3096,3168
+%N A050495 Arithmetic progressions of at least 4 terms having the same value of phi(x) start at these numbers.
+%e A050495 phi(72)=phi(78)=phi(84)=phi(90)=24, so 72 is a member of the sequence.
+%Y A050495 Cf. A000010, A050496, A050497.
+%K A050495 nonn
+%O A050495 1,1
+%A A050495 _Jud McCranie_, Dec 27 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

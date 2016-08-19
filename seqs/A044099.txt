@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044099
+Showing 1-1 of 1
+
+%I A044099
+%S A044099 22,47,72,97,110,122,147,172,197,222,235,247,272,297,322,347,360,372,
+%T A044099 397,422,447,472,485,497,522,547,550,597,610,622,647,672,697,722,735,
+%U A044099 747,772,797,822,847,860,872,897,922,947,972
+%N A044099 Numbers n such that string 4,2 occurs in the base 5 representation of n but not of n-1.
+%K A044099 nonn,base
+%O A044099 1,1
+%A A044099 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

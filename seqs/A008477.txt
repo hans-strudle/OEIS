@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008477
+Showing 1-1 of 1
+
+%I A008477
+%S A008477 1,1,1,4,1,1,1,9,8,1,1,4,1,1,1,16,1,8,1,4,1,1,1,9,32,1,27,4,1,1,1,25,
+%T A008477 1,1,1,32,1,1,1,9,1,1,1,4,8,1,1,16,128,32,1,4,1,27,1,9,1,1,1,4,1,1,8,
+%U A008477 36,1,1,1,4,1,1,1,72,1
+%N A008477 If n = Product (p_j^k_j) then a(n) = Product (k_j^p_j).
+%C A008477 For any n, the sequence n, a(n), a(a(n)), a(a(a(n))), ... is eventually periodic with period <= 2 [Farrokhi]. - _N. J. A. Sloane_, Apr 25 2009
+%C A008477 a(A005117(n)) = 1; a(A013929(n)) > 1; A010052(a(A122132(n))) = 1. [_Reinhard Zumkeller_, Feb 17 2012]
+%D A008477 M. Farrokhi, Problem 11315, Amer. Math. Monthly, 116 (2009), 470. - from _N. J. A. Sloane_, Apr 25 2009
+%H A008477 M. F. Hasler, <a href="/A008477/b008477.txt">Table of n, a(n) for n = 1..10000</a>
+%F A008477 Multiplicative with a(p^e) = e^p. - _David W. Wilson_, Aug 01, 2001.
+%p A008477 A008477 := proc(n) local e,j; e := ifactors(n)[2]:
+%p A008477 mul (e[j][2]^e[j][1], j=1..nops(e)) end:
+%p A008477 seq (A008477(n), n=1..60);
+%p A008477 # - Peter Luschny, Jan 17 2010
+%t A008477 Prepend[ Array[ Times @@ Map[ Power @@ RotateLeft[ #1, 1 ]&, FactorInteger[ # ] ]&, 100, 2 ], 1 ]
+%t A008477 Table[Times@@(First[#]^Last[#]&/@Transpose[Reverse[ Transpose[ FactorInteger[ n]]]]),{n,80}] (* _Harvey P. Dale_, Jul 22 2014 *)
+%o A008477 (Haskell)
+%o A008477 a008477 n = product $ zipWith (^) (a124010_row n) (a027748_row n)
+%o A008477 -- _Reinhard Zumkeller_, Feb 17 2012
+%o A008477 (PARI) A008477(n)=factorback(factor(n)*[0,1;1,0])  \\ _M. F. Hasler_, May 20 2012
+%Y A008477 Cf. A027748, A124010.
+%K A008477 nonn,mult
+%O A008477 1,4
+%A A008477 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

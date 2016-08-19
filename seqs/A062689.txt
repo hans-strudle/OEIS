@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062689
+Showing 1-1 of 1
+
+%I A062689
+%S A062689 0,1,121,12321,4,256,169,576,289,9,8100,2116,361201,3136,181476,1156,
+%T A062689 16,101761,5184,281961,2209,9216,1225,182329,3249,25,292681,192721,
+%U A062689 8281,1296,2304,183184,5329,343396,203401,4356,36,223729,173889,7396
+%N A062689 Smallest square that contains the digits of n in its exact middle.
+%e A062689 8100 is the smallest square that contains 10 in its exact center
+%Y A062689 Cf. A062690.
+%K A062689 base,easy,nonn
+%O A062689 0,3
+%A A062689 _Erich Friedman_, Jul 04 2001
+%E A062689 Corrected and extended by _Harvey P. Dale_, Jul 21 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

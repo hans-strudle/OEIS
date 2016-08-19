@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040620
+Showing 1-1 of 1
+
+%I A040620
+%S A040620 25,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,
+%T A040620 2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,
+%U A040620 50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2,50,2,2,2
+%N A040620 Continued fraction for sqrt(646).
+%H A040620 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040620 a(n)=(1/24)*{-209*(n mod 4)+205*[(n+1) mod 4]-59*[(n+2) mod 4]+355*[(n+3) mod 4]}-25*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 15 2009]
+%p A040620 with(numtheory): Digits := 300: convert(evalf(sqrt(646)),confrac);
+%K A040620 nonn,cofr,easy
+%O A040620 0,1
+%A A040620 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

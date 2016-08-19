@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032416
+Showing 1-1 of 1
+
+%I A032416
+%S A032416 4,6,10,16,30,124,174,192,336,600,720,1092,1138,1588,1652,1812,3012,
+%T A032416 3308,7266,7446,10136,10656,12140,21756,63870,66020,81156,90346,
+%U A032416 109600,127600
+%N A032416 Numbers n such that 133*2^n+1 is prime.
+%H A032416 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032416 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032416 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032416 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032416 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032416 nonn
+%O A032416 1,1
+%A A032416 _James R. Buddenhagen_
+%E A032416 Extended by _Hugo Pfoertner_, Jul 02 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

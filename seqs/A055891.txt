@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055891
+Showing 1-1 of 1
+
+%I A055891
+%S A055891 1,2,7,20,64,200,686,2324,8194,29084,104860,381116,1398148,5161592,
+%T A055891 19173958,71580752,268435474,1010572832,3817749138,14467230668,
+%U A055891 54975581488,209430687944,799644820114,3059510251700,11728124035248
+%N A055891 CIK (necklace, indistinct, unlabeled) transform of powers of 2.
+%H A055891 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A055891 P. Flajolet and M. Soria, <a href="http://algo.inria.fr/flajolet/Publications/cycle2.ps.gz">The Cycle Construction</a> In SIAM J. Discr. Math., vol. 4 (1), 1991, pp. 58-60.
+%o A055891 (PARI)
+%o A055891 N = 66;  x = 'x + O('x^N);
+%o A055891 f(x)=sum(n=1,N, 2^n*x^n );
+%o A055891 gf = 1 + sum(n=1,N, eulerphi(n)/n*log(1/(1-f(x^n)))  );
+%o A055891 v = Vec(gf)
+%o A055891 /* _Joerg Arndt_, Jan 21 2013 */
+%Y A055891 Cf. A000079, A055376.
+%K A055891 nonn
+%O A055891 0,2
+%A A055891 _Christian G. Bower_, Jun 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015723
+Showing 1-1 of 1
+
+%I A015723
+%S A015723 1,1,3,3,5,8,10,13,18,25,30,40,49,63,80,98,119,149,179,218,266,318,
+%T A015723 380,455,541,640,760,895,1050,1234,1442,1679,1960,2272,2635,3052,3520,
+%U A015723 4054,4669,5359,6142,7035,8037,9170,10460,11896,13517,15349,17394,19691
+%N A015723 Number of parts in all partitions of n into distinct parts.
+%D A015723 Knopfmacher, Arnold and Robbins, Neville, Identities for the total number of parts in partitions of integers. Util. Math. 67 (2005), 9-18.
+%H A015723 T. D. Noe, <a href="/A015723/b015723.txt">Table of n, a(n) for n = 1..1000</a>
+%F A015723 G.f.: sum(k>=1, x^k/(1+x^k) ) * prod(m>=1, 1+x^m ). Convolution of A048272 and A000009. - _Vladeta Jovovic_, Nov 26 2002
+%F A015723 G.f.: sum(k>=1, k*x^(k*(k+1)/2)/prod(i=1..k, 1-x^i ) ). - _Vladeta Jovovic_, Sep 21 2005
+%F A015723 a(n) = A238131(n)+A238132(n) = sum_{k=1..n} A048272(k)*A000009(n-k). - _Mircea Merca_, Feb 26 2014
+%F A015723 a(n) = Sum_{k>=1} k*A008289(n,k). - _Vaclav Kotesovec_, Apr 16 2016
+%p A015723 b:= proc(n, i) option remember; `if`(n=0, [1, 0], `if`(i<1, [0, 0],
+%p A015723       add((l->[l[1], l[2]+l[1]*j])(b(n-i*j, i-1)), j=0..min(n/i, 1))))
+%p A015723     end:
+%p A015723 a:= n-> b(n, n)[2]:
+%p A015723 seq(a(n), n=1..50);  # _Alois P. Heinz_, Feb 27 2013
+%t A015723 nn=50; Rest[CoefficientList[Series[D[Product[1+y x^i,{i,1,nn}],y]/.y->1,{x,0,nn}],x]]  (* _Geoffrey Critzer_, Oct 29 2012 *)
+%t A015723 q[n_, k_] := q[n, k] = If[n<k || k<1, 0, If[n == 1, 1, q[n-k, k] + q[n-k, k-1]]]; Table[Sum[k*q[n, k], {k, 1, Floor[(Sqrt[8*n+1] - 1)/2]}], {n, 1, 100}] (* _Vaclav Kotesovec_, Apr 16 2016 *)
+%o A015723 (PARI) N=66;  q='q+O('q^N); gf=sum(n=0,N, n*q^(n*(n+1)/2) / prod(k=1,n, 1-q^k ) );
+%o A015723 Vec(gf) /* _Joerg Arndt_, Oct 20 2012 */
+%Y A015723 Cf. A006128, A008289, A079499, A067619, A186545.
+%Y A015723 Column k=1 of A210485.
+%K A015723 nonn
+%O A015723 1,3
+%A A015723 _Clark Kimberling_
+%E A015723 Extended and corrected by _Naohiro Nomoto_, Feb 24 2002
+%E A015723 First Mathematica program fixed by _Vaclav Kotesovec_, Apr 16 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

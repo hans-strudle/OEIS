@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024342
+Showing 1-1 of 1
+
+%I A024342
+%S A024342 2,112,92672,365688832,4411282030592,127206964253949952,
+%T A024342 7496936195881447718912,809926025985929119868649472,
+%U A024342 148071124873925782667263194693632,43087047288444223765736160658186043392,19011875896715283767147325248912471990730752
+%N A024342 E.g.f. tanh(x)*tan(x), coefficients of powers x^(4*n+2).
+%t A024342 With[{nn=40},Take[CoefficientList[Series[Tanh[x]Tan[x],{x,0,nn}], x] Range[0,nn-2]!,{3,-1,4}]] (* _Harvey P. Dale_, May 02 2012 *)
+%K A024342 nonn
+%O A024342 0,1
+%A A024342 _R. H. Hardin_
+%E A024342 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+%E A024342 More terms from Harvey P. Dale, May 02 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

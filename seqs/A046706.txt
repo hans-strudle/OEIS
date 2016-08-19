@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046706
+Showing 1-1 of 1
+
+%I A046706
+%S A046706 0,1,10,90,1392,18675,409104,7411348,209085952,4788571365,
+%T A046706 164757984000,4571341663086,185247857018880,6045063784869655,
+%U A046706 281596888593405952,10574853536725785000,556202715633735696384,23639922913364842592457
+%N A046706 (1/2)*(n+1)!*Sum( n^(2k+1)/(2k+1)!, k=0..n/2).
+%t A046706 Table[(n+1)!/2 Sum[n^(2k+1)/(2k+1)!,{k,0,Floor[n/2]}],{n,0,20}] (* _Harvey P. Dale_, Mar 05 2013 *)
+%K A046706 nonn
+%O A046706 0,3
+%A A046706 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

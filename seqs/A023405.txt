@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023405
+Showing 1-1 of 1
+
+%I A023405
+%S A023405 4,4,9,4,9,9,4,9,4,9,4,4,9,9,4,9,4,9,9,9,4,4,4,4,9,4,4,4,4,9,9,9,9,4,
+%T A023405 9,4,4,9,9,4,4,9,9,4,9,4,4,9,4,9,4,9,4,4,4,4,4,4,9,9,9,9,4,9,4,4,4,9,
+%U A023405 9,4,4,9,4,4,9,9,4,4,9,9,9,4,9,9,9,9,9,9,4,4,9,4,4,9,9,9,9,9,9,4,4,4,9,9,4,4,4,4
+%N A023405 If any power of 2 ends with k 4's and 9's, they must be the first k elements of this sequence in reverse order.
+%K A023405 nonn
+%O A023405 1,1
+%A A023405 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

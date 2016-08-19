@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016382
+Showing 1-1 of 1
+
+%I A016382
+%S A016382 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,1,1,0,0,0,1,1,1,
+%T A016382 1,0,0,0,1,1,1,1,0,0,0,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1,1,
+%U A016382 1,1,0,1,1,1,1,1,1,1,0,1,1,1,1,1,1,0,1,1,1
+%V A016382 1,1,0,0,0,0,0,-1,-1,0,0,0,0,0,1,1,0,0,0,0,0,-1,-1,-1,-1,0,0,0,1,1,1,
+%W A016382 1,0,0,0,-1,-1,-1,-1,0,0,0,1,1,1,1,1,1,0,-1,-1,-1,-1,-1,-1,0,1,1,1,1,
+%X A016382 1,1,0,-1,-1,-1,-1,-1,-1,-1,0,1,1,1,1,1,1,0,-1,-1,-1
+%N A016382 322nd cyclotomic polynomial.
+%t A016382 CoefficientList[Cyclotomic[322,x],x] (* _Harvey P. Dale_, Jun 03 2012 *)
+%K A016382 sign,fini
+%O A016382 0,1
+%A A016382 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036827
+Showing 1-1 of 1
+
+%I A036827
+%S A036827 0,2,34,250,1274,5274,19098,63002,194074,567322,1591322,4317210,
+%T A036827 11395098,29392922,74350618,184942618,453378074,1097334810,2626158618,
+%U A036827 6222250010,14610858010,34032582682,78693531674,180757725210,412685959194
+%N A036827 26+2^(n+1)*(-13+9*n-3*n^2+n^3).
+%D A036827 M. Petkovsek et al., A=B, Peters, 1996, p. 97.
+%H A036827 Reinhard Zumkeller, <a href="/A036827/b036827.txt">Table of n, a(n) for n = 0..1000</a>
+%H A036827 S. Sykora, <a href="http://dx.doi.org/10.3247/SL1Math06.002">Finite and Infinite Sums of the Power Series (k^p)(x^k)</a>, DOI 10.3247/SL1Math06.002, Section V.
+%H A036827 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (9, -32, 56, -48, 16).
+%F A036827 a(n) = sum( k=0..n, 2^k*k^3). - _Benoit Cloitre_, Jun 11 2003
+%F A036827 G.f.: (-2*x*(4*x^2+8*x+1))/((x-1)*(2*x-1)^4). [Maksym Voznyy (voznyy(AT)mail.ru), Jul 26 2009]
+%F A036827 a(0)=0, a(1)=2, a(2)=34, a(3)=250, a(4)=1274; for n>4, a(n) = 9*a(n-1)- 32*a(n-2)+ 56*a(n-3)-48*a(n-4)+16*a(n-5). - _Harvey P. Dale_, Dec 15 2011
+%e A036827 a(3) = 2^0*0^3 + 2^1*1^3 + 2^2*2^3 + 2^3*3^3 = 250.
+%t A036827 Table[26 + 2^(n+1) (-13 + 9n - 3n^2 + n^3), {n, 0, 30}] (* or *) LinearRecurrence[ {9, -32, 56, -48, 16}, {0, 2, 34, 250, 1274}, 31] (* _Harvey P. Dale_, Dec 15 2011 *)
+%o A036827 (Haskell)
+%o A036827 a036827 n = 2^(n+1) * (n^3 - 3*n^2 + 9*n - 13) + 26
+%o A036827 -- _Reinhard Zumkeller_, May 24 2012
+%o A036827 (PARI) a(n)=26+2^(n+1)*(-13+9*n-3*n^2+n^3) \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A036827 Cf. A232599, A232600, A232601, A232602.
+%K A036827 nonn,easy
+%O A036827 0,2
+%A A036827 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

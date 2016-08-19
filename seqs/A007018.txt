@@ -1,0 +1,70 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007018
+Showing 1-1 of 1
+
+%I A007018 M1713
+%S A007018 1,2,6,42,1806,3263442,10650056950806,113423713055421844361000442,
+%T A007018 12864938683278671740537145998360961546653259485195806
+%N A007018 a(n) = a(n-1)^2 + a(n-1), a(0)=1.
+%C A007018 Number of ordered trees having nodes of outdegree 0,1,2 and such that all leaves are at level n. Example: a(2)=6 because, denoting by I a path of length 2 and by Y a Y-shaped tree with 3 edges, we have I, Y, I*I, I*Y, Y*I, Y*Y, where * denotes identification of the roots. - _Emeric Deutsch_, Oct 31 2002
+%C A007018 a(n) has at least n different prime factors. [Saidak]
+%C A007018 Subsequence of squarefree numbers (A005117). - _Reinhard Zumkeller_, Nov 15 2004 [This has been questioned, see MathOverflow link. - _Charles R Greathouse IV_, Mar 30 2015]
+%C A007018 For prime factors see A007996.
+%C A007018 Curtiss shows that if the reciprocal sum of the multiset S = {x_1, x_2, ..., x_n} is 1, then max(S) <= a(n). - _Charles R Greathouse IV_, Feb 28 2007
+%C A007018 The number of reduced ZBDDs for Boolean functions of n variables in which there is no zero sink. (ZBDDs are "zero-suppressed binary decision diagrams.") For example, a(2)=6 because of the 2-variable functions whose truth tables are 1000, 1010, 1011, 1100, 1110, 1111. - _Don Knuth_, Jun 04 2007
+%C A007018 Using the methods of Aho and Sloane, Fibonacci Quarterly 11 (1973), 429-437, it is easy to show that a(n) is the integer just a tiny bit below the real number theta^{2^n}-1/2, where theta =~ 1.597910218 is the exponential of the rapidly convergent series log(3/2)+Sum_{n>=0} log(1+(2a_n+1)^{-2}). For example, theta^64 - 1/2 =~ 3263442.0000000383. - _Don Knuth_, Jun 04 2007
+%C A007018 a(n) = A139145(2^(n+1) - 1). - _Reinhard Zumkeller_, Apr 10 2008
+%C A007018 a(n+1) = a(n)-th oblong (or promic, pronic, or heteromecic) numbers (A002378). a(n+1) = A002378(a(n)) = A002378(a(n-1)) * (A002378(a(n-1)) + 1). - _Jaroslav Krizek_, Sep 13 2009
+%C A007018 The next term has 209 digits. - _Harvey P. Dale_, Sep 07 2011
+%C A007018 Urquhart shows that a(n) is the minimum size of a tableau refutation of the clauses of the complete binary tree of depth n, see pp. 432-434. - _Charles R Greathouse IV_, Jan 04 2013
+%D A007018 R. Honsberger, Mathematical Gems III, M.A.A., 1985, p. 94.
+%D A007018 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007018 N. J. A. Sloane, <a href="/A007018/b007018.txt">Table of n, a(n) for n = 0..12</a>
+%H A007018 A. V. Aho and N. J. A. Sloane, <a href="http://neilsloane.com/doc/doubly.html">Some doubly exponential sequences</a>, Fib. Quart., 11 (1973), 429-437.
+%H A007018 Mohammad K. Azarian, <a href="http://www.jstor.org/stable/10.4169/college.math.j.42.4.329">Sylvester's Sequence and the Infinite Egyptian Fraction Decomposition of 1, Problem 958</a>, College Mathematics Journal, Vol. 42, No. 4, September 2011, p. 330.
+%H A007018 Mohammad K. Azarian, <a href="http://www.jstor.org/stable/10.4169/college.math.j.43.4.337">Sylvester's Sequence and the Infinite Egyptian Fraction Decomposition of 1, Solution</a> College Mathematics Journal, Vol. 43, No. 4, September 2012, pp. 340-342.
+%H A007018 D. Adjiashvili, S. Bosio and R. Weismantel, <a href="http://www.iasi.cnr.it/aussois/web/uploads/2012/papers/sbosio.pdf">Dynamic Combinatorial Optimization: a complexity and approximability study</a>, 2012.
+%H A007018 A. Ayyer, A. Schilling, B. Steinberg, N. W. Thiery, <a href="http://arxiv.org/abs/1401.4250">Markov chains, R-trivial monoids and representation theory</a>, arXiv preprint arXiv:1401.4250, 2014
+%H A007018 Umberto Cerruti, <a href="/A146564/a146564.pdf">Percorsi tra i numeri</a> (in Italian), page 5.
+%H A007018 D. R. Curtiss, <a href="http://www.jstor.org/stable/2299023">On Kellogg's Diophantine problem</a>, Amer. Math. Monthly 29 (1922), pp. 380-387.
+%H A007018 M. Klamkin, ed., <a href="http://dx.doi.org/10.1137/1.9781611971729">Problems in Applied Mathematics: Selections from SIAM Review</a>, SIAM, 1990; see p. 577.
+%H A007018 MathOverflow, <a href="http://mathoverflow.net/questions/118050/is-oeis-a007018-really-a-subsequence-of-squarefree-numbers?rq=1">Is OEIS A007018 really a subsequence of squarefree numbers?</a>
+%H A007018 Marko R. Riedel, <a href="http://math.stackexchange.com/questions/1285304/">Two-colorings of unordered full binary trees on n levels</a>
+%H A007018 Filip Saidak, <a href="http://www.jstor.org/stable/27642094">A New Proof of Euclid's Theorem</a>, Amer. Math. Monthly, Dec 2006
+%H A007018 A. Urquhart, <a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.27.9017">The complexity of propositional proofs</a>, Bull. Symbolic Logic, 1 (1995) pp. 425-467, esp. p. 434.
+%H A007018 <a href="/index/Aa#AHSL">Index entries for sequences of form a(n+1)=a(n)^2 + ...</a>
+%F A007018 a(n) = A000058(n)-1 = A000058(n-1)^2-A000058(n-1) = 1/(1-sum{j<n}[1/A000058(j)]) where A000058 is Sylvester's sequence. - _Henry Bottomley_, Jul 23 2001
+%F A007018 a(n) = floor(c^(2^n)) where c = A077125 = 1.597910218031873178338070118157... - _Benoit Cloitre_, Nov 06 2002
+%F A007018 a(1)=1, a(n) = Product_{k=1, n-1} a(k)+1. - _Benoit Cloitre_, Sep 13 2003
+%F A007018 If an (additional) initial 1 is inserted, a(n) = Sum_{k<n} a(k)^2. - _Franklin T. Adams-Watters_, Jun 11 2009
+%F A007018 a(n) = A053631(n)/2. - _Martin Ettl_, Nov 08 2012
+%p A007018 A007018 := proc(n)
+%p A007018     option remember;
+%p A007018     local aprev;
+%p A007018     if n = 0 then
+%p A007018         1;
+%p A007018     else
+%p A007018         aprev := procname(n-1) ;
+%p A007018         aprev*(aprev+1) ;
+%p A007018     end if;
+%p A007018 end proc: # _R. J. Mathar_, May 06 2016
+%t A007018 a=1; lst={}; Do[a=a^2+a; AppendTo[lst,a], {n,0,9}]; lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 20 2009 *)
+%t A007018 FoldList[#^2 + #1 &, 1, Range@ 8] (* _Robert G. Wilson v_, Jun 16 2011 *)
+%t A007018 NestList[#^2+#&,1,10] (* _Harvey P. Dale_, Sep 07 2011 *)
+%o A007018 (PARI) a(n)=if(n<1,n>=0,a(n-1)+a(n-1)^2)
+%o A007018 (Maxima)
+%o A007018 a[1]:1$
+%o A007018 a[n]:=(a[n-1] + (a[n-1]^2))$
+%o A007018 A007018(n):=a[n]$
+%o A007018 makelist(A007018(n),n,1,10); /* _Martin Ettl_, Nov 08 2012 */
+%o A007018 (Haskell)
+%o A007018 a007018 n = a007018_list !! n
+%o A007018 a007018_list = iterate a002378 1  -- _Reinhard Zumkeller_, Dec 18 2013
+%o A007018 (MAGMA) [n eq 1 select 1 else Self(n-1)^2 + Self(n-1): n in [1..10]]; // _Vincenzo Librandi_, May 19 2015
+%Y A007018 Cf. A000058, A003687, A011782, A077125.
+%K A007018 nonn,nice,easy
+%O A007018 0,2
+%A A007018 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

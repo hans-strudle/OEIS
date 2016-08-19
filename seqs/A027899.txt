@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027899
+Showing 1-1 of 1
+
+%I A027899
+%S A027899 1,11,23,121,253,2783,4093,8779,45023,94139,96569,201917,495253,
+%T A027899 1035529,1062259,2221087,11390819,24431957,35932447,395256917,
+%U A027899 826446281,4347826087,9090909091,100000000001
+%N A027899 Divisors of 10^11 + 1.
+%H A027899 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
+%t A027899 Divisors[10^11+1] (* _Harvey P. Dale_, Sep 15 2011 *)
+%K A027899 nonn,fini,full
+%O A027899 1,2
+%A A027899 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

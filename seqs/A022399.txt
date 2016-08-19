@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022399
+Showing 1-1 of 1
+
+%I A022399
+%S A022399 1,29,30,59,89,148,237,385,622,1007,1629,2636,4265,6901,11166,18067,
+%T A022399 29233,47300,76533,123833,200366,324199,524565,848764,1373329,2222093,
+%U A022399 3595422,5817515,9412937,15230452
+%N A022399 Fibonacci sequence beginning 1, 29.
+%H A022399 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022399 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022399 G.f.: (1+28*x)/(1-x-x^2). - _Philippe Deléham_, Nov 20 2008
+%F A022399 a(n) = 29*A000045(n) + A000045(n-1). [_Paolo P. Lava_, May 19 2015]
+%p A022399 with(numtheory): with(combinat): P:=proc(q) local n;
+%p A022399 for n from 0 to q do print(27*fibonacci(n)+fibonacci(n-1));
+%p A022399 od; end: P(30); # _Paolo P. Lava_, May 19 2015
+%t A022399 a={};b=1;c=29;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022399 nonn
+%O A022399 0,2
+%A A022399 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

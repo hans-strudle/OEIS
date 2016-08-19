@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047452
+Showing 1-1 of 1
+
+%I A047452
+%S A047452 1,6,9,14,17,22,25,30,33,38,41,46,49,54,57,62,65,70,73,78,81,86,89,94,
+%T A047452 97,102,105,110,113,118,121,126,129,134,137,142,145,150,153,158,161,
+%U A047452 166,169,174,177,182,185,190
+%N A047452 Numbers that are congruent to {1, 6} mod 8.
+%H A047452 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,-1).
+%F A047452 a(n)=8*n-a(n-1)-9, n>1. [From _Vincenzo Librandi_, Aug 06 2010]
+%F A047452 a(n)=(1/2)*[ -5+(-1)^n+8*n], with n>=1 [From _Paolo P. Lava_, Sep 03 2010]
+%F A047452 G.f. x*(1+5*x+2*x^2) / ( (1+x)*(x-1)^2 ). - R. J. Mathar, Dec 07 2011
+%K A047452 nonn
+%O A047452 1,2
+%A A047452 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

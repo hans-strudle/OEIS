@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053172
+Showing 1-1 of 1
+
+%I A053172
+%S A053172 308,1916,9572,20732,43148,73052,155156,219716,331892,440036
+%N A053172 Number of 3 X 3 integer matrices with elements in the range [ -n,n ] which represent a three-fold rotation.
+%Y A053172 A053170 = 2 * (1 + A053171 + this sequence + A053173 + A053174).
+%K A053172 nonn
+%O A053172 1,1
+%A A053172 Ralf W. Grosse-Kunstleve (rwgk(AT)cci.lbl.gov), Mar 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

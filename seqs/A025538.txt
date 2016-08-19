@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025538
+Showing 1-1 of 1
+
+%I A025538
+%S A025538 1,0,1,1,3,9,10,66,135,395,396,4344,4345,56471,56486,56478,112957,
+%T A025538 1920251,1920252,36484768,36484789,36484767,36484768,839149640,
+%U A025538 839149645,4195748199,4195748208,12587244596,12587244597,365030093283,365030093284
+%N A025538 a(n) = (1/s(0) - 1/s(1) + ... + d/s(n))*LCM{C(0,0),C(1,0),...,C(n,0)}, where d = (-1)^n, s = A002944, i.e. s(k) = LCM of row k+1 of Pascal's triangle.
+%K A025538 nonn
+%O A025538 0,5
+%A A025538 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

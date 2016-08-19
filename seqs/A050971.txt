@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050971
+Showing 1-1 of 1
+
+%I A050971
+%S A050971 1,2,8,24,384,240,46080,40320,2064384,725760,3715891200,159667200,
+%T A050971 392398110720,12454041600,1428329123020800,20922789888000,
+%U A050971 274239191619993600,711374856192000,1678343852714360832000
+%N A050971 4*Denominator of S(n)/Pi^n, where S(n) = Sum((4k+1)^(-n),k,-inf,+inf).
+%C A050971 Reduced denominators of the Favard constants.
+%H A050971 N. D. Elkies, <a href="http://arXiv.org/abs/math.CA/0101168">On the sums Sum((4k+1)^(-n),k,-inf,+inf)</a>, arXiv:math/0101168 [math.CA], 2001-2003.
+%H A050971 N. D. Elkies, <a href="http://www.jstor.org/stable/3647742">On the sums Sum_{k = -infinity .. infinity} (4k+1)^(-n)</a>, Amer. Math. Monthly, 110 (No. 7, 2003), 561-573.
+%H A050971 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/FavardConstants.html">Favard Constants.</a>
+%F A050971 There is a simple formula in terms of Euler and Bernoulli numbers.
+%e A050971 The first few values of S(n)/Pi^n are 1/4, 1/8, 1/32, 1/96, 5/1536, 1/960, ...
+%t A050971 s[n_] := Sum[(4*k + 1)^(-n), {k, -Infinity, Infinity}]; a[n_] := 4*s[n]/Pi^n ; a[1] = 1; Table[a[n], {n, 1, 19}] // Denominator (* _Jean-François Alcover_, Nov 05 2012 *)
+%t A050971 a[n_] := 4*Sum[((-1)^k/(2*k+1))^n, {k, 0, Infinity}] /. Pi -> 1 // Denominator; Table[a[n], {n, 1, 19}] (* _Jean-François Alcover_, Jun 20 2014 *)
+%Y A050971 Cf. A068205, A050970 (numerators).
+%K A050971 nonn,frac
+%O A050971 1,2
+%A A050971 _Eric W. Weisstein_
+%E A050971 Entry revised by _N. J. A. Sloane_, Mar 24 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

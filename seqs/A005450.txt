@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005450
+Showing 1-1 of 1
+
+%I A005450
+%S A005450 2,1,1,7,5,121,103,5041,40321,362881,329891,39916801,36846277,
+%T A005450 6227020801,87178291201,1307674368001,1230752346353,355687428096001,
+%U A005450 336967037143579,121645100408832001,2432902008176640001
+%N A005450 Numerator of (1+Gamma[n])/n.
+%D A005450 H. S. Wilf, Problem 10578, Amer. Math. Monthly, 104 (1997), 270.
+%H A005450 Achilleas Sinefakopoulos, <a href="http://users.forthnet.gr/ath/asin/proandsol.htm">Problem 10578</a> (Submitted solution.)
+%F A005450 Define b(n) = ( (n-1)*(n^2-3*n+1)*b(n-1) - (n-2)^3*b(n-2) )/(n*(n-3)); b(2) = b(3) = 1; sequence gives numerators of b(n) since b(n)=(1+Gamma[n])/n. - Joseph Biberstine (jrbibers(AT)indiana.edu), Sep 12 2006
+%t A005450 Table[Numerator[(1 + Gamma[n])/n], {n, 1, 80}] - Joseph Biberstine (jrbibers(AT)indiana.edu), Sep 12 2006
+%K A005450 nonn
+%O A005450 1,1
+%A A005450 _N. J. A. Sloane_.
+%E A005450 Better description from Joseph Biberstine (jrbibers(AT)indiana.edu), Sep 12 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

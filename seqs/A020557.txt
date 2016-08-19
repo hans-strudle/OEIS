@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020557
+Showing 1-1 of 1
+
+%I A020557
+%S A020557 1,2,15,203,4140,115975,4213597,190899322,10480142147,682076806159,
+%T A020557 51724158235372,4506715738447323,445958869294805289,
+%U A020557 49631246523618756274,6160539404599934652455,846749014511809332450147,128064670049908713818925644
+%N A020557 Number of oriented multigraphs on n labeled arcs (with loops).
+%D A020557 Banjo, Elizabeth (2013). Representation theory of algebras related to the partition algebra. (Unpublished Doctoral thesis, City University London); http://openaccess.city.ac.uk/2360/1/Banjo,_Elizabeth.pdf
+%D A020557 G. Labelle, Counting enriched multigraphs..., Discrete Math., 217 (2000), 237-248.
+%D A020557 G. Paquin, Dénombrement de multigraphes enrichis, Mémoire, Math. Dept., Univ. Québec à Montréal, 2004.
+%F A020557 a(n) = Bell(2*n) = A000110(2*n). - _Vladeta Jovovic_, Feb 02 2003
+%F A020557 a(n) = EXP(-1)*Sum_{k=>0} k^(2n)/k!. - _Benoit Cloitre_, May 19 2002
+%F A020557 E.g.f.: exp(x*(d_z)^2)*(exp(exp(z)-1))|_{z=0}, with the derivative operator d_z := d/dz. Adapted from eqs.(14) and (15) of the 1999 C. M. Bender reference given in A000110.
+%F A020557 E.g.f.: exp(-1)*Sum_{n>=0}exp(n^2*x)/n!. - _Vladeta Jovovic_, Aug 24 2006
+%o A020557 (PARI) for(n=0,50,print1(ceil(sum(i=0,1000,i^(2*n)/(i)!)/exp(1)),","))
+%o A020557 (Sage) [bell_number(2*n) for n in xrange(0, 17)]# [From _Zerinvary Lajos_, May 14 2009]
+%Y A020557 Cf. A070906. Bisection of Bell numbers A000110.
+%Y A020557 Cf. A099977.
+%K A020557 nonn
+%O A020557 0,2
+%A A020557 Gilbert Labelle (gilbert(AT)lacim.uqam.ca), _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

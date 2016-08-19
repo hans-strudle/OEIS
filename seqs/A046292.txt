@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046292
+Showing 1-1 of 1
+
+%I A046292
+%S A046292 26,31,46,59,66,67,72,77,83,86,89,92,96,101,106,111,116,119,123,124,
+%T A046292 125,126,129,131,136,138,141,142,144,148,152,153,155,157,163,165,166,
+%U A046292 171,176,177,178,181,182,183,186,193,194,197,198,199,202,204,205,206
+%N A046292 2^a(n) contains 2^6=64 as largest proper substring of form 2^n.
+%e A046292 2^26=671088{64}; 2^31=2147483{64}8; 2^46=703687441776{64}; ...
+%Y A046292 Cf. A033921.
+%K A046292 nonn,base
+%O A046292 0,1
+%A A046292 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

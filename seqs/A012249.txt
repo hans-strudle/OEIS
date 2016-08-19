@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012249
+Showing 1-1 of 1
+
+%I A012249
+%S A012249 1,2,5,24,154,1280,13005,156800,2189725,34793472,620169186,
+%T A012249 12259602432,266267950740,6304157663232,161624247752253,
+%U A012249 4461403146190848
+%N A012249 Volume of a certain rational polytope whose points with given denominator count certain sets of Standard Tableaux.
+%C A012249 It should be noticed that Richard Stanley's formula (cf. A012250) gives a(9) = 2189726 instead of 2189725. - _Jean-François Alcover_, Nov 28 2013
+%D A012249 D n Verma, Towards Classifying Finite Point-Set Configurations, preprint, 1997.
+%t A012249 a[n_] := 2^(n-2)*Sum[(-1)^(j+1)*(n/2-j+1)^(n-1)*Binomial[n+2, j], {j, 0, Ceiling[n/2]}]; Table[a[n], {n, 1, 16}] (* _Jean-François Alcover_, Nov 25 2013, after Richard Stanley's formula *)
+%Y A012249 Cf. A012250.
+%K A012249 nonn,more
+%O A012249 1,2
+%A A012249 _D n Verma_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

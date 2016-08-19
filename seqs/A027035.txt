@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027035
+Showing 1-1 of 1
+
+%I A027035
+%S A027035 1,2,5,14,39,112,323,932,2693,7790,22565,65466,190243,553748,1614363,
+%T A027035 4713432,13780841,40343210,118243273,346937614,1018958151,2995407840,
+%U A027035 8812890391,25948662684,76457517949,225429675606,665069604713
+%N A027035 T(n,n) + T(n,n+1) + ... + T(n,2n), T given by A027023.
+%K A027035 nonn
+%O A027035 0,2
+%A A027035 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

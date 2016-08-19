@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050715
+Showing 1-1 of 1
+
+%I A050715
+%S A050715 11,17,21,27,33,39,47,57,63,69,71,77,83,87,89,93,103,129,139,141,151,
+%T A050715 159,189,199,207,213,223,237,243,247,267,279,291,301,303,309,313,319,
+%U A050715 321,327,333,373,379,381,391,403,429,453,457,469,471,477,483,493,499
+%N A050715 Inserting a digit '5' between adjacent digits of n makes a prime.
+%e A050715 E.g. 373 becomes 3(5)7(5)3 which is prime 35753.
+%Y A050715 Cf. A050674, A050711-A050719.
+%K A050715 nonn,base
+%O A050715 0,1
+%A A050715 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

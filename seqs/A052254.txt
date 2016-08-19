@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052254
+Showing 1-1 of 1
+
+%I A052254
+%S A052254 1,17,108,444,1410,3762,8844,18876,37323,69355,122408,206856,336804,
+%T A052254 531012,813960,1217064,1780053,2552517,3595636,4984100,6808230,
+%U A052254 9176310,12217140,16082820,20951775
+%N A052254 Partial sums of A050406.
+%D A052254 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%D A052254 Murray R. Spiegel, Calculus of Finite Differences and Difference Equations, "Schaum's Outline Series", McGraw-Hill, 1971, pp. 10-20, 79-94.
+%H A052254 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (8,-28,56,-70,56,-28,8,-1)
+%F A052254 a(n) = (10n+7)*C(n+6, 6)/7.
+%F A052254 G.f.: (1+9*x)/(1-x)^8.
+%Y A052254 Cf. A050406.
+%Y A052254 Cf. A093645 ((10, 1) Pascal, column m=7).
+%K A052254 easy,nonn
+%O A052254 0,2
+%A A052254 _Barry E. Williams_, Feb 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

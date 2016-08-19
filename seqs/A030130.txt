@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030130
+Showing 1-1 of 1
+
+%I A030130
+%S A030130 0,2,5,6,11,13,14,23,27,29,30,47,55,59,61,62,95,111,119,123,125,126,
+%T A030130 191,223,239,247,251,253,254,383,447,479,495,503,507,509,510,767,895,
+%U A030130 959,991,1007,1015,1019,1021,1022,1535,1791,1919,1983,2015,2031,2039
+%N A030130 Binary expansion contains a single 0.
+%C A030130 From _Reinhard Zumkeller_, Aug 29 2009: (Start)
+%C A030130 A023416(a(n)) = 1;
+%C A030130 apart from the initial term the sequence can be seen as a triangle read by rows, see A164874;
+%C A030130 A055010 and A086224 are subsequences, see also A000918 and A036563. (End)
+%C A030130 Zero and numbers of form 2^m-2^k-1, 2<=m, 0<=k<=m-2. - _Zak Seidov_, Aug 06 2010
+%H A030130 R. Zumkeller, <a href="/A030130/b030130.txt">Table of n, a(n) for n = 1..1000</a> [From _Reinhard Zumkeller_, Aug 29 2009]
+%F A030130 a(n) = 2^(g(n))-1-2^(((2*g(n)-1)^2-1-8*n)/8) with g(n)=int((sqrt(8*n-7)+3)/2) for all n>0 and g(0)=1. - Ulrich Schimke (ulrschimke(AT)aol.com)
+%e A030130 23 is OK because it is '10111' in base 2.
+%t A030130 Sort[Flatten[{{0}, Table[2^n - 2^m - 1, {n, 2, 50}, {m, 0, n - 2}]}]] (* _Zak Seidov_, Aug 06 2010 *)
+%o A030130 (C) long int element (long int i) { return (pow(2,g(i))-1-pow(2,(pow(2*g(i)-1,2)-1-8*i)/8));} long int g(long int m) {if (m==0) return(1); return ((sqrt(8*m-7)+3)/2);}
+%o A030130 (Haskell)
+%o A030130 a030130 n = a030130_list !! (n-1)
+%o A030130 a030130_list = filter ((== 1) . a023416) [0..]
+%o A030130 -- _Reinhard Zumkeller_, Mar 31 2015, Dec 07 2012
+%Y A030130  Cf. A023416, A164874, A055010, A086224, A000918, A036563.
+%K A030130 nonn,base,easy,look
+%O A030130 1,2
+%A A030130 Toby Donaldson (tjdonald(AT)uwaterloo.ca)
+%E A030130 More terms from _Erich Friedman_
+%E A030130 Offset fixed by _Reinhard Zumkeller_, Aug 24 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

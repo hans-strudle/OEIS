@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048569
+Showing 1-1 of 1
+
+%I A048569
+%S A048569 1,2,3,4,5,6,10,13,14,15,16,22,26,29,30,37,38,39,40,46,47,48,57,58,85,
+%T A048569 86,87,93,94,95,97,98,106,107,122,123,124,125,147,148,149,150,157,158,
+%U A048569 159,178,194,206,214,219,220,226,230,232,247,278,283,284,285,286,316
+%N A048569 Values of n for which the position of central and a maximal value of A000005[ C[ n,k ] ] agree.
+%C A048569 x is in the sequence if Floor[ x/2 ] is not only central but also a place of maximum for the number of divisors of C[ n,k ] binomial coefficients.
+%e A048569 If n=10 and k=0,...,10 then d[ C[ 10,k ] ]=1,4,6,16,16,18,16,16,6,4,1. The maximum of A000005[ C[ 10,k ] ] values, i.e. 80 is appears at k=5, the central coefficient. Thus 10 is in this sequence.
+%Y A048569 A000005, A001405, A048274, A034974, A048570.
+%K A048569 nonn
+%O A048569 1,2
+%A A048569 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

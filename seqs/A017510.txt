@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017510
+Showing 1-1 of 1
+
+%I A017510
+%S A017510 100,441,1024,1849,2916,4225,5776,7569,9604,11881,14400,17161,20164,
+%T A017510 23409,26896,30625,34596,38809,43264,47961,52900,58081,63504,69169,
+%U A017510 75076,81225,87616,94249,101124
+%N A017510 (11n+10)^2.
+%H A017510 Harvey P. Dale, <a href="/A017510/b017510.txt">Table of n, a(n) for n = 0..1000</a>
+%H A017510 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3, -3, 1).
+%t A017510 (11*Range[0,30]+10)^2 (* or *) LinearRecurrence[{3,-3,1},{100,441,1024},30] (* _Harvey P. Dale_, Mar 31 2016 *)-
+%K A017510 nonn,easy
+%O A017510 0,1
+%A A017510 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

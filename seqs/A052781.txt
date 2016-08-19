@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052781
+Showing 1-1 of 1
+
+%I A052781
+%S A052781 1,1,6,46,421,4191,44322,487662,5527722,64091887,756590138,9062397539,
+%T A052781 109866112785,1345528776005,16622049264020,206882949204038,
+%U A052781 2591780764974800,32656149762325321
+%N A052781 A simple grammar.
+%C A052781 Appears to be the Euler transform of A052788. - _Falk Hüffner_, Dec 03 2015
+%H A052781 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=738">Encyclopedia of Combinatorial Structures 738</a>
+%p A052781 spec := [S,{B=Prod(Z,S,S,S,S,S),S=Set(B)},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%K A052781 easy,nonn
+%O A052781 0,3
+%A A052781 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

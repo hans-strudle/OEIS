@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005486
+Showing 1-1 of 1
+
+%I A005486 M4466
+%S A005486 1,8,1,7,1,2,0,5,9,2,8,3,2,1,3,9,6,5,8,8,9,1,2,1,1,7,5,6,3,2,7,2,6,0,
+%T A005486 5,0,2,4,2,8,2,1,0,4,6,3,1,4,1,2,1,9,6,7,1,4,8,1,3,3,4,2,9,7,9,3,1,3,
+%U A005486 0,9,7,3,9
+%N A005486 Decimal expansion of cube root of 6.
+%C A005486 Diameter of a sphere with volume Pi. - _Omar E. Pol_, Aug 09 2012
+%D A005486 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005486 Harry J. Smith, <a href="/A005486/b005486.txt">Table of n, a(n) for n = 1..20000</a>
+%e A005486 1.81712059283213965889121175632726050242821... - _Harry J. Smith_, May 07 2009
+%t A005486 RealDigits[N[6^(1/3), 200]] (* _Vladimir Joseph Stephan Orlovsky_, May 27 2010 *)
+%o A005486 (PARI) { default(realprecision, 20080); x=6^(1/3); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b005486.txt", n, " ", d)); } \\ _Harry J. Smith_, May 07 2009
+%Y A005486 Cf. A002949 = Continued fraction. - _Harry J. Smith_, May 07 2009
+%K A005486 nonn,cons
+%O A005486 1,2
+%A A005486 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031529
+Showing 1-1 of 1
+
+%I A031529
+%S A031529 963,967,971,983,991,1003,1019,1031,1039,1051,1059,1063,1087,3848,
+%T A031529 3880,3904,3936,3944,4000,4040,4072,4168,4192,4256,4264,4288,4320,
+%U A031529 4328,4352,8655,8727,8787,8871,8943,9003,9147,9303,9375,9663,9795,15384,15448
+%N A031529 Numbers n such that continued fraction for sqrt(n) has even period and central term 31.
+%t A031529 epct31Q[n_]:=Module[{cf=ContinuedFraction[Sqrt[n]],cf2},If[Length[cf] ==1, cf2={1},cf2=cf[[2]]];EvenQ[Length[ cf2]] && cf2[[Length[cf2]/2]] == 31]; Select[ Range[16000],epct31Q] (* _Harvey P. Dale_, Dec 07 2012 *)
+%K A031529 nonn
+%O A031529 1,1
+%A A031529 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

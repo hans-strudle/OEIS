@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019519
+Showing 1-1 of 1
+
+%I A019519
+%S A019519 1,13,135,1357,13579,1357911,135791113,13579111315,1357911131517,
+%T A019519 135791113151719,13579111315171921,1357911131517192123,
+%U A019519 135791113151719212325,13579111315171921232527,1357911131517192123252729,135791113151719212325272931
+%N A019519 Concatenate odd numbers.
+%D A019519 X. Chen and M. Le, The Module Periodicity of Smarandache Concatenated Odd Sequence, Smarandache Notions Journal, Vol. 9, No. 1-2. 1998, 103-104.
+%D A019519 H. Ibstedt, A Few Smarandache Sequences, Smarandache Notions Journal, Vol. 8, No. 1-2-3, 1997, 170-183..
+%D A019519 S. Smarandoiu, Convergence of Smarandache continued fractions, Abstract 96T-11-195, Abstracts Amer. Math. Soc., 17 (No. 4, 1996), 680.
+%H A019519 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/Definitions-book.pdf">Definitions, Solved and Unsolved Problems, Conjectures, ... </a>, edited by M. Perez, Xiquan Publishing House 2000
+%H A019519 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/CP2.pdf">Collected Papers, Vol. II</a>, Tempus Publ. Hse., Bucharest, Romania, 1996
+%H A019519 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ConsecutiveNumberSequences.html">Consecutive Number Sequences</a>
+%F A019519 Sequence grows like 10^K, where K = 2+floor[log_10 n] + floor[log_10 a(n-1)]. More generally we may consider a(n)= F(a(n-1),n)*B^K + G(a(n-1),n); K = floor[log_B H(a(n-1),n)]; F(a(n-1),n); G(a(n-1),n); H(a(n-1),n) integer polynomials; B integer. - _Ctibor O. Zizka_, Mar 08 2008
+%F A019519 a(n)=a(n-1)*10^[log10(2*n-1)+1]+2*n-1, with a(1)=1. [From _Paolo P. Lava_, Mar 05 2010]
+%t A019519 nn=20;With[{odds=Range[1,2nn+1,2]},Table[FromDigits[Flatten[ IntegerDigits/@ Take[odds,n]]],{n,nn}]] (* _Harvey P. Dale_, Aug 14 2014 *)
+%Y A019519 Primes are in A048847, while their indices are in A046036.
+%K A019519 base,nonn,easy
+%O A019519 1,2
+%A A019519 R. Muller
+%E A019519 More terms from _Erich Friedman_.
+%E A019519 More terms from _Harvey P. Dale_, Aug 14 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

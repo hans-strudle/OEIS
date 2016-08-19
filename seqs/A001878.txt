@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001878
+Showing 1-1 of 1
+
+%I A001878
+%S A001878 0,0,0,1,0,0,1,0,1,1,0,0,1,1,0,1,1,0,2,0,0,1,0,1,2,0,1,1,1,0,1,0,1,2,
+%T A001878 0,0,2,0,1,2,1,0,1,1,0,1,1,0,3,0,0,1,1,1,2,0,2,1,1,0,1,0,0,2,1,1,2,0,
+%U A001878 1,2,0,0,3,1,0,1,1,0,3,0,1,1,0,1,2,0,1,1
+%N A001878 Number of divisors of n of form 5k+3.
+%H A001878 T. D. Noe, <a href="/A001878/b001878.txt">Table of n, a(n) for n = 0..10000</a>
+%F A001878 G.f.: Sum x^(5n+3)/(1-x^(5n+3)), n=0..inf.
+%t A001878 Join[{0}, Table[d = Divisors[n]; Length[Select[d, Mod[#, 5] == 3 &]], {n, 100}]] (* _T. D. Noe_, Aug 10 2012 *)
+%t A001878 Table[Count[Divisors[n],_?(Mod[#,5]==3&)],{n,0,90}] (* _Harvey P. Dale_, Nov 08 2012 *)
+%K A001878 nonn
+%O A001878 0,19
+%A A001878 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

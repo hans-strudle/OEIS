@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059569
+Showing 1-1 of 1
+
+%I A059569
+%S A059569 2,4,6,8,38,66,72,126,140,152,174,332,710,820,2528,2582,2668,2776,
+%T A059569 2982,3826
+%N A059569 Numbers n such that (7*3^n - 5)/2 is prime.
+%t A059569 Do[ If[ PrimeQ[ (7*3^n - 5)/2 ], Print[n] ], {n, 0, 4500} ]
+%K A059569 nonn
+%O A059569 1,1
+%A A059569 _Robert G. Wilson v_, Feb 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

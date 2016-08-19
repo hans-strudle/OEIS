@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023417
+Showing 1-1 of 1
+
+%I A023417
+%S A023417 0,52,235,111,1498,2920,1719,4235,13156,6516,28015,19481,17610,70096,
+%T A023417 91273,19485,147592,183940,75537,138149,333730,133224,474925,280163,
+%U A023417 218916,765100,886327,170235,1171366
+%N A023417 Numerator of n*(n-3)*(3*n^2-6*n+2)/(3*(n-1)*(n-2)).
+%K A023417 nonn
+%O A023417 3,2
+%A A023417 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

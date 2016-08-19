@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032119
+Showing 1-1 of 1
+
+%I A032119
+%S A032119 1,1,6,57,750,12645,260190,6322365,177181830,5625873225,199608636150,
+%T A032119 7826601269025,336070622037150,15684327120386925,790493799998652750,
+%U A032119 42790196611446409125,2475921578709979149750
+%N A032119 Number of labeled series-reduced dyslexic planted planar trees (root unlabeled) with n leaves.
+%H A032119 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032119 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032119 Doubles (index 2+) under "BIJ" (reversible, indistinct, labeled) transform.
+%K A032119 nonn,eigen
+%O A032119 1,3
+%A A032119 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

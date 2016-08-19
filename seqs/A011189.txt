@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011189
+Showing 1-1 of 1
+
+%I A011189
+%S A011189 5,5,4,7,35,12,38,70,10,82,92,118,94,121,133,184,98,306,7,420
+%N A011189 Coefficients in expansion of e as Sum a(n)/(n*n!*(n+1)!), n=1..inf, as found by greedy algorithm.
+%K A011189 nonn
+%O A011189 0,1
+%A A011189 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

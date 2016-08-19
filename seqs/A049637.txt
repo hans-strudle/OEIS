@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049637
+Showing 1-1 of 1
+
+%I A049637
+%S A049637 2,6,8,10,12,15,16,19,21,23,25,28,29,32,34,36,38,41,42,45,47,49,51,54,
+%T A049637 55,58,60,62,64,67,68,71,73,75,77,80,81,84
+%N A049637 Congruent to 2, 3, 6, 8, 10 or 12 mod 13, but not equal to 3.
+%H A049637 <a href="/index/Rec#order_05">Index entries for linear recurrences with constant coefficients</a>, signature (0,1,1,0,-1).
+%F A049637 G.f. 2 -x*(-6-8*x-4*x^2+2*x^3+3*x^4) / ( (1+x)*(1+x+x^2)*(x-1)^2 ). - _R. J. Mathar_, Oct 26 2015
+%Y A049637 a(n)=T(n, 3), array T as in A049627.
+%K A049637 nonn,easy
+%O A049637 0,1
+%A A049637 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

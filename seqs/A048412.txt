@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048412
+Showing 1-1 of 1
+
+%I A048412
+%S A048412 0,1,2,3,11,26,111,1111,11111,111111,1111111,11111111,111111111
+%N A048412 a(n)^2 is a square whose consecutive digits differ by 1.
+%Y A048412 Cf. A002477, A048411.
+%K A048412 nonn,base,more
+%O A048412 0,3
+%A A048412 _Patrick De Geest_, Apr 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

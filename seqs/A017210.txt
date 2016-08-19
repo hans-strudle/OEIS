@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017210
+Showing 1-1 of 1
+
+%I A017210
+%S A017210 16,169,484,961,1600,2401,3364,4489,5776,7225,8836,10609,12544,14641,
+%T A017210 16900,19321,21904,24649,27556,30625,33856,37249,40804,44521,48400,
+%U A017210 52441,56644,61009,65536,70225
+%N A017210 (9*n+4)^2.
+%H A017210 Vincenzo Librandi, <a href="/A017210/b017210.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017210 (MAGMA) [(9*n+4)^2: n in [0..35]]; // Vincenzo Librandi, Jul 24 2011
+%K A017210 nonn,easy
+%O A017210 0,1
+%A A017210 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

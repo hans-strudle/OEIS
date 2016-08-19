@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057444
+Showing 1-1 of 1
+
+%I A057444
+%S A057444 18,45,234,261,1530,10413,7605,1746,71298,7794,488610,257085,11925,
+%T A057444 3348909,338949,22953690,8732061,1687626
+%N A057444 Numbers n such that n=(a+b)=(x*y) with a*b=(x^2+y^2) (a>0,b>0,x>0,y>0): sequence gives values of (a*b).
+%K A057444 nonn
+%O A057444 1,1
+%A A057444 _Naohiro Nomoto_, Sep 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

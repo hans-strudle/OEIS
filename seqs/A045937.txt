@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045937
+Showing 1-1 of 1
+
+%I A045937
+%S A045937 44360,48919,48920,56014,72650,73292,76581,82324,86331,87758,91814,
+%T A045937 112142,143491,147951,158719,184171,184172,197588,202498,205244,
+%U A045937 215300,218972,218973,218974,229728,230628,241129,250933,253204,253665,287492
+%N A045937 n through n+8 divisible by same number of primes.
+%C A045937 Primes counted without multiplicity. - _Harvey P. Dale_, May 05 2015
+%t A045937 Flatten[Position[Partition[PrimeNu[Range[300000]],9,1],_?(Length[ Union[ #]] == 1&),{1},Heads->False]] (* _Harvey P. Dale_, May 05 2015 *)
+%K A045937 nonn
+%O A045937 0,1
+%A A045937 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

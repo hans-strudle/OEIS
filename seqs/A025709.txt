@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025709
+Showing 1-1 of 1
+
+%I A025709
+%S A025709 1,2,4,7,11,15,20,26,33,40,48,57,67,78,89,101,114,128,142,157,173,190,
+%T A025709 208,226,245,265,286,307,329,352,376,400,425,451,478,506,534,563,593,
+%U A025709 624,655,687,720,754,789,824,860,897,935,973,1012,1052,1093,1135,1177,1220
+%N A025709 Index of 5^n within sequence of numbers of form 5^i*8^j.
+%Y A025709 Differs from A025703 at a(84).
+%K A025709 nonn
+%O A025709 1,2
+%A A025709 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

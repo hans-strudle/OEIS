@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009567
+Showing 1-1 of 1
+
+%I A009567
+%S A009567 0,1,1,2,8,31,136,692,3968,25261,176896,1351382,11184128,
+%T A009567 99680491,951878656,9695756072,104932671488,1202439837721,
+%U A009567 14544442556416,185185594118762,2475749026562048,34674437196568951
+%V A009567 0,1,-1,2,-8,31,-136,692,-3968,25261,-176896,1351382,-11184128,
+%W A009567 99680491,-951878656,9695756072,-104932671488,1202439837721,
+%X A009567 -14544442556416,185185594118762,-2475749026562048,34674437196568951
+%N A009567 Expansion of e.g.f.: sinh(log(1+sin(x))).
+%C A009567 a(2n) = 1/2*A000182(n+1), a(2n+1) = A012007(n+1)-1. Cf. A009123.
+%C A009567 |a(n)| = number of odd alternating permutations on n letters (offset 1). - _Vladeta Jovovic_, May 20 2007
+%t A009567 With[{nn=30},CoefficientList[Series[Sinh[Log[1+Sin[x]]],{x,0,nn}],x] Range[ 0,nn]!] (* _Harvey P. Dale_, May 11 2014 *)
+%Y A009567 Cf. A000111.
+%K A009567 sign,easy
+%O A009567 0,4
+%A A009567 _R. H. Hardin_
+%E A009567 Extended with signs by _Olivier Gérard_, Mar 15 1997.
+%E A009567 Definition clarified and previous Mathematica program replaced by _Harvey P. Dale_, May 11 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

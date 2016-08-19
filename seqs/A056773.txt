@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056773
+Showing 1-1 of 1
+
+%I A056773
+%S A056773 12,18,24,28,36,40,66,88,124,184,232,328,424,508,664,712,904,1048,
+%T A056773 1384,1432,1528,1864,1912,2008,2248,2344,2586,2872,3352,3448,3544,
+%U A056773 3928,4072,4744,5128,5224,5272,5464,5752,5944,6088,6472,7288,7624,8104,8152,8248
+%N A056773 Composite n such that phi[n+4] = phi[n]+4.
+%F A056773 n=24, Phi[24]+4=8+4=12=Phi[24+4]=Phi[28]
+%t A056773 Select[Range[9000],CompositeQ[#]&&EulerPhi[#]+4==EulerPhi[#+4]&] (* _Harvey P. Dale_, Feb 12 2015 *)
+%Y A056773 A001838, A015913, A055458.
+%K A056773 nonn
+%O A056773 1,1
+%A A056773 _Labos Elemer_, Aug 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

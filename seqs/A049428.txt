@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049428
+Showing 1-1 of 1
+
+%I A049428
+%S A049428 1,1,6,36,246,2046,19716,209616,2441916,31050396,425883816,6244077456,
+%T A049428 97391939976,1609040166696,28029696862896,512903202039936,
+%U A049428 9829166157390096,196739739722616336,4102788435212513376
+%N A049428 Row sums of triangle A049411.
+%H A049428 W. Lang, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LANG/lang.html"> On generalizations of Stirling number triangles</a>, J. Integer Seqs., Vol. 3 (2000), #00.2.4.
+%H A049428 Vladimir Victorovich Kruchinin, <a href="http://arxiv.org/abs/1009.2565">Composition of ordinary generating functions</a>, arXiv:1009.2565
+%F A049428 E.g.f. exp((-1+(1+x)^6)/6).
+%F A049428 a(n)=n!*sum_{k=1..n} sum_{j=0..k} binomial(6*j,n) *(-1)^(k-j)/ (6^k*(k-j)!*j!). [From Vladimir Kruchinin, Feb 07 2011]
+%K A049428 easy,nonn
+%O A049428 0,3
+%A A049428 _Wolfdieter Lang_
+%E A049428 Offset adjusted by _R. J. Mathar_, Aug 29 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

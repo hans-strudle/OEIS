@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014944
+Showing 1-1 of 1
+
+%I A014944
+%S A014944 1,1,0,0,0,1,1,0,0,0,1,0,1,0,0,1,0,0,1,0,1,0,1,2,0,1,0,1,1,1,1,
+%T A014944 0,1,0,1,0,0,1,0,0,1,0,1,0,1,1,1,1,0,1,0,1,0,0,1,0,0,1,0,1,0,1,
+%U A014944 1,1,1,0,1,0,1,0,0,1,0,0,1,0,1,0,1,1,1
+%V A014944 1,-1,0,0,0,1,-1,0,0,0,1,0,-1,0,0,1,0,0,-1,0,1,0,1,-2,0,1,0,1,-1,-1,1,
+%W A014944 0,1,0,-1,0,0,1,0,0,-1,0,1,0,1,-1,-1,1,0,1,0,-1,0,0,1,0,0,-1,0,1,0,1,
+%X A014944 -1,-1,1,0,1,0,-1,0,0,1,0,0,-1,0,1,0,1,-1,-1
+%N A014944 Inverse of 935th cyclotomic polynomial.
+%p A014944 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014944 sign
+%O A014944 0,24
+%A A014944 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

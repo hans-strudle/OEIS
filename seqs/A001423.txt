@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001423
+Showing 1-1 of 1
+
+%I A001423 M3550 N1438
+%S A001423 1,1,4,18,126,1160,15973,836021,1843120128,52989400714478
+%N A001423 Number of semigroups of order n, considered to be equivalent when they are isomorphic or anti-isomorphic (by reversal of the operator).
+%D A001423 A. de Vries, Formal Languages: An Introduction, http://haegar.fh-swf.de/Seminare/Genome/Archiv/languages.pdf
+%D A001423 Andreas Distler and Tom Kelsey, The Monoids of Order Eight and Nine, in Intelligent Computer Mathematics, Lecture Notes in Computer Science, Volume 5144/2008, Springer-Verlag. [From _N. J. A. Sloane_, Jul 10 2009]
+%D A001423 G. E. Forsythe, SWAC computes 126 distinct semigroups of order 4, Proc. Amer. Math. Soc. 6, (1955). 443-447.
+%D A001423 H. Juergensen and P. Wick, Die Halbgruppen von Ordnungen <= 7, Semigroup Forum, 14 (1977), 69-79.
+%D A001423 D. J. Kleitman, B. L. Rothschild and J. H. Spencer, The number of semigroups of order n, Proc. Amer. Math. Soc., 55 (1976), 227-232.
+%D A001423 R. J. Plemmons, There are 15973 semigroups of order 6, Math. Algor., 2 (1967), 2-17; 3 (1968), 23.
+%D A001423 Satoh, S.; Yama, K.; and Tokizawa, M., Semigroups of order 8, Semigroup Forum 49 (1994), 7-29.
+%D A001423 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001423 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001423 Andreas Distler, <a href="http://hdl.handle.net/10023/945">Classification and Enumeration of Finite Semigroups</a>, A Thesis Submitted for the Degree of PhD, University of St Andrews (2010).
+%H A001423 A. Distler and T. Kelsey, <a href="http://arxiv.org/abs/1301.6023">The semigroups of order 9 and their automorphism groups</a>, arXiv preprint arXiv:1301.6023, 2013.
+%H A001423 H. Juergensen and P. Wick, <a href="/A001423/a001423.pdf">Die Halbgruppen von Ordnungen <= 7</a>, annotated and scanned copy.
+%H A001423 R. J. Plemmons, <a href="/A001423/a001423_2.pdf">There are 15973 semigroups of order 6</a> (annotated and scanned copy)
+%H A001423 Eric Postpischil <a href="http://groups.google.com/groups?&amp;hl=en&amp;lr=&amp;ie=UTF-8&amp;selm=11802%40shlump.nac.dec.com&amp;rnum=2">Posting to sci.math newsgroup, May 21 1990</a>
+%H A001423 N. J. A. Sloane, <a href="/A001329/a001329.jpg">Overview of A001329, A001423-A001428, A258719, A258720.</a>
+%H A001423 T. Tamura, <a href="/A001329/a001329.pdf">Some contributions of computation to semigroups and groupoids</a>, pp. 229-261 of J. Leech, editor, Computational Problems in Abstract Algebra. Pergamon, Oxford, 1970. (Annotated and scanned copy)
+%H A001423 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Semigroup.html">Semigroup.</a>
+%H A001423 <a href="/index/Se#semigroups">Index entries for sequences related to semigroups</a>
+%Y A001423 a(n)=(A027851(n)+A029851(n))/2. Cf. A001426, A023814, A058107, A058123, A151823.
+%K A001423 nonn,hard,more,nice
+%O A001423 0,3
+%A A001423 _N. J. A. Sloane_.
+%E A001423 a(9) added by _Andreas Distler_, Jan 12 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

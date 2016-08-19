@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006764
+Showing 1-1 of 1
+
+%I A006764 M5451
+%S A006764 0,0,0,0,400,8640,129288,1688424,20762073,248384816,2937307716
+%N A006764 Number of fixed properly-4-dimensional polyominoes with n cells.
+%D A006764 W. F. Lunnon, Counting multidimensional polyominoes. Computer Journal 18 (1975), no. 4, pp. 366-367.
+%D A006764 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A006764 Cf. A000105. A column of A195739.
+%K A006764 nonn
+%O A006764 1,5
+%A A006764 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

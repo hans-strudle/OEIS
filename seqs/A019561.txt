@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019561
+Showing 1-1 of 1
+
+%I A019561
+%S A019561 1,50,450,1970,5890,14002,28610,52530,89090,142130,216002,315570,
+%T A019561 446210,613810,824770,1086002,1404930,1789490,2248130,2789810,3424002,
+%U A019561 4160690,5010370,5984050,7093250,8350002
+%N A019561 Coordination sequence for C_5 lattice.
+%D A019561 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%F A019561 G.f.: (1+45*x+210*x^2+210*x^3+45*x^4+x^5)/(1-x)^5.
+%K A019561 nonn
+%O A019561 0,2
+%A A019561 mbaake(AT)sunelc3.tphys.physik.uni-tuebingen.de (Michael Baake)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

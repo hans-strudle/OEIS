@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037169
+Showing 1-1 of 1
+
+%I A037169
+%S A037169 2,3,10,28,176,416,2176,4864,23552,178176,380928,2727936,12091392,
+%T A037169 25362432,110886912,750256128,5011144704,10362028032,68287463424,
+%U A037169 289457307648,595222069248,3864866586624,16242224136192
+%N A037169 Prime(n)* Product(prime(n-k) mod prime(n-k-1)); k=0,1...n-2.
+%C A037169 If A_n is the n X n matrix a(i,j)=min(prime(i), prime(j)) then det(M_n)/det(A_n)=prime(n)/2
+%F A037169 Let M_n be the n X n matrix m(i, j)=Max(prime(i), prime(j)); then a(n)=(-1)^(n+1)*det(M_n). - _Benoit Cloitre_, May 11 2002
+%K A037169 easy,nonn
+%O A037169 1,1
+%A A037169 Armand Turpel (armandt(AT)unforgettable.com)
+%E A037169 Corrected and extended by Larry Reeves (larryr(AT)acm.org), Sep 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

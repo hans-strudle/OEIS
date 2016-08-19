@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033433
+Showing 1-1 of 1
+
+%I A033433
+%S A033433 10000,7071,5773,5000,4472,4082,3779,3535,3333,3162,3015,2886,2773,
+%T A033433 2672,2581,2500,2425,2357,2294,2236,2182,2132,2085,2041,2000,1961,
+%U A033433 1924,1889,1856,1825,1796,1767,1740,1714,1690,1666,1643,1622,1601,1581,1561
+%N A033433 [ 10000/sqrt(n) ].
+%t A033433 Table[Floor[10000/Sqrt[n]],{n,50}] (* _Harvey P. Dale_, Dec 20 2015 *)
+%K A033433 nonn,easy
+%O A033433 1,1
+%A A033433 _Jeff Burch_
+%E A033433 More terms from _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

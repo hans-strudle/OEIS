@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056225
+Showing 1-1 of 1
+
+%I A056225
+%S A056225 1,2,3,3,7,3,16,3,27,27,51,131,198,153,680,87,144,1728,837,
+%T A056225 612,1209,8323,7692,18603,19731
+%V A056225 1,-2,3,3,-7,-3,16,3,-27,-27,51,-131,-198,153,680,87,-144,1728,837,
+%W A056225 -612,-1209,8323,7692,-18603,19731
+%N A056225 Hankel transform of number of divisors sequence (A000005).
+%Y A056225 See A001906 for definition of Hankel transform.
+%K A056225 sign,easy
+%O A056225 1,2
+%A A056225 _N. J. A. Sloane_, Aug 06 2000
+%E A056225 More terms from Antonio G. Astudillo (afg_astudillo(AT)lycos.com), Apr 05 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

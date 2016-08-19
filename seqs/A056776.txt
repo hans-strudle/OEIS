@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056776
+Showing 1-1 of 1
+
+%I A056776
+%S A056776 45,65,80,99,112,117,135,171,176,196,207,209,272,279,294,304,310,312,
+%T A056776 369,406,429,477,496,531,592,656,657,711,752,801,909,927,944,981,1014,
+%U A056776 1072,1078,1179,1251,1359,1424,1557,1611,1629,1712,1719,1744,1786,1791
+%N A056776 Composite n such that phi[n+12]=phi[n]+12.
+%C A056776 There are common cases with A054902.
+%e A056776 n=656, Phi[656]=320, Phi[668]=332 n=657, Phi[657]=432, Phi[669]=444
+%Y A056776 A000010, A001838, A015917, A054902, A046133, A046133.
+%K A056776 nonn
+%O A056776 1,1
+%A A056776 _Labos Elemer_, Aug 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

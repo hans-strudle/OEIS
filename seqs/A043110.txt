@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043110
+Showing 1-1 of 1
+
+%I A043110
+%S A043110 7,11,32,35,55,61,82,86,107,111,132,136,157,160,175,207,211,232,236,
+%T A043110 257,261,275,305,311,332,336,357,361,382,386,407,410,430,436,457,461,
+%U A043110 482,486,507,511,532,535,555,561,582,586,607,611
+%N A043110 Numbers n such that 1 and 2 occur juxtaposed in the base 5 representation of n but not of n-1.
+%K A043110 nonn,base
+%O A043110 1,1
+%A A043110 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

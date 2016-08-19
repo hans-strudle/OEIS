@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002673
+Showing 1-1 of 1
+
+%I A002673 M4894 N2097
+%S A002673 1,1,13,41,671,73,597871,7913,28009,792451,170549237,19397633,
+%T A002673 317733228541,9860686403,75397891,170314355593,2084647712458321,
+%U A002673 29327731093,168856464709124011,3063310184201,499338236699611,535201577273701757,23571643935246013553
+%N A002673 Numerators of central difference coefficients M_{3}^{2n+1}.
+%D A002673 H. E. Salzer, Tables of coefficients for obtaining central differences from their derivatives, Journal of Mathematics and Physics, 42 (1963), 162-165.
+%D A002673 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002673 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A002673 Cf. A002672.
+%K A002673 nonn,frac
+%O A002673 1,3
+%A A002673 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

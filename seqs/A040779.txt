@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040779
+Showing 1-1 of 1
+
+%I A040779
+%S A040779 28,2,2,1,5,1,1,1,1,13,1,1,1,1,5,1,2,2,56,2,2,1,5,1,1,1,1,13,1,1,1,1,
+%T A040779 5,1,2,2,56,2,2,1,5,1,1,1,1,13,1,1,1,1,5,1,2,2,56,2,2,1,5,1,1,1,1,13,
+%U A040779 1,1,1,1,5,1,2,2,56,2,2,1,5,1,1,1,1,13,1,1,1,1,5,1,2
+%N A040779 Continued fraction for sqrt(808).
+%H A040779 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040779 with(numtheory): Digits := 300: convert(evalf(sqrt(808)),confrac);
+%K A040779 nonn,cofr,easy
+%O A040779 0,1
+%A A040779 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

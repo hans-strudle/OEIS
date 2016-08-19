@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010853
+Showing 1-1 of 1
+
+%I A010853
+%S A010853 14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,
+%T A010853 14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,14,
+%U A010853 14,14,14,14,14,14,14,14
+%N A010853 Constant sequence: a(n) = 14.
+%C A010853 A146079=2,4,8,5,4,5,8,4,2; a(n)=A146079(3n)+A146079(3n+1)+A146079(3n+2). [From _Paul Curtz_, Feb 13 2009]
+%H A010853 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A010853 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A010853 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1).
+%F A010853 G.f.: 14/(1-x). - Vincenzo Librandi, Jan 19 2012
+%t A010853 Table[14, {70}] (* _Vincenzo Librandi_, Jan 19 2012 *)
+%K A010853 nonn,easy
+%O A010853 0,1
+%A A010853 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

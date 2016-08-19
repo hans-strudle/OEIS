@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054499
+Showing 1-1 of 1
+
+%I A054499
+%S A054499 1,2,5,17,79,554,5283,65346,966156,16411700,312700297,6589356711,
+%T A054499 152041845075,3811786161002,103171594789775,2998419746654530,
+%U A054499 93127358763431113,3078376375601255821,107905191542909828013,3997887336845307589431
+%N A054499 Number of pairings on a bracelet; number of chord diagrams that can be turned over and having n chords.
+%C A054499 Place 2n points equally spaced on a circle. Draw lines to pair up all the points so that each point has exactly one partner. Allow turning over.
+%D A054499 R. C. Read, Some Enumeration Problems in Graph Theory. Ph.D. Dissertation, Department of Mathematics, Univ. London, 1958.
+%H A054499 W. Y.-C. Chen, D. C. Torney, <a href="http://dx.doi.org/10.1016/j.dam.2004.02.013">Equivalence classes of matchings and lattice-square designs</a>, Discr. Appl. Math. 145 (3) (2005) 349-357.
+%H A054499 A. Khruzin, <a href="http://arXiv.org/abs/math.CO/0008209">Enumeration of chord diagrams</a>
+%H A054499 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%H A054499 R. C. Read, <a href="/A002831/a002831.pdf">Letter to N. J. A. Sloane, Feb 04 1971</a> (gives initial terms of this sequence)
+%H A054499 <a href="/index/Br#bracelets">Index entries for sequences related to bracelets</a>
+%F A054499 a(n) = (2*A007769(n)+A047974(n)+A047974(n-1))/4.
+%t A054499 max = 19; alpha[p_, q_?EvenQ] := Sum[Binomial[p, 2*k]*q^k*(2*k-1)!!, {k, 0, max}]; alpha[p_, q_?OddQ] := q^(p/2)*(p-1)!!; a[0] = 1; a[n_] := 1/4*(Abs[HermiteH[n, I/2]] + Abs[HermiteH[n+1, I/2]] + (2*Sum[q = (2*(n+1))/p; alpha[p, q]*EulerPhi[q], {p, 1, Divisors[ 2*(n+1)]}])/(2*(n+1))); Table[a[n], {n, 0, max}] (* _Jean-François Alcover_, Sep 05 2013, after R. J. Mathar *)
+%Y A054499 Cf. A104256.
+%K A054499 nonn,easy,nice
+%O A054499 0,2
+%A A054499 _Christian G. Bower_, Apr 06 2000 based on a problem by _Wouter Meeussen_
+%E A054499 Corrected and extended by _N. J. A. Sloane_, Oct 29 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

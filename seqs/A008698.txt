@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008698
+Showing 1-1 of 1
+
+%I A008698
+%S A008698 1,192,191952,16821504,397751376,4630308480,34416494784,187486720512,
+%T A008698 814895994960,2975529668544,9486529043040,27053048565504,
+%U A008698 70486165778112,169930984401024,384163663508352
+%N A008698 Theta series of Niemeier lattice of type A_7^2 D_5^2.
+%D A008698 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 407.
+%F A008698 This series is the q-expansion of 25/36 E_4(z)^3 + 11/36 E_6(z)^2. Cf. A004009, A013973. - Daniel D. Briggs, Nov 25 2011
+%K A008698 nonn
+%O A008698 0,2
+%A A008698 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

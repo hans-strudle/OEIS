@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042470
+Showing 1-1 of 1
+
+%I A042470
+%S A042470 27,28,55,83,138,221,1243,1464,2707,47483,50190,348623,398813,7128444,
+%T A042470 7527257,14655701,80805762,95461463,176267225,271728688,447995913,
+%U A042470 719724601,39313124367,40032848968
+%N A042470 Numerators of continued fraction convergents to sqrt(763).
+%H A042470 Vincenzo Librandi, <a href="/A042470/b042470.txt">Table of n, a(n) for n = 0..200</a>
+%t A042470 Numerator[Convergents[Sqrt[763], 30]] (* _Vincenzo Librandi_, Nov 25 2013 *)
+%Y A042470 Cf. A042471.
+%K A042470 nonn,cofr,frac,easy
+%O A042470 0,1
+%A A042470 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

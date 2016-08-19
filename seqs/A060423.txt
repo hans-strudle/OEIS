@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060423
+Showing 1-1 of 1
+
+%I A060423
+%S A060423 0,0,0,0,0,5,6,21,24,54,60,110,120,195,210,315,336,476,504,684,720,
+%T A060423 945,990,1265,1320,1650,1716,2106,2184,2639,2730,3255,3360,3960,4080,
+%U A060423 4760,4896,5661,5814,6669,6840,7790,7980,9030,9240,10395,10626
+%N A060423 Number of obtuse triangles made from vertices of a regular n-gon.
+%F A060423 a(n) = n*(n-1)*(n-3)/8 when n odd; n*(n-2)*(n-4)/8 when n even
+%F A060423 G.f.: x^5*(x+5)/((1-x)(1-x^2)^3). - _Michael Somos_, Jan 30 2004
+%F A060423 For n odd, a(n) = A080838(n). - _Gerald McGarvey_, Sep 14 2008
+%F A060423 a(n) = n*(2*n-3-(-1)^n)*(2*n-7-(-1)^n)/32. - _Wesley Ivan Hurt_, Dec 31 2013
+%p A060423 A060423:=n->n*(2*n-3-(-1)^n)*(2*n-7-(-1)^n)/32; seq(A060423(n), n=0..100); # _Wesley Ivan Hurt_, Dec 31 2013
+%t A060423 Table[n(2n-3-(-1)^n)(2n-7-(-1)^n)/32, {n, 0, 100}] (* _Wesley Ivan Hurt_, Dec 31 2013 *)
+%o A060423 (PARI) a(n)=polcoeff(x^5*(5+x)/(1-x)/(1-x^2)^3+x*O(x^n),n)
+%Y A060423 Cf. A007290, A046092, A000330.
+%K A060423 easy,nice,nonn
+%O A060423 0,6
+%A A060423 _Sen-Peng Eu_, Apr 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

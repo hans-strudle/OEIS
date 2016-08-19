@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057437
+Showing 1-1 of 1
+
+%I A057437
+%S A057437 1,2,5,7,9,11,14,22,45,54,67,74,321,706,902,962
+%N A057437 Numbers n such that 10*7^n + 1 is prime.
+%t A057437 Do[ If[ PrimeQ[ 10*7^n + 1], Print[n]], {n, 1, 1000}]
+%K A057437 nonn
+%O A057437 1,2
+%A A057437 _Robert G. Wilson v_, Sep 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

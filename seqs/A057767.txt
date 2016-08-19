@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057767
+Showing 1-1 of 1
+
+%I A057767
+%S A057767 1,2,2,4,2,7,2,4,8,2,11,7,3,11,13,13,5,19,11,3,15,14,14,21,15,7,10,6,
+%T A057767 11,42,12,27,6,45,10,20,17,21,23,25,13,49,7,20,8,52,59,23,9,16,32,9,
+%U A057767 46,33,27,43,7,30,20,12,68,88,22,18,24,88,41,70,14
+%N A057767 Number of twin prime pairs between (P(n))^2 and (P(n+1))^2 where P(n)= n-th prime.
+%C A057767 Conjecture: this sequence is always positive.
+%K A057767 easy,nonn
+%O A057767 0,2
+%A A057767 _Naohiro Nomoto_, Oct 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

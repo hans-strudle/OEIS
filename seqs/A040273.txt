@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040273
+Showing 1-1 of 1
+
+%I A040273
+%S A040273 17,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,
+%T A040273 17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,
+%U A040273 34,17,34,17,34,17,34,17,34,17,34,17,34,17,34,17,34
+%N A040273 Continued fraction for sqrt(291).
+%H A040273 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040273 a(n)=(1/2)*[51+17*(-1)^n]17*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 24 2009]
+%p A040273 with(numtheory): Digits := 300: convert(evalf(sqrt(291)),confrac);
+%K A040273 nonn,cofr,easy
+%O A040273 0,1
+%A A040273 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

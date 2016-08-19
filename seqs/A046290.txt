@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046290
+Showing 1-1 of 1
+
+%I A046290
+%S A046290 14,24,40,44,62,64,70,75,81,84,98,99,114,117,122,127,133,134,140,159,
+%T A046290 167,175,184,188,189,190,200,212,215,232,234,273,274,282,292,300,318,
+%U A046290 348,377,440,516,527,620
+%N A046290 2^a(n) contains 2^4=16 as largest proper substring of form 2^n (probably finite).
+%e A046290 2^14={16}384; 2^24={16}7772{16}; 2^40=109951{16}27776; ...
+%Y A046290 Cf. A033921.
+%K A046290 nonn,base
+%O A046290 0,1
+%A A046290 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

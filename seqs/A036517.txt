@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036517
+Showing 1-1 of 1
+
+%I A036517
+%S A036517 0,300,20100,300700,2001000,50005000,200010000,5000050000,20000100000,
+%T A036517 500000500000,2000001000000,50000005000000,200000010000000,
+%U A036517 5000000050000000,20000000100000000,500000000500000000,2000000001000000000,50000000005000000000
+%N A036517 Smallest triangular number containing exactly n 0's.
+%F A036517 a(n) = A000217(A048355(n)).
+%K A036517 nonn,base
+%O A036517 1,2
+%A A036517 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

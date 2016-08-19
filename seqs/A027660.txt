@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027660
+Showing 1-1 of 1
+
+%I A027660
+%S A027660 1,4,11,26,56,112,210,372,627,1012,1573,2366,3458,4928,6868,9384,
+%T A027660 12597,16644,21679,27874,35420,44528,55430,68380,83655,101556,122409,
+%U A027660 146566,174406,206336,242792
+%N A027660 a(n) = C(n+2,2) + C(n+2,3) + C(n+2,4) + C(n+2,5).
+%C A027660 Also, number of 135246-avoiding permutations of n+2 with exactly 1 descent. E.g., there are 57 permutations of 6 with exactly 1 descent. Of these, only the permutation 135246 contains the pattern 135246 so a(4)=56. - _Mike Zabrocki_, Nov 29 2004
+%C A027660 If Y is a 2-subset of an n-set X then, for n>=5, a(n-5) is the number of 5-subsets of X which have no exactly one element in common with Y. - _Milan Janjic_, Dec 28 2007
+%H A027660 Alexsandar Petojevic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL5/Petojevic/petojevic5.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.1.7
+%H A027660 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A027660 G.f.: (1-2x+2x^2)/(1-x)^6. - _Mike Zabrocki_, Nov 29 2004
+%F A027660 a(n) = binomial(n,5)+binomial(n,3), n>=3. - _Zerinvary Lajos_, Jul 24 2006
+%p A027660 (1/120)*(n+3)*(n+2)*(n+1)*(n^2-n+20);
+%p A027660 [seq(binomial(n,5)+binomial(n,3), n=3..34)]; # _Zerinvary Lajos_, Jul 24 2006
+%p A027660 seq(sum(binomial(n,k+1),k=1..4),n=2..32); # _Zerinvary Lajos_, Dec 14 2007
+%t A027660 a=1;b=2;c=3;s=4;lst={a,s};Do[a+=n;b+=a;c+=b;s+=c;AppendTo[lst,s],{n,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, May 24 2009 *)
+%o A027660 (Sage) [binomial(n,2)+binomial(n,3)+binomial(n,4)+binomial(n,5) for n in xrange(2, 33)] # _Zerinvary Lajos_, May 17 2009
+%Y A027660 Cf. A000295, A051601.
+%K A027660 nonn,easy
+%O A027660 0,2
+%A A027660 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

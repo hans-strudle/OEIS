@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058933
+Showing 1-1 of 1
+
+%I A058933
+%S A058933 1,1,2,1,3,2,4,1,3,4,5,2,6,5,6,1,7,3,8,4,7,8,9,2,9,10,5,6,10,7,11,1,
+%T A058933 11,12,13,3,12,14,15,4,13,8,14,9,10,16,15,2,17,11,18,12,16,5,19,6,20,
+%U A058933 21,17,7,18,22,13,1,23,14,19,15,24,16,20,3,21,25,17,18,26,19,22,4,8,27,23
+%N A058933 a(1)=1; for k>0, if n is k-almost prime then a(n) = number of k-almost primes <= n.
+%H A058933 Alois P. Heinz, <a href="/A058933/b058933.txt">Table of n, a(n) for n = 1..20000</a>
+%F A058933 Ordinal transform of A001222 (bigomega). - _Franklin T. Adams-Watters_, Aug 28 2006
+%e A058933 3 is prime, so a(3)=2. 10 is 2-almost prime (semiprime), so a(10)=4.
+%p A058933 p:= proc() 0 end:
+%p A058933 a:= proc(n) option remember; local t;
+%p A058933       t:= numtheory[bigomega](n);
+%p A058933       p(t):= p(t)+1
+%p A058933     end:
+%p A058933 seq(a(n), n=1..100);  # _Alois P. Heinz_, Oct 09 2015
+%Y A058933 Cf. A001358, A014612, A014613, A014614.
+%Y A058933 Cf. A001222.
+%K A058933 easy,nonn
+%O A058933 1,3
+%A A058933 _Naohiro Nomoto_, Jan 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

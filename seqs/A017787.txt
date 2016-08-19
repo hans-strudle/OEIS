@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017787
+Showing 1-1 of 1
+
+%I A017787
+%S A017787 1,71,2485,57155,971635,13019909,143218999,1329890705,10639125640,
+%T A017787 74473879480,461738052776,2560547383576,12802736917880,58104729088840,
+%U A017787 240719591939480,914734449370024,3201570572795084,10358022441395860,31074067324187580
+%N A017787 Binomial coefficients C(71,n).
+%C A017787 Row 71 of A007318.
+%H A017787 Nathaniel Johnston, <a href="/A017787/b017787.txt">Table of n, a(n) for n = 0..71</a> (full sequence)
+%p A017787 seq(binomial(71,n), n=0..71); # Nathaniel Johnston, Jun 24 2011
+%o A017787 (Sage) [binomial(71, n) for n in range(17)] # [From _Zerinvary Lajos_, May 28 2009]
+%Y A017787 Cf. A010926-A011001, A017765-A017786, A017788-A017816.
+%K A017787 nonn,fini,full,easy
+%O A017787 0,2
+%A A017787 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

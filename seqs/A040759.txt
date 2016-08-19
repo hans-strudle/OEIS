@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040759
+Showing 1-1 of 1
+
+%I A040759
+%S A040759 28,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,
+%T A040759 14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,
+%U A040759 56,14,56,14,56,14,56,14,56,14,56,14,56,14,56,14,56
+%N A040759 Continued fraction for sqrt(788).
+%H A040759 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040759 a(n)=35+21*(-1)^n-28*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 20 2009]
+%p A040759 with(numtheory): Digits := 300: convert(evalf(sqrt(788)),confrac);
+%K A040759 nonn,cofr,easy
+%O A040759 0,1
+%A A040759 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

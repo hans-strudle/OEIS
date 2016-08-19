@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056327
+Showing 1-1 of 1
+
+%I A056327
+%S A056327 0,0,1,4,15,50,160,502,1545,4730,14356,43474,131145,395150,1188580,
+%T A056327 3572902,10732065,32225810,96733636,290322394,871200825,2614097750,
+%U A056327 7843255300,23531775502,70599259185,211805902490
+%N A056327 Number of reversible string structures with n beads using exactly three different colors.
+%C A056327 A string and its reverse are considered to be equivalent. Permuting the colors will not change the structure.
+%D A056327 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056327 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-6,-24,49,6,-66,36).
+%F A056327 A001998(n-1)-A005418(n).
+%F A056327 G.f.: x^3*(3*x^4-8*x^3+3*x^2+2*x-1)/((x-1)*(2*x-1)*(3*x-1)*(2*x^2-1)*(3*x^2-1)). [_Colin Barker_, Sep 23 2012]
+%Y A056327 Cf. A056310.
+%K A056327 nonn,easy
+%O A056327 1,4
+%A A056327 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

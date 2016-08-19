@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026524
+Showing 1-1 of 1
+
+%I A026524
+%S A026524 1,3,9,28,65,201,430,1316,2721,8259,16793,50680,102102,306958,615024,
+%T A026524 1844304,3682545,11024331,21963161,65675764,130648089,390374193,
+%U A026524 775797750,2316881892,4601346295,13737041045,27270124455
+%N A026524 a(n) = T(n,n-4), T given by A026519. Also a(n) = number of integer strings s(0),...,s(n), counted by T, such that s(n)=4.
+%K A026524 nonn
+%O A026524 4,2
+%A A026524 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

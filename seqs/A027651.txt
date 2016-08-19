@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027651
+Showing 1-1 of 1
+
+%I A027651
+%S A027651 1,16,146,1066,6902,41506,237686,1315666,7107302,37712866,197451926,
+%T A027651 1023358066,5262831302,26903268226,136887643766,693968021266,
+%U A027651 3508093140902,17693879415586,89084256837206
+%N A027651 Poly-Bernoulli numbers B_n^(k) with k=-4.
+%H A027651 Vincenzo Librandi, <a href="/A027651/b027651.txt">Table of n, a(n) for n = 0..500</a>
+%H A027651 Ken Kamano, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Kamano/kamano5.html">Sums of Products of Poly-Bernoulli Numbers of Negative Index</a>, Journal of Integer Sequences, Vol. 15 (2012), #12.1.3.
+%H A027651 Masanobu Kaneko, <a href="http://www.numdam.org/item?id=JTNB_1997__9_1_221_0">Poly-Bernoulli numbers</a>, Journal de théorie des nombres de Bordeaux, 9 no. 1 (1997), Pages 221-228.
+%H A027651 Hiroyuki Komaki, <a href="http://arxiv.org/abs/1503.04933">Relations between Multi-Poly-Bernoulli numbers and Poly-Bernoulli numbers of negative index</a>, arXiv:1503.04933 [math.NT], 2015.
+%H A027651 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%F A027651 a(n) = 24*5^n-36*4^n+14*3^n-2^n. - _Vladeta Jovovic_, Nov 14 2003
+%F A027651 G.f.: (1+4*x)*((1-x)^2)/((1-2*x)*(1-3*x)*(1-4*x)*(1-5*x)).
+%p A027651 (-1)^n*sum( (-1)^'m'*'m'!*stirling2(n,'m')/('m'+1)^k,'m'=0..n);
+%o A027651 (MAGMA) [24*5^n-36*4^n+14*3^n-2^n: n in [0..30]]; // _Vincenzo Librandi_, Jul 17 2011
+%o A027651 (PARI) Vec((1+4*x)*((1-x)^2)/((1-2*x)*(1-3*x)*(1-4*x)*(1-5*x)) + O(x^30)) \\ _Michel Marcus_, Feb 13 2015
+%Y A027651 Cf. A027649, A027650.
+%Y A027651 Row 4 of array A099594.
+%K A027651 nonn,easy
+%O A027651 0,2
+%A A027651 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

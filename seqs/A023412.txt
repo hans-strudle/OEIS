@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023412
+Showing 1-1 of 1
+
+%I A023412
+%S A023412 8,8,8,3,3,3,3,8,3,3,3,8,8,8,8,8,8,8,8,8,8,8,8,3,8,8,3,3,8,8,8,3,3,3,
+%T A023412 3,8,3,8,8,8,8,8,3,3,3,3,8,3,8,8,3,3,3,3,8,3,8,3,3,8,3,8,8,8,3,3,3,8,
+%U A023412 3,8,8,8,3,3,3,3,3,8,3,3,3,8,8,3,8,8,3,8,8,3,8,3,3,8,8,3,8,3,8,8,3,3,8,8,3,3,8,8
+%N A023412 If any power of 2 ends with k 3's and 8's, they must be the first k elements of this sequence in reverse order.
+%K A023412 nonn
+%O A023412 0,1
+%A A023412 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

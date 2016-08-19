@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017062
+Showing 1-1 of 1
+
+%I A017062
+%S A017062 60466176,137858491849,10240000000000,205891132094649,
+%T A017062 2064377754059776,13422659310152401,64925062108545024,
+%U A017062 253295162119140625,839299365868340224,2446194060654759801,6428888932339941376
+%N A017062 (7*n+6)^10.
+%H A017062 Vincenzo Librandi, <a href="/A017062/b017062.txt">Table of n, a(n) for n = 0..5000</a>
+%t A017062 (7Range[0,10]+6)^10  (* _Harvey P. Dale_, Feb 08 2011 *)
+%o A017062 (MAGMA) [(7*n+6)^10: n in [0..20]]; // Vincenzo Librandi, Jul 10 2011
+%K A017062 nonn,easy
+%O A017062 0,1
+%A A017062 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

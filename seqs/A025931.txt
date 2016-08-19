@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025931
+Showing 1-1 of 1
+
+%I A025931
+%S A025931 1,17,188,1726,14343,112371,848506,6255392,45386165,325753285,
+%T A025931 2320698744,16447547298,116147697667,818112983159,5752200695702,
+%U A025931 40392496919044,283383067688049,1986859807248393,13923911479636180
+%N A025931 Expansion of 1/((1-2x)(1-3x)(1-5x)(1-7x)).
+%H A025931 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (17,-101,247,-210)
+%F A025931 a(n) = 12*a(n-1) -35*a(n-2) +3^(n+1) -2^(n+1), n>=2. - Vincenzo Librandi, Mar 19 2011
+%F A025931 a(n) = 7^(n+3)/40 -2^(n+3)/15 +3^(n+3)/8 -5^(n+3)/12. - R. J. Mathar, Mar 19 2011
+%t A025931 CoefficientList[Series[1/((1-2x)(1-3x)(1-5x)(1-7x)),{x,0,20}],x] (* or *) LinearRecurrence[{17,-101,247,-210},{1,17,188,1726},20] (* _Harvey P. Dale_, Aug 05 2013 *)
+%K A025931 nonn
+%O A025931 0,2
+%A A025931 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045516
+Showing 1-1 of 1
+
+%I A045516
+%S A045516 40320,479001600,403291461126605635584000000,
+%T A045516 4274883284060025564298013753389399649690343788366813724672000000000000,
+%U A045516 40526919504877216755680601905432322134980384796226602145184481280000000000000
+%N A045516 Factorials with initial digit '4'.
+%C A045516 Benford's law suggests that this sequence will contain about (log 5 - log 4)/log 10 =~ 10% of factorials. [From _Charles R Greathouse IV_, Nov 13 2010]
+%C A045516 The next term (a(6)) has 106 digits. - _Harvey P. Dale_, Nov 05 2015
+%t A045516 Select[Range[200]!,IntegerDigits[#][[1]]==4&] (* _Harvey P. Dale_, Nov 05 2015 *)
+%K A045516 nonn,base
+%O A045516 1,1
+%A A045516 _Jeff Burch_
+%E A045516 One more term (a(5)) from _Harvey P. Dale_, Nov 05 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

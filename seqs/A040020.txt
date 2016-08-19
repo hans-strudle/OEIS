@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040020
+Showing 1-1 of 1
+
+%I A040020
+%S A040020 5,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,
+%T A040020 10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,
+%U A040020 10,10,10,10,10,10,10,10,10
+%N A040020 Continued fraction for sqrt(26).
+%H A040020 Harry J. Smith, <a href="/A040020/b040020.txt">Table of n, a(n) for n = 0..20000</a>
+%H A040020 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%H A040020 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040020 a(n) = 10 - 5*(binomial(2*n,n) mod 2), with n>=0. - _Paolo P. Lava_, Jun 09 2009
+%e A040020 5.09901951359278483002822... = 5 + 1/(10 + 1/(10 + 1/(10 + 1/(10 + ...)))). - _Harry J. Smith_, Jun 03 2009
+%p A040020 Digits := 100: convert(evalf(sqrt(N)),confrac,90,'cvgts'):
+%t A040020 ContinuedFraction[Sqrt[26],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 05 2011 *)
+%o A040020 (PARI) { allocatemem(932245000); default(realprecision, 41000); x=contfrac(sqrt(26)); for (n=0, 20000, write("b040020.txt", n, " ", x[n+1])); } \\ _Harry J. Smith_, Jun 03 2009
+%Y A040020 Cf. A010481 Decimal expansion. - _Harry J. Smith_, Jun 03 2009
+%K A040020 nonn,cofr,easy
+%O A040020 0,1
+%A A040020 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

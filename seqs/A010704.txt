@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010704
+Showing 1-1 of 1
+
+%I A010704
+%S A010704 3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,
+%T A010704 3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,3,6,
+%U A010704 3,6,3,6,3,6,3,6,3,6,3,6,3
+%N A010704 Period 2: repeat (3,6).
+%C A010704 Continued fraction expansion of A176105. - R. J. Mathar, Mar 08 2012
+%C A010704 a(n) = A213999(n,2). - _Reinhard Zumkeller_, Jul 03 2012
+%H A010704 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010704 a(n)=-3/2*(-1)^n+9/2 =6*(n mod 2)+3*[(n+1) mod 2] - _Paolo P. Lava_, Oct 20 2006
+%F A010704 G.f. 3*(1+2x)/((1-x)*(1+x)). - R. J. Mathar, Nov 21 2011
+%F A010704 a(n) = 3 * A000034(n). - _Reinhard Zumkeller_, Jul 03 2012
+%t A010704 PadRight[{},120,{3,6}] (* _Harvey P. Dale_, Dec 12 2012 *)
+%o A010704 (PARI) a(n)=3+n%2*3 \\ _Charles R Greathouse IV_, Dec 21 2011
+%o A010704 (Haskell)
+%o A010704 a010704 n = (* 3) . a000034
+%o A010704 a010704_list = cycle [3,6]  -- _Reinhard Zumkeller_, Jul 03 2012
+%K A010704 nonn,easy
+%O A010704 0,1
+%A A010704 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

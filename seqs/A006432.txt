@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006432
+Showing 1-1 of 1
+
+%I A006432 M3166
+%S A006432 0,3,60,650,5352,37681,239752,1421226,7996160,43219990,226309800,
+%T A006432 1154900708
+%N A006432 Tree-rooted planar maps.
+%D A006432 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006432 Walsh, T. R. S.; Lehman, A. B.; Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%F A006432 a(n) seems to be divisible by n+1. - _Ralf Stephan_, Sep 01 2003
+%K A006432 nonn
+%O A006432 1,2
+%A A006432 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

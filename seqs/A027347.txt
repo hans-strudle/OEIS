@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027347
+Showing 1-1 of 1
+
+%I A027347
+%S A027347 1,0,0,1,1,1,0,1,2,1,1,2,3,2,2,3,4,3,3,5,6,6,5,7,9,8,8,11,12,12,12,15,
+%T A027347 18,17,18,22,25,25,26,30,34,34,36,42,47,48,50,57,64,65,69,78,85,89,93,
+%U A027347 104,114,118,125,139,151,157,166,183,198,207
+%N A027347 Number of partitions of n into distinct odd parts, the least being congruent to 1 mod 4.
+%K A027347 nonn
+%O A027347 1,9
+%A A027347 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062228
+Showing 1-1 of 1
+
+%I A062228
+%S A062228 3,9,195,515,857,11393
+%N A062228 Smoothly undulating palindromic primes of the form (92*10^a(n)-29)/99.
+%C A062228 Prime versus probable prime status and proofs are given in the author's table.
+%C A062228 No further terms < 100000. - _Ray Chandler_, Aug 17 2011
+%H A062228 P. De Geest, <a href="http://www.worldofnumbers.com/undulat.htm#supp929">SUPP Reference Table - 929</a>
+%H A062228 <a href="/index/Pri#pri_supp">Index entries for sequences related to smoothly undulating palindromic primes</a>
+%e A062228 a(n)=9 -> (92*10^9-29)/99 = 929292929.
+%Y A062228 Cf. A062209-A062232, A059758, A032758.
+%K A062228 nonn,base
+%O A062228 1,1
+%A A062228 _Patrick De Geest_ and Hans Rosenthal (Hans.Rosenthal(AT)t-online.de), Jun 15 2001.
+%E A062228 Edited by _Ray Chandler_, Aug 17 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

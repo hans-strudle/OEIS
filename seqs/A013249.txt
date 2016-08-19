@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013249
+Showing 1-1 of 1
+
+%I A013249
+%S A013249 1,4,6,0,90,600,6440,96320,282240,28800,63518400,658944000,
+%T A013249 11371279920,255692673600,859133808000,9642264652800,
+%U A013249 1104139083715200,14885344037491200,258279234868512000
+%V A013249 -1,4,-6,0,-90,600,6440,-96320,282240,-28800,63518400,-658944000,
+%W A013249 -11371279920,255692673600,-859133808000,9642264652800,
+%X A013249 -1104139083715200,14885344037491200,258279234868512000
+%N A013249 arctan(log(x+1)-arctan(x))=-1/2!*x^2+4/3!*x^3-6/4!*x^4-90/6!*x^6...
+%t A013249 With[{nn=20},Drop[CoefficientList[Series[ArcTan[Log[x+1]-ArcTan[x]],{x,0,nn}],x] Range[0,nn]!,2]] (* _Harvey P. Dale_, Jun 17 2013 *)
+%K A013249 sign
+%O A013249 0,2
+%A A013249 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013249 Definition clarified by _Harvey P. Dale_, Jun 17 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

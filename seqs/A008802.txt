@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008802
+Showing 1-1 of 1
+
+%I A008802
+%S A008802 1,0,2,0,3,0,4,0,5,1,7,2,9,3,11,4,13,5,16,7,19,9,22,11,25,13,28,16,32,
+%T A008802 19,36,22,40,25,44,28,49,32,54,36,59,40,64,44,69,49,75,54,81,59,87,64,
+%U A008802 93,69,100,75,107,81,114
+%N A008802 Molien series for 3-dimensional group [2,n]+ = 22n.
+%H A008802 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%p A008802 (1+x^10)/(1-x^2)^2/(1-x^9)
+%t A008802 CoefficientList[Series[(1+x^10)/(1-x^2)^2/(1-x^9),{x,0,60}],x] (* _Harvey P. Dale_, Nov 28 2012 *)
+%K A008802 nonn
+%O A008802 0,3
+%A A008802 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

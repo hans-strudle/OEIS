@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001089
+Showing 1-1 of 1
+
+%I A001089
+%S A001089 0,0,0,0,3,24,133,635,2807,11864,48756,196707,783750,3095708,12152855,
+%T A001089 47500635,185082495,719559600,2793121080,10830450780,41965864794,
+%U A001089 162539516448,629399492330,2437072038302,9437097796918
+%N A001089 Number of permutations of [n] containing exactly 2 increasing subsequences of length 3.
+%D A001089 Mansour, Toufik; Yan, Sherry H. F.; and Yang, Laura L. M.; Counting occurrences of 231 in an involution. Discrete Math. 306 (2006), 564-572.
+%H A001089 M. Fulmek, Enumeration of permutations containing a prescribed number of occurrences of a pattern of length three, Adv. Appl. Math., 30, 2003, 607-632. also <a href="http://arxiv.org/abs/math.co/0112092">Arxiv CO/0112092</a>
+%H A001089 T. Mansour and A. Vainshtein, <a href="http://www.arXiv.org/abs/math.CO/0105073">Counting occurrences of 123 in a permutation</a>.
+%H A001089 J. Noonan and D. Zeilberger, <a href="http://arXiv.org/abs/math.CO/9808080">[math/9808080] The Enumeration of Permutations With a Prescribed Number of ``Forbidden'' Patterns</a>. Also Adv. in Appl. Math. 17 (1996), no. 4, 381--407. MR1422065 (97j:05003).
+%F A001089 Noonan and Zeilberger conjectured that a(n) = ((59*n^2+117*n+100)/(2*n*(2*n-1)*(n+5)))*binomial(2*n,n-4). This was proved by Fulmek.
+%F A001089 G.f.: ((x^5-3*x^4+5*x^3-10*x^2+6*x-1)*(1-4*x)^(1/2) - 5*x^5+7*x^4-17*x^3+20*x^2-8*x+1)/(2*x^6). - _Mark van Hoeij_, Oct 25 2011
+%Y A001089 Cf. A003517, A084249, A138159.
+%Y A001089 Leading column of A229158.
+%K A001089 nonn
+%O A001089 0,5
+%A A001089 John Thomas Noonan [ noonan(AT)euclid.math.temple.edu ]
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062569
+Showing 1-1 of 1
+
+%I A062569
+%S A062569 1,1,3,12,60,360,2418,19344,159120,1481040,15334088,184009056,
+%T A062569 2217441408,31044179712,442487616480,6686252969760,107004539285280,
+%U A062569 1926081707135040,34683832925921088,693676658518421760
+%N A062569 a(n) = sigma(n!).
+%F A062569 a(n) = A000203(A000142(n)). - _Michel Marcus_, Jan 10 2015
+%p A062569 with(numtheory):seq(sigma(n!), n=0..19); # _Zerinvary Lajos_, Feb 15 2008
+%t A062569 Array[DivisorSigma[1,#! ]&,33,1] (* _Vladimir Joseph Stephan Orlovsky_, Nov 01 2009 *)
+%o A062569 (PARI) for(n=0,21,print(sigma(n!)))
+%o A062569 (Sage) [sigma(factorial(n),1)for n in xrange(0,20)] # _Zerinvary Lajos_, Jun 13 2009
+%K A062569 easy,nonn
+%O A062569 0,3
+%A A062569 Jason Earls (zevi_35711(AT)yahoo.com), Jul 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

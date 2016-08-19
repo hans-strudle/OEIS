@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004781
+Showing 1-1 of 1
+
+%I A004781
+%S A004781 7,14,15,23,28,29,30,31,39,46,47,55,56,57,58,59,60,61,62,63,71,78,79,
+%T A004781 87,92,93,94,95,103,110,111,112,113,114,115,116,117,118,119,120,121,
+%U A004781 122,123,124,125,126,127,135,142,143,151,156,157,158,159,167
+%N A004781 Binary expansion contains 3 adjacent 1's.
+%H A004781 Reinhard Zumkeller, <a href="/A004781/b004781.txt">Table of n, a(n) for n = 1..10000</a>
+%F A004781 a(n) ~ n. - _Charles R Greathouse IV_, Sep 24 2012
+%t A004781 Select[Range[200],MemberQ[Partition[IntegerDigits[#,2],3,1], {1,1,1}]&]  (* _Harvey P. Dale_, Mar 31 2011 *)
+%o A004781 (Haskell)
+%o A004781 a004781 n = a004781_list !! (n - 1)
+%o A004781 a004781_list = filter f [0..] where
+%o A004781    f x | x < 7     = False
+%o A004781        | otherwise = (x `mod` 8) == 7 || f (x `div` 2)
+%o A004781 -- _Reinhard Zumkeller_, Jun 03 2012
+%o A004781 (PARI) is(n)=!!bitand(bitand(n,n<<1),n<<2) \\ _Charles R Greathouse IV_, Sep 24 2012
+%Y A004781 Cf. A004779, A136037; complement of A003726.
+%K A004781 nonn,easy
+%O A004781 1,1
+%A A004781 _N. J. A. Sloane_.
+%E A004781 Offset corrected by _Reinhard Zumkeller_, Jun 03 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

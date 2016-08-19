@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031186
+Showing 1-1 of 1
+
+%I A031186
+%S A031186 1,12,22,4,10,22,28,10,22,1,12,22,28,12,22,6,10,22,28,12,22,28,12,22,
+%T A031186 28,10,22,28,12,22,28,12,22,28,10,22,4,12,22,4,12,22,28,10,22,28,10,
+%U A031186 22,28,10,22,28,10,22,4,12,22,28,12,22,6,10,22,28,12,22,28,10,22
+%N A031186 Periods of sum of 5th powers of digits iterated until the sequence becomes periodic.
+%H A031186 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Digitaddition.html">Digitaddition.</a>
+%K A031186 nonn,base
+%O A031186 0,2
+%A A031186 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

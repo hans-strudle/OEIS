@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008821
+Showing 1-1 of 1
+
+%I A008821
+%S A008821 1,0,2,0,3,0,4,0,5,2,6,4,7,6,8,8,11,10,14,12,17,14,20,16,23,20,26,24,
+%T A008821 29,28,32,32,37,36,42,40,47,44,52,48,57,54,62,60,67,66,72,72,79,78,86,
+%U A008821 84,93,90,100,96,107,104,114
+%N A008821 Expansion of (1+2*x^9+x^16)/(1-x^2)^2/(1-x^16).
+%K A008821 nonn
+%O A008821 0,3
+%A A008821 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022660
+Showing 1-1 of 1
+
+%I A022660
+%S A022660 1,32,560,7104,72888,640320,4985600,35202496,229089692,1390677728,
+%T A022660 7947553824,43070246592,222637403008,1103015334464,5258564956736,
+%U A022660 24206137227648,107897964171910,466891402634624
+%N A022660 Expansion of Product (1+m*q^m)^32; m=1..inf.
+%K A022660 nonn
+%O A022660 0,2
+%A A022660 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027917
+Showing 1-1 of 1
+
+%I A027917
+%S A027917 3,10,21,38,63,95,137,191,256,334,427,535
+%N A027917 a(n) = least k such that 1+2+...+k >= E{1,2,...,n}, where E = 3rd elementary symmetric function.
+%K A027917 nonn
+%O A027917 3,1
+%A A027917 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

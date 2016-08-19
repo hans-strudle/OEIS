@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029902
+Showing 1-1 of 1
+
+%I A029902
+%S A029902 1,3,4,6,8,10,12,13,15,16,18,20,21,23,25,27,29,30,32,33,35,37,39,41,
+%T A029902 43,44,46,47,49,50,52,54,55,57,59,61,63,64,66,68,70
+%N A029902 h(n), where strategic move on g(n) X 3 rectangle in Chomp is (h(n),2). Conjectured to be complementary to r(n), see A029905.
+%D A029902 E. R. Berlekamp, J. H. Conway and R. K. Guy, Winning Ways vol. 2, 598-600.
+%D A029902 M. Gardner, Mathematical Games, Sci. Amer. (Jan, May 1973).
+%Y A029902 See also A029899 - A029905.
+%K A029902 nonn
+%O A029902 0,2
+%A A029902 _Fred Lunnon_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016782
+Showing 1-1 of 1
+
+%I A016782
+%S A016782 1,4096,117649,1000000,4826809,16777216,47045881,113379904,244140625,
+%T A016782 481890304,887503681,1544804416,2565726409,4096000000,6321363049,
+%U A016782 9474296896,13841287201,19770609664,27680640625
+%N A016782 (3*n+1)^6.
+%H A016782 Vincenzo Librandi, <a href="/A016782/b016782.txt">Table of n, a(n) for n = 0..10000</a>
+%o A016782 (MAGMA) [(3*n+1)^6: n in [0..30]]; // Vincenzo Librandi, Sep 21 2011
+%K A016782 nonn,easy
+%O A016782 0,2
+%A A016782 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000283
+Showing 1-1 of 1
+
+%I A000283
+%S A000283 0,1,1,2,5,29,866,750797,563696885165,317754178345286893212434,
+%T A000283 100967717855888389973004846476977145423449281581
+%N A000283 a(n) = a(n-1)^2 + a(n-2)^2.
+%H A000283 Vincenzo Librandi, <a href="/A000283/b000283.txt">Table of n, a(n) for n = 0..14</a>
+%F A000283 a(0)=0; for n>=1, a(n)=floor(A^(2^(n-1))), where
+%F A000283 A=1.235392737785436889622331013228440824347457186913679454733601897236639743839118542826528455451978134... - _Benoit Cloitre_, May 03 2003
+%p A000283 A000283 := proc(n) option remember; if n <= 1 then n else A000283(n-2)^2+A000283(n-1)^2; fi; end;
+%t A000283 Join[{a=0,b=1},Table[c=a^2+b^2;a=b;b=c,{n,12}]] (* _Vladimir Joseph Stephan Orlovsky_, Jan 22 2011*)
+%o A000283 (PARI) a(n)=if(n<2,n>0,a(n-1)^2+a(n-2)^2)
+%Y A000283 Cf. A000278.
+%K A000283 nonn,easy
+%O A000283 0,4
+%A A000283 greenfie(AT)math.rutgers.edu (Stephen J. Greenfield)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

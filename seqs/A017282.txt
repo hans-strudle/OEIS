@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017282
+Showing 1-1 of 1
+
+%I A017282
+%S A017282 1,121,441,961,1681,2601,3721,5041,6561,8281,10201,12321,14641,17161,
+%T A017282 19881,22801,25921,29241,32761,36481,40401,44521,48841,53361,58081,
+%U A017282 63001,68121,73441,78961,84681,90601,96721,103041,109561,116281,123201
+%N A017282 (10*n+1)^2.
+%H A017282 Vincenzo Librandi, <a href="/A017282/b017282.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017282 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A017282 G.f.: (1+118*x+81*x^2)/(1-x)^3.  - _Bruno Berselli_, Jul 30 2011
+%o A017282 (MAGMA) [(10*n+1)^2: n in [0..35]]; // _Vincenzo Librandi_, Jul 30 2011
+%o A017282 (PARI) for(n=0, 35, print1((10*n+1)^2", ")); \\ _Bruno Berselli_, Jul 30 2011
+%K A017282 nonn,easy
+%O A017282 0,2
+%A A017282 _N. J. A. Sloane_.
+%E A017282 More terms by _Bruno Berselli_, Jul 30 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

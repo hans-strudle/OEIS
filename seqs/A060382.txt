@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060382
+Showing 1-1 of 1
+
+%I A060382
+%S A060382 22,100,255,708,1079,2656,1021,593,196,1011,237,2196,361,447,413,3297,
+%T A060382 519,341,379,711,461,505,551,1022,649,701,755,811,869,929,991,1055,
+%U A060382 1799,1922,1259,1331,1405,1481,1559,1639,1595,1762,1891,1934,2069,2161
+%N A060382 In base n, a(n) is the smallest number m that leads to a palindrome-free sequence, using the following process: start with m; reverse the digits and add it to m, repeat. Stop if you reach a palindrome.
+%C A060382 Only a(2) and a(4) are proved, all the others are conjectured. - _Eric Chen_, Apr 20 2015
+%H A060382 Karl Hovekamp, Jan 03 2007, <a href="/A060382/b060382.txt">Table of n, a(n) for n = 2..3428</a>
+%H A060382 K. S. Brown, <a href="http://www.mathpages.com/home/kmath004/kmath004.htm">Digit Reversal Sums Leading to Palindromes</a>
+%e A060382 a(2) = 22 since A062129(k) > -1 (equivalently, A062131(k) > -1) for k < 22.
+%Y A060382 For the first palindrome in non-palindrome-free sequences, cf. A062129/A062131 (base 2), A033865 (base 10), A253241 (base 12).
+%K A060382 nonn,base
+%O A060382 2,1
+%A A060382 Michel ten Voorde (seqfan(AT)tenvoorde.org) Apr 03 2001
+%E A060382 More terms from _Karl Hovekamp_, Jan 03 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

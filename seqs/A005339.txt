@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005339
+Showing 1-1 of 1
+
+%I A005339 M5245
+%S A005339 35,154,424,930,1775,3080,4985,7650,11256,16006,22126,29866,39501,
+%T A005339 51332,65687,82922,103422,127602,155908,188818,226843,270528,320453,
+%U A005339 377234,441524,514014,595434,686554,788185,901180,1026435,1164890,1317530
+%N A005339 Putting balls into 6 boxes.
+%D A005339 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005339 Solution to Problem 68-16, SIAM Rev. 12 (1970), 294-297.
+%H A005339 Philippe Flajolet, <a href="http://algo.inria.fr/libraries/autocomb/balls-html/balls1.html">BALLS AND URNS, ETC.</a> A problem in submarine detection (solution to probl.68-16)
+%H A005339 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6, -15, 20, -15, 6, -1).
+%F A005339 G.f.: x^12*(35-56*x+25*x^2-4*x^3+x^6)/(1-x)^6. - _Vladeta Jovovic_, Apr 13 2008
+%F A005339 a(12)=35, a(13)=154, a(14)=424, a(15)=930, a(16)=1775, a(17)=3080, a(18)=4985, a(n)=6*a(n-1)-15*a(n-2)+20*a(n-3)-15*a(n-4)+ 6*a(n-5)- a(n-6) [From Harvey P. Dale, Aug 12 2011]
+%t A005339 Drop[CoefficientList[Series[x^12(35-56x+25x^2-4x^3+x^6)/(1-x)^6, {x,0, 60}], x],12] (* or *) Join[{35},LinearRecurrence[{6,-15,20,-15,6,-1},{154,424,930,1775,3080,4985},48]] (* _Harvey P. Dale_, Aug 12 2011 *)
+%Y A005339 Cf. A005337, A005338, A005340.
+%K A005339 nonn,easy
+%O A005339 12,1
+%A A005339 _N. J. A. Sloane_.
+%E A005339 More terms from _Vladeta Jovovic_, Apr 13 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

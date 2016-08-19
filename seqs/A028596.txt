@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028596
+Showing 1-1 of 1
+
+%I A028596
+%S A028596 1,8,40,128,328,656,1216,1864,2856,3560,5392,6368,9856,10640,17000,
+%T A028596 16832,22600,23760,32776,32576,43792,52864,57568,58560,78528,76024,
+%U A028596 94864,98432,137864,116720,152512
+%N A028596 Expansion of (theta_3(z)*theta_3(7z)+theta_2(z)*theta_2(7z))^4.
+%K A028596 nonn
+%O A028596 0,2
+%A A028596 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

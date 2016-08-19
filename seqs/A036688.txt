@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036688
+Showing 1-1 of 1
+
+%I A036688
+%S A036688 5,18,119,698,5449,41735,359207,3085197,27434602,243921771
+%N A036688 Number of distinct n-digit suffixes of base 10 squares not containing digit 0.
+%D A036688 Amer. Math. Monthly, Vol. 5 (1898), p. 26, Problem 57; reprinted on p. 906 of Vol. 105 (1998).
+%e A036688 Any square ends with one of [ 0 ], 1, 4, 5, 6, 9, so a(1) = 5.
+%e A036688 a(3) = A000993(3) - a(2) - #{100, 104, 201, 204, 209, 304, 400, 401, 404, 409, 500, 504, 600, 601, 604, 609, 704, 801, 804, 809, 900, 904} = 159 - 18 - 22 = 119, cf. A122986. - _Reinhard Zumkeller_, Mar 21 2010
+%t A036688 (* A partly empirical script *) a[n_] := (Clear[qr]; qr[_] = False; For[k = 1, k <= 10^n/4, k++, m = PowerMod[k, 2, 10^n]; If[m > 10^(n-1) && FreeQ[IntegerDigits[m], 0], qr[m] = True]]; For[cnt = 0; k = 10^(n-1)+1, k <= 10^n-1, k++, If[qr[k], cnt++]]; cnt); a[1] = 5; Table[an = a[n]; Print["a(", n, ") = ", an]; an, {n, 1, 10}] (* _Jean-François Alcover_, Jul 31 2015 *)
+%Y A036688 Cf. A036788.
+%K A036688 base,nonn,nice
+%O A036688 1,1
+%A A036688 _R. K. Guy_
+%E A036688 Explanation and more terms from _David W. Wilson_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

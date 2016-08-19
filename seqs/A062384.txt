@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062384
+Showing 1-1 of 1
+
+%I A062384
+%S A062384 279,297,357,375,537,573,729,735,753,792,927,972,1447,1474,1744,4147,
+%T A062384 4174,4417,4471,4714,4741,7144,7414,7441,11367,11376,11637,11673,
+%U A062384 11736,11763,12247,12274,12427,12472,12724,12742,13167,13176,13617,13671
+%N A062384 Numbers whose product of digits is 7 times the sum of the digits.
+%H A062384 Harry J. Smith, <a href="/A062384/b062384.txt">Table of n, a(n) for n=1,...,500</a>
+%e A062384 1447 belong to the sequence as (1*4*4*7)/(1+4+4+7) =112/16 = 7.
+%o A062384 (PARI) SumD(x)= { s=0; while (x>9, s+=x-10*(x\10); x\=10); return(s + x) } ProdD(x)= { p=1; while (x>9, p*=(x-10*(x\10)); x\=10); return(p*x) } { n=0; for (m=1, 10^9, if (ProdD(m)==7*SumD(m), write("b062384.txt", n++, " ", m); if (n==500, break)) ) } [From _Harry J. Smith_, Aug 06 2009]
+%K A062384 nonn,base,easy
+%O A062384 1,1
+%A A062384 _Amarnath Murthy_, Jun 27 2001
+%E A062384 Corrected and extended by Larry Reeves (larryr(AT)acm.org), Jul 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

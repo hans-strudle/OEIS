@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032295
+Showing 1-1 of 1
+
+%I A032295
+%S A032295 4,6,16,45,132,404,1296,4380,15064,53622,192696,703895,2589300,
+%T A032295 9606744,35824088,134297280,505421340,1909194056,7234153416,
+%U A032295 27489073899,104717489748,399827555604,1529763696816
+%N A032295 Number of aperiodic bracelets (turn over necklaces) with n beads of 4 colors.
+%H A032295 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032295 F. Ruskey, <a href="http://www.theory.cs.uvic.ca/~cos/inf/neck/NecklaceInfo.html">Necklaces, Lyndon words, De Bruijn sequences, etc.</a>
+%H A032295 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A032295 <a href="/index/Br#bracelets">Index entries for sequences related to bracelets</a>
+%F A032295 MOEBIUS transform of A032275.
+%K A032295 nonn
+%O A032295 1,1
+%A A032295 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

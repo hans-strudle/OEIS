@@ -1,0 +1,49 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006992
+Showing 1-1 of 1
+
+%I A006992 M0675
+%S A006992 2,3,5,7,13,23,43,83,163,317,631,1259,2503,5003,9973,19937,39869,
+%T A006992 79699,159389,318751,637499,1274989,2549951,5099893,10199767,20399531,
+%U A006992 40799041,81598067,163196129,326392249,652784471,1305568919,2611137817
+%N A006992 Bertrand primes: a(n) is largest prime < 2*a(n-1) for n > 1, with a(1) = 2.
+%C A006992 a(n) < a(n+1) by Bertrand's postulate (Chebyshev's theorem). - _Jonathan Sondow_, May 31 2014
+%C A006992 Let b(n) = 2^n - a(n). Then b(n) >= 2^(n-1)-1 and b(n) is a B_2 sequence: 0, 1, 3, 9, 19, 41, 85, 173, 349, ... - _Thomas Ordowski_, Sep 23 2014 See the link for B_2 sequence.
+%C A006992 These primes can be obtained of exclusive form using a restricted variant of Rowland's prime-generating recurrence (A106108), making GCD(n, a(n-1)) = -1 when GCD's are >1 and <n (see program). These GCD's are also a divisor of each odd number from a(n)+2 to 2*a(n-1)-1 in reverse order, so that this subtraction with -1's invariably leads to the prime. - _Manuel Valdivia_, Jan 13 2015
+%C A006992 First row of array in A229607. - _Robert Israel_, Mar 31 2015
+%C A006992 Lim_{n->inf.} a(n)/2^n = 0.303976447924... - _Thomas Ordowski_, Apr 05 2015
+%D A006992 M. Aigner and G. M. Ziegler, Proofs from The Book, Springer-Verlag, Berlin, 1999; see p. 7.
+%D A006992 M. Griffiths, The Backbone of Pascal's Triangle, United Kingdom Mathematics Trust (2008), page 115. [From Martin Griffiths (griffm(AT)essex.ac.uk), Mar 28 2009]
+%D A006992 G. H. Hardy and E. M. Wright, An Introduction to the Theory of Numbers. 3rd ed., Oxford Univ. Press, 1954, p. 344.
+%D A006992 I. Niven and H. S. Zuckerman, An Introduction to the Theory of Numbers. 2nd ed., Wiley, NY, 1966, p. 189.
+%D A006992 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006992 T. D. Noe and Robert G. Wilson v, <a href="/A006992/b006992.txt">Table of n, a(n) for n = 1..1001 </a> (first 100 terms from T. D. Noe)
+%H A006992 P. Erdős, <a href="http://www.renyi.hu/~p_erdos/1932-01.pdf">Beweis eines Satzes von Tschebyschef</a> (in German), Acta Litt. Sci. Szeged 5 (1932), pp. 194-198.
+%H A006992 P. Erdős, <a href="https://www.renyi.hu/~p_erdos/1934-01.pdf">A theorem of Sylvester and Schur</a>, J. London Math. Soc., 9 (1934), 282-288.
+%H A006992 S. Ramanujan, <a href="http://ramanujan.sirinudi.org/Volumes/published/ram24.html">A proof of Bertrand's postulate</a>, J. Indian Math. Soc., 11 (1919), 181-182.
+%H A006992 V. Shevelev, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL15/Shevelev/shevelev19.html">Ramanujan and Labos primes, their generalizations, and classifications of primes</a>, J. Integer Seq. 15 (2012) Article 12.5.4
+%H A006992 J. Sondow, <a href="http://arxiv.org/abs/0907.5232">Ramanujan primes and Bertrand's postulate</a>, arXiv:0907.5232 [math.NT], 2009-2010.
+%H A006992 J. Sondow, <a href="http://www.jstor.org/stable/40391170">Ramanujan primes and Bertrand's postulate</a>, Amer. Math. Monthly, 116 (2009), 630-635.
+%H A006992 J. Sondow and E. Weisstein, <a href="http://mathworld.wolfram.com/BertrandsPostulate.html">MathWorld: Bertrand's Postulate</a>
+%H A006992 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/B2-Sequence.html">B2 Sequence</a>
+%F A006992 a(n+1) = A007917(2*a(n)). - _Reinhard Zumkeller_, Sep 17 2014
+%p A006992 A006992 := proc(n) option remember; if n=1 then 2 else prevprime(2*A006992(n-1)); fi; end;
+%t A006992 PrevPrime[ n_Integer ] := Module[ {k}, k = n - 1; While[ ! PrimeQ[ k ], k-- ]; k ]; a[ 1 ] = 2; a[ n_ ] := PrevPrime[ 2*a[ n - 1 ] ]; Table[ a[ n ], {n, 1, 40} ]
+%t A006992 NestList[NextPrime[2#,-1]&,2,40] (* _Harvey P. Dale_, May 21 2012 *)
+%t A006992 k = 3; a[n_] := If[GCD[n,k] >1 && GCD[n,k] <n, -1, GCD[n,k]]; Select[Differences@Table[k = a[n] + k, {n , 1, 2611137817}], #> 1&] (* _Manuel Valdivia_, Jan 13 2015 *)
+%o A006992 (PARI) print1(t=2);for(i=2,60,print1(", "t=precprime(2*t))) \\ _Charles R Greathouse IV_, Apr 01 2013
+%o A006992 (Haskell)
+%o A006992 a006992 n = a006992_list !! (n-1)
+%o A006992 a006992_list = iterate (a007917 . (* 2)) 2
+%o A006992 -- _Reinhard Zumkeller_, Sep 17 2014
+%Y A006992 Cf. A055496, A163961.
+%Y A006992 See A185231 for another version.
+%Y A006992 Cf. A007917, A229607.
+%K A006992 nonn,nice
+%O A006992 1,1
+%A A006992 _N. J. A. Sloane_, _Robert G. Wilson v_
+%E A006992 Definition completed by _Jonathan Sondow_, May 31 2014
+%E A006992 B_2 sequence link added by _Wolfdieter Lang_, Oct 09 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

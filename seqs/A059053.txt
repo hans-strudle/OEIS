@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059053
+Showing 1-1 of 1
+
+%I A059053
+%S A059053 0,0,0,0,0,0,0,1,2,7,12,31,58,126,234,484,906,1800,3402,6643,12624,
+%T A059053 24458,46686,90157,172810,333498,641340,1238671,2388852,4620006,
+%U A059053 8932032,17302033,33522698,65042526,126258960,245361172,477091232
+%N A059053 Number of orientable necklaces with n beads and two colors (color complements being equivalent); i.e. turning the necklace over neither leaves it unchanged nor simply swaps the colors.
+%H A059053 <a href="/A059053/a059053.gif">Illustration of initial terms</a>
+%H A059053 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A059053 a(n) = A000013(n) - A000011(n) = A000011(n) - A016116(n) = (A000013(n) - A016116(n))/2
+%K A059053 nonn
+%O A059053 0,9
+%A A059053 _Henry Bottomley_, Dec 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

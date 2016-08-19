@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054728
+Showing 1-1 of 1
+
+%I A054728
+%S A054728 1,11,22,30,38,42,58,60,74,66,86,78,106,105,118,102,134,114,223,132,
+%T A054728 166,138,188,156,202,168,214,174,236,186,359,204,262,230,278,222,298,
+%U A054728 240,314,246,326,210,346,270,358,282,557,306,394,312,412,318
+%N A054728 a(n) = smallest level N such that genus of modular curve X_0(N) is n (or -1 if no such curve exists).
+%C A054728 a(150) = -1, a(n) > 0 for 0<=n<=149.
+%D A054728 J. A. Csirik, The genus of X_0(N) is not 150, preprint, 2000.
+%Y A054728 Cf. A054727, A054728.
+%K A054728 nonn
+%O A054728 0,2
+%A A054728 Janos A. Csirik, Apr 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

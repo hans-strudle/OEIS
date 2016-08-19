@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037449
+Showing 1-1 of 1
+
+%I A037449
+%S A037449 1,8,12,1,5,24,28,8,1,40,44,12,13,56,60,1,17,8,76,5,21,88,92,24,1,104,
+%T A037449 12,28,29,120,124,8,33,136,140,1,37,152,156,40,41,168,172,44,5,184,
+%U A037449 188,12,1,8,204,13,53,24,220,56,57,232,236,60,61,248,28,1,65,264,268,17,69
+%N A037449 Discriminant of quadratic field Q(sqrt(n)).
+%C A037449 For the discriminant of the quadratic field Q(sqrt(-n)), see A204993.
+%H A037449 T. D. Noe, <a href="/A037449/b037449.txt">Table of n, a(n) for n = 1..1000</a>
+%H A037449 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/">Class number theory</a>
+%t A037449 Table[NumberFieldDiscriminant[Sqrt[n]], {n, 100}] (* Artur Jasinski, Jan 27 2012 *)
+%o A037449 (PARI) vector(150,n,quaddisc(n))
+%K A037449 nonn
+%O A037449 1,2
+%A A037449 Jason Earls (zevi_35711(AT)yahoo.com), Jun 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

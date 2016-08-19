@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037072
+Showing 1-1 of 1
+
+%I A037072
+%S A037072 36,144,1764,2304,5184,7056,8100,30276,41616,69696,93636,138384,
+%T A037072 166464,207936,224676,298116,352836,360000,412164,562500,725904,
+%U A037072 777924,876096,944784,956484
+%N A037072 Squares which are the sum of twin prime pairs.
+%C A037072 There are exactly 5^2 squares less than or equal to 1000^2 which are the sum of twin prime pairs.
+%e A037072 36 (square) = 6^2 = 17 + 19 (twin prime pair).
+%t A037072 lst={};Do[p=n^2;If[PrimeQ[p/2-1]&&PrimeQ[p/2+1], AppendTo[lst, p]], {n, 0, 7!, 2}];lst (* _Vladimir Joseph Stephan Orlovsky_, Sep 25 2008 *)
+%Y A037072 Cf. A000290, A001359, A006512.
+%K A037072 nonn
+%O A037072 1,1
+%A A037072 _G. L. Honaker, Jr._
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

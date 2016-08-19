@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006103
+Showing 1-1 of 1
+
+%I A006103 M3715
+%S A006103 1,4,130,33880,75913222,1506472167928,267598665689058580,
+%T A006103 427028776969176679964080,6129263888495201102915629695046
+%N A006103 Gaussian binomial coefficient [ 2n,n ] for q=3.
+%D A006103 J. Goldman and G.-C. Rota, The number of subspaces of a vector space, pp. 75-83 of W. T. Tutte, editor, Recent Progress in Combinatorics. Academic Press, NY, 1969.
+%D A006103 I. P. Goulden and D. M. Jackson, Combinatorial Enumeration. Wiley, NY, 1983, p, 99.
+%D A006103 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006103 M. Sved, Gaussians and binomials, Ars. Combinatoria, 17A (1984), 325-351.
+%H A006103 T. D. Noe, <a href="/A006103/b006103.txt">Table of n, a(n) for n=0..25</a>
+%K A006103 nonn,easy
+%O A006103 0,2
+%A A006103 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

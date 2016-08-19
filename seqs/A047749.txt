@@ -1,0 +1,77 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047749
+Showing 1-1 of 1
+
+%I A047749
+%S A047749 1,1,1,2,3,7,12,30,55,143,273,728,1428,3876,7752,21318,43263,120175,
+%T A047749 246675,690690,1430715,4032015,8414640,23841480,50067108,142498692,
+%U A047749 300830572,859515920,1822766520,5225264024,11124755664,31983672534
+%N A047749 If n=2m then C(3m,m)/(2m+1); if n=2m+1 then C(3m+1,m+1)/(2m+1).
+%C A047749 Hankel transform appears to be a signed aerated version of A059492. - _Paul Barry_, Apr 16 2008
+%C A047749 Row sums of inverse Riordan array (1, x(1-x^2))^(-1). - _Paul Barry_, Apr 16 2008
+%C A047749 a(n) is the number of permutations of length n avoiding 213 in the classical sense which are breadth-first search reading words of increasing unary-binary trees. For more details, see the entry for permutations avoiding 231 at A245898. - _Manda Riehl_, Aug 05 2014
+%C A047749 a(n) is the number of ordered trees (A000108) with n vertices in which every non-root non-leaf vertex has exactly one leaf child (no restriction on its non-leaf children). For example, a(4) counts the 3 trees
+%C A047749 |..............|
+%C A047749 \/....\|/....\/ .. - _David Callan_, Aug 22 2014
+%C A047749 a(n) is the number of symmetric ternary trees having n internal nodes. - _Emeric Deutsch_, Oct 28 2014
+%C A047749 a(n) is the number of symmetric non-crossing rooted trees having n edges. - _Emeric Deutsch_, Oct 28 2014
+%C A047749 a(n) is the number of symmetric even trees having 2n edges. -_Emeric Deutsch_, Oct 28 2014
+%C A047749 a(n) is the number of symmetric diagonally convex directed polyominoes having n diagonals. -_Emeric Deutsch_, Oct 28 2014
+%C A047749 For the above 4 items see the Deutsch - Feretic - Noy reference.
+%H A047749 L. W. Beineke and R. E. Pippert, <a href="http://dx.doi.org/10.4153/CJM-1974-006-x">Enumerating dissectable polyhedra by their automorphism groups</a>, Can. J. Math., 26 (1974), 50-67.
+%H A047749 M. Bousquet and C. Lamathe, <a href="http://dx.doi.org/10.1016/j.disc.2004.11.015">Enumeration of solid trees according to edge number and edge degree distribution</a>, Discr. Math., 298 (2005), 115-141.
+%H A047749 Michel Bousquet and Cédric Lamathe, <a href="http://www.dmtcs.org/dmtcs-ojs/index.php/dmtcs/article/view/1003">On symmetric structures of order two</a>, Discrete Math. Theor. Comput. Sci. 10 (2008), 153-176.
+%H A047749 S. J. Cyvin et al., <a href="http://dx.doi.org/10.1016/S0022-2860(97)00025-2">Staggered conformers of alkanes: complete solution of the enumeration problem</a>, J. Molec. Struct., 413 (1997), 227-239.
+%H A047749 S. J. Cyvin et al., <a href="http://dx.doi.org/10.1016/S0022-2860(97)00419-5">Enumeration of staggered conformers of alkanes and monocyclic cycloalkanes</a>, J. Molec. Struct., 445 (1998), 127-13.
+%H A047749 Alexander Burstein, Sergi Elizalde and Toufik Mansour, <a href="http://arXiv.org/abs/math.CO/0610234">Restricted Dumont permutations, Dyck paths and noncrossing partitions</a>, arXiv math.CO/0610234. [Theorem 3.5]
+%H A047749 E. Deutsch, <a href="http://www.jstor.org/stable/2695568">Another Path to Generalized Catalan Numbers:Problem 10751</a>, Amer. Math. Monthly, 108 (Nov., 2001), 872-873.
+%H A047749 E. Deutsch, S. Feretic and M. Noy, <a href="http://dx.doi.org/10.1016/S0012-365X(02)00340-0">Diagonally convex directed polyominoes and even trees: a bijection and related issues</a>, Discrete Math., 256 (2002), 645-654.
+%H A047749 C. Kimberling, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL6/Kimberling/kimberling24.html">Matrix Transformations of Integer Sequences</a>, J. Integer Seqs., Vol. 6, 2003.
+%F A047749 G.f. is 1+Z, where Z satisfies x*Z^3 + (3*x-2)*Z^2 + (3*x-1)*Z + x = 0. Equivalently, the g.f. Y satisfies x*Y^3 - 2*Y^2 + 3*Y - 1 = 0. - _Vladeta Jovovic_, Dec 06 2002
+%F A047749 Reversion of g.f. (x-2x^2)/(1-x)^3 (ignoring signs). - _Ralf Stephan_, Mar 22 2004
+%F A047749 G.f.: (4/(3x))(sin((1/3)*asin(sqrt(27x^2/4))))^2+(2/sqrt(3x^2))*sin((1/3)*asin(sqrt(27x^2/4))). - _Paul Barry_, Nov 08 2006
+%F A047749 G.f.: 1/(1-2*sin(asin(3*sqrt(3)x/2)/3)/sqrt(3)). - _Paul Barry_, Apr 16 2008
+%F A047749 From _Paul D. Hanna_, Sep 20 2009: (Start)
+%F A047749 G.f. satisfies: A(x) = 1 + x*A(x)^2*A(-x);
+%F A047749 also, A(x)*A(-x) = B(x^2) where B(x) = 1 + x*B(x)^3 = g.f. of A001764.
+%F A047749 (End)
+%F A047749 G.f.: 1/(1-C(x)) where C(x) = Reverse(x-x^3) = x +x^3 +3*x^5 +12*x^7 +55*x^9 +... (cf. A001764). - _Joerg Arndt_, Apr 16 2011
+%F A047749 a(n) = upper left term in M^n, M = the infinite square production matrix:
+%F A047749 1, 1, 0, 0, 0, 0,...
+%F A047749 0, 0, 1, 0, 0, 0,...
+%F A047749 1, 1, 0, 1, 0, 0,...
+%F A047749 0, 0, 1, 0, 1, 0,...
+%F A047749 1, 1, 0, 1, 0, 1,...
+%F A047749 ...
+%F A047749 - _Gary W. Adamson_, Jul 14 2011
+%F A047749 Conjecture: 8*n*(n+1)*a(n) +36*n*(n-2)*a(n-1) -6*(9n^2-18n+14)*a(n-2) -27*(3n-7)*(3n-8)*a(n-3)=0. - _R. J. Mathar_, Dec 19 2011
+%F A047749 0 = a(n)*(+7308954*a(n+2) - 16659999*a(n+3) - 4854519*a(n+4) + 6201838*a(n+5)) + a(n+1)*(-406053*a(n+2) - 1627560*a(n+3) + 1683538*a(n+4) - 245747*a(n+5)) + a(n+2)*(+45117*a(n+2) + 235870*a(n+3) + 173953*a(n+4) - 484295*a(n+5)) + a(n+3)*(-41820*a(n+3) - 50184*a(n+4) + 22304*a(n+5)) for all n in Z if a(-1) = -2/3. - _Michael Somos_, Oct 29 2014
+%e A047749 G.f. = 1 + x + x^2 + 2*x^3 + 3*x^4 + 7*x^5 + 12*x^6 + 30*x^7 + 55*x^8 + ...
+%p A047749 A047749 := proc(m) if m mod 2 = 1 then x := (m-1)/2; RETURN((3*x+1)!/((x+1)!*(2*x+1)!)); fi; x := m/2; RETURN((3*x)!/(x!*(2*x+1)!)); end;
+%p A047749 A047749 := proc(m) local x; if m mod 2 = 1 then x := (m-1)/2; RETURN((3*x+1)!/((x+1)!*(2*x+1)!)); fi; RETURN(A001764(m/2)); end;
+%t A047749 a[ n_] := If[ n < 1, Boole[n == 0], SeriesCoefficient[ InverseSeries[ Series[ (x + 2 x^2) / (1 + x)^3, {x, 0, n}]], {x, 0, n}]]; (* _Michael Somos_, Oct 29 2014 *)
+%o A047749 (PARI) {a(n)=local(A=1+x);for(i=1,n,A=1+x*A^2*subst(A,x,-x+x*O(x^n)));polcoeff(A,n)} \\  _Paul D. Hanna_, Sep 20 2009
+%o A047749 (PARI) x='x+O('x^66);
+%o A047749 C(x)=serreverse(x-x^3); /* =x+x^3+3*x^5+12*x^7+55*x^9 +..., cf. A001764 */
+%o A047749 s=1/(1-C(x)); /* g.f. */
+%o A047749 Vec(s) /* _Joerg Arndt_, Apr 16 2011 */
+%o A047749 (Sage)
+%o A047749 def A047749_list(n) :
+%o A047749     D = [0]*n; D[1] = 1
+%o A047749     R = []; b = False; h = 1
+%o A047749     for i in range(n) :
+%o A047749         for k in (1..h) :
+%o A047749             D[k] = D[k] + D[k-1]
+%o A047749         R.append(D[h])
+%o A047749         if b : h += 1
+%o A047749         b = not b
+%o A047749     return R
+%o A047749 A047749_list(16) # _Peter Luschny_, May 03 2012
+%Y A047749 Cf. A001764.
+%Y A047749 Cf. A006013 is the odd-indexed terms of this sequence.
+%K A047749 nonn
+%O A047749 0,4
+%A A047749 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

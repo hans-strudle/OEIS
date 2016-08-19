@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005943
+Showing 1-1 of 1
+
+%I A005943 M1116
+%S A005943 1,2,4,8,16,24,36,46,56,64,72,80,88,96,104,112,120,128,136,144,152,
+%T A005943 160,168,176,184,192,200,208,216,224,232,240,248,256,264,272,280
+%N A005943 Number of subwords of length n in the Golay-Rudin-Shapiro binary word A020987.
+%C A005943 Terms a(0)..a(13) verified and a(14)..a(32) computed using the first 2^32 terms of the GRS sequence. [_Joerg Arndt_, Jun 10 2012]
+%D A005943 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005943 J.-P. Allouche and J. Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Papers/as0.ps">The ring of k-regular sequences</a>, Theoretical Computer Sci., 98 (1992), 163-197.
+%F A005943 Conjectured g.f. (1+x^2+2*x^3+4*x^4+4*x^6-2*x^7-2*x^9)/(1-x)^2. [_Joerg Arndt_, Jun 10 2012]
+%e A005943 All 8 subwords of length three (000, 001, ..., 111) occur in A020987, so a(3) = 8.
+%t A005943 CoefficientList[ Series[ (1 + x^2 + 2*x^3 + 4*x^4 + 4*x^6 - 2*x^7 - 2*x^9) / (1-x)^2, {x, 0, 36}], x] (* _Jean-François Alcover_, Jan 10 2013, after _Joerg Arndt_'s conjectured g.f. *)
+%Y A005943 Cf. A006697, A005942.
+%K A005943 nonn,nice,more
+%O A005943 0,2
+%A A005943 _N. J. A. Sloane_, _Jeffrey Shallit_.
+%E A005943 Minor edits by _N. J. A. Sloane_, Jun 06 2012
+%E A005943 Added a(14)-a(32), _Joerg Arndt_, Jun 10 2012.
+%E A005943 Added a(33)-a(36), _Joerg Arndt_, Oct 28 2012.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

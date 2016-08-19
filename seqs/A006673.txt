@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006673
+Showing 1-1 of 1
+
+%I A006673
+%S A006673 0,1,2,2,8,56,112,848,9088,25216,310528,4334848,14701568,
+%T A006673 270029824,4554426368,17536821248,458243735552,8926669144064,
+%U A006673 37024075153408,1341521605885952,29290212127670272,125297096967061504,6224109737622372352
+%V A006673 0,1,2,2,-8,-56,-112,848,9088,25216,-310528,-4334848,-14701568,
+%W A006673 270029824,4554426368,17536821248,-458243735552,-8926669144064,
+%X A006673 -37024075153408,1341521605885952,29290212127670272,125297096967061504,-6224109737622372352
+%N A006673 E.g.f. is the logarithmic derivative of e.g.f. for Pell numbers [1, 0, 1, 2, 5, ...].
+%F A006673 G.f.: 1-2/Q(0)  where Q(k)=  1 + 1/(1 + 2*(k+1)/(-1/x +(2*k+2)/Q(k+1))); (continued fraction, 3-step). - _Sergei N. Gladkovskii_, Sep 23 2012
+%F A006673 G.f.: -1/Q(0), where Q(k)= 2*k+2 - 1/x + (k+1)*(k+2)/Q(k+1); (continued fraction). - _Sergei N. Gladkovskii_, Apr 15 2013
+%F A006673 G.f.: 1/Q(0), where Q(k)= 1/(x*(k+1)) - 2 + 1/Q(k+1); (continued fraction). - _Sergei N. Gladkovskii_, May 07 2013
+%F A006673 G.f.: x/Q(0),m=-2, where Q(k) = 1 - 2*x*(2*k+1) - m*x^2*(k+1)*(2*k+1)/( 1 - 2*x*(2*k+2) - m*x^2*(k+1)*(2*k+3)/Q(k+1) ) ; (continued fraction). - _Sergei N. Gladkovskii_, Sep 24 2013
+%F A006673 E.g.f.: 2*x/Q(0), where Q(k) = 8*k+2 - 2*x/(1 + 2*x/(4*k+3 - 2*x/(1 + 2*x/Q(k+1) ))); (continued fraction). - _Sergei N. Gladkovskii_, Dec 19 2013
+%F A006673 E.g.f.: 2^(1/2)/(2^(1/2)-tanh(2^(1/2)*x)) -1 = W(0) -1, where W(k) = 1 + x/(4*k+1 - 1*x/(1 + 2*x/(4*k+3 - 2*x/W(k+1) ))); (continued fraction). - _Sergei N. Gladkovskii_, Nov 18 2014
+%e A006673 G.f. = x + 2*x^2 + 2*x^3 - 8*x^4 - 56*x^5 - 112*x^6 + 848*x^7 + 9088*x^8 + ...
+%p A006673 # After Sergei N. Gladkovskii.
+%p A006673 seq(k!*coeff(series(1/(sqrt(2)*coth(sqrt(2)*x)-1), x=0, k+2), x, k), k=0..21); # _Peter Luschny_, Nov 18 2014
+%t A006673 a[ n_] := If[ n < 0, 0, n! SeriesCoefficient[ 1 / (1 - Tanh[ x Sqrt[2]] / Sqrt[2]) - 1, {x, 0, n}]]; (* _Michael Somos_, Nov 22 2014 *)
+%o A006673 (PARI) {a(n) = my(w=quadgen(8)); if( n<0, 0, n! * polcoeff( 1 / (1 - tanh(w*x + x * O(x^n)) / w) - 1, n))}; /* _Michael Somos_, Nov 22 2014 */
+%Y A006673 Cf. A000129.
+%K A006673 sign
+%O A006673 0,3
+%A A006673 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

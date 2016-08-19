@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017474
+Showing 1-1 of 1
+
+%I A017474
+%S A017474 49,324,841,1600,2601,3844,5329,7056,9025,11236,13689,16384,19321,
+%T A017474 22500,25921,29584,33489,37636,42025,46656,51529,56644,62001,67600,
+%U A017474 73441,79524,85849,92416,99225,106276
+%N A017474 (11*n+7)^2.
+%H A017474 Vincenzo Librandi, <a href="/A017474/b017474.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017474 (MAGMA) [(11*n+7)^2: n in [0..40]]; // Vincenzo Librandi, Sep 04 2011
+%K A017474 nonn,easy
+%O A017474 0,1
+%A A017474 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

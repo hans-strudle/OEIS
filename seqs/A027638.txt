@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027638
+Showing 1-1 of 1
+
+%I A027638
+%S A027638 4,96,46080,371589120,48514675507200,101643290713836748800,
+%T A027638 3409750224676138896064512000,1830483982118721406049481526345728000,
+%U A027638 15723497752907010191583185709179507111362560000
+%N A027638 Order of 2^n X 2^n unitary group H_n acting on Siegel modular forms.
+%D A027638 B. Runge, On Siegel modular forms I, J. Reine Angew. Math., 436 (1993), 57-85.
+%D A027638 B. Runge, Codes and Siegel modular forms, Discrete Math. 148 (1996), 175-204.
+%H A027638 <a href="/index/Gre#groups_modular">Index entries for sequences related to modular groups</a>
+%p A027638 2^(n^2+2*n+2)*product(4^'i'-1,'i'=1..n);
+%Y A027638 Equals A003956/2. Cf. A027672.
+%K A027638 nonn,easy,nice
+%O A027638 0,1
+%A A027638 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

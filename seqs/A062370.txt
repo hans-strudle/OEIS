@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062370
+Showing 1-1 of 1
+
+%I A062370
+%S A062370 1,10,13,45,19,130,25,150,78,190,37,585,43,250,247,429,55,780,61,855,
+%T A062370 325,370,73,1950,174,430,358,1125,91,2470,97,1122,481,550,475,3510,
+%U A062370 115,610,559,2850,127,3250,133,1665,1482,730,145,5577,310,1740,715,1935
+%N A062370 a(n) = Sum_{i|n,j|n} sigma(i)*sigma(j)/sigma(gcd(i,j)), where sigma(n) = sum of divisors of n.
+%C A062370 Multiplicative with a(p^e) = 1 + sum_{k=1..e} (2k+1)sigma(p^k). _Mitch Harris_ May 24, 2005.
+%Y A062370 Cf. A000203, A060648.
+%K A062370 nonn,mult
+%O A062370 1,2
+%A A062370 _Vladeta Jovovic_, Jul 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

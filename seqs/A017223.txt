@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017223
+Showing 1-1 of 1
+
+%I A017223
+%S A017223 125,2744,12167,32768,68921,125000,205379,314432,456533,636056,857375,
+%T A017223 1124864,1442897,1815848,2248091,2744000,3307949,3944312,4657463,
+%U A017223 5451776,6331625,7301384,8365427
+%N A017223 (9*n+5)^3.
+%H A017223 Vincenzo Librandi, <a href="/A017223/b017223.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017223 (MAGMA) [(9*n+5)^3: n in [0..35]] ; // Vincenzo Librandi, Jul 24 2011
+%K A017223 nonn,easy
+%O A017223 0,1
+%A A017223 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

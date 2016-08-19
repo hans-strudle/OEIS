@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025194
+Showing 1-1 of 1
+
+%I A025194
+%S A025194 2,13,44,112,239,457,801,1320,2066,3103,4505,6354,8744,11779,15576,
+%T A025194 20260,25971,32861,41093,50844,62304,75678,91183,109050,129526,152874,
+%U A025194 179367,209300,242978,280725,322881,369801,421858,479441,542957,612830,689502
+%N A025194 a(n) = [ 3rd elementary symmetric function of {sqrt(k)} ], k = 1,2,...,n.
+%K A025194 nonn
+%O A025194 3,1
+%A A025194 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

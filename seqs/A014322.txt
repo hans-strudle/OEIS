@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014322
+Showing 1-1 of 1
+
+%I A014322
+%S A014322 1,2,5,14,44,154,595,2518,11591,57672,308368,1762500,10716321,
+%T A014322 69011130,468856113,3348695194,25064539520,196052415230,1598543907843,
+%U A014322 13556379105766,119332020447219,1088376385244908,10268343703117892,100063762955374568,1005822726810785809
+%N A014322 Convolution of Bell numbers with themselves.
+%C A014322 Equals row sums of triangle A144155. - _Gary W. Adamson_, Sep 12 2008
+%H A014322 Adam M. Goyt and Lara K. Pudwell, <a href="http://arxiv.org/abs/1203.3786">Avoiding colored partitions of two elements in the pattern sense</a>, arXiv preprint arXiv:1203.3786 [math.CO], 2012. - From _N. J. A. Sloane_, Sep 17 2012
+%p A014322 with(combinat):
+%p A014322 a:= n-> add(bell(i)*bell(n-i), i=0..n):
+%p A014322 seq(a(n), n=0..30);  # _Alois P. Heinz_, May 13 2014
+%t A014322 a[n_] := Sum[BellB[k] BellB[n-k], {k, 0, n}]; Table[a[n], {n, 0, 30}] (* _Jean-François Alcover_, Jan 17 2016 *)
+%Y A014322 Cf. A000110.
+%Y A014322 Cf. A144155. - _Gary W. Adamson_, Sep 12 2008
+%K A014322 nonn
+%O A014322 0,2
+%A A014322 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062495
+Showing 1-1 of 1
+
+%I A062495
+%S A062495 1,1,1,1,2,5,23,196,2813,65961,2461846,142900605,12629963362,
+%T A062495 1667181039425,322952216807258,90343400059853200,35964677954267807744,
+%U A062495 20101122321919726583808,15578877275203727360262144
+%N A062495 Nearest integer to (Product((n - i)^log(i), {i, 1, n - 1})).
+%t A062495 Round[Product[(n - i)^Log[i], {i, 1, n - 1}]]
+%Y A062495 Cf. A062494.
+%K A062495 nonn
+%O A062495 0,5
+%A A062495 _Olivier Gérard_, Jun 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055541
+Showing 1-1 of 1
+
+%I A055541
+%S A055541 0,2,6,36,320,3750,54432,941192,18874368,430467210,11000000000,
+%T A055541 311249095212,9659108818944,326173191714734,11905721598812160,
+%U A055541 467086816406250000,19599665578316398592,875901453762003632658,41532319635035234107392,2082547005958224830656820
+%N A055541 Total number of leaves (nodes of vertex degree 1) in all labeled trees with n nodes.
+%C A055541 Equivalently, a(n) is the number of rooted labeled trees such that the root node has degree 1. - _Geoffrey Critzer_, Feb 07 2012
+%H A055541 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TreeLeaf.html">Tree Leaf.</a>
+%H A055541 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%F A055541 a(n)=n*(n-1)^(n-2), n>1. E.g.f.: -x*LambertW(-x). - _Vladeta Jovovic_, Mar 31 2001
+%F A055541 a(n) = sum{k=1 to n} (A055314(n, k)*k).
+%F A055541 E.g.f.: x*T(x) where T(x) is the e.g.f. for A000169. - _Geoffrey Critzer_, Feb 07 2012
+%t A055541 Join[{0,2}, Table[Sum[n!/k! StirlingS2[n-2,n-k] k, {k,2,n-1}], {n,3,20}]] (* _Geoffrey Critzer_, Nov 22 2011 *)
+%Y A055541 Cf. A003227, A003228, A055314, A055540, A055897.
+%Y A055541 Essentially the same as A061302.
+%K A055541 nonn
+%O A055541 1,2
+%A A055541 _Eric W. Weisstein_
+%E A055541 More terms, formula from _Christian G. Bower_, Jun 12 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

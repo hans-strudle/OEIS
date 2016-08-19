@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016190
+Showing 1-1 of 1
+
+%I A016190
+%S A016190 1,20,301,4040,51001,620060,7352101,85656080,985263601,11225320100,
+%T A016190 126965305501,1427999420120,15990423157801,178436520564140,
+%U A016190 1985678518660501,22048354837360160,244384923399813601
+%N A016190 Expansion of 1/((1-9x)(1-11x)).
+%H A016190 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (20,-99).
+%F A016190 a(n) = (11^n-9^n)/2. - Bruno Berselli, Feb 09 2011
+%F A016190 a(0)=1, a(n)=11*a(n-1)+9^n. [From Vincenzo Librandi, Feb 09 2011]
+%F A016190 a(0)=1, a(1)=20, a(n)=20*a(n-1)-99*a(n-2). [From Vincenzo Librandi, Feb 09 2011]
+%o A016190 (PARI) Vec(1/((1-9*x)*(1-11*x))+O(x^99)) \\ _Charles R Greathouse IV_, Sep 26 2012
+%K A016190 nonn,easy
+%O A016190 0,2
+%A A016190 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059426
+Showing 1-1 of 1
+
+%I A059426
+%S A059426 1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,2,1,2,
+%T A059426 1,2,2,1,2,1,2,2,1,2,2,1,2,1,2,2,1,2,1,2,2,1,2,2,1,2,1
+%N A059426 First differences of A026273.
+%C A059426 Differences of ranks of "2 between two 1": 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5 8 5 8 8 5 8 ... Differences of ranks of "8 between two 5": 5 8 5 8 8 5 8 5 8 8 5 8 8 5 8 5 8 8 5...(self-generated?)
+%C A059426 Is this A014675 shifted one place left (verified for 616 terms)? [From _R. J. Mathar_, Oct 05 2008]
+%K A059426 easy,nonn
+%O A059426 0,2
+%A A059426 Claude Lenormand (claude.lenormand(AT)free.fr), Jan 31 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

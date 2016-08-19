@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033812
+Showing 1-1 of 1
+
+%I A033812
+%S A033812 8,1,6,3,5,7,4,9,2
+%N A033812 Rows of a magic square of order 3.
+%C A033812 Of course there are a large number of ways to convert this (unique) magic square to a sequence by reading it by rows, so the sequence is hardly unique. - _N. J. A. Sloane_, Aug 29 2002
+%C A033812 This magic square is referred to Loh-Shu magic square and is attributed to the legendary Fu Xi (Fuh-Hi).
+%H A033812 Harvey Heinz, <a href="http://www.magic-squares.net/primesqr.htm">Prime Magic Squares</a>
+%H A033812 <a href="/index/Mag#magic">Index entries for sequences related to magic squares</a>
+%e A033812 The magic square is
+%e A033812 [ 8 1 6 ]
+%e A033812 [ 3 5 7 ]
+%e A033812 [ 4 9 2 ]
+%Y A033812 Cf. A126709.
+%K A033812 easy,fini,nonn,full
+%O A033812 1,1
+%A A033812 Olivier Gorin (gorin(AT)roazhon.inra.fr)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

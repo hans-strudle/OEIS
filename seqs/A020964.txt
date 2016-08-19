@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020964
+Showing 1-1 of 1
+
+%I A020964
+%S A020964 4,11,28,70,171,417,1010,2444,5905,14263,34440,83154,200759,484685,
+%T A020964 1170142,2824984,6820125,16465251,39750644,95966558,231683779,
+%U A020964 559334137,1350352074,3260038308,7870428713,19000895759
+%N A020964 Sum of Floor[ 3*(1+sqrt(2))^(n-k) ] for k from 1 to infinity.
+%D A020964 C. Kimberling, Problem 10520 in Amer. Math. Mon. 103 (1996) p. 347.
+%t A020964 Table[t=0; k=0; While[k++; s=Floor[3*(1+Sqrt[2])^(n-k)]; s>0, t= t+s]; t, {n, 26}]
+%K A020964 nonn
+%O A020964 1,1
+%A A020964 _Clark Kimberling_
+%E A020964 Revised Feb 03 1999.  Revised Nov 30 2010.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

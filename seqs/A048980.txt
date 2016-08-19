@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048980
+Showing 1-1 of 1
+
+%I A048980
+%S A048980 1,1,0,6,36,196,724,7512,366838,11928316,421130508,14598816402,
+%T A048980 584642184936,25314953837836,1128885572358548,54492272309366314,
+%U A048980 2950485568862138250,213151926413154110951
+%V A048980 1,1,0,-6,-36,-196,-724,7512,366838,11928316,421130508,14598816402,
+%W A048980 584642184936,25314953837836,1128885572358548,54492272309366314,
+%X A048980 2950485568862138250,213151926413154110951
+%N A048980 Difference between number of nonprimes and primes in reduced residue system of primorial numbers.
+%F A048980 a(n) = A048863(n) - A048862(n) = A048866(A002110(n)).
+%F A048980 a(n) = A005867(n) - 2*A000849(n) + 2*n.
+%e A048980 n=4, Q(4)=2*3*5*7=210, reduced residue system includes 48 terms:42 primes and 6 composites and 1: a(4)=6-42=-36.
+%Y A048980 Cf. A048868, A048867, A048597, A002110, A048862, A048863, A048866.
+%K A048980 sign
+%O A048980 0,4
+%A A048980 _Labos Elemer_
+%E A048980 Corrected and extended by _Max Alekseyev_, Feb 22 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

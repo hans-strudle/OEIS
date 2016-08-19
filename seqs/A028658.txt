@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028658
+Showing 1-1 of 1
+
+%I A028658
+%S A028658 1,4,4,0,4,8,8,16,12,20,24,0,40,24,32,16,36,24,44,16,40,16,32,4,80,28,
+%T A028658 48,48,48,24,80,48,84,80,56,64,92,40,64,48,88,40,96,48,112,88,4,48,
+%U A028658 120,68,92,80,96,56,136,64,112
+%N A028658 Expansion of (theta_3(z)*theta_3(23z)+theta_2(z)*theta_2(23z))^2.
+%K A028658 nonn
+%O A028658 0,2
+%A A028658 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015605
+Showing 1-1 of 1
+
+%I A015605
+%S A015605 1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,
+%T A015605 0,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,
+%U A015605 0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+%V A015605 1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,0,0,0,0,
+%W A015605 0,0,0,0,0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,-1,0,0,0,1,0,1,0,0,0,-1,0,-1,0,
+%X A015605 0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0
+%N A015605 Inverse of 1596th cyclotomic polynomial.
+%p A015605 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015605 sign
+%O A015605 0,1
+%A A015605 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

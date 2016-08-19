@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056501
+Showing 1-1 of 1
+
+%I A056501
+%S A056501 0,0,0,0,0,0,0,60,120,960,1800,9300,16800,7140,0,126000,480000,834120,
+%T A056501 2968440,5103000,17354340,296,7600,97566000,165528000,533264700,
+%U A056501 901020120,2854995360,4809004080,15050445900
+%N A056501 Number of primitive (period n) periodic palindromes using exactly five different symbols.
+%D A056501 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056501 Sum mu(d)*A056491(n/d) where d|n.
+%e A056501 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome.
+%Y A056501 Cf. A056466.
+%K A056501 nonn
+%O A056501 1,8
+%A A056501 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

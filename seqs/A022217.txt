@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022217
+Showing 1-1 of 1
+
+%I A022217
+%S A022217 1,12207031,124176340230306,1222439084242108174806,
+%T A022217 11957012900737114492991256681,116805081731088587940522831693775431,
+%U A022217 1140747634121270227670449517400445860666056
+%N A022217 Gaussian binomial coefficients [ n,10 ] for q = 5.
+%D A022217 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%o A022217 (Sage) [gaussian_binomial(n,10,5) for n in xrange(10,17)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A022217 nonn
+%O A022217 0,2
+%A A022217 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

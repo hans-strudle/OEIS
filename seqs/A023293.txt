@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023293
+Showing 1-1 of 1
+
+%I A023293
+%S A023293 43,103,199,1039,1303,2311,2857,3673,4513,4663,5743,5953,8431,9721,
+%T A023293 12391,14143,14533,17599,18457,19507,21211,23719,24169,25621,28663,
+%U A023293 29023,31963,33409,35311,36979,37423,40867,40939,43891,44371,44983,45841,46747,46807
+%N A023293 Numbers n such that n remains prime through 3 iterations of function f(x) = 8x + 5.
+%C A023293 n, 8*n+5, 64*n+45 and 512*n+365 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023293 (MAGMA) [n: n in [1..450000] | IsPrime(n) and IsPrime(8*n+5) and IsPrime(64*n+45) and IsPrime(512*n+365)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023293 nonn
+%O A023293 1,1
+%A A023293 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

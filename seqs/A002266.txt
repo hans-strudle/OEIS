@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002266
+Showing 1-1 of 1
+
+%I A002266
+%S A002266 0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5,6,6,6,6,
+%T A002266 6,7,7,7,7,7,8,8,8,8,8,9,9,9,9,9,10,10,10,10,10,11,11,11,11,11,12,12,
+%U A002266 12,12,12,13,13,13,13,13,14,14,14,14,14,15,15,15,15,15,16,16,16
+%N A002266 Integers repeated 5 times.
+%C A002266 For n>3, number of consecutive "11's" after the (n+3) "1's" in the continued fraction for sqrt(L(n+2)/L(n)) where L(n) is the n-th Lucas number A000002 (see example). E.g. the continued fraction for sqrt(L(11)/L(9)) is [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 11, 11, 58, 2, 4, 1, ....] with 12 consecutive ones followed by floor(11/5)=2 elevens. - _Benoit Cloitre_, Jan 08 2006
+%C A002266 Complement of A010874, since A010874(n)+5*a(n)=n. - _Hieronymus Fischer_, Jun 01 2007
+%H A002266 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,0,1,-1).
+%F A002266 Floor(n/5), n>=0.
+%F A002266 G.f.: x^5/((1-x)(1-x^5)).
+%F A002266 a(n)= -1 + Sum_{k=0..n} {[8*(sin(2*Pi*k/5))^2-5]^2-5}/20, with n>=0. a(n)= -1 + Sum_{k=0..n} 1/50*{-9*[k mod 5]+[(n+1) mod 5]+[(n+2) mod 5]+[(n+3) mod 5]+11*[(n+4) mod 5]}, with n>=0. - _Paolo P. Lava_, May 15 2007
+%F A002266 a(n)=(n-A010874(n))/5. - _Hieronymus Fischer_, May 29 2007
+%F A002266 Also, floor((n^5-1)/5*n^4) will produce this sequence. Moreover, floor((n^5-n^4)/(5*n^4-4*n^3)) (n>=1) will produce this sequence as well. - _Mohammad K. Azarian_, Nov 08 2007
+%F A002266 This sequence is also the sequence Floor(n*e^(-(1+sqrt(5))/2))(n>=1). - _Mohammad K. Azarian_, May 13 2008
+%F A002266 For n>=5, a(n)=floor(log_5(5^a(n-1)+5^a(n-2)+5^a(n-3)+5^a(n-4)+5^a(n-5))) [From _Vladimir Shevelev_, Jun 22 2010]
+%p A002266 A002266:=n->floor(n/5); seq(A002266(n), n=0..100); # _Wesley Ivan Hurt_, Dec 10 2013
+%t A002266 Table[Floor[n/5], {n,0,20}] (* _Wesley Ivan Hurt_, Dec 10 2013 *)
+%o A002266 (Sage) [floor(n/5) - 1 for n in xrange(5,88)]# [From _Zerinvary Lajos_, Dec 01 2009]
+%o A002266 (Haskell)
+%o A002266 a002266 = (`div` 5)
+%o A002266 a002266_list = [0,0,0,0,0] ++ map (+ 1) a002266_list
+%o A002266 -- _Reinhard Zumkeller_, Nov 27 2012
+%o A002266 (PARI) a(n)=n\5 \\ _Charles R Greathouse IV_, Dec 10 2013
+%Y A002266 a(n)=A010766(n, 5).
+%Y A002266 Cf. A008648, A004526, A002264, A002265, A010761, A010762, A110532, A110533, A004526, A010872, A010873, A010874.
+%Y A002266 Partial sums: A130520.
+%K A002266 nonn,easy
+%O A002266 0,11
+%A A002266 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

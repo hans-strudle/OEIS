@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031924
+Showing 1-1 of 1
+
+%I A031924
+%S A031924 23,31,47,53,61,73,83,131,151,157,167,173,233,251,257,263,271,331,353,
+%T A031924 367,373,383,433,443,503,541,557,563,571,587,593,601,607,647,653,677,
+%U A031924 727,733,751,941,947,971,977,991,1013,1033,1063,1097,1103
+%N A031924 Lower prime of a difference of 6 between consecutive primes.
+%C A031924 Conjecture: The sequence is infinite and for every n >= 7746, a(n+1) < a(n)^(1+1/n). Namely for n >= 7746, a(n)^(1/n) is a strictly decreasing function of n (See comment lines of the sequence A248855). - _Jahangeer Kholdi_ and _Farideh Firoozbakht_, Nov 29 2014
+%H A031924 Charles R Greathouse IV, <a href="/A031924/b031924.txt">Table of n, a(n) for n = 1..10000</a>
+%H A031924 <a href="/index/Pri#gaps">Index entries for primes, gaps between</a>
+%e A031924 23 is a term as the next prime 29 = 23 + 6.
+%p A031924 A031924 := proc(n)
+%p A031924     option remember;
+%p A031924     if n = 1 then
+%p A031924         return 23;
+%p A031924     else
+%p A031924         p := nextprime(procname(n-1)) ;
+%p A031924         q := nextprime(p) ;
+%p A031924         while q-p <> 6 do
+%p A031924             p := q ;
+%p A031924             q := nextprime(p) ;
+%p A031924         end do:
+%p A031924         return p;
+%p A031924     end if;
+%p A031924 end proc: # _R. J. Mathar_, Jan 23 2013
+%t A031924 Transpose[Select[Partition[Prime[Range[200]], 2, 1], Last[#] - First[#] == 6 &]][[1]] (* _Bruno Berselli_, Apr 09 2013 *)
+%o A031924 (PARI) is(n)=isprime(n)&&nextprime(n+1)-n==6 \\ _Charles R Greathouse IV_, Mar 21 2013
+%o A031924 (MAGMA) [p: p in PrimesUpTo(1200) | NextPrime(p)-p eq 6]; // _Bruno Berselli_, Apr 09 2013
+%Y A031924 Cf. A031925; A031924 and A007529 together give A023201.
+%K A031924 nonn
+%O A031924 1,1
+%A A031924 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053281
+Showing 1-1 of 1
+
+%I A053281
+%S A053281 1,2,2,3,4,4,6,7,8,10,12,14,16,20,22,26,31,34,40,46,52,60,68,76,87,98,
+%T A053281 110,124,140,156,174,196,216,242,270,298,332,368,406,449,496,546,602,
+%U A053281 664,728,800,880,962,1056,1156,1262,1381,1508,1644,1794,1956,2128
+%N A053281 Coefficients of the '10th order' mock theta function phi(q)
+%C A053281 The alternating sum of the same series, namely phi(q) = sum for n >= 0 of (-1)^n q^(n(n+1)/2)/((1-q)(1-q^3)...(1-q^(2n+1))) = 1+x^3-x^7-x^16+x^24+x^39-x^51-..., where the exponents are given by 5n^2 +/- 2n. See the Amer. Math. Monthly reference.
+%D A053281 Youn-Seo Choi, Tenth order mock theta functions in Ramanujan's lost notebook, Inventiones Mathematicae, 136 (1999) p. 497-569.
+%D A053281 Srinivasa Ramanujan, The Lost Notebook and Other Unpublished Papers, Narosa Publishing House, New Delhi, 1988, p. 9.
+%D A053281 American Mathematical Monthly, vol. 107 (2000), p. 569, Answer to Problem number 10681.
+%F A053281 G.f.: phi(q) = sum for n >= 0 of q^(n(n+1)/2)/((1-q)(1-q^3)...(1-q^(2n+1)))
+%t A053281 Series[Sum[q^(n(n+1)/2)/Product[1-q^(2k+1), {k, 0, n}], {n, 0, 13}], {q, 0, 100}]
+%Y A053281 Other '10th order' mock theta functions are at A053282, A053283, A053284.
+%K A053281 nonn,easy
+%O A053281 0,2
+%A A053281 _Dean Hickerson_, Dec 19 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051736
+Showing 1-1 of 1
+
+%I A051736
+%S A051736 1,5,17,63,227,827,2999,10897,39561,143677,521721,1894607,6879979,
+%T A051736 24983923,90725999,329460929,1196397873,4344577397,15776816033,
+%U A051736 57291635519,208047769363,755500774443,2743511349031,9962735709201,36178491743225,131377896967213,477083233044745
+%N A051736 Number of 3 X n (0,1)-matrices with no consecutive 1's in any row or column.
+%H A051736 Reinhard Zumkeller, <a href="/A051736/b051736.txt">Table of n, a(n) for n = 1..1000</a>
+%H A051736 N. J. Calkin and H. S. Wilf, <a href="http://hdl.handle.net/1853/31277">The number of independent sets in a grid graph</a>, preprint.
+%H A051736 N. J. Calkin and H. S. Wilf, <a href="http://dx.doi.org/10.1137/S089548019528993X">The number of independent sets in a grid graph</a>, SIAM J. Discrete Math, 11 (1998) 54-60.
+%H A051736 Reinhardt Euler, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL8/Euler/euler1.html">The Fibonacci Number of a Grid Graph and a New Class of Integer Sequences</a>, Journal of Integer Sequences, Vol. 8 (2005), Article 05.2.6.
+%H A051736 H. Wilf, <a href="http://www.cis.upenn.edu/~wilf/reprints.html">The number of independent sets in a grid graph </a> (With N. Calkin)
+%H A051736 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (2, 6, 0, -1).
+%F A051736 a(n) = 2*a(n-1) + 6*a(n-2) - a(n-4).
+%F A051736 G.f.: (1+3*x+x^2-x^3)/(1-2*x-6*x^2+x^4). - _Philippe Deléham_, Sep 07 2006
+%e A051736 There are 17 3x2 (0,1)-matrices with no consecutive 1's:
+%e A051736 0 0, 0 1, 0 0, 0 0, 0 1, 1 0, 1 0, 1 0, 0 0, 0 1, 0 0, 0 1, 0 0, 0 1, 0 0, 1 0, 1 0
+%e A051736 0 0, 0 0, 0 1, 0 0, 0 0, 0 0, 0 1, 0 0, 1 0, 1 0, 1 0, 1 0, 0 0, 0 0, 0 1, 0 0, 0 1
+%e A051736 0 0, 0 0, 0 0, 0 1, 0 1, 0 0, 0 0, 0 1, 0 0, 0 0, 0 1, 0 1, 1 0, 1 0, 1 0, 1 0, 1 0
+%t A051736 LinearRecurrence[{2,6,0,-1},{1,5,17,63},40] (* _Harvey P. Dale_, Mar 05 2013 *)
+%o A051736 (Haskell)
+%o A051736 a051736 n = a051736_list !! (n-1)
+%o A051736 a051736_list = 1 : 5 : 17 : 63 : zipWith (-) (map (* 2) $ drop 2 $
+%o A051736    zipWith (+) (map (* 3) a051736_list) (tail a051736_list)) a051736_list
+%o A051736 -- _Reinhard Zumkeller_, Apr 02 2012
+%o A051736 (PARI) Vec((1+3*x+x^2-x^3)/(1-2*x-6*x^2+x^4)+O(x^50)) \\ _Michel Marcus_, Sep 17 2014
+%Y A051736 Cf. A051737.
+%K A051736 easy,nonn,nice
+%O A051736 1,2
+%A A051736 Stephen G. Penrice (spenrice(AT)ets.org), Dec 06 1999
+%E A051736 More terms from _James A. Sellers_, Dec 08 1999
+%E A051736 Offset fixed by _Reinhard Zumkeller_, Apr 02 2012
+%E A051736 More terms from _Michel Marcus_, Sep 17 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

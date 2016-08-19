@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016237
+Showing 1-1 of 1
+
+%I A016237
+%S A016237 1,16,191,2066,21441,218316,2202691,22124566,221733941,2219780816,
+%T A016237 22210015191,222161187066,2221917046441,22220696343316,
+%U A016237 222214592827691,2222184075249566,22222031487358941,222221268547905816
+%N A016237 Expansion of 1/((1-x)(1-5x)(1-10x)).
+%F A016237 a(0)=1, a(1)=16, a(n)=15*a(n-1)-50*a(n-2)+1. - Vincenzo Librandi, Feb 2011
+%F A016237 a(n) = (8*10^(n+1) - 9*5^(n+1) + 1)/36. [_Yahia Kahloune_, Aug 13 2013]
+%o A016237 (PARI) a(n) = (8*10^(n+1) - 9*5^(n+1) + 1)/36; \\ _Joerg Arndt_, Aug 13 2013
+%K A016237 nonn
+%O A016237 0,2
+%A A016237 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

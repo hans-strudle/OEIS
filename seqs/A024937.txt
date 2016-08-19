@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024937
+Showing 1-1 of 1
+
+%I A024937
+%S A024937 1,0,1,1,0,1,1,1,1,1,1,2,1,2,2,2,2,2,3,3,2,3,3,3,4,3,5,4,4,5,5,6,6,5,
+%T A024937 7,7,7,8,8,9,8,9,11,11,10,12,12,13,14,14,16,15,16,17,19,20,20,20,22,
+%U A024937 24,23,26,27,27,28,30,33,34,34,36,37,40,41,43,46,46,47,50,55,56,56,58,63,64
+%N A024937 a(n) = number of 2's in all partitions of n into distinct primes.
+%F A024937 G.f.: x^2*Product_{k>1} (1+x^prime(k)). - _Vladeta Jovovic_, Jul 20 2003
+%Y A024937 Cf. A024939.
+%K A024937 nonn
+%O A024937 7,12
+%A A024937 _Clark Kimberling_
+%E A024937 More terms from _Vladeta Jovovic_, Jul 20 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049064
+Showing 1-1 of 1
+
+%I A049064
+%S A049064 0,10,1110,11110,100110,1110010110,111100111010110,
+%T A049064 100110011110111010110,1110010110010011011110111010110,
+%U A049064 1111001110101100111001011010011011110111010110,1001100111101110101100111100111010110111001011010011011110111010110
+%N A049064 Describe the previous term in binary (method A - initial term is 0).
+%C A049064 Method A = 'frequency' (in binary mode) followed by 'digit'-indication.
+%H A049064 Kade Robertson, <a href="/A049064/b049064.txt">Table of n, a(n) for n = 0..17</a>
+%F A049064 a(n) = A001391(n), n>0. - _R. J. Mathar_, Oct 15 2008
+%e A049064 E.g., the term after 11110 is obtained by saying "four (i.e., 100 in binary mode) 1, one 0", which gives 100110.
+%Y A049064 Cf. A005150, A006751, A006715, A001140, A001141, A001143, A001145, A001151, A001154.
+%K A049064 base,easy,nice,nonn
+%O A049064 0,2
+%A A049064 _Olivier de Mouzon_
+%E A049064 Edited by _Charles R Greathouse IV_, Apr 06 2010
+%E A049064 a(10) from _Kade Robertson_, Jun 24 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

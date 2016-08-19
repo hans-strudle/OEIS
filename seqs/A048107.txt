@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048107
+Showing 1-1 of 1
+
+%I A048107
+%S A048107 1,2,3,4,5,6,7,9,10,11,12,13,14,15,17,18,19,20,21,22,23,25,26,28,29,
+%T A048107 30,31,33,34,35,37,38,39,41,42,43,44,45,46,47,49,50,51,52,53,55,57,58,
+%U A048107 59,60,61,62,63,65,66,67,68,69,70,71,73,74,75,76,77,78,79,82,83,84,85,86
+%N A048107 Number of unitary divisors of n (A034444) > number of non-unitary divisors of n (A048105).
+%C A048107 The sequence includes squarefree numbers (A005117) and more, like the 420, etc.
+%F A048107 Numbers for which 2^(r(n)+1)>d(n) holds, where r() =A001221, d() = A000005
+%e A048107 n=420=2*2*3*5*7, 4 distinct prime factors, 24 divisors of which 16 are unitary and 8 are not; ud[ n ]>nud[ n ] and 2^(4+1)=32 is larger than d, the number of divisors.
+%o A048107 (PARI) is(n)=my(f=factor(n)[, 2], t); for(i=1, #f, if(f[i]>1, if(t||f[i]>2, return(0), t=1))); 1 \\ _Charles R Greathouse IV_, Sep 17 2015
+%Y A048107 Cf. A000005, A001221, A034444, A005117.
+%K A048107 nonn
+%O A048107 1,2
+%A A048107 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

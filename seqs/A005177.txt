@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005177
+Showing 1-1 of 1
+
+%I A005177 M0347
+%S A005177 1,1,1,1,2,2,5,4,17,22,167,539,18979,389436,50314796,2942198440,
+%T A005177 1698517036411
+%N A005177 Number of connected regular graphs with n nodes.
+%D A005177 M. Meringer, Fast Generation of Regular Graphs and Construction of Cages. Journal of Graph Theory, 30 (1999), 137-146. [From _Jason Kimberley_, Sep 23 2009]
+%D A005177 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A005177 P. Steinbach, Field Guide to Simple Graphs. Design Lab, Albuquerque NM, 1990.
+%H A005177 E. Friedman, <a href="/A000088/a000088a.gif">Illustration of small graphs</a>
+%H A005177 Jason Kimberley, <a href="/wiki/User:Jason_Kimberley/C_k-reg_girth_ge_g_index">Index of sequences counting connected k-regular simple graphs with girth at least g</a>
+%H A005177 Markus Meringer, <a href="http://www.mathe2.uni-bayreuth.de/markus/reggraphs.html">GENREG: A program for Connected Regular Graphs</a> [From _Giovanni Resta_, Feb 05 2009]
+%H A005177 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RegularGraph.html">Regular Graph.</a>
+%F A005177 a(n) = sum of the n-th row of A068934.
+%F A005177 a(n) = A165647(n) - A165648(n).
+%F A005177 This sequence is the inverse Euler transformation of A165647.
+%Y A005177 Regular simple graphs of any degree: this sequence (connected), A068932 (disconnected), A005176 (not necessarily connected).
+%Y A005177 Connected regular graphs of any degree with girth at least g: this sequence (g=3), A186724 (g=4), A186725 (g=5), A186726 (g=6), A186727 (g=7), A186728 (g=8), A186729 (g=9).
+%Y A005177 Connected regular simple graphs: this sequence (any degree), A068934 (triangular array); specified degree k: A002851 (k=3), A006820 (k=4), A006821 (k=5), A006822 (k=6), A014377 (k=7), A014378 (k=8), A014381 (k=9), A014382 (k=10), A014384 (k=11). - _Jason Kimberley_, Nov 03 2011
+%K A005177 nonn,nice,hard,more
+%O A005177 0,5
+%A A005177 _N. J. A. Sloane_.
+%E A005177 More terms from _David Wasserman_, Mar 08 2002
+%E A005177 a(15) from _Giovanni Resta_, Feb 05 2009
+%E A005177 Terms are sums of the output from M. Meringer's genreg software. To complete a(16) it was run by _Jason Kimberley_, Sep 23 2009
+%E A005177 a(0)=1 (due to the empty graph being vacuously connected and regular) inserted by _Jason Kimberley_, Apr 11 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

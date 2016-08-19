@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035600
+Showing 1-1 of 1
+
+%I A035600
+%S A035600 0,2,24,146,608,1970,5336,12642,27008,53154,97880,170610,284000,
+%T A035600 454610,703640,1057730,1549824,2220098,3116952,4298066,5831520,
+%U A035600 7796978,10286936,13408034,17282432,22049250,27866072,34910514,43381856,53502738,65520920,79711106
+%N A035600 Number of points of L1 norm 6 in cubic lattice Z^n.
+%D A035600 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035600 Vincenzo Librandi, <a href="/A035600/b035600.txt">Table of n, a(n) for n = 0..1000</a>
+%H A035600 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035600 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A Counting Function</a>, arXiv preprint arXiv:1301.4550, 2013. - From N. J. A. Sloane, Feb 13 2013
+%H A035600 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A035600 a(n)= ( 4*n^6 +40*n^4 +46*n^2 )/45. - _Frank Ellermann_, Mar 16 2002
+%F A035600 G.f.: 2*x*(1+x)^5/(1-x)^7. - _Colin Barker_, Apr 15 2012
+%F A035600 a(n) = 2*A069039(n). - _R. J. Mathar_, Dec 10 2013
+%p A035600 f := proc(d,m) local i; sum( 2^i*binomial(d,i)*binomial(m-1,i-1),i=1..min(d,m)); end; # n=dimension, m=norm
+%t A035600 CoefficientList[Series[2*x*(1+x)^5/(1-x)^7,{x,0,33}],x] (* _Vincenzo Librandi_, Apr 23 2012 *)
+%o A035600 (PARI) a(n)=(4*n^6+40*n^4+46*n^2)/45 \\ _Charles R Greathouse IV_, Dec 07 2011
+%o A035600 (MAGMA)[( 4*n^6 +40*n^4 +46*n^2 )/45: n in [0..30]]; // _Vincenzo Librandi_, Apr 23 2012
+%Y A035600 Cf. A035596-A035607.
+%K A035600 nonn,easy
+%O A035600 0,2
+%A A035600 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

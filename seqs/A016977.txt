@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016977
+Showing 1-1 of 1
+
+%I A016977
+%S A016977 1953125,2357947691,118587876497,1801152661463,14507145975869,
+%T A016977 78815638671875,327381934393961,1119130473102767,3299763591802133,
+%U A016977 8662995818654939,20711912837890625,45848500718449031,95151694449171437
+%N A016977 (6n+5)^9.
+%H A016977 Vincenzo Librandi, <a href="/A016977/b016977.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016977 (MAGMA) [(6*n+5)^9: n in [0..35]]; // Vincenzo Librandi, May 13 2011
+%K A016977 nonn,easy
+%O A016977 0,1
+%A A016977 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

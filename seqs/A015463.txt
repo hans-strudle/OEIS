@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015463
+Showing 1-1 of 1
+
+%I A015463
+%S A015463 0,1,1,7,43,1555,57283,12148963,2684744611,3403616850979,
+%T A015463 4512743621400355,34305128668265064739,272902655183139496957219,
+%U A015463 12446072589202949254455565603,594062125322746104949654522449187,162554939850629908283324416663519980835
+%N A015463 q-Fibonacci numbers for q=6.
+%H A015463 Vincenzo Librandi, <a href="/A015463/b015463.txt">Table of n, a(n) for n = 0..70</a>
+%F A015463 a(n) = a(n-1) + 6^(n-2) a(n-2).
+%F A015463 Associated constant: C_6=lim n-->infinity a(n)*a(n-2)/a(n-1)^2 = 1.046607628427088904183396615.... - _Benoit Cloitre_, Aug 30 2003
+%t A015463 RecurrenceTable[{a[0]==0,a[1]==1,a[n]==a[n-1]+6^(n-2) a[n-2]},a,{n,20}] (* _Harvey P. Dale_, Nov 11 2011 *)
+%o A015463 (MAGMA) [0] cat[n le 2 select 1 else Self(n-1) + Self(n-2)*(6^(n-2)): n in [1..20]]; // _Vincenzo Librandi_, Nov 09 2012
+%Y A015463 Cf. A015459, A015460, A015461, A015462.
+%K A015463 nonn,easy
+%O A015463 0,4
+%A A015463 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

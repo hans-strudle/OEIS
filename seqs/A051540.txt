@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051540
+Showing 1-1 of 1
+
+%I A051540
+%S A051540 2,10,40,440,3080,52360,52360,1204280,15655640,454013560,1816054240,
+%T A051540 1816054240,34505030560,1414706252960,1414706252960,66491193889120,
+%U A051540 332455969445600,17620166380616800,17620166380616800
+%N A051540 Least common multiple of {2, 5, 8, 11, 14 ...,(3n+2)} (A016789).
+%C A051540 Denominator of H(n,3,2), a generalized harmonic number. See A075135.
+%H A051540 Vincenzo Librandi, <a href="/A051540/b051540.txt">Table of n, a(n) for n = 1..100</a>
+%e A051540 a(3) = lcm {2, 5, 8, 11} = 440.
+%t A051540 Table[ Denominator[ Sum[1/i, {i, 2/3, n}]], {n, 1, 20}]
+%t A051540 Table[ Apply[ LCM, Join[{1}, Table[2 + 3i, {i, 0, n}]]], {n, 0, 19}]
+%o A051540 (MAGMA) k:=56; [Lcm([h: h in [2..j by 3]]): j in [2..k by 3]];  // _Bruno Berselli_, May 03 2011
+%Y A051540 Cf. A016789, A051552. The numerators are in A074597.
+%Y A051540 Cf. A075135.
+%Y A051540 Cf. A051536.
+%K A051540 easy,frac,nonn
+%O A051540 1,1
+%A A051540 Asher Auel (asher.auel(AT)reed.edu)
+%E A051540 Edited by _Robert G. Wilson v_, Aug 27 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

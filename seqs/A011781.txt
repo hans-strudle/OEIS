@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011781
+Showing 1-1 of 1
+
+%I A011781
+%S A011781 1,3,27,405,8505,229635,7577955,295540245,13299311025,678264862275,
+%T A011781 38661097149675,2435649120429525,168059789309637225,
+%U A011781 12604484198222791875,1020963220056046141875,88823800144876014343125
+%N A011781 Sextuple factorial numbers: product[ k=0..n-1 ] (6*k+3).
+%C A011781 Total number of Eulerian circuits in rooted labeled multigraphs with n edges. - _Valery A. Liskovets_, Apr 07 2002
+%D A011781 V. A. Liskovets, A note on the total number of Eulerian circuits in multigraphs. In press.
+%H A011781 Vincenzo Librandi, <a href="/A011781/b011781.txt">Table of n, a(n) for n = 0..200</a>
+%H A011781 B. Lass, <a href="http://dx.doi.org/10.1016/S0764-4442(01)02049-3">Démonstration combinatoire de la formule de Harer-Zagier</a>, (A combinatorial proof of the Harer-Zagier formula) C. R. Acad. Sci. Paris, Serie I, 333 (2001) No 3, 155-160.
+%H A011781 B. Lass, <a href="http://math.univ-lyon1.fr/~lass/articles/pub3zagier.html">Démonstration combinatoire de la formule de Harer-Zagier</a>, (A combinatorial proof of the Harer-Zagier formula) C. R. Acad. Sci. Paris, Serie I, 333 (2001) No 3, 155-160.
+%H A011781 Valery Liskovets, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL5/Liskovets/liskovets4.html">A Note on the Total Number of Double Eulerian Circuits in Multigraphs </a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.2.5
+%F A011781 E.g.f.: (1-6*x)^(-1/2).
+%F A011781 a(n) = 3^n*(2*n-1)!!.
+%F A011781 G.f.: 1/(1-3x/(1-6x/(1-9x/(1-12x/(1-15x/(1-18x/(1-21x/(1-24x/(1-... (continued fraction). - _Philippe Deléham_, Jan 08 2012
+%F A011781 a(n) = (-3)^n*sum_{k=0..n} 2^k*s(n+1,n+1-k), where s(n,k) are the Stirling numbers of the first kind, A048994. [_Mircea Merca_, May 03 2012]
+%F A011781 G.f.: T(0), where T(k) = 1 - 3*x*(k+1)/( 3*x*(k+1) - 1/T(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Oct 24 2013
+%t A011781 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 2, 5!, 6}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%t A011781 Table[Product[6k+3,{k,0,n-1}],{n,0,20}] (* or *) Table[6^(n-1) Pochhammer[ 1/2,n-1],{n,21}] (* _Harvey P. Dale_, May 09 2012 *)
+%o A011781 (PARI) a(n)=if(n<0,0,(3/2)^n*(2*n)!/n!)
+%o A011781 (MAGMA) [(3/2)^n*Factorial(2*n)/Factorial(n):n in [0..20]]; // _Vincenzo Librandi_, May 09 2012
+%Y A011781 Cf. A001147, A047657, A049308.
+%Y A011781 Cf. A069736.
+%K A011781 nonn
+%O A011781 0,2
+%A A011781 Lee D. Killough (killough(AT)wagner.convex.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

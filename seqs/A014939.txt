@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014939
+Showing 1-1 of 1
+
+%I A014939
+%S A014939 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+%T A014939 1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,
+%U A014939 1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0
+%V A014939 1,1,0,-1,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,
+%W A014939 -1,0,1,1,1,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,
+%X A014939 -1,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0
+%N A014939 Inverse of 930th cyclotomic polynomial.
+%p A014939 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014939 CoefficientList[Series[1/Cyclotomic[930,x],{x,0,155}],x] (* _Harvey P. Dale_, Nov 01 2013 *)
+%o A014939 (PARI) Vec(1/polcyclo(930,x+O(x^166))) \\ _Joerg Arndt_, Nov 01 2013
+%K A014939 sign
+%O A014939 0,1
+%A A014939 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

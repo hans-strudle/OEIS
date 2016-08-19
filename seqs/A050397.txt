@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050397
+Showing 1-1 of 1
+
+%I A050397
+%S A050397 1,2,4,10,30,104,392,1568,6520,27976,122944,551680,2518912,
+%T A050397 11684000,54957216,261897024,1263216192,6164172608,30416619200,
+%U A050397 151750104800,765364073120,3902783995520,20123276097920
+%V A050397 1,-2,4,-10,30,-104,392,-1568,6520,-27976,122944,-551680,2518912,
+%W A050397 -11684000,54957216,-261897024,1263216192,-6164172608,30416619200,
+%X A050397 -151750104800,765364073120,-3902783995520,20123276097920
+%N A050397 Reversion of sequence of involutions (A000085).
+%H A050397 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A050397 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%Y A050397 Cf. A050398.
+%K A050397 sign
+%O A050397 1,2
+%A A050397 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026508
+Showing 1-1 of 1
+
+%I A026508
+%S A026508 1,2,3,4,6,8,10,11,14,15,18,19,22,24,25,26,30,32,34,35,38,40,41,42,43,
+%T A026508 46,47,50,52,54
+%N A026508 a(n) = least positive integer > a(n-1) and not (a(i)+a(j))^2 - a(k)^2 for 1<=i<=j<=k<=n.
+%K A026508 nonn
+%O A026508 1,2
+%A A026508 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

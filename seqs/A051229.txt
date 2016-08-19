@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051229
+Showing 1-1 of 1
+
+%I A051229
+%S A051229 5,25,85,185,235,295,305,335,355,365,395,425,505,535,635,685,695,745,
+%T A051229 815,835,925,985,995,1115,1135,1145,1285,1315,1345,1385,1415,1445,
+%U A051229 1475,1525,1535,1555,1565,1585,1655,1675,1735,1765
+%N A051229 Bernoulli number B_{2n} has denominator 66.
+%C A051229 From the Von Staudt-Clausen theorem, denominator(B_2n) = product of primes p such that (p-1)|2n.
+%D A051229 B. C. Berndt, Ramanujan's Notebooks Part IV, Springer-Verlag, see p. 75.
+%H A051229 T. D. Noe, <a href="/A051229/b051229.txt">Table of n, a(n) for n=1..1000</a>
+%H A051229 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%t A051229 Select[Range[2000],Denominator[BernoulliB[2 #]]==66&] (* _Harvey P. Dale_, Mar 11 2012 *)
+%Y A051229 Cf. A045979, A051222, A051225-A051230. Equals A051230/2.
+%K A051229 nonn,nice,easy
+%O A051229 1,1
+%A A051229 _N. J. A. Sloane_.
+%E A051229 More terms from Michael Somos.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

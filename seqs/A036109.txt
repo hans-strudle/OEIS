@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036109
+Showing 1-1 of 1
+
+%I A036109
+%S A036109 2,1,1211,1241,142251,15243241,2534134241,2554334241,3564434231,
+%T A036109 163564533221,363544633231,463534833231,183625441032221,
+%U A036109 2826254473524110,281726355433825120,382726554443824120
+%N A036109 A summarize Fibonacci sequence: summarize the previous two terms!.
+%C A036109 From the 25th term the sequence gets into a cycle of 117.
+%Y A036109 Cf. A036059.
+%K A036109 base,easy,nonn
+%O A036109 0,1
+%A A036109 _Floor van Lamoen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

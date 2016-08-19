@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045510
+Showing 1-1 of 1
+
+%I A045510
+%S A045510 2,24,20922789888000,2432902008176640000,25852016738884976640000,
+%T A045510 265252859812191058636308480000000,
+%U A045510 263130836933693530167218012160000000
+%N A045510 Factorials having initial digit '2'.
+%C A045510 Benford's law suggests that this sequence will contain about (log 3 - log 2)/log 10 =~ 18% of factorials. [From _Charles R Greathouse IV_, Nov 13 2010]
+%K A045510 nonn,base
+%O A045510 1,1
+%A A045510 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

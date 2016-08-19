@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000596
+Showing 1-1 of 1
+
+%I A000596 M3686 N1505
+%S A000596 4,49,273,1023,3003,7462,16422,32946,61446,108031,180895,290745,
+%T A000596 451269,679644,997084,1429428,2007768,2769117,3757117,5022787,6625311
+%N A000596 Central factorial numbers.
+%C A000596 a(n) is the sum of the products of each unique pair of elements of the set {1, 4, 9, 16, ... , (n-1)^2} (a(3) = 1*4, a(4) = 1*4 + 1*9 + 4*9, a(5) = 1*4 + 1*9 + 1*16 + 4*9 + 4*16 + 9*16, etc.) - _Jeffreylee R. Snow_, Sep 23 2013
+%D A000596 J. Riordan, Combinatorial Identities, Wiley, 1968, p. 217.
+%D A000596 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000596 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000596 Mircea Merca, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL15/Merca2/merca7.html"> A Special Case of the Generalized Girard-Waring Formula</a> J. Integer Sequences, Vol. 15 (2012), Article 12.5.7.
+%H A000596 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A000596 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A000596 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A000596 a(n) = 1/360*n*(n-1)*(n-2)*(2*n-1)*(2*n-3)*(5*n+1).
+%F A000596 a(n+1/2) = 1/16*A001823(n).
+%F A000596 a(n) = s(n,n-2)^2-2*s(n,n-3)*s(n,n-1)+2*s(n,n-4), where s(n,k) are Stirling numbers of the first kind, A048994. - _Mircea Merca_, Apr 03 2012
+%p A000596 A000596:=-(4+21*z+14*z**2+z**3)/(z-1)**7; # [Conjectured by _Simon Plouffe_ in his 1992 dissertation.]
+%p A000596 seq(stirling1(n,n-2)^2-2*stirling1(n,n-3)*stirling1(n,n-1)+2*stirling1(n,n-4),n=0..50); # _Mircea Merca_, Apr 03 2012
+%t A000596 f[k_] := k^2; t[n_] := Table[f[k], {k, 1, n}]
+%t A000596 a[n_] := SymmetricPolynomial[2, t[n]]
+%t A000596 Table[a[n], {n, 2, 32}]  (* A000596 *)
+%t A000596 (* _Clark Kimberling_, Dec 31 2011 *)
+%Y A000596 Column 2 of triangle A008955.
+%K A000596 nonn
+%O A000596 3,1
+%A A000596 _N. J. A. Sloane_.
+%E A000596 Minor edits by _Vaclav Kotesovec_, Feb 23 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

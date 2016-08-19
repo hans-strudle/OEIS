@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018995
+Showing 1-1 of 1
+
+%I A018995
+%S A018995 3,9,42,236,1280,6087,32623,190235,1136383
+%N A018995 Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite BPH = Beryllophosphate-H Na7K7 [ Be14P14O56 ] . 20 H2O.
+%D A018995 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A018995 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%Y A018995 Same beginning as A018965, but may disagree later.
+%Y A018995 Cf. A018965. [From _R. J. Mathar_, Oct 26 2008]
+%K A018995 nonn
+%O A018995 2,1
+%A A018995 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

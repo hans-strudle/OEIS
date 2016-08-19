@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043886
+Showing 1-1 of 1
+
+%I A043886
+%S A043886 5,30,51,55,76,80,101,105,155,176,180,201,205,226,230,251,259,280,301,
+%T A043886 305,326,330,351,355,376,384,405,426,430,451,455,476,480,501,509,530,
+%U A043886 551,555,576,580,601,605,780,801,805,826,830
+%N A043886 Numbers n such that 0 and 1 occur juxtaposed in the base 5 representation of n but not of n+1.
+%K A043886 nonn,base
+%O A043886 1,1
+%A A043886 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

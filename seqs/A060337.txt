@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060337
+Showing 1-1 of 1
+
+%I A060337
+%S A060337 15,198,1610,10575,61845,336924,1751076,8801325,43141175,207347778,
+%T A060337 980828238,4578689115,21135851625,96628899960,438068838536,
+%U A060337 1971349880985,8813183238315,39169902510270,173172640973010
+%N A060337 Number of labeled acyclic digraphs with n nodes containing exactly n-2 points of in-degree zero.
+%D A060337 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 19, (1.6.4).
+%D A060337 R. W. Robinson, Counting labeled acyclic digraphs, pp. 239-273 of F. Harary, editor, New Directions in the Theory of Graphs. Academic Press, NY, 1973.
+%Y A060337 Third column of A058876, Cf. A003025, A003026.
+%K A060337 nonn
+%O A060337 3,1
+%A A060337 _Vladeta Jovovic_, Apr 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

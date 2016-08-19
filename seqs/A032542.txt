@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032542
+Showing 1-1 of 1
+
+%I A032542
+%S A032542 1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,2,1,1,1,1,4,3,3,3,3,3,3,3,3,3,
+%T A032542 3,3,3,3,3,3,3,3,3,3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+%U A032542 3,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,4,3
+%N A032542 Integer part of decimal 'base 5 looking' numbers divided by their actual base 5 values.
+%Y A032542 Cf. A032543, A032544. See also A032532 for explanation.
+%K A032542 nonn,easy,base
+%O A032542 0,5
+%A A032542 _Patrick De Geest_, april 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

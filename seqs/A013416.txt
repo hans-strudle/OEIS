@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013416
+Showing 1-1 of 1
+
+%I A013416
+%S A013416 1,0,0,2,0,0,40,450,0,2240,108000,1786050,246400,30888000,1647734400,
+%T A013416 36567781250,11531520000,1356752592000,85195294912000,
+%U A013416 2380490964101250,1210714801920000,153377369153840000
+%N A013416 exp(arcsin(x)-arcsinh(x))=1+2/3!*x^3+40/6!*x^6+450/7!*x^7+2240/9!*x^9...
+%K A013416 nonn
+%O A013416 0,4
+%A A013416 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

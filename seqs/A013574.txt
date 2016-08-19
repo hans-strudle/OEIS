@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013574
+Showing 1-1 of 1
+
+%I A013574
+%S A013574 3,7,10,12,15,19,22,24,27,31,34,36,39,43,46
+%N A013574 Minimal scope of an (n,2) difference triangle.
+%C A013574 a(n)*Pi is also the total length of irregular spiral (center points: 1, 2, 5, 3, 4) after n-rotations. [_Kival Ngaokrajang_, Jan 08 2014]
+%D A013574 CRC Handbook of Combinatorial Designs, 1996, p. 315.
+%H A013574 Kival Ngaokrajang, <a href="/A013574/a013574.pdf">Illustration of irregular spiral (center points: 1, 2, 5, 3, 4)</a>
+%H A013574 J. B. Shearer, <a href="http://www.research.ibm.com/people/s/shearer/dtsopt.html">Difference Triangle Sets: Known optimal solutions</a>.
+%H A013574 J. B. Shearer, <a href="http://www.research.ibm.com/people/s/shearer/dtslb.html">Difference Triangle Sets: Discoverers</a>
+%Y A013574 A row or column of array in A234943.
+%K A013574 nonn,more
+%O A013574 1,1
+%A A013574 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

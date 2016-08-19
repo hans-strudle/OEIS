@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057550
+Showing 1-1 of 1
+
+%I A057550
+%S A057550 1,2,1,4,1,2,1,1,9,1,2,1,1,4,1,2,1,1,2,1,1,1,23,1,2,1,1,4,1,2,1,1,2,1,
+%T A057550 1,1,9,1,2,1,1,4,1,2,1,1,2,1,1,1,4,1,2,1,1,2,1,1,1,2,1,1,1,1,65,1,2,1,
+%U A057550 1,4,1,2,1,1,2,1,1,1,9,1,2,1,1,4,1,2,1,1,2,1,1,1,4,1,2,1,1,2,1,1,1,2,1
+%N A057550 First differences of A057549.
+%Y A057550 Terms a(A014138[n]) seem to give A014137[n+1]. Cf. A057551.
+%K A057550 nonn
+%O A057550 0,2
+%A A057550 _Antti Karttunen_, Sep 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

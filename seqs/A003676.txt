@@ -1,0 +1,34 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003676
+Showing 1-1 of 1
+
+%I A003676 M4057
+%S A003676 6,6,2,6,0,6,9
+%N A003676 Decimal expansion of Planck constant (joule sec).
+%C A003676 Contribution from _Raphie Frank_, Dec 17 2012. (Start)
+%C A003676 There are at least five different methods of determining Planck's Constant (h). Listed below are the best estimate CODATA values for each of these five methods as of December 2012.
+%C A003676 6.6260657(88)*10^(-34) J-s - Faraday Constant method
+%C A003676 6.6260678(27)*10^(-34) J-s - Josephson Constant method
+%C A003676 6.62606889(23)*10^(-34) J-s - Watt Balance method
+%C A003676 6.6260724(57)*10^(-34) J-s - Magnetic resonance method
+%C A003676 6.6260745(19)*10^(-34) J-s - X-ray crystal density method
+%C A003676 Observation: Empirically, as a weighted average, (6.6260657 + 6.6260678 + pi*6.62606889 + 6.6260745 + 6.6260724)*10^-34 Joule*Seconds/(4 + pi) = 6.626069567719... *10^-34 Joule*Seconds. If Watt Balance method then assign a weight of pi. Else, assign weight = 1. Rounded to 8 decimal places this simple weighting gives the CODATA 2010 value for Planck's Constant = 6.62606957*10^(-34) Joule*Seconds. This is a somewhat odd coincidence given that the CODATA 2010 value was based not upon a weighted average of these measurements, but, as per the Wikipedia link below, "on three watt-balance measurements of K_J^2*R_K and one inter-laboratory determination of the molar volume of silicon." (end)
+%D A003676 H. J. Fischbeck and K. Fischbeck, Formulas. Facts and Constants, Springer-Verlag, NY, 2nd ed., 1987.
+%D A003676 K. R. Lang, Astrophysical Data: Planets and Stars, Springer-Verlag, NY, 1991.
+%D A003676 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003676 Gavin Clarke, <a href="http://www.theregister.co.uk/2012/11/20/quantum_kilogram/">"Glorious silicon globes could hold key to elusive PERFECT kilogram"</a>, The Register, Nov 20 2012.
+%H A003676 NIST Physics Laboratory, <a href="http://physics.nist.gov/cgi-bin/cuu/Value?h">Planck constant</a>
+%H A003676 James Stein, <a href="http://www.pbs.org/wgbh/nova/physics/blog/2011/10/plancks-constant/">"Planck's Constant: The Number That Rules Technology, Reality, and Life"</a>, NOVA's Physics blog, Oct 24 2011.
+%H A003676 Eric Weisstein, World of Physics, <a href="http://scienceworld.wolfram.com/physics/PlancksConstant.html">Planck's Constant</a>
+%H A003676 Wikipedia, <a href="http://en.wikipedia.org/wiki/Planck&#39;s_constant">Planck's constant</a>
+%e A003676 Planck constant h = 6.62606957(29) * 10^-34 Joule second.
+%Y A003676 Cf. A078300, A078301, A078302.
+%K A003676 cons,nonn
+%O A003676 -33,1
+%A A003676 _N. J. A. Sloane_, _Mira Bernstein_
+%E A003676 Corrected and extended by _Robert G. Wilson v_, Nov 21 2002
+%E A003676 Changed the value to conform to latest measurements _Robert G. Wilson v_, Oct 21 2010
+%E A003676 Updated to conform with CODATA 2010 recommended value _Raphie Frank_, Dec 15 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

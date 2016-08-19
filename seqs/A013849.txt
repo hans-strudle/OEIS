@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013849
+Showing 1-1 of 1
+
+%I A013849
+%S A013849 4096,134217728,4398046511104,144115188075855872,
+%T A013849 4722366482869645213696,154742504910672534362390528,
+%U A013849 5070602400912917605986812821504,166153499473114484112975882535043072,5444517870735015415413993718908291383296
+%N A013849 8^(5*n+4).
+%H A013849 Vincenzo Librandi, <a href="/A013849/b013849.txt">Table of n, a(n) for n = 0..100</a>
+%H A013849 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013849 (MAGMA) [8^(5*n+4): n in [0..15]]; // Vincenzo Librandi, Jul 08 2011
+%K A013849 nonn,easy
+%O A013849 0,1
+%A A013849 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052111
+Showing 1-1 of 1
+
+%I A052111
+%S A052111 1,2,5,24,120,956,13214,275848,10613479,601955190,63788179593,
+%T A052111 9985272721908,2906903866536978,1268802939666164781,
+%U A052111 1023198355173637429689,1258181815243248217067175
+%N A052111 Number of self-complementary 2-multigraphs with loops on n nodes.
+%C A052111 A 2-multigraph is similar to an ordinary graph except there are 0, 1 or 2 edges between any two nodes (self-loops are not allowed).
+%Y A052111 Cf. A053513, A004104.
+%K A052111 nonn
+%O A052111 1,2
+%A A052111 _Vladeta Jovovic_, Jan 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

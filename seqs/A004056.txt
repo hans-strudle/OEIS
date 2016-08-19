@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004056
+Showing 1-1 of 1
+
+%I A004056
+%S A004056 1,1,1,1,1,1,1,2,2,3,4,4,6,8,13
+%N A004056 The coding-theoretic function A(n,14,12).
+%D A004056 A. E. Brouwer, J. B. Shearer, N. J. A. Sloane and W. D. Smith, New table of constant weight codes, IEEE Trans. Info. Theory 36 (1990), 1334-1380.
+%H A004056 E. M. Rains and N. J. A. Sloane, <a href="http://neilsloane.com/codes/Andw/">A(n,d,w) tables</a>
+%H A004056 <a href="/index/Aa#Andw">Index entries for sequences related to A(n,d,w)</a>
+%K A004056 nonn,hard
+%O A004056 12,8
+%A A004056 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

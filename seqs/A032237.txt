@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032237
+Showing 1-1 of 1
+
+%I A032237
+%S A032237 1,1,1,1,2,2,4,6,10,17,29,53,93,169,308,566,1068,1975,3742,7061,13427,
+%T A032237 25634,49151,94474,182262,352361,683304,1327941,2586839,5049398,
+%U A032237 9873715,19343014,37952032,74584811,146783263,289264739
+%N A032237 Shifts left 2 places under "DGK" (bracelet, element, unlabeled) transform.
+%H A032237 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%K A032237 nonn,eigen
+%O A032237 1,5
+%A A032237 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

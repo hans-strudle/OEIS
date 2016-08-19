@@ -1,0 +1,46 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048788
+Showing 1-1 of 1
+
+%I A048788
+%S A048788 0,1,2,3,8,11,30,41,112,153,418,571,1560,2131,5822,7953,21728,29681,
+%T A048788 81090,110771,302632,413403,1129438,1542841,4215120,5757961,15731042,
+%U A048788 21489003,58709048,80198051,219105150,299303201,817711552,1117014753
+%N A048788 a(2n+1) = a(2n) + a(2n-1), a(2n) = 2*a(2n-1) + a(2n-2).
+%C A048788 Numerators of continued fraction convergents to sqrt(3) - 1 (A160390). See A002530 for denominators. - _N. J. A. Sloane_, Dec 17 2007
+%C A048788 Convergents are 1, 2/3, 3/4, 8/11, 11/15, 30/41, 41/56, 112/153, ... - _Clark Kimberling_, Sep 21 2013
+%C A048788 A strong divisibility sequence, that is gcd(a(n),a(m)) = a(gcd(n,m)) for all positive integers n and m. - _Peter Bala_, Jun 06 2014
+%D A048788 Russell Lyons, A bird's-eye view of uniform spanning trees and forests, in Microsurveys in Discrete Probability, AMS, 1998.
+%H A048788 Vincenzo Librandi, <a href="/A048788/b048788.txt">Table of n, a(n) for n = 0..1000</a>
+%H A048788 P. Bala, <a href="/A243469/a243469.pdf">Notes on 2-periodic continued fractions and Lehmer sequences</a>
+%H A048788 Marcia Edson, Scott Lewis and Omer Yayenie, <a href="http://www.emis.de/journals/INTEGERS/papers/l32/l32.Abstract.html">The k-periodic Fibonacci sequence and an extended Binet's formula</a>, INTEGERS 11 (2011) #A32.
+%H A048788 D. Panario, M. Sahin, Q. Wang, <a href="http://www.emis.de/journals/INTEGERS/papers/n78/n78.Abstract.html">A family of Fibonacci-like conditional sequences</a>, INTEGERS, Vol. 13, 2013, #A78.
+%H A048788 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A048788 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (0,4,0,-1)
+%F A048788 G.f.: x*(1+2*x-x^2)/(1-4*x^2+x^4). - _Paul Barry_, Sep 18 2009
+%F A048788 a(n) = 4*a(n-2) - a(n-4). - _Vincenzo Librandi_, Dec 10 2013
+%F A048788 a(2*n-1) = A001835(n); a(2*n) = 2*A001353(n). - _Peter Bala_, Jun 06 2014
+%F A048788 From _Gerry Martens_, Jul 11 2015: (Start)
+%F A048788 Interspersion of 2 sequences [a1(n-1),a0(n)] for n>0:
+%F A048788 a0(n) = ((3+sqrt(3))*(2-sqrt(3))^n-((-3+sqrt(3))*(2+sqrt(3))^n))/6.
+%F A048788 a1(n) = 2*sum(i=1,n,a0(i)). (End)
+%F A048788 a(n) = ((r + (-1)^n/r)*s^n/2^(n/2) - (1/r + (-1)^n*r)*2^(n/2)/s^n)*sqrt(6)/12, where r = 1 + sqrt(2), s = 1 + sqrt(3). - _Vladimir Reshetnikov_, May 11 2016
+%t A048788 Numerator[NestList[(2/(2 + #))&, 0, 60]] (* _Vladimir Joseph Stephan Orlovsky_, Apr 13 2010 *)
+%t A048788 CoefficientList[Series[x (1 + 2 x - x^2)/(1 - 4 x^2 + x^4), {x, 0, 50}], x] (* _Vincenzo Librandi_, Dec 10 2013 *)
+%t A048788 a0[n_] := ((3+Sqrt[3])*(2-Sqrt[3])^n-((-3+Sqrt[3])*(2+Sqrt[3])^n))/6 // Simplify
+%t A048788 a1[n_] := 2*Sum[a0[i], {i, 1, n}]
+%t A048788 Flatten[MapIndexed[{a1[#-1],a0[#]}&,Range[20]]] (* _Gerry Martens_, Jul 10 2015 *)
+%t A048788 Round@Table[With[{r = 1 + Sqrt[2], s = 1 + Sqrt[3]}, ((r + (-1)^n/r) s^n/2^(n/2) - (1/r + (-1)^n r) 2^(n/2)/s^n) Sqrt[6]/12], {n, 0, 20}] (* or *) LinearRecurrence[{0, 4, 0, -1}, {0, 1, 2, 3}, 20] (* _Vladimir Reshetnikov_, May 11 2016 *)
+%o A048788 (MAGMA) I:=[0, 1, 2, 3]; [n le 4 select I[n] else 4*Self(n-2)-Self(n-4): n in [1..40]]; // _Vincenzo Librandi_, Dec 10 2013
+%o A048788 (PARI) main(size)=v=vector(size); v[1]=0;v[2]=1;v[3]=2;v[4]=3;for(i=5, size, v[i]=4*v[i-2] - v[i-4]); v; \\ _Anders Hellström_, Jul 11 2015
+%o A048788 (PARI) a=vector(50); a[1]=1; a[2]=2; for(n=3, #a, if(n%2==1, a[n]=a[n-1]+a[n-2], a[n]=2*a[n-1]+a[n-2])); concat(0, a) \\ _Colin Barker_, Jan 30 2016
+%Y A048788 Cf. A002530, A002531.
+%Y A048788 Bisections are A001835 and A052530.
+%K A048788 nonn,easy,frac,changed
+%O A048788 0,3
+%A A048788 Robin Trew (trew(AT)hcs.harvard.edu), Dec 11 1999
+%E A048788 Denominator of g.f. corrected by _Paul Barry_, Sep 18 2009
+%E A048788 Incorrect g.f. deleted by _Colin Barker_, Aug 10 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

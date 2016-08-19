@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029923
+Showing 1-1 of 1
+
+%I A029923
+%S A029923 0,0,1,1,2,2,3,3,4,4,5,5,5,6,6,7,7,8,8,9,9,10,10,10,11,11,12,12,13,13,
+%T A029923 14,14,15,15,15,16,16,17,17,18,18,19,19,20,20,20,21,21,22,22,23,23,24,
+%U A029923 24,24,25,25,26,26,27,27
+%N A029923 Convert n from pounds (lbs) to kilograms (kg).
+%C A029923 This sequence is a(n) = floor(n/2.2) = floor(5n/11). The current (1959) definition of the international pound is 1 pound = 0.45359237 kilograms. - _Charles R Greathouse IV_, Mar 07 2016
+%D A029923 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 8.
+%H A029923 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A029923 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.convertit.com/Go/ConvertIt/Reference/AMS55.ASP">Handbook of Mathematical Functions</a>, National Bureau of Standards Applied Math. Series 55, Tenth Printing, 1972, p. 8.
+%F A029923 a(n) = a(n-1) + a(n-11) - a(n-12). - _Charles R Greathouse IV_, Mar 07 2016
+%o A029923 (PARI) a(n)=5*n\11 \\ _Charles R Greathouse IV_, Mar 07 2016
+%K A029923 nonn,easy
+%O A029923 1,5
+%A A029923 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

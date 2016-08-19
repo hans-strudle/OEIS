@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051539
+Showing 1-1 of 1
+
+%I A051539
+%S A051539 1,5,45,585,9945,69615,348075,10094175,111035925,4108329225,
+%T A051539 168441498225,168441498225,1179090487575,62491795841475,
+%U A051539 1187344120988025,72427991380269525,72427991380269525,1665843801746199075,121606597527472532475,121606597527472532475
+%N A051539 Least common multiple of {1, 5, 9, 13, 17 ...,(4n+1)} (A016813).
+%C A051539 This sequence coincides with sequence A097328 of denominators of 1+1/5+1/9+1/13+...+1/(4n+1) iff n<12. - _T. D. Noe_, Aug 04 2004
+%H A051539 T. D. Noe, <a href="/A051539/b051539.txt">Table of n, a(n) for n=0..200</a>
+%e A051539 a(3) = LCM {1, 5, 9, 13} = 585
+%t A051539 Table[ Apply[ LCM, Join[{1}, Table[1 + 4i, {i, 0, n}]]], {n, 0, 19}]
+%t A051539 nn=20;Table[LCM@@Take[4Range[0,nn-1]+1,n],{n,nn}] (* _Harvey P. Dale_, Jul 04 2011 *)
+%o A051539 (MAGMA) k:=77; [Lcm([h: h in [1..j by 4]]): j in [1..k by 4]];  // _Bruno Berselli_, May 03 2011
+%Y A051539 Cf. A016813, A075136, A074598.
+%Y A051539 Cf. A097329.
+%K A051539 easy,nice,nonn
+%O A051539 0,2
+%A A051539 Asher Auel (asher.auel(AT)reed.edu)
+%E A051539 Edited by _Robert G. Wilson v_, Aug 27 2002
+%E A051539 a(16) corrected by _T. D. Noe_, Feb 08 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

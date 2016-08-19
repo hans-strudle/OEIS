@@ -1,0 +1,86 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004736
+Showing 1-1 of 1
+
+%I A004736
+%S A004736 1,2,1,3,2,1,4,3,2,1,5,4,3,2,1,6,5,4,3,2,1,7,6,5,4,3,2,1,8,7,6,5,4,3,
+%T A004736 2,1,9,8,7,6,5,4,3,2,1,10,9,8,7,6,5,4,3,2,1,11,10,9,8,7,6,5,4,3,2,1,
+%U A004736 12,11,10,9,8,7,6,5,4,3,2,1,13,12,11,10,9,8,7,6,5,4,3,2,1,14,13,12,11,10,9
+%N A004736 Triangle read by rows: row n lists the first n positive integers in decreasing order.
+%C A004736 Old name: Triangle T(n,k) = n-k, n >= 1, 0 <= k < n. Fractal sequence formed by repeatedly appending strings m m-1 . . . 2 1.
+%C A004736 "Smarandache Decrescendo Subsequences".
+%C A004736 The PARI functions t1, t2 can be used to read a square array T(n,k) (n >= 1, k >= 1) by antidiagonals upwards: n -> T(t1(n), t2(n)). - _Michael Somos_, Aug 23 2002
+%C A004736 A004736 is the mirror of the self-fission of the polynomial sequence (q(n,x)) given by q(n,x) = x^n+  x^(n-1) + ... + x + 1. See A193842 for the definition of fission. - _Clark Kimberling_, Aug 07 2011
+%C A004736 Seen as flattened list: a(A000217(n)) = 1; a(A000124(n)) = n and a(m) <> n for m < A000124(n). - _Reinhard Zumkeller_, Jul 22 2012
+%C A004736 Sequence B is called a reverse reluctant sequence of sequence A, if B is triangle array read by rows: row number k lists first k elements of the sequence A in reverse order. Sequence A004736 is the reverse reluctant sequence of sequence 1,2,3,... (A000027). - _Boris Putievskiy_, Dec 13 2012
+%C A004736 The row sums equal A000217(n). The alternating row sums equal A004526(n+1). The antidiagonal sums equal A002620(n+1) respectively A008805(n-1). - _Johannes W. Meijer_, Sep 28 2013
+%C A004736 From _Peter Bala_, Jul 29 2014: (Start)
+%C A004736 Riordan array (1/(1-x)^2,x). Call this array M and for k = 0,1,2,... define M(k) to be the lower unit triangular block array
+%C A004736 /I_k 0\
+%C A004736 \ 0  M/
+%C A004736 having the k X k identity matrix I_k as the upper left block; in particular, M(0) = M. Then the infinite matrix product M(0)*M(1)*M(2)*... is equal to A078812. (End)
+%D A004736 H. S. M. Coxeter, Regular Polytopes, 3rd ed., Dover, NY, 1973, pp 159-162.
+%D A004736 C. Kimberling, "Numeration systems and fractal sequences," Acta Arithmetica 73 (1995) 103-117.
+%H A004736 Reinhard Zumkeller, <a href="/A004736/b004736.txt">Rows n = 1..100 of triangle, flattened</a>
+%H A004736 C. Kimberling, <a href="http://faculty.evansville.edu/ck6/integer/fractals.html">Fractal sequences</a>
+%H A004736 Boris Putievskiy, <a href="http://arxiv.org/abs/1212.2732">Transformations Integer Sequences And Pairing Functions</a> arXiv:1212.2732 [math.CO]
+%H A004736 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/Sequences-book.pdf">Sequences of Numbers Involved in Unsolved Problems</a>.
+%H A004736 M. Somos, <a href="/A073189/a073189.txt">Sequences used for indexing triangular or square arrays</a>
+%H A004736 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmarandacheSequences.html">Smarandache Sequences</a>
+%F A004736 a(n+1) = 1 + A025581(n).
+%F A004736 a(n) = (2 - 2*n + round(sqrt(2*n)) + round(sqrt(2*n))^2)/2. E.g. a(47) = 9. - Brian Tenneson (phoenix(AT)alephnulldimension.net), Oct 11 2003
+%F A004736 G.f.: 1 / ((1-x)^2 * (1-x*y)). - _Ralf Stephan_, Jan 23 2005
+%F A004736 Recursion: e(n,k) = (e(n - 1, k)*e(n, k - 1) + 1)/e(n - 1, k - 1). - _Roger L. Bagula_, Mar 25 2009
+%F A004736 a(n) = (t*t+3*t+4)/2-n, where t = floor[(-1+sqrt(8*n-7))/2].- _Boris Putievskiy_, Dec 13 2012
+%F A004736 From _Johannes W. Meijer_, Sep 28 2013: (Start)
+%F A004736 T(n, k) = n - k + 1, n>= 1 and 1 <= k <= n.
+%F A004736 T(n, k) = A002260(n+k-1, n-k+1). (End)
+%e A004736 The triangle T(n, k) starts:
+%e A004736 n\k  1   2   3  4  5  6  7  8  9 10 11 12 ...
+%e A004736 1:   1
+%e A004736 2:   2   1
+%e A004736 3:   3   2   1
+%e A004736 4:   4   3   2  1
+%e A004736 5:   5   4   3  2  1
+%e A004736 6:   6   5   4  3  2  1
+%e A004736 7:   7   6   5  4  3  2  1
+%e A004736 8:   8   7   6  5  4  3  2  1
+%e A004736 9:   9   8   7  6  5  4  3  2  1
+%e A004736 10: 10   9   8  7  6  5  4  3  2  1
+%e A004736 11: 11  10   9  8  7  6  5  4  3  2  1
+%e A004736 12: 12  11  10  9  8  7  6  5  4  3  2  1
+%e A004736 ... Reformatted.  - _Wolfdieter Lang_, Feb 04 2015
+%p A004736 A004736 := proc(n,m) n-m+1 ; end:
+%p A004736 T := (n, k) -> n-k+1: seq(seq(T(n,k), k=1..n), n=1..13); # _Johannes W. Meijer_, Sep 28 2013
+%t A004736 Flatten[ Table[ Reverse[ Range[n]], {n, 12}]] (* _Robert G. Wilson v_, Apr 27 2004 *)
+%t A004736 z=13;
+%t A004736 p[0,x_]:=1;p[n_,x_]:=x*p[n-1,x]+1;
+%t A004736 q[n_,x_]:=p[n,x];
+%t A004736 p1[n_,k_]:=Coefficient[p[n,x],x^k];p1[n_,0]:=p[n,x]/.x->0;
+%t A004736 d[n_,x_]:=Sum[p1[n,k]*q[n-1-k,x],{k,0,n-1}]
+%t A004736 h[n_]:=CoefficientList[d[n,x],{x}]
+%t A004736 TableForm[Table[Reverse[h[n]],{n,0,z}]]
+%t A004736 Flatten[Table[Reverse[h[n]],{n,-1,z}]] (* A002260 *)
+%t A004736 TableForm[Table[h[n],{n,0,z}]]
+%t A004736 Flatten[Table[h[n],{n,-1,z}]] (* A004736 *)
+%t A004736 (* _Clark Kimberling_, Jun 14 2011 *)
+%o A004736 (PARI) {a(n) = 1 + binomial(1 + floor(1/2 + sqrt(2*n)), 2) - n}
+%o A004736 (PARI) {t1(n) = binomial( floor(3/2 + sqrt(2*n)), 2) - n + 1} /* A004736 */
+%o A004736 (PARI) {t2(n) = n - binomial( floor(1/2 + sqrt(2*n)), 2)} /* A002260 */
+%o A004736 (Excel cell formula) =if(row()>=column();row()-column()+1;"") [_Mats Granvik_, Jan 19 2009]
+%o A004736 (Haskell)
+%o A004736 a004736 n k = n - k + 1
+%o A004736 a004736_row n = a004736_tabl !! (n-1)
+%o A004736 a004736_tabl = map reverse a002260_tabl
+%o A004736 -- _Reinhard Zumkeller_, Aug 04 2014, Jul 22 2012
+%Y A004736 Cf. A002262, A025581, A003056.
+%Y A004736 Ordinal transform of A002260. A078812.
+%Y A004736 Cf. A141419 (partial sums per row).
+%Y A004736 Cf. A134546 (T * A051731, matrix product).
+%K A004736 nonn,easy,tabl,nice
+%O A004736 1,2
+%A A004736 R. Muller
+%E A004736 New name from _Omar E. Pol_, Jul 15 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

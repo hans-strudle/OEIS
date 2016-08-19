@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031919
+Showing 1-1 of 1
+
+%I A031919
+%S A031919 3,37,79,131,181,239,293,359,421,479,557,613,673,743,821,881,953,1021,
+%T A031919 1091,1163,1231,1301,1399,1459,1531,1601,1667,1747,1831,1907,1997,
+%U A031919 2069,2137,2237,2297,2377,2441,2543,2633,2693,2753,2837,2917
+%N A031919 Primes p(10n-8).
+%H A031919 Ivan Panchenko, <a href="/A031919/b031919.txt">Table of n, a(n) for n = 1..1000</a>
+%o A031919 (MAGMA)  [ &+[(NthPrime(10*n-8))]: n in [1..1000] ]; // _Vincenzo Librandi_, Apr 08 2011
+%K A031919 nonn
+%O A031919 1,1
+%A A031919 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

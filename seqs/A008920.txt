@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008920
+Showing 1-1 of 1
+
+%I A008920
+%S A008920 0,18,99,198,261,342,423,504,585,666,747,828,1089,1170,1251,1332,1413,
+%T A008920 1494,1575,1656,1737,1818,1998,2871,3762,4653,5544,6435,7326,8217,
+%U A008920 9108,9999,10890,10989,11781,12672,13563,14454,15345,16236
+%N A008920 Let j = | i - i_written_backwards |, k = j + j_written_backwards; then k is in this sequence.
+%D A008920 J. H. Conway, personal communication.
+%K A008920 nonn,base
+%O A008920 0,2
+%A A008920 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

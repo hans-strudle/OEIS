@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040881
+Showing 1-1 of 1
+
+%I A040881
+%S A040881 30,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,
+%T A040881 5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,
+%U A040881 60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60,5,60
+%N A040881 Continued fraction for sqrt(912).
+%H A040881 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040881 a(n)=(1/2)*[65+55*(-1)^n]-30*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 03 2009]
+%p A040881 with(numtheory): Digits := 300: convert(evalf(sqrt(912)),confrac);
+%K A040881 nonn,cofr,easy
+%O A040881 0,1
+%A A040881 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

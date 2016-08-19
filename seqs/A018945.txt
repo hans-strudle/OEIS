@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018945
+Showing 1-1 of 1
+
+%I A018945
+%S A018945 1,13,23,252,1011,7399,41917,288815,1888898
+%N A018945 Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AEL = AlPO4-11 [ Al20P20O80 ].
+%D A018945 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A018945 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A018945 nonn
+%O A018945 2,2
+%A A018945 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

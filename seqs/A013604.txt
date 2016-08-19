@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013604
+Showing 1-1 of 1
+
+%I A013604
+%S A013604 1,2,4,2,2,2,8,8,2,20,16,58,22,8,16,98,10,10,14,8,4,2,20,28,20,20,26,
+%T A013604 22,14,26,4,34,52,56,28,10,2,10,58,38,2,122,74,34,22,22,46,44,50,46,
+%U A013604 16,124,4,10,106,10,26,220,38,160,74,8,28,104,104,38,298,94,16
+%N A013604 3^n-prevprime(3^n), where prevprime(x) = largest prime < x.
+%p A013604 seq(3^i-prevprime(3^i),i=1..100);
+%K A013604 nonn
+%O A013604 1,2
+%A A013604 James Kilfiger (mapdn(AT)csv.warwick.ac.uk)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

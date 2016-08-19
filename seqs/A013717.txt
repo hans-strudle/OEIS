@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013717
+Showing 1-1 of 1
+
+%I A013717
+%S A013717 12,1728,248832,35831808,5159780352,743008370688,106993205379072,
+%T A013717 15407021574586368,2218611106740436992,319479999370622926848,
+%U A013717 46005119909369701466112,6624737266949237011120128
+%N A013717 12^(2n+1).
+%H A013717 Vincenzo Librandi, <a href="/A013717/b013717.txt">Table of n, a(n) for n = 0..200</a>
+%H A013717 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013717 a(n)=144*a(n-1), n>0 ; a(0)=12 . G.f.: 12/(1-144*x). [From _Philippe Deléham_, Nov 25 2008]
+%p A013717 seq(12^(2*n+1),n=0..11); # Nathaniel Johnston, Jun 25 2011
+%o A013717 (MAGMA) [12^(2*n+1): n in [0..15]]; // Vincenzo Librandi, Jun 26 2011
+%Y A013717 Cf. A013708-A013716, A013718-A013729.
+%K A013717 nonn,easy
+%O A013717 0,1
+%A A013717 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

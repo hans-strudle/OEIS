@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054626
+Showing 1-1 of 1
+
+%I A054626
+%S A054626 0,7,28,119,616,3367,19684,117655,720916,4483815,28249228,179756983,
+%T A054626 1153450872,7453000807,48444564052,316504102999,2077058521216,
+%U A054626 13684147881607,90467424361132,599941851861751,3989613329006536,26597422099282535
+%N A054626 Number of n-bead necklaces with 7 colors.
+%H A054626 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%H A054626 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Necklace.html">Necklace.</a>
+%F A054626 (1/n)*Sum_{d|n} phi(d)*7^(n/d), n>0.
+%p A054626 with(combstruct):A:=[N,{N=Cycle(Union(Z$7))},unlabeled]: seq(count(A,size=n),n=0..21); - _Zerinvary Lajos_, Dec 05 2007
+%Y A054626 Column 7 of A075195.
+%K A054626 nonn
+%O A054626 0,2
+%A A054626 _N. J. A. Sloane_, Apr 16 2000
+%E A054626 Edited by _Christian G. Bower_, Sep 07 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

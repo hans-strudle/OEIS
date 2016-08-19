@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028099
+Showing 1-1 of 1
+
+%I A028099
+%S A028099 1,30,577,9066,126829,1646094,20280169,240528882,2771673157,
+%T A028099 31228927158,345616983361,3769863028698,40631819886685,
+%U A028099 433596513609822,4588506840332953,48214238728174914,503555280142266613
+%N A028099 Expansion of 1/((1-3x)(1-8x)(1-9x)(1-10x)).
+%F A028099 a(n)=(15*10^(n+3)-35*9^(n+3)+21*8^(n+3)-3^(n+3))/210. [_Yahia Kahloune_, Jun 10 2013]
+%K A028099 nonn,easy
+%O A028099 0,2
+%A A028099 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

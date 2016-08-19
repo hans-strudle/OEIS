@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049709
+Showing 1-1 of 1
+
+%I A049709
+%S A049709 2,3,4,7,9,14,18,26,33,45,52,70,85,102,120,148,168,202,229,265,301,
+%T A049709 349,386,444,497,554,608,682,738,819,894,986,1078,1178,1263,1383,1499,
+%U A049709 1620,1725,1870,1989,2149,2289
+%N A049709 (1/2)*Sum{T(i,n-i): i=0,1,...,n}, array T as in A049704.
+%K A049709 nonn
+%O A049709 3,1
+%A A049709 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032065
+Showing 1-1 of 1
+
+%I A032065
+%S A032065 1,1,1,2,3,6,14,31,70,163,407,984,2445,6089,15412,39189,100217,257720,
+%T A032065 666068,1729169,4505362,11784473,30917383,81358804,214658044,
+%U A032065 567792612,1505281859,3999183421,10645793860
+%N A032065 Number of dyslexic planted planar trees with n+1 nodes where any 2 subtrees extending from the same node are different.
+%H A032065 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032065 Shifts left under "BGK" (reversible, element, unlabeled) transform.
+%K A032065 nonn
+%O A032065 1,4
+%A A032065 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

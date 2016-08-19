@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009707
+Showing 1-1 of 1
+
+%I A009707
+%S A009707 0,2,8,336,15616,1450240,185032704,33566984192,7971973332992,
+%T A009707 2424984197529600,915532582868746240,420569934453637906432,
+%U A009707 230845747512083447021568,149228982402223336708898816
+%N A009707 Expansion of tan(tan(x).x).
+%t A009707 Tan[ Tan[ x ]*x ] (* Even Part *)
+%K A009707 nonn
+%O A009707 0,2
+%A A009707 _R. H. Hardin_
+%E A009707 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

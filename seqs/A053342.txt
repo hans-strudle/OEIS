@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053342
+Showing 1-1 of 1
+
+%I A053342
+%S A053342 41,1,1,2,1,1,2,1,2,1,8,1,1,27,5,6,5,27,1,1,8,1,2,1,2,1,1,2,1,1,82,1,
+%T A053342 1,2,1,1,2,1,2,1,8,1,1,27,5,6,5,27,1,1,8,1,2,1,2,1,1,2,1,1,82,1,1,2,1,
+%U A053342 1,2,1,2,1,8,1,1,27,5,6,5,27,1,1,8,1,2,1,2,1,1,2,1,1
+%N A053342 Continued fraction for sqrt(1729).
+%D A053342 R. A. Mollin, Quadratics, CRC Press, 1996, Example 3.5.1.
+%H A053342 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%t A053342 ContinuedFraction[Sqrt[1729],90] (* _Harvey P. Dale_, Dec 18 2013 *)
+%K A053342 nonn,cofr
+%O A053342 1,1
+%A A053342 _N. J. A. Sloane_, Jan 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

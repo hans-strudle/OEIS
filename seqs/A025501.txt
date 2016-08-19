@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025501
+Showing 1-1 of 1
+
+%I A025501
+%S A025501 1,2,3,5,6,7,8,11,12,12,13,18,16,15,19,18,20,20,23,21,23,28,28,33,25,
+%T A025501 33,37,38,35,31,41,46,38,50,45,49,49,44,45,52,50,52,58,58,53,54,54,55,
+%U A025501 67,57,65,67,66,74,77,80,76,79,76,72,74,83,79,77,88,83,78,87,76,88,87,94,97
+%N A025501 Number of terms in Zeckendorf representation of 9^n.
+%Y A025501 Cf. A007895.
+%K A025501 nonn
+%O A025501 0,2
+%A A025501 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

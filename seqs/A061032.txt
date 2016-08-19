@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061032
+Showing 1-1 of 1
+
+%I A061032
+%S A061032 3,4,6,10,21,36,81,168,360,810,1872,4536,11088,27720,71280,186624,
+%T A061032 496128,1347192,3720960,10407936,29576988,85349376,249500160,
+%U A061032 738904320,2216712960,6732000000,20680540160,64260000000,201860859375
+%N A061032 Factorial splitting: write n! = x*y*z with x<y<z and x maximal; sequence gives value of z.
+%D A061032 Luc Kumps, personal communication.
+%Y A061032 Cf. A061030 - A061033.
+%K A061032 nonn
+%O A061032 3,1
+%A A061032 _Ed Pegg Jr_, May 25 2001
+%E A061032 a(10) and a(11) corrected and a(14)-a(31) from _Donovan Johnson_, May 11 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

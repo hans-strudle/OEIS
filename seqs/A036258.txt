@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036258
+Showing 1-1 of 1
+
+%I A036258
+%S A036258 1,9,90,945,9700,98475,992250,9961125,99805000,999024375,9995118750,
+%T A036258 99975590625,999877937500,9999389671875,99996948281250,
+%U A036258 999984741328125,9999923706250000,99999618530859375,999998092652343750,9999990463259765625
+%N A036258 Number of inequivalent strings of n digits, when 2 strings are equivalent if turning 1 upside down gives the other.
+%D A036258 Nick Baxter, The Burnside di-lemma: combinatorics and puzzle symmetry, in Tribute to a Mathemagician, Peters, 2005, pp. 199-210.
+%D A036258 De Bruijn, Polya's theory of counting, in Beckenbach, ed., Applied Combinatorial Math., Wiley, 1964 (p. 182).
+%F A036258 a(n+1) = (1/10)*{10^n - 5^n + (4-(-1)^n)*5^[n/2]} (De Bruijn)
+%p A036258 f:=n-> if n mod 2 = 0 then 10^n-(5^n-5^(n/2))/2 else 10^n-(5^n-3*5^((n-1)/2))/2; fi;
+%Y A036258 Cf. A036255, A036257.
+%K A036258 nonn,easy,base
+%O A036258 0,2
+%A A036258 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

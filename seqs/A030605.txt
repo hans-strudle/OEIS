@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030605
+Showing 1-1 of 1
+
+%I A030605
+%S A030605 20,21,23,51,62,72,74,80,81,87,93,94,101,104,109,113,114,117,122,123,
+%T A030605 124,130,139,145,175,176,178,179,180,202,214,238,248,249,255,270,274,
+%U A030605 279,282,296,304,310,317,318,330,335,342,343
+%N A030605 Position of n-th 0 in A030604.
+%t A030605 Flatten[Position[Flatten[IntegerDigits[#,6]&/@Fibonacci[Range[ 2,50]]],0]] (* _Harvey P. Dale_, Apr 15 2012 *)
+%K A030605 nonn
+%O A030605 1,1
+%A A030605 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

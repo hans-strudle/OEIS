@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022249
+Showing 1-1 of 1
+
+%I A022249
+%S A022249 1,153391689,20914675798619273,2812613653548502301460105,
+%T A022249 377594800550975709003441429239433,
+%U A022249 50681462910057431534320730090844329858697
+%N A022249 Gaussian binomial coefficients [ n,9 ] for q = 8.
+%D A022249 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%t A022249 QBinomial[Range[9,20],9,8] (* _Harvey P. Dale_, Dec 12 2011 *)
+%o A022249 (Sage) [gaussian_binomial(n,9,8) for n in xrange(9,15)] # [From _Zerinvary Lajos_, May 25 2009]
+%K A022249 nonn
+%O A022249 0,2
+%A A022249 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

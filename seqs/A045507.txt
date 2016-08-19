@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045507
+Showing 1-1 of 1
+
+%I A045507
+%S A045507 1,12,124,1248,124816,12481632,1248163264,1248163264128,
+%T A045507 1248163264128256,1248163264128256512,12481632641282565121024,
+%U A045507 124816326412825651210242048,1248163264128256512102420484096
+%N A045507 Concatenate powers of 2.
+%D A045507 A. Murthy, Smarandache Notions Journal, Vol. 11 N. 1-2-3 Spring 2000
+%F A045507 a(n)=a(n-1)*10^(floor(1+log10(2^n)))+2^n, with a(0)=1 [From _Paolo P. Lava_, Oct 29 2008]
+%e A045507 124 belongs to the sequence because it is the concatenation of 2^0, 2^1 and 2^2.
+%p A045507 P:=proc(i) local a,n; a:=1; print(a); for n from 2 by 1 to i do a:=(a*10^trunc(evalf(floor(1+log10(2^n)),100))+2^n); print(a); od; end: P(100); [From _Paolo P. Lava_, Oct 29 2008]
+%K A045507 nonn,base
+%O A045507 0,2
+%A A045507 _Jeff Burch_
+%E A045507 Murthy reference from _Felice Russo_ - Nov 15 1999)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

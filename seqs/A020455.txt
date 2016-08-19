@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020455
+Showing 1-1 of 1
+
+%I A020455
+%S A020455 7,11,17,71,1117,1171,1777,7177,7717,11117,11171,11177,11717,11777,
+%T A020455 17117,71171,71711,71777,77171,77711,1111711,1111771,1117111,1117117,
+%U A020455 1117177,1171111,1171117,1171771,1177171,1177711,1177717,1711117,1717117,1771177
+%N A020455 Primes that contain digits 1 and 7 only.
+%H A020455 Vincenzo Librandi, <a href="/A020455/b020455.txt">Table of n, a(n) for n = 1..1000</a>
+%t A020455 Flatten[Table[Select[FromDigits/@Tuples[{1,7},n],PrimeQ],{n,7}]] (* _Vincenzo Librandi_, Jul 27 2012 *)
+%o A020455 (MAGMA) [p: p in PrimesUpTo(1771177) | Set(Intseq(p)) subset [1, 7]]; // Vincenzo Librandi, Jul 27 2012
+%K A020455 nonn,base
+%O A020455 1,1
+%A A020455 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

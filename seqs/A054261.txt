@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054261
+Showing 1-1 of 1
+
+%I A054261
+%S A054261 2,23,235,2357,112357,113257,1131725,113171925,1131719235,
+%T A054261 113171923295,113171923295,1131719237295,11317237294195,
+%U A054261 1131723294194375,113172329419437475,1131723294194347537,113172329419434753759
+%N A054261 Smallest number that contains the first n primes as substrings.
+%C A054261 The version that allows substrings to go from left to right or right to left is A240959. - _Dmitry Kamenetsky_, Oct 07 2015
+%H A054261 Carlos Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_408.htm">Puzzle 408</a>
+%H A054261 D. Rusin, <a href="http://www.math.niu.edu/~rusin/known-math/95/1000digits">Solution for n=1000</a> [Broken link]
+%H A054261 D. Rusin, <a href="/A035239/a035239.txt">Solution for n=1000</a> [Cached copy]
+%Y A054261 Cf. A054260, A035239, A240959.
+%K A054261 nonn,base,nice,changed
+%O A054261 1,1
+%A A054261 _Patrick De Geest_, Feb 15 2000
+%E A054261 More terms from _Naohiro Nomoto_, Jul 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

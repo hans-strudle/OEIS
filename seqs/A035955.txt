@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035955
+Showing 1-1 of 1
+
+%I A035955
+%S A035955 0,1,1,2,2,4,4,7,8,12,14,21,24,33,40,53,64,84,100,129,155,195,234,293,
+%T A035955 349,431,515,629,748,909,1076,1298,1535,1837,2166,2582,3032,3595,4214,
+%U A035955 4972,5810,6831,7959,9321,10837,12643,14662,17057,19728,22880,26409
+%N A035955 Number of partitions in parts not of the form 15k, 15k+1 or 15k-1. Also number of partitions with no part of size 1 and differences between parts at distance 6 are greater than 1.
+%C A035955 Case k=7,i=1 of Gordon Theorem.
+%D A035955 G. E. Andrews, The Theory of Partitions, Addison-Wesley, 1976, p. 109.
+%K A035955 nonn,easy
+%O A035955 1,4
+%A A035955 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

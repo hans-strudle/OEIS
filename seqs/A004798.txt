@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004798
+Showing 1-1 of 1
+
+%I A004798
+%S A004798 1,4,10,22,45,88,167,310,566,1020,1819,3216,5645,9848,17090,29522,
+%T A004798 50793,87080,148819,253610,431086,731064,1237175,2089632,3523225,
+%U A004798 5930668,9968122,16730830,28045221,46954360,78524159,131181406,218933030,365044788,608135635,1012268592
+%N A004798 Convolution of Fibonacci numbers 1,2,3,5,... with themselves.
+%C A004798 From _Emeric Deutsch_, Feb 15 2010: (Start)
+%C A004798 a(n) is the number of subwords of the form 0000 in all binary words of length n+3 that have no pair of adjacent 1's. Example: a(2)=4 because in the 13 (=A000045(7)) binary words of length 5 that have no pair of adjacent 1's, namely 00000, 00001, 00010, 00100, 00101, 01000, 01001, 01010, 10000, 10001, 10010, 10100, 10101, we have 2 + 1 + 0 + 0 + 0 + 0 + 0 + 0 + 1 + 1 + 0 + 0 + 0 = 4 subwords of the form 0000.
+%C A004798 a(n) = Sum(k*A171855(n + 3,k),k>=0). (End)
+%C A004798 a(n) is the total number of 0's in all binary words of length n that have no pair of adjacent 1's. Example: a(5) = 45 because in the binary words listed in the above example there are respectively 5 + 4 + 4 + 4 + 3 + 4 + 3 + 3 + 4 + 3 + 3 + 3 + 2 = 45. - _Geoffrey Critzer_, Jul 22 2013
+%D A004798 É. Czabarka, R. Flórez, L. Junes, A Discrete Convolution on the Generalized Hosoya Triangle, Journal of Integer Sequences, 18 (2015), #15.1.6.
+%H A004798 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (2,1,-2,-1).
+%F A004798 O.g.f.: (x+1)^2*x/(1-x-x^2)^2. - _Len Smiley_, Dec 11 2001
+%F A004798 a(n) = a(n-1) + a(n-2) + Fibonacci(n+2). - _Philippe Deléham_, Jan 22 2012
+%F A004798 O.g.f. is the derivative of A(x,y) with respect to y and then evaluated at y = 1, where A(x,y) is the o.g.f. for A030528. - _Geoffrey Critzer_, Jul 22 2013
+%F A004798 a(n) = A001629(n+1)+A001629(n-1)+2*A001629(n). - _R. J. Mathar_, Oct 30 2015
+%e A004798 a(6) = 45 + 22 + A000045(6+2) = 45 + 22 + 21 = 88 . - _Philippe Deléham_, Jan 22 2012
+%p A004798 a:= n-> (<<0|1|0|0>, <0|0|1|0>, <0|0|0|1>, <-1|-2|1|2>>^n. <<0, 1, 4, 10>>)[1, 1]: seq(a(n), n=1..40);  # _Alois P. Heinz_, Jul 04 2013
+%t A004798 nn=36;Drop[CoefficientList[Series[D[(1+x)/(1-y x -y x^2),y]/.y->1,{x,0,nn}],x],1] (* _Geoffrey Critzer_, Jul 22 2013 *)
+%o A004798 (PARI) Vec(((1+x)/(1-x-x^2))^2+O(x^66)) \\ _Joerg Arndt_, Jul 04 2013
+%Y A004798 Cf. A171855, A000045. - _Emeric Deutsch_, Feb 15 2010
+%Y A004798 Cf. A001629. - _Alois P. Heinz_, Jul 04 2013
+%K A004798 nonn,easy
+%O A004798 1,2
+%A A004798 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

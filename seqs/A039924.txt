@@ -1,0 +1,38 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039924
+Showing 1-1 of 1
+
+%I A039924
+%S A039924 1,1,1,1,0,0,1,1,2,1,2,1,1,0,0,2,1,3,3,4,3,5,3,4,2,3,0,
+%T A039924 1,3,2,5,5,9,7,11,9,13,10,13,9,12,7,9,3,5,3,1,9,7,17,15,24,
+%U A039924 21,31,27,37,31,40,33,41,31,39,27,33,18,24,6,11,9,5,26,23
+%V A039924 1,-1,-1,-1,0,0,1,1,2,1,2,1,1,0,0,-2,-1,-3,-3,-4,-3,-5,-3,-4,-2,-3,0,
+%W A039924 -1,3,2,5,5,9,7,11,9,13,10,13,9,12,7,9,3,5,-3,-1,-9,-7,-17,-15,-24,
+%X A039924 -21,-31,-27,-37,-31,-40,-33,-41,-31,-39,-27,-33,-18,-24,-6,-11,9,5,26,23
+%N A039924 G.f.: Sum_{k>=0} x^(k^2)*(-1)^k/(Product_{i=1..k} 1-x^i).
+%C A039924 Ramanujan used the form Sum_{k>=0} x^(k^2) / (Product_{i=1..k} 1-(-x)^i), which is obtained by changing the sign of x. - _Michael Somos_, Jul 20 2003
+%C A039924 Coefficients in expansion of determinant of infinite tridiagonal matrix shown below in powers of x^2 (Lehmer 1973) :
+%C A039924 1 x 0 0 0 0 0 ...
+%C A039924 x 1 x^2 0 0 0 ...
+%C A039924 0 x^2 1 x^3 0 0 ...
+%C A039924 0 0 x^3 1 x^4 0 0 0 ...
+%C A039924 ...................
+%C A039924 Convolution inverse of A003116.
+%D A039924 N. J. Fine, Basic Hypergeometric Series and Applications, Amer. Math. Soc., 1988; p. 55, Eq. (26.11).
+%D A039924 G. H. Hardy, P. V. Seshu Aiyar and B. M. Wilson, editors, Collected Papers of Srinivasa Ramanujan, Cambridge, 1923; p. 354.
+%D A039924 D. H. Lehmer, Course on History of Mathematics, Univ. Calif. Berkeley, 1973.
+%D A039924 _Herman P. Robinson_, personal communication to _N. J. A. Sloane_.
+%H A039924 T. D. Noe, <a href="/A039924/b039924.txt">Table of n, a(n) for n=0..1000</a>
+%e A039924 G.f. = 1 - x - x^2 - x^3 + x^6 + x^7 + 2*x^8 + x^9 + 2*x^10 + x^11 + x^12 + ...
+%p A039924 qq:=n->mul( 1-(-q)^i, i=1..n); add (q^(n^2)/qq(n),n=0..100): series(t1,q,99);
+%t A039924 CoefficientList[ Series[ Sum[x^k^2*(-1)^k / Product[1-x^i,{i,1,k}], {k,0,100}], {x,0,100}],x][[1 ;; 72]] (* _Jean-François Alcover_, Apr 08 2011 *)
+%t A039924 a[ n_] := If[n < 0, 0, SeriesCoefficient[ Sum[ (-1)^k x^k^2 / QPochhammer[ x, x, k], {k, 0, Sqrt[n]}], {x, 0, n}]] (* _Michael Somos_, Jan 04 2014 *)
+%o A039924 (PARI) {a(n) = if( n<0, 0, polcoeff( sum(k=0, sqrtint(n), x^k^2 / prod(i=1, k, x^i - 1, 1 + x * O(x^n))), n))} /* _Michael Somos_, Jul 20 2003 */
+%Y A039924 Cf. A003116, A224898.
+%K A039924 sign,nice
+%O A039924 0,9
+%A A039924 _N. J. A. Sloane_
+%E A039924 More terms from _Vladeta Jovovic_, Mar 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

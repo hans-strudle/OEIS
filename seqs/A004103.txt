@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004103
+Showing 1-1 of 1
+
+%I A004103 M1942
+%S A004103 2,9,56,705,19548,1419237,278474976,148192635483,213558945249402,
+%T A004103 836556995284293897,8962975658381123937708,
+%U A004103 264404516190234685662666051,21610417954162750247842392794292
+%N A004103 Number of nets with n nodes.
+%D A004103 Harary, Frank; Palmer, Edgar M.; Robinson, Robert W.; Schwenk, Allen J.; Enumeration of graphs with signed points and lines. J. Graph Theory 1 (1977), no. 4, 295-308.
+%D A004103 F. Harary and R. W. Robinson, Exposition of the enumeration of point-line-signed graphs, pp. 19 - 33 of Proc. Second Caribbean Conference Combinatorics and Computing (Bridgetown, 1977). Ed. R. C. Read and C. C. Cadogan. University of the West Indies, Cave Hill Campus, Barbados, 1977. vii+223 pp.
+%D A004103 R. W. Robinson, personal communication.
+%D A004103 R. W. Robinson, Numerical implementation of graph counting algorithms, AGRC Grant, Math. Dept., Univ. Newcastle, Australia, 1976.
+%D A004103 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A004103 R. W. Robinson, <a href="/A004103/b004103.txt">Table of n, a(n) for n = 1..22</a>
+%K A004103 nonn
+%O A004103 1,1
+%A A004103 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

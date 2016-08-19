@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055770
+Showing 1-1 of 1
+
+%I A055770
+%S A055770 1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,24,1,2,1,2,1,6,1,2,1,2,
+%T A055770 1,6,1,2,1,2,1,6,1,2,1,2,1,24,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,
+%U A055770 1,2,1,24,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,6,1,2,1,2,1,24,1,2,1,2,1,6
+%N A055770 Largest m! which divides n.
+%e A055770 3! = 6 divides 12, so a(12) = 6.
+%Y A055770 Cf. A000142, A055881 (values of the m's), A055926, A055874.
+%K A055770 nonn,easy
+%O A055770 1,2
+%A A055770 _Labos Elemer_, Jul 12 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

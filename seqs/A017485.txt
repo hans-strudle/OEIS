@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017485
+Showing 1-1 of 1
+
+%I A017485
+%S A017485 8,19,30,41,52,63,74,85,96,107,118,129,140,151,162,173,184,195,206,
+%T A017485 217,228,239,250,261,272,283,294,305,316,327,338,349,360,371,382,393,
+%U A017485 404,415,426,437,448,459,470,481,492,503,514,525,536,547,558,569,580,591,602,613
+%N A017485 11*n+8.
+%C A017485 a(n) = A125199(n+1,3) for n>1. - _Reinhard Zumkeller_, Nov 24 2006
+%H A017485 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A017485 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1).
+%F A017485 a(n) = 22*n-a(n-1)+5, with n>0, a(0)=8. - _Vincenzo Librandi_, Dec 24 2010
+%F A017485 a(n) = 2*a(n-1)-a(n-2). G.f.: (3*x+8) / (x-1)^2. - _Colin Barker_, Oct 05 2014
+%p A017485 A017485:=n->11*n+8; seq(A017485(n), n=0..50); # _Wesley Ivan Hurt_, May 21 2014
+%t A017485 Range[8, 1000, 11] (* _Vladimir Joseph Stephan Orlovsky_, May 29 2011 *)
+%o A017485 (Sage) [i+8 for i in range(475) if gcd(i,11) == 11] # _Zerinvary Lajos_, May 21 2009
+%o A017485 (MAGMA) [11*n+8 : n in [0..50]]; // _Wesley Ivan Hurt_, May 21 2014
+%o A017485 (PARI) Vec((3*x+8)/(x-1)^2 + O(x^100)) \\ _Colin Barker_, Oct 05 2014
+%Y A017485 Cf. A002939, A016789, A017041, A125202.
+%K A017485 nonn,easy
+%O A017485 0,1
+%A A017485 _N. J. A. Sloane_, Dec 11 1996
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

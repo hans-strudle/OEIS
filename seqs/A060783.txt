@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060783
+Showing 1-1 of 1
+
+%I A060783
+%S A060783 0,0,4,36,132,340,720,1344,2296,3672,5580,8140,11484,15756,21112,
+%T A060783 27720,35760,45424,56916,70452,86260,104580,125664,149776,177192,
+%U A060783 208200,243100,282204,325836,374332,428040,487320,552544,624096,702372,787780
+%N A060783 Number of conics which pass through 3 points and are bitangent to a general curve of order n.
+%D A060783 H. Brocard and T. Lemoyne: Courbes geometriques remarquables (courbes speciales) Planes et Gauches. Tome I, Paris: Albert Blanchard, 1967 [First publ. 1919]; see p. 411.
+%D A060783 Steiner, Crelle's J., Vol. 49, p. 273.
+%H A060783 Harry J. Smith, <a href="/A060783/b060783.txt">Table of n, a(n) for n=0,...,1000</a>
+%F A060783 a(n) = (n-1)*n*(n^2 + 3*n - 6)/2.
+%F A060783 G.f.: 4*x^2*(1+4*x-2*x^2)/(1-x)^5. [Colin Barker, Mar 26 2012]
+%o A060783 (PARI) { for (n=0, 1000, write("b060783.txt", n, " ", (n-1)*n*(n^2 + 3*n - 6)/2); ) } [From _Harry J. Smith_, Jul 11 2009]
+%K A060783 nonn,easy
+%O A060783 0,3
+%A A060783 Antreas P. Hatzipolakis (xpolakis(AT)otenet.gr), Apr 28 2001
+%E A060783 More terms from Jason Earls (zevi_35711(AT)yahoo.com), Apr 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

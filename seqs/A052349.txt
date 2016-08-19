@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052349
+Showing 1-1 of 1
+
+%I A052349
+%S A052349 1,8,24,25,86,1260,1890,14136,197400,10467660,1231572090,682616834970
+%N A052349 Lexicographically earliest sequence such that no subset sums to a prime.
+%C A052349 This set was defined by T. W. A. Baumann for The Prime Puzzles and Problems pages. He and C. Rivera obtained the first 10 members. Chris Nash proved that this sequence is infinite.
+%H A052349 Carlos Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_084.htm">Puzzle 84</a>
+%e A052349 a(4) = 25 as 25+1, 25+8, 25+24, 25+1+8, 25+1+24, 25+8+24 and finally 25+1+8+24 all are composite numbers.
+%Y A052349 Cf. A068638.
+%Y A052349 Cf. A128687 (restricted to odd numbers), A128688 (restricted to even numbers).
+%K A052349 hard,more,nonn,nice
+%O A052349 1,2
+%A A052349 _Carlos Rivera_, Mar 07 2000
+%E A052349 One more term from _T. D. Noe_, Mar 20 2007
+%E A052349 a(12) from _Donovan Johnson_, Jun 26 2010
+%E A052349 New name from _Charles R Greathouse IV_, Jan 13 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

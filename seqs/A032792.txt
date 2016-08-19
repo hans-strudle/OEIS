@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032792
+Showing 1-1 of 1
+
+%I A032792
+%S A032792 1,21,33,133,261,385,645,1281,1365,2133,2821,4033,4485,7701,11781,
+%T A032792 16725,19521,20833,21505,22533,22881,27265,29205,32865,36741,37185,
+%U A032792 43681,47125,48133,50181,64533,65121,69921,73633,75525,79381,88065
+%N A032792 Quotients of n(n+1)(n+2) / n+(n+1)+(n+2) are lucky numbers.
+%Y A032792 Cf. A032791.
+%K A032792 nonn
+%O A032792 0,2
+%A A032792 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

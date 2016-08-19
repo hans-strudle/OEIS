@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010678
+Showing 1-1 of 1
+
+%I A010678
+%S A010678 0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,
+%T A010678 0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,0,7,
+%U A010678 0,7,0,7,0,7,0,7,0,7,0,7,0
+%N A010678 Period 2: repeat (0,7).
+%H A010678 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010678 a(n)=(7/2)*[1-(-1)^n]; a(n)=7*(n mod 2). - _Paolo P. Lava_, Oct 20 2006
+%F A010678 G.f.: 7x/((1-x)(1+x)). - R. J. Mathar, Nov 21 2011
+%t A010678 PadRight[{},120,{0,7}] (* _Harvey P. Dale_, Oct 01 2013 *)
+%K A010678 nonn
+%O A010678 0,2
+%A A010678 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

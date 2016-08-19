@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000050
+Showing 1-1 of 1
+
+%I A000050 M0715 N0265
+%S A000050 1,2,3,5,9,16,29,54,97,180,337,633,1197,2280,4357,8363,16096,31064,
+%T A000050 60108,116555,226419,440616,858696,1675603,3273643,6402706,12534812,
+%U A000050 24561934,48168461,94534626,185661958,364869032,717484560,1411667114,2778945873,5473203125
+%N A000050 Number of positive integers <= 2^n of form x^2 + y^2.
+%D A000050 P. Moree and H. J. J. te Riele, The hexagonal versus the square lattice, Math. Comp. 73 (2004), no. 245, 451-473.
+%D A000050 D. Shanks and L. P. Schmid, Variations on a theorem of Landau. Part I, Math. Comp., 20 (1966), 551-569.
+%D A000050 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000050 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000050 P. Moree and H. J. J. te Riele, <a href="http://arXiv.org/abs/math.NT/0204332">The hexagonal versus the square lattice</a>
+%H A000050 <a href="/index/Qua#quadpop">Index entries for sequences related to populations of quadratic forms</a>
+%t A000050 (* This program is not suitable for a large number of terms *) a[0] = 1; a[n_] := a[n] = (For[cnt = 0; k = 2^(n-1)+1, k <= 2^n, k++, If[SquaresR[2, k] > 0, cnt++]]; cnt + a[n-1]); Table[Print["a(", n, ") = ", a[n]]; a[n], {n, 0, 26}] (* _Jean-François Alcover_, Mar 20 2014 *)
+%o A000050 (Haskell)
+%o A000050 isqrt = a000196
+%o A000050 issquare = a010052
+%o A000050 a000050 n = foldl f 0 [1..2^n]
+%o A000050   where f i j = if a000050' j > 0 then i + 1 else i
+%o A000050 a000050' k = foldl f 0 (h k)
+%o A000050   where f i y = g y + i
+%o A000050           where g y = issquare (k - y^2)
+%o A000050         h k = [0..isqrt k]
+%o A000050 -- _James Spahlinger_, Oct 09 2012
+%K A000050 nonn
+%O A000050 0,2
+%A A000050 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

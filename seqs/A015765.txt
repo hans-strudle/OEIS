@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015765
+Showing 1-1 of 1
+
+%I A015765
+%S A015765 1,2,3,6,12,14,15,30,35,42,56,70,78,105,140,168,190,210,248,264,270,
+%T A015765 295,357,418,420,570,590,594,616,630,714,744,767,812,840,885,910,1038,
+%U A015765 1045,1240,1254,1416,1485,1534,1589,1672,1770,1848,2065,2090
+%N A015765 Phi(n) | Sigma_7(n).
+%C A015765 sigma_7(n) is the sum of the 7th powers of the divisors of n.
+%H A015765 Vincenzo Librandi, <a href="/A015765/b015765.txt">Table of n, a(n) for n = 0..1000</a>
+%t A015765 Select[Range[2100],Divisible[DivisorSigma[7,#],EulerPhi[#]]&] (* _Harvey P. Dale_, Aug 17 2013 *)
+%K A015765 nonn
+%O A015765 0,2
+%A A015765 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

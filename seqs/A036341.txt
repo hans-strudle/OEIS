@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036341
+Showing 1-1 of 1
+
+%I A036341
+%S A036341 127787377,1510818931,3147482977,3307903909,3621408103
+%N A036341 Concatenation of prime p and nextprime(p) is prime -> cycles of 4 steps possible.
+%C A036341 All numbers found by Jo Yeong Uk (hyukjo(AT)sigma.chungnam.ac.kr).
+%H A036341 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_029.htm">Details of procedure</a>
+%Y A036341 Cf. A030459, A036339, A036340.
+%K A036341 nonn,base,more
+%O A036341 0,1
+%A A036341 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

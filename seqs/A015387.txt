@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015387
+Showing 1-1 of 1
+
+%I A015387
+%S A015387 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015387 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1,1,
+%U A015387 1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015387 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015387 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,-1,1,-1,
+%X A015387 1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015387 Inverse of 1378th cyclotomic polynomial.
+%p A015387 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015387 sign
+%O A015387 0,1
+%A A015387 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

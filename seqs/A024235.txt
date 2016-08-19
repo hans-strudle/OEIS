@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024235
+Showing 1-1 of 1
+
+%I A024235
+%S A024235 0,1,2,31,692,25261,1351382,99680491,9695756072,1202439837721,
+%T A024235 185185594118762,34674437196568951,7757267081778543452,
+%U A024235 2043536254646561946181,626129820701814932734142,220771946624511552276841411,88759695789769644718332394832
+%N A024235 E.g.f. tan(x)*sin(x)/2 (even powers only).
+%H A024235 Vincenzo Librandi, <a href="/A024235/b024235.txt">Table of n, a(n) for n = 0..50</a>
+%F A024235 G.f.: 1/2*(G(0) - 1/(1+x)) where G(k) = 1 - x*(2*k+1)^2/(1 - x*(2*k+2)^2/G(k+1) );  (recursively defined continued fraction). - _Sergei N. Gladkovskii_, Feb 09 2013
+%F A024235 a(n) ~ (2*n)! * (2/Pi)^(2*n+1). - _Vaclav Kotesovec_, Jan 23 2015
+%e A024235 tan(x)*sin(x)/2 = 1/2*x^2 + 1/12*x^4 + 31/720*x^6 + 173/10080*x^8 + ...
+%t A024235 With[{nn=30},Take[CoefficientList[Series[Tan[x]*Sin[x]/2,{x,0,nn}], x]Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Apr 27 2012 *)
+%Y A024235 Cf. A009744.
+%K A024235 nonn
+%O A024235 0,3
+%A A024235 _R. H. Hardin_
+%E A024235 Extended and signs tested Mar 15 1997.
+%E A024235 More terms from Harvey P. Dale, Apr 27 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

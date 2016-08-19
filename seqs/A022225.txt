@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022225
+Showing 1-1 of 1
+
+%I A022225
+%S A022225 1,335923,96723701071,27202382491194295,7620806375898728694055,
+%T A022225 2133612436978999661759040967,597287733061433620469903134280071,
+%U A022225 167202936130018543413483273700960235527,46806148995565935663430369990805328306755335
+%N A022225 Gaussian binomial coefficients [ n,7 ] for q = 6.
+%D A022225 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%t A022225 Drop[QBinomial[Range[20],7,6],6] (* _Harvey P. Dale_, Mar 27 2012 *)
+%o A022225 (Sage) [gaussian_binomial(n,7,6) for n in xrange(7,16)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A022225 nonn
+%O A022225 7,2
+%A A022225 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

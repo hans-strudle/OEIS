@@ -1,0 +1,52 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060632
+Showing 1-1 of 1
+
+%I A060632
+%S A060632 1,1,2,2,2,2,4,4,2,2,4,4,4,4,8,8,2,2,4,4,4,4,8,8,4,4,8,8,8,8,16,16,2,
+%T A060632 2,4,4,4,4,8,8,4,4,8,8,8,8,16,16,4,4,8,8,8,8,16,16,8,8,16,16,16,16,32,
+%U A060632 32,2,2,4,4,4,4,8,8,4,4,8,8,8,8,16,16,4,4,8,8,8,8,16,16,8,8,16,16,16,16,32
+%N A060632 2^wt(floor(n/2)) (i.e. 2^A000120([n/2]), or A001316([n/2])).
+%C A060632 Number of conjugacy classes in the symmetric group S_n that have odd number of elements.
+%C A060632 Also sequence A001316 doubled.
+%C A060632 Number of even numbers whose binary expansion is a child of the binary expansion of n. - Nadia Heninger and _N. J. A. Sloane_, Jun 06 2008
+%C A060632 First differences of A151566. Sequence gives number of toothpicks added at the n-th generation of the leftist toothpick sequence A151566. - _N. J. A. Sloane_, Oct 20 2010
+%C A060632 The Fi1 and Fi1 triangle sums, see A180662 for their definitions, of Sierpiński’s triangle A047999 equal this sequence. - _Johannes W. Meijer_, Jun 05 2011
+%D A060632 I. G. MacDonald: Symmetric functions and Hall polynomials Oxford: Clarendon Press, 1979. Page 21.
+%H A060632 Harry J. Smith, <a href="/A060632/b060632.txt">Table of n, a(n) for n=0,...,1000</a>
+%H A060632 David Applegate, Omar E. Pol and N. J. A. Sloane, <a href="http://neilsloane.com/doc/tooth.pdf">The Toothpick Sequence and Other Sequences from Cellular Automata</a>
+%H A060632 N. J. A. Sloane, <a href="/wiki/Catalog_of_Toothpick_and_CA_Sequences_in_OEIS">Catalog of Toothpick and Cellular Automata Sequences in the OEIS</a>
+%H A060632 <a href="/index/To#toothpick">Index entries for sequences related to toothpick sequences</a>
+%F A060632 a(n)=sum{k=0..floor(n/2), C(n, 2k) mod 2} - _Paul Barry_, Jan 03 2005, Edited by _Harry J. Smith_, Sep 15 2009
+%F A060632 a(n) = gcd(A056040(n), 2^n). - _Peter Luschny_, Jun 30 2011
+%e A060632 a(3) = 2 because in S_3 there are two conjugacy classes with odd number of elements, the trivial conjugacy class and the conjugacy class of transpositions consisting of 3 elements: (12),(13),(23).
+%e A060632 From _Omar E. Pol_, Oct 12 2011 (Start):
+%e A060632 Written as a triangle:
+%e A060632 1,
+%e A060632 1,
+%e A060632 2,2,
+%e A060632 2,2,4,4,
+%e A060632 2,2,4,4,4,4,8,8,
+%e A060632 2,2,4,4,4,4,8,8,4,4,8,8,8,8,16,16,
+%e A060632 2,2,4,4,4,4,8,8,4,4,8,8,8,8,16,16,4,4,8,8,8,8,16,16,8,...
+%e A060632 (End)
+%p A060632 A060632 := proc(n) local k; add(binomial(n,2*k) mod 2, k=0..floor(n/2)); end: seq(A060632(n),n=0..94);
+%p A060632 [From _Peter Luschny_, Jun 30 2011](Start)
+%p A060632 A060632 := n -> 2^add(i, i = convert(iquo(n,2), base, 2));
+%p A060632 A060632 := n -> igcd(2^n, n! / iquo(n,2)!^2);  # (End)
+%t A060632 a[n_] := 2^DigitCount[Floor[n/2], 2, 1]; Table[a[n], {n, 0, 94}] (* _Jean-François Alcover_, Feb 25 2014 *)
+%o A060632 (PARI) { for (n=0, 1000, write("b060632.txt", n, " ", sum(k=0, floor(n/2), binomial(n, 2*k) % 2)) ) } [From _Harry J. Smith_, Sep 14 2009]
+%o A060632 (MAGMA) a000120:=func< n | &+Intseq(n, 2) >; [ 2^a000120(Floor(n/2)): n in [0..100] ]; // _Klaus Brockhaus_, Oct 15 2010
+%Y A060632 Cf. A000120, A001316.
+%Y A060632 Cf. A139251, A151566, A160407. - _Omar E. Pol_, Jun 12 2009
+%K A060632 nonn
+%O A060632 0,3
+%A A060632 Avi Peretz (njk(AT)netvision.net.il), Apr 15 2001
+%E A060632 More terms from _James A. Sellers_, Apr 16 2001
+%E A060632 Edited by _N. J. A. Sloane_, Jun 06 2008; Oct 11 2010
+%E A060632 a(0) = 1 added by _N. J. A. Sloane_, Sep 14 2009
+%E A060632 Formula corrected by _Harry J. Smith_, Sep 15 2009
+%E A060632 Maple program edited by _Johannes W. Meijer_, May 28 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023033
+Showing 1-1 of 1
+
+%I A023033
+%S A023033 1,8,36,120,330,792,1716,3432,6434,11440,19440,31824,50352,77520,
+%T A023033 116160,170544,244826,346104,479908,657792,886314,1184040,1557312,
+%U A023033 2035800,2623140,3365736,4260608,5379616,6704742,8347680,10263648,12619464
+%N A023033 Number of compositions of n into 8 ordered relatively prime parts.
+%H A023033 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A023033 Moebius transform of C(n-1, 7)
+%K A023033 nonn
+%O A023033 8,2
+%A A023033 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

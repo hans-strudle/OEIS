@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016940
+Showing 1-1 of 1
+
+%I A016940
+%S A016940 256,16777216,1475789056,25600000000,208827064576,1099511627776,
+%T A016940 4347792138496,14048223625216,39062500000000,96717311574016,
+%U A016940 218340105584896,457163239653376,899194740203776,1677721600000000
+%N A016940 (6n+2)^8.
+%H A016940 Vincenzo Librandi, <a href="/A016940/b016940.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016940 (MAGMA) [(6*n+2)^8: n in [0..20]]; // Vincenzo Librandi, May 04 2011
+%K A016940 nonn,easy
+%O A016940 0,1
+%A A016940 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

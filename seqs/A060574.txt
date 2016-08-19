@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060574
+Showing 1-1 of 1
+
+%I A060574
+%S A060574 0,1,1,0,3,3,2,1,1,2,3,3,0,1,1,0,5,5,2,1,1,2,5,5,4,1,1,4,3,3,2,1,1,2,
+%T A060574 3,3,4,1,1,4,5,5,2,1,1,2,5,5,0,1,1,0,3,3,2,1,1,2,3,3,0,1,1,0,7,7,2,1,
+%U A060574 1,2,7,7,4,1,1,4,3,3,2,1,1,2,3,3,4,1,1,4,7,7,2,1,1,2,7,7,6,1,1,6,3,3,2,1,1
+%N A060574 Tower of Hanoi: using the optimal way to move an even number of disks from peg 0 to peg 2 or an odd number from peg 0 to peg 1, a(n) is the smallest disk on peg 1 after n moves (or 0 if there are no disks on peg 1).
+%e A060574 Start by moving first disk from peg 0 to peg 1, second disk from peg 0 to peg 2, first disk from peg 1 to peg 2, etc. so sequence starts 0,1,1,0,...
+%Y A060574 Cf. A001511, A055662, A060571, A060572, A060573, A060574, A060575.
+%K A060574 easy,nonn
+%O A060574 0,5
+%A A060574 _Henry Bottomley_, Apr 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

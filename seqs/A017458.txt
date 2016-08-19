@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017458
+Showing 1-1 of 1
+
+%I A017458
+%S A017458 9765625,1099511627776,205891132094649,6278211847988224,
+%T A017458 79792266297612001,604661760000000000,3255243551009881201,
+%U A017458 13744803133596058624,48398230717929318249,148024428491834392576
+%N A017458 (11*n+5)^10.
+%H A017458 Vincenzo Librandi, <a href="/A017458/b017458.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017458 (MAGMA) [(11*n+5)^10: n in [0..10]]; // Vincenzo Librandi, Sep 03 2011
+%K A017458 nonn,easy
+%O A017458 0,1
+%A A017458 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

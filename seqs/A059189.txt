@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059189
+Showing 1-1 of 1
+
+%I A059189
+%S A059189 1,3,17,17,50,79,796,3687,7074,9098,95915,118514,133188,186305,209314,
+%T A059189 666015,5735240,7685979,11174747,97173279,269061009,569125952,
+%U A059189 932655002,7282946876,9919537325,52110120678,70254144261
+%N A059189 Engel expansion of Gamma(2/3) = 1.35412.
+%C A059189 Cf. A006784 for definition of Engel expansion.
+%D A059189 F. Engel, Entwicklung der Zahlen nach Stammbruechen, Verhandlungen der 52. Versammlung deutscher Philologen und Schulmaenner in Marburg, 1913, pp. 190-191.
+%D A059189 P. Erdős and Jeffrey Shallit, New bounds on the length of finite Pierce and Engel series, Sem. Theor. Nombres Bordeaux (2) 3 (1991), no. 1, 43-53.
+%H A059189 <a href="/index/El#Engel">Index entries for sequences related to Engel expansions</a>
+%t A059189 EngelExp[ A_, n_ ] := Join[ Array[ 1&, Floor[ A ] ], First@Transpose@NestList[ {Ceiling[ 1/Expand[ #[ [ 1 ] ]#[ [ 2 ] ]-1 ] ], Expand[ #[ [ 1 ] ]#[ [ 2 ] ]-1 ]}&, {Ceiling[ 1/(A-Floor[ A ]) ], A-Floor[ A ]}, n-1 ] ]
+%K A059189 nonn,easy,nice
+%O A059189 1,2
+%A A059189 _Mitch Harris_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

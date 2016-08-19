@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033773
+Showing 1-1 of 1
+
+%I A033773
+%S A033773 1,1,1,2,0,1,2,2,2,2,3,0,4,3,2,4,3,4,1,4,4,6,6,6,6,1,6,8,6,5,8,4,1,9,
+%T A033773 6,6,8,8,6,2,6,8,13,8,10,10,0,12,14,8,8
+%N A033773 Product t2(q^d); d | 14, where t2 = theta2(q)/(2*q^(1/4)).
+%K A033773 nonn
+%O A033773 0,4
+%A A033773 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

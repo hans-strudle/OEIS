@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014590
+Showing 1-1 of 1
+
+%I A014590
+%S A014590 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014590 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014590 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014590 Inverse of 581st cyclotomic polynomial.
+%p A014590 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014590 sign
+%O A014590 0,1
+%A A014590 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

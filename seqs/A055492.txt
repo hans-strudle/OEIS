@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055492
+Showing 1-1 of 1
+
+%I A055492
+%S A055492 1,2,3,4,5,6,8,9,10,11,12,16,27,28
+%N A055492 Numbers n such that LCM{1, ..., n} is a minimal number.
+%C A055492 Minimal numbers (A007416): let A(h) = least positive integer having exactly h divisors, let d(n) = number of divisors of n; then n is minimal if A(d(n)) = n; i.e. if n is the least positive integer having the number of divisors it has.
+%C A055492 Also the numbers n such that LCM (1, ..., n) is a highly composite number (A002182). - _Matthew Vandermast_, Jul 12 2004
+%D A055492 M. E. Grost, The smallest number with a given number of divisors, Amer. Math. Monthly 75 (1968) 725-29.
+%D A055492 J. Roberts, Lure of the Integers, Math. Assoc. of America, 1992, page 86.
+%Y A055492 Cf. A007416.
+%Y A055492 Cf. A003418, A095921.
+%K A055492 nonn,fini,full
+%O A055492 1,2
+%A A055492 _Robert G. Wilson v_, Jul 05 2000
+%E A055492 Description corrected Feb 27 2003.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

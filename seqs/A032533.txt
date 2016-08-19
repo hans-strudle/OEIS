@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032533
+Showing 1-1 of 1
+
+%I A032533
+%S A032533 1,2,4,8,10,16,20,21,32,40,42,64,80,84,100,128,160,168,200,256,273,
+%T A032533 320,336,400,512,546,640,672,800,1000,1024,1092,1280,1344,1600,2000,
+%U A032533 2048,2184,2231,2510,2560,2688,2730,3200,3300,4000,4096,4368,4462
+%N A032533 When expressed in base 2 and then interpreted in base 10, is a multiple of the original number.
+%C A032533 Note that A025612 is a subset of this sequence (numbers of form 2^i*10^j, with i, j >= 0).
+%e A032533 8 in base 2 is 1000, which interpreted in base 10 is 1000=125*8.
+%t A032533 Select[Range[10000], Mod[FromDigits[IntegerDigits[#, 2]], #] == 0 &] (* _Carl Najafi_, Aug 18 2011 *)
+%Y A032533 Cf. A032532, A032534.
+%K A032533 nonn
+%O A032533 0,2
+%A A032533 _Patrick De Geest_, April 1998
+%E A032533 Example and better description from _Erich Friedman_, Jul 21 2001
+%E A032533 Edited by _Erich Friedman_, Feb 09 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

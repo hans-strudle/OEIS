@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008771
+Showing 1-1 of 1
+
+%I A008771
+%S A008771 1,1,2,3,5,6,9,11,15,18,24,28,36,42,52,60,73,83,99,112,131,147,170,
+%T A008771 189,216,239,270,297,333,364,405,441,487,528,580,626,684,736,800,858,
+%U A008771 929,993,1071,1142,1227,1305
+%N A008771 Expansion of (1+x^10)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4).
+%t A008771 CoefficientList[Series[(1+x^10)/(1-x)/(1-x^2)/(1-x^3)/(1-x^4),{x,0,50}],x] (* _Harvey P. Dale_, Oct 28 2013 *)
+%K A008771 nonn
+%O A008771 0,3
+%A A008771 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

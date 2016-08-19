@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006965
+Showing 1-1 of 1
+
+%I A006965 M1677
+%S A006965 1,2,6,25,114,591,3298,19532,120687,771373,5061741,33943662,231751331,
+%T A006965 1606587482,11283944502,80157645245,575105238243,4162624144308,
+%U A006965 30365913761136,223075674659696,1649166676341180,12262121068089094
+%N A006965 Number of directed trees with n nodes.
+%D A006965 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006965 P. Leroux and B. Miloudi, <a href="http://www.labmath.uqam.ca/~annales/volumes/16-1/PDF/053-080.pdf">Généralisations de la formule d'Otter</a>, Ann. Sci. Math. Quebec, 1992, Vol. 16, No. 1, 53-80.
+%H A006965 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%p A006965 with(combstruct):B:=x->add(3*count([S, {B = Set(S), S = Prod(B,B,B,Z)}, unlabeled],size=i)*x^i,i=1..50);seq(coeff(B(x)-B(x)^2/2+B(x^2)/2,x,n)/3,n=1..30);# with Algolib (Pab Ter)
+%Y A006965 Equals (1/3) A038060(n).
+%K A006965 nonn
+%O A006965 1,2
+%A A006965 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

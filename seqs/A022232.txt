@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022232
+Showing 1-1 of 1
+
+%I A022232
+%S A022232 1,400,140050,48177200,16531644851,5670690600800,1945063360640100,
+%T A022232 667157540444234400,228835075951868449701,78490432990886231801200,
+%U A022232 26922218610904350161500150,9234320988196680367732171600
+%N A022232 Gaussian binomial coefficients [ n,3 ] for q = 7.
+%F A022232 G.f.: 1/[(1-x)(1-7x)(1-49x)(1-343x)].
+%o A022232 (Sage) [gaussian_binomial(n,3,7) for n in xrange(3,15)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A022232 nonn
+%O A022232 0,2
+%A A022232 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

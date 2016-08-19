@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035642
+Showing 1-1 of 1
+
+%I A035642
+%S A035642 0,0,1,1,2,2,3,3,6,6,9,9,12,12,18,19,26,27,34,35,46,49,63,66,81,84,
+%T A035642 104,111,137,146,174,183,218,233,278,297,348,368,428,457,534,572,660,
+%U A035642 702,803,858,984,1054,1201,1280,1447,1545,1749,1874,2112,2255,2525
+%N A035642 Number of partitions of n into parts 6k+1 and 6k+2 with at least one part of each type.
+%K A035642 nonn
+%O A035642 1,5
+%A A035642 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

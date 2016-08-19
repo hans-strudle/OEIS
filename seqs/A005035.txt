@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005035
+Showing 1-1 of 1
+
+%I A005035 M3471
+%S A005035 1,1,4,13,64,315,1727,9658,55657,325390,1929160,11555172,69840032,
+%T A005035 425318971,2607388905,16077392564,99646239355,620439153165,
+%U A005035 3879069845640,24342884609625,153279112388352,968123122592340,6131992590993204,38940057166651848
+%N A005035 Number of dissections of a polygon.
+%D A005035 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005035 F. Harary, E. M. Palmer and R. C. Read, <a href="http://dx.doi.org/10.1016/0012-365X(75)90041-2">On the cell-growth problem for arbitrary polygons</a>, Discr. Math. 11 (1975), 371-389.
+%K A005035 nonn
+%O A005035 1,3
+%A A005035 _N. J. A. Sloane_.
+%E A005035 More terms from _Sean A. Irvine_, Mar 11 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

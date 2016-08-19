@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032198
+Showing 1-1 of 1
+
+%I A032198
+%S A032198 1,3,6,13,25,58,121,283,646,1527,3601,8678,20881,50823,124054,304573,
+%T A032198 750121,1855098,4600201,11442085,28527446,71292603,178526881,
+%U A032198 447919418,1125750145,2833906683,7144450566,18036423973
+%N A032198 "CIK" (necklace, indistinct, unlabeled) transform of 1,2,3,4...
+%H A032198 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%H A032198 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032198 P. Flajolet and M. Soria, <a href="http://algo.inria.fr/flajolet/Publications/publist.html">The Cycle Construction</a> In SIAM J. Discr. Math., vol. 4 (1), 1991, pp. 58-60.
+%F A032198 1/n*Sum_{d divides n} phi(n/d)*A004146(d). - _Vladeta Jovovic_, Feb 15 2003
+%o A032198 (PARI)
+%o A032198 N = 66;  x = 'x + O('x^N);
+%o A032198 f(x)=sum(n=1, N, n*x^n );
+%o A032198 gf = sum(n=1, N, eulerphi(n)/n*log(1/(1-f(x^n)))  );
+%o A032198 v = Vec(gf)
+%o A032198 /* Joerg Arndt, Jan 21 2013 */
+%Y A032198 Cf. A032170.
+%Y A032198 Equals A005594(n)-1.
+%K A032198 nonn
+%O A032198 1,2
+%A A032198 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

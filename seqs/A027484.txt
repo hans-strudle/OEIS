@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027484
+Showing 1-1 of 1
+
+%I A027484
+%S A027484 15,120,510,1560,3885,8400,16380,29520,49995,80520,124410,185640,
+%T A027484 268905,379680,524280,709920,944775,1238040,1599990,2042040,2576805,
+%U A027484 3218160,3981300,4882800,5940675,7174440,8605170,10255560,12149985
+%N A027484 n(n^4-1)/2.
+%C A027484 Row sums in a pandiagonal magic 4D-cube with entries (0..n^4-1).
+%H A027484 Vincenzo Librandi, <a href="/A027484/b027484.txt">Table of n, a(n) for n = 2..1000</a>
+%H A027484 S. Gartenhaus, <a href="http://arXiv.org/abs/math.CO/0210275">Odd order pandiagonal latin and magic cubes...</a>.
+%F A027484 Numerators of sequence a[ n, n-1 ] in (a[ i, j ])^4 where a[ i, j ] = s(i, j)/i! if j<=i, 0 if j>i
+%t A027484 Table[(m^5 - m)/2, {m, 34}] - _Zerinvary Lajos_, Mar 21 2007
+%o A027484 (MAGMA) [n*(n^4 - 1)/2: n in [2..50]];// _Vincenzo Librandi_, Dec 29 2012
+%Y A027484 Second diagonal of A027479.
+%K A027484 nonn
+%O A027484 2,1
+%A A027484 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

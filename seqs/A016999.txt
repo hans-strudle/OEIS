@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016999
+Showing 1-1 of 1
+
+%I A016999
+%S A016999 1,2097152,170859375,2494357888,17249876309,78364164096,271818611107,
+%T A016999 781250000000,1954897493193,4398046511104,9095120158391,
+%U A016999 17565568854912,32057708828125,55784660123648
+%N A016999 (7*n+1)^7.
+%H A016999 Vincenzo Librandi, <a href="/A016999/b016999.txt">Table of n, a(n) for n = 0..10000</a>
+%F A016999 G.f.: (1+2097144*x+154082187*x^2+1186203088*x^3+1961635263*x^4+785850072*x^5+ 60509029*x^6+279936*x^7)/(-1+x)^8 . [From _R. J. Mathar_, Jun 24 2009]
+%o A016999 (MAGMA) [(7*n+1)^7: n in [0..20]]; // Vincenzo Librandi, Jul 13 2011
+%K A016999 nonn,easy
+%O A016999 0,2
+%A A016999 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

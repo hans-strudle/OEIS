@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027556
+Showing 1-1 of 1
+
+%I A027556
+%S A027556 0,0,0,2,6,18,42,98,210,450,930,1922,3906,7938,16002,32258,64770,
+%T A027556 130050,260610,522242,1045506,2093058,4188162,8380418,16764930,
+%U A027556 33538050,67084290,134184962,268386306,536805378,1073643522
+%N A027556 Unbalanced strings of length n.
+%H A027556 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (3,0,-6,4).
+%F A027556 2^n - A027383[ n ]; g.f.: 2*x^2/((1-x)*(1-2*x)(1-2*x^2)).
+%K A027556 nonn
+%O A027556 0,4
+%A A027556 _R. K. Guy_, _David Callan_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

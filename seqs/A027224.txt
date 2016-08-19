@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027224
+Showing 1-1 of 1
+
+%I A027224
+%S A027224 1,6,24,132,500,2728,10324,56651,215323,1191987,4549786,25420734,
+%T A027224 97369588,548884043,2108335364,11983465575,46136052623,264215445322
+%N A027224 a(n) = Sum{T(n,k)*T(n,k+1), 0<=k<=n-1, T given by A026747.
+%K A027224 nonn
+%O A027224 1,2
+%A A027224 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

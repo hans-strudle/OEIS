@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044813
+Showing 1-1 of 1
+
+%I A044813
+%S A044813 1,3,4,6,7,8,14,15,16,24,28,30,31,32,35,39,48,49,55,57,59,60,62,63,64,
+%T A044813 67,79,96,97,111,112,120,121,123,124,126,127,128,131,135,143,159,192,
+%U A044813 193,223,224,225,239,241,247,248,249,251,252,254,255,256,259,263
+%N A044813 n-th positive integer having distinct base 2 run lengths.
+%C A044813 A005811(a(n)) = A165413(a(n)). - _Reinhard Zumkeller_, Mar 02 2013
+%H A044813 Reinhard Zumkeller and Gheorghe Coserea, <a href="/A044813/b044813.txt">Table of n, a(n) for n = 1..20000</a> (first 5000 terms from Reinhard Zumkeller)
+%t A044813 f[n_] := Unequal@@Length/@Split[IntegerDigits[n,2]]; Select[Range[300],f] (* _Ray Chandler_, Oct 21 2011 *)
+%o A044813 (Haskell)
+%o A044813 import Data.List (group, nub)
+%o A044813 a044813 n = a044813_list !! (n-1)
+%o A044813 a044813_list = filter p [1..] where
+%o A044813    p x = nub xs == xs where
+%o A044813          xs = map length $ group $ a030308_row x
+%o A044813 -- _Reinhard Zumkeller_, Mar 02 2013
+%o A044813 (PARI)
+%o A044813 is(n) = {
+%o A044813   my(v = 0, hist = vector(1 + logint(n+1, 2)));
+%o A044813   while(n != 0,
+%o A044813         v = valuation(n, 2); n >>= v; n++;
+%o A044813         hist[v+1]++; if (hist[v+1] >= 2, return(0));
+%o A044813         v = valuation(n, 2); n >>= v; n--;
+%o A044813         hist[v+1]++; if (hist[v+1] >= 2, return(0)));
+%o A044813   return(1);
+%o A044813 };
+%o A044813 seq(n) = {
+%o A044813   my(k = 1, top = 0, v = vector(n));
+%o A044813   while(top < n, if (is(k), v[top++] = k); k++);
+%o A044813   return(v);
+%o A044813 };
+%o A044813 seq(59) \\ _Gheorghe Coserea_, Nov 02 2015
+%Y A044813 Cf. A030308.
+%K A044813 nonn,base
+%O A044813 1,2
+%A A044813 _Clark Kimberling_
+%E A044813 Extended by _Ray Chandler_, Oct 21 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

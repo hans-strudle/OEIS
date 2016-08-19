@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008648
+Showing 1-1 of 1
+
+%I A008648
+%S A008648 1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5,7,7,7,7,7,9,9,9,9,
+%T A008648 9,11,11,11,11,11,13,13,13,13,13,15,15,15,15,15,18,18,18,18,18,21,21,
+%U A008648 21,21,21,24,24,24,24,24
+%N A008648 Molien series of 3 X 3 upper triangular matrices over GF( 5 ).
+%D A008648 D. J. Benson, Polynomial Invariants of Finite Groups, Cambridge, 1993, p. 105.
+%H A008648 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=221">Encyclopedia of Combinatorial Structures 221</a>
+%H A008648 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%F A008648 floor((n+4)/5), n>0.
+%p A008648 1/(1-x)/(1-x^5)/(1-x^25)
+%Y A008648 Cf. A002266.
+%K A008648 nonn,easy
+%O A008648 0,6
+%A A008648 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012301
+Showing 1-1 of 1
+
+%I A012301
+%S A012301 0,2,8,272,13568,1290752,181296128,36501112832,9859508338688,
+%T A012301 3453141256896512,1520147333209653248,821912974600193441792,
+%U A012301 535368543762962928631808,413509146873290771683868672
+%V A012301 0,2,-8,272,-13568,1290752,-181296128,36501112832,-9859508338688,
+%W A012301 3453141256896512,-1520147333209653248,821912974600193441792,
+%X A012301 -535368543762962928631808,413509146873290771683868672
+%N A012301 arctanh(sin(x)*sin(x))=2/2!*x^2-8/4!*x^4+272/6!*x^6-13568/8!*x^8...
+%F A012301 a(n) ~ (-1)^(n+1) * (2*n-1)! / (log(1+sqrt(2)))^(2*n). - _Vaclav Kotesovec_, Feb 08 2015
+%t A012301 nn = 20; Table[(CoefficientList[Series[ArcTanh[Sin[x]^2], {x, 0, 2*nn}], x] * Range[0, 2*nn]!)[[n]], {n, 1, 2*nn+1, 2}] (* _Vaclav Kotesovec_, Feb 08 2015 *)
+%K A012301 sign
+%O A012301 0,2
+%A A012301 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A012301 a(0)=0 prepended by _Vaclav Kotesovec_, Feb 08 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

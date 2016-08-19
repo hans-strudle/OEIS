@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022583
+Showing 1-1 of 1
+
+%I A022583
+%S A022583 1,18,171,1158,6309,29430,121962,460008,1605996,5254334,16260867,
+%T A022583 47949804,135509922,368764290,970099191,2475106170,6141671649,
+%U A022583 14856839874,35107961175,81189855828,184033842021
+%N A022583 Expansion of Product (1+q^m)^18; m=1..inf.
+%F A022583 a(n) ~ (3/2)^(1/4) * exp(Pi * sqrt(6*n)) / (1024 * n^(3/4)). - _Vaclav Kotesovec_, Mar 05 2015
+%t A022583 nmax=50; CoefficientList[Series[Product[(1+q^m)^18,{m,1,nmax}],{q,0,nmax}],q] (* _Vaclav Kotesovec_, Mar 05 2015 *)
+%K A022583 nonn
+%O A022583 0,2
+%A A022583 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

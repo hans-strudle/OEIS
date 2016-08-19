@@ -1,0 +1,43 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001794
+Showing 1-1 of 1
+
+%I A001794 M4405 N1859
+%S A001794 1,7,32,120,400,1232,3584,9984,26880,70400,180224,452608,1118208,
+%T A001794 2723840,6553600,15597568,36765696,85917696,199229440,458752000,
+%U A001794 1049624576,2387607552,5402263552,12163481600,27262976000,60850962432
+%N A001794 Coefficients of Chebyshev polynomials.
+%C A001794 A negated sub-diagonal of A053120.
+%C A001794 If X_1,X_2,...,X_n are 2-blocks of a (2n+1)-set X then a(n-2) is the number of (n+3)-subsets of X intersecting each X_i, (i=1,2,...,n). - _Milan Janjic_, Nov 18 2007
+%C A001794 The third corrector line for transforming 2^n offset 0 with a leading 1 into the fibonacci sequence. [From Al Hakanson (hawkuu(AT)gmail.com), Jun 01 2009]
+%D A001794 M. Abramowitz and I. A. Stegun, eds., Handbook of Mathematical Functions, National Bureau of Standards Applied Math. Series 55, 1964 (and various reprintings), p. 795.
+%D A001794 Jones, C. W.; Miller, J. C. P.; Conn, J. F. C.; Pankhurst, R. C.; Tables of Chebyshev polynomials. Proc. Roy. Soc. Edinburgh. Sect. A. 62, (1946). 187-203.
+%D A001794 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001794 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001794 T. D. Noe, <a href="/A001794/b001794.txt">Table of n, a(n) for n=0..500</a>
+%H A001794 M. Abramowitz and I. A. Stegun, eds., <a href="http://www.nrbook.com/abramowitz_and_stegun/">Handbook of Mathematical Functions</a>, National Bureau of Standards, Applied Math. Series 55, Tenth Printing, 1972 [alternative scanned copy].
+%H A001794 M. H. Albert, M. D. Atkinson, R. Brignall, <a href="http://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i3p20">The enumeration of three pattern classes using monotone grid classes</a>, E. J. Combinat. 19 (3) (2012) P20, chapter 5.4.1.
+%H A001794 T. Hibi, N. Li, H. Ohsugi, <a href="http://arxiv.org/abs/1309.5155">The face vector of a half-open hypersimplex</a>, arXiv preprint arXiv:1309.5155, 2013
+%H A001794 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A001794 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A001794 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A001794 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%H A001794 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (8,-24,32,-16).
+%F A001794 a(n) = 2^(n-2)*(n+1)*(n+2)*(n+6)/3.
+%F A001794 G.f.: (1-x)/(1-2*x)^4. - _Simon Plouffe_ in his 1992 dissertation.
+%F A001794 a(n)=sum{k=0..floor((n+6)/2), C(n+6, 2*k)*C(k, 3) } - Paul Barry, May 15 2003
+%F A001794 With a leading zero, the binomial transform of A000330. - Paul Barry, Jul 19 2003
+%F A001794 Sum{i=0..j, sum{k=0..i, k^2}*binomial(j, i)}. - Jon Perry, Feb 26 2004
+%F A001794 Binomial transform of a(n)=(2*n^3+6*n^2+7*n+3)/3 offset 0. a(3)=120. [From Al Hakanson (hawkuu(AT)gmail.com), Jun 01 2009]
+%F A001794 a(n) = 2^(n-1)/3*Binomial(n+2,2)*(n+6). - Brad Clardy, Mar 08 2012
+%o A001794 (MAGMA) program by Brad Clardy, Mar 08 2012
+%o A001794 [2^(n-1)/3*Binomial(n+2,2)*(n+6) : n in [0..25]];
+%Y A001794 Cf. A039991 (negative of column 6).
+%Y A001794 With alternating signs, the o.g.f (with offset 1) is the inverse of the o.g.f of A065097.
+%Y A001794 Cf. A001789 (partial sums), A081279 (binomial transform), A005900 (0 followed by inverse binomial transform).
+%K A001794 nonn,easy
+%O A001794 0,2
+%A A001794 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

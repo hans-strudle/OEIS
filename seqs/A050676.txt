@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050676
+Showing 1-1 of 1
+
+%I A050676
+%S A050676 1,3,2,9,8,11,28,6,26,20
+%N A050676 Let b(n) = number of prime factors (with multiplicity) of concatenation of numbers from 1 to n; sequence gives smallest number m with b(m) = n.
+%H A050676 P. De Geest, <a href="http://www.worldofnumbers.com/factorlist.htm">Normal Smarandache Concatenated Numbers, Prime factors from 1 up to n</a>
+%H A050676 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_008.htm">Primes by Listing</a>
+%H A050676 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/michafleuren.htm">Factors and primes of Smarandache sequences</a>.
+%H A050676 M. Fleuren, <a href="http://www.gallup.unm.edu/~smarandache/micha.txt">Smarandache Factors and Reverse factors</a>
+%t A050676 Join[{1},Table[i=1; While[PrimeOmega[FromDigits[Flatten[IntegerDigits[Range[i]]]]]!=n,i++]; i,{n,2,10}]] (* _Jayanta Basu_, May 30 2013 *)
+%Y A050676 Cf. A007908, A050678, A046460.
+%K A050676 nonn,base,hard
+%O A050676 1,2
+%A A050676 _Patrick De Geest_, Aug 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

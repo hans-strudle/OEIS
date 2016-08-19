@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060904
+Showing 1-1 of 1
+
+%I A060904
+%S A060904 1,1,1,1,5,1,1,1,1,5,1,1,1,1,5,1,1,1,1,5,1,1,1,1,25,1,1,1,1,5,1,1,1,1,
+%T A060904 5,1,1,1,1,5,1,1,1,1,5,1,1,1,1,25,1,1,1,1,5,1,1,1,1,5,1,1,1,1,5,1,1,1,
+%U A060904 1,5,1,1,1,1,25,1,1,1,1,5,1,1,1,1,5,1,1,1,1,5,1,1,1,1,5,1,1,1,1
+%N A060904 Exact power of 5 that divides n.
+%C A060904 Also the exact power of 5 that divides the n-th Fibonacci number A000045(n).
+%C A060904 Multiplicative with a(p^e) = 5^e if p = 5, else a(p^e) = 1. - _Mitch Harris_, Apr 19 2005
+%C A060904 Also 5-adic value of 1/n, n >= 1. See the Mahler reference, definition on p. 7. This is a non-archimedean valuation. See Mahler, p. 10. Sometimes also called 5-adic absolute value. - _Wolfdieter Lang_, Jun 30 2014
+%D A060904 K. Mahler, p-adic numbers and their functions, second ed., Cambridge University Press, 1981.
+%H A060904 Tyler Ball, Tom Edgar, and Daniel Juda, <a href="http://dx.doi.org/10.4169/math.mag.87.2.135">Dominance Orders, Generalized Binomial Coefficients, and Kummer’s Theorem</a>, Mathematics Magazine, Vol. 87, No. 2, April 2014, pp. 135-143.
+%F A060904 If n is not divisible by 5, then a(n) = 1. If n = 5^k * m where m is not divisible by 5, then a(n) = 5^k.
+%F A060904 Dirichlet g.f.: zeta(s)*(5^s-1)/(5^s-5). - _R. J. Mathar_, Jul 12 2012
+%F A060904 a(n) = 5^A112765(n). - _Tom Edgar_, Mar 22 2014
+%e A060904 a(10) = 5 because the 10th Fibonacci number is 55 and 55 = 5*11.
+%p A060904 A060904 := n -> 5^padic[ordp](n,5): # _Peter Luschny_, Nov 26 2010
+%t A060904 Table[5^IntegerExponent[n, 5], {n, 100}] (* _Vincenzo Librandi_, Dec 29 2015 *)
+%o A060904 (Sage) [5^valuation(i,5) for i in [1..100]] # _Tom Edgar_, Mar 22 2014
+%o A060904 (PARI) a(n)=5^valuation(n,5) \\ _Charles R Greathouse IV_, Aug 05 2015
+%o A060904 (MAGMA) [5^Valuation(n,5): n in [1..100]]; // _Vincenzo Librandi_, Dec 29 2015
+%Y A060904 Cf. A000045, A060901, A060865, A132739, A038500.
+%K A060904 nonn,easy,mult
+%O A060904 1,5
+%A A060904 Ahmed Fares (ahmedfares(AT)my-deja.com), May 06 2001
+%E A060904 More terms from Larry Reeves (larryr(AT)acm.org), May 07 2001
+%E A060904 Edited by _Joerg Arndt_ and _M. F. Hasler_, Dec 29 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052056
+Showing 1-1 of 1
+
+%I A052056
+%S A052056 2,4,6,7,9,10,15,16,20,21,23,25,30,35,43,78,102,105,132,138,151,189,
+%T A052056 202,215,219,233,241,264,320,334,349,352,367,386,433,458,520
+%N A052056 n! starts with its largest prime substring.
+%e A052056 E.g. 16! = {209227}89888000 and its largest prime substring 209227 starts from the left.
+%Y A052056 Cf. A000142, A046277.
+%K A052056 nonn,base,more
+%O A052056 0,1
+%A A052056 _Patrick De Geest_, Jan 15 2000.
+%E A052056 More terms from _Sean A. Irvine_, Feb 16 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

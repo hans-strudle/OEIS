@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055856
+Showing 1-1 of 1
+
+%I A055856
+%S A055856 1,16,90,328,888,2016,3994,7212,12070,19112,28846,41976,59116,81132,
+%T A055856 108738,142972,184638,234952,294806,365596,448296,544492,655230,
+%U A055856 782292,926794,1090716,1275238,1482548,1713880,1971636,2257102,2572896
+%N A055856 Susceptibility series H_4 for 2-dimensional Ising model (divided by 2).
+%D A055856 A. J. Guttmann and I. G. Enting, Solvability of some statistical mechanical systems, Phys. Rev. Lett., 76 (1996), 344-347.
+%D A055856 D. Hansel et al., Analytical properties of the anisotropic cubic Ising model, J. Stat. Phys., 48 (1987), 69-80.
+%H A055856 A. J. Guttmann, <a href="http://www.ms.unimelb.edu.au/~tonyg/articles/viennafinal.pdf">Indicators of solvability for lattice models</a>, Discrete Math., 217 (2000), 167-189.
+%F A055856 G.f.: (1+15*x+71*x^2+192*x^3+326*x^4+388*x^5+326*x^6+192*x^7+ 71*x^8+15*x^9+x^10)/((1-x^3)*((1-x)^4)*(1+x)^3).
+%Y A055856 Cf. A054275, A054410, A054389, A054764, A055857.
+%K A055856 nonn
+%O A055856 0,2
+%A A055856 _Wolfdieter Lang_, Jun 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

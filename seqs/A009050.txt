@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009050
+Showing 1-1 of 1
+
+%I A009050
+%S A009050 1,0,12,120,784,95040,3292608,9423232,9230042880,890079012864,
+%T A009050 40083887897600,2468650419873792,837675174905843712,
+%U A009050 109581967679961088000,5834566862721760149504
+%V A009050 1,0,-12,120,784,-95040,3292608,-9423232,-9230042880,890079012864,
+%W A009050 -40083887897600,-2468650419873792,837675174905843712,
+%X A009050 -109581967679961088000,5834566862721760149504
+%N A009050 E.g.f. cos(x*sin(x)) (even power only).
+%F A009050 a(n)=2*sum(k=1..n-1, binomial(2*n,2*k)*(4^(n-2*k)*(-1)^(k)*sum(i=0..k-1, (i-k)^(2*n-2*k)*binomial(2*k,i)*(-1)^(n-i)))), n>0, a(0)=1. [From Vladimir Kruchinin, Jun 30 2011]
+%o A009050 (Maxima)
+%o A009050 a(n):=if n=0 then 1 else 2*sum(binomial(2*n,2*k)*(4^(n-2*k)*(-1)^(k)*sum((i-k)^(2*n-2*k)*binomial(2*k,i)*(-1)^(n-i),i,0,k-1)),k,1,n-1); [From Vladimir Kruchinin, Jun 30 2011]
+%K A009050 sign
+%O A009050 0,3
+%A A009050 _R. H. Hardin_
+%E A009050 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

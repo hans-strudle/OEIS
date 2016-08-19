@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003142
+Showing 1-1 of 1
+
+%I A003142 M1611
+%S A003142 0,2,6,16,43,124,353
+%N A003142 Largest subset of 3 X 3 X ... X 3 cube (in n dimensions) with no 3 points collinear.
+%C A003142 The D. H. J. Polymath collective found a(5) and a(6) and gives the bound a(n) >= (2 + o(1))binomial(n, i)*2^i for any i (and note that this is maximized by i near 2n/3). - _Charles R Greathouse IV_, Jun 11 2013
+%D A003142 V. Chvatal, Edmonds polytopes and a hierarchy of combinatorial problems, Discrete Math. 4 (1973), 305-337.
+%D A003142 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003142 V. Chvatal, <a href="http://dx.doi.org/10.1016/0012-365X(73)90167-2">Edmonds polytopes and a hierarchy of combinatorial problems</a>, Discr. Math. 4 (1973) no 4, 305-337.
+%H A003142 D. H. J. Polymath, <a href="http://arxiv.org/abs/1002.0374">Density Hales-Jewett and Moser numbers</a>, arXiv:1002.0374 [math.CO]
+%H A003142 <a href="/index/Th#TTT">Index entries for sequences related to tic-tac-toe</a>
+%K A003142 nonn,hard,more
+%O A003142 0,2
+%A A003142 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

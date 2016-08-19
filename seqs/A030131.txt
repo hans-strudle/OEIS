@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030131
+Showing 1-1 of 1
+
+%I A030131
+%S A030131 1,1,4,16,73,341,1659,8483,44144,236626,1282073,7078309,
+%T A030131 39389088,221480060,1259127130,7134579098,41630476786,
+%U A030131 232579012470,1437468607632,7355318282652,54666868678671
+%V A030131 1,-1,-4,-16,-73,-341,-1659,-8483,-44144,-236626,-1282073,-7078309,
+%W A030131 -39389088,-221480060,-1259127130,-7134579098,-41630476786,
+%X A030131 -232579012470,-1437468607632,-7355318282652,-54666868678671
+%N A030131 Site percolation series for hexagonal net.
+%D A030131 Jensen, Iwan; Guttmann, Anthony J.; Series expansions of the percolation probability for directed square and honeycomb lattices. J. Phys. A 28 (1995), no. 17, 4813-4833.
+%H A030131 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/dirperc/series/hspp.ser">More terms</a>
+%Y A030131 Cf. A006735.
+%K A030131 sign
+%O A030131 0,3
+%A A030131 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,55 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034297
+Showing 1-1 of 1
+
+%I A034297
+%S A034297 1,2,4,6,11,17,29,47,78,130,215,357,595,990,1651,2748,4584,7643,12744,
+%T A034297 21256,35451,59133,98636,164531,274463,457837,763746,1274060,2125356,
+%U A034297 3545491,5914545,9866602,16459421,27457549,45804648,76411272,127469285,212644336
+%N A034297 Number of ordered positive integer solutions (m_1, m_2, ..., m_k) (for some k) to Sum_{i=1..k} m_i=n with |m_i-m_{i-1}| <= 1 for i = 2 ... k.
+%C A034297 Compositions of n where successive parts differ by at most 1, see example. [_Joerg Arndt_, Dec 10 2012]
+%H A034297 Alois P. Heinz, <a href="/A034297/b034297.txt">Table of n, a(n) for n = 1..1000</a>
+%F A034297 a(n) ~ c * d^n, where d = 1.668202067018461116361070469945501401879811945303435230637248..., c = 0.762436680050402638439806786781869262562176911054246754543346... . - _Vaclav Kotesovec_, Sep 02 2014
+%e A034297 From _Joerg Arndt_, Dec 10 2012: (Start)
+%e A034297 The a(6) = 17 such compositions of 6 are
+%e A034297 [ #]     composition
+%e A034297 [ 1]    [ 1 1 1 1 1 1 ]
+%e A034297 [ 2]    [ 1 1 1 1 2 ]
+%e A034297 [ 3]    [ 1 1 1 2 1 ]
+%e A034297 [ 4]    [ 1 1 2 1 1 ]
+%e A034297 [ 5]    [ 1 1 2 2 ]
+%e A034297 [ 6]    [ 1 2 1 1 1 ]
+%e A034297 [ 7]    [ 1 2 1 2 ]
+%e A034297 [ 8]    [ 1 2 2 1 ]
+%e A034297 [ 9]    [ 1 2 3 ]
+%e A034297 [10]    [ 2 1 1 1 1 ]
+%e A034297 [11]    [ 2 1 1 2 ]
+%e A034297 [12]    [ 2 1 2 1 ]
+%e A034297 [13]    [ 2 2 1 1 ]
+%e A034297 [14]    [ 2 2 2 ]
+%e A034297 [15]    [ 3 2 1 ]
+%e A034297 [16]    [ 3 3 ]
+%e A034297 [17]    [ 6 ]
+%e A034297 (End)
+%p A034297 b:= proc(n, i) option remember;
+%p A034297       `if`(n=i, 1, `if`(n<0 or i<1, 0, add(b(n-i, i+j), j=-1..1)))
+%p A034297     end:
+%p A034297 a:= n-> add(b(n, k), k=1..n):
+%p A034297 seq(a(n), n=1..50);  # _Alois P. Heinz_, Jul 06 2012
+%t A034297 b[n_, i_] := b[n, i] = If[n == i, 1, If[n<0 || i<1, 0, Sum[b[n-i, i+j], {j, -1, 1}] ]]; a[n_] := Sum[b[n, k], {k, 1, n}]; Array[a, 50] (* _Jean-François Alcover_, Mar 13 2015, after _Alois P. Heinz_ *)
+%o A034297 (PARI)
+%o A034297 N=70;  nil=-1;
+%o A034297 T = matrix(N, N, i, j, nil);
+%o A034297 doIt(last, left) = my(c); c = T[last, left]; if (c == nil, c = 0; for (i = max(1, last - 1), last + 1, c += b(i, left - i)); T[last, left] = c); c;
+%o A034297 b(last, left) = if (left == 0, return(1)); if (left < 0, return(0)); doIt(last, left);
+%o A034297 a(n) = sum (i = 1, n, b(i, n - i));
+%o A034297 vector(N,n,a(n))  \\ _David Wasserman_
+%Y A034297 Cf. A003116, A034296.
+%Y A034297 Column k=1 of A214246, A214248.
+%K A034297 nonn
+%O A034297 1,2
+%A A034297 _Erich Friedman_
+%E A034297 More terms from _David Wasserman_, Feb 02 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016358
+Showing 1-1 of 1
+
+%I A016358
+%S A016358 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,1,
+%T A016358 1,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,
+%U A016358 1,0,1,0,1,1,0,1,0,1,0,1,1,0,1,0,1,0,1
+%V A016358 1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,1,
+%W A016358 -1,0,0,1,-1,0,1,-1,0,0,1,-1,0,1,-1,0,0,1,-1,0,1,-1,0,0,1,-1,0,1,-1,0,
+%X A016358 1,0,-1,0,1,-1,0,1,0,-1,0,1,-1,0,1,0,-1,0,1
+%N A016358 217th cyclotomic polynomial.
+%K A016358 sign,fini
+%O A016358 0,1
+%A A016358 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032128
+Showing 1-1 of 1
+
+%I A032128
+%S A032128 1,1,2,4,10,25,69,193,565,1680,5113,15757,49223,155228,493937,1583002,
+%T A032128 5106386,16563542,53995678,176797966,581196445,1917446630,6346554919,
+%U A032128 21068877925,70133571797,234043258802,782831380626
+%N A032128 Number of dyslexic planted planar trees with n+1 nodes.
+%H A032128 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A032128 Shifts left under "BIK" (reversible, indistinct, unlabeled) transform.
+%Y A032128 Cf. A038035.
+%K A032128 nonn,eigen
+%O A032128 1,3
+%A A032128 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

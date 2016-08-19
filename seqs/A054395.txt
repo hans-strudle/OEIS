@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054395
+Showing 1-1 of 1
+
+%I A054395
+%S A054395 4,6,9,10,14,21,22,25,26,34,38,39,45,46,49,55,57,58,62,74,82,86,93,94,
+%T A054395 99,105,106,111,118,121,122,129,134,142,146,153,155,158,165,166,169,
+%U A054395 175,178,183,194,195,201,202,203,205,206,207,214,218,219,226,231,237
+%N A054395 Numbers n such that there are precisely 2 groups of order n.
+%C A054395 Givens characterizes this sequence, see Theorem 5. In particular, this sequence is ({n: A215935(n) = 1} INTERSECT A005117) UNION (A060687 INTERSECT A051532). - _Charles R Greathouse IV_, Aug 27 2012
+%H A054395 H. U. Besche, B. Eick and E. A. O'Brien, <a href="http://www.icm.tu-bs.de/ag_algebra/software/small/">The Small Groups Library</a>
+%H A054395 Clint Givens, <a href="http://www.math.ucla.edu/~cgivens/group%20theory%20final%20version.pdf">Orders for which there exist exactly two groups</a> (2006)
+%H A054395 Gordon Royle, <a href="http://www.cs.uwa.edu.au/~gordon/remote/cubcay/index.html">Numbers of Small Groups</a>
+%H A054395 <a href="/index/Gre#groups">Index entries for sequences related to groups</a>
+%Y A054395 Cf. A000001, A003277, A054395, A054396, A054397, A055561, A135850.
+%K A054395 nonn
+%O A054395 1,1
+%A A054395 _N. J. A. Sloane_, May 21 2000
+%E A054395 More terms, formula from _Christian G. Bower_, May 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

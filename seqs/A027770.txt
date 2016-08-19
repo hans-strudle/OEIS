@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027770
+Showing 1-1 of 1
+
+%I A027770
+%S A027770 10,121,792,3718,14014,45045,128128,330616,787644,1755182,3695120,
+%T A027770 7407036,14226212,26313518,47070144,81719000,138105110,227779695,
+%U A027770 367447080,580870290,901350450,1374917115,2064391680,3054514320,4458356760,6425278860,9150726816
+%N A027770 (n+1)*C(n+1,10).
+%C A027770 Number of 12-subsequences of [ 1, n ] with just 1 contiguous pair.
+%C A027770 120288*a(n) is the number of permutations of (n+1) symbols that 10-commute with an (n+1)-cycle (see A233440 for definition), where 120288 = A000757(10). - _Luis Manuel Rivera Martínez_, Feb 07 2014
+%H A027770 T. D. Noe, <a href="/A027770/b027770.txt">Table of n, a(n) for n = 9..1000</a>
+%H A027770 Luis Manuel Rivera, <a href="http://arxiv.org/abs/1406.3081">Integer sequences and k-commuting permutations</a>, arXiv preprint arXiv:1406.3081, 2014
+%F A027770 G.f.: (10+x)*x^9/(1-x)^12.
+%F A027770 a(n) = C(n+1, 10)*C(n+1, 1). - _Zerinvary Lajos_, Jun 08 2005, corrected by _R. J. Mathar_, Feb 13 2016
+%Y A027770 Cf. A233440.
+%K A027770 nonn,easy
+%O A027770 9,1
+%A A027770 Thi Ngoc Dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

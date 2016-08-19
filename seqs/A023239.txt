@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023239
+Showing 1-1 of 1
+
+%I A023239
+%S A023239 3,13,19,31,61,67,79,97,109,127,163,199,223,229,241,277,283,313,367,
+%T A023239 379,421,433,439,463,487,523,541,547,571,619,631,673,691,751,757,787,
+%U A023239 811,823,829,853,859,883,937,967,1033,1093,1117,1171,1237,1249,1291,1303,1321
+%N A023239 Numbers n such that n and 10n + 7 both prime.
+%t A023239 Select[Prime[Range[200]], PrimeQ[10# + 7] &] (* _Alonso del Arte_, Jun 24 2014 *)
+%o A023239 (MAGMA) [n: n in [0..1000] | IsPrime(n) and IsPrime(10*n+7)] // _Vincenzo Librandi_, Nov 20 2010
+%Y A023239 Cf. A023238.
+%K A023239 nonn
+%O A023239 1,1
+%A A023239 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

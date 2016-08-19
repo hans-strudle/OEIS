@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054322
+Showing 1-1 of 1
+
+%I A054322
+%S A054322 4,80,896,7680,56320,372736,2293760,13369344,74711040,403701760,
+%T A054322 2122317824,10905190400,54962159616,272461987840,1331439861760,
+%U A054322 6425271074816,30666066493440,144929376436224,678948430151680
+%N A054322 Fourth unsigned column of Lanczos triangle A053125 (decreasing powers).
+%D A054322 C. Lanczos, Applied Analysis. Prentice-Hall, Englewood Cliffs, NJ, 1956, p. 518.
+%D A054322 Theodore J. Rivlin, Chebyshev polynomials: from approximation theory to algebra and number theory, 2. ed., Wiley, New York, 1990.
+%H A054322 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%F A054322 a(n) =(4^n)*binomial(2*n+4, 3)= -A053125(n+3, 3)= 4*A054329(n)
+%F A054322 G.f.: 4*(1+4*x)/(1-4*x)^4.
+%Y A054322 Cf. A053125, A053123, A002700, A054329.
+%K A054322 easy,nonn
+%O A054322 0,1
+%A A054322 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

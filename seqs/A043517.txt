@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043517
+Showing 1-1 of 1
+
+%I A043517
+%S A043517 7,17,27,37,47,57,67,70,71,72,73,74,75,76,78,79,87,97,107,117,127,137,
+%T A043517 147,157,167,170,171,172,173,174,175,176,178,179,187,197,207,217,227,
+%U A043517 237,247,257,267,270,271,272,273,274,275,276
+%N A043517 Numbers n such that number of 7's in base 10 is 1.
+%H A043517 Enrique Pérez Herrero, <a href="/A043517/b043517.txt">Table of n, a(n) for n = 1..2000</a>
+%t A043517 Select[Range[9000],DigitCount[#,10,7]==1&]
+%Y A043517 Cf. A043489, A043493, A043497, A043501, A043505, A043509, A043513, A043521, A043525.
+%Y A043517 Cf. A011537.
+%K A043517 nonn,base
+%O A043517 1,1
+%A A043517 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017433
+Showing 1-1 of 1
+
+%I A017433
+%S A017433 19683,20661046784,3814697265625,101559956668416,1119130473102767,
+%T A017433 7427658739644928,35452087835576229,134217728000000000,
+%U A017433 427929800129788411,1195092568622310912,3004041937984268273
+%N A017433 (11n+3)^9.
+%t A017433 (11*Range[0,10]+3)^9 (* _Harvey P. Dale_, Dec 08 2015 *)
+%K A017433 nonn,easy
+%O A017433 0,1
+%A A017433 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

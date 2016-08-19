@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037415
+Showing 1-1 of 1
+
+%I A037415
+%S A037415 1,10,100,101,110,1000,1001,1010,1011,1100,1101,1110,10000,10001,
+%T A037415 10010,10011,10100,10101,10110,10111,11000,11001,11010,11011,11100,
+%U A037415 11101,11110
+%N A037415 n-th number k such that the set of base 2 digits of k equals the set of base 10 digits of k.
+%K A037415 nonn,base
+%O A037415 1,2
+%A A037415 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

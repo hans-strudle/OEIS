@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014652
+Showing 1-1 of 1
+
+%I A014652
+%S A014652 1,1,1,2,1,5,1,4,3,8,1,16,1,11,11,8,1,33,1,26,15,17,1,56,5,20,9,36,1,
+%T A014652 226,1,16,23,26,23,120,1,29,27,92,1,422,1,56,78,35,1,208,7,140,35,66,
+%U A014652 1,261,35,128,39,44,1,1487,1,47,108,32,41,996,1,86,47,1062,1,456,1,56
+%N A014652 Number of partitions of n in its prime divisors with at least one part of size 1.
+%F A014652 Coefficient of x^(n-1) in expansion of (1/(1-x))*1/Product_{d is prime divisor of n} (1-x^d). - _Vladeta Jovovic_, Apr 11 2004
+%Y A014652 Cf. A014648, A066882.
+%K A014652 nonn
+%O A014652 1,4
+%A A014652 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

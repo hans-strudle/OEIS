@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032456
+Showing 1-1 of 1
+
+%I A032456
+%S A032456 6,7,9,18,19,22,30,34,42,106,190,262,339,354,379,478,523,690,718,855,
+%T A032456 963,1087,2478,3309,3862,4155,5098,6678,12898,14226,14274,18738,20065,
+%U A032456 24390,44079
+%N A032456 Numbers n such that 159*2^n+1 is prime.
+%H A032456 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032456 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032456 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032456 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032456 nonn,hard
+%O A032456 1,1
+%A A032456 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

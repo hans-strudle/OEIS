@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010053
+Showing 1-1 of 1
+
+%I A010053
+%S A010053 1,12,2560,2903040,10701766656,98099527680000,1888892391260160000,
+%T A010053 68028459471234662400000,4210629057689788455321600000,
+%U A010053 419914246162041071241548267520000
+%N A010053 4^n*(2*n+1)!*(n!)^2/(n+1).
+%p A010053 4^n*(2*n+1)!*(n!)^2/(n+1);
+%K A010053 nonn,easy
+%O A010053 0,2
+%A A010053 Joe Keane (jgk(AT)jgk.org)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

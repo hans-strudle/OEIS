@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050403
+Showing 1-1 of 1
+
+%I A050403
+%S A050403 1,13,70,252,714,1722,3696,7260,13299,23023,38038,60424,92820,138516,
+%T A050403 201552,286824,400197,548625,740278,984676,1292830,1677390,2152800,
+%U A050403 2735460,3443895,4298931,5323878,6544720
+%N A050403 Partial sums of A051877.
+%D A050403 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A050403 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A050403 a(n) = C(n+5, 5)*(7n+6)/6.
+%F A050403 G.f.: (1+6*x)/(1-x)^7.
+%t A050403 f[n_]:=7*n+1; s1=s2=s3=s4=s5=0;lst={};Do[a=f[n];s1+=a;s2+=s1;s3+=s2;s4+=s3;s5+=s4;AppendTo[lst,s5],{n,0,6!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jun 25 2009 *)
+%o A050403 (PARI) a(n) = binomial(n+5,5)*(7*n+6)/6; \\ _Michel Marcus_, Jan 09 2015
+%Y A050403 Cf. A051877.
+%Y A050403 Cf. A093564 ((7, 1) Pascal, column m=6).
+%K A050403 easy,nonn
+%O A050403 0,2
+%A A050403 _Barry E. Williams_, Dec 21 1999
+%E A050403 Corrected by _T. D. Noe_, Nov 09 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

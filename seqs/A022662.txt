@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022662
+Showing 1-1 of 1
+
+%I A022662
+%S A022662 1,2,3,2,4,16,3,6,31,72,15,44,9,154,521,48,426,66,2,1618,
+%T A022662 3782,210,3882,1282,1119,3940,10867,37208,11647,20574,6256,534,
+%U A022662 1915,120006,161755,312622,93923,271850,25782,197026
+%V A022662 1,-2,-3,2,4,16,-3,6,-31,-72,-15,-44,9,154,521,48,426,66,2,-1618,
+%W A022662 -3782,-210,-3882,-1282,1119,3940,10867,37208,11647,20574,6256,534,
+%X A022662 -1915,-120006,-161755,-312622,-93923,-271850,-25782,-197026
+%N A022662 Expansion of Product (1-m*q^m)^2; m=1..inf.
+%H A022662 Vaclav Kotesovec, <a href="/A022662/b022662.txt">Table of n, a(n) for n = 0..10000</a>
+%t A022662 nmax = 50; poly = ConstantArray[0, nmax+1]; poly[[1]] = 1; poly[[2]] = -2; poly[[3]] = 1; Do[Do[Do[poly[[j+1]] -= k*poly[[j-k+1]], {j, nmax, k, -1}];, {p, 1, 2}], {k, 2, nmax}]; poly  (* _Vaclav Kotesovec_, Jan 07 2016 *)
+%Y A022662 Cf. A022662, A022726.
+%K A022662 sign
+%O A022662 0,2
+%A A022662 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

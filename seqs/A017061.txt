@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017061
+Showing 1-1 of 1
+
+%I A017061
+%S A017061 10077696,10604499373,512000000000,7625597484987,60716992766464,
+%T A017061 327381934393961,1352605460594688,4605366583984375,13537086546263552,
+%U A017061 35452087835576229,84590643846578176,186940255267540403
+%N A017061 (7*n+6)^9.
+%H A017061 Vincenzo Librandi, <a href="/A017061/b017061.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017061 (MAGMA) [(7*n+6)^9: n in [0..20]]; // Vincenzo Librandi, Jul 10 2011
+%K A017061 nonn,easy
+%O A017061 0,1
+%A A017061 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

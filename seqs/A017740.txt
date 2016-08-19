@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017740
+Showing 1-1 of 1
+
+%I A017740
+%S A017740 1,77,3003,79079,1581580,25621596,350161812,4151918628,43595145594,
+%T A017740 411731930610,3540894603246,28005257316582,205371886988268,
+%U A017740 1406007533996604,9038619861406740,54834293825867556
+%N A017740 Binomial coefficients C(n,76).
+%o A017740 (Sage) [binomial(n, 76) for n in xrange(76,92)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017740 nonn
+%O A017740 76,2
+%A A017740 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

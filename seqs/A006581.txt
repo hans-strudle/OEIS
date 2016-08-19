@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006581
+Showing 1-1 of 1
+
+%I A006581 M3225
+%S A006581 1,0,4,4,5,0,12,16,21,16,24,20,17,0,32,48,65,64,84,84,85,64,92,96,101,
+%T A006581 80,88,68,49,0,80,128,177,192,244,260,277,256,316,336,357,336,360,340,
+%U A006581 321,256,336,368
+%N A006581 Sum k AND n-k, k = 1 . . n-1.
+%D A006581 _Marc LeBrun_, personal communication.
+%D A006581 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%F A006581 G.f.: 1/(1-x)^2 * sum(k>=0, 2^k*t^2/(1+t)^2, t=x^2^k). - _Ralf Stephan_, Feb 12 2003
+%F A006581 a(0)=a(1)=0, a(2n) = 2a(n-1)+2a(n)+n, a(2n+1) = 4a(n).
+%Y A006581 Cf. A090889(n) - A000292(n-2).
+%Y A006581 Antidiagonal sums of array A003985.
+%K A006581 nonn
+%O A006581 2,3
+%A A006581 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

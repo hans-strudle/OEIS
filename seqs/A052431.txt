@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052431
+Showing 1-1 of 1
+
+%I A052431
+%S A052431 1,2,4,11,33,148,906,8887,136756,3269264,115811998,5855499195
+%N A052431 Number of perfect simple undirected graphs on n nodes.
+%D A052431 A. Brandstaedt, V. B. Le and J. P. Spinrad, Graph Classes: A Survey, SIAM Publications, 1999.
+%D A052431 S. Hougardy, Classes of perfect graphs, Discr. Math. 306 (2006), 2529-2571.
+%H A052431 S. Hougardy, <a href="http://www.or.uni-bonn.de/~hougardy/">Home Page</a>
+%H A052431 Brendan McKay, <a href="http://dcsmail.anu.edu.au/pipermail/nauty-list/2002/000031.html">Perfect graphs</a>
+%H A052431 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PerfectGraph.html">Perfect Graph.</a>
+%Y A052431 Cf. A052433.
+%K A052431 nonn,hard
+%O A052431 1,2
+%A A052431 _Eric W. Weisstein_
+%E A052431 McKay link, giving more terms, supplied by _Vladeta Jovovic_, Jan 31 2003
+%E A052431 a(12) added by _N. J. A. Sloane_ from the Hougardy paper, Oct 17 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

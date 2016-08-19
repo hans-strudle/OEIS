@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033814
+Showing 1-1 of 1
+
+%I A033814
+%S A033814 7,25,61,126,238,426,737,1247,2079,3432,5628,9188,14955,24293,39409,
+%T A033814 63874,103466,167534,271205,438955,710387,1149580,1860216,3010056,
+%U A033814 4870543,7880881,12751717,20632902,33384934,54018162
+%N A033814 Convolution of natural numbers n >= 1 with Lucas numbers L(k)(A000032) for k >= 4.
+%F A033814 a(n)=L(7)*(F(n+1)-1)+L(6)*F(n)-L(5)*n, F(n): Fibonacci (A000045); G.F. x*(7+4*x)/((1-x-x^2)*(1-x)^2), 7=L(4), 4=L(3).
+%Y A033814 A023548, A023537.
+%K A033814 easy,nonn
+%O A033814 1,1
+%A A033814 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

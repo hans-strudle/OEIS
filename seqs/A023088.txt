@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023088
+Showing 1-1 of 1
+
+%I A023088
+%S A023088 0,1782,2178,16782,17604,17802,17820,17832,17982,18027,19728,19782,
+%T A023088 20178,21678,21780,21783,21798,21978,23958,102564,103845,104769,
+%U A023088 104895,105264,106254,114528,125406,125604,126054,128052,128205,140256,140526,142857
+%N A023088 k and 4k are anagrams.
+%C A023088 All terms are divisible by 3. - _Eric M. Schmidt_, Jul 12 2014
+%H A023088 David W. Wilson, <a href="/A023088/b023088.txt">Table of n, a(n) for n = 1..10001</a>
+%K A023088 nonn,base
+%O A023088 1,2
+%A A023088 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

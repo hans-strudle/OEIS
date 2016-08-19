@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032734
+Showing 1-1 of 1
+
+%I A032734
+%S A032734 2437,5620,7358,11111,13308,13332,13650,14612,19737,19817,24217,25213,
+%T A032734 26302,27971,28472,28838,29289,29542,29650,31328,33027,33170,35914,
+%U A032734 35970,36186,37977,38327,39127,39608,40078,41165,41528,42422,43277
+%N A032734 All 81 combinations of prefixing and following a(n) by a single digit are nonprime.
+%e A032734 2437 prefixed and followed with a pair of digits from (1,2,3,4,5,6,7,8,9) never yields a prime: '9'2437'1' = 7 * 37 * 43 * 83.
+%p A032734 isA032734 := proc(n)
+%p A032734         for k from 1 to 9 do
+%p A032734         for k2 from 1 to 9 do
+%p A032734                 dgs := [k,op(convert(n,base,10)),k2] ;
+%p A032734                 dgsn := add( op(i,dgs)*10^(i-1),i=1..nops(dgs)) ;
+%p A032734                 if isprime(dgsn) then
+%p A032734                         return false;
+%p A032734                 end if;
+%p A032734         end do:
+%p A032734         end do:
+%p A032734         return true;
+%p A032734 end proc:
+%p A032734 for n from 1 to 50000 do
+%p A032734         if isA032734(n) then
+%p A032734                 printf("%d,",n);
+%p A032734         end if;
+%p A032734 end do: # _R. J. Mathar_, Oct 22 2011
+%t A032734 ok[n_] := With[{id = IntegerDigits[n]}, Select[ Flatten[ Table[ FromDigits[ Join[{j}, id, {k}]], {j, 1, 9}, {k, 1, 9}], 1], PrimeQ, 1] == {}]; A032734 = {}; n = 1; While[n < 50000, If[ok[n], Print[n]; AppendTo[A032734, n]]; n++]; A032734(* _Jean-François Alcover_, Nov 23 2011 *)
+%o A032734 (PARI) is_A032734(n)={p=10^#Str(n*=10);forstep(k=n+p,n+9*p,p,nextprime(k)>k+9|return);1}  \\ _M. F. Hasler_, Oct 22 2011
+%Y A032734 Cf. A032682-A032685 and A032702-A032733.
+%K A032734 nonn,nice,base
+%O A032734 1,1
+%A A032734 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

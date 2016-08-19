@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037052
+Showing 1-1 of 1
+
+%I A037052
+%S A037052 26,169,1230,9593,78499,1270608,5761456,50847535,1300005927,
+%T A037052 4118054814,73301896140,1320811971703
+%N A037052 a(n)-th prime is the smallest prime containing exactly n 0's.
+%H A037052 Andrew R. Booker, <a href="http://primes.utm.edu/nthprime/">The Nth Prime Page</a>
+%t A037052 (* see A037053 for f *) PrimePi[ Table[ z[n], {n, 1, 12}]]
+%Y A037052 Cf. A037053, A034388.
+%K A037052 nonn,base,hard
+%O A037052 1,1
+%A A037052 _Patrick De Geest_, Jan 04 1999.
+%E A037052 Edited and extended by _Robert G. Wilson v_, Jul 04 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

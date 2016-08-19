@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030641
+Showing 1-1 of 1
+
+%I A030641
+%S A030641 6,77,6557,43112347,1858675670994257,3454675249946148511864052376019,
+%T A030641 11934781082590483693525046199489720199194471433440678070422853
+%N A030641 a(1) = 6; for n > 1, a(n) = product of next 2 primes after a(n-1).
+%e A030641 The 2 primes after 77 are 79, 83, so next term is 79*83 = 6557.
+%p A030641 f := n->nextprime(n)*nextprime(nextprime(n));
+%Y A030641 Cf. A000040, A030642.
+%K A030641 nonn
+%O A030641 1,1
+%A A030641 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

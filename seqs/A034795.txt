@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034795
+Showing 1-1 of 1
+
+%I A034795
+%S A034795 2,3,7,11,23,29,53,59,71,73,79,83,109,113,127,131,151,167,173,179,191,
+%T A034795 193,197,223,227,239,241,251,263,269,283,293,307,311,313,317,353,383,
+%U A034795 389,409,419,431,433,439,443,457,461,467,479,487,491,503,509,523,547
+%N A034795 a(n-1) is a square mod a(n) and prime.
+%K A034795 nonn,nice
+%O A034795 1,1
+%A A034795 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

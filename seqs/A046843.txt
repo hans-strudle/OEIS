@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046843
+Showing 1-1 of 1
+
+%I A046843
+%S A046843 2,4,8,12,16,40,80,314,478,604,634,790,868,1264,1376,2536,3544,6564,
+%T A046843 7268,7780,8366
+%N A046843 Numbers n such that n*2^n-n-1 is prime.
+%C A046843 The corresponding primes are given in A046842.
+%p A046843 A046843:=n->`if`(isprime(n*2^n-n-1), n, NULL): seq(A046843(n), n=1..1000); # _Wesley Ivan Hurt_, Oct 12 2014
+%t A046843 Select[Range[10000],PrimeQ[# 2^#-#-1]&] (* _Harvey P. Dale_, Oct 10 2011 *)
+%Y A046843 Cf. A046842.
+%K A046843 nonn,more
+%O A046843 1,1
+%A A046843 _Felice Russo_
+%E A046843 Sign in definition corrected by _R. J. Mathar_, Oct 10 2010
+%E A046843 More terms from _Harvey P. Dale_, Oct 10 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020872
+Showing 1-1 of 1
+
+%I A020872
+%S A020872 34,241,1582
+%N A020872 Number of restricted forests in Moebius ladder M_n.
+%H A020872 J. P. McSorley, <a href="http://dx.doi.org/10.1016/S0012-365X(97)00086-1">Counting structures in the Moebius ladder</a>, Discrete Math., 184 (1998), 137-164.
+%F A020872 For large n, (4.8820)^n < a(n) < (6.4188)^n (Th. 10.1.). - C. Ronaldo (aga_new_ac(AT)hotmail.com), Jan 17 2005
+%K A020872 nonn,more,bref
+%O A020872 2,1
+%A A020872 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

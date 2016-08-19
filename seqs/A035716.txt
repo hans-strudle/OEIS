@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035716
+Showing 1-1 of 1
+
+%I A035716
+%S A035716 1,42,882,12362,130242,1101450,7796978,47568618,255582978,1229718378,
+%T A035716 5369283570,21507034122,79749022402,275848947402,895903147122,
+%U A035716 2747597899690,7996359740418,22180063387818,58861356563058,149959897539018
+%N A035716 Coordination sequence for 21-dimensional cubic lattice.
+%D A035716 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035716 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035716 <a href="/index/Rec#order_21">Index entries for linear recurrences with constant coefficients</a>, signature (21, -210, 1330, -5985, 20349, -54264, 116280, -203490, 293930, -352716, 352716, -293930, 203490, -116280, 54264, -20349, 5985, -1330, 210, -21, 1).
+%F A035716 G.f.: ((1+x)/(1-x))^21.
+%K A035716 nonn,easy
+%O A035716 0,2
+%A A035716 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035716 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

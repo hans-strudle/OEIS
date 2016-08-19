@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024358
+Showing 1-1 of 1
+
+%I A024358
+%S A024358 1,1,8,105,6136,8766473,8245941529080,3508518207951157937469961,
+%T A024358 311594265746788494170062926869662848646207622648,
+%U A024358 1217308491239906829392988008143949647398943617188660186130545502913055217344025410733271773705
+%N A024358 Sum of the sizes of binary subtrees of the perfect binary tree of height n.
+%C A024358 Size of binary tree = number of internal nodes.
+%H A024358 C. Banderier, <a href="http://algo.inria.fr/banderier/Papers/subtrees.ps">On the sum of the sizes of binary subtrees of a perfect binary tree</a>, preprint, 2000
+%F A024358 a(n) = B'_n(1) where B_{n+1}(x)=1+xB_n(x)^2.
+%Y A024358 Cf. A003095.
+%K A024358 easy,nonn
+%O A024358 0,3
+%A A024358 _Cyril Banderier_, Jun 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

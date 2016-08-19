@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016976
+Showing 1-1 of 1
+
+%I A016976
+%S A016976 390625,214358881,6975757441,78310985281,500246412961,2251875390625,
+%T A016976 7984925229121,23811286661761,62259690411361,146830437604321,
+%U A016976 318644812890625,645753531245761,1235736291547681,2252292232139041
+%N A016976 (6n+5)^8.
+%H A016976 Vincenzo Librandi, <a href="/A016976/b016976.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016976 (MAGMA) [(6*n+5)^8: n in [0..20]]; // Vincenzo Librandi, May 12 2011
+%K A016976 nonn,easy
+%O A016976 0,1
+%A A016976 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046395
+Showing 1-1 of 1
+
+%I A046395
+%S A046395 6006,8778,20202,28182,41514,43134,50505,68586,87978,111111,141141,
+%T A046395 168861,202202,204402,209902,246642,249942,262262,266662,303303,
+%U A046395 323323,393393,399993,438834,454454,505505,507705,515515,516615,519915,534435
+%N A046395 Palindromes with exactly 5 distinct prime factors.
+%e A046395 505505 = 5 * 7 * 11 * 13 * 101.
+%Y A046395 Cf. A046331.
+%K A046395 nonn,base
+%O A046395 1,1
+%A A046395 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007992
+Showing 1-1 of 1
+
+%I A007992
+%S A007992 6160,12220,23500,68908,249424,425500,434784,649990,660825,1017856,
+%T A007992 1077336,1238380,1252216,1568260,1754536,2166136,2362360,2482536,
+%U A007992 2537220,2876445,3957525,4177524,4287825,5224660,5559510,5641552
+%N A007992 Augmented amicable pairs (smaller member of each pair).
+%C A007992 Let f(n) = 1 + sum of aliquot divisors of n; these are pairs (n,m) with f(n)=m, f(m)=n.
+%C A007992 m cannot equal n.  From _Harvey P. Dale_, May 18 2012
+%H A007992 D. Moews, <a href="http://xraysgi.ims.uconn.edu/augmented.fmtlist">Augmented amicable pairs</a>
+%H A007992 J. O. M. Pedersen, <a href="http://amicable.homepage.dk/tables.htm">Tables of Aliquot Cycles</a>
+%t A007992 aapQ[n_]:=Module[{c=DivisorSigma[1,n]+1-n},c!=n&&DivisorSigma[ 1,c]+1-c == n]; Transpose[Union[Sort[{#,DivisorSigma[1,#]+1-#}]&/@Select[Range[ 6000000],aapQ]]] [[1]] _Harvey P. Dale_, May 18 2012
+%Y A007992 Cf. A015630.
+%K A007992 nonn,nice
+%O A007992 1,1
+%A A007992 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

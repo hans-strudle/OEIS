@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010234
+Showing 1-1 of 1
+
+%I A010234
+%S A010234 13,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,
+%T A010234 5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,26,1,5,1,
+%U A010234 26,1,5,1,26,1,5,1,26,1,5,1
+%N A010234 Continued fraction for sqrt(192).
+%H A010234 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%H A010234 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A010234 a(n)=(1/8)*{-39*(n mod 4)+19*[(n+1) mod 4]+3*[(n+2) mod 4]+61*[(n+3) mod 4]}-13*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jul 28 2009]
+%t A010234 ContinuedFraction[Sqrt[192],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 28 2011*)
+%K A010234 nonn,cofr
+%O A010234 0,1
+%A A010234 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

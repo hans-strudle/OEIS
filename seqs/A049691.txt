@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049691
+Showing 1-1 of 1
+
+%I A049691
+%S A049691 0,3,5,9,13,21,25,37,45,57,65,85,93,117,129,145,161,193,205,241,257,
+%T A049691 281,301,345,361,401,425,461,485,541,557,617,649,689,721,769,793,865,
+%U A049691 901,949,981
+%N A049691 a(n)=T(n,n), array T as in A049687. Also a(n)=T(2n,2n), array T given by A049639.
+%F A049691 a(n) is related to the sequence b(n) = |{(x, y): gcd(x, y) = 1, 1<=x, y<=n}| (A018805) as follows: a(n) = b(n - 1) + 2 (for n > 1). - Shawn Westmoreland (westmore(AT)math.utexas.edu), Jun 11 2003
+%Y A049691 Cf. A018805.
+%K A049691 nonn
+%O A049691 0,2
+%A A049691 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

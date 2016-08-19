@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035775
+Showing 1-1 of 1
+
+%I A035775
+%S A035775 1,2888,1392016,269493720,28142347040,1846012202088,83558656596144,
+%T A035775 2782948528883448,71467464065517120,1466676453767667080,
+%U A035775 24743395759941243856,351105989545855146008,4270772766808101054816
+%N A035775 Coordination sequence for C_38 lattice.
+%D A035775 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%D A035775 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035775 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A035775 ((1+x)/(1-x))^38 if norm is even; otherwise 0.
+%K A035775 nonn,easy
+%O A035775 0,2
+%A A035775 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035775 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

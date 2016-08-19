@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048335
+Showing 1-1 of 1
+
+%I A048335
+%S A048335 0,1,2,3,4,5,6,7,8,9,10,12,24,36,48,60,72,84,96,108,120,133,266,399,
+%T A048335 532,665,798,931,1064,1197,1330,1464,2928,4392,5856,7320,8784,10248,
+%U A048335 11712,13176,14640,16105,32210,48315,64420,80525,96630,112735,128840
+%N A048335 a(n) in base 11 is a repdigit.
+%H A048335 Vincenzo Librandi, <a href="/A048335/b048335.txt">Table of n, a(n) for n = 0..1000</a>
+%H A048335 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Repdigit.html">Repdigit</a>
+%t A048335 Union[Flatten[Table[FromDigits[PadRight[{}, n, d], 11], {n, 0, 50}, {d, 10}]]] (* _Vincenzo Librandi_, Feb 06 2014 *)
+%Y A048335 Cf. A010785, A033024, A028987, A028988.
+%K A048335 nonn,base
+%O A048335 0,3
+%A A048335 _Patrick De Geest_, Feb 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007570
+Showing 1-1 of 1
+
+%I A007570 M1537
+%S A007570 0,1,1,1,2,5,21,233,10946,5702887,139583862445,1779979416004714189,
+%T A007570 555565404224292694404015791808,
+%U A007570 2211236406303914545699412969744873993387956988653,2746979206949941983182302875628764119171817307595766156998135811615145905740557
+%N A007570 F(F(n)), where F is a Fibonacci number.
+%C A007570 Asymptotic behavior as n->infinity: a(n+1)=a(n)*phi^(F(n-1)), with phi = A001622 = 1.61803... (golden ratio). - _Carmine Suriano_, Jan 24 2011
+%D A007570 E. A. Parberry, Two recursion relations for F(F(n)), Fib. Quart., 15 (1977), 122 and 139.
+%D A007570 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007570 T. D. Noe, <a href="/A007570/b007570.txt">Table of n, a(n) for n = 0..17</a>
+%H A007570 C. Street, <a href="http://www.codehappy.net/fibo.pdf">A Recurrence for the Sequence {F(F(n)),n=>0}</a>
+%p A007570 F:= n-> (<<0|1>, <1|1>>^n)[1, 2]:
+%p A007570 a:= n-> F(F(n)):
+%p A007570 seq(a(n), n=0..14);  # _Alois P. Heinz_, Oct 09 2015
+%t A007570 F[0] = 0; F[1] = 1; F[n_] := F[n] = F[n - 1] + F[n - 2]; Table[ F[ F[n] ], {n, 0, 14} ]
+%t A007570 Fibonacci[Fibonacci[Range[0,20]]] (* _Harvey P. Dale_, May 05 2012 *)
+%o A007570 (Sage) [fibonacci(fibonacci(n)) for n in xrange(0, 14)] # _Zerinvary Lajos_, Nov 30 2009
+%o A007570 (PARI) a(n)=fibonacci(fibonacci(n)) \\ _Charles R Greathouse IV_, Feb 03 2014
+%Y A007570 Cf. A000045, A005371, A058051.
+%K A007570 nonn,nice,easy
+%O A007570 0,5
+%A A007570 _N. J. A. Sloane_, _Robert G. Wilson v_
+%E A007570 One more term from _Harvey P. Dale_, May 05 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

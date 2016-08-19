@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060258
+Showing 1-1 of 1
+
+%I A060258
+%S A060258 17,29,41,50,105,126,159,171,193,226,256,275,280,283,311,337,342,346,
+%T A060258 354,363,399,410,423,460,463,470,484,500,503,506,517,532,549,570,584,
+%U A060258 601,619,634,660,690,715,726,731,770,776,779,785,879,907,910,919,923
+%N A060258 Numbers n such that 1/prime(n) has period prime(n) - 1 and 1/prime(n+1) has period prime(n+1) - 1.
+%K A060258 nonn
+%O A060258 1,1
+%A A060258 _Jeff Burch_, Mar 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053777
+Showing 1-1 of 1
+
+%I A053777
+%S A053777 1,6,120,10368,2582208,3143720448,11692182896640,219197554267521024,
+%T A053777 12804488375721592356864,3325324798296500862330077184,
+%U A053777 2537067900325971750395878897090560
+%N A053777 Number of n X n binary matrices of order dividing 12 (i.e. number of solutions of X^12=I in GL(n,2)).
+%D A053777 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053777 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053777 Cf. A053722, A053725, A053718.
+%K A053777 nonn
+%O A053777 1,2
+%A A053777 _Vladeta Jovovic_, Mar 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017375
+Showing 1-1 of 1
+
+%I A017375
+%S A017375 8589934592,64268410079232,8293509467471872,238572050223552512,
+%T A017375 3116402981210161152,24986644000165537792,143746751770690322432,
+%U A017375 650190514836423555072,2450808588882738675712,8007313507497959524352
+%N A017375 (10*n+8)^11.
+%H A017375 Vincenzo Librandi, <a href="/A017375/b017375.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017375 (MAGMA) [(10*n+8)^11: n in [0..20]]; // Vincenzo Librandi, Aug 31 2011
+%K A017375 nonn,easy
+%O A017375 0,1
+%A A017375 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

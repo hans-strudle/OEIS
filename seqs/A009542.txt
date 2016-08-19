@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009542
+Showing 1-1 of 1
+
+%I A009542
+%S A009542 0,1,2,2,4,16,38,104,456,1600,6154,29952,131660,644736,3516334,
+%T A009542 18383616,106736272,645554176,3902982930,25645936640,170222268308,
+%U A009542 1160636121088,8352824699446,60217271582720,450765801976408
+%N A009542 Expansion of sin(x).exp(sinh(x)).
+%t A009542 Sin[ x ]*Exp[ Sinh[ x ] ]
+%K A009542 sign,easy
+%O A009542 0,3
+%A A009542 _R. H. Hardin_
+%E A009542 Extended with signs Mar 15 1997 by _Olivier Gérard_. First negative term is 35th.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

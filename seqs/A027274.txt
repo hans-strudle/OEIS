@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027274
+Showing 1-1 of 1
+
+%I A027274
+%S A027274 10,40,342,1279,11016,41462,359530,1365014,11899516,45501743,
+%T A027274 398306769,1531614109,13450930624,51952990090,457449811458
+%N A027274 Sum{T(n,k)*T(n,k+2)}, 0<=k<=2n-2, T given by A026552.
+%K A027274 nonn
+%O A027274 2,1
+%A A027274 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

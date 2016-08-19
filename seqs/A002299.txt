@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002299
+Showing 1-1 of 1
+
+%I A002299
+%S A002299 1,21,126,462,1287,3003,6188,11628,20349,33649,53130,80730,118755,
+%T A002299 169911,237336,324632,435897,575757,749398,962598,1221759,1533939,
+%U A002299 1906884,2349060,2869685,3478761,4187106,5006386,5949147,7028847,8259888,9657648,11238513
+%N A002299 C(2n+5,5).
+%C A002299 Number of standard tableaux of shape (2n+1,1^5). - Emeric Deutsch, May 30 2004
+%H A002299 Vincenzo Librandi, <a href="/A002299/b002299.txt">Table of n, a(n) for n = 0..200</a>
+%H A002299 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A002299 J. M. Landsberg and L. Manivel, <a href="http://www.math.tamu.edu/~jml/LMsexpub.pdf">The sextonions and E7 1/2</a>, Adv. Math. 201 (2006), 143-179. [Th. 7.2(i), case a=1]
+%H A002299 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A002299 G.f.: (1+15*x+15*x^2+x^3)/(1-x)^6 = (1+x)*(x^2+14*x+1)/(1-x)^6.
+%o A002299 (MAGMA) [Binomial(2*n+5,5): n in [0..30]]; // Vincenzo Librandi, Oct 07 2011
+%o A002299 (PARI) a(n)=n*(8*n^4+60*n^3+170*n^2+225*n+137)/30+1 \\ _Charles R Greathouse IV_, Apr 18 2012
+%Y A002299 a(n)=A000389(2*n+5).
+%Y A002299 Cf. A000389, A053127.
+%K A002299 nonn,easy
+%O A002299 0,2
+%A A002299 _N. J. A. Sloane_, Eric Lane (ERICLANE(AT)UTCVM.UTC.EDU)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

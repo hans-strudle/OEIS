@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000944
+Showing 1-1 of 1
+
+%I A000944 M1796 N0709
+%S A000944 0,0,0,1,2,7,34,257,2606,32300,440564,6384634,96262938,1496225352,
+%T A000944 23833988129,387591510244,6415851530241,107854282197058
+%N A000944 Number of polyhedra (or 3-connected simple planar graphs) with n nodes.
+%D A000944 H. T. Croft, K. J. Falconer and R. K. Guy, Unsolved Problems in Geometry, B15.
+%D A000944 M. B. Dillencourt, Polyhedra of small orders and their Hamiltonian properties. Tech. Rep. 92-91, Info. and Comp. Sci. Dept., Univ. Calif. Irvine, 1992.
+%D A000944 Duijvestijn, A. J. W.; Federico, P. J.; The number of polyhedral (3-connected planar) graphs. Math. Comp. 37 (1981), no. 156, 523-532.
+%D A000944 Federico, P. J., Enumeration of polyhedra: The number of 9-hedra. J. Combinatorial Theory 7 1969 155--161. MR0243424 (39 #4746)
+%D A000944 Lukas Finschi, A Graph Theoretical Approach for Reconstruction and Generation of Oriented Matroids, A dissertation submitted to the Swiss Federal Institute of Technology, Zurich for the degree of Doctor of Mathematics, 2001. See p. 155.
+%D A000944 Fukuda, Komei; Miyata, Hiroyuki; Moriyama, Sonoko. Complete Enumeration of Small Realizable Oriented Matroids. Discrete Comput. Geom. 49 (2013), no. 2, 359--381. MR3017917. - From _N. J. A. Sloane_, Feb 16 2013
+%D A000944 B. Grünbaum, Convex Polytopes. Wiley, NY, 1967, p. 424.
+%D A000944 A. B. Korchagin, Ordering cellular spaces ..., Discrete Comput. Geom., 40 (2008), 289-311.
+%D A000944 Y. Y. Prokhorov, ed., Mnogogrannik [Polyhedron], Mathematical Encyclopedia Dictionary, Soviet Encyclopedia, 1988.
+%D A000944 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000944 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A000944 G. M. Ziegler, Questions about polytopes, pp. 1195-1211 of Mathematics Unlimited - 2001 and Beyond, ed. B. Engquist and W. Schmid, Springer-Verlag, 2001.
+%H A000944 G. Brinkmannm and B. McKay, <a href="http://cs.anu.edu.au/~bdm/plantri/">Program for generating these objects.</a>.
+%H A000944 G. P. Michon, <a href="http://www.numericana.com/data/polyhedra.htm">Counting Polyhedra</a>
+%H A000944 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PolyhedralGraph.html">Polyhedral Graph</a>
+%Y A000944 Cf. A005470, A049337, A049334, A003094, A049336, A021103.
+%Y A000944 Row sums of A212438.
+%K A000944 nonn,nice,hard,more
+%O A000944 1,5
+%A A000944 _N. J. A. Sloane_
+%E A000944 More terms from _Brendan McKay_
+%E A000944 a(18) from _Brendan McKay_, Jun 02 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

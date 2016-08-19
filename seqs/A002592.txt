@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002592
+Showing 1-1 of 1
+
+%I A002592 M3994 N1655
+%S A002592 2,5,41,73,193,1181,6481,16493,21523361,530713,42521761,570461,769,
+%T A002592 4795973261,647753,47763361,926510094425921,1743831169,282429005041,
+%U A002592 25480398173,128653413121,109688713,56625998353,70601370627701
+%N A002592 Largest prime factor of 9^n + 1.
+%D A002592 J. Brillhart et al., Factorizations of b^n +- 1. Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 2nd edition, 1985; and later supplements.
+%D A002592 M. Kraitchik, Recherches sur la Théorie des Nombres. Gauthiers-Villars, Paris, Vol. 1, 1924, Vol. 2, 1929, see Vol. 2, p. 89.
+%D A002592 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002592 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002592 Sean A. Irvine, <a href="/A002592/b002592.txt">Table of n, a(n) for n = 0..315</a>
+%H A002592 J. Brillhart et al., <a href="http://dx.doi.org/10.1090/conm/022">Factorizations of b^n +- 1</a>, Contemporary Mathematics, Vol. 22, Amer. Math. Soc., Providence, RI, 3rd edition, 2002.
+%H A002592 S. S. Wagstaff, Jr., <a href="http://www.cerias.purdue.edu/homes/ssw/cun/index.html">The Cunningham Project</a>
+%p A002592 for n from 0 to 30 do t1:=ifactor(9^n+1); od;
+%K A002592 nonn
+%O A002592 0,1
+%A A002592 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038474
+Showing 1-1 of 1
+
+%I A038474
+%S A038474 6,26,30,126,130,150,626,630,650,750,3126,3130,3150,3250,3750,15626,
+%T A038474 15630,15650,15750,16250,18750,78126,78130,78150,78250,78750,81250,
+%U A038474 93750,390626,390630,390650,390750,391250,393750,406250,468750
+%N A038474 Sums of two distinct powers of 5.
+%t A038474 Union[Total/@Subsets[5^Range[0, 15], {2}]] (* _Harvey P. Dale_, Jan 06 2011 *)
+%Y A038474 Base 5 interpretation of A038444.
+%K A038474 nonn,easy
+%O A038474 0,1
+%A A038474 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

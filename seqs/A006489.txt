@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006489
+Showing 1-1 of 1
+
+%I A006489 M4770
+%S A006489 11,13,17,23,37,47,53,67,73,103,107,157,173,233,257,263,277,353,373,
+%T A006489 563,593,607,613,647,653,733,947,977,1097,1103,1123,1187,1223,1283,
+%U A006489 1297,1367,1433,1453,1487,1493,1607,1613,1663,1747,1753,1783,1867,1873
+%N A006489 n-6, n, n+6 are primes.
+%C A006489 Solutions of the equation (n-6)'+n'+(n+6)'=3, where n' is the arithmetic derivative of n. [_Paolo P. Lava_, Nov 08 2012]
+%D A006489 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006489 T. D. Noe, <a href="/A006489/b006489.txt">Table of n, a(n) for n=1..1000</a>
+%H A006489 Joseph Hirsch, <a href="http://www.jstor.org/stable/27958187">Prime Triplets</a>, Mathematics Teacher, 62 (1969), 467ff (see p. 471).
+%t A006489 q=6*1;lst={};Do[p=Prime[n];If[PrimeQ[p-q]&&PrimeQ[p+q],AppendTo[lst,p]],{n,7!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Jun 17 2009 *)
+%t A006489 Select[Prime[Range[300]],And@@PrimeQ[#+{6,-6}]&] (* _Harvey P. Dale_, May 21 2012 *)
+%o A006489 (Haskell)
+%o A006489 a006489 n = a006489_list !! (n-1)
+%o A006489 a006489_list = filter
+%o A006489    ((== 1) . a010051 . (subtract 6)) $ dropWhile (<= 6) a023201_list
+%o A006489 -- _Reinhard Zumkeller_, Feb 25 2013
+%Y A006489 Subsequence of A023201.
+%K A006489 nonn,nice,easy
+%O A006489 1,1
+%A A006489 _N. J. A. Sloane_.
+%E A006489 More terms from _James A. Sellers_, Dec 24 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

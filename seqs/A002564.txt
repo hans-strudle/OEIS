@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002564
+Showing 1-1 of 1
+
+%I A002564 M3199 N1293
+%S A002564 1,4,1,12,186,4,86,4860,114,8,2,8,288
+%N A002564 Number of different ways one can attack all squares on an n X n chessboard with the smallest number of queens (in general position) needed.
+%C A002564 For same problem, but with non-attacking queens, see A002568. - _Vaclav Kotesovec_, Sep 07 2012
+%D A002564 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002564 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002564 M. A. Sainte-Laguë, <a href="https://eudml.org/doc/192551">Les Réseaux (ou Graphes)</a>, Mémorial des Sciences Mathématiques, Fasc. 18, Gauthier-Villars, Paris, 1923, 64 pages. See p. 49.
+%H A002564 M. A. Sainte-Laguë, <a href="/A002560/a002560.pdf">Les Réseaux (ou Graphes)</a>, Mémorial des Sciences Mathématiques, Fasc. 18, Gauthier-Villars, Paris, 1923, 64 pages. See p. 49. [Incomplete annotated scan of title page and pages 18-51]
+%Y A002564 Cf. A002568, A182333.
+%Y A002564 A075458 gives number of queens required. - _Sean A. Irvine_, Apr 05 2014
+%K A002564 nonn,more
+%O A002564 1,2
+%A A002564 _N. J. A. Sloane_
+%E A002564 New name of the sequence from _Vaclav Kotesovec_, Sep 07 2012
+%E A002564 a(9)-a(10) from _Vaclav Kotesovec_, Sep 07 2012
+%E A002564 a(11) from _Svyatoslav Starkov_, Sep 16 2013
+%E A002564 a(12)-a(13) from _Sean A. Irvine_, Apr 07 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

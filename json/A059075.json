@@ -1,0 +1,1 @@
+{"formerly":"","seq":"0,1,2,5,11,30,57,78,91,390,462,667,1214,1811,2054,2937,3055","description":"Numbers n such that 2*7^n + 3 is prime.","mathematica":"Do[ If[ PrimeQ[ 2*7^n + 3 ], Print[n] ], {n, 1, 6000} ]","keyword":"nonn","offset":"1,3","author":"_Robert G. Wilson v_, Feb 12 2001"}

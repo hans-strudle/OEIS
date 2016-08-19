@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011649
+Showing 1-1 of 1
+
+%I A011649
+%S A011649 1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,1,
+%T A011649 1,0,1,1
+%V A011649 1,1,0,-1,-1,0,1,1,0,-1,-1,0,1,1,0,-1,-1,-1,0,1,1,0,-1,-1,0,1,1,0,-1,
+%W A011649 -1,0,1,1
+%N A011649 102nd cyclotomic polynomial.
+%t A011649 CoefficientList[Cyclotomic[102,x],x] (* _Harvey P. Dale_, Jan 27 2015 *)
+%K A011649 sign,fini,full
+%O A011649 0,1
+%A A011649 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058242
+Showing 1-1 of 1
+
+%I A058242
+%S A058242 2,16,18,26,42,52,114,210,258,352,378,690
+%N A058242 Numbers n such that x^n + x^7 + 2 is irreducible over GF(3).
+%t A058242 Do[ If[ ToString[ Factor[ x^n + x^7 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^7 + 2 ], Print[ n ] ], {n, 0, 1000} ]
+%K A058242 nonn
+%O A058242 1,1
+%A A058242 _Robert G. Wilson v_, Dec 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

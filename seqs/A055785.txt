@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055785
+Showing 1-1 of 1
+
+%I A055785
+%S A055785 29,59,79,1199999,139,179,199,239,2999,319999999999999999999999999999,
+%T A055785 379,419,439,479,5399,599,619,679999,719,739,79999,839,8999,
+%U A055785 97999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
+%N A055785 a(n) = smallest prime q of form q=-1+(p+1)*10^w, where p is n-th prime.
+%e A055785 24th term is 9799...999, i.e. digits of Prime[25]=97 are followed by 90 copies of digit 9.
+%K A055785 base,nonn
+%O A055785 3,1
+%A A055785 _Labos Elemer_, Jul 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

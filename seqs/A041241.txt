@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a041241
+Showing 1-1 of 1
+
+%I A041241
+%S A041241 1,2,45,92,2069,4230,95129,194488,4373865,8942218,201102661,411147540,
+%T A041241 9246348541,18903844622,425130930225,869165705072,19546776441809,
+%U A041241 39962718588690,898726585392989,1837415889374668,41321876151635685,84481168192646038
+%N A041241 Denominators of continued fraction convergents to sqrt(132).
+%H A041241 Vincenzo Librandi, <a href="/A041241/b041241.txt">Table of n, a(n) for n = 0..200</a>
+%H A041241 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,46,0,-1).
+%F A041241 G.f.: -(x^2-2*x-1) / (x^4-46*x^2+1). - _Colin Barker_, Nov 14 2013
+%F A041241 a(n) = 46*a(n-2) - a(n-4). - _Vincenzo Librandi_, Dec 13 2013
+%t A041241 Denominator[Convergents[Sqrt[132], 30]]  (* _Vincenzo Librandi_, Dec 13 2013 *)
+%o A041241 (MAGMA) I:=[1, 2, 45, 92]; [n le 4 select I[n] else 46*Self(n-2)-Self(n-4): n in [1..40]]; // _Vincenzo Librandi_, Dec 13 2013
+%Y A041241 Cf. A041240, A040120.
+%K A041241 nonn,frac,easy
+%O A041241 0,2
+%A A041241 _N. J. A. Sloane_.
+%E A041241 More terms from _Colin Barker_, Nov 14 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

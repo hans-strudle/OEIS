@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022498
+Showing 1-1 of 1
+
+%I A022498
+%S A022498 2,10,34,93,222,481,970,1837,3312,5734,9569,15492,24410,37550,56531,
+%T A022498 83511,121200,173169,243848,338857,465113,631300,847803,1127560,
+%U A022498 1485938,1941619,2516688,3237780,4135821,5247902,6616867
+%N A022498 Conjectured number of irreducible multiple zeta values of depth 10 and weight 2n+28.
+%F A022498 p({1, 2, 3, 3, 4, 4, 5, 6, 6, 15}) x
+%F A022498 (2 + 8x + 22x^2 + 47x^3 + 85x^4 + 138x^5 + 204x^6 + 274x^7 + 341x^8 + 403x^9 + 441x^{10} + 472x^{11}
+%F A022498 + 480x^{12} + 485x^{13} + 479x^{14} + 477x^{15} + 467x^{16} + 454x^{17} + 432x^{18}
+%F A022498 + 394x^{19} + 343x^{20} + 280x^{21} + 209x^{22} + 143x^{23} + 80x^{24} + 41x^{25} + 11x^{26}
+%F A022498 + 2x^{27} - 2x^{28} + 3x^{29} + 4x^{30} + 9x^{31} + 6x^{32} + 5x^{33} + 2x^{34} - x^{37})
+%F A022498 where p(\{c_1, c_2, \ldots\}) = \prod_k \frac{1}{1-x^{c_k}}.
+%K A022498 nonn
+%O A022498 0,1
+%A A022498 _David Broadhurst_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015956
+Showing 1-1 of 1
+
+%I A015956
+%S A015956 1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,
+%T A015956 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,
+%U A015956 0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0
+%V A015956 1,-1,0,1,-1,0,1,-1,0,1,-1,1,0,-1,1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,
+%W A015956 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,
+%X A015956 0,1,-1,0,1,-1,1,0,-1,1,0,-1,1,0,-1,1,0
+%N A015956 Inverse of 1947th cyclotomic polynomial.
+%p A015956 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015956 sign
+%O A015956 0,1
+%A A015956 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

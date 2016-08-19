@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028611
+Showing 1-1 of 1
+
+%I A028611
+%S A028611 1,6,12,20,54,84,120,192,204,346,312,414,380,672,480,880,726,1152,
+%T A028611 1092,1440,1116,1920,1332,1860,2040,2106,1680,2640,2496,3360,3120,
+%U A028611 3108,3276,4580,2880,4992,4114,4500
+%N A028611 Expansion of (theta_3(z)*theta_3(11z)+theta_2(z)*theta_2(11z))^3.
+%K A028611 nonn
+%O A028611 0,2
+%A A028611 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

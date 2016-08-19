@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023095
+Showing 1-1 of 1
+
+%I A023095
+%S A023095 75,142,315,12,819,84,1035,15,198,2766,9555,56,315,8352,20893,45,950,
+%T A023095 22000,819,132,63204,24492,114075,91,2646,938,30015,240,182807,118592,
+%U A023095 333795,153,5670,187416,73815,380,623610,176820,5699,231,10406,489808
+%N A023095 a(n) is least k such that k and 3k are anagrams in base n (written in base 10).
+%K A023095 nonn,base
+%O A023095 4,1
+%A A023095 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

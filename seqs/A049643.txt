@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049643
+Showing 1-1 of 1
+
+%I A049643
+%S A049643 0,2,3,5,7,11,13,19,23,29,33,43,47,59,65,73,81,97,103,121,129,141,151,
+%T A049643 173,181,201,213,231,243,271,279,309,325,345,361,385,397,433,451,475,
+%U A049643 491,531,543,585,605,629,651,697,713,755,775,807,831,883
+%N A049643 Fractions in Farey series of order n.
+%H A049643 R. K. Guy, <a href="http://www.jstor.org/stable/2322249">The strong law of small numbers</a>. Amer. Math. Monthly 95 (1988), no. 8, 697-712.
+%F A049643 a(n) = A049641(2n).
+%t A049643 a[0] = 0; a[n_] := 1 + Sum[EulerPhi[k], {k, 1, n}]; Table[a[n], {n, 0, 60}] (* _Jean-François Alcover_, Nov 27 2015 *)
+%Y A049643 Essentially the same as A005728.
+%K A049643 nonn,easy,nice
+%O A049643 0,2
+%A A049643 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

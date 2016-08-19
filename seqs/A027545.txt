@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027545
+Showing 1-1 of 1
+
+%I A027545
+%S A027545 1135,60335,1343716,18687638,193668105,1648053597,12219297310,
+%T A027545 82056694700,512502614251,3033393752507,17245138286520,95094751802370,
+%U A027545 512243600315149
+%N A027545 Third diagonal of A027539.
+%F A027545 Numerators of sequence a[ n, n-2 ] in (a[ i, j ])^4 where a[ i, j ] = A(i, j)/i! if j<=i, 0 if j>i
+%K A027545 nonn
+%O A027545 3,1
+%A A027545 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

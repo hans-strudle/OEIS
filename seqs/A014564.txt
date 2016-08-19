@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014564
+Showing 1-1 of 1
+
+%I A014564
+%S A014564 1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014564 0,0,0,0,1,1,0,1,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014564 0,0,0,0,0,0,0,0,1,1,0,1,1,1,0
+%V A014564 1,-1,0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A014564 0,0,0,0,1,-1,0,1,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014564 0,0,0,0,0,0,0,0,1,-1,0,1,-1,1,0
+%N A014564 Inverse of 555th cyclotomic polynomial.
+%p A014564 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014564 CoefficientList[Series[1/Cyclotomic[555,x],{x,0,120}],x] (* _Harvey P. Dale_, Oct 23 2015 *)
+%K A014564 sign
+%O A014564 0,1
+%A A014564 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

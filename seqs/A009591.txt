@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009591
+Showing 1-1 of 1
+
+%I A009591
+%S A009591 0,2,4,42,888,8086,115468,8863806,275344656,2488177106,
+%T A009591 369676840940,34139482063962,1691837365047912,16526563632072646,
+%U A009591 7669129653528552220,1088114395890103645710,87525176659638470236704
+%V A009591 0,2,-4,-42,888,-8086,-115468,8863806,-275344656,2488177106,
+%W A009591 369676840940,-34139482063962,1691837365047912,-16526563632072646,
+%X A009591 -7669129653528552220,1088114395890103645710,-87525176659638470236704
+%N A009591 E.g.f. sinh(sin(x)) * sin(x) (even powers only).
+%F A009591 a(n)=2*sum(j=1..n, 4^(n-j)/(2*j-1)!*sum(i=0..j-1, (i-j)^(2*n)* binomial(2*j,i)*(-1)^(n+j-i))). [From Vladimir Kruchinin, Jun 09 2011]
+%t A009591 With[{nn=40},Take[CoefficientList[Series[Sinh[Sin[x]]Sin[x],{x,0,nn}],x]Range[0,nn]!,{1,-1,2}]] (* _Harvey P. Dale_, Dec 08 2012 *)
+%o A009591 (Maxima)
+%o A009591 a(n):=2*sum(4^(n-j)/(2*j-1)!*sum((i-j)^(2*n)*binomial(2*j,i)*(-1)^(n+j-i),i,0,j-1),j,1,n); [From Vladimir Kruchinin, Jun 09 2011]
+%K A009591 sign
+%O A009591 0,2
+%A A009591 _R. H. Hardin_
+%E A009591 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

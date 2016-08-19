@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012282
+Showing 1-1 of 1
+
+%I A012282
+%S A012282 0,0,2,3,4,20,350,3171,21320,172080,2217658,32208715,433724300,
+%T A012282 5910937812,92570087766,1651187049435,30890555494032,
+%U A012282 592724842745984,12014317527212658,261952174935402291
+%V A012282 0,0,2,-3,4,-20,350,-3171,21320,-172080,2217658,-32208715,433724300,
+%W A012282 -5910937812,92570087766,-1651187049435,30890555494032,
+%X A012282 -592724842745984,12014317527212658,-261952174935402291
+%N A012282 E.g.f.: tan(sin(x)*log(x+1)) = 2/2!*x^2 - 3/3!*x^3 + 4/4!*x^4 - 20/5!*x^5 + ...
+%t A012282 With[{nn=20}, CoefficientList[Series[Tan[Sin[x]Log[x+1]], {x,0,nn}], x] Range[0,nn]!] (* _Harvey P. Dale_, Jul 27 2013 *)
+%K A012282 sign
+%O A012282 0,3
+%A A012282 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A012282 Two zeros prepended and definition clarified by _Harvey P. Dale_, Jul 27 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

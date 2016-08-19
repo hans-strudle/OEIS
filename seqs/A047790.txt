@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047790
+Showing 1-1 of 1
+
+%I A047790
+%S A047790 0,0,0,1,6,24,81,250,732,2073,5742,15664,42273,113202,301428,799273,
+%T A047790 2112774,5571816,14668209,38563882,101285580,265817145,697214430,
+%U A047790 1827923296,4790749761,12552714594,32884171236,86133353545,225582998262
+%N A047790 Fibonacci(2*n)-2^n+1.
+%H A047790 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (6, -12, 9, -2).
+%F A047790 a(0)=0, a(1)=0, a(2)=0, a(3)=1, a(n)=6*a(n-1)-12*a(n-2)+ 9*a(n-3)- 2*a(n-4). - Harvey P. Dale, Jan 19 2012
+%p A047790 with(combstruct): SeqSeqSeqL := [T, {T=Sequence(S, card > 1), S=Sequence(U, card > 1), U=Sequence(Z, card >0)}, unlabeled]: seq(count(SeqSeqSeqL, size=j), j=1..29); # _Zerinvary Lajos_, Apr 16 2009
+%t A047790 Table[Fibonacci[2n]-2^n+1,{n,0,30}] (* or *) LinearRecurrence[ {6,-12,9,-2},{0,0,0,1},30] (* _Harvey P. Dale_, Jan 19 2012 *)
+%o A047790 (Sage) [lucas_number1(n,3,1)-lucas_number1(n,3,2) for n in xrange(0,30)] # _Zerinvary Lajos_, Jul 06 2008
+%K A047790 nonn
+%O A047790 0,5
+%A A047790 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061341
+Showing 1-1 of 1
+
+%I A061341
+%S A061341 22,303,1006,2272,3003,6001,6006,10006,30003,50015,50024,60001,60006,
+%T A061341 60025
+%N A061341 Numbers not ending in 0 whose cubes are concatenations of other cubes.
+%e A061341 2272^3 = 1_1728_0_27_64_8
+%Y A061341 Cf. A009421.
+%K A061341 base,nonn
+%O A061341 1,1
+%A A061341 _Erich Friedman_, Jun 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

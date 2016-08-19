@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060229
+Showing 1-1 of 1
+
+%I A060229
+%S A060229 29,59,149,179,239,269,419,569,599,659,809,1019,1049,1229,1289,1319,
+%T A060229 1619,1949,2129,2309,2339,2549,2729,2789,2969,2999,3119,3299,3329,
+%U A060229 3359,3389,3539,3929,4019,4049,4229,4259,4649,4799,5009,5099,5279,5519,5639
+%N A060229 Smaller of twin primes whose middle term is a multiple of A002110(3)=30.
+%C A060229 Equivalently, smaller of twin prime pair with primes in different decades.
+%e A060229 For the pair {149,151} (149+151)/2 = 5*30.
+%o A060229 (PARI) isok(n) = isprime(n) && isprime(n+2) && !((n+1) % 30); \\ _Michel Marcus_, Dec 11 2013
+%Y A060229 Cf. A001359, A002110, A060230, A060231, A158277, A158861.
+%K A060229 nonn
+%O A060229 1,1
+%A A060229 _Labos Elemer_, Mar 21 2001
+%E A060229 Minor edits by _Ray Chandler_, Apr 02 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

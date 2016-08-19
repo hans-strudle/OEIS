@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006588
+Showing 1-1 of 1
+
+%I A006588
+%S A006588 1,12,240,5376,126720,3075072,76038144,1905131520,48199827456,
+%T A006588 1228623052800,31504481648640,811751838842880,20999667135283200,
+%U A006588 545086744471535616,14189559697354260480,370298578584748425216
+%N A006588 4^n*(3*n)!/((2*n)!*n!).
+%D A006588 W. A. Whitworth, DCC Exercises in Choice and Chance, Stechert, NY, 1945, p. 35.
+%D A006588 The right-hand side of a binomial coefficient identity in H. W. Gould, Combinatorial Identities, Morgantown, 1972; Eq. 3.115, page 35.
+%F A006588 a(n) = sum_{k=0..n} binomial(4*n+1, 2*n-2*k)*binomial(n+k, k) = 4^n*binomial(3*n, n).
+%F A006588 a(n) ~ 1/2*3^(1/2)*Pi^(-1/2)*n^(-1/2)*3^(3*n)*{1 - 7/72*n^-1 + ...}. - Joe Keane (jgk(AT)jgk.org), Jun 11 2002
+%F A006588 a(n) = A013609(3*n, 2*n). - _Johannes W. Meijer_, Aug 22 2013
+%p A006588 A006588 := n->add( binomial(4*n+1,2*n-2*k)*binomial(n+k,k),k=0..n): seq(A006588(n), n=0..15);
+%t A006588 Table[4^n*(3*n)!/((2*n)!*n!), {n, 0, 20}] - _Erich Friedman_, Mar 22 2008
+%o A006588 (PARI) f(n) = 4^n*(3*n)!/((2*n)!*n!) or g(n) = sum(k=0,n,binomial(4*n+1,2*n-2*k)*binomial(n+k,k)) - P L Patodia (pannalal(AT)usa.net), Feb 24 2007
+%K A006588 nonn,easy,nice
+%O A006588 0,2
+%A A006588 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000750
+Showing 1-1 of 1
+
+%I A000750 M3851 N1576
+%S A000750 1,5,15,35,70,125,200,275,275,0,1000,3625,9500,21250,42500,
+%T A000750 76875,124375,171875,171875,0,621875,2250000,5890625,13171875,
+%U A000750 26343750,47656250,77109375,106562500,106562500,0
+%V A000750 1,-5,15,-35,70,-125,200,-275,275,0,-1000,3625,-9500,21250,-42500,
+%W A000750 76875,-124375,171875,-171875,0,621875,-2250000,5890625,-13171875,
+%X A000750 26343750,-47656250,77109375,-106562500,106562500,0
+%N A000750 Expansion of bracket function.
+%C A000750 It appears that the (unsigned) sequence is identical to its 5th order absolute difference. - _John W. Layman_, Sep 23 2003
+%D A000750 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000750 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000750 H. W. Gould, <a href="http://www.fq.math.ca/Scanned/2-4/gould.pdf">Binomial coefficients, the bracket function and compositions with relatively prime summands</a>, Fib. Quart. 2(4) (1964), 241-260.
+%F A000750 G.f.: 1/((1+x)^5-x^5).
+%t A000750 LinearRecurrence[{-5, -10, -10, -5}, {1, -5, 15, -35}, 30] (* _Jean-François Alcover_, Feb 11 2016 *)
+%o A000750 (PARI) Vec(1/((1+x)^5-x^5) + O(x^40)) \\ _Michel Marcus_, Feb 11 2016
+%Y A000750 Cf. A000748, A000749, A001659, A006090, A049016.
+%K A000750 sign,easy
+%O A000750 0,2
+%A A000750 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

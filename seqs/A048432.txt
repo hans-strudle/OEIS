@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048432
+Showing 1-1 of 1
+
+%I A048432
+%S A048432 4,141,323,323,667766,1175711,42599524,66411466,158191851,15980308951,
+%T A048432 432647746234,1516290926151,44553611635544,65937388373956
+%N A048432 Smallest denominator of fraction using palindromes that approximates 'e' with at least n decimals.
+%e A048432 E.g. n=14 -> 121109272901121/65937388373956 = 2.71828182845904... correct to 14 decimals.
+%Y A048432 Numerators in A048431.
+%K A048432 nonn,frac,base
+%O A048432 1,1
+%A A048432 _Patrick De Geest_, Apr 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

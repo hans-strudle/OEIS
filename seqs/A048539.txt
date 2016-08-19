@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048539
+Showing 1-1 of 1
+
+%I A048539
+%S A048539 7,23,74,2248,2292,23506,50552,742667,2357022,22706949,74555050,
+%T A048539 703955648,745020507,3996943276,74333434976,244040827632
+%N A048539 a(n)*(a(n)+1) is smallest pronic number containing exactly n 5's.
+%H A048539 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PronicNumber.html">Pronic Number</a>
+%Y A048539 Cf. A048540, A002378.
+%K A048539 nonn,base,more
+%O A048539 1,1
+%A A048539 _Patrick De Geest_, May 15 1999.
+%E A048539 a(14)-a(16) from _Lars Blomberg_, Jun 10 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

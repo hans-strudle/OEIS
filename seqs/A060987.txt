@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060987
+Showing 1-1 of 1
+
+%I A060987
+%S A060987 1,2,3,4,7,11,18,20,31,51,69,120,189,258,327,358,427
+%N A060987 Viggo Brun's ternary continued fraction algorithm applied to { log 2, log 3/2, log 5/4 } produces a list of triples (p,q,r); sequence gives p values.
+%D A060987 V. Brun, Music and ternary continued fractions, Kgl. Norske Videnskabers Selskab Forh., 23 (No. 10, 1950).
+%D A060987 V. Brun, Musikk og Euklidske algoritmer (in Danish), Nordisk Mat. Tidskr, 9 (1961), 29-36.
+%H A060987 Vigo Brun, <a href="/A060986/a060986.pdf">Music and ternary continued fractions</a>, Kgl. Norske Videnskabers Selskab Forh., 23 (No. 10, 1950), pages 38-40. [Annotated scanned copy]
+%Y A060987 See A060986 for p values, A060988 for r values.
+%K A060987 nonn,easy,more,changed
+%O A060987 0,2
+%A A060987 _N. J. A. Sloane_, May 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

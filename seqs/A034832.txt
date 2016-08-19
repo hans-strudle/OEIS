@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034832
+Showing 1-1 of 1
+
+%I A034832
+%S A034832 1,12,228,5928,195624,7824960,367773120,19859748480,1211444657280,
+%T A034832 82378236695040,6178367752128000,506626155674496000,
+%U A034832 45089727855030144000,4328613874082893824000,445847229030538063872000
+%N A034832 a(n) = n-th sept-factorial number divided by 5.
+%H A034832 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A034832 5*a(n) = (7*n-2)(!^7) = product_{j=1..n} (7*j-2).
+%F A034832 E.g.f.: (-1 + (1-7*x)^(-5/7))/5.
+%t A034832 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 11, 5!, 7}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%t A034832 Rest[FoldList[Times,1,7*Range[20]-2]/5] (* _Harvey P. Dale_, May 30 2013 *)
+%Y A034832 Cf. A045754, A034829-A034834, A84947, A147585.
+%K A034832 easy,nonn
+%O A034832 1,2
+%A A034832 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,58 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034295
+Showing 1-1 of 1
+
+%I A034295
+%S A034295 1,2,3,7,11,31,57,148,312,754,1559,3844,7893,17766,37935,83667
+%N A034295 Number of different ways to divide an n X n square into sub-squares, considering only the list of parts.
+%C A034295 Number of ways an n X n square can be cut into integer-sided squares: collections of integers {a_i} so that squares of length a_i tile an n X n square.
+%C A034295 This ignores the way the squares are arranged. We are only counting the lists of parts (compare A045846).
+%C A034295 Also applies to the partitions of an equilateral triangle of length n. - _Robert G. Wilson v_
+%H A034295 Alois P. Heinz, <a href="/A034295/a034295_2.txt">List of different ways to divide a 13 X 13 square into sub-squares</a>
+%H A034295 Alois P. Heinz, <a href="/A034295/a034295_1.txt">More ways to divide an 11 X 11 square into sub-squares</a>
+%H A034295 Jon E. Schoenfield, <a href="/A034295/a034295.txt">Table of solutions for n <= 12</a>
+%H A034295 N. J. A. Sloane, <a href="/A034295/a034295.jpg">Drawing to illustrate a(1)-a(4)</a>
+%e A034295 From _Jon E. Schoenfield_, Sep 18 2008: (Start)
+%e A034295 a(3) = 3 because the 3 X 3 square can be divided into sub-squares in 3 different ways: a single 3 X 3 square, a 2 X 2 square plus five 1 X 1 squares, or nine 1 X 1 squares.
+%e A034295 There are a(5) = 11 different ways to divide a 5 X 5 square into sub-squares:
+%e A034295    1. 25(1x1)
+%e A034295    2.  1(2x2) + 21(1x1)
+%e A034295    3.  2(2x2) + 17(1x1)
+%e A034295    4.  3(2x2) + 13(1x1)
+%e A034295    5.  4(2x2) +  9(1x1)
+%e A034295    6.  1(3x3) + 16(1x1)
+%e A034295    7.  1(3x3) +  1(2x2) + 12(1x1)
+%e A034295    8.  1(3x3) +  2(2x2) +  8(1x1)
+%e A034295    9.  1(3x3) +  3(2x2) +  4(1x1)
+%e A034295   10.  1(4x4) +  9(1x1)
+%e A034295   11.  1(5x5)
+%e A034295 a(9) = 312 because the 9 X 9 square can be divided into 312 different combinations of sub-squares such as three 4 X 4 squares plus thirty-three 1 X 1 squares, etc. (End)
+%p A034295 b:= proc(n, l) option remember; local i, k, s;
+%p A034295       if max(l[])>n then {} elif n=0 then {0}
+%p A034295     elif min(l[])>0 then (t->b(n-t, map(h->h-t, l)))(min(l[]))
+%p A034295     else for k while l[k]>0 do od; s:={};
+%p A034295          for i from k to nops(l) while l[i]=0 do s:=s union
+%p A034295              map(v->v+x^(1+i-k), b(n, [l[j]$j=1..k-1,
+%p A034295                  1+i-k$j=k..i, l[j]$j=i+1..nops(l)]))
+%p A034295          od; s
+%p A034295       fi
+%p A034295     end:
+%p A034295 a:= n-> nops(b(n, [0$n])):
+%p A034295 seq(a(n), n=1..9);  # _Alois P. Heinz_, Apr 15 2013
+%t A034295 $RecursionLimit = 1000; b[n_, l_] := b[n, l] = Module[{i, k, m, s, t}, Which[Max[l]>n, {}, n == 0 || l == {}, {{}}, Min[l]>0, t = Min[l]; b[n-t, l-t], True, k = Position[l, 0, 1][[1, 1]]; s = {}; For[i = k, i <= Length[l] && l[[i]] == 0, i++, s = s ~Union~ Map[Function[x, Sort[Append[x, 1+i-k]]], b[n, Join[l[[1 ;; k-1]], Array[1+i-k &, i-k+1], l[[i+1 ;; -1]]]]]]; s]]; a[n_] := a[n] = b[n, Array[0&, n]] // Length; Table[Print[a[n]]; a[n], {n, 1, 12} ] (* _Jean-François Alcover_, Feb 18 2014, after _Alois P. Heinz_ *)
+%Y A034295 Cf. A045846, A224239.
+%Y A034295 Cf. A014544, A129668 (these both involve cubes).
+%Y A034295 Diagonal of A224697.
+%K A034295 nonn,hard,nice,more
+%O A034295 1,2
+%A A034295 _Erich Friedman_, Dec 11 1999
+%E A034295 More terms from _Sergio Pimentel_, Jun 03 2008
+%E A034295 Corrected and extended by _Jon E. Schoenfield_, Sep 19 2008
+%E A034295 Edited by _N. J. A. Sloane_, Apr 12 2013, at the suggestion of _Paolo P. Lava_
+%E A034295 a(11) corrected by _Alois P. Heinz_, Apr 15 2013
+%E A034295 a(13) from _Alois P. Heinz_, Apr 19 2013
+%E A034295 a(14) from _Christopher Hunt Gribble_, Oct 26 2013
+%E A034295 a(15) and a(16) from _Fidel I. Schaposnik_, May 04 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

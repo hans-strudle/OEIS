@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009233
+Showing 1-1 of 1
+
+%I A009233
+%S A009233 1,2,16,246,5944,202330,9099564,517447126,36048776656,3003924569778,
+%T A009233 293835907664980,33232296062419630,4291773869167401720,
+%U A009233 626311538509296801226,102365694283336181089084
+%N A009233 Expansion of exp(sinh(x).x).
+%t A009233 Exp[ Sinh[ x ]*x ] (* Even Part *)
+%K A009233 nonn
+%O A009233 0,2
+%A A009233 _R. H. Hardin_
+%E A009233 Extended and signs tested Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

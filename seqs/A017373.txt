@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017373
+Showing 1-1 of 1
+
+%I A017373
+%S A017373 134217728,198359290368,10578455953408,165216101262848,
+%T A017373 1352605460594688,7427658739644928,31087100296429568,
+%U A017373 106868920913284608,316478381828866048,833747762130149888,1999004627104432128
+%N A017373 (10*n+8)^9.
+%H A017373 Vincenzo Librandi, <a href="/A017373/b017373.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017373 (MAGMA) [(10*n+8)^9: n in [0..20]]; // Vincenzo Librandi, Aug 31 2011
+%K A017373 nonn,easy
+%O A017373 0,1
+%A A017373 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

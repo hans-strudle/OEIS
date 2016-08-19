@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035736
+Showing 1-1 of 1
+
+%I A035736
+%S A035736 1,82,3362,91922,1886082,30986898,424744994,4997717714,51545165314,
+%T A035736 473520842194,3924107038242,29639860428690,205809135461250,
+%U A035736 1323260582502930,7926934099341090,44480732247900498,234899820107413506
+%N A035736 Coordination sequence for 41-dimensional cubic lattice.
+%D A035736 J. Serra-Sagrista, Enumeration of lattice points in l_1 norm, Information Processing Letters, 76, no. 1-2 (2000), 39-44.
+%H A035736 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A035736 <a href="/index/Rec#order_41">Index entries for linear recurrences with constant coefficients</a>, signature (41, -820, 10660, -101270, 749398, -4496388, 22481940, -95548245, 350343565, -1121099408, 3159461968, -7898654920, 17620076360, -35240152720, 63432274896, -103077446706, 151584480450, -202112640600, 244662670200, -269128937220, 269128937220, -244662670200, 202112640600, -151584480450, 103077446706, -63432274896, 35240152720, -17620076360, 7898654920, -3159461968, 1121099408, -350343565, 95548245, -22481940, 4496388, -749398, 101270, -10660, 820, -41, 1).
+%F A035736 G.f.: ((1+x)/(1-x))^41.
+%K A035736 nonn,easy
+%O A035736 0,2
+%A A035736 Serra-Sagrista, Joan; jserra(AT)ccd.uab.es
+%E A035736 Recomputed Nov 25 1998 by _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

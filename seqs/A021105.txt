@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021105
+Showing 1-1 of 1
+
+%I A021105
+%S A021105 0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,
+%T A021105 9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,
+%U A021105 0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9,9,0,0,9
+%N A021105 Decimal expansion of 1/101.
+%o A021105 (PARI) a(n) = {r=lift(Mod(10,101)^(n-1));floor(10*r/101)} [From _Michael B. Porter_, Oct 01 2009]
+%K A021105 nonn,cons
+%O A021105 0,3
+%A A021105 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

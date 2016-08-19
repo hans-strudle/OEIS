@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058878
+Showing 1-1 of 1
+
+%I A058878
+%S A058878 1,1,0,1,0,0,1,0,0,1,1,0,0,4,3,0,0,1,0,0,10,15,12,15,10,0,0,1,1,0,0,
+%T A058878 20,45,72,160,240,195,120,96,60,15,0,0,0,1,0,0,35,105,252,805,1935,
+%U A058878 3255,4515,5481,5481,4515,3255,1935,805,252,105,35,0,0,1,1,0,0,56
+%N A058878 Triangle T(n,k) = number of labeled graphs of even degree with n nodes and k edges (n >= 0, 0<=k<=n(n-1)/2).
+%D A058878 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973, p. 13, (1.4.7).
+%e A058878 Triangle begins:
+%e A058878 1;
+%e A058878 1,0;
+%e A058878 1,0,0;
+%e A058878 1,0,0,1;
+%e A058878 1,0,0,4,3,0,0;
+%e A058878 ...
+%p A058878 w := p->expand(simplify(2^(-p)*(1+x)^(p*(p-1)/2)*add(binomial(p,n)*( (1-x)/(1+x))^(n*(p-n)), n=0..p))); T := (n,k)->coeff(w(n),x,k);
+%t A058878 w[p_] := 2^-p*(1+x)^(p*(p-1)/2)*Sum[Binomial[p, n]*((1-x)/(1+x))^(n*(p-n)), {n, 0, p}]; T[n_, k_] := SeriesCoefficient[w[n], {x, 0, k}]; T[0, 0] = T[1, 0] = 1; T[1, 1] = 0; Table[T[n, k], {n, 0, 8}, {k, 0, If[n<3, n, n(n-1)/2]}] // Flatten (* _Jean-François Alcover_, Jan 12 2015, translated from Maple *)
+%K A058878 nonn,easy,nice,tabf
+%O A058878 0,14
+%A A058878 _N. J. A. Sloane_, Jan 07 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

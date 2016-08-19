@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005610
+Showing 1-1 of 1
+
+%I A005610 M4936
+%S A005610 2,14,86,518,3110,18662,111974,671846,4031078,24186470,145118822,
+%T A005610 870712934,5224277606,31345665638,188073993830,1128443962982,
+%U A005610 6770663777894,40623982667366,243743896004198,1462463376025190
+%N A005610 Number of Boolean functions realized by cascades of n gates.
+%D A005610 J. T. Butler, ``Fanout-free networks of multivalued gates,'' in Proc. Symposium Multiple-Valued Logic, Charlotte NC, 1977. IEEE Press, NY, 1977, pp. 39-46.
+%D A005610 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005610 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005610 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005610 <a href="/index/Bo#Boolean">Index entries for sequences related to Boolean functions</a>
+%H A005610 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (7,-6)
+%F A005610 (2/5) * (6*6^n - 1). - _Ralf Stephan_, Apr 19 2004
+%p A005610 A005610:=-2*(-7+6*z)/(6*z-1)/(z-1); [Conjectured by _Simon Plouffe_ in his 1992 dissertation. Gives the sequence apart from the initial 2.]
+%Y A005610 Cf. A003464.
+%K A005610 nonn
+%O A005610 1,1
+%A A005610 _N. J. A. Sloane_.
+%E A005610 More terms from _Ralf Stephan_, Apr 19 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

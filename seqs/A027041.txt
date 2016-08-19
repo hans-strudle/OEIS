@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027041
+Showing 1-1 of 1
+
+%I A027041
+%S A027041 1,2,5,20,77,306,1209,4656,17713,66618,248025,916020,3359789,12250026,
+%T A027041 44435997,160466304,577185745,2068826290,7392167585,26338879556,
+%U A027041 93609302941,331924381218,1174482354493,4147807582672
+%N A027041 Sum{T(n,k)*T(n,2n-k)}, 0<=k<=n, T given by A027023.
+%K A027041 nonn
+%O A027041 0,2
+%A A027041 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

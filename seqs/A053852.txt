@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053852
+Showing 1-1 of 1
+
+%I A053852
+%S A053852 1,1,1,1,1,115562653240321,92079975413927255041,
+%T A053852 55043567702937434517811201,30375957967569132050957664153601
+%N A053852 Number of n X n matrices over GF(3) of order dividing 7 (i.e. number of solutions of X^7=I in GL(n,3)).
+%D A053852 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%D A053852 Kent E. Morrison, Integer Sequences and Matrices Over Finite Fields, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%Y A053852 Cf. A053772.
+%K A053852 more,nonn
+%O A053852 1,6
+%A A053852 _Vladeta Jovovic_, Mar 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

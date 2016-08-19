@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055349
+Showing 1-1 of 1
+
+%I A055349
+%S A055349 1,2,0,6,3,0,24,36,8,0,120,360,220,30,0,720,3600,4200,1500,144,0,5040,
+%T A055349 37800,71400,47250,11508,840,0,40320,423360,1176000,1234800,545664,
+%U A055349 98784,5760,0,362880,5080320,19474560,29635200,20469456,6618528
+%N A055349 Triangle of labeled mobiles (circular rooted trees) with n nodes and k leaves.
+%H A055349 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A055349 E.g.f. satisfies A(x, y)=xy-x*log(1-A(x, y))-x.
+%e A055349 1; 2,0; 6,3,0; 24,36,8,0; 120,360,220,30,0; ...
+%Y A055349 Row sums give A038037. Columns 1 through 8: A000142, A055303, A055350-A055355.
+%K A055349 nonn,tabl,eigen
+%O A055349 1,2
+%A A055349 _Christian G. Bower_, May 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

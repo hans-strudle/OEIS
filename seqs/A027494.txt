@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027494
+Showing 1-1 of 1
+
+%I A027494
+%S A027494 1,510,460035,757122975,2159098539409,10088942720014620,
+%T A027494 73537595144196109100,801932992091138324924100,
+%U A027494 12630702915931923419085563316,278859508455542166912631908053160
+%N A027494 Third column of A027479.
+%F A027494 Numerators of sequence a[ 3, n ] in (a[ i, j ])^4 where a[ i, j ] = s(i, j)/i! if j<=i, 0 if j>i
+%K A027494 nonn
+%O A027494 3,2
+%A A027494 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

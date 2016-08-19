@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015654
+Showing 1-1 of 1
+
+%I A015654
+%S A015654 1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,
+%T A015654 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,
+%U A015654 0,1,1,1,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+%V A015654 1,-1,0,0,0,1,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,1,0,0,0,-1,1,0,0,0,0,0,
+%W A015654 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,1,-1,1,-1,0,1,-1,1,-1,1,
+%X A015654 0,-1,1,-1,1,0,0,0,-1,1,0,0,0,0,0,0,0,0,0
+%N A015654 Inverse of 1645th cyclotomic polynomial.
+%p A015654 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015654 sign
+%O A015654 0,1
+%A A015654 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

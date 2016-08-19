@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027856
+Showing 1-1 of 1
+
+%I A027856
+%S A027856 4,6,12,18,72,108,192,432,1152,2592,139968,472392,786432,995328,
+%T A027856 57395628,63700992,169869312,4076863488,10871635968,2348273369088,
+%U A027856 56358560858112,79164837199872,84537841287168,150289495621632,578415690713088,1141260857376768
+%N A027856 Dan numbers: n of form 2^a*3^b such that n +- 1 are twin primes.
+%H A027856 Donovan Johnson, <a href="/A027856/b027856.txt">Table of n, a(n) for n = 1..55</a> (terms < 10^500)
+%Y A027856 Cf. A014574, A059961, A060211, A078884.
+%K A027856 nonn
+%O A027856 1,1
+%A A027856 Richard Schroeppel
+%E A027856 Offset corrected by _Donovan Johnson_, Dec 02 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

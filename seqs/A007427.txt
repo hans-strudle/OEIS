@@ -1,0 +1,44 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007427
+Showing 1-1 of 1
+
+%I A007427 M0198
+%S A007427 1,2,2,1,2,4,2,0,1,4,2,2,2,4,4,0,2,2,2,2,4,4,2,0,1,4,0,2,
+%T A007427 2,8,2,0,4,4,4,1,2,4,4,0,2,8,2,2,2,4,2,0,1,2,4,2,2,0,4,0,
+%U A007427 4,4,2,4,2,4,2,0,4,8,2,2,4,8,2,0,2,4,2,2,4,8,2,0,0
+%V A007427 1,-2,-2,1,-2,4,-2,0,1,4,-2,-2,-2,4,4,0,-2,-2,-2,-2,4,4,-2,0,1,4,0,-2,
+%W A007427 -2,-8,-2,0,4,4,4,1,-2,4,4,0,-2,-8,-2,-2,-2,4,-2,0,1,-2,4,-2,-2,0,4,0,
+%X A007427 4,4,-2,4,-2,4,-2,0,4,-8,-2,-2,4,-8,-2,0,-2,4,-2,-2,4,-8,-2,0,0
+%N A007427 Moebius transform applied twice to sequence 1,0,0,0,....
+%C A007427 |a(n)| is the number of ways to write n as a product of 2 squarefree numbers (i.e. number of ways to write n = xy 1<=x<=n 1<=y<=n, x and y squarefree). - _Benoit Cloitre_, Jan 01 2003
+%D A007427 T. M. Apostol, Introduction to Analytic Number Theory, Springer-Verlag, 1976, page 30.
+%D A007427 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007427 T. D. Noe, <a href="/A007427/b007427.txt">Table of n, a(n) for n=1..1000</a>
+%H A007427 E. Pérez Herrero, <a href="https://sites.google.com/site/psychgeom/psychgeom/Piltz.m?attredirects=0&amp;d=1">Mathematica Package for Piltz Divisor Functions</a>
+%H A007427 E. Pérez Herrero, <a href="/A007427/a007427.m.txt">Mathematica Package for Piltz Divisor Functions</a>
+%H A007427 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A007427 Dirichlet g.f.: 1/zeta(s)^2.
+%F A007427 Multiplicative with a(p^e) = (2 choose e) (-1)^e.
+%F A007427 a(n) = sumd( d divides n, mu(d)*mu(n/d)). - _Benoit Cloitre_, Apr 05 2002
+%F A007427 a(n^2) = A008683(n)^2. a(n) = (-2)^A001221(A005117(n)). - _Enrique Pérez Herrero_, Jun 27 2011
+%F A007427 a(n) is the Dirichlet inverse of A000005, which means a(n) = -sum_{d|n, d<n} A000005(n/d)*a(d). _Enrique Pérez Herrero_, Jan 19 2013
+%F A007427 a(n) = 0 if n is not cubefree: A046099, otherwise sign(a(n))= lambda(n), where lambda is A008836. - _Enrique Pérez Herrero_, Jan 19 2013
+%F A007427 Dirichlet g.f. of |a(n)|: zeta(s)^2/zeta(2s)^2 (conjectured). - _Ralf Stephan_, Jul 05 2013
+%F A007427 a(n) = sum(A225817(n,k)*A225817(n,n+1-k): k=1..A000005(n)). - _Reinhard Zumkeller_, Jul 30 2013
+%t A007427 f[n_] := Plus @@ Times @@@ (MoebiusMu[{#, n/#}] & /@ Divisors@n); Array[f, 105] (* _Robert G. Wilson v_ *)
+%t A007427 a[n_] := DivisorSum[n, MoebiusMu[#]*MoebiusMu[n/#]&]; Array[a, 80] (* _Jean-François Alcover_, Dec 01 2015 *)
+%o A007427 (PARI) a(n)=if(n<1,0,direuler(p=2,n,(1-X)^2)[n])
+%o A007427 (PARI) a(n)=if(n<1,0,sumdiv(n,d,moebius(d)*moebius(n/d)))
+%o A007427 (PARI) a(n)=if(n>1,my(f=factor(n)[,2],s=sum(i=1,#f,f[i]==1));if(vecmax(f)>2,0,(-1)^s<<s),1) \\ _Charles R Greathouse IV_, Jun 28 2011
+%o A007427 (Haskell)
+%o A007427 a007427 n = sum $ zipWith (*) mds $ reverse mds where
+%o A007427    mds = a225817_row n
+%o A007427 -- _Reinhard Zumkeller_, Jul 30 2013
+%Y A007427 Dirichlet inverse of A000005, Mobius transform of A008683.
+%Y A007427 Cf. A063524, A007428, A005117.
+%K A007427 sign,easy,nice,mult
+%O A007427 1,2
+%A A007427 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

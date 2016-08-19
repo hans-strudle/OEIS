@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012263
+Showing 1-1 of 1
+
+%I A012263
+%S A012263 1,1,1,5,17,129,769,7797,66849,848481,9506241,145041093,2007271089,
+%T A012263 35799178401,589807203777,12045448529397,230194642564161,
+%U A012263 5298881528389185,115219444193968257,2952169020073027845
+%N A012263 exp(arctanh(atanh(x)))=1+x+1/2!*x^2+5/3!*x^3+17/4!*x^4+129/5!*x^5...
+%K A012263 nonn
+%O A012263 0,4
+%A A012263 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

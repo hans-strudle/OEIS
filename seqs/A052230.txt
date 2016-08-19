@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052230
+Showing 1-1 of 1
+
+%I A052230
+%S A052230 23,31,53,61,83,151,173,233,263,271,331,353,383,443,503,541,563,571,
+%T A052230 593,601,653,751,991,1013,1103,1223,1231,1283,1291,1321,1433,1493,
+%U A052230 1553,1613,1621,1741,1861,1973,2011,2063,2131,2281,2333,2341,2371,2393,2543
+%N A052230 Primes p from A031924 such that A052180(p) = 5.
+%Y A052230 A031924, A031925.
+%K A052230 nonn
+%O A052230 1,1
+%A A052230 _Labos Elemer_, Feb 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

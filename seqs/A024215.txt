@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024215
+Showing 1-1 of 1
+
+%I A024215
+%S A024215 1,17,66,166,335,591,952,1436,2061,2845,3806,4962,6331,7931,9780,
+%T A024215 11896,14297,17001,20026,23390,27111,31207,35696,40596,45925,51701,
+%U A024215 57942,64666,71891,79635,87916,96752,106161,116161,126770,138006,149887,162431,175656,189580
+%N A024215 Sum of squares of first n positive integers congruent to 1 mod 3.
+%H A024215 Vincenzo Librandi, <a href="/A024215/b024215.txt">Table of n, a(n) for n = 1..10000</a>
+%H A024215 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A024215 a(n) = n*(6*n^2-3*n-1)/2.
+%F A024215 G.f. x*(1+13*x+4*x^2) / (x-1)^4. - R. J. Mathar, Oct 08 2011
+%F A024215 2*a(n) = A213826.  [Clark Kimberling, Jul 04 2012]
+%o A024215 (MAGMA) [n*(6*n^2-3*n-1)/2: n in [1..40]]; // Vincenzo Librandi, Oct 10 2011
+%o A024215 (PARI) a(n)=n*(6*n^2-3*n-1)/2 \\ _Charles R Greathouse IV_, Oct 07 2015
+%K A024215 nonn,easy
+%O A024215 1,2
+%A A024215 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

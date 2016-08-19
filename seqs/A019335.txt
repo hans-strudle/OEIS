@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019335
+Showing 1-1 of 1
+
+%I A019335
+%S A019335 2,3,7,17,23,37,43,47,53,73,83,97,103,107,113,137,157,167,173,193,197,
+%T A019335 223,227,233,257,263,277,283,293,307,317,347,353,373,383,397,433,443,
+%U A019335 463,467,503,523,547,557,563,577,587,593,607,613,617,647,653,673,677,683,727
+%N A019335 Primes with primitive root 5.
+%C A019335 Appears to be the numbers k such that the sequence 5^n mod k has period length k-1. All terms are congruent to 2 or 3 mod 5. - _Gary Detlefs_, May 21 2014
+%H A019335 Vincenzo Librandi, <a href="/A019335/b019335.txt">Table of n, a(n) for n = 1..1000</a>
+%H A019335 <a href="/index/Pri#primes_root">Index entries for primes by primitive root</a>
+%t A019335 pr=5; Select[Prime[Range[200]], MultiplicativeOrder[pr, # ] == #-1 &]
+%K A019335 nonn
+%O A019335 1,1
+%A A019335 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

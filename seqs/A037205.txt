@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037205
+Showing 1-1 of 1
+
+%I A037205
+%S A037205 0,1,8,63,624,7775,117648,2097151,43046720,999999999,25937424600,
+%T A037205 743008370687,23298085122480,793714773254143,29192926025390624,
+%U A037205 1152921504606846975,48661191875666868480,2185911559738696531967,104127350297911241532840,5242879999999999999999999,278218429446951548637196400,15519448971100888972574851071
+%N A037205 a(n) = (n+1)^n-1.
+%C A037205 For n >= 1, a(n) = order of Fibonacci group F(n+1,n).
+%D A037205 D. L. Johnson, Presentation of Groups, Cambridge, 1976, p. 182.
+%D A037205 Thomas, Richard M., The Fibonacci groups revisited, in Groups - St. Andrews 1989, Vol. 2, 445-454, London Math. Soc. Lecture Note Ser., 160, Cambridge Univ. Press, Cambridge, 1991.
+%F A037205 a(n) = A000169(n+1)-1 = A060072(n+1)*(n-1) = A060073(n+1)*(n-1)^2
+%Y A037205 A diagonal of A202624.
+%K A037205 nonn,easy
+%O A037205 0,3
+%A A037205 _N. J. A. Sloane_.
+%E A037205 Revised by _N. J. A. Sloane_, Dec 30 2011.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

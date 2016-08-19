@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032401
+Showing 1-1 of 1
+
+%I A032401
+%S A032401 16,18,30,40,58,138,250,616,622,736,3670,6550,8454,12418,18520,21762,
+%T A032401 26704,103048,109888,131394,419416,1001214
+%N A032401 Numbers n such that 103*2^n+1 is prime.
+%H A032401 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032401 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032401 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032401 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032401 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032401 nonn
+%O A032401 1,1
+%A A032401 _James R. Buddenhagen_
+%E A032401 Extended by _Hugo Pfoertner_, Jul 02 2003
+%E A032401 More terms (from http://www.prothsearch.net/riesel.html), _Joerg Arndt_, Apr 07 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

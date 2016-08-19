@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060250
+Showing 1-1 of 1
+
+%I A060250
+%S A060250 1,4,9,23,16,18,40,89
+%N A060250 The smallest k! + 1 with exactly n prime factors (with multiplicity).
+%o A060250 (PARI) a(n)=my(k);while(bigomega(k++!+1)-n,);k \\ _Charles R Greathouse IV_, Apr 25 2012
+%Y A060250 Cf. A054990.
+%K A060250 nonn
+%O A060250 1,2
+%A A060250 _Robert G. Wilson v_, Mar 23 2001
+%E A060250 a(8) from Arkadiusz Wesolowski, Apr 25 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

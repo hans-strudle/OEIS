@@ -1,0 +1,41 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048647
+Showing 1-1 of 1
+
+%I A048647
+%S A048647 0,3,2,1,12,15,14,13,8,11,10,9,4,7,6,5,48,51,50,49,60,63,62,61,56,59,
+%T A048647 58,57,52,55,54,53,32,35,34,33,44,47,46,45,40,43,42,41,36,39,38,37,16,
+%U A048647 19,18,17,28,31,30,29,24,27,26,25,20,23,22,21,192,195,194,193,204,207,206
+%N A048647 Write n in base 4, then replace each digit by its base 4 negative.
+%C A048647 The graph of a(n) on [ 1..4^k ] resembles a plane fractal of fractal dimension 1.
+%C A048647 Self-inverse considered as a permutation of the integers.
+%H A048647 Reinhard Zumkeller, <a href="/A048647/b048647.txt">Table of n, a(n) for n = 0..16383</a>
+%H A048647 J. W. Layman, <a href="http://www.math.vt.edu/people/layman/sequences/sequences.htm">View fractal-like graph</a>
+%H A048647 <a href="/index/Per#IntegerPermutation">Index entries for sequences that are permutations of the natural numbers</a>
+%F A048647 a(n) = if n = 0 then 0 else 4*a(floor(n/4)) + if m = 0 then 0 else 4 - m, where m = n mod 4. - _Reinhard Zumkeller_, Apr 08 2013
+%F A048647 G.f. g(x) satisfies g(x) = 4*(1+x+x^2+x^3)*g(x^4) + (3*x+2*x^2+x^3)/(1-x^4). - _Robert Israel_, Nov 03 2014
+%e A048647 a(15)=5, since 15 = 33(base 4) -> 11(base 4) = 5.
+%p A048647 f:= proc(n)
+%p A048647 option remember;
+%p A048647 local m, r;
+%p A048647 m:= n mod 4;
+%p A048647 r:= 4*procname((n-m)/4);
+%p A048647 if m = 0 then r else r + 4-m fi;
+%p A048647 end proc:
+%p A048647 f(0):= 0:
+%p A048647 seq(f(n),n=0..100); # _Robert Israel_, Nov 03 2014
+%t A048647 Table[FromDigits[If[#==0,0,4-#]&/@IntegerDigits[n,4],4],{n,0,70}] (* _Harvey P. Dale_, Jul 23 2012 *)
+%o A048647 (Haskell)
+%o A048647 a048647 0 = 0
+%o A048647 a048647 n = 4 * a048647 n' + if m == 0 then 0 else 4 - m
+%o A048647             where (n', m) = divMod n 4
+%o A048647 -- _Reinhard Zumkeller_, Apr 08 2013
+%Y A048647 Cf. A065256.
+%Y A048647 Cf. A007090.
+%Y A048647 Column k=4 of A248813.
+%K A048647 nonn,easy,nice,base,look
+%O A048647 0,2
+%A A048647 _John W. Layman_, Jul 05 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

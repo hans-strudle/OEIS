@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013083
+Showing 1-1 of 1
+
+%I A013083
+%S A013083 2,6,218,19894,3605042,1071814854,476307806154,295358490331254,
+%T A013083 243794366120035682,258411431296057056262,342099898262700954007226,
+%U A013083 553199120991918158454260406,1072989618644463063657069172626
+%N A013083 arcsin(arcsinh(x)+sin(x))=2*x+6/3!*x^3+218/5!*x^5+19894/7!*x^7...
+%K A013083 nonn
+%O A013083 0,1
+%A A013083 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

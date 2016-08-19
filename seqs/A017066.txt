@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017066
+Showing 1-1 of 1
+
+%I A017066
+%S A017066 0,64,256,576,1024,1600,2304,3136,4096,5184,6400,7744,9216,10816,
+%T A017066 12544,14400,16384,18496,20736,23104,25600,28224,30976,33856,36864,
+%U A017066 40000,43264,46656,50176,53824,57600,61504,65536,69696,73984,78400
+%N A017066 (8n)^2.
+%H A017066 Vincenzo Librandi, <a href="/A017066/b017066.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017066 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%t A017066 LinearRecurrence[{3, -3, 1}, {0, 64, 256}, 50] (* _Vincenzo Librandi_, Feb 10 2012 *)
+%o A017066 (MAGMA) [(8*n)^2: n in [0..35]]; // Vincenzo Librandi, Jul 10 2011
+%K A017066 nonn,easy
+%O A017066 0,2
+%A A017066 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

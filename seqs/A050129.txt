@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050129
+Showing 1-1 of 1
+
+%I A050129
+%S A050129 1,3,9,2,6,15,8,4,20,5,12,27,14,7,32,17,37,19,40,10,22,11,24,51,26,13,
+%T A050129 56,29,61,31,64,16,34,71,36,18,76,39,81,163,42,21,44,91,46,23,48,99,
+%U A050129 50,25,104,53,109,55,112,28,58,119,60,30,124,63
+%N A050129 a(n)=least k satisfying a(k)=n in A050128.
+%K A050129 nonn
+%O A050129 1,2
+%A A050129 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

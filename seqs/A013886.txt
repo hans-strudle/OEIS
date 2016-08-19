@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013886
+Showing 1-1 of 1
+
+%I A013886
+%S A013886 18,34012224,64268410079232,121439531096594251776,
+%T A013886 229468251895129407139872768,433595865796975883590475106484224,
+%U A013886 819308872942260126404286866009182175232,1548139828427760582529495524831238344488779776,2925315479322586708409093799864313376118974623776768
+%N A013886 18^(5n+1).
+%H A013886 Vincenzo Librandi, <a href="/A013886/b013886.txt">Table of n, a(n) for n = 0..50</a>
+%H A013886 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013886 a(n) = 1889568*a(n-1), a(0)=18. // Vincenzo Librandi, May 27 2011
+%o A013886 (MAGMA) [18^(5*n+1): n in [0..10]]; // Vincenzo Librandi, May 27 2011
+%K A013886 nonn
+%O A013886 0,1
+%A A013886 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

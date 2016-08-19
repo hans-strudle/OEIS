@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052697
+Showing 1-1 of 1
+
+%I A052697
+%S A052697 1,0,0,6,24,0,720,10080,40320,362880,10886400,119750400,958003200,
+%T A052697 24908083200,523069747200,6538371840000,125536739328000,
+%U A052697 3556874280960000,70426110763008000,1338096104497152000
+%N A052697 E.g.f. 1/(1-x^3-x^4).
+%H A052697 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=646">Encyclopedia of Combinatorial Structures 646</a>
+%F A052697 E.g.f.: -1/(-1+x^3+x^4)
+%F A052697 Recurrence: {a(1)=0, a(0)=1, a(2)=0, a(3)=6, (-n^4-35*n^2-50*n-24-10*n^3)*a(n)+(-n^3-9*n^2-26*n-24)*a(n+1)+a(n+4)=0}
+%F A052697 Sum(-1/283*(-16-73*_alpha+3*_alpha^2+12*_alpha^3)*_alpha^(-1-n), _alpha=RootOf(-1+_Z^3+_Z^4))*n!
+%F A052697 a(n) = n!*A017817(n). - R. J. Mathar, Nov 27 2011
+%p A052697 spec := [S,{S=Sequence(Prod(Z,Z,Union(Z,Prod(Z,Z))))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052697 With[{nn=20},CoefficientList[Series[1/(1-x^3-x^4),{x,0,nn}],x] Range[0,nn]!] (* _Harvey P. Dale_, Mar 06 2016 *)
+%K A052697 easy,nonn
+%O A052697 0,4
+%A A052697 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006417
+Showing 1-1 of 1
+
+%I A006417 M5091
+%S A006417 1,20,131,469,1262,2862,5780,10725,18647,30784,48713,74405
+%N A006417 Number of rooted planar maps.
+%D A006417 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006417 Walsh, T. R. S.; Lehman, A. B.; Counting rooted maps by genus. III: Nonseparable maps. J. Combinatorial Theory Ser. B 18 (1975), 222-259.
+%F A006417 Conjecture: a(n) = (2160+846*n-1027*n^2-345*n^3+125*n^4+39*n^5+2*n^6)/360. G.f.: -x^2*(5*x^6-29*x^5+65*x^4-63*x^3+12*x^2+13*x+1) / (x-1)^7. - _Colin Barker_, Apr 08 2013
+%K A006417 nonn,more
+%O A006417 2,2
+%A A006417 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

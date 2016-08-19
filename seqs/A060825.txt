@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060825
+Showing 1-1 of 1
+
+%I A060825
+%S A060825 13,773,3373,15647,121997,1237547,12184967,126934673,1231633967,
+%T A060825 12181833347,124627266947,1213536676883,13264242313613,
+%U A060825 129456645661613,1399335756373613,12429121339693967,198615345451813613
+%N A060825 Smallest n-digit left truncatable prime of Henry VIII type.
+%D A060825 Angell, I. O. and Godwin, H. J. "On Truncatable Primes." Math. Comput. 31, 265-267, 1977.
+%D A060825 S. Kahan and S. Weintraub, Left truncatable primes. Journal of Recreational Mathematics, vol. 29, no. 4 (1998), pp. 255-261.
+%H A060825 <a href="/index/Tri#tprime">Index entries for sequences related to truncatable primes</a>
+%H A060825 C. K. Caldwell, <a href="http://primes.utm.edu/glossary/page.php?sort=LeftTruncatablePrime">Left truncatable primes</a>
+%H A060825 P. De Geest, <a href="http://www.worldofnumbers.com/truncat.htm">The 4260 left-truncatable primes</a>
+%e A060825 The 11th digit prime a(11) = 12181833347 is the smallest of its kind such that successive deleting of the leftmost digits produces the primes 2181833347, 181833347, 81833347, 1833347, 833347, 33347, 3347, 347, 47, 7.
+%Y A060825 Cf. A024785, A052023, A052025.
+%K A060825 fini,nice,nonn,base
+%O A060825 2,1
+%A A060825 _Lekraj Beedassy_, Apr 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

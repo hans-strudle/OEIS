@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043503
+Showing 1-1 of 1
+
+%I A043503
+%S A043503 333,1333,2333,3033,3133,3233,3303,3313,3323,3330,3331,3332,3334,3335,
+%T A043503 3336,3337,3338,3339,3343,3353,3363,3373,3383,3393,3433,3533,3633,
+%U A043503 3733,3833,3933,4333,5333,6333,7333,8333,9333,10333
+%N A043503 Numbers n such that number of 3's in base 10 is 3.
+%t A043503 Select[Range[11000],DigitCount[#,10,3]==3&] (* _Harvey P. Dale_, Apr 13 2015 *)
+%K A043503 nonn,base
+%O A043503 1,1
+%A A043503 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

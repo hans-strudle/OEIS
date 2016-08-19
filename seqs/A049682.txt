@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049682
+Showing 1-1 of 1
+
+%I A049682
+%S A049682 0,1,49,2304,108241,5085025,238887936,11222647969,527225566609,
+%T A049682 24768378982656,1163586586618225,54663801192073921,
+%U A049682 2568035069440856064,120642984462528161089,5667652234669382715121,266259012044998459449600,12508505913880258211416081
+%N A049682 a(n)=(L(8n)-2)/45, where L=A000032 (the Lucas sequence).
+%C A049682 This is a divisibility sequence.
+%H A049682 <a href="/index/Di#divseq">Index to divisibility sequences</a>.
+%H A049682 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (48,-48,1).
+%F A049682 a(n) = (1/45)*{-2+[(47+7*sqrt(45))/2]^n+[(47-7*sqrt(45))/2]^n}. - _Ralf Stephan_, Apr 14 2004
+%F A049682 a(n)=(A004187(n))^2 = 48*a(n-1)-48*a(n-2)+a(n-3). G.f.: -x*(1+x)/((x-1)*(x^2-47*x+1)). [From _R. J. Mathar_, Jun 03 2009]
+%F A049682 a(n)=F(4n)^2/9. Also a(n) - a(n-1) = A004187(2n-1). - _R. K. Guy_, Feb 24 2010
+%t A049682 LinearRecurrence[{48,-48,1},{0,1,49},20] (* or *) CoefficientList[Series[ (-x-x^2)/ (x^3-48x^2+48x-1),{x,0,20}],x] (* _Harvey P. Dale_, Apr 22 2011 *)
+%o A049682 (Mupad) numlib::fibonacci(4*n)^2/9 $ n = 0..25; - _Zerinvary Lajos_, May 09 2008
+%K A049682 nonn,easy
+%O A049682 0,3
+%A A049682 _Clark Kimberling_
+%E A049682 More terms from _N. J. A. Sloane_, Feb 26 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

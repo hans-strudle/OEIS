@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040878
+Showing 1-1 of 1
+
+%I A040878
+%S A040878 30,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6,
+%T A040878 60,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6,
+%U A040878 60,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6,60,6,1,2,6,2,1,6
+%N A040878 Continued fraction for sqrt(909).
+%H A040878 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040878 a(n)=(1/8)*{-51*(n mod 8)-2*[(n+1) mod 8]+4*[(n+2) mod 8]+7*[(n+3) mod 8]-[(n+4) mod 8]+2*[(n+5) mod 8]+8*[(n+6) mod 8]+57*[(n+7) mod 8]}-30*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 03 2009]
+%p A040878 with(numtheory): Digits := 300: convert(evalf(sqrt(909)),confrac);
+%K A040878 nonn,cofr,easy
+%O A040878 0,1
+%A A040878 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

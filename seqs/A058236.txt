@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058236
+Showing 1-1 of 1
+
+%I A058236
+%S A058236 2,4,8,40,44,56,64,148,200,320,328,400
+%N A058236 Numbers n such that x^n + x^3 + 2 is irreducible over GF(3).
+%t A058236 Do[ If[ ToString[ Factor[ x^n + x^3 + 2, Modulus -> 3 ] ] == ToString[ x^n + x^3 + 2 ], Print[ n ] ], {n, 0, 1054} ]
+%Y A058236 Cf. A057461.
+%K A058236 nonn
+%O A058236 1,1
+%A A058236 _Robert G. Wilson v_, Dec 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

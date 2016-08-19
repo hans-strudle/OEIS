@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048198
+Showing 1-1 of 1
+
+%I A048198
+%S A048198 2,3,3,2,3,2,2,3,2,1,3,3,0,2,2,2,2,2,2,2,2,1,1,3,2,1,2,2,3,1,0,3,1,1,
+%T A048198 1,3,1,2,2,1,2,1,2,2,2,1,3,1,1,2,2,1,2,0,1,1,2,2,1,2,2,2,2,1,2,2,2,1,
+%U A048198 2,1,1,1,1,2,2,1,2,2,0,1,1,2,2,2,1,1,3,0,3,1,0,2,1,1,2,2,0,2,2,1,1,2,2,2,1
+%N A048198 Number of primes between successive n's, where n mod 10 = 5.
+%C A048198 A way to visualize the distribution of primes without the clutter of the numbers themselves. Consecutive 0's indicate stretches where there are no primes. Other patterns become obvious, as a string of 2's or 1's.
+%F A048198 Starting at 0, count primes between 0-5, 5-15, 15-25, etc.
+%e A048198 Between n's 115 and 125 there are no primes, indicated by the entry 0.
+%o A048198 (PARI) a(n) = my(na = 10*n - 5); my(nb = na + 10); primepi(nb - 1) - primepi(na + 1); \\ _Michel Marcus_, Aug 25 2013
+%Y A048198 Cf. A048199.
+%K A048198 easy,nonn
+%O A048198 0,1
+%A A048198 _Enoch Haga_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042870
+Showing 1-1 of 1
+
+%I A042870
+%S A042870 31,311,653,964,6437,26712,86573,199858,486289,686147,1172436,
+%T A042870 10065635,31369341,72804317,104173658,2156277477,66948775445,
+%U A042870 1341131786377,1408080561822,4157292910021,13879959291885
+%N A042870 Numerators of continued fraction convergents to sqrt(967).
+%H A042870 Vincenzo Librandi, <a href="/A042870/b042870.txt">Table of n, a(n) for n = 0..200</a>
+%t A042870 Numerator[Convergents[Sqrt[967], 30]] (* _Vincenzo Librandi_, Dec 08 2013 *)
+%Y A042870 Cf. A042871.
+%K A042870 nonn,cofr,frac,easy
+%O A042870 0,1
+%A A042870 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

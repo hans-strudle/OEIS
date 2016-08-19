@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019265
+Showing 1-1 of 1
+
+%I A019265
+%S A019265 0,2,2,0,10,12,24,92,192,520,1332,3140,7972,20154,50748,130860,335402
+%N A019265 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite YUG = Yugawaralite Ca2[ Al4Si12O32 ] . 8 H2O.
+%D A019265 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019265 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019265 nonn
+%O A019265 3,2
+%A A019265 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

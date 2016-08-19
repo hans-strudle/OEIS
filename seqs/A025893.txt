@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025893
+Showing 1-1 of 1
+
+%I A025893
+%S A025893 1,0,0,0,0,1,0,0,0,1,1,0,1,0,1,1,0,1,1,1,1,1,1,1,2,1,1,2,1,2,2,1,2,2,
+%T A025893 2,2,3,2,2,3,2,3,3,2,3,4,3,3,4,3,4,4,3,4,5,4,4,5,4,5,6,4,5,6,5,6,6,5,
+%U A025893 6,7,6,6,8,6,7,8,6,8,8,7
+%N A025893 Expansion of 1/((1-x^5)(1-x^9)(1-x^12)).
+%K A025893 nonn
+%O A025893 0,25
+%A A025893 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

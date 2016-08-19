@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039937
+Showing 1-1 of 1
+
+%I A039937
+%S A039937 6,63,563,1563,1632,3216,12316,23266,66321,66321,76923,76923,156328,
+%T A039937 280692,566331,566331,566331,2307692,2307692,2307692,2307692,2307692,
+%U A039937 2307692,2307692,2307692,11533664,23306676,23306676,23306676,23306676
+%N A039937 Smallest k for which k, 2k, ... nk all contain the digit 6.
+%e A039937 a(2)=63 since 63 and 126 contain a 6.
+%K A039937 base,nonn
+%O A039937 1,1
+%A A039937 _Erich Friedman_
+%E A039937 More terms from _Patrick De Geest_, Oct 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

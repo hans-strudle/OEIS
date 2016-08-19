@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034273
+Showing 1-1 of 1
+
+%I A034273
+%S A034273 0,1,19,186,1365,8540,48348,255816,1289739,6273135,29683225,137447310,
+%T A034273 625482585,2806282440,12443418600,54633668400,237871030860,
+%U A034273 1028260382994,4417404967206,18874729444340,80265980340370,339907420551336,1434074601137640
+%N A034273 a(n)=f(n,n+6) where f is given in A034261.
+%K A034273 nonn
+%O A034273 0,3
+%A A034273 _Clark Kimberling_
+%E A034273 Corrected and extended Apr 21 2000 - _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027822
+Showing 1-1 of 1
+
+%I A027822
+%S A027822 210,2772,19404,96096,378378,1261260,3699696,9801792,23891868,
+%T A027822 54318264,116396280,237025152,461705244,864913896,1565082288,
+%U A027822 2745758400,4684950270,7795127340,12676924260,20190250080,31547265750,48432564180,73156880160,108851783040
+%N A027822 42*(n+1)*C(n+6,10).
+%H A027822 T. D. Noe, <a href="/A027822/b027822.txt">Table of n, a(n) for n = 4..1000</a>
+%F A027822 Number of 17-subsequences of [ 1, n ] with just 6 contiguous pairs; g.f. 42*(5+6*x)*x^4/(1-x)^12.
+%F A027822 a(n) = C(n+1,5)*C(n+6,6). - _Zerinvary Lajos_, Jun 08 2005
+%K A027822 nonn
+%O A027822 4,1
+%A A027822 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

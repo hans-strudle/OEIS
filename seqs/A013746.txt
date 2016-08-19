@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013746
+Showing 1-1 of 1
+
+%I A013746
+%S A013746 10,10000,10000000,10000000000,10000000000000,10000000000000000,
+%T A013746 10000000000000000000,10000000000000000000000,
+%U A013746 10000000000000000000000000,10000000000000000000000000000
+%N A013746 10^(3n+1).
+%H A013746 Vincenzo Librandi, <a href="/A013746/b013746.txt">Table of n, a(n) for n = 0..100</a>
+%H A013746 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013746 a(n)=1000*a(n-1), n>0 ; a(0)=10 . G.f.: 10/(1-1000*x) . [From _Philippe Deléham_, Nov 30 2008]
+%t A013746 10^(3Range[0,10]+1)  (* _Harvey P. Dale_, Mar 28 2011 *)
+%o A013746 (MAGMA) [10^(3*n+1): n in [0..15]]; /7 Vincenzo Librandi, Jun 26 2011
+%K A013746 nonn
+%O A013746 0,1
+%A A013746 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

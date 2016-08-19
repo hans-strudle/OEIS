@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a021817
+Showing 1-1 of 1
+
+%I A021817
+%S A021817 0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,
+%T A021817 3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,
+%U A021817 2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2,3,0,0,1,2
+%N A021817 Decimal expansion of 1/813.
+%F A021817 a(n)=(n-1 mod 5) mod 4, Paolo P. Lava, Mar 14 2011.
+%K A021817 nonn,cons
+%O A021817 0,4
+%A A021817 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

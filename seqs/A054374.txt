@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054374
+Showing 1-1 of 1
+
+%I A054374
+%S A054374 1,32,55296,7247757312,92771293593600000,141830962344853556428800000,
+%T A054374 30619440571316366848044102687129600000,
+%U A054374 1077325790213073725701226681195621188514296627200000
+%N A054374 Discriminant of Hermite polynomials.
+%C A054374 A054374 gives the discriminants of the Hermite polynomials in the conventional (physicists') normalization, and A002109 gives the discriminants of the Hermite polynomials in the (in my opinion more natural) probabilists' normalization. See refs Wikipedia and Szego eq. (6.71.7). - Alan Sokal, Mar 02 2012
+%D A054374 Mohammad K. Azarian, On the Hyperfactorial Function, Hypertriangular Function, and the Discriminants of Certain Polynomials, International Journal of Pure and Applied Mathematics, Vol. 36, No. 2, 2007, pp. 251-257.  Mathematical Reviews, MR2312537.  Zentralblatt MATH, Zbl 1133.11012.
+%D A054374 G. Szego, Orthogonal Polynomials, American Mathematical Society, 1981 edition, 432 Pages.
+%H A054374 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HermitePolynomial.html">Hermite Polynomial.</a>
+%H A054374 Wikipedia, <a href="http://en.wikipedia.org/wiki/Hermite_polynomials">Hermite polynomials</a>
+%H A054374 <a href="/index/He#Hermite">Index entries for sequences related to Hermite polynomials</a>
+%F A054374 a(n)=2^(3n(n-1)/2)Product[k^k, {k, n}]
+%Y A054374 Cf. A002109.
+%K A054374 nonn
+%O A054374 1,2
+%A A054374 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

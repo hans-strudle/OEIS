@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024168
+Showing 1-1 of 1
+
+%I A024168
+%S A024168 0,1,1,10,26,276,1212,14736,92304,1285920,10516320,166112640,
+%T A024168 1680462720,29753498880,359124192000,7053661440000,98989454592000,
+%U A024168 2137497610752000,34210080898560000,805846718380032000,14489879077804032000
+%N A024168 n!(1/2 - 1/3 + .. + c/n), where c = (-1)^n.
+%C A024168 a(n) is the number of permutations of n letters all cycles of which have length <= n/2, a quantity which arises in the solution to the One Hundred Prisoners problem. - Jim Ferry (jferry(AT)alum.mit.edu), Mar 29 2007
+%H A024168 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%H A024168 Wikipedia, <a href="http://en.wikipedia.org/wiki/Random_Permutation_Statistics#One_hundred_prisoners">One hundred prisoners</a>.
+%F A024168 E.g.f.: (x-log(1+x))/(1-x). a(n)=a(n-1)+a(n-2)*(n-1)^2, n>2.
+%t A024168 f[k_] := (k + 1) (-1)^(k + 1)
+%t A024168 t[n_] := Table[f[k], {k, 1, n}]
+%t A024168 a[n_] := SymmetricPolynomial[n - 1, t[n]]
+%t A024168 Table[a[n], {n, 1, 22}]    (* A024168 signed *)
+%t A024168 (* _Clark Kimberling_, Dec 30 2011 *)
+%Y A024168 A075829(n)=a(n-1)/gcd(a(n-1), a(n))
+%K A024168 nonn
+%O A024168 1,4
+%A A024168 _Clark Kimberling_
+%E A024168 Formulae and more terms from _Michael Somos_, Oct 29, 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

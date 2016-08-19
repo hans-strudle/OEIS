@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017042
+Showing 1-1 of 1
+
+%I A017042
+%S A017042 25,144,361,676,1089,1600,2209,2916,3721,4624,5625,6724,7921,9216,
+%T A017042 10609,12100,13689,15376,17161,19044,21025,23104,25281,27556,29929,
+%U A017042 32400,34969,37636,40401,43264,46225
+%N A017042 (7*n+5)^2.
+%H A017042 Vincenzo Librandi, <a href="/A017042/b017042.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017042 (MAGMA) [(7*n+5)^2: n in [0..40] ]; // Vincenzo Librandi, Jul 18 2011
+%K A017042 nonn,easy
+%O A017042 0,1
+%A A017042 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019484
+Showing 1-1 of 1
+
+%I A019484
+%S A019484 8,55,379,2612,18002,124071,855106,5893451,40618081,279942687,
+%T A019484 1929384798,13297456486,91647010581,631637678776,4353291555505,
+%U A019484 30003193292641,206784130187015,1425170850320396,9822378297435246
+%N A019484 G.f. (7*x^3+7*x^2-7*x-8)/(-6*x^4-5*x^3+7*x^2+6*x-1).
+%C A019484 Agrees with A010918 for terms 0 through 11056 but then differs from it.
+%D A019484 R. K. Guy, personal communication.
+%H A019484 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (6,7,-5,-6).
+%p A019484 - (8 + 7*x - 7*x^2 - 7*x^3) /(7*x^2 - 1 + 6*x - 6*x^4 - 5*x^3);
+%t A019484 CoefficientList[ Series[(8 + 7 x - 7 x^2 - 7 x^3)/(1 - 6 x - 7 x^2 + 5 x^3 + 6 x^4), {x, 0, 18}], x] (* _Robert G. Wilson v_, May 16 2008 *)
+%Y A019484 Cf. A010918.
+%K A019484 nonn
+%O A019484 0,1
+%A A019484 _N. J. A. Sloane_.
+%E A019484 The old definition was a(n) = 3*a(n-1) + a(n-2) - 2*a(n-3), but as R. J. Mathar pointed out, this did not match the entries. I have therefore replaced the definition with a g.f. found by Superseeker. - _N. J. A. Sloane_, May 16 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,1,11,-1,0,0,0,1,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,1,0,0,0,-1,1","description":"35th cyclotomic polynomial.","mathematica":"CoefficientList[Series[Cyclotomic[35,x],{x,0,30}],x] (* _Harvey P. Dale_, Jan 18 2016 *)","keyword":"sign,fini,full","offset":"0,1","author":"_N. J. A. Sloane_."}

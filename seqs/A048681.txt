@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048681
+Showing 1-1 of 1
+
+%I A048681
+%S A048681 1,2,3,6,10,15,35,70,42,210,462,462,858,3003,5005,4290,24310,24310,
+%T A048681 92378,125970,293930,646646,1352078,1352078,817190,5311735,2897310,
+%U A048681 13123110,34597290,17298645,100180065,200360130,129644790,2203961430
+%N A048681 Maximum over k of the largest squarefree number dividing value of {C(n,k)}.
+%e A048681 n=10, the squarefree kernels are :{1,10,15,30,210,42,210,30,15,10,1}. so the maximal largest sq.f divisor is that of C(10,4),it is 210, so a(10)=210. It is not equal to the central A048633(10)=42.
+%Y A048681 Analogous sequences for A001221, A001222, A000005 are given in A048273, A048275, A048620.
+%K A048681 nonn
+%O A048681 1,2
+%A A048681 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

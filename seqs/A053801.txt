@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053801
+Showing 1-1 of 1
+
+%I A053801
+%S A053801 1,2,4,8,14,24,40,62,94,140,202,286,398,542,728,966,1262,1630,2084,
+%T A053801 2634,3300,4100,5048,6170,7490,9028,10816,12884,15258,17978,21082,
+%U A053801 24602,28586,33080,38124,43776,50090,57114,64916,73560,83104,93626
+%N A053801 Number of basis partitions of n+36 with Durfee square size 6.
+%D A053801 Hirschhorn, M. D., Basis partitions and Rogers-Ramanujan partitions, Discrete Math. 205 (1999), 241-243.
+%F A053801 Euler transform of length 12 sequence [ 2, 1, 2, 1, 2, 1, 0, -1, 0, -1, 0, -1]. - _Michael Somos_, Sep 02 2006
+%F A053801 G.f.: (1+q)(1+q^2)(1+q^3)(1+q^4)(1+q^5)(1+q^6)/((1-q)(1-q^2)(1-q^3)(1-q^4)(1-q^5)(1-q^6)).
+%o A053801 (PARI) {a(n)=if(n<0, 0, polcoeff( prod(k=1,6, (1+x^k)/(1-x^k), 1+x*O(x^n)), n))} /* _Michael Somos_, Sep 02 2006 */
+%K A053801 easy,nonn
+%O A053801 0,2
+%A A053801 _James A. Sellers_, Mar 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

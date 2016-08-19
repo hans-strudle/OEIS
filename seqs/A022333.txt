@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022333
+Showing 1-1 of 1
+
+%I A022333
+%S A022333 0,0,0,1,0,1,0,1,2,0,1,2,0,1,2,3,0,1,2,3,0,1,2,3,0,4,1,2,3,0,4,1,2,3,
+%T A022333 0,4,1,5,2,3,0,4,1,5,2,3,0,4,1,5,2,6,3,0,4,1,5,2,6,3,0,4,1,5,2,6,3,0,
+%U A022333 7,4,1,5,2,6,3,0,7,4,1,5,2,6,3,0,7,4,1,8,5,2,6,3,0,7,4,1,8,5,2,6,3,0,7,4,1,8,5,2
+%N A022333 Exponent of 5 (value of j) in n-th number of form 2^i*5^j.
+%o A022333 (PARI) lista(nn) = {vec = vector(nn, i , i); subset = select(n->(n/(2^valuation(n,2)*5^valuation(n,5)) == 1), vec); for (i = 1, #subset, print1(valuation(subset[i], 5), ", "););} \\ _Michel Marcus_, Oct 01 2013
+%Y A022333 Cf. A003592, A022332.
+%K A022333 nonn
+%O A022333 1,9
+%A A022333 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

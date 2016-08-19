@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054690
+Showing 1-1 of 1
+
+%I A054690
+%S A054690 7,19,43,73,73,349,349,349,349,349,349,661,661,661,661,661,661,661,
+%T A054690 661,8629,8629,8629,8629,13399,13399,13399,14629,14629,24421,24421,
+%U A054690 24421,24421,24421,24421,24421,24421,24421,24421,24421,24421,24421
+%N A054690 n consecutive primes differ by 4 or more starting at a(n), or n consecutive primes with no twin primes.
+%Y A054690 Cf. A054691, A054692.
+%K A054690 nonn
+%O A054690 2,1
+%A A054690 _Jeff Burch_, Apr 19 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040712
+Showing 1-1 of 1
+
+%I A040712
+%S A040712 27,4,1,12,1,4,54,4,1,12,1,4,54,4,1,12,1,4,54,4,1,12,1,4,54,4,1,12,1,
+%T A040712 4,54,4,1,12,1,4,54,4,1,12,1,4,54,4,1,12,1,4,54,4,1,12,1,4,54,4,1,12,
+%U A040712 1,4,54,4,1,12,1,4,54,4,1,12,1,4,54,4,1,12,1,4,54,4,1
+%N A040712 Continued fraction for sqrt(740).
+%H A040712 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040712 a(n)=(1/90)*{-719*(n mod 6)+121*[(n+1) mod 6]+196*[(n+2) mod 6]-89*[(n+3) mod 6]+121*[(n+4) mod 6]+826*[(n+5) mod 6]}-27*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 20 2009]
+%p A040712 with(numtheory): Digits := 300: convert(evalf(sqrt(740)),confrac);
+%K A040712 nonn,cofr,easy
+%O A040712 0,1
+%A A040712 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

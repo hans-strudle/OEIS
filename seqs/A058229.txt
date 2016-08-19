@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058229
+Showing 1-1 of 1
+
+%I A058229
+%S A058229 48,84,444,446,464,488,648,666,668,684,686,848,866,884,888,4448,4466,
+%T A058229 4484,4646,4664,4844,6444,6446,6464,6468,6486,6644,6648,6666,6684,
+%U A058229 6846,6864,6888,8444,8448,8466,8484,8646,8664,8688,8844,8868,8886,44444
+%N A058229 Digits composite, each digit minus 1 is prime, sum of digits minus 1 is prime, difference of digits (in absolute value) minus 1 is prime.
+%K A058229 nonn,base
+%O A058229 1,1
+%A A058229 _Felice Russo_, Dec 01 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

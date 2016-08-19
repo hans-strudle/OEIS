@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016948
+Showing 1-1 of 1
+
+%I A016948
+%S A016948 81,6561,50625,194481,531441,1185921,2313441,4100625,6765201,10556001,
+%T A016948 15752961,22667121,31640625,43046721,57289761,74805201,96059601,
+%U A016948 121550625,151807041,187388721,228886641
+%N A016948 (6n+3)^4.
+%H A016948 Vincenzo Librandi, <a href="/A016948/b016948.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016948 (MAGMA) [(6*n+3)^4: n in [0..50]]; // Vincenzo Librandi, May 05 2011
+%K A016948 nonn,easy
+%O A016948 0,1
+%A A016948 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

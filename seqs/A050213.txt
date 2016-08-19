@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050213
+Showing 1-1 of 1
+
+%I A050213
+%S A050213 24,120,720,5040,40320,362880,72576,3628800,1330560,39916800,20338560,
+%T A050213 479001600,303937920,6227020800,4643084160,87178291200,73721007360,
+%U A050213 1743565824,1307674368000,1224694598400,69742632960,20922789888000
+%N A050213 Triangle of number of permutations of {1, 2, ..., n} having exactly k cycles, each of which is of length >=r for r=5.
+%C A050213 Generalizes Stirling numbers of the first kind
+%D A050213 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 257.
+%H A050213 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PermutationCycle.html">Permutation Cycle.</a>
+%Y A050213 Cf. A008275, A008306, A050211, A050212.
+%K A050213 nonn,tabl
+%O A050213 1,1
+%A A050213 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

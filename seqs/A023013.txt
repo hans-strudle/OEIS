@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023013
+Showing 1-1 of 1
+
+%I A023013
+%S A023013 1,15,135,920,5220,25893,115700,475065,1817910,6551390,22414314,
+%T A023013 73265580,229972855,696109950,2039031360,5796944357,16036186005,
+%U A023013 43259046975,114012183695,294067720380,743368453326,1844121021245,4494803760045
+%N A023013 Number of partitions of n into parts of 15 kinds.
+%C A023013 a(n) is Euler transform of A010854. - _Alois P. Heinz_, Oct 17 2008
+%H A023013 <a href="/index/Pro#1mxtok">Index entries for expansions of Product_{k >= 1} (1-x^k)^m</a>
+%H A023013 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%p A023013 with(numtheory): a:= proc(n) option remember; `if`(n=0, 1, add(add(d*15, d=divisors(j)) *a(n-j), j=1..n)/n) end: seq(a(n), n=0..40); # _Alois P. Heinz_, Oct 17 2008
+%Y A023013 15th column of A144064. - _Alois P. Heinz_, Oct 17 2008
+%K A023013 nonn
+%O A023013 0,2
+%A A023013 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

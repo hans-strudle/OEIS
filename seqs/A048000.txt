@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048000
+Showing 1-1 of 1
+
+%I A048000
+%S A048000 0,0,0,0,0,0,0,0,0,0,0,8,9,10,50,55,60,180,195,210,490,525,560,1240,
+%T A048000 1326,1413,3645,3933,4230,12750,13860,15015,45375,49335,53460,150524,
+%U A048000 163175,176345,470665,509067,549094,1461278,1580761
+%N A048000 Number of nonempty subsets of {1,2,...,n} in which exactly 4/5 of the elements are <= n/3.
+%K A048000 nonn
+%O A048000 1,12
+%A A048000 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,52 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003052
+Showing 1-1 of 1
+
+%I A003052 M2404
+%S A003052 1,3,5,7,9,20,31,42,53,64,75,86,97,108,110,121,132,143,154,165,176,
+%T A003052 187,198,209,211,222,233,244,255,266,277,288,299,310,312,323,334,345,
+%U A003052 356,367,378,389,400,411,413,424,435,446,457,468,479,490,501,512,514,525
+%N A003052 Self numbers or Colombian numbers (numbers that are not of the form m + sum of digits of m for any m).
+%C A003052 A230093(a(n)) = 0. - _Reinhard Zumkeller_, Oct 11 2013
+%D A003052 S. R. Finch, Mathematical Constants, Cambridge, 2003, Section 2.24.
+%D A003052 M. Gardner, Time Travel and Other Mathematical Bewilderments. Freeman, NY, 1988, p. 116.
+%D A003052 Joshi, V. S. A note on self-numbers. Volume dedicated to the memory of V. Ramaswami Aiyar. Math. Student 39 (1971), 327--328 (1972). MR0330032 (48 #8371)
+%D A003052 D. R. Kaprekar, Puzzles of the Self-Numbers. 311 Devlali Camp, Devlali, India, 1959.
+%D A003052 D. R. Kaprekar, The Mathematics of the New Self Numbers, Privately Printed, 311 Devlali Camp, Devlali, India, 1963.
+%D A003052 D. R. Kaprekar, The Mathematics of the New Self Numbers (Part V). 311 Devlali Camp, Devlali, India, 1967.
+%D A003052 Makowski, Andrzej. On Kaprekar's "junction numbers''. Math. Student 34 1966 77 (1967). MR0223292 (36 #6340)
+%D A003052 Narasinga Rao, A. On a technique for obtaining numbers with a multiplicity of generators. Math. Student 34 1966 79--84 (1967). MR0229573 (37 #5147)
+%D A003052 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003052 Author?, J. Recreational Math., vol. 23, no. 1, p. 244, 1991.
+%H A003052 Reinhard Zumkeller, <a href="/A003052/b003052.txt">Table of n, a(n) for n = 1..10000</a>
+%H A003052 Christian N. K. Anderson, <a href="/A003052/a003052.jpg">Ulam Spiral</a> of the first 5000 self numbers.
+%H A003052 D. R. Kaprekar, <a href="/A003052/a003052.pdf">The Mathematics of the New Self Numbers</a> [annotated and scanned]
+%H A003052 B. Recamán, <a href="http://www.jstor.org/stable/2319017">Problem E2408</a>, Amer. Math. Monthly, 81 (1974), p. 407.
+%H A003052 Richard Schorn, <a href="http://www.austromath.at/dug/dnl53.pdf">Kaprekar's Sequence and his "Selfnumbers"</a>, DERIVE Newsletter, #53 (2004), pp. 30-32.
+%H A003052 W. Schneider, <a href="http://web.archive.org/web/2004/www.wschnei.de/digit-related-numbers/self-numbers.html">Self Numbers</a>
+%H A003052 N. J. A. Sloane, Martin Gardner, and D. R. Kaprekar, <a href="/A003052/a003052_1.pdf">Correspondence, 1974</a> [Scanned letters]
+%H A003052 T. Trotter, <a href="http://www.trottermath.net/numthry/charlene.html">Charlene Numbers</a>
+%H A003052 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SelfNumber.html">Self Number</a>
+%H A003052 Wikipedia, <a href="http://en.wikipedia.org/wiki/Self_number">Self number</a>
+%H A003052 U. Zannier, <a href="http://www.ams.org/journals/proc/1982-085-01/S0002-9939-1982-0647887-4/">On the distribution of self-numbers</a>, Proc. Amer. Math. Soc. 85 (1982), 10-14.
+%H A003052 <a href="/index/Coi#Colombian">Index entries for Colombian or self numbers and related sequences</a>
+%p A003052 isA003052 := proc(n) local k ; for k from 0 to n do if k+A007953(k) = n then RETURN(false): fi; od: RETURN(true) ; end:
+%p A003052 A003052 := proc(n) option remember; if n = 1 then 1; else for a from procname(n-1)+1 do if isA003052(a) then RETURN(a) ; fi; od; fi; end: # _R. J. Mathar_, Jul 27 2009
+%t A003052 nn = 525; Complement[Range[nn], Union[Table[n + Total[IntegerDigits[n]], {n, nn}]]] (* _T. D. Noe_, Mar 31 2013 *)
+%o A003052 (PARI) isA003052(n)={ forstep( k=n-1,max(n\2,n-9*#Str(n)),-1, k+A007953(k) == n & return); n }  \\ _M. F. Hasler_, Mar 20 2011
+%o A003052 (Haskell)
+%o A003052 a003052 n = a003052_list !! (n-1)
+%o A003052 a003052_list = filter ((== 0) . a230093) [1..]
+%o A003052 -- _Reinhard Zumkeller_, Oct 11 2013, Aug 21 2011
+%Y A003052 Cf. A006886, A232229, A062028, A055642.
+%Y A003052 For self primes, i.e., self numbers which are primes, see A006378.
+%Y A003052 Complement of A176995.
+%Y A003052 See A010061 for the binary version.
+%Y A003052 Cf. A247104 (subsequence of squarefree terms).
+%K A003052 nonn,base
+%O A003052 1,2
+%A A003052 _N. J. A. Sloane_
+%E A003052 More terms from _James A. Sellers_, Jul 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

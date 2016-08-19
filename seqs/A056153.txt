@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056153
+Showing 1-1 of 1
+
+%I A056153
+%S A056153 1,6,30,36,180,210,216,900,1080,1260,1296,2310,5400,6300,6480,7560,
+%T A056153 7776,13860,27000,30030,32400,37800,38880,44100,45360,46656,69300,
+%U A056153 83160,162000,180180,189000,194400,226800,233280,264600,272160,279936
+%N A056153 Leading least prime signatures: a(n) is in A025487 but a(n)/2 is not.
+%C A056153 Values of A025487 can be mapped to the numeric partitions. In a similar way, values of a(n) can be mapped to the cyclic partitions by noting that the factorization vector begins (k, k, ...). E.g. 1260 = 2*2*3*3*5*7 yielding the vector (2,2,1,1).
+%e A056153 a(3) = 36 because 36 is a member of A025487 but 36/2 = 18 is not. 2520 is a member of A025487 as is 2520/2 = 1260, so 2520 is not in a(n).
+%t A056153 max = 300000; ss = {}; A025487 = Join[{1}, Reap[ Do[s = Sort[FactorInteger[n][[All, 2]]]; If[FreeQ[ss, s], AppendTo[ss, s]; Sow[n]], {n, 2, max}]][[2, 1]]]; Select[A025487, FreeQ[A025487, #/2] &] (* _Jean-François Alcover_, Jul 11 2012 *)
+%Y A056153 Cf. A025487, A062515.
+%K A056153 nonn
+%O A056153 1,2
+%A A056153 _Alford Arnold_, Jul 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

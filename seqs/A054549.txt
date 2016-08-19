@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054549
+Showing 1-1 of 1
+
+%I A054549
+%S A054549 1,9,51,219,786,2466,6974,18126,43929,100321,217683,451707,901128,
+%T A054549 1735752,3239928,5878328,10393902,17950878,30340682,50273658,81787476,
+%U A054549 130811124,205935756,319456044,488764246,738197766,1101468114
+%N A054549 Number of symmetric nonnegative integer 9x9 matrices with sum of elements equal to 4*n, under action of dihedral group D_4.
+%F A054549 G.f.: 1/((1-x)^9*(1-x^2)^6).
+%Y A054549 Cf. A001753, A038163.
+%K A054549 easy,nonn
+%O A054549 0,2
+%A A054549 _Vladeta Jovovic_, May 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

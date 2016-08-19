@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050920
+Showing 1-1 of 1
+
+%I A050920
+%S A050920 3,393050634124102232869567034555427371542904833
+%N A050920 Cullen primes: primes of the form n*2^n+1.
+%C A050920 The next term is too large to display here, having 1423 digits. See A005849.
+%H A050920 Ray Ballinger, <a href="http://www.prothsearch.net/cullen.html">Cullen Primes: Definition and Status</a>
+%H A050920 C. K. Caldwell, <a href="http://www.utm.edu/research/primes/lists/top20/Cullen.html">Cullen Primes</a>
+%H A050920 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CullenNumber.html">Cullen Number</a>
+%F A050920 a(n) = A002064(A005849(n))
+%t A050920 lst={};Do[If[PrimeQ[p=n*2^n+1], Print[p];AppendTo[lst, p]], {n, 10^9}];lst (* _Vladimir Joseph Stephan Orlovsky_, Aug 21 2008 *)
+%t A050920 Select[Table[n*2^n+1,{n,5000}],PrimeQ] (* _Harvey P. Dale_, Dec 14 2014 *)
+%Y A050920 See A005849 for more terms.
+%K A050920 nonn,nice,bref
+%O A050920 1,1
+%A A050920 _N. J. A. Sloane_, Dec 30 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049735
+Showing 1-1 of 1
+
+%I A049735
+%S A049735 1,5,5,13,9,13,29,21,21,29,49,37,25,37,49,81,57,45,45,57,81,113,89,69,
+%T A049735 61,69,89,113,149,121,97,81,81,97,121,149,197,161,129,109,101,109,129,
+%U A049735 161,197,253,213,177,145,137,137,145,177,213,253
+%N A049735 Array T read by diagonals; T(i,j)=number of lattice points (x,y) in circle with radius (0,0)-to-(i,j).
+%e A049735 T(n,0)=A000328(n).
+%Y A049735 Diagonals (each starting on row 1): {1}, {5, 5}, {13, 9, 13}, ...
+%K A049735 nonn,tabl
+%O A049735 0,2
+%A A049735 _Clark Kimberling_
+%E A049735 Specifically, x^2 + y^2 <= i^2 + j^2.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

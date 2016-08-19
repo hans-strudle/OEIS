@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054827
+Showing 1-1 of 1
+
+%I A054827
+%S A054827 367,701,1447,1511,1657,2237,2267,2707,2939,2953,4127,4153,4951,5623,
+%T A054827 5981,6299,6521,6733,6857,8111,8209,8263,8963,10357,10771,11801,12143,
+%U A054827 12323,13499,13513,13921,13931,14143,14653,14699,14983,15013,15101
+%N A054827 Fifth term of weak prime quintets: p(m-3)-p(m-4) < p(m-2)-p(m-3) < p(m-1)-p(m-2) < p(m)-p(m-1).
+%Y A054827 Cf. A051635, A054800-A054840.
+%K A054827 nonn
+%O A054827 1,1
+%A A054827 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

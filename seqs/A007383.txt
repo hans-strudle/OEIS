@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007383
+Showing 1-1 of 1
+
+%I A007383 M2228
+%S A007383 0,0,1,0,3,1,6,4,11,10,20,21,36,41,64,77,113,141,199,254,350,453,615,
+%T A007383 803,1080,1418,1896,2498,3328,4394,5841,7722,10251,13563,17990,23814,
+%U A007383 31571
+%N A007383 Number of strict first-order maximal independent sets in path graph.
+%D A007383 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007383 R. Yanco and A. Bagchi, K-th order maximal independent sets in path and cycle graphs, J. Graph Theory, submitted, 1994.
+%F A007383 Empirical g.f.: -x^3 / ((x-1)^2*(x+1)^2*(x^3+x^2-1)). - _Colin Barker_, Mar 29 2014
+%K A007383 nonn
+%O A007383 1,5
+%A A007383 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

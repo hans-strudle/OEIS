@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045412
+Showing 1-1 of 1
+
+%I A045412
+%S A045412 3,6,7,10,13,14,15,18,21,22,25,28,29,30,31,34,37,38,41,44,45,46,49,52,
+%T A045412 53,56,59,60,61,62,63,66,69,70,73,76,77,78,81,84,85,88,91,92,93,94,97,
+%U A045412 100,101,104,107,108,109,112,115,116,119,122,123,124,125,126
+%N A045412 a(1)=3; for n>1, a(n)=a(n-1)+1 if n is already in the sequence, a(n)=a(n-1)+3 otherwise.
+%H A045412 B. Cloitre, N. J. A. Sloane and M. J. Vandermast, <a href="http://www.cs.uwaterloo.ca/journals/JIS/index.html">Numerical analogues of Aronson's sequence</a>, J. Integer Seqs., Vol. 6 (2003), #03.2.2.
+%H A045412 B. Cloitre, N. J. A. Sloane and M. J. Vandermast, <a href="http://arXiv.org/abs/math.NT/0305308">Numerical analogues of Aronson's sequence</a> (math.NT/0305308)
+%Y A045412 Cf. A080578.
+%K A045412 nonn
+%O A045412 1,1
+%A A045412 _N. J. A. Sloane_ and Benoit Cloitre, Apr 01 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

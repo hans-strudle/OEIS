@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032171
+Showing 1-1 of 1
+
+%I A032171
+%S A032171 1,1,1,2,4,10,23,59,148,385,1006,2678,7170,19421,52933,145364,401421,
+%T A032171 1114713,3109710,8713076,24506121,69168705,195849114,556165311,
+%U A032171 1583601840,4520226558,12931917204,37075154703
+%N A032171 Number of rooted compound windmills (mobiles) of n nodes with no symmetries.
+%H A032171 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A032171 Shifts left under "CHK" (necklace, identity, unlabeled) transform.
+%Y A032171 Cf. A032200, A055363.
+%K A032171 nonn,eigen
+%O A032171 1,4
+%A A032171 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032499
+Showing 1-1 of 1
+
+%I A032499
+%S A032499 1,5,9,25,69,73,99,153,163,223,273,279,331,439,445,595,601,1189,2311,
+%T A032499 3523,3773,5369,6349,8743,14083,25225,25371,37773,60615,123471,136993
+%N A032499 Numbers n such that 245*2^n+1 is prime.
+%H A032499 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032499 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032499 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032499 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032499 nonn,hard
+%O A032499 1,2
+%A A032499 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

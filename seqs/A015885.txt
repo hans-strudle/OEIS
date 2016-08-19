@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015885
+Showing 1-1 of 1
+
+%I A015885
+%S A015885 1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015885 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015885 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015885 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%W A015885 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015885 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015885 Inverse of 1876th cyclotomic polynomial.
+%p A015885 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015885 sign
+%O A015885 0,1
+%A A015885 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038792
+Showing 1-1 of 1
+
+%I A038792
+%S A038792 1,1,1,1,2,1,1,3,3,1,1,4,5,4,1,1,5,8,8,5,1,1,6,12,13,12,6,1,1,7,17,21,
+%T A038792 21,17,7,1,1,8,23,33,34,33,23,8,1,1,9,30,50,55,55,50,30,9,1,1,10,38,
+%U A038792 73,88,89,88,73,38,10,1,1,11,47,103,138,144,144
+%N A038792 Rectangular array defined by T(i,1)=T(1,j)=1 for i>=0 and j>=0; T(i,j)=Max(T(i-1,j)+T(i-1,j-1); T(i-1,j-1)+T(i,j-1)) for i>=1, j>=1, read by antidiagonals.
+%C A038792 Antidiagonal sums: A029907.
+%C A038792 Main diagonal: A001519 (odd-indexed Fibonacci numbers).
+%C A038792 Next diagonal: A001906 (even-indexed Fibonacci numbers).
+%H A038792 A. Dil and I. Mezo, <a href="http://dx.doi.org/10.1016/j.amc.2008.10.013">A symmetric algorithm for hyperharmonic and Fibonacci numbers</a>, Appl. Math. Comp. 206 (2008) 942-951. Eq (11), incomplete Fibonacci numbers. [From _R. J. Mathar_, Apr 16 2009]
+%F A038792 G.f. x*y*(1-x*y)/((x*y+x-1)*(x*y+y-1)). - Mark van Hoeij, Nov 09 2011
+%e A038792 Northwest corner:
+%e A038792 1....1....1....1....1....1....1....1
+%e A038792 1....2....3....4....5....6....7....8
+%e A038792 1....3....5....8....12...17...23...30
+%e A038792 1....4....8....13...21...33...50...73
+%e A038792 1....5....12...21...34...55...88...138
+%e A038792 1....6....17...33...55...89...144..232
+%e A038792 1....7....23...50...88...144..233..377
+%e A038792 [From Clark Kimberling, Jun 20 2011]
+%p A038792 G := x*y*(1-x*y)/((x*y+x-1)*(x*y+y-1)); G := convert(series(G, x=0, 11),polynom):
+%p A038792 for i from 1 to 10 do series(coeff(G,x,i),y=0,11) od; - Mark van Hoeij, Nov 09 2011
+%t A038792 f[i_, 0] := 1; f[0, i_] := 1
+%t A038792 f[i_, j_] := Max[f[i - 1, j] + f[i - 1, j - 1], f[i - 1, j - 1] + f[i, j - 1]] /;  i >= 1 && j >= 1
+%t A038792 TableForm[Table[f[i, j], {i, 0, 7}, {j, 0, 7}]]
+%Y A038792 Cf. A000045.
+%K A038792 nonn,tabl,easy
+%O A038792 1,5
+%A A038792 _Clark Kimberling_, May 02 2000
+%E A038792 New description from _Benoit Cloitre_, Aug 05 2003
+%E A038792 Updated from pre-2003 triangular format to present rectangular, from Clark Kimberling, Jun 20 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

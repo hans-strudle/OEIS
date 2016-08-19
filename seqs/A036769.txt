@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036769
+Showing 1-1 of 1
+
+%I A036769
+%S A036769 1,1,2,5,14,42,132,429,1429,4852,16730,58422,206192,734332,2635680,
+%T A036769 9524301,34622207,126520393,464517300,1712650520,6338433840,
+%U A036769 23538973950,87690410580,327611738790,1227178265182,4607940112396,17341126763366
+%N A036769 Number of rooted trees with a degree constraint.
+%D A036769 L. Takacs, Enumeration of rooted trees and forests, Math. Scientist 18 (1993), 1-10, esp. Eq. (6).
+%H A036769 Nickolas Hein and Jia Huang, <a href="http://arxiv.org/abs/1508.01688">Modular Catalan Numbers</a>, arXiv:1508.01688 [math.CO], 2015.
+%H A036769 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%p A036769 r := 7; [ seq((1/n)*add( (-1)^j*binomial(n,j)*binomial(2*n-2-j*(r+1), n-1),j=0..floor((n-1)/(r+1))), n=1..30) ]; end;
+%o A036769 (PARI) a(n)=if(n<0,0,polcoeff(serreverse(x/sum(k=0,7,x^k)+O(x^(n+2))),n+1)) /* _Ralf Stephan_ */
+%K A036769 nonn
+%O A036769 0,3
+%A A036769 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

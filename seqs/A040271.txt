@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040271
+Showing 1-1 of 1
+
+%I A040271
+%S A040271 16,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,
+%T A040271 1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,
+%U A040271 32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32,1,32
+%N A040271 Continued fraction for sqrt(288).
+%H A040271 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040271 a(n)=(1/2)*[33+31*(-1)^n]-16*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 24 2009]
+%p A040271 with(numtheory): Digits := 300: convert(evalf(sqrt(288)),confrac);
+%K A040271 nonn,cofr,easy
+%O A040271 0,1
+%A A040271 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

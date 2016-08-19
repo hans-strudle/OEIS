@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060335
+Showing 1-1 of 1
+
+%I A060335
+%S A060335 1,28,1610,211820,64144675,44218682312,68501035223124,
+%T A060335 235728863806525320,1784437537982029455525,29470895991194487015464740,
+%U A060335 1054563682428338672254476697886,81276604641664521211218527866093204
+%N A060335 Number of n-node acyclic digraphs with 3 out-points.
+%D A060335 R. W. Robinson, Counting labeled acyclic digraphs, pp. 239-273 of F. Harary, editor, New Directions in the Theory of Graphs. Academic Press, NY, 1973.
+%Y A060335 Cf. A058876, A003025, A003026.
+%K A060335 nonn
+%O A060335 3,2
+%A A060335 _Vladeta Jovovic_, Apr 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

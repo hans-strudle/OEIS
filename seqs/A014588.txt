@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014588
+Showing 1-1 of 1
+
+%I A014588
+%S A014588 0,1,2,3,0,1,2,3,4,5,0,1,2,3,0,1,2,3,4,5,0,1,2,3,0,1,2,3,4,5,0,1,2,3,
+%T A014588 4,5,0,1,2,3,0,1,2,3,4,5,0,1,2,3,0,1,2,3,4,5,0,1,2,3,0,1,2,3,4,5,0,1,
+%U A014588 2,3,4,5,0,1,2,3,0,1,2,3,4,5,0,1,2,3,0,1,2,3,4,5,0,1,2,3,0,1,2
+%N A014588 Nim function for Take-a-Fibonacci-Game.
+%D A014588 R. K. Guy, Unsolved Problems in Number Theory, E26.
+%H A014588 Eric M. Schmidt, <a href="/A014588/b014588.txt">Table of n, a(n) for n = 0..10000</a>
+%H A014588 Achim Flammenkamp, <a href="http://www.uni-bielefeld.de/~achim/diss.ps.gz">Lange Perioden in Subtraktions-Spielen</a>, Dissertation, Dept. Math., University of Bielefeld, Germany.
+%o A014588 (Sage)
+%o A014588 def A014588(max) :
+%o A014588 ....res = []
+%o A014588 ....for i in xrange(max+1) :
+%o A014588 ........moves = list({res[i-f] for f in fibonacci_xrange(1,i+1)})
+%o A014588 ........k = len(moves)
+%o A014588 ........mex = next((j for j in xrange(k) if moves[j] != j), k)
+%o A014588 ........res.append(mex)
+%o A014588 ....return res
+%o A014588 end # _Eric M. Schmidt_, Jul 20 2013
+%K A014588 nonn
+%O A014588 0,3
+%A A014588 Achim Flammenkamp (achim(AT)HRZ.Uni-Bielefeld.DE)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

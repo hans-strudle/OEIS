@@ -1,0 +1,40 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001601
+Showing 1-1 of 1
+
+%I A001601 M3042 N1234
+%S A001601 1,3,17,577,665857,886731088897,1572584048032918633353217,
+%T A001601 4946041176255201878775086487573351061418968498177
+%N A001601 a(n) = 2*a(n-1)^2 - 1, if n>1. a(0)=1, a(1)=3.
+%C A001601 Reduced numerators of Newton's iteration for sqrt(2). - _Eric W. Weisstein_
+%C A001601 An infinite coprime sequence defined by recursion. - _Michael Somos_, Mar 14 2004
+%C A001601 Evaluation of the 2^n - 1 degree interpolating polynomial of 1/x at Chebyshev nodes in the interval (1,2): v = 1.0; for(i = 1, n, v *= 4*(a[i] - x*v)); v *= 2/a[n+1]. - _Jose Hortal_, Apr 07 2012
+%D A001601 L. E. Dickson, History of the Theory of Numbers. Carnegie Institute Public. 256, Washington, DC, Vol. 1, 1919; Vol. 2, 1920; Vol. 3, 1923, see vol. 1, p. 376.
+%D A001601 M. Mendes France and A. J. van der Poorten, From geometry to Euler identities, Theoret. Comput. Sci., 65 (1989), 213-220.
+%D A001601 Problem E1093, Amer. Math. Monthly, 61 (1954), 424-425.
+%D A001601 Jeffrey Shallit, Rational numbers with non-terminating, non-periodic modified Engel-type expansions, Fib. Quart., 31 (1993), 37-40.
+%D A001601 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001601 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001601 Dennis Martin, <a href="/A001601/b001601.txt">Table of n, a(n) for n = 0..11</a>
+%H A001601 Jeffrey Shallit, <a href="http://www.cs.uwaterloo.ca/~shallit/Papers/met0.ps">Rational numbers with non-terminating, non-periodic modified Engel-type expansions</a>, Fib. Quart., 31 (1993), 37-40.
+%H A001601 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/NewtonsIteration.html">Newtons Iteration.</a>
+%H A001601 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SquareRoot.html">Square Root.</a>
+%H A001601 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PythagorassConstant.html">Pythagoras's Constant</a>
+%H A001601 <a href="/index/El#Engel">Index entries for sequences related to Engel expansions</a>
+%F A001601 For n>0: a(n)=a(n-1)^2+2*A051009(n)^2, a(n)^2=2*A051009(n+1)^2+1. - Mario Catalani (mario.catalani(AT)unito.it), May 27 2003
+%F A001601 a(n)=sum(Binomial[2^n, 2r]2^r, r=0, .., 2^(n-1)). - Mario Catalani (mario.catalani(AT)unito.it), May 30 2003
+%F A001601 Expansion of 1/sqrt(2) as an infinite product: 1/sqrt(2) = prod(k=1, infinity, 1-1/(a(n)+1)). a(1)=3; a(n) = floor(1/(1-1/(sqrt(2)*prod(k=1, n-1, 1-1/(a(k)+1))))). - _Thomas Baruchel_, Nov 06 2003
+%F A001601 A003423(n)=2*a(n+1).
+%F A001601 a(n)=(1/2)*((1 + sqrt(2))^(2^n) + (1 - sqrt(2))^(2^n)). - _Artur Jasinski_, Oct 10 2008
+%F A001601 For n>1: a(n)-1 = 4^n * prod(i=1, n-2, a(i)^2). - _Jose Hortal_, Apr 13 2012
+%F A001601 4*sqrt(2)/7 = product {n = 1..inf} (1 - 1/(2*a(n))). sqrt(2) = product {n = 1..inf} (1 + 1/a(n)). a(n) = 1/2*A003423(n-1). - _Peter Bala_, Nov 11 2012
+%t A001601 Table[Simplify[Expand[(1/2) ((1 + Sqrt[2])^(2^n) + (1 - Sqrt[2])^(2^n))]], {n, 0, 7}]  (* _Artur Jasinski_, Oct 10 2008 *)
+%t A001601 Join[{1},NestList[2#^2-1&,3,7]]  (* _Harvey P. Dale_, Mar 24 2011 *)
+%o A001601 (PARI) a(n)=if(n<1,n==0,2*a(n-1)^2-1)
+%Y A001601 Cf. A051009. a(n) = A001333(2^n). A003423.
+%K A001601 nonn,easy,nice,frac
+%O A001601 0,2
+%A A001601 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

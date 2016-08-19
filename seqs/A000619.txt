@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000619
+Showing 1-1 of 1
+
+%I A000619 M0121 N0048
+%S A000619 2,1,2,5,17,92,994,28262,2700791
+%N A000619 NP-equivalence classes of threshold functions of exactly n variable.
+%D A000619 S. Muroga, Threshold Logic and Its Applications. Wiley, NY, 1971, p. 38, Table 2.3.2. - Row 15.
+%D A000619 S. Muroga, T. Tsuboi and C. R. Baugh, Enumeration of threshold functions of eight variables, IEEE Trans. Computers, 19 (1970), 818-825.
+%D A000619 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000619 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000619 Goto, Eiichi, and Hidetosi Takahasi, <a href="/A000371/a000371_1.pdf">Some Theorems Useful in Threshold Logic for Enumerating Boolean Functions</a>, in Proceedings International Federation for Information Processing (IFIP) Congress, 1962, pp. 747-752. [Annotated scans of certain pages]
+%H A000619 S. Muroga, <a href="/A000371/a000371.pdf">Threshold Logic and Its Applications</a>, Wiley, NY, 1971 [Annotated scans of a few pages]
+%H A000619 Muroga, Saburo, Iwao Toda, and Satoru Takasu, <a href="/A002079/a002079.pdf">Theory of majority decision elements</a>, Journal of the Franklin Institute 271.5 (1961): 376-418. [Annotated scans of pages 413 and 414 only]
+%H A000619 S. Muroga, T. Tsuboi and C. R. Baugh, <a href="/A002077/a002077.pdf">Enumeration of threshold functions of eight variables</a>, IEEE Trans. Computers, 19 (1970), 818-825. [Annotated scanned copy]
+%K A000619 nonn,more
+%O A000619 0,1
+%A A000619 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

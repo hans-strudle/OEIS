@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049251
+Showing 1-1 of 1
+
+%I A049251
+%S A049251 3,4,0,8,3,6,5,4,3,2,1,0,12,12,12,12,3,12,12,12,3,12,1,12,3,4,0,12,3,
+%T A049251 12,12,12,3,12,12,12,11,10,9,8,3,6,5,4,3,2,1,0,12,12,12,12,3,12,5,12,
+%U A049251 3,2,1,12,12,12,12,12,3,12,5,12,3,12,1,12,3,4,0,12,3,12,12,12,3,12,1,12
+%N A049251 Smallest nonnegative value taken on by 12x^2 - ny^2 for an infinite number of integer pairs (x, y).
+%K A049251 nonn
+%O A049251 1,1
+%A A049251 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

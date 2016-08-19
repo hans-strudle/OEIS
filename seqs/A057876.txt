@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057876
+Showing 1-1 of 1
+
+%I A057876
+%S A057876 23,37,53,73,113,131,137,151,173,179,197,211,311,317,431,617,719,1531,
+%T A057876 1831,1997,2113,2131,2237,2273,2297,2311,2797,3137,3371,4337,4373,
+%U A057876 4733,4919,6173,7297,7331,7573,7873,8191,8311,8831,8837,12239,16673,19531
+%N A057876 Primes p with the following property: let d_1, d_2, ... be the distinct digits occurring in the decimal expansion of p. Then for each d_i all the numbers obtained by dropping all the digits d_i from p (excluding those beginning with 0) are primes.
+%e A057876 1531 gives primes 53, 131 and 151 after dropping digits 1, 5 and 3.
+%e A057876 A larger example 1210778071 gives primes 12177871, 2077807, 110778071, 1210801 and 121077071 after dropping digits 0, 1, 2, 7 and 8.
+%Y A057876 Cf. A057877-A057883, A051362, A034302-A034305.
+%K A057876 nonn,base
+%O A057876 1,1
+%A A057876 _Patrick De Geest_, Oct 15 2000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

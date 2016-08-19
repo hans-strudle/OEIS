@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015491
+Showing 1-1 of 1
+
+%I A015491
+%S A015491 1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,1,2,1,1,2,1,1,1,0,1,
+%T A015491 1,0,1,0,1,1,0,1,1,1,2,1,1,2,1,1,1,0,1,1,0,1,0,1,1,0,1,1,0,
+%U A015491 1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015491 1,1,0,-1,-1,0,1,1,0,-1,-1,0,1,0,-1,-1,0,1,1,-1,-2,-1,1,2,1,-1,-1,0,1,
+%W A015491 1,0,-1,0,1,1,0,-1,-1,1,2,1,-1,-2,-1,1,1,0,-1,-1,0,1,0,-1,-1,0,1,1,0,
+%X A015491 -1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015491 Inverse of 1482nd cyclotomic polynomial.
+%p A015491 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015491 sign
+%O A015491 0,21
+%A A015491 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

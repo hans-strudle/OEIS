@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035125
+Showing 1-1 of 1
+
+%I A035125
+%S A035125 1011,1101,10011,11001,100011,100101,100111,101001,101011,110001,
+%T A035125 110101,111001,1000011,1000101,1000111,1001011,1001101,1010001,
+%U A035125 1010011,1011001,1100001,1100101,1101001,1110001
+%N A035125 Roots of 'non-palindromic cubes remaining cubic when written backwards'.
+%C A035125 Those with trailing zeros are excluded. Binary look is fortuitous!
+%H A035125 P. De Geest, <a href="http://www.worldofnumbers.com/cube.htm">Palindromic Cubes</a>
+%H A035125 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CubicNumber.html">Cubic Number</a>
+%H A035125 <a href="/wiki/Index_to_OEIS:_Section_Sq#sqrev">Index entry for sequences related to reversing digits of squares</a>
+%e A035125 1000011^3 = 1000033000363001331 -> 1331003630003300001 = 1100001^3.
+%Y A035125 Cf. A035090, A035124.
+%K A035125 nonn,base
+%O A035125 1,1
+%A A035125 _Patrick De Geest_, Nov 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

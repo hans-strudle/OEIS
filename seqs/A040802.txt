@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040802
+Showing 1-1 of 1
+
+%I A040802
+%S A040802 28,1,4,1,3,1,1,1,1,18,1,1,1,1,3,1,4,1,56,1,4,1,3,1,1,1,1,18,1,1,1,1,
+%T A040802 3,1,4,1,56,1,4,1,3,1,1,1,1,18,1,1,1,1,3,1,4,1,56,1,4,1,3,1,1,1,1,18,
+%U A040802 1,1,1,1,3,1,4,1,56,1,4,1,3,1,1,1,1,18,1,1,1,1,3,1,4
+%N A040802 Continued fraction for sqrt(831).
+%H A040802 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040802 with(numtheory): Digits := 300: convert(evalf(sqrt(831)),confrac);
+%K A040802 nonn,cofr,easy
+%O A040802 0,1
+%A A040802 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

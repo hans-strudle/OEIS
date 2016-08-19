@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060130
+Showing 1-1 of 1
+
+%I A060130
+%S A060130 0,1,1,2,1,2,1,2,2,3,2,3,1,2,2,3,2,3,1,2,2,3,2,3,1,2,2,3,2,3,2,3,3,4,
+%T A060130 3,4,2,3,3,4,3,4,2,3,3,4,3,4,1,2,2,3,2,3,2,3,3,4,3,4,2,3,3,4,3,4,2,3,
+%U A060130 3,4,3,4,1,2,2,3,2,3,2,3,3,4,3,4,2,3,3,4,3,4,2,3,3,4,3,4,1,2,2,3,2,3,2,3,3
+%N A060130 Minimum number of transpositions needed to compose each permutation in the lists A060117/A060118; number of nonzero digits in factorial base representation (A007623) of n.
+%F A060130 a(n) = count_nonfixed(convert(PermUnrank3R(n), 'disjcyc'))-nops(convert(PermUnrank3R(n), 'disjcyc')) or nops(fac_base(n))-nops(positions(0, fac_base(n)))
+%Y A060130 A060130[n] = A060129[n] - A060128[n]. Cf. A055091, A060131.
+%K A060130 nonn
+%O A060130 0,4
+%A A060130 _Antti Karttunen_, Mar 02 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

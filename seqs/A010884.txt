@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010884
+Showing 1-1 of 1
+
+%I A010884
+%S A010884 1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,
+%T A010884 5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,4,5,1,2,3,
+%U A010884 4,5,1,2,3,4,5,1,2,3,4,5,1
+%N A010884 Simple periodic sequence: repeat 1,2,3,4,5.
+%C A010884 Partial sums are given by A130483(n)+n+1. - _Hieronymus Fischer_, Jun 08 2007
+%C A010884 4115/33333=0,12345123451234512345... [From _Eric Desbiaux_, Nov 03 2008]
+%C A010884 Terms of the simple continued fraction of 86/(sqrt(65029)-195). [From _Paolo P. Lava_, Feb 16 2009]
+%H A010884 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,0,1).
+%F A010884 a(n) = 1 + (n mod 5) - _Paolo P. Lava_, Nov 21 2006
+%F A010884 a(n)=A010874(n)+1. G.f.: g(x)=(5x^4+4x^3+3x^2+2x+1)/(1-x^5)=(5x^6-6x^5+1)/((1-x^5)(1-x)^2). - _Hieronymus Fischer_, Jun 08 2007
+%Y A010884 Cf. A010872, A010873, A010874, A010875, A010876, A004526, A002264, A002265, A002266.
+%Y A010884 Cf. A177038 (decimal expansion of (195+sqrt(65029))/314). [From _Klaus Brockhaus_, May 01 2010]
+%K A010884 nonn
+%O A010884 0,2
+%A A010884 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

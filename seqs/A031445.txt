@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031445
+Showing 1-1 of 1
+
+%I A031445
+%S A031445 8,33,34,36,40,48,131,133,134,137,138,140,145,146,148,152,161,162,164,
+%T A031445 168,176,193,194,196,200,208,224,519,523,525,526,531,533,534,537,538,
+%U A031445 540,547,549,550,553,554,556,561,562,564,568
+%N A031445 n-th number k which in base 2 has 2 more 0's than 1's.
+%t A031445 Select[Range[600],DigitCount[#,2,0]==DigitCount[#,2,1]+2&] (* _Harvey P. Dale_, Nov 26 2014 *)
+%K A031445 nonn
+%O A031445 1,1
+%A A031445 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

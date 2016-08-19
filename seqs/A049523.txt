@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049523
+Showing 1-1 of 1
+
+%I A049523
+%S A049523 1,25,154,1590,17535,763,710101,22931746,24658602
+%N A049523 Smallest starting index for a run of exactly n consecutive equal digits in decimal expansion of Pi.
+%C A049523 Digits 3,1,4,... are indexed 1,2,3,...
+%H A049523 Dave Andersen, <a href="http://www.angio.net/pi/piquery">Pi-Search Page</a>
+%H A049523 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiDigits.html">Pi Digits.</a>
+%e A049523 See A084144 for an example.
+%Y A049523 Cf. A049514-A049522.
+%Y A049523 Cf. A084144 (digit with this starting index).
+%K A049523 nonn,base
+%O A049523 1,2
+%A A049523 _Harvey P. Dale_
+%E A049523 More terms from _Rick L. Shepherd_, May 15 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

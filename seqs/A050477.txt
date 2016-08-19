@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050477
+Showing 1-1 of 1
+
+%I A050477
+%S A050477 1,8,30,110,406,1512,5676,21450,81510,311168,1192516,4585308,17681020,
+%T A050477 68346800,264769560,1027653570,3995416710,15557374800,60660114900,
+%U A050477 236813267460,925540979220
+%N A050477 C(n)*(7n+1) where C(n)=Catalan numbers (A000108).
+%D A050477 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pps. 194-196.
+%F A050477 3*(n+1)*a(n) +(-17*n-1)*a(n-1) +10*(2*n-3)*a(n-2)=0. - _R. J. Mathar_, Feb 13 2015
+%F A050477 -(n+1)*(7*n-6)*a(n) +2*(7*n+1)*(2*n-1)*a(n-1)=0. - _R. J. Mathar_, Feb 13 2015
+%o A050477 (PARI) a(n) = (7*n+1) * binomial(2*n,n)/(n+1) \\ _Michel Marcus_, Jul 24 2013
+%Y A050477 Cf. A016921, A000108, A051945.
+%K A050477 easy,nonn
+%O A050477 0,2
+%A A050477 _Barry E. Williams_, Dec 24 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018554
+Showing 1-1 of 1
+
+%I A018554
+%S A018554 1,2,4,5,10,20,31,62,124,155,310,620
+%N A018554 Divisors of 620.
+%H A018554 <a href="/index/Di#divisors">Index entries for sequences related to divisors of numbers</a>
+%t A018554 Divisors[620] (* _Harvey P. Dale_, Jul 14 2011 *)
+%o A018554 (Sage) divisors(620);# [From _Zerinvary Lajos_, Jun 13 2009]
+%K A018554 nonn,fini,full
+%O A018554 1,2
+%A A018554 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

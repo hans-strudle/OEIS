@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030155
+Showing 1-1 of 1
+
+%I A030155
+%S A030155 1,3,5,7,9,11,13,19,23,27,31,69,81,111,113,119,127,137,181,187,237,
+%T A030155 269,273,277,281,311,461,463,539,661,673,677,689,819,831,1019,1027,
+%U A030155 1111,1113,1119,1127,1137,1269,1277,1287,1361,1369,1377,1863,1969
+%N A030155 Odd n such that in n^2 the parity of digits alternates.
+%K A030155 nonn,base
+%O A030155 0,2
+%A A030155 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

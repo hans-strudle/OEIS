@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035614
+Showing 1-1 of 1
+
+%I A035614
+%S A035614 0,1,2,0,3,0,1,4,0,1,2,0,5,0,1,2,0,3,0,1,6,0,1,2,0,3,0,1,4,0,1,2,0,7,
+%T A035614 0,1,2,0,3,0,1,4,0,1,2,0,5,0,1,2,0,3,0,1,8,0,1,2,0,3,0,1,4,0,1,2,0,5,
+%U A035614 0,1,2,0,3,0,1,6,0,1,2,0,3
+%N A035614 Horizontal para-Fibonacci sequence: says which column of Wythoff array (starting column count at 0) contains n.
+%C A035614 This is probably the same as the "Fibonacci ruler function" mentioned by Knuth. - _N. J. A. Sloane_, Aug 03 2012
+%D A035614 D. E. Knuth, The Art of Computer Programming, Vol. 4A, Section 7.1.3, p. 82, solution to Problem 179.
+%H A035614 Reinhard Zumkeller, <a href="/A035614/b035614.txt">Table of n, a(n) for n = 0..10000</a>
+%H A035614 Casey Mongoven, <a href="http://ami.ektf.hu/uploads/papers/finalpdf/AMI_41_from175to192.pdf">Sonification of multiple Fibonacci-related sequences</a>, Annales Mathematicae et Informaticae, 41 (2013) pp. 175-192.
+%H A035614 N. J. A. Sloane, <a href="/classic.html#WYTH">Classic Sequences</a>
+%F A035614 The segment between the first M and the first M+1 is given by the segment before the first M-1.
+%t A035614 max = 81; wy = Table[(n-k)*Fibonacci[k] + Fibonacci[k+1]*Floor[ GoldenRatio*(n - k + 1)], {n, 1, max}, {k, 1, n}]; a[n_] := Position[wy, n][[1, 2]]-1; Table[a[n], {n, 1, max}] (* _Jean-François Alcover_, Nov 02 2011 *)
+%o A035614 (Haskell)
+%o A035614 a035614 = a122840 . a014417 . (+ 1)  -- _Reinhard Zumkeller_, Mar 10 2013
+%Y A035614 Cf. A019586, A035513, A035614.
+%K A035614 nonn,nice,easy
+%O A035614 0,3
+%A A035614 _J. H. Conway_ and _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

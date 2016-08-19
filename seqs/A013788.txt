@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013788
+Showing 1-1 of 1
+
+%I A013788
+%S A013788 8,32768,134217728,549755813888,2251799813685248,9223372036854775808,
+%T A013788 37778931862957161709568,154742504910672534362390528,
+%U A013788 633825300114114700748351602688,2596148429267413814265248164610048,10633823966279326983230456482242756608
+%N A013788 8^(4n+1).
+%H A013788 Vincenzo Librandi, <a href="/A013788/b013788.txt">Table of n, a(n) for n = 0..200</a>
+%H A013788 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013788 a(n)=4096*a(n-1), n>0 ; a(0)=8 . G.f.: 8/(1-4096*x). [From _Philippe Deléham_, Dec 03 2008]
+%t A013788 8^(4Range[0,20]+1)  (* _Harvey P. Dale_, Apr 17 2011 *)
+%o A013788 (MAGMA) [8^(4*n+1): n in [0..15]]; // Vincenzo Librandi, Jun 28 2011
+%K A013788 nonn,easy
+%O A013788 0,1
+%A A013788 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

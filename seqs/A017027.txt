@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017027
+Showing 1-1 of 1
+
+%I A017027
+%S A017027 177147,100000000000,34271896307633,1521681143169024,
+%T A017027 25408476896404831,238572050223552512,1532278301220703125,
+%U A017027 7516865509350965248,30155888444737842659,103510234140112521216,313726685568359708377
+%N A017027 (7*n+3)^11.
+%H A017027 Vincenzo Librandi, <a href="/A017027/b017027.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017027 (MAGMA) [(7*n+3)^11: n in [0..20]]; // Vincenzo Librandi, Jul 14 2011
+%K A017027 nonn,easy
+%O A017027 0,1
+%A A017027 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

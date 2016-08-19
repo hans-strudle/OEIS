@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011193
+Showing 1-1 of 1
+
+%I A011193
+%S A011193 2,9,16,25,2,38,16,31,93,115,112,128,117,173,254,96,15,88,235,308,13,
+%T A011193 501,151,171,301
+%N A011193 Coefficients in expansion of sqrt(2) as Sum a(n)/(n*n!*(n+1)!), n=1..inf, as found by greedy algorithm.
+%K A011193 nonn
+%O A011193 0,1
+%A A011193 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

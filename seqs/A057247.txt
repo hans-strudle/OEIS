@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057247
+Showing 1-1 of 1
+
+%I A057247
+%S A057247 5,7,11,29,23,53,137,1217,47,59,7937,149,83,173
+%N A057247 a(n) is the smallest prime of the form 1+p(n)*2^m, where p(n) is the n-th prime.
+%F A057247 a(n) = Min{q|q is prime, p(n) is the n-th prime and q = 1+p(n)*2^b(n)}
+%e A057247 Sophie-Germain primes are here at n = 1, 2, 3, 5, 9, 10, .. etc. At n = 11, p(11) = 31 and in the sequence of q = 1+31*{2, 4, 8, 16, 32, 64, 128, 256} = {63, 125, 249, 497, 993, 1985, 3969, 7937}, the first prime is 7937, so b(11) = 8, a(11) = 7937.
+%Y A057247 Cf. A058887, A005384, A005385.
+%K A057247 nonn
+%O A057247 1,1
+%A A057247 _Labos Elemer_, Jan 10 2001
+%E A057247 The prime a(15) has 449 decimal digits (see A058887).
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

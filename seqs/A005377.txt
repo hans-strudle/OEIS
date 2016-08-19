@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005377
+Showing 1-1 of 1
+
+%I A005377 M0504
+%S A005377 0,0,0,0,1,2,3,4,5,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,
+%T A005377 40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,76,78,80,82,84,
+%U A005377 86
+%N A005377 Number of low discrepancy sequences in base 4.
+%D A005377 Harald Niederreiter, Low-discrepancy and low-dispersion sequences, J. Number Theory 30 (1988), no. 1, 51-70.
+%D A005377 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005377 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005377 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005377 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (2,-1).
+%F A005377 G.f.: (x^4 + x^10 ) / (1 - 2x + x^2 ).
+%p A005377 A005377:=z**4*(z**2+1)*(z**4-z**2+1)/(z-1)**2; [Conjectured (correctly) by _Simon Plouffe_ in his 1992 dissertation.]
+%K A005377 nonn,easy
+%O A005377 0,6
+%A A005377 _N. J. A. Sloane_, _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

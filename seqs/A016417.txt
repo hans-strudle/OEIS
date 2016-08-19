@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016417
+Showing 1-1 of 1
+
+%I A016417
+%S A016417 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,
+%T A016417 0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,
+%U A016417 1,0,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0
+%V A016417 1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,
+%W A016417 0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,
+%X A016417 -1,0,0,1,-1,0,1,-1,0,0,1,-1,0,1,-1,0,0
+%N A016417 469th cyclotomic polynomial.
+%K A016417 sign,fini
+%O A016417 0,1
+%A A016417 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

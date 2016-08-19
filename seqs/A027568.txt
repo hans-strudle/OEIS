@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027568
+Showing 1-1 of 1
+
+%I A027568
+%S A027568 0,1,10,120,1540,7140
+%N A027568 Numbers that are both triangular and tetrahedral.
+%D A027568 Avanesov, E. T.; Solution of a problem on figurate numbers. (Russian) Acta Arith. 12 1966/1967 pages 409-420.
+%D A027568 J.-M. De Koninck, Ces nombres qui nous fascinent, Ellipses (Paris), 2008 (entry 10, page 3; entry 120, page 41).
+%D A027568 L. J. Mordell, Diophantine Equations, Ac. Press, page 258.
+%D A027568 P. Odifreddi, Il museo dei numeri, Rizzoli, 2014, page 224.
+%D A027568 J. Roberts, The Lure of the Integers, page 53.
+%H A027568 P. De Geest, <a href="http://www.worldofnumbers.com/tetra.htm">Palindromic Tetrahedrals</a>
+%H A027568 M. Gardner, <a href="/A001110/a001110.jpg">Letter to N. J. A. Sloane, circa Aug 11 1980</a>, concerning A1110, A27568, A39596, etc.
+%H A027568 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/TetrahedralNumber.html">Tetrahedral Number</a>
+%p A027568 {seq(binomial(i,3),i=0..100000) } intersect {seq(binomial(k,2), k= 0..100000)}; # _Zerinvary Lajos_, Apr 26 2008
+%t A027568 f3[n_]:=n*(n+1)*(n+2)/6; TriangularNumberQ[n_]:=Floor[Sqrt[2*n]]*(Floor[Sqrt[2*n]]+1)/2==n; Select[f3[Range[5! ]],TriangularNumberQ[ # ]&] (* _Vladimir Joseph Stephan Orlovsky_, Feb 16 2010 *)
+%t A027568 With[{trno=Accumulate[Range[0,1000]]},Intersection[trno,Accumulate[ trno]]] (* _Harvey P. Dale_, May 25 2014 *)
+%o A027568 (PARI) for(n=0,1e3,if(ispolygonal(t=n*(n+1)*(n+2)/6,3),print1(t", "))) \\ _Charles R Greathouse IV_, Apr 07 2013
+%Y A027568 Intersection of A000217 and A000292.
+%Y A027568 Cf. A102349, A102461, A102772.
+%K A027568 nonn,fini,full
+%O A027568 1,3
+%A A027568 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

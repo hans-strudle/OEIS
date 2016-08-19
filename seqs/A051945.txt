@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051945
+Showing 1-1 of 1
+
+%I A051945
+%S A051945 1,6,22,80,294,1092,4092,15444,58630,223652,856596,3292016,12688732,
+%T A051945 49031400,189885240,736808220,2863971270,11149451940,43465121700,
+%U A051945 169657266240,662976162420
+%N A051945 a(n) = C(n)*(5n+1) where C(n) = Catalan numbers (A000108).
+%D A051945 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%F A051945 (n+1)*(5n-4)*a(n) - 2*(5n+1)(2n-1)*a(n-1) = 0. - _R. J. Mathar_, Jul 09 2012
+%o A051945 (PARI) a(n) = (5*n+1)*binomial(2*n, n)/(n+1)  \\ _Michel Marcus_, Jul 12 2013
+%Y A051945 Cf. A016813, A000108, A051924.
+%K A051945 easy,nonn
+%O A051945 0,2
+%A A051945 _Barry E. Williams_, Dec 20 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047682
+Showing 1-1 of 1
+
+%I A047682
+%S A047682 20,544,66560,17895424,8329625600,5937093935104,6004799480791040,
+%T A047682 8176700159200067584,14421891569272362106880,
+%U A047682 31983597922505761818148864,87107695717210805652024197120,285816431841945942589104606674944
+%V A047682 20,-544,66560,-17895424,8329625600,-5937093935104,6004799480791040,
+%W A047682 -8176700159200067584,14421891569272362106880,
+%X A047682 -31983597922505761818148864,87107695717210805652024197120,-285816431841945942589104606674944
+%N A047682 4^(2*n)*(4^(2*n)-1)*bernoulli(2*n)/(2*n).
+%D A047682 J. W. Milnor and J. D. Stasheff, Characteristic Classes, Princeton, 1974, p. 283.
+%H A047682 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%t A047682 f[n_]:=Module[{c=2n,x},x=4^c;(x(x-1)BernoulliB[c])/c]; Array[f,20] (* _Harvey P. Dale_, Feb 19 2013 *)
+%K A047682 sign
+%O A047682 0,1
+%A A047682 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

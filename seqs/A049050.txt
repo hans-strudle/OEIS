@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049050
+Showing 1-1 of 1
+
+%I A049050
+%S A049050 2,5,29,17,23,199,619,3313,4093,3011,355799,52163
+%N A049050 Least p with exactly n distinct factorial numbers == 1 (mod p).
+%K A049050 nonn
+%O A049050 2,1
+%A A049050 _David W. Wilson_
+%E A049050 Checked all a(n) <= 423000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

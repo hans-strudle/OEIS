@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036079
+Showing 1-1 of 1
+
+%I A036079
+%S A036079 1,2,14,150,1942,29174,505318,9957798,219177942,5303780758,
+%T A036079 139554619206,3962202725254,120644298135478,3918518255860342,
+%U A036079 135117086088186662,4925731652244913766,189170325211554345366
+%N A036079 E.g.f.: exp((exp(p*x)-p-1)/p+exp(x)) for p=9.
+%D A036079 T. S. Motzkin, Sorting numbers for cylinders and other classification numbers, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176.
+%D A036079 T. S. Motzkin, Sorting numbers ...: for a link to an annotated scanned version of this paper see A000262.
+%H A036079 <a href="/index/So#sorting">Index entries for sequences related to sorting</a>
+%t A036079 mx = 16; p = 9; Range[0, mx]! CoefficientList[ Series[ Exp[ (Exp[p*x] - p - 1)/p + Exp[x]], {x, 0, mx}], x] (* _Robert G. Wilson v_, Dec 12 2012 *)
+%Y A036079 Cf. A001861, A002872, A002873, A002874, A002875, A036074...
+%K A036079 nonn
+%O A036079 0,2
+%A A036079 _N. J. A. Sloane_.
+%E A036079 Edited by _N. J. A. Sloane_, Jul 11 2008 at the suggestion of Franklin T. Adams-Watters.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

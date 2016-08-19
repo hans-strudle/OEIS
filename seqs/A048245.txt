@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048245
+Showing 1-1 of 1
+
+%I A048245
+%S A048245 0,0,0,0,0,21,21,58,23,15
+%N A048245 Number of distinct winning tic-tac-toe positions after n plays, up to rotation and reflection.
+%C A048245 As in chess, a "play" is an action by a single player, a "move" is two contiguous plays by each opponent.
+%H A048245 <a href="/index/Th#TTT">Index entries for sequences related to tic-tac-toe</a>
+%Y A048245 A008907.
+%K A048245 fini,full,nonn
+%O A048245 0,6
+%A A048245 _Rob Pratt_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038707
+Showing 1-1 of 1
+
+%I A038707
+%S A038707 0,0,2,5,9,13,19,26,34,42,52,63,75,87,101,116,132,148,166,185,205,225,
+%T A038707 247,270,294,318,344,371,399,427,457,488,520,552,586,621,657,693,731,
+%U A038707 770,810,850,892,935,979,1023,1069,1116,1164,1212,1262
+%N A038707 Floor(n*(n+1/2)/2).
+%H A038707 <a href="/index/Be#Beatty">Index entries for sequences related to Beatty sequences</a>
+%H A038707 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (2, -1, 0, 1, -2, 1).
+%F A038707 (1/8) {4n^2 + 2n - 3 + (-1)^n - 2(-1)^[(n-1)/2] }. - _Ralf Stephan_, Jun 10 2005
+%F A038707 a(0)=0, a(1)=0, a(2)=2, a(3)=5, a(4)=9, a(5)=13, a(n)=2*a(n-1)- a(n-2)+ a(n-4)-2*a(n-5)+a(n-6). - _Harvey P. Dale_, Dec 27 2015
+%F A038707 a(n)=Floor(n(1+2*n))/4), - _Harvey P. Dale_, Dec 27 2015
+%t A038707 Table[Floor[(n(1+2n))/4],{n,0,50}] (* or *) LinearRecurrence[{2,-1,0,1,-2,1},{0,0,2,5,9,13},51] (* _Harvey P. Dale_, Dec 27 2015 *)
+%K A038707 nonn
+%O A038707 0,3
+%A A038707 _N. J. A. Sloane_, May 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016340
+Showing 1-1 of 1
+
+%I A016340
+%S A016340 1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,1,0,1,
+%T A016340 0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1
+%V A016340 1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,0,0,-1,0,-1,
+%W A016340 0,0,0,1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1
+%N A016340 156th cyclotomic polynomial.
+%K A016340 sign,fini
+%O A016340 0,1
+%A A016340 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

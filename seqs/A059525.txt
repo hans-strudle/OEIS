@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059525
+Showing 1-1 of 1
+
+%I A059525
+%S A059525 0,1,13,218,11506,2301877,1732082741,4872949974666
+%N A059525 Number of nonzero n X n binary arrays with all 1's connected.
+%C A059525 Old name was: "Number of n X n checkerboards in which the set of red squares is edge connected".
+%Y A059525 Cf. A059020, A059021.
+%K A059525 nonn,changed
+%O A059525 0,3
+%A A059525 _David Radcliffe_, Jan 21 2001
+%E A059525 One more term from _John W. Layman_, Jan 25 2001
+%E A059525 More terms from _R. H. Hardin_, Feb 28 2002
+%E A059525 Clearer name from _R. H. Hardin_, Jul 06 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

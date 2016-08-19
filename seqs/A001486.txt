@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001486
+Showing 1-1 of 1
+
+%I A001486 M4502 N1906
+%S A001486 1,8,28,56,62,0,148,328,419,280,140,728,1232,1336,848,224,1582,
+%T A001486 2688,3072,2408,742,1568,3836,5264,5306,3744,924,2576,5686,7792,
+%U A001486 8092,6272,2751,1848,6008,9296,10556,9800,6692,2240,3206,8168,11524
+%V A001486 1,-8,28,-56,62,0,-148,328,-419,280,140,-728,1232,-1336,848,224,-1582,
+%W A001486 2688,-3072,2408,-742,-1568,3836,-5264,5306,-3744,924,2576,-5686,7792,
+%X A001486 -8092,6272,-2751,-1848,6008,-9296,10556,-9800,6692,-2240,-3206,8168,-11524
+%N A001486 Expand {Product_{j=1..inf} (1-x^j) - 1 }^8 in powers of x.
+%D A001486 H. Gupta, On the coefficients of the powers of Dedekind's modular form, J. London Math. Soc., 39 (1964), 433-440.
+%D A001486 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001486 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%K A001486 sign
+%O A001486 1,2
+%A A001486 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

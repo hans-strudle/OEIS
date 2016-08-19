@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013910
+Showing 1-1 of 1
+
+%I A013910
+%S A013910 24,191102976,1521681143169024,12116574790945106558976,
+%T A013910 96479729228174488169059713024,768231807465763655682670928358014976,
+%U A013910 6117141027690268863066571918245810640257024
+%N A013910 24^(5n+1).
+%H A013910 Vincenzo Librandi, <a href="/A013910/b013910.txt">Table of n, a(n) for n = 0..50</a>
+%H A013910 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013910 a(n) = 7962624*a(n-1), a(0)=24; [From Vincenzo Librandi, May 29 2011]
+%o A013910 (MAGMA) [24^(5*n+1): n in [0..10]]; // Vincenzo Librandi, May 29 2011
+%K A013910 nonn
+%O A013910 0,1
+%A A013910 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

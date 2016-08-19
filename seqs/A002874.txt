@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a002874
+Showing 1-1 of 1
+
+%I A002874 M1863 N0738
+%S A002874 1,2,8,42,268,1994,16852,158778,1644732,18532810,225256740,2933174842,
+%T A002874 40687193548,598352302474,9290859275060,151779798262202,
+%U A002874 2600663778494172,46609915810749130,871645673599372868
+%N A002874 The number of partitions of {1..3n} that are invariant under a permutation consisting of n 3-cycles.
+%C A002874 Original name: Sorting numbers.
+%C A002874 Equals column 3 of A162663. - _Michel Marcus_, Mar 27 2013
+%D A002874 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A002874 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A002874 T. D. Noe, <a href="/A002874/b002874.txt">Table of n, a(n) for n=0..100</a>
+%H A002874 T. S. Motzkin, <a href="/A000262/a000262.pdf">Sorting numbers for cylinders and other classification numbers</a>, in Combinatorics, Proc. Symp. Pure Math. 19, AMS, 1971, pp. 167-176. [Annotated, scanned copy]
+%H A002874 OEIS Wiki, <a href="http://oeis.org/wiki/Sorting_numbers">Sorting numbers</a>
+%H A002874 <a href="/index/So#sorting">Index entries for sequences related to sorting</a>
+%F A002874 E.g.f.: exp( (exp(3*x) - 4)/3 + exp(x) ).
+%p A002874 S:= series(exp( (exp(3*x) - 4)/3 + exp(x)), x, 31):
+%p A002874 seq(coeff(S,x,j)*j!, j=0..30); # _Robert Israel_, Oct 30 2015
+%t A002874 u[0,j_]:=1;u[k_,j_]:=u[k,j]=Sum[Binomial[k-1,i-1]Plus@@(u[k-i,j]#^(i-1)&/@Divisors[j]),{i,k}]; Table[u[n,3],{n,0,12}] (* _Wouter Meeussen_, Dec 06 2008 *)
+%t A002874 mx = 16; p = 3; Range[0, mx]! CoefficientList[ Series[ Exp[ (Exp[p*x] - p - 1)/p + Exp[x]], {x, 0, mx}], x] (* _Robert G. Wilson v_, Dec 12 2012 *)
+%Y A002874 u[n,j] generates for j=1, A000110; j=2, A002872; j=3, this sequence; j=4, A141003; j=5, A036075; j=6, A141004; j=7, A036077. - _Wouter Meeussen_, Dec 06 2008
+%K A002874 nonn,easy,nice
+%O A002874 0,2
+%A A002874 _N. J. A. Sloane_, _Simon Plouffe_
+%E A002874 New name from _Danny Rorabaugh_, Oct 24 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

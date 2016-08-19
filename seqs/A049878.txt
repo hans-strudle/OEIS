@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049878
+Showing 1-1 of 1
+
+%I A049878
+%S A049878 1,1,1,2,3,3,4,3,5,4,3,5,4,3,4,3,5,4,3,4,3,5,4,3,15,1,2,8,3,11,3,14,3,
+%T A049878 2,3,5,19,21,3,24,3,1,7,4,3,4,3,27,3,27,3,4,27,3,27,3,4,3,5
+%N A049878 MIN{j,k} where u(n)=u(j)+u(k) is the unique sum of Ulam numbers described in A002859.
+%K A049878 nonn
+%O A049878 3,4
+%A A049878 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

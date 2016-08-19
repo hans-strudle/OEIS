@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008489
+Showing 1-1 of 1
+
+%I A008489
+%S A008489 1,7,28,84,210,462,924,1715,2996,4977,7924,12166,18102,26208,37044,
+%T A008489 51261,69608,92939,122220,158536,203098,257250,322476,400407,492828,
+%U A008489 601685,729092,877338,1048894,1246420,1472772,1731009,2024400,2356431,2730812,3151484
+%N A008489 Expansion of (1-x^7)/(1-x)^7.
+%C A008489 Coordination sequence for 6-dimensional cyclotomic lattice Z[zeta_7].
+%H A008489 Colin Barker, <a href="/A008489/b008489.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008489 M. Beck and S. Hosten, <a href="http://arxiv.org/abs/math/0508136">Cyclotomic polytopes and growth series of cyclotomic lattices</a>, arXiv math.CO/0508136.
+%H A008489 <a href="/index/Rec#order_06">Index entries for linear recurrences with constant coefficients</a>, signature (6,-15,20,-15,6,-1).
+%F A008489 Equals binomial transform of [1, 6, 15, 20, 15, 6, 1, -1, 1, -1, 1,...] - _Gary W. Adamson_, Apr 29 2008
+%F A008489 a(n) = 7*n*(35*n^2+84+n^4)/120, n>0. - _R. J. Mathar_, Mar 17 2011
+%F A008489 G.f.: (x^6+x^5+x^4+x^3+x^2+x+1) / (x-1)^6. - _Colin Barker_, Mar 04 2015
+%o A008489 (PARI) Vec((x^6+x^5+x^4+x^3+x^2+x+1)/(x-1)^6 + O(x^100)) \\ _Colin Barker_, Mar 04 2015
+%K A008489 nonn,easy
+%O A008489 0,2
+%A A008489 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

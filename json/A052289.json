@@ -1,0 +1,1 @@
+{"formerly":"","seq":"2,4,12,18,36","description":"Numbers n such that n!*2^n+n+1 = A000165(n)+n+1 is prime.","comments":"For comparison A000165(n)+1 is composite for all n below 200 except n=1","example":"n=4, 2^4*4!+4+1 = 389 is prime","crossrefs":["A000165, A052290."],"keyword":"nonn","offset":"1,1","author":"_Labos Elemer_, Feb 08 2000"}

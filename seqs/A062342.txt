@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062342
+Showing 1-1 of 1
+
+%I A062342
+%S A062342 17,53,71,79,97,107,233,251,277,349,367,431,439,457,503,521,547,619,
+%T A062342 673,691,701,709,727,853,907,1061,1069,1087,1151,1223,1249,1429,1447,
+%U A062342 1483,1511,1601,1609,1627,1663,1753,1861,1933,1951,2141,2213,2239,2293
+%N A062342 Primes whose sum of digits is a multiple of 8.
+%C A062342 Subsequence of A062338.
+%e A062342 709 is a prime with sum of digits = 16, hence belongs to the sequence.
+%t A062342 Select[Prime[Range[500]],Divisible[Total[IntegerDigits[#]],8]&] (* _Harvey P. Dale_, Jun 23 2011 *)
+%o A062342 (MAGMA) [ p: p in PrimesUpTo(10000) | &+Intseq(p) mod 8 eq 0 ]; // _Vincenzo Librandi_, Apr 02 2011
+%K A062342 nonn,base,easy
+%O A062342 1,1
+%A A062342 _Amarnath Murthy_, Jun 21 2001
+%E A062342 More terms from Larry Reeves (larryr(AT)acm.org), Jul 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

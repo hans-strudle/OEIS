@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050644
+Showing 1-1 of 1
+
+%I A050644
+%S A050644 27,2744,15888972744,2707735521979615888972744877331
+%N A050644 a(n+1) is next smallest nontrivial cube containing a(n) as a substring, initial term is 27.
+%Y A050644 Cf. A050645, A048567, A050650.
+%K A050644 nonn,base,more
+%O A050644 1,1
+%A A050644 _Patrick De Geest_, Jul 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

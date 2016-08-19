@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036417
+Showing 1-1 of 1
+
+%I A036417
+%S A036417 1,6,7,106,112,113,33102,33215
+%N A036417 Values of n for which there are no empty intervals when fractional part(m*Pi) for m = 1, ..., n is plotted along [ 0, 1 ] subdivided into n equal regions.
+%H A036417 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/EquidistributedSequence.html">Equidistributed Sequence.</a>
+%Y A036417 Cf. A036416.
+%K A036417 nonn
+%O A036417 1,2
+%A A036417 _Eric W. Weisstein_
+%E A036417 No others with n<=50000.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

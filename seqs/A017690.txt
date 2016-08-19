@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017690
+Showing 1-1 of 1
+
+%I A017690
+%S A017690 1,8192,1594323,67108864,1220703125,1088391168,96889010407,
+%T A017690 549755813888,2541865828329,5000000000000,34522712143931,
+%U A017690 26748301344768,302875106592253,99214346656768,648731689453125
+%N A017690 Denominator of sum of -13th powers of divisors of n.
+%C A017690 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%Y A017690 Cf. A017689.
+%K A017690 nonn,frac
+%O A017690 1,2
+%A A017690 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

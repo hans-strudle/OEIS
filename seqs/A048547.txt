@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048547
+Showing 1-1 of 1
+
+%I A048547
+%S A048547 9,31,890,2234,14131,30331,173031,969520,9958890,31617890,360542549,
+%T A048547 547631234,3316547890,17318486343,114017542334,356363452109
+%N A048547 a(n)*(a(n)+1) is smallest pronic number containing exactly n 9's.
+%H A048547 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PronicNumber.html">Pronic Number</a>
+%Y A048547 Cf. A048548, A002378.
+%K A048547 nonn,base,more
+%O A048547 1,1
+%A A048547 _Patrick De Geest_, May 15 1999.
+%E A048547 a(13)-a(16) from _Lars Blomberg_, Jun 10 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005070
+Showing 1-1 of 1
+
+%I A005070
+%S A005070 0,0,0,0,0,0,7,0,0,0,0,0,13,7,0,0,0,0,19,0,7,0,0,0,0,13,0,7,0,0,31,0,
+%T A005070 0,0,7,0,37,19,13,0,0,7,43,0,0,0,0,0,7,0,0,13,0,0,0,7,19,0,0,0,61,31,
+%U A005070 7,0,13,0,67,0,0,7,0,0,73,37
+%N A005070 Sum of primes = 1 (mod 3) dividing n.
+%F A005070 Additive with a(p^e) = p if p = 1 (mod 3), 0 otherwise.
+%K A005070 nonn
+%O A005070 1,7
+%A A005070 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

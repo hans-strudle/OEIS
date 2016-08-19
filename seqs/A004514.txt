@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004514
+Showing 1-1 of 1
+
+%I A004514
+%S A004514 0,2,0,2,8,10,8,10,0,2,0,2,8,10,8,10,32,34,32,34,40,42,40,42,32,34,32,
+%T A004514 34,40,42,40,42,0,2,0,2,8,10,8,10,0,2,0,2,8,10,8,10,32,34,32,34,40,42,
+%U A004514 40,42,32,34,32,34,40,42,40,42,128,130,128,130,136,138,136,138,128
+%N A004514 Generalized nim sum n + n in base 4.
+%H A004514 Reinhard Zumkeller, <a href="/A004514/b004514.txt">Table of n, a(n) for n = 0..10000</a>
+%H A004514 <a href="/index/Ni#Nimsums">Index entries for sequences related to Nim-sums</a>
+%F A004514 Generalized nim sum m + n in base q: write m and n in base q and add mod q with no carries, e.g. 5 + 8 in base 3 = "21" + "22" = "10" = 1.
+%F A004514 a(n) = 2*(n-a(floor(n/2))). a(n) = 2*A063694(n). - _Vladeta Jovovic_, Feb 23 2003
+%F A004514 Equals A088442 - 1. - Chris Groer (cgroer(AT)math.uga.edu), Nov 10, 2003
+%F A004514 a(n) = n + A053985(n). - _Reinhard Zumkeller_, Dec 27 2003
+%F A004514 a(n) = A063695(2*n+1). - _Reinhard Zumkeller_, Sep 26 2015
+%o A004514 (Haskell)
+%o A004514 a004514 = a063695 . (+ 1) . (* 2)  -- _Reinhard Zumkeller_, Sep 26 2015
+%Y A004514 Cf. A053985, A063694, A063695, A088442.
+%K A004514 base,nonn
+%O A004514 0,2
+%A A004514 _N. J. A. Sloane_.
+%E A004514 More terms from _Reinhard Zumkeller_, Dec 27 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

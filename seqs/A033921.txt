@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033921
+Showing 1-1 of 1
+
+%I A033921
+%S A033921 0,0,0,0,1,2,4,8,2,2,4,8,4,8,16,32,0,2,4,8,8,2,4,8,16,32,64,8,8,8,8,
+%T A033921 64,4,8,8,8,8,8,8,8,16,32,8,8,16,32,64,32,8,4,8,8,4,4,8,8,4,8,8,64,8,
+%U A033921 8,16,8,16,32,64,64,8,8,16,32,64,32,8,16,32,64,4,8,8,16,32,64,16,32,64,8,8
+%N A033921 Largest proper substring of 2^n that is a power of 2 (0 if none).
+%e A033921 2^15={32}768, so a(15)=32.
+%K A033921 nonn,base
+%O A033921 0,6
+%A A033921 _N. J. A. Sloane_.
+%E A033921 More terms from _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

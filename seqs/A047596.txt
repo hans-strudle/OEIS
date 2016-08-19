@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047596
+Showing 1-1 of 1
+
+%I A047596
+%S A047596 2,3,4,5,10,11,12,13,18,19,20,21,26,27,28,29,34,35,36,37,42,43,44,45,
+%T A047596 50,51,52,53,58,59,60,61,66,67,68,69,74,75,76,77,82,83,84,85,90,91,92,
+%U A047596 93,98,99,100,101,106,107,108
+%N A047596 Numbers that are congruent to {2, 3, 4, 5} mod 8.
+%H A047596 Bruno Berselli, <a href="/A047596/b047596.txt">Table of n, a(n) for n = 1..1000</a>
+%H A047596 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,1,-1).
+%F A047596 G.f.: x*(2+x+x^2+x^3+3*x^4)/((1+x)*(1-x)^2*(1+x^2)). [_Bruno Berselli_, Jul 17 2012]
+%F A047596 a(n) = 2*n-1 -i^(n*(n+1)) -(1+(-1)^n)/2, where i=sqrt(-1). [_Bruno Berselli_, Jul 17 2012]
+%F A047596 a(n) = 2n - A010873(n-1). [_Wesley Ivan Hurt_, Jul 07 2013]
+%t A047596 Select[Range[120], MemberQ[{2, 3, 4, 5}, Mod[#, 8]] &] (* or *) LinearRecurrence[{1, 0, 0, 1, -1}, {2, 3, 4, 5, 10}, 60] (* _Bruno Berselli_, Jul 17 2012 *)
+%o A047596 Contribution from _Bruno Berselli_, Jul 17 2012: (Start)
+%o A047596 (MAGMA) [n: n in [1..120] | n mod 8 in [2..5]];
+%o A047596 (Maxima) makelist(2*n-1-%i^(n*(n+1))-(1+(-1)^n)/2,n,1,60);
+%o A047596 (PARI) Vec((2+x+x^2+x^3+3*x^4)/((1+x)*(1-x)^2*(1+x^2))+O(x^60)) (End)
+%K A047596 nonn,easy
+%O A047596 1,1
+%A A047596 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

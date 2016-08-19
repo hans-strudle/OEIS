@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050784
+Showing 1-1 of 1
+
+%I A050784
+%S A050784 2,3,5,7,101,131,151,181,191,313,353,373,383,727,757,787,797,919,929,
+%T A050784 10301,10501,10601,12421,12721,12821,13831,13931,14341,14741,15451,
+%U A050784 16061,16361,16561,17471,17971,18181,18481,19391,19891,30103,30203
+%N A050784 Palindromic primes containing no pair of consecutive equal digits.
+%t A050784 Select[Prime[Range[3280]],Reverse[x=IntegerDigits[#]]==x&&FreeQ[Differences[x],0]&] (* _Jayanta Basu_, Jun 01 2013 *)
+%Y A050784 Cf. A050783, A030147, A050757, A046075.
+%K A050784 nonn,base
+%O A050784 1,1
+%A A050784 _Patrick De Geest_, Sep 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

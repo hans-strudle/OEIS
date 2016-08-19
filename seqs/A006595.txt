@@ -1,0 +1,37 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006595
+Showing 1-1 of 1
+
+%I A006595 M1794
+%S A006595 1,2,7,33,192,1320,10440,93240,927360,10160640,121564800,1576713600,
+%T A006595 22034073600,330032102400,5274286617600,89575694208000,
+%U A006595 1611054821376000,30589118816256000,611426688897024000
+%N A006595 (n+2)!/4 + n!/2.
+%C A006595 A non-plane recursive tree is a rooted labeled plane tree (the children of a node are not ordered) with the property that the labels increase along any path from the root to a leaf. a(n) = the total number of vertices of outdegree 1 among the set of n! non-plane recursive trees on n+1 vertices. An example is given below. - Peter Bala, Jul 08 2012
+%D A006595 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 258.
+%D A006595 D. Daly and L. Pudwell, Pattern avoidance in rook monoids, 2013; http://faculty.valpo.edu/lpudwell/slides/sandiego2013.pdf. - From _N. J. A. Sloane_, Feb 03 2013
+%D A006595 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006595 J. R. Stembridge, Some combinatorial aspects of reduced words in finite Coxeter groups. Trans. Amer. Math. Soc. 349 (1997), no. 4, 1285-1332.
+%F A006595 E.g.f.: 1/2*(x^2-2*x+2)/(1-x)^3. - _Peter Bala_, Jul 08 2012
+%F A006595 a(n) +(-n-2)*a(n-1) +2*a(n-2) +2*(-n+2)*a(n-3)=0. - _R. J. Mathar_, May 30 2014
+%e A006595 a(3) = 7. There are 3! = 6 non-plane recursive trees on 4 nodes shown below. The total number of nodes of outdegree 1 is 3+1+1+1+1+0 = 7.
+%e A006595 .0o......0o..........0o..........0o.........0o...........0o......
+%e A006595 ..|.......|........../.\........./.\......../.\........../|\.....
+%e A006595 ..|.......|........./...\......./...\....../...\......../.|.\....
+%e A006595 .1o......1o.......1o.....o3...1o....o2...2o.....o1...../..|..\...
+%e A006595 ..|....../.\.......|...........|..........|..........1o..2o...o3.
+%e A006595 ..|...../...\......|...........|..........|......................
+%e A006595 .2o...2o.....o3...2o..........3o.........3o......................
+%e A006595 ..|..............................................................
+%e A006595 ..|..............................................................
+%e A006595 .3o..............................................................
+%e A006595 .................................................................
+%o A006595 (PARI) a(n) = (n+2)!/4 + n!/2; \\ _Michel Marcus_, Aug 04 2013
+%Y A006595 A diagonal of A059418.
+%K A006595 nonn,easy
+%O A006595 0,2
+%A A006595 _N. J. A. Sloane_.
+%E A006595 Improved description and sequence extended, Aug 15 1995.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

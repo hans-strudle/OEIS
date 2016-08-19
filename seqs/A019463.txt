@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019463
+Showing 1-1 of 1
+
+%I A019463
+%S A019463 1,2,2,4,8,11,33,37,148,153,765,771,4626,4633,32431,32439,259512,
+%T A019463 259521,2335689,2335699,23356990,23357001,256927011,256927023,
+%U A019463 3083124276,3083124289,40080615757,40080615771
+%N A019463 Add 1, multiply by 1, add 2, multiply by 2, etc.
+%H A019463 Nick Hobson, <a href="/A019463/a019463.py.txt">Python program for this sequence</a>
+%t A019463 For[i=1;lst={1},i<15,i++,AppendTo[lst,i+Last[lst]];AppendTo[lst,i Last[lst]]];lst (* _Harvey P. Dale_, Feb 25 2012 *)
+%K A019463 nonn
+%O A019463 0,2
+%A A019463 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

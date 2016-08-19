@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038452
+Showing 1-1 of 1
+
+%I A038452
+%S A038452 1111111111,10111111111,11011111111,11101111111,11110111111,
+%T A038452 11111011111,11111101111,11111110111,11111111011,11111111101,
+%U A038452 11111111110,100111111111,101011111111,101101111111,101110111111
+%N A038452 Sums of 10 distinct powers of 10.
+%t A038452 Take[Union[Total/@Subsets[10^Range[0,15],{10}]],20] (* _Harvey P. Dale_, Dec 19 2011 *)
+%K A038452 nonn,easy
+%O A038452 1,1
+%A A038452 _Olivier Gérard_
+%E A038452 Offset changed to 1 by _Ivan Neretin_, Feb 28 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061129
+Showing 1-1 of 1
+
+%I A061129
+%S A061129 1,1,1,1,4,16,136,736,4096,20224,99856,475696,3889216,31778176,
+%T A061129 313696384,2709911296,23006784256,179965340416,1532217039616,
+%U A061129 13081112406784,147235213351936,1657791879049216,20132199908571136
+%N A061129 Number of degree-n even permutations of order dividing 4.
+%F A061129 E.g.f.: 1/2*exp(x + 1/2*x^2 + 1/4*x^4) + 1/2*exp(x - 1/2*x^2 - 1/4*x^4).
+%Y A061129 Cf. A000085, A001470, A001472, A052501, A053496 - A053505, A001189, A001471, A001473, A061121 - A061128, A000704, A061129 - A061132, A048099, A051695, A061133 - A061135.
+%K A061129 easy,nonn
+%O A061129 0,5
+%A A061129 _Vladeta Jovovic_, Apr 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

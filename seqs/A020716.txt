@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020716
+Showing 1-1 of 1
+
+%I A020716
+%S A020716 6,8,11,15,20,27,36,48,64,85,113,150,199,264,350,464,615,815,1080,
+%T A020716 1431,1896,2512,3328,4409,5841,7738,10251,13580,17990,23832,31571,
+%U A020716 41823,55404,73395,97228,128800,170624,226029,299425,396654,525455,696080,922110,1221536
+%N A020716 Pisot sequences E(6,8), P(6,8).
+%F A020716 a(n) = a(n-1) + a(n-2) - a(n-4) (holds at least up to n = 1000 but is not known to hold in general).
+%t A020716 RecurrenceTable[{a[0] == 6, a[1] == 8, a[n] == Floor[a[n - 1]^2/a[n - 2] + 1/2]}, a, {n, 0, 50}] (* _Bruno Berselli_, Feb 05 2016 *)
+%o A020716 (MAGMA) Exy:=[6,8]; [n le 2 select Exy[n] else Floor(Self(n-1)^2/Self(n-2) + 1/2): n in [1..50]]; // _Bruno Berselli_, Feb 05 2016
+%Y A020716 It appears that this is a subsequence of A023434.
+%Y A020716 See A008776 for definitions of Pisot sequences.
+%K A020716 nonn
+%O A020716 0,1
+%A A020716 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

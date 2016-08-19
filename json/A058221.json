@@ -1,0 +1,1 @@
+{"formerly":"","seq":"2,5,15,17,17,83,173,357,629,179,2543,8067,5619,29027","description":"Next-to-smallest k such that 2^(2^n) - k is prime.","prog":"(PARI) a(n) = N = 2^(2^n); N - precprime(precprime(N)-1) \\\\ _Michel Marcus_, Jun 29 2013","crossrefs":["Cf. A058220."],"keyword":"nonn,hard,more","offset":"1,1","author":"_Warren D. Smith_, Nov 30 2000"}

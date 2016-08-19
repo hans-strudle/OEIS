@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062643
+Showing 1-1 of 1
+
+%I A062643
+%S A062643 19,101,5939
+%N A062643 Numbers n such that k^n - (k-1)^n is prime, where k is 77.
+%C A062643 Terms > 1000 are often only strong pseudoprimes.
+%C A062643 a(4) > 10^5. - _Robert Price_, Sep 01 2014
+%Y A062643 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062643 nonn,hard,bref
+%O A062643 1,1
+%A A062643 _Mike Oakes_, May 18 2001, May 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

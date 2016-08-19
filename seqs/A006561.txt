@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006561
+Showing 1-1 of 1
+
+%I A006561 M3833
+%S A006561 0,0,0,1,5,13,35,49,126,161,330,301,715,757,1365,1377,2380,1837,3876,
+%T A006561 3841,5985,5941,8855,7297,12650,12481,17550,17249,23751,16801,31465,
+%U A006561 30913,40920,40257,52360,46981,66045,64981,82251,80881,101270
+%N A006561 Number of intersections of diagonals in the interior of regular n-gon.
+%D A006561 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006561 T. D. Noe, <a href="/A006561/b006561.txt">Table of n, a(n) for n=1..1000</a>
+%H A006561 Sascha Kurz, <a href="http://www.mathe2.uni-bayreuth.de/sascha/oeis/drawing/drawing.html">m-gons in regular n-gons</a>
+%H A006561 B. Poonen and M. Rubinstein, <a href="http://dx.doi.org/10.1137/S0895480195281246">Number of Intersection Points Made by the Diagonals of a Regular Polygon</a>, SIAM J. Discrete Mathematics, Vol. 11, pp. 135-156.
+%H A006561 B. Poonen and M. Rubinstein, <a href="http://math.mit.edu/~poonen/">The number of intersection points made by the diagonals of a regular polygon</a>, SIAM J. on Discrete Mathematics, Vol. 11, No. 1, 135-156 (1998).
+%H A006561 B. Poonen and M. Rubinstein, <a href="http://arXiv.org/abs/math.MG/9508209">The number of intersection points made by the diagonals of a regular polygon</a>, arXiv version, which has fewer typos than the SIAM version.
+%H A006561 B. Poonen and M. Rubinstein, <a href="http://math.mit.edu/~poonen/papers/ngon.m">Mathematica programs for these sequences</a>
+%H A006561 B. Poonen & M. Rubinstein, <a href="http://www.math.uwaterloo.ca/~mrubinst/publications/ngon.pdf">The Number Of Intersection Points Made By The Diagonals Of A Regular Polygon</a>, SIAM Journal in Discrete Mathematics, pp. 135-6 vol. 11 no.1 1998.
+%H A006561 <a href="/index/Pol#Poonen">Sequences formed by drawing all diagonals in regular polygon</a>
+%F A006561 For odd n, (n^4-6n^3+11n^2-6n)/24. For even n, use this formula, but then subtract 2 for every 3-crossing, subtract 5 for every 4-crossing, subtract 9 for every 5-crossing, etc. The number to be subtracted is one smaller than a triangular number. - _Graeme McRae_, Dec 26 2004
+%F A006561 a(n) = A007569(n)-n. - _T. D. Noe_, Dec 23 2006
+%F A006561 a(2n+5) = A053126(n+4). - _Philippe Deléham_, Jun 07 2013
+%t A006561 del[m_,n_]:=If[Mod[n,m]==0,1,0]; Int[n_]:=If[n<4, 0, Binomial[n,4] + del[2,n](-5n^3+45n^2-70n+24)/24 - del[4,n](3n/2) + del[6,n](-45n^2+262n)/6 + del[12,n]*42n + del[18,n]*60n + del[24,n]*35n - del[30,n]*38n - del[42,n]*82n - del[60,n]*330n - del[84,n]*144n - del[90,n]*96n - del[120,n]*144n - del[210,n]*96n]; Table[Int[n], {n,1,1000}] - _T. D. Noe_, Dec 21 2006
+%Y A006561 Sequences related to chords in a circle: A001006, A054726, A006533, A006561, A006600, A007569, A007678. See also entries for chord diagrams in Index file.
+%K A006561 easy,nonn,nice
+%O A006561 1,5
+%A A006561 _N. J. A. Sloane_, Bjorn Poonen (poonen(AT)math.princeton.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

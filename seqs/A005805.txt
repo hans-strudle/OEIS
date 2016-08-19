@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005805
+Showing 1-1 of 1
+
+%I A005805 M1519
+%S A005805 1,2,5,18,107,1008,13113,214238,4182487,94747196,2440784645,
+%T A005805 70431957258,2249856084803,78802876705608,3002702793753489,
+%U A005805 123649410977736950,5471808106109912815,258948617502187143188
+%N A005805 Number of phylogenetic trees with n labels.
+%C A005805 Stirling transform of [ 1, 1, 1, 4, 26, 236, ... ] = A000311(n-1).
+%C A005805 Series-reduced trees where each leaf is a nonempty subset of the set of n labels. [_Christian G. Bower_, Dec 15 1999]
+%D A005805 Foulds, L. R.; Robinson, R. W. Enumeration of phylogenetic trees without points of degree two. Ars Combin. 17 (1984), A, 169-183. Math. Rev. 85f:05045
+%D A005805 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005805 Vincenzo Librandi, <a href="/A005805/b005805.txt">Table of n, a(n) for n = 1..100</a>
+%H A005805 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A005805 <a href="/index/Tra#trees">Index entries for sequences related to trees</a>
+%p A005805 stirtr:= proc(p) proc(n) add(p(k) *combinat[stirling2](n,k), k=0..n) end end: b:= proc(n) option remember; if n<=1 then n elif n=2 then 1 else (n+1) *b(n-1) +2*add(binomial(n-1, k) *b(k) *b(n-k), k=2..n-2) fi end:
+%p A005805 a:= stirtr(n->`if`(n<2,1, b(n-1))):
+%p A005805 seq(a(n), n=1..20); # _Alois P. Heinz_, Sep 15 2008
+%t A005805 max = 18; a311 = CoefficientList[ InverseSeries[ Series[ 1 + 2x - E^x, {x, 0, max}], x], x]*Range[0, max]!; b[1] = 1; b[k_] := a311[[k]]; a[n_] := Sum[ b[k]*StirlingS2[n, k], {k, 1, n}]; Table[ a[n], {n, 1, max}] (* _Jean-François Alcover_, Feb 22 2012 *)
+%Y A005805 Cf. A000311, A005804.
+%K A005805 nonn,easy
+%O A005805 1,2
+%A A005805 _N. J. A. Sloane_
+%E A005805 More terms from _Christian G. Bower_, Dec 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

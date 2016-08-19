@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015906
+Showing 1-1 of 1
+
+%I A015906
+%S A015906 6,4,10,6,14,8,12,10,22,12,15,14,30,16,34,18,38,20,28,22,46,24,28,26,
+%T A015906 54,28,35,30,51,32,44,34,70,36,52,38,78,40,70,42,86,44,60,46,94,48,56,
+%U A015906 50,66,52,106,54,66,56,76,58,118,60,85,62,66,64,80,66,134,68
+%N A015906 First k>n such that k | n^k + n.
+%K A015906 nonn
+%O A015906 0,1
+%A A015906 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

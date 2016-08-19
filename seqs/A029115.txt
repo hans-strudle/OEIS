@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029115
+Showing 1-1 of 1
+
+%I A029115
+%S A029115 1,1,1,1,1,1,2,2,2,2,3,4,5,5,5,5,6,7,8,8,9,10,12,13,14,14,15,16,18,19,
+%T A029115 21,22,24,26,28,29,31,32,34,36,39,41,44,46,49,51,54,56,59,61,65,68,72,
+%U A029115 75,79,82,86,89,93,96,101
+%N A029115 Expansion of 1/((1-x)(1-x^6)(1-x^10)(1-x^11)).
+%K A029115 nonn
+%O A029115 0,7
+%A A029115 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

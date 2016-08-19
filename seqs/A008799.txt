@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008799
+Showing 1-1 of 1
+
+%I A008799
+%S A008799 1,0,2,0,3,0,5,1,7,2,9,3,12,5,15,7,18,9,22,12,26,15,30,18,35,22,40,26,
+%T A008799 45,30,51,35,57,40,63,45,70,51,77,57,84,63,92,70,100,77,108,84,117,92,
+%U A008799 126,100,135,108,145,117
+%N A008799 Molien series for 3-dimensional group [2,n]+ = 22n.
+%H A008799 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A008799 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (1,1,-1,0,0,1,-1,-1,1).
+%F A008799 G.f.: (1+x^7)/((1-x^2)^2*(1-x^6)).
+%F A008799 a(n) = floor((n^2+3*n+21+7*(n+1)*(-1)^n)/24). - _Tani Akinari_, Jul 25 2013
+%F A008799 G.f.: ( -1-x^2-x^4-x^6+x+x^3+x^5 ) / ( (1+x+x^2)*(x^2-x+1)*(1+x)^2*(x-1)^3 ). - _R. J. Mathar_, Dec
+%F A008799  18 2014
+%p A008799 (1+x^7)/(1-x^2)^2/(1-x^6);
+%K A008799 nonn
+%O A008799 0,3
+%A A008799 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

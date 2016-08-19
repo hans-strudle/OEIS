@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062424
+Showing 1-1 of 1
+
+%I A062424
+%S A062424 1,1,1,2,6,13,31,74,179,434,1049,2528,6070,14507,34499,81613,192027,
+%T A062424 449352,1045728,2420272,5571099,12754877,29047133,65805050,148314718,
+%U A062424 332598476,742181535,1648151965,3642712530,8013755344,17549842394
+%N A062424 Nearest integer to log(n)^(sqrt(n)*log(n)).
+%t A062424 Round[Log[n]^(Sqrt[n]*Log[n])]
+%Y A062424 Cf. A062423.
+%K A062424 nonn,easy
+%O A062424 1,4
+%A A062424 _Olivier Gérard_, Jun 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

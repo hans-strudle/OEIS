@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047943
+Showing 1-1 of 1
+
+%I A047943
+%S A047943 1,8,1044,33562880,70368748374016,9444732965876730429440,
+%T A047943 81129638414606686199388699623424,
+%U A047943 44601490397061246283080881278262737180295168
+%N A047943 Number of 8-colorings of an n X n grid, up to rotational symmetry.
+%F A047943 a(n) = (m^(n^2) + 2 m^((n^2 + 3 (n mod 2))/4) + m^((n^2 + (n mod 2))/2))/4, with m = 8
+%Y A047943 Cf. A047937-A047945.
+%K A047943 nonn
+%O A047943 0,2
+%A A047943 _Rob Pratt_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

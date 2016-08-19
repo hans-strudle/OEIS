@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023882
+Showing 1-1 of 1
+
+%I A023882
+%S A023882 1,1,5,32,304,3537,52010,895397,18016416,410889848,10523505770,
+%T A023882 298220329546,9274349837081,313761671751672,11474635626789410,
+%U A023882 450964042480390679,18954785687060988578,848386888530723146912
+%N A023882 G.f.: 1/Product_{n>0} (1 - n^n * x^n).
+%H A023882 Vaclav Kotesovec, <a href="/A023882/b023882.txt">Table of n, a(n) for n = 0..380</a>
+%F A023882 Log of g.f.: sum_{k>=1} (sigma(k, k+1)/k) x^k, where sigma(k, q) is the sum of the q-th powers of the divisors of k.
+%F A023882 a(n) ~ n^n * (1 + exp(-1)/n + (1/2*exp(-1)+5*exp(-2))/n^2). - _Vaclav Kotesovec_, Dec 19 2015
+%t A023882 nmax=20; CoefficientList[Series[Product[1/(1-k^k*x^k), {k, 1, nmax}], {x, 0, nmax}], x] (* _Vaclav Kotesovec_, Dec 19 2015 *)
+%Y A023882 Cf. A265949.
+%K A023882 nonn
+%O A023882 0,3
+%A A023882 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

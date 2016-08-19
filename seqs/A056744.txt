@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056744
+Showing 1-1 of 1
+
+%I A056744
+%S A056744 1,2,6,12,44,44,92,184,1208,1256,4792,4792,9912,9912,19832,39664,
+%T A056744 563952,576464,4496112,4499184,17996528,17997488,143972080,143972080,
+%U A056744 145057520,145070832,294967024,294967024,589944560,589944560,1179889136
+%N A056744 Smallest number which when written in binary contains the binary strings for the numbers 1..n.
+%e A056744 a(6)=44 because 101100 (44 in base 2) is the smallest number that contains 1, 10, 11, 100, 101 and 110 (1 through 6 in base 2)
+%K A056744 base,nonn
+%O A056744 1,2
+%A A056744 Fred J. Schalekamp, Aug 15 2000
+%E A056744 More terms from _Naohiro Nomoto_, Jul 20 2001
+%E A056744 a(25)-a(32) from _Ray Chandler_, Nov 06 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

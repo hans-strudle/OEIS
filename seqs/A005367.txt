@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005367
+Showing 1-1 of 1
+
+%I A005367
+%S A005367 4,18,70,270,1054,4158,16510,65790,262654,1049598,4196350,16781310,
+%T A005367 67117054,268451838,1073774590,4295032830,17180000254,68719738878,
+%U A005367 274878431230,1099512676350,4398048608254,17592190238718
+%N A005367 2*(2^n + 1)*(2^(n+1) - 1).
+%K A005367 nonn
+%O A005367 0,1
+%A A005367 _N. J. A. Sloane_.
+%E A005367 An incorrect g.f. was deleted by _N. J. A. Sloane_, Sep 20 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

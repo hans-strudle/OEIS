@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023312
+Showing 1-1 of 1
+
+%I A023312
+%S A023312 883,2857,4073,4663,9311,11131,16493,18257,19541,22063,28687,35837,
+%T A023312 48383,55817,59393,62131,71387,73037,73133,78173,83423,86111,88261,
+%U A023312 90511,93287,93811,99377,101051,104537,122203,125927,149497,152377,153941,155653
+%N A023312 Numbers n such that n remains prime through 4 iterations of function f(x) = 4x + 9.
+%C A023312 n, 4*n+9, 16*n+45, 64*n+189 and 256*n+765 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023312 (MAGMA) [n: n in [1..1000000] | IsPrime(n) and IsPrime(4*n+9) and IsPrime(16*n+45) and IsPrime(64*n+189) and IsPrime(256*n+765)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023312 nonn
+%O A023312 1,1
+%A A023312 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

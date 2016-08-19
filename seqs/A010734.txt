@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010734
+Showing 1-1 of 1
+
+%I A010734
+%S A010734 9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+%T A010734 9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+%U A010734 9,9,9,9,9,9,9,9,9,9,9,9,9
+%N A010734 Constant sequence: the all 9's sequence.
+%C A010734 The digital root of 9^n gives the sequence 1,9,9,9,9,... - _Cino Hilliard_, Dec 31 2004
+%C A010734 Continued fraction expansion of (9+sqrt(85))/2.  - Bruno Berselli, Mar 15 2011
+%H A010734 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A010734 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=1017">Encyclopedia of Combinatorial Structures 1017</a>
+%H A010734 A. Norton, Michael Baldwin, <a href="http://math.coe.uga.edu/TME/Issues/v21n2/v21n2.html">Does 0.999... really equal 1?</a>, The Math Educ. 21 (2) (2012) 58-67.
+%H A010734 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A010734 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1).
+%F A010734 G.f.: 9/(1-x).  - Bruno Berselli, Mar 15 2011
+%F A010734 Equals A158289(n) + A199264(n). [Arkadiusz Wesolowski, Nov 30 2011]
+%F A010734 E.g.f.: 9*e^x. - Vincenzo Librandi, Jan 26 2012
+%t A010734 Table[9, {81}] (* _Arkadiusz Wesolowski_, Nov 30 2011 *)
+%o A010734 (PARI) a(n)=9 \\ _Charles R Greathouse IV_, Oct 07 2015
+%K A010734 nonn,easy
+%O A010734 0,1
+%A A010734 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007390
+Showing 1-1 of 1
+
+%I A007390 M3257
+%S A007390 0,0,0,4,5,15,21,44,66,120,187,319,507,840,1348,2204,3553,5776,9329,
+%T A007390 15124,24454,39600,64055,103679,167735,271440,439176,710644,1149821
+%N A007390 Number of strict (-1)st-order maximal independent sets in cycle graph.
+%D A007390 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A007390 R. Yanco and A. Bagchi, ``K-th order maximal independent sets in path and cycle graphs,'' J. Graph Theory, submitted, 1994.
+%K A007390 nonn
+%O A007390 1,4
+%A A007390 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

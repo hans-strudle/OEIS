@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022767
+Showing 1-1 of 1
+
+%I A022767
+%S A022767 1,3,9,28,29,31,88,93,97,279,292,304,305,306,876,918,957,961,2754,
+%T A022767 2884,3007,3019,3020,8652,9060,9448,9484,9486,9487,9488,27182,28465,
+%U A022767 29683,29797,29803,29806,29807,29809,85396,89427,93254,93610,93629
+%N A022767 Ordered sequence of distinct terms of form [ (x^i)[ x^j ] ], i,j >= 0, where x = Pi.
+%K A022767 nonn
+%O A022767 0,2
+%A A022767 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061460
+Showing 1-1 of 1
+
+%I A061460
+%S A061460 1,8,512,1000,8000,1000000,8000000,95443993,1000000000,8000000000,
+%T A061460 1000000000000,8000000000000,1000000000000000,8000000000000000,
+%U A061460 1000000000000000000
+%N A061460 Cubes which produce cubes when the leading digit is moved to the end.
+%e A061460 512 becomes 125 which is also a cube.
+%K A061460 nonn,base,easy
+%O A061460 1,2
+%A A061460 _Amarnath Murthy_, May 04 2001
+%E A061460 More terms from _Erich Friedman_, May 08 2001. Further terms from Larry Reeves (larryr(AT)acm.org), May 25 2001.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

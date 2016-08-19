@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008358
+Showing 1-1 of 1
+
+%I A008358
+%S A008358 1,61,853,5577,23673,76389,204205,476113,1000753,1939405,3520837,
+%T A008358 6058009,9966633,15785589,24199197,36061345,52421473,74552413,
+%U A008358 103980085,142515049,192285913,255774597,335853453
+%N A008358 Crystal ball sequence for D_6 lattice.
+%H A008358 T. D. Noe, <a href="/A008358/b008358.txt">Table of n, a(n) for n=0..1000</a>
+%H A008358 <a href="/index/Cor#crystal_ball">Index entries for crystal ball sequences</a>
+%H A008358 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A008358 G.f.: (1+54*x+447*x^2+852*x^3+447*x^4+54*x^5+x^6)/(1-x)^7. [Colin Barker, Mar 16 2012]
+%p A008358 116/45*n^6+116/15*n^5+136/9*n^4+52/3*n^3+554/45*n^2+74/15*n+1;
+%K A008358 nonn,easy
+%O A008358 0,2
+%A A008358 _N. J. A. Sloane_ and _J. H. Conway_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

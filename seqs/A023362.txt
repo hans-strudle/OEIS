@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023362
+Showing 1-1 of 1
+
+%I A023362
+%S A023362 2,5,26,755,2050631,119177296890656,171894935774803164578253225003125,
+%T A023362 616543721977678583680403510514050763393641034556349185528171544036914081901
+%N A023362 a(n+1) = a(n) converted to base 5 from base 2 (written in base 10).
+%C A023362 The next term (a(9))has 174 digits. - From _Harvey P. Dale_, Aug 12 2012
+%t A023362 NestList[FromDigits[IntegerDigits[#,2],5]&,2,10] (* _Harvey P. Dale_, Aug 12 2012 *)
+%K A023362 nonn
+%O A023362 1,1
+%A A023362 _David W. Wilson_
+%E A023362 One more term (a(8)) added by _Harvey P. Dale_, Aug 12 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

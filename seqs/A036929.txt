@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036929
+Showing 1-1 of 1
+
+%I A036929
+%S A036929 0,11,101,0,10111,101111,1011001,10010101,100100111,1000001011,
+%T A036929 10000001101,100000001111,1000000111001,10000000001011,
+%U A036929 100000000100101,1000000000011101,10000000000001101,100000000000100111
+%N A036929 Smallest n-digit prime containing only digits 0 and 1, or 0 if no such prime exists.
+%Y A036929 Cf. A036229, A020449, A036928.
+%K A036929 nonn,base
+%O A036929 1,2
+%A A036929 _Patrick De Geest_, Jan 04 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

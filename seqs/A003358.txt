@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003358
+Showing 1-1 of 1
+
+%I A003358
+%S A003358 2,65,128,730,793,1458,4097,4160,4825,8192,15626,15689,16354,19721,
+%T A003358 31250,46657,46720,47385,50752,62281,93312,117650,117713,118378,
+%U A003358 121745,133274,164305,235298,262145,262208,262873,266240,277769,308800,379793,524288
+%N A003358 Numbers that are the sum of 2 nonzero 6th powers.
+%H A003358 T. D. Noe, <a href="/A003358/b003358.txt">Table of n, a(n) for n = 1..1000</a>
+%t A003358 Union[Total/@Tuples[Range[10]^6,2]] (* _Harvey P. Dale_, Jan 28 2013 *)
+%K A003358 nonn
+%O A003358 1,1
+%A A003358 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

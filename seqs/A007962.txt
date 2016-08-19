@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007962
+Showing 1-1 of 1
+
+%I A007962
+%S A007962 9,15,21,29,39,47,57,65,71,93,99,115,129,137,143,149,183,189,205,219,
+%T A007962 225,241,251,269,287,309,317,327,335,357,371,377,417,419,441,459,465,
+%U A007962 493,503,509,543,545,567,587,597,609,621,653,657,695,701,723,725,743,749,755,785
+%N A007962 Largest odd number a(n) such that 9,11,...,a(n) are sums of 3 of first n odd primes.
+%H A007962 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/OPNS.pdf">Only Problems, Not Solutions!</a>
+%F A007962 a(n) << n log n. - _Charles R Greathouse IV_, Sep 19 2012
+%K A007962 nonn
+%O A007962 1,1
+%A A007962 R. Muller
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

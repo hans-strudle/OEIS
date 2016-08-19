@@ -1,0 +1,71 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000571
+Showing 1-1 of 1
+
+%I A000571 M1189 N0459
+%S A000571 1,1,1,2,4,9,22,59,167,490,1486,4639,14805,48107,158808,531469,
+%T A000571 1799659,6157068,21258104,73996100,259451116,915695102,3251073303,
+%U A000571 11605141649,41631194766,150021775417,542875459724,1972050156181,7189259574618,26295934251565,96478910768821,354998461378719,1309755903513481
+%N A000571 Number of different scores that are possible in an n-team round-robin tournament.
+%C A000571 A tournament is a complete graph with one arrow on each edge; the score of a node is its out-degree; a(n) is number of different score sequences when there are n nodes.
+%C A000571 Also number of nonnegative integer points (p_1, p_2, ..., p_n) in polytope p_0=p_{n+1}=0, 2p_i -(p_{i+1}+p_{i-1}) <= 1, p_i >= 0, i=1, ..., n.
+%C A000571 Also number of score sequences of length n: weakly increasing sequences a[0,1,...,n-1] where sum(j=0..k, a[j]) >= k*(k+1)/2 and sum(j=0..n-1, a[j]) = (n-1)*n/2; same as weak compositions of n*(n-1) with partial sums up to position k at least k*(k+1)/2; see example. - _Joerg Arndt_, Mar 29 2014
+%D A000571 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 123, Problem 21.
+%D A000571 J. W. Moon, Topics on Tournaments. Holt, NY, 1968, p. 68 (but table contains errors).
+%D A000571 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000571 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000571 Sean A. Irvine, <a href="/A000571/b000571.txt">Table of n, a(n) for n = 0..100</a>
+%H A000571 C. Bebeacua, T. Mansour, A. Postnikov and S. Severini, <a href="http://arXiv.org/abs/math.CO/0506334">On the x-rays of permutations</a>
+%H A000571 Sebrina Ruth Cropper, <a href="http://digitalcommons.usu.edu/gradreports/91">Ranking Score Vectors of Tournaments</a> (2011). All Graduate Reports and Creative Projects. Paper 91. Utah State University, School of Graduate Studies. - From _N. J. A. Sloane_, Jun 10 2012
+%H A000571 John W. Moon, <a href="http://www.gutenberg.org/ebooks/42833">Topics on tournaments</a>, Holt, Rinehard and Winston (1968), see page 88.
+%H A000571 T. V. Narayana and D. H. Best, <a href="http://dx.doi.org/10.4153/CMB-1964-015-1">Computation of the number of score sequences in round-robin tournaments</a>, Canad. Math. Bull., 7 (1964), 133-136 (but table contains errors).
+%H A000571 D. Recoskie and J. Sawada, <a href="http://www.socs.uoguelph.ca/~sawada/papers/alley.pdf">The Taming of Two Alley CATs</a>, 2012.
+%H A000571 J. Riordan, <a href="http://dx.doi.org/10.1016/S0021-9800(68)80032-8">The number of score sequences in tournaments</a>, J. Combin. Theory, 5 (1968), 87-89. [The main result of this paper seems to be wrong - see A210726.]
+%H A000571 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ScoreSequence.html">Score Sequence.</a>
+%H A000571 K. Winston, <a href="/A000571/a000571.pdf">Letter to N. J. A. Sloane, Aug 05 1978</a>
+%H A000571 <a href="/index/To#tournament">Index entries for sequences related to tournaments</a>
+%F A000571 Let f_1(T, E)=1 if T=E>=0, =0 else; f_n(T, E)=0 if T-E<C(n-1, 2), =Sum_{k=0..E} f_{n-1}(T-E, k) else; then a(n)=Sum_{E=[n/2]..n-1} f_n(C(n, 2), E), n >= 2.
+%F A000571 Riordan seems to claim that a(n) = 2*a(n-1)-a(n-2) + A046919(n), but this is not true. - _N. J. A. Sloane_, May 06 2012.
+%F A000571 Logarithmic derivative yields A145855, the number of n-member subsets of 1..2n-1 whose elements sum to a multiple of n. - _Paul D. Hanna_, Jul 17 2013
+%F A000571 a(n) = (1/n) * Sum_{k=1..n} A145855(k) * a(n-k) for n>0 with a(0)=1. - _Paul D. Hanna_, Jul 17 2013
+%e A000571 a(3)=2, since either one node dominates [ 2,1,0 ] or each node defeats the next [ 1,1,1 ].
+%e A000571 G.f.: A(x) = 1 + x + x^2 + 2*x^3 + 4*x^4 + 9*x^5 + 22*x^6 + 59*x^7 + 167*x^8 +...
+%e A000571 where the logarithm begins:
+%e A000571 log(A(x)) = x + x^2/2 + 4*x^3/3 + 9*x^4/4 + 26*x^5/5 + 76*x^6/6 +...+ A145855(n)*x^n/n +...
+%e A000571 From _Joerg Arndt_, Mar 29 2014: (Start)
+%e A000571 The a(6) = 22 score sequences of length 6 are:
+%e A000571 01:  [ 0 1 2 3 4 5 ]
+%e A000571 02:  [ 0 1 2 4 4 4 ]
+%e A000571 03:  [ 0 1 3 3 3 5 ]
+%e A000571 04:  [ 0 1 3 3 4 4 ]
+%e A000571 05:  [ 0 2 2 2 4 5 ]
+%e A000571 06:  [ 0 2 2 3 3 5 ]
+%e A000571 07:  [ 0 2 2 3 4 4 ]
+%e A000571 08:  [ 0 2 3 3 3 4 ]
+%e A000571 09:  [ 0 3 3 3 3 3 ]
+%e A000571 10:  [ 1 1 1 3 4 5 ]
+%e A000571 11:  [ 1 1 1 4 4 4 ]
+%e A000571 12:  [ 1 1 2 2 4 5 ]
+%e A000571 13:  [ 1 1 2 3 3 5 ]
+%e A000571 14:  [ 1 1 2 3 4 4 ]
+%e A000571 15:  [ 1 1 3 3 3 4 ]
+%e A000571 16:  [ 1 2 2 2 3 5 ]
+%e A000571 17:  [ 1 2 2 2 4 4 ]
+%e A000571 18:  [ 1 2 2 3 3 4 ]
+%e A000571 19:  [ 1 2 3 3 3 3 ]
+%e A000571 20:  [ 2 2 2 2 2 5 ]
+%e A000571 21:  [ 2 2 2 2 3 4 ]
+%e A000571 22:  [ 2 2 2 3 3 3 ]
+%e A000571 (End)
+%t A000571 max = 40; (* b = A145855 *) b[0] = 1; b[n_] := DivisorSum[n, (-1)^(n+#)* EulerPhi[n/#]*Binomial[2*#, #]/(2*n)&]; s = Exp[Sum[b[m]*x^m/m, {m, 1, max}]] + O[x]^max; CoefficientList[s, x] (* _Jean-François Alcover_, Dec 06 2015, adapted from PARI *)
+%o A000571 (PARI) {A145855(n)=sumdiv(n,d, (-1)^(n+d)*eulerphi(n/d)*binomial(2*d,d)/(2*n))}
+%o A000571 {a(n)=polcoeff(exp(sum(m=1,n,A145855(m)*x^m/m)+x*O(x^n)),n)} \\ _Paul D. Hanna_, Jul 17 2013
+%Y A000571 Cf. A007747, A210726, A145855.
+%K A000571 nonn,nice,easy
+%O A000571 0,4
+%A A000571 _N. J. A. Sloane_
+%E A000571 a(11) corrected by Kenneth Winston, Aug 05 1978
+%E A000571 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

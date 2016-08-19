@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023325
+Showing 1-1 of 1
+
+%I A023325
+%S A023325 3,107,421,773,1567,1637,3793,4111,6961,12721,14107,17851,26267,26557,
+%T A023325 31327,33503,37003,42281,57947,60091,65423,67427,68447,75721,82223,
+%U A023325 82657,87877,96377,108107,111373,113171,122117,123887,125497,125887,127301
+%N A023325 Numbers n such that n remains prime through 4 iterations of function f(x) = 9x + 4.
+%C A023325 n, 9*n+4, 81*n+40, 729*n+364 and 6561*n+3280 are primes. [From _Vincenzo Librandi_, Aug 04 2010]
+%o A023325 (MAGMA) [n: n in [1..5000000] | IsPrime(n) and IsPrime(9*n+4) and IsPrime(81*n+40) and IsPrime(729*n+364) and IsPrime(6561*n+3280)] [From _Vincenzo Librandi_, Aug 04 2010]
+%K A023325 nonn
+%O A023325 1,1
+%A A023325 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

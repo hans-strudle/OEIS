@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045788
+Showing 1-1 of 1
+
+%I A045788
+%S A045788 529,576,5041,5184,5329,5476,5625,5776,5929,50176,50625,51076,51529,
+%T A045788 51984,52441,52900,53361,53824,54289,54756,55225,55696,56169,56644,
+%U A045788 57121,57600,58081,58564,59049,59536,501264,502681,504100,505521
+%N A045788 Squares with initial digit '5'.
+%t A045788 Flatten[Table[Range[Ceiling[Sqrt[5 10^n]],Floor[Sqrt[6 10^n]]]^2,{n,5}]]  (* _Harvey P. Dale_, Jun 15 2011 *)
+%K A045788 nonn,base
+%O A045788 0,1
+%A A045788 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

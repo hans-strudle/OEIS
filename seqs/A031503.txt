@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031503
+Showing 1-1 of 1
+
+%I A031503
+%S A031503 1,1,1,1,1,1,3,3,3,7,7,14,24,31,41,54,68,89,117,148,190,239,300,375,
+%T A031503 465
+%N A031503 Size of lexicographic code of length n, Hamming distance 12 and weight 12.
+%D A031503 J. H. Conway and N. J. A. Sloane, Lexicographic Codes: Error-Correcting Codes from Game Theory, IEEE Trans. Information Theory 32 1986 pp. 337-348.
+%K A031503 nonn
+%O A031503 12,7
+%A A031503 Eric Rains (rains(AT)caltech.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

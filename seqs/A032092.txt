@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032092
+Showing 1-1 of 1
+
+%I A032092
+%S A032092 3,9,28,60,126,226,396,636,1001,1491,2184,3080,4284,5796,7752,10152,
+%T A032092 13167,16797,21252,26532,32890,40326,49140,59332,71253,84903,100688,
+%U A032092 118608,139128,162248,188496,217872,250971,287793,329004,374604,425334,481194,543004
+%N A032092 Number of reversible strings with n-1 beads of 2 colors. 5 beads are black. String is not palindromic.
+%C A032092 If the offset is changed to 3, this is the 2nd Witt transform of A000217 [Moree]. - _R. J. Mathar_, Nov 08 2008
+%H A032092 Colin Barker, <a href="/A032092/b032092.txt">Table of n, a(n) for n = 7..1000</a>
+%H A032092 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%H A032092 Pieter Moree, <a href="http://dx.doi.org/10.1016/j.disc.2005.03.004">The formal series Witt transform</a>, Discr. Math. no. 295 vol. 1-3 (2005) 143-160. - _R. J. Mathar_, Nov 08 2008
+%H A032092 <a href="/index/Rec#order_09">Index entries for linear recurrences with constant coefficients</a>, signature (3,0,-8,6,6,-8,0,3,-1).
+%F A032092 "BHK[ 6 ]" (reversible, identity, unlabeled, 6 parts) transform of 1, 1, 1, 1...
+%F A032092 G.f.: x^7*(3+x^2)/((1-x)^6*(1+x)^3). - _R. J. Mathar_, Nov 08 2008
+%F A032092 From _Colin Barker_, Mar 07 2015: (Start)
+%F A032092 a(n) = (2*n^5-30*n^4+170*n^3-480*n^2+728*n-480)/480 if n is even.
+%F A032092 a(n) = (2*n^5-30*n^4+170*n^3-450*n^2+548*n-240)/480 if n is odd.
+%F A032092 (End)
+%o A032092 (PARI) Vec(x^7*(3+x^2)/((1-x)^6*(1+x)^3) + O(x^100)) \\ _Colin Barker_, Mar 07 2015
+%K A032092 nonn,easy
+%O A032092 7,1
+%A A032092 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

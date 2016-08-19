@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034771
+Showing 1-1 of 1
+
+%I A034771
+%S A034771 1,4,6,15,18,48,66,154,267,552,1026,2154,4098,8328,16428,33061,65538,
+%T A034771 131676,262146,525390,1048716,2099208,4194306,8393124,16777251,
+%U A034771 33562632,67109392,134234334,268435458,536904864,1073741826,2147549616
+%N A034771 Dirichlet convolution of d(n) (# of divisors) with b_n=2^(n-1).
+%K A034771 nonn
+%O A034771 1,2
+%A A034771 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

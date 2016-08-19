@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020365
+Showing 1-1 of 1
+
+%I A020365
+%S A020365 211,214,244,301,309,358,547,553,614,628,749,835,856,1019,1029,1030,
+%T A020365 1046,1075,1124,1137,1159,1161,1171,1192,1222,1236,1259,1268,1270,
+%U A020365 1283,1331,1458,1498,1577,1622,1645,1673,1702,1737,1744,1779,1899,1905,1926,1945
+%N A020365 Numbers n such that continued fraction for sqrt(n) has period 26.
+%K A020365 nonn
+%O A020365 1,1
+%A A020365 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

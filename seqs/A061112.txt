@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061112
+Showing 1-1 of 1
+
+%I A061112
+%S A061112 3,4,3,6,4,6,4,3,8,4,4,8,4,3,4,12,4,4,12,4,4,4,4,6,8,4,12,4,3,4,4,8,4,
+%T A061112 12,4,4,4,3,4,18,4,14,4,12,4,4,4,12,8,4,20,4,4,4,4,16,4,4,8,3,4,4,16,
+%U A061112 4,4,4,4,12,8,4,3,4,4,4,4,4,4,4,4,24,4,20,4,8,4,4,4,16,4,4,4,4,4,4,4,4
+%N A061112 Minimum number of divisors for any composite between prime(n) and prime(n+1).
+%H A061112 Harry J. Smith, <a href="/A061112/b061112.txt">Table of n, a(n) for n = 2,...,1000</a>
+%F A061112 a(n)=Min{d(c); p(n+1)>c>p(n)}, c is composite, p(n) is the n-th prime and d=A000005()
+%e A061112 p(30)=113 is followed by 13 composites; numbers of divisors are {8, 4, 6, 6, 4, 4, 16, 3, 4, 4, 6, 4, 12}, The smallest is 4=a(30) and the largest is 16.
+%o A061112 (PARI) { n=-1; q=3; m=10^6; forprime (p=5, prime(1003), a=m; for (i=q + 1, p - 1, a=min(numdiv(i), a)); q=p; write("b061112.txt", n++, " ", a) ) } [From _Harry J. Smith_, Jul 19 2009]
+%Y A061112 A000005, A061117.
+%K A061112 nonn
+%O A061112 2,1
+%A A061112 _Labos Elemer_, May 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013554
+Showing 1-1 of 1
+
+%I A013554
+%S A013554 2,8,556,496,717572,52939408,870202072,964225030112,657454597470988,
+%T A013554 27485377040128048,700808303776317525176,1479866177061564649568,
+%U A013554 1640650015131154843789016,13376815891310731844679270304,25395222315410089406698868631728
+%N A013554 Numerator of [x^(2n+1)] in the Taylor expansion -tan(cot(x)-coth(x))= 2*x/3 +8*x^3/81 +556*x^5/25515 +496*x^7/98415 +717572*x^9/613814355 +...
+%K A013554 nonn,frac
+%O A013554 0,1
+%A A013554 Patrick Demichel (patrick.demichel(AT)hp.com)
+%E A013554 Values replaced by numerators. - R. J. Mathar, Dec 21 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

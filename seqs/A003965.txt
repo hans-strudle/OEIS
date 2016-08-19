@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003965
+Showing 1-1 of 1
+
+%I A003965
+%S A003965 1,2,3,4,5,6,8,8,9,10,13,12,21,16,15,16,34,18,55,20,24,26,89,24,25,42,
+%T A003965 27,32,144,30,233,32,39,68,40,36,377,110,63,40,610,48,987,52,45,178,
+%U A003965 1597,48,64,50,102,84,2584,54,65,64,165,288,4181,60,6765,466,72,64,105,78,10946
+%N A003965 Fully multiplicative with a(p(k)) = Fib(k+2) for k-th prime p.
+%C A003965 Numbers n such that a(n)=n are exactly 5-smooth numbers (A051037). - _Ivan Neretin_, Aug 30 2015
+%H A003965 Ivan Neretin, <a href="/A003965/b003965.txt">Table of n, a(n) for n = 1..10000</a>
+%F A003965 If n = Product p(k)^e(k) then a(n) = Product Fibonacci(k+2)^e(k).
+%F A003965 Multiplicative with a(p^e) = A000045(A000720(p)+2)^e. - _David W. Wilson_, Aug 01, 2001.
+%t A003965 Table[Times @@ (Fibonacci[PrimePi[#[[1]]] + 2]^#[[2]] & /@ FactorInteger[n]), {n, 67}] (* _Ivan Neretin_, Aug 30 2015 *)
+%K A003965 nonn,mult
+%O A003965 1,2
+%A A003965 _Marc LeBrun_, _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

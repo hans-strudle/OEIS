@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061087
+Showing 1-1 of 1
+
+%I A061087
+%S A061087 11,14,109,116,1025,1036,1049,1064,1081,10100,10121
+%N A061087 A061086(n) / n.
+%D A061087 Felice Russo, A set of Smarandache Functions,sequences and conjectures in number theory, page 65.
+%D A061087 Amarnath Murthy, A note on the Smarandache nn^m generalized sequence (to be published).
+%F A061087 a(n) = {n concatenated with n^3}/n
+%e A061087 a(9) = 1081 = 9729/9, where 929 = 9^3
+%K A061087 nonn,base,easy
+%O A061087 1,1
+%A A061087 _Amarnath Murthy_, Apr 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

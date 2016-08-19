@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012135
+Showing 1-1 of 1
+
+%I A012135
+%S A012135 1,4,92,5272,567440,98979200,25530690624,9147312168576,
+%T A012135 4349983363258624,2652517304182955008,2018610268528861424640,
+%U A012135 1875904660571518053251072,2091013498538531655993561088
+%N A012135 arcsin(arcsin(arctanh(x)))=x+4/3!*x^3+92/5!*x^5+5272/7!*x^7+567440/9!*x^9...
+%K A012135 nonn
+%O A012135 0,2
+%A A012135 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

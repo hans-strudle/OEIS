@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062533
+Showing 1-1 of 1
+
+%I A062533
+%S A062533 1,6,8,12,20,18,20,24,24,24,42,32,40,36,36,48,44,40,60,54,64,56,72,60,
+%T A062533 72,60,48,72,88,72,96,110,80,100,84,108,72,92,120,112,84,96,120,104,
+%U A062533 132,80,156,108,120,116,120,144,160,108,96,132,168,160,132,180,140,168
+%N A062533 Phi(A014076(n)).
+%o A062533 (PARI) je=[]; forstep(n=1,301,2, if(isprime(n), n+1,je=concat(je,eulerphi(n)))); je
+%K A062533 easy,nonn
+%O A062533 1,2
+%A A062533 Jason Earls (zevi_35711(AT)yahoo.com), Jul 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

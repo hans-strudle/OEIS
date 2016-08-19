@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035330
+Showing 1-1 of 1
+
+%I A035330
+%S A035330 1,15,140,1045,6835,40963,230720,1240740,6437890,32468470,160010280,
+%T A035330 773624615,3680728375,17274086235,80119845080,367821324040,
+%U A035330 1673528845710,7554110698850,33858536700040,150802994850570
+%N A035330 5-fold convolution of A001700(n), n >= 0.
+%C A035330 Fifth column of triangular array A035324.
+%H A035330 José Agapito, Ângela Mestre, Maria M. Torres, and Pasquale Petrullo, <a href="http://cs.uwaterloo.ca/journals/JIS/VOL18/Agapito/agapito2.pdf">On One-Parameter Catalan Arrays</a>, Journal of Integer Sequences, Vol. 18 (2015), Article 15.5.1.
+%F A035330 a(n) = (n^2+27*n+122)*binomial(2*(n+5), n+5)/24 - 5*(n+8)*2^(2*n+5) = A035324(n+5, 5); G.f. c(x)^5/(1-4*x)^(5/2), where c(x) = g.f. for Catalan numbers A000108.
+%Y A035330 Cf. A000108, A045894, A035324.
+%K A035330 easy,nonn
+%O A035330 0,2
+%A A035330 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

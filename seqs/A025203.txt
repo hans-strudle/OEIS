@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025203
+Showing 1-1 of 1
+
+%I A025203
+%S A025203 1,6,21,54,116,220,383,623,962,1424,2034,2821,3817,5053,6565,8391,
+%T A025203 10569,13142,16153,19646,23671,28274,33509,39426,46082,53533,61836,
+%U A025203 71051,81240
+%N A025203 a(n) = [ 3rd elementary symmetric function of {log(k)} ], k = 2,3,...,n.
+%K A025203 nonn
+%O A025203 3,2
+%A A025203 _Clark Kimberling_
+%E A025203 a(15) corrected by Neven Juric (neven.juric(AT)apis-it.hr), May 28 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

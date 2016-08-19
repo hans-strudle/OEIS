@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060109
+Showing 1-1 of 1
+
+%I A060109
+%S A060109 22222,12222,11222,11122,11112,11111,21111,22111,22211,22221,
+%T A060109 12222022222,12222012222,12222011222,12222011122,12222011112,
+%U A060109 12222011111,12222021111,12222022111,12222022211,12222022221
+%N A060109 Numbers in Morse code, with 1 for a dot, 2 for a dash and 0 between digits/letters.
+%H A060109 Reinhard Zumkeller, <a href="/A060109/b060109.txt">Table of n, a(n) for n = 0..10000</a>
+%H A060109 Wikipedia, <a href="http://en.wikipedia.org/wiki/Morse_code">Morse_code</a>
+%e A060109 a(10)=12222022222 since 1 is .---- and 0 is -----
+%o A060109 (Haskell)
+%o A060109 import Data.List (inits, tails)
+%o A060109 a060109 n = if n == 0 then 22222 else read (conv n) :: Integer where
+%o A060109    conv 0 = []
+%o A060109    conv x = conv x' ++ mCode !! d where (x', d) = divMod x 10
+%o A060109    mCode = map ('0' :) (mc ++ (reverse $ init $ tail $ map reverse mc))
+%o A060109    mc = zipWith (++) (inits "111111") (tails "22222")
+%o A060109 -- _Reinhard Zumkeller_, Feb 20 2015
+%Y A060109 Cf. A008777, A059852, A060110.
+%K A060109 base,nonn
+%O A060109 0,1
+%A A060109 _Henry Bottomley_, Feb 28 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

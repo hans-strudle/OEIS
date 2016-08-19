@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049337
+Showing 1-1 of 1
+
+%I A049337
+%S A049337 0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1,2,2,2,
+%T A049337 0,0,0,0,0,0,0,0,0,0,0,2,8,11,8,5,0,0,0,0,0,0,0,0,0,0,0,0,2,11,42,74,
+%U A049337 76,38,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,74,296,633,768,558,219
+%N A049337 Triangle read by rows: T(n,k) = number of 3-connected planar graphs (or polyhedra) with n >= 1 nodes and 0<=k<=C(n,2) edges.
+%e A049337 0; 0,0; 0,0,0,0; 0,0,0,1,0,0,0; 0,0,0,0,0,1,1,0,0,0; 0,0,0,0,0,0,1,2,2,...
+%Y A049337 Cf. A000944, A021103, A003094, A049334.
+%Y A049337 A049337, A058787, A212438 are all versions of the same triangle.
+%K A049337 nonn,tabf,easy,nice
+%O A049337 1,32
+%A A049337 _Brendan McKay_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

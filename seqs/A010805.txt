@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010805
+Showing 1-1 of 1
+
+%I A010805
+%S A010805 0,1,131072,129140163,17179869184,762939453125,16926659444736,
+%T A010805 232630513987207,2251799813685248,16677181699666569,
+%U A010805 100000000000000000,505447028499293771,2218611106740436992,8650415919381337933
+%N A010805 17th powers: a(n) = n^17.
+%C A010805 Totally multiplicative sequence with a(p) = p^17 for prime p. Multiplicative sequence with a(p^e) = p^(17e). - _Jaroslav Krizek_, Nov 01 2009
+%H A010805 Vincenzo Librandi, <a href="/A010805/b010805.txt">Table of n, a(n) for n = 0..1000</a>
+%t A010805 Range[0,15]^17 (* _Harvey P. Dale_, Sep 14 2011 *)
+%o A010805 (MAGMA) [n^17: n in [0..15]]; // _Vincenzo Librandi_, Jun 19 2011
+%K A010805 nonn,mult
+%O A010805 0,3
+%A A010805 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

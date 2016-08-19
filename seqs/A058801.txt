@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058801
+Showing 1-1 of 1
+
+%I A058801
+%S A058801 1,2,6,25,116,625,3757,25140,184511,1473861,12711339,117598686,
+%T A058801 1160399052,12152333659,134487937252
+%N A058801 Number of connected vertically indecomposable partial lattices on n unlabeled nodes.
+%C A058801 A partial lattice is a poset where every pair of points has a unique least upper (greatest lower) bound or has no upper (lower) bound.
+%H A058801 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%F A058801 Inverse EULER transform of A058800(n+2).
+%Y A058801 Cf. A006966.
+%K A058801 nonn,hard
+%O A058801 2,2
+%A A058801 _Christian G. Bower_, Dec 28 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

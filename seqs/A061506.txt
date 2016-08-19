@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061506
+Showing 1-1 of 1
+
+%I A061506
+%S A061506 12,120,1008,1320,5460,4896,15960,12144,35100,24360,65472,42840,
+%T A061506 109668,68880,170280,103776,249900,148824,351120,205320,476532,274560,
+%U A061506 628728,357840,810300,456456,1023840,571704,1271940,704880,1557192,857280
+%N A061506 LCM of 6n+2, 6n+4, 6n+6.
+%H A061506 <a href="/index/Rec#order_08">Index entries for linear recurrences with constant coefficients</a>, signature (0, 4, 0, -6, 0, 4, 0, -1).
+%F A061506 Conjecture: G.f.:(12+120*x^6+336*x^5+1500*x^4+840*x^3+960*x^2+120*x)/((x-1)^4*(x+1)^4) [From Maksym Voznyy (voznyy(AT)mail.ru), Jul 27 2009]
+%F A061506 a(0)=12, a(1)=120, a(2)=1008, a(3)=1320, a(4)=5460, a(5)=4896, a(6)=15960, a(7)=12144, a(n)=4*a(n-2)-6*a(n-4)+4*a(n-6)-a(n-8). - _Harvey P. Dale_, Oct 22 2012
+%e A061506 LCM of 2 4 6 is 12; LCM of 8 10 12 is 120.
+%t A061506 Table[LCM@@(6n+{2,4,6}),{n,0,40}] (* or *) LinearRecurrence[ {0,4,0,-6,0,4,0,-1},{12,120,1008,1320,5460,4896,15960,12144},40] (* _Harvey P. Dale_, Oct 22 2012 *)
+%Y A061506 Cf. A005843.
+%K A061506 easy,nonn
+%O A061506 0,1
+%A A061506 Jason Earls (zevi_35711(AT)yahoo.com), Jun 12 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

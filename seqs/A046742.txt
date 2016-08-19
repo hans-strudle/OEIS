@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046742
+Showing 1-1 of 1
+
+%I A046742
+%S A046742 1,0,1,0,1,2,0,0,2,3,0,0,1,5,6,0,0,1,5,13,11,0,0,0,4,19,33,23,0,0,0,2,
+%T A046742 22,67,89,47,0,0,0,1,20,107,236,240,106,0,0,0,1,14,132,486,797,657,
+%U A046742 235,0,0,0,0,9,138,814,2075,2678,1806,551,0,0,0,0,2,95,1454,8404,22950,33851,28908
+%N A046742 Triangle of number of connected graphs with k >= 1 edges and n nodes (2 <= n <= k+1).
+%D A046742 G. A. Baker et al., High-temperature expansions for the spin-1/2 Heisenberg model, Phys. Rev., 164 (1967), 800-817.
+%H A046742 Gordon Royle, <a href="http://www.cs.uwa.edu.au/~gordon/remote/graphs/index.html#nums">Small graphs</a>
+%e A046742 1; 0 1; 0 1 2; 0 0 2 3; 0 0 1 5 6; ... (so with 5 edges there's 1 graph with 4 nodes, 5 with 5 nodes and 1 with 6 nodes).
+%Y A046742 Cf. A002905, A008406, A046751, A054923, A054924.
+%K A046742 nonn,easy,nice,tabl
+%O A046742 1,6
+%A A046742 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

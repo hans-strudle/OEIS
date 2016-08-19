@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015899
+Showing 1-1 of 1
+
+%I A015899
+%S A015899 1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,
+%T A015899 0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015899 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015899 1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,
+%W A015899 0,0,-1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A015899 0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015899 Inverse of 1890th cyclotomic polynomial.
+%p A015899 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n, x), x,80);
+%K A015899 sign
+%O A015899 0,1
+%A A015899 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

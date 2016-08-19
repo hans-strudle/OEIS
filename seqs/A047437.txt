@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047437
+Showing 1-1 of 1
+
+%I A047437
+%S A047437 0,5,6,8,13,14,16,21,22,24,29,30,32,37,38,40,45,46,48,53,54,56,61,62,
+%T A047437 64,69,70,72,77,78,80,85,86,88,93,94,96,101,102,104,109,110,112,117,
+%U A047437 118,120,125,126,128,133,134,136
+%N A047437 Numbers that are congruent to {0, 5, 6} mod 8.
+%H A047437 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1,-1).
+%F A047437 G.f. x^2*(5+x+2*x^2) / ( (1+x+x^2)*(x-1)^2 ). - R. J. Mathar, Dec 07 2011
+%K A047437 nonn
+%O A047437 1,2
+%A A047437 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

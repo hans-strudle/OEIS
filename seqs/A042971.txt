@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042971
+Showing 1-1 of 1
+
+%I A042971
+%S A042971 0,0,3,12,55,210,826,3136,12027,45870,175846,674784,2598102,10024196,
+%T A042971 38771188,150250496,583368787,2268706134,8836184878,34461323872,
+%U A042971 134563944322,526023515996,2058355584748,8061896050432
+%N A042971 (C(2n,n)/2 -(2^(n-1) +mod(n+1,2)C( n-1, n/2-1)))/2.
+%t A042971 (Table[ Binomial[ 2n, n ]/2 -(2^(n-1) +Mod[ n+1, 2 ]Binomial[ n-1, n/2-1 ]), {n, 10} ])/2
+%K A042971 nonn
+%O A042971 0,3
+%A A042971 _Wouter Meeussen_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

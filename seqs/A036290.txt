@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036290
+Showing 1-1 of 1
+
+%I A036290
+%S A036290 0,3,18,81,324,1215,4374,15309,52488,177147,590490,1948617,6377292,
+%T A036290 20726199,66961566,215233605,688747536,2195382771,6973568802,
+%U A036290 22082967873,69735688020,219667417263,690383311398,2165293113021,6778308875544
+%N A036290 n*3^n.
+%C A036290 f X_1,X_2,...,X_n is a partition of a 3n-set X into 3-blocks then, for n>0, a(n) is equal to the number of (n+1)-subsets of X intersecting each X_i (i=1,2,...,n). - _Milan Janjic_, Jul 21 2007.
+%C A036290 Sum(n>=1, 1/a(n) ) = log(3/2) = 0.405465108... = A016578. - _Franz Vrabec_, Jan 07 2012
+%H A036290 Milan Janjic, <a href="http://www.pmfbl.org/janjic/">Two Enumerative Functions</a>
+%H A036290 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (6,-9)
+%F A036290 A trinomial transform. Differentiate (1+x+x^2)^n and set x=1. a(n)=sum{i=0..n, sum{j=0..n, (2n-2i-j)*n!/(i!j!(n-i-j)!)}} - _Paul Barry_, Feb 06 2004
+%F A036290 a(n)=sum{k=0..2n, T(n, k)*k}, where T(n, k) is given by A027907; a(n)=sum{k=0..n, sum{j=0..n, C(n, j)C(j, k)(j+k)}}. - _Paul Barry_, Feb 15 2005
+%F A036290 G.f. 3*x / (3*x-1)^2 . a(n) = 3*A027471(n+1). - _R. J. Mathar_, Jun 19 2011
+%p A036290 A036290 := proc(n) n*3^n ; end proc: # _R. J. Mathar_, Jun 18 2011
+%t A036290 nn=20;a=1/(1-3x);CoefficientList[Series[x D[ a,x] ,{x,0,nn}],x]  (* _Geoffrey Critzer_, Nov 18 2012 *)
+%o A036290 (PARI) a(n)=3^n*n \\ _Charles R Greathouse IV_, Jun 18, 2011
+%Y A036290 Cf. A006234.
+%K A036290 nonn,easy
+%O A036290 0,2
+%A A036290 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

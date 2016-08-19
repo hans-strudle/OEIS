@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059589
+Showing 1-1 of 1
+
+%I A059589
+%S A059589 1,2,3,4,6,7,8,9,10,24,25,26,27,28,30,31,32,33,34,120,121,122,123,124,
+%T A059589 126,127,128,129,130,144,145,146,147,148,150,151,152,153,154,720,721,
+%U A059589 722,723,724,726,727,728,729,730,744,745,746,747,748,750,751,752,753
+%N A059589 Sums of factorials of distinct integers.
+%C A059589 0! and 1! are treated as distinct.
+%e A059589 128 is in the sequence since 5!+3!+2!=128
+%Y A059589 Cf. A014597, A051760, A051761, A059590, A025494.
+%K A059589 nonn
+%O A059589 1,2
+%A A059589 _Henry Bottomley_, Jan 24 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

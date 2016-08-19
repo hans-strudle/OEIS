@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038759
+Showing 1-1 of 1
+
+%I A038759
+%S A038759 0,1,2,2,4,6,6,6,6,9,12,12,12,12,12,12,16,20,20,20,20,20,20,20,20,25,
+%T A038759 30,30,30,30,30,30,30,30,30,30,36,42,42,42,42,42,42,42,42,42,42,42,42,
+%U A038759 49,56,56,56,56,56,56,56,56,56,56,56,56,56,56,64,72,72,72,72,72,72,72
+%N A038759 ceiling[sqrt(n)] * floor[sqrt(n)].
+%C A038759 a(n)=n iff n is a square or a pronic (or heteromecic) number of form k(k+1). The sequence interleaves individual squares with 2k copies of each pronic.
+%F A038759 a(n) =A003059(n)*A000196(n) =n-A038760(n)
+%e A038759 a(31)=30 since 6 and 5 are either side of the square root of 31 and 6*5=30
+%Y A038759 Cf. A002378, A053187.
+%K A038759 nonn
+%O A038759 0,3
+%A A038759 _Henry Bottomley_, May 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

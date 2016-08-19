@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050262
+Showing 1-1 of 1
+
+%I A050262
+%S A050262 1,1,1,4,10,27,79,238,736,2322,7445,24190,79470,263534,880966,2965576,
+%T A050262 10044096,34202268,117026156,402139968,1387243056,4802307553,
+%U A050262 16677543678,58087052893,202855613896,710171007580,2491870287323
+%N A050262 G.f.: ( 1 + x + x^2 - x^3 - x^4 - Sqrt[ 1 - 2 x - 5 x^2 - 4 x^3 - 3 x^4 - 4 x^5 - x^6 + 2 x^7 + x^8 ] ) / ( 2 x (1 + x) ).
+%K A050262 easy,nonn
+%O A050262 0,4
+%A A050262 _Emanuele Munarini_, May 09 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

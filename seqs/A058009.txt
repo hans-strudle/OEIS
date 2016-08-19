@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058009
+Showing 1-1 of 1
+
+%I A058009
+%S A058009 2,5,31,277,5381,87803,2269733,50728129,1559861749,64988430769,
+%T A058009 2428095424619,119543903707171,5519908106212217
+%N A058009 a(n) is obtained by applying the map k -> prime(k) n times, starting at n.
+%e A058009 a(3) is 31 because the third prime is 5, the fifth prime is 11 and for the 3rd iteration, the eleventh prime is 31.
+%e A058009 To get a(4): 4 -> 7 -> 17 -> 59 -> 277.
+%t A058009 Table[ Nest[ Prime, n, n ], {n, 1, 11} ]
+%K A058009 nonn
+%O A058009 1,1
+%A A058009 _Robert G. Wilson v_, Nov 13 2000
+%E A058009 Edited by _N. J. A. Sloane_, Oct 30 2008 at the suggestion of R. J. Mathar
+%E A058009 a(12)-a(13) from _Donovan Johnson_, Feb 17 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

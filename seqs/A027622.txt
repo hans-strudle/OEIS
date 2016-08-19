@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027622
+Showing 1-1 of 1
+
+%I A027622
+%S A027622 1114,3413,8476,18247,35414,63529,107128,171851,264562,393469,568244,
+%T A027622 800143,1102126,1488977,1977424,2586259,3336458,4251301,5356492,
+%U A027622 6680279,8253574,10110073,12286376,14822107,17760034
+%N A027622 n + (n+1)^2 + (n+2)^3 + (n+3)^4 + (n+4)^5.
+%H A027622 P. De Geest, <a href="http://www.worldofnumbers.com/sumpower.htm">Palindromic Quasi_Under_Squares of the form n+(n+1)^2</a>
+%o A027622 (MAGMA)[n+(n+1)^2+(n+2)^3+(n+3)^4+(n+4)^5: n in [0..30]]; [From Vincenzo Librandi, Dec 28 2010]
+%K A027622 nonn
+%O A027622 0,1
+%A A027622 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017238
+Showing 1-1 of 1
+
+%I A017238
+%S A017238 46656,11390625,191102976,1291467969,5489031744,17596287801,
+%T A017238 46656000000,107918163081,225199600704,433626201009,782757789696,
+%U A017238 1340095640625,2194972623936,3462825991689,5289852801024
+%N A017238 (9*n+6)^6.
+%H A017238 Vincenzo Librandi, <a href="/A017238/b017238.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017238 (MAGMA) [(9*n+6)^6: n in [0..25]]; // Vincenzo Librandi, Jul 25 2011
+%K A017238 nonn,easy
+%O A017238 0,1
+%A A017238 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

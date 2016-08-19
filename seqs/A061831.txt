@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061831
+Showing 1-1 of 1
+
+%I A061831
+%S A061831 0,288,468,486,648,666,684,828,846,864,882,2088,2268,2286,2448,2466,
+%T A061831 2484,2628,2646,2664,2682,2808,2826,2844,2862,4068,4086,4248,4266,
+%U A061831 4284,4428,4446,4464,4482,4608,4626,4644,4662,4680,4806,4824,4842,4860,6048,6066
+%N A061831 Multiples of 9 having only even digits.
+%e A061831 648 = 9*72 is a term having all even digits.
+%Y A061831 A061829.
+%K A061831 nonn,base,easy
+%O A061831 0,2
+%A A061831 _Amarnath Murthy_, May 29 2001
+%E A061831 Corrected and extended by Larry Reeves (larryr(AT)acm.org), May 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

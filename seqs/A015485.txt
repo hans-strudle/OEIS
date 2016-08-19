@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015485
+Showing 1-1 of 1
+
+%I A015485
+%S A015485 0,1,12,1729,2987724,61953446593,15416000025617100,
+%T A015485 46031929420554204172993,1649407256866864913519509578444,
+%U A015485 709214929702322267749941478181800334017,3659393259623103647557638545139154960967463412428
+%N A015485 q-Fibonacci numbers for q=12.
+%H A015485 Vincenzo Librandi, <a href="/A015485/b015485.txt">Table of n, a(n) for n = 0..40</a>
+%F A015485 a(n) = 12^(n-1) a(n-1) + a(n-2).
+%t A015485 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*12^(n-1)+ a[n-2]}, a, {n, 20}] (* _Vincenzo Librandi_, Nov 10 2012 *)
+%K A015485 nonn,easy
+%O A015485 0,3
+%A A015485 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

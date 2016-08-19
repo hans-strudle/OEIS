@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060502
+Showing 1-1 of 1
+
+%I A060502
+%S A060502 0,1,1,2,1,1,1,2,2,3,2,2,1,2,1,2,2,2,1,1,2,2,1,1,1,2,2,3,2,2,2,3,3,4,
+%T A060502 3,3,2,3,2,3,3,3,2,2,3,3,2,2,1,2,2,3,2,2,1,2,2,3,2,2,2,3,2,3,3,3,2,2,
+%U A060502 3,3,2,2,1,2,1,2,2,2,2,3,2,3,3,3,1,2,1,2,2,2,2,2,2,2,2,2,1,1,2,2,1,1,2,2,3
+%N A060502 Average of digits of each term in A060498, number of balls in each such siteswap juggling pattern.
+%F A060502 a(n) = avg(Perm2SiteSwap3(PermUnrank3R(n)))
+%p A060502 Perm2SiteSwap3 := proc(p) local ip,n,i,a; n := nops(p); ip := convert(invperm(convert(p,'disjcyc')),'permlist',n); a := []; for i from 1 to n do if(0 = ((ip[i]-i) mod n)) then a := [op(a),0]; else a := [op(a), n-((ip[i]-i) mod n)]; fi; od; RETURN(a); end;
+%Y A060502 A060500 gives average.
+%K A060502 nonn
+%O A060502 0,4
+%A A060502 _Antti Karttunen_, Mar 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

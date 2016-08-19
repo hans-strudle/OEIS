@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008716
+Showing 1-1 of 1
+
+%I A008716
+%S A008716 10,11,12,13,14,15,16,17,18,19,21,23,25,31,34,103,201,10011,
+%T A008716 1111111111111111111
+%N A008716 19 in base 19-n.
+%t A008716 Append[Table[FromDigits[IntegerDigits[19, 19 - n]], {n, 0, 17}], FromDigits[Table[1, {19}]]] (* _T. D. Noe_, Feb 23 2013 *)
+%K A008716 fini,nonn,base,full
+%O A008716 0,1
+%A A008716 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

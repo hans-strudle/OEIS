@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050385
+Showing 1-1 of 1
+
+%I A050385
+%S A050385 1,1,3,10,39,160,691,3081,14095,65757,311695,1496833,7266979,35608419,
+%T A050385 175875537,874698246,4376646808,22016578909,111282845162,564886771380,
+%U A050385 2878498888625,14719219809915,75505990358779,388451973679785
+%N A050385 Reversion of Moebius function A008683.
+%H A050385 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A050385 <a href="/index/Res#revert">Index entries for reversions of series</a>
+%Y A050385 Cf. A008683, A050386.
+%K A050385 nonn
+%O A050385 1,3
+%A A050385 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003447
+Showing 1-1 of 1
+
+%I A003447 M1772
+%S A003447 1,2,7,26,108,434,1765,7086,28384,113092,449582,1783092,7062611,
+%T A003447 27944394,110494113,436699670,1725474562,6816591452,26927828642,
+%U A003447 106375090796,420248084468,1660408588852,6561147261682,25930381015756,102496390643352,405212762977544
+%N A003447 Number of dissections of a polygon.
+%C A003447 Number of dissections of regular n-gon into n-3 polygons with reflection and rooted at a cell. - _Sean A. Irvine_, May 13 2015
+%D A003447 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003447 P. Lisonek, <a href="http://dx.doi.org/10.1006/jsco.1995.1066">Closed forms for the number of polygon dissections</a>, Journal of Symbolic Computation 20 (1995), 595-601.
+%H A003447 C. R. Read, <a href="http://dx.doi.org/10.1007/BF03031688">On general dissections of a polygon</a>, Aequat. math. 18 (1978) 370-388.
+%K A003447 nonn
+%O A003447 4,2
+%A A003447 _N. J. A. Sloane_.
+%E A003447 More terms from _Sean A. Irvine_, May 13 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

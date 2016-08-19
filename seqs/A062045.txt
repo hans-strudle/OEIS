@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062045
+Showing 1-1 of 1
+
+%I A062045
+%S A062045 666,1479,1497,1568,1586,1658,1685,1749,1794,1856,1865,1947,1974,2349,
+%T A062045 2394,2439,2446,2464,2493,2644,2934,2943,3249,3294,3345,3354,3429,
+%U A062045 3435,3453,3492,3534,3543,3924,3942,4179,4197,4239,4246,4264,4293,4329,4335,4353,4392,4426,4462,4533,4624,4642,4719,4791,4917,4923,4932,4971,5168,5186,5334,5343,5433,5618,5681,5816,5861,6158,6185,6244,6424,6442,6518,6581,6815,6851,7149,7194,7419,7491,7914
+%N A062045 Numbers for which the product of the digits is 12 times their sum.
+%H A062045 Harry J. Smith, <a href="/A062045/b062045.txt">Table of n, a(n) for n=0,...,500</a>
+%e A062045 2349 belongs to the sequence as (2*3*4*9)/(2+3+4+9) = 216/18 = 12.
+%t A062045 okQ[n_]:=Module[{idn=IntegerDigits[n]},Times@@idn/Total[idn]==12]
+%t A062045 Select[Range[10000],okQ] (* _Harvey P. Dale_, Nov 25 2010 *)
+%o A062045 (PARI) SumD(x)= { s=0; while (x>9, s=s+x-10*(x\10); x\=10); return(s + x) } ProdD(x)= { p=1; while (x>9, p=p*(x-10*(x\10)); x\=10); return(p*x) } { n=-1; for (m=1, 10^7, if (ProdD(m)==12*SumD(m), write("b062045.txt", n++, " ", m); if (n==500, break)) ) } \\ _Harry J. Smith_, Jul 30 2009
+%K A062045 nonn,base,easy
+%O A062045 0,1
+%A A062045 _Amarnath Murthy_, Jun 28 2001
+%E A062045 Corrected and extended by Larry Reeves (larryr(AT)acm.org), Jul 06 2001
+%E A062045 More terms from _Harvey P. Dale_, Nov 25 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048656
+Showing 1-1 of 1
+
+%I A048656
+%S A048656 1,2,4,4,8,8,16,16,16,16,32,32,64,64,64,64,128,128,256,256,256,256,
+%T A048656 512,512,512,512,512,512,1024,1024,2048,2048,2048,2048,2048,2048,4096,
+%U A048656 4096,4096,4096,8192,8192,16384,16384,16384,16384,32768,32768,32768,32768
+%N A048656 Number of unitary (and also of squarefree) divisors of n!.
+%C A048656 Let K(n) = field that is generated over the rationals Q by adjoining the square roots of the numbers 1,2,3,...,n i.e. K(n) = Q(sqrt(1),sqrt(2),...,sqrt(n)); a(n) is the degree of this field over Q. - Avi Peretz (njk(AT)netvision.net.il), Mar 20 2001
+%H A048656 Charles R Greathouse IV, <a href="/A048656/b048656.txt">Table of n, a(n) for n = 1..10000</a>
+%H A048656 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%e A048656 n=7, n!=5040=16*9*5*7 with 4 distinct prime factors, so A034444(7!)=16.
+%o A048656 (PARI) a(n)=2^primepi(n) \\ _Charles R Greathouse IV_, Apr 07 2012
+%Y A048656 A001221(n!)=A000720(n) so a(n)=A034444(n!)=2^(A000720(n)).
+%K A048656 nonn
+%O A048656 1,2
+%A A048656 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

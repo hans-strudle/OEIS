@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049289
+Showing 1-1 of 1
+
+%I A049289
+%S A049289 1,1,0,2,4,0,7,10,0,30,56,0,0,316,0,1096
+%N A049289 Number of nonisomorphic self-complementary circulant graphs (Cayley graphs for the cyclic group) of order 4n+1.
+%H A049289 V. A. Liskovets, <a href="http://front.math.ucdavis.edu/math.CO/0104131">Some identities for enumerators of circulant graphs</a>.
+%H A049289 V. A. Liskovets and R. Poeschel, <a href="ftp://ftp.math.tu-dresden.de/pub/reports/alg/poeschel/lispoepp.ps">On the enumeration of circulant graphs of prime-power and squarefree orders</a>
+%H A049289 R. Poeschel, <a href="http://www.math.tu-dresden.de/~poeschel/Publikationen.html">Publications</a>
+%Y A049289 Cf. A049297, A049287, A049288.
+%K A049289 nonn,nice
+%O A049289 0,4
+%A A049289 _Valery A. Liskovets_
+%E A049289 Further values for (twice) squarefree and (twice) prime-squared orders can be found in the Liskovets reference.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

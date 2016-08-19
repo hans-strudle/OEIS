@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040479
+Showing 1-1 of 1
+
+%I A040479
+%S A040479 22,2,2,7,14,1,4,22,4,1,14,7,2,2,44,2,2,7,14,1,4,22,4,1,14,7,2,2,44,2,
+%T A040479 2,7,14,1,4,22,4,1,14,7,2,2,44,2,2,7,14,1,4,22,4,1,14,7,2,2,44,2,2,7,
+%U A040479 14,1,4,22,4,1,14,7,2,2,44,2,2,7,14,1,4,22,4,1,14
+%N A040479 Continued fraction for sqrt(502).
+%H A040479 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040479 a(n)=(1/182)*{-528*(n mod 14)+18*[(n+1) mod 14]+83*[(n+2) mod 14]+109*[(n+3) mod 14]-151*[(n+4) mod 14]+57*[(n+5) mod 14]+252*[(n+6) mod 14]-216*[(n+7) mod 14]-21*[(n+8) mod 14]+187*[(n+9) mod 14]-73*[(n+10) mod 14]-47*[(n+11) mod 14]+18*[(n+12) mod 14]+564*[(n+13) mod 14]}-22*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 13 2009]
+%p A040479 with(numtheory): Digits := 300: convert(evalf(sqrt(502)),confrac);
+%K A040479 nonn,cofr,easy,less
+%O A040479 0,1
+%A A040479 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

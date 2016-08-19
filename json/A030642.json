@@ -1,0 +1,1 @@
+{"formerly":"","seq":"2,15,323,111547,12449873237,154999344563559225589,24024796815132956872884975543558130445497","description":"Product of next 2 primes.","maple":"f := n->nextprime(n)*nextprime(nextprime(n));","crossrefs":["Cf. A000040, A030641."],"keyword":"nonn","offset":"1,1","author":"_N. J. A. Sloane_."}

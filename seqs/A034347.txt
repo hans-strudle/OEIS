@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034347
+Showing 1-1 of 1
+
+%I A034347
+%S A034347 0,0,0,0,0,1,6,25,99,385,1472,5676,22101,87404,350097,1413251,5708158,
+%T A034347 22903161,90699398,352749035,1342638839,4990325414,18090636016,
+%U A034347 63933709870,220277491298
+%N A034347 Number of binary [ n,6 ] codes without 0 columns.
+%D A034347 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034347 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034347 Cf. A034253, A034344-.
+%Y A034347 First differences of A034360.
+%K A034347 nonn
+%O A034347 1,7
+%A A034347 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

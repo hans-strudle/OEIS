@@ -1,0 +1,50 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026792
+Showing 1-1 of 1
+
+%I A026792
+%S A026792 1,2,1,1,3,2,1,1,1,1,4,2,2,3,1,2,1,1,1,1,1,1,5,3,2,4,1,2,2,1,3,1,1,2,
+%T A026792 1,1,1,1,1,1,1,1,6,3,3,4,2,2,2,2,5,1,3,2,1,4,1,1,2,2,1,1,3,1,1,1,2,1,
+%U A026792 1,1,1,1,1,1,1,1,1,7,4,3,5,2,3,2,2,6,1,3,3,1,4,2,1,2,2,2,1,5,1,1,3,2,1,1,4,1,1,1,2,2,1
+%N A026792 List of juxtaposed reverse-lexicographically ordered partitions of the positive integers.
+%C A026792 The representation of the partitions (for fixed n) is as (weakly) decreasing lists of parts, the order between individual partitions (for the same n) is (list-)reversed lexicographic; see examples. [_Joerg Arndt_, Sep 03 2013]
+%C A026792 Written as a triangle; row n has length A006128(n); row sums give A066186. Also written as an irregular tetrahedron in which T(n,j,k) is the k-th largest part of the j-th partition of n; the sum of column k in the slice n is A181187(n,k); right border of the slices gives A182715. - _Omar E. Pol_, Mar 25 2012
+%C A026792 The equivalent sequence for compositions (ordered partitions) is A228351). - _Omar E. Pol_, Sep 03 2013
+%e A026792 E.g. the partitions of 3 (3,2+1,1+1+1) appear as the string 3,2,1,1,1,1.
+%e A026792 So the list begins:
+%e A026792 1
+%e A026792 2, 1, 1,
+%e A026792 3, 2, 1, 1, 1, 1,
+%e A026792 4, 2, 2, 3, 1, 2, 1, 1, 1, 1, 1, 1,
+%e A026792 5, 3, 2, 4, 1, 2, 2, 1, 3, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1,
+%e A026792 ...
+%e A026792 From _Omar E. Pol_, Sep 03 2013: (Start)
+%e A026792 Illustration of initial terms:
+%e A026792 ---------------------------------
+%e A026792 n  j     Diagram     Partition
+%e A026792 ---------------------------------
+%e A026792 .         _
+%e A026792 1  1     |_|         1;
+%e A026792 .         _ _
+%e A026792 2  1     |_  |       2,
+%e A026792 2  2     |_|_|       1, 1;
+%e A026792 .         _ _ _
+%e A026792 3  1     |_ _  |     3,
+%e A026792 3  2     |_  | |     2, 1,
+%e A026792 3  3     |_|_|_|     1, 1, 1;
+%e A026792 .         _ _ _ _
+%e A026792 4  1     |_ _    |   4,
+%e A026792 4  2     |_ _|_  |   2, 2,
+%e A026792 4  3     |_ _  | |   3, 1,
+%e A026792 4  4     |_  | | |   2, 1, 1,
+%e A026792 4  5     |_|_|_|_|   1, 1, 1, 1;
+%e A026792 ...
+%e A026792 (End)
+%Y A026792 Cf. A026791, A211992, A228351, A228531.
+%K A026792 nonn,tabf
+%O A026792 1,2
+%A A026792 _Clark Kimberling_
+%E A026792 Terms 81st, 83rd and 84th corrected by _Omar E. Pol_, Aug 16 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

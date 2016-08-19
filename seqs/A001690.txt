@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001690
+Showing 1-1 of 1
+
+%I A001690 M3268 N1319
+%S A001690 4,6,7,9,10,11,12,14,15,16,17,18,19,20,22,23,24,25,26,27,28,29,30,31,
+%T A001690 32,33,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,56,
+%U A001690 57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78
+%N A001690 Non-Fibonacci numbers.
+%C A001690 A010056(a(n)) = 0. - _Reinhard Zumkeller_, Oct 10 2013
+%D A001690 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001690 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001690 T. D. Noe, <a href="/A001690/b001690.txt">Table of n, a(n) for n = 1..1000</a>
+%H A001690 Bakir Farhi, <a href="http://arxiv.org/abs/1105.1127">An explicit formula generating the non-Fibonacci numbers</a>, May 05 2011.
+%H A001690 H. W. Gould, <a href="http://www.fq.math.ca/Scanned/3-3/gould.pdf">Non-Fibonacci numbers</a>, Fib. Quart., 3 (1965), pp. 177-183.
+%F A001690 a(n-1)=floor(n+lgg(sqrt(5)*(lgg(sqrt(5)*n)+n)-5+3/n)-2) where lgg(x)=log(x)/log((sqrt(5)+1)/2), given by Farhi. - _Jonathan Vos Post_, May 05 2011
+%F A001690 a(n) ~ n. - _Charles R Greathouse IV_, Nov 06 2014
+%t A001690 Complement[Range[Fibonacci[a = 20]], Fibonacci[Range[a]]] (* _Vladimir Joseph Stephan Orlovsky_, Jul 01 2011 *)
+%o A001690 (PARI) lgg(x)=log(x)/log((sqrt(5)+1)/2);
+%o A001690 a(n)=n++;floor(n+lgg(sqrt(5)*(lgg(sqrt(5)*n)+n)-5+3/n)-2);
+%o A001690 vector(66,n,a(n)) /* show terms */ /* Joerg Arndt, May 14 2011 */
+%o A001690 (PARI) lower=3;upper=5; for(i=4,20,for(n=lower+1,upper-1,print1(n", ")); [lower,upper]=[upper,lower+upper]) \\ _Charles R Greathouse IV_, Nov 19 2013
+%o A001690 (Haskell)
+%o A001690 a001690 n = a001690_list !! (n-1)
+%o A001690 a001690_list = filter ((== 0) . a010056) [0..]
+%o A001690 -- _Reinhard Zumkeller_, Oct 10 2013
+%Y A001690 The nonnegative integers that are not in A000045.
+%K A001690 nonn,easy,nice
+%O A001690 1,1
+%A A001690 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

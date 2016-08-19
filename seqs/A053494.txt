@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053494
+Showing 1-1 of 1
+
+%I A053494
+%S A053494 1,26,348,2698,14751,62781,222190,681460,1865715,4655535,10756921,
+%T A053494 23290026,47700173,93104473,174248451,314246511,548380980,929209095,
+%U A053494 1533389605,2470568045,3894914166,6019752376,9136114923,13635769173
+%N A053494 Number of symmetric 5 X 5 matrices of nonnegative integers with every row and column adding to n.
+%D A053494 R. P. Stanley, Enumerative Combinatorics, Wadsworth, Vol. 1, 1986; see Prop. 4.6.21, p. 235, G_5(lambda).
+%H A053494 R. P. Stanley, <a href="/A002721/a002721.pdf">Examples of Magic Labelings</a>, Unpublished Notes, 1973 [Cached copy, with permission]
+%F A053494 G.f.: (1+21*x+222*x^2+1082*x^3+3133*x^4+5722*x^5+7013*x^6+
+%F A053494 5722*x^7+3133*x^8+1082*x^9+222*x^10+21*x^11+x^12) / ((1-x)^11*(1+x)^6).
+%Y A053494 Cf. A019298, A053493.
+%K A053494 nonn
+%O A053494 0,2
+%A A053494 _N. J. A. Sloane_, Jan 15 2000; revised definition, Jul 06 2014.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

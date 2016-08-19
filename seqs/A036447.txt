@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036447
+Showing 1-1 of 1
+
+%I A036447
+%S A036447 1,2,4,8,61,221,244,884,8671,24371,24784,86594,881371,2472671,2435494,
+%T A036447 8890784,86518771,245730371,247064194,883821494,8892467671,
+%U A036447 24353948771,24579870784,86514795194,883095920371,2470481916671,2433383690494
+%N A036447 Double and reverse digits.
+%H A036447 Harvey P. Dale, <a href="/A036447/b036447.txt">Table of n, a(n) for n = 0..1000</a>
+%H A036447 Nick Hobson, <a href="/A036447/a036447.py.txt">Python program for this sequence</a>
+%F A036447 a(n+1) = A004093(a(n)). - _Reinhard Zumkeller_, Feb 09 2012
+%t A036447 NestList[ FromDigits[ Reverse[ IntegerDigits[ 2# ] ] ] &, 1, 27 ]
+%o A036447 (Haskell)
+%o A036447 a036447 n = a036447_list !! n
+%o A036447 a036447_list = iterate a004093 1  -- _Reinhard Zumkeller_, Feb 09 2012
+%Y A036447 Cf. A004086, A004093.
+%K A036447 nonn,base,easy,nice
+%O A036447 0,2
+%A A036447 _Rodolfo Kurchan_
+%E A036447 More terms from Larry Reeves (larryr(AT)acm.org), Mar 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

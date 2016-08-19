@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001433
+Showing 1-1 of 1
+
+%I A001433 M2588 N1024
+%S A001433 1,1,1,3,6,15,41,115,345,1103,3664,12763,46415,175652,691001,2821116,
+%T A001433 11932174,52211412,236007973,1100528508,5287050500,26134330813,
+%U A001433 132760735671,692294900849,3701754158688
+%N A001433 Number of graphs with n nodes and n-1 edges.
+%D A001433 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 146.
+%D A001433 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001433 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001433 M. L. Stein and P. R. Stein, Enumeration of Linear Graphs and Connected Linear Graphs up to $p = 18$ Points. Report LA-3775, Los Alamos Scientific Laboratory of the University of California, Los Alamos, NM, Oct 1967.
+%H A001433 Sean A. Irvine, <a href="/A001433/b001433.txt">Table of n, a(n) for n = 1..40</a>
+%t A001433 (* first do *) Needs["Combinatorica`"] (* then *) Table[ NumberOfGraphs[n, n-1], {n, 1, 25}] (* _Robert G. Wilson v_ *)
+%Y A001433 Cf. A008406.
+%K A001433 nonn,easy,nice
+%O A001433 1,4
+%A A001433 _N. J. A. Sloane_.
+%E A001433 More terms from _Vladeta Jovovic_, Jan 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

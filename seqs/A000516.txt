@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000516
+Showing 1-1 of 1
+
+%I A000516
+%S A000516 0,0,0,0,1,1,4,51,3529,601055,156473848
+%N A000516 Number of equivalence classes of n X n matrices over {0,1} with rows and columns summing to 5, where equivalence is defined by row and column permutations. Isomorphism classes of bicolored 5-regular bipartite graphs, where isomorphism cannot exchange the colors.
+%H A000516 <a href="/index/La#Latin">Index entries for sequences related to Latin squares and rectangles</a>
+%Y A000516 Cf. A000512, A000513.
+%K A000516 nonn,more
+%O A000516 0,7
+%A A000516 Eric Rogoyski
+%E A000516 Definition corrected by _Brendan McKay_, May 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

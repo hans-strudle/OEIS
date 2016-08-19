@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050830
+Showing 1-1 of 1
+
+%I A050830
+%S A050830 1,5,33,97,121,125,305,445,473,513,1581,3077,3517,6345,8797,15265,
+%T A050830 16641,32185,32581,43905,77025,84377,202345,230777,234401,473073
+%N A050830 Numbers n such that 157*2^n-1 is prime.
+%H A050830 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A050830 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A050830 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%H A050830 Kosmaj, <a href="http://www.15k.org/riesellist.htm">Riesel list k<300</a>.
+%K A050830 hard,nonn
+%O A050830 1,2
+%A A050830 _N. J. A. Sloane_, Dec 29 1999
+%E A050830 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062640
+Showing 1-1 of 1
+
+%I A062640
+%S A062640 23,193,811
+%N A062640 Numbers n such that 74^n - 73^n is prime.
+%C A062640 a(4) > 10^5. - _Robert Price_, May 23 2014
+%Y A062640 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062640 nonn,hard,bref
+%O A062640 1,1
+%A A062640 _Mike Oakes_, May 18 2001, May 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

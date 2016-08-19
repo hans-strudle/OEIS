@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054659
+Showing 1-1 of 1
+
+%I A054659
+%S A054659 0,1,2,3,4,5,6,7,8,9,10,23,40,51,60,71,80,91,203,415,602,713,802,913,
+%T A054659 2045,3167,4025,6137,8024,9135,20467,31589,40267,51389,60247,81359
+%N A054659 Increasing sequence with no repeating digits and no digits shared with previous term.
+%C A054659 a(11)=23 since a(10)=10 and any number from 11 to 21 would share a digit between the two terms while 22 has a repeated digit
+%Y A054659 Cf. A030283.
+%K A054659 nonn,base,easy,fini,full
+%O A054659 1,3
+%A A054659 _Henry Bottomley_, Apr 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

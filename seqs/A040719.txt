@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040719
+Showing 1-1 of 1
+
+%I A040719
+%S A040719 27,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,
+%T A040719 3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,
+%U A040719 54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54,3,54
+%N A040719 Continued fraction for sqrt(747).
+%H A040719 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040719 a(n)=(1/2)*[57+51*(-1)^n]-27*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 20 2009]
+%p A040719 with(numtheory): Digits := 300: convert(evalf(sqrt(747)),confrac);
+%K A040719 nonn,cofr,easy
+%O A040719 0,1
+%A A040719 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

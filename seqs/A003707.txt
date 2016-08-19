@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003707
+Showing 1-1 of 1
+
+%I A003707 M3490
+%S A003707 0,1,1,4,14,80,496,3904,34544,354560,4055296,51733504,724212224,
+%T A003707 11070525440,183218384896,3266330312704,62380415842304,
+%U A003707 1270842139934720,27507260369207296,630424777638805504,15250924309151350784,388362339077351014400,10384039093607251050496
+%V A003707 0,1,-1,4,-14,80,-496,3904,-34544,354560,-4055296,51733504,-724212224,
+%W A003707 11070525440,-183218384896,3266330312704,-62380415842304,
+%X A003707 1270842139934720,-27507260369207296,630424777638805504,-15250924309151350784,388362339077351014400,-10384039093607251050496
+%N A003707 E.g.f. log(1+tan(x)).
+%D A003707 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003707 Vincenzo Librandi, <a href="/A003707/b003707.txt">Table of n, a(n) for n = 0..200</a>
+%H A003707 Kruchinin Vladimir Victorovich, <a href="http://arxiv.org/abs/1009.2565">Composition of ordinary generating functions</a>, arXiv:1009.2565
+%F A003707 a(n) = sum((-1)^(k+1)evenp(n+k), k=1,n, (-1)^((n+k)/2)/k*sum(j=k,n, j!/n!*stirling2(n,j)*2^(n-j)*(-1)^(n+j-k)*binomial(j-1,k-1)), n>0 [_Vladimir Kruchinin_, Aug 18 2010]
+%F A003707 a(n) = sum(m=0..(n-1)/2, sum(j=0..2*m, binomial(j+n-2*m-1,n-2*m-1)*(j+n-2*m)!*2^(2*m-j)*(-1)^(n-m+j-1)*stirling2(n,j+n-2*m))/(n-2*m)); [_Vladimir Kruchinin_, Jan 21 2012]
+%F A003707 a(n) ~ (-1)^(n+1) * 4^n * (n-1)! / Pi^n. - _Vaclav Kotesovec_, Feb 16 2015
+%t A003707 With[{nn = 30}, CoefficientList[Series[Log[1 + Tan[x]], {x, 0, nn}], x] Range[0, nn]!] (* _Vincenzo Librandi_, Apr 11 2014 *)
+%o A003707 (Maxima) a(n):=sum((-1)^(k+1)*if evenp(n+k) then (-1)^((n+k)/2)/k*sum(j!/n!*stirling2(n,j)*2^(n-j)*(-1)^(n+j-k)*binomial(j-1,k-1),j,k,n) else 0,k,1,n);  /* _Vladimir Kruchinin_, Aug 18 2010 */
+%o A003707 (Maxima) a(n):=sum(sum(binomial(j+n-2*m-1,n-2*m-1)*(j+n-2*m)!*2^(2*m-j)*(-1)^(n-m+j-1)*stirling2(n,j+n-2*m),j,0,2*m)/(n-2*m),m,0,(n-1)/2); /* _Vladimir Kruchinin_, Jan 21 2012 */
+%o A003707 (PARI) x='x+O('x^66); concat([0],Vec(serlaplace(log(1+tan(x))))) \\ _Joerg Arndt_, Sep 02 2013
+%Y A003707 Bisections are A002436 and |A024299|.
+%K A003707 sign
+%O A003707 0,4
+%A A003707 _R. H. Hardin_, _Simon Plouffe_
+%E A003707 Name corrected, more terms, _Joerg Arndt_, Sep 02 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

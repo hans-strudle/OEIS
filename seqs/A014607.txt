@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014607
+Showing 1-1 of 1
+
+%I A014607
+%S A014607 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,
+%T A014607 1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014607 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014607 1,-1,1,-1,1,-1,1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,1,-1,1,-1,1,-1,1,
+%W A014607 -1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014607 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014607 Inverse of 598th cyclotomic polynomial.
+%p A014607 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014607 sign
+%O A014607 0,1
+%A A014607 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

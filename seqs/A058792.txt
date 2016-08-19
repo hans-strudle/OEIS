@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058792
+Showing 1-1 of 1
+
+%I A058792
+%S A058792 1,5,44,966,53535,7043925
+%N A058792 Number of covers of an unlabeled n-set such that every point of the set is covered by exactly 5 subsets of the cover and that intersection of every 5 subsets of the cover contains at most one point.
+%C A058792 Cover may include multiple occurrences of a subset. Also n-rowed binary matrices with distinct rows and all row sums 5.
+%H A058792 <a href="/A058790/a058790.pdf">Formula</a>
+%Y A058792 Cf. A050535, A050913, A058783-A058785.
+%K A058792 more,nonn
+%O A058792 1,2
+%A A058792 _Vladeta Jovovic_, Nov 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

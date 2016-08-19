@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061934
+Showing 1-1 of 1
+
+%I A061934
+%S A061934 1,16,19,207,350376,723792,853456,1894016
+%N A061934 Numbers n such that n divides the (right) concatenation of all numbers <= n written in base 5 (most significant digit on right).
+%C A061934 This sequence differs from A029498 in that all least significant zeros are removed before concatenation.
+%C A061934 No more terms < 10^7. [Lars Blomberg, Oct 17 2011]
+%H A061934 <a href="/index/N#concat">Index entries for related sequences</a>
+%e A061934 See A061931 for example.
+%t A061934 cat = 0; k = 1; lst = {}; While[k < 100000, c = FromDigits@ Reverse@ IntegerDigits[k, 5]; cat = cat*10^Floor[ Log10[c] + 1] + c; If[ Mod[ FromDigits[ IntegerDigits@ cat, 5], k] == 0, AppendTo[lst, k]; Print[k]]; k++]; lst (* _Robert G. Wilson v_, Oct 17 2011 *)
+%Y A061934 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A061934 nonn,base
+%O A061934 1,2
+%A A061934 Larry Reeves (larryr(AT)acm.org), May 24 2001
+%E A061934 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A061934 a(6)-a(8) from _Lars Blomberg_, Oct 17 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

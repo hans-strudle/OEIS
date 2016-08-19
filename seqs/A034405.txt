@@ -1,0 +1,13 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034405
+Showing 1-1 of 1
+
+%I A034405
+%S A034405 1,2,14,216,5976,262800,16945200
+%N A034405 Let f(x)=(pi-2*arctan(1/(sqrt(x)*sqrt(x+2))))/(2*sqrt(x)*sqrt(x+2)), take n-th derivative at x=0 and multiply by product of odd integers up to 2*n+1.
+%K A034405 nonn
+%O A034405 0,2
+%A A034405 James R. FitzSimons (cherry(AT)neta.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

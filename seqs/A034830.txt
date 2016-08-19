@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034830
+Showing 1-1 of 1
+
+%I A034830
+%S A034830 1,10,170,4080,126480,4806240,216280800,11246601600,663549494400,
+%T A034830 43794266630400,3196981464019200,255758517121536000,
+%U A034830 22250990989573632000,2091593153019921408000,211250908455012062208000
+%N A034830 a(n) = n-th sept-factorial number divided by 3.
+%H A034830 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A034830 3*a(n) = (7*n-4)(!^7) = product_{j=1..n} (7*j-4).
+%F A034830 E.g.f.: (-1 + (1-7*x)^(-3/7))/3.
+%t A034830 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 9, 5!, 7}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A034830 Cf. A045754, A034829-A034834.
+%K A034830 easy,nonn
+%O A034830 1,2
+%A A034830 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

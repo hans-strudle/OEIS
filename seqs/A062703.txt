@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062703
+Showing 1-1 of 1
+
+%I A062703
+%S A062703 36,100,144,576,1764,2304,3844,5184,7056,8100,12100,14400,14884,30276,
+%T A062703 41616,43264,48400,53824,57600,69696,93636,106276,112896,138384,
+%U A062703 148996,166464,168100,197136,206116,207936,219024,220900,224676,272484,298116
+%N A062703 Squares that are the sum of two consecutive primes.
+%H A062703 Harry J. Smith, <a href="/A062703/b062703.txt">Table of n, a(n) for n=1..100</a>
+%F A062703 a(n) = A074924(n)^2.
+%e A062703 prime(7) + prime(8) = 17 + 19 = 36 = 6^2.
+%t A062703 PrevPrim[n_] := Block[{k = n - 1}, While[ !PrimeQ[k], k-- ]; k]; NextPrim[n_] := Block[{k = n + 1}, While[ !PrimeQ[k], k++ ]; k]; f[n_] := Block[{m = Floor[n/2]}, s = PrevPrim[m] + NextPrim[m]; If[s == n, True, False]]; Select[ Range[550], f[ #^2] &]^2
+%t A062703 t := Table[Prime[n] + Prime[n + 1], {n, 15000}]; Select[t, IntegerQ[Sqrt[#]] &] (* _Carlos Eduardo Olivieri_, Feb 25 2015 *)
+%o A062703 (PARI) je=[]; for(n=1,39000, if(issquare(prime(n)+prime(n+1)),je=concat(je, prime(n)+prime(n+1)))); je
+%o A062703 (PARI) { n=0; for (m=1, 10^9, if(issquare(a=prime(m) + prime(m + 1)), write("b062703.txt", n++, " ", a); if (n==100, break)) ) } \\ _Harry J. Smith_, Aug 09 2009
+%o A062703 (PARI) {for(n=1,100,(p=precprime(n^2/2))+nextprime(p+2) = = n^2&print1(n^2", "))} \\ _Zak Seidov_, Feb 17 2011
+%Y A062703 Cf. A080665.
+%K A062703 easy,nonn
+%O A062703 1,1
+%A A062703 Jason Earls (zevi_35711(AT)yahoo.com), Jul 11 2001
+%E A062703 Edited by _Robert G. Wilson v_, Mar 02 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056872
+Showing 1-1 of 1
+
+%I A056872
+%S A056872 1,5,25,42,133,618,643,701,1962,8150
+%N A056872 Numbers n such that n | p(n) + q(n) where p(n) = partition numbers (A000041) and q(n) = partition numbers into distinct parts (A000009).
+%t A056872 Do[ If[ Mod[ PartitionsP[ n ] + PartitionsQ[ n ], n ] == 0, Print[ n ] ], {n, 1, 8150} ]
+%Y A056872 Cf. A000041 and A000009.
+%K A056872 nonn
+%O A056872 1,2
+%A A056872 _Robert G. Wilson v_, Sep 02 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

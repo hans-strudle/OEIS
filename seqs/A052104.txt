@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052104
+Showing 1-1 of 1
+
+%I A052104
+%S A052104 0,1,1,1,0,1,7,1,53,281,1231,87379,13303471,54313201,10142361989,
+%T A052104 2821265977,10502027401553,1836446156249,2952828271088741,
+%U A052104 1004826382596003137,7006246797736924249,14607119841651449406947,1868869263315549659372569
+%V A052104 0,1,1,1,0,1,-7,1,53,-281,-1231,87379,-13303471,-54313201,10142361989,
+%W A052104 2821265977,-10502027401553,1836446156249,2952828271088741,
+%X A052104 -1004826382596003137,-7006246797736924249,14607119841651449406947,1868869263315549659372569
+%N A052104 Numerators of coefficients in function a(x) such that a(a(x)) = exp(x) - 1.
+%D A052104 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2, 1999; see Problem 6.52.
+%H A052104 Alois P. Heinz, <a href="/A052104/b052104.txt">Table of n, a(n) for n = 0..120</a>
+%H A052104 I. N. Baker, <a href="http://dx.doi.org/10.1007/BF01187396">Zusammensetzungen ganzer Funktionen</a> Math. Z. 69 (1) (1958) 121-163
+%H A052104 Dmitry Kruchinin, Vladimir Kruchinin, <a href="http://arxiv.org/abs/1302.1986">Method for solving an iterative functional equation A^{2^n}(x)=F(x)</a>, arXiv:1302.1986
+%H A052104 Mathoverflow, <a href="http://mathoverflow.net/questions/4347/ffxexpx-1-and-other-functions-just-in-the-middle-between-linear-and-expo">f(f(x))=exp(x)-1 and...</a>
+%F A052104 T(n,m) = if n=m then 1 else (stirling2(n,m)*m!/n!-sum(i=m+1..n-1, T(n,i)*T(i,m)))/2; a(n) = numerator(T(n,1)). - _Vladimir Kruchinin_, Nov 08 2011
+%e A052104 a(x) = x+1/4*x^2+1/48*x^3+1/3840*x^5-7/92160*x^6+1/645120*x^7+...
+%p A052104 T:= proc(n, m) T(n, m):= `if`(n=m, 1, (combinat[stirling2]
+%p A052104         (n, m)*m!/n!-add(T(n,i)*T(i,m), i=m+1..n-1))/2)
+%p A052104     end:
+%p A052104 a:= n-> numer(T(n, 1)):
+%p A052104 seq(a(n), n=0..30);  # _Alois P. Heinz_, Feb 11 2013
+%t A052104 T[n_, n_] = 1; T[n_, m_] := T[n, m] = (StirlingS2[n, m]*m!/n! - Sum[T[n, i]*T[i, m], {i, m+1, n-1}])/2; Table[T[n, 1] // Numerator, {n, 0, 30}] (* _Jean-François Alcover_, Mar 03 2014, after _Alois P. Heinz_ *)
+%Y A052104 Cf. A052105, A052122, A052123.
+%K A052104 sign,nice,easy,frac
+%O A052104 0,7
+%A A052104 _N. J. A. Sloane_, Jan 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

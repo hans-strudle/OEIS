@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046506
+Showing 1-1 of 1
+
+%I A046506
+%S A046506 8867,23887,27883,28387,28837,32887,34487,34847,38287,38447,43487,
+%T A046506 44647,46447,47843,48437,48473,49999,72883,74843,78283,78823,82387,
+%U A046506 82837,84347,84437,87443,88237,88327,94999,118687,123887,126487,128467
+%N A046506 Primes with multiplicative persistence value 6.
+%H A046506 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence</a>
+%e A046506 8867 -> [ 2688 ][ 768 ][ 336 ][ 54 ][ 20 ][ 0 ] -> one digit in six steps.
+%Y A046506 Cf. A046500, A046515.
+%K A046506 nonn,base
+%O A046506 0,1
+%A A046506 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

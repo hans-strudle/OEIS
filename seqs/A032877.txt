@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032877
+Showing 1-1 of 1
+
+%I A032877
+%S A032877 1,2,3,4,5,8,9,10,11,15,16,17,22,23,29,37,38,39,40,41,73,74,75,76,77,
+%T A032877 80,81,82,83,109,110,111,112,113,116,117,118,119,123,124,125,145,146,
+%U A032877 147,148,149,152,153,154,155,159,160,161,166,167
+%N A032877 Numbers n such that base 6 representation Sum{d(i)*6^i: i=0,1,...,m) has d(0)>d(1)<d(2)>...
+%K A032877 nonn,base
+%O A032877 1,2
+%A A032877 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

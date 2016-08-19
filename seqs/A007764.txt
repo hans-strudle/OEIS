@@ -1,0 +1,50 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007764
+Showing 1-1 of 1
+
+%I A007764
+%S A007764 1,2,12,184,8512,1262816,575780564,789360053252,3266598486981642,
+%T A007764 41044208702632496804,1568758030464750013214100,
+%U A007764 182413291514248049241470885236,64528039343270018963357185158482118,69450664761521361664274701548907358996488
+%N A007764 Number of nonintersecting (or self-avoiding) rook paths joining opposite corners of an n X n grid.
+%C A007764 The length of the path varies.
+%C A007764 From _Daniel Forgues_, Jan 03 2011: (Start)
+%C A007764 For n=14, there exists at least one Hamiltonian path from (0,0) to (14,14). For which n do we have at least one Hamiltonian path?
+%C A007764 Lattice graphs have their values located at the corners of grid cells. Lattice graph edges join the corners of grid cells.
+%C A007764 Grid graphs have their values located at the centers of grid cells. Grid graph edges join the centers of grid cells.
+%C A007764 An (m+1) X (n+1) square lattice constitutes the cell corners (coordinates (0,0) to (m,n)) of an m X n square grid.
+%C A007764 Number of self-avoiding walks from (0,0) to (n,n), n >= 0, of a (n+1) X (n+1) square lattice.
+%C A007764 Since rooks move from centers to centers of adjacent grid cells, should the definition say? "Number of nonintersecting (or self-avoiding) rook paths joining opposite corner cells of an (n+1) X (n+1) grid." (End)
+%D A007764 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 331-339.
+%D A007764 D. E. Knuth, 'Things A Computer Scientist Rarely Talks About,' CSLI Publications, Stanford, CA, 2001, pages 27-28.
+%D A007764 D. E. Knuth, The Art of Computer Programming, Section 7.1.4.
+%D A007764 Shin-ichi Minato, The power of enumeration - BDD/ZDD-based algorithms for tackling combinatorial explosion, Chapter 3 of Applications of Zero-Suppressed Decision Diagrams, ed. T. Satsoa and J. t. Butler, Morgan & Claypool Publishers, 2014
+%D A007764 Shin-ichi Minato, Counting by ZDD, Encyclopedia of Algorithms, 2014, pp. 1-6.
+%D A007764 Netnews group rec.puzzles, Frequently Asked Questions (FAQ) file. (Science Section).
+%H A007764 I. Jensen, H. Iwashita, R. Spaans, <a href="/A007764/b007764.txt">Table of n, a(n) for n = 0..26</a> (I. Jensen computed terms 0 to 19, H. Iwashita computed 20 and 21, R. Spaans computed 22 to 24, and H. Iwashita computed 25 and 26)
+%H A007764 M. Bousquet-Melou, A. J. Guttmann and I. Jensen, <a href="http://arXiv.org/abs/cond-mat/0506341">Self-avoiding walks crossing a square</a>
+%H A007764 Doi, Maeda, Nagatomo, Niiyama, Sanson, Suzuki, et al., <a href="http://www.youtube.com/watch?v=Q4gTV4r0zRs">Time with class! Let's count!</a> [Youtube-animation demonstrating this sequence. In Japanese with English translation]
+%H A007764 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/cnntv/cnntv.html">Self-Avoiding-Walk Connective Constants</a>
+%H A007764 H. Iwashita, J. Kawahara, and S. Minato, <a href="http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_12_60/tcstr_12_60.pdf">ZDD-Based Computation of the Number of Paths in a Graph</a>
+%H A007764 H. Iwashita, Y. Nakazawa, J. Kawahara, T. Uno, and S. Minato, <a href="http://www-alg.ist.hokudai.ac.jp/~thomas/TCSTR/tcstr_13_64/tcstr_13_64.pdf">Efficient Computation of the Number of Paths in a Grid Graph with Minimal Perfect Hash Functions</a>
+%H A007764 I. Jensen, <a href="http://www.ms.unimelb.edu.au/~iwan/saw/SAW_ser.html">Series Expansions for Self-Avoiding Walks</a>
+%H A007764 OEIS Wiki, <a href="/wiki/Self-avoiding_walks#Self-avoiding walks on an (n+1) X (n+1) square lattice starting from (0,0) and ending at (n,n)">Self-avoiding_walks</a>
+%H A007764 Ruben Grønning Spaans, <a href="https://github.com/stubbscroll/OEIS/blob/master/A007764-fast.c">C program</a>
+%H A007764 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Self-AvoidingWalk.html">Self-Avoiding Walk</a>
+%e A007764 Suppose we start at (0,0) and end at (n-1,n-1). Let U, D, L, R denote steps that are up, down, left, right.
+%e A007764 a(2) = 2: UR or RU.
+%e A007764 a(3) = 12: UURR, UURDRU, UURDDRUU, URUR, URRU, URDRUU and their reflections in the x=y line.
+%Y A007764 Main diagonal of A064298.
+%Y A007764 Cf. A064297, A271507, A001184, A000532.
+%K A007764 nonn,walk,hard,nice
+%O A007764 1,2
+%A A007764 _David Radcliffe_ and _Don Knuth_
+%E A007764 Computed to n=11 by John Van Rosendale in 1981, extended to n=12 by _Don Knuth_, Dec 07 1995
+%E A007764 Extended to n=19 by _Mireille Bousquet-Mélou_, A. J. Guttmann and I. Jensen
+%E A007764 Extended to n=21 using ZDD technique based on Knuth's The Art of Computer Programming (exercise 225 in 7.1.4) by H. Iwashita, J. Kawahara, and S. Minato, Sep 18 2012
+%E A007764 Extended to n=24 using state space compression (with rank/unrank) and dynamic programming (based in I. Jensen) by _Ruben Grønning Spaans_, Feb 22 2013
+%E A007764 Extended to n=25 by _Hiroaki Iwashita_, Apr 11 2013
+%E A007764 Extended to n=26 by _Hiroaki Iwashita_, Nov 18 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

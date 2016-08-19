@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013086
+Showing 1-1 of 1
+
+%I A013086
+%S A013086 2,8,306,30312,5993442,1954414728,953905703058,650409090147432,
+%T A013086 590608999475062722,688945370061378414600,1003968219388341434081778,
+%U A013086 1787361481981953243947889000,3817161109431432209134714003362
+%N A013086 arcsin(arcsinh(x)+arcsin(x))=2*x+8/3!*x^3+306/5!*x^5+30312/7!*x^7...
+%K A013086 nonn
+%O A013086 0,1
+%A A013086 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

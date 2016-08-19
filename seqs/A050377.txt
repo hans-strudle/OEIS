@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050377
+Showing 1-1 of 1
+
+%I A050377
+%S A050377 1,1,1,2,1,1,1,2,2,1,1,2,1,1,1,4,1,2,1,2,1,1,1,2,2,1,2,2,1,1,1,4,1,1,
+%T A050377 1,4,1,1,1,2,1,1,1,2,2,1,1,4,2,2,1,2,1,2,1,2,1,1,1,2,1,1,2,6,1,1,1,2,
+%U A050377 1,1,1,4,1,1,2,2,1,1,1,4,4,1,1,2,1,1,1,2,1,2,1,2,1,1,1,4,1,2,2,4,1,1
+%N A050377 Number of ways to factor n into members of A050376.
+%C A050377 a(n) depends only on prime signature of n (cf. A025487). So a(24) = a(375) since 24=2^3*3 and 375=3*5^3 both have prime signature (3,1).
+%C A050377 Multiplicative with a(p^e) = A018819(e). - _Christian G. Bower_ and _David W. Wilson_, May 22 2005
+%H A050377 R. Zumkeller, <a href="/A050377/b050377.txt">Table of n, a(n) for n = 1..10000</a>
+%F A050377 Dirichlet g.f.: Product_{n in A050376} (1/(1-1/n^s)).
+%F A050377 a(n) = Sum{a(d): d^2 divides n}, a(1) = 1. - _Reinhard Zumkeller_, Jul 12 2007
+%p A050377 A018819:= proc(n) option remember;
+%p A050377   if n::odd then procname(n-1)
+%p A050377   else procname(n-1) + procname(n/2)
+%p A050377   fi
+%p A050377 end proc:
+%p A050377 A018819(0):= 1:
+%p A050377 f:= n -> mul(A018819(s[2]),s=ifactors(n)[2]):
+%p A050377 seq(f(n),n=1..100); # _Robert Israel_, Jan 14 2016
+%Y A050377 Cf. A001055, A018819, A050376-A050380, A025487. a(p^k)=A000123([k/2]). a(A002110)=1.
+%K A050377 nonn,mult
+%O A050377 1,4
+%A A050377 _Christian G. Bower_, Nov 15 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

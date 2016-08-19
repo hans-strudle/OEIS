@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030440
+Showing 1-1 of 1
+
+%I A030440
+%S A030440 1,0,7,30,77,156,275,442,665,952,1311,1750,2277,2900,3627,4466,5425,
+%T A030440 6512,7735,9102,10621,12300,14147,16170,18377,20776,23375,26182,29205,
+%U A030440 32452,35931,39650,43617,47840
+%N A030440 Values of Newton-Gregory forward interpolating polynomial (1/3)*(n-1)*(2*n+3)*(2*n-1).
+%C A030440 Starting at a(2)=7, a(n) = the partial sums of A073577. - _J. M. Bergot_, Apr 20 2016
+%D A030440 S. Falcon, Relationships between Some k-Fibonacci Sequences, Applied Mathematics, 2014, 5, 2226-2234; http://www.scirp.org/journal/am; http://dx.doi.org/10.4236/am.2014.515216
+%H A030440 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A030440 G.f.: ( 1+13*x^2-2*x^3-4*x ) / (x-1)^4 . - _R. J. Mathar_, May 18 2014
+%F A030440 a(n) = (1/6) * (A106734(2n) - 1), n > 0. - _Mathew Englander_, Jun 06 2014
+%F A030440 E.g.f.: (3 - 3*x + 12*x^2 + 4*x^3)*exp(x)/3. - _Ilya Gutkovskiy_, Apr 20 2016
+%K A030440 nonn,easy
+%O A030440 0,3
+%A A030440 Ilias.Kotsireas(AT)lip6.fr (Ilias Kotsireas)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

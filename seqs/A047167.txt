@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047167
+Showing 1-1 of 1
+
+%I A047167
+%S A047167 0,0,0,0,0,3,6,24,40,100,150,315,455,980,1470,3528,5544,13692,21630,
+%T A047167 51600,80520,186945,290400,675675,1056627,2492919,3929926,9324406,
+%U A047167 14742910,34860553,55107598,129804808,205272008,483483128
+%N A047167 Number of nonempty subsets of {1,2,...,n} in which exactly 3/5 of the elements are <= n/2.
+%K A047167 nonn
+%O A047167 1,6
+%A A047167 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

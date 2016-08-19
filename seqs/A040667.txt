@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040667
+Showing 1-1 of 1
+
+%I A040667
+%S A040667 26,2,1,9,1,6,1,1,1,1,1,2,1,8,17,2,4,3,3,2,4,1,5,26,5,1,4,2,3,3,4,2,
+%T A040667 17,8,1,2,1,1,1,1,1,6,1,9,1,2,52,2,1,9,1,6,1,1,1,1,1,2,1,8,17,2,4,3,3,
+%U A040667 2,4,1,5,26,5,1,4,2,3,3,4,2,17,8,1,2,1,1,1,1,1,6,1,9
+%N A040667 Continued fraction for sqrt(694).
+%H A040667 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040667 with(numtheory): Digits := 300: convert(evalf(sqrt(694)),confrac);
+%K A040667 nonn,cofr,easy
+%O A040667 0,1
+%A A040667 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035649
+Showing 1-1 of 1
+
+%I A035649
+%S A035649 0,0,0,0,0,0,1,0,0,1,1,0,3,1,1,3,3,1,7,3,3,8,8,3,14,9,8,16,17,9,27,19,
+%T A035649 18,32,34,20,49,40,37,58,63,43,87,74,70,104,113,82,149,135,128,177,
+%U A035649 195,152,249,232,224,298,327,266,407,392,380,485,535,455,654,639,628
+%N A035649 Number of partitions of n into parts 6k+3 and 6k+4 with at least one part of each type
+%K A035649 nonn
+%O A035649 1,13
+%A A035649 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

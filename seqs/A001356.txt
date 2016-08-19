@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001356
+Showing 1-1 of 1
+
+%I A001356 M4961 N2127
+%S A001356 1,15,29,12,26,12,26,9,23,7,21,4,18,2,16,30,13,27,10,24,8,22,5,19,3,
+%T A001356 17,31,14,28,11,25,11,25,8,22,6,20,3,17,1,15,29,12,26,9,23,7,21,4,18,
+%U A001356 2,16,30,13,27,10,24,10,24,7,21,5,19,2,16,30,14,28,11,25,8,22,6,20,3,17,1,15
+%N A001356 Dates at fortnightly intervals from Jan 01.
+%C A001356 Sequence assumes that the first year is the year after a leap year.
+%D A001356 Archimedeans Problems Drive, Eureka, 13 (1950), 11.
+%D A001356 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001356 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001356 <a href="/index/Ca#calendar">Index entries for sequences related to calendars</a>
+%t A001356 (* first do *) Needs["Calendar`"] (* then *) Table[ DaysPlus[{1, 1, 1}, 14 n][[3]], {n, 0, 77}] (* _Robert G. Wilson v_, Apr 18 2010 *)
+%Y A001356 Cf. A051121.
+%K A001356 nonn,easy,nice
+%O A001356 1,2
+%A A001356 _N. J. A. Sloane_
+%E A001356 More terms from Larry Reeves (larryr(AT)acm.org), Mar 17 2000
+%E A001356 One more term from _Robert G. Wilson v_, Apr 18 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

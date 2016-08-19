@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030052
+Showing 1-1 of 1
+
+%I A030052
+%S A030052 3,5,6,15,12,25,40,84,47,63,68,81,102,95,104
+%N A030052 Smallest number whose n-th power is a sum of distinct smaller n-th powers.
+%H A030052 Various authors, <a href="/A030052/a030052.txt">How each power is decomposed</a>
+%H A030052 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/DiophantineEquation.html">Diophantine Equation.</a>
+%e A030052 3^1 = 2^1 + 1^1. For more examples, see the link.
+%K A030052 nonn,nice
+%O A030052 1,1
+%A A030052 Richard Schroeppel
+%E A030052 n = 8 through 10 terms found by _David W. Wilson_
+%E A030052 a(11) from _Al Zimmermann_, Apr 07 2004
+%E A030052 a(12) from _Al Zimmermann_, Apr 13 2004
+%E A030052 a(13) from Manol Iliev, Jan 04 2010
+%E A030052 a(14) and a(15) from Manol Iliev, Apr 28 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

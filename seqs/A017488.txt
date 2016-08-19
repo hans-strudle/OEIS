@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017488
+Showing 1-1 of 1
+
+%I A017488
+%S A017488 4096,130321,810000,2825761,7311616,15752961,29986576,52200625,
+%T A017488 84934656,131079601,193877776,276922881,384160000,519885601,688747536,
+%U A017488 895745041,1146228736,1445900625,1800814096,2217373921
+%N A017488 (11*n+8)^4.
+%H A017488 Vincenzo Librandi, <a href="/A017488/b017488.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017488 (MAGMA) [(11*n+8)^4: n in [0..30]]; // Vincenzo Librandi, Sep 04 2011
+%K A017488 nonn,easy
+%O A017488 0,1
+%A A017488 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

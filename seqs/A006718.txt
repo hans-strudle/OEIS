@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006718
+Showing 1-1 of 1
+
+%I A006718 M3707
+%S A006718 4,112,8432,909288,121106960,18167084064,2956370702688,
+%T A006718 510696155882492,92343039606440064,17311893232788414400,
+%U A006718 3342127071364266721200
+%N A006718 Golygons of length 8n.
+%D A006718 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006718 I. Vardi, Computational Recreations in Mathematica. Addison-Wesley, Redwood City, CA, 1991, p. 92.
+%H A006718 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Golygon.html">Golygon</a>
+%F A006718 a(n) = 4 * A007219(n). - _Charles R Greathouse IV_, Apr 29 2012
+%t A006718 p1[n_] := Product[x^k + 1, {k, 1, n - 1, 2}] // Expand; p2[n_] := Product[x^k + 1, {k, 1, n/2}] // Expand; c[n_] := Coefficient[p1[n], x, n^2/8] * Coefficient[p2[n], x, n (n/2 + 1)/8]; a[n_] := c[8*n]; Table[a[n], {n, 1, 11}] (* _Jean-François Alcover_, Jul 24 2013, after Eric Weisstein *)
+%K A006718 nonn
+%O A006718 1,1
+%A A006718 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

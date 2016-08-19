@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022264
+Showing 1-1 of 1
+
+%I A022264
+%S A022264 0,3,13,30,54,85,123,168,220,279,345,418,498,585,679,780,888,1003,
+%T A022264 1125,1254,1390,1533,1683,1840,2004,2175,2353,2538,2730,2929,3135,
+%U A022264 3348,3568,3795,4029,4270,4518,4773
+%N A022264 a(n) = n*(7*n - 1)/2.
+%C A022264 Sequence found by reading the line from 0, in the direction 0, 13, ..., and the parallel line from 3, in the direction 3, 30, ..., in the square spiral whose edges have length A195019 and whose vertices are the numbers A195020. - _Omar E. Pol_, Sep 09 2011
+%H A022264 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%F A022264 a(n) = C(7*n,2)/7, n>=0. - _Zerinvary Lajos_, Jan 02 2007
+%F A022264 a(n) = A049450(n) + A000217(n). - _Reinhard Zumkeller_, Oct 09 2008
+%F A022264 a(n) = 3*a(n-1) - 3*a(n-2) + a(n-3), with a(0)=0, a(1)=3 and a(2)=13. - _Paolo P. Lava_, Jul 29 2009
+%F A022264 a(n) = 7*n + a(n-1) - 4 (with a(0)=0). - _Vincenzo Librandi_, Aug 04 2010
+%F A022264 a(n) = (2*n)^2 - n*(n+1)/2 = A016742(n) - A000217(n). - _Philippe Deléham_, Mar 08 2013
+%F A022264 a(n) = A174738(7n+2). - _Philippe Deléham_, Mar 26 2013
+%p A022264 [seq(binomial(7*n,2)/7,n=0..37)]; # _Zerinvary Lajos_, Jan 02 2007
+%t A022264 s=0;lst={s};Do[s+=n++ +3;AppendTo[lst, s], {n, 0, 6!, 7}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 16 2008 *)
+%t A022264 Array[ #*(7*# - 1)/2 &, 47, 0] # A022264 n*(7 n - 1)/2. [From _Zerinvary Lajos_, Jul 10 2009]
+%o A022264 (PARI) a(n)=n*(7*n-1)/2 \\ _Charles R Greathouse IV_, Mar 08 2013
+%Y A022264 Cf. sequences listed in A254963.
+%K A022264 nonn,easy
+%O A022264 0,2
+%A A022264 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

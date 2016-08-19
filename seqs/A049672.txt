@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049672
+Showing 1-1 of 1
+
+%I A049672
+%S A049672 0,1,10,71,492,3380,23180,158899,1089144,7465159,51167050,350704322,
+%T A049672 2403763416,16475639933,112925716670,774004377655,5305104928368,
+%U A049672 36361730123272,249227005938340,1708227311451263
+%N A049672 a(n)=(F(4n)-F(n))/2, where F=A000045 (the Fibonacci sequence).
+%H A049672 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (8,-7,-6,1).
+%F A049672 G.f.: x*(-1-2*x+2*x^2) / ( (x^2+x-1)*(x^2-7*x+1) ). - _R. J. Mathar_, Oct 26 2015
+%K A049672 nonn,easy
+%O A049672 0,3
+%A A049672 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

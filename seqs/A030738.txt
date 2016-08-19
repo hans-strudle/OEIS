@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030738
+Showing 1-1 of 1
+
+%I A030738
+%S A030738 2,1,2,1,2,1,2,3,4,1,2,3,4,5,1,2,3,4,5,6,7,1,2,3,4,5,6,7,8,9,1,2,3,4,
+%T A030738 5,6,7,8,9,10,12,1,2,3,4,5,6,7,8,9,10,12,13,15,1,2,3,4,5,6,7,8,9,10,
+%U A030738 12,13,15,16,18,1,2,3,4,5,6,7,8,9,10,11,12,13
+%N A030738 Row 2, where, at stage k>1, write i in row 1 and j in row 2, where i is the number of j'2 in rows 1 and 2, for j=1,2,...,m, where m=max number in row 1 from stages 1 to k-1; stage 1 is 2 in row 1.
+%K A030738 nonn
+%O A030738 1,1
+%A A030738 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

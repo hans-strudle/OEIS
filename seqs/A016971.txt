@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016971
+Showing 1-1 of 1
+
+%I A016971
+%S A016971 125,1331,4913,12167,24389,42875,68921,103823,148877,205379,274625,
+%T A016971 357911,456533,571787,704969,857375,1030301,1225043,1442897,1685159,
+%U A016971 1953125,2248091,2571353,2924207,3307949
+%N A016971 (6n+5)^3.
+%H A016971 Vincenzo Librandi, <a href="/A016971/b016971.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016971 (MAGMA) [(6*n+5)^3: n in [0..40]]; // Vincenzo Librandi, May 07 2011
+%K A016971 nonn,easy
+%O A016971 0,1
+%A A016971 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

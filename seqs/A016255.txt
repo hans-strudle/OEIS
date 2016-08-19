@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016255
+Showing 1-1 of 1
+
+%I A016255
+%S A016255 1,20,297,3964,50369,624036,7625689,92469068,1116354417,13443332212,
+%T A016255 161649541001,1942101373212,23321364646945,279969412942148,
+%U A016255 3360424215557433,40330629408450796,484006324653740753
+%N A016255 Expansion of 1/((1-x)(1-7x)(1-12x)).
+%F A016255 a(0)=1, a(1)=20, a(n)=19*a(n-1)-84*a(n-2)+1. - Vincenzo Librandi, Feb 10 2011
+%F A016255 a(n) = (6*12^(n+2) - 11*7^(n+2) + 5)/330. [_Yahia Kahloune_, Jul 09 2013]
+%p A016255 a:=n->sum((12^(n-j)-7^(n-j))/5,j=0..n): seq(a(n), n=1..17); - _Zerinvary Lajos_, Jan 12 2007
+%K A016255 nonn
+%O A016255 0,2
+%A A016255 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

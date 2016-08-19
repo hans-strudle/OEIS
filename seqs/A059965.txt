@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059965
+Showing 1-1 of 1
+
+%I A059965
+%S A059965 0,0,0,0,0,7,7,6,7,6,7,6,5,5,7,6,7,6,5,5,7,6,7,6,5,4,7,6,5,4,5,5,7,6,
+%T A059965 7,6,5,4,3,3,7,6,5,5,7,6,7,6,5,4,7,6,5,4,5,4,7,6,5,4,5,5,7,6,7,6,5,4,
+%U A059965 3,3,7,6,5,5,7,6,7,6,5,4,3,3,7,6,5,4,7,6,5,4,5,4,7,6,5,4,5,4,3,3,7,6,5,5,7
+%N A059965 For m>0, each n+m > 5 is expressed as Sum_{k = x,y,z}(pk)_m where (pk)_m is a prime with x <= y <= z; a(n) = largest m such that (pk)_1 = (pk)_2 = ... = (pk)_m.
+%C A059965 Goldbach conjectured that every integer >5 is the sum of three primes. 6=2+2+2, 7=2+2+3, 8=2+3+3, 9=3+3+3=2+2+5,...
+%K A059965 easy,nonn
+%O A059965 0,6
+%A A059965 _Naohiro Nomoto_, Mar 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

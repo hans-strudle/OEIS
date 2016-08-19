@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034325
+Showing 1-1 of 1
+
+%I A034325
+%S A034325 1,10,150,3000,75000,2250000,78750000,3150000000,141750000000,
+%T A034325 7087500000000,389812500000000,23388750000000000,1520268750000000000,
+%U A034325 106418812500000000000,7981410937500000000000,638512875000000000000000
+%N A034325 a(n) = n-th quintic factorial number divided by 5.
+%H A034325 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=594">Encyclopedia of Combinatorial Structures 594</a>
+%F A034325 5*a(n) = (5*n)(!^5) = product_{j=1..n} 5*j = 5^(n-1)*n!.
+%F A034325 E.g.f.: (-1 + (1-5*x)^(-1))/5, a(0) = 0.
+%t A034325 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 9, 5!, 5}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A034325 Cf. A008548, A034300, A034301, A034323, A052562.
+%K A034325 easy,nonn
+%O A034325 1,2
+%A A034325 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

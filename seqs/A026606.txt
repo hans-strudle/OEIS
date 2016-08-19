@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026606
+Showing 1-1 of 1
+
+%I A026606
+%S A026606 1,2,1,2,2,1,1,2,2,1,1,2,2,1,1,2,1,2,1,2,2,1,1,2,2,1,1,2,1,2,1,2,1,2,
+%T A026606 2,1,2,1,1,2,1,2,1,2,1,2,2,1,1,2,2,1,1,2,1,2,2,1,1,2,2,1,1,2,1,2,1,2,
+%U A026606 1,2,2,1,2,1,1,2,1,2,1,2,1,2,2,1,1,2,2,1,1,2
+%N A026606 a(n) = b(n)-1, where b(n) = n-th term of A026600 that is not a 1.
+%K A026606 nonn
+%O A026606 1,2
+%A A026606 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

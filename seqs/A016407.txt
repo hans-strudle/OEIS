@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016407
+Showing 1-1 of 1
+
+%I A016407
+%S A016407 1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,
+%T A016407 0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,0,0,1,1,0,0,0,1,1,1,
+%U A016407 1,0,0,0,1,1,1,1,0,0,0,1,1,1,1,0,0
+%V A016407 1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,
+%W A016407 0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,0,0,1,-1,0,0,0,1,-1,1,
+%X A016407 -1,0,0,0,1,-1,1,-1,0,0,0,1,-1,1,-1,0,0
+%N A016407 427th cyclotomic polynomial.
+%K A016407 sign,fini
+%O A016407 0,1
+%A A016407 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

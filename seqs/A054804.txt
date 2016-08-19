@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054804
+Showing 1-1 of 1
+
+%I A054804
+%S A054804 31,61,89,211,271,293,449,467,607,619,709,743,839,863,919,1069,1291,
+%T A054804 1409,1439,1459,1531,1637,1657,1669,1723,1759,1777,1831,1847,1861,
+%U A054804 1979,1987,2039,2131,2311,2357,2371,2447,2459,2477,2503,2521,2557,2593,2633
+%N A054804 First term of strong prime quartets: p(m+1)-p(m) > p(m+2)-p(m+1) > p(m+3)-p(m+2).
+%Y A054804 Cf. A051634, A054800-A054840.
+%K A054804 nonn
+%O A054804 1,1
+%A A054804 _Henry Bottomley_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

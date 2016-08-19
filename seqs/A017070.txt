@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017070
+Showing 1-1 of 1
+
+%I A017070
+%S A017070 0,262144,16777216,191102976,1073741824,4096000000,12230590464,
+%T A017070 30840979456,68719476736,139314069504,262144000000,464404086784,
+%U A017070 782757789696,1265319018496,1973822685184,2985984000000
+%N A017070 (8*n)^6.
+%H A017070 Vincenzo Librandi, <a href="/A017070/b017070.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017070 (MAGMA) [(8*n)^6: n in [0..35]]; // Vincenzo Librandi, Jul 11 2011
+%K A017070 nonn,easy
+%O A017070 0,2
+%A A017070 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

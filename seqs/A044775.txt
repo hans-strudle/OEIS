@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044775
+Showing 1-1 of 1
+
+%I A044775
+%S A044775 62,162,262,362,462,562,629,662,762,862,962,1062,1162,1262,1362,1462,
+%T A044775 1562,1629,1662,1762,1862,1962,2062,2162,2262,2362,2462,2562,2629,
+%U A044775 2662,2762,2862,2962,3062,3162,3262,3362,3462,3562
+%N A044775 Numbers n such that string 6,2 occurs in the base 10 representation of n but not of n+1.
+%K A044775 nonn,base
+%O A044775 1,1
+%A A044775 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

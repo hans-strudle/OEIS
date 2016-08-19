@@ -1,0 +1,59 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052918
+Showing 1-1 of 1
+
+%I A052918
+%S A052918 1,5,26,135,701,3640,18901,98145,509626,2646275,13741001,71351280,
+%T A052918 370497401,1923838285,9989688826,51872282415,269351100901,
+%U A052918 1398627786920,7262490035501,37711077964425,195817879857626
+%N A052918 a(0)=1, a(1)=5, a(n+1) = 5*a(n) + a(n-1).
+%C A052918 [A085448(n)]^2 - 29*[a(n-1)]^2 = 4*(-1)^n. - _Gary W. Adamson_, Jul 01 2003, corrected Oct 07 2008
+%C A052918 a(p) == 29^((p-1)/2)) mod p, for odd primes p. - _Gary W. Adamson_, Feb 22 2009
+%C A052918 For more information about this type of recurrence, follow the Khovanova link and see A054413, A086902 and A178765. - _Johannes W. Meijer_, Jun 12 2010
+%C A052918 Binomial transform of A015523. - _Johannes W. Meijer_, Aug 01 2010
+%C A052918 For positive n, a(n) equals the permanent of the n X n tridiagonal matrix with 5's along the main diagonal and 1's along the superdiagonal and the subdiagonal. - _John M. Campbell_, Jul 08 2011
+%C A052918 a(n) equals the number of words of length n on alphabet {0,1,...,5} avoiding runs of zeroes of odd lengths. - _Milan Janjic_, Jan 28 2015
+%H A052918 Vincenzo Librandi, <a href="/A052918/b052918.txt">Table of n, a(n) for n = 0..1000</a>
+%H A052918 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=901">Encyclopedia of Combinatorial Structures 901</a>
+%H A052918 M. Janjic, <a href="http://matinf.pmfbl.org/wp-content/uploads/2015/01/za-arhiv-18.-1.pdf">On Linear Recurrence Equations Arising from Compositions of Positive Integers</a>, 2014; http://matinf.pmfbl.org/wp-content/uploads/2015/01/za-arhiv-18.-1.pdf
+%H A052918 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A052918 <a href="/index/Ch#Cheby">Index entries for sequences related to Chebyshev polynomials.</a>
+%H A052918 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (5,1).
+%F A052918 G.f.: -1/(-1 + 5*x + x^2).
+%F A052918 a(3n) = A041047(5n), a(3n+1) = A041047(5n+3), a(3n+2) = 2*A041047(5n+4). - _Henry Bottomley_, May 10 2000
+%F A052918 Sum(1/29*(5+2*_alpha)*_alpha^(-1-n), _alpha=RootOf(-1+5*_Z+_Z^2)).
+%F A052918 a(n-1) = (((5 + sqrt(29))/2)^n - ((5 - sqrt(29))/2)^n)/sqrt(29). - _Gary W. Adamson_, Jul 01 2003
+%F A052918 a(n)= U(n, 5*I/2)*(-I)^n with I^2=-1 and Chebyshev's U(n, x/2)=S(n, x) polynomials. See triangle A049310.
+%F A052918 Let M = {{0, 1}, {1, 5}}, v[1] = {0, 1}, v[n] = M.v[n - 1]; then a = v[n][[1]]. - _Roger L. Bagula_, May 29 2005
+%F A052918 a(n)=F(n, 5), the n-th Fibonacci polynomial evaluated at x=5. - _T. D. Noe_, Jan 19 2006
+%F A052918 a(n), n>0 = denominator of n-th convergent to [1, 4, 5, 5, 5,...]. Continued fraction [1, 4, 5, 5, 5,...] = .807417596..., the inradius of a right triangle with legs 2 and 5. n-th convergent = A100237(n)/A052918(n), the first few being: 1/1, 4/5, 21/26, 109/135, 566/701,... - _Gary W. Adamson_, Dec 21 2007
+%F A052918 From _Johannes W. Meijer_, Jun 12 2010: (Start)
+%F A052918 a(2n+1) = 5*A097781(n), a(2n) = A097835(n).
+%F A052918 Limit(a(n+k)/a(k), k=infinity) = (A087130(n) + A052918(n-1)*sqrt(29))/2.
+%F A052918 Limit(A087130(n)/A052918(n-1), n=infinity) = sqrt(29).
+%F A052918 (End)
+%F A052918 Limit(a(n+k)/a(k),k=infinity) = (A087130(n)+A052918(n-1)*sqrt(29))/2. - _Johannes W. Meijer_, Aug 01 2010
+%F A052918 From _L. Edson Jeffery_, Jan 07 2012: (Start)
+%F A052918 Define the 2 X 2 matrix A=[1,1; 5,4]. Then:
+%F A052918 a(n) = (1/5)*[A^(n+2)-A^(n+1)]_(1,1);
+%F A052918 a(n) = [A^(n+1)]_(1,2);
+%F A052918 a(n) = (1/5)*[A^(n+1)]_(2,1);
+%F A052918 a(n) = [sum[k=0..n, A^k]]_(2,2). (End)
+%F A052918 sum_{n>=0} (-1)^n/(a(n)*a(n+1)) = (sqrt(29)-5)/2. - _Vladimir Shevelev_, Feb 23 2013
+%p A052918 spec := [S,{S=Sequence(Union(Z,Z,Z,Z,Z,Prod(Z,Z)))},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%p A052918 a[0]:=1: a[1]:=5: for n from 2 to 26 do a[n]:=5*a[n-1]+a[n-2] od: seq(a[n], n=0..20); # _Zerinvary Lajos_, Jul 26 2006
+%p A052918 with(combinat):a:=n->fibonacci(n,5):seq(a(n),n=1..22); # _Zerinvary Lajos_, Dec 07 2008
+%t A052918   a=0;lst={};s=0;Do[a=s-(a-1);AppendTo[lst,a];s+=a*5,{n,3*4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Oct 27 2009 *)
+%t A052918 LinearRecurrence[{5, 1}, {1, 5}, 30] (* _Vincenzo Librandi_, Feb 23 2013 *)
+%t A052918 Table[Fibonacci[n + 1, 5], {n, 0, 20}] (* _Vladimir Reshetnikov_, May 08 2016 *)
+%o A052918 (Sage) [lucas_number1(n,5,-1) for n in xrange(1, 22)] # _Zerinvary Lajos_, Apr 24 2009
+%o A052918 (PARI) Vec(-1/(-1+5*x+x^2)+O(x^99)) \\ _Charles R Greathouse IV_, Nov 20 2011
+%o A052918 (MAGMA) I:=[1, 5]; [n le 2 select I[n] else 5*Self(n-1)+Self(n-2): n in [1..25]]; // _Vincenzo Librandi_, Feb 23 2013
+%Y A052918 Cf. A000045, A000129, A006190, A001076, A005668, A085448, A099365 (squares), A100237, A175184 (Pisano periods), A201005 (prime subsequence).
+%Y A052918 Cf. A243399.
+%K A052918 easy,nonn,changed
+%O A052918 0,2
+%A A052918 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

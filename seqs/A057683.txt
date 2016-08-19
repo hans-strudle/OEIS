@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057683
+Showing 1-1 of 1
+
+%I A057683
+%S A057683 1,2,5,6,12,69,77,131,162,426,701,792,1221,1494,1644,1665,2129,2429,
+%T A057683 2696,3459,3557,3771,4350,4367,5250,5670,6627,7059,7514,7929,8064,
+%U A057683 9177,9689,10307,10431,11424,13296,13299,13545,14154,14286,14306,15137
+%N A057683 Numbers n such that n^2+n+1, n^3+n+1 and n^4+n+1 are all prime.
+%C A057683 After a(0) = 1, it is never the case that n^5 + n + 1 is prime. Proof: consider integers modulo 4, that is, as 4n+k. (4*n+k)^5 + (4*n+k) + 1 factors into irreducible components over Z. 1024n^5 + 1280k(n^4) + 640(k^2)(n^3) + 160(k^3) (n^2) + (20(k^4)+4)n + (k^5+k+1) = (16n^2 + 8kn + 4n + k^2 + k + 1) (64n^3 + 48k(n^2) - 16n^2 + 12(k^2)n - 8kn + k^3 - k^2 + 1). - _Jonathan Vos Post_, Oct 17 2007
+%H A057683 Reinhard Zumkeller, <a href="/A057683/b057683.txt">Table of n, a(n) for n = 1..100</a>
+%e A057683 5 is included because 5^2+5+1=31, 5^3+5+1=131 and 5^4+5+1=631 are all prime.
+%t A057683 Select[Range[16000],And@@PrimeQ/@(Table[n^i+n+1,{i,2,4}]/.n->#)&]  (* _Harvey P. Dale_, Mar 28 2011 *)
+%o A057683 (MAGMA)[n: n in [0..20000]|IsPrime(n^2+n+1) and IsPrime(n^3+n+1) and IsPrime(n^4+n+1)][From Vincenzo Librandi, Dec 20 2010]
+%o A057683 (Haskell)
+%o A057683 a057683 n = a057683_list !! (n-1)
+%o A057683 a057683_list = filter (all (== 1) . p) [1..] where
+%o A057683    p x = map (a010051 . (+ (x + 1)) . (x ^)) [2..4]
+%o A057683 -- _Reinhard Zumkeller_, Nov 12 2012
+%Y A057683 Cf. A049407.
+%Y A057683 Cf. Subsequence of A219117; A010051.
+%K A057683 easy,nice,nonn
+%O A057683 1,2
+%A A057683 _Harvey P. Dale_, Oct 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

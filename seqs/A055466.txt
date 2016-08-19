@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055466
+Showing 1-1 of 1
+
+%I A055466
+%S A055466 1,2,4,15,39,49,55,78,81,87,95,99,110,111,119,121,125,143,159,183,184,
+%T A055466 215,247,287,295,303,319,327,335,350,357,391,407,415,423,430,447,455,
+%U A055466 471,507,511,519,527,535,543,551,559,583,591,620,623,654,655,671,679
+%N A055466 Numbers n such that d(n)^2 divides phi(n) + sigma(n).
+%C A055466 Makowski proved that phi(n)+Sigma[n] = n*d[n] iff n is a prime (see in Sivaramakrishnan, Chapter I, page 8, Theorem 3).
+%D A055466 Sivaramakrishnan, R. (1989), Classical Theory of Arithmetical Functions, Marcel Dekker, Inc., New York-Basel.
+%F A055466 Integer solutions of Phi[x]+Sigma[x] = kd[x]^2 or A000203(n)+A000010(n) = k*A000005(n)^2, where k is integer.
+%e A055466 true for 2 (the only prime) and some composites. n = 78: 8 divisors, Sigma = 168, Phi = 24, 168+24 = 192 = 8*8*3
+%Y A055466 Cf. A000005, A000010, A000203.
+%K A055466 nonn
+%O A055466 1,2
+%A A055466 _Labos Elemer_, Jun 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

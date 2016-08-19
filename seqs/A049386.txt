@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049386
+Showing 1-1 of 1
+
+%I A049386
+%S A049386 1,2,3,5,6,8,9,10,11,12,13,15,16,17,18,19,20,21,22,23,24,26,27,28,29,
+%T A049386 30,31,32,33,34,35,36,37,38,39,40,41,42,43,44
+%N A049386 Binary order of 2^n-th prime.
+%F A049386 a(n)=A029837[ A033844[ n ] ]
+%F A049386 a(n)=Ceiling[Log[2, Prime[2^n]]]
+%e A049386 The 549755813888th=2^39th prime is 16149760533341 of which the binary order is 44: it is Ceiling[43.87657801]=44, so a(39)=44; a(0)=1 is the binary order of 2^0th=first prime(=2) which is Log[2,2] =1
+%Y A049386 Cf. A029837, A033844, A006988.
+%K A049386 nonn
+%O A049386 0,2
+%A A049386 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

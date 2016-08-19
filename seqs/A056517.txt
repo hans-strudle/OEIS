@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056517
+Showing 1-1 of 1
+
+%I A056517
+%S A056517 1,1,1,3,4,10,14,36,50,138,202,561,875,2571,4105
+%N A056517 Number of primitive (period n) periodic palindromic structures using a maximum of six different symbols.
+%C A056517 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome. Permuting the symbols will not change the structure.
+%D A056517 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056517 Sum mu(d)*A056507(n/d) where d|n.
+%Y A056517 Cf. A056480.
+%K A056517 nonn
+%O A056517 1,4
+%A A056517 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+%E A056517 Corrected by _T. D. Noe_, Oct 25 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

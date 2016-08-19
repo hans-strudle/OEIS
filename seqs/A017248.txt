@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017248
+Showing 1-1 of 1
+
+%I A017248
+%S A017248 2401,65536,390625,1336336,3418801,7311616,13845841,24010000,38950081,
+%T A017248 59969536,88529281,126247696,174900625,236421376,312900721,406586896,
+%U A017248 519885601,655360000,815730721,1003875856
+%N A017248 (9*n+7)^4.
+%H A017248 Vincenzo Librandi, <a href="/A017248/b017248.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017248 (MAGMA) [(9*n+7)^4: n in [0..35]]; // Vincenzo Librandi, Jul 27 2011
+%K A017248 nonn,easy
+%O A017248 0,1
+%A A017248 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

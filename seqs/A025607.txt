@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025607
+Showing 1-1 of 1
+
+%I A025607
+%S A025607 1,0,14,84,896,10080,127904,1708224,23426816,325032960,4532831744,
+%T A025607 63353816064,886318555136,12404650352640,173642248822784,
+%U A025607 2430854346031104,34031138021113856
+%N A025607 Number of n-move rook paths on 8 X 8 board from given corner to same corner.
+%F A025607 G.f.: [1-18x+58x^2]/[(1+2x)(1-6x)(1-14x)].
+%t A025607  CoefficientList[ Series[(1 - 18 x + 58 x^2)/((1 + 2 x) (1 - 6 x) (1 - 14 x)), {x, 0, 16}], x]
+%K A025607 nonn,walk
+%O A025607 0,3
+%A A025607 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

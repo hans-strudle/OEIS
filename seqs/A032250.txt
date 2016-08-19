@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032250
+Showing 1-1 of 1
+
+%I A032250
+%S A032250 1,1,1,2,10,29,113,368,1316,4490,15907,55866,199550,714601,2583575,
+%T A032250 9385280,34311304,126018592,465044951,1722987050,6407739430,
+%U A032250 23909854891,89493459541,335911158480,1264104712300
+%N A032250 "DHK[ n ](2n)" (bracelet, identity, unlabeled, n parts, evaluated at 2n) transform of 1,1,1,1...
+%H A032250 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%K A032250 nonn
+%O A032250 1,4
+%A A032250 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

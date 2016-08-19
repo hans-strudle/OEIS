@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053356
+Showing 1-1 of 1
+
+%I A053356
+%S A053356 2,5,10,67,70,185,218,254,530,539,587,767,806,1142,1169,2098,3035,
+%T A053356 4310,8909,14150,15461,15778,15962,16711,17819,41915
+%N A053356 Numbers n such that 279*2^n+1 is prime.
+%H A053356 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A053356 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A053356 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A053356 hard,nonn
+%O A053356 1,1
+%A A053356 _N. J. A. Sloane_, Dec 29 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

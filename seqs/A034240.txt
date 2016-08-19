@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034240
+Showing 1-1 of 1
+
+%I A034240
+%S A034240 1,1,9,179,40719,106287822,1295484202258,28080454247154740,
+%T A034240 720645869857713416245,18726377123294059174412659,
+%U A034240 464647323565599860735629425620,10778588361453642047099243794276139
+%N A034240 Number of quaternary codes of length 9 with n words.
+%D A034240 H. Fripertinger, Enumeration, construction and random generation of block codes, Designs, Codes, Crypt., 14 (1998), 213-219.
+%H A034240 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034240 Cf. A034188-.
+%K A034240 nonn
+%O A034240 0,3
+%A A034240 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

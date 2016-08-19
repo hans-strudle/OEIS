@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058730
+Showing 1-1 of 1
+
+%I A058730
+%S A058730 1,1,1,1,2,1,1,4,3,1,1,9,11,4,1,1,23,49,22,5,1,1,68,617,217,40,6,1
+%N A058730 Triangle T(n,k) giving number of nonisomorphic simple matroids of rank k on n labeled points (n >= 2, 2<=k<=n).
+%H A058730 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/matroid.html">Tables of matroids</a>
+%H A058730 Crapo, Henry H.; Rota, Gian-Carlo; <a href="/A002773/a002773.pdf">On the foundations of combinatorial theory. II. Combinatorial geometries</a>, Studies in Appl. Math. 49 1970 109-133. [Annotated scanned copy of pages 126 and 127 only]
+%H A058730 W. M. B. Dukes, <a href="http://www.stp.dias.ie/~dukes/phd.html">Counting and Probability in Matroid Theory</a>, Ph.D. Thesis, Trinity College, Dublin, 2000.
+%H A058730 <a href="/index/Mat#matroid">Index entries for sequences related to matroids</a>
+%H A058730 W. M. B. Dukes, <a href="http://arXiv.org/abs/math.CO/0411557">On the number of matroids on a finite set</a>
+%e A058730 Triangle begins:
+%e A058730 1,
+%e A058730 1, 1,
+%e A058730 1, 2, 1,
+%e A058730 1, 4, 3, 1,
+%e A058730 1, 9, 11, 4, 1,
+%e A058730 1, 23, 49, 22, 5, 1,
+%e A058730 1, 68, 617, 217, 40, 6, 1.
+%e A058730 ...
+%Y A058730 Cf. A058720. Row sums give A002773. Diagonals give A058731, A058733.
+%K A058730 nonn,tabl,nice,more
+%O A058730 2,5
+%A A058730 _N. J. A. Sloane_, Dec 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039342
+Showing 1-1 of 1
+
+%I A039342
+%S A039342 19,26,83,90,131,139,152,153,156,157,158,159,163,171,179,187,194,202,
+%T A039342 208,209,212,213,214,215,226,234,242,250,275,282,339,346,403,410,467,
+%U A039342 474,531,538,595,602,643,651,664,665,668,669,670,671,675,683,691,699
+%N A039342 Numbers n such that representation in base 8 has same nonzero number of 2's and 3's.
+%t A039342 okQ[n_]:=Module[{idn8=IntegerDigits[n,8],c2},c2=Count[idn8,2];c2>0&&c2==Count[idn8,3]]
+%t A039342 Select[Range[750],okQ] [From Harvey P. Dale, Dec. 17, 2010]
+%K A039342 nonn,base,easy
+%O A039342 1,1
+%A A039342 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

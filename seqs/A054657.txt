@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054657
+Showing 1-1 of 1
+
+%I A054657
+%S A054657 1,2,5,13,35,94,255,691,1876,5092,13829
+%N A054657 Number of leaves on the rooted tree of height n constructed by the following rule. Assign weight 1 to the single node at height 1. At each node of weight w at height k>0, branch to nodes at height k+1 as follows: one node of weight 1 and a node of weight d+1 if d divides w.
+%C A054657 If the condition "d divides w" in the definition is replaced by "d<=w" then sequence A000108 (the Catalan numbers) is obtained.
+%K A054657 nonn
+%O A054657 1,2
+%A A054657 _John W. Layman_, Apr 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

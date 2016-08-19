@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050406
+Showing 1-1 of 1
+
+%I A050406
+%S A050406 1,16,91,336,966,2352,5082,10032,18447,32032,53053,84448,129948,
+%T A050406 194208,282948,403104,562989,772464,1043119,1388464,1824130,2368080,
+%U A050406 3040830,3865680,4868955,6080256,7532721,9263296
+%N A050406 Partial sums of A051880.
+%D A050406 A. H. Beiler, Recreations in the Theory of Numbers, Dover, N.Y., 1964, pp. 194-196.
+%H A050406 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A050406 a(n)=C(n+5, 5)*(5n+3)/3.
+%F A050406 G.f.: (1+9*x)/(1-x)^7.
+%t A050406 Nest[Accumulate[#]&,Table[n(n+1)(10n-7)/6,{n,0,50}],3] (* _Harvey P. Dale_, Nov 13 2013 *)
+%Y A050406 Cf. A051880.
+%Y A050406 Cf. A093645 ((10, 1) Pascal, column m=6).
+%K A050406 easy,nonn
+%O A050406 0,2
+%A A050406 _Barry E. Williams_, Dec 21 1999
+%E A050406 Corrected by _T. D. Noe_, Nov 09 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

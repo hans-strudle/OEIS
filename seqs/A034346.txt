@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034346
+Showing 1-1 of 1
+
+%I A034346
+%S A034346 0,0,0,0,1,5,17,54,163,465,1283,3480,9256,24282,62812,160106,401824,
+%T A034346 992033,2406329,5730955,13393760,30709772,69079030,152473837,330344629
+%N A034346 Number of binary [ n,5 ] codes without 0 columns.
+%D A034346 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034346 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034346 Cf. A034253, A034344-.
+%K A034346 nonn
+%O A034346 1,6
+%A A034346 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

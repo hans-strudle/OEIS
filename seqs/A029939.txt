@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029939
+Showing 1-1 of 1
+
+%I A029939
+%S A029939 1,2,5,6,17,10,37,22,41,34,101,30,145,74,85,86,257,82,325,102,185,202,
+%T A029939 485,110,417,290,365,222,785,170,901,342,505,514,629,246,1297,650,725,
+%U A029939 374,1601,370,1765,606,697,970
+%N A029939 Sum phi(d)^2; d|n.
+%C A029939 Equals the inverse Mobius transform (A051731) of A127473 [From _Gary W. Adamson_, Aug 20 2008]
+%F A029939 Multiplicative with a(p^e) = (p^(2*e)*(p-1)+2)/(p+1). - _Vladeta Jovovic_, Nov 19 2001
+%p A029939 with(numtheory): A029939 := proc(n) local i,j; j := 0; for i in divisors(n) do j := j+phi(i)^2; od; j; end;
+%Y A029939 Cf. A062367.
+%Y A029939 A127473 [From _Gary W. Adamson_, Aug 20 2008]
+%K A029939 nonn,mult
+%O A029939 1,2
+%A A029939 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

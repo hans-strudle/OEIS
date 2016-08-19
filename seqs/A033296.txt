@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033296
+Showing 1-1 of 1
+
+%I A033296
+%S A033296 1,6,42,326,2706,23526,211546,1951494,18366882,175674054,1702686090,
+%T A033296 16686795846,165079509042,1646340228006,16534463822010,
+%U A033296 167081444125702,1697551974416706,17330661859937670,177699201786231530
+%N A033296 Number of paths from (0,0) to (3n,0) that stay in first quadrant (but may touch horizontal axis), where each step is (2,1),(1,2) or (1,-1) and start with (1,2).
+%F A033296 z A^3, where A is the g. f. of A027307. Also: difference of A027307 and A032349.
+%Y A033296 Cf. A027307, A032349.
+%K A033296 nonn
+%O A033296 1,2
+%A A033296 _Emeric Deutsch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

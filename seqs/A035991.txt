@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035991
+Showing 1-1 of 1
+
+%I A035991
+%S A035991 1,2,2,4,5,8,10,15,19,27,34,47,59,79,99,130,162,209,259,329,406,510,
+%T A035991 625,778,949,1170,1420,1738,2100,2553,3070,3710,4443,5340,6369,7618,
+%U A035991 9052,10777,12760,15130,17853,21088,24803,29193,34233,40158,46954
+%N A035991 Number of partitions in parts not of the form 23k, 23k+3 or 23k-3. Also number of partitions with at most 2 parts of size 1 and differences between parts at distance 10 are greater than 1.
+%C A035991 Case k=11,i=3 of Gordon Theorem.
+%D A035991 G. E. Andrews, The Theory of Partitions, Addison-Wesley, 1976, p. 109.
+%K A035991 nonn,easy
+%O A035991 1,2
+%A A035991 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

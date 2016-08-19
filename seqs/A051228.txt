@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051228
+Showing 1-1 of 1
+
+%I A051228
+%S A051228 6,114,186,258,354,402,426,474,582,654,762,834,894,942,978,1002,1158,
+%T A051228 1182,1194,1266,1338,1362,1374,1614,1842,1902,2022,2094,2118,2166,
+%U A051228 2274,2298,2334,2406,2454,2526,2598,2634,2694,2742,2778,2874,2922,2994,3126
+%N A051228 Bernoulli number B_{n} has denominator 42.
+%C A051228 From the Von Staudt-Clausen theorem, denominator(B_2n) = product of primes p such that (p-1)|2n.
+%D A051228 B. C. Berndt, Ramanujan's Notebooks Part IV, Springer-Verlag, see p. 75.
+%H A051228 T. D. Noe, <a href="/A051228/b051228.txt">Table of n, a(n) for n=1..1000</a>
+%H A051228 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%t A051228 2*Select[Range[2000], Denominator[BernoulliB[2#]] == 42 &](* _Jean-François Alcover_, Nov 25 2011 *)
+%o A051228 (Perl) @p=(2,3,5,7); @c=(4); $p=7; for($n=6; $n<=3126; $n+=6){while($p<$n+1){$p+=2; next if grep$p%$_==0,@p; push@p,$p; push@c,$p-1; }print"$n,"if!grep$n%$_==0,@c; }print"\n"
+%Y A051228 Cf. A045979, A051222, A051225-A051230.
+%K A051228 nonn,nice,easy
+%O A051228 1,1
+%A A051228 _N. J. A. Sloane_.
+%E A051228 More terms and Perl program from _Hugo van der Sanden_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

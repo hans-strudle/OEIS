@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015047
+Showing 1-1 of 1
+
+%I A015047
+%S A015047 3,11,121,4902,26245,32112,64010,368140,415664,2091206,2519648,
+%T A015047 4573053,7783364,79269727,136193976,321022289,445810543,559199345,
+%U A015047 670994143,836250239,893950202,937203749,1041478032,1148788154
+%N A015047 Numbers n such that S(n) = S(n-1) + S(n-2) where S is the Kempner function A002034.
+%C A015047 Also called Smarandache-Fibonacci triples.
+%D A015047 C. Ashbacher and M. Mudge, Personal Computer World, London, #10, 1995, p. 302.
+%D A015047 F. Smarandache, Definitions solved and unsolved problems, conjectures and theorems in number theory and geometry, edited by M. Perez, Xiquan Publishing House, 2000.
+%H A015047 H. Ibstedt, <a href="http://www.gallup.unm.edu/~smarandache/Ibstedt-surfing.pdf">Surfing on the Ocean of Numbers</a>, Erhus Univ. Press, Vail, 1997.
+%H A015047 F. Smarandache, <a href="http://www.gallup.unm.edu/~smarandache/Definitions-book.pdf">Definitions, Solved and Unsolved Problems, Conjectures, ... </a>
+%H A015047 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SmarandacheSequences.html">Smarandache Sequences</a>
+%Y A015047 Cf. A015048, A015049, A015050, A015051, A015052, A015053.
+%K A015047 nonn
+%O A015047 1,1
+%A A015047 R. Muller (Research37(AT)aol.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054928
+Showing 1-1 of 1
+
+%I A054928
+%S A054928 1,2,10,114,4872,770832,441038832,896679948304,6513978501814144,
+%T A054928 170630215981070456064,16261454692532635025585792,
+%U A054928 5683372715412701087902846672384,7334542846356464937798016155801130496
+%N A054928 Complementary pairs of directed graphs on n nodes. Also unlabeled digraphs with n nodes and an even number of arcs.
+%H A054928 V. A. Liskovets, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/LISK/Derseq.html">Some easily derivable sequences</a>, J. Integer Sequences, 3 (2000), #00.2.2.
+%F A054928 Average of A000273 and A003086.
+%Y A054928 Cf. A007869, A054960.
+%K A054928 nonn,easy
+%O A054928 1,2
+%A A054928 _N. J. A. Sloane_, May 24 2000
+%E A054928 More terms from _Vladeta Jovovic_, Jul 19 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

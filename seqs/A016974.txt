@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016974
+Showing 1-1 of 1
+
+%I A016974
+%S A016974 15625,1771561,24137569,148035889,594823321,1838265625,4750104241,
+%T A016974 10779215329,22164361129,42180533641,75418890625,128100283921,
+%U A016974 208422380089,326940373369,496981290961,735091890625
+%N A016974 (6n+5)^6.
+%H A016974 Vincenzo Librandi, <a href="/A016974/b016974.txt">Table of n, a(n) for n = 0..1000</a>
+%o A016974 (MAGMA) [(6*n+5)^6: n in [0..25]]; // Vincenzo Librandi, May 10 2011
+%K A016974 nonn,easy
+%O A016974 0,1
+%A A016974 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

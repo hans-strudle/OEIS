@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034306
+Showing 1-1 of 1
+
+%I A034306
+%S A034306 4004,630036,1559551,4187814,4870784,6097906,6834386,9530359,50755705,
+%T A034306 51733715,54988945,62399326,62488426,63299236,63477436,64288246,
+%U A034306 64377346,71399317,71488417,73199137,73466437,74188147,74366347
+%N A034306 Fibonacci iteration F(1,palindrome a(n)) leads to a 'nine digits' anagram.
+%C A034306 In total there are exactly 68 such palindromes (437606734 is the largest).
+%H A034306 Giovanni Resta, <a href="/A034306/b034306.txt">Table of n, a(n) for n = 1..68</a> (full sequence)
+%H A034306 P. De Geest, <a href="http://www.worldofnumbers.com/ninedigits.htm">Nine Digits Digressions</a>
+%e A034306 E.g. F(1,9530359) -> + 9530360 -> + 19060719 -> + 28591079 -> + 47651798 -> + 76242877 and finally we have -> '123894675' which is our 'nine digits' anagram.
+%K A034306 nonn,base,fini,full
+%O A034306 1,1
+%A A034306 _Patrick De Geest_, Oct 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

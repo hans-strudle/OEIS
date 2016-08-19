@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035988
+Showing 1-1 of 1
+
+%I A035988
+%S A035988 1,2,3,5,7,11,15,22,30,41,54,74,96,127,164,213,271,348,438,555,694,
+%T A035988 869,1077,1339,1647,2029,2482,3036,3690,4487,5423,6555,7886,9480,
+%U A035988 11350,13583,16191,19287,22902,27169,32138,37984,44772,52726,61948
+%N A035988 Number of partitions of n into parts not of the form 21k, 21k+10 or 21k-10. Also number of partitions with at most 9 parts of size 1 and differences between parts at distance 9 are greater than 1.
+%C A035988 Case k=10,i=10 of Gordon Theorem.
+%D A035988 G. E. Andrews, The Theory of Partitions, Addison-Wesley, 1976, p. 109.
+%K A035988 nonn,easy
+%O A035988 1,2
+%A A035988 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

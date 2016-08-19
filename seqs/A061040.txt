@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061040
+Showing 1-1 of 1
+
+%I A061040
+%S A061040 1,144,225,12,441,576,81,900,1089,48,1521,1764,75,2304,2601,324,3249,
+%T A061040 3600,147,4356,4761,64,5625,6084,729,7056,7569,100,8649,9216,363,
+%U A061040 10404,11025,1296,12321,12996,507,14400,15129,588,16641,17424
+%N A061040 Denominator of 1/9 - 1/n^2.
+%D A061040 Friedrich Paschen, Zur Kenntis ultraroter Linienspktren, Annalen der Physik 27, pp. 537-570 (1908). [From _Paul Curtz_, Dec 04 2008]
+%H A061040 Reinhard Zumkeller, <a href="/A061040/b061040.txt">Table of n, a(n) for n = 3..1000</a>
+%t A061040 Denominator[1/9-1/Range[3,50]^2] (* _Harvey P. Dale_, Jan 16 2012 *)
+%o A061040 (Haskell)
+%o A061040 import Data.Ratio ((%), denominator)
+%o A061040 a061040 n = denominator $ 1%9 - 1%n^2 -- _Reinhard Zumkeller_, Jan 03 2012
+%Y A061040 See A061039 for comments, references, links.
+%K A061040 nonn,frac,nice
+%O A061040 3,2
+%A A061040 _N. J. A. Sloane_, May 26 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022157
+Showing 1-1 of 1
+
+%I A022157
+%S A022157 0,0,1,2,9,4,25,0,27,36,81,0,121,100,97,56,225,108,289,112,249,324,
+%T A022157 441,64,445,484,441,352,729,388,841,448,769,900,841,324,1225,1156,
+%U A022157 1137,576,1521,996,1681,1216,1161,1764,2025,704,2023,1780
+%V A022157 0,0,1,-2,9,4,25,0,27,36,81,0,121,100,97,56,225,108,289,112,249,324,
+%W A022157 441,64,445,484,441,352,729,388,841,448,769,900,841,324,1225,1156,
+%X A022157 1137,576,1521,996,1681,1216,1161,1764,2025,704,2023,1780
+%N A022157 n^2 - phi(n)*tau(n)^2.
+%C A022157 a(n)>=0 for n != 4. a(n)=0 iff n=1,2,8,12.
+%C A022157 An example of a sequence constructed from an arithmetic inequality.
+%D A022157 S. Porubsky, Problem E2351, Amer. Math. Monthly, 80 (1973), 436.
+%H A022157 T. D. Noe, <a href="/A022157/b022157.txt">Table of n, a(n) for n=1..2000</a>
+%p A022157 with(numtheory); [ seq(n^2-phi(n)*tau(n)^2,n=1..100) ];
+%t A022157 Table[n^2-EulerPhi[n]DivisorSigma[0,n]^2,{n,50}] (* _Harvey P. Dale_, Apr 12 2013 *)
+%K A022157 sign,easy,nice
+%O A022157 1,4
+%A A022157 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

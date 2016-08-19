@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050666
+Showing 1-1 of 1
+
+%I A050666
+%S A050666 97,389,659,743,953,2423,2971,3037,3083,3593,3727,4177,4363,4813,4889,
+%T A050666 5261,5519,5717,5813,5939,6197,6449,7001,7057,7331,7963,8123,8179,
+%U A050666 8353,8501,8707,9293,9587,10247,11261,13147,14813,15263,16547,17573,18077
+%N A050666 Primes p such that number of primes produced according to rules stipulated in Honaker's A048853 is 4.
+%e A050666 Altering a(1)=97 gives 4 primes: 17, 37, 47 and 67.
+%Y A050666 Cf. A048853, A050673, A050655.
+%K A050666 nonn,base
+%O A050666 1,1
+%A A050666 _Patrick De Geest_, Jul 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

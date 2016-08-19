@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056353
+Showing 1-1 of 1
+
+%I A056353
+%S A056353 1,2,3,6,9,22,40,100,225,582,1464,3960,10585,29252,80819,226530,
+%T A056353 636321,1800562,5107480,14548946,41538916,118929384,341187048,
+%U A056353 980842804,2824561089,8147557742,23536592235
+%N A056353 Number of bracelet structures using a maximum of three different colored beads.
+%C A056353 Turning over will not create a new bracelet. Permuting the colors of the beads will not change the structure.
+%D A056353 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056353 R. M. Thompson and R. T. Downs, <a href="http://www.geo.arizona.edu/xtal//group/pdf/acB57766.pdf">Systematic generation of all nonequivalent close-packed stacking sequences...</a>, Acta Cryst. B57 (2001), 766-771; B58 (2002), 153.
+%F A056353 Use de Bruijn's generalization of Polya's enumeration theorem as discussed in reference.
+%Y A056353 Cf. A002076, A000011, A027671, A114438.
+%K A056353 nonn
+%O A056353 1,2
+%A A056353 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

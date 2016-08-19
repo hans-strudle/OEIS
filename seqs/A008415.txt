@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008415
+Showing 1-1 of 1
+
+%I A008415
+%S A008415 1,14,98,462,1666,4942,12642,28814,59906,115598,209762,361550,596610,
+%T A008415 948430,1459810,2184462,3188738,4553486,6376034,8772302,11879042,
+%U A008415 15856206,20889442,27192718,35011074,44623502,56345954,70534478
+%N A008415 Coordination sequence for 7-dimensional cubic lattice.
+%H A008415 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%H A008415 <a href="/index/Rec#order_07">Index entries for linear recurrences with constant coefficients</a>, signature (7, -21, 35, -35, 21, -7, 1).
+%F A008415 G.f.: ((1+x)/(1-x))^7.
+%F A008415 a(n) = 4*n*n*(2*n*n +7)*(n*n +14)/45 +2-0**n . _George F. Johnson_, Feb 21 2013
+%t A008415 CoefficientList[Series[((1+x)/(1-x))^7,{x,0,30}],x] (* _Harvey P. Dale_, Oct 11 2015 *)
+%o A008415 (Python) (replace leading dots with blanks)
+%o A008415 # _George F. Johnson_ Feb 02 2013
+%o A008415 R=[]
+%o A008415 for n in range(29):
+%o A008415 ....r=4*n*n*(2*n*n +7)*(n*n +14)/45 +2-0**n
+%o A008415 ....R=R+[r]
+%o A008415 print R
+%K A008415 nonn,easy
+%O A008415 0,2
+%A A008415 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

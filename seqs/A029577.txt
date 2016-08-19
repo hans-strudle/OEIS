@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029577
+Showing 1-1 of 1
+
+%I A029577
+%S A029577 0,0,0,0,0,0,0,0,0,0,362880,3991680,47900160,622702080,8717829120,
+%T A029577 130767436800,2092278988800,35568742809600,640237370572800,
+%U A029577 12164510040883200,231125690776780800
+%N A029577 Number of permutations of an n-set containing a 10-cycle.
+%F A029577 a(n) = n! (1 - sum_{k=0}^floor[ n/10 ] (-1)^k/(k!10^k)); a(n)/n! is asymptotic to 1-e^(-1/10).
+%K A029577 nonn
+%O A029577 0,11
+%A A029577 _Rob Pratt_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

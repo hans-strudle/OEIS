@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001868
+Showing 1-1 of 1
+
+%I A001868 M3390 N1370
+%S A001868 1,4,10,24,70,208,700,2344,8230,29144,104968,381304,1398500,5162224,
+%T A001868 19175140,71582944,268439590,1010580544,3817763740,14467258264,
+%U A001868 54975633976,209430787824,799645010860,3059510616424,11728124734500
+%N A001868 Number of n-bead necklaces with 4 colors.
+%D A001868 E. N. Gilbert and J. Riordan, Symmetry types of periodic sequences, Illinois J. Math., 5 (1961), 657-665.
+%D A001868 J. Riordan, An Introduction to Combinatorial Analysis, Wiley, 1958, p. 162.
+%D A001868 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001868 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001868 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2, 1999; see Problem 7.112(a).
+%H A001868 T. D. Noe, <a href="/A001868/b001868.txt">Table of n, a(n) for n=0..200</a>
+%H A001868 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=4">Encyclopedia of Combinatorial Structures 4</a>
+%H A001868 <a href="/index/Ne#necklaces">Index entries for sequences related to necklaces</a>
+%F A001868 (1/n)*Sum_{d|n} phi(d)*4^(n/d), n>0.
+%p A001868 A001868 := proc(n) local d,s; if n = 0 then RETURN(1); else s := 0; for d in divisors(n) do s := s+phi(d)*4^(n/d); od; RETURN(s/n); fi; end;
+%t A001868 a[n_] := (1/n)*Total[ EulerPhi[#]*4^(n/#) &  /@ Divisors[n]]; a[0] = 1; Table[a[n], {n, 0, 24}] (* _Jean-François Alcover_, Oct 21 2011 *)
+%Y A001868 Cf. A054611.
+%K A001868 nonn,nice,easy
+%O A001868 0,2
+%A A001868 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043296
+Showing 1-1 of 1
+
+%I A043296
+%S A043296 6,3,6,3,12,12,6,6,24,6,12,12,6,15,12,6,6,30,6,12,15,15,12,15,12,15,
+%T A043296 24,15,12,42,6,6,21,3,24,21,6,3,15,6,21,15,6,12,21,6,6,24,6,12,15,15,
+%U A043296 12,30,15,24,6,15,6,39,6,3,42,6,24,24,6,6,30,33,6,42,6,15,21,3,12,42,6,6
+%N A043296 Sum of digits of denominator of Bernoulli number B(2n).
+%e A043296 Denominator(B(2*9))=798 and 7+9+8=24 hence a(9)=24
+%Y A043296 Cf. A043295.
+%K A043296 base,easy,nonn
+%O A043296 1,1
+%A A043296 _Benoit Cloitre_, Mar 24 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

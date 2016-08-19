@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037440
+Showing 1-1 of 1
+
+%I A037440
+%S A037440 1,2,3,4,5,6,23,46,265,316,1030,1234,1336,1366,1401,1431,1443,1454,
+%T A037440 1464,2060,2116,3261,3515,3621,4631,5052,10144,10342,10542,11134,
+%U A037440 11425,11524,11544,12415,12450,12532,12564,12651,13035,13045,13245
+%N A037440 Numbers n such that the set of base 7 digits of n equals the set of base 10 digits of n.
+%K A037440 nonn,base
+%O A037440 1,2
+%A A037440 _Clark Kimberling_
+%E A037440 More terms from Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

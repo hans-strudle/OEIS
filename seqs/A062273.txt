@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062273
+Showing 1-1 of 1
+
+%I A062273
+%S A062273 1,23,456,7890,12345,678901,2345678,90123456,789012345,6789012345,
+%T A062273 67890123456,789012345678,9012345678901,23456789012345,
+%U A062273 678901234567890,1234567890123456,78901234567890123,456789012345678901
+%N A062273 a(n) is an n-digit number with digits in increasing order with 0 following 9 and this is maintained in the concatenation of any number of consecutive terms.
+%C A062273 a(n) is congruent to A000217(n), mod 10; i.e., the last digit of a(n) is the same as the last digit of the n-th triangular number, base 10. - _Carl R. White_, Oct 21 2009
+%F A062273 From _Carl R. White_, Oct 21 2009: (Start)
+%F A062273 a(n) = floor( 10^[10*ceiling(n/10)+(n*[n+1]/2 mod 10)] * 1234567890/9999999999 ) mod 10^n.
+%F A062273 The generalized form g, for any integer base b (>2), is: g(b,n) = floor( b^[b*ceiling(n/b)+(n*[n+1]/2 mod b)] * floor[ b^(b+1)/(b-1)^2 - (b+1) ] / [b^b-1]) mod b^n, so here a(n)=g(10,n). (End)
+%F A062273 a(n) = Sum_{i=1..n} (n*(n-1)/2+i mod 10)*10^(n-i). - _Vedran Glisic_, Apr 08 2011
+%e A062273 a(5) = 12345 as a(4) is 7890.
+%t A062273 FromDigits/@Table[Take[PadRight[{},250,Join[Range[9],{0}]],{(n(n+1))/2+ 1,((n+1)(n+2))/2}],{n,0,20}] (* _Harvey P. Dale_, May 15 2015 *)
+%K A062273 nonn,base,easy
+%O A062273 1,2
+%A A062273 _Amarnath Murthy_, Jun 17 2001
+%E A062273 More terms from Larry Reeves (larryr(AT)acm.org), Jun 18 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

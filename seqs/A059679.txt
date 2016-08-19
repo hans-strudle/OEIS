@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059679
+Showing 1-1 of 1
+
+%I A059679
+%S A059679 1,0,8,0,6,12,0,1,44,50,0,0,32,154,83,0,0,9,212,376,124,0,0,1,158,784,
+%T A059679 750,173,0,0,0,62,987,2133,1316,230
+%N A059679 Triangle T(n,k) giving number of fixed 3 X k polyominoes with n cells (n >= 3, 1<=k<=n-2).
+%D A059679 R. C. Read, Contributions to the cell growth problem, Canad. J. Math., 14 (1962), 1-20.
+%e A059679 1; 0,8; 0,6,12; 0,1,44,50; ...
+%K A059679 nonn,easy,nice,tabl
+%O A059679 3,3
+%A A059679 _N. J. A. Sloane_, Feb 05 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

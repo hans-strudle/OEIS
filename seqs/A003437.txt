@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003437
+Showing 1-1 of 1
+
+%I A003437 M1781
+%S A003437 1,2,7,29,196,1788,21994
+%N A003437 Number of unlabeled Hamiltonian circuits on n-octahedron (cross polytope).
+%D A003437 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003437 S. Jablan, R. Sazdanovic, <a href="http://www.scipress.org/journals/forma/abstract/2201/22010005.html">Knots, Links, and Self-avoiding curves</a>, Forma 22 (1) (2007) 5-13. In the denominator on page 8, n-k should read 2n-k.
+%H A003437 D. Singmaster, <a href="http://dx.doi.org/10.1016/0095-8956(75)90069-6">Hamiltonian circuits on the n-dimensional octahedron</a>, J. Combinatorial Theory Ser. B 19 (1975), no. 1, 1-4.
+%Y A003437 See A003436 for labeled case.
+%K A003437 nonn,nice,more
+%O A003437 2,2
+%A A003437 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

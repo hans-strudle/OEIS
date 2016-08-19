@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046512
+Showing 1-1 of 1
+
+%I A046512
+%S A046512 39,47,49,55,57,59,66,68,69,74,75,78,79,86,87,88,89,93,94,95,96,97,98,
+%T A046512 139,147,149,155,157,159,166,168,169,174,175,178,179,186,187,188,189,
+%U A046512 193,194,195,196,197,198,227,229,236,238,239,246,247,248,249,263,264
+%N A046512 Numbers with multiplicative persistence value 3.
+%H A046512 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence</a>
+%e A046512 239 -> [ 54 ][ 20 ][ 0 ] -> one digit in three steps.
+%t A046512 mp3Q[n_]:=Length[NestWhileList[Times@@IntegerDigits[#]&,n,#>9&]]==4; Select[Range[300],mp3Q] (* _Harvey P. Dale_, May 23 2015 *)
+%Y A046512 Cf. A003001, A014120, A046503.
+%K A046512 nonn,base
+%O A046512 0,1
+%A A046512 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014884
+Showing 1-1 of 1
+
+%I A014884
+%S A014884 1,102772,102773,102774,102775,102776,102777,102778,102779,102780,
+%T A014884 142155,142156,737002,737003,737004,737005,737006,737007,737008,
+%U A014884 737009,737010,1594323,1594324,1697095,1697096,1697097,1697098
+%N A014884 n is equal to the number of 1's in all numbers <= n written in base 9.
+%Y A014884 Cf. A014778.
+%K A014884 nonn,base
+%O A014884 1,2
+%A A014884 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

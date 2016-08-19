@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015774
+Showing 1-1 of 1
+
+%I A015774
+%S A015774 1,2,3,6,12,14,15,30,35,38,42,46,54,56,70,78,87,95,105,114,126,134,
+%T A015774 135,138,140,147,161,168,174,182,184,190,209,210,215,216,222,230,248,
+%U A015774 258,264,270,285,294,297,299,315,322,357,398,402,414,418,420
+%N A015774 Phi(n) | Sigma_15(n).
+%C A015774 sigma_15(n) is the sum of the 15th powers of the divisors of n.
+%K A015774 nonn
+%O A015774 0,2
+%A A015774 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

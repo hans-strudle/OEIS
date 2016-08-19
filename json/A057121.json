@@ -1,0 +1,1 @@
+{"formerly":"","seq":"0,0,3,344,8398380,13286191841734681,89262894246121771416347364297566757","description":"Local ranks of terms of A057119.","comments":"CatalanRank given in A057117.","formula":"a(n) = CatalanRank(2^n, bt_df2tree_apply_k_times(2, n))","crossrefs":["Cf. A057120."],"keyword":"nonn","offset":"0,3","author":"_Antti Karttunen_, Aug 11 2000"}

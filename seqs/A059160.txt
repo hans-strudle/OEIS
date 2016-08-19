@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059160
+Showing 1-1 of 1
+
+%I A059160
+%S A059160 1,5,15,30,45,56,65,85,115,150,171,175,185,205,260,300,325,340,350,
+%T A059160 415,440,485,500,505,580,581,650,645,675,815,815,910,845,865,985,951,
+%U A059160 1130,1030,1060,1155,1150,1370,1265,1410,1495,1420,1545,1460,1600,1675,1690
+%N A059160 Number of ordered ways of writing n as a sum of 5 generalized pentagonal numbers (A001318).
+%F A059160 G.f.: f(x, x^2)^5 where f(,) is Ramanujan's two variable theta function. - _Michael Somos_, Jun 08 2012
+%Y A059160 Cf. A001318, A008443, A014110, A080995.
+%K A059160 nonn
+%O A059160 0,2
+%A A059160 Judson D. Neer (judson(AT)poboxes.com), Feb 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049981
+Showing 1-1 of 1
+
+%I A049981
+%S A049981 1,2,4,6,9,13,17,21,28,34,40,49,56,64,77,86,95,110,120,132,150,163,
+%T A049981 175,195,210,225,248,265,280,308,324,342,370,390,412,445,464,486,519,
+%U A049981 545,566,605,627,653,696,723,747,790,817,850
+%N A049981 a(n)=number of arithmetic progressions of positive integers, strictly increasing with sum <=n.
+%K A049981 nonn
+%O A049981 1,2
+%A A049981 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

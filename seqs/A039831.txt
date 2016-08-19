@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039831
+Showing 1-1 of 1
+
+%I A039831
+%S A039831 1,2,4,13,57,315,2057,15484,132317,1261560,13281295,153218597,
+%T A039831 1921565205,26008169266,377922606876,5871153031163,97096594212804,
+%U A039831 1702487540383101,31551431772637772,616331122530164638
+%N A039831 Largest coefficient in expansion of Product (1+q^1+q^3...+q^(2i-1)), i=1 to n.
+%Y A039831 Cf. A039824.
+%K A039831 nonn
+%O A039831 1,2
+%A A039831 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014287
+Showing 1-1 of 1
+
+%I A014287
+%S A014287 5,5,1,5,101,9,0,6,5,509,0,505,1,5,6,1,509,515,514,6
+%N A014287 Value of the name of n as a Roman number, keeping only relevant letters, zero if none (v=u). French version.
+%D A014287 R. Goscinny and A. Uderzo, Les Aventures d'Asterix le Gaulois, Editions Dargaud et Albert Ren'e.
+%F A014287 Decimal equivalent of v, vx, i, v, ci, ix, 0, vi, v, dix, 0, dv, i, v, ...
+%Y A014287 Cf. A002904.
+%K A014287 nonn,word
+%O A014287 1,1
+%A A014287 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

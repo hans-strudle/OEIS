@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a042885
+Showing 1-1 of 1
+
+%I A042885
+%S A042885 1,4,5,19,24,43,67,780,847,5015,15892,132151,148043,280194,428237,
+%T A042885 708431,21681167,22389598,44070765,66460363,110531128,950709387,
+%U A042885 2962659289,15764005832,18726665121,221757322163,240483987284,462241309447,702725296731,2570417199640
+%N A042885 Denominators of continued fraction convergents to sqrt(974).
+%H A042885 Vincenzo Librandi, <a href="/A042885/b042885.txt">Table of n, a(n) for n = 0..200</a>
+%F A042885 a(n) = 977651490470430*a(n-32) - a(n-64) for n>63. - _Vincenzo Librandi_, Jan 31 2014
+%t A042885 Denominator[Convergents[Sqrt[974], 30]] (* _Harvey P. Dale_, Feb 07 2012 *)
+%Y A042885 Cf. A042884, A040942.
+%K A042885 nonn,frac,easy
+%O A042885 0,2
+%A A042885 _N. J. A. Sloane_.
+%E A042885 More terms from _Vincenzo Librandi_, Jan 31 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

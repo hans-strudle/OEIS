@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019165
+Showing 1-1 of 1
+
+%I A019165
+%S A019165 0,0,6,3,4,37,53,89,304,631,1301,3416,8214,19870,50583,127920,329503,
+%T A019165 856622
+%N A019165 Cycle class sequence c(n) (the number of true cycles of length n in which a certain node is included) for zeolite MFI = ZSM-5 Nan[ AlnSi96-nO192 ].
+%D A019165 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A019165 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%K A019165 nonn
+%O A019165 3,3
+%A A019165 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

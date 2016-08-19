@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047181
+Showing 1-1 of 1
+
+%I A047181
+%S A047181 0,0,0,0,0,0,0,0,0,0,6,7,42,48,168,189,504,560,1260,1386,2827,3090,
+%T A047181 6270,6864,15444,17094,44044,49335,135135,152152,408968,460139,
+%U A047181 1174224,1316904
+%N A047181 Number of nonempty subsets of {1,2,...,n} in which exactly 5/6 of the elements are <= (n-1)/2.
+%K A047181 nonn
+%O A047181 1,11
+%A A047181 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

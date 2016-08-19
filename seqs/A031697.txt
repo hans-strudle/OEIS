@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031697
+Showing 1-1 of 1
+
+%I A031697
+%S A031697 363,1448,3255,5784,9035,13008,17703,23120,29259,36120,43703,52008,
+%T A031697 61035,70784,81255,92448,104363,117000,130359,137680,144440,152920,
+%U A031697 159243,174768,191015,207984,225675,244088,263223,283080,303659,314780,324960
+%N A031697 Least term in period of continued fraction for sqrt(n) is 19.
+%H A031697 Vincenzo Librandi, <a href="/A031697/b031697.txt">Table of n, a(n) for n = 1..60</a>
+%t A031697 Select[Range[350000],!IntegerQ[Sqrt[#]] &&Min[ContinuedFraction[Sqrt[#]][[2]]] == 19&]( Vincenzo Librandi, Feb 10 2012 *)
+%K A031697 nonn
+%O A031697 1,1
+%A A031697 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

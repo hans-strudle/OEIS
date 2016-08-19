@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027316
+Showing 1-1 of 1
+
+%I A027316
+%S A027316 1,4,15,70,644,5502,46936,402164,3460536,29885592,258897792,
+%T A027316 2248831350,19579288052,170814593158
+%N A027316 a(n) = Sum{T(n,k)*T(n,k+1)}, 0<=k<=m-1, m=n for n=0,1,2,3; m=2n for n >= 4; T given by A026082.
+%K A027316 nonn
+%O A027316 1,2
+%A A027316 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,31 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036659
+Showing 1-1 of 1
+
+%I A036659
+%S A036659 2,14,45,104,200,342,539,800,1134,1550,2057,2664,3380,4214,5175,6272,
+%T A036659 7514,8910,10469,12200,14112,16214,18515,21024,23750,26702,29889,
+%U A036659 33320,37004,40950,45167,49664,54450,59534,64925,70632,76664
+%N A036659 Product of n with sum of next n consecutive integers.
+%H A036659 Vincenzo Librandi, <a href="/A036659/b036659.txt">Table of n, a(n) for n = 1..1000</a>
+%H A036659 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A036659 a(n) = 2 +( 3*n*n +10*n +11 )*n/2. - _Frank Ellermann_, Mar 16 2002
+%F A036659 a(n) = n^2(3n + 1)/2. - Ronnie B Kon (ronniekon(AT)yahoo.com), Jun 09 2006
+%F A036659 a(n) = sum(sum(n+k, j=1..n),k=1..n), n>=1. - _Zerinvary Lajos_, May 11 2007
+%F A036659 G.f.: x*(2+6*x+x^2)/(1-x)^4. - Colin Barker, Mar 27 2012
+%e A036659 n=3 -> 3*(4+5+6)=45
+%p A036659 seq(add((n^2-k^2+(n+k)^2)/2,k=1..n),n=0..37); - _Zerinvary Lajos_, Dec 01 2006
+%p A036659 a:=n->sum((n+j)*n, j=1..n): seq(a(n), n=1..37); - _Zerinvary Lajos_, Apr 29 2007
+%p A036659 a:=n->sum(sum(n+k, j=1..n),k=1..n): seq(a(n), n=1..37); - _Zerinvary Lajos_, May 11 2007
+%p A036659 a:=n->add(binomial(n,2)+add(n, j=0..n),j=1..n):seq(a(n), n=1..40);# - _Zerinvary Lajos_, Aug 27 2008
+%t A036659 CoefficientList[Series[(2+6*x+x^2)/(1-x)^4,{x,0,40}],x] (* _Vincenzo Librandi_, Apr 25 2012 *)
+%t A036659 Table[(n^2*(1+3n))/2,{n,40}] (* or *) LinearRecurrence[{4,-6,4,-1},{2,14,45,104},40] (* _Harvey P. Dale_, Jan 04 2015 *)
+%o A036659 (PARI) a(n)=n^2*(3*n+1)/2 \\ _Charles R Greathouse IV_, Dec 08 2011
+%o A036659 (MAGMA) I:=[2, 14, 45, 104]; [n le 4 select I[n] else 4*Self(n-1)-6*Self(n-2)+4*Self(n-3)-Self(n-4): n in [1..40]]; // _Vincenzo Librandi_, Apr 25 2012
+%Y A036659 Cf. A036660.
+%K A036659 nonn,easy
+%O A036659 1,1
+%A A036659 _G. L. Honaker, Jr._, Dec 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

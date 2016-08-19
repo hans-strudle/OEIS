@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016856
+Showing 1-1 of 1
+
+%I A016856
+%S A016856 0,390625,100000000,2562890625,25600000000,152587890625,656100000000,
+%T A016856 2251875390625,6553600000000,16815125390625,39062500000000,
+%U A016856 83733937890625,167961600000000,318644812890625
+%N A016856 (5n)^8.
+%t A016856 (5Range[0,20])^8  (* _Harvey P. Dale_, Apr 05 2011 *)
+%K A016856 nonn,easy
+%O A016856 0,2
+%A A016856 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

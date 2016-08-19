@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062494
+Showing 1-1 of 1
+
+%I A062494
+%S A062494 1,1,1,1,1,4,22,195,2813,65960,2461846,142900605,12629963361,
+%T A062494 1667181039424,322952216807258,90343400059853200,35964677954267807744,
+%U A062494 20101122321919726583808,15578877275203727360262144
+%N A062494 Integer part of (Product((n - i)^log(i), {i, 1, n - 1})).
+%t A062494 Floor[Product[(n - i)^Log[i], {i, 1, n - 1}]]
+%Y A062494 Cf. A062495.
+%K A062494 nonn
+%O A062494 0,6
+%A A062494 _Olivier Gérard_, Jun 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

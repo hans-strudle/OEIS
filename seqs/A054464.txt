@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054464
+Showing 1-1 of 1
+
+%I A054464
+%S A054464 4,34,90,175,800,2999,3624,30624,60000,390624,499999,4000000,8890624,
+%T A054464 17109375,69999999,200000000,2787109375,8999999999
+%N A054464 Numbers n such that sum(k=1,n,d(k)) is an integer where d(k) is the decimal fraction 0.k (e.g. d(999)=0.999).
+%C A054464 Further terms become very sparse, with no more through 36000000000. - _Ryan Propper_, Aug 25 2005
+%e A054464 0.1+0.2+0.3+0.4=1 hence 4 is in the sequence.
+%t A054464 Flatten[Position[IntegerQ /@ Table[ Sum[10^-Length[IntegerDigits[i]]*i, {i, j}], {j, 1, 50000}], True]] (from Vit Planocka)
+%K A054464 base,nonn
+%O A054464 1,1
+%A A054464 _Benoit Cloitre_, Aug 30 2003
+%E A054464 One more term from Vit Planocka (planocka(AT)mistral.cz), Sep 24 2003
+%E A054464 Terms a(9) - a(15) from _John W. Layman_, Jun 03 2005
+%E A054464 a(16) - a(18) from _Ryan Propper_, Aug 25 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

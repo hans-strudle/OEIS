@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022400
+Showing 1-1 of 1
+
+%I A022400
+%S A022400 1,30,31,61,92,153,245,398,643,1041,1684,2725,4409,7134,11543,18677,
+%T A022400 30220,48897,79117,128014,207131,335145,542276,877421,1419697,2297118,
+%U A022400 3716815,6013933,9730748,15744681
+%N A022400 Fibonacci sequence beginning 1, 30.
+%H A022400 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A022400 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (1, 1).
+%F A022400 G.f.: (1+29*x)/(1-x-x^2). - _Philippe Deléham_, Nov 20 2008
+%F A022400 a(n) = 30*A000045(n) + A000045(n-1). [_Paolo P. Lava_, May 19 2015]
+%p A022400 with(numtheory): with(combinat): P:=proc(q) local n;
+%p A022400 for n from 0 to q do print(30*fibonacci(n)+fibonacci(n-1));
+%p A022400 od; end: P(30); # _Paolo P. Lava_, May 19 2015
+%t A022400 a={};b=1;c=30;AppendTo[a, b];AppendTo[a, c];Do[b=b+c;AppendTo[a, b];c=b+c;AppendTo[a, c], {n, 4!}];a (* _Vladimir Joseph Stephan Orlovsky_, Sep 18 2008 *)
+%K A022400 nonn
+%O A022400 0,2
+%A A022400 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

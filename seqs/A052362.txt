@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052362
+Showing 1-1 of 1
+
+%I A052362
+%S A052362 0,3,11,13,17,21,23,73,101,103,111,113,117,121,123,173,323,373,1101,
+%T A052362 1103,1111,1113,1117,1121,1123,1173,1323,1373,3323,3373,11373,13323,
+%U A052362 13373,17373,21373,23323,23373,73373,101323,101373,103323,103373
+%N A052362 Numbers n such that A052360(k) > A052360(n) => k > n.
+%e A052362 Note that A052360(373373) = 64 and A005589(373373) = 56.
+%Y A052362 Cf. A005589, A052360, A052362, A052363.
+%K A052362 nonn,word,nice,easy
+%O A052362 1,2
+%A A052362 _Allan C. Wechsler_, Mar 07 2000
+%E A052362 Minor edits by _Ray Chandler_, Jul 22 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

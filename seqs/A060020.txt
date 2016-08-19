@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060020
+Showing 1-1 of 1
+
+%I A060020
+%S A060020 1,2,3,3,4,4,5,5,5,6,6,6,7,7,8,7,9,8,10
+%N A060020 Maximal size of a nonspanning subset of any Abelian group of order n.
+%D A060020 J. R. Griggs (griggs(AT)math.sc.edu), personal communication, Apr 24, 2001.
+%H A060020 J. R. Griggs, <a href="http://dx.doi.org/10.1016/S0012-365X(00)00203-X">Spanning subset sums for finite Abelian groups</a>, Discrete Math., 229 (2001), 89-99.
+%Y A060020 Cf. A060021.
+%K A060020 nonn,more
+%O A060020 2,2
+%A A060020 _N. J. A. Sloane_, Mar 17 2001
+%E A060020 n=21 is the first open case - it is either 8 or 9.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

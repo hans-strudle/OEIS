@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015237
+Showing 1-1 of 1
+
+%I A015237
+%S A015237 0,1,12,45,112,225,396,637,960,1377,1900,2541,3312,4225,5292,6525,
+%T A015237 7936,9537,11340,13357,15600,18081,20812,23805,27072,30625,34476,
+%U A015237 38637,43120,47937,53100,58621,64512
+%N A015237 a(n) = (2*n - 1)*n^2.
+%C A015237 Structured hexagonal prism numbers. - James A. Record (james.record(AT)gmail.com), Nov 07 2004
+%C A015237 Number of divisors of 60^(n-1) for n>0. - _J. Lowell_, Aug 30 2008
+%C A015237 The sum of the 2*n+1 numbers between n*(n+1) and (n+1)*(n+2) = a(n+1). - _J. M. Bergot_, Apr 17 2013
+%C A015237 Partial sums of A080859. - _J. M. Bergot_, Jul 03 2013
+%H A015237 Vincenzo Librandi, <a href="/A015237/b015237.txt">Table of n, a(n) for n = 0..5000</a>
+%H A015237 M. Janjic and B. Petkovic, <a href="http://arxiv.org/abs/1301.4550">A counting function</a>, arXiv preprint arXiv:1301.4550, 2013.
+%H A015237 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A015237 a(n) = A000578(n) + A045991(n). - _Zerinvary Lajos_, Jun 11 2008
+%F A015237 a(n) = A199771(2*n-1) for n > 0. - _Reinhard Zumkeller_, Nov 23 2011
+%F A015237 G.f.: x*(1+8*x+3*x^2)/(1-x)^4. - _Colin Barker_, Jun 08 2012
+%F A015237 a(n) = 3*a(n-1) - 3*a(n-2) + a(n-3) + 12, a(0)=1, a(1)=1, a(2)=12. - _G. C. Greubel_, Jul 31 2015
+%F A015237 E.g.f.: x*(2*x^2 + 5*x + 1)*exp(x). - _G. C. Greubel_, Jul 31 2015
+%F A015237 a(n) = Sum_{i=0..n-1} n*(4*i+1) for n>0. - _Bruno Berselli_, Sep 08 2015
+%t A015237 RecurrenceTable[{a[0]==0, a[1]==1, a[2]==12, a[n]== 3*a[n-1] - 3*a[n-2] + a[n-3] + 12}, a, {n, 30}] (* _G. C. Greubel_, Jul 31 2015 *)
+%t A015237 Table[(2 n - 1) n^2, {n, 0, 40}] (* _Bruno Berselli_, Sep 08 2015 *)
+%o A015237 (MAGMA) [(2*n-1)*n^2: n in [0..40]]; // _Vincenzo Librandi_, Jul 19 2011
+%o A015237 (PARI) a(n)=(2*n-1)*n^2 \\ _Charles R Greathouse IV_, Oct 07 2015
+%Y A015237 Cf. A100177 (structured prisms); A100145 (more on structured numbers).
+%Y A015237 Cf. A000578, A045991, A000384.
+%Y A015237 Cf. similar sequences, with the formula (k*n-k+2)*n^2/2, listed in A262000.
+%K A015237 nonn,easy
+%O A015237 0,3
+%A A015237 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

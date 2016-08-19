@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024318
+Showing 1-1 of 1
+
+%I A024318
+%S A024318 0,0,1,2,3,5,8,13,26,42,68,110,178,288,466,754,1254,2029,3283,5312,
+%T A024318 8595,13907,22502,36409,58911,95320,154608,250161,404769,654930,
+%U A024318 1059699,1714629,2774328,4488957,7263285
+%N A024318 s(1)t(n) + s(2)t(n-1) + ... + s(k)t(n+1-k), where k=[ (n+1)/2) ], s = A023531, t = (Fibonacci numbers).
+%K A024318 nonn
+%O A024318 1,4
+%A A024318 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

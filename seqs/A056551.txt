@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056551
+Showing 1-1 of 1
+
+%I A056551
+%S A056551 1,8,27,8,125,216,343,1,27,1000,1331,216,2197,2744,3375,8,4913,216,
+%T A056551 6859,1000,9261,10648,12167,27,125,17576,1,2744,24389,27000,29791,8,
+%U A056551 35937,39304,42875,216,50653,54872,59319,125,68921,74088,79507,10648
+%N A056551 Smallest cube divisible by n divided by largest cube which divides n.
+%H A056551 H. Bottomley, <a href="http://fs.gallup.unm.edu/Bottomley-Sm-Mult-Functions.htm">Some Smarandache-type multiplicative sequences</a>
+%F A056551 a(n) =A053149(n)/A008834(n) =A048798(n)*A050985(n) =A056552(n)^3
+%e A056551 a(16)=8 since smallest cube divisible by 16 is 64 and smallest cube which divides 16 is 8 and 64/8=8
+%Y A056551 Cf. A000189, A000578, A008834, A019555, A048798, A050985, A053149, A053150, A056552.
+%K A056551 nonn,mult
+%O A056551 1,2
+%A A056551 _Henry Bottomley_, Jun 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051357
+Showing 1-1 of 1
+
+%I A051357
+%S A051357 1,6,180,37800,87318000,2622159540000,1338638666765400000,
+%T A051357 12984380089637682726000000,2896722619368127899492763620000000,
+%U A051357 18740906719713843949122453226304292600000000
+%N A051357 Chernoff sequence A006939 divided by 2.
+%F A051357 a(n) = Product_{k=1..n} prime(k)^(n-k+1) / 2
+%K A051357 easy,nonn
+%O A051357 1,2
+%A A051357 Judson D. Neer (judson(AT)poboxes.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

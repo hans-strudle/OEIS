@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062143
+Showing 1-1 of 1
+
+%I A062143
+%S A062143 1,40,1080,25200,554400,11975040,259459200,5708102400,128432304000,
+%T A062143 2968213248000,70643475302400,1733976211968000,43927397369856000,
+%U A062143 1148870392750080000,31019500604252160000,864410083505160192000
+%N A062143 Fifth column sequence of coefficient triangle A062137 of generalized Laguerre polynomials n!*L(n,3,x).
+%C A062143 The coefficients of the numerator polynomials N(m,x) of the e.g.f. for column m (here m=4) give triangle A062145.
+%H A062143 <a href="/index/La#Laguerre">Index entries for sequences related to Laguerre polynomials</a>
+%F A062143 a(n)= (n+4)!*binomial(n+7, 7)/4!; e.g.f.:(1+28*x+126*x^2+140*x^3+35*x^4)/(1-x)^12.
+%F A062143 If we define f(n,i,x)= sum(sum(binomial(k,j)*stirling1(n,k)*stirling2(j,i)*x^(k-j),j=i..k),k=i..n) then a(n-4)=(-1)^n*f(n,4,-8), (n>=4). [From _Milan Janjic_, Mar 01 2009]
+%Y A062143 A062142.
+%K A062143 nonn,easy
+%O A062143 0,2
+%A A062143 _Wolfdieter Lang_, Jun 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

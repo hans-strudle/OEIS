@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026844
+Showing 1-1 of 1
+
+%I A026844
+%S A026844 1,10,67,379,1958,9576,45190,208084,941480,4204949,18597694,81635060,
+%T A026844 356220369,1547066801,6693361973,28868868733,124194904215,
+%U A026844 533156609953,2284722747583,9776008778375,41777089615201,178338353574365,760586650190997
+%N A026844 T(2n,n+4), T given by A026725.
+%C A026844 Column k=9 of triangle A236830. - _Philippe Deléham_, Feb 02 2014
+%F A026844 G.f.: (x^4*C(x)^9)/(1-x*C(x)^3) where C(x) is the g.f. of A000108. - _Philippe Deléham_, Feb 02 2014
+%Y A026844 Cf. A236830
+%K A026844 nonn
+%O A026844 4,2
+%A A026844 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

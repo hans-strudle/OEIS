@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060266
+Showing 1-1 of 1
+
+%I A060266
+%S A060266 1,1,1,3,1,1,3,1,1,3,1,5,3,1,1,5,3,1,3,1,1,3,1,5,3,1,5,3,1,1,5,3,1,3,
+%T A060266 1,1,5,3,1,3,1,5,3,1,7,5,3,1,3,1,1,3,1,1,3,1,13,11,9,7,5,3,1,3,1,5,3,
+%U A060266 1,1,9,7,5,3,1,1,5,3,1,5,3,1,3,1,5,3,1,5,3,1,1,9,7,5,3,1,1,3,1,1,11,9,7,5
+%N A060266 Difference between 2n and the following prime.
+%p A060266 with(numtheory): [seq(nextprime(2*i)-2*i,i=1..256)];
+%t A060266 d2n[n_]:=Module[{c=2n},NextPrime[c]-c]; Array[d2n,120] (* _Harvey P. Dale_, May 14 2011 *)
+%Y A060266 Cf. A020482, A049653, A060266-A060268, A060264.
+%K A060266 nonn
+%O A060266 1,4
+%A A060266 _Labos Elemer_, Mar 23 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

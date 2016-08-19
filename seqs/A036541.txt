@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036541
+Showing 1-1 of 1
+
+%I A036541
+%S A036541 0,0,1,0,1,1,2,1,1,1,1,1,2,2,2,1,2,2,3,3,2,2,3,3,3,3,3,3,3,3,4,3,3,3,
+%T A036541 2,2,3,3,2,2,3,3,4,4,5,5,5,5,5,5,5,5,6,6,4,4,3,3,5,5,6,6,6,5,4,4,5,5,
+%U A036541 5,5,6,6,7,7,6,6,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,6,6,7,7,7,7,8,8,9,9,8
+%N A036541 Deficit of central binomial coefficients in terms of number of prime factors: a[ n ] shows how many fewer prime factors the n-th central binomial coefficient has than n!.
+%C A036541 Primes not exceeding n/2 are missing from this kit of prime divisors. Note differences of consecutive deficits change sign like: 0,1,0,-2,0,-1,0,+2,0.
+%F A036541 a[ n ]=PrimePi[ n ]-r[ binomial[ n, Floor[ n/2 ] ] ]=r[ n! ]-r[ binomial[ n, Floor[ n/2 ] ] ]
+%e A036541 a[ 1000 ]=52 because Pi[ 1000 ]=r[ 1000! ]=168 and r[ binomial[ 1000,500 ] ]=116; so a[ 1000 ]=168-116.
+%Y A036541 A001405, A000720, A034973, A034974.
+%K A036541 nonn
+%O A036541 1,7
+%A A036541 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

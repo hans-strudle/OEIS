@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016227
+Showing 1-1 of 1
+
+%I A016227
+%S A016227 1,17,225,2785,33761,406497,4883425,58622945,703562721,8443102177,
+%T A016227 101318624225,1215829083105,14589971366881,175079745881057,
+%U A016227 2100957308486625,25211489133495265,302537875328566241
+%N A016227 Expansion of 1/((1-x)(1-4x)(1-12x)).
+%H A016227 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (17, -64, 48).
+%F A016227 a(n) = (1/33)-(2/3)*4^(n-1)+(18/11)*12^(n-1). - _Antonio Alberto Olivares_, Feb 07 2010
+%F A016227 a(0)=1, a(1)=17, a(n)=16*a(n-1)-48*a(n-2)+1. - _Vincenzo Librandi_, Feb 10 2011
+%e A016227 a(n) := (1/33)-(2/3)*4^(n-1)+(18/11)*12^(n-1); a(1); 1 a(2); 17 a(3); 225 a(4); 2785 a(5); 33761 a(6); 406497 a(7); 4883425 a(8); 58622945 a(9); 703562721 a(10); 8443102177. [From _Antonio Alberto Olivares_, Feb 07 2010]
+%p A016227 a:=n->sum((12^(n-j)-4^(n-j))/8,j=0..n): seq(a(n), n=1..17); - _Zerinvary Lajos_, Jan 12 2007
+%K A016227 nonn
+%O A016227 0,2
+%A A016227 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

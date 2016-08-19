@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011551
+Showing 1-1 of 1
+
+%I A011551
+%S A011551 1,16,161,1618,16180,161803,1618033,16180339,161803398,1618033988,
+%T A011551 16180339887,161803398874,1618033988749,16180339887498,
+%U A011551 161803398874989,1618033988749894,16180339887498948
+%N A011551 Decimal expansion of phi truncated to n places.
+%H A011551 Vincenzo Librandi, <a href="/A011551/b011551.txt">Table of n, a(n) for n = 0..200</a>
+%t A011551 With[{phi=RealDigits[GoldenRatio,10,50][[1]]},Table[FromDigits[ Take[ phi,n]],{n,20}]] (* _Harvey P. Dale_, Feb 03 2012 *)
+%K A011551 nonn,base
+%O A011551 0,2
+%A A011551 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

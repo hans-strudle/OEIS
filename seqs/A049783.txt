@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049783
+Showing 1-1 of 1
+
+%I A049783
+%S A049783 0,0,0,0,1,0,0,0,1,0,0,1,2,2,1,0,0,0,2,1,0,0,1,1,4,3,3,2,0,0,2,0,3,4,
+%T A049783 3,0,0,1,0,2,5,4,3,4,2,0,0,1,2,0,5,4,4,4,1,0,1,2,4,2,8,7,8,8,6,5,0,0,
+%U A049783 0,0,2,0,5,4,3,4,3,0,0,1,1,2,4,3,8,8,7,9,8
+%N A049783 Triangular array T read by rows: T(n,k)=Sum{k mod [ n/h ]: h=1,2,...,n}, for k=1,2,...,n, n=1,2,...
+%e A049783 Rows: {0}; {0,0}; {0,1,0}; ...
+%K A049783 nonn,tabl
+%O A049783 1,13
+%A A049783 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

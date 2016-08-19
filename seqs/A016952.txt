@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016952
+Showing 1-1 of 1
+
+%I A016952
+%S A016952 6561,43046721,2562890625,37822859361,282429536481,1406408618241,
+%T A016952 5352009260481,16815125390625,45767944570401,111429157112001,
+%U A016952 248155780267521,513798374428641,1001129150390625,1853020188851841
+%N A016952 (6n+3)^8.
+%H A016952 Vincenzo Librandi, <a href="/A016952/b016952.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016952 (MAGMA) [(6*n+3)^8: n in [0..40]]; // Vincenzo Librandi, May 05 2011
+%K A016952 nonn,easy
+%O A016952 0,1
+%A A016952 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

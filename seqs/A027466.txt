@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027466
+Showing 1-1 of 1
+
+%I A027466
+%S A027466 1,7,1,49,14,1,343,147,21,1,2401,1372,294,28,1,16807,12005,3430,490,
+%T A027466 35,1,117649,100842,36015,6860,735,42,1,823543,823543,352947,84035,
+%U A027466 12005,1029,49,1,5764801,6588344,3294172,941192,168070,19208
+%N A027466 Triangle whose (i,j)-th entry is binomial(i,j)*7^(i-j).
+%C A027466 T(i,j) is the number of i-permutations of 8 objects a,b,c,d,e,f,g,h, with repetition allowed, containing j a's. - _Zerinvary Lajos_, Dec 21 2007
+%D A027466 B. N. Cyvin et al., Isomer enumeration of unbranched catacondensed polygonal systems with pentagons and heptagons, Match, No. 34 (Oct 1996), pp. 109-121.
+%H A027466 Harvey P. Dale, <a href="/A027466/b027466.txt">Table of n, a(n) for n = 0..5000</a>
+%F A027466 Cube of lower triangular normalized Binomial matrix.
+%F A027466 Numerators of lower triangle of (a[ i, j ])^3 where a[ i, j ] = Binomial(i-1, j-1)/2^(i-1) if j<=i, 0 if j>i
+%e A027466 1
+%e A027466 7, 1
+%e A027466 49, 14, 1
+%e A027466 343, 147, 21, 1
+%e A027466 2401, 1372, 294, 28, 1
+%e A027466 16807, 12005, 3430, 490, 35, 1
+%e A027466 117649, 100842, 36015, 6860, 735, 42, 1
+%e A027466 823543, 823543, 352947, 84035, 12005, 1029, 49, 1
+%e A027466 5764801, 6588344, 3294172, 941192, 168070, 19208, 1372, 56, 1
+%p A027466 for i from 0 to 8 do seq(binomial(i, j)*7^(i-j), j = 0 .. i) od; - _Zerinvary Lajos_, Dec 21 2007
+%t A027466 Flatten[Table[Binomial[i,j]7^(i-j),{i,0,10},{j,0,i}]] (* _Harvey P. Dale_, Dec 03 2012 *)
+%Y A027466 Cf. A007318, A038207.
+%K A027466 nonn,tabl,easy
+%O A027466 0,2
+%A A027466 _Olivier Gérard_
+%E A027466 Simpler definition from _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

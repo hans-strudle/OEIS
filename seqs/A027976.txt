@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027976
+Showing 1-1 of 1
+
+%I A027976
+%S A027976 1,1,4,6,10,18,29,47,78,126,204,332,537,869,1408,2278,3686,5966,9653,
+%T A027976 15619,25274,40894,66168,107064,173233,280297,453532,733830
+%N A027976 n-th diagonal sum of right justified array T given by A027960.
+%F A027976 G.f.: (2x^2+1) / [(1-x^3)(1-x-x^2)].
+%Y A027976 Cf. A004695.
+%K A027976 nonn
+%O A027976 0,3
+%A A027976 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

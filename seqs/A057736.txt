@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057736
+Showing 1-1 of 1
+
+%I A057736
+%S A057736 2,3,7,67
+%N A057736 Primes p such that 2^p + 3 is prime.
+%C A057736 The next term p is greater than 100000, corresponding to a prime 2^p + 3 with more than 30000 digits. - _Ryan Propper_, Aug 24 2005
+%D A057736 J.-M. De Koninck, Ces nombres qui nous fascinent, Entry 67, p. 24, Ellipses, Paris 2008.
+%K A057736 more,nonn
+%O A057736 1,1
+%A A057736 _G. L. Honaker, Jr._, Oct 29 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

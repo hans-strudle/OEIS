@@ -1,0 +1,33 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033553
+Showing 1-1 of 1
+
+%I A033553
+%S A033553 9,15,21,33,39,51,57,63,69,87,93,111,123,129,141,159,177,183,195,201,
+%T A033553 213,219,237,249,267,291,303,309,315,321,327,339,381,393,399,411,417,
+%U A033553 447,453,471,489,501,519,537,543,573,579,591,597,633,669,681,687,693
+%N A033553 3-Knödel numbers or D-numbers: numbers n > 3 such that n | k^(n-2)-k for all k with gcd(k, n) = 1.
+%C A033553 All terms are divisible by 3.  All terms satisfy the condition 2^n == 8 (mod n). The only number less than 693 which satisfies this condition and is not listed is 248, which is not divisible by 3. a(n)/3 is nearly identical to A106317(n-2) which does not contain the terms 399/3=133 and 195/3=65. - _Gary Detlefs_, May 28 2014
+%H A033553 R. J. Mathar, <a href="/A033553/b033553.txt">Table of n, a(n) for n = 1..489</a>
+%H A033553 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/D-Number.html">D-Number.</a>
+%H A033553 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/KnoedelNumbers.html">Knödel Numbers.</a>
+%p A033553 with(numtheory);
+%p A033553 knodel:=proc(i,k)
+%p A033553 local a,n,ok;
+%p A033553 for n from k+1 to i do
+%p A033553   ok:=1;
+%p A033553   for a from 1 to n do
+%p A033553      if gcd(a,n)=1 then  if (a^(n-k) mod n)<>1 then ok:=0; break; fi; fi;
+%p A033553   od;
+%p A033553   if ok=1 then print(n); fi;
+%p A033553 od;
+%p A033553 end:
+%p A033553 knodel(1000,3) # _Paolo P. Lava_, Feb 24 2012
+%Y A033553 Cf. A002997, A050990, A050992, A050993, A208154-A208158.
+%K A033553 nonn
+%O A033553 1,1
+%A A033553 _David W. Wilson_
+%E A033553 Edited by _N. J. A. Sloane_, May 07 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

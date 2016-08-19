@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036321
+Showing 1-1 of 1
+
+%I A036321
+%S A036321 25,125,295,625,1475,2995,3125,3481,7375,14975,15625,17405,35341,
+%T A036321 36875,74875,78125,87025,176705,184375,205379,299995,358801,374375,
+%U A036321 390625,435125,479795,497795,883525,921875,1026895,1499975,1794005,1871875
+%N A036321 Composite numbers n such that digits of prime factors of n are either 5 or 9.
+%Y A036321 Cf. A036302-A036325.
+%K A036321 nonn,base
+%O A036321 1,1
+%A A036321 _Patrick De Geest_, Dec 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

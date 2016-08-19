@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005783
+Showing 1-1 of 1
+
+%I A005783 M2790
+%S A005783 3,9,23,51,103,196,348,590,960,1506,2290,3393,4905,6945,9651,13185,
+%T A005783 17739,23542,30846,39954,51206,64986,81730,101935,126141,154967,
+%U A005783 189093,229269,276325,331182,394830,468372,553002,650016,760824,886963
+%N A005783 Number of 3-covers of an n-set.
+%C A005783 Equals first differences of A002727 - _Vladeta Jovovic_, May 24 2000
+%D A005783 R. J. Clarke, Covering a set by subsets, Discrete Math., 81 (1990), 147-152.
+%D A005783 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005783 T. D. Noe, <a href="/A005783/b005783.txt">Table of n, a(n) for n=1..1000</a>
+%H A005783 Vladeta Jovovic, <a href="/A005748/a005748.pdf">Binary matrices up to row and column permutations</a>
+%F A005783 G.f.: (x^6+x^4+2*x^3+x^2+1)/((1-x^3)^2*(1-x^2)^2*(1-x)^3).
+%t A005783 Rest[CoefficientList[Series[(x^6+x^4+2x^3+x^2+1)/((1-x^3)^2(1-x^2)^2 (1-x)^3),{x,0,50}],x]] (* _Harvey P. Dale_, May 19 2011 *)
+%Y A005783 Cf. A002727, A005784, A005785, A005786.
+%K A005783 nonn,easy,nice
+%O A005783 1,1
+%A A005783 _N. J. A. Sloane_.
+%E A005783 More terms from _Vladeta Jovovic_, May 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

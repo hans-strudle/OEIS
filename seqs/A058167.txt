@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058167
+Showing 1-1 of 1
+
+%I A058167
+%S A058167 1,4,2,24,30,9,260,492,312,76,4805,10060,9900,4900,1065,157956,284130,
+%T A058167 348420,259500,112500,22566,12277440,11892846,14768775,14093380,
+%U A058167 9063600,3592554,674611
+%N A058167 Triangle: Labeled commutative semigroups of order n with k idempotents.
+%H A058167 <a href="/index/Se#semigroups">Index entries for sequences related to semigroups</a>
+%e A058167 1; 4,2; 24,30,9; 260,492,312,76; 4805,10060,9900,4900,1065; ...
+%Y A058167 Row sums give A023815. Main diagonal: A058164(n+1).
+%K A058167 nonn,tabl,hard
+%O A058167 1,2
+%A A058167 _Christian G. Bower_, Nov 15 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

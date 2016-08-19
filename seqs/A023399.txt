@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023399
+Showing 1-1 of 1
+
+%I A023399
+%S A023399 2,7,2,2,2,2,7,2,7,2,7,7,7,7,2,2,7,2,7,2,7,7,2,7,7,2,7,2,7,7,2,2,2,2,
+%T A023399 7,2,7,2,7,2,2,2,7,7,7,7,2,2,7,7,7,2,7,2,2,7,7,7,7,2,7,7,2,7,7,2,7,7,
+%U A023399 7,7,7,2,2,7,2,7,7,7,7,7,2,2,7,7,2,2,7,7,2,7,2,7,2,7,2,7,2,7,2,7,2,2,7,2,7,7,2,7
+%N A023399 If any power of 2 ends with k 2's and 7's, they must be the first k elements of this sequence in reverse order.
+%K A023399 nonn
+%O A023399 0,1
+%A A023399 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032426
+Showing 1-1 of 1
+
+%I A032426
+%S A032426 2,6,10,16,19,34,37,44,38,43,47,70,52,63,68,56,82,92,106,83,96,90,92,
+%T A032426 95,124,122,116,97,130,123,109,124,113,119,116,172,161,154,119,148,
+%U A032426 172,185,181,143,161,164,179,162
+%N A032426 Sum(a(n)/10^n,n=0..infinity)=exp(1), from a vertical algorithm for e in base 10.
+%K A032426 nonn
+%O A032426 0,1
+%A A032426 _Simon Plouffe_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

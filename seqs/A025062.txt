@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025062
+Showing 1-1 of 1
+
+%I A025062
+%S A025062 2,5,7,11,12,14,15,19,20,23,25,27,29,32,34,36,38,42,44,47,49,51,52,55,
+%T A025062 57,58,60,62,64,67,68,70,72,75,77,79,82,84,86,88,91,92,94,96,98,101,
+%U A025062 103,105,107,109,111,113,115,117,119,121,122,125,127,129,131,132,134,136,138,140,142
+%N A025062 Positions of even numbers in A025060 (numbers of form j*k + k*i + i*j, where 1 <=i < j < k).
+%K A025062 nonn
+%O A025062 1,1
+%A A025062 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

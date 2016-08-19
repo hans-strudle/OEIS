@@ -1,0 +1,48 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003484
+Showing 1-1 of 1
+
+%I A003484 M0161
+%S A003484 1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,9,1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,10,1,2,
+%T A003484 1,4,1,2,1,8,1,2,1,4,1,2,1,9,1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,12,1,2,1,4,
+%U A003484 1,2,1,8,1,2,1,4,1,2,1,9,1,2,1,4,1,2,1,8,1,2,1,4,1,2,1,10,1,2,1,4,1,2
+%N A003484 Radon function, also called Hurwitz-Radon numbers.
+%C A003484 This sequence and A006519 (greatest power of 2 dividing n) are very similar, the difference being all zeros except for every 16th term (see A101119 for nonzero differences). - _Simon Plouffe_, Dec 02 2004
+%C A003484 a(A005408(n))=1; a(2*n) = A209675(n); a(A016825(n))=2; a(A017113(n))=4; a(A051062(n))=8. - _Reinhard Zumkeller_, Mar 11 2012
+%D A003484 J. Frank Adams, Vector fields on spheres, Topology, 1 (1962), 63-65.
+%D A003484 J. Frank Adams, Vector fields on spheres, Bull. Amer. Math. Soc. 68 (1962) 39-41.
+%D A003484 J. Frank Adams, Vector fields on spheres, Annals of Math. 75 (1962) 603-632.
+%D A003484 J.-P. Allouche and J. Shallit, The ring of k-regular sequences, II, Theoret. Computer Sci., 307 (2003), 3-29.
+%D A003484 A. Hurwitz, Uber die Komposition der quadratischen formen, Math. Annalen 88 (1923) 1-25.
+%D A003484 M. Kervaire, Non-parallelizability of the sphere for n > 7, Proc. Nat. Acad. Sci. USA 44 (1958) 280-283.
+%D A003484 T. Y. Lam, The Algebraic Theory of Quadratic Forms. Benjamin, Reading, MA, 1973, p. 131.
+%D A003484 J. Milnor, Some consequences of a theorem of Bott, Annals Math. 68 (1958) 444-449.
+%D A003484 T. Ono, Variations on a Theme of Euler, Plenum, NY, 1994, p. 192.
+%D A003484 J. Radon, Lineare Scharen Orthogonaler Matrizen, Abh. Math. Sem. Univ. Hamburg 1 (1922) 1-14.
+%D A003484 A. R. Rajwade, Squares, Camb. Univ. Press, London Math. Soc. Lecture Notes Series 171, 1993; see p. 127.
+%D A003484 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003484 T. D. Noe, <a href="/A003484/b003484.txt">Table of n, a(n) for n = 1..10000</a>
+%H A003484 J.-P. Allouche and J. Shallit, <a href="http://www.math.jussieu.fr/~allouche/kreg2.ps">The Ring of k-regular Sequences, II</a>
+%H A003484 <a href="/index/Cor#core">Index entries for "core" sequences</a>
+%F A003484 If n=2^(4*b+c)*d, 0<=c<=3, d odd, then a(n) = 8*b + 2^c.
+%F A003484 If n=2^m*d, d odd, then a(n) = 2*m+1 if m=0 mod 4, a(n) = 2*m if m=1 or 2 mod 4, a(n) = 2*m+2 (otherwise, i.e., if m=3 mod 4).
+%F A003484 Multiplicative with a(p^e) = 2e + a_(e mod 4) if p = 2; 1 if p > 2; where a = (1, 0, 0, 2). - _David W. Wilson_, Aug 01 2001
+%F A003484 Dirichlet g.f. zeta(s) *(1-1/2^s)* {7*2^(-4*s) +1 +2^(3-3*s) +3*2^(1-5*s) +2^(1-s) +2^(2-6*s) +2^(2-2*s) }/ (1-2^(-4*s))^2. - R. J. Mathar, Mar 04 2011
+%F A003484 a((2*n-1)*2^p) = A003485(p), p >=0. - _Johannes W. Meijer_, Jun 07 2011, Dec 15 2012
+%p A003484 readlib(ifactors): for n from 1 to 150 do if n mod 2 = 1 then printf(`%d,`,1) fi: if n mod 2 = 0 then m := ifactors(n)[2][1][2]: if m mod 4 = 0 then printf(`%d,`,2*m+1) fi: if m mod 4 = 1 then printf(`%d,`,2*m) fi: if m mod 4 = 2 then printf(`%d,`,2*m) fi: if m mod 4 = 3 then printf(`%d,`,2*m+2) fi: fi: od: # from James A. Sellers, Dec 07 2000
+%p A003484 nmax:=102; A003485 := proc(n): A003485(n) := ceil((n+1)/4) + ceil(n/4) + 2*ceil((n-1)/4) + 4*ceil((n-2)/4) end: A029837 := n -> ceil(simplify(log[2](n))): for p from 0 to A029837(nmax) do for n from 1 to ceil(nmax/(p+2)) do A003484((2*n-1)*2^p):= A003485(p): od: od: seq(A003484(n), n=1..nmax); # _Johannes W. Meijer_, Jun 07 2011, Dec 15 2012
+%t A003484 a[n_] := 8*Quotient[IntegerExponent[n, 2], 4] + 2^Mod[IntegerExponent[n, 2], 4]; Table[a[n], {n, 1, 102}] (* _Jean-François Alcover_, Sep 08 2011, after _Paul D. Hanna_ *)
+%o A003484 (PARI) a(n)=8*(valuation(n,2)\4)+2^(valuation(n,2)%4) /* _Paul D. Hanna_, Dec 02 2004 */
+%o A003484 (Haskell)
+%o A003484 a003484 n = 2 * e + cycle [1,0,0,2] !! e  where e = a007814 n
+%o A003484 -- _Reinhard Zumkeller_, Mar 11 2012
+%Y A003484 See A053381 for a closely related sequence. Cf. A003485.
+%Y A003484 a(n) = A003485(A007814(n)).
+%Y A003484 Cf. A006519, A101119.
+%K A003484 nonn,easy,core,nice,mult
+%O A003484 1,2
+%A A003484 _N. J. A. Sloane_
+%E A003484 More terms from Larry Reeves (larryr(AT)acm.org), Mar 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051690
+Showing 1-1 of 1
+
+%I A051690
+%S A051690 1,14,266,6384,185136,6294624,245490336,10801574784,529277164416,
+%T A051690 28580966878464,1686277045829376,107921730933080064,
+%U A051690 7446599434382524416,551048358144306806784,43532820293400237735936
+%N A051690 (5*n+9)(!^5)/9(!^5), related to A034301 ((5*n+2)(!^5) quintic, or 5-factorials).
+%C A051690 Row m=9 of the array A(6; m,n) := ((5*n+m)(!^5))/m(!^5), m >= 0, n >= 0.
+%F A051690 a(n) = ((5*n+9)(!^5))/9(!^5) = A034301(n+2)/9.
+%F A051690 E.g.f.: 1/(1-5*x)^(14/5).
+%t A051690 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 13, 5!, 5}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A051690 Cf. A052562, A008548(n+1), A034323(n+1), A034300(n+1), A034301(n+1), A034325(n+1), A051687-A051691 (rows m=0..10).
+%K A051690 easy,nonn
+%O A051690 0,2
+%A A051690 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032778
+Showing 1-1 of 1
+
+%I A032778
+%S A032778 0,1,4,7,9,14,19,21,28,34,49,70,84,109,119,154,217,259,364,609,784,
+%T A032778 1099,1834,5509
+%N A032778 n(n+1)(n+2)...(n+7) / n+(n+1)+(n+2)+...+(n+7) is an integer.
+%Y A032778 Cf. A032777, A032779.
+%K A032778 nonn
+%O A032778 0,3
+%A A032778 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

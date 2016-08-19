@@ -1,0 +1,1 @@
+{"formerly":"","seq":"12,36,576,16464","description":"(p_1,p_2,...,p_m) = prime factors of n; (m>1,k>0); n such that n = Sum_{i=1,2,..,m} k^(p_i).","comments":"No others < 1000000.","example":"12=2^2*3=2^2+2^3 (k=2); 36=2^2*3^2=3^2+3^3 (k=3); 576=2^6*3^2=8^2+8^3 (k=8); 16464=2^4*3*7^3=4^2+4^3+4^7 (k=4);","keyword":"nonn","offset":"0,1","author":"_Naohiro Nomoto_, Nov 21 2000"}

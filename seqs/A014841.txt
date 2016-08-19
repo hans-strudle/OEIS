@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014841
+Showing 1-1 of 1
+
+%I A014841
+%S A014841 0,3,2,7,6,13,13,18,19,31,24,37,40,48,48,65,59,79,76,85,93,117,105,
+%T A014841 121,132,148,143,176,163,193,191,208,226,250,225,262,277,302,290,332,
+%U A014841 320,359,363,376,394,444,419,455,462,491,495,551,540,577,564,601,625
+%N A014841 Sum modulo the base of all the digits of n in every base from 2 to n-1.
+%K A014841 nonn,base
+%O A014841 3,2
+%A A014841 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

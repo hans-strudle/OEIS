@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013890
+Showing 1-1 of 1
+
+%I A013890
+%S A013890 19,47045881,116490258898219,288441413567621167681,
+%T A013890 714209495693373205673756419,1768453418076865701195582595329481,
+%U A013890 4378865740046709085864680868712732574619,10842505080063916320800450434338728415281531281,26847115986241183138017674520015691090350184323352819
+%N A013890 19^(5n+1).
+%H A013890 Vincenzo Librandi, <a href="/A013890/b013890.txt">Table of n, a(n) for n = 0..50</a>
+%H A013890 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013890 a(n) = 2476099*a(n-1), a(0)=19. // Vincenzo Librandi, May 27 2011
+%o A013890 (MAGMA) [19^(5*n+1): n in [0..10]]; // Vincenzo Librandi, May 27 2011
+%K A013890 nonn
+%O A013890 0,1
+%A A013890 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

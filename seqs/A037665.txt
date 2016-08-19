@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037665
+Showing 1-1 of 1
+
+%I A037665
+%S A037665 3,28,252,2271,20440,183960,1655643,14900788,134107092,1206963831,
+%T A037665 10862674480,97764070320,879876632883,7918889695948,71270007263532,
+%U A037665 641430065371791,5772870588346120
+%N A037665 Base 9 digits are, in order, the first n terms of the periodic sequence with initial period 3,1,0.
+%H A037665 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (9,0,1,-9).
+%F A037665 G.f.: x*(3+x) / ( (x-1)*(9*x-1)*(1+x+x^2) ). - _R. J. Mathar_, Apr 30 2015
+%K A037665 nonn,base,easy
+%O A037665 1,1
+%A A037665 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

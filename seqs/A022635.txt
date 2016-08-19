@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022635
+Showing 1-1 of 1
+
+%I A022635
+%S A022635 1,7,35,154,588,2065,6790,21071,62447,177863,489279,1305402,3389603,
+%T A022635 8587999,21280436,51674728,123161500,288539664,665292642,1511359766,
+%U A022635 3386065697,7488093282,16357998447
+%N A022635 Expansion of Product (1+m*q^m)^7; m=1..inf.
+%K A022635 nonn
+%O A022635 0,2
+%A A022635 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

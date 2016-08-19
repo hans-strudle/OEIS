@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040851
+Showing 1-1 of 1
+
+%I A040851
+%S A040851 29,1,2,7,11,1,2,1,3,1,4,1,1,1,1,4,1,3,1,2,1,11,7,2,1,58,1,2,7,11,1,2,
+%T A040851 1,3,1,4,1,1,1,1,4,1,3,1,2,1,11,7,2,1,58,1,2,7,11,1,2,1,3,1,4,1,1,1,1,
+%U A040851 4,1,3,1,2,1,11,7,2,1,58,1,2,7,11,1,2,1,3,1,4,1,1
+%N A040851 Continued fraction for sqrt(881).
+%H A040851 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%p A040851 with(numtheory): Digits := 300: convert(evalf(sqrt(881)),confrac);
+%K A040851 nonn,cofr,easy
+%O A040851 0,1
+%A A040851 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

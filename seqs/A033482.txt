@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033482
+Showing 1-1 of 1
+
+%I A033482
+%S A033482 1,2,5,12,30,74,185,460,1150,2866,7165,17868,44670,111418,278545,
+%T A033482 694796,1736990,4332770,10831925,27019404,67548510,168494762,
+%U A033482 421236905,1050744652,2626861630,6552514834,16381287085
+%N A033482 Expansion of (1+2*x-3*x^2-4*x^3+x^4)/(1-8*x^2+11*x^4).
+%K A033482 nonn
+%O A033482 0,2
+%A A033482 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

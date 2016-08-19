@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011746
+Showing 1-1 of 1
+
+%I A011746
+%S A011746 1,0,0,0,0,1,0,1,0,1,1,1,0,1,1,0,0,0,1,1,1,1,1,0,0,1,1,0,1,0,0,1,0,0,
+%T A011746 0,0,1,0,1,0,1,1,1,0,1,1,0,0,0,1,1,1,1,1,0,0,1,1,0,1,0,0,1,0,0,0,0,1,
+%U A011746 0,1,0,1,1,1,0,1,1,0,0,0,1
+%N A011746 Expansion of (1+x^2)/(1+x^2+x^5) mod 2.
+%D A011746 R. Gold, Characteristic linear sequences and their coset functions, J. SIAM Applied. Math., 14 (1966), 980-985.
+%H A011746 Michael Gilleland, <a href="/selfsimilar.html">Some Self-Similar Integer Sequences</a>
+%H A011746 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1).
+%F A011746 a(n)=A088002(n) mod 2. - _R. J. Mathar_, May 26 2008
+%p A011746 series((1+x^2)/(1+x^2+x^5),x,100) mod 2;
+%Y A011746 Cf. A011662.
+%K A011746 nonn,easy
+%O A011746 0,1
+%A A011746 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

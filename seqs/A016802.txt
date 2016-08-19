@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016802
+Showing 1-1 of 1
+
+%I A016802
+%S A016802 0,16,64,144,256,400,576,784,1024,1296,1600,1936,2304,2704,3136,3600,
+%T A016802 4096,4624,5184,5776,6400,7056,7744,8464,9216,10000,10816,11664,12544,
+%U A016802 13456,14400,15376,16384,17424,18496,19600,20736,21904,23104,24336,25600,26896
+%N A016802 (4n)^2.
+%C A016802 A bisection of A016742. Sequence arises from reading the line from 0, in the direction 0, 16,... in the square spiral whose vertices are the squares A000290. - _Omar E. Pol_, May 24 2008
+%C A016802 Also, sequence found by reading the line from 0, in the direction 0, 16,... in the square spiral whose vertices are the generalized decagonal numbers A074377. - _Omar E. Pol_, Sep 10 2011
+%H A016802 Ivan Panchenko, <a href="/A016802/b016802.txt">Table of n, a(n) for n = 0..200</a>
+%F A016802 a(n) = 16*n^2 = A000290(n)*16. [_Omar E. Pol_, Dec 11 2008]
+%F A016802 a(n) = A001105(n)*8 = A016742(n)*4 = A139098(n)*2. [_Omar E. Pol_, Dec 13 2008]
+%F A016802 a(n)=a(n-1)+16*(2*n-1) (with a(0)=0) [_Vincenzo Librandi_, Nov 20 2010]
+%o A016802 (PARI) a(n) = (4*n)^2; \\ _Michel Marcus_, Mar 04 2014
+%Y A016802 Cf. A000290, A001539, A016742, A016754, A016814, A016826, A016838.
+%Y A016802 Cf. A001105, A139098. [_Omar E. Pol_, Dec 13 2008]
+%K A016802 nonn,easy
+%O A016802 0,2
+%A A016802 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015179
+Showing 1-1 of 1
+
+%I A015179
+%S A015179 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,
+%T A015179 0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,
+%U A015179 0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+%V A015179 1,0,0,1,0,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,
+%W A015179 0,0,0,0,0,0,-1,0,0,-1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,-1,0,0,-1,0,
+%X A015179 0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+%N A015179 Inverse of 1170th cyclotomic polynomial.
+%p A015179 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015179 sign
+%O A015179 0,1
+%A A015179 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

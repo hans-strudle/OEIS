@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017517
+Showing 1-1 of 1
+
+%I A017517
+%S A017517 1000000000,794280046581,35184372088832,502592611936843,
+%T A017517 3904305912313344,20711912837890625,84590643846578176,
+%U A017517 285544154243029527,833747762130149888,2171893279442309389,5159780352000000000
+%N A017517 (11n+10)^9.
+%o A017517 (Maxima) makelist((11*n+10)^9,n,0,30); [_Martin Ettl_, Oct 21 2012]
+%K A017517 nonn,easy
+%O A017517 0,1
+%A A017517 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

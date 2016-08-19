@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022047
+Showing 1-1 of 1
+
+%I A022047
+%S A022047 1,480,29152,525952,3994080,18626112,67978880,197120256,509145568,
+%T A022047 1143441760,2428524096,4658843520,8705492608,15000919872,25593401600,
+%U A022047 40864033536,65187410400,98098623936
+%N A022047 Theta series of D_16 lattice.
+%D A022047 J. H. Conway and N. J. A. Sloane, "Sphere Packings, Lattices and Groups", Springer-Verlag, p. 118.
+%Y A022047 A022047(n)=A000152(2*n).
+%K A022047 nonn
+%O A022047 0,2
+%A A022047 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047764
+Showing 1-1 of 1
+
+%I A047764
+%S A047764 0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,3,0,0,0,0,0,7,0,0,
+%T A047764 0,0,0,12,0,0,0,0,0,30,0,0,0,0,0,55,0,0,0,0,0,143,0,0,0,0,0,273,0,0,0,
+%U A047764 0,0,728,0,0,0,0,0,1428,0,0,0,0,0,3876,0,0,0,0,0,7752
+%N A047764 Number of dissectable polyhedra with symmetry of type Q.
+%D A047764 L. W. Beineke and R. E. Pippert, Enumerating dissectable polyhedra by their automorphism groups, Canad. J. Math., 26 (1974), 50-67.
+%F A047764 If n=6m+2 then A047749((n-2)/6), else 0.
+%Y A047764 Cf. A027610.
+%K A047764 nonn
+%O A047764 1,20
+%A A047764 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

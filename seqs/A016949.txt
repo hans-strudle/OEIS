@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016949
+Showing 1-1 of 1
+
+%I A016949
+%S A016949 243,59049,759375,4084101,14348907,39135393,90224199,184528125,
+%T A016949 345025251,601692057,992436543,1564031349,2373046875,3486784401,
+%U A016949 4984209207,6956883693,9509900499,12762815625,16850581551
+%N A016949 (6n+3)^5.
+%H A016949 Vincenzo Librandi, <a href="/A016949/b016949.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016949 (MAGMA) [(6*n+3)^5: n in [0..50]]; // Vincenzo Librandi, May 05 2011
+%K A016949 nonn,easy
+%O A016949 0,1
+%A A016949 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

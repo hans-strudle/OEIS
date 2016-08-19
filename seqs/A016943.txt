@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016943
+Showing 1-1 of 1
+
+%I A016943
+%S A016943 2048,8589934592,4049565169664,204800000000000,3670344486987776,
+%T A016943 36028797018963968,238572050223552512,1196683881290399744,
+%U A016943 4882812500000000000,16985107389382393856,52036560683837093888
+%N A016943 (6n+2)^11.
+%C A016943 a(n)=A016787a(n)*2^11 [From _Zerinvary Lajos_, Jun 22 2009]
+%H A016943 Vincenzo Librandi, <a href="/A016943/b016943.txt">Table of n, a(n) for n = 0..2000</a>
+%o A016943 (MAGMA) [(6*n+2)^11: n in [0..25]]; // Vincenzo Librandi, May 05 2011
+%K A016943 nonn,easy
+%O A016943 0,1
+%A A016943 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

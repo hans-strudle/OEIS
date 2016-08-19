@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008253
+Showing 1-1 of 1
+
+%I A008253
+%S A008253 1,4,12,24,42,64,92,124,162,204,252,304,362,424,492,564,642,724,812,
+%T A008253 904,1002,1104,1212,1324,1442,1564,1692,1824,1962,2104,2252,2404,2562,
+%U A008253 2724,2892,3064,3242,3424,3612,3804,4002,4204,4412,4624,4842,5064,5292,5524
+%N A008253 Coordination sequence for diamond.
+%D A008253 Inorganic Crystal Structure Database: Collection Code 9327
+%H A008253 N. J. A. Sloane, <a href="/A008253/b008253.txt">Table of n, a(n) for n = 0..1000</a>
+%H A008253 J. H. Conway and N. J. A. Sloane, Low-Dimensional Lattices VII: Coordination Sequences, Proc. Royal Soc. London, A453 (1997), 2369-2389 (<a href="http://neilsloane.com/doc/ldl7.txt">Abstract</a>, <a href="http://neilsloane.com/doc/ldl7.pdf">pdf</a>, <a href="http://neilsloane.com/doc/ldl7.ps">ps</a>).
+%F A008253 a(2*m) = 10*m^2+2, a(2*m+1) = 10*m^2+10*m+4 (_N. J. A. Sloane_).
+%F A008253 Apart from first term, first differences of A007904(n). - _Alexander Adamchuk_, May 23 2006
+%F A008253 a(n) = 2* ( 2 + Sum[ Floor[(5k+3)/2], {k,1,n-1}] ). - _Alexander Adamchuk_, May 23 2006
+%p A008253 G.f.: (x^4+2*x^3+4*x^2+2*x+1)/((1-x)^3*(1+x)).
+%t A008253 For n>0 a(n)=Table[2(2+Sum[Floor[(5k+3)/2],{k,1,n-1}]),{n,1,50}] - _Alexander Adamchuk_, May 23 2006
+%Y A008253 Cf. A007904, A047209.
+%K A008253 nonn,easy
+%O A008253 0,2
+%A A008253 _N. J. A. Sloane_, R. W. Grosse-Kunstleve (rwgk(AT)cci.lbl.gov)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

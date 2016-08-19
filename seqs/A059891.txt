@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059891
+Showing 1-1 of 1
+
+%I A059891
+%S A059891 4,6,12,14,20,58,12,88,112,150,60,290,12,138,732,144,124,1088,60,670,
+%T A059891 740,570,28,13864,360,138,3968,1362,252,22058,124,320,1972,1146,732,
+%U A059891 10704,124,570,12260,15176,124,60470,28,11634,195728,282,508,116592,2032
+%N A059891 a(n) = |{m : multiplicative order of 9 mod m=n}|.
+%C A059891 The multiplicative order of a mod m, gcd(a,m)=1, is the smallest natural number d for which a^d = 1 (mod m). a(n) = number of orders of degree-n monic irreducible polynomials over GF(9).
+%F A059891 a(n) = Sum_{d|n} mu(n/d)*tau(9^d-1), (mu(n) = Moebius function A008683, tau(n) = number of divisors of n A000005).
+%p A059891 with(numtheory):
+%p A059891 a:= n-> add(mobius(n/d)*tau(9^d-1), d=divisors(n)):
+%p A059891 seq(a(n), n=1..40);  # _Alois P. Heinz_, Oct 12 2012
+%Y A059891 Cf. A000005, A008683, A027381, A053452, A058946, A059499, A059885-A059890, A059892.
+%Y A059891 Column k=9 of A212957. - _Alois P. Heinz_, Oct 12 2012
+%K A059891 easy,nonn
+%O A059891 1,1
+%A A059891 _Vladeta Jovovic_, Feb 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

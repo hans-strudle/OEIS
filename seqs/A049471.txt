@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049471
+Showing 1-1 of 1
+
+%I A049471
+%S A049471 1,5,5,7,4,0,7,7,2,4,6,5,4,9,0,2,2,3,0,5,0,6,9,7,4,8,0,7,4,5,8,3,6,0,
+%T A049471 1,7,3,0,8,7,2,5,0,7,7,2,3,8,1,5,2,0,0,3,8,3,8,3,9,4,6,6,0,5,6,9,8,8,
+%U A049471 6,1,3,9,7,1,5,1,7,2,7,2,8,9,5,5,5,0,9,9,9,6,5,2,0,2,2,4,2,9,8
+%N A049471 Decimal expansion of tan 1.
+%D A049471 Mohammad K. Azarian, Forty-Five Nested Equilateral Triangles and cosecant of 1 degree, Problem 813, College Mathematics Journal, Vol. 36, No. 5, November 2005, p. 413-414. Solution published in Vol. 37, No. 5, November 2006, pp. 394-395.
+%H A049471 Harry J. Smith, <a href="/A049471/b049471.txt">Table of n, a(n) for n = 1..20000</a>
+%e A049471 1.5574077246549022305...
+%o A049471 (PARI) { default(realprecision, 20080); x=tan(1); for (n=1, 20000, d=floor(x); x=(x-d)*10; write("b049471.txt", n, " ", d)); } \\ _Harry J. Smith_, Jun 13 2009
+%Y A049471 Cf. A093178 Continued fraction. A009001. - _Harry J. Smith_, Jun 13 2009
+%K A049471 cons,easy,nonn
+%O A049471 1,2
+%A A049471 Albert du Toit (dutwa(AT)intekom.co.za), _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

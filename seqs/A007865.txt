@@ -1,0 +1,41 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007865
+Showing 1-1 of 1
+
+%I A007865
+%S A007865 1,2,3,6,9,16,24,42,61,108,151,253,369,607,847,1400,1954,3139,4398,
+%T A007865 6976,9583,15456,20982,32816,45417,70109,94499,148234,200768,308213,
+%U A007865 415543,634270,849877,1311244,1739022,2630061,3540355,5344961,7051789,10747207,14158720,21295570,28188520
+%N A007865 Number of sum-free subsets of {1, ..., n}.
+%C A007865 More precisely, subsets of {1,...,n} containing no solutions of x+y=z.
+%C A007865 There are two proofs that a(n) is 2^{n/2}(1+o(1)), as Paul Erdős and I conjectured.
+%C A007865 In sumset notation, number of subsets A of {1,...,n} such that the intersection of A and 2A is empty. Using the Mathematica program, all such subsets can be printed. - _T. D. Noe_, Apr 20 2004
+%C A007865 The Sapozhenko paper has many additional references.
+%C A007865 The subsequence of primes begins: 2, 3, 61, 151, 607, 308213, 415543, no others through a(70). - _Jonathan Vos Post_, May 27 2010
+%D A007865 P. J. Cameron and P. Erdős, On the number of integers with various properties, in R. A. Mullin, ed., Number Theory: Proc. First Con. of Canad. Number Theory Assoc. Conf., Banff, De Gruyter, Berlin, 1990, pp. 61-79.
+%D A007865 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 180-183.
+%H A007865 Per Hakan Lundow, <a href="/A007865/b007865.txt">Table of n, a(n) for n = 0..70</a>
+%H A007865 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/cameron/sf/sf.html">Several Problems Concerning Sum-Free Sets</a>
+%H A007865 Ben Green and Imre Z. Ruzsa, <a href="http://arxiv.org/abs/math/0307142">Sum-free sets in abelian groups</a>, arXiv:math/0307142 [math.CO], 2004.
+%H A007865 A. A. Sapozhenko, <a href="http://dx.doi.org/10.1016/j.disc.2007.08.103">The Cameron-Erdos conjecture</a>, Discrete Math., 308 (2008), 4361-4369.
+%H A007865 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Sum-FreeSet.html">Sum-Free Set</a>
+%F A007865 a(n) = A050291(n)-A088810(n) = A085489(n)-A088811(n) = A050291(n)+A085489(n)-A088813(n). - _Reinhard Zumkeller_, Oct 19 2003
+%e A007865 {} has one sum-free subset, the empty set, so a(0)=1; {1} has two sum-free subsets, {} and {1}, so a(1)=2.
+%e A007865 a(2) = 3: 0,1,2.
+%e A007865 a(3) = 6: 0,1,2,3,13,23.
+%e A007865 a(4) = 9: 0,1,2,3,4,13,14,23,34.
+%p A007865 S3S:= {{}}: a[0]:= 1: for n from 1 to 35 do S3S:= S3S union map(t -> t union {n}, select(t -> (t intersect map(q -> n-q,t)={}),S3S)); a[n]:= nops(S3S) od: seq(a[n],n=0..35); # Code for computing (the number of) sum-free subsets of {1, ..., n} - _Robert Israel_
+%t A007865 SumFreeSet[ 0 ] = {{}}; SumFreeSet[ n_ ] := SumFreeSet[ n ] = Union[ SumFreeSet[ n - 1 ], Union[ #, {n} ] & /@ Select[ SumFreeSet[ n - 1 ], Intersection[ #, n - # ] == {} & ] ] As a check, enter Length /@ SumFreeSet /@ Range[ 0, 30 ] Alternatively, use NestList. n = 0; Length /@ NestList[ (++n; Union[ #, Union[ #, {n} ] & /@ Select[ #, Intersection[ #, n - # ] == {} & ] ]) &, {{}}, 30 ] (* from Paul Abbott, based on _Robert Israel_'s Maple code *)
+%t A007865 Timing[ n = 0; Last[ Reap[ Nest[ (++n; Sow[ Length[ # ] ]; Union[ #, Union[ #, {n} ]& /@ Select[ #, Intersection[ #, n - # ] == {} & ] ]) &, {{}}, 36 ] ] ] ] (* improved code from Paul Abbott, Nov 24 2005 *)
+%Y A007865 See A085489 for another version.
+%Y A007865 Cf. A211316, A211317, A093970, A093971 (number of sum-full subsets of 1..n).
+%K A007865 nonn,nice
+%O A007865 0,2
+%A A007865 _Peter J. Cameron_
+%E A007865 More terms from _John W. Layman_, Oct 21 2000
+%E A007865 Extended through 2630061 by _Robert Israel_, Nov 16 2005; two further terms from Alec Mihailovs (alec(AT)mihailovs.com) (using _Robert Israel_'s procedure), Nov 16 2005
+%E A007865 7051789 from _Eric W. Weisstein_, Nov 17 2005
+%E A007865 10747207, 14158720, 21295570, 28188520 from _Eric W. Weisstein_, Nov 28 2005, using Paul Abbott's Mathematica code
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

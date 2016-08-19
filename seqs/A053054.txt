@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053054
+Showing 1-1 of 1
+
+%I A053054
+%S A053054 2,32,235,7532,235711,101117532,235711101121,131121101117532,
+%T A053054 235711101121131151,181151131121101117532
+%N A053054 Append n-th palindromic prime to previous term, reverse alternate terms.
+%D A053054 Felice Russo, A set of new Smarandache functions, sequences and conjectures in number theory, American Research Press 2000
+%K A053054 easy,base,nonn,less
+%O A053054 1,1
+%A A053054 _Felice Russo_, Feb 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

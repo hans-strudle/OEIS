@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008478
+Showing 1-1 of 1
+
+%I A008478
+%S A008478 1,4,16,27,72,108,432,800,3125,6272,12500,21600,30375,50000,84375,
+%T A008478 121500,169344,225000,247808,337500,486000,750141,823543,1350000,
+%U A008478 1384448,3000564,3294172,6690816,12002256,13176688,19600000,22235661,37380096
+%N A008478 n = product p_j^k_j = product k_j^p_j.
+%o A008478 (PARI) for(n=2,10^8,if(n==prod(i=1,omega(n), component(component(factor(n),2),i)^component(component(factor(n),1),i)),print1(n,",")))
+%Y A008478 Cf. A008477.
+%K A008478 nonn
+%O A008478 1,2
+%A A008478 _Olivier Gérard_
+%E A008478 More terms from _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

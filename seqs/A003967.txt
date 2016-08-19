@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003967
+Showing 1-1 of 1
+
+%I A003967
+%S A003967 1,2,3,3,5,6,7,4,7,10,11,9,13,14,15,5,17,14,19,15,21,22,23,12,21,26,
+%T A003967 15,21,29,30,31,6,33,34,35,21,37,38,39,20,41,42,43,33,35,46,47,15,43,
+%U A003967 42,51,39,53,30,55,28,57,58,59,45,61,62,49,7,65,66,67,51,69,70,71,28,73
+%N A003967 Inverse Möbius transform of A003958.
+%F A003967 Multiplicative with a(p^e) = e+1 if p = 2; ((p-1)^(e+1)-1)/(p-2) if p > 2. - _David W. Wilson_, Sep 01 2001
+%K A003967 nonn,mult
+%O A003967 1,2
+%A A003967 _Marc LeBrun_
+%E A003967 More terms from _David W. Wilson_, Aug 29 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

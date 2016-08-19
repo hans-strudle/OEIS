@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056898
+Showing 1-1 of 1
+
+%I A056898
+%S A056898 1,0,0,1,0,1,0,3,2,1,0,1,0,3,2,1,0,1,0,3,4,1,0,7,2,9,2,1,0,1,0,3,2,3,
+%T A056898 6,1,0,3,2,1,0,1,0,3,4,1,0,5,2,3,4,1,0,5,2,9,2,1,0,1,0,3,2,3,6,1,0,9,
+%U A056898 2,1,0,1,0,3,2,5,6,1,0,3,4,1,0,5,2,9,4,1,0,7,4,3,2,3,6,1,0,3,2
+%N A056898 a(n) = smallest number m such that m^2+n is prime.
+%F A056898 a(n) = sqrt(A056896(n)-n) = sqrt(A056897(n)). For p a prime: a(p) = 0 (and a(p-1) = 1 if p<>3).
+%e A056898 a(8) = 3 since 3^2+8 = 17 which is prime
+%Y A056898 Cf. A000040, A002496, A056892-A056898.
+%K A056898 nonn
+%O A056898 1,8
+%A A056898 _Henry Bottomley_, Jul 05 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

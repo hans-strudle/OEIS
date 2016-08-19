@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014049
+Showing 1-1 of 1
+
+%I A014049
+%S A014049 1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,
+%T A014049 0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,
+%U A014049 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+%V A014049 1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0,0,0,0,0,0,0,0,
+%W A014049 0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0,
+%X A014049 0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
+%N A014049 Inverse of 40th cyclotomic polynomial.
+%H A014049 Vincenzo Librandi, <a href="/A014049/b014049.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014049 <a href="/index/Rec#order_16">Index entries for linear recurrences with constant coefficients</a>, signature (0, 0, 0, 1, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 0, -1).
+%p A014049 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014049 CoefficientList[Series[1/Cyclotomic[40, x], {x, 0, 100}], x] (* _Vincenzo Librandi_, Apr 04 2014 *)
+%t A014049 LinearRecurrence[{0, 0, 0, 1, 0, 0, 0, -1, 0, 0, 0, 1, 0, 0, 0, -1},{1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},81] (* _Ray Chandler_, Sep 15 2015 *)
+%o A014049 (PARI) Vec(1/polcyclo(40)+O(x^99)) \\ _Charles R Greathouse IV_, Apr 01 2014
+%K A014049 sign,easy
+%O A014049 0,1
+%A A014049 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

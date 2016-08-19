@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006779
+Showing 1-1 of 1
+
+%I A006779 M4121
+%S A006779 1,6,18,54,150,426,1158,3204,8682,23724,64194,174378,470856,1274430,
+%T A006779 3434826,9272346,24953004,67230288,180705126,486152604,1305430884
+%N A006779 Number of n-step spirals on cubic lattice.
+%D A006779 A. J. Guttmann and K. J. Wallace, On three-dimensional spiral anisotropic self-avoiding walks, J. Phys. A 18 (1985), L1049-L1054.
+%D A006779 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006779 G. Szekeres and A. J. Guttmann, Spiral self-avoiding walks on the triangular lattice, J. Phys. A 20 (1987), 481-493.
+%K A006779 nonn,walk
+%O A006779 0,2
+%A A006779 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

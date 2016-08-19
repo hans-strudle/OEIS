@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048545
+Showing 1-1 of 1
+
+%I A048545
+%S A048545 13,113,886,2861,9213,93855,298053,1359738,2967970,26189480,220183761,
+%T A048545 433461519,3462498821,28962801813,43462498821,722411301260
+%N A048545 a(n)*(a(n)+1) is smallest pronic number containing exactly n 8's.
+%H A048545 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PronicNumber.html">Pronic Number</a>
+%Y A048545 Cf. A048546, A002378.
+%K A048545 nonn,base,more
+%O A048545 1,1
+%A A048545 _Patrick De Geest_, May 15 1999.
+%E A048545 a(13)-a(16) from _Lars Blomberg_, Jun 10 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

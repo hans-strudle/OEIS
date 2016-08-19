@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017090
+Showing 1-1 of 1
+
+%I A017090
+%S A017090 4,100,324,676,1156,1764,2500,3364,4356,5476,6724,8100,9604,11236,
+%T A017090 12996,14884,16900,19044,21316,23716,26244,28900,31684,34596,37636,
+%U A017090 40804,44100,47524,51076,54756,58564
+%N A017090 (8*n+2)^2.
+%H A017090 Vincenzo Librandi, <a href="/A017090/b017090.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017090 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (3,-3,1).
+%o A017090 (MAGMA) [(8*n+2)^2: n in [0..35]]; // Vincenzo Librandi, Jul 12 2011
+%K A017090 nonn,easy
+%O A017090 0,1
+%A A017090 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

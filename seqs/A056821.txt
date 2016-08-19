@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056821
+Showing 1-1 of 1
+
+%I A056821
+%S A056821 1,6,22,36,104,382,712,1936,4320,6824,15012,46992,79344,183000,421008,
+%T A056821 480000,1453784,4658784,8877792,20958480,38887680,61284600,110250264,
+%U A056821 388201176,719023536,1734432480,2889658368,4745378304,10350643968
+%N A056821 Totient of the Woodall numbers (A003261), n*2^n -1.
+%C A056821 Table[EulerPhi[n*2^n - 1], {n, 1, 35}]
+%Y A056821 Cf. A003261.
+%K A056821 nonn
+%O A056821 1,2
+%A A056821 _Robert G. Wilson v_, Aug 31 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

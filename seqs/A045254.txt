@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045254
+Showing 1-1 of 1
+
+%I A045254
+%S A045254 249,549,609,621,749,999,1124,1149,1199,1224,1229,1239,1244,1245,1247,
+%T A045254 1248,1499,1799,1859,1871,2124,2424,2484,2496,2549,2609,2621,2649,
+%U A045254 2699,2724,2729,2739,2744,2745,2747,2748,2799,2859
+%N A045254 Numbers n with property that in base 5 representation the numbers of 1's and 4's are 1 and 3, respectively.
+%t A045254 Select[Range[3000],DigitCount[#,5,1]==1&&DigitCount[#,5,4]==3&] (* _Harvey P. Dale_, Oct 17 2013 *)
+%K A045254 nonn,base
+%O A045254 1,1
+%A A045254 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

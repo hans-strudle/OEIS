@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054573
+Showing 1-1 of 1
+
+%I A054573
+%S A054573 120,140,174,270,280,672,360,552,1002,1146,852,1180,1316,984,1575,924,
+%T A054573 1170,2024,1400,2016,2280,4278,3500,4648,3384,5775,5778,4512,6402,
+%U A054573 3360,4968,10712,5640,10840,12488,14384,14442,13984
+%N A054573 Larger members of g-reduced amicable pairs: the "b" term of a pair of numbers a,b such that sigma(a)=sigma(b)=a+b+GCD(a,b).
+%Y A054573 See A054572 for the "a" terms.
+%K A054573 nonn
+%O A054573 1,1
+%A A054573 _Yasutoshi Kohmoto_
+%E A054573 Corrected and extended by R. J. Mathar, Oct 19 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

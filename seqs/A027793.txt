@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027793
+Showing 1-1 of 1
+
+%I A027793
+%S A027793 56,588,3360,13860,46200,132132,336336,780780,1681680,3403400,6534528,
+%T A027793 11992344,21162960,36085560,59690400,96101544,151016712,232178100,
+%U A027793 349949600,518017500,754233480,1081620540,1529564400
+%N A027793 a(n) = 28*(n+1)*C(n+3,8)/3.
+%H A027793 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (10,-45,120,-210,252,-210,120,-45,10,-1)
+%F A027793 Number of 12-subsequences of [ 1, n ] with just 3 contiguous pairs; g.f. 28*(2+x)*x^5/(1-x)^10.
+%F A027793 a(n) = C(n+1, 6)*C(n+3, 3). - _Zerinvary Lajos_, May 13 2005, corrected by _R. J. Mathar_, Feb 10 2016
+%K A027793 nonn
+%O A027793 5,1
+%A A027793 thi ngoc dinh (via _R. K. Guy_)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

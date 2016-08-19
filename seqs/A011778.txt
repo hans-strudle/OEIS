@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011778
+Showing 1-1 of 1
+
+%I A011778
+%S A011778 2,6,12,24,36,40,45,48,60,72,80,90,120,144,180,240,360,480,630,672,
+%T A011778 720,1080,1120,1260,1344,1440,1890,2016,2160,2240,2520,2880,3024,3360,
+%U A011778 3780,4032,4320,5040,6048
+%N A011778 Numbers n where A011776(n) grows.
+%C A011778 Equivalently, 2 along with numbers A092427(n) where A092427(n) > A092427(n-1), for n > 0. - _Derek Orr_, Apr 16 2015
+%C A011778 Is 45 the only odd number in this sequence? - _Derek Orr_, Apr 16 2015
+%D A011778 Ivan Niven, Herbert S. Zuckerman and Hugh L. Montgomery, An Introduction to the Theory Of Numbers, Fifth Edition, Wiley NY 1991.
+%D A011778 J. Roberts, Lure of the Integers, Math. Assoc. America, 1992, p. 251.
+%H A011778 T. D. Noe, <a href="/A011778/b011778.txt">Table of n, a(n) for n=1..100</a>
+%H A011778 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A011778 a(n) = A061769(n)+1.
+%F A011778 a(n) = A092427(A061770(n)). - _Derek Orr_, Apr 16 2015
+%Y A011778 Cf. A011776, A011777, A133481, A092427.
+%K A011778 nonn,nice,easy
+%O A011778 1,1
+%A A011778 _Robert G. Wilson v_
+%E A011778 Corrected by _Vladeta Jovovic_, Dec 01 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

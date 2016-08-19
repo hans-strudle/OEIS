@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026553
+Showing 1-1 of 1
+
+%I A026553
+%S A026553 1,1,3,4,12,20,58,104,300,556,1608,3032,8806,16778,48924,93872,274644,
+%T A026553 529684,1553940,3008864,8846772,17184188,50618184,98577712,290817566,
+%U A026553 567591142,1676640462,3278348608,9694857750,18986482250
+%N A026553 a(n)=T(n,n), T given by A026552. Also a(n) = number of integer strings s(0),...,s(n) counted by T, such that s(n)=0.
+%K A026553 nonn
+%O A026553 0,3
+%A A026553 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

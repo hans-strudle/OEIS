@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059661
+Showing 1-1 of 1
+
+%I A059661
+%S A059661 2,3,7,23,31,4127,4159,20543,134238271,134238527,167792959,1241534783,
+%T A059661 3389018431,72108495167,72108503359,72108765503,
+%U A059661 2722258935367507707706996859526254457151
+%N A059661 Like A059459, but each term must be greater than the previous ones.
+%H A059661 N. J. A. Sloane, <a href="/transforms.txt">Maple implementations of XORnos and DIFF</a>
+%p A059661 flip_primes_asc_search := proc(a,upto_bit,upto_length) local i,n,t; if(nops(a) >= upto_length) then RETURN(a); fi; t := a[nops(a)]; for i from 0 to upto_bit do n := XORnos(t,(2^i)); if(isprime(n) and (n > t)) then print([op(a), n]); RETURN(flip_primes_asc_search([op(a), n],upto_bit,upto_length)); fi; od; RETURN([op(a),`and no more`]); end;
+%p A059661 E.g. call as: flip_primes_asc_search([2],512,21);
+%t A059661 uptobit = 512; uptolength = 17; Clear[f]; f[a_] := f[a] = Module[{n, i, t}, If[Length[a] >= uptolength, Return[a]]; t = a[[-1]]; For[i = 0, i <= uptobit, i++, n = BitXor[t, 2^i]; If[PrimeQ[n] && n > t, Return[f[Append[ a, n]]]]]]; A059661 = f[{2}] (* _Jean-François Alcover_, Mar 07 2016, adapted from Maple *)
+%K A059661 nonn,base
+%O A059661 1,1
+%A A059661 _Antti Karttunen_, Feb 03 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

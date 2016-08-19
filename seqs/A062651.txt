@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062651
+Showing 1-1 of 1
+
+%I A062651
+%S A062651 179,479
+%N A062651 Numbers n such that 85^n - 84^n is prime.
+%C A062651 Terms greater than 1000 are often only strong pseudoprimes.
+%C A062651 a(3) > 10^5. - _Robert Price_, Mar 26 2015
+%Y A062651 Cf. A000043, A057468, A059801, A059802, A062572-A062666.
+%K A062651 nonn,hard,bref
+%O A062651 1,1
+%A A062651 _Mike Oakes_, May 18 2001, May 19 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

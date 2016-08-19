@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045184
+Showing 1-1 of 1
+
+%I A045184
+%S A045184 125,375,500,626,628,629,630,640,645,650,700,725,750,1000,1125,1876,
+%T A045184 1878,1879,1880,1890,1895,1900,1950,1975,2000,2250,2375,2501,2503,
+%U A045184 2504,2505,2515,2520,2525,2575,2600,2625,2875,3000
+%N A045184 Numbers n with property that in base 5 representation the numbers of 0's and 2's are 3 and 0, respectively.
+%t A045184 okQ[n_]:=Module[{dc5=DigitCount[n,5]},dc5[[5]]==3&&dc5[[2]]==0]
+%t A045184 Select[Range[3000],okQ]  [From Harvey P. Dale, Dec. 23, 2010]
+%K A045184 nonn,base
+%O A045184 1,1
+%A A045184 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

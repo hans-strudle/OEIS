@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017003
+Showing 1-1 of 1
+
+%I A017003
+%S A017003 1,8589934592,8649755859375,584318301411328,12200509765705829,
+%T A017003 131621703842267136,929293739471222707,4882812500000000000,
+%U A017003 20635899893042801193,73786976294838206464,231122292121701565271
+%N A017003 (7*n+1)^11.
+%H A017003 Vincenzo Librandi, <a href="/A017003/b017003.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017003 (MAGMA) [(7*n+1)^11: n in [0..15]]; // Vincenzo Librandi, Jul 13 2011
+%K A017003 nonn,easy
+%O A017003 0,2
+%A A017003 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

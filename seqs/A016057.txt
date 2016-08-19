@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016057
+Showing 1-1 of 1
+
+%I A016057
+%S A016057 171,513,1539,3249,4617,9747,13203,13851,29241,39609,41553,61731,
+%T A016057 87723,97641,118827,124659,185193,250857,263169,292923,354537,356481,
+%U A016057 373977,555579,752571,789507,878769,1063611,1069443,1121931
+%N A016057 Pseudo-powers to base 3: n divides 2^n + 1, n not a power of 3.
+%t A016057 Do[ If[ PowerMod[ 2, n, n ] + 1 == n, If[ ! IntegerQ[ Log[ 3, n ] ], Print[ n ] ] ], {n, 1, 4* 10^6} ]
+%K A016057 nonn
+%O A016057 2,1
+%A A016057 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059583
+Showing 1-1 of 1
+
+%I A059583
+%S A059583 1,2,4,5,6,6,6,3,5,6,7,9,8,7,7,9,6,8,6,9,6,8,9,12,11,5,9,8,7,7,11,9,11
+%N A059583 Each c(i) is "multiply" (*) or "divide" (/); a(n) is number of choices for c(1),..,c(n) so that 1 c(1) 2 c(2) 3 c(3) 5,.., c(n) n-th prime is " remainder = 1 ".
+%C A059583 For n = 4 there are 5 possibilities: 1/2/3/5/7 1/2*3/5*7 1/2*3*5/7 1/2*3*5*7 1*2/3*5*7
+%K A059583 nonn
+%O A059583 1,2
+%A A059583 _Naohiro Nomoto_, Feb 17 2001
+%E A059583 More terms from _Sascha Kurz_, Oct 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

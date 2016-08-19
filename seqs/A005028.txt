@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005028
+Showing 1-1 of 1
+
+%I A005028 M1257
+%S A005028 1,2,4,12,33,102,312,1010
+%N A005028 Number of symmetric trivalent maps with n nodes.
+%D A005028 C. F. Earl and L. J. March, Architectural applications of graph theory, pp. 327-355 of R. J. Wilson and L. W. Beineke, editors, Applications of Graph Theory. Academic Press, NY, 1979.
+%D A005028 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A005028 Antidiagonal sums of the array in A169809.
+%K A005028 nonn
+%O A005028 3,2
+%A A005028 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

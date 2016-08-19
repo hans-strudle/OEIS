@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030216
+Showing 1-1 of 1
+
+%I A030216
+%S A030216 1,0,0,0,0,1,0,1,0,0,1,0,1,0,1,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,
+%T A030216 1,0,0,2,0,0,0,1,1,0,1,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,
+%U A030216 0,0,0,0,1,0,0,1,0,0,0,2,1,0,0,0,0,0
+%V A030216 1,0,0,0,0,-1,0,-1,0,0,-1,0,1,0,-1,0,0,1,0,1,0,0,0,0,1,1,0,0,0,0,0,0,
+%W A030216 -1,0,0,2,0,0,0,-1,-1,0,-1,0,0,-1,0,0,0,0,0,0,0,0,-1,0,0,0,0,-1,0,0,0,
+%X A030216 0,0,0,0,1,0,0,1,0,0,0,2,-1,0,0,0,0,0
+%N A030216 Expansion of eta(q^10)*eta(q^14).
+%D A030216 M. Koike, On McKay's conjecture, Nagoya Math. J., 95 (1984), 85-89.
+%K A030216 sign
+%O A030216 0,36
+%A A030216 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033263
+Showing 1-1 of 1
+
+%I A033263
+%S A033263 2,5,11,19,1801,2080,6561,7689,11311,12438,24709,63578
+%N A033263 Positions of the incrementally largest terms in the continued fraction for Laplace's limit constant.
+%D A033263 S. R. Finch, Mathematical Constants, Cambridge, 2003, pp. 266-268.
+%H A033263 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/constant/lpc/lpc.html">Laplace Limit Constant</a>
+%H A033263 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/LaplaceLimit.html">Laplace Limit.</a>
+%Y A033263 Cf. A033259, A033260, A033261, A033262.
+%K A033263 nonn,cofr,more
+%O A033263 1,1
+%A A033263 _Eric W. Weisstein_
+%E A033263 More terms from Michel ten Voorde (seqfan(AT)tenvoorde.org) Jun 20 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

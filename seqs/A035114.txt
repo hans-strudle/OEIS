@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035114
+Showing 1-1 of 1
+
+%I A035114
+%S A035114 1,2,2,4,4,4,6,6,8,8,8,8,10,12,12,12,12,16,16,16,16,16,18,18,20,20,20,
+%T A035114 22,24,24,24,24,24,24,24,28,30,32,32,32,32,32,36,36,36,36,40,40,40,40,
+%U A035114 40,42,42,44,44,46,48,52,54,56,58,60,60,60,60,64,66,70,72,72,72,78,82
+%N A035114 Values of phi(n) corresponding to A035113.
+%D A035114 L. C. Washington, Introduction to Cyclotomic Fields, Springer, p. 353.
+%e A035114 phi(1)=1, phi(3)=2, phi(4)=2, phi(5)=4,...
+%Y A035114 Cf. A000010, A035113.
+%K A035114 nonn,easy
+%O A035114 1,2
+%A A035114 _N. J. A. Sloane_.
+%E A035114 More terms from _James A. Sellers_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051575
+Showing 1-1 of 1
+
+%I A051575
+%S A051575 1,1,2,10,70,210,4620,60060,60060,1021020,19399380,19399380,446185740,
+%T A051575 2230928700,13385572200,388181593800,12033629407800,12033629407800,
+%U A051575 12033629407800,445244288088600,445244288088600,18255015811632600
+%N A051575 a(n) = LCM { Catalan(0), ..., Catalan(n) }.
+%H A051575 G. C. Greubel, <a href="/A051575/b051575.txt">Table of n, a(n) for n = 0..400</a>
+%t A051575 LCM@@@CatalanNumber@Range[0, Range[0, 20]] (* _Vladimir Reshetnikov_, Nov 17 2015 *)
+%Y A051575 Cf. A000108.
+%K A051575 nonn
+%O A051575 0,3
+%A A051575 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

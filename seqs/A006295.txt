@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006295
+Showing 1-1 of 1
+
+%I A006295 M4739
+%S A006295 10,167,1720,14065,100156,649950,3944928,22764165,126264820,678405090,
+%T A006295 3550829360,18182708362,91392185080,452077562620,2205359390592,
+%U A006295 10627956019245,50668344988068,239250231713210,1120028580999440,5202779260636958,23998704563581000,109991785264412452,501177338394193600,2271383798432172450,10243348296746854536,45984242301056376660,205559341637958057568,915285296612144724660,4060537494602836978160,17952439453856255549176,79117286081659327659520
+%N A006295 Number of genus 1 rooted maps with 2 faces with n vertices
+%D A006295 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006295 T. R. S. Walsh, Combinatorial Enumeration of Non-Planar Maps. Ph.D. Dissertation, Univ. of Toronto, 1971.
+%H A006295 W. T. Tutte, <a href="http://dx.doi.org/10.1090/S0002-9904-1968-11877-4">On the enumeration of planar maps</a>, Bull. Amer. Math. Soc. 74 1968 64-74.
+%H A006295 T. R. S. Walsh and A. B. Lehman, <a href="http://dx.doi.org/10.1016/0095-8956(72)90056-1">Counting rooted maps by genus</a>, J. Comb. Thy B13 (1972), 122-141 and 192-218.
+%F A006295 G.f.: x(1-sqrt(1-4*x))(11+12*x+9*sqrt(1-4*x))/(4(4*x-1)^4).
+%K A006295 nonn
+%O A006295 3,1
+%A A006295 _N. J. A. Sloane_.
+%E A006295 More terms and g.f. from _Sean A. Irvine_, Nov 14 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

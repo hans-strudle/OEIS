@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006967
+Showing 1-1 of 1
+
+%I A006967 M3229
+%S A006967 1,2,4,4,8,24,32,40,120,296,648,1328,3200,9912,25592,55920,143192,
+%T A006967 510696,1451296,3497344,10451824,38570704,118914992,315235872,
+%U A006967 1014824752,3963684496,13166130152,37846301904,130507967088
+%N A006967 Number of graceful permutations of length n.
+%C A006967 n! - A084894(n). - Jon Perry, Jun 10 2003
+%D A006967 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006967 H. S. Wilf and N. Yoshimura, Ranking rooted trees and a graceful application, in Discrete Algorithms and Complexity (Proceedings of the Japan-US joint seminar, 1986, Kyoto, Japan), edited by D. Johnson, T. Nishizeki, A. Nozaki and H. S. Wilf, Academic Press, NY, 1987, pp. 341-350.
+%D A006967 J. Wodlinger, COSTAS ARRAYS, GOLOMB RULERS AND WAVELENGTH ISOLATION SEQUENCE PAIRS, M.S. Dissertation, Math. Dept., Simon Fraser University, Spring 2012; http://people.math.sfu.ca/~jed/Papers/Jane%20Wodlinger.%20Master's%20Thesis.%202012.pdf.-From _N. J. A. Sloane_, Oct 15 2012
+%H A006967 Michal Adamaszek (aszek(AT)mimuw.edu.pl), Aug 22 2006, <a href="/A006967/b006967.txt">Table of n, a(n) for n = 1..40</a>
+%H A006967 M. Adamaszek, <a href="http://arXiv.org/abs/math.CO/0608513">Efficient enumeration of graceful permutations</a>
+%H A006967 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/GracefulPermutation.html">Graceful Permutation</a>
+%K A006967 nonn,nice,hard
+%O A006967 1,2
+%A A006967 _N. J. A. Sloane_.
+%E A006967 n=2 term corrected 6/96. a(11)-a(20) from Robert Aldred and _Brendan McKay_.
+%E A006967 More terms from Michal Adamaszek (aszek(AT)mimuw.edu.pl), Aug 22 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

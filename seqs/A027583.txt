@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027583
+Showing 1-1 of 1
+
+%I A027583
+%S A027583 1,1,1,2,2,3,3,4,5,6,7,9,10,11,13,16,18
+%N A027583 Sequence satisfies T(a)=a, where T is defined below.
+%D A027583 S. Viswanath (student, Dept. Math, Indian Inst. Technology, Kanpur) A Note on Partition Eigensequences, preprint, Nov 15 1996.
+%H A027583 M. Bernstein and N. J. A. Sloane, <a href="http://arXiv.org/abs/math.CO/0205301">Some canonical sequences of integers</a>, Linear Alg. Applications, 226-228 (1995), 57-72; erratum 320 (2000), 210.
+%F A027583 Define T:a->b by: given a1<=a2<=..., remove duplicates, keep only numbers = +-1 mod 5, getting c1<c2<...; define b1, b2, ... by 1+Sum bi*x^i = Product 1/(1-x^ci).
+%K A027583 nonn,more,eigen
+%O A027583 0,4
+%A A027583 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027282
+Showing 1-1 of 1
+
+%I A027282
+%S A027282 1,2,8,40,222,1296,7770,47324,291260,1806220,11266718,70609316,
+%T A027282 444231564,2803975860,17748069294,112609964308,716010467122
+%N A027282 a(n) = self-convolution of row n of array T given by A026584.
+%C A027282 Bisection of A026585.
+%K A027282 nonn
+%O A027282 0,2
+%A A027282 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

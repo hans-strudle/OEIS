@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017194
+Showing 1-1 of 1
+
+%I A017194
+%S A017194 1024,25937424601,10240000000000,420707233300201,6278211847988224,
+%T A017194 52599132235830049,303305489096114176,1346274334462890625,
+%U A017194 4923990397355877376,15516041187205853449,43438845422363213824
+%N A017194 (9*n+2)^10.
+%H A017194 Vincenzo Librandi, <a href="/A017194/b017194.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017194 (MAGMA) [(9*n+2)^10: n in [0..15]]; // Vincenzo Librandi, Jul 23 2011
+%K A017194 nonn,easy
+%O A017194 0,1
+%A A017194 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

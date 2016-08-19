@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032557
+Showing 1-1 of 1
+
+%I A032557
+%S A032557 1,2,3,4,5,6,7,8,9,1557,1560,1614,23845695,35999937,48674232,
+%T A032557 209663697,209663703,647731785,761783484,1259500136,2625469053,
+%U A032557 3890642833,12595001360,13126445350,26254690530,38906428330,176590016643
+%N A032557 Base 13 value of decimal denominator divided by this decimal value (n) is an integer.
+%Y A032557 Cf. A032558. See also A032563 for explanation.
+%K A032557 nonn,base
+%O A032557 0,2
+%A A032557 _Patrick De Geest_, april 1998.
+%E A032557 More terms from Larry Reeves (larryr(AT)acm.org), Oct 02 2000 and Mar 21 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

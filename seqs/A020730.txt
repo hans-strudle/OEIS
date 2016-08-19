@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020730
+Showing 1-1 of 1
+
+%I A020730
+%S A020730 3,7,17,42,104,258,641,1593,3959,9840,24458,60793,151108,375597,
+%T A020730 933592,2320557,5768028,14337139,35636713,88579410,220174961,
+%U A020730 547271804,1360311028,3381219496,8404434755,20890250880,51925274519,129066622961,320810882887
+%N A020730 Pisot sequence L(3,7).
+%C A020730 Coincides with the Shallit (generalized Pisot) sequence S(3,7) - as defined in A022020 - at least up to n=30000. - _R. J. Mathar_, Feb 12 2016
+%H A020730 <a href="/index/Ph#Pisot">Index entries for Pisot sequences</a>
+%Y A020730 See A008776 for definitions of Pisot sequences.
+%K A020730 nonn
+%O A020730 0,1
+%A A020730 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

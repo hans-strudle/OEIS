@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061584
+Showing 1-1 of 1
+
+%I A061584
+%S A061584 1,6,36,1836,6481836,3624486481836,1836122424483624486481836,
+%T A061584 64818366121224122424481836122424483624486481836,
+%U A061584 362448648183636612612122461212241224244864818366121224122424481836122424483624486481836
+%N A061584 a(1) = 1, a(n)= number obtained by replacing each digit of a(n-1) by six times its value.
+%C A061584 a(n) contains all of a(n-1) as its least significant digits.
+%Y A061584 Cf. A061581-A061587, A061533.
+%K A061584 nonn,base,easy
+%O A061584 1,2
+%A A061584 _Amarnath Murthy_, May 13 2001
+%E A061584 More terms from Larry Reeves (larryr(AT)acm.org) and Asher Natan Auel (auela(AT)reed.edu), May 15 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

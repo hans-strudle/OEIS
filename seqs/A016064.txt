@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016064
+Showing 1-1 of 1
+
+%I A016064
+%S A016064 1,3,13,51,193,723,2701,10083,37633,140451,524173,1956243,7300801,
+%T A016064 27246963,101687053,379501251,1416317953,5285770563,19726764301,
+%U A016064 73621286643,274758382273,1025412242451,3826890587533,14282150107683,53301709843201,198924689265123
+%N A016064 Shortest legs of Heronian triangles (sides are consecutive integers, area is an integer).
+%C A016064 Least side in (m,m+1,m+2) integer-sided triangle with integer area.
+%C A016064 Also describes triangles whose sides are consecutive integers and in which an inscribed circle has an integer radius - _Harvey P. Dale_, Dec 28 2000
+%C A016064 Equivalently, positive integers m such that (3/16)*m^4 + (3/4)*m^3 + (3/8)*m^2 - (3/4)*m - 9/16 is a square (A000290), a direct result of Heron's formula. - _Rick L. Shepherd_, Sep 04 2005
+%C A016064 "The problem is to find the sides of a triangle that shall have the values n, n+1, and n+2 and such that the perpendicular upon the longest side from the opposite vertex shall be rational. Nakane solves it as follows..." (Smith and Mikami, 2004) - _Jonathan Sondow_, May 09 2013
+%D A016064 Nakane Genkei (Nakane the Elder), Shichijo Beki Yenshiki, 1691.
+%H A016064 David Eugene Smith and Yoshio Mikami, <a href="http://books.google.com/books?id=J1YNAAAAYAAJ&amp;pg=PA168&amp;lpg=PA168&amp;dq=%22nakane+solves+it%22&amp;source=bl&amp;ots=SXl7poRJQr&amp;sig=-PH4VG63ZAPk-YXus2EjEE5TeS0&amp;hl=en&amp;sa=X&amp;ei=yqSLUfHtA67b4AO42oC4Cg&amp;ved=0CBgQ6AEwAA#v=onepage&amp;q=%22nakane%20solves%20it%22&amp;f=false"> A history of Japanese mathematics</a>, Dover, 2004, p. 168.
+%H A016064 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (5,-5,1).
+%F A016064 a(n) = 3 + floor((2+sqrt(3))*a(n-1)), n>=3. - _Rick L. Shepherd_, Sep 04 2005
+%F A016064 a(n) = 4*a(n-1) - a(n-2) + 2. a(n) = (2+sqrt(3))^n+(2-sqrt(3))^n-1. - _Paul Barry_, Feb 17 2004
+%F A016064 For n>=1, a(n) = ceil((2+sqrt(3))^n)-1.
+%F A016064 a(n) = 2*A001075(n)-1. - _Paul Barry_, Feb 17 2004
+%F A016064 a(n) = A003500(n)-1. - _T. D. Noe_, Jun 17 2004
+%F A016064 G.f.: (1-2x+3x^3)/((1-x)(1-4x+x^2))=(1-2x+3x^2)/(1-5x+5x^2-x^3); - _Paul Barry_, Feb 17 2004
+%F A016064 a(n) = [x^n] ( 1 + 2*x + sqrt(1 + 2*x + 3*x^2) )^n. - _Peter Bala_, Jun 23 2015
+%t A016064 LinearRecurrence[{5,-5,1},{1,3,13},26] (* _Ray Chandler_, Jan 27 2014 *)
+%o A016064 (PARI) for(a=1,10^9, b=a+1; c=a+2; s=(a+b+c)/2; if(issquare(s*(s-a)*(s-b)*(s-c)), print1(a,","))) (Shepherd)
+%o A016064 (PARI) a(n)=if(n<1,1,-1+ceil((2+sqrt(3))^(n))) \\ _Ralf Stephan_
+%o A016064 (PARI) is(n)=issquare(3*n^2+6*n-9) \\ _Charles R Greathouse IV_, May 16 2014
+%Y A016064 Corresponding areas are in A011945.
+%Y A016064 Cf. A001353, A019973 (2+sqrt(3)), A102341, A103974, A103975.
+%K A016064 nonn,easy
+%O A016064 0,2
+%A A016064 _Robert G. Wilson v_
+%E A016064 More terms from _Rick L. Shepherd_, Feb 18 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010198
+Showing 1-1 of 1
+
+%I A010198
+%S A010198 11,1,3,1,3,7,1,1,2,11,2,1,1,7,3,1,3,1,22,1,3,1,3,7,1,1,2,11,2,1,1,7,
+%T A010198 3,1,3,1,22,1,3,1,3,7,1,1,2,11,2,1,1,7,3,1,3,1,22,1,3,1,3,7,1,1,2,11,
+%U A010198 2,1,1,7,3,1,3,1,22,1,3,1,3,7
+%N A010198 Continued fraction for sqrt(139).
+%H A010198 G. Xiao, <a href="http://wims.unice.fr/~wims/en_tool~number~contfrac.en.html">Contfrac</a>
+%H A010198 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%t A010198 ContinuedFraction[Sqrt[139],300] (* _Vladimir Joseph Stephan Orlovsky_, Mar 13 2011*)
+%K A010198 nonn,cofr
+%O A010198 0,1
+%A A010198 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

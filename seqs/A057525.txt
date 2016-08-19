@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057525
+Showing 1-1 of 1
+
+%I A057525
+%S A057525 1,1,2,2,2,2,3,2,3,2,3,3,3,3,4,3,3,3,4,3,3,3,4,3,4,3,4,4,4,4,5,3,4,3,
+%T A057525 4,4,4,4,5,3,4,3,4,4,4,4,5,4,4,4,5,4,4,4,5,4,5,4,5,5,5,5,6,4,4,4,5,4,
+%U A057525 4,4,5,4,5,4,5,5,5,5,6,4,4,4,5,4,4,4,5,4,5,4
+%N A057525 Number of applications of f to reduce n to 1, where f(k) is the integer among k/2,(k+1)/4, (k+3)/4.
+%e A057525 a(11)=3, which counts these reductions: 11->4->2->1.
+%K A057525 nonn
+%O A057525 2,3
+%A A057525 _Clark Kimberling_, Sep 03 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036971
+Showing 1-1 of 1
+
+%I A036971
+%S A036971 3,4,5,7,9,14,17,21,25,26,65,98,175,191,382,497,653,1577,1942,1958,
+%T A036971 2405,4246,4878,5367,9142,9318
+%N A036971 n-th Fibonacci number reversed is prime.
+%t A036971 a = Table[FromDigits[Reverse[IntegerDigits[Fibonacci[j]]]], {j, 10000}]; b = Select[a, PrimeQ[ # ] &]; Flatten[Table[Position[a, b[[i]]], {i, 1, Length[b]}]]
+%t A036971 Select[Range[9400],PrimeQ[IntegerReverse[Fibonacci[#]]]&] (* The program uses the IntegerReverse function from Mathematica version 10 *) (* _Harvey P. Dale_, Dec 08 2015 *)
+%Y A036971 Cf. A036797, A036972.
+%K A036971 nonn,base
+%O A036971 1,1
+%A A036971 _G. L. Honaker, Jr._, _Carlos Rivera_
+%E A036971 2 more terms from Vit Planocka (planocka(AT)mistral.cz), Feb 25 2003
+%E A036971 Offset corrected by _Arkadiusz Wesolowski_, Jan 12 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

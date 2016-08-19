@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056511
+Showing 1-1 of 1
+
+%I A056511
+%S A056511 0,0,0,0,0,0,0,1,1,10,15,85,140,618,1050,4065
+%N A056511 Number of periodic palindromic structures using exactly five different symbols.
+%D A056511 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%F A056511 A056506(n)-A056505(n).
+%e A056511 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome. Permuting the symbols will not change the structure.
+%Y A056511 Cf. A056474.
+%K A056511 nonn
+%O A056511 1,10
+%A A056511 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

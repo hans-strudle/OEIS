@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051584
+Showing 1-1 of 1
+
+%I A051584
+%S A051584 0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,
+%T A051584 0,2,0,0,0,0,0,1,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,4,0,0,0,0,0,1,0,0,
+%U A051584 0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0
+%N A051584 Number of integer-sided triangles of area n.
+%C A051584 If integer-sided triangle has integer area, area is divisible by 6.
+%Y A051584 Cf. A051585, A051586.
+%K A051584 nonn
+%O A051584 1,12
+%A A051584 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

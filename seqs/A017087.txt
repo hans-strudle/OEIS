@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017087
+Showing 1-1 of 1
+
+%I A017087
+%S A017087 1,31381059609,34271896307633,2384185791015625,50542106513726817,
+%T A017087 550329031716248441,3909821048582988049,20635899893042801193,
+%U A017087 87507831740087890625,313726685568359708377,984770902183611232881
+%N A017087 (8*n+1)^11.
+%H A017087 Vincenzo Librandi, <a href="/A017087/b017087.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017087 (MAGMA) [(8*n+1)^11: n in [0..20]]; // Vincenzo Librandi, Jul 11 2011
+%o A017087 (PARI) a(n)=(8*n+1)^11 \\ _Charles R Greathouse IV_, Aug 11 2014
+%K A017087 nonn,easy
+%O A017087 0,2
+%A A017087 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

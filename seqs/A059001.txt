@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059001
+Showing 1-1 of 1
+
+%I A059001
+%S A059001 61277761,10278214831,424176600403,526098190537,526515941773,
+%T A059001 5260934114929,9481530370051,40512620860813,46882459723321,
+%U A059001 108153140207347,489332144054323,526046241813643,1619463705594643
+%N A059001 Primes whose reversal is a sixth power.
+%t A059001 Do[ If[ PrimeQ[ n ] && IntegerQ[ ToExpression[ StringReverse[ ToString[ n ] ] ]^(1/6) ], Print[ n ] ], {n, 1, 10^18} ]
+%Y A059001 Cf. A007488.
+%K A059001 nonn,base
+%O A059001 1,1
+%A A059001 _Robert G. Wilson v_, Jan 16 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

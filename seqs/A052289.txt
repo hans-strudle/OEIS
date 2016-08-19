@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052289
+Showing 1-1 of 1
+
+%I A052289
+%S A052289 2,4,12,18,36
+%N A052289 Numbers n such that n!*2^n+n+1 = A000165(n)+n+1 is prime.
+%C A052289 For comparison A000165(n)+1 is composite for all n below 200 except n=1
+%e A052289 n=4, 2^4*4!+4+1 = 389 is prime
+%Y A052289 A000165, A052290.
+%K A052289 nonn
+%O A052289 1,1
+%A A052289 _Labos Elemer_, Feb 08 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

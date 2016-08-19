@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026160
+Showing 1-1 of 1
+
+%I A026160
+%S A026160 1,3,16,84,459,2552,14377,81768,468468,2699596,15630384,90853864,
+%T A026160 529850815,3098789865,18167417169,106738859744,628304239266,
+%U A026160 3704621197662,21875951368671,129352256646948
+%N A026160 a(n) = T(2n,n-1), where T is the array in A026148.
+%K A026160 nonn
+%O A026160 1,2
+%A A026160 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

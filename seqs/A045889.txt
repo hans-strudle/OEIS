@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045889
+Showing 1-1 of 1
+
+%I A045889
+%S A045889 1,7,30,102,303,825,2116,5200,12381,28779,65658,147594,327835,721069,
+%T A045889 1573056,3408084,7340265,15728895,33554710,71303470,150995271,
+%U A045889 318767457,671089020,1409286552,2952790453,6174015955,12884902386
+%N A045889 Partial sums of A045618.
+%F A045889 a(n) = (n^2+11*n+34)/2+(n-2)*2^(n+3); G.f.: 1/((1-2*x)^2*(1-x)^3).
+%t A045889 Table[Sum[(-1)^(n - k) k (-1)^(n - k) Binomial[n + 3, k + 3], {k, 0, n}], {n, 1, 27}] [From _Zerinvary Lajos_, Jul 08 2009]
+%K A045889 easy,nonn
+%O A045889 0,2
+%A A045889 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

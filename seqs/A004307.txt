@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004307
+Showing 1-1 of 1
+
+%I A004307 M2154
+%S A004307 0,1,2,31,264,2783,30818,369321,4745952,65275999,957874226,
+%T A004307 14951584189,247524019720,4334022049377,80052395326514,
+%U A004307 1555999253409203,31755107852542144,679008663143893773,15182701602959054546,354364531995856105099,8618865446674052425224
+%N A004307 Hit polynomials.
+%D A004307 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A004307 Earl Glen Whitehead, Jr., Four-discordant permutations, J. Austral. Math. Soc. Ser. A 28 (1979), no. 3, 369-377.
+%H A004307 Alois P. Heinz, <a href="/A004307/b004307.txt">Table of n, a(n) for n = 4..400</a>
+%H A004307 D. Zeilberger, <a href="http://www.math.rutgers.edu/~zeilberg/mamarim/mamarimhtml/menages.html">Automatic Enumeration of Generalized Ménage Numbers</a>
+%H A004307 D. Zeilberger, <a href="http://arxiv.org/abs/1401.1089">Automatic Enumeration of Generalized Menage Numbers</a>, arXiv preprint arXiv:1401.1089, 2014
+%F A004307 a(n) ~ exp(-4) * n!. - _Vaclav Kotesovec_, Sep 13 2014
+%Y A004307 A diagonal of A008305.
+%K A004307 nonn
+%O A004307 4,3
+%A A004307 _N. J. A. Sloane_.
+%E A004307 More terms from _Vladeta Jovovic_, Oct 02 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

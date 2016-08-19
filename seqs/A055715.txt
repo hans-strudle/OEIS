@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055715
+Showing 1-1 of 1
+
+%I A055715
+%S A055715 1,6,28,120,402,496,644,672,920,1366,1608,1932,2680,2760,3417,3966,
+%T A055715 4098,4623,4975,5152,6210,6834,8040,8128,8280,9246,9528,9950,12294,
+%U A055715 13668,15008,15456,15864,16392,18492,19900,20244,24276,30108,37596
+%N A055715 Numbers n such that n | sigma_11(n).
+%C A055715 sigma_11(n) is the sum of the 11th powers of the divisors of n (A013959).
+%p A055715 with(numtheory);
+%p A055715 A055715:=proc(q)
+%p A055715 local a,i,n;
+%p A055715 for n from 1 to q do
+%p A055715   a:=divisors(n); if frac(add(a[i]^11,i=1..nops(a))/n)=0 then print(n);
+%p A055715 fi; od; end:
+%p A055715 A055715(100000);  # _Paolo P. Lava_, Dec 07 2012
+%t A055715 Do[If[Mod[DivisorSigma[11, n], n]==0, Print[n]], {n, 1, 40000}]
+%K A055715 nonn
+%O A055715 1,2
+%A A055715 _Robert G. Wilson v_, Jun 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061853
+Showing 1-1 of 1
+
+%I A061853
+%S A061853 0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,
+%T A061853 0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,
+%U A061853 0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+%N A061853 Difference between smallest number coprime to n and smallest non-divisor of n.
+%C A061853 a(12m+6) is always positive since it involves subtracting 4 from a larger number; the first case where a term not of this form is positive is a(420).
+%F A061853 a(n) =A053669(n)-A007978(n).
+%e A061853 a(29)=2-2=0; a(30)=7-4=3; a(420)=11-8=3.
+%K A061853 nonn
+%O A061853 1,30
+%A A061853 _Henry Bottomley_, May 10 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045497
+Showing 1-1 of 1
+
+%I A045497
+%S A045497 1,2,4,1,25,25,64,289,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%T A045497 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+%U A045497 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+%N A045497 Packing density for n balls in complex projective plane using Fubini-Study metric (denominators).
+%H A045497 D. McDuff, <a href="http://www.ams.org/notices/199808/mcduff.pdf">Symplectic Structures--A New Approach to Geometry</a>, Notices Amer. Math. Soc. 45(8) (1998), pp. 952-960.
+%Y A045497 Cf. A045496, A030043.
+%K A045497 nonn,easy,frac
+%O A045497 1,2
+%A A045497 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

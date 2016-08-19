@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056156
+Showing 1-1 of 1
+
+%I A056156
+%S A056156 1,2,3,7,12,32,67,181,458,1295,3642,10975,33448,106424,345964,1159489,
+%T A056156 3975367,13977808,50238606,184629655,692757132,2652892219,10359676617,
+%U A056156 41233344350,167171988557,690054189750,2898637406813,12385234548345
+%N A056156 Number of connected bipartite graphs with n edges, no isolated vertices and a distinguished bipartite block, up to isomorphism.
+%C A056156 EULERi transform of A049311.
+%H A056156 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%K A056156 nonn
+%O A056156 1,2
+%A A056156 _Vladeta Jovovic_, Jul 30 2000
+%E A056156 More terms from _Max Alekseyev_, Jul 22 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

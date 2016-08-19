@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005308
+Showing 1-1 of 1
+
+%I A005308 M0310
+%S A005308 1,0,0,0,1,1,2,2,4,4,7,8,14,16,25,31,47,58,85,107,153,195,271,348,480,
+%T A005308 616,834,1077,1445,1863,2478,3194,4216,5431,7118,9157,11942,15329,
+%U A005308 19884,25485,32916,42090,54147,69093,88563,112769,144056,183028,233112,295525
+%N A005308 Bosonic string states.
+%C A005308 See the reference for precise definition.
+%D A005308 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005308 T. Curtright, <a href="http://inspirehep.net/record/234762/files/CountingStringStates.pdf">Counting symmetry patterns in the spectra of strings</a>, in H. J. de Vega and N. Sánchez, editors, String Theory, Quantum Cosmology and Quantum Gravity. Integrable and Conformal Invariant Theories. World Scientific, Singapore, 1987, pp. 304-333.
+%H A005308 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005308 Plouffe, Simon, <a href="http://arxiv.org/abs/0911.4975">Master's Thesis, copy at the arXiv site</a>
+%F A005308 G.f.: Product (1 - x^k)^{-c(k)}; c(k) = 0, 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, ....
+%F A005308 Euler transform gives sequence with g.f. = x^3/((x+1)*(x-1)^2), _Simon Plouffe_, Master's Thesis, UQAM 1992.
+%K A005308 nonn
+%O A005308 1,7
+%A A005308 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

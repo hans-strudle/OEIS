@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010860
+Showing 1-1 of 1
+
+%I A010860
+%S A010860 21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+%T A010860 21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,21,
+%U A010860 21,21,21,21,21,21,21,21
+%N A010860 Constant sequence: a(n) = 21.
+%C A010860 A141722(n+1)-4*A141722(n). A141722=10*A000975(2n)+A000975(2n+1)= 1, 25 121 . [From _Paul Curtz_, Sep 17 2008]
+%H A010860 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%H A010860 <a href="/index/Di#divseq">Index to divisibility sequences</a>
+%H A010860 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1).
+%F A010860 G.f.: 21/(1-x); e.g.f.: 21*e^x. - Vincenzo Librandi, Jan 24 2012
+%K A010860 nonn,easy
+%O A010860 0,1
+%A A010860 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

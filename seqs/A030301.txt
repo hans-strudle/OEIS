@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030301
+Showing 1-1 of 1
+
+%I A030301
+%S A030301 0,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,
+%T A030301 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,
+%U A030301 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A030301 n-th run has length 2^(n-1).
+%F A030301 a(n) = 0 iff n has an odd number of digits in binary, = 1 otherwise. - _Henry Bottomley_, Apr 06 2000
+%F A030301 a(n) = (1/2)*{1-(-1)^floor(log(n)/log(2))}. - _Benoit Cloitre_, Nov 22 2001
+%F A030301 a(n) = 1-a(floor(n/2)). - _Vladeta Jovovic_, Aug 04 2003
+%o A030301 (PARI) a(n)=if(n<1,0,1-length(binary(n))%2)
+%o A030301 (PARI) a(n)=if(n<1,0,if(n%2==0,-a(n/2)+1,-a((n-1)/2)+1-(((n-1)/2)==0))) /* _Ralf Stephan_ */
+%o A030301 (MAGMA) [Floor(Log(n)/Log(2)) mod 2: n in [1..100]]; // _Vincenzo Librandi_, Jun 23 2015
+%Y A030301 a(n) = A000523(n) mod 2 = (A029837(n+1)+1) mod 2.
+%Y A030301 Cf. A030300. Partial sums give A079954.
+%K A030301 nonn,easy
+%O A030301 1,1
+%A A030301 Jean-Paul Delahaye (Jean-Paul.Delahaye(AT)lifl.fr)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

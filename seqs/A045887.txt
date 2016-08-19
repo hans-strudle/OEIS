@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045887
+Showing 1-1 of 1
+
+%I A045887
+%S A045887 0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,1,0,1,0,2,1,1,1,2,1,2,1,2,1,1,0,1,0,
+%T A045887 1,0,1,0,1,0,2,1,2,1,1,1,2,1,2,1,1,0,1,0,1,0,1,0,1,0,2,1,2,1,2,1,1,1,
+%U A045887 2,1,1,0,1,0,1,0,1,0,1,0,2,1,2,1,2,1,2,1,1,1,1,0,1,0,1,0,1,0,1,0,2,2,3,2,3
+%N A045887 Number of distinct even numbers visible as substrings of n.
+%H A045887 Reinhard Zumkeller, <a href="/A045887/b045887.txt">Table of n, a(n) for n = 0..10000</a>
+%e A045887 a(124)=5 because we can form the following even numbers: 2,4,12,14,24. a(24)=2 because we can form 2,4.
+%o A045887 (Haskell)
+%o A045887 import Data.List (isInfixOf)
+%o A045887 a045887 n = length $ filter (`isInfixOf` (show n)) $ map show [0,2..n-1]
+%o A045887 -- _Reinhard Zumkeller_, Jul 19 2011
+%K A045887 base,easy,nonn
+%O A045887 0,21
+%A A045887 _Felice Russo_
+%E A045887 More terms from _Fabian Rothelius_, Feb 08 2001
+%E A045887 a(102) and a(103) corrected by _Reinhard Zumkeller_, Jul 19 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

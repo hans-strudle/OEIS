@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031421
+Showing 1-1 of 1
+
+%I A031421
+%S A031421 17,509,1450,2237,2425,3946,4778,5189,5473,5618,5914,6445,6761,7417,
+%T A031421 8185,9178,9938,10133,10426,10529,10826,10933,11441,11861,12074,12289,
+%U A031421 12506,12829,13273,14653,14765,15241,16217,16586,16837,17090,17989,18385,18650,18778
+%N A031421 Numbers n such that continued fraction for sqrt(n) has odd period and a pair of central terms both equal to 8.
+%H A031421 T. D. Noe, <a href="/A031421/b031421.txt">Table of n, a(n) for n = 1..1000</a>
+%t A031421 n = 1; t = {}; While[Length[t] < 50, n++; If[! IntegerQ[Sqrt[n]], c = ContinuedFraction[Sqrt[n]]; len = Length[c[[2]]]; If[OddQ[len] && c[[2, (len + 1)/2]] == 8, AppendTo[t, n]]]]; t (* _T. D. Noe_, Apr 04 2014 *)
+%Y A031421 Cf. A031404-A031423.
+%K A031421 nonn
+%O A031421 1,1
+%A A031421 _David W. Wilson_
+%E A031421 a(1) corrected by _T. D. Noe_, Apr 04 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

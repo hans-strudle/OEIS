@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045605
+Showing 1-1 of 1
+
+%I A045605
+%S A045605 1,2,10,26,50,130,250,338,650,1250,1690,3250,4010,4394,5050,6250,8450,
+%T A045605 16250,20050,21970,25250,31250,33826,42250,48698,52130,57122,65650,
+%U A045605 81250,100250,109850,126250,144610,156250,169130,211250,228826,243490
+%N A045605 Numbers n such that n | 9^n + 7^n.
+%K A045605 nonn
+%O A045605 1,2
+%A A045605 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

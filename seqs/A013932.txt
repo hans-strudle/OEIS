@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013932
+Showing 1-1 of 1
+
+%I A013932
+%S A013932 1,3,6,11,17,34,58,87,123,166,215,274,305,407,482,521,562,647,791,899,
+%T A013932 1073,1261,1327,1394,1463,1533,1677,1751,1906,1985,2067,2235,2321,
+%U A013932 2497,2681,2870,2967,3170,3273,3378
+%N A013932 a(n) is squarefree and is sum of first k squarefrees for some k.
+%t A013932 Select[Accumulate[Select[Range[150],SquareFreeQ]],SquareFreeQ] (* _Harvey P. Dale_, Jul 27 2011 *)
+%Y A013932 Cf. A005117, A013930, A013931.
+%K A013932 nonn
+%O A013932 1,2
+%A A013932 _Henri Lifchitz_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

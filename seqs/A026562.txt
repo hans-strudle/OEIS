@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026562
+Showing 1-1 of 1
+
+%I A026562
+%S A026562 1,26,440,6160,77616,915936,10347520,113400320,1215923456,12829712896,
+%T A026562 133751654400,1381696942080,14173677776896,144610035654656,
+%U A026562 1469203965870080,14877573810749440,150264242988711936
+%N A026562 Expansion of 1/((1-2x)(1-6x)(1-8x)(1-10x)).
+%F A026562 a(n) = -2^n/24 +27*6^n/4 -64*8^n/3 +125*10^n/8. _R. J. Mathar_, Jun 23 2013
+%K A026562 nonn
+%O A026562 0,2
+%A A026562 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

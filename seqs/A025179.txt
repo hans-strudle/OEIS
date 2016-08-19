@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a025179
+Showing 1-1 of 1
+
+%I A025179
+%S A025179 1,4,10,29,81,231,659,1891,5443,15718,45508,132067,384047,1118820,
+%T A025179 3264642,9539787,27913083,81769236,239794422,703906719,2068153899,
+%U A025179 6081507831,17896695831,52703944965,155310270101,457956633826,1351132539604
+%N A025179 a(n) = number of (s(0), s(1), ..., s(n)) such that s(i) is an integer, s(0) = 0, |s(1)| = 1, |s(i) - s(i-1)| <= 1 for i >= 2, s(n) = 1. Also a(n) = T(n,n-1), where T is the array defined in A025177.
+%H A025179 Vincenzo Librandi, <a href="/A025179/b025179.txt">Table of n, a(n) for n = 2..200</a>
+%F A025179 Sum_{k=0..floor(n/2)} binomial(n, 2*k)*binomial(2*k+1, k+1). E.g.f.: exp(x)*(BesselI(0, 2*x)+BesselI(2, 2*x)). - _Vladeta Jovovic_, Jan 01 2004
+%F A025179 G.f.: ((1-x)^2-(1-x)sqrt(1-2x-3x^2))/(2x*sqrt(1-2x-3x^2)); a(n+1)=sum{k=0..n, C(n, k)C(k+1, k/2+1)(1+(-1)^k)/2}; - _Paul Barry_, Sep 17 2005
+%F A025179 Conjecture: (n+1)*a(n) +(-3*n+1)*a(n-1) +(-n-5)*a(n-2) +3*(n-3)*a(n-3)=0. - _R. J. Mathar_, Nov 26 2012
+%F A025179 a(n) ~ 3^(n-1/2) / sqrt(Pi*n). - _Vaclav Kotesovec_, Feb 13 2014
+%t A025179 Rest[Rest[CoefficientList[Series[((1-x)^2-(1-x)*Sqrt[1-2*x-3*x^2]) /(2*x*Sqrt[1-2*x-3*x^2]), {x, 0, 20}], x]]] (* _Vaclav Kotesovec_, Feb 13 2014 *)
+%Y A025179 Equals (1/2) * A024997. Cf. A026135.
+%K A025179 nonn
+%O A025179 2,2
+%A A025179 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

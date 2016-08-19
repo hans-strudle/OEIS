@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035525
+Showing 1-1 of 1
+
+%I A035525
+%S A035525 1113443017,1113443029,1113443053,1113443069,1113443077,1113443137,
+%T A035525 1113443141,1113443153,1113443173,1113443189,1113443209,1113443249,
+%U A035525 1113443269,1113443293,1113443329,1113443341,1113443369,1113443381
+%N A035525 24 consecutive primes of form 4k+1.
+%C A035525 The least sequence of this form (L=24) and the largest known of consecutive primes 4k+1
+%D A035525 See Section A4. p. 13 "Unsolved problems in Number Theory", 2nd. Ed., R. K. Guy
+%H A035525 C. Rivera, <a href="http://www.primepuzzles.net/">The Prime Problems and Puzzles Connection</a>
+%Y A035525 A035518, A035498.
+%K A035525 fini,nonn
+%O A035525 0,1
+%A A035525 _Carlos Rivera_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

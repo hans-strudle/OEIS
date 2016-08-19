@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007467
+Showing 1-1 of 1
+
+%I A007467 M2085
+%S A007467 2,15,1001,215441,95041567,66238993967,63009974049301,
+%T A007467 87796770491685553,173955570033393401009,421385360593324054690769,
+%U A007467 1172248885422611971256631487,5253333091597988325086927419397,21476254926032216698855019795863013
+%N A007467 Product of next n primes.
+%D A007467 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007467 Harvey P. Dale, <a href="/A007467/b007467.txt">Table of n, a(n) for n = 1..185</a>
+%H A007467 R. K. Hoeflin, <a href="http://www.eskimo.com/~miyaguch/titan.html">Titan Test</a>
+%t A007467 terms=20;With[{prs=Prime[Range[(terms(terms+1))/2]]},Table[ Times@@ Take[prs,{(n(n-1))/2+1,(n(n+1))/2}],{n,terms}]] (* _Harvey P. Dale_, Aug 06 2013 *)
+%o A007467 (PARI) a(n)=my(s=1);forprime(p=prime(n*(n-1)/2+1),prime(n*(n+1)/2),s*=p);s \\ _Charles R Greathouse IV_, Aug 06 2013
+%K A007467 easy,nonn
+%O A007467 1,1
+%A A007467 _N. J. A. Sloane_, _Simon Plouffe_
+%E A007467 Corrected and extended by _Harvey P. Dale_, Aug 06 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

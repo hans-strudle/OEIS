@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015919
+Showing 1-1 of 1
+
+%I A015919
+%S A015919 1,2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,
+%T A015919 89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173,
+%U A015919 179,181,191,193,197,199,211,223,227,229,233,239,241,251,257,263,269,271,277,281,283,293,307,311,313,317,331,337,341,347,349,353,359,367
+%N A015919 Positive integers n such that 2^n == 2 (mod n).
+%C A015919 Includes 341 which is first pseudoprime to base 2 and distinguishes sequence from A008578.
+%C A015919 First composite even term is a(14868) = 161038 = A006935(2). - _Max Alekseyev_, Feb 11 2015
+%H A015919 Alois P. Heinz, <a href="/A015919/b015919.txt">Table of n, a(n) for n = 1..20000</a>
+%F A015919 A015919 = {1} U A000040 U A001567 U A006935 = A001567 U A006935 U A008578. - _Ray Chandler_, Dec 07 2003; corrected by _Max Alekseyev_, Feb 11 2015
+%t A015919 Prepend[Select[Range[1000], Mod[2^#, #] == 2 &], 1] (* _Geoffrey Critzer_, Apr 29 2015 *)
+%o A015919 (PARI) is(n)=Mod(2,n)^n==2 \\ _Charles R Greathouse IV_, Mar 11 2014
+%Y A015919 Cf. A000040, A001567, A008578.
+%K A015919 nonn
+%O A015919 1,2
+%A A015919 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

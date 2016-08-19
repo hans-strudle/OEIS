@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015479
+Showing 1-1 of 1
+
+%I A015479
+%S A015479 0,1,7,344,117999,283315943,4761691172000,560208204977943943,
+%T A015479 461355545756912579822049,2659622911535555605275705841192,
+%U A015479 107325377740302038777488717075646201593,30316762801210878398501692486189317906592712849
+%N A015479 q-Fibonacci numbers for q=7.
+%H A015479 Vincenzo Librandi, <a href="/A015479/b015479.txt">Table of n, a(n) for n = 0..40</a>
+%F A015479 a(n) = 7^(n-1) a(n-1) + a(n-2).
+%t A015479 RecurrenceTable[{a[0]==0, a[1]==1, a[n]==a[n-1]*7^(n-1) + a[n-2]},  a, {n, 20}] (* _Vincenzo Librandi_, Nov 09 2012 *)
+%K A015479 nonn,easy
+%O A015479 0,3
+%A A015479 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

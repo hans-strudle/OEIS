@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017497
+Showing 1-1 of 1
+
+%I A017497
+%S A017497 9,20,31,42,53,64,75,86,97,108,119,130,141,152,163,174,185,196,207,
+%T A017497 218,229,240,251,262,273,284,295,306,317,328,339,350,361,372,383,394,
+%U A017497 405,416,427,438,449,460,471,482,493,504,515,526,537,548,559,570,581,592
+%N A017497 a(n) = 11*n + 9.
+%H A017497 Vincenzo Librandi, <a href="/A017497/b017497.txt">Table of n, a(n) for n = 0..10000</a>
+%H A017497 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%t A017497 Range[9, 1000, 11] (* _Vladimir Joseph Stephan Orlovsky_, May 29 2011 *)
+%o A017497 (MAGMA)[11*n+9: n in [0..60]]; // _Vincenzo Librandi_, Sep 18 2011
+%Y A017497 Cf. A008593, A017401, A017413.
+%K A017497 nonn,easy
+%O A017497 0,1
+%A A017497 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

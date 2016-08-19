@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007351
+Showing 1-1 of 1
+
+%I A007351 M1507
+%S A007351 2,5,17,41,461,26833,26849,26863,26881,26893,26921,616769,616793,
+%T A007351 616829,616843,616871,617027,617257,617363,617387,617411,617447,
+%U A007351 617467,617473,617509,617531,617579,617681,617707,617719,618437,618521,618593,618637
+%N A007351 Where prime race 4m-1 vs. 4m+1 is tied.
+%C A007351 n such that the number of primes <= n of the form 4m-1 is equal to the number of primes <= n of the form 4m+1.
+%D A007351 A. Granville and G. Martin, Prime number races, Amer. Math. Monthly, 113 (No. 1, 2006), 1-33.
+%D A007351 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007351 T. D. Noe, <a href="/A007351/b007351.txt">Table of n, a(n) for n=1..1000</a>
+%Y A007351 Cf. A007350, A038691.
+%Y A007351 Cf. A156749 Sequence showing Chebyshev bias in prime races (mod 4). [From _Daniel Forgues_, Mar 26 2009]
+%K A007351 nonn,easy
+%O A007351 1,1
+%A A007351 _N. J. A. Sloane_, _Mira Bernstein_, _Robert G. Wilson v_
+%E A007351 Corrected and extended by _Enoch Haga_, Feb 24 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

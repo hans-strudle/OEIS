@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019562
+Showing 1-1 of 1
+
+%I A019562
+%S A019562 1,72,912,5336,20256,58728,142000,301560,581184,1038984,1749456,
+%T A019562 2805528,4320608,6430632,9296112,13104184,18070656,24442056,32497680,
+%U A019562 42551640,54954912,70097384,88409904
+%N A019562 Coordination sequence for C_6 lattice.
+%D A019562 R. Bacher, P. de la Harpe and B. Venkov, Series de croissance et series d'Ehrhart associees aux reseaux de racines, C. R. Acad. Sci. Paris, 325 (Series 1) (1997), 1137-1142.
+%F A019562 G.f.: (1+66*x+495*x^2+924*x^3+495*x^4+66*x^5+x^6)/(1-x)^6.
+%K A019562 nonn
+%O A019562 0,2
+%A A019562 mbaake(AT)sunelc3.tphys.physik.uni-tuebingen.de (Michael Baake)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056060
+Showing 1-1 of 1
+
+%I A056060
+%S A056060 1,2,3,6,10,5,35,70,14,7,462,231,429,429,715,1430,24310,12155,92378,
+%T A056060 46189,88179,88179,1352078,676039,52003,52003,7429,7429,1077205,
+%U A056060 1077205,33393355,66786710,43214930,21607465,181502706,90751353
+%N A056060 Divisor of squarefree part of the central binomial coefficients which is prime to its largest square.
+%F A056060 a(n)=A055231[A001405(n)]
+%e A056060 n=14, binomial[14,7]=3432=8.3.11.13. The largest square divisor is 4,squarefree part is 858. So GCD[4,858]=2 and a(14)=858/2=429.
+%Y A056060 Cf. A001405, A000188, A008833, A007913, A055229, A055231, A046098, A034974, A056056-A056061.
+%K A056060 nonn
+%O A056060 1,2
+%A A056060 _Labos Elemer_, Jul 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

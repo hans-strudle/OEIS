@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014809
+Showing 1-1 of 1
+
+%I A014809
+%S A014809 1,24,276,2048,11178,48576,177400,565248,1612875,4200352,10131156,
+%T A014809 22892544,48897678,99448320,193740408,363315200,658523925,1157743824,
+%U A014809 1980143600,3303168000,5386270686
+%N A014809 Expansion of Jacobi theta constant (theta_2/2)^24.
+%C A014809 Number of ways of writing n as the sum of 24 triangular numbers.
+%D A014809 K. Ono, S. Robins and P. T. Wahl, On the representation of integers as sums of triangular numbers, Aequationes mathematicae, August 1995, Volume 50, Issue 1-2, pp 73-94; http://www.math.wisc.edu/~ono/reprints/006.pdf.
+%Y A014809 Number of ways of writing n as a sum of k triangular numbers, for k=1,...: A010054, A008441, A008443, A008438, A008439, A008440, A226252, A007331, A226253, A226254, A226255, A014787, A014809.
+%K A014809 nonn
+%O A014809 0,2
+%A A014809 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

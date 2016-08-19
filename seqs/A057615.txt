@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057615
+Showing 1-1 of 1
+
+%I A057615
+%S A057615 1,2,4,8,16,23,46,29,58,116,223,446,289,578,1156,1223,2446,2489,4789,
+%T A057615 5789,11578,12356,12247,24449,48889,77789,155578,111356,122227,244445,
+%U A057615 48889,77789,155578,111356,122227,244445,48889,77789,155578,111356
+%N A057615 ATS: Add Then Sort (i.e. double previous term and then sort digits).
+%C A057615 Starting from a(1)=1 sequence cycles starting from a(25)=48889, 77789, 155578, 111356, 122227, 244445, 48889, ... etc.
+%e A057615 a(8)=29 since a(7)=46, 46+46=92 and 92 sorted is 29
+%t A057615 NestList[FromDigits[Sort[IntegerDigits[2#]]]&,1,40] (* _Harvey P. Dale_, Oct 03 2011 *)
+%Y A057615 Cf. A033861 for STA, A004000 for RATS.
+%K A057615 base,easy,nonn
+%O A057615 1,2
+%A A057615 _Henry Bottomley_, Oct 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

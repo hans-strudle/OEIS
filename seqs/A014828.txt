@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014828
+Showing 1-1 of 1
+
+%I A014828
+%S A014828 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,
+%T A014828 1,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,
+%U A014828 0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0
+%V A014828 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,
+%W A014828 -1,0,0,1,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,1,0,0,0,0,0,-1,0,
+%X A014828 0,1,0,0,0,0,0,-1,0,0,1,0,0,1,0,0
+%N A014828 Inverse of 819th cyclotomic polynomial.
+%p A014828 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014828 sign
+%O A014828 0,1
+%A A014828 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

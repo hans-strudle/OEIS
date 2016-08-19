@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023396
+Showing 1-1 of 1
+
+%I A023396
+%S A023396 2,1,1,2,2,1,2,1,2,1,1,1,1,1,2,1,1,1,2,1,1,1,1,1,2,2,1,1,2,1,1,2,1,2,
+%T A023396 1,1,1,2,1,2,1,2,2,1,1,2,1,2,2,2,1,1,1,1,2,2,1,2,1,1,1,2,2,2,1,2,1,1,
+%U A023396 2,2,2,1,2,2,1,1,2,1,1,1,2,1,1,2,1,2,1,1,2,2,1,1,2,1,1,2,1,1,2,1,2,1,2,1,2,1,1,1
+%N A023396 If any odd power of 2 ends with k 1's and 2's, they must be the first k elements of this sequence in reverse order.
+%e A023396 2^1 ends in 2
+%e A023396 2^5 ends in 32
+%e A023396 2^9 ends in 512
+%e A023396 2^13 ends in 8192
+%e A023396 2^89 ends in ...562112
+%Y A023396 Cf. A126933.
+%K A023396 nonn
+%O A023396 1,1
+%A A023396 _David W. Wilson_
+%E A023396 Definition corrected by Gerry Leversha (g.leversha(AT)btinternet.com), Mar 17 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

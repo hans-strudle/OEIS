@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058052
+Showing 1-1 of 1
+
+%I A058052
+%S A058052 2,18,118,680,3620,18274,88760,418900
+%N A058052 Sum of the distances between the 2^n vertices in the De Bruijn Graphs on words of length n on alphabet {0,1}.
+%C A058052 Given two words X,Y in {0,1}^N, the distance d(X,Y) is the least integer K such that there exists a word M with X=UM and Y=MV and |U|=|V|=K Define a(N)=sum(d(X,Y); X,Y in {0,1}^N)
+%e A058052 d(0,0)=0 d(0,1)=1 d(1,0)=1 d(1,1)=0 hence a(1)=0+1+1+0=2 d(00,00)=0 d(00,01)=1 d(00,10)=2 d(00,11)=2 d(01,00)=2 d(01,01)=0 d(01,10)=1 d(01,11)=1 d(10,00)=1 d(10,01)=1 d(10,10)=0 d(10,11)=2 d(11,00)=2 d(11,01)=2 d(11,10)=1 d(11,11)=0 hence a(2)=0+1+2+2+2+0+1+1+1+1+0+2+2+2+1+0=18
+%K A058052 nonn
+%O A058052 1,1
+%A A058052 Serge Burckel (burckel(AT)iml.univ-mrs.fr), Nov 19 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

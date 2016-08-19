@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a020704
+Showing 1-1 of 1
+
+%I A020704
+%S A020704 3,10,33,109,360,1189,3927,12970,42837,141481,467280,1543321,5097243,
+%T A020704 16835050,55602393,183642229,606529080,2003229469,6616217487,
+%U A020704 21851881930,72171863277,238367471761,787274278560,2600190307441,8587845200883,28363725910090
+%N A020704 Pisot sequences E(3,10), P(3,10).
+%F A020704 a(n) = 3*a(n-1) + a(n-2) (holds at least up to n = 1000 but is not known to hold in general).
+%t A020704 RecurrenceTable[{a[0] == 3, a[1] == 10, a[n] == Floor[a[n - 1]^2/a[n - 2] + 1/2]}, a, {n, 0, 30}] (* _Bruno Berselli_, Feb 05 2016 *)
+%o A020704 (MAGMA) Exy:=[3,10]; [n le 2 select Exy[n] else Floor(Self(n-1)^2/Self(n-2) + 1/2): n in [1..30]]; // _Bruno Berselli_, Feb 05 2016
+%Y A020704 It appears that this is a subsequence of A006190.
+%Y A020704 See A008776 for definitions of Pisot sequences.
+%K A020704 nonn
+%O A020704 0,1
+%A A020704 _David W. Wilson_
+%E A020704 Deleted program based on unproved recurrence from _Bruno Berselli_, Feb 05 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

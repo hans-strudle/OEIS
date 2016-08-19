@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050287
+Showing 1-1 of 1
+
+%I A050287
+%S A050287 11,34,4751,4751,213245,222299,4722613,46663520,46663520,3040319543
+%N A050287 a(n) is the starting position of the first occurrence of a string of n 8's in the decimal expansion of Pi.
+%H A050287 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PiDigits.html">Pi Digits.</a>
+%K A050287 nonn,base
+%O A050287 1,1
+%A A050287 _Eric W. Weisstein_
+%E A050287 More terms from Colin Martin (cbmartin(AT)tpg.com.au), Mar 03 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

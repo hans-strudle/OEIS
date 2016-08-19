@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062124
+Showing 1-1 of 1
+
+%I A062124
+%S A062124 3,26,94,234,473,838,1356,2054,2959,4098,5498,7186,9189,11534,14248,
+%T A062124 17358,20891,24874,29334,34298,39793,45846,52484,59734,67623,76178,
+%U A062124 85426,95394,106109,117598,129888,143006,156979,171834,187598,204298
+%N A062124 Fourth column of A046741.
+%D A062124 I. P. Goulden and D. M. Jackson, Combinatorial Enumeration, Wiley, N.Y., 1983,(2.3.14).
+%F A062124 G.f.: (3+14*x+8*x^2+2*x^3)/(1-x)^4. Generally, g.f. for k-th column of A046741 is coefficient of y^k in expansion of (1-y)/((1-y-y^2)*(1-y)-(1+y)*x).
+%Y A062124 Cf. dumbbells: A002940, A002941, A002889, A046741, A055608, A062123-A062127.
+%K A062124 easy,nonn
+%O A062124 0,1
+%A A062124 _Vladeta Jovovic_, Jun 04 2001
+%E A062124 More terms from Larry Reeves (larryr(AT)acm.org), Jun 06 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

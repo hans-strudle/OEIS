@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004045
+Showing 1-1 of 1
+
+%I A004045
+%S A004045 2,3,4,8,12
+%N A004045 Minimal size of binary code of length n such that every vector is within distance 1 of at least 2 codewords.
+%C A004045 Next 2 terms are 19 or 20, 32.
+%H A004045 H. Hamalainen et al., <a href="http://www.jstor.org/stable/2974552">Football pools - a game for mathematicians</a>, Amer. Math. Monthly, 102 (1995), 579-588.
+%K A004045 nonn,more
+%O A004045 1,1
+%A A004045 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

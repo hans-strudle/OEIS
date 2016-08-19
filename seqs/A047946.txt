@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047946
+Showing 1-1 of 1
+
+%I A047946
+%S A047946 3,2,8,17,48,122,323,842,2208,5777,15128,39602,103683,271442,710648,
+%T A047946 1860497,4870848,12752042,33385283,87403802,228826128,599074577,
+%U A047946 1568397608,4106118242,10749957123,28143753122,73681302248
+%N A047946 5*F(n)^2+3*(-1)^n where F(n) are the Fibonacci numbers A000045.
+%C A047946 Form the matrix A=[1,1,1;2,1,0;1,0,0]. a(n)=trace(A^n). - _Paul Barry_, Sep 22 2004
+%C A047946 The set of prime divisors of elements of this sequence with the exception of 3 is the set of primes that do not divide odd Fibonacci numbers. - _Tanya Khovanova_, May 19 2008
+%H A047946 Tanya Khovanova, <a href="http://blog.tanyakhovanova.com/?p=25">Divisibility of Odd Fibonaccis</a>
+%H A047946 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (2,2,-1).
+%F A047946 a(n)=F(3n)/F(n), n>0; a(n)=2*a(n-1)+2*a(n-2)-a(n-3); a(n)=3a(n-1)-a(n-2)+5(-1)^n; a(n) = L(2n) + (-1)^n, where the L(n) are Lucas numbers A000032.
+%F A047946 G.f.: ( 3-4*x-2*x^2 ) / ( (1+x)*(x^2-3*x+1) ).
+%F A047946 for n>0 a(n)=A000045(3n)/A000045(n) - _Benoit Cloitre_, Aug 30 2003
+%F A047946 a(n)=[3/2+(1/2)*sqrt(5)]^n+(-1)^n+[3/2-(1/2)*sqrt(5)]^n, with n>=0 - _Paolo P. Lava_, Jun 12 2008
+%o A047946 (PARI) a(n)=5*fibonacci(n)^2+3*(-1)^n
+%Y A047946 Cf. A000045, A000032.
+%Y A047946 Second row of array A028412.
+%Y A047946 Cf. A133247 = prime numbers p with property that no odd Fibonacci number is divisible by p.
+%K A047946 nonn,easy
+%O A047946 0,1
+%A A047946 _John W. Layman_, May 21 1999
+%E A047946 Entry improved by comments from _Michael Somos_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

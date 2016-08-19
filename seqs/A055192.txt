@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055192
+Showing 1-1 of 1
+
+%I A055192
+%S A055192 1,2,5,12,35,108,393,1666,8543,54190,436740,4565450,62930604,
+%T A055192 1156277748,28509174012,946786816168,42448800498744,2573207315483554,
+%U A055192 211180300735118954,23490473719472829824,3545759835559406756008,727077827560669587718290
+%N A055192 Number of bipartite graphs with n vertices, no isolated vertices and a distinguished bipartite block, up to isomorphism.
+%C A055192 Also the number of connected split graphs on n vertices (cf. A048194). - _Falk Hüffner_, Dec 01 2015
+%H A055192 Alois P. Heinz, <a href="/A055192/b055192.txt">Table of n, a(n) for n = 2..40</a>
+%Y A055192 Equals second differences of A049312. Cf. A024206, A055609, A055082-A055084.
+%Y A055192 Row sums of A056152 and also of A122083.
+%K A055192 nonn
+%O A055192 2,2
+%A A055192 _Vladeta Jovovic_, Jun 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045880
+Showing 1-1 of 1
+
+%I A045880
+%S A045880 1,2,3,5,6,10,14,15,21,22,26,29,34,35,38,42,46,47
+%N A045880 Sqrt(a(n)) is "well approximated" by other sqrts of integers.
+%C A045880 if b(n)=min {Sqrt[ n ]-sum Sqrt[ c_i ]>0 : c_i integers}, then b(a(n)) is smaller than any previous integer.
+%K A045880 nonn
+%O A045880 0,2
+%A A045880 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

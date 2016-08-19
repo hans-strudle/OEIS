@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053877
+Showing 1-1 of 1
+
+%I A053877
+%S A053877 0,0,0,0,624960,944939520,4266926899200,71625854051942400,
+%T A053877 1986746267331377233920,164332724129181202215075840,
+%U A053877 47899373560729916144902314393600
+%N A053877 Number of elements of order 8 in GL(n,2).
+%C A053877 a(n)= A053773(n)-A053718(n)
+%D A053877 V. Jovovic, The cycle index polynomials of some classical groups, Belgrade, 1995, unpublished.
+%K A053877 nonn
+%O A053877 1,5
+%A A053877 _Vladeta Jovovic_, Mar 30 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036047
+Showing 1-1 of 1
+
+%I A036047
+%S A036047 1,1,1,1,1,4,12,16,392,34,48,3244032,12060,27540,6272,501696,846000,
+%T A036047 119448,4067265600,422072987719680,4338692557056,28944689875920,
+%U A036047 1247499918000000,43692593457240000,118467674601420800
+%N A036047 Product of order of cycles of the permutation created by duality and reversal on the partitions of n.
+%Y A036047 Cf. A036045-A036056.
+%K A036047 nonn
+%O A036047 1,6
+%A A036047 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

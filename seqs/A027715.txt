@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027715
+Showing 1-1 of 1
+
+%I A027715
+%S A027715 3,5,9,33,383,555,3663,5115,30803,32223,34043,59295,567765,5912195,
+%T A027715 37877873,534141435,957747759,5356556535,5646996465,53205650235,
+%U A027715 56511511565,358023320853,9571923291759
+%N A027715 Palindromes of form n^2+n+3.
+%H A027715 P. De Geest, <a href="http://www.worldofnumbers.com/quasimor.htm">Palindromic Quasi_Over_Squares of the form n^2+(n+X)</a>
+%Y A027715 Cf. A027714, A027688, A027752, A027753.
+%K A027715 nonn,base
+%O A027715 1,1
+%A A027715 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

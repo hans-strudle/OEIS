@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026477
+Showing 1-1 of 1
+
+%I A026477
+%S A026477 1,2,3,4,5,7,9,11,13,16,17,19,23,25,29,31,37,41,43,47,49,53,59,61,67,
+%T A026477 71,73,79,81,83,89,97,101,103,107,109,113,120,121,127,131,137,139,149,
+%U A026477 151,157,163,167,168,169,173,179,181,191,193,197,199,210,211,216,223
+%N A026477 a(1) = 1, a(2) = 2, a(3) = 3; and for n > 3, a(n) = smallest number > a(n-1) and not of the form a(i)*a(j)*a(k) for 1 <= i < j < k < n.
+%H A026477 Charles R Greathouse IV, <a href="/A026477/b026477.txt">Table of n, a(n) for n = 1..10000</a>
+%o A026477 (PARI) list(lim)=my(v=List(),n,d,k); while(n++<=lim, d=divisors(n); for(i=1,#d-2, if(!setsearch(v,d[i]), next); for(j=i+1,#d-1, if(!setsearch(v,d[j]), next); k=n/(d[i]*d[j]); if(d[j]>=k, break); if(denominator(k)==1 && setsearch(v,k), next(3)))); listput(v,n)); Vec(v) \\ _Charles R Greathouse IV_, Sep 16 2015
+%Y A026477 Cf. A000028, A026416, A066724, A050376, A084400.
+%K A026477 nonn
+%O A026477 1,2
+%A A026477 _Clark Kimberling_
+%E A026477 More terms from _Christian G. Bower_, Nov 15 1999.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

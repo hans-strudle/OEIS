@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017753
+Showing 1-1 of 1
+
+%I A017753
+%S A017753 1,90,4095,125580,2919735,54891018,869107785,11919192480,144520208820,
+%T A017753 1573664496040,15579278510796,141629804643600,1192050855750300,
+%U A017753 9353014406656200,68811463134684900,477092811067148640
+%N A017753 Binomial coefficients C(n,89).
+%o A017753 (Sage) [binomial(n, 89) for n in xrange(89,105)] # [From _Zerinvary Lajos_, May 23 2009]
+%K A017753 nonn
+%O A017753 89,2
+%A A017753 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058045
+Showing 1-1 of 1
+
+%I A058045
+%S A058045 1,8,572,4778
+%N A058045 Numbers n such that (5^n + n)/3 is prime.
+%t A058045 Do[ If[ PrimeQ[ (5^n + n)/3 ], Print[ n ] ], {n, 1, 5000} ]
+%K A058045 nonn
+%O A058045 1,2
+%A A058045 _Robert G. Wilson v_, Nov 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

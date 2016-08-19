@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028053
+Showing 1-1 of 1
+
+%I A028053
+%S A028053 1,21,280,3030,29071,258111,2172430,17592960,138433141,1065579801,
+%T A028053 8062670980,60182175690,444345657211,3251891531091,23627323915930,
+%U A028053 170652039023220,1226510307989281,8779155519807981
+%N A028053 Expansion of 1/((1-3x)(1-5x)(1-6x)(1-7x)).
+%F A028053 a(n)=(3*7^(n+3)-8*6^(n+3)+6*5^(n+3)-3^(n+3))/24. [_Yahia Kahloune_, May 27 2013].
+%K A028053 nonn
+%O A028053 0,2
+%A A028053 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027226
+Showing 1-1 of 1
+
+%I A027226
+%S A027226 1,11,75,496,2523,14903,68478,389040,1705001,9552071,40792260,
+%T A027226 227758442,957346363,5353798598,22267534284,125033595506,516148089100
+%N A027226 a(n) = Sum{T(n,k)*T(n,k+3), 0<=k<=n-3, T given by A026747.
+%K A027226 nonn
+%O A027226 3,2
+%A A027226 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

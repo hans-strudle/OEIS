@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033160
+Showing 1-1 of 1
+
+%I A033160
+%S A033160 2,4,5,7,11,13,14,16,29,31,32,34,38,40,41,43,83,85,86,88,92,94,95,97,
+%T A033160 110,112,113,115,119,121,122,124,245,247,248,250,254,256,257,259,272,
+%U A033160 274,275,277,281,283,284,286,326,328,329,331,335,337,338,340,353,355,356,358,362
+%N A033160 Begins with (2, 4); avoids 3-term arithmetic progressions.
+%D A033160 Iacobescu, F. 'Smarandache Partition Type and Other Sequences.' Bull. Pure Appl. Sci. 16E, 237-240, 1997.
+%D A033160 H. Ibstedt, A Few Smarandache Sequences, Smarandache Notions Journal, Vol. 8, No. 1-2-3, 1997, 170-183.
+%H A033160 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/NonarithmeticProgressionSequence.html">Nonarithmetic Progression Sequence</a>
+%Y A033160 a(n) = A186776(n)+2 = A004793(n)+1 = A033163(n)-1. Cf. A185256.
+%K A033160 nonn
+%O A033160 1,1
+%A A033160 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

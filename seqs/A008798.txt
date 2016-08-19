@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008798
+Showing 1-1 of 1
+
+%I A008798
+%S A008798 1,0,2,0,3,1,5,2,7,3,10,5,13,7,16,10,20,13,24,16,29,20,34,24,39,29,45,
+%T A008798 34,51,39,58,45,65,51,72,58,80,65,88,72,97,80,106,88,115,97,125,106,
+%U A008798 135,115,146,125,157,135,168
+%N A008798 Molien series for 3-dimensional group [2,n ]+ = 22n.
+%H A008798 <a href="/index/Mo#Molien">Index entries for Molien series</a>
+%H A008798 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,2,0,-1,1,0,-2,0,1).
+%F A008798 G.f. (1+x^6)/(1-x^2)^2/(1-x^5).
+%F A008798 a(n) = 17/40+3*n/20+n^2/20+(-1)^n*(3/8+n/4) +A080891(n+4)/5.
+%p A008798 A080891 := proc(n) op((n mod 5)+1,[0,1,-1,-1,1]) ; end proc:
+%p A008798 A008798 := proc(n) 17/40+3*n/20+n^2/20+(-1)^n*(3/8+n/4) +A080891(n+4)/5; end proc:
+%K A008798 nonn
+%O A008798 0,3
+%A A008798 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

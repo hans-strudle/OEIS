@@ -1,0 +1,90 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027383
+Showing 1-1 of 1
+
+%I A027383
+%S A027383 1,2,4,6,10,14,22,30,46,62,94,126,190,254,382,510,766,1022,1534,2046,
+%T A027383 3070,4094,6142,8190,12286,16382,24574,32766,49150,65534,98302,131070,
+%U A027383 196606,262142,393214,524286,786430,1048574,1572862,2097150,3145726
+%N A027383 Number of balanced strings of length n: let d(S) = #(1's) - #(0's), # == count in S, then S is balanced if every substring T of S has -2<=d(T)<=2.
+%C A027383 Number of "fold lines" seen when a rectangular piece of paper is folded n+1 times along alternate orthogonal directions and then unfolded. - Quim Castellsaguer (qcastell(AT)pie.xtec.es), Dec 30 1999
+%C A027383 Also the number of binary strings with the property that, when scanning from left to right, once the first 1 is seen in position j, there must be a 1 in positions j+2, j+4, ... until the end of the string. (Positions j+1, j+3, ... can be occupied by 0 or 1.) - _Jeffrey Shallit_, Sep 02 2002
+%C A027383 a(n-1) is also the Moore lower bound on the order of a (3,n)-cage. - _Eric W. Weisstein_, May 20 2003 and _Jason Kimberley_, Oct 30 2011
+%C A027383 a(n) = Sum_{k=0..n} 2^min(k,n-k).
+%C A027383 Partial sums of A016116. - _Hieronymus Fischer_, Sep 15 2007
+%C A027383 Equals row sums of triangle A152201. - _Gary W. Adamson_, Nov 29 2008
+%C A027383 From _John P. McSorley_, Sep 28 2010: (Start)
+%C A027383 a(n)=DPE(n+1) is the total number of k-double-palindromes of n up to cyclic equivalence. See sequence A180918 for the definitions of a k-double-palindrome of n and of cyclic equivalence. Sequence A180918 is the 'DPE(n,k)' triangle read by rows where DPE(n,k) is the number of k-double-palindromes of n up to cyclic equivalence. For example, we have a(4) = DPE(5) = DPE(5,1) + DPE(5,2) + DPE(5,3) + DPE(5,4) + DPE(5,5) = 0 + 2 + 2 + 1 + 1 = 6.
+%C A027383 The 6 double-palindromes of 5 up to cyclic equivalence are 14, 23, 113, 122, 1112, 11111. They come from cyclic equivalence classes {14,41}, {23,32}, {113,311,131}, {122,212,221}, {1112,2111,1211,1121}, and {11111}. Hence a(n)=DPE(n+1) is the total number of cyclic equivalence classes of n containing at least one double-palindrome.
+%C A027383 (End)
+%C A027383 From _Herbert Eberle_, Oct 02 2015: (Start)
+%C A027383 For n > 0, there is a red-black tree of height n with a(n-1) internal nodes and none with less.
+%C A027383 In order a red-black tree of given height has minimal number of nodes, it has exactly 1 path with strictly alternating red and black nodes. All nodes outside this height defining path are black.
+%C A027383 Consider:
+%C A027383 mrbt5                R
+%C A027383                     / \
+%C A027383                    /   \
+%C A027383                   /     \
+%C A027383                  /       B
+%C A027383                 /       / \
+%C A027383 mrbt4          B       /   B
+%C A027383               / \     B   E E
+%C A027383              /   B   E E
+%C A027383 mrbt3       R   E E
+%C A027383            / \
+%C A027383           /   B
+%C A027383 mrbt2    B   E E
+%C A027383         / E
+%C A027383 mrbt1  R
+%C A027383       E E
+%C A027383 (Red nodes shown as R, blacks as B, externals as E.)
+%C A027383 Red-black trees mrbt1, mrbt2, mrbt3, mrbt4, mrbt5 of respective heights h = 1, 2, 3, 4, 5; all minimal in the number of internal nodes, namely 1, 2, 4, 6, 10.
+%C A027383 Recursion (let n = h-1): a(-1) = 0, a(n) = a(n-1)+2^Floor(n/2), n>=0.
+%C A027383 (End)
+%D A027383 John P. McSorley: Counting k-compositions of n with palindromic and related structures. Preprint, 2010. [_John P. McSorley_, Sep 28 2010]
+%H A027383 Vincenzo Librandi, <a href="/A027383/b027383.txt">Table of n, a(n) for n = 0..5000</a>
+%H A027383 J. Jordan and R. Southwell, <a href="http://dx.doi.org/10.4236/am.2010.15045">Further Properties of Reproducing Graphs</a>, Applied Mathematics, Vol. 1 No. 5, 2010, pp. 344-350. - From _N. J. A. Sloane_, Feb 03 2013
+%H A027383 Leonard F. Klosinski, Gerald L. Alexanderson and Loren C. Larson, <a href="http://www.jstor.org/stable/2975240">Under misprinted head B3</a>, Amer Math. Monthly, 104(1997) 753-754.
+%H A027383 Laurent Noé, <a href="http://www.lifl.fr/~noe/files/expose_JOV13.pdf">Spaced seed design on profile HMMs for precise HTS read-mapping efficient sliding window product on the matrix semi-group</a>, in Rapide Bilan 2012-2013, LIFL, Université Lille 1 - INRIA Journées au vert 11 et 12 juin 2013.
+%H A027383 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CageGraph.html">Cage Graph</a>
+%H A027383 <a href="/index/Fo#fold">Index entries for sequences obtained by enumerating foldings</a>
+%H A027383 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (1,2,-2).
+%F A027383 a(2n) = 3*2^n - 2 = A033484(n);
+%F A027383 a(2n-1) = 2^(n+1) - 2 = A000918(n+1).
+%F A027383 a(n+2) = 2*a(n) + 2.
+%F A027383 a(n) = 2^floor((n+2)/2) + 2^floor((n+1)/2) - 2. - Quim Castellsaguer (qcastell(AT)pie.xtec.es)
+%F A027383 a(n) = 2^(n/2)(3+2sqrt(2)+(3-2sqrt(2))(-1)^n)/2 - 2. - _Paul Barry_, Apr 23 2004
+%F A027383 a(n) = A132340(A052955(n)). - _Reinhard Zumkeller_, Aug 20 2007
+%F A027383 a(n) = A052955(n+1) - 1. - _Hieronymus Fischer_, Sep 15 2007
+%F A027383 a(n) = A132666(a(n+1)) - 1. - _Hieronymus Fischer_, Sep 15 2007
+%F A027383 a(n) = A132666(a(n-1)+1) for n>0. - _Hieronymus Fischer_, Sep 15 2007
+%F A027383 A132666(a(n)) = a(n-1) + 1 for n>0. - _Hieronymus Fischer_, Sep 15 2007
+%F A027383 G.f.: (1 + x)/((1 - x)*(1 - 2*x^2)). - _David Callan_, Jul 22 2008
+%F A027383 a(n) = 2*( (a(n-2)+1) mod (a(n-1)+1) ), n>1. - _Pierre Charland_, Dec 12 2010
+%F A027383 a(n) = A136252(n-1) + 1, for n>0. - _Jason Kimberley_, Nov 01 2011
+%F A027383 G.f.: (1+x*R(0))/(1-x), where R(k)= 1 + 2*x/( 1 - x/(x + 1/R(k+1) )); (continued fraction). - _Sergei N. Gladkovskii_, Aug 16 2013
+%F A027383 a(n) = 2^((2*n+3*(1-(-1)^n))/4)*3^((1+(-1)^n)/2)-2. - _Luce ETIENNE_, Sep 01 2014
+%e A027383 After 3 folds one sees 4 fold lines.
+%e A027383 Example: a(3) = 6 because the strings 001, 010, 100, 011, 101, 110 have the property.
+%e A027383 Binary: 1, 10, 100, 110, 1010, 1110, 10110, 11110, 101110, 111110, 1011110, 1111110, 10111110, 11111110, 101111110, 111111110, 1011111110, 1111111110, 10111111110, ... - _Jason Kimberley_, Nov 02 2011
+%p A027383 a[0]:=0:a[1]:=1:for n from 2 to 100 do a[n]:=2*a[n-2]+2 od: seq(a[n], n=1..41); # _Zerinvary Lajos_, Mar 16 2008
+%t A027383 a[n_?EvenQ] := 3*2^(n/2)-2; a[n_?OddQ] := 2^(2+(n-1)/2)-2; Table[a[n], {n, 0, 40}] (* _Jean-François Alcover_, Oct 21 2011, after Quim Castellsaguer *)
+%t A027383 LinearRecurrence[{1, 2, -2}, {1, 2, 4}, 41] (* _Robert G. Wilson v_, Oct 06 2014 *)
+%o A027383 (MAGMA) [2^Floor((n+2)/2)+2^Floor((n+1)/2)-2: n in [0..50]]; // _Vincenzo Librandi_, Aug 16 2011
+%o A027383 (PARI) a(n)=2^(n\2+1)+2^((n+1)\2)-2 \\ _Charles R Greathouse IV_, Oct 21 2011
+%o A027383 (Haskell)
+%o A027383 import Data.List (transpose)
+%o A027383 a027383 n = a027383_list !! n
+%o A027383 a027383_list = concat $ transpose [a033484_list, drop 2 a000918_list]
+%o A027383 -- _Reinhard Zumkeller_, Jun 17 2015
+%Y A027383 Cf. A132666, A152201.
+%Y A027383 Moore lower bound on the order of a (k,g) cage: A198300 (square); rows: A000027 (k=2), this sequence (k=3), A062318 (k=4), A061547 (k=5), A198306 (k=6), A198307 (k=7), A198308 (k=8), A198309 (k=9), A198310 (k=10), A094626 (k=11); columns: A020725 (g=3), A005843 (g=4), A002522 (g=5), A051890 (g=6), A188377 (g=7). - _Jason Kimberley_, Oct 30 2011
+%Y A027383 Cf. A000066 (actual order of a (3,g)-cage).
+%Y A027383 Cf. A000918, A033484.
+%K A027383 nonn,nice,easy,base
+%O A027383 0,2
+%A A027383 _R. K. Guy_
+%E A027383 More terms from Larry Reeves (larryr(AT)acm.org), Mar 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

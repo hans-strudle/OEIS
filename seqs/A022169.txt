@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022169
+Showing 1-1 of 1
+
+%I A022169
+%S A022169 1,1,1,1,6,1,1,31,31,1,1,156,806,156,1,1,781,20306,20306,781,1,1,3906,
+%T A022169 508431,2558556,508431,3906,1,1,19531,12714681,320327931,320327931,
+%U A022169 12714681,19531,1,1,97656,317886556
+%N A022169 Triangle of Gaussian binomial coefficients [ n,k ] for q = 5.
+%C A022169 The coefficients of the matrix inverse are apparently given by T^(-1)(n,k) = (-1)^n*A157832(n,k). - _R. J. Mathar_, Mar 12 2013
+%D A022169 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier-North Holland, 1978, p. 698.
+%D A022169 M. Sved, Gaussians and binomials, Ars. Combinatoria, 17A (1984), 325-351.
+%H A022169 R. Mestrovic, <a href="http://arxiv.org/abs/1409.3820">Lucas' theorem: its generalizations, extensions and applications (1878--2014)</a>, arXiv preprint arXiv:1409.3820, 2014
+%H A022169 Kent E. Morrison, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL9/Morrison/morrison37.html">Integer Sequences and Matrices Over Finite Fields</a>, Journal of Integer Sequences, Vol. 9 (2006), Article 06.2.1.
+%p A022169 A027872 := proc(n)
+%p A022169         mul( 5^i-1, i=1..n) ;
+%p A022169 end proc:
+%p A022169 A022169 := proc(n, m)
+%p A022169         A027872(n)/A027872(n-m)/A027872(m) ;
+%p A022169 end proc: # _R. J. Mathar_, Mar 12 2013
+%t A022169 p[n_] := Product[5^i-1, {i, 1, n}]; t[n_, k_] := p[n]/(p[k]*p[n-k]); Table[t[n, k], {n, 0, 8}, {k, 0, n}] // Flatten (* _Jean-François Alcover_, Jan 14 2014 *)
+%K A022169 nonn,tabl
+%O A022169 0,5
+%A A022169 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

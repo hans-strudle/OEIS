@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052466
+Showing 1-1 of 1
+
+%I A052466
+%S A052466 6,162,1007,27371,170176,4625692,28759737,781741941,4860395546,
+%T A052466 132114388022,821406847267,22327331575711,138817757188116,
+%U A052466 3773319036295152,23460200964791597,637690917133880681
+%N A052466 a(n) is the solution k to Mod[24k,13^n]==1.
+%C A052466 Related to a generalization of a Ramanujan congruence for the partition function P.
+%H A052466 Vincenzo Librandi, <a href="/A052466/b052466.txt">Table of n, a(n) for n = 1..900</a>
+%H A052466 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/PartitionFunctionPCongruences.html">Partition Function P Congruences.</a>
+%H A052466 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,169,-169).
+%F A052466 G.f.: x*(-169x^2+156x+6)/((1-x)(1-13x)(1+13x)). - _Vincenzo Librandi_, Jul 01 2012
+%F A052466 a(n) = a(n-1) +169*a(n-2) -169*a(n-3). - _Vincenzo Librandi_, Jul 01 2012
+%t A052466 Table[PowerMod[24, -1, 13^d], {d, 20}]
+%t A052466 CoefficientList[Series[(-169x^2+156x+6)/((1-x)(1-13x)(1+13x)),{x,0,40}],x] (* _Vincenzo Librandi_, Jul 01 2012 *)
+%t A052466 LinearRecurrence[{1,169,-169},{6,162,1007},30] (* _Harvey P. Dale_, Mar 15 2015 *)
+%o A052466 (MAGMA) I:=[6, 162, 1007]; [n le 3 select I[n] else Self(n-1)+169*Self(n-2)-169*Self(n-3): n in [1..20]]; // _Vincenzo Librandi_, Jul 01 2012
+%Y A052466 Cf. A052462, A052463, A052465.
+%K A052466 nonn,easy
+%O A052466 1,1
+%A A052466 _Eric W. Weisstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051582
+Showing 1-1 of 1
+
+%I A051582
+%S A051582 1,10,120,1680,26880,483840,9676800,212889600,5109350400,132843110400,
+%T A051582 3719607091200,111588212736000,3570822807552000,121407975456768000,
+%U A051582 4370687116443648000,166086110424858624000,6643444416994344960000
+%N A051582 (2*n+8)!!/8!!, related to A000165 (even double factorials).
+%C A051582 Row m=8 of the array A(3; m,n) := (2*n+m)!!/m!!, m >= 0, n >= 0.
+%F A051582 a(n) = (2*n+8)!!/8!!.
+%F A051582 E.g.f.: 1/(1-2*x)^5.
+%F A051582 a(n) = (n+4)!*2^(n-1)/12. - _Zerinvary Lajos_, Sep 23 2006
+%t A051582 s=1;lst={s};Do[s+=(s*=n);AppendTo[lst, s], {n, 5, 5!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 15 2008 *)
+%t A051582 (2Range[0,20]+8)!!/8!! (* _Harvey P. Dale_, Feb 03 2013 *)
+%o A051582 (PARI) vector(20, n, n--; (n+4)!*2^(n-1)/12) \\ _Michel Marcus_, Feb 09 2015
+%Y A051582 Cf. A000165, A001147(n+1), A002866(n+1), A051577-A051581 (rows m=0..7).
+%K A051582 easy,nonn
+%O A051582 0,2
+%A A051582 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

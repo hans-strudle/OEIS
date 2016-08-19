@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045524
+Showing 1-1 of 1
+
+%I A045524
+%S A045524 7,21,38,46,61,66,81,119,137,144,150,165,189,196,206,209,221,224,235,
+%T A045524 243,248,253,258,279,292,340,342,353,362,383,413,429,440,488,508,529,
+%U A045524 540,584,597,611,630,651,662,679,685,704,711,718,725,732,764,782,812
+%N A045524 n! has initial digit '5'.
+%H A045524 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A045524 Select[ Range[ 850 ], IntegerDigits[ #! ] [[1]] == 5 & ]
+%K A045524 nonn,base
+%O A045524 1,1
+%A A045524 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

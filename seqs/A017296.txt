@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017296
+Showing 1-1 of 1
+
+%I A017296
+%S A017296 16,20736,234256,1048576,3111696,7311616,14776336,26873856,45212176,
+%T A017296 71639296,108243216,157351936,221533456,303595776,406586896,533794816,
+%U A017296 688747536,875213056,1097199376,1358954496
+%N A017296 (10*n+2)^4.
+%H A017296 Vincenzo Librandi, <a href="/A017296/b017296.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017296 (MAGMA) [(10*n+2)^4: n in [0..35]]; // Vincenzo Librandi, Jul 30 2011
+%K A017296 nonn,easy
+%O A017296 0,1
+%A A017296 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

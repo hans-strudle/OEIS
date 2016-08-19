@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032375
+Showing 1-1 of 1
+
+%I A032375
+%S A032375 1,3,7,9,13,17,25,43,53,83,89,92,119,175,187,257,263,267,321,333,695,
+%T A032375 825,1485,1917,2660,2967,3447,3659,4121,5225,7377,8543,9584,10707,
+%U A032375 18032,18465,20733,20807,26703,45541,59217,68956,73571,103664,140504,142327,156443,195353,282719,301244,367413,415055,437036,490673,1358372,1859193
+%N A032375 Numbers n such that 51*2^n+1 is prime.
+%H A032375 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032375 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032375 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032375 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032375 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032375 nonn
+%O A032375 1,2
+%A A032375 _James R. Buddenhagen_
+%E A032375 More terms from _Hugo Pfoertner_, Jun 20 2003
+%E A032375 More terms (from http://www.prothsearch.net/riesel.html), _Joerg Arndt_, Apr 07 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

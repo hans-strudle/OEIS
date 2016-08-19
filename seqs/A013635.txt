@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013635
+Showing 1-1 of 1
+
+%I A013635
+%S A013635 5,7,8,11,12,15,16,17,18,23,24,27,28,29,30,35,36,39,40,41,42,47,48,49,
+%T A013635 50,51,52,59,60,63,64,65,66,67,68,75,76,77,78,83,84,87,88,89,90,95,96,
+%U A013635 97,98,99,100,107,108,109
+%N A013635 prevprime(n)+n.
+%p A013635 [ seq(prevprime(i)+i,i=3..100) ];
+%K A013635 nonn
+%O A013635 3,1
+%A A013635 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017225
+Showing 1-1 of 1
+
+%I A017225
+%S A017225 3125,537824,6436343,33554432,115856201,312500000,714924299,
+%T A017225 1453933568,2706784157,4704270176,7737809375,12166529024,18424351793,
+%U A017225 27027081632,38579489651,53782400000,73439775749
+%N A017225 (9*n+5)^5.
+%H A017225 Vincenzo Librandi, <a href="/A017225/b017225.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017225 (MAGMA) [(9*n+5)^5: n in [0..25]]; // Vincenzo Librandi, Jul 24 2011
+%K A017225 nonn,easy
+%O A017225 0,1
+%A A017225 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

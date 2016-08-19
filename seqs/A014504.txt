@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014504
+Showing 1-1 of 1
+
+%I A014504
+%S A014504 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,
+%T A014504 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,
+%U A014504 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0
+%V A014504 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,0,0,0,
+%W A014504 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0,1,0,0,0,0,0,-1,0,0,1,0,0,0,0,0,0,0,0,
+%X A014504 1,0,0,-1,0,0,0,0,0,1,0,0,-1,0,0
+%N A014504 Inverse of 495th cyclotomic polynomial.
+%p A014504 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014504 sign
+%O A014504 0,1
+%A A014504 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

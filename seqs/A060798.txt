@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060798
+Showing 1-1 of 1
+
+%I A060798
+%S A060798 1,2,4,6,12,20,30,42,56,72,90,110,132,156,182,210,240,272,306,342,380,
+%T A060798 420,462,506,552,600,650,702,756,812,870,930,992,1056,1122,1190,1260,
+%U A060798 1332,1406,1482,1560,1640,1722,1806,1892,1980,2070,2162,2256,2352,2450
+%N A060798 Numbers n such that difference between upper and lower central divisors of n is 1.
+%H A060798 Harry J. Smith, <a href="/A060798/b060798.txt">Table of n, a(n) for n=0,...,1000</a>
+%F A060798 Solutions to A033677(n)-A060775(n)=1, where n=k*(k+1) and at least one of k and k+1 is composite.
+%F A060798 Except at n < 5, this sequence seems to satisfy a(n+1) = 3*a(n) - 3*a(n-1) + a(n-2). - _Georgi Guninski_, Jun 07 2010
+%F A060798 Empirical g.f.: (2*x^2-2*x+1)*(x^3-x^2-x-1) / (x-1)^3. - _Colin Barker_, Apr 16 2014
+%e A060798 n = 4032 = 2.2.2.2.2.2.3.3.7 is here because its central [the 21st and 22nd] divisors are {63,64} with difference = 1. If n = 2^k(2^k-1) = 2^k*M or n = 2^k(2^k+1) = 2^k*F suitable M and F primes, then n is here (e.g., n = 272, 992, etc.). This holds also for n = C*(C+1) products where C is composite and C+1 is prime, e.g., C = 2310.
+%o A060798 (PARI) { n=-1; for (m=1, 999000, d=divisors(m); if (m==1 || (d[1 + length(d)\2] - d[length(d)\2]) == 1, write("b060798.txt", n++, " ", m)); ) } \\ _Harry J. Smith_, Jul 13 2009
+%Y A060798 Cf. A000196, A033677, A060775.
+%K A060798 nonn
+%O A060798 0,2
+%A A060798 _Labos Elemer_, Apr 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

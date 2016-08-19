@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056227
+Showing 1-1 of 1
+
+%I A056227
+%S A056227 1,0,4,9,13,23,22,70,97,182,6,23,302,7127,10936,9940,13041,
+%T A056227 23116,28997,78019,456671,1301721,1244514,2342702,6655421
+%V A056227 -1,0,4,9,-13,-23,-22,70,-97,-182,6,23,-302,-7127,10936,9940,-13041,
+%W A056227 -23116,28997,78019,-456671,1301721,1244514,-2342702,-6655421
+%N A056227 Hankel transform of Moebius function A008683.
+%K A056227 sign
+%O A056227 0,3
+%A A056227 _N. J. A. Sloane_, Aug 06 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

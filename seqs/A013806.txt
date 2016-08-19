@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013806
+Showing 1-1 of 1
+
+%I A013806
+%S A013806 17,1419857,118587876497,9904578032905937,827240261886336764177,
+%T A013806 69091933913008732880827217,5770627412348402378939569991057,
+%U A013806 481968572106750915091411825223071697,40254497110927943179349807054456171205137
+%N A013806 17^(4*n+1).
+%H A013806 Vincenzo Librandi, <a href="/A013806/b013806.txt">Table of n, a(n) for n = 0..100</a>
+%H A013806 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013806 a(0)=17, a(n)=83521*a(n-1). - _Harvey P. Dale_, May 21 2013
+%t A013806 17^(4Range[0,10]+1) (* or *) NestList[83521#&,17,20] (* _Harvey P. Dale_, May 21 2013 *)
+%o A013806 (MAGMA) [17^(4*n+1): n in [0..15]]; // Vincenzo Librandi, Jul 06 2011
+%K A013806 nonn,easy
+%O A013806 0,1
+%A A013806 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

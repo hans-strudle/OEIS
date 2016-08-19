@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032605
+Showing 1-1 of 1
+
+%I A032605
+%S A032605 2,5,17,23,41,47,73,97,127,137,157,191,227,233,307,331,347,367,379,
+%T A032605 401,449,487,523,571,607,631,709,727,751,761,811,877,937,967,1009,
+%U A032605 1019,1129,1171,1187,1229,1259,1297,1367,1409,1453,1483,1489,1523
+%N A032605 Prime numbers indexed by lucky numbers.
+%t A032605 lst = Range[1, 275, 2]; i = 2; While[ i <= (len = Length@lst) && (k = lst[[i]]) <= len, lst = Drop[lst, {k, len, k}]; i++ ]; Prime /@ lst (* _Robert G. Wilson v_, May 12 2006 *)
+%Y A032605 Cf. A032606, A000959.
+%K A032605 nonn
+%O A032605 1,1
+%A A032605 _Patrick De Geest_, May 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

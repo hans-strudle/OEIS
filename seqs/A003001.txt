@@ -1,0 +1,32 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003001
+Showing 1-1 of 1
+
+%I A003001 M4687
+%S A003001 0,10,25,39,77,679,6788,68889,2677889,26888999,3778888999,
+%T A003001 277777788888899
+%N A003001 Smallest number of multiplicative persistence n.
+%C A003001 Probably finite.
+%C A003001 The persistence of a number (A031346) is the number of times you need to multiply the digits together before reaching a single digit.
+%D A003001 Alex Bellos, Here's Looking at Euclid: A Surprising Excursion Through the Astonishing World of Math, Free Press, 2010, page 176.
+%D A003001 M. Gardner, Fractal Music, Hypercards and More, Freeman, NY, 1991, pp. 170, 186.
+%D A003001 C. A. Pickover, Wonders of Numbers, "Persistence", Chapter 28, Oxford University Press NY 2001.
+%D A003001 Clifford A. Pickover, A Passion for Mathematics, Wiley, 2005; see p. 66.
+%D A003001 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003001 de Faria, Edson, and Charles Tresser, <a href="http://arxiv.org/abs/1307.1188">On Sloane's persistence problem</a>, arXiv preprint arXiv:1307.1188 [math.DS], 2013.
+%H A003001 de Faria, Edson, and Charles Tresser, <a href="http://dx.doi.org/10.1080/10586458.2014.910849">On Sloane's persistence problem</a>, Experimental Math., 23 (No. 4, 2014), 363-382.
+%H A003001 M. R. Diamond, <a href="http://www.markdiamond.com.au/download/joous-3-1-1.pdf">Multiplicative persistence base 10: some new null results</a>, 2011.
+%H A003001 S. Perez, R. Styer, <a href="http://www41.homepage.villanova.edu/robert.styer/MultiplicativePersistence/PersistenceStephPerezJournalArtAug2013.pdf">Persistence: A Digit Problem</a>
+%H A003001 W. Schneider, <a href="http://web.archive.org/web/2004/www.wschnei.de/digit-related-numbers/persistence.html">The Persistence of a Number</a>
+%H A003001 N. J. A. Sloane, <a href="http://neilsloane.com/doc/persistence.html">The persistence of a number</a>, J. Recreational Math., 6 (1973), 97-98.
+%H A003001 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/MultiplicativePersistence.html">Multiplicative Persistence</a>
+%H A003001 Wikipedia, <a href="http://en.wikipedia.org/wiki/Persistence_of_a_number">Persistence of a number</a>
+%e A003001 77 -> 49 -> 36 -> 18 -> 8 has persistence 4.
+%t A003001 lst = {}; n = 0; Do[While[True, k = n; c = 0; While[k > 9, k = Times @@ IntegerDigits[k]; c++]; If[c == l, Break[]]; n++]; AppendTo[lst, n], {l, 0, 7}]; lst (* _Arkadiusz Wesolowski_, May 01 2012 *)
+%Y A003001 Cf. A031346 (persistence), A133500 (powertrain), A133048 (powerback), A006050, A007954, A031286, A031347, A033908, A046511, A121105-A121111.
+%K A003001 nonn,fini,nice,base
+%O A003001 0,2
+%A A003001 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035650
+Showing 1-1 of 1
+
+%I A035650
+%S A035650 0,0,0,0,0,0,0,1,0,0,1,0,1,3,0,1,3,1,3,6,1,3,8,3,7,12,3,9,16,7,15,22,
+%T A035650 9,19,30,16,29,40,20,38,54,32,54,69,41,70,93,61,95,118,78,124,156,110,
+%U A035650 163,195,141,211,255,192,271,317,245,349,409,323,441,506,412,562,644
+%N A035650 Number of partitions of n into parts 6k+3 and 6k+5 with at least one part of each type
+%K A035650 nonn
+%O A035650 1,14
+%A A035650 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

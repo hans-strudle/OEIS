@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011191
+Showing 1-1 of 1
+
+%I A011191
+%S A011191 6,3,7,4,18,1,21,35,76,82,56,25,98,149,111,170,166,195,113,306,221,
+%T A011191 367,533,373,360
+%N A011191 Coefficients in expansion of Pi as Sum a(n)/(n*n!*(n+1)!), n=1..inf, as found by greedy algorithm.
+%K A011191 nonn
+%O A011191 0,1
+%A A011191 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

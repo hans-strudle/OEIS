@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014975
+Showing 1-1 of 1
+
+%I A014975
+%S A014975 1,1,0,1,1,0,1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,
+%T A014975 1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,0,0,
+%U A014975 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014975 1,1,0,-1,-1,0,1,0,-1,-1,0,1,1,0,0,0,0,0,0,0,0,0,0,-1,-1,0,1,1,0,-1,0,
+%W A014975 1,1,0,-1,-1,0,0,0,0,0,0,0,0,0,0,1,1,0,-1,-1,0,1,0,-1,-1,0,1,1,0,0,0,
+%X A014975 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014975 Inverse of 966th cyclotomic polynomial.
+%p A014975 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014975 sign
+%O A014975 0,1
+%A A014975 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

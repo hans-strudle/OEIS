@@ -1,0 +1,30 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061503
+Showing 1-1 of 1
+
+%I A061503
+%S A061503 1,4,7,12,15,24,27,34,39,48,51,66,69,78,87,96,99,114,117,132,141,150,
+%T A061503 153,174,179,188,195,210,213,240,243,254,263,272,281,306,309,318,327,
+%U A061503 348,351,378,381,396,411,420,423,450,455,470,479,494,497
+%N A061503 Sum_{k<=n} (tau(k^2)), where tau is the number of divisors function A000005.
+%D A061503 Mentioned by _Steven Finch_ in a posting to the Number Theory List (NMBRTHRY(AT)LISTSERV.NODAK.EDU), Jun 13 2001.
+%H A061503 Harry J. Smith, <a href="/A061503/b061503.txt">Table of n, a(n) for n = 1..1024</a>
+%H A061503 Kevin A. Broughan, <a href="http://www.math.waikato.ac.nz/~kab/papers/div4.pdf">Restricted divisor sums</a>, Acta Arithmetica, vol. 101, (2002), pp. 105-114.
+%F A061503 a(n) = Sum_{1<=j<=n^2} (floor(n/A019554(j))), - Antonio G. Astudillo (afg_astudillo(AT)hotmail.com), Jul 20 2002
+%F A061503 a(n) = Sum(i=1..n, 2^omega(i) * floor(n/i)) . - _Enrique Pérez Herrero_, Sep 15 2012
+%F A061503 a(n) ~ 3/Pi^2 * n log^2 n. - _Charles R Greathouse IV_, Nov 08 2012
+%t A061503 DivisorSigma[0, Range[60]^2] // Accumulate (* _Jean-François Alcover_, Nov 25 2013 *)
+%o A061503 (PARI) for (n=1, 1024, write("b061503.txt", n, " ", sum(k=1, n, numdiv(k^2)))) \\ _Harry J. Smith_, Jul 23 2009
+%o A061503 (PARI) t=0;v=vector(60,n,t+=numdiv(n^2)) \\ _Charles R Greathouse IV_, Nov 08 2012
+%o A061503 (Sage) def A061503(n) :
+%o A061503     tau = sloane.A000005
+%o A061503     return add(tau(k^2) for k in (1..n))
+%o A061503 [ A061503(i) for i in (1..19)] # _Peter Luschny_, Sep 15 2012
+%Y A061503 Cf. A000005, A061502. Partial sums of A048691.
+%K A061503 nonn
+%O A061503 1,2
+%A A061503 _N. J. A. Sloane_, Jun 14 2001
+%E A061503 Name corrected by _Peter Luschny_, Sep 15 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

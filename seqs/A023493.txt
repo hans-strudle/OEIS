@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023493
+Showing 1-1 of 1
+
+%I A023493
+%S A023493 5,9,13,19,27,39,59,89,137,214,338,538,862,1384,2228,3593,5801,9373,
+%T A023493 15152,24502,39630,64107,103711,167791,271474,439236,710680,1149885,
+%U A023493 1860533,3010385,4870884,7881234,12752082,20633279,33385323
+%N A023493 a(n) = b(n) + d(n), where b(n) = (n-th Lucas number > 1) and d(n) = (n-th nonLucas number).
+%K A023493 nonn
+%O A023493 0,1
+%A A023493 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

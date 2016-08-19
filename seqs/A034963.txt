@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034963
+Showing 1-1 of 1
+
+%I A034963
+%S A034963 17,26,36,48,60,72,88,102,120,138,152,168,184,202,220,240,258,272,290,
+%T A034963 306,324,348,370,390,408,420,432,456,480,508,534,556,576,596,620,638,
+%U A034963 660,682,700,724,744,762,780,800,830,860,890,912,928,942,964,988,1012
+%N A034963 Sums of four consecutive primes.
+%e A034963 E.g. 88 = 17 + 19 + 23 + 29.
+%p A034963 A034963 := proc(n)
+%p A034963     add(ithprime(i), i=n..n+3) ;
+%p A034963 end proc: # _R. J. Mathar_, Jun 06 2013
+%t A034963 Plus@@@Partition[Prime[Range[6! ]],4,1] (* _Vladimir Joseph Stephan Orlovsky_, Feb 18 2010 *)
+%o A034963 (Sage) BB = primes_first_n(59) list = [] for i in range(55): list.append(BB[i]+BB[i+1]+BB[i+2]+BB[i+3]) list # _Zerinvary Lajos_, May 14 2007
+%o A034963 (MAGMA) [&+[ NthPrime(n+k): k in [0..3] ]: n in [1..90] ]; /* _Vincenzo Librandi_, Apr 03 2011 */
+%o A034963 (PARI) a(n)=my(p=prime(n));p+sum(i=1,3,p=nextprime(p+1)) \\ _Charles R Greathouse IV_, Jul 01 2013
+%Y A034963 Cf. A001043, A011974, A034707.
+%K A034963 nonn,easy
+%O A034963 1,1
+%A A034963 _Patrick De Geest_, Oct 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

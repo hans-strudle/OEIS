@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055663
+Showing 1-1 of 1
+
+%I A055663
+%S A055663 220,4004,43680,371280,2713200,17907120,109830336,637408200,
+%T A055663 3543239700,19028509500,99348849600,506679132960,2533395664800,
+%U A055663 12454385680800,60338017584000,288616850776800,1365157704174264,6393385628146440
+%N A055663 Number of (3,3; n,n)-partitions of a chain of length n^2+n.
+%C A055663 a (k_1,n_1; k_2,n_2)-partition of a chain C is a chain of k_1+k_2 intervals of C, k_1 being of length n_1 and k_2 of length n_2.
+%H A055663 Vincenzo Librandi, <a href="/A055663/b055663.txt">Table of n, a(n) for n = 9..200</a>
+%F A055663 a(n)=16/3*(2*n-7)*(2*n-9)*(2*n-11)*(2*n-13)*(n-8)*(2*n-15)!/(n*(n-1)*(n-2)*(n-8)!^2)
+%e A055663 a(9)=220 because in the linearly ordered set {1,..,90} we can choose in 220 ways 12 successive blocks, 3 constituted of 3 consecutive elements and 9 of 9 consecutive elements.
+%o A055663 (MAGMA) [16/3*(2*n-7)*(2*n-9)*(2*n-11)*(2*n-13)*(n-8)*Factorial(2*n-15)/(n*(n-1)*(n-2)*Factorial(n-8)^2): n in [9..30]]; // Vincenzo Librandi, Jun 30 2011
+%K A055663 nonn
+%O A055663 9,1
+%A A055663 Paolo Dominici (pl.dm(AT)libero.it), Jun 07 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

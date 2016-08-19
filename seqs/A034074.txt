@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034074
+Showing 1-1 of 1
+
+%I A034074
+%S A034074 2,3,6,11,21,39,69,119,199,323,795,829,866,903,942,982,1024,1067,1113,
+%T A034074 1159,1208,1258,1310,1364,1420,1478,1539,1601,1665,1732,1802,1873,
+%U A034074 1948,2024,2104,2186,2271,2360,2451,2545,2642,2743,2847,2955,3066,3181,3300
+%N A034074 Decimal part of a(n)^(1/9) starts with n so that a(n)<a(n+1).
+%e A034074 a(9)=323 -> 323^(1/9)=1.{9}0020422...: a(10)=795 -> 795^(1/9)=2.{10}021141... and a(9)=323 < a(10)=795.
+%Y A034074 Cf. A034064, A034084.
+%K A034074 nonn,base
+%O A034074 0,1
+%A A034074 _Patrick De Geest_, Sep 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

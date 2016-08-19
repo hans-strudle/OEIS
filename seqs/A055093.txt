@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055093
+Showing 1-1 of 1
+
+%I A055093
+%S A055093 0,2,2,3,3,2,2,4,3,4,4,3,3,4,2,3,4,4,4,3,3,2,4,4,2,4,4,5,5,4,3,5,4,5,
+%T A055093 5,4,4,5,3,4,5,5,5,4,4,3,5,5,3,5,4,5,5,4,2,4,3,4,4,3,4,5,4,5,5,5,5,4,
+%U A055093 5,4,5,5,4,5,3,4,5,5,3,4,2,3,4,4,4,5,4,5,5,5,5,5,5,5,4,4,5,4,4,3,5,5,4,3,3
+%N A055093 Number of moved (non-fixed) elements in each permutation of the canonical list A055089, i.e. the sum of the cycle lengths (excluding the 1-cycles, i.e. fixed elements).
+%H A055093 Tilman Piesk, <a href="https://en.wikiversity.org/wiki/Permutations_and_partitions_in_the_OEIS">Permutations and partitions in the OEIS</a> (Wikiversity)
+%F A055093 a(n) = count_nonfixed(convert(PermRevLexUnrank(j), 'disjcyc'))
+%p A055093 count_nonfixed := l -> convert(map(nops,l), `+`);
+%Y A055093 A055093[n] = A055090[n] + A055091[n]. Cf. also A055092.
+%K A055093 nonn
+%O A055093 0,2
+%A A055093 _Antti Karttunen_, Apr 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

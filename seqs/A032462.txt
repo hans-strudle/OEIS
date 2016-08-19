@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032462
+Showing 1-1 of 1
+
+%I A032462
+%S A032462 8,9,24,32,71,117,141,144,369,393,575,837,921,1007,3825,3837,18813,
+%T A032462 21731,25233,36261,57104
+%N A032462 Numbers n such that 171*2^n+1 is prime.
+%H A032462 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032462 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032462 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032462 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032462 nonn,hard
+%O A032462 1,1
+%A A032462 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

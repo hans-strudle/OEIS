@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a048767
+Showing 1-1 of 1
+
+%I A048767
+%S A048767 1,2,4,3,8,8,16,5,9,16,32,12,64,32,32,7,128,18,256,24,64,64,512,20,27,
+%T A048767 128,25,48,1024,64,2048,11,128,256,128,27,4096,512,256,40,8192,128,
+%U A048767 16384,96,72,1024,32768,28,81,54,512,192,65536,50,256,80,1024,2048
+%N A048767 If n = Product (p_j^k_j) then a(n) = Product ( prime(k_j)^pi(p_j) ) where pi is A000720.
+%H A048767 Alois P. Heinz, <a href="/A048767/b048767.txt">Table of n, a(n) for n = 1..10000</a>
+%e A048767 E.g. n=6=(2^1)*(3^1), a(6)=([ first prime ]^pi[ 2 ])*([ first prime ]^pi[ 3 ])=(2^1)*(2^2)=8.
+%p A048767 A048767 := proc(n)
+%p A048767     local a,p,e,f;
+%p A048767     a := 1 ;
+%p A048767     for f in ifactors(n)[2] do
+%p A048767         p := op(1,f) ;
+%p A048767         e := op(2,f) ;
+%p A048767         a := a*ithprime(e)^numtheory[pi](p) ;
+%p A048767     end do:
+%p A048767     a ;
+%p A048767 end proc: # _R. J. Mathar_, Nov 08 2012
+%Y A048767 Cf. A008477, A048768, A048769.
+%K A048767 easy,nonn,mult
+%O A048767 1,2
+%A A048767 _Naohiro Nomoto_
+%E A048767 a(1)=1 prepended by _Alois P. Heinz_, Jul 26 2015
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

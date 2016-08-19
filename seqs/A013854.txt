@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013854
+Showing 1-1 of 1
+
+%I A013854
+%S A013854 10,1000000,100000000000,10000000000000000,1000000000000000000000,
+%T A013854 100000000000000000000000000,10000000000000000000000000000000,
+%U A013854 1000000000000000000000000000000000000,100000000000000000000000000000000000000000
+%N A013854 10^(5*n+1).
+%H A013854 Vincenzo Librandi, <a href="/A013854/b013854.txt">Table of n, a(n) for n = 0..50</a>
+%H A013854 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013854 (MAGMA) [10^(5*n+1): n in [0..10]]; // Vincenzo Librandi, Jul 08 2011
+%K A013854 nonn,easy
+%O A013854 0,1
+%A A013854 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

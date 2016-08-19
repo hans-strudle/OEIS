@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010996
+Showing 1-1 of 1
+
+%I A010996
+%S A010996 1,44,990,15180,178365,1712304,13983816,99884400,636763050,3679075400,
+%T A010996 19499099620,95722852680,438729741450,1889912732400,7694644696200,
+%U A010996 29752626158640,109712808959985,387221678682300,1312251244423350,4282083008118300,13488561475572645
+%N A010996 Binomial coefficient C(n,43).
+%H A010996 T. D. Noe, <a href="/A010996/b010996.txt">Table of n, a(n) for n = 43..1000</a>
+%F A010996 G.f.: x^43/(1-x)^44. [_Zerinvary Lajos_, Dec 20 2008]
+%p A010996 seq(binomial(n,43),n=43..57); # _Zerinvary Lajos_, Dec 20 2008
+%t A010996 Table[Binomial[n, 43], {n, 43, 70}] (* _Vladimir Joseph Stephan Orlovsky_, May 16 2011 *)
+%o A010996 (MAGMA) [Binomial(n, 43): n in [43..70]]; // _Vincenzo Librandi_, Jun 12 2013
+%Y A010996 Cf. A010994, A010996.
+%K A010996 nonn,easy
+%O A010996 43,2
+%A A010996 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

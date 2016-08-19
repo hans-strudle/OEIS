@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040350
+Showing 1-1 of 1
+
+%I A040350
+%S A040350 19,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,
+%T A040350 4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,
+%U A040350 4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4,38,4,4
+%N A040350 Continued fraction for sqrt(370).
+%H A040350 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040350 a(n)=21+17*(-1)^n-19*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 28 2009]
+%p A040350 with(numtheory): Digits := 300: convert(evalf(sqrt(370)),confrac);
+%K A040350 nonn,cofr,easy
+%O A040350 0,1
+%A A040350 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

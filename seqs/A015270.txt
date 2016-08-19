@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015270
+Showing 1-1 of 1
+
+%I A015270
+%S A015270 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015270 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015270 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015270 Inverse of 1261st cyclotomic polynomial.
+%p A015270 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015270 sign
+%O A015270 0,1
+%A A015270 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

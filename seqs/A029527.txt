@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a029527
+Showing 1-1 of 1
+
+%I A029527
+%S A029527 1,3,9,27,99,471,60237,1028301,1085427,2851947
+%N A029527 Numbers n such that n divides the (left) concatenation of all numbers <= n written in base 10 (most significant digit on right).
+%C A029527 This sequence differs from A061963 in that all least significant zeros are removed before concatenation.
+%C A029527 No more terms < 10^7. [Lars Blomberg, Sep 12 2011]
+%H A029527 <a href="/index/N#concat">Index entries for related sequences</a>
+%e A029527 See A029519 for example.
+%Y A029527 Cf. A029447-A029470, A029471-A029494, A029495-A029518, A029519-A029542, A061931-A061954, A061955-A061978.
+%K A029527 nonn,base
+%O A029527 1,2
+%A A029527 _Olivier Gérard_
+%E A029527 Edited and updated by Larry Reeves (larryr(AT)acm.org), Apr 12 2002
+%E A029527 Additional comments from Larry Reeves (larryr(AT)acm.org), May 25 2001. a(7) from Larry Reeves (larryr(AT)acm.org) Jan 14 2002
+%E A029527 a(8)-a(10) from _Lars Blomberg_, Sep 11 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

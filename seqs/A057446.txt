@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057446
+Showing 1-1 of 1
+
+%I A057446
+%S A057446 73,19,31,101,73,19,31,101,73,19,31,101,73,19,31,101,73,19,31,101,73,
+%T A057446 19,31,101,73,19,31,101,73,19,31,101,73,19,31,101,73,19,31,101,73,19,
+%U A057446 31,101,73,19,31,101,73,19,31,101,73,19,31,101,73,19,31,101
+%N A057446 To get next term, multiply by 13, add 1 and discard any prime factors < 13.
+%C A057446 This is the `13x+1' map. The `Px+1 map': if x is divisible by any prime < P then divide out these primes one at a time starting with the smallest; otherwise multiply x by P and add 1.
+%D A057446 Murad A. AlDamen, Smarandache Notion Journal, "Murad iterating function" [details?].
+%D A057446 Murad A. AlDamen, Murad iterating function, Journal of University of Jerash, 2001, to appear.
+%H A057446 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CollatzProblem.html">Collatz problem</a>
+%e A057446 73 -> 19*73+1 = 950 = 2*5^2*19 -> 19, so second term is 19.
+%Y A057446 Cf. A057216, A057522 (long version), A057534, A057614.
+%K A057446 nonn
+%O A057446 0,1
+%A A057446 Murad A. AlDamen (Divisibility(AT)yahoo.com), Oct 17 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

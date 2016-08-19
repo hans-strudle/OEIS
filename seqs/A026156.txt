@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a026156
+Showing 1-1 of 1
+
+%I A026156
+%S A026156 1,4,20,111,616,3464,19656,112370,646272,3735324,21678696,126256361,
+%T A026156 737513400,4319243760,25352692620,149108262264,878502339712,
+%U A026156 5184007871160,30633757767144,181253849830625
+%N A026156 a(n) = T(2n-1,n), where T is the array in A026148.
+%K A026156 nonn
+%O A026156 2,2
+%A A026156 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

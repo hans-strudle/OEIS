@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049238
+Showing 1-1 of 1
+
+%I A049238
+%S A049238 1,2,2,3,2,4,2,4,4,2,4,4,2,6,4,4,2,4,4,2,4,5,4,4,6,2,8,2,4,4,4,8,2,6,
+%T A049238 2,4,4,8,6,4,2,8,2,8,2,4,4,9,2,8,4,2,4,8,6,4,2,6,6,2,4,4,4,2,12,4,4,8,
+%U A049238 2,8,8,4,4,4,4,6,4,8,4,4,2,8,2,4,9,4,8,8,2,8,6,4,4,4,4,6,4,2,6,4,8,8,10
+%N A049238 Number of divisors of p_k-2, where p_k is the k-th prime.
+%F A049238 DivisorSigma[ 0, Prime[ n ]-2 ]
+%e A049238 p(23)=83, a(23)=A000005(83-2)=DivisorSigma[ 0,81 ]=5
+%K A049238 nonn
+%O A049238 1,2
+%A A049238 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059172
+Showing 1-1 of 1
+
+%I A059172
+%S A059172 8,16,27,32,48,54,64,72,81,96,108,125,128,144,160,162,192,200,216,224,
+%T A059172 243,250,256,288,320,324,343,375,384,392,400,405,432,448,486,500,512,
+%U A059172 567,576,625,640,648,675,686,704,729,768,784,800,832,864,896,960,968
+%N A059172 Numbers n such that n divided by {largest squarefree to divide n} is > sqrt(n).
+%C A059172 Numbers c which have measure of smoothness J bigger as 2. Where J=Log[c]/Log[N(c)], where N(c) is product of distinct prime divisors of c. [From _Artur Jasinski_, Feb 02 2010]
+%e A059172 48 is included because 6 is largest squarefree to divide 48 and 48 /6 = 8 > sqrt(48).
+%t A059172 aa = {}; Do[kk = FactorInteger[c]; nn = 1; Do[nn = nn*kk[[n]][[1]], {n, 1, Length[kk]}]; If[Log[c]/Log[nn] >= 2,AppendTo[aa, c]], {c, 2, 1000}]; aa (*Artur Jasinski*) [From _Artur Jasinski_, Feb 02 2010]
+%K A059172 nonn
+%O A059172 1,1
+%A A059172 _Leroy Quet_, Feb 14 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

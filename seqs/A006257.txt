@@ -1,0 +1,77 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006257
+Showing 1-1 of 1
+
+%I A006257 M2216
+%S A006257 0,1,1,3,1,3,5,7,1,3,5,7,9,11,13,15,1,3,5,7,9,11,13,15,17,19,21,23,25,
+%T A006257 27,29,31,1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,
+%U A006257 43,45,47,49,51,53,55,57,59,61,63,1,3,5,7,9,11,13,15,17,19,21,23,25,27,29
+%N A006257 Josephus problem: a(2n) = 2*a(n)-1, a(2n+1) = 2*a(n)+1.
+%C A006257 Write the numbers 1 through n in a circle, start at 1 and cross off every other number until only one number is left.
+%C A006257 A version of the children's game "One potato, two potato, ...".
+%C A006257 a(n)/A062383(n) = (0, 0.1, 0.01, 0.11, 0.001, ...) enumerates all binary fractions in the unit interval [0, 1). - _Fredrik Johansson_, Aug 14 2006
+%C A006257 In base 2 n-a(n) is equal to n with all digits reverted (leading zeros not considered). For instance a(43)=23 -> 43 is 101011, 43-23 = 20 is 10100. - _Paolo P. Lava_, Mar 09 2010
+%C A006257 Iterating a(n), a(a(n)), ... eventually leads to 2^A000120(n) - 1. - _Franklin T. Adams-Watters_, Apr 09 2010
+%C A006257 By inspection, the solution to the Josephus Problem is a sequence of odd numbers (from 1) starting at each power of 2.  This yields a direct closed form expression (see formula below). - _Gregory Pat Scandalis_, Oct 15 2013
+%C A006257 Also zero together with a triangle read by rows in which row n lists the first 2^(n-1) odd numbers (see A005408), n >= 1. Row lengths give A011782. Right border gives A000225. Row sums give A000302, n >= 1. See example. - _Omar E. Pol_, Oct 16 2013
+%C A006257 For n > 0: a(n) = n + 1 - A080079(n). - _Reinhard Zumkeller_, Apr 14 2014
+%D A006257 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 10.
+%D A006257 M. S. Petković, "Josephus problem", Famous Puzzles of Great Mathematicians, page 179, Amer. Math. Soc.(AMS), 2009.
+%D A006257 Michel Rigo, Formal Languages, Automata and Numeration Systems, 2 vols., Wiley, 2014. Mentions this sequence - see "List of Sequences" in Vol. 2.
+%D A006257 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006257 P. Weisenhorn, Josephus und seine Folgen, MNU, 59(2006)18-19. [From _Paul Weisenhorn_, Oct 10 2010]
+%H A006257 T. D. Noe, <a href="/A006257/b006257.txt">Table of n, a(n) for n=0..1000</a>
+%H A006257 J.-P. Allouche and J. Shallit, <a href="http://dx.doi.org/10.1016/0304-3975(92)90001-V">The ring of k-regular sequences</a>, Theoretical Computer Sci., 98 (1992), 163-197, ex. 34.
+%H A006257 J.-P. Allouche and J. Shallit, <a href="http://dx.doi.org/10.1016/S0304-3975(03)00090-2">The ring of k-regular sequences, II</a>, Theoret. Computer Sci., 307 (2003), 3-29.
+%H A006257 Chris Groër, <a href="http://www.jstor.org/stable/3647800">The Mathematics of Survival: From Antiquity to the Playground</a>, Amer. Math. Monthly, 110 (No. 9, 2003), 812-825.
+%H A006257 R. Stephan, <a href="/somedcgf.html">Some divide-and-conquer sequences ...</a>
+%H A006257 R. Stephan, <a href="/A079944/a079944.ps">Table of generating functions</a>
+%H A006257 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/JosephusProblem.html">Josephus Problem</a>
+%H A006257 Wikipedia, <a href="http://en.wikipedia.org/wiki/Josephus_problem">Josephus problem</a>
+%F A006257 To get a(n), write n in binary, rotate left 1 place.
+%F A006257 a(n) = 2*A053645(n) + 1 = 2(n-msb(n))+1. - _Marc LeBrun_, Jul 11 2001. Here "msb" = "most significant bit", A053644.
+%F A006257 G.f.: 1 + 2/(1-x) * ((3*x-1)/(2-2*x) - sum_{k>=1} 2^(k-1)*x^2^k). - _Ralf Stephan_, Apr 18 2003
+%F A006257 a(n) = number of positive integers k < n such that n XOR k < n. a(n) = n - A035327(n). - _Paul D. Hanna_, Jan 21 2006
+%F A006257 a(n) = n for n=2^k-1. - _Zak Seidov_, Dec 14, 2006
+%F A006257 a(n) = n - A035327(n). [_K. Spage_, Oct 22 2009]
+%F A006257 a(2^m+k)=1+2*k; with 0<=m and 0<=k<2^m; n=2^m+k; m=floor(lb(n)); k=n-2^m; a(n)=(a(n-1)+1)mod n +1; a(1)=1. - _Paul Weisenhorn_, Oct 10 2010
+%F A006257 a(n) = 2*(n - 2^floor(log2(n))) + 1 (see comment above). - _Gregory Pat Scandalis_, Oct 15 2013
+%F A006257 a(n) = 0 if n = 0 and a(n) = 2*a(floor(n/2)) - (-1)^(n mod 2) if n > 0. - _Marek A. Suchenek_, Mar 31 2016
+%e A006257 Written as an irregular triangle the sequence begins:
+%e A006257 0;
+%e A006257 1;
+%e A006257 1,3;
+%e A006257 1,3,5,7;
+%e A006257 1,3,5,7,9,11,13,15;
+%e A006257 1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31;
+%e A006257 1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59,61,63;
+%e A006257   [_Omar E. Pol_, Jun 09 2009]
+%e A006257 n=27; m=4; k=11; a(27)=1+2*11=23. - _Paul Weisenhorn_, Oct 10 2010
+%p A006257 a(0):=0: for n from 1 to 100 do a(n):=(a(n-1)+1) mod n +1: end do:
+%p A006257 seq(a(i),i=0..100); # _Paul Weisenhorn_, Oct 10 2010
+%p A006257 A006257 := proc(n)
+%p A006257     convert(n,base,2) ;
+%p A006257     ListTools[Rotate](%,-1) ;
+%p A006257     add( op(i,%)*2^(i-1),i=1..nops(%)) ;
+%p A006257 end proc: # _R. J. Mathar_, May 20 2016
+%t A006257 Table[ FromDigits[ RotateLeft[ IntegerDigits[n, 2]], 2], {n, 0, 80}] (* _Robert G. Wilson v_ *)
+%t A006257 Flatten@Table[Range[1, 2^n - 1, 2], {n, 0, 5}] (* _Birkas Gyorgy_ *)
+%t A006257 m = 5; Range[2^m - 1] + 1 - Flatten@Table[Reverse@Range[2^n], {n, 0, m - 1}] (* _Birkas Gyorgy_ *)
+%o A006257 (PARI) a(n)=sum(k=1,n,if(bitxor(n,k)<n,1,0)) (Hanna)
+%o A006257 (Haskell)
+%o A006257 a006257 n = a006257_list !! n
+%o A006257 a006257_list =
+%o A006257    0 : 1 : (map (+ 1) $ zipWith mod (map (+ 1) $ tail a006257_list) [2..])
+%o A006257 -- _Reinhard Zumkeller_, Oct 06 2011
+%o A006257 (MAGMA) [0] cat [2*(n-2^Floor(Log(2,n)))+1: n in [1..100]]; // _Vincenzo Librandi_, Jan 14 2016
+%Y A006257 Cf. A005428, A054995, A038572, A053644, A053645, A088147, A088442, A035327.
+%Y A006257 Second column of triangle A032434. Diagonal of triangle A032434.
+%Y A006257 Cf. A181281 (with s=5), A054995 (with s=3).
+%K A006257 nonn,easy,nice,changed
+%O A006257 0,4
+%A A006257 _N. J. A. Sloane_
+%E A006257 More terms from _Robert G. Wilson v_, Sep 21 2003
+%E A006257 Errors in Maple program corrected by _Robert Israel_, Jan 13 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

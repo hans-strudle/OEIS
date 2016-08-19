@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006712
+Showing 1-1 of 1
+
+%I A006712 M4311
+%S A006712 6,480,197820,150474240,208857587400,471804812519040,
+%T A006712 1625459273858019600,8112729590064978278400,56342429224416522460072800
+%N A006712 Number of 3-edge-colored trivalent graphs with 2n labeled nodes.
+%D A006712 R. C. Read, Some Enumeration Problems in Graph Theory. Ph.D. Dissertation, Department of Mathematics, Univ. London, 1958.
+%D A006712 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006712 Sean A. Irvine, <a href="/A006712/a006712.pdf">Illustration of initial terms</a>
+%H A006712 R. C. Read, <a href="/A002831/a002831.pdf">Letter to N. J. A. Sloane, Feb 04 1971</a> (gives initial terms of this sequence)
+%Y A006712 Cf. A006713 (for connected cases), A248361 (for the incorrect values). See also A002830, A002831, A005638.
+%K A006712 nonn,more
+%O A006712 2,1
+%A A006712 _N. J. A. Sloane_.
+%E A006712 a(5) and a(6) corrected and new terms added by _Sean A. Irvine_, Oct 05 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

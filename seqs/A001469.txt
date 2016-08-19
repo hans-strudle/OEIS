@@ -1,0 +1,91 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001469
+Showing 1-1 of 1
+
+%I A001469 M3041 N1233
+%S A001469 1,1,3,17,155,2073,38227,929569,28820619,1109652905,51943281731,
+%T A001469 2905151042481,191329672483963,14655626154768697,
+%U A001469 1291885088448017715,129848163681107301953,14761446733784164001387
+%V A001469 -1,1,-3,17,-155,2073,-38227,929569,-28820619,1109652905,-51943281731,
+%W A001469 2905151042481,-191329672483963,14655626154768697,
+%X A001469 -1291885088448017715,129848163681107301953,-14761446733784164001387
+%N A001469 Genocchi numbers (of first kind); unsigned coefficients give expansion of x*tan(x/2).
+%C A001469 The Genocchi numbers satisfy Seidel's recurrence: for n>1, 0 = sum{j=0..[n/2], C(n,2j)*a(n-j)}. - _Ralf Stephan_, Apr 17 2004
+%C A001469 The (n+1)st Genocchi number is the number of Dumont permutations of the first kind on 2n letters. In a Dumont permutation of first kind, each even integer must be followed by a smaller integer and each odd integer is either followed by a larger integer or is the last element. - _Ralf Stephan_, Apr 26 2004
+%D A001469 R. C. Archibald, Review of Terrill-Terrill paper, Math. Comp., 1 (1945), pp. 385-386.
+%D A001469 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 49.
+%D A001469 Dumont, Dominique. Sur une conjecture de Gandhi concernant les nombres de Genocchi. (French) Discrete Math. 1 (1972), no. 4, 321--327. MR0296012 (45 #5073)
+%D A001469 D. Dumont, Interpretations combinatoires des nombres de Genocchi, Duke Math. J., 41 (1974), 305-318.
+%D A001469 Dumont, Dominique and Randrianarivony, Arthur, Sur une extension des nombres de Genocchi, European J. Combin. 16 (1995), 147-151.
+%D A001469 Dumont, Dominique and Randrianarivony, Arthur, Derangements et nombres de Genocchi, Discrete Math. 132 (1994), 37-49.
+%D A001469 R. Ehrenborg and E. Steingrimsson, Yet another triangle for the Genocchi numbers, Europ. J. Combin., 21 (2000), 593-600.
+%D A001469 L. Euler, Institutionum Calculi Differentialis, volume 2 (1755), para. 181.
+%D A001469 A. Fletcher, J. C. P. Miller, L. Rosenhead and L. J. Comrie, An Index of Mathematical Tables. Vols. 1 and 2, 2nd ed., Blackwell, Oxford and Addison-Wesley, Reading, MA, 1962, Vol. 1, p. 73.
+%D A001469 Gandhi, J. M. Research Problems: A Conjectured Representation of Genocchi Numbers. Amer. Math. Monthly 77 (1970), no. 5, 505--506.MR1535914
+%D A001469 A. Genocchi, Intorno all'espressione generale de'numeri Bernulliani, Ann. Sci. Mat. Fis., 3 (1852), 395-405.
+%D A001469 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 528.
+%D A001469 J. M. Hammersley, An undergraduate exercise in manipulation, Math. Scientist, 14 (1989), 1-23.
+%D A001469 G. Kreweras, Sur les permutations compte'es par les nombres de Genocchi..., Europ. J. Comb., vol. 18, pp. 49-58, 1997.
+%D A001469 D. H. Lehmer, Lacunary recurrence formulas for the numbers of Bernoulli and Euler, Annals Math., 36 (1935), 637-649.
+%D A001469 Riordan, John; Stein, Paul R. Proof of a conjecture on Genocchi numbers. Discrete Math. 5 (1973), 381--388. MR0316372 (47 #4919).
+%D A001469 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001469 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A001469 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 2, 1999; see Problem 5.8.
+%D A001469 H. M. Terrill and E. M. Terrill, Tables of numbers related to the tangent coefficients, J. Franklin Inst., 239 (1945), 64-67.
+%D A001469 G. Viennot, Interpretations combinatoires des nombres d'Euler et de Genocchi, Seminar on Number Theory, 1981/1982, No. 11, 94 pp., Univ. Bordeaux I, Talence, 1982.
+%H A001469 T. D. Noe, <a href="/A001469/b001469.txt">Table of n, a(n) for n=1..100</a>
+%H A001469 F. Alayont and N. Krzywonos, <a href="http://faculty.gvsu.edu/alayontf/notes/rook_polynomials_higher_dimensions_preprint.pdf">Rook Polynomials in Three and Higher Dimensions</a>, 2012.
+%H A001469 Alexander Burstein, Sergi Elizalde and Toufik Mansour, <a href="http://arXiv.org/abs/math.CO/0610234">Restricted Dumont permutations, Dyck paths and noncrossing partitions</a>, arXiv math.CO/0610234.
+%H A001469 M. Domaratzki, <a href="http://www.cs.queensu.ca/TechReports/Reports/2001-449.ps">A Generalization of the Genocchi Numbers with Applications to ...</a>
+%H A001469 M. Domaratzki, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL7/Domaratzki/doma23.html">Combinatorial Interpretations of a Generalization of the Genocchi Numbers</a>, Journal of Integer Sequences, Vol. 7 (2004), Article 04.3.6.
+%H A001469 I. M. Gessel, <a href="http://www.arXiv.org/abs/math.CO/0108121">Applications of the classical umbral calculus</a>.
+%H A001469 Qui-Ming Luo, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL12/Luo/luo6.html">Fourier expansions and integral representations for Genocchi Polynomials</a>, JIS 12 (2009) 09.1.4
+%H A001469 T. Mansour, <a href="http://arXiv.org/abs/math.CO/0209379">Restricted 132-Dumont permutations</a>.
+%H A001469 A. Randrianarivony and J. Zeng, <a href="http://dx.doi.org/10.1006/aama.1996.0001">Une famille de polynomes qui interpole plusieurs suites...</a>, Adv. Appl. Math. 17 (1996), 1-26.
+%H A001469 N. J. A. Sloane, <a href="/A001469/a001469_1.pdf">Rough notes on Genocchi numbers</a>
+%H A001469 H. M. Terrill and E. M. Terrill, <a href="/A001469/a001469.pdf">Tables of numbers related to the tangent coefficients</a>, J. Franklin Inst., 239 (1945), 64-67. [Annotated scanned copy]
+%H A001469 H. J. H. Tuenter, <a href="http://arXiv.org/abs/math.NT/0606080">Walking into an absolute sum</a>, arXiv:math.NT/0606080 (2006)
+%H A001469 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/GenocchiNumber.html">Genocchi Number.</a>
+%H A001469 J. Worpitsky, <a href="/A001469/a001469_2.pdf">Studien ueber die Bernoullischen und Eulerschen Zahlen</a>, Journal fur die reine undangewandte Mathematik (Crelle), 94 (1883), 203-232. See page 232. [Annotated scanned copy]
+%H A001469 <a href="/index/Be#Bernoulli">Index entries for sequences related to Bernoulli numbers.</a>
+%F A001469 a(n) = 2*(1-4^n)*B_{2n} (B = Bernoulli numbers).
+%F A001469 x*tan(x/2) = Sum_{n>=1} x^(2*n)*abs(a(n))/(2*n)! = x^2/2 + x^4/24 + x^6/240 + 17*x^8/40320 + 31*x^10/725760 + O(x^11).
+%F A001469 E.g.f.: 2*x/(1 + exp(x)) = x + Sum_{n >= 1} a(2*n)*x^(2*n)/(2*n)! = - x^2/2! + x^4/4! - 3 x^6/6! + 17 x^8/8! + ...
+%F A001469 O.g.f.: Sum_{n>=0} n!^2 * (-x)^(n+1) / Product_{k=1..n} (1 - k^2*x). [_Paul D. Hanna_, Jul 21 2011]
+%F A001469 a(n) = sum(k=0..2n-1, 2^k*B(k)*C(2*n,k)) where B(k) is the k-th Bernoulli number and C(n,k) = binomial(n,k). - _Benoit Cloitre_, May 31 2003
+%F A001469 abs(a(n)) = Sum_{k=0..2*n} (-1)^(n-k+1)*Stirling2(2*n, k)*A059371(k). - _Vladeta Jovovic_, Feb 07 2004
+%F A001469 G.f.: -x/(1+x/(1+2x/(1+4x/(1+6x/(1+9x/(1+12x/(1+16x/(1+20x/(1+25x/(1+...(continued fraction). - _Philippe Deléham_, Nov 22 2011
+%F A001469 E.g.f.: E(x)=2*x/(exp(x)+1)=x*(1-(x^3+2*x^2)/(2*G(0)-x^3-2*x^2)) ; G(k)= 8*k^3 + (12+4*x)*k^2 + (4+6*x+2*x^2)*k + x^3+2*x^2+2*x - 2*(x^2)*(k+1)*(2*k+1)*(x+2*k)*(x+2*k+4)/G(k+1); (continued fraction, Euler's kind, 1-step). - _Sergei N. Gladkovskii_, Jan 18 2012
+%F A001469 a(n) = (-1)^n*(2*n)!*Pi^(-2*n)*4*(1-4^(-n))*Li{2*n}(1). - _Peter Luschny_, Jun 29 2012
+%F A001469 Asymptotic: abs(a(n)) ~ 8*Pi*(2^(2*n)-1)*(n/(Pi*exp(1)))^(2*n+1/2)*exp(1/2+(1/24)/n-(1/2880)/n^3+(1/40320)/n^5+...). - _Peter Luschny_, Jul 24 2013
+%F A001469 G.f.: x/(T(0)-x) -1, where T(k) = 2*x*k^2 + 4*x*k + 2*x -1 - x*(-1+x+2*x*k+x*k^2)*(k+2)^2/T(k+1) ; (continued fraction). - _Sergei N. Gladkovskii_, Nov 17 2013
+%F A001469 G.f.: -1 + x/(T(0)+x), where T(k) = 1 + (k+1)*(k+2)*x/(1 + x*(k+2)^2/T(k+1) ); (continued fraction). - _Sergei N. Gladkovskii_, Nov 17 2013
+%p A001469 A001469 := proc(n::integer) (2*n)!*coeftayl( 2*x/(exp(x)+1), x=0,2*n) end proc:
+%p A001469 for n from 1 to 20 do print(A001469(n)) od : # _R. J. Mathar_, Jun 22 2006
+%t A001469 a[n_] := 2*(1-4^n)*BernoulliB[2n]; Table[a[n], {n, 1, 17}] (* _Jean-François Alcover_, Nov 24 2011 *)
+%t A001469 a[n_] := 2*n*EulerE[2*n-1, 0]; Table[a[n], {n, 1, 17}] (* _Jean-François Alcover_, Jul 02 2013 *)
+%o A001469 (PARI) a(n)=if(n<1,0,n*=2; 2*(1-2^n)*bernfrac(n))
+%o A001469 (PARI) {a(n)=polcoeff(sum(m=0, n, m!^2*(-x)^(m+1)/prod(k=1, m, 1-k^2*x+x*O(x^n))), n)} /* _Paul D. Hanna_, Jul 21 2011 */
+%o A001469 (Sage) # Algorithm of L. Seidel (1877)
+%o A001469 # n -> [a(1), ..., a(n)] for n >= 1.
+%o A001469 def A001469_list(n) :
+%o A001469     D = [0]*(n+2); D[1] = -1
+%o A001469     R = []; b = False
+%o A001469     for i in(0..2*n-1) :
+%o A001469         h = i//2 + 1
+%o A001469         if b :
+%o A001469             for k in range(h-1, 0, -1) : D[k] -= D[k+1]
+%o A001469         else :
+%o A001469             for k in range(1, h+1, 1) :  D[k] -= D[k-1]
+%o A001469         b = not b
+%o A001469         if not b : R.append(D[h])
+%o A001469     return R
+%o A001469 A001469_list(17) # _Peter Luschny_, Jun 29 2012
+%Y A001469 Cf. A000182, A006846, A012509. a(n)=-A065547(n, 1) and A065547(n+1, 2), n>=1.
+%Y A001469 Cf. A226158.
+%K A001469 sign,easy,nice
+%O A001469 1,3
+%A A001469 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

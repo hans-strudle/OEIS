@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a061254
+Showing 1-1 of 1
+
+%I A061254
+%S A061254 9,15,21,33,35,39,45,51,63,65,75,93,105,111,119,121,123,135,145,185,
+%T A061254 195,201,207,209,225,231,235,245,285,287,299,301,321,335,363,399,423,
+%U A061254 453,473,693,707,771,1047,1113,1215,1365,1371,1387,1533,1537
+%N A061254 Odd composite numbers n such that primitive part of Fibonacci(n) (see A061446) is prime.
+%D A061254 Brillhart, John; Montgomery, Peter L.; Silverman, Robert D.; Tables of Fibonacci and Lucas factorizations. Math. Comp. 50 (1988), no. 181, 251-260, S1-S15. Math. Rev. 89h:11002.
+%H A061254 David Broadhurst, <a href="/A061254/b061254.txt">Table of n, a(n) for n=1..151 yielding primes or probable primes</a>
+%Y A061254 Cf. A061446, A061447, A061445, A061442, A061443.
+%K A061254 nonn
+%O A061254 1,1
+%A A061254 _David Broadhurst_, Jun 10 2001
+%E A061254 Definition corrected by _T. D. Noe_, Dec 14 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

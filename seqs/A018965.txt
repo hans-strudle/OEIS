@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a018965
+Showing 1-1 of 1
+
+%I A018965
+%S A018965 3,9,42,236,1280,6087,32623,190235,1136383
+%N A018965 Cycle class sequence c(2n) (the number of true cycles of length 2n in which a certain node is included) for zeolite AFS = MAPSO-46.
+%D A018965 G. Thimm and W. E. Klee, Zeolite cycle sequences, Zeolites, 19, pp. 422-424, 1997.
+%H A018965 G. Thimm, <a href="/thimm1.html">Cycle sequences of crystal structures</a>
+%Y A018965 Same beginning as A018995, but may disagree later.
+%K A018965 nonn
+%O A018965 2,1
+%A A018965 Georg Thimm (mgeorg(AT)ntu.edu.sg)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,92 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008302
+Showing 1-1 of 1
+
+%I A008302
+%S A008302 1,1,1,1,2,2,1,1,3,5,6,5,3,1,1,4,9,15,20,22,20,15,9,4,1,1,5,14,29,49,
+%T A008302 71,90,101,101,90,71,49,29,14,5,1,1,6,20,49,98,169,259,359,455,531,
+%U A008302 573,573,531,455,359,259,169,98,49,20,6,1
+%N A008302 Triangle of Mahonian numbers T(n,k): coefficients in expansion of Product_{i=0..n-1} (1 + x + ... + x^i), where k ranges from 0 to A000217(n-1).
+%C A008302 T(n,k) = number of permutations of {1..n} with k inversions.
+%C A008302 n-th row gives growth series for symmetric group S_n with respect to transpositions (1,2), (2,3), ..., (n-1,n).
+%C A008302 T(n,k) = number of permutations of (1,2,...,n) having disorder equal to k. The disorder of a permutation p of (1,2,...,n) is defined in the following manner. We scan p from left to right as often as necessary until all its elements are removed in increasing order, scoring one point for each occasion on which an element is passed over and not removed. The disorder of p is the number of points scored by the end of the scanning and removal process. For example, the disorder of (3,5,2,1,4) is 8, since on the first scan, 3,5,2 and 4 are passed over, on the second, 3,5 and 4 and on the third scan, 5 is once again not removed. - _Emeric Deutsch_, Jun 09 2004
+%C A008302 T(n,k)=number of permutations p=(p(1),...p(n)) of {1..n} such that Sum(i: p(i)>p(i+1))=k (k is called the Major index of p). Example: T(3,0)=1, T(3,1)=2,T(3,2)=2,T(3,3)=1 because the Major indices of the permutations (1,2,3), (2,1,3),(3,1,2),(1,3,2),(2,3,1) and (3,2,1) are 0,1,1,2,2 and 3, respectively. - _Emeric Deutsch_, Aug 17 2004
+%C A008302 T(n,k) = number of 2 X c matrices with column totals 1,2,3,...,n and row totals k and binomial(n+1,2) - k. - _Mitch Harris_, Jan 13 2006
+%C A008302 T(n,k) is the number of permutations p of {1,2,...,n} for which den(p)=k. Here den is the Denert statistic, defined in the following way: let p=p(1)p(2)...p(n) be a permutation of {1,2,...,n}; if p(i)>i, then we say that i is an excedance of p; let i_1 < i_2 < ... < i_k be the excedances of p and let j_1 < j_2 < ... < j_{n-k} be the non-excedances of p; let Exc(p) = p(i_1)p(i_2)...p(i_k), Nexc(p)=p(j_1)p(j_2)...p(j_{n-k}); then, by definition den(p)=i_1 + i_2 + ... + i_k + inv(Exc(p)) + inv(Nexc(p)), where inv denotes "number of inversions". Example: T(4,5)=3 because we have 1342, 3241 and 4321. We show that den(4321)=5: the excedances are 1 and 2; Exc(4321)=43, Nexc(4321)=21; now den(4321)=1+2+inv(43)+inv(21)=3+1+1=5. - _Emeric Deutsch_, Oct 29 2008
+%C A008302 T(n,k) is the number of size k submultisets of the multiset {1,2,2,3,3,3,...,n-1} (which contains i copies of i for 0 < i < n).
+%C A008302 The limit of products of the numbers of fixed necklaces of length n composed of beads of types N(n,a), n--> infinity, is the generating function for inversions (we must exclude one unimportant factor a^n/n!). The error is < a^n/n!*O(1/n^(1/2-epsilon)). See Gaichenkov link. - _Mikhail Gaichenkov_, Aug 27 2012
+%C A008302 The number of ways to distribute k-1 indistinguishable balls into n-1 boxes of capacity 1,2,3,...n-1. - _Andrew Woods_, Sep 26 2012
+%C A008302 Partial sums of rows give triangle A161169. - _András Salamon_, Feb 16 2013
+%C A008302 The number of permutations of n that require k pair swaps in the bubble sort to sort them into the natural 1,2,...,n order. - _R. J. Mathar_, May 04 2013
+%C A008302 Also series coefficients of q-factorial [n]_q ! - see Mathematica line. - _Wouter Meeussen_, Jul 12 2014
+%D A008302 M. Bona, Combinatorics of permutations, Chapman & Hall/CRC, Boca Raton, Florida, 2004 (p. 52).
+%D A008302 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 240.
+%D A008302 F. N. David, M. G. Kendall and D. E. Barton, Symmetric Function and Allied Tables, Cambridge, 1966, p. 241.
+%D A008302 P. de la Harpe, Topics in Geometric Group Theory, Univ. Chicago Press, 2000, p. 163, top display.
+%D A008302 E. Netto, Lehrbuch der Combinatorik. 2nd ed., Teubner, Leipzig, 1927, p. 96.
+%D A008302 R. P. Stanley, Enumerative Combinatorics, Cambridge, Vol. 1, 1999; see Corollary 1.3.10, p. 21.
+%H A008302 T. D. Noe, <a href="/A008302/b008302.txt">Rows n=0..30 of triangle, flattened</a>
+%H A008302 F. Brglez, <a href="http://ev.fe.uni-lj.si/4-2011/Brglez.pdf">Of n-dimensional Dice, Combinatorial Optimization, and Reproducible Research: An Introduction</a>, Elektrotehniski Vestnik, 78(4): 181-192, 2011.
+%H A008302 L. Carlitz, <a href="http://dx.doi.org/10.1215/S0012-7094-48-01588-9">q-Bernoulli numbers and polynomials</a>, Duke Math. J. Volume 15, Number 4 (1948), 987-1000.
+%H A008302 E. Deutsch, <a href="http://www.jstor.org/stable/4145088">Problem 10975: Enumeration of Permutations by Disorder</a>, Amer. Math. Monthly, 111 (2004), 541.
+%H A008302 FindStat - Combinatorial Statistic Finder, <a href="http://www.findstat.org/St000156/">The Denert index of a permutation</a>, <a href="http://www.findstat.org/StatisticsDatabase/St000004/">The major index of a permutation</a>, <a href="http://www.findstat.org/StatisticsDatabase/St000018">The number of inversions of a permutation</a>, <a href="http://www.findstat.org/StatisticsDatabase/St000224/">The sorting index of a permutation</a>
+%H A008302 D. Foata, <a href="http://dx.doi.org/10.1007/978-94-010-1220-1_2">Distributions eulériennes et mahoniennes sur le groupe des permutations</a>, pp. 27-49 of M. Aigner, editor, Higher Combinatorics, Reidel, Dordrecht, Holland, 1977.
+%H A008302 D. Foata and D. Zeilberger, <a href="http://www-irma.u-strasbg.fr/~foata/paper/pub63.html">Denert's permutation statistic is indeed Euler-Mahonian</a>, Studies in Appl. Math., 83(1990),31-59. [From _Emeric Deutsch_, Oct 29 2008]
+%H A008302 Mikhail Gaichenkov, <a href="http://mathoverflow.net/questions/103716/necklaces-and-the-generating-function-for-inversions">Necklaces and the generating function for inversions</a>
+%H A008302 Amy Grady, <a href="http://www.etsu.edu/cas/math/pp2014/documents/talks/grady.pdf">Sorting index and Mahonian-Stirling pairs for labeled forests</a>, Clemson University, July 10, 2014.
+%H A008302 Guo-Niu Han, <a href="http://www-irma.u-strasbg.fr/~guoniu/papers/p02nbiject.pdf">Une nouvelle bijection pour la statistique de Denert</a>, C. R. Acad. Sci. Paris, Ser. I, 310(1990),493-496.
+%H A008302 Stuart A. Hannah, <a href="http://arxiv.org/abs/1502.05340">Sieved Enumeration of Interval Orders and Other Fishburn Structures</a>, arXiv:1502.05340 [math.CO], (18-February-2015).
+%H A008302 Y.-H. He, C. Matti, C. Sun, <a href="http://arxiv.org/abs/1403.6833">The Scattering Variety</a>, arXiv preprint arXiv:1403.6833 [hep-th], 2014.
+%H A008302 E. Irurozki, <a href="http://www.sc.ehu.es/ccwbayes/isg/administrator/components/com_jresearch/files/theses/tesis_ekhine_irurozki.pdf">Sampling and learning distance-based probability models for permutation spaces</a>, PhD Dissertation, Department of Computer Science and Artificial Intelligence of the University of the Basque Country, 2015.
+%H A008302 E. Irurozki, B. Calvo, J. A. Lozano, <a href="https://addi.ehu.es/bitstream/10810/11238/1/tr14-5.pdf">An R package for permutations, Mallows and Generalized Mallows models</a>, 2014.
+%H A008302 M. Janjic, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL17/Janjic2/janjic53.html">A Generating Function for Numbers of Insets</a>, Journal of Integer Sequences, 17, 2014, #14.9.7.
+%H A008302 J. A. Koziol, <a href="http://dx.doi.org/10.1002/cem.2504">Sums of ranking differences and inversion numbers for method discrimination</a>, Journal of Chemometrics, 27 (2013): 165-169. doi: 10.1002/cem.2504
+%H A008302 B. H. Margolius, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL4/MARGOLIUS/inversions.html">Permutations with inversions</a>, J. Integ. Seqs. Vol. 4 (2001), #01.2.4.
+%H A008302 J. L. Martin and J. D. Wagner, <a href="http://arxiv.org/abs/1209.3493">On the Spectra of Simplicial Rook Graphs</a>, arXiv preprint arXiv:1209.3493 [math.CO], 2012. - From _N. J. A. Sloane_, Dec 27 2012
+%H A008302 A. Mendes, <a href="http://www.jstor.org/stable/27642223">A note on alternating permutations</a>, Amer. Math. Monthly, 114 (2007), 437-440.
+%H A008302 R. H. Moritz and R. C. Williams, <a href="http://www.jstor.org/stable/2690326">A coin-tossing problem and some related combinatorics</a>, Math. Mag., 61 (1988), 24-29.
+%H A008302 E. Netto, <a href="/A000707/a000707_1.pdf">Lehrbuch der Combinatorik</a>, Chapter 4, annotated scanned copy of pages 92-99 only.
+%H A008302 E. Netto, <a href="/A000707/a000707_1.pdf">Lehrbuch der Combinatorik</a>, Chapter 4, annotated scanned copy of pages 92-99 only.
+%H A008302 Michal Opler, <a href="http://arxiv.org/abs/1505.07135">Major index distribution over permutation classes</a>, arXiv:1505.07135 [math.CO], 2015.
+%H A008302 Svetlana Poznanovic, <a href="http://doi.org/10.1016/j.jcta.2014.03.007">The sorting index and equidistribution of set-valued statistics over restricted permutations</a>, Journal of Combinatorial Theory, Series A, 125 (2014), 254-272.
+%H A008302 R. P. Stanley, <a href="http://dx.doi.org/10.1016/0097-3165(76)90028-5">Binomial posets, Moebius inversion and permutation enumeration</a>, J. Combinat. Theory, A 20 (1976), 336-356.
+%H A008302 A. Waksman, <a href="http://dx.doi.org/10.1109/T-C.1970.222866">On the complexity of inversions</a>, IEEE Trans. Computers, 19 (1970), 1225-1226. See Table II.
+%H A008302 Eric W. Weisstein, <a href="http://mathworld.wolfram.com/Necklace.html"> Mathworld: Necklace</a>
+%H A008302 Eric W. Weisstein, <a href="http://mathworld.wolfram.com/IrreduciblePolynomial.html">Mathworld: Irreducible Polynomial</a>
+%H A008302 Thomas Wieder, <a href="/A008302/a008302.txt">Comments on A008302</a>
+%H A008302 Wikipedia, <a href="https://en.wikipedia.org/wiki/Major_index">Major index</a>
+%F A008302 Comtet and Moritz-Williams give recurrences.
+%F A008302 Mendes and Stanley give g.f.'s.
+%F A008302 G.f.: Product_{j=1..n} (1-x^j)/(1-x) = Sum_{k=0..M} T{n, k} x^k, where M = n*(n-1)/2.
+%F A008302 From _Andrew Woods_, Sep 26 2012: (Start)
+%F A008302 T(1, 1) = 1, T(1, k != 1) = 0,
+%F A008302 T(n, k) = Sum_{j=0..n-1} T(n-1, k-j),
+%F A008302 T(n, k) = T(n, k-1) + T(n-1, k) - T(n-1, k-n). (End)
+%e A008302 1; 1+x; (1+x)*(1+x+x^2) = 1+2*x+2*x^2+x^3; etc.
+%e A008302 Triangle begins:
+%e A008302 1;
+%e A008302 1, 1;
+%e A008302 1, 2, 2, 1;
+%e A008302 1, 3, 5, 6, 5, 3, 1;
+%e A008302 1, 4, 9, 15, 20, 22, 20, 15, 9, 4, 1;
+%e A008302 1, 5, 14, 29, 49, 71, 90, 101, 101, 90, 71, 49, 29, 14, 5, 1;
+%e A008302 1, 6, 20, 49, 98, 169, 259, 359, 455, 531, 573, 573, 531, 455, 359, 259, 169, 98, 49, 20, 6, 1
+%e A008302 ...
+%p A008302 g := proc(n,k) option remember; if k=0 then return(1) else if (n=1 and k=1) then return(0) else if (k<0 or k>binomial(n,2)) then return(0) else g(n-1,k)+g(n,k-1)-g(n-1,k-n) end if end if end if end proc; # Barbara Haas Margolius (margolius(AT)math.csuohio.edu), May 31 2001
+%p A008302 BB:=j->1+sum(t^i, i=1..j): for n from 1 to 8 do Z[n]:=sort(expand(simplify(product(BB(j), j=0..n-2)))) od: for n from 1 to 8 do seq(coeff(Z[n], t, j), j=0..(n-1)*(n-2)/2) od; # _Zerinvary Lajos_, Apr 13 2007
+%t A008302 f[n_] := CoefficientList[ Expand@ Product[ Sum[x^i, {i, 0, j}], {j, n}], x]; Flatten[Array[f, 8, 0]]
+%t A008302 nn = 25; T[1, 1] = 1; T[n_, 1] = 0; T[n_, k_] := T[n, k] = Sum[T[n - i, k - 1], {i, 1, k - 1}]; MatrixForm[Table[T[n, k], {n, nn}, {k, nn}]] (* _Mats Granvik_ and _Roger L. Bagula_, Jun 19 2011 *)
+%t A008302 alternatively (versions 7 and up):
+%t A008302 Table[CoefficientList[Series[QFactorial[n,q],{q,0,n(n-1)/2}],q],{n,9}] (* _Wouter Meeussen_, Jul 12 2014 *)
+%Y A008302 Diagonals give A000707, A001892, A001893, A001894, A005283, A005284, A005285, A005286, A005287, A005288, A242656, A242657.
+%Y A008302 Row-maxima: A000140, truncated table: A060701, row sums: A000142.
+%Y A008302 A161436 is one of the rows.
+%Y A008302 A001809 gives total Denert index of all permutations.
+%Y A008302 Cf. A139365.
+%K A008302 easy,tabf,nonn,nice,look
+%O A008302 1,5
+%A A008302 _N. J. A. Sloane_
+%E A008302 There were some mistaken edits to this entry (inclusion of an initial 1, etc.) which I undid. - _N. J. A. Sloane_, Nov 30 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

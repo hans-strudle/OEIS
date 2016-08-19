@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017455
+Showing 1-1 of 1
+
+%I A017455
+%S A017455 78125,268435456,10460353203,114415582592,678223072849,2799360000000,
+%T A017455 9095120158391,24928547056768,60170087060757,131593177923584,
+%U A017455 266001988046875,504189521813376,905824306333433
+%N A017455 (11*n+5)^7.
+%H A017455 Vincenzo Librandi, <a href="/A017455/b017455.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017455 (MAGMA) [(11*n+5)^7: n in [0..20]]; // Vincenzo Librandi, Sep 03 2011
+%K A017455 nonn,easy
+%O A017455 0,1
+%A A017455 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

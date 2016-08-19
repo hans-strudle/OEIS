@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054687
+Showing 1-1 of 1
+
+%I A054687
+%S A054687 1,2,5,19,99,653,5187,48117,510271,6088301,80716427,1177130893,
+%T A054687 18727404639,322769897573,5990916997611,119139798166245,
+%U A054687 2527255556219167,56960055683893853,1359299747696197931
+%N A054687 a[0] = 1; a[m+1] = 1 +sum{k=0 to m} [binomial(m,k) a[k] a[m-k]].
+%F A054687 a(n) ~ n! / r^(n+1), where r = 0.7542714558461742549095127982603266798910769877... - _Vaclav Kotesovec_, Mar 02 2014
+%e A054687 a[5]= 1+ 1*a[0]*a[4] +4*a[1]*a[3] +6*a[2]*a[2] +4*a[3]*a[1] +1*a[4]*a[0]= 1 +1*1*99 +4*2*19 +6*5*5 +4*19*2 +1*99*1 =653
+%t A054687 nmax=20; b = ConstantArray[0,nmax+2]; b[[1]]=1; Do[b[[n+2]] = 1 + Sum[Binomial[n,k]*b[[k+1]]*b[[n-k+1]],{k,0,n}],{n,0,nmax}]; b (* _Vaclav Kotesovec_, Mar 02 2014 *)
+%Y A054687 Cf. A052886.
+%K A054687 easy,nonn
+%O A054687 0,2
+%A A054687 _Leroy Quet_, Apr 19 2000
+%E A054687 More terms from _James A. Sellers_, Apr 20 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

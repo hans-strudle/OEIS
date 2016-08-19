@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058626
+Showing 1-1 of 1
+
+%I A058626
+%S A058626 1,0,1,2,1,0,0,2,2,0,2,0,0,4,3,2,0,4,5,2,6,0,5,8,3
+%V A058626 1,0,-1,2,1,0,0,-2,2,0,2,0,0,4,3,2,0,-4,5,2,6,0,-5,8,3
+%N A058626 McKay-Thompson series of class 30e for Monster.
+%D A058626 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058626 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058626 T30e = 1/q - q + 2*q^2 + q^3 - 2*q^6 + 2*q^7 + 2*q^9 + 4*q^12 + 3*q^13 + ...
+%Y A058626 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%K A058626 sign
+%O A058626 -1,4
+%A A058626 _N. J. A. Sloane_, Nov 27 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

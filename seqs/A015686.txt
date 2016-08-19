@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015686
+Showing 1-1 of 1
+
+%I A015686
+%S A015686 1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,0,0,0,0,0,
+%T A015686 0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,
+%U A015686 1,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A015686 1,-1,0,1,-1,0,1,-1,0,1,-1,0,1,0,-1,1,0,-1,1,0,-1,1,0,-1,1,0,0,0,0,0,
+%W A015686 0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,1,-1,0,1,-1,0,1,-1,0,1,0,-1,1,0,-1,
+%X A015686 1,0,-1,1,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015686 Inverse of 1677th cyclotomic polynomial.
+%p A015686 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A015686 CoefficientList[Series[1/Cyclotomic[1677,x],{x,0,120}],x] (* _Harvey P. Dale_, Jan 09 2016 *)
+%K A015686 sign
+%O A015686 0,1
+%A A015686 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

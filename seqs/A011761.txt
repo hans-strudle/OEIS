@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011761
+Showing 1-1 of 1
+
+%I A011761
+%S A011761 1,1,5,6,7,12,18,25,37,55,80,117,172,252,369,541,793,1162,1703,2496,
+%T A011761 3658,5361,7857,11515,16876,24733,36248,53124,77857,114105,167229,
+%U A011761 245086,359191,526420,771506,1130697
+%N A011761 a(n) = a(n-1) + a(n-3), with a(0) = a(1) = 1, a(2) = 5.
+%H A011761 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,1).
+%t A011761 a[0] := 1; a[1] := 1; a[2] = 5; a[n_] := a[n] =a[n - 1] + a[n - 3]; Table[a[n], {n, 50}] (* _Alonso del Arte_, Dec 05 2011 *)
+%t A011761 LinearRecurrence[{1,0,1},{1,1,5},40] (* _Harvey P. Dale_, Aug 09 2012 *)
+%Y A011761 Cf. A000930.
+%K A011761 nonn
+%O A011761 0,3
+%A A011761 Juan-Carlos Lerman (jclerm(AT)aztec.asu.edu)
+%E A011761 Name corrected by Arkadiusz Wesolowski, Dec 05 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

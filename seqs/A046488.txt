@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046488
+Showing 1-1 of 1
+
+%I A046488
+%S A046488 1,3,6,111,353,7557,2376732
+%N A046488 Palindromes that are the sum of the first palindromes for some n.
+%H A046488 P. De Geest, <a href="http://www.worldofnumbers.com/index.html">World!Of Numbers</a>
+%F A046488 a(n) = A046489(A046486(n)-1). - _R. J. Mathar_, Sep 09 2015
+%e A046488 a(n)= 111 so 111 = 1+2+3+4+5+6+7+8+9+11+22+33.
+%t A046488 palQ[n_] := Reverse[x = IntegerDigits[n]] == x; Select[Accumulate[Select[Range[25000], palQ]], palQ] (* _Jayanta Basu_, Jun 26 2013 *)
+%Y A046488 Cf. A002113, A046486, A046487.
+%K A046488 nonn,hard,base
+%O A046488 1,2
+%A A046488 _Patrick De Geest_, Sep 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

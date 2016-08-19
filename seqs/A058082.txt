@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058082
+Showing 1-1 of 1
+
+%I A058082
+%S A058082 1,2,8,18,55,84,127,146,179,224,297,548,684,960,1627,1669,1144,9307,
+%T A058082 20650,2234,3977,2311,2393,2523,4949,2856,3118,11000,3324,3230,3084,
+%U A058082 3555,4173,3936,7738,3786,4472,4491,5188,4100,4849,4674,6089,4955,5862
+%N A058082 a(1) = 1; a(n+1) = sum of terms in continued fraction for the sum of the continued fractions, [a(1); a(2), a(3),...,a(n)] and [0; a(1), a(2), a(3)...,a(n)].
+%e A058082 [a(1); a(2)] +[0; a(1), a(2)] = 13/6 = [2; 6]. So a(3) = 2 + 6 = 8.
+%K A058082 nonn
+%O A058082 1,2
+%A A058082 _Leroy Quet_, Nov 24 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047825
+Showing 1-1 of 1
+
+%I A047825
+%S A047825 393,889,1142,1179,1257,1270,1285,1315,1389,1502,1542,1563,1578,1838,
+%T A047825 2217,2284,2305,2326,2474,2540,2761,2766,2787,2827,2913,3004,3084,
+%U A047825 3156,3193,3207,3505,3507,3537,3589,3676,3771,3826,3873,3957,4006,4167,4195
+%N A047825 Becomes prime after exactly 6 iterations of f(x) = sum of prime factors of x.
+%C A047825 f(x) = sum of prime factors without multiplicity, so that f(1500) = 2+3+5 = 10.
+%K A047825 nonn
+%O A047825 1,1
+%A A047825 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

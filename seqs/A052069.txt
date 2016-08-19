@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052069
+Showing 1-1 of 1
+
+%I A052069
+%S A052069 0,88,10011,31646191,16431563,667567716,10715008859,652246443112,
+%T A052069 15647628653832
+%N A052069 a(n)^2 is the smallest square whose digits occur with the same frequency n.
+%H A052069 P. De Geest, <a href="http://www.worldofnumbers.com/samedigits.htm">Numbers whose digits occur with same frequency</a>
+%e A052069 E.g. 31646191^2 = 1001481404808481 and its digits 0, 1, 4 and 8 each occur four times.
+%Y A052069 Cf. A052070, A045540, A052046, A052049, A052050, A052071.
+%K A052069 nonn,base,more,nice
+%O A052069 1,2
+%A A052069 _Patrick De Geest_, Jan 15 2000.
+%E A052069 2 more terms from _Jon E. Schoenfield_, Aug 18 2007
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

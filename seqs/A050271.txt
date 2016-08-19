@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050271
+Showing 1-1 of 1
+
+%I A050271
+%S A050271 1,2,3,4,7,8,9,14,15,16,23,24,25,34,35,36,47,48,49,62,63,64,79,80,81,
+%T A050271 98,99,100,119,120,121,142,143,144,167,168,169,194,195,196,223,224,
+%U A050271 225,254,255,256,287,288,289,322,323,324,359,360,361,398,399,400
+%N A050271 Numbers n such that n=floor(sqrt(n)*ceil(sqrt(n))).
+%F A050271 Is a(n) asymptotic to C*n^(3/2) where 1/2<C<1 ?
+%o A050271 (PARI) isok(n) = floor(sqrt(n)*ceil(sqrt(n))) == n; \\ _Michel Marcus_, Nov 22 2013
+%K A050271 nonn
+%O A050271 1,2
+%A A050271 _Benoit Cloitre_, May 10 2003
+%E A050271 Data corrected by _Michel Marcus_ and _Benoit Cloitre_, Nov 22 2013
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

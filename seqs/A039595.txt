@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039595
+Showing 1-1 of 1
+
+%I A039595
+%S A039595 1,3,21,55
+%N A039595 Fibonacci numbers that are also triangular numbers.
+%D A039595 J.-M. De Koninck, Ces nombres qui nous fascinent, Entry 55, p. 20, Ellipses, Paris 2008.
+%D A039595 D. Wells, Curious and interesting numbers, Penguin Books, p. 108
+%t A039595 Union[Select[Fibonacci[Range[20]],OddQ[Sqrt[8#+1]]&]] (* _Harvey P. Dale_, Jan 17 2015 *)
+%Y A039595 Cf. A000045, A000217.
+%K A039595 fini,nonn,full
+%O A039595 1,2
+%A A039595 _Felice Russo_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

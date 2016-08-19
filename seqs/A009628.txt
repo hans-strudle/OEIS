@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a009628
+Showing 1-1 of 1
+
+%I A009628
+%S A009628 0,1,2,7,28,141,846,5923,47384,426457,4264570,46910271,
+%T A009628 562923252,7318002277,102452031878,1536780478171,24588487650736,
+%U A009628 418004290062513,7524077221125234,142957467201379447,2859149344027588940
+%V A009628 0,1,-2,7,-28,141,-846,5923,-47384,426457,-4264570,46910271,
+%W A009628 -562923252,7318002277,-102452031878,1536780478171,-24588487650736,
+%X A009628 418004290062513,-7524077221125234,142957467201379447,-2859149344027588940
+%N A009628 Expansion of sinh(x)/(1+x).
+%C A009628 (A000166 + A000522)/2 = A009179, (A000166 - A000522)/2 = this_sequence.
+%F A009628 a(n) = (-1)^(n+1)*floor(n!*sinh(1)), n>=1. - _Vladeta Jovovic_, Aug 10 2002
+%F A009628 Let u(1)=1, u(n)=n*u(n-1)+n (mod 2); then for n>0, a(n)=(-1)^(n+1)*u(n) - _Benoit Cloitre_, Jan 12 2003
+%F A009628 Unsigned sequence satisfies a(n)=na(n-1)+a(n-2)-(n-2)a(n-3), with E.g.f. sinh(z)/(1-z) - Mario Catalani (mario.catalani(AT)unito.it), Feb 08 2003
+%F A009628 a(n) = (-1)^n * n! * sum{k=0, [n/2], 1/(2k-1)!}, n>0.
+%p A009628 restart: G(x):= sinh(x)/(1+x): f[0]:=G(x): for n from 1 to 21 do f[n]:=diff(f[n-1],x) od: x:=0: seq(f[n],n=0..20);# [From _Zerinvary Lajos_, Apr 03 2009]
+%t A009628 Sinh[x]/(1+x)
+%Y A009628 Cf. A051397, A087208.
+%K A009628 sign,easy
+%O A009628 0,3
+%A A009628 _R. H. Hardin_
+%E A009628 Extended with signs Mar 15 1997 by _Olivier Gérard_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

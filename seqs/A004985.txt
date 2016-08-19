@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004985
+Showing 1-1 of 1
+
+%I A004985
+%S A004985 1,10,90,780,6630,55692,464100,3845400,31724550,260846300,2138939660,
+%T A004985 17500415400,142920059100,1165348174200,9489263704200,77179344794160,
+%U A004985 627082176452550,5090431785320700,41289057814267900,334658679126171400
+%N A004985 a(n) = 2^n/n!*Product_{k=0..n-1} (4*k + 5).
+%F A004985 G.f.: (1 - 8*x)^(-5/4).
+%F A004985 a(n) ~ 4*Gamma(1/4)^-1*n^(1/4)*2^(3*n)*{1 + 5/32*n^-1 - ...}
+%F A004985 a(n) = 8^n*binomial(1/4+n, 1/4).
+%F A004985 E.g.f.: is the hypergeometric function of type 1F1, in Maple notation hypergeom([5/4], [1], 8*x). - _Karol A. Penson_, Dec 20 2015
+%o A004985 (PARI) a(n)=2^n/n!*prod(k=0,n-1,4*k+5)
+%o A004985 for(n=0,21,print(a(n)))
+%K A004985 nonn,easy
+%O A004985 0,2
+%A A004985 Joe Keane (jgk(AT)jgk.org)
+%E A004985 More terms from _Rick L. Shepherd_, Mar 03 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

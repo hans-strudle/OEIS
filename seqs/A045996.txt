@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045996
+Showing 1-1 of 1
+
+%I A045996
+%S A045996 0,4,76,516,2148,6768,17600,40120,82608,157252,280988,477012,775172,
+%T A045996 1214768,1844512,2725000,3930384,5550844,7692300,10482124,14066996,
+%U A045996 18619128,24337056,31449200,40212160,50921316,63907468,79542108
+%N A045996 Number of triangles in an n X n grid (or geoplane).
+%C A045996 The triangles must have nonzero area - their vertices must not be collinear.
+%H A045996 I. L. Canestro, <a href="http://www.math.niu.edu/~rusin/known-math/00_incoming/triangles_count">Checkerboard</a>, sci.math 22 Oct 2000 [broken link]
+%H A045996 I. L. Canestro, <a href="/A045996/a045996.txt">Checkerboard</a>, sci.math 22 Oct 2000 [Cached copy]
+%F A045996 a(n) = ((n - 1)^2*n^2*(n + 1)^2)/6 - 2*Sum(Sum((n - k + 1)*(n - l + 1)*gcd(k - 1, l - 1), k, 2, n), l, 2, n).
+%F A045996 a(n) = binomial(n^2,3)- A000938(n). - _R. J. Mathar_, May 21 2010
+%e A045996 a(2)=4 because 4 isosceles right triangles can be placed on a 2 X 2 grid.
+%t A045996 f[n_] := ((n - 1)^2*n^2*(n + 1)^2)/6 - 2*Sum[(n - k + 1)*(n - l + 1)*GCD[k - 1, l - 1], {k, 2, n}, {l, 2, n}]; Array[f, 28] (* _Robert G. Wilson v_, May 23 2010 *)
+%K A045996 nice,nonn,easy,changed
+%O A045996 1,2
+%A A045996 _Ignacio Larrosa Cañestro_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

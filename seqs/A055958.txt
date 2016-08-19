@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055958
+Showing 1-1 of 1
+
+%I A055958
+%S A055958 0,2,4,6,8,10,12,14,16,10,20,30,40,50,60,70,80,90,20,30,40,50,60,70,
+%T A055958 80,90,100,30,40,50,60,70,80,90,100,110,40,50,60,70,80,90,100,110,120,
+%U A055958 50,60,70,80,90,100,110,120,130,60,70,80,90,100,110,120,130,140,70,80,90
+%N A055958 n + reversal of base 9 digits of n (written in base 10).
+%C A055958 If n has an even number of digits in base 9 then a(n) is a multiple of 10
+%F A055958 a(n) =n+A030108(n)
+%t A055958 Table[n+FromDigits[Reverse[IntegerDigits[n,9]],9],{n,0,70}] (* _Harvey P. Dale_, Sep 03 2013 *)
+%Y A055958 Cf. A056964.
+%K A055958 base,nonn
+%O A055958 0,2
+%A A055958 _Henry Bottomley_, Jul 18 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055789
+Showing 1-1 of 1
+
+%I A055789
+%S A055789 1,1,2,3,6,10,15,35,56,84,120,165,220,715,1001,1365,1820,2380,3060,
+%T A055789 3876,4845,20349,26334,33649,42504,53130,65780,80730,98280,118755,
+%U A055789 142506,736281,906192,1107568,1344904,1623160,1947792,2324784,2760681
+%N A055789 C(n,round[sqrt(n)]).
+%e A055789 a(9) = C(9,3) = 9!/(3!*6!) = 84
+%Y A055789 a(n^2) = A014062(n)
+%K A055789 easy,nonn
+%O A055789 0,3
+%A A055789 _Henry Bottomley_, Jul 13 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016245
+Showing 1-1 of 1
+
+%I A016245
+%S A016245 1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,0,0,0,0,
+%T A016245 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A016245 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A016245 1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,-1,0,1,0,0,0,0,0,0,
+%W A016245 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A016245 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A016245 Inverse of 2236th cyclotomic polynomial.
+%p A016245 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A016245 CoefficientList[Series[1/Cyclotomic[2236,x],{x,0,120}],x] (* _Harvey P. Dale_, Feb 05 2016 *)
+%K A016245 sign
+%O A016245 0,1
+%A A016245 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

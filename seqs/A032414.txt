@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032414
+Showing 1-1 of 1
+
+%I A032414
+%S A032414 3,5,21,27,59,75,111,287,414,786,966,1071,2433,2817,3165,4958,5895,
+%T A032414 12450,39399,50019,57386,72599,75866,82026,112497
+%N A032414 Numbers n such that 129*2^n+1 is prime.
+%H A032414 Ray Ballinger, <a href="http://www.prothsearch.net/index.html">Proth Search Page</a>
+%H A032414 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A032414 Y. Gallot, <a href="http://www.utm.edu/research/primes/programs/gallot/index.html">Proth.exe: Windows Program for Finding Large Primes</a>
+%H A032414 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A032414 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A032414 nonn
+%O A032414 1,1
+%A A032414 _James R. Buddenhagen_
+%E A032414 Extended by _Hugo Pfoertner_, Jul 02 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

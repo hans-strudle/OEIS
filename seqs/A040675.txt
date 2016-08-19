@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040675
+Showing 1-1 of 1
+
+%I A040675
+%S A040675 26,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,
+%T A040675 2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,
+%U A040675 52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52,2,52
+%N A040675 Continued fraction for sqrt(702).
+%H A040675 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040675 a(n)=27+25*(-1)^n-26*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 19 2009]
+%p A040675 with(numtheory): Digits := 300: convert(evalf(sqrt(702)),confrac);
+%K A040675 nonn,cofr,easy
+%O A040675 0,1
+%A A040675 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

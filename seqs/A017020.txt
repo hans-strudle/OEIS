@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017020
+Showing 1-1 of 1
+
+%I A017020
+%S A017020 81,10000,83521,331776,923521,2085136,4100625,7311616,12117361,
+%T A017020 18974736,28398241,40960000,57289761,78074896,104060401,136048896,
+%U A017020 174900625,221533456,276922881,342102016,418161601
+%N A017020 (7*n+3)^4.
+%H A017020 Vincenzo Librandi, <a href="/A017020/b017020.txt">Table of n, a(n) for n = 0..10000</a>
+%o A017020 (MAGMA) [(7*n+3)^4: n in [0..35]]; // Vincenzo Librandi, Jul 14 2011
+%K A017020 nonn,easy
+%O A017020 0,1
+%A A017020 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

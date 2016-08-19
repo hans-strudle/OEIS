@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051642
+Showing 1-1 of 1
+
+%I A051642
+%S A051642 3,5,11,19,29,101,349,521,569,571,661,1091,1489,2269,2341,2549,2659,
+%T A051642 2729,2731,4049,5279,6359,6871,7559,8231,9721,11719,11779,12071,13339,
+%U A051642 17291,17921,17959,19429,19889,20231,20359,31541,33179,33751,38651
+%N A051642 Values of A (the short leg) of a Pythagorean triangle with A and C (the hypotenuse) both prime and part of a twin prime.
+%C A051642 All terms of the sequence must be part of a pythagorean triple of the form (2u-1), 2u*(u-1), (2u^2 - 2u + 1). - _Joshua Zucker_, May 11 2006
+%K A051642 nonn,easy
+%O A051642 0,1
+%A A051642 Stuart M. Ellerstein (ellerstein(AT)aol.com)
+%E A051642 More terms from _Joshua Zucker_, May 11 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050541
+Showing 1-1 of 1
+
+%I A050541
+%S A050541 1,5,7,11,13,23,33,35,37,47,115,205,235,271,409,739,837,887,2189,3465,
+%T A050541 4653,5073,8011,8061,21957,24589,25657,44653,50321,57647,62083,78179,
+%U A050541 80021,81655,111667,150265,177089,196433,274115,306751,311389,315523
+%N A050541 Numbers n such that 31*2^n-1 is prime.
+%C A050541 773227 is also in the sequence. - Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+%H A050541 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A050541 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A050541 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%H A050541 Kosmaj, <a href="http://www.15k.org/riesellist.htm">Riesel list k<300</a>.
+%Y A050541 Cf. A032365 = 31*2^n+1 is prime.
+%K A050541 nonn
+%O A050541 1,2
+%A A050541 _N. J. A. Sloane_, Dec 29 1999
+%E A050541 More terms from _Hugo Pfoertner_, Aug 29 2004
+%E A050541 More terms from Herman Jamke (hermanjamke(AT)fastmail.fm), Jan 02 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

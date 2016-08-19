@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015278
+Showing 1-1 of 1
+
+%I A015278
+%S A015278 1,909,918191,917272809,917364637191,917355454462809,
+%T A015278 917356372736537191,917356280909173462809,917356290091909926537191,
+%U A015278 917356289173636281073462809,917356289265463645628926537191
+%V A015278 1,-909,918191,-917272809,917364637191,-917355454462809,
+%W A015278 917356372736537191,-917356280909173462809,917356290091909926537191,
+%X A015278 -917356289173636281073462809,917356289265463645628926537191
+%N A015278 Gaussian binomial coefficient [ n,3 ] for q=-10.
+%D A015278 J. Goldman and G.-C. Rota, The number of subspaces of a vector space, pp. 75-83 of W. T. Tutte, editor, Recent Progress in Combinatorics. Academic Press, NY, 1969.
+%D A015278 I. P. Goulden and D. M. Jackson, Combinatorial Enumeration. Wiley, NY, 1983, p, 99.
+%D A015278 M. Sved, Gaussians and binomials, Ars. Combinatoria, 17A (1984), 325-351.
+%H A015278 Vincenzo Librandi, <a href="/A015278/b015278.txt">Table of n, a(n) for n = 3..200</a>
+%H A015278 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (-909,91910,909000,-1000000).
+%F A015278 G.f.: x^3/((1-x)*(1+10*x)*(1-100*x)*(1+1000*x)). - _Bruno Berselli_, Oct 30 2012
+%F A015278 a(n) = (-1+91*10^(2n-3)+(-1)^n*10^(n-2)*(91-10^(2n-1)))/1090089. - _Bruno Berselli_, Oct 30 2012
+%t A015278 Table[QBinomial[n, 3, -10], {n, 3, 20}] (* _Vincenzo Librandi_, Oct 28 2012 *)
+%o A015278 (Sage) [gaussian_binomial(n,3,-10) for n in xrange(3,14)] # [From _Zerinvary Lajos_, May 27 2009]
+%K A015278 sign,easy
+%O A015278 3,2
+%A A015278 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a055207
+Showing 1-1 of 1
+
+%I A055207
+%S A055207 1,1,4,27,256,3125,46656,823543,16777216,387420489,1,2,4097,1594324,
+%T A055207 268435457,30517578126,2821109907457,232630513987208,
+%U A055207 18014398509481985,1350851717672992090,1048576,2097153,8388608,94151567435
+%N A055207 Sum of n-th powers of digits of n.
+%e A055207 a(12) = 1^12+2^12 = 1+4096 = 4097
+%t A055207 Join[{1},Table[Total[IntegerDigits[n]^n],{n,25}]] (* _Harvey P. Dale_, Jul 16 2011 *)
+%Y A055207 Cf. A045503, A003132, A055012, A055013, A055014.
+%K A055207 base,easy,nonn
+%O A055207 0,3
+%A A055207 _Henry Bottomley_, Jun 19 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

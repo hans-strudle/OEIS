@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013519
+Showing 1-1 of 1
+
+%I A013519
+%S A013519 1,1,3,181,59,3455,3332389,173339393,449509681,198232237033,
+%T A013519 1032475444411,101635950910031,71432133543444211,671713726985602398481
+%N A013519 Numerator of [x^(2n+1)] in the Taylor expansion tan(cosec(x)-cot(x)) = x/2 +x^3/12 +3*x^5/160 +181*x^7/40320 +59*x^9/53760 +3455*x^11/12773376 +...
+%C A013519 The e.g.f. of x/2, tan(cosec(x)-cot(x)) = x/(2^1*1!) + 4*x^3/(2^3*3!) +72*x^5/(2^5*5!) + 2896*x^7/(2^7*7!) +.. is apparently covered by A003718.
+%K A013519 nonn,frac
+%O A013519 0,3
+%A A013519 Patrick Demichel (patric.demichel(AT)hp.com)
+%E A013519 Values replaced by numerators. - R. J. Mathar, Dec 19 2011
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

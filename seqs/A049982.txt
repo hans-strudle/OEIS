@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049982
+Showing 1-1 of 1
+
+%I A049982
+%S A049982 0,0,1,1,2,3,3,3,6,5,5,8,6,7,12,8,8,14,9,11,17,12,11,19,14,14,22,16,
+%T A049982 14,27,15,17,27,19,21,32,18,21,32,25,20,38,21,25,42,26,23,42,26,32,43,
+%U A049982 30,26,49,33,33,48,33,29,59,30,35,56,37,39
+%N A049982 Number of arithmetic progressions of 2 or more positive integers, strictly increasing with sum n.
+%H A049982 Graeme McRae, <a href="http://2000clicks.com/MathHelp/BasicSequenceA049982.htm">Counting arithmetic sequences whose sum is n</a>
+%F A049982 a(n) has generating function x^3/(x^3-x-x^2+1) + x^6/(x^6-x^3-x^3+1) + x^10/(x^10-x^6-x^4+1) + ... which is the sum k=2,3,... of x^t(k)/(x^t(k)-x^t(k-1)-x^k+1), where t(k) is the k-th triangular number. Term k of this generating function generates the number of arithmetic progressions of k positive integers, strictly increasing with sum n. - _Graeme McRae_, Feb 08 2007
+%K A049982 nonn
+%O A049982 1,5
+%A A049982 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

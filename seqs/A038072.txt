@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038072
+Showing 1-1 of 1
+
+%I A038072
+%S A038072 1,1,1,0,1,2,0,3,5,1,11,19,4,42,78,18,172,333,88,747,1483,
+%T A038072 436,3355,6834,2193,15417,32248,11206,72264,154900,57929,344282,
+%U A038072 755103,302126,1661464,3726663,1586904,8103245,18581402,8384292,39876825
+%V A038072 -1,-1,-1,0,1,2,0,-3,-5,-1,11,19,4,-42,-78,-18,172,333,88,-747,-1483,
+%W A038072 -436,3355,6834,2193,-15417,-32248,-11206,72264,154900,57929,-344282,
+%X A038072 -755103,-302126,1661464,3726663,1586904,-8103245,-18581402,-8384292,39876825
+%N A038072 Shifts left under Euler transform.
+%H A038072 Alois P. Heinz, <a href="/A038072/b038072.txt">Table of n, a(n) for n = 1..1000</a>
+%H A038072 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%p A038072 with (numtheory): a:= proc(n) option remember; local d,j; if n=1 then -1 else (add (d*a(d), d=divisors(n-1)) +add (add (d*a(d), d=divisors(j)) *a(n-j), j=1..n-2))/(n-1) fi end: seq (a(n), n=1..40);  # _Alois P. Heinz_, Sep 06 2008
+%K A038072 sign,eigen
+%O A038072 1,6
+%A A038072 _Christian G. Bower_, Jan 04 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

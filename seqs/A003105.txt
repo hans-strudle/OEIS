@@ -1,0 +1,85 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003105
+Showing 1-1 of 1
+
+%I A003105 M0254
+%S A003105 1,1,1,1,1,2,2,3,3,3,4,5,6,7,8,9,10,12,14,16,18,20,23,26,30,34,38,42,
+%T A003105 47,53,60,67,74,82,91,102,114,126,139,153,169,187,207,228,250,274,301,
+%U A003105 331,364,399,436,476,520,569,622,679,739,804,875,953,1038,1128,1224,1327
+%N A003105 Schur's 1926 partition theorem: number of partitions of n into parts 6n+1 or 6n-1.
+%C A003105 There are many (at least 8) equivalent definitions of this sequence (besides the comments below, see also Schur, Alladi, Andrews). - _N. J. A. Sloane_, Jun 17 2011
+%C A003105 Replicable function number 72e. - _N. J. A. Sloane_, Jun 10 2015
+%C A003105 Also number of partitions of n into odd parts in which no part appears more than twice, cf. A070048 and A096938. - _Vladeta Jovovic_, Jan 18 2005
+%C A003105 Also number of partitions of n into distinct parts congruent to 1 or 2 modulo 3. (Follows from second G.F.) - _N. Sato_, Jul 20 2005
+%C A003105 Ramanujan theta functions: f(q) (see A121373), phi(q) (A000122), psi(q) (A010054), chi(q) (A000700).
+%D A003105 K. Alladi, Refinements of Rogers-Ramanujan type identities. In Special Functions, q-Series and Related Topics (Toronto, ON, 1995), 1-35, Fields Inst. Commun., 14, Amer. Math. Soc., Providence, RI, 1997.
+%D A003105 K. Alladi, G. E. Andrews and B. Gordon, Generalizations and refinements of a partition theorem of Gollnitz, J. Reine Angew. Math. 460 (1995) 165-188.
+%D A003105 K. Alladi and B. Gordon, Generalizations of Schur's partition thoerem, Manuscr.  Math. 79 (1993) 113-126.
+%D A003105 K. Alladi and B. Gordon, Schur's partition theorem, companions, refinements and generalizations, Trans. Amer. Math. Soc. 347 (1995) 1591-1608.
+%D A003105 G. E. Andrews, Schur's theorem, partitions with odd parts and the Al-Salam-Carlitz polynomials. In q-Series From a Contemporary Perspective (South Hadley, MA, 1998), 45-56, Contemp. Math., 254, Amer. Math. Soc., Providence, RI, 2000.
+%D A003105 D. M. Bressoud, A combinatorial proof of Schur's 1926 partition theorem, Proc. Amer, Math. Soc. 79 (1980) 338-340.
+%D A003105 H. Gollnitz, Partitionen mit Differenzenbedingungen, J. Reine Angew. Math. 225 (1967) 154-190.
+%D A003105 Padmavathamma, R. Raghavendra and B. M. Chandrashekara, A new bijective proof of a partition theorem of K. Alladi, Discrete Math. 287 (2004) 125-128.
+%D A003105 H. P. Robinson, Letter to N. J. A. Sloane, Jan 04 1974.
+%D A003105 I. Schur, Zur Additiven Zahlentheorie, Ges. Abh., Vol. 2, Springer, pp. 43-50.
+%D A003105 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A003105 James J. Y. Zhao, A Bijective Proof of the Alladi-Andrews-Gordon Partition Theorem, Elect. J. Combin, Volume 22, Issue 1 (2015) Paper #P1.68
+%H A003105 R. Zumkeller and Alois P. Heinz, <a href="/A003105/b003105.txt">Table of n, a(n) for n = 0..10000</a> (first 201 terms from R. Zumkeller)
+%H A003105 N. Chair, <a href="http://arXiv.org/abs/hep-th/0409011">Partition identities from Partial Supersymmetry</a>, arXiv:hep-th/0409011, 2004.
+%H A003105 D. Ford, J. McKay and S. P. Norton, <a href="http://dx.doi.org/10.1080/00927879408825127">More on replicable functions</a>, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A003105 Vaclav Kotesovec, <a href="http://arxiv.org/abs/1509.08708">A method of finding the asymptotics of q-series based on the convolution of generating functions</a>, arXiv:1509.08708 [math.CO], Sep 30 2015, p. 12.
+%H A003105 M. Somos, <a href="http://cis.csuohio.edu/~somos/multiq.pdf">Introduction to Ramanujan theta functions</a>
+%H A003105 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/RamanujanThetaFunctions.html">Ramanujan Theta Functions</a>
+%H A003105 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/SchursPartitionTheorem.html">Schurs Partition Theorem</a>
+%H A003105 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%F A003105 G.f.: 1/Product_{k>=0} (1-x^(6*k+1))*(1-x^(6*k+5)) = Product_{k>=0} (1+x^(3*k+1))*(1+x^(3*k+2)) = 1/Product_{k>=0} (1-x^k+x^(2*k)). - _Vladeta Jovovic_, Jun 08 2003
+%F A003105 Expansion of chi(-x^3) / chi(-x) in powers of x where chi() is a Ramanujan theta function. - _Michael Somos_, Mar 04 2012
+%F A003105 Expansion of f(x, x^2) / f(-x^3) = f(-x^6) / f(-x, -x^5) in powers of x where f() is Ramanujan theta function. - _Michael Somos_, Jul 05 2014
+%F A003105 Expansion of q^(1/12) * eta(q^2) * eta(q^3) / (eta(q) * eta(q^6)) in powers of q. - _Michael Somos_, Jan 09 2005
+%F A003105 Euler transform of period 6 sequence [1, 0, 0, 0, 1, 0, ...]. - _Michael Somos_, Jan 09 2005
+%F A003105 Given g.f. A(x), then B(q) = (A(q^12) / q)^4 satisfies 0 = f(B(q), B(q^2)) where f(u, v) = u*v^4 + (1 - u^3) * v^3 + 6*u^2*v^2 + (u^4 - u)*v + u^3. - _Michael Somos_, Jan 09 2005
+%F A003105 The logarithmic derivative equals A186099. - _Paul D. Hanna_, Feb 17 2013
+%F A003105 G.f.: exp( Sum_{n>=1} A186099(n) * x^n/n ) where A186099(n) = sum of divisors of n congruent to 1 or 5 mod 6. - _Paul D. Hanna_, Feb 17 2013
+%F A003105 G.f.: exp( Sum_{n>=1} S(n,x) * x^n/n ) where S(n,x) = Sum_{d|n} d*(1-x^d)^(n/d). - _Paul D. Hanna_, Feb 17 2013
+%F A003105 a(n) ~ exp(Pi*sqrt(2*n)/3) / (2^(5/4) * sqrt(3) * n^(3/4)). - _Vaclav Kotesovec_, Aug 23 2015
+%e A003105 G.f: A(x) = 1 + x + x^2 + x^3 + x^4 + 2*x^5 + 2*x^6 + 3*x^7 + 3*x^8 + 3*x^9 + 4*x^10 + ...
+%e A003105 T72e = 1/q + q^11 + q^23 + q^35 + q^47 + 2*q^59 + 2*q^71 + 3*q^83 + ...
+%e A003105 The logarithm of the g.f. begins:
+%e A003105 log(A(x)) = x + x^2/2 + x^3/3 + x^4/4 + 6*x^5/5 + x^6/6 + 8*x^7/7 + x^8/8 + x^9/9 + 6*x^10/10 + 12*x^11/11 + x^12/12 + ... + A186099(n)*x^n/n + ... . - _Paul D. Hanna_, Feb 17 2013
+%p A003105 with(combinat);
+%p A003105 A:=proc(n) local i, j, t3, t2, t1;
+%p A003105     t2:=0;
+%p A003105     t1:=firstpart(n);
+%p A003105     for j from 1 to numbpart(n)+2 do
+%p A003105         t3:=1;
+%p A003105         for i from 1 to nops(t1) do
+%p A003105             if (t1[i] mod 6) <> 1 and (t1[i] mod 6) <> 5 then t3:=0; fi;
+%p A003105         od;
+%p A003105         if t3=1 then t2:=t2+1; fi;
+%p A003105         if nops(t1) = 1 then RETURN(t2); fi;
+%p A003105         t1:=nextpart(t1);
+%p A003105     od;
+%p A003105 end;
+%p A003105 # brute-force Maple program from _N. J. A. Sloane_, Jun 17 2011
+%t A003105 max = 63; f[x_] := 1/Product[1 - x^k + x^(2k), {k, 0, max}]; CoefficientList[ Series[ f[x], {x, 0, max}], x] (* _Jean-François Alcover_, Dec 01 2011, after _Vladeta Jovovic_ *)
+%t A003105 a[ n_] := SeriesCoefficient[ QPochhammer[ -x, x] / QPochhammer[ -x^3, x^3], {x, 0, n}]; (* _Michael Somos_, Jul 05 2014 *)
+%o A003105 (PARI) {a(n) = local(A); if( n<0, 0, A = x * O(x^n); polcoeff( eta(x^2 + A) * eta(x^3 + A) / (eta(x + A) * eta(x^6 + A)), n))}; /* _Michael Somos_, Jan 09 2005 */
+%o A003105 (Haskell)
+%o A003105 a003105 n = p 1 n where
+%o A003105    p k m | m == 0 = 1 | m < k = 0 | otherwise = q k (m-k) + p (k+2) m
+%o A003105    q k m | m == 0 = 1 | m < k = 0 | otherwise = p (k+2) (m-k) + p (k+2) m
+%o A003105 -- _Reinhard Zumkeller_, Nov 12 2011
+%o A003105 (PARI)
+%o A003105 {S(n,x)=sumdiv(n,d,d*(1-x^d)^(n/d))}
+%o A003105 {a(n)=polcoeff(exp(sum(k=1,n,S(k,x)*x^k/k)+x*O(x^n)),n)}
+%o A003105 for(n=0,60,print1(a(n),", "))
+%o A003105 /* From _Paul D. Hanna_, Feb 17 2013 */
+%Y A003105 Cf. A000041, A001651, A003114, A000726, A109389, A109697, A132462, A132463.
+%Y A003105 Cf. A186099 (log).
+%K A003105 nonn,nice
+%O A003105 0,6
+%A A003105 _N. J. A. Sloane_, _Herman P. Robinson_
+%E A003105 More terms from _Vladeta Jovovic_, Jun 08 2003
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

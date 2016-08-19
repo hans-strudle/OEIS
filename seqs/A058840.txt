@@ -1,0 +1,29 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058840
+Showing 1-1 of 1
+
+%I A058840
+%S A058840 1,1,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,
+%T A058840 1,0,0,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,
+%U A058840 0,0,1,0,0,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,1,0,0
+%N A058840 From Renyi's "beta expansion of 1 in base 3/2": sequence gives y(0), y(1), ...
+%C A058840 Let r be a real number strictly between 1 and 2, x any real number between 0 and 1; define y = (y(i)) by x(0) = x; x(i+1) = r*x(i)-1 if r*x(i)>1 and r*x(i) otherwise; y(i) = integer part of x(i+1): y = (y(i)) is an infinite word on the alphabet (0,1). Here we take r = 3/2 and x = 1.
+%D A058840 A. Renyi (1957), Representation for real numbers and their ergodic properties, Acta. Math. Acad. Sci. Hung., 8, 477-493.
+%H A058840 Reinhard Zumkeller, <a href="/A058840/b058840.txt">Table of n, a(n) for n = 0..10000</a>
+%o A058840 (haskell)
+%o A058840 import data.ratio ((%), numerator, denominator)
+%o A058840 a058840 n = a058840_list !! n
+%o A058840 a058840_list = 1 : renyi' 1 where
+%o A058840    renyi' x = y : renyi' r  where
+%o A058840       (r, y) | q > 1     = (q - 1, 1)
+%o A058840              | otherwise = (q, 0)
+%o A058840       q = 3%2 * x
+%o A058840 -- _Reinhard Zumkeller_, Jul 01 2011
+%Y A058840 Cf. A058841, A058842.
+%K A058840 nonn,nice,easy
+%O A058840 0,1
+%A A058840 Claude Lenormand (claude.lenormand(AT)free.fr), Jan 05 2001
+%E A058840 More terms from Larry Reeves (larryr(AT)acm.org), Feb 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

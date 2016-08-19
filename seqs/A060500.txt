@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a060500
+Showing 1-1 of 1
+
+%I A060500
+%S A060500 0,1,1,1,1,2,1,2,1,1,1,2,1,1,2,2,2,2,1,2,2,2,2,3,1,2,2,2,2,3,1,2,1,1,
+%T A060500 1,2,1,1,2,2,2,2,1,2,2,2,2,3,1,2,1,1,1,2,2,3,2,2,2,3,2,2,2,2,2,2,2,3,
+%U A060500 2,2,2,3,1,1,2,2,2,2,2,2,2,2,2,2,2,2,3,3,3,3,2,2,3,3,3,3,1,2,2,2,2,3,2,3,2
+%N A060500 Average of digits of each term in A060496.
+%F A060500 a(n) = avg(Perm2SiteSwap1(PermUnrank3R(n)))
+%p A060500 avg := a -> (convert(a,`+`)/nops(a));
+%Y A060500 Cf. A060501, A060502.
+%K A060500 nonn
+%O A060500 0,6
+%A A060500 _Antti Karttunen_, Mar 22 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

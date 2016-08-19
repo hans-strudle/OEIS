@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053598
+Showing 1-1 of 1
+
+%I A053598
+%S A053598 1,0,2,13,202,9390,1531336,880492496,1792477159408,13026163465206704,
+%T A053598 341247403996148180800,32522568124623933138617088,
+%U A053598 11366712907916015518547782806784,14669074325967499043636521641422216704,70315641946149306808455637518883828774996992
+%N A053598 Number of n-node unlabeled digraphs without isolated nodes.
+%C A053598 Equals first differences of A000273.
+%H A053598 Alois P. Heinz, <a href="/A053598/b053598.txt">Table of n, a(n) for n = 0..35</a>
+%F A053598 O.g.f.: A(x)*(1-x) where A(x) is o.g.f. for A000273. - _Geoffrey Critzer_, Oct 09 2012
+%t A053598 Needs["Combinatorica`"];
+%t A053598 nn=15;s=Sum[NumberOfDirectedGraphs[n]x^n,{n,0,nn}];CoefficientList[Series[s (1-x),{x,0,nn}],x]  (* _Geoffrey Critzer_, Oct 09 2012 *)
+%t A053598 Join[{1}, Table[GraphPolynomial[n, x, Directed] /. x -> 1, {n, 0, 15}] // Differences] (* _Jean-François Alcover_, Feb 04 2015 *)
+%Y A053598 Cf. A002494.
+%K A053598 nonn,nice
+%O A053598 0,3
+%A A053598 _Vladeta Jovovic_, Apr 10 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

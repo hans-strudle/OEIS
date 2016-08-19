@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058995
+Showing 1-1 of 1
+
+%I A058995
+%S A058995 1,379,467,479,1325
+%N A058995 Numbers n such that 13^n reversed is prime.
+%t A058995 Do[ If[ PrimeQ[ ToExpression[ StringReverse[ ToString[13^n] ] ] ], Print[n] ], {n, 1, 2300} ]
+%Y A058995 Cf. A057708.
+%K A058995 nonn,base
+%O A058995 1,2
+%A A058995 _Robert G. Wilson v_, Jan 17 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

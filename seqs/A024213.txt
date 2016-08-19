@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024213
+Showing 1-1 of 1
+
+%I A024213
+%S A024213 28,418,2485,9605,28700,72128,159978,322770,604560,1066450,1790503,
+%T A024213 2884063,4484480,6764240,9936500,14261028,20050548,27677490,37581145,
+%U A024213 50275225,66355828,86509808,111523550,142292150,179829000,225275778
+%N A024213 a(n) = 3rd elementary symmetric function of first n+2 positive integers congruent to 1 mod 3.
+%H A024213 Vincenzo Librandi, <a href="/A024213/b024213.txt">Table of n, a(n) for n = 1..10000</a>
+%H A024213 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (7,-21,35,-35,21,-7,1).
+%F A024213 n(n+1)(n+2)(3n+5)(9n^2+21n-2)/48.
+%F A024213 G.f. ( -x*(28+222*x+147*x^2+8*x^3) ) / (x-1)^7 . - R. J. Mathar, Oct 08 2011
+%o A024213 (MAGMA) [n*(n+1)*(n+2)*(3*n+5)*(9*n^2+21*n-2)/48: n in [1..30]]; // Vincenzo Librandi, Oct 10 2011
+%K A024213 nonn
+%O A024213 1,1
+%A A024213 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

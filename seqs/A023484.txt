@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023484
+Showing 1-1 of 1
+
+%I A023484
+%S A023484 5,9,11,16,21,29,41,61,91,139,216,340,540,863,1385,2229,3594,5802,
+%T A023484 9374,15153,24503,39631,64108,103712,167792,271475,439237,710681,
+%U A023484 1149886,1860534,3010386,4870885,7881235,12752083,20633280,33385324
+%N A023484 a(n) = b(n) + d(n), where b(n) = (n-th Lucas number) and d(n) = (n-th nonFibonacci number).
+%K A023484 nonn
+%O A023484 0,1
+%A A023484 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

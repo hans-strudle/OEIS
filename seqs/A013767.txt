@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013767
+Showing 1-1 of 1
+
+%I A013767
+%S A013767 400,3200000,25600000000,204800000000000,1638400000000000000,
+%T A013767 13107200000000000000000,104857600000000000000000000,
+%U A013767 838860800000000000000000000000,6710886400000000000000000000000000,53687091200000000000000000000000000000
+%N A013767 20^(3n+2).
+%H A013767 Vincenzo Librandi, <a href="/A013767/b013767.txt">Table of n, a(n) for n = 0..200</a>
+%H A013767 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013767 (MAGMA) [20^(3*n+2): n in [0..10]]; // Vincenzo Librandi, Jun 27 2011
+%K A013767 nonn,easy
+%O A013767 0,1
+%A A013767 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

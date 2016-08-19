@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058829
+Showing 1-1 of 1
+
+%I A058829
+%S A058829 1,19,43,607,889,3727,12229,124433
+%N A058829 Numbers n such that 6^n - n is prime.
+%C A058829 a(8) > 30000. - _Giovanni Resta_, Apr 07 2013
+%C A058829 a(9) > 2*10^5. - _Robert Price_, Jan 21 2014
+%t A058829 Do[ If[ PrimeQ[6^n - n], Print[n] ], {n, 2500} ]
+%t A058829 Select[Range[4000], PrimeQ[(6^# - #)] &] (* _Vincenzo Librandi_, Sep 29 2012 *)
+%K A058829 nonn
+%O A058829 1,2
+%A A058829 _Robert G. Wilson v_, Jan 04 2001
+%E A058829 a(6) from _Vincenzo Librandi_, Sep 29 2012
+%E A058829 a(7) from _Giovanni Resta_, Apr 07 2013
+%E A058829 a(8) from _Robert Price_, Jan 21 2014
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

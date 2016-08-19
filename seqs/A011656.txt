@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011656
+Showing 1-1 of 1
+
+%I A011656
+%S A011656 0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,
+%T A011656 1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,
+%U A011656 1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,1
+%N A011656 A binary m-sequence: expansion of reciprocal of x^3+x^2+1.
+%C A011656 Period 7.
+%D A011656 S. W. Golomb, Shift-Register Sequences, Holden-Day, San Francisco, 1967.
+%D A011656 H. D. Lueke, Korrelationssignale, Springer 1992, pp. 43-48.
+%D A011656 F. J. MacWilliams and N. J. A. Sloane, The Theory of Error-Correcting Codes, Elsevier/North Holland, 1978, p. 408.
+%H A011656 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,0,0,0,0,0,1).
+%F A011656 G.f.: (x^6 + x^5 + x^4 + x^2)/(1-x^7). a(n+7) = a(n). - _Ralf Stephan_, Aug 05 2013
+%t A011656 PadLeft[ Mod[ CoefficientList[ Series[1/(1 + x^2 + x^3), {x, 0, 102}], x], 2], 105] (* _Robert G. Wilson v_ *)
+%Y A011656 Cf. A077962.
+%K A011656 nonn,easy
+%O A011656 0,1
+%A A011656 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

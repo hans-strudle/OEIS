@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038827
+Showing 1-1 of 1
+
+%I A038827
+%S A038827 664579,606028,587252,575795,567480,560981,555949,551318,547572,
+%T A038827 544501,541854,538339,536539,534012,532197,530062,528625,527302,
+%U A038827 525088,523464,522689,520914,520033,518971,517774,516542,515524,514685,513594,512662
+%N A038827 Number of primes between n*10^7 and (n+1)*10^7.
+%t A038827 Table[ PrimePi[ (n + 1)*10^7 ] - PrimePi[ n*10^7 ], {n, 0, 40} ]
+%Y A038827 Cf. A038823, A038824, A038825, A038826, A038828, A038829, A038830, A038831, A038832, A080132.
+%K A038827 nonn
+%O A038827 0,1
+%A A038827 _Jeff Burch_
+%E A038827 More terms from _Robert G. Wilson v_, Aug 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

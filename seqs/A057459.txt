@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057459
+Showing 1-1 of 1
+
+%I A057459
+%S A057459 2,3,5,7,11,23,31,43,47,67,71,139,211,283,311,331,431,463,659,683,691,
+%T A057459 863,947,967,1291,1303,1319,1367,1427,1699,1867,1979,1987,2011,2111,
+%U A057459 2131,2311,2531,3011,3083,4099,4423,4643,4691,4831,5171,5179,5683,5839
+%N A057459 Modified Higg's primes, i.e. next prime such that a(n+1) | a(1) ... a(n) and if none, first prime not listed.
+%t A057459 NextPrime[ n_Integer ] := Module[ {k = n + 1}, While[ ! PrimeQ[ k ], k++ ]; Return[ k ] ]; f[ n_List ] := (a = n; b = Apply[ Times, a ]; p = NextPrime[ Sort[ a ][[ -1 ]] ]; While[ ! IntegerQ[ b/(p - 1) ] && p < b, p = NextPrime[ p ] ]; If[ p > b, p = 2; While[ Position[ a, p ] != {}, p = NextPrime[ p ] ] ]; AppendTo[ a, p ]); Nest[ f, {2}, 50 ]
+%Y A057459 Cf. A007459.
+%K A057459 nonn
+%O A057459 1,1
+%A A057459 _Robert G. Wilson v_, Sep 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

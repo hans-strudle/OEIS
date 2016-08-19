@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028688
+Showing 1-1 of 1
+
+%I A028688
+%S A028688 1,2,3,6,16,21,24,45,96,120,175,288,315,416,441,640,720,891,1200,1573,
+%T A028688 2016,2535,2835,3136,3825,4608,5040,5491,6480,7581,8800,9765,10143,
+%U A028688 11616,11904,13225,14976,16875,18928,21141,23520,26071,28800,31713
+%N A028688 Sorted factorial and k-factorial numbers (numbers of form k-1 excluded).
+%H A028688 Vincenzo Librandi, <a href="/A028688/b028688.txt">Table of n, a(n) for n = 1..200</a>
+%H A028688 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A028688 Take[ Union@ Flatten[ Join[ FoldList[#1  #2 &, 1, Range@ 9], Table[ Take[ FoldList[#1 (n^#2 - 1) &, 1, Range@ 10], {3, 11}], {n, 2, 33}]]], 44] (* _Robert G. Wilson v_, May 07 2011 *)
+%K A028688 nonn
+%O A028688 1,2
+%A A028688 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057276
+Showing 1-1 of 1
+
+%I A057276
+%S A057276 1,0,0,1,0,0,0,1,2,1,1,0,0,0,0,1,4,16,22,22,11,5,1,1,0,0,0,0,0,1,7,58,
+%T A057276 240,565,928,1065,953,640,359,150,59,16,5,1,1
+%N A057276 Triangle T(n,k) of number of strongly connected digraphs on n unlabeled nodes and with k arcs, k=0,1,..,n*(n-1).
+%e A057276 [1],
+%e A057276 [0,0,1],
+%e A057276 [0,0,0,1,2,1,1],
+%e A057276 [0,0,0,0,1,4,16,22,22,11,5,1,1],
+%e A057276 ...; Number of strongly connected digraphs on 3 unlabeled nodes is 5=1+2+1+1.
+%Y A057276 Row sums give A035512. Cf. A057270-A057275, A057277-A057279.
+%K A057276 more,nonn,tabf
+%O A057276 1,9
+%A A057276 _Vladeta Jovovic_, Goran Kilibarda, Sep 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

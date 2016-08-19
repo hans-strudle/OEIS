@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037292
+Showing 1-1 of 1
+
+%I A037292
+%S A037292 1,2,2,55,2,4,2,801288,165,4,2,110,2,4,4
+%N A037292 Number of nonassociative rings with n elements.
+%C A037292 The standard definition of a ring requires that multiplication be associative, so these are very nonstandard rings.
+%C A037292 The rings need not contain a multiplicative unit.
+%C A037292 This sequence may be multiplicative. - Mitch Harris, Apr 19 2005
+%Y A037292 Cf. A027623.
+%K A037292 nonn
+%O A037292 1,2
+%A A037292 _Christian G. Bower_, Jun 15 1998. In fact more is known:
+%E A037292 1,2,2,55,2,4,2,801288,165,4,2,110,2,4,4,?,2,330,2,110,4,4,2,1602576
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a044052
+Showing 1-1 of 1
+
+%I A044052
+%S A044052 9,18,27,36,45,54,63,72,81,99,108,117,126,135,144,153,162,180,189,198,
+%T A044052 207,216,225,234,243,279,288,297,306,315,324,342,351,360,369,378,387,
+%U A044052 396,405,423,432,441,450,459,468,477,486,522
+%N A044052 Numbers n such that string 0,0 occurs in the base 3 representation of n but not of n-1.
+%K A044052 nonn,base
+%O A044052 1,1
+%A A044052 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

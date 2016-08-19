@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016419
+Showing 1-1 of 1
+
+%I A016419
+%S A016419 1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,
+%T A016419 0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,1,0,
+%U A016419 1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,0
+%V A016419 1,0,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,
+%W A016419 0,-1,0,-1,0,0,0,0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,0,0,1,0,1,0,0,0,-1,0,
+%X A016419 -1,0,0,0,1,0,0,0,-1,0,0,0,1,0,1,0,0
+%N A016419 476th cyclotomic polynomial.
+%K A016419 sign,fini
+%O A016419 0,1
+%A A016419 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

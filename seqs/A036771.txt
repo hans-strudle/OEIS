@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036771
+Showing 1-1 of 1
+
+%I A036771
+%S A036771 1,4,420,201600,264264000,734557824000,3723191087616000,
+%T A036771 31125877492469760000,399532678960326912000000,
+%U A036771 7462849882264211635200000000,194563959280510261541299200000000,6847568575944052279580806348800000000,316573366618757452963440048714547200000000
+%N A036771 Number of labeled rooted trees with a degree constraint: (3*n)!/(6^n)*binomial(3*n+1,n).
+%C A036771 a(n) is the number of labeled rooted unordered trees on 3n+1 nodes such that each node has zero or three children. - _Geoffrey Critzer_, Mar 14 2013
+%D A036771 L. Takacs, Enumeration of rooted trees and forests, Math. Scientist 18 (1993), 1-10, esp. Eq. (12).
+%H A036771 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=47">Encyclopedia of Combinatorial Structures 47</a>
+%H A036771 <a href="/index/Ro#rooted">Index entries for sequences related to rooted trees</a>
+%F A036771 E.g.f.: -(1/2)/x*((-3*x+((-8+9*x^3)/x)^(1/2))*x^2)^(1/3)-1/((-3*x+((-8+9*x^3)/x)^(1/2))*x^2)^(1/3)-1/2*I*3^(1/2)*(1/x*((-3*x+((-8+9*x^3)/x)^(1/2))*x^2)^(1/3)-2/((-3*x+((-8+9*x^3)/x)^(1/2))*x^2)^(1/3))
+%F A036771 Recurrence: {a(0)=0, a(2)=0, (-9*n^4-45*n^3-63*n^2-27*n)*a(n)+(8*n+28)*a(n+3)}.
+%F A036771 E.g.f. with interpolated zeros satisfies: A(x) = x*(1 + A(x)^3/3!). -  _Geoffrey Critzer_, Mar 14 2013
+%p A036771 spec := [S,{S=Union(Z,Prod(Z,Set(S,card=3)))},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A036771 nn=34;f[x_]:=Sum[a[n]x^n/n!,{n,0,nn}];s=SolveAlways[0=Series[f[x]-x (1+f[x]^3/3!),{x,0,nn}],x];Table[a[n],{n,1,nn,3}]/.s  (* _Geoffrey Critzer_, Mar 14 2013 *)
+%Y A036771 Cf. A036770.
+%K A036771 nonn
+%O A036771 0,2
+%A A036771 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

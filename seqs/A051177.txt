@@ -1,0 +1,27 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051177
+Showing 1-1 of 1
+
+%I A051177
+%S A051177 1,2,3,124,158,342,693,1896,3853,4434,5273,8640,14850,17928,110516,
+%T A051177 178984,274534
+%N A051177 Perfectly partitioned numbers: numbers n such that n divides the number of partitions p(n) of n.
+%C A051177 Are there infinitely many perfectly partitioned numbers? Does there exist some n for which p(n) is a perfectly partitioned number?
+%C A051177 No other terms below 10^8. - _Max Alekseyev_, May 19 2014
+%D A051177 Problem 2464, Journal of Recreational Mathematics 29(4), p. 304.
+%D A051177 Solution to problem 2464 "Perfect Partitions", Journal of Recreational Mathematics 30(4), pp. 294-295, 1999-2000.
+%e A051177 a(4) = 124 because p(124) = 2841940500 is divisible by 124.
+%e A051177 a(7) = 693 because partition number of 693 is 43397921522754943172592795 = 693*62623263380598763596815.
+%t A051177 Do[ If[ Mod[ PartitionsP@n, n] == 0, Print@n], {n, 250000}] (* _Robert G. Wilson v_ *)
+%t A051177 Select[Range[275000],Divisible[PartitionsP[#],#]&] (* _Harvey P. Dale_, Aug 21 2013~ *)
+%o A051177 (PARI) for(n=1,20000,if(numbpart(n)%n==0,print1(n,","))) - (Klaus Brockhaus, Sep 06 2006)
+%Y A051177 Cf. A000041.
+%Y A051177 Cf. A093952 = partition number A000041(n) mod n.
+%Y A051177 Cf. A128836, A121015.
+%K A051177 hard,nice,nonn,more
+%O A051177 1,2
+%A A051177 M.A. Muller (MAM(AT)LAND.SUN.AC.ZA)
+%E A051177 More terms from Don Reble (djr(AT)nk.ca), Jul 26 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

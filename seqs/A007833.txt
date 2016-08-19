@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007833
+Showing 1-1 of 1
+
+%I A007833
+%S A007833 1,0,1,1,28,448,18788,1419852,207249896,58206408344,31725488477648,
+%T A007833 33830818147141904,71068681534173472576,295648155633330113713344,
+%U A007833 2444510010072634827916776064
+%N A007833 Number of point-labeled reduced two-graphs with n nodes.
+%C A007833 Also number of (n-1)-node labeled mating graphs without isolated nodes, cf. A006024. - _Vladeta Jovovic_, Mar 23 2004
+%H A007833 P. J. Cameron, <a href="http://www.combinatorics.org/Volume_2/volume2.html#R4">Counting two-graphs related to trees</a>, Elec. J. Combin., Vol. 2, #R4.
+%K A007833 nonn
+%O A007833 1,5
+%A A007833 _Peter J. Cameron_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

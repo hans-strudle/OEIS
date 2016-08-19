@@ -1,0 +1,54 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006370
+Showing 1-1 of 1
+
+%I A006370 M3198
+%S A006370 4,1,10,2,16,3,22,4,28,5,34,6,40,7,46,8,52,9,58,10,64,11,70,12,76,13,
+%T A006370 82,14,88,15,94,16,100,17,106,18,112,19,118,20,124,21,130,22,136,23,
+%U A006370 142,24,148,25,154,26,160,27,166,28,172,29,178,30,184,31,190,32,196,33
+%N A006370 Image of n under the `3x+1' map.
+%C A006370 The 3x+1 or Collatz problem is as follows: start with any number n. If n is even, divide it by 2, otherwise multiply it by 3 and add 1. Do we always reach 1? This is an unsolved problem. It is conjectured that the answer is yes.
+%C A006370 The Krasikov-Lagarias paper shows that at least N^.84 of the positive numbers <N fall into the 4-2-1 cycle of the 3x+1 problem. This is far short of what we think is true, that all positive numbers fall into this cycle, but it is a step. - Richard Schroeppel, May 01 2002
+%C A006370 Also A016957 and A000027 interleaved. - _Omar E. Pol_, Jan 16 2014
+%C A006370 a(n) is the image of a(2*n) under the 3*x+1 map. - _L. Edson Jeffery_, Aug 17 2014
+%D A006370 R. K. Guy, Unsolved Problems in Number Theory, E16.
+%D A006370 J. C. Lagarias, ed., The Ultimate Challenge: The 3x+1 Problem, Amer. Math. Soc., 2010.
+%D A006370 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A006370 T. D. Noe, <a href="/A006370/b006370.txt">Table of n, a(n) for n=1..1000</a>
+%H A006370 Darrell Cox, <a href="https://cs.uwaterloo.ca/journals/JIS/VOL15/Cox/cox10.html">The 3n + 1 Problem: A Probabilistic Approach</a>, Journal of Integer Sequences, Vol. 15 (2012), #12.5.2.
+%H A006370 I. Krasikov and J. C. Lagarias, <a href="http://arXiv.org/abs/math.NT/0205002">Bounds for the 3x+1 Problem using Difference Inequalities</a>, arXiv:math/0205002 [math.NT], 2002.
+%H A006370 J. C. Lagarias, <a href="http://www.cecm.sfu.ca/organics/papers/lagarias/paper/html/paper.html">The 3x+1 problem and its generalizations</a>, Amer. Math. Monthly, 92 (1985), 3-23.
+%H A006370 J. C. Lagarias, <a href="http://matwbn.icm.edu.pl/ksiazki/aa/aa56/aa5614.pdf">The set of rational cycles for the 3x+1 problem</a>, Acta Arithmetica, LVI (1990), pp. 33-53.
+%H A006370 E. Roosendaal, <a href="http://www.ericr.nl/wondrous/index.html">On the 3x+1 problem</a>
+%H A006370 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A006370 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A006370 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/CollatzProblem.html">Collatz Problem</a>
+%H A006370 Wikipedia, <a href="http://en.wikipedia.org/wiki/Collatz_conjecture">Collatz conjecture</a>
+%H A006370 <a href="/index/3#3x1">Index entries for sequences related to 3x+1 (or Collatz) problem</a>
+%H A006370 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (0,2,0,-1).
+%F A006370 G.f.: (4x+x^2+2x^3) / (1-x^2)^2.
+%F A006370 a(n) = (1/4)(7n+2-(-1)^n(5n+2)). - _Benoit Cloitre_, May 12 2002
+%F A006370 a(n) = ((n mod 2)*2 + 1)*n/(2 - (n mod 2)) + (n mod 2). - _Reinhard Zumkeller_, Sep 12 2002
+%F A006370 a(n) = A014682(n+1) * A000034(n). [_R. J. Mathar_, Mar 09 2009]
+%p A006370 f := n-> if n mod 2 = 0 then n/2 else 3*n+1; fi;
+%p A006370 A006370:=(4+z+2*z**2)/(z-1)**2/(1+z)**2; # [_Simon Plouffe_ in his 1992 dissertation; uses offset 0.]
+%t A006370 f[n_]:=If[EvenQ[n],n/2,3n+1];Table[f[n],{n,50}] (* _Geoffrey Critzer_, Jun 29 2013 *)
+%o A006370 (PARI) for(n=1,100,print1((1/4)*(7*n+2-(-1)^n*(5*n+2)),","))
+%o A006370 (PARI) A006370(n)=if(n%2,3*n+1,n/2) \\ _Michael B. Porter_, May 29 2010
+%o A006370 (Haskell)
+%o A006370 a006370 n | m /= 0    = 3 * n + 1
+%o A006370           | otherwise = n' where (n',m) = divMod n 2
+%o A006370 -- _Reinhard Zumkeller_, Oct 07 2011
+%o A006370 (Python)
+%o A006370 def A006370(n):
+%o A006370 ....q,r = divmod(n,2)
+%o A006370 ....return 3*n+1 if r else q # _Chai Wah Wu_, Jan 04 2015
+%Y A006370 Cf. A139391, A016945, A005408, A016825, A082286.
+%Y A006370 Cf. A070165.
+%K A006370 nonn,nice,easy
+%O A006370 1,1
+%A A006370 _N. J. A. Sloane_.
+%E A006370 More terms from Larry Reeves (larryr(AT)acm.org), Apr 27 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

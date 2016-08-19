@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027964
+Showing 1-1 of 1
+
+%I A027964
+%S A027964 1,7,26,73,174,373,743,1404,2552,4506,7784,13226,22193,36889,60882,
+%T A027964 99947,163430,266455,433495,704150,1142496,1852212,3001056,4860468,
+%U A027964 7869649,12739243,20619098,33369709,54001422,87385081
+%N A027964 T(n,n+4), T given by A027960.
+%F A027964 G.f.: x^4(1+2x)/[(1-x)^4*(1-x-x^2)]. - _Ralf Stephan_, Feb 07 2004
+%K A027964 nonn
+%O A027964 4,2
+%A A027964 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

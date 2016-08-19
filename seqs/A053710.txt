@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053710
+Showing 1-1 of 1
+
+%I A053710
+%S A053710 6,120,3628880,51090942171709440000
+%N A053710 Value of prime balanced factorials: n! is the mean of its 2 closest neighboring primes.
+%F A053710 n! = (p+q)/2; p=n!+d, q=n!-d, p and q are the closest primes to n!
+%e A053710 for n=21, n!=51090942171709440000, d=31 and the closest primes to 21! are q=21!-31=51090942171709439969, p=21!+31=51090942171709440031
+%Y A053710 A033393, A033392, A006990, A037151, A006562, A053709.
+%K A053710 nonn
+%O A053710 1,1
+%A A053710 _Labos Elemer_, Feb 10 2000
+%E A053710 The next two terms are 171! and 190! - _Jud McCranie_, Jul 04 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

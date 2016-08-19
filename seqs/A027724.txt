@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027724
+Showing 1-1 of 1
+
+%I A027724
+%S A027724 0,29,202,285,2925,2935,20377,29570,297119,2834699,2837875,2990390,
+%T A027724 2997334
+%N A027724 Numbers n such that n^2+n+8 is a palindrome.
+%H A027724 P. De Geest, <a href="http://www.worldofnumbers.com/quasimor.htm">Palindromic Quasi_Over_Squares of the form n^2+(n+X)</a>
+%Y A027724 Cf. A027725, A027693.
+%K A027724 nonn,base
+%O A027724 1,2
+%A A027724 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

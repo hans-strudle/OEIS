@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003336
+Showing 1-1 of 1
+
+%I A003336
+%S A003336 2,17,32,82,97,162,257,272,337,512,626,641,706,881,1250,1297,1312,
+%T A003336 1377,1552,1921,2402,2417,2482,2592,2657,3026,3697,4097,4112,4177,
+%U A003336 4352,4721,4802,5392,6497,6562,6577,6642,6817,7186,7857,8192,8962,10001,10016
+%N A003336 Numbers that are the sum of 2 nonzero 4th powers.
+%C A003336 Numbers n such that n = x^4 + y^4 has a solution in positive integers x, y.
+%C A003336 There are no squares in this sequence. - _Altug Alkan_, Apr 08 2016
+%H A003336 T. D. Noe, <a href="/A003336/b003336.txt">Table of n, a(n) for n = 1..1000</a>
+%H A003336 A. Bremner and P. Morton, <a href="http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002225409">A new characterization of the integer 5906</a>, Manuscripta Math. 44 (1983) 187-229; Math. Rev. 84i:10016.
+%H A003336 S. R. Finch, <a href="http://www.people.fas.harvard.edu/~sfinch/csolve/fermat.pdf">On a generalized Fermat-Wiles equation</a>
+%H A003336 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BiquadraticNumber.html">Biquadratic Number</a>
+%t A003336 nn=12; Select[Union[Plus@@@(Tuples[Range[nn],{2}]^4)], # <= nn^4&] (* _Harvey P. Dale_, Dec 29 2010 *)
+%t A003336 Select[Range@ 11000, Length[PowersRepresentations[#, 2, 4] /. {0, _} -> Nothing] > 0 &] (* _Michael De Vlieger_, Apr 08 2016 *)
+%o A003336 (PARI) list(lim)=my(v=List(2)); for(x=1, lim^.25, for(y=1, min((lim-x^4)^.25, x), listput(v, x^4+y^4))); vecsort(Vec(v),,8) \\ _Charles R Greathouse IV_, Apr 24 2012
+%Y A003336 5906 is the first term in A060387 but not in this sequence. Cf. A020897.
+%K A003336 nonn
+%O A003336 1,1
+%A A003336 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

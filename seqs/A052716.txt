@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052716
+Showing 1-1 of 1
+
+%I A052716
+%S A052716 0,2,4,36,528,10800,283680,9102240,345058560,15090727680,747888422400,
+%T A052716 41422381862400,2535569103513600,169983582318950400,
+%U A052716 12386182292118835200,974723523832041984000,82385641026424479744000
+%N A052716 E.g.f. (x+1-sqrt(1-6*x+x^2))/2.
+%C A052716 With a(n)=1, also number of labeled mobiles with n nodes and 2-colored internal (non-leaf) nodes - _Christian G. Bower_, Jun 07 2005
+%H A052716 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=672">Encyclopedia of Combinatorial Structures 672</a>
+%H A052716 <a href="/index/Mo#mobiles">Index entries for sequences related to mobiles</a>
+%F A052716 Recurrence: a(2)=4, a(1)=2, (-1+n^2)*a(n)+(-3-6*n)*a(n+1)+a(n+2) =0.
+%F A052716 a(n) = n!*A006318(n-1), n>=2. - _R. J. Mathar_, Oct 26 2013
+%p A052716 spec := [S,{C=Union(B,Z),B=Prod(S,C),S=Union(Z,C)},labeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%Y A052716 Cf. A108531.
+%K A052716 easy,nonn
+%O A052716 0,2
+%A A052716 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

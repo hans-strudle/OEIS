@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058767
+Showing 1-1 of 1
+
+%I A058767
+%S A058767 2,4,12,52,100,108,160,2940,2964,17334,21768,41604,65208,72780
+%N A058767 Numbers n such that n^2*2^n + 1 is prime.
+%D A058767 Posting to NMBRTHRY(AT)LISTSERV.NODAK.EDU by _Mike Oakes_ Dec 30 2000 entitled "Gaussian analogues of the Cullen and Woodall primes."
+%H A058767 <a href="/index/Ga#gaussians">Index entries for Gaussian integers and primes</a>
+%t A058767 Do[ If[ PrimeQ[ n*2^(n/2) + 1 ], Print[n] ], {n, 1, 100000} ]
+%K A058767 nonn
+%O A058767 1,1
+%A A058767 _Robert G. Wilson v_, Jan 02 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

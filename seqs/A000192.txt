@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000192
+Showing 1-1 of 1
+
+%I A000192 M2167 N0865
+%S A000192 2,46,7970,3487246,2849229890,3741386059246,7205584123783010,
+%T A000192 19133892392367261646,67000387673723462963330,
+%U A000192 299131045427247559446422446,1658470810032820740402966226850
+%N A000192 Generalized Euler numbers c(6,n).
+%D A000192 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A000192 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A000192 Sean A. Irvine, <a href="/A000192/b000192.txt">Table of n, a(n) for n = 0..250</a>
+%H A000192 D. Shanks, <a href="http://dx.doi.org/10.1090/S0025-5718-1967-0223295-5">Generalized Euler and class numbers</a>. Math. Comp. 21 (1967) 663-688.
+%H A000192 D. Shanks, <a href="http://dx.doi.org/10.1090/S0025-5718-1968-0227093-9">Corrigenda to: "Generalized Euler and class numbers"</a>, Math. Comp. 22 (1968), 699
+%H A000192 D. Shanks, <a href="/A000003/a000003.pdf">Generalized Euler and class numbers</a>, Math. Comp. 21 (1967), 689-694; 22 (1968), 699. [Annotated scanned copy]
+%H A000192 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/EulerNumber.html">Euler Number.</a>
+%t A000192 L[ a_, s_, t_:10000 ] := Plus@@Table[ N[ JacobiSymbol[ -a, 2k+1 ](2k+1)^(-s), 30 ], {k, 0, t} ]; c[ a_, n_, t_:10000 ] := (2n)!/Sqrt[ a ](2a/Pi)^(2n+1)L[ a, 2n+1, t ] (* _Eric W. Weisstein_, Aug 30 2001 *)
+%Y A000192 Cf. A000191, A000187.
+%K A000192 nonn,easy
+%O A000192 0,1
+%A A000192 _N. J. A. Sloane_
+%E A000192 More terms from _Eric W. Weisstein_, Aug 30 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

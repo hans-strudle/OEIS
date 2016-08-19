@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016873
+Showing 1-1 of 1
+
+%I A016873
+%S A016873 2,7,12,17,22,27,32,37,42,47,52,57,62,67,72,77,82,87,92,97,102,107,
+%T A016873 112,117,122,127,132,137,142,147,152,157,162,167,172,177,182,187,192,
+%U A016873 197,202,207,212,217,222,227,232,237,242,247,252,257,262,267,272,277
+%N A016873 a(n) = 5n + 2.
+%C A016873 Also solutions to 3^x + 5^x == 1 mod 11. - _Cino Hilliard_, May 18 2003
+%C A016873 Numbers ending in 2 or 7. - _Lekraj Beedassy_, Jul 08 2006
+%H A016873 Cino Hilliard, <a href="http://groups.msn.com/BC2LCC/3x5x211k.msnw">solutions to 3^x + 5^x == 2 mod 11</a> [broken link]
+%H A016873 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A016873 a(n) = 10*n - a(n-1) - 1 (with a(0)=2). - _Vincenzo Librandi_, Nov 20 2010
+%F A016873 G.f.: (2+3*x)/(1-x)^2. - _Colin Barker_, Jan 08 2012
+%p A016873 a[1]:=2:for n from 2 to 100 do a[n]:=a[n-1]+5 od: seq(a[n], n=1..47); # _Zerinvary Lajos_, Mar 16 2008
+%t A016873 Range[2, 500, 5] (* _Vladimir Joseph Stephan Orlovsky_, May 26 2011 *)
+%o A016873 (Sage) [i+2 for i in range(235) if gcd(i,5) == 5] # _Zerinvary Lajos_, May 20 2009
+%Y A016873 Cf. A008586, A008587, A016861.
+%K A016873 nonn,easy
+%O A016873 0,1
+%A A016873 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

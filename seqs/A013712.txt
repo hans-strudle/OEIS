@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013712
+Showing 1-1 of 1
+
+%I A013712
+%S A013712 7,343,16807,823543,40353607,1977326743,96889010407,4747561509943,
+%T A013712 232630513987207,11398895185373143,558545864083284007,
+%U A013712 27368747340080916343,1341068619663964900807,65712362363534280139543,3219905755813179726837607
+%N A013712 7^(2n+1).
+%H A013712 Vincenzo Librandi, <a href="/A013712/b013712.txt">Table of n, a(n) for n = 0..150</a>
+%H A013712 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%F A013712 a(n)=49*a(n-1), n>0 ; a(0)=7 . G.f.: 7/(1-49*x). a(n)=7*A087752(n). [From _Philippe Deléham_, Nov 24 2008]
+%o A013712 (MAGMA) [7^(2*n+1): n in [0..20]]; // Vincenzo Librandi, May 26 2011
+%K A013712 nonn,easy
+%O A013712 0,1
+%A A013712 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

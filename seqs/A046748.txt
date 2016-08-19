@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046748
+Showing 1-1 of 1
+
+%I A046748
+%S A046748 1,3,13,61,295,1447,7151,35491,176597,880125,4390901,21920913,
+%T A046748 109486993,547018941,2733608905,13662695645,68294088535,341399727335,
+%U A046748 1706739347095,8532741458075,42660172763995,213287735579135,1066389745361635,5331765761680895
+%N A046748 Row sums of triangle A046521.
+%C A046748 Hankel transform is A082761. - _Paul Barry_, Apr 14 2010
+%F A046748 a(n) = binomial(2*n, n)*sum(binomial(n, k)/binomial(2*k, k), k=0..n) = 5^n - 2*A046714(n-1), A046714(-1) := 0; a(n) = 5*a(n-1) - 2*A000108(n-1), A000108(n): Catalan.
+%F A046748 G.f.: sqrt(1-4*x)/(1-5*x).
+%F A046748 (i) Homogeneous recursion: a(n) = (3*(3*n-2)/n)*a(n-1) - (10*(2*n-3)/n)*a(n-2), n >= 1, a(-1) := 0, a(0)=1. (ii) Hypergeometric 2F1 form: a(n)=binomial(2*n,n)*hypergeom([ -n,1 ],[ 1/2 ],-1/4).
+%F A046748 0 = a(n)*(+400*a(n+1) - 330*a(n+2) + 50*a(n+3)) + a(n+1)*(-30*a(n+1) + 71*a(n+2) - 15*a(n+3)) + a(n+2)*(-3*a(n+2) + a(n+3)) for all n in Z. - _Michael Somos_, May 25 2014
+%e A046748 G.f. = 1 + 3*x + 13*x^2 + 61*x^3 + 295*x^4 + 1447*x^5 + 7151*x^6 + ...
+%t A046748 a[ n_] := SeriesCoefficient[ Sqrt[ 1 - 4 x] / (1 - 5 x), {x, 0, n}]; (* _Michael Somos_, May 25 2014 *)
+%t A046748 a[ n_] := Binomial[ 2 n, n] Hypergeometric2F1[ -n, 1, 1/2, -1/4]; (* _Michael Somos_, May 25 2014 *)
+%o A046748 {a(n) = if( n<0, 0, polcoeff( sqrt( 1 - 4*x + x * O(x^n)) / (1 - 5*x), n))}; /* _Michael Somos_, May 25 2014 */
+%Y A046748 Cf. A000108, A046521, A046714.
+%K A046748 easy,nonn
+%O A046748 0,2
+%A A046748 _Wolfdieter Lang_, Dec 11 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

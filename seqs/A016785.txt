@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a016785
+Showing 1-1 of 1
+
+%I A016785
+%S A016785 1,262144,40353607,1000000000,10604499373,68719476736,322687697779,
+%T A016785 1207269217792,3814697265625,10578455953408,26439622160671,
+%U A016785 60716992766464,129961739795077,262144000000000,502592611936843
+%N A016785 (3*n+1)^9.
+%H A016785 Vincenzo Librandi, <a href="/A016785/b016785.txt">Table of n, a(n) for n = 0..10000</a>
+%H A016785 <a href="/index/Rec#order_10">Index entries for linear recurrences with constant coefficients</a>, signature (10, -45, 120, -210, 252, -210, 120, -45, 10, -1).
+%p A016785 A016785:=n->(3*n+1)^9; seq(A016785(k), k=0..100); # _Wesley Ivan Hurt_, Nov 05 2013
+%t A016785 Table[(3*n+1)^9, {n,0,100}] (* _Wesley Ivan Hurt_, Nov 05 2013 *)
+%t A016785 LinearRecurrence[{10,-45,120,-210,252,-210,120,-45,10,-1},{1,262144,40353607,1000000000,10604499373,68719476736,322687697779,1207269217792,3814697265625,10578455953408},100] (* _Harvey P. Dale_, Aug 17 2014 *)
+%o A016785 (MAGMA) [(3*n+1)^9 : n in [0..20]]; // Vincenzo Librandi, Sep 28 2011
+%K A016785 nonn,easy
+%O A016785 0,2
+%A A016785 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

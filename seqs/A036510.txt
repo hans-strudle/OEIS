@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036510
+Showing 1-1 of 1
+
+%I A036510
+%S A036510 36,3136,343396,1336336,133333209,3333330225,313341333361,
+%T A036510 1433333333961,43333334833636,1333333832344336,123133353336333376,
+%U A036510 3233633330337433321,3333433332336331536,2333303333385023333376,133333533332333233936
+%N A036510 Smallest square containing exactly n 3's.
+%H A036510 Jon E. Schoenfield, <a href="/A036510/b036510.txt">Table of n, a(n), n=1..17.</a>
+%Y A036510 Cf. A048348. [From _Jon E. Schoenfield_, Jan 24 2009]
+%K A036510 nonn,base
+%O A036510 1,1
+%A A036510 _David W. Wilson_
+%E A036510 More terms from _Jon E. Schoenfield_, Jan 14 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

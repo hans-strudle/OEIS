@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007327
+Showing 1-1 of 1
+
+%I A007327 M3900
+%S A007327 0,0,0,0,0,5,20,69,200,521
+%N A007327 Difference between two partition g.f.s.
+%D A007327 G. E. Andrews, The Theory of Partitions, Add.-Wes. '76, p. 190.
+%D A007327 A. O. L. Atkin, P. Bratley, I. G. McDonald and J. K. S. McKay, Some computations for m-dimensional partitions, Proc. Camb. Phil. Soc., 63 (1967), 1097-1100. http://boltzmann.wdfiles.com/local--files/refined-counting/ABMM.pdf.
+%D A007327 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007327 A. O. L. Atkin, P. Bratley, I. G. McDonald and J. K. S. McKay, <a href="/A000219/a000219.pdf">Some computations for m-dimensional partitions</a>, Proc. Camb. Phil. Soc., 63 (1967), 1097-1100. [Annotated scanned copy]
+%Y A007327 Cf. A007326-A007330, A008780, A042984.
+%K A007327 nonn
+%O A007327 1,6
+%A A007327 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

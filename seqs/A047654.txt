@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047654
+Showing 1-1 of 1
+
+%I A047654
+%S A047654 1,2,1,0,2,2,2,2,1,0,2,2,3,0,2,0,0,2,2,0,2,2,1,0,0,2,2,2,1,
+%T A047654 2,0,2,2,0,2,0,2,0,2,0,0,0,1,2,0,0,2,0,2,0,1,2,0,2,2,2,0,2,0,2,
+%U A047654 0,2,2,0,4,0,0,2,1,2,0,2,0,0,0,0,2,4,1,0,0,2,2,2,2,0,0,2,0,2,2,2,2
+%V A047654 1,-2,1,0,-2,2,-2,2,1,0,2,-2,3,0,2,0,0,2,-2,0,-2,2,-1,0,0,-2,-2,-2,1,
+%W A047654 -2,0,-2,-2,0,2,0,-2,0,-2,0,0,0,1,2,0,0,2,0,2,0,1,2,0,-2,2,2,0,2,0,2,
+%X A047654 0,2,2,0,-4,0,0,2,1,-2,0,-2,0,0,0,0,2,-4,1,0,0,-2,-2,-2,-2,0,0,-2,0,2,-2,2,-2
+%N A047654 Expand {Product_{j=1..inf} (1-x^j) - 1 }^2 in powers of x.
+%D A047654 H. Gupta, On the coefficients of the powers of Dedekind's modular form, J. London Math. Soc., 39 (1964), 433-440.
+%K A047654 sign
+%O A047654 1,2
+%A A047654 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

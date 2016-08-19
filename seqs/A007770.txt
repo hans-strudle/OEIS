@@ -1,0 +1,58 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007770
+Showing 1-1 of 1
+
+%I A007770
+%S A007770 1,7,10,13,19,23,28,31,32,44,49,68,70,79,82,86,91,94,97,100,103,109,
+%T A007770 129,130,133,139,167,176,188,190,192,193,203,208,219,226,230,236,239,
+%U A007770 262,263,280,291,293,301,302,310,313,319,320,326,329,331,338
+%N A007770 Happy numbers: numbers whose trajectory under iteration of sum of squares of digits map (see A003132) includes 1.
+%C A007770 Sometimes called friendly numbers, but this usage is deprecated.
+%C A007770 Gilmer shows that the lower density of this sequence is < 0.1138 and the upper density is > 0.18577. - _Charles R Greathouse IV_, Dec 21 2011
+%C A007770 Corrected the upper and lower density inequalities in the comment above. - _Nathan Fox_, Mar 14 2013
+%D A007770 L. E. Dickson, History of the Theory of Numbers, Vol, I: Divisibility and Primality, AMS Chelsea Publ., 1999.
+%D A007770 R. K. Guy, Unsolved Problems Number Theory, Sect. E34.
+%D A007770 J. N. Kapur, Reflections of a Mathematician, Chap. 34 pp. 319-324, Arya Book Depot New Delhi 1996.
+%H A007770 Jud McCranie, <a href="/A007770/b007770.txt">Table of n, a(n) for n = 1..143071</a>
+%H A007770 E. El-Sedy and S. Siksek, <a href="http://dx.doi.org/10.1216/rmjm/1022009281">On happy numbers</a>, Rocky Mountain J. Math. 30 (2000), 565-570.
+%H A007770 Justin Gilmer, <a href="http://arxiv.org/abs/1110.3836">On the density of happy numbers</a> (2011).
+%H A007770 Hao Pan, <a href="http://arXiv.org/abs/math.NT/0607213">Consecutive happy numbers</a>
+%H A007770 W. Schneider, <a href="http://web.archive.org/web/2004/www.wschnei.de/digit-related-numbers/happy-numbers.html">Happy Numbers</a> (Includes list of terms below 10000)
+%H A007770 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/HappyNumber.html">Happy Number</a>
+%H A007770 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/Digitaddition.html">Digitaddition</a>
+%H A007770 Wikipedia, <a href="http://en.wikipedia.org/wiki/Happy_number">Happy number</a>
+%F A007770 From Ulrich Krug (leuchtfeuer37(AT)gmx.de), Apr 23 2009: (Start)
+%F A007770 1) Every power 10^k is a member of the sequence.
+%F A007770 2) If n is member the numbers obtained by placing zeros anywhere in n are members.
+%F A007770 3) If n is member each permutation of digits of n gives another member.
+%F A007770 4) If the repeated process of summing squared digits give a number which is already a member of sequence the starting number belongs to the sequence.
+%F A007770 5) If n is a member the repunit consisting of n 1's is a member.
+%F A007770 6) If n is a member delete any digit d, new number consisting of remaining digits of n and d^2 1's placed everywhere to n is a member.
+%F A007770 7) It is conjectured that the sequence includes an infinite number of primes (see A035497).
+%F A007770 8) For any starting number the repeated process of summing squared digits ends with 1 or gives an "8-loop" which ends with (37,58,89,145,42,20,4,16,37) (End)
+%F A007770 Recurrence formula to test if a number is happy
+%F A007770 f(1)=Number;
+%F A007770 f(n)=Sum_{k=0,floor(log10(f(n-1)))}(floor(f(n-1)/10^k)-10*floor(f(n-1)/10^(k+1)))^(2). - _José de Jesús Camacho Medina_, Mar 29 2014
+%F A007770 If f(n) produces '1' in their values, then the number is happy.
+%e A007770 1 is OK. 2 --> 4 --> 16 --> 37 --> ... --> 4, which repeats with period 8, so never reaches 1, so 2 (and 4) are unhappy.
+%e A007770 A correspondent suggested that 98 is happy, but it is not.
+%t A007770 f[n_] := Total[IntegerDigits[n]^2]; Select[Range[400], NestWhile[f, #, UnsameQ, All] == 1 &] (* _T. D. Noe_, Aug 22 2011 *)
+%t A007770 Select[Range[1000],FixedPoint[Total[IntegerDigits[#]^2]&,#,10]==1&] (* _Harvey P. Dale_, Oct 09 2011 *)
+%t A007770 A example with recurrence formula to test if a number is happy:
+%t A007770 a[1]=7;
+%t A007770 a[n_]:=Sum[(Floor[a[n-1]/10^k]-10*Floor[a[n-1]/10^(k+1)]) ^ (2) ,{k, 0,
+%t A007770       Floor[Log[10,a[n-1]]] }]
+%t A007770 Table[a[n],{n,1,10}] (* _José de Jesús Camacho Medina_, Mar 29 2014 *)
+%o A007770 (Haskell)
+%o A007770 a007770 n = a007770_list !! (n-1)
+%o A007770 a007770_list = filter ((== 1) . a103369) [1..]
+%o A007770 -- _Reinhard Zumkeller_, Aug 24 2011
+%o A007770 (PARI) ssd(n)=n=digits(n);sum(i=1,#n,n[i]^2)
+%o A007770 is(n)=while(n>6,n=ssd(n));n==1 \\ _Charles R Greathouse IV_, Nov 20 2012
+%Y A007770 Cf. A003132 (the underlying map), A001273, A035497 (happy primes), A046519, A031177, A002025, A050972, A050973, A074902, A003132, A103369, A035502, A068571, A072494, A124095, A219667.
+%K A007770 nonn,base,nice,easy
+%O A007770 1,2
+%A A007770 _N. J. A. Sloane_, A.R.McKenzie(AT)bnr.co.uk
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

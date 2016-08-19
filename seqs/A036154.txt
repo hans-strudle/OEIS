@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036154
+Showing 1-1 of 1
+
+%I A036154
+%S A036154 1,2,4,8,16,32,64,128,75,150,119,57,114,47,94,7,14,28,56,112,43,86,
+%T A036154 172,163,145,109,37,74,148,115,49,98,15,30,60,120,59,118,55,110,39,78,
+%U A036154 156,131,81,162,143,105,29,58,116
+%N A036154 2^n mod 181.
+%D A036154 I. M. Vinogradov, Elements of Number Theory, pp. 220 ff.
+%p A036154 [ seq(primroot(ithprime(i))^j mod ithprime(i),j=0..100) ];
+%o A036154 (PARI) a(n)=lift(Mod(2,181)^n) \\ _Charles R Greathouse IV_, Mar 22 2016
+%K A036154 nonn,easy
+%O A036154 0,2
+%A A036154 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

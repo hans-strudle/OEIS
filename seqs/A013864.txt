@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013864
+Showing 1-1 of 1
+
+%I A013864
+%S A013864 1728,429981696,106993205379072,26623333280885243904,
+%T A013864 6624737266949237011120128,1648446623609512543951043690496,
+%U A013864 410186270246002225336426103593500672,102067469997853225734913580209377959215104,25397652694505813866070015990659936347412758528
+%N A013864 12^(5*n+3).
+%H A013864 Vincenzo Librandi, <a href="/A013864/b013864.txt">Table of n, a(n) for n = 0..100</a>
+%H A013864 Tanya Khovanova, <a href="http://www.tanyakhovanova.com/RecursiveSequences/RecursiveSequences.html">Recursive Sequences</a>
+%o A013864 (MAGMA) [12^(5*n+3): n in [0..10]]; // Vincenzo Librandi, Jul 09 2011
+%K A013864 nonn,easy
+%O A013864 0,1
+%A A013864 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

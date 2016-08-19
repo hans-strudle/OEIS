@@ -1,0 +1,23 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057622
+Showing 1-1 of 1
+
+%I A057622
+%S A057622 5,23,47,251,1889,7793,43451,243161,726893,759821,1820111,1820111,
+%T A057622 10141499,19725473,19725473,136209239,400414121,400414121,489144599,
+%U A057622 489144599,766319189,766319189,21549657539,21549657539,21549657539
+%N A057622 Initial prime in first sequence of n primes congruent to 5 modulo 6.
+%D A057622 R. K. Guy, "Unsolved Problems in Number Theory", A4
+%H A057622 Giovanni Resta, <a href="/A057622/b057622.txt">Table of n, a(n) for n = 1..35</a> (terms < 4*10^14)
+%H A057622 J. K. Andersen, <a href="http://primerecords.dk/congruent-primes.htm">Consecutive Congruent Primes</a>.
+%e A057622 a(12) = 1820111 because this number is the first in a sequence of 12 consecutive primes all of the form 6n + 5.
+%t A057622 NextPrime[ n_Integer ] := Module[ {k = n + 1}, While[ ! PrimeQ[ k ], k++ ]; Return[ k ] ]; PrevPrime[ n_Integer ] := Module[ {k = n - 1}, While[ ! PrimeQ[ k ], k-- ]; Return[ k ] ]; p = 0; Do[ a = Table[ -1, {n} ]; k = Max[ 1, p ]; While[ Union[ a ] != {5}, k = NextPrime[ k ]; a = Take[ AppendTo[ a, Mod[ k, 6 ] ], -n ] ]; p = NestList[ PrevPrime, k, n ]; Print[ p[ [ -2 ] ] ]; p = p[ [ -1 ] ], {n, 1, 18} ]
+%Y A057622 Cf. A057619, A057620, A057624.
+%K A057622 nonn
+%O A057622 1,1
+%A A057622 _Robert G. Wilson v_, Oct 09 2000
+%E A057622 More terms from Don Reble (djr(AT)nk.ca), Nov 16 2003
+%E A057622 More terms from _Jens Kruse Andersen_, May 30 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

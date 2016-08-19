@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023206
+Showing 1-1 of 1
+
+%I A023206
+%S A023206 2,3,5,11,17,23,41,47,53,71,83,113,131,137,173,191,197,227,251,257,
+%T A023206 281,293,317,347,383,401,461,467,503,521,587,593,641,647,677,683,701,
+%U A023206 743,773,797,857,863,941,947,953,971,983,1031,1061,1103,1151,1163,1187,1193,1217
+%N A023206 Numbers n such that n and 2n + 7 both prime.
+%H A023206 Vincenzo Librandi, <a href="/A023206/b023206.txt">Table of n, a(n) for n = 1..1000</a>
+%t A023206 Select[Prime@Range@250,PrimeQ[2#+7]&] (* _Vladimir Joseph Stephan Orlovsky_, Apr 25 2011 *)
+%o A023206 (MAGMA) [n: n in [0..1000] | IsPrime(n) and IsPrime(2*n+7)]; // _Vincenzo Librandi_, Nov 20 2010
+%Y A023206 Cf. A005384, A023204, A023205.
+%K A023206 nonn,easy
+%O A023206 1,1
+%A A023206 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

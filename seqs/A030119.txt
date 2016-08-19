@@ -1,0 +1,24 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030119
+Showing 1-1 of 1
+
+%I A030119
+%S A030119 1,1,4,8,16,29,51,87,146,242,398,651,1061,1725,2800,4540,7356,11913,
+%T A030119 19287,31219,50526,81766,132314,214103,346441,560569,907036,1467632,
+%U A030119 2374696,3842357,6217083,10059471,16276586,26336090,42612710,68948835
+%N A030119 a(n) = a(n-1) + a(n-2) + n
+%H A030119 Vincenzo Librandi, <a href="/A030119/b030119.txt">Table of n, a(n) for n = 0..400</a>
+%H A030119 <a href="/index/Rec#order_04">Index entries for linear recurrences with constant coefficients</a>, signature (3, -2, -1, 1).
+%F A030119 Periodic mod 6.
+%F A030119 G.f. [1-2x+3x^2-x^3]/[(1-x-x^2)(1-x)^2].
+%F A030119 Lucas(n+2) + Fibonacci(n+1) - (n+3).
+%F A030119 a(0)=1, a(1)=1, a(2)=4, a(3)=8, a(n)=3*a(n-1)-2*a(n-2)-a(n-3)+a(n-4) [From Harvey P. Dale, Nov 06 2011]
+%t A030119 RecurrenceTable[{a[0]==a[1]==1,a[n]==a[n-1]+a[n-2]+n},a,{n,40}] (* or *) LinearRecurrence[{3,-2,-1,1},{1,1,4,8},40] (* _Harvey P. Dale_, Nov 06 2011 *)
+%o A030119 (MAGMA) [Lucas(n+2) + Fibonacci(n+1) - (n+3) : n in [0..40]]; // Vincenzo Librandi, Nov 16 2011
+%K A030119 nonn,easy
+%O A030119 0,3
+%A A030119 Dragan Stevanovic (dragance(AT)ban.junis.ni.ac.yu)
+%E A030119 Description corrected and sequence extended by _Erich Friedman_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

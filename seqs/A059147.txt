@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a059147
+Showing 1-1 of 1
+
+%I A059147
+%S A059147 1,2,1,4,1,2,1,8,16,8,32,8,16,8,1,2,1,4,1,2,1,64,128,64,256,64,128,64,
+%T A059147 1,2,1,4,1,2,1,8,16,8,32,8,16,8,1,2,1,4,1,2,1,512,1024,512,2048,512,
+%U A059147 1024,512,1,2,1,4,1,2,1,8,16,8,32,8,16,8,1,2,1,4,1,2,1,64,128,64,256
+%N A059147 A hierarchical sequence (W'2{3} - see A059126).
+%H A059147 J. Wallgren, <a href="/A059126/a059126.txt">Hierarchical sequences</a>
+%K A059147 easy,nonn
+%O A059147 0,2
+%A A059147 _Jonas Wallgren_, Feb 01 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

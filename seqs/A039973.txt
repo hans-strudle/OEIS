@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a039973
+Showing 1-1 of 1
+
+%I A039973
+%S A039973 1,0,2,0,2,0,1,0,2,0,0,0,0,0,0,0,2,0,1,0,2,0,2,0,1,0,2,0,0,0,0,0,0,0,
+%T A039973 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,1,0,2,0,2,0,1,0,2,0,0,0,0,0,
+%U A039973 0,0,2,0,1,0,2,0,2,0,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A039973 An example of a d-perfect sequence.
+%H A039973 D. Kohel, S. Ling and C. Xing, <a href="http://www.maths.usyd.edu.au/u/kohel/doc/perfect.ps">Explicit Sequence Expansions</a>
+%F A039973 a(2*n) = 0, a(2*n-1) = A039965(n) - _Christian G. Bower_, Jun 12 2005 - _Christian G. Bower_, Jun 12 2005
+%K A039973 nonn
+%O A039973 1,3
+%A A039973 _N. J. A. Sloane_.
+%E A039973 More terms from _Christian G. Bower_, Jun 12 2005
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

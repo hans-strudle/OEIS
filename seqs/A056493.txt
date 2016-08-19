@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a056493
+Showing 1-1 of 1
+
+%I A056493
+%S A056493 2,1,2,3,6,7,14,18,28,39,62,81,126,175,246,360,510,728,1022,1485,2030,
+%T A056493 3007,4094,6030,8184,12159,16352,24381,32766,48849,65534,97920,131006,
+%U A056493 196095,262122,392364,524286,785407,1048446,1571310,2097150,3143497
+%N A056493 Number of primitive (period n) periodic palindromes using a maximum of two different symbols.
+%C A056493 For example, aaabbb is not a (finite) palindrome but it is a periodic palindrome.
+%C A056493 Also aperiodic necklaces (Lyndon words) that are the same when turned over.
+%D A056493 M. R. Nester (1999). Mathematical investigations of some plant interaction designs. PhD Thesis. University of Queensland, Brisbane, Australia.
+%H A056493 <a href="/index/Lu#Lyndon">Index entries for sequences related to Lyndon words</a>
+%F A056493 Sum mu(d)*A029744(n/d) where d divides n.
+%Y A056493 Cf. A056458.
+%K A056493 nonn
+%O A056493 1,1
+%A A056493 Marks R. Nester (nesterm(AT)dpi.qld.gov.au)
+%E A056493 More terms and additional comments from _Christian G. Bower_, Jun 22 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

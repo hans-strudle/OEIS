@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a007454
+Showing 1-1 of 1
+
+%I A007454 M1630
+%S A007454 1,1,2,6,18,64,227,856,3280,12885,51342,207544,847886,3497384,
+%T A007454 14541132,60884173,256480895,1086310549,4623128656,19759964149,
+%U A007454 84784735379,365066645854,1576927900803,6831518134251,29674505668536
+%N A007454 Number of disconnected N-free posets with n nodes.
+%D A007454 P. J. Cameron, Some sequences of integers, Discrete Math., 75 (1989), 89-102; also in "Graph Theory and Combinatorics 1988", ed. B. Bollobas, Annals of Discrete Math., 43 (1989), 89-102.
+%D A007454 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A007454 <a href="/index/Pos#posets">Index entries for sequences related to posets</a>
+%K A007454 nonn
+%O A007454 1,3
+%A A007454 _N. J. A. Sloane_, _Mira Bernstein_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

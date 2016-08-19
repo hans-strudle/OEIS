@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014919
+Showing 1-1 of 1
+
+%I A014919
+%S A014919 1,1,0,0,0,1,1,1,1,0,1,1,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0,0,0,1,1,
+%T A014919 0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,1,1,0,0,0,1,0,0,0,1,1,0,0,1,1,0,
+%U A014919 0,0,1,1,1,0,1,1,1,1,0,0,0,1,1,0,0,0,0
+%V A014919 1,1,0,0,0,-1,-1,-1,-1,0,1,1,1,0,0,0,-1,-1,0,0,1,1,0,0,0,-1,0,0,0,1,1,
+%W A014919 0,0,-1,-1,0,0,0,1,0,0,0,-1,-1,0,0,1,1,0,0,0,-1,0,0,0,1,1,0,0,-1,-1,0,
+%X A014919 0,0,1,1,1,0,-1,-1,-1,-1,0,0,0,1,1,0,0,0,0
+%N A014919 Inverse of 910th cyclotomic polynomial.
+%p A014919 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014919 sign
+%O A014919 0,1
+%A A014919 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

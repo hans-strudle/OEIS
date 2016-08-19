@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014814
+Showing 1-1 of 1
+
+%I A014814
+%S A014814 1,1,0,0,0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,
+%T A014814 1,1,0,1,1,1,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1,1,1,
+%U A014814 1,0,1,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,0,1,1
+%V A014814 1,-1,0,0,0,1,-1,1,-1,0,1,-1,1,-1,1,0,-1,1,-1,1,0,0,0,0,0,0,0,0,1,-1,
+%W A014814 1,-1,0,1,-1,1,-1,1,0,-1,1,-1,1,0,0,0,0,0,0,0,0,1,-1,1,-1,0,1,-1,1,-1,
+%X A014814 1,0,-1,1,-1,1,0,0,0,0,0,0,0,0,1,-1,1,-1,0,1,-1
+%N A014814 Inverse of 805th cyclotomic polynomial.
+%p A014814 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014814 sign
+%O A014814 0,1
+%A A014814 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

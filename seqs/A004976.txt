@@ -1,0 +1,28 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a004976
+Showing 1-1 of 1
+
+%I A004976
+%S A004976 0,4,8,12,16,21,25,29,33,38,42,46,50,55,59,63,67,72,76,80,84,88,93,97,
+%T A004976 101,105,110,114,118,122,127,131,135,139,144,148,152,156,160,165,169,
+%U A004976 173,177,182,186,190,194,199
+%N A004976 Floor(n*phi^3), where phi=(1+sqrt(5))/2.
+%C A004976 For n>=1, a(n) is the position of the n-th 1 in the zero-one sequence [nr+r]-[nr]-[r], where r=sqrt(5); see A188221.  Also, A004976=-1+A004958 (for n>=1), and A004976 is the complement of A188222.  [From Clark Kimberling, Mar 24 2011]
+%H A004976 Vincenzo Librandi, <a href="/A004976/b004976.txt">Table of n, a(n) for n = 0..1000</a>
+%H A004976 Vincent Russo and Loren Schwiebert, <a href="http://www-personal.umich.edu/~vprusso/Fibonacci.pdf">Beatty sequences, Fibonacci numbers and the golden ratio</a>
+%H A004976 <a href="/index/Be#Beatty">Index entries for sequences related to Beatty sequences</a>
+%F A004976 a(n) = n+floor(2*n*phi). [Formula corrected by Clark Kimberling, Mar 22 2008]
+%t A004976 r=5^(1/2); k=1;
+%t A004976 t=Table[Floor[n*r+k*r]-Floor[n*r]-Floor[k*r], {n,1,220}]         (* A188221 *)
+%t A004976 Flatten[Position[t,0] ]   (* A188222 *)
+%t A004976 Flatten[Position[t,1] ]   (* A004976 *)
+%t A004976 (* [From Clark Kimberling, Mar 24 2011] *)
+%t A004976 With[{c=GoldenRatio^3},Floor[c*Range[0,50]] (* _Vincenzo Librandi_, Apr 12 2012 *)
+%o A004976 (PARI) a(n)=2*n+sqrtint(5*n^2) \\ _Charles R Greathouse IV_, Apr 12 2012
+%Y A004976 Cf. A000201, A001950, A004919.
+%K A004976 nonn
+%O A004976 0,2
+%A A004976 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040211
+Showing 1-1 of 1
+
+%I A040211
+%S A040211 15,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,
+%T A040211 15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,
+%U A040211 30,15,30,15,30,15,30,15,30,15,30,15,30,15,30,15,30
+%N A040211 Continued fraction for sqrt(227).
+%H A040211 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040211 a(n)=(1/2)*[45+15*(-1)^n]-15*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Apr 23 2009]
+%p A040211 with(numtheory): Digits := 300: convert(evalf(sqrt(227)),confrac);
+%K A040211 nonn,cofr,easy
+%O A040211 0,1
+%A A040211 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

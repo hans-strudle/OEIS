@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003034
+Showing 1-1 of 1
+
+%I A003034 M2275
+%S A003034 3,3,4,3,3,4,6,5,6,6,6,7
+%N A003034 Sylvester's problem: minimal number of ordinary lines through n points in the plane.
+%C A003034 An ordinary line contains exactly 2 points. The problem is to place n points, not all on a line, so as to minimize the number of ordinary lines.
+%C A003034 Pach and Sharir give the following table for n >= 3: 3, 3, 4, 3, 3, 4, 6, 5, 6, 6, 6, 7, ?, 8, ?, 9, ?, ?, ?, 22, ... - _N. J. A. Sloane_, Dec 01 2010
+%D A003034 J. Brakke, Some new values for Sylvester's function for n collinear points, J. Undergrad. Math., 4 (1972), 11-14.
+%D A003034 H. T. Croft, K. J. Falconer and R. K. Guy, Unsolved Problems in Geometry, F12.
+%D A003034 B. Grünbaum, Arrangements and Spreads. American Mathematical Society, Providence, RI, 1972, p. 18.
+%D A003034 S. Hansen, Contributions to the Sylvester-Gallai theory, Dissertation, Univ. Copenhagen, 1981.
+%D A003034 J. Pach and M. Sharir, Combinatorial Geometry and Its Algorithmic Applications, Amer. Math. Soc., 2009; see p. 2.
+%D A003034 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A003034 P. Borwein and W. O. J. Moser, <a href="http://dx.doi.org/10.1007/BF02112289">A survey of Sylvester's problem and its generalizations</a>, Aequat. Math., 40 (1990), 111-135.
+%H A003034 D. W. Crowe and T. A. McKee, <a href="http://www.jstor.org/stable/2687957">Sylvester's problem on collinear points</a>, Math. Mag., 41 (1968), 30-34.
+%H A003034 L. M. Kelley and W. O. J. Moser, <a href="http://dx.doi.org/10.4153/CJM-1958-024-6">On the number of ordinary lines determined by n points</a>, Canad. J. Math., 10 (1958), 210-219.
+%F A003034 Kelly and Moser showed that a(n) >= ceiling(3n/7); Hansen showed that a(n) >= floor(n/2) except for n=7 and 13.
+%K A003034 nonn,hard,nice
+%O A003034 3,1
+%A A003034 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

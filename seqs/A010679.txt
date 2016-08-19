@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a010679
+Showing 1-1 of 1
+
+%I A010679
+%S A010679 0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,
+%T A010679 0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,0,8,
+%U A010679 0,8,0,8,0,8,0,8,0,8,0,8,0
+%N A010679 Period 2: repeat (0,8).
+%H A010679 <a href="/index/Rec#order_02">Index entries for linear recurrences with constant coefficients</a>, signature (0,1).
+%F A010679 a(n) = 4*(1-(-1)^n) = 8*(n mod 2). - _Paolo P. Lava_, Oct 20 2006
+%F A010679 G.f.: 8*x/((1-x)*(1+x)). - _R. J. Mathar_, Nov 21 2011
+%F A010679 a(n) = 3^(1-(-1)^n) - 1. [_Bruno Berselli_, Dec 29 2015]
+%t A010679 PadRight[{},120,{0,8}] (* _Harvey P. Dale_, Dec 21 2015 *)
+%o A010679 (MAGMA) &cat [[0,8]^^40]; // _Bruno Berselli_, Dec 29 2015
+%Y A010679 Cf. A010700: 3^(1-(-1)^n) + 1.
+%K A010679 nonn,easy
+%O A010679 0,2
+%A A010679 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

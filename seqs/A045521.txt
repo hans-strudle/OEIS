@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045521
+Showing 1-1 of 1
+
+%I A045521
+%S A045521 2,4,16,20,23,30,32,34,39,44,47,54,58,68,75,85,86,87,113,114,115,126,
+%T A045521 135,142,148,153,159,163,168,172,180,184,188,195,205,208,211,214,217,
+%U A045521 220,223,226,234,237,242,247,252,257,262,269,276,278,287,289,302,304
+%N A045521 n! has initial digit '2'.
+%H A045521 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%t A045521 Select[ Range[ 310 ], IntegerDigits[ #! ] [ [ 1 ] ] == 2 & ]
+%K A045521 nonn,base
+%O A045521 0,1
+%A A045521 _Jeff Burch_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

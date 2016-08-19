@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a022632
+Showing 1-1 of 1
+
+%I A022632
+%S A022632 1,4,14,48,137,380,998,2488,5996,14020,31868,70616,153389,326248,
+%T A022632 681914,1402880,2841769,5678316,11201956,21833480,42081245,80264752,
+%U A022632 151572328,283577152,525894397,967100700
+%N A022632 Expansion of Product (1+m*q^m)^4; m=1..inf.
+%K A022632 nonn
+%O A022632 0,2
+%A A022632 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

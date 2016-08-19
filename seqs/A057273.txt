@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057273
+Showing 1-1 of 1
+
+%I A057273
+%S A057273 1,0,0,1,0,0,0,2,9,6,1,0,0,0,0,6,84,316,492,417,212,66,12,1,0,0,0,0,0,
+%T A057273 24,720,6440,26875,65280,105566,122580,106825,71700,37540,15344,4835,
+%U A057273 1140,190,20,1
+%N A057273 Triangle T(n,k) of number of strongly connected digraphs on n labeled nodes and with k arcs, k=0,1,..,n*(n-1).
+%e A057273 [1],[0,0,1],[0,0,0,2,9,6,1],[0,0,0,0,6,84,316,492,417,212,66,12,1],...; Number of strongly connected digraphs on 3 labeled nodes is 18=2+9+6+1.
+%Y A057273 Row sums give A003030. Cf. A057270-A057272, A057274-A057279.
+%K A057273 easy,nonn,tabf
+%O A057273 1,8
+%A A057273 _Vladeta Jovovic_, Goran Kilibarda, Sep 14 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

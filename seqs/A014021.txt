@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014021
+Showing 1-1 of 1
+
+%I A014021
+%S A014021 1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,
+%T A014021 1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1,0,
+%U A014021 0,0,1,0,1,0,0,0,1,0,1,0,0,0,1,0,1
+%V A014021 1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,-1,0,
+%W A014021 -1,0,0,0,1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,-1,0,-1,0,0,0,1,0,1,0,
+%X A014021 0,0,-1,0,-1,0,0,0,1,0,1,0,0,0,-1,0,-1
+%N A014021 Inverse of 12th cyclotomic polynomial.
+%H A014021 Vincenzo Librandi, <a href="/A014021/b014021.txt">Table of n, a(n) for n = 0..1000</a>
+%H A014021 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (0,1,0,-1)
+%F A014021 a(n) = (1/12)*(-(n mod 12)-((n+3) mod 12)+((n+4) mod 12)-((n+5) mod 12)+((n+6) mod 12)+((n+9) mod 12)-((n+10) mod 12)+((n+11) mod 12)). - _Paolo P. Lava_, Mar 10 2011
+%F A014021 G.f.: 1 / ( 1-x^2+x^4 ). - _R. J. Mathar_, Mar 11 2011
+%p A014021 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%t A014021 CoefficientList[Series[1/Cyclotomic[12, x], {x, 0, 100}], x] (* _Vincenzo Librandi_, Apr 03 2014 *)
+%o A014021 (PARI) Vec(1/polcyclo(12)+O(x^99)) \\ _Charles R Greathouse IV_, Mar 24 2014
+%o A014021 (MAGMA) &cat[[1,0,1,0,0,0,-1,0,-1,0,0,0]: n in [0..15]]; // _Vincenzo Librandi_, Apr 03 2014
+%K A014021 sign,easy
+%O A014021 0,1
+%A A014021 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

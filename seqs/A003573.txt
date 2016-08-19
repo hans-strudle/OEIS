@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a003573
+Showing 1-1 of 1
+
+%I A003573
+%S A003573 2,3,6,4,3,10,14,5,18,10,6,21,26,9,30,6,11,9,15,27,4,11,5,24,50,6,18,
+%T A003573 14,6,55,50,7,9,34,23,14,74,12,26,33,10,78,86,29,90,18,9,48,98,33,10,
+%U A003573 45,35,15,12,30,38,29,39,12,42,41,55,8,42,26,134,6,46,35
+%N A003573 Order of 4 mod 4n+1.
+%p A003573 with(numtheory): f := n->order(4,4*n+1);
+%t A003573 Table[MultiplicativeOrder[4, 4*n + 1], {n, 70}] (* _Arkadiusz Wesolowski_, Nov 27 2012 *)
+%Y A003573 Cf. A002326, A003571, A217469.
+%K A003573 nonn
+%O A003573 1,1
+%A A003573 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

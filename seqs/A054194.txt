@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054194
+Showing 1-1 of 1
+
+%I A054194
+%S A054194 0,0,0,0,2,3,7,14,26,49,92,171,328,618,1182,2267,4375,8451,16383,
+%T A054194 31797,61891,120644,235516,460327,900867,1765050,3461135,6793369,
+%U A054194 13343702,26229268,51591736,101539731,199957547,393974549,776621316,1531612324
+%N A054194 Number of positive integers <= 2^n of form 9 x^2 + 10 y^2.
+%H A054194 <a href="/index/Qua#quadpop">Index entries for sequences related to populations of quadratic forms</a>
+%K A054194 nonn
+%O A054194 0,5
+%A A054194 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

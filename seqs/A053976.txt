@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053976
+Showing 1-1 of 1
+
+%I A053976
+%S A053976 2,113,370261,1693182318746371
+%N A053976 a(n) and nextprime(a(n)) differ by at least a power of 10, 10^m, where m >= n.
+%e A053976 The primes following those shown are 3, 127, 370373, 1693182318747503. - _Michel Marcus_, Jan 29 2016
+%o A053976 (PARI) a(n) = {my(p = 2); while (nextprime(p+1) - p < 10^n, p = nextprime(p+1)); p;} \\ _Michel Marcus_, Jan 29 2016
+%Y A053976 Cf. A002386.
+%K A053976 nonn,hard,more
+%O A053976 0,1
+%A A053976 _Jeff Burch_, Apr 02 2000
+%E A053976 Definition clarified by _Michel Marcus_, Jan 29 2016
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

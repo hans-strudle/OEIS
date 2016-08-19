@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024092
+Showing 1-1 of 1
+
+%I A024092
+%S A024092 1,7,48,431,3840,32143,260848,2094751,16773120,134211167,1073731824,
+%T A024092 8589919951,68719456000,549755785327,4398046472688,35184372038207,
+%U A024092 281474976645120,2251799813601727,18014398509377008
+%N A024092 8^n-n^4.
+%H A024092 Vincenzo Librandi, <a href="/A024092/b024092.txt">Table of n, a(n) for n = 0..400</a>
+%o A024092 (MAGMA) [8^n-n^4: n in [0..20]]; // Vincenzo Librandi, Jul 05 2011
+%K A024092 nonn,easy
+%O A024092 0,2
+%A A024092 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

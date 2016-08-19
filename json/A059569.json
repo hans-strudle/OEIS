@@ -1,0 +1,1 @@
+{"formerly":"","seq":"2,4,6,8,38,66,72,126,140,152,174,332,710,820,2528,2582,2668,2776,2982,3826","description":"Numbers n such that (7*3^n - 5)/2 is prime.","mathematica":"Do[ If[ PrimeQ[ (7*3^n - 5)/2 ], Print[n] ], {n, 0, 4500} ]","keyword":"nonn","offset":"1,1","author":"_Robert G. Wilson v_, Feb 16 2001"}

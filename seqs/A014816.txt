@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014816
+Showing 1-1 of 1
+
+%I A014816
+%S A014816 1,9,34,90,199,382,672,1100,1707,2539,3640,5066,6875,9128,11898,15248,
+%T A014816 19265,24027,29624,36144,43685,52348,62242,73472,86157,100423,116382,
+%U A014816 134184,153943,175818,199938
+%N A014816 See program line.
+%D A014816 M. Eichler and D. Zagier, The Theory of Jacobi Forms, Birkhauser, 1985, p. 103.
+%p A014816 f := m->sum( ceil(nu^4/m), nu=0..m);
+%K A014816 nonn
+%O A014816 1,2
+%A A014816 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

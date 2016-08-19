@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a045663
+Showing 1-1 of 1
+
+%I A045663
+%S A045663 1,2,4,6,16,30,60,126,256,504,1020,2046,4080,8190,16380,32730,65536,
+%T A045663 131070,262080,524286,1048560,2097018,4194300,8388606,16776960,
+%U A045663 33554400,67108860,134217216,268435440,536870910,1073740740,2147483646
+%N A045663 Number of 2n-bead balanced binary strings of fundamental period 2n, rotationally equivalent to complement.
+%F A045663 a(n) = 2*n*A000048(n) = n*A064355(n).
+%K A045663 nonn
+%O A045663 0,2
+%A A045663 _David W. Wilson_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

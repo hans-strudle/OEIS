@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011645
+Showing 1-1 of 1
+
+%I A011645
+%S A011645 1,0,0,1,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,1,0,0,1
+%V A011645 1,0,0,1,0,0,0,0,0,-1,0,0,-1,0,0,-1,0,0,0,0,0,1,0,0,1
+%N A011645 90th cyclotomic polynomial.
+%t A011645 CoefficientList[Series[Cyclotomic[90,x],{x,0,50}],x] (* _Harvey P. Dale_, Feb 02 2015 *)
+%K A011645 sign,fini,full
+%O A011645 0,1
+%A A011645 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

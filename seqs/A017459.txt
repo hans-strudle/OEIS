@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017459
+Showing 1-1 of 1
+
+%I A017459
+%S A017459 48828125,17592186044416,5559060566555523,238572050223552512,
+%T A017459 3909821048582988049,36279705600000000000,231122292121701565271,
+%U A017459 1127073856954876807168,4501035456767426597157,15394540563150776827904
+%N A017459 (11*n+5)^11.
+%H A017459 Vincenzo Librandi, <a href="/A017459/b017459.txt">Table of n, a(n) for n = 0..10000</a>
+%t A017459 (11Range[0,20]+5)^11 (* _Harvey P. Dale_, May 12 2011 *)
+%o A017459 (MAGMA) [(11*n+5)^11: n in [0..10]]; // Vincenzo Librandi, Sep 03 2011
+%K A017459 nonn,easy
+%O A017459 0,1
+%A A017459 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

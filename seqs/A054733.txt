@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054733
+Showing 1-1 of 1
+
+%I A054733
+%S A054733 1,1,0,3,4,4,1,1,0,0,8,22,37,47,38,27,13,5,1,1,0,0,0,27,108,326,667,
+%T A054733 1127,1477,1665,1489,1154,707,379,154,61,16,5,1,1,0,0,0,0,91,582,2432,
+%U A054733 7694,19646,42148,77305,122953,170315,206982,220768,207301,171008
+%N A054733 Triangle of number of (weakly) connected unlabeled digraphs with n nodes and k arcs (n >=2, k >= 1).
+%D A054733 F. Harary and E. M. Palmer, Graphical Enumeration, Academic Press, NY, 1973.
+%e A054733 [ 1,1 ],[ 0,3,4,4,1,1 ],[ 0,0,8,22,37,47,38,27,13,5,1,1 ][ the last batch giving the numbers of connected digraphs with 4 nodes and from 1 to 12 arcs ].
+%Y A054733 Row sums give A003085.
+%K A054733 easy,nonn,tabf
+%O A054733 0,4
+%A A054733 _Vladeta Jovovic_, Apr 21 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

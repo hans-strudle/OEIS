@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015756
+Showing 1-1 of 1
+
+%I A015756
+%S A015756 1,2,3,12,15,6,14,56,270,30,264,12,78,14,15,4064,357,270,190,140,42,
+%T A015756 264,3056,168,27000,78,270,56,812,30,248,4064,264,714,35,2376,56536,
+%U A015756 190,78,840,2214,42,2580,264,270,3956,2109548,12192,56252,27000,357
+%N A015756 Least k congruent n such that phi(n) | sigma(n).
+%K A015756 nonn
+%O A015756 1,2
+%A A015756 _Robert G. Wilson v_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

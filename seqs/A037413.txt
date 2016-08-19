@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037413
+Showing 1-1 of 1
+
+%I A037413
+%S A037413 1,8,64,65,72,512,513,520,521,576,577,584,4096,4097,4104,4105,4160,
+%T A037413 4161,4168,4169,4608,4609,4616,4617,4672,4673,4680
+%N A037413 n-th number k such that the set of base 2 digits of k equals the set of base 8 digits of k.
+%K A037413 nonn,base
+%O A037413 1,2
+%A A037413 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

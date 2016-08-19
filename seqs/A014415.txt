@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014415
+Showing 1-1 of 1
+
+%I A014415
+%S A014415 1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,
+%T A014415 1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014415 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%V A014415 1,-1,1,-1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-1,1,
+%W A014415 -1,1,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%X A014415 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014415 Inverse of 406th cyclotomic polynomial.
+%p A014415 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014415 sign
+%O A014415 0,1
+%A A014415 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

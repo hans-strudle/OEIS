@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a008488
+Showing 1-1 of 1
+
+%I A008488
+%S A008488 1,6,21,56,126,252,461,786,1266,1946,2877,4116,5726,7776,10341,13502,
+%T A008488 17346,21966,27461,33936,41502,50276,60381,71946,85106,100002,116781,
+%U A008488 135596,156606,179976,205877
+%N A008488 Expansion of (1-x^6 )/(1-x)^6.
+%F A008488 Equals binomial transform of [1, 5, 10, 10, 5, 1, -1, 1, -1, 1,...]. - _Gary W. Adamson_, May 12 2008
+%F A008488 a(n) = 2+n^4/4+15*n^2/4, n>0. [From _R. J. Mathar_, Jan 27 2009]
+%o A008488 (PARI) Vec((1-x^6)/(1-x)+O(x^99)) \\ _Charles R Greathouse IV_, Sep 26 2012
+%K A008488 nonn,easy
+%O A008488 0,2
+%A A008488 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

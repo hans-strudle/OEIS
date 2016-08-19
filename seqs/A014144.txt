@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014144
+Showing 1-1 of 1
+
+%I A014144
+%S A014144 0,1,3,7,17,51,205,1079,6993,53227,462341,4500255,48454969,571411283,
+%T A014144 7321388397,101249656711,1502852293025,23827244817339,401839065437653,
+%U A014144 7182224591785967,135607710526966281
+%N A014144 Apply partial sum operator twice to factorials.
+%C A014144 Equals row sums of triangle A137948 starting with offset 1. - _Gary W. Adamson_, Feb 28 2008
+%C A014144 If s(n) is a sequence defined as s(0)=a, s(1)=b, s(n) = n*(s(n-1) - s(n-2)), n>1, then s(n) = n*b - (a(n)-1)*a. - _Gary Detlefs_, Feb 23 2011
+%H A014144 Alexsandar Petojevic, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL5/Petojevic/petojevic5.html">The Function vM_m(s; a; z) and Some Well-Known Sequences</a>, Journal of Integer Sequences, Vol. 5 (2002), Article 02.1.7
+%H A014144 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A014144 a(n) = (n-1) * !n - n! + 1, !n = sum[ k=0..n-1 ] k!. - Joe Keane (jgk(AT)jgk.org)
+%F A014144 a(n) = convolution(A000142, A001477). - _Peter Luschny_, Jan 21 2012
+%F A014144 G.f.: x*G(0)/(1-x)^2, where G(k)= 1 + (2*k + 1)*x/( 1 - 2*x*(k+1)/(2*x*(k+1) + 1/G(k+1))); (continued fraction). - _Sergei N. Gladkovskii_, May 24 2013
+%t A014144 Accumulate@ Accumulate@ (Range[0, 19]!) (* _Robert G. Wilson v_ *)
+%t A014144 lst={};s0=s1=0;Do[s0+=a[n];s1+=s0;AppendTo[lst, s1], {n, 0, 2*4!}];lst (* _Vladimir Joseph Stephan Orlovsky_, Dec 10 2008 *)
+%o A014144 (PARI) a(n)=(n-1)*round(n!/exp(1))-n!+1 \\ _Charles R Greathouse IV_, Feb 24 2011
+%Y A014144 Cf. A000142, A003422, A137948.
+%K A014144 nonn,easy
+%O A014144 0,3
+%A A014144 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

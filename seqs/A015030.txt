@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015030
+Showing 1-1 of 1
+
+%I A015030
+%S A015030 1,1,5,93,6477,1733677,1816333805,7526310334829,124031223014725741,
+%T A015030 8152285307423733458541,2140200604371078953284092525,
+%U A015030 2245805993494514875022552272042605
+%N A015030 q-Catalan numbers (binomial version) for q=2.
+%F A015030 {1 / (n+1)_q} {2 n choose n}_q.
+%K A015030 nonn,easy
+%O A015030 0,3
+%A A015030 _Olivier Gérard_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

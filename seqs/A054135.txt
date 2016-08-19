@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054135
+Showing 1-1 of 1
+
+%I A054135
+%S A054135 2,4,9,19,39,79,159,319,639,1279,2559,5119,10239,20479,40959,81919,
+%T A054135 163839,327679,655359,1310719,2621439,5242879,10485759,20971519,
+%U A054135 41943039,83886079,167772159,335544319,671088639,1342177279
+%N A054135 T(n,1), array T as in A054134.
+%F A054135 For n>2, a(n) = 10*A000225(n-3)+9 = 10*(2^(n-3)-1)+9 = 10*2^(n-3) - 1 - _Gerald McGarvey_, Aug 25 2004
+%F A054135 a(1)=1, a(n) = Sum_i=1..n-1 a(i) + n for n>1 - _Gerald McGarvey_, Sep 06 2004
+%Y A054135 Identical to A052549 except for initial term.
+%K A054135 nonn
+%O A054135 1,1
+%A A054135 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

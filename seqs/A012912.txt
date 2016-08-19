@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a012912
+Showing 1-1 of 1
+
+%I A012912
+%S A012912 1,2,4,8,16,42,184,1192,8320,63954,529824,5076392,52633728,615675322,
+%T A012912 7595502464,104080146632,1487529832448,23400806440098,380497987834368,
+%U A012912 6758267272643528,123182327672588288
+%N A012912 exp(arcsin(x)+sin(x))=1+2*x+4/2!*x^2+8/3!*x^3+16/4!*x^4+42/5!*x^5...
+%K A012912 nonn
+%O A012912 0,2
+%A A012912 Patrick Demichel (patrick.demichel(AT)hp.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

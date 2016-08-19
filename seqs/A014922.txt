@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014922
+Showing 1-1 of 1
+
+%I A014922
+%S A014922 1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A014922 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A014922 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A014922 Inverse of 913th cyclotomic polynomial.
+%p A014922 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A014922 sign
+%O A014922 0,1
+%A A014922 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

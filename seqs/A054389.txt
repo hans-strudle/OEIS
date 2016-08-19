@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a054389
+Showing 1-1 of 1
+
+%I A054389
+%S A054389 1,20,140,620,2016,5364,12292,25228,47488,83508,138908,220748,337568,
+%T A054389 499668,719124,1010092,1388800,1873876,2486316,3249836,4190816,
+%U A054389 5338676,6725796,8387916,10364032,12696820,15432508,18621324,22317344
+%N A054389 Susceptibility series H_5 for 2-dimensional Ising model (divided by 2).
+%D A054389 D. Hansel et al., Analytical properties of the anisotropic cubic Ising model, J. Stat. Phys., 48 (1987), 69-80.
+%H A054389 A. J. Guttmann, <a href="http://www.ms.unimelb.edu.au/~tonyg/articles/viennafinal.pdf">Indicators of solvability for lattice models</a>, Discrete Math., 217 (2000), 167-189.
+%F A054389 Expansion of (1 + 16*x + 64*x^2 + 144*x^3 + 166*x^4 + 144*x^5 + 64*x^6 + 16*x^7 + x^8) / ((1 - x)^6*(1 + x)^2).
+%Y A054389 Cf. A008574, A054275, A054410, A054764.
+%K A054389 nonn
+%O A054389 0,2
+%A A054389 _N. J. A. Sloane_, May 09 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

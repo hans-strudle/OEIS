@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a027318
+Showing 1-1 of 1
+
+%I A027318
+%S A027318 1,42,420,3786,33648,297940,2633872,23265744,205446960,1814136746,
+%T A027318 16021697220,141535810130
+%N A027318 a(n) = Sum{T(n,k)*T(n,k+2)}, 0<=k<=m-3, m=n for n=0,1,2,3; m=2n for n >= 4; T given by A026082.
+%K A027318 nonn
+%O A027318 3,2
+%A A027318 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

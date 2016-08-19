@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028570
+Showing 1-1 of 1
+
+%I A028570
+%S A028570 0,2,12,44,137,157,167,248,258,1639,1664,1694,5392,15904,16997,160187,
+%T A028570 487619,1547147,14674184,14790532,15019614,15336644,25234083,26132578,
+%U A028570 26211438,26216753
+%N A028570 Numbers n such that n(n+9) is a palindrome.
+%H A028570 P. De Geest, <a href="http://www.worldofnumbers.com/consemor.htm">Palindromic Quasipronics of the form n(n+x)</a>
+%H A028570 Erich Friedman, <a href="http://www2.stetson.edu/~efriedma/numbers.html">What's Special About This Number?</a> (See entries 258, 1664.)
+%K A028570 nonn,base,easy
+%O A028570 1,2
+%A A028570 _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

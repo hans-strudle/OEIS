@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017671
+Showing 1-1 of 1
+
+%I A017671
+%S A017671 1,17,82,273,626,697,2402,4369,6643,5321,14642,3731,28562,20417,51332,
+%T A017671 69905,83522,112931,130322,85449,196964,124457,279842,179129,391251,
+%U A017671 242777,538084,46839,707282,218161,923522,1118481,1200644,41761,1503652,604513,1874162
+%N A017671 Numerator of sum of -4th powers of divisors of n.
+%C A017671 Sum_{d|n} 1/d^k is equal to sigma_k(n)/n^k. So sequences A017665-A017712 also give the numerators and denominators of sigma_k(n)/n^k for k = 1..24. The power sums sigma_k(n) are in sequences A000203 (k=1), A001157-A001160 (k=2,3,4,5), A013954-A013972 for k = 6,7,...,24. - Ahmed Fares (ahmedfares(AT)my-deja.com), Apr 05 2001
+%t A017671 A017671[n_Integer] := Numerator[DivisorSigma[-4, n]]; A017671 /@ Range[100] (* _Vladimir Joseph Stephan Orlovsky_, Jul 21 2011 *)
+%Y A017671 Cf. A017672.
+%K A017671 nonn,frac
+%O A017671 1,2
+%A A017671 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

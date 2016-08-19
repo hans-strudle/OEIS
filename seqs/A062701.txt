@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a062701
+Showing 1-1 of 1
+
+%I A062701
+%S A062701 1,2,4,2428957
+%N A062701 Index of factorial primes of form n!+1.
+%F A062701 a(n)=PrimePi[A002981(n)!+1]
+%e A062701 exact subscript of 5th prime [1+27!=10888869450418352160768000001] not yet available
+%Y A062701 A002981, A002982, A055490.
+%K A062701 hard,nonn
+%O A062701 0,2
+%A A062701 _Labos Elemer_, Jul 11 2001
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

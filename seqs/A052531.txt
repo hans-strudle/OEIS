@@ -1,0 +1,25 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a052531
+Showing 1-1 of 1
+
+%I A052531
+%S A052531 2,2,5,8,17,32,65,128,257,512,1025,2048,4097,8192,16385,32768,65537,
+%T A052531 131072,262145,524288,1048577,2097152,4194305,8388608,16777217,
+%U A052531 33554432,67108865,134217728,268435457,536870912,1073741825,2147483648
+%N A052531 If n is even then 2^n+1 otherwise 2^n.
+%H A052531 INRIA Algorithms Project, <a href="http://algo.inria.fr/ecs/ecs?searchType=1&amp;service=Search&amp;searchTerms=461">Encyclopedia of Combinatorial Structures 461</a>
+%H A052531 <a href="/index/Rec#order_03">Index entries for linear recurrences with constant coefficients</a>, signature (2,1,-2).
+%F A052531 G.f.:  ( 2-2*x-x^2 ) / ( (x-1)*(2*x-1)*(1+x) ).
+%F A052531 Recurrence: {a(1)=2, a(2)=5, a(0)=2, -2*a(n) - a(n+1) + a(n+2) + 1 = 0.}
+%F A052531 a(n) = 2^n+Sum(1/2*_alpha^(-n), _alpha=RootOf(-1+_Z^2))
+%p A052531 spec := [S,{S=Union(Sequence(Union(Z,Z)),Sequence(Prod(Z,Z)))},unlabeled]: seq(combstruct[count](spec,size=n), n=0..20);
+%t A052531 2^# + (1 - Mod[ #, 2]) & /@ Range[0, 31] (* Peter Pein *)
+%t A052531 f1[n_]:=2*n+1; f2[n_]:=2*(n-1); a=2;lst={a};Do[AppendTo[lst,a=f1[a]];AppendTo[lst,a=f2[a]],{n,20}];lst (* _Vladimir Joseph Stephan Orlovsky_, Feb 07 2010 *)
+%K A052531 easy,nonn
+%O A052531 0,1
+%A A052531 encyclopedia(AT)pommard.inria.fr, Jan 25 2000
+%E A052531 More terms from _James A. Sellers_, Jun 05 2000
+%E A052531 Better definition from Peter Pein (petsie(AT)dordos.net), Jan 11 2008
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

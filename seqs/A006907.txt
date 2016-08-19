@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006907
+Showing 1-1 of 1
+
+%I A006907 M3394
+%S A006907 0,0,1,4,10,29,55,153,307,588,1018,2230,3543,6878,11216,20615,33355,
+%T A006907 57980,90194,155176,239327,395473,604113,970294,1453749,2323476,
+%U A006907 3425849,5349414,7905133,11963861,17521274,26472001,38054619,56756488,81683457
+%N A006907 Number of zeros in character table of symmetric group S_n.
+%D A006907 J. McKay, personal communication.
+%D A006907 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%o A006907 (GAP) A006907 := n -> Sum(Irr(CharacterTable("Symmetric", n)), chi -> Number(chi, x->x=0)) # _Eric M. Schmidt_, Jul 13 2012, simplified _Eric M. Schmidt_, Jul 26 2012
+%Y A006907 Cf. A006908, A051748, A051749.
+%K A006907 nonn,nice
+%O A006907 1,4
+%A A006907 _Simon Plouffe_ and _N. J. A. Sloane_.
+%E A006907 More terms from _Vladeta Jovovic_, May 20 2003
+%E A006907 More terms from _Eric M. Schmidt_, Jul 13 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a043494
+Showing 1-1 of 1
+
+%I A043494
+%S A043494 11,101,110,112,113,114,115,116,117,118,119,121,131,141,151,161,171,
+%T A043494 181,191,211,311,411,511,611,711,811,911,1001,1010,1012,1013,1014,
+%U A043494 1015,1016,1017,1018,1019,1021,1031,1041,1051,1061,1071
+%N A043494 Numbers n such that number of 1's in base 10 is 2.
+%t A043494 Select[Range[1100],DigitCount[#,10,1]==2&] (* _Harvey P. Dale_, Nov 30 2013 *)
+%K A043494 nonn,base
+%O A043494 1,1
+%A A043494 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

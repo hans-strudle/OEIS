@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a053350
+Showing 1-1 of 1
+
+%I A053350
+%S A053350 2,3,4,12,34,40,46,70,82,102,118,119,192,202,300,434,508,515,516,612,
+%T A053350 690,718,795,846,1112,1786,3884,5112,5136,8628,10218,10222,16415,
+%U A053350 38796,40642,47318,48134,48634,50778,60134,60282,88088
+%N A053350 Numbers n such that 267*2^n+1 is prime.
+%H A053350 Ray Ballinger and Wilfrid Keller, <a href="http://www.prothsearch.net/riesel.html">List of primes k.2^n + 1 for k < 300</a>
+%H A053350 Wilfrid Keller, <a href="http://www.prothsearch.net/riesel2.html">List of primes k.2^n - 1 for k < 300</a>
+%H A053350 <a href="/index/Pri#riesel">Index entries for sequences of n such that k*2^n-1 (or k*2^n+1) is prime</a>
+%K A053350 hard,nonn
+%O A053350 1,1
+%A A053350 _N. J. A. Sloane_, Dec 29 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

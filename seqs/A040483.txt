@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040483
+Showing 1-1 of 1
+
+%I A040483
+%S A040483 22,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,
+%T A040483 2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,
+%U A040483 44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44,2,44
+%N A040483 Continued fraction for sqrt(506).
+%H A040483 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040483 a(n)=23+21*(-1)^n-22*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, May 13 2009]
+%p A040483 with(numtheory): Digits := 300: convert(evalf(sqrt(506)),confrac);
+%K A040483 nonn,cofr,easy,less
+%O A040483 0,1
+%A A040483 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

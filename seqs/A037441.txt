@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a037441
+Showing 1-1 of 1
+
+%I A037441
+%S A037441 1,2,3,4,5,6,7,124,177,283,568,769,906,946,1528,1749,1811,1812,1978,
+%T A037441 2759,3372,3381,4221,5112,5231,6656,6791,6849,6976,7016,7183,7887,
+%U A037441 8080,8280,8649,8858,8867,8912,8921,8922,8932,10325,10381,10409,10577
+%N A037441 Numbers n such that the set of base 8 digits of n equals the set of base 9 digits of n.
+%K A037441 nonn,base
+%O A037441 1,2
+%A A037441 _Clark Kimberling_
+%E A037441 More terms from Don Reble (djr(AT)nk.ca), Apr 28 2006
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

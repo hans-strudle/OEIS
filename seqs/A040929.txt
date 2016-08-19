@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a040929
+Showing 1-1 of 1
+
+%I A040929
+%S A040929 30,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,
+%T A040929 1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,
+%U A040929 60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60,1,60
+%N A040929 Continued fraction for sqrt(960).
+%H A040929 <a href="/index/Con#confC">Index entries for continued fractions for constants</a>
+%F A040929 a(n)=(1/2)*[61+59*(-1)^n]-30*[C(2*n,n) mod 2], with n>=0 [From _Paolo P. Lava_, Jun 03 2009]
+%p A040929 with(numtheory): Digits := 300: convert(evalf(sqrt(960)),confrac);
+%K A040929 nonn,cofr,mult,easy
+%O A040929 0,1
+%A A040929 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

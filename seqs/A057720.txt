@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a057720
+Showing 1-1 of 1
+
+%I A057720
+%S A057720 2,0,6,7,6,8
+%N A057720 Decimal expansion of muon-to-electron mass ratio.
+%H A057720 D. E. Groom et al., <a href="http://pdg.lbl.gov/2000/lxxx.html">LEPTONS</a>
+%F A057720 (muon mass)^26 approx = (tauon mass)^17 * (electron mass)^9.
+%Y A057720 Cf. A005601, A006833, A006834.
+%K A057720 cons,hard,nonn
+%O A057720 0,1
+%A A057720 _Naohiro Nomoto_, Oct 26 2000
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

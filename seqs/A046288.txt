@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a046288
+Showing 1-1 of 1
+
+%I A046288
+%S A046288 6,10,12,18,22,32,49,52,53,56,78
+%N A046288 2^a(n) contains 2^2=4 as largest proper substring of form 2^k (probably finite).
+%Y A046288 Cf. A033921.
+%K A046288 nonn,base
+%O A046288 0,1
+%A A046288 _Patrick De Geest_, Jun 15 1998.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

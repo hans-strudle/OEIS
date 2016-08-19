@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a023868
+Showing 1-1 of 1
+
+%I A023868
+%S A023868 1,0,0,1,2,3,4,0,0,1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10,11,12,13,
+%T A023868 14,15,17,19,21,23,25,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,23,
+%U A023868 25,27,29,31,33,35,37,39,41,43,45,47,49,15,16,17,18,19,20,21,22,23,24,25,26,27,28,30,32
+%N A023868 a(n) = s(1)t(n)+s(2)t(n-1)+...+s(k)t(n+1-k), where k=[ (n+1)/2 ], s = (natural numbers), t is A023533.
+%K A023868 nonn
+%O A023868 1,5
+%A A023868 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

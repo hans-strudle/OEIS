@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034866
+Showing 1-1 of 1
+
+%I A034866
+%S A034866 4,60,720,7560,80640,907200,10886400,139708800,1916006400,28021593600,
+%T A034866 435891456000,7192209024000,125536739328000,2311968282624000,
+%U A034866 44816615940096000,912338253066240000
+%N A034866 n!*(n-4)/2, n>4.
+%D A034866 J. Riordan, Enumeration of trees by height and diameter, IBM J. Res. Dev. 4 (1960), 473-478.
+%H A034866 <a href="/index/Fa#factorial">Index entries for sequences related to factorial numbers</a>
+%F A034866 a(n)=A034865(n), n>4. [From _R. J. Mathar_, Oct 20 2008]
+%K A034866 nonn
+%O A034866 4,1
+%A A034866 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005967
+Showing 1-1 of 1
+
+%I A005967 M1512
+%S A005967 2,5,17,71,388,2592,21096,204638,2317172,30024276,437469859,
+%T A005967 7067109598,125184509147,2410455693765,50101933643655,1117669367609605
+%N A005967 Number of isomorphism classes of connected 3-regular multigraphs of order 2n, loops allowed.
+%D A005967 A. T. Balaban, Enumeration of Cyclic Graphs, pp. 63-105 of A. T. Balaban, ed., Chemical Applications of Graph Theory, Ac. Press, 1976; see p. 92.
+%D A005967 Brendan McKay, software at http://cs.anu.edu.au/~bdm/nauty/
+%D A005967 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%Y A005967 Cf. A129427, A000421, A085549, A129430, A129432, A129434, A129436
+%K A005967 nonn
+%O A005967 1,1
+%A A005967 _N. J. A. Sloane_.
+%E A005967 Checked by _Brendan McKay_, Apr 15 2007
+%E A005967 Using sequence A129427, terms a(12) - a(16) were computed in GAP by Ignat Soroko (ignat.soroko(AT)gmail.com), Apr 07 2010
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

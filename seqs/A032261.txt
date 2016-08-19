@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032261
+Showing 1-1 of 1
+
+%I A032261
+%S A032261 3,9,27,243,2916,43740,787320,16533720,396809280,10713850560,
+%T A032261 321415516800,10606712054400,381841633958400,14891823724377600,
+%U A032261 625456596423859200,28145546839073664000,1350986248275535872000
+%N A032261 Number of bracelets with n labeled beads of 3 colors.
+%H A032261 C. G. Bower, <a href="/transforms2.html">Transforms (2)</a>
+%F A032261 "DIJ" (bracelet, indistinct, labeled) transform of 3, 0, 0, 0...
+%F A032261 3^n*(3n-3)!/2 (n >= 3).
+%K A032261 nonn,easy
+%O A032261 1,1
+%A A032261 _Christian G. Bower_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

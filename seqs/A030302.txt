@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030302
+Showing 1-1 of 1
+
+%I A030302
+%S A030302 1,1,0,1,1,1,0,0,1,0,1,1,1,0,1,1,1,1,0,0,0,1,0,0,1,1,0,1,0,1,0,1,1,1,
+%T A030302 1,0,0,1,1,0,1,1,1,1,0,1,1,1,1,1,0,0,0,0,1,0,0,0,1,1,0,0,1,0,1,0,0,1,
+%U A030302 1,1,0,1,0,0,1,0,1,0,1,1,0,1,1,0,1,0,1,1,1,1
+%N A030302 Write n in base 2 and juxtapose.
+%C A030302 An irregular table in which the n-th row lists the bits of n. - _Jason Kimberley_, Dec 07 2012
+%C A030302 The binary Champernowne constant: it is normal in base 2. - _Jason Kimberley_, Dec 07 2012
+%D A030302 Michel Rigo, Formal Languages, Automata and Numeration Systems, 2 vols., Wiley, 2014. Mentions this sequence - see "List of Sequences" in Vol. 2.
+%F A030302 Let "index" i = ceiling( W(log(2)/2 (n - 1))/log(2) + 1 ) where W denotes the principal branch of the Lambert W function. Then a(n) = mod(floor(2^(mod(n + 2^i - 2, i) - i + 1) ceiling((n + 2^i - 1)/i - 1)), 2). See also Mathematica code. - David W. Cantrell (DWCantrell(AT)sigmaxi.net), Feb 19 2007
+%t A030302 i[n_] := Ceiling[FullSimplify[ProductLog[Log[2]/2 (n - 1)]/Log[2] + 1]]; a[n_] := Mod[Floor[2^(Mod[n + 2^i[n] - 2, i[n]] - i[n] + 1) Ceiling[(n + 2^i[n] - 1)/i[n] - 1]], 2]; (* David W. Cantrell (DWCantrell(AT)sigmaxi.net), Feb 19 2007 *)
+%t A030302 Join @@ Table[ IntegerDigits[i, 2], {i, 1, 40}] (* _Olivier Gérard_, Mar 28 2011 *)
+%t A030302 Flatten@ IntegerDigits[ Range@ 25, 2] (* or *)
+%t A030302 almostNatural[n_, b_] := Block[{m = 0, d = n, i = 1, l, p}, While[m <= d, l = m; m = (b - 1) i*b^(i - 1) + l; i++]; i--; p = Mod[d - l, i]; q = Floor[(d - l)/i] + b^(i - 1); If[p != 0, IntegerDigits[q, b][[p]], Mod[q - 1, b]]]; Array[ almostNatural[#, 2] &, 105] (* _Robert G. Wilson v_, Jun 29 2014 *)
+%o A030302 (MAGMA) &cat[Reverse(IntegerToSequence(n,2)): n in [1..31]]; // _Jason Kimberley_, Mar 02 2012
+%Y A030302 Essentially same as A030190. Cf. A030303, A007088.
+%Y A030302 Tables in which the n-th row lists the base b digits of n: A030190 and this sequence (b=2), A003137 and A054635 (b=3), A030373 (b=4), A031219 (b=5), A030548 (b=6), A030998 (b=7), A031035 and A054634 (b=8), A031076 (b=9), A007376 and A033307 (b=10). [_Jason Kimberley_, Dec 06 2012]
+%K A030302 nonn,base,cons,easy,tabf
+%O A030302 1,1
+%A A030302 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

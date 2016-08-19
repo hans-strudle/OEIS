@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a011650
+Showing 1-1 of 1
+
+%I A011650
+%S A011650 1,1,1,0,0,1,1,2,1,1,0,0,1,1,1,1,1,1,0,0,1,0,1,0,1,0,1,0,1,
+%T A011650 0,0,1,1,1,1,1,1,0,0,1,1,2,1,1,0,0,1,1,1
+%V A011650 1,1,1,0,0,-1,-1,-2,-1,-1,0,0,1,1,1,1,1,1,0,0,-1,0,-1,0,-1,0,-1,0,-1,
+%W A011650 0,0,1,1,1,1,1,1,0,0,-1,-1,-2,-1,-1,0,0,1,1,1
+%N A011650 105th cyclotomic polynomial.
+%K A011650 sign,fini,full
+%O A011650 0,8
+%A A011650 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

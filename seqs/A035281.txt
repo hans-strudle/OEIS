@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a035281
+Showing 1-1 of 1
+
+%I A035281
+%S A035281 1,240,141444,8529280,238758390,4303488384,57655810840,
+%T A035281 621029223936,5646404776905,44775042057600,316969789769460,
+%U A035281 2038098739288320,12061935823445274,66393891923258880,342773252668461240,1671250213190122496
+%V A035281 1,-240,-141444,-8529280,-238758390,-4303488384,-57655810840,
+%W A035281 -621029223936,-5646404776905,-44775042057600,-316969789769460,
+%X A035281 -2038098739288320,-12061935823445274,-66393891923258880,-342773252668461240,-1671250213190122496
+%N A035281 Fourier coefficients of T_4.
+%C A035281 T_4 is the unique weight = -2 normalized meromorphic modular form for SL(2,Z) with all poles at infinity.
+%D A035281 C.L. Siegel, Advanced Analytic Number Theory,Tata Institute of Fundamental Research, Bombay, 1980, pp. 249-268.
+%F A035281 G.f.: G_10/Delta (in Siegel's notation.)
+%e A035281 T_4 = 1/q - 240 - 141444 q - ....
+%K A035281 sign,easy,nice
+%O A035281 -1,2
+%A A035281 Barry Brent (barryb(AT)primenet.com)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

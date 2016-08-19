@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a028024
+Showing 1-1 of 1
+
+%I A028024
+%S A028024 1,35,797,14959,251349,3931431,58494829,838932143,11699121797,
+%T A028024 159590758327,2138803364061,28251497273727,368712393238645,
+%U A028024 4763687404354823,61019774392655693,775898073656236111
+%N A028024 Expansion of 1/((1-2x)(1-10x)(1-11x)(1-12x)).
+%F A028024 a(n)=(36*12^(n+3)-80*11^(n+3)+45*10^(n+3)-2^(n+3))/720. [_Yahia Kahloune_, May 30 2013].
+%K A028024 nonn
+%O A028024 0,2
+%A A028024 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

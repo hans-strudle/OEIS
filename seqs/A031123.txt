@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a031123
+Showing 1-1 of 1
+
+%I A031123
+%S A031123 0,1,0,0,1,1,0,0,0,2,0,0,0,2,0,0,1,1,0,0,0,1,1,0,0,3,0,0,0,1,0,1,0,1,
+%T A031123 0,0,1,1,0,0,1,3,0,0,0,1,0,0,0,3,0,0,0,1,0,0,0,2,1,0,0,2,0,0,1,1,1,1,
+%U A031123 0,1,0,0,0,2,0,0,1,1,0,0,0
+%N A031123 Expansion of sum( z^(m^2)/(1-z^((m+1)^2)), m=1..inf).
+%D A031123 N. Luzin, Function: Part II, Amer. Math. Monthly, 105 (1998), 263-270.
+%Y A031123 Cf. A031124.
+%K A031123 nonn
+%O A031123 0,10
+%A A031123 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

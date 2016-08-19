@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a050923
+Showing 1-1 of 1
+
+%I A050923
+%S A050923 2,2,4,64,16777216,1329227995784915872903807060280344576
+%N A050923 a(n) = 2^(n!).
+%H A050923 Vincenzo Librandi, <a href="/A050923/b050923.txt">Table of n, a(n) for n = 0..6</a>
+%F A050923 a(n) = a(n-1)^n, a(0)=2.
+%F A050923 a(n) = A000079(A000142(n)).
+%t A050923 a=2;lst={};Do[a=a^n;AppendTo[lst,a],{n,1,7}];lst (* _Vladimir Joseph Stephan Orlovsky_, May 26 2009 *)
+%t A050923 Table[2^n!,{n,0,9}] (* _Vincenzo Librandi_, Dec 16 2012 *)
+%o A050923 (MAGMA) [2^Factorial(n): n in [0..8]]; // _Vincenzo Librandi_, Dec 16 2012
+%o A050923 (Maxima) makelist(2^(n!),n,0,5); /* _Martin Ettl_, Dec 27 2012 */
+%Y A050923 Cf. A000079, A000142, A100731.
+%K A050923 easy,nonn
+%O A050923 0,1
+%A A050923 Klaus Strassburger (strass(AT)ddfi.uni-duesseldorf.de), Dec 30 1999
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

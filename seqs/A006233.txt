@@ -1,0 +1,35 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a006233
+Showing 1-1 of 1
+
+%I A006233 M1558
+%S A006233 1,2,6,4,30,4,84,24,90,20,132,8,5460,840,360,48,1530,4,1596,168,1980,
+%T A006233 1320,8280,80,81900,6552,1512,112,3480,80,114576,7392,117810,7140,
+%U A006233 1260,8,3838380,5928,936,48,81180,440,1191960,55440,869400,38640,236880,224
+%N A006233 Denominators of Cauchy numbers of first type.
+%C A006233 The signed rationals A006232(n)/a(n) provide the a-sequence for the Stirling2 Sheffer matrix A048993. See the W. Lang link concerning Sheffer a- and z-sequences.
+%C A006233 Cauchy numbers of the first type are also called Bernoulli numbers of the second kind.
+%D A006233 A. Adelberg, 2-adic congruences of Norland numbers and of Bernoulli numbers of the second kind, J. Number Theory, 73 (1998), 47-58.
+%D A006233 L. Comtet, Advanced Combinatorics, Reidel, 1974, p. 294.
+%D A006233 H. Jeffreys and B. S. Jeffreys, Methods of Mathematical Physics, Cambridge, 1946, p. 259.
+%D A006233 Merlini, Donatella; Sprugnoli, Renzo; and Verri, M. Cecilia; The Cauchy numbers. Discrete Math. 306 (2006), no. 16, 1906-1920.
+%D A006233 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%D A006233 Ming Wu and Hao Pan, Sums of products of Bernoulli numbers of the second kind, Fib. Quart., 45 (2007), 146-150.
+%D A006233 Feng-Zhen Zhao, Sums of products of Cauchy numbers, Discrete Math., 309 (2009), 3830-3842.
+%H A006233 T. D. Noe, <a href="/A006233/b006233.txt">Table of n, a(n) for n=0..1000</a>
+%H A006233 W. Lang, <a href="http://www.itp.kit.edu/~wl/EISpub/A006232.text">Sheffer a- and z-sequences. </a>
+%H A006233 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/BernoulliNumberoftheSecondKind.html">Bernoulli Number of the Second Kind.</a>
+%F A006233 Denominator of integral of x(x-1)...(x-n+1) from 0 to 1.
+%F A006233 E.g.f.: x/log(1+x).
+%F A006233 Denominator of Sum_{k=0..n} A048994(n,k)/(k+1). [From _Peter Luschny_, Apr 28 2009]
+%e A006233 1, 1/2, -1/6, 1/4, -19/30, 9/4, -863/84, 1375/24, -33953/90,...
+%p A006233 seq(denom(add(stirling1(n,k)/(k+1),k=0..n)),n=0..12); [From _Peter Luschny_, Apr 28 2009]
+%t A006233 With[{nn=50},Denominator[CoefficientList[Series[x/Log[1+x],{x,0,nn}],x] Range[0,nn]!]] (* _Harvey P. Dale_, Oct 28 2011 *)
+%t A006233 a[n_] := Sum[ StirlingS1[n, k]/(k+1), {k, 0, n}] // Denominator; Table[a[n], {n, 0, 40}] (* _Jean-François Alcover_, Jan 10 2013, after _Peter Luschny_ *)
+%Y A006233 Cf. A006232, A002206, A002207, A002208, A002209, A002657, A002790.
+%K A006233 nonn,frac,nice,easy
+%O A006233 0,2
+%A A006233 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

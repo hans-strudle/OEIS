@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017638
+Showing 1-1 of 1
+
+%I A017638
+%S A017638 3486784401,16679880978201,1531578985264449,34050628916015625,
+%T A017638 362033331456891249,2446194060654759801,12157665459056928801,
+%U A017638 48398230717929318249,162889462677744140625,480682838924478847449
+%N A017638 (12n+9)^10.
+%C A017638 From Fermat's little theorem, it follows that all terms are congruent to 1 mod 11 except when n is congruent to 2 mod 11 (because for those n, 12*n+9 is a multiple of 11). - _Alonso del Arte_, Dec 02 2013
+%F A017638 a(n) = (12*n+9)^10.
+%F A017638 a(n) = A017629(n)^10 = A011557(12n+9) = A011557(A017629(n)). - _Wesley Ivan Hurt_, Dec 02 2013
+%p A017638 A017638:=n->(12*n+9)^10; seq(A017638(n), n=0..20); # _Wesley Ivan Hurt_, Dec 02 2013
+%t A017638 Table[(12n + 9)^10, {n, 0, 20}] (* _Wesley Ivan Hurt_, Dec 02 2013 *)
+%K A017638 nonn,easy
+%O A017638 0,1
+%A A017638 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

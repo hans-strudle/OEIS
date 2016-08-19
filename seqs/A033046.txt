@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a033046
+Showing 1-1 of 1
+
+%I A033046
+%S A033046 0,1,9,10,81,82,90,91,729,730,738,739,810,811,819,820,6561,6562,6570,
+%T A033046 6571,6642,6643,6651,6652,7290,7291,7299,7300,7371,7372,7380,7381,
+%U A033046 59049,59050,59058,59059,59130,59131,59139,59140,59778,59779,59787
+%N A033046 Numbers whose set of base 9 digits is {0,1}.
+%C A033046 Sums of distinct powers of 9.
+%C A033046 a(n) modulo 2 is the Prouhet-Thue-Morse sequence A010060. - _Philippe Deléham_, Oct 17 2011
+%H A033046 T. D. Noe, <a href="/A033046/b033046.txt">Table of n, a(n) for n=0..1023</a>
+%F A033046 a(n)=Sum{d(i)*9^i: i=0, 1, ..., m}, where Sum{d(i)*2^i: i=0, 1, ..., m} is the base 2 representation of n.
+%F A033046 a(n) = A097255(n)/8.
+%F A033046 a(2n) = 9*a(n), a(2n+1) = a(2n)+1.
+%F A033046 a(n)=Sum_k>=0 {A030308(n,k)*9^k}. - _Philippe Deléham_, Oct 17 2011
+%o A033046 (PARI) A033046(n,b=9)=subst(Pol(binary(n)),'x,b) \\ _M. F. Hasler_, Feb 01 2016
+%Y A033046 Cf. A000695, A005836, A033043-A033052.
+%Y A033046 Row 9 of array A104257.
+%K A033046 nonn,base
+%O A033046 0,3
+%A A033046 _Clark Kimberling_
+%E A033046 Extended by _Ray Chandler_, Aug 03 2004
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

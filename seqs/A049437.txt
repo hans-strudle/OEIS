@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a049437
+Showing 1-1 of 1
+
+%I A049437
+%S A049437 3,29,59,71,149,269,431,569,599,1031,1061,1229,1289,1319,1451,1619,
+%T A049437 2129,2339,2381,2549,2711,2789,3299,3539,4019,4049,4091,4649,4721,
+%U A049437 5099,5441,5519,5639,5741,5849,6269,6359,6569,6701,6959,7211
+%N A049437 p, p+2 and p+8 are all primes but p+6 is not.
+%C A049437 p+4 is not prime here except for p=3.
+%C A049437 Subsequence of A001359. - _R. J. Mathar_, Feb 10 2013
+%H A049437 R. J. Mathar, <a href="/A049437/b049437.txt">Table of n, a(n) for n = 1..1000</a>
+%e A049437 p=29 is the smallest prime so that p, p+2 and p+8 are consecutive primes.
+%o A049437 (MAGMA) [p: p in PrimesUpTo(8000)| IsPrime(p+2) and IsPrime(p+8) and not IsPrime(p+6) ] [From Vincenzo Librandi, Jan 28 2011]
+%Y A049437 Cf. A007530, A023202, A031926, A046134, A046138, A049436, A049438, A046138.
+%K A049437 nonn
+%O A049437 1,1
+%A A049437 _Labos Elemer_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

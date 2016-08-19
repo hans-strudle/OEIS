@@ -1,0 +1,1 @@
+{"formerly":"","seq":"1,8,572,4778","description":"Numbers n such that (5^n + n)/3 is prime.","mathematica":"Do[ If[ PrimeQ[ (5^n + n)/3 ], Print[ n ] ], {n, 1, 5000} ]","keyword":"nonn","offset":"1,2","author":"_Robert G. Wilson v_, Nov 17 2000"}

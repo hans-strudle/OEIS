@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a015816
+Showing 1-1 of 1
+
+%I A015816
+%S A015816 1,1,1,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%T A015816 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+%U A015816 0,0,0,0,0,0,0,0,0,0,0,0,0
+%N A015816 Inverse of 1807th cyclotomic polynomial.
+%p A015816 with(numtheory,cyclotomic); c := n->series(1/cyclotomic(n,x),x,80);
+%K A015816 sign
+%O A015816 0,1
+%A A015816 _Simon Plouffe_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

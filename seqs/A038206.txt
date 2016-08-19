@@ -1,0 +1,16 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a038206
+Showing 1-1 of 1
+
+%I A038206
+%S A038206 0,1,9,10,36,45,55,82,91,99,100,235,297,369,370,379,414,657,675,703,
+%T A038206 756,792,909,918,945,964,990,991,999,1000,1296,1702,1782,2223,2728,
+%U A038206 3366,3646,3682,4132,4879,4906,4950,5050,5149,5292,6832,7191,7272,7389
+%N A038206 Can express a(n) with the digits of a(n)^2 in order, only adding plus signs.
+%e A038206 82^2=6724 and 6+72+4=82
+%K A038206 nonn,base
+%O A038206 0,3
+%A A038206 _Erich Friedman_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

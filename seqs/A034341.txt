@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034341
+Showing 1-1 of 1
+
+%I A034341
+%S A034341 1,2,4,8,16,36,80,193,497,1392,4282,14805,57875,258894,1321280,
+%T A034341 7570495,47305333,311742256,2103025726,14206632939,94726167427,
+%U A034341 618051904983,3927156178649,24243834619157,145277300343585
+%N A034341 Number of binary [ n,7 ] codes of dimension <= 7 without zero columns.
+%D A034341 H. Fripertinger and A. Kerber, in AAECC-11, Lect. Notes Comp. Sci. 948 (1995), 194-204.
+%H A034341 H. Fripertinger, <a href="http://www.mathe2.uni-bayreuth.de/frib/codes/tables.html">Isometry Classes of Codes</a>
+%Y A034341 Cf. A034337-. A diagonal of A076832.
+%K A034341 nonn
+%O A034341 1,2
+%A A034341 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

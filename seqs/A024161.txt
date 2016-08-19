@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a024161
+Showing 1-1 of 1
+
+%I A024161
+%S A024161 0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,2,0,2,1,1,1,5,1,2,3,5,2,8,1,5,2,5,
+%T A024161 3,12,2,7,6,12,4,16,4,12,5,11,5,22,6,16,9,18,5,25,8,20,9,18,8,39,10,
+%U A024161 22,17,29,12,42,11,32,15,37,11,49,9,32,22,41,15,58,12,48,19,41,18,73,19,46,30,58,22,86,20
+%N A024161 Number of integer-sided triangles with sides a,b,c, a<b<c, a+b+c=n such that a,b,c are pairwise relatively prime.
+%K A024161 nonn
+%O A024161 1,18
+%A A024161 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

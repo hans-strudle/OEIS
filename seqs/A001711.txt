@@ -1,0 +1,36 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a001711
+Showing 1-1 of 1
+
+%I A001711 M4429 N1873
+%S A001711 1,7,47,342,2754,24552,241128,2592720,30334320,383970240,5231113920,
+%T A001711 76349105280,1188825724800,19675048780800,344937224217600,
+%U A001711 6386713749964800,124548748102195200,2551797512248320000,54804198761303040000,1231237843834521600000
+%N A001711 Generalized Stirling numbers.
+%C A001711 The asymptotic expansion of the higher order exponential integral E(x,m=2,n=3) ~ exp(-x)/x^2*(1 - 7/x + 47/x^2 - 342/x^3 + 2754/x^4 - 24552/x^5 + 241128/x^6 - ... ) leads to the sequence given above. See A163931 and A028421 for more information. - _Johannes W. Meijer_, Oct 20 2009
+%C A001711 For n>4, a(n) mod n = 0 for n composite, = n-3 for n prime. - _Gary Detlefs_, Jul 18 2011
+%D A001711 Mitrinovic, D. S.; Mitrinovic, R. S.; Tableaux d'une classe de nombres relies aux nombres de Stirling. Univ. Beograd. Publ. Elektrotehn. Fak. Ser. Mat. Fiz. No. 77 1962, 77 pp.
+%D A001711 N. J. A. Sloane, A Handbook of Integer Sequences, Academic Press, 1973 (includes this sequence).
+%D A001711 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A001711 T. D. Noe, <a href="/A001711/b001711.txt">Table of n, a(n) for n = 0..100</a>
+%H A001711 Robert E. Moritz, <a href="/A001701/a001701.pdf">On the sum of products of n consecutive integers</a>, Univ. Washington Publications in Math., 1 (No. 3, 1926), 44-49 [Annotated scanned copy]
+%F A001711 E.g.f.: - log(1 - x)/(1 - x)^3 if offset 1. With offset 0: diff(- log(1 - x)/(1 - x)^3,x) = (1 - 3*log(1 - x))/(1 - x)^4.
+%F A001711 a(n) = sum((-1)^(n+k)*(k+1)*3^k*stirling1(n+1, k+1), k=0..n). - Borislav Crstici (bcrstici(AT)etv.utt.ro), Jan 26 2004
+%F A001711 a(n) = n!*sum((-1)^k*binomial(-3,k)/(n-k),k=0..n-1). - _Milan Janjic_, Dec 14 2008
+%F A001711 a(n) = ( A000254(n+3) -3* A001710(n+3) )/2. - _Gary Detlefs_, May 24 2010
+%F A001711 a(n) = (n+3)!/4 * (2*h(n+3)-3), where h(n)=sum(1/k,k=1..n). - _Gary Detlefs_, Aug 15 2010
+%F A001711 a(n) = n!*[2]h(n), where [k]h(n) denotes the k-th successive summation of the harmonic numbers from 0 to n. With offset 1. - _Gary Detlefs_, Jan 04 2011
+%F A001711 a(n) = (n+3)! * sum(1/(2*k+4), k=1..n+1). - _Gary Detlefs_, Sep 14 2011
+%F A001711 a(n) = (n+1)! * sum(binomial(k+2,2)/(n+1-k), k=0..n). - _Gary Detlefs_, Dec 01 2011
+%p A001711 a := n-> add(1/2*((n+3)!/(k+3)), k=0..n): seq(a(n), n=0..19); # _Zerinvary Lajos_, Jan 22 2008
+%p A001711 a := n -> (n+1)!*hs2(n+1): hs2 := n-> add(hs(k), k=0..n): hs := n-> add(h(k), k=0..n): h := n-> add(1/k, k=1..n): seq(a(n), n=0..19); # _Gary Detlefs_, Jan 01 2011
+%t A001711 f[k_] := k + 2; t[n_] := Table[f[k], {k, 1, n}]; a[n_] := SymmetricPolynomial[n - 1, t[n]]; Table[a[n], {n, 1, 16}]; (* _Clark Kimberling_, Dec 29 2011 *)
+%Y A001711 Related to n!*the k-th successive summation of the harmonic numbers: k=0..A000254, k=1..A001705, k=2..A001711, k=3..A001716, k=4..A001721, k=5..A051524, k=6..A051545, k=7..A051560, k=8..A051562, k=9..A051564.
+%K A001711 nonn
+%O A001711 0,2
+%A A001711 _N. J. A. Sloane_
+%E A001711 More terms from Borislav Crstici (bcrstici(AT)etv.utt.ro), Jan 26 2004
+%E A001711 Maple program corrected and edited by _Johannes W. Meijer_, Nov 28 2012
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

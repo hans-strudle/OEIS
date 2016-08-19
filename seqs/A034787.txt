@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a034787
+Showing 1-1 of 1
+
+%I A034787
+%S A034787 1,11,187,4301,124729,4365515,178986115,8412347405,445854412465,
+%T A034787 26305410335435,1709851671803275,121399468698032525,
+%U A034787 9347759089748504425,775864004449125867275,69051896395972202187475
+%N A034787 a(n) = n-th sextic factorial number divided by 5.
+%F A034787 5*a(n) = (6*n-1)(!^6) = product_{j=1..n} (6*j-1) = (6*n)!/(3^(2*n)*2^(2*n+1)*(2*n)!*A008542(n)*A007559(n)*A034000(n)).
+%F A034787 E.g.f.: (-1 + (1-6*x)^(-5/6))/5.
+%F A034787 a(n) ~ sqrt(2*Pi) * 6/(5*Gamma(5/6)) * n^(4/3) * (6*n/e)^n * (1 + (61/72)/n + ...}. - Joe Keane (jgk(AT)jgk.org), Nov 24 2001
+%t A034787 s=1;lst={s};Do[s+=n*s;AppendTo[lst, s], {n, 10, 5!, 6}];lst (* _Vladimir Joseph Stephan Orlovsky_, Nov 08 2008 *)
+%Y A034787 Cf. A008542, A034689, A034723, A034724, A034788.
+%K A034787 easy,nonn
+%O A034787 1,2
+%A A034787 _Wolfdieter Lang_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

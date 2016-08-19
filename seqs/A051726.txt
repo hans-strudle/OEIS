@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a051726
+Showing 1-1 of 1
+
+%I A051726
+%S A051726 0,0,0,1,1,1,1,7,7,7,1,11,11,143,91,91,14,17,34,323,19,133,77,1771,
+%T A051726 253,115,65,195,273,609,203,899,124,682,748,1309,119,259,703,9139,247,
+%U A051726 533,287,12341,3311,473,253,1081,2162,2303,490,4165,1105,11713
+%N A051726 Numerator of n(n-1)(n-2)/720.
+%D A051726 R. L. Graham, D. E. Knuth and O. Patashnik, Concrete Mathematics. Addison-Wesley, Reading, MA, 1990, p. 269.
+%Y A051726 Cf. A051727.
+%K A051726 nonn,easy,frac
+%O A051726 0,8
+%A A051726 _N. J. A. Sloane_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

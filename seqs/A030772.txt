@@ -1,0 +1,14 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a030772
+Showing 1-1 of 1
+
+%I A030772
+%S A030772 1,5,9,14,15,21,22,30,31,41,42,54,55,69,70,87,88,107,108,130,153,177,
+%T A030772 207,239,274,312,354,400,449,502,557,614,674,738,808
+%N A030772 Numbers n such that s(n)=s(j) for j=1,2,...,n-1, where s=A030767 (with s(0)=0).
+%K A030772 nonn
+%O A030772 1,2
+%A A030772 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

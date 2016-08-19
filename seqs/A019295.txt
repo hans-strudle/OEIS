@@ -1,0 +1,18 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a019295
+Showing 1-1 of 1
+
+%I A019295
+%S A019295 1,2,5,2,24,2,24,3,168,12,1834560,10,84480,12,4,2,92520,20,62720,84,3,
+%T A019295 49920,6516224,7,881280,28,3360,2
+%N A019295 Let sigma_m (n) be result of applying sum-of-divisors function m times to n; let m(n) = min m such that n divides sigma_m (n); let k(n) = sigma_{m(n)}(n)/n; sequence gives k(n).
+%C A019295 See also the Cohen-te Reile links under A019276.
+%D A019295 Graeme L. Cohen and Herman J. J. te Riele, Iterating the sum-of-divisors function, Experimental Mathematics, 5 (1996), pp. 93-100.
+%H A019295 Experimental Mathematics, <a href="http://www.emis.de/journals/EM/">Home Page</a>
+%Y A019295 Cf. A019294.
+%K A019295 nonn
+%O A019295 1,2
+%A A019295 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

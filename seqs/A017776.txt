@@ -1,0 +1,20 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017776
+Showing 1-1 of 1
+
+%I A017776
+%S A017776 1,60,1770,34220,487635,5461512,50063860,386206920,2558620845,
+%T A017776 14783142660,75394027566,342700125300,1399358844975,5166863427600,
+%U A017776 17345898649800,53194089192720,149608375854525,387221678682300,925029565741050,2044802197953900
+%N A017776 Binomial coefficients C(60,n).
+%C A017776 Row 60 of A007318.
+%H A017776 Nathaniel Johnston, <a href="/A017776/b017776.txt">Table of n, a(n) for n = 0..60</a> (full sequence)
+%p A017776 seq(binomial(60,n), n=0..60); # Nathaniel Johnston, Jun 24 2011
+%o A017776 (Sage) [binomial(60, n) for n in range(18)] # [From _Zerinvary Lajos_, May 28 2009]
+%Y A017776 Cf. A010926-A011001, A017765-A017775, A017777-A017816.
+%K A017776 nonn,fini,full,easy
+%O A017776 0,2
+%A A017776 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

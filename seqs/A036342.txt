@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a036342
+Showing 1-1 of 1
+
+%I A036342
+%S A036342 2,3,5,7,11,23,67,89,4567,23456789,23456789101112123,
+%T A036342 891011121234567891011,23456789101112123456789101112123,
+%U A036342 567891011121234567891011121234567891011
+%N A036342 Prime concatenated analog clock numbers read clockwise.
+%C A036342 The hours 10, 11 and 12 are taken 'complete and unreversed'.
+%H A036342 C. Rivera, <a href="http://www.primepuzzles.net/puzzles/puzz_019.htm">Related puzzle</a>
+%H A036342 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ClockPrime.html">Clock Prime</a>
+%Y A036342 Cf. A034326, A036343, A036344.
+%K A036342 nonn,base
+%O A036342 0,1
+%A A036342 _Patrick De Geest_, Dec 15 1998
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,26 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a000751
+Showing 1-1 of 1
+
+%I A000751
+%S A000751 1,2,5,14,42,143,555,2485,12649,72463,461207,3229622,24671899,
+%T A000751 204185616,1819837153,17378165240,177012514388,1915724368181,
+%U A000751 21952583954117,265533531724484,3380877926676504,45199008472762756
+%N A000751 Boustrophedon transform of partition numbers.
+%H A000751 Peter Luschny, <a href="http://oeis.org/wiki/User:Peter_Luschny/SeidelTransform">An old operation on sequences: the Seidel transform</a>
+%H A000751 J. Millar, N. J. A. Sloane and N. E. Young, A new operation on sequences: the Boustrophedon on transform, J. Combin. Theory, 17A 44-54 1996 (<a href="http://neilsloane.com/doc/bous.txt">Abstract</a>, <a href="http://neilsloane.com/doc/bous.pdf">pdf</a>, <a href="http://neilsloane.com/doc/bous.ps">ps</a>).
+%H A000751 N. J. A. Sloane, <a href="/transforms.txt">Transforms</a>
+%H A000751 Wikipedia, <a href="http://en.wikipedia.org/wiki/Boustrophedon_transform">Boustrophedon_transform</a>
+%H A000751 <a href="/index/Bo#boustrophedon">Index entries for sequences related to boustrophedon transform</a>
+%F A000751 a(n) = sum(A109449(n,k)*A000041(k): k=0..n). - _Reinhard Zumkeller_, Nov 03 2013
+%t A000751 t[n_, 0] := PartitionsP[n]; t[n_, k_] := t[n, k] = t[n, k - 1] + t[n - 1, n - k]; a[n_] := t[n, n]; Array[a, 30, 0] (* _Jean-François Alcover_, Feb 12 2016 *)
+%o A000751 (Haskell)
+%o A000751 a000751 n = sum $ zipWith (*) (a109449_row n) a000041_list
+%o A000751 -- _Reinhard Zumkeller_, Nov 03 2013
+%Y A000751 Cf. A000733, A230957.
+%K A000751 nonn
+%O A000751 0,2
+%A A000751 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

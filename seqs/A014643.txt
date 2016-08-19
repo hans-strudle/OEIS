@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a014643
+Showing 1-1 of 1
+
+%I A014643
+%S A014643 1,1,1,2,1,2,2,1,2,2,3,3,1,2,2,3,3,4,4,4,5,5,5,1,2,2,3,3,4,4,4,5,5,5,
+%T A014643 6,6,6,6,7,7,7,7,8,8,8,8,9,9,9,9,9,10,10,10,10,10,11,11,11,11,11
+%N A014643 Triangular array starting with {1,1}; then i-th term in a row gives number of i's in next row.
+%e A014643 {1,1},{1,2},{1,2,2},{1,2,2,3,3},...
+%Y A014643 Cf. A014644, A011784. Rows converge to A001462.
+%K A014643 tabl,nonn
+%O A014643 1,4
+%A A014643 _N. J. A. Sloane_.
+%E A014643 More terms from _Patrick De Geest_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

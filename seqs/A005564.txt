@@ -1,0 +1,48 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a005564
+Showing 1-1 of 1
+
+%I A005564 M4134
+%S A005564 6,20,45,84,140,216,315,440,594,780,1001,1260,1560,1904,2295,2736,
+%T A005564 3230,3780,4389,5060,5796,6600,7475,8424,9450,10556,11745,13020,14384,
+%U A005564 15840,17391,19040,20790,22644,24605,26676,28860,31160,33579,36120,38786,41580,44505
+%N A005564 Number of n-step walks on square lattice in the first quadrant which finish at distance n-3 from the x-axis.
+%C A005564 The steps are N, S, E or W.
+%D A005564 N. J. A. Sloane and Simon Plouffe, The Encyclopedia of Integer Sequences, Academic Press, 1995 (includes this sequence).
+%H A005564 Vincenzo Librandi, <a href="/A005564/b005564.txt">Table of n, a(n) for n = 0..1000</a>
+%H A005564 R. K. Guy, Catwalks, <a href="http://www.cs.uwaterloo.ca/journals/JIS/VOL3/GUY/catwalks.html">Sandsteps and Pascal Pyramids</a>, J. Integer Seqs., Vol. 3 (2000), #00.1.6. See figure 4, sum of terms in (n-2)-nd row.
+%H A005564 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/MasterThesis.pdf">Approximations de séries génératrices et quelques conjectures</a>, Dissertation, Université du Québec à Montréal, 1992.
+%H A005564 Simon Plouffe, <a href="http://www.lacim.uqam.ca/%7Eplouffe/articles/FonctionsGeneratrices.pdf">1031 Generating Functions and Conjectures</a>, Université du Québec à Montréal, 1992.
+%H A005564 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (4,-6,4,-1).
+%F A005564 G.f.: x^3 * ( 6 - 4*x + x^2 ) / ( 1 - x )^4.
+%F A005564 a(n) = (n-2)*(n)*(n+1)/2.
+%F A005564 sum (((n+j-1)^2-(n-j+1)^2)/4,j=0..n). - _Zerinvary Lajos_, Sep 13 2006
+%F A005564 a(n) = sum(k*(n+1), k=2..n, n>=2. - _Zerinvary Lajos_, Jan 29 2008
+%F A005564 a(n) = 4*binomial(n+4,2)*binomial(n+4,4)/binomial(n+4,3) = (n+1)*binomial(n+4,2). - _Gary Detlefs_, Dec 08 2011 [corrected by _R. J. Mathar_, Dec 09 2011]
+%F A005564 a(n) = 4*a(n-1) -6*a(n-2) +4*a(n-3) -a(n-4). - _Vincenzo Librandi_, Jun 18 2012
+%e A005564 The n=4 diagram in Fig. 4 of Guy's paper is
+%e A005564 1
+%e A005564 0 4
+%e A005564 9 0 6
+%e A005564 0 16 0 4
+%e A005564 10 0 9 0 1
+%e A005564 Adding 16+4 we get a(4)=20.
+%e A005564 The a(3) = 6 walks are EEN, ENE, ENW, NEW, NSN, NNS. - _Michael Somos_, Jun 09 2014
+%e A005564 G.f. = 6*x^3 + 20*x^4 + 45*x^5 + 84*x^6 + 140*x^7 + 216*x^8 + 315*x^9 + ...
+%p A005564 A005564 := proc(n)
+%p A005564         (n-2)*(n)*(n+1)/2 ;
+%p A005564 end proc: seq(A005564(n),n=0..10) ; # _R. J. Mathar_, Dec 09 2011
+%p A005564 A005564:=(6-4*z+z**2)/(z-1)**4; # _Simon Plouffe_ in his 1992 dissertation
+%t A005564 Table[(n-2)*Binomial[n+1, 2], {n, 3, 40}]
+%t A005564 LinearRecurrence[{4,-6,4,-1},{6,20,45,84},50] (* _Vincenzo Librandi_, Jun 18 2012 *)
+%o A005564 (PARI) a(n)=(n-2)*(n)*(n+1)/2 \\ _Charles R Greathouse IV_, Dec 12 2011
+%o A005564 (MAGMA) I:=[6, 20, 45, 84]; [n le 4 select I[n] else 4*Self(n-1)-6*Self(n-2)+4*Self(n-3)-Self(n-4): n in [1..45]]; // _Vincenzo Librandi_, Jun 18 2012
+%Y A005564 First differences of A001701.
+%K A005564 nonn,walk,easy
+%O A005564 3,1
+%A A005564 _N. J. A. Sloane_
+%E A005564 Entry revised by _N. J. A. Sloane_, Jul 06 2012
+%E A005564 More terms from _Vladimir Joseph Stephan Orlovsky_, Jun 27 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

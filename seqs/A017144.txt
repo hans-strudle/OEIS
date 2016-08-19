@@ -1,0 +1,19 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a017144
+Showing 1-1 of 1
+
+%I A017144
+%S A017144 1679616,1475789056,54875873536,656100000000,4347792138496,
+%T A017144 20047612231936,72301961339136,218340105584896,576480100000000,
+%U A017144 1370114370683136,2992179271065856,6095689385410816,11716593810022656
+%N A017144 a(n) = (8*n+6)^8.
+%H A017144 Vincenzo Librandi, <a href="/A017144/b017144.txt">Table of n, a(n) for n = 0..10000</a>
+%F A017144 a(n) = 256*A016844(n). - _R. J. Mathar_, Aug 26 2015
+%o A017144 (MAGMA) [(8*n+6)^8: n in [0..20]]; // Vincenzo Librandi, Jul 22 2011
+%Y A017144 Cf. A016844.
+%K A017144 nonn,easy
+%O A017144 0,1
+%A A017144 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

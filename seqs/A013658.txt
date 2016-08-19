@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a013658
+Showing 1-1 of 1
+
+%I A013658
+%S A013658 39,55,56,68,84,120,132,136,155,168,184,195,203,219,228,259,280,291,
+%T A013658 292,312,323,328,340,355,372,388,408,435,483,520,532,555,568,595,627,
+%U A013658 667,708,715,723,760,763,772,795,955,1003,1012,1027,1227,1243
+%N A013658 Discriminants of imaginary quadratic fields with class number 4 (negated).
+%D A013658 H. Cohen, Course in Computational Alg. No. Theory, Springer, 1993, p. 229.
+%D A013658 Sung Sik Woo, Cubic formula and cubic curves, Commun. Korean Math. Soc. 28 (2013), No. 2, pp. 209-224; http://dx.doi.org/10.4134/CKMS.2013.28.2.209; http://www.mathnet.or.kr/mathnet/thesis_file/CKMS-28-2-209-224.pdf
+%H A013658 Giovanni Resta, <a href="/A013658/b013658.txt">Table of n, a(n) for n = 1..54</a> (full sequence, from Weisstein's World of Mathematics)
+%H A013658 Rick L. Shepherd, <a href="http://libres.uncg.edu/ir/uncg/f/Shepherd_uncg_0154M_11099.pdf">Binary quadratic forms and genus theory</a>, Master of Arts Thesis, University of North Carolina at Greensboro, 2013.
+%H A013658 Eric Weisstein's World of Mathematics, <a href="http://mathworld.wolfram.com/ClassNumber.html">Class Number</a>
+%H A013658 <a href="/index/Qua#quadfield">Index entries for sequences related to quadratic fields</a>
+%t A013658 Union[(-NumberFieldDiscriminant[Sqrt[-#]] &) /@ Select[Range[1250], NumberFieldClassNumber[Sqrt[-#]] == 4 &]] (* _Jean-François Alcover_, Jun 27 2012 *)
+%K A013658 nonn,fini,full
+%O A013658 1,1
+%A A013658 Eric Rains (rains(AT)caltech.edu)
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

@@ -1,0 +1,15 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032876
+Showing 1-1 of 1
+
+%I A032876
+%S A032876 1,2,3,4,7,8,9,13,14,19,26,27,28,29,51,52,53,54,57,58,59,76,77,78,79,
+%T A032876 82,83,84,88,89,101,102,103,104,107,108,109,113,114,119,176,177,178,
+%U A032876 179,182,183,184,201,202,203,204,207,208,209,213
+%N A032876 Numbers n such that base 5 representation Sum{d(i)*5^i: i=0,1,...,m) has d(0)>d(1)<d(2)>...
+%K A032876 nonn,base
+%O A032876 1,2
+%A A032876 _Clark Kimberling_
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

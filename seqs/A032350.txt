@@ -1,0 +1,22 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a032350
+Showing 1-1 of 1
+
+%I A032350
+%S A032350 1,4,6,8,9,22,33,44,55,66,77,88,99,111,121,141,161,171,202,212,222,
+%T A032350 232,242,252,262,272,282,292,303,323,333,343,363,393,404,414,424,434,
+%U A032350 444,454,464,474,484,494,505,515,525,535,545,555,565,575,585,595,606,616
+%N A032350 Palindromic nonprime numbers.
+%C A032350 Complement of A002385 (palindromic primes) with respect to A002113 (palindromic numbers). Union of A222724, A043047 (without number 2), A222726, A043039, A043040 (without number 5), A043041, A222728, A043043 and A222729. - Jaroslav Krizek, Mar 12 2013
+%H A032350 Jaroslav Krizek, <a href="/A032350/b032350.txt">Table of n, a(n) for n = 1..10217</a>
+%H A032350 P. De Geest, <a href="http://www.worldofnumbers.com/index.html">World!Of Numbers</a>
+%H A032350 P. De Geest, <a href="http://www.worldofnumbers.com/palpri.htm">World!Of Palindromic Primes</a>
+%t A032350 palq[n_] := IntegerDigits[n]==Reverse[IntegerDigits[n]]; Select[Range[700], palq[ # ]&&!PrimeQ[ # ]&]
+%Y A032350 Cf. A002385.
+%K A032350 easy,nonn,base
+%O A032350 1,2
+%A A032350 _Patrick De Geest_
+%E A032350 Edited by _Dean Hickerson_, Oct 22 2002
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

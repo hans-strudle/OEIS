@@ -1,0 +1,17 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a047369
+Showing 1-1 of 1
+
+%I A047369
+%S A047369 1,2,3,4,5,8,9,10,11,12,15,16,17,18,19,22,23,24,25,26,29,30,31,32,33,
+%T A047369 36,37,38,39,40,43,44,45,46,47,50,51,52,53,54,57,58,59,60,61,64,65,66,
+%U A047369 67,68,71,72,73,74,75,78,79
+%N A047369 Numbers that are congruent to {1, 2, 3, 4, 5} mod 7.
+%H A047369 <a href="/index/Rec">Index entries for linear recurrences with constant coefficients</a>, signature (1,0,0,0,1,-1)
+%F A047369 G.f. x*(1+x+x^2+x^3+x^4+2*x^5) / ( (x^4+x^3+x^2+x+1)*(x-1)^2 ). - R. J. Mathar, Dec 04 2011
+%K A047369 nonn
+%O A047369 1,2
+%A A047369 _N. J. A. Sloane_.
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE

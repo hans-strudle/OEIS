@@ -1,0 +1,21 @@
+# Greetings from The On-Line Encyclopedia of Integer Sequences! http://oeis.org/
+
+Search: id:a058490
+Showing 1-1 of 1
+
+%I A058490
+%S A058490 1,5,27,41,146,243,510,887,1755,2728,5052,7857,13157,20253,32805,
+%T A058490 48680,76568,112320,169814,246263,365013,519046,755632,1063368,
+%U A058490 1516404,2112551,2972160,4089098,5683166,7750782,10633276,14382932,19539387
+%N A058490 McKay-Thompson series of class 12b for Monster.
+%D A058490 D. Ford, J. McKay and S. P. Norton, More on replicable functions, Commun. Algebra 22, No. 13, 5175-5193 (1994).
+%H A058490 <a href="/index/Mat#McKay_Thompson">Index entries for McKay-Thompson series for Monster simple group</a>
+%e A058490 T12b = 1/q + 5*q + 27*q^3 + 41*q^5 + 146*q^7 + 243*q^9 + 510*q^11 + ...
+%Y A058490 Cf. A000521, A007240, A014708, A007241, A007267, A045478, etc.
+%Y A058490 Cf. A156215.
+%K A058490 nonn
+%O A058490 0,2
+%A A058490 _N. J. A. Sloane_, Nov 27 2000
+%E A058490 More terms from _Michael Somos_, Feb 06 2009
+
+# Content is available under The OEIS End-User License Agreement: http://oeis.org/LICENSE
